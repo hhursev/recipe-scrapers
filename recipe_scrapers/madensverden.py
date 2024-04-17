@@ -7,9 +7,6 @@ class MadensVerden(AbstractScraper):
     def host(cls):
         return "madensverden.dk"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

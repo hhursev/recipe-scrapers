@@ -15,9 +15,6 @@ class PlatingPixels(AbstractScraper):
             return author_tag.next_sibling.strip()
         return "Plating Pixels"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

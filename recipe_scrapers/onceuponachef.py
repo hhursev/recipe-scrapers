@@ -15,9 +15,6 @@ class OnceUponAChef(AbstractScraper):
         author_name = normalize_string(author_tag.get_text())
         return author_name
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

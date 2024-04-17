@@ -7,9 +7,6 @@ class Food52(AbstractScraper):
     def host(cls):
         return "food52.com"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return self.schema.total_time()
 

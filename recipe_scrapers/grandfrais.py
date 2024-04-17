@@ -13,9 +13,6 @@ class GrandFrais(AbstractScraper):
     def host(cls):
         return "grandfrais.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return None
 

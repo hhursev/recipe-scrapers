@@ -8,9 +8,6 @@ class BestRecipes(AbstractScraper):
     def host(cls):
         return "bestrecipes.com.au"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

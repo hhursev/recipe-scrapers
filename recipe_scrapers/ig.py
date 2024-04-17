@@ -9,9 +9,6 @@ class IG(AbstractScraper):
     def host(cls):
         return "receitas.ig.com.br"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         nav = self.soup.find("nav", {"class": "nav-mais-receitas"})
         if nav:

@@ -10,9 +10,6 @@ class AlbertHeijn(AbstractScraper):
     def host(cls):
         return "ah.nl"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

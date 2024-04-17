@@ -7,8 +7,5 @@ class CookEatShare(AbstractScraper):
     def host(cls):
         return "cookeatshare.com"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return None

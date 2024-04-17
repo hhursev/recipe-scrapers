@@ -7,9 +7,6 @@ class BonAppetit(AbstractScraper):
     def host(cls):
         return "bonappetit.com"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return None
 

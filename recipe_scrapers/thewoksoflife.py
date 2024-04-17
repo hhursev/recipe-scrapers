@@ -7,9 +7,6 @@ class Thewoksoflife(AbstractScraper):
     def host(cls):
         return "thewoksoflife.com"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

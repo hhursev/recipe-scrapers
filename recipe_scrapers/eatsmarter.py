@@ -8,9 +8,6 @@ class Eatsmarter(AbstractScraper):
     def host(cls, domain="com"):
         return f"eatsmarter.{domain}"
 
-    def title(self):
-        return self.schema.title()
-
     def yields(self):
         return self.schema.yields()
 

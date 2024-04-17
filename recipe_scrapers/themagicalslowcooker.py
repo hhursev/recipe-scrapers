@@ -9,9 +9,6 @@ class TheMagicalSlowCooker(AbstractScraper):
     def host(cls):
         return "themagicalslowcooker.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

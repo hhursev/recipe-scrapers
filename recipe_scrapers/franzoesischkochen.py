@@ -12,9 +12,6 @@ class FranzoesischKochen(AbstractScraper):
         # if they do, then we can use self.schema.author() instead here
         return self.schema.data.get("author").get("Name")
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return self.schema.total_time()
 

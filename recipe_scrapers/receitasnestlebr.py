@@ -10,9 +10,6 @@ class ReceitasNestleBR(AbstractScraper):
     def host(cls):
         return "receitasnestle.com.br"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

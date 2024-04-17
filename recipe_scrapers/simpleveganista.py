@@ -8,9 +8,6 @@ class SimpleVeganista(AbstractScraper):
     def host(cls):
         return "simple-veganista.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

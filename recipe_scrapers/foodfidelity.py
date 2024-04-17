@@ -9,9 +9,6 @@ class FoodFidelity(AbstractScraper):
     def host(cls):
         return "foodfidelity.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

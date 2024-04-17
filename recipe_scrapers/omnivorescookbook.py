@@ -9,9 +9,6 @@ class OmnivoresCookbook(AbstractScraper):
     def host(cls):
         return "omnivorescookbook.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

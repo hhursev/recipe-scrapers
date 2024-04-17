@@ -8,9 +8,6 @@ class PinchOfYum(AbstractScraper):
     def host(cls):
         return "pinchofyum.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

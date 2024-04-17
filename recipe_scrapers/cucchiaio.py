@@ -6,6 +6,3 @@ class Cucchiaio(AbstractScraper):
     @classmethod
     def host(cls):
         return "cucchiaio.it"
-
-    def title(self):
-        return self.schema.title()

@@ -7,8 +7,5 @@ class DavidLebovitz(AbstractScraper):
     def host(cls):
         return "davidlebovitz.com"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()

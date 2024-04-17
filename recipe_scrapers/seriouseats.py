@@ -7,9 +7,6 @@ class SeriousEats(AbstractScraper):
     def host(cls):
         return "seriouseats.com"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

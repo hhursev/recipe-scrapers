@@ -8,9 +8,6 @@ class Arla(AbstractScraper):
     def host(cls):
         return "arla.se"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

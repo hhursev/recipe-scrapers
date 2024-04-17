@@ -20,9 +20,6 @@ class ZeitWochenmarkt(AbstractScraper):
     def host(cls):
         return "zeit.de"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         return self.soup.find("a", {"rel": "author"}).get_text().strip()
 

@@ -9,9 +9,6 @@ class JustOneCookbook(AbstractScraper):
     def host(cls):
         return "justonecookbook.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

@@ -9,9 +9,6 @@ class CarlsBadCravings(AbstractScraper):
     def host(cls):
         return "carlsbadcravings.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

@@ -9,9 +9,6 @@ class ZauberTopf(AbstractScraper):
     def host(cls):
         return "zaubertopf.de"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

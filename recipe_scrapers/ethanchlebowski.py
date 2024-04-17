@@ -7,9 +7,6 @@ class EthanChlebowski(AbstractScraper):
     def host(cls):
         return "ethanchlebowski.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

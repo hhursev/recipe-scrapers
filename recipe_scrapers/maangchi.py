@@ -9,9 +9,6 @@ class Maangchi(AbstractScraper):
     def host(cls):
         return "maangchi.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

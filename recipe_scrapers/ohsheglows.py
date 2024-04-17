@@ -7,9 +7,6 @@ class OhSheGlows(AbstractScraper):
     def host(cls):
         return "ohsheglows.com"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return self.schema.total_time()
 

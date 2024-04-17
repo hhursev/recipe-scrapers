@@ -15,9 +15,6 @@ class MundoDeReceitasBimby(AbstractScraper):
             self.soup.find("span", class_="recipe-author").find("a").text
         )
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

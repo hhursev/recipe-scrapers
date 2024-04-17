@@ -9,9 +9,6 @@ class AddAPinch(AbstractScraper):
     def host(cls):
         return "addapinch.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

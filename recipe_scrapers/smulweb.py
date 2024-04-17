@@ -12,9 +12,6 @@ class Smulweb(AbstractScraper):
     def host(cls):
         return "smulweb.nl"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

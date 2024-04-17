@@ -8,9 +8,6 @@ class TheHappyFoodie(AbstractScraper):
     def host(cls):
         return "thehappyfoodie.co.uk"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

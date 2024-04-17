@@ -8,9 +8,6 @@ class BowlOfDelicious(AbstractScraper):
     def host(cls):
         return "bowlofdelicious.com"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

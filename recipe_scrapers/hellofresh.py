@@ -10,9 +10,6 @@ class HelloFresh(AbstractScraper):
     def host(cls, domain="com"):
         return f"hellofresh.{domain}"
 
-    def title(self):
-        return self.schema.title()
-
     def cook_time(self):
         script_tag = self.soup.find("script", {"id": "__NEXT_DATA__"})
         if script_tag:

@@ -9,9 +9,6 @@ class BlueJeanChef(AbstractScraper):
     def host(cls):
         return "bluejeanchef.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

@@ -8,9 +8,6 @@ class Epicurious(AbstractScraper):
     def host(cls):
         return "epicurious.com"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         return self.soup.find("a", {"itemprop": "author"}).get_text()
 

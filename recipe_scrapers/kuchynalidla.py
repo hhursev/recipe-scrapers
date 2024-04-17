@@ -14,9 +14,6 @@ class KuchynaLidla(AbstractScraper):
     def host(cls):
         return "kuchynalidla.sk"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category().strip()
 

@@ -8,9 +8,6 @@ class AltonBrown(AbstractScraper):
     def host(cls):
         return "altonbrown.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

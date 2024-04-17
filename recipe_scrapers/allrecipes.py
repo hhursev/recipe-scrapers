@@ -19,9 +19,6 @@ class AllRecipesCurated(AbstractScraper):
     def host(cls):
         return "allrecipes.com"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

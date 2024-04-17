@@ -7,9 +7,6 @@ class Springlane(AbstractScraper):
     def host(cls):
         return "springlane.de"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

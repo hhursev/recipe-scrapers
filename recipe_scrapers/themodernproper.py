@@ -8,9 +8,6 @@ class TheModernProper(AbstractScraper):
     def host(cls):
         return "themodernproper.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

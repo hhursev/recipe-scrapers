@@ -12,9 +12,6 @@ class AfghanKitchenRecipes(AbstractScraper):
         given_name = self.soup.find("h5", {"class": "given-name"})
         return given_name and given_name.find("a", {"rel": "author"}).get_text()
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         ready_in = self.soup.find("li", {"class": "ready-in"})
         if not ready_in:

@@ -9,9 +9,6 @@ class USAPears(AbstractScraper):
     def host(cls):
         return "usapears.org"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

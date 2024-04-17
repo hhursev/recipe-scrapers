@@ -8,9 +8,6 @@ class ForkToSpoon(AbstractScraper):
     def host(cls):
         return "forktospoon.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

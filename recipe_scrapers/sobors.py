@@ -7,9 +7,6 @@ class SoBors(AbstractScraper):
     def host(cls):
         return "sobors.hu"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

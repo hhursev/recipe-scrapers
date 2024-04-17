@@ -21,9 +21,6 @@ class KitchenStories(AbstractScraper):
         schema_data = unescape(str(schema_data))
         self.schema = SchemaOrg(schema_data)
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

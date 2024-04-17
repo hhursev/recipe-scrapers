@@ -10,9 +10,6 @@ class Valdemarsro(AbstractScraper):
     def host(cls):
         return "valdemarsro.dk"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         category_group_element = self.soup.find("div", {"class": "recipe-bar"})
 

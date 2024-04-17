@@ -9,9 +9,6 @@ class PinkOwlKitchen(AbstractScraper):
     def host(cls):
         return "pinkowlkitchen.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

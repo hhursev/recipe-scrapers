@@ -12,9 +12,6 @@ class Rezeptwelt(AbstractScraper):
     def author(self):
         return normalize_string(self.soup.find("span", {"id": "viewRecipeAuthor"}).text)
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

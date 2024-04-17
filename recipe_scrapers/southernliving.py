@@ -11,9 +11,6 @@ class SouthernLiving(AbstractScraper):
     def host(cls):
         return "southernliving.com"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return self.schema.total_time()
 

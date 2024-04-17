@@ -7,9 +7,6 @@ class EatTolerant(AbstractScraper):
     def host(cls):
         return "eattolerant.de"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

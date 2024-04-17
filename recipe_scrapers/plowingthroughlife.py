@@ -9,9 +9,6 @@ class PlowingThroughLife(AbstractScraper):
     def host(cls):
         return "plowingthroughlife.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

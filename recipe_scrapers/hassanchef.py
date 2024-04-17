@@ -8,9 +8,6 @@ class HassanChef(AbstractScraper):
     def host(cls):
         return "hassanchef.com"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         return self.schema.author().title()
 

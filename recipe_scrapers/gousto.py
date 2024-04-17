@@ -8,9 +8,6 @@ class Gousto(AbstractScraper):
     def host(cls):
         return "gousto.co.uk"
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return self.schema.total_time()
 

@@ -8,9 +8,6 @@ class Ricetta(AbstractScraper):
     def host(cls):
         return "ricetta.it"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

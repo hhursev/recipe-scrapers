@@ -15,9 +15,6 @@ class CookTalk(AbstractScraper):
         )
         return author_element.get_text()
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         article_meta = self.soup.find("div", {"class": "article-meta"})
         category_element = article_meta.find("small", {"class": "meta-category"})

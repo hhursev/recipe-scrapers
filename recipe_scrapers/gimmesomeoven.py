@@ -7,9 +7,6 @@ class GimmeSomeOven(AbstractScraper):
     def host(cls):
         return "gimmesomeoven.com"
 
-    def title(self):
-        return self.schema.title()
-
     def description(self):
         return self.schema.description()
 

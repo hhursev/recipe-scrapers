@@ -8,9 +8,6 @@ class KwestiaSmaku(AbstractScraper):
     def host(cls):
         return "kwestiasmaku.com"
 
-    def title(self):
-        return self.schema.title()
-
     def yields(self):
         return get_yields(
             self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})

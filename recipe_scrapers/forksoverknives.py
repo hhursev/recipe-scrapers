@@ -43,9 +43,6 @@ class ForksOverKnives(AbstractScraper):
         author = self.soup.find("div", attrs={"class": "post-info"}).find("a")
         return normalize_string(author.get_text())
 
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         return self.schema.total_time()
 

@@ -13,9 +13,6 @@ class BareFootContessa(AbstractScraper):
     def author(self):
         return "Ina Garten"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

@@ -8,9 +8,6 @@ class DomesticateMe(AbstractScraper):
     def host(cls):
         return "domesticate-me.com"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         author_from_schema = self.schema.author()
         if author_from_schema:

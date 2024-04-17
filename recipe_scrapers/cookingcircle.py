@@ -15,9 +15,6 @@ class CookingCircle(AbstractScraper):
             .get_text()
         )
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

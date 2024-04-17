@@ -9,9 +9,6 @@ class WeAreNotMartha(AbstractScraper):
     def host(cls):
         return "wearenotmartha.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

@@ -35,9 +35,6 @@ class Woolworths(AbstractScraper):
     def canonical_url(self):
         return self.url
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

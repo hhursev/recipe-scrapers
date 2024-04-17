@@ -8,9 +8,6 @@ class TheKitchenCommunity(AbstractScraper):
     def host(cls):
         return "thekitchencommunity.org"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

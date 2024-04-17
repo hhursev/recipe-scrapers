@@ -13,9 +13,6 @@ class KitchenAidAustralia(AbstractScraper):
     def host(cls):
         return "kitchenaid.com.au"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

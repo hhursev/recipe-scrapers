@@ -10,9 +10,6 @@ class PickUpLimes(AbstractScraper):
     def host(cls):
         return "pickuplimes.com"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

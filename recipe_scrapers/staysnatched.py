@@ -8,9 +8,6 @@ class StaySnatched(AbstractScraper):
     def host(cls):
         return "staysnatched.com"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         author_element = self.soup.find(
             "div",

@@ -11,9 +11,6 @@ class EatLiveRun(AbstractScraper):
     def site_name(self):
         return "Eat, Live, Run"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 

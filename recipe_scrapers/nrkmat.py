@@ -17,9 +17,6 @@ class NRKMat(AbstractScraper):
             .replace("Kilde: ", "")
         )
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category()
 
