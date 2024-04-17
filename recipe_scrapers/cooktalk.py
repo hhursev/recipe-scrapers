@@ -23,9 +23,6 @@ class CookTalk(AbstractScraper):
         category_element = article_meta.find("small", {"class": "meta-category"})
         return category_element.find("a").get_text()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -33,9 +30,6 @@ class CookTalk(AbstractScraper):
             "div.ingredient-label",
             "ul#zlrecipe-ingredients-list li.ingredient",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def description(self):
         return self.schema.description()

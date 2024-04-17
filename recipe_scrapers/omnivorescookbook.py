@@ -25,9 +25,6 @@ class OmnivoresCookbook(AbstractScraper):
         ingredients = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         return self.schema.ratings()
 

@@ -30,9 +30,6 @@ class ReceitasNestleBR(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         steps_div = self.soup.find("div", {"class": "recipeDetail__steps"})
         instructions = []

@@ -18,9 +18,6 @@ class Reishunger(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         # find the "instructions" heading (Zubereitung in German)
         for heading in self.soup.findAll("h3"):

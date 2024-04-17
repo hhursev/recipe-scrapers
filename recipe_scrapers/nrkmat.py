@@ -29,9 +29,6 @@ class NRKMat(AbstractScraper):
         except SchemaOrgException:
             return None
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -39,9 +36,6 @@ class NRKMat(AbstractScraper):
             "h4.recipe-meta-title",
             "ul.recipe-list:not(.recipe-list-meta) > li",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def description(self):
         return self.schema.description()

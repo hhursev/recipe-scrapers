@@ -17,9 +17,6 @@ class BBCGoodFood(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -27,9 +24,6 @@ class BBCGoodFood(AbstractScraper):
             ".recipe__ingredients h3",
             ".recipe__ingredients li",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def description(self):
         return self.schema.description()

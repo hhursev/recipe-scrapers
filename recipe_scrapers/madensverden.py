@@ -28,12 +28,6 @@ class MadensVerden(AbstractScraper):
     def nutrients(self):
         return self.schema.nutrients()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         return self.schema.ratings()
 

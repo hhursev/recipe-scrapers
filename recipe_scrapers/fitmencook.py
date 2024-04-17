@@ -37,6 +37,3 @@ class FitMenCook(AbstractScraper):
             for ingredient in ingredients
             if ingredient.find("strong") is None
         ]
-
-    def instructions(self):
-        return self.schema.instructions()

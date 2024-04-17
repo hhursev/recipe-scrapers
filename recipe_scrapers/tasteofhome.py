@@ -17,9 +17,6 @@ class TasteOfHome(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = self.soup.findAll("li", {"class": "recipe-directions__item"})
         if instructions:

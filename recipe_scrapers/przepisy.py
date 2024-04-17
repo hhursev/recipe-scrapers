@@ -25,6 +25,3 @@ class Przepisy(AbstractScraper):
             normalize_string(i.get_text()) + " " + normalize_string(j.get_text())
             for i, j in zip(ingredients[0::2], ingredients[1::2])
         ]
-
-    def instructions(self):
-        return self.schema.instructions()

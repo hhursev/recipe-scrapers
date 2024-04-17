@@ -12,12 +12,6 @@ class EatingWell(AbstractScraper):
     def title(self):
         return self.schema.title()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
     def total_time(self):
         return self.schema.total_time()
 

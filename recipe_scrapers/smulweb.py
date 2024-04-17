@@ -24,9 +24,6 @@ class Smulweb(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         schema_instructions = self.schema.instructions()
         return self.instruction_delimiter.sub(r"\1\n\2", schema_instructions)

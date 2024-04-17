@@ -22,9 +22,6 @@ class PickUpLimes(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(), self.soup, "h3.pt-3", ".ingredient-container"

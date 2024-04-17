@@ -32,6 +32,3 @@ class TheSpruceEats(AbstractScraper):
             "p.structured-ingredients__list-heading",
             "li.structured-ingredients__list-item p",
         )
-
-    def instructions(self):
-        return self.schema.instructions()

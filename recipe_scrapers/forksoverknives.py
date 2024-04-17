@@ -56,12 +56,6 @@ class ForksOverKnives(AbstractScraper):
         # Get the first string after "Makes".
         return yields.split(" ", 1)[1]
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         ratings = normalize_string(
             self.soup.find("div", attrs={"class": "headline"})

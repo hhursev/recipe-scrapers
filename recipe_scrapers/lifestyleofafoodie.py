@@ -21,9 +21,6 @@ class LifestyleOfAFoodie(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         return self.schema.ratings()
 
@@ -32,9 +29,6 @@ class LifestyleOfAFoodie(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def ingredient_groups(self):
         return group_ingredients(

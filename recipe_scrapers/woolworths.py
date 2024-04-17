@@ -59,12 +59,6 @@ class Woolworths(AbstractScraper):
     def language(self):
         return "en-AU"
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
     def cuisine(self):
         return self.schema.cuisine()
 

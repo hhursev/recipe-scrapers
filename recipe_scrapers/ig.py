@@ -29,9 +29,6 @@ class IG(AbstractScraper):
         else:
             return get_yields(container.find("span", {"class": "valor"}).get_text())
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = self.soup.find("div", {"class": "box-preparo"})
         return normalize_string(instructions.get_text())

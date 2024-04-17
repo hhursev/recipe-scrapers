@@ -34,9 +34,6 @@ class JustOneCookbook(AbstractScraper):
             ingredients.append(" ".join(ingredient))
         return ingredients
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         return self.schema.ratings()
 

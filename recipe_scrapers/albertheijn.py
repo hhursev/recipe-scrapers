@@ -22,9 +22,6 @@ class AlbertHeijn(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = [
             normalize_string(step.get_text())

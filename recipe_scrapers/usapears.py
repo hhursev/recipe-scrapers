@@ -36,9 +36,6 @@ class USAPears(AbstractScraper):
             for paragraph in ingredient_elements
         ]
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def cuisine(self):
         return self.schema.cuisine()
 

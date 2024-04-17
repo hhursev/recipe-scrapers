@@ -24,9 +24,3 @@ class FoodAndWine(AbstractScraper):
             )
             if yield_value:
                 return get_yields(normalize_string(yield_value.text))
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

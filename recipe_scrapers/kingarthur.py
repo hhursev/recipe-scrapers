@@ -19,9 +19,6 @@ class KingArthur(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         """
         King Arthur updated how they format their instructions to include html (instructions wrapped in <p>) in the

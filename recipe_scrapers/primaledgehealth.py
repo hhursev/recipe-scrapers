@@ -21,8 +21,5 @@ class PrimalEdgeHealth(AbstractScraper):
             ingredient.replace("\u00C2", "") for ingredient in self.schema.ingredients()
         ]
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         return self.schema.ratings()

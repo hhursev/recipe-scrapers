@@ -20,11 +20,5 @@ class SweetPeasAndSaffron(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ratings(self):
         return self.schema.ratings()

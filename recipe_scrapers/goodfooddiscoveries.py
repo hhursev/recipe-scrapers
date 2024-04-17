@@ -33,8 +33,5 @@ class GoodFoodDiscoveries(AbstractScraper):
             for ingredient in self.schema.ingredients()
         ]
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def description(self):
         return self.soup.find("p", {"class": "recipe-card-summary"}).get_text()

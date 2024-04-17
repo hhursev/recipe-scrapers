@@ -40,9 +40,6 @@ class NoRecipes(AbstractScraper):
             ".wprm-recipe-ingredient-group li",
         )
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def ratings(self):
         return self.schema.ratings()
 

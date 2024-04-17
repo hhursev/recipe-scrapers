@@ -55,9 +55,6 @@ class Valdemarsro(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instruction_elements = self.soup.find(
             "div", {"itemprop": "recipeInstructions"}

@@ -20,9 +20,6 @@ class LeanAndGreenRecipes(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = (
             self.soup.find("div", {"class": "item-list"}).find_next("ol").find_all("li")

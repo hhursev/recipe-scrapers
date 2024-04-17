@@ -20,9 +20,6 @@ class JamieOliver(AbstractScraper):
     def image(self):
         return self.schema.catimageegory()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = self.soup.find("ol", {"class": "recipeSteps"}).findAll("li")
         return "\n".join([normalize_string(inst.get_text()) for inst in instructions])

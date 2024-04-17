@@ -21,9 +21,6 @@ class AbuelasCounter(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -31,9 +28,6 @@ class AbuelasCounter(AbstractScraper):
             ".ingredient-item-group-title",
             ".wpzoom-rcb-ingredient-name",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def cuisine(self):
         return self.schema.cuisine()

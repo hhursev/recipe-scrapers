@@ -24,6 +24,3 @@ class BBCFood(AbstractScraper):
 
         author = container.a
         return author.text if author else None
-
-    def ingredients(self):
-        return self.schema.ingredients()

@@ -18,9 +18,6 @@ class BigOven(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find("div", {"class": "yield"}).text)
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

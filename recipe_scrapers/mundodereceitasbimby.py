@@ -27,9 +27,6 @@ class MundoDeReceitasBimby(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -37,9 +34,6 @@ class MundoDeReceitasBimby(AbstractScraper):
             ".h5.padding-bottom-5.padding-top-5",
             "ul > li[itemprop='recipeIngredient']",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

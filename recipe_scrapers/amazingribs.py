@@ -19,9 +19,6 @@ class AmazingRibs(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -29,9 +26,6 @@ class AmazingRibs(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredients li",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def equipment(self):
         equipment_items = [

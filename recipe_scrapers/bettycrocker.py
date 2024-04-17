@@ -24,9 +24,6 @@ class BettyCrocker(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -34,9 +31,6 @@ class BettyCrocker(AbstractScraper):
             ".recipeIngredients h3",
             ".recipeIngredients li",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

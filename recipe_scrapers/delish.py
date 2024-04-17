@@ -17,9 +17,6 @@ class Delish(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -27,6 +24,3 @@ class Delish(AbstractScraper):
             ".ingredients-body h3",
             ".ingredient-lists li",
         )
-
-    def instructions(self):
-        return self.schema.instructions()

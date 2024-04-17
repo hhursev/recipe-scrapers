@@ -17,9 +17,6 @@ class NYTimes(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         """
         The NYTimes website appears to auto generate it's CSS class names, which results in them ending
@@ -35,9 +32,6 @@ class NYTimes(AbstractScraper):
             "h3[class*='ingredientgroup_name']",
             "li[class*='ingredient_ingredient']",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

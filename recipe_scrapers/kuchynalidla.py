@@ -74,9 +74,6 @@ class KuchynaLidla(AbstractScraper):
     def ingredients(self):
         return [i for ig in self.ingredient_groups() for i in ig.ingredients]
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def instructions_list(self):
         il = re.split(r"[\n\r]{3,10}", self.instructions())
         il = [norm for i in il if (norm := normalize_string(i))]

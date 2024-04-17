@@ -27,9 +27,6 @@ class PlatingPixels(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -37,9 +34,6 @@ class PlatingPixels(AbstractScraper):
             "h4.wprm-recipe-ingredient-group-name",
             "li.wprm-recipe-ingredient",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

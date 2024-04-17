@@ -17,9 +17,6 @@ class KennyMcGovern(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = self.soup.findAll(
             "div", {"class": "wprm-recipe-instruction-text"}

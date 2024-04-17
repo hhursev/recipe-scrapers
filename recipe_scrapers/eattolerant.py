@@ -18,9 +18,3 @@ class EatTolerant(AbstractScraper):
 
     def yields(self):
         return self.schema.yields()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

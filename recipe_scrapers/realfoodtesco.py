@@ -17,9 +17,6 @@ class RealFoodTesco(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             ingredients_list=self.ingredients(),
@@ -27,9 +24,6 @@ class RealFoodTesco(AbstractScraper):
             group_heading="h3.recipe-detail__subheading",
             group_element="li.recipe-detail__list-item",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

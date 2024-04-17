@@ -51,9 +51,6 @@ class Number2Pencil(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             ingredients_list=self.ingredients(),
@@ -61,9 +58,6 @@ class Number2Pencil(AbstractScraper):
             group_heading="div.wprm-recipe-ingredient-group-name",
             group_element="li.wprm-recipe-ingredient",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()

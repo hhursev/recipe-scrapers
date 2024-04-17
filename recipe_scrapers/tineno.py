@@ -63,9 +63,6 @@ class TineNo(AbstractScraper):
                 max_res_src = src[0]
         return max_res_src
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         """
         Standard Schema.org implementation, except removes HowToSection with generic 'Oppskrift' header.

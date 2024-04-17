@@ -31,9 +31,6 @@ class RutgerBakt(AbstractScraper):
         # The yields are all over the place. There is no way to parse this.
         return None
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         # Find the "instructions" heading. It is not really clear when that is.
         # So several steps need to be taken.

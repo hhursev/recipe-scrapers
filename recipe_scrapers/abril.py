@@ -17,9 +17,6 @@ class Abril(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         modo_de_preparo = self.soup.find("div", class_="modo-de-preparo")
         instructions = modo_de_preparo.find_all("p")

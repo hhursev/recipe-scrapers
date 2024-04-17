@@ -16,9 +16,6 @@ class PingoDoce(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instructions = self.soup.findAll("div", {"class": "step-description"})
         return "\n".join([i.get_text() for i in instructions])

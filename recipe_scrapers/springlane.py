@@ -30,9 +30,3 @@ class Springlane(AbstractScraper):
 
     def nutrients(self):
         return self.schema.nutrients()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

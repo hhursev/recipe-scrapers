@@ -23,9 +23,6 @@ class SimplyRecipes(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         steps = self.soup.find(
             "div", {"class": "structured-project__steps"}

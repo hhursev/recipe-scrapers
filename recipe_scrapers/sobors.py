@@ -19,14 +19,8 @@ class SoBors(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def prep_time(self):
         return self.schema.prep_time()
 
     def cook_time(self):
         return self.schema.cook_time()
-
-    def instructions(self):
-        return self.schema.instructions()

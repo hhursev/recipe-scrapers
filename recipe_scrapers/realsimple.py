@@ -37,6 +37,3 @@ class RealSimple(AbstractScraper):
             return extracted_ingredients
         else:
             return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

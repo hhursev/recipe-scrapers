@@ -18,9 +18,6 @@ class Matprat(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
@@ -28,9 +25,6 @@ class Matprat(AbstractScraper):
             "h3.ingredient-section-title",
             "ul.ingredientsList > li > span:not(.amount):not(.unit)",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
