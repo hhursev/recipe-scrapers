@@ -17,9 +17,6 @@ class Matprat(AbstractScraper):
             "ul.ingredientsList > li > span:not(.amount):not(.unit)",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         return self.schema.description()
 

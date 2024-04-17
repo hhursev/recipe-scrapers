@@ -19,8 +19,5 @@ class OneHundredOneCookBooks(AbstractScraper):
     def cook_time(self):
         return self.schema.cook_time()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def nutrients(self):
         return self.schema.nutrients()

@@ -20,9 +20,6 @@ class RicettePerBimby(AbstractScraper):
             ".ricetta-ingredienti .ingrediente",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

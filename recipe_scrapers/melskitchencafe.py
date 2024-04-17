@@ -6,6 +6,3 @@ class MelsKitchenCafe(AbstractScraper):
     @classmethod
     def host(cls):
         return "melskitchencafe.com"
-
-    def ratings(self):
-        return self.schema.ratings()

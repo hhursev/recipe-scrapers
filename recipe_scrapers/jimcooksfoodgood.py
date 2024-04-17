@@ -6,6 +6,3 @@ class JimCooksFoodGood(AbstractScraper):
     @classmethod
     def host(cls):
         return "jimcooksfoodgood.com"
-
-    def ratings(self):
-        return self.schema.ratings()

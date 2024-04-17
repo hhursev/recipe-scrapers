@@ -6,6 +6,3 @@ class CastIronKeto(AbstractScraper):
     @classmethod
     def host(cls):
         return "castironketo.net"
-
-    def ratings(self):
-        return self.schema.ratings()

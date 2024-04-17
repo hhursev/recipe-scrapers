@@ -6,6 +6,3 @@ class LittleSpiceJar(AbstractScraper):
     @classmethod
     def host(cls):
         return "littlespicejar.com"
-
-    def ratings(self):
-        return self.schema.ratings()

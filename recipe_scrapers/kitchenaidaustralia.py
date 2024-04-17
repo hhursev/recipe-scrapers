@@ -65,9 +65,6 @@ class KitchenAidAustralia(AbstractScraper):
 
         return self._parse_list(method)
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

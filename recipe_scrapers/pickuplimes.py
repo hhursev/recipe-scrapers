@@ -25,9 +25,6 @@ class PickUpLimes(AbstractScraper):
         ]
         return "\n".join(instructions) if instructions else None
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

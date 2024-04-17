@@ -6,6 +6,3 @@ class EatingBirdFood(AbstractScraper):
     @classmethod
     def host(cls):
         return "eatingbirdfood.com"
-
-    def ratings(self):
-        return self.schema.ratings()

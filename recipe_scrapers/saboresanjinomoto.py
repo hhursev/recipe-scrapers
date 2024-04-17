@@ -51,6 +51,3 @@ class SaboresAnjinomoto(AbstractScraper):
             ".ingredients p",
             ".ingredients li",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

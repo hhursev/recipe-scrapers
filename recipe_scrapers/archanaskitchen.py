@@ -15,6 +15,3 @@ class ArchanasKitchen(AbstractScraper):
             ".ingredientssubtitle",
             "li[itemprop='ingredients']",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

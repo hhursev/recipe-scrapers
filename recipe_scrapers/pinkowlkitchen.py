@@ -20,9 +20,6 @@ class PinkOwlKitchen(AbstractScraper):
             ".wprm-recipe-ingredient-group li",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

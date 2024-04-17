@@ -28,9 +28,6 @@ class Ricetta(AbstractScraper):
 
         return "\n".join(instructions_list)
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

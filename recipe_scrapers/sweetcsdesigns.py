@@ -6,6 +6,3 @@ class SweetCsDesigns(AbstractScraper):
     @classmethod
     def host(cls):
         return "sweetcsdesigns.com"
-
-    def ratings(self):
-        return self.schema.ratings()

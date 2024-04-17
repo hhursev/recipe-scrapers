@@ -6,6 +6,3 @@ class Misya(AbstractScraper):
     @classmethod
     def host(cls):
         return "misya.info"
-
-    def ratings(self):
-        return self.schema.ratings()

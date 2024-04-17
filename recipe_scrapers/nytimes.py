@@ -23,6 +23,3 @@ class NYTimes(AbstractScraper):
             "h3[class*='ingredientgroup_name']",
             "li[class*='ingredient_ingredient']",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

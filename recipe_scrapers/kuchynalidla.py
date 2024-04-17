@@ -73,9 +73,6 @@ class KuchynaLidla(AbstractScraper):
         il = [norm for i in il if (norm := normalize_string(i))]
         return il
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         return self.schema.description()
 

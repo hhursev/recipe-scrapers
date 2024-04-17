@@ -15,6 +15,3 @@ class VanillaAndBean(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -49,6 +49,3 @@ class ZeitWochenmarkt(AbstractScraper):
                 for item in subset.find_all_next("p", {"class": class_name})
             ]
         )
-
-    def ratings(self):
-        return self.schema.ratings()

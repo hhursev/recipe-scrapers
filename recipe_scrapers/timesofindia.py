@@ -13,9 +13,6 @@ class TimesOfIndia(AbstractScraper):
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def language(self):
         meta_language = self.soup.find("meta", attrs={"http-equiv": "content-language"})
 

@@ -37,6 +37,3 @@ class NibbleDish(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def ratings(self):
-        return self.schema.ratings()

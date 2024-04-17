@@ -6,6 +6,3 @@ class RecipeTinEats(AbstractScraper):
     @classmethod
     def host(cls):
         return "recipetineats.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -6,6 +6,3 @@ class GialloZafferano(AbstractScraper):
     @classmethod
     def host(cls):
         return "ricette.giallozafferano.it"
-
-    def ratings(self):
-        return self.schema.ratings()

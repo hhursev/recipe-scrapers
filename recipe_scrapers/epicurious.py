@@ -10,6 +10,3 @@ class Epicurious(AbstractScraper):
 
     def author(self):
         return self.soup.find("a", {"itemprop": "author"}).get_text()
-
-    def ratings(self):
-        return self.schema.ratings()

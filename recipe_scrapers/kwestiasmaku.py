@@ -31,6 +31,3 @@ class KwestiaSmaku(AbstractScraper):
             "div", {"class": "field-name-field-przygotowanie"}
         ).find_all("li")
         return "\n".join([normalize_string(i.get_text()) for i in instructions])
-
-    def ratings(self):
-        return self.schema.ratings()

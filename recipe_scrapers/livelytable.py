@@ -15,6 +15,3 @@ class LivelyTable(AbstractScraper):
             ".tasty-recipes-ingredients-body h4",
             ".tasty-recipes-ingredients-body li",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

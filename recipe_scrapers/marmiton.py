@@ -6,6 +6,3 @@ class Marmiton(AbstractScraper):
     @classmethod
     def host(cls):
         return "marmiton.org"
-
-    def ratings(self):
-        return self.schema.ratings()

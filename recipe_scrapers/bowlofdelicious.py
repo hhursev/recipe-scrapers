@@ -11,9 +11,6 @@ class BowlOfDelicious(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def equipment(self):
         equipment_items = [
             link.get_text()

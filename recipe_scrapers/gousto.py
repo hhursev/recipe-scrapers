@@ -7,6 +7,3 @@ class Gousto(AbstractScraper):
     @classmethod
     def host(cls):
         return "gousto.co.uk"
-
-    def ratings(self):
-        return self.schema.ratings()

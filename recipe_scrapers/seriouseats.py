@@ -9,6 +9,3 @@ class SeriousEats(AbstractScraper):
 
     def description(self):
         return self.schema.description()
-
-    def ratings(self):
-        return self.schema.ratings()

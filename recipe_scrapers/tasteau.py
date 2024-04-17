@@ -22,9 +22,6 @@ class TasteAU(AbstractScraper):
             "div.ingredient-description",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

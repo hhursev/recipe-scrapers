@@ -19,9 +19,6 @@ class LeanAndGreenRecipes(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         soup = BeautifulSoup(str(self.schema.cuisine()), features="html.parser")
         return soup.get_text()

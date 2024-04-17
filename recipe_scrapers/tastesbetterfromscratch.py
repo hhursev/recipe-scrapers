@@ -6,6 +6,3 @@ class TastesBetterFromScratch(AbstractScraper):
     @classmethod
     def host(cls):
         return "tastesbetterfromscratch.com"
-
-    def ratings(self):
-        return self.schema.ratings()

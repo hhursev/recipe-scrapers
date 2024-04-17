@@ -10,6 +10,3 @@ class Vegolosi(AbstractScraper):
 
     def title(self):
         return self.soup.h1.get_text().strip()
-
-    def ratings(self):
-        return self.schema.ratings()

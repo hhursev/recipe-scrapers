@@ -10,9 +10,6 @@ class Chefkoch(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cook_time(self):
         return self.schema.cook_time()
 

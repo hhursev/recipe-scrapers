@@ -6,6 +6,3 @@ class MotherThyme(AbstractScraper):
     @classmethod
     def host(cls):
         return "motherthyme.com"
-
-    def ratings(self):
-        return self.schema.ratings()

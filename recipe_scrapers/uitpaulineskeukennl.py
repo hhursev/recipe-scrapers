@@ -35,9 +35,6 @@ class UitPaulinesKeukenNL(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

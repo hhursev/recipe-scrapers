@@ -6,6 +6,3 @@ class Food52(AbstractScraper):
     @classmethod
     def host(cls):
         return "food52.com"
-
-    def ratings(self):
-        return self.schema.ratings()

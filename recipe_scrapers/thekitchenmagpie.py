@@ -6,6 +6,3 @@ class TheKitchenMagPie(AbstractScraper):
     @classmethod
     def host(cls):
         return "thekitchenmagpie.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -85,9 +85,6 @@ class JoshuaWeissman(AbstractScraper):
 
         return "\n".join(instructions)
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

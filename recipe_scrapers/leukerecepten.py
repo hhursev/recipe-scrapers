@@ -10,9 +10,6 @@ class Leukerecepten(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

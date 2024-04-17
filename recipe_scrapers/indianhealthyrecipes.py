@@ -6,6 +6,3 @@ class IndianHealthyRecipes(AbstractScraper):
     @classmethod
     def host(cls):
         return "indianhealthyrecipes.com"
-
-    def ratings(self):
-        return self.schema.ratings()

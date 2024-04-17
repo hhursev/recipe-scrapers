@@ -20,8 +20,5 @@ class NutritionFacts(AbstractScraper):
             ".wprm-recipe-ingredient",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         return self.schema.description()

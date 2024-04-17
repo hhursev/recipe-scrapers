@@ -6,6 +6,3 @@ class OhSheGlows(AbstractScraper):
     @classmethod
     def host(cls):
         return "ohsheglows.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -6,6 +6,3 @@ class FifteenSpatulas(AbstractScraper):
     @classmethod
     def host(cls):
         return "fifteenspatulas.com"
-
-    def ratings(self):
-        return self.schema.ratings()

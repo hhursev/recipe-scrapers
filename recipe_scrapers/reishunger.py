@@ -47,6 +47,3 @@ class Reishunger(AbstractScraper):
         # filter out empty lines
         results = [instruction for instruction in results if instruction]
         return "\n".join(results)
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -6,6 +6,3 @@ class SkinnyTaste(AbstractScraper):
     @classmethod
     def host(cls):
         return "skinnytaste.com"
-
-    def ratings(self):
-        return self.schema.ratings()

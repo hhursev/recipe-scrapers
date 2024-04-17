@@ -6,6 +6,3 @@ class Thinlicious(AbstractScraper):
     @classmethod
     def host(cls):
         return "thinlicious.com"
-
-    def ratings(self):
-        return self.schema.ratings()

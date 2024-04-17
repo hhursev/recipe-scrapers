@@ -6,6 +6,3 @@ class ZenBelly(AbstractScraper):
     @classmethod
     def host(cls):
         return "zenbelly.com"
-
-    def ratings(self):
-        return self.schema.ratings()

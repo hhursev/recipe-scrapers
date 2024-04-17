@@ -24,6 +24,3 @@ class KingArthur(AbstractScraper):
                 [normalize_string(elm.get_text()) for elm in instruction_elms]
             )
         return schema_instructions
-
-    def ratings(self):
-        return self.schema.ratings()

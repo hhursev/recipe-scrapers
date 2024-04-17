@@ -74,9 +74,6 @@ class RutgerBakt(AbstractScraper):
         instructions = parse_instructions(heading)
         return "\n".join(instructions)
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         # Assuming the first paragraph is the description.
         return self.soup.find("p").text.replace("\n", " ")

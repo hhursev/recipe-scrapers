@@ -6,6 +6,3 @@ class PurelyPope(AbstractScraper):
     @classmethod
     def host(cls):
         return "purelypope.com"
-
-    def ratings(self):
-        return self.schema.ratings()

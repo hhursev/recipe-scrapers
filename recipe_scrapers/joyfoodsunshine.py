@@ -13,9 +13,6 @@ class Joyfoodsunshine(AbstractScraper):
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def equipment(self):
         equipment_items = [
             item.find("a", class_="wprm-recipe-equipment-link").get_text()

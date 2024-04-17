@@ -49,6 +49,3 @@ class Number2Pencil(AbstractScraper):
             group_heading="div.wprm-recipe-ingredient-group-name",
             group_element="li.wprm-recipe-ingredient",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

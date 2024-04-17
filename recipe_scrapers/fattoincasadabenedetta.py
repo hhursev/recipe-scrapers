@@ -23,9 +23,6 @@ class FattoInCasaDaBenedetta(AbstractScraper):
 
         return "\n".join(all_instructions)
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         return self.schema.description()
 

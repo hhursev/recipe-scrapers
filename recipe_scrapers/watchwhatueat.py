@@ -6,6 +6,3 @@ class WatchWhatUEat(AbstractScraper):
     @classmethod
     def host(cls):
         return "watchwhatueat.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -20,9 +20,6 @@ class WeAreNotMartha(AbstractScraper):
             "ul.wprm-recipe-ingredients li",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

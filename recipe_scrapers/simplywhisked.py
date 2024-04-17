@@ -6,6 +6,3 @@ class SimplyWhisked(AbstractScraper):
     @classmethod
     def host(cls):
         return "simplywhisked.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -11,8 +11,5 @@ class PingoDoce(AbstractScraper):
         instructions = self.soup.findAll("div", {"class": "step-description"})
         return "\n".join([i.get_text() for i in instructions])
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         return self.schema.description()

@@ -17,9 +17,6 @@ class BudgetBytes(AbstractScraper):
             ".wprm-recipe-ingredient",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def equipment(self):
         equipment_items = [
             link.get_text()

@@ -15,6 +15,3 @@ class AllTomat(AbstractScraper):
             ".ingredients-section h2",
             ".ingredients-list li",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

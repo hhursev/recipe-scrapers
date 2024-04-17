@@ -6,6 +6,3 @@ class Koket(AbstractScraper):
     @classmethod
     def host(cls):
         return "koket.se"
-
-    def ratings(self):
-        return self.schema.ratings()

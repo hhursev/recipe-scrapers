@@ -6,6 +6,3 @@ class Hostthetoast(AbstractScraper):
     @classmethod
     def host(cls):
         return "hostthetoast.com"
-
-    def ratings(self):
-        return self.schema.ratings()

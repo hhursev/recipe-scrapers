@@ -6,6 +6,3 @@ class Yemek(AbstractScraper):
     @classmethod
     def host(cls):
         return "yemek.com"
-
-    def ratings(self):
-        return self.schema.ratings()

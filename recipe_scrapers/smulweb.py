@@ -19,9 +19,6 @@ class Smulweb(AbstractScraper):
         schema_instructions = self.schema.instructions()
         return self.instruction_delimiter.sub(r"\1\n\2", schema_instructions)
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

@@ -6,6 +6,3 @@ class CookPad(AbstractScraper):
     @classmethod
     def host(cls):
         return "cookpad.com"
-
-    def ratings(self):
-        return self.schema.ratings()

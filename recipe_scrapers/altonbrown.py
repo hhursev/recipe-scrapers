@@ -19,9 +19,6 @@ class AltonBrown(AbstractScraper):
             ".wprm-recipe-ingredient",
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

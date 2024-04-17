@@ -6,6 +6,3 @@ class MyBakingAddiction(AbstractScraper):
     @classmethod
     def host(cls):
         return "mybakingaddiction.com"
-
-    def ratings(self):
-        return self.schema.ratings()

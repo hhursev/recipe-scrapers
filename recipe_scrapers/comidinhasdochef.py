@@ -6,6 +6,3 @@ class ComidinhasDoChef(AbstractScraper):
     @classmethod
     def host(cls):
         return "comidinhasdochef.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -6,6 +6,3 @@ class BlueApron(AbstractScraper):
     @classmethod
     def host(cls):
         return "blueapron.com"
-
-    def ratings(self):
-        return self.schema.ratings()

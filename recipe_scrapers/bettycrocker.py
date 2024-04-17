@@ -22,6 +22,3 @@ class BettyCrocker(AbstractScraper):
             ".recipeIngredients h3",
             ".recipeIngredients li",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -6,6 +6,3 @@ class WholeFoods(AbstractScraper):
     @classmethod
     def host(cls, domain="com"):
         return f"wholefoodsmarket.{domain}"
-
-    def ratings(self):
-        return self.schema.ratings()

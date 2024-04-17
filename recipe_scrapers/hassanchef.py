@@ -10,6 +10,3 @@ class HassanChef(AbstractScraper):
 
     def author(self):
         return self.schema.author().title()
-
-    def ratings(self):
-        return self.schema.ratings()

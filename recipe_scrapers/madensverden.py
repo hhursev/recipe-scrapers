@@ -19,9 +19,6 @@ class MadensVerden(AbstractScraper):
     def nutrients(self):
         return self.schema.nutrients()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

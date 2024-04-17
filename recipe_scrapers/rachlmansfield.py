@@ -14,6 +14,3 @@ class RachlMansfield(AbstractScraper):
         prep_time = get_minutes(self.schema.data.get("prepTime")) or 0
         cook_time = get_minutes(self.schema.data.get("cookTime")) or 0
         return prep_time + cook_time
-
-    def ratings(self):
-        return self.schema.ratings()

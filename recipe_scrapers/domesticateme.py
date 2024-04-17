@@ -17,9 +17,6 @@ class DomesticateMe(AbstractScraper):
         author_name = author_meta_tag["content"] if author_meta_tag else None
         return author_name
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

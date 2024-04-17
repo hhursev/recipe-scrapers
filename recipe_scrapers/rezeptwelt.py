@@ -24,9 +24,6 @@ class Rezeptwelt(AbstractScraper):
         ]
         return "\n".join(filter(None, instructions))
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         try:
             return self.schema.cuisine()

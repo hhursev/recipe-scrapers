@@ -6,6 +6,3 @@ class PaleoRunningMomma(AbstractScraper):
     @classmethod
     def host(cls):
         return "paleorunningmomma.com"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -11,8 +11,5 @@ class Madsvin(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         return self.schema.description()

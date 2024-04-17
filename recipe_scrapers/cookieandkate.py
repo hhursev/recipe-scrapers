@@ -6,6 +6,3 @@ class CookieAndKate(AbstractScraper):
     @classmethod
     def host(cls):
         return "cookieandkate.com"
-
-    def ratings(self):
-        return self.schema.ratings()

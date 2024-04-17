@@ -16,9 +16,6 @@ class SundPaaBudget(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def description(self):
         # Schema returns empty string
         return self.soup.head.find("meta", {"property": "og:description"})["content"]

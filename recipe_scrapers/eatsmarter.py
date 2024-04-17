@@ -8,9 +8,6 @@ class Eatsmarter(AbstractScraper):
     def host(cls, domain="com"):
         return f"eatsmarter.{domain}"
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cook_time(self):
         try:
             return self.schema.cook_time()

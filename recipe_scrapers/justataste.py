@@ -6,6 +6,3 @@ class JustATaste(AbstractScraper):
     @classmethod
     def host(cls):
         return "justataste.com"
-
-    def ratings(self):
-        return self.schema.ratings()

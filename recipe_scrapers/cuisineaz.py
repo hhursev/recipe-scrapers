@@ -15,6 +15,3 @@ class CuisineAZ(AbstractScraper):
             return ingredients_list[1:]
 
         return ingredients_list
-
-    def ratings(self):
-        return self.schema.ratings()

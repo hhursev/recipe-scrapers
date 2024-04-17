@@ -10,6 +10,3 @@ class AtelierDesChefs(AbstractScraper):
     def yields(self):
         yields = self.soup.find("option", {"class": "yield"})
         return f"{yields.get('value')} Servings"
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -5,6 +5,3 @@ class Godt(AbstractScraper):
     @classmethod
     def host(cls):
         return "godt.no"
-
-    def ratings(self):
-        return self.schema.ratings()

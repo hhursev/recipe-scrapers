@@ -25,9 +25,6 @@ class ThePioneerWoman(AbstractScraper):
     def prep_time(self):
         return self.schema.prep_time()
 
-    def ratings(self):
-        return self.schema.ratings()
-
     def cuisine(self):
         return self.schema.cuisine()
 

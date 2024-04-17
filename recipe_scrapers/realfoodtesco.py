@@ -15,6 +15,3 @@ class RealFoodTesco(AbstractScraper):
             group_heading="h3.recipe-detail__subheading",
             group_element="li.recipe-detail__list-item",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

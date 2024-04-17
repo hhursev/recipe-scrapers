@@ -6,6 +6,3 @@ class AmbitiousKitchen(AbstractScraper):
     @classmethod
     def host(cls):
         return "ambitiouskitchen.com"
-
-    def ratings(self):
-        return self.schema.ratings()

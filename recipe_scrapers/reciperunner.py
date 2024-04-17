@@ -6,6 +6,3 @@ class RecipeRunner(AbstractScraper):
     @classmethod
     def host(cls):
         return "reciperunner.com"
-
-    def ratings(self):
-        return self.schema.ratings()

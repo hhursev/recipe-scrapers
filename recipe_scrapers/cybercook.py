@@ -6,6 +6,3 @@ class Cybercook(AbstractScraper):
     @classmethod
     def host(cls):
         return "cybercook.com.br"
-
-    def ratings(self):
-        return self.schema.ratings()
