@@ -27,7 +27,7 @@ class Bergamot(AbstractScraper):
         return self.data.get("sourceUrl") or self.url
 
     def author(self):
-        return None
+        return self.data.get("sourceDomain")
 
     def title(self):
         return self.data.get("title")

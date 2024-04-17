@@ -28,7 +28,7 @@ class TestBergamotScraper(ScraperTest):
         )
 
     def test_author(self):
-        self.assertEqual(None, self.harvester_class.author())
+        self.assertEqual("elle.fr", self.harvester_class.author())
 
     def test_total_time(self):
         self.assertEqual(50, self.harvester_class.total_time())
