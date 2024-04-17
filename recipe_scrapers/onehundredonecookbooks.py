@@ -10,14 +10,5 @@ class OneHundredOneCookBooks(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
     def nutrients(self):
         return self.schema.nutrients()

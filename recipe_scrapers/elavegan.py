@@ -24,9 +24,6 @@ class ElaVegan(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
-
     def equipment(self):
         equipment_items = [
             item.find("div", class_="wprm-recipe-equipment-name")

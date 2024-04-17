@@ -33,6 +33,3 @@ class NRKMat(AbstractScraper):
             "h4.recipe-meta-title",
             "ul.recipe-list:not(.recipe-list-meta) > li",
         )
-
-    def description(self):
-        return self.schema.description()

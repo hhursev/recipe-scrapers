@@ -13,11 +13,5 @@ class Springlane(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
     def nutrients(self):
         return self.schema.nutrients()

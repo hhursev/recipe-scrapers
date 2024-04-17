@@ -27,6 +27,3 @@ class CookTalk(AbstractScraper):
             "div.ingredient-label",
             "ul#zlrecipe-ingredients-list li.ingredient",
         )
-
-    def description(self):
-        return self.schema.description()

@@ -21,8 +21,5 @@ class AkisPetretzikis(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
-
     def language(self):
         return self.recipe_json["locale"]

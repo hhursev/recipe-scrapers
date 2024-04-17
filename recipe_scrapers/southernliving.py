@@ -30,6 +30,3 @@ class SouthernLiving(AbstractScraper):
                     "div", class_="mntl-recipe-details__value"
                 )
                 return get_yields(servings_element)
-
-    def description(self):
-        return self.schema.description()

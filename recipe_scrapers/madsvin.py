@@ -10,6 +10,3 @@ class Madsvin(AbstractScraper):
 
     def category(self):
         return self.schema.category()
-
-    def description(self):
-        return self.schema.description()

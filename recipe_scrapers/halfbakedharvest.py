@@ -8,12 +8,6 @@ class HalfBakedHarvest(AbstractScraper):
     def host(cls):
         return "halfbakedharvest.com"
 
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
     def nutrients(self):
         return self.schema.nutrients()
 
@@ -24,6 +18,3 @@ class HalfBakedHarvest(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
-
-    def description(self):
-        return self.schema.description()

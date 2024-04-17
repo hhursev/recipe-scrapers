@@ -17,12 +17,6 @@ class KuchynaLidla(AbstractScraper):
     def category(self):
         return self.schema.category().strip()
 
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
     def yields(self):
         yields = self.schema.yields()
         yields = yields.replace("servings", "porcií")
@@ -72,9 +66,6 @@ class KuchynaLidla(AbstractScraper):
         il = re.split(r"[\n\r]{3,10}", self.instructions())
         il = [norm for i in il if (norm := normalize_string(i))]
         return il
-
-    def description(self):
-        return self.schema.description()
 
     def language(self):
         return "sk"

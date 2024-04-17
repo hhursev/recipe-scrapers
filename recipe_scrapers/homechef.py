@@ -16,6 +16,3 @@ class HomeChef(AbstractScraper):
                 )
             ]
         )
-
-    def description(self):
-        return self.schema.description()

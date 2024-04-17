@@ -13,6 +13,3 @@ class WellPlated(AbstractScraper):
 
     def cuisine(self):
         return self.schema.cuisine().replace(",", ", ")
-
-    def description(self):
-        return self.schema.description()

@@ -10,15 +10,6 @@ class MadeWithLau(AbstractScraper):
     def host(cls):
         return "madewithlau.com"
 
-    def description(self):
-        return self.schema.description()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
     def instructions(self):
         # collect headers
         headers = [

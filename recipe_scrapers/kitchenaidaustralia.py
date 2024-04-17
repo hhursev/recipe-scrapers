@@ -68,9 +68,6 @@ class KitchenAidAustralia(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
-
     def _get_recipe(self):
         """
         Get the recipe container element.

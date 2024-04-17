@@ -15,9 +15,6 @@ class LifestyleOfAFoodie(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

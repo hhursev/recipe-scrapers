@@ -14,8 +14,5 @@ class StrongrFastr(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine()
 
-    def description(self):
-        return self.schema.description()
-
     def site_name(self):
         return "Strongr Fastr"

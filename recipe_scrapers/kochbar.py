@@ -6,6 +6,3 @@ class Kochbar(AbstractScraper):
     @classmethod
     def host(cls):
         return "kochbar.de"
-
-    def description(self):
-        return self.schema.description()

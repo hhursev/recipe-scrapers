@@ -6,6 +6,3 @@ class Lovingitvegan(AbstractScraper):
     @classmethod
     def host(cls):
         return "lovingitvegan.com"
-
-    def description(self):
-        return self.schema.description()

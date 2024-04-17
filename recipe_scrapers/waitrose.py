@@ -41,6 +41,3 @@ class Waitrose(AbstractScraper):
                 if item.get_text()
             ]
             return "\n".join(instruction_text)
-
-    def description(self):
-        return self.schema.description()
