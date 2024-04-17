@@ -20,9 +20,6 @@ class SimplyCookit(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = []
         for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):

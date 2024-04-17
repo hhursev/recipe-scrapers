@@ -26,9 +26,6 @@ class GoodFoodDiscoveries(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         # removing "u003cbu003e" and "u003c/bu003e" as it looks to be used at times to bold text on the site
         return [

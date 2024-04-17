@@ -27,9 +27,6 @@ class MundoDeReceitasBimby(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

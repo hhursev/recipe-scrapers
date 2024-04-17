@@ -22,9 +22,6 @@ class FranzoesischKochen(AbstractScraper):
         # TODO: can recipe yields / servings be retrieved from these pages?
         return None
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

@@ -35,9 +35,6 @@ class KuchynaLidla(AbstractScraper):
         yields = yields.replace("serving", "porcia")
         return yields
 
-    def image(self):
-        return self.schema.image()
-
     def ingredient_groups(self):
         raw_groups = (
             self.schema.data.get("recipeIngredient")

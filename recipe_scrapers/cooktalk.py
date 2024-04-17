@@ -23,9 +23,6 @@ class CookTalk(AbstractScraper):
         category_element = article_meta.find("small", {"class": "meta-category"})
         return category_element.find("a").get_text()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

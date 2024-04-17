@@ -16,9 +16,6 @@ class PrimalEdgeHealth(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return [
             ingredient.replace("\u00C2", "") for ingredient in self.schema.ingredients()

@@ -57,9 +57,6 @@ class JoshuaWeissman(AbstractScraper):
             )
         )
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = [
             li.get_text() for ul in self.soup.findAll("ul") for li in ul.findAll("li")

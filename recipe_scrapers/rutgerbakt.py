@@ -31,9 +31,6 @@ class RutgerBakt(AbstractScraper):
         # The yields are all over the place. There is no way to parse this.
         return None
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

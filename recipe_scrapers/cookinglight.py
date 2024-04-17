@@ -17,9 +17,6 @@ class CookingLight(AbstractScraper):
     def yields(self):
         return get_yields(self.schema.yields())
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = self.soup.find("div", {"class": "ingredients"}).ul.findAll("li")
         return "\n".join(

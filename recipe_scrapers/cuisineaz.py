@@ -16,9 +16,6 @@ class CuisineAZ(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients_list = self.schema.ingredients()
 

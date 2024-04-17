@@ -37,9 +37,6 @@ class SouthernLiving(AbstractScraper):
                 )
                 return get_yields(servings_element)
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

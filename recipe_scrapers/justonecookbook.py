@@ -21,9 +21,6 @@ class JustOneCookbook(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         lis = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
         ingredients = []

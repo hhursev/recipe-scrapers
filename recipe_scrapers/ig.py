@@ -29,9 +29,6 @@ class IG(AbstractScraper):
         else:
             return get_yields(container.find("span", {"class": "valor"}).get_text())
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

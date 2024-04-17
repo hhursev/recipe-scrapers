@@ -31,9 +31,6 @@ class AfghanKitchenRecipes(AbstractScraper):
             return
         return get_yields(servings)
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredient_elements = self.soup.findAll("li", {"class": "ingredient"})
         return [

@@ -47,6 +47,3 @@ class SunBasket(AbstractScraper):
     def instructions(self):
         data = self._instructions_list()
         return "\n".join(data) if data else None
-
-    def image(self):
-        return self.schema.image()

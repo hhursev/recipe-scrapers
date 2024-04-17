@@ -22,6 +22,3 @@ class FineDiningLovers(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
-
-    def image(self):
-        return self.schema.image()

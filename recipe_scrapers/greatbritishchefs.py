@@ -14,9 +14,6 @@ class GreatBritishChefs(AbstractScraper):
     def total_time(self):
         return self.schema.total_time()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

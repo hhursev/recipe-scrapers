@@ -24,9 +24,6 @@ class EatWell101(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients_h2 = self.soup.find(
             "h2", string=re.compile(r"Ingredients", re.IGNORECASE)

@@ -17,9 +17,6 @@ class Joyfoodsunshine(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
 

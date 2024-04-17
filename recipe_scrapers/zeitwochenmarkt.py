@@ -32,9 +32,6 @@ class ZeitWochenmarkt(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = []
         for div_element in self.soup.select(".recipe-list-collection"):

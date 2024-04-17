@@ -18,9 +18,6 @@ class ZauberTopf(AbstractScraper):
     def total_time(self):
         return self.schema.total_time()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         for h2_element in self.soup.find_all("h2"):
             if "Die Zutaten" in h2_element.text:

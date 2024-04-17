@@ -16,9 +16,6 @@ class ACoupleCooks(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def instructions(self):
         return self.schema.instructions()
 

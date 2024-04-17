@@ -22,9 +22,6 @@ class BareFootContessa(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredient_list = []
         ingredient_divs = self.soup.find_all("div", {"class": "mb-10"})

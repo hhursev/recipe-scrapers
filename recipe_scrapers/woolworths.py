@@ -53,9 +53,6 @@ class Woolworths(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def nutrients(self):
         return self.schema.nutrients()
 

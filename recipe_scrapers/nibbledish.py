@@ -17,9 +17,6 @@ class NibbleDish(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         schema_ingredients = self.schema.ingredients()
 

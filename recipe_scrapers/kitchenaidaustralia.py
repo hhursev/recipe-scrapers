@@ -37,9 +37,6 @@ class KitchenAidAustralia(AbstractScraper):
     def yields(self):
         return self._get_summary_value("Makes")
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         recipe = self._get_recipe()
         ingredients = recipe.find("div", {"class": "leftPanel"})

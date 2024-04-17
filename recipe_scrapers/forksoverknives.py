@@ -56,9 +56,6 @@ class ForksOverKnives(AbstractScraper):
         # Get the first string after "Makes".
         return yields.split(" ", 1)[1]
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         return self.schema.ingredients()
 

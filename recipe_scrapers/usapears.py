@@ -28,9 +28,6 @@ class USAPears(AbstractScraper):
     def yields(self):
         return self.schema.yields()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredient_elements = self.soup.find_all("li", {"itemprop": "ingredients"})
 
