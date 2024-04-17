@@ -340,7 +340,6 @@ SCRAPERS = {
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
     Bergamot.host(): Bergamot,
-    Bergamot.host(): Bergamot,
     BestRecipes.host(): BestRecipes,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
