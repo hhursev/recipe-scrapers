@@ -69,6 +69,9 @@ class Bergamot(AbstractScraper):
     def prep_time(self):
         return self._get_time_value("prepTime")
 
+    def cook_time(self):
+        return self._get_time_value("cookTime")
+
     def _map_list(self, data_key):
         output = []
         for entry in self.data.get(data_key):

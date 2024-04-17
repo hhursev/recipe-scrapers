@@ -59,3 +59,9 @@ class TestBergamotScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(None, self.harvester_class.ratings())
+
+    def test_cook_time(self):
+        self.assertEqual(None, self.harvester_class.cook_time())
+
+    def test_prep_time(self):
+        self.assertEqual(20, self.harvester_class.prep_time())
