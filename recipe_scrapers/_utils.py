@@ -230,17 +230,16 @@ def normalize_string(string):
     )
 
 
-def normalize_keywords(keywords_str):
-    keywords_list = keywords_str.split(",")
+def csv_to_tags(csv):
+    raw_tags = csv.split(",")
     seen = set()
-    result = []
-    for keyword in keywords_list:
-        stripped_keyword = keyword.strip()
-        if stripped_keyword.lower() not in seen:
-            seen.add(stripped_keyword.lower())
-            result.append(stripped_keyword)
-    normalized_keywords_str = ",".join(result)
-    return normalized_keywords_str
+    tags = []
+    for raw_tag in raw_tags:
+        tag = raw_tag.strip().lower()
+        if tag not in seen:
+            seen.add(tag)
+            tags.append(tag)
+    return tags
 
 
 def url_path_to_dict(path):
