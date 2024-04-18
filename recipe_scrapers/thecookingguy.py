@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._utils import get_yields
+from ._utils import get_yields, normalize_string
 
 
 class TheCookingGuy(AbstractScraper):
@@ -28,7 +28,9 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients = self.soup.find("div", class_="w-layout-vflex card-text-holder ingredients").find_all("li")
+        ingredients_text = [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        return ingredients_text
 
     def instructions(self):
         return self.schema.instructions()
