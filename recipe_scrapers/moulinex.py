@@ -10,27 +10,26 @@ class Moulinex(AbstractScraper):
         return "moulinex.fr"
 
     def author(self):
-        return self.schema.data.get("author", {}).get("name", "No author")
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
 
     def total_time(self):
-        total_time = self.schema.data["totalTime"]
-        numbers = re.findall(r"\d+", total_time)
-
-        return int(numbers[0])
+        return self.schema.total_time()
 
     def yields(self):
-        return str(self.schema.data["recipeYield"]) + " servings"
+        return self.schema.yields()
 
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.schema.data["recipeIngredient"]
+        ingredients = self.schema.ingredients()
         spaced_ingredients = [
-            re.sub(r"(\d)([a-zA-Z])", r"\1 \2", ingredient)
+            re.sub(
+                r"(\d)([a-zA-Z])", r"\1 \2", ingredient
+            )  # To seperate units of measurement (g, ml) from value
             for ingredient in ingredients
         ]
 
@@ -42,9 +41,7 @@ class Moulinex(AbstractScraper):
         )
 
     def ratings(self):
-        return self.schema.data.get("aggregateRating", {}).get(
-            "ratingValue", "No rating"
-        )
+        return self.schema.ratings()
 
     def site_name(self):
         return "Moulinex"
