@@ -269,3 +269,8 @@ def change_keys(obj, convert):
         return cls(change_keys(item, convert) for item in obj)
     else:
         return obj
+
+
+def _get_url_slug(url):
+    path = url_path_to_dict(url).get("path")
+    return path.split("/")[-1]

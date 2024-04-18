@@ -1,74 +1,110 @@
 # mypy: disallow_untyped_defs=False
-import re
+import json
 
-from ._abstract import AbstractScraper
-from ._utils import normalize_string
+import requests
+
+from ._abstract import HEADERS, AbstractScraper
+from ._grouping_utils import IngredientGroup
+from ._utils import _get_url_slug
 
 
 class MadeWithLau(AbstractScraper):
+    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
+        super().__init__(url=url, *args, **kwargs)
+
+        recipe_slug = _get_url_slug(url)
+        response = requests.get(
+            "https://www.madewithlau.com/api/trpc/recipe.bySlug",
+            params={"input": json.dumps({"json": {"slug": recipe_slug}})},
+            headers=HEADERS,
+            proxies=proxies,
+            timeout=timeout,
+        )
+
+        response_json = response.json()
+        self.data = response_json.get("result").get("data").get("json")
+
     @classmethod
     def host(cls):
         return "madewithlau.com"
 
     def author(self):
-        return self.schema.author()
+        return "Made With Lau"
 
     def title(self):
-        return self.schema.title()
+        return self.data.get("title")
 
     def description(self):
-        return self.schema.description()
-
-    def cook_time(self):
-        return self.schema.cook_time()
+        return self.data.get("seoDescription")
 
     def prep_time(self):
-        return self.schema.prep_time()
+        return self.data.get("prepTime")
 
     def total_time(self):
-        return self.schema.total_time()
+        return self.data.get("totalTime")
 
     def yields(self):
-        return self.schema.yields()
+        servings = self.data.get("servings")
+        return f"{servings} servings"
 
     def image(self):
-        return self.schema.image()
+        return self.data.get("mainImage").get("asset").get("url")
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredients = []
+
+        for ingredient in self.data.get("ingredientsArray"):
+            ingredient_type = ingredient.get("_type")
+            if ingredient_type == "ingredient":
+                ingredients.append(self._get_ingredient_string(ingredient))
+
+        return ingredients
+
+    def ingredient_groups(self):
+        ingredient_groups = []
+
+        current_purpose = None
+        current_ingredients = []
+        for ingredient in self.data.get("ingredientsArray"):
+            ingredient_type = ingredient.get("_type")
+            if ingredient_type == "ingredientSection":
+                if current_ingredients or current_purpose:
+                    ingredient_group = IngredientGroup(
+                        ingredients=current_ingredients, purpose=current_purpose
+                    )
+                    ingredient_groups.append(ingredient_group)
+
+                current_purpose = ingredient.get("section")
+                current_ingredients = []
+            elif ingredient_type == "ingredient":
+                current_ingredients.append(self._get_ingredient_string(ingredient))
+
+        if current_ingredients or current_purpose:
+            ingredient_group = IngredientGroup(
+                ingredients=current_ingredients, purpose=current_purpose
+            )
+            ingredient_groups.append(ingredient_group)
+
+        return ingredient_groups
 
     def instructions(self):
-        # collect headers
-        headers = [
-            header.find("h4")
-            for header in self.soup.findAll(
-                "div",
-                {"class", re.compile("summary-step_step-label.*")},
-            )
-        ]
-
-        # collect steps associated with each header
-        step_sets = self.soup.findAll(
-            "div",
-            {"class", re.compile("summary-step_step__.*")},
-        )
-
-        # merge headers and steps
-        instructions = [
-            p
-            for pair in zip(headers, step_sets)
-            for p in [
-                pair[0],
-                *(pair[1].find("div") or pair[1]),
-            ]
-        ]
-
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
-
-    def cuisine(self):
-        return self.schema.cuisine()
+        instructions = []
+        for instruction in self.data.get("instructionsArray"):
+            for part in instruction.get("freeformDescription"):
+                description = ""
+                for child in part.get("children"):
+                    print(child.get("text"))
+                    description += child.get("text")
+                instructions.append(description)
+        print("\n".join(instructions))
+        return "\n".join(instructions)
 
     def category(self):
-        return self.schema.category()
+        return self.data.get("recipeCategory")
+
+    def _get_ingredient_string(self, ingredient):
+        amount = ingredient.get("amount")
+        unit = ingredient.get("unit")
+        item = ingredient.get("item")
+
+        return f"{amount} {unit} {item}"
