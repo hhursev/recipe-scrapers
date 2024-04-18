@@ -35,26 +35,13 @@ class AmericasTestKitchen(AbstractScraper):
         ingredients = []
         for group in self._get_additional_details.get("ingredientGroups"):
             ingredients += group["fields"]["recipeIngredientItems"]
-        return [
-            "{} {} {} {}".format(
-                i["fields"]["qty"] or "",
-                i["fields"]["measurement"] or "",
-                i["fields"]["ingredient"]["fields"]["title"] or "",
-                i["fields"]["postText"] or "",
-            )
-            for i in ingredients
-        ]
+        return [self._parse_ingredient_item(i) for i in ingredients]
 
     def ingredient_groups(self):
         ingredient_groups = []
         for group in self._get_additional_details.get("ingredientGroups"):
             ingredients = [
-                "{} {} {} {}".format(
-                    i["fields"]["qty"] or "",
-                    i["fields"]["measurement"] or "",
-                    i["fields"]["ingredient"]["fields"]["title"] or "",
-                    i["fields"]["postText"] or "",
-                )
+                self._parse_ingredient_item(i)
                 for i in group["fields"]["recipeIngredientItems"]
             ]
             purpose = group["fields"]["title"]
@@ -71,6 +58,19 @@ class AmericasTestKitchen(AbstractScraper):
             headnote = ""
         return headnote + self.schema.instructions()
 
+    def instructions_group(self):
+        if headnote := self._get_additional_details.get("headnote"):
+            # Ideally this would use HTMLTagStripperPlugin, but I'm not sure how to invoke it here
+            headnote = f"Note: {normalize_string(re.sub(r'<.*?>', '', headnote))}\n"
+        else:
+            headnote = ""
+        return "\n".join(
+            +[
+                self._get_additional_details.get("instruction")["fields"]["content"]
+                for instruction in self._get_additional_details.get("instruction")
+            ]
+        )
+
     def yields(self):
         return self.schema.yields()
 
@@ -82,6 +82,17 @@ class AmericasTestKitchen(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
+
+    @staticmethod
+    def _parse_ingredient_item(ingredient_item):
+        fields = ingredient_item["fields"]
+        fragments = (
+            fields["qty"] or "",
+            fields["measurement"] or "",
+            fields["ingredient"]["fields"]["title"] or "",
+            fields["postText"] or "",
+        )
+        return " ".join(fragment.rstrip() for fragment in fragments).rstrip()
 
     @functools.cached_property
     def _get_additional_details(self):
