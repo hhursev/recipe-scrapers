@@ -65,7 +65,8 @@ class AmericasTestKitchen(AbstractScraper):
         else:
             headnote = ""
         return "\n".join(
-            +[
+            [headnote]
+            + [
                 self._get_additional_details.get("instruction")["fields"]["content"]
                 for instruction in self._get_additional_details.get("instruction")
             ]
@@ -92,7 +93,11 @@ class AmericasTestKitchen(AbstractScraper):
             fields["ingredient"]["fields"]["title"] or "",
             fields["postText"] or "",
         )
-        return " ".join(fragment.rstrip() for fragment in fragments).rstrip()
+        return (
+            " ".join(fragment.rstrip() for fragment in fragments)
+            .rstrip()
+            .replace(" ,", ",")
+        )
 
     @functools.cached_property
     def _get_additional_details(self):
