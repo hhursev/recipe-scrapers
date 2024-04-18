@@ -23,6 +23,7 @@ class MadeWithLau(AbstractScraper):
 
         response_json = response.json()
         self.data = response_json.get("result").get("data").get("json")
+        self.mark_defs = self._extract_mark_defs()
 
     @classmethod
     def host(cls):
@@ -93,10 +94,8 @@ class MadeWithLau(AbstractScraper):
             for part in instruction.get("freeformDescription"):
                 description = ""
                 for child in part.get("children"):
-                    print(child.get("text"))
                     description += child.get("text")
-                instructions.append(description)
-        print("\n".join(instructions))
+                instructions.append(self._sanitize_instruction(description))
         return "\n".join(instructions)
 
     def category(self):
@@ -108,3 +107,18 @@ class MadeWithLau(AbstractScraper):
         item = ingredient.get("item")
 
         return f"{amount} {unit} {item}"
+
+    def _extract_mark_defs(self):
+        mark_defs = {}
+
+        for instruction in self.data.get("instructionsArray"):
+            for description_part in instruction.get("freeformDescription"):
+                for mark_def in description_part.get("markDefs"):
+                    mark_def_key = mark_def.get("_key")
+                    mark_defs[mark_def_key] = mark_def
+
+        return mark_defs
+
+    def _sanitize_instruction(self, instruction):
+        # Removes trailing space as well as replacing all whitespace with a single space
+        return " ".join(instruction.split())

@@ -77,8 +77,23 @@ class TestMadeWithLauScraper(ScraperTest):
     def test_instructions(self):
         return self.assertEqual(
             "Wash the rice 2 to 3 times with clean water, draining out the water each time.\n"
-            + "Add the rice and water to the rice cooker pot. Place the pot  in the cooker, then activate it.\n"
-            + "When the rice is cooked, use chopsticks to fluff the grains and release the steam.\n",
+            + "Add the rice and water to the rice cooker pot. Place the pot in the cooker, then activate it.\n"
+            + "When the rice is cooked, use chopsticks to fluff the grains and release the steam.\n"
+            + "Dice the green onions, using both the green and white parts.\n"
+            + "Wash the ginger (if needed), then cut into thin slices. Lay the down slices and cut them into strips.\n"
+            + "Wash the lettuce. Peel off leaves and stack them on top of each other, then cut into thin strips.\n"
+            + "Cut the chicken into slices. Turn them 90 degrees, then cut into small 1/2- inch cubes. Place the chicken in a bowl.\n"
+            + "Add the oyster sauce, white pepper, cornstarch, and water to the bowl.Mix to thoroughly combine.\n"
+            + "Cut off head of the salted fish and save for use in other recipes, if preferred.\n"
+            + "Use kitchen shears to trim off the dorsal fins on the back of the fish.\n"
+            + "Rinse the fish in water, then pat dry with a paper towel.\n"
+            + "It's time to debone the fish. Using a small knife, cut out the main spine and bones, separating into two halves if necessary. You can use the bones in other recipes.\n"
+            + "(Chef's Tip: For safety, lay the fish down on the cutting board and use your knife to gently pry out any bones.)\n"
+            + "Once all the bones have been removed, cut the fish into 1/4-inch thick strips. Rotate 90 degrees and dice into pea-sized pieces.\n"
+            + "Crack the eggs into bowl.\n"
+            + "Heat a wok on high, then add the oil.\n"
+            + "Beat the eggs and add to wok, stir frying for 20 to 30 seconds. Remove and set aside.\n"
+            + "Add more oil (0.32 tablespoon) to the hot wok.",
             self.harvester_class.instructions(),
         )
 
