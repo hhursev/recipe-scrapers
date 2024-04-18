@@ -13,7 +13,7 @@ class Moulinex(AbstractScraper):
         return self.schema.data.get("author", {}).get("name", "No author")
 
     def title(self):
-        return self.schema.data["name"]
+        return self.schema.title()
 
     def total_time(self):
         total_time = self.schema.data["totalTime"]
@@ -25,7 +25,7 @@ class Moulinex(AbstractScraper):
         return str(self.schema.data["recipeYield"]) + " servings"
 
     def image(self):
-        return self.schema.data["image"][0] if self.schema.data["image"] else None
+        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.schema.data["recipeIngredient"]
