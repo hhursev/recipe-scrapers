@@ -23,7 +23,9 @@ class MadeWithLau(AbstractScraper):
 
         response_json = response.json()
         self.data = response_json.get("result").get("data").get("json")
+
         self.mark_defs = self._extract_mark_defs()
+        self.ingredient_purposes = self._extract_ingredients_by_purpose()
 
     @classmethod
     def host(cls):
@@ -106,7 +108,33 @@ class MadeWithLau(AbstractScraper):
         unit = ingredient.get("unit")
         item = ingredient.get("item")
 
-        return f"{amount} {unit} {item}"
+        text = f"{amount} {unit} {item}"
+
+        notes = ingredient.get("notes", [])
+        note_strings = []
+        for note in notes:
+            note_strings.append(self._get_children_string(note.get("children")))
+
+        if note_strings:
+            notes_string = ", ".join(note_strings)
+            text += f" ({notes_string})"
+
+        return text
+
+    def _extract_ingredients_by_purpose(self):
+        ingredient_purposes = {}
+
+        for ingredient in self.data.get("ingredientsArray"):
+            ingredient_type = ingredient.get("_type")
+            if ingredient_type == "ingredient":
+                purpose = ingredient.get("purpose")
+                item = ingredient.get("item")
+                if purpose not in ingredient_purposes:
+                    ingredient_purposes[purpose] = {}
+
+                ingredient_purposes[purpose][item] = ingredient
+
+        return ingredient_purposes
 
     def _extract_mark_defs(self):
         mark_defs = {}
@@ -122,3 +150,46 @@ class MadeWithLau(AbstractScraper):
     def _sanitize_instruction(self, instruction):
         # Removes trailing space as well as replacing all whitespace with a single space
         return " ".join(instruction.split())
+
+    def _get_children_string(self, children):
+        text = ""
+        for child in children:
+            child_text = child.get("text", "")
+
+            mark_strings = []
+            for mark_key in child.get("marks", []):
+                mark_string = self._get_mark_string(mark_key)
+                if mark_string:
+                    mark_strings.append(mark_string)
+
+            if mark_strings:
+                mark_string = ", ".join(mark_strings)
+                child_text += f" ({mark_string})"
+
+            text += child_text
+        return text
+
+    def _get_ingredient(self, purpose, item):
+        return self.ingredient_purposes.get(purpose, {}).get(item)
+
+    def _get_mark_string(self, mark_key):
+        mark_def = self.mark_defs.get(mark_key)
+        if not mark_def:
+            return None
+
+        mark_type = mark_def.get("_type")
+        if mark_type == "linkedIngredient":
+            ingredient_purpose = mark_def.get("ingredientPurpose")
+            ingredient_item = mark_def.get("ingredientName")
+
+            ingredient = self._get_ingredient(ingredient_purpose, ingredient_item)
+
+            ingredient_unit = ingredient.get("unit")
+            ingredient_amount = ingredient.get("amount")
+            fraction_to_use = mark_def.get("fractionToUseNow", 1)
+
+            used_amount = ingredient_amount * fraction_to_use
+
+            return f"{used_amount} {ingredient_unit}"
+        else:
+            return None

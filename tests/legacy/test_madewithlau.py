@@ -55,7 +55,7 @@ class TestMadeWithLauScraper(ScraperTest):
     def test_ingredients(self):
         self.assertEqual(
             [
-                "12 oz Thai jasmine rice",
+                "12 oz Thai jasmine rice (uncooked)",
                 "10 oz water",
                 "1 oz green onions",
                 "0.5 oz ginger",
@@ -102,7 +102,7 @@ class TestMadeWithLauScraper(ScraperTest):
             [
                 IngredientGroup(
                     ingredients=[
-                        "12 oz Thai jasmine rice",
+                        "12 oz Thai jasmine rice (uncooked)",
                         "10 oz water",
                         "1 oz green onions",
                         "0.5 oz ginger",
