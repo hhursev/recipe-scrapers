@@ -36,9 +36,7 @@ class Moulinex(AbstractScraper):
         return spaced_ingredients
 
     def instructions(self):
-        return "\n".join(
-            step["text"] for step in self.schema.data["recipeInstructions"]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
