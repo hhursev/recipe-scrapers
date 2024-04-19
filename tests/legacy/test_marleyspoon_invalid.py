@@ -9,7 +9,7 @@ from recipe_scrapers.marleyspoon import MarleySpoon
 class TestFaultyAPIURLResponse(unittest.TestCase):
 
     @responses.activate
-    def test_invalid_scraper(self):
+    def test_faulty_response(self):
         valid_url = "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat"
         with open("tests/legacy/test_data/faulty.testhtml") as faulty_data:
             faulty_response = faulty_data.read()
