@@ -21,4 +21,4 @@ class TestFaultyAPIURLResponse(unittest.TestCase):
         )
 
         with self.assertRaises(RecipeScrapersExceptions):
-            scraper = MarleySpoon(url=valid_url)
+            MarleySpoon(url=valid_url)
