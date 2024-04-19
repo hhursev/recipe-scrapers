@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 import json
+import math
 
 import requests
 
@@ -94,9 +95,7 @@ class MadeWithLau(AbstractScraper):
         instructions = []
         for instruction in self.data.get("instructionsArray"):
             for part in instruction.get("freeformDescription"):
-                description = ""
-                for child in part.get("children"):
-                    description += child.get("text")
+                description = self._get_children_string(part.get("children"))
                 instructions.append(self._sanitize_instruction(description))
         return "\n".join(instructions)
 
@@ -188,8 +187,19 @@ class MadeWithLau(AbstractScraper):
             ingredient_amount = ingredient.get("amount")
             fraction_to_use = mark_def.get("fractionToUseNow", 1)
 
-            used_amount = ingredient_amount * fraction_to_use
+            used_amount = self.round_and_format(ingredient_amount * fraction_to_use)
 
             return f"{used_amount} {ingredient_unit}"
         else:
             return None
+
+    def round_and_format(self, number):
+        """
+        Rounds to two decimal places, rounding up. If the number is a whole number, removes the trailing zeroes.
+        """
+        rounded_number = math.ceil(number * 100) / 100
+        integer_part = int(rounded_number)
+        if rounded_number == integer_part:
+            return str(integer_part)
+        else:
+            return f"{rounded_number:.2f}"
