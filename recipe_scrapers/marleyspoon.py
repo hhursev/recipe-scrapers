@@ -69,8 +69,8 @@ class MarleySpoon(AbstractScraper):
         scraper_name = self.__class__.__name__
         expected_domain = scraper_name.lower()
         try:
-            api_url = urljoin(self.url, api_url)
-            url_info = urlsplit(api_url)
+            validation_url = urljoin(self.url, api_url)
+            url_info = urlsplit(validation_url)
             domain_prefix, _ = url_info.hostname.rsplit(".", 1)
             if not f".{domain_prefix}".endswith(f".{expected_domain}"):
                 msg = f"Domain for {api_url} does not contain expected part: {expected_domain}"
