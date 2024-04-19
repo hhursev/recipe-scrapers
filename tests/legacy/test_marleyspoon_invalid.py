@@ -11,7 +11,7 @@ class TestFaultyAPIURLResponse(unittest.TestCase):
     @responses.activate
     def test_invalid_scraper(self):
         valid_url = "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat"
-        with open("tests/legacy/test_data/faulty.testhtml", "r") as faulty_data:
+        with open("tests/legacy/test_data/faulty.testhtml") as faulty_data:
             faulty_response = faulty_data.read()
 
         responses.add(
