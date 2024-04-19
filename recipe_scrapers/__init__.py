@@ -267,6 +267,7 @@ from .tastesoflizzyt import TastesOfLizzyT
 from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
+from .thecookingguy import TheCookingGuy
 from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchencommunity import TheKitchenCommunity
@@ -391,6 +392,7 @@ SCRAPERS = {
     Recept.host(): Recept,
     RicettePerBimby.host(): RicettePerBimby,
     StrongrFastr.host(): StrongrFastr,
+    TheCookingGuy.host(): TheCookingGuy,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
