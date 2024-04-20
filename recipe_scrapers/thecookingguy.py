@@ -93,7 +93,13 @@ class TheCookingGuy(AbstractScraper):
         return ingredient_groups
 
     def instructions(self):
-        return self.schema.instructions()
+        instructions = self.soup.find(
+            "div", class_="w-layout-vflex card-text-holder directions"
+        ).find_all("li")
+
+        instructions_text = "\n".join(normalize_string(instruction.get_text()) for instruction in instructions)
+        
+        return instructions_text
 
     def description(self):
         return self.schema.description()
