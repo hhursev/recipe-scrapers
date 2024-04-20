@@ -1,6 +1,11 @@
 import unittest
 
-from recipe_scrapers._utils import _extract_fractional, get_minutes, url_path_to_dict
+from recipe_scrapers._utils import (
+    _extract_fractional,
+    _get_url_slug,
+    get_minutes,
+    url_path_to_dict,
+)
 
 
 class TestUtils(unittest.TestCase):
@@ -103,3 +108,8 @@ class TestUtils(unittest.TestCase):
             and method not in ["soup", "links", "to_json"]
         ]
         self.assertEqual((expected_methods), (public_methods))
+
+    def test_get_url_slug(self):
+        input_url = "https://example.com/first/second/last"
+        url_slug = _get_url_slug(input_url)
+        self.assertEqual("last", url_slug)

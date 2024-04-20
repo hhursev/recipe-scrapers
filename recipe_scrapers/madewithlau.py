@@ -187,13 +187,13 @@ class MadeWithLau(AbstractScraper):
             ingredient_amount = ingredient.get("amount")
             fraction_to_use = mark_def.get("fractionToUseNow", 1)
 
-            used_amount = self.round_and_format(ingredient_amount * fraction_to_use)
+            used_amount = self._round_and_format(ingredient_amount * fraction_to_use)
 
             return f"{used_amount} {ingredient_unit}"
         else:
             return None
 
-    def round_and_format(self, number):
+    def _round_and_format(self, number):
         """
         Rounds to two decimal places, rounding up. If the number is a whole number, removes the trailing zeroes.
         """
