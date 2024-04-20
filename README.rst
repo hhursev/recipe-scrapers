@@ -59,6 +59,7 @@ then:
     scraper.nutrients()  # not always available
     scraper.canonical_url()  # not always available
     scraper.equipment()  # not always available
+    scraper.cooking_method()  # not always available
 
 You also have an option to scrape html-like content
 
@@ -108,6 +109,7 @@ Scrapers available for:
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
 - `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
+- `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
@@ -146,6 +148,7 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
@@ -223,6 +226,7 @@ Scrapers available for:
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
+- `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
@@ -236,6 +240,7 @@ Scrapers available for:
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
+- `https://leukerecepten.nl/ <https://www.leukerecepten.nl>`_
 - `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
