@@ -29,11 +29,8 @@ class Whole30(AbstractScraper):
     def ingredients(self):
         return self.schema.ingredients()
 
-    def instructions(self):
+    def instructions(selfhttps://whole30.com/recipes/whole30-chicken-korma/):
         return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def cuisine(self):
         return self.schema.cuisine()
