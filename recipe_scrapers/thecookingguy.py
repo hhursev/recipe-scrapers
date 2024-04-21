@@ -43,13 +43,9 @@ class TheCookingGuy(AbstractScraper):
         if ingredients_div is None:
             raise ElementNotFoundInHtml("Ingredients not found.")
 
-        # initialize ingredient groups with 0th group being ungrouped
+        # initialize ingredient groups
         ingredient_groups = []
-        group = IngredientGroup(
-            ingredients=[],
-            purpose=None,
-        )
-        ingredient_groups.append(group)
+        ungrouped_ingredients = []
 
         for ingredients_ul in ingredients_div.find_all("ul"):
             ingredients = ingredients_ul.find_all("li")
@@ -68,7 +64,14 @@ class TheCookingGuy(AbstractScraper):
                 ingredient_groups.append(group)
             else:
                 # no purpose, add to no purpose group
-                ingredient_groups[0].ingredients.extend(items)
+                ungrouped_ingredients.extend(items)
+
+        if ungrouped_ingredients:
+            group = IngredientGroup(
+                ingredients=ungrouped_ingredients,
+                purpose=None,
+            )
+            ingredient_groups.append(group)
 
         return ingredient_groups
 
