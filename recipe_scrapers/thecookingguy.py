@@ -67,10 +67,7 @@ class TheCookingGuy(AbstractScraper):
                 ungrouped_ingredients.extend(items)
 
         if ungrouped_ingredients:
-            group = IngredientGroup(
-                ingredients=ungrouped_ingredients,
-                purpose=None,
-            )
+            group = IngredientGroup(ingredients=ungrouped_ingredients, purpose=None)
             ingredient_groups.append(group)
 
         return ingredient_groups
