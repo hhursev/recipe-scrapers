@@ -93,42 +93,23 @@ class TheCookingGuy(AbstractScraper):
         return ingredient_groups
 
     def instructions(self):
-        if (
-            self.soup.find(
-                "div", class_="w-layout-vflex card-text-holder directions"
-            ).find_all("p")
-            == []
-        ):
-            instructions = self.soup.find(
-                "div", class_="w-layout-vflex card-text-holder directions"
-            ).find_all("li")
+        instructions_div = self.soup.find(
+            "div", class_="w-layout-vflex card-text-holder directions"
+        ).find("div")
 
-            instructions_text = "\n".join(
-                normalize_string(instruction.get_text()) for instruction in instructions
-            )
-
-            return instructions_text
-        else:
-
-            headings = self.soup.find(
-                "div", class_="w-layout-vflex card-text-holder directions"
-            ).find_all("p")
-
-            headings = [heading for heading in headings if heading.find("strong")]
-
-            output = []
-            for heading in headings:
-                if heading.find_next_sibling() is None:
-                    continue
-                heading_text = normalize_string(heading.get_text())
-                list_items = heading.find_next_sibling().find_all("li")
-                list_items_text = "\n".join(
-                    normalize_string(item.get_text()) for item in list_items
+        instructions = []
+        for child in instructions_div.children:
+            if child.name == "p":
+                heading = child.find("strong")
+                if heading and heading.get_text().encode("ascii", "ignore").strip():
+                    instructions.append(normalize_string(heading.get_text()))
+            elif child.name == "ol":
+                instructions.extend(
+                    normalize_string(instruction.get_text())
+                    for instruction in child.find_all("li")
                 )
-                heading_text += "\n" + list_items_text
-                output.append(heading_text)
 
-            return "\n".join(output)
+        return "\n".join(instructions)
 
     def description(self):
         return self.schema.description()
