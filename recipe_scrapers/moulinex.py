@@ -28,17 +28,15 @@ class Moulinex(AbstractScraper):
         ingredients = self.schema.ingredients()
         spaced_ingredients = [
             re.sub(
-                r"(\d)([a-zA-Z])", r"\1 \2", ingredient
-            )  # To seperate units of measurement (g, ml) from value
+                r"(\d)(?![ .\d])", r"\1 ", ingredient
+            )  # Insert space if number is not followed by a space, period, or another number
             for ingredient in ingredients
         ]
 
         return spaced_ingredients
 
     def instructions(self):
-        return "\n".join(
-            step["text"] for step in self.schema.data["recipeInstructions"]
-        )
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
