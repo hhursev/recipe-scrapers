@@ -294,7 +294,7 @@ class SchemaOrg:
             rating_id = ratings.get("@id")
             if rating_id:
                 ratings = self.ratingsdata.get(rating_id, ratings)
-            ratings = ratings.get("ratingCount")
+            ratings = ratings.get("ratingCount") or ratings.get("reviewCount")
         if ratings:
             return round(float(ratings), 2) if float(ratings) != 0 else None
         raise SchemaOrgException("No ratingCount in SchemaOrg.")
