@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import contextlib
-from typing import Any
 import warnings
+from typing import Any
 
 from ._abstract import AbstractScraper
 from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
