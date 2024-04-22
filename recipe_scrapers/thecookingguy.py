@@ -93,13 +93,42 @@ class TheCookingGuy(AbstractScraper):
         return ingredient_groups
 
     def instructions(self):
-        instructions = self.soup.find(
-            "div", class_="w-layout-vflex card-text-holder directions"
-        ).find_all("li")
+        if (
+            self.soup.find(
+                "div", class_="w-layout-vflex card-text-holder directions"
+            ).find_all("p")
+            is None
+        ):
 
-        instructions_text = "\n".join(normalize_string(instruction.get_text()) for instruction in instructions)
-        
-        return instructions_text
+            instructions = self.soup.find(
+                "div", class_="w-layout-vflex card-text-holder directions"
+            ).find_all("li")
+
+            instructions_text = "\n".join(
+                normalize_string(instruction.get_text()) for instruction in instructions
+            )
+
+            return instructions_text
+        else:
+            headings = self.soup.find(
+                "div", class_="w-layout-vflex card-text-holder directions"
+            ).find_all("p")
+
+            headings = [heading for heading in headings if heading.find("strong")]
+
+            output = []
+            for heading in headings:
+                if heading.find_next_sibling() is None:
+                    continue
+                heading_text = normalize_string(heading.get_text())
+                list_items = heading.find_next_sibling().find_all("li")
+                list_items_text = "\n".join(
+                    normalize_string(item.get_text()) for item in list_items
+                )
+                heading_text += "\n" + list_items_text
+                output.append(heading_text)
+
+            return "\n".join(output)
 
     def description(self):
         return self.schema.description()
