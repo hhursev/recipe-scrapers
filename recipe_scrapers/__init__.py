@@ -669,11 +669,13 @@ def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     if options:
         msg = (
             "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
-            "support for them will be dropped in future.  To migrate, please use an "
-            "HTTP client (such as 'requests' or 'httpx') configured with the "
-            "proxies/timeout settings you want, use that client to retrieve the "
-            "recipe HTML, and scrape that using the 'recipe_scrapers.scrape_html' "
-            "function."
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+            " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
+            "function.\n"
         )
         warnings.warn(msg, DeprecationWarning)
 
@@ -717,10 +719,11 @@ def scrape_html(
     if options:
         msg = (
             "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
-            "support for them will be dropped in future.  To migrate, please use an "
-            "HTTP client (such as 'requests' or 'httpx') configured with the "
-            "proxies/timeout settings you want, use that client to retrieve the "
-            "recipe HTML."
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
         )
         warnings.warn(msg, DeprecationWarning)
 
