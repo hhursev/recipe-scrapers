@@ -42,4 +42,6 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
-        return self.schema.description()
+        description = self.soup.find("div", class_="richintro w-richtext").find("p")
+        description_text = normalize_string(description.get_text())
+        return description_text
