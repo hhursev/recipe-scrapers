@@ -94,7 +94,7 @@ class AmericasTestKitchen(AbstractScraper):
             fields["postText"] or "",
         )
         return (
-            " ".join(fragment.rstrip() for fragment in fragments)
+            " ".join(fragment.rstrip() for fragment in fragments if fragment)
             .rstrip()
             .replace(" ,", ",")
         )
