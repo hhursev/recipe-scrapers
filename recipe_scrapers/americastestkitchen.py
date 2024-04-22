@@ -52,7 +52,7 @@ class AmericasTestKitchen(AbstractScraper):
 
     def instructions(self):  # add headnote
         if headnote := self._get_additional_details.get("headnote"):
-            # Ideally this would use HTMLTagStripperPlugin, but I'm not sure how to invoke it here
+            # We could import HTMLTagStripperPlugin, but that would make it -- an optional plugin -- a dependency.
             headnote = f"Note: {normalize_string(re.sub(r'<.*?>', '', headnote))}\n"
         else:
             headnote = ""
@@ -60,7 +60,7 @@ class AmericasTestKitchen(AbstractScraper):
 
     def instructions_group(self):
         if headnote := self._get_additional_details.get("headnote"):
-            # Ideally this would use HTMLTagStripperPlugin, but I'm not sure how to invoke it here
+            # We could import HTMLTagStripperPlugin, but that would make it -- an optional plugin -- a dependency.
             headnote = f"Note: {normalize_string(re.sub(r'<.*?>', '', headnote))}\n"
         else:
             headnote = ""
@@ -94,7 +94,7 @@ class AmericasTestKitchen(AbstractScraper):
             fields["postText"] or "",
         )
         return (
-            " ".join(fragment.rstrip() for fragment in fragments)
+            " ".join(fragment.rstrip() for fragment in fragments if fragment)
             .rstrip()
             .replace(" ,", ",")
         )
