@@ -97,9 +97,8 @@ class TheCookingGuy(AbstractScraper):
             self.soup.find(
                 "div", class_="w-layout-vflex card-text-holder directions"
             ).find_all("p")
-            is None
+            == []
         ):
-
             instructions = self.soup.find(
                 "div", class_="w-layout-vflex card-text-holder directions"
             ).find_all("li")
@@ -110,6 +109,7 @@ class TheCookingGuy(AbstractScraper):
 
             return instructions_text
         else:
+
             headings = self.soup.find(
                 "div", class_="w-layout-vflex card-text-holder directions"
             ).find_all("p")
