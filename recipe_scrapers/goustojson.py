@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from ._abstract import HEADERS, AbstractScraper
-from ._utils import _get_url_slug, get_minutes, get_yields, normalize_string
+from ._utils import get_minutes, get_url_slug, get_yields, normalize_string
 
 
 class GoustoJson(AbstractScraper):
@@ -15,7 +15,7 @@ class GoustoJson(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, *args, **kwargs)
 
-        recipe_slug = _get_url_slug(url)
+        recipe_slug = get_url_slug(url)
         data_url = (
             f"https://production-api.gousto.co.uk/cmsreadbroker/v1/recipe/{recipe_slug}"
         )

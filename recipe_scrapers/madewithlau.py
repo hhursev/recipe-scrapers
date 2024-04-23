@@ -6,14 +6,14 @@ import requests
 
 from ._abstract import HEADERS, AbstractScraper
 from ._grouping_utils import IngredientGroup
-from ._utils import _get_url_slug
+from ._utils import get_url_slug
 
 
 class MadeWithLau(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, *args, **kwargs)
 
-        recipe_slug = _get_url_slug(url)
+        recipe_slug = get_url_slug(url)
         response = requests.get(
             "https://www.madewithlau.com/api/trpc/recipe.bySlug",
             params={"input": json.dumps({"json": {"slug": recipe_slug}})},

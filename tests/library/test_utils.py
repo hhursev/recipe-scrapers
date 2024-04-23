@@ -2,8 +2,8 @@ import unittest
 
 from recipe_scrapers._utils import (
     _extract_fractional,
-    _get_url_slug,
     get_minutes,
+    get_url_slug,
     url_path_to_dict,
 )
 
@@ -111,5 +111,5 @@ class TestUtils(unittest.TestCase):
 
     def test_get_url_slug(self):
         input_url = "https://example.com/first/second/last"
-        url_slug = _get_url_slug(input_url)
+        url_slug = get_url_slug(input_url)
         self.assertEqual("last", url_slug)

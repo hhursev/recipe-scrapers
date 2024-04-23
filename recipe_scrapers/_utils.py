@@ -271,6 +271,6 @@ def change_keys(obj, convert):
         return obj
 
 
-def _get_url_slug(url):
+def get_url_slug(url):
     path = url_path_to_dict(url).get("path")
     return path.split("/")[-1]
