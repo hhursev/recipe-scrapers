@@ -95,3 +95,6 @@ class TheCookingGuy(AbstractScraper):
         description = self.soup.find("div", class_="richintro w-richtext").find("p")
         description_text = normalize_string(description.get_text())
         return description_text
+
+    def site_name(self):
+        return "Sam The Cooking Guy"
