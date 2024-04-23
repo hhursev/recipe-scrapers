@@ -8,11 +8,20 @@ class Template(AbstractScraper):
     def host(cls):
         return "example.com"
 
+    def author(self):
+        return self.schema.author()
+
     def title(self):
         return self.schema.title()
 
+    def category(self):
+        return self.schema.category()
+
     def total_time(self):
         return self.schema.total_time()
+
+    def yields(self):
+        return self.schema.yields()
 
     def image(self):
         return self.schema.image()
@@ -22,16 +31,6 @@ class Template(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
-
-    def author(self):
-        # question: should we make this a required field?
-        return self.schema.author()
-
-    def category(self):
-        return self.schema.category()
-
-    def yields(self):
-        return self.schema.yields()
 
     def ratings(self):
         return self.schema.ratings()
