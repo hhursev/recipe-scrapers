@@ -22,7 +22,7 @@ class JoyTheBaker(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        recipe_time = self.soup.find("span", {"class": "tasty-recipes-total-time"}).text
+        recipe_time = self.soup.find("span", {"class": "tasty-recipes-total-time"})
         return self._decode_time(recipe_time)
 
     def yields(self):
@@ -65,18 +65,20 @@ class JoyTheBaker(AbstractScraper):
         return self.schema.description()
 
     def cook_time(self):
-        recipe_time = self.soup.find("span", {"class": "tasty-recipes-cook-time"}).text
+        recipe_time = self.soup.find("span", {"class": "tasty-recipes-cook-time"})
         return self._decode_time(recipe_time)
 
     def prep_time(self):
-        recipe_time = self.soup.find("span", {"class": "tasty-recipes-prep-time"}).text
+        recipe_time = self.soup.find("span", {"class": "tasty-recipes-prep-time"})
         return self._decode_time(recipe_time)
 
-    def _decode_time(self, recipe_time: str) -> int:
+    def _decode_time(self, recipe_time) -> int | None:
         """
-        Decode a time value from a given string (format "<quantity> <type>" i.e. "10 minutes")
+        Decode a time value from a given handle
         """
-        recipe_time_array = recipe_time.lower().split()
+        if recipe_time is None:
+            return None
+        recipe_time_array = recipe_time.text.lower().split()
         time = 0
         for index, word in enumerate(recipe_time_array):
             try:
