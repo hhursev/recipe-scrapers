@@ -393,6 +393,7 @@ Scrapers available for:
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
+- `https://www.womensweekly.com.au/ <https://www.womensweekly.com.au/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
