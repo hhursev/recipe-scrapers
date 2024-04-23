@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+from recipe_scrapers._exceptions import ElementNotFoundInHtml
 from recipe_scrapers._grouping_utils import IngredientGroup
+from recipe_scrapers._utils import get_minutes
 
 from ._abstract import AbstractScraper
 
@@ -23,7 +25,10 @@ class JoyTheBaker(AbstractScraper):
 
     def total_time(self):
         recipe_time = self.soup.find("span", {"class": "tasty-recipes-total-time"})
-        return self._decode_time(recipe_time)
+        try:
+            return get_minutes(recipe_time)
+        except ElementNotFoundInHtml:
+            return None
 
     def yields(self):
         return self.schema.yields()
@@ -66,35 +71,14 @@ class JoyTheBaker(AbstractScraper):
 
     def cook_time(self):
         recipe_time = self.soup.find("span", {"class": "tasty-recipes-cook-time"})
-        return self._decode_time(recipe_time)
+        try:
+            return get_minutes(recipe_time)
+        except ElementNotFoundInHtml:
+            return None
 
     def prep_time(self):
         recipe_time = self.soup.find("span", {"class": "tasty-recipes-prep-time"})
-        return self._decode_time(recipe_time)
-
-    def _decode_time(self, recipe_time) -> int | None:
-        """
-        Decode a time value from a given handle
-        """
-        if recipe_time is None:
+        try:
+            return get_minutes(recipe_time)
+        except ElementNotFoundInHtml:
             return None
-        recipe_time_array = recipe_time.text.lower().split()
-        time = 0
-        for index, word in enumerate(recipe_time_array):
-            try:
-                int(word)
-                if (
-                    recipe_time_array[index + 1] == "hours"
-                    or recipe_time_array[index + 1] == "hour"
-                ):
-                    time += int(word) * 60
-                elif (
-                    recipe_time_array[index + 1] == "days"
-                    or recipe_time_array[index + 1] == "day"
-                ):
-                    time += int(word) * 1440
-                else:
-                    time += int(word)
-            except ValueError:
-                pass
-        return time
