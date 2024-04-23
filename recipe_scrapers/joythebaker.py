@@ -42,19 +42,18 @@ class JoyTheBaker(AbstractScraper):
     def ingredient_groups(self) -> list[IngredientGroup]:
         ingredients = self.soup.find("div", {"class": "tasty-recipes-ingredients-body"})
 
-        categories = ingredients.find_all("p")
+        group_titles = ingredients.find_all("p")
         ingredient_groupings = ingredients.find_all("ul")
 
         ingredient_groups = []
 
-        for index, group in enumerate(categories):
-            ingredient_list = ingredient_groupings[index].find_all("li")
+        for group_title, ingredient_group in zip(group_titles, ingredient_groupings):
             ingredient_groups.append(
                 IngredientGroup(
-                    [ingredient.text for ingredient in ingredient_list], group.text
+                    [ingredient.text for ingredient in ingredient_group.find_all("li")],
+                    group_title.text,
                 )
             )
-
         return ingredient_groups
 
     def instructions(self):
