@@ -69,6 +69,8 @@ Notes:
 
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
+Some Python HTTP clients that you can use to retrieve HTML include `requests <https://pypi.org/project/requests/>`_ and `httpx <https://pypi.org/project/httpx/>`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+
 
 Migrating from v14:
 -------------------
@@ -397,6 +399,7 @@ Scrapers available for:
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
+- `https://www.womensweekly.com.au/ <https://www.womensweekly.com.au/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
