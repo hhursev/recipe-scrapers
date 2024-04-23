@@ -79,7 +79,7 @@ Migrating from v14:
 
 The parameters to the ``scrape_html`` function have been adjusted in v15 and are intended to make code that uses them more readable.  However, the changes should be considered ``breaking changes`` -- some applications may need to adjust their code to upgrade successfully.
 
-Here are some use-cases that we've anticipated and can provide migration paths for:
+Here are some use-cases that we have prepared migration suggestions for:
 
 
 Scraping a recipe URL on-demand
