@@ -177,7 +177,6 @@ from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madensverden import MadensVerden
-from .madewithlau import MadeWithLau
 from .madsvin import Madsvin
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
@@ -512,7 +511,6 @@ SCRAPERS = {
     Lovingitvegan.host(): Lovingitvegan,
     Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
-    MadeWithLau.host(): MadeWithLau,
     Madsvin.host(): Madsvin,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,

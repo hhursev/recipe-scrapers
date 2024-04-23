@@ -262,7 +262,6 @@ Scrapers available for:
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
-- `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
