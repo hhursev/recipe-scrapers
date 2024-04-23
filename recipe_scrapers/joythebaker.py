@@ -1,6 +1,6 @@
 # mypy: allow-untyped-defs
 
-from typing import List
+from __future__ import annotations
 
 from recipe_scrapers._grouping_utils import IngredientGroup
 
@@ -34,7 +34,7 @@ class JoyTheBaker(AbstractScraper):
     def ingredients(self):
         return self.schema.ingredients()
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         ingredients = self.soup.find("div", {"class": "tasty-recipes-ingredients-body"})
 
         categories = ingredients.find_all("p")
