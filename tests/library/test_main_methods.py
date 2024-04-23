@@ -105,6 +105,5 @@ class TestMainMethods(unittest.TestCase):
         with self.assertRaises(NoSchemaFoundInWildMode):
             with catch_warnings(record=True) as ws:
                 scrape_html(html=html, org_url=url, online=False, wild_mode=True)
-                self.assertTrue(
-                    any(isinstance(w.category, DeprecationWarning) for w in ws)
-                )
+
+        self.assertTrue(any(w.category is DeprecationWarning for w in ws))
