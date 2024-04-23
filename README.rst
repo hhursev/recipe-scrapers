@@ -91,7 +91,8 @@ Scraping a recipe URL on-demand
 
     ## Migrated v15
     url = ...
-    scraper = scrape_html(html=None, org_url=url, online=True)
+    html = requests.get(url).content
+    scraper = scrape_html(html=html, org_url=url)
 
 
 Scrapers available for:
