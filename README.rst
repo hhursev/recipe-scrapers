@@ -51,13 +51,15 @@ then:
     html = requests.get(url).content
     scraper = scrape_html(html, org_url=url, wild_mode=True)
 
+    scraper.host()
     scraper.title()
     scraper.total_time()
-    scraper.yields()
-    scraper.ingredients()
-    scraper.instructions()  # or alternatively for results as a Python list: scraper.instructions_list()
     scraper.image()
-    scraper.host()
+    scraper.ingredients()
+    scraper.ingredient_groups()
+    scraper.instructions()
+    scraper.instructions_list()
+    scraper.yields()
     scraper.to_json()
     scraper.links()
     scraper.nutrients()  # not always available
