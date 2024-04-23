@@ -78,21 +78,6 @@ The parameters to the ``scrape_html`` function have been adjusted in v15 and are
 Here are some use-cases that we've anticipated and can provide migration paths for:
 
 
-Attempting to scrape from a website that has no specific scraper implemented
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. code:: python
-
-    ## Legacy v14
-    html, url = ..., ...
-    if not scraper_exists_for(url):
-        scraper = scrape_html(html, url, wild_mode=True)
-
-    ## Migrated v15
-    html, url = ..., ...
-    scraper = scrape_html(html, url, offline=True, supported_only=False)
-
-
 Scraping a recipe URL on-demand
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
