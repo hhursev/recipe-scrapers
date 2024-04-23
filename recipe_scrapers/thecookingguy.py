@@ -28,8 +28,12 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find("div", class_="w-layout-vflex card-text-holder ingredients").find_all("li")
-        ingredients_text = [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        ingredients = self.soup.find(
+            "div", class_="w-layout-vflex card-text-holder ingredients"
+        ).find_all("li")
+        ingredients_text = [
+            normalize_string(ingredient.get_text()) for ingredient in ingredients
+        ]
         return ingredients_text
 
     def instructions(self):
