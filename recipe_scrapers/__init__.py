@@ -704,6 +704,13 @@ def scrape_html(
             msg += "Please pass 'supported_only=False' instead for similar behaviour."
         warnings.warn(msg, category=DeprecationWarning)
 
+    if online:
+        msg = "The 'online' parameter is deprecated and will be removed in future."
+        msg += "\n\n"
+        msg += "Please use an HTTP client (such as 'requests' or 'httpx') to "
+        msg += "retrieve the recipe's HTML from the URL instead."
+        warnings.warn(msg, category=DeprecationWarning)
+
     if supported_only is not None and wild_mode is not None:
         msg = "Please provide either 'supported_only' or 'wild_mode', but not both."
         raise ValueError(msg)

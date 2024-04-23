@@ -79,12 +79,14 @@ class TestMainMethods(unittest.TestCase):
         mock_get.return_value = mock.MagicMock()
         mock_get.return_value.text = recipe_html.read_text()
 
-        scrape_html(
-            html=None,
-            org_url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
-            online=True,
-            supported_only=False,
-        )
+        with catch_warnings(record=True) as ws:
+            scrape_html(
+                html=None,
+                org_url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
+                online=True,
+                supported_only=False,
+            )
+            self.assertTrue(any(w.category is DeprecationWarning for w in ws))
 
         assert mock_get.called
 
