@@ -393,6 +393,7 @@ Scrapers available for:
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
 - `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
+- `https://whole30.com/ <https://whole30.com/>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_

@@ -140,6 +140,7 @@ from .hostthetoast import Hostthetoast
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
+from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
@@ -313,6 +314,7 @@ from .weightwatchers import WeightWatchers
 from .weightwatcherspublic import WeightWatchersPublic
 from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
+from .whole30 import Whole30
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
@@ -393,6 +395,7 @@ SCRAPERS = {
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
+    InBloomBakery.host(): InBloomBakery,
     JoshuaWeissman.host(): JoshuaWeissman,
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KuchynaLidla.host(): KuchynaLidla,
@@ -638,6 +641,7 @@ SCRAPERS = {
     WeightWatchersPublic.host(): WeightWatchersPublic,
     WellPlated.host(): WellPlated,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    Whole30.host(): Whole30,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
     WilliamsSonoma.host(): WilliamsSonoma,
