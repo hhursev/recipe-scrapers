@@ -641,6 +641,7 @@ SCRAPERS = {
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
     WilliamsSonoma.host(): WilliamsSonoma,
+    WomensWeeklyFood.host(): WomensWeeklyFood,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
@@ -651,7 +652,6 @@ SCRAPERS = {
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
-    WomensWeeklyFood.host(): WomensWeeklyFood,
 }
 
 
