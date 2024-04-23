@@ -48,5 +48,5 @@ class SchemaScraperFactory:
             return self.schema.description()
 
     @classmethod
-    def generate(cls, html, url, **options):
-        return cls.SchemaScraper(html=html, url=url, **options)
+    def generate(cls, html, url):
+        return cls.SchemaScraper(html=html, url=url)
