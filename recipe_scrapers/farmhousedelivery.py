@@ -4,6 +4,7 @@ import re
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 from ._utils import normalize_string
 
 """
@@ -19,6 +20,11 @@ class FarmhouseDelivery(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
+
+    def total_time(self):
+        raise RecipeScrapersExceptions(
+            f"{self.host()} does not provide time information."
+        )
 
     def ingredients(self):
         # Style 1

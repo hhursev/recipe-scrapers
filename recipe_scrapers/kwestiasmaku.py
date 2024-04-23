@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 from ._utils import get_yields, normalize_string
 
 
@@ -7,6 +8,11 @@ class KwestiaSmaku(AbstractScraper):
     @classmethod
     def host(cls):
         return "kwestiasmaku.com"
+
+    def total_time(self):
+        raise RecipeScrapersExceptions(
+            f"{self.host()} does not provide time information."
+        )
 
     def yields(self):
         return get_yields(
