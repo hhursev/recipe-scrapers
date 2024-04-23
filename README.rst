@@ -81,7 +81,7 @@ Here are some use-cases that we've anticipated and can provide migration paths f
 Scraping a recipe URL on-demand
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Note**: these examples depend on the `requests <https://github.com/psf/requests/>`_ package; use 'pip install recipe-scrapers[online]' to ensure that it is installed as an extra dependency with v15.
+**Note**: the example below depends on the `requests <https://github.com/psf/requests/>`_ package; use 'pip install requests' to ensure that it is installed.
 
 .. code:: python
 
