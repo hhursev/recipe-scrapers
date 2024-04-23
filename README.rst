@@ -222,6 +222,7 @@ Scrapers available for:
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joshuaweissman.com/ <https://joshuaweissman.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
+- `https://joythebaker.com/ <https://joythebaker.com>`_
 - `https://juliegoodwin.com.au/ <https://juliegoodwin.com.au>`_
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
