@@ -305,6 +305,7 @@ from .whatsgabycooking import WhatsGabyCooking
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
+from .womensweeklyfood import WomensWeeklyFood
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -650,6 +651,7 @@ SCRAPERS = {
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
+    WomensWeeklyFood.host(): WomensWeeklyFood,
 }
 
 

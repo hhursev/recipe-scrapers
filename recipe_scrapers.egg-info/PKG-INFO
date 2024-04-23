@@ -1,3 +1,31 @@
+Metadata-Version: 2.1
+Name: recipe_scrapers
+Version: 14.55.0
+Summary: Python package, scraping recipes from all over the internet
+Author-email: Hristo Harsev <r+pypi@hharsev.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/hhursev/recipe-scrapers/
+Keywords: python,recipes,scraper,harvest,recipe-scraper,recipe-scrapers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.10.0
+Requires-Dist: extruct>=0.8.0
+Requires-Dist: isodate>=0.6.1
+Requires-Dist: requests>=2.19.1
+
 .. image:: https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social
     :target: https://github.com/hhursev/recipe-scrapers/
     :alt: Github
