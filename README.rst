@@ -90,11 +90,11 @@ Scraping a recipe URL on-demand
 .. code:: python
 
     ## Legacy v14
-    url = ...
+    url = '<url of a recipe from the site>'
     scraper = scrape_me(url)
 
     ## Migrated v15
-    url = ...
+    url = '<url of a recipe from the site>'
     html = requests.get(url).content
     scraper = scrape_html(html=html, org_url=url)
 
