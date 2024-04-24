@@ -10,6 +10,14 @@ from ._utils import get_yields, normalize_string
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
 
+BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers"
+null_return_warning = (
+    "Hm. Apparently {} doesn't provide {} values? "
+    "If you know that's untrue for some recipe, "
+    "let us know at {} by creating an issue with "
+    "the bug label."
+)
+
 
 class TheCookingGuy(AbstractScraper):
     @classmethod
@@ -23,7 +31,9 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        warnings.warn("Not known to be available")
+        warnings.warn(
+            null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
+        )
         return None
 
     def yields(self):
