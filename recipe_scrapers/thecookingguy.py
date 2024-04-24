@@ -1,8 +1,14 @@
 # mypy: allow-untyped-defs
+import sys
+import warnings
+
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import IngredientGroup
 from ._utils import get_yields, normalize_string
+
+if not sys.warnoptions:
+    warnings.simplefilter("ignore")
 
 
 class TheCookingGuy(AbstractScraper):
@@ -17,6 +23,7 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
+        warnings.warn("Not known to be available")
         return None
 
     def yields(self):
