@@ -31,7 +31,7 @@ class MyKoreanKitchen(AbstractScraper):
     def ingredients(self):
         return self.schema.ingredients()
 
-    def ingredient_groups(self) -> list[IngredientGroup]:
+    def ingredient_groups(self):
         ingredient_list = self.soup.find_all(
             "div", {"class": "wprm-recipe-ingredient-group"}
         )
