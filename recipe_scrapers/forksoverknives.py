@@ -21,8 +21,8 @@ class ForksOverKnives(AbstractScraper):
     def host(cls):
         return "forksoverknives.com"
 
-    def __init__(self, html: str, url: str):
-        super().__init__(url=url, html=html)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.schema = FOKSchema(self.page_data)
 
     def author(self):

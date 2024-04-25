@@ -7,8 +7,8 @@ from ._utils import normalize_string
 
 
 class ZeitWochenmarkt(AbstractScraper):
-    def __init__(self, html, url):
-        AbstractScraper.__init__(self, html, url)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         data = extruct.extract(
             self.soup.prettify(), syntaxes=["json-ld"], errors="log", uniform=True
         )
