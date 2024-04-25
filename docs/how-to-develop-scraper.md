@@ -62,8 +62,8 @@ To develop the scraper for the website, first identify a recipe. This will be us
 Next, find out if the website supports [Recipe Schema](https://schema.org/Recipe). If the website does support Recipe Schema, this will make creating the scraper straightforward. If not, supporting the site will be more complex but still possible.
 
 ```python
->>> from recipe_scrapers import scrape_me
->>> scraper = scrape_me(URL, wild_mode=True)
+>>> from recipe_scrapers import scrape_html
+>>> scraper = scrape_html(html=None, org_url=URL, online=True, wild_mode=True)
 >>> scraper.schema.data
 {'@context': 'https://schema.org',
  '@type': 'Recipe',
@@ -134,8 +134,8 @@ The generated scraper class will automatically be populated with functions that 
 If the website supports Recipe Schema, then this is mostly done for you already. You can check if the output from each function is what you would expect from the recipe by using the scraper.
 
 ```python
->>> from recipe_scrapers import scrape_me
->>> scraper = scrape_me(URL)
+>>> from recipe_scrapers import scrape_html
+>>> scraper = scrape_html(HTML, URL)
 >>> scraper.title()
 "..."
 >>> scraper.ingredients()
