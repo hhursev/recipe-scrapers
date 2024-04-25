@@ -1,8 +1,6 @@
 # mypy: allow-untyped-defs
 
-from recipe_scrapers._exceptions import ElementNotFoundInHtml
 from recipe_scrapers._grouping_utils import IngredientGroup
-from recipe_scrapers._utils import get_minutes
 
 from ._abstract import AbstractScraper
 
@@ -85,19 +83,7 @@ class MyKoreanKitchen(AbstractScraper):
         return self.schema.description()
 
     def cook_time(self):
-        recipe_time = self.soup.find(
-            "div", {"class": "wprm-recipe-prep-time-container"}
-        )
-        try:
-            return get_minutes(recipe_time)
-        except ElementNotFoundInHtml:
-            return None
+        return self.schema.cook_time()
 
     def prep_time(self):
-        recipe_time = self.soup.find(
-            "div", {"class": "wprm-recipe-cook-time-container"}
-        )
-        try:
-            return get_minutes(recipe_time)
-        except ElementNotFoundInHtml:
-            return None
+        return self.schema.prep_time()
