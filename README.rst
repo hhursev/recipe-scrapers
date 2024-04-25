@@ -443,7 +443,7 @@ If you want a scraper for a new site added
         python generate.py <ClassName> <URL>
 
     - **ClassName**: The name of the new scraper class.
-    - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
+    - **URL**: The URL of an example recipe from the target site. The content will be stored in ``test_data`` to be used with the test class.
 
     You can find a more detailed guide `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/how-to-develop-scraper.md>`__.
 
