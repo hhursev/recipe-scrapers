@@ -39,3 +39,4 @@ repos:
     rev: v0.9.1
     hooks:
     - id: sphinx-lint
+      args: ["-e", "all", "-d", "line-too-long"]
