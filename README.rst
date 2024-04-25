@@ -73,9 +73,9 @@ Notes:
 
 Some Python HTTP clients that you can use to retrieve HTML include `requests`_ and `httpx`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
 
-.. requests: https://pypi.org/project/requests/
+.. _requests: https://pypi.org/project/requests/
 
-.. httpx: https://pypi.org/project/httpx/
+.. _httpx: https://pypi.org/project/httpx/
 
 
 Migrating from v14:
