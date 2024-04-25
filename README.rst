@@ -71,7 +71,11 @@ Notes:
 
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
-Some Python HTTP clients that you can use to retrieve HTML include `requests <https://pypi.org/project/requests/>`_ and `httpx <https://pypi.org/project/httpx/>`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+Some Python HTTP clients that you can use to retrieve HTML include `requests`_ and `httpx`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+
+.. requests: https://pypi.org/project/requests/
+
+.. httpx: https://pypi.org/project/httpx/
 
 
 Migrating from v14:
@@ -85,7 +89,7 @@ Here are some use-cases that we have prepared migration suggestions for:
 Scraping a recipe URL on-demand
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Note**: the example below depends on the `requests <https://github.com/psf/requests/>`_ package; use 'pip install requests' to ensure that it is installed.
+**Note**: the example below depends on the `requests`_ package; use 'pip install requests' to ensure that it is installed.
 
 .. code:: python
 
