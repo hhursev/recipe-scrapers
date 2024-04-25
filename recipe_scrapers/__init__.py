@@ -187,6 +187,7 @@ from .mybakingaddiction import MyBakingAddiction
 from .myjewishlearning import MyJewishLearning
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
+from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
@@ -394,6 +395,7 @@ SCRAPERS = {
     Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
+    MyKoreanKitchen.host(): MyKoreanKitchen,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
     Recept.host(): Recept,

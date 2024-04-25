@@ -278,6 +278,7 @@ Scrapers available for:
 - `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
+- `https://mykoreankitchen.com/ <https://mykoreankitchen.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_
