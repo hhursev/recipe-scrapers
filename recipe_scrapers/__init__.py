@@ -126,6 +126,7 @@ from .hostthetoast import Hostthetoast
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
+from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
@@ -135,6 +136,7 @@ from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
+from .joythebaker import JoyTheBaker
 from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
 from .justbento import JustBento
@@ -142,6 +144,7 @@ from .justonecookbook import JustOneCookbook
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
+from .kitchenaidaustralia import KitchenAidAustralia
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
@@ -178,6 +181,7 @@ from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
+from .moulinex import Moulinex
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .myjewishlearning import MyJewishLearning
@@ -301,9 +305,11 @@ from .weightwatchers import WeightWatchers
 from .weightwatcherspublic import WeightWatchersPublic
 from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
+from .whole30 import Whole30
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
+from .womensweeklyfood import WomensWeeklyFood
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -380,8 +386,12 @@ SCRAPERS = {
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
+    InBloomBakery.host(): InBloomBakery,
     JoshuaWeissman.host(): JoshuaWeissman,
+    JoyTheBaker.host(): JoyTheBaker,
+    KitchenAidAustralia.host(): KitchenAidAustralia,
     KuchynaLidla.host(): KuchynaLidla,
+    Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
@@ -635,9 +645,11 @@ SCRAPERS = {
     WeightWatchersPublic.host(): WeightWatchersPublic,
     WellPlated.host(): WellPlated,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    Whole30.host(): Whole30,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
     WilliamsSonoma.host(): WilliamsSonoma,
+    WomensWeeklyFood.host(): WomensWeeklyFood,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,

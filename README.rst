@@ -81,6 +81,8 @@ Notes:
 
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
+Some Python HTTP clients that you can use to retrieve HTML include `requests <https://pypi.org/project/requests/>`_ and `httpx <https://pypi.org/project/httpx/>`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+
 
 Scrapers available for:
 -----------------------
@@ -211,6 +213,7 @@ Scrapers available for:
 - `https://www.ica.se/ <https://www.ica.se/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
+- `https://inbloombakery.com/ <https://inbloombakery.com/>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
@@ -220,12 +223,14 @@ Scrapers available for:
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
 - `https://joshuaweissman.com/ <https://joshuaweissman.com/>`_
 - `https://joyfoodsunshine.com/ <https://joyfoodsunshine.com>`_
+- `https://joythebaker.com/ <https://joythebaker.com>`_
 - `https://juliegoodwin.com.au/ <https://juliegoodwin.com.au>`_
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
+- `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
@@ -268,6 +273,7 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
+- `https://www.moulinex.fr/ <https://www.moulinex.fr/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
@@ -388,9 +394,11 @@ Scrapers available for:
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
 - `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
+- `https://whole30.com/ <https://whole30.com/>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
 - `https://www.wholefoodsmarket.co.uk/ <https://www.wholefoodsmarket.co.uk/>`_
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
+- `https://www.womensweekly.com.au/ <https://www.womensweekly.com.au/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
@@ -426,7 +434,7 @@ If you want a scraper for a new site added
         python generate.py <ClassName> <URL>
 
     - **ClassName**: The name of the new scraper class.
-    - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
+    - **URL**: The URL of an example recipe from the target site. The content will be stored in ``test_data`` to be used with the test class.
 
     You can find a more detailed guide `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/how-to-develop-scraper.md>`__.
 
