@@ -111,8 +111,15 @@ def test_func_factory(
                         msg=f"The actual value for .{key}() did not match the expected value.",
                     )
 
-        # Assert that the ingredients returned by the ingredient_groups() function
-        # are the same as the ingredients return by the ingredients() function.
+        # Special handling for ratings_count
+        if "ratings_count" in expect.keys():
+            with self.subTest("ratings_count"):
+                ratings_count = actual.ratings_count()
+                self.assertTrue(
+                    ratings_count <= expect["ratings_count"],
+                    msg=f"The actual value for ratings_count() is lower than expected {ratings_count}",
+                )
+
         grouped = []
         for group in actual.ingredient_groups():
             grouped.extend(group.ingredients)
