@@ -42,9 +42,6 @@ class Bakels(AbstractScraper):
                 )  # Removes the instruction number from each step
                 return instructions
 
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def description(self):
         description_meta = self.soup.find("meta", {"property": "og:title"})
         if description_meta:
