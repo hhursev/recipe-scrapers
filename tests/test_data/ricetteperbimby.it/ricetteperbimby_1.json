@@ -35,5 +35,9 @@
   "cuisine": "Italiana",
   "title": "Crema pasticcera Bimby",
   "total_time": 15,
-  "keywords": "ricette,bimby,Crema pasticcera veloce"
+  "keywords": [
+    "ricette",
+    "bimby",
+    "crema pasticcera veloce"
+  ]
 }

@@ -10,7 +10,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_keywords, normalize_string
+from ._utils import csv_to_tags, get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -318,5 +318,5 @@ class SchemaOrg:
             if isinstance(keywords, list):
                 keywords = keywords[0]
             keywords = normalize_string(keywords)
-            keywords = normalize_keywords(keywords)
+            keywords = csv_to_tags(keywords)
         return keywords

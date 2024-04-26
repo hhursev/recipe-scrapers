@@ -110,5 +110,9 @@
   "total_time": 90,
   "yields": "12 servings",
   "category": "Recipes",
-  "keywords": "Bread,Sourdough,Yeast"
+  "keywords": [
+    "bread",
+    "sourdough",
+    "yeast"
+  ]
 }
