@@ -61,12 +61,6 @@ class FelixKitchen(AbstractScraper):
 
         return "\n".join(instruction_lines)
 
-    def ratings(self):
-        return None
-
-    def cuisine(self):
-        return None
-
     def description(self):
         content_div = self.soup.find("div", {"class": "entry-content"})
         lines = []
