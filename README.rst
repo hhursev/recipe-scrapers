@@ -213,6 +213,7 @@ Scrapers available for:
 - `https://www.ica.se/ <https://www.ica.se/>`_
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
+- `https://inbloombakery.com/ <https://inbloombakery.com/>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
@@ -272,6 +273,7 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
+- `https://www.moulinex.fr/ <https://www.moulinex.fr/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
 - `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
@@ -432,7 +434,7 @@ If you want a scraper for a new site added
         python generate.py <ClassName> <URL>
 
     - **ClassName**: The name of the new scraper class.
-    - **URL**: The URL of an example recipe from the target site. The content will be stored in `test_data` to be used with the test class.
+    - **URL**: The URL of an example recipe from the target site. The content will be stored in ``test_data`` to be used with the test class.
 
     You can find a more detailed guide `here <https://github.com/hhursev/recipe-scrapers/blob/main/docs/how-to-develop-scraper.md>`__.
 
