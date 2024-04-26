@@ -86,6 +86,7 @@ from .ethanchlebowski import EthanChlebowski
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
+from .felixkitchen import FelixKitchen
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
@@ -418,6 +419,7 @@ SCRAPERS = {
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FarmhouseOnBoone.host(): FarmhouseOnBoone,
     FattoInCasaDaBenedetta.host(): FattoInCasaDaBenedetta,
+    FelixKitchen.host(): FelixKitchen,
     FifteenSpatulas.host(): FifteenSpatulas,
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
