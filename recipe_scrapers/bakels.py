@@ -46,6 +46,12 @@ class Bakels(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
-        if self.soup.find("main", class_="content").find("p"):
-            return self.soup.find("main", class_="content").find("p").get_text()
-        return "None"
+        description_meta = self.soup.find("meta", {"property": "og:title"})
+        if description_meta:
+            return description_meta.get("content")
+        return None
+
+    def category(self):
+        category_h4 = self.soup.find("h4", string="Category")
+        category_p = category_h4.find_next_sibling("p")
+        return category_p.text
