@@ -3,6 +3,9 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
+MARK_SEPARATOR = " "
+INGREDIENT_SEPARATOR = "• "
+
 
 class FelixKitchen(AbstractScraper):
     @classmethod
@@ -39,8 +42,10 @@ class FelixKitchen(AbstractScraper):
             ingredients_div = step_div.find("div")
             ingredients_em_list = ingredients_div.find_all("em")
             for ingredients_em in ingredients_em_list:
-                ingredients_text = normalize_string(ingredients_em.text).lstrip("• ")
-                ingredients.extend(ingredients_text.split("• "))
+                ingredients_text = normalize_string(ingredients_em.text).lstrip(
+                    INGREDIENT_SEPARATOR
+                )
+                ingredients.extend(ingredients_text.split(INGREDIENT_SEPARATOR))
 
         return ingredients
 
@@ -52,6 +57,10 @@ class FelixKitchen(AbstractScraper):
             instructions_div = step_div.find_all("div")[1]
             instructions_p_list = instructions_div.find_all("p")
             for instruction_p in instructions_p_list:
+                mark = instruction_p.find("mark", recursive=False)
+                if mark:
+                    mark.string += MARK_SEPARATOR
+
                 for br in instruction_p.find_all("br"):
                     br.replace_with("\n")
 
