@@ -61,7 +61,7 @@ class MyKoreanKitchen(AbstractScraper):
                             "h4", "wprm-recipe-ingredient-group-name"
                         )
                         is not None
-                        else "MAIN"
+                        else None
                     ),
                 )
             )
