@@ -1,0 +1,45 @@
+{
+  "author": "Lutz Gei\\u00dfler",
+  "canonical_url": "ploetzblog.de",
+  "host": "ploetzblog.de",
+  "description": "Mein bislang bestes Weizensauerteigbrot, ganz ohne Backhefe.\nGrobe bis mittlere, unregelmäßige Porung, wattige Krume und kaum spürbare, milde Säure. Der Teigling bekommt eine lange kalte Stückgare und entwickelt auch deshalb seinen wilden Trieb im Gusseisentopf.\nFür etwas mehr Charakter kann der Sauerteig mit Vollkornmehl angesetzt werden.\nWichtig ist das triebstarke und aktive Anstellgut, das 2 – 3 Mal vor dem Ansetzen des Sauerteiges bei 27 – 28 °C aufgefrischt werden sollte.\nHinweis: Wahlweise kann das Brot auch im auf 250 °C aufgeheizten Gusseisentopf 50 Minuten fallend auf 220 °C gebacken werden. Dann den Deckel nach 40 Minuten abnehmen.",
+  "image": "https://webimages.we2p.de/2/ploetzblog/entity/gallery/619f68b528ae7154616ab768/Mildes_Weizensauerteigbrot_20160506.jpg",
+  "ingredients": [
+    "558 g Weizenmehl 550",
+    "389 g Wasser",
+    "90 g Weizenanstellgut TA 200 (weich)",
+    "13 g Salz"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "90 g Wasser",
+        "90 g Weizenmehl 550",
+        "90 g Weizenanstellgut TA 200 (weich)"
+      ],
+      "purpose": "Weizensauerteig"
+    },
+    {
+      "ingredients": [
+        "13 g Salz",
+        "298 g Wasser",
+        "467 g Weizenmehl 550",
+        "gesamter Weizensauerteig"
+      ],
+      "purpose": "Hauptteig"
+    }
+  ],
+  "instructions": "Die Zutaten in der genannten Reihenfolge in eine Schüssel wiegen.\nMischen, bis sich die Zutaten zu einem weichen Teig verbunden haben (gewünschte Teigtemperatur: ca. 28 °C).",
+  "instructions_list": [
+    "Die Zutaten in der genannten Reihenfolge in eine Schüssel wiegen.",
+    "Mischen, bis sich die Zutaten zu einem weichen Teig verbunden haben (gewünschte Teigtemperatur: ca. 28 °C)."
+  ],
+  "language": "de",
+  "site_name": "Plötzblog",
+  "title": "Mildes Weizensauerteigbrot",
+  "total_time": 982,
+  "yields": "1 Stück zu (je) ca. 1050 g",
+  "_options": {
+    "consistent_ingredient_groups": false
+  }
+}

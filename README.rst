@@ -300,6 +300,7 @@ Scrapers available for:
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
 - `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
+- `https://www.ploetzblog.de/ <https://www.ploetzblog.de/>`_
 - `https://plowingthroughlife.com/ <https://plowingthroughlife.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
