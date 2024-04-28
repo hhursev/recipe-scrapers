@@ -10,7 +10,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import format_diet_name, get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -309,3 +309,14 @@ class SchemaOrg:
         if cooking_method and isinstance(cooking_method, list):
             cooking_method = cooking_method[0]
         return normalize_string(cooking_method)
+
+    def dietary_restrictions(self):
+        dietary_restrictions = self.data.get("suitableForDiet")
+        if dietary_restrictions is None:
+            raise SchemaOrgException("No dietary restrictions data in SchemaOrg.")
+
+        if isinstance(dietary_restrictions, list):
+            return ", ".join(
+                format_diet_name(diet.split("/")[-1]) for diet in dietary_restrictions
+            )
+        return format_diet_name(dietary_restrictions.split("/")[-1])

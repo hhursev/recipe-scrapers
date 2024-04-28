@@ -322,3 +322,12 @@ Returns the method of cooking the recipe.
 >>> scraper.cooking_method()
 'Stovetop'
 ```
+
+### `dietary_restrictions"() -> List[str] | None`
+
+Returns the dietary restrictions specified by the recipe.
+
+```py
+>>> scraper.equipment()
+['Vegan Diet', 'Vegetrian Diet']
+```

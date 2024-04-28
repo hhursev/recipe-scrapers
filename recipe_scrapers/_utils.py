@@ -72,6 +72,10 @@ RECIPE_YIELD_TYPES = (
 )
 
 
+def format_diet_name(diet_name):
+    return " ".join(word for word in re.findall("[A-Z][^A-Z]*", diet_name))
+
+
 def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
 
