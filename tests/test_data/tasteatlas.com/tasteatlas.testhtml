@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+
+<link rel="preload" as="script">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
+
+
+<link rel="preload" href="/Content/Styles/font-awesome.min.css" as="style">
+<link rel="preload" href="/Content/Styles/swiper.min.css" as="style">
+<link rel="preload" href="/Content/layout/style.css?v=a7bb6649-51c5-4380-b9dd-8d949f8cb272" as="style">
+
+
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/muli/Muli-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/muli/Muli-Italic.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/muli/Muli-Light.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/muli/Muli-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/muli/Muli-SemiBold.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/playfairdisplay/PlayfairDisplay-Regular.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/playfairdisplay/PlayfairDisplay-Italic.ttf" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" as="font" href="/Content/layout-shared/layout/fonts/playfairdisplay/PlayfairDisplay-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+
+
+<link rel="preload" as="image" imagesrcset="/Content/layout-shared/layout/icons/ta-logo-tamni.svg">
+<link rel="preload" as="image" imagesrcset="/Content/layout-shared/layout/icons/search-black.svg">
+<link rel="preload" as="image" imagesrcset="/Content/layout-shared/layout/icons/profile.svg">
+
+<base href="/">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+
+
+<script type="text/javascript">
+
+            window.gdprAppliesGlobally = false; (function () {
+                function a(e) {
+                    if (!window.frames[e]) {
+                        if (document.body && document.body.firstChild) { var t = document.body; var n = document.createElement("iframe"); n.style.display = "none"; n.name = e; n.title = e; t.insertBefore(n, t.firstChild) }
+                        else { setTimeout(function () { a(e) }, 5) }
+                    }
+                } function e(n, r, o, c, s) {
+                    function e(e, t, n, a) { if (typeof n !== "function") { return } if (!window[r]) { window[r] = [] } var i = false; if (s) { i = s(e, t, n) } if (!i) { window[r].push({ command: e, parameter: t, callback: n, version: a }) } } e.stub = true; function t(a) {
+                        if (!window[n] || window[n].stub !== true) { return } if (!a.data) { return }
+                        var i = typeof a.data === "string"; var e; try { e = i ? JSON.parse(a.data) : a.data } catch (t) { return } if (e[o]) { var r = e[o]; window[n](r.command, r.parameter, function (e, t) { var n = {}; n[c] = { returnValue: e, success: t, callId: r.callId }; a.source.postMessage(i ? JSON.stringify(n) : n, "*") }, r.version) }
+                    }
+                    if (typeof window[n] !== "function") { window[n] = e; if (window.addEventListener) { window.addEventListener("message", t, false) } else { window.attachEvent("onmessage", t) } }
+                } e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn"); a("__tcfapiLocator"); (function (e, tgt) {
+                    var t = document.createElement("script"); t.id = "spcloader"; t.type = "text/javascript"; t.async = true; t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target_type=notice&target=" + tgt; t.charset = "utf-8"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n)
+                })("02757520-ed8b-4c54-8bfd-4a5f5548de98", "xBkfx6iZ")
+            })();</script>
+
+
+<meta property="fb:app_id" content="1827944954195705" />
+<meta name="robots" content="max-image-preview:large">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>Pastel de Nata Authentic Recipe | TasteAtlas</title>
+<meta property="og:title" content="Pastel de Nata Authentic Recipe | TasteAtlas">
+<meta name="twitter:title" content="Pastel de Nata Authentic Recipe | TasteAtlas" />
+<link rel="canonical" href="https://www.tasteatlas.com/pastel-de-nata/recipe" />
+<meta property="og:image" content="https://cdn.tasteatlas.com/Images/Dishes/735a85b93fa942c49e22f101cba3397e.jpg?m=facebook">
+<meta name="twitter:image" content="https://cdn.tasteatlas.com/Images/Dishes/735a85b93fa942c49e22f101cba3397e.jpg?m=facebook" />
+<meta property="og:image:width" content="0">
+<meta property="og:image:height" content="0">
+<meta property="og:description" content="Traditional recipe for Pastel de nata. This traditional pastel de nata recipe gives detailed instructions on the preparation">
+<meta name="twitter:description" content="Traditional recipe for Pastel de nata. This traditional pastel de nata recipe gives detailed instructions on the preparation" />
+<meta name="description" content="Traditional recipe for Pastel de nata. This traditional pastel de nata recipe gives detailed instructions on the preparation">
+<script type="application/ld+json">
+                {"@context":"http://schema.org","@type":"Recipe","name":"Pastel de nata","description":"<p>This traditional pastel de nata recipe gives detailed instructions on the preparation.&nbsp;Because puff pastry needs to stay in the refrigerator for a minimum of a few hours, but ideally overnight, it is best to make the pastry the day before. Also, the amounts listed for custard are enough for 12 tarts, so you can store the other log of puff pastry in the freezer and use within two weeks or double the amount of custard and bake 24 pastel de nata instead of 12.</p>","additionalType":null,"alternateName":null,"disambiguatingDescription":null,"image":["https://cdn.tasteatlas.com/images/recipes/aba5f65d03f64606b42b033c2fa9676c.jpg","https://cdn.tasteatlas.com/images/dishes/6b715951e0a043908d3155d0aa948ed6.jpg","https://cdn.tasteatlas.com/images/dishes/da5d3320ae3048c981180912d228a71f.jpg","https://cdn.tasteatlas.com/Images/Dishes/735a85b93fa942c49e22f101cba3397e.jpg"],"potentialAction":null,"sameAs":null,"url":null,"about":null,"accessibilityAPI":null,"accessibilityControl":null,"accessibilityFeature":null,"accessibilityHazard":null,"accessibilitySummary":null,"accessMode":null,"accessModeSufficient":null,"accountablePerson":null,"aggregateRating":{"@context":"http://schema.org","@type":"AggregateRating","name":null,"description":null,"additionalType":null,"alternateName":null,"disambiguatingDescription":null,"potentialAction":null,"sameAs":null,"url":null,"ratingValue":5.0,"reviewAspect":null,"itemReviewed":null,"ratingCount":143,"reviewCount":null},"alternativeHeadline":null,"associatedMedia":null,"audience":null,"author":{"@context":"http://schema.org","@type":"Organization","name":"TasteAtlas","description":null,"additionalType":null,"alternateName":null,"disambiguatingDescription":null,"potentialAction":null,"sameAs":null,"url":null,"aggregateRating":null,"alumni":null,"award":null,"contactPoint":null,"department":null,"duns":null,"email":null,"employee":null,"event":null,"faxNumber":null,"founder":null,"foundingLocation":null,"globalLocationNumber":null,"hasOfferCatalog":null,"hasPOS":null,"isicV4":null,"legalName":null,"leiCode":null,"makesOffer":null,"naics":null,"numberOfEmployees":null,"parentOrganization":null,"review":null,"seeks":null,"slogan":null,"subOrganization":null,"taxID":null,"telephone":null,"vatID":null},"award":null,"character":null,"comment":null,"commentCount":null,"contentLocation":null,"contentReferenceTime":null,"copyrightYear":null,"discussionUrl":null,"editor":null,"educationalAlignment":null,"educationalUse":null,"encoding":null,"exampleOfWork":null,"hasPart":null,"headline":null,"interactionStatistic":null,"interactivityType":null,"isAccessibleForFree":null,"isFamilyFriendly":null,"isPartOf":null,"keywords":"pastry,eggs,custard,tart,dessert,cinnamon,Portugal,Lisbon,eggcustard,eggyolks,Belém,top100desserts","learningResourceType":null,"locationCreated":null,"mainEntity":null,"mentions":null,"offers":null,"publication":null,"publisherImprint":null,"recordedAt":null,"releasedEvent":null,"review":null,"sourceOrganization":null,"spatial":null,"spatialCoverage":null,"text":null,"thumbnailUrl":null,"timeRequired":null,"translationOfWork":null,"typicalAgeRange":null,"workExample":null,"workTranslation":null,"performTime":null,"prepTime":"PT1H15M","totalTime":null,"cookingMethod":null,"cookTime":"PT20M","nutrition":null,"recipeCategory":"Sweet Pastry","recipeCuisine":"Portuguese","recipeIngredient":["FOR THE PASTRY","290g (10.2 oz) flour","1/4 tsp salt","210 ml (3/4 cup + 2 tbsp) water","240g (8.5 oz) very soft unsalted butter","extra flour, for dusting","FOR THE CUSTARD","40g (1.3 oz) flour","60 ml (1/4 cup) milk","165 ml (2/3 cup + 1 tsp) water","240g (8.5 oz) superfine sugar","1 cinnamon stick","another 250 ml (1 cup + 2 tsp) milk","1/2 tsp vanilla, optional","6 egg yolks","TO FINISH","powdered sugar and cinnamon, for sprinkling"],"recipeInstructions":["Add the flour, the salt, and the water to a mixing bowl of a stand-alone mixer fitted with a dough hook. Mix for a few minutes until you get a sticky dough that pulls away from the sides of the bowl.","Let the dough rest for 10-15 minutes and generously sprinkle your working surface with flour.","Use a dough scraper to transfer the dough from the bowl onto a floured working surface.","Push the edges using a dough scraper to give it as much of a rectangular shape as possible — this may be difficult as the dough is very sticky and loose.","Generously sprinkle the top of the dough with flour, then wrap the dough, with the flour included in cling film. Rest the dough for 10 minutes.","Heavily flour a large working surface and place the dough in the center. Roll out, using a dusted rolling pin, into a 16x16-inch (40.5x40.5 cm) square.","Gently brush off the excess flour from the surface of the dough using a soft brush.","Cover 2/3 of the dough with 1/3 of the butter — evenly arrange it in small dabs first, then spread it gently using an offset spatula, leaving a 1-inch (2.5 cm) outer border unbuttered.","Before you can fold the dough, you will need to unstick it from the working surface. To do that, help yourself with a dough scraper and lots of flour that you should drive under the dough as you push it with the scraper.","Fold one-third of the dough over the middle part of the dough, then fold the other outer third of the dough over the center of the dough as well.","Now, unstick this folded strip of dough, sprinkle some more flour on the work surface, and turn the dough 90 degrees, so its longer part is facing you. Roll out into a 16x16-inch (40.5x40.5 cm) square.","Brush the flour from its surface and repeat the buttering step.","Roll out to an 18x21-inch (45.5x53.5 cm) rectangle, taking care that the shorter side is facing you.","Trim the edges with a dough scraper to get a neater finish. Brush away the flour and spread the last third of butter over the entire surface of the dough.","Roll into a cylinder, with the help of a dough scraper to unstick the dough, while brushing away the flour with a soft brush. Take care to roll it very tightly, especially in the beginning.","Trim away the edges, then cut the roll in half, so each half makes for 12 1-1.5-inch (2.5-3.75 cm) pieces.","Wrap each roll separately in cling film, and refrigerate for at least a couple of hours, but preferably, overnight.","Mix 60 ml (1/4 cup) of milk and 50g (1.75 oz) of flour in a bowl, then set it aside. To a heavy-bottomed saucepan, add water, sugar, and a cinnamon stick.","Heat over low heat until the temperature reaches 100°C \n(210°F) — keep a digital thermometer at hand to check the temperature, and do not stir, but allow the syrup to dissolve on its own.","Meanwhile, in another pan, boil the milk, and pour it over the milk and flour mixture, while constantly stirring. If desired, you can mix in 1/2 a teaspoon of vanilla.","Once the syrup reaches 100°C (210°F) temperature, take out the cinnamon stick with a pair of thongs, then pour it into the milk and flour mixture, while constantly whisking.","Once the syrup is incorporated, whisk for another 10-15 minutes so the mixture can cool down enough to add the egg yolks — it should be still warm but not hot — then, whisk in the yolks.","Sieve the custard into a jug, so it's easier to measure out when pouring it into pastry shells. Cover the jug with cling film and set it aside for later.","Cut the log from the refrigerator into 12 equal pieces, about 1-1.5 inches (2.5-3.75 cm) each.","Place each piece in 12-hole, regular-sized cupcake pan that you've greased lightly. Leave it to sit for 10-15 minutes so the butter can melt a bit.","Moisten your thumbs with cold water, then press on the center of the pastry to push it down and stretch it a bit.","Then, once the bottom of the hole is covered, draw the dough up its sides, taking care that you do not overstretch it, or the custard might spill out.","Pour custard into each pastry shell, so it's 3/4 full.","Bake in a 280-290°C (540-550°F) oven for eight to nine minutes.","Eat warm, sprinkled with powdered sugar and cinnamon."],"recipeYield":"12 servings","suitableForDiet":null}
+            </script>
+<link rel="preload" as="image" imagesrcset="https://cdn.tasteatlas.com/Images/Dishes/735a85b93fa942c49e22f101cba3397e.jpg?mw=2000">
+<link href="/Content/Styles/font-awesome.min.css" rel="stylesheet" />
+<link href="/Content/Styles/swiper.min.css" rel="stylesheet" />
+<link href="/Content/layout/style.css?v=a7bb6649-51c5-4380-b9dd-8d949f8cb272" rel="stylesheet" />
+<script src="/bundles/ngappDesktop?v=TrS5cs48i5-cFbXtx-GSzKp-e4Um96_wwXNwumjDH3Y1"></script>
+</head>
+<body ng-app="tasteatlas">
+<!--[if lt IE 8]>
+        <p class="browsehappy">
+            You are using an <strong>outdated</strong> browser.
+            Please <a href="http://www.browsehappy.com/">upgrade your browser</a> to improve your experience.
+        </p>
+    <![endif]-->
+<ta2-entity-comment></ta2-entity-comment>
+<ta-home-loader></ta-home-loader>
+<div class="desktop-viewport">
+<div class="popup-overlay"></div>
+
+<ta-header-desktop></ta-header-desktop>
+<div id="bodyDiv">
+<script>
+        window.ta = window.ta || {};
+        window.ta.recipeInit = {"RecipeId":498,"FoodEntityData":{"FoodEntityPopularity":1000000,"EntityType":1,"EntityId":56,"EntityUrlLink":"pastel-de-nata","EntityPreviewImage":{"Image":"/Images/Dishes/735a85b93fa942c49e22f101cba3397e.jpg","Source":"shutterstock","SourceUrl":null},"IsBeverage":false},"Name":"Pastel de nata","Region":{"RegionName":"Lisbon District","RegionUrlLink":"lisbon-district","CountryName":"Portugal","CountryUrlLink":"portugal","CountryEmblemImage":"/Images/Emblems/b83f8a876d1042b4a0ff73c8426b9294.png"},"Description":"<p>Flaky, laminated pastry shells filled with a creamy egg yolk custard, flavored with cinnamon, or pastel de nata for short, is the world-famous Portuguese dessert invented by Catholic nuns and monks sometime before the 18th century. The preparation is a lengthy one, and every step should be done with the utmost care. First, the pastry is made by laminating the dough with butter &mdash; however, lard was used before, and margarine is commonly used today instead. The custard is made with just milk, water, sugar, and egg yolks, and flavored with cinnamon, or in some recipes also with vanilla and lemon, which has the purpose of cutting the sweetness of the custard. However, in any case, the custard should not be overly sweet. Once the pastry shells have been filled with custard, they are baked&nbsp; in a high-temperature oven for a short time, which gives for a blistering burn on the top that makes these custard tarts instantly recognizable. Pastel de nata should be eaten shortly after baking, so the custard doesn't lose its texture. Before consumption, the tart should be sprinkled with cinnamon, or eventually, icing sugar, and paired with a cup of coffee.&nbsp;</p>","History":"<p>Pastel de nata was created by monks of the Jer&oacute;nimos Monastery, located in Lisbon's Bel&eacute;m district, sometime before the 18th century. Because the egg whites were used for starching clothes, the nuns and the monks were faced with a surplus of egg yolks. To put them to good use, they used them in cakes and sweets, which is how this dessert came to be. After the closing of monasteries and convents in 1820, the monks would sell pastel de nata as a way to make ends meet. In 1834, the monastery closed, and the recipe for pastel de nata was sold to a sugar refinery who later opened, the still operating F&aacute;brica de Past&eacute;is de Bel&eacute;m, where they make the desert after the ancient recipe to this day. Since the recipe is a secret, only those custard tarts produced in the F&aacute;brica de Past&eacute;is de Bel&eacute;m can bear the name <em>past&eacute;is de Bel&eacute;m</em>, whereas those custard tarts prepared in a similar fashion and by others go by the name&nbsp;<em>past&eacute;is de nata </em>(pastel de nata).</p>","InfographicImage":{"Image":"/images/dishes/a27c40b2b85d4550a1527fe16d687e3a.jpg","Source":null,"SourceUrl":null},"FoodIngredients":[[{"FoodIngredientId":169408,"Image":{"Image":"/images/ingredientgroups/6980492bc1fb48d292831ababd8816c3.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Flour","UrlLink":"Flour","Order":0,"EntityId":193,"EntityType":9,"MaterializedPath":"/193/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}],[{"FoodIngredientId":169409,"Image":{"Image":"/images/ingredientgroups/ae857e2ec0504a6590b41c0000f6678c.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Sugar","UrlLink":"Sugar","Order":0,"EntityId":180,"EntityType":9,"MaterializedPath":"/164/180/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}],[{"FoodIngredientId":169410,"Image":{"Image":"/images/ingredientgroups/32cfca5acc5c40ef8daecc359371a43e.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Milk","UrlLink":"Milk","Order":0,"EntityId":38,"EntityType":9,"MaterializedPath":"/283/38/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}],[{"FoodIngredientId":169411,"Image":{"Image":"/images/ingredientgroups/82d84a396a544682bb2954283d8666e6.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Butter","UrlLink":"Butter","Order":0,"EntityId":40,"EntityType":9,"MaterializedPath":"/283/40/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}],[{"FoodIngredientId":169412,"Image":{"Image":"/images/ingredientgroups/bf4bc7a768a044549fcdcdadcb09f80b.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Cinnamon","UrlLink":"cinnamon","Order":0,"EntityId":375,"EntityType":9,"MaterializedPath":"/157/242/375/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}],[{"FoodIngredientId":169413,"Image":{"Image":"/images/ingredientgroups/68062afe91e64f1ba087f7caf87a7fdb.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Eggs","UrlLink":"Eggs","Order":0,"EntityId":41,"EntityType":9,"MaterializedPath":"/41/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}],[{"FoodIngredientId":169414,"Image":{"Image":"/images/ingredientgroups/812de2786a274b7e85a4c54cc0fb40d2.png","ImageSource":null,"ImageAuthorUrl":null,"IsInstagramSourced":false},"Name":"Salt","UrlLink":"Salt","Order":0,"EntityId":182,"EntityType":9,"MaterializedPath":"/164/182/","EntityGroupMaterializedPath":null,"HostEntityId":null,"HostEntityType":0}]],"SelectedRecipeVariationId":null};
+</script>
+<div>
+<div class="recipe-redesign">
+<section class="dish__tabs">
+<div class="authentic-recipe">
+<nav class="tab__nav" id="tabs_main">
+<ul>
+<li>
+<a ng-href="pastel-de-nata" target="_self">
+Overview
+</a>
+</li>
+<li class="selected">
+<a ng-href="pastel-de-nata/recipe" target="_self">
+Recipe
+</a>
+</li>
+<li>
+<a ng-href="pastel-de-nata/wheretoeat" target="_self">
+Where to eat
+</a>
+</li>
+<li>
+<a ng-href="pastel-de-nata/comments" target="_self">
+Comments
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</section>
+
+
+<section class="title-region section-bg-recipe">
+<div class="section-preview__title section-preview__title--noimage">
+<h1 class="h1 h1--center">
+<span class="main">Authentic Pastel de nata Recipe</span>
+<span class="subtitle subtitle--location">
+<img src="https://cdn.tasteatlas.com/Images/Emblems/b83f8a876d1042b4a0ff73c8426b9294.png?h=10" alt="Alternate Text" />
+Lisbon District, Portugal
+</span>
+</h1>
+<a class="jump-to-recipe" onclick="scrollToRecipe()">JUMP TO RECIPE</a>
+<p class="advice-tips">We strongly advise you to read the cooking tips before jumping to the recipe though</p>
+</div>
+</section>
+
+
+<section class="description-txt section-bg-recipe">
+<div class="authentic-recipe">
+<div class="authentic-recipe__content">
+<h3 class="h3 h3--muli h3--black h3--uppercase recipe__left-column">Introduction & history</h3>
+<div class="authentic-recipe__text" read-more number-of-letters="1000" read-more-txt="&lt;p&gt;Flaky, laminated pastry shells filled with a creamy egg yolk custard, flavored with cinnamon, or pastel de nata for short, is the world-famous Portuguese dessert invented by Catholic nuns and monks sometime before the 18th century. The preparation is a lengthy one, and every step should be done with the utmost care. First, the pastry is made by laminating the dough with butter &amp;mdash; however, lard was used before, and margarine is commonly used today instead. The custard is made with just milk, water, sugar, and egg yolks, and flavored with cinnamon, or in some recipes also with vanilla and lemon, which has the purpose of cutting the sweetness of the custard. However, in any case, the custard should not be overly sweet. Once the pastry shells have been filled with custard, they are baked&amp;nbsp; in a high-temperature oven for a short time, which gives for a blistering burn on the top that makes these custard tarts instantly recognizable. Pastel de nata should be eaten shortly after baking, so the custard doesn&#39;t lose its texture. Before consumption, the tart should be sprinkled with cinnamon, or eventually, icing sugar, and paired with a cup of coffee.&amp;nbsp;&lt;/p&gt;">
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="main-ingredients-infographic section-bg-recipe">
+<div class="authentic-recipe">
+<div class="authentic-recipe__content authentic-recipe__content--centered ta-border--bottom">
+<h3 class="h3 h3--muli h3--black h3--uppercase recipe__left-column">Main ingredients</h3>
+<div class="authentic-recipe__mini-ingredients">
+<div class="food-ingredients food-ingredients--scroll food-ingredients--redesign">
+<ul class="food-ingredients__list" id="food-ingredients__list--recipe-razor" ng-class="{ 'food-ingredients__list--static' : 7 <= 10 }" ta-horizontal-scroll-drag active-class="'food-ingredients__list--scrolling'">
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="Flour" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/6980492bc1fb48d292831ababd8816c3.png?h=65&w=65" alt="Flour" />
+</div>
+<span class="food-ingredients__name">Flour</span>
+</a>
+</li>
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="Sugar" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/ae857e2ec0504a6590b41c0000f6678c.png?h=65&w=65" alt="Sugar" />
+</div>
+<span class="food-ingredients__name">Sugar</span>
+</a>
+</li>
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="Milk" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/32cfca5acc5c40ef8daecc359371a43e.png?h=65&w=65" alt="Milk" />
+</div>
+<span class="food-ingredients__name">Milk</span>
+</a>
+</li>
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="Butter" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/82d84a396a544682bb2954283d8666e6.png?h=65&w=65" alt="Butter" />
+</div>
+<span class="food-ingredients__name">Butter</span>
+</a>
+</li>
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="cinnamon" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/bf4bc7a768a044549fcdcdadcb09f80b.png?h=65&w=65" alt="Cinnamon" />
+</div>
+<span class="food-ingredients__name">Cinnamon</span>
+</a>
+</li>
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="Eggs" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/68062afe91e64f1ba087f7caf87a7fdb.png?h=65&w=65" alt="Eggs" />
+</div>
+<span class="food-ingredients__name">Eggs</span>
+</a>
+</li>
+<li class="food-ingredients__item food-ingredients__item-desktop-razor">
+<a class="food-ingredients__link" ng-href="Salt" target="_blank">
+<div class="food-ingredients__image-wrapper">
+<img class="food-ingredients__image" src="https://cdn.tasteatlas.com/images/ingredientgroups/812de2786a274b7e85a4c54cc0fb40d2.png?h=65&w=65" alt="Salt" />
+</div>
+<span class="food-ingredients__name">Salt</span>
+</a>
+</li>
+</ul>
+<div ng-if="7 > 10">
+<div class="slider-bg--right"></div>
+<i onclick="scrollSlider('.food-ingredients__list', 0, 'left', 9.5, 90)" class="icon icon__big-arrow icon__big-arrow-left--redesign">
+</i>
+<i onclick="scrollSlider('.food-ingredients__list', 0, 'right', 9.5, 90)" class="icon icon__big-arrow icon__big-arrow-right--redesign">
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="recipe__infographic">
+<div class="recipe__left-column"></div>
+<div class="infographic__container">
+<img ta-lazy-load lazy-source="https://cdn.tasteatlas.com/images/dishes/a27c40b2b85d4550a1527fe16d687e3a.jpg?mw=660" alt="Pastel de nata infographic">
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="fetch-section" style="min-height:2800px">
+<ta-recipe-items-fetch url="dishes/recipeadditionaldata" dish-id="56" recipe-variation-id="null" template="Desktop">
+</ta-recipe-items-fetch>
+</div>
+</div>
+<script>
+    // Side scroll Desktop Slider
+    function scrollSlider(elementClass, elementNumber = 0, direction, scrollMove = 15, totalScroll = 315) {
+        var containers = document.querySelectorAll(elementClass);
+        this.horizontalScroll(containers[elementNumber], direction, scrollMove, totalScroll);
+    };
+    // Side scroll Desktop Slider
+    function horizontalScroll(element, direction, scrollMove, totalScroll) {
+        var scrollAmount = 0;
+        var slideTimer = setInterval(function () {
+            if (direction == 'left') {
+                element.scrollLeft -= scrollMove;
+            } else {
+                element.scrollLeft += scrollMove;
+            }
+            scrollAmount += scrollMove;
+            if (scrollAmount >= totalScroll) {
+                window.clearInterval(slideTimer);
+            }
+        }, 15);
+    };
+    // Smooth scroll to Variations slider
+    function scrollToSection() {
+        var matchUrl = window.location.href.split("/").pop();
+        var recipeUrl = window.location.href;
+        if (matchUrl !== "recipe" && recipeUrl.match('/recipe')) {
+            const scrollToVariation = document.getElementById('selected-variation').offsetTop;
+            window.scrollTo({ top: scrollToVariation, behavior: 'smooth' });
+        }
+    };
+    (function () {
+        setTimeout(function () {
+            scrollToSection();
+        }
+        , 1000)
+    })();
+
+    // Smooth scroll to Recipe section
+    this.scrollToRecipe = function () {
+        const scrollToRecipe = document.getElementById('recipe-section').offsetTop
+        window.scrollTo({ top: scrollToRecipe, behavior: 'smooth' });
+    }
+</script>
+</div>
+</div>
+
+<div id="entity-restaurant-modal"></div>
+<ta-back-to-top></ta-back-to-top>
+
+<div id="ta-main-page-loader" class="page-load">
+<i></i>
+</div>
+
+</div>
+
+<div id="fb-root"></div>
+<script>
+    (function (window) {
+        window.__env = window.__env || {};
+        window.__env.enableDebug = false;
+    }(this));
+</script>
+<link href="/Content/Styles/ng-sortable.min.css" rel="stylesheet" />
+<link href="/Content/Styles/ol.css" rel="stylesheet" />
+<script>
+
+    var didScroll;
+    // on scroll, let the interval function know the user has scrolled
+    $(window).scroll(function (event) {
+        didScroll = true;
+    });
+    $(window).load(function () {
+        hasScrolled();
+    })
+    // run hasScrolled() and reset didScroll status
+    setInterval(function () {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+
+    var lastScrollTop = 0;
+    var delta = 0;
+
+    function hasScrolled() {
+        var headerElem = $('#header-id');
+        var regionFloatingFilter = $('.search-results__floating-filter');//floating filter on regions
+        var submenuFloatingFilter = $('.header-bottom__submenu'); // open menu on floating filter on regions
+        var hamburgerOpen = document.querySelector('.offcanvas--active');
+        var navbarHeight = headerElem.outerHeight();
+        var st = $(this).scrollTop();
+
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+        
+        // If current position > last position AND scrolled past navbar... // Scroll Down
+        if (st > lastScrollTop && st > navbarHeight && hamburgerOpen == null ) {
+            headerElem.css('top', '-145px'); // If we height login popup will not be displayed
+            regionFloatingFilter.css('top', '');
+            submenuFloatingFilter.css('top', '0px');
+            
+        }
+        else { //scrolling up
+            if (st + $(window).height() < $(document).height()) {
+                headerElem.css('top', 0);
+                regionFloatingFilter.css('top', navbarHeight + 'px');
+                submenuFloatingFilter.css('top', '');
+            }
+        }
+
+        lastScrollTop = st;
+    }
+
+</script>
+<script src="/Scripts/autotrack.js"></script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-97940741-1', 'auto');
+</script>
+<script>
+            ga('set', 'dimension1', 'DishRecipe');
+        </script>
+<script>
+    ga('send', 'pageview');
+    ga('require', 'urlChangeTracker');
+</script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S6PQJYBCM"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    
+    gtag('config', 'G-8S6PQJYBCM');
+</script>
+</body>
+</html>
