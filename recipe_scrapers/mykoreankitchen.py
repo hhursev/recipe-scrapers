@@ -32,20 +32,30 @@ class MyKoreanKitchen(AbstractScraper):
         return self.schema.ingredients()
 
     def ingredient_groups(self):
-        ingredient_list = self.soup.find_all(
+        ingredient_groups = self.soup.find_all(
             "div", {"class": "wprm-recipe-ingredient-group"}
         )
 
-        ingredient_groups = []
+        results = []
         ingredient_index_base = 0
 
-        for ingredient_group in ingredient_list:
+        for ingredient_group in ingredient_groups:
 
             ingredient_count = (
                 len(ingredient_group.find_all("li")) + ingredient_index_base
             )
 
-            ingredient_groups.append(
+            purpose = None
+
+            if (
+                ingredient_group.find("h4", "wprm-recipe-ingredient-group-name")
+                is not None
+            ):
+                purpose = ingredient_group.find(
+                    "h4", "wprm-recipe-ingredient-group-name"
+                ).text
+
+            results.append(
                 IngredientGroup(
                     [
                         ingredient
@@ -53,22 +63,13 @@ class MyKoreanKitchen(AbstractScraper):
                             ingredient_index_base:ingredient_count
                         ]
                     ],
-                    (
-                        ingredient_group.find(
-                            "h4", "wprm-recipe-ingredient-group-name"
-                        ).text
-                        if ingredient_group.find(
-                            "h4", "wprm-recipe-ingredient-group-name"
-                        )
-                        is not None
-                        else "MAIN"
-                    ),
+                    (purpose),
                 )
             )
 
             ingredient_index_base = ingredient_count
 
-        return ingredient_groups
+        return results
 
     def instructions(self):
         return self.schema.instructions()
