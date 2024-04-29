@@ -328,6 +328,6 @@ Returns the method of cooking the recipe.
 Returns the dietary restrictions specified by the recipe.
 
 ```py
->>> scraper.equipment()
-['Vegan Diet', 'Vegetrian Diet']
+>>> scraper.dietary_restrictions()
+['Vegan Diet', 'Vegetarian Diet']
 ```
