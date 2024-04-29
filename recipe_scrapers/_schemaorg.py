@@ -316,7 +316,5 @@ class SchemaOrg:
             raise SchemaOrgException("No dietary restrictions data in SchemaOrg.")
 
         if isinstance(dietary_restrictions, list):
-            return ", ".join(
-                format_diet_name(diet.split("/")[-1]) for diet in dietary_restrictions
-            )
-        return format_diet_name(dietary_restrictions.split("/")[-1])
+            return ", ".join(format_diet_name(diet) for diet in dietary_restrictions)
+        return format_diet_name(dietary_restrictions)
