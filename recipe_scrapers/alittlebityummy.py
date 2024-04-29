@@ -34,16 +34,28 @@ class ALittleBitYummy(AbstractScraper):
     def ingredients(self):
         ingredient_blocks = self.soup.select(".ingredients-tab-content div")
         seen = set()
-        ingredients_list = []
-        for ing in ingredient_blocks:
-            bold_text = ing.find("b")
-            span_text = ing.find("span")
-            if bold_text and span_text:
-                ingredient_text = f"{normalize_string(bold_text.get_text())} {normalize_string(span_text.get_text())}"
-                if ingredient_text not in seen:
-                    seen.add(ingredient_text)
-                    ingredients_list.append(ingredient_text)
-        return ingredients_list
+        ingredients = []
+        for block in ingredient_blocks:
+            unit_display = block.find("b", class_="ingredient-unit-display")
+            primary = (
+                unit_display.get("data-primary-amount", "").strip(),
+                unit_display.get("data-primary-unit", "").strip(),
+            )
+            secondary = (
+                unit_display.get("data-secondary-amount", "").strip(),
+                unit_display.get("data-secondary-unit", "").strip(),
+            )
+
+            amount_text = f"{primary[0]} {primary[1]}"
+            if secondary[0]:
+                amount_text += f" ({secondary[0]} {secondary[1]})"
+
+            name = block.find("span", class_="ingredient-name-display").text.strip()
+            full_ingredient = f"{amount_text} {name}"
+            if full_ingredient not in seen:
+                seen.add(full_ingredient)
+                ingredients.append(full_ingredient)
+        return ingredients
 
     def instructions(self):
         instruction_steps = self.soup.select("#method ol li")
