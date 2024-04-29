@@ -31,9 +31,12 @@ class TestReadme(unittest.TestCase):
 
     def test_includes(self):
         documented_scrapers = get_documented_scrapers()
+        missing_scrapers = []
 
         for scraper in SCRAPERS:
             match = re.search(r"(?:www.)?(.*)", scraper)
             domain = match.group(1)
-            # If this test is failing, the scraper has not been added to the list in README.rst
-            self.assertIn(domain, documented_scrapers)
+            if domain not in documented_scrapers:
+                missing_scrapers.append(domain)
+
+        self.assertFalse(missing_scrapers, f"Missing scrapers in README.rst: {missing_scrapers}")
