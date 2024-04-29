@@ -1,5 +1,4 @@
 # mypy: allow-untyped-defs
-import sys
 import warnings
 
 from ._abstract import AbstractScraper
@@ -28,10 +27,9 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        if sys.warnoptions:
-            warnings.warn(
-                null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
-            )
+        warnings.warn(
+            null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
+        )
         return None
 
     def yields(self):
