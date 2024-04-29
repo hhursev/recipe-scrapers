@@ -15,14 +15,16 @@ def get_documented_scrapers() -> List[str]:
             if line.strip() == SEPARATOR:
                 found = True
                 next(f)  # Skip the underline
-            elif found and line.strip():
-                match = re.search(r"^- `http(?:s)?:\/\/(?:www.)?([^\s\/]+)", line)
-                if not match:
-                    break
+                continue
+            if not found or not line.strip():
+                continue
 
-                domain = match.group(1)
-
-                documented_scrapers.append(domain)
+            match = re.search(r"^- `https?://(?:www\.)?([^/\s]+)", line)
+            if match:
+                documented_scrapers.append(match.group(1))
+            else:
+                # Stops reading if no longer within the scraper list section
+                if found and line.startswith('(*) offline saved files only'):
 
     return documented_scrapers
 
