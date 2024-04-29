@@ -49,6 +49,9 @@ class PotatoRolls(AbstractScraper):
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
 
+    def total_time(self):
+        return self.schema.total_time()
+
     def language(self):
         return "en-US"
 
