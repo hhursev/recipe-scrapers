@@ -20,7 +20,7 @@ class GourmetTraveller(AbstractScraper):
 
     def category(self):
         recipe_category_span = self.soup.find(
-            "span", {"class": "related-tags__label"}, text=re.compile("Recipe Course")
+            "span", {"class": "related-tags__label"}, string=re.compile("Recipe Course")
         )
         if not recipe_category_span:
             return None
@@ -62,9 +62,6 @@ class GourmetTraveller(AbstractScraper):
 
     def instructions(self):
         return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def cuisine(self):
         return self.schema.cuisine()

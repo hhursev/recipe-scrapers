@@ -61,5 +61,7 @@
   "total_time": 30,
   "prep_time": 20,
   "cook_time": 10,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "cuisine": "Greek",
+  "category": "Main"
 }
