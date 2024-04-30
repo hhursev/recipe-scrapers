@@ -39,7 +39,7 @@ class Woolworths(AbstractScraper):
         return self.schema.nutrients()
 
     def language(self):
-        return "en-AU"
+        return self.schema.language() or super().language()
 
     def site_name(self):
         return "Woolworths | Fresh Ideas For You"

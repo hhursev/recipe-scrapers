@@ -68,4 +68,4 @@ class KuchynaLidla(AbstractScraper):
         return il
 
     def language(self):
-        return "sk"
+        return self.schema.language() or super().language()

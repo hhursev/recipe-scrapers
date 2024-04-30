@@ -1,5 +1,7 @@
 # mypy: allow-untyped-defs
 
+import warnings
+
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 from ._utils import get_yields, normalize_string
@@ -41,6 +43,12 @@ class PotatoRolls(AbstractScraper):
         )
 
     def language(self):
+        msg = (
+            f"{self.host()} appears to write language metadata into HTML DOCTYPE "
+            "declaration instead of the top-level 'html' element or elsewhere. "
+            "Please let us know if it becomes available in a standard location, "
+            "and then we can try to retrieve it dynamically."
+        )
         return "en-US"
 
     def yields(self):
