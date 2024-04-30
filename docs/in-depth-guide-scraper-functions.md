@@ -303,7 +303,7 @@ scraper.ratings()
 
 ### `ratings_count() -> float`
 
-Returns the total number of ratings contibuted to the recipes rating.
+Returns the total number of ratings contributed to the recipes rating.
 
 ```py
 scraper.ratings_count()
