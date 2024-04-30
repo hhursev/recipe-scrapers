@@ -72,7 +72,13 @@ class MarleySpoon(AbstractScraper):
         try:
             next_url = urljoin(self.url, api_url)
             host_name = get_host_name(next_url)
-            next_scraper = SCRAPERS[host_name]
+            next_scraper = type(None)
+            # check: api.foo.xx.example, foo.xx.example, xx.example
+            while host_name and host_name.count('.'):
+                next_scraper = SCRAPERS.get(host_name)
+                if next_scraper:
+                    break
+                host_name = '.'.join(host_name.split('.')[1:])
             if not isinstance(self, next_scraper):
                 raise ValueError(f"Attempted to scrape using {next_scraper} from {scraper_name}")
         except Exception as e:
