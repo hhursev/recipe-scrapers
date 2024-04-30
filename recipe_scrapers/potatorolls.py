@@ -49,6 +49,7 @@ class PotatoRolls(AbstractScraper):
             "Please let us know if it becomes available in a standard location, "
             "and then we can try to retrieve it dynamically."
         )
+        warnings.warn(msg)
         return "en-US"
 
     def yields(self):
