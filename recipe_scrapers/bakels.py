@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import IngredientGroup
 
 
 class Bakels(AbstractScraper):
@@ -19,17 +20,43 @@ class Bakels(AbstractScraper):
 
     def ingredients(self):
         div = self.soup.find("div", id="tab-ingredients_1")
-        if div:
-            ingredients = div.find_all(class_="text-xs-left")
-            array = []
-            flag = False
+        if not div:
+            return
+
+        results = []
+        groups = div.find_all("div", {"class": "row"})
+        for group in groups:
+            ingredients = group.find_all(class_="text-xs-left")
             for ingredient in ingredients:
                 text = ingredient.get_text(strip=True)
-                if text == "Ingredient":
-                    flag = True
-                elif flag:
-                    array.append(text)
-            return array
+                if text == "Ingredient" or text.startswith("Group"):
+                    continue
+                results.append(text)
+        return results
+
+    def ingredient_groups(self):
+        div = self.soup.find("div", id="tab-ingredients_1")
+        if not div:
+            return
+
+        results = []
+        groups = div.find_all("div", {"class": "row-group"})
+        for group in groups:
+            title = group.find("span", {"class": "group-label"})
+            if not title:
+                continue
+
+            ingredient_group = IngredientGroup(ingredients=[], purpose=title.text)
+            ingredients = group.find_all(class_="text-xs-left")
+            for ingredient in ingredients:
+                text = ingredient.get_text(strip=True)
+                if text == "Ingredient" or text.startswith("Group"):
+                    continue
+                ingredient_group.ingredients.append(text)
+            results.append(ingredient_group)
+        if len(results) == 1:
+            results[0].purpose = None
+        return results
 
     def instructions(self):
         div = self.soup.find("div", id="tab-method_1")
