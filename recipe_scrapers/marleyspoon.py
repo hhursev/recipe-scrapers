@@ -7,7 +7,7 @@ import requests
 
 from ._abstract import HEADERS, AbstractScraper
 from ._exceptions import ElementNotFoundInHtml, RecipeScrapersExceptions
-from ._utils import normalize_string
+from ._utils import get_host_name, normalize_string
 
 ID_PATTERN = re.compile(r"/(\d+)-")
 SCRIPT_PATTERN = re.compile(
@@ -67,14 +67,12 @@ class MarleySpoon(AbstractScraper):
             raise ElementNotFoundInHtml("Required script not found.")
 
         scraper_name = self.__class__.__name__
-        expected_domain = scraper_name.lower()
         try:
-            validation_url = urljoin(self.url, api_url)
-            url_info = urlsplit(validation_url)
-            domain_prefix, _ = url_info.hostname.rsplit(".", 1)
-            if not f".{domain_prefix}".endswith(f".{expected_domain}"):
-                msg = f"Domain for {api_url} does not contain expected part: {expected_domain}"
-                raise ValueError(msg)
+            next_url = urljoin(self.url, api_url)
+            host_name = get_host_name(next_url)
+            next_scraper = SCRAPERS[host_name]
+            if not isinstance(self, next_scraper):
+                raise ValueError(f"Attempted to scrape using {next_scraper} from {scraper_name}")
         except Exception:
             raise RecipeScrapersExceptions(f"Unexpected API URL: {api_url}")
 
