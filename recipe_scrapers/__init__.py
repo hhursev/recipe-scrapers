@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import contextlib
+import warnings
 from typing import Any
 
 from ._abstract import AbstractScraper
@@ -679,6 +680,19 @@ def scraper_exists_for(url_path: str) -> bool:
 def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
+    if options:
+        msg = (
+            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+            " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
+            "function.\n"
+        )
+        warnings.warn(msg, DeprecationWarning)
+
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
@@ -715,6 +729,17 @@ def scrape_html(
     """
 
     host_name = get_host_name(org_url) if org_url is not None else None
+
+    if options:
+        msg = (
+            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+        )
+        warnings.warn(msg, DeprecationWarning)
 
     scraper = None
     if host_name:
