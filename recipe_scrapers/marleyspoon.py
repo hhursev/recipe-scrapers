@@ -73,8 +73,8 @@ class MarleySpoon(AbstractScraper):
             next_scraper = SCRAPERS[host_name]
             if not isinstance(self, next_scraper):
                 raise ValueError(f"Attempted to scrape using {next_scraper} from {scraper_name}")
-        except Exception:
-            raise RecipeScrapersExceptions(f"Unexpected API URL: {api_url}")
+        except Exception as e:
+            raise RecipeScrapersExceptions(f"Unexpected API URL: {api_url}") from e
 
         return api_url, api_token
 
