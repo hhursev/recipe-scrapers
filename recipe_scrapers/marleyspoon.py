@@ -1,7 +1,7 @@
 # mypy: disallow_untyped_defs=False
 import json
 import re
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urljoin
 
 import requests
 
