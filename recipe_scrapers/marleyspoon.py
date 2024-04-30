@@ -66,6 +66,8 @@ class MarleySpoon(AbstractScraper):
         if api_url is None or api_token is None:
             raise ElementNotFoundInHtml("Required script not found.")
 
+        from . import SCRAPERS
+
         scraper_name = self.__class__.__name__
         try:
             next_url = urljoin(self.url, api_url)
