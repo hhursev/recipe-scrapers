@@ -6,6 +6,3 @@ class Ica(AbstractScraper):
     @classmethod
     def host(cls):
         return "ica.se"
-
-    def nutrients(self):
-        return self.schema.nutrients()

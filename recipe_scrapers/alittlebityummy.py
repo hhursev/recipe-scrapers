@@ -16,21 +16,6 @@ class ALittleBitYummy(AbstractScraper):
         if author_tag:
             return author_tag.text.replace("Author:", "").strip()
 
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredient_blocks = self.soup.select(".ingredients-tab-content div")
         seen = set()
@@ -64,6 +49,3 @@ class ALittleBitYummy(AbstractScraper):
             for step in instruction_steps
             if step.get_text()
         )
-
-    def description(self):
-        return self.schema.description()

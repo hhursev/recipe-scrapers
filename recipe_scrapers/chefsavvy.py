@@ -7,6 +7,3 @@ class ChefSavvy(AbstractScraper):
     @classmethod
     def host(cls):
         return "chefsavvy.com"
-
-    def category(self):
-        return self.schema.category()

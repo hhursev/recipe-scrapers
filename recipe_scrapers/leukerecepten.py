@@ -6,6 +6,3 @@ class Leukerecepten(AbstractScraper):
     @classmethod
     def host(cls):
         return "leukerecepten.nl"
-
-    def category(self):
-        return self.schema.category()

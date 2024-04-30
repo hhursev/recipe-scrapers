@@ -7,8 +7,4 @@ class SaltPepperSkillet(AbstractScraper):
         return "saltpepperskillet.com"
 
     def author(self):
-        author_name = self.schema.author()
-        return author_name.capitalize()
-
-    def category(self):
-        return self.schema.category()
+        return self.schema.author().title()

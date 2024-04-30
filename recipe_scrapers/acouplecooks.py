@@ -6,6 +6,3 @@ class ACoupleCooks(AbstractScraper):
     @classmethod
     def host(cls):
         return "acouplecooks.com"
-
-    def instructions(self):
-        return self.schema.instructions()

@@ -7,9 +7,6 @@ class BongEats(AbstractScraper):
     def host(cls):
         return "bongeats.com"
 
-    def nutrients(self):
-        return self.schema.nutrients()
-
     def ingredients(self):
         ingredients_div = self.soup.find(
             "div",

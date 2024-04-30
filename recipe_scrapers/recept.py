@@ -7,6 +7,3 @@ class Recept(AbstractScraper):
     @classmethod
     def host(cls):
         return "recept.se"
-
-    def category(self):
-        return self.schema.category()

@@ -7,6 +7,3 @@ class HeatherChristo(AbstractScraper):
     @classmethod
     def host(cls):
         return "heatherchristo.com"
-
-    def category(self):
-        return self.schema.category()

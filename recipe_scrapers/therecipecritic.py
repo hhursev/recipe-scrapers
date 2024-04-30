@@ -10,6 +10,3 @@ class Therecipecritic(AbstractScraper):
 
     def author(self):
         return "The Recipe Critic"
-
-    def category(self):
-        return self.schema.category()

@@ -6,6 +6,3 @@ class Springlane(AbstractScraper):
     @classmethod
     def host(cls):
         return "springlane.de"
-
-    def nutrients(self):
-        return self.schema.nutrients()

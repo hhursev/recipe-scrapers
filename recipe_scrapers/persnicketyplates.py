@@ -7,6 +7,3 @@ class PersnicketyPlates(AbstractScraper):
     @classmethod
     def host(cls):
         return "persnicketyplates.com"
-
-    def category(self):
-        return self.schema.category()

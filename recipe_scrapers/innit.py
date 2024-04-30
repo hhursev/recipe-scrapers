@@ -10,6 +10,3 @@ class Innit(AbstractScraper):
     @classmethod
     def host(cls, domain="com"):
         return f"innit.{domain}"
-
-    def nutrients(self):
-        return self.schema.nutrients()

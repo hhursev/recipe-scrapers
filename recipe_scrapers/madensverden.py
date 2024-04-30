@@ -6,6 +6,3 @@ class MadensVerden(AbstractScraper):
     @classmethod
     def host(cls):
         return "madensverden.dk"
-
-    def nutrients(self):
-        return self.schema.nutrients()

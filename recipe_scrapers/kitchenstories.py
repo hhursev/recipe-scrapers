@@ -20,6 +20,3 @@ class KitchenStories(AbstractScraper):
         schema_data = self.soup.find("script", {"type": "application/ld+json"})
         schema_data = unescape(str(schema_data))
         self.schema = SchemaOrg(schema_data)
-
-    def nutrients(self):
-        return self.schema.nutrients()

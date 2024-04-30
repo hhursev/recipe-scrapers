@@ -6,6 +6,3 @@ class OneHundredOneCookBooks(AbstractScraper):
     @classmethod
     def host(cls):
         return "101cookbooks.com"
-
-    def nutrients(self):
-        return self.schema.nutrients()

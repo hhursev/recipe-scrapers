@@ -13,15 +13,6 @@ class PotatoRolls(AbstractScraper):
     def author(self):
         return "Martin's Famous Potato Rolls and Bread"
 
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredient_blocks = self.soup.select(
             'div[itemprop="ingredients recipeIngredient"] .ingredient p'
@@ -48,9 +39,6 @@ class PotatoRolls(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
-
-    def total_time(self):
-        return self.schema.total_time()
 
     def language(self):
         return "en-US"

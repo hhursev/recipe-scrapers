@@ -15,6 +15,3 @@ class ThePioneerWoman(AbstractScraper):
             ".ingredients-body h3",
             ".ingredient-lists li",
         )
-
-    def cook_time(self):
-        return self.schema.cook_time()

@@ -6,6 +6,3 @@ class EmmiKochtEinfach(AbstractScraper):
     @classmethod
     def host(cls):
         return "emmikochteinfach.de"
-
-    def category(self):
-        return self.schema.category()
