@@ -78,7 +78,7 @@ class MarleySpoon(AbstractScraper):
                 next_scraper = SCRAPERS.get(host_name)
                 if next_scraper:
                     break
-                host_name = ".".join(host_name.split(".")[1:])
+                _, host_name = host_name.split(".", 1)
             if not isinstance(self, next_scraper):
                 msg = f"Attempted to scrape using {next_scraper} from {scraper_name}"
                 raise ValueError(msg)
