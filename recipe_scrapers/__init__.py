@@ -182,6 +182,7 @@ from .madsvin import Madsvin
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
+from .mccormick import McCormick
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
@@ -273,6 +274,7 @@ from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
+from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
@@ -402,6 +404,7 @@ SCRAPERS = {
     JoyTheBaker.host(): JoyTheBaker,
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KuchynaLidla.host(): KuchynaLidla,
+    McCormick.host(): McCormick,
     Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
@@ -410,6 +413,7 @@ SCRAPERS = {
     Recept.host(): Recept,
     RicettePerBimby.host(): RicettePerBimby,
     StrongrFastr.host(): StrongrFastr,
+    TasteAtlas.host(): TasteAtlas,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,

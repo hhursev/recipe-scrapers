@@ -273,6 +273,7 @@ Scrapers available for:
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
+- `https://www.mccormick.com/ <https://www.mccormick.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
@@ -365,6 +366,7 @@ Scrapers available for:
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
+- `https://www.tasteatlas.com/ <https://www.tasteatlas.com/>`_
 - `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
