@@ -9,9 +9,6 @@ class Lecker(AbstractScraper):
     def host(cls):
         return "lecker.de"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         try:
             return self.schema.title()
@@ -23,12 +20,6 @@ class Lecker(AbstractScraper):
                 .find("h1")
                 .get_text()
             )
-
-    def category(self):
-        return self.schema.category()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         if self.schema.instructions():
@@ -58,9 +49,6 @@ class Lecker(AbstractScraper):
 
                     return "\n".join(instructions)
 
-    def nutrients(self):
-        return self.schema.nutrients()
-
     def cuisine(self):
         try:
             return self.schema.cuisine()
@@ -70,3 +58,6 @@ class Lecker(AbstractScraper):
     def description(self):
         cleaned_description = self.schema.description()
         return normalize_string(cleaned_description)
+
+    def site_name(self):
+        return "lecker.de"
