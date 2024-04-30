@@ -51,14 +51,14 @@ class GourmetTraveller(AbstractScraper):
             for group_heading_div in group_heading_divs
         ]
 
-        # The group headings are also included in the ingredients in the schema
-        # Remove the group headings from the ingredients
-        ingredients = filter(
-            lambda ingredient: ingredient not in group_headings,
-            self.schema.ingredients(),
-        )
+        ingredients = self.schema.ingredients()
 
-        return list(ingredients)
+        # Group headings are included in the ingredients list
+        for group_heading in group_headings:
+            if group_heading in ingredients:
+                ingredients.remove(group_heading)
+
+        return ingredients
 
     def instructions(self):
         return self.schema.instructions()
