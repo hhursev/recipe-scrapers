@@ -1,6 +1,7 @@
 import json
 import pathlib
 import unittest
+from enum import Enum
 from typing import Callable
 
 from recipe_scrapers import scrape_html
@@ -34,6 +35,33 @@ OPTIONAL_TESTS = [
     "reviews",
     "equipment",
 ]
+
+OPTIONS_KEY = "_options"
+
+
+class TestOptions(Enum):
+    CONSISTENT_INGREDIENT_GROUPS = ("consistent_ingredient_groups", True)
+    """
+    Controls if the consistent ingredient groups test is run.
+    Disable if ingredient groups contain sub-quantities of the same ingredient (as the test will fail).
+    """
+
+    def __new__(cls, value: str, default):
+        obj = object.__new__(cls)
+        obj._value_ = value
+        return obj
+
+    def __init__(self, value: str, default: str) -> None:
+        self.default = default
+
+
+def get_options(expect):
+    options = {}
+    for option in TestOptions:
+        # Checks if the option has been set in the test
+        # Tolerates both the options node and the specific option not being defined
+        options[option] = expect.get(OPTIONS_KEY, {}).get(option.value, option.default)
+    return options
 
 
 class RecipeTestCase(unittest.TestCase):
@@ -80,6 +108,8 @@ def test_func_factory(
             ]
         actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
 
+        options = get_options(expect)
+
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
         for key in MANDATORY_TESTS:
@@ -110,14 +140,15 @@ def test_func_factory(
                         msg=f"The actual value for .{key}() did not match the expected value.",
                     )
 
-        # Assert that the ingredients returned by the ingredient_groups() function
-        # are the same as the ingredients return by the ingredients() function.
-        grouped = []
-        for group in actual.ingredient_groups():
-            grouped.extend(group.ingredients)
+        if options.get(TestOptions.CONSISTENT_INGREDIENT_GROUPS):
+            # Assert that the ingredients returned by the ingredient_groups() function
+            # are the same as the ingredients return by the ingredients() function.
+            grouped = []
+            for group in actual.ingredient_groups():
+                grouped.extend(group.ingredients)
 
-        with self.subTest("ingredient_groups"):
-            self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
+            with self.subTest("ingredient_groups"):
+                self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
     return test_func
 
