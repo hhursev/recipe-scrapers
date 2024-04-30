@@ -118,7 +118,7 @@ def test_func_factory(
             with self.subTest("ratings_count"):
                 ratings_count = actual.ratings_count()
                 self.assertTrue(
-                    expect["ratings_count"] >= ratings_count,
+                    ratings_count >= expect["ratings_count"],
                     msg=f"Expected ratings_count() : {ratings_count} ",
                 )
 
