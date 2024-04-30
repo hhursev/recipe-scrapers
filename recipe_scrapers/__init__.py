@@ -217,6 +217,7 @@ from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
 from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
+from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
 from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
@@ -402,6 +403,7 @@ SCRAPERS = {
     MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
+    PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
     RicettePerBimby.host(): RicettePerBimby,
     StrongrFastr.host(): StrongrFastr,
