@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import contextlib
+import warnings
 from typing import Any
 
 from ._abstract import AbstractScraper
@@ -15,6 +16,7 @@ from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
+from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
@@ -126,6 +128,7 @@ from .hostthetoast import Hostthetoast
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
+from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
@@ -135,6 +138,7 @@ from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
+from .joythebaker import JoyTheBaker
 from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
 from .justbento import JustBento
@@ -169,6 +173,7 @@ from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
+from .mccormick import McCormick
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
@@ -179,6 +184,7 @@ from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
+from .moulinex import Moulinex
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .myjewishlearning import MyJewishLearning
@@ -211,6 +217,7 @@ from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
 from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
+from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
 from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
@@ -260,6 +267,7 @@ from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
+from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
@@ -303,9 +311,11 @@ from .weightwatchers import WeightWatchers
 from .weightwatcherspublic import WeightWatchersPublic
 from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
+from .whole30 import Whole30
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
+from .womensweeklyfood import WomensWeeklyFood
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -316,6 +326,7 @@ from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
+    ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
     AbuelasCounter.host(): AbuelasCounter,
@@ -382,16 +393,22 @@ SCRAPERS = {
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
+    InBloomBakery.host(): InBloomBakery,
     JoshuaWeissman.host(): JoshuaWeissman,
+    JoyTheBaker.host(): JoyTheBaker,
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KuchynaLidla.host(): KuchynaLidla,
+    McCormick.host(): McCormick,
+    Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
+    PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
     RicettePerBimby.host(): RicettePerBimby,
     StrongrFastr.host(): StrongrFastr,
+    TasteAtlas.host(): TasteAtlas,
     TheCookingGuy.host(): TheCookingGuy,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
@@ -639,9 +656,11 @@ SCRAPERS = {
     WeightWatchersPublic.host(): WeightWatchersPublic,
     WellPlated.host(): WellPlated,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    Whole30.host(): Whole30,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
     WilliamsSonoma.host(): WilliamsSonoma,
+    WomensWeeklyFood.host(): WomensWeeklyFood,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
@@ -666,6 +685,19 @@ def scraper_exists_for(url_path: str) -> bool:
 
 def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
+
+    if options:
+        msg = (
+            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+            " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
+            "function.\n"
+        )
+        warnings.warn(msg, DeprecationWarning)
 
     try:
         scraper = SCRAPERS[host_name]
@@ -703,6 +735,17 @@ def scrape_html(
     """
 
     host_name = get_host_name(org_url) if org_url is not None else None
+
+    if options:
+        msg = (
+            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+        )
+        warnings.warn(msg, DeprecationWarning)
 
     scraper = None
     if host_name:
