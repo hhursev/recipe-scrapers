@@ -72,7 +72,7 @@ RECIPE_YIELD_TYPES = (
     # ... add more types as needed, in (singular, plural) format ...
 )
 
-BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers"
+BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers/issues"
 
 
 class UnsupportedFieldWarning(Warning):
