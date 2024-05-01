@@ -19,8 +19,18 @@ def get_supported_hosts() -> Dict[str, List[str]]:
 
         if host == primary_host:
             supported_scrapers[primary_host] = []
-        else:
-            supported_scrapers[primary_host].append(host)
+            continue
+
+        try:
+            empty_host = scraper.host("")
+            if empty_host == "":
+                # This means that the entire domain is customizable (not just a TLD change)
+                supported_scrapers[host] = []
+                continue
+        except TypeError:
+            pass
+
+        supported_scrapers[primary_host].append(host)
 
     return supported_scrapers
 
@@ -43,7 +53,6 @@ def determine_sub_level_domain(primary_host, secondary_hosts) -> Optional[str]:
 
 def get_top_level_domains(primary_host, secondary_hosts) -> List[str]:
     sub_level_domain = determine_sub_level_domain(primary_host, secondary_hosts)
-    print(sub_level_domain)
 
     if not sub_level_domain:
         return []
@@ -115,7 +124,6 @@ class TestReadme(unittest.TestCase):
                 self.fail(f"Line {current_line_index + 1} is incorrect.")
 
             name_host, value_host = parse_result
-            print(primary_host, name_host, value_host)
             self.assertEqual(name_host, primary_host)
             self.assertEqual(name_host, value_host)
 
@@ -125,5 +133,11 @@ class TestReadme(unittest.TestCase):
             if secondary_hosts:
                 parse_result = parse_secondary_line(lines[current_line_index])
                 for i, secondary_host in enumerate(secondary_hosts):
-                    self.assertEqual(secondary_host, parse_result[i][0])
+                    if not parse_result or not parse_result[i]:
+                        self.fail(f"TLD list not correct for {primary_host}")
+                    self.assertEqual(
+                        secondary_host,
+                        parse_result[i][0],
+                        f"Line number: {current_line_index + 1}",
+                    )
                 current_line_index += 1

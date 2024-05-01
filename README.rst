@@ -160,17 +160,16 @@ Scrapers available for:
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
 - `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
-- `https://eatsmarter.de/ <https://eatsmarter.de/>`_
+    - `.de <https://eatsmarter.de/>`_
 - `https://eattolerant.de/ <https://eattolerant.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
 - `https://elavegan.com/ <https://elavegan.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
-- `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
+- `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
-- `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
-- `https://recipes.timesofindia.com/ <https://recipes.timesofindia.com/>`_
+- `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
@@ -182,7 +181,7 @@ Scrapers available for:
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodfidelity.com/ <https://foodfidelity.com>`_
 - `https://foodnetwork.co.uk/ <https://www.foodnetwork.co.uk>`_
-- `https://foodnetwork.com/ <https://www.foodnetwork.com>`_
+    - `.com <https://www.foodnetwork.com>`_
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
@@ -325,6 +324,8 @@ Scrapers available for:
 - `https://recept.se/ <https://recept.se/>`_
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
+- `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
+- `https://recipes.timesofindia.com/ <https://recipes.timesofindia.com/>`_
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
@@ -410,7 +411,6 @@ Scrapers available for:
 - `https://womensweeklyfood.com.au/ <https://womensweeklyfood.com.au/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
-- `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_ (*)
 - `https://www.zaubertopf.de <https://www.zaubertopf.de>`_
