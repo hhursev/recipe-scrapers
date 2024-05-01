@@ -87,14 +87,15 @@ Some Python HTTP clients that you can use to retrieve HTML include `requests <ht
 Scrapers available for:
 -----------------------
 
+- `https://101cookbooks.com/ <https://101cookbooks.com/>`_
+- `https://www.750g.com <https://www.750g.com>`_
 - `https://aberlehome.com/ <https://aberlehome.com>`_
-- `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
 - `https://addapinch.com/ <https://addapinch.com/>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
-- `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
+- `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
@@ -105,11 +106,11 @@ Scrapers available for:
 - `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
-- `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
+- `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
-- `https://bbc.co.uk/ <http://bbc.co.uk/food/recipes>`_
+    - `.co.uk/ <http://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
@@ -131,6 +132,7 @@ Scrapers available for:
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://www.chefnini.com/ <https://www.chefnini.com/>`_
 - `https://chefsavvy.com/ <https://chefsavvy.com/>`_
+- `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
@@ -186,7 +188,6 @@ Scrapers available for:
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
 - `https://franzoesischkochen.de/ <https://franzoesischkochen.de/>`_
 - `https://fredriksfika.allas.se/ <https://fredriksfika.allas.se/>`_
-- `https://www.750g.com <https://www.750g.com>`_
 - `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://giallozafferano.it/ <https://giallozafferano.it>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
@@ -207,23 +208,7 @@ Scrapers available for:
 - `https://heatherchristo.com/ <https://heatherchristo.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
-- `https://hellofresh.co.uk/ <https://hellofresh.co.uk>`_
-- `https://www.hellofresh.at/ <https://www.hellofresh.at/>`_
-- `https://www.hellofresh.be/ <https://www.hellofresh.be/>`_
-- `https://www.hellofresh.ca/ <https://www.hellofresh.ca/>`_
-- `https://www.hellofresh.ch/ <https://www.hellofresh.ch/>`_
-- `https://www.hellofresh.co.nz/ <https://www.hellofresh.co.nz/>`_
-- `https://www.hellofresh.com.au/ <https://www.hellofresh.com.au/>`_
-- `https://www.hellofresh.de/ <https://www.hellofresh.de/>`_
-- `https://www.hellofresh.dk/ <https://www.hellofresh.dk/>`_
-- `https://www.hellofresh.es/ <https://www.hellofresh.es/>`_
-- `https://www.hellofresh.fr/ <https://www.hellofresh.fr/>`_
-- `https://www.hellofresh.nl/ <https://www.hellofresh.nl/>`_
-- `https://www.hellofresh.ie/ <https://www.hellofresh.ie/>`_
-- `https://www.hellofresh.it/ <https://www.hellofresh.it/>`_
-- `https://www.hellofresh.lu/ <https://www.hellofresh.lu/>`_
-- `https://www.hellofresh.no/ <https://www.hellofresh.no/>`_
-- `https://www.hellofresh.se/ <https://www.hellofresh.se/>`_
+    - `.co.uk <https://hellofresh.co.uk>`_, `.at <https://www.hellofresh.at/>`_ `.be <https://www.hellofresh.be/>`_, `.ca <https://www.hellofresh.ca/>`_, `.ch <https://www.hellofresh.ch/>`_, `.co.nz <https://www.hellofresh.co.nz/>`_, `.com.au <https://www.hellofresh.com.au/>`_, `.de <https://www.hellofresh.de/>`_, `.dk <https://www.hellofresh.dk/>`_, `.es <https://www.hellofresh.es/>`_, `.fr <https://www.hellofresh.fr/>`_, `.nl <https://www.hellofresh.nl/>`_, `.ie <https://www.hellofresh.ie/>`_, `.it <https://www.hellofresh.it/>`_, `.lu <https://www.hellofresh.lu/>`_, `.no <https://www.hellofresh.no/>`_, `.se <https://www.hellofresh.se/>`_
 - `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
@@ -316,7 +301,6 @@ Scrapers available for:
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://www.onceuponachef.com <https://www.onceuponachef.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
-- `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
