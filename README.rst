@@ -110,7 +110,7 @@ Scrapers available for:
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
-    - `.co.uk/ <http://bbc.co.uk/food/recipes>`_
+    - `.co.uk <https://bbc.co.uk/food/recipes>`_
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
@@ -119,8 +119,8 @@ Scrapers available for:
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bluejeanchef.com/ <https://bluejeanchef.com/>`_
-- `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
+- `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://breadtopia.com/ <https://breadtopia.com/>`_
@@ -135,13 +135,13 @@ Scrapers available for:
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
+- `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
+- `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
-- `https://cookstr.com/ <https://cookstr.com>`_
-- `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
@@ -296,7 +296,6 @@ Scrapers available for:
 - `https://www.number-2-pencil.com/ <https://www.number-2-pencil.com/>`_
 - `https://nutritionbynathalie.com/blog <https://nutritionbynathalie.com/blog>`_
 - `https://nutritionfacts.org/ <https://nutritionfacts.org/>`_
-- `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://www.onceuponachef.com <https://www.onceuponachef.com>`_

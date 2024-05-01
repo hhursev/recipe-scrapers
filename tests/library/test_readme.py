@@ -29,17 +29,21 @@ def determine_sub_level_domain(primary_host, secondary_hosts) -> Optional[str]:
     if not secondary_hosts:
         return None
 
-    for i in range(len(primary_host)):
-        current_character = primary_host[i]
-        for secondary_host in secondary_hosts:
-            if secondary_host[i] != current_character:
-                return primary_host[: i - 1]
+    split_primary_host = primary_host.split(".")
+    split_secondary_hosts = [
+        secondary_host.split() for secondary_host in secondary_hosts
+    ]
+    for i, primary_host_part in enumerate(split_primary_host):
+        for split_secondary_host in split_secondary_hosts:
+            if primary_host_part != split_secondary_host[i]:
+                return ".".join(split_primary_host[: i - 1])
 
     return primary_host
 
 
 def get_top_level_domains(primary_host, secondary_hosts) -> List[str]:
     sub_level_domain = determine_sub_level_domain(primary_host, secondary_hosts)
+    print(sub_level_domain)
 
     if not sub_level_domain:
         return []
@@ -72,7 +76,7 @@ def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
 
 
 def parse_secondary_line(line: str):
-    matches = re.search(r"`(\.[^\s]+)\s<https?://([^/>]+)>`_", line)
+    matches = re.findall(r"`(\.[^\s]+)\s<https?://([^/>]+)[^>]*>`_", line)
     return matches
 
 
@@ -100,16 +104,26 @@ class TestReadme(unittest.TestCase):
 
     def test_includes(self):
         supported_scrapers = get_supported_scrapers()
-        sorted_supported_hosts = sorted(list(supported_scrapers.keys()))
+        sorted_primary_hosts = sorted(list(supported_scrapers.keys()))
+
         lines = get_list_lines()
+
         current_line_index = 0
-        for primary_host in sorted_supported_hosts:
+        for primary_host in sorted_primary_hosts:
             parse_result = parse_primary_line(lines[current_line_index])
             if not parse_result:
                 self.fail(f"Line {current_line_index + 1} is incorrect.")
 
             name_host, value_host = parse_result
-            self.assertEqual(name_host, value_host)
+            print(primary_host, name_host, value_host)
             self.assertEqual(name_host, primary_host)
+            self.assertEqual(name_host, value_host)
 
             current_line_index += 1
+
+            secondary_hosts = supported_scrapers[primary_host]
+            if secondary_hosts:
+                parse_result = parse_secondary_line(lines[current_line_index])
+                for i, secondary_host in enumerate(secondary_hosts):
+                    self.assertEqual(secondary_host, parse_result[i][0])
+                current_line_index += 1
