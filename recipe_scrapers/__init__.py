@@ -110,6 +110,7 @@ from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
+from .gourmettraveller import GourmetTraveller
 from .goustojson import GoustoJson
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
@@ -390,6 +391,7 @@ SCRAPERS = {
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
+    GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     InBloomBakery.host(): InBloomBakery,
