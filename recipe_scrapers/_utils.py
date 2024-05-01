@@ -75,6 +75,10 @@ RECIPE_YIELD_TYPES = (
 BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers"
 
 
+class UnsupportedFieldWarning(Warning):
+    pass
+
+
 def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
 
@@ -281,7 +285,10 @@ def get_url_slug(url):
 
 def unsupported_field_warning(host, field):
     message = (
-        "{} doesn't support seem to support the {} field."
+        "{} doesn't support seem to support the {} field. "
         "If you know this to be untrue for some recipe, please submit a bug report at {}"
     )
-    warnings.warn(message.format(host, field, BUG_REPORT_LINK))
+
+    warnings.warn(
+        message.format(host, field, BUG_REPORT_LINK), category=UnsupportedFieldWarning
+    )
