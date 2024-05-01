@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._utils import normalize_string, unsupported_field_warning
 
 MARK_SEPARATOR = " "
 INGREDIENT_SEPARATOR = "• "
@@ -23,6 +23,7 @@ class FelixKitchen(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
+        unsupported_field_warning(self.host(), "total_time")
         return None
 
     def yields(self):
