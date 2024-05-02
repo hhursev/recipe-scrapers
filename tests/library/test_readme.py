@@ -41,12 +41,12 @@ def determine_sub_level_domain(primary_host, secondary_hosts) -> Optional[str]:
 
     split_primary_host = primary_host.split(".")
     split_secondary_hosts = [
-        secondary_host.split() for secondary_host in secondary_hosts
+        secondary_host.split(".") for secondary_host in secondary_hosts
     ]
     for i, primary_host_part in enumerate(split_primary_host):
         for split_secondary_host in split_secondary_hosts:
             if primary_host_part != split_secondary_host[i]:
-                return ".".join(split_primary_host[: i - 1])
+                return ".".join(split_primary_host[:i])
 
     return primary_host
 
@@ -74,7 +74,7 @@ def get_supported_scrapers() -> Dict[str, List[str]]:
 
 def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
     match = re.search(
-        r"^- `https?://(?:www\.)?([^/\s]+)[^<]*<https?://(?:www\.)?([^/\s]*)[^>]*>`_$",
+        r"^- `https?://(?:www\.)?([^/\s]+)[^<]*<https?://(?:www\.)?([^/\s]*)[^>]*>`_(?: \(\*\))?$",
         line,
     )
 
@@ -85,7 +85,7 @@ def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
 
 
 def parse_secondary_line(line: str):
-    matches = re.findall(r"`(\.[^\s]+)\s<https?://([^/>]+)[^>]*>`_", line)
+    matches = re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
     return matches
 
 
@@ -114,7 +114,6 @@ class TestReadme(unittest.TestCase):
     def test_includes(self):
         supported_scrapers = get_supported_scrapers()
         sorted_primary_hosts = sorted(list(supported_scrapers.keys()))
-
         lines = get_list_lines()
 
         current_line_index = 0
@@ -131,8 +130,9 @@ class TestReadme(unittest.TestCase):
 
             secondary_hosts = supported_scrapers[primary_host]
             if secondary_hosts:
+                sorted_secondary_hosts = sorted(secondary_hosts)
                 parse_result = parse_secondary_line(lines[current_line_index])
-                for i, secondary_host in enumerate(secondary_hosts):
+                for i, secondary_host in enumerate(sorted_secondary_hosts):
                     if not parse_result or not parse_result[i]:
                         self.fail(f"TLD list not correct for {primary_host}")
                     self.assertEqual(
