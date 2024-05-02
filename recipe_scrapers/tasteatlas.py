@@ -1,8 +1,8 @@
 # mypy: allow-untyped-defs
 
-import re
 
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class TasteAtlas(AbstractScraper):
@@ -11,7 +11,7 @@ class TasteAtlas(AbstractScraper):
         return "tasteatlas.com"
 
     def description(self):
-        clean_text = re.sub("<[^>]*>", "", self.schema.description())
+        clean_text = normalize_string(self.schema.description())
         return clean_text
 
     def site_name(self):

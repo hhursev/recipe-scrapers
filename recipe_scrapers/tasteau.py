@@ -1,9 +1,8 @@
 # mypy: allow-untyped-defs
 
-import re
-
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class TasteAU(AbstractScraper):
@@ -20,6 +19,5 @@ class TasteAU(AbstractScraper):
         )
 
     def description(self):
-        description_html = self.schema.description()
-        description_text = re.sub("<[^>]*>", "", description_html)
+        description_text = normalize_string(self.schema.description())
         return description_text
