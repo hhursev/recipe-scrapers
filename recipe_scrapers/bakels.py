@@ -1,7 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
-from ._grouping_utils import IngredientGroup
+from ._grouping_utils import group_ingredients
 
 
 class Bakels(AbstractScraper):
@@ -35,30 +35,17 @@ class Bakels(AbstractScraper):
         return results
 
     def ingredient_groups(self):
-        div = self.soup.find("div", id="tab-ingredients_1")
-        if not div:
-            return
+        groups = group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".group-label",
+            "#tab-ingredients_1 .text-xs-left:not(:-soup-contains('Ingredient')):not(:-soup-contains('Group'))",
+        )
 
-        results = []
-        groups = div.find_all("div", {"class": "row-group"})
-        for group in groups:
-            title = group.find("span", {"class": "group-label"})
-            if not title:
-                continue
+        if len(groups) == 1:
+            groups[0].purpose = None
 
-            ingredient_group = IngredientGroup(ingredients=[], purpose=title.text)
-            ingredients = group.find_all(class_="text-xs-left")
-            for ingredient in ingredients:
-                text = ingredient.get_text(strip=True)
-                if text == "Ingredient" or text.startswith("Group"):
-                    continue  # Ensures these headings are not included as ingredients
-                ingredient_group.ingredients.append(text)
-            results.append(ingredient_group)
-        if len(results) == 1:
-            results[0].purpose = (
-                None  # If there is only 1 group, remove the group title
-            )
-        return results
+        return groups
 
     def instructions(self):
         div = self.soup.find("div", id="tab-method_1")
