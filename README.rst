@@ -114,6 +114,7 @@ Scrapers available for:
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
+- `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
@@ -209,6 +210,7 @@ Scrapers available for:
 - `https://goodhousekeeping.com/ <https://www.goodhousekeeping.com/>`_
 - `https://recietas.globo.com/ <https://www.receitas.globo.com/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
+- `https://gourmettraveller.com.au/ <https://gourmettraveller.com.au>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://www.grandfrais.com/ <https://www.grandfrais.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
@@ -317,6 +319,7 @@ Scrapers available for:
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
 - `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
 - `https://plowingthroughlife.com/ <https://plowingthroughlife.com/>`_
+- `https://potatorolls.com/ <https://potatorolls.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
