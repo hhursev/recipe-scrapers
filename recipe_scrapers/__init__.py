@@ -492,9 +492,7 @@ SCRAPERS = {
     Kochbucher.host(): Kochbucher,
     Koket.host(): Koket,
     KptnCook.host(): KptnCook,
-    KptnCook.host(
-        domain="sharing.kptncook.com"
-    ): KptnCook,  # TODO: Investigate standard host signature with subdomain, tld or domain as parameters
+    KptnCook.host(domain="sharing.kptncook.com"): KptnCook,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
     LAtelierDeRoxane.host(): LAtelierDeRoxane,

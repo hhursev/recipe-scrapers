@@ -118,26 +118,46 @@ class TestReadme(unittest.TestCase):
 
         current_line_index = 0
         for primary_host in sorted_primary_hosts:
-            parse_result = parse_primary_line(lines[current_line_index])
+            current_line = lines[current_line_index]
+
+            parse_result = parse_primary_line(current_line)
             if not parse_result:
-                self.fail(f"Line {current_line_index + 1} is incorrect.")
+                self.fail(f"Invalid line: {current_line}")
 
             name_host, value_host = parse_result
-            self.assertEqual(name_host, primary_host)
-            self.assertEqual(name_host, value_host)
+            self.assertEqual(
+                name_host,
+                value_host,
+                "The name and value hyperlink portions have different hosts.",
+            )
+            self.assertEqual(
+                name_host,
+                primary_host,
+                f"The host ({name_host}) doesn't match the expected host ({primary_host})",
+            )
 
             current_line_index += 1
 
             secondary_hosts = supported_scrapers[primary_host]
             if secondary_hosts:
-                sorted_secondary_hosts = sorted(secondary_hosts)
+                current_line = lines[current_line_index]
+
                 parse_result = parse_secondary_line(lines[current_line_index])
+                if not parse_result:
+                    self.fail(f"Invalid line: {current_line}")
+
+                sorted_secondary_hosts = sorted(secondary_hosts)
                 for i, secondary_host in enumerate(sorted_secondary_hosts):
                     if not parse_result or not parse_result[i]:
-                        self.fail(f"TLD list not correct for {primary_host}")
+                        self.fail(
+                            f"Missing top level domain(s) for primary domain {primary_host}"
+                        )
+
+                    top_level_domain = parse_result[i][0]
+
                     self.assertEqual(
                         secondary_host,
-                        parse_result[i][0],
-                        f"Line number: {current_line_index + 1}",
+                        top_level_domain,
+                        f"Expected top level domain {secondary_host}, got {top_level_domain} for primary domain {primary_host}",
                     )
                 current_line_index += 1
