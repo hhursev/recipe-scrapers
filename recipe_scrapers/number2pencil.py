@@ -39,24 +39,6 @@ class Number2Pencil(AbstractScraper):
         entry_content_div = self.soup.find("div", {"class": "entry-content"})
         return entry_content_div.find("em").text
 
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def ingredient_groups(self):
         return group_ingredients(
             ingredients_list=self.ingredients(),
@@ -64,9 +46,3 @@ class Number2Pencil(AbstractScraper):
             group_heading="div.wprm-recipe-ingredient-group-name",
             group_element="li.wprm-recipe-ingredient",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()

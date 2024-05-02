@@ -47,9 +47,6 @@ class ProjectGezond(AbstractScraper):
             ).text,
         ).group(1)
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients_table = self.soup.find(
             "h2", string=lambda x: x.startswith("Dit heb je nodig")

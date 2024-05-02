@@ -19,18 +19,12 @@ class Chefnini(AbstractScraper):
     def category(self):
         return self.schema.category()
 
-    def total_time(self):
-        return None
-
     def yields(self):
         recipe_yields_text = self.soup.find(
             "h3", {"itemprop": "recipeYield"}
         ).get_text()
         servings = re.match(r"Pour (\d+)", recipe_yields_text).group(1)
         return f"{servings} servings"
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"itemprop": "ingredients"})
