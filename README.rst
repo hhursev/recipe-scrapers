@@ -107,6 +107,7 @@ Scrapers available for:
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
+- `https://www.bakels.com.au/ <https://www.bakels.com.au/>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
