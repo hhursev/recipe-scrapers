@@ -42,6 +42,7 @@ from .argiro import Argiro
 from .arla import Arla
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
+from .bakels import Bakels
 from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
 from .barefootcontessa import BareFootContessa
@@ -358,6 +359,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    Bakels.host(): Bakels,
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
