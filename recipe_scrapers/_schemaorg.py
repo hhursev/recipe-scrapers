@@ -10,7 +10,7 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import csv_to_tags, get_minutes, get_yields, normalize_string
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -286,6 +286,19 @@ class SchemaOrg:
             return round(float(ratings), 2)
         raise SchemaOrgException("No ratingValue in SchemaOrg.")
 
+    def ratings_count(self):
+        ratings = self.data.get("aggregateRating") or self._find_entity(
+            self.data, "AggregateRating"
+        )
+        if isinstance(ratings, dict):
+            rating_id = ratings.get("@id")
+            if rating_id:
+                ratings = self.ratingsdata.get(rating_id, ratings)
+            ratings = ratings.get("ratingCount") or ratings.get("reviewCount")
+        if ratings:
+            return round(float(ratings), 2) if float(ratings) != 0 else None
+        raise SchemaOrgException("No ratingCount in SchemaOrg.")
+
     def cuisine(self):
         cuisine = self.data.get("recipeCuisine")
         if cuisine is None:
@@ -309,3 +322,14 @@ class SchemaOrg:
         if cooking_method and isinstance(cooking_method, list):
             cooking_method = cooking_method[0]
         return normalize_string(cooking_method)
+
+    def keywords(self):
+        keywords = self.data.get("keywords")
+        if keywords is None:
+            raise SchemaOrgException("No cooking method data in SchemaOrg")
+        if keywords:
+            if isinstance(keywords, list):
+                keywords = keywords[0]
+            keywords = normalize_string(keywords)
+            keywords = csv_to_tags(keywords)
+        return keywords

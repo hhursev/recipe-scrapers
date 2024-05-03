@@ -64,6 +64,7 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 31,
   "site_name": "Downshiftology",
   "title": "Greek Chicken Kabobs",
   "total_time": 55,
@@ -71,5 +72,9 @@
   "equipment": [
     "Metal Skewers",
     "Lodge Indoor Grill"
+  ],
+  "keywords": [
+    "easy chicken kabobs",
+    "Greek chicken kabobs"
   ]
 }

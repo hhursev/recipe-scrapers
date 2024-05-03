@@ -61,11 +61,17 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 3,
   "site_name": "MyKitchen101en.com",
   "title": "Baked Mini Egg Sponge Cakes",
   "total_time": 55,
   "yields": "30 servings",
   "equipment": [
     "2 mini muffin pans"
+  ],
+  "keywords": [
+    "mini cupcakes",
+    "mini egg cakes",
+    "mini egg sponge cakes"
   ]
 }

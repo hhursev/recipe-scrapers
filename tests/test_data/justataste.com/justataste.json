@@ -62,8 +62,14 @@
     "servingSize": "1 serving"
   },
   "ratings": 4.5,
+  "ratings_count": 12,
   "site_name": "Just a Taste",
   "title": "Baked Chicken and Cheese Taquitos (Oven or Air Fryer)",
   "total_time": 55,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "keywords": [
+    "chicken",
+    "lime juice",
+    "paprika"
+  ]
 }
