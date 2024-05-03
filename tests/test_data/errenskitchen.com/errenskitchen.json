@@ -67,8 +67,14 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 18,
   "site_name": "Erren's Kitchen",
   "title": "Creamy Sun-Dried Tomato Pasta with Chicken",
   "total_time": 30,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "keywords": [
+    "Creamy Sun-Dried Tomato Pasta",
+    "Creamy Sun-Dried Tomato Pasta with Chicken",
+    "Sun-Dried Tomato Pasta"
+  ]
 }

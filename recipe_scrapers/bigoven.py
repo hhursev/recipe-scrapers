@@ -25,17 +25,4 @@ class BigOven(AbstractScraper):
         return "\n".join([normalize_string(p.text) for p in ps])
 
     def ratings(self):
-        try:
-            cnt = (
-                self.soup.find("div", {"class": "recipe-rating"})
-                .find("span", {"class": "count"})
-                .text
-            )
-            rating = (
-                self.soup.find("div", {"class": "recipe-rating"})
-                .find("span", {"class": "rating"})
-                .text
-            )
-            return {"count": int(cnt), "rating": round(float(rating), 2)}
-        except Exception:
-            return None
+        return self.schema.ratings()

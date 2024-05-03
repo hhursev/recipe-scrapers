@@ -66,9 +66,19 @@
     "cholesterolContent": "63 mg"
   },
   "ratings": 5.0,
+  "ratings_count": 1,
   "site_name": "Simply Whisked",
   "title": "Buffalo Chicken Chili",
   "total_time": 45,
   "yields": "8 servings",
-  "cooking_method": "Stovetop"
+  "cooking_method": "Stovetop",
+  "keywords": [
+    "easy",
+    "dairy free",
+    "egg free",
+    "healthy",
+    "chili",
+    "beans",
+    "buffalo"
+  ]
 }

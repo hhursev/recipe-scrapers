@@ -56,8 +56,12 @@
   },
   "prep_time": 10,
   "ratings": 5.0,
+  "ratings_count": 5,
   "site_name": "101 Cookbooks",
   "title": "Broccoli Soup with Coconut Milk",
   "total_time": 20,
-  "yields": "8 servings"
+  "yields": "8 servings",
+  "keywords": [
+    "broccoli soup"
+  ]
 }

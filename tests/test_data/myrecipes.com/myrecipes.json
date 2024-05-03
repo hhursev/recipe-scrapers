@@ -1,7 +1,6 @@
 {
   "author": "Adam Dolge",
   "canonical_url": "https://www.myrecipes.com/recipe/cacio-e-pepe",
-  "category": "",
   "host": "myrecipes.com",
   "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F01%2F25%2Fmyrecipestrending_1-09-18_1772_1-2000.jpg",
   "ingredient_groups": [
@@ -32,6 +31,7 @@
   ],
   "language": "en",
   "ratings": 3.0,
+  "ratings_count": 3,
   "site_name": "MyRecipes",
   "title": "Cacio e Pepe",
   "total_time": 20.0,

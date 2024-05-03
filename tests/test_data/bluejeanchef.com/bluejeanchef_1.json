@@ -73,8 +73,15 @@
     "servingSize": "1 serving"
   },
   "ratings": 4.34,
+  "ratings_count": 3,
   "site_name": "Blue Jean Chef - Meredith Laurence",
   "title": "Chicken Tortilla Soup",
   "total_time": 22,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "keywords": [
+    "Chicken",
+    "Pasta",
+    "One Pot Meal",
+    "Quick and Easy"
+  ]
 }

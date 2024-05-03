@@ -88,12 +88,19 @@
     "sugarContent": "0.0892560213952928 g",
     "transFatContent": "0.0131417293773331 g"
   },
-  "ratings": {
-    "count": 3,
-    "rating": 4.3
-  },
+  "ratings": 4.33,
+  "ratings_count": 3,
   "site_name": "BigOven.com",
   "title": "No-Knead Herb Focaccia",
   "total_time": 720,
-  "yields": "24 servings"
+  "yields": "24 servings",
+  "keywords": [
+    "white meat free",
+    "nut free",
+    "contains gluten",
+    "red meat free",
+    "shellfish free",
+    "dairy free",
+    "pescatarian"
+  ]
 }

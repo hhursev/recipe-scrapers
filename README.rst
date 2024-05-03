@@ -66,6 +66,7 @@ then:
     scraper.canonical_url()  # not always available
     scraper.equipment()  # not always available
     scraper.cooking_method()  # not always available
+    scraper.keywords()  # not always available
 
 Notes:
 
