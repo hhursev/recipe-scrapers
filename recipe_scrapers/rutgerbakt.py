@@ -24,18 +24,9 @@ class RutgerBakt(AbstractScraper):
         )
         return category
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         # The yields are all over the place. There is no way to parse this.
         return None
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         # Find the "instructions" heading. It is not really clear when that is.
@@ -82,9 +73,6 @@ class RutgerBakt(AbstractScraper):
 
         instructions = parse_instructions(heading)
         return "\n".join(instructions)
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def description(self):
         # Assuming the first paragraph is the description.
