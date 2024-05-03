@@ -2,7 +2,6 @@
 
 import functools
 import json
-import re
 
 from recipe_scrapers._grouping_utils import IngredientGroup
 
@@ -53,13 +52,13 @@ class AmericasTestKitchen(AbstractScraper):
     def instructions(self):
         if headnote := self._get_additional_details.get("headnote"):
             # We could import HTMLTagStripperPlugin, but that would make it -- an optional plugin -- a dependency.
-            headnote = f"Note: {self._strip_html(headnote)}"
+            headnote = f"Note: {normalize_string(headnote)}"
         else:
             headnote = ""
         return "\n".join(
             [headnote]
             + [
-                self._strip_html(instruction["fields"]["content"])
+                normalize_string(instruction["fields"]["content"])
                 for instruction in self._get_additional_details.get("instructions")
             ]
         ).lstrip("\n")
@@ -67,11 +66,11 @@ class AmericasTestKitchen(AbstractScraper):
     def instructions_group(self):
         if headnote := self._get_additional_details.get("headnote"):
             # We could import HTMLTagStripperPlugin, but that would make it -- an optional plugin -- a dependency.
-            headnote = f"Note: {self._strip_html(headnote)}"
+            headnote = f"Note: {normalize_string(headnote)}"
         else:
             headnote = ""
         return [headnote] + [
-            self._strip_html(instruction["fields"]["content"])
+            normalize_string(instruction["fields"]["content"])
             for instruction in self._get_additional_details.get("instructions")
         ]
 
@@ -86,10 +85,6 @@ class AmericasTestKitchen(AbstractScraper):
 
     def ratings(self):
         return self.schema.ratings()
-
-    @staticmethod
-    def _strip_html(string):
-        return normalize_string(re.sub(r"<.*?>", "", string))
 
     @staticmethod
     def _parse_ingredient_item(ingredient_item):
