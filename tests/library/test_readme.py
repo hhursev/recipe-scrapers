@@ -23,7 +23,7 @@ def get_supported_hosts() -> Dict[str, List[str]]:
 
         try:
             empty_host = scraper.host("")
-            if empty_host == "":
+            if empty_host == "" or not host.startswith(empty_host):
                 # This means that the entire domain is customizable (not just a TLD change)
                 supported_scrapers[host] = []
                 continue
