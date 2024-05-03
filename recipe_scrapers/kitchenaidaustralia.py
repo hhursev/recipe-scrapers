@@ -13,15 +13,6 @@ class KitchenAidAustralia(AbstractScraper):
     def host(cls):
         return "kitchenaid.com.au"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         time_pattern = re.compile("time", re.IGNORECASE)
 
@@ -39,9 +30,6 @@ class KitchenAidAustralia(AbstractScraper):
 
     def yields(self):
         return self._get_summary_value("Makes")
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         recipe = self._get_recipe()
@@ -73,15 +61,6 @@ class KitchenAidAustralia(AbstractScraper):
         method = recipe.find("div", {"class": "rightPanel"})
 
         return self._parse_list(method)
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
 
     def _get_recipe(self):
         """

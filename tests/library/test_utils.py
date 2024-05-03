@@ -90,6 +90,7 @@ class TestUtils(unittest.TestCase):
             "ingredients",
             "instructions",
             "instructions_list",
+            "keywords",
             "language",
             "nutrients",
             "prep_time",
