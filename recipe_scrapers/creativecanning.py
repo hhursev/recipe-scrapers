@@ -1,9 +1,9 @@
 # mypy: allow-untyped-defs
 
-from .creativecanning import CreativeCanning
+from ._abstract import AbstractScraper
 
 
-class PracticalSelfReliance(CreativeCanning):
+class CreativeCanning(AbstractScraper):
     @classmethod
     def host(cls):
         return "practicalselfreliance.com"
