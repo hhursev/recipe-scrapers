@@ -10,9 +10,6 @@ class KuchniaDomowa(AbstractScraper):
     def title(self):
         return self.soup.find("h2").get_text().strip()
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def image(self):
         urls = self.soup.findAll("img", {"class": "article-img", "id": "article-img-1"})
         return f"https:{urls[1]['src']}"
