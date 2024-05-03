@@ -45,25 +45,18 @@ class MyKoreanKitchen(AbstractScraper):
                 len(ingredient_group.find_all("li")) + ingredient_index_base
             )
 
-            purpose = None
-
-            if (
-                ingredient_group.find("h4", "wprm-recipe-ingredient-group-name")
-                is not None
-            ):
-                purpose = ingredient_group.find(
-                    "h4", "wprm-recipe-ingredient-group-name"
-                ).text
-
+            purpose_heading = ingredient_group.find(
+                "h4", "wprm-recipe-ingredient-group-name"
+            )
             results.append(
                 IngredientGroup(
-                    [
+                    ingredients=[
                         ingredient
                         for ingredient in self.schema.ingredients()[
                             ingredient_index_base:ingredient_count
                         ]
                     ],
-                    (purpose),
+                    purpose=purpose_heading.text if purpose_heading else None,
                 )
             )
 
