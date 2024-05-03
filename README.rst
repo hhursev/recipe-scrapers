@@ -157,10 +157,12 @@ Scrapers available for:
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
+- `https://cooksillustrated.com/ <https://www.cooksillustrated.com>`_ (*)
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookstr.com/ <https://cookstr.com>`_
+- `https://cookscountry.com/ <https://www.cookscountry.com>`_ (*)
 - `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_

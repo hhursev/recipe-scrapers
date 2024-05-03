@@ -72,11 +72,11 @@ from .closetcooking import ClosetCooking
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
-from .cookillustrated import CooksIllustrated
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
 from .cookscountry import CooksCountry
+from .cooksillustrated import CooksIllustrated
 from .cooktalk import CookTalk
 from .copykat import CopyKat
 from .costco import Costco
