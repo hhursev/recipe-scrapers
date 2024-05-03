@@ -72,9 +72,11 @@ from .closetcooking import ClosetCooking
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
+from .cookillustrated import CooksIllustrated
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
+from .cookscountry import CooksCountry
 from .cooktalk import CookTalk
 from .copykat import CopyKat
 from .costco import Costco
@@ -349,8 +351,6 @@ SCRAPERS = {
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     AmericasTestKitchen.host(): AmericasTestKitchen,
-    AmericasTestKitchen.host(domain="cooksillustrated.com"): AmericasTestKitchen,
-    AmericasTestKitchen.host(domain="cookscountry.com"): AmericasTestKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     Argiro.host(): Argiro,
     Arla.host(): Arla,
@@ -391,6 +391,8 @@ SCRAPERS = {
     CookieAndKate.host(): CookieAndKate,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
+    CooksCountry.host(): CooksCountry,
+    CooksIllustrated.host(): CooksIllustrated,
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
