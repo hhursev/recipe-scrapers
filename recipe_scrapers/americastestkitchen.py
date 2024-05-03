@@ -12,8 +12,8 @@ from ._utils import get_minutes, normalize_string
 class AmericasTestKitchen(AbstractScraper):
 
     @classmethod
-    def host(cls, domain="americastestkitchen.com"):
-        return domain
+    def host(cls):
+        return "americastestkitchen.com"
 
     def author(self):
         return self.schema.author()
