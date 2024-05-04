@@ -1,67 +1,8 @@
-import json
 import pathlib
 import unittest
-from enum import Enum
 from typing import Callable
 
-from recipe_scrapers import scrape_html
-from recipe_scrapers._grouping_utils import IngredientGroup
-
-MANDATORY_TESTS = [
-    "author",
-    "canonical_url",
-    "host",
-    "description",
-    "image",
-    "ingredients",
-    "ingredient_groups",
-    "instructions",
-    "instructions_list",
-    "language",
-    "site_name",
-    "title",
-    "total_time",
-    "yields",
-]
-
-OPTIONAL_TESTS = [
-    "category",
-    "cook_time",
-    "cuisine",
-    "nutrients",
-    "prep_time",
-    "cooking_method",
-    "ratings",
-    "reviews",
-    "equipment",
-]
-
-OPTIONS_KEY = "_options"
-
-
-class TestOptions(Enum):
-    CONSISTENT_INGREDIENT_GROUPS = ("consistent_ingredient_groups", True)
-    """
-    Controls if the consistent ingredient groups test is run.
-    Disable if ingredient groups contain sub-quantities of the same ingredient (as the test will fail).
-    """
-
-    def __new__(cls, value: str, default):
-        obj = object.__new__(cls)
-        obj._value_ = value
-        return obj
-
-    def __init__(self, value: str, default: str) -> None:
-        self.default = default
-
-
-def get_options(expect):
-    options = {}
-    for option in TestOptions:
-        # Checks if the option has been set in the test
-        # Tolerates both the options node and the specific option not being defined
-        options[option] = expect.get(OPTIONS_KEY, {}).get(option.value, option.default)
-    return options
+from .data_utils import load_test, run_mandatory_tests, run_optional_test
 
 
 class RecipeTestCase(unittest.TestCase):
@@ -100,55 +41,19 @@ def test_func_factory(
     """
 
     def test_func(self):
-        with open(testjson, encoding="utf-8") as f:
-            expect = json.load(f)
-            expect["ingredient_groups"] = [
-                IngredientGroup(**group)
-                for group in expect.get("ingredient_groups", [])
-            ]
-        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
+        expect, actual = load_test(host, testhtml, testjson)
 
-        options = get_options(expect)
+        run_mandatory_tests(self, expect, actual)
+        run_optional_test(self, expect, actual)
 
-        # Mandatory tests
-        # If the key isn't present, check an assertion is raised
-        for key in MANDATORY_TESTS:
-            with self.subTest(key):
-                scraper_func = getattr(actual, key)
-                if key in expect.keys():
-                    self.assertEqual(
-                        expect[key],
-                        scraper_func(),
-                        msg=f"The actual value for .{key}() did not match the expected value.",
-                    )
-                else:
-                    with self.assertRaises(
-                        Exception,
-                        msg=f".{key}() was expected to raise an exception but it did not.",
-                    ):
-                        scraper_func()
+        # Assert that the ingredients returned by the ingredient_groups() function
+        # are the same as the ingredients return by the ingredients() function.
+        grouped = []
+        for group in actual.ingredient_groups():
+            grouped.extend(group.ingredients)
 
-        # Optional tests
-        # If the key isn't present, skip
-        for key in OPTIONAL_TESTS:
-            with self.subTest(key):
-                scraper_func = getattr(actual, key)
-                if key in expect.keys():
-                    self.assertEqual(
-                        expect[key],
-                        scraper_func(),
-                        msg=f"The actual value for .{key}() did not match the expected value.",
-                    )
-
-        if options.get(TestOptions.CONSISTENT_INGREDIENT_GROUPS):
-            # Assert that the ingredients returned by the ingredient_groups() function
-            # are the same as the ingredients return by the ingredients() function.
-            grouped = []
-            for group in actual.ingredient_groups():
-                grouped.extend(group.ingredients)
-
-            with self.subTest("ingredient_groups"):
-                self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
+        with self.subTest("ingredient_groups"):
+            self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
     return test_func
 
@@ -206,6 +111,9 @@ def load_tests(
     suite = unittest.TestSuite()
     tests = loader.loadTestsFromTestCase(RecipeTestCase)
     suite.addTest(tests)
+
+    data_driven_tests = loader.discover("tests/data_driven")
+    suite.addTests(data_driven_tests)
 
     # Add library tests to test suite
     library_tests = loader.discover("tests/library")
