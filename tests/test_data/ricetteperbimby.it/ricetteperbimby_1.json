@@ -1,9 +1,17 @@
 {
   "author": "RicettePerBimby",
   "canonical_url": "https://www.ricetteperbimby.it/ricette/crema-pasticcera-veloce-bimby",
+  "site_name": "Ricetteperbimby.it",
   "host": "ricetteperbimby.it",
-  "description": "Pronta in pochi minuti e perfetta per farcire i tuoi dolci o essere gustata da sola, la crema pasticcera Bimby è una ricetta veloce che ti conquisterà.",
-  "image": "https://www.ricetteperbimby.it/foto-ricette/crema-pasticcera-veloce-bimby.jpg",
+  "language": "it",
+  "title": "Crema pasticcera Bimby",
+  "ingredients": [
+    "500 g latte intero",
+    "150 g zucchero semolato",
+    "60 g farina 00",
+    "2 tuorli uova",
+    "una bustina vanillina"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -16,33 +24,24 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "500 g latte intero",
-    "150 g zucchero semolato",
-    "60 g farina 00",
-    "2 tuorli uova",
-    "una bustina vanillina"
-  ],
   "instructions": "Mettere tutti gli ingredienti nel boccale: 7 min. 90° vel. 4.\nLasciar freddare in una ciotola coperta da pellicola e riporre in frigo.",
   "instructions_list": [
     "Mettere tutti gli ingredienti nel boccale: 7 min. 90° vel. 4.",
     "Lasciar freddare in una ciotola coperta da pellicola e riporre in frigo."
   ],
-  "language": "it",
-  "site_name": "Ricetteperbimby.it",
-  "rating": "5.0",
+  "category": "Dolci e Dessert",
   "yields": "750 servings",
-  "cuisine": "Italiana",
-  "title": "Crema pasticcera Bimby",
+  "description": "Pronta in pochi minuti e perfetta per farcire i tuoi dolci o essere gustata da sola, la crema pasticcera Bimby è una ricetta veloce che ti conquisterà.",
   "total_time": 15,
+  "cook_time": 10,
+  "prep_time": 5,
+  "cuisine": "Italiana",
+  "ratings": 5.0,
+  "ratings_count": 2,
+  "image": "https://www.ricetteperbimby.it/foto-ricette/crema-pasticcera-veloce-bimby.jpg",
   "keywords": [
     "ricette",
     "bimby",
     "Crema pasticcera veloce"
-  ],
-  "category": "Dolci e Dessert",
-  "cook_time": 10,
-  "prep_time": 5,
-  "ratings": 5.0,
-  "ratings_count": 2
+  ]
 }
