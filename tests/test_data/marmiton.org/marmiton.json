@@ -73,5 +73,6 @@
     "moyen"
   ],
   "description": "aubergine, courgette, poivron, oignon, tomate, huile d'olive, thym, feuille de laurier, poivre, sel, ail",
-  "cook_time": 55
+  "cook_time": 55,
+  "cuisine": "Plat principal"
 }

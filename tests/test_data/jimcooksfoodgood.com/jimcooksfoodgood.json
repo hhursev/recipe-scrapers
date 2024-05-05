@@ -54,5 +54,6 @@
     "#healthyrecipe"
   ],
   "description": "German Potato Salad",
-  "cook_time": 30
+  "cook_time": 30,
+  "cuisine": "American"
 }
