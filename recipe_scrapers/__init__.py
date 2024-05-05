@@ -321,6 +321,7 @@ from .womensweeklyfood import WomensWeeklyFood
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
+from .youfoodz import Youfoodz
 from .yummly import Yummly
 from .zaubertopf import ZauberTopf
 from .zeitwochenmarkt import ZeitWochenmarkt
@@ -668,6 +669,7 @@ SCRAPERS = {
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
+    Youfoodz.host(): Youfoodz,
     Yummly.host(): Yummly,
     ZauberTopf.host(): ZauberTopf,
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
