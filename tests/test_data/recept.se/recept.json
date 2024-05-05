@@ -50,5 +50,16 @@
     "dop",
     "födelsedag",
     "utan fläsk"
-  ]
+  ],
+  "category": "Bak & dessert",
+  "cook_time": 15,
+  "nutrients": {
+    "calories": "87424 calories",
+    "carbohydrateContent": "12.6 g",
+    "fatContent": "3.7 g",
+    "proteinContent": "0.7 g",
+    "servingSize": "1 styck"
+  },
+  "ratings": 4.4,
+  "ratings_count": 2
 }

@@ -48,5 +48,17 @@
     "servingSize": "1 Stück"
   },
   "site_name": "lecker.de",
-  "title": "Naan-Brot - Rezept für den indischen Klassiker"
+  "title": "Naan-Brot - Rezept für den indischen Klassiker",
+  "description": "Innen fluffig, außen kross: Naan-Brot gelingt dir mit unserem Rezept so köstlich wie im indischen Restaurant.",
+  "cook_time": 30,
+  "keywords": [
+    "Rezepte",
+    "Backen",
+    "Brot",
+    "Länderküche",
+    "Asiatische Rezepte",
+    "Indische Rezepte"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1
 }

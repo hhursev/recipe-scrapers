@@ -108,5 +108,9 @@
     "contains dairy",
     "contains eggs",
     "pescatarian"
-  ]
+  ],
+  "description": "delicious bite-sized bits of raspberry goodness",
+  "cook_time": 10,
+  "cuisine": "American",
+  "prep_time": 15
 }

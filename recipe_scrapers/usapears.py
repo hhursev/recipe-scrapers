@@ -26,3 +26,6 @@ class USAPears(AbstractScraper):
             normalize_string(paragraph.get_text().strip())
             for paragraph in ingredient_elements
         ]
+
+    def ratings(self):
+        return None

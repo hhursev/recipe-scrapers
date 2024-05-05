@@ -87,5 +87,11 @@
     "Dal mondo",
     "Senza lievito",
     "Senza uova"
-  ]
+  ],
+  "category": "Secondi Piatti",
+  "cook_time": 70,
+  "cuisine": "Francese",
+  "prep_time": 20,
+  "ratings": 5.0,
+  "ratings_count": 2
 }

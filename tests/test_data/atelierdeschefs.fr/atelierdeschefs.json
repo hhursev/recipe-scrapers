@@ -67,5 +67,8 @@
   "site_name": "https://www.atelierdeschefs.fr",
   "title": "Crêpe savoyarde",
   "total_time": 30,
-  "yields": "6 Servings"
+  "yields": "6 Servings",
+  "cook_time": 20,
+  "description": "Une crêpe aux saveurs de la Savoie : des pommes de terre, du lard, de la crème et du fromage à raclette.",
+  "prep_time": 10
 }

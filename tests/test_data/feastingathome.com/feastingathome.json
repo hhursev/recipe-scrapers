@@ -82,5 +82,19 @@
     "vegetarian risotto",
     "shrimp risotto",
     ""
-  ]
+  ],
+  "category": "vegetarian",
+  "nutrients": {
+    "servingSize": "1 ½ cup serving without shrimp",
+    "calories": "435 calories",
+    "sugarContent": "6.9 g",
+    "sodiumContent": "943.1 mg",
+    "fatContent": "12.1 g",
+    "saturatedFatContent": "3.8 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "73.1 g",
+    "fiberContent": "2.8 g",
+    "proteinContent": "9 g",
+    "cholesterolContent": "11.2 mg"
+  }
 }

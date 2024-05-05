@@ -80,5 +80,9 @@
     "chili",
     "beans",
     "buffalo"
-  ]
+  ],
+  "description": "This buffalo chicken chili is a hearty, go-to meal that can be ready pretty quickly. The buffalo flavor is the perfect amount of spicy. Make this for your next football game, everyone will love it!",
+  "cook_time": 30,
+  "cuisine": "American",
+  "prep_time": 15
 }

@@ -41,5 +41,9 @@
   "site_name": "Cuisine AZ",
   "title": "Filet de saumon au four",
   "total_time": 15,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "description": "Toujours savoureux, jamais décevant, le filet de saumon au four est le succès assuré ! Bon pour la santé avec ses oméga-3, il marque de sacrés points côté nutrition. Et avec lui, pas besoin de fioritures, il se suffit à lui-même : un filet d'huile d'olive, de l'origan, du sel, du poivre, et hop, on enfourne ! Un délice légèrement croustillant sur le dessus, carrément fondant à l'intérieur, à servir avec une salade verte bien assaisonnée et du riz basmati.",
+  "cook_time": 10,
+  "cuisine": "French",
+  "prep_time": 5
 }

@@ -67,5 +67,15 @@
   "prep_time": 40,
   "cook_time": 20,
   "ratings": 5.0,
-  "yields": "8 servings"
+  "yields": "8 servings",
+  "category": "breakfast",
+  "cooking_method": "baking",
+  "keywords": [
+    "jambalaya",
+    "biscuits",
+    "mardi gras",
+    "bell peppers",
+    "roasted tomato"
+  ],
+  "ratings_count": 2
 }

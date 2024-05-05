@@ -76,5 +76,24 @@
     "sourdough croissant",
     "homemade croissants",
     "sourdough croissants no yeast"
-  ]
+  ],
+  "category": "Sourdough Recipes",
+  "cook_time": 15,
+  "prep_time": 60,
+  "cuisine": "French",
+  "nutrients": {
+    "calories": "288 calories",
+    "carbohydrateContent": "52 grams carbohydrates",
+    "cholesterolContent": "29 milligrams cholesterol",
+    "fatContent": "5 grams fat",
+    "fiberContent": "2 grams fiber",
+    "proteinContent": "9 grams protein",
+    "saturatedFatContent": "2 grams saturated fat",
+    "servingSize": "1",
+    "sodiumContent": "436 milligrams sodium",
+    "sugarContent": "6 grams sugar",
+    "transFatContent": "0 grams trans fat",
+    "unsaturatedFatContent": "2 grams unsaturated fat"
+  },
+  "ratings": 4.8
 }

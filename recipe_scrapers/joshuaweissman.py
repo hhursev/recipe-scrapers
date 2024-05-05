@@ -11,32 +11,26 @@ class JoshuaWeissman(AbstractScraper):
     def host(cls):
         return "joshuaweissman.com"
 
-    def total_time(self):
-        # Get all spans and get their text
+    def prep_time(self):
         spans = self.soup.findAll(name="span")
         spans_texts = [tag.get_text().lower() for tag in spans]
-        # Filter out all spans that don't contain time
-        time_texts = [tag for tag in spans_texts if "time" in tag]
-
-        # Find first string that contains the text
-        def check_text(check_string):
-            return next(
-                (string for string in time_texts if check_string in string), None
-            )
-
-        total = check_text("total time")
-        if total:
-            total = get_minutes(total)
-            if total:
-                return total
-        prep = check_text("prep time")
+        prep = next((tag for tag in spans_texts if "prep time" in tag), None)
         if prep:
-            prep = get_minutes(prep)
-        cook = check_text("cook time")
+            return get_minutes(prep)
+        return None
+
+    def cook_time(self):
+        spans = self.soup.findAll(name="span")
+        spans_texts = [tag.get_text().lower() for tag in spans]
+        cook = next((tag for tag in spans_texts if "cook time" in tag), None)
         if cook:
-            cook = get_minutes(cook)
-        if prep + cook:
-            return prep + cook
+            return get_minutes(cook)
+        return None
+
+    def total_time(self):
+        total = self.prep_time() or 0
+        total += self.cook_time() or 0
+        return total if total > 0 else None
 
     def yields(self):
         spans = self.soup.findAll(name="span")

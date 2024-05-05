@@ -44,5 +44,12 @@
   "site_name": "Ninja Test Kitchen",
   "title": "Vegan Lemon Cupcakes",
   "total_time": 30,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "cook_time": 30,
+  "prep_time": 5,
+  "keywords": [
+    "BN800EU",
+    "BN800UK",
+    "Food processor"
+  ]
 }

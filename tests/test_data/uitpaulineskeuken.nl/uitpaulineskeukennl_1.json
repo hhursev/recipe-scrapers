@@ -55,5 +55,8 @@
     "Winter recepten",
     "Zomer recepten",
     "Hoofdgerecht"
-  ]
+  ],
+  "cook_time": 10,
+  "prep_time": 5,
+  "ratings_count": 2
 }

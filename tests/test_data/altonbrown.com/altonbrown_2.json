@@ -83,5 +83,7 @@
     "Grill",
     "Pork",
     "skewer"
-  ]
+  ],
+  "cook_time": 10,
+  "prep_time": 30
 }

@@ -82,5 +82,9 @@
     "pizza crust recipe",
     "pizza dough",
     "pizza dough recipe"
-  ]
+  ],
+  "description": "This is the best pizza dough recipe ever. It's easy to makewith 5 ingredients and doesn't need to rise - which means you can have a freshhot homemade pizza on the table in 30 minutes.",
+  "cook_time": 25,
+  "cuisine": "American,Italian",
+  "prep_time": 5
 }

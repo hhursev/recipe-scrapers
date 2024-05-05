@@ -33,5 +33,10 @@
   "total_time": 90,
   "yields": "10 servings",
   "category": "Appetizers,",
-  "cuisine": "American,"
+  "cuisine": "American,",
+  "cook_time": 75,
+  "nutrients": {
+    "calories": "189 Calories"
+  },
+  "prep_time": 15
 }

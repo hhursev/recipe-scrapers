@@ -43,5 +43,8 @@
   "site_name": "the palatable life",
   "title": "baked harissa chicken meatballs",
   "total_time": 25,
-  "yields": "40 servings"
+  "yields": "40 servings",
+  "category": "Main Course",
+  "cook_time": 15,
+  "prep_time": 10
 }

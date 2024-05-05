@@ -62,5 +62,8 @@
     "crispy chicken",
     "kfc",
     "fried chicken"
-  ]
+  ],
+  "cook_time": 6,
+  "cuisine": "American",
+  "prep_time": 10
 }

@@ -70,5 +70,7 @@
     "Dinner Party",
     "non-promotable",
     "Popular"
-  ]
+  ],
+  "description": "This is a great little recipe for easy, fail-safe, gloriously gooey chocolate brownies",
+  "cuisine": "https://schema.org/VegetarianDiet"
 }

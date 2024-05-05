@@ -58,5 +58,8 @@
     "holiday",
     "pastry",
     "pie"
-  ]
+  ],
+  "cook_time": 60,
+  "cuisine": "American",
+  "prep_time": 20
 }
