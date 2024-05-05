@@ -17,24 +17,6 @@ class Youfoodz(AbstractScraper):
         # Access token needed for the API call
         self.data = self._get_recipe_data(access_token)
 
-    def _get_access_token(self):
-        json_script = self.soup.find("script", {"id": "__NEXT_DATA__"})
-        json_data = json.loads(json_script.text)
-        return json_data["props"]["pageProps"]["ssrPayload"]["serverAuth"][
-            "access_token"
-        ]
-
-    def _get_recipe_data(self, access_token):
-        recipe_slug = get_url_slug(self.url)
-        recipe_id = recipe_slug.split("-")[-1]
-
-        response = requests.get(
-            f"https://www.youfoodz.com/gw/recipes/recipes/{recipe_id}",
-            headers={"Authorization": f"Bearer {access_token}"},
-        )
-
-        return response.json()
-
     @classmethod
     def host(cls):
         return "youfoodz.com"
@@ -108,6 +90,24 @@ class Youfoodz(AbstractScraper):
             "proteinContent": protein_content,
             "sodiumContent": sodium_content,
         }
+
+    def _get_access_token(self):
+        json_script = self.soup.find("script", {"id": "__NEXT_DATA__"})
+        json_data = json.loads(json_script.text)
+        return json_data["props"]["pageProps"]["ssrPayload"]["serverAuth"][
+            "access_token"
+        ]
+
+    def _get_recipe_data(self, access_token):
+        recipe_slug = get_url_slug(self.url)
+        recipe_id = recipe_slug.split("-")[-1]
+
+        response = requests.get(
+            f"https://www.youfoodz.com/gw/recipes/recipes/{recipe_id}",
+            headers={"Authorization": f"Bearer {access_token}"},
+        )
+
+        return response.json()
 
     def _find_nutrient(self, target_name):
         nutrition = self.data.get("nutrition")
