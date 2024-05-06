@@ -316,7 +316,7 @@ class SchemaOrg:
             raise SchemaOrgException("No cooking method data in SchemaOrg")
         if keywords:
             if isinstance(keywords, list):
-                keywords = keywords[0]
+                keywords = ", ".join(keywords)
             keywords = normalize_string(keywords)
             keywords = csv_to_tags(keywords)
         return keywords
