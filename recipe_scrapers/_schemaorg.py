@@ -313,7 +313,7 @@ class SchemaOrg:
     def keywords(self):
         keywords = self.data.get("keywords")
         if keywords is None:
-            raise SchemaOrgException("No cooking method data in SchemaOrg")
+            raise SchemaOrgException("No keywords data in SchemaOrg")
         if keywords:
             if isinstance(keywords, list):
                 keywords = ", ".join(keywords)
