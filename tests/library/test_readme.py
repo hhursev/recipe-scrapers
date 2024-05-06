@@ -1,38 +1,50 @@
 import re
 import unittest
-from typing import Any, Dict, List, Optional, Tuple
+from collections import defaultdict
+from typing import Dict, List, Optional, Tuple
 
-from recipe_scrapers import SCRAPERS
+from recipe_scrapers import AbstractScraper, SCRAPERS
 
 START_LIST = "-----------------------"
 END_LIST = "(*) offline saved files only"
 
 
-def get_supported_hosts() -> Dict[str, List[str]]:
-    supported_scrapers: Dict[str, List[str]] = {}
-    for host in SCRAPERS:
-        scraper: Any = SCRAPERS[host]
-        primary_host = scraper.host()
+def get_scraper_domains():
+    scraper_domains = defaultdict(list)
+    for domain, scraper in SCRAPERS.items():
+        primary_domain = scraper.host()
+        if domain is primary_domain:
+            scraper_domains[scraper].insert(0, domain)
+        else:
+            scraper_domains[scraper].append(domain)
+    return scraper_domains
 
-        if host in supported_scrapers:
-            continue
 
-        if host == primary_host:
-            supported_scrapers[primary_host] = []
-            continue
+def get_scraper_index():
+    scraper_index = {}
+    for scraper, domains in get_scraper_domains().items():
 
-        try:
-            empty_host = scraper.host("")
-            if empty_host == "" or not host.startswith(empty_host):
-                # This means that the entire domain is customizable (not just a TLD change)
-                supported_scrapers[host] = []
-                continue
-        except TypeError:
-            pass
+        # Find the longest-common prefix of the domains
+        shared_prefix = ""
+        while True:
+            if any(len(domain) == len(shared_prefix) for domain in domains):
+                break
+            next_char = domains[0][len(shared_prefix)]
+            if not all(domain.startswith(shared_prefix + next_char) for domain in domains):
+                break
+            shared_prefix += next_char
 
-        supported_scrapers[primary_host].append(host)
+        shared_prefix, _ = shared_prefix.rsplit(".", 1) if "." in shared_prefix else (shared_prefix, None)
 
-    return supported_scrapers
+        # Index the primary domain and include their secondary domains minus the shared prefix
+        primary_domain = scraper.host()
+        scraper_index[primary_domain] = (
+            scraper,
+            [domain.removeprefix(shared_prefix) for domain in domains if domain != shared_prefix]
+        )
+
+    # Produce the index sorted by primary domain name
+    return scraper_index
 
 
 def determine_sub_level_domain(primary_host, secondary_hosts) -> Optional[str]:
@@ -62,7 +74,7 @@ def get_top_level_domains(primary_host, secondary_hosts) -> List[str]:
     ]
 
 
-def get_supported_scrapers() -> Dict[str, List[str]]:
+def get_supported_scrapers():
     supported_hosts = get_supported_hosts()
     supported_scrapers = {}
     for primary_host in supported_hosts:
@@ -112,12 +124,11 @@ def get_list_lines() -> List[str]:
 class TestReadme(unittest.TestCase):
 
     def test_includes(self):
-        supported_scrapers = get_supported_scrapers()
-        sorted_primary_hosts = sorted(list(supported_scrapers.keys()))
+        scraper_index = get_scraper_index()
         lines = get_list_lines()
 
         current_line_index = 0
-        for primary_host in sorted_primary_hosts:
+        for primary_host in scraper_index:
             current_line = lines[current_line_index]
 
             parse_result = parse_primary_line(current_line)
@@ -138,7 +149,7 @@ class TestReadme(unittest.TestCase):
 
             current_line_index += 1
 
-            secondary_hosts = supported_scrapers[primary_host]
+            _, secondary_hosts = scraper_index[primary_host]
             if secondary_hosts:
                 current_line = lines[current_line_index]
 
