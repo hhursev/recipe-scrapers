@@ -63,10 +63,13 @@
     "servingSize": "30 parts"
   },
   "ratings": 5.0,
+  "ratings_count": 1,
   "site_name": null,
   "title": "Minicheesecakes",
   "total_time": 90,
   "yields": "12 servings",
+  "cook_time": 50,
+  "prep_time": 40,
   "keywords": [
     "biscuits au beurre",
     "beurre",

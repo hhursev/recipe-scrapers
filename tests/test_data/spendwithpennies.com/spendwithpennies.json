@@ -57,6 +57,7 @@
     "servingSize": "1 serving"
   },
   "ratings": 4.9,
+  "ratings_count": 148,
   "site_name": "Spend With Pennies",
   "title": "Gooey Chocolate Pudding Cake",
   "total_time": 35,
@@ -67,5 +68,9 @@
     "Chocolate Pudding Cake",
     "easy chocolate pudding cake",
     "pudding cake"
-  ]
+  ],
+  "description": "This Chocolate Pudding Cake is a very simple, rich chocolate dessert that comes together in just one dish!",
+  "cook_time": 30,
+  "cuisine": "American",
+  "prep_time": 5
 }

@@ -56,3 +56,6 @@ class TestGoustoScraper(ScraperTest):
 
     def test_ratings(self):
         self.assertEqual(5, self.harvester_class.ratings())
+
+    def test_ratings_count(self):
+        self.assertEqual(129, self.harvester_class.ratings_count())

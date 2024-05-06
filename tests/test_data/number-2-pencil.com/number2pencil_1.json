@@ -73,8 +73,11 @@
     "servingSize": "1 serving"
   },
   "ratings": 4.96,
+  "ratings_count": 46,
   "site_name": "No. 2 Pencil",
   "title": "Sheet Pan Shrimp Fajitas",
   "total_time": 20,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "cook_time": 10,
+  "prep_time": 10
 }

@@ -38,6 +38,7 @@ class SchemaOrgFillPlugin(PluginInterface):
         "cook_time",
         "prep_time",
         "keywords",
+        "ratings_count",
     )
 
     @classmethod

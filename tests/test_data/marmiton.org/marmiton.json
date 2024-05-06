@@ -51,6 +51,7 @@
   ],
   "language": "fr",
   "ratings": 4.8,
+  "ratings_count": 413,
   "site_name": "Marmiton",
   "title": "Ratatouille",
   "total_time": 80,
@@ -70,5 +71,9 @@
     "ail",
     "facile",
     "moyen"
-  ]
+  ],
+  "description": "aubergine, courgette, poivron, oignon, tomate, huile d'olive, thym, feuille de laurier, poivre, sel, ail",
+  "cook_time": 55,
+  "cuisine": "Plat principal",
+  "prep_time": 25
 }

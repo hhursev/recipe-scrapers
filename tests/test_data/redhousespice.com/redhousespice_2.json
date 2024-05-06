@@ -52,6 +52,7 @@
     "unsaturatedFatContent": "11 g"
   },
   "ratings": 5.0,
+  "ratings_count": 28,
   "site_name": "Red House Spice",
   "title": "Smashed Cucumber Salad (拍黄瓜)",
   "total_time": 15,
@@ -59,5 +60,8 @@
   "keywords": [
     "cucumber salad",
     "smashed cucumber salad"
-  ]
+  ],
+  "description": "Cracked with force and seasoned with bold flavours, Chinese smashed cucumber salad is a quick, fun and refreshing dish to make.",
+  "cuisine": "Chinese",
+  "prep_time": 3
 }

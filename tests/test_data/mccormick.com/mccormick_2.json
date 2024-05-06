@@ -68,5 +68,10 @@
   "total_time": 165,
   "yields": "32 servings",
   "category": "Appetizers,",
-  "cuisine": "Eastern European or Russian,"
+  "cuisine": "Eastern European or Russian,",
+  "cook_time": 150,
+  "nutrients": {
+    "calories": "128 Calories"
+  },
+  "prep_time": 15
 }

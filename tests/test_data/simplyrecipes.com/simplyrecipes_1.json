@@ -57,6 +57,7 @@
     "unsaturatedFatContent": "0 g"
   },
   "ratings": 4.7,
+  "ratings_count": 7,
   "site_name": "Simply Recipes",
   "title": "One-Pot Chicken and Rice Soup",
   "total_time": 45,
@@ -75,5 +76,7 @@
     "Soup",
     "Favorite Fall",
     "Favorite Winter"
-  ]
+  ],
+  "description": "One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they're done. It's the easiest soup ever, ready in under an hour.",
+  "cuisine": "American"
 }

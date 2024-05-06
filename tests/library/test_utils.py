@@ -95,6 +95,7 @@ class TestUtils(unittest.TestCase):
             "nutrients",
             "prep_time",
             "ratings",
+            "ratings_count",
             "reviews",
             "site_name",
             "title",

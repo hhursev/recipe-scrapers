@@ -71,6 +71,7 @@
     "unsaturatedFatContent": "0.0 g"
   },
   "ratings": 4.8,
+  "ratings_count": 4,
   "site_name": "Kitchn",
   "title": "How To Make the Best Beef and Cheese Manicotti",
   "total_time": 65,
@@ -107,5 +108,9 @@
     "dishtype:casserole",
     "dishtype:pasta dish",
     "dishtype:meat dish"
-  ]
+  ],
+  "description": "Stuffed with fragrant garlicky ricotta, Parmesan, and savory beef, this baked manicotti is creamy, cheesy, meaty, and the perfect cozy weekend dinner.",
+  "cook_time": 40,
+  "cuisine": "Europe,Italian",
+  "prep_time": 25
 }

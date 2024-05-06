@@ -63,6 +63,7 @@
   ],
   "language": "tr",
   "ratings": 5.0,
+  "ratings_count": 3,
   "site_name": "https://yemek.com",
   "title": "Köri Soslu Tavuklu Patates Topları",
   "total_time": 85,
@@ -73,5 +74,9 @@
     "tavuklu",
     "patates",
     "topları"
-  ]
+  ],
+  "description": "Patates ve tavuk ikilisi yeniden bir araya geliyor, güçlerini birleştiriyorlar ve ortaya inanılmaz bir lezzet çıkıyor. Köri soslu patates topları burada!",
+  "cook_time": 40,
+  "cuisine": "Türk",
+  "prep_time": 45
 }

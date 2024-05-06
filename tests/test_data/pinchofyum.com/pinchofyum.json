@@ -64,5 +64,23 @@
     "soup season",
     "broccoli cheddar",
     "Panera broccoli cheese soup"
-  ]
+  ],
+  "category": "Soup",
+  "cook_time": 30,
+  "cuisine": "American",
+  "nutrients": {
+    "calories": "375 calories",
+    "sugarContent": "5.9 g",
+    "sodiumContent": "732.1 mg",
+    "fatContent": "28.6 g",
+    "saturatedFatContent": "16.9 g",
+    "transFatContent": "0.5 g",
+    "carbohydrateContent": "16.2 g",
+    "fiberContent": "2 g",
+    "proteinContent": "15.5 g",
+    "cholesterolContent": "81 mg"
+  },
+  "prep_time": 15,
+  "ratings": 5.0,
+  "ratings_count": 2
 }

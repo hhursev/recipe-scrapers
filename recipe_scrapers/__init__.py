@@ -65,6 +65,7 @@ from .coopse import CoopSE
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
+from .creativecanning import CreativeCanning
 from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
@@ -149,6 +150,7 @@ from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
 from .kitchenaidaustralia import KitchenAidAustralia
+from .kitchensanctuary import KitchenSanctuary
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
@@ -192,6 +194,7 @@ from .mybakingaddiction import MyBakingAddiction
 from .myjewishlearning import MyJewishLearning
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
+from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
@@ -384,6 +387,7 @@ SCRAPERS = {
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
+    CreativeCanning.host(): CreativeCanning,
     Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
     Cybercook.host(): Cybercook,
@@ -405,6 +409,7 @@ SCRAPERS = {
     Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
+    MyKoreanKitchen.host(): MyKoreanKitchen,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
@@ -501,6 +506,7 @@ SCRAPERS = {
     KeukenLiefdeNL.host(): KeukenLiefdeNL,
     KingArthur.host(): KingArthur,
     KitchenStories.host(): KitchenStories,
+    KitchenSanctuary.host(): KitchenSanctuary,
     Kochbar.host(): Kochbar,
     Kochbucher.host(): Kochbucher,
     Koket.host(): Koket,
@@ -572,7 +578,6 @@ SCRAPERS = {
     PlowingThroughLife.host(): PlowingThroughLife,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
-    PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
     PressureLuckCooking.host(): PressureLuckCooking,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
     ProjectGezond.host(): ProjectGezond,

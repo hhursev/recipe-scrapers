@@ -49,6 +49,7 @@
     "sugarContent": "0.5 g"
   },
   "ratings": 4.8,
+  "ratings_count": 24,
   "site_name": "Skinnytaste",
   "title": "Grilled Chicken with Spinach and Melted Mozzarella",
   "total_time": 17,
@@ -59,5 +60,9 @@
     "grilled chicken breast",
     "grilled chicken recipe",
     "Grilled Chicken with Spinach and Melted Mozzarella"
-  ]
+  ],
+  "description": "Grilled chicken topped with sauteed garlicky spinach, mozzarella and roasted peppers – a quick and easy chicken dish your family will love!",
+  "cook_time": 15,
+  "cuisine": "Italian",
+  "prep_time": 2
 }

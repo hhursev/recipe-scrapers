@@ -35,6 +35,7 @@
   ],
   "language": "en",
   "ratings": 3.2,
+  "ratings_count": 292,
   "site_name": "Martha Stewart",
   "title": "Breaded Chicken Breasts",
   "total_time": 25,
@@ -48,5 +49,8 @@
     "Fry",
     "Lunch",
     "Main course"
-  ]
+  ],
+  "description": "Learn how to make breaded chicken breasts in under 30 minutes. Our easy three-step method for fried chicken cutlets makes easy and delicious weeknight dinners.",
+  "cuisine": "American",
+  "prep_time": 25
 }

@@ -56,6 +56,7 @@
     "proteinContent": "15.1 grams protein"
   },
   "ratings": 5.0,
+  "ratings_count": 62,
   "site_name": "Tesco Real Food",
   "title": "Roasted cauliflower tagine",
   "total_time": 30,
@@ -71,5 +72,9 @@
     "vegetarian",
     "healthy",
     "freezable"
-  ]
+  ],
+  "description": "Bring the taste of North Africa to your midweek dinners with this fragrant spiced tagine",
+  "cook_time": 25,
+  "cuisine": "African",
+  "prep_time": 5
 }

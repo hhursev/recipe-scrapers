@@ -86,10 +86,13 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 8,
   "site_name": "The Magical Slow Cooker",
   "title": "Slow Cooker Pork Roast with Gravy",
   "total_time": 510,
   "yields": "6 servings",
+  "cook_time": 480,
+  "prep_time": 30,
   "keywords": [
     "pork pot roast"
   ]

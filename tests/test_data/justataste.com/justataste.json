@@ -62,6 +62,7 @@
     "servingSize": "1 serving"
   },
   "ratings": 4.5,
+  "ratings_count": 12,
   "site_name": "Just a Taste",
   "title": "Baked Chicken and Cheese Taquitos (Oven or Air Fryer)",
   "total_time": 55,
@@ -70,5 +71,9 @@
     "chicken",
     "lime juice",
     "paprika"
-  ]
+  ],
+  "description": "Ditch the deep-fryer and forget the freezer aisle in favor of this fast, fresh and family favorite recipe for Baked Chicken and Cheese Taquitos.",
+  "cook_time": 25,
+  "cuisine": "Mexican",
+  "prep_time": 30
 }
