@@ -73,11 +73,18 @@
     "servingSize": "1 serving"
   },
   "ratings": 4.69,
+  "ratings_count": 145,
   "site_name": "Ministry of Curry",
   "title": "Slow Cooker EASY Chicken Tikka Masala",
   "total_time": 270,
   "yields": "6 servings",
   "equipment": [
     "Slow Cooker"
-  ]
+  ],
+  "keywords": [
+    "chicken tikka masala",
+    "slow cooker"
+  ],
+  "cook_time": 240,
+  "prep_time": 30
 }

@@ -28,10 +28,10 @@ classifiers = [
 dynamic = ["version", "readme"]
 requires-python = ">= 3.8"
 dependencies = [
-    "beautifulsoup4 >= 4.10.0",
-    "extruct >= 0.8.0",
+    "beautifulsoup4 >= 4.12.3",
+    "extruct >= 0.15.0",
     "isodate >= 0.6.1",
-    "requests >= 2.19.1",
+    "requests >= 2.31.0",
 ]
 
 [tool.setuptools.packages.find]

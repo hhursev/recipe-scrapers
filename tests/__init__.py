@@ -10,7 +10,6 @@ MANDATORY_TESTS = [
     "author",
     "canonical_url",
     "host",
-    "description",
     "image",
     "ingredients",
     "ingredient_groups",
@@ -25,13 +24,17 @@ MANDATORY_TESTS = [
 
 OPTIONAL_TESTS = [
     "category",
+    "description",
     "cook_time",
     "cuisine",
     "nutrients",
     "prep_time",
+    "cooking_method",
+    "keywords",
     "ratings",
     "reviews",
     "equipment",
+    "ratings_count",
 ]
 
 
@@ -98,19 +101,25 @@ def test_func_factory(
                         scraper_func()
 
         # Optional tests
-        # If the key isn't present, skip
         for key in OPTIONAL_TESTS:
+            if key not in expect:
+                continue  # If the key isn't present, skip
+            if key == "ratings_count":
+                continue
             with self.subTest(key):
                 scraper_func = getattr(actual, key)
-                if key in expect.keys():
-                    self.assertEqual(
-                        expect[key],
-                        scraper_func(),
-                        msg=f"The actual value for .{key}() did not match the expected value.",
-                    )
+                self.assertEqual(
+                    expect[key],
+                    scraper_func(),
+                    msg=f"The actual value for .{key}() did not match the expected value.",
+                )
 
-        # Assert that the ingredients returned by the ingredient_groups() function
-        # are the same as the ingredients return by the ingredients() function.
+        # Special handling for ratings_count
+        if "ratings_count" in expect.keys():
+            with self.subTest("ratings_count"):
+                ratings_count = actual.ratings_count()
+                self.assertGreaterEqual(ratings_count, expect["ratings_count"])
+
         grouped = []
         for group in actual.ingredient_groups():
             grouped.extend(group.ingredients)

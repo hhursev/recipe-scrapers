@@ -1,7 +1,9 @@
 {
-  "author": "halfbakedharvest",
+  "author": "Tieghan",
   "canonical_url": "https://www.halfbakedharvest.com/street-corn-pasta-salad/",
   "category": "Main Course,Salad,Side Dish",
+  "cook_time": 10,
+  "description": "A quintessential summer pasta salad, quick to make and totally delicious...a dip you’ll crave time and time again!",
   "host": "halfbakedharvest.com",
   "image": "https://www.halfbakedharvest.com/wp-content/uploads/2023/08/Street-Corn-Pasta-Salad-1.jpg",
   "ingredient_groups": [
@@ -67,9 +69,17 @@
     "calories": "473 kcal",
     "servingSize": "1 serving"
   },
+  "prep_time": 20,
   "ratings": 4.8,
+  "ratings_count": 58,
   "site_name": "Half Baked Harvest",
   "title": "Street Corn Pasta Salad",
   "total_time": 30,
-  "yields": "8 servings"
+  "yields": "8 servings",
+  "keywords": [
+    "30 minute meal",
+    "quick and easy",
+    "summer pasta"
+  ],
+  "cuisine": "American,Mexican"
 }

@@ -93,6 +93,10 @@ class AbstractScraper:
         """Preparation time in minutes."""
         raise NotImplementedError("This should be implemented.")
 
+    def cooking_method(self):
+        """The method of cooking the recipe"""
+        raise NotImplementedError("This should be implemented.")
+
     def yields(self):
         """Total servings or items in the recipe."""
         raise NotImplementedError("This should be implemented.")
@@ -103,6 +107,10 @@ class AbstractScraper:
 
     def nutrients(self):
         """Nutrients of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def keywords(self):
+        """Keywords or tags used to describe the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def language(self):
@@ -154,6 +162,10 @@ class AbstractScraper:
 
     def ratings(self):
         """Ratings of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def ratings_count(self):
+        """Total number of ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def author(self):

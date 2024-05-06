@@ -8,17 +8,8 @@ class CookingLight(AbstractScraper):
     def host(cls):
         return "cookinglight.com"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         return get_yields(self.schema.yields())
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.soup.find("div", {"class": "ingredients"}).ul.findAll("li")

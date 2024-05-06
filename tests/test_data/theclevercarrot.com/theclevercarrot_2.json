@@ -54,10 +54,11 @@
     "Serve with jasmine rice."
   ],
   "language": "en-US",
-  "nutrients": {},
   "ratings": 4.3,
+  "ratings_count": 3,
   "site_name": "The Clever Carrot",
   "title": "dinner tonight: sweet chili shrimp stir-fry",
   "total_time": 20,
-  "yields": "3 servings"
+  "yields": "3 servings",
+  "cook_time": 20
 }

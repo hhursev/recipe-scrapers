@@ -62,10 +62,21 @@
     "Borcama pişirdiğiniz sebzeli tavuğu yayın. Üzerine hazırladığınız patates toplarını, aralarında boşluk olacak şekilde dizin. Her bir patates topunun üzerine köri sosundan eşit miktarda dökün. Son olarak üzerlerine rendelenmiş mozarella ilave edip 200 derece fırında üzerleri kızarana dek 15 dakika pişirin."
   ],
   "language": "tr",
-  "nutrients": {},
   "ratings": 5.0,
+  "ratings_count": 3,
   "site_name": "https://yemek.com",
   "title": "Köri Soslu Tavuklu Patates Topları",
   "total_time": 85,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "keywords": [
+    "köri",
+    "soslu",
+    "tavuklu",
+    "patates",
+    "topları"
+  ],
+  "description": "Patates ve tavuk ikilisi yeniden bir araya geliyor, güçlerini birleştiriyorlar ve ortaya inanılmaz bir lezzet çıkıyor. Köri soslu patates topları burada!",
+  "cook_time": 40,
+  "cuisine": "Türk",
+  "prep_time": 45
 }

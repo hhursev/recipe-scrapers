@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import contextlib
+import warnings
 from typing import Any
 
 from ._abstract import AbstractScraper
@@ -15,6 +16,7 @@ from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
+from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
@@ -25,11 +27,13 @@ from .argiro import Argiro
 from .arla import Arla
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
+from .bakels import Bakels
 from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
 from .barefootcontessa import BareFootContessa
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
+from .bestrecipes import BestRecipes
 from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
 from .biancazapatka import BiancaZapatka
@@ -40,6 +44,7 @@ from .bodybuilding import Bodybuilding
 from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
+from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
 from .carlsbadcravings import CarlsBadCravings
@@ -60,11 +65,13 @@ from .coopse import CoopSE
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
+from .creativecanning import CreativeCanning
 from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
+from .dishnz import Dishnz
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -106,6 +113,7 @@ from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
+from .gourmettraveller import GourmetTraveller
 from .goustojson import GoustoJson
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
@@ -124,6 +132,7 @@ from .hostthetoast import Hostthetoast
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
+from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
@@ -133,6 +142,7 @@ from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
 from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
+from .joythebaker import JoyTheBaker
 from .juliegoodwin import JulieGoodwin
 from .justataste import JustATaste
 from .justbento import JustBento
@@ -140,18 +150,21 @@ from .justonecookbook import JustOneCookbook
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
+from .kitchenaidaustralia import KitchenAidAustralia
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
 from .kptncook import KptnCook
 from .kuchniadomowa import KuchniaDomowa
+from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .lekkerensimpel import LekkerEnSimpel
+from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littlespicejar import LittleSpiceJar
 from .livelytable import LivelyTable
@@ -164,6 +177,7 @@ from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
+from .mccormick import McCormick
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
 from .mindmegette import Mindmegette
@@ -174,8 +188,10 @@ from .mob import Mob
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
+from .moulinex import Moulinex
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
+from .myjewishlearning import MyJewishLearning
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .myrecipes import MyRecipes
@@ -205,6 +221,7 @@ from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
 from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
+from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
 from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
@@ -254,6 +271,7 @@ from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
+from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
@@ -296,9 +314,11 @@ from .weightwatchers import WeightWatchers
 from .weightwatcherspublic import WeightWatchersPublic
 from .wellplated import WellPlated
 from .whatsgabycooking import WhatsGabyCooking
+from .whole30 import Whole30
 from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
+from .womensweeklyfood import WomensWeeklyFood
 from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
@@ -309,6 +329,7 @@ from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
+    ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
     AbuelasCounter.host(): AbuelasCounter,
@@ -329,9 +350,11 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    Bakels.host(): Bakels,
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
+    BestRecipes.host(): BestRecipes,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
     BiancaZapatka.host(): BiancaZapatka,
@@ -342,6 +365,7 @@ SCRAPERS = {
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BongEats.host(): BongEats,
+    Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
     CarlsBadCravings.host(): CarlsBadCravings,
@@ -362,24 +386,36 @@ SCRAPERS = {
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
+    CreativeCanning.host(): CreativeCanning,
     Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
     Drinkoteket.host(): Drinkoteket,
+    Dishnz.host(): Dishnz,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
+    GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
+    InBloomBakery.host(): InBloomBakery,
     JoshuaWeissman.host(): JoshuaWeissman,
+    JoyTheBaker.host(): JoyTheBaker,
+    KitchenAidAustralia.host(): KitchenAidAustralia,
+    KuchynaLidla.host(): KuchynaLidla,
+    McCormick.host(): McCormick,
+    Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
+    MyJewishLearning.host(): MyJewishLearning,
     NutritionFacts.host(): NutritionFacts,
     PinchOfYum.host(): PinchOfYum,
+    PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
     RicettePerBimby.host(): RicettePerBimby,
     StrongrFastr.host(): StrongrFastr,
+    TasteAtlas.host(): TasteAtlas,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
@@ -481,6 +517,7 @@ SCRAPERS = {
     LeanAndGreenRecipes.host(): LeanAndGreenRecipes,
     Lecker.host(): Lecker,
     LekkerEnSimpel.host(): LekkerEnSimpel,
+    Leukerecepten.host(): Leukerecepten,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
     LittleSpiceJar.host(): LittleSpiceJar,
     LivelyTable.host(): LivelyTable,
@@ -539,7 +576,6 @@ SCRAPERS = {
     PlowingThroughLife.host(): PlowingThroughLife,
     PopSugar.host(): PopSugar,
     PracticalSelfReliance.host(): PracticalSelfReliance,
-    PracticalSelfReliance.host(domain="creativecanning.com"): PracticalSelfReliance,
     PressureLuckCooking.host(): PressureLuckCooking,
     PrimalEdgeHealth.host(): PrimalEdgeHealth,
     ProjectGezond.host(): ProjectGezond,
@@ -625,9 +661,11 @@ SCRAPERS = {
     WeightWatchersPublic.host(): WeightWatchersPublic,
     WellPlated.host(): WellPlated,
     WhatsGabyCooking.host(): WhatsGabyCooking,
+    Whole30.host(): Whole30,
     WholeFoods.host(): WholeFoods,
     WholeFoods.host(domain="co.uk"): WholeFoods,
     WilliamsSonoma.host(): WilliamsSonoma,
+    WomensWeeklyFood.host(): WomensWeeklyFood,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
     Woolworths.host(): Woolworths,
@@ -652,6 +690,19 @@ def scraper_exists_for(url_path: str) -> bool:
 
 def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
+
+    if options:
+        msg = (
+            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+            " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
+            "function.\n"
+        )
+        warnings.warn(msg, DeprecationWarning)
 
     try:
         scraper = SCRAPERS[host_name]
@@ -689,6 +740,17 @@ def scrape_html(
     """
 
     host_name = get_host_name(org_url) if org_url is not None else None
+
+    if options:
+        msg = (
+            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+            "support for them will be dropped in future.  To migrate, please:\n"
+            "\n"
+            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+            "the proxies/timeout settings you want.\n"
+            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+        )
+        warnings.warn(msg, DeprecationWarning)
 
     scraper = None
     if host_name:

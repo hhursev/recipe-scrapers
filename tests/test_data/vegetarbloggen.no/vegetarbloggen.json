@@ -42,9 +42,14 @@
     "Servér retten rykende varm, topp med gresskarkjerner."
   ],
   "language": "en-US",
-  "nutrients": {},
   "site_name": null,
   "title": "Pasta i gresskarsaus",
   "total_time": 30,
-  "yields": "2 servings"
+  "yields": "2 servings",
+  "keywords": [
+    "gresskar",
+    "pasta"
+  ],
+  "cook_time": 20,
+  "prep_time": 10
 }

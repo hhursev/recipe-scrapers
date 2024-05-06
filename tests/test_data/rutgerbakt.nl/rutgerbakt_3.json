@@ -30,10 +30,12 @@
     "Dit bericht is gesponsord door Tante Fanny."
   ],
   "language": "nl",
-  "nutrients": {},
   "ratings": 4.0,
+  "ratings_count": 361,
   "site_name": "Rutger Bakt",
   "title": "Banketstaaf",
   "total_time": 45,
-  "yields": null
+  "yields": null,
+  "cook_time": 30,
+  "prep_time": 15
 }

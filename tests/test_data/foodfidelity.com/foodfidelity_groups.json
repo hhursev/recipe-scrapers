@@ -80,10 +80,15 @@
     "Put the cranberries in a jar. Bring the wine to a boil in a small saucepan. Pour over the cranberries and let cool to room temperature. Let stand for 30 minutes, or cover and refrigerate for up to 1 month."
   ],
   "language": "en-US",
-  "nutrients": {},
   "ratings": 5.0,
+  "ratings_count": 1,
   "site_name": "Food Fidelity",
   "title": "Citrus Israeli Couscous Salad With Asparagus and Cranberries",
   "total_time": 35,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "keywords": [
+    "couscous"
+  ],
+  "cook_time": 20,
+  "prep_time": 15
 }

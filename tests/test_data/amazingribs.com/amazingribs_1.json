@@ -48,8 +48,8 @@
     "Serve. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard."
   ],
   "language": "en-US",
-  "nutrients": {},
   "ratings": 4.1,
+  "ratings_count": 105,
   "site_name": "Meathead's AmazingRibs.com",
   "title": "Texas Hot Guts Recipe",
   "total_time": 165,
@@ -57,5 +57,15 @@
   "equipment": [
     "sausage grinder",
     "sausage stuffer"
-  ]
+  ],
+  "keywords": [
+    "brisket",
+    "brisket sausage",
+    "sausage",
+    "smoked sausage"
+  ],
+  "cook_time": 120,
+  "description": "In the Lone Star state, smoked sausage is as central to barbecue as brisket. There is no standard recipe, but natural casing (the guts) always hold the ground meat mixture. My favorite blend leans more on pork than beef and includes lots of black pepper. IMPORTANT: Before you get started, read our article on The Science of Sausage Making.",
+  "cuisine": "American",
+  "prep_time": 45
 }

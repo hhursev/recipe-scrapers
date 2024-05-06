@@ -49,8 +49,14 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 1,
   "site_name": "The Magical Slow Cooker",
   "title": "Slow Cooker Ground Beef",
   "total_time": 245,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "keywords": [
+    "ground beef"
+  ],
+  "cook_time": 240,
+  "prep_time": 5
 }

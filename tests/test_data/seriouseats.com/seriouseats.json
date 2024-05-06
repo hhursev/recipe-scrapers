@@ -47,8 +47,19 @@
     "unsaturatedFatContent": "0 g"
   },
   "ratings": 4.5,
+  "ratings_count": 72,
   "site_name": "Serious Eats",
   "title": "Buttery, Flaky Pie Crust Recipe",
   "total_time": 200,
-  "yields": "20 servings"
+  "yields": "20 servings",
+  "keywords": [
+    "Bake",
+    "crust",
+    "holiday",
+    "pastry",
+    "pie"
+  ],
+  "cook_time": 60,
+  "cuisine": "American",
+  "prep_time": 20
 }

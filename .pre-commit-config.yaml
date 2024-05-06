@@ -35,3 +35,8 @@ repos:
     hooks:
     - id: pyupgrade
       args: [--py38-plus]
+-   repo: https://github.com/sphinx-contrib/sphinx-lint
+    rev: v0.9.1
+    hooks:
+    - id: sphinx-lint
+      args: ["-e", "all", "-d", "line-too-long"]

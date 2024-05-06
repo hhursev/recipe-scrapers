@@ -8,12 +8,6 @@ class KwestiaSmaku(AbstractScraper):
     def host(cls):
         return "kwestiasmaku.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def yields(self):
         return get_yields(
             self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})
@@ -37,6 +31,3 @@ class KwestiaSmaku(AbstractScraper):
             "div", {"class": "field-name-field-przygotowanie"}
         ).find_all("li")
         return "\n".join([normalize_string(i.get_text()) for i in instructions])
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -53,9 +53,17 @@
     "Serve the crispy chicken strips with hot sauce, BBQ sauce or ranch dressing."
   ],
   "language": "en-US",
-  "nutrients": {},
   "site_name": "Kenny McGovern",
   "title": "Crispy Chicken Strips",
   "total_time": 16,
-  "yields": "1 serving"
+  "yields": "1 serving",
+  "keywords": [
+    "chicken",
+    "crispy chicken",
+    "kfc",
+    "fried chicken"
+  ],
+  "cook_time": 6,
+  "cuisine": "American",
+  "prep_time": 10
 }

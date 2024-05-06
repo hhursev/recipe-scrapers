@@ -10,9 +10,6 @@ class Valdemarsro(AbstractScraper):
     def host(cls):
         return "valdemarsro.dk"
 
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         category_group_element = self.soup.find("div", {"class": "recipe-bar"})
 
@@ -52,15 +49,6 @@ class Valdemarsro(AbstractScraper):
     def cook_time(self):
         return self.get_time("Arbejdstid")
 
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         instruction_elements = self.soup.find(
             "div", {"itemprop": "recipeInstructions"}
@@ -69,9 +57,6 @@ class Valdemarsro(AbstractScraper):
         instructions_list = [tag.get_text() for tag in instruction_elements]
 
         return "\n".join(instructions_list)
-
-    def author(self):
-        return self.schema.author()
 
     def description(self):
         description_element = self.soup.find("div", {"itemprop": "description"})

@@ -1,0 +1,2107 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}}); 
+/* ]]> */
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KFGXDLR');</script>
+
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+            h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+            (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document.documentElement,'async-hide','dataLayer',4000,
+            {'OPT-5PFXQ2L':true});</script>
+<script async src="https://www.googleoptimize.com/optimize.js?id=OPT-5PFXQ2L"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+
+
+<title>Low FODMAP Creamy Ham and Potato Soup - A Little Bit Yummy</title>
+<meta name="description" content="Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup. This low FODMAP creamy ham and potato soup is the perfect option." />
+<link rel="canonical" href="https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Low FODMAP Creamy Ham and Potato Soup - A Little Bit Yummy" />
+<meta property="og:description" content="Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup. This low FODMAP creamy ham and potato soup is the perfect option." />
+<meta property="og:url" content="https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/" />
+<meta property="og:site_name" content="A Little Bit Yummy" />
+<meta property="article:publisher" content="https://www.facebook.com/alittlebityummy/" />
+<meta property="article:modified_time" content="2023-05-27T08:44:01+00:00" />
+<meta property="og:image" content="https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="1500" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@alittlebityummy" />
+
+<link rel="dns-prefetch" href="//use.typekit.net" />
+<link rel="alternate" type="application/rss+xml" title="A Little Bit Yummy &raquo; Feed" href="https://alittlebityummy.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="A Little Bit Yummy &raquo; Comments Feed" href="https://alittlebityummy.com/comments/feed/" />
+
+<script type="application/ld+json" class="schema-premium">[{"@context":"https:\/\/schema.org","@type":"Recipe","image":{"@type":"ImageObject","url":"https:\/\/alittlebityummy.com\/wp-content\/uploads\/2021\/12\/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg","contentUrl":"https:\/\/alittlebityummy.com\/wp-content\/uploads\/2021\/12\/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg","width":1200,"height":1500,"alternativeHeadline":"Low FODMAP Creamy Ham & Potato Soup","name":"low-fodmap-creamy-ham-potato-soup","headline":"Low FODMAP Creamy Ham & Potato Soup","uploadDate":"2021-12-30 00:59:12","dateModified":"2023-05-27 08:32:35","encodingFormat":"image\/jpeg"},"name":"Low FODMAP Creamy Ham and Potato Soup","url":"https:\/\/alittlebityummy.com\/recipe\/en-nz\/low-fodmap-creamy-ham-and-potato-soup-4\/","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/alittlebityummy.com\/recipe\/en-nz\/low-fodmap-creamy-ham-and-potato-soup-4\/#webpage"},"description":"Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup. This low FODMAP creamy ham and potato soup is the perfect option.","headline":"Low FODMAP Creamy Ham and Potato Soup","alternativeHeadline":"Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup. This low FODMAP creamy ham and potato soup is the perfect option.","datePublished":"2021-12-30T00:00:00+00:00","dateModified":"2023-05-03T00:00:00+00:00","prepTime":"PT10H","cookTime":"PT30H","keywords":"gluten free, low fodmap, dairy free, egg free, nut free, soup, family classics, pork, christmas, lunch, dinner","recipeYield":"4 servings","recipeCategory":"christmas, lunch, dinner","dateCreated":"2023-05-27T08:32:42+00:00","publisher":{"@type":"Organization","@id":"https:\/\/alittlebityummy.com\/#organization","url":"https:\/\/alittlebityummy.com\/","name":"A Little Bit Yummy","description":"Low FODMAP Food","logo":{"@type":"ImageObject","@id":"https:\/\/alittlebityummy.com\/#logo","url":"https:\/\/alittlebityummy.com\/wp-content\/uploads\/2019\/03\/schema_logo.png","width":600,"height":60},"image":{"@type":"ImageObject","@id":"https:\/\/alittlebityummy.com\/#logo","url":"https:\/\/alittlebityummy.com\/wp-content\/uploads\/2019\/03\/schema_logo.png","width":600,"height":60},"sameAs":["https:\/\/www.facebook.com\/alittlebityummy\/","https:\/\/twitter.com\/alittlebityummy","https:\/\/www.instagram.com\/alittlebityummy\/","https:\/\/www.pinterest.nz\/alittlebityummy\/"]},"author":null,"tool":[],"supply":[],"step":[],"totalTime":"PT00H00M00S","recipeIngredient":[],"recipeInstructions":[],"@id":"https:\/\/alittlebityummy.com\/recipe\/en-us\/low-fodmap-creamy-ham-and-potato-soup-4#recipe"}]</script>
+<link rel="alternate" type="application/rss+xml" title="A Little Bit Yummy &raquo; Low FODMAP Creamy Ham and Potato Soup Comments Feed" href="https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/alittlebityummy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel="stylesheet" id="sbi_styles-css" href="https://alittlebityummy.com/wp-content/plugins/instagram-feed-pro/css/sbi-styles.min.css?ver=6.3.6" type="text/css" media="all" />
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://alittlebityummy.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.4" type="text/css" media="all" />
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="custom-typekit-css-css" href="https://use.typekit.net/pww6wje.css?ver=1.0.18" type="text/css" media="all" />
+<link rel="stylesheet" id="intl-menu-css" href="https://alittlebityummy.com/wp-content/plugins/locale/css/intl-menu.css?ver=6.4.4" type="text/css" media="all" />
+<link rel="stylesheet" id="wp-pagenavi-css" href="https://alittlebityummy.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70" type="text/css" media="all" />
+<link rel="stylesheet" id="wdc-core-css" href="https://alittlebityummy.com/wp-content/plugins/wow-divi-carousel/assets/css/core.css?ver=all" type="text/css" media="all" />
+<link rel="stylesheet" id="bootstrap-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/bootstrap.min.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="header-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/header.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="header-mobile-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/slimmenu.min.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="search-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/search.css?ver=0.69" type="text/css" media="all" />
+<link rel="stylesheet" id="footer-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/footer.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="secondary-nav-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/secondary-navbar.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="typography-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/typography.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="dashicons-css" href="https://alittlebityummy.com/wp-includes/css/dashicons.min.css?ver=6.4.4" type="text/css" media="all" />
+<link rel="stylesheet" id="print-css-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/print.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="alby-child-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/style.css?ver=1.6.25" type="text/css" media="all" />
+<style id="alby-child-inline-css" type="text/css">
+
+
+		a,
+		.entry-title a:focus,
+		.entry-title a:hover,
+		.genesis-nav-menu a:focus,
+		.genesis-nav-menu a:hover,
+		.genesis-nav-menu .current-menu-item > a,
+		.genesis-nav-menu .sub-menu .current-menu-item > a:focus,
+		.genesis-nav-menu .sub-menu .current-menu-item > a:hover,
+		.menu-toggle:focus,
+		.menu-toggle:hover,
+		.sub-menu-toggle:focus,
+		.sub-menu-toggle:hover {
+			color: #1fa3ae;
+		}
+
+		
+
+		button:focus,
+		button:hover,
+		input[type="button"]:focus,
+		input[type="button"]:hover,
+		input[type="reset"]:focus,
+		input[type="reset"]:hover,
+		input[type="submit"]:focus,
+		input[type="submit"]:hover,
+		input[type="reset"]:focus,
+		input[type="reset"]:hover,
+		input[type="submit"]:focus,
+		input[type="submit"]:hover,
+		.archive-pagination li a:focus,
+		.archive-pagination li a:hover,
+		.archive-pagination .active a,
+		.button:focus,
+		.button:hover,
+		.sidebar .enews-widget input[type="submit"] {
+			background-color: #1fa3ae;
+			color: #333333;
+		}
+		
+</style>
+<link rel="stylesheet" id="algolia-theme-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/algolia-min.css?ver=6.4.4" type="text/css" media="all" />
+<link rel="stylesheet" id="algolia-recipe-page-css" href="https://alittlebityummy.com/wp-content/themes/alby-child-theme/css/algolia-recipe-page.css?ver=1.6.25" type="text/css" media="all" />
+<link rel="stylesheet" id="wow-divi-carousel-styles-css" href="https://alittlebityummy.com/wp-content/plugins/wow-divi-carousel/styles/style-dbp.min.css?ver=2.3.3" type="text/css" media="all" />
+<link rel="stylesheet" id="divi-builder-style-css" href="https://alittlebityummy.com/wp-content/plugins/divi-builder/css/style-static.min.css?ver=4.24.0" type="text/css" media="all" />
+<link rel="stylesheet" id="algolia-autocomplete-css" href="https://alittlebityummy.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../css/algolia-autocomplete.css?ver=2.11.3" type="text/css" media="screen" />
+<link rel="stylesheet" id="popup-maker-site-css" href="https://alittlebityummy.com/wp-content/plugins/popup-maker/assets/css/pum-site.min.css?ver=1.18.2" type="text/css" media="all" />
+<style id="popup-maker-site-inline-css" type="text/css">
+/* Popup Theme 23892: Valentines Day Banner */
+.pum-theme-23892, .pum-theme-23892 { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-23892 .pum-container, .pum-theme-23892 .pum-container { padding: 10px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 183, 194, 249, 1.00 ) } 
+.pum-theme-23892 .pum-title, .pum-theme-23892 .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 600; font-size: 32px; line-height: 40px } 
+.pum-theme-23892 .pum-content, .pum-theme-23892 .pum-content { color: #ffffff; font-family: Montserrat; font-weight: 400 } 
+.pum-theme-23892 .pum-content + .pum-close, .pum-theme-23892 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: Montserrat; font-weight: 400; font-size: 12px; line-height: 25px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 24167: Mobile Newsletter Theme */
+.pum-theme-24167, .pum-theme-mobile-newsletter-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-24167 .pum-container, .pum-theme-mobile-newsletter-theme .pum-container { padding: 12px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 238, 247, 248, 1.00 ) } 
+.pum-theme-24167 .pum-title, .pum-theme-mobile-newsletter-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 700; font-size: 20px; line-height: 22px } 
+.pum-theme-24167 .pum-content, .pum-theme-mobile-newsletter-theme .pum-content { color: #8c8c8c; font-family: Montserrat; font-weight: 500 } 
+.pum-theme-24167 .pum-content + .pum-close, .pum-theme-mobile-newsletter-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -7px; bottom: auto; top: -7px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 900; font-size: 12px; line-height: 8px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 6162: Default Theme */
+.pum-theme-6162, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-6162 .pum-container, .pum-theme-default-theme .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 238, 247, 248, 1.00 ) } 
+.pum-theme-6162 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-6162 .pum-content, .pum-theme-default-theme .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 100 } 
+.pum-theme-6162 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: Montserrat; font-weight: 500; font-size: 12px; line-height: 14px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 23507: Content Only - For use with page builders or block editor */
+.pum-theme-23507, .pum-theme-content-only { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-23507 .pum-container, .pum-theme-content-only .pum-container { padding: 0px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ) } 
+.pum-theme-23507 .pum-title, .pum-theme-content-only .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-23507 .pum-content, .pum-theme-content-only .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
+.pum-theme-23507 .pum-content + .pum-close, .pum-theme-content-only .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 7px; bottom: auto; top: 7px; padding: 0px; color: #000000; font-family: inherit; font-weight: 700; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ) } 
+
+/* Popup Theme 23506: Floating Bar - Soft Blue */
+.pum-theme-23506, .pum-theme-floating-bar { background-color: rgba( 255, 255, 255, 0.00 ) } 
+.pum-theme-23506 .pum-container, .pum-theme-floating-bar .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 238, 246, 252, 1.00 ) } 
+.pum-theme-23506 .pum-title, .pum-theme-floating-bar .pum-title { color: #505050; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-23506 .pum-content, .pum-theme-floating-bar .pum-content { color: #505050; font-family: inherit; font-weight: 400 } 
+.pum-theme-23506 .pum-content + .pum-close, .pum-theme-floating-bar .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 5px; bottom: auto; top: 50%; padding: 0px; color: #505050; font-family: Sans-Serif; font-weight: 700; font-size: 15px; line-height: 18px; border: 1px solid #505050; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ); transform: translate(0, -50%) } 
+
+/* Popup Theme 6200: Your Wellness Journey Starts Now */
+.pum-theme-6200, .pum-theme-your-wellness-journey-starts-now { background-color: rgba( 12, 12, 12, 0.60 ) } 
+.pum-theme-6200 .pum-container, .pum-theme-your-wellness-journey-starts-now .pum-container { padding: 0px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-6200 .pum-title, .pum-theme-your-wellness-journey-starts-now .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-6200 .pum-content, .pum-theme-your-wellness-journey-starts-now .pum-content { color: #8c8c8c; font-family: inherit } 
+.pum-theme-6200 .pum-content + .pum-close, .pum-theme-your-wellness-journey-starts-now .pum-content + .pum-close { position: absolute; height: 50px; width: 68px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #ffffff; font-family: inherit; font-size: 56px; line-height: 14px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 0.00 ) } 
+
+/* Popup Theme 6171: ALBY April 2018 */
+.pum-theme-6171, .pum-theme-alby-april-2018 { background-color: rgba( 12, 12, 12, 0.80 ) } 
+.pum-theme-6171 .pum-container, .pum-theme-alby-april-2018 .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-6171 .pum-title, .pum-theme-alby-april-2018 .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-6171 .pum-content, .pum-theme-alby-april-2018 .pum-content { color: #8c8c8c; font-family: inherit } 
+.pum-theme-6171 .pum-content + .pum-close, .pum-theme-alby-april-2018 .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-size: 12px; line-height: 14px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 6163: Light Box */
+.pum-theme-6163, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-6163 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-6163 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-6163 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit } 
+.pum-theme-6163 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 30px; width: 30px; left: auto; right: -24px; bottom: auto; top: -24px; padding: 0px; color: #ffffff; font-family: inherit; font-size: 24px; line-height: 26px; border: 2px solid #ffffff; border-radius: 30px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 6164: Enterprise Blue */
+.pum-theme-6164, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-6164 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-6164 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 34px; line-height: 36px } 
+.pum-theme-6164 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-6164 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: inherit; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 6165: Hello Box */
+.pum-theme-6165, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-6165 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-6165 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-size: 32px; line-height: 36px } 
+.pum-theme-6165 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-6165 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: inherit; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 6166: Cutting Edge */
+.pum-theme-6166, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-6166 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-6166 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-size: 26px; line-height: 28px } 
+.pum-theme-6166 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit } 
+.pum-theme-6166 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: inherit; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 6167: Framed Border */
+.pum-theme-6167, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-6167 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-6167 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-size: 32px; line-height: 36px } 
+.pum-theme-6167 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit } 
+.pum-theme-6167 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Acme; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+#pum-23898 {z-index: 1999999999}
+#pum-24164 {z-index: 1999999999}
+#pum-23512 {z-index: 1999999999}
+#pum-23508 {z-index: 1999999999}
+
+</style>
+<link rel="stylesheet" id="gform_basic-css" href="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.8.8" type="text/css" media="all" />
+<link rel="stylesheet" id="gform_theme_components-css" href="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.8.8" type="text/css" media="all" />
+<link rel="stylesheet" id="gform_theme_ie11-css" href="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.8.8" type="text/css" media="all" />
+<link rel="stylesheet" id="gform_theme-css" href="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.8.8" type="text/css" media="all" />
+<link rel="stylesheet" id="ds-pbe-fb-css" href="https://alittlebityummy.com/wp-content/plugins/ds-page-builder-everywhere/pbe-li.css?ver=6.4.4" type="text/css" media="all" />
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/locale/js/intl-menu.js?ver=6.4.4" id="locale-script-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/wp-util.min.js?ver=6.4.4" id="wp-util-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../js/algoliasearch/algoliasearch.jquery.min.js?ver=2.11.3" id="algolia-search-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../js/autocomplete.js/autocomplete.min.js?ver=2.11.3" id="algolia-autocomplete-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/search-by-algolia-instant-relevant-results/includes/../js/autocomplete-noconflict.js?ver=2.11.3" id="algolia-autocomplete-noconflict-js"></script>
+<script type="text/javascript" defer="defer" src="https://alittlebityummy.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.8.8" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"114892f369193a78c46c17ebdddf84b7","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"114892f369193a78c46c17ebdddf84b7","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"114892f369193a78c46c17ebdddf84b7","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"114892f369193a78c46c17ebdddf84b7","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = {"7":"","5":""};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms\/images"}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://alittlebityummy.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.8.8" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer="defer" src="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=50c7bea9c2320e16728e44ae9fde5f26" id="gform_gravityforms_utils-js"></script>
+<link rel="https://api.w.org/" href="https://alittlebityummy.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://alittlebityummy.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.4" />
+<link rel="shortlink" href="https://alittlebityummy.com/?p=14779" />
+<link rel="alternate" type="application/json+oembed" href="https://alittlebityummy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falittlebityummy.com%2Frecipe%2Fen-nz%2Flow-fodmap-creamy-ham-and-potato-soup-4%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://alittlebityummy.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falittlebityummy.com%2Frecipe%2Fen-nz%2Flow-fodmap-creamy-ham-and-potato-soup-4%2F&#038;format=xml" />
+<style>
+
+
+    </style>
+<style type="text/css">
+
+        /** PBE CSS **/
+        .page-template-page-template-blank.pbe-above-header #pbe-above-header-wa-wrap,
+        .page-template-page-template-blank.pbe-below-header #pbe-below-header-wa-wrap,
+        .page-template-page-template-blank.pbe-footer #pbe-footer-wa-wrap {
+            display : none !important;
+        }
+
+        #pbe-above-content-wa-wrap .et_pb_widget {
+            display       : block;
+            width         : 100%;
+            position      : relative;
+            /*margin-top: -15px;*/
+            margin-bottom : 50px;
+        }
+
+        #pbe-above-content-wa-wrap .et_pb_section {
+            z-index : 99;
+        }
+
+        #pbe-below-content-wa-wrap .et_pb_widget {
+            display  : block;
+            width    : 100%;
+            position : relative;
+            /*margin-top: -15px;*/
+        }
+
+        #pbe-below-content-wa-wrap .et_pb_section {
+            z-index : 99;
+        }
+
+        #main-header .et_pb_widget, #content-area .et_pb_widget {
+            width : 100%;
+        }
+
+        #main-header .et_pb_widget p {
+            padding-bottom : 0;
+        }
+
+        #pbe-above-header-wa .widget-conditional-inner {
+            background : #fff;
+            padding    : 0;
+            border     : none;
+        }
+
+        #pbe-above-header-wa select {
+            background    : #f1f1f1;
+            box-shadow    : none;
+            border-radius : 3px;
+            height        : 40px;
+            padding-left  : 10px;
+            padding-right : 10px;
+            border        : none;
+        }
+
+        #pbe-above-header-wa .et_pb_widget {
+            float : none;
+        }
+
+        #pbe-footer-wa-wrap .et_pb_widget {
+            width   : 100%;
+            display : block;
+        }
+
+        .page-container form input[type=text] {
+            display       : block;
+            margin-bottom : 20px;
+            width         : 100%;
+            background    : #f1f1f1;
+            padding       : 10px 20px;
+            box-shadow    : none;
+            border        : none;
+            font-weight   : 700;
+        }
+
+        .page-container form p {
+            font-size : 14px;
+        }
+
+        .page-container form {
+            padding : 10px 20px;
+        }
+
+        #pbe-footer-wa-wrap {
+            position : relative;
+            /*top: -15px;*/
+        }
+
+        #pbe-above-header-wa-wrap,
+        #pbe-below-header-wa-wrap,
+        #pbe-above-content-wa-wrap,
+        #pbe-below-content-wa-wrap,
+        #pbe-footer-wa-wrap {
+            position : relative;
+            z-index  : 9;
+        }
+
+        /* Fixes issues with overlapping widget areas */
+        .pbe-above-header #main-header .container,
+        .pbe-below-content #main-content article,
+        .pbe-footer #main-footer {
+            clear : both;
+        }
+
+        .pbe-below-content #main-content {
+            float   : left;
+            display : block;
+            width   : 100%;
+        }
+
+        .pbe-below-content #main-footer {
+            float : left;
+            width : 100%;
+        }
+    </style>
+
+
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"visitorLoginState":"logged-out","pagePostType":"recipe","pagePostType2":"single-recipe"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTVGNLF');
+</script>
+
+<script src="https://cdn.usefathom.com/script.js" data-site="YVYYVUJJ" defer></script>
+
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1718042118288003');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1718042118288003&ev=PageView&noscript=1"
+/></noscript>
+
+
+<script>
+!function(e){if(!window.pintrk){window.pintrk = function () {
+window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+  n=window.pintrk;n.queue=[],n.version="3.0";var
+  t=document.createElement("script");t.async=!0,t.src=e;var
+  r=document.getElementsByTagName("script")[0];
+  r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+pintrk('load', '2613460634315');
+pintrk('page');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt=""
+  src="https://ct.pinterest.com/v3/?event=init&tid=2613460634315&pd[em]=<hashed_email_address>&noscript=1" />
+</noscript>
+<link rel="alternate" hreflang="en-nz" href="https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/" /><link rel="alternate" hreflang="en-au" href="https://alittlebityummy.com/recipe/en-au/low-fodmap-creamy-ham-and-potato-soup-5/" /><link rel="alternate" hreflang="en" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-creamy-ham-and-potato-soup/" /><link rel="alternate" hreflang="en-us" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-creamy-ham-and-potato-soup/" /><link rel="alternate" hreflang="en-gb" href="https://alittlebityummy.com/recipe/en-gb/low-fodmap-creamy-ham-and-potato-soup-2/" /><link rel="alternate" hreflang="en-ca" href="https://alittlebityummy.com/recipe/en-ca/low-fodmap-creamy-ham-and-potato-soup-3/" /><link rel="alternate" hreflang="x-default" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-creamy-ham-and-potato-soup/" /> <meta name="onesignal" content="wordpress-plugin" />
+<script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: "/" };
+        OneSignal.setDefaultNotificationUrl("https://alittlebityummy.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '66a7b348-1423-4a5c-9c31-80e0f6bd5ea2';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "Thank you for subscribing! You will be notified of new recipes and blogs when they are uploaded to the website.";
+oneSignal_options['path'] = "https://alittlebityummy.com/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.212e621b-efc2-4b2a-9d36-9f4cd158ecec";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = "Want alerts for our latest low FODMAP recipes and posts? Enable push notifications now";
+oneSignal_options['promptOptions']['acceptButtonText'] = "Enable";
+          /* OneSignal: Using custom SDK initialization. */
+                });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+<script type="text/javascript">var algolia = {"debug":false,"application_id":"3HL9SGA2DA","search_api_key":"e2d2e6c350514b60cfe56ab071026ef2","powered_by_enabled":true,"query":"","autocomplete":{"sources":[{"index_id":"posts_recipe","index_name":"wp_posts_recipe","label":"Recipes","admin_name":"Recipes","position":10,"max_suggestions":5,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true},{"index_id":"posts_post","index_name":"wp_posts_post","label":"Posts","admin_name":"Posts","position":10,"max_suggestions":5,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true},{"index_id":"terms_category","index_name":"wp_terms_category","label":"Categories","admin_name":"Categories","position":20,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true},{"index_id":"terms_post_tag","index_name":"wp_terms_post_tag","label":"Tags","admin_name":"Tags","position":20,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true},{"index_id":"terms_recipe_category","index_name":"wp_terms_recipe_category","label":"Recipe Categories","admin_name":"Recipe Categories","position":20,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true},{"index_id":"terms_recipe_tag","index_name":"wp_terms_recipe_tag","label":"Recipe Tags","admin_name":"Recipe Tags","position":20,"max_suggestions":3,"tmpl_suggestion":"autocomplete-term-suggestion","enabled":true}],"input_selector":"input[name='s']:not('.no-autocomplete')"},"indices":{"searchable_posts":{"name":"wp_searchable_posts","id":"searchable_posts","enabled":true,"replicas":[]},"posts_post":{"name":"wp_posts_post","id":"posts_post","enabled":true,"replicas":[]},"posts_recipe":{"name":"wp_posts_recipe","id":"posts_recipe","enabled":true,"replicas":[]},"terms_category":{"name":"wp_terms_category","id":"terms_category","enabled":true,"replicas":[]},"terms_post_tag":{"name":"wp_terms_post_tag","id":"terms_post_tag","enabled":true,"replicas":[]},"terms_recipe_category":{"name":"wp_terms_recipe_category","id":"terms_recipe_category","enabled":true,"replicas":[]},"terms_recipe_tag":{"name":"wp_terms_recipe_tag","id":"terms_recipe_tag","enabled":true,"replicas":[]}}};</script><link rel="icon" href="https://alittlebityummy.com/wp-content/uploads/2020/02/cropped-A-Little-Bit-Yummy-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://alittlebityummy.com/wp-content/uploads/2020/02/cropped-A-Little-Bit-Yummy-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://alittlebityummy.com/wp-content/uploads/2020/02/cropped-A-Little-Bit-Yummy-180x180.png" />
+<meta name="msapplication-TileImage" content="https://alittlebityummy.com/wp-content/uploads/2020/02/cropped-A-Little-Bit-Yummy-270x270.png" />
+<style type="text/css">
+		div.gform_wrapper {
+			position: relative;
+			background-color: transparent;
+																																	border-style: solid;
+			border-width: 0;
+											}
+
+		
+		div.gform_wrapper form {
+			position: relative;
+		}
+
+		div.gform_wrapper .gform_title {
+																	}
+
+		div.gform_wrapper span.gform_description {
+											}
+
+		div.gform_wrapper .top_label .gfield_label {
+																				}
+
+		div.gform_wrapper .gfield .ginput_complex.ginput_container label {
+						margin-bottom: 0;
+		}
+
+		div.gform_wrapper .ginput_container label,
+		div.gform_wrapper table.gfield_list thead th,
+		div.gform_wrapper span.ginput_product_price_label,
+		div.gform_wrapper span.ginput_quantity_label,
+		div.gform_wrapper .gfield_html {
+					}
+
+		div.gform_wrapper span.ginput_product_price,
+		div.gform_wrapper .gfield_price .ginput_container_total span {
+					}
+
+		div.gform_wrapper .gsection {
+							border-bottom-width: px;
+									margin-right: 0;
+							margin-bottom: px;
+					}
+
+		div.gform_wrapper h2.gsection_title {
+								}
+
+		div.gform_wrapper ul.gfield_radio li input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']) {
+		    width: auto !important;
+			display: inline-block;
+		}
+
+		div.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+		div.gform_wrapper select,
+		div.gform_wrapper textarea {
+												background-color: transparent;
+																																	border-style: solid;
+						border-radius: px;
+					}
+
+		div.gform_wrapper .ginput_complex input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=image]):not([type=file]) {
+		    width: 100%;
+		}
+
+		div.gform_wrapper .gfield input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']),
+		div.gform_wrapper .gfield select {
+					}
+
+		div.gform_wrapper .gfield textarea {
+					}
+		
+		
+		
+		
+		div.gform_wrapper .top_label input.medium,
+		div.gform_wrapper .top_label select.medium {
+			width: 49%;
+		}
+
+		div.gform_wrapper .gfield .gfield_description {
+		    		    		    		}
+
+		div.gform_wrapper ul.gform_fields li.gfield:not(.gf_left_third):not(.gf_middle_third)::not(.gf_right_third) {
+			margin-bottom: 0;
+			padding-right: 0;
+						margin-top: px;
+					}
+
+		div.gform_wrapper .gform_footer,
+		div.gform_wrapper .gform_page_footer {
+			text-align: right;
+		}
+		div.gform_wrapper .gform_footer .gform_button,
+		div.gform_wrapper .gform_page_footer .button {
+												color: #ffffff;
+																		background-color: #0ea4b0;
+																					border-width: 0px;
+									border-color: #0ea4b0;
+						border-style: solid;
+						border-radius: 56px;
+					}
+
+		div.gform_wrapper.gf_browser_ie .gform_footer .gform_button,
+		div.gform_wrapper.gf_browser_ie .gform_page_footer .button {
+														}
+
+		div.gform_wrapper .gform_footer input[type=submit]:last-child,
+		div.gform_wrapper .gform_page_footer input[type=button]:last-child,
+		div.gform_wrapper .gform_page_footer input[type=submit]:last-child {
+			margin-bottom: 0 !important;
+		}
+
+		div.gform_wrapper .gform_footer .gform_button:hover, 
+		div.gform_wrapper .gform_page_footer .button:hover {
+						color: #f4f4f4;
+									background-color: #0ea4b0;
+					}
+
+		
+		
+		/* File Upload */
+		div.gform_wrapper .gfield input[type=file] {
+			background-color: transparent;
+						border-width: px;
+																				}
+
+		div.gform_wrapper div.validation_error {
+														}
+
+		div.gform_wrapper li.gfield.gfield_error {
+			background-color: transparent;
+		}
+
+		div.gform_wrapper .gfield_error .gfield_label {
+					}
+
+		div.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+		div.gform_wrapper li.gfield_error textarea {
+									border-width: px;
+					}
+
+		div.gform_wrapper .validation_message {
+								}
+
+		/* Success Message */
+		div.gform_confirmation_wrapper {
+			background-color: transparent;
+			border-width: px;
+												border-radius: px;
+																	}
+		div.gform_confirmation_wrapper .gform_confirmation_message {
+								    		}
+
+	</style>
+<script type="text/html" id="tmpl-autocomplete-header">
+    <div class="autocomplete-header">
+        <div class="autocomplete-header-title">{{{ data.label }}}</div>
+        <div class="clear"></div>
+    </div>
+</script>
+<script type="text/html" id="tmpl-autocomplete-post-suggestion">
+    <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.post_title }}">
+        <# if ( data.images.thumbnail ) { #>
+        <img class="suggestion-post-thumbnail" src="{{ data.images.thumbnail.url }}" alt="{{ data.post_title }}">
+        <# } #>
+        <div class="suggestion-post-attributes">
+            <span class="suggestion-post-title">{{{ data._highlightResult.post_title.value }}}</span>
+            <# if ( data._snippetResult['content'] ) { #>
+            <span class="suggestion-post-content">{{{ data._snippetResult['content'].value }}}</span>
+            <# } #>
+        </div>
+    </a>
+</script>
+<script type="text/html" id="tmpl-autocomplete-term-suggestion">
+    <a class="suggestion-link" href="{{ data.permalink }}" title="{{ data.name }}">
+        <svg viewBox="0 0 21 21" width="21" height="21">
+            <svg width="21" height="21" viewBox="0 0 21 21">
+                <path
+                    d="M4.662 8.72l-1.23 1.23c-.682.682-.68 1.792.004 2.477l5.135 5.135c.7.693 1.8.688 2.48.005l1.23-1.23 5.35-5.346c.31-.31.54-.92.51-1.36l-.32-4.29c-.09-1.09-1.05-2.06-2.15-2.14l-4.3-.33c-.43-.03-1.05.2-1.36.51l-.79.8-2.27 2.28-2.28 2.27zm9.826-.98c.69 0 1.25-.56 1.25-1.25s-.56-1.25-1.25-1.25-1.25.56-1.25 1.25.56 1.25 1.25 1.25z"
+                    fill-rule="evenodd"></path>
+            </svg>
+        </svg>
+        <span class="suggestion-post-title">{{{ data._highlightResult.name.value }}}</span>
+    </a>
+</script>
+<script type="text/html" id="tmpl-autocomplete-user-suggestion">
+    <a class="suggestion-link user-suggestion-link" href="{{ data.posts_url }}" title="{{ data.display_name }}">
+        <# if ( data.avatar_url ) { #>
+        <img class="suggestion-user-thumbnail" src="{{ data.avatar_url }}" alt="{{ data.display_name }}">
+        <# } #>
+
+        <span class="suggestion-post-title">{{{ data._highlightResult.display_name.value }}}</span>
+    </a>
+</script>
+<script type="text/html" id="tmpl-autocomplete-footer">
+    <div class="autocomplete-footer">
+        <div class="autocomplete-footer-branding">
+            <a href="#" class="algolia-powered-by-link" title="Algolia">
+                <svg width="130" viewBox="0 0 130 18" xmlns="http://www.w3.org/2000/svg">
+                    <title>Search by Algolia</title>
+                    <defs>
+                        <linearGradient x1="-36.868%" y1="134.936%" x2="129.432%" y2="-27.7%" id="a">
+                            <stop stop-color="#00AEFF" offset="0%"/>
+                            <stop stop-color="#3369E7" offset="100%"/>
+                        </linearGradient>
+                    </defs>
+                    <g fill="none" fill-rule="evenodd">
+                        <path
+                            d="M59.399.022h13.299a2.372 2.372 0 0 1 2.377 2.364V15.62a2.372 2.372 0 0 1-2.377 2.364H59.399a2.372 2.372 0 0 1-2.377-2.364V2.381A2.368 2.368 0 0 1 59.399.022z"
+                            fill="url(#a)"/>
+                        <path
+                            d="M66.257 4.56c-2.815 0-5.1 2.272-5.1 5.078 0 2.806 2.284 5.072 5.1 5.072 2.815 0 5.1-2.272 5.1-5.078 0-2.806-2.279-5.072-5.1-5.072zm0 8.652c-1.983 0-3.593-1.602-3.593-3.574 0-1.972 1.61-3.574 3.593-3.574 1.983 0 3.593 1.602 3.593 3.574a3.582 3.582 0 0 1-3.593 3.574zm0-6.418v2.664c0 .076.082.131.153.093l2.377-1.226c.055-.027.071-.093.044-.147a2.96 2.96 0 0 0-2.465-1.487c-.055 0-.11.044-.11.104l.001-.001zm-3.33-1.956l-.312-.311a.783.783 0 0 0-1.106 0l-.372.37a.773.773 0 0 0 0 1.101l.307.305c.049.049.121.038.164-.011.181-.245.378-.479.597-.697.225-.223.455-.42.707-.599.055-.033.06-.109.016-.158h-.001zm5.001-.806v-.616a.781.781 0 0 0-.783-.779h-1.824a.78.78 0 0 0-.783.779v.632c0 .071.066.12.137.104a5.736 5.736 0 0 1 1.588-.223c.52 0 1.035.071 1.534.207a.106.106 0 0 0 .131-.104z"
+                            fill="#FFF"/>
+                        <path
+                            d="M102.162 13.762c0 1.455-.372 2.517-1.123 3.193-.75.676-1.895 1.013-3.44 1.013-.564 0-1.736-.109-2.673-.316l.345-1.689c.783.163 1.819.207 2.361.207.86 0 1.473-.174 1.84-.523.367-.349.548-.866.548-1.553v-.349a6.374 6.374 0 0 1-.838.316 4.151 4.151 0 0 1-1.194.158 4.515 4.515 0 0 1-1.616-.278 3.385 3.385 0 0 1-1.254-.817 3.744 3.744 0 0 1-.811-1.351c-.192-.539-.29-1.504-.29-2.212 0-.665.104-1.498.307-2.054a3.925 3.925 0 0 1 .904-1.433 4.124 4.124 0 0 1 1.441-.926 5.31 5.31 0 0 1 1.945-.365c.696 0 1.337.087 1.961.191a15.86 15.86 0 0 1 1.588.332v8.456h-.001zm-5.954-4.206c0 .893.197 1.885.592 2.299.394.414.904.621 1.528.621.34 0 .663-.049.964-.142a2.75 2.75 0 0 0 .734-.332v-5.29a8.531 8.531 0 0 0-1.413-.18c-.778-.022-1.369.294-1.786.801-.411.507-.619 1.395-.619 2.223zm16.12 0c0 .719-.104 1.264-.318 1.858a4.389 4.389 0 0 1-.904 1.52c-.389.42-.854.746-1.402.975-.548.229-1.391.36-1.813.36-.422-.005-1.26-.125-1.802-.36a4.088 4.088 0 0 1-1.397-.975 4.486 4.486 0 0 1-.909-1.52 5.037 5.037 0 0 1-.329-1.858c0-.719.099-1.411.318-1.999.219-.588.526-1.09.92-1.509.394-.42.865-.741 1.402-.97a4.547 4.547 0 0 1 1.786-.338 4.69 4.69 0 0 1 1.791.338c.548.229 1.019.55 1.402.97.389.42.69.921.909 1.509.23.588.345 1.28.345 1.999h.001zm-2.191.005c0-.921-.203-1.689-.597-2.223-.394-.539-.948-.806-1.654-.806-.707 0-1.26.267-1.654.806-.394.539-.586 1.302-.586 2.223 0 .932.197 1.558.592 2.098.394.545.948.812 1.654.812.707 0 1.26-.272 1.654-.812.394-.545.592-1.166.592-2.098h-.001zm6.962 4.707c-3.511.016-3.511-2.822-3.511-3.274L113.583.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001zm3.774 0h-2.153V5.072l2.153-.338v9.534zm-1.079-10.542c.718 0 1.304-.578 1.304-1.291 0-.714-.581-1.291-1.304-1.291-.723 0-1.304.578-1.304 1.291 0 .714.586 1.291 1.304 1.291zm6.431 1.013c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.285.311.488.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.263.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a9.335 9.335 0 0 1 1.66-.142l-.001-.001zm.181 7.731c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.323.196.75.289 1.293.289h.001zM84.109 4.794c.707 0 1.304.087 1.786.262.482.174.871.42 1.156.73.29.316.487.735.608 1.182.126.447.186.937.186 1.476v5.481a25.24 25.24 0 0 1-1.495.251c-.668.098-1.419.147-2.251.147a6.829 6.829 0 0 1-1.517-.158 3.213 3.213 0 0 1-1.178-.507 2.455 2.455 0 0 1-.761-.904c-.181-.37-.274-.893-.274-1.438 0-.523.104-.855.307-1.215.208-.36.487-.654.838-.883a3.609 3.609 0 0 1 1.227-.49 7.073 7.073 0 0 1 2.202-.103c.257.027.537.076.833.147v-.349c0-.245-.027-.479-.088-.697a1.486 1.486 0 0 0-.307-.583c-.148-.169-.34-.3-.581-.392a2.536 2.536 0 0 0-.915-.163c-.493 0-.942.06-1.353.131-.411.071-.75.153-1.008.245l-.257-1.749c.268-.093.668-.185 1.183-.278a8.89 8.89 0 0 1 1.66-.142l-.001-.001zm.186 7.736c.657 0 1.145-.038 1.484-.104v-2.168a5.097 5.097 0 0 0-1.978-.104c-.241.033-.46.098-.652.191a1.167 1.167 0 0 0-.466.392c-.121.169-.175.267-.175.523 0 .501.175.79.493.981.318.191.75.289 1.293.289h.001zm8.682 1.738c-3.511.016-3.511-2.822-3.511-3.274L89.461.926l2.142-.338v10.003c0 .256 0 1.88 1.375 1.885v1.792h-.001z"
+                            fill="#182359"/>
+                        <path
+                            d="M5.027 11.025c0 .698-.252 1.246-.757 1.644-.505.397-1.201.596-2.089.596-.888 0-1.615-.138-2.181-.414v-1.214c.358.168.739.301 1.141.397.403.097.778.145 1.125.145.508 0 .884-.097 1.125-.29a.945.945 0 0 0 .363-.779.978.978 0 0 0-.333-.747c-.222-.204-.68-.446-1.375-.725-.716-.29-1.221-.621-1.515-.994-.294-.372-.44-.82-.44-1.343 0-.655.233-1.171.698-1.547.466-.376 1.09-.564 1.875-.564.752 0 1.5.165 2.245.494l-.408 1.047c-.698-.294-1.321-.44-1.869-.44-.415 0-.73.09-.945.271a.89.89 0 0 0-.322.717c0 .204.043.379.129.524.086.145.227.282.424.411.197.129.551.299 1.063.51.577.24.999.464 1.268.671.269.208.466.442.591.704.125.261.188.569.188.924l-.001.002zm3.98 2.24c-.924 0-1.646-.269-2.167-.808-.521-.539-.782-1.281-.782-2.226 0-.97.242-1.733.725-2.288.483-.555 1.148-.833 1.993-.833.784 0 1.404.238 1.858.714.455.476.682 1.132.682 1.966v.682H7.357c.018.577.174 1.02.467 1.329.294.31.707.465 1.241.465.351 0 .678-.033.98-.099a5.1 5.1 0 0 0 .975-.33v1.026a3.865 3.865 0 0 1-.935.312 5.723 5.723 0 0 1-1.08.091l.002-.001zm-.231-5.199c-.401 0-.722.127-.964.381s-.386.625-.432 1.112h2.696c-.007-.491-.125-.862-.354-1.115-.229-.252-.544-.379-.945-.379l-.001.001zm7.692 5.092l-.252-.827h-.043c-.286.362-.575.608-.865.739-.29.131-.662.196-1.117.196-.584 0-1.039-.158-1.367-.473-.328-.315-.491-.761-.491-1.337 0-.612.227-1.074.682-1.386.455-.312 1.148-.482 2.079-.51l1.026-.032v-.317c0-.38-.089-.663-.266-.851-.177-.188-.452-.282-.824-.282-.304 0-.596.045-.876.134a6.68 6.68 0 0 0-.806.317l-.408-.902a4.414 4.414 0 0 1 1.058-.384 4.856 4.856 0 0 1 1.085-.132c.756 0 1.326.165 1.711.494.385.329.577.847.577 1.552v4.002h-.902l-.001-.001zm-1.88-.859c.458 0 .826-.128 1.104-.384.278-.256.416-.615.416-1.077v-.516l-.763.032c-.594.021-1.027.121-1.297.298s-.406.448-.406.814c0 .265.079.47.236.615.158.145.394.218.709.218h.001zm7.557-5.189c.254 0 .464.018.628.054l-.124 1.176a2.383 2.383 0 0 0-.559-.064c-.505 0-.914.165-1.227.494-.313.329-.47.757-.47 1.284v3.105h-1.262V7.218h.988l.167 1.047h.064c.197-.354.454-.636.771-.843a1.83 1.83 0 0 1 1.023-.312h.001zm4.125 6.155c-.899 0-1.582-.262-2.049-.787-.467-.525-.701-1.277-.701-2.259 0-.999.244-1.767.733-2.304.489-.537 1.195-.806 2.119-.806.627 0 1.191.116 1.692.349l-.381 1.015c-.534-.208-.974-.312-1.321-.312-1.028 0-1.542.682-1.542 2.046 0 .666.128 1.166.384 1.501.256.335.631.502 1.125.502a3.23 3.23 0 0 0 1.595-.419v1.101a2.53 2.53 0 0 1-.722.285 4.356 4.356 0 0 1-.932.086v.002zm8.277-.107h-1.268V9.506c0-.458-.092-.8-.277-1.026-.184-.226-.477-.338-.878-.338-.53 0-.919.158-1.168.475-.249.317-.373.848-.373 1.593v2.949h-1.262V4.801h1.262v2.122c0 .34-.021.704-.064 1.09h.081a1.76 1.76 0 0 1 .717-.666c.306-.158.663-.236 1.072-.236 1.439 0 2.159.725 2.159 2.175v3.873l-.001-.001zm7.649-6.048c.741 0 1.319.269 1.732.806.414.537.62 1.291.62 2.261 0 .974-.209 1.732-.628 2.275-.419.542-1.001.814-1.746.814-.752 0-1.336-.27-1.751-.811h-.086l-.231.704h-.945V4.801h1.262v1.987l-.021.655-.032.553h.054c.401-.591.992-.886 1.772-.886zm-.328 1.031c-.508 0-.875.149-1.098.448-.224.299-.339.799-.346 1.501v.086c0 .723.115 1.247.344 1.571.229.324.603.486 1.123.486.448 0 .787-.177 1.018-.532.231-.354.346-.867.346-1.536 0-1.35-.462-2.025-1.386-2.025l-.001.001zm3.244-.924h1.375l1.209 3.368c.183.48.304.931.365 1.354h.043c.032-.197.091-.436.177-.717.086-.281.541-1.616 1.364-4.004h1.364l-2.541 6.73c-.462 1.235-1.232 1.853-2.31 1.853-.279 0-.551-.03-.816-.091v-.999c.19.043.406.064.65.064.609 0 1.037-.353 1.284-1.058l.22-.559-2.385-5.941h.001z"
+                            fill="#1D3657"/>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </div>
+</script>
+<script type="text/html" id="tmpl-autocomplete-empty">
+    <div class="autocomplete-empty">
+        No results matched your query         <span class="empty-query">"{{ data.query }}"</span>
+    </div>
+</script>
+<script type="text/javascript">
+    jQuery(function () {
+        /* init Algolia client */
+        var client = algoliasearch(algolia.application_id, algolia.search_api_key);
+
+        /* setup default sources */
+        var sources = [];
+        jQuery.each(algolia.autocomplete.sources, function (i, config) {
+            var suggestion_template = wp.template(config['tmpl_suggestion']);
+            sources.push({
+                source: algoliaAutocomplete.sources.hits(client.initIndex(config['index_name']), {
+                    hitsPerPage: config['max_suggestions'],
+                    attributesToSnippet: [
+                        'content:10'
+                    ],
+                    highlightPreTag: '__ais-highlight__',
+                    highlightPostTag: '__/ais-highlight__'
+                }),
+                templates: {
+                    header: function () {
+                        return wp.template('autocomplete-header')({
+                            label: _.escape(config['label'])
+                        });
+                    },
+                    suggestion: function (hit) {
+                        for (var key in hit._highlightResult) {
+                            /* We do not deal with arrays. */
+                            if (typeof hit._highlightResult[key].value !== 'string') {
+                                continue;
+                            }
+                            hit._highlightResult[key].value = _.escape(hit._highlightResult[key].value);
+                            hit._highlightResult[key].value = hit._highlightResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+                        }
+
+                        for (var key in hit._snippetResult) {
+                            /* We do not deal with arrays. */
+                            if (typeof hit._snippetResult[key].value !== 'string') {
+                                continue;
+                            }
+
+                            hit._snippetResult[key].value = _.escape(hit._snippetResult[key].value);
+                            hit._snippetResult[key].value = hit._snippetResult[key].value.replace(/__ais-highlight__/g, '<em>').replace(/__\/ais-highlight__/g, '</em>');
+                        }
+
+                        return suggestion_template(hit);
+                    }
+                }
+            });
+
+        });
+
+        /* Setup dropdown menus */
+        jQuery(algolia.autocomplete.input_selector).each(function (i) {
+            var $searchInput = jQuery(this);
+
+            var config = {
+                debug: algolia.debug,
+                hint: false,
+                openOnFocus: true,
+                appendTo: 'body',
+                templates: {
+                    empty: wp.template('autocomplete-empty')
+                }
+            };
+
+            if (algolia.powered_by_enabled) {
+                config.templates.footer = wp.template('autocomplete-footer');
+            }
+
+            /* Instantiate autocomplete.js */
+            var autocomplete = algoliaAutocomplete($searchInput[0], config, sources)
+                .on('autocomplete:selected', function (e, suggestion) {
+                    /* Redirect the user when we detect a suggestion selection. */
+                    window.location.href = suggestion.permalink;
+                });
+
+            /* Force the dropdown to be re-drawn on scroll to handle fixed containers. */
+            jQuery(window).scroll(function() {
+                if(autocomplete.autocomplete.getWrapper().style.display === "block") {
+                    autocomplete.autocomplete.close();
+                    autocomplete.autocomplete.open();
+                }
+            });
+        });
+
+        jQuery(document).on("click", ".algolia-powered-by-link", function (e) {
+            e.preventDefault();
+            window.location = "https://www.algolia.com/?utm_source=WordPress&utm_medium=extension&utm_content=" + window.location.hostname + "&utm_campaign=poweredby";
+        });
+    });
+</script>
+
+<script type="text/javascript" src="https://app.alittlebityummy.com/js/app/ingredients.js"></script>
+<meta name="p:domain_verify" content="a003c18a08dd98b68f0264ed033f6b50" />
+<meta name="google-site-verification" content="EPBfLIWBOQps85ojhKqjuMjRutE6dNhnU2ltoUfbteE" />
+<script src="https://kit.fontawesome.com/271e2d2976.js" crossorigin="anonymous"></script>
+<script defer>
+    // Change mobile menu icon on click.
+    jQuery.noConflict();
+
+    jQuery(document).ready(
+        jQuery(document).on("click", ".collapse-button" ,  function() {
+            let times = jQuery("#icon-times-mobile-menu");
+            let hamburger = jQuery("#mobileNavigation .collapse-button span");
+
+            if (hamburger.is(":visible")) {
+                times.removeClass("icon-times-show");
+                hamburger.hide();
+
+            } else {
+                hamburger.show();
+                times.addClass("icon-times-show");
+            }
+        })
+    );
+</script>
+</head>
+<body class="recipe-template-default single single-recipe postid-14779 et_divi_builder header-full-width full-width-content genesis-breadcrumbs-hidden genesis-footer-widgets-hidden et-pb-theme-alby child et-db">
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTVGNLF" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFGXDLR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="mobileNavigation" style="background-color: #ffffff; display: none;" class="hidden-md hidden-lg">
+<ul id="navigation" class="slimmenu">
+<div class="mobile-menu-list-container">
+<div class="mobile-menu-list">
+<ul class="list-one">
+<li>
+<a href="/low-fodmap-products"><strong>Shop</strong></a>
+</li>
+<li>
+<a href="/low-fodmap-cookbook">Cookbook</a>
+</li>
+<li>
+<a href="/fodmap-made-easy">FODMAP Made Easy</a>
+</li>
+<li>
+<a href="/low-fodmap-recipe-club">Recipe Club</a>
+</li>
+</ul>
+<ul>
+<li class="padding-top-twenty">
+<a href="/about"><strong>About</strong></a>
+</li>
+<li>
+<a href="/about/alanas-story">Alana's Story</a>
+</li>
+<li>
+<a href="/about/understanding-nutrition-panels">Nutrition</a>
+</li>
+<li>
+<a href="/about/dietitian-review-process">Dietitian Reviewed</a>
+</li>
+<li>
+<a href="/about/meet-our-team">Our Team</a>
+</li>
+<li>
+<a href="/about/publications">Publications</a>
+</li>
+</ul>
+</div>
+<div class="mobile-menu-list list-three">
+<ul>
+<li>
+<a href="/blog"><strong>Blog</strong></a>
+</li>
+<li>
+<a href="/category/getting-started">Getting Started</a>
+</li>
+<li>
+<a href="/category/elimination-phase">Elimination</a>
+</li>
+<li>
+<a href="/category/low-fodmap-living">Living</a>
+</li>
+<li>
+<a href="/category/nutrition">Nutrition</a>
+</li>
+<li>
+<a href="/category/reintroduction-phase">Reintroduction</a>
+</li>
+<li>
+<a href="/category/low-fodmap-travel">Travel</a>
+</li>
+<li>
+<a href="/category/low-fodmap-food-spotlight">Food</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="nav-item mobile-account-button-container">
+<div class="mobile-account-button"></div>
+<a class="mobile-button mobile-account-button" href="https://app.alittlebityummy.com/login" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Header Login Clicked'});">
+Login <i class="fas fa-user icon-circle icon-white-background margin-left-five"></i>
+</a>
+<a class="mobile-button mobile-account-button" href="https://alittlebityummy.com/join-our-low-fodmap-club/?locale=en-us" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Header Signup Clicked'});">
+Join <i class="fas fa-user-plus margin-left-five"></i>
+</a>
+</div>
+</ul>
+</div>
+<div id="mobileSearchResults" class="algoliaSearchResults"></div>
+
+<div id="mainnav" class="container hidden-xs hidden-sm">
+<nav class="navbar">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12 pull-right search">
+<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="pull-right ">
+<div id="searchbox"></div>
+<div id="searchResults" class="algoliaSearchResults"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="navbar-header">
+<a href="/" class="navbar-brand">
+<span>
+<img style="position: relative;" src="/wp-content/themes/alby-child-theme/images/logo_blue.svg" class="header-logo d-inline-block align-top nav-link" />
+</span>
+</a>
+</div>
+<div class="navbar-collapse collapse" id="navbarSupportedContent">
+<ul id="navigation" class="nav navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="/recipes/">FREE RECIPES</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/blog/">BLOG</a>
+</li>
+<li class="nav-item" style="margin-top: -10px;">
+<a class="nav-link" href="https://alittlebityummy.com/fodmap-made-easy/" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Header Mealplan Clicked'});">FODMAP <br>MADE EASY</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://alittlebityummy.com/low-fodmap-recipe-club/">RECIPE CLUB</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about/">ABOUT</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="nav-item ">
+
+<a style class="nav-link button pull-left" href="https://app.alittlebityummy.com/login" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Header Login Clicked'});">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</div>
+
+<div id="mainContainer" class="container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li></ul> <div id="recipe-wrapper" class="recipe-wrapper">
+<div>
+<div class="col-md-12" style="text-align: center;">
+<h1 class="recipe-mobile-title">Low FODMAP Creamy Ham and Potato Soup</h1>
+</div>
+<div class="col-md-12 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="image-wrapper">
+
+<img width="570" height="855" src="https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup-570x855.jpg" class="attachment-recipe-feature-image size-recipe-feature-image wp-post-image" alt="Low FODMAP Creamy Ham &amp; Potato Soup" decoding="async" srcset="https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup-570x855.jpg 570w, https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup-200x300.jpg 200w, https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup-683x1024.jpg 683w, https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup-768x1152.jpg 768w, https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup-177x266.jpg 177w, https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg 1000w" sizes="(max-width: 570px) 100vw, 570px" data-pin-url="https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/?tp_image_id=14775" /> <a href="https://alittlebityummy.com/about/dietitian-review-process/" style="color: black;">
+<div class="recipe-tag-flag">
+Dietitian<br> Reviewed
+</div>
+</a>
+</div>
+<div class="cta-wrapper col-sm-12 col-md-10">
+<div>
+<div class="col-md-12 recipe-svg-icons" style="z-index: 2;">
+<span class><a class="favorite-btn svg" href="#" data-toggle="modal" data-target="#joinWellnessModal"><img src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/sidebar-favorite.svg" height="40px" width="40px"></a></span>
+<span class> <a class="share-btn svg" href="https://www.facebook.com/sharer/sharer.php?u=https://alittlebityummy.com//recipe/en-us/low-fodmap-creamy-ham-and-potato-soup-4/"><img src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/sidebar-share.svg" height="40px" width="40px"></a>
+</span>
+<span class> <a class="print-btn svg" onclick="printRecipe()" href="#"><img src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/sidebar-print.svg" height="40px" width="40px"></a>
+</span>
+<span class> <a class="email-btn svg" href="/cdn-cgi/l/email-protection#2c135f594e46494f58116f44494f474359580c5844455f0c5e494f455c490c4a5e43410c6d4045585840494e45585559414155024f43410a4d415c174e4348551160435b0c6a6368616d7c0c6f5e494d41550c644d410c4d42480c7c43584d58430c7f43595c0c010c4458585c5f1603034d4045585840494e45585559414155024f4341035e494f455c4903494201595f0340435b014a4348414d5c014f5e494d415501444d41014d4248015c43584d5843015f43595c0118030c"><img src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/sidebar-email.svg" height="40px" width="40px"></a>
+</span>
+</div>
+</div>
+</div>
+<div class="ingredients-wrapper col-sm-12 col-md-10 desktop-ingredients-wrapper">
+<h3>Ingredients</h3>
+<a onclick="ingredients.makeGlutenFree()" class="button small-button btn-outline">MAKE GLUTEN FREE</a>
+<div class="ingredients-tabs">
+<button class="tab-link ingredient-button ingredient-button-toggle" onClick="ingredients.changeUnitSystem(this, false)" data-tab="imperial">Imperial Units</button>
+<button class="tab-link ingredient-button ingredient-button-toggle active" data-tab="metric" onClick="ingredients.changeUnitSystem(this, true)">Metric Units</button>
+</div>
+<div id="imperial">
+</div>
+<div id="metric">
+</div>
+<div class="ingredient-button-divider">
+</div>
+<div class="ingredients-tab-content">
+<select class="ingredients-type form-control" id="ingredient-unit-selector"><option value="1" selected="selected">Standard Ingredients</option> <option value="2">Gluten Free Ingredients</option> <option value="3">Dairy Free Ingredients</option></select>
+<p>
+Servings: <select class="ingredient-scalar form-control">
+<option selected="selected" value="4">4</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option></select></p>
+<h4 class="highlighted">CREAMY HAM POTATO SOUP</h4>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="195" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount="1.482" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+195 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="shaved ham (we used leftover Christmas ham)*" data-standard-pluralized="shaved ham (we used leftover Christmas ham)*" data-gluten="shaved ham (check Gluten Free) (we used leftover Christmas ham)*" data-dairy>
+shaved ham (we used leftover Christmas ham)* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="80" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount="1" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+80 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="leek  (green leaves only, finely chopped)*" data-standard-pluralized="leek  (green leaves only, finely chopped)*" data-gluten data-dairy>
+leek (green leaves only, finely chopped)* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="800" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+800 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="potato (peeled & chopped in small chunks)" data-standard-pluralized="potatoes (peeled & chopped in small chunks)" data-gluten data-dairy>
+potato (peeled & chopped in small chunks) </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="240" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount="1.992" data-secondary-unit="large" data-secondary-unit-plural="large">
+240 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="carrot (peeled & diced)" data-standard-pluralized="carrots (peeled & diced)" data-gluten data-dairy>
+carrot (peeled & diced) </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="2" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+2 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="butter or dairy free spread*" data-standard-pluralized="butter or dairy free spread*" data-gluten data-dairy>
+butter or dairy free spread* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="1" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+1 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="garlic infused oil*" data-standard-pluralized="garlic infused oil*" data-gluten data-dairy>
+garlic infused oil* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="2" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+2 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="gluten free all purpose flour*" data-standard-pluralized="gluten free all purpose flour*" data-gluten data-dairy>
+gluten free all purpose flour* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="625" data-primary-unit="ml" data-primary-unit-plural="ml" data-secondary-amount="2.5" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+625 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="low FODMAP chicken stock*" data-standard-pluralized="low FODMAP chicken stock*" data-gluten="low FODMAP chicken stock (GF as needed)*" data-dairy>
+low FODMAP chicken stock* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="375" data-primary-unit="ml" data-primary-unit-plural="ml" data-secondary-amount="1.5" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+375 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="low FODMAP milk*" data-standard-pluralized="low FODMAP milk*" data-gluten data-dairy="low FODMAP plant based milk*">
+low FODMAP milk* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="6" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+6 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="sweet corn kernels (frozen or fresh)" data-standard-pluralized="sweet corn kernels (frozen or fresh)" data-gluten data-dairy>
+sweet corn kernels (frozen or fresh) </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="1" data-primary-unit="tsp" data-primary-unit-plural="tsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+1 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="dried chives*" data-standard-pluralized="dried chives*" data-gluten data-dairy>
+dried chives* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="1" data-primary-unit="Season with" data-primary-unit-plural="season with" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+1 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="salt & pepper" data-standard-pluralized="salt & pepper" data-gluten data-dairy>
+salt & pepper </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="2" data-primary-unit="tsp" data-primary-unit-plural="tsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+2 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="fresh parsley (finely chopped, optional)" data-standard-pluralized="fresh parsley (finely chopped, optional)" data-gluten data-dairy>
+fresh parsley (finely chopped, optional) </span>
+</div>
+<br/>
+</div>
+<span>* See the FODMAP Tips, Dairy Tips and Gluten Free Tips for the ingredient notes above the method.</span>
+</div>
+<div class="join-club-ad-desktop">
+</div>
+</div>
+<div class="col-md-12 col-lg-8 col-md-8">
+<h1 class="recipe-desktop-title">Low FODMAP Creamy Ham and Potato Soup</h1>
+<div class="recipe-meta">
+<p class="last-updated-recipe">Last updated May 3rd, 2023</p>
+<span>PREP IN <span class="highlight">10 MIN</span></span>
+<br class="visible-xs" />
+<span>COOKS IN <span class="highlight">30 MIN</span></span>
+<br class="visible-xs" />
+<span>SERVES <span class="highlighted serving-size-display">4</span></span>
+<br class="visible-xs" />
+<br/>
+<span>BY <a href="/about/alanas-story/" class="highlight">Alana Scott</a></span><br class="visible-xs" />
+<span>DIETITIAN REVIEWED BY <a href="https://alittlebityummy.com/registered-dietitian-joanna-baker/" class="highlight">Joanna Baker (APD)</a></span><br/>
+<span>FEATURED IN
+<a class="highlight" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Single Recipe Category Clicked'});" href="/recipe/recipe_category/christmas/">Christmas</a>, <a class="highlight" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Single Recipe Category Clicked'});" href="/recipe/recipe_category/dinner/">Dinner</a>, <a class="highlight" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Single Recipe Category Clicked'});" href="/recipe/recipe_category/lunch/">Lunch</a></span>
+</div>
+<div class="recipe-intro">
+<p>Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup.</p>
+<p>This creamy ham and potato soup is the perfect way to use up leftovers and create comfort in a bowl. It can also be made low FODMAP, gluten free and dairy free as needed.</p> </div>
+<div class="recipe-features">
+<ul>
+<li>
+<img height="40px" width="40px" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/food-gluten-free.svg">
+Gluten Free </li>
+<li>
+<img height="40px" width="40px" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/food-low-fodmap.svg">
+Low FODMAP </li>
+<li>
+<img height="40px" width="40px" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/food-dairy-free.svg">
+Dairy Free </li>
+<li>
+<img height="40px" width="40px" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/B522ABEC007E32FB.png">
+
+
+Egg Free </li>
+<li>
+<img height="40px" width="40px" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/food-nut-free.svg">
+Nut Free </li>
+</ul>
+</div>
+
+<div class="ingredients-wrapper col-sm-12 col-md-10 mobile-ingredients-wrapper">
+<h3>Ingredients</h3>
+<a onclick="ingredients.makeGlutenFree()" class="small-button button btn-outline">MAKE GLUTEN FREE</a>
+<div class="ingredients-tabs">
+<button class="tab-link ingredient-button ingredient-button-toggle btn-outline" onClick="ingredients.changeUnitSystem(this, false)" data-tab="imperial">Imperial Units</button>
+<button class="tab-link ingredient-button ingredient-button-toggle btn-outline active" data-tab="metric" onClick="ingredients.changeUnitSystem(this, true)">Metric Units</button>
+</div>
+<div id="imperial" class="current">
+</div>
+<div id="metric" class>
+</div>
+<div class="ingredient-button-divider">
+</div>
+<div class="ingredients-tab-content">
+<select class="ingredients-type form-control"><option value="1" selected="selected">Standard Ingredients</option> <option value="2">Gluten Free Ingredients</option> <option value="3">Dairy Free Ingredients</option></select>
+<p>
+Servings: <select class="ingredient-scalar form-control">
+<option selected="selected" value="4">4</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option></select></p>
+<h4 class="highlighted">CREAMY HAM POTATO SOUP</h4>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="195" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount="1.482" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+195 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="shaved ham (we used leftover Christmas ham)*" data-standard-pluralized="shaved ham (we used leftover Christmas ham)*" data-gluten="shaved ham (check Gluten Free) (we used leftover Christmas ham)*" data-dairy>
+shaved ham (we used leftover Christmas ham)* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="80" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount="1" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+80 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="leek  (green leaves only, finely chopped)*" data-standard-pluralized="leek  (green leaves only, finely chopped)*" data-gluten data-dairy>
+leek (green leaves only, finely chopped)* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="800" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+800 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="potato (peeled & chopped in small chunks)" data-standard-pluralized="potatoes (peeled & chopped in small chunks)" data-gluten data-dairy>
+potato (peeled & chopped in small chunks) </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="240" data-primary-unit="g" data-primary-unit-plural="g" data-secondary-amount="1.992" data-secondary-unit="large" data-secondary-unit-plural="large">
+240 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="carrot (peeled & diced)" data-standard-pluralized="carrots (peeled & diced)" data-gluten data-dairy>
+carrot (peeled & diced) </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="2" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+2 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="butter or dairy free spread*" data-standard-pluralized="butter or dairy free spread*" data-gluten data-dairy>
+butter or dairy free spread* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="1" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+1 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="garlic infused oil*" data-standard-pluralized="garlic infused oil*" data-gluten data-dairy>
+garlic infused oil* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="2" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+2 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="gluten free all purpose flour*" data-standard-pluralized="gluten free all purpose flour*" data-gluten data-dairy>
+gluten free all purpose flour* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="625" data-primary-unit="ml" data-primary-unit-plural="ml" data-secondary-amount="2.5" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+625 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="low FODMAP chicken stock*" data-standard-pluralized="low FODMAP chicken stock*" data-gluten="low FODMAP chicken stock (GF as needed)*" data-dairy>
+low FODMAP chicken stock* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="375" data-primary-unit="ml" data-primary-unit-plural="ml" data-secondary-amount="1.5" data-secondary-unit="cup" data-secondary-unit-plural="cups">
+375 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="low FODMAP milk*" data-standard-pluralized="low FODMAP milk*" data-gluten data-dairy="low FODMAP plant based milk*">
+low FODMAP milk* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="6" data-primary-unit="tbsp" data-primary-unit-plural="tbsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+6 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="sweet corn kernels (frozen or fresh)" data-standard-pluralized="sweet corn kernels (frozen or fresh)" data-gluten data-dairy>
+sweet corn kernels (frozen or fresh) </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="1" data-primary-unit="tsp" data-primary-unit-plural="tsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+1 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="dried chives*" data-standard-pluralized="dried chives*" data-gluten data-dairy>
+dried chives* </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="1" data-primary-unit="Season with" data-primary-unit-plural="season with" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+1 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="salt & pepper" data-standard-pluralized="salt & pepper" data-gluten data-dairy>
+salt & pepper </span>
+</div>
+<div>
+<b class="ingredient-unit-display" data-primary-amount="2" data-primary-unit="tsp" data-primary-unit-plural="tsp" data-secondary-amount data-secondary-unit data-secondary-unit-plural>
+2 </b>
+&nbsp;
+<span class="ingredient-name-display" data-standard="fresh parsley (finely chopped, optional)" data-standard-pluralized="fresh parsley (finely chopped, optional)" data-gluten data-dairy>
+fresh parsley (finely chopped, optional) </span>
+</div>
+<br/>
+</div>
+<span>* See the FODMAP Tips, Dairy Tips and Gluten Free Tips for the ingredient notes above the method.</span>
+<div class="join-club-ad-mobile">
+</div>
+</div>
+<a id="nutrition" class="nutrition-btn button btn-outline">SHOW NUTRITION</a>
+<div class="recipe-nutrition">
+<h3>Nutrition <small>per serve</small></h3>
+<ul class="nutrition-tabs">
+<li class="tab-link current" data-tab="non-dairy-free">NON-DAIRY FREE</li>
+<span class="sep">|</span>
+<li class="tab-link" data-tab="dairy-free">DAIRY FREE</li>
+<span class="sep">|</span>
+<li class="tab-link" data-tab="gluten-free">GLUTEN FREE</li>
+</ul>
+<div id="non-dairy-free" class="nutrition-tab-content current">
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Calories</span>
+<span class="nutrition-weight">454</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Fat</span>
+<span class="nutrition-weight">15.7g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Saturates</span>
+<span class="nutrition-weight">3g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Protein</span>
+<span class="nutrition-weight">16.5g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Carbs</span>
+<span class="nutrition-weight">64.9g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Sugars</span>
+<span class="nutrition-weight">12.3g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Fibre</span>
+<span class="nutrition-weight">9.7g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Salt</span>
+<span class="nutrition-weight">1.4g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Iron</span>
+<span class="nutrition-weight">7mg</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Calcium</span>
+<span class="nutrition-weight">280.1mg</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+</div>
+<div id="dairy-free" class="nutrition-tab-content">
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Calories</span>
+<span class="nutrition-weight">424</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Fat</span>
+<span class="nutrition-weight">15.7g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Saturates</span>
+<span class="nutrition-weight">3.1g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Protein</span>
+<span class="nutrition-weight">16.6g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Carbs</span>
+<span class="nutrition-weight">57.5g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Sugars</span>
+<span class="nutrition-weight">8.1g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Fibre</span>
+<span class="nutrition-weight">9.6g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Salt</span>
+<span class="nutrition-weight">1.5g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Iron</span>
+<span class="nutrition-weight">7mg</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Calcium</span>
+<span class="nutrition-weight">342mg</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+</div>
+<div id="gluten-free" class="nutrition-tab-content">
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Calories</span>
+<span class="nutrition-weight">454</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Fat</span>
+<span class="nutrition-weight">15.7g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Saturates</span>
+<span class="nutrition-weight">3g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Protein</span>
+<span class="nutrition-weight">16.5g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Carbs</span>
+<span class="nutrition-weight">64.9g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Sugars</span>
+<span class="nutrition-weight">12.3g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Fibre</span>
+<span class="nutrition-weight">9.7g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Salt</span>
+<span class="nutrition-weight">1.4g</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Iron</span>
+<span class="nutrition-weight">7mg</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+<div class="nutrition-block">
+<div class="nutrition-inner">
+<span class="nutrition-name">Calcium</span>
+<span class="nutrition-weight">280.1mg</span>
+<span class="nutrition-percent"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="border-section">
+<div class="igr-mob"></div>
+<div class="recipe-tabs-container">
+ <ul class="recipe-tabs">
+<li class="tab-link current" data-tab="method">Method</li>
+<span class="sep">|</span>
+<li class="tab-link" data-tab="fodmap">FODMAP tips</li>
+<span class="sep">|</span>
+<li class="tab-link" data-tab="gluten">Gluten Free tips</li>
+<span class="sep">|</span>
+<li class="tab-link" data-tab="dairy">Dairy Free tips</li>
+</ul>
+<div id="method" class="recipe-tab-content current">
+<div class="hidden-lg"><hr><h2>Method</h2></div>
+<ol><li>Prep the ham, leek leaves, potato and carrot. Measure out the sweet corn.</li>
+<li>Place a large saucepan over medium heat. Add the dairy free spread or butter and fry the leek leaves and carrot for 3 minutes until the carrot starts to soften.</li>
+<li>Then add the potato, ham and garlic infused oil. Cook for 2 minutes, stirring every now and then to stop the vegetables sticking to the bottom.</li>
+<li>Mix through the flour and cook for a further minute. Then pour the stock into the saucepan. Mix well and bring to the boil. Allow to cook for 12 minutes, stirring every couple of minutes, until the potatoes are tender. </li>
+<li>Reduce the heat to medium-low and add the milk, sweet corn and dried chives. Stir over the heat until thickened - this will take about 5 minutes.</li>
+<li>Taste and season with salt and pepper if needed.</li>
+<li>Serve warm and garnish with a sprinkle of parsley if desired.</li>
+<li>If at any point your soup becomes too thick just stir through another splash of milk.</li></ol> </div>
+<div id="fodmap" class="recipe-tab-content">
+<h3>Buying Tips</h3>
+<p><p>Garlic infused oil is normally found in the oil section of your local supermarket or you can buy it online. It should be clear with no floating bits of garlic. </p><p>You can also make garlic infused oil at home by frying garlic cloves in cooking oil until they are golden and fragrant, then remove and discard the garlic before you continue cooking your meal. This is a low FODMAP way to capture the garlic flavour as the fructans can't leach into the oil.</p></p><p>Make sure you buy a leek that has long green leaves (this is the low FODMAP part), as you can’t use the white/light green leek bulb (this part is high FODMAP). Once you've finished harvesting the leaves place the leek in a glass of water on a window sill and the leaves will reshoot so you can harvest them again.</p><p>Buy a gluten free plain flour or gluten free all purpose flour. The one we used contains these ingredients: maize starch, rice flour, tapioca starch, rice bran, & guar gum. Avoid flour blends that contain soy flour, chickpea/besan/gram/garbanzo bean flour, lentil flour, coconut flour, amaranth flour, or lupin flour.</p><p><p>Low FODMAP milk options include lactose free milk, almond milk, hemp milk, macadamia milk, quinoa milk, rice milk (3/4 cup or less per serve), soy milk made from soy protein (not whole or hulled soybeans), UHT coconut milk (1/2 cup or less per serve). </p><p>Make sure your low FODMAP milk does not include high FODMAP ingredients like inulin (chicory root), agave syrup, fructose, high fructose corn syrup, molasses, or honey.</p><p> If using a dairy free alternative choose one that contains 120mg of calcium per 100ml serve, and 3g of protein per 100ml serve (this info is in the nutrition label). </p></p><p>Check your shaved ham has not been cured using high fructose corn syrup. Ham cured with honey is okay - honey has a small low FODMAP serving size and the amount of honey in one serving of ham should be well within low FODMAP guidelines.</p><p>Choose a stock that does not include onion or garlic. Massel have a range of low FODMAP, gluten free and vegan stock powders that are certified as low FODMAP. This product can be brought online around the world and is available from some supermarkets. Also check your Monash University FODMAP Diet App or FODMAP Friendly App for additional options. Or use our <a href="https://app.alittlebityummy.com/club/recipes/slow-cooked-chicken-stock">homemade chicken stock</a> or <a href="https://app.alittlebityummy.com/club/recipes/low-f-o-d-m-a-p-vegetable-stock">vegetable stock</a>.</p> </div>
+<div id="gluten" class="recipe-tab-content">
+<h3>Gluten Free Tips</h3>
+<p>Herbs and spices are naturally gluten free, however they can become contaminated during manufacturing processes. If you are highly sensitive to gluten, check the dried herbs and spices do not contain a warning for trace gluten. If you are just on the low FODMAP diet you do not need to worry about this.</p> </div>
+<div id="dairy" class="recipe-tab-content">
+<h3>Dairy Free Tips</h3>
+<p>Use a dairy free spread or olive oil spread instead of butter. Butter is considered low FODMAP.</p> </div>
+</div>
+<div class="trial-cta">
+<div class="hidden-lg"><hr></div>
+<h5>Love this recipe? Get your weekly meal plans.</h5>
+<a href="https://alittlebityummy.com/join-our-low-fodmap-club/?locale=en-us" class="trial-btn button btn-outline">LEARN MORE</a>
+</div>
+<div class="blurb-container">
+<img class="blurb-avatar" src="https://alittlebityummy.com/wp-content/wp-custom-authors/alana-19.jpg" data-pin-nopin="true" />
+<div class="blurb-content">
+<h4>Author: Alana Scott</h4>
+<p>
+In 2013, Alana was diagnosed with Irritable Bowel Syndrome. She also suffers from coeliac disease, is allergic to nuts and is intolerant to dairy products. This means she understands how difficult it can be to cook with multiple food intolerances. Her exp... <a href="https://alittlebityummy.com/alana-scott-founder/" class="blurb-link"> Read More</a>
+</p>
+</div>
+</div>
+<div class="blurb-container">
+<img class="blurb-avatar" src="https://alittlebityummy.com/wp-content/wp-custom-authors/Joanna-20.jpg" data-pin-nopin="true" />
+<div class="blurb-content">
+<h4>Professional Reviewer: Joanna Baker (APD)</h4>
+<p>
+Joanna is a foodie, an accredited practising dietitian and a registered nurse, who is passionate about digestive health. She now works exclusively in IBS and food intolerance in her Melbourne based private practice Everyday Nutrition.
+Joanna works alon... <a href="https://alittlebityummy.com/registered-dietitian-joanna-baker/" class="blurb-link"> Read More</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="rb-no-print">
+<div> <div class="featured-posts-wrapper">
+<div class="featured-posts-heading">
+<div class="featured-posts-heading-inner col-sm-12">
+<h3>TASTE TEST OUR RECIPES</h3>
+<a class="view-all-link" href="/recipes/">VIEW ALL RECIPES &gt;</a>
+</div>
+</div>
+<div class="featured-posts-inner">
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 featured-post ">
+<div class="featured-post-inner">
+<a class="featured-post-link-wrapper" style="width: 100%" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-coconut-macaroons/">
+<div class="featured-post-image">
+<img width="570" height="855" src="https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait-570x855.jpg" class="attachment-recipe-feature-image size-recipe-feature-image wp-post-image" alt="Low FODMAP Coconut Macaroons" decoding="async" srcset="https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait-570x855.jpg 570w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait-200x300.jpg 200w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait-768x1152.jpg 768w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait-682x1024.jpg 682w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait-177x266.jpg 177w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Coconut-Macaroons-portrait.jpg 815w" sizes="(max-width: 570px) 100vw, 570px" data-pin-description="Coconut macaroons make a YUMMY low FODMAP treat and they are so easy to make. I love adding a bit of lemon ZEST which brings out the coconut and vanilla flavours even more. #glutenfree #dairyfree #lowFODMAP #coconut #macaroons" data-pin-url="https://alittlebityummy.com/recipe/en-us/low-fodmap-coconut-macaroons/?tp_image_id=2917" /> </div>
+<div class="featured-post-content featured-post-content-widget">
+<h4>Low FODMAP Coconut Macaroons</h4>
+<h5>Baking, Christmas, Dessert, Snacks, Vegetarian Options</h5>
+<h6></h6>
+<span style="width: 100%;"></span>
+</div>
+</a>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 featured-post ">
+<div class="featured-post-inner">
+<a class="featured-post-link-wrapper" style="width: 100%" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-blueberry-crumble-slice/">
+<div class="featured-post-image">
+<img width="570" height="855" src="https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2-570x855.jpg" class="attachment-recipe-feature-image size-recipe-feature-image wp-post-image" alt="Low FODMAP Blueberry Crumble Slice" decoding="async" srcset="https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2-570x855.jpg 570w, https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2-200x300.jpg 200w, https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2-683x1024.jpg 683w, https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2-768x1152.jpg 768w, https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2-177x266.jpg 177w, https://alittlebityummy.com/wp-content/uploads/2022/04/Low-FODMAP-Blueberry-Crumble-Slice-2.jpg 1000w" sizes="(max-width: 570px) 100vw, 570px" data-pin-title="Low FODMAP Blueberry Crumble Slice" data-pin-url="https://alittlebityummy.com/recipe/en-us/low-fodmap-blueberry-crumble-slice/?tp_image_id=16383" /> </div>
+<div class="featured-post-content featured-post-content-widget">
+<h4>Low FODMAP Blueberry Crumble Slice</h4>
+<h5>Baking, Dessert, Snacks, Vegetarian Options</h5>
+<h6></h6>
+<span style="width: 100%;"></span>
+</div>
+</a>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 featured-post  hidden-sm hidden-xs">
+<div class="featured-post-inner">
+<a class="featured-post-link-wrapper" style="width: 100%" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-no-bake-energy-bars/">
+<div class="featured-post-image">
+<img width="570" height="855" src="https://alittlebityummy.com/wp-content/uploads/2017/12/No-Bake-Energy-Bar-Low-FODMAP-570x855.jpg" class="attachment-recipe-feature-image size-recipe-feature-image wp-post-image" alt="No Bake Energy Bar (Low FODMAP)" decoding="async" srcset="https://alittlebityummy.com/wp-content/uploads/2017/12/No-Bake-Energy-Bar-Low-FODMAP-570x855.jpg 570w, https://alittlebityummy.com/wp-content/uploads/2017/12/No-Bake-Energy-Bar-Low-FODMAP-177x266.jpg 177w" sizes="(max-width: 570px) 100vw, 570px" data-pin-description="These no bake energy bars make a FANTASTIC low FODMAP grab and go snack. Have these babies fully prepared and in the fridge within 10 minutes! If you have a nut allergy these bars work really well with sunflower seed butter, otherwise you can use peanut butter. #glutenfree #dairyfree #lowFODMAP #energybars #raw" data-pin-url="https://alittlebityummy.com/recipe/en-us/low-fodmap-no-bake-energy-bars/?tp_image_id=2912" /> </div>
+<div class="featured-post-content featured-post-content-widget">
+<h4>Low FODMAP No Bake Energy Bars</h4>
+<h5>Baking, Snacks, Vegetarian Options</h5>
+<h6></h6>
+<span style="width: 100%;"></span>
+</div>
+</a>
+</div>
+</div>
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 featured-post  hidden-sm hidden-xs hidden-md">
+<div class="featured-post-inner">
+<a class="featured-post-link-wrapper" style="width: 100%" href="https://alittlebityummy.com/recipe/en-us/low-fodmap-chicken-quinoa-meatballs-with-teriyaki-sauce/">
+<div class="featured-post-image">
+<img width="570" height="855" src="https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Chicken-Quinoa-Meatballs-with-Teriyaki-Sauce-Portrait-570x855.jpg" class="attachment-recipe-feature-image size-recipe-feature-image wp-post-image" alt="Low FODMAP Chicken Quinoa Meatballs with Teriyaki Sauce" decoding="async" srcset="https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Chicken-Quinoa-Meatballs-with-Teriyaki-Sauce-Portrait-570x855.jpg 570w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Chicken-Quinoa-Meatballs-with-Teriyaki-Sauce-Portrait-200x300.jpg 200w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Chicken-Quinoa-Meatballs-with-Teriyaki-Sauce-Portrait-177x266.jpg 177w, https://alittlebityummy.com/wp-content/uploads/2017/12/Low-FODMAP-Chicken-Quinoa-Meatballs-with-Teriyaki-Sauce-Portrait.jpg 640w" sizes="(max-width: 570px) 100vw, 570px" data-pin-description="Low FODMAP chicken quinoa meatballs with teriyaki sauce make a delicious appetizer or main meal. These chicken QUINOA meatballs have TANGY bursts of lime and fresh coriander which makes a delicious combo with our teriyaki dipping sauce. #glutenfree #dairyfree #lowFODMAP" data-pin-url="https://alittlebityummy.com/recipe/en-us/low-fodmap-chicken-quinoa-meatballs-with-teriyaki-sauce/?tp_image_id=2486" /> </div>
+<div class="featured-post-content featured-post-content-widget">
+<h4>Low FODMAP Chicken Quinoa Meatballs with Teriyaki Sauce</h4>
+<h5>Snacks</h5>
+<h6></h6>
+<span style="width: 100%;"></span>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="joinWellnessModal" tabindex="-1" role="dialog" aria-labelledby="joinWellnessModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title" id="joinWellnessModalLabel">Join the Wellness Club Today!</h3>
+<div class="close-modal" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</div>
+<p style="margin: 0 0 5px;">This feature is only available to club users</p>
+</div>
+<div class="modal-body">
+<img src="/wp-content/themes/alby-child-theme/images/Low-FODMAP-E-Courses-Meal-Plans-Social-Image.jpg" class="modal-image" title="Make FODMAP Easy!">
+</div>
+<div class="modal-footer">
+<a class="button-style button-main" href="https://alittlebityummy.com/join-our-low-fodmap-club/?locale=en-us" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Modal Signup Clicked'})">Sign Up</a>
+<a class="button-style button-outline" href="https://app.alittlebityummy.com/login" onclick="gtag('event', 'Clicked', {'event_category': 'Wordpress', 'event_label': 'Modal Login Clicked'})">Login</a>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        var recipeSlug = 'low-fodmap-creamy-ham-potato-soup';
+
+        function printRecipe() {
+            var e = document.getElementById("ingredient-unit-selector");
+            var typeValue = e.options[e.selectedIndex].value;
+            var unitValue = ingredients.getUnitSystem();
+            var win = window.open("https://app.alittlebityummy.com/print-recipe/" +
+                recipeSlug +
+                "/print?type=" + typeValue +
+                "&unit=" + unitValue +
+                "&return=" + encodeURIComponent(window.location.href), "_blank");
+            win.focus();
+        }
+        function printDiv(divName) {
+            var printContents = document.getElementById(divName).innerHTML;
+            var originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        }
+    </script>
+<script>
+    var default_serves = 4;
+
+    window.onbeforeprint = function(e) {
+        printRecipe();
+        return false;
+    };
+
+    /**
+     * Get the URL parameters by name
+     *
+     * @param sParam
+     * @returns {boolean}
+     */
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+            }
+        }
+    }
+
+    window.onload = function() {
+        var imgContainers = document.getElementsByClassName('no-pin');
+        for (var i = 0; i < imgContainers.length; i++) {
+            if (imgContainers[i]) {
+                if (imgContainers[i].getElementsByTagName('img').length > 0) {
+                    var img = imgContainers[i].getElementsByTagName('img')[0];
+                    img.setAttribute('data-pin-nopin', 'true');
+                }
+            }
+        }
+    }
+</script>
+<div class="site-inner"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"></main></div></div></div><div id="alby-footer" class>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<a href="/" style="display: inline-block; position: relative; z-index: 1;" class="visible-lg">
+<img style="pointer-events: none;" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/logo_blue.svg" />
+</a>
+<br><br>
+<p>Information provided on this website does not replace advice & information given to you by medical
+professionals.</p>
+<p> Information is educational only and is not intended for medical advice, diagnosis, or treatment.</p>
+<p>© A Little Bit Yummy 2024</p>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-8">
+<div class="row">
+<div class="col-md-8">
+<div class="social-icon">
+<h3>SOCIAL</h3>
+<a style="display: inline-block; position: relative; z-index: 1;" href="https://twitter.com/ALittleBitYummy" target="_blank">
+<img style="pointer-events: none;" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/social-twitter.png">
+</a><a style="display: inline-block; position: relative; z-index: 1;" href="https://www.facebook.com/alittlebityummy" target="_blank">
+<img style="pointer-events: none;" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/social-facebook.png">
+</a><a style="display: inline-block; position: relative; z-index: 1;" href="https://www.instagram.com/alittlebityummy/" target="_blank">
+<img style="pointer-events: none;" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/social-instagram.png">
+</a><a style="display: inline-block; position: relative; z-index: 1;" href="https://www.pinterest.nz/alittlebityummy/" target="_blank">
+<img style="pointer-events: none;" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/images/social-pin.png">
+</a>
+</div>
+</div>
+<div class="col-md-4">
+<p>Changing your country helps you find local ingredients. </p>
+<div class="intl-dropdown">
+<button onclick="showIntlDropdown()" class="intl-selector button btn-outline">United States</button>
+<div id="intlDropdown" style="color: #0ea4b0;" class="intl-dropdown-content">
+<a href="/recipe/en-NZ/low-fodmap-creamy-ham-and-potato-soup-4?change=true">New Zealand</a> <a href="/recipe/en-AU/low-fodmap-creamy-ham-and-potato-soup-4?change=true">Australia</a> <a href="/recipe/en-US/low-fodmap-creamy-ham-and-potato-soup-4?change=true">United States</a> <a href="/recipe/en-GB/low-fodmap-creamy-ham-and-potato-soup-4?change=true">United Kingdom</a> <a href="/recipe/en-CA/low-fodmap-creamy-ham-and-potato-soup-4?change=true">Canada</a> </div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3 recipe-footer visible-lg"><h3>FREE RECIPES</h3>
+<ul>
+<li><a href="/recipe/recipe_category/breakfast/">Breakfast</a></li>
+<li><a href="/recipe/recipe_category/lunch/">Lunch</a></li>
+<li><a href="/recipe/recipe_category/dinner/">Dinner</a></li>
+<li><a href="/recipe/recipe_category/snacks/">Snacks</a></li>
+<li><a href="/recipe/recipe_category/baking/">Baking</a></li>
+<li><a href="/recipe/recipe_category/side-dishes/">Side Dishes</a></li>
+<li><a href="/low-fodmap-recipe-club/">Premium Recipe</a></li>
+</ul>
+</div>
+<div class="col-md-3 visible-lg"><h3>BLOG</h3>
+<ul>
+<li><a href="/category/getting-started/">Getting Started</a></li>
+<li><a href="/category/elimination-phase/">Elimination Phase</a></li>
+<li><a href="/category/reintroduction-phase/">Reintroduction Phase</a></li>
+<li><a href="/category/low-fodmap-living/">Living</a></li>
+<li><a href="/category/low-fodmap-food-spotlight/">Food Spotlight</a></li>
+<li><a href="/category/low-fodmap-travel/">Travel</a></li>
+</ul>
+</div>
+<div class="col-md-3 "><h3>SHOP</h3>
+<ul>
+<li><a href="/low-fodmap-recipe-club/">Recipe Club</a></li>
+<li><a href="/fodmap-made-easy/">FODMAP Made Easy</a></li>
+<li><a target="_blank" href="https://alittlebityummy.com/low-fodmap-cookbook/">The Gut Friendly Cookbook</a></li>
+<li><a target="_blank" href="/join-our-low-fodmap-club">Pricing</a></li>
+</ul>
+</div>
+<div class="col-md-3 visible-lg"><h3>ABOUT</h3>
+<ul>
+<li><a href="/alanas-story">Alana's Story</a></li>
+<li><a href="/about/meet-our-team/">Meet the team</a></li>
+<li><a href="/about/dietitian-review-process/">Dietitian reviewed</a></li>
+<li><a href="/about/understanding-nutrition-panels/">Nutrition Panels</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+<li><a href="/terms-and-conditions/">Terms & Conditions</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-md-3 visible-xs visible-sm"><h3>MORE</h3>
+<ul>
+<li><a href="/about/meet-the-team/">Meet the team</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+<li><a href="/terms-and-conditions/">Terms & Conditions</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="mobile-search-collapser-title" style="display: none">
+<div class="mobile-menu-search-bar">
+<div class="mobile-logo-container">
+<a href="/">
+<img src="/wp-content/themes/alby-child-theme/images/header-logo.png" class="mobile-logo">
+</a>
+</div>
+<div id="mobileSearch" class="mobile-search-visibility hidden-md hidden-lg">
+<div class="d-inline search-text">
+<aside id="mobileSearchbox"></aside>
+</div>
+<div class="d-inline search-icon">
+<i class="fas fa-search"></i>
+</div>
+</div>
+<div class="mobile-search-xs"></div>
+<div id="menu-button-container">
+<button type="button" id="icon-times-mobile-menu" class="icon-times-show collapse-button">
+<span class="sr-only">Toggle navigation</span>
+<i class="fas fa-times"></i>
+</button>
+</div>
+</div>
+<div class="mobile-button-container">
+<a href="/recipes" class="mobile-button mobile-button-left">
+Free Recipes
+</a>
+<a href="/join-our-low-fodmap-club" class="mobile-button mobile-button-right">
+Low FODMAP Clubs
+</a>
+</div>
+</div>
+<script>
+    jQuery(document).ready(function( $ ) {
+        window.OneSignal = window.OneSignal || [];
+        /* Why use .push? See: http://stackoverflow.com/a/38466780/555547 */
+        window.OneSignal.push(function() {
+            window._oneSignalInitOptions['promptOptions']['slidedown'] = {
+                enabled: true,
+                autoPrompt: true,
+                timeDelay: 20,
+                pageViews: 3
+            };
+
+            window.OneSignal.init(window._oneSignalInitOptions);
+        });
+
+        jQuery('#mobileNavigation').show();
+        $('#navigation').slimmenu(
+        {
+            resizeWidth: '995',
+            collapserTitle: jQuery('#mobile-search-collapser-title').html(),
+            animSpeed: 'fast',
+            easingEffect: null,
+            indentChildren: false,
+            expandIcon: '<span class="glyphicon glyphicon-chevron-right"></span>',
+            collapseIcon: '<span class="glyphicon glyphicon-chevron-left"></span>',
+        });
+    });
+
+</script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true"></script>
+<div id="wdc-loader-wrapper" class="wdc-loader-wrapper">Loading...</div><div id="pum-23898" class="pum pum-overlay pum-theme-23892 pum-theme-23892 popmake-overlay pum-overlay-disabled auto_open click_open" data-popmake="{&quot;id&quot;:23898,&quot;slug&quot;:&quot;april-sale-banner&quot;,&quot;theme_id&quot;:23892,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-23898&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;10 days&quot;}},{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-23898&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;10 days&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-23898&quot;],&quot;delay&quot;:&quot;1&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:&quot;1&quot;,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0px&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100px&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;100%&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;0&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fadeAndSlide&quot;,&quot;animation_speed&quot;:&quot;300&quot;,&quot;animation_origin&quot;:&quot;top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:&quot;1&quot;},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false">
+<div id="popmake-23898" class="pum-container popmake theme-23892 size-custom pum-position-fixed">
+<div class="pum-content popmake-content" tabindex="0">
+<h4 style="text-align: center;">Go in the draw to win a one-to-one consult package with an IBS dietitian (worth $365) AND get 25% off our <u><span style="color: #000000;"><a style="color: #000000;" href="https://alittlebityummy.com/fodmap-made-easy/">FODMAP Made Easy</a></span></u> program. </h4>
+<p style="text-align: center;"><strong>Hurry Limited Time Offer.</strong></p>
+</div>
+<button type="button" class="pum-close popmake-close" aria-label="Close">
+X </button>
+</div>
+</div>
+<div id="pum-24164" class="pum pum-overlay pum-theme-24167 pum-theme-mobile-newsletter-theme popmake-overlay pum-overlay-disabled pum-click-to-close auto_open click_open" data-popmake="{&quot;id&quot;:24164,&quot;slug&quot;:&quot;newsletter-popup-mobile-devices&quot;,&quot;theme_id&quot;:24167,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-24164&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;3 month&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-24164&quot;],&quot;delay&quot;:&quot;30000&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:&quot;1&quot;,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;2px&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100px&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;250px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;right bottom&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;10&quot;,&quot;position_right&quot;:&quot;10&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;slide&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;bottom&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]},&quot;conditions&quot;:[[true],[{&quot;target&quot;:&quot;device_is_mobile&quot;,&quot;not_operand&quot;:false,&quot;settings&quot;:[]}]]}" role="dialog" aria-modal="false">
+<div id="popmake-24164" class="pum-container popmake theme-24167 size-custom pum-position-fixed">
+<div class="pum-content popmake-content" tabindex="0">
+<p data-pm-slice="1 1 []"><strong>Get our 10 Most Popular Recipes when you join our newsletter. </strong><span style="text-align: center;"><script type="text/javascript"></script>
+<div class="gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework" data-form-theme="gravity-theme" data-form-index="0" id="gform_wrapper_7"><form method="post" enctype="multipart/form-data" id="gform_7" action="/recipe/en-us/low-fodmap-creamy-ham-and-potato-soup-4/" data-formid="7" novalidate>
+<input type="hidden" class="gforms-pum" value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}" />
+<div class="gform-body gform_body"><div id="gform_fields_7" class="gform_fields top_label form_sublabel_below description_below"><fieldset id="field_7_1" class="gfield gfield--type-name field_sublabel_hidden_label gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_7_1"><legend class="gfield_label gform-field-label gfield_label_before_complex">First Name</legend><div class="ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gform-grid-row" id="input_7_1">
+<span id="input_7_1_3_container" class="name_first gform-grid-col gform-grid-col--size-auto">
+<input type="text" name="input_1.3" id="input_7_1_3" value aria-required="false" />
+<label for="input_7_1_3" class="gform-field-label gform-field-label--type-sub hidden_sub_label screen-reader-text">First</label>
+</span>
+</div></fieldset><div id="field_7_3" class="gfield gfield--type-email gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_7_3"><label class="gfield_label gform-field-label" for="input_7_3">Email</label><div class="ginput_container ginput_container_email">
+<input name="input_3" id="input_7_3" type="email" value class="large" aria-invalid="false" />
+</div></div></div></div>
+<div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_7" class="gform_button button" value="Join Now" onclick="if(window[&quot;gf_submitting_7&quot;]){return false;}  if( !jQuery(&quot;#gform_7&quot;)[0].checkValidity || jQuery(&quot;#gform_7&quot;)[0].checkValidity()){window[&quot;gf_submitting_7&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_7&quot;]){return false;} if( !jQuery(&quot;#gform_7&quot;)[0].checkValidity || jQuery(&quot;#gform_7&quot;)[0].checkValidity()){window[&quot;gf_submitting_7&quot;]=true;}  jQuery(&quot;#gform_7&quot;).trigger(&quot;submit&quot;,[true]); }" />
+<input type="hidden" class="gform_hidden" name="is_submit_7" value="1" />
+<input type="hidden" class="gform_hidden" name="gform_submit" value="7" />
+<input type="hidden" class="gform_hidden" name="gform_unique_id" value />
+<input type="hidden" class="gform_hidden" name="state_7" value="WyJbXSIsImQ4ZDM0YTNkYmMxODZhNGI5MTYzOGEyMzZjNGE2MjJhIl0=" />
+<input type="hidden" class="gform_hidden" name="gform_target_page_number_7" id="gform_target_page_number_7" value="0" />
+<input type="hidden" class="gform_hidden" name="gform_source_page_number_7" id="gform_source_page_number_7" value="1" />
+<input type="hidden" name="gform_field_values" value />
+</div>
+<p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="79" /><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+</div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 7, 'https://alittlebityummy.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_7').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_7');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_7').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_7').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_7').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_7').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_7').val();gformInitSpinner( 7, 'https://alittlebityummy.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [7, current_page]);window['gf_submitting_7'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_7').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [7]);window['gf_submitting_7'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_7').text());}, 50);}else{jQuery('#gform_7').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "7", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_7" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_7";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_7" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [7, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 7, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+</span>Join 32,000 others for weekly recipes &amp; tips.</p>
+</div>
+<button type="button" class="pum-close popmake-close" aria-label="Close">
+X </button>
+</div>
+</div>
+<div id="pum-23512" class="pum pum-overlay pum-theme-6162 pum-theme-default-theme popmake-overlay pum-overlay-disabled pum-click-to-close auto_open click_open" data-popmake="{&quot;id&quot;:23512,&quot;slug&quot;:&quot;newletter-sign-up&quot;,&quot;theme_id&quot;:6162,&quot;cookies&quot;:[{&quot;event&quot;:&quot;form_submission&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-23512&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;364 days&quot;,&quot;form&quot;:&quot;gravityforms_5&quot;,&quot;only_in_popup&quot;:true}},{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-23512&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;1 month&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-23512&quot;],&quot;delay&quot;:&quot;30000&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:true,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:&quot;1&quot;,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0px&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100px&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;300px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;right bottom&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;10&quot;,&quot;position_right&quot;:&quot;10&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;slide&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;bottom&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false">
+<div id="popmake-23512" class="pum-container popmake theme-6162 size-custom pum-position-fixed">
+<div class="pum-content popmake-content" tabindex="0">
+<p><img fetchpriority="high" decoding="async" class="aligncenter size-medium wp-image-23513" src="https://alittlebityummy.com/wp-content/uploads/2023/09/10-Mos-Popular-Low-FODMAP-Recipes-1-300x200.jpg" alt width="300" height="200" srcset="https://alittlebityummy.com/wp-content/uploads/2023/09/10-Mos-Popular-Low-FODMAP-Recipes-1-300x200.jpg 300w, https://alittlebityummy.com/wp-content/uploads/2023/09/10-Mos-Popular-Low-FODMAP-Recipes-1-768x513.jpg 768w, https://alittlebityummy.com/wp-content/uploads/2023/09/10-Mos-Popular-Low-FODMAP-Recipes-1.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p style="text-align: center;" data-pm-slice="1 1 []"><span style="color: #5b8393;"><strong>Get our 10 Most Popular Recipes when you join our newsletter.</strong></span></p>
+<p style="text-align: center;" data-pm-slice="1 1 []">
+<div class="gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework" data-form-theme="gravity-theme" data-form-index="0" id="gform_wrapper_5"><form method="post" enctype="multipart/form-data" id="gform_5" action="/recipe/en-us/low-fodmap-creamy-ham-and-potato-soup-4/" data-formid="5" novalidate>
+<input type="hidden" class="gforms-pum" value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}" />
+<div class="gform-body gform_body"><div id="gform_fields_5" class="gform_fields top_label form_sublabel_below description_below"><fieldset id="field_5_1" class="gfield gfield--type-name field_sublabel_hidden_label gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_5_1"><legend class="gfield_label gform-field-label gfield_label_before_complex">First Name</legend><div class="ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gform-grid-row" id="input_5_1">
+<span id="input_5_1_3_container" class="name_first gform-grid-col gform-grid-col--size-auto">
+<input type="text" name="input_1.3" id="input_5_1_3" value aria-required="false" />
+<label for="input_5_1_3" class="gform-field-label gform-field-label--type-sub hidden_sub_label screen-reader-text">First</label>
+</span>
+</div></fieldset><div id="field_5_3" class="gfield gfield--type-email gfield--width-full field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible" data-js-reload="field_5_3"><label class="gfield_label gform-field-label" for="input_5_3">Email</label><div class="ginput_container ginput_container_email">
+<input name="input_3" id="input_5_3" type="email" value class="large" aria-invalid="false" />
+</div></div></div></div>
+<div class="gform_footer before"> <input type="submit" id="gform_submit_button_5" class="gform_button button" value="Get Your Free Ebook" onclick="if(window[&quot;gf_submitting_5&quot;]){return false;}  if( !jQuery(&quot;#gform_5&quot;)[0].checkValidity || jQuery(&quot;#gform_5&quot;)[0].checkValidity()){window[&quot;gf_submitting_5&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_5&quot;]){return false;} if( !jQuery(&quot;#gform_5&quot;)[0].checkValidity || jQuery(&quot;#gform_5&quot;)[0].checkValidity()){window[&quot;gf_submitting_5&quot;]=true;}  jQuery(&quot;#gform_5&quot;).trigger(&quot;submit&quot;,[true]); }" />
+<input type="hidden" class="gform_hidden" name="is_submit_5" value="1" />
+<input type="hidden" class="gform_hidden" name="gform_submit" value="5" />
+<input type="hidden" class="gform_hidden" name="gform_unique_id" value />
+<input type="hidden" class="gform_hidden" name="state_5" value="WyJbXSIsImQ4ZDM0YTNkYmMxODZhNGI5MTYzOGEyMzZjNGE2MjJhIl0=" />
+<input type="hidden" class="gform_hidden" name="gform_target_page_number_5" id="gform_target_page_number_5" value="0" />
+<input type="hidden" class="gform_hidden" name="gform_source_page_number_5" id="gform_source_page_number_5" value="1" />
+<input type="hidden" name="gform_field_values" value />
+</div>
+<p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="47" /><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+</div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 5, 'https://alittlebityummy.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_5').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_5');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_5').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_5').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_5').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_5').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_5').val();gformInitSpinner( 5, 'https://alittlebityummy.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [5, current_page]);window['gf_submitting_5'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_5').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [5]);window['gf_submitting_5'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_5').text());}, 50);}else{jQuery('#gform_5').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "5", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_5" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_5";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_5" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [5, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 5, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+</p>
+<p style="text-align: center;" data-pm-slice="1 1 []"><span style="color: #11a4b0;"><strong>Join 32,000 others.</strong></span> <span style="color: #5b8393;"><strong>Get weekly tips and recipes.</strong></span></p>
+</div>
+<button type="button" class="pum-close popmake-close" aria-label="Close">
+CLOSE </button>
+</div>
+</div>
+
+<div id="pbe-above-header-wa-wrap">
+</div>
+
+<div id="pbe-below-header-wa-wrap">
+</div>
+
+<div id="pbe-footer-wa-wrap">
+</div>
+<div id="pbe-above-content-wa-wrap">
+</div>
+<div id="pbe-below-content-wa-wrap">
+</div>
+
+<script>
+        jQuery(function ($) {
+            // Above header - Added inside #main-header wrap
+            $("#main-header").prepend($("#pbe-above-header-wa-wrap"));
+            $("#pbe-above-header-wa-wrap").show();
+            // Below header - Added inside #main-header wrap
+            $("#main-header").append($("#pbe-below-header-wa-wrap"));
+            $("#pbe-below-header-wa-wrap").show();
+            // Footer - Added before #main-footer
+            $("#main-footer").before($("#pbe-footer-wa-wrap"));
+            $("#pbe-below-header-wa-wrap").show();
+            // Above Content - Added before #main-content
+            $("#main-content").prepend($("#pbe-above-content-wa-wrap"));
+            $("#pbe-above-content-wa-wrap").show();
+            // Below Content - Added after #main-content
+            $("#main-content").append($("#pbe-below-content-wa-wrap"));
+            $("#pbe-below-content-wa-wrap").show();
+        });
+    </script>
+
+<script type="text/javascript">
+var sbiajaxurl = "https://alittlebityummy.com/wp-admin/admin-ajax.php";
+
+</script>
+<script type="text/javascript">
+                    var ds_pbe_layouts = [{"text":"Free Class Layout","value":"24464"},{"text":"Sales page banner purple","value":"23860"},{"text":"Take Control Blog Block","value":"23255"},{"text":"Thin Banner for Sales Page","value":"22711"},{"text":"Collapsible Testimonials","value":"22151"},{"text":"Words from our Community","value":"22107"},{"text":"price_2","value":"21499"},{"text":"price_01","value":"21498"},{"text":"pricing1","value":"21497"},{"text":"Old Pricing 2","value":"21068"},{"text":"Old Pricing 1","value":"21067"},{"text":"shop metric ebook","value":"20202"},{"text":"shop imperial digital ebook","value":"20201"},{"text":"Default Fodmap header","value":"20122"},{"text":"Black Friday Header 2","value":"20109"},{"text":"Black Friday Header","value":"20107"},{"text":"Free low FODMAP ebook - sign up module","value":"19935"},{"text":"FODMAP Made Easy Sales Page Sept 2022","value":"19734"},{"text":"FAQ Sales Page","value":"19137"},{"text":"popular blog topics","value":"18725"},{"text":"CTA for Club + Cookbook","value":"18723"},{"text":"Blog Topics Slider","value":"18351"},{"text":"New Home Page May 2022","value":"18195"},{"text":"Getting Started Article Final 2022","value":"18168"},{"text":"New Getting Started Article 2022","value":"18144"},{"text":"Unlock Recipes Button","value":"17894"},{"text":"Ingredient Info Recipe Categories","value":"17851"},{"text":"Unlock Premium Recipes Button Ingredient Pages","value":"16486"},{"text":"Your FODMAP Guide Pitch","value":"16323"},{"text":"Ingredient Slider for Ingredient Template","value":"16322"},{"text":"Newletter Ebook Mar 2022","value":"15665"},{"text":"Inline Newsletter Sign Up","value":"15620"},{"text":"I'm Ready To Join Pricing Module","value":"14963"},{"text":"button for homepage recipe categories","value":"14904"},{"text":"Wellness Club Sales 21 Dec 2021","value":"14758"},{"text":"Recipe Round Up Template","value":"14654"},{"text":"Sale Page Nov 2021","value":"14635"},{"text":"Black Friday Sales Page","value":"14562"},{"text":"Recipe FAQs Catchi Design","value":"13748"},{"text":"Choose A Plan Heading","value":"13484"},{"text":"Frequently Asked Questions","value":"13483"},{"text":"catchi sales layout mobile optimised","value":"13482"},{"text":"compare our plans header","value":"13481"},{"text":"Catchi Design","value":"13463"},{"text":"FAQ Section","value":"13361"},{"text":"Dietitian Review Team","value":"13360"},{"text":"Billing Details & Refunds","value":"13275"},{"text":"New Contact Us Page","value":"13119"},{"text":"Nutrition Panel New Page","value":"13097"},{"text":"New Publications Page Layout","value":"13092"},{"text":"New Media Page Layout","value":"13091"},{"text":"Learn More White Button","value":"13087"},{"text":"Alana's Story Layout","value":"13067"},{"text":"ALBY Shop Product Module","value":"13031"},{"text":"Dietitian Review Team Section with button","value":"13028"},{"text":"Learn About Section","value":"13027"},{"text":"Ready to take control of gut module - about pages","value":"13000"},{"text":"Blue Page Heading","value":"12985"},{"text":"Want To Join Us","value":"12982"},{"text":"Social Sales Page T&C","value":"12820"},{"text":"Black Friday T&C's Paragraph","value":"12793"},{"text":"Black Friday Countdown Banner","value":"12782"},{"text":"September 2020 top icon","value":"12518"},{"text":"Bottom Part Blog Ad Sept 2020","value":"12504"},{"text":"top part of blog ad September 2020","value":"12498"},{"text":"Iframe Sept 2020 Not Global","value":"12425"},{"text":"New Sales Page Sept 2020","value":"12343"},{"text":"Old FODMAP Club Sales Page September 2020","value":"12334"},{"text":"Recipe Photo Gallery","value":"12238"},{"text":"Facebook Testimonials","value":"12233"},{"text":"Meet the dietitian team","value":"12232"},{"text":"Meet Alana Mobile","value":"12231"},{"text":"Meet Alana Desktop","value":"12230"},{"text":"As Seen In Slider","value":"12227"},{"text":"Value Packed Club Module","value":"12224"},{"text":"4 testimonial layout","value":"12219"},{"text":"Course Info Logo","value":"12215"},{"text":"Understand your body Heading","value":"12214"},{"text":"Hundreds of Recipes Module","value":"12213"},{"text":"Pricing Banner","value":"12210"},{"text":"Complete FODMAP Program Banner","value":"12209"},{"text":"2 Testimonials","value":"12206"},{"text":"Expert Support Full Width Module","value":"12199"},{"text":"Benefit + Video Module","value":"12198"},{"text":"How We Can Help Module","value":"12197"},{"text":"FODMAP Diet Benefits Module","value":"12193"},{"text":"Why Low FODMAP Module","value":"12191"},{"text":"Elimination Blog - Divi","value":"12097"},{"text":"Label Reading Blog - Divi","value":"12093"},{"text":"Portion Size Blog","value":"12007"},{"text":"Dietitian Blog","value":"11987"},{"text":"Global Blog Desktop Ad","value":"11389"},{"text":"Summary Blog Box","value":"11252"},{"text":"Joanna Baker Profile","value":"11144"},{"text":"Alana Scott Profile","value":"11143"},{"text":"Anna Sloan Profile","value":"11142"},{"text":"Geraldine Profile","value":"11140"},{"text":"25% off notice updated","value":"11133"},{"text":"stay25 discount notice","value":"11118"},{"text":"IBS Support Page Layout","value":"11023"},{"text":"Pricing Table with Cancel Icon","value":"10942"},{"text":"Sneak Peak Gallery","value":"10926"},{"text":"Course Content Info","value":"10920"},{"text":"Empower Yourself Header","value":"10919"},{"text":"Program Pitch","value":"10917"},{"text":"75% off header","value":"10910"},{"text":"Symptom List","value":"10908"},{"text":"75% off heading","value":"10907"},{"text":"Benefits of low FODMAP diet","value":"10836"},{"text":"Low FODMAP Diet Benefit Module","value":"10834"},{"text":"Image with Text Overlay Header for Sales Page Desktop","value":"10825"},{"text":"Club page layout March 16","value":"10822"},{"text":"Stuck at home updated","value":"10810"},{"text":"Stuck at home module","value":"10806"},{"text":"Test Recipe Image 3","value":"10721"},{"text":"Test Recipe Image 2","value":"10720"},{"text":"Test Recipe Photo 1","value":"10719"},{"text":"Lucy Testimonial","value":"10668"},{"text":"Margaret Testimonial","value":"10667"},{"text":"Georgina Testimonial","value":"10666"},{"text":"Angela Testimonial","value":"10665"},{"text":"FAQ Accordion","value":"10647"},{"text":"Starting Modules for Sales Page Mobile","value":"10617"},{"text":"Reintroduction 2","value":"10608"},{"text":"Reintroduction Article Layout","value":"10599"},{"text":"Recipe Club Template","value":"10443"},{"text":"Low FODMAP Blurb Module","value":"10366"},{"text":"Pitch Page with Sale banners for Wellness Club","value":"10356"},{"text":"Plant Based Sales CTA","value":"10331"},{"text":"Vegan Club Pitch Module","value":"10317"},{"text":"Recipe Club Recipe Preview Template Page","value":"10189"},{"text":"Solid Colour Module","value":"10182"},{"text":"Recipe Club Recipe Photo Preview","value":"10146"},{"text":"Recipe Club Header","value":"10144"},{"text":"Secondary Pitch Page with Discounts","value":"9727"},{"text":"Flash Sale Countdown with Extra Sentence","value":"9626"},{"text":"Flash Sale Countdown Regular","value":"9623"},{"text":"Billing & Refunds","value":"9590"},{"text":"New Home Page Design August 2019","value":"9540"},{"text":"Old Home Page","value":"9537"},{"text":"Alana Header Mobile Photo","value":"9530"},{"text":"Alana Header Mobile","value":"9529"},{"text":"Green Button Style","value":"9501"},{"text":"Meet Our Team from Home Page Module","value":"9496"},{"text":"The Gut Friendly Cookbook Module","value":"9493"},{"text":"Choose Your Club Button","value":"9492"},{"text":"Support Mobile Section","value":"9487"},{"text":"Support Module Section","value":"9486"},{"text":"Nutrition Mobile Section","value":"9485"},{"text":"Nutrition Module Section","value":"9484"},{"text":"GUIDANCE Module Section","value":"9483"},{"text":"Find You Happy Gut Wellness Pitch 4 Icons","value":"9480"},{"text":"Home Page Blog Area","value":"9477"},{"text":"Expert Dietitian Reviewed Divider Header","value":"9475"},{"text":"Homepage Recipe Area","value":"9473"},{"text":"what is low FODMAP diet module","value":"9470"},{"text":"As Seen In Banner","value":"9468"},{"text":"Recipes, Education, Support Module","value":"9463"},{"text":"Testimonial Area 2","value":"9435"},{"text":"Testimonial Area 1","value":"9424"},{"text":"Iframe with correct background","value":"9392"},{"text":"Pitch Page Version 1","value":"9374"},{"text":"Sales Page Version 2","value":"9373"},{"text":"Pricing Iframe","value":"9321"},{"text":"Bottom Page Module","value":"8618"},{"text":"Bottom Page Module","value":"8617"},{"text":"Dietitian Team Module","value":"8615"},{"text":"Author Section Alana","value":"8574"},{"text":"Individual Dietitian Team Members Layout","value":"8285"},{"text":"Vanessa","value":"7992"},{"text":"Premium Recipe Pitch Page","value":"7733"},{"text":"Call to Action Button Mini Pitch Page","value":"7654"},{"text":"Button Under Icon For Mini Pitch Pages","value":"7624"},{"text":"Icons For Mini Pitch Pages","value":"7623"},{"text":"Header for Mini Pitch Pages","value":"7622"},{"text":"Lauren Renlund","value":"7128"},{"text":"Alia Co Founder","value":"7126"},{"text":"Kate Watson","value":"7124"},{"text":"Jessie Elvy","value":"7122"},{"text":"Joanna 2","value":"7112"},{"text":"Audrey","value":"7108"},{"text":"Geraldine Van Oord","value":"7107"},{"text":"Joanna Baker","value":"7106"},{"text":"Founder Alana","value":"7105"},{"text":"Hero Slider 2","value":"7050"},{"text":"Hero Slider 1","value":"7043"},{"text":"Divi Builder Demo","value":"4958"}];
+                </script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/wow-divi-carousel/assets/js/slick.min.js?ver=2.3.3" id="wdc-slick-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/comment-reply.min.js?ver=6.4.4" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.10" id="superfish-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=3.4.0" id="superfish-args-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.4.0" id="skip-links-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/tether.min.js?ver=1.6.25" id="tether-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/bootstrap.min.js?ver=1.6.25" id="bootstrap-js-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/jquery.slimmenu.min.js?ver=1.6.25" id="slimmenu-js-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/custom.js?ver=1.6.25" id="custom-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/carousel.js?ver=1.6.25" id="carousel-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/vendor/algoliasearch.jquery.js?ver=1.6.25" id="algolia-client-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/vendor/instantsearch.development.js?ver=1.6.25" id="algolia-instant-search-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/themes/alby-child-theme/js/header-algolia-search.js?ver=1.6.25" id="algolia-search-2-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/divi-builder/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.24.0" id="fitvids-js"></script>
+<script type="text/javascript" id="divi-builder-custom-script-js-extra">
+/* <![CDATA[ */
+var et_builder_utils_params = {"condition":{"diviTheme":false,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/alittlebityummy.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/alittlebityummy.com\/wp-content\/themes\/genesis\/images","builder_images_uri":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/divi-builder\/includes\/builder\/images","et_frontend_nonce":"bfa0504611","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"ed90b4739f","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"14779","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/divi-builder\/includes\/builder\/frontend-builder\/assets\/vendors","accent_color":"#7EBEC5","waypoints_options":{"context":[".pum-overlay"]}};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/divi-builder/js/scripts.min.js?ver=4.24.0" id="divi-builder-custom-script-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/wow-divi-carousel/scripts/frontend-bundle.min.js?ver=2.3.3" id="wow-divi-carousel-frontend-bundle-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.18.2","pm_dir_url":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/alittlebityummy.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/alittlebityummy.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"6162","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"https:\/\/alittlebityummy.com\/wp-json\/pum\/v1","page":"14779"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/alittlebityummy.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-23898":{"triggers":[{"type":"auto_open","settings":{"cookie_name":["pum-23898"],"delay":"1"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-23898","key":"","session":null,"path":true,"time":"10 days"}},{"event":"on_popup_close","settings":{"name":"pum-23898","key":"","session":null,"path":true,"time":"10 days"}}],"disable_on_mobile":false,"disable_on_tablet":false,"explain":null,"type_section":null,"theme_id":"23892","size":"custom","responsive_min_width":"0px","responsive_max_width":"100px","custom_width":"100%","custom_height_auto":true,"custom_height":"380px","scrollable_content":false,"animation_type":"fadeAndSlide","animation_speed":"300","animation_origin":"top","open_sound":"none","custom_sound":"","location":"center top","position_top":"0","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":true,"stackable":true,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":true,"close_on_f4_press":true,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"23892","id":23898,"slug":"april-sale-banner"},"pum-24164":{"triggers":[{"type":"auto_open","settings":{"cookie_name":["pum-24164"],"delay":"30000"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-24164","key":"","session":null,"path":true,"time":"3 month"}}],"disable_on_mobile":false,"disable_on_tablet":false,"explain":null,"type_section":null,"theme_id":"24167","size":"custom","responsive_min_width":"2px","responsive_max_width":"100px","custom_width":"250px","custom_height_auto":true,"custom_height":"380px","scrollable_content":false,"animation_type":"slide","animation_speed":"350","animation_origin":"bottom","open_sound":"none","custom_sound":"","location":"right bottom","position_top":"100","position_bottom":"10","position_left":"0","position_right":"10","position_from_trigger":false,"position_fixed":true,"overlay_disabled":true,"stackable":true,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"mobile-newsletter-theme","id":24164,"slug":"newsletter-popup-mobile-devices","conditions":[[true],[{"target":"device_is_mobile","not_operand":false,"settings":[]}]]},"pum-23512":{"triggers":[{"type":"auto_open","settings":{"cookie_name":["pum-23512"],"delay":"30000"}}],"cookies":[{"event":"form_submission","settings":{"name":"pum-23512","key":"","session":null,"path":true,"time":"364 days","form":"gravityforms_5","only_in_popup":true}},{"event":"on_popup_close","settings":{"name":"pum-23512","key":"","session":null,"path":true,"time":"1 month"}}],"disable_on_mobile":true,"disable_on_tablet":false,"explain":null,"type_section":null,"theme_id":"6162","size":"custom","responsive_min_width":"0px","responsive_max_width":"100px","custom_width":"300px","custom_height_auto":true,"custom_height":"380px","scrollable_content":false,"animation_type":"slide","animation_speed":"350","animation_origin":"bottom","open_sound":"none","custom_sound":"","location":"right bottom","position_top":"100","position_bottom":"10","position_left":"0","position_right":"10","position_from_trigger":false,"position_fixed":true,"overlay_disabled":true,"stackable":true,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"atc_promotion":null,"theme_slug":"default-theme","id":23512,"slug":"newletter-sign-up"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&amp;ver=1.18.2" id="popup-maker-site-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js"></script>
+<script type="text/javascript" defer="defer" src="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=54e7080aa7a02c83aa61fae430b9d869" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"114892f369193a78c46c17ebdddf84b7"}}},"hmr_dev":"","public_path":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="https://alittlebityummy.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=bab19fd84843dabc070e73326d787910" id="gform_gravityforms_theme-js"></script>
+<script defer type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1712827225" id="akismet-frontend-js"></script>
+<script type="text/javascript" id="pum-atc-js-extra">
+/* <![CDATA[ */
+var pum_atc_vars = {"page":"14779"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/popup-maker-advanced-targeting-conditions//assets/js/pum-atc-site.min.js?ver=1.4.6" id="pum-atc-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/popup-maker/assets/js/vendor/mobile-detect.min.js?ver=1.3.3" id="mobile-detect-js"></script>
+<script type="text/javascript" id="et-builder-cpt-modules-wrapper-js-extra">
+/* <![CDATA[ */
+var et_modules_wrapper = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/divi-builder/includes/builder/scripts/cpt-modules-wrapper.js?ver=4.24.0" id="et-builder-cpt-modules-wrapper-js"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/divi-builder/core/admin/js/common.js?ver=4.24.0" id="et-core-common-js"></script>
+<script type="text/javascript" src="https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=1.0.0" id="remote_sdk-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/tasty-pins/assets/js/savepin.js?ver=2.1" id="tasty-pins-frontend-js"></script>
+<script type="text/javascript" id="ds-pbe-fb-js-extra">
+/* <![CDATA[ */
+var ds_pbe_fb_config = {"editorCssUrl":"https:\/\/alittlebityummy.com\/wp-content\/plugins\/ds-page-builder-everywhere\/pbe-li.css","editLayoutUrl":"https:\/\/alittlebityummy.com\/wp-admin\/post.php?action=edit&post="};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://alittlebityummy.com/wp-content/plugins/ds-page-builder-everywhere/pbe-li.js?ver=6.4.4" id="ds-pbe-fb-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 7) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "7", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_7" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_7";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_7" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [7, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 7, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 5) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "5", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_5" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_5";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_5" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [5, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 5, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+</body></html>
