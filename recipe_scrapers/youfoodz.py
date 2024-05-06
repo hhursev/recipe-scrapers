@@ -3,8 +3,8 @@ import json
 
 import requests
 
-from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_url_slug
+from ._abstract import HEADERS, AbstractScraper
+from ._utils import get_minutes, get_url_slug, get_yields
 
 
 class Youfoodz(AbstractScraper):
@@ -15,7 +15,9 @@ class Youfoodz(AbstractScraper):
         # Access token is returned in the original HTML
         access_token = self._get_access_token()
         # Access token needed for the API call
-        self.data = self._get_recipe_data(access_token)
+        self.data = self._get_recipe_data(
+            access_token, proxies=proxies, timeout=timeout
+        )
 
     @classmethod
     def host(cls):
@@ -44,7 +46,7 @@ class Youfoodz(AbstractScraper):
 
     def yields(self):
         yields = self.data["yields"][0]["yields"]
-        return f"{yields} servings"
+        return get_yields(str(yields))
 
     def image(self):
         return self.data["imageLink"]
@@ -91,6 +93,14 @@ class Youfoodz(AbstractScraper):
             "sodiumContent": sodium_content,
         }
 
+    def language(self):
+        html = self.soup.find("html")
+
+        if not html:
+            return None
+
+        return html.get("lang")
+
     def _get_access_token(self):
         json_script = self.soup.find("script", {"id": "__NEXT_DATA__"})
         json_data = json.loads(json_script.text)
@@ -98,13 +108,15 @@ class Youfoodz(AbstractScraper):
             "access_token"
         ]
 
-    def _get_recipe_data(self, access_token):
+    def _get_recipe_data(self, access_token, proxies=None, timeout=None):
         recipe_slug = get_url_slug(self.url)
         recipe_id = recipe_slug.split("-")[-1]
 
         response = requests.get(
             f"https://www.youfoodz.com/gw/recipes/recipes/{recipe_id}",
-            headers={"Authorization": f"Bearer {access_token}"},
+            headers={**HEADERS, "Authorization": f"Bearer {access_token}"},
+            proxies=proxies,
+            timeout=timeout,
         )
 
         return response.json()

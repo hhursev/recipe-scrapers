@@ -34,7 +34,7 @@ class TestYoufoodz(ScraperTest):
         self.assertEqual(None, self.harvester_class.total_time())
 
     def test_yields(self):
-        self.assertEqual("1 servings", self.harvester_class.yields())
+        self.assertEqual("1 serving", self.harvester_class.yields())
 
     def test_image(self):
         self.assertEqual(
@@ -92,3 +92,6 @@ class TestYoufoodz(ScraperTest):
             },
             self.harvester_class.nutrients(),
         )
+
+    def test_language(self):
+        self.assertEqual("en-AU", self.harvester_class.language())
