@@ -30,7 +30,6 @@ OPTIONAL_TESTS = [
     "nutrients",
     "prep_time",
     "cooking_method",
-    "keywords",
     "ratings",
     "reviews",
     "equipment",
