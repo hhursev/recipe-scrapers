@@ -24,7 +24,10 @@ class Youfoodz(AbstractScraper):
         return "youfoodz.com"
 
     def author(self):
-        return "Youfoodz"
+        author_meta = self.soup.find("meta", {"name": "author"})
+        if not author_meta:
+            return "Youfoodz"
+        return author_meta.get("content")
 
     def title(self):
         name = self.data["name"]
