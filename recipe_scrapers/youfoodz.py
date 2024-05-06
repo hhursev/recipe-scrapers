@@ -97,12 +97,7 @@ class Youfoodz(AbstractScraper):
         }
 
     def language(self):
-        html = self.soup.find("html")
-
-        if not html:
-            return None
-
-        return html.get("lang")
+        return super().language()
 
     def _get_access_token(self):
         json_script = self.soup.find("script", {"id": "__NEXT_DATA__"})
