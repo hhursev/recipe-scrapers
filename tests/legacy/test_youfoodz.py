@@ -95,3 +95,9 @@ class TestYoufoodz(ScraperTest):
 
     def test_language(self):
         self.assertEqual("en-AU", self.harvester_class.language())
+
+    def test_canonical_url(self):
+        self.assertEqual(
+            "https://www.youfoodz.com/recipes/nonnas-spaghetti-bolognese-with-italian-herbs-and-garlic-300g-660a602770e8f6aef4341177",
+            self.harvester_class.canonical_url(),
+        )
