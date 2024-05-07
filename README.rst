@@ -305,8 +305,8 @@ Scrapers available for:
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
 - `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
 - `https://plowingthroughlife.com/ <https://plowingthroughlife.com/>`_
-- `https://potatorolls.com/ <https://potatorolls.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
+- `https://potatorolls.com/ <https://potatorolls.com/>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
 - `https://www.primaledgehealth.com/ <https://www.primaledgehealth.com/>`_
@@ -362,8 +362,8 @@ Scrapers available for:
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
-- `https://www.tasteatlas.com/ <https://www.tasteatlas.com/>`_
 - `https://www.taste.com.au/ <https://www.taste.com.au/>`_
+- `https://www.tasteatlas.com/ <https://www.tasteatlas.com/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_

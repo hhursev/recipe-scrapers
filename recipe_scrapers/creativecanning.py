@@ -6,4 +6,4 @@ from ._abstract import AbstractScraper
 class CreativeCanning(AbstractScraper):
     @classmethod
     def host(cls):
-        return "practicalselfreliance.com"
+        return "creativecanning.com"

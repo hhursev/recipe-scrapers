@@ -185,6 +185,7 @@ from .minimalistbaker import Minimalistbaker
 from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mob import Mob
+from .mobkitchen import MobKitchen
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
@@ -544,8 +545,8 @@ SCRAPERS = {
     Minimalistbaker.host(): Minimalistbaker,
     MinistryOfCurry.host(): MinistryOfCurry,
     Misya.host(): Misya,
-    Mob.host(domain="mob.co.uk"): Mob,
-    Mob.host(domain="mobkitchen.co.uk"): Mob,
+    Mob.host(): Mob,
+    MobKitchen.host(): MobKitchen,
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,

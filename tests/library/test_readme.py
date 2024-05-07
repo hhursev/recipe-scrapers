@@ -27,6 +27,12 @@ def get_scraper_index() -> ScraperIndex:
     for scraper, domains in get_scraper_domains().items():
         shared_prefix = get_shared_prefix(domains)
 
+        if not shared_prefix:
+            # Treat all as primary domains
+            for domain in domains:
+                scraper_index[domain] = (scraper, [domain])
+            continue
+
         # Index the primary domain and include their secondary domains minus the shared prefix
         primary_domain = scraper.host()
         scraper_index[primary_domain] = (
