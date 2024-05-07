@@ -11,11 +11,10 @@ INGREDIENT_SEPARATOR = "• "
 BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers/issues"
 
 
-class FieldNotProvidedByWebsiteWarning(Warning):
-    pass
+def _field_not_provided_by_website_warning(host, field):
+    class FieldNotProvidedByWebsiteWarning(Warning):
+        pass
 
-
-def field_not_provided_by_website_warning(host, field):
     message = (
         "{} doesn't support seem to support the {} field. "
         "If you know this to be untrue for some recipe, please submit a bug report at {}"
@@ -43,7 +42,7 @@ class FelixKitchen(AbstractScraper):
         return normalize_string(found.get("content"))
 
     def total_time(self):
-        field_not_provided_by_website_warning(self.host(), "total_time")
+        _field_not_provided_by_website_warning(self.host(), "total_time")
         return None
 
     def yields(self):
