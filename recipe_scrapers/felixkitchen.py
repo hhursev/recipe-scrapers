@@ -1,10 +1,30 @@
 # mypy: allow-untyped-defs
 
+import warnings
+
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, unsupported_field_warning
+from ._utils import normalize_string
 
 MARK_SEPARATOR = " "
 INGREDIENT_SEPARATOR = "• "
+
+BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers/issues"
+
+
+class FieldNotProvidedByWebsiteWarning(Warning):
+    pass
+
+
+def field_not_provided_by_website_warning(host, field):
+    message = (
+        "{} doesn't support seem to support the {} field. "
+        "If you know this to be untrue for some recipe, please submit a bug report at {}"
+    )
+
+    warnings.warn(
+        message.format(host, field, BUG_REPORT_LINK),
+        category=FieldNotProvidedByWebsiteWarning,
+    )
 
 
 class FelixKitchen(AbstractScraper):
@@ -13,17 +33,17 @@ class FelixKitchen(AbstractScraper):
         return "felix.kitchen"
 
     def author(self):
-        return "FEL!X KITCHEN"
+        result = self.soup.select("span.author > a")
+        if not result:
+            return None
+        return result[0].text
 
     def title(self):
         found = self.soup.find("meta", {"property": "og:title"})
         return normalize_string(found.get("content"))
 
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
-        unsupported_field_warning(self.host(), "total_time")
+        field_not_provided_by_website_warning(self.host(), "total_time")
         return None
 
     def yields(self):

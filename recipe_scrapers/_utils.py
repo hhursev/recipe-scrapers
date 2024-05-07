@@ -3,7 +3,6 @@
 import html
 import math
 import re
-import warnings
 
 import isodate
 
@@ -71,12 +70,6 @@ RECIPE_YIELD_TYPES = (
     ("item", "items"),
     # ... add more types as needed, in (singular, plural) format ...
 )
-
-BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers/issues"
-
-
-class UnsupportedFieldWarning(Warning):
-    pass
 
 
 def _extract_fractional(input_string: str) -> float:
@@ -281,14 +274,3 @@ def change_keys(obj, convert):
 def get_url_slug(url):
     path = url_path_to_dict(url).get("path")
     return path.split("/")[-1]
-
-
-def unsupported_field_warning(host, field):
-    message = (
-        "{} doesn't support seem to support the {} field. "
-        "If you know this to be untrue for some recipe, please submit a bug report at {}"
-    )
-
-    warnings.warn(
-        message.format(host, field, BUG_REPORT_LINK), category=UnsupportedFieldWarning
-    )

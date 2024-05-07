@@ -1,12 +1,10 @@
 import json
 import pathlib
 import unittest
-import warnings
 from typing import Callable
 
 from recipe_scrapers import scrape_html
 from recipe_scrapers._grouping_utils import IngredientGroup
-from recipe_scrapers._utils import UnsupportedFieldWarning
 
 MANDATORY_TESTS = [
     "author",
@@ -74,8 +72,6 @@ def test_func_factory(
     """
 
     def test_func(self):
-        warnings.filterwarnings("ignore", category=UnsupportedFieldWarning)
-
         with open(testjson, encoding="utf-8") as f:
             expect = json.load(f)
             expect["ingredient_groups"] = [
