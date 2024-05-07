@@ -57,7 +57,9 @@
   "title": "Rijkgevulde vegan pastasalade",
   "total_time": 20,
   "yields": "4 servings",
-  "dietary_restrictions": "Vegan Diet",
+  "dietary_restrictions": [
+    "Vegan Diet"
+  ],
   "keywords": [
     "veganistisch",
     "vooraf te maken",

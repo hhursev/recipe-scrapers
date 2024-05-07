@@ -292,6 +292,19 @@ class SchemaOrg:
             return round(float(ratings), 2)
         raise SchemaOrgException("No ratingValue in SchemaOrg.")
 
+    def ratings_count(self):
+        ratings = self.data.get("aggregateRating") or self._find_entity(
+            self.data, "AggregateRating"
+        )
+        if isinstance(ratings, dict):
+            rating_id = ratings.get("@id")
+            if rating_id:
+                ratings = self.ratingsdata.get(rating_id, ratings)
+            ratings = ratings.get("ratingCount") or ratings.get("reviewCount")
+        if ratings:
+            return round(float(ratings), 2) if float(ratings) != 0 else None
+        raise SchemaOrgException("No ratingCount in SchemaOrg.")
+
     def cuisine(self):
         cuisine = self.data.get("recipeCuisine")
         if cuisine is None:
@@ -331,7 +344,11 @@ class SchemaOrg:
         dietary_restrictions = self.data.get("suitableForDiet")
         if dietary_restrictions is None:
             raise SchemaOrgException("No dietary restrictions data in SchemaOrg.")
+        if not isinstance(dietary_restrictions, list):
+            dietary_restrictions = [dietary_restrictions]
 
-        if isinstance(dietary_restrictions, list):
-            return ", ".join(format_diet_name(diet) for diet in dietary_restrictions)
-        return format_diet_name(dietary_restrictions)
+        formatted_diets = [format_diet_name(diet) for diet in dietary_restrictions]
+        formatted_diets = ", ".join(formatted_diets)
+        final_diets = csv_to_tags(formatted_diets)
+
+        return final_diets
