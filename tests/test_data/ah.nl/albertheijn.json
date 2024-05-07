@@ -2,7 +2,6 @@
   "author": "Albert Heijn",
   "canonical_url": "ah.nl",
   "category": "hoofdgerecht",
-  "cuisine": "",
   "description": "Vul je pastasalade met semi-gedroogde tomaten, olijven en aubergine. Garneer met verse kruiden en gerookte amandelen voor extra smaakplezier.",
   "host": "ah.nl",
   "image": null,
@@ -53,9 +52,17 @@
     "proteinContent": "17 g eiwit"
   },
   "ratings": 5.0,
+  "ratings_count": 10,
   "site_name": null,
   "title": "Rijkgevulde vegan pastasalade",
   "total_time": 20,
   "yields": "4 servings",
-  "dietary_restrictions": "Vegan Diet"
+  "dietary_restrictions": "Vegan Diet",
+  "keywords": [
+    "veganistisch",
+    "vooraf te maken",
+    "salade",
+    "hoofdgerecht",
+    "koken"
+  ]
 }

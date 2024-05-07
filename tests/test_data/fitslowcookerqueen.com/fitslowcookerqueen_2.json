@@ -57,5 +57,21 @@
   "site_name": "Fit Slow Cooker Queen",
   "title": "Crockpot Chicken with Apples And Honey",
   "total_time": 190,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "cook_time": 180,
+  "nutrients": {
+    "calories": "544 calories",
+    "sugarContent": "36.2 g",
+    "sodiumContent": "442.8 mg",
+    "fatContent": "6.4 g",
+    "saturatedFatContent": "1.4 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "66.1 g",
+    "fiberContent": "5 g",
+    "proteinContent": "55.6 g",
+    "cholesterolContent": "165.5 mg"
+  },
+  "prep_time": 10,
+  "ratings": 5,
+  "ratings_count": 2
 }

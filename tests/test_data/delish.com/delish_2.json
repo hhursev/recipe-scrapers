@@ -70,8 +70,18 @@
     "proteinContent": "1 g"
   },
   "ratings": 3.0,
+  "ratings_count": 3,
   "site_name": "Delish",
   "title": "Apple Cookies",
   "total_time": 100,
-  "yields": "20 servings"
+  "yields": "20 servings",
+  "keywords": [
+    "autumn",
+    "baking",
+    "dessert",
+    "nut-free",
+    "vegetarian"
+  ],
+  "description": "Apple cookies are packed with grated Granny Smith apples and topped with lemony apple pie spice icing.",
+  "prep_time": 20
 }

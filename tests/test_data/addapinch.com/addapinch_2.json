@@ -72,6 +72,7 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 4,
   "site_name": "Add a Pinch",
   "title": "Citrus Scones Recipe with Orange Glaze",
   "total_time": 30,
@@ -79,5 +80,10 @@
   "equipment": [
     "Pastry Blender",
     "Grater/ Zester"
-  ]
+  ],
+  "keywords": [
+    "citrus scones"
+  ],
+  "cook_time": 20,
+  "prep_time": 10
 }

@@ -10,9 +10,6 @@ class SaboresAnjinomoto(AbstractScraper):
     def host(cls):
         return "saboresajinomoto.com.br"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return self.schema.title().capitalize()
 
@@ -23,15 +20,6 @@ class SaboresAnjinomoto(AbstractScraper):
             breadcrumb_items = breadcrumb.find_all("li")
             if len(breadcrumb_items) >= 2:
                 return breadcrumb_items[1].text
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients_list = []
@@ -63,6 +51,3 @@ class SaboresAnjinomoto(AbstractScraper):
             ".ingredients p",
             ".ingredients li",
         )
-
-    def ratings(self):
-        return self.schema.ratings()

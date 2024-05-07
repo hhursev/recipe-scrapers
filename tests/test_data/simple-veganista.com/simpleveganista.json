@@ -81,9 +81,12 @@
     "cholesterolContent": "0 mg"
   },
   "ratings": 4.9,
+  "ratings_count": 11,
   "site_name": "THE SIMPLE VEGANISTA",
   "title": "Vegan Jambalaya",
   "total_time": 45,
   "yields": "6 servings",
-  "cooking_method": "simmer"
+  "cooking_method": "simmer",
+  "cook_time": 30,
+  "prep_time": 15
 }

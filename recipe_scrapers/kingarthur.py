@@ -10,21 +10,6 @@ class KingArthur(AbstractScraper):
     def host(cls):
         return "kingarthurbaking.com"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         """
         King Arthur updated how they format their instructions to include html (instructions wrapped in <p>) in the
@@ -39,6 +24,3 @@ class KingArthur(AbstractScraper):
                 [normalize_string(elm.get_text()) for elm in instruction_elms]
             )
         return schema_instructions
-
-    def ratings(self):
-        return self.schema.ratings()

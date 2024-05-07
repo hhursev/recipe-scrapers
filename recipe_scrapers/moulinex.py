@@ -9,21 +9,6 @@ class Moulinex(AbstractScraper):
     def host(cls):
         return "moulinex.fr"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = self.schema.ingredients()
         spaced_ingredients = [
@@ -34,12 +19,6 @@ class Moulinex(AbstractScraper):
         ]
 
         return spaced_ingredients
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
 
     def site_name(self):
         return "Moulinex"
