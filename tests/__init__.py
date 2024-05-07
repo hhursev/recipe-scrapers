@@ -1,7 +1,9 @@
 import json
 import pathlib
+import sys
 import unittest
 from typing import Callable
+from warnings import catch_warnings
 
 from recipe_scrapers import scrape_html
 from recipe_scrapers._grouping_utils import IngredientGroup
@@ -81,10 +83,13 @@ def test_func_factory(
             ]
         actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
 
+        # Unless warning options are configured, ignore scraper field warnings
+        action = "ignore" if not sys.warnoptions else None
+
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
         for key in MANDATORY_TESTS:
-            with self.subTest(key):
+            with self.subTest(key), catch_warnings(record=True, action=action) as ws:
                 scraper_func = getattr(actual, key)
                 if key in expect.keys():
                     self.assertEqual(
@@ -98,6 +103,10 @@ def test_func_factory(
                         msg=f".{key}() was expected to raise an exception but it did not.",
                     ):
                         scraper_func()
+                warning_categories = ", ".join(sorted(w.category.__name__ for w in ws))
+                if warning_categories:
+                    msg = f".{key}() emitted warnings: {warning_categories}"
+                    self.fail(msg=msg)
 
         # Optional tests
         for key in OPTIONAL_TESTS:
