@@ -238,7 +238,7 @@ def csv_to_tags(csv, lowercase=False):
     tags = []
     for raw_tag in raw_tags:
         tag = raw_tag.strip()
-        if tag.lower() not in seen:
+        if tag and tag.lower() not in seen:
             seen.add(tag.lower())
             tags.append(tag.lower() if lowercase else tag)
     return tags
