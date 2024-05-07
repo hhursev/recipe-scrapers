@@ -3,85 +3,70 @@ import unittest
 from collections import defaultdict
 from typing import Dict, List, Optional, Tuple
 
-from recipe_scrapers import AbstractScraper, SCRAPERS
+from recipe_scrapers import SCRAPERS, AbstractScraper
 
 START_LIST = "-----------------------"
 END_LIST = "(*) offline saved files only"
+
+ScraperIndex = Dict[str, Tuple[AbstractScraper, List[str]]]
 
 
 def get_scraper_domains():
     scraper_domains = defaultdict(list)
     for domain, scraper in SCRAPERS.items():
         primary_domain = scraper.host()
-        if domain is primary_domain:
+        if domain == primary_domain:
             scraper_domains[scraper].insert(0, domain)
         else:
             scraper_domains[scraper].append(domain)
     return scraper_domains
 
 
-def get_scraper_index():
+def get_scraper_index() -> ScraperIndex:
     scraper_index = {}
     for scraper, domains in get_scraper_domains().items():
-
-        # Find the longest-common prefix of the domains
-        shared_prefix = ""
-        while True:
-            if any(len(domain) == len(shared_prefix) for domain in domains):
-                break
-            next_char = domains[0][len(shared_prefix)]
-            if not all(domain.startswith(shared_prefix + next_char) for domain in domains):
-                break
-            shared_prefix += next_char
-
-        shared_prefix, _ = shared_prefix.rsplit(".", 1) if "." in shared_prefix else (shared_prefix, None)
+        shared_prefix = get_shared_prefix(domains)
 
         # Index the primary domain and include their secondary domains minus the shared prefix
         primary_domain = scraper.host()
         scraper_index[primary_domain] = (
             scraper,
-            [domain.removeprefix(shared_prefix) for domain in domains if domain != shared_prefix]
+            [
+                domain.removeprefix(shared_prefix)
+                for domain in domains
+                if domain != shared_prefix
+            ],
         )
 
     # Produce the index sorted by primary domain name
     return scraper_index
 
 
-def determine_sub_level_domain(primary_host, secondary_hosts) -> Optional[str]:
-    if not secondary_hosts:
-        return None
+def get_shared_prefix(domains):
+    """
+    Find the longest-common-prefix of the domains
+    """
+    shared_prefix = ""
+    while True:
+        if any(len(domain) == len(shared_prefix) for domain in domains):
+            break
+        next_char = domains[0][len(shared_prefix)]
+        if not all(domain.startswith(shared_prefix + next_char) for domain in domains):
+            break
+        shared_prefix += next_char
 
-    split_primary_host = primary_host.split(".")
-    split_secondary_hosts = [
-        secondary_host.split(".") for secondary_host in secondary_hosts
-    ]
-    for i, primary_host_part in enumerate(split_primary_host):
-        for split_secondary_host in split_secondary_hosts:
-            if primary_host_part != split_secondary_host[i]:
-                return ".".join(split_primary_host[:i])
+    shared_prefix, _ = (
+        shared_prefix.rsplit(".", 1) if "." in shared_prefix else (shared_prefix, None)
+    )
 
-    return primary_host
-
-
-def get_top_level_domains(primary_host, secondary_hosts) -> List[str]:
-    sub_level_domain = determine_sub_level_domain(primary_host, secondary_hosts)
-
-    if not sub_level_domain:
-        return []
-
-    return [
-        secondary_host[len(sub_level_domain) :] for secondary_host in secondary_hosts
-    ]
+    return shared_prefix
 
 
-def get_supported_scrapers():
-    supported_hosts = get_supported_hosts()
-    supported_scrapers = {}
-    for primary_host in supported_hosts:
-        secondary_hosts = supported_hosts[primary_host]
-        secondary_tlds = get_top_level_domains(primary_host, secondary_hosts)
-        supported_scrapers[primary_host] = secondary_tlds
-    return supported_scrapers
+def get_secondary_domains(
+    scraper_index: ScraperIndex, primary_domain: str
+) -> List[str]:
+    _, suffixes = scraper_index[primary_domain]
+    return [suffix for suffix in suffixes if not primary_domain.endswith(suffix)]
 
 
 def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
@@ -125,10 +110,12 @@ class TestReadme(unittest.TestCase):
 
     def test_includes(self):
         scraper_index = get_scraper_index()
+        primary_domains = sorted(scraper_index.keys())
+
         lines = get_list_lines()
 
         current_line_index = 0
-        for primary_host in scraper_index:
+        for primary_host in primary_domains:
             current_line = lines[current_line_index]
 
             parse_result = parse_primary_line(current_line)
@@ -149,10 +136,9 @@ class TestReadme(unittest.TestCase):
 
             current_line_index += 1
 
-            _, secondary_hosts = scraper_index[primary_host]
+            secondary_hosts = get_secondary_domains(scraper_index, primary_host)
             if secondary_hosts:
                 current_line = lines[current_line_index]
-
                 parse_result = parse_secondary_line(lines[current_line_index])
                 if not parse_result:
                     self.fail(f"Invalid line: {current_line}")
