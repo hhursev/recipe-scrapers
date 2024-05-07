@@ -2,7 +2,6 @@
   "author": "Jamie Lauren & Mollie Katzen",
   "canonical_url": "https://usapears.org/recipe/sauteed-bosc-pears/",
   "category": "Dessert",
-  "cuisine": "",
   "description": "This simple, tasty pear recipe was created by Chef Jamie Lauren of Absinthe Brasserie and Bar in San Francisco and cookbook author Mollie Katzen. If you can’t find Bosc pears at your local grocery store, red or green Anjou pears also work well.",
   "host": "usapears.org",
   "image": "https://usapears.org/wp-content/uploads/2014/10/Sauteed-Bosc-Pears1.jpg",
@@ -47,5 +46,7 @@
   "site_name": "USA Pears",
   "title": "Sauteed Bosc Pears",
   "total_time": 25,
-  "yields": "6 servings"
+  "yields": "6 servings",
+  "ratings": null,
+  "ratings_count": 2
 }

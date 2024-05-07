@@ -14,30 +14,12 @@ class JoyTheBaker(AbstractScraper):
     def host(cls):
         return "joythebaker.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         recipe_time = self.soup.find("span", {"class": "tasty-recipes-total-time"})
         try:
             return get_minutes(recipe_time)
         except ElementNotFoundInHtml:
             return None
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def ingredient_groups(self) -> list[IngredientGroup]:
         ingredients = self.soup.find("div", {"class": "tasty-recipes-ingredients-body"})
@@ -55,18 +37,6 @@ class JoyTheBaker(AbstractScraper):
                 )
             )
         return ingredient_groups
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
 
     def cook_time(self):
         recipe_time = self.soup.find("span", {"class": "tasty-recipes-cook-time"})

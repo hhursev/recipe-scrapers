@@ -3,7 +3,7 @@
   "canonical_url": "https://www.jamieoliver.com/recipes/chocolate-recipes/bloomin-brilliant-brownies/",
   "category": "Desserts",
   "host": "jamieoliver.com",
-  "image": "https://cdn.jamieoliver.com/recipe-database/oldImages/medium/88_1_1441269331.jpg",
+  "image": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/88_1_1441269331.jpg?tr=w-800,h-800",
   "ingredient_groups": [
     {
       "ingredients": [
@@ -54,5 +54,23 @@
   "site_name": "Jamie Oliver",
   "title": "Bloomin' brilliant brownies",
   "total_time": 40,
-  "yields": "20 servings"
+  "yields": "20 servings",
+  "keywords": [
+    "chocolate",
+    "brownies",
+    "brownie",
+    "vegetarian",
+    "sweets and desserts",
+    "baking",
+    "cooking",
+    "chocolate brownies",
+    "party food",
+    "baking and desserts",
+    "Christmas",
+    "Dinner Party",
+    "non-promotable",
+    "Popular"
+  ],
+  "description": "This is a great little recipe for easy, fail-safe, gloriously gooey chocolate brownies",
+  "cuisine": "https://schema.org/VegetarianDiet"
 }

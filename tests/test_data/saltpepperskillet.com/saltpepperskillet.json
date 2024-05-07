@@ -54,8 +54,14 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 5,
   "site_name": "Salt Pepper Skillet",
   "title": "Smoked Whole Chicken Recipe",
   "total_time": 435,
-  "yields": "4 servings"
+  "yields": "4 servings",
+  "cook_time": 240,
+  "prep_time": 15,
+  "keywords": [
+    "smoked chicken"
+  ]
 }

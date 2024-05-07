@@ -301,6 +301,15 @@ scraper.ratings()
 # Not implemented!
 ```
 
+### `ratings_count() -> float`
+
+Returns the total number of ratings contributed to the recipes rating.
+
+```py
+scraper.ratings_count()
+# Not implemented!
+```
+
 ### `reviews() -> List[Dict[str, str]]`
 
 Returns a `list` of reviews about the recipe from the website. Each review is a `dict` containing the reviewer's name (`str`) and their review (`str`).
@@ -321,4 +330,13 @@ Returns the method of cooking the recipe.
 ```py
 >>> scraper.cooking_method()
 'Stovetop'
+```
+
+### `keywords() -> list`
+
+Returns a `list` of keywords associated with a recipe.
+
+```py
+>>> scraper.keywords()
+['easy', 'quick', 'dinner']
 ```

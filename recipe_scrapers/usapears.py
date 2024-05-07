@@ -9,15 +9,6 @@ class USAPears(AbstractScraper):
     def host(cls):
         return "usapears.org"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         total_time = 0
         recipe_legends = self.soup.find_all("div", {"class": "recipe-legend"})
@@ -28,12 +19,6 @@ class USAPears(AbstractScraper):
                 )
         return total_time
 
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredient_elements = self.soup.find_all("li", {"itemprop": "ingredients"})
 
@@ -42,11 +27,5 @@ class USAPears(AbstractScraper):
             for paragraph in ingredient_elements
         ]
 
-    def instructions(self):
-        return self.schema.instructions()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
+    def ratings(self):
+        return None

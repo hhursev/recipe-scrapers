@@ -60,6 +60,7 @@ then:
     scraper.canonical_url()  # not always available
     scraper.equipment()  # not always available
     scraper.cooking_method()  # not always available
+    scraper.keywords()  # not always available
 
 You also have an option to scrape html-like content
 
@@ -96,6 +97,7 @@ Scrapers available for:
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
+- `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
@@ -106,6 +108,7 @@ Scrapers available for:
 - `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
+- `https://www.bakels.com.au/ <https://www.bakels.com.au/>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
@@ -192,6 +195,7 @@ Scrapers available for:
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
 - `https://goodhousekeeping.com/ <https://www.goodhousekeeping.com/>`_
+- `https://gourmettraveller.com.au/ <https://gourmettraveller.com.au>`_
 - `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://www.grandfrais.com/ <https://www.grandfrais.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
@@ -230,6 +234,7 @@ Scrapers available for:
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
+- `https://www.kitchensanctuary.com/ <https://www.kitchensanctuary.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
@@ -256,6 +261,7 @@ Scrapers available for:
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
+- `https://www.mccormick.com/ <https://www.mccormick.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
@@ -274,6 +280,7 @@ Scrapers available for:
 - `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
+- `https://mykoreankitchen.com/ <https://mykoreankitchen.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
@@ -298,6 +305,7 @@ Scrapers available for:
 - `https://pinkowlkitchen.com/ <https://pinkowlkitchen.com/>`_
 - `https://www.platingpixels.com/ <https://www.platingpixels.com/>`_
 - `https://plowingthroughlife.com/ <https://plowingthroughlife.com/>`_
+- `https://potatorolls.com/ <https://potatorolls.com/>`_
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
@@ -354,6 +362,7 @@ Scrapers available for:
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
+- `https://www.tasteatlas.com/ <https://www.tasteatlas.com/>`_
 - `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_

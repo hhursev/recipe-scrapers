@@ -14,32 +14,14 @@ class KuchynaLidla(AbstractScraper):
     def host(cls):
         return "kuchynalidla.sk"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return self.schema.category().strip()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
 
     def yields(self):
         yields = self.schema.yields()
         yields = yields.replace("servings", "porcií")
         yields = yields.replace("serving", "porcia")
         return yields
-
-    def image(self):
-        return self.schema.image()
 
     def ingredient_groups(self):
         raw_groups = (
@@ -80,19 +62,10 @@ class KuchynaLidla(AbstractScraper):
     def ingredients(self):
         return [i for ig in self.ingredient_groups() for i in ig.ingredients]
 
-    def instructions(self):
-        return self.schema.instructions()
-
     def instructions_list(self):
         il = re.split(r"[\n\r]{3,10}", self.instructions())
         il = [norm for i in il if (norm := normalize_string(i))]
         return il
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def description(self):
-        return self.schema.description()
 
     def language(self):
         return "sk"

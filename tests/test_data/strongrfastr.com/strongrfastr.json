@@ -43,5 +43,12 @@
   "language": "en",
   "site_name": "Strongr Fastr",
   "title": "Latin-inspired creamy chicken stew",
-  "total_time": 550
+  "total_time": 550,
+  "category": "dinner",
+  "nutrients": {
+    "calories": "490 calories",
+    "fatContent": "12 g",
+    "carbohydrateContent": "36 g",
+    "proteinContent": "47 g"
+  }
 }

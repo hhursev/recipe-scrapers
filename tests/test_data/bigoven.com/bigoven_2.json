@@ -75,12 +75,42 @@
     "sugarContent": "55.7385479494114 g",
     "transFatContent": "2.40130497025108 g"
   },
-  "ratings": {
-    "count": 24,
-    "rating": 4.0
-  },
+  "ratings": 3.96,
+  "ratings_count": 24,
   "site_name": "BigOven.com",
   "title": "White Chocolate Raspberry Cupcakes",
   "total_time": 25,
-  "yields": "8 servings"
+  "keywords": [
+    "patdessert",
+    "sumdessert",
+    "kid friendly",
+    "bake",
+    "desserts",
+    "raspberry",
+    "american",
+    "snack",
+    "summer",
+    "sweet",
+    "vd",
+    "4desserts",
+    "nf",
+    "easter",
+    "mom",
+    "vegetarian",
+    "white meat free",
+    "nut free",
+    "contains cheese",
+    "contains gluten",
+    "red meat free",
+    "contains fish",
+    "shellfish free",
+    "contains dairy",
+    "contains eggs",
+    "pescatarian"
+  ],
+  "yields": "8 servings",
+  "description": "delicious bite-sized bits of raspberry goodness",
+  "cook_time": 10,
+  "cuisine": "American",
+  "prep_time": 15
 }

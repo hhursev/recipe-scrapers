@@ -8,20 +8,8 @@ class JamieOliver(AbstractScraper):
     def host(cls):
         return "jamieoliver.com"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
     def image(self):
-        return self.schema.catimageegory()
-
-    def ingredients(self):
-        return self.schema.ingredients()
+        return self.schema.image()
 
     def instructions(self):
         instructions = self.soup.find("ol", {"class": "recipeSteps"}).findAll("li")

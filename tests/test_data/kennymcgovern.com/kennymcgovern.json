@@ -56,5 +56,14 @@
   "site_name": "Kenny McGovern",
   "title": "Crispy Chicken Strips",
   "total_time": 16,
-  "yields": "1 serving"
+  "yields": "1 serving",
+  "cook_time": 6,
+  "cuisine": "American",
+  "prep_time": 10,
+  "keywords": [
+    "chicken",
+    "crispy chicken",
+    "kfc",
+    "fried chicken"
+  ]
 }

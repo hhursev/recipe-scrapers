@@ -64,6 +64,7 @@
     "servingSize": "1 serving"
   },
   "ratings": 5.0,
+  "ratings_count": 31,
   "site_name": "Downshiftology",
   "title": "Greek Chicken Kabobs",
   "total_time": 55,
@@ -71,5 +72,13 @@
   "equipment": [
     "Metal Skewers",
     "Lodge Indoor Grill"
-  ]
+  ],
+  "keywords": [
+    "easy chicken kabobs",
+    "Greek chicken kabobs"
+  ],
+  "description": "These Greek chicken kabobs are a summer grilling staple! They're juicy, flavorful, and best served with my homemade tzatziki sauce.",
+  "cook_time": 25,
+  "cuisine": "Greek",
+  "prep_time": 30
 }

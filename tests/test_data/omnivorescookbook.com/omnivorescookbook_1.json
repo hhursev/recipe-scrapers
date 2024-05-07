@@ -48,8 +48,14 @@
     "sugarContent": "3 g"
   },
   "ratings": 5.0,
+  "ratings_count": 8,
   "site_name": "Omnivore's Cookbook",
   "title": "Stir Fried Bok Choy with Tofu Puffs",
   "total_time": 15,
-  "yields": "2 servings"
+  "yields": "2 servings",
+  "cook_time": 5,
+  "prep_time": 10,
+  "keywords": [
+    "home style"
+  ]
 }

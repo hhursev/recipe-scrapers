@@ -67,6 +67,7 @@
     "If adding the prawns, mix spices and salt in a bowl. Coat shrimp with the spices. Heat 2-3 tablespoons oil in a skillet (you may need to do this in batches) over medium-high heat, sear each side 2-3 minutes or until cooked through. Top the risotto with the seared prawns."
   ],
   "ratings": 4.9,
+  "ratings_count": 35,
   "cuisine": "Spanish",
   "description": "Tomato Risotto with juicy vine-ripened tomatoes, and infused with saffron, can be served as a vegetarian main or side dish, or topped off with smoky shrimp.",
   "total_time": 60,
@@ -75,5 +76,24 @@
   "author": "Sylvia Fountaine | feasting at home",
   "language": "en-US",
   "site_name": "Feasting At Home",
-  "cooking_method": "stovetop"
+  "cooking_method": "stovetop",
+  "keywords": [
+    "tomato risotto",
+    "vegetarian risotto",
+    "shrimp risotto"
+  ],
+  "category": "vegetarian",
+  "nutrients": {
+    "servingSize": "1 ½ cup serving without shrimp",
+    "calories": "435 calories",
+    "sugarContent": "6.9 g",
+    "sodiumContent": "943.1 mg",
+    "fatContent": "12.1 g",
+    "saturatedFatContent": "3.8 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "73.1 g",
+    "fiberContent": "2.8 g",
+    "proteinContent": "9 g",
+    "cholesterolContent": "11.2 mg"
+  }
 }

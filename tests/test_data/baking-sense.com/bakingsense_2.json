@@ -73,6 +73,7 @@
     "unsaturatedFatContent": "3 g"
   },
   "ratings": 4.34,
+  "ratings_count": 15,
   "site_name": "Baking SenseÂ®",
   "title": "Chocolate Cake with Strawberry Mousse Recipe",
   "total_time": 250,
@@ -85,5 +86,12 @@
     "Revolving Cake Stand",
     "Cake Boards",
     "Sieve"
-  ]
+  ],
+  "keywords": [
+    "chocolate cake",
+    "mousse",
+    "strawberry cake"
+  ],
+  "cook_time": 30,
+  "prep_time": 120
 }
