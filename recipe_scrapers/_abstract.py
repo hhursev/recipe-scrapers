@@ -189,7 +189,7 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def dietary_restrictions(self):
-        """The specified dietary restriction or guideline for which this recipe is suitable"""
+        """The specified dietary restrictions or guidelines for which this recipe is suitable"""
         raise NotImplementedError("This should be implemented.")
 
     def links(self):
