@@ -38,7 +38,11 @@ def get_scraper_index() -> ScraperIndex:
         scraper_index[primary_domain] = (
             scraper,
             [
-                domain[len(shared_prefix):] if domain.startswith(shared_prefix) else domain
+                (
+                    domain[len(shared_prefix) :]
+                    if domain.startswith(shared_prefix)
+                    else domain
+                )
                 for domain in domains
                 if domain != shared_prefix
             ],
