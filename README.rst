@@ -173,6 +173,7 @@ Scrapers available for:
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
+- `https://felix.kitchen <https://felix.kitchen>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
