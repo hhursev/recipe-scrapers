@@ -60,6 +60,7 @@ then:
     scraper.canonical_url()  # not always available
     scraper.equipment()  # not always available
     scraper.cooking_method()  # not always available
+    scraper.keywords()  # not always available
 
 You also have an option to scrape html-like content
 

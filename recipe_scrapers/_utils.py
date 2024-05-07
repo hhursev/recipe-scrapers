@@ -232,6 +232,18 @@ def normalize_string(string):
     )
 
 
+def csv_to_tags(csv, lowercase=False):
+    raw_tags = csv.split(",")
+    seen = set()
+    tags = []
+    for raw_tag in raw_tags:
+        tag = raw_tag.strip()
+        if tag and tag.lower() not in seen:
+            seen.add(tag.lower())
+            tags.append(tag.lower() if lowercase else tag)
+    return tags
+
+
 def url_path_to_dict(path):
     pattern = (
         r"^"
