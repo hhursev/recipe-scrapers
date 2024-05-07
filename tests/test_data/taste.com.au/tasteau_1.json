@@ -63,6 +63,8 @@
   "title": "Mexican chicken pasta bake recipe",
   "total_time": 70,
   "yields": "4 servings",
+  "cook_time": 55,
+  "prep_time": 15,
   "keywords": [
     "cheese",
     "chicken",
@@ -83,7 +85,5 @@
     "easy",
     "dinner",
     "family friendly"
-  ],
-  "cook_time": 55,
-  "prep_time": 15
+  ]
 }

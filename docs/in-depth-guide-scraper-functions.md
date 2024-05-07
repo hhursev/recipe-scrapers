@@ -332,6 +332,15 @@ Returns the method of cooking the recipe.
 'Stovetop'
 ```
 
+### `keywords() -> list`
+
+Returns a `list` of keywords associated with a recipe.
+
+```py
+>>> scraper.keywords()
+['easy', 'quick', 'dinner']
+```
+
 ### `dietary_restrictions"() -> List[str] | None`
 
 Returns the dietary restrictions specified by the recipe.

@@ -84,6 +84,9 @@
   "title": "Ligurisches Hühnerragout mit Zucchini – Spezzatino con zucchine",
   "total_time": 70,
   "yields": "2 servings",
+  "cook_time": 40,
+  "cuisine": "Europa",
+  "prep_time": 30,
   "keywords": [
     "Ligurisches Hühnerragout mit Zucchini – Spezzatino con zucchine",
     "Hühnerbrust",
@@ -91,8 +94,5 @@
     "Knoblauchzehen",
     "frisch",
     "Zitronensaft"
-  ],
-  "cook_time": 40,
-  "cuisine": "Europa",
-  "prep_time": 30
+  ]
 }

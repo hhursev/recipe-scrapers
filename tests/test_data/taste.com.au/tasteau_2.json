@@ -53,6 +53,8 @@
   "site_name": "www.taste.com.au",
   "title": "Vegetarian lasagne roll recipe",
   "total_time": 125,
+  "cook_time": 65,
+  "prep_time": 60,
   "keywords": [
     "cheese",
     "egg allergy",
@@ -79,7 +81,5 @@
     "vegetarian",
     "savoury",
     "easy"
-  ],
-  "cook_time": 65,
-  "prep_time": 60
+  ]
 }

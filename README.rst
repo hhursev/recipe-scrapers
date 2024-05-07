@@ -236,6 +236,7 @@ Scrapers available for:
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
+- `https://www.kitchensanctuary.com/ <https://www.kitchensanctuary.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
@@ -285,6 +286,7 @@ Scrapers available for:
 - `https://myjewishlearning.com/ <https://myjewishlearning.com>`_
 - `https://mykitchen101.com/ <https://mykitchen101.com>`_
 - `https://mykitchen101en.com/ <https://mykitchen101en.com>`_
+- `https://mykoreankitchen.com/ <https://mykoreankitchen.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://healthyeating.nhlbi.nih.gov/ <https://healthyeating.nhlbi.nih.gov>`_

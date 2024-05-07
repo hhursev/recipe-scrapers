@@ -10,7 +10,13 @@ import extruct
 from recipe_scrapers.settings import settings
 
 from ._exceptions import SchemaOrgException
-from ._utils import format_diet_name, get_minutes, get_yields, normalize_string
+from ._utils import (
+    csv_to_tags,
+    format_diet_name,
+    get_minutes,
+    get_yields,
+    normalize_string,
+)
 
 SCHEMA_ORG_HOST = "schema.org"
 
@@ -309,6 +315,17 @@ class SchemaOrg:
         if cooking_method and isinstance(cooking_method, list):
             cooking_method = cooking_method[0]
         return normalize_string(cooking_method)
+
+    def keywords(self):
+        keywords = self.data.get("keywords")
+        if keywords is None:
+            raise SchemaOrgException("No keywords data in SchemaOrg")
+        if keywords:
+            if isinstance(keywords, list):
+                keywords = ", ".join(keywords)
+            keywords = normalize_string(keywords)
+            keywords = csv_to_tags(keywords)
+        return keywords
 
     def dietary_restrictions(self):
         dietary_restrictions = self.data.get("suitableForDiet")

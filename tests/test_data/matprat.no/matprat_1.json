@@ -86,6 +86,9 @@
   "title": "Butter chicken - indisk smørkylling",
   "total_time": 160,
   "yields": "6 servings",
+  "cook_time": 80,
+  "cuisine": "Internasjonal",
+  "prep_time": 80,
   "keywords": [
     "Butter chicken",
     "smørkylling",
@@ -97,8 +100,5 @@
     "indisk gryte",
     "basmatiris",
     "koriander"
-  ],
-  "cook_time": 80,
-  "cuisine": "Internasjonal",
-  "prep_time": 80
+  ]
 }
