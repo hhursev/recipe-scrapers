@@ -213,6 +213,7 @@ from .ohsheglows import OhSheGlows
 from .omnivorescookbook import OmnivoresCookbook
 from .onceuponachef import OnceUponAChef
 from .onehundredonecookbooks import OneHundredOneCookBooks
+from .onesweetappetite import OneSweetAppetite
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
@@ -417,6 +418,7 @@ SCRAPERS = {
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
     NutritionFacts.host(): NutritionFacts,
+    OneSweetAppetite.host(): OneSweetAppetite,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
