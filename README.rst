@@ -170,6 +170,7 @@ Scrapers available for:
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
+- `https://www.evolvingtable.com/ <https://www.evolvingtable.com/>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_

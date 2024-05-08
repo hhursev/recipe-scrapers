@@ -88,6 +88,7 @@ from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
+from .evolvingtable import EvolvingTable
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
@@ -400,6 +401,7 @@ SCRAPERS = {
     Dishnz.host(): Dishnz,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
+    EvolvingTable.host(): EvolvingTable,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
