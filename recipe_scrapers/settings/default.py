@@ -1,10 +1,10 @@
 from recipe_scrapers.plugins import (
     ExceptionHandlingPlugin,
-    StaticValueExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
     OpenGraphImageFetchPlugin,
     SchemaOrgFillPlugin,
+    StaticValueExceptionHandlingPlugin,
 )
 
 # Plugins to be attached.

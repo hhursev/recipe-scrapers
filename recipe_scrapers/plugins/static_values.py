@@ -4,12 +4,12 @@ import functools
 import warnings
 
 from recipe_scrapers._exceptions import (
-    StaticValueException,
     FieldNotProvidedByWebsiteException,
+    StaticValueException,
 )
 from recipe_scrapers._warnings import (
-    StaticValueWarning,
     FieldNotProvidedByWebsiteWarning,
+    StaticValueWarning,
 )
 from recipe_scrapers.plugins._interface import PluginInterface
 
