@@ -154,6 +154,7 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://dinneratthezoo.com/ <https://dinneratthezoo.com>`_
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
