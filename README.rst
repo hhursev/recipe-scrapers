@@ -89,6 +89,7 @@ Some Python HTTP clients that you can use to retrieve HTML include `requests <ht
 Scrapers available for:
 -----------------------
 
+- `https://15gram.be <https://15gram.be>`_
 - `https://aberlehome.com/ <https://aberlehome.com>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
