@@ -18,6 +18,7 @@ from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
+from .allthehealthythings import AllTheHealthyThings
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
@@ -345,6 +346,7 @@ SCRAPERS = {
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
     AllRecipes.host(): AllRecipes,
+    AllTheHealthyThings.host(): AllTheHealthyThings,
     AllTomat.host(): AllTomat,
     AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
