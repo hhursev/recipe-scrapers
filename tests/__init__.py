@@ -119,7 +119,7 @@ def test_func_factory(
         if "ratings_count" in expect.keys():
             with self.subTest("ratings_count"):
                 ratings_count = actual.ratings_count()
-                self.assertGreaterEqual(ratings_count, expect["ratings_count"])
+                self.assertGreaterEqual(expect["ratings_count"], ratings_count)
 
         grouped = []
         for group in actual.ingredient_groups():
