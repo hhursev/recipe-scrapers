@@ -140,6 +140,7 @@ from .inspiralized import Inspiralized
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
+from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
 from .joythebaker import JoyTheBaker
@@ -403,6 +404,7 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     InBloomBakery.host(): InBloomBakery,
+    JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
     KitchenAidAustralia.host(): KitchenAidAustralia,
