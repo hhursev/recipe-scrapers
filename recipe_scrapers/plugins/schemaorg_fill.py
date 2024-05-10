@@ -39,6 +39,7 @@ class SchemaOrgFillPlugin(PluginInterface):
         "prep_time",
         "keywords",
         "ratings_count",
+        "dietary_restrictions",
     )
 
     @classmethod

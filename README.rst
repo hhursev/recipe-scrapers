@@ -61,6 +61,7 @@ then:
     scraper.equipment()  # not always available
     scraper.cooking_method()  # not always available
     scraper.keywords()  # not always available
+    scraper.dietary_restrictions() # not always available
 
 You also have an option to scrape html-like content
 
@@ -172,6 +173,7 @@ Scrapers available for:
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
+- `https://felix.kitchen <https://felix.kitchen>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
@@ -371,6 +373,7 @@ Scrapers available for:
 - `https://tasty.co <https://tasty.co>`_
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
+- `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_

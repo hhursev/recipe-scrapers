@@ -188,6 +188,10 @@ class AbstractScraper:
         """Equipment needed for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
+    def dietary_restrictions(self):
+        """The specified dietary restrictions or guidelines for which this recipe is suitable"""
+        raise NotImplementedError("This should be implemented.")
+
     def links(self):
         """Links found in the recipe."""
         invalid_href = {"#", ""}

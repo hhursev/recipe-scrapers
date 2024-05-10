@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://felix.kitchen/xmlrpc.php">
+
+<title>PICCATA ALLA MILANESE &#8211; FEL!X KITCHEN</title>
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Merriweather+Sans:b:latin,latin-ext","Merriweather+Sans:r,i,b,bi:latin,latin-ext"]},"api_url":"https:\/\/fonts-api.wp.com\/css"};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s0.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active body{font-family:"Merriweather Sans",sans-serif;font-size:12.6px}.wf-active blockquote{font-family:"Merriweather Sans",sans-serif;font-size:0.735em}.wf-active blockquote cite{font-family:"Merriweather Sans",sans-serif;font-size:0.63em}.wf-active blockquote blockquote{font-size:0.7em}.wf-active code, .wf-active kbd, .wf-active pre, .wf-active tt, .wf-active var{font-family:"Merriweather Sans",sans-serif}.wf-active pre{font-family:"Merriweather Sans",sans-serif;font-size:10.5px}.wf-active pre:before{font-size:12.6px}.wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-size:11.2px}.wf-active button, .wf-active input[type="submit"]{font-size:9.8px}.wf-active .site-description{font-size:11.2px}.wf-active #site-navigation{font-size:10.5px}.wf-active .menu-toggle{font-family:"Merriweather Sans",sans-serif}.wf-active #site-navigation ul ul li{font-size:9.8px}.wf-active .site-banner-header .banner-featured{font-size:9.1px}.wf-active .site-banner .slick-next, .wf-active .site-banner .slick-prev{font-size:0.7em}.wf-active .link-more a{font-size:9.8px}.wf-active .is-singular:not(.home) .entry-meta{font-size:10.5px}.wf-active .entry-meta .cat-links{font-size:9.1px}.wf-active .is-singular .entry-posted{font-size:11.2px}.wf-active .page.is-singular .edit-link{font-size:11.2px}.wf-active .is-singular.no-post-thumbnail .entry-meta .cat-links, .wf-active .is-singular.no-post-thumbnail .entry-posted{font-size:10.5px}.wf-active .is-singular .post-navigation .nav-links span{font-size:9.1px}.wf-active .is-singular .post-navigation .nav-links span.nav-subtitle{font-family:"Merriweather Sans",sans-serif}.wf-active .comments-area{font-size:11.2px}.wf-active .comments-title .add-comment-link{font-family:"Merriweather Sans",sans-serif;font-size:9.8px}.wf-active .comment-footer{font-size:10.5px}.wf-active .comment-footer .author.vcard{font-size:11.2px}.wf-active ol.children .comment-footer .author.vcard{font-size:9.8px}.wf-active #commentform label{font-size:9.1px}.wf-active #commentform input[type="submit"]{font-size:9.1px}.wf-active .comment-navigation a{font-family:"Merriweather Sans",sans-serif;font-size:9.1px}.wf-active #infinite-handle span button, .wf-active #infinite-handle span button:focus, .wf-active #infinite-handle span button:hover, .wf-active .posts-navigation a{font-size:9.8px}.wf-active .gallery-caption{font-size:0.567em}.wf-active .footer-bottom-info{font-size:9.8px}.wf-active .widget-title{font-family:"Merriweather Sans",sans-serif;font-size:11.2px}.wf-active .widget .post-date, .wf-active .widget .rss-date{font-size:0.567em}.wf-active .widget_calendar tr td#next, .wf-active .widget_calendar tr td#prev{font-size:10.5px}@media screen and (min-width: 1601px){.wf-active .posts .entry-inner-content{font-size:11.2px}}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Merriweather Sans",sans-serif;font-weight:700;font-style:normal}.wf-active h1{font-size:35px;font-weight:700;font-style:normal}.wf-active h2{font-size:18.2px;font-style:normal;font-weight:700}.wf-active h3{font-size:15.4px;font-style:normal;font-weight:700}.wf-active h4{font-size:14px;font-style:normal;font-weight:700}.wf-active h5{font-family:"Merriweather Sans",sans-serif;font-size:11.9px;font-style:normal;font-weight:700}.wf-active h6{font-family:"Merriweather Sans",sans-serif;font-size:10.5px;font-style:normal;font-weight:700}.wf-active .site-title{font-size:21px;font-style:normal;font-weight:700}.wf-active .site-banner h1{font-size:31.5px;font-style:normal;font-weight:700}.wf-active .comment-body h1, .wf-active .entry-content h1{font-size:25.2px;font-style:normal;font-weight:700}.wf-active .page-title h1{font-size:28px;font-style:normal;font-weight:700}.wf-active .posts .entry-title{font-size:21px;font-weight:700;font-style:normal}.wf-active .author-link, .wf-active .is-singular .post-navigation .nav-links span.nav-title{font-family:"Merriweather Sans",sans-serif;font-style:normal;font-weight:700}.wf-active .comments-title{font-size:14px;font-style:normal;font-weight:700}.wf-active .widget h1, .wf-active .widget h2, .wf-active .widget h3, .wf-active .widget h4, .wf-active .widget h5, .wf-active .widget h6{font-family:"Merriweather Sans",sans-serif;font-style:normal;font-weight:700}.wf-active .is-singular.archive-eventbrite .entry-header h1{font-size:28px;font-style:normal;font-weight:700}@media screen and (min-width: 1601px){.wf-active .site-banner h1{font-size:36.4px;font-style:normal;font-weight:700}}@media screen and (max-width: 1400px){.wf-active .site-banner h1{font-size:28px;font-style:normal;font-weight:700}}@media screen and (max-width: 1200px){.wf-active .site-banner h1{font-size:24.5px;font-style:normal;font-weight:700}}@media screen and (max-width: 680px){.wf-active .site-banner h1{font-size:15.4px;font-style:normal;font-weight:700}}@media screen and (max-width: 1200px){.wf-active .is-singular .entry-header h1, .wf-active .error404 .entry-header h1, .wf-active .page-header h1, .wf-active .page-template-eventbrite-index .page-header h1, .wf-active .single-event .entry-header h1{font-size:28px;font-style:normal;font-weight:700}}@media screen and (max-width: 1200px){.wf-active .is-singular.archive-eventbrite .entry-header h1{font-size:21px;font-style:normal;font-weight:700}}@media screen and (max-width: 960px){.wf-active .is-singular:not(.eventbrite-archive) .entry-header h1, .wf-active .error404 .entry-header h1, .wf-active .page-header h1{font-size:24.5px;font-style:normal;font-weight:700}}@media screen and (max-width: 680px){.wf-active .is-singular:not(.eventbrite-archive) .entry-header h1, .wf-active .error404 .entry-header h1, .wf-active .page-header h1, .wf-active .page-template-eventbrite-index .page-header h1, .wf-active .single-event .entry-header h1{font-size:21px;font-style:normal;font-weight:700}}@media screen and (max-width: 680px){.wf-active .is-singular.archive-eventbrite .entry-header h1{font-size:17.5px;font-style:normal;font-weight:700}}</style>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=38433'
+					+ '&is_singular=1';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly9mZWxpeC5raXRjaGVu"
+		+ "&wpcomid=151882727"
+		+ "&time=1714053471";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//wordpress.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="FEL!X KITCHEN &raquo; Feed" href="https://felix.kitchen/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FEL!X KITCHEN &raquo; Kommentar-Feed" href="https://felix.kitchen/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FEL!X KITCHEN &raquo; PICCATA ALLA MILANESE Kommentar-Feed" href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1710334132i&ver=6.6-alpha-57987"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s2.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1s9KLSlITM6G8vVz8/NBREppTmqxflFqTmJJaopuQX5xCRpPL7m4WEcfu5E5mdmpCIPBPJBy+1xbQ3MDUxNjcwNzyywAYHY02w==&cssminify=yes' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s2.wp.com/_static/??-eJylzFsOQDAQQNENaUeV4EOsRWtSZZT0Qbp7Ygs+b25y4D6ZPlxEF+GkZKwLYNKbCr15j0e4RMcFr0AlSzMoOvTGyCo/+QwhZkKuQyjgHxQX3D9o3AfRCllXTSn79QElJThR&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.wp-block-cover__image-background.has-parallax {
+	background-size: cover;
+}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s2.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJyVjEEOwiAQAD/ksgGN4sH4Fko3hJYCYZea/r49mF6Nx0lmBj8VfMlCWbCmHmJmDP3AgVqAIRU/M04k1fkZkttKFwgtjsiyJVKe+YL/LJqTmAP/yH35ZkZpqzRwXGoiaLSqG46R5TTgHL2Xl75bba/GPB/TDthVT3U=&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s2.wp.com/_static/??-eJx9jcEKg0AMRH+oaVhorR7Eb9E16IpZg8min2889FZ6GYbhPQYPgbhlo2zIBWQtU8qKcdvJd5be0AmmMfW0Ejv2jKoP/K0daZzIXNdvB6PzvyJ+A8MgO6mCJ6fCYLN/6e113IZXU9WfUL/DcgHSTkDo&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--bright-blue: #678db8;--wp--preset--color--yellow: #e7ae01;--wp--preset--color--light-gray-blue: #abb7c3;--wp--preset--color--medium-gray: #6a6c6e;--wp--preset--color--dark-gray: #1a1c1e;--wp--preset--color--dark-gray-blue: #292c2f;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+:where(.wp-block-navigation a:where(:not(.wp-element-button))){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='https://s0.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/moon/vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/verbum-comments.css?m=1709200696i&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='verbum-gutenberg-css-css' href='https://widgets.wp.com/verbum-block-editor/block-editor.css?ver=1705430309' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/comment-likes/css/comment-likes.css,/i/noticons/noticons.css?m=1436783281j&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='dyad-2-fonts-css' href='https://fonts-api.wp.com/css?family=Lato%3A400%2C400italic%2C700%2C700italic%7CNoto+Serif%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s2.wp.com/_static/??-eJyNj10KwjAQhC/kujRgxQfxKJJu15g2fzQJpbc3LYIBRfo2A/MNMzgHIO8Su4Q2QzBZaRdx4BQkjW+P1nuHd+0IFTuedCHib3mkGA9YlaYnW44Ycof9InsQGNNieEeuJLAznsY9peu2rRjmQN5+EdU3xR5KrUy6nKoNPIzU0z904jJIFam2dR+7Qjd7bc6NEOLUXtrhBYW2f6s=&cssminify=yes' type='text/css' media='all' />
+<style id='dyad-2-style-inline-css'>
+.byline, .date-published-word { clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; }
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-15-1' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035i&cssminify=yes' type='text/css' media='print' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-18-1' href='https://s2.wp.com/_static/??-eJyNjcEKwjAQRH/IuA1aehI/ReImJKmb3eAmFP9eW3oRL16GeTC8gaUaFG6BG5RuKvWYWWEOrTp87AxFZA3fKShocs/gnfevrWaOR1Q9wP+mW2YEFcyODEkU/YIfW0uhfH7TGSLJ3dE6uJaLneww2mkYT/MbUOlJHA==&cssminify=yes' type='text/css' media='all' />
+<script type="text/javascript" id="jetpack_related-posts-js-extra">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="media-video-jwt-bridge-js-extra">
+/* <![CDATA[ */
+var videopressAjax = {"ajaxUrl":"https:\/\/felixkitchen239961262.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"38433"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpcom-actionbar-placeholder-js-extra">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"151882727","postID":"38433","siteURL":"https:\/\/felix.kitchen","xhrURL":"https:\/\/felix.kitchen\/wp-admin\/admin-ajax.php","nonce":"4ce35dbac1","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/pahhDp-9ZT","i18n":{"followedText":"Neue Beitr\u00e4ge von dieser Website erscheinen nun in deinem <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Diese Leiste einklappen","unfoldBar":"Diese Leiste aufklappen"}};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s2.wp.com/_static/??-eJyFT0FOAzEM/BCptwdU9YB4SpXdmJXTxA62U+jvSaUFFQTiZM14POOBtxYWYUd2yAZVZioYuqHGdXCB+EV22R7gTld7aKWvxAYZvcXlvOFxLgwn4gXmTiWBYomOKTQxt+9oV4l/Go8HtHhoKu/Xz90wKz2h3Zb5taNet3Fv8KcoVFp1hP6W9k+NjTtdkJMoxO5SozstX+oLJZSmaLbVLTSDyxk5zEppxZH4XJ/2h2maDvvH45Q/AEsiiTU='></script>
+<script type="text/javascript" id="rlt-proxy-js-after">
+/* <![CDATA[ */
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+/* ]]> */
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://felixkitchen239961262.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/" />
+<link rel='shortlink' href='https://wp.me/pahhDp-9ZT' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Ffelix.kitchen%2F2024%2F04%2F07%2Fpiccata-milanese-schnitzel-parmesan-safran-risotto-petersilie%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Ffelix.kitchen%2F2024%2F04%2F07%2Fpiccata-milanese-schnitzel-parmesan-safran-risotto-petersilie%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="PICCATA ALLA MILANESE" />
+<meta property="og:url" content="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/" />
+<meta property="og:description" content="Ob das Schnitzel nach Mailänder-Art original italienisch ist, oder ob die Panade nördlich der Alpen mit Parmesan sozusagen «italienisiert» wurde, bleibt dahingestellt. Tatsache ist: die so umhüllte…" />
+<meta property="article:published_time" content="2024-04-07T03:33:27+00:00" />
+<meta property="article:modified_time" content="2024-04-07T03:33:27+00:00" />
+<meta property="og:site_name" content="FEL!X KITCHEN" />
+<meta property="og:image" content="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_beitragsbild.jpg" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="800" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="de_DE" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:text:title" content="PICCATA ALLA MILANESE" />
+<meta name="twitter:image" content="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_beitragsbild.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="search" type="application/opensearchdescription+xml" href="https://felix.kitchen/osd.xml" title="FEL!X KITCHEN" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="FEL!X KITCHEN" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Asiatische Zutaten und europäische Kochtechnik? Nicht ausschliesslich! Westliche Klassiker neu definiert?  Aber klar doch!  Kurz: was ich hier in Thailand so für mich und für Gäste koche.  Und dazu noch eine ganze Menge Hintergrundinformation." /><meta name="description" content="Ob das Schnitzel nach Mailänder-Art original italienisch ist, oder ob die Panade nördlich der Alpen mit Parmesan sozusagen «italienisiert» wurde, bleibt dahingestellt. Tatsache ist: die so umhüllten und gebratenen Schnitzelchen sind ganz einfach lecker! Und was könnte dazu besser passen, als ein goldgelber Safran-Risotto?!" />
+<style type="text/css" id="custom-colors-css">
+	blockquote,
+	blockquote cite,
+	.comments-area-wrapper blockquote,
+	.comments-area-wrapper blockquote cite {
+		color: inherit;
+	}
+
+	.site-header,
+	.is-scrolled .site-header,
+	.home .site-header,
+	.blog .site-header {
+		background: transparent;
+		text-shadow: none;
+	}
+
+	#page .site-header:before {
+		bottom: 0;
+		content: "";
+		display: block;
+		left: 0;
+		opacity: 0.8;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 0;
+	}
+
+	#site-navigation ul ul a {
+		color: #fff;
+	}
+
+	.banner-featured {
+		text-shadow: none;
+	}
+
+	.posts .entry-inner:before {
+		opacity: 0.3;
+	}
+
+	.posts .hentry:not(.has-post-thumbnail) .entry-inner:after {
+			border-color: #ddd;
+	}
+
+	.posts .hentry:not(.has-post-thumbnail):before {
+		border-color: #e1e1e1;
+	}
+
+	.posts .hentry .link-more a {
+		opacity: 1.0;
+		-webkit-transition: opacity 0.3s;
+		transition: opacity 0.3s;
+	}
+
+	.posts .hentry:hover .link-more a {
+		opacity: 0.75;
+	}
+
+	.posts .edit-link a {
+		color: #ccc;
+	}
+
+	.posts .edit-link a:hover {
+		color: #aaa;
+	}
+
+	.widget thead tr,
+	.widget tr:hover {
+		background-color: rgba(0,0,0,0.1);
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.site-header:before,
+		.is-scrolled .site-header:before {
+			opacity: 1.0;
+		}
+
+		.has-post-thumbnail .entry-header .entry-meta .cat-links {
+			background-color: transparent;
+		}
+
+		.has-post-thumbnail.is-singular:not(.home) .entry-header .cat-links a,
+		.has-post-thumbnail.is-singular:not(.home) .entry-header .cat-links {
+    		color: #6a6c6e !important;
+		}
+	}
+
+	@media only screen and (max-width: 960px) {
+		#site-navigation ul a,
+		#site-navigation ul ul a {
+			color: inherit;
+		}
+
+		.site-header #site-navigation ul ul li {
+			background-color: transparent;
+		}
+	}
+
+.link-more a { color: #FFFFFF;}
+.site-header:before,
+		.is-singular .entry-media-thumb,
+		#commentform input[type="submit"],
+		#infinite-handle,
+		.posts-navigation,
+		.site-footer,
+		.site-header-cart .widget_shopping_cart_content,
+		.widget_shopping_cart .mini_cart_item .remove:hover { background-color: #000000;}
+.site-header-cart .widget_shopping_cart:before { border-bottom-color: #000000;}
+.bypostauthor .comment-author:before { color: #000000;}
+#site-navigation ul ul li { background-color: #000000;}
+#site-navigation ul ul:before { border-bottom-color: #000000;}
+#site-navigation ul ul ul:before { border-right-color: #000000;}
+.posts .entry-inner:before { color: #000000;}
+.posts,
+		.posts .entry-media,
+		.comments-area-wrapper,
+		.milestone-widget .milestone-header,
+		.footer-bottom-info { background-color: #000000;}
+.milestone-widget .milestone-countdown { border-color: #000000;}
+.milestone-widget .milestone-countdown,
+		.milestone-widget .milestone-message { color: #000000;}
+.site-header #site-navigation ul li { border-color: #000000;}
+.comment-author.vcard cite { color: #898989;}
+.bypostauthor .comment-author:before { background-color: #898989;}
+.comment-meta,
+		.comment .reply:before,
+		.comment .reply a { color: #6D6D6D;}
+.comment-meta { border-bottom-color: #424242;}
+#infinite-handle span button,
+		#infinite-handle span button:hover,
+		#infinite-handle span button:focus,
+		.posts-navigation a,
+		.widget,
+		.site-footer { color: #FFFFFF;}
+.comments-area-wrapper { color: #FFFFFF;}
+.widget_search ::-webkit-input-placeholder { color: #FFFFFF;}
+.widget_search :-moz-placeholder { color: #FFFFFF;}
+.widget_search ::-moz-placeholder { color: #FFFFFF;}
+.widget_search :-ms-input-placeholder { color: #FFFFFF;}
+.site-header,
+		#site-navigation a,
+		.menu-toggle,
+		.comments-title .add-comment-link,
+		.comments-title,
+		.comments-title a,
+		.comments-area-wrapper,
+		.comments-area-wrapper h1,
+		.comments-area-wrapper h2,
+		.comments-area-wrapper h3,
+		.comments-area-wrapper h4,
+		.comments-area-wrapper h5,
+		.comments-area-wrapper h6,
+		.comment-body pre,
+		.comment-footer .author.vcard,
+		.comment-footer,
+		#commentform input[type="submit"],
+		.widget h1,
+		.widget h2,
+		.widget h3,
+		.widget h4,
+		.widget h5,
+		.widget h6,
+		.widget a,
+		.widget button,
+		.widget_search input,
+		.widget input[type="submit"],
+		.widget-area select,
+		.widget_flickr #flickr_badge_uber_wrapper a:hover,
+		.widget_flickr #flickr_badge_uber_wrapper a:link,
+		.widget_flickr #flickr_badge_uber_wrapper a:active,
+		.widget_flickr #flickr_badge_uber_wrapper a:visited,
+		.widget_goodreads div[class^="gr_custom_each_container"],
+		.milestone-header { color: #FFFFFF;}
+.widget ul li,
+		.widget_jp_blogs_i_follow ol li { border-top-color: #FFFFFF;}
+.comment-footer,
+		.widget ul li,
+		.widget_jp_blogs_i_follow ol li { border-bottom-color: #FFFFFF;}
+.comments-title,
+		.comments-area-wrapper blockquote,
+		#commentform input[type="text"],
+		#commentform input[type="email"],
+		#commentform input[type="url"],
+		#commentform textarea,
+		.widget .tagcloud a,
+		.widget.widget_tag_cloud a,
+		.wp_widget_tag_cloud a,
+		.widget button,
+		.widget input[type="submit"],
+		.widget table,
+		.widget th,
+		.widget td,
+		.widget input,
+		.widget select,
+		.widget textarea { border-color: #FFFFFF;}
+.site-banner-header .banner-featured { color: #FFFFFF;}
+.error404-widgets .widget a { color: #6D6D6D;}
+.error404 .entry-content .widget ul li { color: #939393;}
+.site-banner-header .banner-featured,
+		.banner-custom-header .site-banner-header h1:before,
+		.has-post-thumbnail .entry-meta .cat-links,
+		.widget_shopping_cart .mini_cart_item .remove,
+		.woocommerce-tabs ul.tabs li.active a,
+		.widget_price_filter .ui-slider .ui-slider-handle,
+		.widget_price_filter .ui-slider .ui-slider-range,
+		.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger { background-color: #008000;}
+.button,
+		button,
+		input[type="submit"],
+		.onsale { background-color: #008000;}
+.button,
+		button,
+		input[type="submit"],
+		table.shop_table td.actions .coupon .button { border-color: #008000;}
+.single-product div.product .price .amount,
+		.star-rating span:before,
+		p.stars:hover a:before,
+		p.stars.selected a.active:before,
+		p.stars.selected a:not(.active):before { color: #008000;}
+.error404 .entry-content .widget ul li { border-color: #008000;}
+pre:before,
+		.link-more a,
+		.posts .hentry:hover .link-more a,
+		.is-singular .entry-inner:after,
+		.error404 .entry-inner:after,
+		.page-template-eventbrite-index .page-header:after,
+		.single-event .entry-header:after,
+		.is-singular .post-navigation .nav-links:after,
+		.single-product div.product:after,
+		.single-product .product section:first-of-type::after,
+		.product .button,
+		ul.products li.product .button { background-color: #FF0000;}
+.has-post-thumbnail.is-singular:not(.home) .entry-header .cat-links a { color: #F9B8B8;}
+</style>
+<link rel="icon" href="https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=32" sizes="32x32" />
+<link rel="icon" href="https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=180" />
+<meta name="msapplication-TileImage" content="https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=270" />
+			<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s1.wp.com/?custom-css=1&#038;csblog=ahhDp&#038;cscache=6&#038;csrev=10" />
+			<!-- Your Google Analytics Plugin is missing the tracking ID -->
+</head>
+
+<body class="post-template-default single single-post postid-38433 single-format-standard wp-embed-responsive customizer-styles-applied is-singular has-post-thumbnail no-js author-hidden jetpack-reblog-enabled custom-colors">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Zum Inhalt springen</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+						<h1 class="site-title">
+				<a href="https://felix.kitchen/" rel="home">
+					FEL!X KITCHEN				</a>
+			</h1>
+			<p class="site-description">Asiatische Zutaten und europäische Kochtechnik? Nicht ausschliesslich! Westliche Klassiker neu definiert?  Aber klar doch!  Kurz: was ich hier in Thailand so für mich und für Gäste koche.  Und dazu noch eine ganze Menge Hintergrundinformation.</p>
+		</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menü</button>
+			<div class="primary-menu"><ul id="primary-menu" class="menu"><li id="menu-item-25635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25635"><a href="https://felix.kitchen/intro/">INTRO</a></li>
+<li id="menu-item-25636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25636"><a href="https://felix.kitchen/kochbuch/">KOCHBUCH</a></li>
+<li id="menu-item-25637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25637"><a href="https://felix.kitchen/rezepte-az/">REZEPTE A–Z</a></li>
+<li id="menu-item-25638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25638"><a href="https://felix.kitchen/tippstricks/">TIPPS</a></li>
+<li id="menu-item-25639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25639"><a href="https://felix.kitchen/faq/">FAQ</a></li>
+<li id="menu-item-25640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25640"><a href="https://felix.kitchen/gelingsicher/">GELINGSICHER</a></li>
+<li id="menu-item-25703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25703"><a href="https://felix.kitchen/aha/">AHA!</a></li>
+<li id="menu-item-25641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25641"><a href="https://felix.kitchen/impressum/">IMPRESSUM</a></li>
+<li id="menu-item-25642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25642"><a href="https://felix.kitchen/datenschutz/">DATENSCHUTZ</a></li>
+</ul></div>		</nav>
+
+	</header><!-- #masthead -->
+
+	<div class="site-inner">
+
+		
+		<div id="content" class="site-content">
+
+	<main id="primary" class="content-area" role="main">
+
+		
+			
+<article id="post-38433" class="post-38433 post type-post status-publish format-standard has-post-thumbnail hentry category-festtagstauglich category-immer-wieder-lecker category-klassiker category-zum-vorbereiten tag-festtagstauglich tag-kalbfleisch tag-parmesan tag-petersilie tag-risotto tag-schweinefleisch tag-schweinsfilet tag-zitronen tag-zum-vorbereiten fallback-thumbnail">
+			
+		<div class="entry-media" style="background-image: url(https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_beitragsbild.jpg?w=800&#038;h=800&#038;crop=1)">
+			<div class="entry-media-thumb" style="background-image: url(https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_beitragsbild.jpg?w=800&#038;h=640&#038;crop=1); "></div>
+		</div><!-- .entry-media -->
+	
+
+	<div class="entry-inner">
+
+		<header class="entry-header">
+			<div class="entry-meta">
+				<span class="cat-links"><a href="https://felix.kitchen/tag/festtagstauglich/" rel="category tag">festtagstauglich</a>, <a href="https://felix.kitchen/category/immer-wieder-lecker/" rel="category tag">IMMER WIEDER LECKER!</a>, <a href="https://felix.kitchen/category/klassiker/" rel="category tag">KLASSIKER</a>, <a href="https://felix.kitchen/tag/zum-vorbereiten/" rel="category tag">zum Vorbereiten</a></span>			</div><!-- .entry-meta -->
+
+			<h1 class="entry-title">PICCATA ALLA MILANESE</h1>
+			<div class="entry-posted">
+				<div class="posted-info"><span class="byline">Verfasst von <span class="author vcard"><a class="url fn n" href="https://felix.kitchen/author/felixthailand/">FEL!X</a></span></span><span class="posted-on"> <span class="date-published-word">am</span> <a href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/" rel="bookmark"><time class="entry-date published updated" datetime="2024-04-07T10:33:27+07:00">7. April 2024</time></a></span></div>			</div><!-- .entry-posted -->
+		</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+<p class="has-drop-cap"><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#ff0000" class="has-inline-color">Ob das Schnitzel nach Mailänder-Art</mark></strong> original italienisch ist, oder ob die Panade nördlich der Alpen mit Parmesan sozusagen «italienisiert» wurde, bleibt dahingestellt.</p>
+
+
+
+<p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#ff0000" class="has-inline-color">Tatsache ist:</mark></strong> die so umhüllten und gebratenen Schnitzelchen sind ganz einfach lecker! <br />Und was könnte dazu besser passen, als ein goldgelber Safran-Risotto?!</p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="38435" data-permalink="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/piccata_milanese_risotto/" data-orig-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg" data-orig-size="1024,726" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;DSC-RX100M3&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1694282562&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;8.8&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.0125&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="piccata_milanese_risotto" data-image-description="" data-image-caption="" data-medium-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg?w=300" data-large-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg?w=1000" width="1024" height="726" src="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg?w=1024" alt="" class="wp-image-38435" srcset="https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg 1024w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg?w=150 150w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg?w=300 300w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_milanese_risotto.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p></p>
+
+
+
+<p class="ti">PICCATA ALLA MILANESE<br />SCHNITZEL NACH MAILÄNDER-ART </p>
+
+
+
+<p><strong>2 Portionen als Hauptgericht</strong></p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="rp"><em>• 15 g Parmesan am Stück<br />• 1/2 unbehandelte Zitrone<br />• 1 Ei (<a rel="noreferrer noopener" href="https://felix.kitchen/gelingsicher/" target="_blank">kl.</a>)<br />• 1 EL Wasser<br />• 1–2 EL Weizen­mehl<br />• 1 TL Senf, mittel­scharf<br />• Salz, Pfeffer aus der Mühle</em></p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-drop-cap"><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">1</mark><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#ff0000" class="has-inline-color">PICCATA-TEIG</mark></strong>:<br />Parmesan sehr fein reiben (Micro-<a href="https://felix.kitchen/tippstricks/#m">Zestenreibe!</a>), ebenfalls die Schale der halben Zitrone. <br />Mit den weiteren Zutaten mischen, kurz ruhen lassen. <br />Der Teig sollte nicht allzu dick sein. </p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="rp"><em>• 2 Kalbs- oder Schweine­schnitzel à ca. 125 g</em> </p>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="38439" data-permalink="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/fleisch-plattieren/" data-orig-file="https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg" data-orig-size="567,463" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;DSC-RX100M3&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1694444257&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;8.8&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="fleisch-plattieren" data-image-description="" data-image-caption="" data-medium-file="https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg?w=300" data-large-file="https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg?w=567" loading="lazy" width="567" height="463" src="https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg?w=567" alt="" class="wp-image-38439" srcset="https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg 567w, https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg?w=150 150w, https://felix.kitchen/wp-content/uploads/2023/09/fleisch-plattieren.jpg?w=300 300w" sizes="(max-width: 567px) 100vw, 567px" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-drop-cap"><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">2</mark>Fleisch nach Belieben in kleinere Stücke schneiden, zwischen <em><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">Klarsichtfolie</mark></em> <strong>leicht</strong> plattieren, es sollte nicht zu dünn werden (Fleischklopfer oder Pfannenboden). </p>
+
+
+
+<p>Saft der Zitronenhälfte auspressen, das Fleisch darin kurz marinieren.</p>
+
+
+
+<p class="bg">Kann bis hierher vorbereitet werden!</p>
+</div>
+</div>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="38441" data-permalink="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/piccata_steps_1/" data-orig-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg" data-orig-size="1024,243" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;DSC-RX100M3&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1694280464&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;8.8&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="piccata_steps_1" data-image-description="" data-image-caption="" data-medium-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg?w=300" data-large-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg?w=1000" loading="lazy" width="1024" height="243" src="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg?w=1024" alt="" class="wp-image-38441" srcset="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg 1024w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg?w=150 150w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg?w=300 300w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_1.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="rp"><em>• Salz, Pfeffer aus der Mühle </em><br /><em>• Weizen- oder Reismehl </em></p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-drop-cap"><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">3</mark>Fleisch zwischen <em><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">Küchen­papier</mark></em> trocknen, würzen. <br />Im Mehl wenden, dann durch den Teig ziehen, was am ein­fachsten mit der <a href="https://felix.kitchen/tippstricks/#k" target="_blank" rel="noreferrer noopener">Koch­pinzette</a> geschieht.</p>
+</div>
+</div>
+
+
+
+<figure class="wp-block-image size-large"><img data-attachment-id="38446" data-permalink="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/piccata_steps_2/" data-orig-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg" data-orig-size="1024,387" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;DSC-RX100M3&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1694281201&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;8.8&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="piccata_steps_2" data-image-description="" data-image-caption="" data-medium-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg?w=300" data-large-file="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg?w=1000" loading="lazy" width="1024" height="387" src="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg?w=1024" alt="" class="wp-image-38446" srcset="https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg 1024w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg?w=150 150w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg?w=300 300w, https://felix.kitchen/wp-content/uploads/2023/09/piccata_steps_2.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="rp"><em>• 1 EL Olivenöl<br />• 1 EL Butter</em></p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-drop-cap"><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">4</mark>Portionenweise in der Öl-Butter-Mischung beidseitig ausbacken.<br />Auf&nbsp;<em><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">Küchenpapier</mark></em>&nbsp;abtropfen lassen.</p>
+
+
+
+<p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">Im Ofen bei 80 °C (O+U) warm stellen.</mark></strong> </p>
+
+
+
+<p class="has-drop-cap"><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">5</mark>Währenddessen einen Safran-Risotto zubereiten, <a rel="noreferrer noopener" href="https://felix.kitchen/2013/04/06/rosti-polenta-oder-risotto/" target="_blank">siehe hier</a>. </p>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="rp"><em>• etwas glatte Peter­­silie</em></p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-drop-cap"><mark style="background-color:rgba(0, 0, 0, 0);color:#008000" class="has-inline-color">6</mark>Risotto zusammen mit der Piccata anrichten.<br />Mit gehackter Petersilie bestreuen. </p>
+
+
+
+<p><img data-attachment-id="175" data-permalink="https://felix.kitchen/c39cc-chili_0/" data-orig-file="https://felix.kitchen/wp-content/uploads/2017/03/c39cc-chili_0.jpg" data-orig-size="30,34" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="c39cc-chili_0" data-image-description="" data-image-caption="" data-medium-file="https://felix.kitchen/wp-content/uploads/2017/03/c39cc-chili_0.jpg?w=30" data-large-file="https://felix.kitchen/wp-content/uploads/2017/03/c39cc-chili_0.jpg?w=30" loading="lazy" width="30" height="34" class="wp-image-175" style="width: 30px" src="https://felix.kitchen/wp-content/uploads/2017/03/c39cc-chili_0.jpg" alt=""/> nicht scharf</p>
+</div>
+</div>
+
+
+
+<p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#ff0000" class="has-inline-color">Dass Piccata</mark></strong> auch mit Gurkenscheiben anstelle von Fleisch schmeckt, ist hier ersichtlich: <br /><a href="https://felix.kitchen/2019/06/10/tagliatelle-pasta-gurken-piccata/" target="_blank" rel="noreferrer noopener">Gurken-Piccata auf Tagliatelle</a></p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Diesen Beitrag drucken:</h3><div class="sd-content"><ul><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon no-text" href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/#print" target="_blank" title="Klicken zum Ausdrucken" ><span></span><span class="sharing-screen-reader-text">Klicken zum Ausdrucken (Wird in neuem Fenster geöffnet)</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-151882727-38433-662a615f7c1c1' data-src='//widgets.wp.com/likes/index.html?ver=20240425#blog_id=151882727&amp;post_id=38433&amp;origin=felixkitchen239961262.wordpress.com&amp;obj_id=151882727-38433-662a615f7c1c1&amp;domain=felix.kitchen' data-name='like-post-frame-151882727-38433-662a615f7c1c1' data-title='Liken oder rebloggen'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Gefällt mir</span></span> <span class='loading'>Wird geladen …</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Ähnliche Beiträge</em></h3>
+</div></div>					</div><!-- .entry-content -->
+
+		<footer class="entry-footer"><div class="tags-links"><a href="https://felix.kitchen/tag/festtagstauglich/" rel="tag">festtagstauglich</a><a href="https://felix.kitchen/tag/kalbfleisch/" rel="tag">Kalbfleisch</a><a href="https://felix.kitchen/tag/parmesan/" rel="tag">Parmesan</a><a href="https://felix.kitchen/tag/petersilie/" rel="tag">Petersilie</a><a href="https://felix.kitchen/tag/risotto/" rel="tag">Risotto</a><a href="https://felix.kitchen/tag/schweinefleisch/" rel="tag">Schweinefleisch</a><a href="https://felix.kitchen/tag/schweinsfilet/" rel="tag">Schweinsfilet</a><a href="https://felix.kitchen/tag/zitronen/" rel="tag">Zitronen</a><a href="https://felix.kitchen/tag/zum-vorbereiten/" rel="tag">zum Vorbereiten</a></div></footer>
+			</div><!-- .entry-inner -->
+</article><!-- #post-## -->
+
+
+			
+	<nav class="navigation post-navigation" aria-label="Beiträge">
+		<h2 class="screen-reader-text">Beitrags-Navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://felix.kitchen/2024/04/03/eier-curry-indisch-burmesisch-tomaten-curryblaetter/" rel="prev"><div class="nav-previous"><span class="nav-subtitle">Vorheriger Beitrag</span> <span class="nav-title">EIER-CURRY</span></div></a></div><div class="nav-next"><a href="https://felix.kitchen/2024/04/10/pasta-penne-chorizo-tomaten-spinat-pinienkerne/" rel="next"><div class="nav-next"><span class="nav-subtitle">Nächster Beitrag</span> <span class="nav-title">PASTA MIT CHORIZO UND GEMÜSE</span></div></a></div></div>
+	</nav>
+		
+		
+<div class="comments-area-wrapper">
+
+	<div id="comments" class="comments-area">
+
+		
+					<h2 class="comments-title">
+				2 Kommentare
+									<a href="#respond" class="add-comment-link">Gib deinen ab</a>
+							</h2>
+
+			
+			<ol class="comment-list">
+						<li class="comment even thread-even depth-1 parent" id="comment-10848">
+				<div id="div-comment-10848" class="comment-body">
+				<div class="comment-author vcard">
+			<span class="avatar-container"><img alt='' src='https://1.gravatar.com/avatar/1b0cba3a3126ca5f31771caa14e006c7975c091a1da10bd4c5b6a302ca34e049?s=100&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/1b0cba3a3126ca5f31771caa14e006c7975c091a1da10bd4c5b6a302ca34e049?s=100&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/1b0cba3a3126ca5f31771caa14e006c7975c091a1da10bd4c5b6a302ca34e049?s=150&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/1b0cba3a3126ca5f31771caa14e006c7975c091a1da10bd4c5b6a302ca34e049?s=200&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/1b0cba3a3126ca5f31771caa14e006c7975c091a1da10bd4c5b6a302ca34e049?s=300&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/1b0cba3a3126ca5f31771caa14e006c7975c091a1da10bd4c5b6a302ca34e049?s=400&#038;d=identicon&#038;r=G 4x' class='avatar avatar-100' height='100' width='100' loading='lazy' decoding='async' /></span>			<cite class="fn">Robert Rüesch</cite> <span class="says">sagt:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/#comment-10848">15. April 2024 um 23:00</a>		</div>
+
+		<p>oh soo fein, mein Lieblingsgericht aber mit Reis aus dem Piemont. Der schmeckt einfach herrlich. Wenn wir nach Milano oder Venedig gehen kaufen wir ihn Grad Sackweise 😉😋. Liebe Grüsse Robert und Camilla </p>
+<p id="comment-like-10848" data-liked=comment-not-liked class="comment-likes comment-not-liked"><a href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/?like_comment=10848&#038;_wpnonce=81f57d95e9" class="comment-like-link needs-login" rel="nofollow" data-blog="151882727"><span>Like</span></a><span id="comment-like-count-10848" class="comment-like-feedback">Gefällt <a href="#" class="view-likers" data-like-count="1">1 Person</a></span></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/?replytocom=10848#respond' data-commentid="10848" data-postid="38433" data-belowelement="div-comment-10848" data-respondelement="respond" data-replyto="Antworte auf Robert Rüesch" aria-label='Antworte auf Robert Rüesch'>Antworten</a></div>
+				</div>
+				<ol class="children">
+		<li class="comment byuser comment-author-felixthailand bypostauthor odd alt depth-2" id="comment-10849">
+				<div id="div-comment-10849" class="comment-body">
+				<div class="comment-author vcard">
+			<span class="avatar-container"><img alt='' src='https://1.gravatar.com/avatar/a00554084505a0949e72c84ee5da57555956497ba80b274c054810708f3c0f6e?s=100&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/a00554084505a0949e72c84ee5da57555956497ba80b274c054810708f3c0f6e?s=100&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/a00554084505a0949e72c84ee5da57555956497ba80b274c054810708f3c0f6e?s=150&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/a00554084505a0949e72c84ee5da57555956497ba80b274c054810708f3c0f6e?s=200&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/a00554084505a0949e72c84ee5da57555956497ba80b274c054810708f3c0f6e?s=300&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/a00554084505a0949e72c84ee5da57555956497ba80b274c054810708f3c0f6e?s=400&#038;d=identicon&#038;r=G 4x' class='avatar avatar-100' height='100' width='100' loading='lazy' decoding='async' /></span>			<cite class="fn"><a href="http://www.felix.kitchen" class="url" rel="ugc external nofollow">FEL!X</a></cite> <span class="says">sagt:</span>		</div>
+		
+		<div class="comment-meta commentmetadata">
+			<a href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/#comment-10849">16. April 2024 um 07:56</a>		</div>
+
+		<p>Ja, immer wieder lecker!</p>
+<p id="comment-like-10849" data-liked=comment-not-liked class="comment-likes comment-not-liked"><a href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/?like_comment=10849&#038;_wpnonce=cb724010d3" class="comment-like-link needs-login" rel="nofollow" data-blog="151882727"><span>Like</span></a><span id="comment-like-count-10849" class="comment-like-feedback">Like</span></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/?replytocom=10849#respond' data-commentid="10849" data-postid="38433" data-belowelement="div-comment-10849" data-respondelement="respond" data-replyto="Antworte auf FEL!X" aria-label='Antworte auf FEL!X'>Antworten</a></div>
+				</div>
+				</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+			</ol><!-- .comment-list -->
+
+			
+		
+		
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Schreib doch was! Durch die Verwendung dieser Kommentarfunktion bist du mit der Speicherung und Verarbeitung deiner Daten auf dieser Website einverstanden. Details siehe im Menü DATENSCHUTZ. <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/#respond" style="display:none;">Antwort abbrechen</a></small></h3><form action="https://felix.kitchen/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+
+
+<div id="comment-form__verbum" class="transparent"></div><div class="verbum-form-meta"><input type='hidden' name='comment_post_ID' value='38433' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			<input type="hidden" name="highlander_comment_nonce" id="highlander_comment_nonce" value="8df315df19" />
+			<input type="hidden" name="verbum_show_subscription_modal" value="" /></div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="669e78fd33" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="173"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	<p class="akismet_comment_form_privacy_notice">Diese Seite verwendet Akismet, um Spam zu reduzieren. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Erfahre, wie deine Kommentardaten verarbeitet werden.</a>.</p>
+	</div><!-- #comments -->
+</div><!-- .comments-area-wrapper -->
+
+	</main><!-- #primary -->
+
+
+		</div><!-- #content -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			
+				<div class="widget-area widgets-four" role="complementary">
+					<div class="grid-container">
+						<aside id="search-1" class="widget widget_search"><h3 class="widget-title">Auf der Suche nach &#8230;</h3><form role="search" method="get" class="search-form" action="https://felix.kitchen/">
+				<label>
+					<span class="screen-reader-text">Suche nach:</span>
+					<input type="search" class="search-field" placeholder="Suche&#160;&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Suche" />
+			</form></aside><aside id="text-1" class="widget widget_text"><h3 class="widget-title">TAG/LABEL</h3>			<div class="textwidget"><p>* «vegetarisch»: es sind Zubereitungen ohne Fleisch und deren Erzeugnisse gemeint, also Gerichte für Ovo-Lacto-Pesco-Vegetarier<br />
+* LOW CARB: die Gerichte verstehen sich selbstverständlich ohne kohlenhydrathaltige Beilage wie Reis, Pasta oder Kartoffeln!</p>
+</div>
+		</aside><aside id="blog_subscription-3" class="widget widget_blog_subscription jetpack_subscription_widget"><h3 class="widget-title"><label for="subscribe-field">Blog per E-Mail folgen</label></h3>
+
+			<div class="wp-block-jetpack-subscriptions__container">
+			<form
+				action="https://subscribe.wordpress.com"
+				method="post"
+				accept-charset="utf-8"
+				data-blog="151882727"
+				data-post_access_level="everybody"
+				id="subscribe-blog"
+			>
+				<p>Gib deine E-Mail-Adresse ein, um diesem Blog zu folgen und per E-Mail Benachrichtigungen über neue Beiträge zu erhalten.</p>
+				<p id="subscribe-email">
+					<label
+						id="subscribe-field-label"
+						for="subscribe-field"
+						class="screen-reader-text"
+					>
+						E-Mail-Adresse:					</label>
+
+					<input
+							type="email"
+							name="email"
+							
+							style="width: 95%; padding: 1px 10px"
+							placeholder="E-Mail-Adresse"
+							value=""
+							id="subscribe-field"
+							required
+						/>				</p>
+
+				<p id="subscribe-submit"
+									>
+					<input type="hidden" name="action" value="subscribe"/>
+					<input type="hidden" name="blog_id" value="151882727"/>
+					<input type="hidden" name="source" value="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/"/>
+					<input type="hidden" name="sub-type" value="widget"/>
+					<input type="hidden" name="redirect_fragment" value="subscribe-blog"/>
+					<input type="hidden" id="_wpnonce" name="_wpnonce" value="15ed386ecd" />					<button type="submit"
+													class="wp-block-button__link"
+																	>
+						Folgen					</button>
+				</p>
+			</form>
+						</div>
+			
+</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><p>© FH 2013–2024</p>
+</div>
+		</aside>					</div><!-- .grid-container -->
+				</div><!-- #secondary -->
+
+			
+			<div class="footer-bottom-info ">
+
+				
+				<div class="site-info">
+					<a href="https://wordpress.com/?ref=footer_custom_svg" title="Erstelle eine Website oder ein Blog auf WordPress.com" rel="nofollow"><svg style="fill: currentColor; position: relative; top: 1px;" width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="title" role="img">
+				<desc id="title">Erstelle eine Website oder ein Blog auf WordPress.com</desc>
+				<path d="M12.5225848,4.97949746 C13.0138466,5.87586309 13.2934037,6.90452431 13.2934037,7.99874074 C13.2934037,10.3205803 12.0351007,12.3476807 10.1640538,13.4385638 L12.0862862,7.88081544 C12.4453251,6.98296834 12.5648813,6.26504621 12.5648813,5.62667922 C12.5648813,5.39497674 12.549622,5.17994084 12.5225848,4.97949746 L12.5225848,4.97949746 Z M7.86730089,5.04801561 C8.24619178,5.02808979 8.58760099,4.98823815 8.58760099,4.98823815 C8.9267139,4.94809022 8.88671369,4.44972248 8.54745263,4.46957423 C8.54745263,4.46957423 7.52803983,4.54957381 6.86996227,4.54957381 C6.25158863,4.54957381 5.21247202,4.46957423 5.21247202,4.46957423 C4.87306282,4.44972248 4.83328483,4.96816418 5.17254589,4.98823815 C5.17254589,4.98823815 5.49358462,5.02808979 5.83269753,5.04801561 L6.81314716,7.73459399 L5.43565839,11.8651647 L3.14394256,5.04801561 C3.52312975,5.02808979 3.86416859,4.98823815 3.86416859,4.98823815 C4.20305928,4.94809022 4.16305906,4.44972248 3.82394616,4.46957423 C3.82394616,4.46957423 2.80475558,4.54957381 2.14660395,4.54957381 C2.02852925,4.54957381 1.88934333,4.54668493 1.74156477,4.54194422 C2.86690406,2.83350881 4.80113651,1.70529256 6.99996296,1.70529256 C8.638342,1.70529256 10.1302017,2.33173369 11.2498373,3.35765419 C11.222726,3.35602457 11.1962815,3.35261718 11.1683554,3.35261718 C10.5501299,3.35261718 10.1114609,3.89113285 10.1114609,4.46957423 C10.1114609,4.98823815 10.4107217,5.42705065 10.7296864,5.94564049 C10.969021,6.36482346 11.248578,6.90326506 11.248578,7.68133501 C11.248578,8.21992476 11.0413918,8.84503256 10.7696866,9.71584277 L10.1417574,11.8132391 L7.86730089,5.04801561 Z M6.99996296,14.2927074 C6.38218192,14.2927074 5.78595654,14.2021153 5.22195356,14.0362644 L7.11048207,8.54925635 L9.04486267,13.8491542 C9.05760348,13.8802652 9.07323319,13.9089317 9.08989995,13.9358945 C8.43574834,14.1661896 7.73285573,14.2927074 6.99996296,14.2927074 L6.99996296,14.2927074 Z M0.706448182,7.99874074 C0.706448182,7.08630113 0.902152921,6.22015756 1.25141403,5.43749503 L4.25357806,13.6627848 C2.15393732,12.6427902 0.706448182,10.4898387 0.706448182,7.99874074 L0.706448182,7.99874074 Z M6.99996296,0.999 C3.14016476,0.999 0,4.13905746 0,7.99874074 C0,11.8585722 3.14016476,14.999 6.99996296,14.999 C10.8596871,14.999 14,11.8585722 14,7.99874074 C14,4.13905746 10.8596871,0.999 6.99996296,0.999 L6.99996296,0.999 Z" id="wordpress-logo-simplified-cmyk" stroke="none" fill=“currentColor” fill-rule="evenodd"></path>
+			</svg></a>
+					
+									</div><!-- .site-info -->
+			</div><!-- .footer-bottom-info -->
+
+		</footer><!-- #colophon -->
+
+	</div><!-- .site-inner -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=2024174d47d929f88574eb4a47e5b1778b683b87e7f6078bb6a33f34c1178752e83406" id="grofiles-cards-js"></script>
+<script type="text/javascript" id="wpgroho-js-extra">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Bearbeite Dein Profil',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.': 'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-db31221865a5f45d4617d1a431a444fd">
+	</div>
+	<div class="grofile-hash-map-c1d7f5fc38d4ebb17e9ef2d7b53fdc4b">
+	</div>
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-pub-dyad-2 actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-comment" href="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/#comments">
+							<svg class="gridicon gridicons-comment" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 16l-5 5v-5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2h-7z"/></g></svg>							<span>Kommentar						</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Abonnieren</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Abonniert</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://felix.kitchen">
+				<img alt='' src='https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=50' srcset='https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=50 1x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=75 1.5x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=100 2x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=150 3x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=200 4x' class='avatar avatar-50' height='50' width='50' />				FEL!X KITCHEN			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Schließe dich 323 anderen Abonnenten an</div>
+																					<div>
+										<input type="email" name="email" placeholder="Gib deine E-Mail-Adresse ein" class="actnbr-email-field" aria-label="Gib deine E-Mail-Adresse ein" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="151882727" />
+										<input type="hidden" name="source" value="https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="15ed386ecd" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Anmelden">
+												Anmelden											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Du hast bereits ein WordPress.com-Konto? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Ffelix.kitchen%252F2024%252F04%252F07%252Fpiccata-milanese-schnitzel-parmesan-safran-risotto-petersilie%252F">Melde dich jetzt an.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://felix.kitchen">
+				<img alt='' src='https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=50' srcset='https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=50 1x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=75 1.5x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=100 2x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=150 3x, https://felix.kitchen/wp-content/uploads/2021/08/cropped-icon_f.jpg?w=200 4x' class='avatar avatar-50' height='50' width='50' />				FEL!X KITCHEN			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://felixkitchen239961262.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Ffelixkitchen239961262.wordpress.com%2F2024%2F04%2F07%2Fpiccata-milanese-schnitzel-parmesan-safran-risotto-petersilie%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Anpassen</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Abonnieren</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Abonniert</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Registrieren</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Ffelix.kitchen%252F2024%252F04%252F07%252Fpiccata-milanese-schnitzel-parmesan-safran-risotto-petersilie%252F">Anmelden</a></li>
+																	<li class="actnbr-shortlink"><a href="https://wp.me/pahhDp-9ZT">Kurzlink kopieren</a></li>
+																	<li class="flb-report">
+										<a href="https://wordpress.com/abuse/?report_url=https://felix.kitchen/2024/04/07/piccata-milanese-schnitzel-parmesan-safran-risotto-petersilie/" target="_blank" rel="noopener noreferrer">
+											Melde diesen Inhalt										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/blogs/151882727/posts/38433">
+											Beitrag im Reader lesen										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Abonnements verwalten</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Diese Leiste einklappen</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20240115";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231122";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Sichtbarkeit von Fotometadaten ändern">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Sichtbarkeit von Fotokommentaren ändern">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="Dieses Bild verfügt über Kommentare."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Lade Kommentare&#160;&hellip;</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Verfasse einen Kommentar&#160;&hellip;</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Verfasse einen Kommentar&#160;&hellip;"
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">E-Mail (Erforderlich)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Name (Erforderlich)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Website</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Kommentar absenden" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJyljEsKgDAMBS9kDUUquhDPom0Qaz/BNHh9KdgTuBl4w2PgIWVzKpgKRFEU5DgTg8dCm72+DTHnCicBGex2Z2EMwM9JeKtdkgvYW+YOftTaqYkaXOOix8noQU+z8S9MR0BZ&cssminify=yes' type='text/css' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2{flex-wrap:nowrap;}.wp-container-core-columns-is-layout-3.wp-container-core-columns-is-layout-3{flex-wrap:nowrap;}.wp-container-core-columns-is-layout-4.wp-container-core-columns-is-layout-4{flex-wrap:nowrap;}.wp-container-core-columns-is-layout-5.wp-container-core-columns-is-layout-5{flex-wrap:nowrap;}
+</style>
+<script type="text/javascript" id="comment-like-js-extra">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Lade\u00a0\u2026","swipeUrl":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/comment-likes\/js\/lib\/swipe.js?ver=20131008"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="coblocks-loader-js-extra">
+/* <![CDATA[ */
+var wpcom_coblocks_js = {"coblocks_masonry_js":"https:\/\/s2.wp.com\/wp-content\/plugins\/coblocks\/2.18.1-simple-rev.4\/dist\/js\/coblocks-masonry.min.js","coblocks_lightbox_js":"https:\/\/s2.wp.com\/wp-content\/plugins\/coblocks\/2.18.1-simple-rev.4\/dist\/js\/coblocks-lightbox.min.js","jquery_core_js":"\/wp-includes\/js\/jquery\/jquery.min.js","jquery_migrate_js":"\/wp-includes\/js\/jquery\/jquery-migrate.min.js","masonry_js":"\/wp-includes\/js\/masonry.min.js","imagesloaded_js":"\/wp-includes\/js\/imagesloaded.min.js"};
+var coblocksLigthboxData = {"closeLabel":"Galerie schlie\u00dfen","leftLabel":"Vorherige","rightLabel":"N\u00e4chste"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/moon\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"de","ajaxurl":"https:\/\/felix.kitchen\/wp-admin\/admin-ajax.php","nonce":"4eda69654c","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Kommentar","post_comment":"Kommentar absenden","write_comment":"Verfasse einen Kommentar\u00a0\u2026","loading_comments":"Lade Kommentare\u00a0\u2026","download_original":"Bild in Originalgr\u00f6\u00dfe anschauen <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Stelle bitte sicher, das du mit deinem Kommentar ein bisschen Text \u00fcbermittelst.","no_comment_email":"Bitte eine E-Mail-Adresse angeben, um zu kommentieren.","no_comment_author":"Bitte deinen Namen angeben, um zu kommentieren.","comment_post_error":"Dein Kommentar konnte leider nicht abgeschickt werden. Bitte versuche es sp\u00e4ter erneut.","comment_approved":"Dein Kommentar wurde genehmigt.","comment_unapproved":"Dein Kommentar wartet auf Freischaltung.","camera":"Kamera","aperture":"Blende","shutter_speed":"Verschlusszeit","focal_length":"Brennweite","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/felixkitchen239961262.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffelix.kitchen%2F2024%2F04%2F07%2Fpiccata-milanese-schnitzel-parmesan-safran-risotto-petersilie%2F","blog_id":"151882727","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=151882727&v=wpcom&tz=7&user_id=0&subd=felixkitchen239961262","is_public":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="sharing-js-js-extra">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="verbum-settings-js-before">
+/* <![CDATA[ */
+window.VerbumComments = {"Log in or provide your name and email to leave a reply.":"Melde dich an oder gib deinen Namen und deine E-Mail-Adresse an, um uns zu antworten.","Log in or provide your name and email to leave a comment.":"Melde dich an oder gib deinen Namen und deine E-Mail-Adresse an, um einen Kommentar zu schreiben.","Receive web and mobile notifications for posts on this site.":"Erhalte Web- und Mobil-Benachrichtigungen \u00fcber neue Beitr\u00e4ge auf dieser Website.","Name":"Name","Email (address never made public)":"E-Mail (-Adresse wird niemals ver\u00f6ffentlicht)","Website (optional)":"Website (optional)","Leave a reply. (log in optional)":"Antworte uns. (Anmelden optional)","Leave a comment. (log in optional)":"Schreibe einen Kommentar. (Anmelden optional)","Log in to leave a reply.":"Melde dich an, um eine Antwort zu verfassen.","Log in to leave a comment.":"Melde dich an, um einen Kommentar zu schreiben.","Logged in via %s":"\u00dcber %s angemeldet","Log out":"Abmelden","Email":"E-Mail ","(Address never made public)":"(Adresse wird niemals ver\u00f6ffentlicht)","Instantly":"Sofort","Daily":"T\u00e4glich","Reply":"Antworten","Comment":"Kommentar","WordPress":"WordPress","Weekly":"W\u00f6chentlich","Notify me of new posts":"Bei neuen Beitr\u00e4gen benachrichtigen","Email me new posts":"Neue Beitr\u00e4ge per E-Mail zusenden","Email me new comments":"Neue Kommentare per E-Mail zusenden","Cancel":"Abbrechen","Write a comment...":"Verfasse einen Kommentar...","Write a reply...":"Schreibe eine Antwort\u00a0\u2026","Website":"Website","Optional":"Optional","We'll keep you in the loop!":"Mit uns bleibst du auf dem Laufenden!","Loading your comment...":"Dein Kommentar wird geladen\u00a0\u2026","Discover more from":"Entdecke mehr von FEL!X KITCHEN","Subscribe now to keep reading and get access to the full archive.":"Jetzt abonnieren, um weiterzulesen und auf das gesamte Archiv zuzugreifen.","Continue reading":"Weiterlesen","Never miss a beat!":"Lass dir nichts entgehen!","Interested in getting blog post updates? Simply click the button below to stay in the loop!":"Hast du Interesse daran, Updates zu Blogbeitr\u00e4gen zu erhalten? Klicke einfach auf den Button unten, um nichts mehr zu verpassen!","Enter your email address":"Gib deine E-Mail-Adresse ein","Subscribe":"Abonnieren","Comment sent successfully":"Kommentar erfolgreich versandt","Save my name, email, and website in this browser for the next time I comment.":"Meinen Namen, E-Mail und Website in diesem Browser speichern, bis ich wieder kommentiere.","siteId":151882727,"postId":38433,"mustLogIn":false,"requireNameEmail":true,"commentRegistration":false,"connectURL":"https:\/\/felixkitchen239961262.wordpress.com\/public.api\/connect\/?action=request&domain=felix.kitchen","logoutURL":"https:\/\/felixkitchen239961262.wordpress.com\/wp-login.php?action=logout&_wpnonce=c68e9f40db","homeURL":"https:\/\/felix.kitchen\/","subscribeToBlog":true,"subscribeToComment":true,"isJetpackCommentsLoggedIn":false,"jetpackUsername":"","jetpackUserId":0,"jetpackSignature":"","jetpackAvatar":"https:\/\/0.gravatar.com\/avatar\/?s=96&amp;d=identicon&amp;r=G","enableBlocks":true,"enableSubscriptionModal":true,"currentLocale":"de","isJetpackComments":false,"allowedBlocks":["core\/paragraph","core\/list","core\/code","core\/list-item","core\/quote","core\/image","core\/embed","core\/quote","core\/code"],"embedNonce":"484fb38141","verbumBundleUrl":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-mu-wpcom-plugin\/moon\/vendor\/automattic\/jetpack-mu-wpcom\/src\/features\/verbum-comments\/dist\/index.js","isRTL":false,"vbeCacheBuster":1705430309}
+/* ]]> */
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='https://s1.wp.com/_static/??-eJydkl1SwzAMhC+E44bCUB4YjsIotpoq8R+W3ZLbY5oE0lI6HZ7iyN9qV2PJQxDKu4QuSZtFMLklx9JQjyzfM2bcgdMGY9XxnbwMd5gCqF6U0iEob6cLab13co9O+yghJ28hJVK/cMlRySaT0QWOTbbFw9riwRKYsXz04MCSEsaDvppkEooxfndWOBf+qBrjVc/yvqo3VS2YbDAoIu6rB6mJ09hphOYQltx5v7RDW2xDbkpi0OL+S+dgTy0k8rfh3FMoaV0vtl5lFlv6mHXklMn6dK6IwQzLLEuILLTIx7z6L8YCexeHm8dpjW/A3LAMyx14K47TCyuIPjOab24uXEqwaAs9scUk1tVqbDcXtvEI62tbMVlM63b6+/9ReAcRNWg9HI/k2mmGV/tSP602j+vner3pPgHsrEIJ'></script>
+
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20240425#ver=20240425&amp;lang=de&amp;lang_ver=1713166381&amp;origin=https://felix.kitchen' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' class='wpl-new-layout' role="dialog" aria-hidden="true" tabindex="-1">
+		<div class="likes-text">
+			<span>%d</span>		</div>
+		<ul class="wpl-avatars sd-like-gravatars"></ul>
+	</div>
+
+		<script src="//stats.wp.com/w.js?67" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'151882727','blog_tz':'7','user_lang':'de','blog_lang':'de','user_id':'0'}]);
+_stq.push(['view', {'blog':'151882727','v':'wpcom','tz':'7','user_id':'0','post':'38433','subd':'felixkitchen239961262'}]);
+		_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsd0xoLz9RQkM2K298TXY9bERQMXc2MjhEaVZfb2wwakRoSj0mUkp1THptM1NdbkV1WjZIcU9mVWQmPUIvMlN6Jk8wW3NYVEJ3dWZOWExuWD8xeVkmK0dUTXo0Y2Zla19LK3EsOTlyMnxjWlEmVGFfTjlYcVFYSjArd3VlQX4vZFFlYlo2JW1NSkpheHR0c1tFUDNJZDIrdmRhZjRtbGN+UzNbSzdBSz1Wc2slYmpYeCYxOX4vMmhkTnJvNEFkU11EajFaLDFXM1tZQjBLd2I9NnxLd1U3bUlHeHJJPWV2S21fb1JSNE5XTHcrUjdpbl8zdUZmXVhDSWY4ZS0xL3ZUY1ZaN2U/T0IvV19sbHw3YV9yP2xdJVVQVWR0W0l0QSUvN2ZBQ3pZPzBoZjJrNzMldXFLcURIJW1vd10='}]);
+_stq.push([ 'clickTrackerInit', '151882727', '38433' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<script>
+(function() {
+	'use strict';
+
+	const fetches = {};
+	const promises = {};
+	const urls = {
+		'verbum': 'https://s2.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/moon/vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/verbum-comments.js?m=1712685197i&minify=false&ver=b21a1891b3d26e8bea5e'
+	};
+	const loaders = {
+		'verbum': () => {
+			fetchExternalScript('verbum');
+			promises['verbum'] = promises['verbum'] || loadWPScript('verbum');
+			return promises['verbum'];
+		},
+		
+	};
+	const scriptExtras = {
+		
+	};
+
+	window.WP_Enqueue_Dynamic_Script = {
+		loadScript: (handle) => {
+			if (!loaders[handle]) {
+				console.error('WP_Enqueue_Dynamic_Script: unregistered script `' + handle + '`.');
+			}
+			return loaders[handle]();
+		}
+	};
+
+	function fetchExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		fetches[handle] = fetches[handle] || fetch(urls[handle], { mode: 'no-cors' });
+		return fetches[handle];
+	}
+
+	function runExtraScript(handle, type, index) {
+		const id = 'wp-enqueue-dynamic-script:' + handle + ':' + type + ':' + (index + 1);
+		const template = document.getElementById(id);
+		if (!template) {
+			return Promise.reject();
+		}
+
+		const script = document.createElement( 'script' );
+		script.innerHTML = template.innerHTML;
+		document.body.appendChild( script );
+		return Promise.resolve();
+	}
+
+	function loadExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		return fetches[handle].then(() => {
+			return new Promise((resolve, reject) => {
+				const script = document.createElement('script');
+				script.onload = () => resolve();
+				script.onerror = (e) => reject(e);
+				script.src = urls[handle];
+				document.body.appendChild(script);
+			});
+		});
+	}
+
+	function loadExtra(handle, pos) {
+		const count = (scriptExtras[handle] && scriptExtras[handle][pos]) || 0;
+		let promise = Promise.resolve();
+
+		for (let i = 0; i < count; i++) {
+			promise = promise.then(() => runExtraScript(handle, pos, i));
+		}
+
+		return promise;
+	}
+
+	function loadWPScript(handle) {
+		return loadExtra(handle, 'before')
+			.then(() => loadExternalScript(handle))
+			.then(() => loadExtra(handle, 'after'));
+	}
+} )();
+</script>
+
+</body>
+</html>
