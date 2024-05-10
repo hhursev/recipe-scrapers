@@ -1,8 +1,25 @@
 {
-  "author": "Fabiana Badra",
-  "canonical_url": "https://receitas.ig.com.br/estrogonofe-de-cogumelos/4e7b634e7bb4e2ad5c000054.html",
   "host": "receitas.ig.com.br",
-  "image": "https://i0.statig.com.br/bancodeimagens/4y/4c/rs/4y4crseb7npraepfzuhc8iimy.jpg",
+  "canonical_url": "https://receitas.ig.com.br/estrogonofe-de-cogumelos/4e7b634e7bb4e2ad5c000054.html",
+  "site_name": "Receitas",
+  "author": "Fabiana Badra",
+  "language": "pt-BR",
+  "title": "Estrogonofe de cogumelos",
+  "ingredients": [
+    "3 colheres (sopa) de azeite",
+    "1 cebola roxa cortada em cubos",
+    "2 dentes de alho espremidos",
+    "500 g de cogumelos variados (shiitake, shimeji, portobelo e champignons)",
+    "2 colheres (sopa) de suco de limão",
+    "1 colher (sopa) de catchup",
+    "400 ml de caldo de legumes",
+    "1 colher (sopa) de amido de milho dissolvido em água fria",
+    "100 g de creme de leite",
+    "½ xícara (chá) de iogurte desnatado",
+    "3 colheres (sopa) de salsinha picada",
+    "Arroz branco para acompanhar",
+    "Batata palha"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,29 +40,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 colheres (sopa) de azeite",
-    "1 cebola roxa cortada em cubos",
-    "2 dentes de alho espremidos",
-    "500 g de cogumelos variados (shiitake, shimeji, portobelo e champignons)",
-    "2 colheres (sopa) de suco de limão",
-    "1 colher (sopa) de catchup",
-    "400 ml de caldo de legumes",
-    "1 colher (sopa) de amido de milho dissolvido em água fria",
-    "100 g de creme de leite",
-    "½ xícara (chá) de iogurte desnatado",
-    "3 colheres (sopa) de salsinha picada",
-    "Arroz branco para acompanhar",
-    "Batata palha"
-  ],
   "instructions": "Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5 minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de leite, tempere e junte a salsinha. Sirva com arroz e batata palha.",
+  "total_time": 30,
+  "prep_time": 30,
+  "yields": "4 servings",
+  "image": "https://i0.statig.com.br/bancodeimagens/4y/4c/rs/4y4crseb7npraepfzuhc8iimy.jpg",
   "instructions_list": [
     "Em uma panela com o azeite, refogue a cebola e o alho até que a cebola comece a murchar. Junte os cogumelos, o limão, e o catchup. Cozinhe por 5 a 10 minutos. Adicione o caldo e cozinhe por mais 5 minutos. Junte a maisena e deixe ferver até engrossar ligeiramente. Por último, adicione o creme de leite, tempere e junte a salsinha. Sirva com arroz e batata palha."
-  ],
-  "language": "pt-BR",
-  "site_name": "Receitas",
-  "title": "Estrogonofe de cogumelos",
-  "total_time": 30,
-  "yields": "4 servings",
-  "prep_time": 30
+  ]
 }

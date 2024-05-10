@@ -1,9 +1,10 @@
 {
-  "author": "Sue | My Korean Kitchen",
-  "canonical_url": "https://mykoreankitchen.com/korean-sweet-rice-with-dried-fruit-and-nuts/",
   "host": "mykoreankitchen.com",
-  "description": "Korean sweet rice dessert (Yaksik) recipe",
-  "image": "https://mykoreankitchen.com/wp-content/uploads/2016/01/1.-Korean-Sweet-Rice-with-Dried-Fruit-and-Nuts.jpg",
+  "canonical_url": "https://mykoreankitchen.com/korean-sweet-rice-with-dried-fruit-and-nuts/",
+  "site_name": "My Korean Kitchen",
+  "author": "Sue | My Korean Kitchen",
+  "language": "en-US",
+  "title": "Yaksik (Korean Sweet Rice with Dried Fruit and Nuts)",
   "ingredients": [
     "3 cups* sweet rice (short grain glutinous rice)",
     "2 cups* water",
@@ -54,27 +55,12 @@
     }
   ],
   "instructions": "Combine the seasoning sauce ingredients in a bowl and mix them well.\nRinse the sweet rice under cold running water a couple of times until the water runs clear. Drain the water and allow the rice to sit in the sieve for 10 to 20 minutes to ensure it's fully drained.\nAdd the sweet rice, the water and the seasoning sauce into the rice cooker or multi cooker pot and mix them well.\nAdd the nuts and dried fruit on top. Mix them well to make sure these are evenly spread in the pot.\n(For Rice Cooker) Set the “multi steam” function for 35 mins and cook. - This is based on my cuckoo rice cooker setting. (For Instant Pot) Select the ‘rice’ setting and set it to ‘high pressure’. Make sure the steam release handle is in the ‘sealing’ position. The Instant Pot will automatically adjust the cooking duration. Upon completion of the cooking cycle (approximately 20 minutes), cautiously shift the steam release handle from 'sealing' to 'venting'.\nPrepare a medium-sized square or rectangular container for molding. I used a Pyrex container, but a baking tray works well too. Optionally, you can cover the mold with cling wrap to make it easier to remove the rice later. Once everything is cooked, gently stir and mix the rice, dried fruit, and nuts using a rice scoop. Then, transfer the rice mixture into your prepared mold. Press this mixture down firmly to make sure it's packed tightly. Finally, allow the rice to cool in the mold for 20 to 30 minutes.\nTip the mold over the cutting board or gently lift the cling wrap to release the yaksik. If you wish, you can garnish the yaksik with pine nuts and sliced jujube, spacing them out generously. (Decoration is optional. Before you start decorating, envision the size of each cut portion to ensure there is enough room for both decoration and slicing. If you plan to make smaller food portions, you'll need to spend more time on decoration.)\nSlice the yaksik into your preferred size. (If you decorated, that will influence the size.)\nServe the yaksik. If not consuming immediately, wrap each piece individually in food wrap, store them in a container, and refrigerate it for a few days or freeze it for up to a few months.",
-  "instructions_list": [
-    "Combine the seasoning sauce ingredients in a bowl and mix them well.",
-    "Rinse the sweet rice under cold running water a couple of times until the water runs clear. Drain the water and allow the rice to sit in the sieve for 10 to 20 minutes to ensure it's fully drained.",
-    "Add the sweet rice, the water and the seasoning sauce into the rice cooker or multi cooker pot and mix them well.",
-    "Add the nuts and dried fruit on top. Mix them well to make sure these are evenly spread in the pot.",
-    "(For Rice Cooker) Set the “multi steam” function for 35 mins and cook. - This is based on my cuckoo rice cooker setting. (For Instant Pot) Select the ‘rice’ setting and set it to ‘high pressure’. Make sure the steam release handle is in the ‘sealing’ position. The Instant Pot will automatically adjust the cooking duration. Upon completion of the cooking cycle (approximately 20 minutes), cautiously shift the steam release handle from 'sealing' to 'venting'.",
-    "Prepare a medium-sized square or rectangular container for molding. I used a Pyrex container, but a baking tray works well too. Optionally, you can cover the mold with cling wrap to make it easier to remove the rice later. Once everything is cooked, gently stir and mix the rice, dried fruit, and nuts using a rice scoop. Then, transfer the rice mixture into your prepared mold. Press this mixture down firmly to make sure it's packed tightly. Finally, allow the rice to cool in the mold for 20 to 30 minutes.",
-    "Tip the mold over the cutting board or gently lift the cling wrap to release the yaksik. If you wish, you can garnish the yaksik with pine nuts and sliced jujube, spacing them out generously. (Decoration is optional. Before you start decorating, envision the size of each cut portion to ensure there is enough room for both decoration and slicing. If you plan to make smaller food portions, you'll need to spend more time on decoration.)",
-    "Slice the yaksik into your preferred size. (If you decorated, that will influence the size.)",
-    "Serve the yaksik. If not consuming immediately, wrap each piece individually in food wrap, store them in a container, and refrigerate it for a few days or freeze it for up to a few months."
-  ],
-  "language": "en-US",
-  "site_name": "My Korean Kitchen",
-  "title": "Yaksik (Korean Sweet Rice with Dried Fruit and Nuts)",
   "total_time": 70,
   "prep_time": 10,
   "cook_time": 60,
-  "ratings": 4.88,
   "yields": "9 servings",
-  "category": "Dessert",
-  "cuisine": "Korean",
+  "image": "https://mykoreankitchen.com/wp-content/uploads/2016/01/1.-Korean-Sweet-Rice-with-Dried-Fruit-and-Nuts.jpg",
+  "description": "Korean sweet rice dessert (Yaksik) recipe",
   "nutrients": {
     "calories": "439 kcal",
     "carbohydrateContent": "89 g",
@@ -86,5 +72,19 @@
     "sugarContent": "14 g",
     "unsaturatedFatContent": "5 g",
     "servingSize": "1 serving"
-  }
+  },
+  "cuisine": "Korean",
+  "category": "Dessert",
+  "ratings": 4.88,
+  "instructions_list": [
+    "Combine the seasoning sauce ingredients in a bowl and mix them well.",
+    "Rinse the sweet rice under cold running water a couple of times until the water runs clear. Drain the water and allow the rice to sit in the sieve for 10 to 20 minutes to ensure it's fully drained.",
+    "Add the sweet rice, the water and the seasoning sauce into the rice cooker or multi cooker pot and mix them well.",
+    "Add the nuts and dried fruit on top. Mix them well to make sure these are evenly spread in the pot.",
+    "(For Rice Cooker) Set the “multi steam” function for 35 mins and cook. - This is based on my cuckoo rice cooker setting. (For Instant Pot) Select the ‘rice’ setting and set it to ‘high pressure’. Make sure the steam release handle is in the ‘sealing’ position. The Instant Pot will automatically adjust the cooking duration. Upon completion of the cooking cycle (approximately 20 minutes), cautiously shift the steam release handle from 'sealing' to 'venting'.",
+    "Prepare a medium-sized square or rectangular container for molding. I used a Pyrex container, but a baking tray works well too. Optionally, you can cover the mold with cling wrap to make it easier to remove the rice later. Once everything is cooked, gently stir and mix the rice, dried fruit, and nuts using a rice scoop. Then, transfer the rice mixture into your prepared mold. Press this mixture down firmly to make sure it's packed tightly. Finally, allow the rice to cool in the mold for 20 to 30 minutes.",
+    "Tip the mold over the cutting board or gently lift the cling wrap to release the yaksik. If you wish, you can garnish the yaksik with pine nuts and sliced jujube, spacing them out generously. (Decoration is optional. Before you start decorating, envision the size of each cut portion to ensure there is enough room for both decoration and slicing. If you plan to make smaller food portions, you'll need to spend more time on decoration.)",
+    "Slice the yaksik into your preferred size. (If you decorated, that will influence the size.)",
+    "Serve the yaksik. If not consuming immediately, wrap each piece individually in food wrap, store them in a container, and refrigerate it for a few days or freeze it for up to a few months."
+  ]
 }

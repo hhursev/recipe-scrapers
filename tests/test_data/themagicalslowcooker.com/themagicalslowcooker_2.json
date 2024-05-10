@@ -1,11 +1,29 @@
 {
-  "author": "Sarah Olson",
-  "canonical_url": "https://www.themagicalslowcooker.com/slow-cooker-pork-roast/",
-  "category": "Main Course",
-  "cuisine": "American",
-  "description": "Pork is so flavorful; why not make a pot roast dinner with it?! The recipe has everything you need from the meat, vegetables and even the gravy.",
   "host": "themagicalslowcooker.com",
-  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/02/crockpot-pork-pot-roast-4.jpg",
+  "canonical_url": "https://www.themagicalslowcooker.com/slow-cooker-pork-roast/",
+  "site_name": "The Magical Slow Cooker",
+  "author": "Sarah Olson",
+  "language": "en-US",
+  "title": "Slow Cooker Pork Roast with Gravy",
+  "ingredients": [
+    "4 lbs. boneless pork shoulder",
+    "¼ cup brown sugar",
+    "1 tsp. onion powder",
+    "1 tsp. garlic powder",
+    "1 tsp. mustard powder",
+    "1 tsp. dried thyme",
+    "½ tsp. salt",
+    "½ tsp. black pepper",
+    "2 Tbsp. olive oil",
+    "1 lb baby carrots",
+    "1 lb red potatoes (Quartered)",
+    "1 large yellow onion (Quartered)",
+    "6 cloves garlic",
+    "1 cup chicken broth",
+    "2 Tbsp. apple cider vinegar",
+    "1 Tbsp. dijon mustard",
+    "2 Tbsp. cornstarch"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -40,37 +58,13 @@
       "purpose": "To make the gravy"
     }
   ],
-  "ingredients": [
-    "4 lbs. boneless pork shoulder",
-    "¼ cup brown sugar",
-    "1 tsp. onion powder",
-    "1 tsp. garlic powder",
-    "1 tsp. mustard powder",
-    "1 tsp. dried thyme",
-    "½ tsp. salt",
-    "½ tsp. black pepper",
-    "2 Tbsp. olive oil",
-    "1 lb baby carrots",
-    "1 lb red potatoes (Quartered)",
-    "1 large yellow onion (Quartered)",
-    "6 cloves garlic",
-    "1 cup chicken broth",
-    "2 Tbsp. apple cider vinegar",
-    "1 Tbsp. dijon mustard",
-    "2 Tbsp. cornstarch"
-  ],
   "instructions": "Using paper towels, pat dry the pork shoulder and set aside. In a small bowl, mix together the brown sugar, onion powder, granulated garlic, mustard powder, thyme, salt and pepper. Rub the spice mixture on all sides of the pork roast.\nHeat a large skillet over medium high heat, drizzle on the olive oil and sear the pork roast on all sides, about 2-3 minutes per side.\nTo the slow cooker pot, add the carrots, potatoes, onion, and garlic to the bottom of the pot. Place the seared pork roast over the vegetables.\nIn a small bowl, whisk together the chicken stock, apple cider vinegar and dijon mustard. Pour over the pork roast and put the lid on the slow cooker.\nCook on HIGH for 4-6 hours or LOW for 8-10 hours. The pork is done when very tender and easily shreddable.\nWhen done, transfer the cooking liquid to a 4 quart stock pot and heat over medium on the stove top.\nMix the 2 Tbsp of cornstarch with 2 Tbsp of the cooking liquid and whisk it into the stock pot on the stove. Continuous stirring until the gravy has thickened.\nTransfer the pork roast and vegetables to a serving platter, shred the pork into larger pieces and serve with the gravy. Enjoy",
-  "instructions_list": [
-    "Using paper towels, pat dry the pork shoulder and set aside. In a small bowl, mix together the brown sugar, onion powder, granulated garlic, mustard powder, thyme, salt and pepper. Rub the spice mixture on all sides of the pork roast.",
-    "Heat a large skillet over medium high heat, drizzle on the olive oil and sear the pork roast on all sides, about 2-3 minutes per side.",
-    "To the slow cooker pot, add the carrots, potatoes, onion, and garlic to the bottom of the pot. Place the seared pork roast over the vegetables.",
-    "In a small bowl, whisk together the chicken stock, apple cider vinegar and dijon mustard. Pour over the pork roast and put the lid on the slow cooker.",
-    "Cook on HIGH for 4-6 hours or LOW for 8-10 hours. The pork is done when very tender and easily shreddable.",
-    "When done, transfer the cooking liquid to a 4 quart stock pot and heat over medium on the stove top.",
-    "Mix the 2 Tbsp of cornstarch with 2 Tbsp of the cooking liquid and whisk it into the stock pot on the stove. Continuous stirring until the gravy has thickened.",
-    "Transfer the pork roast and vegetables to a serving platter, shred the pork into larger pieces and serve with the gravy. Enjoy"
-  ],
-  "language": "en-US",
+  "total_time": 510,
+  "prep_time": 30,
+  "cook_time": 480,
+  "yields": "6 servings",
+  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/02/crockpot-pork-pot-roast-4.jpg",
+  "description": "Pork is so flavorful; why not make a pot roast dinner with it?! The recipe has everything you need from the meat, vegetables and even the gravy.",
   "nutrients": {
     "calories": "582 kcal",
     "carbohydrateContent": "36 g",
@@ -85,15 +79,21 @@
     "unsaturatedFatContent": "10 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 8,
-  "site_name": "The Magical Slow Cooker",
-  "title": "Slow Cooker Pork Roast with Gravy",
-  "total_time": 510,
-  "yields": "6 servings",
-  "cook_time": 480,
-  "prep_time": 30,
+  "cuisine": "American",
+  "category": "Main Course",
   "keywords": [
     "pork pot roast"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 8,
+  "instructions_list": [
+    "Using paper towels, pat dry the pork shoulder and set aside. In a small bowl, mix together the brown sugar, onion powder, granulated garlic, mustard powder, thyme, salt and pepper. Rub the spice mixture on all sides of the pork roast.",
+    "Heat a large skillet over medium high heat, drizzle on the olive oil and sear the pork roast on all sides, about 2-3 minutes per side.",
+    "To the slow cooker pot, add the carrots, potatoes, onion, and garlic to the bottom of the pot. Place the seared pork roast over the vegetables.",
+    "In a small bowl, whisk together the chicken stock, apple cider vinegar and dijon mustard. Pour over the pork roast and put the lid on the slow cooker.",
+    "Cook on HIGH for 4-6 hours or LOW for 8-10 hours. The pork is done when very tender and easily shreddable.",
+    "When done, transfer the cooking liquid to a 4 quart stock pot and heat over medium on the stove top.",
+    "Mix the 2 Tbsp of cornstarch with 2 Tbsp of the cooking liquid and whisk it into the stock pot on the stove. Continuous stirring until the gravy has thickened.",
+    "Transfer the pork roast and vegetables to a serving platter, shred the pork into larger pieces and serve with the gravy. Enjoy"
   ]
 }

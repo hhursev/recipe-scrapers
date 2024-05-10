@@ -1,11 +1,28 @@
 {
-  "author": "Ela",
-  "canonical_url": "https://elavegan.com/red-lentil-dahl/",
-  "category": "Dinner",
-  "cuisine": "Indian",
-  "description": "This easy, creamy red lentil dahl (masoor dal curry) is frugal, hearty, comforting, flavorful, packed with plant-based protein, and ready in just 30 minutes! Serve with home-cooked rice and naan bread for a gluten-free, dairy-free Indian-inspired feast!",
   "host": "elavegan.com",
-  "image": "https://elavegan.com/wp-content/uploads/2019/10/Red-Lentil-Dhal-with-rice.jpg",
+  "canonical_url": "https://elavegan.com/red-lentil-dahl/",
+  "site_name": "Elavegan",
+  "author": "Ela",
+  "language": "en-US",
+  "title": "Red Lentil Dahl",
+  "ingredients": [
+    "1 1/2 cups dry red lentils",
+    "1 large carrot (finely diced (see notes))",
+    "1 small bell pepper",
+    "1 large onion (chopped)",
+    "4 cloves of garlic (minced)",
+    "1 heaped tbsp fresh ginger (minced)",
+    "1/2 tbsp vegetable oil",
+    "3 cups vegetable broth (or water)",
+    "1 cup canned coconut milk ((see notes))",
+    "1 1/2 tsp ground cumin",
+    "1 tbsp curry powder",
+    "1/2 tbsp sweetener of choice",
+    "1 tsp ground turmeric",
+    "1 tsp paprika",
+    "Sea salt and black pepper (to taste)",
+    "1/3 tsp red pepper flakes ((optional))"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,34 +46,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 1/2 cups dry red lentils",
-    "1 large carrot (finely diced (see notes))",
-    "1 small bell pepper",
-    "1 large onion (chopped)",
-    "4 cloves of garlic (minced)",
-    "1 heaped tbsp fresh ginger (minced)",
-    "1/2 tbsp vegetable oil",
-    "3 cups vegetable broth (or water)",
-    "1 cup canned coconut milk ((see notes))",
-    "1 1/2 tsp ground cumin",
-    "1 tbsp curry powder",
-    "1/2 tbsp sweetener of choice",
-    "1 tsp ground turmeric",
-    "1 tsp paprika",
-    "Sea salt and black pepper (to taste)",
-    "1/3 tsp red pepper flakes ((optional))"
-  ],
   "instructions": "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.\nHeat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.\nAdd all spices, sweetener, lentils, and vegetable broth or water. Bring to a boil and let simmer for about 10 minutes.\nFinally, add coconut milk and cook for a further 5 minutes or until the desired thickness of the dahl is reached.\nSeason with black pepper and salt. Taste and adjust the seasonings as needed.\nServe warm with basmati rice, potatoes, or naan (flatbread) and garnish with fresh herbs.",
-  "instructions_list": [
-    "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.",
-    "Heat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.",
-    "Add all spices, sweetener, lentils, and vegetable broth or water. Bring to a boil and let simmer for about 10 minutes.",
-    "Finally, add coconut milk and cook for a further 5 minutes or until the desired thickness of the dahl is reached.",
-    "Season with black pepper and salt. Taste and adjust the seasonings as needed.",
-    "Serve warm with basmati rice, potatoes, or naan (flatbread) and garnish with fresh herbs."
-  ],
-  "language": "en-US",
+  "total_time": 30,
+  "prep_time": 10,
+  "cook_time": 20,
+  "yields": "6 servings",
+  "image": "https://elavegan.com/wp-content/uploads/2019/10/Red-Lentil-Dhal-with-rice.jpg",
+  "description": "This easy, creamy red lentil dahl (masoor dal curry) is frugal, hearty, comforting, flavorful, packed with plant-based protein, and ready in just 30 minutes! Serve with home-cooked rice and naan bread for a gluten-free, dairy-free Indian-inspired feast!",
   "nutrients": {
     "calories": "302 kcal",
     "proteinContent": "14 g",
@@ -66,19 +62,23 @@
     "fiberContent": "8.1 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.95,
-  "ratings_count": 125,
-  "site_name": "Elavegan",
-  "title": "Red Lentil Dahl",
-  "total_time": 30,
-  "yields": "6 servings",
-  "cook_time": 20,
-  "prep_time": 10,
+  "cuisine": "Indian",
+  "category": "Dinner",
   "keywords": [
     "creamy",
     "curry",
     "dal",
     "dhal",
     "lentils"
+  ],
+  "ratings": 4.95,
+  "ratings_count": 125,
+  "instructions_list": [
+    "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.",
+    "Heat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.",
+    "Add all spices, sweetener, lentils, and vegetable broth or water. Bring to a boil and let simmer for about 10 minutes.",
+    "Finally, add coconut milk and cook for a further 5 minutes or until the desired thickness of the dahl is reached.",
+    "Season with black pepper and salt. Taste and adjust the seasonings as needed.",
+    "Serve warm with basmati rice, potatoes, or naan (flatbread) and garnish with fresh herbs."
   ]
 }

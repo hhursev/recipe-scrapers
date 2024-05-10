@@ -1,10 +1,26 @@
 {
-  "author": "Shannon Clark and Danielle Christine",
-  "canonical_url": "https://www.bodybuilding.com/recipes/spicy-beans-and-rice",
-  "category": "Side Dishes,Vegetarian,High-Protein",
-  "description": "This one-dish meal has it all—flavorful wild rice, protein-rich beans, heart-healthy vegetables, and just the perfect amount of spice to make you come back for more every time. This dish is also quick and easy to prepare, making it ideal for those who just don't have time to dedicate hours to preparing lunch or dinner.",
   "host": "bodybuilding.com",
-  "image": "https://www.bodybuilding.com/images/2021/october/spicy-beans-and-rice-header-960x540.jpg",
+  "canonical_url": "https://www.bodybuilding.com/recipes/spicy-beans-and-rice",
+  "site_name": "Bodybuilding.com",
+  "author": "Shannon Clark and Danielle Christine",
+  "language": "en",
+  "title": "Spicy Beans and Rice",
+  "ingredients": [
+    "1 tbsp olive oil",
+    "2 clove garlic, minced",
+    "1 red onion, diced",
+    "1 stalk, medium (7-1/2\" - 8\" long) celery, peeled and chopped",
+    "1 cup mushrooms, sliced",
+    "1 15 oz. can red kidney beans",
+    "1 tbsp hot sauce",
+    "1 tsp paprika",
+    "2½ cup low-sodium vegetable broth",
+    "1 tsp vegetable bouillon",
+    "1 cup wild rice, uncooked",
+    "1 tbsp grass-fed butter",
+    "1 tbsp green onion, chopped",
+    "1 salt and pepper to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,23 +42,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 tbsp olive oil",
-    "2 clove garlic, minced",
-    "1 red onion, diced",
-    "1 stalk, medium (7-1/2\" - 8\" long) celery, peeled and chopped",
-    "1 cup mushrooms, sliced",
-    "1 15 oz. can red kidney beans",
-    "1 tbsp hot sauce",
-    "1 tsp paprika",
-    "2½ cup low-sodium vegetable broth",
-    "1 tsp vegetable bouillon",
-    "1 cup wild rice, uncooked",
-    "1 tbsp grass-fed butter",
-    "1 tbsp green onion, chopped",
-    "1 salt and pepper to taste"
-  ],
   "instructions": "1. Dice the celery, red onion, and mushrooms.\n2. Heat the butter in a skillet over medium heat. Add all of the vegetables and stir-fry for 3-4 minutes or until vegetables are tender. Set aside.\n3. Bring broth to a boil in a large pot. Stir in wild rice, hot sauce, paprika, and bouillon and cook 45-60 minutes or until rice is tender.\n4. Add olive oil and garlic to a skillet and quickly sauté. Remember that garlic burns quickly, so it is important to keep a close eye on it. Add in the cooked rice, beans, and cooked vegetables.\n5. Stir-fry for 3-5 minutes to crisp up the rice and serve. Garnish with chopped green onion.\n6. Optional: Add any other vegetables you prefer.",
+  "total_time": 75,
+  "yields": "4 servings",
+  "image": "https://www.bodybuilding.com/images/2021/october/spicy-beans-and-rice-header-960x540.jpg",
+  "description": "This one-dish meal has it all—flavorful wild rice, protein-rich beans, heart-healthy vegetables, and just the perfect amount of spice to make you come back for more every time. This dish is also quick and easy to prepare, making it ideal for those who just don't have time to dedicate hours to preparing lunch or dinner.",
+  "category": "Side Dishes,Vegetarian,High-Protein",
   "instructions_list": [
     "1. Dice the celery, red onion, and mushrooms.",
     "2. Heat the butter in a skillet over medium heat. Add all of the vegetables and stir-fry for 3-4 minutes or until vegetables are tender. Set aside.",
@@ -50,10 +55,5 @@
     "4. Add olive oil and garlic to a skillet and quickly sauté. Remember that garlic burns quickly, so it is important to keep a close eye on it. Add in the cooked rice, beans, and cooked vegetables.",
     "5. Stir-fry for 3-5 minutes to crisp up the rice and serve. Garnish with chopped green onion.",
     "6. Optional: Add any other vegetables you prefer."
-  ],
-  "language": "en",
-  "site_name": "Bodybuilding.com",
-  "title": "Spicy Beans and Rice",
-  "total_time": 75,
-  "yields": "4 servings"
+  ]
 }

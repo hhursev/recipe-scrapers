@@ -1,9 +1,26 @@
 {
-  "author": "Archana's Kitchen",
-  "canonical_url": "/classic-greek-salad-recipe",
-  "category": null,
   "host": "archanaskitchen.com",
-  "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/May-2/Classic_Greek_Salad_With_Olives_And_Feta_Cheese-7.jpg",
+  "canonical_url": "/classic-greek-salad-recipe",
+  "site_name": "Archana's Kitchen",
+  "author": "Archana's Kitchen",
+  "language": "en",
+  "title": "Classic Greek salad Recipe",
+  "ingredients": [
+    "4 tablespoons Extra Virgin Olive Oil",
+    "4 tablespoons Lemon juice",
+    "Salt and Pepper, to taste",
+    "1 cup Iceberg lettuce, washed thoroughly and drained",
+    "2 Tomatoes, cut into chunks",
+    "1 English Cucumber, chopped",
+    "1 Red onion, sliced",
+    "1/2 cup Kalmatta olives",
+    "100 grams Feta Cheese, crumbled",
+    "2 sprig Parsley leaves, chopped (optional)",
+    "1/2 cup Kalmatta olives",
+    "100 grams Feta Cheese, crumbled",
+    "2 sprig Parsley leaves, chopped",
+    "Salt and Pepper, to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,38 +47,21 @@
       "purpose": "For the Salad"
     }
   ],
-  "ingredients": [
-    "4 tablespoons Extra Virgin Olive Oil",
-    "4 tablespoons Lemon juice",
-    "Salt and Pepper, to taste",
-    "1 cup Iceberg lettuce, washed thoroughly and drained",
-    "2 Tomatoes, cut into chunks",
-    "1 English Cucumber, chopped",
-    "1 Red onion, sliced",
-    "1/2 cup Kalmatta olives",
-    "100 grams Feta Cheese, crumbled",
-    "2 sprig Parsley leaves, chopped (optional)",
-    "1/2 cup Kalmatta olives",
-    "100 grams Feta Cheese, crumbled",
-    "2 sprig Parsley leaves, chopped",
-    "Salt and Pepper, to taste"
-  ],
   "instructions": "We begin making the Classic Greek salad Recipe by washing the lettuce thoroughly and draining off any excess water. Tear them into bite size pieces and keep it aside.\nCut all the vegetables and keep it ready, add all the salad ingredients(lettuce,cucumber, tomatoes,red onion) except feta & olives into a large mixing bowl.\nIn another bowl whisk in the dressing ingredients till it combines. Drizzle this on top of the salad mixture and give it a toss.Check for salt and pepper and add if required.\nServe the salad on a flat plate topped up with some crumbled feta cheese and olives.\nServe the Classic Greek salad Recipe as a Party Appetizer followed by a Vegan Moussaka to relish a Greek Meal.",
+  "total_time": 30,
+  "prep_time": 30,
+  "yields": "4 items",
+  "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/May-2/Classic_Greek_Salad_With_Olives_And_Feta_Cheese-7.jpg",
+  "description": "Classic Greek salad Recipe is a must try salad if you love vegetables. The salad is a simple assortment of fresh and crunchy vegetables and lettuce which is tossed in a tangy and citrus dressing. The salad is then sprinkled with a light and creamy feta cheese in order to balance the flavor. Olives are also one of the key ingredient in Greek Cooking. Olives are added as a whole in the salad or it can also be halved. Normally this salad is considered as a breakfast or lunch dish for Greek Farmers were they always consume fresh in what they grow. Serve the Classic Greek salad Recipe as a Party Appetizer followed by a Vegan Moussaka to relish a Greek Meal. If you are looking for Greek dishes here are some : Greek Style Briami Recipe (Simple Vegetable Stew Recipe) Greek Style Grilled Pita Pizza Recipe Greek Style Vegan Moussaka Recipe",
+  "cuisine": "Greek",
+  "category": null,
+  "ratings": 4.93,
+  "ratings_count": 3151,
   "instructions_list": [
     "We begin making the Classic Greek salad Recipe by washing the lettuce thoroughly and draining off any excess water. Tear them into bite size pieces and keep it aside.",
     "Cut all the vegetables and keep it ready, add all the salad ingredients(lettuce,cucumber, tomatoes,red onion) except feta & olives into a large mixing bowl.",
     "In another bowl whisk in the dressing ingredients till it combines. Drizzle this on top of the salad mixture and give it a toss.Check for salt and pepper and add if required.",
     "Serve the salad on a flat plate topped up with some crumbled feta cheese and olives.",
     "Serve the Classic Greek salad Recipe as a Party Appetizer followed by a Vegan Moussaka to relish a Greek Meal."
-  ],
-  "language": "en",
-  "ratings": 4.93,
-  "ratings_count": 3151,
-  "site_name": "Archana's Kitchen",
-  "title": "Classic Greek salad Recipe",
-  "total_time": 30,
-  "yields": "4 items",
-  "description": "Classic Greek salad Recipe is a must try salad if you love vegetables. The salad is a simple assortment of fresh and crunchy vegetables and lettuce which is tossed in a tangy and citrus dressing. The salad is then sprinkled with a light and creamy feta cheese in order to balance the flavor. Olives are also one of the key ingredient in Greek Cooking. Olives are added as a whole in the salad or it can also be halved. Normally this salad is considered as a breakfast or lunch dish for Greek Farmers were they always consume fresh in what they grow. Serve the Classic Greek salad Recipe as a Party Appetizer followed by a Vegan Moussaka to relish a Greek Meal. If you are looking for Greek dishes here are some : Greek Style Briami Recipe (Simple Vegetable Stew Recipe) Greek Style Grilled Pita Pizza Recipe Greek Style Vegan Moussaka Recipe",
-  "cuisine": "Greek",
-  "prep_time": 30
+  ]
 }

@@ -1,10 +1,23 @@
 {
-  "author": "Herseyland",
-  "canonical_url": "hersheyland.com",
-  "category": "Tags",
-  "description": "The words “perfect” and “chocolate cake” basically have the same meaning, right? With our HESHERY’S homemade chocolate cake recipe this seems to be true. Baking from scratch is easier than you think when you mix HERSHEY’S Cocoa with a few other simple ingredients. Bake this delicious dessert when you’re hosting the next family get-together, celebrating a birthday or wanting a bite of delicious chocolate cake after dinner. This “perfectly chocolate” cake recipe was made for sharing, so get out your best plates, have a pitcher of milk ready and divvy out this chocolatey cake with your favorite people. Make sure everyone can enjoy a sweet treat with our flourless version: Gluten-Free HERSHEY'S \"Perfectly Chocolate\" Chocolate Cake recipe.",
   "host": "hersheyland.com",
-  "image": "https://publish-p50513-e440257.adobeaemcloud.com/content/dam/hersheyland/en-us/recipes/recipe-images/2_Hersheys_Perfectly_Chocolate_Cake_11-18.jpeg",
+  "canonical_url": "hersheyland.com",
+  "site_name": null,
+  "author": "Herseyland",
+  "language": "en-US",
+  "title": "HERSHEY'S \"Perfectly Chocolate\" Chocolate Cake Recipe | Hersheyland",
+  "ingredients": [
+    "2 cups sugar",
+    "1-3/4 cups all-purpose flour",
+    "3/4 cup HERSHEY'S Cocoa",
+    "1-1/2 tsps baking powder",
+    "1-1/2 tsps baking soda",
+    "1 tsp salt",
+    "2 eggs",
+    "1 cup milk",
+    "1/2 cup vegetable oil",
+    "2 tsps vanilla extract",
+    "1 cup boiling water"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,29 +36,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups sugar",
-    "1-3/4 cups all-purpose flour",
-    "3/4 cup HERSHEY'S Cocoa",
-    "1-1/2 tsps baking powder",
-    "1-1/2 tsps baking soda",
-    "1 tsp salt",
-    "2 eggs",
-    "1 cup milk",
-    "1/2 cup vegetable oil",
-    "2 tsps vanilla extract",
-    "1 cup boiling water"
-  ],
   "instructions": "Step 1\nHeat oven to 350°F. Grease and flour two 9-inch round baking pans.\nStep 2\nStir together sugar, flour, cocoa, baking powder, baking soda and salt in large bowl. Add eggs, milk, oil and vanilla; beat on medium speed of mixer 2 minutes. Stir in boiling water (batter will be thin). Pour batter into prepared pans.\nStep 3\nBake 30 to 35 minutes or until wooden pick inserted in center comes out clean. Cool 10 minutes; remove from pans to wire racks. Cool completely. Frost with \"Perfectly Chocolate\" Chocolate Frosting.",
-  "instructions_list": [
-    "Step 1",
-    "Heat oven to 350°F. Grease and flour two 9-inch round baking pans.",
-    "Step 2",
-    "Stir together sugar, flour, cocoa, baking powder, baking soda and salt in large bowl. Add eggs, milk, oil and vanilla; beat on medium speed of mixer 2 minutes. Stir in boiling water (batter will be thin). Pour batter into prepared pans.",
-    "Step 3",
-    "Bake 30 to 35 minutes or until wooden pick inserted in center comes out clean. Cool 10 minutes; remove from pans to wire racks. Cool completely. Frost with \"Perfectly Chocolate\" Chocolate Frosting."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 15,
+  "yields": "1 cake",
+  "image": "https://publish-p50513-e440257.adobeaemcloud.com/content/dam/hersheyland/en-us/recipes/recipe-images/2_Hersheys_Perfectly_Chocolate_Cake_11-18.jpeg",
+  "description": "The words “perfect” and “chocolate cake” basically have the same meaning, right? With our HESHERY’S homemade chocolate cake recipe this seems to be true. Baking from scratch is easier than you think when you mix HERSHEY’S Cocoa with a few other simple ingredients. Bake this delicious dessert when you’re hosting the next family get-together, celebrating a birthday or wanting a bite of delicious chocolate cake after dinner. This “perfectly chocolate” cake recipe was made for sharing, so get out your best plates, have a pitcher of milk ready and divvy out this chocolatey cake with your favorite people. Make sure everyone can enjoy a sweet treat with our flourless version: Gluten-Free HERSHEY'S \"Perfectly Chocolate\" Chocolate Cake recipe.",
   "nutrients": {
     "servingSize": "1 slice (148g)",
     "calories": "530 Calories",
@@ -59,18 +55,7 @@
     "sugarContent": "64 g",
     "proteinContent": "6 g"
   },
-  "site_name": null,
-  "title": "HERSHEY'S \"Perfectly Chocolate\" Chocolate Cake Recipe | Hersheyland",
-  "total_time": 45,
-  "yields": "1 cake",
-  "equipment": [
-    "Round Baking Pans",
-    "Measuring Cups and Spoons",
-    "Mixing Bowl",
-    "Mixer",
-    "Oven",
-    "Wire Rack"
-  ],
+  "category": "Tags",
   "keywords": [
     "Beginner",
     "Birthdays",
@@ -80,5 +65,20 @@
     "HERSHEY'S Cocoa",
     "Cake"
   ],
-  "prep_time": 15
+  "equipment": [
+    "Round Baking Pans",
+    "Measuring Cups and Spoons",
+    "Mixing Bowl",
+    "Mixer",
+    "Oven",
+    "Wire Rack"
+  ],
+  "instructions_list": [
+    "Step 1",
+    "Heat oven to 350°F. Grease and flour two 9-inch round baking pans.",
+    "Step 2",
+    "Stir together sugar, flour, cocoa, baking powder, baking soda and salt in large bowl. Add eggs, milk, oil and vanilla; beat on medium speed of mixer 2 minutes. Stir in boiling water (batter will be thin). Pour batter into prepared pans.",
+    "Step 3",
+    "Bake 30 to 35 minutes or until wooden pick inserted in center comes out clean. Cool 10 minutes; remove from pans to wire racks. Cool completely. Frost with \"Perfectly Chocolate\" Chocolate Frosting."
+  ]
 }

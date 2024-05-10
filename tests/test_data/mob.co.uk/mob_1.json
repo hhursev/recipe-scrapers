@@ -1,11 +1,22 @@
 {
-  "author": "Mob Team",
-  "canonical_url": "https://www.mob.co.uk/recipes/chilli-cheese-paratha",
-  "category": "Sides, Veggie Dishes",
-  "cuisine": "Indian",
-  "description": "This Indian snack is oozing with molten cheese and chilli garlicky goodness. They will be demolished in seconds, I can promise you that. Seema x",
   "host": "mob.co.uk",
-  "image": "https://files.mob-cdn.co.uk/recipes/9K8A6392-2.jpg",
+  "canonical_url": "https://www.mob.co.uk/recipes/chilli-cheese-paratha",
+  "site_name": "Mob",
+  "author": "Mob Team",
+  "language": "en",
+  "title": "Chilli Cheese Paratha",
+  "ingredients": [
+    "200g Plain Flour",
+    "140ml Hot Water",
+    "7 Garlic Cloves",
+    "3 Tsp Chilli Powder",
+    "Handful Of Coriander",
+    "3 Spring Onions",
+    "250g Mozzarella",
+    "250g Cheddar Cheese",
+    "Salt",
+    "Vegetable Oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,19 +39,25 @@
       "purpose": "The Filling"
     }
   ],
-  "ingredients": [
-    "200g Plain Flour",
-    "140ml Hot Water",
-    "7 Garlic Cloves",
-    "3 Tsp Chilli Powder",
-    "Handful Of Coriander",
-    "3 Spring Onions",
-    "250g Mozzarella",
-    "250g Cheddar Cheese",
-    "Salt",
-    "Vegetable Oil"
-  ],
   "instructions": "Combine the plain flour, a pinch of salt and hot water (from the kettle) in a bowl and mix with a wooden spoon. Once it is cool enough to handle, knead the dough for 5 minutes until smooth. Pour in a tablespoon of oil and knead through. Cover and rest for 10 minutes\nMeanwhile, prepare the garlic chilli oil. Grate the garlic into a small microwaveable bowl with the chilli powder, ¼ teaspoon salt and 2 tablespoons of oil. Microwave for 1 minute to soften and cook the garlic. \nRoughly chop your coriander and finely slice your spring onions.\nDivide the dough into quarters, and then the quarters into halves to form eight even balls.\nRoll two balls into large circles about 2mm thick so they are about the same size. Spread ½ a teaspoon of the chilli garlic paste on to one circle, sprinkle on a handful of shredded mozzarella and shredded cheddar. Sprinkle on your coriander and spring onions, then press a second dough circle on top – you can use some water along the edges to help it stick if you need it too\nHeat up a frying pan and pour in a small glug of oil. Slap on the paratha and cook on a high heat on both sides for 2 minutes. Flip using a large spatula. \nCut into quarters and serve whilst still hot and oozing with cheese.",
+  "total_time": 30,
+  "yields": "4 servings",
+  "image": "https://files.mob-cdn.co.uk/recipes/9K8A6392-2.jpg",
+  "description": "This Indian snack is oozing with molten cheese and chilli garlicky goodness. They will be demolished in seconds, I can promise you that. Seema x",
+  "nutrients": {
+    "servingSize": "4"
+  },
+  "cuisine": "Indian",
+  "category": "Sides, Veggie Dishes",
+  "keywords": [
+    "chilli cheese paratha",
+    "indian cheese paratha",
+    "indian paratha recipe",
+    "cheese paratha recipe",
+    "chilli cheese paratha recipe",
+    "cheesy paratha recipe"
+  ],
+  "ratings": "4.647",
   "instructions_list": [
     "Combine the plain flour, a pinch of salt and hot water (from the kettle) in a bowl and mix with a wooden spoon. Once it is cool enough to handle, knead the dough for 5 minutes until smooth. Pour in a tablespoon of oil and knead through. Cover and rest for 10 minutes",
     "Meanwhile, prepare the garlic chilli oil. Grate the garlic into a small microwaveable bowl with the chilli powder, ¼ teaspoon salt and 2 tablespoons of oil. Microwave for 1 minute to soften and cook the garlic. ",
@@ -49,22 +66,5 @@
     "Roll two balls into large circles about 2mm thick so they are about the same size. Spread ½ a teaspoon of the chilli garlic paste on to one circle, sprinkle on a handful of shredded mozzarella and shredded cheddar. Sprinkle on your coriander and spring onions, then press a second dough circle on top – you can use some water along the edges to help it stick if you need it too",
     "Heat up a frying pan and pour in a small glug of oil. Slap on the paratha and cook on a high heat on both sides for 2 minutes. Flip using a large spatula. ",
     "Cut into quarters and serve whilst still hot and oozing with cheese."
-  ],
-  "language": "en",
-  "site_name": "Mob",
-  "title": "Chilli Cheese Paratha",
-  "total_time": 30,
-  "yields": "4 servings",
-  "nutrients": {
-    "servingSize": "4"
-  },
-  "ratings": "4.647",
-  "keywords": [
-    "chilli cheese paratha",
-    "indian cheese paratha",
-    "indian paratha recipe",
-    "cheese paratha recipe",
-    "chilli cheese paratha recipe",
-    "cheesy paratha recipe"
   ]
 }

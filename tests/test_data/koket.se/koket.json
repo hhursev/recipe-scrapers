@@ -1,9 +1,22 @@
 {
-  "author": "Tommy Myllymäki",
-  "canonical_url": "https://www.koket.se/mitt-kok/tommy-myllymaki/myllymakis-toast-skagen",
-  "category": null,
   "host": "koket.se",
-  "image": "https://img.koket.se/standard-mega/myllymakis-toast-skagen-2.jpg",
+  "canonical_url": "https://www.koket.se/mitt-kok/tommy-myllymaki/myllymakis-toast-skagen",
+  "site_name": "Köket.se",
+  "author": "Tommy Myllymäki",
+  "title": "Myllymäkis toast skagen",
+  "ingredients": [
+    "1 kg räkor med skal (gärna färska av fin kvalitet)",
+    "2 äggulor",
+    "2 tsk senap",
+    "1 msk vitvinsvinäger",
+    "6 dl matolja",
+    "1 kruka dill",
+    "10 cm färsk pepparrot, skalad",
+    "4 skivor vitt bröd (ej levain)",
+    "smör, till stekning",
+    "50 g löjrom",
+    "1 citron"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,20 +35,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 kg räkor med skal (gärna färska av fin kvalitet)",
-    "2 äggulor",
-    "2 tsk senap",
-    "1 msk vitvinsvinäger",
-    "6 dl matolja",
-    "1 kruka dill",
-    "10 cm färsk pepparrot, skalad",
-    "4 skivor vitt bröd (ej levain)",
-    "smör, till stekning",
-    "50 g löjrom",
-    "1 citron"
-  ],
   "instructions": "Skala alla räkor och ställ åt sidan.\nGör en majonnäs genom att lägga ner äggulor, senapen och vinägern i en bunke. Tillsätt matoljan i en tunn stråle medan du vispar hela tiden. Använd elvisp eller handvisp. När majonnäsen är tjock och du ser dragen/spåren av vispen i majonnäsen är den klar.\nLägg alla räkor i en bunke, tillsätt fint plockad dill och blanda ner lite majonnäs i taget.\nTillsätt lite riven pepparrot och smaka av. Slå på mer majonnäs för en rinnigare röra eller mer pepparrot för mer sting.\nTa fram brödet och skär ut önskad form utan att ta med kanterna, använd en skål eller ett glas som mall om ni vill ha runda bröd. Stek sedan gyllene i smör.\nLägg upp bröden på tallrik, toppa med skagenröra och en rejäl klick löjrom. Avsluta med en dillkvist och en citronskiva.",
+  "total_time": 25,
+  "yields": "4 servings",
+  "image": "https://img.koket.se/standard-mega/myllymakis-toast-skagen-2.jpg",
+  "description": "Toast skagen är en klassisk förrätt på årets festdag - nyårsafton. Tommys variant görs med hemslagen majonnäs, pepparrot och löjrom.",
+  "category": null,
+  "ratings": 3.6,
+  "ratings_count": 380,
   "instructions_list": [
     "Skala alla räkor och ställ åt sidan.",
     "Gör en majonnäs genom att lägga ner äggulor, senapen och vinägern i en bunke. Tillsätt matoljan i en tunn stråle medan du vispar hela tiden. Använd elvisp eller handvisp. När majonnäsen är tjock och du ser dragen/spåren av vispen i majonnäsen är den klar.",
@@ -43,12 +50,5 @@
     "Tillsätt lite riven pepparrot och smaka av. Slå på mer majonnäs för en rinnigare röra eller mer pepparrot för mer sting.",
     "Ta fram brödet och skär ut önskad form utan att ta med kanterna, använd en skål eller ett glas som mall om ni vill ha runda bröd. Stek sedan gyllene i smör.",
     "Lägg upp bröden på tallrik, toppa med skagenröra och en rejäl klick löjrom. Avsluta med en dillkvist och en citronskiva."
-  ],
-  "ratings": 3.6,
-  "ratings_count": 380,
-  "site_name": "Köket.se",
-  "title": "Myllymäkis toast skagen",
-  "total_time": 25,
-  "yields": "4 servings",
-  "description": "Toast skagen är en klassisk förrätt på årets festdag - nyårsafton. Tommys variant görs med hemslagen majonnäs, pepparrot och löjrom."
+  ]
 }

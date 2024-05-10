@@ -1,9 +1,21 @@
 {
-  "author": "Thinlicious",
-  "canonical_url": "https://thinlicious.com/easy-keto-hamburger-buns-almond-flour/",
-  "category": "Baking,bread,Dinner",
   "host": "thinlicious.com",
-  "image": "https://thinlicious.com/wp-content/uploads/2023/08/Blog-Cover-Square-19.png",
+  "canonical_url": "https://thinlicious.com/easy-keto-hamburger-buns-almond-flour/",
+  "site_name": "Thinlicious",
+  "author": "Thinlicious",
+  "language": "en-US",
+  "title": "Easy Keto Hamburger Buns Recipe (That Don't Fall Apart)",
+  "ingredients": [
+    "1 egg",
+    "1 tsp apple cider vinegar",
+    "¼ cup ground flaxseed/linseed (ground)",
+    "¾ cup almond meal/flour",
+    "1¾ cup pre-shredded/grated mozzarella",
+    "2 tbsp cream cheese",
+    "1 tsp baking powder",
+    "1 tsp extra virgin olive oil",
+    "1 tsp sesame seeds"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,18 +32,29 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 egg",
-    "1 tsp apple cider vinegar",
-    "¼ cup ground flaxseed/linseed (ground)",
-    "¾ cup almond meal/flour",
-    "1¾ cup pre-shredded/grated mozzarella",
-    "2 tbsp cream cheese",
-    "1 tsp baking powder",
-    "1 tsp extra virgin olive oil",
-    "1 tsp sesame seeds"
-  ],
   "instructions": "Preheat your oven to 375°F/190°C. In a small bowl mix together your egg and apple cider vinegar. Set aside until ready to use.\nMix\nAdd your flax seen to a grinder or blender, coarsely grind. Pour the flax seed in a microwave safe bowl. Add the almond flour and shredded mozzarella cheese to the bowl and mix. Then add your cream cheese to the bowl. There is no need to mix the cream cheese in just yet.\nMicrowave\nPlace your bowl with the cheese in the microwave. Melt your cheese for 1 minute, remove the bowl and mix with a silicone spatula. If your cheese is not completely melted yet microwave for 30 more seconds until your cheese is completely melted.\nMix\nWhile your mozzarella dough is still hot add your baking powder. Mix and fold together. Add the egg/vinegar mixture to your dough. Fold in with your silicone spatula.\nRoll your dough into a ball and cut into 4 equal sections. Roll each section into a ball and then flatten the top and bottom of the ball to shape into a hamburger bun.\nPlace on a baking sheet lined with baking paper. Brush the olive oil over your buns and sprinkle the tops with sesame seeds. Bake in the oven at 375°F/190°C for 12-15 minutes. Your burger buns will be done when the tops are golden brown and the dough is cooked in the centre.\nBake\nRemove the buns from the oven and let them cool on a wire rack or towel for 5 minutes before slicing and serving.",
+  "total_time": 17,
+  "prep_time": 5,
+  "cook_time": 12,
+  "yields": "4 servings",
+  "image": "https://thinlicious.com/wp-content/uploads/2023/08/Blog-Cover-Square-19.png",
+  "description": "Bring the bun back to your burger with these easy keto hamburger buns that can bake while you grill.",
+  "nutrients": {
+    "servingSize": "1 hamburger bun",
+    "calories": "394 kcal",
+    "carbohydrateContent": "10 g",
+    "proteinContent": "20.1 g",
+    "fatContent": "32.1 g",
+    "sodiumContent": "368.3 mg",
+    "fiberContent": "5.5 g",
+    "sugarContent": "1.8 g"
+  },
+  "cuisine": "Gluten Free,Grain free,Keto,LCHF,Low Carb,No Sugars,Wheat Free",
+  "category": "Baking,bread,Dinner",
+  "keywords": [
+    "keto bread rolls",
+    "keto hamburger buns"
+  ],
   "instructions_list": [
     "Preheat your oven to 375°F/190°C. In a small bowl mix together your egg and apple cider vinegar. Set aside until ready to use.",
     "Mix",
@@ -44,28 +67,5 @@
     "Place on a baking sheet lined with baking paper. Brush the olive oil over your buns and sprinkle the tops with sesame seeds. Bake in the oven at 375°F/190°C for 12-15 minutes. Your burger buns will be done when the tops are golden brown and the dough is cooked in the centre.",
     "Bake",
     "Remove the buns from the oven and let them cool on a wire rack or towel for 5 minutes before slicing and serving."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "servingSize": "1 hamburger bun",
-    "calories": "394 kcal",
-    "carbohydrateContent": "10 g",
-    "proteinContent": "20.1 g",
-    "fatContent": "32.1 g",
-    "sodiumContent": "368.3 mg",
-    "fiberContent": "5.5 g",
-    "sugarContent": "1.8 g"
-  },
-  "site_name": "Thinlicious",
-  "title": "Easy Keto Hamburger Buns Recipe (That Don't Fall Apart)",
-  "total_time": 17,
-  "yields": "4 servings",
-  "keywords": [
-    "keto bread rolls",
-    "keto hamburger buns"
-  ],
-  "description": "Bring the bun back to your burger with these easy keto hamburger buns that can bake while you grill.",
-  "cook_time": 12,
-  "cuisine": "Gluten Free,Grain free,Keto,LCHF,Low Carb,No Sugars,Wheat Free",
-  "prep_time": 5
+  ]
 }

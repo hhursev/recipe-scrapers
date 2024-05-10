@@ -1,11 +1,19 @@
 {
-  "author": "Ree Drummond",
-  "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a10720/patty-melts/",
-  "category": "main dish,meat",
-  "cook_time": 25,
-  "description": "Who doesn’t love a good old-fashioned patty melt? Here's the easiest way to make one at home that's beyond delicious.",
   "host": "thepioneerwoman.com",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/patty-melt-1597698088.jpg?crop=0.508xw:0.450xh;0.229xw,0.200xh&resize=1200:*",
+  "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a10720/patty-melts/",
+  "site_name": "The Pioneer Woman",
+  "author": "Ree Drummond",
+  "language": "en-US",
+  "title": "Patty Melts",
+  "ingredients": [
+    "1 stick butter",
+    "1 whole large onion, halved and sliced",
+    "1 1/2 lb. ground beef",
+    "salt and pepper, to taste",
+    "5 dashes Worcestershire sauce",
+    "8 slices Swiss cheese",
+    "8 slices rye bread"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,34 +28,26 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 stick butter",
-    "1 whole large onion, halved and sliced",
-    "1 1/2 lb. ground beef",
-    "salt and pepper, to taste",
-    "5 dashes Worcestershire sauce",
-    "8 slices Swiss cheese",
-    "8 slices rye bread"
-  ],
   "instructions": "In a medium skillet, melt 2 tablespoons of butter over medium-low heat. Throw in the sliced onions and cook slowly for 20 to 25 minutes, stirring occasionally, until the onions are golden brown and soft.\nIn a medium bowl, mix together the ground beef, salt & pepper, and Worcestershire. Form into 4 patties.\nMelt 2 tablespoons butter in a separate skillet over medium heat. Cook the patties on both sides until totally done in the middle.\nAssemble patty melts this way: Slice of bread, slice of cheese, hamburger patty, 1/4 of the cooked onions, another slice of cheese, and another slice of bread. On a clean griddle or in a skillet, melt 2 tablespoons butter and grill the sandwiches over medium heat until golden brown. Remove the sandwiches and add the remaining 2 tablespoons of butter to the skillet. Turn the sandwiches to the skillet, flipping them to the other side. Cook until golden brown and crisp, and until cheese is melted.\nSlice in half and serve immediately!",
+  "total_time": 35,
+  "prep_time": 10,
+  "cook_time": 25,
+  "yields": "4 servings",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/patty-melt-1597698088.jpg?crop=0.508xw:0.450xh;0.229xw,0.200xh&resize=1200:*",
+  "description": "Who doesn’t love a good old-fashioned patty melt? Here's the easiest way to make one at home that's beyond delicious.",
+  "category": "main dish,meat",
+  "keywords": [
+    "Recipes",
+    "Cooking",
+    "Food"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 4,
   "instructions_list": [
     "In a medium skillet, melt 2 tablespoons of butter over medium-low heat. Throw in the sliced onions and cook slowly for 20 to 25 minutes, stirring occasionally, until the onions are golden brown and soft.",
     "In a medium bowl, mix together the ground beef, salt & pepper, and Worcestershire. Form into 4 patties.",
     "Melt 2 tablespoons butter in a separate skillet over medium heat. Cook the patties on both sides until totally done in the middle.",
     "Assemble patty melts this way: Slice of bread, slice of cheese, hamburger patty, 1/4 of the cooked onions, another slice of cheese, and another slice of bread. On a clean griddle or in a skillet, melt 2 tablespoons butter and grill the sandwiches over medium heat until golden brown. Remove the sandwiches and add the remaining 2 tablespoons of butter to the skillet. Turn the sandwiches to the skillet, flipping them to the other side. Cook until golden brown and crisp, and until cheese is melted.",
     "Slice in half and serve immediately!"
-  ],
-  "language": "en-US",
-  "prep_time": 10,
-  "ratings": 5.0,
-  "ratings_count": 4,
-  "site_name": "The Pioneer Woman",
-  "title": "Patty Melts",
-  "total_time": 35,
-  "yields": "4 servings",
-  "keywords": [
-    "Recipes",
-    "Cooking",
-    "Food"
   ]
 }

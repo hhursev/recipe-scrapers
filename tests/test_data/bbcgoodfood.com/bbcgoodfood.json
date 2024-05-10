@@ -1,10 +1,22 @@
 {
-  "author": "Elena Silcock",
-  "canonical_url": "https://www.bbcgoodfood.com/recipes/summer-meatballs-spaghetti",
-  "category": "Dinner, Main course, Supper",
-  "description": "Make a quick and easy meal for two with these pork meatballs, served with spaghetti, courgette ribbons, lemon and parmesan – perfect for summer evenings",
   "host": "bbcgoodfood.com",
-  "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/summer-meatballs-spaghetti-bd04f10.jpg?resize=768,574",
+  "canonical_url": "https://www.bbcgoodfood.com/recipes/summer-meatballs-spaghetti",
+  "site_name": null,
+  "author": "Elena Silcock",
+  "language": "en",
+  "title": "Summer meatballs & spaghetti",
+  "ingredients": [
+    "2 tbsp olive oil",
+    "1 onion , finely chopped",
+    "2 garlic cloves , crushed",
+    "1 tsp fennel seeds",
+    "250g pork mince",
+    "large handful parsley , leaves chopped, stalks finely chopped",
+    "1 large courgette , peeled into ribbons all around the edge, centre grated or finely chopped",
+    "200g spaghetti",
+    "½ a lemon , zested and juiced",
+    "grated parmesan , to serve"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,24 +34,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 tbsp olive oil",
-    "1 onion , finely chopped",
-    "2 garlic cloves , crushed",
-    "1 tsp fennel seeds",
-    "250g pork mince",
-    "large handful parsley , leaves chopped, stalks finely chopped",
-    "1 large courgette , peeled into ribbons all around the edge, centre grated or finely chopped",
-    "200g spaghetti",
-    "½ a lemon , zested and juiced",
-    "grated parmesan , to serve"
-  ],
   "instructions": "Heat ½ tbsp of the olive oil in a large frying pan over a medium heat. Add the onion and soften for 5 mins, then add the garlic and fennel and cook for 2 mins longer. Tip into a bowl. Add the pork mince, parsley stalks and grated courgette to the bowl, season well, mix, and shape into 10 meatballs. Heat the remaining oil in the frying pan, add the meatballs and fry for 5-8 mins, turning occasionally, until golden brown and cooked through. Set the pan aside.\nBring a pan of salted water to the boil and cook the spaghetti for 1 min less than pack instructions. Using tongs, transfer the pasta to the pan of meatballs, sloshing in some of the cooking water as you go. Add the courgette ribbons to the pan and put it back over the heat. Toss the pasta and meatballs with the courgette ribbons in the pan with a ladleful of pasta water and add the lemon juice. Season well, tip into bowls and scatter over the chopped parsley leaves, lemon zest and a generous grating of parmesan.",
-  "instructions_list": [
-    "Heat ½ tbsp of the olive oil in a large frying pan over a medium heat. Add the onion and soften for 5 mins, then add the garlic and fennel and cook for 2 mins longer. Tip into a bowl. Add the pork mince, parsley stalks and grated courgette to the bowl, season well, mix, and shape into 10 meatballs. Heat the remaining oil in the frying pan, add the meatballs and fry for 5-8 mins, turning occasionally, until golden brown and cooked through. Set the pan aside.",
-    "Bring a pan of salted water to the boil and cook the spaghetti for 1 min less than pack instructions. Using tongs, transfer the pasta to the pan of meatballs, sloshing in some of the cooking water as you go. Add the courgette ribbons to the pan and put it back over the heat. Toss the pasta and meatballs with the courgette ribbons in the pan with a ladleful of pasta water and add the lemon juice. Season well, tip into bowls and scatter over the chopped parsley leaves, lemon zest and a generous grating of parmesan."
-  ],
-  "language": "en",
+  "total_time": 30,
+  "prep_time": 10,
+  "cook_time": 20,
+  "yields": "2 servings",
+  "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/summer-meatballs-spaghetti-bd04f10.jpg?resize=768,574",
+  "description": "Make a quick and easy meal for two with these pork meatballs, served with spaghetti, courgette ribbons, lemon and parmesan – perfect for summer evenings",
   "nutrients": {
     "calories": "726 calories",
     "fatContent": "25 grams fat",
@@ -50,12 +51,7 @@
     "proteinContent": "39 grams protein",
     "sodiumContent": "0.2 milligram of sodium"
   },
-  "site_name": null,
-  "title": "Summer meatballs & spaghetti",
-  "total_time": 30,
-  "yields": "2 servings",
-  "cook_time": 20,
-  "prep_time": 10,
+  "category": "Dinner, Main course, Supper",
   "keywords": [
     "Courgette",
     "Easy",
@@ -65,5 +61,9 @@
     "Midweek meals",
     "Quick",
     "Spaghetti"
+  ],
+  "instructions_list": [
+    "Heat ½ tbsp of the olive oil in a large frying pan over a medium heat. Add the onion and soften for 5 mins, then add the garlic and fennel and cook for 2 mins longer. Tip into a bowl. Add the pork mince, parsley stalks and grated courgette to the bowl, season well, mix, and shape into 10 meatballs. Heat the remaining oil in the frying pan, add the meatballs and fry for 5-8 mins, turning occasionally, until golden brown and cooked through. Set the pan aside.",
+    "Bring a pan of salted water to the boil and cook the spaghetti for 1 min less than pack instructions. Using tongs, transfer the pasta to the pan of meatballs, sloshing in some of the cooking water as you go. Add the courgette ribbons to the pan and put it back over the heat. Toss the pasta and meatballs with the courgette ribbons in the pan with a ladleful of pasta water and add the lemon juice. Season well, tip into bowls and scatter over the chopped parsley leaves, lemon zest and a generous grating of parmesan."
   ]
 }

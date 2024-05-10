@@ -1,10 +1,20 @@
 {
-  "author": "Monalisa Campos",
-  "canonical_url": "https://www.receitasnestle.com.br/receitas/receita-de-costelinha-de-porco-com-batatas-salteadas-no-alecrim",
-  "category": "Meal set",
-  "description": "Receita de Costelinha de Porco com Batatas Salteadas no Alecrim suculenta feita com costelinha de porco, batata, chimichurri, alho e alecrim",
   "host": "receitasnestle.com.br",
-  "image": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/ef9051b4a2b476e658b5f8b6ef18bd24.jpg",
+  "canonical_url": "https://www.receitasnestle.com.br/receitas/receita-de-costelinha-de-porco-com-batatas-salteadas-no-alecrim",
+  "site_name": "Receitas Nestlé",
+  "author": "Monalisa Campos",
+  "language": "pt-br",
+  "title": "Receita de Costelinha de Porco com Batatas Salteadas no Alecrim",
+  "ingredients": [
+    "500g de costelinha de porco",
+    "3 batatas grandes",
+    "2 dentes de alho",
+    "meia colher (sopa) de chimichurri seco",
+    "1 ramo de alecrim",
+    "1 colher (chá) de sal",
+    "2 xícaras (chá) de água",
+    "meia colher (sopa) de azeite"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,33 +30,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "500g de costelinha de porco",
-    "3 batatas grandes",
-    "2 dentes de alho",
-    "meia colher (sopa) de chimichurri seco",
-    "1 ramo de alecrim",
-    "1 colher (chá) de sal",
-    "2 xícaras (chá) de água",
-    "meia colher (sopa) de azeite"
-  ],
   "instructions": "Leve uma panela para esquentar e acrescente o azeite. Em seguida, acrescente a costelinha de porco e deixe fritar, sem mexer.\nQuando estiver dourada, vire e acrescente o sal e o chimichurri. Deixe fritar.\nQuando começar a ficar seco, adicione meia xícara (chá) de água e deixe cozinhar em fogo alto até secar.\nQuando a carne estiver douradinha, adicione o alho e as batatas já descascadas cortadas em cubos grandes.\nAdicione o restante da água e deixe cozinhar em fogo baixo.\nDepois, acrescente o alecrim e refogue mais um pouco.\nSirva quente.",
-  "instructions_list": [
-    "Leve uma panela para esquentar e acrescente o azeite. Em seguida, acrescente a costelinha de porco e deixe fritar, sem mexer.",
-    "Quando estiver dourada, vire e acrescente o sal e o chimichurri. Deixe fritar.",
-    "Quando começar a ficar seco, adicione meia xícara (chá) de água e deixe cozinhar em fogo alto até secar.",
-    "Quando a carne estiver douradinha, adicione o alho e as batatas já descascadas cortadas em cubos grandes.",
-    "Adicione o restante da água e deixe cozinhar em fogo baixo.",
-    "Depois, acrescente o alecrim e refogue mais um pouco.",
-    "Sirva quente."
-  ],
-  "language": "pt-br",
-  "ratings": 0,
-  "site_name": "Receitas Nestlé",
-  "title": "Receita de Costelinha de Porco com Batatas Salteadas no Alecrim",
   "total_time": 40,
   "yields": "5 servings",
+  "image": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/ef9051b4a2b476e658b5f8b6ef18bd24.jpg",
+  "description": "Receita de Costelinha de Porco com Batatas Salteadas no Alecrim suculenta feita com costelinha de porco, batata, chimichurri, alho e alecrim",
   "cuisine": "Local",
+  "category": "Meal set",
   "keywords": [
     "Jantar",
     "Almoço",
@@ -77,5 +67,15 @@
     "Batatas",
     "Carne de porco",
     "Da panela"
+  ],
+  "ratings": 0,
+  "instructions_list": [
+    "Leve uma panela para esquentar e acrescente o azeite. Em seguida, acrescente a costelinha de porco e deixe fritar, sem mexer.",
+    "Quando estiver dourada, vire e acrescente o sal e o chimichurri. Deixe fritar.",
+    "Quando começar a ficar seco, adicione meia xícara (chá) de água e deixe cozinhar em fogo alto até secar.",
+    "Quando a carne estiver douradinha, adicione o alho e as batatas já descascadas cortadas em cubos grandes.",
+    "Adicione o restante da água e deixe cozinhar em fogo baixo.",
+    "Depois, acrescente o alecrim e refogue mais um pouco.",
+    "Sirva quente."
   ]
 }

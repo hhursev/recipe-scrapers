@@ -1,9 +1,21 @@
 {
-  "author": "Leticia Obo Andreghetti",
-  "canonical_url": "https://cybercook.com.br/receitas/aves/strogonoff-de-frango-16644",
-  "category": "Aves",
   "host": "cybercook.com.br",
-  "image": "https://img.cybercook.com.br/receitas/644/strogonoff-de-frango-2.jpeg",
+  "canonical_url": "https://cybercook.com.br/receitas/aves/strogonoff-de-frango-16644",
+  "site_name": null,
+  "author": "Leticia Obo Andreghetti",
+  "language": "pt-BR",
+  "title": "Strogonoff de Frango",
+  "ingredients": [
+    "Molho de tomate 200 gramas",
+    "Cebola 1 unidade",
+    "Alho 2 dentes",
+    "Creme de Leite 1 lata",
+    "Peito de Frango 600 gramas",
+    "Óleo de soja 2 colheres (sopa)",
+    "Sal a gosto",
+    "Pimenta-do-Reino Branca a gosto",
+    "Champignon em conserva 100 gramas"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,39 +32,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "Molho de tomate 200 gramas",
-    "Cebola 1 unidade",
-    "Alho 2 dentes",
-    "Creme de Leite 1 lata",
-    "Peito de Frango 600 gramas",
-    "Óleo de soja 2 colheres (sopa)",
-    "Sal a gosto",
-    "Pimenta-do-Reino Branca a gosto",
-    "Champignon em conserva 100 gramas"
-  ],
   "instructions": "Primeiro corte o frango em cubinhos.\nEm uma panela média, coloque o óleo, o alho e a cebola e espere dourar.\nDepois coloque o frango e o sal e a pimenta a gosto, aqueça até o ponto de fritura.\nMexa bem e tampe meia panela para que crie água, espere.\nSumir a água e começar a fritura.\nQuando o frango já tiver dourado, acrescente o molho de tomate e o champignon.\nDepois coloque a lata de creme de leite e mexa até espalhar, com a mesma lata encha de água.\nMexa mais uma vez até misturar e deixe levantar fervura.\nO strogonoff está pronto para ser servido.",
-  "instructions_list": [
-    "Primeiro corte o frango em cubinhos.",
-    "Em uma panela média, coloque o óleo, o alho e a cebola e espere dourar.",
-    "Depois coloque o frango e o sal e a pimenta a gosto, aqueça até o ponto de fritura.",
-    "Mexa bem e tampe meia panela para que crie água, espere.",
-    "Sumir a água e começar a fritura.",
-    "Quando o frango já tiver dourado, acrescente o molho de tomate e o champignon.",
-    "Depois coloque a lata de creme de leite e mexa até espalhar, com a mesma lata encha de água.",
-    "Mexa mais uma vez até misturar e deixe levantar fervura.",
-    "O strogonoff está pronto para ser servido."
-  ],
-  "language": "pt-BR",
+  "total_time": 30,
+  "yields": "4 servings",
+  "image": "https://img.cybercook.com.br/receitas/644/strogonoff-de-frango-2.jpeg",
   "nutrients": {
     "calories": "485.09"
   },
-  "ratings": 4.0,
-  "ratings_count": 81,
-  "site_name": null,
-  "title": "Strogonoff de Frango",
-  "total_time": 30,
-  "yields": "4 servings",
+  "category": "Aves",
   "keywords": [
     "Sal",
     "Receitas de Strogonoff",
@@ -67,5 +54,18 @@
     "Aves",
     "Pratos principais",
     "Receitas de Frango Xadrez"
+  ],
+  "ratings": 4.0,
+  "ratings_count": 81,
+  "instructions_list": [
+    "Primeiro corte o frango em cubinhos.",
+    "Em uma panela média, coloque o óleo, o alho e a cebola e espere dourar.",
+    "Depois coloque o frango e o sal e a pimenta a gosto, aqueça até o ponto de fritura.",
+    "Mexa bem e tampe meia panela para que crie água, espere.",
+    "Sumir a água e começar a fritura.",
+    "Quando o frango já tiver dourado, acrescente o molho de tomate e o champignon.",
+    "Depois coloque a lata de creme de leite e mexa até espalhar, com a mesma lata encha de água.",
+    "Mexa mais uma vez até misturar e deixe levantar fervura.",
+    "O strogonoff está pronto para ser servido."
   ]
 }

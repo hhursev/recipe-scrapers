@@ -1,9 +1,24 @@
 {
-  "author": "King Arthur Flour",
-  "canonical_url": "https://www.kingarthurbaking.com/recipes/spiced-rye-ginger-cookies-recipe",
-  "category": null,
   "host": "kingarthurbaking.com",
-  "image": "https://www.kingarthurbaking.com/sites/default/files/2021-11/Spiced-Rye-Ginger_SOCIAL_HERO_33683-1.jpg",
+  "canonical_url": "https://www.kingarthurbaking.com/recipes/spiced-rye-ginger-cookies-recipe",
+  "site_name": "King Arthur Baking",
+  "author": "King Arthur Flour",
+  "language": "en",
+  "title": "Spiced Rye Ginger Cookies",
+  "ingredients": [
+    "2 cups (212g) medium rye flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "2 teaspoons ginger",
+    "3/4 teaspoon black pepper",
+    "1/2 teaspoon cinnamon",
+    "1/2 teaspoon cardamom",
+    "3/4 cup (149g) granulated sugar",
+    "1/2 cup (99g) vegetable oil",
+    "1 large egg",
+    "1/4 cup (85g) molasses",
+    "1/3 cup (76g) coarse sparkling sugar or 1/3 cup (66g) granulated sugar"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,36 +38,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups (212g) medium rye flour",
-    "1 teaspoon baking soda",
-    "1/2 teaspoon salt",
-    "2 teaspoons ginger",
-    "3/4 teaspoon black pepper",
-    "1/2 teaspoon cinnamon",
-    "1/2 teaspoon cardamom",
-    "3/4 cup (149g) granulated sugar",
-    "1/2 cup (99g) vegetable oil",
-    "1 large egg",
-    "1/4 cup (85g) molasses",
-    "1/3 cup (76g) coarse sparkling sugar or 1/3 cup (66g) granulated sugar"
-  ],
   "instructions": "Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.\nWeigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.\nIn a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.\nIn a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.\nAdd the egg and whisk until smooth.\nStir in the molasses.\nAdd the dry ingredients to the bowl and stir until well combined.\nUse a spoon (or a tablespoon cookie scoop) to portion 1 1/4\" balls of dough.\nRoll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2\" between them on all sides; they'll spread as they bake.\nBake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.\nRemove the cookies from the oven, and cool completely right on the pan.\nStore cookies, well wrapped, at room temperature for several days; freeze for longer storage.",
-  "instructions_list": [
-    "Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.",
-    "Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.",
-    "In a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.",
-    "In a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.",
-    "Add the egg and whisk until smooth.",
-    "Stir in the molasses.",
-    "Add the dry ingredients to the bowl and stir until well combined.",
-    "Use a spoon (or a tablespoon cookie scoop) to portion 1 1/4\" balls of dough.",
-    "Roll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2\" between them on all sides; they'll spread as they bake.",
-    "Bake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.",
-    "Remove the cookies from the oven, and cool completely right on the pan.",
-    "Store cookies, well wrapped, at room temperature for several days; freeze for longer storage."
-  ],
-  "language": "en",
+  "total_time": 35,
+  "prep_time": 20,
+  "cook_time": 15,
+  "yields": "22 cookies",
+  "image": "https://www.kingarthurbaking.com/sites/default/files/2021-11/Spiced-Rye-Ginger_SOCIAL_HERO_33683-1.jpg",
+  "description": "Cinnamon, cardamom, ginger, and rye bring a fresh twist to old-fashioned ginger cookies. With their bendy centers and slightly crunchy edges, these cookies are the perfect combination of soft and crispy. Made quickly and all in one bowl, these cookies — with their complex texture and alluringly spicy flavor — are a welcome addition to any cookie occasion. Spiced Rye Ginger Cookies are a part of The New Classics: Holiday Cookies collection. Check out the full lineup of all 14 cookies here.",
   "nutrients": {
     "servingSize": "1 cookie (32g)",
     "calories": "130",
@@ -66,12 +58,7 @@
     "saturatedFatContent": "1g",
     "transFatContent": "0g"
   },
-  "ratings": 4.8,
-  "ratings_count": 104,
-  "site_name": "King Arthur Baking",
-  "title": "Spiced Rye Ginger Cookies",
-  "total_time": 35,
-  "yields": "22 cookies",
+  "category": null,
   "keywords": [
     "Drop cookies",
     "Cinnamon",
@@ -79,7 +66,20 @@
     "Spice",
     "Quick & easy"
   ],
-  "description": "Cinnamon, cardamom, ginger, and rye bring a fresh twist to old-fashioned ginger cookies. With their bendy centers and slightly crunchy edges, these cookies are the perfect combination of soft and crispy. Made quickly and all in one bowl, these cookies — with their complex texture and alluringly spicy flavor — are a welcome addition to any cookie occasion. Spiced Rye Ginger Cookies are a part of The New Classics: Holiday Cookies collection. Check out the full lineup of all 14 cookies here.",
-  "cook_time": 15,
-  "prep_time": 20
+  "ratings": 4.8,
+  "ratings_count": 104,
+  "instructions_list": [
+    "Preheat the oven to 325°F. Lightly grease (or line with parchment) two baking sheets.",
+    "Weigh your flour; or measure it by gently spooning it into a cup, then sweeping off any excess.",
+    "In a medium bowl, whisk together the flour, baking soda, salt, and spices. Set aside.",
+    "In a large mixing bowl, using either a hand whisk, an electric mixer, or a stand mixer, whisk the sugar and oil until combined.",
+    "Add the egg and whisk until smooth.",
+    "Stir in the molasses.",
+    "Add the dry ingredients to the bowl and stir until well combined.",
+    "Use a spoon (or a tablespoon cookie scoop) to portion 1 1/4\" balls of dough.",
+    "Roll the dough balls in granulated or sparkling sugar to coat before placing onto the prepared baking sheets. Leave 2\" between them on all sides; they'll spread as they bake.",
+    "Bake the cookies for 12 to 15 minutes, until they're puffed and their edges are set.",
+    "Remove the cookies from the oven, and cool completely right on the pan.",
+    "Store cookies, well wrapped, at room temperature for several days; freeze for longer storage."
+  ]
 }

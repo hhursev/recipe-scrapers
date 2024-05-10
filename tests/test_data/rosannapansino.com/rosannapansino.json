@@ -1,8 +1,16 @@
 {
-  "canonical_url": "https://rosannapansino.com/blogs/recipes/marshamllow-fondant",
-  "description": "A delicious and easy Marshmallow Fondant recipe!\nMakes 24 ounces",
   "host": "rosannapansino.com",
-  "image": "http://rosannapansino.com/cdn/shop/articles/1Y6A6281.jpg?v=1567109086",
+  "canonical_url": "https://rosannapansino.com/blogs/recipes/marshamllow-fondant",
+  "site_name": "Rosanna Pansino",
+  "language": "en",
+  "title": "Marshmallow Fondant",
+  "ingredients": [
+    "1 bag (10 ounces) mini marshmallows",
+    "3 tablespoons water",
+    "6 cups powdered sugar",
+    "Oil, for greasing your hands",
+    "Food coloring gel (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -15,14 +23,9 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 bag (10 ounces) mini marshmallows",
-    "3 tablespoons water",
-    "6 cups powdered sugar",
-    "Oil, for greasing your hands",
-    "Food coloring gel (optional)"
-  ],
   "instructions": "Pour the marshmallows into a microwave-safe bowl. Stir in the water to evenly coat the marshmallows.\nMicrowave for 30 seconds, then stir. Repeat this process two more times, or until the mixture is smooth.\nSift 3 cups of the powdered sugar into a large bowl and make a hole in the center.\nPour the melted marshmallow mixture onto the powdered sugar.\nSift the rest of the powdered sugar on top of the marshmallows.\nOil your hands to prevent the marshmallow from sticking to you. Knead in the sugar until you have the consistency of soft taffy and the fondant no longer sticks to your hands. If you are tinting the fondant, add food coloring now and knead until the color is fully incorporated. (Coat your hands with shortening so the colors don't stain them.)\nIf you are not using the fondant right away, store it tightly wrapped or in a plastic bag at room temperature.",
+  "image": "http://rosannapansino.com/cdn/shop/articles/1Y6A6281.jpg?v=1567109086",
+  "description": "A delicious and easy Marshmallow Fondant recipe!\nMakes 24 ounces",
   "instructions_list": [
     "Pour the marshmallows into a microwave-safe bowl. Stir in the water to evenly coat the marshmallows.",
     "Microwave for 30 seconds, then stir. Repeat this process two more times, or until the mixture is smooth.",
@@ -31,8 +34,5 @@
     "Sift the rest of the powdered sugar on top of the marshmallows.",
     "Oil your hands to prevent the marshmallow from sticking to you. Knead in the sugar until you have the consistency of soft taffy and the fondant no longer sticks to your hands. If you are tinting the fondant, add food coloring now and knead until the color is fully incorporated. (Coat your hands with shortening so the colors don't stain them.)",
     "If you are not using the fondant right away, store it tightly wrapped or in a plastic bag at room temperature."
-  ],
-  "language": "en",
-  "site_name": "Rosanna Pansino",
-  "title": "Marshmallow Fondant"
+  ]
 }

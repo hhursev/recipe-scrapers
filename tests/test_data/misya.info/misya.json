@@ -1,9 +1,22 @@
 {
-  "author": "Flavia Imperatore",
-  "canonical_url": "https://www.misya.info/ricetta/tortino-cuore-caldo.htm",
-  "category": "Dolci",
   "host": "misya.info",
-  "image": "https://www.misya.info/wp-content/uploads/2016/02/Tortino-cuore-caldo1.jpg",
+  "canonical_url": "https://www.misya.info/ricetta/tortino-cuore-caldo.htm",
+  "site_name": null,
+  "author": "Flavia Imperatore",
+  "language": "it",
+  "title": "Tortino cuore caldo",
+  "ingredients": [
+    "2 di uova",
+    "2 di tuorli",
+    "100 gr di zucchero",
+    "110 gr di cioccolato bianco",
+    "110 gr di burro",
+    "50 gr di farina",
+    "6 gr di cacao",
+    "1 cucchiaino di essenza di vaniglia",
+    "1 cucchiaino di colorante rosso",
+    "zucchero a velo"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,19 +34,21 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 di uova",
-    "2 di tuorli",
-    "100 gr di zucchero",
-    "110 gr di cioccolato bianco",
-    "110 gr di burro",
-    "50 gr di farina",
-    "6 gr di cacao",
-    "1 cucchiaino di essenza di vaniglia",
-    "1 cucchiaino di colorante rosso",
-    "zucchero a velo"
-  ],
   "instructions": "Montate i tuorli e le uova fino a renderle spumose.\nPoi aggiungete lo zucchero\nPoi unite il cioccolato ed il burro fuso.\nAggiungete adesso il cacao e la farina.\nQuindi aggiungete il colorante e la vaniglia e mescolate fino ad ottenere un impasto di un bel colore rosso.\nVersate l'impasto in 6 stampini imburrati ed infarinati meticolosamente.\nPoi infornate i tortini in forno già caldo a 190° e cuocete per 13-15 minuti circa.Vi accorgerete quando è il momento giusto quando vedrete una leggera crosticina sui bordi e la superficie ma muovendo lo stampino risulterà ancora morbido.Fate la prova con uno prima di tirarli via dal forno tutti e ricordatevi che ogni forno è diverso dall'altro.\nLasciate riposare un minuto, poi capovolgete su un piatto da dessert.\nServite il Tortino cuore caldo immediatamente spolverizzandolo con zucchero a velo.",
+  "total_time": 35,
+  "prep_time": 20,
+  "cook_time": 15,
+  "yields": "6 servings",
+  "image": "https://www.misya.info/wp-content/uploads/2016/02/Tortino-cuore-caldo1.jpg",
+  "description": "Il tortino dal cuore caldo (o lava cake) è una delle ricette dolci che preferisco: dolce e scioglievole al punto giusto e sempre di effetto. Ne avevo già fatta una versione con il cioccolato fondente anni fa, e quest'anno ho pensato di proporne una nuova, fatta con il cioccolato bianco e romanticamente colorata di rosso, un dolce di un buono ma di un buono che mi ha conquistato al primo assaggio. A che stanno i vostri preparativi per domenica? Già scelto il menu di San Valentino? Se vi manca ancora il dolce potreste optare per questo romanticissimo e delizioso tortino rosso dal cuore morbido, una vera chicca per gli amanti del cioccolato bianco! Mi raccomando solo di stare attenti alla cottura, l'unica vera difficoltà di questo dolce. Quindi vi consiglio di fare la prova tirando via dal forno un solo tortino per poi passare agli altri. Ragazze io scappo, oggi ho un venerdì infuocato ;)",
+  "cuisine": "Italiana",
+  "category": "Dolci",
+  "keywords": [
+    "tortino cuore caldo",
+    "ricetta tortino cuore caldo"
+  ],
+  "ratings": 4.8,
+  "ratings_count": 43,
   "instructions_list": [
     "Montate i tuorli e le uova fino a renderle spumose.",
     "Poi aggiungete lo zucchero",
@@ -44,20 +59,5 @@
     "Poi infornate i tortini in forno già caldo a 190° e cuocete per 13-15 minuti circa.Vi accorgerete quando è il momento giusto quando vedrete una leggera crosticina sui bordi e la superficie ma muovendo lo stampino risulterà ancora morbido.Fate la prova con uno prima di tirarli via dal forno tutti e ricordatevi che ogni forno è diverso dall'altro.",
     "Lasciate riposare un minuto, poi capovolgete su un piatto da dessert.",
     "Servite il Tortino cuore caldo immediatamente spolverizzandolo con zucchero a velo."
-  ],
-  "language": "it",
-  "ratings": 4.8,
-  "ratings_count": 43,
-  "site_name": null,
-  "title": "Tortino cuore caldo",
-  "total_time": 35,
-  "yields": "6 servings",
-  "keywords": [
-    "tortino cuore caldo",
-    "ricetta tortino cuore caldo"
-  ],
-  "description": "Il tortino dal cuore caldo (o lava cake) è una delle ricette dolci che preferisco: dolce e scioglievole al punto giusto e sempre di effetto. Ne avevo già fatta una versione con il cioccolato fondente anni fa, e quest'anno ho pensato di proporne una nuova, fatta con il cioccolato bianco e romanticamente colorata di rosso, un dolce di un buono ma di un buono che mi ha conquistato al primo assaggio. A che stanno i vostri preparativi per domenica? Già scelto il menu di San Valentino? Se vi manca ancora il dolce potreste optare per questo romanticissimo e delizioso tortino rosso dal cuore morbido, una vera chicca per gli amanti del cioccolato bianco! Mi raccomando solo di stare attenti alla cottura, l'unica vera difficoltà di questo dolce. Quindi vi consiglio di fare la prova tirando via dal forno un solo tortino per poi passare agli altri. Ragazze io scappo, oggi ho un venerdì infuocato ;)",
-  "cook_time": 15,
-  "cuisine": "Italiana",
-  "prep_time": 20
+  ]
 }

@@ -1,9 +1,10 @@
 {
-  "author": "Lindsay Ostrom",
-  "canonical_url": "https://pinchofyum.com/broccoli-cheese-soup",
   "host": "pinchofyum.com",
-  "description": "This Broccoli Cheese Soup is easy, creamy, and a perfect cozy classic. A silky-smooth soup base, little bites of just-right broccoli and carrots, and some sharp creamy cheddar cheese to finish it off.",
-  "image": "https://pinchofyum.com/wp-content/uploads/Broccoli-Cheese-Soup-2-225x225.jpg",
+  "canonical_url": "https://pinchofyum.com/broccoli-cheese-soup",
+  "site_name": "Pinch of Yum",
+  "author": "Lindsay Ostrom",
+  "language": "en-US",
+  "title": "Basic + Awesome Broccoli Cheese Soup",
   "ingredients": [
     "5 tablespoons butter, divided",
     "1 small onion, minced",
@@ -42,32 +43,12 @@
     }
   ],
   "instructions": "Sauté garlic and onion\nIn a large soup pot or Dutch oven, melt 1 tablespoon butter over medium heat. Add the onion, garlic, and broccoli stems; sauté until soft and fragrant, about 5 minutes.\nBuild your roux\nAdd remaining 4 tablespoons butter to the soup pot. When butter is melted, add flour to the pot. Cook over medium heat for about 2-3 minutes, until flour is thickened. Slowly pour in the milk and half and half, whisking constantly. (It will start thick but eventually it will thin out and resemble a creamy soup base.) Continue to thin it out, gradually whisking in the broth. Simmer for 10 minutes or so, whisking occasionally to reincorporate the skin that may form.\nAdd broccoli\nWhen the soup base is thickened nicely, stir in the broccoli, carrots, and spices. Simmer for 10 minutes or so, until the broccoli bits are bright green and fork-tender.\nAdd cheese\nTransfer the pot off of heat and allow to cool slightly for a few minutes. Stir in most of the cheese until melted. Serve in bowls with a little extra cheese + a hunk of crusty bread for dunking – and yes, it’s okay to cry tears of cozy joy! This is a happy moment!",
-  "instructions_list": [
-    "Sauté garlic and onion",
-    "In a large soup pot or Dutch oven, melt 1 tablespoon butter over medium heat. Add the onion, garlic, and broccoli stems; sauté until soft and fragrant, about 5 minutes.",
-    "Build your roux",
-    "Add remaining 4 tablespoons butter to the soup pot. When butter is melted, add flour to the pot. Cook over medium heat for about 2-3 minutes, until flour is thickened. Slowly pour in the milk and half and half, whisking constantly. (It will start thick but eventually it will thin out and resemble a creamy soup base.) Continue to thin it out, gradually whisking in the broth. Simmer for 10 minutes or so, whisking occasionally to reincorporate the skin that may form.",
-    "Add broccoli",
-    "When the soup base is thickened nicely, stir in the broccoli, carrots, and spices. Simmer for 10 minutes or so, until the broccoli bits are bright green and fork-tender.",
-    "Add cheese",
-    "Transfer the pot off of heat and allow to cool slightly for a few minutes. Stir in most of the cheese until melted. Serve in bowls with a little extra cheese + a hunk of crusty bread for dunking – and yes, it’s okay to cry tears of cozy joy! This is a happy moment!"
-  ],
-  "language": "en-US",
-  "site_name": "Pinch of Yum",
-  "title": "Basic + Awesome Broccoli Cheese Soup",
   "total_time": 45,
-  "yields": "4 servings",
-  "cooking_method": "Stovetop",
-  "keywords": [
-    "broccoli cheese soup",
-    "broccoli cheddar soup",
-    "soup season",
-    "broccoli cheddar",
-    "Panera broccoli cheese soup"
-  ],
-  "category": "Soup",
+  "prep_time": 15,
   "cook_time": 30,
-  "cuisine": "American",
+  "yields": "4 servings",
+  "image": "https://pinchofyum.com/wp-content/uploads/Broccoli-Cheese-Soup-2-225x225.jpg",
+  "description": "This Broccoli Cheese Soup is easy, creamy, and a perfect cozy classic. A silky-smooth soup base, little bites of just-right broccoli and carrots, and some sharp creamy cheddar cheese to finish it off.",
   "nutrients": {
     "calories": "375 calories",
     "sugarContent": "5.9 g",
@@ -80,7 +61,26 @@
     "proteinContent": "15.5 g",
     "cholesterolContent": "81 mg"
   },
-  "prep_time": 15,
+  "cuisine": "American",
+  "category": "Soup",
+  "keywords": [
+    "broccoli cheese soup",
+    "broccoli cheddar soup",
+    "soup season",
+    "broccoli cheddar",
+    "Panera broccoli cheese soup"
+  ],
+  "cooking_method": "Stovetop",
   "ratings": 5.0,
-  "ratings_count": 2
+  "ratings_count": 2,
+  "instructions_list": [
+    "Sauté garlic and onion",
+    "In a large soup pot or Dutch oven, melt 1 tablespoon butter over medium heat. Add the onion, garlic, and broccoli stems; sauté until soft and fragrant, about 5 minutes.",
+    "Build your roux",
+    "Add remaining 4 tablespoons butter to the soup pot. When butter is melted, add flour to the pot. Cook over medium heat for about 2-3 minutes, until flour is thickened. Slowly pour in the milk and half and half, whisking constantly. (It will start thick but eventually it will thin out and resemble a creamy soup base.) Continue to thin it out, gradually whisking in the broth. Simmer for 10 minutes or so, whisking occasionally to reincorporate the skin that may form.",
+    "Add broccoli",
+    "When the soup base is thickened nicely, stir in the broccoli, carrots, and spices. Simmer for 10 minutes or so, until the broccoli bits are bright green and fork-tender.",
+    "Add cheese",
+    "Transfer the pot off of heat and allow to cool slightly for a few minutes. Stir in most of the cheese until melted. Serve in bowls with a little extra cheese + a hunk of crusty bread for dunking – and yes, it’s okay to cry tears of cozy joy! This is a happy moment!"
+  ]
 }

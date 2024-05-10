@@ -1,9 +1,20 @@
 {
-  "author": "MME",
-  "canonical_url": "https://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept/",
-  "category": "egytálétel,köret",
   "host": "mindmegette.hu",
-  "image": "https://mindmegette.hu/images/283/O/tepsis-ceklas.jpg",
+  "canonical_url": "https://www.mindmegette.hu/tepsis-krumpli-ceklaval-es-repaval.recept/",
+  "site_name": "Mindmegette.hu",
+  "author": "MME",
+  "language": "hu",
+  "title": "Tepsis krumpli céklával és répával",
+  "ingredients": [
+    "6 db burgonya",
+    "2 db cékla",
+    "8 db répa",
+    "4 db lilahagyma",
+    "6 gerezd fokhagyma",
+    "friss rozmaring",
+    "só",
+    "bors"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,28 +30,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "6 db burgonya",
-    "2 db cékla",
-    "8 db répa",
-    "4 db lilahagyma",
-    "6 gerezd fokhagyma",
-    "friss rozmaring",
-    "só",
-    "bors"
-  ],
   "instructions": "A zöldségeket megpucoljuk és megmossuk.\nA burgonyát vastagabb szeletekre vágjuk, a répákat hosszában elfelezzük, a lilahagymát félbe vagy negyedbe vágjuk, a céklát szeleteljük, a fokhagymát egészben hagyjuk.\nAz összes, előkészített zöldséget egy tepsibe tesszük, meglocsoljuk olívaolajjal, sózzuk és borsozzuk, kézzel összeforgatjuk az egészet, majd friss rozmaringot teszünk rá.\nLefedjük alufóliával, 180 fokon 20 percig sütjük, majd fólia nélkül, amíg minden zöldség meg nem puhul. Grill funkció esetén az utolsó 5 percben meg is piríthatjuk. Sült húsok mellé kiváló, laktató köret.",
-  "instructions_list": [
-    "A zöldségeket megpucoljuk és megmossuk.",
-    "A burgonyát vastagabb szeletekre vágjuk, a répákat hosszában elfelezzük, a lilahagymát félbe vagy negyedbe vágjuk, a céklát szeleteljük, a fokhagymát egészben hagyjuk.",
-    "Az összes, előkészített zöldséget egy tepsibe tesszük, meglocsoljuk olívaolajjal, sózzuk és borsozzuk, kézzel összeforgatjuk az egészet, majd friss rozmaringot teszünk rá.",
-    "Lefedjük alufóliával, 180 fokon 20 percig sütjük, majd fólia nélkül, amíg minden zöldség meg nem puhul. Grill funkció esetén az utolsó 5 percben meg is piríthatjuk. Sült húsok mellé kiváló, laktató köret."
-  ],
-  "language": "hu",
-  "site_name": "Mindmegette.hu",
-  "title": "Tepsis krumpli céklával és répával",
   "total_time": 45,
+  "cook_time": 45,
   "yields": "4 servings",
+  "image": "https://mindmegette.hu/images/283/O/tepsis-ceklas.jpg",
+  "description": "Egy finom Tepsis krumpli céklával és répával ebédre vagy vacsorára? Tepsis krumpli céklával és répával Receptek a Mindmegette.hu Recept gyűjteményében!",
+  "category": "egytálétel,köret",
   "keywords": [
     "Tepsis krumpli céklával és répával",
     "vegetáriánus",
@@ -57,6 +53,10 @@
     "burgonya",
     "rozmaringos - MME"
   ],
-  "description": "Egy finom Tepsis krumpli céklával és répával ebédre vagy vacsorára? Tepsis krumpli céklával és répával Receptek a Mindmegette.hu Recept gyűjteményében!",
-  "cook_time": 45
+  "instructions_list": [
+    "A zöldségeket megpucoljuk és megmossuk.",
+    "A burgonyát vastagabb szeletekre vágjuk, a répákat hosszában elfelezzük, a lilahagymát félbe vagy negyedbe vágjuk, a céklát szeleteljük, a fokhagymát egészben hagyjuk.",
+    "Az összes, előkészített zöldséget egy tepsibe tesszük, meglocsoljuk olívaolajjal, sózzuk és borsozzuk, kézzel összeforgatjuk az egészet, majd friss rozmaringot teszünk rá.",
+    "Lefedjük alufóliával, 180 fokon 20 percig sütjük, majd fólia nélkül, amíg minden zöldség meg nem puhul. Grill funkció esetén az utolsó 5 percben meg is piríthatjuk. Sült húsok mellé kiváló, laktató köret."
+  ]
 }

@@ -1,10 +1,26 @@
 {
-  "author": "Michael Beasley",
-  "canonical_url": "https://www2.whole30.com/recipes/whole30-smash-burger-taco/",
   "host": "whole30.com",
-  "description": "These Whole30 Smash Burger Tacos are a breeze to make and perfect whenever you're craving something utterly delicious.",
-  "image": "https://whole30.com/wp-content/uploads/2023/12/Whole30-Smash-Burger-Tacos-with-Primal-Kitchen-Chipotle-Lime-Mayo-Square-5.png.webp",
-  "category": "dinner,lunch,Main Course",
+  "canonical_url": "https://www2.whole30.com/recipes/whole30-smash-burger-taco/",
+  "site_name": "The Whole30® Program",
+  "author": "Michael Beasley",
+  "language": "en-US",
+  "title": "Whole30 Smash Burger Taco",
+  "ingredients": [
+    "1 lb ground beef",
+    "1 tsp kosher salt",
+    "1/4 tsp black pepper",
+    "1 tsp garlic powder",
+    "1 tsp onion powder",
+    "1/2 tsp paprika",
+    "8 plantain tortillas ((see below for how to make))",
+    "1/2 red onion (diced)",
+    "2 tomatoes (sliced)",
+    "2 cups shredded lettuce",
+    "4 green plantains (peeled and diced)",
+    "4 cups water",
+    "1 tsp kosher salt",
+    "1 tbsp Primal Kitchen Avocado Oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -36,23 +52,14 @@
       "purpose": "Plantain Tortillas"
     }
   ],
-  "ingredients": [
-    "1 lb ground beef",
-    "1 tsp kosher salt",
-    "1/4 tsp black pepper",
-    "1 tsp garlic powder",
-    "1 tsp onion powder",
-    "1/2 tsp paprika",
-    "8 plantain tortillas ((see below for how to make))",
-    "1/2 red onion (diced)",
-    "2 tomatoes (sliced)",
-    "2 cups shredded lettuce",
-    "4 green plantains (peeled and diced)",
-    "4 cups water",
-    "1 tsp kosher salt",
-    "1 tbsp Primal Kitchen Avocado Oil"
-  ],
   "instructions": "For the plantain tortillas:\nADD plantains, water, and salt to a saucepan on medium heat and cook until fork tender. Allow to cool, then add to a food processor and blend until it comes together to form a “dough” ball. Divide the plantain dough into 8. Cover your palms with oil, then roll each piece of plantain dough into a ball. Using a tortilla press, press the dough into a tortilla.\nNEXT, bring a skillet to medium heat, add the pressed plantain tortilla, and cook for 1 ½ minutes. Then flip and cook for another minute. Remove from heat and repeat for the remaining plantain tacos.\nFor the smash burger tacos:\nCOMBINE the ground beef, salt, black pepper, garlic powder, onion powder, and paprika. Mix well, then separate into 8 equal portions. Spread each portion of seasoned ground beef onto a plantain tortilla. Be sure to spread all the way to the edges, as it will shrink during cooking.\nNEXT, bring a skillet to medium heat. When hot, spray generously with Primal Kitchen Avocado Oil Spray. Then add the plantain tortilla, meat side down, onto the hot skillet. Use a burger press or flat pot cover/lid to press the burger down firmly while it cooks. Cook for about 1 ½ minutes to 2 minutes. Then flip, cook for 10 seconds, and remove from heat.\nTOP your smash burger taco with your favorite burger toppings like diced onions, sliced tomatoes, shredded lettuce, and some delicious Primal Kitchen Chipotle Lime Mayo, and enjoy!",
+  "total_time": 35,
+  "yields": "4 servings",
+  "image": "https://whole30.com/wp-content/uploads/2023/12/Whole30-Smash-Burger-Tacos-with-Primal-Kitchen-Chipotle-Lime-Mayo-Square-5.png.webp",
+  "description": "These Whole30 Smash Burger Tacos are a breeze to make and perfect whenever you're craving something utterly delicious.",
+  "category": "dinner,lunch,Main Course",
+  "ratings": 5.0,
+  "ratings_count": 1,
   "instructions_list": [
     "For the plantain tortillas:",
     "ADD plantains, water, and salt to a saucepan on medium heat and cook until fork tender. Allow to cool, then add to a food processor and blend until it comes together to form a “dough” ball. Divide the plantain dough into 8. Cover your palms with oil, then roll each piece of plantain dough into a ball. Using a tortilla press, press the dough into a tortilla.",
@@ -62,12 +69,5 @@
     "NEXT, bring a skillet to medium heat. When hot, spray generously with Primal Kitchen Avocado Oil Spray. Then add the plantain tortilla, meat side down, onto the hot skillet. Use a burger press or flat pot cover/lid to press the burger down firmly while it cooks. Cook for about 1 ½ minutes to 2 minutes. Then flip, cook for 10 seconds, and remove from heat.",
     "TOP your smash burger taco with your favorite burger toppings like diced onions, sliced tomatoes, shredded lettuce, and some delicious Primal Kitchen Chipotle Lime Mayo, and enjoy!"
   ],
-  "language": "en-US",
-  "rating": 5.0,
-  "site_name": "The Whole30® Program",
-  "title": "Whole30 Smash Burger Taco",
-  "total_time": 35,
-  "yields": "4 servings",
-  "ratings": 5.0,
-  "ratings_count": 1
+  "rating": 5.0
 }

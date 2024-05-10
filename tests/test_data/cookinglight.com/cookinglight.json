@@ -1,21 +1,22 @@
 {
-  "author": "Cooking Light",
-  "canonical_url": "https://www.cookinglight.com/recipes/avocado-black-bean-and-charred-tomato-bowl",
   "host": "cookinglight.com",
-  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1542730855%2Favocado-black-bean-and-charred-tomato-bowl-detox-book-p28.jpg%3Fitok%3D7dflTpmM",
+  "canonical_url": "https://www.cookinglight.com/recipes/avocado-black-bean-and-charred-tomato-bowl",
+  "site_name": "Cooking Light",
+  "author": "Cooking Light",
+  "language": "en",
+  "title": "Avocado, Black Bean, and Charred Tomato Bowl",
+  "ingredients": "1/2 cup Savory Stewed Black Beans, warmed\n1 teaspoon olive oil\n1/2 cup grape tomatoes\n1/4 cup fresh corn kernels (from 1 ear)\n1/2 medium-sized ripe avocado, thinly sliced\n1 medium radish, very thinly sliced\n2 tablespoons fresh cilantro leaves\n1/4 teaspoon kosher salt\n1/8 teaspoon black pepper",
   "ingredient_groups": [
     {
       "ingredients": "1/2 cup Savory Stewed Black Beans, warmed\n1 teaspoon olive oil\n1/2 cup grape tomatoes\n1/4 cup fresh corn kernels (from 1 ear)\n1/2 medium-sized ripe avocado, thinly sliced\n1 medium radish, very thinly sliced\n2 tablespoons fresh cilantro leaves\n1/4 teaspoon kosher salt\n1/8 teaspoon black pepper",
       "purpose": null
     }
   ],
-  "ingredients": "1/2 cup Savory Stewed Black Beans, warmed\n1 teaspoon olive oil\n1/2 cup grape tomatoes\n1/4 cup fresh corn kernels (from 1 ear)\n1/2 medium-sized ripe avocado, thinly sliced\n1 medium radish, very thinly sliced\n2 tablespoons fresh cilantro leaves\n1/4 teaspoon kosher salt\n1/8 teaspoon black pepper",
   "instructions": "Step 1 Place the black beans in a pile in the corner of a shallow bowl. Heat a small skillet over medium-high. Add the oil to the pan; swirl to coat. Add the tomatoes; cook until charred but not collapsing, about 3 minutes, shaking the pan once to turn the tomatoes. Place the tomatoes next to the beans in the bowl.\nStep 2 Add the corn to the pan; cook until heated through, 2 to 3 minutes. Place the corn next to the tomatoes. Add the avocado slices, radish slices, and cilantro to the bowl. Sprinkle with the salt and pepper.",
-  "instructions_list": [
-    "Step 1 Place the black beans in a pile in the corner of a shallow bowl. Heat a small skillet over medium-high. Add the oil to the pan; swirl to coat. Add the tomatoes; cook until charred but not collapsing, about 3 minutes, shaking the pan once to turn the tomatoes. Place the tomatoes next to the beans in the bowl.",
-    "Step 2 Add the corn to the pan; cook until heated through, 2 to 3 minutes. Place the corn next to the tomatoes. Add the avocado slices, radish slices, and cilantro to the bowl. Sprinkle with the salt and pepper."
-  ],
-  "language": "en",
+  "total_time": 10,
+  "yields": "1 serving",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1542730855%2Favocado-black-bean-and-charred-tomato-bowl-detox-book-p28.jpg%3Fitok%3D7dflTpmM",
+  "description": "This meatless bowl offers a range of textures and flavors, including cumin-scented black beans, blistered tomatoes, corn, and fresh avocado that are equally good at room temperature. If you don’t have time to stew your own beans, canned unsalted beans work just as well here. Feel free to mix it all together instead of portioning into quadrants. Finish it with a squeeze of lime, if you like.",
   "nutrients": {
     "calories": "428",
     "carbohydrateContent": "53 g",
@@ -28,9 +29,8 @@
     "unsaturatedFatContent": "15 g"
   },
   "ratings": null,
-  "site_name": "Cooking Light",
-  "title": "Avocado, Black Bean, and Charred Tomato Bowl",
-  "total_time": 10,
-  "yields": "1 serving",
-  "description": "This meatless bowl offers a range of textures and flavors, including cumin-scented black beans, blistered tomatoes, corn, and fresh avocado that are equally good at room temperature. If you don’t have time to stew your own beans, canned unsalted beans work just as well here. Feel free to mix it all together instead of portioning into quadrants. Finish it with a squeeze of lime, if you like."
+  "instructions_list": [
+    "Step 1 Place the black beans in a pile in the corner of a shallow bowl. Heat a small skillet over medium-high. Add the oil to the pan; swirl to coat. Add the tomatoes; cook until charred but not collapsing, about 3 minutes, shaking the pan once to turn the tomatoes. Place the tomatoes next to the beans in the bowl.",
+    "Step 2 Add the corn to the pan; cook until heated through, 2 to 3 minutes. Place the corn next to the tomatoes. Add the avocado slices, radish slices, and cilantro to the bowl. Sprinkle with the salt and pepper."
+  ]
 }

@@ -1,10 +1,22 @@
 {
-  "author": "Jill Dalton from the Whole Food Plant Based Cooking Show",
-  "canonical_url": "https://nutritionfacts.org/recipe/cinnamon-roll-oatmeal/",
-  "category": "Breakfast",
-  "description": "This Cinnamon Roll Oatmeal is a naturally sweet and delicious way to start your day. It’s a date-sweetened oatmeal paired with a creamy cashew drizzle that makes for a fancy, yet simple breakfast. Less than 3 percent of Americans meet the daily recommended fiber intake, despite research suggesting that high-fiber foods, such as whole grains, can affect the progression of coronary heart disease. The soluble fiber of oatmeal forms a gel in the stomach, delaying stomach emptying, making one feel full for a longer period.",
   "host": "nutritionfacts.org",
-  "image": "https://nutritionfacts.org/app/uploads/2023/08/jill-wfpb-cooking-cinnamon-roll-oats-scaled.jpg",
+  "canonical_url": "https://nutritionfacts.org/recipe/cinnamon-roll-oatmeal/",
+  "site_name": null,
+  "author": "Jill Dalton from the Whole Food Plant Based Cooking Show",
+  "language": "en-US",
+  "title": "Cinnamon Roll Oatmeal",
+  "ingredients": [
+    "4 cups water",
+    "8 pitted dates",
+    "2 teaspoons cinnamon",
+    "2 teaspoons vanilla extract or powder",
+    "2 cups rolled oats",
+    "Raw pecans (optional garnish, as desired)",
+    "½ cup raw cashews",
+    "½ teaspoon vanilla extract",
+    "2 pitted dates",
+    "¾-1 cup water"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -27,26 +39,14 @@
       "purpose": "For the Drizzle"
     }
   ],
-  "ingredients": [
-    "4 cups water",
-    "8 pitted dates",
-    "2 teaspoons cinnamon",
-    "2 teaspoons vanilla extract or powder",
-    "2 cups rolled oats",
-    "Raw pecans (optional garnish, as desired)",
-    "½ cup raw cashews",
-    "½ teaspoon vanilla extract",
-    "2 pitted dates",
-    "¾-1 cup water"
-  ],
   "instructions": "To make the oatmeal, in a high-speed blender, combine the water, dates, cinnamon, and vanilla. Blend until smooth and pour into a saucepan with the rolled oats. Cook until the oats reach your desired consistency.\nTo make the drizzle, combine all of the ingredients into a high-speed blender. Blend until smooth and creamy.\nDivide the oatmeal into bowls, top with the drizzle, and garnish with pecans, as desired.",
+  "yields": "4 servings",
+  "image": "https://nutritionfacts.org/app/uploads/2023/08/jill-wfpb-cooking-cinnamon-roll-oats-scaled.jpg",
+  "description": "This Cinnamon Roll Oatmeal is a naturally sweet and delicious way to start your day. It’s a date-sweetened oatmeal paired with a creamy cashew drizzle that makes for a fancy, yet simple breakfast. Less than 3 percent of Americans meet the daily recommended fiber intake, despite research suggesting that high-fiber foods, such as whole grains, can affect the progression of coronary heart disease. The soluble fiber of oatmeal forms a gel in the stomach, delaying stomach emptying, making one feel full for a longer period.",
+  "category": "Breakfast",
   "instructions_list": [
     "To make the oatmeal, in a high-speed blender, combine the water, dates, cinnamon, and vanilla. Blend until smooth and pour into a saucepan with the rolled oats. Cook until the oats reach your desired consistency.",
     "To make the drizzle, combine all of the ingredients into a high-speed blender. Blend until smooth and creamy.",
     "Divide the oatmeal into bowls, top with the drizzle, and garnish with pecans, as desired."
-  ],
-  "language": "en-US",
-  "site_name": null,
-  "title": "Cinnamon Roll Oatmeal",
-  "yields": "4 servings"
+  ]
 }

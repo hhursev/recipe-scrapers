@@ -1,9 +1,10 @@
 {
-  "author": "Joy the Baker",
-  "canonical_url": "https://joythebaker.com/2023/01/jambalaya-biscuits/",
   "host": "joythebaker.com",
-  "description": "A tender, savory, and stacked Mardi Gras biscuit!",
-  "image": "https://joythebaker.com/wp-content/uploads/2023/01/JambBiscuits-45-225x225.jpg",
+  "canonical_url": "https://joythebaker.com/2023/01/jambalaya-biscuits/",
+  "site_name": "Joy the Baker",
+  "author": "Joy the Baker",
+  "language": "en-US",
+  "title": "Jambalaya Biscuits",
   "ingredients": [
     "1 heaping cup cherry tomatoes, halved and roasted until bubbling with a bit of olive oil, salt, and pepper",
     "2 tablespoons olive oil",
@@ -49,6 +50,16 @@
     }
   ],
   "instructions": "First make the jambalaya filling. In a medium saucepan, heat oil over medium heat. Add onion and peppers and cook until softened, about 5-7 minutes. Add the sliced sausage and toss to combine, about 1 minute. Transfer to a bowl along with the roasted tomatoes and refrigerate while you make the biscuit dough.\nIn a large bowl whisk together flour, sugar, baking powder, baking soda, and salt. Add the cold butter and work into the dry ingredients into smaller butter chunks using fast hands or a pastry blender. Butter will be the size of peas when broken down. Place the mixture in the freezer for 15 minutes to re-chill.\nIn a small bowl whisk together egg and cold buttermilk. Keep chilled.\nTake the flour mixture out of the freezer and drizzle in the buttermilk. Stir into a shaggy dough. Add the chilled jambalaya filling and toss to combine. Turn the dough out onto a clean counter and gently knead together into a cohesive rectangle.\nGently roll the dough into a 1-inch thick rectangle on a lightly floured surface. At the short end of the dough closest to you, fold the dough over until the edge of the dough meets the center of the dough. If it feels like there are chunks of meat everywhere – yes, that’s right. Fold the top edge of the dough towards the center over the first fold. An envelope fold. Slice the dough in half through the vertical center, stack the two pieces of dough and again gently roll the dough into a 1-inch rectangle and repeat the folding process again. Loosely wrap the envelope of dough in plastic wrap and freeze for 15 minutes.\nPlace a rack in the upper third of the oven and preheat oven to 425 degrees F. Line a rimmed baking sheet with parchment paper.\nRemove the dough from the freezer and roll to a generous 1-inch thickness. Use a sharp knife to slice into 8 squares. Place a few inches apart on the prepared baking sheet and brush the top of each biscuit with buttermilk. Sprinkle with salt and pepper.\nBake for 15-18 minutes until golden brown. Set aside for a few minutes to cool slightly before serving. I like to brush with butter and sprinkle with a bit of chives before serving.\nBiscuits are best enjoyed the day they’re made but keep, well wrapped, in the refrigerator for 2 days. Just wrap in foil and toast in the oven before serving.",
+  "total_time": 60,
+  "prep_time": 40,
+  "cook_time": 20,
+  "yields": "8 servings",
+  "image": "https://joythebaker.com/wp-content/uploads/2023/01/JambBiscuits-45-225x225.jpg",
+  "description": "A tender, savory, and stacked Mardi Gras biscuit!",
+  "category": "breakfast",
+  "cooking_method": "baking",
+  "ratings": 5.0,
+  "ratings_count": 2,
   "instructions_list": [
     "First make the jambalaya filling. In a medium saucepan, heat oil over medium heat. Add onion and peppers and cook until softened, about 5-7 minutes. Add the sliced sausage and toss to combine, about 1 minute. Transfer to a bowl along with the roasted tomatoes and refrigerate while you make the biscuit dough.",
     "In a large bowl whisk together flour, sugar, baking powder, baking soda, and salt. Add the cold butter and work into the dry ingredients into smaller butter chunks using fast hands or a pastry blender. Butter will be the size of peas when broken down. Place the mixture in the freezer for 15 minutes to re-chill.",
@@ -59,16 +70,5 @@
     "Remove the dough from the freezer and roll to a generous 1-inch thickness. Use a sharp knife to slice into 8 squares. Place a few inches apart on the prepared baking sheet and brush the top of each biscuit with buttermilk. Sprinkle with salt and pepper.",
     "Bake for 15-18 minutes until golden brown. Set aside for a few minutes to cool slightly before serving. I like to brush with butter and sprinkle with a bit of chives before serving.",
     "Biscuits are best enjoyed the day they’re made but keep, well wrapped, in the refrigerator for 2 days. Just wrap in foil and toast in the oven before serving."
-  ],
-  "language": "en-US",
-  "site_name": "Joy the Baker",
-  "title": "Jambalaya Biscuits",
-  "total_time": 60,
-  "prep_time": 40,
-  "cook_time": 20,
-  "ratings": 5.0,
-  "yields": "8 servings",
-  "category": "breakfast",
-  "cooking_method": "baking",
-  "ratings_count": 2
+  ]
 }

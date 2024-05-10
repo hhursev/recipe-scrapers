@@ -1,10 +1,25 @@
 {
-  "author": "NHS Better Health",
-  "canonical_url": "nhs.uk",
-  "category": null,
-  "description": "This classic chilli is packed with flavour. It also freezes well, so is perfect for batch-cooking.",
   "host": "nhs.uk",
-  "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg",
+  "canonical_url": "nhs.uk",
+  "site_name": "nhs.uk",
+  "author": "NHS Better Health",
+  "language": "en",
+  "title": "Chilli con carne",
+  "ingredients": [
+    "300g extra-lean minced beef",
+    "1 large onion, finely chopped",
+    "2 garlic cloves, finely chopped",
+    "400g chopped tomatoes",
+    "2 tablespoons tomato purée",
+    "2 teaspoons chilli powder",
+    "1 teaspoon ground cumin",
+    "1 red pepper, deseeded and chopped",
+    "2 handfuls of cup or button mushrooms, sliced",
+    "410g red kidney beans, drained",
+    "150ml reduced-salt vegetable or chicken stock",
+    "300g easy-cook white or brown rice",
+    "1 pinch ground black pepper"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,31 +40,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "300g extra-lean minced beef",
-    "1 large onion, finely chopped",
-    "2 garlic cloves, finely chopped",
-    "400g chopped tomatoes",
-    "2 tablespoons tomato purée",
-    "2 teaspoons chilli powder",
-    "1 teaspoon ground cumin",
-    "1 red pepper, deseeded and chopped",
-    "2 handfuls of cup or button mushrooms, sliced",
-    "410g red kidney beans, drained",
-    "150ml reduced-salt vegetable or chicken stock",
-    "300g easy-cook white or brown rice",
-    "1 pinch ground black pepper"
-  ],
   "instructions": "Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.\nAdd the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.\nMeanwhile, cook the rice according to pack instructions.\nSeason the chilli with pepper and serve with the boiled rice.",
+  "total_time": 35,
+  "yields": "4 servings",
+  "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg",
+  "description": "This classic chilli is packed with flavour. It also freezes well, so is perfect for batch-cooking.",
+  "category": null,
   "instructions_list": [
     "Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.",
     "Add the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.",
     "Meanwhile, cook the rice according to pack instructions.",
     "Season the chilli with pepper and serve with the boiled rice."
-  ],
-  "language": "en",
-  "site_name": "nhs.uk",
-  "title": "Chilli con carne",
-  "total_time": 35,
-  "yields": "4 servings"
+  ]
 }

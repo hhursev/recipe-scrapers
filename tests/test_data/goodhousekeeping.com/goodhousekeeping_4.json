@@ -1,11 +1,27 @@
 {
-  "author": "Ailsa Burt",
-  "canonical_url": "https://www.goodhousekeeping.com/uk/food/recipes/a26058841/jaffa-cake-cheesecake/",
-  "category": "baking,dessert",
-  "cuisine": null,
-  "description": "Full moon, half moon, total eclipse - this jaffa cake cheesecake is bound to please to whole family!",
   "host": "goodhousekeeping.com",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/jaffa-cheesecake-1548684397.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=1200:*",
+  "canonical_url": "https://www.goodhousekeeping.com/uk/food/recipes/a26058841/jaffa-cake-cheesecake/",
+  "site_name": "Good Housekeeping",
+  "author": "Ailsa Burt",
+  "language": "en-GB",
+  "title": "Jaffa Cake cheesecake",
+  "ingredients": [
+    "100 g unsalted butter, very soft, plus extra to grease",
+    "100 g caster sugar",
+    "2 medium eggs",
+    "100 g self-raising flour",
+    "1 tbsp. milk",
+    "1 tsp. vanilla extract",
+    "500 g cream cheese",
+    "100 g icing sugar",
+    "1 tsp. vanilla extract",
+    "300 mL double cream",
+    "Vegetable oil, to grease",
+    "5 gelatine leaves",
+    "275 g good quality no-peel Seville orange marmalade",
+    "200 g good quality dark chocolate, broken into pieces",
+    "1 1/2 tsp. sunflower oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -43,24 +59,32 @@
       "purpose": "For the chocolate topping"
     }
   ],
-  "ingredients": [
-    "100 g unsalted butter, very soft, plus extra to grease",
-    "100 g caster sugar",
-    "2 medium eggs",
-    "100 g self-raising flour",
-    "1 tbsp. milk",
-    "1 tsp. vanilla extract",
-    "500 g cream cheese",
-    "100 g icing sugar",
-    "1 tsp. vanilla extract",
-    "300 mL double cream",
-    "Vegetable oil, to grease",
-    "5 gelatine leaves",
-    "275 g good quality no-peel Seville orange marmalade",
-    "200 g good quality dark chocolate, broken into pieces",
-    "1 1/2 tsp. sunflower oil"
-  ],
   "instructions": "Make the sponge. Preheat oven to 170°C (150°C fan) mark 3. Lightly grease the base and sides of a 20.5cm (8in) round springform tin. Line the base of the tin with parchment.\nPut the ingredients for the cake in a mixing bowl. Beat for 30sec until smooth and combined, using a hand-held electric whisk. Tip the mixture into the tin and spread to level. Bake for 25min, or until the cake is golden, risen and a skewer inserted into the centre comes out clean.\nLeave to cool in tin for 5min, then unclip and remove cake from tin on to a wire rack and leave to cool completely. Clean tin. Turn base of tin over so it’s flat-side up. Take a 30.5cm (12in) sheet of baking parchment and lay it over the base of the tin. Carefully clip the paper-covered base back into the tin so paper is tightly stretched over base and any overhang is trapped between base and sides of tin, then grease and line sides of tin with another piece of baking parchment. Peel and discard parchment from the bottom of the cake, then place into the prepared tin, flat side down.\nMake the filling. Using a hand-held electric whisk, beat together the cream cheese and icing sugar until smooth, then beat in the double cream and vanilla until the mixture is thick and holds its shape.\nSpoon the cheesecake mixture into the cake tin and spread on top of the cake to make an even layer. Chill in the fridge for at least 6hr or overnight.\nWhile the cheesecake sets, make the jelly. Grease a 18cm (7in) round tin. Line with a large piece of clingfilm, smoothing any creases and air bubbles out with your fingers as best as possible. Put gelatine leaves to soak in a small bowl of cold water for 5min.\nGently heat marmalade in a small pan, whisking frequently until melted and smooth. Lift gelatine out of bowl and squeeze out excess water. Add soaked gelatine leaves to marmalade and whisk again over a low heat until gelatine is melted and combined. Pour marmalade mixture into the cling film lined tin and leave to cool to room temperature. Chill for 30min or until set, then remove from fridge and keep at room temperature.\nWhen the cheesecake has set, make the chocolate topping. Put chocolate in a heatproof bowl set over a pan of gently simmering water, stirring occasionally until melted and smooth (don’t let the bottom of the bowl come in contact with the water). Remove from heat and stir oil in really well. Leave to cool for 5-10min, until chocolate is room temperature and no longer feels warm when you spoon a drop on your finger.\nMeanwhile, unclip cheesecake from tin and slide on to a serving plate. Peel off the parchment around the sides. Remove the jelly layer from the tin and carefully put on top of the cheesecake layer, in the centre.\nCarefully pour cooled melted chocolate on top of jelly and spread gently to the edge of the cheesecake. Working quickly, lightly press a wire rack down on to the melted chocolate and lift immediately to make a criss-cross pattern. Chill the cheesecake for at least 15min or until the chocolate is set, then slice and serve (see GH Tip).",
+  "total_time": 85,
+  "prep_time": 45,
+  "cook_time": 40,
+  "yields": "10 servings",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/jaffa-cheesecake-1548684397.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=1200:*",
+  "description": "Full moon, half moon, total eclipse - this jaffa cake cheesecake is bound to please to whole family!",
+  "nutrients": {
+    "calories": "555cals",
+    "fatContent": "36g",
+    "saturatedFatContent": "22g",
+    "sugarContent": "43g",
+    "carbohydrateContent": "50g",
+    "proteinContent": "7g",
+    "fiberContent": "1g"
+  },
+  "cuisine": null,
+  "category": "baking,dessert",
+  "keywords": [
+    "baking",
+    "dessert",
+    "cheesecake",
+    "jaffa cake",
+    "jaffa cake cheesecake",
+    "chocolate orange cheesecake"
+  ],
   "instructions_list": [
     "Make the sponge. Preheat oven to 170°C (150°C fan) mark 3. Lightly grease the base and sides of a 20.5cm (8in) round springform tin. Line the base of the tin with parchment.",
     "Put the ingredients for the cake in a mixing bowl. Beat for 30sec until smooth and combined, using a hand-held electric whisk. Tip the mixture into the tin and spread to level. Bake for 25min, or until the cake is golden, risen and a skewer inserted into the centre comes out clean.",
@@ -72,29 +96,5 @@
     "When the cheesecake has set, make the chocolate topping. Put chocolate in a heatproof bowl set over a pan of gently simmering water, stirring occasionally until melted and smooth (don’t let the bottom of the bowl come in contact with the water). Remove from heat and stir oil in really well. Leave to cool for 5-10min, until chocolate is room temperature and no longer feels warm when you spoon a drop on your finger.",
     "Meanwhile, unclip cheesecake from tin and slide on to a serving plate. Peel off the parchment around the sides. Remove the jelly layer from the tin and carefully put on top of the cheesecake layer, in the centre.",
     "Carefully pour cooled melted chocolate on top of jelly and spread gently to the edge of the cheesecake. Working quickly, lightly press a wire rack down on to the melted chocolate and lift immediately to make a criss-cross pattern. Chill the cheesecake for at least 15min or until the chocolate is set, then slice and serve (see GH Tip)."
-  ],
-  "language": "en-GB",
-  "nutrients": {
-    "calories": "555cals",
-    "fatContent": "36g",
-    "saturatedFatContent": "22g",
-    "sugarContent": "43g",
-    "carbohydrateContent": "50g",
-    "proteinContent": "7g",
-    "fiberContent": "1g"
-  },
-  "site_name": "Good Housekeeping",
-  "title": "Jaffa Cake cheesecake",
-  "total_time": 85,
-  "yields": "10 servings",
-  "cook_time": 40,
-  "prep_time": 45,
-  "keywords": [
-    "baking",
-    "dessert",
-    "cheesecake",
-    "jaffa cake",
-    "jaffa cake cheesecake",
-    "chocolate orange cheesecake"
   ]
 }

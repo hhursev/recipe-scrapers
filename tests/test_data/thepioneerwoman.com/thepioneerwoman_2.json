@@ -1,12 +1,29 @@
 {
-  "author": "Ree Drummond",
-  "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a11885/pumpkin-sheet-cake/",
-  "category": "Thanksgiving,baking,comfort food,dessert,main dish,snack",
-  "cook_time": null,
-  "cuisine": "American,Comfort Food",
-  "description": "Pumpkin sheet cake is moist, heavenly, and the perfect fall recipe. It’s perfect for Thanksgiving—and it’s also perfect for the other 364 days of the year.",
   "host": "thepioneerwoman.com",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/pumpkin-sheet-cake-recipe-1626966058.jpg?crop=0.670xw:1.00xh;0.0337xw,0&resize=1200:*",
+  "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a11885/pumpkin-sheet-cake/",
+  "site_name": "The Pioneer Woman",
+  "author": "Ree Drummond",
+  "language": "en-US",
+  "title": "Pumpkin Sheet Cake With Cream Cheese Frosting",
+  "ingredients": [
+    "2 sticks salted butter",
+    "2 c. pumpkin puree (not pumpkin pie filling!)",
+    "2 tsp. pumpkin pie spice",
+    "1/2 c. boiling water",
+    "2 c. all-purpose flour",
+    "2 c. granulated sugar",
+    "1/4 tsp. salt",
+    "1/2 c. buttermilk",
+    "2 eggs",
+    "2 tsp. baking soda",
+    "2 tsp. vanilla extract",
+    "1/2 tsp. maple extract (optional)",
+    "8 oz. cream cheese, softened",
+    "1 stick unsalted butter, softened",
+    "1 lb. powdered sugar",
+    "Dash of salt",
+    "1 tbsp. half and half or whole milk, plus more if needed for thinning"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -36,26 +53,22 @@
       "purpose": "For the frosting:"
     }
   ],
-  "ingredients": [
-    "2 sticks salted butter",
-    "2 c. pumpkin puree (not pumpkin pie filling!)",
-    "2 tsp. pumpkin pie spice",
-    "1/2 c. boiling water",
-    "2 c. all-purpose flour",
-    "2 c. granulated sugar",
-    "1/4 tsp. salt",
-    "1/2 c. buttermilk",
-    "2 eggs",
-    "2 tsp. baking soda",
-    "2 tsp. vanilla extract",
-    "1/2 tsp. maple extract (optional)",
-    "8 oz. cream cheese, softened",
-    "1 stick unsalted butter, softened",
-    "1 lb. powdered sugar",
-    "Dash of salt",
-    "1 tbsp. half and half or whole milk, plus more if needed for thinning"
-  ],
   "instructions": "For the cake: Preheat the oven to 350 degrees. Spray a sheet pan (11-inches by 17-inches) with baking spray and set aside.\nIn a medium saucepan, melt the butter. Whisk in the pumpkin puree and pumpkin pie spice until it's totally combined. Whisk in the boiling water until the mixture is smooth and combined. Set aside.\nIn a large bowl, combine the flour, sugar and salt. Whisk and set aside.\nIn a liquid measuring cup, combine the buttermilk, eggs, baking soda, vanilla and maple extract, if using. Whisk and set aside.\nPour the pumpkin mixture into the flour mixture and stir until halfway combined. Pour in the buttermilk mixture and stir until combined. Pour into the sheet pan and bake the cake for 20 minutes. Remove and allow to cool.\nFor the frosting: In the bowl of an electric mixer, mix together the cream cheese, butter, powdered sugar, and salt until smooth. Add the half and half or milk and check the consistency. It should be somewhat thick but thin enough to spread in a thin layer.\nSpread the frosting all over the surface of the cake. Cut into squares and serve. Keep leftovers in the fridge, as frosting will get soft.",
+  "total_time": 40,
+  "prep_time": 20,
+  "cook_time": null,
+  "yields": "18 servings",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/pumpkin-sheet-cake-recipe-1626966058.jpg?crop=0.670xw:1.00xh;0.0337xw,0&resize=1200:*",
+  "description": "Pumpkin sheet cake is moist, heavenly, and the perfect fall recipe. It’s perfect for Thanksgiving—and it’s also perfect for the other 364 days of the year.",
+  "cuisine": "American,Comfort Food",
+  "category": "Thanksgiving,baking,comfort food,dessert,main dish,snack",
+  "keywords": [
+    "Recipes",
+    "Cooking",
+    "Food"
+  ],
+  "ratings": 4.17,
+  "ratings_count": 12,
   "instructions_list": [
     "For the cake: Preheat the oven to 350 degrees. Spray a sheet pan (11-inches by 17-inches) with baking spray and set aside.",
     "In a medium saucepan, melt the butter. Whisk in the pumpkin puree and pumpkin pie spice until it's totally combined. Whisk in the boiling water until the mixture is smooth and combined. Set aside.",
@@ -64,18 +77,5 @@
     "Pour the pumpkin mixture into the flour mixture and stir until halfway combined. Pour in the buttermilk mixture and stir until combined. Pour into the sheet pan and bake the cake for 20 minutes. Remove and allow to cool.",
     "For the frosting: In the bowl of an electric mixer, mix together the cream cheese, butter, powdered sugar, and salt until smooth. Add the half and half or milk and check the consistency. It should be somewhat thick but thin enough to spread in a thin layer.",
     "Spread the frosting all over the surface of the cake. Cut into squares and serve. Keep leftovers in the fridge, as frosting will get soft."
-  ],
-  "language": "en-US",
-  "prep_time": 20,
-  "ratings": 4.17,
-  "ratings_count": 12,
-  "site_name": "The Pioneer Woman",
-  "title": "Pumpkin Sheet Cake With Cream Cheese Frosting",
-  "total_time": 40,
-  "yields": "18 servings",
-  "keywords": [
-    "Recipes",
-    "Cooking",
-    "Food"
   ]
 }

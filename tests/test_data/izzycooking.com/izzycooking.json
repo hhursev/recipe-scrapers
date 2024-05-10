@@ -1,11 +1,18 @@
 {
-  "author": "Izzy",
-  "canonical_url": "https://izzycooking.com/oreo-cheesecake-bites/",
-  "category": "Dessert",
-  "cuisine": "American",
-  "description": "Oreo Cheesecake Bites are creamy and soft mini cheesecakes with a delicious oreo crust at the bottom. They are so easy to make and a guaranteed hit at any party.",
   "host": "izzycooking.com",
-  "image": "https://izzycooking.com/wp-content/uploads/2018/06/Oreo-Cheesecake-Bites-Featured-Image.jpg",
+  "canonical_url": "https://izzycooking.com/oreo-cheesecake-bites/",
+  "site_name": "IzzyCooking",
+  "author": "Izzy",
+  "language": "en-CA",
+  "title": "Oreo Cheesecake Bites Recipe (+Video)",
+  "ingredients": [
+    "22 Oreo cookies ((Chop 6 of them into small pieces))",
+    "16 ounces cream cheese (softened)",
+    "1/2 cup granulated sugar",
+    "1/2 tsp vanilla extract",
+    "2 eggs",
+    "1/2 cup sour cream ((or plain Greek yogurt))"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,28 +26,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "22 Oreo cookies ((Chop 6 of them into small pieces))",
-    "16 ounces cream cheese (softened)",
-    "1/2 cup granulated sugar",
-    "1/2 tsp vanilla extract",
-    "2 eggs",
-    "1/2 cup sour cream ((or plain Greek yogurt))"
-  ],
   "instructions": "Preheat oven to 325°F. (Make sure your oven temperature is accurate, as a higher temp can cause the cheesecake to crack.)\nPlace cupcake paper liners into a muffin tin pan. Add one Oreo cookie into each paper cup. Set aside.\nAdd softened cream cheese and sugar to a medium mixing bowl. Beat on medium speed using a hand mixer.\nThen add vanilla and eggs. Mixing well until smooth without lumps.\nAdd sour cream, mix until combined. Tap bowl against your countertop a few times to release any large air bubbles.\nStir in chopped cookies, and mix generally using a spatula. (Be careful not to crush oreos into smaller crumbs.)\nSpoon the batter on top of the oreo, filling each to almost the top. Note that cheesecake won't rise as much as a regular cupcake.\nPlace in the lower third of the oven and bake for about 20-25 minutes until the edges just start to turn brown. Note that classic cheesecake is supposed to look pale, so you're not looking for golden brown.\nRemove from oven and transfer to cooling racks.\nChill in the fridge for 4 hours or overnight. Serve and enjoy! (You can store them in the fridge for up to 5 days.)",
-  "instructions_list": [
-    "Preheat oven to 325°F. (Make sure your oven temperature is accurate, as a higher temp can cause the cheesecake to crack.)",
-    "Place cupcake paper liners into a muffin tin pan. Add one Oreo cookie into each paper cup. Set aside.",
-    "Add softened cream cheese and sugar to a medium mixing bowl. Beat on medium speed using a hand mixer.",
-    "Then add vanilla and eggs. Mixing well until smooth without lumps.",
-    "Add sour cream, mix until combined. Tap bowl against your countertop a few times to release any large air bubbles.",
-    "Stir in chopped cookies, and mix generally using a spatula. (Be careful not to crush oreos into smaller crumbs.)",
-    "Spoon the batter on top of the oreo, filling each to almost the top. Note that cheesecake won't rise as much as a regular cupcake.",
-    "Place in the lower third of the oven and bake for about 20-25 minutes until the edges just start to turn brown. Note that classic cheesecake is supposed to look pale, so you're not looking for golden brown.",
-    "Remove from oven and transfer to cooling racks.",
-    "Chill in the fridge for 4 hours or overnight. Serve and enjoy! (You can store them in the fridge for up to 5 days.)"
-  ],
-  "language": "en-CA",
+  "total_time": 35,
+  "prep_time": 10,
+  "cook_time": 25,
+  "yields": "16 servings",
+  "image": "https://izzycooking.com/wp-content/uploads/2018/06/Oreo-Cheesecake-Bites-Featured-Image.jpg",
+  "description": "Oreo Cheesecake Bites are creamy and soft mini cheesecakes with a delicious oreo crust at the bottom. They are so easy to make and a guaranteed hit at any party.",
   "nutrients": {
     "carbohydrateContent": "19 g",
     "proteinContent": "3 g",
@@ -53,17 +45,25 @@
     "calories": "221 kcal",
     "servingSize": "1 serving"
   },
-  "ratings": 4.93,
-  "ratings_count": 13,
-  "site_name": "IzzyCooking",
-  "title": "Oreo Cheesecake Bites Recipe (+Video)",
-  "total_time": 35,
-  "yields": "16 servings",
-  "cook_time": 25,
-  "prep_time": 10,
+  "cuisine": "American",
+  "category": "Dessert",
   "keywords": [
     "mini cheesecakes",
     "oreo cheesecake bites",
     "oreo cheesecake cupcakes"
+  ],
+  "ratings": 4.93,
+  "ratings_count": 13,
+  "instructions_list": [
+    "Preheat oven to 325°F. (Make sure your oven temperature is accurate, as a higher temp can cause the cheesecake to crack.)",
+    "Place cupcake paper liners into a muffin tin pan. Add one Oreo cookie into each paper cup. Set aside.",
+    "Add softened cream cheese and sugar to a medium mixing bowl. Beat on medium speed using a hand mixer.",
+    "Then add vanilla and eggs. Mixing well until smooth without lumps.",
+    "Add sour cream, mix until combined. Tap bowl against your countertop a few times to release any large air bubbles.",
+    "Stir in chopped cookies, and mix generally using a spatula. (Be careful not to crush oreos into smaller crumbs.)",
+    "Spoon the batter on top of the oreo, filling each to almost the top. Note that cheesecake won't rise as much as a regular cupcake.",
+    "Place in the lower third of the oven and bake for about 20-25 minutes until the edges just start to turn brown. Note that classic cheesecake is supposed to look pale, so you're not looking for golden brown.",
+    "Remove from oven and transfer to cooling racks.",
+    "Chill in the fridge for 4 hours or overnight. Serve and enjoy! (You can store them in the fridge for up to 5 days.)"
   ]
 }

@@ -1,8 +1,22 @@
 {
-  "canonical_url": "https://en.wikibooks.org/wiki/Cookbook:Pumpkin_Pie",
-  "description": "Pumpkin pie is a traditional American and Canadian holiday dessert. It consists of a pumpkin-based custard baked in a single pie shell. The pie is traditionally served with whipped cream.",
   "host": "en.wikibooks.org",
-  "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Pumpkin_Pie.jpg/300px-Pumpkin_Pie.jpg",
+  "canonical_url": "https://en.wikibooks.org/wiki/Cookbook:Pumpkin_Pie",
+  "site_name": null,
+  "language": "en",
+  "title": "Pumpkin Pie",
+  "ingredients": [
+    "2 cups (480ml) milk, scalded",
+    "2 cups (450g) pumpkin, cooked and strained (or plain canned pumpkin). Use the smaller 'Sugar Pumpkin' instead of the big 'Jack O Lantern' pumpkin. The smaller 'Sugar Pumpkin' has a firm and smooth texture while the larger 'Jack O Lantern' pumpkin has more stringy or fibrous texture and more watery for a flesh.",
+    "1 cup (240ml) maple syrup",
+    "1/8 cup (30g) sugar",
+    "1 Tbsp. flour",
+    "½ tsp. salt",
+    "1 tsp. ginger",
+    "1 tsp. cinnamon",
+    "1/4 tsp. nutmeg (optional)",
+    "2 large eggs, beaten",
+    "1 unbaked nine-inch pie shell"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,30 +35,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups (480ml) milk, scalded",
-    "2 cups (450g) pumpkin, cooked and strained (or plain canned pumpkin). Use the smaller 'Sugar Pumpkin' instead of the big 'Jack O Lantern' pumpkin. The smaller 'Sugar Pumpkin' has a firm and smooth texture while the larger 'Jack O Lantern' pumpkin has more stringy or fibrous texture and more watery for a flesh.",
-    "1 cup (240ml) maple syrup",
-    "1/8 cup (30g) sugar",
-    "1 Tbsp. flour",
-    "½ tsp. salt",
-    "1 tsp. ginger",
-    "1 tsp. cinnamon",
-    "1/4 tsp. nutmeg (optional)",
-    "2 large eggs, beaten",
-    "1 unbaked nine-inch pie shell"
-  ],
   "instructions": "Preheat oven to 350 °F (180 °C).\nBlend all ingredients, except the pie shell, together.\nPour into the unbaked pie shell.\nBake at 350 °F (180 °C) for 45 minutes.\nLet cool and serve.",
+  "total_time": 60,
+  "yields": "8 servings",
+  "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Pumpkin_Pie.jpg/300px-Pumpkin_Pie.jpg",
+  "description": "Pumpkin pie is a traditional American and Canadian holiday dessert. It consists of a pumpkin-based custard baked in a single pie shell. The pie is traditionally served with whipped cream.",
   "instructions_list": [
     "Preheat oven to 350 °F (180 °C).",
     "Blend all ingredients, except the pie shell, together.",
     "Pour into the unbaked pie shell.",
     "Bake at 350 °F (180 °C) for 45 minutes.",
     "Let cool and serve."
-  ],
-  "language": "en",
-  "site_name": null,
-  "title": "Pumpkin Pie",
-  "total_time": 60,
-  "yields": "8 servings"
+  ]
 }

@@ -1,9 +1,30 @@
 {
-  "author": "nash",
-  "canonical_url": "http://www.afghankitchenrecipes.com/recipe/mantu-beef-dumplings/",
-  "category": null,
   "host": "afghankitchenrecipes.com",
-  "image": "http://www.afghankitchenrecipes.com/wp-content/uploads/2014/04/manto4-250x212.jpg",
+  "canonical_url": "http://www.afghankitchenrecipes.com/recipe/mantu-beef-dumplings/",
+  "site_name": null,
+  "author": "nash",
+  "language": "en-US",
+  "title": "Mantu (Beef Dumplings)",
+  "ingredients": [
+    "2 cups of Onions",
+    "1 pound of Ground Beef/Lamb",
+    "½ tsp. Garlic",
+    "2 tsp. Coriander Powder",
+    "½ tsp. Salt",
+    "½ tsp. Black Pepper Powder (freshly ground)",
+    "1 cup Chana Lentils",
+    "½ pound Ground Beef/Lamb",
+    "1 medium Onion (finely chopped)",
+    "½ tsp. Garlic",
+    "½ tsp. Salt",
+    "½ tsp. Black Pepper Powder (freshly ground)",
+    "2 tsp. Tomato Paste",
+    "30 ml. Cooking Oil",
+    "1 tsp. Dried Mint Leaves",
+    "½ tsp. Garlic",
+    "½ tsp. Salt",
+    "500 ml. Plain Yogurt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,27 +50,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups of Onions",
-    "1 pound of Ground Beef/Lamb",
-    "½ tsp. Garlic",
-    "2 tsp. Coriander Powder",
-    "½ tsp. Salt",
-    "½ tsp. Black Pepper Powder (freshly ground)",
-    "1 cup Chana Lentils",
-    "½ pound Ground Beef/Lamb",
-    "1 medium Onion (finely chopped)",
-    "½ tsp. Garlic",
-    "½ tsp. Salt",
-    "½ tsp. Black Pepper Powder (freshly ground)",
-    "2 tsp. Tomato Paste",
-    "30 ml. Cooking Oil",
-    "1 tsp. Dried Mint Leaves",
-    "½ tsp. Garlic",
-    "½ tsp. Salt",
-    "500 ml. Plain Yogurt"
-  ],
   "instructions": "Heat pan over a medium heat and add garlic, ground beef and salt and coriander. Cook until the meat is half-way cooked for about 15 to 20 minutes.\nAdd black pepper and remove from heat.\nCombine one cup of raw chopped onions to the meat and let it cool down to room temperature\nSoak split peas for 2–3 hours or overnight.\nHeat oil in a frying pan and cook onion and garlic until lightly browned.\nAdd tomato and tomato paste. Add split peas and ¾ cup water and cook for 30–45 minutes until soft.\nSeason with salt and pepper and set aside.\nCombine all of the ingredients for dip in a bowl and mix well.\nPlace flour in a large mixing bowl and gradually add water, mixing with hands until it becomes doughy.\nLeave the dough to settle for 15–20 minutes or until it becomes firm.\nSeparate dough into small handfuls and roll into individual ball shapes.\nScatter some flour on the bench surface and using a small rolling pin, roll the balls into circular shapes.\nRoll the dough ball into a very thin (1/16-inch) strips using a pasta machine. Cut the strips into 2-inch squares.\nPlace approximately one tablespoon of the cooled ground beef and onion mixture onto each wrap. To make the wraps stick together easily, wet the edges with water (you may use your fingers or a basting brush).\nFold over first two opposite ends of the egg roll wrap and followed by other two ends to enclose dumplings. Press the edges tightly to seal together. Continue with the remaining wraps.\nTake the racks out of the steamer dish. Add water to the dish, cover and bring to boil.\nOil the base of steamer to prevent sticking and place dumplings carefully across oil.\nCover lid and cook for approximately 40 minutes.\nWhen the dumplings have cooked, add a thin layer of the yogurt mixture to a large serving plate. Place the steamed dumplings on top.\nPour some more of the yogurt mixture on top of the dumplings and coat everything with the the topping sauce.\nGarnish with dried mint and a little bit of cayenne pepper.",
+  "total_time": 75,
+  "yields": "4 servings",
+  "image": "http://www.afghankitchenrecipes.com/wp-content/uploads/2014/04/manto4-250x212.jpg",
+  "category": null,
+  "ratings": 2.8,
   "instructions_list": [
     "Heat pan over a medium heat and add garlic, ground beef and salt and coriander. Cook until the meat is half-way cooked for about 15 to 20 minutes.",
     "Add black pepper and remove from heat.",
@@ -72,11 +78,5 @@
     "When the dumplings have cooked, add a thin layer of the yogurt mixture to a large serving plate. Place the steamed dumplings on top.",
     "Pour some more of the yogurt mixture on top of the dumplings and coat everything with the the topping sauce.",
     "Garnish with dried mint and a little bit of cayenne pepper."
-  ],
-  "language": "en-US",
-  "ratings": 2.8,
-  "site_name": null,
-  "title": "Mantu (Beef Dumplings)",
-  "total_time": 75,
-  "yields": "4 servings"
+  ]
 }

@@ -1,9 +1,28 @@
 {
-  "author": "Kaleigh",
-  "canonical_url": "https://livelytable.com/easy-chipotle-shrimp-tacos/",
-  "category": "main dish",
   "host": "livelytable.com",
-  "image": "https://livelytable.com/wp-content/uploads/2017/05/chipotle-shrimp-tacos-225x225.jpg",
+  "canonical_url": "https://livelytable.com/easy-chipotle-shrimp-tacos/",
+  "site_name": "Lively Table",
+  "author": "Kaleigh",
+  "language": "en-US",
+  "title": "Easy Chipotle Shrimp Tacos",
+  "ingredients": [
+    "1 lb raw large shrimp, peeled and deveined",
+    "1/2 tsp chipotle powder",
+    "1/2 tsp garlic powder",
+    "1/2 tsp ground cumin",
+    "1 tbsp olive or avocado oil",
+    "Juice from 1/2 lime",
+    "1/2 jalapeño, seeded and diced",
+    "1/4 cup cilantro leaves",
+    "2/3 cup nonfat plain greek yogurt",
+    "Juice from 1/2 lime",
+    "6 corn tortillas, warmed",
+    "Shredded purple cabbage",
+    "Cilantro",
+    "Crumbled cotija cheese",
+    "Lime wedges",
+    "Guacamole or diced avocado"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -37,34 +56,13 @@
       "purpose": "For serving:"
     }
   ],
-  "ingredients": [
-    "1 lb raw large shrimp, peeled and deveined",
-    "1/2 tsp chipotle powder",
-    "1/2 tsp garlic powder",
-    "1/2 tsp ground cumin",
-    "1 tbsp olive or avocado oil",
-    "Juice from 1/2 lime",
-    "1/2 jalapeño, seeded and diced",
-    "1/4 cup cilantro leaves",
-    "2/3 cup nonfat plain greek yogurt",
-    "Juice from 1/2 lime",
-    "6 corn tortillas, warmed",
-    "Shredded purple cabbage",
-    "Cilantro",
-    "Crumbled cotija cheese",
-    "Lime wedges",
-    "Guacamole or diced avocado"
-  ],
   "instructions": "Place shrimp in a medium, nonreactive bowl.\nIn a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.\nIn a food processor or blender, combine jalapeño, cilantro, yogurt, and lime juice. Process until smooth and pour into a small bowl for serving.\nPrepare remaining taco toppings.\nHeat a large non-stick skillet over medium heat. Add shrimp and cook about 3 minutes per side or until cooked through.\nServe with warm corn tortillas and top as desired. Enjoy!",
-  "instructions_list": [
-    "Place shrimp in a medium, nonreactive bowl.",
-    "In a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.",
-    "In a food processor or blender, combine jalapeño, cilantro, yogurt, and lime juice. Process until smooth and pour into a small bowl for serving.",
-    "Prepare remaining taco toppings.",
-    "Heat a large non-stick skillet over medium heat. Add shrimp and cook about 3 minutes per side or until cooked through.",
-    "Serve with warm corn tortillas and top as desired. Enjoy!"
-  ],
-  "language": "en-US",
+  "total_time": 15,
+  "prep_time": 10,
+  "cook_time": 5,
+  "yields": "6 servings",
+  "image": "https://livelytable.com/wp-content/uploads/2017/05/chipotle-shrimp-tacos-225x225.jpg",
+  "description": "These easy chipotle shrimp tacos with a quick cilantro jalapeño sauce are flavorful, healthy and come together in just 15 minutes! They're perfect for weeknight dinners! (gluten-free)",
   "nutrients": {
     "servingSize": "1 taco",
     "calories": "147 calories",
@@ -78,18 +76,20 @@
     "proteinContent": "21.4 g",
     "cholesterolContent": "144.7 mg"
   },
-  "site_name": "Lively Table",
-  "title": "Easy Chipotle Shrimp Tacos",
-  "total_time": 15,
-  "yields": "6 servings",
+  "cuisine": "Tex-mex",
+  "category": "main dish",
   "keywords": [
     "chipotle shrimp tacos",
     "easy chipotle shrimp tacos",
     "healthy shrimp tacos recipe"
   ],
   "cooking_method": "stovetop",
-  "description": "These easy chipotle shrimp tacos with a quick cilantro jalapeño sauce are flavorful, healthy and come together in just 15 minutes! They're perfect for weeknight dinners! (gluten-free)",
-  "cook_time": 5,
-  "cuisine": "Tex-mex",
-  "prep_time": 10
+  "instructions_list": [
+    "Place shrimp in a medium, nonreactive bowl.",
+    "In a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.",
+    "In a food processor or blender, combine jalapeño, cilantro, yogurt, and lime juice. Process until smooth and pour into a small bowl for serving.",
+    "Prepare remaining taco toppings.",
+    "Heat a large non-stick skillet over medium heat. Add shrimp and cook about 3 minutes per side or until cooked through.",
+    "Serve with warm corn tortillas and top as desired. Enjoy!"
+  ]
 }

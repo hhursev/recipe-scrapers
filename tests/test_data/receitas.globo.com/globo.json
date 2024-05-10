@@ -1,9 +1,20 @@
 {
-  "author": "Alm3",
-  "canonical_url": "https://receitas.globo.com/tipos-de-prato/aves/strogonoff-de-frango-simples-4fbe8cc656ec5b3c9801b7e5.ghtml",
-  "category": "Aves",
   "host": "receitas.globo.com",
-  "image": "https://s2-receitas.glbimg.com/hXxPtwuPHqQUp2w3pdklGQHBznM=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/8/O/xH9h1GSnW1LhMobyL7hQ/strogonoff-de-frango-receita.jpg",
+  "canonical_url": "https://receitas.globo.com/tipos-de-prato/aves/strogonoff-de-frango-simples-4fbe8cc656ec5b3c9801b7e5.ghtml",
+  "site_name": "Receitas",
+  "author": "Alm3",
+  "language": "pt-br",
+  "title": "Strogonoff de frango",
+  "ingredients": [
+    "3 colheres de sopa de óleo",
+    "1 tablete de caldo de galinha",
+    "1 quilo de peito de frango em cubos",
+    "2 colheres de sopa de molho de tomate",
+    "2 colheres de sopa de mostarda",
+    "2 colheres de sopa de ketchup",
+    "Champignon a gosto",
+    "1 lata de creme de leite sem soro"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,32 +30,21 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 colheres de sopa de óleo",
-    "1 tablete de caldo de galinha",
-    "1 quilo de peito de frango em cubos",
-    "2 colheres de sopa de molho de tomate",
-    "2 colheres de sopa de mostarda",
-    "2 colheres de sopa de ketchup",
-    "Champignon a gosto",
-    "1 lata de creme de leite sem soro"
-  ],
   "instructions": "1 Em uma panela, coloque 3 colheres de sopa de óleo e 1 tablete de caldo de galinha. Espere aquecer para dissolver o tablete.\n2 Em seguida, adicione 1 quilo de peito de frango em cubos e deixe dourar.\n3 Depois, acrescente 2 colheres de sopa de molho de tomate, 2 colheres de sopa de mostarda, 2 colheres de sopa de ketchup e champignon a gosto. Misture.\n4 Desligue o fogo e acrescente 1 lata de creme de leite. Misture novamente.\n5 Sirva em seguida.",
+  "total_time": 50,
+  "yields": "8 servings",
+  "image": "https://s2-receitas.glbimg.com/hXxPtwuPHqQUp2w3pdklGQHBznM=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/8/O/xH9h1GSnW1LhMobyL7hQ/strogonoff-de-frango-receita.jpg",
+  "description": "O strogonoff de frango simples leva creme de leite, champignon, ketchup, mostarda, molho de tomate, caldo de galinha, óleo e peito de frango.",
+  "cuisine": "Brasileira",
+  "category": "Aves",
+  "cooking_method": "Cozido",
+  "ratings": 4.9,
+  "ratings_count": 2,
   "instructions_list": [
     "1 Em uma panela, coloque 3 colheres de sopa de óleo e 1 tablete de caldo de galinha. Espere aquecer para dissolver o tablete.",
     "2 Em seguida, adicione 1 quilo de peito de frango em cubos e deixe dourar.",
     "3 Depois, acrescente 2 colheres de sopa de molho de tomate, 2 colheres de sopa de mostarda, 2 colheres de sopa de ketchup e champignon a gosto. Misture.",
     "4 Desligue o fogo e acrescente 1 lata de creme de leite. Misture novamente.",
     "5 Sirva em seguida."
-  ],
-  "language": "pt-br",
-  "ratings": 4.9,
-  "site_name": "Receitas",
-  "title": "Strogonoff de frango",
-  "total_time": 50,
-  "yields": "8 servings",
-  "cooking_method": "Cozido",
-  "description": "O strogonoff de frango simples leva creme de leite, champignon, ketchup, mostarda, molho de tomate, caldo de galinha, óleo e peito de frango.",
-  "cuisine": "Brasileira",
-  "ratings_count": 2
+  ]
 }

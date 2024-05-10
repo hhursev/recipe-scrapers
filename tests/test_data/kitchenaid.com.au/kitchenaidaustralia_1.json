@@ -1,9 +1,10 @@
 {
-  "author": "KitchenAid",
-  "canonical_url": "https://kitchenaid.com.au/blogs/kitchenthusiast/hot-cross-buns",
   "host": "kitchenaid.com.au",
-  "description": "An everyday classic Easter treat! Ben Milbourne shares his recipe for hot cross buns, filled with fruit and spices. Serve fresh with a dollop of butter! Explore our Easter dessert and lunch recipe ideas too!",
-  "image": "https://kitchenaid.com.au/cdn/shop/articles/1U9A1839_BM_1_1356x.jpg?v=1649313257",
+  "canonical_url": "https://kitchenaid.com.au/blogs/kitchenthusiast/hot-cross-buns",
+  "site_name": "KitchenAid Australia",
+  "author": "KitchenAid",
+  "language": "en",
+  "title": "Hot Cross Buns",
   "ingredients": [
     "4 cups plain flour",
     "¼ cup caster sugar",
@@ -58,6 +59,11 @@
     }
   ],
   "instructions": "Pre-heated oven to 220 degrees\nUsing the KitchenAid Sifter + Scale Attachment, sift flour, sugar, salt and spices into KitchenAid stand mixer bowl with dough hook attachment.\nAdd yeast\nIn a saucepan heat the milk over a low temperature, add butter, stir until melted\nAdd milk and butter mixture to dry mix and turn stand mixer to level 2 until mixed thoroughly. Add the eggs and then the dried fruit continue mixing for 3-4 minutes until the dough is smooth and no longer sticky.\nRemove bowl from mixer, shape dough into a ball and cover with plastic wrap and place in a warm spot to prove for 1 hour or until doubled in size.\nPortion dough into 12 equal sized buns, placed closely together on a greased baking tray. Leave to rise for 1 hour\nTo make the crosses, mix the flour and water thoroughly to form a thick paste. Spoon into a piping bag and pipe the paste in crosses on the buns\nBake in oven for 20 minutes or until golden\nMix glaze ingredients together until sugar has dissolved. Brush glaze over buns while still hot.",
+  "total_time": 80,
+  "yields": "12 servings",
+  "image": "https://kitchenaid.com.au/cdn/shop/articles/1U9A1839_BM_1_1356x.jpg?v=1649313257",
+  "description": "An everyday classic Easter treat! Ben Milbourne shares his recipe for hot cross buns, filled with fruit and spices. Serve fresh with a dollop of butter! Explore our Easter dessert and lunch recipe ideas too!",
+  "category": "Dessert",
   "instructions_list": [
     "Pre-heated oven to 220 degrees",
     "Using the KitchenAid Sifter + Scale Attachment, sift flour, sugar, salt and spices into KitchenAid stand mixer bowl with dough hook attachment.",
@@ -69,11 +75,5 @@
     "To make the crosses, mix the flour and water thoroughly to form a thick paste. Spoon into a piping bag and pipe the paste in crosses on the buns",
     "Bake in oven for 20 minutes or until golden",
     "Mix glaze ingredients together until sugar has dissolved. Brush glaze over buns while still hot."
-  ],
-  "language": "en",
-  "site_name": "KitchenAid Australia",
-  "title": "Hot Cross Buns",
-  "total_time": 80,
-  "yields": "12 servings",
-  "category": "Dessert"
+  ]
 }

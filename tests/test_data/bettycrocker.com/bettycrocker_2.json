@@ -1,9 +1,21 @@
 {
-  "author": "Jessica Walker",
-  "canonical_url": "https://www.bettycrocker.com/recipes/strawberry-pretzel-salad/376aa27c-19a2-4114-9c80-20a431fc269b",
-  "category": "Dessert",
   "host": "bettycrocker.com",
-  "image": "https://images-gmi-pmc.edge-generalmills.com/6ec084f7-ffd9-4df2-8302-877825ecc321.jpg",
+  "canonical_url": "https://www.bettycrocker.com/recipes/strawberry-pretzel-salad/376aa27c-19a2-4114-9c80-20a431fc269b",
+  "site_name": "BettyCrocker.com",
+  "author": "Jessica Walker",
+  "language": "en",
+  "title": "Strawberry-Pretzel Salad",
+  "ingredients": [
+    "2 packages (4-serving size each) Jell-O® strawberry-flavored gelatin",
+    "2 cups boiling water",
+    "2 boxes (16 oz each) frozen sweetened strawberries, thawed",
+    "2 cups pretzels, crushed",
+    "3/4 cup butter, melted",
+    "3 tablespoons sugar",
+    "1 container (8 oz) Cool Whip frozen whipped topping, thawed",
+    "1 package (8 oz) cream cheese, softened",
+    "1 cup sugar"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,25 +42,12 @@
       "purpose": "Filling"
     }
   ],
-  "ingredients": [
-    "2 packages (4-serving size each) Jell-O® strawberry-flavored gelatin",
-    "2 cups boiling water",
-    "2 boxes (16 oz each) frozen sweetened strawberries, thawed",
-    "2 cups pretzels, crushed",
-    "3/4 cup butter, melted",
-    "3 tablespoons sugar",
-    "1 container (8 oz) Cool Whip frozen whipped topping, thawed",
-    "1 package (8 oz) cream cheese, softened",
-    "1 cup sugar"
-  ],
   "instructions": "Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.\nHeat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.\nIn medium bowl, beat Filling ingredients with electric mixer on medium speed until smooth. Spread over cooled crust. Cover and refrigerate until cool and gelatin topping in bowl is partially set.\nCarefully spoon gelatin topping over filling. Refrigerate 4 to 6 hours or until firm. To serve, cut into 4 rows by 3 rows.",
-  "instructions_list": [
-    "Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.",
-    "Heat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.",
-    "In medium bowl, beat Filling ingredients with electric mixer on medium speed until smooth. Spread over cooled crust. Cover and refrigerate until cool and gelatin topping in bowl is partially set.",
-    "Carefully spoon gelatin topping over filling. Refrigerate 4 to 6 hours or until firm. To serve, cut into 4 rows by 3 rows."
-  ],
-  "language": "en",
+  "total_time": 400,
+  "prep_time": 20,
+  "yields": "12 servings",
+  "image": "https://images-gmi-pmc.edge-generalmills.com/6ec084f7-ffd9-4df2-8302-877825ecc321.jpg",
+  "description": "This phenomenal berry dish is a great option if you need a sweet treat and your oven is already full of tasty dishes. The irresistible blend of creamy, crunchy, sweet and salty makes it a hit for any season and occasion. With a little prep and refrigeration time, you'll be enjoying your Strawberry Pretzel Salad as the perfect after-meal dessert.",
   "nutrients": {
     "calories": "480",
     "carbohydrateContent": "66 g",
@@ -62,15 +61,16 @@
     "sugarContent": "53 g",
     "transFatContent": "1/2 g"
   },
-  "ratings": 4.5,
-  "ratings_count": 96,
-  "site_name": "BettyCrocker.com",
-  "title": "Strawberry-Pretzel Salad",
-  "total_time": 400,
-  "yields": "12 servings",
+  "category": "Dessert",
   "keywords": [
     "strawberry-pretzel salad"
   ],
-  "description": "This phenomenal berry dish is a great option if you need a sweet treat and your oven is already full of tasty dishes. The irresistible blend of creamy, crunchy, sweet and salty makes it a hit for any season and occasion. With a little prep and refrigeration time, you'll be enjoying your Strawberry Pretzel Salad as the perfect after-meal dessert.",
-  "prep_time": 20
+  "ratings": 4.5,
+  "ratings_count": 96,
+  "instructions_list": [
+    "Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.",
+    "Heat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.",
+    "In medium bowl, beat Filling ingredients with electric mixer on medium speed until smooth. Spread over cooled crust. Cover and refrigerate until cool and gelatin topping in bowl is partially set.",
+    "Carefully spoon gelatin topping over filling. Refrigerate 4 to 6 hours or until firm. To serve, cut into 4 rows by 3 rows."
+  ]
 }

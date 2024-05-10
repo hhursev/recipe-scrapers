@@ -1,10 +1,19 @@
 {
-  "author": "MatPrat",
-  "canonical_url": "https://www.matprat.no/oppskrifter/sunn/mangosalat/",
-  "category": "Tilbehør",
-  "description": "Enkel mangosalat med smak av chili, lime og koriander. Mangosalaten er godt tilbehør til sommermat som ferske reker, grillet laks, kylling, sommerkoteletter og annen god grillmat.",
   "host": "matprat.no",
-  "image": "https://images.matprat.no/5qallzq3pg",
+  "canonical_url": "https://www.matprat.no/oppskrifter/sunn/mangosalat/",
+  "site_name": null,
+  "author": "MatPrat",
+  "language": "no",
+  "title": "Mangosalat",
+  "ingredients": [
+    "2 stk. modne mango",
+    "0,5 stk. rødløk",
+    "1 rød chili",
+    "0,5 pk ruccula",
+    "1 stk. lime",
+    "0,5 bunt frisk koriander",
+    "0,5 potte frisk mynte"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,21 +28,11 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 stk. modne mango",
-    "0,5 stk. rødløk",
-    "1 rød chili",
-    "0,5 pk ruccula",
-    "1 stk. lime",
-    "0,5 bunt frisk koriander",
-    "0,5 potte frisk mynte"
-  ],
   "instructions": "Skrell og del mango i små terninger. Kutt rødløk i syltynne skiver og finhakk chili.\nBland sammen mangobiter, rødløk, chili og ruccola i en vid bolle. Press over limesaft og press over limesaft.",
-  "instructions_list": [
-    "Skrell og del mango i små terninger. Kutt rødløk i syltynne skiver og finhakk chili.",
-    "Bland sammen mangobiter, rødløk, chili og ruccola i en vid bolle. Press over limesaft og press over limesaft."
-  ],
-  "language": "no",
+  "total_time": 20,
+  "yields": "4 servings",
+  "image": "https://images.matprat.no/5qallzq3pg",
+  "description": "Enkel mangosalat med smak av chili, lime og koriander. Mangosalaten er godt tilbehør til sommermat som ferske reker, grillet laks, kylling, sommerkoteletter og annen god grillmat.",
   "nutrients": {
     "Energi": "281 kcal",
     "Fett": "11,5 g",
@@ -41,13 +40,8 @@
     "Karbohydrater": "38,15 g",
     "Jern": "1,1 mg"
   },
-  "ratings": 4.85,
-  "ratings_count": 27,
-  "site_name": null,
-  "title": "Mangosalat",
-  "total_time": 20,
-  "yields": "4 servings",
   "cuisine": "Internasjonal",
+  "category": "Tilbehør",
   "keywords": [
     "mangosalat med lime",
     "mango",
@@ -56,5 +50,11 @@
     "olivenolje",
     "salt",
     "pepper"
+  ],
+  "ratings": 4.85,
+  "ratings_count": 27,
+  "instructions_list": [
+    "Skrell og del mango i små terninger. Kutt rødløk i syltynne skiver og finhakk chili.",
+    "Bland sammen mangobiter, rødløk, chili og ruccola i en vid bolle. Press over limesaft og press over limesaft."
   ]
 }

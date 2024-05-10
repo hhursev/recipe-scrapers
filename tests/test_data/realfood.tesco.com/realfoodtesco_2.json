@@ -1,9 +1,21 @@
 {
-  "author": "Tesco Real Food",
-  "canonical_url": "https://realfood.tesco.com/recipes/bbq-cauliflower-steaks-and-herb-sauce.html",
-  "category": "Lunch",
   "host": "realfood.tesco.com",
-  "image": "https://realfood.tesco.com/media/images/RFO-1400x919-CauliflowerSteaks-9b3cfef8-bc5e-4d41-b25b-1341fa3db1e0-0-1400x919.jpg",
+  "canonical_url": "https://realfood.tesco.com/recipes/bbq-cauliflower-steaks-and-herb-sauce.html",
+  "site_name": "Tesco Real Food",
+  "author": "Tesco Real Food",
+  "language": "en",
+  "title": "BBQ cauliflower steaks and herb sauce",
+  "ingredients": [
+    "2 cauliflowers, outer leaves removed",
+    "6 tbsp extra virgin olive oil",
+    "1 tsp caraway seeds",
+    "2 garlic cloves, crushed",
+    "30g fresh basil, finely chopped",
+    "30g fresh parsley, finely chopped",
+    "3 spring onions, trimmed and finely chopped",
+    "1 green chilli, finely chopped",
+    "1-2 lemons"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,26 +37,13 @@
       "purpose": "For the herb sauce"
     }
   ],
-  "ingredients": [
-    "2 cauliflowers, outer leaves removed",
-    "6 tbsp extra virgin olive oil",
-    "1 tsp caraway seeds",
-    "2 garlic cloves, crushed",
-    "30g fresh basil, finely chopped",
-    "30g fresh parsley, finely chopped",
-    "3 spring onions, trimmed and finely chopped",
-    "1 green chilli, finely chopped",
-    "1-2 lemons"
-  ],
   "instructions": "Preheat the barbecue. Trim the base of the cauliflowers so that they sit flat, then cut into 2cm-thick slices (see Tip, below).\nIn a small bowl, mix together 3 tbsp of the oil with the caraway seeds and garlic. Season, then brush the oil all over the cauliflower steaks.\nCook on the preheated barbecue, away from the main heat, for 5-6 mins on each side until charred and just tender. Alternatively, cook the steaks (2 at a time, depending on their size) in a griddle pan over a medium-low heat for the same time.\nMeanwhile, mix together the chopped herbs, spring onions, chilli and remaining 3 tbsp of oil in a small bowl. Squeeze in the juice of ½ a lemon and taste – add a little more lemon juice or oil to taste. Season.\nDrizzle the herb sauce over the steaks and serve with the remaining lemon cut into wedges.",
-  "instructions_list": [
-    "Preheat the barbecue. Trim the base of the cauliflowers so that they sit flat, then cut into 2cm-thick slices (see Tip, below).",
-    "In a small bowl, mix together 3 tbsp of the oil with the caraway seeds and garlic. Season, then brush the oil all over the cauliflower steaks.",
-    "Cook on the preheated barbecue, away from the main heat, for 5-6 mins on each side until charred and just tender. Alternatively, cook the steaks (2 at a time, depending on their size) in a griddle pan over a medium-low heat for the same time.",
-    "Meanwhile, mix together the chopped herbs, spring onions, chilli and remaining 3 tbsp of oil in a small bowl. Squeeze in the juice of ½ a lemon and taste – add a little more lemon juice or oil to taste. Season.",
-    "Drizzle the herb sauce over the steaks and serve with the remaining lemon cut into wedges."
-  ],
-  "language": "en",
+  "total_time": 22,
+  "prep_time": 10,
+  "cook_time": 12,
+  "yields": "4 servings",
+  "image": "https://realfood.tesco.com/media/images/RFO-1400x919-CauliflowerSteaks-9b3cfef8-bc5e-4d41-b25b-1341fa3db1e0-0-1400x919.jpg",
+  "description": "BBQ season doesn’t have to just be about meat as these smoky charred cauliflower steaks show. A simple vegan BBQ idea, the steaks are brushed with an aromatic caraway and garlic oil before being grilled and served with a punchy fresh herb dressing.",
   "nutrients": {
     "calories": "247 calories",
     "fatContent": "18 grams fat",
@@ -54,14 +53,15 @@
     "fiberContent": "5.6 grams fibre",
     "proteinContent": "8.5 grams protein"
   },
+  "cuisine": "Global",
+  "category": "Lunch",
   "ratings": 5.0,
   "ratings_count": 13,
-  "site_name": "Tesco Real Food",
-  "title": "BBQ cauliflower steaks and herb sauce",
-  "total_time": 22,
-  "yields": "4 servings",
-  "description": "BBQ season doesn’t have to just be about meat as these smoky charred cauliflower steaks show. A simple vegan BBQ idea, the steaks are brushed with an aromatic caraway and garlic oil before being grilled and served with a punchy fresh herb dressing.",
-  "cook_time": 12,
-  "cuisine": "Global",
-  "prep_time": 10
+  "instructions_list": [
+    "Preheat the barbecue. Trim the base of the cauliflowers so that they sit flat, then cut into 2cm-thick slices (see Tip, below).",
+    "In a small bowl, mix together 3 tbsp of the oil with the caraway seeds and garlic. Season, then brush the oil all over the cauliflower steaks.",
+    "Cook on the preheated barbecue, away from the main heat, for 5-6 mins on each side until charred and just tender. Alternatively, cook the steaks (2 at a time, depending on their size) in a griddle pan over a medium-low heat for the same time.",
+    "Meanwhile, mix together the chopped herbs, spring onions, chilli and remaining 3 tbsp of oil in a small bowl. Squeeze in the juice of ½ a lemon and taste – add a little more lemon juice or oil to taste. Season.",
+    "Drizzle the herb sauce over the steaks and serve with the remaining lemon cut into wedges."
+  ]
 }

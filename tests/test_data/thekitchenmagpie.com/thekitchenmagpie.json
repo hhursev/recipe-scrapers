@@ -1,9 +1,21 @@
 {
-  "author": "Karlynn Johnston",
-  "canonical_url": "https://www.thekitchenmagpie.com/salmon-loaf/",
-  "category": "Main Course",
   "host": "thekitchenmagpie.com",
-  "image": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2021/02/salmonloafonplate.jpg",
+  "canonical_url": "https://www.thekitchenmagpie.com/salmon-loaf/",
+  "site_name": "The Kitchen Magpie",
+  "author": "Karlynn Johnston",
+  "language": "en-US",
+  "title": "Salmon Loaf",
+  "ingredients": [
+    "16 ounces of canned salmon (drained)",
+    "1 cup seasoned fine breadcrumbs",
+    "½ cup onion (finely chopped)",
+    "1 tsp dill weed",
+    "1/2 cup milk",
+    "2 large eggs (beaten)",
+    "1 tablespoon lemon juice",
+    "½ tsp salt",
+    "¼ tsp black pepper"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,27 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "16 ounces of canned salmon (drained)",
-    "1 cup seasoned fine breadcrumbs",
-    "½ cup onion (finely chopped)",
-    "1 tsp dill weed",
-    "1/2 cup milk",
-    "2 large eggs (beaten)",
-    "1 tablespoon lemon juice",
-    "½ tsp salt",
-    "¼ tsp black pepper"
-  ],
   "instructions": "Preheat your oven to 375 °F. Grease a baking sheet and set aside.\nDrain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.\nFlake the salmon with a fork and then mix with the breadcrumbs, onion, milk, dill, eggs, lemon juice, salt and pepper.\nWith clean hands, shape into a loaf on the greased baking sheet.\nBake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.\nLet cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!",
-  "instructions_list": [
-    "Preheat your oven to 375 °F. Grease a baking sheet and set aside.",
-    "Drain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.",
-    "Flake the salmon with a fork and then mix with the breadcrumbs, onion, milk, dill, eggs, lemon juice, salt and pepper.",
-    "With clean hands, shape into a loaf on the greased baking sheet.",
-    "Bake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.",
-    "Let cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!"
-  ],
-  "language": "en-US",
+  "total_time": 70,
+  "prep_time": 10,
+  "cook_time": 60,
+  "yields": "8 servings",
+  "image": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2021/02/salmonloafonplate.jpg",
+  "description": "Skip the salmon cakes and make this great salmon loaf for dinner instead!",
   "nutrients": {
     "calories": "158 kcal",
     "carbohydrateContent": "11 g",
@@ -54,17 +52,19 @@
     "sugarContent": "1 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.98,
-  "ratings_count": 95,
-  "site_name": "The Kitchen Magpie",
-  "title": "Salmon Loaf",
-  "total_time": 70,
-  "yields": "8 servings",
+  "cuisine": "American",
+  "category": "Main Course",
   "keywords": [
     "salmon loaf"
   ],
-  "description": "Skip the salmon cakes and make this great salmon loaf for dinner instead!",
-  "cook_time": 60,
-  "cuisine": "American",
-  "prep_time": 10
+  "ratings": 4.98,
+  "ratings_count": 95,
+  "instructions_list": [
+    "Preheat your oven to 375 °F. Grease a baking sheet and set aside.",
+    "Drain the salmon well and if desired, remove any skin and bones from the salmon. You can leave them in, some people love those the best! They will bake right in, don't worry.",
+    "Flake the salmon with a fork and then mix with the breadcrumbs, onion, milk, dill, eggs, lemon juice, salt and pepper.",
+    "With clean hands, shape into a loaf on the greased baking sheet.",
+    "Bake for 40-50 minutes OR until nicely browned AND reaches an internal temperature of at least 165 °F.",
+    "Let cool for 5 minutes, then slice and serve. Garnish with fresh parsley and lemon wedges. This is excellent with lemon juice squeezed on top!"
+  ]
 }

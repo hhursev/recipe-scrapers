@@ -1,9 +1,23 @@
 {
-  "author": "Aaron Hutcherson",
-  "canonical_url": "https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/",
-  "category": "Dinner,Soup,1-Pot,Comfort Food,Freezer-friendly,Make-ahead,Quick and Easy",
   "host": "simplyrecipes.com",
-  "image": "https://www.simplyrecipes.com/thmb/IPv95EDDPxwGIzCd4s-GQV5RYrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-6-84f5ab39c30e4830bf08b5bb163c5e19.jpg",
+  "canonical_url": "https://www.simplyrecipes.com/recipes/one_pot_chicken_and_rice_soup/",
+  "site_name": "Simply Recipes",
+  "author": "Aaron Hutcherson",
+  "language": "en",
+  "title": "One-Pot Chicken and Rice Soup",
+  "ingredients": [
+    "2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)",
+    "1 cup long-grain white rice, like basmati",
+    "2 celery ribs, diced small",
+    "2 medium carrots, peeled and diced small",
+    "1 onion, diced small",
+    "2 cloves garlic, peeled but left whole",
+    "1 teaspoon salt, plus more to taste (see Recipe Note)",
+    "1/2 teaspoon ground black pepper",
+    "2 quarts unsalted or low-sodium chicken stock",
+    "Juice of 1/2 lemon (about 3 tablespoons)",
+    "Chopped fresh parsley, for serving"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,27 +36,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 bone-in chicken breasts, skin removed (1 to 1 1/2 pounds)",
-    "1 cup long-grain white rice, like basmati",
-    "2 celery ribs, diced small",
-    "2 medium carrots, peeled and diced small",
-    "1 onion, diced small",
-    "2 cloves garlic, peeled but left whole",
-    "1 teaspoon salt, plus more to taste (see Recipe Note)",
-    "1/2 teaspoon ground black pepper",
-    "2 quarts unsalted or low-sodium chicken stock",
-    "Juice of 1/2 lemon (about 3 tablespoons)",
-    "Chopped fresh parsley, for serving"
-  ],
   "instructions": "Assemble the soup and bring to a simmer: Combine the chicken, white rice, celery, carrots, onions, garlic, salt, and pepper in a large pot. Add the chicken stock and bring to a boil over high heat. Once the soup is boiling, reduce the heat to keep the soup at a gentle simmer.\nSimmer for about 25 minutes: As the soup simmers, skim off any foam that collects on the surface with a spoon. Continue to simmer until the rice and vegetables are tender, about 25 minutes. Remove the soup from heat.\nShred the chicken and make the garlic paste: Remove the chicken and garlic cloves using a slotted spoon or tongs. Transfer the chicken breasts to a bowl and shred with two forks. Discard the bones. Return the shredded chicken to the pot. Smash the garlic cloves into a paste against a cutting board using a fork or the flat of your knife. Stir the paste back into the soup.\nSeason and serve: Stir the lemon juice into to the soup, and taste. The soup should taste rich, barely salty, and with just a hint of lemon. Add more salt or lemon juice as needed until it tastes good to you. Divide among bowls and sprinkle with some parsley for serving. Leftovers will keep for about a week refrigerated, or up to 3 months frozen.",
-  "instructions_list": [
-    "Assemble the soup and bring to a simmer: Combine the chicken, white rice, celery, carrots, onions, garlic, salt, and pepper in a large pot. Add the chicken stock and bring to a boil over high heat. Once the soup is boiling, reduce the heat to keep the soup at a gentle simmer.",
-    "Simmer for about 25 minutes: As the soup simmers, skim off any foam that collects on the surface with a spoon. Continue to simmer until the rice and vegetables are tender, about 25 minutes. Remove the soup from heat.",
-    "Shred the chicken and make the garlic paste: Remove the chicken and garlic cloves using a slotted spoon or tongs. Transfer the chicken breasts to a bowl and shred with two forks. Discard the bones. Return the shredded chicken to the pot. Smash the garlic cloves into a paste against a cutting board using a fork or the flat of your knife. Stir the paste back into the soup.",
-    "Season and serve: Stir the lemon juice into to the soup, and taste. The soup should taste rich, barely salty, and with just a hint of lemon. Add more salt or lemon juice as needed until it tastes good to you. Divide among bowls and sprinkle with some parsley for serving. Leftovers will keep for about a week refrigerated, or up to 3 months frozen."
-  ],
-  "language": "en",
+  "total_time": 45,
+  "prep_time": 15,
+  "cook_time": 30,
+  "yields": "8 servings",
+  "image": "https://www.simplyrecipes.com/thmb/IPv95EDDPxwGIzCd4s-GQV5RYrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__09__2017-10-23-ChickenRiceSoup-6-84f5ab39c30e4830bf08b5bb163c5e19.jpg",
+  "description": "One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they're done. It's the easiest soup ever, ready in under an hour.",
   "nutrients": {
     "calories": "160 kcal",
     "carbohydrateContent": "10 g",
@@ -56,14 +56,8 @@
     "servingSize": "6 to 8 servings (makes about 3 quarts)",
     "unsaturatedFatContent": "0 g"
   },
-  "ratings": 4.7,
-  "ratings_count": 7,
-  "site_name": "Simply Recipes",
-  "title": "One-Pot Chicken and Rice Soup",
-  "total_time": 45,
-  "cook_time": 30,
-  "prep_time": 15,
-  "yields": "8 servings",
+  "cuisine": "American",
+  "category": "Dinner,Soup,1-Pot,Comfort Food,Freezer-friendly,Make-ahead,Quick and Easy",
   "keywords": [
     "1-Pot",
     "Comfort Food",
@@ -77,6 +71,12 @@
     "Favorite Fall",
     "Favorite Winter"
   ],
-  "description": "One-Pot Chicken and Rice Soup! Throw bone-in chicken, rice, and vegetables together in a pot and simmer until they're done. It's the easiest soup ever, ready in under an hour.",
-  "cuisine": "American"
+  "ratings": 4.7,
+  "ratings_count": 7,
+  "instructions_list": [
+    "Assemble the soup and bring to a simmer: Combine the chicken, white rice, celery, carrots, onions, garlic, salt, and pepper in a large pot. Add the chicken stock and bring to a boil over high heat. Once the soup is boiling, reduce the heat to keep the soup at a gentle simmer.",
+    "Simmer for about 25 minutes: As the soup simmers, skim off any foam that collects on the surface with a spoon. Continue to simmer until the rice and vegetables are tender, about 25 minutes. Remove the soup from heat.",
+    "Shred the chicken and make the garlic paste: Remove the chicken and garlic cloves using a slotted spoon or tongs. Transfer the chicken breasts to a bowl and shred with two forks. Discard the bones. Return the shredded chicken to the pot. Smash the garlic cloves into a paste against a cutting board using a fork or the flat of your knife. Stir the paste back into the soup.",
+    "Season and serve: Stir the lemon juice into to the soup, and taste. The soup should taste rich, barely salty, and with just a hint of lemon. Add more salt or lemon juice as needed until it tastes good to you. Divide among bowls and sprinkle with some parsley for serving. Leftovers will keep for about a week refrigerated, or up to 3 months frozen."
+  ]
 }

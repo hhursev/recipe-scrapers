@@ -1,11 +1,22 @@
 {
-  "author": "Luca Gatti",
-  "canonical_url": "https://ricetta.it/lasagne-al-radicchio-e-formaggio",
-  "category": "Lasagne",
-  "cuisine": "Italiana",
-  "description": "Le lasagne al radicchio e formaggio sono un primo piatto invernale molto gustoso, adatto anche a chi segue una dieta vegetariana. Prepariamole insieme.",
   "host": "ricetta.it",
-  "image": "https://ricetta.it/Uploads/Imgs/lasagne-al-radicchio-e-formaggio_medium.jpg.webp",
+  "canonical_url": "https://ricetta.it/lasagne-al-radicchio-e-formaggio",
+  "site_name": null,
+  "author": "Luca Gatti",
+  "language": "it",
+  "title": "Lasagne al radicchio e formaggio",
+  "ingredients": [
+    "250 g di sfoglie di pasta fresca per lasagne",
+    "300 g di radicchio",
+    "200/250 g di Fontina",
+    "q.b. parmigiano grattugiato",
+    "q.b. sale",
+    "q.b. olio extra vergine d'oliva",
+    "80 g di burro",
+    "80 g di farina",
+    "1 l di latte",
+    "q.b. noce moscata"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,19 +34,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "250 g di sfoglie di pasta fresca per lasagne",
-    "300 g di radicchio",
-    "200/250 g di Fontina",
-    "q.b. parmigiano grattugiato",
-    "q.b. sale",
-    "q.b. olio extra vergine d'oliva",
-    "80 g di burro",
-    "80 g di farina",
-    "1 l di latte",
-    "q.b. noce moscata"
-  ],
   "instructions": "Per prima cosa procediamo a pulire il radicchio e a tagliarlo in due nel verso della lunghezza, e poi a listarelle. Mettiamolo in una pentola capiente con un filo d'olio extra vergine d’oliva e lasciamo stufare a fiamma dolce per dieci minuti circa [1].\nSaliamo e mescoliamo di tanto in tanto. Per preparare la besciamella invece mettiamo il latte a bollire e in un altro pentolino facciamo sciogliere il burro [2].\nQuando è del tutto fuso, uniamo la farina [3] e facciamo addensare mescolando per un paio di minuti.\nDopodiché trasferiamo questo composto nel latte giunto ad ebollizione [4].\nInsaporiamo con noce moscata [5] e un pizzico di sale, mescoliamo il tutto e togliamo dal fuoco.\nTeniamone 3-4 mestolini da parte, quindi uniamo il resto al radicchio stufato [6].\nInfine tagliamo a cubetti la fontina. Possiamo ora comporre le nostre lasagne: prendiamo una pirofila (noi ne abbiamo utilizzata una di 15x25 cm), distribuiamo un po' di besciamella e radicchio sul fondo, poi stendiamo le sfoglie di pasta fresca senza cuocerla in precedenza [7].\nAggiungiamo poi altra besciamella al radicchio, sopra un po' di fontina [8] e una spolverata di parmigiano grattugiato [9].\nRicopriamo con altre sfoglie di pasta e ripetiamo gli strati fino ad esaurimento degli ingredienti [10].\nCompletiamo distribuendo la besciamella bianca, tenuta da parte inizialmente e abbondante parmigiano grattugiato [11], che in cottura creerà una crosticina croccante.\nVersiamo un filo d'olio extra vergine d'oliva e mettiamo a cuocere in forno ventilato preriscaldato a 200° per 20-25 minuti [12].\nCome accennato in precedenza, il formaggio dovrà aver formato una bella crosticina, se però così non fosse, possiamo accendere la funzione grill del nostro forno e terminare la cottura per qualche minuto prestando però particolare attenzione che le lasagne non brucino. Una volta cotte, attendiamo giusto un paio di minuti per tagliarle, poi serviamole molto calde, così da valorizzare l’effetto fondente del formaggio.",
+  "total_time": 60,
+  "yields": "4 servings",
+  "image": "https://ricetta.it/Uploads/Imgs/lasagne-al-radicchio-e-formaggio_medium.jpg.webp",
+  "description": "Le lasagne al radicchio e formaggio sono un primo piatto invernale molto gustoso, adatto anche a chi segue una dieta vegetariana. Prepariamole insieme.",
+  "cuisine": "Italiana",
+  "category": "Lasagne",
+  "ratings": 4.6,
+  "ratings_count": 1335,
   "instructions_list": [
     "Per prima cosa procediamo a pulire il radicchio e a tagliarlo in due nel verso della lunghezza, e poi a listarelle. Mettiamolo in una pentola capiente con un filo d'olio extra vergine d’oliva e lasciamo stufare a fiamma dolce per dieci minuti circa [1].",
     "Saliamo e mescoliamo di tanto in tanto. Per preparare la besciamella invece mettiamo il latte a bollire e in un altro pentolino facciamo sciogliere il burro [2].",
@@ -49,12 +56,5 @@
     "Completiamo distribuendo la besciamella bianca, tenuta da parte inizialmente e abbondante parmigiano grattugiato [11], che in cottura creerà una crosticina croccante.",
     "Versiamo un filo d'olio extra vergine d'oliva e mettiamo a cuocere in forno ventilato preriscaldato a 200° per 20-25 minuti [12].",
     "Come accennato in precedenza, il formaggio dovrà aver formato una bella crosticina, se però così non fosse, possiamo accendere la funzione grill del nostro forno e terminare la cottura per qualche minuto prestando però particolare attenzione che le lasagne non brucino. Una volta cotte, attendiamo giusto un paio di minuti per tagliarle, poi serviamole molto calde, così da valorizzare l’effetto fondente del formaggio."
-  ],
-  "language": "it",
-  "ratings": 4.6,
-  "ratings_count": 1335,
-  "site_name": null,
-  "title": "Lasagne al radicchio e formaggio",
-  "total_time": 60,
-  "yields": "4 servings"
+  ]
 }

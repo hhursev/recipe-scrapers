@@ -1,11 +1,18 @@
 {
-  "author": "Maggie Zhu",
-  "canonical_url": "https://omnivorescookbook.com/recipes/stir-fried-bok-choy-with-crispy-tofu/",
-  "category": "Side",
-  "cuisine": "Chinese",
-  "description": "A super quick and easy stir fried bok choy with tofu puffs that only uses five ingredients and takes 15 minutes to prep and cook.",
   "host": "omnivorescookbook.com",
-  "image": "https://omnivorescookbook.com/wp-content/uploads/2022/02/211213_Stir-Fried-Bok-Choy-With-Tofu-Puffs_550.jpg",
+  "canonical_url": "https://omnivorescookbook.com/recipes/stir-fried-bok-choy-with-crispy-tofu/",
+  "site_name": "Omnivore's Cookbook",
+  "author": "Maggie Zhu",
+  "language": "en-US",
+  "title": "Stir Fried Bok Choy with Tofu Puffs",
+  "ingredients": [
+    "1 lb (450 g) bok choy , chopped to bite size pieces (see the cutting method in the post above)",
+    "1 heaping cup (60 grams) tofu puffs , halved",
+    "2 green onions , sliced",
+    "1 tablespoon peanut oil (or vegetable oil)",
+    "1 teaspoon sugar",
+    "2 tablespoons light soy sauce (or soy sauce)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,23 +26,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 lb (450 g) bok choy , chopped to bite size pieces (see the cutting method in the post above)",
-    "1 heaping cup (60 grams) tofu puffs , halved",
-    "2 green onions , sliced",
-    "1 tablespoon peanut oil (or vegetable oil)",
-    "1 teaspoon sugar",
-    "2 tablespoons light soy sauce (or soy sauce)"
-  ],
   "instructions": "Heat 1 tablespoon of oil in a medium-sized wok or large skillet over high heat until hot. Add scallion and stir a few times until fragrant.\nAdd bok choy. Stir and cook for 1 to 2 minutes, to coat evenly with oil.\nSprinkle it with sugar and swirl in light soy sauce. Immediately stir a few times to mix well. Add deep fried tofu, then stir again for about 20 seconds.\nCover the wok and lower to medium-low heat. Steam for 30 seconds. Uncover and stir to check the doneness. Cover and cook for another 10 to 20 seconds again, if necessary, until the bok choy is cooked through and slightly caramelized on the edges. Turn off the heat and transfer everything to a serving plate.\nServe hot as a side dish or over steamed rice as a light main dish.",
-  "instructions_list": [
-    "Heat 1 tablespoon of oil in a medium-sized wok or large skillet over high heat until hot. Add scallion and stir a few times until fragrant.",
-    "Add bok choy. Stir and cook for 1 to 2 minutes, to coat evenly with oil.",
-    "Sprinkle it with sugar and swirl in light soy sauce. Immediately stir a few times to mix well. Add deep fried tofu, then stir again for about 20 seconds.",
-    "Cover the wok and lower to medium-low heat. Steam for 30 seconds. Uncover and stir to check the doneness. Cover and cook for another 10 to 20 seconds again, if necessary, until the bok choy is cooked through and slightly caramelized on the edges. Turn off the heat and transfer everything to a serving plate.",
-    "Serve hot as a side dish or over steamed rice as a light main dish."
-  ],
-  "language": "en-US",
+  "total_time": 15,
+  "prep_time": 10,
+  "cook_time": 5,
+  "yields": "2 servings",
+  "image": "https://omnivorescookbook.com/wp-content/uploads/2022/02/211213_Stir-Fried-Bok-Choy-With-Tofu-Puffs_550.jpg",
+  "description": "A super quick and easy stir fried bok choy with tofu puffs that only uses five ingredients and takes 15 minutes to prep and cook.",
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "93 kcal",
@@ -47,15 +44,18 @@
     "fiberContent": "1.9 g",
     "sugarContent": "3 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 8,
-  "site_name": "Omnivore's Cookbook",
-  "title": "Stir Fried Bok Choy with Tofu Puffs",
-  "total_time": 15,
-  "yields": "2 servings",
-  "cook_time": 5,
-  "prep_time": 10,
+  "cuisine": "Chinese",
+  "category": "Side",
   "keywords": [
     "home style"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 8,
+  "instructions_list": [
+    "Heat 1 tablespoon of oil in a medium-sized wok or large skillet over high heat until hot. Add scallion and stir a few times until fragrant.",
+    "Add bok choy. Stir and cook for 1 to 2 minutes, to coat evenly with oil.",
+    "Sprinkle it with sugar and swirl in light soy sauce. Immediately stir a few times to mix well. Add deep fried tofu, then stir again for about 20 seconds.",
+    "Cover the wok and lower to medium-low heat. Steam for 30 seconds. Uncover and stir to check the doneness. Cover and cook for another 10 to 20 seconds again, if necessary, until the bok choy is cooked through and slightly caramelized on the edges. Turn off the heat and transfer everything to a serving plate.",
+    "Serve hot as a side dish or over steamed rice as a light main dish."
   ]
 }

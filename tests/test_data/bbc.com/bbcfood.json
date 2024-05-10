@@ -1,9 +1,21 @@
 {
-  "author": "Rob Burns",
-  "canonical_url": "http://www.bbc.co.uk/food/recipes/baileysandchocolatec_72293",
-  "category": null,
   "host": "bbc.com",
-  "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/baileysandchocolatec_72293_16x9.jpg",
+  "canonical_url": "http://www.bbc.co.uk/food/recipes/baileysandchocolatec_72293",
+  "site_name": "BBC Food",
+  "author": "Rob Burns",
+  "language": "en",
+  "title": "Irish cream and chocolate cheesecake",
+  "ingredients": [
+    "100g/3½oz butter",
+    "250g/8¾oz digestive biscuits, crushed",
+    "600g/1lb 5oz cream cheese",
+    "25ml/1fl oz Baileys or other Irish cream liqueur",
+    "100ml/3½oz icing sugar",
+    "300ml/10½oz double cream, whipped",
+    "100g/3½oz grated chocolate",
+    "200ml/7¼oz double cream, whipped",
+    "cocoa powder, to dust"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,30 +32,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "100g/3½oz butter",
-    "250g/8¾oz digestive biscuits, crushed",
-    "600g/1lb 5oz cream cheese",
-    "25ml/1fl oz Baileys or other Irish cream liqueur",
-    "100ml/3½oz icing sugar",
-    "300ml/10½oz double cream, whipped",
-    "100g/3½oz grated chocolate",
-    "200ml/7¼oz double cream, whipped",
-    "cocoa powder, to dust"
-  ],
   "instructions": "Melt the butter in a pan and add the crushed digestive biscuits. Mix well until the biscuits have absorbed all the butter.\nRemove from the heat and press into the bottom of a lined 18cm/7in springform tin. Place in the refrigerator and allow to set for one hour.\nMeanwhile, prepare the filling. Lightly whip the cream cheese then beat in the Irish cream and icing sugar. Fold in the whipped cream and grated chocolate. When smooth, spoon evenly onto the biscuits.\nRefrigerate and allow to set for a further two hours. Once set, remove and decorate with whipped cream and cocoa powder dusted over the top. Serve.",
+  "total_time": 130,
+  "prep_time": 120,
+  "cook_time": 10,
+  "yields": "1 item",
+  "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_608/recipes/baileysandchocolatec_72293_16x9.jpg",
+  "description": "The smooth, creamy liqueur gives this celebration cheesecake the wow factor. Top with grated chocolate and a dusting of cocoa.",
+  "category": null,
   "instructions_list": [
     "Melt the butter in a pan and add the crushed digestive biscuits. Mix well until the biscuits have absorbed all the butter.",
     "Remove from the heat and press into the bottom of a lined 18cm/7in springform tin. Place in the refrigerator and allow to set for one hour.",
     "Meanwhile, prepare the filling. Lightly whip the cream cheese then beat in the Irish cream and icing sugar. Fold in the whipped cream and grated chocolate. When smooth, spoon evenly onto the biscuits.",
     "Refrigerate and allow to set for a further two hours. Once set, remove and decorate with whipped cream and cocoa powder dusted over the top. Serve."
-  ],
-  "language": "en",
-  "site_name": "BBC Food",
-  "title": "Irish cream and chocolate cheesecake",
-  "total_time": 130,
-  "yields": "1 item",
-  "description": "The smooth, creamy liqueur gives this celebration cheesecake the wow factor. Top with grated chocolate and a dusting of cocoa.",
-  "cook_time": 10,
-  "prep_time": 120
+  ]
 }

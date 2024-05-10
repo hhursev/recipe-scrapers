@@ -1,11 +1,26 @@
 {
-  "author": "Melissa",
-  "canonical_url": "https://www.number-2-pencil.com/sheet-pan-strawberry-shortcake-recipe/",
-  "category": "Dessert",
-  "cuisine": "American",
-  "description": "Sheet Pan Strawberry Shortcake Recipe – buttery homemade shortcake with whipped cream and fresh strawberries. It’s the ultimate summer dessert for a crowd!",
   "host": "number-2-pencil.com",
-  "image": "https://www.number-2-pencil.com/wp-content/uploads/2023/05/Sheet-Pan-Strawberry-Shortcake-7.jpg",
+  "canonical_url": "https://www.number-2-pencil.com/sheet-pan-strawberry-shortcake-recipe/",
+  "site_name": "No. 2 Pencil",
+  "author": "Melissa",
+  "language": "en-US",
+  "title": "Sheet Pan Strawberry Shortcake Recipe",
+  "ingredients": [
+    "3 1/2 cups all-purpose flour",
+    "3/4 cup sugar (granulated)",
+    "5 teaspoons baking powder",
+    "1/2 teaspoon table salt",
+    "1 cup unsalted butter (cold, 2 sticks)",
+    "2 eggs (lightly beaten)",
+    "2 cups heavy whipping cream",
+    "1 teaspoon pure vanilla extract",
+    "2 cups heavy whipping cream",
+    "1/3 cup powdered sugar",
+    "2 pounds strawberries (washed and sliced)",
+    "1/4 cup sugar (granulated, more or less depending on berry sweetness)",
+    "1 teaspoon fresh lemon juice",
+    "chamomile flowers (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -37,37 +52,13 @@
       "purpose": "Strawberry Topping"
     }
   ],
-  "ingredients": [
-    "3 1/2 cups all-purpose flour",
-    "3/4 cup sugar (granulated)",
-    "5 teaspoons baking powder",
-    "1/2 teaspoon table salt",
-    "1 cup unsalted butter (cold, 2 sticks)",
-    "2 eggs (lightly beaten)",
-    "2 cups heavy whipping cream",
-    "1 teaspoon pure vanilla extract",
-    "2 cups heavy whipping cream",
-    "1/3 cup powdered sugar",
-    "2 pounds strawberries (washed and sliced)",
-    "1/4 cup sugar (granulated, more or less depending on berry sweetness)",
-    "1 teaspoon fresh lemon juice",
-    "chamomile flowers (optional)"
-  ],
   "instructions": "Shortcake\nPreheat oven to 400℉ and set aside a non stick 13x10 sheet pan.\nIf using a food processor, add flour, sugar, baking powder, and salt in food processor. Pulse briefly to combine. Add cold butter to food processor and pulse briefly several times until butter is combined with flour and mixture resembles coarse sand. Transfer mixture to mixing bowl and stir in eggs, heavy whipping cream, and vanilla extract. Stir just until combined.\nTransfer shortcake dough to sheet pan and use slightly damp hand to spread dough evenly on sheet pan. Use a spoor or spatula to smooth dough.\nBake for 20-25 minutes until shortcake is golden brown. Remove and let cool completely.\nWhipped Cream\nIn a large bowl, use an electric mixer to beat heavy whipping cream and powdered sugar together until soft peaks form. Do not over beat. You can also use a stand mixer with a whisk attachment.\nStrawberry Topping\nSlice strawberries and mix with sugar and lemon juice.\nTo Assemble Strawberry Shortcake\nLet shortcake cool, then top with whipped cream, followed by strawberries. Serve immediately for best results.",
-  "instructions_list": [
-    "Shortcake",
-    "Preheat oven to 400℉ and set aside a non stick 13x10 sheet pan.",
-    "If using a food processor, add flour, sugar, baking powder, and salt in food processor. Pulse briefly to combine. Add cold butter to food processor and pulse briefly several times until butter is combined with flour and mixture resembles coarse sand. Transfer mixture to mixing bowl and stir in eggs, heavy whipping cream, and vanilla extract. Stir just until combined.",
-    "Transfer shortcake dough to sheet pan and use slightly damp hand to spread dough evenly on sheet pan. Use a spoor or spatula to smooth dough.",
-    "Bake for 20-25 minutes until shortcake is golden brown. Remove and let cool completely.",
-    "Whipped Cream",
-    "In a large bowl, use an electric mixer to beat heavy whipping cream and powdered sugar together until soft peaks form. Do not over beat. You can also use a stand mixer with a whisk attachment.",
-    "Strawberry Topping",
-    "Slice strawberries and mix with sugar and lemon juice.",
-    "To Assemble Strawberry Shortcake",
-    "Let shortcake cool, then top with whipped cream, followed by strawberries. Serve immediately for best results."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 30,
+  "cook_time": 15,
+  "yields": "12 servings",
+  "image": "https://www.number-2-pencil.com/wp-content/uploads/2023/05/Sheet-Pan-Strawberry-Shortcake-7.jpg",
+  "description": "Sheet Pan Strawberry Shortcake Recipe – buttery homemade shortcake with whipped cream and fresh strawberries. It’s the ultimate summer dessert for a crowd!",
   "nutrients": {
     "calories": "652 kcal",
     "carbohydrateContent": "57 g",
@@ -82,15 +73,24 @@
     "unsaturatedFatContent": "14 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 3,
-  "site_name": "No. 2 Pencil",
-  "title": "Sheet Pan Strawberry Shortcake Recipe",
-  "total_time": 45,
-  "yields": "12 servings",
-  "cook_time": 15,
-  "prep_time": 30,
+  "cuisine": "American",
+  "category": "Dessert",
   "keywords": [
     "Strawberry Shortcake"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 3,
+  "instructions_list": [
+    "Shortcake",
+    "Preheat oven to 400℉ and set aside a non stick 13x10 sheet pan.",
+    "If using a food processor, add flour, sugar, baking powder, and salt in food processor. Pulse briefly to combine. Add cold butter to food processor and pulse briefly several times until butter is combined with flour and mixture resembles coarse sand. Transfer mixture to mixing bowl and stir in eggs, heavy whipping cream, and vanilla extract. Stir just until combined.",
+    "Transfer shortcake dough to sheet pan and use slightly damp hand to spread dough evenly on sheet pan. Use a spoor or spatula to smooth dough.",
+    "Bake for 20-25 minutes until shortcake is golden brown. Remove and let cool completely.",
+    "Whipped Cream",
+    "In a large bowl, use an electric mixer to beat heavy whipping cream and powdered sugar together until soft peaks form. Do not over beat. You can also use a stand mixer with a whisk attachment.",
+    "Strawberry Topping",
+    "Slice strawberries and mix with sugar and lemon juice.",
+    "To Assemble Strawberry Shortcake",
+    "Let shortcake cool, then top with whipped cream, followed by strawberries. Serve immediately for best results."
   ]
 }

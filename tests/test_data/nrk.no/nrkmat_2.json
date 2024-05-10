@@ -1,10 +1,22 @@
 {
-  "author": "Rolf Tikkanen Øygarden i Sørlandssendinga/NRK P1",
-  "canonical_url": "https://www.nrk.no/mat/kikertsuppe-med-eple-og-karri--1.14384193",
-  "category": "Middag",
-  "description": "Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!",
   "host": "nrk.no",
-  "image": "https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwDrxwjw_2UhedQNN4ad9Pxw.jpg",
+  "canonical_url": "https://www.nrk.no/mat/kikertsuppe-med-eple-og-karri--1.14384193",
+  "site_name": "NRK",
+  "author": "Rolf Tikkanen Øygarden i Sørlandssendinga/NRK P1",
+  "language": "nb-NO",
+  "title": "Kikertsuppe med eple og karri",
+  "ingredients": [
+    "1 stor gul løk",
+    "2 hvitløkfedd",
+    "3 ts karripulver",
+    "5 dl kyllingbuljong",
+    "1,5 boks ferdig kokte kikerter",
+    "1 grønt eple",
+    "limejuice",
+    "salt",
+    "pepper",
+    "2 ss finhakket bladpersille"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,19 +34,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 stor gul løk",
-    "2 hvitløkfedd",
-    "3 ts karripulver",
-    "5 dl kyllingbuljong",
-    "1,5 boks ferdig kokte kikerter",
-    "1 grønt eple",
-    "limejuice",
-    "salt",
-    "pepper",
-    "2 ss finhakket bladpersille"
-  ],
   "instructions": "Sett på en kasserolle på medium temperatur og ha i litt olje.\nHakk løk og hvitløk grovt, la det surre i oljen. Tilsett karripulveret.\nHa i kikertene og bland godt.\nSlå over kyllingbuljong, og kok opp suppen.\nLa suppen koke i cirka 6–7 minutter.\nKjør suppen helt glatt med en stavmikser, ha den tilbake i kjelen og varm opp.\nKutt et eple i terninger.\nHa suppen i dype skåler, ringle over litt olivenolje, saften av en presset lime, salt og pepper. Topp suppen med finhakket grønt eple og bladpersille. Dersom du har litt røykt paprikapulver, kan du gjerne gi suppen et fint lite dryss.",
+  "yields": "2 servings",
+  "image": "https://gfx.nrk.no/N4ehJVVfjwllrjaJIVPlEwDrxwjw_2UhedQNN4ad9Pxw.jpg",
+  "description": "Det er mange grunner til å nyte kikertsuppe med eple og karri. Suppen varmer godt i kroppen, den er stappfull av proteiner, kjernesunn og den koster ikke mer enn en tyggegummipakke!",
+  "category": "Middag",
+  "keywords": [
+    "Suppe",
+    "Grønnsaker"
+  ],
   "instructions_list": [
     "Sett på en kasserolle på medium temperatur og ha i litt olje.",
     "Hakk løk og hvitløk grovt, la det surre i oljen. Tilsett karripulveret.",
@@ -44,13 +52,5 @@
     "Kjør suppen helt glatt med en stavmikser, ha den tilbake i kjelen og varm opp.",
     "Kutt et eple i terninger.",
     "Ha suppen i dype skåler, ringle over litt olivenolje, saften av en presset lime, salt og pepper. Topp suppen med finhakket grønt eple og bladpersille. Dersom du har litt røykt paprikapulver, kan du gjerne gi suppen et fint lite dryss."
-  ],
-  "language": "nb-NO",
-  "site_name": "NRK",
-  "title": "Kikertsuppe med eple og karri",
-  "yields": "2 servings",
-  "keywords": [
-    "Suppe",
-    "Grønnsaker"
   ]
 }

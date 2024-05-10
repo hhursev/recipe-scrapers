@@ -1,9 +1,30 @@
 {
-  "author": "Isa Chandra Moskowitz",
-  "canonical_url": "https://www.simplyrecipes.com/parsnip-lobster-rolls-recipe-6944750",
-  "category": "Lunch,Dinner,Entree,Sandwich",
   "host": "simplyrecipes.com",
-  "image": "https://www.simplyrecipes.com/thmb/NM4jagjRMB_ZTpbZeuucmcNHanQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-ParsnipLobster-Rolls-LEAD-01-edc9b93d39f14541b530cf9f22543bb2.jpg",
+  "canonical_url": "https://www.simplyrecipes.com/parsnip-lobster-rolls-recipe-6944750",
+  "site_name": "Simply Recipes",
+  "author": "Isa Chandra Moskowitz",
+  "language": "en",
+  "title": "Parsnip Lobster Rolls",
+  "ingredients": [
+    "For the roasted parsnips:",
+    "2 tablespoons olive oil",
+    "1 teaspoon kosher salt",
+    "1/2 teaspoon ground black pepper",
+    "2 pounds (910 g) parsnips, peeled, cut into 1 1/2-inch (4 cm) chunks (see recipe note)",
+    "For the dressing:",
+    "1/2 cup (120 ml) vegan mayo, prepared or homemade",
+    "2 tablespoons fresh lemon juice",
+    "1 teaspoon kelp powder",
+    "3 tablespoons capers, drained and rinsed",
+    "1/3 cup (15 g) thinly sliced chives, plus extra for garnish",
+    "1/2 teaspoon salt",
+    "2 ribs celery, thinly sliced",
+    "For assembly:",
+    "Large split-top hot dog buns",
+    "Vegan butter, softened",
+    "Sweet paprika",
+    "1/4 cup (11 g) thickly sliced chives"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,34 +50,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "For the roasted parsnips:",
-    "2 tablespoons olive oil",
-    "1 teaspoon kosher salt",
-    "1/2 teaspoon ground black pepper",
-    "2 pounds (910 g) parsnips, peeled, cut into 1 1/2-inch (4 cm) chunks (see recipe note)",
-    "For the dressing:",
-    "1/2 cup (120 ml) vegan mayo, prepared or homemade",
-    "2 tablespoons fresh lemon juice",
-    "1 teaspoon kelp powder",
-    "3 tablespoons capers, drained and rinsed",
-    "1/3 cup (15 g) thinly sliced chives, plus extra for garnish",
-    "1/2 teaspoon salt",
-    "2 ribs celery, thinly sliced",
-    "For assembly:",
-    "Large split-top hot dog buns",
-    "Vegan butter, softened",
-    "Sweet paprika",
-    "1/4 cup (11 g) thickly sliced chives"
-  ],
   "instructions": "Roast the parsnips: Preheat the oven to 425°F (220°C). Line a large baking sheet with parchment paper. Drizzle the olive oil, salt, and pepper on the baking pan. Toss the parsnips in the oil to coat. Bake for about 20 minutes, flipping occasionally, until the parsnips are tender inside and golden brown in some spots. Let cool.\nMake the dressing and assemble the salad: In a large mixing bowl, stir together the mayo, lemon juice, kelp powder, capers, chives, and salt. Fold in the celery and the cooled parsnips. Chill the salad for about 20 minutes.\nToast the buns: Preheat a large skillet, preferably cast-iron, over medium heat. Butter the outside of each hot dog bun. Place them in the skillet and toast until golden brown, about 2 minutes for each side.\nAssemble: Fill the buns with salad. Sprinkle with paprika and additional chives. Serve with plenty of napkins.",
-  "instructions_list": [
-    "Roast the parsnips: Preheat the oven to 425°F (220°C). Line a large baking sheet with parchment paper. Drizzle the olive oil, salt, and pepper on the baking pan. Toss the parsnips in the oil to coat. Bake for about 20 minutes, flipping occasionally, until the parsnips are tender inside and golden brown in some spots. Let cool.",
-    "Make the dressing and assemble the salad: In a large mixing bowl, stir together the mayo, lemon juice, kelp powder, capers, chives, and salt. Fold in the celery and the cooled parsnips. Chill the salad for about 20 minutes.",
-    "Toast the buns: Preheat a large skillet, preferably cast-iron, over medium heat. Butter the outside of each hot dog bun. Place them in the skillet and toast until golden brown, about 2 minutes for each side.",
-    "Assemble: Fill the buns with salad. Sprinkle with paprika and additional chives. Serve with plenty of napkins."
-  ],
-  "language": "en",
+  "total_time": 45,
+  "prep_time": 15,
+  "cook_time": 30,
+  "yields": "6 servings",
+  "image": "https://www.simplyrecipes.com/thmb/NM4jagjRMB_ZTpbZeuucmcNHanQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-ParsnipLobster-Rolls-LEAD-01-edc9b93d39f14541b530cf9f22543bb2.jpg",
+  "description": "Swap lobster for parsnips and you get a vegan version of the classic lobster roll from Isa Chandra Moskowitz’s book \"Fake Meat: Real Food for Vegan Appetites.\"",
   "nutrients": {
     "calories": "406 kcal",
     "carbohydrateContent": "56 g",
@@ -69,14 +69,8 @@
     "fatContent": "18 g",
     "unsaturatedFatContent": "0 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Simply Recipes",
-  "title": "Parsnip Lobster Rolls",
-  "total_time": 45,
-  "cook_time": 30,
-  "prep_time": 15,
-  "yields": "6 servings",
+  "cuisine": "American",
+  "category": "Lunch,Dinner,Entree,Sandwich",
   "keywords": [
     "olive oil",
     "parsnips",
@@ -94,6 +88,12 @@
     "vegan",
     "cookbook"
   ],
-  "description": "Swap lobster for parsnips and you get a vegan version of the classic lobster roll from Isa Chandra Moskowitz’s book \"Fake Meat: Real Food for Vegan Appetites.\"",
-  "cuisine": "American"
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "Roast the parsnips: Preheat the oven to 425°F (220°C). Line a large baking sheet with parchment paper. Drizzle the olive oil, salt, and pepper on the baking pan. Toss the parsnips in the oil to coat. Bake for about 20 minutes, flipping occasionally, until the parsnips are tender inside and golden brown in some spots. Let cool.",
+    "Make the dressing and assemble the salad: In a large mixing bowl, stir together the mayo, lemon juice, kelp powder, capers, chives, and salt. Fold in the celery and the cooled parsnips. Chill the salad for about 20 minutes.",
+    "Toast the buns: Preheat a large skillet, preferably cast-iron, over medium heat. Butter the outside of each hot dog bun. Place them in the skillet and toast until golden brown, about 2 minutes for each side.",
+    "Assemble: Fill the buns with salad. Sprinkle with paprika and additional chives. Serve with plenty of napkins."
+  ]
 }

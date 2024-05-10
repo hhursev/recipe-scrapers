@@ -1,9 +1,22 @@
 {
-  "author": "Ree | The Pioneer Woman",
-  "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a11059/restaurant-style-salsa/",
-  "category": null,
   "host": "tastykitchen.com",
-  "image": "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2010/01/TPW_5376.jpg",
+  "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a11059/restaurant-style-salsa/",
+  "site_name": null,
+  "author": "Ree | The Pioneer Woman",
+  "language": "en-US",
+  "title": "Restaurant Style Salsa",
+  "ingredients": [
+    "1 can (28 Ounce) Whole Tomatoes With Juice",
+    "2 cans (10 Ounce) Rotel (diced Tomatoes And Green Chilies)",
+    "¼ cups Chopped Onion",
+    "1 clove Garlic, Minced",
+    "1 whole Jalapeno, Quartered And Sliced Thin",
+    "¼ teaspoons Sugar",
+    "¼ teaspoons Salt",
+    "¼ teaspoons Ground Cumin",
+    "½ cups Cilantro (more To Taste!)",
+    "½ whole Lime Juice"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,31 +34,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 can (28 Ounce) Whole Tomatoes With Juice",
-    "2 cans (10 Ounce) Rotel (diced Tomatoes And Green Chilies)",
-    "¼ cups Chopped Onion",
-    "1 clove Garlic, Minced",
-    "1 whole Jalapeno, Quartered And Sliced Thin",
-    "¼ teaspoons Sugar",
-    "¼ teaspoons Salt",
-    "¼ teaspoons Ground Cumin",
-    "½ cups Cilantro (more To Taste!)",
-    "½ whole Lime Juice"
-  ],
   "instructions": "Note: this is a very large batch. Recommend using a 12-cup food processor, or you can process the ingredients in batches and then mix everything together in a large mixing bowl.\nCombine whole tomatoes, Rotel, onion, jalapeno, garlic, sugar, salt, cumin, lime juice, and cilantro in a blender or food processor. Pulse until you get the salsa to the consistency you’d like—I do about 10 to 15 pulses. Test seasonings with a tortilla chip and adjust as needed.\nRefrigerate salsa for at least an hour. Serve with tortilla chips or cheese nachos.",
+  "total_time": 10,
+  "prep_time": 10,
+  "yields": "12 servings",
+  "image": "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2010/01/TPW_5376.jpg",
+  "description": "Perfect, wonderful, simple salsa like the kind in restaurants. Serve with warm tortilla chips and watch everyone smile.",
+  "category": null,
+  "ratings": 4.94,
+  "ratings_count": 87,
   "instructions_list": [
     "Note: this is a very large batch. Recommend using a 12-cup food processor, or you can process the ingredients in batches and then mix everything together in a large mixing bowl.",
     "Combine whole tomatoes, Rotel, onion, jalapeno, garlic, sugar, salt, cumin, lime juice, and cilantro in a blender or food processor. Pulse until you get the salsa to the consistency you’d like—I do about 10 to 15 pulses. Test seasonings with a tortilla chip and adjust as needed.",
     "Refrigerate salsa for at least an hour. Serve with tortilla chips or cheese nachos."
-  ],
-  "language": "en-US",
-  "ratings": 4.94,
-  "ratings_count": 87,
-  "site_name": null,
-  "title": "Restaurant Style Salsa",
-  "total_time": 10,
-  "yields": "12 servings",
-  "description": "Perfect, wonderful, simple salsa like the kind in restaurants. Serve with warm tortilla chips and watch everyone smile.",
-  "prep_time": 10
+  ]
 }

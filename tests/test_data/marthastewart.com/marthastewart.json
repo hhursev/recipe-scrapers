@@ -1,9 +1,19 @@
 {
-  "author": "Martha Stewart Test Kitchen",
-  "canonical_url": "https://www.marthastewart.com/336792/breaded-chicken-breasts",
-  "category": "Entree,Dinner",
   "host": "marthastewart.com",
-  "image": "https://www.marthastewart.com/thmb/nvxNpKLIet99N9F5m3dHhHu0g_4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/336792_breaded-chicken-breasts-12-877d76b08e44450fa77c20a0e449a741.jpg",
+  "canonical_url": "https://www.marthastewart.com/336792/breaded-chicken-breasts",
+  "site_name": "Martha Stewart",
+  "author": "Martha Stewart Test Kitchen",
+  "language": "en",
+  "title": "Breaded Chicken Breasts",
+  "ingredients": [
+    "3 large eggs",
+    "Coarse salt",
+    "0.333 cup all-purpose flour",
+    "3.5 cups fresh breadcrumbs",
+    "1 cup vegetable oil",
+    "8 thin chicken cutlets (about 1 ½ pounds total)",
+    "Lemon wedges, for serving (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,28 +28,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 large eggs",
-    "Coarse salt",
-    "0.333 cup all-purpose flour",
-    "3.5 cups fresh breadcrumbs",
-    "1 cup vegetable oil",
-    "8 thin chicken cutlets (about 1 ½ pounds total)",
-    "Lemon wedges, for serving (optional)"
-  ],
   "instructions": "Whisk eggs and set out breading: In a shallow dish, whisk eggs with teaspoon salt; let stand 5 minutes. In another shallow dish, season flour with 1/4 teaspoon salt. In a third shallow dish, season breadcrumbs with 1 teaspoon salt.\nPrep chicken cutlets: In a large cast-iron skillet or other heavy deep skillet, heat oil over medium. Meanwhile, pat chicken dry with paper towels. Coat in flour, shaking off excess. Then dip in egg (letting excess drip off). Dredge in breadcrumbs, turning twice and patting to adhere.\nCook chicken cutlets: Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt.",
-  "instructions_list": [
-    "Whisk eggs and set out breading: In a shallow dish, whisk eggs with teaspoon salt; let stand 5 minutes. In another shallow dish, season flour with 1/4 teaspoon salt. In a third shallow dish, season breadcrumbs with 1 teaspoon salt.",
-    "Prep chicken cutlets: In a large cast-iron skillet or other heavy deep skillet, heat oil over medium. Meanwhile, pat chicken dry with paper towels. Coat in flour, shaking off excess. Then dip in egg (letting excess drip off). Dredge in breadcrumbs, turning twice and patting to adhere.",
-    "Cook chicken cutlets: Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt."
-  ],
-  "language": "en",
-  "ratings": 3.2,
-  "ratings_count": 292,
-  "site_name": "Martha Stewart",
-  "title": "Breaded Chicken Breasts",
   "total_time": 25,
+  "prep_time": 25,
   "yields": "4 servings",
+  "image": "https://www.marthastewart.com/thmb/nvxNpKLIet99N9F5m3dHhHu0g_4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/336792_breaded-chicken-breasts-12-877d76b08e44450fa77c20a0e449a741.jpg",
+  "description": "Learn how to make breaded chicken breasts in under 30 minutes. Our easy three-step method for fried chicken cutlets makes easy and delicious weeknight dinners.",
+  "cuisine": "American",
+  "category": "Entree,Dinner",
   "keywords": [
     "breaded chicken breasts",
     "Breadcrumbs",
@@ -50,7 +46,11 @@
     "Lunch",
     "Main course"
   ],
-  "description": "Learn how to make breaded chicken breasts in under 30 minutes. Our easy three-step method for fried chicken cutlets makes easy and delicious weeknight dinners.",
-  "cuisine": "American",
-  "prep_time": 25
+  "ratings": 3.2,
+  "ratings_count": 292,
+  "instructions_list": [
+    "Whisk eggs and set out breading: In a shallow dish, whisk eggs with teaspoon salt; let stand 5 minutes. In another shallow dish, season flour with 1/4 teaspoon salt. In a third shallow dish, season breadcrumbs with 1 teaspoon salt.",
+    "Prep chicken cutlets: In a large cast-iron skillet or other heavy deep skillet, heat oil over medium. Meanwhile, pat chicken dry with paper towels. Coat in flour, shaking off excess. Then dip in egg (letting excess drip off). Dredge in breadcrumbs, turning twice and patting to adhere.",
+    "Cook chicken cutlets: Increase heat to medium-high. Working in batches, add chicken to skillet; cook, gently shaking skillet occasionally, until chicken is browned, about 4 minutes. Turn with tongs; cook until browned and opaque throughout, 2 to 3 minutes more (if browning too quickly, lower heat). Between batches, skim off brown crumbs from oil with a slotted spoon. Drain chicken on paper towels; season with salt."
+  ]
 }

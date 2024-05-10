@@ -1,9 +1,20 @@
 {
-  "author": "Rachel",
-  "canonical_url": "https://rachlmansfield.com/healthy-flourless-brownies/",
-  "category": null,
   "host": "rachlmansfield.com",
-  "image": "https://rachlmansfield.com/wp-content/uploads/2019/12/B6984237-A840-46A7-93FD-417FAA609A78-scaled-225x225.jpg",
+  "canonical_url": "https://rachlmansfield.com/healthy-flourless-brownies/",
+  "site_name": "rachLmansfield",
+  "author": "Rachel",
+  "language": "en-US",
+  "title": "Healthy Flourless Brownies (nut-free + gluten-free)",
+  "ingredients": [
+    "1 cup tahini*",
+    "1/4 cup maple syrup",
+    "1/2 cup coconut sugar",
+    "2 pasture-raised eggs*",
+    "1 teaspoon vanilla extract",
+    "1/3 cup + 2 tablespoons cacao powder",
+    "1 teaspoon baking powder",
+    "1/2 cup Hu Kitchen Dark Chocolate Gems (code RACHL for free shipping)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,17 +30,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 cup tahini*",
-    "1/4 cup maple syrup",
-    "1/2 cup coconut sugar",
-    "2 pasture-raised eggs*",
-    "1 teaspoon vanilla extract",
-    "1/3 cup + 2 tablespoons cacao powder",
-    "1 teaspoon baking powder",
-    "1/2 cup Hu Kitchen Dark Chocolate Gems (code RACHL for free shipping)"
-  ],
   "instructions": "Preheat oven to 350 degrees and line an 8×8 baking dish with parchment paper and grease well\nCream together the tahini, maple syrup, coconut sugar, eggs and vanilla\nMix in the cacao powder and baking powder until well combined (it will be thick!)\nFold in dark chocolate gems then add batter to baking dish\nBake in oven for 22-25 minutes (or until toothpick comes out clean when you poke the brownies)\nAllow the brownies to cool for a few minutes (this is key so they set!) then slice and enjoy!",
+  "total_time": 27,
+  "prep_time": 5,
+  "cook_time": 22,
+  "yields": "9 servings",
+  "image": "https://rachlmansfield.com/wp-content/uploads/2019/12/B6984237-A840-46A7-93FD-417FAA609A78-scaled-225x225.jpg",
+  "description": "Healthy Flourless Brownies made with all gluten-free, paleo, nut-free and dairy-free ingredients. No flour needed! These are the best FUDGEY brownies ever!",
+  "category": null,
+  "ratings": 5.0,
+  "ratings_count": 78,
   "instructions_list": [
     "Preheat oven to 350 degrees and line an 8×8 baking dish with parchment paper and grease well",
     "Cream together the tahini, maple syrup, coconut sugar, eggs and vanilla",
@@ -37,15 +47,5 @@
     "Fold in dark chocolate gems then add batter to baking dish",
     "Bake in oven for 22-25 minutes (or until toothpick comes out clean when you poke the brownies)",
     "Allow the brownies to cool for a few minutes (this is key so they set!) then slice and enjoy!"
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "ratings_count": 78,
-  "site_name": "rachLmansfield",
-  "title": "Healthy Flourless Brownies (nut-free + gluten-free)",
-  "total_time": 27,
-  "yields": "9 servings",
-  "description": "Healthy Flourless Brownies made with all gluten-free, paleo, nut-free and dairy-free ingredients. No flour needed! These are the best FUDGEY brownies ever!",
-  "cook_time": 22,
-  "prep_time": 5
+  ]
 }

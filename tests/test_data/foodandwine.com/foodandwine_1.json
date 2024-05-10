@@ -1,9 +1,21 @@
 {
-  "author": "Kwame Onwuachi",
-  "canonical_url": "https://www.foodandwine.com/recipes/kwames-pepper-shrimp",
-  "category": null,
   "host": "foodandwine.com",
-  "image": "https://www.foodandwine.com/thmb/BZ8hhoqmF0B8KlP_pHSEsxjhxnQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pepper-shrimp-FT-RECIPE0920-9b30018088cc419f88c91fa33564075c.jpg",
+  "canonical_url": "https://www.foodandwine.com/recipes/kwames-pepper-shrimp",
+  "site_name": "Food & Wine",
+  "author": "Kwame Onwuachi",
+  "language": "en",
+  "title": "Kwame's Pepper Shrimp",
+  "ingredients": [
+    "1/2 cup unsalted butter (4 ounces)",
+    "5 large garlic cloves, minced",
+    "1 fresh Scotch bonnet chile, stemmed, unseeded, and minced (about 1 tablespoon)",
+    "1 1/2 teaspoons minced peeled fresh ginger",
+    "1/2 cup fresh lime juice",
+    "1/2 cup distilled white vinegar",
+    "1 thyme sprig",
+    "3 pounds unpeeled head-on raw large shrimp, deveined",
+    "1 teaspoon kosher salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,25 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1/2 cup unsalted butter (4 ounces)",
-    "5 large garlic cloves, minced",
-    "1 fresh Scotch bonnet chile, stemmed, unseeded, and minced (about 1 tablespoon)",
-    "1 1/2 teaspoons minced peeled fresh ginger",
-    "1/2 cup fresh lime juice",
-    "1/2 cup distilled white vinegar",
-    "1 thyme sprig",
-    "3 pounds unpeeled head-on raw large shrimp, deveined",
-    "1 teaspoon kosher salt"
-  ],
   "instructions": "Melt butter in a large pot over medium. Add garlic, chile, and ginger; cook, stirring often, until aromatic and tender, about 5 minutes. Add lime juice, vinegar, and thyme; bring to a simmer over medium. Increase heat to medium-high; add shrimp, and cook, stirring often, until shrimp are opaque and cooked through, about 5 minutes. Remove from heat. Sprinkle with salt, and serve immediately.",
-  "instructions_list": [
-    "Melt butter in a large pot over medium. Add garlic, chile, and ginger; cook, stirring often, until aromatic and tender, about 5 minutes. Add lime juice, vinegar, and thyme; bring to a simmer over medium. Increase heat to medium-high; add shrimp, and cook, stirring often, until shrimp are opaque and cooked through, about 5 minutes. Remove from heat. Sprinkle with salt, and serve immediately."
-  ],
-  "language": "en",
-  "site_name": "Food & Wine",
-  "title": "Kwame's Pepper Shrimp",
   "total_time": 20,
   "yields": "4 servings",
-  "description": "Kwame Onwuachi's Pepper Shrimp, a beloved Jamaican street food, has a subtle heat and fragrance from Scothch bonnet chiles and fresh ginger."
+  "image": "https://www.foodandwine.com/thmb/BZ8hhoqmF0B8KlP_pHSEsxjhxnQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pepper-shrimp-FT-RECIPE0920-9b30018088cc419f88c91fa33564075c.jpg",
+  "description": "Kwame Onwuachi's Pepper Shrimp, a beloved Jamaican street food, has a subtle heat and fragrance from Scothch bonnet chiles and fresh ginger.",
+  "category": null,
+  "instructions_list": [
+    "Melt butter in a large pot over medium. Add garlic, chile, and ginger; cook, stirring often, until aromatic and tender, about 5 minutes. Add lime juice, vinegar, and thyme; bring to a simmer over medium. Increase heat to medium-high; add shrimp, and cook, stirring often, until shrimp are opaque and cooked through, about 5 minutes. Remove from heat. Sprinkle with salt, and serve immediately."
+  ]
 }

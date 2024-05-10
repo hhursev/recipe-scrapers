@@ -1,10 +1,21 @@
 {
-  "author": "Lekker en Simpel",
-  "canonical_url": "https://www.lekkerensimpel.com/american-pancakes/",
-  "category": null,
-  "description": "Wil je iemand (of jezelf) verwennen met een heel lekker ontbijtje? Bekijk dan dit recept voor American Pancakes met Nutella en fruit!",
   "host": "lekkerensimpel.com",
-  "image": "https://www.lekkerensimpel.com/wp-content/uploads/2016/08/IMG_7654.jpg",
+  "canonical_url": "https://www.lekkerensimpel.com/american-pancakes/",
+  "site_name": "Lekker en Simpel",
+  "author": "Lekker en Simpel",
+  "language": "nl-NL",
+  "title": "American pancakes",
+  "ingredients": [
+    "2 eieren",
+    "250 ml melk",
+    "snufje kaneel",
+    "125 gr zelfrijzend bakmeel",
+    "boter",
+    "1 tl suiker",
+    "scheut melk",
+    "4 el Nutella",
+    "Fruit zoals banaan en aardbei"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,25 +32,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 eieren",
-    "250 ml melk",
-    "snufje kaneel",
-    "125 gr zelfrijzend bakmeel",
-    "boter",
-    "1 tl suiker",
-    "scheut melk",
-    "4 el Nutella",
-    "Fruit zoals banaan en aardbei"
-  ],
   "instructions": "Bereidingswijze:\nSplits de eieren. Klop in een kom de eidooiers met de melk, kaneel, suiker en zelfrijzend bakmeel goed door elkaar. In een andere kom klop je de eiwitten stijf. Vind je het lastig om eieren te scheiden? Zelf doen wij het heel gemakkelijk door een ei in tweeën te breken en vervolgens het eiwit door onze handen de laten glijden in een kom. Uiteindelijk houd je de eidooier in je hand over en die kun je in een andere kom doen. Schep de stijfgeklopte eiwitten door de rest van het beslag. Let op: mix dit niet door elkaar maar schep het geheel voorzichtig door elkaar.\n\nSmelt een blokje boter in een pan en schep met een soeplepel 2-3 kleine pannenkoekjes in de pan.\n\nBak de pannenkoekjes circa 2 minuten per kant. Ondertussen verwarm de Nutella en melk in een pannetje. Meng even goed door elkaar en zodra je een mooi glad sausje hebt, is het klaar. Serveer de American pancakes met wat gesmolten nutella en wat vers fruit.",
+  "image": "https://www.lekkerensimpel.com/wp-content/uploads/2016/08/IMG_7654.jpg",
+  "description": "Wil je iemand (of jezelf) verwennen met een heel lekker ontbijtje? Bekijk dan dit recept voor American Pancakes met Nutella en fruit!",
+  "category": null,
   "instructions_list": [
     "Bereidingswijze:",
     "Splits de eieren. Klop in een kom de eidooiers met de melk, kaneel, suiker en zelfrijzend bakmeel goed door elkaar. In een andere kom klop je de eiwitten stijf. Vind je het lastig om eieren te scheiden? Zelf doen wij het heel gemakkelijk door een ei in tweeën te breken en vervolgens het eiwit door onze handen de laten glijden in een kom. Uiteindelijk houd je de eidooier in je hand over en die kun je in een andere kom doen. Schep de stijfgeklopte eiwitten door de rest van het beslag. Let op: mix dit niet door elkaar maar schep het geheel voorzichtig door elkaar.",
     "Smelt een blokje boter in een pan en schep met een soeplepel 2-3 kleine pannenkoekjes in de pan.",
     "Bak de pannenkoekjes circa 2 minuten per kant. Ondertussen verwarm de Nutella en melk in een pannetje. Meng even goed door elkaar en zodra je een mooi glad sausje hebt, is het klaar. Serveer de American pancakes met wat gesmolten nutella en wat vers fruit."
-  ],
-  "language": "nl-NL",
-  "site_name": "Lekker en Simpel",
-  "title": "American pancakes"
+  ]
 }

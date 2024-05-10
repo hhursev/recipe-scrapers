@@ -1,9 +1,20 @@
 {
-  "author": "Karen McCormick",
-  "canonical_url": "https://momswithcrockpots.com/slow-cooked-macaroni-cheese/",
-  "category": "Side Dish",
   "host": "momswithcrockpots.com",
-  "image": "https://momswithcrockpots.com/wp-content/uploads/2012/01/Crockpot-Macaroni-and-cheese-2.jpg",
+  "canonical_url": "https://momswithcrockpots.com/slow-cooked-macaroni-cheese/",
+  "site_name": "Moms with Crockpots",
+  "author": "Karen McCormick",
+  "language": "en-US",
+  "title": "Crockpot Macaroni & Cheese",
+  "ingredients": [
+    "8 ounce macaroni",
+    "2 teaspoons olive oil",
+    "1 cup evaporated milk",
+    "1/2 cup milk",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon ground black pepper",
+    "2 cups Cheddar cheese (shredded, or a Cheddar blend)",
+    "4 tablespoons butter (melted)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,27 +30,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "8 ounce macaroni",
-    "2 teaspoons olive oil",
-    "1 cup evaporated milk",
-    "1/2 cup milk",
-    "1/2 teaspoon salt",
-    "1/4 teaspoon ground black pepper",
-    "2 cups Cheddar cheese (shredded, or a Cheddar blend)",
-    "4 tablespoons butter (melted)"
-  ],
   "instructions": "Cook the macaroni following package directions. Drain in a colander and rinse with hot water. Drain well.\nGenerously butter the sides and bottom of a 3 1/2- to 4-quart slow cooker (I use about 2 tablespoons of butter).\nCombine the macaroni with the remaining ingredients in the slow cooker and blend well. Cover the slow cooker and cook on LOW for 2 1/2 to 3 1/2 hours, stirring a few times.\nIf desired, spoon the cooked macaroni and cheese mixture into a baking dish, sprinkle with a little more cheese, and put under the broiler for a minute or 2, just until cheese is melted.\nWhen the macaroni and cheese is done, feel free to spoon into a baking dish, top with a little more cheese, and put under the broiler for a minute or two for that \"fresh from the oven\" look.\nGluten Free\nUse a gluten free pasta",
-  "instructions_list": [
-    "Cook the macaroni following package directions. Drain in a colander and rinse with hot water. Drain well.",
-    "Generously butter the sides and bottom of a 3 1/2- to 4-quart slow cooker (I use about 2 tablespoons of butter).",
-    "Combine the macaroni with the remaining ingredients in the slow cooker and blend well. Cover the slow cooker and cook on LOW for 2 1/2 to 3 1/2 hours, stirring a few times.",
-    "If desired, spoon the cooked macaroni and cheese mixture into a baking dish, sprinkle with a little more cheese, and put under the broiler for a minute or 2, just until cheese is melted.",
-    "When the macaroni and cheese is done, feel free to spoon into a baking dish, top with a little more cheese, and put under the broiler for a minute or two for that \"fresh from the oven\" look.",
-    "Gluten Free",
-    "Use a gluten free pasta"
-  ],
-  "language": "en-US",
+  "total_time": 225,
+  "prep_time": 15,
+  "cook_time": 210,
+  "yields": "6 servings",
+  "image": "https://momswithcrockpots.com/wp-content/uploads/2012/01/Crockpot-Macaroni-and-cheese-2.jpg",
+  "description": "Shared Hundreds of Thousands of times this Crockpot Macaroni & Cheese Recipe is a keeper! Try this delicious homestyle dish today!",
   "nutrients": {
     "calories": "441 kcal",
     "carbohydrateContent": "34 g",
@@ -52,20 +49,23 @@
     "sugarContent": "7 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.0,
-  "ratings_count": 2,
-  "site_name": "Moms with Crockpots",
-  "title": "Crockpot Macaroni & Cheese",
-  "total_time": 225,
-  "yields": "6 servings",
-  "equipment": [
-    "6 Qt Crockpot"
-  ],
+  "cuisine": "American",
+  "category": "Side Dish",
   "keywords": [
     "holiday"
   ],
-  "description": "Shared Hundreds of Thousands of times this Crockpot Macaroni & Cheese Recipe is a keeper! Try this delicious homestyle dish today!",
-  "cook_time": 210,
-  "cuisine": "American",
-  "prep_time": 15
+  "equipment": [
+    "6 Qt Crockpot"
+  ],
+  "ratings": 4.0,
+  "ratings_count": 2,
+  "instructions_list": [
+    "Cook the macaroni following package directions. Drain in a colander and rinse with hot water. Drain well.",
+    "Generously butter the sides and bottom of a 3 1/2- to 4-quart slow cooker (I use about 2 tablespoons of butter).",
+    "Combine the macaroni with the remaining ingredients in the slow cooker and blend well. Cover the slow cooker and cook on LOW for 2 1/2 to 3 1/2 hours, stirring a few times.",
+    "If desired, spoon the cooked macaroni and cheese mixture into a baking dish, sprinkle with a little more cheese, and put under the broiler for a minute or 2, just until cheese is melted.",
+    "When the macaroni and cheese is done, feel free to spoon into a baking dish, top with a little more cheese, and put under the broiler for a minute or two for that \"fresh from the oven\" look.",
+    "Gluten Free",
+    "Use a gluten free pasta"
+  ]
 }

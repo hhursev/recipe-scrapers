@@ -1,9 +1,29 @@
 {
-  "author": "Innit Inc",
-  "canonical_url": "innit.com",
-  "category": "Salads",
   "host": "innit.com",
-  "image": "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_480x480.png",
+  "canonical_url": "innit.com",
+  "site_name": null,
+  "author": "Innit Inc",
+  "language": "en",
+  "title": "Tofu Mixed Greens Salad with Broccoli Beet Mix & Carrot Ginger Dressing",
+  "ingredients": [
+    "2 Carrots",
+    "1 piece Ginger",
+    "1/2 Orange",
+    "1 Tbsp Fresh Chives",
+    "2 cups Broccoli",
+    "1 lb Precooked Beets",
+    "2 Tbsp Italian Parsley",
+    "4 cups Spring Mix",
+    "2 packages Extra Firm Tofu",
+    "1 Tbsp Miso Paste",
+    "1/2 tsp Sesame Seed Oil",
+    "1/2 Tbsp Honey",
+    "1 1/4 tsp Kosher Salt",
+    "2/3 cup Olive Oil",
+    "2 pinches Black Pepper",
+    "1/4 cup Rice Wine Vinegar",
+    "1 cup Sunflower Seeds"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,26 +48,25 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 Carrots",
-    "1 piece Ginger",
-    "1/2 Orange",
-    "1 Tbsp Fresh Chives",
-    "2 cups Broccoli",
-    "1 lb Precooked Beets",
-    "2 Tbsp Italian Parsley",
-    "4 cups Spring Mix",
-    "2 packages Extra Firm Tofu",
-    "1 Tbsp Miso Paste",
-    "1/2 tsp Sesame Seed Oil",
-    "1/2 Tbsp Honey",
-    "1 1/4 tsp Kosher Salt",
-    "2/3 cup Olive Oil",
-    "2 pinches Black Pepper",
-    "1/4 cup Rice Wine Vinegar",
-    "1 cup Sunflower Seeds"
-  ],
   "instructions": "Preheat\nPreheat the oven to 425F.\nLine sheet pan with foil.\nSear Tofu\nDrain, pat dry & prepare tofu.\nHeat pan on high heat for 2 minutes.\nCook for 7 min or until golden brown on all sides, seasoning half way.\nRemove from pan.\nBake Broccoli\nToss broccoli with oil & salt.\nBake for 22 minutes.\nSimmer Carrots & Ginger\nPrepare ingredients.\nPre-heat pan. Add all ingredients; cover with water.\nCook until soft, about 5 minutes.\nBlend Dressing Ingredients\nTransfer carrot-ginger mixture to blender.\nAdd orange juice/zest, miso, sesame oil, honey, rice vinegar.\nBlend until smooth.\nLet cool in fridge for 10 minutes. Fold in chives & season.\nFlavor Beets\nToss beets in oil. Season with salt, pepper & parsley.\nToast Sunflower Seeds\nCombine ingredients.\nToast in oven for 5 - 7 min or until golden brown.\nMixed Greens\nWash greens & dry.\nServe and Enjoy!\nPair with your favorite music!",
+  "total_time": 51,
+  "prep_time": 2,
+  "cook_time": 49,
+  "yields": "4 servings",
+  "image": "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_480x480.png",
+  "nutrients": {
+    "sugarContent": "18 g",
+    "proteinContent": "32 g",
+    "fiberContent": "11 g",
+    "unsaturatedFatContent": "53 g",
+    "fatContent": "61 g",
+    "cholesterolContent": "0 mg",
+    "calories": "800 kcal",
+    "carbohydrateContent": "34 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "1040 mg"
+  },
+  "category": "Salads",
   "instructions_list": [
     "Preheat",
     "Preheat the oven to 425F.",
@@ -78,24 +97,5 @@
     "Wash greens & dry.",
     "Serve and Enjoy!",
     "Pair with your favorite music!"
-  ],
-  "language": "en",
-  "nutrients": {
-    "sugarContent": "18 g",
-    "proteinContent": "32 g",
-    "fiberContent": "11 g",
-    "unsaturatedFatContent": "53 g",
-    "fatContent": "61 g",
-    "cholesterolContent": "0 mg",
-    "calories": "800 kcal",
-    "carbohydrateContent": "34 g",
-    "saturatedFatContent": "8 g",
-    "sodiumContent": "1040 mg"
-  },
-  "site_name": null,
-  "title": "Tofu Mixed Greens Salad with Broccoli Beet Mix & Carrot Ginger Dressing",
-  "total_time": 51,
-  "yields": "4 servings",
-  "cook_time": 49,
-  "prep_time": 2
+  ]
 }

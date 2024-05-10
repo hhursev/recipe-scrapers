@@ -1,10 +1,19 @@
 {
-  "author": "NHS Better Health",
-  "canonical_url": "nhs.uk",
-  "category": null,
-  "description": "Try our recipe for healthier, homemade fish and chips! Click to read the ingredients and a step-by-step guide to making it",
   "host": "nhs.uk",
-  "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg",
+  "canonical_url": "nhs.uk",
+  "site_name": "nhs.uk",
+  "author": "NHS Better Health",
+  "language": "en",
+  "title": "Good old fish and chips",
+  "ingredients": [
+    "4 potatoes, scrubbed, each cut into 8 wedges",
+    "1 tablespoon vegetable oil",
+    "75g dried white or wholemeal breadcrumbs",
+    "1 egg, beaten with 2 tbsp cold water",
+    "4 fillets skinless white fish, like haddock, cod or pollock",
+    "300g mushy peas",
+    "1 pinch ground black pepper (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,25 +33,16 @@
       "purpose": "Swappable or optional"
     }
   ],
-  "ingredients": [
-    "4 potatoes, scrubbed, each cut into 8 wedges",
-    "1 tablespoon vegetable oil",
-    "75g dried white or wholemeal breadcrumbs",
-    "1 egg, beaten with 2 tbsp cold water",
-    "4 fillets skinless white fish, like haddock, cod or pollock",
-    "300g mushy peas",
-    "1 pinch ground black pepper (optional)"
-  ],
   "instructions": "Preheat the oven to 200C (fan 180C, gas mark 6). Lightly grease a baking sheet with a little vegetable oil.\nPut the potato wedges into a roasting tin. Add the remaining vegetable oil and toss to coat. Season with black pepper. Transfer to the oven to bake for 35 to 40 minutes, turning them over after 20 minutes.\nMeanwhile, sprinkle the breadcrumbs onto a large plate. Season with a little pepper. Dip each fish fillet in the beaten egg, then coat in the breadcrumbs. Place on the baking sheet, then transfer to the oven when you turn the potatoes, so that it cooks for 15 to 20 minutes. To check that the fish is cooked, it should flake easily when tested with a fork.\nHeat the mushy peas in a saucepan, then serve with the fish and chips.",
+  "total_time": 50,
+  "yields": "4 servings",
+  "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg",
+  "description": "Try our recipe for healthier, homemade fish and chips! Click to read the ingredients and a step-by-step guide to making it",
+  "category": null,
   "instructions_list": [
     "Preheat the oven to 200C (fan 180C, gas mark 6). Lightly grease a baking sheet with a little vegetable oil.",
     "Put the potato wedges into a roasting tin. Add the remaining vegetable oil and toss to coat. Season with black pepper. Transfer to the oven to bake for 35 to 40 minutes, turning them over after 20 minutes.",
     "Meanwhile, sprinkle the breadcrumbs onto a large plate. Season with a little pepper. Dip each fish fillet in the beaten egg, then coat in the breadcrumbs. Place on the baking sheet, then transfer to the oven when you turn the potatoes, so that it cooks for 15 to 20 minutes. To check that the fish is cooked, it should flake easily when tested with a fork.",
     "Heat the mushy peas in a saucepan, then serve with the fish and chips."
-  ],
-  "language": "en",
-  "site_name": "nhs.uk",
-  "title": "Good old fish and chips",
-  "total_time": 50,
-  "yields": "4 servings"
+  ]
 }

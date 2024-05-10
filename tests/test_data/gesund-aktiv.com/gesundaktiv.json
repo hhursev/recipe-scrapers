@@ -1,8 +1,21 @@
 {
-  "canonical_url": "https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes",
-  "description": "Tagesstart à la Popeye: Fluffige Spinat-Pfannkuchen mit süßem Topping aus Joghurt, Honig und Beeren.",
   "host": "gesund-aktiv.com",
-  "image": "https://www.gesund-aktiv.com/sites/default/files/2022-01/rezept_suesse_spinat-pancakes-a.png",
+  "canonical_url": "https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes",
+  "site_name": null,
+  "language": "de",
+  "title": "Süße Spinat-Pancakes",
+  "ingredients": [
+    "80 g Spinat",
+    "125 g Quark (Schaf)",
+    "100 ml Milch (Schaf)",
+    "100 g Dinkelmehl",
+    "2 Stück Eier",
+    "2 Esslöffel Joghurt (Schaf)",
+    "50 g Blaubeeren",
+    "2 Esslöffel Honig",
+    "2 Esslöffel Rapsöl",
+    "1 Prise Salz"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,26 +33,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "80 g Spinat",
-    "125 g Quark (Schaf)",
-    "100 ml Milch (Schaf)",
-    "100 g Dinkelmehl",
-    "2 Stück Eier",
-    "2 Esslöffel Joghurt (Schaf)",
-    "50 g Blaubeeren",
-    "2 Esslöffel Honig",
-    "2 Esslöffel Rapsöl",
-    "1 Prise Salz"
-  ],
   "instructions": "1 Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen Masse vermixen.\n2 Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig entsteht.\n3 Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune immer wieder wenden. Tipp: Mit kleinen, für die Pfanne geeigneten Dessertringen lassen sich die Pancakes ganz einfach in Form halten.\n4 Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und genießen.",
+  "image": "https://www.gesund-aktiv.com/sites/default/files/2022-01/rezept_suesse_spinat-pancakes-a.png",
+  "description": "Tagesstart à la Popeye: Fluffige Spinat-Pfannkuchen mit süßem Topping aus Joghurt, Honig und Beeren.",
   "instructions_list": [
     "1 Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen Masse vermixen.",
     "2 Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig entsteht.",
     "3 Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune immer wieder wenden. Tipp: Mit kleinen, für die Pfanne geeigneten Dessertringen lassen sich die Pancakes ganz einfach in Form halten.",
     "4 Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und genießen."
-  ],
-  "language": "de",
-  "site_name": null,
-  "title": "Süße Spinat-Pancakes"
+  ]
 }

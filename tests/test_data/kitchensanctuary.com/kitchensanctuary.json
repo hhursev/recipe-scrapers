@@ -1,9 +1,10 @@
 {
-  "author": "Nicky Corbishley",
-  "canonical_url": "https://www.kitchensanctuary.com/korean-fried-chicken/",
   "host": "kitchensanctuary.com",
-  "description": "The best Korean Fried Chicken - Crispy buttermilk fried chicken smothered in a spicy, sticky Korean Gochujang sauce. INSANELY good!",
-  "image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Korean-Fried-Chicken-square-FS-New-7377.jpg",
+  "canonical_url": "https://www.kitchensanctuary.com/korean-fried-chicken/",
+  "site_name": "Nicky's Kitchen Sanctuary",
+  "author": "Nicky Corbishley",
+  "language": "en-US",
+  "title": "Korean Fried Chicken",
   "ingredients": [
     "4 chicken breasts ( sliced into long thick strips)",
     "240 ml (1 cup) buttermilk",
@@ -76,6 +77,15 @@
     }
   ],
   "instructions": "Place the chicken in a bowl. Add the buttermilk, salt, pepper, and garlic salt. Mix together, cover and place in the fridge to marinade for at least 1 hour (up to overnight)\nPreheat the oven to a low heat (to keep the cooked chicken warm). Heat a large pan of vegetable oil (or preheat your deep fat fryer) until hot (you can test by dropping a small cube of bread in there, if it rises immediately to the top and starts to bubble rapidly, it’s hot enough). You’ll need at least 1 litre (4 cups) of oil.\nMix together the crispy coating ingredients in a small bowl.\nTake the chicken out of the fridge. Lift a piece from the buttermilk and allow the excess to drip off. Dredge the chicken in the crispy coating mixture – ensuring it’s fully covered. Place on a tray and repeat until all of the chicken is coated.\nOnce the oil is hot enough, add in 5 or 6 of the chicken tenders. You can add more or less depending on the size of your pan, just be sure not to overcrowd the chicken.\nCook for 3-5 minutes until golden brown and cooked in the middle. You can check this by cutting open a piece of chicken, if it’s no longer pink in the middle, it’s cooked.\nPlace on a tray in the oven to keep warm whilst you cook the rest of the chicken. **If you want to ensure the chicken stays extra crispy whilst in the oven, see my 'Top Tips for Success' section in the post.\nMeanwhile, make the sauce. Place the gochujang, honey, sugar, soy sauce, garlic, ginger, vegetable oil, and sesame oil in a saucepan and stir together.\nBring to the boil, then simmer for 5 minutes until thickened.\nPour over the crispy chicken and carefully toss together, then top with the spring onions, chilli flakes, and sesame seeds before serving.",
+  "total_time": 110,
+  "prep_time": 20,
+  "cook_time": 30,
+  "yields": "4 servings",
+  "image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Korean-Fried-Chicken-square-FS-New-7377.jpg",
+  "description": "The best Korean Fried Chicken - Crispy buttermilk fried chicken smothered in a spicy, sticky Korean Gochujang sauce. INSANELY good!",
+  "cuisine": "Asian,Korean",
+  "category": "Appetizer,Dinner,Party Food",
+  "ratings": 4.88,
   "instructions_list": [
     "Place the chicken in a bowl. Add the buttermilk, salt, pepper, and garlic salt. Mix together, cover and place in the fridge to marinade for at least 1 hour (up to overnight)",
     "Preheat the oven to a low heat (to keep the cooked chicken warm). Heat a large pan of vegetable oil (or preheat your deep fat fryer) until hot (you can test by dropping a small cube of bread in there, if it rises immediately to the top and starts to bubble rapidly, it’s hot enough). You’ll need at least 1 litre (4 cups) of oil.",
@@ -87,15 +97,5 @@
     "Meanwhile, make the sauce. Place the gochujang, honey, sugar, soy sauce, garlic, ginger, vegetable oil, and sesame oil in a saucepan and stir together.",
     "Bring to the boil, then simmer for 5 minutes until thickened.",
     "Pour over the crispy chicken and carefully toss together, then top with the spring onions, chilli flakes, and sesame seeds before serving."
-  ],
-  "language": "en-US",
-  "site_name": "Nicky's Kitchen Sanctuary",
-  "title": "Korean Fried Chicken",
-  "total_time": 110,
-  "prep_time": 20,
-  "cook_time": 30,
-  "yields": "4 servings",
-  "cuisine": "Asian,Korean",
-  "ratings": 4.88,
-  "category": "Appetizer,Dinner,Party Food"
+  ]
 }

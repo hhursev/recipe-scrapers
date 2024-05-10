@@ -1,11 +1,19 @@
 {
-  "author": "The Good Housekeeping Cookery Team",
-  "canonical_url": "https://www.goodhousekeeping.com/uk/halloween/a535444/spiced-pumpkin-soup/",
-  "category": "Halloween,dinner",
-  "cuisine": "American",
-  "description": "Use the flesh from your Halloween pumpkin in this speedy spiced pumpkin soup recipe. It's the perfect comfort food for winter weather.",
   "host": "goodhousekeeping.com",
-  "image": "https://hips.hearstapps.com/goodhousekeeping-uk/main/embedded/5444/t5-Spiced-Pumpkin-Soup-de.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+  "canonical_url": "https://www.goodhousekeeping.com/uk/halloween/a535444/spiced-pumpkin-soup/",
+  "site_name": "Good Housekeeping",
+  "author": "The Good Housekeeping Cookery Team",
+  "language": "en-GB",
+  "title": "Spiced pumpkin soup",
+  "ingredients": [
+    "600 g pumpkin flesh, roughly chopped",
+    "2 celery sticks, roughly chopped",
+    "1 garlic clove, roughly chopped",
+    "1 tsp. each ground cumin and coriander",
+    "800 mL vegetable stock",
+    "200 mL coconut milk",
+    "1 tbsp. pumpkin seeds"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,22 +28,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "600 g pumpkin flesh, roughly chopped",
-    "2 celery sticks, roughly chopped",
-    "1 garlic clove, roughly chopped",
-    "1 tsp. each ground cumin and coriander",
-    "800 mL vegetable stock",
-    "200 mL coconut milk",
-    "1 tbsp. pumpkin seeds"
-  ],
   "instructions": "Put the pumpkin flesh into a food processor and whiz for 30sec until almost smooth. Add the celery, garlic and spices and whiz again for 30 seconds. Empty into a large pan.\nPour over stock and coconut milk, bring to the boil, then cover and simmer for 15 minutes.\nRemove from heat and blend until smooth - do this in batches, if necessary. Check the seasoning and ladle into warmed soup bowls. Sprinkle with pumpkin seeds and freshly ground black pepper. Serve with crusty bread.",
-  "instructions_list": [
-    "Put the pumpkin flesh into a food processor and whiz for 30sec until almost smooth. Add the celery, garlic and spices and whiz again for 30 seconds. Empty into a large pan.",
-    "Pour over stock and coconut milk, bring to the boil, then cover and simmer for 15 minutes.",
-    "Remove from heat and blend until smooth - do this in batches, if necessary. Check the seasoning and ladle into warmed soup bowls. Sprinkle with pumpkin seeds and freshly ground black pepper. Serve with crusty bread."
-  ],
-  "language": "en-GB",
+  "total_time": 20,
+  "prep_time": 5,
+  "cook_time": 15,
+  "yields": "4 servings",
+  "image": "https://hips.hearstapps.com/goodhousekeeping-uk/main/embedded/5444/t5-Spiced-Pumpkin-Soup-de.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+  "description": "Use the flesh from your Halloween pumpkin in this speedy spiced pumpkin soup recipe. It's the perfect comfort food for winter weather.",
   "nutrients": {
     "calories": "222",
     "fatContent": "20g",
@@ -43,17 +42,18 @@
     "sugarContent": "6g",
     "carbohydrateContent": "8g"
   },
-  "site_name": "Good Housekeeping",
-  "title": "Spiced pumpkin soup",
-  "total_time": 20,
-  "yields": "4 servings",
-  "cook_time": 15,
-  "prep_time": 5,
+  "cuisine": "American",
+  "category": "Halloween,dinner",
   "keywords": [
     "pumpkin soup",
     "pumpkin soup recipe",
     "easy pumpkin soup",
     "how to make pumpkin soup",
     "pumpkin recipes"
+  ],
+  "instructions_list": [
+    "Put the pumpkin flesh into a food processor and whiz for 30sec until almost smooth. Add the celery, garlic and spices and whiz again for 30 seconds. Empty into a large pan.",
+    "Pour over stock and coconut milk, bring to the boil, then cover and simmer for 15 minutes.",
+    "Remove from heat and blend until smooth - do this in batches, if necessary. Check the seasoning and ladle into warmed soup bowls. Sprinkle with pumpkin seeds and freshly ground black pepper. Serve with crusty bread."
   ]
 }

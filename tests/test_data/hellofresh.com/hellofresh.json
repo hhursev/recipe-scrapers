@@ -1,11 +1,22 @@
 {
-  "author": "HelloFresh",
-  "canonical_url": "https://www.hellofresh.co.uk/recipes/thai-style-pork-rice-bowl-5feb63f527c560013957dd24",
-  "category": "main course",
-  "cook_time": 15,
-  "cuisine": "Thai",
   "host": "hellofresh.com",
-  "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/thai-style-pork-rice-bowl-f48c1ef8-5d5c3825.jpg",
+  "canonical_url": "https://www.hellofresh.co.uk/recipes/thai-style-pork-rice-bowl-5feb63f527c560013957dd24",
+  "site_name": "HelloFresh",
+  "author": "HelloFresh",
+  "language": "en-GB",
+  "title": "Thai Style Pork Rice Bowl with Green Beans, Coriander and Rice",
+  "ingredients": [
+    "1 unit(s) Echalion Shallot",
+    "150 grams Green Beans",
+    "150 grams Basmati Rice",
+    "25 milliliter(s) Soy Sauce",
+    "2 unit(s) Garlic Clove",
+    "½ unit(s) Red Chilli",
+    "2 unit(s) Spring Onion",
+    "240 grams Pork Mince",
+    "50 grams Ketjap Manis",
+    "300 milliliter(s) Water for the Rice"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,19 +34,22 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 unit(s) Echalion Shallot",
-    "150 grams Green Beans",
-    "150 grams Basmati Rice",
-    "25 milliliter(s) Soy Sauce",
-    "2 unit(s) Garlic Clove",
-    "½ unit(s) Red Chilli",
-    "2 unit(s) Spring Onion",
-    "240 grams Pork Mince",
-    "50 grams Ketjap Manis",
-    "300 milliliter(s) Water for the Rice"
-  ],
   "instructions": "Pour the water for the rice (see ingredients for amount) into a saucepan and bring to the boil. When boiling, add 0.25 tsp of salt, stir in the rice, lower the heat to medium and pop a lid on the pan. Leave to cook for 10 mins, then remove the pan from the heat (still covered) and leave to the side for another 10 mins or until ready to serve (the rice will continue to cook in its own steam).\nMeanwhile, halve, peel and chop the shallot into small pieces. Peel and grate the garlic (or use a garlic press). Halve the red chilli lengthways, de-seed and finely chop. Trim the spring onion and thinly slice. Trim the green beans then chop into thirds.\nHeat a splash of oil in a frying pan on high heat. Once hot, add the green beans and stir-fry until tender, about 5-6 mins. When cooked, transfer to a plate.\nKeep the pan on high heat and add another splash of oil if the pan is dry. Add the pork mince and stir-fry until browned, 6-8 mins, breaking it up with a wooden spoon as it cooks. When the pork is cooked, drain off any excess oil, add the shallot, garlic, spring onion and as much chilli as you dare. Cook until the veggies are softened, another 2-3 mins.\nReturn the green beans to the pan. Add the ketjap manis and soy sauce and stir everything together. Tip: If the mixture is a little dry, add a splash of water.\nRemove the pan from the heat. Fluff up the rice with a fork and share between your bowls. Top with the pork stir-fry and get stuck in. Super tasty! Or, as they say in Thailand, Aloy mak!",
+  "total_time": 50,
+  "prep_time": 35,
+  "cook_time": 15,
+  "yields": "2 servings",
+  "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/thai-style-pork-rice-bowl-f48c1ef8-5d5c3825.jpg",
+  "description": "In its home country, this tasty Thai dish is known as Moo Pad Krapow. We can't help thinking that 'krapow' sounds like one of the captions from a 1960's Batman fight, but it's actually the name for a particularly lovely herb: Thai basil. It's fragrant, sweet and spicy with a slight aniseed flavour and really brings this stir-fry alive. Holy basil, Batman! It's dinner-dinner-dinner-dinner time!",
+  "nutrients": {
+    "servingSize": "368"
+  },
+  "cuisine": "Thai",
+  "category": "main course",
+  "keywords": [
+    "Spicy",
+    "SEO"
+  ],
   "instructions_list": [
     "Pour the water for the rice (see ingredients for amount) into a saucepan and bring to the boil. When boiling, add 0.25 tsp of salt, stir in the rice, lower the heat to medium and pop a lid on the pan. Leave to cook for 10 mins, then remove the pan from the heat (still covered) and leave to the side for another 10 mins or until ready to serve (the rice will continue to cook in its own steam).",
     "Meanwhile, halve, peel and chop the shallot into small pieces. Peel and grate the garlic (or use a garlic press). Halve the red chilli lengthways, de-seed and finely chop. Trim the spring onion and thinly slice. Trim the green beans then chop into thirds.",
@@ -43,19 +57,5 @@
     "Keep the pan on high heat and add another splash of oil if the pan is dry. Add the pork mince and stir-fry until browned, 6-8 mins, breaking it up with a wooden spoon as it cooks. When the pork is cooked, drain off any excess oil, add the shallot, garlic, spring onion and as much chilli as you dare. Cook until the veggies are softened, another 2-3 mins.",
     "Return the green beans to the pan. Add the ketjap manis and soy sauce and stir everything together. Tip: If the mixture is a little dry, add a splash of water.",
     "Remove the pan from the heat. Fluff up the rice with a fork and share between your bowls. Top with the pork stir-fry and get stuck in. Super tasty! Or, as they say in Thailand, Aloy mak!"
-  ],
-  "language": "en-GB",
-  "nutrients": {
-    "servingSize": "368"
-  },
-  "prep_time": 35,
-  "site_name": "HelloFresh",
-  "title": "Thai Style Pork Rice Bowl with Green Beans, Coriander and Rice",
-  "total_time": 50,
-  "yields": "2 servings",
-  "keywords": [
-    "Spicy",
-    "SEO"
-  ],
-  "description": "In its home country, this tasty Thai dish is known as Moo Pad Krapow. We can't help thinking that 'krapow' sounds like one of the captions from a 1960's Batman fight, but it's actually the name for a particularly lovely herb: Thai basil. It's fragrant, sweet and spicy with a slight aniseed flavour and really brings this stir-fry alive. Holy basil, Batman! It's dinner-dinner-dinner-dinner time!"
+  ]
 }

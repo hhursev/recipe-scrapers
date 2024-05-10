@@ -1,9 +1,26 @@
 {
-  "author": "meathead",
-  "canonical_url": "https://amazingribs.com/tested-recipes/sausage-recipes/texas-hot-guts-smoked-sausage/",
-  "category": "Main Course",
   "host": "amazingribs.com",
-  "image": "https://amazingribs.com/wp-content/uploads/2020/10/hot-guts-open.jpg",
+  "canonical_url": "https://amazingribs.com/tested-recipes/sausage-recipes/texas-hot-guts-smoked-sausage/",
+  "site_name": "Meathead's AmazingRibs.com",
+  "author": "meathead",
+  "language": "en-US",
+  "title": "Texas Hot Guts Recipe",
+  "ingredients": [
+    "2 teaspoons whole black peppercorns",
+    "2 teaspoons fresh ground black pepper",
+    "1 tablespoon mild American paprika",
+    "2 teaspoons garlic powder",
+    "2 teaspoons Morton Coarse Kosher Salt",
+    "2 teaspoons rubbed sage",
+    "2 teaspoons cayenne, chipotle, or other hot chile powder or flakes",
+    "1 medium green jalapeño",
+    "½ small onion",
+    "3 garlic cloves",
+    "20 ounces ground pork butt",
+    "12 ounces ground beef chuck",
+    "⅓ cup very cold water",
+    "4 feet pork sausage casings"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,47 +42,30 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 teaspoons whole black peppercorns",
-    "2 teaspoons fresh ground black pepper",
-    "1 tablespoon mild American paprika",
-    "2 teaspoons garlic powder",
-    "2 teaspoons Morton Coarse Kosher Salt",
-    "2 teaspoons rubbed sage",
-    "2 teaspoons cayenne, chipotle, or other hot chile powder or flakes",
-    "1 medium green jalapeño",
-    "½ small onion",
-    "3 garlic cloves",
-    "20 ounces ground pork butt",
-    "12 ounces ground beef chuck",
-    "⅓ cup very cold water",
-    "4 feet pork sausage casings"
-  ],
   "instructions": "Prep. Put the whole black peppercorns into a plastic bag and smash the heck outta them with a small frying pan until you have chunks of cracked peppercorns. Mix them with the rest of the black pepper, paprika, garlic powder, salt, sage, and chile powder in a small bowl. Remove the seeds and stems from the jalapeño and mince it into tiny bits. Peel the onion and garlic and mince them too. Now, go to our article on the Science of Making Sausage and follow steps (1) through (16).\nSmoke. Set up your grill or smoker and maintain a steady 225°F (107.2°C). Smoke the sausages at 225°F (107.2°C) until they hit 160°F (71.1°C) internal temperature, about 1 to 2 hours. As long as they hit that internal temp, you can experiment with the time to get your preferred level of smoke on the sausage.\nServe. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard.",
-  "instructions_list": [
-    "Prep. Put the whole black peppercorns into a plastic bag and smash the heck outta them with a small frying pan until you have chunks of cracked peppercorns. Mix them with the rest of the black pepper, paprika, garlic powder, salt, sage, and chile powder in a small bowl. Remove the seeds and stems from the jalapeño and mince it into tiny bits. Peel the onion and garlic and mince them too. Now, go to our article on the Science of Making Sausage and follow steps (1) through (16).",
-    "Smoke. Set up your grill or smoker and maintain a steady 225°F (107.2°C). Smoke the sausages at 225°F (107.2°C) until they hit 160°F (71.1°C) internal temperature, about 1 to 2 hours. As long as they hit that internal temp, you can experiment with the time to get your preferred level of smoke on the sausage.",
-    "Serve. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard."
-  ],
-  "language": "en-US",
-  "ratings": 4.1,
-  "ratings_count": 105,
-  "site_name": "Meathead's AmazingRibs.com",
-  "title": "Texas Hot Guts Recipe",
   "total_time": 165,
+  "prep_time": 45,
+  "cook_time": 120,
   "yields": "8 servings",
-  "equipment": [
-    "sausage grinder",
-    "sausage stuffer"
-  ],
+  "image": "https://amazingribs.com/wp-content/uploads/2020/10/hot-guts-open.jpg",
+  "description": "In the Lone Star state, smoked sausage is as central to barbecue as brisket. There is no standard recipe, but natural casing (the guts) always hold the ground meat mixture. My favorite blend leans more on pork than beef and includes lots of black pepper. IMPORTANT: Before you get started, read our article on The Science of Sausage Making.",
+  "cuisine": "American",
+  "category": "Main Course",
   "keywords": [
     "brisket",
     "brisket sausage",
     "sausage",
     "smoked sausage"
   ],
-  "cook_time": 120,
-  "description": "In the Lone Star state, smoked sausage is as central to barbecue as brisket. There is no standard recipe, but natural casing (the guts) always hold the ground meat mixture. My favorite blend leans more on pork than beef and includes lots of black pepper. IMPORTANT: Before you get started, read our article on The Science of Sausage Making.",
-  "cuisine": "American",
-  "prep_time": 45
+  "equipment": [
+    "sausage grinder",
+    "sausage stuffer"
+  ],
+  "ratings": 4.1,
+  "ratings_count": 105,
+  "instructions_list": [
+    "Prep. Put the whole black peppercorns into a plastic bag and smash the heck outta them with a small frying pan until you have chunks of cracked peppercorns. Mix them with the rest of the black pepper, paprika, garlic powder, salt, sage, and chile powder in a small bowl. Remove the seeds and stems from the jalapeño and mince it into tiny bits. Peel the onion and garlic and mince them too. Now, go to our article on the Science of Making Sausage and follow steps (1) through (16).",
+    "Smoke. Set up your grill or smoker and maintain a steady 225°F (107.2°C). Smoke the sausages at 225°F (107.2°C) until they hit 160°F (71.1°C) internal temperature, about 1 to 2 hours. As long as they hit that internal temp, you can experiment with the time to get your preferred level of smoke on the sausage.",
+    "Serve. You can serve Hot Guts nekkid on a plate with some saltine crackers and hot sauce (traditional Texas style) or with some potatoes and a salad, or on a bun, or incorporate them into a dish like German Potato Salad or Choucroute Garnie, the classic Alsatian hot dish of sauerkraut, potatoes, various charcuterie, and mustard."
+  ]
 }

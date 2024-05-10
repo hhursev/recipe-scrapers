@@ -1,9 +1,28 @@
 {
-  "author": "thepalatablelife",
-  "canonical_url": "https://www.thepalatablelife.com/peppermint-swirl-cookies/",
   "host": "thepalatablelife.com",
-  "description": "",
-  "image": "https://www.thepalatablelife.com/wp-content/uploads/2023/12/peppermint-swirl-cookies-scaled.jpg",
+  "canonical_url": "https://www.thepalatablelife.com/peppermint-swirl-cookies/",
+  "site_name": "the palatable life",
+  "author": "thepalatablelife",
+  "language": "en-US",
+  "title": "peppermint swirl cookies",
+  "ingredients": [
+    "3/4 cup butter (divided)",
+    "3/4 cup brown sugar (170 grams)",
+    "1/2 cup white sugar (100 grams)",
+    "1 egg + 1 egg yolk",
+    "1 tsp vanilla",
+    "3/4 cup flour (90 grams)",
+    "1/2 tsp baking soda",
+    "1/4 tsp salt",
+    "1/2 cup semi-sweet chocolate chips",
+    "1/4 cup crushed peppermint",
+    "3/4 cup flour (90 grams)",
+    "1/4 cup cocoa powder",
+    "1/2 tsp baking soda",
+    "1/4 tsp salt",
+    "1/2 cup white chocolate chips",
+    "1/4 cup crushed peppermint"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -37,25 +56,11 @@
       "purpose": "chocolate dough"
     }
   ],
-  "ingredients": [
-    "3/4 cup butter (divided)",
-    "3/4 cup brown sugar (170 grams)",
-    "1/2 cup white sugar (100 grams)",
-    "1 egg + 1 egg yolk",
-    "1 tsp vanilla",
-    "3/4 cup flour (90 grams)",
-    "1/2 tsp baking soda",
-    "1/4 tsp salt",
-    "1/2 cup semi-sweet chocolate chips",
-    "1/4 cup crushed peppermint",
-    "3/4 cup flour (90 grams)",
-    "1/4 cup cocoa powder",
-    "1/2 tsp baking soda",
-    "1/4 tsp salt",
-    "1/2 cup white chocolate chips",
-    "1/4 cup crushed peppermint"
-  ],
   "instructions": "Preheat the oven to 350F. Add 1/2 cup (one stick) of butter to a pan over medium heat. Stir as the butter melts and continue to stir as the butter begins to bubble. After a few minutes the butter will start to foam up. When the foam subsides, you'll be left with brown, nutty smelling butter.\nCarefully pour the brown butter into a bowl. Add the remaining 1/4 cup of butter to the bowl and stir. The cold butter will melt into the brown butter and help cool it down.\nAdd the butter mixture to a bowl. Add brown sugar and white sugar and use a stand mixer or hand mixer to combine until lighter and fluffy, about 3-4 minutes.\nAdd the egg + egg yolk and vanilla and mix until fully incorporated.\nEqually divide the batter into two bowls. I recommend using a kitchen scale to be exact, but if you don't have a kitchen scale, use measuring cups or just eyeball it!\nTo one half of the dough, add the remaining dry ingredients for the plain dough: flour, baking soda, and salt. Mix until just combined. Add the semi-sweet chocolate chips and peppermint chunks, and mix until just combined.\nTo the other half of the dough, add the remaining dry ingredients for the chocolate dough: flour, cocoa powder, baking soda, and salt. Mix until just combined. Add the white chocolate chips and peppermint chunks, and mix until just combined.\nUsing a large cookie scoop (about 1/4 cup), scoop about 1 tbsp of the plain dough, then 1 tbsp of the chocolate dough, the repeat until the scoop is full. Place the dough ball on a parchment lined baking sheet, then repeat the process with the remaining dough.\nPlace up to 4 large dough balls on a baking sheet and bake for 8-9 minutes. Let them cool for 10 minutes, then transfer to a cooling rack. Enjoy!",
+  "yields": "12 servings",
+  "image": "https://www.thepalatablelife.com/wp-content/uploads/2023/12/peppermint-swirl-cookies-scaled.jpg",
+  "description": "",
+  "category": "Dessert",
   "instructions_list": [
     "Preheat the oven to 350F. Add 1/2 cup (one stick) of butter to a pan over medium heat. Stir as the butter melts and continue to stir as the butter begins to bubble. After a few minutes the butter will start to foam up. When the foam subsides, you'll be left with brown, nutty smelling butter.",
     "Carefully pour the brown butter into a bowl. Add the remaining 1/4 cup of butter to the bowl and stir. The cold butter will melt into the brown butter and help cool it down.",
@@ -66,10 +71,5 @@
     "To the other half of the dough, add the remaining dry ingredients for the chocolate dough: flour, cocoa powder, baking soda, and salt. Mix until just combined. Add the white chocolate chips and peppermint chunks, and mix until just combined.",
     "Using a large cookie scoop (about 1/4 cup), scoop about 1 tbsp of the plain dough, then 1 tbsp of the chocolate dough, the repeat until the scoop is full. Place the dough ball on a parchment lined baking sheet, then repeat the process with the remaining dough.",
     "Place up to 4 large dough balls on a baking sheet and bake for 8-9 minutes. Let them cool for 10 minutes, then transfer to a cooling rack. Enjoy!"
-  ],
-  "language": "en-US",
-  "site_name": "the palatable life",
-  "title": "peppermint swirl cookies",
-  "yields": "12 servings",
-  "category": "Dessert"
+  ]
 }

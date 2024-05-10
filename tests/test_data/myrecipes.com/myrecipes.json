@@ -1,8 +1,17 @@
 {
-  "author": "Adam Dolge",
-  "canonical_url": "https://www.myrecipes.com/recipe/cacio-e-pepe",
   "host": "myrecipes.com",
-  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F01%2F25%2Fmyrecipestrending_1-09-18_1772_1-2000.jpg",
+  "canonical_url": "https://www.myrecipes.com/recipe/cacio-e-pepe",
+  "site_name": "MyRecipes",
+  "author": "Adam Dolge",
+  "language": "en",
+  "title": "Cacio e Pepe",
+  "ingredients": [
+    "6 ounces bucatini pasta",
+    "1 ½ teaspoons kosher salt, divided",
+    "3 tablespoons olive oil",
+    "1 teaspoon black pepper, plus more for garnish",
+    "1 ½ ounces pecorino Romano, grated (about 3/4 cups), plus more for garnish"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -15,26 +24,17 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "6 ounces bucatini pasta",
-    "1 ½ teaspoons kosher salt, divided",
-    "3 tablespoons olive oil",
-    "1 teaspoon black pepper, plus more for garnish",
-    "1 ½ ounces pecorino Romano, grated (about 3/4 cups), plus more for garnish"
-  ],
   "instructions": "Add pasta to a large skillet over high; cover with water, and add 1 teaspoon of the salt. Bring to a boil, and cook, stirring occasionally, until nearly tender, about 6 minutes.\nMeanwhile, heat oil in a medium skillet over medium; stir in black pepper, and cook until toasted, about 1 minute. Remove from heat.\nWhisk 3 tablespoons of the pasta cooking water into oil and pepper. Using tongs, transfer pasta into oil and pepper mixture, reserving pasta cooking water in skillet. Cook over low, stirring constantly, while sprinkling in cheese.\nAdd more cooking water as needed, 1 tablespoon at a time, to create a creamy sauce. Stir in remaining 1/2 teaspoon salt. Divide pasta between 2 bowls, and garnish with pepper and cheese. Serve immediately.",
+  "total_time": 20.0,
+  "yields": "2 cups",
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F01%2F25%2Fmyrecipestrending_1-09-18_1772_1-2000.jpg",
+  "description": "This foolproof method delivers the classic, crave worthy flavors and textures of cacio e pepe—strong peppery backbone (without verging towards too “hot”), earthy saltiness from the Pecorino cheese, and a luscious sauciness that will have you ready to lick the bowl. That said, while our method largely stays true to the iconic dish, one element might catch a traditionalist’s eye: olive oil. Though not exactly typical in cacio e pepe, we found that incorporating olive oil makes emulsifying the delicate cheese sauce a far less finicky process. Grating the cheese (as opposed to shredding) or using a Microplane is also key, as this allows the cheese to melt quickly. And finally, remember that pasta water is your best friend when it comes to making a silky smooth sauce. We developed this recipe for two as it makes for a incredibly impressive—yet budget-friendly—date night dinner when served with a simple green salad and a dry white wine. However, you can easily double the recipe to serve more. We love bucatini for this recipe because the hollow noodle is perfect for capturing the rich sauce, but you can use whatever noodle shape you like; linguine, spaghetti,or fettuccine are all great options.",
+  "ratings": 3.0,
+  "ratings_count": 3,
   "instructions_list": [
     "Add pasta to a large skillet over high; cover with water, and add 1 teaspoon of the salt. Bring to a boil, and cook, stirring occasionally, until nearly tender, about 6 minutes.",
     "Meanwhile, heat oil in a medium skillet over medium; stir in black pepper, and cook until toasted, about 1 minute. Remove from heat.",
     "Whisk 3 tablespoons of the pasta cooking water into oil and pepper. Using tongs, transfer pasta into oil and pepper mixture, reserving pasta cooking water in skillet. Cook over low, stirring constantly, while sprinkling in cheese.",
     "Add more cooking water as needed, 1 tablespoon at a time, to create a creamy sauce. Stir in remaining 1/2 teaspoon salt. Divide pasta between 2 bowls, and garnish with pepper and cheese. Serve immediately."
-  ],
-  "language": "en",
-  "ratings": 3.0,
-  "ratings_count": 3,
-  "site_name": "MyRecipes",
-  "title": "Cacio e Pepe",
-  "total_time": 20.0,
-  "yields": "2 cups",
-  "description": "This foolproof method delivers the classic, crave worthy flavors and textures of cacio e pepe—strong peppery backbone (without verging towards too “hot”), earthy saltiness from the Pecorino cheese, and a luscious sauciness that will have you ready to lick the bowl. That said, while our method largely stays true to the iconic dish, one element might catch a traditionalist’s eye: olive oil. Though not exactly typical in cacio e pepe, we found that incorporating olive oil makes emulsifying the delicate cheese sauce a far less finicky process. Grating the cheese (as opposed to shredding) or using a Microplane is also key, as this allows the cheese to melt quickly. And finally, remember that pasta water is your best friend when it comes to making a silky smooth sauce. We developed this recipe for two as it makes for a incredibly impressive—yet budget-friendly—date night dinner when served with a simple green salad and a dry white wine. However, you can easily double the recipe to serve more. We love bucatini for this recipe because the hollow noodle is perfect for capturing the rich sauce, but you can use whatever noodle shape you like; linguine, spaghetti,or fettuccine are all great options."
+  ]
 }

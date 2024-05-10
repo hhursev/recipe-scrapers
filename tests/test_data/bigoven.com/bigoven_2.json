@@ -1,9 +1,27 @@
 {
-  "author": "Kimography",
-  "canonical_url": "https://www.bigoven.com/recipe/white-chocolate-raspberry-cupcakes/165783",
-  "category": "Desserts",
   "host": "bigoven.com",
-  "image": "https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/white-chocolate-raspberry-cupc-bd2bf9.jpg",
+  "canonical_url": "https://www.bigoven.com/recipe/white-chocolate-raspberry-cupcakes/165783",
+  "site_name": "BigOven.com",
+  "author": "Kimography",
+  "language": "en",
+  "title": "White Chocolate Raspberry Cupcakes",
+  "ingredients": [
+    "8 tablespoons Butter at room temp",
+    "3/4 cup Sugar",
+    "1 1/4 cups Flour",
+    "1/4 teaspoon Baking soda",
+    "1 teaspoon Baking Powder",
+    "1/4 teaspoon Kosher salt",
+    "2 Eggs at room temp",
+    "1/4 cup Sour cream",
+    "1/2 teaspoon Raspberry extract",
+    "1/3 cup White chocolate chips",
+    "1/2 cup cream cheese",
+    "1 cup sifted powdered sugar",
+    "1/2 teaspoon vanilla extract",
+    "1/4 cup butter room temp.",
+    "1/2 pint fresh raspberries"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -31,37 +49,13 @@
       "purpose": "Icing:"
     }
   ],
-  "ingredients": [
-    "8 tablespoons Butter at room temp",
-    "3/4 cup Sugar",
-    "1 1/4 cups Flour",
-    "1/4 teaspoon Baking soda",
-    "1 teaspoon Baking Powder",
-    "1/4 teaspoon Kosher salt",
-    "2 Eggs at room temp",
-    "1/4 cup Sour cream",
-    "1/2 teaspoon Raspberry extract",
-    "1/3 cup White chocolate chips",
-    "1/2 cup cream cheese",
-    "1 cup sifted powdered sugar",
-    "1/2 teaspoon vanilla extract",
-    "1/4 cup butter room temp.",
-    "1/2 pint fresh raspberries"
-  ],
   "instructions": "1.Preheat the oven to 350F degrees. Line a muffin pan with 8 liners. Sift the flour, baking soda, baking powder, and salt.\n2.Cream the butter & sugar until light and fluffy. Add the eggs one at a time. Slowly add the flour to the butter mixture. Add the sour cream & raspberry extract. Then stir in the chocolate chunks.\n3.Divide the batter evenly among the liners and bake for 15-20 minutes, until done. For mini cupcakes, bake 12-14 minutes.\nFor the icing:\n1/2 cup of cream cheese\n1 cup of sifted powder sugar\n1/2 tsp. of vanilla extract\n1/4 cup of butter ~~at; room temp.\nA half pint of fresh raspberries\nBeat cream cheese, powdered sugar, vanilla, butter and raspberries until smooth. Top each cupcake with frosting and 1 raspberry, if desired.",
-  "instructions_list": [
-    "1.Preheat the oven to 350F degrees. Line a muffin pan with 8 liners. Sift the flour, baking soda, baking powder, and salt.",
-    "2.Cream the butter & sugar until light and fluffy. Add the eggs one at a time. Slowly add the flour to the butter mixture. Add the sour cream & raspberry extract. Then stir in the chocolate chunks.",
-    "3.Divide the batter evenly among the liners and bake for 15-20 minutes, until done. For mini cupcakes, bake 12-14 minutes.",
-    "For the icing:",
-    "1/2 cup of cream cheese",
-    "1 cup of sifted powder sugar",
-    "1/2 tsp. of vanilla extract",
-    "1/4 cup of butter ~~at; room temp.",
-    "A half pint of fresh raspberries",
-    "Beat cream cheese, powdered sugar, vanilla, butter and raspberries until smooth. Top each cupcake with frosting and 1 raspberry, if desired."
-  ],
-  "language": "en",
+  "total_time": 25,
+  "prep_time": 15,
+  "cook_time": 10,
+  "yields": "8 servings",
+  "image": "https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/white-chocolate-raspberry-cupc-bd2bf9.jpg",
+  "description": "delicious bite-sized bits of raspberry goodness",
   "nutrients": {
     "calories": "481 calories",
     "fatContent": "26.8979413713296 g",
@@ -75,11 +69,8 @@
     "sugarContent": "55.7385479494114 g",
     "transFatContent": "2.40130497025108 g"
   },
-  "ratings": 3.96,
-  "ratings_count": 24,
-  "site_name": "BigOven.com",
-  "title": "White Chocolate Raspberry Cupcakes",
-  "total_time": 25,
+  "cuisine": "American",
+  "category": "Desserts",
   "keywords": [
     "patdessert",
     "sumdessert",
@@ -108,9 +99,18 @@
     "contains eggs",
     "pescatarian"
   ],
-  "yields": "8 servings",
-  "description": "delicious bite-sized bits of raspberry goodness",
-  "cook_time": 10,
-  "cuisine": "American",
-  "prep_time": 15
+  "ratings": 3.96,
+  "ratings_count": 24,
+  "instructions_list": [
+    "1.Preheat the oven to 350F degrees. Line a muffin pan with 8 liners. Sift the flour, baking soda, baking powder, and salt.",
+    "2.Cream the butter & sugar until light and fluffy. Add the eggs one at a time. Slowly add the flour to the butter mixture. Add the sour cream & raspberry extract. Then stir in the chocolate chunks.",
+    "3.Divide the batter evenly among the liners and bake for 15-20 minutes, until done. For mini cupcakes, bake 12-14 minutes.",
+    "For the icing:",
+    "1/2 cup of cream cheese",
+    "1 cup of sifted powder sugar",
+    "1/2 tsp. of vanilla extract",
+    "1/4 cup of butter ~~at; room temp.",
+    "A half pint of fresh raspberries",
+    "Beat cream cheese, powdered sugar, vanilla, butter and raspberries until smooth. Top each cupcake with frosting and 1 raspberry, if desired."
+  ]
 }

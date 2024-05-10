@@ -1,11 +1,27 @@
 {
-  "author": "Matt Ivan",
-  "canonical_url": "https://www.platingpixels.com/chicken-fried-chicken/",
-  "category": "Chicken,Dinner,Entree",
-  "cuisine": "American",
-  "description": "Chicken Fried Chicken is a simple recipe of breaded chicken breasts fried to crispy, extra crunchy goodness for an easy weeknight dinner the family will love.",
   "host": "platingpixels.com",
-  "image": "https://www.platingpixels.com/wp-content/uploads/2022/09/Chicken-Fried-Chicken-recipe-1.jpg",
+  "canonical_url": "https://www.platingpixels.com/chicken-fried-chicken/",
+  "site_name": "Plating Pixels",
+  "author": "Matt Ivan",
+  "language": "en-US",
+  "title": "Chicken Fried Chicken",
+  "ingredients": [
+    "2 pounds Foster Farms Free Range Simply Raised Chicken Breast Fillets (cut in half)",
+    "2 cups all-purpose flour",
+    "2 teaspoons baking powder",
+    "1 ½ teaspoons baking soda",
+    "1 ½ teaspoons salt",
+    "1 teaspoon garlic powder",
+    "1 teaspoon paprika",
+    "½ teaspoon ground black pepper",
+    "1 ½ cups buttermilk",
+    "1 large egg",
+    "Frying oil (such as avocado, grapeseed, peanut, canola, or corn oil)",
+    "⅓ cup of the used frying oil (or butter)",
+    "½ cup flour",
+    "2 ½ cups whole milk",
+    "Salt and pepper to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -33,39 +49,13 @@
       "purpose": "Country Gravy Sauce"
     }
   ],
-  "ingredients": [
-    "2 pounds Foster Farms Free Range Simply Raised Chicken Breast Fillets (cut in half)",
-    "2 cups all-purpose flour",
-    "2 teaspoons baking powder",
-    "1 ½ teaspoons baking soda",
-    "1 ½ teaspoons salt",
-    "1 teaspoon garlic powder",
-    "1 teaspoon paprika",
-    "½ teaspoon ground black pepper",
-    "1 ½ cups buttermilk",
-    "1 large egg",
-    "Frying oil (such as avocado, grapeseed, peanut, canola, or corn oil)",
-    "⅓ cup of the used frying oil (or butter)",
-    "½ cup flour",
-    "2 ½ cups whole milk",
-    "Salt and pepper to taste"
-  ],
   "instructions": "To Fry the Chicken Breasts\nIn a large bowl, whisk together flour, baking powder, baking soda, salt, garlic powder, paprika, and pepper. Set aside.\nIn a separate bowl stir together the buttermilk and egg.\nOne at a time, dip the chicken breasts into the flour mixture and press to evenly coat both sides. Next, dip into the buttermilk mixture, then dip into the flour mixture again to coat well. Repeat for remaining chicken pieces.\nPreheat about 2 inches of frying oil in a skillet or frying pan on medium to 325° F.\nAdd some of the breaded chicken breast pieces, leaving space between each. Fry for 3 to 5 minutes until browned. Rotate to brown the other sides and cook to an internal temp of at least 165° F.\nRemove the chicken breasts and place them onto a paper-towel line plate to drain. Repeat for remaining chicken pieces. Reserve some of the frying oil to make the country gravy.\nServe with country gravy or desired sauce and sides.\nTo Make the Country Gravy\nIn a medium saucepan over medium heat, stir together the reserved frying oil and flour until it forms a thick past-like consistency. If using butter, melt the butter first, then add the flour.\nSlowly add the milk while and whisk until smooth. Cook 3 to 5 minutes, stirring often, to heat and thicken the sauce.\nPour over the fried chicken and serve.",
-  "instructions_list": [
-    "To Fry the Chicken Breasts",
-    "In a large bowl, whisk together flour, baking powder, baking soda, salt, garlic powder, paprika, and pepper. Set aside.",
-    "In a separate bowl stir together the buttermilk and egg.",
-    "One at a time, dip the chicken breasts into the flour mixture and press to evenly coat both sides. Next, dip into the buttermilk mixture, then dip into the flour mixture again to coat well. Repeat for remaining chicken pieces.",
-    "Preheat about 2 inches of frying oil in a skillet or frying pan on medium to 325° F.",
-    "Add some of the breaded chicken breast pieces, leaving space between each. Fry for 3 to 5 minutes until browned. Rotate to brown the other sides and cook to an internal temp of at least 165° F.",
-    "Remove the chicken breasts and place them onto a paper-towel line plate to drain. Repeat for remaining chicken pieces. Reserve some of the frying oil to make the country gravy.",
-    "Serve with country gravy or desired sauce and sides.",
-    "To Make the Country Gravy",
-    "In a medium saucepan over medium heat, stir together the reserved frying oil and flour until it forms a thick past-like consistency. If using butter, melt the butter first, then add the flour.",
-    "Slowly add the milk while and whisk until smooth. Cook 3 to 5 minutes, stirring often, to heat and thicken the sauce.",
-    "Pour over the fried chicken and serve."
-  ],
-  "language": "en-US",
+  "total_time": 30,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "6 servings",
+  "image": "https://www.platingpixels.com/wp-content/uploads/2022/09/Chicken-Fried-Chicken-recipe-1.jpg",
+  "description": "Chicken Fried Chicken is a simple recipe of breaded chicken breasts fried to crispy, extra crunchy goodness for an easy weeknight dinner the family will love.",
   "nutrients": {
     "servingSize": "1 piece with gravy",
     "calories": "669 kcal",
@@ -80,17 +70,27 @@
     "sugarContent": "8 g",
     "unsaturatedFatContent": "22 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Plating Pixels",
-  "title": "Chicken Fried Chicken",
-  "total_time": 30,
-  "yields": "6 servings",
-  "cook_time": 15,
-  "prep_time": 15,
+  "cuisine": "American",
+  "category": "Chicken,Dinner,Entree",
   "keywords": [
     "breaded fried chicken",
     "Chicken Fried Chicken",
     "fried chicken recipe"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "To Fry the Chicken Breasts",
+    "In a large bowl, whisk together flour, baking powder, baking soda, salt, garlic powder, paprika, and pepper. Set aside.",
+    "In a separate bowl stir together the buttermilk and egg.",
+    "One at a time, dip the chicken breasts into the flour mixture and press to evenly coat both sides. Next, dip into the buttermilk mixture, then dip into the flour mixture again to coat well. Repeat for remaining chicken pieces.",
+    "Preheat about 2 inches of frying oil in a skillet or frying pan on medium to 325° F.",
+    "Add some of the breaded chicken breast pieces, leaving space between each. Fry for 3 to 5 minutes until browned. Rotate to brown the other sides and cook to an internal temp of at least 165° F.",
+    "Remove the chicken breasts and place them onto a paper-towel line plate to drain. Repeat for remaining chicken pieces. Reserve some of the frying oil to make the country gravy.",
+    "Serve with country gravy or desired sauce and sides.",
+    "To Make the Country Gravy",
+    "In a medium saucepan over medium heat, stir together the reserved frying oil and flour until it forms a thick past-like consistency. If using butter, melt the butter first, then add the flour.",
+    "Slowly add the milk while and whisk until smooth. Cook 3 to 5 minutes, stirring often, to heat and thicken the sauce.",
+    "Pour over the fried chicken and serve."
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "author": "Sohla El-Waylly",
-  "canonical_url": "https://food52.com/recipes/84961-pomegranate-chicken-wings-recipe",
-  "category": "Dinner",
   "host": "food52.com",
-  "image": "https://images.food52.com/CUXCdo5jHKn4Xu5wctPhSXMz3eE=/1200x1200/f8582fee-07a1-4ef3-acfe-e1dd8dcbba80--2021-0119_pomegranate-spice-chicken-wings_3x2_mark-weinberg-289.jpg",
+  "canonical_url": "https://food52.com/recipes/84961-pomegranate-chicken-wings-recipe",
+  "site_name": "Food52",
+  "author": "Sohla El-Waylly",
+  "language": "en-us",
+  "title": "Sticky Pomegranate & Black Pepper Chicken Wings",
+  "ingredients": [
+    "2 to 2 1/4 pounds chicken wings",
+    "1 tablespoon kosher salt",
+    "1 tablespoon granulated sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon MSG (optional)",
+    "2 tablespoons neutral oil, such as grapeseed or canola",
+    "1/4 cup granulated sugar",
+    "1/2 cup pomegranate molasses",
+    "2 tablespoons freshly ground black pepper",
+    "2 teaspoons kosher salt",
+    "2 teaspoons ground cinnamon",
+    "1 teaspoon freshly ground nutmeg",
+    "1/2 cup toasted walnut halves, roughly chopped",
+    "Flaky salt (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,39 +42,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 to 2 1/4 pounds chicken wings",
-    "1 tablespoon kosher salt",
-    "1 tablespoon granulated sugar",
-    "2 teaspoons baking powder",
-    "1/2 teaspoon MSG (optional)",
-    "2 tablespoons neutral oil, such as grapeseed or canola",
-    "1/4 cup granulated sugar",
-    "1/2 cup pomegranate molasses",
-    "2 tablespoons freshly ground black pepper",
-    "2 teaspoons kosher salt",
-    "2 teaspoons ground cinnamon",
-    "1 teaspoon freshly ground nutmeg",
-    "1/2 cup toasted walnut halves, roughly chopped",
-    "Flaky salt (optional)"
-  ],
   "instructions": "Line a sheet pan with foil (for easy cleanup) and set an ovenproof wire rack inside.\nBrine the wings: Pat the wings dry with a paper towel and place in a large bowl. In a small bowl, stir together the kosher salt, sugar, baking powder, and MSG (if using). Sprinkle this mixture over the wings and toss until evenly coated. Arrange the wings on the wire rack and refrigerate uncovered at least 6 hours or preferably overnight, flipping the wings halfway through. (Wash the bowl and keep it handy—we’ll be using it again.)\nWhen you’re ready to roast, heat the oven to 350°F.\nThe first roast: Transfer the wings to the big bowl, toss with the oil until evenly coated, then return them to the wire rack. Roast the wings, flipping them once halfway through, until the skin is lightly browned, the flesh of the drumettes is starting to pull away from the bones, and the fat from the skin has mostly rendered, about 1 hour.\nMeanwhile, prepare the glaze: Wash the large bowl. Add the sugar and pour 2 tablespoons of boiling water on top, whisking until the sugar dissolves. Add the pomegranate molasses, black pepper, salt, cinnamon, and nutmeg, whisking until combined.\nThe second roast: Remove the wings from the oven and increase the temperature to 375°F. Transfer the wings to the bowl with the glaze and toss to coat. Use tongs to return the wings to the rack, reserving any remaining glaze in the bowl, and roast until lightly charred and glossy, about 20 minutes.\nOnce the wings are out of the oven, transfer them to the bowl and toss again in the remaining glaze. Transfer the wings to a platter and garnish with the walnuts. Sprinkle with flaky salt if desired.",
-  "instructions_list": [
-    "Line a sheet pan with foil (for easy cleanup) and set an ovenproof wire rack inside.",
-    "Brine the wings: Pat the wings dry with a paper towel and place in a large bowl. In a small bowl, stir together the kosher salt, sugar, baking powder, and MSG (if using). Sprinkle this mixture over the wings and toss until evenly coated. Arrange the wings on the wire rack and refrigerate uncovered at least 6 hours or preferably overnight, flipping the wings halfway through. (Wash the bowl and keep it handy—we’ll be using it again.)",
-    "When you’re ready to roast, heat the oven to 350°F.",
-    "The first roast: Transfer the wings to the big bowl, toss with the oil until evenly coated, then return them to the wire rack. Roast the wings, flipping them once halfway through, until the skin is lightly browned, the flesh of the drumettes is starting to pull away from the bones, and the fat from the skin has mostly rendered, about 1 hour.",
-    "Meanwhile, prepare the glaze: Wash the large bowl. Add the sugar and pour 2 tablespoons of boiling water on top, whisking until the sugar dissolves. Add the pomegranate molasses, black pepper, salt, cinnamon, and nutmeg, whisking until combined.",
-    "The second roast: Remove the wings from the oven and increase the temperature to 375°F. Transfer the wings to the bowl with the glaze and toss to coat. Use tongs to return the wings to the rack, reserving any remaining glaze in the bowl, and roast until lightly charred and glossy, about 20 minutes.",
-    "Once the wings are out of the oven, transfer them to the bowl and toss again in the remaining glaze. Transfer the wings to a platter and garnish with the walnuts. Sprinkle with flaky salt if desired."
-  ],
-  "language": "en-us",
-  "ratings": 4.56,
-  "ratings_count": 9,
-  "site_name": "Food52",
-  "title": "Sticky Pomegranate & Black Pepper Chicken Wings",
   "total_time": 1520,
+  "prep_time": 1440,
+  "cook_time": 80,
   "yields": "4 servings",
+  "image": "https://images.food52.com/CUXCdo5jHKn4Xu5wctPhSXMz3eE=/1200x1200/f8582fee-07a1-4ef3-acfe-e1dd8dcbba80--2021-0119_pomegranate-spice-chicken-wings_3x2_mark-weinberg-289.jpg",
+  "description": "These sticky, oven-roasted wings—with pomegranate molasses, warm spices, and toasted walnuts—are inspired by fesenjan, a Northern Iranian stew.",
+  "cuisine": "American",
+  "category": "Dinner",
   "keywords": [
     "Pomegranate",
     "Chicken",
@@ -66,8 +59,15 @@
     "Walnut",
     "Game Day"
   ],
-  "description": "These sticky, oven-roasted wings—with pomegranate molasses, warm spices, and toasted walnuts—are inspired by fesenjan, a Northern Iranian stew.",
-  "cook_time": 80,
-  "cuisine": "American",
-  "prep_time": 1440
+  "ratings": 4.56,
+  "ratings_count": 9,
+  "instructions_list": [
+    "Line a sheet pan with foil (for easy cleanup) and set an ovenproof wire rack inside.",
+    "Brine the wings: Pat the wings dry with a paper towel and place in a large bowl. In a small bowl, stir together the kosher salt, sugar, baking powder, and MSG (if using). Sprinkle this mixture over the wings and toss until evenly coated. Arrange the wings on the wire rack and refrigerate uncovered at least 6 hours or preferably overnight, flipping the wings halfway through. (Wash the bowl and keep it handy—we’ll be using it again.)",
+    "When you’re ready to roast, heat the oven to 350°F.",
+    "The first roast: Transfer the wings to the big bowl, toss with the oil until evenly coated, then return them to the wire rack. Roast the wings, flipping them once halfway through, until the skin is lightly browned, the flesh of the drumettes is starting to pull away from the bones, and the fat from the skin has mostly rendered, about 1 hour.",
+    "Meanwhile, prepare the glaze: Wash the large bowl. Add the sugar and pour 2 tablespoons of boiling water on top, whisking until the sugar dissolves. Add the pomegranate molasses, black pepper, salt, cinnamon, and nutmeg, whisking until combined.",
+    "The second roast: Remove the wings from the oven and increase the temperature to 375°F. Transfer the wings to the bowl with the glaze and toss to coat. Use tongs to return the wings to the rack, reserving any remaining glaze in the bowl, and roast until lightly charred and glossy, about 20 minutes.",
+    "Once the wings are out of the oven, transfer them to the bowl and toss again in the remaining glaze. Transfer the wings to a platter and garnish with the walnuts. Sprinkle with flaky salt if desired."
+  ]
 }

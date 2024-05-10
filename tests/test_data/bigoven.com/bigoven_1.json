@@ -1,9 +1,24 @@
 {
-  "author": "BigOvenEditorial",
-  "canonical_url": "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857",
-  "category": "Bread",
   "host": "bigoven.com",
-  "image": "https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/no-knead-herb-focaccia-79674b.jpg",
+  "canonical_url": "https://www.bigoven.com/recipe/no-knead-herb-focaccia/2719857",
+  "site_name": "BigOven.com",
+  "author": "BigOvenEditorial",
+  "language": "en",
+  "title": "No-Knead Herb Focaccia",
+  "ingredients": [
+    "1 packet active dry yeast (or 2 ¼ teaspoons)",
+    "2 cups warm water divided",
+    "2 teaspoons granulated sugar",
+    "5 ½ cups bread flour",
+    "¼ cup extra-virgin olive oil (plus more to grease pans and dough)",
+    "1 tablespoon sea salt (or kosher salt)",
+    "flaky sea salt (like Maldon)",
+    "¼ cup extra-virgin olive oil",
+    "4 sprigs fresh rosemary leaves",
+    "3 sprigs fresh thyme leaves",
+    "2 sprigs fresh oregano (or various herbs of choice)",
+    "¼ teaspoon crushed red pepper"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,21 +43,39 @@
       "purpose": "Herb Topping"
     }
   ],
-  "ingredients": [
-    "1 packet active dry yeast (or 2 ¼ teaspoons)",
-    "2 cups warm water divided",
-    "2 teaspoons granulated sugar",
-    "5 ½ cups bread flour",
-    "¼ cup extra-virgin olive oil (plus more to grease pans and dough)",
-    "1 tablespoon sea salt (or kosher salt)",
-    "flaky sea salt (like Maldon)",
-    "¼ cup extra-virgin olive oil",
-    "4 sprigs fresh rosemary leaves",
-    "3 sprigs fresh thyme leaves",
-    "2 sprigs fresh oregano (or various herbs of choice)",
-    "¼ teaspoon crushed red pepper"
-  ],
   "instructions": "Herb Topping:\nIn a small bowl, combine olive oil, herbs, and crushed red pepper. Set aside until ready.\nFor the dough:\n1. In a small saucepan, warm 1 cup water to a lukewarm temperature of 105°F to 110°F on an instant-read thermometer. Pour water into the bowl of a stand mixer and gently whisk in yeast and sugar to dissolve. Allow the yeast to bloom briefly, about 5-10 minutes.\n2. Add remaining cup water, flour, and sea salt. With the dough hook attachment on lowest speed, mix until a loose, craggy dough forms and then increase speed to medium-high and mix until a smooth dough begins to wrap around the hook, about 5 to 7 minutes. Turn off the mixer, cover bowl with a damp towel, and allow dough to rest for 10 to 15 minutes. Resume mixing on medium-high for 10 to 15 minutes until dough becomes very elastic and begins tugging away from the sides of the bowl. Dough will be quite sticky, but resist the urge to add additional flour -- dough.\n3. For the first rise, drizzle ¼ cup olive oil into the mixing bowl and swirl the sides of the bowl to coat as well as the surface of the dough. Cover and allow to rise in a warm place until doubled in size, about 90 to 120 minutes.\n4. Use this time to prepare your herb oil and prep your decorative toppings, if using.\n5. For the second rise, drizzle another ¼ cup olive oil on a 18x13 sheet pan (or two half size pans at 13x9). Then, with well-oiled hands, gingerly raise the dough from the mixing bowl and allow its weight to stretch the dough down upon itself. Repeat this stretching technique 4 to 6 times to help encourage extra rise. Transfer the dough to the sheet pan and stretch in all directions to coax it into rectangular submission. It will likely not comply straight away. Cover with oiled plastic wrap and, after a brief rest (about 10 to 15 minutes), stretch the dough a second time.\n6. If you plan to delay baking, now is the time to cover the sheet pan with oiled plastic wrap and place in the refrigerator for up to 24 hours. Bring to room temperature about an hour before baking so that the dough has doubled in height.\n7. While the dough is doubling, preheat the oven to 450°F. Arrange the oven racks to both their highest and lowest positions.\n8. Once risen and ready to bake, uncover the dough and, with well-oiled hands, dimple the dough by plunging fingers spread wide downward into the bottom of the pan. Bubbles are good, but especially large ones can be gently deflated.\n9. Drizzle the focaccia as desired. We recommend a bare minimum of ¼ extra-virgin olive oil and a generous flurry of flaky sea salt, but encourage you to gild the lily here with herbs and garlic aplenty.\n10. Place focaccia on the lowest rack and bake until the edges begin to pull away from the sides and corners of the pan, about 15 to 20 minutes. Transfer to the top rack and continue baking until the top is golden brown and bubbles are very well browned, about 5 minutes. Cool in the pan briefly then transfer to a cooling rack until completely cooled.\nPossible toppings to decorate:\nred onions\nshallots\nchives\nfresh sage\nfresh thyme\nfresh oregano\nfresh dill\nfresh parsley\nfresh basil\nmix of mini sweet peppers\nbell peppers\nbanana peppers\njalapeno peppers\ncherry tomatoes\nkalamata olives, pitted",
+  "total_time": 720,
+  "prep_time": 25,
+  "cook_time": 695,
+  "yields": "24 servings",
+  "image": "https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/no-knead-herb-focaccia-79674b.jpg",
+  "description": "Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It'll leave you scratching your head and wondering how so few ingredients and such little effort can produce something so exquisitely satisfying. But, don't take our word for it -- bake some up tonight.",
+  "nutrients": {
+    "calories": "2 calories",
+    "fatContent": "0.0816344254758325 g",
+    "carbohydrateContent": "0.199958265882293 g",
+    "cholesterolContent": "0.155729166219071 mg",
+    "fiberContent": "0.110702244487001 g",
+    "proteinContent": "0.133798586494011 g",
+    "saturatedFatContent": "0.0386162663043889 g",
+    "servingSize": "1 1 Serving (21g)",
+    "sodiumContent": "1.19938596631195 mg",
+    "sugarContent": "0.0892560213952928 g",
+    "transFatContent": "0.0131417293773331 g"
+  },
+  "cuisine": "Italian",
+  "category": "Bread",
+  "keywords": [
+    "white meat free",
+    "nut free",
+    "contains gluten",
+    "red meat free",
+    "shellfish free",
+    "dairy free",
+    "pescatarian"
+  ],
+  "ratings": 4.33,
+  "ratings_count": 3,
   "instructions_list": [
     "Herb Topping:",
     "In a small bowl, combine olive oil, herbs, and crushed red pepper. Set aside until ready.",
@@ -73,38 +106,5 @@
     "jalapeno peppers",
     "cherry tomatoes",
     "kalamata olives, pitted"
-  ],
-  "language": "en",
-  "nutrients": {
-    "calories": "2 calories",
-    "fatContent": "0.0816344254758325 g",
-    "carbohydrateContent": "0.199958265882293 g",
-    "cholesterolContent": "0.155729166219071 mg",
-    "fiberContent": "0.110702244487001 g",
-    "proteinContent": "0.133798586494011 g",
-    "saturatedFatContent": "0.0386162663043889 g",
-    "servingSize": "1 1 Serving (21g)",
-    "sodiumContent": "1.19938596631195 mg",
-    "sugarContent": "0.0892560213952928 g",
-    "transFatContent": "0.0131417293773331 g"
-  },
-  "ratings": 4.33,
-  "ratings_count": 3,
-  "site_name": "BigOven.com",
-  "title": "No-Knead Herb Focaccia",
-  "total_time": 720,
-  "yields": "24 servings",
-  "keywords": [
-    "white meat free",
-    "nut free",
-    "contains gluten",
-    "red meat free",
-    "shellfish free",
-    "dairy free",
-    "pescatarian"
-  ],
-  "description": "Our No-Knead Herb Focaccia is impossibly easy. And impossibly delicious. It'll leave you scratching your head and wondering how so few ingredients and such little effort can produce something so exquisitely satisfying. But, don't take our word for it -- bake some up tonight.",
-  "cook_time": 695,
-  "cuisine": "Italian",
-  "prep_time": 25
+  ]
 }

@@ -1,11 +1,25 @@
 {
-  "author": "Marc Matsumoto",
-  "canonical_url": "https://norecipes.com/orange-chicken-recipe/",
-  "category": "Entree",
-  "cuisine": "Best,Chinese-American",
-  "description": "Orange Chicken is a classic Chinese-American take-out dish popularized by Panda Express. My version is loaded with juicy chunks of gingery marinated chicken, and the all-natural glaze is made with a triple dose orange which makes it super fragrant.",
   "host": "norecipes.com",
-  "image": "https://norecipes.com/wp-content/uploads/2017/06/orange-chicken-005.jpg",
+  "canonical_url": "https://norecipes.com/orange-chicken-recipe/",
+  "site_name": "Norecipes - Elevating Everyday Meals",
+  "author": "Marc Matsumoto",
+  "language": "en-US",
+  "title": "Best Orange Chicken",
+  "ingredients": [
+    "450 grams boneless skin-on chicken thighs (cut into 1.5-inch pieces)",
+    "1 tablespoon soy sauce",
+    "1 tablespoon sake",
+    "1 teaspoon fresh ginger (grated)",
+    "1/2 cup potato starch",
+    "vegetable oil (for frying)",
+    "3/4 cup orange juice",
+    "1/3 cup orange marmalade",
+    "1/2 tablespoon orange zest (zest of 1/2 orange)",
+    "1/2 teaspoon potato starch",
+    "1/2 teaspoon salt",
+    "1/4 red bell pepper (minced, for garnish)",
+    "1/2 teaspoon toasted sesame seeds (for garnish)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -36,33 +50,13 @@
       "purpose": "to serve"
     }
   ],
-  "ingredients": [
-    "450 grams boneless skin-on chicken thighs (cut into 1.5-inch pieces)",
-    "1 tablespoon soy sauce",
-    "1 tablespoon sake",
-    "1 teaspoon fresh ginger (grated)",
-    "1/2 cup potato starch",
-    "vegetable oil (for frying)",
-    "3/4 cup orange juice",
-    "1/3 cup orange marmalade",
-    "1/2 tablespoon orange zest (zest of 1/2 orange)",
-    "1/2 teaspoon potato starch",
-    "1/2 teaspoon salt",
-    "1/4 red bell pepper (minced, for garnish)",
-    "1/2 teaspoon toasted sesame seeds (for garnish)"
-  ],
   "instructions": "Add the chicken, soy sauce, sake and fresh ginger to a bowl and mix together. Let the chicken marinate for at least 15 minutes, or preferably up to 8 hours.\nAdd all the ingredients for the orange sauce into a skillet and whisk together.\nWhen you're ready to make the orange chicken, preheat a heavy pot filled with 2-inches of vegetable oil to 340 degrees F (170 C). Prepare a paper towel lined rack.\nAdd 1/2 cup potato starch to another bowl, and dust the chicken with the potato starch. You want an even coating, but it should not be caked on.\nFry the chicken in batches until golden brown and cooked through, flipping a few times to ensure it browns evenly.\nDrain the chicken on the prepared rack.\nWhen all the chicken is done, heat the skillet with the orange sauce over medium-high heat, stirring constantly until it starts to thicken.\nAdd the fried chicken to the orange sauce and toss to coat evenly. The orange chicken is done when the sauce forms a thick glaze around the pieces of the chicken. Garnish with red pepper and sesame seeds.",
-  "instructions_list": [
-    "Add the chicken, soy sauce, sake and fresh ginger to a bowl and mix together. Let the chicken marinate for at least 15 minutes, or preferably up to 8 hours.",
-    "Add all the ingredients for the orange sauce into a skillet and whisk together.",
-    "When you're ready to make the orange chicken, preheat a heavy pot filled with 2-inches of vegetable oil to 340 degrees F (170 C). Prepare a paper towel lined rack.",
-    "Add 1/2 cup potato starch to another bowl, and dust the chicken with the potato starch. You want an even coating, but it should not be caked on.",
-    "Fry the chicken in batches until golden brown and cooked through, flipping a few times to ensure it browns evenly.",
-    "Drain the chicken on the prepared rack.",
-    "When all the chicken is done, heat the skillet with the orange sauce over medium-high heat, stirring constantly until it starts to thicken.",
-    "Add the fried chicken to the orange sauce and toss to coat evenly. The orange chicken is done when the sauce forms a thick glaze around the pieces of the chicken. Garnish with red pepper and sesame seeds."
-  ],
-  "language": "en-US",
+  "total_time": 30,
+  "prep_time": 5,
+  "cook_time": 10,
+  "yields": "4 servings",
+  "image": "https://norecipes.com/wp-content/uploads/2017/06/orange-chicken-005.jpg",
+  "description": "Orange Chicken is a classic Chinese-American take-out dish popularized by Panda Express. My version is loaded with juicy chunks of gingery marinated chicken, and the all-natural glaze is made with a triple dose orange which makes it super fragrant.",
   "nutrients": {
     "calories": "418 kcal",
     "carbohydrateContent": "41 g",
@@ -75,17 +69,23 @@
     "sugarContent": "21 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.43,
-  "ratings_count": 14,
-  "site_name": "Norecipes - Elevating Everyday Meals",
-  "title": "Best Orange Chicken",
-  "total_time": 30,
-  "yields": "4 servings",
-  "cook_time": 10,
-  "prep_time": 5,
+  "cuisine": "Best,Chinese-American",
+  "category": "Entree",
   "keywords": [
     "easy",
     "orange",
     "quick"
+  ],
+  "ratings": 4.43,
+  "ratings_count": 14,
+  "instructions_list": [
+    "Add the chicken, soy sauce, sake and fresh ginger to a bowl and mix together. Let the chicken marinate for at least 15 minutes, or preferably up to 8 hours.",
+    "Add all the ingredients for the orange sauce into a skillet and whisk together.",
+    "When you're ready to make the orange chicken, preheat a heavy pot filled with 2-inches of vegetable oil to 340 degrees F (170 C). Prepare a paper towel lined rack.",
+    "Add 1/2 cup potato starch to another bowl, and dust the chicken with the potato starch. You want an even coating, but it should not be caked on.",
+    "Fry the chicken in batches until golden brown and cooked through, flipping a few times to ensure it browns evenly.",
+    "Drain the chicken on the prepared rack.",
+    "When all the chicken is done, heat the skillet with the orange sauce over medium-high heat, stirring constantly until it starts to thicken.",
+    "Add the fried chicken to the orange sauce and toss to coat evenly. The orange chicken is done when the sauce forms a thick glaze around the pieces of the chicken. Garnish with red pepper and sesame seeds."
   ]
 }

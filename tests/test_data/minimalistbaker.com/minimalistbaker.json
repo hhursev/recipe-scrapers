@@ -1,10 +1,19 @@
 {
-  "author": "Minimalist Baker",
-  "canonical_url": "https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/",
-  "category": "Appetizer,Dip,Side Dish",
-  "description": "Quick, fluffy vegan ricotta cheese made with 5 simple ingredients including cashews, lemon, and garlic. Comes together in a food processor or blender and is perfect for pasta, pizza, salads, and more!",
   "host": "minimalistbaker.com",
-  "image": "https://minimalistbaker.com/wp-content/uploads/2020/05/Cashew-Ricotta-Cheese-sQUARE.jpg",
+  "canonical_url": "https://minimalistbaker.com/vegan-cashew-ricotta-cheese-soy-free-fast-easy/",
+  "site_name": "Minimalist Baker",
+  "author": "Minimalist Baker",
+  "language": "en-US",
+  "title": "Cashew Ricotta Cheese (Soy-Free, Fast, Easy!)",
+  "ingredients": [
+    "1 ¼ cup raw cashews",
+    "1 Tbsp lemon juice",
+    "1 Tbsp nutritional yeast, plus more to taste",
+    "1/2 tsp garlic powder",
+    "1/4-1/2 tsp sea salt ((plus more to taste))",
+    "4-6 Tbsp water",
+    "1/4 cup fresh chopped parsley or cilantro"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,24 +28,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 ¼ cup raw cashews",
-    "1 Tbsp lemon juice",
-    "1 Tbsp nutritional yeast, plus more to taste",
-    "1/2 tsp garlic powder",
-    "1/4-1/2 tsp sea salt ((plus more to taste))",
-    "4-6 Tbsp water",
-    "1/4 cup fresh chopped parsley or cilantro"
-  ],
   "instructions": "Soak cashews in very hot water for 30 minutes to 1 hour, or overnight (or 6 hours) in cool water. Then drain, rinse, and set aside.\nAdd soaked, drained cashews to a food processor (or a high-speed blender) along with lemon juice, nutritional yeast, garlic powder, sea salt, and lesser amount of water (4 Tbsp or 60 ml as original recipe is written // adjust if altering batch size). Mix/blend, scraping down sides as needed. Then add more water 1 Tbsp (15 ml) at a time until a thick paste forms. I find I get the best texture results with a food processor, but in a pinch, a blender can work too. It just generally requires more scraping and more liquid.\nTaste and adjust flavor as needed, adding more nutritional yeast for cheesy flavor, salt to taste, lemon juice for acidity, or garlic powder for garlic flavor. Blend again to combine.\nAt this point, the \"cheese\" is ready to enjoy! The flavors continue to develop and thicken when chilled. Delicious on things like pizza, pasta, lasagna, salads, and more.\nBest when fresh. Store leftover nut \"cheese\" in the refrigerator for up to 5-7 days or in the freezer up to 1 month (let thaw at room temperature or in the refrigerator before serving).",
-  "instructions_list": [
-    "Soak cashews in very hot water for 30 minutes to 1 hour, or overnight (or 6 hours) in cool water. Then drain, rinse, and set aside.",
-    "Add soaked, drained cashews to a food processor (or a high-speed blender) along with lemon juice, nutritional yeast, garlic powder, sea salt, and lesser amount of water (4 Tbsp or 60 ml as original recipe is written // adjust if altering batch size). Mix/blend, scraping down sides as needed. Then add more water 1 Tbsp (15 ml) at a time until a thick paste forms. I find I get the best texture results with a food processor, but in a pinch, a blender can work too. It just generally requires more scraping and more liquid.",
-    "Taste and adjust flavor as needed, adding more nutritional yeast for cheesy flavor, salt to taste, lemon juice for acidity, or garlic powder for garlic flavor. Blend again to combine.",
-    "At this point, the \"cheese\" is ready to enjoy! The flavors continue to develop and thicken when chilled. Delicious on things like pizza, pasta, lasagna, salads, and more.",
-    "Best when fresh. Store leftover nut \"cheese\" in the refrigerator for up to 5-7 days or in the freezer up to 1 month (let thaw at room temperature or in the refrigerator before serving)."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 40,
+  "yields": "8 servings",
+  "image": "https://minimalistbaker.com/wp-content/uploads/2020/05/Cashew-Ricotta-Cheese-sQUARE.jpg",
+  "description": "Quick, fluffy vegan ricotta cheese made with 5 simple ingredients including cashews, lemon, and garlic. Comes together in a food processor or blender and is perfect for pasta, pizza, salads, and more!",
   "nutrients": {
     "servingSize": "1 two-tablespoon serving",
     "calories": "117 kcal",
@@ -49,15 +46,18 @@
     "sugarContent": "1.3 g",
     "unsaturatedFatContent": "6.42 g"
   },
-  "ratings": 4.73,
-  "ratings_count": 11,
-  "site_name": "Minimalist Baker",
-  "title": "Cashew Ricotta Cheese (Soy-Free, Fast, Easy!)",
-  "total_time": 40,
-  "yields": "8 servings",
   "cuisine": "Gluten-Free,Italian-Inspired,Vegan",
-  "prep_time": 40,
+  "category": "Appetizer,Dip,Side Dish",
   "keywords": [
     "vegan ricotta"
+  ],
+  "ratings": 4.73,
+  "ratings_count": 11,
+  "instructions_list": [
+    "Soak cashews in very hot water for 30 minutes to 1 hour, or overnight (or 6 hours) in cool water. Then drain, rinse, and set aside.",
+    "Add soaked, drained cashews to a food processor (or a high-speed blender) along with lemon juice, nutritional yeast, garlic powder, sea salt, and lesser amount of water (4 Tbsp or 60 ml as original recipe is written // adjust if altering batch size). Mix/blend, scraping down sides as needed. Then add more water 1 Tbsp (15 ml) at a time until a thick paste forms. I find I get the best texture results with a food processor, but in a pinch, a blender can work too. It just generally requires more scraping and more liquid.",
+    "Taste and adjust flavor as needed, adding more nutritional yeast for cheesy flavor, salt to taste, lemon juice for acidity, or garlic powder for garlic flavor. Blend again to combine.",
+    "At this point, the \"cheese\" is ready to enjoy! The flavors continue to develop and thicken when chilled. Delicious on things like pizza, pasta, lasagna, salads, and more.",
+    "Best when fresh. Store leftover nut \"cheese\" in the refrigerator for up to 5-7 days or in the freezer up to 1 month (let thaw at room temperature or in the refrigerator before serving)."
   ]
 }

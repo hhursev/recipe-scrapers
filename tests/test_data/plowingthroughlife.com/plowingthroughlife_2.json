@@ -1,11 +1,22 @@
 {
-  "author": "Jennifer @ Plowing Through Life",
-  "canonical_url": "https://plowingthroughlife.com/canned-cinnamon-rolls-with-heavy-cream/",
-  "category": "Breakfast,brunch",
-  "cuisine": "American",
-  "description": "A few extra ingredients are easy to add to these Canned Cinnamon Rolls with Heavy Cream to make a delightful breakfast recipe.",
   "host": "plowingthroughlife.com",
-  "image": "https://plowingthroughlife.com/wp-content/uploads/2022/08/Can-Cinnamon-Rolls-Heavy-Cream-FI.jpeg",
+  "canonical_url": "https://plowingthroughlife.com/canned-cinnamon-rolls-with-heavy-cream/",
+  "site_name": "Plowing Through Life",
+  "author": "Jennifer @ Plowing Through Life",
+  "language": "en-US",
+  "title": "Canned Cinnamon Rolls with Cream",
+  "ingredients": [
+    "2 cans jumbo cinnamon rolls",
+    "1 cup heavy whipping cream",
+    "1 cup brown sugar",
+    "1/2 cup butter (melted)",
+    "1 tablespoon cinnamon",
+    "1 cup powdered sugar",
+    "1 tablespoon butter (softened)",
+    "2 teaspoons vanilla",
+    "3 - 6 tableaspoons milk",
+    "2 packets prepared icing"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,29 +39,13 @@
       "purpose": "Icing"
     }
   ],
-  "ingredients": [
-    "2 cans jumbo cinnamon rolls",
-    "1 cup heavy whipping cream",
-    "1 cup brown sugar",
-    "1/2 cup butter (melted)",
-    "1 tablespoon cinnamon",
-    "1 cup powdered sugar",
-    "1 tablespoon butter (softened)",
-    "2 teaspoons vanilla",
-    "3 - 6 tableaspoons milk",
-    "2 packets prepared icing"
-  ],
   "instructions": "Place cinnamon rolls in a single layer in the bottom of a lightly greased 9 x 13\" baking pan. Pour heavy cream around the rolls to make an even layer in the pan.\nStir brown sugar, cinnamon and melted butter together and spread over top of cinnamon rolls.\nCover with foil and bake at 350°F for 25 - 30 minutes.\nIcing\nIn a small mixing bowl squeeze store bought icing add butter, powdered sugar, splash of vanilla and 1 tablespoon of milk.\nMix together and add 1 tablespoon of milk at a time until it reaches your preferred consistency.\nAllow the rolls to cool slightly and pour icing over top. Enjoy!",
-  "instructions_list": [
-    "Place cinnamon rolls in a single layer in the bottom of a lightly greased 9 x 13\" baking pan. Pour heavy cream around the rolls to make an even layer in the pan.",
-    "Stir brown sugar, cinnamon and melted butter together and spread over top of cinnamon rolls.",
-    "Cover with foil and bake at 350°F for 25 - 30 minutes.",
-    "Icing",
-    "In a small mixing bowl squeeze store bought icing add butter, powdered sugar, splash of vanilla and 1 tablespoon of milk.",
-    "Mix together and add 1 tablespoon of milk at a time until it reaches your preferred consistency.",
-    "Allow the rolls to cool slightly and pour icing over top. Enjoy!"
-  ],
-  "language": "en-US",
+  "total_time": 35,
+  "prep_time": 5,
+  "cook_time": 30,
+  "yields": "10 servings",
+  "image": "https://plowingthroughlife.com/wp-content/uploads/2022/08/Can-Cinnamon-Rolls-Heavy-Cream-FI.jpeg",
+  "description": "A few extra ingredients are easy to add to these Canned Cinnamon Rolls with Heavy Cream to make a delightful breakfast recipe.",
   "nutrients": {
     "calories": "951 kcal",
     "carbohydrateContent": "128 g",
@@ -65,15 +60,20 @@
     "unsaturatedFatContent": "6 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 13,
-  "site_name": "Plowing Through Life",
-  "title": "Canned Cinnamon Rolls with Cream",
-  "total_time": 35,
-  "yields": "10 servings",
-  "cook_time": 30,
-  "prep_time": 5,
+  "cuisine": "American",
+  "category": "Breakfast,brunch",
   "keywords": [
     "Canned Cinnamon Rolls with Cream"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 13,
+  "instructions_list": [
+    "Place cinnamon rolls in a single layer in the bottom of a lightly greased 9 x 13\" baking pan. Pour heavy cream around the rolls to make an even layer in the pan.",
+    "Stir brown sugar, cinnamon and melted butter together and spread over top of cinnamon rolls.",
+    "Cover with foil and bake at 350°F for 25 - 30 minutes.",
+    "Icing",
+    "In a small mixing bowl squeeze store bought icing add butter, powdered sugar, splash of vanilla and 1 tablespoon of milk.",
+    "Mix together and add 1 tablespoon of milk at a time until it reaches your preferred consistency.",
+    "Allow the rolls to cool slightly and pour icing over top. Enjoy!"
   ]
 }

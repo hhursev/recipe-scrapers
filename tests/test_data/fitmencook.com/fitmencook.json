@@ -1,9 +1,29 @@
 {
-  "author": "Kevin Curry",
-  "canonical_url": "https://fitmencook.com/recipes/healthy-chili-recipe/",
-  "category": null,
   "host": "fitmencook.com",
-  "image": "https://fitmencook.com/wp-content/uploads/2023/03/chili-with-plantains-chile-con-carne-4-1.jpg",
+  "canonical_url": "https://fitmencook.com/recipes/healthy-chili-recipe/",
+  "site_name": "Fit Men Cook",
+  "author": "Kevin Curry",
+  "language": "en-US",
+  "title": "Lean Chili with Plantains",
+  "ingredients": [
+    "1 tablespoon avocado oil (or olive oil)",
+    "1 tablespoon garlic, minced",
+    "2/3 cup onion, diced",
+    "1 bell pepper, diced",
+    "1 1/2 lb 95% lean beef (I used lean bison)",
+    "1 tablespoon chili powder",
+    "2 teaspoons smoked paprika",
+    "2 teaspoons cumin",
+    "1/2 teaspoon cinnamon",
+    "2 teaspoons (Mexican) oregano",
+    "2 cups low sodium beef stock",
+    "4 tablespoons tomato paste (NOT sauce)",
+    "1 can (14.5oz /411g) no salt added diced tomatoes",
+    "1 ripe plantain (~200g), cut into 1-inch pieces",
+    "sea salt & pepper to taste",
+    "cilantro",
+    "jalapeño"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,36 +48,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 tablespoon avocado oil (or olive oil)",
-    "1 tablespoon garlic, minced",
-    "2/3 cup onion, diced",
-    "1 bell pepper, diced",
-    "1 1/2 lb 95% lean beef (I used lean bison)",
-    "1 tablespoon chili powder",
-    "2 teaspoons smoked paprika",
-    "2 teaspoons cumin",
-    "1/2 teaspoon cinnamon",
-    "2 teaspoons (Mexican) oregano",
-    "2 cups low sodium beef stock",
-    "4 tablespoons tomato paste (NOT sauce)",
-    "1 can (14.5oz /411g) no salt added diced tomatoes",
-    "1 ripe plantain (~200g), cut into 1-inch pieces",
-    "sea salt & pepper to taste",
-    "cilantro",
-    "jalapeño"
-  ],
   "instructions": "Set a pot on medium heat. Once hot, add the oil, garlic, onion and bell pepper. Cook for 2 – 3 minutes until the onion is browned along the edges.\nAdd the beef and chop it up finely as it cooks in the pot for 3 – 5 minutes. Sprinkle in the seasoning as the meat cooks.\nAdd the remaining ingredients EXCEPT plantain and stir everything together and bring to a light simmer. Cover and cook for 10 minutes.\nAdd the plantain after 10 minutes and stir everything together. ONLY if needed, add tablespoons of beef stock (or water) to the chili if it’s too thick, but also monitor the heat and make sure it’s not too high. Cover and cook for an additional 10 minutes.\nSeason to taste with sea salt & pepper (and lime) and garnish with cilantro and jalapeño.",
+  "total_time": 35,
+  "yields": "5 servings",
+  "image": "https://fitmencook.com/wp-content/uploads/2023/03/chili-with-plantains-chile-con-carne-4-1.jpg",
+  "category": null,
   "instructions_list": [
     "Set a pot on medium heat. Once hot, add the oil, garlic, onion and bell pepper. Cook for 2 – 3 minutes until the onion is browned along the edges.",
     "Add the beef and chop it up finely as it cooks in the pot for 3 – 5 minutes. Sprinkle in the seasoning as the meat cooks.",
     "Add the remaining ingredients EXCEPT plantain and stir everything together and bring to a light simmer. Cover and cook for 10 minutes.",
     "Add the plantain after 10 minutes and stir everything together. ONLY if needed, add tablespoons of beef stock (or water) to the chili if it’s too thick, but also monitor the heat and make sure it’s not too high. Cover and cook for an additional 10 minutes.",
     "Season to taste with sea salt & pepper (and lime) and garnish with cilantro and jalapeño."
-  ],
-  "language": "en-US",
-  "site_name": "Fit Men Cook",
-  "title": "Lean Chili with Plantains",
-  "total_time": 35,
-  "yields": "5 servings"
+  ]
 }

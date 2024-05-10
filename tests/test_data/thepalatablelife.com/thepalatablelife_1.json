@@ -1,9 +1,22 @@
 {
-  "author": "thepalatablelife",
-  "canonical_url": "https://www.thepalatablelife.com/baked-harissa-chicken-meatballs/",
   "host": "thepalatablelife.com",
-  "description": "",
-  "image": "https://www.thepalatablelife.com/wp-content/uploads/2023/02/harissa-meatballs-scaled.jpg",
+  "canonical_url": "https://www.thepalatablelife.com/baked-harissa-chicken-meatballs/",
+  "site_name": "the palatable life",
+  "author": "thepalatablelife",
+  "language": "en-US",
+  "title": "baked harissa chicken meatballs",
+  "ingredients": [
+    "1 lb ground chicken",
+    "1/2 sweet onion (chopped)",
+    "1 cup panko breadcrumbs",
+    "1 cup ricotta cheese",
+    "1 egg",
+    "2 tbsp harissa",
+    "1 tsp garlic (minced)",
+    "1 tsp paprika",
+    "1/2 tsp cumin",
+    "1/2 tsp salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,30 +34,17 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 lb ground chicken",
-    "1/2 sweet onion (chopped)",
-    "1 cup panko breadcrumbs",
-    "1 cup ricotta cheese",
-    "1 egg",
-    "2 tbsp harissa",
-    "1 tsp garlic (minced)",
-    "1 tsp paprika",
-    "1/2 tsp cumin",
-    "1/2 tsp salt"
-  ],
   "instructions": "Preheat the oven to 400 F. Add all the ingredients to a large bowl. Use your hands or a rubber spatula to mix until well combined (I like to use my hands and disposable kitchen gloves).\nUsing your hands or a cookie scoop, scoop out 1 tbsp of the meat mixture (I like to use a cookie scoop that I only use for meat!) onto a greased cookie sheet. This recipe should make about 40 one tablespoon sized meatballs.\nTransfer to the oven and bake for 10-15 minutes, until internal temperature is at least 165 F. Add to your favorite bowl or salad and enjoy!",
+  "total_time": 25,
+  "prep_time": 10,
+  "cook_time": 15,
+  "yields": "40 servings",
+  "image": "https://www.thepalatablelife.com/wp-content/uploads/2023/02/harissa-meatballs-scaled.jpg",
+  "description": "",
+  "category": "Main Course",
   "instructions_list": [
     "Preheat the oven to 400 F. Add all the ingredients to a large bowl. Use your hands or a rubber spatula to mix until well combined (I like to use my hands and disposable kitchen gloves).",
     "Using your hands or a cookie scoop, scoop out 1 tbsp of the meat mixture (I like to use a cookie scoop that I only use for meat!) onto a greased cookie sheet. This recipe should make about 40 one tablespoon sized meatballs.",
     "Transfer to the oven and bake for 10-15 minutes, until internal temperature is at least 165 F. Add to your favorite bowl or salad and enjoy!"
-  ],
-  "language": "en-US",
-  "site_name": "the palatable life",
-  "title": "baked harissa chicken meatballs",
-  "total_time": 25,
-  "yields": "40 servings",
-  "category": "Main Course",
-  "cook_time": 15,
-  "prep_time": 10
+  ]
 }

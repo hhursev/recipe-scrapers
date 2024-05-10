@@ -1,11 +1,18 @@
 {
-  "author": "Ann-Christine Hellerup Brandt",
-  "canonical_url": "https://www.valdemarsro.dk/klassiske-madpandekager/",
-  "category": "Bålmad,Familiefavoritter,Madpandekager og madvafler,Nem Hverdagsmad,Opskrifter,Opskrifter til børn - Hverdagsfavoritter børn,Pandekager,Tilbehør Aftensmad,Vegetar",
-  "cook_time": 20,
-  "description": "Klassiske madpandekager er nemme og lækre til at fylde med alverdens gode sager og kan nydes til både frokost og aftensmad.\nMan kan både fylde madpandekager ved bordet ala wraps eller man kan fylde dem med gode sager, rulle dem sammen og komme dem i et fad. Fordel lidt god friskrevet ost over og gratiner dem i ovnen. De er skønne at spise med en salat og dip til.\nJeg deler en masse ekstra tips til min opskrift på madpandekager under opskriften",
   "host": "valdemarsro.dk",
-  "image": "https://www.valdemarsro.dk/wp-content/2020/10/madpandekager.jpg",
+  "canonical_url": "https://www.valdemarsro.dk/klassiske-madpandekager/",
+  "site_name": "Valdemarsro",
+  "author": "Ann-Christine Hellerup Brandt",
+  "language": "da",
+  "title": "Madpandekager - de klassiske",
+  "ingredients": [
+    "4 æg",
+    "4 dl mælk",
+    "1 nip salt",
+    "125 g hvedemel",
+    "50 g grahamsmel",
+    "1 spsk smør, til stegning"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,22 +26,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 æg",
-    "4 dl mælk",
-    "1 nip salt",
-    "125 g hvedemel",
-    "50 g grahamsmel",
-    "1 spsk smør, til stegning"
-  ],
   "instructions": "Pisk æg og mælk sammen med salt, grahamsmel og hvedemel.\nSmelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune.",
+  "total_time": 40,
+  "cook_time": 20,
+  "yields": "10 servings",
+  "image": "https://www.valdemarsro.dk/wp-content/2020/10/madpandekager.jpg",
+  "description": "Klassiske madpandekager er nemme og lækre til at fylde med alverdens gode sager og kan nydes til både frokost og aftensmad.\nMan kan både fylde madpandekager ved bordet ala wraps eller man kan fylde dem med gode sager, rulle dem sammen og komme dem i et fad. Fordel lidt god friskrevet ost over og gratiner dem i ovnen. De er skønne at spise med en salat og dip til.\nJeg deler en masse ekstra tips til min opskrift på madpandekager under opskriften",
+  "category": "Bålmad,Familiefavoritter,Madpandekager og madvafler,Nem Hverdagsmad,Opskrifter,Opskrifter til børn - Hverdagsfavoritter børn,Pandekager,Tilbehør Aftensmad,Vegetar",
   "instructions_list": [
     "Pisk æg og mælk sammen med salt, grahamsmel og hvedemel.",
     "Smelt lidt smør eller kom lidt olie på en pande og steg 10 madpandekager en ad gangen, på begge sider, til de er flotte lysebrune."
-  ],
-  "language": "da",
-  "site_name": "Valdemarsro",
-  "title": "Madpandekager - de klassiske",
-  "total_time": 40,
-  "yields": "10 servings"
+  ]
 }

@@ -1,9 +1,27 @@
 {
-  "author": "Jenn (Mother Thyme)",
-  "canonical_url": "https://www.motherthyme.com/2014/01/cinnamon-roll-oatmeal.html",
-  "category": null,
   "host": "motherthyme.com",
-  "image": "https://www.motherthyme.com/wp-content/uploads/2014/01/cinnamonoatmeal1-225x225.jpg",
+  "canonical_url": "https://www.motherthyme.com/2014/01/cinnamon-roll-oatmeal.html",
+  "site_name": null,
+  "author": "Jenn (Mother Thyme)",
+  "language": "en-US",
+  "title": "Cinnamon Roll Oatmeal",
+  "ingredients": [
+    "1 3/4 cup milk",
+    "2 tablespoons brown sugar",
+    "1 tablespoon sugar",
+    "1/2 teaspoon vanilla extract",
+    "1/4 teaspoon salt",
+    "1 1/2 cups old-fashioned rolled oats",
+    "Topping",
+    "2 tablespoons butter (melted)",
+    "3 tablespoons packed light brown sugar",
+    "1 1/2 teaspoons cinnamon",
+    "Glaze",
+    "1 ounce cream cheese (softened)",
+    "1 tablespoon milk",
+    "1/8 teaspoon vanilla extract",
+    "5 tablespoons confectioners’ sugar"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,24 +44,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 3/4 cup milk",
-    "2 tablespoons brown sugar",
-    "1 tablespoon sugar",
-    "1/2 teaspoon vanilla extract",
-    "1/4 teaspoon salt",
-    "1 1/2 cups old-fashioned rolled oats",
-    "Topping",
-    "2 tablespoons butter (melted)",
-    "3 tablespoons packed light brown sugar",
-    "1 1/2 teaspoons cinnamon",
-    "Glaze",
-    "1 ounce cream cheese (softened)",
-    "1 tablespoon milk",
-    "1/8 teaspoon vanilla extract",
-    "5 tablespoons confectioners’ sugar"
-  ],
   "instructions": "In a large saucepan add milk, sugars, vanilla and salt and bring to a boil over medium heat.\nStir in oats, return to a boil and continue to cook, stirring occasionally for 3-5 minutes until oatmeal begins to thicken.\nCover and remove from heat. Let sit for about 3 minutes.\nIn a small bowl mix butter, brown sugar and cinnamon until combined.\nMicrowave cream cheese in a small bowl for about 10 seconds until just melted.\nStir in confectioners’ sugar until combined.\nStir in milk and vanilla until creamy.\nNote\nAdd in a little more confectioners’ sugar if glaze is too thin or a little more milk if glaze is too thick until desired consistency.\nPlace desired amount of oatmeal in serving bowl. Drizzle with some of the cinnamon sugar topping and then drizzle on top of that some of the cream cheese glaze.\nServe warm.",
+  "total_time": 30,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "2 servings",
+  "image": "https://www.motherthyme.com/wp-content/uploads/2014/01/cinnamonoatmeal1-225x225.jpg",
+  "category": null,
+  "ratings": 4.9,
+  "ratings_count": 23,
   "instructions_list": [
     "In a large saucepan add milk, sugars, vanilla and salt and bring to a boil over medium heat.",
     "Stir in oats, return to a boil and continue to cook, stirring occasionally for 3-5 minutes until oatmeal begins to thicken.",
@@ -56,14 +65,5 @@
     "Add in a little more confectioners’ sugar if glaze is too thin or a little more milk if glaze is too thick until desired consistency.",
     "Place desired amount of oatmeal in serving bowl. Drizzle with some of the cinnamon sugar topping and then drizzle on top of that some of the cream cheese glaze.",
     "Serve warm."
-  ],
-  "language": "en-US",
-  "ratings": 4.9,
-  "ratings_count": 23,
-  "site_name": null,
-  "title": "Cinnamon Roll Oatmeal",
-  "total_time": 30,
-  "yields": "2 servings",
-  "cook_time": 15,
-  "prep_time": 15
+  ]
 }

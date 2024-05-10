@@ -1,9 +1,27 @@
 {
-  "author": "Watch What U Eat",
-  "canonical_url": "https://www.watchwhatueat.com/healthy-instant-pot-cauliflower-head/",
-  "category": "Lunch / Dinner,Main Course",
   "host": "watchwhatueat.com",
-  "image": "https://www.watchwhatueat.com/wp-content/uploads/2018/10/Instant-Pot-Whole-Cauliflower-6.jpg",
+  "canonical_url": "https://www.watchwhatueat.com/healthy-instant-pot-cauliflower-head/",
+  "site_name": "Watch What U Eat",
+  "author": "Watch What U Eat",
+  "language": "en-US",
+  "title": "Healthy Instant Pot Cauliflower With Gravy",
+  "ingredients": [
+    "1 large cauliflower head",
+    "3-4 garlic cloves finely chopped",
+    "1 tbsp fresh thyme (or 1 tsp dried)",
+    "1 tbsp fresh parsley finely chopped",
+    "1/2 tbsp olive oil",
+    "1 tbsp lemon juice",
+    "1 tsp smoked paprika",
+    "salt and pepper",
+    "1 onion cut into large pieces",
+    "1 tsp oil",
+    "2-3 garlic cloves whole",
+    "1 1/2 cup vegetable stock",
+    "1/2 tsp thyme (or more if fresh)",
+    "1/2 tbsp lemon juice",
+    "1 tbsp whole wheat flour"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,36 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 large cauliflower head",
-    "3-4 garlic cloves finely chopped",
-    "1 tbsp fresh thyme (or 1 tsp dried)",
-    "1 tbsp fresh parsley finely chopped",
-    "1/2 tbsp olive oil",
-    "1 tbsp lemon juice",
-    "1 tsp smoked paprika",
-    "salt and pepper",
-    "1 onion cut into large pieces",
-    "1 tsp oil",
-    "2-3 garlic cloves whole",
-    "1 1/2 cup vegetable stock",
-    "1/2 tsp thyme (or more if fresh)",
-    "1/2 tbsp lemon juice",
-    "1 tbsp whole wheat flour"
-  ],
   "instructions": "In a small bowl combine all the ingredients listed under marinade.\nCut leaves from the bottom of the cauliflower head. Carefully trim the stem flush without cutting the florets. It will help the cauliflower to sit flat on the trivet.\nRub the prepared garlic-herb marinade on the cauliflower head evenly.\nFor the gravy heat oil in saute mode of the Instant Pot. Add onion and whole garlic cloves; cook until translucent.\nThen add vegetable stock, thyme and lemon juice. Place the trivet into the Instant Pot.\nPut the whole cauliflower head on the trivet. Cook for 3 min on manual high-pressure mode. Allow pressure to release naturally for 5 min and then quick release the remaining pressure.\nCarefully transfer the cauliflower to an oven-safe dish or tray. Optionally, broil it 3-4 min in the oven to get a nice crust.\nTurn on the saute mode in the Instant Pot. Add flour to the gravy base and blend everything using a hand blender until it gets to a smooth consistency. Add salt and pepper according to taste.\nCook the gravy for 3-4 min and serve warm with the cooked cauliflower.",
-  "instructions_list": [
-    "In a small bowl combine all the ingredients listed under marinade.",
-    "Cut leaves from the bottom of the cauliflower head. Carefully trim the stem flush without cutting the florets. It will help the cauliflower to sit flat on the trivet.",
-    "Rub the prepared garlic-herb marinade on the cauliflower head evenly.",
-    "For the gravy heat oil in saute mode of the Instant Pot. Add onion and whole garlic cloves; cook until translucent.",
-    "Then add vegetable stock, thyme and lemon juice. Place the trivet into the Instant Pot.",
-    "Put the whole cauliflower head on the trivet. Cook for 3 min on manual high-pressure mode. Allow pressure to release naturally for 5 min and then quick release the remaining pressure.",
-    "Carefully transfer the cauliflower to an oven-safe dish or tray. Optionally, broil it 3-4 min in the oven to get a nice crust.",
-    "Turn on the saute mode in the Instant Pot. Add flour to the gravy base and blend everything using a hand blender until it gets to a smooth consistency. Add salt and pepper according to taste.",
-    "Cook the gravy for 3-4 min and serve warm with the cooked cauliflower."
-  ],
-  "language": "en-US",
+  "total_time": 25,
+  "prep_time": 10,
+  "cook_time": 15,
+  "yields": "4 servings",
+  "image": "https://www.watchwhatueat.com/wp-content/uploads/2018/10/Instant-Pot-Whole-Cauliflower-6.jpg",
+  "description": "Whole cauliflower head flavored with fresh garlic and herbs and cooked in the pressure cooker. Also, learn to make delicious gravy that compliments this steamed whole cauliflower dish.",
   "nutrients": {
     "calories": "99 kcal",
     "carbohydrateContent": "17.9 g",
@@ -66,11 +61,8 @@
     "sugarContent": "7.2 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.59,
-  "site_name": "Watch What U Eat",
-  "title": "Healthy Instant Pot Cauliflower With Gravy",
-  "total_time": 25,
-  "yields": "4 servings",
+  "cuisine": "American Inspired",
+  "category": "Lunch / Dinner,Main Course",
   "dietary_restrictions": [
     "Low Fat Diet",
     "Vegan Diet",
@@ -80,9 +72,17 @@
     "instant pot cauliflower",
     "instant pot whole cauliflower"
   ],
-  "description": "Whole cauliflower head flavored with fresh garlic and herbs and cooked in the pressure cooker. Also, learn to make delicious gravy that compliments this steamed whole cauliflower dish.",
-  "cook_time": 15,
-  "cuisine": "American Inspired",
-  "prep_time": 10,
-  "ratings_count": 2
+  "ratings": 4.59,
+  "ratings_count": 2,
+  "instructions_list": [
+    "In a small bowl combine all the ingredients listed under marinade.",
+    "Cut leaves from the bottom of the cauliflower head. Carefully trim the stem flush without cutting the florets. It will help the cauliflower to sit flat on the trivet.",
+    "Rub the prepared garlic-herb marinade on the cauliflower head evenly.",
+    "For the gravy heat oil in saute mode of the Instant Pot. Add onion and whole garlic cloves; cook until translucent.",
+    "Then add vegetable stock, thyme and lemon juice. Place the trivet into the Instant Pot.",
+    "Put the whole cauliflower head on the trivet. Cook for 3 min on manual high-pressure mode. Allow pressure to release naturally for 5 min and then quick release the remaining pressure.",
+    "Carefully transfer the cauliflower to an oven-safe dish or tray. Optionally, broil it 3-4 min in the oven to get a nice crust.",
+    "Turn on the saute mode in the Instant Pot. Add flour to the gravy base and blend everything using a hand blender until it gets to a smooth consistency. Add salt and pepper according to taste.",
+    "Cook the gravy for 3-4 min and serve warm with the cooked cauliflower."
+  ]
 }

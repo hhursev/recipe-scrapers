@@ -1,9 +1,17 @@
 {
-  "author": "CookEatShare Cookbook",
-  "canonical_url": "cookeatshare.com",
-  "category": null,
   "host": "cookeatshare.com",
-  "image": "https://assets.cookeatshare.com/assets/recipe-art/stock/3/full-f1e2882559f1146065432f8bdd182440.png",
+  "canonical_url": "cookeatshare.com",
+  "site_name": null,
+  "author": "CookEatShare Cookbook",
+  "title": "Pork Steak Vegetable Bake",
+  "ingredients": [
+    "4 med. potatoes, pared & cut lengthwise, in 1/4\" slices",
+    "1 lg. carrot, pared & sliced",
+    "4 pork steaks, cut 1/2\" thick",
+    "1/2 c. water",
+    "1 env. dry onion soup mix or possibly 1 can cream of onion soup",
+    "2 tbsp. soy sauce"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -17,19 +25,9 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 med. potatoes, pared & cut lengthwise, in 1/4\" slices",
-    "1 lg. carrot, pared & sliced",
-    "4 pork steaks, cut 1/2\" thick",
-    "1/2 c. water",
-    "1 env. dry onion soup mix or possibly 1 can cream of onion soup",
-    "2 tbsp. soy sauce"
-  ],
   "instructions": "Place potatoes and carrots in bottom of 11\" x 7 1/2\" x 1 3/4\" baking dish. Trim fat from steaks. In large skillet, cook trimmings till about 2 Tbsp. oil accumulates; throw away trimmings.\nIn warm oil, brown steaks well on both sides. In small saucepan, bring to boil. Spoon 1/2 of onion soup mix over the potatoes and carrots; top with steaks. Spoon remaining soup mix over. Cover, bake in 350 degree oven for 1 hour. Uncover and bake 10 min more. Makes 4 servings.",
-  "instructions_list": [
-    "Place potatoes and carrots in bottom of 11\" x 7 1/2\" x 1 3/4\" baking dish. Trim fat from steaks. In large skillet, cook trimmings till about 2 Tbsp. oil accumulates; throw away trimmings.",
-    "In warm oil, brown steaks well on both sides. In small saucepan, bring to boil. Spoon 1/2 of onion soup mix over the potatoes and carrots; top with steaks. Spoon remaining soup mix over. Cover, bake in 350 degree oven for 1 hour. Uncover and bake 10 min more. Makes 4 servings."
-  ],
+  "total_time": null,
+  "image": "https://assets.cookeatshare.com/assets/recipe-art/stock/3/full-f1e2882559f1146065432f8bdd182440.png",
   "nutrients": {
     "servingSize": "265 g",
     "calories": "283",
@@ -43,9 +41,11 @@
     "sugarContent": "1.28 g",
     "proteinContent": "31.16 g"
   },
+  "category": null,
   "ratings": 1.0,
   "ratings_count": 1,
-  "site_name": null,
-  "title": "Pork Steak Vegetable Bake",
-  "total_time": null
+  "instructions_list": [
+    "Place potatoes and carrots in bottom of 11\" x 7 1/2\" x 1 3/4\" baking dish. Trim fat from steaks. In large skillet, cook trimmings till about 2 Tbsp. oil accumulates; throw away trimmings.",
+    "In warm oil, brown steaks well on both sides. In small saucepan, bring to boil. Spoon 1/2 of onion soup mix over the potatoes and carrots; top with steaks. Spoon remaining soup mix over. Cover, bake in 350 degree oven for 1 hour. Uncover and bake 10 min more. Makes 4 servings."
+  ]
 }

@@ -1,11 +1,21 @@
 {
-  "author": "Melissa Williams",
-  "canonical_url": "https://www.persnicketyplates.com/slow-cooker-hawaiian-meatballs/",
-  "category": "Appetizer,Main Course",
-  "cuisine": "American",
-  "description": "Slow cooker Hawaiian meatballs are made with frozen meatballs, canned pineapple, peppers, onions, and a sweet and tangy sauce. This dump-and-go crockpot recipe makes the perfect appetizer or a main dish that the whole family will love!",
   "host": "persnicketyplates.com",
-  "image": "https://www.persnicketyplates.com/wp-content/uploads/2023/06/slow-cooker-hawaiian-meatballs-10-SQUARE.jpg",
+  "canonical_url": "https://www.persnicketyplates.com/slow-cooker-hawaiian-meatballs/",
+  "site_name": "Persnickety Plates",
+  "author": "Melissa Williams",
+  "language": "en-US",
+  "title": "Easy Slow Cooker Hawaiian Meatballs",
+  "ingredients": [
+    "3 pounds frozen meatballs (beef, pork, turkey, plant based)",
+    "20 ounces pineapple chunks (drained)",
+    "2 cups frozen peppers & onions",
+    "18 ounces bbq sauce (2 cups)",
+    "¼ cup low sodium soy sauce",
+    "¼ cup white vinegar",
+    "¼ cup brown sugar",
+    "3 cloves garlic (minced)",
+    "2 Tablespoons chopped scallions (for garnish)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,26 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 pounds frozen meatballs (beef, pork, turkey, plant based)",
-    "20 ounces pineapple chunks (drained)",
-    "2 cups frozen peppers & onions",
-    "18 ounces bbq sauce (2 cups)",
-    "¼ cup low sodium soy sauce",
-    "¼ cup white vinegar",
-    "¼ cup brown sugar",
-    "3 cloves garlic (minced)",
-    "2 Tablespoons chopped scallions (for garnish)"
-  ],
   "instructions": "Pour the frozen meatballs, pineapple chunks, peppers and onions into the basin of a 6-8 quart slow cooker.\nIn a medium mixing bowl, whisk together the barbecue sauce, soy sauce, vinegar, brown sugar, and minced garlic.\nPour the sauce over the meatballs and gently stir to evenly distribute.\nCover and cook on HIGH for 2-3 hours.\nGarnish with chopped scallions.",
-  "instructions_list": [
-    "Pour the frozen meatballs, pineapple chunks, peppers and onions into the basin of a 6-8 quart slow cooker.",
-    "In a medium mixing bowl, whisk together the barbecue sauce, soy sauce, vinegar, brown sugar, and minced garlic.",
-    "Pour the sauce over the meatballs and gently stir to evenly distribute.",
-    "Cover and cook on HIGH for 2-3 hours.",
-    "Garnish with chopped scallions."
-  ],
-  "language": "en-US",
+  "total_time": 125,
+  "prep_time": 5,
+  "cook_time": 120,
+  "yields": "8 servings",
+  "image": "https://www.persnicketyplates.com/wp-content/uploads/2023/06/slow-cooker-hawaiian-meatballs-10-SQUARE.jpg",
+  "description": "Slow cooker Hawaiian meatballs are made with frozen meatballs, canned pineapple, peppers, onions, and a sweet and tangy sauce. This dump-and-go crockpot recipe makes the perfect appetizer or a main dish that the whole family will love!",
   "nutrients": {
     "servingSize": "1 g",
     "calories": "638 kcal",
@@ -55,17 +52,20 @@
     "sugarContent": "35 g",
     "unsaturatedFatContent": "19 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 2,
-  "site_name": "Persnickety Plates",
-  "title": "Easy Slow Cooker Hawaiian Meatballs",
-  "total_time": 125,
-  "yields": "8 servings",
-  "cook_time": 120,
-  "prep_time": 5,
+  "cuisine": "American",
+  "category": "Appetizer,Main Course",
   "keywords": [
     "Crock pot hawaiian meatballs",
     "Crockpot hawaiian meatballs",
     "Slow cooker hawaiian meatballs"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 2,
+  "instructions_list": [
+    "Pour the frozen meatballs, pineapple chunks, peppers and onions into the basin of a 6-8 quart slow cooker.",
+    "In a medium mixing bowl, whisk together the barbecue sauce, soy sauce, vinegar, brown sugar, and minced garlic.",
+    "Pour the sauce over the meatballs and gently stir to evenly distribute.",
+    "Cover and cook on HIGH for 2-3 hours.",
+    "Garnish with chopped scallions."
   ]
 }

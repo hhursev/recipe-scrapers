@@ -1,9 +1,27 @@
 {
-  "author": "Danae Halliday",
-  "canonical_url": "https://reciperunner.com/vanilla-chocolate-pizzelles/",
-  "category": "Cookies + Bars",
   "host": "reciperunner.com",
-  "image": "https://reciperunner.com/wp-content/uploads/2014/12/Vanilla-Chocolate-Pizzelles-Pic-720x720.jpg",
+  "canonical_url": "https://reciperunner.com/vanilla-chocolate-pizzelles/",
+  "site_name": "Recipe Runner",
+  "author": "Danae Halliday",
+  "language": "en-US",
+  "title": "Vanilla and Chocolate Pizzelles",
+  "ingredients": [
+    "1 3/4 cup all purpose flour",
+    "2 teaspoons baking powder",
+    "1/4 teaspoon fine sea salt",
+    "3 eggs",
+    "3/4 cup granulated sugar",
+    "1/2 cup unsalted butter, melted",
+    "1 tablespoon vanilla extract",
+    "1 3/4 cup all purpose flour",
+    "1/4 cup unsweetened cocoa powder",
+    "2 teaspoons baking powder",
+    "1/4 teaspoon fine sea salt",
+    "3 eggs",
+    "3/4 cup granulated sugar",
+    "1/2 cup unsalted butter, melted",
+    "1 1/2 teaspoons vanilla extract"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,32 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 3/4 cup all purpose flour",
-    "2 teaspoons baking powder",
-    "1/4 teaspoon fine sea salt",
-    "3 eggs",
-    "3/4 cup granulated sugar",
-    "1/2 cup unsalted butter, melted",
-    "1 tablespoon vanilla extract",
-    "1 3/4 cup all purpose flour",
-    "1/4 cup unsweetened cocoa powder",
-    "2 teaspoons baking powder",
-    "1/4 teaspoon fine sea salt",
-    "3 eggs",
-    "3/4 cup granulated sugar",
-    "1/2 cup unsalted butter, melted",
-    "1 1/2 teaspoons vanilla extract"
-  ],
   "instructions": "Preheat the pizzelle press according to manufacturers instructions. In a bowl whisk together the flour, baking powder and salt.\nIn the bowl of a stand mixer or using a hand held mixer beat the eggs for about a minute. Gradually pour in the sugar, beating until smooth. Add in the vanilla and with the mixer on, slowly pour in the melted butter.\nBeat on medium speed for another minute and then add in the dry ingredients. Beat just until combined, scraping down the sides of the bowl as needed.\nOnce the pizzelle press is hot use a 2 teaspoon size cookie scoop and drop the dough in the center of the cookie grid. Close the lid and lock or press down gently depending on your pizzelle press. Bake for about 30-45 seconds then remove the cookies onto a wire cooling rack. Continue the process until all of the dough is gone.\nFor the chocolate pizzelles the process is the same except that you will whisk the cocoa powder in with the flour, salt and baking powder.",
-  "instructions_list": [
-    "Preheat the pizzelle press according to manufacturers instructions. In a bowl whisk together the flour, baking powder and salt.",
-    "In the bowl of a stand mixer or using a hand held mixer beat the eggs for about a minute. Gradually pour in the sugar, beating until smooth. Add in the vanilla and with the mixer on, slowly pour in the melted butter.",
-    "Beat on medium speed for another minute and then add in the dry ingredients. Beat just until combined, scraping down the sides of the bowl as needed.",
-    "Once the pizzelle press is hot use a 2 teaspoon size cookie scoop and drop the dough in the center of the cookie grid. Close the lid and lock or press down gently depending on your pizzelle press. Bake for about 30-45 seconds then remove the cookies onto a wire cooling rack. Continue the process until all of the dough is gone.",
-    "For the chocolate pizzelles the process is the same except that you will whisk the cocoa powder in with the flour, salt and baking powder."
-  ],
-  "language": "en-US",
+  "total_time": 30,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "70 servings",
+  "image": "https://reciperunner.com/wp-content/uploads/2014/12/Vanilla-Chocolate-Pizzelles-Pic-720x720.jpg",
+  "description": "Delicious round, flat, Italian, waffle cookies. An easy and fun cookie to make this holiday season!",
   "nutrients": {
     "calories": "71 calories",
     "carbohydrateContent": "9 grams carbohydrates",
@@ -66,12 +65,7 @@
     "transFatContent": "0 grams trans fat",
     "unsaturatedFatContent": "1 grams unsaturated fat"
   },
-  "ratings": 4.6,
-  "ratings_count": 13,
-  "site_name": "Recipe Runner",
-  "title": "Vanilla and Chocolate Pizzelles",
-  "total_time": 30,
-  "yields": "70 servings",
+  "category": "Cookies + Bars",
   "dietary_restrictions": [
     "Vegetarian Diet"
   ],
@@ -83,7 +77,13 @@
     "vanilla",
     "Italian"
   ],
-  "description": "Delicious round, flat, Italian, waffle cookies. An easy and fun cookie to make this holiday season!",
-  "cook_time": 15,
-  "prep_time": 15
+  "ratings": 4.6,
+  "ratings_count": 13,
+  "instructions_list": [
+    "Preheat the pizzelle press according to manufacturers instructions. In a bowl whisk together the flour, baking powder and salt.",
+    "In the bowl of a stand mixer or using a hand held mixer beat the eggs for about a minute. Gradually pour in the sugar, beating until smooth. Add in the vanilla and with the mixer on, slowly pour in the melted butter.",
+    "Beat on medium speed for another minute and then add in the dry ingredients. Beat just until combined, scraping down the sides of the bowl as needed.",
+    "Once the pizzelle press is hot use a 2 teaspoon size cookie scoop and drop the dough in the center of the cookie grid. Close the lid and lock or press down gently depending on your pizzelle press. Bake for about 30-45 seconds then remove the cookies onto a wire cooling rack. Continue the process until all of the dough is gone.",
+    "For the chocolate pizzelles the process is the same except that you will whisk the cocoa powder in with the flour, salt and baking powder."
+  ]
 }

@@ -1,9 +1,21 @@
 {
-  "author": "Diana Rattray",
-  "canonical_url": "https://www.thespruceeats.com/bell-pepper-sandwich-recipe-5216751",
-  "category": "Lunch,Dinner,Sandwich",
   "host": "thespruceeats.com",
-  "image": "https://www.thespruceeats.com/thmb/jgDiDqHCg2AfmWiuTuc5yZbyuSw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bell-pepper-sandwich-recipe-5216751-hero-01-bc8d5210259d4674872c92ce5377fc7d.jpg",
+  "canonical_url": "https://www.thespruceeats.com/bell-pepper-sandwich-recipe-5216751",
+  "site_name": "The Spruce Eats",
+  "author": "Diana Rattray",
+  "language": "en",
+  "title": "Bell Pepper Sandwich Recipe",
+  "ingredients": [
+    "1 medium bell pepper",
+    "1 1/2 ounces cream cheese, about 2 to 3 tablespoons",
+    "1 teaspoon whole-grain mustard",
+    "2 ounces thinly sliced ham",
+    "1 1/2 ounces thinly sliced swiss cheese",
+    "1/2 small cucumber, about 6 to 8 thin slices",
+    "2 tablespoons guacamole, or a few slices of avocado",
+    "1 dash salt, or seasoned salt, to taste",
+    "1 dash ground black pepper, to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,26 +32,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 medium bell pepper",
-    "1 1/2 ounces cream cheese, about 2 to 3 tablespoons",
-    "1 teaspoon whole-grain mustard",
-    "2 ounces thinly sliced ham",
-    "1 1/2 ounces thinly sliced swiss cheese",
-    "1/2 small cucumber, about 6 to 8 thin slices",
-    "2 tablespoons guacamole, or a few slices of avocado",
-    "1 dash salt, or seasoned salt, to taste",
-    "1 dash ground black pepper, to taste"
-  ],
   "instructions": "Gather the ingredients.\nWith a sharp knife, remove the stem end of the pepper. Cut the pepper in half lengthwise and remove the ribs and seeds.\nLay the pepper halves on a cutting board, cut-side up, and spread cream cheese on each half. Spread some whole-grain mustard on the cream cheese.\nLayer ham, cheese, cucumbers, and guacamole or avocado slices on each half.\nPut the halves together to form a sandwich and enjoy.",
-  "instructions_list": [
-    "Gather the ingredients.",
-    "With a sharp knife, remove the stem end of the pepper. Cut the pepper in half lengthwise and remove the ribs and seeds.",
-    "Lay the pepper halves on a cutting board, cut-side up, and spread cream cheese on each half. Spread some whole-grain mustard on the cream cheese.",
-    "Layer ham, cheese, cucumbers, and guacamole or avocado slices on each half.",
-    "Put the halves together to form a sandwich and enjoy."
-  ],
-  "language": "en",
+  "total_time": 15,
+  "prep_time": 15,
+  "yields": "1 serving",
+  "image": "https://www.thespruceeats.com/thmb/jgDiDqHCg2AfmWiuTuc5yZbyuSw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bell-pepper-sandwich-recipe-5216751-hero-01-bc8d5210259d4674872c92ce5377fc7d.jpg",
+  "description": "Cut the carbs with this tasty bell pepper sandwich. Sweet bell pepper stands in for bread, giving the sandwich a satisfying crunch and amazing flavor!",
   "nutrients": {
     "calories": "493 kcal",
     "carbohydrateContent": "17 g",
@@ -52,17 +50,19 @@
     "fatContent": "36 g",
     "unsaturatedFatContent": "0 g"
   },
-  "ratings": 4.5,
-  "ratings_count": 11,
-  "site_name": "The Spruce Eats",
-  "title": "Bell Pepper Sandwich Recipe",
-  "total_time": 15,
-  "yields": "1 serving",
+  "cuisine": "American",
+  "category": "Lunch,Dinner,Sandwich",
   "keywords": [
     "sandwich",
     "bell pepper"
   ],
-  "description": "Cut the carbs with this tasty bell pepper sandwich. Sweet bell pepper stands in for bread, giving the sandwich a satisfying crunch and amazing flavor!",
-  "cuisine": "American",
-  "prep_time": 15
+  "ratings": 4.5,
+  "ratings_count": 11,
+  "instructions_list": [
+    "Gather the ingredients.",
+    "With a sharp knife, remove the stem end of the pepper. Cut the pepper in half lengthwise and remove the ribs and seeds.",
+    "Lay the pepper halves on a cutting board, cut-side up, and spread cream cheese on each half. Spread some whole-grain mustard on the cream cheese.",
+    "Layer ham, cheese, cucumbers, and guacamole or avocado slices on each half.",
+    "Put the halves together to form a sandwich and enjoy."
+  ]
 }

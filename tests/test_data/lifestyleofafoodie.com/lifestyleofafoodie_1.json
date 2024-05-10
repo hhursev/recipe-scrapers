@@ -1,11 +1,19 @@
 {
-  "author": "Chahinez",
-  "canonical_url": "https://lifestyleofafoodie.com/frozen-strawberry-margarita/",
-  "category": "Drinks",
-  "cuisine": "American",
-  "description": "These delicious frozen strawberry margaritas are the perfect drink to add to your summer drink rotation.",
   "host": "lifestyleofafoodie.com",
-  "image": "https://lifestyleofafoodie.com/wp-content/uploads/2023/06/Frozen-strawberry-margarita-5.jpg",
+  "canonical_url": "https://lifestyleofafoodie.com/frozen-strawberry-margarita/",
+  "site_name": "Lifestyle of a Foodie",
+  "author": "Chahinez",
+  "language": "en-US",
+  "title": "Frozen strawberry margaritas",
+  "ingredients": [
+    "3 cup frozen strawberries",
+    "4 ounces tequila (add more if you'd like)",
+    "1/4 cup Lime juice",
+    "2 tablespoon agave syrup (taste and add more if needed. )",
+    "1/2-1 cup ice cubes (as needed)",
+    "Lime wedges for garnish (optional)",
+    "Salt or sugar for rimming the glass (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,23 +28,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 cup frozen strawberries",
-    "4 ounces tequila (add more if you'd like)",
-    "1/4 cup Lime juice",
-    "2 tablespoon agave syrup (taste and add more if needed. )",
-    "1/2-1 cup ice cubes (as needed)",
-    "Lime wedges for garnish (optional)",
-    "Salt or sugar for rimming the glass (optional)"
-  ],
   "instructions": "Rim the glass with salt if desired. Rub a lime wedge around the rim of the glass, then dip it into a plate with salt, rotating to coat the rim evenly. Set the glass aside.\nIn a blender, combine the frozen strawberries, ice, tequila, lime juice, and agave syrup and blend until smooth. If needed, add a splash of water or more lime juice to adjust the consistency. Want it thicker, add some ice.\nTaste the margarita and adjust the sweetness or tartness by adding more agave syrup or lime juice, if desired.\nOnce the frozen mango margarita is ready, pour it into the rimmed glass. Garnish with a lime wedge, mint, slices, or mango if desired. Serve immediately and enjoy!",
-  "instructions_list": [
-    "Rim the glass with salt if desired. Rub a lime wedge around the rim of the glass, then dip it into a plate with salt, rotating to coat the rim evenly. Set the glass aside.",
-    "In a blender, combine the frozen strawberries, ice, tequila, lime juice, and agave syrup and blend until smooth. If needed, add a splash of water or more lime juice to adjust the consistency. Want it thicker, add some ice.",
-    "Taste the margarita and adjust the sweetness or tartness by adding more agave syrup or lime juice, if desired.",
-    "Once the frozen mango margarita is ready, pour it into the rimmed glass. Garnish with a lime wedge, mint, slices, or mango if desired. Serve immediately and enjoy!"
-  ],
-  "language": "en-US",
+  "total_time": 5,
+  "prep_time": 5,
+  "yields": "4 servings",
+  "image": "https://lifestyleofafoodie.com/wp-content/uploads/2023/06/Frozen-strawberry-margarita-5.jpg",
+  "description": "These delicious frozen strawberry margaritas are the perfect drink to add to your summer drink rotation.",
   "nutrients": {
     "calories": "136 kcal",
     "carbohydrateContent": "18 g",
@@ -49,17 +46,20 @@
     "unsaturatedFatContent": "0.25 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Lifestyle of a Foodie",
-  "title": "Frozen strawberry margaritas",
-  "total_time": 5,
-  "yields": "4 servings",
-  "prep_time": 5,
+  "cuisine": "American",
+  "category": "Drinks",
   "keywords": [
     "blended srawberry margaritas",
     "blended strawberry margarita",
     "frozen strawberry margarita",
     "frozen strawberry margaritas"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "Rim the glass with salt if desired. Rub a lime wedge around the rim of the glass, then dip it into a plate with salt, rotating to coat the rim evenly. Set the glass aside.",
+    "In a blender, combine the frozen strawberries, ice, tequila, lime juice, and agave syrup and blend until smooth. If needed, add a splash of water or more lime juice to adjust the consistency. Want it thicker, add some ice.",
+    "Taste the margarita and adjust the sweetness or tartness by adding more agave syrup or lime juice, if desired.",
+    "Once the frozen mango margarita is ready, pour it into the rimmed glass. Garnish with a lime wedge, mint, slices, or mango if desired. Serve immediately and enjoy!"
   ]
 }

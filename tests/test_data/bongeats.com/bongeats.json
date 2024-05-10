@@ -1,12 +1,30 @@
 {
-  "author": "Bong Eats",
-  "canonical_url": "bongeats.com",
-  "category": "torkari",
-  "cook_time": 40,
-  "cuisine": "Indian",
-  "description": "This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!",
   "host": "bongeats.com",
-  "image": "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921392e8ed53482b6dd5_lau%20chingri%201-1.jpeg",
+  "canonical_url": "bongeats.com",
+  "site_name": null,
+  "author": "Bong Eats",
+  "language": "en",
+  "title": "Lau Chingri",
+  "ingredients": [
+    "1 kg lau (bottle gourd, 5-mm sticks)",
+    "100 g kucho chingri (tiny freshwater prawns, cleaned and deveined with head on)",
+    "45 g mustard oil",
+    "1 dried red chilli",
+    "1 bay leaf",
+    "1 cardamom pod",
+    "1 clove",
+    "1 cinnamon",
+    "½ tsp cumin seeds",
+    "½ tsp cumin powder",
+    "¼ tsp turmeric",
+    "6 g ginger paste",
+    "4 green chillies (slit)",
+    "10 g salt",
+    "18 g sugar",
+    "2 tsp ghee",
+    "1 pinch gorom moshla",
+    "6 g coriander leaves (chopped)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -32,27 +50,27 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 kg lau (bottle gourd, 5-mm sticks)",
-    "100 g kucho chingri (tiny freshwater prawns, cleaned and deveined with head on)",
-    "45 g mustard oil",
-    "1 dried red chilli",
-    "1 bay leaf",
-    "1 cardamom pod",
-    "1 clove",
-    "1 cinnamon",
-    "½ tsp cumin seeds",
-    "½ tsp cumin powder",
-    "¼ tsp turmeric",
-    "6 g ginger paste",
-    "4 green chillies (slit)",
-    "10 g salt",
-    "18 g sugar",
-    "2 tsp ghee",
-    "1 pinch gorom moshla",
-    "6 g coriander leaves (chopped)"
-  ],
   "instructions": "Clean and devein the prawns. Smear them with ¼ tsp each of salt and turmeric. Set aside.\nPeel the lau, and chop it in 5-mm thick strips, 4 cm long.\nPlace an empty kadai on the stove. Once it has heated up fully, add mustard oil. Wait for it to give off a gentle smoke and turn pale yellow.\nFry the marinated prawns in it for 30 seconds. Don’t overfry, or they will become tough. Remove from the oil and set aside.\nTemper the same (now-prawn-flavoured) oil with a dried red chilli, bay leaf, cinnamon, cardamom, cloves and cumin seeds.\nAdd cumin powder and turmeric. Fry these on low heat for 2 minutes before adding the ginger paste. Fry for another 2 minutes. If the spices start sticking to the pan, you may add splashes of water and continue frying.\nAdd lau, green chillies and salt. Mix everything and cover the pan with a lid.\nYou will now have to cook this, stirring occasionally, until the spices are well braised and the lau has ‘reduced’. This can take anything from 25–40 minutes.\nAdd sugar and continue cooking until the liquid has more or less dried up.\nAdd the fried prawns and continue braising until a very light caramelisation stage is reached.\nFinish with ghee, Bengali garam masala and chopped coriander leaves.",
+  "total_time": 60,
+  "prep_time": 20,
+  "cook_time": 40,
+  "yields": "5 servings",
+  "image": "https://assets-global.website-files.com/60d34b8627f6e735cf28df18/648b921392e8ed53482b6dd5_lau%20chingri%201-1.jpeg",
+  "description": "This dry, curried bottle-gourd recipe is a family favourite, and can be cooked with or without the shrimp!",
+  "nutrients": {
+    "calories": "154"
+  },
+  "cuisine": "Indian",
+  "category": "torkari",
+  "keywords": [
+    "lau chingri",
+    "bottle gourd sabzi",
+    "bottle gourd with shrimp",
+    "bengali bottle gourd recipe",
+    "bengali lau recipe"
+  ],
+  "ratings": 97.9,
+  "ratings_count": 2053,
   "instructions_list": [
     "Clean and devein the prawns. Smear them with ¼ tsp each of salt and turmeric. Set aside.",
     "Peel the lau, and chop it in 5-mm thick strips, 4 cm long.",
@@ -65,23 +83,5 @@
     "Add sugar and continue cooking until the liquid has more or less dried up.",
     "Add the fried prawns and continue braising until a very light caramelisation stage is reached.",
     "Finish with ghee, Bengali garam masala and chopped coriander leaves."
-  ],
-  "language": "en",
-  "nutrients": {
-    "calories": "154"
-  },
-  "prep_time": 20,
-  "ratings": 97.9,
-  "ratings_count": 2053,
-  "site_name": null,
-  "title": "Lau Chingri",
-  "total_time": 60,
-  "yields": "5 servings",
-  "keywords": [
-    "lau chingri",
-    "bottle gourd sabzi",
-    "bottle gourd with shrimp",
-    "bengali bottle gourd recipe",
-    "bengali lau recipe"
   ]
 }

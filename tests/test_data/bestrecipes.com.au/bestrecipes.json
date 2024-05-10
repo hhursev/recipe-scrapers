@@ -1,9 +1,10 @@
 {
-  "author": "Best Recipes Team",
-  "canonical_url": "https://www.bestrecipes.com.au/recipes/aussie-meat-pie-recipe-2/34l4qr5q",
   "host": "bestrecipes.com.au",
-  "description": "Once you try this meat pie you will never want to buy another. It's very yummy.",
-  "image": "https://img.bestrecipes.com.au/4tgG96MT/br/2014/06/1980-aussie-meat-pie-952369-1.jpg",
+  "canonical_url": "https://www.bestrecipes.com.au/recipes/aussie-meat-pie-recipe-2/34l4qr5q",
+  "site_name": "www.bestrecipes.com.au",
+  "author": "Best Recipes Team",
+  "language": "en-AU",
+  "title": "Aussie Meat Pie Recipe",
   "ingredients": [
     "1 onion finely chopped",
     "500g beef mince",
@@ -36,23 +37,14 @@
     }
   ],
   "instructions": "Cook meat and onion until meat is well browned.\nAdd ¾ cup water, stock cubes, sauces and seasonings.\nBring to the boil and simmer for 15 minutes.\nBlend flour and the remaining water, add to meat, bring to the boil and simmer for 5 minutes. Cool.\nLine a pie plate with the shortcrust pastry.\nSpoon in the cooled meat mixture. Moisten edges of pastry with water.\nTop with puff pastry, pressing down to seal the edges, trim and glaze with egg.\nBake at 230C for 15 minutes. Reduce heat to 190C and bake for a futher 25 minutes until golden.",
-  "instructions_list": [
-    "Cook meat and onion until meat is well browned.",
-    "Add ¾ cup water, stock cubes, sauces and seasonings.",
-    "Bring to the boil and simmer for 15 minutes.",
-    "Blend flour and the remaining water, add to meat, bring to the boil and simmer for 5 minutes. Cool.",
-    "Line a pie plate with the shortcrust pastry.",
-    "Spoon in the cooled meat mixture. Moisten edges of pastry with water.",
-    "Top with puff pastry, pressing down to seal the edges, trim and glaze with egg.",
-    "Bake at 230C for 15 minutes. Reduce heat to 190C and bake for a futher 25 minutes until golden."
-  ],
-  "language": "en-AU",
-  "site_name": "www.bestrecipes.com.au",
-  "title": "Aussie Meat Pie Recipe",
   "total_time": 55,
-  "cook_time": 40,
   "prep_time": 15,
+  "cook_time": 40,
   "yields": "6 servings",
+  "image": "https://img.bestrecipes.com.au/4tgG96MT/br/2014/06/1980-aussie-meat-pie-952369-1.jpg",
+  "description": "Once you try this meat pie you will never want to buy another. It's very yummy.",
+  "cuisine": "australian",
+  "category": "dinner, lunch, main",
   "keywords": [
     "meat pie",
     "pie",
@@ -85,8 +77,16 @@
     "worcestershire sauce",
     "budget club"
   ],
-  "category": "dinner, lunch, main",
-  "cuisine": "australian",
   "ratings": 4.8,
-  "ratings_count": 2
+  "ratings_count": 2,
+  "instructions_list": [
+    "Cook meat and onion until meat is well browned.",
+    "Add ¾ cup water, stock cubes, sauces and seasonings.",
+    "Bring to the boil and simmer for 15 minutes.",
+    "Blend flour and the remaining water, add to meat, bring to the boil and simmer for 5 minutes. Cool.",
+    "Line a pie plate with the shortcrust pastry.",
+    "Spoon in the cooled meat mixture. Moisten edges of pastry with water.",
+    "Top with puff pastry, pressing down to seal the edges, trim and glaze with egg.",
+    "Bake at 230C for 15 minutes. Reduce heat to 190C and bake for a futher 25 minutes until golden."
+  ]
 }

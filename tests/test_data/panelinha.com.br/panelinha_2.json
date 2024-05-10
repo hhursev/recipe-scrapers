@@ -1,9 +1,24 @@
 {
-  "author": "Panelinha",
-  "canonical_url": "panelinha.com.br",
-  "category": "Pratos principais,Ano novo,Especiarias",
   "host": "panelinha.com.br",
-  "image": "https://i.panelinha.com.br/i1/228-q-4303-arroz-sirio-com-frango.webp",
+  "canonical_url": "panelinha.com.br",
+  "site_name": "Panelinha - Receitas que funcionam",
+  "author": "Panelinha",
+  "language": "pt-br",
+  "title": "Arroz sírio com frango",
+  "ingredients": [
+    "2 bifes de filé de peito de frango (cerca de 240 g)",
+    "⅓ de xícara (chá) de arroz",
+    "⅔ de xícara (chá) de lentilha",
+    "1 cebola",
+    "1 dente de alho",
+    "2 xícaras (chá) de água",
+    "1½ colher (sopa) de azeite",
+    "½ colher (chá) de pimenta síria",
+    "1 colher (chá) de sal",
+    "1 pitada de açúcar",
+    "¼ de xícara (chá) de nozes picadas",
+    "⅓ de xícara (chá) de iogurte natural"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,21 +38,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 bifes de filé de peito de frango (cerca de 240 g)",
-    "⅓ de xícara (chá) de arroz",
-    "⅔ de xícara (chá) de lentilha",
-    "1 cebola",
-    "1 dente de alho",
-    "2 xícaras (chá) de água",
-    "1½ colher (sopa) de azeite",
-    "½ colher (chá) de pimenta síria",
-    "1 colher (chá) de sal",
-    "1 pitada de açúcar",
-    "¼ de xícara (chá) de nozes picadas",
-    "⅓ de xícara (chá) de iogurte natural"
-  ],
   "instructions": "Coloque a lentilha numa tigela funda e cubra com 1 xícara (chá) de água fervente. Deixe de molho enquanto prepara os outros ingredientes.\nDescasque e fatie a cebola em meias-luas médias. Descasque e pique fino o alho. Corte os bifes de frango em tirinhas de cerca de 1 cm x 7 cm.\nLeve ao fogo médio uma panela média. Quando aquecer, junte 1 colher (sopa) de azeite e a cebola fatiada. Tempere com uma pitada de sal e de açúcar e abaixe o fogo. Deixe cozinhar por cerca de 10 minutos, mexendo de vez enquanto, até a cebola ficar bem dourada - não aumente o fogo para acelerar o processo, caso contrário, a cebola pode queimar em vez de caramelizar.\nTransfira a cebola para uma tigela e aumente o fogo para médio. Acrescente o restante do azeite e doure as tirinhas de frango aos poucos - se colocar todas ao mesmo tempo, elas vão soltar o próprio líquido e cozinhar no vapor, em vez de dourar. Tempere com uma pitada de sal e mexa aos poucos para dourar por igual.\nJunte a cebola dourada e o alho e misture por apenas 1 minuto. Acrescente o arroz, 1 colher (chá) de sal e a pimenta síria. Mexa bem para envolver os grãos nos temperos.\nNuma peneira, escorra a lentilha e junte à panela. Cubra com 2 xícaras (chá) de água, misture e deixe cozinhar. Assim que começar a ferver, diminua o fogo e deixe cozinhar com a tampa entreaberta até a água secar, por cerca de 20 minutos.\nDesligue o fogo e mantenha a panela tampada por 5 minutos antes de servir, para que os grãos terminem de cozinhar no próprio vapor. Divida o arroz em dois pratos e salpique com as nozes. Sirva a seguir com iogurte natural.",
+  "total_time": null,
+  "yields": "2 servings",
+  "image": "https://i.panelinha.com.br/i1/228-q-4303-arroz-sirio-com-frango.webp",
+  "description": "Nesta versão com frango, o tradicional e perfumado arroz com lentilhas libanês se transforma numa refeição completa. E o melhor, feito numa panela só!",
+  "cuisine": "Prática,árabe,Saudável,Libanesa,Sem Glúten",
+  "category": "Pratos principais,Ano novo,Especiarias",
   "instructions_list": [
     "Coloque a lentilha numa tigela funda e cubra com 1 xícara (chá) de água fervente. Deixe de molho enquanto prepara os outros ingredientes.",
     "Descasque e fatie a cebola em meias-luas médias. Descasque e pique fino o alho. Corte os bifes de frango em tirinhas de cerca de 1 cm x 7 cm.",
@@ -46,12 +53,5 @@
     "Junte a cebola dourada e o alho e misture por apenas 1 minuto. Acrescente o arroz, 1 colher (chá) de sal e a pimenta síria. Mexa bem para envolver os grãos nos temperos.",
     "Numa peneira, escorra a lentilha e junte à panela. Cubra com 2 xícaras (chá) de água, misture e deixe cozinhar. Assim que começar a ferver, diminua o fogo e deixe cozinhar com a tampa entreaberta até a água secar, por cerca de 20 minutos.",
     "Desligue o fogo e mantenha a panela tampada por 5 minutos antes de servir, para que os grãos terminem de cozinhar no próprio vapor. Divida o arroz em dois pratos e salpique com as nozes. Sirva a seguir com iogurte natural."
-  ],
-  "language": "pt-br",
-  "site_name": "Panelinha - Receitas que funcionam",
-  "title": "Arroz sírio com frango",
-  "total_time": null,
-  "yields": "2 servings",
-  "description": "Nesta versão com frango, o tradicional e perfumado arroz com lentilhas libanês se transforma numa refeição completa. E o melhor, feito numa panela só!",
-  "cuisine": "Prática,árabe,Saudável,Libanesa,Sem Glúten"
+  ]
 }

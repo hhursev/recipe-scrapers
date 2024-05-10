@@ -1,11 +1,18 @@
 {
-  "author": "Justin",
-  "canonical_url": "https://saltpepperskillet.com/recipes/smoked-chicken/",
-  "category": "Main",
-  "cuisine": "American",
-  "description": "Brined, dry rubbed and applewood smoked with a little kick and sweetness. Making a whole chicken in the smoker is the perfect way to feed a crowd or feast for days on succulent yardbird.",
   "host": "saltpepperskillet.com",
-  "image": "https://saltpepperskillet.com/wp-content/uploads/smoked-whole-chicken-horizontal-head-on.jpg",
+  "canonical_url": "https://saltpepperskillet.com/recipes/smoked-chicken/",
+  "site_name": "Salt Pepper Skillet",
+  "author": "Justin",
+  "language": "en-US",
+  "title": "Smoked Whole Chicken Recipe",
+  "ingredients": [
+    "1 (4 to 5 lb) Chicken",
+    "3 tbsp Chicken Dry Rub ((omit the salt if brining the chicken))",
+    "Apple or Cherry Wood for Smoke",
+    "4 quarts Water",
+    "1 cup Diamond Kosher Salt ((Use 3/4 cup if using Morton Kosher Salt))",
+    "3/4 cup Sugar"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,26 +26,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 (4 to 5 lb) Chicken",
-    "3 tbsp Chicken Dry Rub ((omit the salt if brining the chicken))",
-    "Apple or Cherry Wood for Smoke",
-    "4 quarts Water",
-    "1 cup Diamond Kosher Salt ((Use 3/4 cup if using Morton Kosher Salt))",
-    "3/4 cup Sugar"
-  ],
   "instructions": "To Brine the Chicken (optional but recommended)\nIn a large bowl or container large enough to easily fit the chicken, whisk the salt and sugar with the water until it is dissolved. Submerge the chicken in the brine, then cover and refrigerate for 3 to 6 hours.\nThoroughly rinse and pat the chicken dry with paper towels and discard the brine. Let the chicken sit out on the counter to come up to temperature while you set up your smoker.\nTo Smoke the Chicken\nPrep the smoker for indirect heat cooking and bring the temperature between 225° and 275* F 250° F *see note. Add wood chunks or pellets according to the manufacturer's instructions and place a drip pan filled with water below where the chicken will smoke.\nApply a light slather (canola oil, mustard or hot sauce) all over the skin of the chicken to help the spice rub stick. Sprinkle about 2 to 3 tablespoons of dry rub with a shaker for even distribution all over the skin. Do the presentation side (breasts) last.\nPlace the chicken in the smoker and cook until the internal temperature of the breasts reaches 160° F and thighs the are around 180° F. This will take between 3 and 4 hours. Use a probe thermometer to verify. The temperature will continue to rise about 5 degrees once removed from the heat.\nRest the chicken on a cutting board for 15 minutes before carving and serving.",
-  "instructions_list": [
-    "To Brine the Chicken (optional but recommended)",
-    "In a large bowl or container large enough to easily fit the chicken, whisk the salt and sugar with the water until it is dissolved. Submerge the chicken in the brine, then cover and refrigerate for 3 to 6 hours.",
-    "Thoroughly rinse and pat the chicken dry with paper towels and discard the brine. Let the chicken sit out on the counter to come up to temperature while you set up your smoker.",
-    "To Smoke the Chicken",
-    "Prep the smoker for indirect heat cooking and bring the temperature between 225° and 275* F 250° F *see note. Add wood chunks or pellets according to the manufacturer's instructions and place a drip pan filled with water below where the chicken will smoke.",
-    "Apply a light slather (canola oil, mustard or hot sauce) all over the skin of the chicken to help the spice rub stick. Sprinkle about 2 to 3 tablespoons of dry rub with a shaker for even distribution all over the skin. Do the presentation side (breasts) last.",
-    "Place the chicken in the smoker and cook until the internal temperature of the breasts reaches 160° F and thighs the are around 180° F. This will take between 3 and 4 hours. Use a probe thermometer to verify. The temperature will continue to rise about 5 degrees once removed from the heat.",
-    "Rest the chicken on a cutting board for 15 minutes before carving and serving."
-  ],
-  "language": "en-US",
+  "total_time": 435,
+  "prep_time": 15,
+  "cook_time": 240,
+  "yields": "4 servings",
+  "image": "https://saltpepperskillet.com/wp-content/uploads/smoked-whole-chicken-horizontal-head-on.jpg",
+  "description": "Brined, dry rubbed and applewood smoked with a little kick and sweetness. Making a whole chicken in the smoker is the perfect way to feed a crowd or feast for days on succulent yardbird.",
   "nutrients": {
     "calories": "563 kcal",
     "carbohydrateContent": "39 g",
@@ -53,15 +47,21 @@
     "unsaturatedFatContent": "18 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 5,
-  "site_name": "Salt Pepper Skillet",
-  "title": "Smoked Whole Chicken Recipe",
-  "total_time": 435,
-  "yields": "4 servings",
-  "cook_time": 240,
-  "prep_time": 15,
+  "cuisine": "American",
+  "category": "Main",
   "keywords": [
     "smoked chicken"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 5,
+  "instructions_list": [
+    "To Brine the Chicken (optional but recommended)",
+    "In a large bowl or container large enough to easily fit the chicken, whisk the salt and sugar with the water until it is dissolved. Submerge the chicken in the brine, then cover and refrigerate for 3 to 6 hours.",
+    "Thoroughly rinse and pat the chicken dry with paper towels and discard the brine. Let the chicken sit out on the counter to come up to temperature while you set up your smoker.",
+    "To Smoke the Chicken",
+    "Prep the smoker for indirect heat cooking and bring the temperature between 225° and 275* F 250° F *see note. Add wood chunks or pellets according to the manufacturer's instructions and place a drip pan filled with water below where the chicken will smoke.",
+    "Apply a light slather (canola oil, mustard or hot sauce) all over the skin of the chicken to help the spice rub stick. Sprinkle about 2 to 3 tablespoons of dry rub with a shaker for even distribution all over the skin. Do the presentation side (breasts) last.",
+    "Place the chicken in the smoker and cook until the internal temperature of the breasts reaches 160° F and thighs the are around 180° F. This will take between 3 and 4 hours. Use a probe thermometer to verify. The temperature will continue to rise about 5 degrees once removed from the heat.",
+    "Rest the chicken on a cutting board for 15 minutes before carving and serving."
   ]
 }

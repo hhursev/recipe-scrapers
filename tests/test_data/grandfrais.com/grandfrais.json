@@ -1,12 +1,22 @@
 {
-  "author": "Grand Frais",
-  "canonical_url": "https://www.grandfrais.com/recettes/gratinee-a-lemmental-et-aux-poireaux",
-  "category": null,
-  "cook_time": 70.0,
-  "cuisine": null,
-  "description": null,
   "host": "grandfrais.com",
-  "image": "https://www.grandfrais.com/images/institBackoffice/recette/desktop/63d92727777fd_300x300-gratin.webp",
+  "canonical_url": "https://www.grandfrais.com/recettes/gratinee-a-lemmental-et-aux-poireaux",
+  "site_name": "Grand Frais",
+  "author": "Grand Frais",
+  "language": "fr",
+  "title": "Gratinée à l'emmental et aux poireaux",
+  "ingredients": [
+    "300 g d'emmental",
+    "0.5 L de bouillon de boeuf",
+    "80 g de beurre",
+    "20 cl de vin blanc sec",
+    "1 kg d'oignons",
+    "20 cl de vin blanc sec",
+    "500 g de poireaux",
+    "50 g de farine",
+    "1 baguette",
+    "Sel et poivre"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,19 +34,17 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "300 g d'emmental",
-    "0.5 L de bouillon de boeuf",
-    "80 g de beurre",
-    "20 cl de vin blanc sec",
-    "1 kg d'oignons",
-    "20 cl de vin blanc sec",
-    "500 g de poireaux",
-    "50 g de farine",
-    "1 baguette",
-    "Sel et poivre"
-  ],
   "instructions": "Épluchez les oignons et les poireaux et émincez-les.\nFaites revenir à feu doux les oignons dans le beurre et laissez- les colorer, ajoutez la farine et déglacez avec le vin blanc.\nAjoutez les poireaux, arrosez de bouillon et laissez cuire 1h à feu doux.\nCoupez le pain et préparez des croûtons que vous ferez griller au four.\nVersez la soupe dans des bols allant au four sur laquelle vous rajouterez les croûtons.\nRâpez l'emmental et disposez-le dans les bols.\nFaites gratiner 6 min sous le grill jusqu'à ce que le râpé soit bien fondu.",
+  "total_time": 85.0,
+  "prep_time": 15,
+  "cook_time": 70.0,
+  "yields": "6 servings",
+  "image": "https://www.grandfrais.com/images/institBackoffice/recette/desktop/63d92727777fd_300x300-gratin.webp",
+  "description": null,
+  "nutrients": null,
+  "cuisine": null,
+  "category": null,
+  "ratings": null,
   "instructions_list": [
     "Épluchez les oignons et les poireaux et émincez-les.",
     "Faites revenir à feu doux les oignons dans le beurre et laissez- les colorer, ajoutez la farine et déglacez avec le vin blanc.",
@@ -45,13 +53,5 @@
     "Versez la soupe dans des bols allant au four sur laquelle vous rajouterez les croûtons.",
     "Râpez l'emmental et disposez-le dans les bols.",
     "Faites gratiner 6 min sous le grill jusqu'à ce que le râpé soit bien fondu."
-  ],
-  "language": "fr",
-  "nutrients": null,
-  "prep_time": 15,
-  "ratings": null,
-  "site_name": "Grand Frais",
-  "title": "Gratinée à l'emmental et aux poireaux",
-  "total_time": 85.0,
-  "yields": "6 servings"
+  ]
 }

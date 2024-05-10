@@ -1,9 +1,28 @@
 {
-  "author": "Michele Rosen",
-  "canonical_url": "https://www.paleorunningmomma.com/paleo-beef-stroganoff-whole30-keto/",
-  "category": "Dinner",
   "host": "paleorunningmomma.com",
-  "image": "https://www.paleorunningmomma.com/wp-content/uploads/2020/12/beef-stroganoff-9.jpg",
+  "canonical_url": "https://www.paleorunningmomma.com/paleo-beef-stroganoff-whole30-keto/",
+  "site_name": "The Paleo Running Momma",
+  "author": "Michele Rosen",
+  "language": "en-US",
+  "title": "Paleo Beef Stroganoff {Whole30, Keto}",
+  "ingredients": [
+    "5 Tbsp ghee (divided)",
+    "1.5 lb top sirloin or tenderloin (thinly sliced into 1/2” x 2” strips)",
+    "1 large onion (thinly sliced)",
+    "Sea salt and black pepper to taste",
+    "8 oz mushrooms (sliced)",
+    "3 cloves garlic (minced)",
+    "2 cups beef broth",
+    "1 Tbsp coconut aminos",
+    "2 Tbsp arrowroot flour (or tapioca)",
+    "Salt to taste and black pepper to taste",
+    "1 cup coconut cream (canned, unsweetened)",
+    "1 Tbsp fresh lemon juice",
+    "1 tsp dijon mustard",
+    "Pinch Sea salt",
+    "Sea salt and black pepper to taste",
+    "Minced parsley (for garnish)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -27,33 +46,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "5 Tbsp ghee (divided)",
-    "1.5 lb top sirloin or tenderloin (thinly sliced into 1/2” x 2” strips)",
-    "1 large onion (thinly sliced)",
-    "Sea salt and black pepper to taste",
-    "8 oz mushrooms (sliced)",
-    "3 cloves garlic (minced)",
-    "2 cups beef broth",
-    "1 Tbsp coconut aminos",
-    "2 Tbsp arrowroot flour (or tapioca)",
-    "Salt to taste and black pepper to taste",
-    "1 cup coconut cream (canned, unsweetened)",
-    "1 Tbsp fresh lemon juice",
-    "1 tsp dijon mustard",
-    "Pinch Sea salt",
-    "Sea salt and black pepper to taste",
-    "Minced parsley (for garnish)"
-  ],
   "instructions": "In a large deep skillet, melt 2 tablespoons of the ghee over medium-high heat.\nAdd the steak in a single layer, season with salt and pepper, and let it cook for 3 minutes to brown. Flip, and cook on the other side until browned, another 2 minutes. Then remove steak from pan with a slotted spoon, transfer to a plate, and set aside.\nLower the heat to medium and the remaining 3 tablespoons of ghee to the skillet. Once it has melted, add the onions and sauté for about 3 minutes, until soft and fragrant. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft, then add the garlic and sauté 1 minute, stirring occasionally.\nIn a bowl or large measuring cup, whisk in together the beef broth, coconut aminos and arrowroot until smooth. Pour the mixture into the skillet and stir well to combine. Simmer for about 5 minutes, stirring occasionally. Meanwhile, in a separate small bowl whisk together the coconut cream, lemon juice, mustard and a pinch of sea salt. Stir the coconut cream mixture plus the cooked steak into the skillet and stir until combined. Taste and season with additional salt and pepper if needed, and cook just long enough to heat through.\nGarnish with parsley, if desired, and serve over cauliflower rice or your favorite veggie noodles. Enjoy!",
-  "instructions_list": [
-    "In a large deep skillet, melt 2 tablespoons of the ghee over medium-high heat.",
-    "Add the steak in a single layer, season with salt and pepper, and let it cook for 3 minutes to brown. Flip, and cook on the other side until browned, another 2 minutes. Then remove steak from pan with a slotted spoon, transfer to a plate, and set aside.",
-    "Lower the heat to medium and the remaining 3 tablespoons of ghee to the skillet. Once it has melted, add the onions and sauté for about 3 minutes, until soft and fragrant. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft, then add the garlic and sauté 1 minute, stirring occasionally.",
-    "In a bowl or large measuring cup, whisk in together the beef broth, coconut aminos and arrowroot until smooth. Pour the mixture into the skillet and stir well to combine. Simmer for about 5 minutes, stirring occasionally. Meanwhile, in a separate small bowl whisk together the coconut cream, lemon juice, mustard and a pinch of sea salt. Stir the coconut cream mixture plus the cooked steak into the skillet and stir until combined. Taste and season with additional salt and pepper if needed, and cook just long enough to heat through.",
-    "Garnish with parsley, if desired, and serve over cauliflower rice or your favorite veggie noodles. Enjoy!"
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 10,
+  "cook_time": 30,
+  "yields": "6 servings",
+  "image": "https://www.paleorunningmomma.com/wp-content/uploads/2020/12/beef-stroganoff-9.jpg",
+  "description": "This hearty and savory paleo beef stroganoff is made all in one skillet for a quick, delicious and cozy weeknight meal. It’s Whole30 compliant, low carb and keto and perfect served over sautéed cauliflower rice or your favorite veggie noodles!",
   "nutrients": {
     "calories": "422 kcal",
     "carbohydrateContent": "9 g",
@@ -66,12 +65,8 @@
     "sugarContent": "2 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.56,
-  "ratings_count": 100,
-  "site_name": "The Paleo Running Momma",
-  "title": "Paleo Beef Stroganoff {Whole30, Keto}",
-  "total_time": 40,
-  "yields": "6 servings",
+  "cuisine": "Gluten-free,keto,Paleo,Whole30",
+  "category": "Dinner",
   "keywords": [
     "beef",
     "dinner",
@@ -81,8 +76,13 @@
     "stroganoff",
     "whole30"
   ],
-  "description": "This hearty and savory paleo beef stroganoff is made all in one skillet for a quick, delicious and cozy weeknight meal. It’s Whole30 compliant, low carb and keto and perfect served over sautéed cauliflower rice or your favorite veggie noodles!",
-  "cook_time": 30,
-  "cuisine": "Gluten-free,keto,Paleo,Whole30",
-  "prep_time": 10
+  "ratings": 4.56,
+  "ratings_count": 100,
+  "instructions_list": [
+    "In a large deep skillet, melt 2 tablespoons of the ghee over medium-high heat.",
+    "Add the steak in a single layer, season with salt and pepper, and let it cook for 3 minutes to brown. Flip, and cook on the other side until browned, another 2 minutes. Then remove steak from pan with a slotted spoon, transfer to a plate, and set aside.",
+    "Lower the heat to medium and the remaining 3 tablespoons of ghee to the skillet. Once it has melted, add the onions and sauté for about 3 minutes, until soft and fragrant. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft, then add the garlic and sauté 1 minute, stirring occasionally.",
+    "In a bowl or large measuring cup, whisk in together the beef broth, coconut aminos and arrowroot until smooth. Pour the mixture into the skillet and stir well to combine. Simmer for about 5 minutes, stirring occasionally. Meanwhile, in a separate small bowl whisk together the coconut cream, lemon juice, mustard and a pinch of sea salt. Stir the coconut cream mixture plus the cooked steak into the skillet and stir until combined. Taste and season with additional salt and pepper if needed, and cook just long enough to heat through.",
+    "Garnish with parsley, if desired, and serve over cauliflower rice or your favorite veggie noodles. Enjoy!"
+  ]
 }

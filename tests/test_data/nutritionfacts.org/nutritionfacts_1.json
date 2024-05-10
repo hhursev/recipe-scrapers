@@ -1,10 +1,25 @@
 {
-  "author": "Michael Greger M.D. FACLM",
-  "canonical_url": "https://nutritionfacts.org/recipe/sweet-potato-taquitos/",
-  "category": "Main Course",
-  "description": "Sweet Potato Taquitos are a delicious way to check-off a few Daily Dozen servings! This dish combines beans, whole grains, spices, and vegetables for a satisfying meal. Top with cashew cream and avocados, if desired. Pair with a green leafy salad to check even more Daily Dozen boxes off.",
   "host": "nutritionfacts.org",
-  "image": "https://nutritionfacts.org/app/uploads/2022/05/potato-taquitos-2-scaled.jpg",
+  "canonical_url": "https://nutritionfacts.org/recipe/sweet-potato-taquitos/",
+  "site_name": null,
+  "author": "Michael Greger M.D. FACLM",
+  "language": "en-US",
+  "title": "Sweet Potato Taquitos",
+  "ingredients": [
+    "2½ -3 cups chopped sweet potatoes (about 1 large or 2 medium sweet potatoes)",
+    "1 cup chopped carrots (about 3 medium carrots)",
+    "3 cloves garlic, minced",
+    "1 cup chopped red onion",
+    "1½ cups cooked black beans",
+    "1 teaspoon chili powder",
+    "½ teaspoon onion powder",
+    "½ teaspoon paprika or smoked paprika",
+    "½ teaspoon ground turmeric",
+    "¼ teaspoon black pepper",
+    "12-14 small corn tortillas",
+    "Cashew Cream (optional)",
+    "Avocado (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,22 +40,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2½ -3 cups chopped sweet potatoes (about 1 large or 2 medium sweet potatoes)",
-    "1 cup chopped carrots (about 3 medium carrots)",
-    "3 cloves garlic, minced",
-    "1 cup chopped red onion",
-    "1½ cups cooked black beans",
-    "1 teaspoon chili powder",
-    "½ teaspoon onion powder",
-    "½ teaspoon paprika or smoked paprika",
-    "½ teaspoon ground turmeric",
-    "¼ teaspoon black pepper",
-    "12-14 small corn tortillas",
-    "Cashew Cream (optional)",
-    "Avocado (optional)"
-  ],
   "instructions": "Boil the potatoes and carrots in 3-4 cups water until soft. Drain the water off. Mash the potatoes and carrots until reaches desired consistency. Feel free to add a splash of unsweetened soy milk or water for a smoother texture.\nIn a pan, sauté the garlic and onion with 2-3 tablespoons of water. Add the spices and cook until the onions are translucent. Stir in the cooked beans.\nIn a bowl, combine the potato and carrot mixture with the black beans mixture. Stir together.\nPreheat the oven 425F or feel free to use an air fryer with a bake setting.\nPlace a small scoop of the potato and bean mixture on to a tortilla, spread it out, and then roll tightly. Place the seam-side of the tortilla down on a baking sheet lined with a silicon mat or parchment paper (or an air fryer basket). Repeat this process for the remaining tortillas.\nBake the tortillas for about 10-15 minutes.\nPrepare the Cashew Cream, if desired. Thin it out a bit to drizzle on top of the Taquitos or use it as a dip. Optional to top with diced avocado. Enjoy!",
+  "yields": "4 servings",
+  "image": "https://nutritionfacts.org/app/uploads/2022/05/potato-taquitos-2-scaled.jpg",
+  "description": "Sweet Potato Taquitos are a delicious way to check-off a few Daily Dozen servings! This dish combines beans, whole grains, spices, and vegetables for a satisfying meal. Top with cashew cream and avocados, if desired. Pair with a green leafy salad to check even more Daily Dozen boxes off.",
+  "category": "Main Course",
+  "ratings": 4.33,
+  "ratings_count": 37,
   "instructions_list": [
     "Boil the potatoes and carrots in 3-4 cups water until soft. Drain the water off. Mash the potatoes and carrots until reaches desired consistency. Feel free to add a splash of unsweetened soy milk or water for a smoother texture.",
     "In a pan, sauté the garlic and onion with 2-3 tablespoons of water. Add the spices and cook until the onions are translucent. Stir in the cooked beans.",
@@ -49,11 +55,5 @@
     "Place a small scoop of the potato and bean mixture on to a tortilla, spread it out, and then roll tightly. Place the seam-side of the tortilla down on a baking sheet lined with a silicon mat or parchment paper (or an air fryer basket). Repeat this process for the remaining tortillas.",
     "Bake the tortillas for about 10-15 minutes.",
     "Prepare the Cashew Cream, if desired. Thin it out a bit to drizzle on top of the Taquitos or use it as a dip. Optional to top with diced avocado. Enjoy!"
-  ],
-  "language": "en-US",
-  "ratings": 4.33,
-  "ratings_count": 37,
-  "site_name": null,
-  "title": "Sweet Potato Taquitos",
-  "yields": "4 servings"
+  ]
 }

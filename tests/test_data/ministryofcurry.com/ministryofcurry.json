@@ -1,11 +1,28 @@
 {
-  "author": "Archana",
-  "canonical_url": "https://ministryofcurry.com/slow-cooker-chicken-tikka-masala/",
-  "category": "dinner,Entree",
-  "cuisine": "Indian",
-  "description": "Tender chicken marinated in aromatic spices is slow cooked in a delicious tomato-based curry for the best Indian meal.",
   "host": "ministryofcurry.com",
-  "image": "https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2.jpg",
+  "canonical_url": "https://ministryofcurry.com/slow-cooker-chicken-tikka-masala/",
+  "site_name": "Ministry of Curry",
+  "author": "Archana",
+  "language": "en-US",
+  "title": "Slow Cooker EASY Chicken Tikka Masala",
+  "ingredients": [
+    "2 pounds chicken breasts (skinless boneless)",
+    "2½ teaspoons kosher salt",
+    "1 tablespoon lemon juice",
+    "3 tablespoons plain yogurt",
+    "1 tablespoon kashmiri red chili powder",
+    "½ teaspoon ground turmeric",
+    "1½ teaspoon garam masala",
+    "1 tablespoon ginger (grated)",
+    "1 tablespoon garlic (minced)",
+    "2 tablespoons oil",
+    "2 medium yellow onions (finely diced)",
+    "1½ cups tomato puree",
+    "½ to ¾ cup heavy cream",
+    "1 to 2 tablespoons tomato paste",
+    "2 tablespoons dried fenugreek leaves (kasoori methi)",
+    "½ cup cilantro (chopped)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,37 +46,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 pounds chicken breasts (skinless boneless)",
-    "2½ teaspoons kosher salt",
-    "1 tablespoon lemon juice",
-    "3 tablespoons plain yogurt",
-    "1 tablespoon kashmiri red chili powder",
-    "½ teaspoon ground turmeric",
-    "1½ teaspoon garam masala",
-    "1 tablespoon ginger (grated)",
-    "1 tablespoon garlic (minced)",
-    "2 tablespoons oil",
-    "2 medium yellow onions (finely diced)",
-    "1½ cups tomato puree",
-    "½ to ¾ cup heavy cream",
-    "1 to 2 tablespoons tomato paste",
-    "2 tablespoons dried fenugreek leaves (kasoori methi)",
-    "½ cup cilantro (chopped)"
-  ],
   "instructions": "Cut the chicken breasts into 2 to 3-inch cubes. Add 2 teaspoon salt and lemon juice and mix well. Add yogurt, red chili powder, turmeric, garam masala, ginger, and garlic. Mix well and allow to marinate while you prep the remaining ingredients.\nHeat oil in a medium pan. Add onions and 1/2 teaspoon of salt. Cook over medium heat for 5 minutes stirring frequently until the onions start to soften and turn translucent. Note: If you are using Instant Pot as a slow cooker, you can saute in the instant pot itself.\nAdd the cooked onions to the crockpot / slow cooker and spread it evenly. Evenly layer tomato puree over the onions. Line the marinated chicken over the tomato puree. Place the crockpot lid and set the cooking time to Slow Cook (Hi) and adjust the cooking time to 4 hours.\nAfter 4 hours, your kitchen will be filled with the beautiful aromas of the curry. Add heavy cream, crush the fenugreek leaves on the palm of your hands and add to the curry. Mix well, taste, and add tomato paste. Mix well and more cream if needed. Note: Optionally you can add 1 teaspoon of sugar to balance all the flavors. Garnish with cilantro and enjoy with basmati rice and naan.\nNotes:\nTo make chicken tikka masala without cream or dairy-free, you can either use unsweetened coconut cream (I love Trader Joe's) or homemade cashew cream. To make the cashew cream at home simply blend 1/2 cup of cashews in half a cup of warm water and make a smooth paste.\nI have tested this recipe using a Crockpot slow cooker, Instant Pot slow cooker function, and Instant Pot AURA Multi Cooker. The advantage with the Instant Pot models is that you can saute the onions in the same pot. With a crockpot slow cooker, you saute the onions in a separate pan on the stovetop.\nIf you do not have a good brand of tomato puree like the Pomi one, you can puree 3 fresh tomatoes in a blender and use that instead.\nI like to use chicken breasts in this recipe, but you can also use chicken thighs, simply cut each thigh into 2 pieces.",
-  "instructions_list": [
-    "Cut the chicken breasts into 2 to 3-inch cubes. Add 2 teaspoon salt and lemon juice and mix well. Add yogurt, red chili powder, turmeric, garam masala, ginger, and garlic. Mix well and allow to marinate while you prep the remaining ingredients.",
-    "Heat oil in a medium pan. Add onions and 1/2 teaspoon of salt. Cook over medium heat for 5 minutes stirring frequently until the onions start to soften and turn translucent. Note: If you are using Instant Pot as a slow cooker, you can saute in the instant pot itself.",
-    "Add the cooked onions to the crockpot / slow cooker and spread it evenly. Evenly layer tomato puree over the onions. Line the marinated chicken over the tomato puree. Place the crockpot lid and set the cooking time to Slow Cook (Hi) and adjust the cooking time to 4 hours.",
-    "After 4 hours, your kitchen will be filled with the beautiful aromas of the curry. Add heavy cream, crush the fenugreek leaves on the palm of your hands and add to the curry. Mix well, taste, and add tomato paste. Mix well and more cream if needed. Note: Optionally you can add 1 teaspoon of sugar to balance all the flavors. Garnish with cilantro and enjoy with basmati rice and naan.",
-    "Notes:",
-    "To make chicken tikka masala without cream or dairy-free, you can either use unsweetened coconut cream (I love Trader Joe's) or homemade cashew cream. To make the cashew cream at home simply blend 1/2 cup of cashews in half a cup of warm water and make a smooth paste.",
-    "I have tested this recipe using a Crockpot slow cooker, Instant Pot slow cooker function, and Instant Pot AURA Multi Cooker. The advantage with the Instant Pot models is that you can saute the onions in the same pot. With a crockpot slow cooker, you saute the onions in a separate pan on the stovetop.",
-    "If you do not have a good brand of tomato puree like the Pomi one, you can puree 3 fresh tomatoes in a blender and use that instead.",
-    "I like to use chicken breasts in this recipe, but you can also use chicken thighs, simply cut each thigh into 2 pieces."
-  ],
-  "language": "en-US",
+  "total_time": 270,
+  "prep_time": 30,
+  "cook_time": 240,
+  "yields": "6 servings",
+  "image": "https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2.jpg",
+  "description": "Tender chicken marinated in aromatic spices is slow cooked in a delicious tomato-based curry for the best Indian meal.",
   "nutrients": {
     "calories": "323 kcal",
     "carbohydrateContent": "8 g",
@@ -72,19 +65,26 @@
     "sugarContent": "4 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.69,
-  "ratings_count": 145,
-  "site_name": "Ministry of Curry",
-  "title": "Slow Cooker EASY Chicken Tikka Masala",
-  "total_time": 270,
-  "yields": "6 servings",
-  "equipment": [
-    "Slow Cooker"
-  ],
+  "cuisine": "Indian",
+  "category": "dinner,Entree",
   "keywords": [
     "chicken tikka masala",
     "slow cooker"
   ],
-  "cook_time": 240,
-  "prep_time": 30
+  "equipment": [
+    "Slow Cooker"
+  ],
+  "ratings": 4.69,
+  "ratings_count": 145,
+  "instructions_list": [
+    "Cut the chicken breasts into 2 to 3-inch cubes. Add 2 teaspoon salt and lemon juice and mix well. Add yogurt, red chili powder, turmeric, garam masala, ginger, and garlic. Mix well and allow to marinate while you prep the remaining ingredients.",
+    "Heat oil in a medium pan. Add onions and 1/2 teaspoon of salt. Cook over medium heat for 5 minutes stirring frequently until the onions start to soften and turn translucent. Note: If you are using Instant Pot as a slow cooker, you can saute in the instant pot itself.",
+    "Add the cooked onions to the crockpot / slow cooker and spread it evenly. Evenly layer tomato puree over the onions. Line the marinated chicken over the tomato puree. Place the crockpot lid and set the cooking time to Slow Cook (Hi) and adjust the cooking time to 4 hours.",
+    "After 4 hours, your kitchen will be filled with the beautiful aromas of the curry. Add heavy cream, crush the fenugreek leaves on the palm of your hands and add to the curry. Mix well, taste, and add tomato paste. Mix well and more cream if needed. Note: Optionally you can add 1 teaspoon of sugar to balance all the flavors. Garnish with cilantro and enjoy with basmati rice and naan.",
+    "Notes:",
+    "To make chicken tikka masala without cream or dairy-free, you can either use unsweetened coconut cream (I love Trader Joe's) or homemade cashew cream. To make the cashew cream at home simply blend 1/2 cup of cashews in half a cup of warm water and make a smooth paste.",
+    "I have tested this recipe using a Crockpot slow cooker, Instant Pot slow cooker function, and Instant Pot AURA Multi Cooker. The advantage with the Instant Pot models is that you can saute the onions in the same pot. With a crockpot slow cooker, you saute the onions in a separate pan on the stovetop.",
+    "If you do not have a good brand of tomato puree like the Pomi one, you can puree 3 fresh tomatoes in a blender and use that instead.",
+    "I like to use chicken breasts in this recipe, but you can also use chicken thighs, simply cut each thigh into 2 pieces."
+  ]
 }

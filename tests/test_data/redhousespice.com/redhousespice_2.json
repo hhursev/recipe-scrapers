@@ -1,9 +1,21 @@
 {
-  "author": "Wei Guo",
-  "canonical_url": "https://redhousespice.com/smashed-cucumber/",
-  "category": "Salad",
   "host": "redhousespice.com",
-  "image": "https://redhousespice.com/wp-content/uploads/2022/06/chinese-smashed-cucumber-scaled.jpg",
+  "canonical_url": "https://redhousespice.com/smashed-cucumber/",
+  "site_name": "Red House Spice",
+  "author": "Wei Guo",
+  "language": "en-US",
+  "title": "Smashed Cucumber Salad (拍黄瓜)",
+  "ingredients": [
+    "1 large cucumber (or 2 small ones (about 350g/12oz))",
+    "¼ tsp salt",
+    "2 cloves garlic (minced)",
+    "1 tbsp light soy sauce",
+    "½ tbsp black rice vinegar (e.g. Chikiang vinegar)",
+    "1 tsp sesame oil",
+    "1 pinch sugar",
+    "Chinese chilli oil (to taste)",
+    "Sichuan pepper oil (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,25 +32,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 large cucumber (or 2 small ones (about 350g/12oz))",
-    "¼ tsp salt",
-    "2 cloves garlic (minced)",
-    "1 tbsp light soy sauce",
-    "½ tbsp black rice vinegar (e.g. Chikiang vinegar)",
-    "1 tsp sesame oil",
-    "1 pinch sugar",
-    "Chinese chilli oil (to taste)",
-    "Sichuan pepper oil (optional)"
-  ],
   "instructions": "Place cucumber onto a chopping board. Use the side of a cleaver, or a rolling pin/a meat pounder, to smash it. Make sure the pressure is enough to crack it open by one stroke, instead of pounding it multiple times on one spot. Then cut it crosswise into bite-sized pieces.\nTransfer the cucumber to a bowl. Sprinkle evenly with salt. Leave to rest for 10 minutes or so. Then drain away the water extracted by the salt (see note).\nAdd light soy sauce, black rice vinegar, sesame oil, sugar, minced garlic, chilli oil and Sichuan pepper oil if using. Toss very well to evenly distribute the seasonings.\nEnjoy it right away or let it sit for 2 minutes before serving (The flavour will penetrate further into the cucumber).",
-  "instructions_list": [
-    "Place cucumber onto a chopping board. Use the side of a cleaver, or a rolling pin/a meat pounder, to smash it. Make sure the pressure is enough to crack it open by one stroke, instead of pounding it multiple times on one spot. Then cut it crosswise into bite-sized pieces.",
-    "Transfer the cucumber to a bowl. Sprinkle evenly with salt. Leave to rest for 10 minutes or so. Then drain away the water extracted by the salt (see note).",
-    "Add light soy sauce, black rice vinegar, sesame oil, sugar, minced garlic, chilli oil and Sichuan pepper oil if using. Toss very well to evenly distribute the seasonings.",
-    "Enjoy it right away or let it sit for 2 minutes before serving (The flavour will penetrate further into the cucumber)."
-  ],
-  "language": "en-US",
+  "total_time": 15,
+  "prep_time": 3,
+  "yields": "2 servings",
+  "image": "https://redhousespice.com/wp-content/uploads/2022/06/chinese-smashed-cucumber-scaled.jpg",
+  "description": "Cracked with force and seasoned with bold flavours, Chinese smashed cucumber salad is a quick, fun and refreshing dish to make.",
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "53 kcal",
@@ -51,12 +50,8 @@
     "sugarContent": "3 g",
     "unsaturatedFatContent": "11 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 28,
-  "site_name": "Red House Spice",
-  "title": "Smashed Cucumber Salad (拍黄瓜)",
-  "total_time": 15,
-  "yields": "2 servings",
+  "cuisine": "Chinese",
+  "category": "Salad",
   "dietary_restrictions": [
     "Vegan Diet",
     "Vegetarian Diet"
@@ -65,7 +60,12 @@
     "cucumber salad",
     "smashed cucumber salad"
   ],
-  "description": "Cracked with force and seasoned with bold flavours, Chinese smashed cucumber salad is a quick, fun and refreshing dish to make.",
-  "cuisine": "Chinese",
-  "prep_time": 3
+  "ratings": 5.0,
+  "ratings_count": 28,
+  "instructions_list": [
+    "Place cucumber onto a chopping board. Use the side of a cleaver, or a rolling pin/a meat pounder, to smash it. Make sure the pressure is enough to crack it open by one stroke, instead of pounding it multiple times on one spot. Then cut it crosswise into bite-sized pieces.",
+    "Transfer the cucumber to a bowl. Sprinkle evenly with salt. Leave to rest for 10 minutes or so. Then drain away the water extracted by the salt (see note).",
+    "Add light soy sauce, black rice vinegar, sesame oil, sugar, minced garlic, chilli oil and Sichuan pepper oil if using. Toss very well to evenly distribute the seasonings.",
+    "Enjoy it right away or let it sit for 2 minutes before serving (The flavour will penetrate further into the cucumber)."
+  ]
 }

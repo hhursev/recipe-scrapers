@@ -1,11 +1,27 @@
 {
-  "author": "Delphinella",
-  "canonical_url": "https://www.chefkoch.de/rezepte/1170311223132029/Hackbraten-supersaftig.html",
-  "category": "Saucen",
-  "cook_time": 45.0,
-  "description": "Hackbraten supersaftig - klassischer saftiger Hackbraten mit viel Soße. Über 1347 Bewertungen und für lecker befunden. Mit ► Portionsrechner ► Kochbuch ► Video-Tipps!",
   "host": "chefkoch.de",
-  "image": "https://img.chefkoch-cdn.de/rezepte/1170311223132029/bilder/1508325/crop-960x540/hackbraten-supersaftig.jpg",
+  "canonical_url": "https://www.chefkoch.de/rezepte/1170311223132029/Hackbraten-supersaftig.html",
+  "site_name": "Chefkoch.de",
+  "author": "Delphinella",
+  "language": "de",
+  "title": "Saftiger Hackbraten im Ofen",
+  "ingredients": [
+    "1 ½ Semmel(n) , altbacken",
+    "2 Gewürzgurke(n)",
+    "2 kleine Zwiebel(n)",
+    "1 kl. Bund Petersilie",
+    "2 EL Zitronensaft",
+    "50 g Butter",
+    "600 g Hackfleisch, gemischtes",
+    "2 kleine Ei(er)",
+    "125 ml Fleischbrühe",
+    "125 ml Sahne",
+    "1 EL Crème fraîche",
+    "1 TL Paprikapulver, edelsüßes",
+    "Salz und Pfeffer, schwarzer",
+    "Cayennepfeffer",
+    "Fett für die Form"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,33 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 ½ Semmel(n) , altbacken",
-    "2 Gewürzgurke(n)",
-    "2 kleine Zwiebel(n)",
-    "1 kl. Bund Petersilie",
-    "2 EL Zitronensaft",
-    "50 g Butter",
-    "600 g Hackfleisch, gemischtes",
-    "2 kleine Ei(er)",
-    "125 ml Fleischbrühe",
-    "125 ml Sahne",
-    "1 EL Crème fraîche",
-    "1 TL Paprikapulver, edelsüßes",
-    "Salz und Pfeffer, schwarzer",
-    "Cayennepfeffer",
-    "Fett für die Form"
-  ],
   "instructions": "Die Semmeln in Scheiben schneiden und mit Wasser übergießen, quellen lassen. Gut ausdrücken. Die Gewürzgurken in sehr feine Würfel schneiden. Zwiebeln ebenfalls in feine Würfel schneiden.\n\n1 EL Butter erhitzen und die Zwiebeln glasig anschwitzen. Petersilie dazugeben. \n\nZwiebel-Petersilienmischung in eine Schüssel geben. Semmeln, Gewürzgurken, Hackfleisch, Eier und Zitronensaft zufügen. Alles mit Salz, Cayennepfeffer und schwarzem Pfeffer würzen und kräftig durchkneten. \n\nDie restliche Butter schmelzen, eine Form fetten. Den Fleischteig zu einem Laib formen und in die Form legen. Auf der unteren Schiene 30 Minuten (Umluft 180 °C) backen, dabei immer mit der flüssigen Butter bestreichen. \n\nDie Fleischbrühe erhitzen und mit der Sahne, der Crème fraîche und dem Paprikapulver verrühren. (wer sehr viel Soße mag, kann die Soßenmenge einfach verdoppeln). Die Soße über den Hackbraten gießen und weitere 10 - 15 Minuten garen. \n\nDazu passen hervorragend Salzkartoffeln.",
-  "instructions_list": [
-    "Die Semmeln in Scheiben schneiden und mit Wasser übergießen, quellen lassen. Gut ausdrücken. Die Gewürzgurken in sehr feine Würfel schneiden. Zwiebeln ebenfalls in feine Würfel schneiden.",
-    "1 EL Butter erhitzen und die Zwiebeln glasig anschwitzen. Petersilie dazugeben. ",
-    "Zwiebel-Petersilienmischung in eine Schüssel geben. Semmeln, Gewürzgurken, Hackfleisch, Eier und Zitronensaft zufügen. Alles mit Salz, Cayennepfeffer und schwarzem Pfeffer würzen und kräftig durchkneten. ",
-    "Die restliche Butter schmelzen, eine Form fetten. Den Fleischteig zu einem Laib formen und in die Form legen. Auf der unteren Schiene 30 Minuten (Umluft 180 °C) backen, dabei immer mit der flüssigen Butter bestreichen. ",
-    "Die Fleischbrühe erhitzen und mit der Sahne, der Crème fraîche und dem Paprikapulver verrühren. (wer sehr viel Soße mag, kann die Soßenmenge einfach verdoppeln). Die Soße über den Hackbraten gießen und weitere 10 - 15 Minuten garen. ",
-    "Dazu passen hervorragend Salzkartoffeln."
-  ],
-  "language": "de",
+  "total_time": 85.0,
+  "prep_time": 40.0,
+  "cook_time": 45.0,
+  "yields": "4 servings",
+  "image": "https://img.chefkoch-cdn.de/rezepte/1170311223132029/bilder/1508325/crop-960x540/hackbraten-supersaftig.jpg",
+  "description": "Hackbraten supersaftig - klassischer saftiger Hackbraten mit viel Soße. Über 1347 Bewertungen und für lecker befunden. Mit ► Portionsrechner ► Kochbuch ► Video-Tipps!",
   "nutrients": {
     "servingSize": "1",
     "calories": "731 kcal",
@@ -62,13 +58,7 @@
     "fatContent": "58,93g",
     "carbohydrateContent": "15,39g"
   },
-  "prep_time": 40.0,
-  "ratings": 4.58,
-  "ratings_count": 1347,
-  "site_name": "Chefkoch.de",
-  "title": "Saftiger Hackbraten im Ofen",
-  "total_time": 85.0,
-  "yields": "4 servings",
+  "category": "Saucen",
   "keywords": [
     "Fleisch",
     "Hauptspeise",
@@ -79,5 +69,15 @@
     "Resteverwertung",
     "ketogen",
     "Low Carb"
+  ],
+  "ratings": 4.58,
+  "ratings_count": 1347,
+  "instructions_list": [
+    "Die Semmeln in Scheiben schneiden und mit Wasser übergießen, quellen lassen. Gut ausdrücken. Die Gewürzgurken in sehr feine Würfel schneiden. Zwiebeln ebenfalls in feine Würfel schneiden.",
+    "1 EL Butter erhitzen und die Zwiebeln glasig anschwitzen. Petersilie dazugeben. ",
+    "Zwiebel-Petersilienmischung in eine Schüssel geben. Semmeln, Gewürzgurken, Hackfleisch, Eier und Zitronensaft zufügen. Alles mit Salz, Cayennepfeffer und schwarzem Pfeffer würzen und kräftig durchkneten. ",
+    "Die restliche Butter schmelzen, eine Form fetten. Den Fleischteig zu einem Laib formen und in die Form legen. Auf der unteren Schiene 30 Minuten (Umluft 180 °C) backen, dabei immer mit der flüssigen Butter bestreichen. ",
+    "Die Fleischbrühe erhitzen und mit der Sahne, der Crème fraîche und dem Paprikapulver verrühren. (wer sehr viel Soße mag, kann die Soßenmenge einfach verdoppeln). Die Soße über den Hackbraten gießen und weitere 10 - 15 Minuten garen. ",
+    "Dazu passen hervorragend Salzkartoffeln."
   ]
 }

@@ -1,9 +1,10 @@
 {
-  "author": "Melissa Johnson",
-  "canonical_url": "https://breadtopia.com/kubaneh-jewish-yemeni-bread/",
   "host": "breadtopia.com",
-  "description": "Kubaneh is an amazing Jewish Yemeni pull-apart bread consisting of multilayered rolls laminated with butter and nigella seeds. Both the yeast and sourdough versions are delicious and can be enjoyed at any meal and paired with sweet or savory foods. Traditionally, the bread is baked for Sabbath (Saturday) morning and served with boiled eggs, grated fresh tomatoes, and spicy zhoug sauce.",
-  "image": "https://breadtopia.com/wp-content/uploads/2020/08/20200616_173521sq-Copy-250x250.jpg",
+  "canonical_url": "https://breadtopia.com/kubaneh-jewish-yemeni-bread/",
+  "site_name": "Breadtopia",
+  "author": "Melissa Johnson",
+  "language": "en-US",
+  "title": "Kubaneh (Yemenite Jewish Bread)",
   "ingredients": [
     "Yeast Version",
     "450g bread flour (scant 3 1/2 cups)",
@@ -82,6 +83,18 @@
     }
   ],
   "instructions": "Sourdough Prep\nIf you're doing the sourdough version, make the sweet stiff starter the night before you plan to bake. After mixing the ingredients, knead the starter dough a bit on your counter to fully incorporate the ingredients, then place the blob in a jar, press it down with your knuckles and cover loosely. The starter should double (or more) in 8-12 hours, and you can proceed with the rest of the instructions.\nMixing\nPull 57g/half stick of butter from the refrigerator, unwrap it, and place it on a small plate to soften. Fold the wrapper in half and save it to grease your springform pan and countertop. Reminder: The butter doesn't go into the dough during mixing.\nWhisk the dry ingredients in a large bowl: flour, sugar, (yeast), and salt.\nAdd the water, whole egg, egg white, (and sourdough starter broken into pieces). Mix thoroughly until the dough is smooth.\nPour 1 tablespoon of oil on top of the dough, cover, and let the dough rise until it has more than doubled. In a warm summer kitchen, this took 1 hour for the yeast version and 4.5 hours for the sourdough version.\nShaping and Final Proof\nSmudge a bit of the softened butter onto your saved butter wrapper and grease a 9-inch springform pan. Use this wrapper to lightly grease your countertop too.\nScrape the dough out of the bowl and de-gas it by pressing your palms into it.\nDivide the dough in 12-18 pieces. See the photo galleries for different outcomes with fewer large pieces (yeast) versus more smaller pieces (sourdough).\nWorking one piece at a time, spread the dough thin with butter-coated fingertips. Don't worry if you tear the dough a bit.\nLayer more butter on the thin dough, then sprinkle it with nigella seeds. (Have a paper towel nearby to occasionally de-seed your buttery fingers as the seeds will shred the next dough ball.)\nFold the dough in thirds, and then roll it from a short side.\nPlace the roll in your pan, working from the center outward. It's okay if the rolls topple over a bit. You can adjust them later, and a little chaos adds to the appeal.\nWhen all the rolls are done, cover your pan and let the dough rise until it has more than doubled. This was 1 hour for the yeast version and 2.5 hours for the sourdough version. See the photo gallery for expansion.\nBaking\nPreheat your oven to 350F.\nBeat the egg yolk with a tablespoon of water and brush the top of the dough. Sprinkle with nigella seeds and bake for 30 minutes uncovered.\nLet the dough cool on a rack for about 20 minutes before you remove the outer ring of the pan. Serve on the base.",
+  "total_time": 90,
+  "prep_time": 60,
+  "cook_time": 30,
+  "yields": "12 servings",
+  "image": "https://breadtopia.com/wp-content/uploads/2020/08/20200616_173521sq-Copy-250x250.jpg",
+  "description": "Kubaneh is an amazing Jewish Yemeni pull-apart bread consisting of multilayered rolls laminated with butter and nigella seeds. Both the yeast and sourdough versions are delicious and can be enjoyed at any meal and paired with sweet or savory foods. Traditionally, the bread is baked for Sabbath (Saturday) morning and served with boiled eggs, grated fresh tomatoes, and spicy zhoug sauce.",
+  "category": "Recipes",
+  "keywords": [
+    "Bread",
+    "Sourdough",
+    "Yeast"
+  ],
   "instructions_list": [
     "Sourdough Prep",
     "If you're doing the sourdough version, make the sweet stiff starter the night before you plan to bake. After mixing the ingredients, knead the starter dough a bit on your counter to fully incorporate the ingredients, then place the blob in a jar, press it down with your knuckles and cover loosely. The starter should double (or more) in 8-12 hours, and you can proceed with the rest of the instructions.",
@@ -103,18 +116,5 @@
     "Preheat your oven to 350F.",
     "Beat the egg yolk with a tablespoon of water and brush the top of the dough. Sprinkle with nigella seeds and bake for 30 minutes uncovered.",
     "Let the dough cool on a rack for about 20 minutes before you remove the outer ring of the pan. Serve on the base."
-  ],
-  "language": "en-US",
-  "site_name": "Breadtopia",
-  "title": "Kubaneh (Yemenite Jewish Bread)",
-  "total_time": 90,
-  "yields": "12 servings",
-  "category": "Recipes",
-  "cook_time": 30,
-  "prep_time": 60,
-  "keywords": [
-    "Bread",
-    "Sourdough",
-    "Yeast"
   ]
 }

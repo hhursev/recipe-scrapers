@@ -1,12 +1,19 @@
 {
-  "author": "Anne Maxwell",
-  "canonical_url": "https://theexpertguides.com/nz/coconut-milk-pasta-sauce-in-new-zealand/",
-  "category": "Main Course",
-  "cook_time": 15,
-  "cuisine": "Italian",
-  "description": "Coconut milk pasta sauce is a super easy vegan pasta recipe that's creamy, flavourful, and just the perfect sauce for pasta ready in 15 minutes.",
   "host": "theexpertguides.com",
-  "image": "https://theexpertguides.com/wp-content/uploads/2022/08/pexels-photo-1487511-1.webp",
+  "canonical_url": "https://theexpertguides.com/nz/coconut-milk-pasta-sauce-in-new-zealand/",
+  "site_name": "theexpertguides",
+  "author": "Anne Maxwell",
+  "language": "en-US",
+  "title": "Coconut Milk Pasta Sauce Recipe",
+  "ingredients": [
+    "1 lb pasta of your choice",
+    "4-5 garlic cloves (minced )",
+    "1 can chopped tomatoes",
+    "1 can coconut milk",
+    "1/2 cup vegetable stock",
+    "Fresh basil and oregano",
+    "2 tbsp olive oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,16 +28,24 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 lb pasta of your choice",
-    "4-5 garlic cloves (minced )",
-    "1 can chopped tomatoes",
-    "1 can coconut milk",
-    "1/2 cup vegetable stock",
-    "Fresh basil and oregano",
-    "2 tbsp olive oil"
-  ],
   "instructions": "In a large pan bring water to a boil. When it starts boiling, add a generous amount of salt (2 tbsp) and cook the pasta according to the instructions on the package.\nWhen cooked, drain the pasta and keep it aside.\nTake a saucepan to make the coconut milk pasta sauce.\nIn the saucepan, heat olive oil and add minced garlic. Stire for 30 seconds and make sure it doesn't burn.\nAdd chopped tomatoes and stir for 2-3 minutes.\nPour in the vegetable broth and coconut milk.\nBring the sauce to a boil and cook for 10 minutes on medium heat without the lid. Cook the sauce until its creamy and thickened.\nAdd chopped basil and dried oregano with salt and pepper to taste.\nCombine the cooked pasta in the sauce, and serve hot.",
+  "total_time": 28,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "4 servings",
+  "image": "https://theexpertguides.com/wp-content/uploads/2022/08/pexels-photo-1487511-1.webp",
+  "description": "Coconut milk pasta sauce is a super easy vegan pasta recipe that's creamy, flavourful, and just the perfect sauce for pasta ready in 15 minutes.",
+  "nutrients": {
+    "calories": "638 kcal",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "Italian",
+  "category": "Main Course",
+  "keywords": [
+    "coconut milk pasta",
+    "vegan coconut milk pasta sauce recipe",
+    "vegan pasta sauce"
+  ],
   "instructions_list": [
     "In a large pan bring water to a boil. When it starts boiling, add a generous amount of salt (2 tbsp) and cook the pasta according to the instructions on the package.",
     "When cooked, drain the pasta and keep it aside.",
@@ -41,20 +56,5 @@
     "Bring the sauce to a boil and cook for 10 minutes on medium heat without the lid. Cook the sauce until its creamy and thickened.",
     "Add chopped basil and dried oregano with salt and pepper to taste.",
     "Combine the cooked pasta in the sauce, and serve hot."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "638 kcal",
-    "servingSize": "1 serving"
-  },
-  "prep_time": 15,
-  "site_name": "theexpertguides",
-  "title": "Coconut Milk Pasta Sauce Recipe",
-  "total_time": 28,
-  "yields": "4 servings",
-  "keywords": [
-    "coconut milk pasta",
-    "vegan coconut milk pasta sauce recipe",
-    "vegan pasta sauce"
   ]
 }

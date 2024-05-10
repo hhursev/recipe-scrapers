@@ -1,10 +1,25 @@
 {
-  "author": "Gino D'Acampo i TV-programmet «Ginos italienske fristelser»",
-  "canonical_url": "https://www.nrk.no/mat/honningmarinert-grillet-kylling-med-rosmarinpoteter-1.15110596",
-  "category": "Middag",
-  "description": "Kyllingen skal stekes på så høy varme at honning­marinaden svir seg. Den bitre smaken av brent og den søte honningen smaker fortreffelig sammen med rosmarin­potetene.",
   "host": "nrk.no",
-  "image": "https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQLHcFhoLAp4dsSMmlCiEmaw.jpg",
+  "canonical_url": "https://www.nrk.no/mat/honningmarinert-grillet-kylling-med-rosmarinpoteter-1.15110596",
+  "site_name": "NRK",
+  "author": "Gino D'Acampo i TV-programmet «Ginos italienske fristelser»",
+  "language": "nb-NO",
+  "title": "Honningmarinert grillet kylling med rosmarinpoteter",
+  "ingredients": [
+    "1,3 kg hel kylling",
+    "3 ss flytende honning",
+    "1 ss ferske rosmarinblader",
+    "2 hvitløkfedd",
+    "3 ss tomatpure",
+    "50 ml olivenolje, extra virgin",
+    "1/2 sitron, juicen",
+    "1 ss fersk persille, hakket (til pynt)",
+    "salt og nykvernet pepper",
+    "500 g nypoteter",
+    "75 ml olivenolje, extra virgin",
+    "4 hvitløkfedd",
+    "3 kvister rosmarin"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,22 +45,15 @@
       "purpose": "Potetene"
     }
   ],
-  "ingredients": [
-    "1,3 kg hel kylling",
-    "3 ss flytende honning",
-    "1 ss ferske rosmarinblader",
-    "2 hvitløkfedd",
-    "3 ss tomatpure",
-    "50 ml olivenolje, extra virgin",
-    "1/2 sitron, juicen",
-    "1 ss fersk persille, hakket (til pynt)",
-    "salt og nykvernet pepper",
-    "500 g nypoteter",
-    "75 ml olivenolje, extra virgin",
-    "4 hvitløkfedd",
-    "3 kvister rosmarin"
-  ],
   "instructions": "Når kyllingen skal varmebehandles hardt må eventuell hyssing som holder skroget sammen fjernes. Legg fuglen med brystet ned på en skjærefjøl. Bruk en skarp kniv og kutt langs begge sidene av ryggraden, og kast den. Vend kyllingen og bruk håndflaten til å trykke godt langs brystbenet for å flate ut fuglen, slik at den blir liggende flat.\nDrypp honning over kyllingen, deretter spres rosmarinblader og knust hvitløk over den. Fordel tomatpuré og drypp olje over den. Salt og pepre. Gni blandingen godt over hele kyllingen for å få marinaden jevnt fordelt.\nForvarm en stor jernpanne med riller over høy varme i 5-10 minutter. Når den er varm, reduseres varmen til middels og kyllingbrystsiden legges på grillpannen. Klem over sitronsaften når du snur kyllingen. Stek i 15 minutter på hver side, eller til den er gyllen og gjennomstekt. Sett til side for å hvile, og hold den varm.\nI mellomtiden deles nypotetene opp i grove biter. Kok potetene i saltet vann i 4-5 minutter, eller til de er møre. Tøm av vannet.\nVarm olivenoljen i en stor stekepanne på middels varme. Tilsett hvitløk skåret i tynne skiver. Når den begynner å surre tilsettes rosmarin og poteter. Krydre med salt og pepper. Stek potetene i 4-5 minutter, eller til de er gyllenbrune. Vend potetene ofte.\nSkjær kyllingen i biter og legg på et serveringsfat sammen med potetene. Dryss over persille og ha et siste skvis med sitron over retten før den serveres.",
+  "yields": "4 servings",
+  "image": "https://gfx.nrk.no/XuK_5Mw6V4wOrt3NLJh-VQLHcFhoLAp4dsSMmlCiEmaw.jpg",
+  "description": "Kyllingen skal stekes på så høy varme at honning­marinaden svir seg. Den bitre smaken av brent og den søte honningen smaker fortreffelig sammen med rosmarin­potetene.",
+  "category": "Middag",
+  "keywords": [
+    "Grill",
+    "Kylling/Fugl"
+  ],
   "instructions_list": [
     "Når kyllingen skal varmebehandles hardt må eventuell hyssing som holder skroget sammen fjernes. Legg fuglen med brystet ned på en skjærefjøl. Bruk en skarp kniv og kutt langs begge sidene av ryggraden, og kast den. Vend kyllingen og bruk håndflaten til å trykke godt langs brystbenet for å flate ut fuglen, slik at den blir liggende flat.",
     "Drypp honning over kyllingen, deretter spres rosmarinblader og knust hvitløk over den. Fordel tomatpuré og drypp olje over den. Salt og pepre. Gni blandingen godt over hele kyllingen for å få marinaden jevnt fordelt.",
@@ -53,13 +61,5 @@
     "I mellomtiden deles nypotetene opp i grove biter. Kok potetene i saltet vann i 4-5 minutter, eller til de er møre. Tøm av vannet.",
     "Varm olivenoljen i en stor stekepanne på middels varme. Tilsett hvitløk skåret i tynne skiver. Når den begynner å surre tilsettes rosmarin og poteter. Krydre med salt og pepper. Stek potetene i 4-5 minutter, eller til de er gyllenbrune. Vend potetene ofte.",
     "Skjær kyllingen i biter og legg på et serveringsfat sammen med potetene. Dryss over persille og ha et siste skvis med sitron over retten før den serveres."
-  ],
-  "language": "nb-NO",
-  "site_name": "NRK",
-  "title": "Honningmarinert grillet kylling med rosmarinpoteter",
-  "yields": "4 servings",
-  "keywords": [
-    "Grill",
-    "Kylling/Fugl"
   ]
 }

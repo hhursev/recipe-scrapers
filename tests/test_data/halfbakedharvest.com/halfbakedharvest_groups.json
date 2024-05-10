@@ -1,11 +1,32 @@
 {
-  "author": "Tieghan",
-  "canonical_url": "https://www.halfbakedharvest.com/street-corn-pasta-salad/",
-  "category": "Main Course,Salad,Side Dish",
-  "cook_time": 10,
-  "description": "A quintessential summer pasta salad, quick to make and totally delicious...a dip you’ll crave time and time again!",
   "host": "halfbakedharvest.com",
-  "image": "https://www.halfbakedharvest.com/wp-content/uploads/2023/08/Street-Corn-Pasta-Salad-1.jpg",
+  "canonical_url": "https://www.halfbakedharvest.com/street-corn-pasta-salad/",
+  "site_name": "Half Baked Harvest",
+  "author": "Tieghan",
+  "language": "en-US",
+  "title": "Street Corn Pasta Salad",
+  "ingredients": [
+    "4 ounces cream cheese, at room temperature",
+    "1/3 cup sour cream",
+    "2 tablespoons extra virgin olive oil",
+    "1-2 cloves garlic, grated",
+    "1 tablespoon chopped fresh chives",
+    "kosher salt and black pepper",
+    "3/4 cup crumbled cotija or feta cheese",
+    "1 pound short cut pasta",
+    "1 head romaine lettuce, shredded",
+    "2 cups grilled or roasted corn ((3-4 raw))",
+    "1/2 cup fresh basil leaves, torn",
+    "1/2 cup fresh cilantro, chopped",
+    "1/2 cup spicy cheddar cheese, cubed",
+    "1 avocado, chopped",
+    "4 tablespoons salted butter",
+    "2 teaspoons smoked paprika",
+    "2 tablespoons chili powder",
+    "1/2-2 teaspoons cayenne pepper, to your taste",
+    "1/4 cup mayo or yogurt",
+    "2 tablespoons lime juice"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -38,45 +59,19 @@
       "purpose": "Salad"
     }
   ],
-  "ingredients": [
-    "4 ounces cream cheese, at room temperature",
-    "1/3 cup sour cream",
-    "2 tablespoons extra virgin olive oil",
-    "1-2 cloves garlic, grated",
-    "1 tablespoon chopped fresh chives",
-    "kosher salt and black pepper",
-    "3/4 cup crumbled cotija or feta cheese",
-    "1 pound short cut pasta",
-    "1 head romaine lettuce, shredded",
-    "2 cups grilled or roasted corn ((3-4 raw))",
-    "1/2 cup fresh basil leaves, torn",
-    "1/2 cup fresh cilantro, chopped",
-    "1/2 cup spicy cheddar cheese, cubed",
-    "1 avocado, chopped",
-    "4 tablespoons salted butter",
-    "2 teaspoons smoked paprika",
-    "2 tablespoons chili powder",
-    "1/2-2 teaspoons cayenne pepper, to your taste",
-    "1/4 cup mayo or yogurt",
-    "2 tablespoons lime juice"
-  ],
   "instructions": "1. To make the dressing. Combine all ingredients in a large salad bowl. Season with salt and pepper.2. Bring a pot of salted water to a boil. Boil the pasta to al dente, according to package directions. Drain. Immediately toss with the dressing. Add the lettuce, corn, cheddar, basil, cilantro, and avocado. Toss to combine. 3. In a skillet, melt the butter until golden. Mix in the chili powder, paprika, cayenne, and a pinch of salt. Cook another minute, then remove from the heat.4. Mix the mayo or yogurt with lime juice with a pinch of salt.5. Serve the pasta warm or cold, topped with lime mayo and chili butter. The salad will develop more flavor as it sits.",
-  "instructions_list": [
-    "1. To make the dressing. Combine all ingredients in a large salad bowl. Season with salt and pepper.2. Bring a pot of salted water to a boil. Boil the pasta to al dente, according to package directions. Drain. Immediately toss with the dressing. Add the lettuce, corn, cheddar, basil, cilantro, and avocado. Toss to combine. 3. In a skillet, melt the butter until golden. Mix in the chili powder, paprika, cayenne, and a pinch of salt. Cook another minute, then remove from the heat.4. Mix the mayo or yogurt with lime juice with a pinch of salt.5. Serve the pasta warm or cold, topped with lime mayo and chili butter. The salad will develop more flavor as it sits."
-  ],
-  "language": "en-US",
+  "total_time": 30,
+  "prep_time": 20,
+  "cook_time": 10,
+  "yields": "8 servings",
+  "image": "https://www.halfbakedharvest.com/wp-content/uploads/2023/08/Street-Corn-Pasta-Salad-1.jpg",
+  "description": "A quintessential summer pasta salad, quick to make and totally delicious...a dip you’ll crave time and time again!",
   "nutrients": {
     "calories": "473 kcal",
     "servingSize": "1 serving"
   },
-  "prep_time": 20,
-  "ratings": 4.8,
-  "ratings_count": 58,
-  "site_name": "Half Baked Harvest",
-  "title": "Street Corn Pasta Salad",
-  "total_time": 30,
-  "yields": "8 servings",
   "cuisine": "American,Mexican",
+  "category": "Main Course,Salad,Side Dish",
   "dietary_restrictions": [
     "Vegetarian Diet"
   ],
@@ -84,5 +79,10 @@
     "30 minute meal",
     "quick and easy",
     "summer pasta"
+  ],
+  "ratings": 4.8,
+  "ratings_count": 58,
+  "instructions_list": [
+    "1. To make the dressing. Combine all ingredients in a large salad bowl. Season with salt and pepper.2. Bring a pot of salted water to a boil. Boil the pasta to al dente, according to package directions. Drain. Immediately toss with the dressing. Add the lettuce, corn, cheddar, basil, cilantro, and avocado. Toss to combine. 3. In a skillet, melt the butter until golden. Mix in the chili powder, paprika, cayenne, and a pinch of salt. Cook another minute, then remove from the heat.4. Mix the mayo or yogurt with lime juice with a pinch of salt.5. Serve the pasta warm or cold, topped with lime mayo and chili butter. The salad will develop more flavor as it sits."
   ]
 }

@@ -1,9 +1,17 @@
 {
-  "author": "Betty Crocker Kitchens",
-  "canonical_url": "https://www.bettycrocker.com/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec",
-  "category": "Dessert",
   "host": "bettycrocker.com",
-  "image": "https://images-gmi-pmc.edge-generalmills.com/e1306219-6178-4e15-afaf-ba6e527f1e6b.jpg",
+  "canonical_url": "https://www.bettycrocker.com/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec",
+  "site_name": "BettyCrocker.com",
+  "author": "Betty Crocker Kitchens",
+  "language": "en",
+  "title": "Éclair Bars",
+  "ingredients": [
+    "1 can (8 oz) refrigerated Pillsbury™ Original Crescent Dough Sheet",
+    "2 boxes (3.4 oz each) Jell-O™ vanilla-flavor instant pudding & pie filling mix",
+    "3 cups cold half-and-half",
+    "1 1/2 cups semisweet chocolate chips",
+    "3/4 cup heavy whipping cream"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -16,22 +24,12 @@
       "purpose": ""
     }
   ],
-  "ingredients": [
-    "1 can (8 oz) refrigerated Pillsbury™ Original Crescent Dough Sheet",
-    "2 boxes (3.4 oz each) Jell-O™ vanilla-flavor instant pudding & pie filling mix",
-    "3 cups cold half-and-half",
-    "1 1/2 cups semisweet chocolate chips",
-    "3/4 cup heavy whipping cream"
-  ],
   "instructions": "Heat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.\nUnroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.\nIn medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.\nIn medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.\nWhen ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator.",
-  "instructions_list": [
-    "Heat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.",
-    "Unroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.",
-    "In medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.",
-    "In medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.",
-    "When ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator."
-  ],
-  "language": "en",
+  "total_time": 290,
+  "prep_time": 15,
+  "yields": "24 servings",
+  "image": "https://images-gmi-pmc.edge-generalmills.com/e1306219-6178-4e15-afaf-ba6e527f1e6b.jpg",
+  "description": "We turned the classic, cream-filled French pastry into an oh-so-easy bar! With a flaky crescent base, a layer of silky vanilla pudding and a topping of rich chocolate ganache, this is a special dessert that’s guaranteed to impress.",
   "nutrients": {
     "calories": "180",
     "carbohydrateContent": "21 g",
@@ -45,16 +43,18 @@
     "sugarContent": "14 g",
     "transFatContent": "0 g"
   },
-  "ratings": 4.5,
-  "ratings_count": 60,
-  "site_name": "BettyCrocker.com",
-  "title": "Éclair Bars",
-  "total_time": 290,
-  "yields": "24 servings",
+  "cuisine": "French",
+  "category": "Dessert",
   "keywords": [
     "éclair bars"
   ],
-  "description": "We turned the classic, cream-filled French pastry into an oh-so-easy bar! With a flaky crescent base, a layer of silky vanilla pudding and a topping of rich chocolate ganache, this is a special dessert that’s guaranteed to impress.",
-  "cuisine": "French",
-  "prep_time": 15
+  "ratings": 4.5,
+  "ratings_count": 60,
+  "instructions_list": [
+    "Heat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.",
+    "Unroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.",
+    "In medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.",
+    "In medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.",
+    "When ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator."
+  ]
 }

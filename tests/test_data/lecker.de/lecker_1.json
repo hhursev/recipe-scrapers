@@ -1,12 +1,22 @@
 {
-  "author": "Lecker.de Redaktion",
-  "canonical_url": "https://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html",
-  "category": "Hauptgericht",
-  "cook_time": 25,
-  "cuisine": null,
-  "description": "Unser beliebtes Rezept für Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
   "host": "lecker.de",
-  "image": "https://images.lecker.de/gemusepfanne-mit-hahnchen-zuckerschoten-und-brokkoli/1x1,id=7e976162,b=lecker,w=1600,h=,ca=12.42,0,87.58,100,rm=sk.jpeg",
+  "canonical_url": "https://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html",
+  "site_name": "lecker.de",
+  "author": "Lecker.de Redaktion",
+  "language": "de",
+  "title": "Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli",
+  "ingredients": [
+    "1 Brokkoli",
+    "150 g Zuckerschoten",
+    "2 Lauchzwiebeln",
+    "Salz",
+    "4 kleine Hähnchenbrustfilets (à ca. 140 g)",
+    "2 EL Sonnenblumenöl",
+    "4 EL Sojasoße",
+    "50 ml Gemüsebrühe",
+    "6 Stiele Koriander",
+    "1 EL Sesamsaat"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,30 +34,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 Brokkoli",
-    "150 g Zuckerschoten",
-    "2 Lauchzwiebeln",
-    "Salz",
-    "4 kleine Hähnchenbrustfilets (à ca. 140 g)",
-    "2 EL Sonnenblumenöl",
-    "4 EL Sojasoße",
-    "50 ml Gemüsebrühe",
-    "6 Stiele Koriander",
-    "1 EL Sesamsaat"
-  ],
   "instructions": "Schritt 1\nBrokkoli putzen und in kleinen Röschen vom Strunk schneiden. Zuckerschoten putzen. Lauchzwiebeln putzen und in ca. 10 cm lange Stücke schneiden.\nSchritt 2\nBrokkoli, Zuckerschoten und Lauchzwiebeln in reichlich kochendem Salzwasser 2–3 Minuten garen. Herausnehmen und mit kaltem Wasser abspülen. Auf ein Sieb gießen und gut abtropfen lassen.\nSchritt 3\nFleisch trocken tupfen und in Würfel (ca. 1,5 x 1,5 cm) schneiden. Öl in einer weiten Pfanne oder einem Wok erhitzen. Fleisch darin, unter Wenden, ca. 3 Minuten kräftig anbraten. Hitze reduzieren und weitere ca. 2 Minuten braten. Gemüse, Sojasoße und Brühe zufügen und 3–4 Minuten dünsten. Dabei gelegentlich wenden.\nSchritt 4\nKoriander waschen und trocken schütteln und, bis auf einige Blätter zum Garnieren, samt Stiel grob hacken. Sesam und Koriander zur Gemüsepfanne geben und untermischen. Mit Salz und Pfeffer abschmecken und mit Koriander garnieren.",
-  "instructions_list": [
-    "Schritt 1",
-    "Brokkoli putzen und in kleinen Röschen vom Strunk schneiden. Zuckerschoten putzen. Lauchzwiebeln putzen und in ca. 10 cm lange Stücke schneiden.",
-    "Schritt 2",
-    "Brokkoli, Zuckerschoten und Lauchzwiebeln in reichlich kochendem Salzwasser 2–3 Minuten garen. Herausnehmen und mit kaltem Wasser abspülen. Auf ein Sieb gießen und gut abtropfen lassen.",
-    "Schritt 3",
-    "Fleisch trocken tupfen und in Würfel (ca. 1,5 x 1,5 cm) schneiden. Öl in einer weiten Pfanne oder einem Wok erhitzen. Fleisch darin, unter Wenden, ca. 3 Minuten kräftig anbraten. Hitze reduzieren und weitere ca. 2 Minuten braten. Gemüse, Sojasoße und Brühe zufügen und 3–4 Minuten dünsten. Dabei gelegentlich wenden.",
-    "Schritt 4",
-    "Koriander waschen und trocken schütteln und, bis auf einige Blätter zum Garnieren, samt Stiel grob hacken. Sesam und Koriander zur Gemüsepfanne geben und untermischen. Mit Salz und Pfeffer abschmecken und mit Koriander garnieren."
-  ],
-  "language": "de",
+  "total_time": 25,
+  "prep_time": null,
+  "cook_time": 25,
+  "yields": "4 servings",
+  "image": "https://images.lecker.de/gemusepfanne-mit-hahnchen-zuckerschoten-und-brokkoli/1x1,id=7e976162,b=lecker,w=1600,h=,ca=12.42,0,87.58,100,rm=sk.jpeg",
+  "description": "Unser beliebtes Rezept für Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
   "nutrients": {
     "servingSize": "1 Portion",
     "calories": "260 kcal",
@@ -55,13 +48,8 @@
     "carbohydrateContent": "7 g",
     "proteinContent": "38 g"
   },
-  "prep_time": null,
-  "ratings": 3.94,
-  "ratings_count": 99,
-  "site_name": "lecker.de",
-  "title": "Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli",
-  "total_time": 25,
-  "yields": "4 servings",
+  "cuisine": null,
+  "category": "Hauptgericht",
   "keywords": [
     "Hähnchen",
     "Geflügel",
@@ -81,5 +69,17 @@
     "Zuckerschoten",
     "Gemüsepfanne",
     "Pfannengerichte"
+  ],
+  "ratings": 3.94,
+  "ratings_count": 99,
+  "instructions_list": [
+    "Schritt 1",
+    "Brokkoli putzen und in kleinen Röschen vom Strunk schneiden. Zuckerschoten putzen. Lauchzwiebeln putzen und in ca. 10 cm lange Stücke schneiden.",
+    "Schritt 2",
+    "Brokkoli, Zuckerschoten und Lauchzwiebeln in reichlich kochendem Salzwasser 2–3 Minuten garen. Herausnehmen und mit kaltem Wasser abspülen. Auf ein Sieb gießen und gut abtropfen lassen.",
+    "Schritt 3",
+    "Fleisch trocken tupfen und in Würfel (ca. 1,5 x 1,5 cm) schneiden. Öl in einer weiten Pfanne oder einem Wok erhitzen. Fleisch darin, unter Wenden, ca. 3 Minuten kräftig anbraten. Hitze reduzieren und weitere ca. 2 Minuten braten. Gemüse, Sojasoße und Brühe zufügen und 3–4 Minuten dünsten. Dabei gelegentlich wenden.",
+    "Schritt 4",
+    "Koriander waschen und trocken schütteln und, bis auf einige Blätter zum Garnieren, samt Stiel grob hacken. Sesam und Koriander zur Gemüsepfanne geben und untermischen. Mit Salz und Pfeffer abschmecken und mit Koriander garnieren."
   ]
 }

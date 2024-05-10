@@ -1,11 +1,25 @@
 {
-  "author": "Arla Mat",
-  "canonical_url": "https://www.arla.se/recept/reuben-sandwich/",
-  "category": "Brunch, Förrätt, Huvudrätt, Mellanmål",
-  "cuisine": "Amerikansk",
-  "description": "Reuben sandwich är en amerikansk macka med mycket pastrami, saltgurka och så kallad rysk dressing. Bröden fylls med alla godsaker fär att sedan smörstekas. En riktig mack-klassiker som är perfekt att bjuda på till brunch!",
   "host": "arla.se",
-  "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=jpg&width=1300&height=525",
+  "canonical_url": "https://www.arla.se/recept/reuben-sandwich/",
+  "site_name": "Arla",
+  "author": "Arla Mat",
+  "language": "sv",
+  "title": "Reuben sandwich",
+  "ingredients": [
+    "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
+    "1 dl surkål",
+    "1 dl riven Arla Präst® ost",
+    "8 skivor surdegsbröd",
+    "50 g Svenskt Smör från Arla®, smält",
+    "4 saltgurkor",
+    "1 schalottenlök",
+    "½ grön paprika",
+    "1 dl majonnäs",
+    "1 msk chilisås",
+    "1 tsk paprikapulver",
+    "1 tsk dijonsenap",
+    "½ krm tabasco"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -31,22 +45,25 @@
       "purpose": "Dressing:"
     }
   ],
-  "ingredients": [
-    "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
-    "1 dl surkål",
-    "1 dl riven Arla Präst® ost",
-    "8 skivor surdegsbröd",
-    "50 g Svenskt Smör från Arla®, smält",
-    "4 saltgurkor",
-    "1 schalottenlök",
-    "½ grön paprika",
-    "1 dl majonnäs",
-    "1 msk chilisås",
-    "1 tsk paprikapulver",
-    "1 tsk dijonsenap",
-    "½ krm tabasco"
-  ],
   "instructions": "Första instruktionen\nSkala och finhacka löken till dressingen. Finhacka även paprikan. Blanda med övriga ingredienser och ställ dressingen åt sidan.\nSista instruktionen\nSkär köttet i tunna skivor. Låt surkålen rinna av ordentligt och blanda med osten.\nBred smör på båda sidor av bröden. Lägg surkål och ost på hälften av bröden. Lägg på köttet. Klicka dressingen över köttet och lägg på resterande bröd.\nStek på båda sidor i enstek- eller het grillpanna.\nDela grillspett på mitten och trä genom mackorna. Fäst saltgurkorna på grillspetten.",
+  "total_time": 40,
+  "yields": "4 servings",
+  "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=jpg&width=1300&height=525",
+  "description": "Reuben sandwich är en amerikansk macka med mycket pastrami, saltgurka och så kallad rysk dressing. Bröden fylls med alla godsaker fär att sedan smörstekas. En riktig mack-klassiker som är perfekt att bjuda på till brunch!",
+  "nutrients": {
+    "type": "NutritionInformation",
+    "calories": "920 kcal",
+    "carbohydrateContent": "49 g",
+    "fatContent": "61 g",
+    "proteinContent": "43 g"
+  },
+  "cuisine": "Amerikansk",
+  "category": "Brunch, Förrätt, Huvudrätt, Mellanmål",
+  "keywords": [
+    "Smörgås"
+  ],
+  "ratings": 4.2,
+  "ratings_count": 13,
   "instructions_list": [
     "Första instruktionen",
     "Skala och finhacka löken till dressingen. Finhacka även paprikan. Blanda med övriga ingredienser och ställ dressingen åt sidan.",
@@ -55,22 +72,5 @@
     "Bred smör på båda sidor av bröden. Lägg surkål och ost på hälften av bröden. Lägg på köttet. Klicka dressingen över köttet och lägg på resterande bröd.",
     "Stek på båda sidor i enstek- eller het grillpanna.",
     "Dela grillspett på mitten och trä genom mackorna. Fäst saltgurkorna på grillspetten."
-  ],
-  "language": "sv",
-  "nutrients": {
-    "type": "NutritionInformation",
-    "calories": "920 kcal",
-    "carbohydrateContent": "49 g",
-    "fatContent": "61 g",
-    "proteinContent": "43 g"
-  },
-  "ratings": 4.2,
-  "ratings_count": 13,
-  "site_name": "Arla",
-  "title": "Reuben sandwich",
-  "total_time": 40,
-  "yields": "4 servings",
-  "keywords": [
-    "Smörgås"
   ]
 }

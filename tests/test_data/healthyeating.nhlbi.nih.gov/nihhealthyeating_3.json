@@ -1,9 +1,19 @@
 {
-  "canonical_url": "healthyeating.nhlbi.nih.gov",
-  "cook_time": 0,
-  "description": "Tangy fruit and sweet yogurt make a perfect taste combination",
   "host": "healthyeating.nhlbi.nih.gov",
-  "image": "https://healthyeating.nhlbi.nih.gov/images/food/Fruit_Skewers.jpg",
+  "canonical_url": "healthyeating.nhlbi.nih.gov",
+  "site_name": null,
+  "title": "Fruit Skewers With Yogurt Dip",
+  "ingredients": [
+    "1 C strawberries, rinsed, stems removed, and cut in half",
+    "¼ C fat-free plain yogurt",
+    "1/8 tsp vanilla extract",
+    "1 Tbsp honey",
+    "1 C strawberries, rinsed, stems removed, and cut in half",
+    "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
+    "½ C blackberries",
+    "1 tangerine or Clementine, peeled and cut into 8 segments",
+    "8 6-inch wooden skewers"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,23 +35,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 C strawberries, rinsed, stems removed, and cut in half",
-    "¼ C fat-free plain yogurt",
-    "1/8 tsp vanilla extract",
-    "1 Tbsp honey",
-    "1 C strawberries, rinsed, stems removed, and cut in half",
-    "1 C fresh pineapple, diced (or canned pineapple chunks in juice, drained)",
-    "½ C blackberries",
-    "1 tangerine or Clementine, peeled and cut into 8 segments",
-    "8 6-inch wooden skewers"
-  ],
   "instructions": "Thread two strawberry halves, two pineapple chunks, two blackberries, and one tangerine segment on each skewer.\nTo prepare the dip, puree strawberries in a blender or food processor. Add yogurt, vanilla, and honey, and mix well.\nServe two skewers with yogurt dip on the side.",
-  "instructions_list": [
-    "Thread two strawberry halves, two pineapple chunks, two blackberries, and one tangerine segment on each skewer.",
-    "To prepare the dip, puree strawberries in a blender or food processor. Add yogurt, vanilla, and honey, and mix well.",
-    "Serve two skewers with yogurt dip on the side."
-  ],
+  "total_time": 15,
+  "prep_time": 15,
+  "cook_time": 0,
+  "yields": "4 servings",
+  "image": "https://healthyeating.nhlbi.nih.gov/images/food/Fruit_Skewers.jpg",
+  "description": "Tangy fruit and sweet yogurt make a perfect taste combination",
   "nutrients": {
     "calories": "71",
     "Total fat": "0 g",
@@ -57,7 +57,11 @@
     "Calcium": "4%",
     "Iron": "2%"
   },
-  "prep_time": 15,
+  "instructions_list": [
+    "Thread two strawberry halves, two pineapple chunks, two blackberries, and one tangerine segment on each skewer.",
+    "To prepare the dip, puree strawberries in a blender or food processor. Add yogurt, vanilla, and honey, and mix well.",
+    "Serve two skewers with yogurt dip on the side."
+  ],
   "recipe_cards": [
     {
       "size": "4\" x 6\" (344 KB)",
@@ -69,9 +73,5 @@
     }
   ],
   "recipe_source": "Deliciously Healthy Family Meals",
-  "serving_size": "2 skewers, 1½ Tbsp dip",
-  "site_name": null,
-  "title": "Fruit Skewers With Yogurt Dip",
-  "total_time": 15,
-  "yields": "4 servings"
+  "serving_size": "2 skewers, 1½ Tbsp dip"
 }

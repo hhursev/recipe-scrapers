@@ -1,11 +1,24 @@
 {
-  "author": "Meredith",
-  "canonical_url": "https://bluejeanchef.com/recipes/no-bake-layered-cheesecake/",
-  "category": "Desserts/Sweets",
-  "cuisine": "American",
-  "description": "No oven needed for this no bake layered cheesecake! Layer blueberry, plain and raspberry cheesecake batters on top of each other and chill well for a delightfully refreshing summer dessert.",
   "host": "bluejeanchef.com",
-  "image": "https://bluejeanchef.com/uploads/2023/07/No-Bake-Cheesecake-1280-9439.jpg",
+  "canonical_url": "https://bluejeanchef.com/recipes/no-bake-layered-cheesecake/",
+  "site_name": "Blue Jean Chef - Meredith Laurence",
+  "author": "Meredith",
+  "language": "en",
+  "title": "No Bake Layered Cheesecake",
+  "ingredients": [
+    "1¾ cups Graham cracker crumbs",
+    "½ cup melted unsalted butter",
+    "2 tablespoons granulated sugar",
+    "24 ounces cream cheese",
+    "1½ cups powdered sugar (divided)",
+    "⅓ cup sour cream",
+    "2 teaspoons pure vanilla extract",
+    "Juice of 1 lemon",
+    "1¼ cups heavy whipping cream",
+    "1 cup fresh raspberries (puréed)",
+    "1 cup fresh blueberries (puréed)",
+    "Whipped cream and fresh berries for garnish"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,31 +43,12 @@
       "purpose": "Filling:"
     }
   ],
-  "ingredients": [
-    "1¾ cups Graham cracker crumbs",
-    "½ cup melted unsalted butter",
-    "2 tablespoons granulated sugar",
-    "24 ounces cream cheese",
-    "1½ cups powdered sugar (divided)",
-    "⅓ cup sour cream",
-    "2 teaspoons pure vanilla extract",
-    "Juice of 1 lemon",
-    "1¼ cups heavy whipping cream",
-    "1 cup fresh raspberries (puréed)",
-    "1 cup fresh blueberries (puréed)",
-    "Whipped cream and fresh berries for garnish"
-  ],
   "instructions": "To make the crust, combine the Graham cracker crumbs, melted butter and sugar in a bowl. Line the bottom of a 9-inch springform pan with parchment paper. Press the Graham cracker crumb mixture firmly on the bottom of the pan and place it in the refrigerator.\nUsing an electric mixer, beat the cream cheese and ¾ cup of the powdered sugar together until smooth. Add the sour cream, vanilla extract and lemon juice, and mix until smooth.\nIn a separate bowl, whip the heavy cream using an electric mixer on high speed until it starts to thicken. Then add the remaining ¾ cup powdered sugar and continue to whip the cream into stiff peaks. Fold the whipped cream into the cream cheese mixture until well combined. This is your plain cheesecake base.\nIn another bowl, combine 2 cups of the cheesecake base with the puréed blueberries. In yet another separate bowl, combine 2 cups of the cream cheese mixture with the puréed raspberries. Now you have three bowls of flavored cheesecake batter.\nSpread the blueberry batter into the bottom of the springform pan on top of the crust. Use an off-set spatula to spread it out evenly in the pan. Gently spoon the plain batter over the blueberry layer and spread it out evenly. Then spoon the raspberry batter on top of the plain layer and spread it out evenly.\nCover or wrap the pan with plastic wrap and chill for at least 8 hours to overnight.\nWhen ready to serve, run a knife around the edge of the pan and unmold the cheesecake. Transfer to a serving platter, removing the parchment paper on the bottom. Garnish with whipped cream and fresh berries. Cut into wedges to serve, dipping your knife in warm water and wiping clean in between cutting each slice. Serve chilled.",
-  "instructions_list": [
-    "To make the crust, combine the Graham cracker crumbs, melted butter and sugar in a bowl. Line the bottom of a 9-inch springform pan with parchment paper. Press the Graham cracker crumb mixture firmly on the bottom of the pan and place it in the refrigerator.",
-    "Using an electric mixer, beat the cream cheese and ¾ cup of the powdered sugar together until smooth. Add the sour cream, vanilla extract and lemon juice, and mix until smooth.",
-    "In a separate bowl, whip the heavy cream using an electric mixer on high speed until it starts to thicken. Then add the remaining ¾ cup powdered sugar and continue to whip the cream into stiff peaks. Fold the whipped cream into the cream cheese mixture until well combined. This is your plain cheesecake base.",
-    "In another bowl, combine 2 cups of the cheesecake base with the puréed blueberries. In yet another separate bowl, combine 2 cups of the cream cheese mixture with the puréed raspberries. Now you have three bowls of flavored cheesecake batter.",
-    "Spread the blueberry batter into the bottom of the springform pan on top of the crust. Use an off-set spatula to spread it out evenly in the pan. Gently spoon the plain batter over the blueberry layer and spread it out evenly. Then spoon the raspberry batter on top of the plain layer and spread it out evenly.",
-    "Cover or wrap the pan with plastic wrap and chill for at least 8 hours to overnight.",
-    "When ready to serve, run a knife around the edge of the pan and unmold the cheesecake. Transfer to a serving platter, removing the parchment paper on the bottom. Garnish with whipped cream and fresh berries. Cut into wedges to serve, dipping your knife in warm water and wiping clean in between cutting each slice. Serve chilled."
-  ],
-  "language": "en",
+  "total_time": 510,
+  "prep_time": 30,
+  "yields": "12 servings",
+  "image": "https://bluejeanchef.com/uploads/2023/07/No-Bake-Cheesecake-1280-9439.jpg",
+  "description": "No oven needed for this no bake layered cheesecake! Layer blueberry, plain and raspberry cheesecake batters on top of each other and chill well for a delightfully refreshing summer dessert.",
   "nutrients": {
     "servingSize": "1 of 12 slices",
     "calories": "495 kcal",
@@ -69,11 +63,8 @@
     "sugarContent": "24 g",
     "unsaturatedFatContent": "12 g"
   },
-  "site_name": "Blue Jean Chef - Meredith Laurence",
-  "title": "No Bake Layered Cheesecake",
-  "total_time": 510,
-  "yields": "12 servings",
-  "prep_time": 30,
+  "cuisine": "American",
+  "category": "Desserts/Sweets",
   "keywords": [
     "cheesecake",
     "no bake desserts",
@@ -82,5 +73,14 @@
     "raspberries",
     "Cream Cheese",
     "berry desserts"
+  ],
+  "instructions_list": [
+    "To make the crust, combine the Graham cracker crumbs, melted butter and sugar in a bowl. Line the bottom of a 9-inch springform pan with parchment paper. Press the Graham cracker crumb mixture firmly on the bottom of the pan and place it in the refrigerator.",
+    "Using an electric mixer, beat the cream cheese and ¾ cup of the powdered sugar together until smooth. Add the sour cream, vanilla extract and lemon juice, and mix until smooth.",
+    "In a separate bowl, whip the heavy cream using an electric mixer on high speed until it starts to thicken. Then add the remaining ¾ cup powdered sugar and continue to whip the cream into stiff peaks. Fold the whipped cream into the cream cheese mixture until well combined. This is your plain cheesecake base.",
+    "In another bowl, combine 2 cups of the cheesecake base with the puréed blueberries. In yet another separate bowl, combine 2 cups of the cream cheese mixture with the puréed raspberries. Now you have three bowls of flavored cheesecake batter.",
+    "Spread the blueberry batter into the bottom of the springform pan on top of the crust. Use an off-set spatula to spread it out evenly in the pan. Gently spoon the plain batter over the blueberry layer and spread it out evenly. Then spoon the raspberry batter on top of the plain layer and spread it out evenly.",
+    "Cover or wrap the pan with plastic wrap and chill for at least 8 hours to overnight.",
+    "When ready to serve, run a knife around the edge of the pan and unmold the cheesecake. Transfer to a serving platter, removing the parchment paper on the bottom. Garnish with whipped cream and fresh berries. Cut into wedges to serve, dipping your knife in warm water and wiping clean in between cutting each slice. Serve chilled."
   ]
 }

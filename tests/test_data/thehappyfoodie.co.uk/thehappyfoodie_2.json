@@ -1,10 +1,29 @@
 {
-  "author": "Yotam Ottolenghi",
-  "canonical_url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-middle-eastern-mac-n-cheese-with-zaatar-pesto/",
-  "category": "Main Course",
-  "cuisine": "Middle Eastern",
   "host": "thehappyfoodie.co.uk",
-  "image": "https://thehappyfoodie.co.uk/wp-content/uploads/2022/02/Ottolenghi-Middle-Eastern-Mac-and-Cheese-scaled.jpg",
+  "canonical_url": "https://thehappyfoodie.co.uk/recipes/ottolenghi-middle-eastern-mac-n-cheese-with-zaatar-pesto/",
+  "site_name": "The Happy Foodie",
+  "author": "Yotam Ottolenghi",
+  "language": "en-GB",
+  "title": "The Ottolenghi Test Kitchen’s M.E. Mac ‘n’ Cheese with Za’atar Pesto",
+  "ingredients": [
+    "300g dried cavatappi or fusilli pasta",
+    "600–700ml whole milk",
+    "65g unsalted butter, cut into roughly 3cm cubes",
+    "3 garlic cloves, crushed",
+    "⅛ tsp ground turmeric",
+    "1½ tsp cumin seeds, toasted and roughly crushed with a pestle and mortar",
+    "75ml double cream",
+    "150g mature cheddar, roughly grated",
+    "180g Greek feta, roughly crumbled",
+    "salt and black pepper",
+    "45g crispy onions or shallots, store-bought or homemade (see intro), to serve",
+    "1 large lemon",
+    "3 tbsp za’atar",
+    "20g fresh coriander, roughly chopped",
+    "1 garlic clove, roughly chopped",
+    "40g pine nuts, lightly toasted",
+    "90ml olive oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,26 +48,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "300g dried cavatappi or fusilli pasta",
-    "600–700ml whole milk",
-    "65g unsalted butter, cut into roughly 3cm cubes",
-    "3 garlic cloves, crushed",
-    "⅛ tsp ground turmeric",
-    "1½ tsp cumin seeds, toasted and roughly crushed with a pestle and mortar",
-    "75ml double cream",
-    "150g mature cheddar, roughly grated",
-    "180g Greek feta, roughly crumbled",
-    "salt and black pepper",
-    "45g crispy onions or shallots, store-bought or homemade (see intro), to serve",
-    "1 large lemon",
-    "3 tbsp za’atar",
-    "20g fresh coriander, roughly chopped",
-    "1 garlic clove, roughly chopped",
-    "40g pine nuts, lightly toasted",
-    "90ml olive oil"
-  ],
   "instructions": "Put the pasta, 600ml of milk, 350ml of water, the butter, garlic, turmeric, 1 teaspoon of salt and a good grind of pepper into a large sauté pan on a medium-high heat. Bring to a simmer, then turn the heat down to medium and cook, stirring occasionally, for 10–14 minutes, or until the pasta is al dente and the sauce has thickened from the pasta starches (it will still be quite saucy). If using cavatappi, you might need to add the extra 100ml of milk at this stage depending on how saucy you like your mac ’n’ cheese. Turn the heat down to low and stir through the cumin, cream and both cheeses until the cheddar is nicely melted.\nWhile the pasta is cooking, make the pesto. Finely grate the lemon to give you 1 teaspoon of zest. Then use a small, sharp knife to peel and segment the lemon and roughly chop the segments. Place in a bowl with the lemon zest and set aside. Put the za’atar, coriander, garlic, pine nuts, ⅛ teaspoon of salt, a good grind of pepper and half the oil into a food processor and pulse a few times until you have a coarse paste. Add to the chopped lemon in the bowl and stir in the remaining oil.\nTransfer the mac ’n’ cheese to a large serving platter with a lip or a shallow bowl, dot all over with the pesto, then top with the crispy onions.\nGet ahead: Make the mac ’n’ cheese ahead of time if you like, adding a splash of water to thin out when reheating.\nMake it your own:\n– Play with different cheeses and spices.\n– Use different pasta shapes like macaroni, adjusting liquid levels as necessary.\n",
+  "total_time": 55,
+  "prep_time": 25,
+  "cook_time": 30,
+  "yields": "6 servings",
+  "image": "https://thehappyfoodie.co.uk/wp-content/uploads/2022/02/Ottolenghi-Middle-Eastern-Mac-and-Cheese-scaled.jpg",
+  "description": "There's mac 'n' cheese and then there's Ottolenghi mac 'n' cheese. Aromatic with cumin and za'atar, this recipe is a Middle Eastern take on everyone's favourite comfort food dish. Use rennet-free versions of the cheeses to make this recipe vegetarian.",
+  "cuisine": "Middle Eastern",
+  "category": "Main Course",
   "instructions_list": [
     "Put the pasta, 600ml of milk, 350ml of water, the butter, garlic, turmeric, 1 teaspoon of salt and a good grind of pepper into a large sauté pan on a medium-high heat. Bring to a simmer, then turn the heat down to medium and cook, stirring occasionally, for 10–14 minutes, or until the pasta is al dente and the sauce has thickened from the pasta starches (it will still be quite saucy). If using cavatappi, you might need to add the extra 100ml of milk at this stage depending on how saucy you like your mac ’n’ cheese. Turn the heat down to low and stir through the cumin, cream and both cheeses until the cheddar is nicely melted.",
     "While the pasta is cooking, make the pesto. Finely grate the lemon to give you 1 teaspoon of zest. Then use a small, sharp knife to peel and segment the lemon and roughly chop the segments. Place in a bowl with the lemon zest and set aside. Put the za’atar, coriander, garlic, pine nuts, ⅛ teaspoon of salt, a good grind of pepper and half the oil into a food processor and pulse a few times until you have a coarse paste. Add to the chopped lemon in the bowl and stir in the remaining oil.",
@@ -57,13 +65,5 @@
     "Make it your own:",
     "– Play with different cheeses and spices.",
     "– Use different pasta shapes like macaroni, adjusting liquid levels as necessary."
-  ],
-  "language": "en-GB",
-  "site_name": "The Happy Foodie",
-  "title": "The Ottolenghi Test Kitchen’s M.E. Mac ‘n’ Cheese with Za’atar Pesto",
-  "total_time": 55,
-  "yields": "6 servings",
-  "description": "There's mac 'n' cheese and then there's Ottolenghi mac 'n' cheese. Aromatic with cumin and za'atar, this recipe is a Middle Eastern take on everyone's favourite comfort food dish. Use rennet-free versions of the cheeses to make this recipe vegetarian.",
-  "cook_time": 30,
-  "prep_time": 25
+  ]
 }

@@ -1,10 +1,15 @@
 {
-  "author": "Johan",
-  "canonical_url": "https://www.keukenliefde.nl/sticky-kippenvleugels-van-de-kamado/",
-  "category": "Hapje",
-  "description": "In dit recept laten we je zien hoe je deze smakelijke sticky kippenvleugels van de kamado (of in de oven) kunt maken. Ze zijn verslavend lekker!",
   "host": "keukenliefde.nl",
-  "image": "https://www.keukenliefde.nl/wp-content/uploads/2023/09/Sticky-kippenvleugels-van-de-kamado-1675.jpg",
+  "canonical_url": "https://www.keukenliefde.nl/sticky-kippenvleugels-van-de-kamado/",
+  "site_name": "Keuken♥Liefde",
+  "author": "Johan",
+  "language": "nl-NL",
+  "title": "Sticky kippenvleugels (van de kamado)",
+  "ingredients": [
+    "Kippenvleugels",
+    "Kipkruiden",
+    "Teriyakisaus (zelfgemaakt of kant-en-klaar)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -15,22 +20,17 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "Kippenvleugels",
-    "Kipkruiden",
-    "Teriyakisaus (zelfgemaakt of kant-en-klaar)"
-  ],
   "instructions": "Stook de kamado indirect op tot 150 graden.\nLeg de kippenvleugels als de temperatuur stabiel op 150 graden blijft op het rooster en sluit de klep voor een half uur.\nDoe de teriyaki saus alvast in een vuurvaste pan en zet die na zo’n 20 minuten bij de kippenvleugels op het rooster.\nDe saus kan zo lekker opwarmen en iets dunner worden waardoor de vleugels zometeen lekker door de saus gehaald kunnen worden en goed veel saus aan de vleugels blijft plakken.\nNa 30 minuten open je de klep en haal je de vleugels met een tang door de saus. Zorg dat de kippenvleugels goed omhult zijn met saus. Leg de vleugels daarna weer terug op het rooster en laat ze met gesloten klep nog zo’n 10 minuten liggen.",
+  "total_time": 5,
+  "yields": null,
+  "image": "https://www.keukenliefde.nl/wp-content/uploads/2023/09/Sticky-kippenvleugels-van-de-kamado-1675.jpg",
+  "description": "In dit recept laten we je zien hoe je deze smakelijke sticky kippenvleugels van de kamado (of in de oven) kunt maken. Ze zijn verslavend lekker!",
+  "category": "Hapje",
   "instructions_list": [
     "Stook de kamado indirect op tot 150 graden.",
     "Leg de kippenvleugels als de temperatuur stabiel op 150 graden blijft op het rooster en sluit de klep voor een half uur.",
     "Doe de teriyaki saus alvast in een vuurvaste pan en zet die na zo’n 20 minuten bij de kippenvleugels op het rooster.",
     "De saus kan zo lekker opwarmen en iets dunner worden waardoor de vleugels zometeen lekker door de saus gehaald kunnen worden en goed veel saus aan de vleugels blijft plakken.",
     "Na 30 minuten open je de klep en haal je de vleugels met een tang door de saus. Zorg dat de kippenvleugels goed omhult zijn met saus. Leg de vleugels daarna weer terug op het rooster en laat ze met gesloten klep nog zo’n 10 minuten liggen."
-  ],
-  "language": "nl-NL",
-  "site_name": "Keuken♥Liefde",
-  "title": "Sticky kippenvleugels (van de kamado)",
-  "total_time": 5,
-  "yields": null
+  ]
 }

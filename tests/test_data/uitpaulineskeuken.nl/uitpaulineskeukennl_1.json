@@ -1,11 +1,18 @@
 {
-  "author": "Pauline",
-  "canonical_url": "https://uitpaulineskeuken.nl/recept/ravioli-met-salieboter",
-  "category": "Makkelijke recepten, Pasta recepten, Snelle recepten, Ravioli, Italiaanse recepten, Notenvrije recepten, Kerst, Vegetarische recepten, Herfst recepten, Lente recepten, Winter recepten, Zomer recepten, Hoofdgerecht",
-  "cuisine": "Italiaanse recepten",
-  "description": "Ravioli met salieboter: lekker door haar eenvoud. Als je het hebt over fresh & easy dan is dit een receptje wat bovenaan hoort te staan. Super makkelijk om te maken. Slechts vijf ingrediënten heb je nodig. Daarom is het extra belangrijk dat die van goede kwaliteit zijn. Vers gemaakte ravioli, biologische citroen, want alleen daarvan is de rasp een smaakexplosie, een goede kwaliteit Parmezaanse kaas en verse salie. Veel meer heb je dan niet nodig!",
   "host": "uitpaulineskeuken.nl",
-  "image": "https://uitpaulineskeuken.nl/wp-content/uploads/2016/11/Ravioli-met-salieboter-LR-2-1.jpg",
+  "canonical_url": "https://uitpaulineskeuken.nl/recept/ravioli-met-salieboter",
+  "site_name": "Uit Paulines Keuken",
+  "author": "Pauline",
+  "language": "nl-NL",
+  "title": "Ravioli met salieboter",
+  "ingredients": [
+    "500 gr verse ravioli (bijvoorbeeld gevuld met ricotta en spinazie)",
+    "100 gr Parmezaanse kaas",
+    "75 gr roomboter",
+    "10 gr verse salie",
+    "1 citroen (biologisch)",
+    "Peper en zout"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,31 +26,15 @@
       "purpose": "Ingrediënten voor 4 personen"
     }
   ],
-  "ingredients": [
-    "500 gr verse ravioli (bijvoorbeeld gevuld met ricotta en spinazie)",
-    "100 gr Parmezaanse kaas",
-    "75 gr roomboter",
-    "10 gr verse salie",
-    "1 citroen (biologisch)",
-    "Peper en zout"
-  ],
   "instructions": "Kook de ravioli in ruim water met zout. Houd de kooktijd van de verpakking aan.\nLaat de boter smelten in een koekenpan. Wrijf de salieblaadjes voorzichtig in je handen, zodat de aroma’s vrijkomen. Voeg de salie bij de boter en voeg naar wens peper en zout toe. Laat dit op een laag vuur staan.\nVoeg twee eetlepels pastawater bij de boter, dit zorgt voor een saus. Giet de ravioli af en voeg dit bij de boter.\nVoeg de helft van de Parmezaanse kaas toe en zet het vuur iets hoger. Schud de pan heen en weer zodat alle zijdes bedekt raken en er een iets gebonden saus ontstaat.\nVerdeel de ravioli met salieboter over vier borden. Garneer de ravioli met citroenrasp en de overgebleven Parmezaanse kaas.",
-  "instructions_list": [
-    "Kook de ravioli in ruim water met zout. Houd de kooktijd van de verpakking aan.",
-    "Laat de boter smelten in een koekenpan. Wrijf de salieblaadjes voorzichtig in je handen, zodat de aroma’s vrijkomen. Voeg de salie bij de boter en voeg naar wens peper en zout toe. Laat dit op een laag vuur staan.",
-    "Voeg twee eetlepels pastawater bij de boter, dit zorgt voor een saus. Giet de ravioli af en voeg dit bij de boter.",
-    "Voeg de helft van de Parmezaanse kaas toe en zet het vuur iets hoger. Schud de pan heen en weer zodat alle zijdes bedekt raken en er een iets gebonden saus ontstaat.",
-    "Verdeel de ravioli met salieboter over vier borden. Garneer de ravioli met citroenrasp en de overgebleven Parmezaanse kaas."
-  ],
-  "language": "nl-NL",
-  "ratings": 3.4,
-  "site_name": "Uit Paulines Keuken",
-  "title": "Ravioli met salieboter",
   "total_time": 15,
-  "yields": "4 servings",
-  "cook_time": 10,
   "prep_time": 5,
-  "ratings_count": 2,
+  "cook_time": 10,
+  "yields": "4 servings",
+  "image": "https://uitpaulineskeuken.nl/wp-content/uploads/2016/11/Ravioli-met-salieboter-LR-2-1.jpg",
+  "description": "Ravioli met salieboter: lekker door haar eenvoud. Als je het hebt over fresh & easy dan is dit een receptje wat bovenaan hoort te staan. Super makkelijk om te maken. Slechts vijf ingrediënten heb je nodig. Daarom is het extra belangrijk dat die van goede kwaliteit zijn. Vers gemaakte ravioli, biologische citroen, want alleen daarvan is de rasp een smaakexplosie, een goede kwaliteit Parmezaanse kaas en verse salie. Veel meer heb je dan niet nodig!",
+  "cuisine": "Italiaanse recepten",
+  "category": "Makkelijke recepten, Pasta recepten, Snelle recepten, Ravioli, Italiaanse recepten, Notenvrije recepten, Kerst, Vegetarische recepten, Herfst recepten, Lente recepten, Winter recepten, Zomer recepten, Hoofdgerecht",
   "keywords": [
     "Makkelijke recepten",
     "Pasta recepten",
@@ -58,5 +49,14 @@
     "Winter recepten",
     "Zomer recepten",
     "Hoofdgerecht"
+  ],
+  "ratings": 3.4,
+  "ratings_count": 2,
+  "instructions_list": [
+    "Kook de ravioli in ruim water met zout. Houd de kooktijd van de verpakking aan.",
+    "Laat de boter smelten in een koekenpan. Wrijf de salieblaadjes voorzichtig in je handen, zodat de aroma’s vrijkomen. Voeg de salie bij de boter en voeg naar wens peper en zout toe. Laat dit op een laag vuur staan.",
+    "Voeg twee eetlepels pastawater bij de boter, dit zorgt voor een saus. Giet de ravioli af en voeg dit bij de boter.",
+    "Voeg de helft van de Parmezaanse kaas toe en zet het vuur iets hoger. Schud de pan heen en weer zodat alle zijdes bedekt raken en er een iets gebonden saus ontstaat.",
+    "Verdeel de ravioli met salieboter over vier borden. Garneer de ravioli met citroenrasp en de overgebleven Parmezaanse kaas."
   ]
 }

@@ -1,11 +1,26 @@
 {
-  "author": "Kräuterwiese",
-  "canonical_url": "rezeptwelt.de",
-  "category": "Vorspeisen/Salate",
-  "cuisine": null,
-  "description": "Italienischer Nudelsalat, ein Rezept der Kategorie Vorspeisen/Salate.",
   "host": "rezeptwelt.de",
-  "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/wbtt7xp3-9544c-831497-cfcd2-6bis4hp6/d60b5483-c12d-4c2a-871d-05748e5aa06c/main/italienischer-nudelsalat.jpg",
+  "canonical_url": "rezeptwelt.de",
+  "site_name": null,
+  "author": "Kräuterwiese",
+  "language": "de_DE",
+  "title": "Italienischer Nudelsalat",
+  "ingredients": [
+    "250 g Nudeln z.B. Fusilli,Penne",
+    "1000 g Wasser",
+    "1 EL Gemüsebrühe",
+    "100 g Tomaten getrocknet, ohne Öl",
+    "500 g Kirschtomaten halbiert",
+    "1 Kugel Mozarella, halbiert",
+    "8 Stück schwarze Oliven, entsteint",
+    "100 g Rucola/Rauke",
+    "2 Zehen Knoblauch",
+    "1 Bund Basilkum (ohne Stiele)",
+    "45 g Weißweinessig",
+    "40 g Olivenöl",
+    "1 TL Salz",
+    "2 Prisen Pfeffer"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -27,23 +42,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "250 g Nudeln z.B. Fusilli,Penne",
-    "1000 g Wasser",
-    "1 EL Gemüsebrühe",
-    "100 g Tomaten getrocknet, ohne Öl",
-    "500 g Kirschtomaten halbiert",
-    "1 Kugel Mozarella, halbiert",
-    "8 Stück schwarze Oliven, entsteint",
-    "100 g Rucola/Rauke",
-    "2 Zehen Knoblauch",
-    "1 Bund Basilkum (ohne Stiele)",
-    "45 g Weißweinessig",
-    "40 g Olivenöl",
-    "1 TL Salz",
-    "2 Prisen Pfeffer"
-  ],
   "instructions": "Salat\n1. Wasser und Gemüsebrühe in den Mixtopf geben und 8Min./100°/Stufe 1 aufkochen\n2. Nudeln zugeben, je nach Packungsanweisung ca. 8-10Min./100°/\"Linkslauf\" /Stufe \"Sanftrührstufe\" garen, Nudeln in den Gareinsatz abgießen und Garflüssigkeit dabei auffangen. Nudeln in eine große Schüssel umfüllen und etwas abkühlen lassen.\n3. getrocknete Tomaten in den Mixtopf geben, 5Sek./\"Linkslauf deaktiviert\" /Stufe 4 zerkleinern und zu den Nudeln geben.\n4.Mozarella in den Mixtopf geben, 2 Sek./Stufe 4 zerkleinern und zu den Nudeln geben.\n5. Alle weiteren Salatzutaten (Rucola, schwarze Oliven und Kirschtomaten) in die große Schüssel zugeben und vermischen\nDressing:\n6. Knoblauch und Basilikum in den Mixtopf geben 4 Sek./Stufe 7 zerkleinern.\n7. Übrige Zutaten und 120 g Garflüssigkeit zugeben und 15Sek./Stufe 3-4 verrühren, zum Salat geben und vermischen.",
+  "total_time": 50,
+  "yields": "6 servings",
+  "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/wbtt7xp3-9544c-831497-cfcd2-6bis4hp6/d60b5483-c12d-4c2a-871d-05748e5aa06c/main/italienischer-nudelsalat.jpg",
+  "description": "Italienischer Nudelsalat, ein Rezept der Kategorie Vorspeisen/Salate.",
+  "cuisine": null,
+  "category": "Vorspeisen/Salate",
+  "ratings": 4.68,
+  "ratings_count": 2,
   "instructions_list": [
     "Salat",
     "1. Wasser und Gemüsebrühe in den Mixtopf geben und 8Min./100°/Stufe 1 aufkochen",
@@ -54,12 +61,5 @@
     "Dressing:",
     "6. Knoblauch und Basilikum in den Mixtopf geben 4 Sek./Stufe 7 zerkleinern.",
     "7. Übrige Zutaten und 120 g Garflüssigkeit zugeben und 15Sek./Stufe 3-4 verrühren, zum Salat geben und vermischen."
-  ],
-  "language": "de_DE",
-  "ratings": 4.68,
-  "site_name": null,
-  "title": "Italienischer Nudelsalat",
-  "total_time": 50,
-  "yields": "6 servings",
-  "ratings_count": 2
+  ]
 }

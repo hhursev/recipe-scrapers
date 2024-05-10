@@ -1,9 +1,10 @@
 {
-  "author": "Alexandra Harris",
-  "canonical_url": "https://www.gourmettraveller.com.au/recipe/mains/greek-grilled-calamari-salad/",
   "host": "gourmettraveller.com.au",
-  "description": "A calamari salad perfect for your next alfresco feast.",
-  "image": "https://i0.wp.com/www.gourmettraveller.com.au/wp-content/uploads/sites/10/2024/04/Grilled-calamari-salad-with-yoghurt-and-ouzo-dressing.jpg?fit=1080%2C1080&ssl=1",
+  "canonical_url": "https://www.gourmettraveller.com.au/recipe/mains/greek-grilled-calamari-salad/",
+  "site_name": "Gourmet Traveller",
+  "author": "Alexandra Harris",
+  "language": "en-AU",
+  "title": "Grilled calamari salad with yoghurt and ouzo dressing",
   "ingredients": [
     "1.2 kg baby calamari (200gm each), cleaned, hoods and tentacles separated",
     "60 ml (¼ cup) extra-virgin olive oil",
@@ -43,6 +44,14 @@
     }
   ],
   "instructions": "1\nTo marinate calamari, halve hood lengthways. Place oil and oregano in a small bowl, season to taste and stir to combine. Place calamari hoods and tentacles in a large bowl with half oregano mixture, season to taste and toss gently to coat. Marinate for 1 hour.\n2\nMeanwhile, for yoghurt and ouzo dressing, combine ingredients in a small bowl, season to taste and stir to combine.\n3\nCombine tomato and olives in a bowl with remaining oregano mixture. Season to taste and toss to combine.\n4\nPreheat a lightly greased barbecue or char-grill pan to high. Thread calamari hoods in an “S” shape onto skewers. Cook skewers and tentacles, turning frequently, until charred and cooked (3-5 minutes).\n5\nPlace tomato salad on a serving platter, arrange calamari on top and scatter with basil. Drizzle with yoghurt and ouzo dressing. Serve with pita bread and pickled peppers, on the side.",
+  "total_time": 30,
+  "prep_time": 20,
+  "cook_time": 10,
+  "yields": "4 servings",
+  "image": "https://i0.wp.com/www.gourmettraveller.com.au/wp-content/uploads/sites/10/2024/04/Grilled-calamari-salad-with-yoghurt-and-ouzo-dressing.jpg?fit=1080%2C1080&ssl=1",
+  "description": "A calamari salad perfect for your next alfresco feast.",
+  "cuisine": "Greek",
+  "category": "Main",
   "instructions_list": [
     "1",
     "To marinate calamari, halve hood lengthways. Place oil and oregano in a small bowl, season to taste and stir to combine. Place calamari hoods and tentacles in a large bowl with half oregano mixture, season to taste and toss gently to coat. Marinate for 1 hour.",
@@ -54,14 +63,5 @@
     "Preheat a lightly greased barbecue or char-grill pan to high. Thread calamari hoods in an “S” shape onto skewers. Cook skewers and tentacles, turning frequently, until charred and cooked (3-5 minutes).",
     "5",
     "Place tomato salad on a serving platter, arrange calamari on top and scatter with basil. Drizzle with yoghurt and ouzo dressing. Serve with pita bread and pickled peppers, on the side."
-  ],
-  "language": "en-AU",
-  "site_name": "Gourmet Traveller",
-  "title": "Grilled calamari salad with yoghurt and ouzo dressing",
-  "total_time": 30,
-  "prep_time": 20,
-  "cook_time": 10,
-  "yields": "4 servings",
-  "cuisine": "Greek",
-  "category": "Main"
+  ]
 }

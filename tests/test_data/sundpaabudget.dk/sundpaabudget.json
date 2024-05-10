@@ -1,11 +1,25 @@
 {
-  "author": "Britt // Sund på budget",
-  "canonical_url": "https://sundpaabudget.dk/one-pot-pasta-med-kyllingekebab/",
-  "category": "Kylling,One pot",
-  "cook_time": 20,
-  "description": "Nem og lækker one pot med kyllingekebab (du kan også bruge okse/lam, hvis du hellere vil det).",
   "host": "sundpaabudget.dk",
-  "image": "https://sundpaabudget.dk/wp-content/uploads/2021/08/20210803123311_IMG_0714.jpg",
+  "canonical_url": "https://sundpaabudget.dk/one-pot-pasta-med-kyllingekebab/",
+  "site_name": "Sund på budget",
+  "author": "Britt // Sund på budget",
+  "language": "da-DK",
+  "title": "One pot pasta med kyllingekebab",
+  "ingredients": [
+    "300 g kyllingekebab",
+    "1 spsk olie",
+    "2 alm. løg",
+    "2 tomater",
+    "2 peberfrugter",
+    "300 g fuldkornsspaghetti (el. pasta)",
+    "125 g flødeost m. hvidløg",
+    "7 dl vand",
+    "1 bouillonterning",
+    "0,5 tsk spidskommen",
+    "0,5 tsk paprika (evt. røget)",
+    "chili eller cayennepeber efter smag",
+    "salt og peber"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,39 +40,25 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "300 g kyllingekebab",
-    "1 spsk olie",
-    "2 alm. løg",
-    "2 tomater",
-    "2 peberfrugter",
-    "300 g fuldkornsspaghetti (el. pasta)",
-    "125 g flødeost m. hvidløg",
-    "7 dl vand",
-    "1 bouillonterning",
-    "0,5 tsk spidskommen",
-    "0,5 tsk paprika (evt. røget)",
-    "chili eller cayennepeber efter smag",
-    "salt og peber"
-  ],
   "instructions": "Rengør og hak løg, peberfrugt og tomater i tern.\nOpvarm olie i en stor gryde og svits kyllingekebaben et par minutter. Tilsæt grøntsagerne og lad det svitse med yderligere 2 minutter.\nTilsæt spaghetti, flødeost, vand, bouillonterning og krydderier.\nLad retten simre ved middelvarme til spaghettien er aldente og vandet er kogt næsten ind til en cremet sauce.\nSmag til med salt og peber.",
+  "total_time": 30,
+  "prep_time": 10,
+  "cook_time": 20,
+  "yields": "4 servings",
+  "image": "https://sundpaabudget.dk/wp-content/uploads/2021/08/20210803123311_IMG_0714.jpg",
+  "description": "Nem og lækker one pot med kyllingekebab (du kan også bruge okse/lam, hvis du hellere vil det).",
+  "nutrients": {
+    "calories": "300 kcal",
+    "servingSize": "1 person"
+  },
+  "category": "Kylling,One pot",
+  "ratings": 4.0,
+  "ratings_count": 40,
   "instructions_list": [
     "Rengør og hak løg, peberfrugt og tomater i tern.",
     "Opvarm olie i en stor gryde og svits kyllingekebaben et par minutter. Tilsæt grøntsagerne og lad det svitse med yderligere 2 minutter.",
     "Tilsæt spaghetti, flødeost, vand, bouillonterning og krydderier.",
     "Lad retten simre ved middelvarme til spaghettien er aldente og vandet er kogt næsten ind til en cremet sauce.",
     "Smag til med salt og peber."
-  ],
-  "language": "da-DK",
-  "nutrients": {
-    "calories": "300 kcal",
-    "servingSize": "1 person"
-  },
-  "prep_time": 10,
-  "ratings": 4.0,
-  "ratings_count": 40,
-  "site_name": "Sund på budget",
-  "title": "One pot pasta med kyllingekebab",
-  "total_time": 30,
-  "yields": "4 servings"
+  ]
 }

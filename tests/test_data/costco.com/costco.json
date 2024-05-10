@@ -1,8 +1,23 @@
 {
-  "author": "Costco Connection",
-  "canonical_url": "costco.com",
   "host": "costco.com",
-  "image": "https://mobilecontent.costco.com/live/resource/img/static-us-connection-march-23/03_23_FTT_ChickenSaladRedGrapesWalnutsBlueCheese.jpg",
+  "canonical_url": "costco.com",
+  "site_name": null,
+  "author": "Costco Connection",
+  "language": "en-us",
+  "title": "Chicken Salad with Red Grapes, Walnuts and Blue Cheese",
+  "ingredients": [
+    "6 cups rotisserie chicken, shredded",
+    "3 cups red seedless grapes, halved lengthwise",
+    "2 celery ribs (about 1 cup), thinly sliced",
+    "1 cup walnuts, toasted and chopped",
+    "½ cup blue cheese, crumbled",
+    "2 cups mayonnaise",
+    "2 Tbsp sherry vinegar",
+    "1 Tbsp fresh thyme leaves",
+    "2 tsp lemon zest",
+    "½ tsp garlic powder",
+    "½ tsp kosher salt, or to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,26 +36,11 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "6 cups rotisserie chicken, shredded",
-    "3 cups red seedless grapes, halved lengthwise",
-    "2 celery ribs (about 1 cup), thinly sliced",
-    "1 cup walnuts, toasted and chopped",
-    "½ cup blue cheese, crumbled",
-    "2 cups mayonnaise",
-    "2 Tbsp sherry vinegar",
-    "1 Tbsp fresh thyme leaves",
-    "2 tsp lemon zest",
-    "½ tsp garlic powder",
-    "½ tsp kosher salt, or to taste"
-  ],
   "instructions": "Combine chicken, grapes, celery, walnuts and blue cheese in a large mixing bowl.\nIn a medium-size mixing bowl, blend mayonnaise, sherry vinegar, thyme, lemon zest, garlic powder and salt.\nFold the dressing into the chicken-grape mixture and combine well. Adjust seasonings as desired. Serve in Bibb lettuce cups or as a sandwich filling. Makes 6 servings.",
+  "image": "https://mobilecontent.costco.com/live/resource/img/static-us-connection-march-23/03_23_FTT_ChickenSaladRedGrapesWalnutsBlueCheese.jpg",
   "instructions_list": [
     "Combine chicken, grapes, celery, walnuts and blue cheese in a large mixing bowl.",
     "In a medium-size mixing bowl, blend mayonnaise, sherry vinegar, thyme, lemon zest, garlic powder and salt.",
     "Fold the dressing into the chicken-grape mixture and combine well. Adjust seasonings as desired. Serve in Bibb lettuce cups or as a sandwich filling. Makes 6 servings."
-  ],
-  "language": "en-us",
-  "site_name": null,
-  "title": "Chicken Salad with Red Grapes, Walnuts and Blue Cheese"
+  ]
 }

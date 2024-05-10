@@ -1,8 +1,25 @@
 {
-  "author": "delf et dom",
-  "canonical_url": "https://www.moulinex.fr/recette/detail/PRO/Blanquette%20de%20veau/250881",
   "host": "moulinex.fr",
-  "image": "https://sebplatform.api.groupe-seb.com/statics/2d871c8e-c671-4497-85fd-55f8da1a99e9.jpg",
+  "canonical_url": "https://www.moulinex.fr/recette/detail/PRO/Blanquette%20de%20veau/250881",
+  "site_name": "Moulinex",
+  "author": "delf et dom",
+  "language": "fr-fr",
+  "title": "Blanquette de veau",
+  "ingredients": [
+    "800 g Veau (morceaux pour blanquette)",
+    "1 Oignon",
+    "3 Carottes",
+    "250 g Champignons de Paris frais",
+    "1 Bouquet garni",
+    "1 Bouillon de volaille",
+    "40 cl Eau",
+    "4 Grains de poivre",
+    "30 g Beurre",
+    "30 g Farine",
+    "1 Jaune d’œuf",
+    "2 càs Crème fraîche",
+    "Sel"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,22 +40,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "800 g Veau (morceaux pour blanquette)",
-    "1 Oignon",
-    "3 Carottes",
-    "250 g Champignons de Paris frais",
-    "1 Bouquet garni",
-    "1 Bouillon de volaille",
-    "40 cl Eau",
-    "4 Grains de poivre",
-    "30 g Beurre",
-    "30 g Farine",
-    "1 Jaune d’œuf",
-    "2 càs Crème fraîche",
-    "Sel"
-  ],
   "instructions": "Préparer les ingrédients. Eplucher et couper les carotres en rondelles. Nettoyer les champignons et les couper en 4. Eplucher l'oignon et le couper en 4.\nMettre dans la cuve le veau, les carottes, les champignons, l'oignon, le bouquet garni, le bouillon de volaille émietté, les grains de poivre et l'eau.\nCuire sous pression 35 minutes.\nUne fois la cuisson terminée. Mettre le veau et sa garniture dans un plat. Et le bouillon dans un saladier.\nPasser en mode cuisson douce. Faire fondre le beurre et mettre la farine afin de préparer un roux.\nMouiller avec le bouillon jusqu'à obtenir une sauce onctueuse en remuant constamment.\nAjouter le jaune d'oeuf, la crème fraîche. Mélanger le tout et remettre la viande et sa garniture. Laisser en mode cuisson douce 15 minutes en remuant de temps en temps. Gouter et rectifier l'assaisonnement en fonction de votre goût.\nBon appétit......",
+  "total_time": 70,
+  "yields": "4 servings",
+  "image": "https://sebplatform.api.groupe-seb.com/statics/2d871c8e-c671-4497-85fd-55f8da1a99e9.jpg",
+  "ratings": 4.9,
+  "ratings_count": 2,
   "instructions_list": [
     "Préparer les ingrédients. Eplucher et couper les carotres en rondelles. Nettoyer les champignons et les couper en 4. Eplucher l'oignon et le couper en 4.",
     "Mettre dans la cuve le veau, les carottes, les champignons, l'oignon, le bouquet garni, le bouillon de volaille émietté, les grains de poivre et l'eau.",
@@ -48,12 +55,5 @@
     "Mouiller avec le bouillon jusqu'à obtenir une sauce onctueuse en remuant constamment.",
     "Ajouter le jaune d'oeuf, la crème fraîche. Mélanger le tout et remettre la viande et sa garniture. Laisser en mode cuisson douce 15 minutes en remuant de temps en temps. Gouter et rectifier l'assaisonnement en fonction de votre goût.",
     "Bon appétit......"
-  ],
-  "ratings": 4.9,
-  "language": "fr-fr",
-  "site_name": "Moulinex",
-  "title": "Blanquette de veau",
-  "total_time": 70,
-  "yields": "4 servings",
-  "ratings_count": 2
+  ]
 }

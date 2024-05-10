@@ -1,9 +1,22 @@
 {
-  "author": "Angelika Schwaff",
-  "canonical_url": "https://www.zeit.de/zeit-magazin/wochenmarkt/2021-08/kohlrabi-fenchel-carpaccio-fior-di-latte-rezept",
-  "category": null,
   "host": "zeit.de",
-  "image": "https://img.zeit.de/zeit-magazin/wochenmarkt/2021-08/kohlrabi-fenchel-carpaccio/wide__1300x731",
+  "canonical_url": "https://www.zeit.de/zeit-magazin/wochenmarkt/2021-08/kohlrabi-fenchel-carpaccio-fior-di-latte-rezept",
+  "site_name": "ZEITmagazin",
+  "author": "Angelika Schwaff",
+  "language": "de",
+  "title": "Kohlrabi-Fenchel-Carpaccio",
+  "ingredients": [
+    "1 Kugel \"Fior di Latte\" (oder eine Burrata)",
+    "1 Kohlrabi (klein)",
+    "1 Fenchelknolle",
+    "1/2 Bund Basilikum",
+    "2 EL Pistazienkerne",
+    "4 EL Olivenöl",
+    "2 EL Zitronensaft",
+    "1 TL Honig",
+    "Salz",
+    "Pfeffer"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,26 +34,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 Kugel \"Fior di Latte\" (oder eine Burrata)",
-    "1 Kohlrabi (klein)",
-    "1 Fenchelknolle",
-    "1/2 Bund Basilikum",
-    "2 EL Pistazienkerne",
-    "4 EL Olivenöl",
-    "2 EL Zitronensaft",
-    "1 TL Honig",
-    "Salz",
-    "Pfeffer"
-  ],
   "instructions": "Den Kohlrabi schälen, den Fenchel waschen. Beide vom unteren Strunk befreien. Den Kohlrabi einmal von der Spitze zum Boden in der Mitte durchschneiden. Nun beide Gemüse mit einem scharfen und stabilen Messer hauchdünn schneiden, bessere Ergebnisse erzielt man auf einer Mandoline. Idealerweise sind die Scheiben so dünn, dass man fast hindurchschauen kann.\nNun aus dem Olivenöl, dem Zitronensaft und Honig ein Dressing zusammenrühren, mit Salz und Pfeffer abschmecken. Die dünnen Gemüsescheiben fächerartig auf einen großen Teller legen, den Käse zerreißen und darauf verteilen. Das Dressing darübergeben und mit Basilikum und Pistazien servieren.",
+  "total_time": 30,
+  "yields": "2 servings",
+  "image": "https://img.zeit.de/zeit-magazin/wochenmarkt/2021-08/kohlrabi-fenchel-carpaccio/wide__1300x731",
+  "category": null,
   "instructions_list": [
     "Den Kohlrabi schälen, den Fenchel waschen. Beide vom unteren Strunk befreien. Den Kohlrabi einmal von der Spitze zum Boden in der Mitte durchschneiden. Nun beide Gemüse mit einem scharfen und stabilen Messer hauchdünn schneiden, bessere Ergebnisse erzielt man auf einer Mandoline. Idealerweise sind die Scheiben so dünn, dass man fast hindurchschauen kann.",
     "Nun aus dem Olivenöl, dem Zitronensaft und Honig ein Dressing zusammenrühren, mit Salz und Pfeffer abschmecken. Die dünnen Gemüsescheiben fächerartig auf einen großen Teller legen, den Käse zerreißen und darauf verteilen. Das Dressing darübergeben und mit Basilikum und Pistazien servieren."
-  ],
-  "language": "de",
-  "site_name": "ZEITmagazin",
-  "title": "Kohlrabi-Fenchel-Carpaccio",
-  "total_time": 30,
-  "yields": "2 servings"
+  ]
 }

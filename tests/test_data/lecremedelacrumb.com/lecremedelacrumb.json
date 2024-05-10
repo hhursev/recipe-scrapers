@@ -1,9 +1,21 @@
 {
-  "author": "Tiffany",
-  "canonical_url": "https://www.lecremedelacrumb.com/instant-pot-shredded-chicken-tacos/",
-  "category": "Main Course",
   "host": "lecremedelacrumb.com",
-  "image": "https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/instant-pot-shredded-chicken-tacos-5.jpg",
+  "canonical_url": "https://www.lecremedelacrumb.com/instant-pot-shredded-chicken-tacos/",
+  "site_name": "Creme De La Crumb",
+  "author": "Tiffany",
+  "language": "en-US",
+  "title": "Instant Pot Shredded Chicken Tacos",
+  "ingredients": [
+    "3-4 medium to large boneless skinless chicken breasts",
+    "1 cup chicken broth (or water)",
+    "1 teaspoon salt",
+    "1 teaspoon ground cumin",
+    "1 teaspoon chili powder",
+    "1 teaspoon garlic powder",
+    "1 15-ounce can fire roasted tomatoes",
+    "corn or flour taco-size tortillas",
+    "avocado, tomatoes, cheese, cilantro, sour cream (for serving)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,25 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3-4 medium to large boneless skinless chicken breasts",
-    "1 cup chicken broth (or water)",
-    "1 teaspoon salt",
-    "1 teaspoon ground cumin",
-    "1 teaspoon chili powder",
-    "1 teaspoon garlic powder",
-    "1 15-ounce can fire roasted tomatoes",
-    "corn or flour taco-size tortillas",
-    "avocado, tomatoes, cheese, cilantro, sour cream (for serving)"
-  ],
   "instructions": "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).\nCover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)\nDo a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.\nServe chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings.",
-  "instructions_list": [
-    "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).",
-    "Cover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)",
-    "Do a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.",
-    "Serve chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings."
-  ],
-  "language": "en-US",
+  "total_time": 35,
+  "prep_time": 15,
+  "cook_time": 20,
+  "yields": "4 servings",
+  "image": "https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/instant-pot-shredded-chicken-tacos-5.jpg",
+  "description": "These are the BEST Instant Pot Shredded Chicken Tacos, hands down. You'll love how quick, easy, and healthy this recipe is!",
   "nutrients": {
     "calories": "202 kcal",
     "carbohydrateContent": "1 g",
@@ -52,20 +52,20 @@
     "sugarContent": "1 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.85,
-  "ratings_count": 165,
-  "site_name": "Creme De La Crumb",
-  "title": "Instant Pot Shredded Chicken Tacos",
-  "total_time": 35,
-  "yields": "4 servings",
+  "cuisine": "Mexican",
+  "category": "Main Course",
   "keywords": [
     "Chicken",
     "healthy",
     "instant pot",
     "slow cooker"
   ],
-  "description": "These are the BEST Instant Pot Shredded Chicken Tacos, hands down. You'll love how quick, easy, and healthy this recipe is!",
-  "cook_time": 20,
-  "cuisine": "Mexican",
-  "prep_time": 15
+  "ratings": 4.85,
+  "ratings_count": 165,
+  "instructions_list": [
+    "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).",
+    "Cover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)",
+    "Do a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.",
+    "Serve chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings."
+  ]
 }

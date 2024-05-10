@@ -1,9 +1,25 @@
 {
-  "author": "Lisa Bryan",
-  "canonical_url": "https://downshiftology.com/recipes/greek-chicken-kabobs/",
-  "category": "Main Course",
   "host": "downshiftology.com",
-  "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/09/Greek-Chicken-Kabobs-main-1.jpg",
+  "canonical_url": "https://downshiftology.com/recipes/greek-chicken-kabobs/",
+  "site_name": "Downshiftology",
+  "author": "Lisa Bryan",
+  "language": "en-US",
+  "title": "Greek Chicken Kabobs",
+  "ingredients": [
+    "¼ cup olive oil",
+    "2 tablespoons red wine vinegar",
+    "3 tablespoons lemon juice",
+    "1 teaspoon Dijon mustard",
+    "3 garlic cloves (minced)",
+    "1 teaspoon dried oregano",
+    "½ teaspoon salt",
+    "¼ teaspoon black pepper",
+    "1 ½ pounds boneless skinless chicken breasts (about 3 large chicken breasts, cut into 1 ½-inch pieces.)",
+    "1 red bell pepper (seeded, cut into 1 ½-Inch pieces)",
+    "1 yellow bell pepper (seeded, cut into 1 ½-inch pieces)",
+    "1 red onion (cut into 1 ½-inch chunks)",
+    "1 zucchini (sliced)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,33 +40,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "¼ cup olive oil",
-    "2 tablespoons red wine vinegar",
-    "3 tablespoons lemon juice",
-    "1 teaspoon Dijon mustard",
-    "3 garlic cloves (minced)",
-    "1 teaspoon dried oregano",
-    "½ teaspoon salt",
-    "¼ teaspoon black pepper",
-    "1 ½ pounds boneless skinless chicken breasts (about 3 large chicken breasts, cut into 1 ½-inch pieces.)",
-    "1 red bell pepper (seeded, cut into 1 ½-Inch pieces)",
-    "1 yellow bell pepper (seeded, cut into 1 ½-inch pieces)",
-    "1 red onion (cut into 1 ½-inch chunks)",
-    "1 zucchini (sliced)"
-  ],
   "instructions": "Make marinade\nMake the marinade. In a bowl, whisk together the olive oil, red wine vinegar, lemon juice, Dijon mustard, minced garlic, dried oregano, salt, and pepper.\nMarinate chicken\nMarinate the chicken. Place chicken pieces in a glass dish and pour the marinade over the chicken. Cover and marinate in the fridge for at least one hour.\nThread skewers. Light a gas or charcoal grill on medium-high heat. Thread the skewers with pieces of red onion, chicken, zucchini, and bell pepper. You can alternate the order.\nGrill kabobs\nGrill the skewers. Place the kabobs on the preheated grill, and cook about 4 to 5 minutes per side. The kabobs are done when the chicken is cooked through and the vegetables are lightly charred, about 15 minutes.\nServe with lemon wedges and tzatziki sauce.",
-  "instructions_list": [
-    "Make marinade",
-    "Make the marinade. In a bowl, whisk together the olive oil, red wine vinegar, lemon juice, Dijon mustard, minced garlic, dried oregano, salt, and pepper.",
-    "Marinate chicken",
-    "Marinate the chicken. Place chicken pieces in a glass dish and pour the marinade over the chicken. Cover and marinate in the fridge for at least one hour.",
-    "Thread skewers. Light a gas or charcoal grill on medium-high heat. Thread the skewers with pieces of red onion, chicken, zucchini, and bell pepper. You can alternate the order.",
-    "Grill kabobs",
-    "Grill the skewers. Place the kabobs on the preheated grill, and cook about 4 to 5 minutes per side. The kabobs are done when the chicken is cooked through and the vegetables are lightly charred, about 15 minutes.",
-    "Serve with lemon wedges and tzatziki sauce."
-  ],
-  "language": "en-US",
+  "total_time": 55,
+  "prep_time": 30,
+  "cook_time": 25,
+  "yields": "6 servings",
+  "image": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/09/Greek-Chicken-Kabobs-main-1.jpg",
+  "description": "These Greek chicken kabobs are a summer grilling staple! They're juicy, flavorful, and best served with my homemade tzatziki sauce.",
   "nutrients": {
     "calories": "135 kcal",
     "carbohydrateContent": "11 g",
@@ -63,22 +59,26 @@
     "sugarContent": "6 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 31,
-  "site_name": "Downshiftology",
-  "title": "Greek Chicken Kabobs",
-  "total_time": 55,
-  "yields": "6 servings",
-  "equipment": [
-    "Metal Skewers",
-    "Lodge Indoor Grill"
-  ],
+  "cuisine": "Greek",
+  "category": "Main Course",
   "keywords": [
     "easy chicken kabobs",
     "Greek chicken kabobs"
   ],
-  "description": "These Greek chicken kabobs are a summer grilling staple! They're juicy, flavorful, and best served with my homemade tzatziki sauce.",
-  "cook_time": 25,
-  "cuisine": "Greek",
-  "prep_time": 30
+  "equipment": [
+    "Metal Skewers",
+    "Lodge Indoor Grill"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 31,
+  "instructions_list": [
+    "Make marinade",
+    "Make the marinade. In a bowl, whisk together the olive oil, red wine vinegar, lemon juice, Dijon mustard, minced garlic, dried oregano, salt, and pepper.",
+    "Marinate chicken",
+    "Marinate the chicken. Place chicken pieces in a glass dish and pour the marinade over the chicken. Cover and marinate in the fridge for at least one hour.",
+    "Thread skewers. Light a gas or charcoal grill on medium-high heat. Thread the skewers with pieces of red onion, chicken, zucchini, and bell pepper. You can alternate the order.",
+    "Grill kabobs",
+    "Grill the skewers. Place the kabobs on the preheated grill, and cook about 4 to 5 minutes per side. The kabobs are done when the chicken is cooked through and the vegetables are lightly charred, about 15 minutes.",
+    "Serve with lemon wedges and tzatziki sauce."
+  ]
 }

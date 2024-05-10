@@ -1,9 +1,16 @@
 {
-  "author": "McCormick Gourmet",
-  "canonical_url": "https://www.mccormick.com/gourmet/recipes/appetizer/sweet-and-smoky-pumpkin-seeds",
   "host": "mccormick.com",
-  "description": "Don't discard the pumpkin seeds when carving your jack-o'- lantern. Make smoky glazed pumpkin seeds for snacking, sprinkling over salads or as a garnish for pumpkin soup.",
-  "image": "https://mccormick.widen.net/content/bh1uvr3zhx/original/sweet_and_smoky_pumpkin_seeds_2000x1125.jpg",
+  "canonical_url": "https://www.mccormick.com/gourmet/recipes/appetizer/sweet-and-smoky-pumpkin-seeds",
+  "site_name": "McCormick Gourmet",
+  "author": "McCormick Gourmet",
+  "language": "en",
+  "title": "Sweet and Smoky Pumpkin Seeds",
+  "ingredients": [
+    "2 cups fresh pumpkin seeds",
+    "1/3 cup sugar",
+    "1 tsp McCormick Gourmet™ Organic Paprika, Smoked",
+    "1 egg white"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -15,28 +22,21 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups fresh pumpkin seeds",
-    "1/3 cup sugar",
-    "1 tsp McCormick Gourmet™ Organic Paprika, Smoked",
-    "1 egg white"
-  ],
   "instructions": "Preheat oven to 250°F. Spread pumpkin seeds in single layer on greased foil-lined baking sheet. Bake 45 to 50 minutes or until pumpkin seeds are dry.\nMix sugar and smoked paprika in small bowl. Set aside. Beat egg white in large bowl until foamy. Add dried pumpkin seeds; toss to coat. Gradually add sugar mixture, tossing to coat evenly. Spread seeds in single layer on same baking sheet.\nBake 1 hour, stirring seeds after 30 minutes. Cool slightly then break apart. Cool completely. Store in airtight container up to 2 weeks.",
+  "total_time": 90,
+  "prep_time": 15,
+  "cook_time": 75,
+  "yields": "10 servings",
+  "image": "https://mccormick.widen.net/content/bh1uvr3zhx/original/sweet_and_smoky_pumpkin_seeds_2000x1125.jpg",
+  "description": "Don't discard the pumpkin seeds when carving your jack-o'- lantern. Make smoky glazed pumpkin seeds for snacking, sprinkling over salads or as a garnish for pumpkin soup.",
+  "nutrients": {
+    "calories": "189 Calories"
+  },
+  "cuisine": "American,",
+  "category": "Appetizers,",
   "instructions_list": [
     "Preheat oven to 250°F. Spread pumpkin seeds in single layer on greased foil-lined baking sheet. Bake 45 to 50 minutes or until pumpkin seeds are dry.",
     "Mix sugar and smoked paprika in small bowl. Set aside. Beat egg white in large bowl until foamy. Add dried pumpkin seeds; toss to coat. Gradually add sugar mixture, tossing to coat evenly. Spread seeds in single layer on same baking sheet.",
     "Bake 1 hour, stirring seeds after 30 minutes. Cool slightly then break apart. Cool completely. Store in airtight container up to 2 weeks."
-  ],
-  "language": "en",
-  "site_name": "McCormick Gourmet",
-  "title": "Sweet and Smoky Pumpkin Seeds",
-  "total_time": 90,
-  "yields": "10 servings",
-  "category": "Appetizers,",
-  "cuisine": "American,",
-  "cook_time": 75,
-  "nutrients": {
-    "calories": "189 Calories"
-  },
-  "prep_time": 15
+  ]
 }

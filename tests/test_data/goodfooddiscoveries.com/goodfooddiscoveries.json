@@ -1,11 +1,23 @@
 {
-  "author": "Magda",
-  "canonical_url": "https://goodfooddiscoveries.com/lemon-risotto/",
-  "category": "Sides,Dinner",
-  "cook_time": 25,
-  "description": "Lemon Parmesan risotto is a classic Italian dish that features creamy Arborio rice cooked in a flavorful broth and infused with fresh lemon zest and juice, butter, and grated Parmesan cheese.",
   "host": "goodfooddiscoveries.com",
-  "image": "https://goodfooddiscoveries.com/wp-content/uploads/2023/03/lemon-parmesan-risotto.jpeg",
+  "canonical_url": "https://goodfooddiscoveries.com/lemon-risotto/",
+  "site_name": "Good Food Discoveries",
+  "author": "Magda",
+  "language": "en",
+  "title": "Lemon Risotto",
+  "ingredients": [
+    "1 1/2 cups (300g) Arborio rice",
+    "4 cups (960ml) chicken or vegetable broth",
+    "1/2 cup (120ml) dry white wine",
+    "1 small onion, finely chopped",
+    "2 cloves garlic, minced",
+    "1/4 cup (60g) unsalted butter",
+    "1/2 cup (60g) grated parmesan cheese",
+    "2 tbsp (30ml) extra virgin olive oil",
+    "1 lemon, zest and juice",
+    "Salt and pepper, to taste",
+    "Fresh parsley, for serving"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,20 +36,21 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 1/2 cups (300g) Arborio rice",
-    "4 cups (960ml) chicken or vegetable broth",
-    "1/2 cup (120ml) dry white wine",
-    "1 small onion, finely chopped",
-    "2 cloves garlic, minced",
-    "1/4 cup (60g) unsalted butter",
-    "1/2 cup (60g) grated parmesan cheese",
-    "2 tbsp (30ml) extra virgin olive oil",
-    "1 lemon, zest and juice",
-    "Salt and pepper, to taste",
-    "Fresh parsley, for serving"
-  ],
   "instructions": "In a medium saucepan, heat the broth over low heat until it's warm.\nIn a large saucepan or Dutch oven, heat the olive oil over medium heat. Add the onion and garlic, and sauté until the onion is soft and translucent, about 3-4 minutes.\nAdd the Arborio rice to the pan and stir to coat it in the oil. Cook for 2-3 minutes, stirring occasionally, until the rice is lightly toasted.\nAdd the white wine to the pan and stir until it's absorbed by the rice.\nBegin adding the warm broth to the rice mixture, one cup at a time, stirring constantly until each cup of broth is absorbed before adding the next. Continue to stir frequently to ensure that the rice doesn't stick to the pan.\nWhen the rice is tender and the mixture is creamy, after about 20-25 minutes, remove the pan from heat.\nAdd the butter, parmesan cheese, lemon zest, and lemon juice to the pan and stir until the butter is melted and the cheese is fully incorporated.\nSeason the risotto with salt and pepper to taste. If the risotto is too thick, add additional broth or water, one tablespoon at a time, until it reaches your desired consistency.\nServe the lemon risotto hot, garnished with fresh parsley.",
+  "total_time": 30,
+  "prep_time": 5,
+  "cook_time": 25,
+  "yields": "4 servings",
+  "image": "https://goodfooddiscoveries.com/wp-content/uploads/2023/03/lemon-parmesan-risotto.jpeg",
+  "description": "Lemon Parmesan risotto is a classic Italian dish that features creamy Arborio rice cooked in a flavorful broth and infused with fresh lemon zest and juice, butter, and grated Parmesan cheese.",
+  "cuisine": "Italian",
+  "category": "Sides,Dinner",
+  "keywords": [
+    "lemon",
+    "lemon risotto",
+    "parmesan",
+    "risotto"
+  ],
   "instructions_list": [
     "In a medium saucepan, heat the broth over low heat until it's warm.",
     "In a large saucepan or Dutch oven, heat the olive oil over medium heat. Add the onion and garlic, and sauté until the onion is soft and translucent, about 3-4 minutes.",
@@ -48,18 +61,5 @@
     "Add the butter, parmesan cheese, lemon zest, and lemon juice to the pan and stir until the butter is melted and the cheese is fully incorporated.",
     "Season the risotto with salt and pepper to taste. If the risotto is too thick, add additional broth or water, one tablespoon at a time, until it reaches your desired consistency.",
     "Serve the lemon risotto hot, garnished with fresh parsley."
-  ],
-  "language": "en",
-  "prep_time": 5,
-  "site_name": "Good Food Discoveries",
-  "title": "Lemon Risotto",
-  "total_time": 30,
-  "yields": "4 servings",
-  "cuisine": "Italian",
-  "keywords": [
-    "lemon",
-    "lemon risotto",
-    "parmesan",
-    "risotto"
   ]
 }

@@ -1,9 +1,19 @@
 {
-  "canonical_url": "https://www.latelierderoxane.com/blog/recette-cake-marbre/",
-  "cook_time": 45,
-  "description": "Je pense que nous avons déjà tous acheté, au moins une fois, un cake type Savane au supermarché ! Aujourd’hui, je te propose une recette facile et rapide pour réaliser un délicieux marbré au chocolat, moelleux à souhait au bon goût de vanille et cacao ! Réalise cette recette et tu n’achèteras plus l’industriel ! Découvre ma box de pâtisserie goûters faits maison",
   "host": "latelierderoxane.com",
-  "image": "https://www.latelierderoxane.com/blog/wp-content/uploads/img_7067-scaled.jpg",
+  "canonical_url": "https://www.latelierderoxane.com/blog/recette-cake-marbre/",
+  "site_name": "L'Atelier de Roxane",
+  "language": "fr-FR",
+  "title": "Recette cake savane maison",
+  "ingredients": [
+    "3 œufs",
+    "70 g de sucre",
+    "70 g de beurre fondu",
+    "1 sachet de levure chimique",
+    "250 g de farine",
+    "150 g de lait",
+    "150 g de chocolat noir fondu",
+    "1 càc d'arôme ou poudre de vanille"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,17 +29,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 œufs",
-    "70 g de sucre",
-    "70 g de beurre fondu",
-    "1 sachet de levure chimique",
-    "250 g de farine",
-    "150 g de lait",
-    "150 g de chocolat noir fondu",
-    "1 càc d'arôme ou poudre de vanille"
-  ],
   "instructions": "Préchauffe le four à 165°.\nCommence par fouetter les œufs et le sucre, à l’aide de ton robot ou batteur électrique, pendant 10 minutes : ton mélange doit s’éclaircir et doubler de volume !\nAjoute le beurre fondu, la levure, la farine et fouette brièvement.\nVerse le lait et fouette jusqu’à l’obtention d’un mélange homogène.\nSépare la préparation obtenue dans deux bols.\nDans un des deux bols, ajoute l’arôme ou la poudre de vanille.\nFais fondre ton chocolat, au bain-marie ou au micro-ondes et incorpore-le dans le second bol à l’aide d’une maryse.\nRécupère ton moule à cake et beurre-le généreusement.\nVerse, dans le fond de ton moule, la moitié de la pâte à la vanille puis la moitié de celle au chocolat.\nRépète l’opération une deuxième fois.\nEnfourne pendant 45 min.\nTu peux vérifier la cuisson à l’aide d’un couteau, plante-le au centre de ton cake : ta lame doit ressortir sèche.\nÀ la sortie du four, laisse tiédir ton cake afin de faciliter son démoulage.\nÀ manger sans modération !",
+  "total_time": 65.0,
+  "prep_time": 20,
+  "cook_time": 45,
+  "yields": "6 servings",
+  "image": "https://www.latelierderoxane.com/blog/wp-content/uploads/img_7067-scaled.jpg",
+  "description": "Je pense que nous avons déjà tous acheté, au moins une fois, un cake type Savane au supermarché ! Aujourd’hui, je te propose une recette facile et rapide pour réaliser un délicieux marbré au chocolat, moelleux à souhait au bon goût de vanille et cacao ! Réalise cette recette et tu n’achèteras plus l’industriel ! Découvre ma box de pâtisserie goûters faits maison",
   "instructions_list": [
     "Préchauffe le four à 165°.",
     "Commence par fouetter les œufs et le sucre, à l’aide de ton robot ou batteur électrique, pendant 10 minutes : ton mélange doit s’éclaircir et doubler de volume !",
@@ -45,11 +51,5 @@
     "Tu peux vérifier la cuisson à l’aide d’un couteau, plante-le au centre de ton cake : ta lame doit ressortir sèche.",
     "À la sortie du four, laisse tiédir ton cake afin de faciliter son démoulage.",
     "À manger sans modération !"
-  ],
-  "language": "fr-FR",
-  "prep_time": 20,
-  "site_name": "L'Atelier de Roxane",
-  "title": "Recette cake savane maison",
-  "total_time": 65.0,
-  "yields": "6 servings"
+  ]
 }

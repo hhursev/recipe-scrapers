@@ -1,9 +1,27 @@
 {
-  "author": "Melissa Belanger",
-  "canonical_url": "https://www.simplywhisked.com/buffalo-chicken-chili/",
-  "category": "Soups",
   "host": "simplywhisked.com",
-  "image": "https://www.simplywhisked.com/wp-content/uploads/2016/02/Buffalo-Chicken-Chili-4-1-225x225.jpg",
+  "canonical_url": "https://www.simplywhisked.com/buffalo-chicken-chili/",
+  "site_name": "Simply Whisked",
+  "author": "Melissa Belanger",
+  "language": "en-US",
+  "title": "Buffalo Chicken Chili",
+  "ingredients": [
+    "2 tablespoons olive oil",
+    "1 small onion, chopped (about 1 cup)",
+    "2 stalks celery, chopped",
+    "6 garlic cloves, minced",
+    "1 1/2 – 2 pounds ground chicken",
+    "1 cup water (or reduced-sodium broth)",
+    "1 15-ounce can petite diced tomatoes",
+    "2 15-ounce cans chili beans, with sauce",
+    "2 tablespoos chili powder",
+    "2 teaspoons ground cumin",
+    "2 teaspoons paprika",
+    "1 bay leaf",
+    "1 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1/2 cup buffalo wing sauce"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,32 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 tablespoons olive oil",
-    "1 small onion, chopped (about 1 cup)",
-    "2 stalks celery, chopped",
-    "6 garlic cloves, minced",
-    "1 1/2 – 2 pounds ground chicken",
-    "1 cup water (or reduced-sodium broth)",
-    "1 15-ounce can petite diced tomatoes",
-    "2 15-ounce cans chili beans, with sauce",
-    "2 tablespoos chili powder",
-    "2 teaspoons ground cumin",
-    "2 teaspoons paprika",
-    "1 bay leaf",
-    "1 teaspoon salt",
-    "1/2 teaspoon pepper",
-    "1/2 cup buffalo wing sauce"
-  ],
   "instructions": "In a large stockpot or dutch oven, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.\nAdd ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.\nAdd water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.\nCover and allow chili to cook for at least 15 minutes, simmering to desired thickness.\nBefore serving, remove bay leaf and adjust seasoning with salt & pepper, to taste.",
-  "instructions_list": [
-    "In a large stockpot or dutch oven, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.",
-    "Add ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.",
-    "Add water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.",
-    "Cover and allow chili to cook for at least 15 minutes, simmering to desired thickness.",
-    "Before serving, remove bay leaf and adjust seasoning with salt & pepper, to taste."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 15,
+  "cook_time": 30,
+  "yields": "8 servings",
+  "image": "https://www.simplywhisked.com/wp-content/uploads/2016/02/Buffalo-Chicken-Chili-4-1-225x225.jpg",
+  "description": "This buffalo chicken chili is a hearty, go-to meal that can be ready pretty quickly. The buffalo flavor is the perfect amount of spicy. Make this for your next football game, everyone will love it!",
   "nutrients": {
     "servingSize": "1 bowl",
     "calories": "203 calories",
@@ -65,13 +64,8 @@
     "proteinContent": "15.8 g",
     "cholesterolContent": "63 mg"
   },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Simply Whisked",
-  "title": "Buffalo Chicken Chili",
-  "total_time": 45,
-  "yields": "8 servings",
-  "cooking_method": "Stovetop",
+  "cuisine": "American",
+  "category": "Soups",
   "keywords": [
     "easy",
     "dairy free",
@@ -81,8 +75,14 @@
     "beans",
     "buffalo"
   ],
-  "description": "This buffalo chicken chili is a hearty, go-to meal that can be ready pretty quickly. The buffalo flavor is the perfect amount of spicy. Make this for your next football game, everyone will love it!",
-  "cook_time": 30,
-  "cuisine": "American",
-  "prep_time": 15
+  "cooking_method": "Stovetop",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "In a large stockpot or dutch oven, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.",
+    "Add ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.",
+    "Add water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.",
+    "Cover and allow chili to cook for at least 15 minutes, simmering to desired thickness.",
+    "Before serving, remove bay leaf and adjust seasoning with salt & pepper, to taste."
+  ]
 }

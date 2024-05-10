@@ -1,9 +1,27 @@
 {
-  "author": "NibbleDish Contributor",
-  "canonical_url": "http://nibbledish.com/soon-dubu-chigae/",
-  "category": "Soups",
   "host": "nibbledish.com",
-  "image": "http://media.nibbledish.com/wp-content/legacy-recipe-images/b2d1d675269ccfed2f246a99b3c04cbc.jpg",
+  "canonical_url": "http://nibbledish.com/soon-dubu-chigae/",
+  "site_name": "NibbleDish",
+  "author": "NibbleDish Contributor",
+  "language": "en-CA",
+  "title": "Soon dubu Chigae",
+  "ingredients": [
+    "3 tablespoons of red pepper powder",
+    "2 tablespoons sesame oil",
+    "2 small onions, chopped.",
+    "3 cloves of garlic, minced.",
+    "Shrimp, peeled, deveined, as much as you like.",
+    "Red pepper flakes",
+    "1 case of silken tofu, chopped into little cubes.",
+    "1 beef bouillon cube",
+    "2 1/2 cups of water",
+    "2 tsp fish sauce",
+    "A bunch of green onions/scallions",
+    "Mussels, as much as you like, removed from shell",
+    "Mushrooms, any kind you like. (Shiitake and enoki mushrooms recommended but I only had button.)",
+    "1 tablespoon of gochuchang",
+    "1 egg."
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,24 +44,9 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 tablespoons of red pepper powder",
-    "2 tablespoons sesame oil",
-    "2 small onions, chopped.",
-    "3 cloves of garlic, minced.",
-    "Shrimp, peeled, deveined, as much as you like.",
-    "Red pepper flakes",
-    "1 case of silken tofu, chopped into little cubes.",
-    "1 beef bouillon cube",
-    "2 1/2 cups of water",
-    "2 tsp fish sauce",
-    "A bunch of green onions/scallions",
-    "Mussels, as much as you like, removed from shell",
-    "Mushrooms, any kind you like. (Shiitake and enoki mushrooms recommended but I only had button.)",
-    "1 tablespoon of gochuchang",
-    "1 egg."
-  ],
   "instructions": "In your pot, heat up sesame oil and add onions and garlic. Fry them till cooked.\nAdd the shrimp and mussels next. Add the red pepper powder and fry.\nPut the water in the pot, let it boil and add the beef bouillon cube. Add fish sauce.\nAdd the mushrooms, tofu and gochuchang.\nAdd the egg and with a fork, whisk it around to make strands.\nAdd scallions on top and serve on top of rice.",
+  "image": "http://media.nibbledish.com/wp-content/legacy-recipe-images/b2d1d675269ccfed2f246a99b3c04cbc.jpg",
+  "category": "Soups",
   "instructions_list": [
     "In your pot, heat up sesame oil and add onions and garlic. Fry them till cooked.",
     "Add the shrimp and mussels next. Add the red pepper powder and fry.",
@@ -51,8 +54,5 @@
     "Add the mushrooms, tofu and gochuchang.",
     "Add the egg and with a fork, whisk it around to make strands.",
     "Add scallions on top and serve on top of rice."
-  ],
-  "language": "en-CA",
-  "site_name": "NibbleDish",
-  "title": "Soon dubu Chigae"
+  ]
 }

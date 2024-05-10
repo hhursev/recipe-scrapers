@@ -1,10 +1,24 @@
 {
-  "author": "Årets Kock",
-  "canonical_url": "https://www.arla.se/recept/trifle-pa-apple-med-smulkrisp-och-vaniljglass/",
-  "category": "Dessert, Efterrätt",
-  "description": "Som en snabb och underbart god smulpaj på höjden! Trifle är en brittisk dessert-tradition som alltid innehåller någon typ av frukt, grädde och kaka i olika lager – en utsökt tradition.",
   "host": "arla.se",
-  "image": "https://cdn-rdb.arla.com/Files/arla-se/1800291189/1765383d-98b9-4a7e-b6cb-a4a0d6bcbdbc.jpg?w=1300&h=525&mode=crop&ak=f525e733&hm=697c0698",
+  "canonical_url": "https://www.arla.se/recept/trifle-pa-apple-med-smulkrisp-och-vaniljglass/",
+  "site_name": "Arla",
+  "author": "Årets Kock",
+  "language": "sv",
+  "title": "Trifle på äpple med smulkrisp och vaniljglass",
+  "ingredients": [
+    "3 äpplen",
+    "1 vaniljstång",
+    "½ dl vatten",
+    "1 dl strösocker",
+    "1 dl vetemjöl",
+    "½ dl havregryn",
+    "¾ dl strösocker",
+    "½ tsk flingsalt",
+    "75 g Svenskt Smör från Arla®",
+    "1½ dl Arla Ko® Syrad grädde 30%",
+    "½ tsk vaniljsocker",
+    "½ liter vaniljglass"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -34,21 +48,24 @@
       "purpose": ""
     }
   ],
-  "ingredients": [
-    "3 äpplen",
-    "1 vaniljstång",
-    "½ dl vatten",
-    "1 dl strösocker",
-    "1 dl vetemjöl",
-    "½ dl havregryn",
-    "¾ dl strösocker",
-    "½ tsk flingsalt",
-    "75 g Svenskt Smör från Arla®",
-    "1½ dl Arla Ko® Syrad grädde 30%",
-    "½ tsk vaniljsocker",
-    "½ liter vaniljglass"
-  ],
   "instructions": "Första instruktionen\nSkala, kärna ur och skär äpplena i ca 1x1 cm tärningar. Lägg dem i en kastrull.\nDela och skrapa ur vaniljstången, lägg ner i kastrullen. Tillsätt vatten och socker, sjud ca 10 min. Ställ kallt.\nNästa instruktion\nSätt ugnen på 175°.\nNyp ihop alla ingredienser till smulkrispet. Lägg på en plåt med bakplåtspapper och baka i mitten av ugnen ca 10 min.\nSista instruktionen\nVispa den syrade grädden, rör i vaniljsockret.\nVarva kompott, smulkrisp, syrad grädde och glass i portionsglas. Börja med äppelkompott, avsluta med smulkrisp och toppa med glass.",
+  "total_time": null,
+  "yields": "4 servings",
+  "image": "https://cdn-rdb.arla.com/Files/arla-se/1800291189/1765383d-98b9-4a7e-b6cb-a4a0d6bcbdbc.jpg?w=1300&h=525&mode=crop&ak=f525e733&hm=697c0698",
+  "description": "Som en snabb och underbart god smulpaj på höjden! Trifle är en brittisk dessert-tradition som alltid innehåller någon typ av frukt, grädde och kaka i olika lager – en utsökt tradition.",
+  "nutrients": {
+    "type": "NutritionInformation",
+    "calories": "470 kcal",
+    "carbohydrateContent": "55 g",
+    "fatContent": "26 g",
+    "proteinContent": "4 g"
+  },
+  "category": "Dessert, Efterrätt",
+  "keywords": [
+    "Smulpaj"
+  ],
+  "ratings": 3.5,
+  "ratings_count": 205,
   "instructions_list": [
     "Första instruktionen",
     "Skala, kärna ur och skär äpplena i ca 1x1 cm tärningar. Lägg dem i en kastrull.",
@@ -59,22 +76,5 @@
     "Sista instruktionen",
     "Vispa den syrade grädden, rör i vaniljsockret.",
     "Varva kompott, smulkrisp, syrad grädde och glass i portionsglas. Börja med äppelkompott, avsluta med smulkrisp och toppa med glass."
-  ],
-  "language": "sv",
-  "nutrients": {
-    "type": "NutritionInformation",
-    "calories": "470 kcal",
-    "carbohydrateContent": "55 g",
-    "fatContent": "26 g",
-    "proteinContent": "4 g"
-  },
-  "ratings": 3.5,
-  "ratings_count": 205,
-  "site_name": "Arla",
-  "title": "Trifle på äpple med smulkrisp och vaniljglass",
-  "total_time": null,
-  "yields": "4 servings",
-  "keywords": [
-    "Smulpaj"
   ]
 }

@@ -1,12 +1,27 @@
 {
-  "author": "Dacota",
-  "canonical_url": "https://www.nosalty.hu/recept/aranygaluska-ahogy-nagymamam-kesziti",
-  "category": "aranygaluska",
-  "cook_time": 50,
-  "cuisine": "magyar",
-  "description": "Jó, hát tudom, hogy van már pár aranygaluska receptünk, de ilyen még nincs! :) Nem a tésztában van a pláne, gyanítom, a nagymamámat is Horváth Ilona tanította aranygaluskát készíteni, hanem kis apróságokban. Például, hogy a tésztában az élesztő futtatásához használt cukron kívül nincs más cukor. Nem fitnesszből, a cukor lehúzza a kelt tésztát, cukor nélkül sokkal-sokkal szebben feljön! Persze cukor nélkül nem édes, akkor meg minek, de higgyétek el, mivel minden szem egyesével meg van hengergetve a cukros dióban, pont tökéletes lesz. Egyébként az az a mozzanat, ami miatt megosztottam veletek a Nagyi jófajta aranygaluskáját. Zseniális, ahogy a kis gombócok között vastagon megbújik a cukros-diós kéreg, mint ahogy az is, ahogy a vajfürdőtől atompuhává válik. Elég egy kis villával megpiszkálni, minden golyó külön mozgatható, belül puha, kívül cukros-diós-kérges...mennyei! És akkor még nem is beszéltem arról, milyen, ha a sodóval találkozik!",
   "host": "nosalty.hu",
-  "image": "https://image-api.nosalty.hu/nosalty/images/recipes/Am/SZ/aranygaluska-ahogy-nagymamam-kesziti.jpeg?w=1200&h=1200&s=78e81357b434b48faaac2ca43c8321f5",
+  "canonical_url": "https://www.nosalty.hu/recept/aranygaluska-ahogy-nagymamam-kesziti",
+  "site_name": "NoSalty",
+  "author": "Dacota",
+  "language": "hu",
+  "title": "Aranygaluska ahogy a nagymamám készíti",
+  "ingredients": [
+    "50 dkg Finomliszt",
+    "2 dkg Friss élesztő",
+    "7 dkg Vaj",
+    "3 dl Tej",
+    "1 púpozott ek Cukor",
+    "2 db Tojássárgája",
+    "1 ek Vaj a forma kikenéséhez",
+    "30 dkg Dió darált",
+    "15 dkg Cukor ízlés szerint",
+    "10 dkg Vaj",
+    "7 dl Tej",
+    "4 db Tojássárgája",
+    "1 db Vanília kikapart magja",
+    "6 dkg Cukor",
+    "1 púpozott ek Finomliszt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,38 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "50 dkg Finomliszt",
-    "2 dkg Friss élesztő",
-    "7 dkg Vaj",
-    "3 dl Tej",
-    "1 púpozott ek Cukor",
-    "2 db Tojássárgája",
-    "1 ek Vaj a forma kikenéséhez",
-    "30 dkg Dió darált",
-    "15 dkg Cukor ízlés szerint",
-    "10 dkg Vaj",
-    "7 dl Tej",
-    "4 db Tojássárgája",
-    "1 db Vanília kikapart magja",
-    "6 dkg Cukor",
-    "1 púpozott ek Finomliszt"
-  ],
   "instructions": "A szobahőmérsékletű lisztet tálba szitáljuk.\nA tejet meglangyosítjuk, elmorzsoljuk benne az élesztőt, hozzáadjuk a cukrot, és felfuttatjuk.\nA vajat megolvasztjuk, a tojássárgákkal és a felfuttatott élesztővel együtt a liszthez adjuk, és kemény munkával hólyagosra gyúrjuk. Tetejét meglisztezzük, letakarjuk, és duplájára kelesztjük.\nHa kész, ujjnyi vastagra nyújtjuk, és picipogácsaszaggatóval kiszaggatjuk.\nEgy kapcsos tortaformát vastagon kivajazunk, a vajat megolvasztjuk, a diót és a cukrot kikeverjük.\nFogjuk a pogácsákat, beleforgatjuk az olvasztott vajba, meghempergetjük a cukros dióban, és a formába sorakoztatjuk őket.\nHa az egész kész, előmelegített sütőbe toljuk letakarva (a dió könnyen odakap).\nAmíg sül, elkészítjük a sodót: A tejet a vaníliarúd kikapart magjával felforraljuk, majd levesszük a tűzről.\nEgy másik lábosban kikeverjük a tojássárgákat a cukorral és a liszttel.\nApránként hozzáadva a vaníliás tejet, kis lángon sűrűre főzzük (nem nagyon sűrűre, nem puding!).\nMegvárjuk, míg a kész aranygaluska is hűl egy kicsit, majd széttépjük (nem vágjuk), és nyakon öntjük a sodóval.",
-  "instructions_list": [
-    "A szobahőmérsékletű lisztet tálba szitáljuk.",
-    "A tejet meglangyosítjuk, elmorzsoljuk benne az élesztőt, hozzáadjuk a cukrot, és felfuttatjuk.",
-    "A vajat megolvasztjuk, a tojássárgákkal és a felfuttatott élesztővel együtt a liszthez adjuk, és kemény munkával hólyagosra gyúrjuk. Tetejét meglisztezzük, letakarjuk, és duplájára kelesztjük.",
-    "Ha kész, ujjnyi vastagra nyújtjuk, és picipogácsaszaggatóval kiszaggatjuk.",
-    "Egy kapcsos tortaformát vastagon kivajazunk, a vajat megolvasztjuk, a diót és a cukrot kikeverjük.",
-    "Fogjuk a pogácsákat, beleforgatjuk az olvasztott vajba, meghempergetjük a cukros dióban, és a formába sorakoztatjuk őket.",
-    "Ha az egész kész, előmelegített sütőbe toljuk letakarva (a dió könnyen odakap).",
-    "Amíg sül, elkészítjük a sodót: A tejet a vaníliarúd kikapart magjával felforraljuk, majd levesszük a tűzről.",
-    "Egy másik lábosban kikeverjük a tojássárgákat a cukorral és a liszttel.",
-    "Apránként hozzáadva a vaníliás tejet, kis lángon sűrűre főzzük (nem nagyon sűrűre, nem puding!).",
-    "Megvárjuk, míg a kész aranygaluska is hűl egy kicsit, majd széttépjük (nem vágjuk), és nyakon öntjük a sodóval."
-  ],
-  "language": "hu",
+  "total_time": 90,
+  "prep_time": 40,
+  "cook_time": 50,
+  "yields": "6 servings",
+  "image": "https://image-api.nosalty.hu/nosalty/images/recipes/Am/SZ/aranygaluska-ahogy-nagymamam-kesziti.jpeg?w=1200&h=1200&s=78e81357b434b48faaac2ca43c8321f5",
+  "description": "Jó, hát tudom, hogy van már pár aranygaluska receptünk, de ilyen még nincs! :) Nem a tésztában van a pláne, gyanítom, a nagymamámat is Horváth Ilona tanította aranygaluskát készíteni, hanem kis apróságokban. Például, hogy a tésztában az élesztő futtatásához használt cukron kívül nincs más cukor. Nem fitnesszből, a cukor lehúzza a kelt tésztát, cukor nélkül sokkal-sokkal szebben feljön! Persze cukor nélkül nem édes, akkor meg minek, de higgyétek el, mivel minden szem egyesével meg van hengergetve a cukros dióban, pont tökéletes lesz. Egyébként az az a mozzanat, ami miatt megosztottam veletek a Nagyi jófajta aranygaluskáját. Zseniális, ahogy a kis gombócok között vastagon megbújik a cukros-diós kéreg, mint ahogy az is, ahogy a vajfürdőtől atompuhává válik. Elég egy kis villával megpiszkálni, minden golyó külön mozgatható, belül puha, kívül cukros-diós-kérges...mennyei! És akkor még nem is beszéltem arról, milyen, ha a sodóval találkozik!",
   "nutrients": {
     "servingSize": "2374 g",
     "calories": "7031.58 g",
@@ -72,11 +62,8 @@
     "cholesterolContent": "1697.6 mg",
     "carbohydrateContent": "715.9344 g"
   },
-  "prep_time": 40,
-  "site_name": "NoSalty",
-  "title": "Aranygaluska ahogy a nagymamám készíti",
-  "total_time": 90,
-  "yields": "6 servings",
+  "cuisine": "magyar",
+  "category": "aranygaluska",
   "keywords": [
     "vasárnapi ebéd",
     "szüret",
@@ -95,5 +82,18 @@
     "Vanília",
     "közepes",
     "ráérős"
+  ],
+  "instructions_list": [
+    "A szobahőmérsékletű lisztet tálba szitáljuk.",
+    "A tejet meglangyosítjuk, elmorzsoljuk benne az élesztőt, hozzáadjuk a cukrot, és felfuttatjuk.",
+    "A vajat megolvasztjuk, a tojássárgákkal és a felfuttatott élesztővel együtt a liszthez adjuk, és kemény munkával hólyagosra gyúrjuk. Tetejét meglisztezzük, letakarjuk, és duplájára kelesztjük.",
+    "Ha kész, ujjnyi vastagra nyújtjuk, és picipogácsaszaggatóval kiszaggatjuk.",
+    "Egy kapcsos tortaformát vastagon kivajazunk, a vajat megolvasztjuk, a diót és a cukrot kikeverjük.",
+    "Fogjuk a pogácsákat, beleforgatjuk az olvasztott vajba, meghempergetjük a cukros dióban, és a formába sorakoztatjuk őket.",
+    "Ha az egész kész, előmelegített sütőbe toljuk letakarva (a dió könnyen odakap).",
+    "Amíg sül, elkészítjük a sodót: A tejet a vaníliarúd kikapart magjával felforraljuk, majd levesszük a tűzről.",
+    "Egy másik lábosban kikeverjük a tojássárgákat a cukorral és a liszttel.",
+    "Apránként hozzáadva a vaníliás tejet, kis lángon sűrűre főzzük (nem nagyon sűrűre, nem puding!).",
+    "Megvárjuk, míg a kész aranygaluska is hűl egy kicsit, majd széttépjük (nem vágjuk), és nyakon öntjük a sodóval."
   ]
 }

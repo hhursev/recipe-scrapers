@@ -1,11 +1,23 @@
 {
-  "author": "Cassie Marshall",
-  "canonical_url": "https://thekitchencommunity.org/crock-pot-mac-and-cheese/",
-  "category": "Side Dish",
-  "cuisine": "American",
-  "description": "Simply the BEST Crockpot Mac and Cheese recipe out there. Give it a try!Don't cook the noodles for this recipe, just throw in your milk, cheese, and seasonings together in the slow cooker and you'll have a delicious family meal ready in no time!",
   "host": "thekitchencommunity.org",
-  "image": "https://thekitchencommunity.org/wp-content/uploads/2022/01/shutterstock_556523302-1200x801.jpg",
+  "canonical_url": "https://thekitchencommunity.org/crock-pot-mac-and-cheese/",
+  "site_name": "The Kitchen Community",
+  "author": "Cassie Marshall",
+  "language": "en-US",
+  "title": "Our BEST Crock Pot Mac and Cheese Recipe",
+  "ingredients": [
+    "1 pound pasta",
+    "2 1/3 cups of milk",
+    "12 oz evaporated milk",
+    "12 oz shredded sharp cheddar",
+    "1 cup American cheese shredded",
+    "1 1/4 teaspoon salt",
+    "1/2 teaspoon pepper",
+    "1/2 teaspoon dry ground mustard",
+    "1/3 teaspoon garlic powder",
+    "A sprinkle of cayenne pepper",
+    "1/4 cup of butter"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,20 +36,22 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 pound pasta",
-    "2 1/3 cups of milk",
-    "12 oz evaporated milk",
-    "12 oz shredded sharp cheddar",
-    "1 cup American cheese shredded",
-    "1 1/4 teaspoon salt",
-    "1/2 teaspoon pepper",
-    "1/2 teaspoon dry ground mustard",
-    "1/3 teaspoon garlic powder",
-    "A sprinkle of cayenne pepper",
-    "1/4 cup of butter"
-  ],
   "instructions": "Spray your crockpot with non-stick spray.\nRinse your uncooked pasta in a strainer and drain out all the excess water.\nAdd your uncooked pasta to your crockpot along with your milk, cheese, mustard, garlic, salt, pepper, and cayenne. Stir everything well so all the ingredients mix together and make sure the macaroni is in the liquid as much as possible.\nAdd your cubed butter.\nCover your crock pot and turn on the low heat and cook for 1 hour. Remove the lid and stir all your ingredients before replacing the lid. Check the consistency because your dish may be done or require an additional 1-2 hours.\nCheck your dish every half hour if it is not done and remember to stir when checking your dish.\nYou will know your mac and cheese is done if the pasta is tender and the liquid is thick and creamy. Once you remove the lid, keep in mind the sauce will thicken even more as the mac and cheese sits.",
+  "total_time": 125,
+  "yields": "8 servings",
+  "image": "https://thekitchencommunity.org/wp-content/uploads/2022/01/shutterstock_556523302-1200x801.jpg",
+  "description": "Simply the BEST Crockpot Mac and Cheese recipe out there. Give it a try!Don't cook the noodles for this recipe, just throw in your milk, cheese, and seasonings together in the slow cooker and you'll have a delicious family meal ready in no time!",
+  "nutrients": {
+    "calories": "574 kcal",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "American",
+  "category": "Side Dish",
+  "keywords": [
+    "crockpot mac and cheese"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 25,
   "instructions_list": [
     "Spray your crockpot with non-stick spray.",
     "Rinse your uncooked pasta in a strainer and drain out all the excess water.",
@@ -46,19 +60,5 @@
     "Cover your crock pot and turn on the low heat and cook for 1 hour. Remove the lid and stir all your ingredients before replacing the lid. Check the consistency because your dish may be done or require an additional 1-2 hours.",
     "Check your dish every half hour if it is not done and remember to stir when checking your dish.",
     "You will know your mac and cheese is done if the pasta is tender and the liquid is thick and creamy. Once you remove the lid, keep in mind the sauce will thicken even more as the mac and cheese sits."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "574 kcal",
-    "servingSize": "1 serving"
-  },
-  "ratings": 5.0,
-  "ratings_count": 25,
-  "site_name": "The Kitchen Community",
-  "title": "Our BEST Crock Pot Mac and Cheese Recipe",
-  "total_time": 125,
-  "yields": "8 servings",
-  "keywords": [
-    "crockpot mac and cheese"
   ]
 }

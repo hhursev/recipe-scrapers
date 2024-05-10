@@ -1,10 +1,18 @@
 {
-  "author": "Rutger van den Broek",
-  "canonical_url": "https://rutgerbakt.nl/chocolade-recepten/arretjescake/",
-  "category": "rutgerbakt.nl",
-  "description": "Maak zelf de lekkerste arretjescake met dit recept! Serveer plakjes of kleine stukjes arretjescake tijdens de koffie of als onderdeel van een high tea. Deze traktatie van cacao, koekjes en boter is helemaal niet moeilijk om te maken en perfect als je op zoek bent naar iets lekkers om van te voren te maken of een no-bake lekkernij. Voor deze arretjescake heb je namelijk geen oven nodig, maar je laat hem opstijven in de koelkast. ",
   "host": "rutgerbakt.nl",
-  "image": "https://rutgerbakt.nl/wp-content/uploads/2020/10/arretjescake-scaled-1920x1080-c-default.jpg",
+  "canonical_url": "https://rutgerbakt.nl/chocolade-recepten/arretjescake/",
+  "site_name": "Rutger Bakt",
+  "author": "Rutger van den Broek",
+  "language": "nl",
+  "title": "Arretjescake",
+  "ingredients": [
+    "75 ml slagroom",
+    "2 eidooiers",
+    "50 +150 gr witte basterdsuiker",
+    "50 gr cacaopoeder",
+    "225 gr boter, gesmolten",
+    "225 gr biscuits (Maria biscuits)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,26 +26,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "75 ml slagroom",
-    "2 eidooiers",
-    "50 +150 gr witte basterdsuiker",
-    "50 gr cacaopoeder",
-    "225 gr boter, gesmolten",
-    "225 gr biscuits (Maria biscuits)"
-  ],
   "instructions": "Begin met het maken van de custard. Doe de slagroom in een steelpannetje en breng dit aan de kook. Doe de eidooiers met de 50 gram basterdsuiker in een kom en klop deze door elkaar. Schenk de kokende slagroom al roerende op het eidooiermengsel en klop alles goed door. Giet het mengsel terug in de pan. Verwarm het op laag vuur en blijf roeren tot het mengsel dikker begint te worden. De custard mag niet koken, verwarm deze tot ongeveer 85 °C. Haal de pan dan van het vuur.\nDoe de rest van de basterdsuiker met het cacaopoeder en de custard in een kom en klop dit met een (hand)mixer met garde(s) door elkaar. Voeg de gesmolten boter toe en klop alles door tot de suiker opgelost is. Dit kun je testen door wat van het mengsel tussen duim en wijsvinger te pakken. Voel je nog korrels van de suiker, dan moet je nog wat langer kloppen.\nDoe de biscuitjes in een schone theedoek en vouw deze dicht. Sla met een deegroller (of een ander hard voorwerp) op de doek zodat de koekjes in stukjes breken. Voeg de biscuitstukjes toe aan het mengsel en roer door elkaar. Bekleed de binnenkant van een cakevorm van 25 centimeter met plasticfolie en laat het folie aan de bovenkant overhangen. Schep het mengsel in de vorm, druk het goed aan en dek het af met het overhangende plasticfolie. Laat de arretjescake 2-3 uur opstijven in de koelkast. Haal de cake met behulp van het folie uit de vorm en snijd ‘m in plakken.",
+  "total_time": 180,
+  "prep_time": 180,
+  "yields": null,
+  "image": "https://rutgerbakt.nl/wp-content/uploads/2020/10/arretjescake-scaled-1920x1080-c-default.jpg",
+  "description": "Maak zelf de lekkerste arretjescake met dit recept! Serveer plakjes of kleine stukjes arretjescake tijdens de koffie of als onderdeel van een high tea. Deze traktatie van cacao, koekjes en boter is helemaal niet moeilijk om te maken en perfect als je op zoek bent naar iets lekkers om van te voren te maken of een no-bake lekkernij. Voor deze arretjescake heb je namelijk geen oven nodig, maar je laat hem opstijven in de koelkast. ",
+  "category": "rutgerbakt.nl",
+  "ratings": 4.0,
+  "ratings_count": 133,
   "instructions_list": [
     "Begin met het maken van de custard. Doe de slagroom in een steelpannetje en breng dit aan de kook. Doe de eidooiers met de 50 gram basterdsuiker in een kom en klop deze door elkaar. Schenk de kokende slagroom al roerende op het eidooiermengsel en klop alles goed door. Giet het mengsel terug in de pan. Verwarm het op laag vuur en blijf roeren tot het mengsel dikker begint te worden. De custard mag niet koken, verwarm deze tot ongeveer 85 °C. Haal de pan dan van het vuur.",
     "Doe de rest van de basterdsuiker met het cacaopoeder en de custard in een kom en klop dit met een (hand)mixer met garde(s) door elkaar. Voeg de gesmolten boter toe en klop alles door tot de suiker opgelost is. Dit kun je testen door wat van het mengsel tussen duim en wijsvinger te pakken. Voel je nog korrels van de suiker, dan moet je nog wat langer kloppen.",
     "Doe de biscuitjes in een schone theedoek en vouw deze dicht. Sla met een deegroller (of een ander hard voorwerp) op de doek zodat de koekjes in stukjes breken. Voeg de biscuitstukjes toe aan het mengsel en roer door elkaar. Bekleed de binnenkant van een cakevorm van 25 centimeter met plasticfolie en laat het folie aan de bovenkant overhangen. Schep het mengsel in de vorm, druk het goed aan en dek het af met het overhangende plasticfolie. Laat de arretjescake 2-3 uur opstijven in de koelkast. Haal de cake met behulp van het folie uit de vorm en snijd ‘m in plakken."
-  ],
-  "language": "nl",
-  "ratings": 4.0,
-  "ratings_count": 133,
-  "site_name": "Rutger Bakt",
-  "title": "Arretjescake",
-  "total_time": 180,
-  "yields": null,
-  "prep_time": 180
+  ]
 }

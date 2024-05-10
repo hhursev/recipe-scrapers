@@ -1,9 +1,23 @@
 {
-  "author": "Lindsay Funston",
-  "canonical_url": "https://www.delish.com/cooking/recipe-ideas/a46303/baileys-cheesecake-recipe/",
-  "category": "St. Patrick's Day,dessert",
   "host": "delish.com",
-  "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/10/1457576542-delish-baileys-2.jpg",
+  "canonical_url": "https://www.delish.com/cooking/recipe-ideas/a46303/baileys-cheesecake-recipe/",
+  "site_name": "Delish",
+  "author": "Lindsay Funston",
+  "language": "en-us",
+  "title": "Baileys Cheesecake",
+  "ingredients": [
+    "26 Oreo cookies",
+    "4 tbsp. butter, melted, plus more for pan",
+    "Pinch of kosher salt",
+    "4 (8-oz.) bars cream cheese, softened",
+    "1 1/2 c. granulated sugar",
+    "1/4 c. cornstarch",
+    "4 large eggs",
+    "2/3 c. Baileys Irish Cream",
+    "1 tsp. pure vanilla extract",
+    "2/3 c. heavy cream",
+    "2 c. semisweet chocolate chips"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -32,34 +46,14 @@
       "purpose": "For the Ganache"
     }
   ],
-  "ingredients": [
-    "26 Oreo cookies",
-    "4 tbsp. butter, melted, plus more for pan",
-    "Pinch of kosher salt",
-    "4 (8-oz.) bars cream cheese, softened",
-    "1 1/2 c. granulated sugar",
-    "1/4 c. cornstarch",
-    "4 large eggs",
-    "2/3 c. Baileys Irish Cream",
-    "1 tsp. pure vanilla extract",
-    "2/3 c. heavy cream",
-    "2 c. semisweet chocolate chips"
-  ],
   "instructions": "Preheat oven to 325º and butter an 8\" or 9\" springform pan. Make crust: In a food processor, blend Oreos with melted butter and salt. Pat into a springform pan and set aside while you make filling.\nMake cheesecake: In a large bowl using a hand mixer, beat cream cheese and sugar until completely smooth and fluffy. Add cornstarch, then add eggs. Add Baileys and vanilla.\nPour batter into crust and place on a large baking sheet.\nBake until center of cheesecake is only slightly jiggly, 1 hour 20 minutes to 1 hour 30 minutes. Let cheesecake cool in oven, 1 hour, then refrigerate until completely cool, 4 hours or up to overnight. (If you'd like to use a water bath, tightly wrap outside of springform pan with two layers of aluminum foil. Transfer to a deep roasting pan and pour in enough boiling water to reach halfway up the cheesecake pan. Bake as directed.)\nWhen ready to serve, make ganache: In a small saucepan over low heat, heat heavy cream. Place chocolate in a heatproof bowl and pour hot cream on top. Let sit 3 minutes, then stir until creamy, until no lumps remain. Refrigerate ganache until slightly thick, 15 minutes, and spread all over cheesecake. Let set 10 minutes, then serve.",
-  "instructions_list": [
-    "Preheat oven to 325º and butter an 8\" or 9\" springform pan. Make crust: In a food processor, blend Oreos with melted butter and salt. Pat into a springform pan and set aside while you make filling.",
-    "Make cheesecake: In a large bowl using a hand mixer, beat cream cheese and sugar until completely smooth and fluffy. Add cornstarch, then add eggs. Add Baileys and vanilla.",
-    "Pour batter into crust and place on a large baking sheet.",
-    "Bake until center of cheesecake is only slightly jiggly, 1 hour 20 minutes to 1 hour 30 minutes. Let cheesecake cool in oven, 1 hour, then refrigerate until completely cool, 4 hours or up to overnight. (If you'd like to use a water bath, tightly wrap outside of springform pan with two layers of aluminum foil. Transfer to a deep roasting pan and pour in enough boiling water to reach halfway up the cheesecake pan. Bake as directed.)",
-    "When ready to serve, make ganache: In a small saucepan over low heat, heat heavy cream. Place chocolate in a heatproof bowl and pour hot cream on top. Let sit 3 minutes, then stir until creamy, until no lumps remain. Refrigerate ganache until slightly thick, 15 minutes, and spread all over cheesecake. Let set 10 minutes, then serve."
-  ],
-  "language": "en-us",
-  "ratings": 3.43,
-  "ratings_count": 7,
-  "site_name": "Delish",
-  "title": "Baileys Cheesecake",
   "total_time": 480,
+  "prep_time": 25,
   "yields": "10 servings",
+  "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/10/1457576542-delish-baileys-2.jpg",
+  "description": "Looking for the perfect Baileys cheesecake recipe? This Baileys Cheesecake is the best.",
+  "cuisine": "American",
+  "category": "St. Patrick's Day,dessert",
   "keywords": [
     "baileys cheesecake",
     "chocolate ganache cheesecake",
@@ -69,7 +63,13 @@
     "boozy cheesecake recipes",
     "cheesecake recipes"
   ],
-  "description": "Looking for the perfect Baileys cheesecake recipe? This Baileys Cheesecake is the best.",
-  "cuisine": "American",
-  "prep_time": 25
+  "ratings": 3.43,
+  "ratings_count": 7,
+  "instructions_list": [
+    "Preheat oven to 325º and butter an 8\" or 9\" springform pan. Make crust: In a food processor, blend Oreos with melted butter and salt. Pat into a springform pan and set aside while you make filling.",
+    "Make cheesecake: In a large bowl using a hand mixer, beat cream cheese and sugar until completely smooth and fluffy. Add cornstarch, then add eggs. Add Baileys and vanilla.",
+    "Pour batter into crust and place on a large baking sheet.",
+    "Bake until center of cheesecake is only slightly jiggly, 1 hour 20 minutes to 1 hour 30 minutes. Let cheesecake cool in oven, 1 hour, then refrigerate until completely cool, 4 hours or up to overnight. (If you'd like to use a water bath, tightly wrap outside of springform pan with two layers of aluminum foil. Transfer to a deep roasting pan and pour in enough boiling water to reach halfway up the cheesecake pan. Bake as directed.)",
+    "When ready to serve, make ganache: In a small saucepan over low heat, heat heavy cream. Place chocolate in a heatproof bowl and pour hot cream on top. Let sit 3 minutes, then stir until creamy, until no lumps remain. Refrigerate ganache until slightly thick, 15 minutes, and spread all over cheesecake. Let set 10 minutes, then serve."
+  ]
 }

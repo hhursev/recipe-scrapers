@@ -1,9 +1,22 @@
 {
-  "author": "Maria Lichty",
-  "canonical_url": "https://www.twopeasandtheirpod.com/mango-salad/",
-  "category": "Salad",
   "host": "twopeasandtheirpod.com",
-  "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/07/Mango-Salad-0715.jpg",
+  "canonical_url": "https://www.twopeasandtheirpod.com/mango-salad/",
+  "site_name": "Two Peas & Their Pod",
+  "author": "Maria Lichty",
+  "language": "en-US",
+  "title": "Mango Salad",
+  "ingredients": [
+    "2 ripe mangos, (chopped)",
+    "2 cups peeled and chopped jicama",
+    "2 cups chopped English cucumber",
+    "1 red bell pepper, (seeds removed and chopped)",
+    "2 scallions, (sliced)",
+    "2 tablespoons chopped cilantro leaves",
+    "2 tablespoons chopped fresh mint leaves",
+    "2 small limes",
+    "Kosher salt, (to taste)",
+    "Tajin, (for sprinkling on salad, optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,25 +34,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 ripe mangos, (chopped)",
-    "2 cups peeled and chopped jicama",
-    "2 cups chopped English cucumber",
-    "1 red bell pepper, (seeds removed and chopped)",
-    "2 scallions, (sliced)",
-    "2 tablespoons chopped cilantro leaves",
-    "2 tablespoons chopped fresh mint leaves",
-    "2 small limes",
-    "Kosher salt, (to taste)",
-    "Tajin, (for sprinkling on salad, optional)"
-  ],
   "instructions": "In a large bowl, combine the mango, jicama, cucumber, red pepper, scallions, cilantro, and mint.\nSqueeze fresh lime juice over the salad and toss. Sprinkle with salt and Tajin, if using. Toss again.\nServe and enjoy!",
-  "instructions_list": [
-    "In a large bowl, combine the mango, jicama, cucumber, red pepper, scallions, cilantro, and mint.",
-    "Squeeze fresh lime juice over the salad and toss. Sprinkle with salt and Tajin, if using. Toss again.",
-    "Serve and enjoy!"
-  ],
-  "language": "en-US",
+  "total_time": 10,
+  "prep_time": 10,
+  "yields": "6 servings",
+  "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/07/Mango-Salad-0715.jpg",
+  "description": "Mango Salad- ripe juicy mangoes with jicama, cucumber, red pepper, mint, cilantro, fresh lime juice, and a sprinkle of Tajin. This refreshing simple salad is perfect for summertime or anytime!",
   "nutrients": {
     "calories": "71 kcal",
     "carbohydrateContent": "17 g",
@@ -52,16 +52,16 @@
     "unsaturatedFatContent": "0.2 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "site_name": "Two Peas & Their Pod",
-  "title": "Mango Salad",
-  "total_time": 10,
-  "yields": "6 servings",
+  "cuisine": "American",
+  "category": "Salad",
   "keywords": [
     "mango"
   ],
-  "description": "Mango Salad- ripe juicy mangoes with jicama, cucumber, red pepper, mint, cilantro, fresh lime juice, and a sprinkle of Tajin. This refreshing simple salad is perfect for summertime or anytime!",
-  "cuisine": "American",
-  "prep_time": 10,
-  "ratings_count": 1
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "In a large bowl, combine the mango, jicama, cucumber, red pepper, scallions, cilantro, and mint.",
+    "Squeeze fresh lime juice over the salad and toss. Sprinkle with salt and Tajin, if using. Toss again.",
+    "Serve and enjoy!"
+  ]
 }

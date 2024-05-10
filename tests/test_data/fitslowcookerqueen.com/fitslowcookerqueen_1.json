@@ -1,9 +1,10 @@
 {
-  "author": "Shannon Epstein",
-  "canonical_url": "https://fitslowcookerqueen.com/slow-cooker-rosemary-dijon-chicken/",
   "host": "fitslowcookerqueen.com",
-  "description": "Slow cooker rosemary Dijon chicken is an easy recipe & healthy recipe that can be served any night of the week. Your preferred cut of chicken is slow cooked with a homemade rosemary, Dijon inspired sauce. The end result is tasty, falling off the bone chicken...all done with minimal hands-on time. Instructions to make this low-carb, paleo, and Whole30 compatible recipe in the Instant Pot are also included.",
-  "image": "https://fitslowcookerqueen.com/wp-content/uploads/2018/08/Slow-Cooker-Instant-Pot-Rosemary-Dijon-Chicken-Low-Carb-PaleoWhole30-6-225x225.jpg",
+  "canonical_url": "https://fitslowcookerqueen.com/slow-cooker-rosemary-dijon-chicken/",
+  "site_name": "Fit Slow Cooker Queen",
+  "author": "Shannon Epstein",
+  "language": "en-US",
+  "title": "Slow Cooker Rosemary Dijon Chicken",
   "ingredients": [
     "3 pounds chicken, any cut",
     "salt & pepper to taste",
@@ -34,21 +35,12 @@
     }
   ],
   "instructions": "Season the chicken with salt & pepper and add it to the slow cooker.\nIn a small bowl, mix together sauce ingredients. Pour the sauce on top of the chicken.\nCook HIGH 2-3 hours or LOW 4-6.\nInstant Pot\nIf using skin-on chicken: Turn on the Instant Pot and select sauté. Once hot, add the oil to the pot. Add chicken the chicken, skin side down. Cook approximately 3 to 4 minutes per side or until the skin is crisp to your liking. If using skinless chicken, skip this step and add the chicken directly to the pot.\nIn a small bowl, mix together the sauce ingredients. Pour the sauce on top of chicken\nClose & seal vent. Select high pressure and set time for 13 minutes. When cooking time is complete, quick-release the pressure.",
-  "instructions_list": [
-    "Season the chicken with salt & pepper and add it to the slow cooker.",
-    "In a small bowl, mix together sauce ingredients. Pour the sauce on top of the chicken.",
-    "Cook HIGH 2-3 hours or LOW 4-6.",
-    "Instant Pot",
-    "If using skin-on chicken: Turn on the Instant Pot and select sauté. Once hot, add the oil to the pot. Add chicken the chicken, skin side down. Cook approximately 3 to 4 minutes per side or until the skin is crisp to your liking. If using skinless chicken, skip this step and add the chicken directly to the pot.",
-    "In a small bowl, mix together the sauce ingredients. Pour the sauce on top of chicken",
-    "Close & seal vent. Select high pressure and set time for 13 minutes. When cooking time is complete, quick-release the pressure."
-  ],
-  "language": "en-US",
-  "site_name": "Fit Slow Cooker Queen",
-  "title": "Slow Cooker Rosemary Dijon Chicken",
   "total_time": 190,
-  "yields": "4 servings",
+  "prep_time": 10,
   "cook_time": 180,
+  "yields": "4 servings",
+  "image": "https://fitslowcookerqueen.com/wp-content/uploads/2018/08/Slow-Cooker-Instant-Pot-Rosemary-Dijon-Chicken-Low-Carb-PaleoWhole30-6-225x225.jpg",
+  "description": "Slow cooker rosemary Dijon chicken is an easy recipe & healthy recipe that can be served any night of the week. Your preferred cut of chicken is slow cooked with a homemade rosemary, Dijon inspired sauce. The end result is tasty, falling off the bone chicken...all done with minimal hands-on time. Instructions to make this low-carb, paleo, and Whole30 compatible recipe in the Instant Pot are also included.",
   "nutrients": {
     "calories": "131 calories",
     "sugarContent": "2 g",
@@ -61,5 +53,13 @@
     "proteinContent": "16.6 g",
     "cholesterolContent": "70 mg"
   },
-  "prep_time": 10
+  "instructions_list": [
+    "Season the chicken with salt & pepper and add it to the slow cooker.",
+    "In a small bowl, mix together sauce ingredients. Pour the sauce on top of the chicken.",
+    "Cook HIGH 2-3 hours or LOW 4-6.",
+    "Instant Pot",
+    "If using skin-on chicken: Turn on the Instant Pot and select sauté. Once hot, add the oil to the pot. Add chicken the chicken, skin side down. Cook approximately 3 to 4 minutes per side or until the skin is crisp to your liking. If using skinless chicken, skip this step and add the chicken directly to the pot.",
+    "In a small bowl, mix together the sauce ingredients. Pour the sauce on top of chicken",
+    "Close & seal vent. Select high pressure and set time for 13 minutes. When cooking time is complete, quick-release the pressure."
+  ]
 }

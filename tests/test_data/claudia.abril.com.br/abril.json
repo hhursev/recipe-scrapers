@@ -1,9 +1,22 @@
 {
-  "author": "CLAUDIA",
-  "canonical_url": "https://claudia.abril.com.br/receitas/estrogonofe-de-carne",
-  "category": "Carne",
   "host": "claudia.abril.com.br",
-  "image": "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-estrogonofe-de-carne.jpg?quality=85&strip=info&w=620&h=372&crop=1",
+  "canonical_url": "https://claudia.abril.com.br/receitas/estrogonofe-de-carne",
+  "site_name": "CLAUDIA",
+  "author": "CLAUDIA",
+  "language": "pt-BR",
+  "title": "Estrogonofe de carne",
+  "ingredients": [
+    "500 gramas de alcatra cortada em tirinhas",
+    "1/4 xícara (chá) de manteiga",
+    "1 unidade de cebola picada",
+    "1 colher (sobremesa) de mostarda",
+    "1 colher (sopa) de ketchup (ou catchup)",
+    "1 pitada de pimenta-do-reino",
+    "1 unidade de tomate sem pele picado",
+    "1 xícara (chá) de cogumelo variado | variados escorridos",
+    "1 lata de creme de leite",
+    "sal a gosto"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,19 +34,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "500 gramas de alcatra cortada em tirinhas",
-    "1/4 xícara (chá) de manteiga",
-    "1 unidade de cebola picada",
-    "1 colher (sobremesa) de mostarda",
-    "1 colher (sopa) de ketchup (ou catchup)",
-    "1 pitada de pimenta-do-reino",
-    "1 unidade de tomate sem pele picado",
-    "1 xícara (chá) de cogumelo variado | variados escorridos",
-    "1 lata de creme de leite",
-    "sal a gosto"
-  ],
   "instructions": "Derreta a manteiga e refogue a cebola até ficar transparente.\nJunte a carne e tempere com o sal.\nMexa até a carne dourar de todos os lados.\nAcrescente a mostarda, o catchup, a pimenta-do-reino e o tomate picado.\nCozinhe até formar um molho espesso.\nSe necessário, adicione água quente aos poucos.\nQuando o molho estiver encorpado e a carne macia, adicione os cogumelos e o creme de leite.\nMexa por 1 minuto e retire do fogo.\nSirva imediatamente, acompanhado de arroz e batata palha.\nDica: Se juntar água ao refogar a carne, frite-a até todo o líquido evaporar.",
+  "total_time": 30,
+  "yields": "4 servings",
+  "image": "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-estrogonofe-de-carne.jpg?quality=85&strip=info&w=620&h=372&crop=1",
+  "description": "Derreta a manteiga e refogue a cebola até ficar transparente. Junte a carne e tempere com o sal. Mexa até a carne dourar de todos os lados. Acrescente a mostarda, o catchup, a pimenta-do-reino e o tomate picado. Cozinhe até formar um molho espesso. Se necessário, adicione água quente aos poucos. Quando o molho estiver […]",
+  "cuisine": "Brasileira",
+  "category": "Carne",
+  "ratings": 4.0,
+  "ratings_count": 27,
   "instructions_list": [
     "Derreta a manteiga e refogue a cebola até ficar transparente.",
     "Junte a carne e tempere com o sal.",
@@ -45,14 +54,5 @@
     "Mexa por 1 minuto e retire do fogo.",
     "Sirva imediatamente, acompanhado de arroz e batata palha.",
     "Dica: Se juntar água ao refogar a carne, frite-a até todo o líquido evaporar."
-  ],
-  "language": "pt-BR",
-  "ratings": 4.0,
-  "ratings_count": 27,
-  "site_name": "CLAUDIA",
-  "title": "Estrogonofe de carne",
-  "total_time": 30,
-  "yields": "4 servings",
-  "description": "Derreta a manteiga e refogue a cebola até ficar transparente. Junte a carne e tempere com o sal. Mexa até a carne dourar de todos os lados. Acrescente a mostarda, o catchup, a pimenta-do-reino e o tomate picado. Cozinhe até formar um molho espesso. Se necessário, adicione água quente aos poucos. Quando o molho estiver […]",
-  "cuisine": "Brasileira"
+  ]
 }

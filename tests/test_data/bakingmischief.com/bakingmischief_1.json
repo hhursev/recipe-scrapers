@@ -1,11 +1,38 @@
 {
-  "author": "Tracy",
-  "canonical_url": "https://bakingmischief.com/barbacoa-burrito-bowls/",
-  "category": "Main Course",
-  "cuisine": "American,Mexican",
-  "description": "These barbacoa burrito bowls are loaded with tender and tangy homemade barbacoa and all your favorite burrito toppings layered over a bed of cilantro lime rice.",
   "host": "bakingmischief.com",
-  "image": "https://bakingmischief.com/wp-content/uploads/2020/12/barbacoa-burrito-bowls-image-square-2.jpg",
+  "canonical_url": "https://bakingmischief.com/barbacoa-burrito-bowls/",
+  "site_name": "Baking Mischief",
+  "author": "Tracy",
+  "language": "en-US",
+  "title": "Barbacoa Burrito Bowls",
+  "ingredients": [
+    "1 boneless 2-3 pound chuck roast ( trimmed and cut into fist-size chunks)",
+    "Salt and pepper",
+    "1 medium white or yellow onion diced",
+    "3 tablespoons vegetable oil",
+    "1-6 cups beef or chicken broth",
+    "1/4 cup lime juice",
+    "1/4 cup apple cider vinegar",
+    "2 chipotle peppers in adobo sauce minced (optional)",
+    "1 tablespoon ground cumin",
+    "1 tablespoon dried oregano",
+    "1/4 teaspoon ground cloves optional",
+    "3/4 teaspoon salt",
+    "3 bay leaves",
+    "Juice from 1 lime (about 2 tablespoons)",
+    "Scant 2 cups chicken broth",
+    "1 cup long-grain rice",
+    "Zest from 1 lime (divided)",
+    "1 tablespoon (14g) butter (salted or unsalted is fine)",
+    "1/4 teaspoon salt",
+    "1/4 cup chopped loosely packed cilantro (divided)",
+    "1 15-ounce can black beans (rinsed, drained, and warmed)",
+    "1 15- 15-ounce can corn (drained and warmed)",
+    "1/2 cup (2oz) shredded Mexican-blend cheese",
+    "1 cup pico de gallo",
+    "1/2 cup guacamole",
+    "1/4 cup sour cream"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -49,35 +76,22 @@
       "purpose": "Burrito Bowls"
     }
   ],
-  "ingredients": [
-    "1 boneless 2-3 pound chuck roast ( trimmed and cut into fist-size chunks)",
-    "Salt and pepper",
-    "1 medium white or yellow onion diced",
-    "3 tablespoons vegetable oil",
-    "1-6 cups beef or chicken broth",
-    "1/4 cup lime juice",
-    "1/4 cup apple cider vinegar",
-    "2 chipotle peppers in adobo sauce minced (optional)",
-    "1 tablespoon ground cumin",
-    "1 tablespoon dried oregano",
-    "1/4 teaspoon ground cloves optional",
-    "3/4 teaspoon salt",
-    "3 bay leaves",
-    "Juice from 1 lime (about 2 tablespoons)",
-    "Scant 2 cups chicken broth",
-    "1 cup long-grain rice",
-    "Zest from 1 lime (divided)",
-    "1 tablespoon (14g) butter (salted or unsalted is fine)",
-    "1/4 teaspoon salt",
-    "1/4 cup chopped loosely packed cilantro (divided)",
-    "1 15-ounce can black beans (rinsed, drained, and warmed)",
-    "1 15- 15-ounce can corn (drained and warmed)",
-    "1/2 cup (2oz) shredded Mexican-blend cheese",
-    "1 cup pico de gallo",
-    "1/2 cup guacamole",
-    "1/4 cup sour cream"
-  ],
   "instructions": "Barbacoa\nGenerously salt and pepper meat on all sides.\nIn a large dutch oven (or skillet if you’ll be using a slow cooker), heat oil over medium-high heat. Brown meat on all sides, in batches if necessary. This may take up to 15 minutes.\nStovetop Barbacoa\nAdd onion and just enough chicken or beef broth to mostly submerge the meat. Stir, scraping the bottom of the pan to remove any stuck-on bits. Stir in remaining ingredients and bring mixture to a low simmer. Cook, stirring occasionally for 2 1/2 to 3 hours, until meat is very tender and can be pulled apart with a fork.\nSlow Cooker Barbacoa\nIf using a slow cooker, transfer meat and any drippings remaining in the pan to the slow cooker and add onions, 1 cup of broth and remaining ingredients. Cook on high for 3 to 4 hours, low for 7 to 8 hours, until the beef is tender and can be easily shredded with a fork.\nShred\nOnce meat is done, use a slotted spoon to transfer the pieces to a cutting board. Use two forks to shred the meat, discarding any large pieces of fat as you go.\nReturn shredded meat to the cooking liquid. Add more salt and pepper to taste.\nCilantro Lime Rice\nAdd lime juice to a 2-cup measuring cup. Fill the measuring cup the rest of the way with chicken broth.\nIn a saucepan or rice cooker, cook rice according to package instructions, replacing the water with the lime juice/chicken broth mixture and adding butter and salt when you add the rice (if the package instructions already call for salt, do not add additional salt).\nAfter rice has finished cooking, stir in half of the lime zest and cilantro. Taste and add more lime and cilantro to taste.\nBurrito Bowls\nDivide cilantro rice between bowls or food prep containers. Top rice with shredded barbacoa and the rest of your burrito bowl toppings. Serve and enjoy.",
+  "total_time": 190,
+  "prep_time": 30,
+  "cook_time": 160,
+  "yields": "4 servings",
+  "image": "https://bakingmischief.com/wp-content/uploads/2020/12/barbacoa-burrito-bowls-image-square-2.jpg",
+  "description": "These barbacoa burrito bowls are loaded with tender and tangy homemade barbacoa and all your favorite burrito toppings layered over a bed of cilantro lime rice.",
+  "nutrients": {
+    "calories": "824 kcal",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "American,Mexican",
+  "category": "Main Course",
+  "keywords": [
+    "Barbacoa Burrito Bowl"
+  ],
   "instructions_list": [
     "Barbacoa",
     "Generously salt and pepper meat on all sides.",
@@ -95,19 +109,5 @@
     "After rice has finished cooking, stir in half of the lime zest and cilantro. Taste and add more lime and cilantro to taste.",
     "Burrito Bowls",
     "Divide cilantro rice between bowls or food prep containers. Top rice with shredded barbacoa and the rest of your burrito bowl toppings. Serve and enjoy."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "824 kcal",
-    "servingSize": "1 serving"
-  },
-  "site_name": "Baking Mischief",
-  "title": "Barbacoa Burrito Bowls",
-  "total_time": 190,
-  "yields": "4 servings",
-  "cook_time": 160,
-  "prep_time": 30,
-  "keywords": [
-    "Barbacoa Burrito Bowl"
   ]
 }

@@ -1,9 +1,24 @@
 {
-  "author": "L'atelier des Chefs",
-  "canonical_url": "atelierdeschefs.fr",
-  "category": null,
   "host": "atelierdeschefs.fr",
-  "image": "https://www.atelierdeschefs.com/media/recette-e16689-crepe-savoyarde.jpg",
+  "canonical_url": "atelierdeschefs.fr",
+  "site_name": "https://www.atelierdeschefs.fr",
+  "author": "L'atelier des Chefs",
+  "language": "fr",
+  "title": "Crêpe savoyarde",
+  "ingredients": [
+    "Lait 1/2 écrémé : 25 cl",
+    "Beurre doux : 120 g",
+    "Oeuf(s) : 1 pièce(s)",
+    "Farine de blé : 70 g",
+    "Farine de sarrasin (blé noir) : 55 g",
+    "Sel fin : 8 pincée(s)",
+    "Pomme(s) de terre à chair ferme : 300 g",
+    "Gros sel : 5 g",
+    "Raclette au lait cru : 50 g",
+    "Lardon(s) fumé(s) : 100 g",
+    "Crème fraîche épaisse : 50 g",
+    "Moulin à poivre : 6 tour(s)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,21 +38,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "Lait 1/2 écrémé : 25 cl",
-    "Beurre doux : 120 g",
-    "Oeuf(s) : 1 pièce(s)",
-    "Farine de blé : 70 g",
-    "Farine de sarrasin (blé noir) : 55 g",
-    "Sel fin : 8 pincée(s)",
-    "Pomme(s) de terre à chair ferme : 300 g",
-    "Gros sel : 5 g",
-    "Raclette au lait cru : 50 g",
-    "Lardon(s) fumé(s) : 100 g",
-    "Crème fraîche épaisse : 50 g",
-    "Moulin à poivre : 6 tour(s)"
-  ],
   "instructions": "Pour la pâte à crêpes\nPour la pâte à crêpes : dans un bol, réunir les farines et le sel.\nCasser l’œuf et mélanger grossièrement, puis ajouter progressivement le lait tout en fouettant énergiquement.\nFaire fondre le beurre, puis l'ajouter à l'appareil.\nLaisser ensuite reposer au frais pendant 1 h.\nRéaliser les crêpes sur une crêpière chaude jusqu'à épuisement de la pâte.\nPour la garniture\nPréchauffer le four à 180 °C (th.\n6).\nÉplucher les pommes de terre et les couper en rondelles.\nLes disposer ensuite dans une casserole avec le gros sel, puis les couvrir d'eau.\nPorter à ébullition, puis cuire les pommes de terre pendant 5 min avant de les égoutter.\nDorer les lardons dans une poêle chaude, puis les égoutter sur une feuille de papier absorbant.\nCouper le fromage en fines tranches.\nDans une poêle chaude, faire fondre 10 g de beurre puis réchauffer doucement une crêpe.\nDisposer ensuite les rondelles de pommes de terre, puis les lardons.\nAjouter la crème et une tranche de fromage, saler et poivrer.\nEnfourner à 180 °C (th.\n6) jusqu'à ce que le fromage ait fondu.\nRenouveler l'opération pour les 5 autres crêpes.\nServir aussitôt.",
+  "total_time": 30,
+  "prep_time": 10,
+  "cook_time": 20,
+  "yields": "6 Servings",
+  "image": "https://www.atelierdeschefs.com/media/recette-e16689-crepe-savoyarde.jpg",
+  "description": "Une crêpe aux saveurs de la Savoie : des pommes de terre, du lard, de la crème et du fromage à raclette.",
+  "category": null,
+  "ratings": 3.7,
+  "ratings_count": 297,
   "instructions_list": [
     "Pour la pâte à crêpes",
     "Pour la pâte à crêpes : dans un bol, réunir les farines et le sel.",
@@ -60,15 +70,5 @@
     "6) jusqu'à ce que le fromage ait fondu.",
     "Renouveler l'opération pour les 5 autres crêpes.",
     "Servir aussitôt."
-  ],
-  "language": "fr",
-  "ratings": 3.7,
-  "ratings_count": 297,
-  "site_name": "https://www.atelierdeschefs.fr",
-  "title": "Crêpe savoyarde",
-  "total_time": 30,
-  "yields": "6 Servings",
-  "cook_time": 20,
-  "description": "Une crêpe aux saveurs de la Savoie : des pommes de terre, du lard, de la crème et du fromage à raclette.",
-  "prep_time": 10
+  ]
 }

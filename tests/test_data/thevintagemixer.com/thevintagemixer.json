@@ -1,9 +1,24 @@
 {
-  "author": "Becky",
-  "canonical_url": "https://www.thevintagemixer.com/cherry-baby-birthday-cake-party/",
-  "category": "Dessert",
   "host": "thevintagemixer.com",
-  "image": "http://d6h7vs5ykbiug.cloudfront.net/wp-content/uploads/2017/08/Cherry-Baby-Birthday-Party-2-1.jpg",
+  "canonical_url": "https://www.thevintagemixer.com/cherry-baby-birthday-cake-party/",
+  "site_name": null,
+  "author": "Becky",
+  "language": "en-US",
+  "title": "Gluten Free and Sugar Free Cherry Baby Smash Cake",
+  "ingredients": [
+    "2 tablespoons coconut flour, (+1 teaspoon)",
+    "1/4 cup almond flour",
+    "1/4 teaspoon baking powder",
+    "1/6 teaspoon baking soda",
+    "1/4 teaspoon salt",
+    "1 ripe banana, (about 1/2 cup)",
+    "2 tablespoons coconut oil, (room temp)",
+    "2 tablespoons almond butter, (room temp)",
+    "1 large egg, (beaten )",
+    "1 tablespoon pure maple syrup",
+    "1/2 teaspoon pure vanilla extract",
+    "1/2 cup cherries, (pitted and chopped)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,21 +38,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 tablespoons coconut flour, (+1 teaspoon)",
-    "1/4 cup almond flour",
-    "1/4 teaspoon baking powder",
-    "1/6 teaspoon baking soda",
-    "1/4 teaspoon salt",
-    "1 ripe banana, (about 1/2 cup)",
-    "2 tablespoons coconut oil, (room temp)",
-    "2 tablespoons almond butter, (room temp)",
-    "1 large egg, (beaten )",
-    "1 tablespoon pure maple syrup",
-    "1/2 teaspoon pure vanilla extract",
-    "1/2 cup cherries, (pitted and chopped)"
-  ],
   "instructions": "Preheat the oven to 375 and grease two small ramekins* with coconut oil.\nIn a small mixing bowl combine the dry ingredients: coconut flour, almond flour, baking powder, baking soda, and salt.\nIn a separate, medium-sized, bowl mash the banana then add in the coconut oil, almond butter, maple syrup and vanilla. Stir in the egg.\nCombine the dry ingredients to the wet and mix only until combined and smooth.\nToss the chopped cherries with a teaspoon or so of coconut flour. Stir these into the batter. Spoon batter out into ramekins and bake at 375 for 20-25 minutes.\nLet cool 5 minutes in the pan then remove to a wire rack to cool completely. Wrap in plastic and freeze.\nTo frost the cake\nAbout 1 hour before serving, remove cakes from freezer. If the cakes are puffed up at the top slice off the top to even them out and make it flat to layer the cakes.\nDap a small amount of frosting under the first cake on the plate so it won't wiggle as you ice it then add a spoonful on top of the cake to place the second layer on top. Frost gently around the sides of the cake and on top. Top the cake with a few fresh cherries.",
+  "total_time": 35,
+  "prep_time": 15,
+  "cook_time": 20,
+  "image": "http://d6h7vs5ykbiug.cloudfront.net/wp-content/uploads/2017/08/Cherry-Baby-Birthday-Party-2-1.jpg",
+  "description": "This cute Cherry Cake for a baby's first birthday is gluten free, sugar free and paleo making it perfectly healthy for any baby.",
+  "cuisine": "American,Gluten Free,Paleo,Sugar Free",
+  "category": "Dessert",
   "instructions_list": [
     "Preheat the oven to 375 and grease two small ramekins* with coconut oil.",
     "In a small mixing bowl combine the dry ingredients: coconut flour, almond flour, baking powder, baking soda, and salt.",
@@ -48,13 +56,5 @@
     "To frost the cake",
     "About 1 hour before serving, remove cakes from freezer. If the cakes are puffed up at the top slice off the top to even them out and make it flat to layer the cakes.",
     "Dap a small amount of frosting under the first cake on the plate so it won't wiggle as you ice it then add a spoonful on top of the cake to place the second layer on top. Frost gently around the sides of the cake and on top. Top the cake with a few fresh cherries."
-  ],
-  "language": "en-US",
-  "site_name": null,
-  "title": "Gluten Free and Sugar Free Cherry Baby Smash Cake",
-  "total_time": 35,
-  "description": "This cute Cherry Cake for a baby's first birthday is gluten free, sugar free and paleo making it perfectly healthy for any baby.",
-  "cook_time": 20,
-  "cuisine": "American,Gluten Free,Paleo,Sugar Free",
-  "prep_time": 15
+  ]
 }

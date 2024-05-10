@@ -1,9 +1,23 @@
 {
-  "author": "Kochbucher",
-  "canonical_url": "https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/",
-  "category": "Salzige Gerichte",
   "host": "kochbucher.com",
-  "image": "https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg",
+  "canonical_url": "https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/",
+  "site_name": null,
+  "author": "Kochbucher",
+  "language": "en-US",
+  "title": "Putengeschnetzeltes mit Reis und Blattsalat",
+  "ingredients": [
+    "500 g Putenfleisch",
+    "1 Zwiebel",
+    "1 EL Tomatenmark",
+    "50 Rohschinkenwürfel light",
+    "1 EL Speisestärke",
+    "250 ml Cremefine",
+    "200 ml Wasser",
+    "1 TL Tessiner Kräuter Gewürzmischung",
+    "Pfeffer",
+    "Salz",
+    "Etwas Öl zum Anbraten"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,20 +36,9 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "500 g Putenfleisch",
-    "1 Zwiebel",
-    "1 EL Tomatenmark",
-    "50 Rohschinkenwürfel light",
-    "1 EL Speisestärke",
-    "250 ml Cremefine",
-    "200 ml Wasser",
-    "1 TL Tessiner Kräuter Gewürzmischung",
-    "Pfeffer",
-    "Salz",
-    "Etwas Öl zum Anbraten"
-  ],
   "instructions": "Zwiebel würfeln, Fleisch in Streifen schneiden\nGemeinsam in etwas Öl rundherum braun anbraten\nTomatenmark hinzufügen, kurz anrösten\nSchinkenwürfel hinzufügen\nMit Stärke bestäuben und gut vermischen\nWasser und Cremefine hinzufügen, aufkochen lassen\nGewürze hinzufügen",
+  "image": "https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg",
+  "category": "Salzige Gerichte",
   "instructions_list": [
     "Zwiebel würfeln, Fleisch in Streifen schneiden",
     "Gemeinsam in etwas Öl rundherum braun anbraten",
@@ -44,8 +47,5 @@
     "Mit Stärke bestäuben und gut vermischen",
     "Wasser und Cremefine hinzufügen, aufkochen lassen",
     "Gewürze hinzufügen"
-  ],
-  "language": "en-US",
-  "site_name": null,
-  "title": "Putengeschnetzeltes mit Reis und Blattsalat"
+  ]
 }

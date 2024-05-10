@@ -1,11 +1,22 @@
 {
-  "author": "Sandra",
-  "canonical_url": "https://www.leukerecepten.nl/recepten/pasta-met-paddenstoelen/",
-  "category": "Hoofdgerechten",
-  "cuisine": "Italiaanse recepten",
-  "description": "Heerlijke vegetarisch pasta recept met paddenstoelen, spinazie in een romige saus van crème fraiche",
   "host": "leukerecepten.nl",
-  "image": "https://www.leukerecepten.nl/wp-content/uploads/2020/10/pasta-met-paddenstoelen-1.jpg",
+  "canonical_url": "https://www.leukerecepten.nl/recepten/pasta-met-paddenstoelen/",
+  "site_name": "Leuke Recepten",
+  "author": "Sandra",
+  "language": "nl",
+  "title": "Pasta met paddenstoelen en champignons",
+  "ingredients": [
+    "160 gr spaghetti",
+    "250 gr paddenstoelen (en champignons)",
+    "1 teen knoflook",
+    "1 ui",
+    "200 gr crème fraîche",
+    "30 gr Parmezaanse kaas (geraspt)",
+    "100 gr verse spinazie",
+    "2 eetlepels pijnboompitten (geroosterd)",
+    "snuf peper en zout",
+    "Optioneel: truffeltapenade of truffelolie"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,19 +34,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "160 gr spaghetti",
-    "250 gr paddenstoelen (en champignons)",
-    "1 teen knoflook",
-    "1 ui",
-    "200 gr crème fraîche",
-    "30 gr Parmezaanse kaas (geraspt)",
-    "100 gr verse spinazie",
-    "2 eetlepels pijnboompitten (geroosterd)",
-    "snuf peper en zout",
-    "Optioneel: truffeltapenade of truffelolie"
-  ],
   "instructions": "Bereiding\nKook de spaghetti gaar en vang tijdens het afgieten een deel van het kookvocht op. Snijd de paddenstoelen in plakjes. Verhit een beetje olie of boter in een pan en bak de paddenstoelen een paar minuten tot ze iets geslonken zijn. Schep ze uit de pan.\nSnipper de ui en knoflook en fruit aan in dezelfde pan. Doe de spinazie er bij laat slinken. Schep de creme fraiche erbij en een scheut van het kookvocht van de pasta. Breng de romige saus op smaak met peper en zout.\nSchep de spaghetti door de saus. Voeg als laatste de gebakken paddenstoelen toe en warm nog even mee. Serveer de pasta met wat Parmezaanse kaas en pijnboompitten.\nTip: voeg een beetje truffeltapenade of truffelolie toe op het laatst.\nParmezaanse kaas bevat dierlijk stremsel waardoor dit recept niet 100% vegetarisch is. Vervang de kaas voor een oude of gerijpte kaas met vegetarisch stremsel of probeer eens een veganistische kaas.",
+  "total_time": 25,
+  "prep_time": 25,
+  "yields": "2 servings",
+  "image": "https://www.leukerecepten.nl/wp-content/uploads/2020/10/pasta-met-paddenstoelen-1.jpg",
+  "description": "Heerlijke vegetarisch pasta recept met paddenstoelen, spinazie in een romige saus van crème fraiche",
+  "cuisine": "Italiaanse recepten",
+  "category": "Hoofdgerechten",
+  "ratings": 4.0,
+  "ratings_count": 298,
   "instructions_list": [
     "Bereiding",
     "Kook de spaghetti gaar en vang tijdens het afgieten een deel van het kookvocht op. Snijd de paddenstoelen in plakjes. Verhit een beetje olie of boter in een pan en bak de paddenstoelen een paar minuten tot ze iets geslonken zijn. Schep ze uit de pan.",
@@ -43,13 +51,5 @@
     "Schep de spaghetti door de saus. Voeg als laatste de gebakken paddenstoelen toe en warm nog even mee. Serveer de pasta met wat Parmezaanse kaas en pijnboompitten.",
     "Tip: voeg een beetje truffeltapenade of truffelolie toe op het laatst.",
     "Parmezaanse kaas bevat dierlijk stremsel waardoor dit recept niet 100% vegetarisch is. Vervang de kaas voor een oude of gerijpte kaas met vegetarisch stremsel of probeer eens een veganistische kaas."
-  ],
-  "language": "nl",
-  "ratings": 4.0,
-  "ratings_count": 298,
-  "site_name": "Leuke Recepten",
-  "title": "Pasta met paddenstoelen en champignons",
-  "total_time": 25,
-  "yields": "2 servings",
-  "prep_time": 25
+  ]
 }

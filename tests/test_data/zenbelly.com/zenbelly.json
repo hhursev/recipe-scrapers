@@ -1,9 +1,27 @@
 {
-  "author": "Simone Miller",
-  "canonical_url": "https://www.zenbelly.com/gingerbread/",
-  "category": "Dessert",
   "host": "zenbelly.com",
-  "image": "https://www.zenbelly.com/wp-content/uploads/2019/01/gingerbread-3-225x225.jpeg",
+  "canonical_url": "https://www.zenbelly.com/gingerbread/",
+  "site_name": "zenbelly",
+  "author": "Simone Miller",
+  "language": "en-US",
+  "title": "Paleo Gingerbread",
+  "ingredients": [
+    "butter (ghee, or shortening for greasing the pan)",
+    "3 cups almond flour",
+    "1 1/2 cups tapioca starch (plus more for flouring pan)",
+    "1/2 cup coconut flour",
+    "1 1/2 teaspoons baking soda",
+    "2 teaspoons ground ginger",
+    "1 teaspoons ground cinnamon",
+    "1/4 teaspoon ground allspice",
+    "1/4 teaspoon ground cardamom",
+    "1/2 teaspoon finely ground sea salt",
+    "1 cup coconut sugar",
+    "1 cup molasses (use true molasses if you can find it)",
+    "2 teaspoons fresh ginger",
+    "1 cup boiling water",
+    "4 eggs"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,38 +44,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "butter (ghee, or shortening for greasing the pan)",
-    "3 cups almond flour",
-    "1 1/2 cups tapioca starch (plus more for flouring pan)",
-    "1/2 cup coconut flour",
-    "1 1/2 teaspoons baking soda",
-    "2 teaspoons ground ginger",
-    "1 teaspoons ground cinnamon",
-    "1/4 teaspoon ground allspice",
-    "1/4 teaspoon ground cardamom",
-    "1/2 teaspoon finely ground sea salt",
-    "1 cup coconut sugar",
-    "1 cup molasses (use true molasses if you can find it)",
-    "2 teaspoons fresh ginger",
-    "1 cup boiling water",
-    "4 eggs"
-  ],
   "instructions": "Preheat the oven to 350ºF. Grease a 9×13-inch cake pan.\nIn a large bowl, whisk together the almond flour, tapioca starch, coconut flour, baking soda, ground ginger, cinnamon, allspice, cardamom, and salt.\nIn a medium heat proof bowl, whisk together the coconut sugar, molasses, fresh ginger, and boiling water. Once it’s lukewarm (the molasses and coconut sugar should take the temperature down enough), whisk in the eggs.\nPour the wet ingredients into the dry ingredients and whisk until there are no lumps.\nPour into the prepared pan and bake for 28-35 minutes*",
+  "total_time": 40,
+  "prep_time": 10,
+  "cook_time": 30,
+  "yields": "20 servings",
+  "image": "https://www.zenbelly.com/wp-content/uploads/2019/01/gingerbread-3-225x225.jpeg",
+  "category": "Dessert",
+  "ratings": 5.0,
+  "ratings_count": 4,
   "instructions_list": [
     "Preheat the oven to 350ºF. Grease a 9×13-inch cake pan.",
     "In a large bowl, whisk together the almond flour, tapioca starch, coconut flour, baking soda, ground ginger, cinnamon, allspice, cardamom, and salt.",
     "In a medium heat proof bowl, whisk together the coconut sugar, molasses, fresh ginger, and boiling water. Once it’s lukewarm (the molasses and coconut sugar should take the temperature down enough), whisk in the eggs.",
     "Pour the wet ingredients into the dry ingredients and whisk until there are no lumps.",
     "Pour into the prepared pan and bake for 28-35 minutes*"
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "ratings_count": 4,
-  "site_name": "zenbelly",
-  "title": "Paleo Gingerbread",
-  "total_time": 40,
-  "yields": "20 servings",
-  "cook_time": 30,
-  "prep_time": 10
+  ]
 }

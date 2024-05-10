@@ -1,10 +1,21 @@
 {
-  "author": "Alison Andrews",
-  "canonical_url": "https://lovingitvegan.com/kale-smoothie/",
-  "category": "Breakfast,Drinks",
-  "description": "Creamy and smooth kale smoothie with a gorgeous pale green color that tastes like a delicious ice-cold milkshake! Even if you hate greens you will love this smoothie!",
   "host": "lovingitvegan.com",
-  "image": "https://lovingitvegan.com/wp-content/uploads/2018/08/Kale-Smoothie-8.jpg",
+  "canonical_url": "https://lovingitvegan.com/kale-smoothie/",
+  "site_name": "Loving It Vegan",
+  "author": "Alison Andrews",
+  "language": "en-US",
+  "title": "Kale Smoothie",
+  "ingredients": [
+    "1 1/4 cups Soy Milk ((300ml) or Almond Milk)",
+    "2 Frozen Bananas ((200g) previously peeled, broken into quarters and frozen for at least 12 hours)",
+    "1/2 cup Raw Cashews ((75g))",
+    "2 cups Kale ((56g) Torn up, packed)",
+    "4 Medjool Dates (Pitted)",
+    "1 tsp Minced Ginger",
+    "1/8 tsp Cinnamon",
+    "1 Tbsp Lime Juice (freshly squeezed)",
+    "1 cup Ice Cubes"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,24 +32,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 1/4 cups Soy Milk ((300ml) or Almond Milk)",
-    "2 Frozen Bananas ((200g) previously peeled, broken into quarters and frozen for at least 12 hours)",
-    "1/2 cup Raw Cashews ((75g))",
-    "2 cups Kale ((56g) Torn up, packed)",
-    "4 Medjool Dates (Pitted)",
-    "1 tsp Minced Ginger",
-    "1/8 tsp Cinnamon",
-    "1 Tbsp Lime Juice (freshly squeezed)",
-    "1 cup Ice Cubes"
-  ],
   "instructions": "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.\nBlend until very smooth.\nPour out into glasses and serve immediately.",
-  "instructions_list": [
-    "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.",
-    "Blend until very smooth.",
-    "Pour out into glasses and serve immediately."
-  ],
-  "language": "en-US",
+  "total_time": 10,
+  "prep_time": 10,
+  "yields": "2 servings",
+  "image": "https://lovingitvegan.com/wp-content/uploads/2018/08/Kale-Smoothie-8.jpg",
+  "description": "Creamy and smooth kale smoothie with a gorgeous pale green color that tastes like a delicious ice-cold milkshake! Even if you hate greens you will love this smoothie!",
   "nutrients": {
     "servingSize": "1 Smoothie",
     "calories": "373 kcal",
@@ -50,14 +49,8 @@
     "fiberContent": "4.9 g",
     "proteinContent": "13.8 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 17,
-  "site_name": "Loving It Vegan",
-  "title": "Kale Smoothie",
-  "total_time": 10,
-  "yields": "2 servings",
   "cuisine": "American,Vegan",
-  "prep_time": 10,
+  "category": "Breakfast,Drinks",
   "dietary_restrictions": [
     "Vegan Diet"
   ],
@@ -65,5 +58,12 @@
     "kale smoothie",
     "smoothies",
     "vegan kale smoothie"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 17,
+  "instructions_list": [
+    "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.",
+    "Blend until very smooth.",
+    "Pour out into glasses and serve immediately."
   ]
 }

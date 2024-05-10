@@ -1,10 +1,28 @@
 {
-  "author": "Abuelas Cuban Counter",
-  "canonical_url": "https://abuelascounter.com/pecan-pie-bars/",
-  "category": "Desserts,Thanksgiving",
-  "cuisine": "American",
   "host": "abuelascounter.com",
-  "image": "https://abuelascounter.com/wp-content/uploads/2023/11/Pecan-Bars-Recipe-2.jpeg",
+  "canonical_url": "https://abuelascounter.com/pecan-pie-bars/",
+  "site_name": "Abuela's Cuban Counter",
+  "author": "Abuelas Cuban Counter",
+  "language": "en-US",
+  "title": "Pecan Pie Bars",
+  "ingredients": [
+    "1 cup unsalted butter, softened at room temperature",
+    "2 cups of all-purpose flour",
+    "½ cup of granulated sugar",
+    "¼ teaspoon of fine sea salt",
+    "½ teaspoon of vanilla bean powder",
+    "2 cups of chopped pecans",
+    "2 cups of whole pecans",
+    "6 tablespoons of unsalted butter, melted",
+    "1 cup of maple syrup",
+    "1 tablespoon of vanilla extract",
+    "1 tablespoon of bourbon",
+    "½ teaspoon of vanilla bean powder",
+    "3 eggs",
+    "3/4 cup of light brown sugar",
+    "2 teaspoons of cornstarch",
+    "Maldon salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -33,46 +51,17 @@
       "purpose": "For the Filling"
     }
   ],
-  "ingredients": [
-    "1 cup unsalted butter, softened at room temperature",
-    "2 cups of all-purpose flour",
-    "½ cup of granulated sugar",
-    "¼ teaspoon of fine sea salt",
-    "½ teaspoon of vanilla bean powder",
-    "2 cups of chopped pecans",
-    "2 cups of whole pecans",
-    "6 tablespoons of unsalted butter, melted",
-    "1 cup of maple syrup",
-    "1 tablespoon of vanilla extract",
-    "1 tablespoon of bourbon",
-    "½ teaspoon of vanilla bean powder",
-    "3 eggs",
-    "3/4 cup of light brown sugar",
-    "2 teaspoons of cornstarch",
-    "Maldon salt"
-  ],
   "instructions": "Preheat the oven to 350 degrees. Line a 9*13 baking pan with parchment paper. You want some of the paper to hang off the sides. Then spray with oil.\nIn a bowl, whisk together the flour, sugar, salt and vanilla bean powder. When it’s all combined, add the softened butter. Press the butter into the flour mixture. The mixture should be crumbly.\nDump the mixture into the baking pan and gently press it down. You can use the bottom of a glass or measuring cup to even everything out.\nBake for 12-15 minutes until it is golden brown. Then set on a rack to cool.\nWhile the crust is cooling make the filling.\nIn a bowl, mix together the eggs, brown sugar, maple syrup, corn starch, butter, vanilla powder, vanilla extract, salt. Beat with an electric mixer until the sugar is completely dissolved into the eggs. It will take a couple minutes.\nAdd the pecans to the mixture. The pecans should be coated completely.\nPour the mixture over the crust. Bake for 25 minutes or until it is completely set. You can stick a toothpick inside to be sure it’s ready.\nRemove from the oven and cool over a wire rack for at least one hour. Once it is cool cut into square or rectangular bars.",
-  "instructions_list": [
-    "Preheat the oven to 350 degrees. Line a 9*13 baking pan with parchment paper. You want some of the paper to hang off the sides. Then spray with oil.",
-    "In a bowl, whisk together the flour, sugar, salt and vanilla bean powder. When it’s all combined, add the softened butter. Press the butter into the flour mixture. The mixture should be crumbly.",
-    "Dump the mixture into the baking pan and gently press it down. You can use the bottom of a glass or measuring cup to even everything out.",
-    "Bake for 12-15 minutes until it is golden brown. Then set on a rack to cool.",
-    "While the crust is cooling make the filling.",
-    "In a bowl, mix together the eggs, brown sugar, maple syrup, corn starch, butter, vanilla powder, vanilla extract, salt. Beat with an electric mixer until the sugar is completely dissolved into the eggs. It will take a couple minutes.",
-    "Add the pecans to the mixture. The pecans should be coated completely.",
-    "Pour the mixture over the crust. Bake for 25 minutes or until it is completely set. You can stick a toothpick inside to be sure it’s ready.",
-    "Remove from the oven and cool over a wire rack for at least one hour. Once it is cool cut into square or rectangular bars."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 15,
+  "cook_time": 30,
+  "yields": "10 servings",
+  "image": "https://abuelascounter.com/wp-content/uploads/2023/11/Pecan-Bars-Recipe-2.jpeg",
   "nutrients": {
     "calories": "300 cal"
   },
-  "site_name": "Abuela's Cuban Counter",
-  "title": "Pecan Pie Bars",
-  "total_time": 45,
-  "yields": "10 servings",
-  "cook_time": 30,
-  "prep_time": 15,
+  "cuisine": "American",
+  "category": "Desserts,Thanksgiving",
   "keywords": [
     "abuelau0026#039;s",
     "dessert",
@@ -83,5 +72,16 @@
     "thanksgiving",
     "tradition",
     "traditional"
+  ],
+  "instructions_list": [
+    "Preheat the oven to 350 degrees. Line a 9*13 baking pan with parchment paper. You want some of the paper to hang off the sides. Then spray with oil.",
+    "In a bowl, whisk together the flour, sugar, salt and vanilla bean powder. When it’s all combined, add the softened butter. Press the butter into the flour mixture. The mixture should be crumbly.",
+    "Dump the mixture into the baking pan and gently press it down. You can use the bottom of a glass or measuring cup to even everything out.",
+    "Bake for 12-15 minutes until it is golden brown. Then set on a rack to cool.",
+    "While the crust is cooling make the filling.",
+    "In a bowl, mix together the eggs, brown sugar, maple syrup, corn starch, butter, vanilla powder, vanilla extract, salt. Beat with an electric mixer until the sugar is completely dissolved into the eggs. It will take a couple minutes.",
+    "Add the pecans to the mixture. The pecans should be coated completely.",
+    "Pour the mixture over the crust. Bake for 25 minutes or until it is completely set. You can stick a toothpick inside to be sure it’s ready.",
+    "Remove from the oven and cool over a wire rack for at least one hour. Once it is cool cut into square or rectangular bars."
   ]
 }

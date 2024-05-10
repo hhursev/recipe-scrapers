@@ -1,10 +1,29 @@
 {
-  "author": "Annemiek",
-  "canonical_url": "https://www.keukenliefde.nl/stroganoff-gehaktschotel/",
-  "category": "Hoofdgerecht",
-  "description": "Een heerlijk gerecht geïnspireerd op de Hongaarse keuken: stroganoff-gehaktschotel!",
   "host": "keukenliefde.nl",
-  "image": "https://www.keukenliefde.nl/wp-content/uploads/2014/11/Stroganoff-gehaktschotel-27.jpg",
+  "canonical_url": "https://www.keukenliefde.nl/stroganoff-gehaktschotel/",
+  "site_name": "Keuken♥Liefde",
+  "author": "Annemiek",
+  "language": "nl-NL",
+  "title": "Stroganoff-gehaktschotel",
+  "ingredients": [
+    "1,5 kilo aardappels, geschild",
+    "Melk",
+    "Roomboter",
+    "2 uien, gepeld en in ringen",
+    "2 tenen knoflook, gepeld en fijngehakt",
+    "3 paprika’s, in repen gesneden",
+    "250 g champignons, in plakjes gesneden",
+    "1 el paprikapoeder",
+    "1 blikje tomatenpuree",
+    "1 runderbouillonblokje",
+    "500 g rundergehakt",
+    "2 el crème fraîche",
+    "Worchestersaus",
+    "Tabasco",
+    "75 g geraspte kaas",
+    "Olie om in te bakken",
+    "Eventueel scheutje Vodka"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,26 +48,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1,5 kilo aardappels, geschild",
-    "Melk",
-    "Roomboter",
-    "2 uien, gepeld en in ringen",
-    "2 tenen knoflook, gepeld en fijngehakt",
-    "3 paprika’s, in repen gesneden",
-    "250 g champignons, in plakjes gesneden",
-    "1 el paprikapoeder",
-    "1 blikje tomatenpuree",
-    "1 runderbouillonblokje",
-    "500 g rundergehakt",
-    "2 el crème fraîche",
-    "Worchestersaus",
-    "Tabasco",
-    "75 g geraspte kaas",
-    "Olie om in te bakken",
-    "Eventueel scheutje Vodka"
-  ],
   "instructions": "Bereiding Verhit een grote koekenpan of braadpan met wat olie en bak de ui, knoflook, paprika’s en champignons op middelhoog vuur, totdat ze zacht zijn. Voeg de paprikapoeder en tomatenpuree toe en bak even mee.\nVerkruimel het bouillonblokje boven de pan en voeg het gehakt toe. Roer het gehakt met een vork goed rul. Blus het gehaktmengsel eventueel af met een scheut Vodka, laat inkoken en voeg dan 100 ml water toe.\nZet het vuur weer laag en laat 15 minuten zachtjes pruttelen, of totdat de saus is ingedikt. Roer de laatste 5 minuten van de kooktijd de crème fraîche door het gehakt. Proef de saus en breng indien nodig verder op smaak met wat Worchestersaus en tabasco.\nKook ondertussen de aardappels gaar en giet ze af. Stamp ze fijn en roer de puree glad met wat melk en een klont roomboter.\nDe puree moet niet te dik zijn, anders kun je hem zometeen moeilijk uitstrijken. Breng goed op smaak met zout en peper.\nVerwarm de oven voor op 200 graden. Vet de ovenschaal in. Verdeel het gehaktmengsel over de ovenschaal en dek af met de aardappelpuree. Bestrooi met de geraspte kaas.\nBak de ovenschotel circa 30 tot 40 minuten in de oven, of totdat de bovenkant goudbruin is.\nLaat de schotel voor serveren iets afkoelen.\nEnjoy!\nThema recepten, Wereldgerecht, Hongaarse recepten, Mannenvoer, Hoofdgerecht, Ovenrecepten, Vleesrecepten",
+  "total_time": 60,
+  "yields": "4 servings",
+  "image": "https://www.keukenliefde.nl/wp-content/uploads/2014/11/Stroganoff-gehaktschotel-27.jpg",
+  "description": "Een heerlijk gerecht geïnspireerd op de Hongaarse keuken: stroganoff-gehaktschotel!",
+  "category": "Hoofdgerecht",
   "instructions_list": [
     "Bereiding Verhit een grote koekenpan of braadpan met wat olie en bak de ui, knoflook, paprika’s en champignons op middelhoog vuur, totdat ze zacht zijn. Voeg de paprikapoeder en tomatenpuree toe en bak even mee.",
     "Verkruimel het bouillonblokje boven de pan en voeg het gehakt toe. Roer het gehakt met een vork goed rul. Blus het gehaktmengsel eventueel af met een scheut Vodka, laat inkoken en voeg dan 100 ml water toe.",
@@ -60,10 +65,5 @@
     "Laat de schotel voor serveren iets afkoelen.",
     "Enjoy!",
     "Thema recepten, Wereldgerecht, Hongaarse recepten, Mannenvoer, Hoofdgerecht, Ovenrecepten, Vleesrecepten"
-  ],
-  "language": "nl-NL",
-  "site_name": "Keuken♥Liefde",
-  "title": "Stroganoff-gehaktschotel",
-  "total_time": 60,
-  "yields": "4 servings"
+  ]
 }

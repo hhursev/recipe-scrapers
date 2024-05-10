@@ -1,8 +1,27 @@
 {
-  "author": "Brdr. Price",
-  "canonical_url": "https://www.dr.dk/mad/opskrift/millionaires-shortbread",
   "host": "dr.dk",
-  "image": "https://asset.dr.dk/imagescaler01/https%3A%2F%2Fwww.dr.dk%2Fimages%2Fother%2F2023%2F07%2F06%2Fmillionaires-shortbread-jpg-1597218581.png&w=700",
+  "canonical_url": "https://www.dr.dk/mad/opskrift/millionaires-shortbread",
+  "site_name": "DR",
+  "author": "Brdr. Price",
+  "language": "da-DK",
+  "title": "Millionaires’ Shortbread",
+  "ingredients": [
+    "130 g mel",
+    "50 g farin",
+    "2 tsk. maizena",
+    "Et nip salt",
+    "120 g smør",
+    "1 spsk. koldt vand",
+    "1 æggeblomme",
+    "1 dåse sød kondenseret mælk",
+    "100 g farin",
+    "100 g smør",
+    "2 spsk. lys sirup",
+    "1 tsk. vanilje ekstrakt",
+    "Et nip salt",
+    "170 g mørk chokolade",
+    "1 stor spsk. smør"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,24 +44,8 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "130 g mel",
-    "50 g farin",
-    "2 tsk. maizena",
-    "Et nip salt",
-    "120 g smør",
-    "1 spsk. koldt vand",
-    "1 æggeblomme",
-    "1 dåse sød kondenseret mælk",
-    "100 g farin",
-    "100 g smør",
-    "2 spsk. lys sirup",
-    "1 tsk. vanilje ekstrakt",
-    "Et nip salt",
-    "170 g mørk chokolade",
-    "1 stor spsk. smør"
-  ],
   "instructions": "Opskriften giver cirka 16 styks, afhængig af størrelsen.\nI en foodprocessor kommes mel, farin, maizena og salt. Kør til alt er blandet.\nKom smørret ved og kør til det ligner brødkrummer. Tilsæt koldt vand og æggeblomme og kør til dejen lige samler sig.\nKom dejen ud på et melet bord og saml den hurtigt. Kom køkkenfilm omkring den og lad den hvile i køleskabet i en times tid.\nRul den derpå ud på et melet bord og placer den i bunden af en firkantet bageform (24 x 24 cm.) der er foret med bagepapir. Prik dejen med en gaffel og bag den i en 180 grader varm ovn i ca. 20 minutter.\nTil karamellen kommes den kondenserede mælk i en gryde sammen med farin, smør, sirup, vanille og salt. Bring massen i kog og lad den koge roligt til den når 110 grader på et sukkertermometer - eller til massen er tyk og gyldenbrun. Hæld karamellem over den stadig lune kagebund.\nLad derpå kagen køle helt af.\nSmelt chokoladen i et vandbad sammen med smørret, bland godt og hæld så chokoladen ovenpå karamellen. Jævn ud med en spatel. Sæt kagen på køl.\nTag kagen ud af formen og fjern bagepapiret. Skær kagen i små firkanter som opbevares på køl til de skal serveres.",
+  "image": "https://asset.dr.dk/imagescaler01/https%3A%2F%2Fwww.dr.dk%2Fimages%2Fother%2F2023%2F07%2F06%2Fmillionaires-shortbread-jpg-1597218581.png&w=700",
   "instructions_list": [
     "Opskriften giver cirka 16 styks, afhængig af størrelsen.",
     "I en foodprocessor kommes mel, farin, maizena og salt. Kør til alt er blandet.",
@@ -53,8 +56,5 @@
     "Lad derpå kagen køle helt af.",
     "Smelt chokoladen i et vandbad sammen med smørret, bland godt og hæld så chokoladen ovenpå karamellen. Jævn ud med en spatel. Sæt kagen på køl.",
     "Tag kagen ud af formen og fjern bagepapiret. Skær kagen i små firkanter som opbevares på køl til de skal serveres."
-  ],
-  "language": "da-DK",
-  "site_name": "DR",
-  "title": "Millionaires’ Shortbread"
+  ]
 }

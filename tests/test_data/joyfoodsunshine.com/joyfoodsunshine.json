@@ -1,9 +1,18 @@
 {
-  "author": "Laura",
-  "canonical_url": "https://joyfoodsunshine.com/easy-homemade-pizza-dough/",
-  "category": "bread,Main Course",
   "host": "joyfoodsunshine.com",
-  "image": "https://joyfoodsunshine.com/wp-content/uploads/2018/09/easy-homemade-pizza-dough-recipe-2-1.jpg",
+  "canonical_url": "https://joyfoodsunshine.com/easy-homemade-pizza-dough/",
+  "site_name": "JoyFoodSunshine",
+  "author": "Laura",
+  "language": "en-US",
+  "title": "Easy Homemade Pizza Dough",
+  "ingredients": [
+    "▢ 1 cup warm water (105 degrees F)",
+    "▢ 1 Tablespoon granulated sugar",
+    "▢ 1 Tablespoon active dry yeast",
+    "▢ 1 TBSaTablespoon olive oil",
+    "▢ 2 to 2 ½ cups all-purpose flour*",
+    "▢ 1 tsp fine sea salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -17,15 +26,51 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "▢ 1 cup warm water (105 degrees F)",
-    "▢ 1 Tablespoon granulated sugar",
-    "▢ 1 Tablespoon active dry yeast",
-    "▢ 1 TBSaTablespoon olive oil",
-    "▢ 2 to 2 ½ cups all-purpose flour*",
-    "▢ 1 tsp fine sea salt"
-  ],
   "instructions": "Preheat oven to 500 degrees F. Put a pizza stone in the oven while it preheats, and let it warm at 500 degrees F for at least 10 minutes.*\nMake the Pizza Dough\nCombine warm water, yeast and sugar in a large mixing bowl and stir to combine.\nLet mixture sit for 5 minutes, or until it becomes frothy and bubbles form.\nGently stir in olive oil.\nAdd 2 cups of flour and salt and mix with a spatula until a ball begins to form (dough will still be slightly sticky). Add more flour as needed to form a dough ball.\nTransfer to a floured surface and knead into a smooth dough, adding up to ½ cup extra flour if needed.\nOptional. if desired, cover the bowl with a damp tea towel and let it rise for 10 minutes or up to 1 hour.\nAssemble the pizza\nRoll the dough into your desired shape and put it on a piece of parchment paper.\nAdd pizza sauce, cheese and toppings of choice.\nUse a pizza peel to transfer the pizza to the preheated pizza stone in the oven.\nBake on the preheated pizza stone for 12-15 minutes, or until the bottom of the crust is golden brown.\nRemove the pizza from the oven with the pizza peel and put it on a wire rack to cool for at 5-10 minutes before cutting and serving.",
+  "total_time": 30,
+  "prep_time": 5,
+  "cook_time": 25,
+  "yields": "14 servings",
+  "image": "https://joyfoodsunshine.com/wp-content/uploads/2018/09/easy-homemade-pizza-dough-recipe-2-1.jpg",
+  "description": "This is the best pizza dough recipe ever. It's easy to makewith 5 ingredients and doesn't need to rise - which means you can have a freshhot homemade pizza on the table in 30 minutes.",
+  "nutrients": {
+    "servingSize": "1 Serving (Crust only)",
+    "calories": "67 kcal",
+    "carbohydrateContent": "12 g",
+    "proteinContent": "2 g",
+    "fatContent": "1.2 g",
+    "saturatedFatContent": "0.2 g",
+    "sodiumContent": "177 mg",
+    "fiberContent": "0.5 g",
+    "sugarContent": "1 g",
+    "unsaturatedFatContent": "1 g"
+  },
+  "cuisine": "American,Italian",
+  "category": "bread,Main Course",
+  "keywords": [
+    "best pizza dough",
+    "best pizza dough recipe",
+    "easy homemade pizza dough",
+    "easy pizza dough",
+    "homemade pizza dough",
+    "homemade pizza dough recipe",
+    "how to make pizza dough",
+    "pizza crust",
+    "pizza crust recipe",
+    "pizza dough",
+    "pizza dough recipe"
+  ],
+  "equipment": [
+    "glass batter bowl",
+    "measuring spoons",
+    "measuring cups",
+    "rolling pin",
+    "pizza stone",
+    "Pizza Peel",
+    "Pizza scissors"
+  ],
+  "ratings": 4.98,
+  "ratings_count": 730,
   "instructions_list": [
     "Preheat oven to 500 degrees F. Put a pizza stone in the oven while it preheats, and let it warm at 500 degrees F for at least 10 minutes.*",
     "Make the Pizza Dough",
@@ -41,50 +86,5 @@
     "Use a pizza peel to transfer the pizza to the preheated pizza stone in the oven.",
     "Bake on the preheated pizza stone for 12-15 minutes, or until the bottom of the crust is golden brown.",
     "Remove the pizza from the oven with the pizza peel and put it on a wire rack to cool for at 5-10 minutes before cutting and serving."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "servingSize": "1 Serving (Crust only)",
-    "calories": "67 kcal",
-    "carbohydrateContent": "12 g",
-    "proteinContent": "2 g",
-    "fatContent": "1.2 g",
-    "saturatedFatContent": "0.2 g",
-    "sodiumContent": "177 mg",
-    "fiberContent": "0.5 g",
-    "sugarContent": "1 g",
-    "unsaturatedFatContent": "1 g"
-  },
-  "ratings": 4.98,
-  "ratings_count": 730,
-  "site_name": "JoyFoodSunshine",
-  "title": "Easy Homemade Pizza Dough",
-  "total_time": 30,
-  "yields": "14 servings",
-  "equipment": [
-    "glass batter bowl",
-    "measuring spoons",
-    "measuring cups",
-    "rolling pin",
-    "pizza stone",
-    "Pizza Peel",
-    "Pizza scissors"
-  ],
-  "keywords": [
-    "best pizza dough",
-    "best pizza dough recipe",
-    "easy homemade pizza dough",
-    "easy pizza dough",
-    "homemade pizza dough",
-    "homemade pizza dough recipe",
-    "how to make pizza dough",
-    "pizza crust",
-    "pizza crust recipe",
-    "pizza dough",
-    "pizza dough recipe"
-  ],
-  "description": "This is the best pizza dough recipe ever. It's easy to makewith 5 ingredients and doesn't need to rise - which means you can have a freshhot homemade pizza on the table in 30 minutes.",
-  "cook_time": 25,
-  "cuisine": "American,Italian",
-  "prep_time": 5
+  ]
 }

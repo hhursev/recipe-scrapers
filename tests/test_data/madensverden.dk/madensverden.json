@@ -1,12 +1,22 @@
 {
-  "author": "Holger Rørby Madsen",
-  "canonical_url": "https://madensverden.dk/trifli-med-rabarber/",
-  "category": "Dessert",
-  "cook_time": 15,
-  "cuisine": "Dansk",
-  "description": "Rabarbertrifli er en populær dessert, der laves med knuste makroner og flødeskum. Den lækre trifli med rabarber kan laves god tid i forvejen.",
   "host": "madensverden.dk",
-  "image": "https://madensverden.dk/wp-content/uploads/2017/08/billederesultat-for-rabarbertrifli.jpg",
+  "canonical_url": "https://madensverden.dk/trifli-med-rabarber/",
+  "site_name": "Madens Verden",
+  "author": "Holger Rørby Madsen",
+  "language": "da-DK",
+  "title": "Rabarbertrifli",
+  "ingredients": [
+    "400 gram rabarber",
+    "75 gram sukker",
+    "10 gram vaniljesukker",
+    "2 pasteuriserede æggeblommer",
+    "40 gram sukker",
+    "10 gram majsstivelse",
+    "2,5 deciliter sødmælk",
+    "2,5 deciliter piskefløde",
+    "100 gram makroner",
+    "40 gram mandelflager"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,19 +34,24 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "400 gram rabarber",
-    "75 gram sukker",
-    "10 gram vaniljesukker",
-    "2 pasteuriserede æggeblommer",
-    "40 gram sukker",
-    "10 gram majsstivelse",
-    "2,5 deciliter sødmælk",
-    "2,5 deciliter piskefløde",
-    "100 gram makroner",
-    "40 gram mandelflager"
-  ],
   "instructions": "Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.\nCremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.\nFløden piskes til en let flødeskum.\nAnret nu trifli med rabarber i portionsglas.\nFørst med et lag creme nederst, så knuste makroner og ovenpå det den lækre rabarberkompot.\nSlut af med flødeskum og pynt med mandelflager.\nStil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før servering.",
+  "total_time": 30,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "6 servings",
+  "image": "https://madensverden.dk/wp-content/uploads/2017/08/billederesultat-for-rabarbertrifli.jpg",
+  "description": "Rabarbertrifli er en populær dessert, der laves med knuste makroner og flødeskum. Den lækre trifli med rabarber kan laves god tid i forvejen.",
+  "nutrients": {
+    "calories": "270 kcal",
+    "servingSize": "1 person"
+  },
+  "cuisine": "Dansk",
+  "category": "Dessert",
+  "keywords": [
+    "rabarber"
+  ],
+  "ratings": 4.72,
+  "ratings_count": 38,
   "instructions_list": [
     "Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.",
     "Cremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.",
@@ -45,20 +60,5 @@
     "Først med et lag creme nederst, så knuste makroner og ovenpå det den lækre rabarberkompot.",
     "Slut af med flødeskum og pynt med mandelflager.",
     "Stil rabarbertriflierne i køleskabet, og lad dem trække i mindst en time før servering."
-  ],
-  "language": "da-DK",
-  "nutrients": {
-    "calories": "270 kcal",
-    "servingSize": "1 person"
-  },
-  "prep_time": 15,
-  "ratings": 4.72,
-  "ratings_count": 38,
-  "site_name": "Madens Verden",
-  "title": "Rabarbertrifli",
-  "total_time": 30,
-  "yields": "6 servings",
-  "keywords": [
-    "rabarber"
   ]
 }

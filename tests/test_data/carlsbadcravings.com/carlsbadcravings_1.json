@@ -1,9 +1,24 @@
 {
-  "author": "Jen",
-  "canonical_url": "https://carlsbadcravings.com/brown-sugar-glazed-ham/",
-  "title": "Brown Sugar Glazed Ham",
   "host": "carlsbadcravings.com",
-  "image": "https://carlsbadcravings.com/wp-content/uploads/2018/03/Brown-Sugar-Glazed-Ham-10.jpg",
+  "canonical_url": "https://carlsbadcravings.com/brown-sugar-glazed-ham/",
+  "site_name": "Carlsbad Cravings",
+  "author": "Jen",
+  "language": "en-US",
+  "title": "Brown Sugar Glazed Ham",
+  "ingredients": [
+    "1 (8-11 pounds) bone-in, fully cooked spiral-sliced ham",
+    "Aluminum foil",
+    "Roasting pan",
+    "Thermometer",
+    "1 cup packed light brown sugar",
+    "1/2 cup clover honey",
+    "3 tablespoons cider vinegar",
+    "2 tablespoons Dijon mustard",
+    "2 tablespoons yellow mustard",
+    "1 teaspoon ground cinnamon",
+    "1/2 tsp EACH onion powder, garlic powder, ground sage, dried parsley, ground nutmeg ground ginger, ground cloves, paprika",
+    "1/4 tsp EACH pepper, ancho chili powder"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,21 +43,13 @@
       "purpose": "Brown Sugar Glaze"
     }
   ],
-  "ingredients": [
-    "1 (8-11 pounds) bone-in, fully cooked spiral-sliced ham",
-    "Aluminum foil",
-    "Roasting pan",
-    "Thermometer",
-    "1 cup packed light brown sugar",
-    "1/2 cup clover honey",
-    "3 tablespoons cider vinegar",
-    "2 tablespoons Dijon mustard",
-    "2 tablespoons yellow mustard",
-    "1 teaspoon ground cinnamon",
-    "1/2 tsp EACH onion powder, garlic powder, ground sage, dried parsley, ground nutmeg ground ginger, ground cloves, paprika",
-    "1/4 tsp EACH pepper, ancho chili powder"
-  ],
   "instructions": "Remove ham from refrigerator and let sit at room temperature for 2 hours.\nPreheat oven to 325 degrees F. Adjust oven rack to lowest position. Pour 2 of cups water into bottom of roasting pan with a roasting rack. (Skip step if you don’t have a roasting rack.)\nWhisk together all of the Brown Sugar Glaze ingredients in a medium saucepan. Bring to a simmer, stirring often, until brown sugar dissolves, about 1-2 minutes. Set aside.\nRoll out 2 large pieces of foil to wrap your ham in, making sure they overlap in the center. Place ham on foil, flat side up, and brush ham all over with approximately 1/3 of the Glaze, including in between slices. Tightly wrap ham with foil and place ham FLAT/FACE SIDE DOWN on the roasting rack (or bottom of pan).\nBake ham at 325 degrees F until the center registers 100-110 degrees F, (approx. 10-14 minutes per pound). Remove ham from oven and increase oven temperature to 400 degrees F.\nCarefully unwrap ham from foil and discard foil. Spoon juices from the bottom of the pan all over ham. Brush ham all over with 1/3 Glaze (Glaze will have thickened so return to heat to loosen, about 30 seconds).\nLeave ham uncovered to caramelize surface and bake until the ham reaches an internal temperature of around 140 degrees F, approximately 20-30 minutes, spooning juices over ham every 10 minutes.*** Turn oven to broil for more caramelized edges if desired watching closely so they don’t burn.\nRemove ham from oven and spoon juices from bottom of pan/foil again all over ham and brush again with Glaze. Loosely cover with foil. Let rest for 15 minutes then spoon more juices over ham and serve with any remaining Glaze (and my husband loves it with a side of Dijon as well).\nOptional: Serve with Easter or Christmas sides linked below recipe.",
+  "total_time": 130,
+  "prep_time": 10,
+  "cook_time": 120,
+  "yields": "10 servings",
+  "image": "https://carlsbadcravings.com/wp-content/uploads/2018/03/Brown-Sugar-Glazed-Ham-10.jpg",
+  "description": "Brown Sugar Glazed Ham is beautifully juicy, seeping with flavor, with crispy caramelized edges and the BEST Brown Sugar Glaze you will ever sink your teeth into - the perfect centerpiece for Easter and Christmas! This Baked Ham Recipe made with brown, sugar, honey, mustard and spices is sweet, smoky and dripping with flavor AND it only takes minutes of hands on prep time!",
   "instructions_list": [
     "Remove ham from refrigerator and let sit at room temperature for 2 hours.",
     "Preheat oven to 325 degrees F. Adjust oven rack to lowest position. Pour 2 of cups water into bottom of roasting pan with a roasting rack. (Skip step if you don’t have a roasting rack.)",
@@ -53,12 +60,5 @@
     "Leave ham uncovered to caramelize surface and bake until the ham reaches an internal temperature of around 140 degrees F, approximately 20-30 minutes, spooning juices over ham every 10 minutes.*** Turn oven to broil for more caramelized edges if desired watching closely so they don’t burn.",
     "Remove ham from oven and spoon juices from bottom of pan/foil again all over ham and brush again with Glaze. Loosely cover with foil. Let rest for 15 minutes then spoon more juices over ham and serve with any remaining Glaze (and my husband loves it with a side of Dijon as well).",
     "Optional: Serve with Easter or Christmas sides linked below recipe."
-  ],
-  "language": "en-US",
-  "description": "Brown Sugar Glazed Ham is beautifully juicy, seeping with flavor, with crispy caramelized edges and the BEST Brown Sugar Glaze you will ever sink your teeth into - the perfect centerpiece for Easter and Christmas! This Baked Ham Recipe made with brown, sugar, honey, mustard and spices is sweet, smoky and dripping with flavor AND it only takes minutes of hands on prep time!",
-  "site_name": "Carlsbad Cravings",
-  "total_time": 130,
-  "yields": "10 servings",
-  "cook_time": 120,
-  "prep_time": 10
+  ]
 }

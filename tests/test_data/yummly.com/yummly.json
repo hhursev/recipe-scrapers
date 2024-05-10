@@ -1,9 +1,20 @@
 {
-  "author": "Sara Mellas",
-  "canonical_url": "https://www.yummly.com/recipe/Easy-White-Cheese-_-Garlic-Pizzas-9351327",
-  "category": null,
   "host": "yummly.com",
-  "image": "https://lh3.googleusercontent.com/UyOcAUtHtGMhwFNayuGToyY9V-S1vl9OOs8ycgXxJXevQDyHTkX5_luRkhU-hTHi4AlSkGA_lDUMxV-uQKfDFPY=w1920-h1920-c-rj-v1-e365",
+  "canonical_url": "https://www.yummly.com/recipe/Easy-White-Cheese-_-Garlic-Pizzas-9351327",
+  "site_name": null,
+  "author": "Sara Mellas",
+  "language": "en",
+  "title": "Easy White Cheese & Garlic Pizzas",
+  "ingredients": [
+    "4 pieces naan",
+    "2 tablespoons extra-virgin olive oil",
+    "3 cloves garlic",
+    "1 cup shredded mozzarella cheese (or shredded pizza blend cheese, 1 cup is 4 oz.)",
+    "4 ounces ricotta cheese (4 oz. is 1 scant cup)",
+    "1 1/2 teaspoons Italian seasoning",
+    "2 tablespoons shaved Parmesan cheese (for serving)",
+    "basil leaves (for garnish, optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,23 +30,11 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 pieces naan",
-    "2 tablespoons extra-virgin olive oil",
-    "3 cloves garlic",
-    "1 cup shredded mozzarella cheese (or shredded pizza blend cheese, 1 cup is 4 oz.)",
-    "4 ounces ricotta cheese (4 oz. is 1 scant cup)",
-    "1 1/2 teaspoons Italian seasoning",
-    "2 tablespoons shaved Parmesan cheese (for serving)",
-    "basil leaves (for garnish, optional)"
-  ],
   "instructions": "Preheat oven to 425°F.\nLine a baking sheet with parchment paper.\nArrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece.",
-  "instructions_list": [
-    "Preheat oven to 425°F.",
-    "Line a baking sheet with parchment paper.",
-    "Arrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece."
-  ],
-  "language": "en",
+  "total_time": 25,
+  "yields": "4 servings",
+  "image": "https://lh3.googleusercontent.com/UyOcAUtHtGMhwFNayuGToyY9V-S1vl9OOs8ycgXxJXevQDyHTkX5_luRkhU-hTHi4AlSkGA_lDUMxV-uQKfDFPY=w1920-h1920-c-rj-v1-e365",
+  "description": "Extra cheese and extra garlic? Yes, please! No red sauce is needed for these mouthwatering naan pizzas. The recipe is a Yummly original created by [Sara Mellas](https://www.yummly.com/dish/author/Sara%20Mellas).",
   "nutrients": {
     "calories": "380 calories",
     "carbohydrateContent": "38 grams",
@@ -47,16 +46,17 @@
     "sodiumContent": "590 milligrams",
     "sugarContent": "1 grams"
   },
-  "ratings": 4.7,
-  "ratings_count": 20,
-  "site_name": null,
-  "title": "Easy White Cheese & Garlic Pizzas",
-  "total_time": 25,
-  "yields": "4 servings",
-  "cooking_method": "Baking",
+  "category": null,
   "keywords": [
     "Quick",
     "Baking"
   ],
-  "description": "Extra cheese and extra garlic? Yes, please! No red sauce is needed for these mouthwatering naan pizzas. The recipe is a Yummly original created by [Sara Mellas](https://www.yummly.com/dish/author/Sara%20Mellas)."
+  "cooking_method": "Baking",
+  "ratings": 4.7,
+  "ratings_count": 20,
+  "instructions_list": [
+    "Preheat oven to 425°F.",
+    "Line a baking sheet with parchment paper.",
+    "Arrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece."
+  ]
 }

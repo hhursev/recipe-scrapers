@@ -1,9 +1,19 @@
 {
-  "author": "Sandra Palmqvist",
-  "canonical_url": "https://recept.se/recept/chokladbollar-grundrecept",
   "host": "recept.se",
-  "description": "Klassiska chokladbollar med havregryn, smör, socker, kakao och kaffe. Smaksätt gärna smeten med flingsalt, brynt smör eller likör.",
-  "image": "https://images.recept.se/images/recipes/chokladbollar-grundrecept_13868.jpg?fit=crop&crop=focalpoint&auto=format&fp-x=0.5&fp-y=0.56932862497615&fp-z=1&w=1200&h=1200",
+  "canonical_url": "https://recept.se/recept/chokladbollar-grundrecept",
+  "site_name": "RECEPT",
+  "author": "Sandra Palmqvist",
+  "language": "se",
+  "title": "Chokladbollar – grundrecept",
+  "ingredients": [
+    "3 dl havregryn",
+    "100 g mjukt och rumstempererat smör",
+    "1 dl strösocker",
+    "2,5 msk kakao",
+    "1,5 tsk vaniljsocker",
+    "2 msk starkt kaffe, typ espresso",
+    "2 dl pärlsocker eller kokosflingor"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,29 +28,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 dl havregryn",
-    "100 g mjukt och rumstempererat smör",
-    "1 dl strösocker",
-    "2,5 msk kakao",
-    "1,5 tsk vaniljsocker",
-    "2 msk starkt kaffe, typ espresso",
-    "2 dl pärlsocker eller kokosflingor"
-  ],
   "instructions": "Rör smör, socker, kakao och vaniljsocker poröst. Gärna med en elvisp eller köksassistent.\nTillsätt resterande ingredienser och arbeta ihop till en jämn smet med händerna.\nJag kyler aldrig kaffet. Jag bereder det när jag börjar vispa smör och socker och tillsätter det ljummet.\nLåt smeten stå i 15 minuter så den sväller lite.\nRulla bollar av smeten och rulla sedan dessa i pärlsocker eller kokosflingor.\nStäll i kyl för att stelna, men låt gärna rumstempereras innan servering.",
-  "instructions_list": [
-    "Rör smör, socker, kakao och vaniljsocker poröst. Gärna med en elvisp eller köksassistent.",
-    "Tillsätt resterande ingredienser och arbeta ihop till en jämn smet med händerna.",
-    "Jag kyler aldrig kaffet. Jag bereder det när jag börjar vispa smör och socker och tillsätter det ljummet.",
-    "Låt smeten stå i 15 minuter så den sväller lite.",
-    "Rulla bollar av smeten och rulla sedan dessa i pärlsocker eller kokosflingor.",
-    "Ställ i kyl för att stelna, men låt gärna rumstempereras innan servering."
-  ],
-  "language": "se",
-  "site_name": "RECEPT",
-  "title": "Chokladbollar – grundrecept",
   "total_time": 30,
+  "cook_time": 15,
   "yields": "25 servings",
+  "image": "https://images.recept.se/images/recipes/chokladbollar-grundrecept_13868.jpg?fit=crop&crop=focalpoint&auto=format&fp-x=0.5&fp-y=0.56932862497615&fp-z=1&w=1200&h=1200",
+  "description": "Klassiska chokladbollar med havregryn, smör, socker, kakao och kaffe. Smaksätt gärna smeten med flingsalt, brynt smör eller likör.",
+  "nutrients": {
+    "calories": "87424 calories",
+    "carbohydrateContent": "12.6 g",
+    "fatContent": "3.7 g",
+    "proteinContent": "0.7 g",
+    "servingSize": "1 styck"
+  },
+  "category": "Bak & dessert",
   "dietary_restrictions": [
     "Low Lactose Diet"
   ],
@@ -54,15 +55,14 @@
     "födelsedag",
     "utan fläsk"
   ],
-  "category": "Bak & dessert",
-  "cook_time": 15,
-  "nutrients": {
-    "calories": "87424 calories",
-    "carbohydrateContent": "12.6 g",
-    "fatContent": "3.7 g",
-    "proteinContent": "0.7 g",
-    "servingSize": "1 styck"
-  },
   "ratings": 4.4,
-  "ratings_count": 2
+  "ratings_count": 2,
+  "instructions_list": [
+    "Rör smör, socker, kakao och vaniljsocker poröst. Gärna med en elvisp eller köksassistent.",
+    "Tillsätt resterande ingredienser och arbeta ihop till en jämn smet med händerna.",
+    "Jag kyler aldrig kaffet. Jag bereder det när jag börjar vispa smör och socker och tillsätter det ljummet.",
+    "Låt smeten stå i 15 minuter så den sväller lite.",
+    "Rulla bollar av smeten och rulla sedan dessa i pärlsocker eller kokosflingor.",
+    "Ställ i kyl för att stelna, men låt gärna rumstempereras innan servering."
+  ]
 }

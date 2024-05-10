@@ -1,10 +1,21 @@
 {
-  "author": "Mari Hult",
-  "canonical_url": "https://www.vegetarbloggen.no/2021/11/25/pasta-i-gresskarsaus-2/",
-  "category": "hovedrett",
-  "description": "",
   "host": "vegetarbloggen.no",
-  "image": "https://www.vegetarbloggen.no/content/uploads/sites/7/2021/11/gresskarpasta-oppskriftsbilde.jpg",
+  "canonical_url": "https://www.vegetarbloggen.no/2021/11/25/pasta-i-gresskarsaus-2/",
+  "site_name": null,
+  "author": "Mari Hult",
+  "language": "en-US",
+  "title": "Pasta i gresskarsaus",
+  "ingredients": [
+    "0,5 flaskegresskar (eller annen type gresskar)",
+    "1 sjalottløk",
+    "salt",
+    "200 g tørka pasta (pass på at den er uten egg)",
+    "olivenolje (til steking)",
+    "10 blad salvie (sånn ca. )",
+    "1,5 dl vegansk matfløte",
+    "1 ts eplesidereddik (eventuelt sitronsaft)",
+    "4 ss gresskarkjerner"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,18 +32,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "0,5 flaskegresskar (eller annen type gresskar)",
-    "1 sjalottløk",
-    "salt",
-    "200 g tørka pasta (pass på at den er uten egg)",
-    "olivenolje (til steking)",
-    "10 blad salvie (sånn ca. )",
-    "1,5 dl vegansk matfløte",
-    "1 ts eplesidereddik (eventuelt sitronsaft)",
-    "4 ss gresskarkjerner"
-  ],
   "instructions": "Skjær skallet av gresskaret, del det i to på midten og fjern eventuelle kjerner (disse kan du steke i olje og ha på salt, blir godt!). Skjær fruktkjøttet i terninger med lengder på litt under 1 cm. Finhakk sjalottløk.\nKok opp godt med vann i en gryte, ha i litt salt. Kok pasta etter anvisning på pakken.\nVarm opp litt olje til medium/høy varme i en stor gryte eller panne. Ha i gresskar, krydre med litt salt, og la det steke i noen minutter. Ha så i sjalottløk, og stek i et par minutter til.\nDytt gresskaret til side slik at det tar ca. halvparten av bunnen gryten. Ha i litt mer olje i den tomme delen, og ha i salviebladene. Fres dem i et par minutter. Rør dem deretter sammen med gresskarterningene.\nHell på vegansk fløte og eddik, og la gresskaret putre til pastaen er klar. Sil vannet av pastaen, ha den over i gryten med gresskarblandingen, rør sammen, smak eventuelt til med mer salt.\nServér retten rykende varm, topp med gresskarkjerner.",
+  "total_time": 30,
+  "prep_time": 10,
+  "cook_time": 20,
+  "yields": "2 servings",
+  "image": "https://www.vegetarbloggen.no/content/uploads/sites/7/2021/11/gresskarpasta-oppskriftsbilde.jpg",
+  "description": "",
+  "category": "hovedrett",
+  "keywords": [
+    "gresskar",
+    "pasta"
+  ],
   "instructions_list": [
     "Skjær skallet av gresskaret, del det i to på midten og fjern eventuelle kjerner (disse kan du steke i olje og ha på salt, blir godt!). Skjær fruktkjøttet i terninger med lengder på litt under 1 cm. Finhakk sjalottløk.",
     "Kok opp godt med vann i en gryte, ha i litt salt. Kok pasta etter anvisning på pakken.",
@@ -40,16 +51,5 @@
     "Dytt gresskaret til side slik at det tar ca. halvparten av bunnen gryten. Ha i litt mer olje i den tomme delen, og ha i salviebladene. Fres dem i et par minutter. Rør dem deretter sammen med gresskarterningene.",
     "Hell på vegansk fløte og eddik, og la gresskaret putre til pastaen er klar. Sil vannet av pastaen, ha den over i gryten med gresskarblandingen, rør sammen, smak eventuelt til med mer salt.",
     "Servér retten rykende varm, topp med gresskarkjerner."
-  ],
-  "language": "en-US",
-  "site_name": null,
-  "title": "Pasta i gresskarsaus",
-  "total_time": 30,
-  "yields": "2 servings",
-  "cook_time": 20,
-  "prep_time": 10,
-  "keywords": [
-    "gresskar",
-    "pasta"
   ]
 }

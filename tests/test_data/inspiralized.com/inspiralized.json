@@ -1,9 +1,20 @@
 {
-  "author": "Ali Maffucci",
-  "canonical_url": "https://inspiralized.com/brussels-sprouts-and-apple-salad-with-parmesan/",
-  "category": null,
   "host": "inspiralized.com",
-  "image": "https://inspiralized.com/wp-content/uploads/2019/09/Brussels-Sprouts-and-Apple-Salad-with-Parmesan-2-copy-scaled.jpg",
+  "canonical_url": "https://inspiralized.com/brussels-sprouts-and-apple-salad-with-parmesan/",
+  "site_name": "Inspiralized",
+  "author": "Ali Maffucci",
+  "language": "en-US",
+  "title": "Brussels Sprouts and Apple Salad with Parmesan",
+  "ingredients": [
+    "3 tablespoons extra virgin olive oil",
+    "3 tablespoons apple cider vinegar",
+    "2.5 teaspoons honey",
+    "salt and pepper",
+    "4 cups shredded brussels sprouts",
+    "1 medium apple (Blade D)",
+    "1/4 cup chopped raw almonds (for extra flavor, toast these first)",
+    "1/3 cup shaved Parmesan"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,23 +30,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 tablespoons extra virgin olive oil",
-    "3 tablespoons apple cider vinegar",
-    "2.5 teaspoons honey",
-    "salt and pepper",
-    "4 cups shredded brussels sprouts",
-    "1 medium apple (Blade D)",
-    "1/4 cup chopped raw almonds (for extra flavor, toast these first)",
-    "1/3 cup shaved Parmesan"
-  ],
   "instructions": "In a large bowl, whisk together the olive oil, apple cider vinegar, honey, and season with salt and pepper. Add the brussels sprouts and apples and toss well. Let sit in the refrigerator for at least 15-20 minutes and then take out and fold in the almonds and half of the Parmesan cheese. Transfer to a serving bowl or plate and top with remaining Parmesan.",
+  "total_time": 15,
+  "prep_time": 15,
+  "image": "https://inspiralized.com/wp-content/uploads/2019/09/Brussels-Sprouts-and-Apple-Salad-with-Parmesan-2-copy-scaled.jpg",
+  "category": null,
   "instructions_list": [
     "In a large bowl, whisk together the olive oil, apple cider vinegar, honey, and season with salt and pepper. Add the brussels sprouts and apples and toss well. Let sit in the refrigerator for at least 15-20 minutes and then take out and fold in the almonds and half of the Parmesan cheese. Transfer to a serving bowl or plate and top with remaining Parmesan."
-  ],
-  "language": "en-US",
-  "site_name": "Inspiralized",
-  "title": "Brussels Sprouts and Apple Salad with Parmesan",
-  "total_time": 15,
-  "prep_time": 15
+  ]
 }

@@ -1,9 +1,23 @@
 {
-  "author": "Mirabelle",
-  "canonical_url": "https://www.marmiton.org/recettes/recette_ratatouille_23223.aspx",
-  "category": "ratatouille",
   "host": "marmiton.org",
-  "image": "https://assets.afcdn.com/recipe/20160624/36724_w1024h576c1cx2248cy1500.webp",
+  "canonical_url": "https://www.marmiton.org/recettes/recette_ratatouille_23223.aspx",
+  "site_name": "Marmiton",
+  "author": "Mirabelle",
+  "language": "fr",
+  "title": "Ratatouille",
+  "ingredients": [
+    "350 g d'aubergine",
+    "350 g de courgette",
+    "350 g de poivron de couleur rouge et vert",
+    "350 g d'oignon",
+    "500 g de tomate bien mûres",
+    "6 c.à.s d'huile d'olive",
+    "1 brin de thym",
+    "1 feuille de laurier",
+    "poivre",
+    "sel",
+    "3 gousses d'ail"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,40 +36,15 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "350 g d'aubergine",
-    "350 g de courgette",
-    "350 g de poivron de couleur rouge et vert",
-    "350 g d'oignon",
-    "500 g de tomate bien mûres",
-    "6 c.à.s d'huile d'olive",
-    "1 brin de thym",
-    "1 feuille de laurier",
-    "poivre",
-    "sel",
-    "3 gousses d'ail"
-  ],
   "instructions": "Coupez les tomates pelées en quartiers,\nles aubergines et les courgettes en rondelles.\nEmincez les poivrons en lamelles\net l'oignon en rouelles.\nChauffez 2 cuillères à soupe d'huile dans une poêle\net faites-y fondre les oignons et les poivrons.\nLorsqu'ils sont tendres, ajoutez les tomates, l'ail haché, le thym et le laurier.\nSalez, poivrez et laissez mijoter doucement à couvert durant 45 minutes.\nPendant ce temps, préparez les aubergines et les courgettes. Faites les cuire séparemment ou non dans l'huile d'olive pendant 15 minutes.\nVérifiez la cuisson des légumes pour qu'ils ne soient plus fermes. Ajoutez les alors au mélange de tomates et prolongez la cuisson sur tout petit feu pendant 10 min.\nSalez et poivrez si besoin.",
-  "instructions_list": [
-    "Coupez les tomates pelées en quartiers,",
-    "les aubergines et les courgettes en rondelles.",
-    "Emincez les poivrons en lamelles",
-    "et l'oignon en rouelles.",
-    "Chauffez 2 cuillères à soupe d'huile dans une poêle",
-    "et faites-y fondre les oignons et les poivrons.",
-    "Lorsqu'ils sont tendres, ajoutez les tomates, l'ail haché, le thym et le laurier.",
-    "Salez, poivrez et laissez mijoter doucement à couvert durant 45 minutes.",
-    "Pendant ce temps, préparez les aubergines et les courgettes. Faites les cuire séparemment ou non dans l'huile d'olive pendant 15 minutes.",
-    "Vérifiez la cuisson des légumes pour qu'ils ne soient plus fermes. Ajoutez les alors au mélange de tomates et prolongez la cuisson sur tout petit feu pendant 10 min.",
-    "Salez et poivrez si besoin."
-  ],
-  "language": "fr",
-  "ratings": 4.8,
-  "ratings_count": 413,
-  "site_name": "Marmiton",
-  "title": "Ratatouille",
   "total_time": 80,
+  "prep_time": 25,
+  "cook_time": 55,
   "yields": "4 servings",
+  "image": "https://assets.afcdn.com/recipe/20160624/36724_w1024h576c1cx2248cy1500.webp",
+  "description": "aubergine, courgette, poivron, oignon, tomate, huile d'olive, thym, feuille de laurier, poivre, sel, ail",
+  "cuisine": "Plat principal",
+  "category": "ratatouille",
   "keywords": [
     "Ratatouille",
     "aubergine",
@@ -72,8 +61,19 @@
     "facile",
     "moyen"
   ],
-  "description": "aubergine, courgette, poivron, oignon, tomate, huile d'olive, thym, feuille de laurier, poivre, sel, ail",
-  "cook_time": 55,
-  "cuisine": "Plat principal",
-  "prep_time": 25
+  "ratings": 4.8,
+  "ratings_count": 413,
+  "instructions_list": [
+    "Coupez les tomates pelées en quartiers,",
+    "les aubergines et les courgettes en rondelles.",
+    "Emincez les poivrons en lamelles",
+    "et l'oignon en rouelles.",
+    "Chauffez 2 cuillères à soupe d'huile dans une poêle",
+    "et faites-y fondre les oignons et les poivrons.",
+    "Lorsqu'ils sont tendres, ajoutez les tomates, l'ail haché, le thym et le laurier.",
+    "Salez, poivrez et laissez mijoter doucement à couvert durant 45 minutes.",
+    "Pendant ce temps, préparez les aubergines et les courgettes. Faites les cuire séparemment ou non dans l'huile d'olive pendant 15 minutes.",
+    "Vérifiez la cuisson des légumes pour qu'ils ne soient plus fermes. Ajoutez les alors au mélange de tomates et prolongez la cuisson sur tout petit feu pendant 10 min.",
+    "Salez et poivrez si besoin."
+  ]
 }

@@ -1,8 +1,27 @@
 {
-  "author": "Hundred Rabbits",
-  "canonical_url": "grimgrains.com",
   "host": "grimgrains.com",
-  "image": "media/recipes/okonomiyaki.jpg",
+  "canonical_url": "grimgrains.com",
+  "site_name": "Grimgrains",
+  "author": "Hundred Rabbits",
+  "language": "en",
+  "title": "okonomiyaki",
+  "ingredients": [
+    "nagaimo: 160 g, grated",
+    "green cabbage: 500 g, minced",
+    "chickpea flour: 85 g",
+    "nutritional yeast: 15 g",
+    "salt: 1.25 g",
+    "shiitake: 6",
+    "water: 320 ml",
+    "sesame oil: 10 ml",
+    "soy sauce: 60 ml",
+    "mirin: 60 ml",
+    "granulated sugar: 15 g",
+    "arrowroot starch: 15 g",
+    "ao nori: 30 g",
+    "beni shouga: to taste",
+    "scallions: 4 stalks"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,24 +44,10 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "nagaimo: 160 g, grated",
-    "green cabbage: 500 g, minced",
-    "chickpea flour: 85 g",
-    "nutritional yeast: 15 g",
-    "salt: 1.25 g",
-    "shiitake: 6",
-    "water: 320 ml",
-    "sesame oil: 10 ml",
-    "soy sauce: 60 ml",
-    "mirin: 60 ml",
-    "granulated sugar: 15 g",
-    "arrowroot starch: 15 g",
-    "ao nori: 30 g",
-    "beni shouga: to taste",
-    "scallions: 4 stalks"
-  ],
   "instructions": "Peel the nagaimo, then soak it in a water and vinegar solution (doing this helps to remove irritants). Dry the nagaimo, then grate 160 g (6-8cm) of nagaimo with a fine grater. Do this over a bowl, as the grated nagaimo is very slimy. Keep aside.\nMince 500 g (1 small head) green cabbage, keep aside.\nIn a bowl, mix 85 g (1 cup) of chickpea flour, 15 g (1/4 cup) nutritional yeast, the grated nagaimo, the minced green cabbage and 1.25g (1/4 tsp) of salt. Then, add 320 ml (1 1/4 cup) of water, or shiitake dashi. (for shiitake dashi, soak 5-6 shiitake in 320 ml of hot water for 15 minutes, or overnight in cold water.)\nHeat a non-stick pan at high heat, add 5 ml (1 tsp) of sesame oil. If you throw some water on and it starts to sizzle, the pan is hot and you can add 1/4 of the batter. Alternatively, you can add 1/2, although this makes two very large portions.\nLet okonomiyaki cook for 5 minutes, shaking the pan every now and then so the batter doesn't stick.\nAfter 5 minutes, it's time to give the other side some grilling time. Put a plate on top of the pancake, keep your hand on the plate and flip the pan so that the pancake ends up cooked side up on the plate. Then, slide the pancake back into the pan (cooked side up). You can also just flip it with a spatula, but we rather like the plate method :).\nCook for another 5 minutes, then slide onto a plate, repeat process for the rest of the batter.\nIn a small bowl, mix 60 ml (4 tbsp) of soy sauce, 60 ml (4 tbsp) of mirin, 15 g (1 tbsp) of sugar and 15 g (1 tbsp) of arrowroot starch. Stir well.\nHeat a pan at high heat, when hot, add sauce and cook for 2-3 minutes until it thickens. Then, divide onto your okonomiyaki.\nFirst, add about 15 g (1 tbsp) (per okonomiyaki) of aonori on top of the sauce.\nThen, add some beni shouga (pickled red ginger).\nFinally, top off with some finely chopped scallions.",
+  "total_time": 20,
+  "yields": "4 servings",
+  "image": "media/recipes/okonomiyaki.jpg",
   "instructions_list": [
     "Peel the nagaimo, then soak it in a water and vinegar solution (doing this helps to remove irritants). Dry the nagaimo, then grate 160 g (6-8cm) of nagaimo with a fine grater. Do this over a bowl, as the grated nagaimo is very slimy. Keep aside.",
     "Mince 500 g (1 small head) green cabbage, keep aside.",
@@ -56,10 +61,5 @@
     "First, add about 15 g (1 tbsp) (per okonomiyaki) of aonori on top of the sauce.",
     "Then, add some beni shouga (pickled red ginger).",
     "Finally, top off with some finely chopped scallions."
-  ],
-  "language": "en",
-  "site_name": "Grimgrains",
-  "title": "okonomiyaki",
-  "total_time": 20,
-  "yields": "4 servings"
+  ]
 }

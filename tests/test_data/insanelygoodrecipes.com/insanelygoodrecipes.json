@@ -1,10 +1,19 @@
 {
-  "author": "Kim - InsanelyGood",
-  "canonical_url": "https://insanelygoodrecipes.com/crockpot-angel-chicken/",
-  "category": "Chicken,Recipes",
-  "description": "Dinner is easy with this Crockpot angel chicken! With just 7 ingredients, it's a heavenly meal everyone will love.",
   "host": "insanelygoodrecipes.com",
-  "image": "https://insanelygoodrecipes.com/wp-content/uploads/2023/08/Homemade-Creamy-and-Flavorful-Angel-Chicken-Pasta-with-Parsley.jpg",
+  "canonical_url": "https://insanelygoodrecipes.com/crockpot-angel-chicken/",
+  "site_name": "Insanely Good Recipes",
+  "author": "Kim - InsanelyGood",
+  "language": "en-US",
+  "title": "Crockpot Angel Chicken (Easy Slow Cooker Recipe)",
+  "ingredients": [
+    "6 boneless chicken breasts",
+    "1/2 cup butter",
+    "1 (1-ounce) package of dried Italian salad dressing mix",
+    "1 (10-1/2 ounce) can of Campbell’s Golden Mushroom soup",
+    "1/2 cup white wine, chicken stock, or water",
+    "4 ounces cream cheese with chives and onions",
+    "Angel hair pasta"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,16 +28,19 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "6 boneless chicken breasts",
-    "1/2 cup butter",
-    "1 (1-ounce) package of dried Italian salad dressing mix",
-    "1 (10-1/2 ounce) can of Campbell’s Golden Mushroom soup",
-    "1/2 cup white wine, chicken stock, or water",
-    "4 ounces cream cheese with chives and onions",
-    "Angel hair pasta"
-  ],
   "instructions": "Remove the chicken from the packaging, and place it in the crock pot.\nUsing a medium saucepan, melt the butter on low heat.\nAdd the cream of mushroom soup, dried Italian salad dressing mix, cream cheese, and wine. Stir it until it's melted and creamy.\nPour the cheesy mixture over the chicken breasts, and cover with a lid.\nCook on low for 4-5 hours.\nBefore serving, prepare the angel hair pasta according to the directions on the back of the box.\nPortion the angel hair pasta and chicken on a plate, and spoon the sauce on top. Dig in!",
+  "total_time": 250,
+  "prep_time": 10,
+  "cook_time": 240,
+  "yields": "6 servings",
+  "image": "https://insanelygoodrecipes.com/wp-content/uploads/2023/08/Homemade-Creamy-and-Flavorful-Angel-Chicken-Pasta-with-Parsley.jpg",
+  "description": "Dinner is easy with this Crockpot angel chicken! With just 7 ingredients, it's a heavenly meal everyone will love.",
+  "nutrients": {
+    "calories": "401 cal"
+  },
+  "category": "Chicken,Recipes",
+  "ratings": 5.0,
+  "ratings_count": 2,
   "instructions_list": [
     "Remove the chicken from the packaging, and place it in the crock pot.",
     "Using a medium saucepan, melt the butter on low heat.",
@@ -37,17 +49,5 @@
     "Cook on low for 4-5 hours.",
     "Before serving, prepare the angel hair pasta according to the directions on the back of the box.",
     "Portion the angel hair pasta and chicken on a plate, and spoon the sauce on top. Dig in!"
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "401 cal"
-  },
-  "ratings": 5.0,
-  "site_name": "Insanely Good Recipes",
-  "title": "Crockpot Angel Chicken (Easy Slow Cooker Recipe)",
-  "total_time": 250,
-  "yields": "6 servings",
-  "ratings_count": 2,
-  "cook_time": 240,
-  "prep_time": 10
+  ]
 }

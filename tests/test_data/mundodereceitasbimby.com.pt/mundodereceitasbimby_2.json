@@ -1,8 +1,27 @@
 {
-  "author": "Equipa Bimby",
-  "canonical_url": "mundodereceitasbimby.com.pt",
   "host": "mundodereceitasbimby.com.pt",
-  "image": "https://pt.rc-cdn.community.thermomix.com/recipeimage/eyfdj0p4-6f492-762035-cfcd2-j1gkapa1/f10b1aaa-e332-4ecc-9a69-75e6ece492c0/main/empadao-de-carne.jpg",
+  "canonical_url": "mundodereceitasbimby.com.pt",
+  "site_name": "Mundo de Receitas Bimby",
+  "author": "Equipa Bimby",
+  "language": "pt_PT",
+  "title": "Empadão de carne",
+  "ingredients": [
+    "150 g cebola",
+    "2 dentes de alho",
+    "100 g tomate ou polpa de tomate",
+    "30 g azeite",
+    "400 g carne picada",
+    "1 folha de louro",
+    "1 cubo de caldo de carne ou 1 c.chá de caldo de carne caseiro",
+    "50 g vinho branco",
+    "20 g Salsa picada",
+    "1000 g batata p/ fritar, cortada em cubos",
+    "350 g leite",
+    "sal, q.b.",
+    "pimenta, q.b.",
+    "50 g margarina, mais q.b. untar",
+    "1 gema de ovo, p/ pincelar"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,24 +49,14 @@
       "purpose": "Puré"
     }
   ],
-  "ingredients": [
-    "150 g cebola",
-    "2 dentes de alho",
-    "100 g tomate ou polpa de tomate",
-    "30 g azeite",
-    "400 g carne picada",
-    "1 folha de louro",
-    "1 cubo de caldo de carne ou 1 c.chá de caldo de carne caseiro",
-    "50 g vinho branco",
-    "20 g Salsa picada",
-    "1000 g batata p/ fritar, cortada em cubos",
-    "350 g leite",
-    "sal, q.b.",
-    "pimenta, q.b.",
-    "50 g margarina, mais q.b. untar",
-    "1 gema de ovo, p/ pincelar"
-  ],
   "instructions": "Coloque no copo a cebola, o alho, o tomate e o azeite, pique 5 seg/vel 5 e refogue 5 min/Varoma/vel 1.\nAdicione a carne, o louro, o caldo de carne, o vinho, envolva com a espátula e programe 10 min/100°C/\"Velocidade inversa\" /vel \"Colher de pau\" . Retire o louro e com a ajuda da espátula misture a salsa. Retire e reserve.\nColoque no copo a batata , o leite, o sal e a pimenta e programe 30 min/90°C/vel 1.\nAdicione a margarina e programe 30 seg/vel 4.\nPré-aqueça o forno a 180°C.\nNum pyrex untado com margarina, coloque metade do puré, a carne reservada, cubra com o puré restante, pincele com a gema de ovo e leve ao forno cerca de 20 minutos.",
+  "total_time": 55,
+  "yields": "8 servings",
+  "image": "https://pt.rc-cdn.community.thermomix.com/recipeimage/eyfdj0p4-6f492-762035-cfcd2-j1gkapa1/f10b1aaa-e332-4ecc-9a69-75e6ece492c0/main/empadao-de-carne.jpg",
+  "description": "Empadão de carne de Equipa Bimby. Receita Bimby® na categoria Pratos principais Carne do %site-name%, A Comunidade de Receitas Bimby®.",
+  "category": "Pratos principais Carne",
+  "ratings": 4.58,
+  "ratings_count": 2,
   "instructions_list": [
     "Coloque no copo a cebola, o alho, o tomate e o azeite, pique 5 seg/vel 5 e refogue 5 min/Varoma/vel 1.",
     "Adicione a carne, o louro, o caldo de carne, o vinho, envolva com a espátula e programe 10 min/100°C/\"Velocidade inversa\" /vel \"Colher de pau\" . Retire o louro e com a ajuda da espátula misture a salsa. Retire e reserve.",
@@ -55,14 +64,5 @@
     "Adicione a margarina e programe 30 seg/vel 4.",
     "Pré-aqueça o forno a 180°C.",
     "Num pyrex untado com margarina, coloque metade do puré, a carne reservada, cubra com o puré restante, pincele com a gema de ovo e leve ao forno cerca de 20 minutos."
-  ],
-  "site_name": "Mundo de Receitas Bimby",
-  "title": "Empadão de carne",
-  "total_time": 55,
-  "yields": "8 servings",
-  "language": "pt_PT",
-  "category": "Pratos principais Carne",
-  "description": "Empadão de carne de Equipa Bimby. Receita Bimby® na categoria Pratos principais Carne do %site-name%, A Comunidade de Receitas Bimby®.",
-  "ratings": 4.58,
-  "ratings_count": 2
+  ]
 }

@@ -1,9 +1,23 @@
 {
-  "author": "Cast Iron Keto",
-  "canonical_url": "https://www.castironketo.net/blog/keto-jalapeno-popper-casserole-with-chicken/",
-  "category": "Main Course",
   "host": "castironketo.net",
-  "image": "https://www.castironketo.net/wp-content/uploads/2021/01/Keto-Jalapeño-Popper-Casserole.jpg",
+  "canonical_url": "https://www.castironketo.net/blog/keto-jalapeno-popper-casserole-with-chicken/",
+  "site_name": "Cast Iron Keto",
+  "author": "Cast Iron Keto",
+  "language": "en-US",
+  "title": "Keto Jalapeño Popper Casserole with Chicken",
+  "ingredients": [
+    "1 ½ pounds cooked shredded chicken breast",
+    "4 green onions (chopped)",
+    "1 teaspoon garlic salt",
+    "½ teaspoon onion powder",
+    "½ teaspoon paprika",
+    "8 ounces cream cheese (softened)",
+    "½ cup heavy cream",
+    "¼ cup chicken broth",
+    "5 jalapeno peppers (halved (ribs removed if you like less spice))",
+    "1 cup shredded sharp cheddar cheese",
+    "6 slices bacon (cooked and crumbled)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,28 +36,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 ½ pounds cooked shredded chicken breast",
-    "4 green onions (chopped)",
-    "1 teaspoon garlic salt",
-    "½ teaspoon onion powder",
-    "½ teaspoon paprika",
-    "8 ounces cream cheese (softened)",
-    "½ cup heavy cream",
-    "¼ cup chicken broth",
-    "5 jalapeno peppers (halved (ribs removed if you like less spice))",
-    "1 cup shredded sharp cheddar cheese",
-    "6 slices bacon (cooked and crumbled)"
-  ],
   "instructions": "Preheat the oven to 425° F.\nPlace the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.\nCombine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.\nPour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.\nTransfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately.",
-  "instructions_list": [
-    "Preheat the oven to 425° F.",
-    "Place the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.",
-    "Combine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.",
-    "Pour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.",
-    "Transfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 30,
+  "cook_time": 15,
+  "yields": "6 servings",
+  "image": "https://www.castironketo.net/wp-content/uploads/2021/01/Keto-Jalapeño-Popper-Casserole.jpg",
+  "description": "Keto Jalapeño Popper Casserole with Chicken: A deliciously creamy and spicy low-carb dish with shredded chicken, cream cheese, jalapenos, and bacon.",
   "nutrients": {
     "calories": "563 kcal",
     "carbohydrateContent": "4 g",
@@ -57,19 +56,20 @@
     "sugarContent": "2 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.78,
-  "ratings_count": 9,
-  "site_name": "Cast Iron Keto",
-  "title": "Keto Jalapeño Popper Casserole with Chicken",
-  "total_time": 45,
-  "yields": "6 servings",
+  "cuisine": "American",
+  "category": "Main Course",
   "keywords": [
     "keto",
     "keto casserole",
     "low carb"
   ],
-  "description": "Keto Jalapeño Popper Casserole with Chicken: A deliciously creamy and spicy low-carb dish with shredded chicken, cream cheese, jalapenos, and bacon.",
-  "cook_time": 15,
-  "cuisine": "American",
-  "prep_time": 30
+  "ratings": 4.78,
+  "ratings_count": 9,
+  "instructions_list": [
+    "Preheat the oven to 425° F.",
+    "Place the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.",
+    "Combine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.",
+    "Pour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.",
+    "Transfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately."
+  ]
 }

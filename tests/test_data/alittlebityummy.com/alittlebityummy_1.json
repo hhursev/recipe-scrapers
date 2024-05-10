@@ -1,9 +1,25 @@
 {
-  "author": "Alana Scott",
-  "canonical_url": "https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/",
   "host": "alittlebityummy.com",
-  "description": "Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup. This low FODMAP creamy ham and potato soup is the perfect option.",
-  "image": "https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg",
+  "canonical_url": "https://alittlebityummy.com/recipe/en-nz/low-fodmap-creamy-ham-and-potato-soup-4/",
+  "site_name": "A Little Bit Yummy",
+  "author": "Alana Scott",
+  "language": "en-NZ",
+  "title": "Low FODMAP Creamy Ham and Potato Soup",
+  "ingredients": [
+    "195 g (1.482 cup) shaved ham (we used leftover Christmas ham)*",
+    "80 g (1 cup) leek (green leaves only, finely chopped)*",
+    "800 g potato (peeled & chopped in small chunks)",
+    "240 g (1.992 large) carrot (peeled & diced)",
+    "2 tbsp butter or dairy free spread*",
+    "1 tbsp garlic infused oil*",
+    "2 tbsp gluten free all purpose flour*",
+    "625 ml (2.5 cup) low FODMAP chicken stock*",
+    "375 ml (1.5 cup) low FODMAP milk*",
+    "6 tbsp sweet corn kernels (frozen or fresh)",
+    "1 tsp dried chives*",
+    "1 Season with salt & pepper",
+    "2 tsp fresh parsley (finely chopped, optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,22 +40,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "195 g (1.482 cup) shaved ham (we used leftover Christmas ham)*",
-    "80 g (1 cup) leek (green leaves only, finely chopped)*",
-    "800 g potato (peeled & chopped in small chunks)",
-    "240 g (1.992 large) carrot (peeled & diced)",
-    "2 tbsp butter or dairy free spread*",
-    "1 tbsp garlic infused oil*",
-    "2 tbsp gluten free all purpose flour*",
-    "625 ml (2.5 cup) low FODMAP chicken stock*",
-    "375 ml (1.5 cup) low FODMAP milk*",
-    "6 tbsp sweet corn kernels (frozen or fresh)",
-    "1 tsp dried chives*",
-    "1 Season with salt & pepper",
-    "2 tsp fresh parsley (finely chopped, optional)"
-  ],
   "instructions": "Prep the ham, leek leaves, potato and carrot. Measure out the sweet corn.\nPlace a large saucepan over medium heat. Add the dairy free spread or butter and fry the leek leaves and carrot for 3 minutes until the carrot starts to soften.\nThen add the potato, ham and garlic infused oil. Cook for 2 minutes, stirring every now and then to stop the vegetables sticking to the bottom.\nMix through the flour and cook for a further minute. Then pour the stock into the saucepan. Mix well and bring to the boil. Allow to cook for 12 minutes, stirring every couple of minutes, until the potatoes are tender.\nReduce the heat to medium-low and add the milk, sweet corn and dried chives. Stir over the heat until thickened - this will take about 5 minutes.\nTaste and season with salt and pepper if needed.\nServe warm and garnish with a sprinkle of parsley if desired.\nIf at any point your soup becomes too thick just stir through another splash of milk.",
+  "total_time": 2400,
+  "prep_time": 600,
+  "cook_time": 1800,
+  "yields": "4 servings",
+  "image": "https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg",
+  "description": "Soup is the BEST. There is nothing like curling up on the couch with super cosy bowl of soup. This low FODMAP creamy ham and potato soup is the perfect option.",
+  "category": "christmas, lunch, dinner",
   "instructions_list": [
     "Prep the ham, leek leaves, potato and carrot. Measure out the sweet corn.",
     "Place a large saucepan over medium heat. Add the dairy free spread or butter and fry the leek leaves and carrot for 3 minutes until the carrot starts to soften.",
@@ -49,13 +57,5 @@
     "Taste and season with salt and pepper if needed.",
     "Serve warm and garnish with a sprinkle of parsley if desired.",
     "If at any point your soup becomes too thick just stir through another splash of milk."
-  ],
-  "language": "en-NZ",
-  "site_name": "A Little Bit Yummy",
-  "title": "Low FODMAP Creamy Ham and Potato Soup",
-  "category": "christmas, lunch, dinner",
-  "total_time": 2400,
-  "yields": "4 servings",
-  "cook_time": 1800,
-  "prep_time": 600
+  ]
 }

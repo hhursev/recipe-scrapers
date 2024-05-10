@@ -1,9 +1,10 @@
 {
-  "author": "Australian Bakels",
-  "canonical_url": "https://www.bakels.com.au/recipes/donut-glaze/",
   "host": "bakels.com.au",
-  "description": "Donut Glaze - Australian Bakels",
-  "image": "https://www.bakels.com.au/wp-content/uploads/sites/21/2021/11/i-QrWDhMX-X3-1.jpg",
+  "canonical_url": "https://www.bakels.com.au/recipes/donut-glaze/",
+  "site_name": "Australian Bakels",
+  "author": "Australian Bakels",
+  "language": "en",
+  "title": "Donut Glaze",
   "ingredients": [
     "Boiling water (~100°C)",
     "Bakels Powdered Donut Glaze"
@@ -18,13 +19,12 @@
     }
   ],
   "instructions": "Place all ingredients into a mixing bowl.\nMix on low speed until lump free.\nApply to donuts.",
+  "image": "https://www.bakels.com.au/wp-content/uploads/sites/21/2021/11/i-QrWDhMX-X3-1.jpg",
+  "description": "Donut Glaze - Australian Bakels",
+  "category": "Bakery",
   "instructions_list": [
     "Place all ingredients into a mixing bowl.",
     "Mix on low speed until lump free.",
     "Apply to donuts."
-  ],
-  "language": "en",
-  "site_name": "Australian Bakels",
-  "title": "Donut Glaze",
-  "category": "Bakery"
+  ]
 }

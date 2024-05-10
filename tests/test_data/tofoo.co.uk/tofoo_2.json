@@ -1,9 +1,23 @@
 {
-  "author": "The Tofoo co.",
-  "canonical_url": "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/",
-  "category": "Vegans",
   "host": "tofoo.co.uk",
-  "image": "https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled.jpg",
+  "canonical_url": "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/",
+  "site_name": "Tofoo",
+  "author": "The Tofoo co.",
+  "language": "en-US",
+  "title": "Sticky Sriracha Tofoo",
+  "ingredients": [
+    "1 pack of Naked Tofoo, cut into cubes",
+    "2 tbsp cornflour",
+    "2 tbsp veg oil",
+    "Black pepper",
+    "2 tbsp Sriracha",
+    "2 tbsp soy sauce",
+    "2 tbsp honey (or vegan alternative)",
+    "1 tbsp rice vinegar",
+    "280g microwave rice",
+    "Sesame seeds",
+    "Sliced spring onion"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -32,29 +46,15 @@
       "purpose": "To serve (optional)"
     }
   ],
-  "ingredients": [
-    "1 pack of Naked Tofoo, cut into cubes",
-    "2 tbsp cornflour",
-    "2 tbsp veg oil",
-    "Black pepper",
-    "2 tbsp Sriracha",
-    "2 tbsp soy sauce",
-    "2 tbsp honey (or vegan alternative)",
-    "1 tbsp rice vinegar",
-    "280g microwave rice",
-    "Sesame seeds",
-    "Sliced spring onion"
-  ],
   "instructions": "In a bowl, mix the cornflour with a pinch of pepper and toss your Tofoo cubes through until evenly covered.\nHeat your veg oil in a large frying pan over a medium heat. Once hot, add your Tofoo cubes and cook for 5 mins, turning them over until golden on all sides.\nWhisk all sauce ingredients in a small bowl and add to your Tofoo. Stir and cook for a few mins until all your Tofoo is evenly covered in sticky sauce.\nMeanwhile, cook your microwave rice as per the pack instructions and add into bowls before topping with your sticky Sriracha Tofoo. Scatter with spring onion and sesame seeds for the ultimate fakeaway, ready in only 20 mins!",
+  "total_time": 20,
+  "yields": 2,
+  "image": "https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled.jpg",
+  "category": "Vegans",
   "instructions_list": [
     "In a bowl, mix the cornflour with a pinch of pepper and toss your Tofoo cubes through until evenly covered.",
     "Heat your veg oil in a large frying pan over a medium heat. Once hot, add your Tofoo cubes and cook for 5 mins, turning them over until golden on all sides.",
     "Whisk all sauce ingredients in a small bowl and add to your Tofoo. Stir and cook for a few mins until all your Tofoo is evenly covered in sticky sauce.",
     "Meanwhile, cook your microwave rice as per the pack instructions and add into bowls before topping with your sticky Sriracha Tofoo. Scatter with spring onion and sesame seeds for the ultimate fakeaway, ready in only 20 mins!"
-  ],
-  "language": "en-US",
-  "site_name": "Tofoo",
-  "title": "Sticky Sriracha Tofoo",
-  "total_time": 20,
-  "yields": 2
+  ]
 }

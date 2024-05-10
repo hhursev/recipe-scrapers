@@ -1,10 +1,16 @@
 {
-  "author": "Williams Sonoma",
-  "canonical_url": "https://www.williams-sonoma.com/recipe/bacon-fat-hash-browns.html",
-  "category": null,
-  "cuisine": "AMERICAN",
   "host": "williams-sonoma.com",
-  "image": "https://assets.wsimgs.com/wsimgs/rk/images/dp/recipe/202341/0005/img28l.jpg",
+  "canonical_url": "https://www.williams-sonoma.com/recipe/bacon-fat-hash-browns.html",
+  "site_name": "Williams Sonoma",
+  "author": "Williams Sonoma",
+  "language": "en",
+  "title": "Bacon Fat Hash Browns",
+  "ingredients": [
+    "2 large russet potatoes, peeled",
+    "Fine sea salt and freshly ground pepper",
+    "2 Tbs. rendered bacon fat",
+    "Flaky sea salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -16,13 +22,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 large russet potatoes, peeled",
-    "Fine sea salt and freshly ground pepper",
-    "2 Tbs. rendered bacon fat",
-    "Flaky sea salt"
-  ],
   "instructions": "Using the large holes of a box grater, grate the potatoes over a kitchen towel. Wring the towel with the potatoes inside over a bowl to remove as much moisture as possible. Reserve the liquid from the potatoes in the bowl. Place the potatoes in a separate bowl.\nSet the bowl of potato liquid aside so the starch has time to settle to the bottom. Carefully pour off the water from the top, leaving the starch in the bottom. Add the starch to the grated potatoes and season with fine sea salt and pepper.\nIn a small nonstick sauté pan over high heat, warm the bacon fat. Form individual hash brown cakes, about the size of your fist. Working in batches (if they won’t all fit in the pan at the same time), add the cakes to the pan and press down flat with a spatula, ensuring an even thickness throughout.\nReduce the heat to medium-low and cook until evenly golden brown, about 4 minutes. When the bottom is nicely browned, flip and use your spatula to flatten the hash browns again. Continue to cook until this side is evenly golden brown, about 2 minutes.\nTransfer the hash browns to a serving plate, sprinkle with flaky sea salt and serve. Serves 3 or 4.\nAdapted from At Home by Gavin Kaysen (Spoon Thief Publishing, 2023)",
+  "total_time": 40,
+  "prep_time": 25,
+  "cook_time": 15,
+  "yields": "4 servings",
+  "image": "https://assets.wsimgs.com/wsimgs/rk/images/dp/recipe/202341/0005/img28l.jpg",
+  "description": "Award-winning chef Gavin Kaysen, who is based in Minneapolis, makes these hash browns a lot at home, using the leftover bacon fat he saves in a jar in his refrigerator. If you make your hash browns from frozen potatoes, he says, your life will change once you switch to freshly grated ones. The chef explains that it&rsquo;s impossible to get all the water out of frozen potatoes, which makes it very difficult to get your hash browns nice and crispy. His technique also uses some of the starch that gets extracted when you wring the water out of the shredded potatoes, which helps bind them together into cakes. These hash browns are the perfect side dish to serve for Easter brunch. Note: Kaysen&rsquo;s recipe calls for making a few individual hash browns, but for an impressive holiday presentation, simply form the potatoes into one large hash brown cake and continue cooking as directed.",
+  "cuisine": "AMERICAN",
+  "category": null,
+  "keywords": [
+    "our catalogx spr1 23"
+  ],
   "instructions_list": [
     "Using the large holes of a box grater, grate the potatoes over a kitchen towel. Wring the towel with the potatoes inside over a bowl to remove as much moisture as possible. Reserve the liquid from the potatoes in the bowl. Place the potatoes in a separate bowl.",
     "Set the bowl of potato liquid aside so the starch has time to settle to the bottom. Carefully pour off the water from the top, leaving the starch in the bottom. Add the starch to the grated potatoes and season with fine sea salt and pepper.",
@@ -30,16 +41,5 @@
     "Reduce the heat to medium-low and cook until evenly golden brown, about 4 minutes. When the bottom is nicely browned, flip and use your spatula to flatten the hash browns again. Continue to cook until this side is evenly golden brown, about 2 minutes.",
     "Transfer the hash browns to a serving plate, sprinkle with flaky sea salt and serve. Serves 3 or 4.",
     "Adapted from At Home by Gavin Kaysen (Spoon Thief Publishing, 2023)"
-  ],
-  "language": "en",
-  "site_name": "Williams Sonoma",
-  "title": "Bacon Fat Hash Browns",
-  "total_time": 40,
-  "yields": "4 servings",
-  "keywords": [
-    "our catalogx spr1 23"
-  ],
-  "cook_time": 15,
-  "description": "Award-winning chef Gavin Kaysen, who is based in Minneapolis, makes these hash browns a lot at home, using the leftover bacon fat he saves in a jar in his refrigerator. If you make your hash browns from frozen potatoes, he says, your life will change once you switch to freshly grated ones. The chef explains that it&rsquo;s impossible to get all the water out of frozen potatoes, which makes it very difficult to get your hash browns nice and crispy. His technique also uses some of the starch that gets extracted when you wring the water out of the shredded potatoes, which helps bind them together into cakes. These hash browns are the perfect side dish to serve for Easter brunch. Note: Kaysen&rsquo;s recipe calls for making a few individual hash browns, but for an impressive holiday presentation, simply form the potatoes into one large hash brown cake and continue cooking as directed.",
-  "prep_time": 25
+  ]
 }

@@ -1,9 +1,25 @@
 {
-  "author": "snackicat",
-  "canonical_url": "https://www.reishunger.de/rezepte/rezept/2835/susskartoffel-kichererbsen-curry",
-  "category": "Hauptgericht,Studentenküche,Schnelle Küche,Fitness,Digitaler Reiskocher",
   "host": "reishunger.de",
-  "image": "https://cdn.reishunger.com/img7830bearbeitetklein.jpg?quality=85",
+  "canonical_url": "https://www.reishunger.de/rezepte/rezept/2835/susskartoffel-kichererbsen-curry",
+  "site_name": "https://www.reishunger.de",
+  "author": "snackicat",
+  "language": "de",
+  "title": "Süßkartoffel-Kichererbsen-Curry",
+  "ingredients": [
+    "240g Basmati Reis Pusa",
+    "1 TL Kokosöl",
+    "1 Dose Bio Kichererbsen",
+    "200ml Kokosmilch",
+    "1 Zwiebel",
+    "1 Knoblauchzehe",
+    "1 mittelgroße Süßkartoffel (hier: 300g)",
+    "1 Paprika",
+    "150ml Wasser",
+    "20g Ingwer",
+    "3 TL Curry",
+    "Salz, Cayenne Pfeffer, Paprika edelsüß",
+    "Kräuter nach Belieben (hier: Petersilie)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,22 +40,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "240g Basmati Reis Pusa",
-    "1 TL Kokosöl",
-    "1 Dose Bio Kichererbsen",
-    "200ml Kokosmilch",
-    "1 Zwiebel",
-    "1 Knoblauchzehe",
-    "1 mittelgroße Süßkartoffel (hier: 300g)",
-    "1 Paprika",
-    "150ml Wasser",
-    "20g Ingwer",
-    "3 TL Curry",
-    "Salz, Cayenne Pfeffer, Paprika edelsüß",
-    "Kräuter nach Belieben (hier: Petersilie)"
-  ],
   "instructions": "Zubereitung im Kochtopf Reis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt. Reis in einen Kochtopf geben. Wasser dazugeben. Nach Belieben salzen. Reis 10 Minuten einweichen lassen. Herd auf die höchste Hitzestufe stellen und Reis aufkochen lassen. Sobald das Wasser kocht, den Herd auf die mittlere Hitzestufe stellen und den Reis ca. 15 Minuten bei geschlossenem Deckel köcheln lassen bis das Wasser komplett aufgesogen wurde. Nach Belieben ein Stück Butter hinzufügen.\nZubereitung im Reiskocher Reis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt. Anschließend den Reis in den Innentopf geben. Reis in den Reiskocher geben. Wasser dazugeben. Nach Belieben salzen. Deckel schließen und den Kochvorgang im Modus \"Weiß\" starten. Sobald der Reiskocher in den Warmhaltemodus schaltet, ist der Reis fertig. Nach Belieben ein Stück Butter hinzufügen.\nZubereitung im Mikrowellen-Reiskocher Reis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt. Reis in den Mikrowellen Reiskocher geben. Wasser dazugeben. Nach Belieben salzen. Deckel aufsetzen und bei höchster Stufe (600-800 Watt) für 11 Minuten in die Mikrowelle stellen. Nach Belieben ein Stück Butter hinzufügen.\nZubereitung im Dämpfer Reis waschen. Du bedeckst den Reis mit kaltem Wasser. Mit den Händen bearbeitest du den Reis in kreisenden Bewegungen. Durch die überschüssige Stärke wird das Wasser trüb. Nun gießt du das Wasser ab und wiederholst den Vorgang solange bis das Wasser klar bleibt. Bambuskorb mit einem Baumwolltuch auslegen und den Reis darauf geben. Mit Stäbchen oder Gabel Löcher in die Masse drücken durch die Dampf entweichen kann. Bambuskorb mit Korbdeckel schließen. Topfboden mit ca. 1 cm Wasser bedecken und Bambuskorb reinstellen. Bei niedriger bis mittlerer Hitze ca. 20 Minuten dämpfen lassen. Zwischenzeitlich Wasser nachkippen, sodass der Korb stetig in ca. 1 cm hohem Wasser steht. Reis entnehmen und nach Belieben ein Stück Butter hinzufügen.\nZwiebeln und Knoblauch klein schneiden und in Kokosöl in einer Pfanne kurz anbraten.\nKokosmilch und Wasser vorsichtig in die Pfanne schütten.\nSüßkartoffel und Paprika klein schneiden und in die Pfanne geben.\nKichererbsen abtropfen, Ingwer schälen und kleinschneiden, ebenfalls in die Pfanne geben.\nCurry und Salz hinzugeben und bei geschlossenem Deckel kurz zum Kochen bringen, dann auf leichter Stufe circa 10 Minuten köcheln lassen.\nPaprika edelsüß und Cayennepfeffer hinzugeben, verrühren und ca. weitere 5 Minuten köcheln lassen, bis die Soße schön eingekocht ist.\nMit Reis und Kräutern servieren, fertig. Guten Reishunger!",
+  "total_time": 15,
+  "yields": "3 servings",
+  "image": "https://cdn.reishunger.com/img7830bearbeitetklein.jpg?quality=85",
+  "description": "Lust auf einen Hauch indische Küche? Dann gönnt euch diese leckere Süßkartoffel-Kichererbsen-Curry. Schnell gemacht, unheimlich lecker und voller gesunder Zutaten. Die Kichererbsen versorgen euren Körper mit viel Eiweiß und machen euch in Kombination mit den Süßkartoffeln und dem Reis lange satt.",
+  "nutrients": {
+    "calories": "696 kcal"
+  },
+  "cuisine": "Indisch,Asiatisch",
+  "category": "Hauptgericht,Studentenküche,Schnelle Küche,Fitness,Digitaler Reiskocher",
+  "ratings": 5.0,
+  "ratings_count": 1,
   "instructions_list": [
     "Zubereitung im Kochtopf Reis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt. Reis in einen Kochtopf geben. Wasser dazugeben. Nach Belieben salzen. Reis 10 Minuten einweichen lassen. Herd auf die höchste Hitzestufe stellen und Reis aufkochen lassen. Sobald das Wasser kocht, den Herd auf die mittlere Hitzestufe stellen und den Reis ca. 15 Minuten bei geschlossenem Deckel köcheln lassen bis das Wasser komplett aufgesogen wurde. Nach Belieben ein Stück Butter hinzufügen.",
     "Zubereitung im Reiskocher Reis waschen. Den Reis mit kaltem Wasser bedecken. Mit den Händen den Reis in kreisenden Bewegungen waschen. Durch die überschüssige Stärke wird das Wasser trüb. Nun das Wasser abgießen und den Vorgang wiederholen bis das Wasser klar bleibt. Anschließend den Reis in den Innentopf geben. Reis in den Reiskocher geben. Wasser dazugeben. Nach Belieben salzen. Deckel schließen und den Kochvorgang im Modus \"Weiß\" starten. Sobald der Reiskocher in den Warmhaltemodus schaltet, ist der Reis fertig. Nach Belieben ein Stück Butter hinzufügen.",
@@ -52,17 +64,5 @@
     "Curry und Salz hinzugeben und bei geschlossenem Deckel kurz zum Kochen bringen, dann auf leichter Stufe circa 10 Minuten köcheln lassen.",
     "Paprika edelsüß und Cayennepfeffer hinzugeben, verrühren und ca. weitere 5 Minuten köcheln lassen, bis die Soße schön eingekocht ist.",
     "Mit Reis und Kräutern servieren, fertig. Guten Reishunger!"
-  ],
-  "language": "de",
-  "nutrients": {
-    "calories": "696 kcal"
-  },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "https://www.reishunger.de",
-  "title": "Süßkartoffel-Kichererbsen-Curry",
-  "total_time": 15,
-  "yields": "3 servings",
-  "description": "Lust auf einen Hauch indische Küche? Dann gönnt euch diese leckere Süßkartoffel-Kichererbsen-Curry. Schnell gemacht, unheimlich lecker und voller gesunder Zutaten. Die Kichererbsen versorgen euren Körper mit viel Eiweiß und machen euch in Kombination mit den Süßkartoffeln und dem Reis lange satt.",
-  "cuisine": "Indisch,Asiatisch"
+  ]
 }

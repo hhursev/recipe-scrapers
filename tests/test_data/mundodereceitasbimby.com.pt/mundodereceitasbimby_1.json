@@ -1,8 +1,22 @@
 {
-  "author": "Equipa Bimby",
-  "canonical_url": "mundodereceitasbimby.com.pt",
   "host": "mundodereceitasbimby.com.pt",
-  "image": "https://pt.rc-cdn.community.thermomix.com/recipeimage/3mg2kqd2-6f492-480172-cfcd2-amfsdqbu/18615859-cc8c-4fb6-8a4c-68b49a345b96/main/arroz-de-polvo.jpg",
+  "canonical_url": "mundodereceitasbimby.com.pt",
+  "site_name": "Mundo de Receitas Bimby",
+  "author": "Equipa Bimby",
+  "language": "pt_PT",
+  "title": "Arroz de Polvo",
+  "ingredients": [
+    "1 polvo, médio (até 1200 g), cortado em pedaços",
+    "240 g cebola",
+    "70 g azeite",
+    "2 dentes de alho",
+    "300 g tomate, cortado em pedaços",
+    "sal, q.b.",
+    "pimenta, q.b.",
+    "350 g arroz agulha",
+    "água, q.b.",
+    "coentros, q.b."
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,19 +34,14 @@
       "purpose": ""
     }
   ],
-  "ingredients": [
-    "1 polvo, médio (até 1200 g), cortado em pedaços",
-    "240 g cebola",
-    "70 g azeite",
-    "2 dentes de alho",
-    "300 g tomate, cortado em pedaços",
-    "sal, q.b.",
-    "pimenta, q.b.",
-    "350 g arroz agulha",
-    "água, q.b.",
-    "coentros, q.b."
-  ],
   "instructions": "Coloque no copo o polvo, 120 g de cebola, 100 g de água ou vinho tinto e programe 30 min/Varoma/\"Velocidade inversa\" /vel 1,5. Retire e reserve o polvo e a água da cozedura.\nColoque no copo o azeite e aqueça 3 min/Varoma/vel ½\nAdicione 120 g cebola, o alho e pique 5 seg/vel 5.\nAdicione o tomate e refogue 5 min/Varoma/vel ½\nAdicione o polvo cozido, tempere com sal e pimenta e programe 7 min/100°C/\"Velocidade inversa\" /vel \"Colher de pau\" .\nAdicione o arroz, pese a água de cozer o polvo reservada, acrescente água até completar 800 g e programe 18 min/100°C/\"Velocidade inversa\" /vel \"Colher de pau\" . A meio da cozedura, retire a tampa e com a ajuda da espátula, solte o arroz que está no fundo do copo.\nPolvilhe com coentros picados e sirva de seguida.",
+  "total_time": 78,
+  "yields": "6 servings",
+  "image": "https://pt.rc-cdn.community.thermomix.com/recipeimage/3mg2kqd2-6f492-480172-cfcd2-amfsdqbu/18615859-cc8c-4fb6-8a4c-68b49a345b96/main/arroz-de-polvo.jpg",
+  "description": "Arroz de Polvo de Equipa Bimby. Receita Bimby® na categoria Pratos principais Peixe do %site-name%, A Comunidade de Receitas Bimby®.",
+  "category": "Pratos principais Peixe",
+  "ratings": 4.82,
+  "ratings_count": 2,
   "instructions_list": [
     "Coloque no copo o polvo, 120 g de cebola, 100 g de água ou vinho tinto e programe 30 min/Varoma/\"Velocidade inversa\" /vel 1,5. Retire e reserve o polvo e a água da cozedura.",
     "Coloque no copo o azeite e aqueça 3 min/Varoma/vel ½",
@@ -41,14 +50,5 @@
     "Adicione o polvo cozido, tempere com sal e pimenta e programe 7 min/100°C/\"Velocidade inversa\" /vel \"Colher de pau\" .",
     "Adicione o arroz, pese a água de cozer o polvo reservada, acrescente água até completar 800 g e programe 18 min/100°C/\"Velocidade inversa\" /vel \"Colher de pau\" . A meio da cozedura, retire a tampa e com a ajuda da espátula, solte o arroz que está no fundo do copo.",
     "Polvilhe com coentros picados e sirva de seguida."
-  ],
-  "site_name": "Mundo de Receitas Bimby",
-  "title": "Arroz de Polvo",
-  "total_time": 78,
-  "yields": "6 servings",
-  "language": "pt_PT",
-  "category": "Pratos principais Peixe",
-  "description": "Arroz de Polvo de Equipa Bimby. Receita Bimby® na categoria Pratos principais Peixe do %site-name%, A Comunidade de Receitas Bimby®.",
-  "ratings": 4.82,
-  "ratings_count": 2
+  ]
 }

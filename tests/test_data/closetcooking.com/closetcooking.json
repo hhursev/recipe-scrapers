@@ -1,9 +1,21 @@
 {
-  "author": null,
-  "canonical_url": "https://www.closetcooking.com/jalapeno-popper-skillet-chicken/",
-  "category": null,
   "host": "closetcooking.com",
-  "image": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E",
+  "canonical_url": "https://www.closetcooking.com/jalapeno-popper-skillet-chicken/",
+  "site_name": "Closet Cooking",
+  "author": null,
+  "language": "en-US",
+  "title": "Jalapeno Popper Skillet Chicken",
+  "ingredients": [
+    "1 tablespoon oil",
+    "1 pound chicken, boneless and skinless, diced",
+    "salt and pepper to taste",
+    "1 small onion, diced",
+    "2 jalapenos, sliced or diced",
+    "2 cloves garlic, chopped",
+    "1 cup chicken broth",
+    "4 ounces cream cheese, softened",
+    "1 cup cheddar cheese, shredded"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,25 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 tablespoon oil",
-    "1 pound chicken, boneless and skinless, diced",
-    "salt and pepper to taste",
-    "1 small onion, diced",
-    "2 jalapenos, sliced or diced",
-    "2 cloves garlic, chopped",
-    "1 cup chicken broth",
-    "4 ounces cream cheese, softened",
-    "1 cup cheddar cheese, shredded"
-  ],
   "instructions": "Heat the oil in a pan over medium-high heat, add the chicken (seasoned with salt and pepper) and cook until lightly golden brown.\nAdd the onions and jalapenos and cook until tender, about a minute before adding the garlic and cooking another minute.\nAdd the chicken broth and deglaze the skillet by scraping the brown bits up off of the bottom of the pan as the broth sizzles.\nAdd the cheese and cook until it has melted and the sauce is nice and smooth",
-  "instructions_list": [
-    "Heat the oil in a pan over medium-high heat, add the chicken (seasoned with salt and pepper) and cook until lightly golden brown.",
-    "Add the onions and jalapenos and cook until tender, about a minute before adding the garlic and cooking another minute.",
-    "Add the chicken broth and deglaze the skillet by scraping the brown bits up off of the bottom of the pan as the broth sizzles.",
-    "Add the cheese and cook until it has melted and the sauce is nice and smooth"
-  ],
-  "language": "en-US",
+  "total_time": 20,
+  "prep_time": 5,
+  "cook_time": 15,
+  "yields": "5 servings",
+  "image": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E",
+  "description": "Chicken in a cheesy jalapeno sauce! All of the flavours of jalapeno poppers in a skillet chicken dinner!",
   "nutrients": {
     "calories": "Calories 415",
     "fatContent": "Fat 32g",
@@ -51,11 +51,11 @@
     "sugarContent": "Sugars 2g",
     "proteinContent": "Protein 25g"
   },
-  "site_name": "Closet Cooking",
-  "title": "Jalapeno Popper Skillet Chicken",
-  "total_time": 20,
-  "yields": "5 servings",
-  "description": "Chicken in a cheesy jalapeno sauce! All of the flavours of jalapeno poppers in a skillet chicken dinner!",
-  "cook_time": 15,
-  "prep_time": 5
+  "category": null,
+  "instructions_list": [
+    "Heat the oil in a pan over medium-high heat, add the chicken (seasoned with salt and pepper) and cook until lightly golden brown.",
+    "Add the onions and jalapenos and cook until tender, about a minute before adding the garlic and cooking another minute.",
+    "Add the chicken broth and deglaze the skillet by scraping the brown bits up off of the bottom of the pan as the broth sizzles.",
+    "Add the cheese and cook until it has melted and the sauce is nice and smooth"
+  ]
 }

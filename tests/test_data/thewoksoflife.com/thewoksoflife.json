@@ -1,10 +1,17 @@
 {
-  "author": "Judy",
-  "canonical_url": "https://thewoksoflife.com/whole-wheat-mantou/",
-  "category": "Bread",
-  "description": "“Fluffy” and “chewy” are how I like to describe these Whole Wheat Mantou. These are almost always the two words that come to mind when I come across really, really good mantou (Chinese steamed buns). I had my fair share of whole wheat mantou when we lived in Beijing, as they are surprisingly common",
   "host": "thewoksoflife.com",
-  "image": "https://thewoksoflife.com/wp-content/uploads/2018/01/whole-wheat-mantou-9-1.jpg",
+  "canonical_url": "https://thewoksoflife.com/whole-wheat-mantou/",
+  "site_name": "The Woks of Life",
+  "author": "Judy",
+  "language": "en-US",
+  "title": "The Perfect Whole Wheat Mantou Recipe",
+  "ingredients": [
+    "1 ⅔ cups warm milk ((400 ml))",
+    "1 teaspoon active dry yeast ((3 grams))",
+    "1 tablespoon sugar ((12 grams))",
+    "2 ¾ cups all-purpose flour ((400 grams))",
+    "1¼ to 1½ cups whole wheat flour ((about 170-200 grams; how much you’ll need is dependent on the humidity in your kitchen))"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -17,23 +24,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 ⅔ cups warm milk ((400 ml))",
-    "1 teaspoon active dry yeast ((3 grams))",
-    "1 tablespoon sugar ((12 grams))",
-    "2 ¾ cups all-purpose flour ((400 grams))",
-    "1¼ to 1½ cups whole wheat flour ((about 170-200 grams; how much you’ll need is dependent on the humidity in your kitchen))"
-  ],
   "instructions": "Heat the milk until warm to the touch (not hot). Then stir in the yeast and sugar until it dissolves. Combine the milk mixture with 2 ¾ cups of all-purpose flour in a large mixing bowl. The mixture will be wet. Cover with a damp cloth and let proof in a warm spot for 1-2 hours until the mixture doubles in size. Since it’s winter, I let the dough proof near a heat vent!\nNow mix in the whole wheat flour, a quarter cup at a time, until the dough is smooth, soft, pliable, and not sticky. Cover the dough, and let it rest for 20 minutes.\nNow, prepare your steamer with cold water. Make sure the water doesn’t touch the mantou during steaming. Brush the steam rack with a bit of vegetable oil, or prepare 12 small (3” x 3”) squares of parchment paper to prevent the mantou from sticking to the steam rack.\nNow knead the dough and divide it into 12 equal pieces using a kitchen scale. Form each piece into a ball. You can also roll the dough into a long tube and cut it into 12 equal pieces. Space the mantou out on a steaming rack about 1-inch apart. You will need 2-3 racks, or you can steam them in a few separate batches.\nLet the mantou rest in the steamer for 30-45 minutes until the dough doubles in size before turning your stove on to high to start the steaming process. Steam for 15 minutes using high heat, then turn off the heat, and wait 5 minutes before opening the lid to check your mantou. The last step will ensure your mantou come out full and smooth! Otherwise, they will collapse and look lumpy.\nYou can enjoy these mantou immediately or store them in a plastic bag after they’ve cooled completely. They will last about a week in the refrigerator, or you can freeze them. To reheat, I usually steam them for about 8-10 minutes. Microwaving for 30-60 seconds also works!",
-  "instructions_list": [
-    "Heat the milk until warm to the touch (not hot). Then stir in the yeast and sugar until it dissolves. Combine the milk mixture with 2 ¾ cups of all-purpose flour in a large mixing bowl. The mixture will be wet. Cover with a damp cloth and let proof in a warm spot for 1-2 hours until the mixture doubles in size. Since it’s winter, I let the dough proof near a heat vent!",
-    "Now mix in the whole wheat flour, a quarter cup at a time, until the dough is smooth, soft, pliable, and not sticky. Cover the dough, and let it rest for 20 minutes.",
-    "Now, prepare your steamer with cold water. Make sure the water doesn’t touch the mantou during steaming. Brush the steam rack with a bit of vegetable oil, or prepare 12 small (3” x 3”) squares of parchment paper to prevent the mantou from sticking to the steam rack.",
-    "Now knead the dough and divide it into 12 equal pieces using a kitchen scale. Form each piece into a ball. You can also roll the dough into a long tube and cut it into 12 equal pieces. Space the mantou out on a steaming rack about 1-inch apart. You will need 2-3 racks, or you can steam them in a few separate batches.",
-    "Let the mantou rest in the steamer for 30-45 minutes until the dough doubles in size before turning your stove on to high to start the steaming process. Steam for 15 minutes using high heat, then turn off the heat, and wait 5 minutes before opening the lid to check your mantou. The last step will ensure your mantou come out full and smooth! Otherwise, they will collapse and look lumpy.",
-    "You can enjoy these mantou immediately or store them in a plastic bag after they’ve cooled completely. They will last about a week in the refrigerator, or you can freeze them. To reheat, I usually steam them for about 8-10 minutes. Microwaving for 30-60 seconds also works!"
-  ],
-  "language": "en-US",
+  "total_time": 270,
+  "prep_time": 240,
+  "cook_time": 30,
+  "yields": "12 servings",
+  "image": "https://thewoksoflife.com/wp-content/uploads/2018/01/whole-wheat-mantou-9-1.jpg",
+  "description": "“Fluffy” and “chewy” are how I like to describe these Whole Wheat Mantou. These are almost always the two words that come to mind when I come across really, really good mantou (Chinese steamed buns). I had my fair share of whole wheat mantou when we lived in Beijing, as they are surprisingly common",
   "nutrients": {
     "calories": "175 kcal",
     "carbohydrateContent": "34 g",
@@ -46,16 +43,19 @@
     "sugarContent": "3 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.91,
-  "ratings_count": 11,
-  "site_name": "The Woks of Life",
-  "title": "The Perfect Whole Wheat Mantou Recipe",
-  "total_time": 270,
-  "yields": "12 servings",
-  "cook_time": 30,
   "cuisine": "Chinese",
-  "prep_time": 240,
+  "category": "Bread",
   "keywords": [
     "mantou"
+  ],
+  "ratings": 4.91,
+  "ratings_count": 11,
+  "instructions_list": [
+    "Heat the milk until warm to the touch (not hot). Then stir in the yeast and sugar until it dissolves. Combine the milk mixture with 2 ¾ cups of all-purpose flour in a large mixing bowl. The mixture will be wet. Cover with a damp cloth and let proof in a warm spot for 1-2 hours until the mixture doubles in size. Since it’s winter, I let the dough proof near a heat vent!",
+    "Now mix in the whole wheat flour, a quarter cup at a time, until the dough is smooth, soft, pliable, and not sticky. Cover the dough, and let it rest for 20 minutes.",
+    "Now, prepare your steamer with cold water. Make sure the water doesn’t touch the mantou during steaming. Brush the steam rack with a bit of vegetable oil, or prepare 12 small (3” x 3”) squares of parchment paper to prevent the mantou from sticking to the steam rack.",
+    "Now knead the dough and divide it into 12 equal pieces using a kitchen scale. Form each piece into a ball. You can also roll the dough into a long tube and cut it into 12 equal pieces. Space the mantou out on a steaming rack about 1-inch apart. You will need 2-3 racks, or you can steam them in a few separate batches.",
+    "Let the mantou rest in the steamer for 30-45 minutes until the dough doubles in size before turning your stove on to high to start the steaming process. Steam for 15 minutes using high heat, then turn off the heat, and wait 5 minutes before opening the lid to check your mantou. The last step will ensure your mantou come out full and smooth! Otherwise, they will collapse and look lumpy.",
+    "You can enjoy these mantou immediately or store them in a plastic bag after they’ve cooled completely. They will last about a week in the refrigerator, or you can freeze them. To reheat, I usually steam them for about 8-10 minutes. Microwaving for 30-60 seconds also works!"
   ]
 }

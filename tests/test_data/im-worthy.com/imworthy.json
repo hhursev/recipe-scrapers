@@ -1,11 +1,20 @@
 {
-  "author": "Shana Thomas",
-  "canonical_url": "https://im-worthy.com/almond-flour-pancakes/",
-  "category": "Breakfast,Brunch,Main Course",
-  "cuisine": "American",
-  "description": "These almond flour pancakes are sweet, fluffy and easy to make. They're vegan, gluten-free and can easily be made keto-friendly. Serve with fresh fruit or maple syrup.",
   "host": "im-worthy.com",
-  "image": "https://im-worthy.com/wp-content/uploads/2020/11/Almond-Flour-Pancakes_Blog4.jpg",
+  "canonical_url": "https://im-worthy.com/almond-flour-pancakes/",
+  "site_name": "IM-WORTHY",
+  "author": "Shana Thomas",
+  "language": "en-US",
+  "title": "Vegan Almond Flour Pancakes (Fluffy & Gluten-free)",
+  "ingredients": [
+    "1/2 cup almond flour",
+    "1 cup *oat flour (or use all-purpose flour)",
+    "1/2-1 cup non-dairy milk (plus more, if needed)",
+    "2 tsp baking powder",
+    "1/2 tsp cinnamon (optional) (can sub for vanilla extract)",
+    "pinch of salt",
+    "1 tbsp unsweetened apple sauce or maple syrup (optional)",
+    "1 tsp coconut oil (for cooking. Add more, if needed. Can sub for avocado oil)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,38 +30,19 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1/2 cup almond flour",
-    "1 cup *oat flour (or use all-purpose flour)",
-    "1/2-1 cup non-dairy milk (plus more, if needed)",
-    "2 tsp baking powder",
-    "1/2 tsp cinnamon (optional) (can sub for vanilla extract)",
-    "pinch of salt",
-    "1 tbsp unsweetened apple sauce or maple syrup (optional)",
-    "1 tsp coconut oil (for cooking. Add more, if needed. Can sub for avocado oil)"
-  ],
   "instructions": "In separate bowls: mix the wet & dry ingredients.\nAdd the wet ingredients to the dry ingredients and stir until combined. Start with 1/2 cup milk and add more until the batter is slightly lumpy & creamy. (It should not be runny. If runny, add more oat/all-purpose flour. If too thick, add more non-dairy milk.)\nLet the pancake batter rest for 5 minutes to thicken while you heat the pan according to the next steps below.\nAdd the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up).\nCook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.\nServe with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter.",
-  "instructions_list": [
-    "In separate bowls: mix the wet & dry ingredients.",
-    "Add the wet ingredients to the dry ingredients and stir until combined. Start with 1/2 cup milk and add more until the batter is slightly lumpy & creamy. (It should not be runny. If runny, add more oat/all-purpose flour. If too thick, add more non-dairy milk.)",
-    "Let the pancake batter rest for 5 minutes to thicken while you heat the pan according to the next steps below.",
-    "Add the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up).",
-    "Cook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.",
-    "Serve with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter."
-  ],
-  "language": "en-US",
+  "total_time": 25,
+  "prep_time": 10,
+  "cook_time": 15,
+  "yields": "4 servings",
+  "image": "https://im-worthy.com/wp-content/uploads/2020/11/Almond-Flour-Pancakes_Blog4.jpg",
+  "description": "These almond flour pancakes are sweet, fluffy and easy to make. They're vegan, gluten-free and can easily be made keto-friendly. Serve with fresh fruit or maple syrup.",
   "nutrients": {
     "calories": "180 kcal",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 9,
-  "site_name": "IM-WORTHY",
-  "title": "Vegan Almond Flour Pancakes (Fluffy & Gluten-free)",
-  "total_time": 25,
-  "yields": "4 servings",
-  "cook_time": 15,
-  "prep_time": 10,
+  "cuisine": "American",
+  "category": "Breakfast,Brunch,Main Course",
   "keywords": [
     "almond flour pancakes",
     "almond flour recipes",
@@ -61,5 +51,15 @@
     "pancakes using almond flour",
     "pancakes with almond flour",
     "Vegan Almond Flour Pancakes"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 9,
+  "instructions_list": [
+    "In separate bowls: mix the wet & dry ingredients.",
+    "Add the wet ingredients to the dry ingredients and stir until combined. Start with 1/2 cup milk and add more until the batter is slightly lumpy & creamy. (It should not be runny. If runny, add more oat/all-purpose flour. If too thick, add more non-dairy milk.)",
+    "Let the pancake batter rest for 5 minutes to thicken while you heat the pan according to the next steps below.",
+    "Add the oil to a nonstick pan over medium heat. Once the pan is hot pour the batter into the pan using a 1/4 measuring cup (for easy clean up).",
+    "Cook on each side for about 2-5 minutes (depends on your pan) or until you see little bubbles form on top, then flip and let them cook for another couple of minutes.",
+    "Serve with your favorite toppings. Some suggestions include maple syrup, coconut whip cream, fresh berries, or vegan butter."
   ]
 }

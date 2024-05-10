@@ -1,10 +1,20 @@
 {
-  "author": "Ali",
-  "canonical_url": "https://www.gimmesomeoven.com/sangria/",
-  "category": null,
-  "description": "Learn how to make authentic Spanish sangria with this easy sangria recipe. It only takes a few minutes to prep, it's easy to customize with your favorite wine and fruit, and it's great for entertaining a crowd!",
   "host": "gimmesomeoven.com",
-  "image": "https://www.gimmesomeoven.com/wp-content/uploads/2019/06/Authentic-Spanish-Sangria-Recipe-3-1-225x225.jpg",
+  "canonical_url": "https://www.gimmesomeoven.com/sangria/",
+  "site_name": "Gimme Some Oven",
+  "author": "Ali",
+  "language": "en-US",
+  "title": "Sangria",
+  "ingredients": [
+    "2 bottles Spanish red wine (Rioja wine is most popular)",
+    "1/2 cup brandy",
+    "2 oranges, one juiced and one diced",
+    "1 green apple, diced",
+    "1 lemon, diced",
+    "1 cinnamon stick",
+    "optional sweetener: simple syrup* or maple syrup",
+    "optional bubbles: lemon-lime soda, ginger ale or sparkling water"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,28 +30,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 bottles Spanish red wine (Rioja wine is most popular)",
-    "1/2 cup brandy",
-    "2 oranges, one juiced and one diced",
-    "1 green apple, diced",
-    "1 lemon, diced",
-    "1 cinnamon stick",
-    "optional sweetener: simple syrup* or maple syrup",
-    "optional bubbles: lemon-lime soda, ginger ale or sparkling water"
-  ],
   "instructions": "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher. Stir to combine. Taste and add in a few tablespoons of sweetener, if desired.\nCover and refrigerate for at least 30 minutes or up to 4 hours.\nServe the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired.",
+  "total_time": 10,
+  "prep_time": 10,
+  "yields": "12 servings",
+  "image": "https://www.gimmesomeoven.com/wp-content/uploads/2019/06/Authentic-Spanish-Sangria-Recipe-3-1-225x225.jpg",
+  "description": "Learn how to make authentic Spanish sangria with this easy sangria recipe. It only takes a few minutes to prep, it's easy to customize with your favorite wine and fruit, and it's great for entertaining a crowd!",
+  "category": null,
+  "ratings": 5.0,
+  "ratings_count": 17,
   "instructions_list": [
     "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher. Stir to combine. Taste and add in a few tablespoons of sweetener, if desired.",
     "Cover and refrigerate for at least 30 minutes or up to 4 hours.",
     "Serve the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired."
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "ratings_count": 17,
-  "site_name": "Gimme Some Oven",
-  "title": "Sangria",
-  "total_time": 10,
-  "yields": "12 servings",
-  "prep_time": 10
+  ]
 }

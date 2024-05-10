@@ -1,9 +1,24 @@
 {
-  "author": "Traci York",
-  "canonical_url": "https://vanillaandbean.com/healthy-waffles/",
-  "category": "Breakfast",
   "host": "vanillaandbean.com",
-  "image": "https://vanillaandbean.com/wp-content/uploads/2020/02/waffle-9.jpg",
+  "canonical_url": "https://vanillaandbean.com/healthy-waffles/",
+  "site_name": "Vanilla And Bean",
+  "author": "Traci York",
+  "language": "en-US",
+  "title": "Healthy Almond Orange Oat Waffles Recipe",
+  "ingredients": [
+    "2 C (175g) Old Fashioned Rolled Oats (gluten free if needed)",
+    "3/4 C (85g) Almond Flour",
+    "1 (150g) Medium Banana (soft and with plenty of brown spots)",
+    "3 tsp Apple Cider Vinegar",
+    "3/4 C (180g) Plant Milk (I use homemade cashew milk)",
+    "Orange Zest (from one large orange, two if you have it)",
+    "1/2 C (140g) Fresh Squeezed Orange Juice (from one large orange)",
+    "1 1/2 tsp Vanilla Extract",
+    "1 Tbs Maple Syrup",
+    "1 1/4 tsp Baking Powder",
+    "1 tsp Baking Soda",
+    "1/4 tsp salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,29 +38,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 C (175g) Old Fashioned Rolled Oats (gluten free if needed)",
-    "3/4 C (85g) Almond Flour",
-    "1 (150g) Medium Banana (soft and with plenty of brown spots)",
-    "3 tsp Apple Cider Vinegar",
-    "3/4 C (180g) Plant Milk (I use homemade cashew milk)",
-    "Orange Zest (from one large orange, two if you have it)",
-    "1/2 C (140g) Fresh Squeezed Orange Juice (from one large orange)",
-    "1 1/2 tsp Vanilla Extract",
-    "1 Tbs Maple Syrup",
-    "1 1/4 tsp Baking Powder",
-    "1 tsp Baking Soda",
-    "1/4 tsp salt"
-  ],
   "instructions": "Preheat the waffle iron according to manufacturer's directions, including whether to oil/butter the iron or not (see note). Preheat the oven to 185F (85C) and place a sheet pan in the oven.\nA. For the Blender (I use VitaMix): To the blender container add the oats, almond flour, apple cider vinegar, banana, milk, orange juice, zest, vanilla extract, maple syrup, baking powder, baking soda, and salt. Blend for one minute on medium to medium high. The batter will be thick and completely smooth. ORB. For the Food Processor (I use a 12 C bowl): To the work bowl with the S attachment, add the oats, almond flour, apple cider vinegar, banana, milk, orange juice, zest, vanilla extract, maple syrup, baking powder, baking soda, and salt. Whirl for 2.5-3 minutes scraping the bowl down once during processing. The batter will be thick and not quite completely smooth.\nScoop out 1/3 C of batter and pour into the waffle iron. Bake until golden (according to manufacturer's directions). Mine take about 8-9 minutes to bake and they're dark. Gently remove the waffles using a fork and place them on the sheet pan in the preheated oven. Finish baking the remaining batter.\nShare with butter, real maple syrup and/or a dollop of your favorite unsweetened yogurt. I like to add orange zest and a touch of maple to yogurt and then dollop it on top of the waffles.\nTo Freeze: Allow the waffles to cool completely before storing them in a storage container. They can stack one on top of another - freeze for up to two weeks (beyond that and I start getting freezer burn unless individually wrapped). From the Freezer: Bake at 300F (150C) for about 8-10 minutes or until warmed through or toast on the toaster setting in a toaster oven. Keep an eye on them so they don't get too dark.",
-  "instructions_list": [
-    "Preheat the waffle iron according to manufacturer's directions, including whether to oil/butter the iron or not (see note). Preheat the oven to 185F (85C) and place a sheet pan in the oven.",
-    "A. For the Blender (I use VitaMix): To the blender container add the oats, almond flour, apple cider vinegar, banana, milk, orange juice, zest, vanilla extract, maple syrup, baking powder, baking soda, and salt. Blend for one minute on medium to medium high. The batter will be thick and completely smooth. ORB. For the Food Processor (I use a 12 C bowl): To the work bowl with the S attachment, add the oats, almond flour, apple cider vinegar, banana, milk, orange juice, zest, vanilla extract, maple syrup, baking powder, baking soda, and salt. Whirl for 2.5-3 minutes scraping the bowl down once during processing. The batter will be thick and not quite completely smooth.",
-    "Scoop out 1/3 C of batter and pour into the waffle iron. Bake until golden (according to manufacturer's directions). Mine take about 8-9 minutes to bake and they're dark. Gently remove the waffles using a fork and place them on the sheet pan in the preheated oven. Finish baking the remaining batter.",
-    "Share with butter, real maple syrup and/or a dollop of your favorite unsweetened yogurt. I like to add orange zest and a touch of maple to yogurt and then dollop it on top of the waffles.",
-    "To Freeze: Allow the waffles to cool completely before storing them in a storage container. They can stack one on top of another - freeze for up to two weeks (beyond that and I start getting freezer burn unless individually wrapped). From the Freezer: Bake at 300F (150C) for about 8-10 minutes or until warmed through or toast on the toaster setting in a toaster oven. Keep an eye on them so they don't get too dark."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 15,
+  "cook_time": 40,
+  "yields": "9 servings",
+  "image": "https://vanillaandbean.com/wp-content/uploads/2020/02/waffle-9.jpg",
+  "description": "The easiest healthy waffle recipe bursting with citrus! Made with almond and oat flour with a hint of orange zest, these healthy almond orange oat waffles are freezer friendly, vegan and easily gluten free. *Update* - a few makers have had trouble with these waffles sticking to their waffle iron. Note this recipe was tested with a waffle iron that has a non stick surface where no added oil is necessary. See note below for more information.",
   "nutrients": {
     "servingSize": "1 waffle",
     "calories": "150 kcal",
@@ -57,19 +56,20 @@
     "fiberContent": "3 g",
     "sugarContent": "5 g"
   },
-  "ratings": 4.78,
-  "site_name": "Vanilla And Bean",
-  "title": "Healthy Almond Orange Oat Waffles Recipe",
-  "total_time": 40,
-  "yields": "9 servings",
+  "cuisine": "American,Vegan",
+  "category": "Breakfast",
   "keywords": [
     "Healthy Waffles",
     "Oat Waffles",
     "Vegan Gluten Free Waffles"
   ],
-  "description": "The easiest healthy waffle recipe bursting with citrus! Made with almond and oat flour with a hint of orange zest, these healthy almond orange oat waffles are freezer friendly, vegan and easily gluten free. *Update* - a few makers have had trouble with these waffles sticking to their waffle iron. Note this recipe was tested with a waffle iron that has a non stick surface where no added oil is necessary. See note below for more information.",
-  "cook_time": 40,
-  "cuisine": "American,Vegan",
-  "prep_time": 15,
-  "ratings_count": 2
+  "ratings": 4.78,
+  "ratings_count": 2,
+  "instructions_list": [
+    "Preheat the waffle iron according to manufacturer's directions, including whether to oil/butter the iron or not (see note). Preheat the oven to 185F (85C) and place a sheet pan in the oven.",
+    "A. For the Blender (I use VitaMix): To the blender container add the oats, almond flour, apple cider vinegar, banana, milk, orange juice, zest, vanilla extract, maple syrup, baking powder, baking soda, and salt. Blend for one minute on medium to medium high. The batter will be thick and completely smooth. ORB. For the Food Processor (I use a 12 C bowl): To the work bowl with the S attachment, add the oats, almond flour, apple cider vinegar, banana, milk, orange juice, zest, vanilla extract, maple syrup, baking powder, baking soda, and salt. Whirl for 2.5-3 minutes scraping the bowl down once during processing. The batter will be thick and not quite completely smooth.",
+    "Scoop out 1/3 C of batter and pour into the waffle iron. Bake until golden (according to manufacturer's directions). Mine take about 8-9 minutes to bake and they're dark. Gently remove the waffles using a fork and place them on the sheet pan in the preheated oven. Finish baking the remaining batter.",
+    "Share with butter, real maple syrup and/or a dollop of your favorite unsweetened yogurt. I like to add orange zest and a touch of maple to yogurt and then dollop it on top of the waffles.",
+    "To Freeze: Allow the waffles to cool completely before storing them in a storage container. They can stack one on top of another - freeze for up to two weeks (beyond that and I start getting freezer burn unless individually wrapped). From the Freezer: Bake at 300F (150C) for about 8-10 minutes or until warmed through or toast on the toaster setting in a toaster oven. Keep an eye on them so they don't get too dark."
+  ]
 }

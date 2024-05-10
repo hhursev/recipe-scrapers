@@ -1,12 +1,21 @@
 {
-  "author": "Heidi Swanson",
-  "canonical_url": "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",
-  "category": "Lunch,Soup",
-  "cook_time": 10,
-  "cuisine": "California,Easy,Vegan,Vegetarian",
-  "description": "This broccoli soup with coconut milk is so good and super easy. It's a simple broccoli and spinach affair made with a coconut milk broth a topped with good stuff like pan-fried tofu croutons, toasted almonds, and shredded scallions. Time to break out your blender.",
   "host": "101cookbooks.com",
-  "image": "https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=1200&auto=format",
+  "canonical_url": "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",
+  "site_name": "101 Cookbooks",
+  "author": "Heidi Swanson",
+  "language": "en-US",
+  "title": "Broccoli Soup with Coconut Milk",
+  "ingredients": [
+    "1 14- ounce can of full fat coconut milk",
+    "3 cloves garlic, smashed",
+    "1 large yellow onion, chopped",
+    "1 small serrano chile, stemmed and chopped",
+    "2 teaspoons fine grain sea salt",
+    "4 1/2 cups water",
+    "2-3 large heads of broccoli (~1 1/2 lb.), cut into small florets",
+    "2-3 large handfuls of spinach",
+    "to serve: lots of pan-fried tofu cubes, toasted almonds, scallions, chive flowers (optional)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,25 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 14- ounce can of full fat coconut milk",
-    "3 cloves garlic, smashed",
-    "1 large yellow onion, chopped",
-    "1 small serrano chile, stemmed and chopped",
-    "2 teaspoons fine grain sea salt",
-    "4 1/2 cups water",
-    "2-3 large heads of broccoli (~1 1/2 lb.), cut into small florets",
-    "2-3 large handfuls of spinach",
-    "to serve: lots of pan-fried tofu cubes, toasted almonds, scallions, chive flowers (optional)"
-  ],
   "instructions": "Scoop a big spoonful of thick coconut cream from the top of the coconut milk can. Add it to a large pan over medium-high heat. When hot, stir in the garlic, onions, chile, and salt. Sauté for a couple minutes, just long enough for everything to soften up.\nAdd the remaining coconut milk, and the water, and bring to a simmer before adding the broccoli and spinach. Simmer just long enough for the broccoli to get tender throughout, 2 - 4 minutes.\nImmediately remove the soup from heat and puree with an immersion blender. Add more water if you feel the need to thin the soup out. Taste and add more salt if needed.\nServe sprinkled with tofu cubes, toasted almonds, and lots of scallions.",
-  "instructions_list": [
-    "Scoop a big spoonful of thick coconut cream from the top of the coconut milk can. Add it to a large pan over medium-high heat. When hot, stir in the garlic, onions, chile, and salt. Sauté for a couple minutes, just long enough for everything to soften up.",
-    "Add the remaining coconut milk, and the water, and bring to a simmer before adding the broccoli and spinach. Simmer just long enough for the broccoli to get tender throughout, 2 - 4 minutes.",
-    "Immediately remove the soup from heat and puree with an immersion blender. Add more water if you feel the need to thin the soup out. Taste and add more salt if needed.",
-    "Serve sprinkled with tofu cubes, toasted almonds, and lots of scallions."
-  ],
-  "language": "en-US",
+  "total_time": 20,
+  "prep_time": 10,
+  "cook_time": 10,
+  "yields": "8 servings",
+  "image": "https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=1200&auto=format",
+  "description": "This broccoli soup with coconut milk is so good and super easy. It's a simple broccoli and spinach affair made with a coconut milk broth a topped with good stuff like pan-fried tofu croutons, toasted almonds, and shredded scallions. Time to break out your blender.",
   "nutrients": {
     "calories": "143 kcal",
     "carbohydrateContent": "9 g",
@@ -54,14 +51,17 @@
     "unsaturatedFatContent": "2 g",
     "servingSize": "1 serving"
   },
-  "prep_time": 10,
-  "ratings": 5.0,
-  "ratings_count": 5,
-  "site_name": "101 Cookbooks",
-  "title": "Broccoli Soup with Coconut Milk",
-  "total_time": 20,
-  "yields": "8 servings",
+  "cuisine": "California,Easy,Vegan,Vegetarian",
+  "category": "Lunch,Soup",
   "keywords": [
     "broccoli soup"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 5,
+  "instructions_list": [
+    "Scoop a big spoonful of thick coconut cream from the top of the coconut milk can. Add it to a large pan over medium-high heat. When hot, stir in the garlic, onions, chile, and salt. Sauté for a couple minutes, just long enough for everything to soften up.",
+    "Add the remaining coconut milk, and the water, and bring to a simmer before adding the broccoli and spinach. Simmer just long enough for the broccoli to get tender throughout, 2 - 4 minutes.",
+    "Immediately remove the soup from heat and puree with an immersion blender. Add more water if you feel the need to thin the soup out. Taste and add more salt if needed.",
+    "Serve sprinkled with tofu cubes, toasted almonds, and lots of scallions."
   ]
 }

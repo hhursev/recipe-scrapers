@@ -1,10 +1,28 @@
 {
-  "author": "Melissa",
-  "canonical_url": "https://www.number-2-pencil.com/one-sheet-pan-shrimp-fajitas/",
-  "category": "Dinner, One Sheet Pan, Recipes, Shrimp",
-  "description": "This shrimp fajita recipe is seriously so easy and delicious! All you have to do is scoop the juicy shrimp, tender bell pepper and onions into a soft warm tortilla for a super fast and easy weeknight dinner!",
   "host": "number-2-pencil.com",
-  "image": "https://www.number-2-pencil.com/wp-content/uploads/2016/09/Sheet-Pan-Shrimp-Fajitas_-6.jpg",
+  "canonical_url": "https://www.number-2-pencil.com/one-sheet-pan-shrimp-fajitas/",
+  "site_name": "No. 2 Pencil",
+  "author": "Melissa",
+  "language": "en-US",
+  "title": "Sheet Pan Shrimp Fajitas",
+  "ingredients": [
+    "1 1/2 pounds shrimp (peeled and deveined)",
+    "1 yellow bell pepper (sliced thin)",
+    "1 red bell pepper (sliced thin)",
+    "1 orange bell pepper (sliced thin)",
+    "1 small red onion (sliced thin)",
+    "1 1/2 tablespoons extra virgin olive oil",
+    "1 teaspoon kosher salt",
+    "several turns of freshly ground pepper",
+    "2 teaspoon chili powder",
+    "1/2 teaspoon garlic powder",
+    "1/2 teaspoon onion powder",
+    "1/2 teaspoon ground cumin",
+    "1/2 teaspoon smoked paprika",
+    "lime",
+    "fresh cilantro for garnish",
+    "tortillas (warmed)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,36 +46,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 1/2 pounds shrimp (peeled and deveined)",
-    "1 yellow bell pepper (sliced thin)",
-    "1 red bell pepper (sliced thin)",
-    "1 orange bell pepper (sliced thin)",
-    "1 small red onion (sliced thin)",
-    "1 1/2 tablespoons extra virgin olive oil",
-    "1 teaspoon kosher salt",
-    "several turns of freshly ground pepper",
-    "2 teaspoon chili powder",
-    "1/2 teaspoon garlic powder",
-    "1/2 teaspoon onion powder",
-    "1/2 teaspoon ground cumin",
-    "1/2 teaspoon smoked paprika",
-    "lime",
-    "fresh cilantro for garnish",
-    "tortillas (warmed)"
-  ],
   "instructions": "Preheat oven to 450 degrees.\nIn a large bowl, combine onion, bell pepper, shrimp, olive oil, salt and pepper and spices.\nToss to combine.\nSpray baking sheet with non stick cooking spray.\nSpread shrimp, bell peppers and onions on baking sheet.\nCook at 450 degrees for about 8 minutes. Then turn oven to broil and cook for additional 2 minutes or until shrimp is cooked through.\nSqueeze juice from fresh lime over fajita mixture and top with fresh cilantro.\nServe in warm tortillas.",
-  "instructions_list": [
-    "Preheat oven to 450 degrees.",
-    "In a large bowl, combine onion, bell pepper, shrimp, olive oil, salt and pepper and spices.",
-    "Toss to combine.",
-    "Spray baking sheet with non stick cooking spray.",
-    "Spread shrimp, bell peppers and onions on baking sheet.",
-    "Cook at 450 degrees for about 8 minutes. Then turn oven to broil and cook for additional 2 minutes or until shrimp is cooked through.",
-    "Squeeze juice from fresh lime over fajita mixture and top with fresh cilantro.",
-    "Serve in warm tortillas."
-  ],
-  "language": "en-US",
+  "total_time": 20,
+  "prep_time": 10,
+  "cook_time": 10,
+  "yields": "4 servings",
+  "image": "https://www.number-2-pencil.com/wp-content/uploads/2016/09/Sheet-Pan-Shrimp-Fajitas_-6.jpg",
+  "description": "This shrimp fajita recipe is seriously so easy and delicious! All you have to do is scoop the juicy shrimp, tender bell pepper and onions into a soft warm tortilla for a super fast and easy weeknight dinner!",
   "nutrients": {
     "carbohydrateContent": "9 g",
     "proteinContent": "36 g",
@@ -72,12 +67,17 @@
     "unsaturatedFatContent": "5 g",
     "servingSize": "1 serving"
   },
+  "category": "Dinner, One Sheet Pan, Recipes, Shrimp",
   "ratings": 4.96,
   "ratings_count": 46,
-  "site_name": "No. 2 Pencil",
-  "title": "Sheet Pan Shrimp Fajitas",
-  "total_time": 20,
-  "yields": "4 servings",
-  "cook_time": 10,
-  "prep_time": 10
+  "instructions_list": [
+    "Preheat oven to 450 degrees.",
+    "In a large bowl, combine onion, bell pepper, shrimp, olive oil, salt and pepper and spices.",
+    "Toss to combine.",
+    "Spray baking sheet with non stick cooking spray.",
+    "Spread shrimp, bell peppers and onions on baking sheet.",
+    "Cook at 450 degrees for about 8 minutes. Then turn oven to broil and cook for additional 2 minutes or until shrimp is cooked through.",
+    "Squeeze juice from fresh lime over fajita mixture and top with fresh cilantro.",
+    "Serve in warm tortillas."
+  ]
 }

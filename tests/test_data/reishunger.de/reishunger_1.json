@@ -1,9 +1,25 @@
 {
-  "author": "pommesherz",
-  "canonical_url": "https://www.reishunger.de/rezepte/rezept/2743/crispy-tofu-bowl",
-  "category": "Hauptgericht",
   "host": "reishunger.de",
-  "image": "https://cdn.reishunger.com/crispy-tofu-bowl.jpg?quality=85",
+  "canonical_url": "https://www.reishunger.de/rezepte/rezept/2743/crispy-tofu-bowl",
+  "site_name": "https://www.reishunger.de",
+  "author": "pommesherz",
+  "language": "de",
+  "title": "Crispy Tofu Bowl",
+  "ingredients": [
+    "200 gr Bio Basmati Reis",
+    "50 ml Erdnuss Sauce",
+    "200 gr Tofu",
+    "etwas Paniermehl",
+    "etwas Mehl",
+    "1 Ei",
+    "100 gr Edamame",
+    "1 Möhre",
+    "1/4 Rotkohl",
+    "50 gr Zuckerschoten",
+    "5 Maiskölbchen",
+    "30 gr Sprossen",
+    "eine Handvoll Cashew Kerne"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,22 +40,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "200 gr Bio Basmati Reis",
-    "50 ml Erdnuss Sauce",
-    "200 gr Tofu",
-    "etwas Paniermehl",
-    "etwas Mehl",
-    "1 Ei",
-    "100 gr Edamame",
-    "1 Möhre",
-    "1/4 Rotkohl",
-    "50 gr Zuckerschoten",
-    "5 Maiskölbchen",
-    "30 gr Sprossen",
-    "eine Handvoll Cashew Kerne"
-  ],
   "instructions": "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.\nGemüse schneiden und ca. 5 min blanchieren.\nDen Tofu in Stücke schneiden und in Mehl Ei und Paniermehl wälzen und kurz von allen Seiten anbraten.\nCashew Kerne in einer Pfanne kurz anrösten.\nDie Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).\nAlles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)",
+  "total_time": 60,
+  "yields": "2 servings",
+  "image": "https://cdn.reishunger.com/crispy-tofu-bowl.jpg?quality=85",
+  "description": "Einfach, lecker und schnell gemacht. Und super wenn man Reste verwerten will.",
+  "category": "Hauptgericht",
+  "ratings": 3.67,
+  "ratings_count": 3,
   "instructions_list": [
     "Reis nach Anleitung im Digitalen Reiskocher oder Kochtopf kochen.",
     "Gemüse schneiden und ca. 5 min blanchieren.",
@@ -47,13 +55,5 @@
     "Cashew Kerne in einer Pfanne kurz anrösten.",
     "Die Sauce erwärmen und den Tofu auf einen Spieß ziehen (optimal).",
     "Alles schön anrichten und mit den Sprossen toppen. Guten Reishunger! :-)"
-  ],
-  "language": "de",
-  "ratings": 3.67,
-  "ratings_count": 3,
-  "site_name": "https://www.reishunger.de",
-  "title": "Crispy Tofu Bowl",
-  "total_time": 60,
-  "yields": "2 servings",
-  "description": "Einfach, lecker und schnell gemacht. Und super wenn man Reste verwerten will."
+  ]
 }

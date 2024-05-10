@@ -1,11 +1,27 @@
 {
-  "author": "Marwin Brown",
-  "canonical_url": "https://www.foodfidelity.com/citrus-israeli-couscous/",
-  "category": "Side Dish",
-  "cuisine": "American",
-  "description": "Israeli couscous cooked in orange juice broth and topped with pickled red onions, grilled asparagus, and plump, juicy poached cranberries. #isrealicouscous #pearlcouscous #couscous #sidedish #easterrecipes #sidedish #dinner #foodfidelity www.foodfidelity.com",
   "host": "foodfidelity.com",
-  "image": "https://www.foodfidelity.com/wp-content/uploads/2018/05/citrus-couscous.jpg",
+  "canonical_url": "https://www.foodfidelity.com/citrus-israeli-couscous/",
+  "site_name": "Food Fidelity",
+  "author": "Marwin Brown",
+  "language": "en-US",
+  "title": "Citrus Israeli Couscous Salad With Asparagus and Cranberries",
+  "ingredients": [
+    "1 cup water",
+    "2/3 cup orange juice",
+    "1 1/3 cups pearl couscous",
+    "1 cups sliced red onion",
+    "1 clove garlic",
+    "3 Tbsp white sugar",
+    "1 Tbsp salt",
+    "1/2 tsp peppercorns",
+    "1 cup white vinegar",
+    "1 pound asparagus trimmed",
+    "3 tablespoons extra-virgin olive oil",
+    "Kosher salt and freshly ground black pepper",
+    "1 lemon",
+    "1 cup white wine",
+    "1 cup dried cranberries"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -43,24 +59,20 @@
       "purpose": "Wine soaked cranberries Ingredients"
     }
   ],
-  "ingredients": [
-    "1 cup water",
-    "2/3 cup orange juice",
-    "1 1/3 cups pearl couscous",
-    "1 cups sliced red onion",
-    "1 clove garlic",
-    "3 Tbsp white sugar",
-    "1 Tbsp salt",
-    "1/2 tsp peppercorns",
-    "1 cup white vinegar",
-    "1 pound asparagus trimmed",
-    "3 tablespoons extra-virgin olive oil",
-    "Kosher salt and freshly ground black pepper",
-    "1 lemon",
-    "1 cup white wine",
-    "1 cup dried cranberries"
-  ],
   "instructions": "Couscous Instructions\nIn a medium saucepan, heat 1 tablespoon of the olive oil.\nAdd the couscous and cook over moderate heat, stirring, until lightly golden, about 3 minutes.\nAdd water and orange juice, cover and cook over low heat until the couscous is tender and all of the liquid is absorbed, about 10 minutes.\nTransfer the couscous to a bowl. Stir in the remaining ingredients, season with salt and pepper, garnish with fresh herbs and serve.\nRed Onions Instructions\nThinly slice the red onion and peel the garlic. Place the onion and garlic in a large glass.\nAdd the sugar, salt, and peppercorns to a small sauce pan. Add the vinegar and stir until the sugar and salt are dissolved. Place a lid on the pot and bring the mixture up to a boil over medium-high heat.\nOnce boiling, pour the vinegar over the sliced onion and garlic. Press the onion down so all the pieces are submerged, then let the mixture cool to room temperature.\nTransfer the onions and vinegar mixture to a lidded glass jar for storage in the refrigerator. The onions can be stored in the refrigerator for 3-4 weeks.\nGrilled Asparagus Instructions\nPreheat grill for high heat.\nLightly coat the asparagus spears with olive oil. Season with salt and pepper to taste.\nGrill over high heat for 2 to 3 minutes, or to desired tenderness. Drizzle with lemon juice.\nWine Soaked Cranberries Instructions\nPut the cranberries in a jar. Bring the wine to a boil in a small saucepan. Pour over the cranberries and let cool to room temperature. Let stand for 30 minutes, or cover and refrigerate for up to 1 month.",
+  "total_time": 35,
+  "prep_time": 15,
+  "cook_time": 20,
+  "yields": "4 servings",
+  "image": "https://www.foodfidelity.com/wp-content/uploads/2018/05/citrus-couscous.jpg",
+  "description": "Israeli couscous cooked in orange juice broth and topped with pickled red onions, grilled asparagus, and plump, juicy poached cranberries. #isrealicouscous #pearlcouscous #couscous #sidedish #easterrecipes #sidedish #dinner #foodfidelity www.foodfidelity.com",
+  "cuisine": "American",
+  "category": "Side Dish",
+  "keywords": [
+    "couscous"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1,
   "instructions_list": [
     "Couscous Instructions",
     "In a medium saucepan, heat 1 tablespoon of the olive oil.",
@@ -78,17 +90,5 @@
     "Grill over high heat for 2 to 3 minutes, or to desired tenderness. Drizzle with lemon juice.",
     "Wine Soaked Cranberries Instructions",
     "Put the cranberries in a jar. Bring the wine to a boil in a small saucepan. Pour over the cranberries and let cool to room temperature. Let stand for 30 minutes, or cover and refrigerate for up to 1 month."
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Food Fidelity",
-  "title": "Citrus Israeli Couscous Salad With Asparagus and Cranberries",
-  "total_time": 35,
-  "yields": "4 servings",
-  "cook_time": 20,
-  "prep_time": 15,
-  "keywords": [
-    "couscous"
   ]
 }

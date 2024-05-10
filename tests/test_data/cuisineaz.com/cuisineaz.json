@@ -1,9 +1,17 @@
 {
-  "author": "Cuisine AZ",
-  "canonical_url": "https://www.cuisineaz.com/recettes/filet-de-saumon-au-four-63049.aspx",
-  "category": "Viandes",
   "host": "cuisineaz.com",
-  "image": "https://img.cuisineaz.com/660x660/2014/02/24/i78436-filet-de-saumon-au-four.jpeg",
+  "canonical_url": "https://www.cuisineaz.com/recettes/filet-de-saumon-au-four-63049.aspx",
+  "site_name": "Cuisine AZ",
+  "author": "Cuisine AZ",
+  "language": "fr",
+  "title": "Filet de saumon au four",
+  "ingredients": [
+    "600 g Filet de saumon",
+    "30 ml Huile d'olive",
+    "4 g Origan séché",
+    "1 pincée(s) Sel",
+    "1 pincée(s) Poivre"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -16,14 +24,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "600 g Filet de saumon",
-    "30 ml Huile d'olive",
-    "4 g Origan séché",
-    "1 pincée(s) Sel",
-    "1 pincée(s) Poivre"
-  ],
   "instructions": "Etape 1\nPréchauffez le four th.7 (210°C). Coupez le filet en pavés de saumon de même taille, correspondant au nombre de parts désirées, et déposez-les sur une plaque huilée ou dans un plat à four. Arrosez-les d'huile d'olive. Salez et poivrez à votre convenance et parsemez d'origan.\nEtape 2\nDisposez le plat ou la plaque au centre du four. Comptez environ 10 min pour un filet de 2 à 2,5 cm d'épaisseur. Le temps nécessaire à la bonne cuisson du saumon dépend non seulement de l'épaisseur des pavés mais aussi de la température réelle de votre four, c'est pourquoi il est important de vérifier régulièrement la cuisson du saumon à l'aide d'une fourchette.\nEtape 3\nLorsque vos pavés de saumon sont cuits, servez-les immédiatement, accompagnés d'une bonne salade bien assaisonnée, et éventuellement d'une belle timbale de riz basmati.",
+  "total_time": 15,
+  "prep_time": 5,
+  "cook_time": 10,
+  "yields": "4 servings",
+  "image": "https://img.cuisineaz.com/660x660/2014/02/24/i78436-filet-de-saumon-au-four.jpeg",
+  "description": "Toujours savoureux, jamais décevant, le filet de saumon au four est le succès assuré ! Bon pour la santé avec ses oméga-3, il marque de sacrés points côté nutrition. Et avec lui, pas besoin de fioritures, il se suffit à lui-même : un filet d'huile d'olive, de l'origan, du sel, du poivre, et hop, on enfourne ! Un délice légèrement croustillant sur le dessus, carrément fondant à l'intérieur, à servir avec une salade verte bien assaisonnée et du riz basmati.",
+  "nutrients": {
+    "calories": "339 calories"
+  },
+  "cuisine": "French",
+  "category": "Viandes",
+  "ratings": 4.9,
+  "ratings_count": 18,
   "instructions_list": [
     "Etape 1",
     "Préchauffez le four th.7 (210°C). Coupez le filet en pavés de saumon de même taille, correspondant au nombre de parts désirées, et déposez-les sur une plaque huilée ou dans un plat à four. Arrosez-les d'huile d'olive. Salez et poivrez à votre convenance et parsemez d'origan.",
@@ -31,19 +45,5 @@
     "Disposez le plat ou la plaque au centre du four. Comptez environ 10 min pour un filet de 2 à 2,5 cm d'épaisseur. Le temps nécessaire à la bonne cuisson du saumon dépend non seulement de l'épaisseur des pavés mais aussi de la température réelle de votre four, c'est pourquoi il est important de vérifier régulièrement la cuisson du saumon à l'aide d'une fourchette.",
     "Etape 3",
     "Lorsque vos pavés de saumon sont cuits, servez-les immédiatement, accompagnés d'une bonne salade bien assaisonnée, et éventuellement d'une belle timbale de riz basmati."
-  ],
-  "language": "fr",
-  "nutrients": {
-    "calories": "339 calories"
-  },
-  "ratings": 4.9,
-  "ratings_count": 18,
-  "site_name": "Cuisine AZ",
-  "title": "Filet de saumon au four",
-  "total_time": 15,
-  "yields": "4 servings",
-  "description": "Toujours savoureux, jamais décevant, le filet de saumon au four est le succès assuré ! Bon pour la santé avec ses oméga-3, il marque de sacrés points côté nutrition. Et avec lui, pas besoin de fioritures, il se suffit à lui-même : un filet d'huile d'olive, de l'origan, du sel, du poivre, et hop, on enfourne ! Un délice légèrement croustillant sur le dessus, carrément fondant à l'intérieur, à servir avec une salade verte bien assaisonnée et du riz basmati.",
-  "cook_time": 10,
-  "cuisine": "French",
-  "prep_time": 5
+  ]
 }

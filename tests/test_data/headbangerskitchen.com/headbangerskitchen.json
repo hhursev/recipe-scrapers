@@ -1,9 +1,21 @@
 {
-  "author": "Sahil Makhija",
-  "canonical_url": "https://headbangerskitchen.com/keto-omelet-indian-style/",
-  "category": "Breakfast",
   "host": "headbangerskitchen.com",
-  "image": "https://headbangerskitchen.com/wp-content/uploads/2020/11/KETOMASALAOMELET-Vertical.jpg",
+  "canonical_url": "https://headbangerskitchen.com/keto-omelet-indian-style/",
+  "site_name": "Headbanger's Kitchen",
+  "author": "Sahil Makhija",
+  "language": "en-US",
+  "title": "Keto Omelet (Indian Style)",
+  "ingredients": [
+    "3 Eggs",
+    "20 grams Cheese",
+    "20 grams Red onion",
+    "1 Tbsp Heavy Whipping Cream ( Order online )",
+    "1/2 Tsp Tumeric ( Order online )",
+    "1/2 Tsp Kashmiri Red Chilli Powder ( Order online )",
+    "1 Tbsp Ghee",
+    "salt and pepper to taste",
+    "1 Tsp Coriander"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,32 +32,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 Eggs",
-    "20 grams Cheese",
-    "20 grams Red onion",
-    "1 Tbsp Heavy Whipping Cream ( Order online )",
-    "1/2 Tsp Tumeric ( Order online )",
-    "1/2 Tsp Kashmiri Red Chilli Powder ( Order online )",
-    "1 Tbsp Ghee",
-    "salt and pepper to taste",
-    "1 Tsp Coriander"
-  ],
   "instructions": "Crack the 3 eggs into a bowl and add in the chopped onion, coriander, salt, pepper, tumeric, chilli powder and heavy cream and beat well.\nHeat the ghee in a frying pan and once melted add in the beaten eggs. Grate in the cheese and cover and cook for about 4 minutes. Fold the egg and finish cooking.\nServe with a side of salad.",
+  "total_time": 10,
+  "prep_time": 5,
+  "cook_time": 5,
+  "yields": "1 serving",
+  "image": "https://headbangerskitchen.com/wp-content/uploads/2020/11/KETOMASALAOMELET-Vertical.jpg",
+  "description": "The best Indian egg dish",
+  "cuisine": "Indian",
+  "category": "Breakfast",
+  "ratings": 4.41,
+  "ratings_count": 10,
   "instructions_list": [
     "Crack the 3 eggs into a bowl and add in the chopped onion, coriander, salt, pepper, tumeric, chilli powder and heavy cream and beat well.",
     "Heat the ghee in a frying pan and once melted add in the beaten eggs. Grate in the cheese and cover and cook for about 4 minutes. Fold the egg and finish cooking.",
     "Serve with a side of salad."
-  ],
-  "language": "en-US",
-  "ratings": 4.41,
-  "ratings_count": 10,
-  "site_name": "Headbanger's Kitchen",
-  "title": "Keto Omelet (Indian Style)",
-  "total_time": 10,
-  "yields": "1 serving",
-  "description": "The best Indian egg dish",
-  "cook_time": 5,
-  "cuisine": "Indian",
-  "prep_time": 5
+  ]
 }

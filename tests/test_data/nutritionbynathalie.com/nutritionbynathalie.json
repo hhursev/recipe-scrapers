@@ -1,7 +1,20 @@
 {
-  "canonical_url": "https://www.nutritionbynathalie.com/single-post/2020/07/30/mexican-cauliflower-rice",
   "host": "nutritionbynathalie.com",
-  "image": "https://static.wixstatic.com/media/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg/v1/fill/w_837,h_1000,al_c,q_85,usm_0.66_1.00_0.01/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg",
+  "canonical_url": "https://www.nutritionbynathalie.com/single-post/2020/07/30/mexican-cauliflower-rice",
+  "site_name": "nutritionbynathalie",
+  "language": "pt",
+  "title": "Mexican Cauliflower Rice",
+  "ingredients": [
+    "1 bag fresh or frozen cauliflower rice (if using fresh cauliflower rice, add olive oil, avocado oil or coconut oil to pan)",
+    "1-2 Tbsp olive oil",
+    "1/4 teaspoon turmeric",
+    "1/4 teaspoon cayenne pepper (optional)",
+    "1/2 teaspoon garlic powder",
+    "3/4 cup salsa",
+    "vegan chive or scallion cream cheese",
+    "fresh cilantro, chopped",
+    "sea salt and pepper to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,26 +31,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 bag fresh or frozen cauliflower rice (if using fresh cauliflower rice, add olive oil, avocado oil or coconut oil to pan)",
-    "1-2 Tbsp olive oil",
-    "1/4 teaspoon turmeric",
-    "1/4 teaspoon cayenne pepper (optional)",
-    "1/2 teaspoon garlic powder",
-    "3/4 cup salsa",
-    "vegan chive or scallion cream cheese",
-    "fresh cilantro, chopped",
-    "sea salt and pepper to taste"
-  ],
   "instructions": "Heat a pan on medium heat with oil.\nAdd the cauliflower and allow it to cook for about 5 minutes (should be nearly fully cooked).\nTurn heat down to low and add turmeric, cayenne, garlic powder, salsa, salt and pepper and continue to cook until done (about 2-3 more minutes).\nStir in vegan cream cheese and cilantro. Serve immediately and enjoy!",
+  "image": "https://static.wixstatic.com/media/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg/v1/fill/w_837,h_1000,al_c,q_85,usm_0.66_1.00_0.01/d3b5ba_7ae468273837425aa869486557b06bac~mv2.jpg",
+  "ratings": null,
   "instructions_list": [
     "Heat a pan on medium heat with oil.",
     "Add the cauliflower and allow it to cook for about 5 minutes (should be nearly fully cooked).",
     "Turn heat down to low and add turmeric, cayenne, garlic powder, salsa, salt and pepper and continue to cook until done (about 2-3 more minutes).",
     "Stir in vegan cream cheese and cilantro. Serve immediately and enjoy!"
-  ],
-  "language": "pt",
-  "ratings": null,
-  "site_name": "nutritionbynathalie",
-  "title": "Mexican Cauliflower Rice"
+  ]
 }

@@ -1,10 +1,21 @@
 {
-  "author": "Stephanie Manley",
-  "canonical_url": "https://copykat.com/make-tender-beef-tips-in-gravy/",
-  "category": "Main Course",
-  "description": "You can make amazingly tender beef tips and gravy in an Instant Pot or slow cooker.",
   "host": "copykat.com",
-  "image": "https://copykat.com/wp-content/uploads/2020/11/Beef-Tips-and-Gravy-Pin2.jpg",
+  "canonical_url": "https://copykat.com/make-tender-beef-tips-in-gravy/",
+  "site_name": "CopyKat Recipes",
+  "author": "Stephanie Manley",
+  "language": "en-US",
+  "title": "Make Tender Beef Tips and Gravy",
+  "ingredients": [
+    "1 cup flour",
+    "1 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "3 pounds lean chuck roast",
+    "48 ounces beef stock",
+    "1 tablespoon vegetable oil",
+    "2 teaspoons gravy master",
+    "1 cup onions (chopped)",
+    "16 ounces noodles (or rice for serving)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,31 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 cup flour",
-    "1 teaspoon salt",
-    "1/4 teaspoon black pepper",
-    "3 pounds lean chuck roast",
-    "48 ounces beef stock",
-    "1 tablespoon vegetable oil",
-    "2 teaspoons gravy master",
-    "1 cup onions (chopped)",
-    "16 ounces noodles (or rice for serving)"
-  ],
   "instructions": "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.\nInstant Pot Directions\nSet the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.\nAdd 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.\nSlow Cooker Directions\nBrown the beef in a large skillet in small batches with some vegetable oil. Add the browned beef, beef broth, onion, and Gravy Master to the slow cooker. Cook for 4 to 6 hours on low.\nIf the liquid hasn't thickened up to your desired consistency, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour together. Stir this into the liquid and it will thicken up the gravy in the slow cooker.\nServing\nPrepare noodles or rice according to package instructions.\nServe beef tips and gravy over noodles or rice.",
-  "instructions_list": [
-    "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.",
-    "Instant Pot Directions",
-    "Set the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.",
-    "Add 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.",
-    "Slow Cooker Directions",
-    "Brown the beef in a large skillet in small batches with some vegetable oil. Add the browned beef, beef broth, onion, and Gravy Master to the slow cooker. Cook for 4 to 6 hours on low.",
-    "If the liquid hasn't thickened up to your desired consistency, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour together. Stir this into the liquid and it will thicken up the gravy in the slow cooker.",
-    "Serving",
-    "Prepare noodles or rice according to package instructions.",
-    "Serve beef tips and gravy over noodles or rice."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 10,
+  "cook_time": 30,
+  "yields": "10 servings",
+  "image": "https://copykat.com/wp-content/uploads/2020/11/Beef-Tips-and-Gravy-Pin2.jpg",
+  "description": "You can make amazingly tender beef tips and gravy in an Instant Pot or slow cooker.",
   "nutrients": {
     "calories": "495 kcal",
     "carbohydrateContent": "46 g",
@@ -58,18 +51,25 @@
     "sugarContent": "2 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 3,
-  "site_name": "CopyKat Recipes",
-  "title": "Make Tender Beef Tips and Gravy",
-  "total_time": 40,
-  "yields": "10 servings",
-  "cook_time": 30,
   "cuisine": "American",
-  "prep_time": 10,
+  "category": "Main Course",
   "keywords": [
     "Beef Tips and Gravy",
     "Instant Pot Recipes",
     "Slow Cooker Recipes"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 3,
+  "instructions_list": [
+    "In a small bowl add flour, salt, and pepper. Stir the salt and pepper into the flour. Cut and trim roast into small bite-sized pieces. Dredge beef pieces in seasoned flour shake off excess flour.",
+    "Instant Pot Directions",
+    "Set the Instant Pot to saute, add oil. When the oil has heated drop in several pieces of the beef. Cook seasoned beef on all sides until lightly browned. Cook beef in small batches. When all of the beef is cooked add it back to the Instant Pot.",
+    "Add 1 cup of onion, two teaspoons of Gravy Master, and beef stock. Place lid on high and cook for 15 minutes on high pressure. Release pot after cooking with either a quick release or a natural release.",
+    "Slow Cooker Directions",
+    "Brown the beef in a large skillet in small batches with some vegetable oil. Add the browned beef, beef broth, onion, and Gravy Master to the slow cooker. Cook for 4 to 6 hours on low.",
+    "If the liquid hasn't thickened up to your desired consistency, you can thicken it up by mixing 1 tablespoon of butter and one tablespoon of flour together. Stir this into the liquid and it will thicken up the gravy in the slow cooker.",
+    "Serving",
+    "Prepare noodles or rice according to package instructions.",
+    "Serve beef tips and gravy over noodles or rice."
   ]
 }

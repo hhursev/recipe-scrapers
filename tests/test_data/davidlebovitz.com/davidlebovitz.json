@@ -1,10 +1,28 @@
 {
-  "author": "David",
-  "canonical_url": "https://www.davidlebovitz.com/faux-gras-foie-gras-vegetarian-lentil-mushroom-pate-recipe/",
-  "category": null,
-  "description": "Adapted from Très Green, Très Clean, Très Chic by Rebecca Leffler Lentils double in volume when cooked, so 1 cup (160g) of dried lentils will yield close to the correct amount. They usually take about 20 to 30 minutes to cook until soft, but check the directions on the package for specific guidelines. If avoiding gluten, use tamari instead of soy sauce. For a vegan version, replace the butter with the same quantity of olive oil, for a total of 1/4 cup (60ml) of olive oil. The cognac or brandy is optional, but it does give the faux gras a little je ne sais quoi.",
   "host": "davidlebovitz.com",
-  "image": "https://www.davidlebovitz.com/wp-content/uploads/2015/06/Faux-Gras-Lentil-Pate-8.jpg",
+  "canonical_url": "https://www.davidlebovitz.com/faux-gras-foie-gras-vegetarian-lentil-mushroom-pate-recipe/",
+  "site_name": "David Lebovitz",
+  "author": "David",
+  "language": "en-US",
+  "title": "Faux Gras",
+  "ingredients": [
+    "12 medium-sized (100g, about 1 cup) button mushrooms",
+    "2 tablespoons olive oil",
+    "2 tablespoons butter (salted or unsalted)",
+    "1 small onion (peeled and diced)",
+    "2 cloves garlic (peeled and minced)",
+    "2 cups (400g) cooked green lentils",
+    "1 cup (140g) toasted walnuts or pecans",
+    "2 tablespoons freshly squeezed lemon juice",
+    "1 tablespoon soy sauce or tamari",
+    "2 teaspoons minced fresh rosemary",
+    "2 teaspoons fresh thyme (minced)",
+    "2 tablespoons fresh sage or flat leaf parsley",
+    "optional: 2 teaspoons Cognac or brandy",
+    "1 teaspoon brown sugar",
+    "1/8 teaspoon cayenne pepper",
+    "salt and freshly ground black pepper"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -28,31 +46,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "12 medium-sized (100g, about 1 cup) button mushrooms",
-    "2 tablespoons olive oil",
-    "2 tablespoons butter (salted or unsalted)",
-    "1 small onion (peeled and diced)",
-    "2 cloves garlic (peeled and minced)",
-    "2 cups (400g) cooked green lentils",
-    "1 cup (140g) toasted walnuts or pecans",
-    "2 tablespoons freshly squeezed lemon juice",
-    "1 tablespoon soy sauce or tamari",
-    "2 teaspoons minced fresh rosemary",
-    "2 teaspoons fresh thyme (minced)",
-    "2 tablespoons fresh sage or flat leaf parsley",
-    "optional: 2 teaspoons Cognac or brandy",
-    "1 teaspoon brown sugar",
-    "1/8 teaspoon cayenne pepper",
-    "salt and freshly ground black pepper"
-  ],
   "instructions": "Wipe the mushrooms clean. Slice off a bit of the stem end (the funky parts) and slice them. Heat the olive oil and butter in a skillet or wide saucepan. Add the onions and garlic, and cook, stirring frequently, until the onions become translucent, 5 to 6 minutes. Add the mushrooms and cook, stirring occasionally, until they’re soft and cooked through, another 5 to 8 minutes. Remove from heat.\nIn a food processor, combine the cooked lentils, nuts, lemon juice, soy sauce, rosemary, thyme, sage or parsley, Cognac (if using), brown sugar, and cayenne. Scrape in the cooked mushroom mixture and process until completely smooth. Taste, and add salt, pepper, and additional cognac, soy sauce, or lemon juice, if it needs balancing.\nScrape the pâté into a small serving bowl and refrigerate for a few hours, until firm.",
+  "image": "https://www.davidlebovitz.com/wp-content/uploads/2015/06/Faux-Gras-Lentil-Pate-8.jpg",
+  "description": "Adapted from Très Green, Très Clean, Très Chic by Rebecca Leffler Lentils double in volume when cooked, so 1 cup (160g) of dried lentils will yield close to the correct amount. They usually take about 20 to 30 minutes to cook until soft, but check the directions on the package for specific guidelines. If avoiding gluten, use tamari instead of soy sauce. For a vegan version, replace the butter with the same quantity of olive oil, for a total of 1/4 cup (60ml) of olive oil. The cognac or brandy is optional, but it does give the faux gras a little je ne sais quoi.",
+  "category": null,
   "instructions_list": [
     "Wipe the mushrooms clean. Slice off a bit of the stem end (the funky parts) and slice them. Heat the olive oil and butter in a skillet or wide saucepan. Add the onions and garlic, and cook, stirring frequently, until the onions become translucent, 5 to 6 minutes. Add the mushrooms and cook, stirring occasionally, until they’re soft and cooked through, another 5 to 8 minutes. Remove from heat.",
     "In a food processor, combine the cooked lentils, nuts, lemon juice, soy sauce, rosemary, thyme, sage or parsley, Cognac (if using), brown sugar, and cayenne. Scrape in the cooked mushroom mixture and process until completely smooth. Taste, and add salt, pepper, and additional cognac, soy sauce, or lemon juice, if it needs balancing.",
     "Scrape the pâté into a small serving bowl and refrigerate for a few hours, until firm."
-  ],
-  "language": "en-US",
-  "site_name": "David Lebovitz",
-  "title": "Faux Gras"
+  ]
 }

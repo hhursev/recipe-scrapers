@@ -1,11 +1,23 @@
 {
-  "author": "Matt Ivan",
-  "canonical_url": "https://www.platingpixels.com/korean-short-ribs-kalbi/",
-  "category": "Entree",
-  "cuisine": "Asian",
-  "description": "Instant Pot Korean Short Ribs (Kalbi) coated in a thick homemade glaze that's bursting with umami, sweet and spicy flavors.",
   "host": "platingpixels.com",
-  "image": "https://www.platingpixels.com/wp-content/uploads/2021/01/Instant-Pot-Beef-Short-Ribs-recipe-1.jpg",
+  "canonical_url": "https://www.platingpixels.com/korean-short-ribs-kalbi/",
+  "site_name": "Plating Pixels",
+  "author": "Matt Ivan",
+  "language": "en-US",
+  "title": "Instant Pot Korean Short Ribs (Kalbi)",
+  "ingredients": [
+    "4 pounds flanken beef short ribs",
+    "1 cup soy sauce",
+    "¼ cup honey",
+    "2 tablespoons sesame oil",
+    "2 tablespoons garlic chili paste",
+    "1 tablespoon rice vinegar",
+    "½ teaspoon black pepper",
+    "½ teaspoon crushed red chili flakes",
+    "3 cloves garlic (minced)",
+    "1 tablespoon fresh grated ginger",
+    "Sesame seeds and sliced green onions (as garnishes)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,28 +36,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 pounds flanken beef short ribs",
-    "1 cup soy sauce",
-    "¼ cup honey",
-    "2 tablespoons sesame oil",
-    "2 tablespoons garlic chili paste",
-    "1 tablespoon rice vinegar",
-    "½ teaspoon black pepper",
-    "½ teaspoon crushed red chili flakes",
-    "3 cloves garlic (minced)",
-    "1 tablespoon fresh grated ginger",
-    "Sesame seeds and sliced green onions (as garnishes)"
-  ],
   "instructions": "In a large bowl, whisk together all ingredients except ribs and sesame seeds. Add beef short ribs and toss to coat. Let rest for 15 minutes for flavors to soak in.\nPlace the prepared ribs on a wire rack in the Instant Pot. Pour remaining liquid over the ribs. Close the lid and cook on manual HIGH pressure for 30 minutes.\nOnce cooked, allow steam to release manually. Or open the release valve after 5 minutes with tongs. Remove the ribs carefully, set aside, and cover with foil to keep warm.\nSet the Instant Pot to high saute and simmer sauce with the lid open until thickened, about 5-10 minutes.\nCoat both sides of the ribs with the sauce, sprinkle with sesame seeds and green onions before serving.",
-  "instructions_list": [
-    "In a large bowl, whisk together all ingredients except ribs and sesame seeds. Add beef short ribs and toss to coat. Let rest for 15 minutes for flavors to soak in.",
-    "Place the prepared ribs on a wire rack in the Instant Pot. Pour remaining liquid over the ribs. Close the lid and cook on manual HIGH pressure for 30 minutes.",
-    "Once cooked, allow steam to release manually. Or open the release valve after 5 minutes with tongs. Remove the ribs carefully, set aside, and cover with foil to keep warm.",
-    "Set the Instant Pot to high saute and simmer sauce with the lid open until thickened, about 5-10 minutes.",
-    "Coat both sides of the ribs with the sauce, sprinkle with sesame seeds and green onions before serving."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 5,
+  "cook_time": 30,
+  "yields": "12 servings",
+  "image": "https://www.platingpixels.com/wp-content/uploads/2021/01/Instant-Pot-Beef-Short-Ribs-recipe-1.jpg",
+  "description": "Instant Pot Korean Short Ribs (Kalbi) coated in a thick homemade glaze that's bursting with umami, sweet and spicy flavors.",
   "nutrients": {
     "servingSize": "3 ribs",
     "calories": "247 kcal",
@@ -58,18 +55,21 @@
     "fiberContent": "1 g",
     "sugarContent": "6 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 6,
-  "site_name": "Plating Pixels",
-  "title": "Instant Pot Korean Short Ribs (Kalbi)",
-  "total_time": 45,
-  "yields": "12 servings",
-  "cook_time": 30,
-  "prep_time": 5,
+  "cuisine": "Asian",
+  "category": "Entree",
   "keywords": [
     "beef short ribs",
     "Instant pot ribs",
     "kalbi recipe",
     "Korean short ribs"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 6,
+  "instructions_list": [
+    "In a large bowl, whisk together all ingredients except ribs and sesame seeds. Add beef short ribs and toss to coat. Let rest for 15 minutes for flavors to soak in.",
+    "Place the prepared ribs on a wire rack in the Instant Pot. Pour remaining liquid over the ribs. Close the lid and cook on manual HIGH pressure for 30 minutes.",
+    "Once cooked, allow steam to release manually. Or open the release valve after 5 minutes with tongs. Remove the ribs carefully, set aside, and cover with foil to keep warm.",
+    "Set the Instant Pot to high saute and simmer sauce with the lid open until thickened, about 5-10 minutes.",
+    "Coat both sides of the ribs with the sauce, sprinkle with sesame seeds and green onions before serving."
   ]
 }

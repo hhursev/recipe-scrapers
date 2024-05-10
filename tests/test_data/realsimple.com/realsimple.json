@@ -1,9 +1,27 @@
 {
-  "author": "Dawn Perry",
-  "canonical_url": "https://www.realsimple.com/food-recipes/browse-all-recipes/classic-cheesecake-recipe",
-  "category": null,
   "host": "realsimple.com",
-  "image": "https://www.realsimple.com/thmb/OyWqkHucZsWzklIA4ld59Eesj2o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheesecake_300-70617627cf5f4f5eae7f1a11018713ec.jpg",
+  "canonical_url": "https://www.realsimple.com/food-recipes/browse-all-recipes/classic-cheesecake-recipe",
+  "site_name": "Real Simple",
+  "author": "Dawn Perry",
+  "language": "en",
+  "title": "Classic Cheesecake",
+  "ingredients": [
+    "Cake:",
+    "18 graham crackers (2 sleeves)",
+    "½ cup (1 stick) unsalted butter, melted",
+    "¼ teaspoon kosher salt",
+    "1 cup plus 4 tablespoons sugar",
+    "3 8-ounce packages cream cheese, at room temperature",
+    "2 cups sour cream, at room temperature",
+    "1 ½ teaspoons pure vanilla extract",
+    "3 large eggs, at room temperature",
+    "Cherry sauce:",
+    "1 10-ounce bag frozen cherries",
+    "½ cup sugar",
+    "¼ teaspoon kosher salt",
+    "1 tablespoons cornstarch",
+    "2 tablespoons fresh lemon juice"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,32 +44,11 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "Cake:",
-    "18 graham crackers (2 sleeves)",
-    "½ cup (1 stick) unsalted butter, melted",
-    "¼ teaspoon kosher salt",
-    "1 cup plus 4 tablespoons sugar",
-    "3 8-ounce packages cream cheese, at room temperature",
-    "2 cups sour cream, at room temperature",
-    "1 ½ teaspoons pure vanilla extract",
-    "3 large eggs, at room temperature",
-    "Cherry sauce:",
-    "1 10-ounce bag frozen cherries",
-    "½ cup sugar",
-    "¼ teaspoon kosher salt",
-    "1 tablespoons cornstarch",
-    "2 tablespoons fresh lemon juice"
-  ],
   "instructions": "Make the cake: Heat oven to 325° F. In a food processor, pulse the graham crackers until fine crumbs form. Add the butter, salt, and 2 tablespoons of the sugar and pulse to combine. Using a straight-sided dry measuring cup, press the mixture into the bottom and 2 inches up the sides of a 9-inch springform pan.\nUsing an electric mixer, beat the cream cheese and 1 cup of the remaining sugar on medium speed until smooth. Add 1 cup of the sour cream and 1 teaspoon of the vanilla and beat to combine. Beat in the eggs one at a time. Pour the mixture into the crust and bake until just set (the center will be slightly wobbly), 50 to 60 minutes.\nIn a small bowl, combine the remaining 1 cup of sour cream, 2 tablespoons of sugar, and ½ teaspoon of vanilla. Spread over the hot cheesecake, then bake until set, 3 to 5 minutes more. Let cool to room temperature in the pan, then refrigerate for at least 2 hours. Run a knife around the edge of the cheesecake before unmolding.\nM ake the cherry sauce: In a large skillet, combine the cherries, sugar, salt, and 2 tablespoons water. Cook over medium-high heat, stirring often, until the mixture begins to thicken, 4 to 6 minutes.\nIn a small bowl, stir together the cornstarch and 2 tablespoons water. Add to the cherries in the skillet and cook, stirring, until the mixture is thick and syrupy, 1 to 2 minutes. Stir in the lemon juice. Let cool completely. Serve with the cheesecake.",
-  "instructions_list": [
-    "Make the cake: Heat oven to 325° F. In a food processor, pulse the graham crackers until fine crumbs form. Add the butter, salt, and 2 tablespoons of the sugar and pulse to combine. Using a straight-sided dry measuring cup, press the mixture into the bottom and 2 inches up the sides of a 9-inch springform pan.",
-    "Using an electric mixer, beat the cream cheese and 1 cup of the remaining sugar on medium speed until smooth. Add 1 cup of the sour cream and 1 teaspoon of the vanilla and beat to combine. Beat in the eggs one at a time. Pour the mixture into the crust and bake until just set (the center will be slightly wobbly), 50 to 60 minutes.",
-    "In a small bowl, combine the remaining 1 cup of sour cream, 2 tablespoons of sugar, and ½ teaspoon of vanilla. Spread over the hot cheesecake, then bake until set, 3 to 5 minutes more. Let cool to room temperature in the pan, then refrigerate for at least 2 hours. Run a knife around the edge of the cheesecake before unmolding.",
-    "M ake the cherry sauce: In a large skillet, combine the cherries, sugar, salt, and 2 tablespoons water. Cook over medium-high heat, stirring often, until the mixture begins to thicken, 4 to 6 minutes.",
-    "In a small bowl, stir together the cornstarch and 2 tablespoons water. Add to the cherries in the skillet and cook, stirring, until the mixture is thick and syrupy, 1 to 2 minutes. Stir in the lemon juice. Let cool completely. Serve with the cheesecake."
-  ],
-  "language": "en",
+  "total_time": 270,
+  "yields": "10 servings",
+  "image": "https://www.realsimple.com/thmb/OyWqkHucZsWzklIA4ld59Eesj2o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheesecake_300-70617627cf5f4f5eae7f1a11018713ec.jpg",
+  "description": "Get the recipe for Classic Cheesecake.",
   "nutrients": {
     "calories": "636 kcal",
     "carbohydrateContent": "52 g",
@@ -63,11 +60,14 @@
     "fatContent": "43 g",
     "unsaturatedFatContent": "0 g"
   },
+  "category": null,
   "ratings": 3.9,
   "ratings_count": 136,
-  "site_name": "Real Simple",
-  "title": "Classic Cheesecake",
-  "total_time": 270,
-  "yields": "10 servings",
-  "description": "Get the recipe for Classic Cheesecake."
+  "instructions_list": [
+    "Make the cake: Heat oven to 325° F. In a food processor, pulse the graham crackers until fine crumbs form. Add the butter, salt, and 2 tablespoons of the sugar and pulse to combine. Using a straight-sided dry measuring cup, press the mixture into the bottom and 2 inches up the sides of a 9-inch springform pan.",
+    "Using an electric mixer, beat the cream cheese and 1 cup of the remaining sugar on medium speed until smooth. Add 1 cup of the sour cream and 1 teaspoon of the vanilla and beat to combine. Beat in the eggs one at a time. Pour the mixture into the crust and bake until just set (the center will be slightly wobbly), 50 to 60 minutes.",
+    "In a small bowl, combine the remaining 1 cup of sour cream, 2 tablespoons of sugar, and ½ teaspoon of vanilla. Spread over the hot cheesecake, then bake until set, 3 to 5 minutes more. Let cool to room temperature in the pan, then refrigerate for at least 2 hours. Run a knife around the edge of the cheesecake before unmolding.",
+    "M ake the cherry sauce: In a large skillet, combine the cherries, sugar, salt, and 2 tablespoons water. Cook over medium-high heat, stirring often, until the mixture begins to thicken, 4 to 6 minutes.",
+    "In a small bowl, stir together the cornstarch and 2 tablespoons water. Add to the cherries in the skillet and cook, stirring, until the mixture is thick and syrupy, 1 to 2 minutes. Stir in the lemon juice. Let cool completely. Serve with the cheesecake."
+  ]
 }

@@ -1,9 +1,19 @@
 {
-  "author": "przepisy.pl",
-  "canonical_url": "https://www.przepisy.pl/przepis/placki-ziemniaczane",
-  "category": "Placki ziemniaczane",
   "host": "przepisy.pl",
-  "image": "https://s3.przepisy.pl/przepisy3ii/img/variants/800x0/placki-ziemniaczane.jpg",
+  "canonical_url": "https://www.przepisy.pl/przepis/placki-ziemniaczane",
+  "site_name": null,
+  "author": "przepisy.pl",
+  "language": "pl-PL",
+  "title": "Placki ziemniaczane",
+  "ingredients": [
+    "ziemniaki 1 kilogram",
+    "cebula 1 sztuka",
+    "jajka 2 sztuki",
+    "Przyprawa w Mini kostkach Czosnek Knorr 1 sztuka",
+    "gałka muszkatołowa 1 szczypta",
+    "sól 1 szczypta",
+    "mąka 3 łyżki"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,29 +28,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "ziemniaki 1 kilogram",
-    "cebula 1 sztuka",
-    "jajka 2 sztuki",
-    "Przyprawa w Mini kostkach Czosnek Knorr 1 sztuka",
-    "gałka muszkatołowa 1 szczypta",
-    "sól 1 szczypta",
-    "mąka 3 łyżki"
-  ],
   "instructions": "Obierz ziemniaki, zetrzyj na tarce. Odsącz masę przez sito. Zetrzyj cebulę na tarce.\nDodaj do ziemniaków cebulę, jajka, gałkę muszkatołową oraz mini kostkę Knorr.\nWymieszaj wszystko dobrze, dodaj mąkę, aby nadać masie odpowiednią konsystencję.\nRozgrzej na patelni olej, nakładaj masę łyżką. Smaż placki z obu stron na złoty brąz i od razu podawaj.",
-  "instructions_list": [
-    "Obierz ziemniaki, zetrzyj na tarce. Odsącz masę przez sito. Zetrzyj cebulę na tarce.",
-    "Dodaj do ziemniaków cebulę, jajka, gałkę muszkatołową oraz mini kostkę Knorr.",
-    "Wymieszaj wszystko dobrze, dodaj mąkę, aby nadać masie odpowiednią konsystencję.",
-    "Rozgrzej na patelni olej, nakładaj masę łyżką. Smaż placki z obu stron na złoty brąz i od razu podawaj."
-  ],
-  "language": "pl-PL",
-  "ratings": 4.42,
-  "ratings_count": 117,
-  "site_name": null,
-  "title": "Placki ziemniaczane",
   "total_time": 40,
+  "prep_time": 40,
   "yields": "8 servings",
+  "image": "https://s3.przepisy.pl/przepisy3ii/img/variants/800x0/placki-ziemniaczane.jpg",
+  "description": "Jedni zajadają się plackami ziemniaczanymi posypanymi cukrem, inni z ochotą dodają do nich gęstą, kwaśną śmietanę, a jeszcze inni najbardziej cenią przepisy na placki ziemniaczane polane mięsnym gulaszem. Niewątpliwie najlepsze placki ziemniaczane to te usmażone na złoto, których chrupiąca, lekko przypieczona skórka skrywa miękki i delikatny środek. Niezależnie od tego, jakie dodatki należą do Twoich kulinarnych faworytów, poznaj naszą wersję przyrządzania tych przysmaków. Rumiane placki ziemniaczane to coś zdecydowanie więcej niż tylko potrawa charakterystyczna dla barów mlecznych. Dla kogo? Przepis na placki ziemniaczane przypadnie do gustu smakoszom ziemniaczanych potraw. Do stołu chętnie zasiądą również zwolennicy tradycyjnych dań. Kuchnia jak u mamy? Z plackami ziemniaczanymi według naszego przepisu ten efekt uzyskasz bez problemów. Masz ochotę na odrobinę nowości? Do chrupiących placuszków dodaj łososia albo krewetki – nie pożałujesz! Na jaką okazję? Placki ziemniaczane to idealna propozycja na poskromienie większego głodu. Świetnie sprawdzają się w jesiennych i zimowych miesiącach jako rozgrzewający obiad. Jak zrobić placki ziemniaczane w takiej odsłonie? Sos grzybowy, żurawina i oscypek to sezonowe, obowiązkowe dodatki. Czy wiesz, że? Ziemniaków nie musisz trzeć na drobnej tarce. Wystarczy, że zetrzesz je na grubych oczkach. Jak zrobić placki ziemniaczane tak, aby nie rozpadły się podczas smażenia, do masy ziemniaczanej dodaj jajko i odrobinę mąki. Ich postrzępione brzegi nie tylko pięknie się prezentują, ale też genialnie smakują i chrupią. Dla urozmaicenia: Pamiętaj, że przepis na placki ziemniaczane możesz dowolnie urozmaicić, serwując je z ulubionymi składnikami. Jak zrobić placki ziemniaczane, które zaskoczą wszystkich? Jeśli lubisz eksperymentować, do masy (oprócz czosnku) dorzuć ulubione zioła lub drobno pokrojone warzywa. Dzięki szpinakowi, papryce chili lub cebuli będą aromatyczne i kolorowe.",
+  "category": "Placki ziemniaczane",
   "keywords": [
     "Na co dzień",
     "Ziemniaki",
@@ -49,6 +43,12 @@
     "Łagodne",
     "Bez mięsa"
   ],
-  "description": "Jedni zajadają się plackami ziemniaczanymi posypanymi cukrem, inni z ochotą dodają do nich gęstą, kwaśną śmietanę, a jeszcze inni najbardziej cenią przepisy na placki ziemniaczane polane mięsnym gulaszem. Niewątpliwie najlepsze placki ziemniaczane to te usmażone na złoto, których chrupiąca, lekko przypieczona skórka skrywa miękki i delikatny środek. Niezależnie od tego, jakie dodatki należą do Twoich kulinarnych faworytów, poznaj naszą wersję przyrządzania tych przysmaków. Rumiane placki ziemniaczane to coś zdecydowanie więcej niż tylko potrawa charakterystyczna dla barów mlecznych. Dla kogo? Przepis na placki ziemniaczane przypadnie do gustu smakoszom ziemniaczanych potraw. Do stołu chętnie zasiądą również zwolennicy tradycyjnych dań. Kuchnia jak u mamy? Z plackami ziemniaczanymi według naszego przepisu ten efekt uzyskasz bez problemów. Masz ochotę na odrobinę nowości? Do chrupiących placuszków dodaj łososia albo krewetki – nie pożałujesz! Na jaką okazję? Placki ziemniaczane to idealna propozycja na poskromienie większego głodu. Świetnie sprawdzają się w jesiennych i zimowych miesiącach jako rozgrzewający obiad. Jak zrobić placki ziemniaczane w takiej odsłonie? Sos grzybowy, żurawina i oscypek to sezonowe, obowiązkowe dodatki. Czy wiesz, że? Ziemniaków nie musisz trzeć na drobnej tarce. Wystarczy, że zetrzesz je na grubych oczkach. Jak zrobić placki ziemniaczane tak, aby nie rozpadły się podczas smażenia, do masy ziemniaczanej dodaj jajko i odrobinę mąki. Ich postrzępione brzegi nie tylko pięknie się prezentują, ale też genialnie smakują i chrupią. Dla urozmaicenia: Pamiętaj, że przepis na placki ziemniaczane możesz dowolnie urozmaicić, serwując je z ulubionymi składnikami. Jak zrobić placki ziemniaczane, które zaskoczą wszystkich? Jeśli lubisz eksperymentować, do masy (oprócz czosnku) dorzuć ulubione zioła lub drobno pokrojone warzywa. Dzięki szpinakowi, papryce chili lub cebuli będą aromatyczne i kolorowe.",
-  "prep_time": 40
+  "ratings": 4.42,
+  "ratings_count": 117,
+  "instructions_list": [
+    "Obierz ziemniaki, zetrzyj na tarce. Odsącz masę przez sito. Zetrzyj cebulę na tarce.",
+    "Dodaj do ziemniaków cebulę, jajka, gałkę muszkatołową oraz mini kostkę Knorr.",
+    "Wymieszaj wszystko dobrze, dodaj mąkę, aby nadać masie odpowiednią konsystencję.",
+    "Rozgrzej na patelni olej, nakładaj masę łyżką. Smaż placki z obu stron na złoty brąz i od razu podawaj."
+  ]
 }

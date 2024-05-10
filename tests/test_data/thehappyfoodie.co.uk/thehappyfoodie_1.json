@@ -1,10 +1,22 @@
 {
-  "author": "Rachel Khoo",
-  "canonical_url": "https://thehappyfoodie.co.uk/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/",
-  "category": "Dinner, Main Course",
-  "cuisine": "French",
   "host": "thehappyfoodie.co.uk",
-  "image": "https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg",
+  "canonical_url": "https://thehappyfoodie.co.uk/recipes/poulet-roti-au-vin-rouge-roast-red-wine-chicken/",
+  "site_name": "The Happy Foodie",
+  "author": "Rachel Khoo",
+  "language": "en-GB",
+  "title": "Poulet rôti au vin rouge (Roast Red Wine Chicken)",
+  "ingredients": [
+    "150ml red wine",
+    "100g tomato paste",
+    "3 sprigs of thyme, leaves picked",
+    "3 sprigs of marjoram, leaves picked, or ½ teaspoon dried",
+    "100ml red wine vinegar",
+    "1 whole chicken cut into 8 pieces (approx. 1.5kg)",
+    "Salt and ground black pepper",
+    "500g baby potatoes, washed",
+    "3 onions, peeled and cut into quarters",
+    "6 carrots, peeled and cut into quarters lengthways"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,32 +34,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "150ml red wine",
-    "100g tomato paste",
-    "3 sprigs of thyme, leaves picked",
-    "3 sprigs of marjoram, leaves picked, or ½ teaspoon dried",
-    "100ml red wine vinegar",
-    "1 whole chicken cut into 8 pieces (approx. 1.5kg)",
-    "Salt and ground black pepper",
-    "500g baby potatoes, washed",
-    "3 onions, peeled and cut into quarters",
-    "6 carrots, peeled and cut into quarters lengthways"
-  ],
   "instructions": "Mix together the red wine, tomato paste, herbs and red wine vinegar. Season the chicken pieces with plenty of salt and pepper then place in a bag with the marinade. Shake the bag to make sure each piece is well coated. Place in the fridge for at least 30 minutes.\nIn the meantime, place the potatoes in a pan of cold water, put the lid on top and bring up to the boil. Boil for 1–2 minutes, then drain in a colander. Place the onions, carrots and potatoes in a large baking dish or tray (big enough to fit the chicken and the vegetables) and pour over 125ml of water. Preheat the oven to 200°C. Remove the chicken from the fridge and arrange the pieces, skin side up, in a layer on top of the vegetables in the dish. Pour the rest of the marinade over the chicken. Cover with a sheet of baking paper or foil and roast in the preheated oven for 30 minutes. Remove the baking paper or foil and baste the chicken with the cooking liquid. Roast, uncovered, for another 15 minutes or until the skin is crisp. Serve immediately.\nLes petits conseils – tips: Buying a whole chicken always works out more affordable. If you aren’t up for dissecting it yourself, ask your butcher to cut it into pieces for you. Otherwise if there’s no knife-wielding butcher about you can always cheat and go for chicken thighs. If you’re unsure whether the chicken is cooked through, pierce with a sharp knife and the juices from the chicken should come out clear.\nFaire en avance – get ahead: The veg and chicken can be prepared up to a day in advance, then simply pop it all in the baking tray and cook as indicated in the recipe.\nMarinating time: 30 minutes – overnight\n",
+  "total_time": 90,
+  "prep_time": 30,
+  "cook_time": 60,
+  "yields": "6 servings",
+  "image": "https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/9780718177478_roast_red_wine_chicken_s900x0_c3840x2243_l0x1385.jpg",
+  "description": "Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious.",
+  "cuisine": "French",
+  "category": "Dinner, Main Course",
   "instructions_list": [
     "Mix together the red wine, tomato paste, herbs and red wine vinegar. Season the chicken pieces with plenty of salt and pepper then place in a bag with the marinade. Shake the bag to make sure each piece is well coated. Place in the fridge for at least 30 minutes.",
     "In the meantime, place the potatoes in a pan of cold water, put the lid on top and bring up to the boil. Boil for 1–2 minutes, then drain in a colander. Place the onions, carrots and potatoes in a large baking dish or tray (big enough to fit the chicken and the vegetables) and pour over 125ml of water. Preheat the oven to 200°C. Remove the chicken from the fridge and arrange the pieces, skin side up, in a layer on top of the vegetables in the dish. Pour the rest of the marinade over the chicken. Cover with a sheet of baking paper or foil and roast in the preheated oven for 30 minutes. Remove the baking paper or foil and baste the chicken with the cooking liquid. Roast, uncovered, for another 15 minutes or until the skin is crisp. Serve immediately.",
     "Les petits conseils – tips: Buying a whole chicken always works out more affordable. If you aren’t up for dissecting it yourself, ask your butcher to cut it into pieces for you. Otherwise if there’s no knife-wielding butcher about you can always cheat and go for chicken thighs. If you’re unsure whether the chicken is cooked through, pierce with a sharp knife and the juices from the chicken should come out clear.",
     "Faire en avance – get ahead: The veg and chicken can be prepared up to a day in advance, then simply pop it all in the baking tray and cook as indicated in the recipe.",
     "Marinating time: 30 minutes – overnight"
-  ],
-  "language": "en-GB",
-  "site_name": "The Happy Foodie",
-  "title": "Poulet rôti au vin rouge (Roast Red Wine Chicken)",
-  "total_time": 90,
-  "yields": "6 servings",
-  "description": "Looking for a recipe to make for family and friends at the weekend? This roast chicken with red wine and potatoes from Rachel Khoo is wholesome and delicious.",
-  "cook_time": 60,
-  "prep_time": 30
+  ]
 }

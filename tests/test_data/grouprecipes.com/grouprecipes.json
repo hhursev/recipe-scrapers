@@ -1,10 +1,19 @@
 {
-  "author": "MountainMamas",
-  "canonical_url": "grouprecipes.com",
-  "category": "slower cooker/crockpot, chicken, biscuits, gravy, slow-cook, nothing specific",
-  "description": "A delicious comforting and hearty meal of Chicken and Dumplings (Biscuits) is just a perfect dinner that can be made in a crockpot while your at work or busy with the kids. This tender and juicy chicken is slow-cooked along side carrots and potatoes and a blend of savory spices.",
   "host": "grouprecipes.com",
-  "image": "http://s2.grouprecipes.com/images/recipes/200/d1505068b3b6795944eeae48987109ba.jpg",
+  "canonical_url": "grouprecipes.com",
+  "site_name": null,
+  "author": "MountainMamas",
+  "language": "en",
+  "title": "Slow Cooker Chicken & Biscuits Recipe",
+  "ingredients": [
+    "3 chicken breasts, diced",
+    "salt, to taste",
+    "pepper, to taste",
+    "2 cups broccoli florets",
+    "2 cups baby carrots, diced",
+    "21 oz condensed cream of chicken soup",
+    "1 can refrigerated biscuit"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,25 +28,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 chicken breasts, diced",
-    "salt, to taste",
-    "pepper, to taste",
-    "2 cups broccoli florets",
-    "2 cups baby carrots, diced",
-    "21 oz condensed cream of chicken soup",
-    "1 can refrigerated biscuit"
-  ],
   "instructions": "Place the chicken in a 7-quart (6 ½ liters) slow cooker. Sprinkle on salt & pepper.\nAdd the veggies and condensed soup, and mix thoroughly.\nCook on high for 3 hours.\nRip biscuit dough into small pieces, and drop evenly over chicken. Cook an additional hour.",
+  "total_time": 180,
+  "yields": "5 servings",
+  "image": "http://s2.grouprecipes.com/images/recipes/200/d1505068b3b6795944eeae48987109ba.jpg",
+  "description": "A delicious comforting and hearty meal of Chicken and Dumplings (Biscuits) is just a perfect dinner that can be made in a crockpot while your at work or busy with the kids. This tender and juicy chicken is slow-cooked along side carrots and potatoes and a blend of savory spices.",
+  "category": "slower cooker/crockpot, chicken, biscuits, gravy, slow-cook, nothing specific",
   "instructions_list": [
     "Place the chicken in a 7-quart (6 ½ liters) slow cooker. Sprinkle on salt & pepper.",
     "Add the veggies and condensed soup, and mix thoroughly.",
     "Cook on high for 3 hours.",
     "Rip biscuit dough into small pieces, and drop evenly over chicken. Cook an additional hour."
-  ],
-  "language": "en",
-  "site_name": null,
-  "title": "Slow Cooker Chicken & Biscuits Recipe",
-  "total_time": 180,
-  "yields": "5 servings"
+  ]
 }

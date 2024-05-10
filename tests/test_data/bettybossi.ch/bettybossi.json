@@ -1,11 +1,28 @@
 {
-  "author": "Betty Bossi",
-  "canonical_url": "bettybossi.ch",
-  "category": "Dessert",
-  "cuisine": "Dessert, Patisserie salée et sucrée",
-  "description": "Ces larges biscuits cachent une crème composée de myrtilles avec un mélange de fromage frais, de séré et de mascarpone et n’attendent que vous pour les couper!",
   "host": "bettybossi.ch",
-  "image": "https://www.bettybossi.ch/rdbimg/bb_blub160501_0070a/bb_blub160501_0070a_r01_v005_x0010.jpg",
+  "canonical_url": "bettybossi.ch",
+  "site_name": null,
+  "author": "Betty Bossi",
+  "language": "fr",
+  "title": "Minicheesecakes",
+  "ingredients": [
+    "120 g de biscuits au beurre (p. ex. petits-beurre)",
+    "40 g de beurre, fondu, refroidi",
+    "250 g de fromage frais double crème (p. ex. Philadelphia)",
+    "250 g de mascarpone",
+    "150 g de séré demi-gras",
+    "3 œufs, battus",
+    "120 g de sucre",
+    "1 sachet de sucre vanillé",
+    "1 citron bio, zeste râpé et 1 c.s. de jus",
+    "2 c.s. de liqueur au cassis ou de sirop de cassis",
+    "2 c.s. de farine",
+    "250 g de myrtilles surgelées, dégelées",
+    "2 c.s. de sucre",
+    "1 c.s. de jus de citron",
+    "2 c.s. de liqueur au cassis ou de sirop de cassis",
+    "1 citron bio, zeste râpé"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -29,32 +46,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "120 g de biscuits au beurre (p. ex. petits-beurre)",
-    "40 g de beurre, fondu, refroidi",
-    "250 g de fromage frais double crème (p. ex. Philadelphia)",
-    "250 g de mascarpone",
-    "150 g de séré demi-gras",
-    "3 œufs, battus",
-    "120 g de sucre",
-    "1 sachet de sucre vanillé",
-    "1 citron bio, zeste râpé et 1 c.s. de jus",
-    "2 c.s. de liqueur au cassis ou de sirop de cassis",
-    "2 c.s. de farine",
-    "250 g de myrtilles surgelées, dégelées",
-    "2 c.s. de sucre",
-    "1 c.s. de jus de citron",
-    "2 c.s. de liqueur au cassis ou de sirop de cassis",
-    "1 citron bio, zeste râpé"
-  ],
   "instructions": "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.\nBien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.\nBien égoutter les myrtilles et mixer les myrtilles avec le reste des ingrédients, étaler sur le fond de petits-beurre, répartir dessus l’appareil au fromage frais.\nCuisson: env. 50 min dans la moitié inférieure du four préchauffé à 180° C. Laisser tiédir ensuite env. 1 h dans le four éteint, en maintenant la porte entrouverte avec le manche d’une spatule en bois. Retirer, laisser refroidir sur une grille. Ôter le bord du moule.",
-  "instructions_list": [
-    "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.",
-    "Bien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.",
-    "Bien égoutter les myrtilles et mixer les myrtilles avec le reste des ingrédients, étaler sur le fond de petits-beurre, répartir dessus l’appareil au fromage frais.",
-    "Cuisson: env. 50 min dans la moitié inférieure du four préchauffé à 180° C. Laisser tiédir ensuite env. 1 h dans le four éteint, en maintenant la porte entrouverte avec le manche d’une spatule en bois. Retirer, laisser refroidir sur une grille. Ôter le bord du moule."
-  ],
-  "language": "fr",
+  "total_time": 90,
+  "prep_time": 40,
+  "cook_time": 50,
+  "yields": "12 servings",
+  "image": "https://www.bettybossi.ch/rdbimg/bb_blub160501_0070a/bb_blub160501_0070a_r01_v005_x0010.jpg",
+  "description": "Ces larges biscuits cachent une crème composée de myrtilles avec un mélange de fromage frais, de séré et de mascarpone et n’attendent que vous pour les couper!",
   "nutrients": {
     "calories": "135 kcal",
     "fatContent": "9 g",
@@ -62,14 +60,8 @@
     "proteinContent": "3 g",
     "servingSize": "30 parts"
   },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": null,
-  "title": "Minicheesecakes",
-  "total_time": 90,
-  "yields": "12 servings",
-  "cook_time": 50,
-  "prep_time": 40,
+  "cuisine": "Dessert, Patisserie salée et sucrée",
+  "category": "Dessert",
   "dietary_restrictions": [
     "Vegetarian Diet"
   ],
@@ -87,5 +79,13 @@
     "farine",
     "myrtilles surgelées",
     "jus de citron"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.",
+    "Bien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.",
+    "Bien égoutter les myrtilles et mixer les myrtilles avec le reste des ingrédients, étaler sur le fond de petits-beurre, répartir dessus l’appareil au fromage frais.",
+    "Cuisson: env. 50 min dans la moitié inférieure du four préchauffé à 180° C. Laisser tiédir ensuite env. 1 h dans le four éteint, en maintenant la porte entrouverte avec le manche d’une spatule en bois. Retirer, laisser refroidir sur une grille. Ôter le bord du moule."
   ]
 }

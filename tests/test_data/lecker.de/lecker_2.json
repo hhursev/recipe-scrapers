@@ -1,12 +1,19 @@
 {
-  "author": "Lecker",
-  "canonical_url": "https://www.lecker.de/naan-brot-rezept-fuer-den-indischen-klassiker-72968.html",
-  "category": null,
-  "cuisine": null,
-  "yields": "6 servings",
-  "total_time": 30,
   "host": "lecker.de",
-  "image": "https://images.lecker.de/naan-brot-b-f6193840/1x1,id=d239fb08,b=lecker,w=1600,h=,ca=10.42,0,85.58,100,rm=sk.jpeg",
+  "canonical_url": "https://www.lecker.de/naan-brot-rezept-fuer-den-indischen-klassiker-72968.html",
+  "site_name": "lecker.de",
+  "author": "Lecker",
+  "language": "de",
+  "title": "Naan-Brot - Rezept für den indischen Klassiker",
+  "ingredients": [
+    "100 ml Milch",
+    "1 TL Zucker",
+    "1 TL Trockenhefe",
+    "1/2 TL Salz",
+    "250 g Mehl",
+    "3 EL Öl",
+    "100 g Vollmilchjoghurt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,25 +28,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "100 ml Milch",
-    "1 TL Zucker",
-    "1 TL Trockenhefe",
-    "1/2 TL Salz",
-    "250 g Mehl",
-    "3 EL Öl",
-    "100 g Vollmilchjoghurt"
-  ],
   "instructions": "Schritt 1\nDen Backofen auf ca. 50 °C vorheizen. Milch lauwarm erwärmen, mit Zucker und Trockenhefe verrühren, dann 25 Minuten ruhen lassen. Mehl und Salz mischen. Hefemilch, Öl und Joghurt zugeben. Die Teigzutaten mit einem Kochlöffel verrühren. Dann mit den Händen zu einem geschmeidigen, glatten Teig verkneten.\nSchritt 2\nDen Teig für das Naan-Brot mit einem Küchentuch abdecken und im warmen Ofen ca. 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat. Den Teig nach dem Gehen auf einer bemehlten Arbeitsfläche noch einmal kräftig durchkneten. Dadurch wird er elastischer und besser formbar. Anschließend zu 6 Kugeln formen und diese nochmals 15 Minuten ruhen lassen.\nSchritt 3\nDie Kugeln mit der Teigrolle jeweils zu ca. 1/2 cm dünnen ovalen Fladen à ca. 18 x 10 cm ausrollen. Eine Pfanne ohne Fett erhitzen. Die Brotfladen darin bei starker Hitze nacheinander von jeder Seite 1-2 Minuten goldbraun braten. Wenn das Brot blasen wirft, wenden und von der anderen Seite braten.",
-  "instructions_list": [
-    "Schritt 1",
-    "Den Backofen auf ca. 50 °C vorheizen. Milch lauwarm erwärmen, mit Zucker und Trockenhefe verrühren, dann 25 Minuten ruhen lassen. Mehl und Salz mischen. Hefemilch, Öl und Joghurt zugeben. Die Teigzutaten mit einem Kochlöffel verrühren. Dann mit den Händen zu einem geschmeidigen, glatten Teig verkneten.",
-    "Schritt 2",
-    "Den Teig für das Naan-Brot mit einem Küchentuch abdecken und im warmen Ofen ca. 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat. Den Teig nach dem Gehen auf einer bemehlten Arbeitsfläche noch einmal kräftig durchkneten. Dadurch wird er elastischer und besser formbar. Anschließend zu 6 Kugeln formen und diese nochmals 15 Minuten ruhen lassen.",
-    "Schritt 3",
-    "Die Kugeln mit der Teigrolle jeweils zu ca. 1/2 cm dünnen ovalen Fladen à ca. 18 x 10 cm ausrollen. Eine Pfanne ohne Fett erhitzen. Die Brotfladen darin bei starker Hitze nacheinander von jeder Seite 1-2 Minuten goldbraun braten. Wenn das Brot blasen wirft, wenden und von der anderen Seite braten."
-  ],
-  "language": "de",
+  "total_time": 30,
+  "cook_time": 30,
+  "yields": "6 servings",
+  "image": "https://images.lecker.de/naan-brot-b-f6193840/1x1,id=d239fb08,b=lecker,w=1600,h=,ca=10.42,0,85.58,100,rm=sk.jpeg",
+  "description": "Innen fluffig, außen kross: Naan-Brot gelingt dir mit unserem Rezept so köstlich wie im indischen Restaurant.",
   "nutrients": {
     "calories": "215 kcal",
     "carbohydrateContent": "33 g",
@@ -47,10 +41,16 @@
     "proteinContent": "6 g",
     "servingSize": "1 Stück"
   },
-  "site_name": "lecker.de",
-  "title": "Naan-Brot - Rezept für den indischen Klassiker",
-  "description": "Innen fluffig, außen kross: Naan-Brot gelingt dir mit unserem Rezept so köstlich wie im indischen Restaurant.",
-  "cook_time": 30,
+  "cuisine": null,
+  "category": null,
   "ratings": 5.0,
-  "ratings_count": 1
+  "ratings_count": 1,
+  "instructions_list": [
+    "Schritt 1",
+    "Den Backofen auf ca. 50 °C vorheizen. Milch lauwarm erwärmen, mit Zucker und Trockenhefe verrühren, dann 25 Minuten ruhen lassen. Mehl und Salz mischen. Hefemilch, Öl und Joghurt zugeben. Die Teigzutaten mit einem Kochlöffel verrühren. Dann mit den Händen zu einem geschmeidigen, glatten Teig verkneten.",
+    "Schritt 2",
+    "Den Teig für das Naan-Brot mit einem Küchentuch abdecken und im warmen Ofen ca. 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat. Den Teig nach dem Gehen auf einer bemehlten Arbeitsfläche noch einmal kräftig durchkneten. Dadurch wird er elastischer und besser formbar. Anschließend zu 6 Kugeln formen und diese nochmals 15 Minuten ruhen lassen.",
+    "Schritt 3",
+    "Die Kugeln mit der Teigrolle jeweils zu ca. 1/2 cm dünnen ovalen Fladen à ca. 18 x 10 cm ausrollen. Eine Pfanne ohne Fett erhitzen. Die Brotfladen darin bei starker Hitze nacheinander von jeder Seite 1-2 Minuten goldbraun braten. Wenn das Brot blasen wirft, wenden und von der anderen Seite braten."
+  ]
 }

@@ -1,10 +1,20 @@
 {
-  "author": "Jamie Lauren & Mollie Katzen",
-  "canonical_url": "https://usapears.org/recipe/sauteed-bosc-pears/",
-  "category": "Dessert",
-  "description": "This simple, tasty pear recipe was created by Chef Jamie Lauren of Absinthe Brasserie and Bar in San Francisco and cookbook author Mollie Katzen. If you can’t find Bosc pears at your local grocery store, red or green Anjou pears also work well.",
   "host": "usapears.org",
-  "image": "https://usapears.org/wp-content/uploads/2014/10/Sauteed-Bosc-Pears1.jpg",
+  "canonical_url": "https://usapears.org/recipe/sauteed-bosc-pears/",
+  "site_name": "USA Pears",
+  "author": "Jamie Lauren & Mollie Katzen",
+  "language": "en-US",
+  "title": "Sauteed Bosc Pears",
+  "ingredients": [
+    "2 tablespoons butter",
+    "¼ teaspoon cinnamon",
+    "¼ teaspoon ground nutmeg",
+    "¼ teaspoon ground allspice",
+    "6 Bosc USA Pears, peeled, cored, and quartered",
+    "Juice of ½ lemon (about 3 tablespoons)",
+    "1 ½ cup nonfat vanilla yogurt or frozen yogurt",
+    "½ cup chopped, toasted California walnuts"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,22 +30,11 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 tablespoons butter",
-    "¼ teaspoon cinnamon",
-    "¼ teaspoon ground nutmeg",
-    "¼ teaspoon ground allspice",
-    "6 Bosc USA Pears, peeled, cored, and quartered",
-    "Juice of ½ lemon (about 3 tablespoons)",
-    "1 ½ cup nonfat vanilla yogurt or frozen yogurt",
-    "½ cup chopped, toasted California walnuts"
-  ],
   "instructions": "To prepare pears, melt butter in a large skillet over medium heat. Stir in spices and cook for 30 seconds or until aromatic. Add pears and cook for 15 minutes or until tender, stirring frequently. Stir in lemon juice.\n\nServe with nonfat vanilla yogurt or frozen yogurt and top with walnuts.",
-  "instructions_list": [
-    "To prepare pears, melt butter in a large skillet over medium heat. Stir in spices and cook for 30 seconds or until aromatic. Add pears and cook for 15 minutes or until tender, stirring frequently. Stir in lemon juice.",
-    "Serve with nonfat vanilla yogurt or frozen yogurt and top with walnuts."
-  ],
-  "language": "en-US",
+  "total_time": 25,
+  "yields": "6 servings",
+  "image": "https://usapears.org/wp-content/uploads/2014/10/Sauteed-Bosc-Pears1.jpg",
+  "description": "This simple, tasty pear recipe was created by Chef Jamie Lauren of Absinthe Brasserie and Bar in San Francisco and cookbook author Mollie Katzen. If you can’t find Bosc pears at your local grocery store, red or green Anjou pears also work well.",
   "nutrients": {
     "servingSize": "Serving Size: 1 Pear",
     "calories": "Calories: 230",
@@ -43,10 +42,11 @@
     "fiberContent": "Dietary Fiber: 7g",
     "proteinContent": "Protein: 5g"
   },
-  "site_name": "USA Pears",
-  "title": "Sauteed Bosc Pears",
-  "total_time": 25,
-  "yields": "6 servings",
+  "category": "Dessert",
   "ratings": null,
-  "ratings_count": 2
+  "ratings_count": 2,
+  "instructions_list": [
+    "To prepare pears, melt butter in a large skillet over medium heat. Stir in spices and cook for 30 seconds or until aromatic. Add pears and cook for 15 minutes or until tender, stirring frequently. Stir in lemon juice.",
+    "Serve with nonfat vanilla yogurt or frozen yogurt and top with walnuts."
+  ]
 }

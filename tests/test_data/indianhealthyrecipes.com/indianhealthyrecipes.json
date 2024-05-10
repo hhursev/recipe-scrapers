@@ -1,9 +1,21 @@
 {
-  "author": "swasthi",
-  "canonical_url": "https://www.indianhealthyrecipes.com/banana-cake-recipe/",
-  "category": "Dessert / Sweet",
   "host": "indianhealthyrecipes.com",
-  "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/banana-cake-recipe.jpg",
+  "canonical_url": "https://www.indianhealthyrecipes.com/banana-cake-recipe/",
+  "site_name": "Swasthi's Recipes",
+  "author": "swasthi",
+  "language": "en-US",
+  "title": "Banana Cake Recipe",
+  "ingredients": [
+    "2 cups (240 grams) all-purpose flour (or wheat flour (refer notes))",
+    "2 ½ teaspoons (12.5 g) baking powder",
+    "½ teaspoon salt ((or ⅓ teaspoon table salt))",
+    "1 cup (200 grams) fine sugar ((prefer organic))",
+    "100 grams (3.53 oz) unsalted butter ((soft & cold) )",
+    "2 eggs",
+    "2 teaspoons (10 ml) vanilla extract",
+    "160 ml milk",
+    "1 cup ripe banana (mashed)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,18 +32,33 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups (240 grams) all-purpose flour (or wheat flour (refer notes))",
-    "2 ½ teaspoons (12.5 g) baking powder",
-    "½ teaspoon salt ((or ⅓ teaspoon table salt))",
-    "1 cup (200 grams) fine sugar ((prefer organic))",
-    "100 grams (3.53 oz) unsalted butter ((soft & cold) )",
-    "2 eggs",
-    "2 teaspoons (10 ml) vanilla extract",
-    "160 ml milk",
-    "1 cup ripe banana (mashed)"
-  ],
   "instructions": "Preparation\nBring all the ingredients to room temperature except butter before you begin to prepare the batter.\nButter has to be cold, yet soft and should hold its structure. To check press the block of cold butter with your finger, it should dent slightly yet hold its solid structure and should not be too soft.\nGrease a 8 by 8 inch cake tray and line with parchment paper. If you do not have a parchment paper, you may sprinkle flour all over the tray including the sides. Invert and dust off the excess in your kitchen sink.\nPreheat the oven to 170 C or 340 F for at least 15 minutes. If you have a fan forced oven then preheat to 160 C or 320 F.\nFluff up the flour in the jar/ pack with a fork. Then spoon it to the measuring cup and level it with a knife or a straight edged spoon. Sieve flour, baking powder and salt. Set aside.\nHow To Make Banana Cake\nMake sure butter is soft but still cold before this step. Add butter and sugar to a mixing bowl. Using a whisk, beat together until light, pale & fluffy.\nPour vanilla extract and add 1 egg at a time and beat just until creamy.\nAdd the other egg and beat again just until creamy.\nNext add the sieved flour, salt and baking powder. Mix it gently.\nAdding milk in 2 batches, mix the flour on a medium speed until smooth. Do not over mix it.\nAdd banana puree and mix until just combined. Avoid over mixing.\nPour the batter to a lined cake tray and knock it against the counter a few times. Bake for 25 to 30 mins if using a 8 by 8 square pan. If using a different size pan, then the timing varies.\nA skewer/ tester inserted in the center of the cake comes out clean when the cake is done.\nPlace the cake pan on a wired rack and cool for 10 minutes. Then invert the banana cake on the wire rack.\nCool completely before slicing. Serve banana cake plain with milk or tea.",
+  "total_time": 50,
+  "prep_time": 10,
+  "cook_time": 40,
+  "yields": "16 servings",
+  "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/banana-cake-recipe.jpg",
+  "description": "Soft, moist & fluffy banana cake - Easy to make and tastes delicious. Serve it with milk or as a snack with some melted chocolate drizzled over it.",
+  "nutrients": {
+    "calories": "123 kcal",
+    "carbohydrateContent": "14 g",
+    "proteinContent": "3 g",
+    "fatContent": "6 g",
+    "saturatedFatContent": "3 g",
+    "cholesterolContent": "34 mg",
+    "sodiumContent": "129 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "2 g",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "world",
+  "category": "Dessert / Sweet",
+  "keywords": [
+    "Banana cake",
+    "banana cake recipe"
+  ],
+  "ratings": 4.96,
+  "ratings_count": 373,
   "instructions_list": [
     "Preparation",
     "Bring all the ingredients to room temperature except butter before you begin to prepare the batter.",
@@ -50,32 +77,5 @@
     "A skewer/ tester inserted in the center of the cake comes out clean when the cake is done.",
     "Place the cake pan on a wired rack and cool for 10 minutes. Then invert the banana cake on the wire rack.",
     "Cool completely before slicing. Serve banana cake plain with milk or tea."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "123 kcal",
-    "carbohydrateContent": "14 g",
-    "proteinContent": "3 g",
-    "fatContent": "6 g",
-    "saturatedFatContent": "3 g",
-    "cholesterolContent": "34 mg",
-    "sodiumContent": "129 mg",
-    "fiberContent": "1 g",
-    "sugarContent": "2 g",
-    "servingSize": "1 serving"
-  },
-  "ratings": 4.96,
-  "ratings_count": 373,
-  "site_name": "Swasthi's Recipes",
-  "title": "Banana Cake Recipe",
-  "total_time": 50,
-  "yields": "16 servings",
-  "keywords": [
-    "Banana cake",
-    "banana cake recipe"
-  ],
-  "description": "Soft, moist & fluffy banana cake - Easy to make and tastes delicious. Serve it with milk or as a snack with some melted chocolate drizzled over it.",
-  "cook_time": 40,
-  "cuisine": "world",
-  "prep_time": 10
+  ]
 }

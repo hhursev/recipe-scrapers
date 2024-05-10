@@ -1,8 +1,23 @@
 {
-  "author": "Moulinex",
-  "canonical_url": "https://www.moulinex.fr/recette/detail/PRO/B%C5%93uf%20bourguignon/%2Fv1%2Frecipes%2F108166%2F",
   "host": "moulinex.fr",
-  "image": "https://sebplatform.api.groupe-seb.com/statics/b6d6c2a2-f476-4fc1-80ae-9944ccdaeda6.jpg",
+  "canonical_url": "https://www.moulinex.fr/recette/detail/PRO/B%C5%93uf%20bourguignon/%2Fv1%2Frecipes%2F108166%2F",
+  "site_name": "Moulinex",
+  "author": "Moulinex",
+  "language": "fr-fr",
+  "title": "Bœuf bourguignon",
+  "ingredients": [
+    "400 g Bœuf coupé en cubes de 25 g",
+    "10 cl Vin rouge",
+    "10 cl Fond de veau",
+    "50 g Lardons",
+    "100 g Oignons émincés",
+    "1 càs Huile végétale",
+    "1 Carottes émincées",
+    "150 g Champignons de Paris",
+    "1 Bouquet garni",
+    "Poivre",
+    "Sel"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,20 +36,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "400 g Bœuf coupé en cubes de 25 g",
-    "10 cl Vin rouge",
-    "10 cl Fond de veau",
-    "50 g Lardons",
-    "100 g Oignons émincés",
-    "1 càs Huile végétale",
-    "1 Carottes émincées",
-    "150 g Champignons de Paris",
-    "1 Bouquet garni",
-    "Poivre",
-    "Sel"
-  ],
   "instructions": "Préparer les ingrédients.\nEmincer les oignons.\nÉmincer les champignons.\nVerser l'huile dans la cuve.\nFaire revenir tous les ingrédients sauf le liquide et le bouquet garni pendant 10 minutes.\nAjouter le liquide et le bouquet garni. Laisser évaporer l'alcool.\nCuisson sous pression\nServir !",
+  "total_time": 50,
+  "yields": "2 servings",
+  "image": "https://sebplatform.api.groupe-seb.com/statics/b6d6c2a2-f476-4fc1-80ae-9944ccdaeda6.jpg",
+  "ratings": 4.2,
+  "ratings_count": 2,
   "instructions_list": [
     "Préparer les ingrédients.",
     "Emincer les oignons.",
@@ -44,12 +51,5 @@
     "Ajouter le liquide et le bouquet garni. Laisser évaporer l'alcool.",
     "Cuisson sous pression",
     "Servir !"
-  ],
-  "ratings": 4.2,
-  "language": "fr-fr",
-  "site_name": "Moulinex",
-  "title": "Bœuf bourguignon",
-  "total_time": 50,
-  "yields": "2 servings",
-  "ratings_count": 2
+  ]
 }

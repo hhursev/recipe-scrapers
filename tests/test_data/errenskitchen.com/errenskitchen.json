@@ -1,11 +1,24 @@
 {
-  "author": "Erren Hart",
-  "canonical_url": "https://www.errenskitchen.com/chicken-sundried-tomato-pasta/",
-  "category": "Dinner",
-  "cuisine": "Italian",
-  "description": "A delectable dish of Creamy Sun-Dried Tomato Pasta with Chicken flavored with Parmesan cheese, sun-dried tomatoes, onions, and garlic.",
   "host": "errenskitchen.com",
-  "image": "https://www.errenskitchen.com/wp-content/uploads/2022/05/Chicken-Sundried-Tomato-Pasta-06.jpg",
+  "canonical_url": "https://www.errenskitchen.com/chicken-sundried-tomato-pasta/",
+  "site_name": "Erren's Kitchen",
+  "author": "Erren Hart",
+  "language": "en-US",
+  "title": "Creamy Sun-Dried Tomato Pasta with Chicken",
+  "ingredients": [
+    "1 tablespoon olive oil",
+    "2 lbs boneless chicken thighs (or breasts, cubed)",
+    "1 onion (chopped)",
+    "¼ cup sun-dried tomatoes (drained and chopped)",
+    "2 tablespoons sun-dried tomato paste",
+    "3 garlic cloves (minced)",
+    "¾ cup chicken stock",
+    "¾ cup freshly grated Parmesan cheese",
+    "1½ cups half and half (or whipping cream)",
+    "1 pound pasta",
+    "1 tablespoon fresh basil (chopped)",
+    "Salt and pepper to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,33 +38,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 tablespoon olive oil",
-    "2 lbs boneless chicken thighs (or breasts, cubed)",
-    "1 onion (chopped)",
-    "¼ cup sun-dried tomatoes (drained and chopped)",
-    "2 tablespoons sun-dried tomato paste",
-    "3 garlic cloves (minced)",
-    "¾ cup chicken stock",
-    "¾ cup freshly grated Parmesan cheese",
-    "1½ cups half and half (or whipping cream)",
-    "1 pound pasta",
-    "1 tablespoon fresh basil (chopped)",
-    "Salt and pepper to taste"
-  ],
   "instructions": "Pat the chicken meat dry with paper towels. Cut it into evenly cut bite-sized pieces and season well with salt and pepper.\nIn a large pot, start a pot of salted water to cook the pasta.\nWhile waiting for the water to boil, heat the olive oil in a large skillet over medium heat. Add the cubed chicken, seasoned with salt and pepper, and cook until golden brown and thoroughly cooked. Once done, set the chicken aside.\nUse the same skillet to sauté the chopped onion until it becomes soft and translucent. Follow this by adding the chopped sun-dried tomatoes, sun-dried tomato paste, and minced garlic, cooking for an additional minute.\nMix in the chicken stock half and half, and freshly grated Parmesan cheese. Stir to combine the ingredients and bring the mixture to a boil. Lower the heat to low, and simmer for 5 to 10 minutes to reduce and thicken.\nMeanwhile, cook the pasta in the boiling water, making sure to undercook it by about 2-3 minutes less than the package instructions for al dente pasta. Remember to reserve a cup of the pasta water before draining.\nDrain the slightly undercooked pasta and add it directly into the skillet containing the sauce. Mix the pasta well into the sauce, gradually adding the reserved pasta water until the sauce reaches your desired thickness.\nFinally, add the cooked chicken back into the skillet, stirring it into the mixture. Allow everything to simmer together for a few minutes until the pasta is fully cooked and has absorbed some of the flavorful sauce (adding pasta water if necessary to loosen).\nTaste for seasoning and season the pasta with salt and pepper as needed. Serve right away.",
-  "instructions_list": [
-    "Pat the chicken meat dry with paper towels. Cut it into evenly cut bite-sized pieces and season well with salt and pepper.",
-    "In a large pot, start a pot of salted water to cook the pasta.",
-    "While waiting for the water to boil, heat the olive oil in a large skillet over medium heat. Add the cubed chicken, seasoned with salt and pepper, and cook until golden brown and thoroughly cooked. Once done, set the chicken aside.",
-    "Use the same skillet to sauté the chopped onion until it becomes soft and translucent. Follow this by adding the chopped sun-dried tomatoes, sun-dried tomato paste, and minced garlic, cooking for an additional minute.",
-    "Mix in the chicken stock half and half, and freshly grated Parmesan cheese. Stir to combine the ingredients and bring the mixture to a boil. Lower the heat to low, and simmer for 5 to 10 minutes to reduce and thicken.",
-    "Meanwhile, cook the pasta in the boiling water, making sure to undercook it by about 2-3 minutes less than the package instructions for al dente pasta. Remember to reserve a cup of the pasta water before draining.",
-    "Drain the slightly undercooked pasta and add it directly into the skillet containing the sauce. Mix the pasta well into the sauce, gradually adding the reserved pasta water until the sauce reaches your desired thickness.",
-    "Finally, add the cooked chicken back into the skillet, stirring it into the mixture. Allow everything to simmer together for a few minutes until the pasta is fully cooked and has absorbed some of the flavorful sauce (adding pasta water if necessary to loosen).",
-    "Taste for seasoning and season the pasta with salt and pepper as needed. Serve right away."
-  ],
-  "language": "en-US",
+  "total_time": 30,
+  "prep_time": 10,
+  "cook_time": 20,
+  "yields": "4 servings",
+  "image": "https://www.errenskitchen.com/wp-content/uploads/2022/05/Chicken-Sundried-Tomato-Pasta-06.jpg",
+  "description": "A delectable dish of Creamy Sun-Dried Tomato Pasta with Chicken flavored with Parmesan cheese, sun-dried tomatoes, onions, and garlic.",
   "nutrients": {
     "calories": "1208 kcal",
     "carbohydrateContent": "98 g",
@@ -66,17 +59,24 @@
     "unsaturatedFatContent": "33 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 18,
-  "site_name": "Erren's Kitchen",
-  "title": "Creamy Sun-Dried Tomato Pasta with Chicken",
-  "total_time": 30,
-  "yields": "4 servings",
-  "cook_time": 20,
-  "prep_time": 10,
+  "cuisine": "Italian",
+  "category": "Dinner",
   "keywords": [
     "Creamy Sun-Dried Tomato Pasta",
     "Creamy Sun-Dried Tomato Pasta with Chicken",
     "Sun-Dried Tomato Pasta"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 18,
+  "instructions_list": [
+    "Pat the chicken meat dry with paper towels. Cut it into evenly cut bite-sized pieces and season well with salt and pepper.",
+    "In a large pot, start a pot of salted water to cook the pasta.",
+    "While waiting for the water to boil, heat the olive oil in a large skillet over medium heat. Add the cubed chicken, seasoned with salt and pepper, and cook until golden brown and thoroughly cooked. Once done, set the chicken aside.",
+    "Use the same skillet to sauté the chopped onion until it becomes soft and translucent. Follow this by adding the chopped sun-dried tomatoes, sun-dried tomato paste, and minced garlic, cooking for an additional minute.",
+    "Mix in the chicken stock half and half, and freshly grated Parmesan cheese. Stir to combine the ingredients and bring the mixture to a boil. Lower the heat to low, and simmer for 5 to 10 minutes to reduce and thicken.",
+    "Meanwhile, cook the pasta in the boiling water, making sure to undercook it by about 2-3 minutes less than the package instructions for al dente pasta. Remember to reserve a cup of the pasta water before draining.",
+    "Drain the slightly undercooked pasta and add it directly into the skillet containing the sauce. Mix the pasta well into the sauce, gradually adding the reserved pasta water until the sauce reaches your desired thickness.",
+    "Finally, add the cooked chicken back into the skillet, stirring it into the mixture. Allow everything to simmer together for a few minutes until the pasta is fully cooked and has absorbed some of the flavorful sauce (adding pasta water if necessary to loosen).",
+    "Taste for seasoning and season the pasta with salt and pepper as needed. Serve right away."
   ]
 }

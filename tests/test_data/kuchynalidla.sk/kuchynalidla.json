@@ -1,9 +1,10 @@
 {
-  "author": "Marcel Ihnačák",
-  "canonical_url": "kuchynalidla.sk",
   "host": "kuchynalidla.sk",
-  "description": "Špízy sú výbornou grilovanou pochúťkou, ktorú si ľahko pripravíte aj doma na panvici. Dôležitá je marináda a chutná príloha. Marcel si pre vás pripravil recept na špízy z jahňacieho stehna a doplnil ho mätovou salsou.",
-  "image": "https://kuchynalidla.sk/storage/app/uploads/public/65f/9dc/41c/65f9dc41c13a3718878451.jpg",
+  "canonical_url": "kuchynalidla.sk",
+  "site_name": "Kuchyňa Lidla",
+  "author": "Marcel Ihnačák",
+  "language": "sk",
+  "title": "Špízy z jahňacieho stehna so zeleninou a s mätovou salsou",
   "ingredients": [
     "1,5 kg jahňacieho stehna",
     "olivový olej Primadonna",
@@ -67,6 +68,13 @@
     }
   ],
   "instructions": "Potrebujeme\n\n\n\nalobal, špajdle, panvicu, plech, papier na pečenie\n\n\n\n\n\n\t\n\n\n\n\n\nPOSTUP\n\n\n\nMäso očistíme, nakrájame na menšie kúsky, preložíme do misy, pokvapkáme olejom, ochutíme soľou a korením, kôrou z citróna, nasekanou bazalkou a plátkami 4 strúčikov cesnaku. Premiešame, prikryjeme alobalom a necháme marinovať v chladničke ideálne do ďalšieho dňa.\n\n\n\nBaklažán ošúpeme a nakrájame ho na podobné kocky ako mäso, osolíme, okoreníme.\n\n\n\nPapriky nakrájame na menšie kúsky, červenú cibuľu na mesiačiky.\n\n\n\nNa drevené špajdle postupne napichávame mäso, baklažán, papriku a cibuľu, kým spracujeme všetky suroviny. Opekáme na rozpálenej panvici s olejom. Pred koncom prihodíme maslo a panvicu zakryjeme alobalom.\n\n\n\nZemiaky nakrájame na mesiačiky, osolíme, okoreníme, pridáme rozmarín a nasekané 4 strúčiky cesnaku. Premiešame, preložíme na plech vystlaný papierom na pečenie a pečieme v rúre vyhriatej na 200 °C približne 30 minút dozlatohneda.\n\n\n\n\n\n\t\n\n\n\n\n\nSalsa\n\n\n\nV mise zmiešame nastrúhané kyslé uhorky, strúčik cesnaku, nadrobno nakrájanú červenú cibuľu, striedku z chleba, bazalku a mätu. Prilejeme olej, osolíme a okoreníme. Ochutíme nasekanou štipľavou papričkou a šťavou z ½ citróna.\n\n\n\n\n\n\t\n\n\n\n\n\nServírovanie\n\n\n\nPečené zemiaky servírujeme s opečeným špízom a salsou.",
+  "total_time": 90,
+  "prep_time": 90,
+  "cook_time": null,
+  "yields": "6 porcií",
+  "image": "https://kuchynalidla.sk/storage/app/uploads/public/65f/9dc/41c/65f9dc41c13a3718878451.jpg",
+  "description": "Špízy sú výbornou grilovanou pochúťkou, ktorú si ľahko pripravíte aj doma na panvici. Dôležitá je marináda a chutná príloha. Marcel si pre vás pripravil recept na špízy z jahňacieho stehna a doplnil ho mätovou salsou.",
+  "category": "Hlavné jedlá",
   "instructions_list": [
     "Potrebujeme",
     "alobal, špajdle, panvicu, plech, papier na pečenie",
@@ -80,13 +88,5 @@
     "V mise zmiešame nastrúhané kyslé uhorky, strúčik cesnaku, nadrobno nakrájanú červenú cibuľu, striedku z chleba, bazalku a mätu. Prilejeme olej, osolíme a okoreníme. Ochutíme nasekanou štipľavou papričkou a šťavou z ½ citróna.",
     "Servírovanie",
     "Pečené zemiaky servírujeme s opečeným špízom a salsou."
-  ],
-  "language": "sk",
-  "site_name": "Kuchyňa Lidla",
-  "category": "Hlavné jedlá",
-  "title": "Špízy z jahňacieho stehna so zeleninou a s mätovou salsou",
-  "total_time": 90,
-  "cook_time": null,
-  "prep_time": 90,
-  "yields": "6 porcií"
+  ]
 }

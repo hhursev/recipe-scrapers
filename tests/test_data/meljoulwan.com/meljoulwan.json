@@ -1,9 +1,31 @@
 {
-  "author": "Melissa Joulwan",
-  "canonical_url": "http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/",
-  "category": "Poultry,Recipes,Whole30",
   "host": "meljoulwan.com",
-  "image": "https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg",
+  "canonical_url": "http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/",
+  "site_name": "Mel Joulwan : Well Fed",
+  "author": "Melissa Joulwan",
+  "language": "",
+  "title": "Chicken Pesto Meatballs in Marinara Sauce",
+  "ingredients": [
+    "1/2 cup (packed) fresh basil leaves",
+    "1/4 cup fresh parsley leaves",
+    "1/4 cup walnuts",
+    "1 clove garlic, smashed and peeled",
+    "1 tablespoon extra-virgin olive oil",
+    "3/4 teaspoon salt",
+    "1/4 teaspoon ground black pepper",
+    "dash crushed red pepper flakes",
+    "1 pound ground chicken",
+    "2 tablespoons warm water",
+    "1/2 teaspoon cream of tartar",
+    "1/4 teaspoon baking soda",
+    "1 teaspoon extra-virgin olive oil",
+    "1-2 cloves garlic, minced",
+    "1 (14.5 ounce) can crushed tomatoes",
+    "1  (8 ounce) can tomato sauce",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon ground black pepper",
+    "10 large fresh basil leaves, slivered"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,38 +52,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1/2 cup (packed) fresh basil leaves",
-    "1/4 cup fresh parsley leaves",
-    "1/4 cup walnuts",
-    "1 clove garlic, smashed and peeled",
-    "1 tablespoon extra-virgin olive oil",
-    "3/4 teaspoon salt",
-    "1/4 teaspoon ground black pepper",
-    "dash crushed red pepper flakes",
-    "1 pound ground chicken",
-    "2 tablespoons warm water",
-    "1/2 teaspoon cream of tartar",
-    "1/4 teaspoon baking soda",
-    "1 teaspoon extra-virgin olive oil",
-    "1-2 cloves garlic, minced",
-    "1 (14.5 ounce) can crushed tomatoes",
-    "1  (8 ounce) can tomato sauce",
-    "1/2 teaspoon salt",
-    "1/4 teaspoon ground black pepper",
-    "10 large fresh basil leaves, slivered"
-  ],
   "instructions": "1. Place the basil, parsley, walnuts, garlic, olive oil, salt, pepper, and red pepper flakes in the bowl of a food processor and purée until it forms a uniform paste. You may need to scrape down the sides a few times to get it to the right texture.\n2. Place the ground chicken in a large bowl, then add the pesto. In a small bowl or measuring cup, mix the water with the cream of tartar and baking soda  — it will fizz a little. Add to the bowl with the chicken and mix until all ingredients are evenly distributed. Cover and refrigerate at least 20 minutes and up to overnight.\n3. While the meat is chilling, start the sauce. Heat a large non-stick skillet over low heat and add the olive oil. When the oil is warm, about 2 minutes, add the crushed garlic and when it’s fragrant, about 30 seconds, add the tomatoes. Stir to combine and bring to a very low simmer.\n4. Remove the chicken dough from the fridge. Moisten your hands with cold water and shake to remove excess. Measure a rounded tablespoon of chicken and roll into a ball between your palms. Place gently in the tomato sauce. Repeat until all the balls are nestled into the sauce. It’s OK if they touch each other and aren’t completely submerged.\n5. Cook the meatballs in the tomato sauce, covered, about 25 minutes. Remove the lid from the pan and allow to cook another 5-10 minutes to allow the sauce to thicken a little. Add the fresh basil leaves, stir, and serve on spaghetti squash or zucchini noodles. Bonus if you drizzle with a little extra-virgin olive oil.",
+  "total_time": 25,
+  "yields": "4 servings",
+  "image": "https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg",
+  "category": "Poultry,Recipes,Whole30",
   "instructions_list": [
     "1. Place the basil, parsley, walnuts, garlic, olive oil, salt, pepper, and red pepper flakes in the bowl of a food processor and purée until it forms a uniform paste. You may need to scrape down the sides a few times to get it to the right texture.",
     "2. Place the ground chicken in a large bowl, then add the pesto. In a small bowl or measuring cup, mix the water with the cream of tartar and baking soda  — it will fizz a little. Add to the bowl with the chicken and mix until all ingredients are evenly distributed. Cover and refrigerate at least 20 minutes and up to overnight.",
     "3. While the meat is chilling, start the sauce. Heat a large non-stick skillet over low heat and add the olive oil. When the oil is warm, about 2 minutes, add the crushed garlic and when it’s fragrant, about 30 seconds, add the tomatoes. Stir to combine and bring to a very low simmer.",
     "4. Remove the chicken dough from the fridge. Moisten your hands with cold water and shake to remove excess. Measure a rounded tablespoon of chicken and roll into a ball between your palms. Place gently in the tomato sauce. Repeat until all the balls are nestled into the sauce. It’s OK if they touch each other and aren’t completely submerged.",
     "5. Cook the meatballs in the tomato sauce, covered, about 25 minutes. Remove the lid from the pan and allow to cook another 5-10 minutes to allow the sauce to thicken a little. Add the fresh basil leaves, stir, and serve on spaghetti squash or zucchini noodles. Bonus if you drizzle with a little extra-virgin olive oil."
-  ],
-  "language": "",
-  "site_name": "Mel Joulwan : Well Fed",
-  "title": "Chicken Pesto Meatballs in Marinara Sauce",
-  "total_time": 25,
-  "yields": "4 servings"
+  ]
 }

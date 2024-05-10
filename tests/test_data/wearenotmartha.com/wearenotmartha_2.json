@@ -1,11 +1,23 @@
 {
-  "author": "Sues",
-  "canonical_url": "https://wearenotmartha.com/chocolate-cream-cold-brew-starbucks-copycat/",
-  "category": "Drink",
-  "cuisine": "American",
-  "description": "Have you tried summer's new iced drink, the Chocolate Cream Cold Brew from Starbucks? It's an absolutely delicious and perfectly smooth and creamy cold brew that's also super easy to recreate at home! It will bring back so many happy memories from your childhood summers!",
   "host": "wearenotmartha.com",
-  "image": "https://wearenotmartha.com/wp-content/uploads/chocolate-cream-cold-brew-featured.jpg",
+  "canonical_url": "https://wearenotmartha.com/chocolate-cream-cold-brew-starbucks-copycat/",
+  "site_name": "We are not Martha",
+  "author": "Sues",
+  "language": "en-US",
+  "title": "Chocolate Cream Cold Brew",
+  "ingredients": [
+    "10 oz. cold brew",
+    "Ice",
+    "1 oz. vanilla syrup ((store-bought or recipe below))",
+    "1/3 cup chocolate cream cold foam ((recipe below)*)",
+    "1 cup water",
+    "1 cup granulated sugar",
+    "1 vanilla bean",
+    "3/4 cup 2% milk",
+    "1/4 cup heavy cream",
+    "2 Tbsp vanilla syrup",
+    "2 1/2 Tbsp chocolate malt powder"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -34,20 +46,22 @@
       "purpose": "Chocolate Cream Cold Foam"
     }
   ],
-  "ingredients": [
-    "10 oz. cold brew",
-    "Ice",
-    "1 oz. vanilla syrup ((store-bought or recipe below))",
-    "1/3 cup chocolate cream cold foam ((recipe below)*)",
-    "1 cup water",
-    "1 cup granulated sugar",
-    "1 vanilla bean",
-    "3/4 cup 2% milk",
-    "1/4 cup heavy cream",
-    "2 Tbsp vanilla syrup",
-    "2 1/2 Tbsp chocolate malt powder"
-  ],
   "instructions": "Pour cold brew into an ice-filled glass. Stir in vanilla syrup.\nTop drink with chocolate cream cold foam and enjoy.\nVanilla Syrup\nPut water and sugar in a medium saucepan and bring to a boil. Lower heat and let mixture simmer for about 10 minutes until sugar is completely dissolved and mixture has thickened a bit.\nPour syrup into a heat-proof jar or container. Scrape out some of the seeds from the sliced open vanilla pod with a sharp knife and add them and the vanilla bean into the syrup.\nPlace syrup in fridge and let steep for at least 6 hours**. Syrup will thicken more as it cools. If you want a more intense vanilla flavor, you can leave the bean in after 6 hours.\nFor a quicker vanilla syrup, you can use vanilla extract instead of a vanilla bean. Stir about a Tablespoon of the extract into the saucepan right when you remove it from the heat. Syrup will be ready to use as soon as it cools.\nChocolate Cream Cold Foam\nMix milk, cream, vanilla syrup, and chocolate malt powder in a bowl until well combined. Or place all ingredients in a mason jar and shake. Keep in fridge until ready to use.\nTo turn into foam, you can either use an electric frother, hand mixer, or blender. Alternatively, you can shake the mixture in a mason jar until it's frothy.",
+  "total_time": 15,
+  "prep_time": 15,
+  "yields": "1 serving",
+  "image": "https://wearenotmartha.com/wp-content/uploads/chocolate-cream-cold-brew-featured.jpg",
+  "description": "Have you tried summer's new iced drink, the Chocolate Cream Cold Brew from Starbucks? It's an absolutely delicious and perfectly smooth and creamy cold brew that's also super easy to recreate at home! It will bring back so many happy memories from your childhood summers!",
+  "cuisine": "American",
+  "category": "Drink",
+  "keywords": [
+    "Coffee Drinks",
+    "Iced Coffee",
+    "Starbucks Copycat",
+    "Starbucks Drinks"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 2,
   "instructions_list": [
     "Pour cold brew into an ice-filled glass. Stir in vanilla syrup.",
     "Top drink with chocolate cream cold foam and enjoy.",
@@ -59,19 +73,5 @@
     "Chocolate Cream Cold Foam",
     "Mix milk, cream, vanilla syrup, and chocolate malt powder in a bowl until well combined. Or place all ingredients in a mason jar and shake. Keep in fridge until ready to use.",
     "To turn into foam, you can either use an electric frother, hand mixer, or blender. Alternatively, you can shake the mixture in a mason jar until it's frothy."
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "site_name": "We are not Martha",
-  "title": "Chocolate Cream Cold Brew",
-  "total_time": 15,
-  "yields": "1 serving",
-  "prep_time": 15,
-  "ratings_count": 2,
-  "keywords": [
-    "Coffee Drinks",
-    "Iced Coffee",
-    "Starbucks Copycat",
-    "Starbucks Drinks"
   ]
 }

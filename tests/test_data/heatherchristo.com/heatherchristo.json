@@ -1,8 +1,10 @@
 {
-  "author": "Heather Christo",
-  "canonical_url": "https://heatherchristo.com/2020/03/12/creamy-basil-mint-pesto-pasta-vegan-gluten-free/",
   "host": "heatherchristo.com",
-  "image": "https://live.staticflickr.com/65535/49449778928_db1c8a3c47_b.jpg",
+  "canonical_url": "https://heatherchristo.com/2020/03/12/creamy-basil-mint-pesto-pasta-vegan-gluten-free/",
+  "site_name": "Heather Christo",
+  "author": "Heather Christo",
+  "language": "en-US",
+  "title": "Creamy Basil Mint Pesto Pasta (Vegan and gluten-free)",
   "ingredients": [
     "2 cloves garlic",
     "2 cups packed fresh basil leaves",
@@ -31,18 +33,16 @@
     }
   ],
   "instructions": "Creamy Basil-Mint Pesto:\nIn the still boiling water, add the basil and the mint leaves and boil for about 30 seconds, then immediately pull them out, drain and add to the ice water so that they completely cool down.\nIn the jar of a blender, add the garlic cloves. the blanched herbs, avocado and the oil and vinegar. Puree on high until smooth and bright green, then season to taste with kosher salt. Set aside.\nIn the still boiling water add the pasta and cook to al dente according to manufacturer's directions.\nDrain the pasta and rinse it with cold water. Add it back to the empty pot and add the pesto and toss to heat the pesto.",
+  "total_time": 20,
+  "prep_time": 10,
+  "cook_time": 10,
+  "yields": "4 servings",
+  "image": "https://live.staticflickr.com/65535/49449778928_db1c8a3c47_b.jpg",
   "instructions_list": [
     "Creamy Basil-Mint Pesto:",
     "In the still boiling water, add the basil and the mint leaves and boil for about 30 seconds, then immediately pull them out, drain and add to the ice water so that they completely cool down.",
     "In the jar of a blender, add the garlic cloves. the blanched herbs, avocado and the oil and vinegar. Puree on high until smooth and bright green, then season to taste with kosher salt. Set aside.",
     "In the still boiling water add the pasta and cook to al dente according to manufacturer's directions.",
     "Drain the pasta and rinse it with cold water. Add it back to the empty pot and add the pesto and toss to heat the pesto."
-  ],
-  "language": "en-US",
-  "site_name": "Heather Christo",
-  "title": "Creamy Basil Mint Pesto Pasta (Vegan and gluten-free)",
-  "total_time": 20,
-  "yields": "4 servings",
-  "cook_time": 10,
-  "prep_time": 10
+  ]
 }

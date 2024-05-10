@@ -1,9 +1,10 @@
 {
-  "author": "Sarah McInerney",
-  "canonical_url": "https://www.womensweeklyfood.com.au/recipe/baking/classic-lamingtons-17017/",
   "host": "womensweeklyfood.com.au",
-  "description": "It's a bit of a process but so, so worth it!",
-  "image": "https://i0.wp.com/www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2021/07/28/17017/HL1121D18-scaled.jpg?fit=2560%2C2133&ssl=1",
+  "canonical_url": "https://www.womensweeklyfood.com.au/recipe/baking/classic-lamingtons-17017/",
+  "site_name": "Women's Weekly Food",
+  "author": "Sarah McInerney",
+  "language": "en-AU",
+  "title": "Classic lamingtons",
   "ingredients": [
     "4 eggs",
     "2/3 cup (150g) caster sugar",
@@ -38,6 +39,11 @@
     }
   ],
   "instructions": "Preheat the oven to 180°C (160°C fan-forced). Grease and flour a 20cm x 30cm lamington pan, line base with baking paper.\nBeat eggs in a small bowl with an electric mixer until light in colour. Gradually add sugar; beat for 8 minutes or until the mixture is thick. Mixture should form thick ribbons when the beaters are lifted.\nMeanwhile, sift flour and cornflour together three times. Combine butter and boiling water in a small heatproof bowl.\nTransfer egg mixture to a large bowl. Sift the flour mixture over the egg mixture; using a balloon whisk or a large metal spoon, gently fold the flour into the egg mixture, then fold in the butter mixture.\nPour mixture into prepared pan. Bake in a moderate oven for about 25 minutes or until sponge springs back when touched lightly in the centre and comes away from side of pan. Turn cake onto a wire rack to cool.\nCut cake into 20 even pieces\nMeanwhile, to make chocolate icing, sift the icing sugar and cocoa into a large heatproof bowl; add the butter and milk; stir over a medium saucepan of simmering water until icing is smooth and thick enough to coat the back of a spoon. Divide icing mixture into 2 small bowls.\nPlace coconut in a shallow bowl.\nUsing a large fork, dip each piece of cake briefly into icing until cake is coated in icing. Hold over bowl to drain off any excess. Dip half the cake pieces in one bowl of icing and the other half in the second bowl of icing. (We have separated the icing into two bowls, as cake crumbs will thicken the icing and make it difficult to use.) If the icing becomes too thick, stand it over hot water while dipping, or reheat gently with a little more milk. If necessary, strain the icing into a clean bowl.\nToss cake gently in coconut. Transfer cake to a wire rack; stand until set",
+  "total_time": 60,
+  "cook_time": 60,
+  "yields": "10 servings",
+  "image": "https://i0.wp.com/www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2021/07/28/17017/HL1121D18-scaled.jpg?fit=2560%2C2133&ssl=1",
+  "description": "It's a bit of a process but so, so worth it!",
   "instructions_list": [
     "Preheat the oven to 180°C (160°C fan-forced). Grease and flour a 20cm x 30cm lamington pan, line base with baking paper.",
     "Beat eggs in a small bowl with an electric mixer until light in colour. Gradually add sugar; beat for 8 minutes or until the mixture is thick. Mixture should form thick ribbons when the beaters are lifted.",
@@ -49,11 +55,5 @@
     "Place coconut in a shallow bowl.",
     "Using a large fork, dip each piece of cake briefly into icing until cake is coated in icing. Hold over bowl to drain off any excess. Dip half the cake pieces in one bowl of icing and the other half in the second bowl of icing. (We have separated the icing into two bowls, as cake crumbs will thicken the icing and make it difficult to use.) If the icing becomes too thick, stand it over hot water while dipping, or reheat gently with a little more milk. If necessary, strain the icing into a clean bowl.",
     "Toss cake gently in coconut. Transfer cake to a wire rack; stand until set"
-  ],
-  "language": "en-AU",
-  "site_name": "Women's Weekly Food",
-  "title": "Classic lamingtons",
-  "total_time": 60,
-  "yields": "10 servings",
-  "cook_time": 60
+  ]
 }

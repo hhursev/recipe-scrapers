@@ -1,11 +1,19 @@
 {
-  "author": "The Good Housekeeping Cookery Team",
-  "canonical_url": "https://www.goodhousekeeping.com/uk/food/recipes/a564322/slow-cooker-dessert-chocolate-fondant/",
-  "category": "winter,dessert",
-  "cuisine": "American",
-  "description": "Chocolate Fondant Dessert: You can cook desserts in a slow cooker as well as stews. Try this chocolate fondant dessert.",
   "host": "goodhousekeeping.com",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/slow-cooker-chocolate-fondant-dessert-1612954641.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+  "canonical_url": "https://www.goodhousekeeping.com/uk/food/recipes/a564322/slow-cooker-dessert-chocolate-fondant/",
+  "site_name": "Good Housekeeping",
+  "author": "The Good Housekeeping Cookery Team",
+  "language": "en-GB",
+  "title": "Slow Cooker Chocolate Fondant Dessert",
+  "ingredients": [
+    "175 g unsalted butter, chopped, plus extra to grease",
+    "150 g dark chocolate (70% cocoa solids), chopped",
+    "300 g caster sugar",
+    "3 medium eggs, lightly beaten",
+    "40 g cocoa powder",
+    "75 g plain flour",
+    "Icing sugar, optional, to dust"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,32 +28,24 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "175 g unsalted butter, chopped, plus extra to grease",
-    "150 g dark chocolate (70% cocoa solids), chopped",
-    "300 g caster sugar",
-    "3 medium eggs, lightly beaten",
-    "40 g cocoa powder",
-    "75 g plain flour",
-    "Icing sugar, optional, to dust"
-  ],
   "instructions": "Line the pot of slow cooker with foil then a layer of baking parchment.\nMelt the butter and chocolate together in a heatproof bowl set over a pan of barely simmering water (make sure the base of the bowl doesn't touch the water). When the mixture is melted and smooth, lift the bowl off the pan.\nWhisk the sugar into the chocolate mixture, followed by the eggs, cocoa powder and flour.\nScrape the mixture into the prepared pot, cover the top with a tea towel (don’t let the towel touch the mixture) and put the lid on top. Turn the slow cooker on to its low setting (see GH TIP) and cook for about 2hr 45min until the middle feels softly set - it will look glossy but not feel sticky when pressed lightly with a finger. Uncover and cook for a further 30min. Turn off the cooker.\nLift the fondant out and dust with icing sugar, if you like. Serve immediately with ice cream or double cream.",
+  "total_time": 200,
+  "prep_time": 5,
+  "cook_time": 195,
+  "yields": "8 servings",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/slow-cooker-chocolate-fondant-dessert-1612954641.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+  "description": "Chocolate Fondant Dessert: You can cook desserts in a slow cooker as well as stews. Try this chocolate fondant dessert.",
+  "nutrients": {},
+  "cuisine": "American",
+  "category": "winter,dessert",
+  "keywords": [
+    "Food News/Products"
+  ],
   "instructions_list": [
     "Line the pot of slow cooker with foil then a layer of baking parchment.",
     "Melt the butter and chocolate together in a heatproof bowl set over a pan of barely simmering water (make sure the base of the bowl doesn't touch the water). When the mixture is melted and smooth, lift the bowl off the pan.",
     "Whisk the sugar into the chocolate mixture, followed by the eggs, cocoa powder and flour.",
     "Scrape the mixture into the prepared pot, cover the top with a tea towel (don’t let the towel touch the mixture) and put the lid on top. Turn the slow cooker on to its low setting (see GH TIP) and cook for about 2hr 45min until the middle feels softly set - it will look glossy but not feel sticky when pressed lightly with a finger. Uncover and cook for a further 30min. Turn off the cooker.",
     "Lift the fondant out and dust with icing sugar, if you like. Serve immediately with ice cream or double cream."
-  ],
-  "language": "en-GB",
-  "nutrients": {},
-  "site_name": "Good Housekeeping",
-  "title": "Slow Cooker Chocolate Fondant Dessert",
-  "total_time": 200,
-  "yields": "8 servings",
-  "cook_time": 195,
-  "prep_time": 5,
-  "keywords": [
-    "Food News/Products"
   ]
 }

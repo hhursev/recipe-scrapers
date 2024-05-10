@@ -1,11 +1,20 @@
 {
-  "author": "Ashley Boyd",
-  "canonical_url": "https://pinkowlkitchen.com/chocolate-chess-pie/",
-  "category": "Dessert",
-  "cuisine": "American",
-  "description": "Chocolate chess pie is a decadent, fudgy custard pie baked in a buttery homemade pie crust. This tasty pie is a chocolate lover's dream and makes the perfect Thanksgiving dessert!",
   "host": "pinkowlkitchen.com",
-  "image": "https://pinkowlkitchen.com/wp-content/uploads/2023/08/chocolate-chess-pie-featured-image.jpg",
+  "canonical_url": "https://pinkowlkitchen.com/chocolate-chess-pie/",
+  "site_name": "Pink Owl Kitchen",
+  "author": "Ashley Boyd",
+  "language": "en-US",
+  "title": "Chocolate Chess Pie",
+  "ingredients": [
+    "1, 9-inch pie crust (homemade, refrigerated, or frozen, my homemade pie crust from my sweet potato pie recipe is linked)",
+    "1 1/2 cups granulated sugar",
+    "1/4 cup unsweetened cocoa powder (regular or Dutch-processed)",
+    "1/4 teaspoon salt",
+    "1/4 cup melted butter (unsalted)",
+    "3 large eggs (beaten)",
+    "1/2 cup evaporated milk (see note)",
+    "1 1/2 teaspoons pure vanilla extract"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,24 +30,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1, 9-inch pie crust (homemade, refrigerated, or frozen, my homemade pie crust from my sweet potato pie recipe is linked)",
-    "1 1/2 cups granulated sugar",
-    "1/4 cup unsweetened cocoa powder (regular or Dutch-processed)",
-    "1/4 teaspoon salt",
-    "1/4 cup melted butter (unsalted)",
-    "3 large eggs (beaten)",
-    "1/2 cup evaporated milk (see note)",
-    "1 1/2 teaspoons pure vanilla extract"
-  ],
   "instructions": "Preheat your oven to 350°F. Prepare your pie crust by gently pressing your homemade or refrigerated pie crust into your pie plate and crimping the edges, or by setting your frozen pie crust out on the counter while you prepare the filling.\nIn a large mixing bowl, whisk together the sugar, cocoa powder, and salt until combined. Add the melted butter, beaten eggs, evaporated milk, and vanilla extract to the bowl and whisk until the filling is smooth and lump free.\nPour the filling into your prepared pie crust and bake the pie in the preheated oven for 50 to 55 minutes, until the pie has puffed up and the center is just barely jiggly.\nAllow the pie to cool to room temperature on a wire rack. Enjoy chilled or room temperature with a dollop of fresh whipped cream!",
-  "instructions_list": [
-    "Preheat your oven to 350°F. Prepare your pie crust by gently pressing your homemade or refrigerated pie crust into your pie plate and crimping the edges, or by setting your frozen pie crust out on the counter while you prepare the filling.",
-    "In a large mixing bowl, whisk together the sugar, cocoa powder, and salt until combined. Add the melted butter, beaten eggs, evaporated milk, and vanilla extract to the bowl and whisk until the filling is smooth and lump free.",
-    "Pour the filling into your prepared pie crust and bake the pie in the preheated oven for 50 to 55 minutes, until the pie has puffed up and the center is just barely jiggly.",
-    "Allow the pie to cool to room temperature on a wire rack. Enjoy chilled or room temperature with a dollop of fresh whipped cream!"
-  ],
-  "language": "en-US",
+  "total_time": 60,
+  "prep_time": 10,
+  "cook_time": 50,
+  "yields": "10 servings",
+  "image": "https://pinkowlkitchen.com/wp-content/uploads/2023/08/chocolate-chess-pie-featured-image.jpg",
+  "description": "Chocolate chess pie is a decadent, fudgy custard pie baked in a buttery homemade pie crust. This tasty pie is a chocolate lover's dream and makes the perfect Thanksgiving dessert!",
   "nutrients": {
     "servingSize": "1 slice",
     "calories": "260 kcal",
@@ -51,17 +49,19 @@
     "fiberContent": "0.8 g",
     "sugarContent": "32 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Pink Owl Kitchen",
-  "title": "Chocolate Chess Pie",
-  "total_time": 60,
-  "yields": "10 servings",
-  "cook_time": 50,
-  "prep_time": 10,
+  "cuisine": "American",
+  "category": "Dessert",
   "keywords": [
     "chess pie",
     "chocolate chess pie",
     "chocolate pie"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "Preheat your oven to 350°F. Prepare your pie crust by gently pressing your homemade or refrigerated pie crust into your pie plate and crimping the edges, or by setting your frozen pie crust out on the counter while you prepare the filling.",
+    "In a large mixing bowl, whisk together the sugar, cocoa powder, and salt until combined. Add the melted butter, beaten eggs, evaporated milk, and vanilla extract to the bowl and whisk until the filling is smooth and lump free.",
+    "Pour the filling into your prepared pie crust and bake the pie in the preheated oven for 50 to 55 minutes, until the pie has puffed up and the center is just barely jiggly.",
+    "Allow the pie to cool to room temperature on a wire rack. Enjoy chilled or room temperature with a dollop of fresh whipped cream!"
   ]
 }

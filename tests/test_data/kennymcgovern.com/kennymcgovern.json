@@ -1,9 +1,27 @@
 {
-  "author": "Kenny McGovern",
-  "canonical_url": "https://kennymcgovern.com/crispy-chicken-strips",
-  "category": "Appetizer,Side Dish,Snack",
   "host": "kennymcgovern.com",
-  "image": "https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg",
+  "canonical_url": "https://kennymcgovern.com/crispy-chicken-strips",
+  "site_name": "Kenny McGovern",
+  "author": "Kenny McGovern",
+  "language": "en-US",
+  "title": "Crispy Chicken Strips",
+  "ingredients": [
+    "8 tablespoons panko breadcrumbs",
+    "4 tablespoons plain flour",
+    "1/4 teaspoon garlic powder",
+    "1/4 teaspoon onion granules",
+    "1/4 teaspoon cayenne pepper",
+    "1/4 teaspoon dried Italian herbs",
+    "1/2 teaspoon sea salt",
+    "1/4 teaspoon black pepper",
+    "4 tablespoons plain flour",
+    "1/4 teaspoon sea salt",
+    "Pinch black pepper",
+    "1 egg",
+    "3 tablespoons milk",
+    "1 skinless, boneless chicken breast fillet (around 114g)",
+    "vegetable oil (for deep frying)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,24 +44,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "8 tablespoons panko breadcrumbs",
-    "4 tablespoons plain flour",
-    "1/4 teaspoon garlic powder",
-    "1/4 teaspoon onion granules",
-    "1/4 teaspoon cayenne pepper",
-    "1/4 teaspoon dried Italian herbs",
-    "1/2 teaspoon sea salt",
-    "1/4 teaspoon black pepper",
-    "4 tablespoons plain flour",
-    "1/4 teaspoon sea salt",
-    "Pinch black pepper",
-    "1 egg",
-    "3 tablespoons milk",
-    "1 skinless, boneless chicken breast fillet (around 114g)",
-    "vegetable oil (for deep frying)"
-  ],
   "instructions": "In a large bowl, add panko breadcrumbs, plain flour, garlic powder, onion granules, cayenne pepper, dried Italian herbs, sea salt & black pepper. Mix well.\nOn a plate, mix plain flour, sea salt & black pepper. Mix well.\nIn a bowl, combine egg and milk and whisk thoroughly.\nCut the chicken into 6-7 strips. Dip a chicken strip firstly into the plate of seasoned flour, then into the egg / milk mixture and finally into the breadcrumb mix, pressing well to ensure the chicken strip is nicely coated with breadcrumbs. Set the breaded chicken strip aside on a plate and repeat the process until all of the chicken strips are coated. At this stage the chicken strips are ready to cook, or can be covered and kept aside in the fridge for up to 24 hours.\nHeat oil for deep frying to around 180c. Carefully place each breaded chicken strip into the hot oil and fry for around 6 minutes, turning occasionally until the chicken strips are crispy and golden. Lift the chicken strips from the oil using a slotted spoon, drain off any excess oil and set aside on a plate.\nServe the crispy chicken strips with hot sauce, BBQ sauce or ranch dressing.",
+  "total_time": 16,
+  "prep_time": 10,
+  "cook_time": 6,
+  "yields": "1 serving",
+  "image": "https://kennymcgovern.com/wp-content/uploads/2020/02/crispy-chicken-strips-scaled.jpg",
+  "cuisine": "American",
+  "category": "Appetizer,Side Dish,Snack",
+  "keywords": [
+    "chicken",
+    "crispy chicken",
+    "kfc",
+    "fried chicken"
+  ],
   "instructions_list": [
     "In a large bowl, add panko breadcrumbs, plain flour, garlic powder, onion granules, cayenne pepper, dried Italian herbs, sea salt & black pepper. Mix well.",
     "On a plate, mix plain flour, sea salt & black pepper. Mix well.",
@@ -51,19 +65,5 @@
     "Cut the chicken into 6-7 strips. Dip a chicken strip firstly into the plate of seasoned flour, then into the egg / milk mixture and finally into the breadcrumb mix, pressing well to ensure the chicken strip is nicely coated with breadcrumbs. Set the breaded chicken strip aside on a plate and repeat the process until all of the chicken strips are coated. At this stage the chicken strips are ready to cook, or can be covered and kept aside in the fridge for up to 24 hours.",
     "Heat oil for deep frying to around 180c. Carefully place each breaded chicken strip into the hot oil and fry for around 6 minutes, turning occasionally until the chicken strips are crispy and golden. Lift the chicken strips from the oil using a slotted spoon, drain off any excess oil and set aside on a plate.",
     "Serve the crispy chicken strips with hot sauce, BBQ sauce or ranch dressing."
-  ],
-  "language": "en-US",
-  "site_name": "Kenny McGovern",
-  "title": "Crispy Chicken Strips",
-  "total_time": 16,
-  "yields": "1 serving",
-  "cook_time": 6,
-  "cuisine": "American",
-  "prep_time": 10,
-  "keywords": [
-    "chicken",
-    "crispy chicken",
-    "kfc",
-    "fried chicken"
   ]
 }

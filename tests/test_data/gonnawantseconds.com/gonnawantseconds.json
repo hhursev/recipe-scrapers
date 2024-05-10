@@ -1,10 +1,21 @@
 {
-  "author": "Kathleen",
-  "canonical_url": "https://www.gonnawantseconds.com/white-chicken-enchiladas/",
-  "category": "Main Course",
-  "description": "Whip up the cheesiest, dreamiest dinner you've ever had with my sensational White Chicken Enchiladas! Guaranteed to please even the pickiest eaters!",
   "host": "gonnawantseconds.com",
-  "image": "https://www.gonnawantseconds.com/wp-content/uploads/2020/08/White-Chicken-Enchiladas-01.jpg",
+  "canonical_url": "https://www.gonnawantseconds.com/white-chicken-enchiladas/",
+  "site_name": "Gonna Want Seconds",
+  "author": "Kathleen",
+  "language": "en-US",
+  "title": "White Chicken Enchiladas",
+  "ingredients": [
+    "8-10 small flour tortillas",
+    "3 cups cooked chicken (shredded or chopped)",
+    "3 cups Monterey jack cheese (shredded-divided)",
+    "3 tablespoons unsalted butter",
+    "3 tablespoons flour",
+    "2 cups chicken broth",
+    "1 cup sour cream",
+    "1 (4-ounce can) diced green chilies mild",
+    "2-3 tablespoons green onions (sliced)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,25 +32,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "8-10 small flour tortillas",
-    "3 cups cooked chicken (shredded or chopped)",
-    "3 cups Monterey jack cheese (shredded-divided)",
-    "3 tablespoons unsalted butter",
-    "3 tablespoons flour",
-    "2 cups chicken broth",
-    "1 cup sour cream",
-    "1 (4-ounce can) diced green chilies mild",
-    "2-3 tablespoons green onions (sliced)"
-  ],
   "instructions": "Spray a 9 X 13-inch baking dish with cooking spray and set aside. Preheat oven to 350 degrees.\nIn a small bowl, combine chicken and 1 cup of Monterey Jack cheese. Fill tortillas with this mixture and roll each one up then place seam side down in the prepared pan.\nMelt the butter in a skillet. Sprinkle flour over melted butter and whisk to combine. Cook for 1 minute to remove the flour taste. Remove the skillet from heat and whisk in broth. Place back on the heat and cook until the mixture has thickened and is bubbly. Cool sauce for 3-5 minutes. (Don't skip this step- if the sauce is too hot and you add the sour cream it will curdle it-yuck!) Add sour cream and chilies and stir until sauce is smooth and sour cream is completely dissolved.\nPour sauce over enchiladas and add remaining cheese over top. Bake in preheated oven for 20-25 minutes or until enchiladas are heated through and sauce is bubbly. Turn on the broiler and broil until the top is nicely golden. Top with chopped green onions and serve.",
-  "instructions_list": [
-    "Spray a 9 X 13-inch baking dish with cooking spray and set aside. Preheat oven to 350 degrees.",
-    "In a small bowl, combine chicken and 1 cup of Monterey Jack cheese. Fill tortillas with this mixture and roll each one up then place seam side down in the prepared pan.",
-    "Melt the butter in a skillet. Sprinkle flour over melted butter and whisk to combine. Cook for 1 minute to remove the flour taste. Remove the skillet from heat and whisk in broth. Place back on the heat and cook until the mixture has thickened and is bubbly. Cool sauce for 3-5 minutes. (Don't skip this step- if the sauce is too hot and you add the sour cream it will curdle it-yuck!) Add sour cream and chilies and stir until sauce is smooth and sour cream is completely dissolved.",
-    "Pour sauce over enchiladas and add remaining cheese over top. Bake in preheated oven for 20-25 minutes or until enchiladas are heated through and sauce is bubbly. Turn on the broiler and broil until the top is nicely golden. Top with chopped green onions and serve."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 10,
+  "cook_time": 30,
+  "yields": "4 servings",
+  "image": "https://www.gonnawantseconds.com/wp-content/uploads/2020/08/White-Chicken-Enchiladas-01.jpg",
+  "description": "Whip up the cheesiest, dreamiest dinner you've ever had with my sensational White Chicken Enchiladas! Guaranteed to please even the pickiest eaters!",
   "nutrients": {
     "servingSize": "1 g",
     "calories": "897 kcal",
@@ -52,19 +51,20 @@
     "fiberContent": "1.5 g",
     "sugarContent": "5.5 g"
   },
-  "ratings": 5.0,
-  "ratings_count": 85,
-  "site_name": "Gonna Want Seconds",
-  "title": "White Chicken Enchiladas",
-  "total_time": 40,
-  "yields": "4 servings",
-  "cook_time": 30,
   "cuisine": "Mexican",
-  "prep_time": 10,
+  "category": "Main Course",
   "keywords": [
     "How DO I Make White Chicken Enchiladas Recipe",
     "How To Make White Chicken Enchiladas Recipe",
     "White Chicken Enchiladas",
     "White Chicken Enchiladas Recipe"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 85,
+  "instructions_list": [
+    "Spray a 9 X 13-inch baking dish with cooking spray and set aside. Preheat oven to 350 degrees.",
+    "In a small bowl, combine chicken and 1 cup of Monterey Jack cheese. Fill tortillas with this mixture and roll each one up then place seam side down in the prepared pan.",
+    "Melt the butter in a skillet. Sprinkle flour over melted butter and whisk to combine. Cook for 1 minute to remove the flour taste. Remove the skillet from heat and whisk in broth. Place back on the heat and cook until the mixture has thickened and is bubbly. Cool sauce for 3-5 minutes. (Don't skip this step- if the sauce is too hot and you add the sour cream it will curdle it-yuck!) Add sour cream and chilies and stir until sauce is smooth and sour cream is completely dissolved.",
+    "Pour sauce over enchiladas and add remaining cheese over top. Bake in preheated oven for 20-25 minutes or until enchiladas are heated through and sauce is bubbly. Turn on the broiler and broil until the top is nicely golden. Top with chopped green onions and serve."
   ]
 }

@@ -1,11 +1,25 @@
 {
-  "author": "Robyn Stone",
-  "canonical_url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/",
-  "category": "Dessert",
-  "cuisine": "American",
-  "description": "The Best Chocolate Cake Recipe - A one bowl chocolate cake recipe that is quick, easy, and delicious! Updated with gluten-free, dairy-free, and egg-free options!",
   "host": "addapinch.com",
-  "image": "https://addapinch.com/wp-content/uploads/2020/04/chocolate-cake-DSC_1768.jpg",
+  "canonical_url": "https://addapinch.com/the-best-chocolate-cake-recipe-ever/",
+  "site_name": "Add a Pinch",
+  "author": "Robyn Stone",
+  "language": "en-US",
+  "title": "The Best Chocolate Cake Recipe {Ever}",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "2 cups sugar",
+    "3/4 cup unsweetened cocoa powder",
+    "2 teaspoons baking powder",
+    "1 1/2 teaspoons baking soda",
+    "1 teaspoon kosher salt",
+    "1 teaspoon espresso powder (homemade or store-bought)",
+    "1 cup milk (or buttermilk, almond, or coconut milk)",
+    "1/2 cup vegetable oil (or canola oil, or melted coconut oil)",
+    "2 large eggs",
+    "2 teaspoons vanilla extract",
+    "1 cup boiling water",
+    "Chocolate Buttercream Frosting Recipe"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,32 +40,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups all-purpose flour",
-    "2 cups sugar",
-    "3/4 cup unsweetened cocoa powder",
-    "2 teaspoons baking powder",
-    "1 1/2 teaspoons baking soda",
-    "1 teaspoon kosher salt",
-    "1 teaspoon espresso powder (homemade or store-bought)",
-    "1 cup milk (or buttermilk, almond, or coconut milk)",
-    "1/2 cup vegetable oil (or canola oil, or melted coconut oil)",
-    "2 large eggs",
-    "2 teaspoons vanilla extract",
-    "1 cup boiling water",
-    "Chocolate Buttercream Frosting Recipe"
-  ],
   "instructions": "Preheat oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.\nFor the chocolate cake:\nAdd flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder to a large bowl or the bowl of a stand mixer. Whisk through to combine or, using your paddle attachment, stir through flour mixture until combined well.\nAdd milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.\nDistribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.\nRemove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely.\nFrost the cake with Chocolate Buttercream Frosting.",
-  "instructions_list": [
-    "Preheat oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.",
-    "For the chocolate cake:",
-    "Add flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder to a large bowl or the bowl of a stand mixer. Whisk through to combine or, using your paddle attachment, stir through flour mixture until combined well.",
-    "Add milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.",
-    "Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.",
-    "Remove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely.",
-    "Frost the cake with Chocolate Buttercream Frosting."
-  ],
-  "language": "en-US",
+  "total_time": 45,
+  "prep_time": 15,
+  "cook_time": 30,
+  "yields": "24 servings",
+  "image": "https://addapinch.com/wp-content/uploads/2020/04/chocolate-cake-DSC_1768.jpg",
+  "description": "The Best Chocolate Cake Recipe - A one bowl chocolate cake recipe that is quick, easy, and delicious! Updated with gluten-free, dairy-free, and egg-free options!",
   "nutrients": {
     "calories": "124 kcal",
     "carbohydrateContent": "27 g",
@@ -64,14 +59,8 @@
     "sugarContent": "17 g",
     "servingSize": "1 serving"
   },
-  "ratings": 5.0,
-  "ratings_count": 4164,
-  "site_name": "Add a Pinch",
-  "title": "The Best Chocolate Cake Recipe {Ever}",
-  "total_time": 45,
-  "yields": "24 servings",
-  "cook_time": 30,
-  "prep_time": 15,
+  "cuisine": "American",
+  "category": "Dessert",
   "keywords": [
     "best chocolate cake",
     "chocolate cake",
@@ -81,5 +70,16 @@
     "easy chocolate cake",
     "egg free chocolate cake",
     "gluten-free chocolate cake"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 4164,
+  "instructions_list": [
+    "Preheat oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.",
+    "For the chocolate cake:",
+    "Add flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder to a large bowl or the bowl of a stand mixer. Whisk through to combine or, using your paddle attachment, stir through flour mixture until combined well.",
+    "Add milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.",
+    "Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.",
+    "Remove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely.",
+    "Frost the cake with Chocolate Buttercream Frosting."
   ]
 }

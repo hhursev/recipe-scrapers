@@ -1,9 +1,24 @@
 {
-  "author": null,
-  "canonical_url": "https://southerncastiron.com/apple-cider-doughnuts/",
-  "category": null,
   "host": "southerncastiron.com",
-  "image": "https://southerncastiron.com/wp-content/uploads/2018/10/doughnuts-featured-470x470.jpg",
+  "canonical_url": "https://southerncastiron.com/apple-cider-doughnuts/",
+  "site_name": "Southern Cast Iron",
+  "author": null,
+  "language": "en-US",
+  "title": "Apple Cider Doughnuts",
+  "ingredients": [
+    "4 cups apple cider*",
+    "2 tablespoons unsalted butter, softened",
+    "1½ cups sugar, divided",
+    "1 teaspoon vanilla extract",
+    "1 large egg",
+    "⅔ cup sour cream",
+    "2¼ cups all-purpose flour",
+    "1½ teaspoons baking powder",
+    "1¼ teaspoons apple pie spice, divided",
+    "½ teaspoon kosher salt",
+    "½ cup grated Golden Delicious apple",
+    "Vegetable oil, for frying"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,21 +38,10 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 cups apple cider*",
-    "2 tablespoons unsalted butter, softened",
-    "1½ cups sugar, divided",
-    "1 teaspoon vanilla extract",
-    "1 large egg",
-    "⅔ cup sour cream",
-    "2¼ cups all-purpose flour",
-    "1½ teaspoons baking powder",
-    "1¼ teaspoons apple pie spice, divided",
-    "½ teaspoon kosher salt",
-    "½ cup grated Golden Delicious apple",
-    "Vegetable oil, for frying"
-  ],
   "instructions": "In a small Dutch oven, bring apple cider to a boil over medium-high heat. Boil until cider is reduced to 1 cup, about 40 minutes. Remove from heat. Let cool to room temperature.\nIn a large bowl, beat butter, ½ cup sugar, and vanilla with a mixer at medium speed until combined. Add egg, beating until thick and pale, about 2 minutes. Beat in sour cream.\nIn a medium bowl, whisk together flour, baking powder, ¼ teaspoon apple pie spice, and salt. With mixer on low speed, gradually add flour mixture to butter mixture, beating until combined. Add apple, beating just until combined. Wrap dough in plastic wrap. (Dough will be slightly sticky.) Refrigerate for 30 minutes.\nOn a lightly floured surface, gently knead dough 3 or 4 times. Roll dough to ½ inch thick. Using a 3-inch cutter, cut dough, rerolling scraps as necessary.\nFill a cast-iron Dutch oven halfway full with oil, and heat over medium heat until a deep-fry thermometer registers 350°. Add doughnuts to hot oil in batches; fry until golden brown, about 1½ minutes per side. Fry doughnut holes for about 1 minute. Remove using a slotted spoon, and let drain on paper towels. Let cool slightly.\nIn a large bowl, combine remaining 1 cup sugar and remaining 1 teaspoon apple pie spice. Dip doughnut holes in sugar mixture, shaking off excess. Drizzle with apple cider syrup.",
+  "yields": "10 servings",
+  "image": "https://southerncastiron.com/wp-content/uploads/2018/10/doughnuts-featured-470x470.jpg",
+  "category": null,
   "instructions_list": [
     "In a small Dutch oven, bring apple cider to a boil over medium-high heat. Boil until cider is reduced to 1 cup, about 40 minutes. Remove from heat. Let cool to room temperature.",
     "In a large bowl, beat butter, ½ cup sugar, and vanilla with a mixer at medium speed until combined. Add egg, beating until thick and pale, about 2 minutes. Beat in sour cream.",
@@ -45,9 +49,5 @@
     "On a lightly floured surface, gently knead dough 3 or 4 times. Roll dough to ½ inch thick. Using a 3-inch cutter, cut dough, rerolling scraps as necessary.",
     "Fill a cast-iron Dutch oven halfway full with oil, and heat over medium heat until a deep-fry thermometer registers 350°. Add doughnuts to hot oil in batches; fry until golden brown, about 1½ minutes per side. Fry doughnut holes for about 1 minute. Remove using a slotted spoon, and let drain on paper towels. Let cool slightly.",
     "In a large bowl, combine remaining 1 cup sugar and remaining 1 teaspoon apple pie spice. Dip doughnut holes in sugar mixture, shaking off excess. Drizzle with apple cider syrup."
-  ],
-  "language": "en-US",
-  "site_name": "Southern Cast Iron",
-  "title": "Apple Cider Doughnuts",
-  "yields": "10 servings"
+  ]
 }

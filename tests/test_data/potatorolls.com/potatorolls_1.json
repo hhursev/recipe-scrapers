@@ -1,8 +1,22 @@
 {
-  "author": "Martin's Famous Potato Rolls and Bread",
-  "canonical_url": "https://potatorolls.com/recipes/cheesy-roast-beef-sliders/",
   "host": "potatorolls.com",
-  "image": "https://potatorolls.com/wp-content/uploads/Roast-Beef-Sliders7-960x640.jpg",
+  "canonical_url": "https://potatorolls.com/recipes/cheesy-roast-beef-sliders/",
+  "site_name": "Martin's Famous Potato Rolls and Bread",
+  "author": "Martin's Famous Potato Rolls and Bread",
+  "language": "en-US",
+  "title": "Cheesy Roast Beef Sliders",
+  "ingredients": [
+    "2 Large Sweet Onions, thinly sliced",
+    "4 Tablespoons Butter",
+    "3 Tablespoons Brown Sugar",
+    "2 Teaspoon Worcestershire Sauce",
+    "Salt and Black Pepper, to taste",
+    "12 Slices Roast Beef",
+    "9 Slices White American Cheese",
+    "Mayonnaise, to taste",
+    "1 Package Martin’s Sweet Dinner Potato Rolls (12 Rolls)",
+    "1 Tablespoon Butter, melted (for brushing buns)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,19 +39,10 @@
       "purpose": "Roast Beef Sliders:"
     }
   ],
-  "ingredients": [
-    "2 Large Sweet Onions, thinly sliced",
-    "4 Tablespoons Butter",
-    "3 Tablespoons Brown Sugar",
-    "2 Teaspoon Worcestershire Sauce",
-    "Salt and Black Pepper, to taste",
-    "12 Slices Roast Beef",
-    "9 Slices White American Cheese",
-    "Mayonnaise, to taste",
-    "1 Package Martin’s Sweet Dinner Potato Rolls (12 Rolls)",
-    "1 Tablespoon Butter, melted (for brushing buns)"
-  ],
   "instructions": "In a large skillet, butter over medium heat.\nOnce the butter is melted, add the sliced onions.\nStir the onions occasionally with a wooden spoon. Continue to cook over medium-high heat until the onions are translucent.\nCook for about 20 minutes on medium heat. Or until the onions are soft and nicely golden brown in color. Add the brown sugar, salt and pepper. Season with Worcestershire sauce. Remove from the heat.\nPreheat the oven to 350 degrees F.\nCut Martin’s Sweet Dinner Potato Rolls in half. Place the bottom halves of the buns on a half sheet pan and toast in oven for 7-10 minutes until lightly toasted. Remove from oven. Spread with mayonnaise. Top each bun with a slice of roast beef. Spoon caramelized onions over the roast beef. Top with slices of cheese. Add the tops of the rolls and brush with butter.\nCover entire sheet pan with aluminum foil. Bake for 15 minutes. Uncover and bake until the cheese is melted, about 5 minutes.\nLet cool a few minutes before serving.",
+  "total_time": null,
+  "yields": "12 servings",
+  "image": "https://potatorolls.com/wp-content/uploads/Roast-Beef-Sliders7-960x640.jpg",
   "instructions_list": [
     "In a large skillet, butter over medium heat.",
     "Once the butter is melted, add the sliced onions.",
@@ -47,10 +52,5 @@
     "Cut Martin’s Sweet Dinner Potato Rolls in half. Place the bottom halves of the buns on a half sheet pan and toast in oven for 7-10 minutes until lightly toasted. Remove from oven. Spread with mayonnaise. Top each bun with a slice of roast beef. Spoon caramelized onions over the roast beef. Top with slices of cheese. Add the tops of the rolls and brush with butter.",
     "Cover entire sheet pan with aluminum foil. Bake for 15 minutes. Uncover and bake until the cheese is melted, about 5 minutes.",
     "Let cool a few minutes before serving."
-  ],
-  "language": "en-US",
-  "site_name": "Martin's Famous Potato Rolls and Bread",
-  "title": "Cheesy Roast Beef Sliders",
-  "yields": "12 servings",
-  "total_time": null
+  ]
 }

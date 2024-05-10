@@ -1,9 +1,24 @@
 {
-  "author": "Christopher Michel",
-  "canonical_url": "https://www.countryliving.com/food-drinks/a41319911/honey-apple-baked-brie-with-fried-sage-recipe/",
-  "category": "autumn,cocktail party,appetizers",
   "host": "countryliving.com",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/honey-apple-baked-brie-with-fried-sage-1663854012.jpg?crop=1.00xw:0.803xh;0,0.177xh&resize=1200:*",
+  "canonical_url": "https://www.countryliving.com/food-drinks/a41319911/honey-apple-baked-brie-with-fried-sage-recipe/",
+  "site_name": "Country Living",
+  "author": "Christopher Michel",
+  "language": "en-US",
+  "title": "Honey-Apple Baked Brie with Fried Sage",
+  "ingredients": [
+    "1 (8-ounce) wheel Brie",
+    "1/2 sheet all-butter puff pastry (such as Dufour), thawed",
+    "2 tbsp. apple butter",
+    "1 tbsp. pure honey",
+    "1 large egg, beaten",
+    "2 tbsp. unsalted butter",
+    "4 tsp. pure maple syrup",
+    "1 Honeycrisp apple, sliced",
+    "Canola oil, for frying",
+    "12 fresh sage leaves",
+    "Kosher salt",
+    "Crackers, for serving"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,38 +38,23 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 (8-ounce) wheel Brie",
-    "1/2 sheet all-butter puff pastry (such as Dufour), thawed",
-    "2 tbsp. apple butter",
-    "1 tbsp. pure honey",
-    "1 large egg, beaten",
-    "2 tbsp. unsalted butter",
-    "4 tsp. pure maple syrup",
-    "1 Honeycrisp apple, sliced",
-    "Canola oil, for frying",
-    "12 fresh sage leaves",
-    "Kosher salt",
-    "Crackers, for serving"
-  ],
   "instructions": "Preheat oven to 425°F. Line a rimmed baking sheet with parchment paper. Place cheese on puff pastry and cut off top rind. Top with apple butter and honey. Fold pastry up around cheese, pinching to seal. Place on prepared baking sheet; brush with egg. Bake until golden brown, 20 to 25 minutes.\nMeanwhile, melt butter and syrup in a large skillet over medium heat. Add apples and cook, stirring occasionally, until soft, 9 to 11 minutes. Transfer to a bowl; clean out skillet.\nLine a plate with paper towels. Heat 1/8 inch oil in skillet over medium-high heat. Add sage and press into oil to fully coat. Fry just until leaves are crisp, 10 to 20 seconds. Transfer to prepared plate. Season with salt.",
-  "instructions_list": [
-    "Preheat oven to 425°F. Line a rimmed baking sheet with parchment paper. Place cheese on puff pastry and cut off top rind. Top with apple butter and honey. Fold pastry up around cheese, pinching to seal. Place on prepared baking sheet; brush with egg. Bake until golden brown, 20 to 25 minutes.",
-    "Meanwhile, melt butter and syrup in a large skillet over medium heat. Add apples and cook, stirring occasionally, until soft, 9 to 11 minutes. Transfer to a bowl; clean out skillet.",
-    "Line a plate with paper towels. Heat 1/8 inch oil in skillet over medium-high heat. Add sage and press into oil to fully coat. Fry just until leaves are crisp, 10 to 20 seconds. Transfer to prepared plate. Season with salt."
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "site_name": "Country Living",
-  "title": "Honey-Apple Baked Brie with Fried Sage",
   "total_time": 35,
+  "prep_time": 35,
   "yields": "4 servings",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/honey-apple-baked-brie-with-fried-sage-1663854012.jpg?crop=1.00xw:0.803xh;0,0.177xh&resize=1200:*",
+  "description": "This elegant appetizer is a sure-fire way to treat your guests.",
+  "category": "autumn,cocktail party,appetizers",
   "keywords": [
     "appetizers",
     "autumn",
     "cocktail party"
   ],
-  "description": "This elegant appetizer is a sure-fire way to treat your guests.",
-  "prep_time": 35
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "instructions_list": [
+    "Preheat oven to 425°F. Line a rimmed baking sheet with parchment paper. Place cheese on puff pastry and cut off top rind. Top with apple butter and honey. Fold pastry up around cheese, pinching to seal. Place on prepared baking sheet; brush with egg. Bake until golden brown, 20 to 25 minutes.",
+    "Meanwhile, melt butter and syrup in a large skillet over medium heat. Add apples and cook, stirring occasionally, until soft, 9 to 11 minutes. Transfer to a bowl; clean out skillet.",
+    "Line a plate with paper towels. Heat 1/8 inch oil in skillet over medium-high heat. Add sage and press into oil to fully coat. Fry just until leaves are crisp, 10 to 20 seconds. Transfer to prepared plate. Season with salt."
+  ]
 }

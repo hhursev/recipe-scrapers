@@ -1,10 +1,20 @@
 {
-  "author": "Mads Vindfeld Andersen",
-  "canonical_url": "https://madsvin.com/pandekager/",
-  "category": "bagværk,Dessert,Kage",
-  "description": "De lækreste hjemmelavede pandekager, der vækker glæde hos både børn og voksne",
   "host": "madsvin.com",
-  "image": "https://madsvin.com/wp-content/uploads/2020/08/Pandekager-opskrift.jpg",
+  "canonical_url": "https://madsvin.com/pandekager/",
+  "site_name": "madsvin.com",
+  "author": "Mads Vindfeld Andersen",
+  "language": "da-DK",
+  "title": "Pandekager",
+  "ingredients": [
+    "125 gram hvedemel",
+    "3 æg ((mellemstore))",
+    "3 dl mælk (jeg brugte sødmælk - anden mælk kan også fint bruges)",
+    "2 spsk sukker (både rørsukker og hvid sukker kan bruges)",
+    "½ stang vanilje (eller 1 spsk vaniljesukker)",
+    "25 gram smør ((smeltet))",
+    "½ tsk salt",
+    "smør (til stegning - neutral olie kan også bruges)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,17 +30,21 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "125 gram hvedemel",
-    "3 æg ((mellemstore))",
-    "3 dl mælk (jeg brugte sødmælk - anden mælk kan også fint bruges)",
-    "2 spsk sukker (både rørsukker og hvid sukker kan bruges)",
-    "½ stang vanilje (eller 1 spsk vaniljesukker)",
-    "25 gram smør ((smeltet))",
-    "½ tsk salt",
-    "smør (til stegning - neutral olie kan også bruges)"
-  ],
   "instructions": "Pandekager\nHæld mel, salt, sukker og vanilje i en skål og slå æggene ud i den. Pisk sammen til en ensformet masse uden klumper.\nSmelt smør i en kasserolle eller i mikroovnen, og rør ud i pandekagedejen.\nPisk til sidst mælk i i dejmassen, og sæt den på køl i 20-30 minutter, så den lige kan nå at sætte sig (det hjælper også pandekagen til at holde lidt bedre sammen).\nPut en klat smør på en middelvarm pande, hæld 0,5-0,75 dl pandekagedej på panden og lad det stege til pandekagen bliver fast - det tager 45-60 sekunder.. Vend den herefter og lad den stege i 45-60 sekunders tid, så den er let gylden på begge sider. Læg pandekagen på en tallerken og dæk med staniol/alufolie så de holdes varme.\nGentag ovenstående trin til alle pandekager er lavet.\nServér med marmelade, sukker, is, sirup, honning, frugt - eller hvad du nu har lyst til. Her er det vitterligt kun fantasien, der sætter grænser.",
+  "total_time": 20,
+  "prep_time": 5,
+  "cook_time": 15,
+  "yields": "10 servings",
+  "image": "https://madsvin.com/wp-content/uploads/2020/08/Pandekager-opskrift.jpg",
+  "description": "De lækreste hjemmelavede pandekager, der vækker glæde hos både børn og voksne",
+  "category": "bagværk,Dessert,Kage",
+  "keywords": [
+    "pandekage",
+    "pandekage opskrift",
+    "Pandekager"
+  ],
+  "ratings": 4.64,
+  "ratings_count": 19,
   "instructions_list": [
     "Pandekager",
     "Hæld mel, salt, sukker og vanilje i en skål og slå æggene ud i den. Pisk sammen til en ensformet masse uden klumper.",
@@ -39,19 +53,5 @@
     "Put en klat smør på en middelvarm pande, hæld 0,5-0,75 dl pandekagedej på panden og lad det stege til pandekagen bliver fast - det tager 45-60 sekunder.. Vend den herefter og lad den stege i 45-60 sekunders tid, så den er let gylden på begge sider. Læg pandekagen på en tallerken og dæk med staniol/alufolie så de holdes varme.",
     "Gentag ovenstående trin til alle pandekager er lavet.",
     "Servér med marmelade, sukker, is, sirup, honning, frugt - eller hvad du nu har lyst til. Her er det vitterligt kun fantasien, der sætter grænser."
-  ],
-  "language": "da-DK",
-  "ratings": 4.64,
-  "ratings_count": 19,
-  "site_name": "madsvin.com",
-  "title": "Pandekager",
-  "total_time": 20,
-  "yields": "10 servings",
-  "cook_time": 15,
-  "prep_time": 5,
-  "keywords": [
-    "pandekage",
-    "pandekage opskrift",
-    "Pandekager"
   ]
 }

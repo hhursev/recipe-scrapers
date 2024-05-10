@@ -1,9 +1,25 @@
 {
-  "author": "Adam Rapoport",
-  "canonical_url": "https://www.bonappetit.com/recipe/pork-chops-with-celery-and-almond-salad",
-  "category": null,
   "host": "bonappetit.com",
-  "image": "https://assets.bonappetit.com/photos/59e4d7dc3279981dd6c79847/5:7/w_1936,h_2710,c_limit/pork-chops-with-celery-and-almond-salad.jpg",
+  "canonical_url": "https://www.bonappetit.com/recipe/pork-chops-with-celery-and-almond-salad",
+  "site_name": "Bon Appétit",
+  "author": "Adam Rapoport",
+  "language": "en-US",
+  "title": "Pork Chops with Celery Salad",
+  "ingredients": [
+    "¼ cup dried unsweetened cranberries",
+    "3 tablespoons unseasoned rice vinegar",
+    "2 1½-inch-thick bone-in pork rib chops (about 1 pound each), patted dry",
+    "Kosher salt",
+    "4 tablespoons extra-virgin olive oil, divided",
+    "3 sprigs thyme",
+    "3 garlic cloves, smashed",
+    "3 tablespoons unsalted butter, cut into pieces",
+    "1 small shallot, finely chopped",
+    "6 large or 8 medium celery stalks, thinly sliced on a diagonal",
+    "½ cup parsley leaves with tender stems",
+    "¼ cup chopped salted, dry-roasted almonds",
+    "1 ounce Parmesan, shaved"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -24,36 +40,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "¼ cup dried unsweetened cranberries",
-    "3 tablespoons unseasoned rice vinegar",
-    "2 1½-inch-thick bone-in pork rib chops (about 1 pound each), patted dry",
-    "Kosher salt",
-    "4 tablespoons extra-virgin olive oil, divided",
-    "3 sprigs thyme",
-    "3 garlic cloves, smashed",
-    "3 tablespoons unsalted butter, cut into pieces",
-    "1 small shallot, finely chopped",
-    "6 large or 8 medium celery stalks, thinly sliced on a diagonal",
-    "½ cup parsley leaves with tender stems",
-    "¼ cup chopped salted, dry-roasted almonds",
-    "1 ounce Parmesan, shaved"
-  ],
   "instructions": "Combine cranberries and vinegar in a small bowl and set aside.\nSeason pork generously with salt, then rub with 1 Tbsp. oil total. Heat a dry medium skillet, preferably cast iron, over medium. Cook pork chops, moving once or twice to hotter areas of skillet, until first side is deeply browned, 6–9 minutes. Turn pork chops and cook until second sides are browned, about 5 minutes. Working one at a time, set chops on fatty side with tongs to melt and brown fat cap, about 1 minute each. At this point an instant-read thermometer inserted into the center of each chop should register 135°.\nAdd thyme, garlic, and butter to skillet and swirl to melt butter. Tilt skillet toward you so butter pools in the pan and spoon foaming butter over chops continuously until butter is browned, about 1 minute. Transfer pork chops, thyme, and garlic to a cutting board and let meat rest while you assemble the salad.\nCombine shallot and a couple of pinches of salt in a large bowl. Pour vinegar from reserved cranberries into bowl. Whisking constantly, gradually add remaining 3 Tbsp. oil. Add cranberries, celery, parsley, almonds, Parmesan, and several pinches of salt; toss to combine.\nCut along bones to remove meat from pork chops; slice meat ½\" thick. Transfer meat and bones to a platter along with garlic and thyme, then drizzle any accumulated juices left on cutting board over top. Serve with salad.",
-  "instructions_list": [
-    "Combine cranberries and vinegar in a small bowl and set aside.",
-    "Season pork generously with salt, then rub with 1 Tbsp. oil total. Heat a dry medium skillet, preferably cast iron, over medium. Cook pork chops, moving once or twice to hotter areas of skillet, until first side is deeply browned, 6–9 minutes. Turn pork chops and cook until second sides are browned, about 5 minutes. Working one at a time, set chops on fatty side with tongs to melt and brown fat cap, about 1 minute each. At this point an instant-read thermometer inserted into the center of each chop should register 135°.",
-    "Add thyme, garlic, and butter to skillet and swirl to melt butter. Tilt skillet toward you so butter pools in the pan and spoon foaming butter over chops continuously until butter is browned, about 1 minute. Transfer pork chops, thyme, and garlic to a cutting board and let meat rest while you assemble the salad.",
-    "Combine shallot and a couple of pinches of salt in a large bowl. Pour vinegar from reserved cranberries into bowl. Whisking constantly, gradually add remaining 3 Tbsp. oil. Add cranberries, celery, parsley, almonds, Parmesan, and several pinches of salt; toss to combine.",
-    "Cut along bones to remove meat from pork chops; slice meat ½\" thick. Transfer meat and bones to a platter along with garlic and thyme, then drizzle any accumulated juices left on cutting board over top. Serve with salad."
-  ],
-  "language": "en-US",
-  "ratings": 3.8,
-  "ratings_count": 5,
-  "site_name": "Bon Appétit",
-  "title": "Pork Chops with Celery Salad",
   "total_time": null,
   "yields": "4 servings",
+  "image": "https://assets.bonappetit.com/photos/59e4d7dc3279981dd6c79847/5:7/w_1936,h_2710,c_limit/pork-chops-with-celery-and-almond-salad.jpg",
+  "description": "Rich butter-basted pork offset by a bright, crunchy salad comes together quick and easy.",
+  "category": null,
   "keywords": [
     "celery",
     "almond",
@@ -63,5 +55,13 @@
     "dinner",
     "web"
   ],
-  "description": "Rich butter-basted pork offset by a bright, crunchy salad comes together quick and easy."
+  "ratings": 3.8,
+  "ratings_count": 5,
+  "instructions_list": [
+    "Combine cranberries and vinegar in a small bowl and set aside.",
+    "Season pork generously with salt, then rub with 1 Tbsp. oil total. Heat a dry medium skillet, preferably cast iron, over medium. Cook pork chops, moving once or twice to hotter areas of skillet, until first side is deeply browned, 6–9 minutes. Turn pork chops and cook until second sides are browned, about 5 minutes. Working one at a time, set chops on fatty side with tongs to melt and brown fat cap, about 1 minute each. At this point an instant-read thermometer inserted into the center of each chop should register 135°.",
+    "Add thyme, garlic, and butter to skillet and swirl to melt butter. Tilt skillet toward you so butter pools in the pan and spoon foaming butter over chops continuously until butter is browned, about 1 minute. Transfer pork chops, thyme, and garlic to a cutting board and let meat rest while you assemble the salad.",
+    "Combine shallot and a couple of pinches of salt in a large bowl. Pour vinegar from reserved cranberries into bowl. Whisking constantly, gradually add remaining 3 Tbsp. oil. Add cranberries, celery, parsley, almonds, Parmesan, and several pinches of salt; toss to combine.",
+    "Cut along bones to remove meat from pork chops; slice meat ½\" thick. Transfer meat and bones to a platter along with garlic and thyme, then drizzle any accumulated juices left on cutting board over top. Serve with salad."
+  ]
 }

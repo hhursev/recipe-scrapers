@@ -1,9 +1,10 @@
 {
-  "author": "Claire Aldous",
-  "canonical_url": "https://dish.co.nz/recipes/tikka-masala-lamb-meatball-curry/",
   "host": "dish.co.nz",
-  "description": "With a ready-made curry paste, dinner is on the table quick smart. I don’t brown the meatballs before adding them to the sauce; one less step to do!",
-  "image": "https://dish.co.nz/assets/media/images/meatball_curry__FillWzg1MCwxMTc0XQ.jpg",
+  "canonical_url": "https://dish.co.nz/recipes/tikka-masala-lamb-meatball-curry/",
+  "site_name": "Dish",
+  "author": "Claire Aldous",
+  "language": "en",
+  "title": "Tikka Masala Lamb Meatball Curry",
   "ingredients": [
     "400 grams lamb mince",
     "2 teaspoons ground cumin",
@@ -51,16 +52,15 @@
     }
   ],
   "instructions": "Meatballs: Place all the ingredients in a large bowl and combine well. Roll into 16 meatballs.\nSauce: Heat the olive oil in a large sauté pan. Add the onion, garlic, spices and the tikka paste then stir in the water. Cover and cook gently for 10 minutes then add the tomatoes and bring to the boil.\nAdd the meatballs and spoon over a little sauce. Cover and simmer gently for 15 minutes, or until they are fully cooked through.\nServe the meatballs with any of the suggestions listed below.\nServing suggestions: warm flatbreads hot cooked rice toasted coconut crispy shallots coconut cream or yoghurt mint or coriander leaves lime or lemon wedges",
+  "total_time": null,
+  "yields": "Serves: 4",
+  "image": "https://dish.co.nz/assets/media/images/meatball_curry__FillWzg1MCwxMTc0XQ.jpg",
+  "description": "With a ready-made curry paste, dinner is on the table quick smart. I don’t brown the meatballs before adding them to the sauce; one less step to do!",
   "instructions_list": [
     "Meatballs: Place all the ingredients in a large bowl and combine well. Roll into 16 meatballs.",
     "Sauce: Heat the olive oil in a large sauté pan. Add the onion, garlic, spices and the tikka paste then stir in the water. Cover and cook gently for 10 minutes then add the tomatoes and bring to the boil.",
     "Add the meatballs and spoon over a little sauce. Cover and simmer gently for 15 minutes, or until they are fully cooked through.",
     "Serve the meatballs with any of the suggestions listed below.",
     "Serving suggestions: warm flatbreads hot cooked rice toasted coconut crispy shallots coconut cream or yoghurt mint or coriander leaves lime or lemon wedges"
-  ],
-  "language": "en",
-  "site_name": "Dish",
-  "title": "Tikka Masala Lamb Meatball Curry",
-  "total_time": null,
-  "yields": "Serves: 4"
+  ]
 }

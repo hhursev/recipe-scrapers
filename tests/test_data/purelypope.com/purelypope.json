@@ -1,9 +1,18 @@
 {
-  "author": null,
-  "canonical_url": "https://purelypope.com/sweet-chili-brussel-sprouts/",
-  "category": null,
   "host": "purelypope.com",
-  "image": "https://i0.wp.com/purelypope.com/wp-content/uploads/2020/05/IMG_5412-1-scaled.jpg?resize=150%2C150&ssl=1",
+  "canonical_url": "https://purelypope.com/sweet-chili-brussel-sprouts/",
+  "site_name": "PurelyPope",
+  "author": null,
+  "language": "en-US",
+  "title": "Sweet Chili Brussel Sprouts",
+  "ingredients": [
+    "2 cups brussel sprouts, stems removed & cut in half",
+    "2 tbsp coconut aminos",
+    "1 tbsp sriracha",
+    "1/2 tbsp maple syrup",
+    "1 tsp sesame oil",
+    "Everything bagel seasoning or sesame seeds, to top"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -17,15 +26,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 cups brussel sprouts, stems removed & cut in half",
-    "2 tbsp coconut aminos",
-    "1 tbsp sriracha",
-    "1/2 tbsp maple syrup",
-    "1 tsp sesame oil",
-    "Everything bagel seasoning or sesame seeds, to top"
-  ],
   "instructions": "Instructions\n\nBrussel Sprout Time!\n\nPreheat oven to 350 degrees.\nWhisk the sauce (coconut aminos, sriracha, maple syrup & sesame oil) together in a large bowl.\nToss in brussel sprouts and coat mixture evenly over the brussels.\nRoast for 30 minutes.\nTurn oven to broil for 2-3 minutes to crisp (watch carefully to not burn.)\nTop with everything or sesame seeds.",
+  "total_time": 42,
+  "prep_time": 10,
+  "cook_time": 32,
+  "yields": "4 servings",
+  "image": "https://i0.wp.com/purelypope.com/wp-content/uploads/2020/05/IMG_5412-1-scaled.jpg?resize=150%2C150&ssl=1",
+  "category": null,
   "instructions_list": [
     "Instructions",
     "Brussel Sprout Time!",
@@ -35,12 +42,5 @@
     "Roast for 30 minutes.",
     "Turn oven to broil for 2-3 minutes to crisp (watch carefully to not burn.)",
     "Top with everything or sesame seeds."
-  ],
-  "language": "en-US",
-  "site_name": "PurelyPope",
-  "title": "Sweet Chili Brussel Sprouts",
-  "total_time": 42,
-  "yields": "4 servings",
-  "cook_time": 32,
-  "prep_time": 10
+  ]
 }

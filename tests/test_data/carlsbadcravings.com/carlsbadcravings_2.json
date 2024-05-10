@@ -1,9 +1,21 @@
 {
-  "author": "Jen",
-  "canonical_url": "https://carlsbadcravings.com/easy-cranberry-pistachio-cheese-log/",
-  "title": "Easy Cranberry Pistachio Cheese Log",
   "host": "carlsbadcravings.com",
-  "image": "https://carlsbadcravings.com/wp-content/uploads/2017/11/christmas-2.jpg",
+  "canonical_url": "https://carlsbadcravings.com/easy-cranberry-pistachio-cheese-log/",
+  "site_name": "Carlsbad Cravings",
+  "author": "Jen",
+  "language": "en-US",
+  "title": "Easy Cranberry Pistachio Cheese Log",
+  "ingredients": [
+    "1 1/4 cups fresh cranberries",
+    "1 cup shelled roasted, salted pistachios",
+    "7-8 oz. goat cheese log or tub",
+    "4 oz. cream cheese, softened",
+    "2 tablespoons honey",
+    "1/4 tsp EACH ground ginger, ground cinnamon, salt, dried thyme, dried rosemary",
+    "1/8 teaspoon pepper",
+    "1/2 cup Cranberry Pistachio Coating mixture ((in directions))",
+    "honey"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,28 +42,16 @@
       "purpose": "Garnish"
     }
   ],
-  "ingredients": [
-    "1 1/4 cups fresh cranberries",
-    "1 cup shelled roasted, salted pistachios",
-    "7-8 oz. goat cheese log or tub",
-    "4 oz. cream cheese, softened",
-    "2 tablespoons honey",
-    "1/4 tsp EACH ground ginger, ground cinnamon, salt, dried thyme, dried rosemary",
-    "1/8 teaspoon pepper",
-    "1/2 cup Cranberry Pistachio Coating mixture ((in directions))",
-    "honey"
-  ],
   "instructions": "Add cranberries and pistachios to your food processor and chop into small pieces (but don't over-process). Remove ½ cup and add it to a medium bowl. Add all remaining Goat Cheese Log ingredients to the bowl and stir to combine.\nAdd this cheese mixture to a large piece of plastic wrap, and form into the shape of a log. Wrap in plastic wrap. Freezer for 20-30 minutes. We want the cheese log slightly firm so it holds its shape but is still soft enough for the Coating to be pressed into it.\nLine counter with about a large piece parchment paper. Add Coating ingredients to parchment and spread into a single layer square a little larger than the length of the cheese log. Add cheese log to the edge of the Coating and roll in Coating (see photos) until evenly coated, pressing coating into the cheese so it sticks. The cheese log can be refrigerated at this point until ready to serve or serve immediately.\nWhen ready to serve, remove from refrigerator 15 minutes beforehand so it can soften. Drizzle generously with honey just before serving. Serve with crackers.",
+  "total_time": 30,
+  "prep_time": 10,
+  "yields": "16 servings",
+  "image": "https://carlsbadcravings.com/wp-content/uploads/2017/11/christmas-2.jpg",
+  "description": "10 Minute prep creamy, sweet and tangy Cranberry Pistachio Cheese Log is the EASIEST yet most impressive appetizer you will ever make! This festive goat cheese log can be made DAYS in advance so it’s the perfect stress-free appetizer for Thanksgiving, Christmas or any holiday party!",
   "instructions_list": [
     "Add cranberries and pistachios to your food processor and chop into small pieces (but don't over-process). Remove ½ cup and add it to a medium bowl. Add all remaining Goat Cheese Log ingredients to the bowl and stir to combine.",
     "Add this cheese mixture to a large piece of plastic wrap, and form into the shape of a log. Wrap in plastic wrap. Freezer for 20-30 minutes. We want the cheese log slightly firm so it holds its shape but is still soft enough for the Coating to be pressed into it.",
     "Line counter with about a large piece parchment paper. Add Coating ingredients to parchment and spread into a single layer square a little larger than the length of the cheese log. Add cheese log to the edge of the Coating and roll in Coating (see photos) until evenly coated, pressing coating into the cheese so it sticks. The cheese log can be refrigerated at this point until ready to serve or serve immediately.",
     "When ready to serve, remove from refrigerator 15 minutes beforehand so it can soften. Drizzle generously with honey just before serving. Serve with crackers."
-  ],
-  "language": "en-US",
-  "description": "10 Minute prep creamy, sweet and tangy Cranberry Pistachio Cheese Log is the EASIEST yet most impressive appetizer you will ever make! This festive goat cheese log can be made DAYS in advance so it’s the perfect stress-free appetizer for Thanksgiving, Christmas or any holiday party!",
-  "site_name": "Carlsbad Cravings",
-  "total_time": 30,
-  "yields": "16 servings",
-  "prep_time": 10
+  ]
 }

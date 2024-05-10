@@ -1,9 +1,27 @@
 {
-  "author": "Taste of Home",
-  "canonical_url": "https://www.tasteofhome.com/recipes/pressure-cooker-sauerbraten/",
-  "category": "Dinner",
   "host": "tasteofhome.com",
-  "image": "https://www.tasteofhome.com/wp-content/uploads/0001/01/Pressure-Cooker-Sauerbraten_EXPS_THN18_39243_E06_06_2b.jpg",
+  "canonical_url": "https://www.tasteofhome.com/recipes/pressure-cooker-sauerbraten/",
+  "site_name": "Taste of Home",
+  "author": "Taste of Home",
+  "language": "en-US",
+  "title": "Pressure-Cooker Sauerbraten",
+  "ingredients": [
+    "4 whole cloves",
+    "4 whole peppercorns",
+    "1 bay leaf",
+    "1/2 cup water",
+    "1/2 cup white vinegar",
+    "2 teaspoons sugar",
+    "1/2 teaspoon salt",
+    "Dash ground ginger",
+    "1 pound boneless beef top round steak, cut into 1-inch cubes",
+    "3 medium carrots, cut into 1/2-inch slices",
+    "2 celery ribs, cut into 1/2-inch slices",
+    "1 small onion, chopped",
+    "1/3 cup crushed gingersnaps",
+    "Hot cooked egg noodles",
+    "Optional: Chopped fresh parsley and coarsely ground pepper"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,29 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 whole cloves",
-    "4 whole peppercorns",
-    "1 bay leaf",
-    "1/2 cup water",
-    "1/2 cup white vinegar",
-    "2 teaspoons sugar",
-    "1/2 teaspoon salt",
-    "Dash ground ginger",
-    "1 pound boneless beef top round steak, cut into 1-inch cubes",
-    "3 medium carrots, cut into 1/2-inch slices",
-    "2 celery ribs, cut into 1/2-inch slices",
-    "1 small onion, chopped",
-    "1/3 cup crushed gingersnaps",
-    "Hot cooked egg noodles",
-    "Optional: Chopped fresh parsley and coarsely ground pepper"
-  ],
   "instructions": "Place cloves, peppercorns and bay leaf on a double thickness of cheesecloth; bring up corners of cloth and tie with kitchen string to form a bag. In a large bowl, combine the water, vinegar, sugar, salt and ginger. Add beef and spice bag; let stand at room temperature for 30 minutes.\nTransfer all to a 6-qt. electric pressure cooker. Add carrots, celery and onion. Lock the lid and close pressure-release valve. Adjust to pressure-cook on high for 10 minutes. Quick-release pressure. Select saute setting and adjust for medium heat; bring liquid to a boil. Discard the spice bag. Stir in gingersnaps; cook and stir until thickened, about 3 minutes. Serve with egg noodles. If desired, top with parsley and pepper.",
-  "instructions_list": [
-    "Place cloves, peppercorns and bay leaf on a double thickness of cheesecloth; bring up corners of cloth and tie with kitchen string to form a bag. In a large bowl, combine the water, vinegar, sugar, salt and ginger. Add beef and spice bag; let stand at room temperature for 30 minutes.",
-    "Transfer all to a 6-qt. electric pressure cooker. Add carrots, celery and onion. Lock the lid and close pressure-release valve. Adjust to pressure-cook on high for 10 minutes. Quick-release pressure. Select saute setting and adjust for medium heat; bring liquid to a boil. Discard the spice bag. Stir in gingersnaps; cook and stir until thickened, about 3 minutes. Serve with egg noodles. If desired, top with parsley and pepper."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 20,
+  "cook_time": 20,
+  "yields": "4 servings",
+  "image": "https://www.tasteofhome.com/wp-content/uploads/0001/01/Pressure-Cooker-Sauerbraten_EXPS_THN18_39243_E06_06_2b.jpg",
+  "description": "One of my all-time favorite German dishes is sauerbraten, but I don't love that it normally takes five to 10 days to make. Using an electric pressure cooker, I think I've captured that same distinctive flavor in less than two hours. —James Schend, Dairy Freed",
   "nutrients": {
     "calories": "228 calories",
     "fatContent": "5g fat (2g saturated fat)",
@@ -58,14 +60,12 @@
     "fiberContent": "2g fiber)",
     "proteinContent": "27g protein. Diabetic Exchanges: 3 lean meat"
   },
+  "cuisine": "Europe, German",
+  "category": "Dinner",
   "ratings": 3.78,
   "ratings_count": 9,
-  "site_name": "Taste of Home",
-  "title": "Pressure-Cooker Sauerbraten",
-  "total_time": 40,
-  "yields": "4 servings",
-  "description": "One of my all-time favorite German dishes is sauerbraten, but I don't love that it normally takes five to 10 days to make. Using an electric pressure cooker, I think I've captured that same distinctive flavor in less than two hours. —James Schend, Dairy Freed",
-  "cook_time": 20,
-  "cuisine": "Europe, German",
-  "prep_time": 20
+  "instructions_list": [
+    "Place cloves, peppercorns and bay leaf on a double thickness of cheesecloth; bring up corners of cloth and tie with kitchen string to form a bag. In a large bowl, combine the water, vinegar, sugar, salt and ginger. Add beef and spice bag; let stand at room temperature for 30 minutes.",
+    "Transfer all to a 6-qt. electric pressure cooker. Add carrots, celery and onion. Lock the lid and close pressure-release valve. Adjust to pressure-cook on high for 10 minutes. Quick-release pressure. Select saute setting and adjust for medium heat; bring liquid to a boil. Discard the spice bag. Stir in gingersnaps; cook and stir until thickened, about 3 minutes. Serve with egg noodles. If desired, top with parsley and pepper."
+  ]
 }

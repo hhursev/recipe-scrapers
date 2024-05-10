@@ -1,9 +1,16 @@
 {
-  "author": "H-E-B",
-  "canonical_url": "https://www.heb.com/recipe/recipe-detail/truffled-spaghetti-squash",
-  "category": null,
   "host": "heb.com",
-  "image": "https://images.heb.com/is/image/HEBGrocery/Test/truffled-spaghetti-squash-recipe.jpg",
+  "canonical_url": "https://www.heb.com/recipe/recipe-detail/truffled-spaghetti-squash",
+  "site_name": "H-E-B | Here Everything's Better",
+  "author": "H-E-B",
+  "language": "en",
+  "title": "Truffled Spaghetti Squash",
+  "ingredients": [
+    "1 Large spaghetti squash",
+    "1 tsp Truffle salt",
+    "4 Tbsp Unsalted butter",
+    "1 Tbsp White truffle oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -15,20 +22,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 Large spaghetti squash",
-    "1 tsp Truffle salt",
-    "4 Tbsp Unsalted butter",
-    "1 Tbsp White truffle oil"
-  ],
   "instructions": "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).\nPlace the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.\nOnce Squash is fully cooked and soft remove it from oven and let it cool for 10 minutes before scooping out meat of squash. In a serving bowl scoop or with a fork scrape out squash and add truffle salt, butter and truffle oil.\nToss all ingredients together until butter is fully melted. Season to taste if needed and serve warm.",
-  "instructions_list": [
-    "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).",
-    "Place the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.",
-    "Once Squash is fully cooked and soft remove it from oven and let it cool for 10 minutes before scooping out meat of squash. In a serving bowl scoop or with a fork scrape out squash and add truffle salt, butter and truffle oil.",
-    "Toss all ingredients together until butter is fully melted. Season to taste if needed and serve warm."
-  ],
-  "language": "en",
+  "total_time": 60.0,
+  "prep_time": 20,
+  "cook_time": 40,
+  "yields": "8 servings",
+  "image": "https://images.heb.com/is/image/HEBGrocery/Test/truffled-spaghetti-squash-recipe.jpg",
+  "description": "Easily shop for ingredients to make Truffled Spaghetti Squash. Find instructions, prep time, cook time, serving size, nutrition, and more.",
   "nutrients": {
     "calories": "100 calories",
     "carbohydrateContent": "8 grams",
@@ -42,11 +42,11 @@
     "transFatContent": "0 grams",
     "unsaturatedFatContent": "4 grams"
   },
-  "site_name": "H-E-B | Here Everything's Better",
-  "title": "Truffled Spaghetti Squash",
-  "total_time": 60.0,
-  "yields": "8 servings",
-  "description": "Easily shop for ingredients to make Truffled Spaghetti Squash. Find instructions, prep time, cook time, serving size, nutrition, and more.",
-  "cook_time": 40,
-  "prep_time": 20
+  "category": null,
+  "instructions_list": [
+    "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).",
+    "Place the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.",
+    "Once Squash is fully cooked and soft remove it from oven and let it cool for 10 minutes before scooping out meat of squash. In a serving bowl scoop or with a fork scrape out squash and add truffle salt, butter and truffle oil.",
+    "Toss all ingredients together until butter is fully melted. Season to taste if needed and serve warm."
+  ]
 }

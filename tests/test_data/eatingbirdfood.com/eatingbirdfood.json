@@ -1,9 +1,27 @@
 {
-  "author": "Brittany Mullins",
-  "canonical_url": "https://www.eatingbirdfood.com/curried-shakshuka/",
-  "category": "Lunch/Dinner",
   "host": "eatingbirdfood.com",
-  "image": "https://www.eatingbirdfood.com/wp-content/uploads/2020/12/Shakshuka-in-pan.jpg",
+  "canonical_url": "https://www.eatingbirdfood.com/curried-shakshuka/",
+  "site_name": "Eating Bird Food",
+  "author": "Brittany Mullins",
+  "language": "en-US",
+  "title": "Easy Shakshuka",
+  "ingredients": [
+    "2 Tablespoons olive oil",
+    "1 large onion (chopped)",
+    "1 orange bell pepper (chopped)",
+    "4 cloves garlic (minced)",
+    "1/2 teaspoon cumin",
+    "1/2 teaspoon paprika",
+    "1/4 teaspoon cayenne pepper",
+    "1-2 teaspoons curry powder",
+    "1/4 teaspoon turmeric",
+    "1/2 teaspoon sea salt",
+    "1/4 teaspoon ground pepper",
+    "28 ounce can diced tomatoes",
+    "4-5 eggs",
+    "1/2 cup feta cheese",
+    "fresh cilantro and parsley (for serving)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,31 +44,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 Tablespoons olive oil",
-    "1 large onion (chopped)",
-    "1 orange bell pepper (chopped)",
-    "4 cloves garlic (minced)",
-    "1/2 teaspoon cumin",
-    "1/2 teaspoon paprika",
-    "1/4 teaspoon cayenne pepper",
-    "1-2 teaspoons curry powder",
-    "1/4 teaspoon turmeric",
-    "1/2 teaspoon sea salt",
-    "1/4 teaspoon ground pepper",
-    "28 ounce can diced tomatoes",
-    "4-5 eggs",
-    "1/2 cup feta cheese",
-    "fresh cilantro and parsley (for serving)"
-  ],
   "instructions": "Sauté veggies: Heat oil in a large skillet over medium heat. Add onion, bell pepper and garlic to the skillet and cook until onions are soft and fragrant — about 5 to 10 minutes.\nAdd spices and tomatoes: Add cumin, paprika, cayenne, curry, turmeric, salt and pepper. Give the mixture a stir and cook for about 1 minute more. Add diced tomatoes to the skillet and bring sauce to a boil. Reduce heat to a simmer and cook until the sauce thickens up a bit, about 10 minutes. Add feta cheese to the tomato mixture and stir.\nAdd eggs: Crack eggs into tomato sauce. You should be able to fit 4-5 eggs in a large skillet. Cover and let the eggs cook for about 5 minutes, or until the egg whites are completely cooked through. Remove skillet from heat, uncover and let sit for a 1-2 minutes before serving.\nServe: Spoon 1-2 eggs along with a big serving of tomato sauce on to each plate. Garnish with extra feta cheese and fresh cilantro and parsley. Serve with toast, veggies or over a whole grain like quinoa or brown rice for a complete meal.",
-  "instructions_list": [
-    "Sauté veggies: Heat oil in a large skillet over medium heat. Add onion, bell pepper and garlic to the skillet and cook until onions are soft and fragrant — about 5 to 10 minutes.",
-    "Add spices and tomatoes: Add cumin, paprika, cayenne, curry, turmeric, salt and pepper. Give the mixture a stir and cook for about 1 minute more. Add diced tomatoes to the skillet and bring sauce to a boil. Reduce heat to a simmer and cook until the sauce thickens up a bit, about 10 minutes. Add feta cheese to the tomato mixture and stir.",
-    "Add eggs: Crack eggs into tomato sauce. You should be able to fit 4-5 eggs in a large skillet. Cover and let the eggs cook for about 5 minutes, or until the egg whites are completely cooked through. Remove skillet from heat, uncover and let sit for a 1-2 minutes before serving.",
-    "Serve: Spoon 1-2 eggs along with a big serving of tomato sauce on to each plate. Garnish with extra feta cheese and fresh cilantro and parsley. Serve with toast, veggies or over a whole grain like quinoa or brown rice for a complete meal."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 10,
+  "cook_time": 30,
+  "yields": "4 servings",
+  "image": "https://www.eatingbirdfood.com/wp-content/uploads/2020/12/Shakshuka-in-pan.jpg",
+  "description": "This easy shakshuka recipe is a healthy one-pan dish with poached eggs in a flavorful tomato sauce. It comes together quickly and can be served any time of the day!",
   "nutrients": {
     "servingSize": "1 /4 of recipe",
     "calories": "284 kcal",
@@ -64,17 +64,17 @@
     "cholesterolContent": "224 mg",
     "unsaturatedFatContent": "6 g"
   },
-  "ratings": 4.45,
-  "ratings_count": 54,
-  "site_name": "Eating Bird Food",
-  "title": "Easy Shakshuka",
-  "total_time": 40,
-  "yields": "4 servings",
+  "cuisine": "Middle Eastern",
+  "category": "Lunch/Dinner",
   "keywords": [
     "shakshuka"
   ],
-  "description": "This easy shakshuka recipe is a healthy one-pan dish with poached eggs in a flavorful tomato sauce. It comes together quickly and can be served any time of the day!",
-  "cook_time": 30,
-  "cuisine": "Middle Eastern",
-  "prep_time": 10
+  "ratings": 4.45,
+  "ratings_count": 54,
+  "instructions_list": [
+    "Sauté veggies: Heat oil in a large skillet over medium heat. Add onion, bell pepper and garlic to the skillet and cook until onions are soft and fragrant — about 5 to 10 minutes.",
+    "Add spices and tomatoes: Add cumin, paprika, cayenne, curry, turmeric, salt and pepper. Give the mixture a stir and cook for about 1 minute more. Add diced tomatoes to the skillet and bring sauce to a boil. Reduce heat to a simmer and cook until the sauce thickens up a bit, about 10 minutes. Add feta cheese to the tomato mixture and stir.",
+    "Add eggs: Crack eggs into tomato sauce. You should be able to fit 4-5 eggs in a large skillet. Cover and let the eggs cook for about 5 minutes, or until the egg whites are completely cooked through. Remove skillet from heat, uncover and let sit for a 1-2 minutes before serving.",
+    "Serve: Spoon 1-2 eggs along with a big serving of tomato sauce on to each plate. Garnish with extra feta cheese and fresh cilantro and parsley. Serve with toast, veggies or over a whole grain like quinoa or brown rice for a complete meal."
+  ]
 }

@@ -1,9 +1,21 @@
 {
-  "author": "Mel",
-  "canonical_url": "https://www.melskitchencafe.com/licorice-caramels/",
-  "category": "Candy",
   "host": "melskitchencafe.com",
-  "image": "https://www.melskitchencafe.com/wp-content/uploads/2013/12/licorice-caramels3.jpg",
+  "canonical_url": "https://www.melskitchencafe.com/licorice-caramels/",
+  "site_name": "Mel's Kitchen Cafe",
+  "author": "Mel",
+  "language": "en-US",
+  "title": "Licorice Caramels",
+  "ingredients": [
+    "1/2 cup water",
+    "2 cups sugar",
+    "1 (14-ounce) can sweetened condensed milk",
+    "1 cup light corn syrup",
+    "3/4 cup salted butter",
+    "2 teaspoons anise extract (see note)",
+    "1/2 teaspoon black food coloring paste (optional; see note)",
+    "1/4 teaspoon vanilla extract",
+    "1/4 teaspoon salt"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,26 +32,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1/2 cup water",
-    "2 cups sugar",
-    "1 (14-ounce) can sweetened condensed milk",
-    "1 cup light corn syrup",
-    "3/4 cup salted butter",
-    "2 teaspoons anise extract (see note)",
-    "1/2 teaspoon black food coloring paste (optional; see note)",
-    "1/4 teaspoon vanilla extract",
-    "1/4 teaspoon salt"
-  ],
   "instructions": "Lightly butter an 8X8- or 9X9-inch pan and set aside.\nIn a heavy-bottomed 4-quart saucepan, combine the water, sugar, condensed milk, corn syrup, and butter. Bring the mixture to a boil over medium heat, stirring constantly with a heat-resistant rubber spatula. Clip a candy thermometer to the side of the pan, ensuring that the tip of the thermometer isn’t touching the bottom of the pan and is inserted at least 1-2 inches into the liquid (or according to your thermometer’s directions).\nContinue stirring gently while the mixture boils and cooks, until the caramels reach 242-244 degrees F. If the caramels seem to be scorching on the bottom of the pan, moderate the heat to a lower temperature. You can also test the caramels using a spoon and dropping a pea-sized amount of the hot caramel into cold water. If the cooled piece of caramel is firm but not hard, the caramel is properly cooked.\nRemove the pot from the heat and stir in the anise extract, food coloring, vanilla extract and salt. Pour the caramels into the prepared pan and allow to cool completely to room temperature, at least 2 hours.\nWhen cool, remove the sheet of caramels from the pan. Cut the caramels into pieces using a large knife or bench scraper. Wrap each caramel square in a bit of wax paper, twisting the ends to secure.",
-  "instructions_list": [
-    "Lightly butter an 8X8- or 9X9-inch pan and set aside.",
-    "In a heavy-bottomed 4-quart saucepan, combine the water, sugar, condensed milk, corn syrup, and butter. Bring the mixture to a boil over medium heat, stirring constantly with a heat-resistant rubber spatula. Clip a candy thermometer to the side of the pan, ensuring that the tip of the thermometer isn’t touching the bottom of the pan and is inserted at least 1-2 inches into the liquid (or according to your thermometer’s directions).",
-    "Continue stirring gently while the mixture boils and cooks, until the caramels reach 242-244 degrees F. If the caramels seem to be scorching on the bottom of the pan, moderate the heat to a lower temperature. You can also test the caramels using a spoon and dropping a pea-sized amount of the hot caramel into cold water. If the cooled piece of caramel is firm but not hard, the caramel is properly cooked.",
-    "Remove the pot from the heat and stir in the anise extract, food coloring, vanilla extract and salt. Pour the caramels into the prepared pan and allow to cool completely to room temperature, at least 2 hours.",
-    "When cool, remove the sheet of caramels from the pan. Cut the caramels into pieces using a large knife or bench scraper. Wrap each caramel square in a bit of wax paper, twisting the ends to secure."
-  ],
-  "language": "en-US",
+  "total_time": 150,
+  "prep_time": 130,
+  "cook_time": 20,
+  "yields": "50 servings",
+  "image": "https://www.melskitchencafe.com/wp-content/uploads/2013/12/licorice-caramels3.jpg",
   "nutrients": {
     "servingSize": "1 Caramel",
     "calories": "100 kcal",
@@ -51,14 +49,7 @@
     "sodiumContent": "50 mg",
     "sugarContent": "18 g"
   },
-  "ratings": 4.6,
-  "ratings_count": 49,
-  "site_name": "Mel's Kitchen Cafe",
-  "title": "Licorice Caramels",
-  "total_time": 150,
-  "yields": "50 servings",
-  "cook_time": 20,
-  "prep_time": 130,
+  "category": "Candy",
   "keywords": [
     "anise extract",
     "butter",
@@ -67,5 +58,14 @@
     "granulated sugar",
     "sweetened condensed milk",
     "vanilla extract"
+  ],
+  "ratings": 4.6,
+  "ratings_count": 49,
+  "instructions_list": [
+    "Lightly butter an 8X8- or 9X9-inch pan and set aside.",
+    "In a heavy-bottomed 4-quart saucepan, combine the water, sugar, condensed milk, corn syrup, and butter. Bring the mixture to a boil over medium heat, stirring constantly with a heat-resistant rubber spatula. Clip a candy thermometer to the side of the pan, ensuring that the tip of the thermometer isn’t touching the bottom of the pan and is inserted at least 1-2 inches into the liquid (or according to your thermometer’s directions).",
+    "Continue stirring gently while the mixture boils and cooks, until the caramels reach 242-244 degrees F. If the caramels seem to be scorching on the bottom of the pan, moderate the heat to a lower temperature. You can also test the caramels using a spoon and dropping a pea-sized amount of the hot caramel into cold water. If the cooled piece of caramel is firm but not hard, the caramel is properly cooked.",
+    "Remove the pot from the heat and stir in the anise extract, food coloring, vanilla extract and salt. Pour the caramels into the prepared pan and allow to cool completely to room temperature, at least 2 hours.",
+    "When cool, remove the sheet of caramels from the pan. Cut the caramels into pieces using a large knife or bench scraper. Wrap each caramel square in a bit of wax paper, twisting the ends to secure."
   ]
 }

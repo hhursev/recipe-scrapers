@@ -1,9 +1,22 @@
 {
-  "author": "Pedro Cavalcanti",
-  "canonical_url": "https://comidinhasdochef.com/coxa-de-frango-na-fritadeira-eletrica/",
-  "category": "Carnes, aves, peixes",
   "host": "comidinhasdochef.com",
-  "image": "https://comidinhasdochef.com/wp-content/uploads/2022/01/Coxa-de-Frango-na-Fritadeira-Elétrica00.jpg",
+  "canonical_url": "https://comidinhasdochef.com/coxa-de-frango-na-fritadeira-eletrica/",
+  "site_name": "Comidinhas do Chef",
+  "author": "Pedro Cavalcanti",
+  "language": "pt-BR",
+  "title": "Coxa de Frango na Fritadeira Elétrica",
+  "ingredients": [
+    "500 g de coxas de frango",
+    "1 colher (sopa) de mostarda",
+    "1 colher (sopa) de azeite",
+    "2 colheres (sopa) de shoyo",
+    "1 unidade de limões espremidos",
+    "1 colher (sopa) de salsinha desidratada",
+    "1 dente de alho",
+    "0 e 1/2 colher (sopa) de colorau",
+    "pimenta do reino a gosto",
+    "sal a gosto"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,19 +34,37 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "500 g de coxas de frango",
-    "1 colher (sopa) de mostarda",
-    "1 colher (sopa) de azeite",
-    "2 colheres (sopa) de shoyo",
-    "1 unidade de limões espremidos",
-    "1 colher (sopa) de salsinha desidratada",
-    "1 dente de alho",
-    "0 e 1/2 colher (sopa) de colorau",
-    "pimenta do reino a gosto",
-    "sal a gosto"
-  ],
   "instructions": "Como preparar Coxa de Frango na Fritadeira Elétrica\nPasso 1\nEm uma tigela coloque as coxas de frango e adicione todos os ingredientes ( a mostarda, o azeite, o shoyu, o suco de limão, a salsa, o alho picado, o colorau, a pimenta do reino e o sal);\nPasso 2\nCom as mãos misture bem, massageando as coxas de frango para que o tempero pegue bem;\nPasso 3\nEm seguida tampe a tigela e reserve por 25-30 minutos;\nPasso 4\nPré aqueça sua fritadeira elétrica a 200º C por 5 minutos;\nPasso 5\nColoque as coxas de frango e deixe fritar por 10 minutos;\nPasso 6\nAbra a fritadeira, vire o frango e deixe por mais 10 minutos, mantendo sempre a temperatura de 200º C;\nPasso 7\nRetire as coxas de frango da fritadeira e sirva em seguida.",
+  "total_time": 30,
+  "prep_time": 5,
+  "cook_time": 25,
+  "yields": "5 servings",
+  "image": "https://comidinhasdochef.com/wp-content/uploads/2022/01/Coxa-de-Frango-na-Fritadeira-Elétrica00.jpg",
+  "description": "Você vai aprender hoje como fazer coxa de frango na fritadeira elétrica sem erros! Nós sabemos que há muitas pessoas com medo de usar a fritadeira elétrica, que não precisa ir óleo para fritar, porque o frango pode acabar ficando muito frito e seco, sem aquela suculência gostosa que todos nós amamos em um frango frito, né? Por isso, nós aqui do Comidinhas do Chef testamos algumas receitas e desenvolvemos esta especialmente para você, com um passo a passo certeiro para a coxa de frango ficar no ponto ideal, com aquela casquinha levemente crocante externa e bem gostosa, mas ainda muito saboroso por dentro. Para isso, é só seguir a nossa receita de coxa de frango na fritadeira elétrica, que você vai acertar em cheio na hora de preparar aí na sua casa também! O resultado fica simplesmente maravilhoso e vai dar vontade de fazer as coxas de frango somente assim de agora em diante.",
+  "nutrients": {
+    "calories": "163 kcal",
+    "carbohydrateContent": "1.2 g",
+    "fiberContent": "0.2 g",
+    "proteinContent": "15 g",
+    "servingSize": "5",
+    "sodiumContent": "355 mg",
+    "saturatedFatContent": "2.9 g",
+    "unsaturatedFatContent": "4.8 g",
+    "transFatContent": "0 g",
+    "fatContent": "10 g"
+  },
+  "cuisine": "Brasileira",
+  "category": "Carnes, aves, peixes",
+  "dietary_restrictions": [
+    "Diabetic Diet",
+    "Low Calorie Diet",
+    "Low Lactose Diet"
+  ],
+  "keywords": [
+    "Coxa de Frango na Fritadeira Elétrica"
+  ],
+  "ratings": 4.8,
+  "ratings_count": 75,
   "instructions_list": [
     "Como preparar Coxa de Frango na Fritadeira Elétrica",
     "Passo 1",
@@ -50,36 +81,5 @@
     "Abra a fritadeira, vire o frango e deixe por mais 10 minutos, mantendo sempre a temperatura de 200º C;",
     "Passo 7",
     "Retire as coxas de frango da fritadeira e sirva em seguida."
-  ],
-  "language": "pt-BR",
-  "nutrients": {
-    "calories": "163 kcal",
-    "carbohydrateContent": "1.2 g",
-    "fiberContent": "0.2 g",
-    "proteinContent": "15 g",
-    "servingSize": "5",
-    "sodiumContent": "355 mg",
-    "saturatedFatContent": "2.9 g",
-    "unsaturatedFatContent": "4.8 g",
-    "transFatContent": "0 g",
-    "fatContent": "10 g"
-  },
-  "ratings": 4.8,
-  "ratings_count": 75,
-  "site_name": "Comidinhas do Chef",
-  "title": "Coxa de Frango na Fritadeira Elétrica",
-  "total_time": 30,
-  "yields": "5 servings",
-  "dietary_restrictions": [
-    "Diabetic Diet",
-    "Low Calorie Diet",
-    "Low Lactose Diet"
-  ],
-  "keywords": [
-    "Coxa de Frango na Fritadeira Elétrica"
-  ],
-  "description": "Você vai aprender hoje como fazer coxa de frango na fritadeira elétrica sem erros! Nós sabemos que há muitas pessoas com medo de usar a fritadeira elétrica, que não precisa ir óleo para fritar, porque o frango pode acabar ficando muito frito e seco, sem aquela suculência gostosa que todos nós amamos em um frango frito, né? Por isso, nós aqui do Comidinhas do Chef testamos algumas receitas e desenvolvemos esta especialmente para você, com um passo a passo certeiro para a coxa de frango ficar no ponto ideal, com aquela casquinha levemente crocante externa e bem gostosa, mas ainda muito saboroso por dentro. Para isso, é só seguir a nossa receita de coxa de frango na fritadeira elétrica, que você vai acertar em cheio na hora de preparar aí na sua casa também! O resultado fica simplesmente maravilhoso e vai dar vontade de fazer as coxas de frango somente assim de agora em diante.",
-  "cook_time": 25,
-  "cuisine": "Brasileira",
-  "prep_time": 5
+  ]
 }

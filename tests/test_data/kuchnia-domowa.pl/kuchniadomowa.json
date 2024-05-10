@@ -1,9 +1,19 @@
 {
-  "author": "Kuchnia Domowa",
-  "canonical_url": "http://www.kuchnia-domowa.pl/przepisy/dodatki-do-dan/548-mizeria",
-  "category": "Dodatki do dań",
   "host": "kuchnia-domowa.pl",
-  "image": "https:/images/content/548/mizeria.jpg",
+  "canonical_url": "http://www.kuchnia-domowa.pl/przepisy/dodatki-do-dan/548-mizeria",
+  "site_name": "Kuchnia Domowa",
+  "author": "Kuchnia Domowa",
+  "language": "pl-pl",
+  "title": "Mizeria",
+  "ingredients": [
+    "600 g świeżych ogórków gruntowych (lub długich, szklarniowych)*",
+    "300 g gęstej, kwaśnej śmietany 18% lub jogurtu typu greckiego",
+    "1 łyżeczka soli",
+    "1 łyżka soku z cytryny (lub niepełna łyżka octu jabłkowego)",
+    "1 łyżeczka cukru",
+    "czarny pieprz mielony",
+    "1 łyżka drobno posiekanego koperku"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,30 +28,20 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "600 g świeżych ogórków gruntowych (lub długich, szklarniowych)*",
-    "300 g gęstej, kwaśnej śmietany 18% lub jogurtu typu greckiego",
-    "1 łyżeczka soli",
-    "1 łyżka soku z cytryny (lub niepełna łyżka octu jabłkowego)",
-    "1 łyżeczka cukru",
-    "czarny pieprz mielony",
-    "1 łyżka drobno posiekanego koperku"
-  ],
   "instructions": "Ogórki umyć, osuszyć, obrać i pokroić w jak najcieńsze plasterki.\nPlasterki umieścić w misce i posypać 1 łyżeczką soli. Wymieszać i pozostawić na ok. 15 minut.\nW międzyczasie śmietanę przełożyć do miseczki. Przyprawić sokiem z cytryny, cukrem, pieprzem i posiekanym koperkiem. Wymieszać.\nPo 15 minutach odlać wodę, którą puściły ogórki. (Lekko je odcisnąć, ale nie za mocno, aby mizeria nie wyszła za sucha).\nDodać przygotowaną śmietanę i wymieszać.",
+  "total_time": 30,
+  "yields": "4 servings",
+  "image": "https:/images/content/548/mizeria.jpg",
+  "description": "Lekka surówka do obiadu ze świeżego ogórka, śmietany lub jogurtu oraz koperku. Bardzo prosta, idealnie nadająca się do wielu dań obiadowych. Mizeria najsmaczniejsza jest z ziemniakami najlepiej młodymi i jakimś mięsem np. kotletem mielonym lub schabowym. My najbardziej lubimy kremową mizerię z miękkimi, cienkimi plasterkami ogórka doprawioną nie tylko solą i pieprzem, ale również (aby była słodko- winna) sokiem z cytryny i cukrem. A jak u Ciebie przygotowuje się mizerię?",
+  "cuisine": "Polska",
+  "category": "Dodatki do dań",
+  "ratings": 4.0,
+  "ratings_count": 7,
   "instructions_list": [
     "Ogórki umyć, osuszyć, obrać i pokroić w jak najcieńsze plasterki.",
     "Plasterki umieścić w misce i posypać 1 łyżeczką soli. Wymieszać i pozostawić na ok. 15 minut.",
     "W międzyczasie śmietanę przełożyć do miseczki. Przyprawić sokiem z cytryny, cukrem, pieprzem i posiekanym koperkiem. Wymieszać.",
     "Po 15 minutach odlać wodę, którą puściły ogórki. (Lekko je odcisnąć, ale nie za mocno, aby mizeria nie wyszła za sucha).",
     "Dodać przygotowaną śmietanę i wymieszać."
-  ],
-  "language": "pl-pl",
-  "ratings": 4.0,
-  "ratings_count": 7,
-  "site_name": "Kuchnia Domowa",
-  "title": "Mizeria",
-  "total_time": 30,
-  "yields": "4 servings",
-  "description": "Lekka surówka do obiadu ze świeżego ogórka, śmietany lub jogurtu oraz koperku. Bardzo prosta, idealnie nadająca się do wielu dań obiadowych. Mizeria najsmaczniejsza jest z ziemniakami najlepiej młodymi i jakimś mięsem np. kotletem mielonym lub schabowym. My najbardziej lubimy kremową mizerię z miękkimi, cienkimi plasterkami ogórka doprawioną nie tylko solą i pieprzem, ale również (aby była słodko- winna) sokiem z cytryny i cukrem. A jak u Ciebie przygotowuje się mizerię?",
-  "cuisine": "Polska"
+  ]
 }

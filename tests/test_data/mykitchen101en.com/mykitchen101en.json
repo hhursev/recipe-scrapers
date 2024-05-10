@@ -1,9 +1,18 @@
 {
-  "author": "Mykitchen101en Team",
-  "canonical_url": "https://mykitchen101en.com/baked-mini-egg-sponge-cakes/",
-  "category": "Dessert,Mini Cakes",
   "host": "mykitchen101en.com",
-  "image": "https://mykitchen101en.com/wp-content/uploads/2020/11/mini-baked-egg-sponge-cake-mykitchen101en-feature.jpg",
+  "canonical_url": "https://mykitchen101en.com/baked-mini-egg-sponge-cakes/",
+  "site_name": "MyKitchen101en.com",
+  "author": "Mykitchen101en Team",
+  "language": "en-US",
+  "title": "Baked Mini Egg Sponge Cakes",
+  "ingredients": [
+    "4 eggs (grade A/size: L)",
+    "125 g fine sugar",
+    "⅛ tsp fine salt",
+    "115 g plain flour",
+    "20 g cornstarch",
+    "30 g melted butter"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -17,15 +26,39 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "4 eggs (grade A/size: L)",
-    "125 g fine sugar",
-    "⅛ tsp fine salt",
-    "115 g plain flour",
-    "20 g cornstarch",
-    "30 g melted butter"
-  ],
   "instructions": "Preheat oven to 200°C/395°F.\nBeat eggs & sugar\nBeat eggs lightly, add in salt and sugar, beat until combined.\nPrepare warm water\nCombine 1 Liter of plain water with 400 ml of hot water (from electric thermo pot) in a large steel bowl to yield warm water with temperature about 45°C/113°F.\nbeat egg mixture until stiff\nDip mixing bowl in warm water bath, beat egg mixture over medium-high speed until stiff (about 5 minutes). (Reminder: Beating egg mixture over warm water will shorten the time for it to become stiff.)\nSift flour\nCombine plain flour and cornstarch, sift twice.\nAdd flour to egg mixture, add in melted butter\nAdd flour to egg mixture gradually, mix over low speed, fold until well mixed with spatula. Add in melted butter gradually, fold gently until mixed with spatula.\nPour batter into piping bags.\nFill batter in mini muffin pans\nLine mini muffin pans (diameter = 4.8 cm, depth = 2.2 cm) with cupcake liners, fill with batter until 80% full.\nBake in the preheated oven at 190°C/375°F for 20-22 minutes, until golden brown. (Reminder: The heat for different oven is different, the suggested time is only for reference, adjust the baking time base on your oven if necessary. If the 1st batch has 24 pieces of cakes, the 2nd batch will only have 6 pieces, then the baking time for 2nd batch can be shortened, just bake until they are golden brown.)\nUnmould & cool\nUnmould and cool mini egg sponge cakes on wire rack.",
+  "total_time": 55,
+  "prep_time": 30,
+  "cook_time": 25,
+  "yields": "30 servings",
+  "image": "https://mykitchen101en.com/wp-content/uploads/2020/11/mini-baked-egg-sponge-cake-mykitchen101en-feature.jpg",
+  "description": "Baked mini egg sponge cakes, a traditional food that kids love. Mini cupcakes with rich egg fragrance made with just a few simple ingredients.",
+  "nutrients": {
+    "calories": "48 kcal",
+    "carbohydrateContent": "8 g",
+    "proteinContent": "1 g",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "transFatContent": "0.04 g",
+    "cholesterolContent": "24 mg",
+    "sodiumContent": "25 mg",
+    "fiberContent": "0.1 g",
+    "sugarContent": "4 g",
+    "unsaturatedFatContent": "0.6 g",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "Worldwide",
+  "category": "Dessert,Mini Cakes",
+  "keywords": [
+    "mini cupcakes",
+    "mini egg cakes",
+    "mini egg sponge cakes"
+  ],
+  "equipment": [
+    "2 mini muffin pans"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 3,
   "instructions_list": [
     "Preheat oven to 200°C/395°F.",
     "Beat eggs & sugar",
@@ -44,38 +77,5 @@
     "Bake in the preheated oven at 190°C/375°F for 20-22 minutes, until golden brown. (Reminder: The heat for different oven is different, the suggested time is only for reference, adjust the baking time base on your oven if necessary. If the 1st batch has 24 pieces of cakes, the 2nd batch will only have 6 pieces, then the baking time for 2nd batch can be shortened, just bake until they are golden brown.)",
     "Unmould & cool",
     "Unmould and cool mini egg sponge cakes on wire rack."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "48 kcal",
-    "carbohydrateContent": "8 g",
-    "proteinContent": "1 g",
-    "fatContent": "1 g",
-    "saturatedFatContent": "1 g",
-    "transFatContent": "0.04 g",
-    "cholesterolContent": "24 mg",
-    "sodiumContent": "25 mg",
-    "fiberContent": "0.1 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "0.6 g",
-    "servingSize": "1 serving"
-  },
-  "ratings": 5.0,
-  "ratings_count": 3,
-  "site_name": "MyKitchen101en.com",
-  "title": "Baked Mini Egg Sponge Cakes",
-  "total_time": 55,
-  "yields": "30 servings",
-  "equipment": [
-    "2 mini muffin pans"
-  ],
-  "keywords": [
-    "mini cupcakes",
-    "mini egg cakes",
-    "mini egg sponge cakes"
-  ],
-  "description": "Baked mini egg sponge cakes, a traditional food that kids love. Mini cupcakes with rich egg fragrance made with just a few simple ingredients.",
-  "cook_time": 25,
-  "cuisine": "Worldwide",
-  "prep_time": 30
+  ]
 }

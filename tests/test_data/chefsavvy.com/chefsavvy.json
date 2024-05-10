@@ -1,11 +1,22 @@
 {
-  "author": "Kelley Simmons",
-  "canonical_url": "https://chefsavvy.com/slow-cooker-broccoli-beef/",
-  "category": "Main Course",
-  "cuisine": "Chinese",
-  "description": "Slow Cooker Broccoli Beef. Super tender steak cooked low and slow for 5 hours! Serve over a bowl of rice or noodles!",
   "host": "chefsavvy.com",
-  "image": "https://chefsavvy.com/wp-content/uploads/easy-slow-cooker-broccoli-beef.jpg",
+  "canonical_url": "https://chefsavvy.com/slow-cooker-broccoli-beef/",
+  "site_name": "Chef Savvy",
+  "author": "Kelley Simmons",
+  "language": "en-US",
+  "title": "Slow Cooker Broccoli Beef",
+  "ingredients": [
+    "2 pounds chuck steak (sliced thin (about 1-inch thick))",
+    "1 cup low sodium beef broth",
+    "1/2 cup low sodium soy sauce",
+    "4 garlic cloves (minced)",
+    "1/4 cup oyster sauce",
+    "1/4 cup brown sugar",
+    "2 teaspoons sesame oil",
+    "2 tablespoons cornstarch",
+    "2 heads broccoli (cut into florets)",
+    "sesame seeds for garnish, if desired"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,26 +34,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 pounds chuck steak (sliced thin (about 1-inch thick))",
-    "1 cup low sodium beef broth",
-    "1/2 cup low sodium soy sauce",
-    "4 garlic cloves (minced)",
-    "1/4 cup oyster sauce",
-    "1/4 cup brown sugar",
-    "2 teaspoons sesame oil",
-    "2 tablespoons cornstarch",
-    "2 heads broccoli (cut into florets)",
-    "sesame seeds for garnish, if desired"
-  ],
   "instructions": "Add steak, broth, soy sauce, garlic, oyster sauce, brown sugar and sesame oil to a slow cooker. Stir to combine.Cook on low for 4-5 hours or until steak is tender.\nReserve 1/4 cup of the cooking liquid and whisk in the cornstarch to the reserved liquid.\nSlowly stir the cornstarch mixture into the slow cooker along with the broccoli and continue cooking on low for an additional 30 minutes or until sauce has thickened and broccoli is tender.\nServe immediately with rice and enjoy!",
-  "instructions_list": [
-    "Add steak, broth, soy sauce, garlic, oyster sauce, brown sugar and sesame oil to a slow cooker. Stir to combine.Cook on low for 4-5 hours or until steak is tender.",
-    "Reserve 1/4 cup of the cooking liquid and whisk in the cornstarch to the reserved liquid.",
-    "Slowly stir the cornstarch mixture into the slow cooker along with the broccoli and continue cooking on low for an additional 30 minutes or until sauce has thickened and broccoli is tender.",
-    "Serve immediately with rice and enjoy!"
-  ],
-  "language": "en-US",
+  "total_time": 310,
+  "prep_time": 10,
+  "cook_time": 300,
+  "yields": "4 servings",
+  "image": "https://chefsavvy.com/wp-content/uploads/easy-slow-cooker-broccoli-beef.jpg",
+  "description": "Slow Cooker Broccoli Beef. Super tender steak cooked low and slow for 5 hours! Serve over a bowl of rice or noodles!",
   "nutrients": {
     "calories": "711 kcal",
     "carbohydrateContent": "43 g",
@@ -55,18 +53,20 @@
     "sugarContent": "19 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.67,
-  "ratings_count": 18,
-  "site_name": "Chef Savvy",
-  "title": "Slow Cooker Broccoli Beef",
-  "total_time": 310,
-  "yields": "4 servings",
-  "cook_time": 300,
-  "prep_time": 10,
+  "cuisine": "Chinese",
+  "category": "Main Course",
   "keywords": [
     "Chuck Roast",
     "Garlic",
     "Sesame",
     "Slow Cooker Broccoli Beef"
+  ],
+  "ratings": 4.67,
+  "ratings_count": 18,
+  "instructions_list": [
+    "Add steak, broth, soy sauce, garlic, oyster sauce, brown sugar and sesame oil to a slow cooker. Stir to combine.Cook on low for 4-5 hours or until steak is tender.",
+    "Reserve 1/4 cup of the cooking liquid and whisk in the cornstarch to the reserved liquid.",
+    "Slowly stir the cornstarch mixture into the slow cooker along with the broccoli and continue cooking on low for an additional 30 minutes or until sauce has thickened and broccoli is tender.",
+    "Serve immediately with rice and enjoy!"
   ]
 }

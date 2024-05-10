@@ -1,9 +1,10 @@
 {
-  "author": "Kris Osborne",
-  "canonical_url": "https://www.myjewishlearning.com/the-nosher/foolproof-sourdough-challah-recipe/",
   "host": "myjewishlearning.com",
-  "description": "Perfect if you already have a starter sitting in your fridge-- try this tangy challah!",
-  "image": "https://www.myjewishlearning.com/wp-content/uploads/2023/07/Sourdough-Challah-KO-1-1-225x225.jpg",
+  "canonical_url": "https://www.myjewishlearning.com/the-nosher/foolproof-sourdough-challah-recipe/",
+  "site_name": "My Jewish Learning",
+  "author": "Kris Osborne",
+  "language": "en-US",
+  "title": "Sourdough Challah",
   "ingredients": [
     "300 g (2 cups) all-purpose flour",
     "330 g (2⅓ cups) bread flour, plus a bit more as needed",
@@ -34,6 +35,17 @@
     }
   ],
   "instructions": "Day 1 (Morning):\nIn a medium bowl, whisk together the all-purpose flour, bread flour and salt. Set aside.\nIn the bowl of a stand mixer fitted with the paddle attachment, mix the starter, water, 2 whole eggs, 1 egg yolk, sugar and olive over low speed until just combined.\nSwitch the attachment to a dough hook and keep the motor running on low. Gradually add in the flour mixture until a shaggy dough forms. You will need to scrape down the bowl a few times to help it along.\nIncrease speed to medium and knead for 5-6 minutes, or until the dough is soft and pliable and pulls away from the sides. If the dough is sticking to the bowl, use a dough scraper to scrape it off and use your hands to form it into a ball. The dough should be soft, pliable and tacky, but not sticky. Put it back into the bowl to knead a couple of more minutes with the dough hook. If the dough is really sticky at this point, add additional bread flour a tablespoon at a time with the mixer running on low. Only add additional flour once the previous spoonful has been incorporated and you can see how the dough is transforming.\nScrape dough onto a clean countertop and shape into a ball. Transfer to a well-oiled bowl. Roll it around so it’s lightly coated in oil, then cover and proof in a warm environment (between 70-85°F) until doubled in size, about 8-10 hours.\nDay 1 (Evening):\nPress down the dough to deflate, then transfer it onto a clean countertop, using a dough scraper if necessary. Divide the dough in half (about 580 g each), then divide each half into three equal pieces (about 193 g each). Cover the dough with a damp towel and rest for 15 mins to relax the gluten. Don’t skip this step.\nPrepare a baking sheet with parchment paper. Then, using your hands and the friction of the counter, roll out each piece of dough to an 18-inch strip (or rope). Divide the strands in half so you have two sets of three. If your dough is still shrinking back at this point, let it rest another 10 minutes before continuing.\nBraid each loaf of challah, sealing and tucking pieces in at each end. Place the braided dough on the prepared baking sheet, spaced equally apart. Cover with plastic wrap and a warm, damp tea towel and proof in the fridge overnight. The dough will be puffy and, when poked, will take on a slight indent that springs back slowly. To bake the same day, cover with plastic wrap and a warm, damp tea towel and proof about 2-3 hours on the counter then skip to step 10.\nDay 2 (Morning):\nRemove dough from the fridge and let it come to room temperature for 1-2 hours before baking.\nPreheat oven to 375°F. Whisk the remaining egg and brush it evenly over each loaf. Sprinkle with sesame or poppy seeds, if using.\nBake for 25-30 minutes, or until dark brown and shiny.\nTransfer to a cooling rack to cool slightly before serving.",
+  "total_time": 1290,
+  "prep_time": 28519422,
+  "cook_time": 28519422,
+  "yields": "2 servings",
+  "image": "https://www.myjewishlearning.com/wp-content/uploads/2023/07/Sourdough-Challah-KO-1-1-225x225.jpg",
+  "description": "Perfect if you already have a starter sitting in your fridge-- try this tangy challah!",
+  "cuisine": "Jewish",
+  "category": "Bread",
+  "cooking_method": "Baking",
+  "ratings": 4.7,
+  "ratings_count": 2,
   "instructions_list": [
     "Day 1 (Morning):",
     "In a medium bowl, whisk together the all-purpose flour, bread flour and salt. Set aside.",
@@ -50,17 +62,5 @@
     "Preheat oven to 375°F. Whisk the remaining egg and brush it evenly over each loaf. Sprinkle with sesame or poppy seeds, if using.",
     "Bake for 25-30 minutes, or until dark brown and shiny.",
     "Transfer to a cooling rack to cool slightly before serving."
-  ],
-  "language": "en-US",
-  "site_name": "My Jewish Learning",
-  "title": "Sourdough Challah",
-  "total_time": 1290,
-  "yields": "2 servings",
-  "category": "Bread",
-  "cuisine": "Jewish",
-  "cooking_method": "Baking",
-  "cook_time": 28519422,
-  "prep_time": 28519422,
-  "ratings": 4.7,
-  "ratings_count": 2
+  ]
 }

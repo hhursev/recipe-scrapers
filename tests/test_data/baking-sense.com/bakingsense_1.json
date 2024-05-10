@@ -1,11 +1,25 @@
 {
-  "author": "Eileen Gray",
-  "canonical_url": "https://www.baking-sense.com/2020/05/13/sourdough-bundt-cake/",
-  "category": "Dessert,Snack",
-  "cuisine": "American",
-  "description": "Sourdough Bundt Cake with Buttermilk Glaze is a perfect snack cake. The tangy-sweet buttermilk glaze forms an ultra-thin coating over the melt-in-your-mouth cake.",
   "host": "baking-sense.com",
-  "image": "https://www.baking-sense.com/wp-content/uploads/2020/05/sourdough-bundt-9a.jpg",
+  "canonical_url": "https://www.baking-sense.com/2020/05/13/sourdough-bundt-cake/",
+  "site_name": "Baking Sense®",
+  "author": "Eileen Gray",
+  "language": "en-US",
+  "title": "Sourdough Bundt Cake with Buttermilk Glaze",
+  "ingredients": [
+    "2 large eggs (room temperature)",
+    "2 large yolks (room temperature)",
+    "1 tablespoon vanilla extract",
+    "8 oz sourdough discard (1 cup, room temperature)",
+    "9 oz cake flour (2 cups)",
+    "11 oz granulated sugar (1 1/3 cups)",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon table salt",
+    "6 oz unsalted butter (room temperature, cut into 1\" chunks)",
+    "4 oz buttermilk (1/2 cup, room temperature)",
+    "8 oz confectioner's sugar (2 cups)",
+    "1 teaspoon vanilla",
+    "2 oz buttermilk (1/4 cup)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -31,37 +45,13 @@
       "purpose": "Buttermilk Glaze"
     }
   ],
-  "ingredients": [
-    "2 large eggs (room temperature)",
-    "2 large yolks (room temperature)",
-    "1 tablespoon vanilla extract",
-    "8 oz sourdough discard (1 cup, room temperature)",
-    "9 oz cake flour (2 cups)",
-    "11 oz granulated sugar (1 1/3 cups)",
-    "2 teaspoons baking powder",
-    "1/2 teaspoon table salt",
-    "6 oz unsalted butter (room temperature, cut into 1\" chunks)",
-    "4 oz buttermilk (1/2 cup, room temperature)",
-    "8 oz confectioner's sugar (2 cups)",
-    "1 teaspoon vanilla",
-    "2 oz buttermilk (1/4 cup)"
-  ],
   "instructions": "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.\nMake the batter\nWhisk together the eggs, yolks, vanilla and the discard, set aside.\nSift the flour, sugar, baking powder and salt into a mixer bowl. Mix on low speed to combine the dry ingredients. With the mixer running, toss the chunks of butter into the flour mixture.\nAdd the buttermilk and increase the speed to medium. Mix on medium high for 2 minutes to aerate the batter. Scrape the bowl and beater.\nAdd the egg mixture in 3 batches, scraping the bowl between each addition. Pour the batter into the prepared pan.\nBake until the cake springs back when lightly pressed or a toothpick inserted into the center comes out clean, about 40 minutes.\nCool for 10 minutes in the pan. Invert the cake onto a cooling rack set over a clean sheet pan. Cool until slightly warm before glazing.\nMake the Glaze\nCombine the sugar, vanilla and buttermilk in a small bowl and whisk until smooth.\nPour the glaze over the still slightly warm cake. You can scoop up the glaze from the sheet pan and use it to fill in any gaps in the glaze or leave it with the drips.\nCool completely and allow the glaze to set. Transfer to a serving plate.",
-  "instructions_list": [
-    "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.",
-    "Make the batter",
-    "Whisk together the eggs, yolks, vanilla and the discard, set aside.",
-    "Sift the flour, sugar, baking powder and salt into a mixer bowl. Mix on low speed to combine the dry ingredients. With the mixer running, toss the chunks of butter into the flour mixture.",
-    "Add the buttermilk and increase the speed to medium. Mix on medium high for 2 minutes to aerate the batter. Scrape the bowl and beater.",
-    "Add the egg mixture in 3 batches, scraping the bowl between each addition. Pour the batter into the prepared pan.",
-    "Bake until the cake springs back when lightly pressed or a toothpick inserted into the center comes out clean, about 40 minutes.",
-    "Cool for 10 minutes in the pan. Invert the cake onto a cooling rack set over a clean sheet pan. Cool until slightly warm before glazing.",
-    "Make the Glaze",
-    "Combine the sugar, vanilla and buttermilk in a small bowl and whisk until smooth.",
-    "Pour the glaze over the still slightly warm cake. You can scoop up the glaze from the sheet pan and use it to fill in any gaps in the glaze or leave it with the drips.",
-    "Cool completely and allow the glaze to set. Transfer to a serving plate."
-  ],
-  "language": "en-US",
+  "total_time": 60,
+  "prep_time": 20,
+  "cook_time": 40,
+  "yields": "16 servings",
+  "image": "https://www.baking-sense.com/wp-content/uploads/2020/05/sourdough-bundt-9a.jpg",
+  "description": "Sourdough Bundt Cake with Buttermilk Glaze is a perfect snack cake. The tangy-sweet buttermilk glaze forms an ultra-thin coating over the melt-in-your-mouth cake.",
   "nutrients": {
     "calories": "247 kcal",
     "sodiumContent": "148 mg",
@@ -76,12 +66,12 @@
     "unsaturatedFatContent": "4 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.86,
-  "ratings_count": 7,
-  "site_name": "Baking Sense®",
-  "title": "Sourdough Bundt Cake with Buttermilk Glaze",
-  "total_time": 60,
-  "yields": "16 servings",
+  "cuisine": "American",
+  "category": "Dessert,Snack",
+  "keywords": [
+    "buttermilk",
+    "sourdough"
+  ],
   "equipment": [
     "My Book",
     "KA Stand Mixer",
@@ -89,10 +79,20 @@
     "Cooling Rack",
     "Half Sheet Pans"
   ],
-  "keywords": [
-    "buttermilk",
-    "sourdough"
-  ],
-  "cook_time": 40,
-  "prep_time": 20
+  "ratings": 4.86,
+  "ratings_count": 7,
+  "instructions_list": [
+    "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.",
+    "Make the batter",
+    "Whisk together the eggs, yolks, vanilla and the discard, set aside.",
+    "Sift the flour, sugar, baking powder and salt into a mixer bowl. Mix on low speed to combine the dry ingredients. With the mixer running, toss the chunks of butter into the flour mixture.",
+    "Add the buttermilk and increase the speed to medium. Mix on medium high for 2 minutes to aerate the batter. Scrape the bowl and beater.",
+    "Add the egg mixture in 3 batches, scraping the bowl between each addition. Pour the batter into the prepared pan.",
+    "Bake until the cake springs back when lightly pressed or a toothpick inserted into the center comes out clean, about 40 minutes.",
+    "Cool for 10 minutes in the pan. Invert the cake onto a cooling rack set over a clean sheet pan. Cool until slightly warm before glazing.",
+    "Make the Glaze",
+    "Combine the sugar, vanilla and buttermilk in a small bowl and whisk until smooth.",
+    "Pour the glaze over the still slightly warm cake. You can scoop up the glaze from the sheet pan and use it to fill in any gaps in the glaze or leave it with the drips.",
+    "Cool completely and allow the glaze to set. Transfer to a serving plate."
+  ]
 }

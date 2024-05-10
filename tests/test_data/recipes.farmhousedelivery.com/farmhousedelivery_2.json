@@ -1,7 +1,22 @@
 {
-  "canonical_url": "http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/",
   "host": "recipes.farmhousedelivery.com",
-  "image": "http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg",
+  "canonical_url": "http://recipes.farmhousedelivery.com/one-pan-crispy-rosemary-chicken-thighs-roasted-radishes/",
+  "site_name": "Farmhouse Delivery",
+  "language": "en-US",
+  "title": "One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes",
+  "ingredients": [
+    "1/2 lemon, juiced",
+    "1/4 c olive oil",
+    "1 tsp spicy mustard",
+    "1 head of garlic, minced",
+    "2 tsp pink Himalayan salt",
+    "1 tsp black pepper",
+    "4 sprigs fresh rosemary, de-stemmed",
+    "4 bone-in chicken thighs (Find them here.)",
+    "3 red potatoes, diced",
+    "1 bunch radishes, quartered",
+    "1 red onion, sliced"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,20 +35,8 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1/2 lemon, juiced",
-    "1/4 c olive oil",
-    "1 tsp spicy mustard",
-    "1 head of garlic, minced",
-    "2 tsp pink Himalayan salt",
-    "1 tsp black pepper",
-    "4 sprigs fresh rosemary, de-stemmed",
-    "4 bone-in chicken thighs (Find them here.)",
-    "3 red potatoes, diced",
-    "1 bunch radishes, quartered",
-    "1 red onion, sliced"
-  ],
   "instructions": "❶ Preheat your oven to 400°F.\n❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.\n❸ Layer potatoes, radishes and onions on a baking sheet. Lightly drizzle with the tinest bit of olive oil. The chicken thighs will drip fat for cooking, so we don’t want to overdo it with the oil.\n❹ Pat chicken thighs dry and rub with seasoning mixture. Be sure to get in under the skin too.\n❺ Place chicken thighs over your vegetable layer.\n❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!\n– For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at @xxrlilly",
+  "image": "http://recipesfhd.wpengine.com/wp-content/uploads/2019/05/FHD-Chic-Thigh-Recipe-225x300.jpeg",
   "instructions_list": [
     "❶ Preheat your oven to 400°F.",
     "❷ In a medium sized mixing bowl, whisk together olive oil, lemon juice, mustard, garlic, salt , pepper and rosemary.",
@@ -42,8 +45,5 @@
     "❺ Place chicken thighs over your vegetable layer.",
     "❻ Roast for 55 minutes, then broil for 3 minutes for an extra crisp factor! Enjoy!",
     "– For more lifestyle tips and recipes from Rebecca, you can find her on Instagram at @xxrlilly"
-  ],
-  "language": "en-US",
-  "site_name": "Farmhouse Delivery",
-  "title": "One Pan Crispy Rosemary Chicken Thighs + Roasted Radishes"
+  ]
 }

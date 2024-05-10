@@ -1,11 +1,24 @@
 {
-  "author": "TidyMom",
-  "canonical_url": "https://tidymom.net/chicken-bacon-ranch-pizza/",
-  "category": "Main Dish",
-  "cuisine": "American",
-  "description": "Chicken, smokey bacon, creamy ranch, and lots of gooey melted cheese are the perfect combo to pile on a pizza crust!",
   "host": "tidymom.net",
-  "image": "https://tidymom.net/blog/wp-content/uploads/2021/04/chicken-bacon-ranch-pizza-pic-480x480.jpg",
+  "canonical_url": "https://tidymom.net/chicken-bacon-ranch-pizza/",
+  "site_name": "TidyMom®",
+  "author": "TidyMom",
+  "language": "en-US",
+  "title": "Chicken Bacon Ranch Pizza",
+  "ingredients": [
+    "1 pizza crust",
+    "1 teaspoon olive oil",
+    "1-2 teaspoons Italian seasoning",
+    "1 teaspoon garlic powder",
+    "2/3 cup ranch dressing",
+    "1 tomato, sliced and diced",
+    "1/4 cups green onion, chopped",
+    "1½ cup shredded mozzarella cheese *(see notes)",
+    "1½ cups shredded cheddar cheese *(see notes)",
+    "1/4 cup Parmesan cheese",
+    "1½ cup chopped or shredded cooked chicken *(see notes)",
+    "4 slices of bacon, cooked and crumbled *(see notes)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -25,29 +38,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 pizza crust",
-    "1 teaspoon olive oil",
-    "1-2 teaspoons Italian seasoning",
-    "1 teaspoon garlic powder",
-    "2/3 cup ranch dressing",
-    "1 tomato, sliced and diced",
-    "1/4 cups green onion, chopped",
-    "1½ cup shredded mozzarella cheese *(see notes)",
-    "1½ cups shredded cheddar cheese *(see notes)",
-    "1/4 cup Parmesan cheese",
-    "1½ cup chopped or shredded cooked chicken *(see notes)",
-    "4 slices of bacon, cooked and crumbled *(see notes)"
-  ],
   "instructions": "Preheat oven to 425° F\nPut the pizza crust on a pizza pan or pizza peel. Using a pastry brush, lightly brush the entire crust with olive oil and season with Italian seasoning and garlic powder.\nEvenly spread ranch dressing over the crust.\nSprinkle with cheese then top with chicken, tomatoes, green onions, and bacon crumbs.\nPlace the pizza* in the oven for 15-20 minutes or until cheese is melted and crust is golden. Let rest for several minutes, then cut and serve.",
-  "instructions_list": [
-    "Preheat oven to 425° F",
-    "Put the pizza crust on a pizza pan or pizza peel. Using a pastry brush, lightly brush the entire crust with olive oil and season with Italian seasoning and garlic powder.",
-    "Evenly spread ranch dressing over the crust.",
-    "Sprinkle with cheese then top with chicken, tomatoes, green onions, and bacon crumbs.",
-    "Place the pizza* in the oven for 15-20 minutes or until cheese is melted and crust is golden. Let rest for several minutes, then cut and serve."
-  ],
-  "language": "en-US",
+  "total_time": 25,
+  "prep_time": 10,
+  "cook_time": 15,
+  "yields": "8 servings",
+  "image": "https://tidymom.net/blog/wp-content/uploads/2021/04/chicken-bacon-ranch-pizza-pic-480x480.jpg",
+  "description": "Chicken, smokey bacon, creamy ranch, and lots of gooey melted cheese are the perfect combo to pile on a pizza crust!",
   "nutrients": {
     "calories": "485 calories",
     "carbohydrateContent": "36 grams carbohydrates",
@@ -62,10 +59,13 @@
     "transFatContent": "0 grams trans fat",
     "unsaturatedFatContent": "17 grams unsaturated fat"
   },
-  "site_name": "TidyMom®",
-  "title": "Chicken Bacon Ranch Pizza",
-  "total_time": 25,
-  "yields": "8 servings",
-  "cook_time": 15,
-  "prep_time": 10
+  "cuisine": "American",
+  "category": "Main Dish",
+  "instructions_list": [
+    "Preheat oven to 425° F",
+    "Put the pizza crust on a pizza pan or pizza peel. Using a pastry brush, lightly brush the entire crust with olive oil and season with Italian seasoning and garlic powder.",
+    "Evenly spread ranch dressing over the crust.",
+    "Sprinkle with cheese then top with chicken, tomatoes, green onions, and bacon crumbs.",
+    "Place the pizza* in the oven for 15-20 minutes or until cheese is melted and crust is golden. Let rest for several minutes, then cut and serve."
+  ]
 }

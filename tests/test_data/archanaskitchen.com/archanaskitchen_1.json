@@ -1,9 +1,21 @@
 {
-  "author": "Divya Shivaraman",
-  "canonical_url": "/roasted-peppers-and-mushroom-tortilla-pizza-recipe",
-  "category": null,
   "host": "archanaskitchen.com",
-  "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/divya_shivaraman/Roasted_peppers_and_Mushroom_Tortilla_Pizza.jpg",
+  "canonical_url": "/roasted-peppers-and-mushroom-tortilla-pizza-recipe",
+  "site_name": "Archana's Kitchen",
+  "author": "Divya Shivaraman",
+  "language": "en",
+  "title": "Roasted Peppers And Mushroom Tortilla Pizza Recipe",
+  "ingredients": [
+    "2 Tortillas, (wheat/regular)",
+    "1/4 cup Homemade Marinara Sauce",
+    "1 teaspoon Extra Virgin Olive Oil",
+    "1/2 teaspoon Garlic, minced",
+    "1/4 cup Mozzarella cheese, shredded",
+    "1/3 cup Red Yellow or Green Bell Pepper (Capsicum), roasted and chopped",
+    "1/3 cup Onions, diced",
+    "2 tablespoons Kalmatta olives, sliced",
+    "1/3 cup Button mushrooms, thinly sliced"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -20,18 +32,17 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "2 Tortillas, (wheat/regular)",
-    "1/4 cup Homemade Marinara Sauce",
-    "1 teaspoon Extra Virgin Olive Oil",
-    "1/2 teaspoon Garlic, minced",
-    "1/4 cup Mozzarella cheese, shredded",
-    "1/3 cup Red Yellow or Green Bell Pepper (Capsicum), roasted and chopped",
-    "1/3 cup Onions, diced",
-    "2 tablespoons Kalmatta olives, sliced",
-    "1/3 cup Button mushrooms, thinly sliced"
-  ],
   "instructions": "To begin making the Roasted Peppers And Mushroom Tortilla Pizza recipe, turn your oven setting to broiler and keep it ready.\nGrease your cast iron skillet with some olive oil and heat it over high heat.\nWhen it starts to shimmer bring down the heat to medium. Add olive oil and minced garlic to the marinara sauce and stir to combine, keep aside.\nPlace one tortilla on the cast iron skillet. Spread a thin layer of marinara sauce over the tortilla.\nSpread the cheese as needed. When the cheese starts to melt, add in the toppings which includes onion, mushrooms, olives and bell peppers.\nNow shift the cast iron skillet to the oven which is already under broiler setting.\nWhen you see the cheese all melted and top starting to brown, remove and slice to serve.\nServe Roasted Peppers And Mushroom Tortilla Pizza along with One Pot Tex-Mex Penne Pasta and Fennel Infused Mango Sorbet for a weekend night dinner.",
+  "total_time": 30,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "2 items",
+  "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/divya_shivaraman/Roasted_peppers_and_Mushroom_Tortilla_Pizza.jpg",
+  "description": "Tortilla Pizza is a quicker version pizza to satisfy your cravings. It is a very quick and easy recipe for days that you do not feel like cooking a full fledged meal. With the preference of toppings of your choice this pizza recipe is definitely a winner at any home. The toppings used in this Roasted Peppers And Mushroom Tortilla Pizza has some roasted peppers, mushroom with loaded cheese and marinara sauce. Enjoy this easy recipe with your favorite toppings. This is a great recipe, if you are looking for an Indian/Fusion Pizza or a Homemade Pizza recipe. Serve Roasted Peppers And Mushroom Tortilla Pizza along with One Pot Tex-Mex Penne Pasta and Fennel Infused Mango Sorbet for a weekend night dinner. If you like this recipe, you can also try other Pizza recipes for your weekend dinner: Tortilla Pizza Recipe Egg and Spinach Breakfast Pizza Recipe Pan Pizza Recipe From Scratch",
+  "cuisine": "Mexican",
+  "category": null,
+  "ratings": 4.94,
+  "ratings_count": 1078,
   "instructions_list": [
     "To begin making the Roasted Peppers And Mushroom Tortilla Pizza recipe, turn your oven setting to broiler and keep it ready.",
     "Grease your cast iron skillet with some olive oil and heat it over high heat.",
@@ -41,16 +52,5 @@
     "Now shift the cast iron skillet to the oven which is already under broiler setting.",
     "When you see the cheese all melted and top starting to brown, remove and slice to serve.",
     "Serve Roasted Peppers And Mushroom Tortilla Pizza along with One Pot Tex-Mex Penne Pasta and Fennel Infused Mango Sorbet for a weekend night dinner."
-  ],
-  "language": "en",
-  "ratings": 4.94,
-  "ratings_count": 1078,
-  "site_name": "Archana's Kitchen",
-  "title": "Roasted Peppers And Mushroom Tortilla Pizza Recipe",
-  "total_time": 30,
-  "yields": "2 items",
-  "cook_time": 15,
-  "description": "Tortilla Pizza is a quicker version pizza to satisfy your cravings. It is a very quick and easy recipe for days that you do not feel like cooking a full fledged meal. With the preference of toppings of your choice this pizza recipe is definitely a winner at any home. The toppings used in this Roasted Peppers And Mushroom Tortilla Pizza has some roasted peppers, mushroom with loaded cheese and marinara sauce. Enjoy this easy recipe with your favorite toppings. This is a great recipe, if you are looking for an Indian/Fusion Pizza or a Homemade Pizza recipe. Serve Roasted Peppers And Mushroom Tortilla Pizza along with One Pot Tex-Mex Penne Pasta and Fennel Infused Mango Sorbet for a weekend night dinner. If you like this recipe, you can also try other Pizza recipes for your weekend dinner: Tortilla Pizza Recipe Egg and Spinach Breakfast Pizza Recipe Pan Pizza Recipe From Scratch",
-  "cuisine": "Mexican",
-  "prep_time": 15
+  ]
 }

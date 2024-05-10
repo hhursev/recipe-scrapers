@@ -1,9 +1,27 @@
 {
-  "author": "Marzia",
-  "canonical_url": "https://littlespicejar.com/crab-cake-bites/",
-  "category": "Appetizers",
   "host": "littlespicejar.com",
-  "image": "https://littlespicejar.com/wp-content/uploads/2020/12/Addicting-Mini-Crab-Cake-Bites-1-720x720.jpg",
+  "canonical_url": "https://littlespicejar.com/crab-cake-bites/",
+  "site_name": "Little Spice Jar",
+  "author": "Marzia",
+  "language": "en-US",
+  "title": "Easy Addicting Crab Cake Bites (Crab Cake Cups)",
+  "ingredients": [
+    "Cooking spray, for pan",
+    "1 cup panko bread crumbs",
+    "½ cup parmesan cheese (shredded or grated)",
+    "6 tablespoon melted butter",
+    "8 ounces lump crab meat",
+    "¾ brick (6 ounces) cream cheese, softened to room temp",
+    "1 large egg, lightly beaten",
+    "¼ cup mayonnaise",
+    "½ cup sour cream",
+    "½ teaspoon EACH: garlic powder AND smoked paprika",
+    "1 teaspoon EACH: old bay seasoning AND lemon zest",
+    "2 teaspoons lemon juice",
+    "1 tablespoon chopped chives (plus more for topping)",
+    "Salt and white pepper (or black)",
+    "Serve with sauce (in notes)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -26,37 +44,19 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "Cooking spray, for pan",
-    "1 cup panko bread crumbs",
-    "½ cup parmesan cheese (shredded or grated)",
-    "6 tablespoon melted butter",
-    "8 ounces lump crab meat",
-    "¾ brick (6 ounces) cream cheese, softened to room temp",
-    "1 large egg, lightly beaten",
-    "¼ cup mayonnaise",
-    "½ cup sour cream",
-    "½ teaspoon EACH: garlic powder AND smoked paprika",
-    "1 teaspoon EACH: old bay seasoning AND lemon zest",
-    "2 teaspoons lemon juice",
-    "1 tablespoon chopped chives (plus more for topping)",
-    "Salt and white pepper (or black)",
-    "Serve with sauce (in notes)"
-  ],
   "instructions": "PANKO: Position a rack in the center of the oven and preheat the oven to 400ºF. Grease a mini muffin pan with cooking spray. Mix together the panko, parmesan cheese, and melted butter. Place roughly 2 teaspoons of the panko mixture in the bottom of each muffin cup using your fingers or the bottom of a measuring teaspoon (or tablespoon) gently pack into a tight shape.\nCRAB MIXTURE: Combine the crab meat, cream cheese, mayonnaise, egg, sour cream garlic powder, smoked paprika, old bay seasoning, lemon juice + zest, chopped chives, and ¼ teaspoon kosher salt, and ¼ teaspoon pepper. Spoon roughly 1 tablespoon of the crab mixture into each mini muffin cup.\nBAKE: Until the edges begin to turn golden, 14-18 minutes. Allow the crab cakes to cool in the pan for several minutes before attempting to remove them. You can run an offset spatula or a pairing knife along the edges to help pop out the bites. Serve crab bites warm or allow them to cool to room temperature before serving. I like to top them with more chopped chives before serving and serve with lemon wedges and prepared sauce.",
+  "total_time": 30,
+  "prep_time": 15,
+  "cook_time": 15,
+  "yields": "24 servings",
+  "image": "https://littlespicejar.com/wp-content/uploads/2020/12/Addicting-Mini-Crab-Cake-Bites-1-720x720.jpg",
+  "description": "Delicious mini crab cake bites that are quick and easy to make! These mini crab cakes taste just like the real thing but require way less work and are perfect to pass around for parties or for the holidays!",
+  "category": "Appetizers",
+  "ratings": 5.0,
+  "ratings_count": 42,
   "instructions_list": [
     "PANKO: Position a rack in the center of the oven and preheat the oven to 400ºF. Grease a mini muffin pan with cooking spray. Mix together the panko, parmesan cheese, and melted butter. Place roughly 2 teaspoons of the panko mixture in the bottom of each muffin cup using your fingers or the bottom of a measuring teaspoon (or tablespoon) gently pack into a tight shape.",
     "CRAB MIXTURE: Combine the crab meat, cream cheese, mayonnaise, egg, sour cream garlic powder, smoked paprika, old bay seasoning, lemon juice + zest, chopped chives, and ¼ teaspoon kosher salt, and ¼ teaspoon pepper. Spoon roughly 1 tablespoon of the crab mixture into each mini muffin cup.",
     "BAKE: Until the edges begin to turn golden, 14-18 minutes. Allow the crab cakes to cool in the pan for several minutes before attempting to remove them. You can run an offset spatula or a pairing knife along the edges to help pop out the bites. Serve crab bites warm or allow them to cool to room temperature before serving. I like to top them with more chopped chives before serving and serve with lemon wedges and prepared sauce."
-  ],
-  "language": "en-US",
-  "ratings": 5.0,
-  "ratings_count": 42,
-  "site_name": "Little Spice Jar",
-  "title": "Easy Addicting Crab Cake Bites (Crab Cake Cups)",
-  "total_time": 30,
-  "yields": "24 servings",
-  "description": "Delicious mini crab cake bites that are quick and easy to make! These mini crab cakes taste just like the real thing but require way less work and are perfect to pass around for parties or for the holidays!",
-  "cook_time": 15,
-  "prep_time": 15
+  ]
 }

@@ -1,9 +1,31 @@
 {
-  "author": "Dassana Amit",
-  "canonical_url": "https://www.vegrecipesofindia.com/sarson-ka-saag/",
-  "category": "Main Course",
   "host": "vegrecipesofindia.com",
-  "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/12/sarson-ka-saag-recipe-1.jpg",
+  "canonical_url": "https://www.vegrecipesofindia.com/sarson-ka-saag/",
+  "site_name": "Dassana's Veg Recipes",
+  "author": "Dassana Amit",
+  "language": "en-US",
+  "title": "Sarson ka Saag Recipe (Authentic Punjabi Style)",
+  "ingredients": [
+    "1 bunch mustard greens ((sarson))",
+    "½ bunch bathua leaves ((chenopodium/goosefoot/melde))",
+    "½ bunch spinach leaves ((palak))",
+    "1 cup chopped radish leaves (- use tender leaves, (mooli ke patte))",
+    "3 to 4 inches white radish root",
+    "1 cup fenugreek leaves (- chopped)",
+    "1 cup chopped onions (or 2 medium sized onions)",
+    "1.5 cups chopped tomatoes (or 3 medium-sized tomatoes)",
+    "2 inches ginger (- chopped)",
+    "2 green chilies (- chopped)",
+    "7 to 8 garlic (- medium sized, chopped)",
+    "½ teaspoon red chili powder",
+    "2 to 3 pinches asafoetida (or ⅛ teaspoon asafoetida powder (hing))",
+    "2 to 3 cups water (or add as required)",
+    "2 tablespoon maize flour (or fine cornmeal)",
+    "salt (as required)",
+    "⅓ cup finely chopped onions (or 1 small to medium-sized onion)",
+    "1 to 2 tablespoons oil (or ghee)",
+    "2 cups cooked saag (or as required)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,28 +52,37 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 bunch mustard greens ((sarson))",
-    "½ bunch bathua leaves ((chenopodium/goosefoot/melde))",
-    "½ bunch spinach leaves ((palak))",
-    "1 cup chopped radish leaves (- use tender leaves, (mooli ke patte))",
-    "3 to 4 inches white radish root",
-    "1 cup fenugreek leaves (- chopped)",
-    "1 cup chopped onions (or 2 medium sized onions)",
-    "1.5 cups chopped tomatoes (or 3 medium-sized tomatoes)",
-    "2 inches ginger (- chopped)",
-    "2 green chilies (- chopped)",
-    "7 to 8 garlic (- medium sized, chopped)",
-    "½ teaspoon red chili powder",
-    "2 to 3 pinches asafoetida (or ⅛ teaspoon asafoetida powder (hing))",
-    "2 to 3 cups water (or add as required)",
-    "2 tablespoon maize flour (or fine cornmeal)",
-    "salt (as required)",
-    "⅓ cup finely chopped onions (or 1 small to medium-sized onion)",
-    "1 to 2 tablespoons oil (or ghee)",
-    "2 cups cooked saag (or as required)"
-  ],
   "instructions": "Making sarson ka saag\nFirstly clean and chop all the greens. Then wash or rinse the greens very well in running water.\nIn a 5 litre stovetop pressure cooker or pan add all the ingredients listed under \"for sarson ka saag\" except for maize flour.\nCover the pressure cook and cook for 6 to 7 minutes or more on medium-high heat.\nIf cooking in a pan, then cover and let the greens cook till tender and softened. Do check occasionally.\nPour the greens along with the stock and maize flour in a blender. Blend till smooth.\nIn another deep pan or in the same cooker, pour the pureed greens.\nSimmer for a good 25 to 30 minutes on a low heat stirring at intervals.\nTempering for sarson da saag\nIn another small pan, heat oil. Use any neutral oil. You can also make the tempering with ghee if you prefer.\nAdd the chopped onions and saute them till light brown on medium-low heat.\nAdd the prepared saag. Stir and simmer for a couple of minutes.\nStir ocaasionally when the saag is simmering.\nServing Suggestions\nServe sarson ka saag hot with a side of some chopped onions, whole green chilies or mango pickle. Top the saag with a dollop of white butter and serve with Makki di Roti. Also serve a few jaggery cubes by the side.\nFor a vegan saag, omit adding white butter or use vegan butter.\nStorage\nStore the pureed and simmered saag in an airtight container for 4 to 5 days in the refrigerarot. You can also freeze it for a month.\nWhen ready to serve, remove the quantity you need from the refrigerator and temper it with the required amout of oil and onions.",
+  "total_time": 240,
+  "prep_time": 120,
+  "cook_time": 120,
+  "yields": "8 servings",
+  "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/12/sarson-ka-saag-recipe-1.jpg",
+  "description": "Peppery, pungent and healthy, Punjabi Sarson ka Saag (or Sarson da Saag) is a favorite meal during the cold North Indian winters, especially when paired with Makki Ki Roti. Making this authentic dish is not difficult, but it does take some time.",
+  "nutrients": {
+    "calories": "59 kcal",
+    "carbohydrateContent": "10 g",
+    "proteinContent": "4 g",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "385 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "2 g",
+    "unsaturatedFatContent": "2 g",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "North Indian,Punjabi",
+  "category": "Main Course",
+  "dietary_restrictions": [
+    "Vegan Diet",
+    "Vegetarian Diet"
+  ],
+  "keywords": [
+    "Sarson da Saag",
+    "Sarson ka Saag"
+  ],
+  "ratings": 4.93,
+  "ratings_count": 1,
   "instructions_list": [
     "Making sarson ka saag",
     "Firstly clean and chop all the greens. Then wash or rinse the greens very well in running water.",
@@ -72,36 +103,5 @@
     "Storage",
     "Store the pureed and simmered saag in an airtight container for 4 to 5 days in the refrigerarot. You can also freeze it for a month.",
     "When ready to serve, remove the quantity you need from the refrigerator and temper it with the required amout of oil and onions."
-  ],
-  "language": "en-US",
-  "nutrients": {
-    "calories": "59 kcal",
-    "carbohydrateContent": "10 g",
-    "proteinContent": "4 g",
-    "fatContent": "1 g",
-    "saturatedFatContent": "1 g",
-    "sodiumContent": "385 mg",
-    "fiberContent": "2 g",
-    "sugarContent": "2 g",
-    "unsaturatedFatContent": "2 g",
-    "servingSize": "1 serving"
-  },
-  "ratings": 4.93,
-  "site_name": "Dassana's Veg Recipes",
-  "title": "Sarson ka Saag Recipe (Authentic Punjabi Style)",
-  "total_time": 240,
-  "yields": "8 servings",
-  "dietary_restrictions": [
-    "Vegan Diet",
-    "Vegetarian Diet"
-  ],
-  "keywords": [
-    "Sarson da Saag",
-    "Sarson ka Saag"
-  ],
-  "description": "Peppery, pungent and healthy, Punjabi Sarson ka Saag (or Sarson da Saag) is a favorite meal during the cold North Indian winters, especially when paired with Makki Ki Roti. Making this authentic dish is not difficult, but it does take some time.",
-  "cook_time": 120,
-  "cuisine": "North Indian,Punjabi",
-  "prep_time": 120,
-  "ratings_count": 1
+  ]
 }

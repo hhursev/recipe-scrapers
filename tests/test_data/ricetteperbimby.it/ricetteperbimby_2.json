@@ -1,9 +1,33 @@
 {
-  "author": "Claudia Cornia",
-  "canonical_url": "https://www.ricetteperbimby.it/ricette/cottage-pie-bimby",
   "host": "ricetteperbimby.it",
-  "description": "La cottage pie fatta col Bimby è un piatto unico della tradizione anglosassone a base di patate e di carne di manzo. Ecco la nostra ricetta facile e velocissima.",
-  "image": "https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg",
+  "canonical_url": "https://www.ricetteperbimby.it/ricette/cottage-pie-bimby",
+  "site_name": "Ricetteperbimby.it",
+  "author": "Claudia Cornia",
+  "language": "it",
+  "title": "Cottage pie",
+  "ingredients": [
+    "mezza cipolla",
+    "1 carote",
+    "1 sedano",
+    "1 spicchio (tritato) aglio",
+    "15 g olio extravergine di oliva",
+    "400 g macinato di manzo",
+    "1 cucchiaino raso sale fino",
+    "q.b. pepe",
+    "1 cucchiaino vino bianco",
+    "1 cucchiaino farina 00",
+    "2 cucchiaini pomodoro concentrato",
+    "100 g brodo vegetale",
+    "2 cucchiaini salsa worcester",
+    "2 cucchiaini (tritato) rosmarino",
+    "140 g (lessati) piselli",
+    "700 g a buccia rossa (pulite) patate",
+    "1 cucchiaino raso sale fino",
+    "250 g latte",
+    "20 g + q.b. burro",
+    "q.b. noce moscata",
+    "q.b. pangrattato"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -37,30 +61,23 @@
       "purpose": "Per il purè"
     }
   ],
-  "ingredients": [
-    "mezza cipolla",
-    "1 carote",
-    "1 sedano",
-    "1 spicchio (tritato) aglio",
-    "15 g olio extravergine di oliva",
-    "400 g macinato di manzo",
-    "1 cucchiaino raso sale fino",
-    "q.b. pepe",
-    "1 cucchiaino vino bianco",
-    "1 cucchiaino farina 00",
-    "2 cucchiaini pomodoro concentrato",
-    "100 g brodo vegetale",
-    "2 cucchiaini salsa worcester",
-    "2 cucchiaini (tritato) rosmarino",
-    "140 g (lessati) piselli",
-    "700 g a buccia rossa (pulite) patate",
-    "1 cucchiaino raso sale fino",
-    "250 g latte",
-    "20 g + q.b. burro",
-    "q.b. noce moscata",
-    "q.b. pangrattato"
-  ],
   "instructions": "Mettere nel boccale la cipolla, la carota e il sedano a pezzetti e l'aglio: 5 sec. vel. 5.\nRaccogliere sul fondo: 5 sec. vel. 5.\nAggiungere l'olio: 3 min. 120° vel. 1 senza misurino.\nAggiungere la carne, il sale, il pepe e il vino: 5 min. 120° vel. 1.\nAggiungere la farina: 1 min. 120° vel. 1.\nAggiungere il pomodoro concentrato, il brodo, la salsa e il rosmarino: 6 min. 120° vel. 1 con il cestello al posto del misurino.\nAggiungere i piselli: 4 min. 120° vel. 1 antiorario con il cestello al posto del misurino.\nVersare in una ciotola e mettere da parte.\nPosizionare la farfalla e mettere nel boccale (pulito e asciutto) le patate a rondelle spesse 1 cm, il sale e il latte: 30 min. 95° vel. 1 con il cestello al posto del misurino.\nAggiungere il burro (20 g) e la noce moscata: 30 sec. vel. 3.\nNegli stampini distribuire la carne messa da parte, coprire con il purè del boccale, aggiungere in superficie fiocchetti di burro e cospargere con il pangrattato.\nInfornare in forno preriscaldato statico a 220° per 20 minuti.\nPoi posizionare gli stampini sotto il grill acceso per 3 minuti.\nLasciare riposare 15 minuti prima di servire.",
+  "total_time": 90,
+  "prep_time": 20,
+  "cook_time": 70,
+  "yields": "4 servings",
+  "image": "https://www.ricetteperbimby.it/foto-ricette/cottage-pie-bimby.jpg",
+  "description": "La cottage pie fatta col Bimby è un piatto unico della tradizione anglosassone a base di patate e di carne di manzo. Ecco la nostra ricetta facile e velocissima.",
+  "cuisine": "Francese",
+  "category": "Secondi Piatti",
+  "keywords": [
+    "Forno",
+    "Dal mondo",
+    "Senza lievito",
+    "Senza uova"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 2,
   "instructions_list": [
     "Mettere nel boccale la cipolla, la carota e il sedano a pezzetti e l'aglio: 5 sec. vel. 5.",
     "Raccogliere sul fondo: 5 sec. vel. 5.",
@@ -76,22 +93,5 @@
     "Infornare in forno preriscaldato statico a 220° per 20 minuti.",
     "Poi posizionare gli stampini sotto il grill acceso per 3 minuti.",
     "Lasciare riposare 15 minuti prima di servire."
-  ],
-  "language": "it",
-  "site_name": "Ricetteperbimby.it",
-  "title": "Cottage pie",
-  "total_time": 90,
-  "yields": "4 servings",
-  "keywords": [
-    "Forno",
-    "Dal mondo",
-    "Senza lievito",
-    "Senza uova"
-  ],
-  "category": "Secondi Piatti",
-  "cook_time": 70,
-  "cuisine": "Francese",
-  "prep_time": 20,
-  "ratings": 5.0,
-  "ratings_count": 2
+  ]
 }

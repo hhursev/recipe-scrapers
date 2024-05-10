@@ -1,10 +1,30 @@
 {
-  "author": "GBC Kitchen",
-  "canonical_url": "https://www.greatbritishchefs.com/recipes/picadillo-recipe",
-  "category": "Main",
-  "description": "This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour.",
   "host": "greatbritishchefs.com",
-  "image": "https://media-cdn2.greatbritishchefs.com/media/mwtkdmv3/img73858.whqc_1426x713q80.jpg",
+  "canonical_url": "https://www.greatbritishchefs.com/recipes/picadillo-recipe",
+  "site_name": "Great British Chefs",
+  "author": "GBC Kitchen",
+  "language": "en",
+  "title": "Picadillo",
+  "ingredients": [
+    "500g of beef mince",
+    "1 onion, diced",
+    "2 garlic cloves, sliced",
+    "1 carrot, finely diced",
+    "1 Albert Bartlett Original Rooster Potato, finely diced",
+    "1 bay leaf",
+    "1 tsp ground cumin",
+    "1 tsp ground coriander",
+    "1 tsp smoked paprika",
+    "2 tbsp of tomato purée",
+    "100g of raisins",
+    "300ml of chicken stock",
+    "300g of tomatillo salsa",
+    "1 tsp honey",
+    "lime juice, to taste",
+    "1 handful of coriander, chopped",
+    "salt, to taste",
+    "olive oil"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -30,38 +50,18 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "500g of beef mince",
-    "1 onion, diced",
-    "2 garlic cloves, sliced",
-    "1 carrot, finely diced",
-    "1 Albert Bartlett Original Rooster Potato, finely diced",
-    "1 bay leaf",
-    "1 tsp ground cumin",
-    "1 tsp ground coriander",
-    "1 tsp smoked paprika",
-    "2 tbsp of tomato purée",
-    "100g of raisins",
-    "300ml of chicken stock",
-    "300g of tomatillo salsa",
-    "1 tsp honey",
-    "lime juice, to taste",
-    "1 handful of coriander, chopped",
-    "salt, to taste",
-    "olive oil"
-  ],
   "instructions": "To begin, heat a splash of olive oil in a large pan and add the mince. Cook until nicely browned – you may need to do this in batches to avoid overcrowding the mince\nDecant the mince into a bowl and sweat the onions, garlic, carrot and potato in the same pan you used to brown the mince. Add the bay leaf and spices\nOnce the onions are translucent, return the mince to the pan and add the tomato purée, raisins, chicken stock and tomatillo salsa. Turn down the heat and simmer for 30 minutes\nSeason with the honey, lime juice and salt. Stir through the coriander and serve with rice or as a taco filling",
+  "total_time": 50,
+  "image": "https://media-cdn2.greatbritishchefs.com/media/mwtkdmv3/img73858.whqc_1426x713q80.jpg",
+  "description": "This simple picadillo recipe has the perfect balance of sweetness and spice. A pleasing tanginess comes from the addition of vibrant tomatillo salsa for a great depth of flavour.",
+  "category": "Main",
+  "keywords": [
+    "easy"
+  ],
   "instructions_list": [
     "To begin, heat a splash of olive oil in a large pan and add the mince. Cook until nicely browned – you may need to do this in batches to avoid overcrowding the mince",
     "Decant the mince into a bowl and sweat the onions, garlic, carrot and potato in the same pan you used to brown the mince. Add the bay leaf and spices",
     "Once the onions are translucent, return the mince to the pan and add the tomato purée, raisins, chicken stock and tomatillo salsa. Turn down the heat and simmer for 30 minutes",
     "Season with the honey, lime juice and salt. Stir through the coriander and serve with rice or as a taco filling"
-  ],
-  "language": "en",
-  "site_name": "Great British Chefs",
-  "title": "Picadillo",
-  "total_time": 50,
-  "keywords": [
-    "easy"
   ]
 }

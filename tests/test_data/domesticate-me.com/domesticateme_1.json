@@ -1,9 +1,32 @@
 {
-  "author": "serenawolf",
-  "canonical_url": "https://domesticate-me.com/dude-diet-buffalo-chicken-quinoa-bake/",
-  "category": "Recipes,The Dude Diet,Uncategorized",
   "host": "domesticate-me.com",
-  "image": "https://domesticate-me.com/wp-content/uploads/2018/03/Buffalo-Chicken-Quinoa-Bake-2.jpg",
+  "canonical_url": "https://domesticate-me.com/dude-diet-buffalo-chicken-quinoa-bake/",
+  "site_name": "Domesticate ME",
+  "author": "serenawolf",
+  "language": "en-US",
+  "title": "The Dude Diet: Buffalo Chicken Quinoa Bake",
+  "ingredients": [
+    "1 cup quinoa",
+    "1½ cups low-sodium chicken broth",
+    "1 tablespoon extra-virgin olive oil",
+    "1½ cups cauliflower “rice” (aka very finely chopped cauliflower florets)",
+    "½ medium yellow onion (minced)",
+    "½ cup finely chopped carrots",
+    "½ cup finely chopped celery",
+    "2 cups diced or shredded chicken breast",
+    "½ cup Frank’s Red Hot Buffalo Wing Sauce (plus extra for serving)",
+    "¾ cup grated sharp cheddar cheese",
+    "¾ cup grated provolone cheese (Gouda is also great!)",
+    "¼ cup whole-wheat panko breadcrumbs",
+    "3 scallions (thinly sliced (optional))",
+    "For the Yogurt Ranch:",
+    "1½ cups nonfat plain Greek yogurt",
+    "1 teaspoon dried parsley (crushed (Just use your fingers to crush the flakes.))",
+    "½ teaspoon dried dill weed",
+    "½ teaspoon kosher salt",
+    "¼ teaspoon garlic powder",
+    "¼ teaspoon black pepper"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -31,29 +54,16 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 cup quinoa",
-    "1½ cups low-sodium chicken broth",
-    "1 tablespoon extra-virgin olive oil",
-    "1½ cups cauliflower “rice” (aka very finely chopped cauliflower florets)",
-    "½ medium yellow onion (minced)",
-    "½ cup finely chopped carrots",
-    "½ cup finely chopped celery",
-    "2 cups diced or shredded chicken breast",
-    "½ cup Frank’s Red Hot Buffalo Wing Sauce (plus extra for serving)",
-    "¾ cup grated sharp cheddar cheese",
-    "¾ cup grated provolone cheese (Gouda is also great!)",
-    "¼ cup whole-wheat panko breadcrumbs",
-    "3 scallions (thinly sliced (optional))",
-    "For the Yogurt Ranch:",
-    "1½ cups nonfat plain Greek yogurt",
-    "1 teaspoon dried parsley (crushed (Just use your fingers to crush the flakes.))",
-    "½ teaspoon dried dill weed",
-    "½ teaspoon kosher salt",
-    "¼ teaspoon garlic powder",
-    "¼ teaspoon black pepper"
-  ],
   "instructions": "Combine the quinoa and chicken broth in a small saucepan and bring to a boil. Lower to a simmer, cover the saucepan with a lid, and cook for 14 minutes, or until all of the liquid has been absorbed. Let the quinoa rest, covered, for 5 minutes, then fluff with a fork.\nMeanwhile, whip up the yogurt ranch! In a medium bowl, whisk all the ingredients for the ranch. Briefly set that deliciousness aside.\nPre-heat the oven to 375 degrees.\nHeat the olive oil in a large ovenproof skillet or shallow Dutch oven over medium heat. When the oil is hot and shimmering, add the cauliflower, onion, carrot, and celery. Cook for 5 minutes until the onion is translucent and the vegetables are tender. Add the cooked quinoa, chicken, and Frank’s to the pan and fold everything together. Turn off the heat and fold in 1 cup of the yogurt ranch and half of the cheddar and provolone. Taste the filling. Add a little extra Frank’s if you deem it necessary.\nSmooth the top of the filling with a spatula. Add the remaining cheese in an even layer and sprinkle with the panko.\nBake for 25 minutes until the cheese is melted and bubbling. If you want to brown the top of the bake (I DO!!), pop the casserole under the broiler for 1 to 2 minutes until the bread crumbs turn golden brown.\nWhisk a tablespoon or so of water into the remaining yogurt ranch just until it has a drizzle-able consistency. Serve the quinoa bake drizzled with as much extra ranch and Frank’s as you like and garnish with scallions.",
+  "total_time": 60,
+  "prep_time": 15,
+  "cook_time": 45,
+  "yields": "4 servings",
+  "image": "https://domesticate-me.com/wp-content/uploads/2018/03/Buffalo-Chicken-Quinoa-Bake-2.jpg",
+  "cuisine": "American",
+  "category": "Recipes,The Dude Diet,Uncategorized",
+  "ratings": 4.94,
+  "ratings_count": 29,
   "instructions_list": [
     "Combine the quinoa and chicken broth in a small saucepan and bring to a boil. Lower to a simmer, cover the saucepan with a lid, and cook for 14 minutes, or until all of the liquid has been absorbed. Let the quinoa rest, covered, for 5 minutes, then fluff with a fork.",
     "Meanwhile, whip up the yogurt ranch! In a medium bowl, whisk all the ingredients for the ranch. Briefly set that deliciousness aside.",
@@ -62,15 +72,5 @@
     "Smooth the top of the filling with a spatula. Add the remaining cheese in an even layer and sprinkle with the panko.",
     "Bake for 25 minutes until the cheese is melted and bubbling. If you want to brown the top of the bake (I DO!!), pop the casserole under the broiler for 1 to 2 minutes until the bread crumbs turn golden brown.",
     "Whisk a tablespoon or so of water into the remaining yogurt ranch just until it has a drizzle-able consistency. Serve the quinoa bake drizzled with as much extra ranch and Frank’s as you like and garnish with scallions."
-  ],
-  "language": "en-US",
-  "ratings": 4.94,
-  "ratings_count": 29,
-  "site_name": "Domesticate ME",
-  "title": "The Dude Diet: Buffalo Chicken Quinoa Bake",
-  "total_time": 60,
-  "yields": "4 servings",
-  "cook_time": 45,
-  "cuisine": "American",
-  "prep_time": 15
+  ]
 }

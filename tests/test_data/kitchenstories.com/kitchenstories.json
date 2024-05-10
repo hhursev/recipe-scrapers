@@ -1,12 +1,16 @@
 {
-  "author": "Christian Ruß",
-  "canonical_url": "https://www.kitchenstories.com/en/recipes/special-strawberry-jam-with-matcha",
-  "category": "Jams & Marmalades",
-  "cook_time": null,
-  "cuisine": "International",
-  "description": "This recipe gives homemade strawberry jam an exciting update: Matcha!",
   "host": "kitchenstories.com",
-  "image": "https://images.kitchenstories.io/wagtailOriginalImages/R2630-photo-final-1.jpg",
+  "canonical_url": "https://www.kitchenstories.com/en/recipes/special-strawberry-jam-with-matcha",
+  "site_name": "Kitchen Stories",
+  "author": "Christian Ruß",
+  "language": "en",
+  "title": "Special strawberry jam with matcha",
+  "ingredients": [
+    "1.75 lbs strawberries",
+    "1.5 cups jam sugar",
+    "1 tsp matcha powder",
+    "0.33 cup water"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,20 +22,12 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1.75 lbs strawberries",
-    "1.5 cups jam sugar",
-    "1 tsp matcha powder",
-    "0.33 cup water"
-  ],
   "instructions": "Place a small plate in the freezer. Wash the strawberries and cut them into quarters. In a large pot, combine the jam sugar and strawberries, stirring until well combined. Let that sit for approx. 1 hr.\nIn the meantime, mix the matcha powder with half of the water in a small bowl to make a paste. Gradually stir in the remaining water until everything is well mixed and dissolved. Set aside.\nAfter the strawberries have rested and there's some juice in the pot, set the pot over medium heat and bring to a simmer. Cook for approx. 5 min., then add the matcha to the pot and continue cooking for approx. 1 min.\nTo test whether the jam will set up once it's cooled, place a small spoonful of the hot jam on the plate from the freezer and hold the plate at an angle. If the mass becomes solid after a short time and you can swipe your finger through the jam leaving an unconnected gap, the test is passed and the jam is ready; if not, continue cooking and repeating the test. Pour the still hot jam into sterilized preserving jars, seal, and let cool. Enjoy!",
-  "instructions_list": [
-    "Place a small plate in the freezer. Wash the strawberries and cut them into quarters. In a large pot, combine the jam sugar and strawberries, stirring until well combined. Let that sit for approx. 1 hr.",
-    "In the meantime, mix the matcha powder with half of the water in a small bowl to make a paste. Gradually stir in the remaining water until everything is well mixed and dissolved. Set aside.",
-    "After the strawberries have rested and there's some juice in the pot, set the pot over medium heat and bring to a simmer. Cook for approx. 5 min., then add the matcha to the pot and continue cooking for approx. 1 min.",
-    "To test whether the jam will set up once it's cooled, place a small spoonful of the hot jam on the plate from the freezer and hold the plate at an angle. If the mass becomes solid after a short time and you can swipe your finger through the jam leaving an unconnected gap, the test is passed and the jam is ready; if not, continue cooking and repeating the test. Pour the still hot jam into sterilized preserving jars, seal, and let cool. Enjoy!"
-  ],
-  "language": "en",
+  "total_time": 80,
+  "prep_time": 20,
+  "cook_time": null,
+  "image": "https://images.kitchenstories.io/wagtailOriginalImages/R2630-photo-final-1.jpg",
+  "description": "This recipe gives homemade strawberry jam an exciting update: Matcha!",
   "nutrients": {
     "servingSize": "1 Servings",
     "calories": "359 cal",
@@ -39,12 +35,8 @@
     "fatContent": "1 g",
     "carbohydrateContent": "91 g"
   },
-  "prep_time": 20,
-  "ratings": 0.81,
-  "ratings_count": 4,
-  "site_name": "Kitchen Stories",
-  "title": "Special strawberry jam with matcha",
-  "total_time": 80,
+  "cuisine": "International",
+  "category": "Jams & Marmalades",
   "keywords": [
     "Brand Content",
     "easter",
@@ -71,5 +63,13 @@
     "base",
     "2022-05",
     "confidence"
+  ],
+  "ratings": 0.81,
+  "ratings_count": 4,
+  "instructions_list": [
+    "Place a small plate in the freezer. Wash the strawberries and cut them into quarters. In a large pot, combine the jam sugar and strawberries, stirring until well combined. Let that sit for approx. 1 hr.",
+    "In the meantime, mix the matcha powder with half of the water in a small bowl to make a paste. Gradually stir in the remaining water until everything is well mixed and dissolved. Set aside.",
+    "After the strawberries have rested and there's some juice in the pot, set the pot over medium heat and bring to a simmer. Cook for approx. 5 min., then add the matcha to the pot and continue cooking for approx. 1 min.",
+    "To test whether the jam will set up once it's cooled, place a small spoonful of the hot jam on the plate from the freezer and hold the plate at an angle. If the mass becomes solid after a short time and you can swipe your finger through the jam leaving an unconnected gap, the test is passed and the jam is ready; if not, continue cooking and repeating the test. Pour the still hot jam into sterilized preserving jars, seal, and let cool. Enjoy!"
   ]
 }

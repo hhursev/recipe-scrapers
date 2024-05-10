@@ -1,10 +1,23 @@
 {
-  "author": "Benedetta Rossi",
-  "canonical_url": "https://www.fattoincasadabenedetta.it/ricetta/torta-fredda-al-limone/",
-  "category": "Al cucchiaio,Alla frutta,Dolci,Torte,Torte fredde",
-  "description": "Un dessert estivo fresco e delicato, con una decorazione elegante e un sapore unico.",
   "host": "fattoincasadabenedetta.it",
-  "image": "https://www.fattoincasadabenedetta.it/wp-content/uploads/2018/07/copertina-YT.jpg",
+  "canonical_url": "https://www.fattoincasadabenedetta.it/ricetta/torta-fredda-al-limone/",
+  "site_name": "Fatto in casa da Benedetta",
+  "author": "Benedetta Rossi",
+  "language": "it-IT",
+  "title": "Torta fredda al limone",
+  "ingredients": [
+    "limoni 4 il succo di 3 limoni per la crema e di 1 per la panna allo yogurt + fettine di limone q.b. per decorare",
+    "zucchero 130 g",
+    "amido di mais 45 g",
+    "aroma limone 2 ml di cui 1 ml per la crema e 1 ml per la panna allo yogurt",
+    "colorante giallo",
+    "limoncino 30 ml oppure succo di arancia o di limone",
+    "acqua 200 ml + q.b. per crema",
+    "savoiardi 12",
+    "gelatina in fogli 10 g",
+    "panna zuccherata 750 ml ben fredda, di cui 500 ml per la panna allo yogurt e 250 ml per la decorazione",
+    "yogurt al limone 250 g"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,20 +36,21 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "limoni 4 il succo di 3 limoni per la crema e di 1 per la panna allo yogurt + fettine di limone q.b. per decorare",
-    "zucchero 130 g",
-    "amido di mais 45 g",
-    "aroma limone 2 ml di cui 1 ml per la crema e 1 ml per la panna allo yogurt",
-    "colorante giallo",
-    "limoncino 30 ml oppure succo di arancia o di limone",
-    "acqua 200 ml + q.b. per crema",
-    "savoiardi 12",
-    "gelatina in fogli 10 g",
-    "panna zuccherata 750 ml ben fredda, di cui 500 ml per la panna allo yogurt e 250 ml per la decorazione",
-    "yogurt al limone 250 g"
-  ],
   "instructions": "Iniziamo preparando la crema al limone per il ripieno. Spremiamo il succo di 3 limoni e versiamolo in un bicchiere graduato. Aggiungiamo acqua fino a raggiungere un totale di 400 ml.\nIn un pentolino versiamo lo zucchero e l’amido di mais, mescoliamoli con una frusta. Continuando a mescolare versiamo succo di limone e acqua e aggiungiamo mezza fialetta di aroma al limone e qualche goccia di colorante alimentare giallo. Pubblicità\nPortiamo sul fuoco e continuiamo a mescolare fino a quando il composto si addensa e diventa una crema. Ci vorranno 5 minuti circa.\nLa crema al limone è pronta, teniamola da parte per farla raffreddare completamente.\nPer preparare la bagna mescoliamo in una ciotola un bicchierino di limoncino e 1 bicchiere di acqua. In alternativa Per una bagna analcolica possiamo mescolare acqua e succo di limone, oppure acqua e succo d'arancia. Pubblicità\nPrepariamo un bel piatto rotondo e una tortiera apribile da 24 cm di diametro. Della tortiera ci servirà solo il cerchio apribile senza il fondo che sistemiamo al centro del piatto.\nBagniamo leggermente i savoiardi nella bagna e posizioniamoli per formare la base della torta. In alternativa Se non abbiamo i savoiardi possiamo usare un disco sottile di pan di Spagna, oppure usare un altro tipo di biscotto da sbriciolare e mescolare con il burro, come per la base della cheesecake.\nMettiamo in ammollo in acqua fredda la gelatina in fogli.\nIn una ciotola capiente versiamo la panna già zuccherata, due vasetti di yogurt, mezza fialetta di aroma al limone e il succo di un limone. Montiamo a neve con lo sbattitore elettrico. Pubblicità\nStrizziamo la gelatina e mettiamola in un pentolino assieme a 3 cucchiaini di acqua, facciamo sciogliere sul fuoco mescolando, ci vorranno pochi secondi. Aggiungiamola subito alla crema e mescoliamo con le fruste per incorporarla.\nPer assemblare la torta versiamo metà del composto di panna e yogurt appena ottenuta sulla base e mettiamo in freezer per 20 minuti. Quindi versiamo la crema al limone ormai fredda e livelliamola bene sulla torta. Ricopriamo con il resto della panna. Livelliamo la superficie e mettiamo in freezer per 2 ore o in frigo per 4 ore.\nTrascorso il tempo togliamo la torta dallo stampo, per aiutarci passiamo un coltello sui bordi e poi apriamo delicatamente la tortiera.\nPer la decorazione montiamo a neve 250 ml di panna già zuccherata e aggiungiamo qualche goccia di colorante alimentare giallo. Riempiamo una sac à poche e iniziamo a decorare. Facciamo tanti piccoli ciuffetti in superficie. Affettiamo un limone e sistemiamo le fettine lungo tutto il bordo della torta. La torta al limone è pronta, teniamo in frigo fino al momento di servire.",
+  "total_time": 45.0,
+  "prep_time": 40,
+  "cook_time": 5,
+  "yields": "8 servings",
+  "image": "https://www.fattoincasadabenedetta.it/wp-content/uploads/2018/07/copertina-YT.jpg",
+  "description": "Un dessert estivo fresco e delicato, con una decorazione elegante e un sapore unico.",
+  "category": "Al cucchiaio,Alla frutta,Dolci,Torte,Torte fredde",
+  "equipment": [
+    "Casseruola 16cm con coperchio",
+    "Frusta in silicone 32cm",
+    "Sac à poche"
+  ],
+  "ratings": 3.8,
+  "ratings_count": 266,
   "instructions_list": [
     "Iniziamo preparando la crema al limone per il ripieno. Spremiamo il succo di 3 limoni e versiamolo in un bicchiere graduato. Aggiungiamo acqua fino a raggiungere un totale di 400 ml.",
     "In un pentolino versiamo lo zucchero e l’amido di mais, mescoliamoli con una frusta. Continuando a mescolare versiamo succo di limone e acqua e aggiungiamo mezza fialetta di aroma al limone e qualche goccia di colorante alimentare giallo. Pubblicità",
@@ -51,19 +65,5 @@
     "Per assemblare la torta versiamo metà del composto di panna e yogurt appena ottenuta sulla base e mettiamo in freezer per 20 minuti. Quindi versiamo la crema al limone ormai fredda e livelliamola bene sulla torta. Ricopriamo con il resto della panna. Livelliamo la superficie e mettiamo in freezer per 2 ore o in frigo per 4 ore.",
     "Trascorso il tempo togliamo la torta dallo stampo, per aiutarci passiamo un coltello sui bordi e poi apriamo delicatamente la tortiera.",
     "Per la decorazione montiamo a neve 250 ml di panna già zuccherata e aggiungiamo qualche goccia di colorante alimentare giallo. Riempiamo una sac à poche e iniziamo a decorare. Facciamo tanti piccoli ciuffetti in superficie. Affettiamo un limone e sistemiamo le fettine lungo tutto il bordo della torta. La torta al limone è pronta, teniamo in frigo fino al momento di servire."
-  ],
-  "language": "it-IT",
-  "ratings": 3.8,
-  "ratings_count": 266,
-  "site_name": "Fatto in casa da Benedetta",
-  "title": "Torta fredda al limone",
-  "total_time": 45.0,
-  "yields": "8 servings",
-  "equipment": [
-    "Casseruola 16cm con coperchio",
-    "Frusta in silicone 32cm",
-    "Sac à poche"
-  ],
-  "cook_time": 5,
-  "prep_time": 40
+  ]
 }

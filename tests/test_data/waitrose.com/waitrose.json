@@ -1,11 +1,22 @@
 {
-  "author": "waitrose.com",
-  "canonical_url": "waitrose.com",
-  "category": null,
-  "description": "We make a fresh tea bread and muffins of the same flavour every day in the restaurant and shop kitchen. Many of our customers buy them for their children as they contain less added sugar than some other tea breads. The best bananas to use would be those slightly browning on the skin – not yellow ones. Use the best-quality bitter chocolate you can.",
-  "extract_instructions": "1 Large egg\n75ml Vegetable oil\n125g Caster sugar\n3 Bananas, or 2 bananas and a handful dried banana chips\n30g Rolled oats\n150g Plain flour\n½ tsp Baking powder\n½ tsp Bicarbonate soda\n1 tsp Ground cinnamon\n40g Dark chocolate, finely chopped",
   "host": "waitrose.com",
-  "image": "d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/recipes/images/b/0804058-r05.jpg/_jcr_content/renditions/cq5dam.thumbnail.200.200.png",
+  "canonical_url": "waitrose.com",
+  "site_name": null,
+  "author": "waitrose.com",
+  "language": "en",
+  "title": "Banana, chocolate and oatmeal tea bread",
+  "ingredients": [
+    "1 Large egg",
+    "75ml Vegetable oil",
+    "125g Caster sugar",
+    "3 Bananas, or 2 bananas and a handful dried banana chips",
+    "30g Rolled oats",
+    "150g Plain flour",
+    "½ tsp Baking powder",
+    "½ tsp Bicarbonate soda",
+    "1 tsp Ground cinnamon",
+    "40g Dark chocolate, finely chopped"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,27 +34,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 Large egg",
-    "75ml Vegetable oil",
-    "125g Caster sugar",
-    "3 Bananas, or 2 bananas and a handful dried banana chips",
-    "30g Rolled oats",
-    "150g Plain flour",
-    "½ tsp Baking powder",
-    "½ tsp Bicarbonate soda",
-    "1 tsp Ground cinnamon",
-    "40g Dark chocolate, finely chopped"
-  ],
   "instructions": "Preheat the oven to 180°C/gas 4. Line a 1 litre (15cm x 7.5cm) loaf tin with buttered, non-stick baking parchment or silicone paper. Whisk the egg, oil and sugar together until thick. Slice 2 bananas finely and whisk into the mixture. Set aside 1 tbsp of the oats; fold in the remaining ingredients until the mixture is smooth.\nPour the batter into the prepared tin and sprinkle the surface with the reserved oats.\nSlice the remaining banana and arrange the pieces on top, or use the dried chips.\nBake for 40–50 minutes or until golden.\nThe cake is done when a metal skewer inserted into the centre of the cake comes out clean. Allow the tea bread to cool in the tin, then transfer to a wire rack to cool completely.",
-  "instructions_list": [
-    "Preheat the oven to 180°C/gas 4. Line a 1 litre (15cm x 7.5cm) loaf tin with buttered, non-stick baking parchment or silicone paper. Whisk the egg, oil and sugar together until thick. Slice 2 bananas finely and whisk into the mixture. Set aside 1 tbsp of the oats; fold in the remaining ingredients until the mixture is smooth.",
-    "Pour the batter into the prepared tin and sprinkle the surface with the reserved oats.",
-    "Slice the remaining banana and arrange the pieces on top, or use the dried chips.",
-    "Bake for 40–50 minutes or until golden.",
-    "The cake is done when a metal skewer inserted into the centre of the cake comes out clean. Allow the tea bread to cool in the tin, then transfer to a wire rack to cool completely."
-  ],
-  "language": "en",
+  "total_time": 65,
+  "prep_time": 15,
+  "cook_time": 50,
+  "yields": "8 servings",
+  "image": "d1v30bmd12dhid.cloudfront.net/static/version6/content/dam/waitrose/recipes/images/b/0804058-r05.jpg/_jcr_content/renditions/cq5dam.thumbnail.200.200.png",
+  "description": "We make a fresh tea bread and muffins of the same flavour every day in the restaurant and shop kitchen. Many of our customers buy them for their children as they contain less added sugar than some other tea breads. The best bananas to use would be those slightly browning on the skin – not yellow ones. Use the best-quality bitter chocolate you can.",
   "nutrients": {
     "calories": "313.0kcal",
     "fatContent": "13.0g",
@@ -51,12 +48,15 @@
     "sugarContent": "29.2g",
     "sodiumContent": "0.6g"
   },
+  "category": null,
   "ratings": 5.0,
-  "site_name": null,
-  "title": "Banana, chocolate and oatmeal tea bread",
-  "total_time": 65,
-  "yields": "8 servings",
-  "cook_time": 50,
-  "prep_time": 15,
-  "ratings_count": 2
+  "ratings_count": 2,
+  "extract_instructions": "1 Large egg\n75ml Vegetable oil\n125g Caster sugar\n3 Bananas, or 2 bananas and a handful dried banana chips\n30g Rolled oats\n150g Plain flour\n½ tsp Baking powder\n½ tsp Bicarbonate soda\n1 tsp Ground cinnamon\n40g Dark chocolate, finely chopped",
+  "instructions_list": [
+    "Preheat the oven to 180°C/gas 4. Line a 1 litre (15cm x 7.5cm) loaf tin with buttered, non-stick baking parchment or silicone paper. Whisk the egg, oil and sugar together until thick. Slice 2 bananas finely and whisk into the mixture. Set aside 1 tbsp of the oats; fold in the remaining ingredients until the mixture is smooth.",
+    "Pour the batter into the prepared tin and sprinkle the surface with the reserved oats.",
+    "Slice the remaining banana and arrange the pieces on top, or use the dried chips.",
+    "Bake for 40–50 minutes or until golden.",
+    "The cake is done when a metal skewer inserted into the centre of the cake comes out clean. Allow the tea bread to cool in the tin, then transfer to a wire rack to cool completely."
+  ]
 }

@@ -1,9 +1,20 @@
 {
-  "author": "kwestiasmaku",
-  "canonical_url": "https://www.kwestiasmaku.com/przepis/pieczony-kalafior",
-  "category": null,
   "host": "kwestiasmaku.com",
-  "image": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg",
+  "canonical_url": "https://www.kwestiasmaku.com/przepis/pieczony-kalafior",
+  "site_name": "Kwestia Smaku",
+  "author": "kwestiasmaku",
+  "language": "pl",
+  "title": "Pieczony kalafior",
+  "ingredients": [
+    "1 kalafior",
+    "4 łyżki oliwy z pierwszego tłoczenia",
+    "świeżo zmielony pieprz",
+    "1 i 1/2 łyżeczki kurkumy",
+    "1 łyżeczka czarnuszki",
+    "sól morska",
+    "sos czosnkowy lub ser feta",
+    "natka pietruszki"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -19,28 +30,17 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 kalafior",
-    "4 łyżki oliwy z pierwszego tłoczenia",
-    "świeżo zmielony pieprz",
-    "1 i 1/2 łyżeczki kurkumy",
-    "1 łyżeczka czarnuszki",
-    "sól morska",
-    "sos czosnkowy lub ser feta",
-    "natka pietruszki"
-  ],
   "instructions": "Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.\nPołożyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do 200 stopni C.\nKalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.\nWstawić do nagrzanego piekarnika i piec przez 30 minut. Po upieczeniu doprawić solą i posiekaną natką pietruszki.",
+  "yields": "2 servings",
+  "image": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg",
+  "description": "To sprawdzony sposób na pieczonego kalafiora :) smakowity w wersji z kurkumą i czarnuszką, ale równie dobry z innym zestawem ziół. Sprawdzą się oregano, rozmaryn, papryka, ale również garam masala oraz przyprawa curry. Warto dodać kurkumę dla koloru. W zasadzie do zapamiętania są tutaj parametry pieczenia, a mianowicie 200 stopni C - 30 minut. Kalafiora pieczemy na dużej blaszce. Kalafiora można posypać po upieczeniu zieleniną, można podać z pokruszoną fetą lub sosem czosnkowym. Sprawdzi się jako przekąska lub dodatek np. do sałatki.",
+  "category": null,
+  "ratings": 4.77,
+  "ratings_count": 2,
   "instructions_list": [
     "Odciąć liście z kalafiora, przekroić na pół i wyciąć nadmiar głąba. Główkę kalafiora rozdzielić na różyczki lub pokroić na cząstki.",
     "Położyć na dużej blaszce (np. z wyposażenia piekarnika) wyłożonej papierem do pieczenia. Piekarnik nagrzać do 200 stopni C.",
     "Kalafiora polać oliwą, posypać pieprzem, kurkumą i czarnuszką, a następnie dokładnie wymieszać i rozłożyć na całej powierzchni blachy.",
     "Wstawić do nagrzanego piekarnika i piec przez 30 minut. Po upieczeniu doprawić solą i posiekaną natką pietruszki."
-  ],
-  "language": "pl",
-  "ratings": 4.77,
-  "site_name": "Kwestia Smaku",
-  "title": "Pieczony kalafior",
-  "yields": "2 servings",
-  "description": "To sprawdzony sposób na pieczonego kalafiora :) smakowity w wersji z kurkumą i czarnuszką, ale równie dobry z innym zestawem ziół. Sprawdzą się oregano, rozmaryn, papryka, ale również garam masala oraz przyprawa curry. Warto dodać kurkumę dla koloru. W zasadzie do zapamiętania są tutaj parametry pieczenia, a mianowicie 200 stopni C - 30 minut. Kalafiora pieczemy na dużej blaszce. Kalafiora można posypać po upieczeniu zieleniną, można podać z pokruszoną fetą lub sosem czosnkowym. Sprawdzi się jako przekąska lub dodatek np. do sałatki.",
-  "ratings_count": 2
+  ]
 }

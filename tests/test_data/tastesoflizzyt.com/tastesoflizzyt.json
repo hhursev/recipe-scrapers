@@ -1,9 +1,24 @@
 {
-  "author": "Julie Clark",
-  "canonical_url": "https://www.tastesoflizzyt.com/soft-baked-gingerbread-cookies/",
-  "category": "Dessert",
   "host": "tastesoflizzyt.com",
-  "image": "https://www.tastesoflizzyt.com/wp-content/uploads/2020/11/molasses-cookies-500-1.jpg",
+  "canonical_url": "https://www.tastesoflizzyt.com/soft-baked-gingerbread-cookies/",
+  "site_name": "Tastes of Lizzy T",
+  "author": "Julie Clark",
+  "language": "en-US",
+  "title": "Soft Baked Molasses Cookies",
+  "ingredients": [
+    "1 cup shortening",
+    "1 cup brown sugar (packed)",
+    "1 cup molasses",
+    "1 cup buttermilk",
+    "5 1/2 cups all-purpose flour",
+    "4 teaspoons baking soda",
+    "1 teaspoon ginger",
+    "3/4 teaspoon cinnamon",
+    "1/4 teaspoon nutmeg",
+    "1/4 teaspoon cloves",
+    "1 teaspoons salt",
+    "1/2 cup extra sugar for rolling dough"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,30 +38,13 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "1 cup shortening",
-    "1 cup brown sugar (packed)",
-    "1 cup molasses",
-    "1 cup buttermilk",
-    "5 1/2 cups all-purpose flour",
-    "4 teaspoons baking soda",
-    "1 teaspoon ginger",
-    "3/4 teaspoon cinnamon",
-    "1/4 teaspoon nutmeg",
-    "1/4 teaspoon cloves",
-    "1 teaspoons salt",
-    "1/2 cup extra sugar for rolling dough"
-  ],
   "instructions": "In a large bowl, mix together the shortening, brown sugar, molasses and buttermilk. The mixture will look curdled, but don't worry...it will all come together with the dry ingredients.\nIn a separate bowl, sift together the flour, baking soda, ginger, cinnamon, nutmeg, cloves and salt.\nAdd the dry ingredients to the creamed sugar mixture and mix well. The dough will be very soft and slightly sticky, but you should be able to roll\nRoll the dough into balls and then roll the balls in sugar.\nPlace the cookie dough balls on an ungreased cookie sheet and bake at 350 degrees Fahrenheit for 8-10 minutes. Don't over bake the cookies. We remove them before they get browned.\nAllow the cookies to cool on the pan for 3-5 minutes before moving to a wire rack to cool completely. Then store in an airtight container at room temperature.",
-  "instructions_list": [
-    "In a large bowl, mix together the shortening, brown sugar, molasses and buttermilk. The mixture will look curdled, but don't worry...it will all come together with the dry ingredients.",
-    "In a separate bowl, sift together the flour, baking soda, ginger, cinnamon, nutmeg, cloves and salt.",
-    "Add the dry ingredients to the creamed sugar mixture and mix well. The dough will be very soft and slightly sticky, but you should be able to roll",
-    "Roll the dough into balls and then roll the balls in sugar.",
-    "Place the cookie dough balls on an ungreased cookie sheet and bake at 350 degrees Fahrenheit for 8-10 minutes. Don't over bake the cookies. We remove them before they get browned.",
-    "Allow the cookies to cool on the pan for 3-5 minutes before moving to a wire rack to cool completely. Then store in an airtight container at room temperature."
-  ],
-  "language": "en-US",
+  "total_time": 27,
+  "prep_time": 15,
+  "cook_time": 8,
+  "yields": "60 servings",
+  "image": "https://www.tastesoflizzyt.com/wp-content/uploads/2020/11/molasses-cookies-500-1.jpg",
+  "description": "Molasses Cookies have the taste of gingerbread cookies, but are soft and thick. Roll the dough balls in sugar for the perfect sweetness!",
   "nutrients": {
     "calories": "111 kcal",
     "carbohydrateContent": "18 g",
@@ -56,12 +54,8 @@
     "sugarContent": "9 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.92,
-  "ratings_count": 12,
-  "site_name": "Tastes of Lizzy T",
-  "title": "Soft Baked Molasses Cookies",
-  "total_time": 27,
-  "yields": "60 servings",
+  "cuisine": "American",
+  "category": "Dessert",
   "keywords": [
     "christmas cookies",
     "cookies without eggs",
@@ -69,8 +63,14 @@
     "egg free cookies",
     "gingerbread cookies"
   ],
-  "description": "Molasses Cookies have the taste of gingerbread cookies, but are soft and thick. Roll the dough balls in sugar for the perfect sweetness!",
-  "cook_time": 8,
-  "cuisine": "American",
-  "prep_time": 15
+  "ratings": 4.92,
+  "ratings_count": 12,
+  "instructions_list": [
+    "In a large bowl, mix together the shortening, brown sugar, molasses and buttermilk. The mixture will look curdled, but don't worry...it will all come together with the dry ingredients.",
+    "In a separate bowl, sift together the flour, baking soda, ginger, cinnamon, nutmeg, cloves and salt.",
+    "Add the dry ingredients to the creamed sugar mixture and mix well. The dough will be very soft and slightly sticky, but you should be able to roll",
+    "Roll the dough into balls and then roll the balls in sugar.",
+    "Place the cookie dough balls on an ungreased cookie sheet and bake at 350 degrees Fahrenheit for 8-10 minutes. Don't over bake the cookies. We remove them before they get browned.",
+    "Allow the cookies to cool on the pan for 3-5 minutes before moving to a wire rack to cool completely. Then store in an airtight container at room temperature."
+  ]
 }

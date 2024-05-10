@@ -1,12 +1,20 @@
 {
-  "author": "chefNini",
-  "canonical_url": "https://www.chefnini.com/tagliatelles-carbonara/",
-  "category": null,
-  "cuisine": null,
-  "description": "En France, les pâtes carbonara sont très souvent cuisinées avec des oignons et de la crème liquide. C’est d’ailleurs de cette manière que je les ai découvertes. J’aimais bien mais j’ai toujours trouvé ça un peu écœurant et lourd.",
-  "total_time": null,
   "host": "chefnini.com",
-  "image": "https://static.chefnini.com/wp-content/uploads/2013/09/tagliatelle-carbonara10.jpg",
+  "canonical_url": "https://www.chefnini.com/tagliatelles-carbonara/",
+  "site_name": "chefNini",
+  "author": "chefNini",
+  "language": "fr-FR",
+  "title": "Tagliatelles carbonara",
+  "ingredients": [
+    "250 g de tagliatelles",
+    "100 g de lardons fumés ou de pancetta",
+    "1 oeuf",
+    "1 jaune d’oeuf",
+    "4 cs de parmesan fraîchement râpé",
+    "1 gousse d’ail",
+    "1 peu de noix de muscade (facultatif)",
+    "poivre du moulin"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -22,17 +30,14 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "250 g de tagliatelles",
-    "100 g de lardons fumés ou de pancetta",
-    "1 oeuf",
-    "1 jaune d’oeuf",
-    "4 cs de parmesan fraîchement râpé",
-    "1 gousse d’ail",
-    "1 peu de noix de muscade (facultatif)",
-    "poivre du moulin"
-  ],
   "instructions": "1- Versez l’œuf et le jaune dans un bol et battez-les à la fourchette.\n2- Ajoutez le parmesan et mélangez.\n3- Épluchez la gousse d’ail, dégermez-la et hachez-la.\n4- Portez une grande casserole d’eau salée à ébullition et mettez à cuire les pâtes en comptant 2 minutes de moins que le temps du paquet. Une fois cuites, égouttez-les mais gardez 2 louches d’eau de cuisson.\n5- Pendant ce temps, faites dorer les lardons dans une poêle, sans matière grasse.\n6- Ajoutez la gousse d’ail et laissez cuire en mélangeant régulièrement.\n7- Lorsque les pâtes sont cuites, versez-les dans les lardons et mélangez.\n8- Versez la préparation œuf / parmesan et une petite louche d’eau de cuisson. Mettez sur feu moyen et mélangez délicatement.\n9- Stoppez la cuisson lorsque la sauce est encore sirupeuse – trop tard, les pâtes seront sèches. Dosez l’eau de cuisson pour obtenir la consistance de sauce désirée.\n10- Servez aussitôt, poivrez et ajoutez un peu de noix de muscade râpée.",
+  "total_time": null,
+  "yields": "2 servings",
+  "image": "https://static.chefnini.com/wp-content/uploads/2013/09/tagliatelle-carbonara10.jpg",
+  "description": "En France, les pâtes carbonara sont très souvent cuisinées avec des oignons et de la crème liquide. C’est d’ailleurs de cette manière que je les ai découvertes. J’aimais bien mais j’ai toujours trouvé ça un peu écœurant et lourd.",
+  "cuisine": null,
+  "category": null,
+  "ratings": null,
   "instructions_list": [
     "1- Versez l’œuf et le jaune dans un bol et battez-les à la fourchette.",
     "2- Ajoutez le parmesan et mélangez.",
@@ -44,10 +49,5 @@
     "8- Versez la préparation œuf / parmesan et une petite louche d’eau de cuisson. Mettez sur feu moyen et mélangez délicatement.",
     "9- Stoppez la cuisson lorsque la sauce est encore sirupeuse – trop tard, les pâtes seront sèches. Dosez l’eau de cuisson pour obtenir la consistance de sauce désirée.",
     "10- Servez aussitôt, poivrez et ajoutez un peu de noix de muscade râpée."
-  ],
-  "language": "fr-FR",
-  "ratings": null,
-  "site_name": "chefNini",
-  "title": "Tagliatelles carbonara",
-  "yields": "2 servings"
+  ]
 }

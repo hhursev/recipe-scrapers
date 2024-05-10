@@ -1,9 +1,22 @@
 {
-  "author": "Jim",
-  "canonical_url": "https://jimcooksfoodgood.com/german-potato-salad/",
-  "category": "Main Dish",
   "host": "jimcooksfoodgood.com",
-  "image": "https://jimcooksfoodgood.com/wp-content/uploads/2019/09/1282A83C-D784-4DF4-9623-C580DC9B9840.jpeg",
+  "canonical_url": "https://jimcooksfoodgood.com/german-potato-salad/",
+  "site_name": "Jim Cooks Food Good!",
+  "author": "Jim",
+  "language": "en-US",
+  "title": "German Potato Salad",
+  "ingredients": [
+    "3 Pounds Yukon Gold Potatoes ((Or a small white potato))",
+    "2/3 Cup Sherry or Apple Cider Vinegar",
+    "1/2 Cup dijon mustard",
+    "1/2 Cup Bread and Butter Pickles",
+    "1/4 Cup olive oil",
+    "4 Tablespoons capers ((Plus a splash of brine))",
+    "2 Teaspoons salt",
+    "1/2 Cup Fresh Parsley",
+    "1/4 Cup scallions",
+    "1 Sprig Fresh Rosemary"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -21,40 +34,27 @@
       "purpose": null
     }
   ],
-  "ingredients": [
-    "3 Pounds Yukon Gold Potatoes ((Or a small white potato))",
-    "2/3 Cup Sherry or Apple Cider Vinegar",
-    "1/2 Cup dijon mustard",
-    "1/2 Cup Bread and Butter Pickles",
-    "1/4 Cup olive oil",
-    "4 Tablespoons capers ((Plus a splash of brine))",
-    "2 Teaspoons salt",
-    "1/2 Cup Fresh Parsley",
-    "1/4 Cup scallions",
-    "1 Sprig Fresh Rosemary"
-  ],
   "instructions": "Preheat oven to 400 deg F. Cut potatoes into rough bitesize chunks, it doesn't have to be exact. Arrange on two non-stick sprayed baking sheets, season with 1/2 of the salt, and roast for 30 minutes.\nAs potatoes cook, roughly chop the pickles, capers, rosemary, scallions, and parsley. Combine thoroughly with vinegar, mustard, oil, remaining teaspoon of salt, and some heavy grinds of black pepper.\nWhen potatoes are cooked, immediately transfer to very large mixing bowl. Add the dressing slowly as you mix; the potatoes should gently break apart, which is a good thing. Serve warm or at room temperature.",
-  "instructions_list": [
-    "Preheat oven to 400 deg F. Cut potatoes into rough bitesize chunks, it doesn't have to be exact. Arrange on two non-stick sprayed baking sheets, season with 1/2 of the salt, and roast for 30 minutes.",
-    "As potatoes cook, roughly chop the pickles, capers, rosemary, scallions, and parsley. Combine thoroughly with vinegar, mustard, oil, remaining teaspoon of salt, and some heavy grinds of black pepper.",
-    "When potatoes are cooked, immediately transfer to very large mixing bowl. Add the dressing slowly as you mix; the potatoes should gently break apart, which is a good thing. Serve warm or at room temperature."
-  ],
-  "language": "en-US",
+  "total_time": 40,
+  "prep_time": 10,
+  "cook_time": 30,
+  "yields": "8 servings",
+  "image": "https://jimcooksfoodgood.com/wp-content/uploads/2019/09/1282A83C-D784-4DF4-9623-C580DC9B9840.jpeg",
+  "description": "German Potato Salad",
   "nutrients": {
     "servingSize": "8 People",
     "calories": "222 kcal"
   },
-  "ratings": 5.0,
-  "ratings_count": 2,
-  "site_name": "Jim Cooks Food Good!",
-  "title": "German Potato Salad",
-  "total_time": 40,
-  "yields": "8 servings",
+  "cuisine": "American",
+  "category": "Main Dish",
   "keywords": [
     "#healthyrecipe"
   ],
-  "description": "German Potato Salad",
-  "cook_time": 30,
-  "cuisine": "American",
-  "prep_time": 10
+  "ratings": 5.0,
+  "ratings_count": 2,
+  "instructions_list": [
+    "Preheat oven to 400 deg F. Cut potatoes into rough bitesize chunks, it doesn't have to be exact. Arrange on two non-stick sprayed baking sheets, season with 1/2 of the salt, and roast for 30 minutes.",
+    "As potatoes cook, roughly chop the pickles, capers, rosemary, scallions, and parsley. Combine thoroughly with vinegar, mustard, oil, remaining teaspoon of salt, and some heavy grinds of black pepper.",
+    "When potatoes are cooked, immediately transfer to very large mixing bowl. Add the dressing slowly as you mix; the potatoes should gently break apart, which is a good thing. Serve warm or at room temperature."
+  ]
 }
