@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+<script>
+gon.current_brand="test_invalid"; gon.current_country="XX"; gon.api_token=" ".trim() || null; gon.api_host="http://api.marlarkey.invalid";
+</script>
+</html>

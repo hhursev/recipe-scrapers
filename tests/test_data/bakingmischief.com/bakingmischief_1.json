@@ -105,9 +105,9 @@
   "title": "Barbacoa Burrito Bowls",
   "total_time": 190,
   "yields": "4 servings",
+  "cook_time": 160,
+  "prep_time": 30,
   "keywords": [
     "Barbacoa Burrito Bowl"
-  ],
-  "cook_time": 160,
-  "prep_time": 30
+  ]
 }

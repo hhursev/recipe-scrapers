@@ -331,3 +331,12 @@ Returns the method of cooking the recipe.
 >>> scraper.cooking_method()
 'Stovetop'
 ```
+
+### `keywords() -> list`
+
+Returns a `list` of keywords associated with a recipe.
+
+```py
+>>> scraper.keywords()
+['easy', 'quick', 'dinner']
+```

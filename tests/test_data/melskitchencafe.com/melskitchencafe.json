@@ -57,6 +57,8 @@
   "title": "Licorice Caramels",
   "total_time": 150,
   "yields": "50 servings",
+  "cook_time": 20,
+  "prep_time": 130,
   "keywords": [
     "anise extract",
     "butter",
@@ -65,7 +67,5 @@
     "granulated sugar",
     "sweetened condensed milk",
     "vanilla extract"
-  ],
-  "cook_time": 20,
-  "prep_time": 130
+  ]
 }

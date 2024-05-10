@@ -68,6 +68,8 @@
   "title": "Minicheesecakes",
   "total_time": 90,
   "yields": "12 servings",
+  "cook_time": 50,
+  "prep_time": 40,
   "keywords": [
     "biscuits au beurre",
     "beurre",
@@ -82,7 +84,5 @@
     "farine",
     "myrtilles surgelées",
     "jus de citron"
-  ],
-  "cook_time": 50,
-  "prep_time": 40
+  ]
 }

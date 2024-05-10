@@ -1,12 +1,13 @@
 # mypy: disallow_untyped_defs=False
 import json
 import re
+from urllib.parse import urljoin
 
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
-from ._exceptions import ElementNotFoundInHtml
-from ._utils import normalize_string
+from ._exceptions import ElementNotFoundInHtml, RecipeScrapersExceptions
+from ._utils import get_host_name, normalize_string
 
 ID_PATTERN = re.compile(r"/(\d+)-")
 SCRIPT_PATTERN = re.compile(
@@ -64,6 +65,25 @@ class MarleySpoon(AbstractScraper):
 
         if api_url is None or api_token is None:
             raise ElementNotFoundInHtml("Required script not found.")
+
+        from . import SCRAPERS
+
+        scraper_name = self.__class__.__name__
+        try:
+            next_url = urljoin(self.url, api_url)
+            host_name = get_host_name(next_url)
+            next_scraper = type(None)
+            # check: api.foo.xx.example, foo.xx.example, xx.example
+            while host_name and host_name.count("."):
+                next_scraper = SCRAPERS.get(host_name)
+                if next_scraper:
+                    break
+                _, host_name = host_name.split(".", 1)
+            if not isinstance(self, next_scraper):
+                msg = f"Attempted to scrape using {next_scraper} from {scraper_name}"
+                raise ValueError(msg)
+        except Exception as e:
+            raise RecipeScrapersExceptions(f"Unexpected API URL: {api_url}") from e
 
         return api_url, api_token
 

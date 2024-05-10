@@ -86,6 +86,8 @@
   "total_time": 34.0,
   "yields": "4 servings",
   "cooking_method": "Double frying",
+  "cook_time": 14,
+  "prep_time": 20,
   "keywords": [
     "fried chicken with sweet sour sauce",
     "유린기",
@@ -96,7 +98,5 @@
     "Pepper fried chicken",
     "Sweet sour pepper fried chicken",
     "yuringi recipe"
-  ],
-  "cook_time": 14,
-  "prep_time": 20
+  ]
 }

@@ -87,6 +87,8 @@
   "title": "Jaffa Cake cheesecake",
   "total_time": 85,
   "yields": "10 servings",
+  "cook_time": 40,
+  "prep_time": 45,
   "keywords": [
     "baking",
     "dessert",
@@ -94,7 +96,5 @@
     "jaffa cake",
     "jaffa cake cheesecake",
     "chocolate orange cheesecake"
-  ],
-  "cook_time": 40,
-  "prep_time": 45
+  ]
 }

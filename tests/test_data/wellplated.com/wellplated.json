@@ -72,6 +72,8 @@
   "title": "Egg Fried Rice",
   "total_time": 25,
   "yields": "6 servings",
+  "cook_time": 15,
+  "prep_time": 10,
   "keywords": [
     "Asian fried rice recipe",
     "authentic homemade fried rice",
@@ -92,7 +94,5 @@
     "simple fried rice recipe",
     "simple homemade fried rice",
     "vegetable fried rice"
-  ],
-  "cook_time": 15,
-  "prep_time": 10
+  ]
 }
