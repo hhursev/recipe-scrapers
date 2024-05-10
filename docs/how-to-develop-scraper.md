@@ -171,7 +171,7 @@ The generated json file will look something like this, with only the host field 
 
 ```json
 {
-    "host": host_name,
+    "host": "<host>",
     "canonical_url": "",
     "site_name": "",
     "author": "",
