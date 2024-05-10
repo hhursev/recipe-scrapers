@@ -50,8 +50,5 @@ class JoCooks(AbstractScraper):
     def description(self):
         return self.schema.description()
 
-    def equipment(self):
-        return self.schema.equipment()
-
-    def cooking_method(self):
-        return self.schema.cooking_method()
+    def nutrients(self):
+        return self.schema.nutrients()
