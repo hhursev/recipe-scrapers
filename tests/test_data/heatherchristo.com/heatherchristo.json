@@ -1,10 +1,8 @@
 {
   "author": "Heather Christo",
   "canonical_url": "https://heatherchristo.com/2020/03/12/creamy-basil-mint-pesto-pasta-vegan-gluten-free/",
-  "site_name": "Heather Christo",
   "host": "heatherchristo.com",
-  "language": "en-US",
-  "title": "Creamy Basil Mint Pesto Pasta (Vegan and gluten-free)",
+  "image": "https://live.staticflickr.com/65535/49449778928_db1c8a3c47_b.jpg",
   "ingredients": [
     "2 cloves garlic",
     "2 cups packed fresh basil leaves",
@@ -40,9 +38,11 @@
     "In the still boiling water add the pasta and cook to al dente according to manufacturer's directions.",
     "Drain the pasta and rinse it with cold water. Add it back to the empty pot and add the pesto and toss to heat the pesto."
   ],
-  "yields": "4 servings",
+  "language": "en-US",
+  "site_name": "Heather Christo",
+  "title": "Creamy Basil Mint Pesto Pasta (Vegan and gluten-free)",
   "total_time": 20,
+  "yields": "4 servings",
   "cook_time": 10,
-  "prep_time": 10,
-  "image": "https://live.staticflickr.com/65535/49449778928_db1c8a3c47_b.jpg"
+  "prep_time": 10
 }

@@ -1,10 +1,9 @@
 {
   "author": "Lindsay Ostrom",
   "canonical_url": "https://pinchofyum.com/broccoli-cheese-soup",
-  "site_name": "Pinch of Yum",
   "host": "pinchofyum.com",
-  "language": "en-US",
-  "title": "Basic + Awesome Broccoli Cheese Soup",
+  "description": "This Broccoli Cheese Soup is easy, creamy, and a perfect cozy classic. A silky-smooth soup base, little bites of just-right broccoli and carrots, and some sharp creamy cheddar cheese to finish it off.",
+  "image": "https://pinchofyum.com/wp-content/uploads/Broccoli-Cheese-Soup-2-225x225.jpg",
   "ingredients": [
     "5 tablespoons butter, divided",
     "1 small onion, minced",
@@ -53,16 +52,22 @@
     "Add cheese",
     "Transfer the pot off of heat and allow to cool slightly for a few minutes. Stir in most of the cheese until melted. Serve in bowls with a little extra cheese + a hunk of crusty bread for dunking – and yes, it’s okay to cry tears of cozy joy! This is a happy moment!"
   ],
-  "category": "Soup",
-  "yields": "4 servings",
-  "description": "This Broccoli Cheese Soup is easy, creamy, and a perfect cozy classic. A silky-smooth soup base, little bites of just-right broccoli and carrots, and some sharp creamy cheddar cheese to finish it off.",
+  "language": "en-US",
+  "site_name": "Pinch of Yum",
+  "title": "Basic + Awesome Broccoli Cheese Soup",
   "total_time": 45,
-  "cook_time": 30,
-  "prep_time": 15,
-  "cuisine": "American",
+  "yields": "4 servings",
   "cooking_method": "Stovetop",
-  "ratings": 5.0,
-  "ratings_count": 2,
+  "keywords": [
+    "broccoli cheese soup",
+    "broccoli cheddar soup",
+    "soup season",
+    "broccoli cheddar",
+    "Panera broccoli cheese soup"
+  ],
+  "category": "Soup",
+  "cook_time": 30,
+  "cuisine": "American",
   "nutrients": {
     "calories": "375 calories",
     "sugarContent": "5.9 g",
@@ -75,12 +80,7 @@
     "proteinContent": "15.5 g",
     "cholesterolContent": "81 mg"
   },
-  "image": "https://pinchofyum.com/wp-content/uploads/Broccoli-Cheese-Soup-2-225x225.jpg",
-  "keywords": [
-    "broccoli cheese soup",
-    "broccoli cheddar soup",
-    "soup season",
-    "broccoli cheddar",
-    "Panera broccoli cheese soup"
-  ]
+  "prep_time": 15,
+  "ratings": 5.0,
+  "ratings_count": 2
 }

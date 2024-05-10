@@ -1,10 +1,9 @@
 {
   "author": "Leanna Aberle",
   "canonical_url": "https://aberlehome.com/homemade-sourdough-croissants/",
-  "site_name": "Aberle Home",
   "host": "aberlehome.com",
-  "language": "en-US",
-  "title": "Sourdough Croissants",
+  "description": "These hand-rolled sourdough croissants require simple ingredients and only two lamination folds after locking in the butter block. No stand mixer required! They are akin to what you would find at a bakery but with all the benefits of sourdough with a long fermentation.",
+  "image": "https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-480x480.jpg",
   "ingredients": [
     "115g active sourdough starter, 100% hydration",
     "36g sugar",
@@ -65,15 +64,23 @@
     "6. Bake one pan at a time on the center rack for 15-17 minutes, or until deeply golden brown. (Hold second pan in the fridge until you're ready to egg wash and bake if done proofing.)",
     "7. Place croissants on a cooling rack, and serve or store once they've cooled completely."
   ],
-  "category": "Sourdough Recipes",
-  "yields": "10 servings",
-  "description": "These hand-rolled sourdough croissants require simple ingredients and only two lamination folds after locking in the butter block. No stand mixer required! They are akin to what you would find at a bakery but with all the benefits of sourdough with a long fermentation.",
+  "language": "en-US",
+  "site_name": "Aberle Home",
+  "rating": 2,
+  "ratings_count": 54,
+  "title": "Sourdough Croissants",
   "total_time": 1335,
+  "yields": "10 servings",
+  "keywords": [
+    "sourdough croissants",
+    "sourdough croissant",
+    "homemade croissants",
+    "sourdough croissants no yeast"
+  ],
+  "category": "Sourdough Recipes",
   "cook_time": 15,
   "prep_time": 60,
   "cuisine": "French",
-  "ratings": 4.8,
-  "ratings_count": 54,
   "nutrients": {
     "calories": "288 calories",
     "carbohydrateContent": "52 grams carbohydrates",
@@ -88,11 +95,5 @@
     "transFatContent": "0 grams trans fat",
     "unsaturatedFatContent": "2 grams unsaturated fat"
   },
-  "image": "https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-480x480.jpg",
-  "keywords": [
-    "sourdough croissants",
-    "sourdough croissant",
-    "homemade croissants",
-    "sourdough croissants no yeast"
-  ]
+  "ratings": 4.8
 }

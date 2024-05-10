@@ -1,10 +1,9 @@
 {
   "author": "Sarah McInerney",
   "canonical_url": "https://www.womensweeklyfood.com.au/recipe/baking/classic-lamingtons-17017/",
-  "site_name": "Women's Weekly Food",
   "host": "womensweeklyfood.com.au",
-  "language": "en-AU",
-  "title": "Classic lamingtons",
+  "description": "It's a bit of a process but so, so worth it!",
+  "image": "https://i0.wp.com/www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2021/07/28/17017/HL1121D18-scaled.jpg?fit=2560%2C2133&ssl=1",
   "ingredients": [
     "4 eggs",
     "2/3 cup (150g) caster sugar",
@@ -51,9 +50,10 @@
     "Using a large fork, dip each piece of cake briefly into icing until cake is coated in icing. Hold over bowl to drain off any excess. Dip half the cake pieces in one bowl of icing and the other half in the second bowl of icing. (We have separated the icing into two bowls, as cake crumbs will thicken the icing and make it difficult to use.) If the icing becomes too thick, stand it over hot water while dipping, or reheat gently with a little more milk. If necessary, strain the icing into a clean bowl.",
     "Toss cake gently in coconut. Transfer cake to a wire rack; stand until set"
   ],
-  "yields": "10 servings",
-  "description": "It's a bit of a process but so, so worth it!",
+  "language": "en-AU",
+  "site_name": "Women's Weekly Food",
+  "title": "Classic lamingtons",
   "total_time": 60,
-  "cook_time": 60,
-  "image": "https://i0.wp.com/www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2021/07/28/17017/HL1121D18-scaled.jpg?fit=2560%2C2133&ssl=1"
+  "yields": "10 servings",
+  "cook_time": 60
 }

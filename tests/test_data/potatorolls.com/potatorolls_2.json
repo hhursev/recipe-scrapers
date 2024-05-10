@@ -1,17 +1,8 @@
 {
   "author": "Martin's Famous Potato Rolls and Bread",
   "canonical_url": "https://potatorolls.com/recipes/pineapple-upside-down-sticky-buns/",
-  "site_name": "Martin's Famous Potato Rolls and Bread",
   "host": "potatorolls.com",
-  "language": "en-US",
-  "title": "Pineapple Upside Down Sticky Buns",
-  "ingredients": [
-    "12 Martin’s Sweet Dinner Potato Rolls",
-    "½ Cup Butter",
-    "1 Cup Brown Sugar",
-    "1 20-Ounce Can Sliced Pineapple, drained",
-    "1 8-Ounce Jar Maraschino Cherries"
-  ],
+  "image": "https://potatorolls.com/wp-content/uploads/Upside-Down-Pineapple6-960x640.jpg",
   "ingredient_groups": [
     {
       "ingredients": [
@@ -23,6 +14,13 @@
       ],
       "purpose": null
     }
+  ],
+  "ingredients": [
+    "12 Martin’s Sweet Dinner Potato Rolls",
+    "½ Cup Butter",
+    "1 Cup Brown Sugar",
+    "1 20-Ounce Can Sliced Pineapple, drained",
+    "1 8-Ounce Jar Maraschino Cherries"
   ],
   "instructions": "Preheat oven to 350 F.\nGrease a 9” baking dish or pan. (A square springform pan works well.)\nPat slices of pineapple dry between sheets of paper towels.\nArrange pineapple slices evenly in bottom of pan.\nPlace a cherry in the center of each pineapple ring.\nIn a medium saucepan over medium heat, melt butter and brown sugar, stirring until sugar is dissolved.\nCarefully pour butter mixture over the pineapple and cherries.\nPlace Sweet Dinner Potato Rolls top-down on the pineapple and cherries.\nWith a knife, poke holes at the corners of the rolls.\nCover with foil and bake for 8-10 minutes.\nRemove from oven and allow to cool for 5 minutes.\nCarefully turn the pan upside down onto a serving platter.\nServe and enjoy!",
   "instructions_list": [
@@ -40,7 +38,9 @@
     "Carefully turn the pan upside down onto a serving platter.",
     "Serve and enjoy!"
   ],
+  "language": "en-US",
   "yields": "12 servings",
-  "total_time": 20,
-  "image": "https://potatorolls.com/wp-content/uploads/Upside-Down-Pineapple6-960x640.jpg"
+  "site_name": "Martin's Famous Potato Rolls and Bread",
+  "title": "Pineapple Upside Down Sticky Buns",
+  "total_time": 20
 }

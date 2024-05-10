@@ -1,22 +1,10 @@
 {
   "author": "Jessica",
   "canonical_url": "https://eattolerant.de/suppe/vegane-rotkohlsuppe-mit-kokosmilch-histaminarm-glutenfrei-low-carb/",
-  "site_name": "Eat Tolerant",
+  "category": "Hauptgericht",
+  "description": "",
   "host": "eattolerant.de",
-  "language": "de-DE",
-  "title": "Vegane Rotkohlsuppe mit Kokosmilch",
-  "ingredients": [
-    "500 g Rotkohl (Nettogewicht)",
-    "1 kleiner Apfel (z.B. Boskopp)",
-    "200 g Kartoffeln",
-    "1 Zwiebel",
-    "1 kleines Stück Ingwer",
-    "500 ml Gemüsebrühe",
-    "200 ml Kokosmilch",
-    "1 TL Zucker",
-    "20 ml Verjus Sauer",
-    "3 EL Kokosöl"
-  ],
+  "image": "https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg",
   "ingredient_groups": [
     {
       "ingredients": [
@@ -34,6 +22,18 @@
       "purpose": null
     }
   ],
+  "ingredients": [
+    "500 g Rotkohl (Nettogewicht)",
+    "1 kleiner Apfel (z.B. Boskopp)",
+    "200 g Kartoffeln",
+    "1 Zwiebel",
+    "1 kleines Stück Ingwer",
+    "500 ml Gemüsebrühe",
+    "200 ml Kokosmilch",
+    "1 TL Zucker",
+    "20 ml Verjus Sauer",
+    "3 EL Kokosöl"
+  ],
   "instructions": "Die äußeren Blätter vom Rotkohl entfernen, anschließend halbieren, großzügig den Strunk entfernen und in kleine Stücke schneiden.\nDen Apfel sowie die Kartoffeln waschen und schälen, ebenfalls in kleine Stücke schneiden.\nDie Zwiebel in Würfel schneiden und den Ingwer fein reiben.\nDas Kokosöl in einem Top erhitzen, anschließend die Zwiebel und den Rotkohl kurz darin anbraten. Währenddessen mit Salz würzen.\nDie Apfel- und Kartoffelstücke zugeben, ebenfalls kurz anbraten.\nDie Gemüsebrühe, Kokosmilch und den Ingwer zugeben und die Suppe ca. 25 Minuten köcheln lassen. Kurz vor Ende der Garzeit den Verjus sowie Zucker zugeben. Anschließend fein pürieren und sofort servieren.",
   "instructions_list": [
     "Die äußeren Blätter vom Rotkohl entfernen, anschließend halbieren, großzügig den Strunk entfernen und in kleine Stücke schneiden.",
@@ -43,10 +43,10 @@
     "Die Apfel- und Kartoffelstücke zugeben, ebenfalls kurz anbraten.",
     "Die Gemüsebrühe, Kokosmilch und den Ingwer zugeben und die Suppe ca. 25 Minuten köcheln lassen. Kurz vor Ende der Garzeit den Verjus sowie Zucker zugeben. Anschließend fein pürieren und sofort servieren."
   ],
-  "category": "Hauptgericht",
-  "yields": "2 servings",
-  "description": "",
+  "language": "de-DE",
+  "site_name": "Eat Tolerant",
+  "title": "Vegane Rotkohlsuppe mit Kokosmilch",
   "total_time": 40,
-  "cook_time": 40,
-  "image": "https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg"
+  "yields": "2 servings",
+  "cook_time": 40
 }

@@ -1,10 +1,9 @@
 {
   "author": "Melissa Johnson",
   "canonical_url": "https://breadtopia.com/kubaneh-jewish-yemeni-bread/",
-  "site_name": "Breadtopia",
   "host": "breadtopia.com",
-  "language": "en-US",
-  "title": "Kubaneh (Yemenite Jewish Bread)",
+  "description": "Kubaneh is an amazing Jewish Yemeni pull-apart bread consisting of multilayered rolls laminated with butter and nigella seeds. Both the yeast and sourdough versions are delicious and can be enjoyed at any meal and paired with sweet or savory foods. Traditionally, the bread is baked for Sabbath (Saturday) morning and served with boiled eggs, grated fresh tomatoes, and spicy zhoug sauce.",
+  "image": "https://breadtopia.com/wp-content/uploads/2020/08/20200616_173521sq-Copy-250x250.jpg",
   "ingredients": [
     "Yeast Version",
     "450g bread flour (scant 3 1/2 cups)",
@@ -105,16 +104,17 @@
     "Beat the egg yolk with a tablespoon of water and brush the top of the dough. Sprinkle with nigella seeds and bake for 30 minutes uncovered.",
     "Let the dough cool on a rack for about 20 minutes before you remove the outer ring of the pan. Serve on the base."
   ],
-  "category": "Recipes",
-  "yields": "12 servings",
-  "description": "Kubaneh is an amazing Jewish Yemeni pull-apart bread consisting of multilayered rolls laminated with butter and nigella seeds. Both the yeast and sourdough versions are delicious and can be enjoyed at any meal and paired with sweet or savory foods. Traditionally, the bread is baked for Sabbath (Saturday) morning and served with boiled eggs, grated fresh tomatoes, and spicy zhoug sauce.",
+  "language": "en-US",
+  "site_name": "Breadtopia",
+  "title": "Kubaneh (Yemenite Jewish Bread)",
   "total_time": 90,
-  "cook_time": 30,
-  "prep_time": 60,
-  "image": "https://breadtopia.com/wp-content/uploads/2020/08/20200616_173521sq-Copy-250x250.jpg",
+  "yields": "12 servings",
+  "category": "Recipes",
   "keywords": [
     "Bread",
     "Sourdough",
     "Yeast"
-  ]
+  ],
+  "cook_time": 30,
+  "prep_time": 60
 }

@@ -1,10 +1,9 @@
 {
   "author": "Marcel Ihnačák",
   "canonical_url": "kuchynalidla.sk",
-  "site_name": "Kuchyňa Lidla",
   "host": "kuchynalidla.sk",
-  "language": "sk",
-  "title": "Špízy z jahňacieho stehna so zeleninou a s mätovou salsou",
+  "description": "Špízy sú výbornou grilovanou pochúťkou, ktorú si ľahko pripravíte aj doma na panvici. Dôležitá je marináda a chutná príloha. Marcel si pre vás pripravil recept na špízy z jahňacieho stehna a doplnil ho mätovou salsou.",
+  "image": "https://kuchynalidla.sk/storage/app/uploads/public/65f/9dc/41c/65f9dc41c13a3718878451.jpg",
   "ingredients": [
     "1,5 kg jahňacieho stehna",
     "olivový olej Primadonna",
@@ -82,11 +81,12 @@
     "Servírovanie",
     "Pečené zemiaky servírujeme s opečeným špízom a salsou."
   ],
+  "language": "sk",
+  "site_name": "Kuchyňa Lidla",
   "category": "Hlavné jedlá",
-  "yields": "6 porcií",
-  "description": "Špízy sú výbornou grilovanou pochúťkou, ktorú si ľahko pripravíte aj doma na panvici. Dôležitá je marináda a chutná príloha. Marcel si pre vás pripravil recept na špízy z jahňacieho stehna a doplnil ho mätovou salsou.",
+  "title": "Špízy z jahňacieho stehna so zeleninou a s mätovou salsou",
   "total_time": 90,
   "cook_time": null,
   "prep_time": 90,
-  "image": "https://kuchynalidla.sk/storage/app/uploads/public/65f/9dc/41c/65f9dc41c13a3718878451.jpg"
+  "yields": "6 porcií"
 }
