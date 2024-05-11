@@ -18,6 +18,7 @@ from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
+from .allthehealthythings import AllTheHealthyThings
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
@@ -71,6 +72,7 @@ from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
+from .dinneratthezoo import DinnerAtTheZoo
 from .dishnz import Dishnz
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
@@ -87,6 +89,7 @@ from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
+from .evolvingtable import EvolvingTable
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
@@ -157,6 +160,7 @@ from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
 from .kptncook import KptnCook
+from .kristineskitchenblog import KristinesKitchenBlog
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
@@ -211,6 +215,7 @@ from .ohsheglows import OhSheGlows
 from .omnivorescookbook import OmnivoresCookbook
 from .onceuponachef import OnceUponAChef
 from .onehundredonecookbooks import OneHundredOneCookBooks
+from .onesweetappetite import OneSweetAppetite
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
@@ -341,6 +346,7 @@ SCRAPERS = {
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
     AllRecipes.host(): AllRecipes,
+    AllTheHealthyThings.host(): AllTheHealthyThings,
     AllTomat.host(): AllTomat,
     AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
@@ -395,9 +401,11 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    DinnerAtTheZoo.host(): DinnerAtTheZoo,
     Dishnz.host(): Dishnz,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
+    EvolvingTable.host(): EvolvingTable,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
@@ -406,6 +414,7 @@ SCRAPERS = {
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
     KitchenAidAustralia.host(): KitchenAidAustralia,
+    KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
     McCormick.host(): McCormick,
     Moulinex.host(): Moulinex,
@@ -413,6 +422,7 @@ SCRAPERS = {
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
     NutritionFacts.host(): NutritionFacts,
+    OneSweetAppetite.host(): OneSweetAppetite,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,

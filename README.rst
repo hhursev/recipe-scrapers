@@ -99,6 +99,7 @@ Scrapers available for:
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
+- `https://allthehealthythings.com/ <https://allthehealthythings.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
@@ -154,6 +155,7 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://dinneratthezoo.com/ <https://dinneratthezoo.com>`_
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
@@ -169,6 +171,7 @@ Scrapers available for:
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
+- `https://www.evolvingtable.com/ <https://www.evolvingtable.com/>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
@@ -243,6 +246,7 @@ Scrapers available for:
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://www.kptncook.com/ <https://www.kptncook.com>`_
+- `https://kristineskitchenblog.com/ <https://kristineskitchenblog.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -303,6 +307,7 @@ Scrapers available for:
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://www.onceuponachef.com <https://www.onceuponachef.com>`_
+- `https://onesweetappetite.com/ <https://onesweetappetite.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
