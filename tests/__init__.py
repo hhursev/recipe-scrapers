@@ -105,8 +105,6 @@ def test_func_factory(
         for key in OPTIONAL_TESTS:
             if key not in expect:
                 continue  # If the key isn't present, skip
-            if key == "ratings_count":
-                continue
             with self.subTest(key):
                 scraper_func = getattr(actual, key)
                 self.assertEqual(
@@ -114,12 +112,6 @@ def test_func_factory(
                     scraper_func(),
                     msg=f"The actual value for .{key}() did not match the expected value.",
                 )
-
-        # Special handling for ratings_count
-        if "ratings_count" in expect.keys():
-            with self.subTest("ratings_count"):
-                ratings_count = actual.ratings_count()
-                self.assertGreaterEqual(ratings_count, expect["ratings_count"])
 
         grouped = []
         for group in actual.ingredient_groups():
