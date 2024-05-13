@@ -52,3 +52,16 @@ class JoCooks(AbstractScraper):
 
     def nutrients(self):
         return self.schema.nutrients()
+
+    def equipment(self):
+        equipment_list = self.soup.find("ul", {"class": "wprm-recipe-equipment-list"})
+        if not equipment_list:
+            return None
+
+        equipment = []
+        for item in equipment_list.find_all(
+            "li", {"class": "wprm-recipe-equipment-item"}
+        ):
+            equipment.append(item.text)
+
+        return equipment
