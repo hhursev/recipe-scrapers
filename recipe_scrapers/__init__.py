@@ -48,6 +48,7 @@ from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
+from .cafedelites import CafeDelites
 from .carlsbadcravings import CarlsBadCravings
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
@@ -381,6 +382,7 @@ SCRAPERS = {
     Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
+    CafeDelites.host(): CafeDelites,
     CarlsBadCravings.host(): CarlsBadCravings,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
