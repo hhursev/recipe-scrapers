@@ -193,6 +193,7 @@ from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mob import Mob
 from .modernhoney import ModernHoney
+from .momontimeout import MomOnTimeout
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
@@ -425,6 +426,7 @@ SCRAPERS = {
     KuchynaLidla.host(): KuchynaLidla,
     McCormick.host(): McCormick,
     ModernHoney.host(): ModernHoney,
+    MomOnTimeout.host(): MomOnTimeout,
     Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
