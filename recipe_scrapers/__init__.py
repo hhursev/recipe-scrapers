@@ -205,6 +205,7 @@ from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .norecipes import NoRecipes
+from .notenoughcinnamon import NotEnoughCinnamon
 from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
 from .number2pencil import Number2Pencil
@@ -422,6 +423,7 @@ SCRAPERS = {
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
+    NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
     PinchOfYum.host(): PinchOfYum,
