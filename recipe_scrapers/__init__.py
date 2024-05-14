@@ -90,6 +90,7 @@ from .epicurious import Epicurious
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
 from .evolvingtable import EvolvingTable
+from .familyfoodonthetable import FamilyfoodOnTheTable
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
@@ -409,6 +410,7 @@ SCRAPERS = {
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
     EvolvingTable.host(): EvolvingTable,
+    FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
