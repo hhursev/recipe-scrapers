@@ -399,6 +399,7 @@ Scrapers available for:
 - `https://tudogostoso.com.br/ <https://www.tudogostoso.com.br/>`_
 - `https://twopeasandtheirpod.com/ <http://twopeasandtheirpod.com>`_
 - `https://uitpaulineskeuken.nl/ <https://uitpaulineskeuken.nl>`_
+- `https://unsophisticook.com/ <https://unsophisticook.com/>`_
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
