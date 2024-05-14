@@ -190,6 +190,7 @@ from .minimalistbaker import Minimalistbaker
 from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mob import Mob
+from .modernhoney import ModernHoney
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
@@ -419,6 +420,7 @@ SCRAPERS = {
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
     McCormick.host(): McCormick,
+    ModernHoney.host(): ModernHoney,
     Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
