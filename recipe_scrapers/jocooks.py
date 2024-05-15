@@ -2,6 +2,7 @@
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class JoCooks(AbstractScraper):
@@ -54,14 +55,8 @@ class JoCooks(AbstractScraper):
         return self.schema.nutrients()
 
     def equipment(self):
-        equipment_list = self.soup.find("ul", {"class": "wprm-recipe-equipment-list"})
-        if not equipment_list:
-            return None
-
-        equipment = []
-        for item in equipment_list.find_all(
-            "li", {"class": "wprm-recipe-equipment-item"}
-        ):
-            equipment.append(item.text)
-
-        return equipment
+        equipment_items = [
+            item.get_text()
+            for item in self.soup.find_all("li", class_="wprm-recipe-equipment-item")
+        ]
+        return get_equipment(equipment_items)
