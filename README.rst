@@ -130,6 +130,7 @@ Scrapers available for:
 - `https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
+- `https://cafedelites.com/ <https://cafedelites.com/>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
@@ -172,6 +173,7 @@ Scrapers available for:
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
 - `https://www.evolvingtable.com/ <https://www.evolvingtable.com/>`_
+- `https://www.familyfoodonthetable.com/ <https://www.familyfoodonthetable.com/>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
@@ -275,6 +277,7 @@ Scrapers available for:
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
 - `https://www.mccormick.com/ <https://www.mccormick.com/>`_
+- `https://www.modernhoney.com/ <https://www.modernhoney.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
@@ -285,6 +288,7 @@ Scrapers available for:
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
+- `https://www.momontimeout.com/ <https://www.momontimeout.com/>`_
 - `https://www.moulinex.fr/ <https://www.moulinex.fr/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
