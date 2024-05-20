@@ -158,6 +158,7 @@ Scrapers available for:
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
 - `https://dinneratthezoo.com/ <https://dinneratthezoo.com>`_
+- `https://dinnerthendessert.com/ <https://dinnerthendessert.com/>`_
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_

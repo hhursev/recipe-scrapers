@@ -75,6 +75,7 @@ from .damndelicious import DamnDelicious
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
 from .dinneratthezoo import DinnerAtTheZoo
+from .dinnerthendessert import DinnerThenDessert
 from .dishnz import Dishnz
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
@@ -412,6 +413,7 @@ SCRAPERS = {
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
     DinnerAtTheZoo.host(): DinnerAtTheZoo,
+    DinnerThenDessert.host(): DinnerThenDessert,
     Dishnz.host(): Dishnz,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
