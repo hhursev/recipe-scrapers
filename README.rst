@@ -399,6 +399,7 @@ Scrapers available for:
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_
+- `https://thesaltymarshmallow.com/ <https://thesaltymarshmallow.com/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
 - `https://therecipecritic.com/ <https://therecipecritic.com>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_

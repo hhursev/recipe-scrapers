@@ -309,6 +309,7 @@ from .themodernproper import TheModernProper
 from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
+from .thesaltymarshmallow import TheSaltyMarshmallow
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
@@ -456,6 +457,7 @@ SCRAPERS = {
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
     ThePalatableLife.host(): ThePalatableLife,
+    TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
