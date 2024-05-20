@@ -249,6 +249,7 @@ from .realfoodtesco import RealFoodTesco
 from .realsimple import RealSimple
 from .receitasnestlebr import ReceitasNestleBR
 from .recept import Recept
+from .recipegirl import RecipeGirl
 from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
@@ -442,6 +443,7 @@ SCRAPERS = {
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
+    RecipeGirl.host(): RecipeGirl,
     RicettePerBimby.host(): RicettePerBimby,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,

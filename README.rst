@@ -342,6 +342,7 @@ Scrapers available for:
 - `https://realsimple.com/ <https://www.realsimple.com>`_
 - `https://recept.se/ <https://recept.se/>`_
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
+- `https://www.recipegirl.com/ <https://www.recipegirl.com/>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
