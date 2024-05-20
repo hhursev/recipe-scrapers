@@ -267,6 +267,7 @@ from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
 from .saveur import Saveur
+from .savorynothings import SavoryNothings
 from .seriouseats import SeriousEats
 from .simpleveganista import SimpleVeganista
 from .simplycookit import SimplyCookit
@@ -452,6 +453,7 @@ SCRAPERS = {
     Recept.host(): Recept,
     RecipeGirl.host(): RecipeGirl,
     RicettePerBimby.host(): RicettePerBimby,
+    SavoryNothings.host(): SavoryNothings,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,
     TheCookieRookie.host(): TheCookieRookie,

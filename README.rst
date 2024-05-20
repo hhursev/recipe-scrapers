@@ -360,6 +360,7 @@ Scrapers available for:
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
+- `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
