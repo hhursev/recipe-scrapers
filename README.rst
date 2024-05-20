@@ -376,6 +376,7 @@ Scrapers available for:
 - `https://sweetcsdesigns.com/ <https://www.sweetcsdesigns.com/>`_
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
 - `https://www.tasteatlas.com/ <https://www.tasteatlas.com/>`_
+- `https://www.thecookierookie.com/ <hhttps://www.thecookierookie.com/>`_
 - `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
