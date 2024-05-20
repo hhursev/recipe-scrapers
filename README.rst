@@ -98,6 +98,7 @@ Scrapers available for:
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
+- `https://alexandracooks.com/ <https://alexandracooks.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://allthehealthythings.com/ <https://allthehealthythings.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
