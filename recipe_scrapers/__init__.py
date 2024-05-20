@@ -14,6 +14,7 @@ from .abuelascounter import AbuelasCounter
 from .acouplecooks import ACoupleCooks
 from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
+from .aflavorjournal import AFlavorJournal
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .alexandracooks import AlexandraCooks
@@ -349,6 +350,7 @@ from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
+    AFlavorJournal.host(): AFlavorJournal,
     ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
