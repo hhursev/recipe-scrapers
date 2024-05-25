@@ -61,6 +61,7 @@ then:
     scraper.equipment()  # not always available
     scraper.cooking_method()  # not always available
     scraper.keywords()  # not always available
+    scraper.dietary_restrictions() # not always available
 
 You also have an option to scrape html-like content
 
@@ -99,6 +100,7 @@ Scrapers available for:
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
+- `https://allthehealthythings.com/ <https://allthehealthythings.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
@@ -155,6 +157,7 @@ Scrapers available for:
 - `https://cybercook.com.br/ <https://cybercook.com.br/>`_
 - `https://www.davidlebovitz.com/ <https://www.davidlebovitz.com/>`_
 - `https://delish.com/ <https://delish.com>`_
+- `https://dinneratthezoo.com/ <https://dinneratthezoo.com>`_
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
@@ -171,10 +174,12 @@ Scrapers available for:
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
+- `https://www.evolvingtable.com/ <https://www.evolvingtable.com/>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
+- `https://felix.kitchen <https://felix.kitchen>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
 - `https://fitmencook.com/ <https://www.fitmencook.com>`_
@@ -239,6 +244,7 @@ Scrapers available for:
 - `https://kochbar.de/ <https://kochbar.de>`_
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
+- `https://kristineskitchenblog.com/ <https://kristineskitchenblog.com>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -294,6 +300,7 @@ Scrapers available for:
 - `https://ohsheglows.com/ <https://ohsheglows.com>`_
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://www.onceuponachef.com <https://www.onceuponachef.com>`_
+- `https://onesweetappetite.com/ <https://onesweetappetite.com>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
@@ -370,6 +377,7 @@ Scrapers available for:
 - `https://tasty.co <https://tasty.co>`_
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
+- `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_

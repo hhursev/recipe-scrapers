@@ -77,6 +77,9 @@
   "language": "en-US",
   "site_name": "Feasting At Home",
   "cooking_method": "stovetop",
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "keywords": [
     "tomato risotto",
     "vegetarian risotto",
