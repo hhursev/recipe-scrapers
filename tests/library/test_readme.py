@@ -23,51 +23,45 @@ def get_scraper_domains():
 
 
 def get_scraper_index() -> ScraperIndex:
-    scraper_index = {}
-    for scraper, domains in get_scraper_domains().items():
+    scraper_index: ScraperIndex = {}
+    for scraper_instance, domains in get_scraper_domains().items():
         shared_prefix = get_shared_prefix(domains)
 
         if not shared_prefix:
             # Treat all as primary domains
             for domain in domains:
-                scraper_index[domain] = (scraper, [domain])
+                scraper_index[domain] = (scraper_instance, [domain])
             continue
 
         # Index the primary domain and include their secondary domains minus the shared prefix
-        primary_domain = scraper.host()
-        scraper_index[primary_domain] = (
-            scraper,
-            [
-                (
-                    domain[len(shared_prefix) :]
-                    if domain.startswith(shared_prefix)
-                    else domain
-                )
-                for domain in domains
-                if domain != shared_prefix
-            ],
-        )
+        primary_domain = scraper_instance.host()
+        secondary_domains = [
+            domain[len(shared_prefix) :] if domain.startswith(shared_prefix) else domain
+            for domain in domains
+            if domain != shared_prefix
+        ]
+        scraper_index[primary_domain] = (scraper_instance, secondary_domains)
 
     # Produce the index sorted by primary domain name
     return scraper_index
 
 
-def get_shared_prefix(domains):
+def get_shared_prefix(domains: List[str]) -> str:
     """
     Find the longest-common-prefix of the domains
     """
-    shared_prefix = ""
-    while True:
-        if any(len(domain) == len(shared_prefix) for domain in domains):
-            break
-        next_char = domains[0][len(shared_prefix)]
-        if not all(domain.startswith(shared_prefix + next_char) for domain in domains):
-            break
-        shared_prefix += next_char
+    if not domains:
+        return ""
 
-    shared_prefix, _ = (
-        shared_prefix.rsplit(".", 1) if "." in shared_prefix else (shared_prefix, None)
-    )
+    shared_prefix = domains[0]
+    for domain in domains[1:]:
+        while not domain.startswith(shared_prefix):
+            shared_prefix = shared_prefix[:-1]
+            if not shared_prefix:
+                return ""
+
+    if "." in shared_prefix:
+        shared_prefix, _ = shared_prefix.rsplit(".", 1)
 
     return shared_prefix
 
@@ -84,20 +78,19 @@ def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
         r"^- `https?://(?:www\.)?([^/\s]+)[^<]*<https?://(?:www\.)?([^/\s]*)[^>]*>`_(?: \(\*\))?$",
         line,
     )
+    if match:
+        groups = match.groups()
+        if len(groups) == 2:
+            return groups
+    return None
 
-    if not match:
-        return None
 
-    return match.group(1), match.group(2)
-
-
-def parse_secondary_line(line: str):
-    matches = re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
-    return matches
+def parse_secondary_line(line: str) -> List[Tuple[str, str]]:
+    return re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
 
 
 def get_list_lines() -> List[str]:
-    list_lines = []
+    list_lines: List[str] = []
     with open("README.rst") as f:
         started_list = False
         for line in f:
@@ -149,7 +142,7 @@ class TestReadme(unittest.TestCase):
             secondary_hosts = get_secondary_domains(scraper_index, primary_host)
             if secondary_hosts:
                 current_line = lines[current_line_index]
-                parse_result = parse_secondary_line(lines[current_line_index])
+                parse_result = parse_secondary_line(current_line)
                 if not parse_result:
                     self.fail(f"Invalid line: {current_line}")
 
