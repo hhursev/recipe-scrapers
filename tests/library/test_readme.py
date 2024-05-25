@@ -114,14 +114,13 @@ class TestReadme(unittest.TestCase):
     def test_includes(self):
         scraper_index = get_scraper_index()
         primary_domains = sorted(scraper_index.keys())
-
         lines = get_list_lines()
-
         current_line_index = 0
+
         for primary_host in primary_domains:
             current_line = lines[current_line_index]
-
             parse_result = parse_primary_line(current_line)
+
             if not parse_result:
                 self.fail(f"Invalid line: {current_line}")
 
@@ -138,23 +137,23 @@ class TestReadme(unittest.TestCase):
             )
 
             current_line_index += 1
-
             secondary_hosts = get_secondary_domains(scraper_index, primary_host)
+
             if secondary_hosts:
                 current_line = lines[current_line_index]
                 parse_result = parse_secondary_line(current_line)
+
                 if not parse_result:
                     self.fail(f"Invalid line: {current_line}")
 
                 sorted_secondary_hosts = sorted(secondary_hosts)
                 for i, secondary_host in enumerate(sorted_secondary_hosts):
-                    if not parse_result or not parse_result[i]:
+                    if i >= len(parse_result):
                         self.fail(
                             f"Missing top level domain(s) for primary domain {primary_host}"
                         )
 
                     top_level_domain = parse_result[i][0]
-
                     self.assertEqual(
                         secondary_host,
                         top_level_domain,
