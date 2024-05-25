@@ -174,9 +174,9 @@ Scrapers available for:
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_
 - `https://epicurious.com/ <https://epicurious.com>`_
-- `https://www.evolvingtable.com/ <https://www.evolvingtable.com/>`_
 - `https://www.errenskitchen.com/ <https://www.errenskitchen.com/>`_
 - `https://ethanchlebowski.com/ <https://ethanchlebowski.com>`_
+- `https://www.evolvingtable.com/ <https://www.evolvingtable.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
 - `https://felix.kitchen <https://felix.kitchen>`_
