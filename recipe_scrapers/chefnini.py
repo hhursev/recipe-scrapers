@@ -19,6 +19,9 @@ class Chefnini(AbstractScraper):
     def category(self):
         return self.schema.category()
 
+    def total_time(self):
+        return None
+
     def yields(self):
         recipe_yields_text = self.soup.find(
             "h3", {"itemprop": "recipeYield"}

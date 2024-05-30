@@ -340,3 +340,12 @@ Returns a `list` of keywords associated with a recipe.
 >>> scraper.keywords()
 ['easy', 'quick', 'dinner']
 ```
+
+### `dietary_restrictions"() -> List[str] | None`
+
+Returns the dietary restrictions specified by the recipe.
+
+```py
+>>> scraper.dietary_restrictions()
+['Vegan Diet', 'Vegetarian Diet']
+```

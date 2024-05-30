@@ -35,6 +35,7 @@ OPTIONAL_TESTS = [
     "reviews",
     "equipment",
     "ratings_count",
+    "dietary_restrictions",
 ]
 
 

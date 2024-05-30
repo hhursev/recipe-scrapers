@@ -28,4 +28,10 @@ class USAPears(AbstractScraper):
         ]
 
     def ratings(self):
+        try:
+            ratings = self.schema.ratings()
+            if ratings > 0:
+                return ratings
+        except Exception:
+            pass
         return None
