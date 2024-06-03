@@ -1,9 +1,10 @@
 {
   "author": "Shannon Epstein",
   "canonical_url": "https://fitslowcookerqueen.com/slow-cooker-chicken-apples-honey/",
+  "site_name": "Fit Slow Cooker Queen",
   "host": "fitslowcookerqueen.com",
-  "description": "This slow cooker chicken with apples & honey recipe uses simple ingredients and will impress and crowd. Perfect for Rosh Hashanah, the end result of this crockpot chicken recipe is falling apart chicken & tender apples in a honey sauce. This sweet and savory dish will have your home in an irresistible aroma while it cooks, with minimal effort on your part. Instructions to make this High Holiday chicken recipe in the Instant Pot are also included.",
-  "image": "https://fitslowcookerqueen.com/wp-content/uploads/2019/08/VIDEO-Slow-CookerInstant-Pot-Chicken-with-Apples-Honey-Paleo-4-225x225.jpg",
+  "language": "en-US",
+  "title": "Crockpot Chicken with Apples And Honey",
   "ingredients": [
     "3 pounds chicken, any cut (see blog post) seasoned with salt & pepper",
     "1 large apple, diced",
@@ -53,12 +54,13 @@
     "Add chicken back into the Instant Pot. Add apples (and potatoes if using) on top.",
     "Close lid and seal valve. Set high pressure and cook 12 minutes. When cook time is complete, quick release the pressure."
   ],
-  "language": "en-US",
-  "site_name": "Fit Slow Cooker Queen",
-  "title": "Crockpot Chicken with Apples And Honey",
-  "total_time": 190,
   "yields": "4 servings",
+  "description": "This slow cooker chicken with apples & honey recipe uses simple ingredients and will impress and crowd. Perfect for Rosh Hashanah, the end result of this crockpot chicken recipe is falling apart chicken & tender apples in a honey sauce. This sweet and savory dish will have your home in an irresistible aroma while it cooks, with minimal effort on your part. Instructions to make this High Holiday chicken recipe in the Instant Pot are also included.",
+  "total_time": 190,
   "cook_time": 180,
+  "prep_time": 10,
+  "ratings": 5,
+  "ratings_count": 4,
   "nutrients": {
     "calories": "544 calories",
     "sugarContent": "36.2 g",
@@ -71,7 +73,5 @@
     "proteinContent": "55.6 g",
     "cholesterolContent": "165.5 mg"
   },
-  "prep_time": 10,
-  "ratings": 5,
-  "ratings_count": 4
+  "image": "https://fitslowcookerqueen.com/wp-content/uploads/2019/08/VIDEO-Slow-CookerInstant-Pot-Chicken-with-Apples-Honey-Paleo-4-225x225.jpg"
 }

@@ -1,8 +1,8 @@
 {
-  "host": "thecookierookie.com",
+  "author": "Becky Hardin",
   "canonical_url": "https://www.thecookierookie.com/salmon-with-avocado/",
   "site_name": "The Cookie Rookie®",
-  "author": "Becky Hardin",
+  "host": "thecookierookie.com",
   "language": "en-US",
   "title": "Grilled Salmon with Avocado Salsa Recipe",
   "ingredients": [
@@ -54,12 +54,15 @@
     "Grill the salmon to desired doneness (about 3-4 minutes per side).",
     "Top with avocado salsa and enjoy!"
   ],
-  "total_time": 10,
-  "prep_time": 5,
-  "cook_time": 5,
+  "category": "Main Course",
   "yields": "4 servings",
-  "image": "https://www.thecookierookie.com/wp-content/uploads/2014/01/featured-grilled-salmon-with-avocado-salsa-recipe.jpg",
   "description": "My favorite recipes are the ones that are easy, yet incredibly delicious. This healthy salmon recipe is not only one of the best salmon recipes I’ve tried, but it’s easy, delicious and good for you. That’s a grand-slam homerun recipe, in my book.Step-by-step photos can be seen below the recipe card.",
+  "total_time": 10,
+  "cook_time": 5,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 4.68,
+  "ratings_count": 331.0,
   "nutrients": {
     "calories": "456 kcal",
     "carbohydrateContent": "10 g",
@@ -73,14 +76,11 @@
     "servingSize": "1 fillet",
     "unsaturatedFatContent": "19 g"
   },
-  "cuisine": "American",
-  "category": "Main Course",
+  "image": "https://www.thecookierookie.com/wp-content/uploads/2014/01/featured-grilled-salmon-with-avocado-salsa-recipe.jpg",
   "keywords": [
     "grilled salmon",
     "healthy salmon",
     "healthy salmon recipe",
     "salmon with avocado"
-  ],
-  "ratings": 4.68,
-  "ratings_count": 331.0
+  ]
 }

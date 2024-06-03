@@ -1,8 +1,8 @@
 {
-  "host": "dinnerthendessert.com",
+  "author": "Sabrina Snyder",
   "canonical_url": "https://dinnerthendessert.com/sweet-spicy-honey-mustard-chicken/",
   "site_name": "Dinner, then Dessert",
-  "author": "Sabrina Snyder",
+  "host": "dinnerthendessert.com",
   "language": "en-US",
   "title": "Baked Sweet and Spicy Mustard Chicken",
   "ingredients": [
@@ -41,12 +41,13 @@
     "Add the chicken and and the marinade to the prepared dish, skin side up.",
     "Bake for 30 minutes, until the skin is crisp and the chicken is cooked through."
   ],
-  "total_time": 270,
-  "prep_time": 240,
-  "cook_time": 30,
+  "category": "Dinner",
   "yields": "5 servings",
-  "image": "https://dinnerthendessert.com/wp-content/uploads/2022/07/Baked-Sweet-and-Spicy-Honey-Chicken-1x1-1.jpg",
   "description": "Baked Sweet & Spicy Honey Mustard Chicken is an easy recipe for crispy chicken thighs marinated in hot honey, garlic, and Dijon mustard sauce.",
+  "total_time": 270,
+  "cook_time": 30,
+  "prep_time": 240,
+  "cuisine": "American",
   "nutrients": {
     "calories": "370 kcal",
     "carbohydrateContent": "13 g",
@@ -61,8 +62,7 @@
     "unsaturatedFatContent": "15 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Dinner",
+  "image": "https://dinnerthendessert.com/wp-content/uploads/2022/07/Baked-Sweet-and-Spicy-Honey-Chicken-1x1-1.jpg",
   "keywords": [
     "Baked Sweet & Spicy Honey Mustard Chicken",
     "sweet and spicy mustard chicken"

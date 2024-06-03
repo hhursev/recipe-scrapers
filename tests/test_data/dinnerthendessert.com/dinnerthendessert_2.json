@@ -1,8 +1,8 @@
 {
-  "host": "dinnerthendessert.com",
+  "author": "Sabrina Snyder",
   "canonical_url": "https://dinnerthendessert.com/corn-chowder-with-cornmeal-dumplings/",
   "site_name": "Dinner, then Dessert",
-  "author": "Sabrina Snyder",
+  "host": "dinnerthendessert.com",
   "language": "en-US",
   "title": "Corn Chowder with Cornmeal Dumplings",
   "ingredients": [
@@ -68,12 +68,13 @@
     "Cover the pot and let it simmer on medium-low for 20 minutes (no peeking).",
     "Test dumplings with a toothpick."
   ],
-  "total_time": 33,
-  "prep_time": 8,
-  "cook_time": 25,
+  "category": "Soup",
   "yields": "8 servings",
-  "image": "https://dinnerthendessert.com/wp-content/uploads/2022/02/Corn-Chowder-with-Cornmeal-Dumplings-12-1x1-1.jpg",
   "description": "Corn Chowder with Cornmeal Dumplings is the perfect creamy, hearty dish ready in around 30 minutes with corn, potatoes, and soft cornmeal dumplings.",
+  "total_time": 33,
+  "cook_time": 25,
+  "prep_time": 8,
+  "cuisine": "American",
   "nutrients": {
     "calories": "378 kcal",
     "carbohydrateContent": "46 g",
@@ -87,8 +88,7 @@
     "sugarContent": "5 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Soup",
+  "image": "https://dinnerthendessert.com/wp-content/uploads/2022/02/Corn-Chowder-with-Cornmeal-Dumplings-12-1x1-1.jpg",
   "keywords": [
     "Corn Chowder with Cornmeal dumplings"
   ]

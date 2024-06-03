@@ -1,8 +1,8 @@
 {
-  "host": "damndelicious.net",
+  "author": "Chungah @ Damn Delicious",
   "canonical_url": "https://damndelicious.net/2023/04/21/best-chicken-caesar-salad-with-homemade-croutons/",
   "site_name": "Damn Delicious",
-  "author": "Chungah @ Damn Delicious",
+  "host": "damndelicious.net",
   "language": "en-US",
   "title": "Best Chicken Caesar Salad with Homemade Croutons",
   "ingredients": [
@@ -87,12 +87,12 @@
     "for the salad",
     "To assemble the salad, place romaine in a large bowl; top with chicken and croutons. Pour the dressing on top of the salad and gently toss to combine. Top with Parmesan."
   ],
-  "total_time": 150,
-  "prep_time": 140,
-  "cook_time": 10,
   "yields": "4 servings",
-  "image": "https://s23209.pcdn.co/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051.jpg",
   "description": "Truly THE BEST ever. With crispy, seasoned croutons, grilled chicken and an easy dressing!",
+  "total_time": 150,
+  "cook_time": 10,
+  "prep_time": 140,
   "ratings": 5.0,
-  "ratings_count": 21.0
+  "ratings_count": 21.0,
+  "image": "https://s23209.pcdn.co/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051.jpg"
 }

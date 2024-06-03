@@ -1,8 +1,8 @@
 {
-  "host": "familyfoodonthetable.com",
+  "author": "Kathryn Doherty",
   "canonical_url": "https://www.familyfoodonthetable.com/creamy-tuscan-chicken/",
   "site_name": "Family Food on the Table",
-  "author": "Kathryn Doherty",
+  "host": "familyfoodonthetable.com",
   "language": "en-US",
   "title": "Creamy Tuscan Chicken",
   "ingredients": [
@@ -51,12 +51,15 @@
     "Bring to a simmer then stir in the Parmesan and cook for 2-3 minutes, until the sauce is slightly thickened. Add the spinach and stir to mix in and wilt.",
     "Return the chicken breasts to the pan, turn to coat in the sauce, then cook for 1 minute until everything is warmed through. Serve immediately."
   ],
-  "total_time": 30,
-  "prep_time": 5,
-  "cook_time": 25,
+  "category": "Chicken",
   "yields": "4 servings",
-  "image": "https://familyfoodonthetable.com/wp-content/uploads/2023/02/Creamy-Tuscan-chicken-1200-7-720x720.jpg",
   "description": "Creamy Tuscan chicken with chicken breasts, sun-dried tomatoes and spinach in a creamy Parmesan sauce is a delicious and impressive main dish that’s easy to make and ready in 30 minutes!",
+  "total_time": 30,
+  "cook_time": 25,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 2.0,
   "nutrients": {
     "calories": "766 calories",
     "carbohydrateContent": "14 grams carbohydrates",
@@ -71,11 +74,7 @@
     "transFatContent": "1 grams trans fat",
     "unsaturatedFatContent": "21 grams unsaturated fat"
   },
-  "cuisine": "American",
-  "category": "Chicken",
-  "dietary_restrictions": [
-    "Gluten Free Diet"
-  ],
+  "image": "https://familyfoodonthetable.com/wp-content/uploads/2023/02/Creamy-Tuscan-chicken-1200-7-720x720.jpg",
   "keywords": [
     "creamy Tuscan chicken",
     "Tuscan chicken",
@@ -84,7 +83,5 @@
     "recipes with heavy cream",
     "one skillet chicken dinners",
     "gluten free chicken dinners"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 2.0
+  ]
 }

@@ -1,9 +1,10 @@
 {
-  "host": "feastingathome.com",
+  "author": "Sylvia Fountaine | feasting at home",
   "canonical_url": "https://www.feastingathome.com/tomato-risotto/",
+  "site_name": "Feasting At Home",
+  "host": "feastingathome.com",
+  "language": "en-US",
   "title": "Tomato Risotto with Saffron",
-  "yields": "4 servings",
-  "image": "https://www.feastingathome.com/wp-content/uploads/2020/07/Tomato-Risotto_-20-225x225.jpg",
   "ingredients": [
     "1 lb cherry or grape tomatoes",
     "1 tablespoon olive oil",
@@ -66,26 +67,16 @@
     "Optional Seared Prawns:",
     "If adding the prawns, mix spices and salt in a bowl. Coat shrimp with the spices. Heat 2-3 tablespoons oil in a skillet (you may need to do this in batches) over medium-high heat, sear each side 2-3 minutes or until cooked through. Top the risotto with the seared prawns."
   ],
-  "ratings": 4.9,
-  "ratings_count": 35,
-  "cuisine": "Spanish",
+  "category": "vegetarian",
+  "yields": "4 servings",
   "description": "Tomato Risotto with juicy vine-ripened tomatoes, and infused with saffron, can be served as a vegetarian main or side dish, or topped off with smoky shrimp.",
   "total_time": 60,
   "cook_time": 45,
   "prep_time": 15,
-  "author": "Sylvia Fountaine | feasting at home",
-  "language": "en-US",
-  "site_name": "Feasting At Home",
+  "cuisine": "Spanish",
   "cooking_method": "stovetop",
-  "dietary_restrictions": [
-    "Vegetarian Diet"
-  ],
-  "keywords": [
-    "tomato risotto",
-    "vegetarian risotto",
-    "shrimp risotto"
-  ],
-  "category": "vegetarian",
+  "ratings": 4.9,
+  "ratings_count": 35,
   "nutrients": {
     "servingSize": "1 ½ cup serving without shrimp",
     "calories": "435 calories",
@@ -98,5 +89,11 @@
     "fiberContent": "2.8 g",
     "proteinContent": "9 g",
     "cholesterolContent": "11.2 mg"
-  }
+  },
+  "image": "https://www.feastingathome.com/wp-content/uploads/2020/07/Tomato-Risotto_-20-225x225.jpg",
+  "keywords": [
+    "tomato risotto",
+    "vegetarian risotto",
+    "shrimp risotto"
+  ]
 }

@@ -5,6 +5,14 @@
   "host": "kristineskitchenblog.com",
   "language": "en-US",
   "title": "Berry Smoothie",
+  "ingredients": [
+    "1 cup frozen strawberries",
+    "½ cup frozen raspberries",
+    "½ cup frozen blueberries",
+    "½ medium banana*",
+    "¼ cup plain Greek yogurt*",
+    "¾ cup unsweetened almond milk (or other nondairy or dairy milk)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -17,14 +25,6 @@
       ],
       "purpose": null
     }
-  ],
-  "ingredients": [
-    "1 cup frozen strawberries",
-    "½ cup frozen raspberries",
-    "½ cup frozen blueberries",
-    "½ medium banana*",
-    "¼ cup plain Greek yogurt*",
-    "¾ cup unsweetened almond milk (or other nondairy or dairy milk)"
   ],
   "instructions": "Place all ingredients in a blender and blend until smooth, starting with the blender on low speed and then gradually increasing the speed to fully blend the smoothie. If the smoothie is too thick, blend in a little bit more almond milk. Serve immediately.",
   "instructions_list": [
@@ -51,5 +51,8 @@
     "sugarContent": "26 g",
     "unsaturatedFatContent": "3 g"
   },
-  "image": "https://kristineskitchenblog.com/wp-content/uploads/2022/02/best-berry-smoothie-recipe-06.jpg"
+  "image": "https://kristineskitchenblog.com/wp-content/uploads/2022/02/best-berry-smoothie-recipe-06.jpg",
+  "keywords": [
+    "berry smoothie"
+  ]
 }

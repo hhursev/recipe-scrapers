@@ -1,8 +1,8 @@
 {
-  "host": "aflavorjournal.com",
+  "author": "Sara",
   "canonical_url": "https://aflavorjournal.com/salmon-kale-salad-with-greek-yogurt-caesar-dressing/",
   "site_name": "A Flavor Journal",
-  "author": "Sara",
+  "host": "aflavorjournal.com",
   "language": "en-US",
   "title": "Salmon Kale Salad with Greek Yogurt Caesar Dressing",
   "ingredients": [
@@ -84,12 +84,15 @@
     "Massage the Kale. Place the chopped kale leaves in a large bowl. Add 2 tsp. olive oil, 2 tsp. fresh lemon juice, and a pinch of salt. Use your hands to massage the kale for about a minute until it is tender.",
     "Build Your Salmon Kale Salads. Divide the massaged kale between two bowls, followed by the salmon filets, everything bagel croutons, sliced avocado, chopped red onions, and Greek yogurt Caesar dressing. Use a microplane to grate a little more Parmesan cheese over the salads, then serve."
   ],
-  "total_time": 35,
-  "prep_time": 20,
-  "cook_time": 15,
+  "category": "Salad",
   "yields": "2 servings",
-  "image": "https://aflavorjournal.com/wp-content/uploads/2024/02/Salmon-Kale-Salad-Ftd.jpg",
   "description": "A small batch recipe for two salmon kale salads with massaged kale, flavorful baked salmon, crunchy everything bagel croutons, and a creamy, garlicky Caesar dressing made with Greek yogurt.",
+  "total_time": 35,
+  "cook_time": 15,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1.0,
   "nutrients": {
     "servingSize": "1 salad",
     "calories": "665 kcal",
@@ -104,12 +107,9 @@
     "sugarContent": "5 g",
     "unsaturatedFatContent": "35 g"
   },
-  "cuisine": "American",
-  "category": "Salad",
+  "image": "https://aflavorjournal.com/wp-content/uploads/2024/02/Salmon-Kale-Salad-Ftd.jpg",
   "keywords": [
     "salmon caesar salad",
     "salmon kale salad"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 1.0
+  ]
 }

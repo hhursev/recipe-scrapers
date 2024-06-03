@@ -1,8 +1,8 @@
 {
-  "host": "savorynothings.com",
+  "author": "Nora",
   "canonical_url": "https://www.savorynothings.com/whole-wheat-cinnamon-crunch-banana-bread/",
   "site_name": "Savory Nothings",
-  "author": "Nora",
+  "host": "savorynothings.com",
   "language": "en-US",
   "title": "Whole Wheat Cinnamon Crunch Banana Bread",
   "ingredients": [
@@ -61,12 +61,22 @@
     "Assemble bread: Pour wet into dry ingredients and fold together just until flour is moistened (a few lumps are fine). Place the batter in the prepared loaf tin and evenly sprinkle with the crumb topping.",
     "Bake the banana bread: Bake for around 50-60 minutes, or until a toothpick inserted comes out clean. Cool in the pan for 10 minutes, then remove to a wire cooling tray to cool completely (remember to peel off the parchment paper, too!)"
   ],
-  "total_time": 75,
-  "prep_time": 15,
-  "cook_time": 60,
+  "category": "Breakfast",
   "yields": "12 servings",
-  "image": "https://www.savorynothings.com/wp-content/uploads/2019/08/cinnamon-crunch-banana-bread-image-sq.jpg",
   "description": "This is an easy banana bread with a delicious crumb topping and full of warm cinnamon flavors.",
+  "total_time": 75,
+  "cook_time": 60,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 4.58,
+  "ratings_count": 203.0,
+  "equipment": [
+    "5×9 inch loaf pan",
+    "Baking Parchment",
+    "Medium Mixing Bowl",
+    "whisk",
+    "spatula"
+  ],
   "nutrients": {
     "calories": "291 kcal",
     "carbohydrateContent": "44 g",
@@ -79,11 +89,7 @@
     "sugarContent": "23 g",
     "servingSize": "1 slice"
   },
-  "cuisine": "American",
-  "category": "Breakfast",
-  "dietary_restrictions": [
-    "Vegetarian Diet"
-  ],
+  "image": "https://www.savorynothings.com/wp-content/uploads/2019/08/cinnamon-crunch-banana-bread-image-sq.jpg",
   "keywords": [
     "banana",
     "banana bread",
@@ -91,14 +97,5 @@
     "quick bread",
     "whole wheat",
     "whole wheat banana bread"
-  ],
-  "equipment": [
-    "5×9 inch loaf pan",
-    "Baking Parchment",
-    "Medium Mixing Bowl",
-    "whisk",
-    "spatula"
-  ],
-  "ratings": 4.58,
-  "ratings_count": 203.0
+  ]
 }

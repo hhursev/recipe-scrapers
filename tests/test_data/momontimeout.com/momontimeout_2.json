@@ -1,8 +1,8 @@
 {
-  "host": "momontimeout.com",
+  "author": "Trish - Mom On Timeout",
   "canonical_url": "https://www.momontimeout.com/chocolate-caramel-christmas-wands-best-ever-holiday-kids-table/",
   "site_name": "Mom On Timeout",
-  "author": "Trish - Mom On Timeout",
+  "host": "momontimeout.com",
   "language": "en-US",
   "title": "Chocolate Caramel Christmas Wands",
   "ingredients": [
@@ -35,12 +35,15 @@
     "Dip pretzels into melted chocolate and tap off excess. Sprinkle on desired sprinkles and/or candy. Place on parchment paper to set up.",
     "For more tips on dipping, go here."
   ],
-  "total_time": 30,
-  "prep_time": 20,
-  "cook_time": 10,
+  "category": "Dessert",
   "yields": "20 servings",
-  "image": "https://www.momontimeout.com/wp-content/uploads/2014/12/chocolate-caramel-christmas-pretzel-wands-1.jpg",
   "description": "Chocolate Caramel Christmas Wands are a breeze to make and are perfectly festive! Great for gift giving, parties, and more!",
+  "total_time": 30,
+  "cook_time": 10,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 2.0,
   "nutrients": {
     "calories": "193 kcal",
     "carbohydrateContent": "29 g",
@@ -53,11 +56,8 @@
     "sugarContent": "26 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Dessert",
+  "image": "https://www.momontimeout.com/wp-content/uploads/2014/12/chocolate-caramel-christmas-pretzel-wands-1.jpg",
   "keywords": [
     "chocolate caramel christmas wands"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 2.0
+  ]
 }

@@ -1,8 +1,8 @@
 {
-  "host": "cafedelites.com",
+  "author": "Karina",
   "canonical_url": "https://cafedelites.com/easy-creamy-mashed-potatoes/",
   "site_name": "Cafe Delites",
-  "author": "Karina",
+  "host": "cafedelites.com",
   "language": "en-US",
   "title": "Easy Creamy Mashed Potatoes",
   "ingredients": [
@@ -41,12 +41,15 @@
     "Mash the potatoes with a potato masher until smooth, adding a little extra milk if needed. (OPTIONAL: Use a strong wooden spoon OR electric beaters to beat further until smooth. Be careful NOT to over beat or they will become gluey.)",
     "Add in the parmesan cheese. Season with salt and pepper to taste."
   ],
-  "total_time": 45,
-  "prep_time": 15,
-  "cook_time": 30,
+  "category": "Sides",
   "yields": "4 servings",
-  "image": "https://cafedelites.com/wp-content/uploads/2017/12/Easy-Creamy-Mashed-Potatoes-IMAGE-14.jpg",
   "description": "Easy Creamy Mashed Potatoes is the most loved and devoured side dish! The secret to this mash though is not an abundance of butter, but SOUR CREAM! Half butter, a good amount of sour cream and HOT MILK make the most perfect and best Creamy Mashed Potatoes!",
+  "total_time": 45,
+  "cook_time": 30,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 19.0,
   "nutrients": {
     "calories": "284 kcal",
     "carbohydrateContent": "17 g",
@@ -59,11 +62,8 @@
     "sugarContent": "1 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Sides",
+  "image": "https://cafedelites.com/wp-content/uploads/2017/12/Easy-Creamy-Mashed-Potatoes-IMAGE-14.jpg",
   "keywords": [
     "mashed potatoes"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 19.0
+  ]
 }
