@@ -1,0 +1,104 @@
+{
+  "host": "savorynothings.com",
+  "canonical_url": "https://www.savorynothings.com/whole-wheat-cinnamon-crunch-banana-bread/",
+  "site_name": "Savory Nothings",
+  "author": "Nora",
+  "language": "en-US",
+  "title": "Whole Wheat Cinnamon Crunch Banana Bread",
+  "ingredients": [
+    "2 large eggs",
+    "1 cup mashed bananas",
+    "¾ cup sugar (can reduce to 1/3 - 1/2 cup for a less sweet version)",
+    "⅓ cup oil",
+    "½ cup Greek yogurt",
+    "1 ¾ cups whole wheat flour (see notes for substitutes)",
+    "¼ cup cornstarch (or more whole wheat flour)",
+    "2 teaspoons ground cinnamon",
+    "1 ½ teaspoons baking powder",
+    "¼ teaspoon salt",
+    "½ cup flour (plain or whole wheat)",
+    "½ cup brown sugar",
+    "1 teaspoon cinnamon",
+    "¼ cup butter"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 large eggs",
+        "1 cup mashed bananas",
+        "¾ cup sugar (can reduce to 1/3 - 1/2 cup for a less sweet version)",
+        "⅓ cup oil",
+        "½ cup Greek yogurt"
+      ],
+      "purpose": "Wet Ingredients"
+    },
+    {
+      "ingredients": [
+        "1 ¾ cups whole wheat flour (see notes for substitutes)",
+        "¼ cup cornstarch (or more whole wheat flour)",
+        "2 teaspoons ground cinnamon",
+        "1 ½ teaspoons baking powder",
+        "¼ teaspoon salt"
+      ],
+      "purpose": "Dry Ingredients"
+    },
+    {
+      "ingredients": [
+        "½ cup flour (plain or whole wheat)",
+        "½ cup brown sugar",
+        "1 teaspoon cinnamon",
+        "¼ cup butter"
+      ],
+      "purpose": "For the Crumb Topping"
+    }
+  ],
+  "instructions": "Prep: Heat the oven to 360°F. Grease and line a 9x5 inch loaf pan.\nMake topping: For the crumb topping, place the flour, brown sugar and cinnamon in a medium bowl. Rub in the butter with your fingertips until crumbs form. Refrigerate until ready to use.\nCombine dry ingredients: Add all dry ingredients to a large mixing bowl. Stir together until well combined.\nCombine wet ingredients: Stir together all wet ingredients in a separate large measuring jug until well combined.\nAssemble bread: Pour wet into dry ingredients and fold together just until flour is moistened (a few lumps are fine). Place the batter in the prepared loaf tin and evenly sprinkle with the crumb topping.\nBake the banana bread: Bake for around 50-60 minutes, or until a toothpick inserted comes out clean. Cool in the pan for 10 minutes, then remove to a wire cooling tray to cool completely (remember to peel off the parchment paper, too!)",
+  "instructions_list": [
+    "Prep: Heat the oven to 360°F. Grease and line a 9x5 inch loaf pan.",
+    "Make topping: For the crumb topping, place the flour, brown sugar and cinnamon in a medium bowl. Rub in the butter with your fingertips until crumbs form. Refrigerate until ready to use.",
+    "Combine dry ingredients: Add all dry ingredients to a large mixing bowl. Stir together until well combined.",
+    "Combine wet ingredients: Stir together all wet ingredients in a separate large measuring jug until well combined.",
+    "Assemble bread: Pour wet into dry ingredients and fold together just until flour is moistened (a few lumps are fine). Place the batter in the prepared loaf tin and evenly sprinkle with the crumb topping.",
+    "Bake the banana bread: Bake for around 50-60 minutes, or until a toothpick inserted comes out clean. Cool in the pan for 10 minutes, then remove to a wire cooling tray to cool completely (remember to peel off the parchment paper, too!)"
+  ],
+  "total_time": 75,
+  "prep_time": 15,
+  "cook_time": 60,
+  "yields": "12 servings",
+  "image": "https://www.savorynothings.com/wp-content/uploads/2019/08/cinnamon-crunch-banana-bread-image-sq.jpg",
+  "description": "This is an easy banana bread with a delicious crumb topping and full of warm cinnamon flavors.",
+  "nutrients": {
+    "calories": "291 kcal",
+    "carbohydrateContent": "44 g",
+    "proteinContent": "4 g",
+    "fatContent": "11 g",
+    "saturatedFatContent": "3 g",
+    "cholesterolContent": "37 mg",
+    "sodiumContent": "100 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "23 g",
+    "servingSize": "1 slice"
+  },
+  "cuisine": "American",
+  "category": "Breakfast",
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
+  "keywords": [
+    "banana",
+    "banana bread",
+    "cinnamon",
+    "quick bread",
+    "whole wheat",
+    "whole wheat banana bread"
+  ],
+  "equipment": [
+    "5×9 inch loaf pan",
+    "Baking Parchment",
+    "Medium Mixing Bowl",
+    "whisk",
+    "spatula"
+  ],
+  "ratings": 4.58,
+  "ratings_count": 203.0
+}
