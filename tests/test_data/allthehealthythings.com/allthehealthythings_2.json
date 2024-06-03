@@ -32,6 +32,7 @@
   "total_time": 5,
   "prep_time": 5,
   "cuisine": "American",
+  "cooking_method": "No Cook",
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
@@ -47,7 +48,6 @@
     "cholesterolContent": "18.5 mg"
   },
   "image": "https://allthehealthythings.com/wp-content/uploads/2021/06/triple-berry-smoothie-4-1-225x225.jpg",
-  "cooking_method": "No Cook",
   "keywords": [
     "mixed berry smoothie",
     "mixed berry smoothie recipe",

@@ -97,7 +97,7 @@
   "prep_time": 20,
   "cuisine": "Asian,Korean",
   "ratings": 4.88,
-  "image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Korean-Fried-Chicken-square-FS-New-7377.jpg",
+  "ratings_count": 82,
   "nutrients": {
     "calories": "814 kcal",
     "carbohydrateContent": "66 g",
@@ -110,10 +110,10 @@
     "sugarContent": "25 g",
     "servingSize": "1 serving"
   },
+  "image": "https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Korean-Fried-Chicken-square-FS-New-7377.jpg",
   "keywords": [
     "better than takeout",
     "Fakeaway",
     "spicy"
-  ],
-  "ratings_count": 82
+  ]
 }

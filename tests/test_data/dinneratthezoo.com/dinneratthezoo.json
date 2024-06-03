@@ -48,7 +48,9 @@
   "total_time": 30,
   "cook_time": 10,
   "prep_time": 5,
+  "cuisine": "American",
   "ratings": 5.0,
+  "ratings_count": 31,
   "nutrients": {
     "calories": "206 kcal",
     "cholesterolContent": "285 mg",
@@ -61,7 +63,5 @@
   "image": "https://www.dinneratthezoo.com/wp-content/uploads/2021/03/grilled-scallops-final-2.jpg",
   "keywords": [
     "grilled scallops"
-  ],
-  "cuisine": "American",
-  "ratings_count": 31
+  ]
 }
