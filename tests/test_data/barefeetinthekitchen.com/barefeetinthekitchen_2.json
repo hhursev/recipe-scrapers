@@ -1,0 +1,78 @@
+{
+  "host": "barefeetinthekitchen.com",
+  "canonical_url": "https://barefeetinthekitchen.com/spinach-orzo-salad/",
+  "site_name": "Barefeet in the Kitchen",
+  "author": "Mary Younkin",
+  "language": "en-US",
+  "title": "Spinach Orzo Salad with Cranberries and Goat Cheese",
+  "ingredients": [
+    "½ tablespoon light olive oil",
+    "8 ounces orzo pasta",
+    "4 cups fresh baby spinach, roughly chopped",
+    "½ cup sliced almonds",
+    "½ cup Craisins or dried cranberries",
+    "2-4 ounces goat cheese, crumbled",
+    "Optional: 2 cups cooked chicken, chopped bite-size",
+    "¼ cup olive oil, divided",
+    "3 tablespoons white balsamic or champagne vinegar",
+    "1 tablespoon honey",
+    "½ teaspoon kosher salt",
+    "¼ teaspoon freshly ground black pepper"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "½ tablespoon light olive oil",
+        "8 ounces orzo pasta",
+        "4 cups fresh baby spinach, roughly chopped",
+        "½ cup sliced almonds",
+        "½ cup Craisins or dried cranberries",
+        "2-4 ounces goat cheese, crumbled",
+        "Optional: 2 cups cooked chicken, chopped bite-size"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "¼ cup olive oil, divided",
+        "3 tablespoons white balsamic or champagne vinegar",
+        "1 tablespoon honey",
+        "½ teaspoon kosher salt",
+        "¼ teaspoon freshly ground black pepper"
+      ],
+      "purpose": "Dressing Ingredients"
+    }
+  ],
+  "instructions": "Toast the orzo in ½ tablespoon oil over medium heat, about 5 minutes, until golden brown. Add 4 cups water, and bring to a boil. Reduce to simmer, and cover with a lid for 7-8 minutes. Drain any liquid and fluff with a fork.\nPlace the spinach in a large mixing bowl. Add the cooked orzo, cranberries, almonds, and cooked chicken - if desired.\nIn a small bowl or large measuring cup, combine the oil, vinegar, honey, salt, and pepper. Whisk to combine. Pour the dressing over the salad and toss well to coat.\nTop with goat cheese and toss lightly. Serve immediately or store in the refrigerator for up to 2 days.",
+  "instructions_list": [
+    "Toast the orzo in ½ tablespoon oil over medium heat, about 5 minutes, until golden brown. Add 4 cups water, and bring to a boil. Reduce to simmer, and cover with a lid for 7-8 minutes. Drain any liquid and fluff with a fork.",
+    "Place the spinach in a large mixing bowl. Add the cooked orzo, cranberries, almonds, and cooked chicken - if desired.",
+    "In a small bowl or large measuring cup, combine the oil, vinegar, honey, salt, and pepper. Whisk to combine. Pour the dressing over the salad and toss well to coat.",
+    "Top with goat cheese and toss lightly. Serve immediately or store in the refrigerator for up to 2 days."
+  ],
+  "total_time": 25,
+  "prep_time": 5,
+  "cook_time": 20,
+  "yields": "6 servings",
+  "image": "https://barefeetinthekitchen.com/wp-content/uploads/2019/04/Spinach-Orzo-Salad-BFK-3-1-of-1.jpg",
+  "description": "Spinach Orzo Salad is filled with cranberries, creamy goat cheese, tender pasta, and plenty of fresh spinach tossed in a tangy sweet dressing.",
+  "nutrients": {
+    "calories": "415 kcal",
+    "carbohydrateContent": "43 g",
+    "proteinContent": "16 g",
+    "fatContent": "20 g",
+    "saturatedFatContent": "3 g",
+    "cholesterolContent": "40 mg",
+    "sodiumContent": "476 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "12 g",
+    "servingSize": "1 serving"
+  },
+  "cuisine": "American",
+  "category": "Main Course,Salad",
+  "keywords": [
+    "Spinach Orzo Salad"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 17.0
+}
