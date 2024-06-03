@@ -1,8 +1,8 @@
 {
-  "host": "foodnetwork.co.uk",
+  "author": "Food Network UK",
   "canonical_url": "https://foodnetwork.co.uk/recipes/tuscan-mushrooms-5389",
   "site_name": null,
-  "author": "Food Network UK",
+  "host": "foodnetwork.co.uk",
   "language": "en",
   "title": "Tuscan mushrooms",
   "ingredients": [
@@ -33,13 +33,13 @@
     }
   ],
   "instructions": "",
-  "total_time": 30,
-  "prep_time": 10,
-  "cook_time": 20,
-  "yields": "4 servings",
-  "image": "https://d2vsf1hynzxim7.cloudfront.net/production/media/21503/conversions/foodnetwork-image-9b081a76-feaf-4b63-baea-077714959bc7-default.webp",
-  "description": "Stuff these mushrooms with roasted red peppers and olives.",
-  "cuisine": "Italian",
+  "instructions_list": [],
   "category": null,
-  "instructions_list": []
+  "yields": "4 servings",
+  "description": "Stuff these mushrooms with roasted red peppers and olives.",
+  "total_time": 30,
+  "cook_time": 20,
+  "prep_time": 10,
+  "cuisine": "Italian",
+  "image": "https://d2vsf1hynzxim7.cloudfront.net/production/media/21503/conversions/foodnetwork-image-9b081a76-feaf-4b63-baea-077714959bc7-default.webp"
 }

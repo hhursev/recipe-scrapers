@@ -1,8 +1,8 @@
 {
-  "host": "weightwatchers.com",
+  "author": null,
   "canonical_url": "https://www.weightwatchers.com/de/rezept/kartoffelgulasch/562a9b02873e1afb2a3c4c13",
   "site_name": null,
-  "author": null,
+  "host": "weightwatchers.com",
   "language": "en",
   "title": "Kartoffelgulasch",
   "ingredients": [
@@ -47,15 +47,20 @@
     }
   ],
   "instructions": "Kartoffeln und Zwiebeln schälen. Kartoffeln würfeln und Zwiebeln in Streifen schneiden. Paprika waschen, entkernen und in Stücke schneiden. Tomaten waschen und in Spalten schneiden. Würstchen in Scheiben schneiden.\nÖl in einem Topf erhitzen, Kartoffelwürfel und Zwiebelstreifen darin ca. 5 Minuten anbraten. Paprikastücke zufügen, Tomatenmark einrühren und kurz mitbraten. Mit Brühe ablöschen und zugedeckt ca. 15 Minuten garen.\nKartoffelgulasch mit Oregano, Paprikapulver, Salz und Pfeffer würzen. Würstchenscheiben und Tomatenspalten zufügen und weitere ca. 5 Minuten garen. Kartoffelgulasch mit Salz und Pfeffer abschmecken. Mit einem Klecks Schmand und Petersilie bestreut servieren.",
-  "total_time": 40,
-  "prep_time": 40,
-  "cook_time": null,
+  "instructions_list": [
+    "Kartoffeln und Zwiebeln schälen. Kartoffeln würfeln und Zwiebeln in Streifen schneiden. Paprika waschen, entkernen und in Stücke schneiden. Tomaten waschen und in Spalten schneiden. Würstchen in Scheiben schneiden.",
+    "Öl in einem Topf erhitzen, Kartoffelwürfel und Zwiebelstreifen darin ca. 5 Minuten anbraten. Paprikastücke zufügen, Tomatenmark einrühren und kurz mitbraten. Mit Brühe ablöschen und zugedeckt ca. 15 Minuten garen.",
+    "Kartoffelgulasch mit Oregano, Paprikapulver, Salz und Pfeffer würzen. Würstchenscheiben und Tomatenspalten zufügen und weitere ca. 5 Minuten garen. Kartoffelgulasch mit Salz und Pfeffer abschmecken. Mit einem Klecks Schmand und Petersilie bestreut servieren."
+  ],
   "yields": "4 servings",
-  "image": "https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/t_WINE_EXTRALARGE/h7wo0hbnwcleucj30sbw.jpg",
   "description": "Das Rezept zaubert ein saftiges, würziges Gericht auf den Tisch und schmeckt garantiert.",
+  "total_time": 40,
+  "cook_time": null,
+  "prep_time": 40,
   "nutrients": {
     "calories": "137 kcal"
   },
+  "image": "https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/t_WINE_EXTRALARGE/h7wo0hbnwcleucj30sbw.jpg",
   "keywords": [
     "Ohne Meeresfrüchte",
     "Ohne Fisch",
@@ -64,10 +69,5 @@
     "Kochen & Braten",
     "Aus einem Topf",
     "Eintöpfe & Suppen"
-  ],
-  "instructions_list": [
-    "Kartoffeln und Zwiebeln schälen. Kartoffeln würfeln und Zwiebeln in Streifen schneiden. Paprika waschen, entkernen und in Stücke schneiden. Tomaten waschen und in Spalten schneiden. Würstchen in Scheiben schneiden.",
-    "Öl in einem Topf erhitzen, Kartoffelwürfel und Zwiebelstreifen darin ca. 5 Minuten anbraten. Paprikastücke zufügen, Tomatenmark einrühren und kurz mitbraten. Mit Brühe ablöschen und zugedeckt ca. 15 Minuten garen.",
-    "Kartoffelgulasch mit Oregano, Paprikapulver, Salz und Pfeffer würzen. Würstchenscheiben und Tomatenspalten zufügen und weitere ca. 5 Minuten garen. Kartoffelgulasch mit Salz und Pfeffer abschmecken. Mit einem Klecks Schmand und Petersilie bestreut servieren."
   ]
 }

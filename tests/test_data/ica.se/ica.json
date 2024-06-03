@@ -1,8 +1,8 @@
 {
-  "host": "ica.se",
+  "author": "ICA Köket",
   "canonical_url": "https://www.ica.se/recept/lysande-gul-fiskgryta-1677/",
   "site_name": "ICA.se",
-  "author": "ICA Köket",
+  "host": "ica.se",
   "language": "sv",
   "title": "Lysande gul fiskgryta",
   "ingredients": [
@@ -53,21 +53,6 @@
     }
   ],
   "instructions": "Tina fisken (om fryst används). Skölj, ansa och strimla purjon. Skala och hacka löken.\nSmält smöret i en stor gryta eller tjockbottnad kastrull. Fräs löken och purjolöken (spara lite till servering) ett par minuter tills de blivit glansiga och genomskinliga. Pressa i vitlök. Rör ner tomatpuré, timjan och basilika. Låt detta fräsa med en kort stund.\nTillsätt vin och buljongtärning. Koka ett par minuter. Rör ner grädde, fraiche, vatten och saffran. Sjud i 15 minuter. Smaka av med salt.\nSkär fisken i munsbitar, lägg i grytan och sjud i ytterligare 7 minuter.\nSkala räkorna. Tillsätt dem och de avrunna musslorna. Toppa soppan med purjolöksstrimlor.\nServeringsförslag: Hetta upp och servera genast, gärna med bröd och vitlöksmajonnäs.",
-  "total_time": 45,
-  "yields": "4 servings",
-  "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243155/cf_259/lysande_gul_fiskgryta.jpg",
-  "description": "Denna fiskgryta får sin lysande solgula färg och ljuvliga smak av saffran, vitlök och tomatpuré. Grytan blir matig och mättande med lax, torsk, räkor och musslor och passar perfekt att bjuda på till en lite festligare middag med eller utan gäster.",
-  "nutrients": {
-    "servingSize": "4 Servings",
-    "calories": "662 calories",
-    "fatContent": "43 g",
-    "carbohydrateContent": "20 g",
-    "proteinContent": "47 g"
-  },
-  "category": "Huvudrätt,Middag",
-  "cooking_method": "Kokt,I gryta",
-  "ratings": 4.5,
-  "ratings_count": 1262,
   "instructions_list": [
     "Tina fisken (om fryst används). Skölj, ansa och strimla purjon. Skala och hacka löken.",
     "Smält smöret i en stor gryta eller tjockbottnad kastrull. Fräs löken och purjolöken (spara lite till servering) ett par minuter tills de blivit glansiga och genomskinliga. Pressa i vitlök. Rör ner tomatpuré, timjan och basilika. Låt detta fräsa med en kort stund.",
@@ -75,5 +60,20 @@
     "Skär fisken i munsbitar, lägg i grytan och sjud i ytterligare 7 minuter.",
     "Skala räkorna. Tillsätt dem och de avrunna musslorna. Toppa soppan med purjolöksstrimlor.",
     "Serveringsförslag: Hetta upp och servera genast, gärna med bröd och vitlöksmajonnäs."
-  ]
+  ],
+  "category": "Huvudrätt,Middag",
+  "yields": "4 servings",
+  "description": "Denna fiskgryta får sin lysande solgula färg och ljuvliga smak av saffran, vitlök och tomatpuré. Grytan blir matig och mättande med lax, torsk, räkor och musslor och passar perfekt att bjuda på till en lite festligare middag med eller utan gäster.",
+  "total_time": 45,
+  "cooking_method": "Kokt,I gryta",
+  "ratings": 4.5,
+  "ratings_count": 1262,
+  "nutrients": {
+    "servingSize": "4 Servings",
+    "calories": "662 calories",
+    "fatContent": "43 g",
+    "carbohydrateContent": "20 g",
+    "proteinContent": "47 g"
+  },
+  "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243155/cf_259/lysande_gul_fiskgryta.jpg"
 }

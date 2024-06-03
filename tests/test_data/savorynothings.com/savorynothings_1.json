@@ -1,8 +1,8 @@
 {
-  "host": "savorynothings.com",
+  "author": "Nora",
   "canonical_url": "https://www.savorynothings.com/chewy-chocolate-crinkle-cookies/",
   "site_name": "Savory Nothings",
-  "author": "Nora",
+  "host": "savorynothings.com",
   "language": "en-US",
   "title": "Chewy Chocolate Crinkle Cookies",
   "ingredients": [
@@ -44,24 +44,24 @@
     "Roll cookies: When ready to bake, preheat the oven to 350°F. Place the powdered sugar in a medium bowl. Roll the dough into tablespoon-sized balls and cover them well with the sugar.",
     "Bake cookies: Place on a lined baking sheet with enough space between them (bake in batches) and bake for 10-15 minutes, or until spread and crackled. Cookies will still be soft, so let them cool on the baking sheet for 5 minutes before removing them to a cooling rack to cool completely."
   ],
-  "total_time": 105,
-  "prep_time": 15,
-  "cook_time": 30,
-  "yields": "32 servings",
-  "image": "https://www.savorynothings.com/wp-content/uploads/2018/12/chewy-chocolate-crinkle-cookies-image-hero.jpg",
-  "description": "Try these soft and chewy Chocolate Crinkle Cookies for Christmas this year - my simple recipe makes these the best easy treat for your holiday baking!",
-  "nutrients": {},
-  "cuisine": "American",
   "category": "Dessert",
-  "keywords": [
-    "chocolate",
-    "christmas",
-    "cookies"
-  ],
+  "yields": "32 servings",
+  "description": "Try these soft and chewy Chocolate Crinkle Cookies for Christmas this year - my simple recipe makes these the best easy treat for your holiday baking!",
+  "total_time": 105,
+  "cook_time": 30,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 4.8,
+  "ratings_count": 387.0,
   "equipment": [
     "Cookie Scoop",
     "Baking Sheet"
   ],
-  "ratings": 4.8,
-  "ratings_count": 387.0
+  "nutrients": {},
+  "image": "https://www.savorynothings.com/wp-content/uploads/2018/12/chewy-chocolate-crinkle-cookies-image-hero.jpg",
+  "keywords": [
+    "chocolate",
+    "christmas",
+    "cookies"
+  ]
 }

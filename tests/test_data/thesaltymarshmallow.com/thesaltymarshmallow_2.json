@@ -1,8 +1,8 @@
 {
-  "host": "thesaltymarshmallow.com",
+  "author": "Nichole",
   "canonical_url": "https://thesaltymarshmallow.com/chocolate-cream-pie/",
   "site_name": "The Salty Marshmallow",
-  "author": "Nichole",
+  "host": "thesaltymarshmallow.com",
   "language": "en-US",
   "title": "Chocolate Cream Pie",
   "ingredients": [
@@ -61,14 +61,14 @@
     "Right before serving, whip the heavy cream and powdered sugar together in a medium bowl until stiff peaks form.",
     "Spread it all over the pie before serving with shaved chocolate for garnish if desired."
   ],
-  "total_time": 280,
-  "prep_time": 20,
-  "cook_time": 20,
-  "yields": "8 servings",
-  "image": "https://thesaltymarshmallow.com/wp-content/uploads/2023/11/chocolate-cream-pie2.jpg",
-  "description": "Chocolate Cream Pie is a delicious and decadent dessert you’ll want to dive right into. Homemade chocolate pudding sits atop an oreo cookie crust and is generously topped with homemade whipped cream. This is a chocolate lovers dream!",
-  "cuisine": "American",
   "category": "Dessert",
+  "yields": "8 servings",
+  "description": "Chocolate Cream Pie is a delicious and decadent dessert you’ll want to dive right into. Homemade chocolate pudding sits atop an oreo cookie crust and is generously topped with homemade whipped cream. This is a chocolate lovers dream!",
+  "total_time": 280,
+  "cook_time": 20,
+  "prep_time": 20,
+  "cuisine": "American",
+  "image": "https://thesaltymarshmallow.com/wp-content/uploads/2023/11/chocolate-cream-pie2.jpg",
   "keywords": [
     "chocolate cream pie",
     "chocolate pie"

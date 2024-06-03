@@ -1,8 +1,8 @@
 {
-  "host": "momontimeout.com",
+  "author": "Trish - Mom On Timeout",
   "canonical_url": "https://www.momontimeout.com/giant-cinnamon-roll-cake-recipe/",
   "site_name": "Mom On Timeout",
-  "author": "Trish - Mom On Timeout",
+  "host": "momontimeout.com",
   "language": "en-US",
   "title": "Giant Cinnamon Roll Cake",
   "ingredients": [
@@ -81,12 +81,15 @@
     "After the cake has cooled for 10 minutes, pour the cream cheese glaze all over the top.",
     "Slice, serve and enjoy while still warm!"
   ],
-  "total_time": 70,
-  "prep_time": 25,
-  "cook_time": 45,
+  "category": "Breakfast,Dessert",
   "yields": "8 servings",
-  "image": "https://www.momontimeout.com/wp-content/uploads/2024/03/giant-cinnamon-roll-square.jpeg",
   "description": "This impressive giant Cinnamon Roll Cake is a delightful twist on classic cinnamon rolls that transforms your favorite breakfast treat into a stunning cake that's perfect for any occasion. Soft and fluffy with a gooey center and vanilla bean cream cheese glaze, this recipe is sure to be a hit at any gathering with the perfect blend of sweetness, spice and everything nice!",
+  "total_time": 70,
+  "cook_time": 45,
+  "prep_time": 25,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 2.0,
   "nutrients": {
     "calories": "709 kcal",
     "carbohydrateContent": "91 g",
@@ -101,13 +104,10 @@
     "unsaturatedFatContent": "11 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Breakfast,Dessert",
+  "image": "https://www.momontimeout.com/wp-content/uploads/2024/03/giant-cinnamon-roll-square.jpeg",
   "keywords": [
     "cinnamon roll cake",
     "cinnamon roll cake recipe",
     "giant cinnamon roll"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 2.0
+  ]
 }

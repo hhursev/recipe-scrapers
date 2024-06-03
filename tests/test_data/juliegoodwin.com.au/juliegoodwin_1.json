@@ -1,8 +1,8 @@
 {
-  "host": "juliegoodwin.com.au",
+  "author": "Julie Goodwin",
   "canonical_url": "https://juliegoodwin.com.au/zucchini-slice-recipe/",
   "site_name": "Julie Goodwin",
-  "author": "Julie Goodwin",
+  "host": "juliegoodwin.com.au",
   "language": "en",
   "title": "Zucchini Slice",
   "ingredients": [
@@ -31,12 +31,12 @@
     }
   ],
   "instructions": "Preheat oven to 170°C. Grease and line a non-stick lamington tin.\nCombine zucchini, onion, bacon, flour and cheese in a large bowl. Add oil and lightly beaten eggs, and mix. Season with a little salt and pepper. Pour into lamington tin.\nBake for 35-40 mins until golden and set. Allow to cool slightly before cutting.",
-  "total_time": 45,
-  "yields": "Makes 1 Slice = 12 Pieces",
-  "image": "https://juliegoodwin.com.au/wordpress/wp-content/uploads/2016/03/slice.jpg",
   "instructions_list": [
     "Preheat oven to 170°C. Grease and line a non-stick lamington tin.",
     "Combine zucchini, onion, bacon, flour and cheese in a large bowl. Add oil and lightly beaten eggs, and mix. Season with a little salt and pepper. Pour into lamington tin.",
     "Bake for 35-40 mins until golden and set. Allow to cool slightly before cutting."
-  ]
+  ],
+  "yields": "Makes 1 Slice = 12 Pieces",
+  "total_time": 45,
+  "image": "https://juliegoodwin.com.au/wordpress/wp-content/uploads/2016/03/slice.jpg"
 }

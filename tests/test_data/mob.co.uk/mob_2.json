@@ -1,8 +1,8 @@
 {
-  "host": "mob.co.uk",
+  "author": "Christina Soteriou",
   "canonical_url": "mob.co.uk",
   "site_name": null,
-  "author": "Christina Soteriou",
+  "host": "mob.co.uk",
   "language": "en",
   "title": "Speedy Udon Miso Noodle Soup",
   "ingredients": [
@@ -41,13 +41,6 @@
     }
   ],
   "instructions": "Mince the ginger and garlic. Prepare 1.5L of boiling water. Drain the tofu and cut it into small cubes. \nHeat a saucepan over medium heat with a drizzle of olive oil. \nAdd the garlic and ginger and cook for 1 minute, stirring to make sure they don't burn. Add the boiling water to the pot. \nAdd the dried shiitake and stock cube. Remove a ladle of the broth and add it to a small bowl. Add the miso to the bowl and whisk to combine. Set aside.\nAdd the soy sauce, noodles, tofu cubes and simmer for a minute or two before adding the spinach. Stir until wilted. Add the miso broth back into the pot and turn off the heat.\nTo serve, ladle the noodle soup into bowls, top with kimchi if using, crispy chilli oil and sesame seeds.",
-  "total_time": 15,
-  "yields": "4 servings",
-  "image": "https://files.mob-cdn.co.uk/recipes/2023/09/Speedy-Udon-Miso-Noodle-Soup.jpg",
-  "description": "This noodle soup is a testament to a well-stocked cupboard. All you need is a handful of long life staples to throw this nutritious and delicious meal together.",
-  "cuisine": "Asian-Inspired",
-  "category": "Noodles",
-  "ratings": "4.125",
   "instructions_list": [
     "Mince the ginger and garlic. Prepare 1.5L of boiling water. Drain the tofu and cut it into small cubes. ",
     "Heat a saucepan over medium heat with a drizzle of olive oil. ",
@@ -55,5 +48,12 @@
     "Add the dried shiitake and stock cube. Remove a ladle of the broth and add it to a small bowl. Add the miso to the bowl and whisk to combine. Set aside.",
     "Add the soy sauce, noodles, tofu cubes and simmer for a minute or two before adding the spinach. Stir until wilted. Add the miso broth back into the pot and turn off the heat.",
     "To serve, ladle the noodle soup into bowls, top with kimchi if using, crispy chilli oil and sesame seeds."
-  ]
+  ],
+  "category": "Noodles",
+  "yields": "4 servings",
+  "description": "This noodle soup is a testament to a well-stocked cupboard. All you need is a handful of long life staples to throw this nutritious and delicious meal together.",
+  "total_time": 15,
+  "cuisine": "Asian-Inspired",
+  "ratings": "4.125",
+  "image": "https://files.mob-cdn.co.uk/recipes/2023/09/Speedy-Udon-Miso-Noodle-Soup.jpg"
 }

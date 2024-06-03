@@ -1,8 +1,8 @@
 {
-  "host": "kochbucher.com",
+  "author": "Kochbucher",
   "canonical_url": "https://kochbucher.com/putengeschnetzeltes-mit-reis-und-blattsalat/",
   "site_name": null,
-  "author": "Kochbucher",
+  "host": "kochbucher.com",
   "language": "en-US",
   "title": "Putengeschnetzeltes mit Reis und Blattsalat",
   "ingredients": [
@@ -37,8 +37,6 @@
     }
   ],
   "instructions": "Zwiebel würfeln, Fleisch in Streifen schneiden\nGemeinsam in etwas Öl rundherum braun anbraten\nTomatenmark hinzufügen, kurz anrösten\nSchinkenwürfel hinzufügen\nMit Stärke bestäuben und gut vermischen\nWasser und Cremefine hinzufügen, aufkochen lassen\nGewürze hinzufügen",
-  "image": "https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg",
-  "category": "Salzige Gerichte",
   "instructions_list": [
     "Zwiebel würfeln, Fleisch in Streifen schneiden",
     "Gemeinsam in etwas Öl rundherum braun anbraten",
@@ -47,5 +45,7 @@
     "Mit Stärke bestäuben und gut vermischen",
     "Wasser und Cremefine hinzufügen, aufkochen lassen",
     "Gewürze hinzufügen"
-  ]
+  ],
+  "category": "Salzige Gerichte",
+  "image": "https://kochbucher.com/wp-content/uploads/2023/07/360032370_811443810387852_6360593443735502032_n-1000x600.jpg"
 }

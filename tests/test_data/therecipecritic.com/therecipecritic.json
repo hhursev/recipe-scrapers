@@ -1,8 +1,8 @@
 {
-  "host": "therecipecritic.com",
+  "author": "The Recipe Critic",
   "canonical_url": "https://therecipecritic.com/burrata-appetizer/",
   "site_name": "The Recipe Critic",
-  "author": "The Recipe Critic",
+  "host": "therecipecritic.com",
   "language": "en-US",
   "title": "Burrata Appetizer",
   "ingredients": [
@@ -41,12 +41,22 @@
     }
   ],
   "instructions": "In a large skillet, heat the olive oil over medium-high heat.\nAdd the shallot and saute for 4-5 minutes. Add the garlic and thyme, and saute for an additional minute.\nAdd the tomatoes, figs, salt, and pepper. Cover and saute for about 10-12 minutes undisturbed.\nRemove the lid, add the balsamic vinegar, then stir. Reduce heat to medium and continue to saute until any excess liquid has cooked off, stirring occasionally.\nRemove the skillet from heat and let the tomatoes and figs rest for about 8-10 minutes to cool the skillet slightly.\nPlace the burrata on top of the tomatoes and figs. Garnish with fresh basil and kosher salt.\nServe with toasted baguette, sourdough, or your favorite dipping bread!",
-  "total_time": 25,
-  "prep_time": 5,
-  "cook_time": 20,
+  "instructions_list": [
+    "In a large skillet, heat the olive oil over medium-high heat.",
+    "Add the shallot and saute for 4-5 minutes. Add the garlic and thyme, and saute for an additional minute.",
+    "Add the tomatoes, figs, salt, and pepper. Cover and saute for about 10-12 minutes undisturbed.",
+    "Remove the lid, add the balsamic vinegar, then stir. Reduce heat to medium and continue to saute until any excess liquid has cooked off, stirring occasionally.",
+    "Remove the skillet from heat and let the tomatoes and figs rest for about 8-10 minutes to cool the skillet slightly.",
+    "Place the burrata on top of the tomatoes and figs. Garnish with fresh basil and kosher salt.",
+    "Serve with toasted baguette, sourdough, or your favorite dipping bread!"
+  ],
+  "category": "Appetizer,Side Dish",
   "yields": "8 servings",
-  "image": "https://therecipecritic.com/wp-content/uploads/2023/07/burrata-appetizer.jpg",
   "description": "This burrata appetizer is a flavor bomb made with juicy cherry tomatoes, sweet dried figs, and a tangy balsamic kick. Topped with creamy burrata cheese, it's pure indulgence. Perfect for parties or whenever you want to treat yourself to something special!",
+  "total_time": 25,
+  "cook_time": 20,
+  "prep_time": 5,
+  "cuisine": "Italian,Italian American",
   "nutrients": {
     "calories": "282 kcal",
     "carbohydrateContent": "22 g",
@@ -60,19 +70,9 @@
     "unsaturatedFatContent": "4 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "Italian,Italian American",
-  "category": "Appetizer,Side Dish",
+  "image": "https://therecipecritic.com/wp-content/uploads/2023/07/burrata-appetizer.jpg",
   "keywords": [
     "burrata appetizer",
     "tomato and burrata appetizer"
-  ],
-  "instructions_list": [
-    "In a large skillet, heat the olive oil over medium-high heat.",
-    "Add the shallot and saute for 4-5 minutes. Add the garlic and thyme, and saute for an additional minute.",
-    "Add the tomatoes, figs, salt, and pepper. Cover and saute for about 10-12 minutes undisturbed.",
-    "Remove the lid, add the balsamic vinegar, then stir. Reduce heat to medium and continue to saute until any excess liquid has cooked off, stirring occasionally.",
-    "Remove the skillet from heat and let the tomatoes and figs rest for about 8-10 minutes to cool the skillet slightly.",
-    "Place the burrata on top of the tomatoes and figs. Garnish with fresh basil and kosher salt.",
-    "Serve with toasted baguette, sourdough, or your favorite dipping bread!"
   ]
 }

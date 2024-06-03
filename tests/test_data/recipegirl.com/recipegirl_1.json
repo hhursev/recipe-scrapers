@@ -1,8 +1,8 @@
 {
-  "host": "recipegirl.com",
+  "author": "RecipeGirl.com (shared from The Pioneer Woman)",
   "canonical_url": "https://www.recipegirl.com/pioneer-womans-linguine-with-clam-sauce/",
   "site_name": "Recipe Girl®",
-  "author": "RecipeGirl.com (shared from The Pioneer Woman)",
+  "host": "recipegirl.com",
   "language": "en-US",
   "title": "Pioneer Woman's Linguine with Clam Sauce",
   "ingredients": [
@@ -46,12 +46,15 @@
     "Drain the pasta and put the hot pasta in a large bowl. Pour the sauce from the skillet onto the hot linguine. Toss to combine.",
     "Serve in individual bowls; sprinkle with Parmesan (if desired) and serve with lemon wedge for garnish."
   ],
-  "total_time": 45,
-  "prep_time": 30,
-  "cook_time": 15,
+  "category": "Main Course",
   "yields": "4 servings",
-  "image": "https://www.recipegirl.com/wp-content/uploads/2007/12/PW-Clam-Linguine-1.jpeg",
   "description": "A totally delicious version of this classic pasta dish!",
+  "total_time": 45,
+  "cook_time": 15,
+  "prep_time": 30,
+  "cuisine": "American",
+  "ratings": 4.6,
+  "ratings_count": 5.0,
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "770 kcal",
@@ -64,13 +67,10 @@
     "fiberContent": "4 g",
     "sugarContent": "4 g"
   },
-  "cuisine": "American",
-  "category": "Main Course",
+  "image": "https://www.recipegirl.com/wp-content/uploads/2007/12/PW-Clam-Linguine-1.jpeg",
   "keywords": [
     "clam linguine",
     "linguine with clam sauce",
     "pioneer woman"
-  ],
-  "ratings": 4.6,
-  "ratings_count": 5.0
+  ]
 }

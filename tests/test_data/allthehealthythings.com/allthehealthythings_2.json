@@ -5,6 +5,12 @@
   "host": "allthehealthythings.com",
   "language": "en-US",
   "title": "Mixed Berry Smoothie",
+  "ingredients": [
+    "2 cups frozen mixed berries (raspberries, blueberries, blackberries)",
+    "1 cup plain Greek yogurt",
+    "1/2 orange juice",
+    "1/4 cup pineapple juice"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -15,12 +21,6 @@
       ],
       "purpose": null
     }
-  ],
-  "ingredients": [
-    "2 cups frozen mixed berries (raspberries, blueberries, blackberries)",
-    "1 cup plain Greek yogurt",
-    "1/2 orange juice",
-    "1/4 cup pineapple juice"
   ],
   "instructions": "Add all of the ingredients to a blender and blend until smooth and creamy.",
   "instructions_list": [
@@ -46,5 +46,11 @@
     "proteinContent": "14.7 g",
     "cholesterolContent": "18.5 mg"
   },
-  "image": "https://allthehealthythings.com/wp-content/uploads/2021/06/triple-berry-smoothie-4-1-225x225.jpg"
+  "image": "https://allthehealthythings.com/wp-content/uploads/2021/06/triple-berry-smoothie-4-1-225x225.jpg",
+  "cooking_method": "No Cook",
+  "keywords": [
+    "mixed berry smoothie",
+    "mixed berry smoothie recipe",
+    "how to make a mixed berry smoothie"
+  ]
 }

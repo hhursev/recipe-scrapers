@@ -1,8 +1,8 @@
 {
-  "host": "acouplecooks.com",
+  "author": "Sonja Overhiser",
   "canonical_url": "https://www.acouplecooks.com/garlic-butter-shrimp/",
   "site_name": "A Couple Cooks",
-  "author": "Sonja Overhiser",
+  "host": "acouplecooks.com",
   "language": "en-US",
   "title": "Garlic Butter Shrimp (Fast & Easy Dinner!)",
   "ingredients": [
@@ -27,12 +27,21 @@
     }
   ],
   "instructions": "If frozen, thaw the shrimp (see the notes above).\nMince the garlic.\nPat the shrimp dry. In a medium bowl, mix the shrimp with the garlic and salt.\nIn a large skillet, heat the butter on medium high heat. Cook the shrimp for 1 to 2 minutes per side until opaque and cooked through, turning them with tongs.\nSpritz with juice of the lemon wedges and serve immediately.",
-  "total_time": 8,
-  "prep_time": 5,
-  "cook_time": 3,
+  "instructions_list": [
+    "If frozen, thaw the shrimp (see the notes above).",
+    "Mince the garlic.",
+    "Pat the shrimp dry. In a medium bowl, mix the shrimp with the garlic and salt.",
+    "In a large skillet, heat the butter on medium high heat. Cook the shrimp for 1 to 2 minutes per side until opaque and cooked through, turning them with tongs.",
+    "Spritz with juice of the lemon wedges and serve immediately."
+  ],
+  "category": "Main Dish",
   "yields": "4 servings",
-  "image": "https://www.acouplecooks.com/wp-content/uploads/2019/05/Garlic-Butter-Shrimp-022-225x225.jpg",
   "description": "This garlic butter shrimp has HUGE flavor in under 10 minutes! A fast and easy dinner for weeknights or entertaining, it will become your go-to.",
+  "total_time": 8,
+  "cook_time": 3,
+  "prep_time": 5,
+  "cuisine": "Shrimp",
+  "cooking_method": "Stovetop",
   "nutrients": {
     "calories": "176 calories",
     "sugarContent": "0 g",
@@ -45,20 +54,8 @@
     "proteinContent": "23 g",
     "cholesterolContent": "205.4 mg"
   },
-  "cuisine": "Shrimp",
-  "category": "Main Dish",
-  "dietary_restrictions": [
-    "Gluten Free Diet"
-  ],
+  "image": "https://www.acouplecooks.com/wp-content/uploads/2019/05/Garlic-Butter-Shrimp-022-225x225.jpg",
   "keywords": [
     "Garlic Butter Shrimp"
-  ],
-  "cooking_method": "Stovetop",
-  "instructions_list": [
-    "If frozen, thaw the shrimp (see the notes above).",
-    "Mince the garlic.",
-    "Pat the shrimp dry. In a medium bowl, mix the shrimp with the garlic and salt.",
-    "In a large skillet, heat the butter on medium high heat. Cook the shrimp for 1 to 2 minutes per side until opaque and cooked through, turning them with tongs.",
-    "Spritz with juice of the lemon wedges and serve immediately."
   ]
 }

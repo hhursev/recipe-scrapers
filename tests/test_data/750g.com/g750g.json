@@ -1,8 +1,8 @@
 {
-  "host": "750g.com",
+  "author": "750g La Table",
   "canonical_url": "750g.com",
   "site_name": "750 Grammes",
-  "author": "750g La Table",
+  "host": "750g.com",
   "language": "fr",
   "title": "Salade de carottes cuites et crues à l'orange",
   "ingredients": [
@@ -39,19 +39,6 @@
     }
   ],
   "instructions": "Étape 1 : Cuisson des carottes\nDécoupez les carottes en rondelles et faites-les revenir à feu moyen à l'huile d'olive avec les graines de coriandre grossièrement concassées.\n\nDéglacez au jus d'orange.\n\nAjoutez la branche de thym ainsi que l'assaisonnement.\n\nLaissez cuire avec un couvercle une dizaine de minutes puis laissez refroidir. Étape 2 : Préparation de la salade\nRâpez les carottes.\n\nDans un saladier, mélangez les carottes râpées, les carottes cuites, le fenouil et les oranges en cubes.\n\nAjoutez la vinaigrette et mélangez.\n\nAjoutez la coriandre ciselée et le piment d'espelette.",
-  "total_time": 35,
-  "prep_time": 20,
-  "cook_time": 15,
-  "yields": "6 servings",
-  "image": "https://static.750g.com/images/600-600/72dcbbdc4c59e14ea2e93632904fc482/salade-de-carottes-cuites-et-crues-a-l-orange.jpg",
-  "description": "La petite salade détox parfaite pour un déjeuner vitaminé au coeur de l'hiver",
-  "category": "Salades",
-  "keywords": [
-    "salade de carottes",
-    "salade de carottes cuites"
-  ],
-  "ratings": 4.0,
-  "ratings_count": 1,
   "instructions_list": [
     "Étape 1 : Cuisson des carottes",
     "Découpez les carottes en rondelles et faites-les revenir à feu moyen à l'huile d'olive avec les graines de coriandre grossièrement concassées.",
@@ -62,5 +49,18 @@
     "Dans un saladier, mélangez les carottes râpées, les carottes cuites, le fenouil et les oranges en cubes.",
     "Ajoutez la vinaigrette et mélangez.",
     "Ajoutez la coriandre ciselée et le piment d'espelette."
+  ],
+  "category": "Salades",
+  "yields": "6 servings",
+  "description": "La petite salade détox parfaite pour un déjeuner vitaminé au coeur de l'hiver",
+  "total_time": 35,
+  "cook_time": 15,
+  "prep_time": 20,
+  "ratings": 4.0,
+  "ratings_count": 1,
+  "image": "https://static.750g.com/images/600-600/72dcbbdc4c59e14ea2e93632904fc482/salade-de-carottes-cuites-et-crues-a-l-orange.jpg",
+  "keywords": [
+    "salade de carottes",
+    "salade de carottes cuites"
   ]
 }

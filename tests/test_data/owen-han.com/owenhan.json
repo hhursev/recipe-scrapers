@@ -1,8 +1,8 @@
 {
-  "host": "owen-han.com",
+  "author": "Owen Han",
   "canonical_url": "https://www.owen-han.com/recipes/chicken-bacon-ranch",
   "site_name": "Owen Han",
-  "author": "Owen Han",
+  "host": "owen-han.com",
   "language": "en-US",
   "title": "Chicken Bacon Ranch",
   "ingredients": [
@@ -45,7 +45,6 @@
     }
   ],
   "instructions": "Cut the chicken and bacon into even thin strips.\nPlace bacon in a skillet over medium heat. Cook until it's almost completely cooked, but not too crispy.\nRemove the bacon and add the chicken to the skillet.\nSeason with oregano and lightly with salt. Cook until no longer pink.\nTurn off the heat, add the bacon back to the skillet and combine.\nAdd pepper jack on top and cover to melt.\nFor the ranch combine all the ingredients to a bowl and mix well to combine.\nAssemble: to a toasted baguette add the chicken and bacon then top with sliced avocado pickled onions, and ranch. Add some mixed greens to the other half. \nClose the sandwich, cut in half and enjoy!",
-  "image": "http://static1.squarespace.com/static/627be79397093e2de753b260/627c408602fed77ca384eb11/63120c4090e9bf706973d712/1662127792157/IMG_2037.jpg?format=1500w",
   "instructions_list": [
     "Cut the chicken and bacon into even thin strips.",
     "Place bacon in a skillet over medium heat. Cook until it's almost completely cooked, but not too crispy.",
@@ -56,5 +55,6 @@
     "For the ranch combine all the ingredients to a bowl and mix well to combine.",
     "Assemble: to a toasted baguette add the chicken and bacon then top with sliced avocado pickled onions, and ranch. Add some mixed greens to the other half. ",
     "Close the sandwich, cut in half and enjoy!"
-  ]
+  ],
+  "image": "http://static1.squarespace.com/static/627be79397093e2de753b260/627c408602fed77ca384eb11/63120c4090e9bf706973d712/1662127792157/IMG_2037.jpg?format=1500w"
 }

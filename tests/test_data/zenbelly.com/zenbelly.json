@@ -1,8 +1,8 @@
 {
-  "host": "zenbelly.com",
+  "author": "Simone Miller",
   "canonical_url": "https://www.zenbelly.com/gingerbread/",
   "site_name": "zenbelly",
-  "author": "Simone Miller",
+  "host": "zenbelly.com",
   "language": "en-US",
   "title": "Paleo Gingerbread",
   "ingredients": [
@@ -45,19 +45,19 @@
     }
   ],
   "instructions": "Preheat the oven to 350ºF. Grease a 9×13-inch cake pan.\nIn a large bowl, whisk together the almond flour, tapioca starch, coconut flour, baking soda, ground ginger, cinnamon, allspice, cardamom, and salt.\nIn a medium heat proof bowl, whisk together the coconut sugar, molasses, fresh ginger, and boiling water. Once it’s lukewarm (the molasses and coconut sugar should take the temperature down enough), whisk in the eggs.\nPour the wet ingredients into the dry ingredients and whisk until there are no lumps.\nPour into the prepared pan and bake for 28-35 minutes*",
-  "total_time": 40,
-  "prep_time": 10,
-  "cook_time": 30,
-  "yields": "20 servings",
-  "image": "https://www.zenbelly.com/wp-content/uploads/2019/01/gingerbread-3-225x225.jpeg",
-  "category": "Dessert",
-  "ratings": 5.0,
-  "ratings_count": 4,
   "instructions_list": [
     "Preheat the oven to 350ºF. Grease a 9×13-inch cake pan.",
     "In a large bowl, whisk together the almond flour, tapioca starch, coconut flour, baking soda, ground ginger, cinnamon, allspice, cardamom, and salt.",
     "In a medium heat proof bowl, whisk together the coconut sugar, molasses, fresh ginger, and boiling water. Once it’s lukewarm (the molasses and coconut sugar should take the temperature down enough), whisk in the eggs.",
     "Pour the wet ingredients into the dry ingredients and whisk until there are no lumps.",
     "Pour into the prepared pan and bake for 28-35 minutes*"
-  ]
+  ],
+  "category": "Dessert",
+  "yields": "20 servings",
+  "total_time": 40,
+  "cook_time": 30,
+  "prep_time": 10,
+  "ratings": 5.0,
+  "ratings_count": 4,
+  "image": "https://www.zenbelly.com/wp-content/uploads/2019/01/gingerbread-3-225x225.jpeg"
 }

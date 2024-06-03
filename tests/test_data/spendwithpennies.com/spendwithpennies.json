@@ -1,8 +1,8 @@
 {
-  "host": "spendwithpennies.com",
+  "author": "Holly Nilsson",
   "canonical_url": "https://www.spendwithpennies.com/gooey-chocolate-pudding-cake/",
   "site_name": "Spend With Pennies",
-  "author": "Holly Nilsson",
+  "host": "spendwithpennies.com",
   "language": "en-US",
   "title": "Gooey Chocolate Pudding Cake",
   "ingredients": [
@@ -37,12 +37,22 @@
     }
   ],
   "instructions": "Preheat oven to 350°F.\nIn a 2 qt casserole dish, combine flour, white sugar, cocoa powder, and baking powder.\nAdd milk and oil, and vanilla. Stir until well mixed.\nIn a small bowl, combine brown sugar, cocoa powder and chocolate chips. Sprinkle over cake batter. DO NOT STIR. Pour hot water over top.\nBake for 30-35 minutes or until the top looks cooked. Serve warm (with ice cream if desired).",
-  "total_time": 35,
-  "prep_time": 5,
-  "cook_time": 30,
+  "instructions_list": [
+    "Preheat oven to 350°F.",
+    "In a 2 qt casserole dish, combine flour, white sugar, cocoa powder, and baking powder.",
+    "Add milk and oil, and vanilla. Stir until well mixed.",
+    "In a small bowl, combine brown sugar, cocoa powder and chocolate chips. Sprinkle over cake batter. DO NOT STIR. Pour hot water over top.",
+    "Bake for 30-35 minutes or until the top looks cooked. Serve warm (with ice cream if desired)."
+  ],
+  "category": "Dessert",
   "yields": "6 servings",
-  "image": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Chocolate-Pudding-Cake-SpendWithPennies-B-4.jpg",
   "description": "This Chocolate Pudding Cake is a very simple, rich chocolate dessert that comes together in just one dish!",
+  "total_time": 35,
+  "cook_time": 30,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 4.9,
+  "ratings_count": 148,
   "nutrients": {
     "calories": "349 kcal",
     "carbohydrateContent": "65 g",
@@ -55,22 +65,12 @@
     "sugarContent": "45 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Dessert",
+  "image": "https://www.spendwithpennies.com/wp-content/uploads/2013/10/Chocolate-Pudding-Cake-SpendWithPennies-B-4.jpg",
   "keywords": [
     "best pudding cake",
     "chocolate lava cake",
     "Chocolate Pudding Cake",
     "easy chocolate pudding cake",
     "pudding cake"
-  ],
-  "ratings": 4.9,
-  "ratings_count": 148,
-  "instructions_list": [
-    "Preheat oven to 350°F.",
-    "In a 2 qt casserole dish, combine flour, white sugar, cocoa powder, and baking powder.",
-    "Add milk and oil, and vanilla. Stir until well mixed.",
-    "In a small bowl, combine brown sugar, cocoa powder and chocolate chips. Sprinkle over cake batter. DO NOT STIR. Pour hot water over top.",
-    "Bake for 30-35 minutes or until the top looks cooked. Serve warm (with ice cream if desired)."
   ]
 }

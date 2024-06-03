@@ -1,7 +1,7 @@
 {
-  "host": "foodrepublic.com",
   "canonical_url": "https://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/",
   "site_name": "Food Republic",
+  "host": "foodrepublic.com",
   "language": "en-US",
   "title": "Dutch White Asparagus Recipe",
   "ingredients": [
@@ -38,9 +38,6 @@
     }
   ],
   "instructions": "After peeling and trimming the asparagus, steam it in citrus water — water with Meyer lemon, orange and grapefruit slices — until fork tender.\nIn a pot add the Chardonnay, white wine vinegar, thyme, shallots and chunk of Parmesan rind; reduce about a quarter.\nRemove from heat and slowly whisk in cubes of butter until sauce is thick and glossy.\nPour 2 tablespoons of beurre blanc on a plate, top it with a poached egg, steamed white asparagus, prosciutto and grated Parmesan.\nSpring Asparagus Soup Recipe\nGoat Cheese And Asparagus Macaroni Salad Recipe\nRoasted Asparagus & Scrambled Eggs Recipe",
-  "total_time": 60,
-  "yields": "0 servings",
-  "image": "https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg",
   "instructions_list": [
     "After peeling and trimming the asparagus, steam it in citrus water — water with Meyer lemon, orange and grapefruit slices — until fork tender.",
     "In a pot add the Chardonnay, white wine vinegar, thyme, shallots and chunk of Parmesan rind; reduce about a quarter.",
@@ -49,5 +46,8 @@
     "Spring Asparagus Soup Recipe",
     "Goat Cheese And Asparagus Macaroni Salad Recipe",
     "Roasted Asparagus & Scrambled Eggs Recipe"
-  ]
+  ],
+  "yields": "0 servings",
+  "total_time": 60,
+  "image": "https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg"
 }

@@ -1,8 +1,8 @@
 {
-  "host": "lekkerensimpel.com",
+  "author": "Lekker en Simpel",
   "canonical_url": "https://www.lekkerensimpel.com/poke-bowl-met-kip/",
   "site_name": "Lekker en Simpel",
-  "author": "Lekker en Simpel",
+  "host": "lekkerensimpel.com",
   "language": "nl-NL",
   "title": "Poké bowl met kip",
   "ingredients": [
@@ -33,23 +33,23 @@
     }
   ],
   "instructions": "Begin met het maken van de sushirijst. Wij houden hiervoor dit sushirijst recept aan. Tip: heb je weinig tijd? Gebruik dan pandan rijst in plaats van sushi rijst. Dit is een stuk sneller klaar.\nSnijd de avocado en komkommer in plakjes/reepjes.\nGiet een scheutje olie in een koekenpan en bak de kipschnitzels volgens de instructies op het pak. Tip: maak ook eens de kipschnitzels zelf. Snijd de kipschnitzels daarna in plakjes.\nVerdeel de rijst over twee kommen. Verdeel de komkommer, kip, peen julienne, avocado en gebakken uitjes hier overheen. Als laatste verdeel je wat Japanse mayonaise en sojasaus over het geheel.",
-  "total_time": 35,
-  "cook_time": 35,
-  "yields": "2 servings",
-  "image": "https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg",
-  "description": "Een heerlijke poké bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat én waarmee je heel goed kunt variëren.",
-  "cuisine": "Aziatische keuken",
-  "category": "Hoofdgerecht",
-  "keywords": [
-    "bowl",
-    "kip"
-  ],
-  "ratings": 4.56,
-  "ratings_count": 75,
   "instructions_list": [
     "Begin met het maken van de sushirijst. Wij houden hiervoor dit sushirijst recept aan. Tip: heb je weinig tijd? Gebruik dan pandan rijst in plaats van sushi rijst. Dit is een stuk sneller klaar.",
     "Snijd de avocado en komkommer in plakjes/reepjes.",
     "Giet een scheutje olie in een koekenpan en bak de kipschnitzels volgens de instructies op het pak. Tip: maak ook eens de kipschnitzels zelf. Snijd de kipschnitzels daarna in plakjes.",
     "Verdeel de rijst over twee kommen. Verdeel de komkommer, kip, peen julienne, avocado en gebakken uitjes hier overheen. Als laatste verdeel je wat Japanse mayonaise en sojasaus over het geheel."
+  ],
+  "category": "Hoofdgerecht",
+  "yields": "2 servings",
+  "description": "Een heerlijke poké bowl met kip, avocado, peen julienne en edamame bonen. Een makkelijk gerecht dat in 30 minuten op tafel staat én waarmee je heel goed kunt variëren.",
+  "total_time": 35,
+  "cook_time": 35,
+  "cuisine": "Aziatische keuken",
+  "ratings": 4.56,
+  "ratings_count": 75,
+  "image": "https://www.lekkerensimpel.com/wp-content/uploads/2022/03/588A2370-1.jpg",
+  "keywords": [
+    "bowl",
+    "kip"
   ]
 }

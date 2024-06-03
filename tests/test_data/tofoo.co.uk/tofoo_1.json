@@ -1,8 +1,8 @@
 {
-  "host": "tofoo.co.uk",
+  "author": "The Tofoo co.",
   "canonical_url": "https://tofoo.co.uk/recipes/banh-mi-2/",
   "site_name": "Tofoo",
-  "author": "The Tofoo co.",
+  "host": "tofoo.co.uk",
   "language": "en-US",
   "title": "Banh Mi",
   "ingredients": [
@@ -49,15 +49,15 @@
     }
   ],
   "instructions": "Slice the Baguette in half lengthways. Mix together the soy sauce, lime zest, ginger, and garlic in a bowl.\nMarinade the Tofoo for 30 minutes.\nShred the Daikon, Carrot & Cucumber and lightly pickle in the rice vinegar for 10-20 minutes.\nHeat a frying pan, add the oil, and lightly fry the Tofoo for a few minutes until it turns golden brown. Allow to cool.\nPlace all the fillings into the baguette, in layers, and drizzle over the Sriracha. Season with pepper and finish with a squeeze of lime.",
-  "total_time": 35,
-  "yields": 1,
-  "image": "https://tofoo.co.uk/wp-content/uploads/2020/09/Tofoo_Banh_Mi3134_v3_WebHeader.jpg",
-  "category": "Vegan",
   "instructions_list": [
     "Slice the Baguette in half lengthways. Mix together the soy sauce, lime zest, ginger, and garlic in a bowl.",
     "Marinade the Tofoo for 30 minutes.",
     "Shred the Daikon, Carrot & Cucumber and lightly pickle in the rice vinegar for 10-20 minutes.",
     "Heat a frying pan, add the oil, and lightly fry the Tofoo for a few minutes until it turns golden brown. Allow to cool.",
     "Place all the fillings into the baguette, in layers, and drizzle over the Sriracha. Season with pepper and finish with a squeeze of lime."
-  ]
+  ],
+  "category": "Vegan",
+  "yields": 1,
+  "total_time": 35,
+  "image": "https://tofoo.co.uk/wp-content/uploads/2020/09/Tofoo_Banh_Mi3134_v3_WebHeader.jpg"
 }

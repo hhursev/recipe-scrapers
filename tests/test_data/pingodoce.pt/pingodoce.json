@@ -1,8 +1,8 @@
 {
-  "host": "pingodoce.pt",
+  "author": null,
   "canonical_url": "https://www.pingodoce.pt/receitas/arroz-de-tamboril/",
   "site_name": "Pingo Doce",
-  "author": null,
+  "host": "pingodoce.pt",
   "language": "pt",
   "title": "Arroz de tamboril",
   "ingredients": [
@@ -45,24 +45,6 @@
     }
   ],
   "instructions": "Coza o tamboril já cortado em cubos. Reserve a água de cozedura.\nNum tacho largo refogue em azeite as cebolas, os alhos e os coentros picados.\nQuando a cebola estiver translúcida, junte ao refogado o pimento em tiras, o tomate em cubos e a malagueta picada, envolvendo bem os ingredientes.\nDilua a polpa de tomate na água de cozedura do tamboril e vá acrescentando, aos poucos, ao refogado.\nDepois de lavado, junte o arroz e tempere de sal e pimenta.\nA meio da cozedura do arroz, adicione o tamboril, previamente cozido, e o miolo de camarão.\nPor fim, envolva a manteiga, polvilhe com a hortelã picada.\nSirva o seu arroz de tamboril com fatias de pão torrado.",
-  "total_time": 60,
-  "prep_time": 60,
-  "yields": "4 servings",
-  "image": "https://www.pingodoce.pt/wp-content/uploads/2016/09/arroz-de-tamboril.jpeg",
-  "description": "Malandrinho, como se quer, saboroso e fresco, graças aos coentros e à hortelã, este arroz de tamboril vai deliciá-lo. Siga a receita e impressione lá em casa.",
-  "nutrients": {
-    "calories": "761 calories"
-  },
-  "category": 1,
-  "keywords": [
-    "arroz",
-    "camarão",
-    "marisco",
-    "peixe",
-    "pimento"
-  ],
-  "ratings": 3.0,
-  "ratings_count": 437,
   "instructions_list": [
     "Coza o tamboril já cortado em cubos. Reserve a água de cozedura.",
     "Num tacho largo refogue em azeite as cebolas, os alhos e os coentros picados.",
@@ -72,5 +54,23 @@
     "A meio da cozedura do arroz, adicione o tamboril, previamente cozido, e o miolo de camarão.",
     "Por fim, envolva a manteiga, polvilhe com a hortelã picada.",
     "Sirva o seu arroz de tamboril com fatias de pão torrado."
+  ],
+  "category": 1,
+  "yields": "4 servings",
+  "description": "Malandrinho, como se quer, saboroso e fresco, graças aos coentros e à hortelã, este arroz de tamboril vai deliciá-lo. Siga a receita e impressione lá em casa.",
+  "total_time": 60,
+  "prep_time": 60,
+  "ratings": 3.0,
+  "ratings_count": 437,
+  "nutrients": {
+    "calories": "761 calories"
+  },
+  "image": "https://www.pingodoce.pt/wp-content/uploads/2016/09/arroz-de-tamboril.jpeg",
+  "keywords": [
+    "arroz",
+    "camarão",
+    "marisco",
+    "peixe",
+    "pimento"
   ]
 }

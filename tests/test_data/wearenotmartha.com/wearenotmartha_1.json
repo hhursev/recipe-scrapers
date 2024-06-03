@@ -1,8 +1,8 @@
 {
-  "host": "wearenotmartha.com",
+  "author": "Sues",
   "canonical_url": "https://wearenotmartha.com/starbucks-grilled-cheese-copycat-recipe/",
   "site_name": "We are not Martha",
-  "author": "Sues",
+  "host": "wearenotmartha.com",
   "language": "en-US",
   "title": "Starbucks Grilled Cheese {Copycat Recipe}",
   "ingredients": [
@@ -29,25 +29,25 @@
     }
   ],
   "instructions": "In a small bowl, mix together softened butter, parmesan, garlic powder, and salt (if using unsalted butter) until combined.\nPreheat a griddle or large skillet over medium-low heat.\nSpread butter mixture onto one side of all four slices of bread. Top the non-buttered sides of two of the bread slices with cheese. Press remaining bread slices, butter-side up, on top.\nTransfer sandwiches to griddle or skillet and cook until golden on bottom, about 5 minutes. Flip and cook until sandwiches are golden on second side and cheese is melted.\nSlice and serve.",
-  "total_time": 20,
-  "prep_time": 10,
-  "cook_time": 10,
-  "yields": "2 servings",
-  "image": "https://wearenotmartha.com/wp-content/uploads/starbucks-grilled-cheese-featured.jpg",
-  "description": "Are you obsessed with the grilled cheese sandwich at Starbucks? It's made with a blend of white cheddar, mozzarella, and garlic parmesan butter and is so easy to recreate at home with this Starbucks Grilled Cheese copycat recipe!",
-  "cuisine": "American",
-  "category": "lunch",
-  "keywords": [
-    "Grilled Cheese Recipes",
-    "Starbucks Copycat"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 1,
   "instructions_list": [
     "In a small bowl, mix together softened butter, parmesan, garlic powder, and salt (if using unsalted butter) until combined.",
     "Preheat a griddle or large skillet over medium-low heat.",
     "Spread butter mixture onto one side of all four slices of bread. Top the non-buttered sides of two of the bread slices with cheese. Press remaining bread slices, butter-side up, on top.",
     "Transfer sandwiches to griddle or skillet and cook until golden on bottom, about 5 minutes. Flip and cook until sandwiches are golden on second side and cheese is melted.",
     "Slice and serve."
+  ],
+  "category": "lunch",
+  "yields": "2 servings",
+  "description": "Are you obsessed with the grilled cheese sandwich at Starbucks? It's made with a blend of white cheddar, mozzarella, and garlic parmesan butter and is so easy to recreate at home with this Starbucks Grilled Cheese copycat recipe!",
+  "total_time": 20,
+  "cook_time": 10,
+  "prep_time": 10,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "image": "https://wearenotmartha.com/wp-content/uploads/starbucks-grilled-cheese-featured.jpg",
+  "keywords": [
+    "Grilled Cheese Recipes",
+    "Starbucks Copycat"
   ]
 }

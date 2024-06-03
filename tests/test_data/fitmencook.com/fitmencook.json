@@ -1,8 +1,8 @@
 {
-  "host": "fitmencook.com",
+  "author": "Kevin Curry",
   "canonical_url": "https://fitmencook.com/recipes/healthy-chili-recipe/",
   "site_name": "Fit Men Cook",
-  "author": "Kevin Curry",
+  "host": "fitmencook.com",
   "language": "en-US",
   "title": "Lean Chili with Plantains",
   "ingredients": [
@@ -49,15 +49,15 @@
     }
   ],
   "instructions": "Set a pot on medium heat. Once hot, add the oil, garlic, onion and bell pepper. Cook for 2 – 3 minutes until the onion is browned along the edges.\nAdd the beef and chop it up finely as it cooks in the pot for 3 – 5 minutes. Sprinkle in the seasoning as the meat cooks.\nAdd the remaining ingredients EXCEPT plantain and stir everything together and bring to a light simmer. Cover and cook for 10 minutes.\nAdd the plantain after 10 minutes and stir everything together. ONLY if needed, add tablespoons of beef stock (or water) to the chili if it’s too thick, but also monitor the heat and make sure it’s not too high. Cover and cook for an additional 10 minutes.\nSeason to taste with sea salt & pepper (and lime) and garnish with cilantro and jalapeño.",
-  "total_time": 35,
-  "yields": "5 servings",
-  "image": "https://fitmencook.com/wp-content/uploads/2023/03/chili-with-plantains-chile-con-carne-4-1.jpg",
-  "category": null,
   "instructions_list": [
     "Set a pot on medium heat. Once hot, add the oil, garlic, onion and bell pepper. Cook for 2 – 3 minutes until the onion is browned along the edges.",
     "Add the beef and chop it up finely as it cooks in the pot for 3 – 5 minutes. Sprinkle in the seasoning as the meat cooks.",
     "Add the remaining ingredients EXCEPT plantain and stir everything together and bring to a light simmer. Cover and cook for 10 minutes.",
     "Add the plantain after 10 minutes and stir everything together. ONLY if needed, add tablespoons of beef stock (or water) to the chili if it’s too thick, but also monitor the heat and make sure it’s not too high. Cover and cook for an additional 10 minutes.",
     "Season to taste with sea salt & pepper (and lime) and garnish with cilantro and jalapeño."
-  ]
+  ],
+  "category": null,
+  "yields": "5 servings",
+  "total_time": 35,
+  "image": "https://fitmencook.com/wp-content/uploads/2023/03/chili-with-plantains-chile-con-carne-4-1.jpg"
 }

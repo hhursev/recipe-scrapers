@@ -1,8 +1,8 @@
 {
-  "host": "rezeptwelt.de",
+  "author": "Kräuterwiese",
   "canonical_url": "rezeptwelt.de",
   "site_name": null,
-  "author": "Kräuterwiese",
+  "host": "rezeptwelt.de",
   "language": "de_DE",
   "title": "Italienischer Nudelsalat",
   "ingredients": [
@@ -43,14 +43,6 @@
     }
   ],
   "instructions": "Salat\n1. Wasser und Gemüsebrühe in den Mixtopf geben und 8Min./100°/Stufe 1 aufkochen\n2. Nudeln zugeben, je nach Packungsanweisung ca. 8-10Min./100°/\"Linkslauf\" /Stufe \"Sanftrührstufe\" garen, Nudeln in den Gareinsatz abgießen und Garflüssigkeit dabei auffangen. Nudeln in eine große Schüssel umfüllen und etwas abkühlen lassen.\n3. getrocknete Tomaten in den Mixtopf geben, 5Sek./\"Linkslauf deaktiviert\" /Stufe 4 zerkleinern und zu den Nudeln geben.\n4.Mozarella in den Mixtopf geben, 2 Sek./Stufe 4 zerkleinern und zu den Nudeln geben.\n5. Alle weiteren Salatzutaten (Rucola, schwarze Oliven und Kirschtomaten) in die große Schüssel zugeben und vermischen\nDressing:\n6. Knoblauch und Basilikum in den Mixtopf geben 4 Sek./Stufe 7 zerkleinern.\n7. Übrige Zutaten und 120 g Garflüssigkeit zugeben und 15Sek./Stufe 3-4 verrühren, zum Salat geben und vermischen.",
-  "total_time": 50,
-  "yields": "6 servings",
-  "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/wbtt7xp3-9544c-831497-cfcd2-6bis4hp6/d60b5483-c12d-4c2a-871d-05748e5aa06c/main/italienischer-nudelsalat.jpg",
-  "description": "Italienischer Nudelsalat, ein Rezept der Kategorie Vorspeisen/Salate.",
-  "cuisine": null,
-  "category": "Vorspeisen/Salate",
-  "ratings": 4.68,
-  "ratings_count": 358,
   "instructions_list": [
     "Salat",
     "1. Wasser und Gemüsebrühe in den Mixtopf geben und 8Min./100°/Stufe 1 aufkochen",
@@ -61,5 +53,13 @@
     "Dressing:",
     "6. Knoblauch und Basilikum in den Mixtopf geben 4 Sek./Stufe 7 zerkleinern.",
     "7. Übrige Zutaten und 120 g Garflüssigkeit zugeben und 15Sek./Stufe 3-4 verrühren, zum Salat geben und vermischen."
-  ]
+  ],
+  "category": "Vorspeisen/Salate",
+  "yields": "6 servings",
+  "description": "Italienischer Nudelsalat, ein Rezept der Kategorie Vorspeisen/Salate.",
+  "total_time": 50,
+  "cuisine": null,
+  "ratings": 4.68,
+  "ratings_count": 358,
+  "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/wbtt7xp3-9544c-831497-cfcd2-6bis4hp6/d60b5483-c12d-4c2a-871d-05748e5aa06c/main/italienischer-nudelsalat.jpg"
 }

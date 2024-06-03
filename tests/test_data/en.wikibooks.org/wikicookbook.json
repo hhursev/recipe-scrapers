@@ -1,7 +1,7 @@
 {
-  "host": "en.wikibooks.org",
   "canonical_url": "https://en.wikibooks.org/wiki/Cookbook:Pumpkin_Pie",
   "site_name": null,
+  "host": "en.wikibooks.org",
   "language": "en",
   "title": "Pumpkin Pie",
   "ingredients": [
@@ -36,15 +36,15 @@
     }
   ],
   "instructions": "Preheat oven to 350 °F (180 °C).\nBlend all ingredients, except the pie shell, together.\nPour into the unbaked pie shell.\nBake at 350 °F (180 °C) for 45 minutes.\nLet cool and serve.",
-  "total_time": 60,
-  "yields": "8 servings",
-  "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Pumpkin_Pie.jpg/300px-Pumpkin_Pie.jpg",
-  "description": "Pumpkin pie is a traditional American and Canadian holiday dessert. It consists of a pumpkin-based custard baked in a single pie shell. The pie is traditionally served with whipped cream.",
   "instructions_list": [
     "Preheat oven to 350 °F (180 °C).",
     "Blend all ingredients, except the pie shell, together.",
     "Pour into the unbaked pie shell.",
     "Bake at 350 °F (180 °C) for 45 minutes.",
     "Let cool and serve."
-  ]
+  ],
+  "yields": "8 servings",
+  "description": "Pumpkin pie is a traditional American and Canadian holiday dessert. It consists of a pumpkin-based custard baked in a single pie shell. The pie is traditionally served with whipped cream.",
+  "total_time": 60,
+  "image": "//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Pumpkin_Pie.jpg/300px-Pumpkin_Pie.jpg"
 }

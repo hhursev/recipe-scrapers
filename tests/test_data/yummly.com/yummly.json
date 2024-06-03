@@ -1,8 +1,8 @@
 {
-  "host": "yummly.com",
+  "author": "Sara Mellas",
   "canonical_url": "https://www.yummly.com/recipe/Easy-White-Cheese-_-Garlic-Pizzas-9351327",
   "site_name": null,
-  "author": "Sara Mellas",
+  "host": "yummly.com",
   "language": "en",
   "title": "Easy White Cheese & Garlic Pizzas",
   "ingredients": [
@@ -31,10 +31,18 @@
     }
   ],
   "instructions": "Preheat oven to 425°F.\nLine a baking sheet with parchment paper.\nArrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece.",
-  "total_time": 25,
+  "instructions_list": [
+    "Preheat oven to 425°F.",
+    "Line a baking sheet with parchment paper.",
+    "Arrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece."
+  ],
+  "category": null,
   "yields": "4 servings",
-  "image": "https://lh3.googleusercontent.com/UyOcAUtHtGMhwFNayuGToyY9V-S1vl9OOs8ycgXxJXevQDyHTkX5_luRkhU-hTHi4AlSkGA_lDUMxV-uQKfDFPY=w1920-h1920-c-rj-v1-e365",
   "description": "Extra cheese and extra garlic? Yes, please! No red sauce is needed for these mouthwatering naan pizzas. The recipe is a Yummly original created by [Sara Mellas](https://www.yummly.com/dish/author/Sara%20Mellas).",
+  "total_time": 25,
+  "cooking_method": "Baking",
+  "ratings": 4.7,
+  "ratings_count": 20,
   "nutrients": {
     "calories": "380 calories",
     "carbohydrateContent": "38 grams",
@@ -46,17 +54,9 @@
     "sodiumContent": "590 milligrams",
     "sugarContent": "1 grams"
   },
-  "category": null,
+  "image": "https://lh3.googleusercontent.com/UyOcAUtHtGMhwFNayuGToyY9V-S1vl9OOs8ycgXxJXevQDyHTkX5_luRkhU-hTHi4AlSkGA_lDUMxV-uQKfDFPY=w1920-h1920-c-rj-v1-e365",
   "keywords": [
     "Quick",
     "Baking"
-  ],
-  "cooking_method": "Baking",
-  "ratings": 4.7,
-  "ratings_count": 20,
-  "instructions_list": [
-    "Preheat oven to 425°F.",
-    "Line a baking sheet with parchment paper.",
-    "Arrange the naan on the baking sheet. Drizzle an equal amount of olive oil over the surface of each piece."
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "host": "grouprecipes.com",
+  "author": "MountainMamas",
   "canonical_url": "grouprecipes.com",
   "site_name": null,
-  "author": "MountainMamas",
+  "host": "grouprecipes.com",
   "language": "en",
   "title": "Slow Cooker Chicken & Biscuits Recipe",
   "ingredients": [
@@ -29,15 +29,15 @@
     }
   ],
   "instructions": "Place the chicken in a 7-quart (6 ½ liters) slow cooker. Sprinkle on salt & pepper.\nAdd the veggies and condensed soup, and mix thoroughly.\nCook on high for 3 hours.\nRip biscuit dough into small pieces, and drop evenly over chicken. Cook an additional hour.",
-  "total_time": 180,
-  "yields": "5 servings",
-  "image": "http://s2.grouprecipes.com/images/recipes/200/d1505068b3b6795944eeae48987109ba.jpg",
-  "description": "A delicious comforting and hearty meal of Chicken and Dumplings (Biscuits) is just a perfect dinner that can be made in a crockpot while your at work or busy with the kids. This tender and juicy chicken is slow-cooked along side carrots and potatoes and a blend of savory spices.",
-  "category": "slower cooker/crockpot, chicken, biscuits, gravy, slow-cook, nothing specific",
   "instructions_list": [
     "Place the chicken in a 7-quart (6 ½ liters) slow cooker. Sprinkle on salt & pepper.",
     "Add the veggies and condensed soup, and mix thoroughly.",
     "Cook on high for 3 hours.",
     "Rip biscuit dough into small pieces, and drop evenly over chicken. Cook an additional hour."
-  ]
+  ],
+  "category": "slower cooker/crockpot, chicken, biscuits, gravy, slow-cook, nothing specific",
+  "yields": "5 servings",
+  "description": "A delicious comforting and hearty meal of Chicken and Dumplings (Biscuits) is just a perfect dinner that can be made in a crockpot while your at work or busy with the kids. This tender and juicy chicken is slow-cooked along side carrots and potatoes and a blend of savory spices.",
+  "total_time": 180,
+  "image": "http://s2.grouprecipes.com/images/recipes/200/d1505068b3b6795944eeae48987109ba.jpg"
 }

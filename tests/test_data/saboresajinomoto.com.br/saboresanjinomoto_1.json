@@ -1,8 +1,8 @@
 {
-  "host": "saboresajinomoto.com.br",
+  "author": "sabores ajinomoto",
   "canonical_url": "https://www.saboresajinomoto.com.br/receita/pure-de-batata-com-frango",
   "site_name": null,
-  "author": "sabores ajinomoto",
+  "host": "saboresajinomoto.com.br",
   "language": "pt-br",
   "title": "Purê de batata com frango",
   "ingredients": [
@@ -27,20 +27,20 @@
     }
   ],
   "instructions": "Em uma panela média, derreta 1 colher (sopa) da margarina em fogo médio e frite o frango por cerca de 10 minutos, virando na metade do tempo, ou até dourar. Retire do fogo, desfie com o auxílio de um garfo e reserve aquecido.\nNa mesma panela, derreta a margarina restante, em fogo alto, junte a batata, o leite, o sal e o AJI-NO-MOTO®, e mexa até que fique homogêneo.\nAcrescente o frango, misture e retire do fogo. Sirva em seguida.",
-  "total_time": 25,
-  "prep_time": 25,
-  "cook_time": 25,
-  "yields": "5 servings",
-  "image": "https://www.saboresajinomoto.com.br/uploads/images/recipes/pure-de-batata-com-frango.jpg",
-  "description": "Uma saborosa receita de purÃª de batata com frango que rende 5 porÃ§Ãµes e vocÃª sÃ³ leva 25 minutinhos para preparar. Veja a lista de ingredientes e o modo de preparo.",
-  "category": "Verduras e Legumes",
-  "keywords": [
-    "AJI-NO-MOTO; Purê; Batata; Frango"
-  ],
-  "ratings": 4.0,
   "instructions_list": [
     "Em uma panela média, derreta 1 colher (sopa) da margarina em fogo médio e frite o frango por cerca de 10 minutos, virando na metade do tempo, ou até dourar. Retire do fogo, desfie com o auxílio de um garfo e reserve aquecido.",
     "Na mesma panela, derreta a margarina restante, em fogo alto, junte a batata, o leite, o sal e o AJI-NO-MOTO®, e mexa até que fique homogêneo.",
     "Acrescente o frango, misture e retire do fogo. Sirva em seguida."
+  ],
+  "category": "Verduras e Legumes",
+  "yields": "5 servings",
+  "description": "Uma saborosa receita de purÃª de batata com frango que rende 5 porÃ§Ãµes e vocÃª sÃ³ leva 25 minutinhos para preparar. Veja a lista de ingredientes e o modo de preparo.",
+  "total_time": 25,
+  "cook_time": 25,
+  "prep_time": 25,
+  "ratings": 4.0,
+  "image": "https://www.saboresajinomoto.com.br/uploads/images/recipes/pure-de-batata-com-frango.jpg",
+  "keywords": [
+    "AJI-NO-MOTO; Purê; Batata; Frango"
   ]
 }

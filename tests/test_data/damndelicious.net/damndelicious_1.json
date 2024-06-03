@@ -1,8 +1,8 @@
 {
-  "host": "damndelicious.net",
+  "author": "Chungah @ Damn Delicious",
   "canonical_url": "https://damndelicious.net/2021/06/17/salmon-with-garlic-cream-sauce/",
   "site_name": "Damn Delicious",
-  "author": "Chungah @ Damn Delicious",
+  "host": "damndelicious.net",
   "language": "en-US",
   "title": "Salmon with Garlic Cream Sauce",
   "ingredients": [
@@ -49,12 +49,12 @@
     "Stir in spinach until wilted, about 1-2 minutes. Return salmon to the skillet; sprinkle with dill.",
     "Serve immediately with lemon wedges."
   ],
-  "total_time": 30,
-  "prep_time": 15,
-  "cook_time": 15,
   "yields": "4 servings",
-  "image": "https://s23209.pcdn.co/wp-content/uploads/2021/06/Salmon-with-Garlic-Cream-SauceIMG_1398.jpg",
   "description": "Perfectly pan-seared salmon served with the most irresistible garlicky cream sauce with sneaked in spinach!",
+  "total_time": 30,
+  "cook_time": 15,
+  "prep_time": 15,
   "ratings": 5.0,
-  "ratings_count": 31.0
+  "ratings_count": 31.0,
+  "image": "https://s23209.pcdn.co/wp-content/uploads/2021/06/Salmon-with-Garlic-Cream-SauceIMG_1398.jpg"
 }

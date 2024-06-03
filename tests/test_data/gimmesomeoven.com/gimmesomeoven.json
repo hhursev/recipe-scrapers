@@ -1,8 +1,8 @@
 {
-  "host": "gimmesomeoven.com",
+  "author": "Ali",
   "canonical_url": "https://www.gimmesomeoven.com/sangria/",
   "site_name": "Gimme Some Oven",
-  "author": "Ali",
+  "host": "gimmesomeoven.com",
   "language": "en-US",
   "title": "Sangria",
   "ingredients": [
@@ -31,17 +31,17 @@
     }
   ],
   "instructions": "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher. Stir to combine. Taste and add in a few tablespoons of sweetener, if desired.\nCover and refrigerate for at least 30 minutes or up to 4 hours.\nServe the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired.",
-  "total_time": 10,
-  "prep_time": 10,
-  "yields": "12 servings",
-  "image": "https://www.gimmesomeoven.com/wp-content/uploads/2019/06/Authentic-Spanish-Sangria-Recipe-3-1-225x225.jpg",
-  "description": "Learn how to make authentic Spanish sangria with this easy sangria recipe. It only takes a few minutes to prep, it's easy to customize with your favorite wine and fruit, and it's great for entertaining a crowd!",
-  "category": null,
-  "ratings": 5.0,
-  "ratings_count": 17,
   "instructions_list": [
     "Add the wine, brandy, orange juice, diced orange, diced apple, diced lemon and cinnamon stick to a large pitcher. Stir to combine. Taste and add in a few tablespoons of sweetener, if desired.",
     "Cover and refrigerate for at least 30 minutes or up to 4 hours.",
     "Serve the sangria over ice, topping off each glass with a splash of bubbly soda (or sparkling water) if desired."
-  ]
+  ],
+  "category": null,
+  "yields": "12 servings",
+  "description": "Learn how to make authentic Spanish sangria with this easy sangria recipe. It only takes a few minutes to prep, it's easy to customize with your favorite wine and fruit, and it's great for entertaining a crowd!",
+  "total_time": 10,
+  "prep_time": 10,
+  "ratings": 5.0,
+  "ratings_count": 17,
+  "image": "https://www.gimmesomeoven.com/wp-content/uploads/2019/06/Authentic-Spanish-Sangria-Recipe-3-1-225x225.jpg"
 }

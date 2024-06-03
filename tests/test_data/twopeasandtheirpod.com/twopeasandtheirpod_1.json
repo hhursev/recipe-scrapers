@@ -1,8 +1,8 @@
 {
-  "host": "twopeasandtheirpod.com",
+  "author": "Maria Lichty",
   "canonical_url": "https://www.twopeasandtheirpod.com/baked-chicken-taquitos/",
   "site_name": "Two Peas & Their Pod",
-  "author": "Maria Lichty",
+  "host": "twopeasandtheirpod.com",
   "language": "en-US",
   "title": "Chicken Taquitos",
   "ingredients": [
@@ -54,12 +54,22 @@
     }
   ],
   "instructions": "Preheat the oven to 425 degrees F. Spray a large baking sheet with nonstick cooking spray and set aside.\nIn a medium bowl, combine the shredded chicken with the cumin, chili powder, salt, garlic powder, paprika, and fresh lime juice. Stir until chicken is well coated with the seasonings. Stir in the shredded cheese.\nGet two paper towels damp and place two tortillas at a time in between the paper towels. Place in the microwave for 20-30 seconds. Remove from the microwave and roll up the taquitos.\nPlace a heaping tablespoon of the chicken and cheese mixture in the center of the tortilla and roll it up tightly. Place the taquito, seam side down on the prepared baking sheet. Continue rolling taquitos until the tortillas and filling are gone. You should have about 20 taquitos.\nSpray the taquitos generously with nonstick cooking spray. Bake for 15-20 minutes or until taquitos are golden brown and crispy. Remove from the oven and serve warm with desired toppings.",
-  "total_time": 40,
-  "prep_time": 15,
-  "cook_time": 25,
+  "instructions_list": [
+    "Preheat the oven to 425 degrees F. Spray a large baking sheet with nonstick cooking spray and set aside.",
+    "In a medium bowl, combine the shredded chicken with the cumin, chili powder, salt, garlic powder, paprika, and fresh lime juice. Stir until chicken is well coated with the seasonings. Stir in the shredded cheese.",
+    "Get two paper towels damp and place two tortillas at a time in between the paper towels. Place in the microwave for 20-30 seconds. Remove from the microwave and roll up the taquitos.",
+    "Place a heaping tablespoon of the chicken and cheese mixture in the center of the tortilla and roll it up tightly. Place the taquito, seam side down on the prepared baking sheet. Continue rolling taquitos until the tortillas and filling are gone. You should have about 20 taquitos.",
+    "Spray the taquitos generously with nonstick cooking spray. Bake for 15-20 minutes or until taquitos are golden brown and crispy. Remove from the oven and serve warm with desired toppings."
+  ],
+  "category": "Appetizer,Main Course",
   "yields": "20 servings",
-  "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2017/03/Baked-Chicken-Taquitos-1.jpg",
   "description": "These easy Baked Chicken Taquitos are stuffed with chicken and cheese and make a great appetizer or meal. These homemade taquitos are a family favorite! Plus, learn how to make taquitos you can freeze for later!",
+  "total_time": 40,
+  "cook_time": 25,
+  "prep_time": 15,
+  "cuisine": "Mexican",
+  "ratings": 4.66,
+  "ratings_count": 132,
   "nutrients": {
     "servingSize": "20 g",
     "calories": "132 kcal",
@@ -71,18 +81,8 @@
     "sodiumContent": "123 mg",
     "fiberContent": "1 g"
   },
-  "cuisine": "Mexican",
-  "category": "Appetizer,Main Course",
+  "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2017/03/Baked-Chicken-Taquitos-1.jpg",
   "keywords": [
     "taquitos"
-  ],
-  "ratings": 4.66,
-  "ratings_count": 132,
-  "instructions_list": [
-    "Preheat the oven to 425 degrees F. Spray a large baking sheet with nonstick cooking spray and set aside.",
-    "In a medium bowl, combine the shredded chicken with the cumin, chili powder, salt, garlic powder, paprika, and fresh lime juice. Stir until chicken is well coated with the seasonings. Stir in the shredded cheese.",
-    "Get two paper towels damp and place two tortillas at a time in between the paper towels. Place in the microwave for 20-30 seconds. Remove from the microwave and roll up the taquitos.",
-    "Place a heaping tablespoon of the chicken and cheese mixture in the center of the tortilla and roll it up tightly. Place the taquito, seam side down on the prepared baking sheet. Continue rolling taquitos until the tortillas and filling are gone. You should have about 20 taquitos.",
-    "Spray the taquitos generously with nonstick cooking spray. Bake for 15-20 minutes or until taquitos are golden brown and crispy. Remove from the oven and serve warm with desired toppings."
   ]
 }

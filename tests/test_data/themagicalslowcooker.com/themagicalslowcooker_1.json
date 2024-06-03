@@ -1,8 +1,8 @@
 {
-  "host": "themagicalslowcooker.com",
+  "author": "Sarah Olson",
   "canonical_url": "https://www.themagicalslowcooker.com/slow-cooker-ground-beef/",
   "site_name": "The Magical Slow Cooker",
-  "author": "Sarah Olson",
+  "host": "themagicalslowcooker.com",
   "language": "en-US",
   "title": "Slow Cooker Ground Beef",
   "ingredients": [
@@ -25,12 +25,22 @@
     }
   ],
   "instructions": "Crumble the beef slightly with your fingers and add to the slow cooker.\nSprinkle over the salt, pepper, onion powder and garlic powder.\nAdd the diced white onion. Stir.\nCook on low for 5 hours or on high for 3 hours. Stirring occasionally, when stirring break up the meat with the spatula.\nServe and enjoy.",
-  "total_time": 245,
-  "prep_time": 5,
-  "cook_time": 240,
+  "instructions_list": [
+    "Crumble the beef slightly with your fingers and add to the slow cooker.",
+    "Sprinkle over the salt, pepper, onion powder and garlic powder.",
+    "Add the diced white onion. Stir.",
+    "Cook on low for 5 hours or on high for 3 hours. Stirring occasionally, when stirring break up the meat with the spatula.",
+    "Serve and enjoy."
+  ],
+  "category": "Main Course",
   "yields": "6 servings",
-  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-8.jpg",
   "description": "Whip up the best-tasting ground beef using just 5 ingredients. This Slow Cooker Ground Beef can be used in just about every recipe!",
+  "total_time": 245,
+  "cook_time": 240,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
   "nutrients": {
     "calories": "275 kcal",
     "carbohydrateContent": "2 g",
@@ -45,18 +55,8 @@
     "unsaturatedFatContent": "8 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Main Course",
+  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-8.jpg",
   "keywords": [
     "ground beef"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 1,
-  "instructions_list": [
-    "Crumble the beef slightly with your fingers and add to the slow cooker.",
-    "Sprinkle over the salt, pepper, onion powder and garlic powder.",
-    "Add the diced white onion. Stir.",
-    "Cook on low for 5 hours or on high for 3 hours. Stirring occasionally, when stirring break up the meat with the spatula.",
-    "Serve and enjoy."
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "host": "eattolerant.de",
+  "author": "Jessica",
   "canonical_url": "https://eattolerant.de/suppe/vegane-rotkohlsuppe-mit-kokosmilch-histaminarm-glutenfrei-low-carb/",
   "site_name": "Eat Tolerant",
-  "author": "Jessica",
+  "host": "eattolerant.de",
   "language": "de-DE",
   "title": "Vegane Rotkohlsuppe mit Kokosmilch",
   "ingredients": [
@@ -35,12 +35,6 @@
     }
   ],
   "instructions": "Die äußeren Blätter vom Rotkohl entfernen, anschließend halbieren, großzügig den Strunk entfernen und in kleine Stücke schneiden.\nDen Apfel sowie die Kartoffeln waschen und schälen, ebenfalls in kleine Stücke schneiden.\nDie Zwiebel in Würfel schneiden und den Ingwer fein reiben.\nDas Kokosöl in einem Top erhitzen, anschließend die Zwiebel und den Rotkohl kurz darin anbraten. Währenddessen mit Salz würzen.\nDie Apfel- und Kartoffelstücke zugeben, ebenfalls kurz anbraten.\nDie Gemüsebrühe, Kokosmilch und den Ingwer zugeben und die Suppe ca. 25 Minuten köcheln lassen. Kurz vor Ende der Garzeit den Verjus sowie Zucker zugeben. Anschließend fein pürieren und sofort servieren.",
-  "total_time": 40,
-  "cook_time": 40,
-  "yields": "2 servings",
-  "image": "https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg",
-  "description": "",
-  "category": "Hauptgericht",
   "instructions_list": [
     "Die äußeren Blätter vom Rotkohl entfernen, anschließend halbieren, großzügig den Strunk entfernen und in kleine Stücke schneiden.",
     "Den Apfel sowie die Kartoffeln waschen und schälen, ebenfalls in kleine Stücke schneiden.",
@@ -48,5 +42,11 @@
     "Das Kokosöl in einem Top erhitzen, anschließend die Zwiebel und den Rotkohl kurz darin anbraten. Währenddessen mit Salz würzen.",
     "Die Apfel- und Kartoffelstücke zugeben, ebenfalls kurz anbraten.",
     "Die Gemüsebrühe, Kokosmilch und den Ingwer zugeben und die Suppe ca. 25 Minuten köcheln lassen. Kurz vor Ende der Garzeit den Verjus sowie Zucker zugeben. Anschließend fein pürieren und sofort servieren."
-  ]
+  ],
+  "category": "Hauptgericht",
+  "yields": "2 servings",
+  "description": "",
+  "total_time": 40,
+  "cook_time": 40,
+  "image": "https://eattolerant.de/wp-content/uploads/2022/01/Vegane-Rotkohlsuppe-13-scaled.jpg"
 }

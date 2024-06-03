@@ -1,8 +1,8 @@
 {
-  "host": "eatliverun.com",
+  "author": "jenna",
   "canonical_url": "https://www.eatliverun.com/honey-miso-glazed-salmon/",
   "site_name": "Eat, Live, Run",
-  "author": "jenna",
+  "host": "eatliverun.com",
   "language": "en-US",
   "title": "Miso Honey Glazed Salmon",
   "ingredients": [
@@ -29,13 +29,13 @@
     }
   ],
   "instructions": "Preheat oven to 425 degrees.\nIn a small saucepot over medium heat, combine the miso paste, honey and olive oil. Cook until honey dissolves and you have a thick glaze.\nSprinkle sea salt on your fish. Then, pour over glaze.\nRoast fish for 6 minutes (for about a 1\" sockeye fillet. If you have a thicker piece of salmon, you will need to roast longer)\nRight when fish comes out of the oven, sprinkle with the chives and the sesame seeds and serve!",
-  "yields": "4 servings",
-  "image": "https://www.eatliverun.com/wp-content/uploads/2017/10/salmon-1-1-of-1.jpg",
   "instructions_list": [
     "Preheat oven to 425 degrees.",
     "In a small saucepot over medium heat, combine the miso paste, honey and olive oil. Cook until honey dissolves and you have a thick glaze.",
     "Sprinkle sea salt on your fish. Then, pour over glaze.",
     "Roast fish for 6 minutes (for about a 1\" sockeye fillet. If you have a thicker piece of salmon, you will need to roast longer)",
     "Right when fish comes out of the oven, sprinkle with the chives and the sesame seeds and serve!"
-  ]
+  ],
+  "yields": "4 servings",
+  "image": "https://www.eatliverun.com/wp-content/uploads/2017/10/salmon-1-1-of-1.jpg"
 }

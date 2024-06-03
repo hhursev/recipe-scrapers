@@ -1,8 +1,8 @@
 {
-  "host": "onceuponachef.com",
+  "author": "By Jenn Segal",
   "canonical_url": "https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html",
   "site_name": "Once Upon a Chef",
-  "author": "By Jenn Segal",
+  "host": "onceuponachef.com",
   "language": "en-US",
   "title": "Pumpkin Bread",
   "ingredients": [
@@ -37,12 +37,24 @@
     }
   ],
   "instructions": "Preheat the oven to 325°F and set an oven rack in the middle position. Generously grease two 8 x 4-inch loaf pans with butter and dust with flour (alternatively, use a baking spray with flour in it, such as Pam with Flour or Baker's Joy).\nIn a medium bowl, combine the flour, salt, baking soda, baking powder, cloves, cinnamon, and nutmeg. Whisk until well combined; set aside.\nIn a large bowl of an electric mixer, beat the butter and sugar on medium speed until just blended. Add the eggs one at a time, beating well after each addition. Continue beating until very light and fluffy, a few minutes. Beat in the pumpkin. The mixture might look grainy and curdled at this point -- that's okay.\nAdd the flour mixture and mix on low speed until combined.\nTurn the batter into the prepared pans, dividing evenly, and bake for 65 – 75 minutes, or until a cake tester inserted into the center comes out clean. Let the loaves cool in the pans for about 10 minutes, then turn out onto a wire rack to cool completely.\nFresh out of the oven, the loaves have a deliciously crisp crust. If they last beyond a day, you can toast individual slices to get the same fresh-baked effect.\nFreezer-Friendly Instructions: The bread can be frozen for up to 3 months. After it is completely cooled, wrap it securely in aluminum foil, freezer wrap or place in a freezer bag. Thaw overnight in the refrigerator before serving.",
-  "total_time": 90,
-  "prep_time": 20,
-  "cook_time": 65,
+  "instructions_list": [
+    "Preheat the oven to 325°F and set an oven rack in the middle position. Generously grease two 8 x 4-inch loaf pans with butter and dust with flour (alternatively, use a baking spray with flour in it, such as Pam with Flour or Baker's Joy).",
+    "In a medium bowl, combine the flour, salt, baking soda, baking powder, cloves, cinnamon, and nutmeg. Whisk until well combined; set aside.",
+    "In a large bowl of an electric mixer, beat the butter and sugar on medium speed until just blended. Add the eggs one at a time, beating well after each addition. Continue beating until very light and fluffy, a few minutes. Beat in the pumpkin. The mixture might look grainy and curdled at this point -- that's okay.",
+    "Add the flour mixture and mix on low speed until combined.",
+    "Turn the batter into the prepared pans, dividing evenly, and bake for 65 – 75 minutes, or until a cake tester inserted into the center comes out clean. Let the loaves cool in the pans for about 10 minutes, then turn out onto a wire rack to cool completely.",
+    "Fresh out of the oven, the loaves have a deliciously crisp crust. If they last beyond a day, you can toast individual slices to get the same fresh-baked effect.",
+    "Freezer-Friendly Instructions: The bread can be frozen for up to 3 months. After it is completely cooled, wrap it securely in aluminum foil, freezer wrap or place in a freezer bag. Thaw overnight in the refrigerator before serving."
+  ],
+  "category": "Breads",
   "yields": "2 loaves",
-  "image": "https://www.onceuponachef.com/images/2009/09/Pumpkin-Bread-100.jpg",
   "description": "Kids love it, grown-ups love it...this pumpkin bread is hard to beat!",
+  "total_time": 90,
+  "cook_time": 65,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 2400,
   "nutrients": {
     "servingSize": "1 slice",
     "calories": "166",
@@ -55,8 +67,7 @@
     "sodiumContent": "117 mg",
     "cholesterolContent": "31 mg"
   },
-  "cuisine": "American",
-  "category": "Breads",
+  "image": "https://www.onceuponachef.com/images/2009/09/Pumpkin-Bread-100.jpg",
   "keywords": [
     "After School Snack",
     "Comfort Food",
@@ -67,16 +78,5 @@
     "Pumpkin",
     "Thanksgiving",
     "Winter"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 2400,
-  "instructions_list": [
-    "Preheat the oven to 325°F and set an oven rack in the middle position. Generously grease two 8 x 4-inch loaf pans with butter and dust with flour (alternatively, use a baking spray with flour in it, such as Pam with Flour or Baker's Joy).",
-    "In a medium bowl, combine the flour, salt, baking soda, baking powder, cloves, cinnamon, and nutmeg. Whisk until well combined; set aside.",
-    "In a large bowl of an electric mixer, beat the butter and sugar on medium speed until just blended. Add the eggs one at a time, beating well after each addition. Continue beating until very light and fluffy, a few minutes. Beat in the pumpkin. The mixture might look grainy and curdled at this point -- that's okay.",
-    "Add the flour mixture and mix on low speed until combined.",
-    "Turn the batter into the prepared pans, dividing evenly, and bake for 65 – 75 minutes, or until a cake tester inserted into the center comes out clean. Let the loaves cool in the pans for about 10 minutes, then turn out onto a wire rack to cool completely.",
-    "Fresh out of the oven, the loaves have a deliciously crisp crust. If they last beyond a day, you can toast individual slices to get the same fresh-baked effect.",
-    "Freezer-Friendly Instructions: The bread can be frozen for up to 3 months. After it is completely cooled, wrap it securely in aluminum foil, freezer wrap or place in a freezer bag. Thaw overnight in the refrigerator before serving."
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "host": "thecookierookie.com",
+  "author": "Becky Hardin",
   "canonical_url": "https://www.thecookierookie.com/brown-sugar-glazed-ham/",
   "site_name": "The Cookie Rookie®",
-  "author": "Becky Hardin",
+  "host": "thecookierookie.com",
   "language": "en-US",
   "title": "Brown Sugar Glazed Ham Recipe",
   "ingredients": [
@@ -51,11 +51,14 @@
     "Rest",
     "Let the ham rest for at least 15 minutes before carving."
   ],
+  "category": "Dinner",
+  "yields": "20 servings",
+  "description": "A whole ham, baked and brushed with the sweetest, tangiest glaze, makes the juicy, tender, and delicious ham your family craves for the holidays.Step-by-step photos can be seen below the recipe card.",
   "total_time": 150,
   "cook_time": 150,
-  "yields": "20 servings",
-  "image": "https://www.thecookierookie.com/wp-content/uploads/2022/12/featured-brown-sugar-glazed-ham-recipe.jpg",
-  "description": "A whole ham, baked and brushed with the sweetest, tangiest glaze, makes the juicy, tender, and delicious ham your family craves for the holidays.Step-by-step photos can be seen below the recipe card.",
+  "cuisine": "American",
+  "ratings": 4.64,
+  "ratings_count": 33.0,
   "nutrients": {
     "servingSize": "0.75 pounds",
     "calories": "565 kcal",
@@ -70,8 +73,7 @@
     "sugarContent": "18 g",
     "unsaturatedFatContent": "12 g"
   },
-  "cuisine": "American",
-  "category": "Dinner",
+  "image": "https://www.thecookierookie.com/wp-content/uploads/2022/12/featured-brown-sugar-glazed-ham-recipe.jpg",
   "keywords": [
     "brown sugar glaze for ham",
     "brown sugar glazed ham",
@@ -79,7 +81,5 @@
     "brown sugar ham glaze recipe",
     "glaze for ham with brown sugar",
     "how to make brown sugar glaze for ham"
-  ],
-  "ratings": 4.64,
-  "ratings_count": 33.0
+  ]
 }

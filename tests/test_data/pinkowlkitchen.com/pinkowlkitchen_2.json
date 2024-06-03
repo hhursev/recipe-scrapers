@@ -1,8 +1,8 @@
 {
-  "host": "pinkowlkitchen.com",
+  "author": "Ashley Boyd",
   "canonical_url": "https://pinkowlkitchen.com/starbucks-chocolate-cream-cold-brew/",
   "site_name": "Pink Owl Kitchen",
-  "author": "Ashley Boyd",
+  "host": "pinkowlkitchen.com",
   "language": "en-US",
   "title": "Chocolate Cream Cold Brew (Starbucks Copycat)",
   "ingredients": [
@@ -34,11 +34,19 @@
     }
   ],
   "instructions": "Add the cream, milk, malted milk powder, vanilla syrup, and cocoa powder to a large cup or glass. Use a handheld milk frother to beat the mixture until it doubles in volume and becomes light and frothy. Set aside.\nFill a tall glass with ice and pour the cold brew over the ice. Add the vanilla syrup, being careful to leave about an inch or so at the top of the glass to accommodate the cold foam.\nPour the chocolate cold foam over the coffee and enjoy!",
+  "instructions_list": [
+    "Add the cream, milk, malted milk powder, vanilla syrup, and cocoa powder to a large cup or glass. Use a handheld milk frother to beat the mixture until it doubles in volume and becomes light and frothy. Set aside.",
+    "Fill a tall glass with ice and pour the cold brew over the ice. Add the vanilla syrup, being careful to leave about an inch or so at the top of the glass to accommodate the cold foam.",
+    "Pour the chocolate cold foam over the coffee and enjoy!"
+  ],
+  "category": "Beverage",
+  "yields": "1 serving",
+  "description": "Chocolate Cream Cold Brew is a delicious coffee drink sweetened with homemade vanilla syrup and topped off with a smooth and frothy chocolate cold foam. This Starbucks dupe tastes even better than the original and makes the perfect summer beverage!",
   "total_time": 5,
   "prep_time": 5,
-  "yields": "1 serving",
-  "image": "https://pinkowlkitchen.com/wp-content/uploads/2022/06/chocolate-cream-cold-brew-featured-image.jpg",
-  "description": "Chocolate Cream Cold Brew is a delicious coffee drink sweetened with homemade vanilla syrup and topped off with a smooth and frothy chocolate cold foam. This Starbucks dupe tastes even better than the original and makes the perfect summer beverage!",
+  "cuisine": "American",
+  "ratings": 4.94,
+  "ratings_count": 16,
   "nutrients": {
     "calories": "200 kcal",
     "carbohydrateContent": "20.8 g",
@@ -51,20 +59,12 @@
     "sugarContent": "18.8 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Beverage",
+  "image": "https://pinkowlkitchen.com/wp-content/uploads/2022/06/chocolate-cream-cold-brew-featured-image.jpg",
   "keywords": [
     "chocolate cream cold brew",
     "cold brew",
     "iced coffee",
     "starbucks drink",
     "starbucks dupe"
-  ],
-  "ratings": 4.94,
-  "ratings_count": 16,
-  "instructions_list": [
-    "Add the cream, milk, malted milk powder, vanilla syrup, and cocoa powder to a large cup or glass. Use a handheld milk frother to beat the mixture until it doubles in volume and becomes light and frothy. Set aside.",
-    "Fill a tall glass with ice and pour the cold brew over the ice. Add the vanilla syrup, being careful to leave about an inch or so at the top of the glass to accommodate the cold foam.",
-    "Pour the chocolate cold foam over the coffee and enjoy!"
   ]
 }

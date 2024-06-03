@@ -1,8 +1,8 @@
 {
-  "host": "modernhoney.com",
+  "author": "Modern Honey - www.modernhoney.com",
   "canonical_url": "https://www.modernhoney.com/sticky-honey-garlic-chicken/",
   "site_name": "Modern Honey",
-  "author": "Modern Honey - www.modernhoney.com",
+  "host": "modernhoney.com",
   "language": "en-US",
   "title": "Honey Garlic Chicken",
   "ingredients": [
@@ -37,21 +37,21 @@
     "Add the remaining 2 Tablespoons of butter and garlic. Cook for 1 minute. Add apple cider vinegar, soy sauce, and honey. Let sauce chicken for 3-4 minutes (or longer if needed). Make sure chicken is fully cooked through and no longer pink.",
     "Remove from heat and coat the chicken with the sauce. Serve with rice, potatoes, or vegetables."
   ],
-  "total_time": 13,
-  "prep_time": 3,
-  "cook_time": 10,
-  "yields": "4 servings",
-  "image": "https://www.modernhoney.com/wp-content/uploads/2020/09/Honey-Garlic-Chicken-4-scaled.jpg",
-  "description": "Honey Garlic Chicken. Quick and easy skillet honey garlic chicken breast. Seared chicken breast in an Asian honey garlic sauce. Made in less than 15 minutes!",
-  "cuisine": "Asian",
   "category": "Dinner",
-  "keywords": [
-    "honey garlic chicken",
-    "sticky honey garlic chicken"
-  ],
+  "yields": "4 servings",
+  "description": "Honey Garlic Chicken. Quick and easy skillet honey garlic chicken breast. Seared chicken breast in an Asian honey garlic sauce. Made in less than 15 minutes!",
+  "total_time": 13,
+  "cook_time": 10,
+  "prep_time": 3,
+  "cuisine": "Asian",
+  "ratings": 4.96,
+  "ratings_count": 21.0,
   "equipment": [
     "12 inch cast iron skillet"
   ],
-  "ratings": 4.96,
-  "ratings_count": 21.0
+  "image": "https://www.modernhoney.com/wp-content/uploads/2020/09/Honey-Garlic-Chicken-4-scaled.jpg",
+  "keywords": [
+    "honey garlic chicken",
+    "sticky honey garlic chicken"
+  ]
 }

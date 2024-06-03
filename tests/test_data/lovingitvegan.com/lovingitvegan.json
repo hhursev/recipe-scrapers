@@ -1,8 +1,8 @@
 {
-  "host": "lovingitvegan.com",
+  "author": "Alison Andrews",
   "canonical_url": "https://lovingitvegan.com/kale-smoothie/",
   "site_name": "Loving It Vegan",
-  "author": "Alison Andrews",
+  "host": "lovingitvegan.com",
   "language": "en-US",
   "title": "Kale Smoothie",
   "ingredients": [
@@ -33,11 +33,19 @@
     }
   ],
   "instructions": "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.\nBlend until very smooth.\nPour out into glasses and serve immediately.",
+  "instructions_list": [
+    "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.",
+    "Blend until very smooth.",
+    "Pour out into glasses and serve immediately."
+  ],
+  "category": "Breakfast,Drinks",
+  "yields": "2 servings",
+  "description": "Creamy and smooth kale smoothie with a gorgeous pale green color that tastes like a delicious ice-cold milkshake! Even if you hate greens you will love this smoothie!",
   "total_time": 10,
   "prep_time": 10,
-  "yields": "2 servings",
-  "image": "https://lovingitvegan.com/wp-content/uploads/2018/08/Kale-Smoothie-8.jpg",
-  "description": "Creamy and smooth kale smoothie with a gorgeous pale green color that tastes like a delicious ice-cold milkshake! Even if you hate greens you will love this smoothie!",
+  "cuisine": "American,Vegan",
+  "ratings": 5.0,
+  "ratings_count": 17,
   "nutrients": {
     "servingSize": "1 Smoothie",
     "calories": "373 kcal",
@@ -49,21 +57,10 @@
     "fiberContent": "4.9 g",
     "proteinContent": "13.8 g"
   },
-  "cuisine": "American,Vegan",
-  "category": "Breakfast,Drinks",
-  "dietary_restrictions": [
-    "Vegan Diet"
-  ],
+  "image": "https://lovingitvegan.com/wp-content/uploads/2018/08/Kale-Smoothie-8.jpg",
   "keywords": [
     "kale smoothie",
     "smoothies",
     "vegan kale smoothie"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 17,
-  "instructions_list": [
-    "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.",
-    "Blend until very smooth.",
-    "Pour out into glasses and serve immediately."
   ]
 }

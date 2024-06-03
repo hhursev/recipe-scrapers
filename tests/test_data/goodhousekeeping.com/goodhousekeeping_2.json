@@ -1,8 +1,8 @@
 {
-  "host": "goodhousekeeping.com",
+  "author": "Ailsa Burt",
   "canonical_url": "https://www.goodhousekeeping.com/uk/food/recipes/a25318183/vegetarian-fajitas/",
   "site_name": "Good Housekeeping",
-  "author": "Ailsa Burt",
+  "host": "goodhousekeeping.com",
   "language": "en-GB",
   "title": "Vegetarian fajitas",
   "ingredients": [
@@ -46,12 +46,18 @@
     }
   ],
   "instructions": "1. Preheat oven to 200°C (180°C fan) mark 6. In a small bowl mix together the garlic granules, cumin, coriander, paprika, chilli powder and oregano.\n2. Add the halloumi, red onion and peppers to a large baking tray. Toss with the vegetable oil and the spice mix. Cook for 20min or until the halloumi is evenly browned.\n3. Serve with tortillas, sour cream and guacamole.",
-  "total_time": 30,
-  "prep_time": 10,
-  "cook_time": 20,
+  "instructions_list": [
+    "1. Preheat oven to 200°C (180°C fan) mark 6. In a small bowl mix together the garlic granules, cumin, coriander, paprika, chilli powder and oregano.",
+    "2. Add the halloumi, red onion and peppers to a large baking tray. Toss with the vegetable oil and the spice mix. Cook for 20min or until the halloumi is evenly browned.",
+    "3. Serve with tortillas, sour cream and guacamole."
+  ],
+  "category": "vegetarian,dinner",
   "yields": "4 servings",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/vegetarian-fajitas-1545043586.jpg?crop=0.497xw:0.884xh;0,0.0638xh&resize=1200:*",
   "description": "These veggie fajitas are packed full of halloumi, and are SUPER easy to throw together!",
+  "total_time": 30,
+  "cook_time": 20,
+  "prep_time": 10,
+  "cuisine": null,
   "nutrients": {
     "calories": "508cals",
     "fatContent": "35g",
@@ -61,18 +67,12 @@
     "proteinContent": "31g",
     "fiberContent": "5g"
   },
-  "cuisine": null,
-  "category": "vegetarian,dinner",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/vegetarian-fajitas-1545043586.jpg?crop=0.497xw:0.884xh;0,0.0638xh&resize=1200:*",
   "keywords": [
     "dinner",
     "vegetarian",
     "fajitas",
     "vegetarian fajitas",
     "halloumi"
-  ],
-  "instructions_list": [
-    "1. Preheat oven to 200°C (180°C fan) mark 6. In a small bowl mix together the garlic granules, cumin, coriander, paprika, chilli powder and oregano.",
-    "2. Add the halloumi, red onion and peppers to a large baking tray. Toss with the vegetable oil and the spice mix. Cook for 20min or until the halloumi is evenly browned.",
-    "3. Serve with tortillas, sour cream and guacamole."
   ]
 }

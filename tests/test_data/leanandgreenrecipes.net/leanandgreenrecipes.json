@@ -1,8 +1,8 @@
 {
-  "host": "leanandgreenrecipes.net",
+  "author": "lean.green",
   "canonical_url": "https://leanandgreenrecipes.net/recipes/mexican/yellow-squash-taco-casserole/",
   "site_name": "Lean and Green Recipes",
-  "author": "lean.green",
+  "host": "leanandgreenrecipes.net",
   "language": "en",
   "title": "Healthy Yellow Squash Taco Casserole Recipe",
   "ingredients": [
@@ -33,21 +33,21 @@
     }
   ],
   "instructions": "Preheat oven to 350*F.\nCook the ground beef. After browning the meat, add the canned Diced tomatoes and seasonings to the ground beef and simmer for 5 minutes.\nPlace the sliced squash to the bottom of a 9 x 13 inch baking pan.\nPlace meat mixture on top of squash, sprinkle grated cheese on top.\nBake in preheated oven for about 25 minutes.",
-  "total_time": 40.0,
-  "prep_time": 15,
-  "cook_time": 25,
-  "yields": "5 servings",
-  "image": "https://leanandgreenrecipes.net/sites/default/files/2021-08/Yellow%20Squash%20Taco%20Casserole.jpg",
-  "description": "Tip: Recipe makes 5 servings, but casserole can be divided into individual 1 serving portions and freezing for later.",
-  "cuisine": "Mexican",
-  "category": "<a href=\"/recipes/category/accompaniment/\" hreflang=\"en\">Accompaniment</a>",
-  "ratings": 3.7,
-  "ratings_count": 23,
   "instructions_list": [
     "Preheat oven to 350*F.",
     "Cook the ground beef. After browning the meat, add the canned Diced tomatoes and seasonings to the ground beef and simmer for 5 minutes.",
     "Place the sliced squash to the bottom of a 9 x 13 inch baking pan.",
     "Place meat mixture on top of squash, sprinkle grated cheese on top.",
     "Bake in preheated oven for about 25 minutes."
-  ]
+  ],
+  "category": "<a href=\"/recipes/category/accompaniment/\" hreflang=\"en\">Accompaniment</a>",
+  "yields": "5 servings",
+  "description": "Tip: Recipe makes 5 servings, but casserole can be divided into individual 1 serving portions and freezing for later.",
+  "total_time": 40.0,
+  "cook_time": 25,
+  "prep_time": 15,
+  "cuisine": "Mexican",
+  "ratings": 3.7,
+  "ratings_count": 23,
+  "image": "https://leanandgreenrecipes.net/sites/default/files/2021-08/Yellow%20Squash%20Taco%20Casserole.jpg"
 }

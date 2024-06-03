@@ -1,8 +1,8 @@
 {
-  "host": "biancazapatka.com",
+  "author": "Bianca Zapatka",
   "canonical_url": "https://biancazapatka.com/en/tempeh-rice-noodle-bowl-in-peanut-sauce/",
   "site_name": "Bianca Zapatka",
-  "author": "Bianca Zapatka",
+  "host": "biancazapatka.com",
   "language": "en-US",
   "title": "Rice Noodle Salad with Tempeh and Peanut Sauce",
   "ingredients": [
@@ -61,12 +61,24 @@
     }
   ],
   "instructions": "Marinated Tempeh\nFor the marinade, pour tamari, sesame oil, rice vinegar, maple syrup, and Sriracha into a sealable container. Press in the garlic, grate in the ginger, and stir everything together.\nCut the tempeh into cubes and add them to the marinade. Seal the container and shake well until the tempeh is completely marinated. Then let it marinate for at least 20 minutes (or overnight in the refrigerator).\nNoodles & Veggies\nMeanwhile, prepare and chop the vegetables. Cover the rice noodles with boiling water and set aside, covered, for 10 minutes (or according to package directions). Then drain and rinse with fresh water.\nCook and assemble\nOnce the tempeh is marinated, heat about 1-2 tbsp of oil in a frying pan (or wok). Remove the tempeh from the marinade (you can use the remaining marinade to make the peanut sauce) and cook until golden brown from all sides.\nAssemble the rice noodles and vegetables in bowls, as shown in the recipe video. Add the tempeh on top and drizzle with peanut sauce. Lastly, garnish with scallions, sesame seeds, and peanuts, and serve with fresh limes on the side.\nEnjoy!",
-  "total_time": 35,
-  "prep_time": 25,
-  "cook_time": 10,
+  "instructions_list": [
+    "Marinated Tempeh",
+    "For the marinade, pour tamari, sesame oil, rice vinegar, maple syrup, and Sriracha into a sealable container. Press in the garlic, grate in the ginger, and stir everything together.",
+    "Cut the tempeh into cubes and add them to the marinade. Seal the container and shake well until the tempeh is completely marinated. Then let it marinate for at least 20 minutes (or overnight in the refrigerator).",
+    "Noodles & Veggies",
+    "Meanwhile, prepare and chop the vegetables. Cover the rice noodles with boiling water and set aside, covered, for 10 minutes (or according to package directions). Then drain and rinse with fresh water.",
+    "Cook and assemble",
+    "Once the tempeh is marinated, heat about 1-2 tbsp of oil in a frying pan (or wok). Remove the tempeh from the marinade (you can use the remaining marinade to make the peanut sauce) and cook until golden brown from all sides.",
+    "Assemble the rice noodles and vegetables in bowls, as shown in the recipe video. Add the tempeh on top and drizzle with peanut sauce. Lastly, garnish with scallions, sesame seeds, and peanuts, and serve with fresh limes on the side.",
+    "Enjoy!"
+  ],
+  "category": "Lunch &amp; Dinner,Main Course",
   "yields": "4 servings",
-  "image": "https://biancazapatka.com/wp-content/uploads/2022/07/buddha-bowl-sauce.jpg",
   "description": "This colorful Tempeh Rice Noodle Salad Bowl recipe is quick and easy to make, super healthy, and incredibly delicious! A vegan banquet of perfectly marinated tempeh with gluten-free rice noodles, crunchy fresh veggies, and the best peanut sauce ever! It’s the perfect bowl of happiness for anyone who’s looking to combine healthy eating with indulgence!",
+  "total_time": 35,
+  "cook_time": 10,
+  "prep_time": 25,
+  "cuisine": "Asian",
   "nutrients": {
     "servingSize": "1 Bowl",
     "calories": "451 kcal",
@@ -78,8 +90,7 @@
     "sugarContent": "5.8 g",
     "fiberContent": "4.4 g"
   },
-  "cuisine": "Asian",
-  "category": "Lunch &amp; Dinner,Main Course",
+  "image": "https://biancazapatka.com/wp-content/uploads/2022/07/buddha-bowl-sauce.jpg",
   "keywords": [
     "Asia Noodles",
     "Asian Food",
@@ -89,16 +100,5 @@
     "Rice Noodles",
     "Tempeh",
     "Vegetables"
-  ],
-  "instructions_list": [
-    "Marinated Tempeh",
-    "For the marinade, pour tamari, sesame oil, rice vinegar, maple syrup, and Sriracha into a sealable container. Press in the garlic, grate in the ginger, and stir everything together.",
-    "Cut the tempeh into cubes and add them to the marinade. Seal the container and shake well until the tempeh is completely marinated. Then let it marinate for at least 20 minutes (or overnight in the refrigerator).",
-    "Noodles & Veggies",
-    "Meanwhile, prepare and chop the vegetables. Cover the rice noodles with boiling water and set aside, covered, for 10 minutes (or according to package directions). Then drain and rinse with fresh water.",
-    "Cook and assemble",
-    "Once the tempeh is marinated, heat about 1-2 tbsp of oil in a frying pan (or wok). Remove the tempeh from the marinade (you can use the remaining marinade to make the peanut sauce) and cook until golden brown from all sides.",
-    "Assemble the rice noodles and vegetables in bowls, as shown in the recipe video. Add the tempeh on top and drizzle with peanut sauce. Lastly, garnish with scallions, sesame seeds, and peanuts, and serve with fresh limes on the side.",
-    "Enjoy!"
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "host": "ricetteperbimby.it",
+  "author": "RicettePerBimby",
   "canonical_url": "https://www.ricetteperbimby.it/ricette/crema-pasticcera-veloce-bimby",
   "site_name": "Ricetteperbimby.it",
-  "author": "RicettePerBimby",
+  "host": "ricetteperbimby.it",
   "language": "it",
   "title": "Crema pasticcera Bimby",
   "ingredients": [
@@ -25,24 +25,23 @@
     }
   ],
   "instructions": "Mettere tutti gli ingredienti nel boccale: 7 min. 90° vel. 4.\nLasciar freddare in una ciotola coperta da pellicola e riporre in frigo.",
-  "total_time": 15,
-  "prep_time": 5,
-  "cook_time": 10,
-  "yields": "750 servings",
-  "image": "https://www.ricetteperbimby.it/foto-ricette/crema-pasticcera-veloce-bimby.jpg",
-  "description": "Pronta in pochi minuti e perfetta per farcire i tuoi dolci o essere gustata da sola, la crema pasticcera Bimby è una ricetta veloce che ti conquisterà.",
-  "cuisine": "Italiana",
-  "category": "Dolci e Dessert",
-  "keywords": [
-    "ricette",
-    "bimby",
-    "Crema pasticcera veloce"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 344,
   "instructions_list": [
     "Mettere tutti gli ingredienti nel boccale: 7 min. 90° vel. 4.",
     "Lasciar freddare in una ciotola coperta da pellicola e riporre in frigo."
   ],
-  "rating": "5.0"
+  "category": "Dolci e Dessert",
+  "yields": "750 servings",
+  "description": "Pronta in pochi minuti e perfetta per farcire i tuoi dolci o essere gustata da sola, la crema pasticcera Bimby è una ricetta veloce che ti conquisterà.",
+  "total_time": 15,
+  "cook_time": 10,
+  "prep_time": 5,
+  "cuisine": "Italiana",
+  "ratings": 5.0,
+  "ratings_count": 344,
+  "image": "https://www.ricetteperbimby.it/foto-ricette/crema-pasticcera-veloce-bimby.jpg",
+  "keywords": [
+    "ricette",
+    "bimby",
+    "Crema pasticcera veloce"
+  ]
 }

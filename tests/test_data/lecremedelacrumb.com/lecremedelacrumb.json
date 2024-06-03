@@ -1,8 +1,8 @@
 {
-  "host": "lecremedelacrumb.com",
+  "author": "Tiffany",
   "canonical_url": "https://www.lecremedelacrumb.com/instant-pot-shredded-chicken-tacos/",
   "site_name": "Creme De La Crumb",
-  "author": "Tiffany",
+  "host": "lecremedelacrumb.com",
   "language": "en-US",
   "title": "Instant Pot Shredded Chicken Tacos",
   "ingredients": [
@@ -33,12 +33,21 @@
     }
   ],
   "instructions": "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).\nCover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)\nDo a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.\nServe chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings.",
-  "total_time": 35,
-  "prep_time": 15,
-  "cook_time": 20,
+  "instructions_list": [
+    "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).",
+    "Cover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)",
+    "Do a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.",
+    "Serve chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings."
+  ],
+  "category": "Main Course",
   "yields": "4 servings",
-  "image": "https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/instant-pot-shredded-chicken-tacos-5.jpg",
   "description": "These are the BEST Instant Pot Shredded Chicken Tacos, hands down. You'll love how quick, easy, and healthy this recipe is!",
+  "total_time": 35,
+  "cook_time": 20,
+  "prep_time": 15,
+  "cuisine": "Mexican",
+  "ratings": 4.85,
+  "ratings_count": 165,
   "nutrients": {
     "calories": "202 kcal",
     "carbohydrateContent": "1 g",
@@ -52,20 +61,11 @@
     "sugarContent": "1 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "Mexican",
-  "category": "Main Course",
+  "image": "https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/instant-pot-shredded-chicken-tacos-5.jpg",
   "keywords": [
     "Chicken",
     "healthy",
     "instant pot",
     "slow cooker"
-  ],
-  "ratings": 4.85,
-  "ratings_count": 165,
-  "instructions_list": [
-    "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).",
-    "Cover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)",
-    "Do a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.",
-    "Serve chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings."
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "host": "cdkitchen.com",
+  "author": "FAKelco",
   "canonical_url": "https://www.cdkitchen.com/recipes/recs/473/Veal-Steak-Vesuvio92364.shtml",
   "site_name": "CDKitchen",
-  "author": "FAKelco",
+  "host": "cdkitchen.com",
   "language": "en",
   "title": "Veal Steak Vesuvio",
   "ingredients": [
@@ -33,13 +33,13 @@
     }
   ],
   "instructions": "Combine seasoning ingredients. Brush 1/2 of seasoning on veal steaks. Toss remaining seasoning with potatoes.\nPlace steaks and potatoes on rack in broiler pan so surface of veal is 3 to 4 inches from heat. Squeeze juice from lemon wedges over steaks and potatoes; place wedges on rack. Broil 26 to 28 minutes for medium doneness, turning steaks, potatoes and lemon once. Remove steaks.\nContinue broiling potatoes and lemon 3 to 5 minutes or until lightly browned. Carve veal; season with salt. Serve with potatoes, lemon and peas.",
-  "total_time": 45,
-  "yields": "4 servings",
-  "image": "https://cdn.cdkitchen.com/recipes/images/sharing/25/veal-steak-vesuvio-63237-small.png",
-  "category": null,
   "instructions_list": [
     "Combine seasoning ingredients. Brush 1/2 of seasoning on veal steaks. Toss remaining seasoning with potatoes.",
     "Place steaks and potatoes on rack in broiler pan so surface of veal is 3 to 4 inches from heat. Squeeze juice from lemon wedges over steaks and potatoes; place wedges on rack. Broil 26 to 28 minutes for medium doneness, turning steaks, potatoes and lemon once. Remove steaks.",
     "Continue broiling potatoes and lemon 3 to 5 minutes or until lightly browned. Carve veal; season with salt. Serve with potatoes, lemon and peas."
-  ]
+  ],
+  "category": null,
+  "yields": "4 servings",
+  "total_time": 45,
+  "image": "https://cdn.cdkitchen.com/recipes/images/sharing/25/veal-steak-vesuvio-63237-small.png"
 }

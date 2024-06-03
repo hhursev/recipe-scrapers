@@ -1,8 +1,8 @@
 {
-  "host": "forksoverknives.com",
+  "author": "Darshana Thacker Wendel",
   "canonical_url": "https://www.forksoverknives.com/recipes/vegan-pasta-noodles/butternut-mac-and-cheese-broccoli/",
   "site_name": "Forks Over Knives",
-  "author": "Darshana Thacker Wendel",
+  "host": "forksoverknives.com",
   "language": "en-US",
   "title": "Butternut Squash Mac and Cheese with Broccoli",
   "ingredients": [
@@ -39,18 +39,18 @@
     }
   ],
   "instructions": "Peel squash; halve squash and remove seeds. Cut squash into large pieces. Place squash pieces in a steamer basket in a large pan. Add water to saucepan to just below basket. Bring to boiling. Steam, covered, about 12 minutes or until tender.\nHeat a large saucepan over medium. Add onion, garlic, thyme, and ¼ cup water to pan. Cook about 10 minutes or until onion is tender, stirring occasionally and adding water, 1 to 2 Tbsp. at a time, as needed to prevent sticking.\nTransfer onion mixture to a blender. Add squash and the next five ingredients (through pepper). Cover and blend until smooth. Pour squash mixture into a large saucepan.\nCook pasta according to package directions, adding broccoli the last 5 minutes of cooking; drain. Add drained pasta and broccoli to squash mixture; toss to coat. Serve warm topped with fresh basil.",
-  "total_time": 30,
-  "prep_time": 30,
-  "yields": "6 cups",
-  "image": "https://www.forksoverknives.com/uploads/butternut-broccoli-mac-and-cheese-wordpress.jpg",
-  "description": "Spiced butternut squash blended with nutritional yeast and a little plant milk makes a delightfully rich and “cheesy” sauce for pasta and broccoli. Pumpkin, acorn squash, or delicata squash will also work in this recipe. To make this recipe gluten-free, chose a whole grain pasta made with rice, corn, and/or quinoa.",
-  "category": "Pasta & Noodles",
-  "ratings": 4.07,
-  "ratings_count": 54,
   "instructions_list": [
     "Peel squash; halve squash and remove seeds. Cut squash into large pieces. Place squash pieces in a steamer basket in a large pan. Add water to saucepan to just below basket. Bring to boiling. Steam, covered, about 12 minutes or until tender.",
     "Heat a large saucepan over medium. Add onion, garlic, thyme, and ¼ cup water to pan. Cook about 10 minutes or until onion is tender, stirring occasionally and adding water, 1 to 2 Tbsp. at a time, as needed to prevent sticking.",
     "Transfer onion mixture to a blender. Add squash and the next five ingredients (through pepper). Cover and blend until smooth. Pour squash mixture into a large saucepan.",
     "Cook pasta according to package directions, adding broccoli the last 5 minutes of cooking; drain. Add drained pasta and broccoli to squash mixture; toss to coat. Serve warm topped with fresh basil."
-  ]
+  ],
+  "category": "Pasta & Noodles",
+  "yields": "6 cups",
+  "description": "Spiced butternut squash blended with nutritional yeast and a little plant milk makes a delightfully rich and “cheesy” sauce for pasta and broccoli. Pumpkin, acorn squash, or delicata squash will also work in this recipe. To make this recipe gluten-free, chose a whole grain pasta made with rice, corn, and/or quinoa.",
+  "total_time": 30,
+  "prep_time": 30,
+  "ratings": 4.07,
+  "ratings_count": 54,
+  "image": "https://www.forksoverknives.com/uploads/butternut-broccoli-mac-and-cheese-wordpress.jpg"
 }

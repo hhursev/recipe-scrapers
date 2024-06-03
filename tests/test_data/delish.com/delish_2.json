@@ -1,8 +1,8 @@
 {
-  "host": "delish.com",
+  "author": "Riley Wofford",
   "canonical_url": "https://www.delish.com/cooking/recipe-ideas/a40272839/apple-cookie-recipe/",
   "site_name": "Delish",
-  "author": "Riley Wofford",
+  "host": "delish.com",
   "language": "en-US",
   "title": "Apple Cookies",
   "ingredients": [
@@ -46,11 +46,24 @@
     }
   ],
   "instructions": "Cookie Dough\nPreheat oven to 350°. Line 2 large baking sheets with parchment paper.\nIn a medium bowl, whisk flour, apple pie spice, baking soda, and salt.\nIn the bowl of a stand mixer fitted with the whisk attachment, beat butter, granulated sugar, and brown sugar on medium speed until light and fluffy, about 2 minutes. Add egg and mix until incorporated, then mix in vanilla. Add dry ingredients to butter mixture and beat until well combined. Stir in apples until just combined. Cover and chill dough until cold, about 30 minutes.\nScoop 2-tablespoon balls of dough (about 20 balls) and arrange 2\" apart on prepared sheets. Bake until cookies are just set and light golden brown, 14 to 18 minutes. Let cool completely.\nIcing\nIn a small bowl, whisk powdered sugar and lemon juice. Add water, 1 teaspoon at a time, until icing is thick but pourable.\nSpoon icing over cooled cookies. Let stand until icing sets, about 15 minutes.\nMake Ahead: Cookies can be made 2 days ahead. Store in an airtight container at room temperature.",
+  "instructions_list": [
+    "Cookie Dough",
+    "Preheat oven to 350°. Line 2 large baking sheets with parchment paper.",
+    "In a medium bowl, whisk flour, apple pie spice, baking soda, and salt.",
+    "In the bowl of a stand mixer fitted with the whisk attachment, beat butter, granulated sugar, and brown sugar on medium speed until light and fluffy, about 2 minutes. Add egg and mix until incorporated, then mix in vanilla. Add dry ingredients to butter mixture and beat until well combined. Stir in apples until just combined. Cover and chill dough until cold, about 30 minutes.",
+    "Scoop 2-tablespoon balls of dough (about 20 balls) and arrange 2\" apart on prepared sheets. Bake until cookies are just set and light golden brown, 14 to 18 minutes. Let cool completely.",
+    "Icing",
+    "In a small bowl, whisk powdered sugar and lemon juice. Add water, 1 teaspoon at a time, until icing is thick but pourable.",
+    "Spoon icing over cooled cookies. Let stand until icing sets, about 15 minutes.",
+    "Make Ahead: Cookies can be made 2 days ahead. Store in an airtight container at room temperature."
+  ],
+  "category": "nut-free,vegetarian,autumn,baking,dessert",
+  "yields": "20 servings",
+  "description": "Apple cookies are packed with grated Granny Smith apples and topped with lemony apple pie spice icing.",
   "total_time": 100,
   "prep_time": 20,
-  "yields": "20 servings",
-  "image": "https://hips.hearstapps.com/hmg-prod/images/apple-cookies1-1656349038.jpg?crop=0.681xw:1.00xh;0.0696xw,0&resize=1200:*",
-  "description": "Apple cookies are packed with grated Granny Smith apples and topped with lemony apple pie spice icing.",
+  "ratings": 3.0,
+  "ratings_count": 3,
   "nutrients": {
     "calories": "128 Calories",
     "fatContent": "4 g",
@@ -63,25 +76,12 @@
     "sugarContent": "15 g",
     "proteinContent": "1 g"
   },
-  "category": "nut-free,vegetarian,autumn,baking,dessert",
+  "image": "https://hips.hearstapps.com/hmg-prod/images/apple-cookies1-1656349038.jpg?crop=0.681xw:1.00xh;0.0696xw,0&resize=1200:*",
   "keywords": [
     "autumn",
     "baking",
     "dessert",
     "nut-free",
     "vegetarian"
-  ],
-  "ratings": 3.0,
-  "ratings_count": 3,
-  "instructions_list": [
-    "Cookie Dough",
-    "Preheat oven to 350°. Line 2 large baking sheets with parchment paper.",
-    "In a medium bowl, whisk flour, apple pie spice, baking soda, and salt.",
-    "In the bowl of a stand mixer fitted with the whisk attachment, beat butter, granulated sugar, and brown sugar on medium speed until light and fluffy, about 2 minutes. Add egg and mix until incorporated, then mix in vanilla. Add dry ingredients to butter mixture and beat until well combined. Stir in apples until just combined. Cover and chill dough until cold, about 30 minutes.",
-    "Scoop 2-tablespoon balls of dough (about 20 balls) and arrange 2\" apart on prepared sheets. Bake until cookies are just set and light golden brown, 14 to 18 minutes. Let cool completely.",
-    "Icing",
-    "In a small bowl, whisk powdered sugar and lemon juice. Add water, 1 teaspoon at a time, until icing is thick but pourable.",
-    "Spoon icing over cooled cookies. Let stand until icing sets, about 15 minutes.",
-    "Make Ahead: Cookies can be made 2 days ahead. Store in an airtight container at room temperature."
   ]
 }

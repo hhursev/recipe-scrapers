@@ -1,8 +1,8 @@
 {
-  "host": "whatsgabycooking.com",
+  "author": "Gaby Dalkin",
   "canonical_url": "https://whatsgabycooking.com/vegetarian-quinoa-bake/",
   "site_name": "What's Gaby Cooking",
-  "author": "Gaby Dalkin",
+  "host": "whatsgabycooking.com",
   "language": "en-US",
   "title": "Vegetarian Quinoa Bake",
   "ingredients": [
@@ -33,12 +33,22 @@
     }
   ],
   "instructions": "Preheat the oven to 375 degrees F.\nCook the quinoa according to the package directions. Once cooked, remove from heat and transfer the cooked quinoa into a large bowl.\nFold in 1 1/2 cups of the shredded colby jack cheese, ½ cup of the shredded mozzarella, black beans, corn, green chiles and salsa. Season the entire mixture with salt and pepper and stir to combine.\nLightly spray a medium sized skillet with non-stick spray, and transfer the mixture into the skillet. Top with the remaining shredded cheeses and bake for about 20-25 minutes until the top layer of cheese is bubbly and melted.\nRemove the baking dish from the oven and garnish with green onions and cilantro and serve.",
-  "total_time": 45,
-  "prep_time": 5,
-  "cook_time": 40,
+  "instructions_list": [
+    "Preheat the oven to 375 degrees F.",
+    "Cook the quinoa according to the package directions. Once cooked, remove from heat and transfer the cooked quinoa into a large bowl.",
+    "Fold in 1 1/2 cups of the shredded colby jack cheese, ½ cup of the shredded mozzarella, black beans, corn, green chiles and salsa. Season the entire mixture with salt and pepper and stir to combine.",
+    "Lightly spray a medium sized skillet with non-stick spray, and transfer the mixture into the skillet. Top with the remaining shredded cheeses and bake for about 20-25 minutes until the top layer of cheese is bubbly and melted.",
+    "Remove the baking dish from the oven and garnish with green onions and cilantro and serve."
+  ],
+  "category": "Main Course",
   "yields": "6 servings",
-  "image": "https://whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg",
   "description": "This super easy Vegetarian Quinoa Bake is a one pot wonder. It’s prepped and baked in a skillet, loaded with various ad-ins and topped it with cheese! Get ready for your new favorite dinner.",
+  "total_time": 45,
+  "cook_time": 40,
+  "prep_time": 5,
+  "cuisine": "Tex Mex",
+  "ratings": 5.0,
+  "ratings_count": 2,
   "nutrients": {
     "calories": "462 kcal",
     "carbohydrateContent": "45 g",
@@ -52,19 +62,9 @@
     "unsaturatedFatContent": "8 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "Tex Mex",
-  "category": "Main Course",
+  "image": "https://whatsgabycooking.com/wp-content/uploads/2017/10/WGC-Quinoa-Bake-copy-2.jpg",
   "keywords": [
     "quinoa bake",
     "vegetarian quinoa bake"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 2,
-  "instructions_list": [
-    "Preheat the oven to 375 degrees F.",
-    "Cook the quinoa according to the package directions. Once cooked, remove from heat and transfer the cooked quinoa into a large bowl.",
-    "Fold in 1 1/2 cups of the shredded colby jack cheese, ½ cup of the shredded mozzarella, black beans, corn, green chiles and salsa. Season the entire mixture with salt and pepper and stir to combine.",
-    "Lightly spray a medium sized skillet with non-stick spray, and transfer the mixture into the skillet. Top with the remaining shredded cheeses and bake for about 20-25 minutes until the top layer of cheese is bubbly and melted.",
-    "Remove the baking dish from the oven and garnish with green onions and cilantro and serve."
   ]
 }

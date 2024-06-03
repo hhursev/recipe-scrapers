@@ -1,8 +1,8 @@
 {
-  "host": "allrecipes.com",
+  "author": "Michelle",
   "canonical_url": "https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/",
   "site_name": "Allrecipes",
-  "author": "Michelle",
+  "host": "allrecipes.com",
   "language": "en",
   "title": "Four Cheese Margherita Pizza",
   "ingredients": [
@@ -35,12 +35,20 @@
     }
   ],
   "instructions": "Stir together olive oil, garlic, and salt; toss with tomatoes, and allow to stand for 15 minutes. Preheat oven to 400 degrees F (200 degrees C).\nBrush each pizza crust with some of the tomato marinade. Sprinkle the pizzas evenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop, then sprinkle with shredded basil, Parmesan, and feta cheese.\nBake in preheated oven until the cheese is bubbly and golden brown, about 10 minutes.",
-  "total_time": 40.0,
-  "prep_time": 15.0,
-  "cook_time": 10.0,
+  "instructions_list": [
+    "Stir together olive oil, garlic, and salt; toss with tomatoes, and allow to stand for 15 minutes. Preheat oven to 400 degrees F (200 degrees C).",
+    "Brush each pizza crust with some of the tomato marinade. Sprinkle the pizzas evenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop, then sprinkle with shredded basil, Parmesan, and feta cheese.",
+    "Bake in preheated oven until the cheese is bubbly and golden brown, about 10 minutes."
+  ],
+  "category": "Dinner",
   "yields": "8 servings",
-  "image": "https://www.allrecipes.com/thmb/dA8YLuNy2HMa9s-tSTiFYjPdXy0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5225433-four-cheese-margherita-pizza-Christina-4x3-1-29b0fe4316b74017a5ae437e9ebb319d.jpg",
   "description": "These delicious four cheese pizzas are bursting with flavor, and ready in under one hour.",
+  "total_time": 40.0,
+  "cook_time": 10.0,
+  "prep_time": 15.0,
+  "cuisine": "Italian Inspired",
+  "ratings": 4.8,
+  "ratings_count": 487,
   "nutrients": {
     "calories": "551 kcal",
     "carbohydrateContent": "54 g",
@@ -53,13 +61,5 @@
     "sugarContent": "5 g",
     "unsaturatedFatContent": "0 g"
   },
-  "cuisine": "Italian Inspired",
-  "category": "Dinner",
-  "ratings": 4.8,
-  "ratings_count": 487,
-  "instructions_list": [
-    "Stir together olive oil, garlic, and salt; toss with tomatoes, and allow to stand for 15 minutes. Preheat oven to 400 degrees F (200 degrees C).",
-    "Brush each pizza crust with some of the tomato marinade. Sprinkle the pizzas evenly with Mozzarella and Fontina cheeses. Arrange tomatoes overtop, then sprinkle with shredded basil, Parmesan, and feta cheese.",
-    "Bake in preheated oven until the cheese is bubbly and golden brown, about 10 minutes."
-  ]
+  "image": "https://www.allrecipes.com/thmb/dA8YLuNy2HMa9s-tSTiFYjPdXy0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5225433-four-cheese-margherita-pizza-Christina-4x3-1-29b0fe4316b74017a5ae437e9ebb319d.jpg"
 }

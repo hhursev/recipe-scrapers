@@ -1,8 +1,8 @@
 {
-  "host": "persnicketyplates.com",
+  "author": "Melissa Williams",
   "canonical_url": "https://www.persnicketyplates.com/slow-cooker-hawaiian-meatballs/",
   "site_name": "Persnickety Plates",
-  "author": "Melissa Williams",
+  "host": "persnicketyplates.com",
   "language": "en-US",
   "title": "Easy Slow Cooker Hawaiian Meatballs",
   "ingredients": [
@@ -33,12 +33,22 @@
     }
   ],
   "instructions": "Pour the frozen meatballs, pineapple chunks, peppers and onions into the basin of a 6-8 quart slow cooker.\nIn a medium mixing bowl, whisk together the barbecue sauce, soy sauce, vinegar, brown sugar, and minced garlic.\nPour the sauce over the meatballs and gently stir to evenly distribute.\nCover and cook on HIGH for 2-3 hours.\nGarnish with chopped scallions.",
-  "total_time": 125,
-  "prep_time": 5,
-  "cook_time": 120,
+  "instructions_list": [
+    "Pour the frozen meatballs, pineapple chunks, peppers and onions into the basin of a 6-8 quart slow cooker.",
+    "In a medium mixing bowl, whisk together the barbecue sauce, soy sauce, vinegar, brown sugar, and minced garlic.",
+    "Pour the sauce over the meatballs and gently stir to evenly distribute.",
+    "Cover and cook on HIGH for 2-3 hours.",
+    "Garnish with chopped scallions."
+  ],
+  "category": "Appetizer,Main Course",
   "yields": "8 servings",
-  "image": "https://www.persnicketyplates.com/wp-content/uploads/2023/06/slow-cooker-hawaiian-meatballs-10-SQUARE.jpg",
   "description": "Slow cooker Hawaiian meatballs are made with frozen meatballs, canned pineapple, peppers, onions, and a sweet and tangy sauce. This dump-and-go crockpot recipe makes the perfect appetizer or a main dish that the whole family will love!",
+  "total_time": 125,
+  "cook_time": 120,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 2,
   "nutrients": {
     "servingSize": "1 g",
     "calories": "638 kcal",
@@ -52,20 +62,10 @@
     "sugarContent": "35 g",
     "unsaturatedFatContent": "19 g"
   },
-  "cuisine": "American",
-  "category": "Appetizer,Main Course",
+  "image": "https://www.persnicketyplates.com/wp-content/uploads/2023/06/slow-cooker-hawaiian-meatballs-10-SQUARE.jpg",
   "keywords": [
     "Crock pot hawaiian meatballs",
     "Crockpot hawaiian meatballs",
     "Slow cooker hawaiian meatballs"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 2,
-  "instructions_list": [
-    "Pour the frozen meatballs, pineapple chunks, peppers and onions into the basin of a 6-8 quart slow cooker.",
-    "In a medium mixing bowl, whisk together the barbecue sauce, soy sauce, vinegar, brown sugar, and minced garlic.",
-    "Pour the sauce over the meatballs and gently stir to evenly distribute.",
-    "Cover and cook on HIGH for 2-3 hours.",
-    "Garnish with chopped scallions."
   ]
 }

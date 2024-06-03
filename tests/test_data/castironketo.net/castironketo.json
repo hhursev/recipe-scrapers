@@ -1,8 +1,8 @@
 {
-  "host": "castironketo.net",
+  "author": "Cast Iron Keto",
   "canonical_url": "https://www.castironketo.net/blog/keto-jalapeno-popper-casserole-with-chicken/",
   "site_name": "Cast Iron Keto",
-  "author": "Cast Iron Keto",
+  "host": "castironketo.net",
   "language": "en-US",
   "title": "Keto Jalapeño Popper Casserole with Chicken",
   "ingredients": [
@@ -37,12 +37,22 @@
     }
   ],
   "instructions": "Preheat the oven to 425° F.\nPlace the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.\nCombine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.\nPour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.\nTransfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately.",
-  "total_time": 45,
-  "prep_time": 30,
-  "cook_time": 15,
+  "instructions_list": [
+    "Preheat the oven to 425° F.",
+    "Place the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.",
+    "Combine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.",
+    "Pour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.",
+    "Transfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately."
+  ],
+  "category": "Main Course",
   "yields": "6 servings",
-  "image": "https://www.castironketo.net/wp-content/uploads/2021/01/Keto-Jalapeño-Popper-Casserole.jpg",
   "description": "Keto Jalapeño Popper Casserole with Chicken: A deliciously creamy and spicy low-carb dish with shredded chicken, cream cheese, jalapenos, and bacon.",
+  "total_time": 45,
+  "cook_time": 15,
+  "prep_time": 30,
+  "cuisine": "American",
+  "ratings": 4.78,
+  "ratings_count": 9,
   "nutrients": {
     "calories": "563 kcal",
     "carbohydrateContent": "4 g",
@@ -56,20 +66,10 @@
     "sugarContent": "2 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Main Course",
+  "image": "https://www.castironketo.net/wp-content/uploads/2021/01/Keto-Jalapeño-Popper-Casserole.jpg",
   "keywords": [
     "keto",
     "keto casserole",
     "low carb"
-  ],
-  "ratings": 4.78,
-  "ratings_count": 9,
-  "instructions_list": [
-    "Preheat the oven to 425° F.",
-    "Place the chicken in the bottom of a 10” or larger cast iron skillet. Top with green onions.",
-    "Combine the garlic salt, onion powder, paprika, cream cheese, heavy cream, and chicken bone broth in a small bowl. Mix until combined.",
-    "Pour the cream cheese mixture over the chicken then top with the slices of jalapeno. Sprinkle the cheddar cheese over the top then top with the crumbled bacon.",
-    "Transfer the skillet to the oven and bake for 15 minutes until the cheese is bubbly. Serve immediately."
   ]
 }

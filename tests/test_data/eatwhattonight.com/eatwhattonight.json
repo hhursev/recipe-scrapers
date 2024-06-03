@@ -1,8 +1,8 @@
 {
-  "host": "eatwhattonight.com",
+  "author": "Eat What Tonight",
   "canonical_url": "https://eatwhattonight.com/2020/08/ginger-soya-chicken/",
   "site_name": "Eat What Tonight - Singapore Food & Lifestyle Blog",
-  "author": "Eat What Tonight",
+  "host": "eatwhattonight.com",
   "language": "en-US",
   "title": "Ginger Soya Chicken",
   "ingredients": [
@@ -41,17 +41,6 @@
     }
   ],
   "instructions": "Heat up oil and saute garlics, white parts of spring onion and ginger till fragrant.⁣\nAdd in marinated chicken with the light soya sauce and mix well.⁣\nAdd in water.\nFollowed by the rest of the seasoning and allow the sauce to cook on high heat.⁣\nAdd in green parts of spring onions.\nAdd in sauce thickening.\nWhen sauce has thickened, add in shaoxing wine and remove from heat.⁣Serve hot immediately with rice.",
-  "total_time": 45,
-  "prep_time": 30,
-  "cook_time": 15,
-  "yields": "2 servings",
-  "image": "http://eatwhattonight.com/wp-content/uploads/2020/08/DSC_0317-scaled.jpg",
-  "cuisine": "Chinese",
-  "category": "Main",
-  "keywords": [
-    "Chicken",
-    "Ginger"
-  ],
   "instructions_list": [
     "Heat up oil and saute garlics, white parts of spring onion and ginger till fragrant.⁣",
     "Add in marinated chicken with the light soya sauce and mix well.⁣",
@@ -60,5 +49,16 @@
     "Add in green parts of spring onions.",
     "Add in sauce thickening.",
     "When sauce has thickened, add in shaoxing wine and remove from heat.⁣Serve hot immediately with rice."
+  ],
+  "category": "Main",
+  "yields": "2 servings",
+  "total_time": 45,
+  "cook_time": 15,
+  "prep_time": 30,
+  "cuisine": "Chinese",
+  "image": "http://eatwhattonight.com/wp-content/uploads/2020/08/DSC_0317-scaled.jpg",
+  "keywords": [
+    "Chicken",
+    "Ginger"
   ]
 }

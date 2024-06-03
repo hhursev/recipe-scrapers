@@ -1,8 +1,8 @@
 {
-  "host": "theclevercarrot.com",
+  "author": "The Clever Carrot",
   "canonical_url": "theclevercarrot.com",
   "site_name": "The Clever Carrot",
-  "author": "The Clever Carrot",
+  "host": "theclevercarrot.com",
   "language": "en-US",
   "title": "dinner tonight: sweet chili shrimp stir-fry",
   "ingredients": [
@@ -43,13 +43,6 @@
     }
   ],
   "instructions": "Grab a medium size pot and cook the rice according to the package instructions. Set aside.\nIn a large, wide skillet warm the olive oil over moderate heat.\nUsing a microplane, grate the garlic clove directly into the pan. Alternatively, you can mince the garlic instead. Saute until fragrant, about 30 seconds.\nAdd the shrimp and saute until pink and cooked though, about 5 minutes depending on size. Remove from the pan.\nWhile the shrimp is cooking, trim the ends off of the snow peas. Cut each one into thirds, on a diagonal.\nAdd the sesame oil to the pan and saute the snow peas until crisp tender, about 1-2 minutes.\nReturn the shrimp to the pan and add the sweet chili sauce. Cook until warmed through. Add more chili sauce if necessary.\nTop each plate with some chopped cashews and fresh lime wedges to taste.\nServe with jasmine rice.",
-  "total_time": 20,
-  "cook_time": 20,
-  "yields": "3 servings",
-  "image": "https://www.theclevercarrot.com/wp-content/uploads/2012/12/IMG_1824-225x225.jpg",
-  "category": null,
-  "ratings": 4.3,
-  "ratings_count": 3,
   "instructions_list": [
     "Grab a medium size pot and cook the rice according to the package instructions. Set aside.",
     "In a large, wide skillet warm the olive oil over moderate heat.",
@@ -60,5 +53,12 @@
     "Return the shrimp to the pan and add the sweet chili sauce. Cook until warmed through. Add more chili sauce if necessary.",
     "Top each plate with some chopped cashews and fresh lime wedges to taste.",
     "Serve with jasmine rice."
-  ]
+  ],
+  "category": null,
+  "yields": "3 servings",
+  "total_time": 20,
+  "cook_time": 20,
+  "ratings": 4.3,
+  "ratings_count": 3,
+  "image": "https://www.theclevercarrot.com/wp-content/uploads/2012/12/IMG_1824-225x225.jpg"
 }

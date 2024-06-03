@@ -1,8 +1,8 @@
 {
-  "host": "simply-cookit.com",
+  "author": "simply-cookit.com",
   "canonical_url": "https://",
   "site_name": null,
-  "author": "simply-cookit.com",
+  "host": "simply-cookit.com",
   "language": "de",
   "title": "Gnocchi mit Zuckerschoten und getrockneten Tomaten in Parmesansauce",
   "ingredients": [
@@ -39,24 +39,6 @@
     }
   ],
   "instructions": "Das Universalmesser einsetzen. Den Parmesan in ca. 3 cm großen Stücken in den Topf einwiegen. Den Deckel schließen, den Messbecher einsetzen und den Parmesan (Universalmesser | Stufe 18 | 20 Sek.) fein zerkleinern. Das Universalmesser entnehmen und das Lebensmittel mit dem Spatel abstreifen. Den Parmesan umfüllen und beiseitestellen.\nDas Universalmesser einsetzen. Die Zwiebel schälen, halbieren und in den Topf geben. Die Knoblauchzehe schälen und zugeben. Den Deckel schließen und die Zutaten (Universalmesser | Stufe 14 | 10 Sek.) zerkleinern. Das Universalmesser entnehmen und das Lebensmittel mit dem Spatel abstreifen. Die Zutaten mit dem Spatel nach unten schieben.\nIn einem Kochtopf reichlich Salzwasser zum Kochen bringen. In der Zwischenzeit den Zwillings-Rührbesen einsetzen. Die Butter in den Topf einwiegen.\nDen Deckel schließen, den Messbecher entnehmen und die Zwiebeln (Zwillings-Rührbesen | Stufe 3 | 120 °C | 4 Min.) andünsten. Das Mehl zugeben, den Deckel schließen und die Zutaten (Zwillings-Rührbesen | Stufe 3 | 120 °C | 3 Min.) anschwitzen. Den Gemüsefond und die Milch einwiegen sowie Salz und Pfeffer zugeben. Den Deckel schließen, den Messbecher einsetzen und die Zutaten (Zwillings-Rührbesen | Stufe 4 | 95 °C | 6 Min.) köcheln lassen.\nDie Gnocchi im Kochtopf nach Packungsangabe garen und anschließend abgießen. In der Zwischenzeit die getrockneten Tomaten in ca. 3 mm feine Stücke schneiden und in den Topf einwiegen. 60 g Parmesan einwiegen, den Deckel schließen und die Zutaten (Zwillings-Rührbesen | Stufe 4 | 100 °C | 1 Min.) vermengen. Den Zwillings-Rührbesen entnehmen. Die Zuckerschoten in ca. 2 cm große Stücke schneiden, einwiegen und mit dem Spatel unterheben.\nDie Sauce über die Gnocchi geben und mit dem restlichem Parmesan bestreut servieren.",
-  "total_time": 21,
-  "cook_time": 21,
-  "yields": "4 servings",
-  "image": "https://www.simply-cookit.com/sites/default/files/styles/square/public/assets/image/2021/03/gnocchi-mit-zuckerschoten-und-getrockneten-tomaten-in-parmesansosse_portrait.jpg?h=526df0cf&itok=wxxX6IM7",
-  "description": "Ein besonders schnell zubereitetes Gericht - mit feiner Tomaten-Parmesansauce!",
-  "nutrients": {
-    "calories": "505 kcal",
-    "fatContent": "24 g",
-    "carbohydrateContent": "55 g",
-    "proteinContent": "19 g"
-  },
-  "cuisine": "Italien",
-  "category": "Vegetarisch",
-  "keywords": [
-    "Vegetarisch"
-  ],
-  "ratings": 4.33,
-  "ratings_count": 3,
   "instructions_list": [
     "Das Universalmesser einsetzen. Den Parmesan in ca. 3 cm großen Stücken in den Topf einwiegen. Den Deckel schließen, den Messbecher einsetzen und den Parmesan (Universalmesser | Stufe 18 | 20 Sek.) fein zerkleinern. Das Universalmesser entnehmen und das Lebensmittel mit dem Spatel abstreifen. Den Parmesan umfüllen und beiseitestellen.",
     "Das Universalmesser einsetzen. Die Zwiebel schälen, halbieren und in den Topf geben. Die Knoblauchzehe schälen und zugeben. Den Deckel schließen und die Zutaten (Universalmesser | Stufe 14 | 10 Sek.) zerkleinern. Das Universalmesser entnehmen und das Lebensmittel mit dem Spatel abstreifen. Die Zutaten mit dem Spatel nach unten schieben.",
@@ -64,5 +46,23 @@
     "Den Deckel schließen, den Messbecher entnehmen und die Zwiebeln (Zwillings-Rührbesen | Stufe 3 | 120 °C | 4 Min.) andünsten. Das Mehl zugeben, den Deckel schließen und die Zutaten (Zwillings-Rührbesen | Stufe 3 | 120 °C | 3 Min.) anschwitzen. Den Gemüsefond und die Milch einwiegen sowie Salz und Pfeffer zugeben. Den Deckel schließen, den Messbecher einsetzen und die Zutaten (Zwillings-Rührbesen | Stufe 4 | 95 °C | 6 Min.) köcheln lassen.",
     "Die Gnocchi im Kochtopf nach Packungsangabe garen und anschließend abgießen. In der Zwischenzeit die getrockneten Tomaten in ca. 3 mm feine Stücke schneiden und in den Topf einwiegen. 60 g Parmesan einwiegen, den Deckel schließen und die Zutaten (Zwillings-Rührbesen | Stufe 4 | 100 °C | 1 Min.) vermengen. Den Zwillings-Rührbesen entnehmen. Die Zuckerschoten in ca. 2 cm große Stücke schneiden, einwiegen und mit dem Spatel unterheben.",
     "Die Sauce über die Gnocchi geben und mit dem restlichem Parmesan bestreut servieren."
+  ],
+  "category": "Vegetarisch",
+  "yields": "4 servings",
+  "description": "Ein besonders schnell zubereitetes Gericht - mit feiner Tomaten-Parmesansauce!",
+  "total_time": 21,
+  "cook_time": 21,
+  "cuisine": "Italien",
+  "ratings": 4.33,
+  "ratings_count": 3,
+  "nutrients": {
+    "calories": "505 kcal",
+    "fatContent": "24 g",
+    "carbohydrateContent": "55 g",
+    "proteinContent": "19 g"
+  },
+  "image": "https://www.simply-cookit.com/sites/default/files/styles/square/public/assets/image/2021/03/gnocchi-mit-zuckerschoten-und-getrockneten-tomaten-in-parmesansosse_portrait.jpg?h=526df0cf&itok=wxxX6IM7",
+  "keywords": [
+    "Vegetarisch"
   ]
 }

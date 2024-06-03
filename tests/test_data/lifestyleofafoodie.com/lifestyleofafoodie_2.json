@@ -1,8 +1,8 @@
 {
-  "host": "lifestyleofafoodie.com",
+  "author": "Chahinez",
   "canonical_url": "https://lifestyleofafoodie.com/air-fryer-frozen-french-fries/",
   "site_name": "Lifestyle of a Foodie",
-  "author": "Chahinez",
+  "host": "lifestyleofafoodie.com",
   "language": "en-US",
   "title": "Crispy air fryer frozen french fries",
   "ingredients": [
@@ -26,29 +26,29 @@
     }
   ],
   "instructions": "Place your french fries of crinkle fries in the air fryer and air fry at 400F for 12 minutes. Make sure to shake the basket halfway through to bake everything more evenly.\nMake the spicy ketchup\nin a small bowl mix the ketchup and horse radish together until well incorporated. Dip your french fries in it and enjoy!",
-  "total_time": 13,
-  "prep_time": 1,
-  "cook_time": 12,
-  "yields": "4 servings",
-  "image": "https://lifestyleofafoodie.com/wp-content/uploads/2021/01/Air-fryer-frozen-French-fries-18-of-18-scaled.jpg",
-  "description": "This is the best air fryer frozen french fries recipe ever. Make it as a snack or as a side dish for your burger days.",
-  "cuisine": "American",
+  "instructions_list": [
+    "Place your french fries of crinkle fries in the air fryer and air fry at 400F for 12 minutes. Make sure to shake the basket halfway through to bake everything more evenly.",
+    "Make the spicy ketchup",
+    "in a small bowl mix the ketchup and horse radish together until well incorporated. Dip your french fries in it and enjoy!"
+  ],
   "category": "Side Dish",
+  "yields": "4 servings",
+  "description": "This is the best air fryer frozen french fries recipe ever. Make it as a snack or as a side dish for your burger days.",
+  "total_time": 13,
+  "cook_time": 12,
+  "prep_time": 1,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 10,
+  "equipment": [
+    "Ninja air fryer"
+  ],
+  "image": "https://lifestyleofafoodie.com/wp-content/uploads/2021/01/Air-fryer-frozen-French-fries-18-of-18-scaled.jpg",
   "keywords": [
     "air fryer",
     "air fryer frozen french fries",
     "air fryer recipe",
     "crinkle fries",
     "french fries"
-  ],
-  "equipment": [
-    "Ninja air fryer"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 10,
-  "instructions_list": [
-    "Place your french fries of crinkle fries in the air fryer and air fry at 400F for 12 minutes. Make sure to shake the basket halfway through to bake everything more evenly.",
-    "Make the spicy ketchup",
-    "in a small bowl mix the ketchup and horse radish together until well incorporated. Dip your french fries in it and enjoy!"
   ]
 }
