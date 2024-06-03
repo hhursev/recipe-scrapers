@@ -101,6 +101,7 @@ from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
 from .felixkitchen import FelixKitchen
+from .fifteengram import FifteenGram
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
@@ -429,6 +430,7 @@ SCRAPERS = {
     ElaVegan.host(): ElaVegan,
     EvolvingTable.host(): EvolvingTable,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
+    FifteenGram.host(): FifteenGram,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
