@@ -42,15 +42,12 @@ class Aldi(AbstractScraper):
         return get_yields(str(value))
 
     def image(self):
-        figure = self.soup.find(
-            "figure", {"class": "csc-textpic-image csc-textpic-last"}
-        )
-        if not figure:
-            return None
-        image = figure.find("img")
-        if not image:
-            return None
-        return image.get("src")
+        figure = self.soup.find("figure", {"class": "csc-textpic-image csc-textpic-last"})
+        if figure:
+            image = figure.find("img")
+            if image:
+                return image.get("src")
+        return None
 
     def ingredients(self):
         h2 = self.soup.find("h2", string=re.compile("Ingredients"))
