@@ -59,10 +59,7 @@ class Aldi(AbstractScraper):
 
     def instructions(self):
         list_element = self.soup.find("ol")
-        instructions = []
-        for li in list_element.find_all("li"):
-            instructions.append(li.text.strip())
-        return "\n".join(instructions)
+        return "\n".join(li.text.strip() for li in list_element.find_all("li"))
 
     def _get_value(self, label):
         label = self.soup.find("b", string=label)
