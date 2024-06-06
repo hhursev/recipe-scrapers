@@ -61,19 +61,8 @@ class Aldi(AbstractScraper):
         return "\n".join(li.text.strip() for li in list_element.find_all("li"))
 
     def _get_value(self, label):
-        label = self.soup.find("b", string=label)
-        if not label:
-            return None
-
-        br_tags = label.find_next_siblings("br")
-
-        parts = []
-        for br in br_tags:
-            next_sibling = br.next_sibling
-            while next_sibling:
-                text = next_sibling.text
-                if text:
-                    parts.append(text)
-                next_sibling = next_sibling.next_sibling
-
-        return " ".join(parts)
+        label_element = self.soup.find("b", string=label)
+        if label_element:
+            parts = [sibling.strip() for sibling in label_element.find_next_siblings(string=True) if sibling.strip()]
+            return " ".join(parts)
+        return None
