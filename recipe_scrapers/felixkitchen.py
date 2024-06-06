@@ -16,7 +16,7 @@ def _field_not_provided_by_website_warning(host, field):
         pass
 
     message = (
-        "{} doesn't support seem to support the {} field. "
+        "{} doesn't seem to support the {} field. "
         "If you know this to be untrue for some recipe, please submit a bug report at {}"
     )
 

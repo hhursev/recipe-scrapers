@@ -5,6 +5,15 @@
   "host": "onesweetappetite.com",
   "language": "en-US",
   "title": "Ranch Chicken",
+  "ingredients": [
+    "4 chicken breast halves",
+    "1/2 teaspoon salt",
+    "1/2 teaspoon garlic powder",
+    "1/4 teaspoon pepper",
+    "1/4 cup ranch dressing",
+    "1/2 cup breadcrumbs",
+    "3 tablespoons butter (melted)"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -18,15 +27,6 @@
       ],
       "purpose": null
     }
-  ],
-  "ingredients": [
-    "4 chicken breast halves",
-    "1/2 teaspoon salt",
-    "1/2 teaspoon garlic powder",
-    "1/4 teaspoon pepper",
-    "1/4 cup ranch dressing",
-    "1/2 cup breadcrumbs",
-    "3 tablespoons butter (melted)"
   ],
   "instructions": "Preheat the oven to 425 degrees.\nMist a baking tray or 9x13 pan with cooking spray. Set aside.\nSlice the chicken in half lengthwise, or pound to 1/2 inch thickens.\nPlace on the prepared baking tray, making sure not to overlap.\nSeason the chicken with salt, pepper, and garlic powder.\nBrush 1 tablespoon of ranch dressing onto the top of each chicken piece.\nMix the bread crumbs with the butter. Spoon over the top of each chicken.\nBake 15 minutes, or until the chicken reaches an internal temperature of 165 degrees.\nServe with extra ranch dressing if desired.",
   "instructions_list": [
@@ -48,7 +48,7 @@
   "prep_time": 5,
   "cuisine": "American",
   "ratings": 4.83,
-  "ratings_count": 0,
+  "ratings_count": 23,
   "equipment": [
     "Silicone Baking Mats",
     "Silicone Spatula",
