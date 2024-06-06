@@ -21,11 +21,12 @@ class Aldi(AbstractScraper):
         return self.soup.find("h1").text
 
     def category(self):
-        title = self.soup.select("a.tab-nav--link.dropdown--list--link.m-active")[
-            0
-        ].text
-        recipe_position = title.find(" Recipe")
-        return title[:recipe_position]
+        element = self.soup.select_one("a.tab-nav--link.dropdown--list--link.m-active")
+        if element:
+            title = element.text
+            recipe_position = title.find(" Recipe")
+            if recipe_position != -1:
+                return title[:recipe_position]
 
     def prep_time(self):
         return get_minutes(self._get_value(re.compile("prep", re.IGNORECASE)))
