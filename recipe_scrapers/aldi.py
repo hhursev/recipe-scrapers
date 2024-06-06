@@ -35,19 +35,7 @@ class Aldi(AbstractScraper):
         return get_minutes(self._get_value(re.compile("cook", re.IGNORECASE)))
 
     def total_time(self):
-        total_time = 0
-
-        try:
-            total_time += self.prep_time()
-        except ElementNotFoundInHtml:
-            pass
-
-        try:
-            total_time += self.cook_time()
-        except ElementNotFoundInHtml:
-            pass
-
-        return total_time
+        return (self.prep_time() or 0) + (self.cook_time() or 0)
 
     def yields(self):
         value = self._get_value(re.compile("(makes)|(serves)", re.IGNORECASE))
