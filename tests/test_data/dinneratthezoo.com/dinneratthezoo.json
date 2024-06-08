@@ -1,9 +1,10 @@
 {
   "author": "Sara Welch",
   "canonical_url": "https://www.dinneratthezoo.com/grilled-scallops/",
+  "site_name": "Dinner at the Zoo",
   "host": "dinneratthezoo.com",
-  "description": "These grilled scallops are marinated in a blend of olive oil, lemon, garlic and herbs, then seared to golden brown perfection on the grill. A quick and easy meal option that's simple yet totally satisfying!",
-  "image": "https://www.dinneratthezoo.com/wp-content/uploads/2021/03/grilled-scallops-final-2.jpg",
+  "language": "en-US",
+  "title": "Grilled Scallops",
   "ingredients": [
     "1 1/4 pounds large sea scallops",
     "1/4 cup olive oil",
@@ -41,14 +42,15 @@
     "Place the skewers or loose scallops on the grill. Cook for 1-2 minutes on each side or until scallops are firm and opaque.",
     "Sprinkle with parsley and serve with lemon wedges."
   ],
-  "language": "en-US",
-  "site_name": "Dinner at the Zoo",
-  "title": "Grilled Scallops",
-  "total_time": 30,
-  "yields": "4 servings",
-  "prep_time": 5,
-  "cook_time": 10,
   "category": "Main",
+  "yields": "4 servings",
+  "description": "These grilled scallops are marinated in a blend of olive oil, lemon, garlic and herbs, then seared to golden brown perfection on the grill. A quick and easy meal option that's simple yet totally satisfying!",
+  "total_time": 30,
+  "cook_time": 10,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 31,
   "nutrients": {
     "calories": "206 kcal",
     "cholesterolContent": "285 mg",
@@ -58,8 +60,8 @@
     "servingSize": "1 serving",
     "sodiumContent": "1317 mg"
   },
+  "image": "https://www.dinneratthezoo.com/wp-content/uploads/2021/03/grilled-scallops-final-2.jpg",
   "keywords": [
     "grilled scallops"
-  ],
-  "ratings": 5.0
+  ]
 }

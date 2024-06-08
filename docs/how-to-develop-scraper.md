@@ -171,20 +171,20 @@ The generated json file will look something like this, with only the host field 
 
 ```json
 {
-  "author": "",
-  "canonical_url": "",
-  "host": "<host>",
-  "description": "",
-  "image": "",
-  "ingredients": "",
-  "ingredient_groups": "",
-  "instructions": "",
-  "instructions_list": "",
-  "language": "",
-  "site_name": "",
-  "title": "",
-  "total_time": "",
-  "yields": ""
+    "host": "<host>",
+    "canonical_url": "",
+    "site_name": "",
+    "author": "",
+    "language": "",
+    "title": "",
+    "ingredients": "",
+    "ingredient_groups": "",
+    "instructions": "",
+    "instructions_list": "",
+    "total_time": "",
+    "yields": "",
+    "image": "",
+    "description": "",
 }
 ```
 

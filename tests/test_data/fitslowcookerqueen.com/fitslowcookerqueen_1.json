@@ -1,9 +1,10 @@
 {
   "author": "Shannon Epstein",
   "canonical_url": "https://fitslowcookerqueen.com/slow-cooker-rosemary-dijon-chicken/",
+  "site_name": "Fit Slow Cooker Queen",
   "host": "fitslowcookerqueen.com",
-  "description": "Slow cooker rosemary Dijon chicken is an easy recipe & healthy recipe that can be served any night of the week. Your preferred cut of chicken is slow cooked with a homemade rosemary, Dijon inspired sauce. The end result is tasty, falling off the bone chicken...all done with minimal hands-on time. Instructions to make this low-carb, paleo, and Whole30 compatible recipe in the Instant Pot are also included.",
-  "image": "https://fitslowcookerqueen.com/wp-content/uploads/2018/08/Slow-Cooker-Instant-Pot-Rosemary-Dijon-Chicken-Low-Carb-PaleoWhole30-6-225x225.jpg",
+  "language": "en-US",
+  "title": "Slow Cooker Rosemary Dijon Chicken",
   "ingredients": [
     "3 pounds chicken, any cut",
     "salt & pepper to taste",
@@ -43,12 +44,11 @@
     "In a small bowl, mix together the sauce ingredients. Pour the sauce on top of chicken",
     "Close & seal vent. Select high pressure and set time for 13 minutes. When cooking time is complete, quick-release the pressure."
   ],
-  "language": "en-US",
-  "site_name": "Fit Slow Cooker Queen",
-  "title": "Slow Cooker Rosemary Dijon Chicken",
-  "total_time": 190,
   "yields": "4 servings",
+  "description": "Slow cooker rosemary Dijon chicken is an easy recipe & healthy recipe that can be served any night of the week. Your preferred cut of chicken is slow cooked with a homemade rosemary, Dijon inspired sauce. The end result is tasty, falling off the bone chicken...all done with minimal hands-on time. Instructions to make this low-carb, paleo, and Whole30 compatible recipe in the Instant Pot are also included.",
+  "total_time": 190,
   "cook_time": 180,
+  "prep_time": 10,
   "nutrients": {
     "calories": "131 calories",
     "sugarContent": "2 g",
@@ -61,5 +61,5 @@
     "proteinContent": "16.6 g",
     "cholesterolContent": "70 mg"
   },
-  "prep_time": 10
+  "image": "https://fitslowcookerqueen.com/wp-content/uploads/2018/08/Slow-Cooker-Instant-Pot-Rosemary-Dijon-Chicken-Low-Carb-PaleoWhole30-6-225x225.jpg"
 }
