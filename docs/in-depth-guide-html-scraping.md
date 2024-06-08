@@ -1,25 +1,25 @@
-# In Depth Guide: HTML Scraping
+# In-Depth Guide: HTML Scraping
 
-The preferred method of scraping recipe information from a web page is to use the schema.org Recipe data. This is a machine readable, structured format intended to provide a standardised method of extracting information. However, whilst most recipe websites use the schema.org Recipe format, not all do, and for those websites that do, it does not always include all the information we are looking for. In these cases, we can use HTML scraping to extract the information from the HTML markup.
+The preferred method of scraping recipe information from a web page is to use the schema.org Recipe data. This is a machine-readable, structured format intended to provide a standardized method of extracting information. However, while most recipe websites use the schema.org Recipe format, not all websites do, and for those websites that do, it does not always include all the information we are looking for. In these cases, HTML scraping is used to extract the information from the HTML markup.
 
 ## `soup`
 
 Each scraper has a `BeautifulSoup` object that can be accessed using the `self.soup` attribute. The `BeautifulSoup` object is a representation of the web page HTML that has been parsed into a format that we can query and extract information from.
 
-The [Beautiful Soup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is the best resource for learning how to use `BeautifulSoup` objects to interact with HTML documents.
+The [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is the best resource for learning how to use `BeautifulSoup` objects to interact with HTML documents.
 
 This guide covers a number of common patterns that are used in this library.
 
 ## Finding a single element
 
-The `self.soup.find()` function returns the first element matching the arguments. This is useful if you are trying to extract some information that should only occur once, for example the prep time or total time.
+The `self.soup.find` function returns the first element matching the arguments. This is useful if you are trying to extract some information that should only occur once, for example, the prep time or total time.
 
 ```python
 # To find a particular element
 self.soup.find("h1") # Returns the first h1 element
 
 # To find an element with particular class (note the underscore at the end of class_)
-self.soup.find(class_"total-time") # Returns the first element with total-time class.
+self.soup.find(class_="total-time") # Returns the first element with total-time class.
 
 # To find an element with a particular ID
 self.soup.find(id="total-time")
@@ -29,7 +29,7 @@ self.soup.find(id="total-time")
 self.soup.find("h1", class_="title")
 ```
 
-`self.soup` returns a `bs4.element.Tag` object. Usually we just want the text from the selected element and the best way to do that is to use `.get_text()`.
+`self.soup.find` returns a `bs4.element.Tag` object. Usually, we just want the text from the selected element, and the best way to do that is to use `.get_text()`.
 
 ```python
 title_tag = self.soup.select("h1") # bs4.element.Tag object
@@ -74,7 +74,7 @@ The Beautiful Soup documentation for `find` is [here](https://www.crummy.com/sof
 
 ### Normalizing strings
 
-A convenience function called `normalize_string()` is provided in the `_utils` package. This function will convert any characters escaped for HTML to their actual character (e.g. `&amp;` to `&`) and remove unnecessary white space. It is best practice to always use this when extracting text from the HTML.
+A convenience function called `normalize_string()` is provided in the `_utils` package. This function will convert any characters escaped for HTML to their actual character (e.g., `&amp;` to `&`) and remove unnecessary white space. It is best practice to always use this when extracting text from the HTML.
 
 ```python
 from ._utils import normalize_string
@@ -139,7 +139,7 @@ The Beautiful Soup documentation for `find_all` is [here](https://www.crummy.com
 
 ## Using CSS selectors
 
-If you are already familiar with CSS selectors, then you can use `select()` to achieve the same result as `find_all()`, or `select_one()` to achieve the same result as `find`.
+If you are already familiar with CSS selectors, then you can use `self.soup.select()` to achieve the same result as `self.soup.find_all()`, or `self.soup.select_one()` to achieve the same result as `self.soup.find`.
 
 ```python
 ingredient_tag = self.soup.select("li.wprm-recipe-ingredient") # Match all li elements with wprm-recipe-ingredient class

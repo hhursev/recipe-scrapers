@@ -2,13 +2,13 @@
 
 ## Goal
 
-This library has the goals of
+The goals of this library are
 
 * making recipe information **accessible**,
 * ensuring the author is **attributed** correctly,
-* representing the recipes **accurately** and **authentically**
+* representing recipes **accurately** and **authentically**
 
-Sometimes it is simple and straightforward to achieve all these goals, and sometimes it is more difficult (which is why this library exists). Where some interpretation or creativity is required to scrape a recipe, we should always keep those goals in mind. Occasionally, that might mean that we can't support a particular website.
+Sometimes it is simple and straightforward to achieve all these goals, while other times it is more difficult (which is why this library exists). When some interpretation or creativity is required to scrape a recipe, we should always keep these goals in mind. Occasionally, this might mean that we can't support a particular website.
 
 ## Contents
 

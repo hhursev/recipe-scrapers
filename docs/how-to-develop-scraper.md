@@ -2,9 +2,9 @@
 
 ## 1. Find a website
 
-If you have found a website you want to scrape the recipes from, first of all check to see if the website is already supported.
+If you have found a website from which you want to scrape recipes, first check to see if the website is already supported.
 
-The project [README](https://github.com/hhursev/recipe-scrapers/blob/main/README.rst) has a list of the hundreds of websites already supported.
+For a comprehensive list of supported websites, refer to the project's [README](https://github.com/hhursev/recipe-scrapers/blob/main/README.rst).
 
 You can also check from within Python:
 
@@ -20,13 +20,13 @@ You can also check from within Python:
 recipe_scrapers.bbcgoodfood.BBCGoodFood
 ```
 
-It's a good idea to file an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) on GitHub to track support for the website, and to indicate whether you are working on it.
+Before starting development, consider filing an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) on GitHub. This helps track the website's support status and lets others know you are working on it.
 
 ## 2. Fork the recipe-scrapers repository and clone
 
 If this is your first time contributing to this repository then you will need to create a fork of the repository and clone it to your computer.
 
-To create a fork, click the Fork button near the top of page on the project GitHub page. This will create a copy of the repository under your GitHub user.
+To create a fork, click the Fork button near the top of page on the project GitHub page. This will create a copy of the repository under your GitHub account.
 
 You can then clone the fork to your computer and set it up for development.
 
@@ -148,7 +148,7 @@ If the website supports Recipe Schema, then this is mostly done for you already.
 
 Some additional functionality may be required in the scraper functions to make the output match the recipe on the website.
 
-An in-depth guide on all the functions a scraper can support and what their output should be can be found [here](in-depth-guide-scraper-functions.md). The automatically generated scraper does not include all of these functions be default, so you may wish to add some of the additional functions listed if the website can support them.
+An in-depth guide on all the functions a scraper can support and what their output should be can be found [here](in-depth-guide-scraper-functions.md). The automatically generated scraper does not include all of these functions by default, so you may wish to add some of the additional functions listed if the website can support them.
 
 If the website does not support Recipe Schema, or the schema does not include all of the recipe information, then you can scrape the information out of the website HTML. Each scraper has a `bs4.BeautifulSoup` object made available in `self.soup` which contains the parsed HTML. This can be used to extract the recipe information needed.
 
@@ -165,9 +165,9 @@ A test case was automatically created when the scraper class was created. It can
 The test case comprises two parts:
 
 1. testhtml file containing the html from the URL used to generate the scraper
-2. json file containing the expected output from the scraper when the scraper is run on the testhtml file.
+2. JSON file containing the expected output from the scraper when the scraper is run on the testhtml file.
 
-The generated json file will look something like this, with only the host field populated:
+The generated JSON file will look something like this, with only the host field populated:
 
 ```json
 {
@@ -190,9 +190,9 @@ The generated json file will look something like this, with only the host field 
 
 Each of the fields in this file has the same name as the related scraper function. You will need to add the correct output from the scraper to each of these fields.
 
-If the scraper implements any of the optional functions listed in the [Scraper Functions guide](in-depth-guide-scraper-functions.md), then you should add the appropriate fields to the json file.
+If the scraper implements any of the optional functions listed in the [Scraper Functions guide](in-depth-guide-scraper-functions.md), then you should add the appropriate fields to the JSON file.
 
-In some cases, a scraper is not able to support one or more of the mandatory functions because the website doesn't provide the information. In these cases, remove the field from the json file. What will happen is that the test case will check to see if the scraper raises an exception if any of the unsupported functions are called.
+In some cases, a scraper is not able to support one or more of the mandatory functions because the website doesn't provide the information. In these cases, remove the field from the JSON file. What will happen is that the test case will check to see if the scraper raises an exception if any of the unsupported functions are called.
 
 You can check whether your scraper is passing the tests by running
 
