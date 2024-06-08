@@ -89,19 +89,19 @@ Some Python HTTP clients that you can use to retrieve HTML include `requests <ht
 Scrapers available for:
 -----------------------
 
-- `https://15gram.be <https://15gram.be>`_
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
+- `https://15gram.be <https://15gram.be>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://aberlehome.com/ <https://aberlehome.com>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
-- `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://addapinch.com/ <https://addapinch.com/>`_
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
+- `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
-- `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://alexandracooks.com/ <https://alexandracooks.com/>`_
+- `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
 - `https://allthehealthythings.com/ <https://allthehealthythings.com/>`_
 - `https://alltommat.se/ <https://alltommat.se/>`_
@@ -113,10 +113,10 @@ Scrapers available for:
 - `https://www.arla.se/ <https://www.arla.se/>`_
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
-- `https://barefeetinthekitchen.com/ <https://barefeetinthekitchen.com/>`_
 - `https://www.bakels.com.au/ <https://www.bakels.com.au/>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
+- `https://barefeetinthekitchen.com/ <https://barefeetinthekitchen.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
     - `.co.uk <https://bbc.co.uk/food/recipes>`_
@@ -277,7 +277,6 @@ Scrapers available for:
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
 - `https://www.mccormick.com/ <https://www.mccormick.com/>`_
-- `https://www.modernhoney.com/ <https://www.modernhoney.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
@@ -287,10 +286,11 @@ Scrapers available for:
 - `https://www.mob.co.uk/ <https://www.mob.co.uk/>`_
 - `https://mobile.kptncook.com/ <https://mobile.kptncook.com/>`_
 - `https://mobkitchen.co.uk/ <https://mobkitchen.co.uk/>`_
+- `https://www.modernhoney.com/ <https://www.modernhoney.com/>`_
+- `https://www.momontimeout.com/ <https://www.momontimeout.com/>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
 - `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
-- `https://www.momontimeout.com/ <https://www.momontimeout.com/>`_
 - `https://www.moulinex.fr/ <https://www.moulinex.fr/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
 - `https://mybakingaddiction.com/ <https://mybakingaddiction.com>`_
@@ -385,13 +385,13 @@ Scrapers available for:
 - `https://sweetpeasandsaffron.com/ <https://sweetpeasandsaffron.com/>`_
 - `https://www.taste.com.au/ <https://www.taste.com.au/>`_
 - `https://www.tasteatlas.com/ <https://www.tasteatlas.com/>`_
-- `https://www.thecookierookie.com/ <hhttps://www.thecookierookie.com/>`_
 - `https://tasteofhome.com <https://tasteofhome.com>`_
 - `https://tastesbetterfromscratch.com <https://tastesbetterfromscratch.com>`_
 - `https://tastesoflizzyt.com <https://tastesoflizzyt.com>`_
 - `https://tasty.co <https://tasty.co>`_
 - `https://tastykitchen.com/ <https://tastykitchen.com>`_
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
+- `https://www.thecookierookie.com/ <https://www.thecookierookie.com/>`_
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
@@ -401,9 +401,9 @@ Scrapers available for:
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_
-- `https://thesaltymarshmallow.com/ <https://thesaltymarshmallow.com/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
 - `https://therecipecritic.com/ <https://therecipecritic.com>`_
+- `https://thesaltymarshmallow.com/ <https://thesaltymarshmallow.com/>`_
 - `https://thespruceeats.com/ <https://thespruceeats.com/>`_
 - `https://thevintagemixer.com/ <https://thevintagemixer.com>`_
 - `https://thewoksoflife.com/ <https://thewoksoflife.com/>`_
