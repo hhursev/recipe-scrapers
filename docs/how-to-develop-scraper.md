@@ -206,7 +206,10 @@ Where `ClassName` is the name that you used earlier to generate the scraper.
 > It is also recommended that you manually test the scraper with a couple of different recipes from the website, to check that there aren't any special cases the scraper will need to handle. You don't need to create test cases for each of these.
 
 ## 6. Update the README
-Add the website to the supported scraper list in README.rst, ensuring alphabetical order. If your site supports multiple top level domains (e.g. `.com.au`, `.co.ul`, `.at`, etc.) then list these on an indented entry under the primary domain (the default value of `host()` when no arguments are provided). For an example of this, check out the `hellofresh` listings.
+
+Add the website's domain to the supported scraper list in README.rst, ensuring alphabetical order.
+
+If your site supports multiple top level domains (e.g. `.com.au`, `.co.ul`, `.at`, etc.) then list these on an indented entry under the primary domain (the default value of `host()` when no arguments are provided). For an example of this, check out the `hellofresh` listings.
 
 ## 7. Open a pull request
 
