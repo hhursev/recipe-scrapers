@@ -30,7 +30,14 @@ class DonnaHay(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        div = self.soup.find("div", class_="col-sm-6 method")
+        if not div:
+            return
+        instructions = div.find_all("li")
+        for instruction in instructions:
+            [tag.extract() for tag in instruction.find_all("b") if "Serves" in tag.get_text()] # Removes any bold text with 'Serves' in it
+            instruction.string = instruction.get_text(separator=" ", strip=True)  # Removes all &nbsp; characters
+        return instructions
 
     def ratings(self):
         return self.schema.ratings()
