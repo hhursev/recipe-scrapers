@@ -41,7 +41,9 @@ class Aldi(AbstractScraper):
         return get_yields(str(value))
 
     def image(self):
-        figure = self.soup.find("figure", {"class": "csc-textpic-image csc-textpic-last"})
+        figure = self.soup.find(
+            "figure", {"class": "csc-textpic-image csc-textpic-last"}
+        )
         if figure:
             image = figure.find("img")
             if image:
@@ -63,6 +65,10 @@ class Aldi(AbstractScraper):
     def _get_value(self, label):
         label_element = self.soup.find("b", string=label)
         if label_element:
-            parts = [sibling.strip() for sibling in label_element.find_next_siblings(string=True) if sibling.strip()]
+            parts = [
+                sibling.strip()
+                for sibling in label_element.find_next_siblings(string=True)
+                if sibling.strip()
+            ]
             return " ".join(parts)
         return None
