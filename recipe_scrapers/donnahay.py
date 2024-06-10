@@ -35,8 +35,10 @@ class DonnaHay(AbstractScraper):
             return
         instructions = div.find_all("li")
         for instruction in instructions:
-            [tag.extract() for tag in instruction.find_all("b") if "Serves" in tag.get_text()] # Removes any bold text with 'Serves' in it
-            instruction.string = instruction.get_text(separator=" ", strip=True)  # Removes all &nbsp; characters
+            text = instruction.get_text(separator=" ", strip=True)
+            if "Serves" in text:
+                text = text.split("Serves", 1)[0].strip() # Remove the sentence starting with Serves
+            instruction.string = text
         return instructions
 
     def ratings(self):
