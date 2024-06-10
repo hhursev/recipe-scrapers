@@ -30,7 +30,16 @@ class DonnaHay(AbstractScraper):
         return self.schema.ingredients()
 
     def instructions(self):
-        return self.schema.instructions()
+        div = self.soup.find("div", class_="col-sm-6 method")
+        if not div:
+            return
+        instructions = div.find_all("li")
+        for instruction in instructions:
+            text = instruction.get_text(separator=" ", strip=True)
+            if "Serves" in text:
+                text = text.split("Serves", 1)[0].strip() # Remove the sentence starting with Serves
+            instruction.string = text
+        return instructions
 
     def ratings(self):
         return self.schema.ratings()
