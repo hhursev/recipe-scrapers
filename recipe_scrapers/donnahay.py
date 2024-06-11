@@ -12,7 +12,11 @@ class DonnaHay(AbstractScraper):
         return self.schema.author()
 
     def title(self):
-        return self.schema.title()
+        return (
+            self.soup.find("h1", class_="text-center recipe-title__mobile")
+            .getText()
+            .upper()
+        )
 
     def category(self):
         return self.schema.category()
@@ -21,7 +25,8 @@ class DonnaHay(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
-        return self.schema.yields()
+        div = self.soup.find("div", class_="col-sm-6 method")
+        return div.find("b").getText()
 
     def image(self):
         div = self.soup.find("div", class_="image-frame recipes")
