@@ -24,7 +24,11 @@ class DonnaHay(AbstractScraper):
         return self.schema.yields()
 
     def image(self):
-        return self.schema.image()
+        div = self.soup.find("div", class_="image-frame recipes")
+        if not div:
+            return
+        image = div.find("img")
+        return image["src"]
 
     def ingredients(self):
         return self.schema.ingredients()
@@ -37,7 +41,9 @@ class DonnaHay(AbstractScraper):
         for instruction in instructions:
             text = instruction.get_text(separator=" ", strip=True)
             if "Serves" in text:
-                text = text.split("Serves", 1)[0].strip() # Remove the sentence starting with Serves
+                text = text.split("Serves", 1)[
+                    0
+                ].strip()  # Remove the sentence starting with Serves
             instruction.string = text
         return instructions
 
