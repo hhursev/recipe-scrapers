@@ -18,12 +18,6 @@ class DonnaHay(AbstractScraper):
             .upper()
         )
 
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         div = self.soup.find("div", class_="col-sm-6 method")
         return div.find("b").getText()
@@ -60,3 +54,11 @@ class DonnaHay(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def keywords(self):
+        div = self.soup.find("div", class_="section text-left")
+        tags = div.find_all("a")
+        keywords = []
+        for tag in tags:
+            keywords.append(tag.getText())
+        return keywords
