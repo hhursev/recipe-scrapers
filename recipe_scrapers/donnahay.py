@@ -8,9 +8,6 @@ class DonnaHay(AbstractScraper):
     def host(cls):
         return "donnahay.com.au"
 
-    def author(self):
-        return self.schema.author()
-
     def title(self):
         return (
             self.soup.find("h1", class_="text-center recipe-title__mobile")
@@ -45,15 +42,6 @@ class DonnaHay(AbstractScraper):
                 ].strip()  # Remove the sentence starting with Serves
             instruction.string = text
         return instructions
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
 
     def keywords(self):
         div = self.soup.find("div", class_="section text-left")
