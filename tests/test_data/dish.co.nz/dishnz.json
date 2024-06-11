@@ -1,9 +1,10 @@
 {
   "author": "Claire Aldous",
   "canonical_url": "https://dish.co.nz/recipes/tikka-masala-lamb-meatball-curry/",
+  "site_name": "Dish",
   "host": "dish.co.nz",
-  "description": "With a ready-made curry paste, dinner is on the table quick smart. I don’t brown the meatballs before adding them to the sauce; one less step to do!",
-  "image": "https://dish.co.nz/assets/media/images/meatball_curry__FillWzg1MCwxMTc0XQ.jpg",
+  "language": "en",
+  "title": "Tikka Masala Lamb Meatball Curry",
   "ingredients": [
     "400 grams lamb mince",
     "2 teaspoons ground cumin",
@@ -58,9 +59,8 @@
     "Serve the meatballs with any of the suggestions listed below.",
     "Serving suggestions: warm flatbreads hot cooked rice toasted coconut crispy shallots coconut cream or yoghurt mint or coriander leaves lime or lemon wedges"
   ],
-  "language": "en",
-  "site_name": "Dish",
-  "title": "Tikka Masala Lamb Meatball Curry",
+  "yields": "Serves: 4",
+  "description": "With a ready-made curry paste, dinner is on the table quick smart. I don’t brown the meatballs before adding them to the sauce; one less step to do!",
   "total_time": null,
-  "yields": "Serves: 4"
+  "image": "https://dish.co.nz/assets/media/images/meatball_curry__FillWzg1MCwxMTc0XQ.jpg"
 }
