@@ -1,9 +1,10 @@
 {
   "author": "Sue | My Korean Kitchen",
   "canonical_url": "https://mykoreankitchen.com/korean-sweet-rice-with-dried-fruit-and-nuts/",
+  "site_name": "My Korean Kitchen",
   "host": "mykoreankitchen.com",
-  "description": "Korean sweet rice dessert (Yaksik) recipe",
-  "image": "https://mykoreankitchen.com/wp-content/uploads/2016/01/1.-Korean-Sweet-Rice-with-Dried-Fruit-and-Nuts.jpg",
+  "language": "en-US",
+  "title": "Yaksik (Korean Sweet Rice with Dried Fruit and Nuts)",
   "ingredients": [
     "3 cups* sweet rice (short grain glutinous rice)",
     "2 cups* water",
@@ -65,16 +66,15 @@
     "Slice the yaksik into your preferred size. (If you decorated, that will influence the size.)",
     "Serve the yaksik. If not consuming immediately, wrap each piece individually in food wrap, store them in a container, and refrigerate it for a few days or freeze it for up to a few months."
   ],
-  "language": "en-US",
-  "site_name": "My Korean Kitchen",
-  "title": "Yaksik (Korean Sweet Rice with Dried Fruit and Nuts)",
-  "total_time": 70,
-  "prep_time": 10,
-  "cook_time": 60,
-  "ratings": 4.88,
-  "yields": "9 servings",
   "category": "Dessert",
+  "yields": "9 servings",
+  "description": "Korean sweet rice dessert (Yaksik) recipe",
+  "total_time": 70,
+  "cook_time": 60,
+  "prep_time": 10,
   "cuisine": "Korean",
+  "ratings": 4.88,
+  "ratings_count": 8,
   "nutrients": {
     "calories": "439 kcal",
     "carbohydrateContent": "89 g",
@@ -86,5 +86,10 @@
     "sugarContent": "14 g",
     "unsaturatedFatContent": "5 g",
     "servingSize": "1 serving"
-  }
+  },
+  "image": "https://mykoreankitchen.com/wp-content/uploads/2016/01/1.-Korean-Sweet-Rice-with-Dried-Fruit-and-Nuts.jpg",
+  "keywords": [
+    "yakbap",
+    "yaksik"
+  ]
 }

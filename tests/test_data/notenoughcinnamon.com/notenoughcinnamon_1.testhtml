@@ -1,0 +1,1772 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"4140be25c5",applicationID:"135801306"};;/*! For license information please see nr-loader-rum-1.259.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>P,Yu:()=>_,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>N});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const _=(0,n.mF)().o;var E=r(385),x=r(6818);const D={buildEnv:x.Re,distMethod:x.gF,version:x.q4,originTime:E.sK},S={customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,denyList:void 0,harvestCount:0,timeKeeper:void 0},R={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function N(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]={...(0,i.D)(t,S),...D};const r=(0,n.ek)(e);r&&(r.runtime=R[e])}function P(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.259.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,iS:()=>a,il:()=>n,sK:()=>l,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(Date.now()-performance.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=Array.from(s[e]);t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},7872:(e,t,r)=>{"use strict";function n(e){var t=this;let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:500,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};const i=n?.leading||!1;let o;return function(){for(var n=arguments.length,a=new Array(n),s=0;s<n;s++)a[s]=arguments[s];i&&void 0===o&&(e.apply(t,a),o=setTimeout((()=>{o=clearTimeout(o)}),r)),i||(clearTimeout(o),o=setTimeout((()=>{e.apply(t,a)}),r))}}function i(e){var t=this;let r=!1;return function(){if(!r){r=!0;for(var n=arguments.length,i=new Array(n),o=0;o<n;o++)i[o]=arguments[o];e.apply(t,i)}}}r.d(t,{D:()=>n,Z:()=>i})},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>i});var n=r(7056);r(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"};n.IK.ERROR,n.IK.FULL,n.IK.OFF},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),g=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start",g.Ef.RECORD,g.Ef.PAUSE],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(7894),m=r(7056);function b(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}const y={};var A=r(2825);const w=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let _=!1;function E(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,E=arguments.length>3?arguments[3]:void 0,{init:x,info:D,loader_config:S,runtime:R={loaderType:p},exposed:k=!0}=t;const N=(0,f.gG)();D||(x=N.init,D=N.info,S=N.loader_config),(0,i.Dg)(e.agentIdentifier,x||{}),(0,i.GE)(e.agentIdentifier,S||{}),D.jsAttributes??={},u.v6&&(D.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,D);const P=(0,i.P_)(e.agentIdentifier),j=[D.beacon,D.errorBeacon];_||(P.proxy.assets&&(w(P.proxy.assets),j.push(P.proxy.assets)),P.proxy.beacon&&j.push(P.proxy.beacon),b(),(0,f.EZ)("activatedFeatures",A.T),e.runSoftNavOverSpa&&=!0===P.soft_navigations.enabled&&P.feature_flags.includes("soft_nav")),R.denyList=[...P.ajax.deny_list||[],...P.ajax.block_internal?j:[]],R.ptid=e.agentIdentifier,(0,i.sU)(e.agentIdentifier,R),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var b=a.ee.get(e),A=b.get("tracer");y[e]=m.IK.OFF,b.on(g.Ef.REPLAY_RUNNING,(t=>{y[e]=t}));var w="api-",_=w+"ixn-";function E(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),S(w,n,!0,o||null===r?"session":void 0)(t,r)}function x(){}h.forEach((e=>{p[e]=S(w,e,!0,"api")})),p.addPageAction=S(w,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,S(w,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return E(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return E("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return E("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=()=>{try{(0,o.p)(l.xS,["API/start/called"],void 0,n.D.metrics,b),b.emit("manual-start-all")}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[g.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.RECORD,[],void 0,n.D.sessionReplay,b)},p[g.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.PAUSE,[],void 0,n.D.sessionReplay,b)},p.interaction=function(e){return(new x).get("object"==typeof e?e:{})};const D=x.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,b),f||(0,o.p)(_+"tracer",[(0,v.z)(),e,r],i,n.D.spa,b),function(){if(A.emit((a?"":"no-")+"fn-start",[(0,v.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw A.emit("fn-err",[arguments,this,t],r),t}finally{A.emit("fn-end",[(0,v.z)()],r)}}}};function S(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,b),i&&(0,o.p)(e+t,[(0,v.z)(),...arguments],r?null:this,i,b),r?void 0:this}}function R(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((e=>{(0,d.Z)("Downloading runtime APIs failed...",e),b.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{D[e]=S(_,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?S(_,"routeName",void 0,n.D.softNav):S(w,"routeName",!0,n.D.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,b),(0,o.p)("err",[t,(0,v.z)(),!1,r,!!y[e]],void 0,n.D.jserrors,b)},u.il?(0,c.b2)((()=>R()),!0):R(),p}(e.agentIdentifier,E,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=k),_=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.259.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.259.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-5GjfGUBNtKaMaiPnle7qB4rCL61B2+hWtN2DiJfRQbAiNvU7ZKxPPsUkbhEmxVpeg7jcZYgtM42Uv6aB3sjKAQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.259.0.PROD"]=self["webpackChunk:NRBA-1.259.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402),n=i(8325);class o{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e,this.ee=n.ee.get(e)}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var a=i(3325),s=i(234);const c=Object.values(a.D);function u(e){const t={};return c.forEach((r=>{t[r]=function(e,t){return!0===(0,s.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var d=i(2758);var l=i(8e3),f=i(5938),g=i(3960),p=i(385);const h=e=>p.il&&!0===(0,s.Mt)(e,"privacy.cookies_enabled");function v(e){return!!s.Yu.MO&&h(e)&&!0===(0,s.Mt)(e,"session_trace.enabled")}var m=i(7872);class b extends f.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,s.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto?(0,l.RP)(e,r):this.ee.on("manual-start-all",(0,m.Z)((()=>{(0,l.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()})))}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(h(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,7920));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===a.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,l.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,l.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};p.il?(0,g.b2)((()=>n()),!0):n()}#t(e,t){return e!==a.D.sessionReplay||(r=this.agentIdentifier,n=t,!(!v(r)||!n?.isNew&&!n?.state.sessionReplayMode));var r,n}}var y=i(7633);class A extends b{static featureName=y.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,y.t,r),this.importAggregator()}}var w=i(1117),_=i(1284);class E extends w.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,_.D)(e,(function(e,r){t[e]=x(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,_.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=x(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=D(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=x(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=D(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function D(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var S=i(8632),R=i(4351);var k=i(5546),N=i(7956),P=i(3239),j=i(9251),T=i(7894);class I extends b{static featureName=j.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,j.t,r),p.il&&((0,N.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,j.t,this.ee)),!0),(0,P.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,j.t,this.ee))),this.importAggregator())}}var O=i(3081);class M extends b{static featureName=O.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,O.t9,r),this.importAggregator()}}new class extends o{constructor(t,r){super(r),p._A?(this.sharedAggregator=new E({agentIdentifier:this.agentIdentifier}),this.features={},(0,S.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(A),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===a.D.softNav)),(0,d.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=u(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>a.p[e.featureName]-a.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==a.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===a.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===a.D.softNav)return;const n=function(e){switch(e){case a.D.ajax:return[a.D.jserrors];case a.D.sessionTrace:return[a.D.ajax,a.D.pageViewEvent];case a.D.sessionReplay:return[a.D.sessionTrace];case a.D.pageViewTiming:return[a.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,R.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,S.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[A,I,M],loaderType:"lite"})})()})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Pina Colada Chia Pudding Recipe with Coconut Milk &amp; Pineapple" />
+<meta property="og:description" content="Pina Colada Chia Pudding is an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails!" />
+<meta property="og:url" content="https://www.notenoughcinnamon.com/pina-colada-chia-pudding/" />
+<meta property="og:site_name" content="Not Enough Cinnamon" />
+<meta property="og:updated_time" content="2021-08-24T10:42:22+00:00" />
+<meta property="article:published_time" content="2021-04-08T10:00:39+00:00" />
+<meta property="article:modified_time" content="2021-08-24T10:42:22+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Pina Colada Chia Pudding Recipe with Coconut Milk &amp; Pineapple" />
+<meta name="twitter:description" content="Pina Colada Chia Pudding is an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails!" />
+<meta property="og:image" content="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg" />
+<meta name="twitter:image" content="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg" />
+<meta property="og:image:width" content="622" />
+<meta property="og:image:height" content="933" />
+
+<style>
+	.adthrive-ad {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		overflow-x: visible;
+		clear: both;
+		line-height: 0;
+	}
+	.adthrive-ad {
+overflow-x:visible !important;
+}
+
+#AdThrive_Recipe_1_desktop, #AdThrive_Recipe_1_tablet {
+float:right;
+margin-left:8px;
+}
+
+.adthrive-device-phone .site-content {
+    -webkit-transform: none;
+    transform: none;
+}
+.adthrive-device-desktop .adthrive-recipe, 
+.adthrive-device-tablet .adthrive-recipe {
+  float: right;
+  clear: right;
+  margin: 10px 0 10px 10px;
+}
+
+/* White Background For Mobile Sticky Video Player */
+.adthrive-collapse-mobile-background {
+background-color: #fff!important;
+}
+.adthrive-top-collapse-close > svg > * {
+stroke: black;
+font-family: sans-serif;
+}
+.adthrive-top-collapse-wrapper-video-title,
+.adthrive-top-collapse-wrapper-bar a a.adthrive-learn-more-link {
+color: black!important;
+}
+/* END White Background For Mobile Sticky Video Player */
+
+</style>
+<script>
+	window.adthriveCLS = {
+		enabledLocations: ['Content', 'Recipe'],
+		injectedSlots: [],
+		injectedFromPlugin: true, // accessed by site specific file injection
+			};
+	window.adthriveCLS.siteAds = {"siteId":"55c2bb3f5a3c84a40890eac3","siteName":"Not Enough Cinnamon","betaTester":false,"targeting":[{"value":"55c2bb3f5a3c84a40890eac3","key":"siteId"},{"value":"6233884d3029227088df1b6a","key":"organizationId"},{"value":"Not Enough Cinnamon","key":"siteName"},{"value":"AdThrive Edge","key":"service"},{"value":"on","key":"bidding"},{"value":["Food","Clean Eating","Fitness"],"key":"verticals"}],"breakpoints":{"tablet":768,"desktop":1024},"adUnits":[{"sequence":9,"targeting":[{"value":["Sidebar"],"key":"location"},{"value":true,"key":"sticky"}],"devices":["desktop"],"name":"Sidebar_9","sticky":true,"location":"Sidebar","dynamic":{"pageSelector":"","spacing":0,"max":1,"lazy":false,"lazyMax":null,"elementSelector":".sidebar","skip":0,"classNames":[],"position":"beforeend","every":1,"enabled":true},"adSizes":[[160,600],[336,280],[320,50],[300,600],[250,250],[1,1],[320,100],[300,1050],[300,50],[300,420],[300,250]],"priority":291,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["desktop"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.home","spacing":0,"max":1,"lazy":false,"lazyMax":null,"elementSelector":".signup-box","skip":0,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["tablet","phone"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.blog, body.search, body.archive","spacing":0,"max":5,"lazy":false,"lazyMax":null,"elementSelector":".container-fluid","skip":1,"classNames":[],"position":"beforebegin","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["desktop"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.single, body.page","spacing":1.5,"max":2,"lazy":true,"lazyMax":97,"elementSelector":".section-container > *","skip":4,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["tablet"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.single, body.page","spacing":0.7,"max":3,"lazy":true,"lazyMax":96,"elementSelector":".section-container > *","skip":2,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["phone"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.single, body.page","spacing":1,"max":3,"lazy":true,"lazyMax":96,"elementSelector":".section-container > *","skip":2,"classNames":[],"position":"afterend","every":2,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Recipe"],"key":"location"}],"devices":["phone","tablet","desktop"],"name":"Recipe","sticky":false,"location":"Recipe","dynamic":{"pageSelector":"","spacing":0,"max":1,"lazy":false,"lazyMax":null,"elementSelector":"#zlrecipe-instructions","skip":0,"classNames":[],"position":"afterbegin","every":1,"enabled":true},"adSizes":[[320,50],[250,250],[1,1],[320,100],[1,2],[300,50],[320,300],[300,390],[300,250]],"priority":-101,"autosize":true},{"sequence":null,"targeting":[{"value":["Recipe"],"key":"location"}],"devices":["tablet","desktop"],"name":"Recipe","sticky":false,"location":"Recipe","dynamic":{"pageSelector":"","spacing":0.7,"max":1,"lazy":true,"lazyMax":4,"elementSelector":".wprm-recipe-ingredients-container li, .wprm-recipe-instructions-container li, .wprm-recipe-notes-container li, .wprm-recipe-notes-container span","skip":0,"classNames":[],"position":"beforebegin","every":1,"enabled":true},"adSizes":[[320,50],[250,250],[1,1],[320,100],[1,2],[300,50],[320,300],[300,390],[300,250]],"priority":-101,"autosize":true},{"sequence":4,"targeting":[{"value":["Recipe"],"key":"location"}],"devices":["phone"],"name":"Recipe_4","sticky":false,"location":"Recipe","dynamic":{"pageSelector":"","spacing":0,"max":1,"lazy":false,"lazyMax":null,"elementSelector":".wprm-recipe-ingredients-container","skip":0,"classNames":[],"position":"beforebegin","every":1,"enabled":true},"adSizes":[[320,50],[250,250],[1,1],[320,100],[1,2],[300,50],[320,300],[300,390],[300,250]],"priority":-104,"autosize":true},{"sequence":null,"targeting":[{"value":["Recipe"],"key":"location"}],"devices":["phone"],"name":"Recipe","sticky":false,"location":"Recipe","dynamic":{"pageSelector":"","spacing":0.7,"max":1,"lazy":true,"lazyMax":2,"elementSelector":".wprm-recipe-ingredients-container, .wprm-recipe-instructions-container, .wprm-recipe-notes-container","skip":0,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[320,50],[250,250],[1,1],[320,100],[1,2],[300,50],[320,300],[300,390],[300,250]],"priority":-101,"autosize":true},{"sequence":null,"targeting":[{"value":["Footer"],"key":"location"},{"value":true,"key":"sticky"}],"devices":["tablet","phone","desktop"],"name":"Footer","sticky":true,"location":"Footer","dynamic":{"pageSelector":"","spacing":0,"max":1,"lazy":false,"lazyMax":null,"elementSelector":"body","skip":0,"classNames":[],"position":"beforeend","every":1,"enabled":true},"adSizes":[[320,50],[320,100],[728,90],[970,90],[468,60],[1,1],[300,50]],"priority":-1,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["desktop"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.single","spacing":1.5,"max":2,"lazy":true,"lazyMax":97,"elementSelector":".entry-content > p","skip":3,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["tablet"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.single","spacing":0.7,"max":4,"lazy":true,"lazyMax":95,"elementSelector":".entry-content > p","skip":1,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["phone"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.single","spacing":1.5,"max":4,"lazy":true,"lazyMax":95,"elementSelector":".entry-content > p","skip":1,"classNames":[],"position":"afterend","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true},{"sequence":null,"targeting":[{"value":["Content"],"key":"location"}],"devices":["desktop"],"name":"Content","sticky":false,"location":"Content","dynamic":{"pageSelector":"body.home","spacing":0,"max":1,"lazy":false,"lazyMax":null,"elementSelector":".fd-form-6086f51c75b15270e0ddc8d7","skip":0,"classNames":[],"position":"beforebegin","every":1,"enabled":true},"adSizes":[[728,90],[336,280],[320,50],[468,60],[970,90],[250,250],[1,1],[320,100],[970,250],[1,2],[300,50],[300,300],[552,334],[728,250],[300,250]],"priority":199,"autosize":true}],"adDensityLayout":{"mobile":{"adDensity":0.22,"onePerViewport":false},"pageOverrides":[{"mobile":{"adDensity":0.2,"onePerViewport":false},"pageSelector":"body.home","desktop":{"adDensity":0.3,"onePerViewport":false}},{"mobile":{"adDensity":0.3,"onePerViewport":false},"pageSelector":"body.blog, body.search, body.archive","desktop":{"adDensity":0.2,"onePerViewport":false}}],"desktop":{"adDensity":0.22,"onePerViewport":false}},"adDensityEnabled":true,"siteExperiments":[],"adTypes":{"sponsorTileDesktop":true,"nativeDesktopContent":true,"outstreamDesktop":true,"nativeBelowPostDesktop":true,"miniscroller":true,"animatedFooter":true,"largeFormatsMobile":true,"nativeMobileContent":true,"inRecipeRecommendationMobile":true,"nativeMobileRecipe":true,"expandableFooter":true,"nativeDesktopSidebar":true,"sponsorTileMobile":true,"interscroller":true,"nativeDesktopRecipe":true,"outstreamMobile":true,"nativeHeaderDesktop":true,"nativeHeaderMobile":true,"nativeBelowPostMobile":true,"largeFormatsDesktop":true,"inRecipeRecommendationDesktop":true},"adOptions":{"theTradeDesk":true,"rtbhouse":true,"verizon":true,"undertone":true,"sidebarConfig":{"dynamicStickySidebar":{"minHeight":1250,"enabled":true,"blockedSelectors":[]}},"concert":false,"footerCloseButton":true,"teads":true,"pmp":true,"thirtyThreeAcross":true,"sharethrough":true,"removeVideoTitleWrapper":true,"pubMatic":true,"roundel":true,"infiniteScroll":false,"yahoossp":true,"improvedigital":true,"spa":false,"stickyContainerConfig":{"recipeDesktop":{"minHeight":null,"enabled":false},"blockedSelectors":[],"stickyHeaderSelectors":[],"content":{"minHeight":null,"enabled":false},"recipeMobile":{"minHeight":null,"enabled":false}},"sonobi":true,"yieldmo":true,"footerSelector":"","amazonUAM":true,"gamMCMEnabled":true,"gamMCMChildNetworkCode":"22570991384","stickyContainerAds":false,"rubiconMediaMath":true,"rubicon":true,"conversant":true,"resetdigital":true,"openx":true,"customCreativeEnabled":false,"mobileHeaderHeight":1,"unruly":true,"mediaGrid":true,"bRealTime":true,"gumgum":true,"comscoreFooter":true,"desktopInterstitial":false,"footerCloseButtonDesktop":true,"ozone":false,"isAutoOptimized":false,"adform":true,"comscoreTAL":true,"targetaff":false,"bgColor":"#FFFFFF","advancePlaylistOptions":{"playlistPlayer":{"enabled":true},"relatedPlayer":{"enabled":true,"applyToFirst":true}},"amazonASR":false,"kargo":true,"liveRampATS":true,"footerCloseButtonMobile":true,"interstitialBlockedPageSelectors":"","allowSmallerAdSizes":true,"comscore":"Food","mobileInterstitial":false,"tripleLift":true,"sensitiveCategories":["alc","drg","conl","gamv"],"liveRamp":true,"mobileInterstitialBlockedPageSelectors":"","adthriveEmailIdentity":true,"criteo":true,"nativo":false,"infiniteScrollOptions":{"selector":"","heightThreshold":0},"siteAttributes":{"mobileHeaderSelectors":[],"desktopHeaderSelectors":[]},"dynamicContentSlotLazyLoading":true,"clsOptimizedAds":true,"colossus":true,"aidem":false,"verticals":["Food","Clean Eating","Fitness"],"inImage":false,"advancePlaylist":true,"delayLoading":false,"inImageZone":null,"appNexus":true,"liveRampId":"","infiniteScrollRefresh":false,"indexExchange":true},"videoPlayers":{"contextual":{"autoplayCollapsibleEnabled":true,"overrideEmbedLocation":true,"defaultPlayerType":"collapse"},"videoEmbed":"wordpress","footerSelector":"","contentSpecificPlaylists":[],"players":[{"playlistId":"","pageSelector":"body.single","devices":["mobile"],"mobileLocation":"top-center","description":"","skip":1,"title":"","type":"stickyRelated","enabled":true,"elementSelector":".section-container > p, .entry-content > p","id":4050090,"position":"afterend","saveVideoCloseState":false,"shuffle":false,"mobileHeaderSelector":null,"playerId":"NidNGLqe"},{"playlistId":"rJXuOB8h","pageSelector":"body.single, body.page","devices":["desktop"],"description":"","skip":1,"title":"Other Recipes","type":"stickyPlaylist","enabled":true,"footerSelector":"","elementSelector":".section-container > p, .entry-content > p","id":4050091,"position":"afterend","saveVideoCloseState":false,"shuffle":true,"mobileHeaderSelector":null,"playerId":"YVBkcz56"},{"playlistId":"rJXuOB8h","pageSelector":"body.single, body.page","devices":["mobile"],"mobileLocation":"top-center","description":"","skip":1,"title":"Other Recipes","type":"stickyPlaylist","enabled":true,"footerSelector":"","elementSelector":".section-container > p, .entry-content > p","id":4050092,"position":"afterend","saveVideoCloseState":false,"shuffle":true,"mobileHeaderSelector":null,"playerId":"YVBkcz56"},{"playlistId":"","pageSelector":"body.single","devices":["desktop"],"description":"","skip":1,"title":"","type":"stickyRelated","enabled":true,"elementSelector":".section-container > p, .entry-content > p","id":4050089,"position":"afterend","saveVideoCloseState":false,"shuffle":false,"mobileHeaderSelector":null,"playerId":"NidNGLqe"},{"devices":["desktop","mobile"],"description":"","id":4050088,"title":"Stationary related player - desktop and mobile","type":"stationaryRelated","enabled":true,"playerId":"NidNGLqe"}],"partners":{"theTradeDesk":true,"unruly":true,"mediaGrid":true,"undertone":true,"gumgum":true,"adform":true,"pmp":true,"kargo":true,"thirtyThreeAcross":false,"stickyOutstream":{"desktop":{"enabled":true},"blockedPageSelectors":"","mobileLocation":"bottom-right","allowOnHomepage":true,"mobile":{"enabled":true},"saveVideoCloseState":false,"mobileHeaderSelector":null,"allowForPageWithStickyPlayer":{"enabled":true}},"sharethrough":true,"tripleLift":true,"pubMatic":true,"roundel":true,"yahoossp":true,"criteo":true,"improvedigital":true,"colossus":true,"aidem":false,"yieldmo":true,"amazonUAM":true,"rubicon":true,"appNexus":true,"resetdigital":true,"openx":true,"indexExchange":true}}};</script>
+<script>
+(function(w, d) {
+	w.adthrive = w.adthrive || {};
+	w.adthrive.cmd = w.adthrive.cmd || [];
+	w.adthrive.plugin = 'adthrive-ads-1.0.50';
+	w.adthrive.host = 'ads.adthrive.com';
+
+	var s = d.createElement('script');
+	s.async = true;
+	s.referrerpolicy='no-referrer-when-downgrade';
+	s.src = 'https://' + w.adthrive.host + '/sites/55c2bb3f5a3c84a40890eac3/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + '&cb=' + (Math.floor(Math.random() * 100) + 1);
+	var n = d.getElementsByTagName('script')[0];
+	n.parentNode.insertBefore(s, n);
+})(window, document);
+</script>
+
+<title>Pina Colada Chia Pudding Recipe with Coconut Milk &amp; Pineapple</title>
+<meta name="description" content="Pina Colada Chia Pudding is an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails!" />
+<link rel="canonical" href="https://www.notenoughcinnamon.com/pina-colada-chia-pudding/" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Marie" />
+<meta name="twitter:label2" content="Est. reading time" />
+<meta name="twitter:data2" content="4 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.notenoughcinnamon.com/#organization","name":"Not Enough Cinnamon","url":"https://www.notenoughcinnamon.com/","sameAs":["https://www.facebook.com/NotEnoughCinnamon","https://instagram.com/notenoughcinnamon/","http://www.pinterest.com/NECinnamon/","https://twitter.com/NECinnamon"],"logo":{"@type":"ImageObject","@id":"https://www.notenoughcinnamon.com/#logo","inLanguage":"en-US","url":"https://www.notenoughcinnamon.com/wp-content/uploads/2015/04/Logo-NEC-copy.png","contentUrl":"https://www.notenoughcinnamon.com/wp-content/uploads/2015/04/Logo-NEC-copy.png","width":1282,"height":340,"caption":"Not Enough Cinnamon"},"image":{"@id":"https://www.notenoughcinnamon.com/#logo"}},{"@type":"WebSite","@id":"https://www.notenoughcinnamon.com/#website","url":"https://www.notenoughcinnamon.com/","name":"Not Enough Cinnamon","description":"Clean Eating Healthy Recipes, Free Workouts and Healthy Living Tips","publisher":{"@id":"https://www.notenoughcinnamon.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.notenoughcinnamon.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#primaryimage","inLanguage":"en-US","url":"https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg","contentUrl":"https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg","width":622,"height":933,"caption":"pina colada chia pudding served in mason jars"},{"@type":"WebPage","@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#webpage","url":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/","name":"Pina Colada Chia Pudding Recipe with Coconut Milk & Pineapple","isPartOf":{"@id":"https://www.notenoughcinnamon.com/#website"},"primaryImageOfPage":{"@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#primaryimage"},"datePublished":"2021-04-08T07:00:39+00:00","dateModified":"2021-08-24T07:42:22+00:00","description":"Pina Colada Chia Pudding is an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails!","breadcrumb":{"@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.notenoughcinnamon.com/pina-colada-chia-pudding/"]}]},{"@type":"BreadcrumbList","@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.notenoughcinnamon.com/"},{"@type":"ListItem","position":2,"name":"Recipes","item":"https://www.notenoughcinnamon.com/category/recipes/"},{"@type":"ListItem","position":3,"name":"Pina Colada Chia Pudding"}]},{"@type":"Article","@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#article","isPartOf":{"@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#webpage"},"author":{"@id":"https://www.notenoughcinnamon.com/#/schema/person/30ceba728b277aaa4b93db4467d343e0"},"headline":"Pina Colada Chia Pudding","datePublished":"2021-04-08T07:00:39+00:00","dateModified":"2021-08-24T07:42:22+00:00","wordCount":748,"publisher":{"@id":"https://www.notenoughcinnamon.com/#organization"},"image":{"@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#primaryimage"},"thumbnailUrl":"https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg","keywords":["chia","coconut milk","maple syrup","pineapple","vanilla"],"articleSection":["Breakfast / Brunch","Clean Eating","Dairy Free","Desserts","Quick &amp; Easy Meals","Recipes","Snacks","Spring Recipes","Summer Recipes","Vegan","Vegetarian"],"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.notenoughcinnamon.com/#/schema/person/30ceba728b277aaa4b93db4467d343e0","name":"Marie","url":"https://www.notenoughcinnamon.com/author/marie/"},{"@context":"http://schema.org/","@type":"Recipe","name":"Pina Colada Chia Puddings","author":{"@type":"Person","name":"Marie"},"description":"Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!","datePublished":"2021-04-08T10:00:39+00:00","image":["https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg","https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2-500x500.jpg","https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2-500x375.jpg","https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2-480x270.jpg"],"recipeYield":["3","3 or 2 big"],"prepTime":"PT5M","totalTime":"PT485M","recipeIngredient":["1 cup coconut milk (the kind in a can - full fat or light)","1/4 cup chia seeds","1 tablespoon maple syrup","1 pinch salt","1 teaspoon vanilla extract (ideally transparent to keep the mixture white)","\u00bd teaspoon coconut extract","1 1/2 cups pineapple (chopped (see notes))","2 tablespoons unsweetened coconut flakes"],"recipeInstructions":[{"@type":"HowToStep","text":"tart by whisking together coconut milk, chia seeds, maple syrup, salt, vanilla, and coconut extracts in a medium-sized bowl or container until combined. Cover and refrigerate overnight or at least 6 hours.","name":"tart by whisking together coconut milk, chia seeds, maple syrup, salt, vanilla, and coconut extracts in a medium-sized bowl or container until combined. Cover and refrigerate overnight or at least 6 hours.","url":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#wprm-recipe-15233-step-0-0"},{"@type":"HowToStep","text":"Just before serving, blend pineapple chunks in a food processor or blender and puree until a very smooth smoothie-like consistency is reached (see notes for).","name":"Just before serving, blend pineapple chunks in a food processor or blender and puree until a very smooth smoothie-like consistency is reached (see notes for).","url":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#wprm-recipe-15233-step-0-1"},{"@type":"HowToStep","text":"To serve, stir coconut chia pudding and divide the chia pudding and pineapple mixture evenly in alternating layers. Top with shredded coconut.","name":"To serve, stir coconut chia pudding and divide the chia pudding and pineapple mixture evenly in alternating layers. Top with shredded coconut.","url":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#wprm-recipe-15233-step-0-2"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"5"},"recipeCategory":["Breakfast","brunch"],"recipeCuisine":["American"],"keywords":"coconut milk chia pudding, vegan chia pudding","nutrition":{"@type":"NutritionInformation","calories":"305 kcal","carbohydrateContent":"24 g","proteinContent":"5 g","fatContent":"23 g","saturatedFatContent":"17 g","transFatContent":"1 g","sodiumContent":"28 mg","fiberContent":"7 g","sugarContent":"13 g","servingSize":"1 serving"},"@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#recipe","isPartOf":{"@id":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#article"},"mainEntityOfPage":"https://www.notenoughcinnamon.com/pina-colada-chia-pudding/#webpage"}]}</script>
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="alternate" type="application/rss+xml" title="Not Enough Cinnamon &raquo; Feed" href="https://feeds.feedburner.com/NotEnoughCinnamon" />
+<link rel="alternate" type="application/rss+xml" title="Not Enough Cinnamon &raquo; Comments Feed" href="https://www.notenoughcinnamon.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Not Enough Cinnamon &raquo; Pina Colada Chia Pudding Comments Feed" href="https://www.notenoughcinnamon.com/pina-colada-chia-pudding/feed/" />
+<link rel="stylesheet" id="foodie-pro-theme-css" href="https://www.notenoughcinnamon.com/wp-content/themes/foodiepro-v441/style.css?ver=4.4.1" type="text/css" media="all" />
+<style id="foodie-pro-theme-inline-css" type="text/css">
+.site-title a, .site-title a:hover{color:#3e4157;}h1.entry-title, .entry-title a, .widgettitle, .recipe-index-search .widgettitle, .footer-widgets .widgettitle{color:#3e4157;}a, .entry-meta a, .post-info a, .post-meta a, .site-footer a, .entry-content a{color:#ee69a3;}a:hover, .entry-meta a:hover, .post-info a:hover, .post-meta a:hover, .site-footer a:hover{color:#ee69a3;}.genesis-nav-menu > li > a{color:#3e4157;}.genesis-nav-menu > li > a:hover, .genesis-nav-menu > .current-menu-item > a{color:#ee69a3;}.button, button, .enews-widget input[type="submit"], a.more-link, .more-from-category a, .sidebar .button, .sidebar .more-from-category a{background:#3e4157;}.button, button, .enews-widget input[type="submit"], a.more-link, .more-from-category a{border-color:#3e4157;}.button:hover, button:hover, .enews-widget input[type="submit"]:hover, a.more-link:hover, .more-from-category a:hover{background:#3e4157;color:#ffffff;}body, .site-description, .sidebar .featured-content .entry-title{font-family:"Muli","Helvetica Neue",sans-serif;}.genesis-nav-menu{font-family:"Karla","Helvetica Neue",sans-serif;}h1, h2, h3, h4, h5, h6, .site-title, .entry-title, .widgettitle{font-family:"Playfair Display","Helvetica Neue",sans-serif;font-weight:600;}.entry-title{font-family:"Playfair Display","Helvetica Neue",sans-serif;font-size:37px;}.button, .button-secondary, button, input[type="button"], input[type="reset"], input[type="submit"], a.more-link, .more-from-category a{font-family:"Playfair Display","Helvetica Neue",sans-serif;}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://www.notenoughcinnamon.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.9" type="text/css" media="all" />
+<link rel="stylesheet" id="feast-plugin-public-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/feast-plugin/assets/css/feast-plugin-public.css?ver=1.9.0" type="text/css" media="screen" />
+<link rel="stylesheet" id="SPUniversalFront.css-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/revision-manager-tmc/vendor/tmc/shellpress/assets/css/UniversalFront/SPUniversalFront.css?ver=1.3.89" type="text/css" media="all" />
+<link rel="stylesheet" id="dpsp-frontend-style-pro-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.2.14.1.css?ver=2.14.1" type="text/css" media="all" />
+<link rel="stylesheet" id="wprm-template-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/wp-recipe-maker/templates/recipe/legacy/simple/simple.min.css?ver=7.4.0" type="text/css" media="all" />
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%7CPlayfair+Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic%26subset%3Dlatin%2C&#038;ver=4.4.1" type="text/css" media="all" />
+<link rel="stylesheet" id="simple-social-icons-font-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/css/style.css?ver=3.0.2" type="text/css" media="all" />
+<script type="text/javascript" src="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/svgxuse.js?ver=1.1.21" id="svg-x-use-js"></script>
+<link rel="https://api.w.org/" href="https://www.notenoughcinnamon.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.notenoughcinnamon.com/wp-json/wp/v2/posts/13978" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.notenoughcinnamon.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.notenoughcinnamon.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.8.9" />
+<link rel="shortlink" href="https://www.notenoughcinnamon.com/?p=13978" />
+<style id="feast-blockandfront-styles">.feast-about-author { background-color: #f2f2f2; color: #32373c; padding: 17px; margin-top: 57px; display: grid; grid-template-columns: 1fr 3fr !important; } .feast-about-author h2 { margin-top: 7px !important;} .feast-about-author img{ border-radius: 50%; }aside .feast-about-author { grid-template-columns: 1fr !important; }.wp-block-search .wp-block-search__input { max-width: 100%; }.screen-reader-text { width: 1px; height: 1px; }footer ul li, .site-footer ul li { list-style-type: none; }footer ul li, .site-footer ul li { list-style-type: none; }aside .wp-block-search { display: grid; grid-template-columns: 2fr 1fr; margin: 37px 0;  } aside .wp-block-search__label { display: none; } aside li:before { content: '' !important; }@media only screen and (max-width: 600px) { aside .wp-block-search { grid-template-columns: 1fr; } aside input { min-height: 50px; margin-bottom: 17px;} }.feast-button a { border: 2px solid var(--feast-branding-primary-background); padding: 7px 14px; border-radius: 20px; background: var(--feast-branding-primary); color: var(--feast-branding-primary-background); text-decoration: none !important; font-weight: bold; } .feast-button { padding: 27px 7px; }.feast-box-primary { color: var( --feast-branding-primary ) !important; background: var(--feast-branding-primary-background) !important; padding: 17px !important; margin: 17px 0 !important;  }.feast-box-secondary { color: var( --feast-branding-secondary ) !important; background: var(--feast-branding-secondary-background) !important; padding: 17px !important; margin: 17px 0 !important;  }.feast-box-primary li, .feast-box-secondary li {margin-left: 17px !important; }.feast-checklist li::marker { color: #FFF; } .feast-checklist li:before { content: '✓'; margin-right: 17px; }</style>
+<style type="text/css">
+	.feast-category-index-list {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr) );
+		grid-gap: 17px;
+		list-style: none;
+		list-style-type: none;
+		margin: 17px 0 !important;
+	}
+	.feast-category-index-list li {
+		min-height: 150px;
+		text-align: center;
+		position: relative;
+		list-style: none !important;
+		margin-left: 0 !important;
+		list-style-type: none !important;
+		overflow: hidden;
+	}
+	.feast-category-index-list li a.title { 
+		text-decoration: none; 
+	}
+	.feast-category-index-list-overlay .fsci-title {
+		position: absolute;
+		top: 88%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #FFF;
+		padding: 5px;
+		color: #333;
+		font-weight: bold;
+		border: 2px solid #888;
+		text-transform: uppercase;
+		width: 80%;
+	}
+	.listing-item:focus-within, .wp-block-search__input:focus {outline: 2px solid #555; }
+	.listing-item a:focus, .listing-item a:focus .fsri-title, .listing-item a:focus img { opacity: 0.8; outline: none; }
+	li.listing-item:before { content: "" !important; }
+	.feast-image-frame, .feast-image-border { border: 3px solid #DDD; }
+	.feast-image-round, .feast-image-round img { border-radius: 50%; } 
+	.feast-image-shadow { box-shadow: 3px 3px 5px #AAA; }
+	.feast-line-through { text-decoration: line-through; }
+	.feast-grid-full, .feast-grid-half, .feast-grid-third, .feast-grid-fourth, .feast-grid-fifth { display: grid; grid-gap: 17px; }
+	.feast-grid-full { grid-template-columns: 1fr !important; }
+	.feast-grid-half { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+	.feast-grid-third { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+	.feast-grid-fourth { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+	.feast-grid-fifth { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+	@media only screen and (min-width: 600px)  { 
+		.feast-category-index-list { grid-template-columns: repeat(4, minmax(0, 1fr) ); }
+		.feast-desktop-grid-full { grid-template-columns: 1fr !important; }
+		.feast-desktop-grid-half { grid-template-columns: repeat(2, 1fr) !important; }
+		.feast-desktop-grid-third { grid-template-columns: repeat(3, 1fr) !important; }
+		.feast-desktop-grid-fourth { grid-template-columns: repeat(4, 1fr) !important; }
+		.feast-desktop-grid-fifth { grid-template-columns: repeat(5, 1fr) !important; }
+		.feast-desktop-grid-sixth { grid-template-columns: repeat(6, 1fr) !important; }
+	}
+	@media only screen and (min-width: 1100px) { .full-width-content main.content { width: 1080px; max-width: 1080px; } }
+	@media only screen and (max-width: 600px) { .entry-content .wp-block-image { width: 100% !important; }}
+	@media only screen and (min-width: 1024px) {
+		.feast-full-width-wrapper { width: 100vw; position: relative; left: 50%; right: 50%; margin: 37px -50vw; background: #F5F5F5; padding: 17px 0; }
+		.feast-full-width-wrapper .feast-recipe-index { width: 1140px; margin: 0 auto; }
+		.feast-full-width-wrapper .listing-item { background: #FFF; padding: 17px; }
+	}
+	.feast-prev-next { display: grid; grid-template-columns: 1fr;  border-bottom: 1px solid #CCC; margin: 57px 0;  }
+	.feast-prev-post, .feast-next-post { padding: 37px 17px; border-top: 1px solid #CCC; }
+	.feast-next-post { text-align: right; }
+	@media only screen and (min-width: 600px) {
+		.feast-prev-next { grid-template-columns: 1fr 1fr; border-bottom: none; }
+		.feast-next-post { border-left: 1px solid #CCC;}
+		.feast-prev-post, .feast-next-post { padding: 37px; }
+	}
+	@media only screen and (max-width: 1023px) {
+		.content-sidebar .content, .sidebar-primary { float: none; clear: both; }
+	}
+	body { -webkit-animation: none !important; animation: none !important; }
+</style><style type="text/css" data-source="Grow Social by Mediavine">
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile,
+					.dpsp-content-wrapper .dpsp-network-label {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			
+							.dpsp-button-style-5 .dpsp-networks-btns-content .dpsp-network-btn .dpsp-network-icon,
+							.dpsp-button-style-5 .dpsp-networks-btns-content .dpsp-network-btn {
+								--customNetworkColor: #c6c6c6;
+								--customNetworkHoverColor: ;
+								border-color: #c6c6c6;
+								color: #c6c6c6;
+							}
+							.dpsp-button-style-5 .dpsp-networks-btns-content .dpsp-network-btn  .dpsp-network-icon  .dpsp-network-icon-inner &gt; svg {
+								fill: #c6c6c6;
+							}
+						</style><style type="text/css">.wprm-recipe-template-snippet-basic-buttons {
+    font-family: inherit; /* wprm_font_family type=font */
+    font-size: 0.9em; /* wprm_font_size type=font_size */
+    text-align: center; /* wprm_text_align type=align */
+    margin-top: 0px; /* wprm_margin_top type=size */
+    margin-bottom: 10px; /* wprm_margin_bottom type=size */
+}
+.wprm-recipe-template-snippet-basic-buttons a  {
+    margin: 5px; /* wprm_margin_button type=size */
+    margin: 5px; /* wprm_margin_button type=size */
+}
+
+.wprm-recipe-template-snippet-basic-buttons a:first-child {
+    margin-left: 0;
+}
+.wprm-recipe-template-snippet-basic-buttons a:last-child {
+    margin-right: 0;
+}.wprm-recipe-template-classic {
+    margin: 20px auto;
+    background-color: #fafafa; /* wprm_background type=color */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_main_font_family type=font */
+    font-size: 0.9em; /* wprm_main_font_size type=font_size */
+    line-height: 1.5em; /* wprm_main_line_height type=font_size */
+    color: #333333; /* wprm_main_text type=color */
+    max-width: 650px; /* wprm_max_width type=size */
+}
+.wprm-recipe-template-classic a {
+    color: #3498db; /* wprm_link type=color */
+}
+.wprm-recipe-template-classic p, .wprm-recipe-template-classic li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_main_font_family type=font */
+    font-size: 1em !important;
+    line-height: 1.5em !important; /* wprm_main_line_height type=font_size */
+}
+.wprm-recipe-template-classic li {
+    margin: 0 0 0 32px !important;
+    padding: 0 !important;
+}
+.rtl .wprm-recipe-template-classic li {
+    margin: 0 32px 0 0 !important;
+}
+.wprm-recipe-template-classic ol, .wprm-recipe-template-classic ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-classic br {
+    display: none;
+}
+.wprm-recipe-template-classic .wprm-recipe-name,
+.wprm-recipe-template-classic .wprm-recipe-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_header_font_family type=font */
+    color: #000000; /* wprm_header_text type=color */
+    line-height: 1.3em; /* wprm_header_line_height type=font_size */
+}
+.wprm-recipe-template-classic h1,
+.wprm-recipe-template-classic h2,
+.wprm-recipe-template-classic h3,
+.wprm-recipe-template-classic h4,
+.wprm-recipe-template-classic h5,
+.wprm-recipe-template-classic h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_header_font_family type=font */
+    color: #212121; /* wprm_header_text type=color */
+    line-height: 1.3em; /* wprm_header_line_height type=font_size */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-classic .wprm-recipe-header {
+    margin-top: 1.2em !important;
+}
+.wprm-recipe-template-classic h1 {
+    font-size: 2em; /* wprm_h1_size type=font_size */
+}
+.wprm-recipe-template-classic h2 {
+    font-size: 1.8em; /* wprm_h2_size type=font_size */
+}
+.wprm-recipe-template-classic h3 {
+    font-size: 1.2em; /* wprm_h3_size type=font_size */
+}
+.wprm-recipe-template-classic h4 {
+    font-size: 1em; /* wprm_h4_size type=font_size */
+}
+.wprm-recipe-template-classic h5 {
+    font-size: 1em; /* wprm_h5_size type=font_size */
+}
+.wprm-recipe-template-classic h6 {
+    font-size: 1em; /* wprm_h6_size type=font_size */
+}.wprm-recipe-template-classic {
+	border-top-style: solid; /* wprm_border_style type=border */
+	border-top-width: 1px; /* wprm_border_top_width type=size */
+	border-top-color: #aaaaaa; /* wprm_border_top type=color */
+	padding: 10px;
+}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31071218-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-31071218-1');
+</script>
+<meta name="p:domain_verify" content="0ae78a9d2061795b181c1051a111b117" />
+<div id="”header”" onclick="”location.href=’http://www.notenoughcinnamon.com/’;”" style="”cursor:" pointer;”></div>
+<script>
+  (function(w, d, t, s, n) {
+    w.FlodeskObject = n;
+    var fn = function() {
+      (w[n].q = w[n].q || []).push(arguments);
+    };
+    w[n] = w[n] || fn;
+    var f = d.getElementsByTagName(t)[0];
+    var e = d.createElement(t);
+    var h = '?v=' + new Date().getTime();
+    e.async = true;
+    e.src = s + h;
+    f.parentNode.insertBefore(e, f);
+  })(window, document, 'script', 'https://assets.flodesk.com/universal.js', 'fd');
+</script><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" href="https://www.notenoughcinnamon.com/wp-content/uploads/2016/10/cropped-Favicon-NEC-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.notenoughcinnamon.com/wp-content/uploads/2016/10/cropped-Favicon-NEC-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.notenoughcinnamon.com/wp-content/uploads/2016/10/cropped-Favicon-NEC-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.notenoughcinnamon.com/wp-content/uploads/2016/10/cropped-Favicon-NEC-270x270.png" />
+<script>!function(){"use strict";window.adthriveCLS.disableAds=new class{constructor(){this.all=!1,this.content=!1,this.recipe=!1,this.video=!1,this.locations=new Set,this.reasons=new Set;try{this.checkValidUrl()||(this.all=!0,this.reasons.add("all_email")),this.checkCommandQueue(),null!==document.querySelector(".tag-novideo")&&(this.video=!0,this.locations.add("Video"),this.reasons.add("video_tag"))}catch(t){console.log(t)}}checkCommandQueue(){window.adthrive&&window.adthrive.cmd&&window.adthrive.cmd.map(t=>{const s=t.toString(),e=this.extractAPICall(s,"disableAds");e&&this.disableAllAds(this.extractPatterns(e));const i=this.extractAPICall(s,"disableContentAds");i&&this.disableContentAds(this.extractPatterns(i));const a=this.extractAPICall(s,"disablePlaylistPlayers");a&&this.disablePlaylistPlayers(this.extractPatterns(a))})}extractAPICall(t,s){const e=new RegExp(s+"\\((.*?)\\)","g"),i=t.match(e);return null!==i&&i[0]}extractPatterns(t){const s=t.match(/\'(.*?)\'/g);return null!==s&&s.map(t=>t.replaceAll("'",""))}disableAllAds(t){t&&!this.urlMatch(t)||(this.all=!0,this.reasons.add("all_plugin"))}disableContentAds(t){t&&!this.urlMatch(t)||(this.content=!0,this.recipe=!0,this.locations.add("Content"),this.locations.add("Recipe"),this.reasons.add("content_plugin"))}disablePlaylistPlayers(t){t&&!this.urlMatch(t)||(this.video=!0,this.locations.add("Video"),this.reasons.add("video_page"))}urlMatch(t){const s=window.location.href;return t.some(t=>new RegExp(t,"i").test(s))}checkValidUrl(){return!this.urlHasEmail(window.location.href)&&!this.urlHasEmail(window.document.referrer)}urlHasEmail(t){if(!t)return!1;return null!==t.match(/([A-Z0-9._%+-]+(@|%(25)*40)[A-Z0-9.-]+\.[A-Z]{2,})/i)}}}();
+</script> <style type="text/css" id="wp-custom-css">
+			.single .post h1 {text-transform:initial;}
+.site-footer {  
+	text-transform: none;
+}		</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="post-template-default single single-post postid-13978 single-format-standard feast-plugin custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-hidden theme-tealpink foodie-pro"><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><div class="site-title"><a href="https://www.notenoughcinnamon.com/" title="Not Enough Cinnamon"><img src="data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" title="Not Enough Cinnamon" alt="Not Enough Cinnamon" data-pin-nopin="true" data-lazy-src="https://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-500px.png" /><noscript><img src="https://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-500px.png" title="Not Enough Cinnamon" alt="Not Enough Cinnamon"  data-pin-nopin="true" /></noscript></a></div></div></div></header><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-primary_menu_desktop" class="menu genesis-nav-menu menu-primary"><li id="menu-item-15414" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-15414"><a href="https://www.notenoughcinnamon.com"><span>HOME</span></a></li>
+<li id="menu-item-15417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15417"><a href="https://www.notenoughcinnamon.com/recipes-index/"><span>RECIPES</span></a></li>
+<li id="menu-item-15416" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15416"><a href="https://view.flodesk.com/pages/5e77657dd0640c002d06072f"><span>SUBSCRIBE</span></a></li>
+<li id="menu-item-15415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15415"><a href="https://www.notenoughcinnamon.com/about/"><span>ABOUT</span></a></li>
+<li id="foodie-social" class="foodie-social menu-item"><section id="simple-social-icons-3" class="widget simple-social-icons"><div class="widget-wrap"><ul class="aligncenter"><li class="ssi-facebook"><a href="https://www.facebook.com/NotEnoughCinnamon/" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-facebook" aria-labelledby="social-facebook-3"><title id="social-facebook-3">Facebook</title><use xlink:href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook"></use></svg></a></li><li class="ssi-instagram"><a href="https://www.instagram.com/notenoughcinnamon/" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-instagram" aria-labelledby="social-instagram-3"><title id="social-instagram-3">Instagram</title><use xlink:href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use></svg></a></li><li class="ssi-pinterest"><a href="https://www.pinterest.com/necinnamon/" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-pinterest" aria-labelledby="social-pinterest-3"><title id="social-pinterest-3">Pinterest</title><use xlink:href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-pinterest"></use></svg></a></li></ul></div></section>
+</li><li id="feast-search" class="feast-search menu-item"><form class="search-form" method="get" action="https://www.notenoughcinnamon.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://www.notenoughcinnamon.com/?s={s}"></form></li></ul></div></nav><div class="feastmobilenavbar"><div class="feastmenutoggle"><a href="#feastmobilemenu">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve" aria-labelledby="menuicon" role="img">
+<title id="menuicon">menu icon</title>
+<g id="menu">
+<path fill="currentColor" d="M0,382.5h459v-51H0V382.5z M0,255h459v-51H0V255z M0,76.5v51h459v-51H0z" />
+</g>
+</svg>
+</a></div><div class="feastmenulogo"><a href="https://www.notenoughcinnamon.com"><img src="data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-srcset="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-400-x-140px.png 2x" alt="go to homepage" data-pin-nopin="true" data-lazy-src="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-200-x-70px.png" /><noscript><img src="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-200-x-70px.png" srcset="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-400-x-140px.png 2x" alt="go to homepage" data-pin-nopin="true" /></noscript></a></div><div class="feastsearchtoggle"><a href="#feastmobilemenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 100 100" aria-labelledby="searchicon" role="img">
+<title id="searchicon">search icon</title>
+<g transform="translate(0,-952.36218)">
+<path fill="currentColor" d="M 40 11 C 24.007431 11 11 24.00743 11 40 C 11 55.9926 24.007431 69 40 69 C 47.281794 69 53.935267 66.28907 59.03125 61.84375 L 85.59375 88.40625 C 86.332786 89.16705 87.691654 89.1915 88.4375 88.4375 C 89.183345 87.6834 89.175154 86.2931 88.40625 85.5625 L 61.875 59.03125 C 66.312418 53.937244 69 47.274551 69 40 C 69 24.00743 55.992569 11 40 11 z M 40 15 C 53.830808 15 65 26.16919 65 40 C 65 53.8308 53.830808 65 40 65 C 26.169192 65 15 53.8308 15 40 C 15 26.16919 26.169192 15 40 15 z " transform="translate(0,952.36218)">
+</path>
+</g>
+</svg>
+</a></div></div><div id="feastmobilemenu" class="feastmobilemenu-background" aria-label="main"><div class="mmm-dialog"><div class="mmm-content"><a href="https://www.notenoughcinnamon.com"><img id="mmmlogo" src="data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-srcset="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-400-x-140px.png 2x" alt="Homepage link" data-pin-nopin="true" data-lazy-src="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-200-x-70px.png" /><noscript><img id="mmmlogo" src="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-200-x-70px.png" srcset="http://www.notenoughcinnamon.com/wp-content/uploads/2021/04/Logo-400-x-140px.png 2x" alt="Homepage link" data-pin-nopin="true" /></noscript></a><div id="feast-mobile-search"><form class="search-form" method="get" action="https://www.notenoughcinnamon.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-2">Search</label><input class="search-form-input" type="search" name="s" id="searchform-2" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://www.notenoughcinnamon.com/?s={s}"></form></div><ul id="menu-feast-modern-mobile-menu" class="menu"><li id="menu-item-15494" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-15494"><a href="https://www.notenoughcinnamon.com/">HOME</a></li>
+<li id="menu-item-15492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15492"><a href="https://www.notenoughcinnamon.com/recipes-index/">RECIPES</a></li>
+<li id="menu-item-15493" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15493"><a href="https://view.flodesk.com/pages/5e77657dd0640c002d06072f">SUBSCRIBE</a></li>
+<li id="menu-item-15495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15495"><a href="https://www.notenoughcinnamon.com/about/">ABOUT</a></li>
+</ul><div id="feast-mobile-menu-social-icons"><div id="feast-social"><li id="simple-social-icons-4" class="widget simple-social-icons"><ul class="alignleft"><li class="ssi-facebook"><a href="https://facebook.com/notenoughcinnamon"><svg role="img" class="social-facebook" aria-labelledby="social-facebook-4"><title id="social-facebook-4">Facebook</title><use xlink:href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook"></use></svg></a></li><li class="ssi-instagram"><a href="https://www.instagram.com/notenoughcinnamon/"><svg role="img" class="social-instagram" aria-labelledby="social-instagram-4"><title id="social-instagram-4">Instagram</title><use xlink:href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use></svg></a></li><li class="ssi-pinterest"><a href="https://www.pinterest.com/NECinnamon"><svg role="img" class="social-pinterest" aria-labelledby="social-pinterest-4"><title id="social-pinterest-4">Pinterest</title><use xlink:href="https://www.notenoughcinnamon.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-pinterest"></use></svg></a></li></ul></li>
+</div></div><a href="#" class="closebtn">×</a></div></div></div> <style>
+		/* Add animation (Chrome, Safari, Opera) */
+		@-webkit-keyframes openmenu {
+		  from {left:-100px;opacity: 0;}
+		  to {left:0px;opacity:1;}
+		}
+		@-webkit-keyframes closebutton {
+		    0% {opacity: 0;}
+		    100% {opacity: 1;}
+		}
+         
+		/* Add animation (Standard syntax) */
+		@keyframes openmenu {
+		  from {left:-100px;opacity: 0;}
+		  to {left:0px;opacity:1;}
+		}
+		@keyframes closebutton {
+		    0% {opacity: 0;}
+		    100% {opacity: 1;}
+		}
+
+		/* The mmm's background */
+		.feastmobilemenu-background {
+			display: none;
+			position: fixed;
+			z-index: 9999;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgb(0, 0, 0);
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+
+		/* Display the mmm when targeted */
+		.feastmobilemenu-background:target {
+			display: table;
+			position: fixed;
+		}
+
+		/* The mmm box */
+		.mmm-dialog {
+			display: table-cell;
+			vertical-align: top;
+			font-size: 20px;
+		}
+
+		/* The mmm's content */
+		.mmm-dialog .mmm-content {
+			margin: 0;
+			padding: 10px 10px 10px 20px;
+			float: left;
+			background-color: #FEFEFE;
+			position: fixed;
+			overflow-x: hidden;
+			overflow-y: auto;
+			outline: 0;
+			border-right: 1px #777 solid;
+			border-bottom: 1px #777 solid;
+			text-align: justify;
+			width: 320px;
+			height: 90%;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+			/* Add animation */
+			-webkit-animation-name: openmenu; /* Chrome, Safari, Opera */
+			-webkit-animation-duration: 0.6s; /* Chrome, Safari, Opera */
+			animation-name: openmenu;
+			animation-duration: 0.6s;
+		}
+		.mmm-content li {
+		    list-style: none;
+		}
+		#menu-feast-modern-mobile-menu li {
+			min-height: 50px; 
+			margin-left: 5px;
+		    	list-style: none;
+		}
+		#menu-feast-modern-mobile-menu li a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+	
+		/* The button used to close the mmm */
+		.closebtn {
+			text-decoration: none;
+			float: right;
+			margin-right: 10px;
+			font-size: 50px;
+			font-weight: bold;
+			color: #333;
+			z-index:1001;
+  			top: 0;
+			position: fixed;
+			left: 270px;
+			-webkit-animation-name: closebutton; /* Chrome, Safari, Opera */
+			-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+			animation-name: closebutton;
+			animation-duration: 1.5s;
+		}
+
+		.closebtn:hover,
+		.closebtn:focus {
+			color: #555;
+			cursor: pointer;
+		}
+
+		.mmmheader {
+			font-size: 25px;
+			color: #FFF;
+			height: 80px;
+			display: flex;
+			justify-content: space-between;
+		}
+		#mmmlogo {	
+			max-width: 200px;	
+			max-height: 70px;	
+		}
+		#feast-mobile-search {
+			margin-bottom: 17px;
+			min-height: 50px;
+			overflow: auto;
+		}
+		#feast-mobile-search input[type=submit] {
+			display: none;
+		}
+		#feast-mobile-search input[type=search] {
+			width: 100%;
+		}	
+
+		#feast-mobile-menu-social-icons {
+			margin-top: 17px;
+		}
+
+		#feast-social .simple-social-icons {
+			list-style: none;
+		}
+
+		.feastmobilenavbar { 
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 998;
+			width: 100%;
+			height: 80px;
+			padding: 0;
+			margin: 0 auto;
+			box-sizing: border-box;
+			border-top: 1px solid #CCC;
+			border-bottom: 1px solid #CCC;
+			background: #FFF;
+			display: grid;
+			grid-template-columns: repeat(7, minmax(50px, 1fr));
+			text-align: center;
+		}
+		.admin-bar .feastmobilenavbar {
+			top: 32px;
+		}
+		@media screen and (max-width:782px) {
+			.admin-bar .feastmobilenavbar {
+				top: 46px;
+			}
+		}
+		.feastmobilenavbar a img { 
+			margin-bottom: inherit !important; 
+		}
+		.feastmenutoggle, .feastsearchtoggle, .feastsubscribebutton {
+			display: flex;
+			align-items: center;
+			justify-items: center;
+		}
+		.feastsearchtoggle svg, .feastmenutoggle svg {
+			width: 30px;
+			height: 30px;
+			padding: 10px;
+			box-sizing: content-box;
+			color: black;
+		}
+		.feastsubscribebutton { 
+   		 	overflow: hidden;
+		}
+		.feastsubscribebutton img {
+			max-width: 90px;
+			padding: 15px;
+			margin: 1px;
+		}
+		.feastsubscribebutton svg {
+			color: #000;
+		}
+				.feastmenulogo {
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			grid-column-end: span 5;
+		}
+		@media only screen and ( max-width: 1025px ) {
+			.feastmenulogo {grid-column-end: span 5; } 
+			.feastsubscribebutton { grid-column-end: span 2; }
+		}
+		@media only screen and (max-width: 359px) { /* 320px fix */ 
+			feastmobilenavbar { 
+				grid-template-columns: repeat(6, minmax(50px, 1fr)); 
+			} 
+			.feastmenulogo {grid-column-end: span 4; }		}
+		@media only screen and ( min-width: 1026px ) {
+			.feastmobilenavbar { display: none; }
+		}
+		@media only screen and ( max-width: 1025px ) {
+			header.site-header, .nav-primary  { display: none !important; visibility: hidden; }
+			.site-container, .body-template-content {  margin-top: 80px;  /* prevents menu overlapping content */ }
+		}
+	</style>
+<div class="site-inner"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"><p id="breadcrumbs"> You are here:
+<span><span><a href="https://www.notenoughcinnamon.com/">Home</a> / <span><a href="https://www.notenoughcinnamon.com/category/recipes/">Recipes</a> / <span class="breadcrumb_last" aria-current="page">Pina Colada Chia Pudding</span></span></span></span></p><article class="post-13978 post type-post status-publish format-standard has-post-thumbnail category-breakfast-brunch category-clean-eating category-dairy-free category-dessert-recipes category-quick-easy-meals category-recipes category-snacks category-spring-recipes category-summer-recipes category-vegan category-vegetarian tag-chia tag-coconut-milk tag-maple-syrup tag-pineapple tag-vanilla entry" aria-label="Pina Colada Chia Pudding"><header class="entry-header"><h1 class="entry-title">Pina Colada Chia Pudding</h1>
+<p class="entry-meta">Published on <time class="entry-time">Apr 8, 2021</time> · Last updated on <time class="entry-modified-time">Aug 24, 2021</time> · </p></header><div id="dpsp-content-top" class="dpsp-content-wrapper dpsp-shape-rectangular dpsp-size-small dpsp-has-spacing dpsp-no-labels dpsp-show-on-mobile dpsp-show-total-share-count dpsp-show-total-share-count-before dpsp-button-style-5">
+<div class="dpsp-total-share-wrapper">
+<span class="dpsp-icon-total-share"></span>
+<span class="dpsp-total-share-count">613</span>
+<span>shares</span>
+</div>
+<ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-share dpsp-networks-btns-content dpsp-column-3 dpsp-has-button-icon-animation"><li class="dpsp-network-list-item dpsp-network-list-item-pinterest">
+<button data-href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.notenoughcinnamon.com%2Fpina-colada-chia-pudding%2F&amp;media=http%3A%2F%2Fwww.notenoughcinnamon.com%2Fwp-content%2Fuploads%2F2020%2F10%2FPina-Colada-Chia-Pudding.png&amp;description=Pina%20Colada%20Chia%20Puddings%20are%20an%20easy%2C%20healthy%20make-ahead%20breakfast%20or%20dessert%20that%20is%20perfect%20for%20lovers%20of%20tropical%20cocktails%21%20Made%20with%20simple%20healthy%20ingredients%20including%20chia%20seeds%2C%20fresh%20pineapple%2C%20and%20coconut%20milk.%20Vegan%20and%20refined%20sugar-free%21" class="dpsp-network-btn dpsp-pinterest dpsp-no-label dpsp-first" aria-label="Save to Pinterest" title="Save to Pinterest"> <span class="dpsp-network-icon ">
+<span class="dpsp-network-icon-inner"></span>
+</span>
+</button></li>
+<li class="dpsp-network-list-item dpsp-network-list-item-facebook">
+<a rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.notenoughcinnamon.com%2Fpina-colada-chia-pudding%2F&amp;t=Pina%20Colada%20Chia%20Pudding%20Recipe%20with%20Coconut%20Milk%20%26%20Pineapple" class="dpsp-network-btn dpsp-facebook dpsp-no-label" target="_blank" aria-label="Share on Facebook" title="Share on Facebook"> <span class="dpsp-network-icon ">
+<span class="dpsp-network-icon-inner"></span>
+</span>
+</a></li>
+<li class="dpsp-network-list-item dpsp-network-list-item-twitter">
+<a rel="nofollow noopener" href="https://twitter.com/intent/tweet?text=Pina%20Colada%20Chia%20Pudding%20Recipe%20with%20Coconut%20Milk%20%26%20Pineapple&amp;url=https%3A%2F%2Fwww.notenoughcinnamon.com%2Fpina-colada-chia-pudding%2F" class="dpsp-network-btn dpsp-twitter dpsp-no-label dpsp-last" target="_blank" aria-label="Share on Twitter" title="Share on Twitter"> <span class="dpsp-network-icon ">
+<span class="dpsp-network-icon-inner"></span>
+</span>
+</a></li>
+</ul></div>
+<div class="entry-content"><div class="wprm-automatic-recipe-snippets"><div class="wprm-recipe-snippets" style="text-align: center;"><a href="#wprm-recipe-container-15233" data-recipe="15233" style class="wprm-recipe-jump wprm-recipe-link wprm-jump-to-recipe-shortcode wprm-block-text-normal">Jump to Recipe</a></div></div><div class="dpsp-post-pinterest-image-hidden" style="display: none;"><img src="data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-media="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding.png" data-pin-description="Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!" class="dpsp-post-pinterest-image-hidden-inner" data-lazy-src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-150x150.png" /><noscript><img src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-150x150.png" data-pin-media="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding.png"  data-pin-description="Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!"   class="dpsp-post-pinterest-image-hidden-inner" /></noscript></div><span id="dpsp-post-content-markup" data-image-pin-it="false"></span><p><em>Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!</em></p>
+<p><img loading="lazy" class="aligncenter wp-image-13995 size-full" title="pina colada chia pudding" src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg" alt="side view of a jar of piña colada chia pudding decorated with toasted coconut" width="622" height="933" data-pin-description="Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!" srcset="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg 622w, https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2-200x300.jpg 200w" sizes="(max-width: 622px) 100vw, 622px" /></p>
+<p>Pretending I'm on vacation thanks to these piña colada chia puddings! Wanna join? Awesome! These little coconut-pineapple chia puddings are a brilliant way to enjoy tropical flavors at my home. Refreshing and rich in flavor, these cocktail-inspired Chia Pudding are loaded with only HEALTHY ingredients, refined sugar-free, gluten-free and delicious.</p>
+<p>You can serve these tropical chia puddings as a healthy breakfast, a light snack, or as a refreshing summer dessert.</p>
+<p><img loading="lazy" class="aligncenter wp-image-13998 size-full" title="pina colada chia pudding" src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-5.jpg" alt="a wooden spoon being dipped into a small jar with pina colada chia pudding" width="622" height="933" data-pin-description="Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!" srcset="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-5.jpg 622w, https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-5-200x300.jpg 200w" sizes="(max-width: 622px) 100vw, 622px" /></p>
+<p>Picture a rich coconut milk chia pudding layered with sweet sweet pineapple puree! Hmmm!  The piña part of our coconut-pineapple chia pudding comes blended, not stirred. I left mine a bit chunky on purpose but you can blend it up completely smooth.</p>
+<p>Now I know, there is no alcohol in there and therefore one quintessential element to every pina colada is missing. If you want to make this taste like a real cocktail, stir a drop of rum essence into the chia pudding mixture. Depending on which country you live in, those aromas are sometimes sold in the baking aisle but you can also order them online.</p>
+<p>I just sweetened the chia pudding ever so lightly with maple syrup. Also, I did not add any sweetener to my pineapple puree as I had a really ripe pineapple. If your pineapple is lacking a bit, add some maple syrup or any other alternative sweetener of choice.</p>
+<h2>How to make Pina Colada Chia Pudding:</h2>
+<p>Time to get tropical - Let's do this!</p>
+<p><img loading="lazy" class="aligncenter wp-image-13994 size-full" src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-1.jpg" alt="ingredients needed for making pina colada chia pudding" width="622" height="933" data-pin-description="Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!" srcset="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-1.jpg 622w, https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-1-200x300.jpg 200w" sizes="(max-width: 622px) 100vw, 622px" /></p>
+<ol>
+<li>Start by whisking together coconut milk, chia seeds, maple syrup, salt, vanilla, and coconut extracts in a medium-sized bowl or container until combined. Cover and refrigerate overnight or at least 6 hours.</li>
+<li><b>Just before serving</b>, blend pineapple chunks in a food processor or blender and puree until a very smooth smoothie-like consistency is reached (see notes for).</li>
+<li>To serve, stir coconut chia pudding and divide the chia pudding and pineapple mixture evenly in alternating layers. Top with shredded coconut.</li>
+</ol>
+<p><img loading="lazy" class="aligncenter size-full wp-image-13996" src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-3.jpg" alt width="622" height="933" srcset="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-3.jpg 622w, https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-3-200x300.jpg 200w" sizes="(max-width: 622px) 100vw, 622px" /></p>
+<p>For a strawberry colada, a melon colada, or a mango colada chia pudding, just swap out the fruit.</p>
+<p><img loading="lazy" class="aligncenter wp-image-13997 size-full" title="pina colada chia pudding" src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-4.jpg" alt="a glass of coconut pineapple chia pudding with a wooden spoon" width="622" height="933" data-pin-description="Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!" srcset="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-4.jpg 622w, https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-4-200x300.jpg 200w" sizes="(max-width: 622px) 100vw, 622px" /></p>
+<h2>Tips:</h2>
+<ul class="ul2">
+<li class="li1">I would strongly recommend assembling the puddings with the pineapple puree <strong>r</strong><b>ight before serving. </b></li>
+<li class="li1">If making this ahead of time, <b>store puree and  chia pudding separately</b>. The water from the pineapple puree will otherwise leak into the chia pudding with time and form a watery layer on top of the pudding.</li>
+<li class="li1">For a summer frozen twist, freeze the pineapple and blend them frozen with half a cup of frozen banana slices for some added creaminess.</li>
+</ul>
+<div id="recipe"></div><div id="wprm-recipe-container-15233" class="wprm-recipe-container" data-recipe-id="15233" data-servings="3"><div class="wprm-recipe wprm-recipe-simple">
+<div class="wprm-recipe-image-container">
+<div class="wprm-recipe-image"><img width="200" height="300" src="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg" class="attachment-200x400 size-200x400" alt="pina colada chia pudding served in mason jars" loading="lazy" srcset="https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg 622w, https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2-200x300.jpg 200w" sizes="(max-width: 200px) 100vw, 200px" /></div>
+<div class="wprm-recipe-buttons">
+<div class="wprm-recipe-rating"><span class="wprm-rating-star wprm-rating-star-1 wprm-rating-star-full" data-rating="1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-2 wprm-rating-star-full" data-rating="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-3 wprm-rating-star-full" data-rating="3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-4 wprm-rating-star-full" data-rating="4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><span class="wprm-rating-star wprm-rating-star-5 wprm-rating-star-full" data-rating="5"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter" /></g></svg></span><div class="wprm-recipe-rating-details"><span class="wprm-recipe-rating-average">5</span> from <span class="wprm-recipe-rating-count">5</span> votes</div></div> <a href="https://www.notenoughcinnamon.com/wprm_print/recipe/15233" class="wprm-recipe-print" target="_blank" rel="nofollow"><span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M19,5.09V1c0-0.552-0.448-1-1-1H6C5.448,0,5,0.448,5,1v4.09C2.167,5.569,0,8.033,0,11v7c0,0.552,0.448,1,1,1h4v4c0,0.552,0.448,1,1,1h12c0.552,0,1-0.448,1-1v-4h4c0.552,0,1-0.448,1-1v-7C24,8.033,21.833,5.569,19,5.09z M7,2h10v3H7V2z M17,22H7v-9h10V22z M18,10c-0.552,0-1-0.448-1-1c0-0.552,0.448-1,1-1s1,0.448,1,1C19,9.552,18.552,10,18,10z" /></g></svg></span> Print</a>
+</div>
+</div>
+<h2 class="wprm-recipe-name">Pina Colada Chia Puddings</h2>
+<div class="wprm-recipe-summary">
+Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free! </div>
+<div class="wprm-recipe-details-container wprm-recipe-tags-container">
+<div class="wprm-recipe-course-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#000000" d="M22.707,12.293l-11-11C11.52,1.106,11.265,1,11,1H2C1.448,1,1,1.448,1,2v9c0,0.265,0.105,0.52,0.293,0.707l11,11C12.488,22.903,12.744,23,13,23s0.512-0.098,0.707-0.293l9-9C23.098,13.317,23.098,12.684,22.707,12.293z M7,9C5.895,9,5,8.105,5,7c0-1.105,0.895-2,2-2s2,0.895,2,2C9,8.105,8.105,9,7,9z M13,17.414L8.586,13L10,11.586L14.414,16L13,17.414z M16,14.414L11.586,10L13,8.586L17.414,13L16,14.414z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-course-name">Course</span>
+<span class="wprm-recipe-course">
+Breakfast, brunch </span>
+</div>
+<div class="wprm-recipe-cuisine-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#000000" d="M22.707,12.293l-11-11C11.52,1.106,11.265,1,11,1H2C1.448,1,1,1.448,1,2v9c0,0.265,0.105,0.52,0.293,0.707l11,11C12.488,22.903,12.744,23,13,23s0.512-0.098,0.707-0.293l9-9C23.098,13.317,23.098,12.684,22.707,12.293z M7,9C5.895,9,5,8.105,5,7c0-1.105,0.895-2,2-2s2,0.895,2,2C9,8.105,8.105,9,7,9z M13,17.414L8.586,13L10,11.586L14.414,16L13,17.414z M16,14.414L11.586,10L13,8.586L17.414,13L16,14.414z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-cuisine-name">Cuisine</span>
+<span class="wprm-recipe-cuisine">
+American </span>
+</div>
+<div class="wprm-recipe-keyword-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#000000" d="M22.707,12.293l-11-11C11.52,1.106,11.265,1,11,1H2C1.448,1,1,1.448,1,2v9c0,0.265,0.105,0.52,0.293,0.707l11,11C12.488,22.903,12.744,23,13,23s0.512-0.098,0.707-0.293l9-9C23.098,13.317,23.098,12.684,22.707,12.293z M7,9C5.895,9,5,8.105,5,7c0-1.105,0.895-2,2-2s2,0.895,2,2C9,8.105,8.105,9,7,9z M13,17.414L8.586,13L10,11.586L14.414,16L13,17.414z M16,14.414L11.586,10L13,8.586L17.414,13L16,14.414z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-keyword-name">Keyword</span>
+<span class="wprm-recipe-keyword">
+coconut milk chia pudding, vegan chia pudding </span>
+</div>
+</div>
+<div class="wprm-recipe-details-container wprm-recipe-times-container">
+<div class="wprm-recipe-prep-time-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path data-color="color-2" fill="#000000" d="M4.3,16.6l-2.2,2.2c-0.6,0.6-0.9,1.3-0.9,2.1c0,0.8,0.3,1.6,0.9,2.1s1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9l2.2-2.2L4.3,16.6z" /><path fill="#000000" d="M22.6,5.4l-3.5-3.5c-1.1-1.1-2.6-1.8-4.2-1.8s-3.1,0.6-4.2,1.8l-8.4,8.4c-0.4,0.4-0.4,1,0,1.4l7.1,7.1C9.5,18.9,9.7,19,10,19c0,0,0,0,0,0c0.3,0,0.5-0.1,0.7-0.3L22.6,6.8C23,6.4,23,5.8,22.6,5.4z M9.2,14.6l-1.4-1.4l6.4-6.4l1.4,1.4L9.2,14.6z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-prep-time-name">Prep Time</span> <span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-prep_time wprm-recipe-prep_time-minutes">5</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-prep_time-unit wprm-recipe-prep_timeunit-minutes">minutes</span> </div>
+<div class="wprm-recipe-custom-time-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16"><g class="nc-icon-wrapper" fill="#000000" transform="translate(1.5999999999999996 1.5999999999999996) scale(0.8)"><path fill="#000000" d="M15,2c0.6,0,1-0.4,1-1s-0.4-1-1-1H1C0.4,0,0,0.4,0,1s0.4,1,1,1h1c0.1,2.4,0.8,4.5,2,6c-1.2,1.4-2,3.6-2,6H1 c-0.6,0-1,0.4-1,1s0.4,1,1,1h14c0.6,0,1-0.4,1-1s-0.4-1-1-1h-1c-0.1-2.5-0.8-4.6-2-6c1.3-1.5,2-3.6,2-6H15z M9.9,7.3L9,8.1l1,0.7 c1.2,0.9,2,2.9,2.1,5.2H4c0.1-2.3,0.9-4.3,2.1-5.2l1-0.7L6.1,7.3C4.8,6.1,4.1,4.2,4,2h8C11.9,4.2,11.2,6.1,9.9,7.3z"></path></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-custom-time-name">Chilling</span> <span class="wprm-recipe-details wprm-recipe-details-hours wprm-recipe-custom_time wprm-recipe-custom_time-hours">8</span> <span class="wprm-recipe-details-unit wprm-recipe-details-unit-hours wprm-recipe-custom_time-unit wprm-recipe-custom_timeunit-hours">hours</span> </div>
+<div class="wprm-recipe-total-time-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#000000" d="M21,11h2.949C23.466,5.181,18.819,0.534,13,0.051V3h-2V0.051C5.181,0.534,0.534,5.181,0.051,11H3v2H0.051C0.534,18.819,5.181,23.466,11,23.949V21h2v2.949c5.819-0.484,10.466-5.13,10.949-10.949H21V11z M17,13h-5.535L6.613,5.723l1.664-1.109L12.535,11H17V13z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-total-time-name">Total Time</span> <span class="wprm-recipe-details wprm-recipe-details-hours wprm-recipe-total_time wprm-recipe-total_time-hours">8</span> <span class="wprm-recipe-details-unit wprm-recipe-details-unit-hours wprm-recipe-total_time-unit wprm-recipe-total_timeunit-hours">hours</span> <span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes">5</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-total_time-unit wprm-recipe-total_timeunit-minutes">minutes</span> </div>
+</div>
+<div class="wprm-recipe-details-container">
+<div class="wprm-recipe-servings-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#000000" d="M10,0C9.4,0,9,0.4,9,1v4H7V1c0-0.6-0.4-1-1-1S5,0.4,5,1v4H3V1c0-0.6-0.4-1-1-1S1,0.4,1,1v8c0,1.7,1.3,3,3,3v10c0,1.1,0.9,2,2,2s2-0.9,2-2V12c1.7,0,3-1.3,3-3V1C11,0.4,10.6,0,10,0z" /><path data-color="color-2" fill="#000000" d="M19,0c-3.3,0-6,2.7-6,6v9c0,0.6,0.4,1,1,1h2v6c0,1.1,0.9,2,2,2s2-0.9,2-2V1C20,0.4,19.6,0,19,0z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-servings-name">Servings</span> <span class="wprm-recipe-details wprm-recipe-servings wprm-recipe-servings-15233">3</span> <span class="wprm-recipe-details-unit wprm-recipe-servings-unit">or 2 big</span>
+</div>
+<div class="wprm-recipe-calories-container">
+<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><rect data-color="color-2" x="21" y="8" fill="#343434" width="3" height="8" /><path fill="#343434" d="M18,5H1C0.448,5,0,5.447,0,6v12c0,0.553,0.448,1,1,1h17c0.552,0,1-0.447,1-1V6C19,5.447,18.552,5,18,5z M11,12v4l-7-5l5,1V8l6,5L11,12z" /></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-calories-name">Calories</span> <span class="wprm-recipe-details wprm-recipe-calories">305</span> <span class="wprm-recipe-details-unit wprm-recipe-calories-unit">kcal</span>
+</div>
+</div>
+<div class="wprm-recipe-ingredients-container">
+<h3 class="wprm-recipe-header">Ingredients</h3>
+<div class="wprm-recipe-ingredient-group">
+<ul class="wprm-recipe-ingredients">
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">1</span>
+<span class="wprm-recipe-ingredient-unit">cup</span>
+<span class="wprm-recipe-ingredient-name">coconut milk</span>
+<span class="wprm-recipe-ingredient-notes">the kind in a can - full fat or light</span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">&frac14;</span>
+<span class="wprm-recipe-ingredient-unit">cup</span>
+<span class="wprm-recipe-ingredient-name"><a href="https://amzn.to/2OUzx5s" target="_blank" rel="nofollow">chia seeds</a></span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">1</span>
+<span class="wprm-recipe-ingredient-unit">tablespoon</span>
+<span class="wprm-recipe-ingredient-name"><a href="http://amzn.to/2BiLA6m" target="_blank" rel="nofollow">maple syrup</a></span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">1</span>
+<span class="wprm-recipe-ingredient-unit">pinch</span>
+<span class="wprm-recipe-ingredient-name">salt</span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">1</span>
+<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+<span class="wprm-recipe-ingredient-name">vanilla extract</span>
+<span class="wprm-recipe-ingredient-notes">ideally transparent to keep the mixture white</span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">½</span>
+<span class="wprm-recipe-ingredient-unit">teaspoon</span>
+<span class="wprm-recipe-ingredient-name">coconut extract</span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">1 &frac12;</span>
+<span class="wprm-recipe-ingredient-unit">cups</span>
+<span class="wprm-recipe-ingredient-name">pineapple</span>
+<span class="wprm-recipe-ingredient-notes">chopped (see notes)</span>
+</li>
+<li class="wprm-recipe-ingredient">
+<span class="wprm-recipe-ingredient-amount">2</span>
+<span class="wprm-recipe-ingredient-unit">tablespoons</span>
+<span class="wprm-recipe-ingredient-name">unsweetened coconut flakes</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="wprm-recipe-instructions-container">
+<h3 class="wprm-recipe-header">Instructions</h3>
+<div class="wprm-recipe-instruction-group">
+<ol class="wprm-recipe-instructions">
+<li class="wprm-recipe-instruction">
+<div class="wprm-recipe-instruction-text"><p>tart by whisking together coconut milk, chia seeds, maple syrup, salt, vanilla, and coconut extracts in a medium-sized bowl or container until combined. Cover and refrigerate overnight or at least 6 hours.</p></div>
+</li>
+<li class="wprm-recipe-instruction">
+<div class="wprm-recipe-instruction-text"><p>Just before serving, blend pineapple chunks in a food processor or blender and puree until a very smooth smoothie-like consistency is reached (see notes for).</p></div>
+</li>
+<li class="wprm-recipe-instruction">
+<div class="wprm-recipe-instruction-text"><p>To serve, stir coconut chia pudding and divide the chia pudding and pineapple mixture evenly in alternating layers. Top with shredded coconut.</p></div>
+</li>
+</ol>
+</div>
+</div>
+<div class="wprm-recipe-notes-container">
+<h3 class="wprm-recipe-header">Recipe Notes</h3>
+<ul>
+<li>Assemble with pineapple puree right before serving. If making this ahead of time, store puree and  chia pudding separately. The water from the pineapple puree will otherwise leak into the chia pudding with time and form a watery layer on top of the pudding.</li>
+<li>For a summer frozen twist, freeze the pineapple and blend them frozen with half a cup of frozen banana slices for some added creaminess.</li>
+</ul>
+</div>
+<div class="wprm-nutrition-label-container wprm-nutrition-label-container-label" style="text-align: center;"><div class="wprm-nutrition-label" style="background-color: #ffffff;color: #000000;">
+<div class="nutrition-title">Nutrition Facts</div>
+<div class="nutrition-recipe">Pina Colada Chia Puddings</div>
+<div class="nutrition-line nutrition-line-big"></div>
+<div class="nutrition-serving">
+Amount Per Serving </div>
+<div class="nutrition-item">
+<span class="nutrition-main"><strong>Calories</strong> 305</span>
+<span class="nutrition-percentage">Calories from Fat 207</span>
+</div>
+<div class="nutrition-line"></div>
+<div class="nutrition-item">
+<span class="nutrition-percentage"><strong>% Daily Value*</strong></span>
+</div>
+<div class="nutrition-item nutrition-item-fat"><span class="nutrition-main"><strong>Fat</strong> 23g</span><span class="nutrition-percentage"><strong>35%</strong></span></div><div class="nutrition-sub-item nutrition-item-saturated_fat"><span class="nutrition-sub">Saturated Fat 17g</span><span class="nutrition-percentage"><strong>106%</strong></span></div><div class="nutrition-sub-item nutrition-item-trans_fat"><span class="nutrition-sub">Trans Fat 1g</span></div><div class="nutrition-item nutrition-item-sodium"><span class="nutrition-main"><strong>Sodium</strong> 28mg</span><span class="nutrition-percentage"><strong>1%</strong></span></div><div class="nutrition-item nutrition-item-potassium"><span class="nutrition-main"><strong>Potassium</strong> 350mg</span><span class="nutrition-percentage"><strong>10%</strong></span></div><div class="nutrition-item nutrition-item-carbohydrates"><span class="nutrition-main"><strong>Carbohydrates</strong> 24g</span><span class="nutrition-percentage"><strong>8%</strong></span></div><div class="nutrition-sub-item nutrition-item-fiber"><span class="nutrition-sub">Fiber 7g</span><span class="nutrition-percentage"><strong>29%</strong></span></div><div class="nutrition-sub-item nutrition-item-sugar"><span class="nutrition-sub">Sugar 13g</span><span class="nutrition-percentage"><strong>14%</strong></span></div><div class="nutrition-item nutrition-item-protein"><span class="nutrition-main"><strong>Protein</strong> 5g</span><span class="nutrition-percentage"><strong>10%</strong></span></div> <div class="nutrition-line nutrition-line-big"></div>
+<div class="nutrition-item nutrition-item-vitamin_a"><span class="nutrition-main"><strong>Vitamin A</strong> 56IU</span><span class="nutrition-percentage"><strong>1%</strong></span></div><div class="nutrition-item nutrition-item-vitamin_c"><span class="nutrition-main"><strong>Vitamin C</strong> 40mg</span><span class="nutrition-percentage"><strong>48%</strong></span></div><div class="nutrition-item nutrition-item-calcium"><span class="nutrition-main"><strong>Calcium</strong> 122mg</span><span class="nutrition-percentage"><strong>12%</strong></span></div><div class="nutrition-item nutrition-item-iron"><span class="nutrition-main"><strong>Iron</strong> 4mg</span><span class="nutrition-percentage"><strong>22%</strong></span></div> <div class="nutrition-warning">* Percent Daily Values are based on a 2000 calorie diet.</div>
+</div>
+</div></div>
+</div>
+<p><em><strong>If you tried this Pina Colada Chia Pudding Recipe, don’t forget to rate the recipe below and let me know how it went in the comments – I love hearing from you! You can also follow me on <a href="https://www.instagram.com/notenoughcinnamon/">Instagram</a>, <a href="https://www.pinterest.com/NECinnamon/">Pinterest</a> and <a href="https://www.facebook.com/notenoughcinnamon">Facebook</a> for more deliciousness and behind-the-scenes!</strong></em></p>
+<h3></h3>
+<h3>More Chia Pudding Recipes:</h3>
+<ul>
+<li><a href="https://www.notenoughcinnamon.com/?p=7604">Strawberry Rhubarb Chia Pudding</a></li>
+<li><a href="https://www.notenoughcinnamon.com/?p=5300">Vanilla Raspberry Chia Pudding</a></li>
+<li><a href="https://www.notenoughcinnamon.com/?p=4469">Pumpkin Pie Chia Pudding</a></li>
+</ul>
+</div><div class="feast-prev-next"><div class="feast-prev-post">&laquo; <a aria-label="Previous post: " href="https://www.notenoughcinnamon.com/teriyaki-mushroom-rice-bowls/" rel="prev">Teriyaki Mushroom Rice Bowls</a></div><div class="feast-next-post"><a aria-label="Next post: " href="https://www.notenoughcinnamon.com/tandoori-chicken-bowl/" rel="next">Tandoori Chicken Bowls (Dairy Free &#038; Gluten Free)</a> &raquo;</div></div><div id="dpsp-content-bottom" class="dpsp-content-wrapper dpsp-shape-rectangular dpsp-size-small dpsp-has-spacing dpsp-no-labels dpsp-show-on-mobile dpsp-show-total-share-count dpsp-show-total-share-count-before dpsp-button-style-5">
+<div class="dpsp-total-share-wrapper">
+<span class="dpsp-icon-total-share"></span>
+<span class="dpsp-total-share-count">613</span>
+<span>shares</span>
+</div>
+<ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-share dpsp-networks-btns-content dpsp-column-3 dpsp-has-button-icon-animation"><li class="dpsp-network-list-item dpsp-network-list-item-pinterest">
+<button data-href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.notenoughcinnamon.com%2Fpina-colada-chia-pudding%2F&amp;media=http%3A%2F%2Fwww.notenoughcinnamon.com%2Fwp-content%2Fuploads%2F2020%2F10%2FPina-Colada-Chia-Pudding.png&amp;description=Pina%20Colada%20Chia%20Puddings%20are%20an%20easy%2C%20healthy%20make-ahead%20breakfast%20or%20dessert%20that%20is%20perfect%20for%20lovers%20of%20tropical%20cocktails%21%20Made%20with%20simple%20healthy%20ingredients%20including%20chia%20seeds%2C%20fresh%20pineapple%2C%20and%20coconut%20milk.%20Vegan%20and%20refined%20sugar-free%21" class="dpsp-network-btn dpsp-pinterest dpsp-no-label dpsp-first" aria-label="Save to Pinterest" title="Save to Pinterest"> <span class="dpsp-network-icon ">
+<span class="dpsp-network-icon-inner"></span>
+</span>
+</button></li>
+<li class="dpsp-network-list-item dpsp-network-list-item-facebook">
+<a rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.notenoughcinnamon.com%2Fpina-colada-chia-pudding%2F&amp;t=Pina%20Colada%20Chia%20Pudding%20Recipe%20with%20Coconut%20Milk%20%26%20Pineapple" class="dpsp-network-btn dpsp-facebook dpsp-no-label" target="_blank" aria-label="Share on Facebook" title="Share on Facebook"> <span class="dpsp-network-icon ">
+<span class="dpsp-network-icon-inner"></span>
+</span>
+</a></li>
+<li class="dpsp-network-list-item dpsp-network-list-item-twitter">
+<a rel="nofollow noopener" href="https://twitter.com/intent/tweet?text=Pina%20Colada%20Chia%20Pudding%20Recipe%20with%20Coconut%20Milk%20%26%20Pineapple&amp;url=https%3A%2F%2Fwww.notenoughcinnamon.com%2Fpina-colada-chia-pudding%2F" class="dpsp-network-btn dpsp-twitter dpsp-no-label dpsp-last" target="_blank" aria-label="Share on Twitter" title="Share on Twitter"> <span class="dpsp-network-icon ">
+<span class="dpsp-network-icon-inner"></span>
+</span>
+</a></li>
+</ul></div>
+<footer class="entry-footer"></footer></article><div class="after-entry widget-area"><section id="custom_html-10" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div class="fd-ef-6086f805568cfe3fbf998e77">
+<style>
+    @import url('https://assets.flodesk.com/brandongrotesque.css');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+
+    html.fd-ef-6086f805568cfe3fbf998e77 {
+      font-size: 10px;
+      font-family: sans-serif;
+      line-height: 1.15;
+      -ms-overflow-style: scrollbar;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 *,
+    .fd-ef-6086f805568cfe3fbf998e77 *::before,
+    .fd-ef-6086f805568cfe3fbf998e77 *::after {
+      box-sizing: border-box;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 body {
+      margin: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 [tabindex="-1"]:focus {
+      outline: none !important;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 hr {
+      height: 0;
+      overflow: visible;
+      box-sizing: content-box;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 h1,
+    .fd-ef-6086f805568cfe3fbf998e77 h2,
+    .fd-ef-6086f805568cfe3fbf998e77 h3,
+    .fd-ef-6086f805568cfe3fbf998e77 h4,
+    .fd-ef-6086f805568cfe3fbf998e77 h5,
+    .fd-ef-6086f805568cfe3fbf998e77 h6 {
+      margin-top: 0;
+      margin-bottom: 0.7em;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 abbr[title],
+    .fd-ef-6086f805568cfe3fbf998e77 abbr[data-original-title] {
+      cursor: help;
+      border-bottom: 0;
+      -webkit-text-decoration: underline dotted;
+      text-decoration: underline dotted;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 address {
+      font-style: normal;
+      line-height: inherit;
+      margin-bottom: 1.4rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 ol,
+    .fd-ef-6086f805568cfe3fbf998e77 ul,
+    .fd-ef-6086f805568cfe3fbf998e77 dl {
+      margin-top: 0;
+      margin-bottom: 1.4rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 ol ol,
+    .fd-ef-6086f805568cfe3fbf998e77 ul ul,
+    .fd-ef-6086f805568cfe3fbf998e77 ol ul,
+    .fd-ef-6086f805568cfe3fbf998e77 ul ol {
+      margin-bottom: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 dt {
+      font-weight: bolder;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 dd {
+      margin-left: 0;
+      margin-bottom: 0.7rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 blockquote {
+      margin: 0 0 1.4rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 dfn {
+      font-style: italic;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 b,
+    .fd-ef-6086f805568cfe3fbf998e77 strong {
+      font-weight: bolder;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 small {
+      font-size: 80%;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 sub,
+    .fd-ef-6086f805568cfe3fbf998e77 sup {
+      position: relative;
+      font-size: 75%;
+      line-height: 0;
+      vertical-align: baseline;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 sub {
+      bottom: -0.25em;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 sup {
+      top: -0.5em;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 a {
+      color: #000000;
+      text-decoration: none;
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 a:hover {
+      color: #4396fd;
+      text-decoration: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 pre,
+    .fd-ef-6086f805568cfe3fbf998e77 code,
+    .fd-ef-6086f805568cfe3fbf998e77 kbd,
+    .fd-ef-6086f805568cfe3fbf998e77 samp {
+      font-size: 1em;
+      font-family: monospace;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 pre {
+      overflow: auto;
+      margin-top: 0;
+      margin-bottom: 1.4rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 figure {
+      margin: 0 0 1.4rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 img {
+      border-style: none;
+      vertical-align: middle;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 svg:not(:root) {
+      overflow: hidden;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 a,
+    .fd-ef-6086f805568cfe3fbf998e77 area,
+    .fd-ef-6086f805568cfe3fbf998e77 button,
+    .fd-ef-6086f805568cfe3fbf998e77 [role="button"],
+    .fd-ef-6086f805568cfe3fbf998e77 input,
+    .fd-ef-6086f805568cfe3fbf998e77 label,
+    .fd-ef-6086f805568cfe3fbf998e77 select,
+    .fd-ef-6086f805568cfe3fbf998e77 summary,
+    .fd-ef-6086f805568cfe3fbf998e77 textarea {
+      touch-action: manipulation;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 label {
+      display: inline-block;
+      font-weight: bolder;
+      margin-bottom: 0.7rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 button:focus {
+      outline: 1px dotted;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 input,
+    .fd-ef-6086f805568cfe3fbf998e77 button,
+    .fd-ef-6086f805568cfe3fbf998e77 select,
+    .fd-ef-6086f805568cfe3fbf998e77 optgroup,
+    .fd-ef-6086f805568cfe3fbf998e77 textarea {
+      margin: 0;
+      font-size: inherit;
+      font-family: inherit;
+      line-height: inherit;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 button,
+    .fd-ef-6086f805568cfe3fbf998e77 input {
+      overflow: visible;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 button,
+    .fd-ef-6086f805568cfe3fbf998e77 select {
+      text-transform: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 button,
+    html.fd-ef-6086f805568cfe3fbf998e77 [type="button"],
+    .fd-ef-6086f805568cfe3fbf998e77 [type="reset"],
+    .fd-ef-6086f805568cfe3fbf998e77 [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 button::-moz-focus-inner,
+    .fd-ef-6086f805568cfe3fbf998e77 [type="button"]::-moz-focus-inner,
+    .fd-ef-6086f805568cfe3fbf998e77 [type="reset"]::-moz-focus-inner,
+    .fd-ef-6086f805568cfe3fbf998e77 [type="submit"]::-moz-focus-inner {
+      padding: 0;
+      border-style: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 input[type="radio"],
+    .fd-ef-6086f805568cfe3fbf998e77 input[type="checkbox"] {
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 input[type="date"],
+    .fd-ef-6086f805568cfe3fbf998e77 input[type="time"],
+    .fd-ef-6086f805568cfe3fbf998e77 input[type="datetime-local"],
+    .fd-ef-6086f805568cfe3fbf998e77 input[type="month"] {
+      -webkit-appearance: listbox;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 textarea {
+      resize: vertical;
+      overflow: auto;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      min-width: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 legend {
+      color: inherit;
+      width: 100%;
+      display: block;
+      padding: 0;
+      font-size: 2.0999999999999996rem;
+      max-width: 100%;
+      line-height: inherit;
+      white-space: normal;
+      margin-bottom: 0.7rem;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 progress {
+      vertical-align: baseline;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 [type="number"]::-webkit-inner-spin-button,
+    .fd-ef-6086f805568cfe3fbf998e77 [type="number"]::-webkit-outer-spin-button {
+      height: auto;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 [type="search"] {
+      outline-offset: -2px;
+      -webkit-appearance: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 [type="search"]::-webkit-search-cancel-button,
+    .fd-ef-6086f805568cfe3fbf998e77 [type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 ::-webkit-file-upload-button {
+      font: inherit;
+      -webkit-appearance: button;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 output {
+      display: inline-block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 summary {
+      display: list-item;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 template {
+      display: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 [hidden] {
+      display: none !important;
+    }
+
+    html.fd-ef-6086f805568cfe3fbf998e77,
+    html.fd-ef-6086f805568cfe3fbf998e77 body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control {
+      width: 100%;
+      display: block;
+      outline: none;
+      box-shadow: none;
+      -webkit-transition: all 0.4s;
+      transition: all 0.4s;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control:focus {
+      outline: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control::-webkit-input-placeholder {
+      color: inherit;
+      opacity: 1;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control::-webkit-input-placeholder,
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control::-moz-placeholder,
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control:-ms-input-placeholder,
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-control::placeholder {
+      color: inherit;
+      opacity: 1;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-description {
+      margin: 5px 0 0 0;
+      font-size: 0.9em;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-feedback {
+      margin: 5px 0 0 0;
+      font-size: 0.9em;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group {
+      margin: 0 0 1.5rem;
+      position: relative;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-success .fd-form-feedback,
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-success .fd-form-check {
+      color: #02dba8 !important;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-success .fd-form-control {
+      color: #02dba8 !important;
+      border-color: #02dba8 !important;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-success .fd-form-feedback {
+      display: block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-error .fd-form-feedback,
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-error .fd-form-check {
+      color: #eb3d3b !important;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-error .fd-form-control {
+      color: #eb3d3b !important;
+      border-color: #eb3d3b !important;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-form-group.fd-has-error .fd-form-feedback {
+      display: block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-btn {
+      cursor: pointer;
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: inline-flex;
+      max-width: 100%;
+      box-shadow: none;
+      text-align: center;
+      -webkit-transition: all 0.4s;
+      transition: all 0.4s;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      text-shadow: none;
+      white-space: normal;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-btn.disabled,
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-btn:disabled {
+      opacity: 0.8;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-btn p {
+      margin: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__container {
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+      max-width: 800px;
+      background: #f9e9e2;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__background {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__background.is-solid {
+      display: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__background.is-wave {
+      top: 140px;
+      left: 50%;
+      width: auto;
+      height: auto;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__background.is-diagonal>div {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      position: relative;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__left {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1;
+      flex: 1 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      padding: 5.5% 0 5.5% 5.5%;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 767px) {
+      .fd-ef-6086f805568cfe3fbf998e77 .ff__left {
+        display: none;
+      }
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__right {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 47.65%;
+      flex: 0 0 47.65%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      padding: 5.5%;
+      max-width: 47.65%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 767px) {
+      .fd-ef-6086f805568cfe3fbf998e77 .ff__right {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding: 30px 30px 40px;
+        max-width: 100%;
+      }
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__image {
+      width: 100%;
+      height: 0;
+      position: relative;
+      padding-top: 100%;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__imageInner {
+      top: 0;
+      left: 50%;
+      height: 100%;
+      display: block;
+      padding: 0;
+      overflow: hidden;
+      position: absolute;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background-size: cover;
+      background-image: url('https://usercontent.flodesk.com/fa84fdde-5c83-4dbb-911d-73058ce60393/upload/paleo-slow-cooker-mongolian-beef-3_e7b204f7-8163-457a-906a-f05bd6316c9a.jpg');
+      background-position: center;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .is-circle .ff__imageInner {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .is-square .ff__imageInner {
+      width: 100%;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .is-verticalRectangle .ff__imageInner,
+    .fd-ef-6086f805568cfe3fbf998e77 .is-rectangle .ff__imageInner {
+      width: 75.7%;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__form {
+      color: #656b7f;
+      width: 100%;
+      margin: 0;
+      font-size: 16px;
+      text-align: center;
+      font-family: brandon-grotesque, sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.16px;
+      text-transform: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__title {
+      color: #3e4157;
+      width: 100%;
+      margin: 0 0 20px;
+      display: block;
+      font-size: 36px;
+      text-align: center;
+      font-family: Playfair Display, serif;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0.16px;
+      text-transform: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__title p {
+      margin: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__subtitle {
+      width: 100%;
+      margin: 0 0 25px;
+      display: block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__subtitle p {
+      margin: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__fields {
+      margin: 0 0 15px;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-has-success .ff__fields {
+      display: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__fields>*:last-child {
+      margin-bottom: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__control {
+      color: #b8b8b8;
+      border: 1px solid #ffffff;
+      height: 46px;
+      display: block;
+      padding: 12px 20px;
+      font-size: 12px;
+      background: #ffffff;
+      text-align: left;
+      font-family: Montserrat, sans-serif;
+      font-weight: 400;
+      line-height: 20px;
+      border-radius: 4.6000000000000005px;
+      letter-spacing: 0.12px;
+      text-transform: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-has-success .ff__footer {
+      display: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__button {
+      color: #ffffff;
+      width: 100%;
+      border: 1px solid #3e4157;
+      display: inline-block;
+      padding: 12px 20px;
+      font-size: 12px;
+      background: #3e4157;
+      text-align: center;
+      font-family: Montserrat, sans-serif;
+      font-weight: 400;
+      line-height: 20px;
+      border-radius: 4.6000000000000005px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__success {
+      display: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-has-success .ff__success {
+      display: block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__success>*:last-child {
+      margin-bottom: 0;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__error {
+      margin: 15px 0 0 0;
+      display: none;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .fd-has-error .ff__error {
+      display: block;
+    }
+
+    .fd-ef-6086f805568cfe3fbf998e77 .ff__error>*:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+<div class>
+<div class="ff__container">
+<div class="ff__background is-solid">
+<div style="background: linear-gradient(to right bottom, #f9e9e2 50%, #f2d0d7 50%)"></div>
+</div>
+<div class="ff__wrapper">
+<div class="ff__left">
+<div class="ff__image is-rectangle">
+<div class="ff__imageInner">&nbsp;</div>
+</div>
+</div>
+<div class="ff__right">
+<form class="ff__form" action="https://form.flodesk.com/submit" method="post" data-form="fdv2">
+<h3 class="ff__title">
+<div>
+<p>Don't miss out on the good stuff!</p>
+</div>
+</h3>
+<div class="ff__subtitle">
+<div>
+<p>Sign up below to receive our weekly recipe digest. No spam, only the good stuff!</p>
+</div>
+</div>
+<div class="ff__fields">
+<div class="fd-form-group">
+<input class="fd-form-control ff__control" type="text" name="firstName" placeholder="First name">
+</div>
+<div class="fd-form-group">
+<input class="fd-form-control ff__control" type="text" name="email" placeholder="Email address">
+</div>
+<input type="text" name="name" value style="display: none" />
+<input type="hidden" name="submitToken" value="6b98a8fabe4a4f9193c67ae2db4e861af19bf17b0edb69f93f7d56c247c9468a1b7011c1d69c5352da0511fe9e6861581d6eb8535991634db7645b7b6f19ce2347084a43260150790a2aa9d87b79a41965eeb37c94d6f0e5dc8d11b9f9673128" />
+</div>
+<div class="ff__footer">
+<button type="submit" class="fd-btn ff__button" data-form-el="submit">
+<span>Keep me updated!</span>
+</button>
+</div>
+<div class="fd-success ff__success" data-form-el="success">
+<p>Thank you for subscribing!</p>
+</div>
+<div class="fd-error ff__error" data-form-el="error"></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<img height="1" width="1" style="display:none" src="data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-lazy-src="https://t.flodesk.com/utm.gif?r=6086f805568cfe3fbf998e77" /><noscript><img height="1" width="1" style="display:none" src="https://t.flodesk.com/utm.gif?r=6086f805568cfe3fbf998e77" /></noscript>
+<script src="https://assets.flodesk.com/form.js?v=1619461167350"></script>
+</div></div></div></section>
+</div><h2 class="screen-reader-text">Reader Interactions</h2><div class="entry-comments" id="comments"><h3>Comments</h3><ol class="comment-list">
+<li class="comment even thread-even depth-1" id="comment-715611">
+<article id="article-comment-715611">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Jayne</span> </p>
+<p class="comment-meta"><time class="comment-time">April 09, 2021 at 1:11 am</time></p> </header>
+<div class="comment-content">
+<div class="wprm-comment-rating">
+<span class="wprm-rating-stars"><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span></span>
+</div>
+<p>Can't wait to serve this up this spring. The ingredients and flavors look amazing. Love the Pina Colada twist.</p>
+</div>
+</article>
+<ul class="children">
+<li class="comment byuser comment-author-marie bypostauthor odd alt depth-2" id="comment-715641">
+<article id="article-comment-715641">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Marie</span> </p>
+<p class="comment-meta"><time class="comment-time">April 11, 2021 at 5:34 pm</time></p> </header>
+<div class="comment-content">
+<p>These are sooo good! Like a mini vacay</p>
+</div>
+</article>
+</li>
+</ul>
+</li>
+<li class="comment even thread-odd thread-alt depth-1" id="comment-715612">
+<article id="article-comment-715612">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Kristina Tipps</span> </p>
+<p class="comment-meta"><time class="comment-time">April 09, 2021 at 2:25 am</time></p> </header>
+<div class="comment-content">
+<div class="wprm-comment-rating">
+<span class="wprm-rating-stars"><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span></span>
+</div>
+<p>Such a fantastic recipe! I love all of your chia puddings, thanks again!</p>
+</div>
+</article>
+<ul class="children">
+<li class="comment byuser comment-author-marie bypostauthor odd alt depth-2" id="comment-715642">
+<article id="article-comment-715642">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Marie</span> </p>
+<p class="comment-meta"><time class="comment-time">April 11, 2021 at 5:35 pm</time></p> </header>
+<div class="comment-content">
+<p>Thanks so much! Oh yes, between this one, the pumpkin spice and the raspberry one, I cannot decide which one I like better! But this one is the best for summer!</p>
+</div>
+</article>
+</li>
+</ul>
+</li>
+<li class="comment even thread-even depth-1" id="comment-715613">
+<article id="article-comment-715613">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Tara</span> </p>
+<p class="comment-meta"><time class="comment-time">April 09, 2021 at 3:51 am</time></p> </header>
+<div class="comment-content">
+<div class="wprm-comment-rating">
+<span class="wprm-rating-stars"><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span></span>
+</div>
+<p>Such a refreshing and flavorful treat! I love those layers and how the pudding is made ahead of time.</p>
+</div>
+</article>
+<ul class="children">
+<li class="comment byuser comment-author-marie bypostauthor odd alt depth-2" id="comment-715643">
+<article id="article-comment-715643">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Marie</span> </p>
+<p class="comment-meta"><time class="comment-time">April 11, 2021 at 5:35 pm</time></p> </header>
+<div class="comment-content">
+<p>Thanks so much Tara!</p>
+</div>
+</article>
+</li>
+</ul>
+</li>
+<li class="comment even thread-odd thread-alt depth-1" id="comment-715615">
+<article id="article-comment-715615">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Brianna</span> </p>
+<p class="comment-meta"><time class="comment-time">April 09, 2021 at 4:52 am</time></p> </header>
+<div class="comment-content">
+<div class="wprm-comment-rating">
+<span class="wprm-rating-stars"><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span></span>
+</div>
+<p>I love pineapple and can't wait to try this!</p>
+</div>
+</article>
+<ul class="children">
+<li class="comment byuser comment-author-marie bypostauthor odd alt depth-2" id="comment-715644">
+<article id="article-comment-715644">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Marie</span> </p>
+<p class="comment-meta"><time class="comment-time">April 11, 2021 at 5:36 pm</time></p> </header>
+<div class="comment-content">
+<p>I am sure you will love these, Brianna</p>
+</div>
+</article>
+</li>
+</ul>
+</li>
+<li class="comment even thread-even depth-1" id="comment-715616">
+<article id="article-comment-715616">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Alex</span> </p>
+<p class="comment-meta"><time class="comment-time">April 09, 2021 at 5:09 am</time></p> </header>
+<div class="comment-content">
+<div class="wprm-comment-rating">
+<span class="wprm-rating-stars"><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span><span class="wprm-rating-star"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g><path fill="#343434" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path></g></svg></span></span>
+</div>
+<p>This is such a unique flavor combo for chia pudding - perfect for the warmer weather we have finally! And I love the layered look here!</p>
+</div>
+</article>
+<ul class="children">
+<li class="comment byuser comment-author-marie bypostauthor odd alt depth-2" id="comment-715645">
+<article id="article-comment-715645">
+<header class="comment-header">
+<p class="comment-author">
+<span class="comment-author-name">Marie</span> </p>
+<p class="comment-meta"><time class="comment-time">April 11, 2021 at 5:36 pm</time></p> </header>
+<div class="comment-content">
+<p>Thanks so much! YES - the cocktail lover's edition!</p>
+</div>
+</article>
+</li>
+</ul>
+</li>
+</ol></div></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><div class="feast-modern-sidebar">
+<h2></h2>
+</div></aside></div></div><footer class="site-footer"><div class="wrap"><h2 class="screen-reader-text">Footer</h2>
+<div class="feast-modern-footer">
+<div class="wp-block-columns">
+<div class="wp-block-column is-vertically-aligned-center">
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://www.notenoughcinnamon.com/"><img src="data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20248%2062'%3E%3C/svg%3E" alt class="wp-image-8261" width="248" height="62" data-lazy-src="https://www.notenoughcinnamon.com/wp-content/uploads/2017/06/NEC_Logo_RGB_Web_Small-1024x254.png" /><noscript><img src="https://www.notenoughcinnamon.com/wp-content/uploads/2017/06/NEC_Logo_RGB_Web_Small-1024x254.png" alt="" class="wp-image-8261" width="248" height="62"/></noscript></a></figure></div>
+<ul class="wp-block-social-links aligncenter has-large-icon-size has-icon-color has-icon-background-color is-style-default"><li style="color: #3e4157; background-color: #f9e9e2; " class="wp-social-link wp-social-link-instagram wp-block-social-link"><a href="https://www.instagram.com/notenoughcinnamon/" aria-label="Instagram: https://www.instagram.com/notenoughcinnamon/" rel="noopener nofollow" target="_blank" class="wp-block-social-link-anchor"> <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg></a></li>
+<li style="color: #3e4157; background-color: #f9e9e2; " class="wp-social-link wp-social-link-facebook wp-block-social-link"><a href="https://facebook.com/notenoughcinnamon" aria-label="Facebook: https://facebook.com/notenoughcinnamon" rel="noopener nofollow" target="_blank" class="wp-block-social-link-anchor"> <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg></a></li>
+<li style="color: #3e4157; background-color: #f9e9e2; " class="wp-social-link wp-social-link-pinterest wp-block-social-link"><a href="https://pinterest.com/necinnamon" aria-label="Pinterest: https://pinterest.com/necinnamon" rel="noopener nofollow" target="_blank" class="wp-block-social-link-anchor"> <svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false"><path d="M12.289,2C6.617,2,3.606,5.648,3.606,9.622c0,1.846,1.025,4.146,2.666,4.878c0.25,0.111,0.381,0.063,0.439-0.169 c0.044-0.175,0.267-1.029,0.365-1.428c0.032-0.128,0.017-0.237-0.091-0.362C6.445,11.911,6.01,10.75,6.01,9.668 c0-2.777,2.194-5.464,5.933-5.464c3.23,0,5.49,2.108,5.49,5.122c0,3.407-1.794,5.768-4.13,5.768c-1.291,0-2.257-1.021-1.948-2.277 c0.372-1.495,1.089-3.112,1.089-4.191c0-0.967-0.542-1.775-1.663-1.775c-1.319,0-2.379,1.309-2.379,3.059 c0,1.115,0.394,1.869,0.394,1.869s-1.302,5.279-1.54,6.261c-0.405,1.666,0.053,4.368,0.094,4.604 c0.021,0.126,0.167,0.169,0.25,0.063c0.129-0.165,1.699-2.419,2.142-4.051c0.158-0.59,0.817-2.995,0.817-2.995 c0.43,0.784,1.681,1.446,3.013,1.446c3.963,0,6.822-3.494,6.822-7.833C20.394,5.112,16.849,2,12.289,2"></path></svg></a></li></ul>
+</div>
+<div class="wp-block-column">
+<h4>About</h4>
+<ul id="menu-header-menu-1" style="font-size:14px"><li><a href="https://www.notenoughcinnamon.com/about/">About</a></li><li><a href="https://www.notenoughcinnamon.com/contact-me/">Contact</a></li><li><a href="https://www.notenoughcinnamon.com/work-with-me/">Work with me</a></li><li><a target="_blank" rel="noreferrer noopener" href="https://view.flodesk.com/pages/5e77657dd0640c002d06072f">Subscribe</a></li><li><a href="https://www.notenoughcinnamon.com/privacy-policy/">Privacy Policy</a></li></ul>
+</div>
+<div class="wp-block-column">
+<h4>Recipes</h4>
+<ul id="menu-desktop-menu-1" style="font-size:14px"><li><a href="https://www.notenoughcinnamon.com/recipes-index/">Main Dishes</a></li><li><a href="https://www.notenoughcinnamon.com/category/recipes/breakfast-brunch/">Breakfast / Brunch</a></li><li><a href="https://www.notenoughcinnamon.com/category/recipes/salads/">Salads</a></li><li><a href="https://www.notenoughcinnamon.com/category/recipes/meat/chicken/">Chicken Recipes</a></li><li><a href="https://www.notenoughcinnamon.com/">Healthy Desserts</a></li><li><a href="https://www.notenoughcinnamon.com/blog/">View All Recipes</a></li></ul>
+<p></p>
+</div>
+</div>
+<p class="has-text-align-center"><a href="#" rel="nofollow">↑ back to top</a></p>
+<p class="has-text-align-center"><em>As an Amazon Associate I earn from qualifying purchases.</em></p>
+<p class="has-text-align-center">Copyright © 2012-2020 <strong>Not Enough Cinnamon</strong>. All rights reserved.</p>
+</div></div></footer></div><script>!function(){"use strict";(new class{constructor(){this.supportedSizes=[[728,90],[300,250],[300,600],[320,50],[970,250],[160,600],[300,1050],[336,280],[970,90],[300,50],[320,100],[468,60],[250,250],[120,240],[1,1],[300,300],[552,334],[300,420],[728,250],[320,300],[300,390]],this.lazyMaxMap={Recipe:5,Below_Post:1},this.locationToMinHeight={Content:"250px",Recipe:"250px"}}insertDivs(){if(!window.adthriveCLS.siteAds)return;if(window.adthriveCLS.disableAds&&window.adthriveCLS.disableAds.all)return;if(window.adthriveCLS.disableAds&&window.adthriveCLS.disableAds.reasons.has("content_plugin"))return;if(/Edg/i.test(navigator.userAgent)||!/Chrome/.test(navigator.userAgent)&&!/Safari/.test(navigator.userAgent)&&!/[Pinterest/iOS]/.test(navigator.userAgent))return;var e=this.deviceByBreakpoint(window.adthriveCLS.siteAds.breakpoints.tablet,window.adthriveCLS.siteAds.breakpoints.desktop),t=this.getDynamicAds(e);let i=[];for(var n=0;n<t.length;n++){var a=t[n],o=0,s=0,r=0;a.spacing>0&&(s=o=window.innerHeight*a.spacing);for(var c=this.repeatDynamicAds(a),l=document.querySelectorAll(a.elementSelector),d=a.skip;d<l.length&&!(r+1>c.length);d+=a.every){var m=l[d];if(o>0){var h=this.elementOffset(m).bottom;if(h<=s)continue;s=h+o}var y=d<l.length-1?1:Math.max(a.min-r,1);for(y>1&&(o=0);y>0;y--){var u=c[r],p=u.location+"_"+u.sequence;if(window.adthriveCLS.injectedSlots.some((function(e){return e.name===p})))r+=1;else{var f="AdThrive_"+u.location+"_"+u.sequence+"_"+e,v="adthrive-"+a.location.replace("_","-").toLowerCase(),g=v+"-"+a.sequence,S=a.classNames||[];S.push(v,g);var w=this.addAd(m,f,a.position,S,u.location);if(w){var z=this.filterAdUnitSizes(u,w);if(z.length>0){var M={clsDynamicAd:a,dynamicAd:u,element:w,sizes:z,name:p,infinite:!1};window.adthriveCLS.injectedSlots.push(M),i.push({location:u.location,element:w}),r+=1}m=w}}}}}i.forEach(({location:e,element:t})=>{t.style.minHeight=this.locationToMinHeight[e]})}addAd(e,t,i,n,a){if(!document.getElementById(t)){var o=['<div id="',t,'" class="adthrive-ad ',n.join(" "),'"></div>'].join("");e.insertAdjacentHTML(i,o)}return document.getElementById(t)}repeatDynamicAds(e){for(var t=[],i=e.lazy&&this.lazyMaxMap[e.location]?this.lazyMaxMap[e.location]:0,n=Math.max(e.min,e.max),a=0===i&&e.lazy?n+e.lazyMax:Math.min(Math.max(i-e.sequence+1,0),n+e.lazyMax),o=Math.max(n,a),s=0;s<o;s++){var r=e.sequence+s,c=e.lazy&&s>=n,l=Object.assign({},e,{sequence:r,lazy:c});l.sequence=r,l.lazy=c,t.push(l)}return t}getDynamicAds(e){return window.adthriveCLS.siteAds.adUnits.filter(e=>e.dynamic&&e.dynamic.enabled&&window.adthriveCLS.enabledLocations.indexOf(e.location)>=0).map(e=>({location:e.location.replace(/\s+/g,"_"),sequence:e.sequence||1,sizes:this.supportedSizes.filter((function(t){return e.adSizes.some((function(e){return t[0]==e[0]&&t[1]==e[1]}))})),devices:e.devices,pageSelector:e.dynamic.pageSelector?e.dynamic.pageSelector.trim():"",elementSelector:e.dynamic.elementSelector?e.dynamic.elementSelector.trim():"",position:e.dynamic.position?e.dynamic.position:"beforebegin",min:Math.floor(e.dynamic.min?e.dynamic.min:0),max:Math.floor(e.dynamic.max?e.dynamic.max:0),spacing:e.dynamic.spacing?e.dynamic.spacing:0,skip:Math.floor(e.dynamic.skip?e.dynamic.skip:0),every:Math.max(Math.floor(e.dynamic.every?e.dynamic.every:1),1),classNames:e.dynamic.classNames?e.dynamic.classNames:[],sticky:e.sticky,stickyOverlapSelector:e.stickyOverlapSelector?e.stickyOverlapSelector.trim():"",autosize:e.autosize,special:(e.targeting?e.targeting:[]).filter(e=>"special"===e.key).reduce((e,t)=>e.concat(...t.value),[]),lazy:!!e.dynamic.lazy&&e.dynamic.lazy,lazyMax:e.dynamic.lazyMax?e.dynamic.lazyMax:2})).filter((function(t){var i=-1!==t.devices.indexOf(e),n=0===t.pageSelector.length||null!==document.querySelector(t.pageSelector),a=document.body.classList.contains("adthrive-disable-all"),o="Recipe"!==t.location&&"Content"!==t.location||!document.body.classList.contains("adthrive-disable-content");return i&&n&&o&&!a}))}deviceByBreakpoint(e,t){const i=window.innerWidth;return i>=t?"desktop":i>=e?"tablet":"phone"}elementOffset(e){const t=e.offsetHeight,i=e.offsetWidth,n=e.getBoundingClientRect(),a=document.body,o=document.documentElement,s=window.pageYOffset||o.scrollTop||a.scrollTop,r=window.pageXOffset||o.scrollLeft||a.scrollLeft,c=o.clientTop||a.clientTop||0,l=o.clientLeft||a.clientLeft||0,d=Math.round(n.top+s-c),m=Math.round(n.left+r-l);return{top:d,left:m,bottom:d+t,right:m+i,width:i,height:t}}elementInnerWidth(e){let t=e.clientWidth;if(getComputedStyle){const i=getComputedStyle(e,null);t-=parseFloat(i.paddingLeft||"0")+parseFloat(i.paddingRight||"0")}return t}filterAdUnitSizes(e,t){var i=this.elementInnerWidth(t),n=e.sticky&&"Sidebar"===e.location;return e.sizes.filter((function(t){var a=!e.autosize||(t[0]<=i||t[0]<=320),o=!n||t[1]<=window.innerHeight-100;return a&&o}))}}).insertDivs()}();
+!function(){"use strict";function e(e){try{return{valid:!0,elements:document.querySelectorAll(e)}}catch(e){return Object.assign({valid:!1},e)}}class t{static getPlacementElement(t){const i=""===(s=t.pageSelector)?{valid:!0}:e(s);var s;const o=e(t.elementSelector);return i.valid?t.pageSelector&&!i.elements.length?null:o.valid&&o.elements.length>t.skip?o.elements[t.skip]:null:null}}new class{constructor(e){this._config=e,this._jwPlaylistIds=[],this._autoplayPlayerAdded=!1,this._IN_POST_SELECTOR=".adthrive-video-player",this._wrapperBarHeight=36,this._device=/Windows NT|Macintosh/i.test(navigator.userAgent)?"desktop":"mobile"}init(){const e="classList"in document.createElement("_");window.adthriveCLS.siteAds&&!window.adthriveVideosInjected&&e&&!/Edg/i.test(navigator.userAgent)&&(/Chrome/.test(navigator.userAgent)||/Safari/.test(navigator.userAgent)||/[Pinterest/iOS]/.test(navigator.userAgent))&&this._initializePlayers()}_initializePlayers(){this._initializeInPostPlayers(),this._shouldRunVideo()&&("desktop"===this._device?this._config.video.desktopCollapseSettings&&this._config.video.desktopCollapseSettings.enabled?this._initializeAutoplayCollapsePlayer(this._config.video.desktopCollapseSettings):this._config.video.sekindoDesktopSettings&&this._config.video.sekindoDesktopSettings.enabled&&this._initializeSekindo(this._config.video.sekindoDesktopSettings,320,250,!1):this._config.video.mobileCollapseSettings&&this._config.video.mobileCollapseSettings.enabled?this._initializeAutoplayCollapsePlayer(this._config.video.mobileCollapseSettings):this._config.video.sekindoMobileSettings&&this._config.video.sekindoMobileSettings.enabled&&this._initializeSekindo(this._config.video.sekindoMobileSettings,340,260,!1))}_initializeInPostPlayers(){const e=document.querySelectorAll(this._IN_POST_SELECTOR);let i="static";this._config.video.contextualSettings&&(i=this._config.video.contextualSettings.defaultPlayerType);for(let s=0;s<e.length;s++){const o=e[s],n=o.getAttribute("data-video-id");if(n&&-1!==this._jwPlaylistIds.indexOf(n))continue;let l=o.getAttribute("data-player-type")||i;"default"===l&&(l=i),this._autoplayPlayerAdded&&(l="static");const a=this._config.video.playerId;if(n&&a)switch(l){case"collapse":if(this._config.video.desktopCollapseSettings){let e=!1;const i=o.getAttribute("override-embed");"true"===i||"false"===i?e="true"===i:this._config.video.contextualSettings&&(e=this._config.video.contextualSettings.overrideEmbedLocation);let s=o;if(e)if("desktop"===this._device){if(this._config.video.desktopContextualCollapseSettings&&this._config.video.desktopContextualCollapseSettings.elementSelector&&t.getPlacementElement(this._config.video.desktopContextualCollapseSettings)){s=t.getPlacementElement(this._config.video.desktopContextualCollapseSettings);const e=document.createElement("div");s.insertAdjacentElement(this._config.video.desktopContextualCollapseSettings.position,e),s=e}else if(this._config.video.desktopCollapseSettings.elementSelector&&t.getPlacementElement(this._config.video.desktopCollapseSettings)){s=t.getPlacementElement(this._config.video.desktopCollapseSettings);const e=document.createElement("div");s.insertAdjacentElement(this._config.video.desktopCollapseSettings.position,e),s=e}}else if(this._config.video.mobileContextualCollapseSettings&&this._config.video.mobileContextualCollapseSettings.elementSelector&&t.getPlacementElement(this._config.video.mobileContextualCollapseSettings)){s=t.getPlacementElement(this._config.video.mobileContextualCollapseSettings);const e=document.createElement("div");s.insertAdjacentElement(this._config.video.mobileContextualCollapseSettings.position,e),s=e}else if(this._config.video.mobileCollapseSettings&&this._config.video.mobileCollapseSettings.elementSelector&&t.getPlacementElement(this._config.video.mobileCollapseSettings)){s=t.getPlacementElement(this._config.video.mobileCollapseSettings);const e=document.createElement("div");s.insertAdjacentElement(this._config.video.mobileCollapseSettings.position,e),s=e}this._wrapJWPlayerWithCLS(s,n,this._wrapperBarHeight),this._jwPlaylistIds.push(n),this._autoplayPlayerAdded=!0}break;case"static":this._wrapJWPlayerWithCLS(o,n),this._jwPlaylistIds.push(n)}}}_getTitleHeight(e){e.innerText="Title",e.style.visibility="hidden",document.body.appendChild(e);const t=window.getComputedStyle(e),i=parseInt(t.height,10),s=parseInt(t.marginTop,10),o=parseInt(t.marginBottom,10);return document.body.removeChild(e),Math.min(i+o+s,50)}_wrapJWPlayerWithCLS(e,t,i=0){if(e.parentNode){const s=e.offsetWidth*(9/16),o=this._createGenericCLSWrapper(s,t,i);e.parentNode.insertBefore(o,e),o.appendChild(e)}}_createSekindoCLSWrapper(e,t){const i=this._getTitleHeight(document.createElement("h4"));return this._createGenericCLSWrapper(e,t,i)}_createGenericCLSWrapper(e,t,i){const s=document.createElement("div");return s.id="cls-video-container-"+t,s.className="adthrive",s.style.minHeight=e+i+"px",s}_initializeSekindo(e,i,s,o){if(this._autoplayPlayerAdded)return;const n=t.getPlacementElement(e),l=this._config.video.playlistId;if(n&&l){const t=this._createSekindoCLSWrapper(s,l);n.insertAdjacentElement(e.position,t)}}_initializeAutoplayCollapsePlayer(e){if(this._autoplayPlayerAdded)return;const i=t.getPlacementElement(e),{collapsePlayerId:s,playlistId:o}=this._config.video;if(i&&s&&o){const t=document.createElement("div");i.insertAdjacentElement(e.position,t);const s=document.createElement("h3");s.style.margin="10px 0";const n=this._getTitleHeight(s);this._wrapJWPlayerWithCLS(t,o,this._wrapperBarHeight+n),this._jwPlaylistIds.push(o)}}_isVideoAllowedOnPage(){return!(null!==this._config.disableAds&&this._config.disableAds.video||window.adthriveCLS.videoDisabledFromPlugin)}_shouldRunVideo(){return!(!this._isVideoAllowedOnPage()||!(this._config.video.desktopCollapseSettings&&this._config.video.desktopCollapseSettings.enabled||this._config.video.mobileCollapseSettings&&this._config.video.mobileCollapseSettings.enabled||this._config.video.sekindoDesktopSettings&&this._config.video.sekindoDesktopSettings.enabled||this._config.video.sekindoMobileSettings&&this._config.video.sekindoMobileSettings.enabled))}}(new class{constructor(e){this.disableAds=window.adthriveCLS.disableAds?window.adthriveCLS.disableAds:null,this.video=e}}(new class{constructor(){const e=window.adthriveCLS.siteAds.video.collapsible;this.playerId=window.adthriveCLS.siteAds.video.jwPlayerId,this.collapsePlayerId=window.adthriveCLS.siteAds.video.jwCollapsiblePlayerId,this.playlistId=window.adthriveCLS.siteAds.video.jwPlaylistId,this.contextualSettings=window.adthriveCLS.siteAds.video.contextual,this.desktopContextualCollapseSettings=window.adthriveCLS.siteAds.video.contextualAutoplayCollapsibleDesktop,this.mobileContextualCollapseSettings=window.adthriveCLS.siteAds.video.contextualAutoplayCollapsibleMobile,this.collapseSettings=e,this.desktopCollapseSettings=window.adthriveCLS.siteAds.video.autoplayPlaylistCollapsibleDesktop,this.mobileCollapseSettings=window.adthriveCLS.siteAds.video.autoplayPlaylistCollapsibleMobile,this.sekindoDesktopSettings=window.adthriveCLS.siteAds.video.sekindoDesktopPlaylist,this.sekindoMobileSettings=window.adthriveCLS.siteAds.video.sekindoMobilePlaylist}})).init()}();
+</script><div id="mv-grow-data" data-settings="{&quot;general&quot;:{&quot;contentSelector&quot;:false},&quot;shareCounts&quot;:{&quot;pinterest&quot;:613,&quot;facebook&quot;:0,&quot;twitter&quot;:0},&quot;shouldRun&quot;:true,&quot;buttonSVG&quot;:{&quot;pinterest&quot;:{&quot;height&quot;:32,&quot;width&quot;:23,&quot;paths&quot;:[&quot;M0 10.656q0-1.92 0.672-3.616t1.856-2.976 2.72-2.208 3.296-1.408 3.616-0.448q2.816 0 5.248 1.184t3.936 3.456 1.504 5.12q0 1.728-0.32 3.36t-1.088 3.168-1.792 2.656-2.56 1.856-3.392 0.672q-1.216 0-2.4-0.576t-1.728-1.568q-0.16 0.704-0.48 2.016t-0.448 1.696-0.352 1.28-0.48 1.248-0.544 1.12-0.832 1.408-1.12 1.536l-0.224 0.096-0.16-0.192q-0.288-2.816-0.288-3.36 0-1.632 0.384-3.68t1.184-5.152 0.928-3.616q-0.576-1.152-0.576-3.008 0-1.504 0.928-2.784t2.368-1.312q1.088 0 1.696 0.736t0.608 1.824q0 1.184-0.768 3.392t-0.8 3.36q0 1.12 0.8 1.856t1.952 0.736q0.992 0 1.824-0.448t1.408-1.216 0.992-1.696 0.672-1.952 0.352-1.984 0.128-1.792q0-3.072-1.952-4.8t-5.12-1.728q-3.552 0-5.952 2.304t-2.4 5.856q0 0.8 0.224 1.536t0.48 1.152 0.48 0.832 0.224 0.544q0 0.48-0.256 1.28t-0.672 0.8q-0.032 0-0.288-0.032-0.928-0.288-1.632-0.992t-1.088-1.696-0.576-1.92-0.192-1.92z&quot;]},&quot;facebook&quot;:{&quot;height&quot;:32,&quot;width&quot;:18,&quot;paths&quot;:[&quot;M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z&quot;]},&quot;twitter&quot;:{&quot;height&quot;:32,&quot;width&quot;:30,&quot;paths&quot;:[&quot;M28.928 7.296q-1.184 1.728-2.88 2.976 0 0.256 0 0.736 0 2.336-0.672 4.64t-2.048 4.448-3.296 3.744-4.608 2.624-5.792 0.96q-4.832 0-8.832-2.592 0.608 0.064 1.376 0.064 4.032 0 7.168-2.464-1.888-0.032-3.36-1.152t-2.048-2.848q0.608 0.096 1.088 0.096 0.768 0 1.536-0.192-2.016-0.416-3.328-1.984t-1.312-3.68v-0.064q1.216 0.672 2.624 0.736-1.184-0.8-1.888-2.048t-0.704-2.752q0-1.568 0.8-2.912 2.176 2.656 5.248 4.256t6.656 1.76q-0.16-0.672-0.16-1.312 0-2.4 1.696-4.064t4.064-1.696q2.528 0 4.224 1.824 1.952-0.384 3.68-1.408-0.672 2.048-2.56 3.2 1.664-0.192 3.328-0.896z&quot;]}},&quot;utmParams&quot;:[],&quot;pinterest&quot;:{&quot;pinDescriptionSource&quot;:&quot;image_alt_tag&quot;,&quot;pinDescription&quot;:&quot;Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!&quot;,&quot;pinTitle&quot;:null,&quot;pinImageURL&quot;:&quot;https:\/\/www.notenoughcinnamon.com\/wp-content\/uploads\/2020\/10\/Pina-Colada-Chia-Pudding.png&quot;,&quot;pinnableImages&quot;:&quot;all_images&quot;,&quot;postImageHidden&quot;:&quot;yes&quot;,&quot;postImageHiddenMultiple&quot;:null,&quot;lazyLoadCompatibility&quot;:null,&quot;buttonPosition&quot;:&quot;top-left&quot;,&quot;buttonShape&quot;:&quot;rectangular&quot;,&quot;showButtonLabel&quot;:&quot;yes&quot;,&quot;buttonLabelText&quot;:&quot;Save&quot;,&quot;buttonShareBehavior&quot;:&quot;post_image&quot;,&quot;hoverButtonShareBehavior&quot;:&quot;hover_image&quot;,&quot;minimumImageWidth&quot;:&quot;200&quot;,&quot;minimumImageHeight&quot;:&quot;200&quot;,&quot;showImageOverlay&quot;:null,&quot;postTypeDisplay&quot;:null,&quot;imagePinIt&quot;:&quot;0&quot;,&quot;hasContent&quot;:&quot;1&quot;,&quot;shareURL&quot;:&quot;https:\/\/www.notenoughcinnamon.com\/pina-colada-chia-pudding\/&quot;,&quot;bypassClasses&quot;:[&quot;mv-grow-bypass&quot;,&quot;no_pin&quot;],&quot;bypassDenyClasses&quot;:[&quot;dpsp-post-pinterest-image-hidden-inner&quot;,&quot;mv-create-pinterest&quot;],&quot;ignoreSelectors&quot;:[],&quot;disableIframes&quot;:null},&quot;inlineContentHook&quot;:[&quot;genesis_loop&quot;,&quot;loop_start&quot;]}"></div><script type="text/javascript" src="//conversionsbox.com/cb.js"></script>
+<script type="text/javascript">function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}; r(function(){new ConversionsBox("For%20more%20yumminess%2C%20find%20me%20on%20Facebook!%20","https://www.facebook.com/NotEnoughCinnamon");});</script>
+<script>
+if (jQuery(window).width() < 480) {
+  jQuery('article').css({ 'padding': '0px !important' });
+  jQuery('.pin-wrapper').css({ 'display': 'inline' });
+  var contentWidth = jQuery('main.content').width();
+  jQuery('.pin-image-wrapper img').each(function() {
+    jQuery(this).width(contentWidth);
+  });
+}
+</script><style type="text/css" media="screen"> #simple-social-icons-3 ul li a, #simple-social-icons-3 ul li a:hover, #simple-social-icons-3 ul li a:focus { background-color: #ffffff !important; border-radius: 0px; color: #3e4157 !important; border: 0px #ffffff solid !important; font-size: 18px; padding: 9px; }  #simple-social-icons-3 ul li a:hover, #simple-social-icons-3 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #ee69a3 !important; }  #simple-social-icons-3 ul li a:focus { outline: 1px dotted #ffffff !important; } #simple-social-icons-4 ul li a, #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-radius: 3px; color: #3e4157 !important; border: 0px #ffffff solid !important; font-size: 10px; padding: 5px; }  #simple-social-icons-4 ul li a:hover, #simple-social-icons-4 ul li a:focus { background-color: #ffffff !important; border-color: #ffffff !important; color: #ee69a3 !important; }  #simple-social-icons-4 ul li a:focus { outline: 1px dotted #ffffff !important; }</style><link rel="stylesheet" id="wprm-public-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/wp-recipe-maker/dist/public-legacy.css?ver=7.4.0" type="text/css" media="all" />
+<link rel="stylesheet" id="wprmp-public-css" href="https://www.notenoughcinnamon.com/wp-content/plugins/wp-recipe-maker-premium/dist/public-pro.css?ver=7.4.0" type="text/css" media="all" />
+<script type="text/javascript" id="dpsp-frontend-js-pro-js-before">
+		var dpsp_pin_button_data = {"pin_description_source":"image_alt_tag","pinterest_pinnable_images":"all_images","pinterest_button_share_behavior":"post_image","post_pinterest_image_hidden":"yes","button_position":"top_left","button_shape":"rectangular","minimum_image_width":"200","minimum_image_height":"200","show_button_text_label":"yes","button_text_label":"Save","button_share_behavior":"hover_image","pinterest_description":"Pina Colada Chia Puddings are an easy, healthy make-ahead breakfast or dessert that is perfect for lovers of tropical cocktails! Made with simple healthy ingredients including chia seeds, fresh pineapple, and coconut milk. Vegan and refined sugar-free!","pinterest_image_url":"https:\/\/www.notenoughcinnamon.com\/wp-content\/uploads\/2020\/10\/Pina-Colada-Chia-Pudding.png"}
+	
+</script>
+<script type="text/javascript" async data-noptimize src="https://www.notenoughcinnamon.com/wp-content/plugins/social-pug/assets/dist/front-end-pro.2.14.1.js?ver=2.14.1" id="dpsp-frontend-js-pro-js"></script>
+<script type="text/javascript" src="https://www.notenoughcinnamon.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.3.3" id="skip-links-js"></script>
+<script type="text/javascript" id="wprm-public-js-extra">
+/* <![CDATA[ */
+var wprm_public = {"endpoints":{"analytics":"https:\/\/www.notenoughcinnamon.com\/wp-json\/wp-recipe-maker\/v1\/analytics"},"settings":{"features_comment_ratings":true,"template_color_comment_rating":"#0c0c0c","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"print_new_tab":true},"post_id":"13978","home_url":"https:\/\/www.notenoughcinnamon.com\/","print_slug":"wprm_print","permalinks":"\/%postname%\/","ajax_url":"https:\/\/www.notenoughcinnamon.com\/wp-admin\/admin-ajax.php","nonce":"56a63a91c7","api_nonce":"17ae740710","translations":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.notenoughcinnamon.com/wp-content/plugins/wp-recipe-maker/dist/public-legacy.js?ver=7.4.0" id="wprm-public-js"></script>
+<script type="text/javascript" id="wprmp-public-js-extra">
+/* <![CDATA[ */
+var wprmp_public = {"settings":{"recipe_template_mode":"legacy","features_adjustable_servings":true,"adjustable_servings_round_to_decimals":"2","fractions_enabled":false,"fractions_use_mixed":true,"fractions_use_symbols":true,"fractions_max_denominator":"8","features_comment_ratings":true,"features_user_ratings":false,"user_ratings_force_comment":"never","user_ratings_force_comment_scroll_to":"","servings_changer_display":"tooltip_slider","template_ingredient_list_style":"checkbox","template_instruction_list_style":"decimal","template_color_icon":"#ba969c"},"timer":{"sound_dir":"https:\/\/www.notenoughcinnamon.com\/wp-content\/plugins\/wp-recipe-maker-premium\/dist\/","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":10485760,"text":{"image_size":"The image file is too large"}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.notenoughcinnamon.com/wp-content/plugins/wp-recipe-maker-premium/dist/public-pro.js?ver=7.4.0" id="wprmp-public-js"></script>
+<script>
+            window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+        
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+                            
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+                
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+                
+                observer.observe(b, config);
+            }
+        }, false);
+        </script><script data-no-minify="1" async src="https://www.notenoughcinnamon.com/wp-content/plugins/wp-rocket/assets/js/lazyload/11.0.6/lazyload.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4140be25c5","applicationID":"135801306","transactionName":"ZQFWMRZTWUEHVhINW1xLdQYQW1hcSUYPClNeAQ==","queueTime":0,"applicationTime":306,"atts":"SUZVR15JSk8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

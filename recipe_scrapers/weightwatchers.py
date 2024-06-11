@@ -9,7 +9,7 @@ from ._utils import get_minutes, get_yields, normalize_string
 class WeightWatchers(AbstractScraper):
     @classmethod
     def host(cls):
-        return "www.weightwatchers.com"
+        return "weightwatchers.com"
 
     def author(self):
         return "WeightWatchers"

@@ -1,9 +1,10 @@
 {
   "author": "Sam The Cooking Guy",
   "canonical_url": "https://www.thecookingguy.com/recipes/chili-cumin-lamb",
+  "site_name": "Sam The Cooking Guy",
   "host": "thecookingguy.com",
-  "description": "Right from the pages of The Holy Grill, this super savory combination of flavors is a favorite when it comes to lamb. And because it's thicker, it requires less marinating time which is good if you don't, or can't wait.",
-  "image": "https://assets-global.website-files.com/657a7aac36df076237527e36/6618c9854c59410e3161cd04_Screenshot%202024-04-11%20at%2010.41.06%E2%80%AFPM.png",
+  "language": "en",
+  "title": "Chili Cumin Lamb",
   "ingredients": [
     "2 tablespoons chili powder",
     "2 tablespoons ground cumin",
@@ -48,9 +49,28 @@
     "Remove, cover loosely with foil, and let rest 10 minutes",
     "The temp will rise and you'll be the recipient of amazing lamb"
   ],
-  "language": "en",
-  "site_name": "Sam The Cooking Guy",
-  "title": "Chili Cumin Lamb",
+  "yields": "2 items",
+  "description": "Right from the pages of The Holy Grill, this super savory combination of flavors is a favorite when it comes to lamb. And because it's thicker, it requires less marinating time which is good if you don't, or can't wait.",
   "total_time": null,
-  "yields": "2 items"
+  "image": "https://assets-global.website-files.com/657a7aac36df076237527e36/6618c9854c59410e3161cd04_Screenshot%202024-04-11%20at%2010.41.06%E2%80%AFPM.png",
+  "keywords": [
+    "Cooking",
+    "Guy",
+    "Grill",
+    "Grilling",
+    "Grilled",
+    "BBQ",
+    "Dinner",
+    "Family Meal",
+    "Chicken",
+    "Beef",
+    "Steak",
+    "Pork",
+    "Seafood",
+    "Fish",
+    "Lobster",
+    "Sauce",
+    "Tacos",
+    "Sam The Cooking Guy"
+  ]
 }

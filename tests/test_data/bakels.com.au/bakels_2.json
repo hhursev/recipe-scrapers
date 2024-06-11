@@ -1,9 +1,10 @@
 {
   "author": "Australian Bakels",
   "canonical_url": "https://www.bakels.com.au/recipes/plant-based-burger-patty-using-bakels-plant-based-savoury-mix/",
+  "site_name": "Australian Bakels",
   "host": "bakels.com.au",
-  "description": "Plant-Based Burger Patty Recipe - Australian Bakels | Sponge Cake Mix",
-  "image": "https://www.bakels.com.au/wp-content/uploads/sites/21/2020/08/Vegan-Burger-Patty-scaled.jpg",
+  "language": "en",
+  "title": "Plant-Based Burger Patty (Using Bakels Plant-Based Savoury Mix)",
   "ingredients": [
     "Bakels Plant-Based Savoury Mix",
     "Vital Wheat Gluten",
@@ -35,7 +36,6 @@
     "Blend together on low speed for 5 minutes. Scrape down in between mixing.",
     "Let the mix stand for 5-10 minutes for full hydration."
   ],
-  "language": "en",
-  "site_name": "Australian Bakels",
-  "title": "Plant-Based Burger Patty (Using Bakels Plant-Based Savoury Mix)"
+  "description": "Plant-Based Burger Patty Recipe - Australian Bakels | Sponge Cake Mix",
+  "image": "https://www.bakels.com.au/wp-content/uploads/sites/21/2020/08/Vegan-Burger-Patty-scaled.jpg"
 }

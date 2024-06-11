@@ -35,20 +35,20 @@ def generate_scraper_test(class_name, host_name):
         os.mkdir(f"tests/test_data/{host_name}")
 
     testjson = {
-        "author": "",
-        "canonical_url": "",
         "host": host_name,
-        "description": "",
-        "image": "",
+        "canonical_url": "",
+        "site_name": "",
+        "author": "",
+        "language": "",
+        "title": "",
         "ingredients": "",
         "ingredient_groups": "",
         "instructions": "",
         "instructions_list": "",
-        "language": "",
-        "site_name": "",
-        "title": "",
         "total_time": "",
         "yields": "",
+        "image": "",
+        "description": "",
     }
 
     output = f"tests/test_data/{host_name}/{class_name.lower()}.json"

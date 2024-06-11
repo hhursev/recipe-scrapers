@@ -14,8 +14,8 @@ class Mob(AbstractScraper):
         )["props"]["pageProps"]["recipe"]
 
     @classmethod
-    def host(cls, domain="mob.co.uk"):
-        return domain
+    def host(cls):
+        return "mob.co.uk"
 
     def author(self):
         chefs = self.recipe_json.get("chefs", [])

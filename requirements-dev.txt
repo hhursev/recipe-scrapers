@@ -1,4 +1,3 @@
 -e .
 coverage>=7.4.4
-lxml<5.1.1  # https://github.com/scrapinghub/extruct/issues/215
 types-beautifulsoup4>=4.12.0

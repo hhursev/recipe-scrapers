@@ -1,9 +1,10 @@
 {
   "author": "Kris Osborne",
   "canonical_url": "https://www.myjewishlearning.com/the-nosher/foolproof-sourdough-challah-recipe/",
+  "site_name": "My Jewish Learning",
   "host": "myjewishlearning.com",
-  "description": "Perfect if you already have a starter sitting in your fridge-- try this tangy challah!",
-  "image": "https://www.myjewishlearning.com/wp-content/uploads/2023/07/Sourdough-Challah-KO-1-1-225x225.jpg",
+  "language": "en-US",
+  "title": "Sourdough Challah",
   "ingredients": [
     "300 g (2 cups) all-purpose flour",
     "330 g (2⅓ cups) bread flour, plus a bit more as needed",
@@ -51,16 +52,15 @@
     "Bake for 25-30 minutes, or until dark brown and shiny.",
     "Transfer to a cooling rack to cool slightly before serving."
   ],
-  "language": "en-US",
-  "site_name": "My Jewish Learning",
-  "title": "Sourdough Challah",
-  "total_time": 1290,
-  "yields": "2 servings",
   "category": "Bread",
-  "cuisine": "Jewish",
-  "cooking_method": "Baking",
+  "yields": "2 servings",
+  "description": "Perfect if you already have a starter sitting in your fridge-- try this tangy challah!",
+  "total_time": 1290,
   "cook_time": 28519422,
   "prep_time": 28519422,
+  "cuisine": "Jewish",
+  "cooking_method": "Baking",
   "ratings": 4.7,
-  "ratings_count": 2
+  "ratings_count": 3,
+  "image": "https://www.myjewishlearning.com/wp-content/uploads/2023/07/Sourdough-Challah-KO-1-1-225x225.jpg"
 }

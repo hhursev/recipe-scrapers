@@ -7,7 +7,7 @@ from ._grouping_utils import IngredientGroup
 from ._utils import get_yields, normalize_string
 
 BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers"
-null_return_warning = (
+_null_return_warning = (
     "Hm. Apparently {} doesn't provide {} values? "
     "If you know that's untrue for some recipe, "
     "let us know at {} by creating an issue with "
@@ -28,7 +28,7 @@ class TheCookingGuy(AbstractScraper):
 
     def total_time(self):
         warnings.warn(
-            null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
+            _null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
         )
         return None
 

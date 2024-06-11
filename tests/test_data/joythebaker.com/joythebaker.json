@@ -1,9 +1,10 @@
 {
   "author": "Joy the Baker",
   "canonical_url": "https://joythebaker.com/2023/01/jambalaya-biscuits/",
+  "site_name": "Joy the Baker",
   "host": "joythebaker.com",
-  "description": "A tender, savory, and stacked Mardi Gras biscuit!",
-  "image": "https://joythebaker.com/wp-content/uploads/2023/01/JambBiscuits-45-225x225.jpg",
+  "language": "en-US",
+  "title": "Jambalaya Biscuits",
   "ingredients": [
     "1 heaping cup cherry tomatoes, halved and roasted until bubbling with a bit of olive oil, salt, and pepper",
     "2 tablespoons olive oil",
@@ -60,15 +61,21 @@
     "Bake for 15-18 minutes until golden brown. Set aside for a few minutes to cool slightly before serving. I like to brush with butter and sprinkle with a bit of chives before serving.",
     "Biscuits are best enjoyed the day they’re made but keep, well wrapped, in the refrigerator for 2 days. Just wrap in foil and toast in the oven before serving."
   ],
-  "language": "en-US",
-  "site_name": "Joy the Baker",
-  "title": "Jambalaya Biscuits",
-  "total_time": 60,
-  "prep_time": 40,
-  "cook_time": 20,
-  "ratings": 5.0,
-  "yields": "8 servings",
   "category": "breakfast",
+  "yields": "8 servings",
+  "description": "A tender, savory, and stacked Mardi Gras biscuit!",
+  "total_time": 60,
+  "cook_time": 20,
+  "prep_time": 40,
   "cooking_method": "baking",
-  "ratings_count": 2
+  "ratings": 5.0,
+  "ratings_count": 6,
+  "image": "https://joythebaker.com/wp-content/uploads/2023/01/JambBiscuits-45-225x225.jpg",
+  "keywords": [
+    "jambalaya",
+    "biscuits",
+    "mardi gras",
+    "bell peppers",
+    "roasted tomato"
+  ]
 }
