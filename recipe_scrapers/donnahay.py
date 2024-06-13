@@ -8,6 +8,9 @@ class DonnaHay(AbstractScraper):
     def host(cls):
         return "donnahay.com.au"
 
+    def author(self):
+        return "Donna Hay"
+
     def title(self):
         return (
             self.soup.find("h1", class_="text-center recipe-title__mobile")
