@@ -17,7 +17,17 @@ class DonnaHay(AbstractScraper):
 
     def yields(self):
         div = self.soup.find("div", class_="col-sm-6 method")
-        return div.find("b").getText()
+        instructions = div.findAll("li")
+        last_instruction = instructions[len(instructions) - 1]
+        if last_instruction.find("b") is not None:
+            return last_instruction.find("b").getText()
+        else:
+            array = last_instruction.getText().split(".")
+            for entry in array:
+                if "Serves" in entry:
+                    if entry[0] == " ":
+                        yield_ = entry.replace(" ", "", 1)
+                    return yield_
 
     def image(self):
         div = self.soup.find("div", class_="image-frame recipes")
