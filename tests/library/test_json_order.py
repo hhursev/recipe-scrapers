@@ -38,7 +38,7 @@ class TestJsonOrder(unittest.TestCase):
         for root, dirs, files in os.walk(json_directory):
             for filename in files:
                 if filename.endswith(".json"):
-                    with open(os.path.join(root, filename)) as f:
+                    with open(os.path.join(root, filename), encoding="utf-8") as f:
                         data = json.load(f)
 
                     filtered_data_keys = [key for key in correct_order if key in data]
