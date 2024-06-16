@@ -230,6 +230,7 @@ Scrapers available for:
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://inbloombakery.com/ <https://inbloombakery.com/>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
+- `https://ingoodflavor.com <https://www.ingoodflavor.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_

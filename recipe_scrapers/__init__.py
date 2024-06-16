@@ -145,6 +145,7 @@ from .ig import IG
 from .imworthy import ImWorthy
 from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
+from .ingoodflavor import InGoodFlavor
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
 from .inspiralized import Inspiralized
@@ -438,6 +439,7 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     InBloomBakery.host(): InBloomBakery,
+    InGoodFlavor.host(): InGoodFlavor,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
