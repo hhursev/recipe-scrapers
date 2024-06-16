@@ -43,9 +43,7 @@ class TestJsonOrder(unittest.TestCase):
 
                     filtered_data_keys = [key for key in correct_order if key in data]
 
-                    expected_keys = [
-                        key for key in correct_order if key in filtered_data_keys
-                    ]
+                    expected_keys = filtered_data_keys
                     actual_keys = list(data.keys())
 
                     try:
@@ -53,7 +51,3 @@ class TestJsonOrder(unittest.TestCase):
                     except AssertionError as e:
                         e.args = (f"File: {os.path.join(root, filename)}\n" + str(e),)
                         raise
-
-
-if __name__ == "__main__":
-    unittest.main()
