@@ -358,6 +358,7 @@ Scrapers available for:
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_
+- `https://sandwichtribunal.com/ <https://sandwichtribunal.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_

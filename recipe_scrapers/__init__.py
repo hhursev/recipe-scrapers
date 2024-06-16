@@ -269,6 +269,7 @@ from .saboresanjinomoto import SaboresAnjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
+from .sandwhichtribunal import SandwhichTribunal
 from .saveur import Saveur
 from .savorynothings import SavoryNothings
 from .seriouseats import SeriousEats
@@ -458,6 +459,7 @@ SCRAPERS = {
     Recept.host(): Recept,
     RecipeGirl.host(): RecipeGirl,
     RicettePerBimby.host(): RicettePerBimby,
+    SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,
