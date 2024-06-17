@@ -1,20 +1,20 @@
 # In Depth Guide: Scraper Functions
 
-Each website scraper has a number of functions that return information about the recipe that has been scraped. Due to the variability in how recipes are written, not all of them are always applicable. These functions fall into three categories:
+Each website scraper has several functions that return information about the scraped recipe. Due to the variability in how recipes are written, not all functions are always applicable. These functions fall into three categories:
 
 1. Mandatory functions
 
-   These functions can be expected to be available for all Scraper classes and combined provide the majority of the information for a recipe.
+	These functions can be expected to be available for all Scraper classes and collectively provide the majority of the information for a recipe.
 
 2. Inherited functions
 
-   These functions are always available for all Scraper classes. They are implemented in the `AbstractScraper` base class and rarely require overriding in the Scraper class.
+	These functions are always available for all Scraper classes. They are implemented in the `AbstractScraper` base class and rarely require overriding in the specific Scraper class.
 
 3. Optional functions
 
-   These functions provide extra information about a recipe, from the particular websites that support them.
+	These functions provide extra information about a recipe from the particular websites that support them.
 
-All of the examples below come from https://www.bbcgoodfood.com/recipes/monster-cupcakes.
+All the examples below come from https://www.bbcgoodfood.com/recipes/monster-cupcakes.
 
 ```py
 >>> from recipe_scrapers import scrape_me
@@ -25,7 +25,7 @@ All of the examples below come from https://www.bbcgoodfood.com/recipes/monster-
 
 ### `author() -> str`
 
-Returns the author of the recipe. This is typically a person's name but can sometimes be an organization or the name of the website the recipe came from. If the recipe does not explicitly define an author, this should return the name of the website.
+Returns the author of the recipe. This is typically a person's name but can sometimes be an organization or the name of the website the recipe came from. If the recipe does not explicitly define an author, this function should return the name of the website.
 
 ```py
 >>> scraper.author()
@@ -34,7 +34,7 @@ Returns the author of the recipe. This is typically a person's name but can some
 
 ### `host() -> str`
 
-Returns the host of the website the Scraper class is for. This is a constant `str` set in each Scraper class.
+Returns the host of the website for the Scraper class. This is a constant `str` set in each Scraper class.
 
 ```python
 >>> scraper.host()
@@ -42,7 +42,7 @@ Returns the host of the website the Scraper class is for. This is a constant `st
 ```
 ### `description() -> str`
 
-Returns a description of the recipe. This is normally a sentence or short paragraph describing the recipe. Often the website defines the description, but sometimes it has to be inferred from the page content.
+Returns a description of the recipe. This is normally a sentence or short paragraph describing the recipe. Often, the website defines the description, but sometimes it has to be inferred from the page content.
 
 ```py
 >>> scraper.description()
@@ -51,7 +51,7 @@ Returns a description of the recipe. This is normally a sentence or short paragr
 
 ### `image() -> str`
 
-Returns the URL to the main image associated with the recipe, usually a photograph of the completed recipe.
+Returns the URL of the main image associated with the recipe, usually a photograph of the completed recipe.
 
 ```py
 >>> scraper.image()
@@ -59,7 +59,7 @@ Returns the URL to the main image associated with the recipe, usually a photogra
 ```
 ### `ingredients() -> List[str]`
 
-Returns the ingredients needed to make the recipe as a `list` of `str`. Each element of the list is usually a single sentence stating an ingredient, the required amount and any additional comments. The elements of the list should mirror the ingredients written on the website and should not include non-ingredient sentences such as sub-headings.
+Returns the ingredients needed to make the recipe as a `list` of `str`. Each element of the list is usually a single sentence stating an ingredient, the required amount, and any additional comments. The elements of the list should mirror the ingredients written on the website and should not include non-ingredient sentences such as subheadings.
 
 ```py
 >>> scraper.ingredients()
@@ -96,7 +96,7 @@ Returns a single `str` containing all instruction steps. Where a recipe has mult
 
 ### `title() -> str`
 
-Returns the title of the recipes, usually a short sentence or phrase.
+Returns the title of the recipe, usually a short sentence or phrase.
 
 ```py
 >>> scraper.title()
@@ -105,7 +105,7 @@ Returns the title of the recipes, usually a short sentence or phrase.
 
 ### `total_time() -> int`
 
-Returns the total time required to complete the recipe, in minutes.
+Returns the total time required to complete the recipe in minutes.
 
 ```py
 >>> scraper.total_time()
@@ -134,13 +134,13 @@ Returns the canonical URL for the scraped recipe. The canonical URL is the direc
 
 ### `ingredient_groups() -> List[IngredientGroup]`
 
-Returns a `list` of groups of ingredients. Some recipes on some websites will present the ingredients in groups, where each group contains the ingredients required for a particular aspect of the recipe.
+Returns a `list` of ingredient groups. Some recipes on certain websites present the ingredients in groups, where each group contains the ingredients required for a particular aspect of the recipe.
 
 Each element of the returned `list` is an `IngredientGroup` object. An `IngredientGroup` object has a `purpose` (for example, *for the sauce*) and a `list` of ingredients.
 
 > [!IMPORTANT]
 >
-> All scrapers inherit this function. By default, it returns a single group with purpose of `None` and the ingredients set to the output of `ingredients()`. This function should be overridden in scrapers for website that use ingredient groups. See [this guide](in-depth-guide-ingredient-groups.md) for help on implementing this.
+> All scrapers inherit this function. By default, it returns a single group with the purpose of `None` and the ingredients set to the output of `ingredients()`. This function should be overridden in scrapers for websites that use ingredient groups. See [this guide](in-depth-guide-ingredient-groups.md) for help on implementing this.
 
 ```py
 >>> scraper.ingredient_groups()
@@ -171,7 +171,7 @@ Each element of the returned `list` is an `IngredientGroup` object. An `Ingredie
 
 ### `instruction_list()`
 
-Return a `list` of instructions. This `list` is generated by splitting the output of `instructions()` on newline characters.
+Returns a `list` of instructions. This `list` is generated by splitting the output of `instructions()` on newline characters.
 
 ```py
 >>> scraper.instructions_list()
@@ -183,9 +183,8 @@ Return a `list` of instructions. This `list` is generated by splitting the outpu
 
 ### `language() -> str`
 
-Returns the language of recipe page, as defined within the page's HTML.
-This is typically a two-letter BCP 47 language code, such as 'en' for English or 'de' for German,
-but may also include the dialect or variation, such as 'en-US' for American English.
+Returns the language of the recipe page, as defined within the page's HTML.
+This is typically a two-letter BCP 47 language code, such as 'en' for English or 'de' for German, but may also include the dialect or variation, such as 'en-US' for American English.
 
 The language code is based on BCP 47 standards.
 For a comprehensive list of BCP 47 language codes, refer to this GitHub Gist:
@@ -198,7 +197,7 @@ https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1
 
 ### `links() -> List[Dict[str, str]]`
 
-Returns a `list` of all links found in the page HTML defined in an `<a>` element. For each link, the attributes of the HTML element are returned as a `dict`.
+Returns a `list` of all links found in the page HTML, defined in an `<a>` element. For each link, the attributes of the HTML element are returned as a `dict`.
 
 ```py
 >>> scraper.links()
@@ -240,7 +239,7 @@ Returns the output of all functions implemented by this scraper as a `dict`.
 
 ### `category() -> str`
 
-Semi-structured field that can contain a mix of cuisine type (for example, country names), mealtime (breakfast/dinner/etc) and dietary properties (gluten-free, vegetarian). The value is defined by the website, so it may overlap with other scraper functions (e.g. `cuisine()`).
+A semi-structured field that can contain a mix of cuisine type (for example, country names), mealtime (breakfast/dinner/etc.), and dietary properties (gluten-free, vegetarian). The value is defined by the website, so it may overlap with other scraper functions (e.g., `cuisine()`).
 
 ```py
 >>> scraper.category()
@@ -267,7 +266,7 @@ Returns the cuisine of the recipe.
 
 ### `nutrients() -> Dict[str, str]`
 
-Returns a `dict` of nutrition information. Each nutrition item is usually given per unit of yield, e.g. per servings, per item. The keys of the `dict` are the nutrients (including calories) and the values are the amount of that nutrient, including the unit.
+Returns a `dict` of nutrition information. Each nutrition item is usually given per unit of yield, e.g., per serving, per item. The keys of the `dict` are the nutrients (including calories), and the values are the amount of that nutrient, including the unit.
 
 ```py
 >>> scraper.nutrients()
@@ -303,7 +302,7 @@ scraper.ratings()
 
 ### `ratings_count() -> float`
 
-Returns the total number of ratings contributed to the recipes rating.
+Returns the total number of ratings contributed to the recipe's rating.
 
 ```py
 scraper.ratings_count()
@@ -316,7 +315,7 @@ Returns a `list` of reviews about the recipe from the website. Each review is a 
 
 ### `equipment() -> List[str] | None`
 
-Returns a list of cooking equipment needed for provided recipe.
+Returns a list of cooking equipment needed for the provided recipe.
 
 ```py
 >>> scraper.equipment()
