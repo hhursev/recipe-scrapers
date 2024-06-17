@@ -100,6 +100,7 @@ Scrapers available for:
 - `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
+- `https://aldi.com.au/ <https://aldi.com.au/>`_
 - `https://alexandracooks.com/ <https://alexandracooks.com/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
