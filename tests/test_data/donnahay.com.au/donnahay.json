@@ -1,16 +1,62 @@
 {
   "host": "donnahay.com.au",
-  "canonical_url": "",
-  "site_name": "",
-  "author": "",
-  "language": "",
-  "title": "",
-  "ingredients": "",
-  "ingredient_groups": "",
-  "instructions": "",
-  "instructions_list": "",
-  "total_time": "",
-  "yields": "",
-  "image": "",
-  "description": ""
+  "canonical_url": "https://www.donnahay.com.au/recipes/dinner/green-minestrone-soup",
+  "site_name": "Donna Hay",
+  "author": "Donna Hay",
+  "language": "en",
+  "title": "GREEN MINESTRONE SOUP",
+  "ingredients": [
+    "1 tablespoon extra virgin olive oil",
+    "1 leek, trimmed and sliced",
+    "6 cups (1.5 litres/50 fl oz) chicken or vegetable stock",
+    "½ cup (110g/3¾ oz) freekeh, rinsed and drained",
+    "2 small zucchini (courgettes), grated",
+    "250g (8¾ oz) broccoli, cut into small florets",
+    "150g (5 oz) green beans, trimmed and chopped",
+    "1 cup (140g/4¼ oz) frozen shelled edamame beans",
+    "1 tablespoon finely grated lemon rind",
+    "¼ cup (6g/¼ oz) flat-leaf parsley leaves",
+    "¼ cup (4g/¼ oz) mint leaves",
+    "sea salt and cracked black pepper",
+    "finely grated parmesan, to serve"
+  ],
+  "ingredient_groups": [
+    {
+      "purpose": null,
+      "ingredients": [
+        "1 tablespoon extra virgin olive oil",
+        "1 leek, trimmed and sliced",
+        "6 cups (1.5 litres/50 fl oz) chicken or vegetable stock",
+        "½ cup (110g/3¾ oz) freekeh, rinsed and drained",
+        "2 small zucchini (courgettes), grated",
+        "250g (8¾ oz) broccoli, cut into small florets",
+        "150g (5 oz) green beans, trimmed and chopped",
+        "1 cup (140g/4¼ oz) frozen shelled edamame beans",
+        "1 tablespoon finely grated lemon rind",
+        "¼ cup (6g/¼ oz) flat-leaf parsley leaves",
+        "¼ cup (4g/¼ oz) mint leaves",
+        "sea salt and cracked black pepper",
+        "finely grated parmesan, to serve"
+      ]
+    }
+  ],
+  "instructions": "Heat a large saucepan over medium-high heat. Add oil and leek and cook for 5 minutes. Add stock and freekeh and bring to the boil. Reduce heat to a simmer, cover and cook for 30 minutes.\nAdd zucchini, broccoli, green beans and edamame and cook, uncovered, for 10 minutes.\nStir through lemon rind, parsley, mint and salt and pepper. Serve scattered with parmesan.\nTo freeze, allow to cool, divide between airtight containers and freeze for up to 3 months.",
+  "instructions_list": [
+    "Heat a large saucepan over medium-high heat. Add oil and leek and cook for 5 minutes. Add stock and freekeh and bring to the boil. Reduce heat to a simmer, cover and cook for 30 minutes.",
+    "Add zucchini, broccoli, green beans and edamame and cook, uncovered, for 10 minutes.",
+    "Stir through lemon rind, parsley, mint and salt and pepper. Serve scattered with parmesan.",
+    "To freeze, allow to cool, divide between airtight containers and freeze for up to 3 months."
+  ],
+  "total_time": null,
+  "yields": "4 servings",
+  "image": "https://cdn.donnahaycdn.com.au/images/content-images/green_minestrone_soup_1.jpg",
+  "keywords": [
+    "broccoli",
+    "everyday fresh meals in minutes",
+    "green beans",
+    "minestrone",
+    "soup",
+    "supergreens",
+    "zucchini"
+  ]
 }

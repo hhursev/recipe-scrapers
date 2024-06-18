@@ -1,7 +1,27 @@
 # mypy: allow-untyped-defs
 
+import warnings
+
 from recipe_scrapers._grouping_utils import IngredientGroup
+
 from ._abstract import AbstractScraper
+
+BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers/issues"
+
+
+def _field_not_provided_by_website_warning(host, field):
+    class FieldNotProvidedByWebsiteWarning(Warning):
+        pass
+
+    message = (
+        "{} doesn't seem to support the {} field. "
+        "If you know this to be untrue for some recipe, please submit a bug report at {}"
+    )
+
+    warnings.warn(
+        message.format(host, field, BUG_REPORT_LINK),
+        category=FieldNotProvidedByWebsiteWarning,
+    )
 
 
 class DonnaHay(AbstractScraper):
@@ -10,6 +30,9 @@ class DonnaHay(AbstractScraper):
         return "donnahay.com.au"
 
     def author(self):
+        return "Donna Hay"
+
+    def site_name(self):
         return "Donna Hay"
 
     def title(self):
@@ -22,7 +45,7 @@ class DonnaHay(AbstractScraper):
     def yields(self):
         div = self.soup.find("div", class_="col-sm-6 method")
         instructions = div.findAll("li")
-        last_instruction = instructions[len(instructions) - 1]
+        last_instruction = instructions[:-1]
         if last_instruction.find("b") is not None:
             return last_instruction.find("b").getText()
         else:
@@ -41,36 +64,36 @@ class DonnaHay(AbstractScraper):
         return image["src"]
 
     def ingredients(self):
-        ingredient_element = self.soup.find(
-            "div", {"class": "ingredients"}
-        )
+        ingredient_element = self.soup.find("div", {"class": "ingredients"})
 
         ingredients = []
         for ingredient in ingredient_element.find_all("li"):
-            ingredients.append(ingredient.text.replace(u'\xa0', u' ').strip())
+            ingredients.append(ingredient.text.replace("\xa0", " ").strip())
 
         return ingredients
 
     def ingredient_groups(self):
-        ingredient_element = self.soup.find(
-            "div", {"class": "ingredients"}
-        )
+        ingredient_element = self.soup.find("div", {"class": "ingredients"})
 
         ingredient_group_elements = ingredient_element.find_all("ul")
         ingredient_group_names = ingredient_element.find_all("p")
-        
+
         ingredient_groups = []
-        for (index, group) in enumerate(ingredient_group_elements):
-            
+        for index, group in enumerate(ingredient_group_elements):
+
             ingredient_groups.append(
                 IngredientGroup(
                     ingredients=[
-                        ingredient.text.replace(u'\xa0', u' ').strip() for ingredient in group
+                        ingredient.text.replace("\xa0", " ").strip()
+                        for ingredient in group
                     ],
-                    purpose=
-                        ingredient_group_names[index - 1].text.replace(u'\xa0', u' ').strip() 
-                            if len(ingredient_groups) != 0 
-                            else None,
+                    purpose=(
+                        ingredient_group_names[index - 1]
+                        .text.replace("\xa0", " ")
+                        .strip()
+                        if len(ingredient_groups) != 0
+                        else None
+                    ),
                 ),
             )
 
@@ -97,3 +120,7 @@ class DonnaHay(AbstractScraper):
         for tag in tags:
             keywords.append(tag.getText())
         return keywords
+
+    def total_time(self):
+        _field_not_provided_by_website_warning(self.host(), "total_time")
+        return None
