@@ -1,5 +1,6 @@
 # mypy: allow-untyped-defs
 
+from recipe_scrapers._grouping_utils import IngredientGroup
 from ._abstract import AbstractScraper
 
 
@@ -40,7 +41,40 @@ class DonnaHay(AbstractScraper):
         return image["src"]
 
     def ingredients(self):
-        return self.schema.ingredients()
+        ingredient_element = self.soup.find(
+            "div", {"class": "ingredients"}
+        )
+
+        ingredients = []
+        for ingredient in ingredient_element.find_all("li"):
+            ingredients.append(ingredient.text.replace(u'\xa0', u' ').strip())
+
+        return ingredients
+
+    def ingredient_groups(self):
+        ingredient_element = self.soup.find(
+            "div", {"class": "ingredients"}
+        )
+
+        ingredient_group_elements = ingredient_element.find_all("ul")
+        ingredient_group_names = ingredient_element.find_all("p")
+        
+        ingredient_groups = []
+        for (index, group) in enumerate(ingredient_group_elements):
+            
+            ingredient_groups.append(
+                IngredientGroup(
+                    ingredients=[
+                        ingredient.text.replace(u'\xa0', u' ').strip() for ingredient in group
+                    ],
+                    purpose=
+                        ingredient_group_names[index - 1].text.replace(u'\xa0', u' ').strip() 
+                            if len(ingredient_groups) != 0 
+                            else None,
+                ),
+            )
+
+        return ingredient_groups
 
     def instructions(self):
         div = self.soup.find("div", class_="col-sm-6 method")
