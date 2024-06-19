@@ -1,10 +1,12 @@
 # mypy: allow-untyped-defs
 
+import re
 import warnings
 
 from recipe_scrapers._grouping_utils import IngredientGroup
 
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers/issues"
 
@@ -44,17 +46,23 @@ class DonnaHay(AbstractScraper):
 
     def yields(self):
         div = self.soup.find("div", class_="col-sm-6 method")
-        instructions = div.findAll("li")
-        last_instruction = instructions[:-1]
+        instructions = div.find_all("li")
+        last_instruction = instructions[-1]
+
+        text = None
         if last_instruction.find("b") is not None:
-            return last_instruction.find("b").getText()
+            text = last_instruction.find("b").getText()
         else:
-            array = last_instruction.getText().split(".")
-            for entry in array:
-                if "Serves" in entry:
-                    if entry[0] == " ":
-                        yield_ = entry.replace(" ", "", 1)
-                    return yield_
+            sentences = last_instruction.getText().split(".")
+            for sentence in sentences:
+                if "Serves" in sentence:
+                    text = sentence
+                    break
+
+        result = re.search(r"Serves ([0-9]+)", text)
+        if not result:
+            return None
+        return f"{result.group(1)} servings"
 
     def image(self):
         div = self.soup.find("div", class_="image-frame recipes")
@@ -68,7 +76,7 @@ class DonnaHay(AbstractScraper):
 
         ingredients = []
         for ingredient in ingredient_element.find_all("li"):
-            ingredients.append(ingredient.text.replace("\xa0", " ").strip())
+            ingredients.append(normalize_string(ingredient.text))
 
         return ingredients
 
@@ -84,13 +92,10 @@ class DonnaHay(AbstractScraper):
             ingredient_groups.append(
                 IngredientGroup(
                     ingredients=[
-                        ingredient.text.replace("\xa0", " ").strip()
-                        for ingredient in group
+                        normalize_string(ingredient.text) for ingredient in group
                     ],
                     purpose=(
-                        ingredient_group_names[index - 1]
-                        .text.replace("\xa0", " ")
-                        .strip()
+                        normalize_string(ingredient_group_names[index - 1].text)
                         if len(ingredient_groups) != 0
                         else None
                     ),
@@ -103,15 +108,19 @@ class DonnaHay(AbstractScraper):
         div = self.soup.find("div", class_="col-sm-6 method")
         if not div:
             return
-        instructions = div.find_all("li")
-        for instruction in instructions:
-            text = instruction.get_text(separator=" ", strip=True)
+
+        instructions = []
+
+        instructions_list = div.find_all("li")
+        for instruction in instructions_list:
+            text = normalize_string(instruction.get_text(separator=" ", strip=True))
             if "Serves" in text:
                 text = text.split("Serves", 1)[
                     0
                 ].strip()  # Remove the sentence starting with Serves
-            instruction.string = text
-        return instructions
+            instructions.append(text)
+
+        return "\n".join(instructions)
 
     def keywords(self):
         div = self.soup.find("div", class_="section text-left")
