@@ -167,6 +167,7 @@ Scrapers available for:
 - `https://dinnerthendessert.com/ <https://dinnerthendessert.com/>`_
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
+- `https://donnahay.com.au/ <https://donnahay.com.au/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
