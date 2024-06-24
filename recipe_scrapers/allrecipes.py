@@ -23,7 +23,7 @@ class AllRecipesCurated(AbstractScraper):
         def get_ingredient_text(item, key):
             span = item.find("span", {"data-ingredient-" + key: True})
             return normalize_string(span.text) if span else ""
-        
+
         def match_ingredient_class(tag):
             return tag.has_attr('class') and any(cls.endswith('structured-ingredients__list-item') for cls in tag['class'])
 
