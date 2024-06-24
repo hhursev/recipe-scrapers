@@ -25,7 +25,10 @@ class AllRecipesCurated(AbstractScraper):
             return normalize_string(span.text) if span else ""
 
         def match_ingredient_class(tag):
-            return tag.has_attr('class') and any(cls.endswith('structured-ingredients__list-item') for cls in tag['class'])
+            return tag.has_attr("class") and any(
+                cls.endswith("structured-ingredients__list-item")
+                for cls in tag["class"]
+            )
 
         ingredients_list = []
         keys = ["quantity", "unit", "name"]
