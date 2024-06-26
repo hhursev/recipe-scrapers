@@ -429,7 +429,7 @@ Scrapers available for:
 - `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://whole30.com/ <https://whole30.com/>`_
-- `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`__
+- `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
     - `.co.uk <https://www.wholefoodsmarket.co.uk/>`__
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
 - `https://womensweeklyfood.com.au/ <https://womensweeklyfood.com.au/>`_
