@@ -3,7 +3,7 @@ import pathlib
 import sys
 import unittest
 from typing import Callable
-from warnings import catch_warnings, filterwarnings
+from warnings import catch_warnings
 
 from recipe_scrapers import scrape_html
 from recipe_scrapers._grouping_utils import IngredientGroup
@@ -91,8 +91,7 @@ def test_func_factory(
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
         for key in MANDATORY_TESTS:
-            with self.subTest(key), catch_warnings(record=True) as ws:
-                filterwarnings(action) if action else None
+            with self.subTest(key), catch_warnings(record=True, action=action) as ws:
                 scraper_func = getattr(actual, key)
                 if key in expect.keys():
                     self.assertEqual(
