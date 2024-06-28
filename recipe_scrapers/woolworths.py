@@ -2,6 +2,7 @@
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
+from ._exceptions import StaticValueException
 from ._schemaorg import SchemaOrg
 from ._utils import url_path_to_dict
 
@@ -39,7 +40,7 @@ class Woolworths(AbstractScraper):
         return self.schema.nutrients()
 
     def language(self):
-        return "en-AU"
+        raise StaticValueException(return_value="en-AU")
 
     def site_name(self):
         return "Woolworths | Fresh Ideas For You"
