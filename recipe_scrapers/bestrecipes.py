@@ -1,7 +1,5 @@
 # mypy: allow-untyped-defs
 
-import warnings
-
 from ._abstract import AbstractScraper
 from ._exceptions import StaticValueException
 

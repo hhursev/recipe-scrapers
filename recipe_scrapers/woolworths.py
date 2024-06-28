@@ -2,7 +2,6 @@
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
-from ._exceptions import StaticValueException
 from ._schemaorg import SchemaOrg
 from ._utils import url_path_to_dict
 
