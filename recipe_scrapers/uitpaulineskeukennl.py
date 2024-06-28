@@ -33,7 +33,7 @@ class UitPaulinesKeukenNL(AbstractScraper):
         )
 
     def description(self):
-        return (
+        return normalize_string(
             self.soup.find("article", {"class": "single-recipe"})
             .findChild("section", {"class": "text"})
             .find_next()

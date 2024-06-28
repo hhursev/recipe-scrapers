@@ -8,7 +8,7 @@ from .weightwatchers import WeightWatchers
 class WeightWatchersPublic(WeightWatchers):
     @classmethod
     def host(cls):
-        return "www.weightwatchers.com"
+        return "weightwatchers.com"
 
     def _find_data_container(self):
         return self.soup.find("div", {"class": "HorizontalList_list__GESs0"})

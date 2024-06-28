@@ -14,10 +14,14 @@ from .abuelascounter import AbuelasCounter
 from .acouplecooks import ACoupleCooks
 from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
+from .aflavorjournal import AFlavorJournal
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
+from .aldi import Aldi
+from .alexandracooks import AlexandraCooks
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
+from .allthehealthythings import AllTheHealthyThings
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
@@ -30,6 +34,7 @@ from .averiecooks import AverieCooks
 from .bakels import Bakels
 from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
+from .barefeetinthekitchen import BarefeetInTheKitchen
 from .barefootcontessa import BareFootContessa
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
@@ -47,6 +52,7 @@ from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
 from .budgetbytes import BudgetBytes
+from .cafedelites import CafeDelites
 from .carlsbadcravings import CarlsBadCravings
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
@@ -69,8 +75,11 @@ from .creativecanning import CreativeCanning
 from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
 from .cybercook import Cybercook
+from .damndelicious import DamnDelicious
 from .davidlebovitz import DavidLebovitz
 from .delish import Delish
+from .dinneratthezoo import DinnerAtTheZoo
+from .dinnerthendessert import DinnerThenDessert
 from .dishnz import Dishnz
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
@@ -87,9 +96,13 @@ from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
+from .evolvingtable import EvolvingTable
+from .familyfoodonthetable import FamilyfoodOnTheTable
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
 from .fattoincasadabenedetta import FattoInCasaDaBenedetta
+from .felixkitchen import FelixKitchen
+from .fifteengram import FifteenGram
 from .fifteenspatulas import FifteenSpatulas
 from .finedininglovers import FineDiningLovers
 from .fitmencook import FitMenCook
@@ -139,6 +152,7 @@ from .inspiralized import Inspiralized
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
+from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
 from .joyfoodsunshine import Joyfoodsunshine
 from .joythebaker import JoyTheBaker
@@ -156,6 +170,7 @@ from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
 from .kptncook import KptnCook
+from .kristineskitchenblog import KristinesKitchenBlog
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
@@ -185,6 +200,9 @@ from .minimalistbaker import Minimalistbaker
 from .ministryofcurry import MinistryOfCurry
 from .misya import Misya
 from .mob import Mob
+from .mobkitchen import MobKitchen
+from .modernhoney import ModernHoney
+from .momontimeout import MomOnTimeout
 from .momswithcrockpots import MomsWithCrockPots
 from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
@@ -200,6 +218,7 @@ from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .norecipes import NoRecipes
+from .notenoughcinnamon import NotEnoughCinnamon
 from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
 from .number2pencil import Number2Pencil
@@ -210,6 +229,7 @@ from .ohsheglows import OhSheGlows
 from .omnivorescookbook import OmnivoresCookbook
 from .onceuponachef import OnceUponAChef
 from .onehundredonecookbooks import OneHundredOneCookBooks
+from .onesweetappetite import OneSweetAppetite
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
@@ -236,6 +256,7 @@ from .realfoodtesco import RealFoodTesco
 from .realsimple import RealSimple
 from .receitasnestlebr import ReceitasNestleBR
 from .recept import Recept
+from .recipegirl import RecipeGirl
 from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
@@ -250,6 +271,7 @@ from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
 from .saveur import Saveur
+from .savorynothings import SavoryNothings
 from .seriouseats import SeriousEats
 from .simpleveganista import SimpleVeganista
 from .simplycookit import SimplyCookit
@@ -280,6 +302,8 @@ from .tastesoflizzyt import TastesOfLizzyT
 from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
+from .thecookierookie import TheCookieRookie
+from .thecookingguy import TheCookingGuy
 from .theexpertguides import TheExpertGuides
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchencommunity import TheKitchenCommunity
@@ -290,6 +314,7 @@ from .themodernproper import TheModernProper
 from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
 from .therecipecritic import Therecipecritic
+from .thesaltymarshmallow import TheSaltyMarshmallow
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
@@ -301,6 +326,7 @@ from .tofoo import Tofoo
 from .tudogostoso import TudoGostoso
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .uitpaulineskeukennl import UitPaulinesKeukenNL
+from .unsophisticook import Unsophisticook
 from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
@@ -330,6 +356,7 @@ from .zenbelly import ZenBelly
 
 SCRAPERS = {
     ACoupleCooks.host(): ACoupleCooks,
+    AFlavorJournal.host(): AFlavorJournal,
     ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
@@ -338,7 +365,10 @@ SCRAPERS = {
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
+    Aldi.host(): Aldi,
+    AlexandraCooks.host(): AlexandraCooks,
     AllRecipes.host(): AllRecipes,
+    AllTheHealthyThings.host(): AllTheHealthyThings,
     AllTomat.host(): AllTomat,
     AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
@@ -355,6 +385,7 @@ SCRAPERS = {
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
+    BarefeetInTheKitchen.host(): BarefeetInTheKitchen,
     BestRecipes.host(): BestRecipes,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
@@ -369,6 +400,7 @@ SCRAPERS = {
     Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
     BudgetBytes.host(): BudgetBytes,
+    CafeDelites.host(): CafeDelites,
     CarlsBadCravings.host(): CarlsBadCravings,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
@@ -391,33 +423,50 @@ SCRAPERS = {
     Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
     Cybercook.host(): Cybercook,
+    DamnDelicious.host(): DamnDelicious,
     DavidLebovitz.host(): DavidLebovitz,
     Delish.host(): Delish,
+    DinnerAtTheZoo.host(): DinnerAtTheZoo,
+    DinnerThenDessert.host(): DinnerThenDessert,
     Dishnz.host(): Dishnz,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
+    EvolvingTable.host(): EvolvingTable,
+    FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
+    FifteenGram.host(): FifteenGram,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     InBloomBakery.host(): InBloomBakery,
+    JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
     KitchenAidAustralia.host(): KitchenAidAustralia,
+    KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
     McCormick.host(): McCormick,
+    ModernHoney.host(): ModernHoney,
+    MomOnTimeout.host(): MomOnTimeout,
     Moulinex.host(): Moulinex,
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
+    NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
+    OneSweetAppetite.host(): OneSweetAppetite,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
+    RecipeGirl.host(): RecipeGirl,
     RicettePerBimby.host(): RicettePerBimby,
+    SavoryNothings.host(): SavoryNothings,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,
+    TheCookieRookie.host(): TheCookieRookie,
+    TheCookingGuy.host(): TheCookingGuy,
     ThePalatableLife.host(): ThePalatableLife,
+    TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     Downshiftology.host(): Downshiftology,
@@ -436,6 +485,7 @@ SCRAPERS = {
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FarmhouseOnBoone.host(): FarmhouseOnBoone,
     FattoInCasaDaBenedetta.host(): FattoInCasaDaBenedetta,
+    FelixKitchen.host(): FelixKitchen,
     FifteenSpatulas.host(): FifteenSpatulas,
     FineDiningLovers.host(): FineDiningLovers,
     FitMenCook.host(): FitMenCook,
@@ -544,8 +594,8 @@ SCRAPERS = {
     Minimalistbaker.host(): Minimalistbaker,
     MinistryOfCurry.host(): MinistryOfCurry,
     Misya.host(): Misya,
-    Mob.host(domain="mob.co.uk"): Mob,
-    Mob.host(domain="mobkitchen.co.uk"): Mob,
+    Mob.host(): Mob,
+    MobKitchen.host(): MobKitchen,
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
@@ -651,6 +701,7 @@ SCRAPERS = {
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     USAPears.host(): USAPears,
     USDAMyPlate.host(): USDAMyPlate,
+    Unsophisticook.host(): Unsophisticook,
     Valdemarsro.host(): Valdemarsro,
     VanillaAndBean.host(): VanillaAndBean,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,

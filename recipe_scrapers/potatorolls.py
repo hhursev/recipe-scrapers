@@ -3,6 +3,7 @@
 import warnings
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._grouping_utils import group_ingredients
 from ._utils import get_yields, normalize_string
 
@@ -43,14 +44,7 @@ class PotatoRolls(AbstractScraper):
         )
 
     def language(self):
-        msg = (
-            f"{self.host()} appears to write language metadata into HTML DOCTYPE "
-            "declaration instead of the top-level 'html' element or elsewhere. "
-            "Please let us know if it becomes available in a standard location, "
-            "and then we can try to retrieve it dynamically."
-        )
-        warnings.warn(msg)
-        return "en-US"
+        raise StaticValueException(return_value="en-US")
 
     def yields(self):
         serve_element = self.soup.find(

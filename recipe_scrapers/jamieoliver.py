@@ -9,7 +9,7 @@ class JamieOliver(AbstractScraper):
         return "jamieoliver.com"
 
     def image(self):
-        return self.schema.catimageegory()
+        return self.schema.image()
 
     def instructions(self):
         instructions = self.soup.find("ol", {"class": "recipeSteps"}).findAll("li")

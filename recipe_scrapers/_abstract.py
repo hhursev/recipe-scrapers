@@ -110,6 +110,10 @@ class AbstractScraper:
         """Nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
+    def keywords(self):
+        """Keywords or tags used to describe the recipe"""
+        raise NotImplementedError("This should be implemented.")
+
     def language(self):
         """Language the recipe is written in."""
         candidate_languages = OrderedDict()
@@ -187,6 +191,10 @@ class AbstractScraper:
 
     def equipment(self):
         """Equipment needed for the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def dietary_restrictions(self):
+        """The specified dietary restrictions or guidelines for which this recipe is suitable"""
         raise NotImplementedError("This should be implemented.")
 
     def links(self):

@@ -72,6 +72,31 @@ RECIPE_YIELD_TYPES = (
 )
 
 
+def format_diet_name(diet_input):
+    replacements = {
+        # https://schema.org/RestrictedDiet
+        "DiabeticDiet": "Diabetic Diet",
+        "GlutenFreeDiet": "Gluten Free Diet",
+        "HalalDiet": "Halal Diet",
+        "HinduDiet": "Hindu Diet",
+        "KosherDiet": "Kosher Diet",
+        "LowCalorieDiet": "Low Calorie Diet",
+        "LowFatDiet": "Low Fat Diet",
+        "LowLactoseDiet": "Low Lactose Diet",
+        "LowSaltDiet": "Low Salt Diet",
+        "VeganDiet": "Vegan Diet",
+        "VegetarianDiet": "Vegetarian Diet",
+    }
+    if "https://schema.org/" in diet_input:
+        diet_input = diet_input.replace("https://schema.org/", "")
+
+    for key, value in replacements.items():
+        if key in diet_input:
+            return value
+
+    return diet_input
+
+
 def _extract_fractional(input_string: str) -> float:
     input_string = input_string.strip()
 
@@ -230,6 +255,18 @@ def normalize_string(string):
         .replace("\t", " ")
         .strip(),
     )
+
+
+def csv_to_tags(csv, lowercase=False):
+    raw_tags = csv.split(",")
+    seen = set()
+    tags = []
+    for raw_tag in raw_tags:
+        tag = raw_tag.strip()
+        if tag and tag.lower() not in seen:
+            seen.add(tag.lower())
+            tags.append(tag.lower() if lowercase else tag)
+    return tags
 
 
 def url_path_to_dict(path):
