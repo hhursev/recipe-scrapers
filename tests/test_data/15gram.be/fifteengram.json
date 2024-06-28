@@ -1,9 +1,10 @@
 {
   "author": "15gram",
   "canonical_url": "https://15gram.be/recepten/mac-n-cheese-met-gehakt-en-pompoen",
+  "site_name": "15gram",
   "host": "15gram.be",
-  "description": "We nemen je mee op skivakantie! Of toch naar de après-ski maaltijd. De pompoenblokjes zijn al voorgesneden en mixen we door de saus. Daardoor kleurt die ook mooi oranje!",
-  "image": "https://image.15gram.be/uploads/recipes/5193_1706264487-1920x1280.jpg",
+  "language": "nl",
+  "title": "Mac 'n cheese met gehakt en pompoen",
   "ingredients": [
     "400 gr pompoenblokjes",
     "1 teentje knoflook",
@@ -42,10 +43,9 @@
     "Giet de pasta af en schik opnieuw in de pot. Meng met de roomsaus en het gehakt. Stort in een ovenschaal en strooi de rest van de kaas erover. Gratineer nog 5-10 min. in de oven voor een mooi kaaskorstje.",
     "TIP: Geef de saus wat extra punch met paprikapoeder, chilivlokken of bouillon."
   ],
-  "language": "nl",
-  "site_name": "15gram",
-  "title": "Mac 'n cheese met gehakt en pompoen",
+  "yields": "2 servings",
+  "description": "We nemen je mee op skivakantie! Of toch naar de après-ski maaltijd. De pompoenblokjes zijn al voorgesneden en mixen we door de saus. Daardoor kleurt die ook mooi oranje!",
   "total_time": 30,
   "cook_time": 30,
-  "yields": "2 servings"
+  "image": "https://image.15gram.be/uploads/recipes/5193_1706264487-1920x1280.jpg"
 }
