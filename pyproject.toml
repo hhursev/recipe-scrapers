@@ -31,6 +31,10 @@ dependencies = [
     "beautifulsoup4 >= 4.12.3",
     "extruct >= 0.17.0",
     "isodate >= 0.6.1",
+]
+
+[project.optional-dependencies]
+online = [
     "requests >= 2.31.0",
 ]
 
