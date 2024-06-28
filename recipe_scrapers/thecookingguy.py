@@ -1,18 +1,9 @@
 # mypy: allow-untyped-defs
-import warnings
 
 from ._abstract import AbstractScraper
-from ._exceptions import ElementNotFoundInHtml
+from ._exceptions import ElementNotFoundInHtml, FieldNotProvidedByWebsiteException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_yields, normalize_string
-
-BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers"
-_null_return_warning = (
-    "Hm. Apparently {} doesn't provide {} values? "
-    "If you know that's untrue for some recipe, "
-    "let us know at {} by creating an issue with "
-    "the bug label."
-)
 
 
 class TheCookingGuy(AbstractScraper):
@@ -27,10 +18,7 @@ class TheCookingGuy(AbstractScraper):
         return self.schema.title()
 
     def total_time(self):
-        warnings.warn(
-            _null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
-        )
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         return get_yields(self.soup.find("div", class_="text-block-7").get_text())

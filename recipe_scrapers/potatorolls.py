@@ -1,6 +1,7 @@
 # mypy: allow-untyped-defs
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._grouping_utils import group_ingredients
 from ._utils import get_yields, normalize_string
 
@@ -41,7 +42,7 @@ class PotatoRolls(AbstractScraper):
         )
 
     def language(self):
-        return "en-US"
+        raise StaticValueException(return_value="en-US")
 
     def yields(self):
         serve_element = self.soup.find(
