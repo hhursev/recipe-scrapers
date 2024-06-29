@@ -1,6 +1,7 @@
 import re
 import unittest
 from collections import defaultdict
+from importlib.metadata import metadata
 from typing import Dict, List, Optional, Tuple
 
 from recipe_scrapers import SCRAPERS, AbstractScraper
@@ -89,23 +90,27 @@ def parse_secondary_line(line: str) -> List[Tuple[str, str]]:
     return re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
 
 
+def get_package_description() -> str:
+    pkg_metadata = metadata("recipe_scrapers")
+    return pkg_metadata["Description"].splitlines()
+
+
 def get_list_lines() -> List[str]:
     list_lines: List[str] = []
-    with open("README.rst") as f:
-        started_list = False
-        for line in f:
-            stripped_line = line.strip()
-            if stripped_line == START_LIST:
-                started_list = True
-                continue
+    started_list = False
+    for line in get_package_description():
+        stripped_line = line.strip()
+        if stripped_line == START_LIST:
+            started_list = True
+            continue
 
-            if not started_list or not stripped_line:
-                continue
+        if not started_list or not stripped_line:
+            continue
 
-            if stripped_line == END_LIST:
-                break
+        if stripped_line == END_LIST:
+            break
 
-            list_lines.append(line)
+        list_lines.append(line)
     return list_lines
 
 
