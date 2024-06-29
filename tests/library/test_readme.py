@@ -2,7 +2,7 @@ import re
 import sys
 import unittest
 from collections import defaultdict
-from importlib.metadata import metadata
+from importlib.metadata import PackageNotFoundError, metadata
 from typing import Dict, List, Optional, Tuple
 
 from recipe_scrapers import SCRAPERS, AbstractScraper
@@ -128,7 +128,15 @@ class TestReadme(unittest.TestCase):
             msg = "Python 3.10+ is required for importlib.metadata to read package 'description' metadata."
             self.skipTest(msg)
 
-        lines = get_list_lines()
+        try:
+            lines = get_list_lines()
+        except PackageNotFoundError:
+            msg = (
+                "Couldn't retrieve package metadata; is recipe_scrapers installed? "
+                "(if you're developing locally, try 'pip install -e .' for an editable install)"
+            )
+            self.skipTest(msg)
+
         current_line_index = 0
 
         for primary_host in primary_domains:
