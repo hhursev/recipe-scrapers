@@ -1,6 +1,8 @@
 import re
+import sys
 import unittest
 from collections import defaultdict
+from importlib.metadata import PackageNotFoundError, metadata
 from typing import Dict, List, Optional, Tuple
 
 from recipe_scrapers import SCRAPERS, AbstractScraper
@@ -89,23 +91,27 @@ def parse_secondary_line(line: str) -> List[Tuple[str, str]]:
     return re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
 
 
+def get_package_description() -> List[str]:
+    pkg_metadata = metadata("recipe_scrapers")
+    return pkg_metadata["Description"].splitlines()
+
+
 def get_list_lines() -> List[str]:
     list_lines: List[str] = []
-    with open("README.rst") as f:
-        started_list = False
-        for line in f:
-            stripped_line = line.strip()
-            if stripped_line == START_LIST:
-                started_list = True
-                continue
+    started_list = False
+    for line in get_package_description():
+        stripped_line = line.strip()
+        if stripped_line == START_LIST:
+            started_list = True
+            continue
 
-            if not started_list or not stripped_line:
-                continue
+        if not started_list or not stripped_line:
+            continue
 
-            if stripped_line == END_LIST:
-                break
+        if stripped_line == END_LIST:
+            break
 
-            list_lines.append(line)
+        list_lines.append(line)
     return list_lines
 
 
@@ -114,7 +120,23 @@ class TestReadme(unittest.TestCase):
     def test_includes(self):
         scraper_index = get_scraper_index()
         primary_domains = sorted(scraper_index.keys())
-        lines = get_list_lines()
+
+        # TODO: Remove this skip-branch once py3.10 is our minimum baseline;
+        # package description metadata (that we rely on for this test) is only
+        # available in importlib.metadata from py3.10 onwards
+        if sys.version_info < (3, 10):
+            msg = "Python 3.10+ is required for importlib.metadata to read package 'description' metadata."
+            self.skipTest(msg)
+
+        try:
+            lines = get_list_lines()
+        except PackageNotFoundError:
+            msg = (
+                "Couldn't retrieve package metadata; is recipe_scrapers installed? "
+                "(if you're developing locally, try 'pip install -e .' for an editable install)"
+            )
+            self.skipTest(msg)
+
         current_line_index = 0
 
         for primary_host in primary_domains:
