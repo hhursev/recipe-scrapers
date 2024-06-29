@@ -1,6 +1,7 @@
 import re
 import unittest
 from collections import defaultdict
+from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 from recipe_scrapers import SCRAPERS, AbstractScraper
@@ -91,7 +92,8 @@ def parse_secondary_line(line: str) -> List[Tuple[str, str]]:
 
 def get_list_lines() -> List[str]:
     list_lines: List[str] = []
-    with open("README.rst") as f:
+    readme_dir = next(d for d in Path(__file__).parents if (d / "README.rst").exists())
+    with open(readme_dir / "README.rst") as f:
         started_list = False
         for line in f:
             stripped_line = line.strip()

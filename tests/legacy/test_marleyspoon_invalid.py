@@ -1,3 +1,4 @@
+from pathlib import Path
 import unittest
 
 import responses
@@ -11,7 +12,8 @@ class TestFaultyAPIURLResponse(unittest.TestCase):
     @responses.activate
     def test_faulty_response(self):
         url = "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat"
-        with open("tests/legacy/test_data/faulty.testhtml") as faulty_data:
+        test_data_dir = Path(__file__).parent.absolute() / "test_data"
+        with open(test_data_dir / "faulty.testhtml") as faulty_data:
             faulty_response = faulty_data.read()
 
         responses.add(
@@ -26,7 +28,8 @@ class TestFaultyAPIURLResponse(unittest.TestCase):
     @responses.activate
     def test_relative_api_url(self):
         url = "https://marleyspoon.de/menu/113813-glasierte-veggie-burger-mit-roestkartoffeln-und-apfel-gurken-salat"
-        with open("tests/legacy/test_data/relative_url.testhtml") as relative_url_data:
+        test_data_dir = Path(__file__).parent.absolute() / "test_data"
+        with open(test_data_dir / "relative_url.testhtml") as relative_url_data:
             relative_url_response = relative_url_data.read()
 
         responses.add(
