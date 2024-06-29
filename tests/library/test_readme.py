@@ -90,7 +90,7 @@ def parse_secondary_line(line: str) -> List[Tuple[str, str]]:
     return re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
 
 
-def get_package_description() -> str:
+def get_package_description() -> List[str]:
     pkg_metadata = metadata("recipe_scrapers")
     return pkg_metadata["Description"].splitlines()
 
