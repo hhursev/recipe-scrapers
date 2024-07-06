@@ -17,6 +17,7 @@ from .afghankitchenrecipes import AfghanKitchenRecipes
 from .aflavorjournal import AFlavorJournal
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
+from .aldi import Aldi
 from .alexandracooks import AlexandraCooks
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
@@ -367,6 +368,7 @@ SCRAPERS = {
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
+    Aldi.host(): Aldi,
     AlexandraCooks.host(): AlexandraCooks,
     AllRecipes.host(): AllRecipes,
     AllTheHealthyThings.host(): AllTheHealthyThings,

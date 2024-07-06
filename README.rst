@@ -100,6 +100,7 @@ Scrapers available for:
 - `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
+- `https://aldi.com.au/ <https://aldi.com.au/>`_
 - `https://alexandracooks.com/ <https://alexandracooks.com/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
@@ -119,7 +120,7 @@ Scrapers available for:
 - `https://barefeetinthekitchen.com/ <https://barefeetinthekitchen.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
-    - `.co.uk <https://bbc.co.uk/food/recipes>`_
+    - `.co.uk <https://bbc.co.uk/food/recipes>`__
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
@@ -173,7 +174,7 @@ Scrapers available for:
 - `https://www.eatingwell.com/ <https://www.eatingwell.com>`_
 - `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
-    - `.de <https://eatsmarter.de/>`_
+    - `.de <https://eatsmarter.de/>`__
 - `https://eattolerant.de/ <https://eattolerant.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
@@ -197,7 +198,7 @@ Scrapers available for:
 - `https://foodandwine.com/ <https://www.foodandwine.com>`_
 - `https://foodfidelity.com/ <https://foodfidelity.com>`_
 - `https://foodnetwork.co.uk/ <https://www.foodnetwork.co.uk>`_
-    - `.com <https://www.foodnetwork.com>`_
+    - `.com <https://www.foodnetwork.com>`__
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
@@ -222,7 +223,7 @@ Scrapers available for:
 - `https://heatherchristo.com/ <https://heatherchristo.com/>`_
 - `https://www.heb.com/ <https://www.heb.com/recipe/landing>`_
 - `https://hellofresh.com/ <https://hellofresh.com>`_
-    - `.at <https://www.hellofresh.at/>`_ `.be <https://www.hellofresh.be/>`_, `.ca <https://www.hellofresh.ca/>`_, `.ch <https://www.hellofresh.ch/>`_, `.co.nz <https://www.hellofresh.co.nz/>`_, `.co.uk <https://hellofresh.co.uk>`_, `.com.au <https://www.hellofresh.com.au/>`_, `.de <https://www.hellofresh.de/>`_, `.dk <https://www.hellofresh.dk/>`_, `.es <https://www.hellofresh.es/>`_, `.fr <https://www.hellofresh.fr/>`_, `.ie <https://www.hellofresh.ie/>`_, `.it <https://www.hellofresh.it/>`_, `.lu <https://www.hellofresh.lu/>`_, `.nl <https://www.hellofresh.nl/>`_, `.no <https://www.hellofresh.no/>`_, `.se <https://www.hellofresh.se/>`_
+    - `.at <https://www.hellofresh.at/>`__, `.be <https://www.hellofresh.be/>`__, `.ca <https://www.hellofresh.ca/>`__, `.ch <https://www.hellofresh.ch/>`__, `.co.nz <https://www.hellofresh.co.nz/>`__, `.co.uk <https://hellofresh.co.uk>`__, `.com.au <https://www.hellofresh.com.au/>`__, `.de <https://www.hellofresh.de/>`__, `.dk <https://www.hellofresh.dk/>`__, `.es <https://www.hellofresh.es/>`__, `.fr <https://www.hellofresh.fr/>`__, `.ie <https://www.hellofresh.ie/>`__, `.it <https://www.hellofresh.it/>`__, `.lu <https://www.hellofresh.lu/>`__, `.nl <https://www.hellofresh.nl/>`__, `.no <https://www.hellofresh.no/>`__, `.se <https://www.hellofresh.se/>`__
 - `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
@@ -274,7 +275,7 @@ Scrapers available for:
 - `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
 - `https://marleyspoon.com/ <https://marleyspoon.com/>`_
-    - `.at <https://marleyspoon.at/>`_, `.be <https://marleyspoon.be/>`_, `.com.au <https://marleyspoon.com.au/>`_, `.de <https://marleyspoon.de/>`_, `.nl <https://marleyspoon.nl/>`_, `.se <https://marleyspoon.se/>`_
+    - `.at <https://marleyspoon.at/>`__, `.be <https://marleyspoon.be/>`__, `.com.au <https://marleyspoon.com.au/>`__, `.de <https://marleyspoon.de/>`__, `.nl <https://marleyspoon.nl/>`__, `.se <https://marleyspoon.se/>`__
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
@@ -432,7 +433,7 @@ Scrapers available for:
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
 - `https://whole30.com/ <https://whole30.com/>`_
 - `https://www.wholefoodsmarket.com/ <https://www.wholefoodsmarket.com/>`_
-    - `.co.uk <https://www.wholefoodsmarket.co.uk/>`_
+    - `.co.uk <https://www.wholefoodsmarket.co.uk/>`__
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
 - `https://womensweeklyfood.com.au/ <https://womensweeklyfood.com.au/>`_
 - `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_

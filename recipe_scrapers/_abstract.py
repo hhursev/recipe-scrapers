@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
 
+from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import IngredientGroup
 from ._schemaorg import SchemaOrg
 
@@ -117,7 +118,8 @@ class AbstractScraper:
         """Language the recipe is written in."""
         candidate_languages = OrderedDict()
         html = self.soup.find("html", {"lang": True})
-        candidate_languages[html.get("lang")] = True
+        if html:
+            candidate_languages[html.get("lang")] = True
 
         # Deprecated: check for a meta http-equiv header
         # See: https://www.w3.org/International/questions/qa-http-and-lang
@@ -138,7 +140,10 @@ class AbstractScraper:
             candidate_languages.pop("en", None)
 
         # Return the first candidate language
-        return candidate_languages.popitem(last=False)[0]
+        if candidate_languages:
+            return candidate_languages.popitem(last=False)[0]
+        else:
+            raise ElementNotFoundInHtml("Could not find language.")
 
     def ingredients(self):
         """Ingredients of the recipe."""
