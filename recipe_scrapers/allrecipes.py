@@ -24,9 +24,15 @@ class AllRecipesCurated(AbstractScraper):
             span = item.find("span", {"data-ingredient-" + key: True})
             return normalize_string(span.text) if span else ""
 
+        def match_ingredient_class(tag):
+            return tag.has_attr("class") and any(
+                cls.endswith("structured-ingredients__list-item")
+                for cls in tag["class"]
+            )
+
         ingredients_list = []
         keys = ["quantity", "unit", "name"]
-        for item in self.soup.select(".mntl-structured-ingredients__list-item"):
+        for item in self.soup.find_all(match_ingredient_class):
             ingredient_parts = [get_ingredient_text(item, key) for key in keys]
             ingredients_list.append(" ".join(filter(None, ingredient_parts)))
 
