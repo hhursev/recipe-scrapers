@@ -3,6 +3,7 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class Chefnini(AbstractScraper):
@@ -20,7 +21,7 @@ class Chefnini(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         recipe_yields_text = self.soup.find(

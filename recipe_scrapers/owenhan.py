@@ -1,5 +1,6 @@
 # mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class OwenHan(AbstractScraper):
@@ -12,6 +13,9 @@ class OwenHan(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).text
+
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def ingredients(self):
         return [x for x in map(lambda x: x.text, self.soup.select("ul > li"))]

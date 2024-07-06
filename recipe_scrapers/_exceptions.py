@@ -42,3 +42,18 @@ class SchemaOrgException(RecipeScrapersExceptions):
 
     def __init__(self, message):
         super().__init__(message)
+
+
+class StaticValueException(RecipeScrapersExceptions):
+    """Error to communicate that the scraper is returning a fixed/static value."""
+
+    def __init__(self, *, return_value):
+        self.return_value = return_value
+        message = f"Suggested return value {return_value} is not from recipe source."
+        super().__init__(message)
+
+
+class FieldNotProvidedByWebsiteException(StaticValueException):
+    """Error when, as far as we know, the website does not provide this info for any recipes."""
+
+    ...
