@@ -38,11 +38,7 @@ class DonnaHay(AbstractScraper):
         return "Donna Hay"
 
     def title(self):
-        return (
-            self.soup.find("h1", class_="text-center recipe-title__mobile")
-            .getText()
-            .upper()
-        )
+        return self.soup.find("h1", class_="recipe-title__mobile").text
 
     def yields(self):
         div = self.soup.find("div", class_="col-sm-6 method")
