@@ -264,6 +264,7 @@ Scrapers available for:
 - `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
+- `https://leitesculinaria.com <https://leitesculinaria.com>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
 - `https://leukerecepten.nl/ <https://www.leukerecepten.nl>`_
 - `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_

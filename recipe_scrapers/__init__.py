@@ -180,6 +180,7 @@ from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
+from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
 from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
@@ -450,6 +451,7 @@ SCRAPERS = {
     KitchenDreaming.host(): KitchenDreaming,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
+    LeitesCulinaria.host(): LeitesCulinaria,
     McCormick.host(): McCormick,
     ModernHoney.host(): ModernHoney,
     MomOnTimeout.host(): MomOnTimeout,
