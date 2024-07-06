@@ -49,5 +49,6 @@ class TestJsonOrder(unittest.TestCase):
                     try:
                         self.assertEqual(expected_keys, actual_keys)
                     except AssertionError as e:
-                        e.args = (f"File: {os.path.join(root, filename)}\n" + str(e),)
-                        raise
+                        raise AssertionError(
+                            f"File: {os.path.join(root, filename)}\n" + str(e)
+                        ) from e
