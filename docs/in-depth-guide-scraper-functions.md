@@ -315,7 +315,7 @@ Returns a `list` of reviews about the recipe from the website. Each review is a 
 
 ### `equipment() -> List[str] | None`
 
-Returns a list of cooking equipment needed for the provided recipe.
+Returns a list of cooking equipment needed for the recipe.
 
 ```py
 >>> scraper.equipment()
