@@ -49,6 +49,12 @@ class TestJsonOrder(unittest.TestCase):
                     try:
                         self.assertEqual(expected_keys, actual_keys)
                     except AssertionError as e:
+                        recommend_reorder_helper = (
+                            "\n\nTo automatically reorder the keys, run the following command:\n"
+                            "python recipe_scrapers/plugins/reorder_json_keys.py\n"
+                        )
                         raise AssertionError(
-                            f"File: {os.path.join(root, filename)}\n" + str(e)
+                            f"File: {os.path.join(root, filename)}\n"
+                            f"{str(e)}"
+                            f"{recommend_reorder_helper}"
                         ) from e
