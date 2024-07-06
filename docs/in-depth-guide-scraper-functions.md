@@ -197,7 +197,7 @@ https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1
 
 ### `links() -> List[Dict[str, str]]`
 
-Returns a `list` of all links found in the page HTML, defined in an `<a>` element. For each link, the attributes of the HTML element are returned as a `dict`.
+Returns a `list` of all links found in the `<a>` elements in the page HTML. For each link, the attributes of the HTML element are returned as a `dict`.
 
 ```py
 >>> scraper.links()
