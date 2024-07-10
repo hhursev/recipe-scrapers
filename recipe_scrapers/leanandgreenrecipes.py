@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper

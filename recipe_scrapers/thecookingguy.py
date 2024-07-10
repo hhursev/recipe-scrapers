@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml, FieldNotProvidedByWebsiteException
 from ._grouping_utils import IngredientGroup

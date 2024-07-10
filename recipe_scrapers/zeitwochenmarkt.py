@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import extruct
 
 from ._abstract import AbstractScraper

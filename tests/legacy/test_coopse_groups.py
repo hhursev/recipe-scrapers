@@ -1,4 +1,3 @@
-# mypy: allow-untyped-defs
 import responses
 
 from recipe_scrapers._grouping_utils import IngredientGroup
