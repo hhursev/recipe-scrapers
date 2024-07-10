@@ -182,6 +182,7 @@ from .lekkerensimpel import LekkerEnSimpel
 from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littlespicejar import LittleSpiceJar
+from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
@@ -446,6 +447,7 @@ SCRAPERS = {
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
+    LittleSunnyKitchen.host(): LittleSunnyKitchen,
     McCormick.host(): McCormick,
     ModernHoney.host(): ModernHoney,
     MomOnTimeout.host(): MomOnTimeout,
