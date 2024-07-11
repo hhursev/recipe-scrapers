@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from .creativecanning import CreativeCanning
 
 

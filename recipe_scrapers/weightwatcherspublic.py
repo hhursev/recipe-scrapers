@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._utils import normalize_string
 from .weightwatchers import WeightWatchers
 

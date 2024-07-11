@@ -1,4 +1,3 @@
-# mypy: allow-untyped-defs
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
