@@ -301,7 +301,7 @@ class SchemaOrg:
                 ratings = self.ratingsdata.get(rating_id, ratings)
             ratings = ratings.get("ratingCount") or ratings.get("reviewCount")
         if ratings:
-            return round(float(ratings), 2) if float(ratings) != 0 else None
+            return int(float(ratings)) if float(ratings) != 0 else None
         raise SchemaOrgException("No ratingCount in SchemaOrg.")
 
     def cuisine(self):
