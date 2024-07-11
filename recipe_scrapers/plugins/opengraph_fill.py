@@ -10,37 +10,17 @@ logging.basicConfig()
 logger = logging.getLogger(__name__)
 
 
-class SchemaOrgFillPlugin(PluginInterface):
+class OpenGraphFillPlugin(PluginInterface):
     """
     If any of the methods listed is invoked on a scraper class
-    that happens not to be implement and Schema.org is available
-    attempt to return the results from the schema available.
+    that happens not to be implemented, attempt to return results
+    by checking for OpenGraph metadata.
     """
 
     run_on_hosts = ("*",)
     run_on_methods = (
-        "author",
         "site_name",
-        "title",
-        "category",
-        "total_time",
-        "yields",
         "image",
-        "ingredients",
-        "instructions",
-        "ratings",
-        "reviews",
-        "links",
-        "language",
-        "nutrients",
-        "cooking_method",
-        "cuisine",
-        "description",
-        "cook_time",
-        "prep_time",
-        "keywords",
-        "ratings_count",
-        "dietary_restrictions",
     )
 
     @classmethod
@@ -51,15 +31,16 @@ class SchemaOrgFillPlugin(PluginInterface):
             class_name = self.__class__.__name__
             method_name = decorated.__name__
             logger.debug(
-                f"Decorating: {class_name}.{method_name}() with SchemaOrgFillPlugin"
+                f"Decorating: {class_name}.{method_name}() with OpenGraphFillPlugin"
             )
+
             try:
                 return decorated(self, *args, **kwargs)
             except (FillPluginException, NotImplementedError) as e:
-                function = getattr(self.schema, decorated.__name__)
-                if self.schema.data and function:
+                function = getattr(self.opengraph, decorated.__name__)
+                if self.opengraph.soup and function:
                     logger.info(
-                        f"{class_name}.{method_name}() seems to not be implemented but .schema is available! Attempting to return result from SchemaOrg."
+                        f"{class_name}.{method_name}() seems not to be implemented but OpenGraph metadata may be available. Attempting to return result from OpenGraph."
                     )
                     return function(*args, **kwargs)
                 else:

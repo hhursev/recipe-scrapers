@@ -1,11 +1,15 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._exceptions import StaticValueException
 
 
 class CookTalk(AbstractScraper):
     @classmethod
     def host(cls):
         return "cook-talk.com"
+
+    def site_name(cls):
+        raise StaticValueException(return_value="Cook-Talk")
 
     def author(self):
         author_element = self.soup.find("div", {"class": "article-content"}).find(

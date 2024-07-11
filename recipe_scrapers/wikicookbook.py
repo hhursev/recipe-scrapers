@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -6,6 +7,9 @@ class WikiCookbook(AbstractScraper):
     @classmethod
     def host(cls):
         return "en.wikibooks.org"
+
+    def site_name(cls):
+        raise StaticValueException(return_value="Wikibooks")
 
     def title(self):
         return self.soup.find("h1").get_text().replace("Cookbook:", "")

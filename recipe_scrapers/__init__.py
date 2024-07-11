@@ -138,7 +138,7 @@ from .headbangerskitchen import HeadbangersKitchen
 from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
-from .herseyland import HerseyLand
+from .hersheyland import HersheyLand
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
 from .ica import Ica
@@ -267,7 +267,7 @@ from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
-from .saboresanjinomoto import SaboresAnjinomoto
+from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
@@ -538,7 +538,7 @@ SCRAPERS = {
     HelloFresh.host(domain="nl"): HelloFresh,
     HelloFresh.host(domain="no"): HelloFresh,
     HelloFresh.host(domain="se"): HelloFresh,
-    HerseyLand.host(): HerseyLand,
+    HersheyLand.host(): HersheyLand,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
     Ica.host(): Ica,
@@ -652,7 +652,7 @@ SCRAPERS = {
     Ricetta.host(): Ricetta,
     RosannaPansino.host(): RosannaPansino,
     RutgerBakt.host(): RutgerBakt,
-    SaboresAnjinomoto.host(): SaboresAnjinomoto,
+    SaboresAjinomoto.host(): SaboresAjinomoto,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
     SaltPepperSkillet.host(): SaltPepperSkillet,

@@ -7,6 +7,9 @@ class ArchanasKitchen(AbstractScraper):
     def host(cls):
         return "archanaskitchen.com"
 
+    def site_name(self):
+        return self.opengraph.site_name()
+
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

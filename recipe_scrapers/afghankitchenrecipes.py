@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_yields
 
 
@@ -6,6 +7,9 @@ class AfghanKitchenRecipes(AbstractScraper):
     @classmethod
     def host(cls):
         return "afghankitchenrecipes.com"
+
+    def site_name(cls):
+        raise StaticValueException(return_value="Afghan Kitchen Recipes")
 
     def author(self):
         given_name = self.soup.find("h5", {"class": "given-name"})

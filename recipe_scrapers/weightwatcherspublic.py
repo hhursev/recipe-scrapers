@@ -8,6 +8,14 @@ class WeightWatchersPublic(WeightWatchers):
     def host(cls):
         return "weightwatchers.com"
 
+    def site_name(self):
+        title = self.soup.find("title")
+        if not title:
+            raise StaticValueException(return_value="WeightWatchers")
+        _recipe, _delimiter, site_name = title.text.rpartition("|")
+        return site_name.lstrip()
+
+
     def _find_data_container(self):
         return self.soup.find("div", {"class": "HorizontalList_list__GESs0"})
 
