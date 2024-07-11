@@ -115,7 +115,6 @@ class SchemaOrg:
 
         return normalize_string(self.website_name)
 
-
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")
 
