@@ -36,13 +36,7 @@ class SchemaOrg:
             if self._contains_schematype(graph_item, schematype):
                 return graph_item
 
-    def __init__(self, page_data, raw=False):
-        if raw:
-            self.format = "raw"
-            self.data = page_data
-            self.people = {}
-            self.ratingsdata = {}
-            return
+    def __init__(self, page_data):
         self.format = None
         self.data = {}
         self.people = {}
