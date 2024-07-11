@@ -382,7 +382,6 @@ SCRAPERS = {
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     Bakels.host(): Bakels,
-    Bakels.host(domain="co.uk"): Bakels,
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,

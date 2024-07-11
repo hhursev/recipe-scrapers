@@ -6,11 +6,11 @@ from ._grouping_utils import group_ingredients
 
 class Bakels(AbstractScraper):
     @classmethod
-    def host(cls, domain="com.au"):
-        return f"bakels.{domain}"
+    def host(cls):
+        return "bakels.com.au"
 
     def author(self):
-        return self.site_name()
+        return "Australian Bakels"
 
     def title(self):
         return self.soup.find("h1").get_text()
@@ -56,7 +56,7 @@ class Bakels(AbstractScraper):
         if not tag:
             return None
 
-        instructions = div.get_text(separator="\n", strip=True)
+        instructions = tag.get_text(separator="\n", strip=True)
         instructions = "\n".join(
             step.split(". ", 1)[-1] for step in instructions.split("\n")
         )  # Removes the instruction number from each step
