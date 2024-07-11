@@ -13,7 +13,7 @@ class BettyBossi(AbstractScraper):
         return "bettybossi.ch"
 
     def site_name(self):
-        """ Self-titled website """
+        """Self-titled website"""
         return self.author()
 
     def __init__(

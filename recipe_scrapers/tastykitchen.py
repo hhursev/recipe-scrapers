@@ -12,7 +12,9 @@ class TastyKitchen(AbstractScraper):
         return self.soup.find("h1", {"itemprop": "name"}).get_text()
 
     def site_name(self):
-        current_selection = next(iter(self.soup.select("div.tpw-network a.selected")), None)
+        current_selection = next(
+            iter(self.soup.select("div.tpw-network a.selected")), None
+        )
         if not current_selection:
             raise StaticValueException(return_value="Tasty Kitchen")
         return current_selection.text

@@ -7,5 +7,5 @@ class CookPad(AbstractScraper):
     def host(cls):
         return "cookpad.com"
 
-    def site_name(cls):
+    def site_name(self):
         raise StaticValueException(return_value="Cookpad")

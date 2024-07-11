@@ -8,7 +8,7 @@ class AfghanKitchenRecipes(AbstractScraper):
     def host(cls):
         return "afghankitchenrecipes.com"
 
-    def site_name(cls):
+    def site_name(self):
         raise StaticValueException(return_value="Afghan Kitchen Recipes")
 
     def author(self):

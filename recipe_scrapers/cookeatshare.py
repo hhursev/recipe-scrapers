@@ -7,7 +7,7 @@ class CookEatShare(AbstractScraper):
     def host(cls):
         return "cookeatshare.com"
 
-    def site_name(cls):
+    def site_name(self):
         raise StaticValueException(return_value="CookEatShare Cookbook")
 
     def total_time(self):

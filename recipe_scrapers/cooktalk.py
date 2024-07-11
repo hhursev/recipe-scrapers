@@ -8,7 +8,7 @@ class CookTalk(AbstractScraper):
     def host(cls):
         return "cook-talk.com"
 
-    def site_name(cls):
+    def site_name(self):
         raise StaticValueException(return_value="Cook-Talk")
 
     def author(self):

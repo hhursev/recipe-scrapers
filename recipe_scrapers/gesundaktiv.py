@@ -8,7 +8,7 @@ class GesundAktiv(AbstractScraper):
     def host(cls):
         return "gesund-aktiv.com"
 
-    def site_name(cls):
+    def site_name(self):
         raise StaticValueException(return_value="gesund + aktiv")
 
     def title(self):

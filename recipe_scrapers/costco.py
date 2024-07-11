@@ -11,7 +11,7 @@ class Costco(AbstractScraper):
     def author(self):
         return "Costco Connection"
 
-    def site_name(cls):
+    def site_name(self):
         raise StaticValueException(return_value="Costco")
 
     def title(self):

@@ -16,7 +16,9 @@ class NIHHealthyEating(AbstractScraper):
         return normalize_string(self.soup.h1.get_text())
 
     def site_name(self):
-        raise StaticValueException(return_value="National Heart, Lung and Blood Institute")
+        raise StaticValueException(
+            return_value="National Heart, Lung and Blood Institute"
+        )
 
     def total_time(self):
         # This content must be present for all recipes on this website.
