@@ -2,6 +2,7 @@ from recipe_scrapers.plugins import (
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
+    OpenGraphImageFetchPlugin,
     OpenGraphFillPlugin,
     SchemaOrgFillPlugin,
     StaticValueExceptionHandlingPlugin,
@@ -15,6 +16,7 @@ PLUGINS = (
     StaticValueExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
+    OpenGraphImageFetchPlugin,
     OpenGraphFillPlugin,
     SchemaOrgFillPlugin,
 )
