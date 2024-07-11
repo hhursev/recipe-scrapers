@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 import requests

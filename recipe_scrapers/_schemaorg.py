@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 # IF things in this file continue get messy (I'd say 300+ lines) it may be time to
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 from __future__ import annotations

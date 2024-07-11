@@ -1,5 +1,3 @@
-# mypy: disallow_untyped_defs=False
-
 from recipe_scrapers._exceptions import SchemaOrgException
 
 from ._abstract import AbstractScraper
