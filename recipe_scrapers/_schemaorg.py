@@ -85,6 +85,7 @@ class SchemaOrg:
                 syntax_data.insert(0, syntax_data.pop(index))
             except ValueError:
                 pass
+
             for item in syntax_data:
                 if SCHEMA_ORG_HOST not in item.get("@context", ""):
                     continue
