@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 from ._exceptions import StaticValueException
+from ._grouping_utils import group_ingredients
 
 
 class CookTalk(AbstractScraper):
