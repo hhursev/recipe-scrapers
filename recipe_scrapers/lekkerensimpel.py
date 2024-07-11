@@ -70,4 +70,4 @@ class LekkerEnSimpel(AbstractScraper):
             return description["content"] if description else None
 
     def language(self):
-        return super().language()
+        return "nl-NL"
