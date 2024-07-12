@@ -8,14 +8,14 @@ class OpenGraph:
     def site_name(self):
         meta = self.soup.find("meta", {"property": "og:site_name"})
         meta = meta or self.soup.find("meta", {"name": "og:site_name"})
-        if meta:
-            return meta.get("content")
+        if not meta:
+            raise OpenGraphException("Site name not found in OpenGraph metadata.")
 
-        raise OpenGraphException("Site name not found in OpenGraph metadata.")
+        return meta.get("content")
 
     def image(self):
         image = self.soup.find("meta", {"property": "og:image", "content": True})
-        if image:
-            return image.get("content")
+        if not image:
+            raise OpenGraphException("Image not found in OpenGraph metadata.")
 
-        raise OpenGraphException("Image not found in OpenGraph metadata.")
+        return image.get("content")
