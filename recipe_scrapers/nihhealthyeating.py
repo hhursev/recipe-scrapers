@@ -1,7 +1,7 @@
 from typing import List
 
 from ._abstract import AbstractScraper
-from ._exceptions import ElementNotFoundInHtml
+from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -14,6 +14,11 @@ class NIHHealthyEating(AbstractScraper):
     def title(self):
         # This content must be present for all recipes on this website.
         return normalize_string(self.soup.h1.get_text())
+
+    def site_name(self):
+        raise StaticValueException(
+            return_value="National Heart, Lung and Blood Institute"
+        )
 
     def total_time(self):
         # This content must be present for all recipes on this website.

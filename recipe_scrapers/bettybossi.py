@@ -12,6 +12,10 @@ class BettyBossi(AbstractScraper):
     def host(cls):
         return "bettybossi.ch"
 
+    def site_name(self):
+        """Self-titled website"""
+        return self.author()
+
     def __init__(
         self,
         url: str,

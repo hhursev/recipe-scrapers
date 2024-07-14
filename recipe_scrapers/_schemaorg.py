@@ -36,17 +36,12 @@ class SchemaOrg:
             if self._contains_schematype(graph_item, schematype):
                 return graph_item
 
-    def __init__(self, page_data, raw=False):
-        if raw:
-            self.format = "raw"
-            self.data = page_data
-            self.people = {}
-            self.ratingsdata = {}
-            return
+    def __init__(self, page_data):
         self.format = None
         self.data = {}
         self.people = {}
         self.ratingsdata = {}
+        self.website_name = None
 
         data = extruct.extract(
             page_data,
@@ -54,6 +49,14 @@ class SchemaOrg:
             errors="log" if settings.LOG_LEVEL <= 10 else "ignore",
             uniform=True,
         )
+
+        # Extract website data
+        for syntax in SYNTAXES:
+            syntax_data = data.get(syntax, [])
+            for item in syntax_data:
+                website = self._find_entity(item, "WebSite")
+                if website:
+                    self.website_name = website.get("name")
 
         # Extract person references
         for syntax in SYNTAXES:
@@ -100,6 +103,12 @@ class SchemaOrg:
                         self.format = syntax
                         self.data = main_entity
                         return
+
+    def site_name(self):
+        if not self.website_name:
+            raise SchemaOrgException("Site name not found in SchemaOrg")
+
+        return normalize_string(self.website_name)
 
     def language(self):
         return self.data.get("inLanguage") or self.data.get("language")

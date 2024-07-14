@@ -1,12 +1,16 @@
 from recipe_scrapers._grouping_utils import group_ingredients
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class Matprat(AbstractScraper):
     @classmethod
     def host(cls):
         return "matprat.no"
+
+    def site_name(self):
+        raise StaticValueException(return_value="MatPrat")
 
     def ingredient_groups(self):
         return group_ingredients(

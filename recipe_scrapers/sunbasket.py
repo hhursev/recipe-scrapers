@@ -7,6 +7,9 @@ class SunBasket(AbstractScraper):
     def host(cls, domain="com"):
         return f"sunbasket.{domain}"
 
+    def site_name(self):
+        return self.author()
+
     def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"class": "instructions-container"}

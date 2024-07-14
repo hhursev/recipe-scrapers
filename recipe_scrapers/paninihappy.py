@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -6,6 +7,9 @@ class PaniniHappy(AbstractScraper):
     @classmethod
     def host(cls):
         return "paninihappy.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Panini Happy®")
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
