@@ -68,21 +68,7 @@ class TestQuiToqueScraper(ScraperTest):
 
     def test_instructions(self):
         self.assertEqual(
-            """Préchauffez votre four à 200°C en chaleur tournante !
-Pendant ce temps, dans une sauteuse, faites chauffer un filet d'huile d'olive à feu moyen à vif.
-Faites cuire les saucisses 7 min environ. Retournez-les régulièrement.
-Au bout des 7 min de cuisson, ajoutez un fond d'eau et le piment Chipotle. Poursuivez la cuisson 7 min. Salez, poivrez.
-Pendant ce temps, préparez l'oignon confit.Émincez l'oignon.
-Dans une petite casserole, faites chauffer un filet d'huile d'olive à feu moyen à vif.
-Faites revenir l'oignon et le sucre 12 min environ jusqu'à ce que l'oignon soit confit. Remuez régulièrement.
-En parallèle, préparez la sauce.Dans un bol, déposez les ingrédients suivants :
-Pressez ou hachez l'ail.
-Effeuillez et ciselez le persil.
-Ajoutez le fromage blanc. Salez, poivrez et mélangez bien.
-Goûtez et rectifiez l'assaisonnement si nécessaire.Ouvrez les pains à hot-dog en deux et passez-les au four 5 min pour les dorer.
-Déposez une saucisse et un peu d'oignon confit dans chaque pain à hot-dog. Nappez le tout de sauce fraîche au persil.
-Parsemez-les d'oignons frits.
-Assaisonnez les pousses d'épinards d'un filet d'huile d'olive et de vinaigre.Dégustez sans attendre votre hot-dog de saucisse au piment Chipotle et sauce fraîche au persil accompagné de la salade !""",
+            "Préchauffez votre four à 200°C en chaleur tournante !\nPendant ce temps, dans une sauteuse, faites chauffer un filet d'huile d'olive à feu moyen à vif.\nFaites cuire les saucisses 7 min environ. Retournez-les régulièrement.\nAu bout des 7 min de cuisson, ajoutez un fond d'eau et le piment Chipotle. Poursuivez la cuisson 7 min. Salez, poivrez.\nPendant ce temps, préparez l'oignon confit.Émincez l'oignon.\nDans une petite casserole, faites chauffer un filet d'huile d'olive à feu moyen à vif.\nFaites revenir l'oignon et le sucre 12 min environ jusqu'à ce que l'oignon soit confit. Remuez régulièrement. \nEn parallèle, préparez la sauce.Dans un bol, déposez les ingrédients suivants : \nPressez ou hachez l'ail.\nEffeuillez et ciselez le persil.\nAjoutez le fromage blanc. Salez, poivrez et mélangez bien.\nGoûtez et rectifiez l'assaisonnement si nécessaire.Ouvrez les pains à hot-dog en deux et passez-les au four 5 min pour les dorer. \nDéposez une saucisse et un peu d'oignon confit dans chaque pain à hot-dog. Nappez le tout de sauce fraîche au persil. \nParsemez-les d'oignons frits.\nAssaisonnez les pousses d'épinards d'un filet d'huile d'olive et de vinaigre.Dégustez sans attendre votre hot-dog de saucisse au piment Chipotle et sauce fraîche au persil accompagné de la salade !",
             self.harvester_class.instructions(),
         )
 

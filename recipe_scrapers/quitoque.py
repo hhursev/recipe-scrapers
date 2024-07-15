@@ -10,10 +10,61 @@ class QuiToque(AbstractScraper):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
         recipe_id = url.split("/")[4]
         data_url = "https://mgs.quitoque.fr/graphql"
+        data_query = """
+query getRecipe($id: ID!) {
+    recipe(id: $id) {
+        name
+        shortDescription
+        image
+        nutritionalInformations {
+            kiloCalorie
+            fat
+            saturatedFat
+            carbohydrate
+            sugarCarbohydrate
+            fiber
+            protein
+            salt
+        }
+        facets {
+            name
+        }
+        pools {
+            nbPerson
+            cookingModes {
+                cookingTime
+                steps{
+                    description
+                }
+                stacks{
+                    tools{
+                        name
+                    }
+                    cupboardIngredients{
+                        quantity
+                        literalQuantity
+                        product{
+                            name
+                        }
+                    }
+                    ingredients{
+                        literalQuantity
+                        quantity
+                        product{
+                            name
+                        }
+                    }
+                }
+                waitingTime
+            }
+        }
+    }
+}
+        """
         data_body = {
             "operationName": "getRecipe",
             "variables": {"id": recipe_id},
-            "query": "query getRecipe($id:ID!){\nrecipe(id:$id){\nname\nshortDescription\nfacets{\nname\n}\nimage\nnutritionalInformations{\nkiloCalorie\nfat\nsaturatedFat\ncarbohydrate\nsugarCarbohydrate\nfiber\nprotein\nsalt\n}\nfacets{\nname\n}\npools{\nnbPerson\ncookingModes{\ncookingTime\nsteps{\ndescription\n}\nstacks{\ntools{\nname\n}\ncupboardIngredients{\nquantity\nliteralQuantity\nproduct{\nname\n}\n}\ningredients{\nliteralQuantity\nquantity\nproduct{\nname\n}\n}\n}\nwaitingTime\n}\n}\n}\n}",
+            "query": data_query,
         }
         self.data = requests.post(
             data_url,
