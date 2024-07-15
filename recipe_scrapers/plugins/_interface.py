@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from abc import ABC, abstractmethod
 from typing import Iterable
 
