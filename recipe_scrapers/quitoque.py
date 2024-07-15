@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import requests
 
 from ._abstract import AbstractScraper
