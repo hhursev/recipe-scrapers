@@ -23,7 +23,7 @@ class TestQuiToqueScraper(ScraperTest):
 
     def test_category(self):
         self.assertEqual(
-            "Porc, Pimenté, Viande, Express, Découverte, Familial, Gourmand, Express, Américain, Printemps, Été, Automne, Hiver, Recettes à base de pains : tartines, croques monsieurs, bruschetta, Pimenté, Américain / anglo-saxons, Je mange de tout",
+            "Américain, Américain / anglo-saxons, Automne, Découverte, Express, Familial, Gourmand, Hiver, Je mange de tout, Pimenté, Porc, Printemps, Recettes à base de pains : tartines, croques monsieurs, bruschetta, Viande, Été",
             self.harvester_class.category(),
         )
 

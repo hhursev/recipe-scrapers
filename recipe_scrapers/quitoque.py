@@ -79,10 +79,10 @@ query getRecipe($id: ID!) {
         return self.data["recipe"]["name"]
 
     def category(self):
-        categories = ""
+        categories = set()
         for category in self.data["recipe"]["facets"]:
-            categories += f'{category["name"]}, '
-        return categories[:-2]
+            categories.add(category["name"])
+        return ", ".join(sorted(categories))
 
     def total_time(self):
         return self.data["recipe"]["pools"][0]["cookingModes"][0]["waitingTime"]
