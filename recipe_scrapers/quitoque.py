@@ -9,9 +9,15 @@ class QuiToque(AbstractScraper):
     def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
         super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
         recipe_id = url.split("/")[4]
-        data_url = f'https://mgs.quitoque.fr/graphql?operationName=getRecipe&variables={{"id":"{recipe_id}"}}&extensions={{"persistedQuery":{{"version":1,"sha256Hash":"04af4d1a48fd536a67292733e23a2afcf6d0da9770ab07055c59b754eec9bd6d"}}}}'
-        self.data = requests.get(
+        data_url = "https://mgs.quitoque.fr/graphql"
+        data_body = {
+            "operationName": "getRecipe",
+            "variables": {"id": recipe_id},
+            "query": "query getRecipe($id:ID!){\nrecipe(id:$id){\nname\nshortDescription\nfacets{\nname\n}\nimage\nnutritionalInformations{\nkiloCalorie\nfat\nsaturatedFat\ncarbohydrate\nsugarCarbohydrate\nfiber\nprotein\nsalt\n}\nfacets{\nname\n}\npools{\nnbPerson\ncookingModes{\ncookingTime\nsteps{\ndescription\n}\nstacks{\ntools{\nname\n}\ncupboardIngredients{\nquantity\nliteralQuantity\nproduct{\nname\n}\n}\ningredients{\nliteralQuantity\nquantity\nproduct{\nname\n}\n}\n}\nwaitingTime\n}\n}\n}\n}",
+        }
+        self.data = requests.post(
             data_url,
+            json=data_body,
             proxies=proxies,
             timeout=timeout,
         ).json()["data"]
@@ -61,7 +67,7 @@ class QuiToque(AbstractScraper):
         instruction = ""
         steps = self.data["recipe"]["pools"][0]["cookingModes"][0]["steps"]
         for step in steps:
-            instruction += step["description"].replace("\r", "")
+            instruction += step["description"].replace("\r", "").replace("\xa0", " ")
         return instruction
 
     def nutrients(self):
