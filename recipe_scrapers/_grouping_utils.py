@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from dataclasses import dataclass
 from typing import Dict, List, Optional
 

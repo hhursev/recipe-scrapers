@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string

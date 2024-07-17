@@ -1,14 +1,16 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
-class SaboresAnjinomoto(AbstractScraper):
+class SaboresAjinomoto(AbstractScraper):
     @classmethod
     def host(cls):
         return "saboresajinomoto.com.br"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Sabores Ajinomoto")
 
     def title(self):
         return self.schema.title().capitalize()

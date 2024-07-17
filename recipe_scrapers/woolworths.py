@@ -1,8 +1,6 @@
-# mypy: disallow_untyped_defs=False
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
-from ._schemaorg import SchemaOrg
 from ._utils import url_path_to_dict
 
 
@@ -13,7 +11,7 @@ class Woolworths(AbstractScraper):
         target = url_path_to_dict(url)["path"].split("/")[-1]
         data_url = f"https://foodhub.woolworths.com.au/content/woolworths-foodhub/en/{target}.model.json"
 
-        self.page_data = (
+        self.schema.data = (
             requests.get(
                 data_url,
                 headers=HEADERS,
@@ -26,7 +24,6 @@ class Woolworths(AbstractScraper):
             .get(":items")
             .get("recipe_seo_data")
         )
-        self.schema = SchemaOrg(self.page_data, raw=True)
 
     @classmethod
     def host(cls):

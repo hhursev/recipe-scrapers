@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from recipe_scrapers._abstract import AbstractScraper
 
 

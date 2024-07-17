@@ -4,6 +4,7 @@ import unittest
 from typing import Callable
 
 from recipe_scrapers import scrape_html
+from recipe_scrapers._exceptions import StaticValueException
 from recipe_scrapers._grouping_utils import IngredientGroup
 
 MANDATORY_TESTS = [
@@ -89,9 +90,14 @@ def test_func_factory(
             with self.subTest(key):
                 scraper_func = getattr(actual, key)
                 if key in expect.keys():
+                    try:
+                        return_value = scraper_func()
+                    except StaticValueException as e:
+                        return_value = e.return_value
+
                     self.assertEqual(
                         expect[key],
-                        scraper_func(),
+                        return_value,
                         msg=f"The actual value for .{key}() did not match the expected value.",
                     )
                 else:
@@ -107,9 +113,14 @@ def test_func_factory(
                 continue  # If the key isn't present, skip
             with self.subTest(key):
                 scraper_func = getattr(actual, key)
+                try:
+                    return_value = scraper_func()
+                except StaticValueException as e:
+                    return_value = e.return_value
+
                 self.assertEqual(
                     expect[key],
-                    scraper_func(),
+                    return_value,
                     msg=f"The actual value for .{key}() did not match the expected value.",
                 )
 

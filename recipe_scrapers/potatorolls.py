@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._exceptions import StaticValueException
 from ._grouping_utils import group_ingredients

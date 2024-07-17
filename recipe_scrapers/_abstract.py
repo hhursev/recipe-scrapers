@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import inspect
 from collections import OrderedDict
 from typing import Dict, List, Optional, Tuple, Union
@@ -11,6 +10,7 @@ from recipe_scrapers.settings import settings
 
 from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import IngredientGroup
+from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
 # Some sites close their content for 'bots', so user-agent must be supplied
@@ -50,6 +50,7 @@ class AbstractScraper:
 
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
+        self.opengraph = OpenGraph(self.soup)
         self.schema = SchemaOrg(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
@@ -206,8 +207,7 @@ class AbstractScraper:
 
     def site_name(self):
         """Name of the website."""
-        meta = self.soup.find("meta", property="og:site_name")
-        return meta.get("content") if meta else None
+        raise NotImplementedError("This should be implemented.")
 
     def to_json(self):
         """Recipe information in JSON format."""

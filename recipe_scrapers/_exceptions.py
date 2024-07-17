@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 class RecipeScrapersExceptions(Exception):
     def __init__(self, message):
         self.message = message
@@ -37,11 +36,23 @@ class ElementNotFoundInHtml(RecipeScrapersExceptions):
         super().__init__(message)
 
 
-class SchemaOrgException(RecipeScrapersExceptions):
-    """Error in parsing or missing portion of the Schema.org data on the page"""
+class FillPluginException(RecipeScrapersExceptions):
+    """Inability to locate an element on a page by using a fill plugin"""
 
     def __init__(self, message):
         super().__init__(message)
+
+
+class OpenGraphException(FillPluginException):
+    """Unable to locate element on the page using OpenGraph metadata"""
+
+    ...
+
+
+class SchemaOrgException(FillPluginException):
+    """Error in parsing or missing portion of the Schema.org data on the page"""
+
+    ...
 
 
 class StaticValueException(RecipeScrapersExceptions):

@@ -1,5 +1,3 @@
-# mypy: disallow_untyped_defs=False
-
 import html
 import math
 import re

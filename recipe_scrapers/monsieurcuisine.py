@@ -1,9 +1,9 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 import requests
 
 from ._abstract import HEADERS, AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_yields
 
 SCRIPT_PATTERN = re.compile(r'"recipeId":(\d+)')
@@ -34,6 +34,9 @@ class MonsieurCuisine(AbstractScraper):
 
     def author(self):
         return self.data.get("data").get("recipe").get("author").get("name")
+
+    def site_name(self):
+        raise StaticValueException(return_value="Monsieur Cuisine")
 
     def cuisine(self):
         return None
