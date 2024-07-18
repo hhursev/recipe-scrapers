@@ -1,144 +1,92 @@
-import requests
-
 from ._abstract import AbstractScraper
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class QuiToque(AbstractScraper):
-    def __init__(self, url, proxies=None, timeout=None, *args, **kwargs):
-        super().__init__(url=url, proxies=proxies, timeout=timeout, *args, **kwargs)
-        recipe_id = url.split("/")[4]
-        data_url = "https://mgs.quitoque.fr/graphql"
-        data_query = """
-query getRecipe($id: ID!) {
-    recipe(id: $id) {
-        name
-        shortDescription
-        image
-        nutritionalInformations {
-            kiloCalorie
-            fat
-            saturatedFat
-            carbohydrate
-            sugarCarbohydrate
-            fiber
-            protein
-            salt
-        }
-        facets {
-            name
-        }
-        pools {
-            nbPerson
-            cookingModes {
-                cookingTime
-                steps{
-                    description
-                }
-                stacks{
-                    tools{
-                        name
-                    }
-                    cupboardIngredients{
-                        quantity
-                        literalQuantity
-                        product{
-                            name
-                        }
-                    }
-                    ingredients{
-                        literalQuantity
-                        quantity
-                        product{
-                            name
-                        }
-                    }
-                }
-                waitingTime
-            }
-        }
-    }
-}
-        """
-        data_body = {
-            "operationName": "getRecipe",
-            "variables": {"id": recipe_id},
-            "query": data_query,
-        }
-        self.data = requests.post(
-            data_url,
-            json=data_body,
-            proxies=proxies,
-            timeout=timeout,
-        ).json()["data"]
-
     @classmethod
     def host(cls):
         return "quitoque.fr"
 
+    @staticmethod
+    def _get_text(element):
+        if element:
+            return normalize_string(element.get_text())
+        else:
+            return None
+
+    def _get_time(self, time_name):
+        times = self.soup.select("div,.recipe-infos-short .item-info")
+        total_time = None
+        for time in times:
+            if time_name in time.get_text():
+                total_time = self._get_text(time).replace(time_name, "")
+        return get_minutes(total_time)
+
+    def _get_nutrients(self, nutrient_name):
+        nutrient_element = self._nutrient_list.find("p", string=nutrient_name).parent
+        return self._get_text(nutrient_element.find("p", class_="regular"))
+
+    def canonical_url(self):
+        return self.soup.find("meta", {"property": "og:url"}).get("content")
+
+    def author(self):
+        return "QuiToque"
+
     def title(self):
-        return self.data["recipe"]["name"]
+        return self._get_text(self.soup.find("h1", class_="title-2"))
+
+    def keywords(self):
+        product_tags = self.soup.find(id="product-tags").find_all(class_="badge")
+        keywords = {self._get_text(tag) for tag in product_tags}
+        return list(sorted(keywords))
 
     def category(self):
-        categories = set()
-        for category in self.data["recipe"]["facets"]:
-            categories.add(category["name"])
-        return ", ".join(sorted(categories))
+        category = self.soup.find(class_="primary-ghost")
+        return self._get_text(category)
 
     def total_time(self):
-        return self.data["recipe"]["pools"][0]["cookingModes"][0]["waitingTime"]
+        return self._get_time("Total")
+
+    def prep_time(self):
+        return self._get_time("En cuisine")
 
     def yields(self):
-        return f'{self.data["recipe"]["pools"][0]["nbPerson"]} portions'
+        serving = self.soup.find(id="ingredients").find("p", class_="body-2")
+        return get_yields(serving)
 
     def image(self):
-        return self.data["recipe"]["image"]
+        img_element = self.soup.find(class_="image").find("img")
+        return img_element["src"]
 
     def ingredients(self):
-        ingredients = []
-        stacks = self.data["recipe"]["pools"][0]["cookingModes"][0]["stacks"]
-        for ingredient in stacks["ingredients"]:
-            if ingredient["quantity"] > 0:
-                ingredients.append(
-                    f'{ingredient["literalQuantity"]} {ingredient["product"]["name"]}'
-                )
-            else:
-                ingredients.append(ingredient["product"]["name"])
-        for cupboard_ingredients in stacks["cupboardIngredients"]:
-            if cupboard_ingredients["quantity"] > 0:
-                ingredients.append(
-                    f'{cupboard_ingredients["literalQuantity"]} {cupboard_ingredients["product"]["name"]}'
-                )
-            else:
-                ingredients.append(cupboard_ingredients["product"]["name"])
-        return ingredients
-
-    def instructions(self):
-        instruction = ""
-        steps = self.data["recipe"]["pools"][0]["cookingModes"][0]["steps"]
-        for step in steps:
-            instruction += step["description"].replace("\r", "").replace("\xa0", " ")
-        return instruction
-
-    def nutrients(self):
-        nutritional_informations = self.data["recipe"]["nutritionalInformations"][0]
-        nutrients = {
-            "calories": f'{nutritional_informations["kiloCalorie"]} calories',
-            "fatContent": f'{nutritional_informations["fat"]} grammes',
-            "saturatedFatContent": f'{nutritional_informations["saturatedFat"]} grammes',
-            "carbohydrateContent": f'{nutritional_informations["carbohydrate"]} grammes',
-            "sugarContent": f'{nutritional_informations["sugarCarbohydrate"]} grammes',
-            "fiberContent": f'{nutritional_informations["fiber"]} grammes',
-            "proteinContent": f'{nutritional_informations["protein"]} grammes',
-            "sodiumContent": f'{nutritional_informations["salt"]} grammes',
-        }
-        return nutrients
+        ingredients_list = self.soup.select("#ingredients .ingredient-list li")
+        ingredients_list.extend(self.soup.select(".kitchen-list li"))
+        return [self._get_text(tag) for tag in ingredients_list]
 
     def equipment(self):
-        equipments = []
-        tools = self.data["recipe"]["pools"][0]["cookingModes"][0]["stacks"]["tools"]
-        for tool in tools:
-            equipments.append(tool["name"])
-        return equipments
+        equipment_list = self.soup.select("#equipment .ingredient-list li")
+        return [self._get_text(tag) for tag in equipment_list]
+
+    def instructions(self):
+        instructions_list = self.soup.select("#preparation-steps li")
+        return "\n".join(
+            [self._get_text(instruction) for instruction in instructions_list]
+        )
 
     def description(self):
-        return self.data["recipe"]["shortDescription"]
+        description = self.soup.find("div", class_="container body-2 regular mt-2 mb-4")
+        return self._get_text(description)
+
+    def nutrients(self):
+        self._nutrient_list = self.soup.find(id="portion")
+        nutrients = {
+            "calories": self._get_nutrients("Énergie (kCal)"),
+            "fatContent": self._get_nutrients("Matières grasses"),
+            "saturatedFatContent": self._get_nutrients("dont acides gras saturés"),
+            "carbohydrateContent": self._get_nutrients("Glucides"),
+            "sugarContent": self._get_nutrients("dont sucre"),
+            "fiberContent": self._get_nutrients("Fibres"),
+            "proteinContent": self._get_nutrients("Protéines"),
+            "sodiumContent": self._get_nutrients("Sel"),
+        }
+        return nutrients
