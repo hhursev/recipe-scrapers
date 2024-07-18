@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import normalize_string
 
 
@@ -7,6 +7,9 @@ class SimplyCookit(AbstractScraper):
     @classmethod
     def host(cls):
         return "simply-cookit.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Simply Cookit")
 
     def ingredients(self):
         ingredients = []

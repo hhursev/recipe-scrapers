@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import requests
 from bs4 import BeautifulSoup
 

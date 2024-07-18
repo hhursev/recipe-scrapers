@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from __future__ import annotations
 
 from recipe_scrapers._exceptions import ElementNotFoundInHtml

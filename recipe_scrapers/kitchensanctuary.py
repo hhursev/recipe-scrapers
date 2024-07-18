@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from recipe_scrapers._grouping_utils import IngredientGroup
 
 from ._abstract import AbstractScraper

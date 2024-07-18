@@ -1,5 +1,3 @@
-# mypy: disallow_untyped_defs=False
-
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -8,6 +6,9 @@ class SunBasket(AbstractScraper):
     @classmethod
     def host(cls, domain="com"):
         return f"sunbasket.{domain}"
+
+    def site_name(self):
+        return self.author()
 
     def _instructions_list(self):
         instructions_container = self.soup.find(

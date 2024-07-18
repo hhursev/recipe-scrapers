@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import functools
 import warnings
 

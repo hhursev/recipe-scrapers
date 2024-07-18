@@ -115,6 +115,7 @@ Scrapers available for:
 - `https://www.atelierdeschefs.fr/ <https://www.atelierdeschefs.fr/>`_
 - `https://averiecooks.com/ <https://www.averiecooks.com/>`_
 - `https://www.bakels.com.au/ <https://www.bakels.com.au/>`_
+    - `.co.uk <https://bakels.co.uk/>`_
 - `https://baking-sense.com/ <https://baking-sense.com/>`_
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://barefeetinthekitchen.com/ <https://barefeetinthekitchen.com/>`_
@@ -167,6 +168,7 @@ Scrapers available for:
 - `https://dinneratthezoo.com/ <https://dinneratthezoo.com>`_
 - `https://dinnerthendessert.com/ <https://dinnerthendessert.com/>`_
 - `https://dish.co.nz/ <https://dish.co.nz>`_
+- `https://dobruchut.aktuality.sk/ <https://dobruchut.aktuality.sk>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
@@ -266,6 +268,7 @@ Scrapers available for:
 - `https://leukerecepten.nl/ <https://www.leukerecepten.nl>`_
 - `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_
 - `https://littlespicejar.com/ <https://littlespicejar.com>`_
+- `https://littlesunnykitchen.com/ <https://littlesunnykitchen.com>`_
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://www.maangchi.com <https://www.maangchi.com>`_
@@ -343,6 +346,7 @@ Scrapers available for:
 - `https://receitas.ig.com.br/ <https://receitas.ig.com.br>`_
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://recept.se/ <https://recept.se/>`_
+- `https://receptyprevas.sk/ <https://receptyprevas.sk/>`_
 - `https://www.recipegirl.com/ <https://www.recipegirl.com/>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
@@ -420,6 +424,7 @@ Scrapers available for:
 - `https://usapears.org/ <https://usapears.org>`_
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
+- `https://varecha.pravda.sk/ <https://varecha.pravda.sk>`_
 - `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_

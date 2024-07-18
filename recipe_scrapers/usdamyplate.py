@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -7,6 +7,9 @@ class USDAMyPlate(AbstractScraper):
     @classmethod
     def host(cls):
         return "myplate.gov"
+
+    def site_name(self):
+        raise StaticValueException(return_value="MyPlate")
 
     def title(self):
         return self.soup.h1.get_text().strip()
