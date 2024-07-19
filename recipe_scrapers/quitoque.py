@@ -37,8 +37,8 @@ class QuiToque(AbstractScraper):
 
     def keywords(self):
         product_tags = self.soup.find(id="product-tags").find_all(class_="badge")
-        keywords = {self._get_text(tag) for tag in product_tags}
-        return list(sorted(keywords))
+        keywords = ",".join(self._get_text(tag) for tag in product_tags)
+        return csv_to_tags(keywords)
 
     def category(self):
         category = self.soup.find(class_="primary-ghost")
