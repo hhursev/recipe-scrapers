@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import csv_to_tags, get_minutes, get_yields, normalize_string
 
 
 class QuiToque(AbstractScraper):
@@ -22,8 +22,8 @@ class QuiToque(AbstractScraper):
                 total_time = self._get_text(time).replace(time_name, "")
         return get_minutes(total_time)
 
-    def _get_nutrients(self, nutrient_name):
-        nutrient_element = self._nutrient_list.find("p", string=nutrient_name).parent
+    def _get_nutrient(self, nutrient_name):
+        nutrient_element = self._nutrients.find("p", string=nutrient_name).parent
         return self._get_text(nutrient_element.find("p", class_="regular"))
 
     def canonical_url(self):
@@ -59,34 +59,32 @@ class QuiToque(AbstractScraper):
         return img_element["src"]
 
     def ingredients(self):
-        ingredients_list = self.soup.select("#ingredients .ingredient-list li")
-        ingredients_list.extend(self.soup.select(".kitchen-list li"))
-        return [self._get_text(tag) for tag in ingredients_list]
+        ingredients = []
+        ingredients.extend(self.soup.select("#ingredients .ingredient-list li"))
+        ingredients.extend(self.soup.select(".kitchen-list li"))
+        return [self._get_text(ingredient) for ingredient in ingredients]
 
     def equipment(self):
-        equipment_list = self.soup.select("#equipment .ingredient-list li")
-        return [self._get_text(tag) for tag in equipment_list]
+        equipments = self.soup.select("#equipment .ingredient-list li")
+        return [self._get_text(equiment) for equiment in equipments]
 
     def instructions(self):
-        instructions_list = self.soup.select("#preparation-steps li")
-        return "\n".join(
-            [self._get_text(instruction) for instruction in instructions_list]
-        )
+        instructions = self.soup.select("#preparation-steps li")
+        return "\n".join([self._get_text(instruction) for instruction in instructions])
 
     def description(self):
         description = self.soup.find("div", class_="container body-2 regular mt-2 mb-4")
         return self._get_text(description)
 
     def nutrients(self):
-        self._nutrient_list = self.soup.find(id="portion")
+        self._nutrients = self.soup.find(id="portion")
         nutrients = {
-            "calories": self._get_nutrients("Énergie (kCal)"),
-            "fatContent": self._get_nutrients("Matières grasses"),
-            "saturatedFatContent": self._get_nutrients("dont acides gras saturés"),
-            "carbohydrateContent": self._get_nutrients("Glucides"),
-            "sugarContent": self._get_nutrients("dont sucre"),
-            "fiberContent": self._get_nutrients("Fibres"),
-            "proteinContent": self._get_nutrients("Protéines"),
-            "sodiumContent": self._get_nutrients("Sel"),
+            "calories": self._get_nutrient("Énergie (kCal)"),
+            "fatContent": self._get_nutrient("Matières grasses"),
+            "saturatedFatContent": self._get_nutrient("dont acides gras saturés"),
+            "carbohydrateContent": self._get_nutrient("Glucides"),
+            "sugarContent": self._get_nutrient("dont sucre"),
+            "fiberContent": self._get_nutrient("Fibres"),
+            "proteinContent": self._get_nutrient("Protéines"),
         }
         return nutrients
