@@ -29,7 +29,11 @@
 
 A simple scraping tool for recipe webpages.
 
-To get started, use `Python's built-in package installer <https://docs.python.org/3/installing/index.html>`_, named ``pip``:
+
+Getting Started
+---------------
+
+First of all, use `Python's built-in package installer <https://docs.python.org/3/installing/index.html>`_, named ``pip`` to install the library:
 
 .. code:: shell
 
