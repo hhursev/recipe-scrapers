@@ -27,7 +27,7 @@
 ------
 
 
-A simple web scraping tool for recipe sites.
+A simple scraping tool for recipe webpages.
 
 .. code:: shell
 
