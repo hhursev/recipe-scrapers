@@ -37,7 +37,7 @@ To get started, use `Python's built-in package installer <https://docs.python.or
 
 This should produce output to inform you of any dependencies that were installed, and the final line of output should read ``Successfully installed recipe-scrapers-<version-number>``.
 
-Now that we have the library installed, we can type ``python`` and press 'enter' to open an interactive interpreter session, and then begin typing -- and/or modifying -- some of the code shown below to scrape some recipes!
+Once the library is installed, we can type ``python`` and press 'enter' to open an interactive interpreter session, and then begin typing -- and/or modifying -- some of the code shown below to scrape some recipes!
 
 .. code:: python
 
