@@ -29,9 +29,13 @@
 
 A simple scraping tool for recipe webpages.
 
+To get started, use `Python's built-in package installer <https://docs.python.org/3/installing/index.html>`_, named ``pip``:
+
 .. code:: shell
 
-    pip install recipe-scrapers
+    python -m pip install recipe-scrapers
+
+This should produce output to inform you of any dependencies that were installed, and the final line of output should read ``Successfully installed recipe-scrapers-<version-number>``.
 
 then:
 
