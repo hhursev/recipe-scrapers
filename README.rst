@@ -30,6 +30,16 @@
 A simple scraping tool for recipe webpages.
 
 
+Netiquette
+----------
+
+If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
+
+Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
+
+Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
+
+
 Getting Started
 ---------------
 
@@ -520,15 +530,6 @@ FAQ
     # if no error is raised - there's schema available:
     scraper.title()
     scraper.instructions()  # etc.
-
-Netiquette
-----------
-
-If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
-
-Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
-
-Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
 
 
 Special thanks to:
