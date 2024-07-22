@@ -317,15 +317,11 @@ def get_url_slug(url):
 def get_abstract_methods():
     from ._abstract import AbstractScraper
 
-    methods = []
-    source_lines = inspect.getsourcelines(AbstractScraper)[0]
-    for line in source_lines:
-        if line.strip().startswith("def "):
-            method_name = line.split("def ")[1].split("(")[0].strip()
-            if not method_name.startswith("_") and method_name not in [
-                "links",
-                "to_json",
-            ]:
-                methods.append(method_name)
-
-    return methods
+    return [
+        name
+        for name, value in AbstractScraper.__dict__.items()  # Attributes of the abstract scraper class..
+        if not name.startswith("_")  # ... that are not private ...
+        and inspect.isfunction(value)  # ... and are functions ...
+        and name not in {"links", "to_json"}  # ... and not excluded as special-cases.
+        or name == "host"  # ... explicitly include the `host` method.
+    ]
