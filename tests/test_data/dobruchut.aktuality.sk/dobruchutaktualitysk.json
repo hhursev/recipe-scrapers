@@ -1,11 +1,10 @@
 {
-  "host": "dobruchut.aktuality.sk",
+  "author": "Howardcooks",
   "canonical_url": "https://dobruchut.aktuality.sk/recept/79940/tvarohove-knedlicky-s-okamzitou-omackou/",
   "site_name": "DobrúChuť.sk",
-  "author": "Howardcooks",
+  "host": "dobruchut.aktuality.sk",
   "language": "sk",
   "title": "Tvarohové knedličky s okamžitou omáčkou",
-  "prep_time": 15,
   "ingredients": [
     "250 g hrudkovitý tvaroh",
     "1 ks vajce",
@@ -45,8 +44,9 @@
     "Dobrú chuť!",
     "Ďalšie overené recepty na chutné gnocchi nájdete TU!"
   ],
-  "total_time": 20,
   "yields": "2 servings",
-  "image": "https://img.aktuality.sk/foto/MHgyMzQ6MjU2MHgxNjc0L2ZpdC1pbi84ODB4NDAwL2ZpbHRlcnM6d2F0ZXJtYXJrKGh0dHA6Ly9sb2NhbGhvc3Q6ODEvaW1nL2RjaDEsLTEwLC0xMCw1MCkvaW1n/-FKw-ZNVSAbTY3mcAAS5LQ.jpg?st=9Dtr7drqJY-DJYKA1up51XKWiqAZ2hLVOvE3M5rbPyo&ts=1720619390&e=0",
-  "description": "Rýchle knedličky z tvarohu s ešte rýchlejšou syrovo-bylinkovou omáčkou."
+  "description": "Rýchle knedličky z tvarohu s ešte rýchlejšou syrovo-bylinkovou omáčkou.",
+  "total_time": 20,
+  "prep_time": 15,
+  "image": "https://img.aktuality.sk/foto/MHgyMzQ6MjU2MHgxNjc0L2ZpdC1pbi84ODB4NDAwL2ZpbHRlcnM6d2F0ZXJtYXJrKGh0dHA6Ly9sb2NhbGhvc3Q6ODEvaW1nL2RjaDEsLTEwLC0xMCw1MCkvaW1n/-FKw-ZNVSAbTY3mcAAS5LQ.jpg?st=9Dtr7drqJY-DJYKA1up51XKWiqAZ2hLVOvE3M5rbPyo&ts=1720619390&e=0"
 }
