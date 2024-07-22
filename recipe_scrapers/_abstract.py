@@ -63,11 +63,6 @@ class AbstractScraper:
                 setattr(self.__class__, name, current_method)
             setattr(self.__class__, "plugins_initialized", True)
 
-    @classmethod
-    def host(cls) -> str:
-        """Host domain of the recipe URL."""
-        raise NotImplementedError("This should be implemented.")
-
     def author(self):
         """Author of the recipe."""
         raise NotImplementedError("This should be implemented.")
@@ -81,6 +76,11 @@ class AbstractScraper:
 
     def site_name(self):
         """Name of the website."""
+        raise NotImplementedError("This should be implemented.")
+
+    @classmethod
+    def host(cls) -> str:
+        """Host domain of the recipe URL."""
         raise NotImplementedError("This should be implemented.")
 
     def language(self):

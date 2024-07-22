@@ -121,10 +121,10 @@ class TestUtils(unittest.TestCase):
     def test_get_abstract_methods(self):
         abstract_methods = get_abstract_methods()
         expected_methods = [
-            "host",
             "author",
             "canonical_url",
             "site_name",
+            "host",
             "language",
             "title",
             "ingredients",
