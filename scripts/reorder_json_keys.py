@@ -1,33 +1,9 @@
 import json
 import os
 
-KEYS = [
-    "author",
-    "canonical_url",
-    "site_name",
-    "host",
-    "language",
-    "title",
-    "ingredients",
-    "ingredient_groups",
-    "instructions",
-    "instructions_list",
-    "category",
-    "yields",
-    "description",
-    "total_time",
-    "cook_time",
-    "prep_time",
-    "cuisine",
-    "cooking_method",
-    "ratings",
-    "ratings_count",
-    "equipment",
-    "reviews",
-    "nutrients",
-    "image",
-    "keywords",
-]
+from recipe_scrapers._utils import get_abstract_methods
+
+KEYS = get_abstract_methods()
 
 
 def reorder_json_keys(file_path):

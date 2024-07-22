@@ -68,6 +68,10 @@ class AbstractScraper:
         """Host domain of the recipe URL."""
         raise NotImplementedError("This should be implemented.")
 
+    def author(self):
+        """Author of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
     def canonical_url(self):
         """Canonical or original URL of the recipe."""
         canonical_link = self.soup.find("link", {"rel": "canonical", "href": True})
@@ -75,44 +79,8 @@ class AbstractScraper:
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    def title(self):
-        """Title of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def category(self):
-        """Category of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def total_time(self):
-        """Total time needed to prepare and cook the recipe in minutes."""
-        raise NotImplementedError("This should be implemented.")
-
-    def cook_time(self):
-        """Cooking time in minutes."""
-        raise NotImplementedError("This should be implemented.")
-
-    def prep_time(self):
-        """Preparation time in minutes."""
-        raise NotImplementedError("This should be implemented.")
-
-    def cooking_method(self):
-        """The method of cooking the recipe"""
-        raise NotImplementedError("This should be implemented.")
-
-    def yields(self):
-        """Total servings or items in the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def image(self):
-        """An image URL for the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def nutrients(self):
-        """Nutrients of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def keywords(self):
-        """Keywords or tags used to describe the recipe"""
+    def site_name(self):
+        """Name of the website."""
         raise NotImplementedError("This should be implemented.")
 
     def language(self):
@@ -146,6 +114,10 @@ class AbstractScraper:
         else:
             raise ElementNotFoundInHtml("Could not find language.")
 
+    def title(self):
+        """Title of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
     def ingredients(self):
         """Ingredients of the recipe."""
         raise NotImplementedError("This should be implemented.")
@@ -166,6 +138,38 @@ class AbstractScraper:
             if instruction
         ]
 
+    def category(self):
+        """Category of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def yields(self):
+        """Total servings or items in the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def description(self):
+        """Description of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def total_time(self):
+        """Total time needed to prepare and cook the recipe in minutes."""
+        raise NotImplementedError("This should be implemented.")
+
+    def cook_time(self):
+        """Cooking time in minutes."""
+        raise NotImplementedError("This should be implemented.")
+
+    def prep_time(self):
+        """Preparation time in minutes."""
+        raise NotImplementedError("This should be implemented.")
+
+    def cuisine(self):
+        """Cuisine of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def cooking_method(self):
+        """The method of cooking the recipe"""
+        raise NotImplementedError("This should be implemented.")
+
     def ratings(self):
         """Ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
@@ -174,28 +178,28 @@ class AbstractScraper:
         """Total number of ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def author(self):
-        """Author of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def cuisine(self):
-        """Cuisine of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def description(self):
-        """Description of the recipe."""
+    def equipment(self):
+        """Equipment needed for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def reviews(self):
         """Reviews of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def equipment(self):
-        """Equipment needed for the recipe."""
+    def nutrients(self):
+        """Nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def dietary_restrictions(self):
         """The specified dietary restrictions or guidelines for which this recipe is suitable"""
+        raise NotImplementedError("This should be implemented.")
+
+    def image(self):
+        """An image URL for the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def keywords(self):
+        """Keywords or tags used to describe the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def links(self):
@@ -204,10 +208,6 @@ class AbstractScraper:
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
-
-    def site_name(self):
-        """Name of the website."""
-        raise NotImplementedError("This should be implemented.")
 
     def to_json(self):
         """Recipe information in JSON format."""

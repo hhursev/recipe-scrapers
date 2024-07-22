@@ -1,4 +1,5 @@
 import html
+import inspect
 import math
 import re
 
@@ -311,3 +312,20 @@ def change_keys(obj, convert):
 def get_url_slug(url):
     path = url_path_to_dict(url).get("path")
     return path.split("/")[-1]
+
+
+def get_abstract_methods():
+    from ._abstract import AbstractScraper
+
+    methods = []
+    source_lines = inspect.getsourcelines(AbstractScraper)[0]
+    for line in source_lines:
+        if line.strip().startswith("def "):
+            method_name = line.split("def ")[1].split("(")[0].strip()
+            if not method_name.startswith("_") and method_name not in [
+                "links",
+                "to_json",
+            ]:
+                methods.append(method_name)
+
+    return methods
