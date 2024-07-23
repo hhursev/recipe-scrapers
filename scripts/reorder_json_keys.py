@@ -12,8 +12,9 @@ def reorder_json_keys(file_path):
 
     reordered_data = {key: data[key] for key in KEYS if key in data}
 
-    if list(data.keys()) != KEYS:
+    if list(data.keys()) != list(reordered_data.keys()):
         with open(file_path, "w", encoding="utf-8") as file:
+            print(f"Re-ordering JSON keys for: {file_path}")
             json.dump(reordered_data, file, indent=2, ensure_ascii=False)
             file.write("\n")
 
