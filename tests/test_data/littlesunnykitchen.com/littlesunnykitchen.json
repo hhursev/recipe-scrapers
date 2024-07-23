@@ -1,8 +1,8 @@
 {
-  "host": "littlesunnykitchen.com",
+  "author": "Diana",
   "canonical_url": "https://littlesunnykitchen.com/mexican-chicken-marinade/",
   "site_name": "Little Sunny Kitchen",
-  "author": "Diana",
+  "host": "littlesunnykitchen.com",
   "language": "en-US",
   "title": "Mexican Chicken Marinade",
   "ingredients": [
@@ -41,11 +41,14 @@
     "Place in the fridge and allow to marinate for 2-24 hours.",
     "Remove the chicken from the bag, and grill it or bake it until the internal temperature of the chicken reaches 165°F/74°C with an Instant read thermometer."
   ],
-  "total_time": 130,
-  "prep_time": 10,
   "category": "Main Course",
   "yields": "6 servings",
+  "description": "Make this fresh Mexican chicken marinade to season all of your favorite cuts of chicken. Made with lime, garlic, olive oil, oregano, and warm spices to give your chicken an amazing flavor!",
+  "total_time": 130,
+  "prep_time": 10,
   "cuisine": "American,Mexican",
+  "ratings": 4.95,
+  "ratings_count": 57,
   "nutrients": {
     "calories": "49 kcal",
     "carbohydrateContent": "2 g",
@@ -57,11 +60,8 @@
     "sugarContent": "1 g",
     "servingSize": "1 serving"
   },
-  "ratings": 4.95,
-  "ratings_count": 57,
+  "image": "https://littlesunnykitchen.com/wp-content/uploads/2021/05/Mexican-Chicken-Marinade-1.jpg",
   "keywords": [
     "Mexican Chicken Marinade"
-  ],
-  "image": "https://littlesunnykitchen.com/wp-content/uploads/2021/05/Mexican-Chicken-Marinade-1.jpg",
-  "description": "Make this fresh Mexican chicken marinade to season all of your favorite cuts of chicken. Made with lime, garlic, olive oil, oregano, and warm spices to give your chicken an amazing flavor!"
+  ]
 }
