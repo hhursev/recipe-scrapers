@@ -18,15 +18,13 @@ def reorder_json_keys(file_path):
             file.write("\n")
 
 
-def process_directory(directory, start_letter):
+def process_directory(directory):
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswith(".json") and (
-                file.startswith(start_letter) or start_letter == "*"
-            ):
+            if file.endswith(".json"):
                 file_path = os.path.join(root, file)
                 reorder_json_keys(file_path)
 
 
 if __name__ == "__main__":
-    process_directory("tests/test_data", "*")
+    process_directory("tests/test_data")
