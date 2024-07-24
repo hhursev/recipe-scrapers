@@ -51,7 +51,7 @@ Start by using `Python's built-in package installer <https://docs.python.org/3/i
 
 This should produce output about the installation process, and the final line should read: ``Successfully installed recipe-scrapers-<version-number>``.
 
-Once the library is installed, run ``python`` at the command-line to open an interpreter session, and then begin typing -- and/or modifying -- the code below to scrape some recipes!
+To learn what the library can do, you can run ``python`` at the command-line to open an `interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the code below:
 
 .. code:: python
 
