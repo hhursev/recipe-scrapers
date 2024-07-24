@@ -63,7 +63,7 @@ To learn what the library can do, you can run ``python`` at the command-line to 
 
 In the example above, we asked the library to scrape a web address (also known as a Universal Resource Location -- a URL).
 
-Behind the scenes, it made a web request to download the HTML (HyperText Markup Language -- a way of structuring information for a web browser to display it) from that URL.
+Behind the scenes, the library made a web request to download the HTML (HyperText Markup Language -- a way of structuring information for a web browser to display it) from the URL, `parsed <https://en.wikipedia.org/wiki/Parsing>`_ the server's response with the assistance of other Python libraries, and then returned a `class instance <https://docs.python.org/3/tutorial/classes.html>`_ that we can use to access information about the recipe.
 
 In situations where recipe webpage HTML is already available, or is retrieved using some other mechanism, this library can still help, but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we use the Python ``requests`` library to retrieve HTML:
 
