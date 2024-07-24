@@ -51,7 +51,11 @@ To learn what the library can do, you can run ``python`` at the command-line to 
     >>> scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
     >>> help(scraper)
 
-You also have an option to scrape html-like content
+In the previous example, we asked the library to scrape a web address (also known as a Universal Resource Location -- a URL).
+
+Behind the scenes, it made a web request to download the HTML (HyperText Markup Language -- a way of structuring information for a web browser to display it) from that URL.
+
+In some situations, we may have a copy of the recipe webpage HTML already -- or we might prefer to use other tools to download it.  This library can help in these cases too, but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we use the Python ``requests`` library to retrieve HTML:
 
 .. code:: python
 
