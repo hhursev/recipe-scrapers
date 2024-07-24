@@ -49,6 +49,7 @@ To learn what the library can do, you can run ``python`` at the command-line to 
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from recipe_scrapers import scrape_me
     >>> scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
+    >>> help(scraper)
 
 You also have an option to scrape html-like content
 
