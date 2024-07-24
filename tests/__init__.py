@@ -78,11 +78,12 @@ def test_func_factory(
     def test_func(self):
         with open(testjson, encoding="utf-8") as f:
             expect = json.load(f)
-            if "ingredient_groups" in expect:
-                expect["ingredient_groups"] = [
-                    IngredientGroup(**group)
-                    for group in expect.get("ingredient_groups", [])
-                ]
+            expect["ingredient_groups"] = [
+                IngredientGroup(expect["ingredients"], purpose=None)
+            ] if "ingredient_groups" not in expect else [
+                IngredientGroup(**group)
+                for group in expect.get("ingredient_groups", [])
+            ]
         actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
 
         # Mandatory tests
