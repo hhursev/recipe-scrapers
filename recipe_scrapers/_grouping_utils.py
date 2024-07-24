@@ -124,7 +124,7 @@ def group_ingredients(
     elements = soup.select(f"{group_heading}, {group_element}")
     for element in elements:
         if element in element.parent.select(group_heading):
-            current_heading = normalize_string(element.text)
+            current_heading = normalize_string(element.text) or None
             if current_heading not in groupings:
                 groupings[current_heading] = []
         else:
