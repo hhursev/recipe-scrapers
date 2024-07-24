@@ -51,7 +51,7 @@ Start by using `Python's built-in package installer <https://docs.python.org/3/i
 
 This should produce output about the installation process, with the final line reading: ``Successfully installed recipe-scrapers-<version-number>``.
 
-To learn what the library can do, you can run ``python`` at the command-line to open an `interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below (on the lines containing the ``>>>`` prompt):
+To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below (on the lines containing the ``>>>`` prompt):
 
 .. code:: pycon
 
