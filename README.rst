@@ -65,7 +65,7 @@ In the previous example, we asked the library to scrape a web address (also know
 
 Behind the scenes, it made a web request to download the HTML (HyperText Markup Language -- a way of structuring information for a web browser to display it) from that URL.
 
-In some situations, we may have a copy of the recipe webpage HTML already -- or we might prefer to use other tools to download it.  This library can help in these cases too, but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we use the Python ``requests`` library to retrieve HTML:
+In situations where recipe webpage HTML is already available, or is retrieved using some other mechanism, this library can still help, but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we use the Python ``requests`` library to retrieve HTML:
 
 .. code:: python
 
