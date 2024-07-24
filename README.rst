@@ -61,7 +61,7 @@ To learn what the library can do, you can run ``python`` at the command-line to 
     >>> scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
     >>> help(scraper)
 
-In the previous example, we asked the library to scrape a web address (also known as a Universal Resource Location -- a URL).
+In the example above, we asked the library to scrape a web address (also known as a Universal Resource Location -- a URL).
 
 Behind the scenes, it made a web request to download the HTML (HyperText Markup Language -- a way of structuring information for a web browser to display it) from that URL.
 
