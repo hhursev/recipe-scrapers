@@ -1,0 +1,3 @@
+# The documentation uses long lines, so disable markdownlint line-length checks
+# (markdownlint seems to be used by Codacy static analysis)
+rules "~MD013"
