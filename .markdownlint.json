@@ -1,0 +1,14 @@
+{
+   "__": "Adapted from: https://github.com/DavidAnson/markdownlint/blob/b2305efafb034b1f328845aec9928b5363ffd646/schema/.markdownlint.jsonc#L67-L85",
+   "_": "// MD013/line-length : Line length : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md013.md",
+  "MD013": {
+    "line_length": false,
+    "heading_line_length": 80,
+    "code_block_line_length": 80,
+    "code_blocks": true,
+    "tables": true,
+    "headings": true,
+    "strict": false,
+    "stern": false
+  }
+}
