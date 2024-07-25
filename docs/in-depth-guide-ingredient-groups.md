@@ -142,5 +142,4 @@ The test case **with** ingredient grouping should include an `ingredient_groups`
         "purpose": "Filling:"
       }
     ],
-]
 ```
