@@ -111,16 +111,9 @@ An example of a scraper that supports ingredient groups without using the `group
 
 ## Tests
 
-When adding ingredient group support to a scraper we need to create two test cases.
+Many recipe websites provide ingredient groupings for some recipes, but not all of them.  When this is the case, we should add at least two test cases for our scraper: one to cover a recipe **with** ingredient groupings, and one to cover a recipe **without** them.
 
-- A test case for a recipe that **does not** group the ingredients
-- A test case for a recipe that **does** group the ingredient
-
-This is because not all the recipes on a website will have ingredient groups and the scraper does not know if the recipe does or not beforehand. Therefore, the scraper must handle both cases.
-
-In addition to the usual tests a scraper requires, the tests also needs to check the groups and the ingredients in each group are correct for the recipe. For the test cases where there are no ingredient groups, this should check for a single `IngredientGroup` object with `purpose=None` and `ingredients` set to the output from the scraper's `ingredients()` function. For the test case with ingredient groups, the output should match the groups in the recipe.
-
-Each test case will automatically inherit a test that checks to make sure the same ingredients are found in `.ingredients()` and in the groups returned from `.ingredient_groups()`, so there is no need to write this test in the scraper test cases.
+Test cases **without** ingredient groupings in the HTML are simpler, because every scraper test case _automatically_ inherits a test that checks to make sure the output of `.ingredients()` is consistent with the output from `.ingredient_groups()`, and that provides all the test coverage we need.
 
 The test case **with** ingredient grouping should include a `test_ingredient_groups` method with each section of the ingredients separated out in the applicable test case like this example:
 
