@@ -27,43 +27,45 @@
 ------
 
 
-A simple web scraping tool for recipe sites.
+A simple scraping tool for recipe webpages.
+
+
+Netiquette
+----------
+
+If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
+
+Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
+
+Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
+
+
+Getting Started
+---------------
+
+Start by using `Python's built-in package installer <https://docs.python.org/3/installing/index.html>`_, ``pip``, to install the library:
 
 .. code:: shell
 
-    pip install recipe-scrapers
+    python -m pip install recipe-scrapers
 
-then:
+This should produce output about the installation process, with the final line reading: ``Successfully installed recipe-scrapers-<version-number>``.
 
-.. code:: python
+To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below (on the lines containing the ``>>>`` prompt):
 
-    from recipe_scrapers import scrape_me
+.. code:: pycon
 
-    scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
+    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from recipe_scrapers import scrape_me
+    >>> scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
+    >>> help(scraper)
 
-    # Q: What if the recipe site I want to extract information from is not listed below?
-    # A: You can give it a try with the wild_mode option! If there is Schema/Recipe available it will work just fine.
-    scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
+In the example above, we asked the library to scrape a web address (a.k.a. URL).
 
-    scraper.host()
-    scraper.title()
-    scraper.total_time()
-    scraper.image()
-    scraper.ingredients()
-    scraper.ingredient_groups()
-    scraper.instructions()
-    scraper.instructions_list()
-    scraper.yields()
-    scraper.to_json()
-    scraper.links()
-    scraper.nutrients()  # not always available
-    scraper.canonical_url()  # not always available
-    scraper.equipment()  # not always available
-    scraper.cooking_method()  # not always available
-    scraper.keywords()  # not always available
-    scraper.dietary_restrictions() # not always available
+Behind the scenes, the library made a web request to download the HTML from the URL, `parsed <https://en.wikipedia.org/wiki/Parsing>`_ the server's response with the assistance of other Python libraries, and then returned a `class instance <https://docs.python.org/3/tutorial/classes.html>`_ that we can use to access information about the recipe.
 
-You also have an option to scrape html-like content
+In situations where the HTML for a recipe webpage is already available to us, or will be retrieved using some other mechanism, we can ask the library to skip the download step -- but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we use the Python ``requests`` library to perform the download:
 
 .. code:: python
 
@@ -503,24 +505,48 @@ In case you want to run a single unittest for a newly developed scraper
 
 FAQ
 ---
-- **How do I know if a website has a Recipe Schema?** Run in python shell:
+**What if the recipe site I want to extract information from is not listed above?**
+
+You can give it a try with the ``wild_mode`` option!
+
+If there is Schema/Recipe available it will work just fine.
 
 .. code:: python
 
-    from recipe_scrapers import scrape_me
-    scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
-    # if no error is raised - there's schema available:
+    scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
+
+    scraper.host()
     scraper.title()
-    scraper.instructions()  # etc.
+    scraper.total_time()
+    scraper.image()
+    scraper.ingredients()
+    scraper.ingredient_groups()
+    scraper.instructions()
+    scraper.instructions_list()
+    scraper.yields()
+    scraper.to_json()
+    scraper.links()
+    scraper.nutrients()  # not always available
+    scraper.canonical_url()  # not always available
+    scraper.equipment()  # not always available
+    scraper.cooking_method()  # not always available
+    scraper.keywords()  # not always available
+    scraper.dietary_restrictions() # not always available
 
-Netiquette
-----------
 
-If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
+**How do I know if a website has a Recipe Schema?**
 
-Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
+Run in python shell:
 
-Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
+.. code:: pycon
+
+    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from recipe_scrapers import scrape_me
+    >>> scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
+    >>> # if no error is raised - there's schema available:
+    >>> scraper.title()
+    >>> scraper.instructions()  # etc.
 
 
 Special thanks to:
