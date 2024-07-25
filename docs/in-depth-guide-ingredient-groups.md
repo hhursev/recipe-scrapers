@@ -115,37 +115,32 @@ Many recipe websites provide ingredient groupings for some recipes, but not all 
 
 Test cases **without** ingredient groupings in the HTML are simpler, because every scraper test case _automatically_ inherits a test that checks to make sure the output of `.ingredients()` is consistent with the output from `.ingredient_groups()`, and that provides all the test coverage we need.
 
-The test case **with** ingredient grouping should include a `test_ingredient_groups` method with each section of the ingredients separated out in the applicable test case like this example:
+The test case **with** ingredient grouping should include an `ingredient_groups` item in the JSON data with each section of the ingredients separated out in the applicable test case like this example:
 
-```python
-from recipe_scrapers._grouping_utils import IngredientGroup
-
-    def test_ingredient_groups(self):
-        self.assertEqual(
-            [
-                IngredientGroup(
-                    ingredients=[
-                        "1¾ cups Graham cracker crumbs",
-                        "½ cup melted unsalted butter",
-                        "2 tablespoons granulated sugar",
-                    ],
-                    purpose="Crust:",
-                ),
-                IngredientGroup(
-                    ingredients=[
-                        "24 ounces cream cheese",
-                        "1½ cups powdered sugar (divided)",
-                        "⅓ cup sour cream",
-                        "2 teaspoons pure vanilla extract",
-                        "Juice of 1 lemon",
-                        "1¼ cups heavy whipping cream",
-                        "1 cup fresh raspberries (puréed)",
-                        "1 cup fresh blueberries (puréed)",
-                        "Whipped cream and fresh berries for garnish",
-                    ],
-                    purpose="Filling:",
-                ),
-            ],
-            self.harvester_class.ingredient_groups(),
-        )
+```json
+    "ingredient_groups": [
+      {
+        "ingredients": [
+            "1¾ cups Graham cracker crumbs",
+            "½ cup melted unsalted butter",
+            "2 tablespoons granulated sugar"
+        ],
+        "purpose": "Crust:"
+      },
+      {
+        "ingredients": [
+          "24 ounces cream cheese",
+          "1½ cups powdered sugar (divided)",
+          "⅓ cup sour cream",
+          "2 teaspoons pure vanilla extract",
+          "Juice of 1 lemon",
+          "1¼ cups heavy whipping cream",
+          "1 cup fresh raspberries (puréed)",
+          "1 cup fresh blueberries (puréed)",
+          "Whipped cream and fresh berries for garnish"
+        ],
+        "purpose": "Filling:"
+      }
+    ],
+]
 ```
