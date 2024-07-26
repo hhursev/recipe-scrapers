@@ -84,11 +84,11 @@ def test_func_factory(
                 for group in expect.get("ingredient_groups", [])
             ]
 
-        wild_mode = host not in SCRAPERS
-        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host, wild_mode=wild_mode)
-        if wild_mode:
-            self.assertFalse(RecipeTestCase.been_wild, "Only one wild mode test should occur.")
-            RecipeTestCase.been_wild = True
+        kwargs = {"wild_mode": True} if host not in SCRAPERS else {}
+        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host, **kwargs)
+        if kwargs.get("wild_mode"):
+            self.assertFalse(self.been_wild, "Only one wild mode test should occur.")
+            type(self).been_wild = True
 
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
