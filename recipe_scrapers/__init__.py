@@ -769,9 +769,6 @@ def _emit_options_deprecation_notice():
 def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
-    if options:
-        _emit_options_deprecation_notice()
-
     try:
         scraper = SCRAPERS[host_name]
     except KeyError:
@@ -779,11 +776,15 @@ def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
             raise WebsiteNotImplementedError(host_name)
         else:
             options.pop("wild_mode")
+            if options:
+                _emit_options_deprecation_notice()
             wild_scraper = SchemaScraperFactory.generate(url_path, **options)
             if not wild_scraper.schema.data:
                 raise NoSchemaFoundInWildMode(url_path)
             return wild_scraper
 
+    if options:
+        _emit_options_deprecation_notice()
     return scraper(url_path, **options)
 
 
@@ -809,9 +810,6 @@ def scrape_html(
 
     host_name = get_host_name(org_url) if org_url is not None else None
 
-    if options:
-        _emit_options_deprecation_notice()
-
     scraper = None
     if host_name:
         with contextlib.suppress(KeyError):
@@ -822,6 +820,8 @@ def scrape_html(
             raise WebsiteNotImplementedError(host_name)
 
         options.pop("wild_mode")
+        if options:
+            _emit_options_deprecation_notice()
         wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
 
         if not wild_scraper.schema.data:
@@ -829,6 +829,8 @@ def scrape_html(
 
         return wild_scraper
 
+    if options:
+        _emit_options_deprecation_notice()
     return scraper(url=org_url, html=html, **options)
 
 
