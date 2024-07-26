@@ -3,7 +3,7 @@ import pathlib
 import unittest
 from typing import Callable
 
-from recipe_scrapers import scrape_html
+from recipe_scrapers import SCRAPERS, scrape_html
 from recipe_scrapers._exceptions import StaticValueException
 from recipe_scrapers._grouping_utils import IngredientGroup
 
@@ -42,6 +42,7 @@ OPTIONAL_TESTS = [
 
 class RecipeTestCase(unittest.TestCase):
     maxDiff = None
+    been_wild = False
 
 
 def test_func_factory(
@@ -82,7 +83,12 @@ def test_func_factory(
                 IngredientGroup(**group)
                 for group in expect.get("ingredient_groups", [])
             ]
-        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
+
+        wild_mode = host not in SCRAPERS
+        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host, wild_mode=wild_mode)
+        if wild_mode:
+            self.assertFalse(RecipeTestCase.been_wild, "Only one wild mode test should occur.")
+            RecipeTestCase.been_wild = True
 
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
