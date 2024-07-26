@@ -220,6 +220,7 @@ from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .norecipes import NoRecipes
+from .nosalty import NoSalty
 from .notenoughcinnamon import NotEnoughCinnamon
 from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
@@ -617,6 +618,7 @@ SCRAPERS = {
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
     NoRecipes.host(): NoRecipes,
+    NoSalty.host(): NoSalty,
     NourishedByNutrition.host(): NourishedByNutrition,
     Number2Pencil.host(): Number2Pencil,
     NutritionByNathalie.host(): NutritionByNathalie,
