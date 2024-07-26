@@ -57,8 +57,11 @@ To learn what the library can do, you can open a `Python interpreter session <ht
 
     Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from recipe_scrapers import scrape_me
-    >>> scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
+    >>> from recipe_scrapers import scrape_html
+    >>> url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    >>> name = input('What is your name, burger seeker?\n')
+    >>> html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
+    >>> scraper = scrape_html(html, org_url=url)
     >>> help(scraper)
 
 In the example above, we asked the library to scrape a web address (a.k.a. URL).
@@ -514,7 +517,10 @@ If there is Schema/Recipe available it will work just fine.
 
 .. code:: python
 
-    scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
+    url = 'https://www.feastingathome.com/tomato-risotto/'
+    name = input('What is your name, risotto sampler?\n')
+    html = requests.get(url, headers={"User-Agent": f"Risotto Sampler {name}"}).content
+    scraper = scrape_html(html, org_url=url, wild_mode=True)
 
     scraper.host()
     scraper.title()
@@ -543,8 +549,8 @@ Run in python shell:
 
     Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> from recipe_scrapers import scrape_me
-    >>> scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
+    >>> from recipe_scrapers import scrape_html
+    >>> scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
     >>> # if no error is raised - there's schema available:
     >>> scraper.title()
     >>> scraper.instructions()  # etc.
