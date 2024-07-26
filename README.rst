@@ -85,7 +85,7 @@ Notes:
 
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
-Some Python HTTP clients that you can use to retrieve HTML include `requests <https://pypi.org/project/requests/>`_ and `httpx <https://pypi.org/project/httpx/>`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+Some Python HTTP clients that you can use to retrieve HTML include `requests <https://pypi.org/project/requests/>`_, `httpx <https://pypi.org/project/httpx/>`_, and the `urllib.request module <https://docs.python.org/3/library/urllib.request.html>`_ included in Python's standard library.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
 
 
 Scrapers available for:
