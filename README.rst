@@ -309,6 +309,7 @@ Scrapers available for:
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://norecipes.com/ <https://norecipes.com/>`_
+- `https://nosalty.hu/ <https://nosalty.hu/>`_
 - `https://www.notenoughcinnamon.com/ <https://www.notenoughcinnamon.com/>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
 - `https://www.nrk.no/ <https://www.nrk.no/>`_
