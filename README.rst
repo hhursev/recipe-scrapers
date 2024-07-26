@@ -68,7 +68,7 @@ In the example above, we asked the library to scrape a web address (a.k.a. URL).
 
 Behind the scenes, the library made a web request to download the HTML from the URL, `parsed <https://en.wikipedia.org/wiki/Parsing>`_ the server's response with the assistance of other Python libraries, and then returned a `class instance <https://docs.python.org/3/tutorial/classes.html>`_ that we can use to access information about the recipe.
 
-In situations where the HTML for a recipe webpage is already available to us, or will be retrieved using some other mechanism, we can ask the library to skip the download step -- but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we use the Python `requests`_ library to perform the download:
+In situations where the HTML for a recipe webpage is already available to us, or will be retrieved using some other mechanism, we can ask the library to skip the download step -- but for accurate scraping it does need to know the URL that the HTML was retrieved from.  Here's an example where we adapt the code above to explicitly use the Python `requests`_ library to perform the download:
 
 .. code:: python
 
@@ -76,7 +76,8 @@ In situations where the HTML for a recipe webpage is already available to us, or
     from recipe_scrapers import scrape_html
 
     url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    html = requests.get(url).content
+    name = input('What is your name, burger seeker?\n')
+    html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
 
     scraper = scrape_html(html=html, org_url=url)
 
