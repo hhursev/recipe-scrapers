@@ -18,7 +18,7 @@ All of the examples below come from https://www.bbcgoodfood.com/recipes/monster-
 
 ```py
 >>> from recipe_scrapers import scrape_html
->>> scraper = scrape_html("https://www.bbcgoodfood.com/recipes/monster-cupcakes", online=True)
+>>> scraper = scrape_html(html=None, org_url="https://www.bbcgoodfood.com/recipes/monster-cupcakes", online=True)
 ```
 
 ## Mandatory functions
