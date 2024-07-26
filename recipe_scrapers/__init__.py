@@ -752,6 +752,15 @@ def scraper_exists_for(url_path: str) -> bool:
     return host_name in get_supported_urls()
 
 
+def _emit_scrape_me_deprecation_notice():
+    msg = (
+        "The 'recipe_scrapers.scrape_me' function is deprecated, and support for "
+        "it will be dropped in future.  When possible, please begin using the "
+        "preferred 'recipe_scrapers.scrape_html' function instead.\n"
+    )
+    warnings.warn(msg, DeprecationWarning)
+
+
 def _emit_options_deprecation_notice():
     msg = (
         "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
@@ -768,6 +777,8 @@ def _emit_options_deprecation_notice():
 
 def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
+
+    _emit_scrape_me_deprecation_notice()
 
     try:
         scraper = SCRAPERS[host_name]
