@@ -472,26 +472,43 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``>=python3.8`` installed, navigate to the directory where you want this project to live in and drop these lines
+### Instructions for Contributing to the Project
 
-.. code:: shell
+#### Prerequisites:
+- Ensure you have Python 3.8 or later installed.
 
-    git clone git@github.com:hhursev/recipe-scrapers.git &&
-    cd recipe-scrapers &&
-    python -m venv .venv &&
-    source .venv/bin/activate &&
-    python -m pip install --upgrade pip &&
-    pip install -r requirements-dev.txt &&
-    pip install pre-commit &&
-    pre-commit install &&
-    python -m unittest
+#### Linux and macOS:
+```sh
+git clone git@github.com:hhursev/recipe-scrapers.git &&
+cd recipe-scrapers &&
+python -m venv .venv &&
+source .venv/bin/activate &&
+python -m pip install --upgrade pip &&
+pip install -r requirements-dev.txt &&
+pip install pre-commit &&
+pre-commit install &&
+python -m unittest
+```
+#### Windows:
+```sh
+git clone git@github.com:hhursev/recipe-scrapers.git &&
+cd recipe-scrapers &&
+python -m venv .venv &&
+.venv\Scripts\activate &&
+python -m pip install --upgrade pip &&
+pip install -r requirements-dev.txt &&
+pip install pre-commit &&
+pre-commit install &&
+python -m unittest
+```
+### Running a Single Unit Test
 
-In case you want to run a single unittest for a newly developed scraper
+To run a single unit test for a newly developed scraper, replace <test_file_name> with the actual name of the test file:
 
-.. code:: shell
-
-    python -m unittest -k <test_file_name>
-
+```sh
+Copy code
+python -m unittest -k <test_file_name>
+```
 
 FAQ
 ---
