@@ -503,11 +503,11 @@ For Devs / Contribute
 
 ### Running a Single Unit Test
 
-To run a single unit test for a newly developed scraper, replace ``<test_file_name>`` with the actual name of the test file:
+To run a unit test for a specific scraper, replace ``<scraper_class_name>`` with the actual name of the scraper:
 
 .. code:: shell
 
-    python -m unittest -k <test_file_name>
+    python -m unittest -k <scraper_class_name>
 
 FAQ
 ---
