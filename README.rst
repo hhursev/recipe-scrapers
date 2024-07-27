@@ -476,7 +476,7 @@ For Devs / Contribute
 - Ensure you have Python 3.8 or later installed.
 
 #### Installation:
-- Navigate to the directory where you want this project to live in and follow the instructions below.
+- Navigate to the directory where you want this project to live in and follow the relevant instructions below.
 
 #### Linux and macOS:
 .. code:: shell
