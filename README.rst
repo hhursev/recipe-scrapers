@@ -476,37 +476,38 @@ For Devs / Contribute
 - Ensure you have Python 3.8 or later installed.
 
 #### Linux and macOS:
-```sh
-git clone git@github.com:hhursev/recipe-scrapers.git &&
-cd recipe-scrapers &&
-python -m venv .venv &&
-source .venv/bin/activate &&
-python -m pip install --upgrade pip &&
-pip install -r requirements-dev.txt &&
-pip install pre-commit &&
-pre-commit install &&
-python -m unittest
-```
+.. code:: shell
+
+    git clone git@github.com:hhursev/recipe-scrapers.git &&
+    cd recipe-scrapers &&
+    python -m venv .venv &&
+    source .venv/bin/activate &&
+    python -m pip install --upgrade pip &&
+    pip install -r requirements-dev.txt &&
+    pip install pre-commit &&
+    pre-commit install &&
+    python -m unittest
+
 #### Windows:
-```sh
-git clone git@github.com:hhursev/recipe-scrapers.git &&
-cd recipe-scrapers &&
-python -m venv .venv &&
-.venv\Scripts\activate &&
-python -m pip install --upgrade pip &&
-pip install -r requirements-dev.txt &&
-pip install pre-commit &&
-pre-commit install &&
-python -m unittest
-```
+.. code:: shell
+
+    git clone git@github.com:hhursev/recipe-scrapers.git &&
+    cd recipe-scrapers &&
+    python -m venv .venv &&
+    .venv\Scripts\activate &&
+    python -m pip install --upgrade pip &&
+    pip install -r requirements-dev.txt &&
+    pip install pre-commit &&
+    pre-commit install &&
+    python -m unittest
+
 ### Running a Single Unit Test
 
-To run a single unit test for a newly developed scraper, replace <test_file_name> with the actual name of the test file:
+To run a single unit test for a newly developed scraper, replace ``<test_file_name>`` with the actual name of the test file:
 
-```sh
-Copy code
-python -m unittest -k <test_file_name>
-```
+.. code:: shell
+
+    python -m unittest -k <test_file_name>
 
 FAQ
 ---
