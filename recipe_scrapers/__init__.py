@@ -220,6 +220,7 @@ from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
+from .myvegetarianroots import MyVegetarianRoots
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
@@ -469,6 +470,7 @@ SCRAPERS = {
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
+    MyVegetarianRoots.host(): MyVegetarianRoots,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
