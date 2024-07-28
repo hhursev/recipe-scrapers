@@ -220,6 +220,7 @@ from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .norecipes import NoRecipes
+from .nosalty import NoSalty
 from .notenoughcinnamon import NotEnoughCinnamon
 from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
@@ -617,6 +618,7 @@ SCRAPERS = {
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
     NoRecipes.host(): NoRecipes,
+    NoSalty.host(): NoSalty,
     NourishedByNutrition.host(): NourishedByNutrition,
     Number2Pencil.host(): Number2Pencil,
     NutritionByNathalie.host(): NutritionByNathalie,
@@ -750,21 +752,33 @@ def scraper_exists_for(url_path: str) -> bool:
     return host_name in get_supported_urls()
 
 
+def _emit_scrape_me_deprecation_notice():
+    msg = (
+        "The 'recipe_scrapers.scrape_me' function is deprecated, and support for "
+        "it will be dropped in future.  When possible, please begin using the "
+        "preferred 'recipe_scrapers.scrape_html' function instead.\n"
+    )
+    warnings.warn(msg, DeprecationWarning)
+
+
+def _emit_options_deprecation_notice():
+    msg = (
+        "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
+        "support for them will be dropped in future.  To migrate, please:\n"
+        "\n"
+        " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
+        "the proxies/timeout settings you want.\n"
+        " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+        " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
+        "function.\n"
+    )
+    warnings.warn(msg, DeprecationWarning)
+
+
 def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
     host_name = get_host_name(url_path)
 
-    if options:
-        msg = (
-            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
-            "support for them will be dropped in future.  To migrate, please:\n"
-            "\n"
-            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
-            "the proxies/timeout settings you want.\n"
-            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
-            " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
-            "function.\n"
-        )
-        warnings.warn(msg, DeprecationWarning)
+    _emit_scrape_me_deprecation_notice()
 
     try:
         scraper = SCRAPERS[host_name]
@@ -773,11 +787,15 @@ def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
             raise WebsiteNotImplementedError(host_name)
         else:
             options.pop("wild_mode")
+            if options:
+                _emit_options_deprecation_notice()
             wild_scraper = SchemaScraperFactory.generate(url_path, **options)
             if not wild_scraper.schema.data:
                 raise NoSchemaFoundInWildMode(url_path)
             return wild_scraper
 
+    if options:
+        _emit_options_deprecation_notice()
     return scraper(url_path, **options)
 
 
@@ -803,23 +821,18 @@ def scrape_html(
 
     host_name = get_host_name(org_url) if org_url is not None else None
 
-    if options:
-        msg = (
-            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
-            "support for them will be dropped in future.  To migrate, please:\n"
-            "\n"
-            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
-            "the proxies/timeout settings you want.\n"
-            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
-        )
-        warnings.warn(msg, DeprecationWarning)
-
     scraper = None
     if host_name:
         with contextlib.suppress(KeyError):
             scraper = SCRAPERS[host_name]
 
     if not scraper:
+        if not options.get("wild_mode", False):
+            raise WebsiteNotImplementedError(host_name)
+
+        options.pop("wild_mode")
+        if options:
+            _emit_options_deprecation_notice()
         wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
 
         if not wild_scraper.schema.data:
@@ -827,6 +840,8 @@ def scrape_html(
 
         return wild_scraper
 
+    if options:
+        _emit_options_deprecation_notice()
     return scraper(url=org_url, html=html, **options)
 
 
