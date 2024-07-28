@@ -13,7 +13,6 @@ MANDATORY_TESTS = [
     "host",
     "image",
     "ingredients",
-    "ingredient_groups",
     "instructions",
     "instructions_list",
     "language",
@@ -24,6 +23,7 @@ MANDATORY_TESTS = [
 ]
 
 OPTIONAL_TESTS = [
+    "ingredient_groups",
     "category",
     "description",
     "cook_time",
@@ -79,10 +79,14 @@ def test_func_factory(
     def test_func(self):
         with open(testjson, encoding="utf-8") as f:
             expect = json.load(f)
-            expect["ingredient_groups"] = [
-                IngredientGroup(**group)
-                for group in expect.get("ingredient_groups", [])
-            ]
+            expect["ingredient_groups"] = (
+                [
+                    IngredientGroup(**group)
+                    for group in expect.get("ingredient_groups", [])
+                ]
+                if "ingredient_groups" in expect
+                else [IngredientGroup(expect["ingredients"], purpose=None)]
+            )
 
         kwargs = {"wild_mode": True} if host not in SCRAPERS else {}
         actual = scrape_html(testhtml.read_text(encoding="utf-8"), host, **kwargs)
