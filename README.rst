@@ -141,6 +141,7 @@ Scrapers available for:
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
+- `https://celebratingsweets.com/ <https://celebratingsweets.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://www.chefnini.com/ <https://www.chefnini.com/>`_
 - `https://chefsavvy.com/ <https://chefsavvy.com/>`_
