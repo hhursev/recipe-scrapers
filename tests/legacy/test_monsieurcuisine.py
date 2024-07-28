@@ -1,4 +1,3 @@
-# mypy: allow-untyped-defs
 import responses
 
 from recipe_scrapers.monsieurcuisine import MonsieurCuisine
@@ -97,7 +96,7 @@ class TestMonsieurCuisineScraper(ScraperTest):
         self.assertEqual(None, self.harvester_class.cuisine())
 
     def test_site_name(self):
-        self.assertEqual(None, self.harvester_class.site_name())
+        self.assertEqual("Monsieur Cuisine", self.harvester_class.site_name())
 
     def test_category(self):
         self.assertEqual(

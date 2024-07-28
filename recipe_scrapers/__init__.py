@@ -81,6 +81,7 @@ from .delish import Delish
 from .dinneratthezoo import DinnerAtTheZoo
 from .dinnerthendessert import DinnerThenDessert
 from .dishnz import Dishnz
+from .dobruchutaktualitysk import DobruChutAktualitySK
 from .domesticateme import DomesticateMe
 from .downshiftology import Downshiftology
 from .dr import Dr
@@ -138,7 +139,7 @@ from .headbangerskitchen import HeadbangersKitchen
 from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
-from .herseyland import HerseyLand
+from .hersheyland import HersheyLand
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
 from .ica import Ica
@@ -185,6 +186,7 @@ from .lekkerensimpel import LekkerEnSimpel
 from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littlespicejar import LittleSpiceJar
+from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
@@ -259,6 +261,7 @@ from .realfoodtesco import RealFoodTesco
 from .realsimple import RealSimple
 from .receitasnestlebr import ReceitasNestleBR
 from .recept import Recept
+from .receptyprevas import ReceptyPreVas
 from .recipegirl import RecipeGirl
 from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
@@ -269,7 +272,7 @@ from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
-from .saboresanjinomoto import SaboresAnjinomoto
+from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
@@ -335,6 +338,7 @@ from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
 from .vanillaandbean import VanillaAndBean
+from .varechapravdask import VarechaPravdaSK
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
@@ -386,6 +390,7 @@ SCRAPERS = {
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
     Bakels.host(): Bakels,
+    Bakels.host(domain="co.uk"): Bakels,
     BakingSense.host(): BakingSense,
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
@@ -433,6 +438,7 @@ SCRAPERS = {
     DinnerAtTheZoo.host(): DinnerAtTheZoo,
     DinnerThenDessert.host(): DinnerThenDessert,
     Dishnz.host(): Dishnz,
+    DobruChutAktualitySK.host(): DobruChutAktualitySK,
     EatLiveRun.host(): EatLiveRun,
     ElaVegan.host(): ElaVegan,
     EvolvingTable.host(): EvolvingTable,
@@ -451,6 +457,7 @@ SCRAPERS = {
     KitchenDreaming.host(): KitchenDreaming,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
+    LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
     McCormick.host(): McCormick,
     ModernHoney.host(): ModernHoney,
@@ -465,6 +472,7 @@ SCRAPERS = {
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
+    ReceptyPreVas.host(): ReceptyPreVas,
     RecipeGirl.host(): RecipeGirl,
     RicettePerBimby.host(): RicettePerBimby,
     SandwhichTribunal.host(): SandwhichTribunal,
@@ -542,7 +550,7 @@ SCRAPERS = {
     HelloFresh.host(domain="nl"): HelloFresh,
     HelloFresh.host(domain="no"): HelloFresh,
     HelloFresh.host(domain="se"): HelloFresh,
-    HerseyLand.host(): HerseyLand,
+    HersheyLand.host(): HersheyLand,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
     Ica.host(): Ica,
@@ -656,7 +664,7 @@ SCRAPERS = {
     Ricetta.host(): Ricetta,
     RosannaPansino.host(): RosannaPansino,
     RutgerBakt.host(): RutgerBakt,
-    SaboresAnjinomoto.host(): SaboresAnjinomoto,
+    SaboresAjinomoto.host(): SaboresAjinomoto,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
     SaltPepperSkillet.host(): SaltPepperSkillet,
@@ -712,6 +720,7 @@ SCRAPERS = {
     Unsophisticook.host(): Unsophisticook,
     Valdemarsro.host(): Valdemarsro,
     VanillaAndBean.host(): VanillaAndBean,
+    VarechaPravdaSK.host(): VarechaPravdaSK,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,

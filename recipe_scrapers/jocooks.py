@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 from ._utils import get_equipment

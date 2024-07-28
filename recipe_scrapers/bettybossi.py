@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from typing import Dict, Optional, Tuple, Union
 
 from requests import Session
@@ -12,6 +11,10 @@ class BettyBossi(AbstractScraper):
     @classmethod
     def host(cls):
         return "bettybossi.ch"
+
+    def site_name(self):
+        """Self-titled website"""
+        return self.author()
 
     def __init__(
         self,

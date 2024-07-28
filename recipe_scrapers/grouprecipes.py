@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -8,6 +7,9 @@ class GroupRecipes(AbstractScraper):
     @classmethod
     def host(cls):
         return "grouprecipes.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Group Recipes")
 
     def title(self):
         return normalize_string(self.soup.find("title").text)

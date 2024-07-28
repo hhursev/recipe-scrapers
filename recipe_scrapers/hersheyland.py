@@ -1,16 +1,18 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_equipment
 
 
-class HerseyLand(AbstractScraper):
+class HersheyLand(AbstractScraper):
     @classmethod
     def host(cls):
         return "hersheyland.com"
 
     def author(self):
-        return "Herseyland"
+        raise StaticValueException(return_value="Hersheyland")
+
+    def site_name(self):
+        raise StaticValueException(return_value="Hersheyland")
 
     def equipment(self):
         equipment_items = [

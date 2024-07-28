@@ -1,12 +1,14 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class Ricetta(AbstractScraper):
     @classmethod
     def host(cls):
         return "ricetta.it"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Ricetta.it")
 
     def instructions(self):
         instructions_list = []

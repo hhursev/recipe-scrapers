@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from .mob import Mob
 
 
