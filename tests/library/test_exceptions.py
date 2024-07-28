@@ -4,15 +4,10 @@ from recipe_scrapers import (
     NoSchemaFoundInWildMode,
     WebsiteNotImplementedError,
     scrape_html,
-    scrape_me,
 )
 
 
 class TestExceptions(unittest.TestCase):
-    def test_website_not_implemented_error_legacy(self):
-        with self.assertRaises(WebsiteNotImplementedError):
-            scrape_me("https://example.com/recipe")
-
     def test_website_not_implemented_error(self):
         with self.assertRaises(WebsiteNotImplementedError):
             scrape_html(html="<html></html>", org_url="http://example.com/recipe")
