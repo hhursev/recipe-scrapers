@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class PeelWithZeal(AbstractScraper):
@@ -8,15 +9,12 @@ class PeelWithZeal(AbstractScraper):
         return "peelwithzeal.com"
 
     def equipment(self):
-        return list(
-            dict.fromkeys(
-                (equip.get_text())
-                for equip in self.soup.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-                if equip.get_text()
-            )
-        )
+        equipment_items = [
+            equip.get_text()
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if equip.get_text()
+        ]
+        return get_equipment(equipment_items)
 
     def ingredient_groups(self):
         return group_ingredients(
