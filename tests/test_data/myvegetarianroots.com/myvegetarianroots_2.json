@@ -1,8 +1,8 @@
 {
-  "host": "myvegetarianroots.com",
-  "canonical_url": "https://myvegetarianroots.com/falafel/",
   "author": "Hetal Desai",
+  "canonical_url": "https://myvegetarianroots.com/falafel/",
   "site_name": "My Vegetarian Roots",
+  "host": "myvegetarianroots.com",
   "language": "en-US",
   "title": "Falafel",
   "ingredients": [
@@ -116,12 +116,12 @@
     "Mix everything listed under \"Mixed Veggies/Salad\". Make sure all the veggies are well coated with Creamy Tahini Sauce. Use more or less tahini sauce as you like!",
     "Warm pita pocket for few second. Pack it half way through with \"Mixed Veggies/Salad\". Drizzle spicy red sauce, top it with falafel. Drizzle white & red sauces. Top it with more \"Mixed Veggies/Salad\" and enjoy!!"
   ],
-  "total_time": 60,
-  "prep_time": 30,
-  "cook_time": 30,
+  "category": "Main Course",
   "yields": "40 servings",
-  "image": "https://myvegetarianroots.com/wp-content/uploads/2022/06/DSC_0058.jpg",
   "description": "Falafel - deep fried assorted lentil and herbs balls with flavored crunchy salad that is loaded with spicy garlicky red pepper sauce and mild creamy tahini sauce",
+  "total_time": 60,
+  "cook_time": 30,
+  "prep_time": 30,
   "cuisine": "Mediterranean",
-  "category": "Main Course"
+  "image": "https://myvegetarianroots.com/wp-content/uploads/2022/06/DSC_0058.jpg"
 }

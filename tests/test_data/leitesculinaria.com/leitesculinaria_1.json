@@ -1,8 +1,8 @@
 {
-  "host": "leitesculinaria.com",
+  "author": "David Leite",
   "canonical_url": "https://leitesculinaria.com/67202/recipes-homemade-sriracha-sauce.html",
   "site_name": "Leite's Culinaria",
-  "author": "David Leite",
+  "host": "leitesculinaria.com",
   "language": "en-US",
   "title": "Homemade Sriracha Sauce",
   "ingredients": [
@@ -45,11 +45,14 @@
     "Season",
     "Taste and adjust the seasoning and consistency of the final sauce, adding additional vinegar, water, salt, granulated sugar, or garlic powder to suit your taste. Transfer to a glass jar, close the lid tightly, and refrigerate for up to 6 months."
   ],
+  "category": "Condiments",
+  "yields": "16 servings",
+  "description": "This homemade Sriracha sauce, made with everyday ingredients including hot peppers, vinegar, garlic, and salt, is easy to make, incendiary in taste, and less salty than the traditional version.",
   "total_time": 10080,
   "prep_time": 5,
-  "yields": "16 servings",
-  "image": "https://leitesculinaria.com/wp-content/uploads/2023/11/homemade-sriracha-sauce-1200.jpg",
-  "description": "This homemade Sriracha sauce, made with everyday ingredients including hot peppers, vinegar, garlic, and salt, is easy to make, incendiary in taste, and less salty than the traditional version.",
+  "cuisine": "Thai",
+  "ratings": 4.85,
+  "ratings_count": 63.0,
   "nutrients": {
     "servingSize": "2 tablespoons",
     "calories": "34 kcal",
@@ -61,12 +64,9 @@
     "fiberContent": "1 g",
     "sugarContent": "5 g"
   },
-  "cuisine": "Thai",
-  "category": "Condiments",
+  "image": "https://leitesculinaria.com/wp-content/uploads/2023/11/homemade-sriracha-sauce-1200.jpg",
   "keywords": [
     "homemade spicy sriracha sauce",
     "vinegar pepper sauce"
-  ],
-  "ratings": 4.85,
-  "ratings_count": 63.0
+  ]
 }

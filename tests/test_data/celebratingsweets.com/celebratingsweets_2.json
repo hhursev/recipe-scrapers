@@ -1,8 +1,8 @@
 {
-  "host": "celebratingsweets.com",
-  "canonical_url": "https://celebratingsweets.com/chocolate-pudding-cake/",
   "author": "Allison",
+  "canonical_url": "https://celebratingsweets.com/chocolate-pudding-cake/",
   "site_name": "Celebrating Sweets",
+  "host": "celebratingsweets.com",
   "language": "en-US",
   "title": "Chocolate Pudding Cake",
   "ingredients": [
@@ -58,12 +58,15 @@
     "Slowly and carefully pour the boiling water evenly over the top. TIP: I pour the water over the back of a large spoon and slowly move it around the pan while pouring. Do not stir or disturb the cake batter underneath.",
     "Transfer to the oven and bake for 25-30 minutes, until the cake layer (on top) is cooked through. The pudding sauce should be bubbling gently around the sides of the pan. Place on a wire rack to cool for about 10 minutes. Serve warm, scooping the cake into bowls and spooning the sauce over the top. Recommended garnishes: vanilla ice cream or whipped cream."
   ],
-  "total_time": 45,
-  "prep_time": 20,
-  "cook_time": 25,
+  "category": "Dessert",
   "yields": "8 servings",
-  "image": "https://celebratingsweets.com/wp-content/uploads/2020/01/Chocolate-Pudding-Cake-1-4.jpg",
   "description": "This chocolate pudding cake features two delicious layers that form while baking: chocolate cake on top and creamy chocolate pudding sauce on the bottom. Serve this dessert warm with vanilla ice cream or whipped cream.",
+  "total_time": 45,
+  "cook_time": 25,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 18,
   "nutrients": {
     "calories": "341 kcal",
     "carbohydrateContent": "62 g",
@@ -76,12 +79,9 @@
     "sugarContent": "45 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American",
-  "category": "Dessert",
+  "image": "https://celebratingsweets.com/wp-content/uploads/2020/01/Chocolate-Pudding-Cake-1-4.jpg",
   "keywords": [
     "Chocolate Pudding Cake",
     "Pudding Cake"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 18
+  ]
 }

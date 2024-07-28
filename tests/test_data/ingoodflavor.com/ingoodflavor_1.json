@@ -1,8 +1,8 @@
 {
-  "host": "ingoodflavor.com",
+  "author": "In Good Flavor",
   "canonical_url": "https://ingoodflavor.com/2017/10/25/cheesy-linguica-and-potato-bake/",
   "site_name": "In Good Flavor",
-  "author": "In Good Flavor",
+  "host": "ingoodflavor.com",
   "language": "en-US",
   "title": "Cheesy Linguica and Potato Bake",
   "ingredients": [
@@ -37,19 +37,19 @@
     "Spray a 9″ x 13″ baking dish with cooking spray. Spread 1/3 of the potato mixture on the bottom. Add 1/3 of the cheese. Repeat layering 1/3 of potatoes, 1/3 of cheese two more times, ending with the cheese.",
     "Bake on the top half of the oven for 15-20 minutes or until cheese is bubbly."
   ],
-  "total_time": 35,
-  "prep_time": 5,
-  "cook_time": 30,
-  "yields": "8 servings",
-  "image": "https://ingoodflavor.com/wp-content/uploads/2021/08/IMG_5607v1.jpg",
-  "description": "This Cheesy Linguica and Potato Bake has ground Portuguese linguica, tender potatoes, and gooey shredded cheese. It’s hearty, comforting, and perfect for breakfast, brunch, or any time of day.",
-  "cuisine": "American",
   "category": "Breakfast,Main Dish",
+  "yields": "8 servings",
+  "description": "This Cheesy Linguica and Potato Bake has ground Portuguese linguica, tender potatoes, and gooey shredded cheese. It’s hearty, comforting, and perfect for breakfast, brunch, or any time of day.",
+  "total_time": 35,
+  "cook_time": 30,
+  "prep_time": 5,
+  "cuisine": "American",
+  "cooking_method": "Stovetop Cooked",
+  "image": "https://ingoodflavor.com/wp-content/uploads/2021/08/IMG_5607v1.jpg",
   "keywords": [
     "Breakfast",
     "Linguica",
     "Potato",
     "Cheesy Potato"
-  ],
-  "cooking_method": "Stovetop Cooked"
+  ]
 }

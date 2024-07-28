@@ -1,8 +1,8 @@
 {
-  "host": "kitchendreaming.com",
+  "author": "Ronda Eagle | Kitchen Dreaming",
   "canonical_url": "https://kitchendreaming.com/indian-butter-chicken-recipe/",
   "site_name": "KitchenDreaming",
-  "author": "Ronda Eagle | Kitchen Dreaming",
+  "host": "kitchendreaming.com",
   "language": "en-US",
   "title": "Chicken Makhana - Mild Indian Butter Chicken",
   "ingredients": [
@@ -76,11 +76,14 @@
     "Pour the sauce back into the pan. Stir in the cream, sugar, and crushed fenugreek leaves. Add the chicken and any collected juices back into the pan and cook for an additional 5-10 minutes or until the chicken is cooked through.",
     "Garnish with chopped cilantro and serve with rice and Naan bread."
   ],
+  "category": "Dinner,Main,Main Course,main meal",
+  "yields": "8 servings",
+  "description": "Indian Butter Chicken ~ also known as Chicken Makhani, is a classic, flavorful Indian dish. In this easy, make-at-home version of the restaurant favorite, you control the heat. Make it as spicy or mild as you want! This Butter Chicken recipe uses flavorful spices like garam masala, coriander, & turmeric mixed with tender chicken, cream, butter & tomatoes. There's plenty of that mild curry sauce to soak up with naan or rice! Simply marinade the chicken, and then this dish is ready in 30 minutes!",
   "total_time": 30,
   "cook_time": 30,
-  "yields": "8 servings",
-  "image": "https://kitchendreaming.com/wp-content/uploads/2024/03/Butter-Chicken_KD-1.jpg",
-  "description": "Indian Butter Chicken ~ also known as Chicken Makhani, is a classic, flavorful Indian dish. In this easy, make-at-home version of the restaurant favorite, you control the heat. Make it as spicy or mild as you want! This Butter Chicken recipe uses flavorful spices like garam masala, coriander, & turmeric mixed with tender chicken, cream, butter & tomatoes. There's plenty of that mild curry sauce to soak up with naan or rice! Simply marinade the chicken, and then this dish is ready in 30 minutes!",
+  "cuisine": "Indian",
+  "ratings": 5.0,
+  "ratings_count": 1.0,
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "468 kcal",
@@ -95,13 +98,10 @@
     "sugarContent": "6 g",
     "unsaturatedFatContent": "19 g"
   },
-  "cuisine": "Indian",
-  "category": "Dinner,Main,Main Course,main meal",
+  "image": "https://kitchendreaming.com/wp-content/uploads/2024/03/Butter-Chicken_KD-1.jpg",
   "keywords": [
     "chicken makhala",
     "Garlic Butter Chicken",
     "murgh makhala"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 1.0
+  ]
 }

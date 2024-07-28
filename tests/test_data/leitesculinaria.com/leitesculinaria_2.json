@@ -1,8 +1,8 @@
 {
-  "host": "leitesculinaria.com",
+  "author": "David Leite",
   "canonical_url": "https://leitesculinaria.com/7654/recipes-portuguese-stewed-beef-cacoila.html",
   "site_name": "Leite's Culinaria",
-  "author": "David Leite",
+  "host": "leitesculinaria.com",
   "language": "en-US",
   "title": "Caçoila | Portuguese Stewed Beef",
   "ingredients": [
@@ -64,12 +64,15 @@
     "Serve",
     "Remove the bay leaves and the cheesecloth pouch or teaball. If desired, serve the caçoila with boiled white potatoes, roasted red peppers, and cooked greens."
   ],
-  "total_time": 1440,
-  "prep_time": 20,
-  "cook_time": 180,
+  "category": "Mains",
   "yields": "8 servings",
-  "image": "https://leitesculinaria.com/wp-content/uploads/2001/05/beef-cacoila.jpg",
   "description": "Caçoila, or Portuguese stewed beef, is a comforting braise of beef, red peppers, and aromatics, cooked very slowly in a red wine, tomato, and butter sauce.",
+  "total_time": 1440,
+  "cook_time": 180,
+  "prep_time": 20,
+  "cuisine": "Azorean",
+  "ratings": 4.88,
+  "ratings_count": 24.0,
   "nutrients": {
     "servingSize": "1 portion",
     "calories": "567 kcal",
@@ -84,13 +87,10 @@
     "sugarContent": "2 g",
     "unsaturatedFatContent": "19 g"
   },
-  "cuisine": "Azorean",
-  "category": "Mains",
+  "image": "https://leitesculinaria.com/wp-content/uploads/2001/05/beef-cacoila.jpg",
   "keywords": [
     "braised beef",
     "red wine-butter sauce",
     "stewed beef"
-  ],
-  "ratings": 4.88,
-  "ratings_count": 24.0
+  ]
 }

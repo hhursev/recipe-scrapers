@@ -1,8 +1,8 @@
 {
-  "host": "kitchendreaming.com",
+  "author": "Ronda Eagle | Kitchen Dreaming",
   "canonical_url": "https://kitchendreaming.com/crock-pot-buffalo-chicken-meatballs/",
   "site_name": "KitchenDreaming",
-  "author": "Ronda Eagle | Kitchen Dreaming",
+  "host": "kitchendreaming.com",
   "language": "en-US",
   "title": "Crock Pot Buffalo Chicken Meatballs",
   "ingredients": [
@@ -51,12 +51,15 @@
     "Remove the meatballs from the oven and place into the slow cooker and gently toss to combine with the sauce. Cover and cook on low heat for 2 hours.",
     "To serve: Either insert a carrot or celery sticks into the meatballs for serving or serve them with the carrots and celery on the side allowing guests to chose their stick for an interactive appetizer."
   ],
-  "total_time": 130,
-  "prep_time": 10,
-  "cook_time": 120,
+  "category": "Appetizer",
   "yields": "20 servings",
-  "image": "https://kitchendreaming.com/wp-content/uploads/2016/10/Crock-Pot-Buffalo-Chicken-Meatballs_2_650.jpg",
   "description": "Buffalo Chicken wings are a favorite American appetizer or meal. So when I decided to turn them into a fun party snack, I knew they would be an instant hit.",
+  "total_time": 130,
+  "cook_time": 120,
+  "prep_time": 10,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1.0,
   "nutrients": {
     "servingSize": "2 meatballs",
     "calories": "34 kcal",
@@ -70,15 +73,12 @@
     "proteinContent": "3 g",
     "cholesterolContent": "18 mg"
   },
-  "cuisine": "American",
-  "category": "Appetizer",
+  "image": "https://kitchendreaming.com/wp-content/uploads/2016/10/Crock-Pot-Buffalo-Chicken-Meatballs_2_650.jpg",
   "keywords": [
     "Buffalo chicken recipes",
     "Crock Pot Buffalo Chicken Meatballs",
     "easy gameday appetizers",
     "Football foods",
     "ground chicken recipe"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 1.0
+  ]
 }

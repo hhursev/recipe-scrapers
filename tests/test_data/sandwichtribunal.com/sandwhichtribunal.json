@@ -1,8 +1,8 @@
 {
-  "host": "sandwichtribunal.com",
+  "author": "Jim Behymer",
   "canonical_url": "https://www.sandwichtribunal.com/2023/01/barbecue-chicken-with-alabama-white-sauce/",
   "site_name": "Sandwich Tribunal",
-  "author": "Jim Behymer",
+  "host": "sandwichtribunal.com",
   "language": "en-US",
   "title": "Alabama White Sauce",
   "ingredients": [
@@ -37,17 +37,17 @@
     "Mix all ingredients together and taste. Season as needed and hold in refrigerator for at least 1 hour.",
     "Serve with barbecue chicken, pork, or turkey"
   ],
+  "category": "Sauce",
+  "yields": "48 servings",
+  "description": "a mayonnaise-and-vinegar based sauce for barbecue chicken",
   "total_time": 70,
   "prep_time": 10,
-  "yields": "48 servings",
-  "image": "https://www.sandwichtribunal.com/wp-content/uploads/2023/01/IMG_7386.jpg",
-  "description": "a mayonnaise-and-vinegar based sauce for barbecue chicken",
+  "cuisine": "American,Southern",
   "nutrients": {
     "calories": "70 kcal",
     "servingSize": "1 serving"
   },
-  "cuisine": "American,Southern",
-  "category": "Sauce",
+  "image": "https://www.sandwichtribunal.com/wp-content/uploads/2023/01/IMG_7386.jpg",
   "keywords": [
     "alabama",
     "decatur",

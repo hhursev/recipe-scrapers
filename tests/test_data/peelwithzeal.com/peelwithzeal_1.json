@@ -1,8 +1,8 @@
 {
-  "host": "peelwithzeal.com",
+  "author": "Jen Wooster",
   "canonical_url": "https://www.peelwithzeal.com/molasses-baked-beans/",
   "site_name": "Peel with Zeal",
-  "author": "Jen Wooster",
+  "host": "peelwithzeal.com",
   "language": "en-US",
   "title": "Molasses Baked Beans with Bacon",
   "ingredients": [
@@ -49,12 +49,19 @@
     "Bake",
     "Pour into a large casserole and bake covered for about 20 minutes. Remove the lid and cook for an additional 25 minutes."
   ],
-  "total_time": 65,
-  "prep_time": 20,
-  "cook_time": 45,
+  "category": "Side Dish",
   "yields": "12 servings",
-  "image": "https://www.peelwithzeal.com/wp-content/uploads/2022/06/molasses-baked-beans.jpg",
   "description": "Sweet and smokey gluten-free baked beans with molasses and bacon is your new favorite BBQ side dish. Not overly sweet with the perfect amount of tang.",
+  "total_time": 65,
+  "cook_time": 45,
+  "prep_time": 20,
+  "cuisine": "American,BBQ,Southern",
+  "ratings": 5.0,
+  "ratings_count": 11,
+  "equipment": [
+    "High sided saute pan",
+    "9x13 casserole dish"
+  ],
   "nutrients": {
     "calories": "233 kcal",
     "carbohydrateContent": "19 g",
@@ -63,17 +70,10 @@
     "fiberContent": "1 g",
     "servingSize": "1 serving"
   },
-  "cuisine": "American,BBQ,Southern",
-  "category": "Side Dish",
+  "image": "https://www.peelwithzeal.com/wp-content/uploads/2022/06/molasses-baked-beans.jpg",
   "keywords": [
     "baked beans using canned beans",
     "baked beans with molasses",
     "gluten-free baked beans"
-  ],
-  "equipment": [
-    "High sided saute pan",
-    "9x13 casserole dish"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 11
+  ]
 }
