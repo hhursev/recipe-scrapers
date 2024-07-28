@@ -27,63 +27,54 @@
 ------
 
 
-A simple web scraping tool for recipe sites.
+A simple scraping tool for recipe webpages.
+
+
+Netiquette
+----------
+
+If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
+
+Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
+
+Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
+
+
+Getting Started
+---------------
+
+Start by using `Python's built-in package installer <https://docs.python.org/3/installing/index.html>`_, ``pip``, to install the library:
 
 .. code:: shell
 
-    pip install recipe-scrapers
+    python -m pip install recipe-scrapers
 
-then:
+This should produce output about the installation process, with the final line reading: ``Successfully installed recipe-scrapers-<version-number>``.
 
-.. code:: python
+To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below (on the lines containing the ``>>>`` prompt):
 
-    from recipe_scrapers import scrape_me
+.. code:: pycon
 
-    scraper = scrape_me('https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/')
-
-    # Q: What if the recipe site I want to extract information from is not listed below?
-    # A: You can give it a try with the wild_mode option! If there is Schema/Recipe available it will work just fine.
-    scraper = scrape_me('https://www.feastingathome.com/tomato-risotto/', wild_mode=True)
-
-    scraper.host()
-    scraper.title()
-    scraper.total_time()
-    scraper.image()
-    scraper.ingredients()
-    scraper.ingredient_groups()
-    scraper.instructions()
-    scraper.instructions_list()
-    scraper.yields()
-    scraper.to_json()
-    scraper.links()
-    scraper.nutrients()  # not always available
-    scraper.canonical_url()  # not always available
-    scraper.equipment()  # not always available
-    scraper.cooking_method()  # not always available
-    scraper.keywords()  # not always available
-    scraper.dietary_restrictions() # not always available
-
-You also have an option to scrape html-like content
-
-.. code:: python
-
-    import requests
-    from recipe_scrapers import scrape_html
-
-    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    html = requests.get(url).content
-
-    scraper = scrape_html(html=html, org_url=url)
-
-    scraper.title()
-    scraper.total_time()
-    # etc...
+    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from recipe_scrapers import scrape_html
+    >>> url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    >>> name = input('What is your name, burger seeker?\n')
+    >>> html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
+    >>> scraper = scrape_html(html, org_url=url)
+    >>> help(scraper)
 
 Notes:
 
 - ``scraper.links()`` returns a list of dictionaries containing all of the <a> tag attributes. The attribute names are the dictionary keys.
 
-Some Python HTTP clients that you can use to retrieve HTML include `requests <https://pypi.org/project/requests/>`_ and `httpx <https://pypi.org/project/httpx/>`_.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+Some Python HTTP clients that you can use to retrieve HTML include `requests`_, `httpx`_, and the `urllib.request module`_ included in Python's standard library.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
+
+.. _requests: https://pypi.org/project/requests/
+
+.. _httpx: https://pypi.org/project/httpx/
+
+.. _urllib.request module: https://docs.python.org/3/library/urllib.request.html
 
 
 Scrapers available for:
@@ -312,6 +303,7 @@ Scrapers available for:
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://norecipes.com/ <https://norecipes.com/>`_
+- `https://nosalty.hu/ <https://nosalty.hu/>`_
 - `https://www.notenoughcinnamon.com/ <https://www.notenoughcinnamon.com/>`_
 - `https://nourishedbynutrition.com/ <https://nourishedbynutrition.com/>`_
 - `https://www.nrk.no/ <https://www.nrk.no/>`_
@@ -509,24 +501,51 @@ In case you want to run a single unittest for a newly developed scraper
 
 FAQ
 ---
-- **How do I know if a website has a Recipe Schema?** Run in python shell:
+**What if the recipe site I want to extract information from is not listed above?**
+
+You can give it a try with the ``wild_mode`` option!
+
+If there is Schema/Recipe available it will work just fine.
 
 .. code:: python
 
-    from recipe_scrapers import scrape_me
-    scraper = scrape_me('<url of a recipe from the site>', wild_mode=True)
-    # if no error is raised - there's schema available:
+    url = 'https://www.feastingathome.com/tomato-risotto/'
+    name = input('What is your name, risotto sampler?\n')
+    html = requests.get(url, headers={"User-Agent": f"Risotto Sampler {name}"}).content
+    scraper = scrape_html(html, org_url=url, wild_mode=True)
+
+    scraper.host()
     scraper.title()
-    scraper.instructions()  # etc.
+    scraper.total_time()
+    scraper.image()
+    scraper.ingredients()
+    scraper.ingredient_groups()
+    scraper.instructions()
+    scraper.instructions_list()
+    scraper.yields()
+    scraper.to_json()
+    scraper.links()
+    scraper.nutrients()  # not always available
+    scraper.canonical_url()  # not always available
+    scraper.equipment()  # not always available
+    scraper.cooking_method()  # not always available
+    scraper.keywords()  # not always available
+    scraper.dietary_restrictions() # not always available
 
-Netiquette
-----------
 
-If you're using this library to collect large numbers of recipes from the web, please use the software responsibly and try to avoid creating high volumes of network traffic.
+**How do I know if a website has a Recipe Schema?**
 
-Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
+Run in python shell:
 
-Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
+.. code:: pycon
+
+    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from recipe_scrapers import scrape_html
+    >>> scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
+    >>> # if no error is raised - there's schema available:
+    >>> scraper.title()
+    >>> scraper.instructions()  # etc.
 
 
 Special thanks to:
