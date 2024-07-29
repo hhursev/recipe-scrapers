@@ -1,11 +1,34 @@
 from __future__ import annotations
 
-import contextlib
-import warnings
-from typing import Any
+__all__ = (
+    "AbstractScraper",
+    "ElementNotFoundInHtml",
+    "FieldNotProvidedByWebsiteException",
+    "NoSchemaFoundInWildMode",
+    "StaticValueException",
+    "WebsiteNotImplementedError",
+    "scrape_html",
+)
 
-from ._abstract import AbstractScraper
-from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
+import warnings
+
+try:
+    # requests is an optional dependency; we can provide better error messages
+    # when we know that it's unavailable before a user attempts a web request
+    import requests
+except ImportError as e:
+    requests_import_error: Exception | None = e
+else:
+    requests_import_error = None
+
+from ._abstract import HEADERS, AbstractScraper
+from ._exceptions import (
+    ElementNotFoundInHtml,
+    FieldNotProvidedByWebsiteException,
+    NoSchemaFoundInWildMode,
+    StaticValueException,
+    WebsiteNotImplementedError,
+)
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .aberlehome import AberleHome
@@ -26,6 +49,7 @@ from .alltomat import AllTomat
 from .altonbrown import AltonBrown
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
+from .americastestkitchen import AmericasTestKitchen
 from .archanaskitchen import ArchanasKitchen
 from .argiro import Argiro
 from .arla import Arla
@@ -66,8 +90,9 @@ from .cookieandkate import CookieAndKate
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
+from .cookscountry import CooksCountry
+from .cooksillustrated import CooksIllustrated
 from .cooktalk import CookTalk
-from .coopse import CoopSE
 from .copykat import CopyKat
 from .costco import Costco
 from .countryliving import CountryLiving
@@ -127,7 +152,6 @@ from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
 from .gourmettraveller import GourmetTraveller
-from .goustojson import GoustoJson
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
@@ -170,7 +194,6 @@ from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
-from .kptncook import KptnCook
 from .kristineskitchenblog import KristinesKitchenBlog
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
@@ -188,9 +211,7 @@ from .livelytable import LivelyTable
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madensverden import MadensVerden
-from .madewithlau import MadeWithLau
 from .madsvin import Madsvin
-from .marleyspoon import MarleySpoon
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -206,7 +227,6 @@ from .mobkitchen import MobKitchen
 from .modernhoney import ModernHoney
 from .momontimeout import MomOnTimeout
 from .momswithcrockpots import MomsWithCrockPots
-from .monsieurcuisine import MonsieurCuisine
 from .motherthyme import MotherThyme
 from .moulinex import Moulinex
 from .mundodereceitasbimby import MundoDeReceitasBimby
@@ -220,6 +240,7 @@ from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
 from .norecipes import NoRecipes
+from .nosalty import NoSalty
 from .notenoughcinnamon import NotEnoughCinnamon
 from .nourishedbynutrition import NourishedByNutrition
 from .nrkmat import NRKMat
@@ -350,7 +371,6 @@ from .wholefoods import WholeFoods
 from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
 from .womensweeklyfood import WomensWeeklyFood
-from .woolworths import Woolworths
 from .woop import Woop
 from .yemek import Yemek
 from .yummly import Yummly
@@ -377,6 +397,7 @@ SCRAPERS = {
     AltonBrown.host(): AltonBrown,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
+    AmericasTestKitchen.host(): AmericasTestKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     Argiro.host(): Argiro,
     Arla.host(): Arla,
@@ -420,7 +441,8 @@ SCRAPERS = {
     CookieAndKate.host(): CookieAndKate,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
-    CoopSE.host(): CoopSE,
+    CooksCountry.host(): CooksCountry,
+    CooksIllustrated.host(): CooksIllustrated,
     CopyKat.host(): CopyKat,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
@@ -515,7 +537,6 @@ SCRAPERS = {
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GoodHousekeeping.host(): GoodHousekeeping,
-    GoustoJson.host(): GoustoJson,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,
     GroupRecipes.host(): GroupRecipes,
@@ -568,8 +589,6 @@ SCRAPERS = {
     Kochbar.host(): Kochbar,
     Kochbucher.host(): Kochbucher,
     Koket.host(): Koket,
-    KptnCook.host(): KptnCook,
-    KptnCook.host(subdomain="sharing"): KptnCook,
     KuchniaDomowa.host(): KuchniaDomowa,
     KwestiaSmaku.host(): KwestiaSmaku,
     LAtelierDeRoxane.host(): LAtelierDeRoxane,
@@ -584,15 +603,7 @@ SCRAPERS = {
     Lovingitvegan.host(): Lovingitvegan,
     Maangchi.host(): Maangchi,
     MadensVerden.host(): MadensVerden,
-    MadeWithLau.host(): MadeWithLau,
     Madsvin.host(): Madsvin,
-    MarleySpoon.host(): MarleySpoon,
-    MarleySpoon.host(domain="de"): MarleySpoon,
-    MarleySpoon.host(domain="com.au"): MarleySpoon,
-    MarleySpoon.host(domain="be"): MarleySpoon,
-    MarleySpoon.host(domain="nl"): MarleySpoon,
-    MarleySpoon.host(domain="at"): MarleySpoon,
-    MarleySpoon.host(domain="se"): MarleySpoon,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
@@ -605,7 +616,6 @@ SCRAPERS = {
     Mob.host(): Mob,
     MobKitchen.host(): MobKitchen,
     MomsWithCrockPots.host(): MomsWithCrockPots,
-    MonsieurCuisine.host(): MonsieurCuisine,
     MotherThyme.host(): MotherThyme,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyKitchen101.host(): MyKitchen101,
@@ -617,6 +627,7 @@ SCRAPERS = {
     NIHHealthyEating.host(): NIHHealthyEating,
     NYTimes.host(): NYTimes,
     NoRecipes.host(): NoRecipes,
+    NoSalty.host(): NoSalty,
     NourishedByNutrition.host(): NourishedByNutrition,
     Number2Pencil.host(): Number2Pencil,
     NutritionByNathalie.host(): NutritionByNathalie,
@@ -730,7 +741,6 @@ SCRAPERS = {
     WomensWeeklyFood.host(): WomensWeeklyFood,
     Woop.host(): Woop,
     WikiCookbook.host(): WikiCookbook,
-    Woolworths.host(): Woolworths,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
     ZauberTopf.host(): ZauberTopf,
@@ -750,85 +760,100 @@ def scraper_exists_for(url_path: str) -> bool:
     return host_name in get_supported_urls()
 
 
-def scrape_me(url_path: str, **options: Any) -> AbstractScraper:
-    host_name = get_host_name(url_path)
-
-    if options:
-        msg = (
-            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
-            "support for them will be dropped in future.  To migrate, please:\n"
-            "\n"
-            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
-            "the proxies/timeout settings you want.\n"
-            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
-            " * Scrape retrieved recipe HTML using the 'recipe_scrapers.scrape_html' "
-            "function.\n"
-        )
-        warnings.warn(msg, DeprecationWarning)
-
-    try:
-        scraper = SCRAPERS[host_name]
-    except KeyError:
-        if not options.get("wild_mode", False):
-            raise WebsiteNotImplementedError(host_name)
-        else:
-            options.pop("wild_mode")
-            wild_scraper = SchemaScraperFactory.generate(url_path, **options)
-            if not wild_scraper.schema.data:
-                raise NoSchemaFoundInWildMode(url_path)
-            return wild_scraper
-
-    return scraper(url_path, **options)
-
-
 def scrape_html(
-    html: str, org_url: str | None = None, **options: dict[str, Any]
+    html: str | None,
+    org_url: str,
+    *,
+    online: bool = False,
+    supported_only: bool | None = None,
+    wild_mode: bool | None = None,
 ) -> AbstractScraper:
     """
-    Takes a string of HTML and returns a scraper object. If the org_url is specified,
-    then the scraper will use that URL to resolve a defined scraper, otherwise it will
-    fall back to wild mode. If no schema is found in wild mode then a
-    NoSchemaFoundInWildMode exception will be raised.
+    Accepts optional HTML and a required URL as input, and returns a scraper object.
+
+    HTML is required unless the 'online' flag is enabled, allowing the library
+    to download a current copy of the recipe.
+
+    If the 'supported_only' flag is enabled (the default), then only websites
+    that are known to be supported by the library (as determined by their
+    domain name) will return scrapers.  When disabled, the library will attempt
+    to retrieve generic schema.org recipe metadata from the HTML.
 
     Args:
-        html (str): Raw HTML in text form.
-        org_url (str, optional): Original URL of the HTML. Defaults to None.
+        html (str | None): HTML of the recipe webpage.
+        org_url (str): URL of the recipe.
+
+    Kwargs:
+        online (bool): whether the library may download HTML.
+        supported_only (bool | None): whether to restrict to supported domains.
+        wild_mode (bool | None): deprecated: whether to attempt scraping unsupported domains.
 
     Raises:
-        NoSchemaFoundInWildMode: If no schema is found in wild mode.
+        ElementNotFoundInHtml: Retrieval of data failed because an HTML element was not found.
+        FieldNotProvidedByWebsiteException: This website doesn't seem to provide the requested field.
+        NoSchemaFoundInWildMode: When no schema is found for an unsupported domain.
+        StaticValueException: Wraps a static/constant value that was not retrieved dynamically.
+        WebsiteNotImplementedError: When the recipe URL does not match any supported domains.
 
     Returns:
         AbstractScraper: a scraper instance implementing AbstractScraper for the requested website.
     """
+    if wild_mode is not None:
+        msg = "The 'wild_mode' parameter is deprecated and may be removed in future."
+        if wild_mode is True:
+            msg += "\n\n"
+            msg += "Please pass 'supported_only=False' instead for similar behaviour."
+        warnings.warn(msg, category=DeprecationWarning)
 
-    host_name = get_host_name(org_url) if org_url is not None else None
+    if online:
+        msg = "The 'online' parameter is deprecated and will be removed in future."
+        msg += "\n\n"
+        msg += "Please use an HTTP client (such as 'requests' or 'httpx') to "
+        msg += "retrieve the recipe's HTML from the URL instead."
+        warnings.warn(msg, category=DeprecationWarning)
 
-    if options:
+    if supported_only is not None and wild_mode is not None:
+        msg = "Please provide either 'supported_only' or 'wild_mode', but not both."
+        raise ValueError(msg)
+    elif supported_only is None and wild_mode is not None:
+        supported_only = not bool(wild_mode)  # wild: true -> supported_only: false
+
+    if html is None and online is True:
+        if requests_import_error is not None:
+            msg = (
+                "Unable to import the 'requests' library for use when recipe-scrapers \n"
+                "is operating online.\n"
+                "Did you install using 'pip install recipe-scrapers[online]'?"
+            )
+            raise ImportError(msg) from requests_import_error
+
+        try:
+            html = requests.get(url=org_url, headers=HEADERS).text
+        except Exception as e:
+            raise Exception(f"Failed to retrieve HTML content from {org_url}.") from e
+
+    if html is None and online is False:
         msg = (
-            "Scraper options arguments (e.g. proxies=, timeout=) are deprecated, and "
-            "support for them will be dropped in future.  To migrate, please:\n"
-            "\n"
-            " * Use an HTTP client (such as 'requests' or 'httpx') configured with "
-            "the proxies/timeout settings you want.\n"
-            " * Retrieve recipe HTML using the appropriately-configured HTTP client.\n"
+            "No HTML input was provided to scrape from, and none can be retrieved from \n"
+            "the web because the 'online' flag is false."
         )
-        warnings.warn(msg, DeprecationWarning)
+        raise ValueError(msg)
 
-    scraper = None
-    if host_name:
-        with contextlib.suppress(KeyError):
-            scraper = SCRAPERS[host_name]
+    host_name = get_host_name(org_url)
+    if host_name in SCRAPERS:
+        return SCRAPERS[host_name](html=html, url=org_url)
 
-    if not scraper:
-        wild_scraper = SchemaScraperFactory.generate(url=org_url, html=html, **options)
+    if supported_only in (None, True):
+        msg = (
+            f"The website '{host_name}' isn't currently supported by recipe-scrapers!\n"
+            "---\n"
+            "If you have time to help us out, please report this as a feature \n"
+            "request on our bugtracker."
+        )
+        raise WebsiteNotImplementedError(msg)
 
-        if not wild_scraper.schema.data:
-            raise NoSchemaFoundInWildMode(org_url)
+    schema_scraper = SchemaScraperFactory.generate(html=html, url=org_url)
+    if schema_scraper.schema.data:
+        return schema_scraper
 
-        return wild_scraper
-
-    return scraper(url=org_url, html=html, **options)
-
-
-__all__ = ["scrape_me", "scrape_html"]
-name = "recipe_scrapers"
+    raise NoSchemaFoundInWildMode(org_url)

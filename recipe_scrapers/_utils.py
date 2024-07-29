@@ -1,4 +1,5 @@
 import html
+import inspect
 import math
 import re
 
@@ -311,3 +312,16 @@ def change_keys(obj, convert):
 def get_url_slug(url):
     path = url_path_to_dict(url).get("path")
     return path.split("/")[-1]
+
+
+def get_abstract_methods():
+    from ._abstract import AbstractScraper
+
+    return [
+        name
+        for name, value in AbstractScraper.__dict__.items()  # Attributes of the abstract scraper class..
+        if not name.startswith("_")  # ... that are not private ...
+        and inspect.isfunction(value)  # ... and are functions ...
+        and name not in {"links", "to_json"}  # ... and not excluded as special-cases.
+        or name == "host"  # ... explicitly include the `host` method.
+    ]
