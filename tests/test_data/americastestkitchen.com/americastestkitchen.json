@@ -74,8 +74,10 @@
   "category": "Main Courses, Casseroles",
   "yields": "8 servings",
   "description": "Could we adapt and simplify this northern Italian classic for the American kitchen?",
-  "total_time": 210.0,
+  "total_time": 210,
+  "cuisine": "Europe, Italian",
   "ratings": 4.4,
+  "ratings_count": 80,
   "nutrients": {
     "calories": "5764 calories"
   },
