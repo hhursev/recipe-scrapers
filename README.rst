@@ -100,7 +100,6 @@ Scrapers available for:
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
-- `https://americastestkitchen.com/ <https://www.americastestkitchen.com>`_ (*)
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://www.argiro.gr/ <https://www.argiro.gr/>`_
 - `https://www.arla.se/ <https://www.arla.se/>`_
@@ -146,8 +145,7 @@ Scrapers available for:
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
-- `https://cookscountry.com/ <https://www.cookscountry.com>`_ (*)
-- `https://cooksillustrated.com/ <https://www.cooksillustrated.com>`_ (*)
+- `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
@@ -205,6 +203,7 @@ Scrapers available for:
 - `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
 - `https://goodhousekeeping.com/ <https://www.goodhousekeeping.com/>`_
 - `https://gourmettraveller.com.au/ <https://gourmettraveller.com.au>`_
+- `https://gousto.co.uk/ <https://gousto.co.uk>`_
 - `https://www.grandfrais.com/ <https://www.grandfrais.com>`_
 - `https://greatbritishchefs.com/ <https://greatbritishchefs.com>`_
 - `https://grimgrains.com/ <https://grimgrains.com>`_
@@ -265,7 +264,10 @@ Scrapers available for:
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
+- `https://www.madewithlau.com/ <https://www.madewithlau.com/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
+- `https://marleyspoon.com/ <https://marleyspoon.com/>`_
+    - `.at <https://marleyspoon.at/>`__, `.be <https://marleyspoon.be/>`__, `.com.au <https://marleyspoon.com.au/>`__, `.de <https://marleyspoon.de/>`__, `.nl <https://marleyspoon.nl/>`__, `.se <https://marleyspoon.se/>`__
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
@@ -277,10 +279,12 @@ Scrapers available for:
 - `https://ministryofcurry.com/ <https://ministryofcurry.com/>`_
 - `https://misya.info/ <https://misya.info>`_
 - `https://www.mob.co.uk/ <https://www.mob.co.uk/>`_
+- `https://mobile.kptncook.com/ <https://mobile.kptncook.com/>`_
 - `https://mobkitchen.co.uk/ <https://mobkitchen.co.uk/>`_
 - `https://www.modernhoney.com/ <https://www.modernhoney.com/>`_
 - `https://www.momontimeout.com/ <https://www.momontimeout.com/>`_
 - `https://momswithcrockpots.com/ <https://momswithcrockpots.com>`_
+- `https://monsieur-cuisine.com/ <https://monsieur-cuisine.com>`_
 - `http://motherthyme.com/ <http://motherthyme.com/>`_
 - `https://www.moulinex.fr/ <https://www.moulinex.fr/>`_
 - `https://www.mundodereceitasbimby.com.pt/ <https://www.mundodereceitasbimby.com.pt/>`_
@@ -354,6 +358,7 @@ Scrapers available for:
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
+- `https://sharing.kptncook.com/ <https://sharing.kptncook.com/>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
 - `https://simply-cookit.com/ <https://simply-cookit.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
@@ -425,6 +430,7 @@ Scrapers available for:
     - `.co.uk <https://www.wholefoodsmarket.co.uk/>`__
 - `https://www.williams-sonoma.com/ <https://www.williams-sonoma.com/>`_
 - `https://womensweeklyfood.com.au/ <https://womensweeklyfood.com.au/>`_
+- `https://woolworths.com.au/shop/recipes <https://www.woolworths.com.au/shop/recipes/>`_
 - `https://woop.co.nz/ <https://woop.co.nz/>`_
 - `https://yemek.com/ <https://yemek.com>`_
 - `https://yummly.com/ <https://yummly.com>`_ (*)
