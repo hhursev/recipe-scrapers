@@ -1,8 +1,9 @@
 import inspect
 from collections import OrderedDict
-from typing import List
+from typing import Dict, List, Optional, Tuple, Union
 from urllib.parse import urljoin
 
+import requests
 from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
@@ -19,11 +20,35 @@ HEADERS = {
 
 
 class AbstractScraper:
-    page_data: str
+    page_data: Union[str, bytes]
 
-    def __init__(self, html: str, url: str):
-        self.page_data = html
-        self.url = url
+    def __init__(
+        self,
+        url: Union[str, None],
+        proxies: Optional[
+            Dict[str, str]
+        ] = None,  # allows us to specify optional proxy server
+        timeout: Optional[
+            Union[float, Tuple[float, float], Tuple[float, None]]
+        ] = None,  # allows us to specify optional timeout for request
+        wild_mode: Optional[bool] = False,
+        html: Union[str, bytes, None] = None,
+    ):
+        if html:
+            self.page_data = html
+            self.url = url
+        else:
+            assert url is not None, "url required for fetching recipe data"
+            resp = requests.get(
+                url,
+                headers=HEADERS,
+                proxies=proxies,
+                timeout=timeout,
+            )
+            self.page_data = resp.content
+            self.url = resp.url
+
+        self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.opengraph = OpenGraph(self.soup)
         self.schema = SchemaOrg(self.page_data)

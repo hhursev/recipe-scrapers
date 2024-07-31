@@ -87,14 +87,10 @@ def test_func_factory(
                 if "ingredient_groups" in expect
                 else [IngredientGroup(expect["ingredients"], purpose=None)]
             )
-        supported_only = host in SCRAPERS
-        actual = scrape_html(
-            html=testhtml.read_text(encoding="utf-8"),
-            org_url=host,
-            online=False,
-            supported_only=supported_only,
-        )
-        if not supported_only:
+
+        kwargs = {"wild_mode": True} if host not in SCRAPERS else {}
+        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host, **kwargs)
+        if kwargs.get("wild_mode"):
             self.assertFalse(self.been_wild, "Only one wild mode test should occur.")
             type(self).been_wild = True
 
@@ -205,5 +201,11 @@ def load_tests(
     # Add library tests to test suite
     library_tests = loader.discover("tests/library")
     suite.addTests(library_tests)
+
+    # Add legancy tests to test suite
+    # Legacy tests use the previous test approach because they can't be migrated to
+    # this data driven due to the scrapers using extra network requests.
+    legacy_test = loader.discover("tests/legacy")
+    suite.addTests(legacy_test)
 
     return suite

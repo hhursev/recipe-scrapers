@@ -7,10 +7,10 @@ class AllRecipes:
     def host(cls):
         return "allrecipes.com"
 
-    def __new__(cls, html, url):
+    def __new__(cls, url, *args, **kwargs):
         if AllRecipesUser.host() in url:
-            return AllRecipesUser(html, url)
-        return AllRecipesCurated(html, url)
+            return AllRecipesUser(url, *args, **kwargs)
+        return AllRecipesCurated(url, *args, **kwargs)
 
 
 class AllRecipesCurated(AbstractScraper):
