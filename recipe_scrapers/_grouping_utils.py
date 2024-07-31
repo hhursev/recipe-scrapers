@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, List, Optional
 
@@ -118,13 +119,13 @@ def group_ingredients(
             f"Found {len(found_ingredients)} grouped ingredients but was expecting to find {len(ingredients_list)}."
         )
 
-    groupings: Dict[Optional[str], List[str]] = {None: []}
+    groupings: Dict[Optional[str], List[str]] = defaultdict(list)
     current_heading = None
 
     elements = soup.select(f"{group_heading}, {group_element}")
     for element in elements:
         if element in element.parent.select(group_heading):
-            current_heading = normalize_string(element.text)
+            current_heading = normalize_string(element.text) or None
             if current_heading not in groupings:
                 groupings[current_heading] = []
         else:
