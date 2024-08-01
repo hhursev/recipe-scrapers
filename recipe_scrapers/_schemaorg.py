@@ -32,9 +32,10 @@ class SchemaOrg:
     def _find_entity(self, item, schematype):
         if self._contains_schematype(item, schematype):
             return item
-        for graph_item in item.get("@graph", []):
-            if self._contains_schematype(graph_item, schematype):
-                return graph_item
+        for graph_defn in item.get("@graph", []):
+            for graph_item in graph_defn if isinstance(graph_defn, list) else [graph_defn]:
+                if self._contains_schematype(graph_item, schematype):
+                    return graph_item
 
     def __init__(self, page_data):
         self.format = None

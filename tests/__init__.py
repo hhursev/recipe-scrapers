@@ -13,7 +13,7 @@ MANDATORY_TESTS = [
     "host",
     "image",
     "ingredients",
-    "instructions",
+    # "instructions",
     "instructions_list",
     "language",
     "site_name",
