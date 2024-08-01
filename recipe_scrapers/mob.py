@@ -1,7 +1,6 @@
 import json
 
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
 from ._grouping_utils import IngredientGroup
 
 
@@ -16,9 +15,6 @@ class Mob(AbstractScraper):
     @classmethod
     def host(cls):
         return "mob.co.uk"
-
-    def site_name(self):
-        raise StaticValueException(return_value="Mob")
 
     def author(self):
         chefs = self.recipe_json.get("chefs", [])
@@ -88,4 +84,4 @@ class Mob(AbstractScraper):
         return self.recipe_json.get("summary", "")
 
     def ratings(self):
-        return self.recipe_json.get("averageRating", "")
+        return round(float(self.recipe_json.get("averageRating", "0")), 2)
