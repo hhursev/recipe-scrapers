@@ -472,7 +472,7 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-#### Prerequisites:
+#### Prerequisites
 - Ensure you have Python 3.8 or later installed.
 
 #### Installation:
