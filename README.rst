@@ -496,7 +496,7 @@ For Devs / Contribute
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
     cd recipe-scrapers &&
-    python -m venv .venv &&
+    py -m venv .venv &&
     .venv\Scripts\activate &&
     python -m pip install --upgrade pip &&
     pip install -r requirements-dev.txt &&
