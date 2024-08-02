@@ -1,3 +1,5 @@
+from typing import List
+
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup, group_ingredients
 from ._utils import get_minutes, get_yields, normalize_string
@@ -59,7 +61,7 @@ class StreetKitchen(AbstractScraper):
             self.soup.find("a", {"rel": "author"}).find("img")["alt"]
         )
 
-    def ingredient_groups(self) -> list[IngredientGroup]:
+    def ingredient_groups(self) -> List[IngredientGroup]:
         return group_ingredients(
             self.ingredients(),
             self.soup,
