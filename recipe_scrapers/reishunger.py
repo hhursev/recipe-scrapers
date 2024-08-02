@@ -7,40 +7,88 @@ class Reishunger(AbstractScraper):
     def host(cls):
         return "reishunger.de"
 
-    def instructions(self):
-        # find the "instructions" heading (Zubereitung in German)
-        for heading in self.soup.findAll("h3"):
-            if "Zubereitung" in heading.get_text():
-                break
+    def _filter_ingredients(self):
+        """
+        Sort through the 'ingredients' heading from the page; this can contain
+        a mixture of food ingredients and also kitchen equipment items.
+        """
+        # Find the "ingredients" heading (Zutaten in German)
+        heading = self.soup.find("h2", {"id": "zutaten"})
 
+        ingredients, equipment = [], []
+        in_equipment = False
+
+        # Skip past the "portions" (Portionnen in German) heading
+        portions = heading.find_next_sibling("div")
+        container = portions.find_next_sibling("div")
+
+        # Iterate through the ingredient list
+        for element in container.find_all("div"):
+            # If we reach an item that says "Helpful for the preparation", stop there; the
+            # remaining items are kitchen equipment (optional, but useful for the recipe).
+            if "Hilfreich für die Zubereitung" in element.text:
+                in_equipment = True
+
+            # Find leaf-node div elements; these are the item descriptions
+            description = element.find("div")
+            if description and not description.find("div"):
+                ingredient = normalize_string(description.text)
+                (equipment if in_equipment else ingredients).append(ingredient)
+
+        return ingredients, equipment
+
+    def ingredients(self):
+        filtered_ingredients, _ = self._filter_ingredients()
+        return filtered_ingredients
+
+    def equipment(self):
+        _, filtered_equipment = self._filter_ingredients()
+        return filtered_equipment
+
+    def instructions(self):
+        # Find the "instructions" heading (Zubereitung in German)
+        heading = self.soup.find("h2", {"id": "zubereitung"})
+
+        chose_method = False
         results = []
 
-        # locate the first recipe instruction
-        step1 = heading.parent.parent.find("div", {"class": "leading-normal"})
+        container = heading.find_next_sibling("div")
 
-        # iterate through each step in the recipe
-        for step in step1.next_siblings:
-            # check whether the instruction has a list of preparations
-            # fixme: this can throw an exception if 'step' is not a bs4 Tag
-            try:
-                preparations = step.find("div", {"preparation": True})
-            except Exception:
-                preparations = None
+        # Iterate through the instruction list
+        for step in container.find("div").find_next_siblings("div"):
 
-            # if it does, add every preparation step as an instruction entry
-            if preparations:
-                for preparation in preparations.findAll("div", {"id": True}):
-                    instruction = normalize_string(preparation.text)
+            # Sometimes recipes provide multiple rice prep options; choose the first so
+            # that we produce a complete recipe.
+            if step.find("span", string=lambda text: text.startswith("Ausgewählte")):
+
+                # Skip method headings after the first one
+                if chose_method:
+                    continue
+
+                # Add the heading for the first method
+                for method in step.find("section").find_all("div", {"id": True}):
+                    title = method.find("p")
+                    results.append(normalize_string(title.text))
+                    break
+
+                # Include all the steps from the first method
+                for substep in method.find_all("li"):
+                    results.append(normalize_string(substep.text))
+
+                chose_method = True
+                continue
+
+            # Skip empty items
+            if "leading-normal" in step.attrs.get("class", []):
+                continue
+
+            # Split HTML linebreaks and return each line/sentence as an individual instruction
+            for br in step.find_all("br"):
+                br.replace_with("\n")
+            for line in step.text.split("\n"):
+                instruction = normalize_string(line)
+                if instruction:
                     results.append(instruction)
-
-            # otherwise, add only one instruction entry
-            else:
-                if step.find("p"):
-                    instruction = normalize_string(step.text)
-                    results.append(instruction)
-
-            # continue on to the next instruction
-            step = step.next_sibling
 
         # filter out empty lines
         results = [instruction for instruction in results if instruction]
