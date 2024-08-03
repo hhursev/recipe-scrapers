@@ -39,15 +39,15 @@
     "Parchment Paper"
   ],
   "nutrients": {
-    "servingSize": "1 Serving",
     "calories": "126 kcal",
     "carbohydrateContent": "17 g",
-    "proteinContent": "5 g",
-    "fatContent": "5 g",
-    "saturatedFatContent": "1 g",
     "cholesterolContent": "3 mg",
-    "sodiumContent": "591 mg",
+    "fatContent": "5 g",
     "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "servingSize": "1 Serving",
+    "sodiumContent": "591 mg",
     "sugarContent": "4 g",
     "unsaturatedFatContent": "3 g"
   },

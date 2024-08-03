@@ -60,12 +60,12 @@
   "cuisine": null,
   "nutrients": {
     "calories": "508cals",
-    "fatContent": "35g",
-    "saturatedFatContent": "21g",
-    "sugarContent": "13g",
     "carbohydrateContent": "14g",
+    "fatContent": "35g",
+    "fiberContent": "5g",
     "proteinContent": "31g",
-    "fiberContent": "5g"
+    "saturatedFatContent": "21g",
+    "sugarContent": "13g"
   },
   "image": "https://hips.hearstapps.com/hmg-prod/images/vegetarian-fajitas-1545043586.jpg?crop=0.497xw:0.884xh;0,0.0638xh&resize=1200:*",
   "keywords": [

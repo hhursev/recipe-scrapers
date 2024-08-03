@@ -47,10 +47,10 @@
   "nutrients": {
     "calories": "640",
     "carbohydrateContent": "75g",
-    "netCarbContent": "68g",
     "fatContent": "25g",
     "proteinContent": "24g",
-    "sodiumContent": "1060mg"
+    "sodiumContent": "1060mg",
+    "netCarbContent": "68g"
   },
   "image": "https://homechef.imgix.net/https%3A%2F%2Fasset.homechef.com%2Fuploads%2Fmeal%2Fplated%2F5846%2F5846ProsciuttoandAsiagoCarbonara_Ecomm__1_of_1_-7e576bca3e38185a1acfd06570476d88-7e576bca3e38185a1acfd06570476d88.jpg?ixlib=rails-1.1.0&w=600&auto=format&s=48487283c613e3a946c19f4548bbb6cc"
 }

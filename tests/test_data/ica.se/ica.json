@@ -43,11 +43,11 @@
   "ratings": 4.5,
   "ratings_count": 1262,
   "nutrients": {
-    "servingSize": "4 Servings",
     "calories": "662 calories",
-    "fatContent": "43 g",
     "carbohydrateContent": "20 g",
-    "proteinContent": "47 g"
+    "fatContent": "43 g",
+    "proteinContent": "47 g",
+    "servingSize": "4 Servings"
   },
   "image": "https://assets.icanet.se/t_ICAseAbsoluteUrl/imagevaultfiles/id_243155/cf_259/lysande_gul_fiskgryta.jpg"
 }

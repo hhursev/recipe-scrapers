@@ -71,16 +71,16 @@
   "nutrients": {
     "calories": "361 kcal",
     "carbohydrateContent": "56 g",
-    "proteinContent": "5 g",
-    "fatContent": "14 g",
-    "saturatedFatContent": "8 g",
-    "transFatContent": "1 g",
     "cholesterolContent": "36 mg",
-    "sodiumContent": "272 mg",
+    "fatContent": "14 g",
     "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "8 g",
+    "servingSize": "1 serving",
+    "sodiumContent": "272 mg",
     "sugarContent": "31 g",
-    "unsaturatedFatContent": "4 g",
-    "servingSize": "1 serving"
+    "transFatContent": "1 g",
+    "unsaturatedFatContent": "4 g"
   },
   "image": "https://addapinch.com/wp-content/uploads/2015/03/citrus-scones-recipe-DSC_12521-2.jpg",
   "keywords": [

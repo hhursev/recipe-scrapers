@@ -38,16 +38,16 @@
   "ratings": 5.0,
   "ratings_count": 2400,
   "nutrients": {
-    "servingSize": "1 slice",
     "calories": "166",
-    "fatContent": "6 g",
     "carbohydrateContent": "26 g",
+    "cholesterolContent": "31 mg",
+    "fatContent": "6 g",
+    "fiberContent": "1 g",
     "proteinContent": "2 g",
     "saturatedFatContent": "4 g",
-    "sugarContent": "17 g",
-    "fiberContent": "1 g",
+    "servingSize": "1 slice",
     "sodiumContent": "117 mg",
-    "cholesterolContent": "31 mg"
+    "sugarContent": "17 g"
   },
   "image": "https://www.onceuponachef.com/images/2009/09/Pumpkin-Bread-100.jpg",
   "keywords": [

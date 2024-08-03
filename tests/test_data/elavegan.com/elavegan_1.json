@@ -43,12 +43,12 @@
   "ratings_count": 125,
   "nutrients": {
     "calories": "302 kcal",
-    "proteinContent": "14 g",
     "carbohydrateContent": "35 g",
     "fatContent": "9.7 g",
-    "sugarContent": "5.8 g",
     "fiberContent": "8.1 g",
-    "servingSize": "1 serving"
+    "proteinContent": "14 g",
+    "servingSize": "1 serving",
+    "sugarContent": "5.8 g"
   },
   "image": "https://elavegan.com/wp-content/uploads/2019/10/Red-Lentil-Dhal-with-rice.jpg",
   "keywords": [

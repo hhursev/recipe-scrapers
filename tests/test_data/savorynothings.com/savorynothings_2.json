@@ -80,14 +80,14 @@
   "nutrients": {
     "calories": "291 kcal",
     "carbohydrateContent": "44 g",
-    "proteinContent": "4 g",
-    "fatContent": "11 g",
-    "saturatedFatContent": "3 g",
     "cholesterolContent": "37 mg",
-    "sodiumContent": "100 mg",
+    "fatContent": "11 g",
     "fiberContent": "2 g",
-    "sugarContent": "23 g",
-    "servingSize": "1 slice"
+    "proteinContent": "4 g",
+    "saturatedFatContent": "3 g",
+    "servingSize": "1 slice",
+    "sodiumContent": "100 mg",
+    "sugarContent": "23 g"
   },
   "image": "https://www.savorynothings.com/wp-content/uploads/2019/08/cinnamon-crunch-banana-bread-image-sq.jpg",
   "keywords": [

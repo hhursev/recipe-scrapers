@@ -43,16 +43,16 @@
   "nutrients": {
     "calories": "1208 kcal",
     "carbohydrateContent": "98 g",
-    "proteinContent": "64 g",
-    "fatContent": "60 g",
-    "saturatedFatContent": "21 g",
-    "transFatContent": "0.2 g",
     "cholesterolContent": "268 mg",
-    "sodiumContent": "752 mg",
+    "fatContent": "60 g",
     "fiberContent": "5 g",
+    "proteinContent": "64 g",
+    "saturatedFatContent": "21 g",
+    "servingSize": "1 serving",
+    "sodiumContent": "752 mg",
     "sugarContent": "11 g",
-    "unsaturatedFatContent": "33 g",
-    "servingSize": "1 serving"
+    "transFatContent": "0.2 g",
+    "unsaturatedFatContent": "33 g"
   },
   "image": "https://www.errenskitchen.com/wp-content/uploads/2022/05/Chicken-Sundried-Tomato-Pasta-06.jpg",
   "keywords": [

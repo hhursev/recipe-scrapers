@@ -49,14 +49,14 @@
     "Pizza scissors"
   ],
   "nutrients": {
-    "servingSize": "1 Serving (Crust only)",
     "calories": "67 kcal",
     "carbohydrateContent": "12 g",
-    "proteinContent": "2 g",
     "fatContent": "1.2 g",
-    "saturatedFatContent": "0.2 g",
-    "sodiumContent": "177 mg",
     "fiberContent": "0.5 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0.2 g",
+    "servingSize": "1 Serving (Crust only)",
+    "sodiumContent": "177 mg",
     "sugarContent": "1 g",
     "unsaturatedFatContent": "1 g"
   },

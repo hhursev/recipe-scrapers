@@ -37,12 +37,12 @@
   "ratings_count": 4,
   "nutrients": {
     "calories": "345 kcal",
-    "fatContent": "21 g",
-    "saturatedFatContent": "2.3 g",
-    "proteinContent": "12 g",
     "carbohydrateContent": "26 g",
-    "sugarContent": "1 g",
-    "cholesterolContent": "0 mg"
+    "cholesterolContent": "0 mg",
+    "fatContent": "21 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "2.3 g",
+    "sugarContent": "1 g"
   },
   "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg"
 }

@@ -41,15 +41,15 @@
     "9×13 Dish"
   ],
   "nutrients": {
-    "servingSize": "1 g",
     "calories": "394 kcal",
     "carbohydrateContent": "11 g",
-    "proteinContent": "39 g",
-    "fatContent": "20 g",
-    "saturatedFatContent": "8 g",
     "cholesterolContent": "129 mg",
-    "sodiumContent": "656 mg",
+    "fatContent": "20 g",
     "fiberContent": "1 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "8 g",
+    "servingSize": "1 g",
+    "sodiumContent": "656 mg",
     "sugarContent": "2 g",
     "unsaturatedFatContent": "11 g"
   },

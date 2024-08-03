@@ -37,12 +37,12 @@
   "ratings_count": 62,
   "nutrients": {
     "calories": "335 calories",
-    "fatContent": "10 grams fat",
-    "saturatedFatContent": "2 grams saturated fat",
     "carbohydrateContent": "41.6 grams carbohydrate",
-    "sugarContent": "16 grams sugar",
+    "fatContent": "10 grams fat",
     "fiberContent": "13.1 grams fibre",
-    "proteinContent": "15.1 grams protein"
+    "proteinContent": "15.1 grams protein",
+    "saturatedFatContent": "2 grams saturated fat",
+    "sugarContent": "16 grams sugar"
   },
   "image": "https://realfood.tesco.com/media/images/1400x919-Roasted-cauliflower-tagine-d35191d9-d524-482a-8db8-11b122f4cbf0-0-1400x919.jpg",
   "keywords": [

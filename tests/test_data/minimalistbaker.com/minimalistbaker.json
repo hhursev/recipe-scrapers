@@ -31,14 +31,14 @@
   "ratings": 4.73,
   "ratings_count": 11,
   "nutrients": {
-    "servingSize": "1 two-tablespoon serving",
     "calories": "117 kcal",
     "carbohydrateContent": "6.8 g",
-    "proteinContent": "4.3 g",
     "fatContent": "9 g",
-    "saturatedFatContent": "1.6 g",
-    "sodiumContent": "76 mg",
     "fiberContent": "0.9 g",
+    "proteinContent": "4.3 g",
+    "saturatedFatContent": "1.6 g",
+    "servingSize": "1 two-tablespoon serving",
+    "sodiumContent": "76 mg",
     "sugarContent": "1.3 g",
     "unsaturatedFatContent": "6.42 g"
   },

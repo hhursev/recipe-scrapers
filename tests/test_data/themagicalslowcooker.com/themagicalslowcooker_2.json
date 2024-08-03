@@ -81,16 +81,16 @@
   "nutrients": {
     "calories": "582 kcal",
     "carbohydrateContent": "36 g",
-    "proteinContent": "71 g",
-    "fatContent": "16 g",
-    "saturatedFatContent": "4 g",
-    "transFatContent": "0.05 g",
     "cholesterolContent": "182 mg",
-    "sodiumContent": "611 mg",
+    "fatContent": "16 g",
     "fiberContent": "4 g",
+    "proteinContent": "71 g",
+    "saturatedFatContent": "4 g",
+    "servingSize": "1 serving",
+    "sodiumContent": "611 mg",
     "sugarContent": "17 g",
-    "unsaturatedFatContent": "10 g",
-    "servingSize": "1 serving"
+    "transFatContent": "0.05 g",
+    "unsaturatedFatContent": "10 g"
   },
   "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/02/crockpot-pork-pot-roast-4.jpg",
   "keywords": [

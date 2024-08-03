@@ -40,15 +40,15 @@
   "nutrients": {
     "calories": "282 kcal",
     "carbohydrateContent": "22 g",
-    "proteinContent": "13 g",
-    "fatContent": "19 g",
-    "saturatedFatContent": "9 g",
     "cholesterolContent": "40 mg",
-    "sodiumContent": "345 mg",
+    "fatContent": "19 g",
     "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "9 g",
+    "servingSize": "1 serving",
+    "sodiumContent": "345 mg",
     "sugarContent": "6 g",
-    "unsaturatedFatContent": "4 g",
-    "servingSize": "1 serving"
+    "unsaturatedFatContent": "4 g"
   },
   "image": "https://therecipecritic.com/wp-content/uploads/2023/07/burrata-appetizer.jpg",
   "keywords": [

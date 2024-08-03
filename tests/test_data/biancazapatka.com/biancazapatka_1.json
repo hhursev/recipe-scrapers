@@ -80,15 +80,15 @@
   "prep_time": 25,
   "cuisine": "Asian",
   "nutrients": {
-    "servingSize": "1 Bowl",
     "calories": "451 kcal",
     "carbohydrateContent": "59.2 g",
-    "proteinContent": "17.6 g",
     "fatContent": "17.6 g",
+    "fiberContent": "4.4 g",
+    "proteinContent": "17.6 g",
     "saturatedFatContent": "3.4 g",
+    "servingSize": "1 Bowl",
     "sodiumContent": "779.3 mg",
-    "sugarContent": "5.8 g",
-    "fiberContent": "4.4 g"
+    "sugarContent": "5.8 g"
   },
   "image": "https://biancazapatka.com/wp-content/uploads/2022/07/buddha-bowl-sauce.jpg",
   "keywords": [

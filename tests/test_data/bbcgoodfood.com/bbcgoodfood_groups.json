@@ -61,13 +61,13 @@
   "cuisine": "British",
   "nutrients": {
     "calories": "389 calories",
-    "fatContent": "19 grams fat",
-    "saturatedFatContent": "9 grams saturated fat",
     "carbohydrateContent": "53 grams carbohydrates",
-    "sugarContent": "36 grams sugar",
+    "fatContent": "19 grams fat",
     "fiberContent": "1 grams fiber",
     "proteinContent": "5 grams protein",
-    "sodiumContent": "0.3 milligram of sodium"
+    "saturatedFatContent": "9 grams saturated fat",
+    "sodiumContent": "0.3 milligram of sodium",
+    "sugarContent": "36 grams sugar"
   },
   "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-405483_12-cee017a.jpg?resize=768,574",
   "keywords": [

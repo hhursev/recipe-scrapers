@@ -39,7 +39,6 @@
   "ratings_count": 228,
   "nutrients": {
     "calories": "233",
-    "unsaturatedFatContent": "4 grams",
     "carbohydrateContent": "16 grams",
     "fatContent": "14 grams",
     "fiberContent": "1 gram",
@@ -47,7 +46,8 @@
     "saturatedFatContent": "9 grams",
     "sodiumContent": "282 milligrams",
     "sugarContent": "0 grams",
-    "transFatContent": "0 grams"
+    "transFatContent": "0 grams",
+    "unsaturatedFatContent": "4 grams"
   },
   "image": "https://static01.nyt.com/images/2020/05/28/dining/lp-cacio-e-pepe-crackers/merlin_172657737_693784a8-529d-4496-9e60-3ff2af3c7735-mediumSquareAt3X.jpg",
   "keywords": [

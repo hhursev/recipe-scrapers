@@ -38,12 +38,12 @@
   "ratings_count": 9,
   "nutrients": {
     "calories": "228 calories",
-    "fatContent": "5g fat (2g saturated fat)",
-    "cholesterolContent": "63mg cholesterol",
-    "sodiumContent": "436mg sodium",
     "carbohydrateContent": "18g carbohydrate (8g sugars",
+    "cholesterolContent": "63mg cholesterol",
+    "fatContent": "5g fat (2g saturated fat)",
     "fiberContent": "2g fiber)",
-    "proteinContent": "27g protein. Diabetic Exchanges: 3 lean meat"
+    "proteinContent": "27g protein. Diabetic Exchanges: 3 lean meat",
+    "sodiumContent": "436mg sodium"
   },
   "image": "https://www.tasteofhome.com/wp-content/uploads/0001/01/Pressure-Cooker-Sauerbraten_EXPS_THN18_39243_E06_06_2b.jpg"
 }

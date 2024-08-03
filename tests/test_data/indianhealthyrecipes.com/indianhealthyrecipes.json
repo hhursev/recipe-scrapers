@@ -48,14 +48,14 @@
   "nutrients": {
     "calories": "123 kcal",
     "carbohydrateContent": "14 g",
-    "proteinContent": "3 g",
-    "fatContent": "6 g",
-    "saturatedFatContent": "3 g",
     "cholesterolContent": "34 mg",
-    "sodiumContent": "129 mg",
+    "fatContent": "6 g",
     "fiberContent": "1 g",
-    "sugarContent": "2 g",
-    "servingSize": "1 serving"
+    "proteinContent": "3 g",
+    "saturatedFatContent": "3 g",
+    "servingSize": "1 serving",
+    "sodiumContent": "129 mg",
+    "sugarContent": "2 g"
   },
   "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/01/banana-cake-recipe.jpg",
   "keywords": [

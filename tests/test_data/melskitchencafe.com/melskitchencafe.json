@@ -32,13 +32,13 @@
   "ratings": 4.6,
   "ratings_count": 49,
   "nutrients": {
-    "servingSize": "1 Caramel",
     "calories": "100 kcal",
     "carbohydrateContent": "18 g",
-    "proteinContent": "1 g",
-    "fatContent": "3 g",
-    "saturatedFatContent": "2 g",
     "cholesterolContent": "10 mg",
+    "fatContent": "3 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "2 g",
+    "servingSize": "1 Caramel",
     "sodiumContent": "50 mg",
     "sugarContent": "18 g"
   },

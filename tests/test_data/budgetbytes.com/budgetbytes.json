@@ -37,13 +37,13 @@
     "Cast Iron Skillet"
   ],
   "nutrients": {
-    "servingSize": "1 burger",
     "calories": "516 kcal",
     "carbohydrateContent": "23 g",
-    "proteinContent": "24 g",
     "fatContent": "36 g",
-    "sodiumContent": "453 mg",
-    "fiberContent": "1 g"
+    "fiberContent": "1 g",
+    "proteinContent": "24 g",
+    "servingSize": "1 burger",
+    "sodiumContent": "453 mg"
   },
   "image": "https://www.budgetbytes.com/wp-content/uploads/2023/05/Smash-Burger-plated.jpg",
   "keywords": [

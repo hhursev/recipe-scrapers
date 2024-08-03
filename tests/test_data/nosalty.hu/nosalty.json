@@ -44,15 +44,15 @@
   "prep_time": 40,
   "cuisine": "magyar",
   "nutrients": {
-    "servingSize": "2374 g",
     "calories": "7031.58 g",
+    "carbohydrateContent": "715.9344 g",
+    "cholesterolContent": "1697.6 mg",
     "fatContent": "402.1964 g",
     "fiberContent": "35.76 g",
-    "sugarContent": "279.5564 g",
-    "sodiumContent": "602.54 g",
     "proteinContent": "151.682 g",
-    "cholesterolContent": "1697.6 mg",
-    "carbohydrateContent": "715.9344 g"
+    "servingSize": "2374 g",
+    "sodiumContent": "602.54 g",
+    "sugarContent": "279.5564 g"
   },
   "image": "https://image-api.nosalty.hu/nosalty/images/recipes/Am/SZ/aranygaluska-ahogy-nagymamam-kesziti.jpeg?w=1200&h=1200&s=78e81357b434b48faaac2ca43c8321f5",
   "keywords": [

@@ -32,14 +32,14 @@
   "ratings": 5.0,
   "ratings_count": 28,
   "nutrients": {
-    "servingSize": "1 serving",
     "calories": "53 kcal",
     "carbohydrateContent": "6 g",
-    "proteinContent": "2 g",
     "fatContent": "2 g",
-    "saturatedFatContent": "0.3 g",
-    "sodiumContent": "813 mg",
     "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0.3 g",
+    "servingSize": "1 serving",
+    "sodiumContent": "813 mg",
     "sugarContent": "3 g",
     "unsaturatedFatContent": "11 g"
   },
