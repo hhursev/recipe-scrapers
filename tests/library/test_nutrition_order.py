@@ -29,14 +29,12 @@ class TestNutritionKeyOrder(unittest.TestCase):
                     with open(os.path.join(root, filename), encoding="utf-8") as f:
                         data = json.load(f)
 
-                    if "nutrients" in data:
+                    if "nutrients" in data and data["nutrients"] is not None:
                         nutrients = data["nutrients"]
-                        filtered_keys = [
-                            key for key in correct_order if key in nutrients
-                        ]
-
-                        expected_keys = filtered_keys
                         actual_keys = list(nutrients.keys())
+                        expected_keys = [
+                            key for key in correct_order if key in actual_keys
+                        ]
 
                         try:
                             self.assertEqual(expected_keys, actual_keys)
