@@ -24,7 +24,7 @@ class Reishunger(AbstractScraper):
 
         # Iterate through the ingredient list
         for element in container.find_all("div"):
-            # If we reach an item that says "Helpful for the preparation", stop there; the
+            # If we reach an item that says "Helpful for the preparation", then all
             # remaining items are kitchen equipment (optional, but useful for the recipe).
             if "Hilfreich für die Zubereitung" in element.text:
                 in_equipment = True
@@ -65,7 +65,7 @@ class Reishunger(AbstractScraper):
                 if chose_method:
                     continue
 
-                # Add the heading for the first method
+                # Add the title of the first method
                 for method in step.find("section").find_all("div", {"id": True}):
                     title = method.find("p")
                     results.append(normalize_string(title.text))
@@ -78,7 +78,7 @@ class Reishunger(AbstractScraper):
                 chose_method = True
                 continue
 
-            # Skip empty items
+            # Skip step number introductions (Schritt 01, ...)
             if "leading-normal" in step.attrs.get("class", []):
                 continue
 
