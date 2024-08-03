@@ -32,9 +32,15 @@ class TestNutritionKeyOrder(unittest.TestCase):
                     if "nutrients" in data and data["nutrients"] is not None:
                         nutrients = data["nutrients"]
                         actual_keys = list(nutrients.keys())
-                        expected_keys = [
+
+                        ordered_keys = [
                             key for key in correct_order if key in actual_keys
                         ]
+                        other_keys = [
+                            key for key in actual_keys if key not in correct_order
+                        ]
+
+                        expected_keys = ordered_keys + other_keys
 
                         try:
                             self.assertEqual(expected_keys, actual_keys)

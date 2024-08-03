@@ -27,6 +27,9 @@ def reorder_nutrition_keys(file_path):
         reordered_nutrients = {
             key: nutrients[key] for key in NUTRITION_KEYS_ORDER if key in nutrients
         }
+        for key in nutrients:
+            if key not in reordered_nutrients:
+                reordered_nutrients[key] = nutrients[key]
 
         if list(nutrients.keys()) != list(reordered_nutrients.keys()):
             data["nutrients"] = reordered_nutrients
