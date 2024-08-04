@@ -71,16 +71,16 @@
   "ratings": 4.43,
   "ratings_count": 14,
   "nutrients": {
-    "calories": "418 kcal",
-    "carbohydrateContent": "41 g",
-    "cholesterolContent": "110 mg",
-    "fatContent": "19 g",
-    "fiberContent": "2 g",
-    "proteinContent": "21 g",
-    "saturatedFatContent": "5 g",
     "servingSize": "1 serving",
+    "calories": "418 kcal",
+    "fatContent": "19 g",
+    "saturatedFatContent": "5 g",
+    "carbohydrateContent": "41 g",
+    "sugarContent": "21 g",
+    "proteinContent": "21 g",
     "sodiumContent": "656 mg",
-    "sugarContent": "21 g"
+    "fiberContent": "2 g",
+    "cholesterolContent": "110 mg"
   },
   "image": "https://norecipes.com/wp-content/uploads/2017/06/orange-chicken-005.jpg",
   "keywords": [

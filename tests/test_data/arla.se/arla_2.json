@@ -67,11 +67,11 @@
   "ratings": 3.5,
   "ratings_count": 205,
   "nutrients": {
-    "type": "NutritionInformation",
     "calories": "470 kcal",
-    "carbohydrateContent": "55 g",
     "fatContent": "26 g",
-    "proteinContent": "4 g"
+    "carbohydrateContent": "55 g",
+    "proteinContent": "4 g",
+    "type": "NutritionInformation"
   },
   "image": "https://cdn-rdb.arla.com/Files/arla-se/1800291189/1765383d-98b9-4a7e-b6cb-a4a0d6bcbdbc.jpg?w=1300&h=525&mode=crop&ak=f525e733&hm=697c0698",
   "keywords": [

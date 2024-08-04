@@ -30,18 +30,18 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
-    "calories": "275 kcal",
-    "carbohydrateContent": "2 g",
-    "cholesterolContent": "98 mg",
-    "fatContent": "15 g",
-    "fiberContent": "0.4 g",
-    "proteinContent": "31 g",
-    "saturatedFatContent": "6 g",
     "servingSize": "1 serving",
-    "sodiumContent": "682 mg",
-    "sugarContent": "1 g",
+    "calories": "275 kcal",
+    "fatContent": "15 g",
+    "saturatedFatContent": "6 g",
+    "unsaturatedFatContent": "8 g",
     "transFatContent": "1 g",
-    "unsaturatedFatContent": "8 g"
+    "carbohydrateContent": "2 g",
+    "sugarContent": "1 g",
+    "proteinContent": "31 g",
+    "sodiumContent": "682 mg",
+    "fiberContent": "0.4 g",
+    "cholesterolContent": "98 mg"
   },
   "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-8.jpg",
   "keywords": [

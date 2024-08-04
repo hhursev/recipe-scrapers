@@ -35,18 +35,18 @@
   "ratings": 5.0,
   "ratings_count": 5,
   "nutrients": {
-    "calories": "518 kcal",
-    "carbohydrateContent": "25 g",
-    "cholesterolContent": "82 mg",
-    "fatContent": "37 g",
-    "fiberContent": "4 g",
-    "proteinContent": "20 g",
-    "saturatedFatContent": "11 g",
     "servingSize": "1 serving",
-    "sodiumContent": "808 mg",
-    "sugarContent": "6 g",
+    "calories": "518 kcal",
+    "fatContent": "37 g",
+    "saturatedFatContent": "11 g",
+    "unsaturatedFatContent": "24 g",
     "transFatContent": "0.2 g",
-    "unsaturatedFatContent": "24 g"
+    "carbohydrateContent": "25 g",
+    "sugarContent": "6 g",
+    "proteinContent": "20 g",
+    "sodiumContent": "808 mg",
+    "fiberContent": "4 g",
+    "cholesterolContent": "82 mg"
   },
   "image": "https://barefeetinthekitchen.com/wp-content/uploads/2023/08/Sausage-Sweet-Potato-Hash-BFK-7-1-of-1.jpg",
   "keywords": [

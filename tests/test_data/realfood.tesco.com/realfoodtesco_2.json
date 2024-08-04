@@ -56,12 +56,12 @@
   "ratings_count": 13,
   "nutrients": {
     "calories": "247 calories",
-    "carbohydrateContent": "14.3 grams carbohydrate",
     "fatContent": "18 grams fat",
-    "fiberContent": "5.6 grams fibre",
-    "proteinContent": "8.5 grams protein",
     "saturatedFatContent": "3 grams saturated fat",
-    "sugarContent": "9 grams sugar"
+    "carbohydrateContent": "14.3 grams carbohydrate",
+    "sugarContent": "9 grams sugar",
+    "proteinContent": "8.5 grams protein",
+    "fiberContent": "5.6 grams fibre"
   },
   "image": "https://realfood.tesco.com/media/images/RFO-1400x919-CauliflowerSteaks-9b3cfef8-bc5e-4d41-b25b-1341fa3db1e0-0-1400x919.jpg"
 }

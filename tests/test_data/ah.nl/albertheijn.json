@@ -33,10 +33,10 @@
   "ratings_count": 10,
   "nutrients": {
     "calories": "590 kcal energie",
-    "carbohydrateContent": "65 g koolhydraten",
     "fatContent": "27 g vet",
-    "proteinContent": "17 g eiwit",
-    "saturatedFatContent": "3 g waarvan verzadigd"
+    "saturatedFatContent": "3 g waarvan verzadigd",
+    "carbohydrateContent": "65 g koolhydraten",
+    "proteinContent": "17 g eiwit"
   },
   "image": null,
   "keywords": [

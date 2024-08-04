@@ -39,17 +39,17 @@
   "ratings": 4.45,
   "ratings_count": 54,
   "nutrients": {
-    "calories": "284 kcal",
-    "carbohydrateContent": "17 g",
-    "cholesterolContent": "224 mg",
-    "fatContent": "18 g",
-    "fiberContent": "3 g",
-    "proteinContent": "14 g",
-    "saturatedFatContent": "6 g",
     "servingSize": "1 /4 of recipe",
-    "sodiumContent": "620 mg",
+    "calories": "284 kcal",
+    "fatContent": "18 g",
+    "saturatedFatContent": "6 g",
+    "unsaturatedFatContent": "6 g",
+    "carbohydrateContent": "17 g",
     "sugarContent": "8 g",
-    "unsaturatedFatContent": "6 g"
+    "proteinContent": "14 g",
+    "sodiumContent": "620 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "224 mg"
   },
   "image": "https://www.eatingbirdfood.com/wp-content/uploads/2020/12/Shakshuka-in-pan.jpg",
   "keywords": [

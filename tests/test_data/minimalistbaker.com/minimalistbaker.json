@@ -31,16 +31,16 @@
   "ratings": 4.73,
   "ratings_count": 11,
   "nutrients": {
-    "calories": "117 kcal",
-    "carbohydrateContent": "6.8 g",
-    "fatContent": "9 g",
-    "fiberContent": "0.9 g",
-    "proteinContent": "4.3 g",
-    "saturatedFatContent": "1.6 g",
     "servingSize": "1 two-tablespoon serving",
-    "sodiumContent": "76 mg",
+    "calories": "117 kcal",
+    "fatContent": "9 g",
+    "saturatedFatContent": "1.6 g",
+    "unsaturatedFatContent": "6.42 g",
+    "carbohydrateContent": "6.8 g",
     "sugarContent": "1.3 g",
-    "unsaturatedFatContent": "6.42 g"
+    "proteinContent": "4.3 g",
+    "sodiumContent": "76 mg",
+    "fiberContent": "0.9 g"
   },
   "image": "https://minimalistbaker.com/wp-content/uploads/2020/05/Cashew-Ricotta-Cheese-sQUARE.jpg",
   "keywords": [

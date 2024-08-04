@@ -60,18 +60,18 @@
   "prep_time": 30,
   "cuisine": "American",
   "nutrients": {
-    "calories": "495 kcal",
-    "carbohydrateContent": "33 g",
-    "cholesterolContent": "109 mg",
-    "fatContent": "39 g",
-    "fiberContent": "1 g",
-    "proteinContent": "5 g",
-    "saturatedFatContent": "23 g",
     "servingSize": "1 of 12 slices",
-    "sodiumContent": "269 mg",
-    "sugarContent": "24 g",
+    "calories": "495 kcal",
+    "fatContent": "39 g",
+    "saturatedFatContent": "23 g",
+    "unsaturatedFatContent": "12 g",
     "transFatContent": "0.3 g",
-    "unsaturatedFatContent": "12 g"
+    "carbohydrateContent": "33 g",
+    "sugarContent": "24 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "269 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "109 mg"
   },
   "image": "https://bluejeanchef.com/uploads/2023/07/No-Bake-Cheesecake-1280-9439.jpg",
   "keywords": [

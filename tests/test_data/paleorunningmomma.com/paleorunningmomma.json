@@ -41,16 +41,16 @@
   "ratings": 4.56,
   "ratings_count": 100,
   "nutrients": {
-    "calories": "422 kcal",
-    "carbohydrateContent": "9 g",
-    "cholesterolContent": "99 mg",
-    "fatContent": "31 g",
-    "fiberContent": "2 g",
-    "proteinContent": "29 g",
-    "saturatedFatContent": "22 g",
     "servingSize": "1 serving",
+    "calories": "422 kcal",
+    "fatContent": "31 g",
+    "saturatedFatContent": "22 g",
+    "carbohydrateContent": "9 g",
+    "sugarContent": "2 g",
+    "proteinContent": "29 g",
     "sodiumContent": "432 mg",
-    "sugarContent": "2 g"
+    "fiberContent": "2 g",
+    "cholesterolContent": "99 mg"
   },
   "image": "https://www.paleorunningmomma.com/wp-content/uploads/2020/12/beef-stroganoff-9.jpg",
   "keywords": [

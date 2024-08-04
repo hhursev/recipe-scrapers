@@ -33,16 +33,16 @@
   "ratings": 5.0,
   "ratings_count": 85,
   "nutrients": {
-    "calories": "897 kcal",
-    "carbohydrateContent": "39 g",
-    "cholesterolContent": "191 mg",
-    "fatContent": "63 g",
-    "fiberContent": "1.5 g",
-    "proteinContent": "45 g",
-    "saturatedFatContent": "33 g",
     "servingSize": "1 g",
+    "calories": "897 kcal",
+    "fatContent": "63 g",
+    "saturatedFatContent": "33 g",
+    "carbohydrateContent": "39 g",
+    "sugarContent": "5.5 g",
+    "proteinContent": "45 g",
     "sodiumContent": "1472 mg",
-    "sugarContent": "5.5 g"
+    "fiberContent": "1.5 g",
+    "cholesterolContent": "191 mg"
   },
   "image": "https://www.gonnawantseconds.com/wp-content/uploads/2020/08/White-Chicken-Enchiladas-01.jpg",
   "keywords": [

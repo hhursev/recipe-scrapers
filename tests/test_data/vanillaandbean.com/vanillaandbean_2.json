@@ -37,15 +37,15 @@
   "ratings": 4.78,
   "ratings_count": 9,
   "nutrients": {
-    "calories": "150 kcal",
-    "carbohydrateContent": "21 g",
-    "fatContent": "6 g",
-    "fiberContent": "3 g",
-    "proteinContent": "5 g",
-    "saturatedFatContent": "1 g",
     "servingSize": "1 waffle",
+    "calories": "150 kcal",
+    "fatContent": "6 g",
+    "saturatedFatContent": "1 g",
+    "carbohydrateContent": "21 g",
+    "sugarContent": "5 g",
+    "proteinContent": "5 g",
     "sodiumContent": "202 mg",
-    "sugarContent": "5 g"
+    "fiberContent": "3 g"
   },
   "image": "https://vanillaandbean.com/wp-content/uploads/2020/02/waffle-9.jpg",
   "keywords": [

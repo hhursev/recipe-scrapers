@@ -67,16 +67,16 @@
   "ratings": 5.0,
   "ratings_count": 4,
   "nutrients": {
-    "calories": "121 kcal",
-    "carbohydrateContent": "17 g",
-    "cholesterolContent": "31 mg",
-    "fatContent": "5 g",
-    "fiberContent": "1 g",
-    "proteinContent": "1 g",
-    "saturatedFatContent": "3 g",
     "servingSize": "1 serving",
+    "calories": "121 kcal",
+    "fatContent": "5 g",
+    "saturatedFatContent": "3 g",
+    "carbohydrateContent": "17 g",
+    "sugarContent": "11 g",
+    "proteinContent": "1 g",
     "sodiumContent": "67 mg",
-    "sugarContent": "11 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "31 mg"
   },
   "image": "https://cafedelites.com/wp-content/uploads/2020/05/Churros-IMAGE-121.jpg",
   "keywords": [

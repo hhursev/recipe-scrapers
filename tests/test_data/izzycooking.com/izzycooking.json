@@ -36,16 +36,16 @@
   "ratings": 4.93,
   "ratings_count": 13,
   "nutrients": {
-    "calories": "221 kcal",
-    "carbohydrateContent": "19 g",
-    "cholesterolContent": "55 mg",
-    "fatContent": "15 g",
-    "fiberContent": "1 g",
-    "proteinContent": "3 g",
-    "saturatedFatContent": "8 g",
     "servingSize": "1 serving",
+    "calories": "221 kcal",
+    "fatContent": "15 g",
+    "saturatedFatContent": "8 g",
+    "carbohydrateContent": "19 g",
+    "sugarContent": "14 g",
+    "proteinContent": "3 g",
     "sodiumContent": "181 mg",
-    "sugarContent": "14 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "55 mg"
   },
   "image": "https://izzycooking.com/wp-content/uploads/2018/06/Oreo-Cheesecake-Bites-Featured-Image.jpg",
   "keywords": [

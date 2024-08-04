@@ -78,16 +78,16 @@
     "spatula"
   ],
   "nutrients": {
-    "calories": "291 kcal",
-    "carbohydrateContent": "44 g",
-    "cholesterolContent": "37 mg",
-    "fatContent": "11 g",
-    "fiberContent": "2 g",
-    "proteinContent": "4 g",
-    "saturatedFatContent": "3 g",
     "servingSize": "1 slice",
+    "calories": "291 kcal",
+    "fatContent": "11 g",
+    "saturatedFatContent": "3 g",
+    "carbohydrateContent": "44 g",
+    "sugarContent": "23 g",
+    "proteinContent": "4 g",
     "sodiumContent": "100 mg",
-    "sugarContent": "23 g"
+    "fiberContent": "2 g",
+    "cholesterolContent": "37 mg"
   },
   "image": "https://www.savorynothings.com/wp-content/uploads/2019/08/cinnamon-crunch-banana-bread-image-sq.jpg",
   "keywords": [

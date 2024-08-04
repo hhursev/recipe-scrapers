@@ -37,16 +37,16 @@
   "ratings": 4.6,
   "ratings_count": 5,
   "nutrients": {
-    "calories": "770 kcal",
-    "carbohydrateContent": "98 g",
-    "cholesterolContent": "82 mg",
-    "fatContent": "28 g",
-    "fiberContent": "4 g",
-    "proteinContent": "24 g",
-    "saturatedFatContent": "15 g",
     "servingSize": "1 serving",
+    "calories": "770 kcal",
+    "fatContent": "28 g",
+    "saturatedFatContent": "15 g",
+    "carbohydrateContent": "98 g",
+    "sugarContent": "4 g",
+    "proteinContent": "24 g",
     "sodiumContent": "203 mg",
-    "sugarContent": "4 g"
+    "fiberContent": "4 g",
+    "cholesterolContent": "82 mg"
   },
   "image": "https://www.recipegirl.com/wp-content/uploads/2007/12/PW-Clam-Linguine-1.jpeg",
   "keywords": [

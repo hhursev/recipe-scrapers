@@ -55,15 +55,15 @@
   "ratings": 4.67,
   "ratings_count": 68,
   "nutrients": {
-    "calories": "147 kcal",
-    "carbohydrateContent": "31 g",
-    "fatContent": "1 g",
-    "proteinContent": "3 g",
-    "saturatedFatContent": "1 g",
     "servingSize": "1 serving",
-    "sodiumContent": "53 mg",
+    "calories": "147 kcal",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "2 g",
     "transFatContent": "1 g",
-    "unsaturatedFatContent": "2 g"
+    "carbohydrateContent": "31 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "53 mg"
   },
   "image": "https://www.justonecookbook.com/wp-content/uploads/2023/09/Yaki-Onigiri-Grilled-Rice-Ball-3074-I-1.jpg",
   "keywords": [

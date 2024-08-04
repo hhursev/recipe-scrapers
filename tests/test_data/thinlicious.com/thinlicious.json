@@ -38,14 +38,14 @@
   "prep_time": 5,
   "cuisine": "Gluten Free,Grain free,Keto,LCHF,Low Carb,No Sugars,Wheat Free",
   "nutrients": {
-    "calories": "394 kcal",
-    "carbohydrateContent": "10 g",
-    "fatContent": "32.1 g",
-    "fiberContent": "5.5 g",
-    "proteinContent": "20.1 g",
     "servingSize": "1 hamburger bun",
+    "calories": "394 kcal",
+    "fatContent": "32.1 g",
+    "carbohydrateContent": "10 g",
+    "sugarContent": "1.8 g",
+    "proteinContent": "20.1 g",
     "sodiumContent": "368.3 mg",
-    "sugarContent": "1.8 g"
+    "fiberContent": "5.5 g"
   },
   "image": "https://thinlicious.com/wp-content/uploads/2023/08/Blog-Cover-Square-19.png",
   "keywords": [

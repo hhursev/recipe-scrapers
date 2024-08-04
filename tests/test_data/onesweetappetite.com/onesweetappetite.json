@@ -41,17 +41,17 @@
     "9×13 Dish"
   ],
   "nutrients": {
-    "calories": "394 kcal",
-    "carbohydrateContent": "11 g",
-    "cholesterolContent": "129 mg",
-    "fatContent": "20 g",
-    "fiberContent": "1 g",
-    "proteinContent": "39 g",
-    "saturatedFatContent": "8 g",
     "servingSize": "1 g",
-    "sodiumContent": "656 mg",
+    "calories": "394 kcal",
+    "fatContent": "20 g",
+    "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "11 g",
+    "carbohydrateContent": "11 g",
     "sugarContent": "2 g",
-    "unsaturatedFatContent": "11 g"
+    "proteinContent": "39 g",
+    "sodiumContent": "656 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "129 mg"
   },
   "image": "https://onesweetappetite.com/wp-content/uploads/2021/07/ranch-chicken-recipe-6.jpg"
 }

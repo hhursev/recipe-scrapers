@@ -40,17 +40,17 @@
   "ratings": 4.5,
   "ratings_count": 12,
   "nutrients": {
-    "calories": "319 kcal",
-    "carbohydrateContent": "34 g",
-    "cholesterolContent": "19 mg",
-    "fatContent": "16 g",
-    "fiberContent": "3 g",
-    "proteinContent": "10 g",
-    "saturatedFatContent": "6 g",
     "servingSize": "1 serving",
-    "sodiumContent": "664 mg",
+    "calories": "319 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "6 g",
+    "unsaturatedFatContent": "8 g",
+    "carbohydrateContent": "34 g",
     "sugarContent": "4 g",
-    "unsaturatedFatContent": "8 g"
+    "proteinContent": "10 g",
+    "sodiumContent": "664 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "19 mg"
   },
   "image": "https://www.justataste.com/wp-content/uploads/2018/04/baked-air-fryer-cheese-taquitos.jpg",
   "keywords": [

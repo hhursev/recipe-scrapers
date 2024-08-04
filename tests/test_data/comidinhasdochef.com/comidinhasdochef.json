@@ -45,16 +45,16 @@
   "ratings": 4.8,
   "ratings_count": 75,
   "nutrients": {
-    "calories": "163 kcal",
-    "carbohydrateContent": "1.2 g",
-    "fatContent": "10 g",
-    "fiberContent": "0.2 g",
-    "proteinContent": "15 g",
-    "saturatedFatContent": "2.9 g",
     "servingSize": "5",
-    "sodiumContent": "355 mg",
+    "calories": "163 kcal",
+    "fatContent": "10 g",
+    "saturatedFatContent": "2.9 g",
+    "unsaturatedFatContent": "4.8 g",
     "transFatContent": "0 g",
-    "unsaturatedFatContent": "4.8 g"
+    "carbohydrateContent": "1.2 g",
+    "proteinContent": "15 g",
+    "sodiumContent": "355 mg",
+    "fiberContent": "0.2 g"
   },
   "image": "https://comidinhasdochef.com/wp-content/uploads/2022/01/Coxa-de-Frango-na-Fritadeira-Elétrica00.jpg",
   "keywords": [

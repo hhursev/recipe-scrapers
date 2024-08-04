@@ -86,15 +86,15 @@
     "8x8 pan"
   ],
   "nutrients": {
-    "calories": "256 kcal",
-    "carbohydrateContent": "36 g",
-    "fatContent": "11 g",
-    "fiberContent": "2 g",
-    "proteinContent": "4 g",
-    "saturatedFatContent": "1 g",
     "servingSize": "1 serving",
+    "calories": "256 kcal",
+    "fatContent": "11 g",
+    "saturatedFatContent": "1 g",
+    "carbohydrateContent": "36 g",
+    "sugarContent": "8 g",
+    "proteinContent": "4 g",
     "sodiumContent": "264 mg",
-    "sugarContent": "8 g"
+    "fiberContent": "2 g"
   },
   "image": "https://elavegan.com/wp-content/uploads/2022/11/a-piece-of-vegan-coffee-cake-on-a-small-plate.jpg",
   "keywords": [

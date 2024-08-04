@@ -31,16 +31,16 @@
   "ratings": 5.0,
   "ratings_count": 11,
   "nutrients": {
-    "calories": "304 kcal",
-    "carbohydrateContent": "52 g",
-    "cholesterolContent": "10 mg",
-    "fatContent": "8 g",
-    "fiberContent": "5 g",
-    "proteinContent": "7 g",
-    "saturatedFatContent": "3 g",
     "servingSize": "1 serving",
+    "calories": "304 kcal",
+    "fatContent": "8 g",
+    "saturatedFatContent": "3 g",
+    "carbohydrateContent": "52 g",
+    "sugarContent": "21 g",
+    "proteinContent": "7 g",
     "sodiumContent": "186 mg",
-    "sugarContent": "21 g"
+    "fiberContent": "5 g",
+    "cholesterolContent": "10 mg"
   },
   "image": "https://www.foodfidelity.com/wp-content/uploads/2020/06/stovetop-Orange-juice-oatmeal-w-strawberries-tight-1.jpg",
   "keywords": [

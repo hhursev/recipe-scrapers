@@ -26,17 +26,17 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
-    "calories": "228 kcal",
-    "carbohydrateContent": "45 g",
-    "cholesterolContent": "3 mg",
-    "fatContent": "4 g",
-    "fiberContent": "11 g",
-    "proteinContent": "9 g",
-    "saturatedFatContent": "1 g",
     "servingSize": "2 cups",
-    "sodiumContent": "265 mg",
+    "calories": "228 kcal",
+    "fatContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "3 g",
+    "carbohydrateContent": "45 g",
     "sugarContent": "26 g",
-    "unsaturatedFatContent": "3 g"
+    "proteinContent": "9 g",
+    "sodiumContent": "265 mg",
+    "fiberContent": "11 g",
+    "cholesterolContent": "3 mg"
   },
   "image": "https://kristineskitchenblog.com/wp-content/uploads/2022/02/best-berry-smoothie-recipe-06.jpg",
   "keywords": [

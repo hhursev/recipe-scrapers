@@ -57,17 +57,17 @@
   "ratings": 4.5,
   "ratings_count": 96,
   "nutrients": {
-    "calories": "480",
-    "carbohydrateContent": "66 g",
-    "cholesterolContent": "50 mg",
-    "fatContent": "4 1/2",
-    "fiberContent": "2 g",
-    "proteinContent": "4 g",
-    "saturatedFatContent": "14 g",
     "servingSize": "1 Serving",
-    "sodiumContent": "360 mg",
+    "calories": "480",
+    "fatContent": "4 1/2",
+    "saturatedFatContent": "14 g",
+    "transFatContent": "1/2 g",
+    "carbohydrateContent": "66 g",
     "sugarContent": "53 g",
-    "transFatContent": "1/2 g"
+    "proteinContent": "4 g",
+    "sodiumContent": "360 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "50 mg"
   },
   "image": "https://images-gmi-pmc.edge-generalmills.com/6ec084f7-ffd9-4df2-8302-877825ecc321.jpg",
   "keywords": [

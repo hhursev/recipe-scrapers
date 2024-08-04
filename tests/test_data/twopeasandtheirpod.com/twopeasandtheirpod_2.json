@@ -32,16 +32,16 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
-    "calories": "71 kcal",
-    "carbohydrateContent": "17 g",
-    "fatContent": "0.4 g",
-    "fiberContent": "4 g",
-    "proteinContent": "1 g",
-    "saturatedFatContent": "0.1 g",
     "servingSize": "1 serving",
-    "sodiumContent": "5 mg",
+    "calories": "71 kcal",
+    "fatContent": "0.4 g",
+    "saturatedFatContent": "0.1 g",
+    "unsaturatedFatContent": "0.2 g",
+    "carbohydrateContent": "17 g",
     "sugarContent": "12 g",
-    "unsaturatedFatContent": "0.2 g"
+    "proteinContent": "1 g",
+    "sodiumContent": "5 mg",
+    "fiberContent": "4 g"
   },
   "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/07/Mango-Salad-0715.jpg",
   "keywords": [

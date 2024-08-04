@@ -72,17 +72,17 @@
   "ratings": 3.96,
   "ratings_count": 24,
   "nutrients": {
-    "calories": "481 calories",
-    "carbohydrateContent": "57.4098187923495 g",
-    "cholesterolContent": "67.6928125483674 mg",
-    "fatContent": "26.8979413713296 g",
-    "fiberContent": "1.67127084293811 g",
-    "proteinContent": "5.32984031303912 g",
-    "saturatedFatContent": "16.3710790210703 g",
     "servingSize": "1 1 Serving (165g)",
-    "sodiumContent": "2999.16267349517 mg",
+    "calories": "481 calories",
+    "fatContent": "26.8979413713296 g",
+    "saturatedFatContent": "16.3710790210703 g",
+    "transFatContent": "2.40130497025108 g",
+    "carbohydrateContent": "57.4098187923495 g",
     "sugarContent": "55.7385479494114 g",
-    "transFatContent": "2.40130497025108 g"
+    "proteinContent": "5.32984031303912 g",
+    "sodiumContent": "2999.16267349517 mg",
+    "fiberContent": "1.67127084293811 g",
+    "cholesterolContent": "67.6928125483674 mg"
   },
   "image": "https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/white-chocolate-raspberry-cupc-bd2bf9.jpg",
   "keywords": [

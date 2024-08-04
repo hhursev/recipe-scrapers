@@ -36,16 +36,16 @@
   "ratings": 5.0,
   "ratings_count": 9,
   "nutrients": {
-    "calories": "104 kcal",
-    "carbohydrateContent": "13 g",
-    "cholesterolContent": "23 mg",
-    "fatContent": "4 g",
-    "fiberContent": "1 g",
-    "proteinContent": "3 g",
-    "saturatedFatContent": "1 g",
     "servingSize": "1 pancake",
+    "calories": "104 kcal",
+    "fatContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "carbohydrateContent": "13 g",
+    "sugarContent": "2 g",
+    "proteinContent": "3 g",
     "sodiumContent": "43 mg",
-    "sugarContent": "2 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "23 mg"
   },
   "image": "https://www.simplyquinoa.com/wp-content/uploads/2022/05/gluten-free-pancakes-recipe-apple-cinnamon.jpg",
   "keywords": [

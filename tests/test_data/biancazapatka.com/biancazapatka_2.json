@@ -91,15 +91,15 @@
   "ratings": 5.0,
   "ratings_count": 2,
   "nutrients": {
-    "calories": "275.1 kcal",
-    "carbohydrateContent": "36.8 g",
-    "fatContent": "13.1 g",
-    "fiberContent": "1.7 g",
-    "proteinContent": "3.9 g",
-    "saturatedFatContent": "2.5 g",
     "servingSize": "1 Piece",
+    "calories": "275.1 kcal",
+    "fatContent": "13.1 g",
+    "saturatedFatContent": "2.5 g",
+    "carbohydrateContent": "36.8 g",
+    "sugarContent": "15.8 g",
+    "proteinContent": "3.9 g",
     "sodiumContent": "119.1 mg",
-    "sugarContent": "15.8 g"
+    "fiberContent": "1.7 g"
   },
   "image": "https://biancazapatka.com/wp-content/uploads/2023/07/kuchen-blaubeeren-brombeeren.jpg",
   "keywords": [

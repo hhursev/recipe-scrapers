@@ -40,16 +40,16 @@
   "ratings": 5.0,
   "ratings_count": 4164,
   "nutrients": {
-    "calories": "124 kcal",
-    "carbohydrateContent": "27 g",
-    "cholesterolContent": "15 mg",
-    "fatContent": "1 g",
-    "fiberContent": "1 g",
-    "proteinContent": "3 g",
-    "saturatedFatContent": "1 g",
     "servingSize": "1 serving",
+    "calories": "124 kcal",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "carbohydrateContent": "27 g",
+    "sugarContent": "17 g",
+    "proteinContent": "3 g",
     "sodiumContent": "178 mg",
-    "sugarContent": "17 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "15 mg"
   },
   "image": "https://addapinch.com/wp-content/uploads/2020/04/chocolate-cake-DSC_1768.jpg",
   "keywords": [

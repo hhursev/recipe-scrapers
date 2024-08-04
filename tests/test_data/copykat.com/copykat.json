@@ -39,16 +39,16 @@
   "ratings": 5.0,
   "ratings_count": 3,
   "nutrients": {
-    "calories": "495 kcal",
-    "carbohydrateContent": "46 g",
-    "cholesterolContent": "93 mg",
-    "fatContent": "17 g",
-    "fiberContent": "2 g",
-    "proteinContent": "36 g",
-    "saturatedFatContent": "8 g",
     "servingSize": "1 serving",
+    "calories": "495 kcal",
+    "fatContent": "17 g",
+    "saturatedFatContent": "8 g",
+    "carbohydrateContent": "46 g",
+    "sugarContent": "2 g",
+    "proteinContent": "36 g",
     "sodiumContent": "682 mg",
-    "sugarContent": "2 g"
+    "fiberContent": "2 g",
+    "cholesterolContent": "93 mg"
   },
   "image": "https://copykat.com/wp-content/uploads/2020/11/Beef-Tips-and-Gravy-Pin2.jpg",
   "keywords": [

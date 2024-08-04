@@ -81,12 +81,12 @@
   "cuisine": null,
   "nutrients": {
     "calories": "555cals",
-    "carbohydrateContent": "50g",
     "fatContent": "36g",
-    "fiberContent": "1g",
-    "proteinContent": "7g",
     "saturatedFatContent": "22g",
-    "sugarContent": "43g"
+    "carbohydrateContent": "50g",
+    "sugarContent": "43g",
+    "proteinContent": "7g",
+    "fiberContent": "1g"
   },
   "image": "https://hips.hearstapps.com/hmg-prod/images/jaffa-cheesecake-1548684397.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=1200:*",
   "keywords": [

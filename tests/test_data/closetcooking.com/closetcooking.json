@@ -31,15 +31,15 @@
   "prep_time": 5,
   "nutrients": {
     "calories": "Calories 415",
-    "carbohydrateContent": "Carbs 4g",
-    "cholesterolContent": "Cholesterol 117mg",
     "fatContent": "Fat 32g",
-    "fiberContent": "Fiber 0.4g",
-    "proteinContent": "Protein 25g",
     "saturatedFatContent": "Saturated 13g",
-    "sodiumContent": "Sodium 361mg",
+    "transFatContent": "Trans 0.2g",
+    "carbohydrateContent": "Carbs 4g",
     "sugarContent": "Sugars 2g",
-    "transFatContent": "Trans 0.2g"
+    "proteinContent": "Protein 25g",
+    "sodiumContent": "Sodium 361mg",
+    "fiberContent": "Fiber 0.4g",
+    "cholesterolContent": "Cholesterol 117mg"
   },
   "image": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E"
 }

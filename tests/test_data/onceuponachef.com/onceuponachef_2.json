@@ -69,16 +69,16 @@
   "ratings": 5.0,
   "ratings_count": 532,
   "nutrients": {
-    "calories": "357",
-    "carbohydrateContent": "40 g",
-    "cholesterolContent": "0 mg",
-    "fatContent": "20 g",
-    "fiberContent": "11 g",
-    "proteinContent": "9 g",
-    "saturatedFatContent": "2 g",
     "servingSize": "approximately 1 cup",
+    "calories": "357",
+    "fatContent": "20 g",
+    "saturatedFatContent": "2 g",
+    "carbohydrateContent": "40 g",
+    "sugarContent": "12 g",
+    "proteinContent": "9 g",
     "sodiumContent": "306 mg",
-    "sugarContent": "12 g"
+    "fiberContent": "11 g",
+    "cholesterolContent": "0 mg"
   },
   "image": "https://www.onceuponachef.com/images/2014/06/Black-Bean-and-Corn-Salad.jpg",
   "keywords": [

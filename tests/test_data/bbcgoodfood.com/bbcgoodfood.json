@@ -30,13 +30,13 @@
   "prep_time": 10,
   "nutrients": {
     "calories": "726 calories",
-    "carbohydrateContent": "82 grams carbohydrates",
     "fatContent": "25 grams fat",
-    "fiberContent": "7 grams fiber",
-    "proteinContent": "39 grams protein",
     "saturatedFatContent": "6 grams saturated fat",
+    "carbohydrateContent": "82 grams carbohydrates",
+    "sugarContent": "8 grams sugar",
+    "proteinContent": "39 grams protein",
     "sodiumContent": "0.2 milligram of sodium",
-    "sugarContent": "8 grams sugar"
+    "fiberContent": "7 grams fiber"
   },
   "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/summer-meatballs-spaghetti-bd04f10.jpg?resize=768,574",
   "keywords": [

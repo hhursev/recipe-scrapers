@@ -42,17 +42,17 @@
   "ratings": 4.98,
   "ratings_count": 35,
   "nutrients": {
-    "calories": "229 kcal",
-    "carbohydrateContent": "25 g",
-    "cholesterolContent": "103 mg",
-    "fatContent": "11 g",
-    "fiberContent": "4 g",
-    "proteinContent": "9 g",
-    "saturatedFatContent": "4 g",
     "servingSize": "1 (of 6), about 1 cup",
-    "sugarContent": "2 g",
+    "calories": "229 kcal",
+    "fatContent": "11 g",
+    "saturatedFatContent": "4 g",
+    "unsaturatedFatContent": "6 g",
     "transFatContent": "0.2 g",
-    "unsaturatedFatContent": "6 g"
+    "carbohydrateContent": "25 g",
+    "sugarContent": "2 g",
+    "proteinContent": "9 g",
+    "fiberContent": "4 g",
+    "cholesterolContent": "103 mg"
   },
   "image": "https://www.wellplated.com/wp-content/uploads/2023/07/Egg-Fried-Rice-Recipe.jpg",
   "keywords": [

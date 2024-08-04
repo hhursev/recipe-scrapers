@@ -33,16 +33,16 @@
   "ratings": 5.0,
   "ratings_count": 5,
   "nutrients": {
-    "calories": "143 kcal",
-    "carbohydrateContent": "9 g",
-    "fatContent": "12 g",
-    "fiberContent": "3 g",
-    "proteinContent": "4 g",
-    "saturatedFatContent": "10 g",
     "servingSize": "1 serving",
-    "sodiumContent": "629 mg",
+    "calories": "143 kcal",
+    "fatContent": "12 g",
+    "saturatedFatContent": "10 g",
+    "unsaturatedFatContent": "2 g",
+    "carbohydrateContent": "9 g",
     "sugarContent": "2 g",
-    "unsaturatedFatContent": "2 g"
+    "proteinContent": "4 g",
+    "sodiumContent": "629 mg",
+    "fiberContent": "3 g"
   },
   "image": "https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=1200&auto=format",
   "keywords": [

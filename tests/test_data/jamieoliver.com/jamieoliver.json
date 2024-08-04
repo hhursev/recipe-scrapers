@@ -32,13 +32,13 @@
   "cuisine": "https://schema.org/VegetarianDiet",
   "nutrients": {
     "calories": "291 calories",
-    "carbohydrateContent": "28.3 g carbohydrate",
     "fatContent": "18.4 g fat",
-    "fiberContent": "1.6 g fibre",
-    "proteinContent": "3.9 g protein",
     "saturatedFatContent": "10.1 g saturated fat",
+    "carbohydrateContent": "28.3 g carbohydrate",
+    "sugarContent": "24.6 g sugar",
+    "proteinContent": "3.9 g protein",
     "sodiumContent": "0.2 g salt",
-    "sugarContent": "24.6 g sugar"
+    "fiberContent": "1.6 g fibre"
   },
   "image": "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/88_1_1441269331.jpg?tr=w-800,h-800",
   "keywords": [

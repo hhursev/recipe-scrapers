@@ -36,16 +36,16 @@
   "ratings": 5.0,
   "ratings_count": 6,
   "nutrients": {
-    "calories": "247 kcal",
-    "carbohydrateContent": "7 g",
-    "cholesterolContent": "65 mg",
-    "fatContent": "14 g",
-    "fiberContent": "1 g",
-    "proteinContent": "23 g",
-    "saturatedFatContent": "5 g",
     "servingSize": "3 ribs",
+    "calories": "247 kcal",
+    "fatContent": "14 g",
+    "saturatedFatContent": "5 g",
+    "carbohydrateContent": "7 g",
+    "sugarContent": "6 g",
+    "proteinContent": "23 g",
     "sodiumContent": "1152 mg",
-    "sugarContent": "6 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "65 mg"
   },
   "image": "https://www.platingpixels.com/wp-content/uploads/2021/01/Instant-Pot-Beef-Short-Ribs-recipe-1.jpg",
   "keywords": [

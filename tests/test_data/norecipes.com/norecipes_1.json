@@ -33,16 +33,16 @@
   "ratings": 4.45,
   "ratings_count": 238,
   "nutrients": {
-    "calories": "361 kcal",
-    "carbohydrateContent": "21 g",
-    "cholesterolContent": "150 mg",
-    "fatContent": "29 g",
-    "fiberContent": "1 g",
-    "proteinContent": "5 g",
-    "saturatedFatContent": "17 g",
     "servingSize": "1 serving",
+    "calories": "361 kcal",
+    "fatContent": "29 g",
+    "saturatedFatContent": "17 g",
+    "carbohydrateContent": "21 g",
+    "sugarContent": "18 g",
+    "proteinContent": "5 g",
     "sodiumContent": "157 mg",
-    "sugarContent": "18 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "150 mg"
   },
   "image": "https://norecipes.com/wp-content/uploads/2020/01/basque-cheesecake-011.jpg",
   "keywords": [

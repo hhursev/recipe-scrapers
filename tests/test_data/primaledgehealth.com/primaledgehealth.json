@@ -29,15 +29,15 @@
   "ratings": 5.0,
   "ratings_count": 4,
   "nutrients": {
-    "calories": "212 kcal",
-    "carbohydrateContent": "5 g",
-    "cholesterolContent": "67 mg",
-    "fatContent": "18 g",
-    "proteinContent": "8 g",
-    "saturatedFatContent": "11 g",
     "servingSize": "1 serving",
+    "calories": "212 kcal",
+    "fatContent": "18 g",
+    "saturatedFatContent": "11 g",
+    "carbohydrateContent": "5 g",
+    "sugarContent": "1 g",
+    "proteinContent": "8 g",
     "sodiumContent": "69 mg",
-    "sugarContent": "1 g"
+    "cholesterolContent": "67 mg"
   },
   "image": "https://www.primaledgehealth.com/wp-content/uploads/2021/02/no-bake-custard-1.jpg",
   "keywords": [

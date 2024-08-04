@@ -94,18 +94,18 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
-    "calories": "665 kcal",
-    "carbohydrateContent": "16 g",
-    "cholesterolContent": "113 mg",
-    "fatContent": "46 g",
-    "fiberContent": "9 g",
-    "proteinContent": "49 g",
-    "saturatedFatContent": "8 g",
     "servingSize": "1 salad",
-    "sodiumContent": "1347 mg",
-    "sugarContent": "5 g",
+    "calories": "665 kcal",
+    "fatContent": "46 g",
+    "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "35 g",
     "transFatContent": "0.04 g",
-    "unsaturatedFatContent": "35 g"
+    "carbohydrateContent": "16 g",
+    "sugarContent": "5 g",
+    "proteinContent": "49 g",
+    "sodiumContent": "1347 mg",
+    "fiberContent": "9 g",
+    "cholesterolContent": "113 mg"
   },
   "image": "https://aflavorjournal.com/wp-content/uploads/2024/02/Salmon-Kale-Salad-Ftd.jpg",
   "keywords": [

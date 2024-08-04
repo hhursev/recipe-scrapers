@@ -36,13 +36,13 @@
   "ratings_count": 10,
   "nutrients": {
     "calories": "190.52 calories",
-    "carbohydrateContent": "76.6 grams carbohydrates",
-    "cholesterolContent": "157.1 milligrams cholesterol",
     "fatContent": "26.0 grams fat",
-    "proteinContent": "60.3 grams protein",
     "saturatedFatContent": "12.0 grams saturated fat",
+    "carbohydrateContent": "76.6 grams carbohydrates",
+    "sugarContent": "8.2 grams sugar",
+    "proteinContent": "60.3 grams protein",
     "sodiumContent": "4.8 milligrams sodium",
-    "sugarContent": "8.2 grams sugar"
+    "cholesterolContent": "157.1 milligrams cholesterol"
   },
   "image": "https://img.taste.com.au/g-jb09b4/taste/2021/05/mexican-chicken-pasta-bake-171430-2.jpg",
   "keywords": [

@@ -30,16 +30,16 @@
   "ratings": 5.0,
   "ratings_count": 5,
   "nutrients": {
-    "calories": "305 kcal",
-    "carbohydrateContent": "24 g",
-    "fatContent": "23 g",
-    "fiberContent": "7 g",
-    "proteinContent": "5 g",
-    "saturatedFatContent": "17 g",
     "servingSize": "1 serving",
-    "sodiumContent": "28 mg",
+    "calories": "305 kcal",
+    "fatContent": "23 g",
+    "saturatedFatContent": "17 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "24 g",
     "sugarContent": "13 g",
-    "transFatContent": "1 g"
+    "proteinContent": "5 g",
+    "sodiumContent": "28 mg",
+    "fiberContent": "7 g"
   },
   "image": "https://www.notenoughcinnamon.com/wp-content/uploads/2020/10/Pina-Colada-Chia-Pudding-2.jpg",
   "keywords": [

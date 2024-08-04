@@ -79,15 +79,15 @@
   "ratings_count": 559,
   "nutrients": {
     "calories": "656",
-    "carbohydrateContent": "86 grams",
     "fatContent": "27 grams",
-    "fiberContent": "12 grams",
-    "proteinContent": "22 grams",
     "saturatedFatContent": "10 grams",
-    "sodiumContent": "1201 milligrams",
-    "sugarContent": "8 grams",
+    "unsaturatedFatContent": "14 grams",
     "transFatContent": "0 grams",
-    "unsaturatedFatContent": "14 grams"
+    "carbohydrateContent": "86 grams",
+    "sugarContent": "8 grams",
+    "proteinContent": "22 grams",
+    "sodiumContent": "1201 milligrams",
+    "fiberContent": "12 grams"
   },
   "image": "https://static01.nyt.com/images/2023/07/14/multimedia/14EVERYDAY-VEGETABLESrex1-pvqb/14EVERYDAY-VEGETABLESrex1-pvqb-mediumSquareAt3X.jpg",
   "keywords": [
