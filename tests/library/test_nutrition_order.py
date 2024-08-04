@@ -7,7 +7,6 @@ class TestNutritionKeyOrder(unittest.TestCase):
 
     def test_nutrition_key_order(self):
         correct_order = [
-            "type",
             "servingSize",
             "calories",
             "fatContent",
