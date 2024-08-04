@@ -14,3 +14,10 @@ class KaleJunkie(AbstractScraper):
             ".wprm-recipe-ingredient-group h4",
             ".wprm-recipe-ingredient",
         )
+
+    def instructions(self):
+        instructions = self.soup.findAll(
+            "div", {"class": "wprm-recipe-instruction-text"}
+        )
+
+        return "\n".join([instruction.get_text() for instruction in instructions])
