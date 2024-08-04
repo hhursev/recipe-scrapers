@@ -478,7 +478,7 @@ For Devs / Contribute
 #### Preparing your development environment
 - Navigate to the directory where you want this project to live in and follow the relevant instructions below.
 
-#### Linux and macOS:
+#### Linux and macOS
 .. code:: shell
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
@@ -491,7 +491,7 @@ For Devs / Contribute
     pre-commit install &&
     python -m unittest
 
-#### Windows:
+#### Windows
 .. code:: shell
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
