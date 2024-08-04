@@ -8,18 +8,18 @@ class TestNutritionKeyOrder(unittest.TestCase):
     def test_nutrition_key_order(self):
         correct_order = [
             "type",
-            "calories",
-            "carbohydrateContent",
-            "cholesterolContent",
-            "fatContent",
-            "fiberContent",
-            "proteinContent",
-            "saturatedFatContent",
             "servingSize",
-            "sodiumContent",
-            "sugarContent",
-            "transFatContent",
+            "calories",
+            "fatContent",
+            "saturatedFatContent",
             "unsaturatedFatContent",
+            "transFatContent",
+            "carbohydrateContent",
+            "sugarContent",
+            "proteinContent",
+            "sodiumContent",
+            "fiberContent",
+            "cholesterolContent",
         ]
         json_directory = "tests/test_data/"
 
