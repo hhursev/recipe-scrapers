@@ -530,6 +530,7 @@ Run in python shell:
     Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from recipe_scrapers import scrape_html
+    >>> import requests
     >>> scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
     >>> # if no error is raised - there's schema available:
     >>> scraper.title()
