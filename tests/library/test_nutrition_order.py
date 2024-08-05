@@ -2,24 +2,12 @@ import json
 import os
 import unittest
 
+from recipe_scrapers._utils import NUTRITION_KEYS
+
 
 class TestNutritionKeyOrder(unittest.TestCase):
 
     def test_nutrition_key_order(self):
-        correct_order = [
-            "servingSize",
-            "calories",
-            "fatContent",
-            "saturatedFatContent",
-            "unsaturatedFatContent",
-            "transFatContent",
-            "carbohydrateContent",
-            "sugarContent",
-            "proteinContent",
-            "sodiumContent",
-            "fiberContent",
-            "cholesterolContent",
-        ]
         json_directory = "tests/test_data/"
 
         for root, dirs, files in os.walk(json_directory):
@@ -33,10 +21,10 @@ class TestNutritionKeyOrder(unittest.TestCase):
                         actual_keys = list(nutrients.keys())
 
                         ordered_keys = [
-                            key for key in correct_order if key in actual_keys
+                            key for key in NUTRITION_KEYS if key in actual_keys
                         ]
                         other_keys = [
-                            key for key in actual_keys if key not in correct_order
+                            key for key in actual_keys if key not in NUTRITION_KEYS
                         ]
 
                         expected_keys = ordered_keys + other_keys

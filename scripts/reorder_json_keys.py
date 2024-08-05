@@ -1,23 +1,9 @@
 import json
 import os
 
-from recipe_scrapers._utils import get_abstract_methods
+from recipe_scrapers._utils import NUTRITION_KEYS, get_abstract_methods
 
 KEYS = get_abstract_methods()
-NUTRITION_KEYS_ORDER = [
-    "servingSize",
-    "calories",
-    "fatContent",
-    "saturatedFatContent",
-    "unsaturatedFatContent",
-    "transFatContent",
-    "carbohydrateContent",
-    "sugarContent",
-    "proteinContent",
-    "sodiumContent",
-    "fiberContent",
-    "cholesterolContent",
-]
 
 
 def reorder_json_keys(file_path):
@@ -40,7 +26,7 @@ def reorder_nutrition_keys(file_path):
     if "nutrients" in data and data["nutrients"] is not None:
         nutrients = data["nutrients"]
         reordered_nutrients = {
-            key: nutrients[key] for key in NUTRITION_KEYS_ORDER if key in nutrients
+            key: nutrients[key] for key in NUTRITION_KEYS if key in nutrients
         }
         for key in nutrients:
             if key not in reordered_nutrients:

@@ -70,6 +70,21 @@ RECIPE_YIELD_TYPES = (
     # ... add more types as needed, in (singular, plural) format ...
 )
 
+NUTRITION_KEYS = [
+    "servingSize",
+    "calories",
+    "fatContent",
+    "saturatedFatContent",
+    "unsaturatedFatContent",
+    "transFatContent",
+    "carbohydrateContent",
+    "sugarContent",
+    "proteinContent",
+    "sodiumContent",
+    "fiberContent",
+    "cholesterolContent",
+]
+
 
 def format_diet_name(diet_input):
     replacements = {
