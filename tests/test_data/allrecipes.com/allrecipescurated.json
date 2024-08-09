@@ -26,9 +26,9 @@
   "category": "Dinner",
   "yields": "8 servings",
   "description": "These delicious four cheese pizzas are bursting with flavor, and ready in under one hour.",
-  "total_time": 40.0,
-  "cook_time": 10.0,
-  "prep_time": 15.0,
+  "total_time": 40,
+  "cook_time": 10,
+  "prep_time": 15,
   "cuisine": "Italian Inspired",
   "ratings": 4.8,
   "ratings_count": 489,
@@ -36,13 +36,13 @@
     "calories": "551 kcal",
     "carbohydrateContent": "54 g",
     "cholesterolContent": "58 mg",
-    "fatContent": "26 g",
     "fiberContent": "3 g",
     "proteinContent": "29 g",
     "saturatedFatContent": "11 g",
     "sodiumContent": "1183 mg",
     "sugarContent": "5 g",
-    "unsaturatedFatContent": "0 g"
+    "unsaturatedFatContent": "0 g",
+    "fatContent": "26 g"
   },
   "image": "https://www.allrecipes.com/thmb/dA8YLuNy2HMa9s-tSTiFYjPdXy0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5225433-four-cheese-margherita-pizza-Christina-4x3-1-29b0fe4316b74017a5ae437e9ebb319d.jpg"
 }

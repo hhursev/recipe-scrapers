@@ -15,9 +15,6 @@ class WeightWatchers(AbstractScraper):
     def title(self):
         return self.soup.find("h1").get_text().strip()
 
-    def category(self):
-        return "WeightWatchers"
-
     # cooking times, yield, difficulty are in a common div in public and non-public recipes
     # but class of that block and sub elements are different
     # so finding the block and extracting a value will be overridden in class for public recipes,
