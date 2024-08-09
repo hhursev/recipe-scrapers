@@ -31,18 +31,18 @@
   "ratings": 5.0,
   "ratings_count": 13,
   "nutrients": {
-    "calories": "4245 calories",
-    "carbohydrateContent": "812 grams carbohydrates",
-    "cholesterolContent": "17 milligrams cholesterol",
-    "fatContent": "20 grams fat",
-    "fiberContent": "4 grams fiber",
-    "proteinContent": "34 grams protein",
-    "saturatedFatContent": "8 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "1160 milligrams sodium",
-    "sugarContent": "717 grams sugar",
+    "calories": "4245 calories",
+    "fatContent": "20 grams fat",
+    "saturatedFatContent": "8 grams saturated fat",
+    "unsaturatedFatContent": "12 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "12 grams unsaturated fat"
+    "carbohydrateContent": "812 grams carbohydrates",
+    "sugarContent": "717 grams sugar",
+    "proteinContent": "34 grams protein",
+    "sodiumContent": "1160 milligrams sodium",
+    "fiberContent": "4 grams fiber",
+    "cholesterolContent": "17 milligrams cholesterol"
   },
   "image": "https://www.averiecooks.com/wp-content/uploads/2020/07/watermelonsalad-5-480x480.jpg",
   "keywords": [

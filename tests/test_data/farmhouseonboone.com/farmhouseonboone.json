@@ -55,18 +55,18 @@
   "ratings": 4.5,
   "ratings_count": 59,
   "nutrients": {
-    "calories": "409 calories",
-    "carbohydrateContent": "36 grams carbohydrates",
-    "cholesterolContent": "87 milligrams cholesterol",
-    "fatContent": "28 grams fat",
-    "fiberContent": "1 grams fiber",
-    "proteinContent": "5 grams protein",
-    "saturatedFatContent": "17 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "388 milligrams sodium",
-    "sugarContent": "4 grams sugar",
+    "calories": "409 calories",
+    "fatContent": "28 grams fat",
+    "saturatedFatContent": "17 grams saturated fat",
+    "unsaturatedFatContent": "9 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "9 grams unsaturated fat"
+    "carbohydrateContent": "36 grams carbohydrates",
+    "sugarContent": "4 grams sugar",
+    "proteinContent": "5 grams protein",
+    "sodiumContent": "388 milligrams sodium",
+    "fiberContent": "1 grams fiber",
+    "cholesterolContent": "87 milligrams cholesterol"
   },
   "image": "https://www.farmhouseonboone.com/wp-content/uploads/2022/09/sourdough-croissants-11-2-scaled-720x720.jpg",
   "keywords": [

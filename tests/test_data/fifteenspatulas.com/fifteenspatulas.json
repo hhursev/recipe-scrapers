@@ -37,15 +37,15 @@
   "ratings": 5.0,
   "ratings_count": 10,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "458 kcal",
-    "carbohydrateContent": "4 g",
-    "proteinContent": "5 g",
     "fatContent": "48 g",
     "saturatedFatContent": "29 g",
-    "cholesterolContent": "317 mg",
-    "sodiumContent": "52 mg",
+    "carbohydrateContent": "4 g",
     "sugarContent": "1 g",
-    "servingSize": "1 serving"
+    "proteinContent": "5 g",
+    "sodiumContent": "52 mg",
+    "cholesterolContent": "317 mg"
   },
   "image": "https://www.fifteenspatulas.com/wp-content/uploads/2019/05/Orange-Creme-Brulee-Fifteen-Spatulas-16.jpg",
   "keywords": [
