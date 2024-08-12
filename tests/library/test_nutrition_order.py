@@ -2,12 +2,13 @@ import json
 import os
 import unittest
 
-from recipe_scrapers._utils import NUTRITION_KEYS
+from recipe_scrapers._utils import get_nutrition_keys
 
 
 class TestNutritionKeyOrder(unittest.TestCase):
 
     def test_nutrition_key_order(self):
+        nutrition_keys = get_nutrition_keys()
         json_directory = "tests/test_data/"
 
         for root, dirs, files in os.walk(json_directory):
@@ -21,10 +22,10 @@ class TestNutritionKeyOrder(unittest.TestCase):
                         actual_keys = list(nutrients.keys())
 
                         ordered_keys = [
-                            key for key in NUTRITION_KEYS if key in actual_keys
+                            key for key in nutrition_keys if key in actual_keys
                         ]
                         other_keys = [
-                            key for key in actual_keys if key not in NUTRITION_KEYS
+                            key for key in actual_keys if key not in nutrition_keys
                         ]
 
                         expected_keys = ordered_keys + other_keys

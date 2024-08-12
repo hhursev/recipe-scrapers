@@ -70,21 +70,6 @@ RECIPE_YIELD_TYPES = (
     # ... add more types as needed, in (singular, plural) format ...
 )
 
-NUTRITION_KEYS = [
-    "servingSize",
-    "calories",
-    "fatContent",
-    "saturatedFatContent",
-    "unsaturatedFatContent",
-    "transFatContent",
-    "carbohydrateContent",
-    "sugarContent",
-    "proteinContent",
-    "sodiumContent",
-    "fiberContent",
-    "cholesterolContent",
-]
-
 
 def format_diet_name(diet_input):
     replacements = {
@@ -339,4 +324,21 @@ def get_abstract_methods():
         and inspect.isfunction(value)  # ... and are functions ...
         and name not in {"links", "to_json"}  # ... and not excluded as special-cases.
         or name == "host"  # ... explicitly include the `host` method.
+    ]
+
+
+def get_nutrition_keys():
+    return [
+        "servingSize",
+        "calories",
+        "fatContent",
+        "saturatedFatContent",
+        "unsaturatedFatContent",
+        "transFatContent",
+        "carbohydrateContent",
+        "sugarContent",
+        "proteinContent",
+        "sodiumContent",
+        "fiberContent",
+        "cholesterolContent",
     ]
