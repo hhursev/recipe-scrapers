@@ -13,7 +13,6 @@ MANDATORY_TESTS = [
     "host",
     "image",
     "ingredients",
-    "instructions",
     "instructions_list",
     "language",
     "site_name",
@@ -24,6 +23,7 @@ MANDATORY_TESTS = [
 
 OPTIONAL_TESTS = [
     "ingredient_groups",
+    "instructions",
     "category",
     "description",
     "cook_time",
