@@ -154,7 +154,9 @@ def test_func_factory(
             )
 
             actual_instructions_normalized = "\n".join(
-                instruction for instruction in string_instructions.split("\n") if instruction.strip()
+                instruction
+                for instruction in string_instructions.split("\n")
+                if instruction.strip()
             )
 
             with self.subTest("instructions_list vs instructions"):
