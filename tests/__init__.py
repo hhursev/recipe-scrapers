@@ -146,24 +146,21 @@ def test_func_factory(
             self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
         if "instructions_list" in expect:
-            list_instructions = expect["instructions_list"]
-            string_instructions = actual.instructions()
+            list_instructions_normalized = [
+                line.strip() for line in expect["instructions_list"] if line.strip()
+            ]
 
-            expected_instructions_normalized = "\n".join(
-                line for line in list_instructions if line.strip()
-            )
-
-            actual_instructions_normalized = "\n".join(
-                instruction
-                for instruction in string_instructions.split("\n")
+            string_instructions_normalized = [
+                instruction.strip()
+                for instruction in actual.instructions().split("\n")
                 if instruction.strip()
-            )
+            ]
 
-            with self.subTest("instructions_list vs instructions"):
+            with self.subTest("instructions_list vs instructions comparison"):
                 self.assertEqual(
-                    expected_instructions_normalized,
-                    actual_instructions_normalized,
-                    msg="The actual value for .instructions() did not match the actual value from instructions_list.",
+                    string_instructions_normalized,
+                    list_instructions_normalized,
+                    msg="The actual value for .instructions() did not match the value from instructions_list.",
                 )
 
     return test_func
