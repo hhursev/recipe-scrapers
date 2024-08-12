@@ -145,6 +145,25 @@ def test_func_factory(
         with self.subTest("ingredient_groups"):
             self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
 
+        if "instructions_list" in expect:
+            expected_instructions = expect["instructions_list"]
+            actual_instructions = actual.instructions()
+
+            expected_instructions_normalized = "\n".join(
+                instr for instr in expected_instructions if instr.strip()
+            )
+
+            actual_instructions_normalized = "\n".join(
+                line for line in actual_instructions.split("\n") if line.strip()
+            )
+
+            with self.subTest("instructions_list vs instructions"):
+                self.assertEqual(
+                    expected_instructions_normalized,
+                    actual_instructions_normalized,
+                    msg="The actual value for .instructions() did not match the expected value from instructions_list.",
+                )
+
     return test_func
 
 
