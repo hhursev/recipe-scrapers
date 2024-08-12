@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 # generate.py generates a new recipe scraper.
 import ast
 import json
@@ -42,7 +40,6 @@ def generate_scraper_test(class_name, host_name):
         "language": "",
         "title": "",
         "ingredients": "",
-        "ingredient_groups": "",
         "instructions": "",
         "instructions_list": "",
         "total_time": "",

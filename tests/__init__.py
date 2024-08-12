@@ -3,7 +3,8 @@ import pathlib
 import unittest
 from typing import Callable
 
-from recipe_scrapers import scrape_html
+from recipe_scrapers import SCRAPERS, scrape_html
+from recipe_scrapers._exceptions import StaticValueException
 from recipe_scrapers._grouping_utils import IngredientGroup
 
 MANDATORY_TESTS = [
@@ -12,7 +13,6 @@ MANDATORY_TESTS = [
     "host",
     "image",
     "ingredients",
-    "ingredient_groups",
     "instructions",
     "instructions_list",
     "language",
@@ -23,6 +23,7 @@ MANDATORY_TESTS = [
 ]
 
 OPTIONAL_TESTS = [
+    "ingredient_groups",
     "category",
     "description",
     "cook_time",
@@ -41,6 +42,7 @@ OPTIONAL_TESTS = [
 
 class RecipeTestCase(unittest.TestCase):
     maxDiff = None
+    been_wild = False
 
 
 def test_func_factory(
@@ -77,11 +79,24 @@ def test_func_factory(
     def test_func(self):
         with open(testjson, encoding="utf-8") as f:
             expect = json.load(f)
-            expect["ingredient_groups"] = [
-                IngredientGroup(**group)
-                for group in expect.get("ingredient_groups", [])
-            ]
-        actual = scrape_html(testhtml.read_text(encoding="utf-8"), host)
+            expect["ingredient_groups"] = (
+                [
+                    IngredientGroup(**group)
+                    for group in expect.get("ingredient_groups", [])
+                ]
+                if "ingredient_groups" in expect
+                else [IngredientGroup(expect["ingredients"], purpose=None)]
+            )
+        supported_only = host in SCRAPERS
+        actual = scrape_html(
+            html=testhtml.read_text(encoding="utf-8"),
+            org_url=host,
+            online=False,
+            supported_only=supported_only,
+        )
+        if not supported_only:
+            self.assertFalse(self.been_wild, "Only one wild mode test should occur.")
+            type(self).been_wild = True
 
         # Mandatory tests
         # If the key isn't present, check an assertion is raised
@@ -89,9 +104,14 @@ def test_func_factory(
             with self.subTest(key):
                 scraper_func = getattr(actual, key)
                 if key in expect.keys():
+                    try:
+                        return_value = scraper_func()
+                    except StaticValueException as e:
+                        return_value = e.return_value
+
                     self.assertEqual(
                         expect[key],
-                        scraper_func(),
+                        return_value,
                         msg=f"The actual value for .{key}() did not match the expected value.",
                     )
                 else:
@@ -107,9 +127,14 @@ def test_func_factory(
                 continue  # If the key isn't present, skip
             with self.subTest(key):
                 scraper_func = getattr(actual, key)
+                try:
+                    return_value = scraper_func()
+                except StaticValueException as e:
+                    return_value = e.return_value
+
                 self.assertEqual(
                     expect[key],
-                    scraper_func(),
+                    return_value,
                     msg=f"The actual value for .{key}() did not match the expected value.",
                 )
 
@@ -180,11 +205,5 @@ def load_tests(
     # Add library tests to test suite
     library_tests = loader.discover("tests/library")
     suite.addTests(library_tests)
-
-    # Add legancy tests to test suite
-    # Legacy tests use the previous test approach because they can't be migrated to
-    # this data driven due to the scrapers using extra network requests.
-    legacy_test = loader.discover("tests/legacy")
-    suite.addTests(legacy_test)
 
     return suite

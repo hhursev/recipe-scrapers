@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 class RecipeScrapersExceptions(Exception):
     def __init__(self, message):
         self.message = message
@@ -37,8 +36,35 @@ class ElementNotFoundInHtml(RecipeScrapersExceptions):
         super().__init__(message)
 
 
-class SchemaOrgException(RecipeScrapersExceptions):
-    """Error in parsing or missing portion of the Schema.org data on the page"""
+class FillPluginException(RecipeScrapersExceptions):
+    """Inability to locate an element on a page by using a fill plugin"""
 
     def __init__(self, message):
         super().__init__(message)
+
+
+class OpenGraphException(FillPluginException):
+    """Unable to locate element on the page using OpenGraph metadata"""
+
+    ...
+
+
+class SchemaOrgException(FillPluginException):
+    """Error in parsing or missing portion of the Schema.org data on the page"""
+
+    ...
+
+
+class StaticValueException(RecipeScrapersExceptions):
+    """Error to communicate that the scraper is returning a fixed/static value."""
+
+    def __init__(self, *, return_value):
+        self.return_value = return_value
+        message = f"Suggested return value {return_value} is not from recipe source."
+        super().__init__(message)
+
+
+class FieldNotProvidedByWebsiteException(StaticValueException):
+    """Error when, as far as we know, the website does not provide this info for any recipes."""
+
+    ...

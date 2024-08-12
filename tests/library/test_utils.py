@@ -2,6 +2,7 @@ import unittest
 
 from recipe_scrapers._utils import (
     _extract_fractional,
+    get_abstract_methods,
     get_minutes,
     get_url_slug,
     url_path_to_dict,
@@ -116,3 +117,35 @@ class TestUtils(unittest.TestCase):
         input_url = "https://example.com/first/second/last"
         url_slug = get_url_slug(input_url)
         self.assertEqual("last", url_slug)
+
+    def test_get_abstract_methods(self):
+        abstract_methods = get_abstract_methods()
+        expected_methods = [
+            "author",
+            "canonical_url",
+            "site_name",
+            "host",
+            "language",
+            "title",
+            "ingredients",
+            "ingredient_groups",
+            "instructions",
+            "instructions_list",
+            "category",
+            "yields",
+            "description",
+            "total_time",
+            "cook_time",
+            "prep_time",
+            "cuisine",
+            "cooking_method",
+            "ratings",
+            "ratings_count",
+            "equipment",
+            "reviews",
+            "nutrients",
+            "dietary_restrictions",
+            "image",
+            "keywords",
+        ]
+        self.assertEqual((expected_methods), (abstract_methods))

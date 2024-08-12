@@ -1,15 +1,15 @@
-# mypy: disallow_untyped_defs=False
 import inspect
 from collections import OrderedDict
-from typing import Dict, List, Optional, Tuple, Union
+from typing import List
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup
 
 from recipe_scrapers.settings import settings
 
+from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import IngredientGroup
+from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
 # Some sites close their content for 'bots', so user-agent must be supplied
@@ -19,36 +19,13 @@ HEADERS = {
 
 
 class AbstractScraper:
-    page_data: Union[str, bytes]
+    page_data: str
 
-    def __init__(
-        self,
-        url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
-        wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
-    ):
-        if html:
-            self.page_data = html
-            self.url = url
-        else:
-            assert url is not None, "url required for fetching recipe data"
-            resp = requests.get(
-                url,
-                headers=HEADERS,
-                proxies=proxies,
-                timeout=timeout,
-            )
-            self.page_data = resp.content
-            self.url = resp.url
-
-        self.wild_mode = wild_mode
+    def __init__(self, html: str, url: str):
+        self.page_data = html
+        self.url = url
         self.soup = BeautifulSoup(self.page_data, "html.parser")
+        self.opengraph = OpenGraph(self.soup)
         self.schema = SchemaOrg(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
@@ -61,9 +38,8 @@ class AbstractScraper:
                 setattr(self.__class__, name, current_method)
             setattr(self.__class__, "plugins_initialized", True)
 
-    @classmethod
-    def host(cls) -> str:
-        """Host domain of the recipe URL."""
+    def author(self):
+        """Author of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def canonical_url(self):
@@ -73,51 +49,21 @@ class AbstractScraper:
             return urljoin(self.url, canonical_link["href"])
         return self.url
 
-    def title(self):
-        """Title of the recipe."""
+    def site_name(self):
+        """Name of the website."""
         raise NotImplementedError("This should be implemented.")
 
-    def category(self):
-        """Category of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def total_time(self):
-        """Total time needed to prepare and cook the recipe in minutes."""
-        raise NotImplementedError("This should be implemented.")
-
-    def cook_time(self):
-        """Cooking time in minutes."""
-        raise NotImplementedError("This should be implemented.")
-
-    def prep_time(self):
-        """Preparation time in minutes."""
-        raise NotImplementedError("This should be implemented.")
-
-    def cooking_method(self):
-        """The method of cooking the recipe"""
-        raise NotImplementedError("This should be implemented.")
-
-    def yields(self):
-        """Total servings or items in the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def image(self):
-        """An image URL for the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def nutrients(self):
-        """Nutrients of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def keywords(self):
-        """Keywords or tags used to describe the recipe"""
+    @classmethod
+    def host(cls) -> str:
+        """Host domain of the recipe URL."""
         raise NotImplementedError("This should be implemented.")
 
     def language(self):
         """Language the recipe is written in."""
         candidate_languages = OrderedDict()
         html = self.soup.find("html", {"lang": True})
-        candidate_languages[html.get("lang")] = True
+        if html:
+            candidate_languages[html.get("lang")] = True
 
         # Deprecated: check for a meta http-equiv header
         # See: https://www.w3.org/International/questions/qa-http-and-lang
@@ -138,7 +84,14 @@ class AbstractScraper:
             candidate_languages.pop("en", None)
 
         # Return the first candidate language
-        return candidate_languages.popitem(last=False)[0]
+        if candidate_languages:
+            return candidate_languages.popitem(last=False)[0]
+        else:
+            raise ElementNotFoundInHtml("Could not find language.")
+
+    def title(self):
+        """Title of the recipe."""
+        raise NotImplementedError("This should be implemented.")
 
     def ingredients(self):
         """Ingredients of the recipe."""
@@ -160,6 +113,38 @@ class AbstractScraper:
             if instruction
         ]
 
+    def category(self):
+        """Category of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def yields(self):
+        """Total servings or items in the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def description(self):
+        """Description of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def total_time(self):
+        """Total time needed to prepare and cook the recipe in minutes."""
+        raise NotImplementedError("This should be implemented.")
+
+    def cook_time(self):
+        """Cooking time in minutes."""
+        raise NotImplementedError("This should be implemented.")
+
+    def prep_time(self):
+        """Preparation time in minutes."""
+        raise NotImplementedError("This should be implemented.")
+
+    def cuisine(self):
+        """Cuisine of the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def cooking_method(self):
+        """The method of cooking the recipe"""
+        raise NotImplementedError("This should be implemented.")
+
     def ratings(self):
         """Ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
@@ -168,28 +153,28 @@ class AbstractScraper:
         """Total number of ratings of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def author(self):
-        """Author of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def cuisine(self):
-        """Cuisine of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
-    def description(self):
-        """Description of the recipe."""
+    def equipment(self):
+        """Equipment needed for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def reviews(self):
         """Reviews of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def equipment(self):
-        """Equipment needed for the recipe."""
+    def nutrients(self):
+        """Nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
     def dietary_restrictions(self):
         """The specified dietary restrictions or guidelines for which this recipe is suitable"""
+        raise NotImplementedError("This should be implemented.")
+
+    def image(self):
+        """An image URL for the recipe."""
+        raise NotImplementedError("This should be implemented.")
+
+    def keywords(self):
+        """Keywords or tags used to describe the recipe"""
         raise NotImplementedError("This should be implemented.")
 
     def links(self):
@@ -198,11 +183,6 @@ class AbstractScraper:
         links_html = self.soup.findAll("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
-
-    def site_name(self):
-        """Name of the website."""
-        meta = self.soup.find("meta", property="og:site_name")
-        return meta.get("content") if meta else None
 
     def to_json(self):
         """Recipe information in JSON format."""

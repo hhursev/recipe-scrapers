@@ -1,7 +1,7 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import normalize_string
 
 
@@ -9,6 +9,9 @@ class AlbertHeijn(AbstractScraper):
     @classmethod
     def host(cls):
         return "ah.nl"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Albert Heijn")
 
     def instructions(self):
         instructions = [

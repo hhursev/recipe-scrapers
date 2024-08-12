@@ -1,6 +1,7 @@
 from urllib.parse import unquote
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, normalize_string
 
 
@@ -8,6 +9,9 @@ class SallysBlog(AbstractScraper):
     @classmethod
     def host(cls):
         return "sallys-blog.de"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Sallys Blog")
 
     def title(self):
         return normalize_string(self.soup.head.find("title").get_text())

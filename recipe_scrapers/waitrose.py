@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import normalize_string
 
 
@@ -10,7 +9,14 @@ class Waitrose(AbstractScraper):
         return "waitrose.com"
 
     def author(self):
-        return "waitrose.com"
+        raise StaticValueException(return_value="Waitrose")
+
+    def site_name(self):
+        logo = next(iter(self.soup.select("div.logo")), None)
+        if not logo:
+            raise StaticValueException(return_value="Waitrose")
+        if home_link := logo.find("a", {"href": "/"}):
+            return home_link.text
 
     def image(self):
         img_tag = self.soup.find("img", {"itemprop": "image"})

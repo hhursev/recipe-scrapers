@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -70,4 +69,4 @@ class LekkerEnSimpel(AbstractScraper):
             return description["content"] if description else None
 
     def language(self):
-        return "nl-NL"
+        return super().language()

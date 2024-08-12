@@ -17,8 +17,8 @@ Each website scraper has several functions that return information about the scr
 All the examples below come from https://www.bbcgoodfood.com/recipes/monster-cupcakes.
 
 ```py
->>> from recipe_scrapers import scrape_me
->>> scraper = scrape_me("https://www.bbcgoodfood.com/recipes/monster-cupcakes")
+>>> from recipe_scrapers import scrape_html
+>>> scraper = scrape_html(html=None, org_url="https://www.bbcgoodfood.com/recipes/monster-cupcakes", online=True)
 ```
 
 ## Mandatory functions

@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_host_name
 
@@ -48,5 +47,5 @@ class SchemaScraperFactory:
             return self.schema.description()
 
     @classmethod
-    def generate(cls, url, **options):
-        return cls.SchemaScraper(url, **options)
+    def generate(cls, html, url):
+        return cls.SchemaScraper(html=html, url=url)
