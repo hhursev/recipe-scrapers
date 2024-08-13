@@ -33,7 +33,7 @@
   "cook_time": 30,
   "prep_time": 5,
   "cuisine": "Asian",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 6,
   "nutrients": {
     "servingSize": "3 ribs",

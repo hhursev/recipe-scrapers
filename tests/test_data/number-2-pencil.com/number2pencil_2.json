@@ -73,7 +73,7 @@
   "cook_time": 15,
   "prep_time": 30,
   "cuisine": "American",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 3,
   "nutrients": {
     "calories": "652 kcal",

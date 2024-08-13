@@ -30,7 +30,7 @@
   "cook_time": 30,
   "prep_time": 10,
   "cuisine": "Mexican",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 85,
   "nutrients": {
     "servingSize": "1 g",

@@ -91,7 +91,7 @@
   "cook_time": 15,
   "prep_time": 20,
   "cuisine": "American",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
     "servingSize": "1 salad",

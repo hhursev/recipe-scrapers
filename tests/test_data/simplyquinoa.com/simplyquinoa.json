@@ -33,7 +33,7 @@
   "cook_time": 15,
   "prep_time": 5,
   "cuisine": "American",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 9,
   "nutrients": {
     "servingSize": "1 pancake",

@@ -35,7 +35,7 @@
   "cook_time": 65,
   "prep_time": 20,
   "cuisine": "American",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 2400,
   "nutrients": {
     "servingSize": "1 slice",

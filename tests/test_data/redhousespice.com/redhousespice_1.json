@@ -68,7 +68,7 @@
   "cook_time": 35,
   "prep_time": 5,
   "cuisine": "Chinese",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 105,
   "nutrients": {
     "servingSize": "1 serving",

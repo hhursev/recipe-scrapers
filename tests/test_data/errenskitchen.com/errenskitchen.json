@@ -38,7 +38,7 @@
   "cook_time": 20,
   "prep_time": 10,
   "cuisine": "Italian",
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 18,
   "nutrients": {
     "calories": "1208 kcal",
