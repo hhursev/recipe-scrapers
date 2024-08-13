@@ -13,7 +13,6 @@ def reorder_json_keys(file_path):
 
     reordered_data = {key: data[key] for key in KEYS if key in data}
     if list(data.keys()) != list(reordered_data.keys()):
-        data = reordered_data
         print(f"Re-ordering JSON keys for: {file_path}")
 
     if "nutrients" in data and data["nutrients"] is not None:
@@ -26,11 +25,11 @@ def reorder_json_keys(file_path):
                 reordered_nutrients[key] = nutrients[key]
 
         if list(nutrients.keys()) != list(reordered_nutrients.keys()):
-            data["nutrients"] = reordered_nutrients
+            reordered_data["nutrients"] = reordered_nutrients
             print(f"Re-ordering nutrition keys for: {file_path}")
 
     with open(file_path, "w", encoding="utf-8") as file:
-        json.dump(data, file, indent=2, ensure_ascii=False)
+        json.dump(reordered_data, file, indent=2, ensure_ascii=False)
         file.write("\n")
 
 
