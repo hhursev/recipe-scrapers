@@ -8,12 +8,18 @@ class InGoodFlavor(AbstractScraper):
         return "ingoodflavor.com"
 
     def ingredient_groups(self):
-        return group_ingredients(
+        groups = group_ingredients(
             self.ingredients(),
             self.soup,
             ".dr-title",
             ".dr-ingredient-name",
         )
+
+        for group in groups:
+            if group.purpose and group.purpose.strip().lower() == "ingredients":
+                group.purpose = None
+
+        return groups
 
     def author(self):
         signature_div = self.soup.find("div", class_="text-signature")
