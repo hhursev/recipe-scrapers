@@ -6,6 +6,9 @@ from collections import defaultdict
 if sys.version_info >= (3, 10):
     from importlib.metadata import PackageNotFoundError, metadata
 else:
+    # TODO: Remove this branch once py3.10 is our minimum baseline;
+    # package description metadata (that we rely on for 'test_includes') is
+    # only available in importlib.metadata from py3.10 onwards
     from importlib_metadata import PackageNotFoundError, metadata
 
 from typing import Dict, List, Optional, Tuple
