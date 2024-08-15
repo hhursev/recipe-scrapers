@@ -1,12 +1,12 @@
 import re
+import sys
 import unittest
 from collections import defaultdict
 
-try:
+if sys.version_info >= (3, 10):
     from importlib.metadata import PackageNotFoundError, metadata
-except ImportError:
-    # Python 3.9 and earlier
-    from importlib_metadata import PackageNotFoundError, metadata  # type: ignore[assignment,no-redef]
+else:
+    from importlib_metadata import PackageNotFoundError, metadata
 
 from typing import Dict, List, Optional, Tuple
 
