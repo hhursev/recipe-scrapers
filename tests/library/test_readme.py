@@ -1,8 +1,12 @@
 import re
-import sys
 import unittest
 from collections import defaultdict
-from importlib.metadata import PackageNotFoundError, metadata
+try:
+    from importlib.metadata import PackageNotFoundError, metadata
+except ImportError:
+    # Python 3.9 and earlier
+    from importlib_resources import PackageNotFoundError, metadata
+
 from typing import Dict, List, Optional, Tuple
 
 from recipe_scrapers import SCRAPERS, AbstractScraper
@@ -120,13 +124,6 @@ class TestReadme(unittest.TestCase):
     def test_includes(self):
         scraper_index = get_scraper_index()
         primary_domains = sorted(scraper_index.keys())
-
-        # TODO: Remove this skip-branch once py3.10 is our minimum baseline;
-        # package description metadata (that we rely on for this test) is only
-        # available in importlib.metadata from py3.10 onwards
-        if sys.version_info < (3, 10):
-            msg = "Python 3.10+ is required for importlib.metadata to read package 'description' metadata."
-            self.skipTest(msg)
 
         try:
             lines = get_list_lines()
