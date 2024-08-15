@@ -389,6 +389,7 @@ Scrapers available for:
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
+- `https://theloopywhisk.com/ <https://theloopywhisk.com/>`_
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_

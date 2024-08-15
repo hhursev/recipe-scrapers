@@ -336,6 +336,7 @@ from .thehappyfoodie import TheHappyFoodie
 from .thekitchencommunity import TheKitchenCommunity
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
+from .theloopywhisk import TheLoopyWhisk
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themodernproper import TheModernProper
 from .thepalatablelife import ThePalatableLife
@@ -501,6 +502,7 @@ SCRAPERS = {
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
     TheGlutenFreeAustrian.host(): TheGlutenFreeAustrian,
+    TheLoopyWhisk.host(): TheLoopyWhisk,
     ThePalatableLife.host(): ThePalatableLife,
     TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
     Thinlicious.host(): Thinlicious,
