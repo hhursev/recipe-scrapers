@@ -58,10 +58,8 @@ To learn what the library can do, you can open a `Python interpreter session <ht
     Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from recipe_scrapers import scrape_html
-    >>> url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    >>> name = input('What is your name, burger seeker?\n')
-    >>> html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
-    >>> scraper = scrape_html(html, org_url=url)
+    >>> html, url = None, "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    >>> scraper = scrape_html(html, url, online=True)
     >>> help(scraper)
 
 Some Python HTTP clients that you can use to retrieve HTML include `requests`_, `httpx`_, and the `urllib.request module`_ included in Python's standard library.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
@@ -494,10 +492,8 @@ If there is Schema/Recipe available it will work just fine.
 
 .. code:: python
 
-    url = 'https://www.feastingathome.com/tomato-risotto/'
-    name = input('What is your name, risotto sampler?\n')
-    html = requests.get(url, headers={"User-Agent": f"Risotto Sampler {name}"}).content
-    scraper = scrape_html(html, org_url=url, wild_mode=True)
+    html, url = None, 'https://www.feastingathome.com/tomato-risotto/'
+    scraper = scrape_html(html, url, online=True, wild_mode=True)
 
     scraper.host()
     scraper.title()
@@ -531,7 +527,8 @@ Run in python shell:
     Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from recipe_scrapers import scrape_html
-    >>> scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
+    >>> html, url = None, '<url of a recipe from the site>'
+    >>> scraper = scrape_html(html, url, online=True, wild_mode=True)
     >>> # if no error is raised - there's schema available:
     >>> scraper.title()
     >>> scraper.instructions()  # etc.
