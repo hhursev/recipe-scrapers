@@ -1,7 +1,12 @@
 import re
 import unittest
 from collections import defaultdict
-from importlib_metadata import PackageNotFoundError, metadata
+
+try:
+    from importlib.metadata import PackageNotFoundError, metadata
+except ImportError:
+    # Python 3.9 and earlier
+    from importlib_metadata import PackageNotFoundError, metadata  # type: ignore[assignment,no-redef]
 
 from typing import Dict, List, Optional, Tuple
 
