@@ -315,8 +315,8 @@ Scrapers available for:
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
-- `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
 - `https://www.peelwithzeal.com/ <https://www.peelwithzeal.com/>`_
+- `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://pinchofyum.com/ <https://pinchofyum.com/>`_
 - `https://www.pingodoce.pt/ <https://www.pingodoce.pt>`_
