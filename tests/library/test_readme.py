@@ -5,7 +5,7 @@ try:
     from importlib.metadata import PackageNotFoundError, metadata
 except ImportError:
     # Python 3.9 and earlier
-    from importlib_resources import PackageNotFoundError, metadata
+    from importlib_metadata import PackageNotFoundError, metadata
 
 from typing import Dict, List, Optional, Tuple
 
