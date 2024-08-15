@@ -1,6 +1,7 @@
 import re
 import unittest
 from collections import defaultdict
+
 try:
     from importlib.metadata import PackageNotFoundError, metadata
 except ImportError:
