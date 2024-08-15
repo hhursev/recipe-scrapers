@@ -196,6 +196,7 @@ Scrapers available for:
 - `https://franzoesischkochen.de/ <https://franzoesischkochen.de/>`_
 - `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
+- `https://glutenfreeonashoestring.com/ <https://glutenfreeonashoestring.com/>`_
 - `https://godt.no/ <https://godt.no/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
