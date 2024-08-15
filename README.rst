@@ -383,6 +383,7 @@ Scrapers available for:
 - `https://www.thecookierookie.com/ <https://www.thecookierookie.com/>`_
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
+- `https://theglutenfreeaustrian.com/ <https://theglutenfreeaustrian.com/>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
