@@ -3,3 +3,4 @@ coverage>=7.4.4
 responses>=0.25.0
 types-beautifulsoup4>=4.12.0
 types-requests>=2.31.0
+importlib-metadata>=4.6 ; python_version < "3.10"
