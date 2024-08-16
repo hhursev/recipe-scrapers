@@ -18,7 +18,7 @@ class TheGlutenFreeAustrian(AbstractScraper):
         schema_title = self.schema.title()
 
         for group in ingredient_groups:
-            if group.purpose and schema_title in group.purpose:
+            if group.purpose == schema_title:
                 group.purpose = None
 
         return ingredient_groups
