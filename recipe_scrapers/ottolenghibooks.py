@@ -85,7 +85,8 @@ class OttolenghiBooks(AbstractScraper):
         other_keywords = self.soup.find(class_="recipe__types").css.select(
             'a:not([href^="/simple/"]):not([href^="/sweet/"])'
         )
-        [keywords.append(normalize_string(k.get_text())) for k in other_keywords]
+        for k in other_keywords:
+            keywords.append(normalize_string(k.get_text()))
         return keywords
 
     def category(self):
