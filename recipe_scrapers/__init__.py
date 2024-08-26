@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from .ottolenghibooks import OttolenghiBooks
+
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -498,6 +500,7 @@ SCRAPERS = {
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
+    OttolenghiBooks.host(): OttolenghiBooks,
     PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
