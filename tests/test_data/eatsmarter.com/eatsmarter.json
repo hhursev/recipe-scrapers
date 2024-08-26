@@ -44,5 +44,9 @@
     "sugarContent": "1 g",
     "cholesterolContent": "0 mg"
   },
+  "dietary_restrictions": [
+    "Low-calorie",
+    "Vegetarian"
+  ],
   "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg"
 }
