@@ -12,6 +12,7 @@ from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import IngredientGroup
 from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
+from .__version__ import __version__
 
 # Some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
