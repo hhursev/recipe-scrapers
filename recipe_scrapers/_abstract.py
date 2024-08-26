@@ -15,7 +15,7 @@ from ._schemaorg import SchemaOrg
 
 # Some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
-    "User-Agent": f"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 recipe-scrapers/{__version__} Firefox/123.0"
+    "User-Agent": f"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:{__version__}) recipe-scrapers/{__version__}"
 }
 
 
