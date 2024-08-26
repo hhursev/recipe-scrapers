@@ -1,79 +1,37 @@
 {
-  "author": "Eisler Zsolt",
-  "canonical_url": "https://streetkitchen.hu/olcso-receptek/olcso-ebedek/toltott-patisszon/",
+  "canonical_url": "https://streetkitchen.hu/husvet/husveti-fofogasok/sertesszuz-cukorborsos-ujburgonya-salataval/",
   "site_name": "Street Kitchen",
   "host": "streetkitchen.hu",
   "language": "hu",
-  "title": "Töltött patisszon",
+  "title": "Sertésszűz cukorborsós újburgonya-salátával",
   "ingredients": [
-    "1 db patisszon (1 kg/db)",
-    "1 ek só",
-    "1 ek sertészsír",
-    "1 fej vöröshagyma (120 g/fej)",
-    "3 gerezd fokhagyma",
-    "1 ek sűrített paradicsom",
-    "500 g darált sertéshús",
-    "2 ek daráltpaprika-krém",
+    "500 g újburgonya",
+    "2 ek olaj",
+    "200 g cukorborsó",
     "só, bors",
-    "1 mk őrölt kömény",
-    "1 tk őrölt fűszerpaprika",
-    "200 ml víz",
-    "150 g edami sajt",
-    "175 g tejföl",
-    "1 gerezd fokhagyma",
-    "só",
-    "4 szál snidling"
+    "2 gerezd fokhagyma",
+    "50 g vaj",
+    "½ db citrom leve",
+    "2 - 3 ek tejföl",
+    "1 tk ecetes torma (üveges)",
+    "1 kis csokor petrezselyem",
+    "1 kis csokor snidling",
+    "400 g sertésszűz",
+    "só, bors",
+    "2 ek olaj",
+    "2 gerezd fokhagyma (héjastul)",
+    "2 - 3 ág rozmaring",
+    "50 g vaj"
   ],
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "1 db patisszon (1 kg/db)",
-        "1 ek só"
-      ],
-      "purpose": "A patisszonhoz"
-    },
-    {
-      "ingredients": [
-        "1 ek sertészsír",
-        "1 fej vöröshagyma (120 g/fej)",
-        "3 gerezd fokhagyma",
-        "1 ek sűrített paradicsom",
-        "500 g darált sertéshús",
-        "2 ek daráltpaprika-krém",
-        "só, bors",
-        "1 mk őrölt kömény",
-        "1 tk őrölt fűszerpaprika",
-        "200 ml víz",
-        "150 g edami sajt"
-      ],
-      "purpose": "A raguhoz"
-    },
-    {
-      "ingredients": [
-        "175 g tejföl",
-        "1 gerezd fokhagyma",
-        "só",
-        "4 szál snidling"
-      ],
-      "purpose": "A tálaláshoz"
-    }
-  ],
-  "instructions": "A töltött patisszon első lépéseként a patisszon belsejét egy kis késsel kifaragjuk. A kieső részt a héjától megszabadítva apró darabokra vágjuk, nekem 200 g jött ki belőle. A patisszont bő, sós, forrásban lévő vízbe tesszük és 20 percig főzzük, majd kivesszük a vízből és félretesszük.\nZsírt melegítünk egy serpenyőben. Hozzáadjuk a finomra vágott vöröshagymát és fokhagymát, és közepes hőfokon 5 percig dinszteljük. Beletesszük a sűrített paradicsomot, közepesen erős hőfokon fél perc alatt lepirítjuk, majd rárakjuk a darált húst. 3 perc pirítás után ízesítjük a daráltpaprika-krémmel, sózzuk, borsozzuk, hozzáadjuk a fűszerköményt és az őrölt fűszerpaprikát, elkeverjük, majd felöntjük a vízzel és belerakjuk a korábban kifaragott és felaprított patisszondarabokat. Közepes hőfokon 15 percig főzzük.\nAz előfőzött patisszon belsejét megsózzuk – óvatosan, mert sós vízben főztük –, belepakoljuk a ragut, a tetejét megszórjuk a reszelt sajttal és betesszük légkeverésen a 180 fokra előmelegített sütőbe kb. 15 percre. Az idő leteltével feltesszük 200 fokra a hőfokot és grillfokozaton 5 perc alatt rápirítunk.\nTálaláshoz a tejfölben elkeverjük a zúzott fokhagymát, sózzuk és a sült patisszonnal tálaljuk, amit még megszórunk a frissen aprított snidlinggel.",
+  "instructions": "A burgonyát félbevágjuk, sós vízben puhára főzzük, majd leszűrjük.\nA húst sózzuk, borsozzuk, és egy serpenyőben 2 kanál olajon, nagyon magas hőfokon kérgesítjük, a vége előtt pár perccel hozzáadunk 2 gerezd héjas fokhagymát, 2 ág rozmaringot és 50 gramm vajat, majd a vaj barnulásáig pirítjuk tovább.\nEgy tepsire tesszük, és 170 fokra előmelegített sütőbe helyezzük 10-15 percre. Amikor készre sült a hús, kivesszük, és 5-10 percig pihentetjük.\nA megfőtt burgonyát 2 evőkanál olajon, magas hőfokon lepirítjuk, majd mikor már kapott egy kis piros színt, rádobjuk a cukorborsót, sózzuk, borsozzuk, majd mehet rá 2 gerezd szeletelt fokhagyma, 50 gramm vaj, fél citrom leve, és további kb. 3 percig pirítjuk. Jöhet rá 2-3 evőkanál tejföl, az ecetes torma, illetve a finomra aprított petrezselyem és snidling.\nTálalásnál, ha szeretnénk, adhatunk még hozzá tejfölt. A sertésszűz mellé kínáljuk.",
   "instructions_list": [
-    "A töltött patisszon első lépéseként a patisszon belsejét egy kis késsel kifaragjuk. A kieső részt a héjától megszabadítva apró darabokra vágjuk, nekem 200 g jött ki belőle. A patisszont bő, sós, forrásban lévő vízbe tesszük és 20 percig főzzük, majd kivesszük a vízből és félretesszük.",
-    "Zsírt melegítünk egy serpenyőben. Hozzáadjuk a finomra vágott vöröshagymát és fokhagymát, és közepes hőfokon 5 percig dinszteljük. Beletesszük a sűrített paradicsomot, közepesen erős hőfokon fél perc alatt lepirítjuk, majd rárakjuk a darált húst. 3 perc pirítás után ízesítjük a daráltpaprika-krémmel, sózzuk, borsozzuk, hozzáadjuk a fűszerköményt és az őrölt fűszerpaprikát, elkeverjük, majd felöntjük a vízzel és belerakjuk a korábban kifaragott és felaprított patisszondarabokat. Közepes hőfokon 15 percig főzzük.",
-    "Az előfőzött patisszon belsejét megsózzuk – óvatosan, mert sós vízben főztük –, belepakoljuk a ragut, a tetejét megszórjuk a reszelt sajttal és betesszük légkeverésen a 180 fokra előmelegített sütőbe kb. 15 percre. Az idő leteltével feltesszük 200 fokra a hőfokot és grillfokozaton 5 perc alatt rápirítunk.",
-    "Tálaláshoz a tejfölben elkeverjük a zúzott fokhagymát, sózzuk és a sült patisszonnal tálaljuk, amit még megszórunk a frissen aprított snidlinggel."
+    "A burgonyát félbevágjuk, sós vízben puhára főzzük, majd leszűrjük.",
+    "A húst sózzuk, borsozzuk, és egy serpenyőben 2 kanál olajon, nagyon magas hőfokon kérgesítjük, a vége előtt pár perccel hozzáadunk 2 gerezd héjas fokhagymát, 2 ág rozmaringot és 50 gramm vajat, majd a vaj barnulásáig pirítjuk tovább.",
+    "Egy tepsire tesszük, és 170 fokra előmelegített sütőbe helyezzük 10-15 percre. Amikor készre sült a hús, kivesszük, és 5-10 percig pihentetjük.",
+    "A megfőtt burgonyát 2 evőkanál olajon, magas hőfokon lepirítjuk, majd mikor már kapott egy kis piros színt, rádobjuk a cukorborsót, sózzuk, borsozzuk, majd mehet rá 2 gerezd szeletelt fokhagyma, 50 gramm vaj, fél citrom leve, és további kb. 3 percig pirítjuk. Jöhet rá 2-3 evőkanál tejföl, az ecetes torma, illetve a finomra aprított petrezselyem és snidling.",
+    "Tálalásnál, ha szeretnénk, adhatunk még hozzá tejfölt. A sertésszűz mellé kínáljuk."
   ],
-  "category": "Olcsó ebédek",
-  "yields": "4 servings",
-  "description": "Ha már unod a rántott patisszont, akkor most íme egy töltött verzió. És van egy jó hírem. Itt még csak a pucolással – ami a patisszonban az egyik legbosszantóbb – sem kell bíbelődnöd.",
-  "total_time": 80,
-  "cook_time": 20,
-  "prep_time": 60,
-  "image": "https://static.streetkitchen.hu/live/uploads/2024/07/toltott-patisszon-3-1618x855.jpg",
-  "keywords": [
-    "patisszon",
-    "töltött"
-  ]
+  "yields": "2 servings",
+  "total_time": null,
+  "image": "https://streetkitchen.hu/wp-content/uploads/2021/03/sertesszuz-cukorborsos-ujburgonya-salataval-1.jpg"
 }
