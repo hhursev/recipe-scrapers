@@ -69,18 +69,18 @@
   "ratings": 4.9,
   "ratings_count": 19,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "461 kcal",
-    "carbohydrateContent": "13 g",
-    "proteinContent": "30 g",
     "fatContent": "32 g",
     "saturatedFatContent": "15 g",
+    "unsaturatedFatContent": "15 g",
     "transFatContent": "0.01 g",
-    "cholesterolContent": "143 mg",
+    "carbohydrateContent": "13 g",
+    "sugarContent": "4 g",
+    "proteinContent": "30 g",
     "sodiumContent": "1226 mg",
     "fiberContent": "2 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "15 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "143 mg"
   },
   "image": "https://whatsgabycooking.com/wp-content/uploads/2022/04/Stonyfield-__-Greek-Lamb-Meatballs-4.jpg",
   "keywords": [
