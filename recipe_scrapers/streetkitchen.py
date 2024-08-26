@@ -1,8 +1,5 @@
-from typing import List
-
 from ._abstract import AbstractScraper
-from ._grouping_utils import IngredientGroup, group_ingredients
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_yields, normalize_string
 
 
 class StreetKitchen(AbstractScraper):
@@ -11,14 +8,10 @@ class StreetKitchen(AbstractScraper):
         return "streetkitchen.hu"
 
     def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).text
+        return self.soup.find("h1", {"class": "entry-title"}).get_text()
 
     def total_time(self):
-        items = self.soup.select(".the-content-div li")
-        total_time = 0
-        for item in items:
-            total_time += get_minutes(item.text) or 0
-        return total_time or None
+        return None
 
     def image(self):
         return (
@@ -28,10 +21,11 @@ class StreetKitchen(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients_raw = self.soup.find("div", class_="ingredients-main").findAll("dd")
+        ingredients_raw = self.soup.findAll("dd")
         ingredients = []
-        for ingredient in ingredients_raw:
-            ingredients.append(normalize_string(ingredient.text))
+        # There are separate sets of ingredients for desktop and mobile view
+        for ingredient in ingredients_raw[: int(len(ingredients_raw) / 2)]:
+            ingredients.append(normalize_string(ingredient.get_text()).strip())
         return ingredients
 
     def instructions(self):
@@ -39,7 +33,7 @@ class StreetKitchen(AbstractScraper):
 
         instructions_arr = []
         for instruction in instructions:
-            text = instruction.text
+            text = instruction.get_text()
             # From the point we encounter "If you liked..." it's just ads.
             if text.startswith("Ha tetszett a"):
                 break
@@ -48,43 +42,6 @@ class StreetKitchen(AbstractScraper):
         return "\n".join(instructions_arr)
 
     def yields(self):
-        return get_yields(self.soup.find("span", {"class": "quantity-number"}).text)
-
-    def category(self):
-        return self.soup.find("div", {"class": "entry-category"}).find("a").text
-
-    def description(self):
-        return normalize_string(self.soup.find("div", {"class": "entry-lead"}).text)
-
-    def author(self):
-        return normalize_string(
-            self.soup.find("a", {"rel": "author"}).find("img")["alt"]
+        return get_yields(
+            self.soup.find("span", {"class": "quantity-number"}).get_text()
         )
-
-    def ingredient_groups(self) -> List[IngredientGroup]:
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".ingredients-main div.ingredient-group h3",
-            ".ingredients-main div.ingredient-group dd",
-        )
-
-    def prep_time(self):
-        items = self.soup.find("div", {"class": "the-content-div"}).find_all("li")
-
-        for item in items:
-            text = normalize_string(item.get_text())
-            if "Elkészítési idő" in text:
-                return get_minutes(text)
-
-    def cook_time(self):
-        items = self.soup.find("div", {"class": "the-content-div"}).find_all("li")
-
-        for item in items:
-            text = normalize_string(item.get_text())
-            if "Sütési idő" in text:
-                return get_minutes(text)
-
-    def keywords(self):
-        items = self.soup.find("ul", {"class": "tags-list"}).find_all("li")
-        return [item.text for item in items]
