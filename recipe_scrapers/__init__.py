@@ -80,7 +80,6 @@ from .cafedelites import CafeDelites
 from .carlsbadcravings import CarlsBadCravings
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
-from .celebratingsweets import CelebratingSweets
 from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
@@ -172,7 +171,6 @@ from .ig import IG
 from .imworthy import ImWorthy
 from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
-from .ingoodflavor import InGoodFlavor
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
 from .inspiralized import Inspiralized
@@ -191,7 +189,6 @@ from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
 from .kitchenaidaustralia import KitchenAidAustralia
-from .kitchendreaming import KitchenDreaming
 from .kitchensanctuary import KitchenSanctuary
 from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
@@ -205,7 +202,6 @@ from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
-from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
 from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
@@ -240,7 +236,6 @@ from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
-from .myvegetarianroots import MyVegetarianRoots
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
@@ -262,7 +257,6 @@ from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
-from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
 from .pinchofyum import PinchOfYum
@@ -300,7 +294,6 @@ from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
-from .sandwhichtribunal import SandwhichTribunal
 from .saveur import Saveur
 from .savorynothings import SavoryNothings
 from .seriouseats import SeriousEats
@@ -437,7 +430,6 @@ SCRAPERS = {
     CarlsBadCravings.host(): CarlsBadCravings,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
-    CelebratingSweets.host(): CelebratingSweets,
     ChefSavvy.host(): ChefSavvy,
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
@@ -475,16 +467,13 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
     InBloomBakery.host(): InBloomBakery,
-    InGoodFlavor.host(): InGoodFlavor,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
     KitchenAidAustralia.host(): KitchenAidAustralia,
-    KitchenDreaming.host(): KitchenDreaming,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KuchynaLidla.host(): KuchynaLidla,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
-    LeitesCulinaria.host(): LeitesCulinaria,
     McCormick.host(): McCormick,
     ModernHoney.host(): ModernHoney,
     MomOnTimeout.host(): MomOnTimeout,
@@ -492,18 +481,15 @@ SCRAPERS = {
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
-    MyVegetarianRoots.host(): MyVegetarianRoots,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
-    PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecipeGirl.host(): RecipeGirl,
     RicettePerBimby.host(): RicettePerBimby,
-    SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,
