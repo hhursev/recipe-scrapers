@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+from recipe_scrapers.__version__ import __version__
 from recipe_scrapers.settings import settings
 
 from ._exceptions import ElementNotFoundInHtml
@@ -14,7 +15,7 @@ from ._schemaorg import SchemaOrg
 
 # Some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
+    "User-Agent": f"Mozilla/5.0 (compatible; Windows NT 10.0; Win64; x64; rv:{__version__}) recipe-scrapers/{__version__}"
 }
 
 

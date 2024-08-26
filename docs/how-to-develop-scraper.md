@@ -148,7 +148,7 @@ If the website supports Recipe Schema, then this is mostly done for you already.
 
 Some additional functionality may be required in the scraper functions to make the output match the recipe on the website.
 
-An in-depth guide on all the functions a scraper can support and what their output should be can be found [here](in-depth-guide-scraper-functions.md). The automatically generated scraper does not include all of these functions be default, so you may wish to add some of the additional functions listed if the website can support them.
+An in-depth guide on all the functions a scraper can support and what their output should be can be found [here](in-depth-guide-scraper-functions.md). The automatically generated scraper does not include all of these functions by default, so you may wish to add some of the additional functions listed if the website can support them.
 
 If the website does not support Recipe Schema, or the schema does not include all of the recipe information, then you can scrape the information out of the website HTML. Each scraper has a `bs4.BeautifulSoup` object made available in `self.soup` which contains the parsed HTML. This can be used to extract the recipe information needed.
 
