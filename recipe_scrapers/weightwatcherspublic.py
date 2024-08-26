@@ -25,6 +25,9 @@ class WeightWatchersPublic(WeightWatchers):
     def image(self):
         return self.soup.find("img", {"class": "FoodMasthead_heroImage__BjVdZ"})["src"]
 
+    def language(self):
+        return self.soup.find("html").get("xml:lang")
+
     def nutrients(self):
         return {
             "points": self.soup.find("div", {"class": "Coin_text__3UOb0"})["aria-label"]

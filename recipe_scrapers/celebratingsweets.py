@@ -2,10 +2,10 @@ from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class WhatsGabyCooking(AbstractScraper):
+class CelebratingSweets(AbstractScraper):
     @classmethod
     def host(cls):
-        return "whatsgabycooking.com"
+        return "celebratingsweets.com"
 
     def ingredient_groups(self):
         return group_ingredients(
