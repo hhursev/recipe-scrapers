@@ -68,18 +68,18 @@
     "Grater/ Zester"
   ],
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "361 kcal",
-    "carbohydrateContent": "56 g",
-    "proteinContent": "5 g",
     "fatContent": "14 g",
     "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "4 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "36 mg",
+    "carbohydrateContent": "56 g",
+    "sugarContent": "31 g",
+    "proteinContent": "5 g",
     "sodiumContent": "272 mg",
     "fiberContent": "1 g",
-    "sugarContent": "31 g",
-    "unsaturatedFatContent": "4 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "36 mg"
   },
   "image": "https://addapinch.com/wp-content/uploads/2015/03/citrus-scones-recipe-DSC_12521-2.jpg",
   "keywords": [

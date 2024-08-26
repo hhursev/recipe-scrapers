@@ -40,15 +40,15 @@
   "nutrients": {
     "servingSize": "1 Serving",
     "calories": "126 kcal",
-    "carbohydrateContent": "17 g",
-    "proteinContent": "5 g",
     "fatContent": "5 g",
     "saturatedFatContent": "1 g",
-    "cholesterolContent": "3 mg",
+    "unsaturatedFatContent": "3 g",
+    "carbohydrateContent": "17 g",
+    "sugarContent": "4 g",
+    "proteinContent": "5 g",
     "sodiumContent": "591 mg",
     "fiberContent": "2 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "3 g"
+    "cholesterolContent": "3 mg"
   },
   "image": "https://forktospoon.com/wp-content/uploads/2023/06/air-fryer-parmesan-tomatoes.png",
   "keywords": [

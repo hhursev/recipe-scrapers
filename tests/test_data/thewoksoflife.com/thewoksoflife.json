@@ -30,16 +30,16 @@
   "ratings": 4.91,
   "ratings_count": 11,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "175 kcal",
-    "carbohydrateContent": "34 g",
-    "proteinContent": "6 g",
     "fatContent": "2 g",
     "saturatedFatContent": "1 g",
-    "cholesterolContent": "3 mg",
+    "carbohydrateContent": "34 g",
+    "sugarContent": "3 g",
+    "proteinContent": "6 g",
     "sodiumContent": "16 mg",
     "fiberContent": "2 g",
-    "sugarContent": "3 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "3 mg"
   },
   "image": "https://thewoksoflife.com/wp-content/uploads/2018/01/whole-wheat-mantou-9-1.jpg",
   "keywords": [

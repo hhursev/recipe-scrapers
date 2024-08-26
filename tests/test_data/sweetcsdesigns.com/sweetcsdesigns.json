@@ -33,18 +33,18 @@
   "ratings": 4.9,
   "ratings_count": 544,
   "nutrients": {
-    "calories": "205 calories",
-    "carbohydrateContent": "32 grams carbohydrates",
-    "cholesterolContent": "0 milligrams cholesterol",
-    "fatContent": "7 grams fat",
-    "fiberContent": "3 grams fiber",
-    "proteinContent": "4 grams protein",
-    "saturatedFatContent": "1 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "70 milligrams sodium",
-    "sugarContent": "2 grams sugar",
+    "calories": "205 calories",
+    "fatContent": "7 grams fat",
+    "saturatedFatContent": "1 grams saturated fat",
+    "unsaturatedFatContent": "6 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "6 grams unsaturated fat"
+    "carbohydrateContent": "32 grams carbohydrates",
+    "sugarContent": "2 grams sugar",
+    "proteinContent": "4 grams protein",
+    "sodiumContent": "70 milligrams sodium",
+    "fiberContent": "3 grams fiber",
+    "cholesterolContent": "0 milligrams cholesterol"
   },
   "dietary_restrictions": [
     "Gluten Free Diet"

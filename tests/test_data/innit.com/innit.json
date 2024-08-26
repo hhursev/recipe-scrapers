@@ -61,16 +61,16 @@
   "cook_time": 49,
   "prep_time": 2,
   "nutrients": {
+    "calories": "800 kcal",
+    "fatContent": "61 g",
+    "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "53 g",
+    "carbohydrateContent": "34 g",
     "sugarContent": "18 g",
     "proteinContent": "32 g",
+    "sodiumContent": "1040 mg",
     "fiberContent": "11 g",
-    "unsaturatedFatContent": "53 g",
-    "fatContent": "61 g",
-    "cholesterolContent": "0 mg",
-    "calories": "800 kcal",
-    "carbohydrateContent": "34 g",
-    "saturatedFatContent": "8 g",
-    "sodiumContent": "1040 mg"
+    "cholesterolContent": "0 mg"
   },
   "image": "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_480x480.png"
 }

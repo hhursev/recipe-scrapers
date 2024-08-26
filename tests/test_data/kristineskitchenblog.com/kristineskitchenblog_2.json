@@ -73,15 +73,15 @@
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "383 kcal",
-    "carbohydrateContent": "36 g",
-    "proteinContent": "32 g",
     "fatContent": "12 g",
     "saturatedFatContent": "6 g",
-    "cholesterolContent": "95 mg",
+    "unsaturatedFatContent": "4 g",
+    "carbohydrateContent": "36 g",
+    "sugarContent": "4 g",
+    "proteinContent": "32 g",
     "sodiumContent": "615 mg",
     "fiberContent": "3 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "4 g"
+    "cholesterolContent": "95 mg"
   },
   "image": "https://kristineskitchenblog.com/wp-content/uploads/2023/09/crock-pot-chicken-and-dumplings-14-2.jpg",
   "keywords": [

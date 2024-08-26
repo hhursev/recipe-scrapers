@@ -84,17 +84,17 @@
   "ratings": 4.33,
   "ratings_count": 3,
   "nutrients": {
+    "servingSize": "1 1 Serving (21g)",
     "calories": "2 calories",
     "fatContent": "0.0816344254758325 g",
-    "carbohydrateContent": "0.199958265882293 g",
-    "cholesterolContent": "0.155729166219071 mg",
-    "fiberContent": "0.110702244487001 g",
-    "proteinContent": "0.133798586494011 g",
     "saturatedFatContent": "0.0386162663043889 g",
-    "servingSize": "1 1 Serving (21g)",
-    "sodiumContent": "1.19938596631195 mg",
+    "transFatContent": "0.0131417293773331 g",
+    "carbohydrateContent": "0.199958265882293 g",
     "sugarContent": "0.0892560213952928 g",
-    "transFatContent": "0.0131417293773331 g"
+    "proteinContent": "0.133798586494011 g",
+    "sodiumContent": "1.19938596631195 mg",
+    "fiberContent": "0.110702244487001 g",
+    "cholesterolContent": "0.155729166219071 mg"
   },
   "image": "https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/no-knead-herb-focaccia-79674b.jpg",
   "keywords": [

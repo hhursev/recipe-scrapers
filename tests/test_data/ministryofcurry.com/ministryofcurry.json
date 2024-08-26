@@ -47,16 +47,16 @@
     "Slow Cooker"
   ],
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "323 kcal",
-    "carbohydrateContent": "8 g",
-    "proteinContent": "34 g",
     "fatContent": "17 g",
     "saturatedFatContent": "6 g",
-    "cholesterolContent": "125 mg",
+    "carbohydrateContent": "8 g",
+    "sugarContent": "4 g",
+    "proteinContent": "34 g",
     "sodiumContent": "1183 mg",
     "fiberContent": "2 g",
-    "sugarContent": "4 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "125 mg"
   },
   "image": "https://ministryofcurry.com/wp-content/uploads/2019/10/Pomi-Chicken-Tikka-Masala-1-2.jpg",
   "keywords": [

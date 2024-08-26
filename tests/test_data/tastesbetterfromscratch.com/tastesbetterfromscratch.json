@@ -36,16 +36,16 @@
   "ratings": 4.99,
   "ratings_count": 744,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "310 kcal",
-    "carbohydrateContent": "9 g",
-    "proteinContent": "36 g",
     "fatContent": "13 g",
     "saturatedFatContent": "5 g",
-    "cholesterolContent": "124 mg",
+    "carbohydrateContent": "9 g",
+    "sugarContent": "7 g",
+    "proteinContent": "36 g",
     "sodiumContent": "554 mg",
     "fiberContent": "1 g",
-    "sugarContent": "7 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "124 mg"
   },
   "image": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/05/Pulled-Pork-5.jpg",
   "keywords": [

@@ -50,14 +50,14 @@
   "nutrients": {
     "servingSize": "1 Serving (Crust only)",
     "calories": "67 kcal",
-    "carbohydrateContent": "12 g",
-    "proteinContent": "2 g",
     "fatContent": "1.2 g",
     "saturatedFatContent": "0.2 g",
-    "sodiumContent": "177 mg",
-    "fiberContent": "0.5 g",
+    "unsaturatedFatContent": "1 g",
+    "carbohydrateContent": "12 g",
     "sugarContent": "1 g",
-    "unsaturatedFatContent": "1 g"
+    "proteinContent": "2 g",
+    "sodiumContent": "177 mg",
+    "fiberContent": "0.5 g"
   },
   "dietary_restrictions": [
     "Vegan Diet",

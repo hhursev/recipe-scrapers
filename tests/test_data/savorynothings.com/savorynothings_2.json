@@ -77,16 +77,16 @@
     "spatula"
   ],
   "nutrients": {
+    "servingSize": "1 slice",
     "calories": "291 kcal",
-    "carbohydrateContent": "44 g",
-    "proteinContent": "4 g",
     "fatContent": "11 g",
     "saturatedFatContent": "3 g",
-    "cholesterolContent": "37 mg",
+    "carbohydrateContent": "44 g",
+    "sugarContent": "23 g",
+    "proteinContent": "4 g",
     "sodiumContent": "100 mg",
     "fiberContent": "2 g",
-    "sugarContent": "23 g",
-    "servingSize": "1 slice"
+    "cholesterolContent": "37 mg"
   },
   "dietary_restrictions": [
     "Vegetarian Diet"

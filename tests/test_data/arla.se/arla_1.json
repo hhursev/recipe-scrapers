@@ -62,11 +62,11 @@
   "ratings": 4.2,
   "ratings_count": 13,
   "nutrients": {
-    "type": "NutritionInformation",
     "calories": "920 kcal",
-    "carbohydrateContent": "49 g",
     "fatContent": "61 g",
-    "proteinContent": "43 g"
+    "carbohydrateContent": "49 g",
+    "proteinContent": "43 g",
+    "type": "NutritionInformation"
   },
   "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=jpg&width=1300&height=525",
   "keywords": [

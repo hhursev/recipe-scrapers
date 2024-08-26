@@ -63,17 +63,17 @@
   "ratings": 4.68,
   "ratings_count": 331,
   "nutrients": {
+    "servingSize": "1 fillet",
     "calories": "456 kcal",
-    "carbohydrateContent": "10 g",
-    "proteinContent": "47 g",
     "fatContent": "26 g",
     "saturatedFatContent": "4 g",
-    "cholesterolContent": "125 mg",
+    "unsaturatedFatContent": "19 g",
+    "carbohydrateContent": "10 g",
+    "sugarContent": "2 g",
+    "proteinContent": "47 g",
     "sodiumContent": "692 mg",
     "fiberContent": "5 g",
-    "sugarContent": "2 g",
-    "servingSize": "1 fillet",
-    "unsaturatedFatContent": "19 g"
+    "cholesterolContent": "125 mg"
   },
   "image": "https://www.thecookierookie.com/wp-content/uploads/2014/01/featured-grilled-salmon-with-avocado-salsa-recipe.jpg",
   "keywords": [

@@ -75,14 +75,14 @@
   "nutrients": {
     "servingSize": "1 taco",
     "calories": "147 calories",
-    "sugarContent": "1.4 g",
-    "sodiumContent": "134 mg",
     "fatContent": "2.8 g",
     "saturatedFatContent": "0.6 g",
     "transFatContent": "0 g",
     "carbohydrateContent": "9.9 g",
-    "fiberContent": "1.5 g",
+    "sugarContent": "1.4 g",
     "proteinContent": "21.4 g",
+    "sodiumContent": "134 mg",
+    "fiberContent": "1.5 g",
     "cholesterolContent": "144.7 mg"
   },
   "image": "https://livelytable.com/wp-content/uploads/2017/05/chipotle-shrimp-tacos-225x225.jpg",

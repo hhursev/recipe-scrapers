@@ -68,14 +68,14 @@
   "ratings_count": 1,
   "nutrients": {
     "calories": "412 calories",
-    "sugarContent": "11.6 g",
-    "sodiumContent": "1172.4 mg",
     "fatContent": "25.2 g",
     "saturatedFatContent": "14.8 g",
     "transFatContent": "0.1 g",
     "carbohydrateContent": "37.9 g",
-    "fiberContent": "2 g",
+    "sugarContent": "11.6 g",
     "proteinContent": "9.7 g",
+    "sodiumContent": "1172.4 mg",
+    "fiberContent": "2 g",
     "cholesterolContent": "111.3 mg"
   },
   "dietary_restrictions": [

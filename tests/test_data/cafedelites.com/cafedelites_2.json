@@ -34,16 +34,16 @@
   "ratings": 5.0,
   "ratings_count": 19,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "284 kcal",
-    "carbohydrateContent": "17 g",
-    "proteinContent": "9 g",
     "fatContent": "16 g",
     "saturatedFatContent": "10 g",
-    "cholesterolContent": "54 mg",
+    "carbohydrateContent": "17 g",
+    "sugarContent": "1 g",
+    "proteinContent": "9 g",
     "sodiumContent": "732 mg",
     "fiberContent": "5 g",
-    "sugarContent": "1 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "54 mg"
   },
   "image": "https://cafedelites.com/wp-content/uploads/2017/12/Easy-Creamy-Mashed-Potatoes-IMAGE-14.jpg",
   "keywords": [

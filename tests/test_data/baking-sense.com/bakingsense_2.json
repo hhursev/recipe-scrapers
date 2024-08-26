@@ -77,15 +77,15 @@
   "nutrients": {
     "servingSize": "1 g",
     "calories": "419 kcal",
-    "carbohydrateContent": "22 g",
-    "proteinContent": "1 g",
     "fatContent": "7 g",
     "saturatedFatContent": "4 g",
-    "cholesterolContent": "21 mg",
+    "unsaturatedFatContent": "3 g",
+    "carbohydrateContent": "22 g",
+    "sugarContent": "20 g",
+    "proteinContent": "1 g",
     "sodiumContent": "7 mg",
     "fiberContent": "2 g",
-    "sugarContent": "20 g",
-    "unsaturatedFatContent": "3 g"
+    "cholesterolContent": "21 mg"
   },
   "image": "https://www.baking-sense.com/wp-content/uploads/2022/04/choc-sberry-cake-featured.jpg",
   "keywords": [

@@ -45,13 +45,13 @@
   "ratings_count": 30,
   "nutrients": {
     "calories": "164",
-    "carbohydrateContent": "25",
-    "cholesterolContent": "16",
     "fatContent": "4.3",
-    "fiberContent": "1.4",
-    "proteinContent": "5.6",
     "saturatedFatContent": "2.6",
-    "sodiumContent": "363"
+    "carbohydrateContent": "25",
+    "proteinContent": "5.6",
+    "sodiumContent": "363",
+    "fiberContent": "1.4",
+    "cholesterolContent": "16"
   },
   "image": "https://img.sunset02.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/crisp-top-sourdough-stuffing-su.jpg"
 }

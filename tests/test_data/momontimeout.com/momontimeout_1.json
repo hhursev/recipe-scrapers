@@ -90,18 +90,18 @@
   "ratings": 5.0,
   "ratings_count": 2,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "709 kcal",
-    "carbohydrateContent": "91 g",
-    "proteinContent": "12 g",
     "fatContent": "34 g",
     "saturatedFatContent": "20 g",
+    "unsaturatedFatContent": "11 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "111 mg",
+    "carbohydrateContent": "91 g",
+    "sugarContent": "43 g",
+    "proteinContent": "12 g",
     "sodiumContent": "400 mg",
     "fiberContent": "3 g",
-    "sugarContent": "43 g",
-    "unsaturatedFatContent": "11 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "111 mg"
   },
   "image": "https://www.momontimeout.com/wp-content/uploads/2024/03/giant-cinnamon-roll-square.jpeg",
   "keywords": [

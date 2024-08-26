@@ -39,12 +39,12 @@
   "nutrients": {
     "servingSize": "1 hamburger bun",
     "calories": "394 kcal",
-    "carbohydrateContent": "10 g",
-    "proteinContent": "20.1 g",
     "fatContent": "32.1 g",
+    "carbohydrateContent": "10 g",
+    "sugarContent": "1.8 g",
+    "proteinContent": "20.1 g",
     "sodiumContent": "368.3 mg",
-    "fiberContent": "5.5 g",
-    "sugarContent": "1.8 g"
+    "fiberContent": "5.5 g"
   },
   "image": "https://thinlicious.com/wp-content/uploads/2023/08/Blog-Cover-Square-19.png",
   "keywords": [

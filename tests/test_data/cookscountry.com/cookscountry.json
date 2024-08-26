@@ -75,15 +75,15 @@
   "ratings": 4.2,
   "nutrients": {
     "calories": "687",
-    "carbohydrateContent": "60 grams",
-    "cholesterolContent": "91 miligrams",
     "fatContent": "31 grams",
-    "proteinContent": "36 grams",
     "saturatedFatContent": "13 grams",
-    "sodiumContent": "987 miligrams",
-    "sugarContent": "4 grams",
+    "unsaturatedFatContent": "11 grams",
     "transFatContent": "0 grams",
-    "unsaturatedFatContent": "11 grams"
+    "carbohydrateContent": "60 grams",
+    "sugarContent": "4 grams",
+    "proteinContent": "36 grams",
+    "sodiumContent": "987 miligrams",
+    "cholesterolContent": "91 miligrams"
   },
   "image": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_150/23411_sfs-beef-and-bean-burritos-012"
 }

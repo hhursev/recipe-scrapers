@@ -42,15 +42,15 @@
   "nutrients": {
     "servingSize": "1 g",
     "calories": "394 kcal",
-    "carbohydrateContent": "11 g",
-    "proteinContent": "39 g",
     "fatContent": "20 g",
     "saturatedFatContent": "8 g",
-    "cholesterolContent": "129 mg",
+    "unsaturatedFatContent": "11 g",
+    "carbohydrateContent": "11 g",
+    "sugarContent": "2 g",
+    "proteinContent": "39 g",
     "sodiumContent": "656 mg",
     "fiberContent": "1 g",
-    "sugarContent": "2 g",
-    "unsaturatedFatContent": "11 g"
+    "cholesterolContent": "129 mg"
   },
   "image": "https://onesweetappetite.com/wp-content/uploads/2021/07/ranch-chicken-recipe-6.jpg"
 }

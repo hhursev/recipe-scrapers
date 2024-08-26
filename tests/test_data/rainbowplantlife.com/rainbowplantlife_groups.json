@@ -80,16 +80,16 @@
   "ratings": 4.98,
   "ratings_count": 68,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "358 kcal",
-    "carbohydrateContent": "45 g",
-    "proteinContent": "10 g",
     "fatContent": "16 g",
     "saturatedFatContent": "2 g",
-    "sodiumContent": "562 mg",
-    "fiberContent": "3 g",
-    "sugarContent": "3 g",
     "unsaturatedFatContent": "13 g",
-    "servingSize": "1 serving"
+    "carbohydrateContent": "45 g",
+    "sugarContent": "3 g",
+    "proteinContent": "10 g",
+    "sodiumContent": "562 mg",
+    "fiberContent": "3 g"
   },
   "dietary_restrictions": [
     "Vegan",

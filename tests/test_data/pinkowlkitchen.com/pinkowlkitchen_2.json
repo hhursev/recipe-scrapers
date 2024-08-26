@@ -47,16 +47,16 @@
   "ratings": 4.94,
   "ratings_count": 16,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "200 kcal",
-    "carbohydrateContent": "20.8 g",
-    "proteinContent": "2.6 g",
     "fatContent": "12.6 g",
     "saturatedFatContent": "7.8 g",
-    "cholesterolContent": "46 mg",
+    "carbohydrateContent": "20.8 g",
+    "sugarContent": "18.8 g",
+    "proteinContent": "2.6 g",
     "sodiumContent": "43 mg",
     "fiberContent": "0.6 g",
-    "sugarContent": "18.8 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "46 mg"
   },
   "image": "https://pinkowlkitchen.com/wp-content/uploads/2022/06/chocolate-cream-cold-brew-featured-image.jpg",
   "keywords": [

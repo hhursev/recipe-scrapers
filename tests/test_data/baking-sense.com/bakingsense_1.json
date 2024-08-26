@@ -76,18 +76,18 @@
     "Half Sheet Pans"
   ],
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "247 kcal",
-    "sodiumContent": "148 mg",
-    "sugarContent": "20 g",
-    "fiberContent": "1 g",
-    "cholesterolContent": "69 mg",
-    "transFatContent": "1 g",
-    "saturatedFatContent": "6 g",
     "fatContent": "10 g",
-    "proteinContent": "4 g",
-    "carbohydrateContent": "49 g",
+    "saturatedFatContent": "6 g",
     "unsaturatedFatContent": "4 g",
-    "servingSize": "1 serving"
+    "transFatContent": "1 g",
+    "carbohydrateContent": "49 g",
+    "sugarContent": "20 g",
+    "proteinContent": "4 g",
+    "sodiumContent": "148 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "69 mg"
   },
   "image": "https://www.baking-sense.com/wp-content/uploads/2020/05/sourdough-bundt-9a.jpg",
   "keywords": [

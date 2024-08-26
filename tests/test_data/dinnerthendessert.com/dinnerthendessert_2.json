@@ -75,17 +75,17 @@
   "prep_time": 8,
   "cuisine": "American",
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "378 kcal",
-    "carbohydrateContent": "46 g",
-    "proteinContent": "10 g",
     "fatContent": "18 g",
     "saturatedFatContent": "11 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "57 mg",
+    "carbohydrateContent": "46 g",
+    "sugarContent": "5 g",
+    "proteinContent": "10 g",
     "sodiumContent": "825 mg",
     "fiberContent": "4 g",
-    "sugarContent": "5 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "57 mg"
   },
   "image": "https://dinnerthendessert.com/wp-content/uploads/2022/02/Corn-Chowder-with-Cornmeal-Dumplings-12-1x1-1.jpg",
   "keywords": [

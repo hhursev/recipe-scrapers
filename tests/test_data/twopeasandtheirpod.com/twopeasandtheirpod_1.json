@@ -72,13 +72,13 @@
   "nutrients": {
     "servingSize": "20 g",
     "calories": "132 kcal",
-    "carbohydrateContent": "11 g",
-    "proteinContent": "8 g",
     "fatContent": "5 g",
     "saturatedFatContent": "2 g",
-    "cholesterolContent": "23 mg",
+    "carbohydrateContent": "11 g",
+    "proteinContent": "8 g",
     "sodiumContent": "123 mg",
-    "fiberContent": "1 g"
+    "fiberContent": "1 g",
+    "cholesterolContent": "23 mg"
   },
   "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2017/03/Baked-Chicken-Taquitos-1.jpg",
   "keywords": [

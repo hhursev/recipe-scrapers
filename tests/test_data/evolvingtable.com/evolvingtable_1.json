@@ -25,15 +25,15 @@
   "ratings": 4.8,
   "ratings_count": 5,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "96 kcal",
-    "carbohydrateContent": "1 g",
-    "proteinContent": "1 g",
     "fatContent": "10 g",
     "saturatedFatContent": "2 g",
-    "cholesterolContent": "6 mg",
-    "sodiumContent": "211 mg",
+    "carbohydrateContent": "1 g",
     "sugarContent": "1 g",
-    "servingSize": "1 serving"
+    "proteinContent": "1 g",
+    "sodiumContent": "211 mg",
+    "cholesterolContent": "6 mg"
   },
   "image": "https://www.evolvingtable.com/wp-content/uploads/2023/02/Sriracha-Mayo-12.jpg",
   "keywords": [

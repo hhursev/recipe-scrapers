@@ -75,18 +75,18 @@
   "ratings": 5.0,
   "ratings_count": 3,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "652 kcal",
-    "carbohydrateContent": "57 g",
-    "proteinContent": "8 g",
     "fatContent": "45 g",
     "saturatedFatContent": "28 g",
+    "unsaturatedFatContent": "14 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "158 mg",
+    "carbohydrateContent": "57 g",
+    "sugarContent": "26 g",
+    "proteinContent": "8 g",
     "sodiumContent": "134 mg",
     "fiberContent": "3 g",
-    "sugarContent": "26 g",
-    "unsaturatedFatContent": "14 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "158 mg"
   },
   "image": "https://www.number-2-pencil.com/wp-content/uploads/2023/05/Sheet-Pan-Strawberry-Shortcake-7.jpg",
   "keywords": [

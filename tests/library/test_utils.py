@@ -4,6 +4,7 @@ from recipe_scrapers._utils import (
     _extract_fractional,
     get_abstract_methods,
     get_minutes,
+    get_nutrition_keys,
     get_url_slug,
     url_path_to_dict,
 )
@@ -149,3 +150,21 @@ class TestUtils(unittest.TestCase):
             "keywords",
         ]
         self.assertEqual((expected_methods), (abstract_methods))
+
+    def test_get_nutrition_keys(self):
+        nutrition_keys = get_nutrition_keys()
+        expected_order = [
+            "servingSize",
+            "calories",
+            "fatContent",
+            "saturatedFatContent",
+            "unsaturatedFatContent",
+            "transFatContent",
+            "carbohydrateContent",
+            "sugarContent",
+            "proteinContent",
+            "sodiumContent",
+            "fiberContent",
+            "cholesterolContent",
+        ]
+        self.assertEqual((expected_order), (nutrition_keys))

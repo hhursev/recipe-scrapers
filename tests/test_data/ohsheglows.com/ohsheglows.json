@@ -37,11 +37,11 @@
     "calories": "365 calorie",
     "fatContent": "26 grams",
     "saturatedFatContent": "19 grams",
-    "sodiumContent": "100 milligrams",
     "carbohydrateContent": "29 grams",
-    "fiberContent": "2 grams",
     "sugarContent": "24 grams",
-    "proteinContent": "6 grams"
+    "proteinContent": "6 grams",
+    "sodiumContent": "100 milligrams",
+    "fiberContent": "2 grams"
   },
   "dietary_restrictions": [
     "Gluten Free Diet",

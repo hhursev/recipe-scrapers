@@ -79,14 +79,14 @@
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "466 kcal",
-    "carbohydrateContent": "33 g",
-    "proteinContent": "34 g",
     "fatContent": "22 g",
     "saturatedFatContent": "13 g",
-    "cholesterolContent": "143 mg",
+    "carbohydrateContent": "33 g",
+    "sugarContent": "21 g",
+    "proteinContent": "34 g",
     "sodiumContent": "372 mg",
     "fiberContent": "1 g",
-    "sugarContent": "21 g"
+    "cholesterolContent": "143 mg"
   },
   "image": "https://www.jocooks.com/wp-content/uploads/2020/02/korean-fried-chicken-1-16.jpg",
   "keywords": [

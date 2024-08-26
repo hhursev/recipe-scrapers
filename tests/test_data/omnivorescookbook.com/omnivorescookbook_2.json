@@ -50,14 +50,14 @@
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "341 kcal",
-    "carbohydrateContent": "28.1 g",
-    "proteinContent": "16.5 g",
     "fatContent": "18.3 g",
     "saturatedFatContent": "4 g",
-    "cholesterolContent": "40 mg",
+    "carbohydrateContent": "28.1 g",
+    "sugarContent": "4.9 g",
+    "proteinContent": "16.5 g",
     "sodiumContent": "651 mg",
     "fiberContent": "1.8 g",
-    "sugarContent": "4.9 g"
+    "cholesterolContent": "40 mg"
   },
   "image": "https://omnivorescookbook.com/wp-content/uploads/2020/06/200430_Beef-Pan-Fried-Noodles_550.jpg",
   "keywords": [

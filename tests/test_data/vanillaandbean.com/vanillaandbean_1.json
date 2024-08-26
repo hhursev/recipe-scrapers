@@ -61,13 +61,13 @@
   "nutrients": {
     "servingSize": "1 loaf |",
     "calories": "2303 kcal",
-    "carbohydrateContent": "441 g",
-    "proteinContent": "66 g",
     "fatContent": "30 g",
     "saturatedFatContent": "4 g",
+    "carbohydrateContent": "441 g",
+    "sugarContent": "50 g",
+    "proteinContent": "66 g",
     "sodiumContent": "4061 mg",
-    "fiberContent": "29 g",
-    "sugarContent": "50 g"
+    "fiberContent": "29 g"
   },
   "image": "https://vanillaandbean.com/wp-content/uploads/2020/06/aaasourdough-20.jpg",
   "keywords": [

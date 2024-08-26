@@ -54,14 +54,14 @@
   "ratings_count": 82,
   "nutrients": {
     "calories": "463 calories",
-    "carbohydrateContent": "11 grams carbohydrates",
-    "cholesterolContent": "157 milligrams cholesterol",
     "fatContent": "35 grams fat",
-    "fiberContent": "1 grams fiber",
-    "proteinContent": "27 grams protein",
     "saturatedFatContent": "15 grams saturated fat",
+    "carbohydrateContent": "11 grams carbohydrates",
+    "sugarContent": "1 grams sugar",
+    "proteinContent": "27 grams protein",
     "sodiumContent": "1050 milligrams sodium",
-    "sugarContent": "1 grams sugar"
+    "fiberContent": "1 grams fiber",
+    "cholesterolContent": "157 milligrams cholesterol"
   },
   "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2018/swedish-meatballs-13.jpg?w=960&h=540&q=82&fm=jpg&fit=crop&dm=1599768329&s=a12d3adcc54b1d30b5aa25dc6b922e3f",
   "keywords": [

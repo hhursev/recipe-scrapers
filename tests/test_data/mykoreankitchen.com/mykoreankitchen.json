@@ -75,16 +75,16 @@
   "ratings": 4.88,
   "ratings_count": 8,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "439 kcal",
-    "carbohydrateContent": "89 g",
-    "proteinContent": "6 g",
     "fatContent": "7 g",
     "saturatedFatContent": "1 g",
-    "sodiumContent": "151 mg",
-    "fiberContent": "3 g",
-    "sugarContent": "14 g",
     "unsaturatedFatContent": "5 g",
-    "servingSize": "1 serving"
+    "carbohydrateContent": "89 g",
+    "sugarContent": "14 g",
+    "proteinContent": "6 g",
+    "sodiumContent": "151 mg",
+    "fiberContent": "3 g"
   },
   "image": "https://mykoreankitchen.com/wp-content/uploads/2016/01/1.-Korean-Sweet-Rice-with-Dried-Fruit-and-Nuts.jpg",
   "keywords": [

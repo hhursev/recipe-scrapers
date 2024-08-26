@@ -59,16 +59,16 @@
   "ratings": 5.0,
   "ratings_count": 17,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "415 kcal",
-    "carbohydrateContent": "43 g",
-    "proteinContent": "16 g",
     "fatContent": "20 g",
     "saturatedFatContent": "3 g",
-    "cholesterolContent": "40 mg",
+    "carbohydrateContent": "43 g",
+    "sugarContent": "12 g",
+    "proteinContent": "16 g",
     "sodiumContent": "476 mg",
     "fiberContent": "3 g",
-    "sugarContent": "12 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "40 mg"
   },
   "image": "https://barefeetinthekitchen.com/wp-content/uploads/2019/04/Spinach-Orzo-Salad-BFK-3-1-of-1.jpg",
   "keywords": [

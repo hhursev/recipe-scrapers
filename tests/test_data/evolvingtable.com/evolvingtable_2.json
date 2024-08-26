@@ -63,16 +63,16 @@
   "ratings": 5.0,
   "ratings_count": 5,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "366 kcal",
-    "carbohydrateContent": "23 g",
-    "proteinContent": "29 g",
     "fatContent": "18 g",
-    "fiberContent": "2 g",
     "saturatedFatContent": "5 g",
-    "cholesterolContent": "129 mg",
-    "sodiumContent": "688 mg",
+    "carbohydrateContent": "23 g",
     "sugarContent": "9 g",
-    "servingSize": "1 serving"
+    "proteinContent": "29 g",
+    "sodiumContent": "688 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "129 mg"
   },
   "image": "https://www.evolvingtable.com/wp-content/uploads/2018/03/Chicken-Tenders-Paleo-6.jpg"
 }

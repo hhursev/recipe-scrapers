@@ -76,16 +76,16 @@
   "nutrients": {
     "servingSize": "1 portion",
     "calories": "567 kcal",
-    "carbohydrateContent": "6 g",
-    "proteinContent": "50 g",
     "fatContent": "34 g",
     "saturatedFatContent": "16 g",
+    "unsaturatedFatContent": "19 g",
     "transFatContent": "2 g",
-    "cholesterolContent": "187 mg",
+    "carbohydrateContent": "6 g",
+    "sugarContent": "2 g",
+    "proteinContent": "50 g",
     "sodiumContent": "249 mg",
     "fiberContent": "1 g",
-    "sugarContent": "2 g",
-    "unsaturatedFatContent": "19 g"
+    "cholesterolContent": "187 mg"
   },
   "image": "https://leitesculinaria.com/wp-content/uploads/2001/05/beef-cacoila.jpg",
   "keywords": [

@@ -37,14 +37,14 @@
   "ratings_count": 136,
   "nutrients": {
     "calories": "636 kcal",
-    "carbohydrateContent": "52 g",
-    "cholesterolContent": "192 mg",
-    "proteinContent": "9 g",
-    "saturatedFatContent": "26 g",
-    "sodiumContent": "387 mg",
-    "sugarContent": "47 g",
     "fatContent": "43 g",
-    "unsaturatedFatContent": "0 g"
+    "saturatedFatContent": "26 g",
+    "unsaturatedFatContent": "0 g",
+    "carbohydrateContent": "52 g",
+    "sugarContent": "47 g",
+    "proteinContent": "9 g",
+    "sodiumContent": "387 mg",
+    "cholesterolContent": "192 mg"
   },
   "image": "https://www.realsimple.com/thmb/OyWqkHucZsWzklIA4ld59Eesj2o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheesecake_300-70617627cf5f4f5eae7f1a11018713ec.jpg"
 }
