@@ -121,7 +121,7 @@ Scrapers available for:
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
 - `https://bonappetit.com/ <https://bonappetit.com>`_
 - `https://bongeats.com/ <https://bongeats.com/>`_
-- `https://books.ottolenghi.co.uk <https://books.ottolenghi.co.uk/>`_
+- `https://books.ottolenghi.co.uk <https://books.ottolenghi.co.uk/>`_ (*)
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
