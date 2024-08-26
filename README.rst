@@ -128,7 +128,6 @@ Scrapers available for:
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
-- `https://celebratingsweets.com/ <https://celebratingsweets.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://www.chefnini.com/ <https://www.chefnini.com/>`_
 - `https://chefsavvy.com/ <https://chefsavvy.com/>`_
@@ -221,7 +220,6 @@ Scrapers available for:
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://inbloombakery.com/ <https://inbloombakery.com/>`_
 - `https://indianhealthyrecipes.com <https://www.indianhealthyrecipes.com>`_
-- `https://ingoodflavor.com <https://www.ingoodflavor.com>`_
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
@@ -236,12 +234,10 @@ Scrapers available for:
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
-- `https://kalejunkie.com/ <https://kalejunkie.com/>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
-- `https://www.kitchendreaming.com <https://www.kitchendreaming.com>`_
 - `https://www.kitchensanctuary.com/ <https://www.kitchensanctuary.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
 - `https://kochbar.de/ <https://kochbar.de>`_
@@ -255,7 +251,6 @@ Scrapers available for:
 - `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
 - `https://lecremedelacrumb.com/ <https://lecremedelacrumb.com/>`_
-- `https://leitesculinaria.com <https://leitesculinaria.com>`_
 - `https://lekkerensimpel.com <https://lekkerensimpel.com>`_
 - `https://leukerecepten.nl/ <https://www.leukerecepten.nl>`_
 - `https://lifestyleofafoodie.com <https://lifestyleofafoodie.com>`_
@@ -296,7 +291,6 @@ Scrapers available for:
 - `https://mykoreankitchen.com/ <https://mykoreankitchen.com>`_
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
-- `https://myvegetarianroots.com/ <https://myvegetarianroots.com/>`_
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://norecipes.com/ <https://norecipes.com/>`_
@@ -315,7 +309,6 @@ Scrapers available for:
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_
 - `https://paninihappy.com/ <https://paninihappy.com>`_
-- `https://www.peelwithzeal.com/ <https://www.peelwithzeal.com/>`_
 - `https://www.persnicketyplates.com/ <https://www.persnicketyplates.com/>`_
 - `https://www.pickuplimes.com/ <https://www.pickuplimes.com/>`_
 - `https://pinchofyum.com/ <https://pinchofyum.com/>`_
@@ -358,7 +351,6 @@ Scrapers available for:
 - `https://sallys-blog.de <https://sallys-blog.de/>`_
 - `https://sallysbakingaddiction.com <https://sallysbakingaddiction.com/>`_
 - `https://saltpepperskillet.com/ <https://saltpepperskillet.com/>`_
-- `https://sandwichtribunal.com/ <https://sandwichtribunal.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
