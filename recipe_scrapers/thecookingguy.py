@@ -9,12 +9,6 @@ class TheCookingGuy(AbstractScraper):
     def host(cls):
         return "thecookingguy.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 

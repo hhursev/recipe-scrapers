@@ -13,18 +13,9 @@ class AmericasTestKitchen(AbstractScraper):
     def host(cls):
         return "americastestkitchen.com"
 
-    def author(self):
-        return self.schema.author()
-
     def site_name(self):
         """Self-titled website"""
         return self.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def description(self):
-        return self.schema.description()
 
     def total_time(self):
         return get_minutes(self._get_additional_details.get("recipeTimeNote"))
@@ -64,18 +55,6 @@ class AmericasTestKitchen(AbstractScraper):
                 for instruction in self._get_additional_details.get("instructions")
             ]
         ).lstrip("\n")
-
-    def yields(self):
-        return self.schema.yields()
-
-    def nutrients(self):
-        return self.schema.nutrients()
-
-    def category(self):
-        return self.schema.category()
-
-    def ratings(self):
-        return self.schema.ratings()
 
     @staticmethod
     def _parse_ingredient_item(ingredient_item):

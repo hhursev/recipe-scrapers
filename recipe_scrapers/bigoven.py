@@ -22,6 +22,3 @@ class BigOven(AbstractScraper):
     def instructions(self):
         ps = self.soup.find("div", {"class": "instructions"}).findAll("p")
         return "\n".join([normalize_string(p.text) for p in ps])
-
-    def ratings(self):
-        return self.schema.ratings()
