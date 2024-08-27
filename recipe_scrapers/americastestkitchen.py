@@ -20,9 +20,6 @@ class AmericasTestKitchen(AbstractScraper):
     def total_time(self):
         return get_minutes(self._get_additional_details.get("recipeTimeNote"))
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = []
         for group in self._get_additional_details.get("ingredientGroups"):

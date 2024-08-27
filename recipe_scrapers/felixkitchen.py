@@ -30,9 +30,6 @@ class FelixKitchen(AbstractScraper):
         yields_strong = container_p.find("strong")
         return yields_strong.text
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = []
 

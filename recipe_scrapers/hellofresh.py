@@ -33,6 +33,3 @@ class HelloFresh(AbstractScraper):
         prep_time, cook_time = self.prep_time(), self.cook_time()
         if prep_time or cook_time:
             return (prep_time or 0) + (cook_time or 0)
-
-    def nutrients(self):
-        return self.schema.nutrients()
