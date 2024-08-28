@@ -181,6 +181,7 @@ Scrapers available for:
 - `https://www.familyfoodonthetable.com/ <https://www.familyfoodonthetable.com/>`_
 - `https://www.farmhouseonboone.com/ <https://www.farmhouseonboone.com/>`_
 - `https://www.fattoincasadabenedetta.it/ <https://www.fattoincasadabenedetta.it/>`_
+- `https://feastingathome.com/ <https://feastingathome.com/>`_
 - `https://felix.kitchen <https://felix.kitchen>`_
 - `https://fifteenspatulas.com/ <https://www.fifteenspatulas.com/>`_
 - `https://finedininglovers.com/ <https://www.finedininglovers.com>`_
