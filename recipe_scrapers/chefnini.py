@@ -15,9 +15,6 @@ class Chefnini(AbstractScraper):
     def title(self):
         return self.soup.find("span", {"itemprop": "headline"}).get_text()
 
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 

@@ -15,9 +15,6 @@ class TheCookingGuy(AbstractScraper):
     def yields(self):
         return get_yields(self.soup.find("div", class_="text-block-7").get_text())
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         ingredients = self.soup.find(
             "div", class_="w-layout-vflex card-text-holder ingredients"

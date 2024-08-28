@@ -17,9 +17,6 @@ class LekkerEnSimpel(AbstractScraper):
         title = self.soup.find("h1", {"class": "hero__title"}).text
         return normalize_string(title)
 
-    def category(self):
-        return self.schema.category()
-
     def image(self):
         image = self.soup.find("meta", {"property", "og:image"})
         return image["content"] if image else None
