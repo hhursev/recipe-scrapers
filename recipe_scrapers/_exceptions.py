@@ -55,6 +55,15 @@ class SchemaOrgException(FillPluginException):
     ...
 
 
+class RecipeSchemaNotFound(SchemaOrgException):
+    """No recipe schema metadata found on the page"""
+
+    def __init__(self, url):
+        self.url = url
+        message = f"No Recipe Schema found at {self.url}."
+        super().__init__(message)
+
+
 class StaticValueException(RecipeScrapersExceptions):
     """Error to communicate that the scraper is returning a fixed/static value."""
 
