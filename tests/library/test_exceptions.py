@@ -23,7 +23,7 @@ class TestExceptions(unittest.TestCase):
     def test_no_schema_found_for_fill_plugin(self):
         class TestScraper(AbstractScraper):
             @classmethod
-            def host(self):
+            def host(cls):
                 return "example.com"
 
         scraper = TestScraper(html="<html></html>", url="http://example.com/recipe")
