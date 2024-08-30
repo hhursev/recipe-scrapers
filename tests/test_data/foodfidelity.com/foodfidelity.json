@@ -15,7 +15,6 @@
     "1 tbsp Honey",
     "1/2 tsp Orange Zest"
   ],
-  "instructions": "Heat sauce pan over medium heat. Add ghee and then toast the oats for 1-2 minutes.\nAdd the orange juice, salt, almond milk, and oats then cook according to package directions (bring to a boil then simmer for 5 minutes).\nMix in the honey then top with the strawberry. Add zest and serve.",
   "instructions_list": [
     "Heat sauce pan over medium heat. Add ghee and then toast the oats for 1-2 minutes.",
     "Add the orange juice, salt, almond milk, and oats then cook according to package directions (bring to a boil then simmer for 5 minutes).",
@@ -31,16 +30,16 @@
   "ratings": 5.0,
   "ratings_count": 11,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "304 kcal",
-    "carbohydrateContent": "52 g",
-    "proteinContent": "7 g",
     "fatContent": "8 g",
     "saturatedFatContent": "3 g",
-    "cholesterolContent": "10 mg",
+    "carbohydrateContent": "52 g",
+    "sugarContent": "21 g",
+    "proteinContent": "7 g",
     "sodiumContent": "186 mg",
     "fiberContent": "5 g",
-    "sugarContent": "21 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "10 mg"
   },
   "image": "https://www.foodfidelity.com/wp-content/uploads/2020/06/stovetop-Orange-juice-oatmeal-w-strawberries-tight-1.jpg",
   "keywords": [

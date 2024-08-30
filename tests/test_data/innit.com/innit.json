@@ -24,7 +24,6 @@
     "1/4 cup Rice Wine Vinegar",
     "1 cup Sunflower Seeds"
   ],
-  "instructions": "Preheat\nPreheat the oven to 425F.\nLine sheet pan with foil.\nSear Tofu\nDrain, pat dry & prepare tofu.\nHeat pan on high heat for 2 minutes.\nCook for 7 min or until golden brown on all sides, seasoning half way.\nRemove from pan.\nBake Broccoli\nToss broccoli with oil & salt.\nBake for 22 minutes.\nSimmer Carrots & Ginger\nPrepare ingredients.\nPre-heat pan. Add all ingredients; cover with water.\nCook until soft, about 5 minutes.\nBlend Dressing Ingredients\nTransfer carrot-ginger mixture to blender.\nAdd orange juice/zest, miso, sesame oil, honey, rice vinegar.\nBlend until smooth.\nLet cool in fridge for 10 minutes. Fold in chives & season.\nFlavor Beets\nToss beets in oil. Season with salt, pepper & parsley.\nToast Sunflower Seeds\nCombine ingredients.\nToast in oven for 5 - 7 min or until golden brown.\nMixed Greens\nWash greens & dry.\nServe and Enjoy!\nPair with your favorite music!",
   "instructions_list": [
     "Preheat",
     "Preheat the oven to 425F.",
@@ -62,16 +61,16 @@
   "cook_time": 49,
   "prep_time": 2,
   "nutrients": {
+    "calories": "800 kcal",
+    "fatContent": "61 g",
+    "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "53 g",
+    "carbohydrateContent": "34 g",
     "sugarContent": "18 g",
     "proteinContent": "32 g",
+    "sodiumContent": "1040 mg",
     "fiberContent": "11 g",
-    "unsaturatedFatContent": "53 g",
-    "fatContent": "61 g",
-    "cholesterolContent": "0 mg",
-    "calories": "800 kcal",
-    "carbohydrateContent": "34 g",
-    "saturatedFatContent": "8 g",
-    "sodiumContent": "1040 mg"
+    "cholesterolContent": "0 mg"
   },
   "image": "https://www.innit.com/meal-service/en-US/images/Meal-Salads%3A%20Blended-Carrot_Ginger_Dressing%2BAssembled-Broccoli_Beet_Mix%2BSeared-Tofu-Diced%2BOlive_Oil%2BPrepared-Mixed_Greens_480x480.png"
 }

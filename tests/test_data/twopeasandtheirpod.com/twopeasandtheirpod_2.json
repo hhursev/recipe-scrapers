@@ -17,7 +17,6 @@
     "Kosher salt, (to taste)",
     "Tajin, (for sprinkling on salad, optional)"
   ],
-  "instructions": "In a large bowl, combine the mango, jicama, cucumber, red pepper, scallions, cilantro, and mint.\nSqueeze fresh lime juice over the salad and toss. Sprinkle with salt and Tajin, if using. Toss again.\nServe and enjoy!",
   "instructions_list": [
     "In a large bowl, combine the mango, jicama, cucumber, red pepper, scallions, cilantro, and mint.",
     "Squeeze fresh lime juice over the salad and toss. Sprinkle with salt and Tajin, if using. Toss again.",
@@ -32,16 +31,16 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "71 kcal",
-    "carbohydrateContent": "17 g",
-    "proteinContent": "1 g",
     "fatContent": "0.4 g",
     "saturatedFatContent": "0.1 g",
-    "sodiumContent": "5 mg",
-    "fiberContent": "4 g",
-    "sugarContent": "12 g",
     "unsaturatedFatContent": "0.2 g",
-    "servingSize": "1 serving"
+    "carbohydrateContent": "17 g",
+    "sugarContent": "12 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "5 mg",
+    "fiberContent": "4 g"
   },
   "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/07/Mango-Salad-0715.jpg",
   "keywords": [

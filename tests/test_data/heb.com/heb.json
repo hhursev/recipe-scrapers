@@ -11,7 +11,6 @@
     "4 Tbsp Unsalted butter",
     "1 Tbsp White truffle oil"
   ],
-  "instructions": "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).\nPlace the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.\nOnce Squash is fully cooked and soft remove it from oven and let it cool for 10 minutes before scooping out meat of squash. In a serving bowl scoop or with a fork scrape out squash and add truffle salt, butter and truffle oil.\nToss all ingredients together until butter is fully melted. Season to taste if needed and serve warm.",
   "instructions_list": [
     "Preheat oven to 400˚F. Cut spaghetti squash in half from top to bottom (lengthwise).",
     "Place the spaghetti squash halves, cut side down onto a sheet pan. Roast for 30-45 minutes or until a knife can pierce the outside of skin easily, like a baked potato.",
@@ -21,21 +20,21 @@
   "category": null,
   "yields": "8 servings",
   "description": "Easily shop for ingredients to make Truffled Spaghetti Squash. Find instructions, prep time, cook time, serving size, nutrition, and more.",
-  "total_time": 60.0,
+  "total_time": 60,
   "cook_time": 40,
   "prep_time": 20,
   "nutrients": {
     "calories": "100 calories",
-    "carbohydrateContent": "8 grams",
-    "cholesterolContent": "15 milligrams",
     "fatContent": "8 grams",
-    "fiberContent": "2 grams",
-    "proteinContent": "1 grams",
     "saturatedFatContent": "4 grams",
-    "sodiumContent": "100 milligrams",
-    "sugarContent": "3 grams",
+    "unsaturatedFatContent": "4 grams",
     "transFatContent": "0 grams",
-    "unsaturatedFatContent": "4 grams"
+    "carbohydrateContent": "8 grams",
+    "sugarContent": "3 grams",
+    "proteinContent": "1 grams",
+    "sodiumContent": "100 milligrams",
+    "fiberContent": "2 grams",
+    "cholesterolContent": "15 milligrams"
   },
   "image": "https://images.heb.com/is/image/HEBGrocery/Test/truffled-spaghetti-squash-recipe.jpg"
 }

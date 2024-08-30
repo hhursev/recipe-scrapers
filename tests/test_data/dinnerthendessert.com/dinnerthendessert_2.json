@@ -51,7 +51,6 @@
       "purpose": "Cornmeal Dumplings:"
     }
   ],
-  "instructions": "Add butter to a large heavy-bottomed pot.\nHeat\nOn medium-high heat, add in the onions, cooking them until they are translucent (about 4-5 minutes).\nAdd chicken broth, corn, potatoes, heavy cream, hot sauce, chili powder, and salt.\nSimmer\nStir well and bring to a simmer, uncovered, for 4-5 minutes.\nWhisk\nWhile the soup is simmering make the cornmeal dumplings: In a large bowl whisk together the flour, cornmeal, baking powder, and garlic salt until well mixed.\nAdd in the milk and whisk.\nStir in the green onions and cheddar cheese.\nDrop-in small heaping tablespoons onto the soup.\nSimmer\nCover the pot and let it simmer on medium-low for 20 minutes (no peeking).\nTest dumplings with a toothpick.",
   "instructions_list": [
     "Add butter to a large heavy-bottomed pot.",
     "Heat",
@@ -76,17 +75,17 @@
   "prep_time": 8,
   "cuisine": "American",
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "378 kcal",
-    "carbohydrateContent": "46 g",
-    "proteinContent": "10 g",
     "fatContent": "18 g",
     "saturatedFatContent": "11 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "57 mg",
+    "carbohydrateContent": "46 g",
+    "sugarContent": "5 g",
+    "proteinContent": "10 g",
     "sodiumContent": "825 mg",
     "fiberContent": "4 g",
-    "sugarContent": "5 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "57 mg"
   },
   "image": "https://dinnerthendessert.com/wp-content/uploads/2022/02/Corn-Chowder-with-Cornmeal-Dumplings-12-1x1-1.jpg",
   "keywords": [

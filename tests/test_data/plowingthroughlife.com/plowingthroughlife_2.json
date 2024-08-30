@@ -39,7 +39,6 @@
       "purpose": "Icing"
     }
   ],
-  "instructions": "Place cinnamon rolls in a single layer in the bottom of a lightly greased 9 x 13\" baking pan. Pour heavy cream around the rolls to make an even layer in the pan.\nStir brown sugar, cinnamon and melted butter together and spread over top of cinnamon rolls.\nCover with foil and bake at 350°F for 25 - 30 minutes.\nIcing\nIn a small mixing bowl squeeze store bought icing add butter, powdered sugar, splash of vanilla and 1 tablespoon of milk.\nMix together and add 1 tablespoon of milk at a time until it reaches your preferred consistency.\nAllow the rolls to cool slightly and pour icing over top. Enjoy!",
   "instructions_list": [
     "Place cinnamon rolls in a single layer in the bottom of a lightly greased 9 x 13\" baking pan. Pour heavy cream around the rolls to make an even layer in the pan.",
     "Stir brown sugar, cinnamon and melted butter together and spread over top of cinnamon rolls.",
@@ -59,18 +58,18 @@
   "ratings": 5.0,
   "ratings_count": 13,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "951 kcal",
-    "carbohydrateContent": "128 g",
-    "proteinContent": "9 g",
     "fatContent": "47 g",
     "saturatedFatContent": "24 g",
+    "unsaturatedFatContent": "6 g",
     "transFatContent": "2 g",
-    "cholesterolContent": "54 mg",
+    "carbohydrateContent": "128 g",
+    "sugarContent": "75 g",
+    "proteinContent": "9 g",
     "sodiumContent": "1417 mg",
     "fiberContent": "0.4 g",
-    "sugarContent": "75 g",
-    "unsaturatedFatContent": "6 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "54 mg"
   },
   "image": "https://plowingthroughlife.com/wp-content/uploads/2022/08/Can-Cinnamon-Rolls-Heavy-Cream-FI.jpeg",
   "keywords": [

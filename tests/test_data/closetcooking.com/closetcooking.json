@@ -16,7 +16,6 @@
     "4 ounces cream cheese, softened",
     "1 cup cheddar cheese, shredded"
   ],
-  "instructions": "Heat the oil in a pan over medium-high heat, add the chicken (seasoned with salt and pepper) and cook until lightly golden brown.\nAdd the onions and jalapenos and cook until tender, about a minute before adding the garlic and cooking another minute.\nAdd the chicken broth and deglaze the skillet by scraping the brown bits up off of the bottom of the pan as the broth sizzles.\nAdd the cheese and cook until it has melted and the sauce is nice and smooth",
   "instructions_list": [
     "Heat the oil in a pan over medium-high heat, add the chicken (seasoned with salt and pepper) and cook until lightly golden brown.",
     "Add the onions and jalapenos and cook until tender, about a minute before adding the garlic and cooking another minute.",
@@ -34,12 +33,12 @@
     "fatContent": "Fat 32g",
     "saturatedFatContent": "Saturated 13g",
     "transFatContent": "Trans 0.2g",
-    "cholesterolContent": "Cholesterol 117mg",
-    "sodiumContent": "Sodium 361mg",
     "carbohydrateContent": "Carbs 4g",
-    "fiberContent": "Fiber 0.4g",
     "sugarContent": "Sugars 2g",
-    "proteinContent": "Protein 25g"
+    "proteinContent": "Protein 25g",
+    "sodiumContent": "Sodium 361mg",
+    "fiberContent": "Fiber 0.4g",
+    "cholesterolContent": "Cholesterol 117mg"
   },
   "image": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20375'%3E%3C/svg%3E"
 }

@@ -43,7 +43,6 @@
       "purpose": "SAUCE"
     }
   ],
-  "instructions": "If using potatoes, add those to the bottom of the slow cooker. Add the chicken. Spread diced apples & onion on top of the chicken.\nIn a small bowl, mix together sauce ingredients until well blended. Pour sauce on top of chicken.\nCook HIGH 2-3 hours or LOW 4-6.\nTurn the Instant Pot to saute. Once hot, add the oil. If you’re using skin-on chicken: add the chicken and sear, few minutes on each side until browned. Remove chicken from the pressure cooker. If you’re using skinless chicken, skip this step.\nAdd onions (and more oil if needed) and cook 3-5 minutes until soft.\nIn a small bowl, mix together sauce ingredients. Pour the sauce into the pressure cooker and deglaze the bottom of the pressure cooker by scraping all the bits off with a wooden spoon.\nAdd chicken back into the Instant Pot. Add apples (and potatoes if using) on top.\nClose lid and seal valve. Set high pressure and cook 12 minutes. When cook time is complete, quick release the pressure.",
   "instructions_list": [
     "If using potatoes, add those to the bottom of the slow cooker. Add the chicken. Spread diced apples & onion on top of the chicken.",
     "In a small bowl, mix together sauce ingredients until well blended. Pour sauce on top of chicken.",
@@ -59,18 +58,18 @@
   "total_time": 190,
   "cook_time": 180,
   "prep_time": 10,
-  "ratings": 5,
+  "ratings": 5.0,
   "ratings_count": 4,
   "nutrients": {
     "calories": "544 calories",
-    "sugarContent": "36.2 g",
-    "sodiumContent": "442.8 mg",
     "fatContent": "6.4 g",
     "saturatedFatContent": "1.4 g",
     "transFatContent": "0 g",
     "carbohydrateContent": "66.1 g",
-    "fiberContent": "5 g",
+    "sugarContent": "36.2 g",
     "proteinContent": "55.6 g",
+    "sodiumContent": "442.8 mg",
+    "fiberContent": "5 g",
     "cholesterolContent": "165.5 mg"
   },
   "image": "https://fitslowcookerqueen.com/wp-content/uploads/2019/08/VIDEO-Slow-CookerInstant-Pot-Chicken-with-Apples-Honey-Paleo-4-225x225.jpg"

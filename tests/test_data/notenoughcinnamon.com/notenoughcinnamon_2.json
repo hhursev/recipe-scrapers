@@ -41,7 +41,6 @@
       "purpose": "To serve:"
     }
   ],
-  "instructions": "Preheat oven to 450F/230C. Spray a rimmed baking sheet with olive oil (or line with parchment paper)\nPlace the gnocchi, peppers, tomatoes, onion, garlic powder, Italian herbs, salt, and a few generous grinds of black pepper in a large bowl. Drizzle with the oil and gently toss to combine.\nSpread the gnocchi mixture out evenly on the prepared baking sheet.Roast, stirring halfway through, until the gnocchi are plump and the vegetables are tender and caramelized, about 20 minutes total.\nTo serve, spoon the gnocchi and vegetable mixture into individual bowls and garnish each bowl with the basil and grated cheese.",
   "instructions_list": [
     "Preheat oven to 450F/230C. Spray a rimmed baking sheet with olive oil (or line with parchment paper)",
     "Place the gnocchi, peppers, tomatoes, onion, garlic powder, Italian herbs, salt, and a few generous grinds of black pepper in a large bowl. Drizzle with the oil and gently toss to combine.",
@@ -58,15 +57,15 @@
   "ratings": 5.0,
   "ratings_count": 5,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "605 kcal",
-    "carbohydrateContent": "105 g",
-    "proteinContent": "13 g",
     "fatContent": "17 g",
     "saturatedFatContent": "3 g",
-    "sodiumContent": "1371 mg",
-    "fiberContent": "13 g",
+    "carbohydrateContent": "105 g",
     "sugarContent": "14 g",
-    "servingSize": "1 serving"
+    "proteinContent": "13 g",
+    "sodiumContent": "1371 mg",
+    "fiberContent": "13 g"
   },
   "image": "https://www.notenoughcinnamon.com/wp-content/uploads/2021/05/Crispy-Sheet-Pan-Gnocchi-with-Roasted-Vegetables-6.jpg",
   "keywords": [

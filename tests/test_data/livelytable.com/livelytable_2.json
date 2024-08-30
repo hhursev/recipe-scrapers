@@ -56,7 +56,6 @@
       "purpose": "For serving:"
     }
   ],
-  "instructions": "Place shrimp in a medium, nonreactive bowl.\nIn a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.\nIn a food processor or blender, combine jalapeño, cilantro, yogurt, and lime juice. Process until smooth and pour into a small bowl for serving.\nPrepare remaining taco toppings.\nHeat a large non-stick skillet over medium heat. Add shrimp and cook about 3 minutes per side or until cooked through.\nServe with warm corn tortillas and top as desired. Enjoy!",
   "instructions_list": [
     "Place shrimp in a medium, nonreactive bowl.",
     "In a small bowl, combine chipotle, garlic powder, and cumin. Sprinkle over shrimp. Add oil and lime juice and stir well until shrimp are evenly coated. Set aside while you prepare the cilantro jalapeño sauce.",
@@ -76,14 +75,14 @@
   "nutrients": {
     "servingSize": "1 taco",
     "calories": "147 calories",
-    "sugarContent": "1.4 g",
-    "sodiumContent": "134 mg",
     "fatContent": "2.8 g",
     "saturatedFatContent": "0.6 g",
     "transFatContent": "0 g",
     "carbohydrateContent": "9.9 g",
-    "fiberContent": "1.5 g",
+    "sugarContent": "1.4 g",
     "proteinContent": "21.4 g",
+    "sodiumContent": "134 mg",
+    "fiberContent": "1.5 g",
     "cholesterolContent": "144.7 mg"
   },
   "image": "https://livelytable.com/wp-content/uploads/2017/05/chipotle-shrimp-tacos-225x225.jpg",

@@ -18,7 +18,6 @@
     "12 ounces coke (not diet)",
     "bbq sauce for coating meat (optional)"
   ],
-  "instructions": "Trim pork of excess fat and cut into 4 pieces.\nCombine spices in a small bowl and rub all over the pork. (This can be done the night before).\nSear (optional): Heat a few tablespoons of oil in a Dutch oven pot over medium-high heat. Add the meat and sear for a few seconds on all sides.\nOven Method: Preheat oven to 300 degrees F. Pour coke around the pork in the Dutch oven pot. Cover pot with lid and cook for 3 hours. Remove lid and cook for an additional 1-2 hours, until pork is tender and easily pulls apart with a fork. Remove from oven and shred meat. Toss in barbecue sauce, if desired.\nSlow Cooker Method: Place pork in slow cooker and pour coke around it. Cover and cook on LOW (recommended) 8 hours or high for 4-5 hours, until pork is tender and shreds easily with a fork.\nInstant Pot Method: Place pork in instant pot and pour coke around it. Cook on Manual/High pressure for 70 minutes. When timer beeps, allow the pot to naturally release pressure, about 15 minutes longer. Remove lid and shred the meat.",
   "instructions_list": [
     "Trim pork of excess fat and cut into 4 pieces.",
     "Combine spices in a small bowl and rub all over the pork. (This can be done the night before).",
@@ -37,16 +36,16 @@
   "ratings": 4.99,
   "ratings_count": 744,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "310 kcal",
-    "carbohydrateContent": "9 g",
-    "proteinContent": "36 g",
     "fatContent": "13 g",
     "saturatedFatContent": "5 g",
-    "cholesterolContent": "124 mg",
+    "carbohydrateContent": "9 g",
+    "sugarContent": "7 g",
+    "proteinContent": "36 g",
     "sodiumContent": "554 mg",
     "fiberContent": "1 g",
-    "sugarContent": "7 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "124 mg"
   },
   "image": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/05/Pulled-Pork-5.jpg",
   "keywords": [

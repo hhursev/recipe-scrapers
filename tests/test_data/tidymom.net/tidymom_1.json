@@ -19,7 +19,6 @@
     "1½ cup chopped or shredded cooked chicken *(see notes)",
     "4 slices of bacon, cooked and crumbled *(see notes)"
   ],
-  "instructions": "Preheat oven to 425° F\nPut the pizza crust on a pizza pan or pizza peel. Using a pastry brush, lightly brush the entire crust with olive oil and season with Italian seasoning and garlic powder.\nEvenly spread ranch dressing over the crust.\nSprinkle with cheese then top with chicken, tomatoes, green onions, and bacon crumbs.\nPlace the pizza* in the oven for 15-20 minutes or until cheese is melted and crust is golden. Let rest for several minutes, then cut and serve.",
   "instructions_list": [
     "Preheat oven to 425° F",
     "Put the pizza crust on a pizza pan or pizza peel. Using a pastry brush, lightly brush the entire crust with olive oil and season with Italian seasoning and garlic powder.",
@@ -35,18 +34,18 @@
   "prep_time": 10,
   "cuisine": "American",
   "nutrients": {
-    "calories": "485 calories",
-    "carbohydrateContent": "36 grams carbohydrates",
-    "cholesterolContent": "61 milligrams cholesterol",
-    "fatContent": "29 grams fat",
-    "fiberContent": "2 grams fiber",
-    "proteinContent": "20 grams protein",
-    "saturatedFatContent": "10 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "893 milligrams sodium",
-    "sugarContent": "3 grams sugar",
+    "calories": "485 calories",
+    "fatContent": "29 grams fat",
+    "saturatedFatContent": "10 grams saturated fat",
+    "unsaturatedFatContent": "17 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "17 grams unsaturated fat"
+    "carbohydrateContent": "36 grams carbohydrates",
+    "sugarContent": "3 grams sugar",
+    "proteinContent": "20 grams protein",
+    "sodiumContent": "893 milligrams sodium",
+    "fiberContent": "2 grams fiber",
+    "cholesterolContent": "61 milligrams cholesterol"
   },
   "image": "https://tidymom.net/blog/wp-content/uploads/2021/04/chicken-bacon-ranch-pizza-pic-480x480.jpg"
 }

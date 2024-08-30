@@ -52,7 +52,6 @@
       "purpose": "For the Crumb Topping"
     }
   ],
-  "instructions": "Prep: Heat the oven to 360°F. Grease and line a 9x5 inch loaf pan.\nMake topping: For the crumb topping, place the flour, brown sugar and cinnamon in a medium bowl. Rub in the butter with your fingertips until crumbs form. Refrigerate until ready to use.\nCombine dry ingredients: Add all dry ingredients to a large mixing bowl. Stir together until well combined.\nCombine wet ingredients: Stir together all wet ingredients in a separate large measuring jug until well combined.\nAssemble bread: Pour wet into dry ingredients and fold together just until flour is moistened (a few lumps are fine). Place the batter in the prepared loaf tin and evenly sprinkle with the crumb topping.\nBake the banana bread: Bake for around 50-60 minutes, or until a toothpick inserted comes out clean. Cool in the pan for 10 minutes, then remove to a wire cooling tray to cool completely (remember to peel off the parchment paper, too!)",
   "instructions_list": [
     "Prep: Heat the oven to 360°F. Grease and line a 9x5 inch loaf pan.",
     "Make topping: For the crumb topping, place the flour, brown sugar and cinnamon in a medium bowl. Rub in the butter with your fingertips until crumbs form. Refrigerate until ready to use.",
@@ -78,17 +77,20 @@
     "spatula"
   ],
   "nutrients": {
+    "servingSize": "1 slice",
     "calories": "291 kcal",
-    "carbohydrateContent": "44 g",
-    "proteinContent": "4 g",
     "fatContent": "11 g",
     "saturatedFatContent": "3 g",
-    "cholesterolContent": "37 mg",
+    "carbohydrateContent": "44 g",
+    "sugarContent": "23 g",
+    "proteinContent": "4 g",
     "sodiumContent": "100 mg",
     "fiberContent": "2 g",
-    "sugarContent": "23 g",
-    "servingSize": "1 slice"
+    "cholesterolContent": "37 mg"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://www.savorynothings.com/wp-content/uploads/2019/08/cinnamon-crunch-banana-bread-image-sq.jpg",
   "keywords": [
     "banana",

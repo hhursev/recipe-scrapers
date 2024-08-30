@@ -22,7 +22,6 @@
     "1/2 cup unsalted butter, melted",
     "1 1/2 teaspoons vanilla extract"
   ],
-  "instructions": "Preheat the pizzelle press according to manufacturers instructions. In a bowl whisk together the flour, baking powder and salt.\nIn the bowl of a stand mixer or using a hand held mixer beat the eggs for about a minute. Gradually pour in the sugar, beating until smooth. Add in the vanilla and with the mixer on, slowly pour in the melted butter.\nBeat on medium speed for another minute and then add in the dry ingredients. Beat just until combined, scraping down the sides of the bowl as needed.\nOnce the pizzelle press is hot use a 2 teaspoon size cookie scoop and drop the dough in the center of the cookie grid. Close the lid and lock or press down gently depending on your pizzelle press. Bake for about 30-45 seconds then remove the cookies onto a wire cooling rack. Continue the process until all of the dough is gone.\nFor the chocolate pizzelles the process is the same except that you will whisk the cocoa powder in with the flour, salt and baking powder.",
   "instructions_list": [
     "Preheat the pizzelle press according to manufacturers instructions. In a bowl whisk together the flour, baking powder and salt.",
     "In the bowl of a stand mixer or using a hand held mixer beat the eggs for about a minute. Gradually pour in the sugar, beating until smooth. Add in the vanilla and with the mixer on, slowly pour in the melted butter.",
@@ -39,19 +38,22 @@
   "ratings": 4.6,
   "ratings_count": 13,
   "nutrients": {
-    "calories": "71 calories",
-    "carbohydrateContent": "9 grams carbohydrates",
-    "cholesterolContent": "23 milligrams cholesterol",
-    "fatContent": "3 grams fat",
-    "fiberContent": "0 grams fiber",
-    "proteinContent": "1 grams protein",
-    "saturatedFatContent": "2 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "50 grams sodium",
-    "sugarContent": "4 grams sugar",
+    "calories": "71 calories",
+    "fatContent": "3 grams fat",
+    "saturatedFatContent": "2 grams saturated fat",
+    "unsaturatedFatContent": "1 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "1 grams unsaturated fat"
+    "carbohydrateContent": "9 grams carbohydrates",
+    "sugarContent": "4 grams sugar",
+    "proteinContent": "1 grams protein",
+    "sodiumContent": "50 grams sodium",
+    "fiberContent": "0 grams fiber",
+    "cholesterolContent": "23 milligrams cholesterol"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://reciperunner.com/wp-content/uploads/2014/12/Vanilla-Chocolate-Pizzelles-Pic-720x720.jpg",
   "keywords": [
     "cookies",

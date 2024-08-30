@@ -18,7 +18,6 @@
     "1 teaspoon salt",
     "1/2 teaspoon black pepper"
   ],
-  "instructions": "In a small mixing bowl, mix the bread crumbs, parmesan cheese, minced garlic, olive oil, basil, parsley, oregano, dill, salt, and black pepper. Mix well.\nSlice your tomatoes in half, and top with the breadcrumb mixture. Set into the air fryer at 330 degrees F, air fryer sitting for 6 to 10 minutes, or until the tomatoes are perfectly roasted.\nPlate, serve, and enjoy!",
   "instructions_list": [
     "In a small mixing bowl, mix the bread crumbs, parmesan cheese, minced garlic, olive oil, basil, parsley, oregano, dill, salt, and black pepper. Mix well.",
     "Slice your tomatoes in half, and top with the breadcrumb mixture. Set into the air fryer at 330 degrees F, air fryer sitting for 6 to 10 minutes, or until the tomatoes are perfectly roasted.",
@@ -41,15 +40,15 @@
   "nutrients": {
     "servingSize": "1 Serving",
     "calories": "126 kcal",
-    "carbohydrateContent": "17 g",
-    "proteinContent": "5 g",
     "fatContent": "5 g",
     "saturatedFatContent": "1 g",
-    "cholesterolContent": "3 mg",
+    "unsaturatedFatContent": "3 g",
+    "carbohydrateContent": "17 g",
+    "sugarContent": "4 g",
+    "proteinContent": "5 g",
     "sodiumContent": "591 mg",
     "fiberContent": "2 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "3 g"
+    "cholesterolContent": "3 mg"
   },
   "image": "https://forktospoon.com/wp-content/uploads/2023/06/air-fryer-parmesan-tomatoes.png",
   "keywords": [

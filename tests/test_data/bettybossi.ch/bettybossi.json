@@ -23,7 +23,6 @@
     "2 c.s. de liqueur au cassis ou de sirop de cassis",
     "1 citron bio, zeste râpé"
   ],
-  "instructions": "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.\nBien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.\nBien égoutter les myrtilles et mixer les myrtilles avec le reste des ingrédients, étaler sur le fond de petits-beurre, répartir dessus l’appareil au fromage frais.\nCuisson: env. 50 min dans la moitié inférieure du four préchauffé à 180° C. Laisser tiédir ensuite env. 1 h dans le four éteint, en maintenant la porte entrouverte avec le manche d’une spatule en bois. Retirer, laisser refroidir sur une grille. Ôter le bord du moule.",
   "instructions_list": [
     "Écraser les biscuits dans un sachet en plastique à l’aide d’un rouleau à pâtisserie, mélanger avec le beurre. Répartir sur le fond du moule préparé, bien tasser avec le dos d’une cuillère ou le fond d’un verre, réserver au frais.",
     "Bien mélanger au fouet le fromage frais, le mascarpone et le séré. Incorporer les œufs et tous les ingrédients, farine comprise.",
@@ -40,12 +39,15 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
+    "servingSize": "30 parts",
     "calories": "135 kcal",
     "fatContent": "9 g",
     "carbohydrateContent": "12 g",
-    "proteinContent": "3 g",
-    "servingSize": "30 parts"
+    "proteinContent": "3 g"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://www.bettybossi.ch/rdbimg/bb_blub160501_0070a/bb_blub160501_0070a_r01_v005_x0010.jpg",
   "keywords": [
     "biscuits au beurre",

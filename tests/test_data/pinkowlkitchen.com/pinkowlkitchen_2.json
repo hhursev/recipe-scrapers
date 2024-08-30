@@ -33,7 +33,6 @@
       "purpose": "Coffee"
     }
   ],
-  "instructions": "Add the cream, milk, malted milk powder, vanilla syrup, and cocoa powder to a large cup or glass. Use a handheld milk frother to beat the mixture until it doubles in volume and becomes light and frothy. Set aside.\nFill a tall glass with ice and pour the cold brew over the ice. Add the vanilla syrup, being careful to leave about an inch or so at the top of the glass to accommodate the cold foam.\nPour the chocolate cold foam over the coffee and enjoy!",
   "instructions_list": [
     "Add the cream, milk, malted milk powder, vanilla syrup, and cocoa powder to a large cup or glass. Use a handheld milk frother to beat the mixture until it doubles in volume and becomes light and frothy. Set aside.",
     "Fill a tall glass with ice and pour the cold brew over the ice. Add the vanilla syrup, being careful to leave about an inch or so at the top of the glass to accommodate the cold foam.",
@@ -48,16 +47,16 @@
   "ratings": 4.94,
   "ratings_count": 16,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "200 kcal",
-    "carbohydrateContent": "20.8 g",
-    "proteinContent": "2.6 g",
     "fatContent": "12.6 g",
     "saturatedFatContent": "7.8 g",
-    "cholesterolContent": "46 mg",
+    "carbohydrateContent": "20.8 g",
+    "sugarContent": "18.8 g",
+    "proteinContent": "2.6 g",
     "sodiumContent": "43 mg",
     "fiberContent": "0.6 g",
-    "sugarContent": "18.8 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "46 mg"
   },
   "image": "https://pinkowlkitchen.com/wp-content/uploads/2022/06/chocolate-cream-cold-brew-featured-image.jpg",
   "keywords": [

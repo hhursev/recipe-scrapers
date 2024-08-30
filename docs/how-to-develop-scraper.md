@@ -178,7 +178,6 @@ The generated json file will look something like this, with only the host field 
     "language": "",
     "title": "",
     "ingredients": "",
-    "instructions": "",
     "instructions_list": "",
     "total_time": "",
     "yields": "",

@@ -325,3 +325,20 @@ def get_abstract_methods():
         and name not in {"links", "to_json"}  # ... and not excluded as special-cases.
         or name == "host"  # ... explicitly include the `host` method.
     ]
+
+
+def get_nutrition_keys():
+    return [
+        "servingSize",
+        "calories",
+        "fatContent",
+        "saturatedFatContent",
+        "unsaturatedFatContent",
+        "transFatContent",
+        "carbohydrateContent",
+        "sugarContent",
+        "proteinContent",
+        "sodiumContent",
+        "fiberContent",
+        "cholesterolContent",
+    ]

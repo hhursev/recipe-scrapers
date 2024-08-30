@@ -20,7 +20,6 @@
     "additional kosher salt, to taste",
     "1 baguette, (sliced and toasted for serving)"
   ],
-  "instructions": "In a large skillet, heat the olive oil over medium-high heat.\nAdd the shallot and saute for 4-5 minutes. Add the garlic and thyme, and saute for an additional minute.\nAdd the tomatoes, figs, salt, and pepper. Cover and saute for about 10-12 minutes undisturbed.\nRemove the lid, add the balsamic vinegar, then stir. Reduce heat to medium and continue to saute until any excess liquid has cooked off, stirring occasionally.\nRemove the skillet from heat and let the tomatoes and figs rest for about 8-10 minutes to cool the skillet slightly.\nPlace the burrata on top of the tomatoes and figs. Garnish with fresh basil and kosher salt.\nServe with toasted baguette, sourdough, or your favorite dipping bread!",
   "instructions_list": [
     "In a large skillet, heat the olive oil over medium-high heat.",
     "Add the shallot and saute for 4-5 minutes. Add the garlic and thyme, and saute for an additional minute.",
@@ -38,17 +37,17 @@
   "prep_time": 5,
   "cuisine": "Italian,Italian American",
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "282 kcal",
-    "carbohydrateContent": "22 g",
-    "proteinContent": "13 g",
     "fatContent": "19 g",
     "saturatedFatContent": "9 g",
-    "cholesterolContent": "40 mg",
+    "unsaturatedFatContent": "4 g",
+    "carbohydrateContent": "22 g",
+    "sugarContent": "6 g",
+    "proteinContent": "13 g",
     "sodiumContent": "345 mg",
     "fiberContent": "2 g",
-    "sugarContent": "6 g",
-    "unsaturatedFatContent": "4 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "40 mg"
   },
   "image": "https://therecipecritic.com/wp-content/uploads/2023/07/burrata-appetizer.jpg",
   "keywords": [

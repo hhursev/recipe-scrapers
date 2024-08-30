@@ -22,7 +22,6 @@
     "1/2 teaspoon pepper",
     "1/2 cup buffalo wing sauce"
   ],
-  "instructions": "In a large stockpot or dutch oven, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.\nAdd ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.\nAdd water, tomatoes, beans, chili powder, cumin, bay leaf, buffalo sauce, and salt & pepper. Bring to a simmer.\nCover and allow chili to cook for at least 15 minutes, simmering to desired thickness.\nBefore serving, remove bay leaf and adjust seasoning with salt & pepper, to taste.",
   "instructions_list": [
     "In a large stockpot or dutch oven, heat olive oil to medium-high. Add the bell pepper, onion, celery and garlic. Sauté until onions are translucent, about 5 minutes.",
     "Add ground chicken. Breaking up the meat as chicken browns, cook until no longer pink, about 5 minutes.",
@@ -43,14 +42,14 @@
   "nutrients": {
     "servingSize": "1 bowl",
     "calories": "203 calories",
-    "sugarContent": "2.5 g",
-    "sodiumContent": "620.6 mg",
     "fatContent": "12.2 g",
     "saturatedFatContent": "3.3 g",
     "transFatContent": "0 g",
     "carbohydrateContent": "8.6 g",
-    "fiberContent": "1.4 g",
+    "sugarContent": "2.5 g",
     "proteinContent": "15.8 g",
+    "sodiumContent": "620.6 mg",
+    "fiberContent": "1.4 g",
     "cholesterolContent": "63 mg"
   },
   "image": "https://www.simplywhisked.com/wp-content/uploads/2016/02/Buffalo-Chicken-Chili-4-1-225x225.jpg",

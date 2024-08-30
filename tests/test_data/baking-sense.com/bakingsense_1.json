@@ -45,7 +45,6 @@
       "purpose": "Buttermilk Glaze"
     }
   ],
-  "instructions": "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.\nMake the batter\nWhisk together the eggs, yolks, vanilla and the discard, set aside.\nSift the flour, sugar, baking powder and salt into a mixer bowl. Mix on low speed to combine the dry ingredients. With the mixer running, toss the chunks of butter into the flour mixture.\nAdd the buttermilk and increase the speed to medium. Mix on medium high for 2 minutes to aerate the batter. Scrape the bowl and beater.\nAdd the egg mixture in 3 batches, scraping the bowl between each addition. Pour the batter into the prepared pan.\nBake until the cake springs back when lightly pressed or a toothpick inserted into the center comes out clean, about 40 minutes.\nCool for 10 minutes in the pan. Invert the cake onto a cooling rack set over a clean sheet pan. Cool until slightly warm before glazing.\nMake the Glaze\nCombine the sugar, vanilla and buttermilk in a small bowl and whisk until smooth.\nPour the glaze over the still slightly warm cake. You can scoop up the glaze from the sheet pan and use it to fill in any gaps in the glaze or leave it with the drips.\nCool completely and allow the glaze to set. Transfer to a serving plate.",
   "instructions_list": [
     "Preheat the oven to 350°F. Generously butter and flour a 12 cup Bundt pan.",
     "Make the batter",
@@ -77,18 +76,18 @@
     "Half Sheet Pans"
   ],
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "247 kcal",
-    "sodiumContent": "148 mg",
-    "sugarContent": "20 g",
-    "fiberContent": "1 g",
-    "cholesterolContent": "69 mg",
-    "transFatContent": "1 g",
-    "saturatedFatContent": "6 g",
     "fatContent": "10 g",
-    "proteinContent": "4 g",
-    "carbohydrateContent": "49 g",
+    "saturatedFatContent": "6 g",
     "unsaturatedFatContent": "4 g",
-    "servingSize": "1 serving"
+    "transFatContent": "1 g",
+    "carbohydrateContent": "49 g",
+    "sugarContent": "20 g",
+    "proteinContent": "4 g",
+    "sodiumContent": "148 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "69 mg"
   },
   "image": "https://www.baking-sense.com/wp-content/uploads/2020/05/sourdough-bundt-9a.jpg",
   "keywords": [

@@ -52,7 +52,6 @@
       "purpose": "Strawberry Topping"
     }
   ],
-  "instructions": "Shortcake\nPreheat oven to 400℉ and set aside a non stick 13x10 sheet pan.\nIf using a food processor, add flour, sugar, baking powder, and salt in food processor. Pulse briefly to combine. Add cold butter to food processor and pulse briefly several times until butter is combined with flour and mixture resembles coarse sand. Transfer mixture to mixing bowl and stir in eggs, heavy whipping cream, and vanilla extract. Stir just until combined.\nTransfer shortcake dough to sheet pan and use slightly damp hand to spread dough evenly on sheet pan. Use a spoor or spatula to smooth dough.\nBake for 20-25 minutes until shortcake is golden brown. Remove and let cool completely.\nWhipped Cream\nIn a large bowl, use an electric mixer to beat heavy whipping cream and powdered sugar together until soft peaks form. Do not over beat. You can also use a stand mixer with a whisk attachment.\nStrawberry Topping\nSlice strawberries and mix with sugar and lemon juice.\nTo Assemble Strawberry Shortcake\nLet shortcake cool, then top with whipped cream, followed by strawberries. Serve immediately for best results.",
   "instructions_list": [
     "Shortcake",
     "Preheat oven to 400℉ and set aside a non stick 13x10 sheet pan.",
@@ -76,18 +75,18 @@
   "ratings": 5.0,
   "ratings_count": 3,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "652 kcal",
-    "carbohydrateContent": "57 g",
-    "proteinContent": "8 g",
     "fatContent": "45 g",
     "saturatedFatContent": "28 g",
+    "unsaturatedFatContent": "14 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "158 mg",
+    "carbohydrateContent": "57 g",
+    "sugarContent": "26 g",
+    "proteinContent": "8 g",
     "sodiumContent": "134 mg",
     "fiberContent": "3 g",
-    "sugarContent": "26 g",
-    "unsaturatedFatContent": "14 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "158 mg"
   },
   "image": "https://www.number-2-pencil.com/wp-content/uploads/2023/05/Sheet-Pan-Strawberry-Shortcake-7.jpg",
   "keywords": [

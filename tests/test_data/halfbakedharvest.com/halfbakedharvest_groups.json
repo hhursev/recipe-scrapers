@@ -59,7 +59,6 @@
       "purpose": "Salad"
     }
   ],
-  "instructions": "1. To make the dressing. Combine all ingredients in a large salad bowl. Season with salt and pepper.2. Bring a pot of salted water to a boil. Boil the pasta to al dente, according to package directions. Drain. Immediately toss with the dressing. Add the lettuce, corn, cheddar, basil, cilantro, and avocado. Toss to combine. 3. In a skillet, melt the butter until golden. Mix in the chili powder, paprika, cayenne, and a pinch of salt. Cook another minute, then remove from the heat.4. Mix the mayo or yogurt with lime juice with a pinch of salt.5. Serve the pasta warm or cold, topped with lime mayo and chili butter. The salad will develop more flavor as it sits.",
   "instructions_list": [
     "1. To make the dressing. Combine all ingredients in a large salad bowl. Season with salt and pepper.2. Bring a pot of salted water to a boil. Boil the pasta to al dente, according to package directions. Drain. Immediately toss with the dressing. Add the lettuce, corn, cheddar, basil, cilantro, and avocado. Toss to combine. 3. In a skillet, melt the butter until golden. Mix in the chili powder, paprika, cayenne, and a pinch of salt. Cook another minute, then remove from the heat.4. Mix the mayo or yogurt with lime juice with a pinch of salt.5. Serve the pasta warm or cold, topped with lime mayo and chili butter. The salad will develop more flavor as it sits."
   ],
@@ -73,9 +72,12 @@
   "ratings": 4.8,
   "ratings_count": 58,
   "nutrients": {
-    "calories": "473 kcal",
-    "servingSize": "1 serving"
+    "servingSize": "1 serving",
+    "calories": "473 kcal"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://www.halfbakedharvest.com/wp-content/uploads/2023/08/Street-Corn-Pasta-Salad-1.jpg",
   "keywords": [
     "30 minute meal",

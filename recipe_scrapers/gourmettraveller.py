@@ -10,12 +10,6 @@ class GourmetTraveller(AbstractScraper):
     def host(cls):
         return "gourmettraveller.com.au"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         recipe_category_span = self.soup.find(
             "span", {"class": "related-tags__label"}, string=re.compile("Recipe Course")
@@ -24,21 +18,6 @@ class GourmetTraveller(AbstractScraper):
             return None
         value = recipe_category_span.find_next_sibling("span")
         return normalize_string(value.text)
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         group_heading_divs = self.soup.find_all(
@@ -57,15 +36,6 @@ class GourmetTraveller(AbstractScraper):
                 ingredients.remove(group_heading)
 
         return ingredients
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
 
     def ingredient_groups(self):
         return group_ingredients(

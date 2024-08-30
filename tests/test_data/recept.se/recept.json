@@ -14,7 +14,6 @@
     "2 msk starkt kaffe, typ espresso",
     "2 dl pärlsocker eller kokosflingor"
   ],
-  "instructions": "Rör smör, socker, kakao och vaniljsocker poröst. Gärna med en elvisp eller köksassistent.\nTillsätt resterande ingredienser och arbeta ihop till en jämn smet med händerna.\nJag kyler aldrig kaffet. Jag bereder det när jag börjar vispa smör och socker och tillsätter det ljummet.\nLåt smeten stå i 15 minuter så den sväller lite.\nRulla bollar av smeten och rulla sedan dessa i pärlsocker eller kokosflingor.\nStäll i kyl för att stelna, men låt gärna rumstempereras innan servering.",
   "instructions_list": [
     "Rör smör, socker, kakao och vaniljsocker poröst. Gärna med en elvisp eller köksassistent.",
     "Tillsätt resterande ingredienser och arbeta ihop till en jämn smet med händerna.",
@@ -31,12 +30,15 @@
   "ratings": 4.4,
   "ratings_count": 197,
   "nutrients": {
+    "servingSize": "1 styck",
     "calories": "87424 calories",
-    "carbohydrateContent": "12.6 g",
     "fatContent": "3.7 g",
-    "proteinContent": "0.7 g",
-    "servingSize": "1 styck"
+    "carbohydrateContent": "12.6 g",
+    "proteinContent": "0.7 g"
   },
+  "dietary_restrictions": [
+    "Low Lactose Diet"
+  ],
   "image": "https://images.recept.se/images/recipes/chokladbollar-grundrecept_13868.jpg?fit=crop&crop=focalpoint&auto=format&fp-x=0.5&fp-y=0.56932862497615&fp-z=1&w=1200&h=1200",
   "keywords": [
     "laktosfri",
