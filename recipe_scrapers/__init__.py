@@ -5,6 +5,7 @@ __all__ = (
     "ElementNotFoundInHtml",
     "FieldNotProvidedByWebsiteException",
     "NoSchemaFoundInWildMode",
+    "RecipeSchemaNotFound",
     "StaticValueException",
     "WebsiteNotImplementedError",
     "scrape_html",
@@ -26,6 +27,7 @@ from ._exceptions import (
     ElementNotFoundInHtml,
     FieldNotProvidedByWebsiteException,
     NoSchemaFoundInWildMode,
+    RecipeSchemaNotFound,
     StaticValueException,
     WebsiteNotImplementedError,
 )
