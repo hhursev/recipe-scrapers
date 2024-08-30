@@ -10,6 +10,3 @@ class PurpleCarrot(AbstractScraper):
         home_link = self.soup.find("a", {"href": "/", "title": True})
         if home_link:
             return home_link["title"]
-
-    def nutrients(self):
-        return self.schema.nutrients()

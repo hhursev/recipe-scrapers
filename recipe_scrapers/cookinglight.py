@@ -1,14 +1,11 @@
 from ._abstract import AbstractScraper
-from ._utils import get_yields, normalize_string
+from ._utils import normalize_string
 
 
 class CookingLight(AbstractScraper):
     @classmethod
     def host(cls):
         return "cookinglight.com"
-
-    def yields(self):
-        return get_yields(self.schema.yields())
 
     def ingredients(self):
         ingredients = self.soup.find("div", {"class": "ingredients"}).ul.findAll("li")

@@ -13,9 +13,6 @@ class Bakels(AbstractScraper):
     def title(self):
         return self.soup.find("h1").get_text()
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         div = self.soup.find("div", id="tab-ingredients_1")
         if not div:
