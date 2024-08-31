@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from .marleyspoon import MarleySpoon
+
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -490,6 +492,7 @@ SCRAPERS = {
     KuchynaLidla.host(): KuchynaLidla,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
+    MarleySpoon.host(): MarleySpoon,
     McCormick.host(): McCormick,
     ModernHoney.host(): ModernHoney,
     MomOnTimeout.host(): MomOnTimeout,

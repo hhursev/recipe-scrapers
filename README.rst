@@ -268,6 +268,8 @@ Scrapers available for:
 - `https://www.maangchi.com <https://www.maangchi.com>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
+- `https://marleyspoon.de/ <https://marleyspoon.de/>`_ (*)
+    - `.at <https://marleyspoon.at/>`__, `.nl <https://marleyspoon.nl/>`__, `.be <https://marleyspoon.be/>`__, `.com <https://marleyspoon.com/>`__, `.com.au <https://marleyspoon.com.au/>`__
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
