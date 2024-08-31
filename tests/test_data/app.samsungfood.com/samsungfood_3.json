@@ -1,0 +1,23 @@
+{
+  "author": "tomtjes",
+  "host": "app.samsungfood.com",
+  "language": "en",
+  "title": "Test 3",
+  "canonical_url": "https://app.samsungfood.com/recipes/1070191a56ce4467d7e80c68f1902512270",
+  "ingredients": [
+    "peas",
+    "mint"
+  ],
+  "ingredient_goups": [
+    {
+      "ingredients": [
+        "peas",
+        "mint"
+      ]
+    }
+  ],
+  "instructions_list": [
+    "make mush"
+  ],
+  "yields": "1 serving"
+}
