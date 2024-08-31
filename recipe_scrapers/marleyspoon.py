@@ -1,7 +1,17 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import RecipeScrapersExceptions
 from ._utils import get_minutes, normalize_string
+
+
+class UnsupportedLocale(RecipeScrapersExceptions):
+    """No support for selected locale of this website"""
+
+    def __init__(self, lang):
+        self.lang = lang
+        message = f'Selected locale "{self.lang}" is not supported.'
+        super().__init__(message)
 
 
 class MarleySpoon(AbstractScraper):
@@ -21,29 +31,89 @@ class MarleySpoon(AbstractScraper):
         )
 
     def _specs(self):
-        return self.soup.find("ul", {"class": "recipe-specs"}).find_all("li")
+        vocab = {
+            "de": {
+                "time": "Dauer",
+                "category": "Schwierigkeitsgrad",
+                "nutrients": "Nährwertangaben",
+            },
+            "nl": {
+                "time": "Bereidingstijd",
+                "category": "Niveau",
+                "nutrients": "Voedingswaarde",
+            },
+            "en": {
+                "time": "Serving Time",
+                "category": "Level",
+                "nutrients": "Nutrition",
+            },
+        }
+
+        self.locale = self.language()[:2]
+        if self.locale not in vocab.keys():
+            raise UnsupportedLocale(self.locale)
+
+        recipe_specs = self.soup.find("ul", {"class": "recipe-specs"})
+
+        time_label = recipe_specs.find("label", string=vocab[self.locale]["time"])
+        category_label = recipe_specs.find(
+            "label", string=vocab[self.locale]["category"]
+        )
+        nutrients_pattern = "^{}.*$".format(vocab[self.locale]["nutrients"])
+        nutrients_label = recipe_specs.find(
+            "label", string=re.compile(nutrients_pattern)
+        )
+
+        time_info = time_label.find_next_sibling("p").get_text()
+        category_info = category_label.find_next_sibling("p").get_text()
+        nutrients_info = nutrients_label.find_next_sibling("p").get_text()
+
+        return time_info, category_info, nutrients_info
 
     def total_time(self):
-        time = self._specs()[0].find_next("span").get_text()
-        return get_minutes(re.sub(r" \S$| ", "", time))
+        return get_minutes(self._specs()[0])
 
     def category(self):
-        return normalize_string(self._specs()[1].find_next("span").get_text())
+        return normalize_string(self._specs()[1])
 
     def nutrients(self):
-        nutrients = self._specs()[2].find_next("p").get_text()
-        nutrients = nutrients.split(",")
-        nutrients = [nutrient.split()[1] for nutrient in nutrients]
-        nutrients = {
-            "calories": nutrients[0] + " calories",
-            "fatContent": nutrients[1] + " grams fat",
-            "proteinContent": nutrients[2] + " grams protein",
-            "carbohydrateContent": nutrients[3] + " grams carbohydrates",
+        nutrients = {}
+
+        vocab = {
+            "calories": {
+                "de": "Kalorien",
+                "nl": "Calorieën",
+                "en": "Calories",
+                "unit": "calories",
+            },
+            "fatContent": {"de": "Fett", "nl": "Vet", "en": "Fat", "unit": "grams fat"},
+            "proteinContent": {
+                "de": "Eiweiß",
+                "nl": "Eiwit",
+                "en": "Proteins",
+                "unit": "grams protein",
+            },
+            "carbohydrateContent": {
+                "de": "Kohlenhydrate",
+                "nl": "Koolhydraten",
+                "en": "Carbs",
+                "unit": "grams carbohydrates",
+            },
         }
+
+        nutrients_info = self._specs()[2].split(",")
+        for nutrient in nutrients_info:
+            for key, value in vocab.items():
+                if self.locale not in value.keys():
+                    raise UnsupportedLocale(self.locale)
+                if value[self.locale] in nutrient:
+                    nutrients[key] = (
+                        re.search(r"[\d.]+", nutrient).group() + " " + value["unit"]
+                    )
         return nutrients
 
     def image(self):
-        return self.schema.image()
+        return self.soup.find("meta", property="og:image")["content"]
 
     def ingredients(self):
         send = self.soup.find("div", {"class": "dish-detail__we-send"}).find_all("div")
