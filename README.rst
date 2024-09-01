@@ -168,6 +168,7 @@ Scrapers available for:
 - `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
     - `.de <https://eatsmarter.de/>`__
+- `https://eatthismuch.com/ <https://eatthismuch.com/>`_
 - `https://eattolerant.de/ <https://eattolerant.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_

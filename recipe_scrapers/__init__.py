@@ -117,6 +117,7 @@ from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
 from .eatliverun import EatLiveRun
 from .eatsmarter import Eatsmarter
+from .eatthismuch import EatThisMuch
 from .eattolerant import EatTolerant
 from .eatwell101 import EatWell101
 from .eatwhattonight import EatWhatTonight
@@ -470,6 +471,7 @@ SCRAPERS = {
     Dishnz.host(): Dishnz,
     DobruChutAktualitySK.host(): DobruChutAktualitySK,
     EatLiveRun.host(): EatLiveRun,
+    EatThisMuch.host(): EatThisMuch,
     ElaVegan.host(): ElaVegan,
     EvolvingTable.host(): EvolvingTable,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
