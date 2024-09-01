@@ -111,6 +111,7 @@ from .dinnerthendessert import DinnerThenDessert
 from .dishnz import Dishnz
 from .dobruchutaktualitysk import DobruChutAktualitySK
 from .domesticateme import DomesticateMe
+from .donalskehan import DonalSkehan
 from .downshiftology import Downshiftology
 from .dr import Dr
 from .eatingbirdfood import EatingBirdFood
@@ -470,6 +471,7 @@ SCRAPERS = {
     DinnerThenDessert.host(): DinnerThenDessert,
     Dishnz.host(): Dishnz,
     DobruChutAktualitySK.host(): DobruChutAktualitySK,
+    DonalSkehan.host(): DonalSkehan,
     EatLiveRun.host(): EatLiveRun,
     EatThisMuch.host(): EatThisMuch,
     ElaVegan.host(): ElaVegan,

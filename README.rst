@@ -161,6 +161,7 @@ Scrapers available for:
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://dobruchut.aktuality.sk/ <https://dobruchut.aktuality.sk>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
+- `https://donalskehan.com/ <https://donalskehan.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
