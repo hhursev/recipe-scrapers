@@ -107,9 +107,9 @@ class MarleySpoon(AbstractScraper):
                 if self.locale not in value.keys():
                     raise UnsupportedLocale(self.locale)
                 if value[self.locale] in nutrient:
-                    nutrients[key] = (
-                        re.search(r"[\d.]+", nutrient).group() + " " + value["unit"]
-                    )
+                    amount = re.search(r"[\d.]+", nutrient).group()
+                    unit = value["unit"]
+                    nutrients[key] = amount + " " + unit
         return nutrients
 
     def image(self):
