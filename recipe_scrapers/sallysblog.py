@@ -1,8 +1,4 @@
-from urllib.parse import unquote
-
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
-from ._utils import get_minutes, normalize_string
 
 
 class SallysBlog(AbstractScraper):
