@@ -2,7 +2,7 @@ import re
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
+from ._utils import get_minutes
 
 
 class Tofoo(AbstractScraper):
@@ -14,49 +14,56 @@ class Tofoo(AbstractScraper):
         return "The Tofoo co."
 
     def title(self):
-        return self.soup.find(
-            "h1", {"class": "recipe-detail__title h3 blue"}
-        ).get_text()
+        return self.soup.find("div", {"class": "hero__content"}).find("h1").get_text()
 
-    def category(self):
-        category_text = self.soup.find(
-            "div", {"class": "recipe-detail__ins h6"}
-        ).get_text()
-        normalized_category = normalize_string(category_text)
-        return normalized_category
+    def _find_hero_stat(self, label):
+        hero_stats = self.soup.find("ul", {"class": "hero__stats"})
+        if hero_stats:
+            for li in hero_stats.find_all("li"):
+                if re.search(fr"{label}:", li.get_text()):
+                    return li.get_text()
+        return None
 
     def yields(self):
-        desc = self.soup.find("div", {"class": "recipe-detail__desc"}).get_text()
-        match = re.search(r"Serves (\d+)", desc)
-        if match:
-            return int(match.group(1))
+        serves_text = self._find_hero_stat("Serves")
+        if serves_text:
+            match = re.search(r"Serves:\s*(\d+)", serves_text)
+            if match:
+                return int(match.group(1))
+        return None
+
+    def prep_time(self):
+        prep_text = self._find_hero_stat("Prep")
+        return get_minutes(prep_text) if prep_text else 0
+
+    def cook_time(self):
+        cook_text = self._find_hero_stat("Cooking")
+        return get_minutes(cook_text) if cook_text else 0
 
     def total_time(self):
-        desc = self.soup.find("div", {"class": "recipe-detail__desc"}).get_text()
-
-        prep_time_match = re.search(r"Prep (\d+) min", desc)
-        cooking_time_match = re.search(r"Cooking (\d+) min", desc)
-
-        prep_time = int(prep_time_match.group(1)) if prep_time_match else 0
-        cooking_time = int(cooking_time_match.group(1)) if cooking_time_match else 0
-
-        return prep_time + cooking_time  # Return the summed time in minutes
+        return self.prep_time() + self.cook_time()
 
     def ingredients(self):
-        ingredients_div = self.soup.find("div", {"class": "block-raw-material__body"})
-        ingredients = [li.get_text() for li in ingredients_div.find_all("li")]
-        return ingredients
+        ingredients_div = self.soup.find(
+            "div", {"class": "recipe_details__ingredients"}
+        )
+        return [li.get_text() for li in ingredients_div.find_all("li")]
 
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            ".block-raw-material h5",
-            ".block-raw-material li",
+            ".recipe_details__ingredient h5",
+            ".recipe_details__ingredient li",
         )
 
     def instructions(self):
-        instructions_div = self.soup.find("div", {"class": "sect--do-this__title"})
-        ol = instructions_div.find_next_sibling("ol")
-        instructions = [li.get_text() for li in ol.find_all("li")]
-        return "\n".join(instructions)
+        instructions_div = self.soup.find("div", {"class": "recipe_details__steps"})
+        ol = instructions_div.find("div", {"class": "recipe_details__steps__ol"}).find(
+            "ol"
+        )
+        return "\n".join([li.get_text() for li in ol.find_all("li")])
+
+    def keywords(self):
+        hero_cats = self.soup.find("ul", {"class": "hero__cats"})
+        return [li.get_text() for li in hero_cats.find_all("li")] if hero_cats else []

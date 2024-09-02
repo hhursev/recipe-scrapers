@@ -3,7 +3,7 @@
   "canonical_url": "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/",
   "site_name": "Tofoo",
   "host": "tofoo.co.uk",
-  "language": "en-US",
+  "language": "en-GB",
   "title": "Sticky Sriracha Tofoo",
   "ingredients": [
     "1 pack of Naked Tofoo, cut into cubes",
@@ -52,8 +52,17 @@
     "Whisk all sauce ingredients in a small bowl and add to your Tofoo. Stir and cook for a few mins until all your Tofoo is evenly covered in sticky sauce.",
     "Meanwhile, cook your microwave rice as per the pack instructions and add into bowls before topping with your sticky Sriracha Tofoo. Scatter with spring onion and sesame seeds for the ultimate fakeaway, ready in only 20 mins!"
   ],
-  "category": "Vegans",
   "yields": 2,
   "total_time": 20,
-  "image": "https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled.jpg"
+  "cook_time": 15,
+  "prep_time": 5,
+  "image": "https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg",
+  "keywords": [
+    "Naked",
+    "Beginners",
+    "Dinner",
+    "Fakeaway",
+    "Speedy",
+    "Stir-fry"
+  ]
 }
