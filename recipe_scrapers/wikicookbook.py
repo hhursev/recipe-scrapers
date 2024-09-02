@@ -42,7 +42,7 @@ class WikiCookbook(AbstractScraper):
     def instructions(self):
         instructions_section = self.soup.find("h2", {"id": "Procedure"})
         if not instructions_section:
-            return ""
+            raise ElementNotFoundInHtml(element="//h2[@id='Procedure']")
         instructions = instructions_section.find_next("ol").findAll("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
