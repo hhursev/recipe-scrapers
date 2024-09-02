@@ -1,6 +1,7 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._grouping_utils import group_ingredients
 from ._utils import get_minutes
 
@@ -11,7 +12,7 @@ class Tofoo(AbstractScraper):
         return "tofoo.co.uk"
 
     def author(self):
-        return "The Tofoo co."
+        raise StaticValueException(return_value="The Tofoo co.")
 
     def title(self):
         return self.soup.find("div", {"class": "hero__content"}).find("h1").get_text()
