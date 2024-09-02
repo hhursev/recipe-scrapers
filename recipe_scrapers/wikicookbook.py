@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
+from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
