@@ -50,7 +50,7 @@ class MarleySpoon(AbstractScraper):
             },
         }
 
-        self.locale = self.language()[:2]
+        self.locale = self.language()[:2].lower()
         if self.locale not in vocab.keys():
             raise UnsupportedLocale(self.locale)
 
