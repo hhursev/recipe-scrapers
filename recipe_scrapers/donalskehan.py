@@ -22,18 +22,16 @@ class DonalSkehan(AbstractScraper):
         return self.soup.find("h6", class_="catColour dk-label").get_text()
 
     def total_time(self):
-        total_time_elements = self.soup.find_all("li", class_="list-inline-item mb-2")
-        for element in total_time_elements:
+        recipe_data = self.soup.find_all("li", class_="list-inline-item mb-2")
+        for element in recipe_data:
             if element.find("img", alt="time"):
                 return get_minutes(element.get_text())
 
     def yields(self):
-        yields_element = self.soup.find("li", class_="list-inline-item mb-2")
-        return (
-            get_yields(yields_element.get_text())
-            if yields_element and "serves" in yields_element.get_text().lower()
-            else None
-        )
+        recipe_data = self.soup.find_all("li", class_="list-inline-item mb-2")
+        for element in recipe_data:
+            if "serves" in element.text.lower():
+                return get_yields(element.text)
 
     def image(self):
         image_element = self.soup.find("img", class_="img-fluid shadow")
