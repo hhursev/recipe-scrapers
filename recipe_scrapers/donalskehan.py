@@ -10,7 +10,7 @@ class DonalSkehan(AbstractScraper):
 
     def author(self):
         image_element = self.soup.find("img", class_="img-fluid")
-        return image_element.get("alt") if image_element else "Donal Skehan"
+        return image_element.get("alt")
 
     def site_name(self):
         raise StaticValueException(return_value="Donal Skehan")
