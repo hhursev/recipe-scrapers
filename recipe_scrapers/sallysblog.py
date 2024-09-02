@@ -28,14 +28,14 @@ class SallysBlog(AbstractScraper):
                     {
                         "class": "shop-studio-recipes-recipe-detail-tabs-description-ingredients__content__ingredient-list__ingredient__quantity"
                     },
-                ).text
+                )
                 title = ingredient.find(
                     "span",
                     {
                         "class": "shop-studio-recipes-recipe-detail-tabs-description-ingredients__content__ingredient-list__ingredient__title"
                     },
-                ).text
-                ingredients.append(f"{quantity} {title}")
+                )
+                ingredients.append(f"{quantity.text} {title.text}")
 
         return ingredients
 
