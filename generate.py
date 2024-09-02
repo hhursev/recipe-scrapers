@@ -70,9 +70,7 @@ def init_scraper(class_name):
 def generate_test_data(class_name, host_name, content):
     output = Path(f"tests/test_data/{host_name}/{class_name.lower()}.testhtml")
     with output.open("w", encoding="utf-8") as target:
-        if isinstance(content, bytes):
-            content = content.decode("utf-8")
-        target.write(content)
+        target.write(content.decode(encoding="utf-8"))
 
 
 class ScraperState:
