@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class EatThisMuch(AbstractScraper):
@@ -7,4 +8,4 @@ class EatThisMuch(AbstractScraper):
         return "eatthismuch.com"
 
     def site_name(self):
-        return "Eat This Much"
+        raise StaticValueException(return_value="Eat This Much")

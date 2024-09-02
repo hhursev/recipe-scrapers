@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields
 
 
@@ -12,7 +13,7 @@ class DonalSkehan(AbstractScraper):
         return image_element.get("alt") if image_element else "Donal Skehan"
 
     def site_name(self):
-        return "Donal Skehan"
+        raise StaticValueException(return_value="Donal Skehan")
 
     def title(self):
         return self.soup.find("title").get_text()
