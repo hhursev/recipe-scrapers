@@ -26,7 +26,6 @@ class DonalSkehan(AbstractScraper):
         for element in total_time_elements:
             if element.find("img", alt="time"):
                 return get_minutes(element.get_text())
-        return None
 
     def yields(self):
         yields_element = self.soup.find("li", class_="list-inline-item mb-2")
