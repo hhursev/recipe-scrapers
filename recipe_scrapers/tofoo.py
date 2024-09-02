@@ -20,7 +20,7 @@ class Tofoo(AbstractScraper):
         hero_stats = self.soup.find("ul", {"class": "hero__stats"})
         if hero_stats:
             for li in hero_stats.find_all("li"):
-                if re.search(fr"{label}:", li.get_text()):
+                if re.search(rf"{label}:", li.get_text()):
                     return li.get_text()
         return None
 
