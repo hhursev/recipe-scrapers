@@ -20,12 +20,12 @@ class SamsungFood(AbstractScraper):
         return normalize_string(self.soup.h1.get_text())
 
     def image(self):
-        img = self.soup.find(
-            id="recipe-wrapper"
-        ).next_element.next_element.next_element.next_element.next_element.next_element.img
-        if not img:
+        img = self.soup.find(id="recipe-wrapper").next_element.next_element.find(
+            "img", src=re.compile("user-recipes")
+        )["src"]
+        if not img or img == "":
             raise ElementNotFoundInHtml
-        return img["src"]
+        return img
 
     def description(self):
         try:
@@ -113,14 +113,11 @@ class SamsungFood(AbstractScraper):
         return equipment
 
     def keywords(self):
-        keywords = []
         try:
             key_list = self.soup.find(attrs={"data-testid": "tags"}).children
         except AttributeError:
             return None
-        for key in key_list:
-            keywords.append(normalize_string(key.get_text()))
-        return keywords
+        return [normalize_string(key.get_text()) for key in key_list]
 
     def cook_time(self):
         try:
