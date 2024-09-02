@@ -6,7 +6,7 @@ class GesundAktiv(AbstractScraper):
     @classmethod
     def host(cls):
         return "gesund-aktiv.com"
-  
+
     def author(self):
         return self.site_name()
 
