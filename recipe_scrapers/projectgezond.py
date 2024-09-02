@@ -1,5 +1,3 @@
-import re
-
 from ._abstract import AbstractScraper
 
 
@@ -10,4 +8,3 @@ class ProjectGezond(AbstractScraper):
 
     def author(self):
         return "Project Gezond"
-
