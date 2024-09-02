@@ -9,3 +9,6 @@ class EatThisMuch(AbstractScraper):
 
     def site_name(self):
         raise StaticValueException(return_value="Eat This Much")
+
+    def author(self):
+        raise StaticValueException(return_value="Eat This Much")
