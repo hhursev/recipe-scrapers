@@ -15,7 +15,4 @@ class GesundAktiv(AbstractScraper):
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def author(self):
-        author_tag = self.soup.find("meta", {"property": "og:site_name"})
-        if author_tag:
-            return normalize_string(author_tag.get("content"))
-        return None
+        return self.site_name()
