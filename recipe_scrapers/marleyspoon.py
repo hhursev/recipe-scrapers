@@ -6,11 +6,12 @@ from ._utils import get_minutes, normalize_string
 
 
 class UnsupportedLocale(RecipeScrapersExceptions):
-    """No support for selected locale of this website"""
+    """No support for detected recipe locale on this webpage"""
 
-    def __init__(self, lang):
+    def __init__(self, lang, url):
         self.lang = lang
-        message = f'Selected locale "{self.lang}" is not supported.'
+        self.url = url
+        message = f'Detected recipe locale "{self.lang}" is not supported for url={url}'
         super().__init__(message)
 
 
@@ -49,7 +50,7 @@ class MarleySpoon(AbstractScraper):
             },
         }
 
-        self.locale = self.language()[:2]
+        self.locale = self.language()[:2].lower()
         if self.locale not in vocab.keys():
             raise UnsupportedLocale(self.locale)
 
