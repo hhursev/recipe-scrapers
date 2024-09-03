@@ -102,11 +102,10 @@ class MarleySpoon(AbstractScraper):
                     raise UnsupportedLocale(self.locale)
                 if value[self.locale] in nutrient:
                     amount = re.search(r"\b([\d.,]+)\b", nutrient).group()
-                    if float(amount) != 1:
-                        unit = value["unit"]
-                    else:
+                    unit = value["unit"]
+                    if float(amount) == 1:
                         # remove plural "s"
-                        unit = re.match("^(.*)s$", value["unit"]).group(1)
+                        unit = unit[:-1]
                     nutrients[key] = amount + " " + unit
         return nutrients
 
