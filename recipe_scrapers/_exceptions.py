@@ -77,3 +77,13 @@ class FieldNotProvidedByWebsiteException(StaticValueException):
     """Error when, as far as we know, the website does not provide this info for any recipes."""
 
     ...
+
+
+class UnsupportedLocale(RecipeScrapersExceptions):
+    """No support for detected recipe locale on this webpage"""
+
+    def __init__(self, lang, url):
+        self.lang = lang
+        self.url = url
+        message = f'Detected recipe locale "{self.lang}" is not supported for url={url}'
+        super().__init__(message)

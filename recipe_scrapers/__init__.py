@@ -9,6 +9,7 @@ __all__ = (
     "NoSchemaFoundInWildMode",
     "RecipeSchemaNotFound",
     "StaticValueException",
+    "UnsupportedLocale",
     "WebsiteNotImplementedError",
     "scrape_html",
 )

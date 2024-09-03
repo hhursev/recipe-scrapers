@@ -1,18 +1,8 @@
 import re
 
 from ._abstract import AbstractScraper
-from ._exceptions import RecipeScrapersExceptions
+from ._exceptions import UnsupportedLocale
 from ._utils import get_minutes, normalize_string
-
-
-class UnsupportedLocale(RecipeScrapersExceptions):
-    """No support for detected recipe locale on this webpage"""
-
-    def __init__(self, lang, url):
-        self.lang = lang
-        self.url = url
-        message = f'Detected recipe locale "{self.lang}" is not supported for url={url}'
-        super().__init__(message)
 
 
 class MarleySpoon(AbstractScraper):
@@ -87,29 +77,36 @@ class MarleySpoon(AbstractScraper):
                 "en": "Calories",
                 "unit": "calories",
             },
-            "fatContent": {"de": "Fett", "nl": "Vet", "en": "Fat", "unit": "grams fat"},
+            "fatContent": {"de": "Fett", "nl": "Vet", "en": "Fat", "unit": "grams"},
             "proteinContent": {
                 "de": "Eiweiß",
                 "nl": "Eiwit",
                 "en": "Proteins",
-                "unit": "grams protein",
+                "unit": "grams",
             },
             "carbohydrateContent": {
                 "de": "Kohlenhydrate",
                 "nl": "Koolhydraten",
                 "en": "Carbs",
-                "unit": "grams carbohydrates",
+                "unit": "grams",
             },
         }
 
-        nutrients_info = self._specs()[2].split(",")
-        for nutrient in nutrients_info:
+        nutrients_block = self._specs()[2]
+        nutrients_item = nutrients_block.strip().splitlines()
+        if len(nutrients_item) == 1:
+            nutrients_item = nutrients_block.split(", ")
+        for nutrient in nutrients_item:
             for key, value in vocab.items():
                 if self.locale not in value.keys():
                     raise UnsupportedLocale(self.locale)
                 if value[self.locale] in nutrient:
-                    amount = re.search(r"[\d.]+", nutrient).group()
-                    unit = value["unit"]
+                    amount = re.search(r"\b([\d.,]+)\b", nutrient).group()
+                    if float(amount) != 1:
+                        unit = value["unit"]
+                    else:
+                        # remove plural "s"
+                        unit = re.match("^(.*)s$", value["unit"]).group()
                     nutrients[key] = amount + " " + unit
         return nutrients
 
