@@ -8,7 +8,7 @@
   "ingredients": [
     "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
     "1 dl surkål",
-    "1 dl riven Arla Präst® ost",
+    "1 dl riven Arla Ko Präst® Ost 31%",
     "8 skivor surdegsbröd",
     "50 g Svenskt Smör från Arla®, smält",
     "4 saltgurkor",
@@ -25,7 +25,7 @@
       "ingredients": [
         "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
         "1 dl surkål",
-        "1 dl riven Arla Präst® ost",
+        "1 dl riven Arla Ko Präst® Ost 31%",
         "8 skivor surdegsbröd",
         "50 g Svenskt Smör från Arla®, smält",
         "4 saltgurkor"
@@ -59,8 +59,8 @@
   "description": "Reuben sandwich är en amerikansk macka med mycket pastrami, saltgurka och så kallad rysk dressing. Bröden fylls med alla godsaker fär att sedan smörstekas. En riktig mack-klassiker som är perfekt att bjuda på till brunch!",
   "total_time": 40,
   "cuisine": "Amerikansk",
-  "ratings": 4.2,
-  "ratings_count": 13,
+  "ratings": 4.4,
+  "ratings_count": 19,
   "nutrients": {
     "calories": "920 kcal",
     "fatContent": "61 g",
@@ -68,7 +68,7 @@
     "proteinContent": "43 g",
     "type": "NutritionInformation"
   },
-  "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=jpg&width=1300&height=525",
+  "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=webp&width=1300&height=525&mode=crop&crop=(0,332,0,−312)",
   "keywords": [
     "Smörgås"
   ]
