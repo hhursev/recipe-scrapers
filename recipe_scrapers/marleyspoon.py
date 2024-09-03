@@ -93,10 +93,10 @@ class MarleySpoon(AbstractScraper):
         }
 
         nutrients_block = self._specs()[2]
-        nutrients_item = nutrients_block.strip().splitlines()
-        if len(nutrients_item) == 1:
-            nutrients_item = nutrients_block.split(", ")
-        for nutrient in nutrients_item:
+        nutrients_items = nutrients_block.strip().splitlines()
+        if len(nutrients_items) == 1:
+            nutrients_items = nutrients_block.split(", ")
+        for nutrient in nutrients_items:
             for key, value in vocab.items():
                 if self.locale not in value.keys():
                     raise UnsupportedLocale(self.locale)
@@ -106,7 +106,7 @@ class MarleySpoon(AbstractScraper):
                         unit = value["unit"]
                     else:
                         # remove plural "s"
-                        unit = re.match("^(.*)s$", value["unit"]).group()
+                        unit = re.match("^(.*)s$", value["unit"]).group(1)
                     nutrients[key] = amount + " " + unit
         return nutrients
 
