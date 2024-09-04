@@ -32,6 +32,7 @@ from ._exceptions import (
     NoSchemaFoundInWildMode,
     RecipeSchemaNotFound,
     StaticValueException,
+    UnsupportedLocale,
     WebsiteNotImplementedError,
 )
 from ._factory import SchemaScraperFactory

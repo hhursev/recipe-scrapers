@@ -42,7 +42,7 @@ class MarleySpoon(AbstractScraper):
 
         self.locale = self.language()[:2].lower()
         if self.locale not in vocab.keys():
-            raise UnsupportedLocale(self.locale)
+            raise UnsupportedLocale(self.locale, self.host)
 
         recipe_specs = self.soup.find("ul", {"class": "recipe-specs"})
 
@@ -99,7 +99,7 @@ class MarleySpoon(AbstractScraper):
         for nutrient in nutrients_items:
             for key, value in vocab.items():
                 if self.locale not in value.keys():
-                    raise UnsupportedLocale(self.locale)
+                    raise UnsupportedLocale(self.locale, self.host)
                 if value[self.locale] in nutrient:
                     amount = re.search(r"\b([\d.,]+)\b", nutrient).group()
                     unit = value["unit"]
