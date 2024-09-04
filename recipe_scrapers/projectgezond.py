@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class ProjectGezond(AbstractScraper):
@@ -10,12 +11,10 @@ class ProjectGezond(AbstractScraper):
         return "Project Gezond"
 
     def ratings(self):
-        # Ratings do not exist on this site
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def cuisine(self):
-        # Not listed on site
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def category(self):
         category_script = self.soup.find(
