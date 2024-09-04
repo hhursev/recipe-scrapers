@@ -19,7 +19,7 @@ class ProjectGezond(AbstractScraper):
 
     def category(self):
         category_script = self.soup.find(
-            "script", text=lambda text: text and "var dataLayer_content =" in text
+            "script", string=lambda text: text and "var dataLayer_content =" in text
         )
         if category_script:
             category_text = category_script.string
