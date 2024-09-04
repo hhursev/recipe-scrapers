@@ -31,3 +31,12 @@ class ProjectGezond(AbstractScraper):
                     categories = category_text[start:end].strip('"').split('","')
                     return categories if categories else None
         return None
+
+    def nutrients(self):
+        nutrient_info = {}
+        nutrient_elements = self.soup.select("details.nutritions div.nutrition")
+        for element in nutrient_elements:
+            key = element.get("itemprop")
+            value = element.find("dt").get_text(strip=True)
+            nutrient_info[key] = value
+        return nutrient_info
