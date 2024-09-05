@@ -178,6 +178,7 @@ from .ingoodflavor import InGoodFlavor
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
 from .inspiralized import Inspiralized
+from .instrupix import Instrupix
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
@@ -480,6 +481,7 @@ SCRAPERS = {
     HeatherChristo.host(): HeatherChristo,
     InBloomBakery.host(): InBloomBakery,
     InGoodFlavor.host(): InGoodFlavor,
+    Instrupix.host(): Instrupix,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
