@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, normalize_string
+from ._utils import get_max_res_src, get_minutes, normalize_string
 
 
 class Instrupix(AbstractScraper):
@@ -30,7 +30,7 @@ class Instrupix(AbstractScraper):
         if not container:
             return None
         image = container.find("img", {"src": True})
-        return image["src"] if image else None
+        return get_max_res_src(image) if image else None
 
     def ingredients(self):
         ingredient_tags = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
