@@ -1,3 +1,5 @@
+import re
+
 from ._abstract import AbstractScraper
 from ._exceptions import FieldNotProvidedByWebsiteException
 
