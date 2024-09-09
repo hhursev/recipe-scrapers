@@ -18,18 +18,19 @@ class ProjectGezond(AbstractScraper):
 
     def category(self):
         category_script = self.soup.find(
-            "script", string=lambda text: text and "var dataLayer_content =" in text
+            "script", string=re.compile("var dataLayer_content =")
         )
-        if category_script:
-            category_text = category_script.string
-            start = category_text.find('"pageCategory":[')
-            if start != -1:
-                start += len('"pageCategory":[')
-                end = category_text.find("]", start)
-                if end != -1:
-                    categories = category_text[start:end].strip('"').split('","')
-                    return categories if categories else None
-        return None
+        if not category_script:
+            return None
+
+        category_text = category_script.string
+        start = category_text.find('"pageCategory":[')
+        if start != -1:
+            start += len('"pageCategory":[')
+            end = category_text.find("]", start)
+            if end != -1:
+                categories = category_text[start:end].strip('"').split('","')
+                return categories if categories else None
 
     def nutrients(self):
         nutrient_info = {}
