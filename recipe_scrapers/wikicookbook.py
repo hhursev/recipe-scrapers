@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
+from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -12,7 +12,11 @@ class WikiCookbook(AbstractScraper):
         raise StaticValueException(return_value="Wikibooks")
 
     def title(self):
-        return self.soup.find("h1").get_text().replace("Cookbook:", "")
+        return (
+            self.soup.find("h1", {"id": "firstHeading"})
+            .get_text()
+            .replace("Cookbook:", "")
+        )
 
     def total_time(self):
         return get_minutes(self.soup.find("th", string="Time").find_next_sibling("td"))
@@ -23,21 +27,23 @@ class WikiCookbook(AbstractScraper):
         )
 
     def image(self):
-        image = self.soup.find("a", {"class": "image"}).find("img", {"src": True})
+        image = self.soup.find("a", {"class": "mw-file-description"}).find(
+            "img", {"src": True}
+        )
         return image["src"] if image else None
 
     def ingredients(self):
-        ingredients = (
-            self.soup.find("span", {"id": "Ingredients"}).find_next("ul").findAll("li")
-        )
-
+        ingredients_section = self.soup.find("h2", {"id": "Ingredients"})
+        if not ingredients_section:
+            raise ElementNotFoundInHtml(element="//h2[@id='Ingredients']")
+        ingredients = ingredients_section.find_next("ul").findAll("li")
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = (
-            self.soup.find("span", {"id": "Procedure"}).find_next("ol").findAll("li")
-        )
-
+        instructions_section = self.soup.find("h2", {"id": "Procedure"})
+        if not instructions_section:
+            raise ElementNotFoundInHtml(element="//h2[@id='Procedure']")
+        instructions = instructions_section.find_next("ol").findAll("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )
