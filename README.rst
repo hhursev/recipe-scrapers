@@ -473,8 +473,13 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``>=python3.8`` installed, navigate to the directory where you want this project to live in and drop these lines
+#### Prerequisites
+- Ensure you have Python 3.8 or later installed.
 
+#### Preparing your development environment
+- Navigate to the directory where you want this project to live in and follow the relevant instructions below.
+
+#### Linux and macOS
 .. code:: shell
 
     git clone git@github.com:hhursev/recipe-scrapers.git &&
@@ -487,12 +492,26 @@ Assuming you have ``>=python3.8`` installed, navigate to the directory where you
     pre-commit install &&
     python -m unittest
 
-In case you want to run a single unittest for a newly developed scraper
+#### Windows
+.. code:: shell
+
+    git clone git@github.com:hhursev/recipe-scrapers.git &&
+    cd recipe-scrapers &&
+    py -m venv .venv &&
+    .venv\Scripts\activate &&
+    python -m pip install --upgrade pip &&
+    pip install -r requirements-dev.txt &&
+    pip install pre-commit &&
+    pre-commit install &&
+    python -m unittest
+
+### Running a Single Unit Test
+
+To run a unit test for a specific scraper, replace ``<scraper_class_name>`` with the actual name of the scraper:
 
 .. code:: shell
 
-    python -m unittest -k <test_file_name>
-
+    python -m unittest -k <scraper_class_name>
 
 FAQ
 ---
