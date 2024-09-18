@@ -498,7 +498,6 @@ SCRAPERS = {
     LeitesCulinaria.host(): LeitesCulinaria,
     McCormick.host(): McCormick,
     Miljuschka.host(): Miljuschka,
-    Miljuschka.host(): Miljuschka,
     ModernHoney.host(): ModernHoney,
     MomOnTimeout.host(): MomOnTimeout,
     Moulinex.host(): Moulinex,
