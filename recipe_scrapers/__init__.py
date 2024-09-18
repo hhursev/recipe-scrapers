@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from .miljuschka import Miljuschka
-
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -229,6 +227,7 @@ from .matprat import Matprat
 from .mccormick import McCormick
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
+from .miljuschka import Miljuschka
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
 from .ministryofcurry import MinistryOfCurry
