@@ -35,6 +35,20 @@
   "yields": "4 servings",
   "total_time": 45,
   "cook_time": 45,
+  "nutrients": {
+    "servingSize": "1 portie",
+    "calories": "628 kcal",
+    "fatContent": "12 g",
+    "saturatedFatContent": "3 g",
+    "unsaturatedFatContent": "7 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "68 g",
+    "sugarContent": "11 g",
+    "proteinContent": "63 g",
+    "sodiumContent": "516 mg",
+    "fiberContent": "10 g",
+    "cholesterolContent": "148 mg"
+  },
   "image": "https://miljuschka.nl/wp-content/uploads/2021/09/Granenbowl-met-geroosterde-harissakip.jpg",
   "keywords": [
     "kip"

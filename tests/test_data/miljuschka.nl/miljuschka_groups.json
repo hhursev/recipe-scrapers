@@ -79,6 +79,7 @@
   "total_time": 25,
   "cook_time": 5,
   "prep_time": 20,
+  "cuisine": "Thaise keuken",
   "ratings": 4.34,
   "ratings_count": 59,
   "nutrients": {
@@ -94,5 +95,8 @@
     "fiberContent": "3 g",
     "cholesterolContent": "76 mg"
   },
-  "image": "https://miljuschka.nl/wp-content/uploads/2021/04/thaise-biefstuksalade.jpg"
+  "image": "https://miljuschka.nl/wp-content/uploads/2021/04/thaise-biefstuksalade.jpg",
+  "keywords": [
+    "biefstuk"
+  ]
 }
