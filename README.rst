@@ -117,6 +117,7 @@ Scrapers available for:
 - `https://betterfoodguru.com/ <https://betterfoodguru.com/>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://beyondfrosting.com/ <https://beyondfrosting.com/>`_
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
