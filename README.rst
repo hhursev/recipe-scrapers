@@ -149,6 +149,7 @@ Scrapers available for:
 - `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
+- `https://cookiesandcups.com/ <https://cookiesandcups.com/>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_

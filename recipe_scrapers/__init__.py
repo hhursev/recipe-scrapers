@@ -99,6 +99,7 @@ from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
+from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
@@ -471,6 +472,7 @@ SCRAPERS = {
     CookPad.host(): CookPad,
     CookTalk.host(): CookTalk,
     CookieAndKate.host(): CookieAndKate,
+    CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
     CooksCountry.host(): CooksCountry,
