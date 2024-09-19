@@ -120,6 +120,7 @@ Scrapers available for:
 - `https://beyondfrosting.com/ <https://beyondfrosting.com/>`_
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
+- `https://bitsofcarey.com/ <https://bitsofcarey.com/>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bluejeanchef.com/ <https://bluejeanchef.com/>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
@@ -129,6 +130,7 @@ Scrapers available for:
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
+- `https://brokenovenbaking.com/ <https://brokenovenbaking.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://cafedelites.com/ <https://cafedelites.com/>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_

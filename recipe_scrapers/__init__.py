@@ -73,6 +73,7 @@ from .bettycrocker import BettyCrocker
 from .beyondfrosting import BeyondFrosting
 from .biancazapatka import BiancaZapatka
 from .bigoven import BigOven
+from .bitsofcarey import BitsOfCarey
 from .blueapron import BlueApron
 from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
@@ -81,6 +82,7 @@ from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
+from .brokenovenbaking import BrokenOvenBaking
 from .budgetbytes import BudgetBytes
 from .cafedelites import CafeDelites
 from .carlsbadcravings import CarlsBadCravings
@@ -438,6 +440,7 @@ SCRAPERS = {
     BeyondFrosting.host(): BeyondFrosting,
     BiancaZapatka.host(): BiancaZapatka,
     BigOven.host(): BigOven,
+    BitsOfCarey.host(): BitsOfCarey,
     BlueApron.host(): BlueApron,
     BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
@@ -446,6 +449,7 @@ SCRAPERS = {
     BongEats.host(): BongEats,
     Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
+    BrokenOvenBaking.host(): BrokenOvenBaking,
     BudgetBytes.host(): BudgetBytes,
     CafeDelites.host(): CafeDelites,
     CarlsBadCravings.host(): CarlsBadCravings,
