@@ -95,6 +95,7 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .closetcooking import ClosetCooking
+from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
@@ -464,6 +465,7 @@ SCRAPERS = {
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
     ClosetCooking.host(): ClosetCooking,
+    ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
     CookEatShare.host(): CookEatShare,
     CookPad.host(): CookPad,

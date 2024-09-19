@@ -144,6 +144,7 @@ Scrapers available for:
 - `https://chefsavvy.com/ <https://chefsavvy.com/>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
+- `https://colleenchristensennutrition.com/ <https://colleenchristensennutrition.com/>`_
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
