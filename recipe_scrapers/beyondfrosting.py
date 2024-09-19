@@ -20,12 +20,9 @@ class BeyondFrosting(AbstractScraper):
         equipment_items = self.soup.select(
             ".tasty-recipes-equipment .tasty-link-card a.tasty-link"
         )
-        equipment_list = []
-
-        for item in equipment_items:
-            equipment_name = item.find_next("p").get_text(strip=True)
-
-            if "affiliate link" not in equipment_name.lower():
-                equipment_list.append(equipment_name)
-
+        equipment_list = [
+            item.find_next("p").get_text(strip=True)
+            for item in equipment_items
+            if "affiliate link" not in item.find_next("p").get_text(strip=True).lower()
+        ]
         return get_equipment(equipment_list)

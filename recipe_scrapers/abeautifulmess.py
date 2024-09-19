@@ -20,6 +20,9 @@ class ABeautifulMess(AbstractScraper):
         equipment_container = self.soup.select_one(".wprm-recipe-equipment-container")
         equipment = []
         if equipment_container:
-            equipment_items = [item.get_text() for item in equipment_container.select(".wprm-recipe-equipment-name")]
+            equipment_items = [
+                item.get_text()
+                for item in equipment_container.select(".wprm-recipe-equipment-name")
+            ]
             equipment = get_equipment(equipment_items)
         return equipment

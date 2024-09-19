@@ -20,9 +20,9 @@ class BrokenOvenBaking(AbstractScraper):
         equipment_items = self.soup.select(
             ".wprm-recipe-equipment-container .wprm-recipe-equipment-item"
         )
-        equipment_list = []
-        for item in equipment_items:
-            name = item.select_one(".wprm-recipe-equipment-name").get_text(strip=True)
-            equipment_list.append(name)
+        equipment_list = [
+            item.select_one(".wprm-recipe-equipment-name").get_text(strip=True)
+            for item in equipment_items
+        ]
 
         return get_equipment(equipment_list)
