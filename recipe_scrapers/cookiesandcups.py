@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
-from ._utils import get_equipment
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class CookiesAndCups(AbstractScraper):
@@ -17,6 +17,8 @@ class CookiesAndCups(AbstractScraper):
         )
 
     def equipment(self):
-        equipment_items = self.soup.select(".tasty-recipes-instructions-body ol li a.tasty-link")
+        equipment_items = self.soup.select(
+            ".tasty-recipes-instructions-body ol li a.tasty-link"
+        )
         equipment_links_text = [item.get_text(strip=True) for item in equipment_items]
         return get_equipment(equipment_links_text)
