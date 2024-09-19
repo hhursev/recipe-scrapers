@@ -134,6 +134,7 @@ Scrapers available for:
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://cafedelites.com/ <https://cafedelites.com/>`_
 - `https://cakemehometonight.com/ <https://cakemehometonight.com/>`_
+- `https://cambreabakes.com/ <https://cambreabakes.com/>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
