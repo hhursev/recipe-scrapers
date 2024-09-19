@@ -33,6 +33,7 @@ from ._exceptions import (
 )
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
+from .abeautifulmess import ABeautifulMess
 from .aberlehome import AberleHome
 from .abril import Abril
 from .abuelascounter import AbuelasCounter
@@ -392,6 +393,7 @@ from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 
 SCRAPERS = {
+    ABeautifulMess.host(): ABeautifulMess,
     ACoupleCooks.host(): ACoupleCooks,
     AFlavorJournal.host(): AFlavorJournal,
     ALittleBitYummy.host(): ALittleBitYummy,

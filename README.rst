@@ -79,6 +79,7 @@ Scrapers available for:
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://15gram.be <https://15gram.be>`_
 - `https://www.750g.com <https://www.750g.com>`_
+- `https://abeautifulmess.com/ <https://abeautifulmess.com/>`_
 - `https://aberlehome.com/ <https://aberlehome.com>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
