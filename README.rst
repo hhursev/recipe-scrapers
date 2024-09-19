@@ -109,10 +109,12 @@ Scrapers available for:
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://barefeetinthekitchen.com/ <https://barefeetinthekitchen.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
+- `https://barefootinthepines.com/ <https://barefootinthepines.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
     - `.co.uk <https://bbc.co.uk/food/recipes>`__
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
+- `https://betterfoodguru.com/ <https://betterfoodguru.com/>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
