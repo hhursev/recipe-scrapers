@@ -240,6 +240,7 @@ Scrapers available for:
 - `https://justataste.com/ <https://justataste.com>`_
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
+- `https://k-ruoka.fi/ <https://k-ruoka.fi/>`_
 - `https://kalejunkie.com/ <https://kalejunkie.com/>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
@@ -394,6 +395,7 @@ Scrapers available for:
 - `https://www.thecookierookie.com/ <https://www.thecookierookie.com/>`_
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
+- `https://thefoodietakesflight.com/ <https://thefoodietakesflight.com/>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
