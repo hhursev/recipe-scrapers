@@ -342,8 +342,8 @@ from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
 from .thecookierookie import TheCookieRookie
 from .thecookingguy import TheCookingGuy
-from .thefoodietakesflight import TheFoodieTakesFlight
 from .theexpertguides import TheExpertGuides
+from .thefoodietakesflight import TheFoodieTakesFlight
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchencommunity import TheKitchenCommunity
 from .thekitchenmagpie import TheKitchenMagPie
