@@ -5,9 +5,8 @@ import warnings
 from typing import Any
 
 from ._abstract import AbstractScraper
-from ._exceptions import NoSchemaFoundInWildMode
 from ._exceptions import RecipeSchemaNotFound  # NoQA: F401
-from ._exceptions import WebsiteNotImplementedError
+from ._exceptions import NoSchemaFoundInWildMode, WebsiteNotImplementedError
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .aberlehome import AberleHome
