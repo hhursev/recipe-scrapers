@@ -16,11 +16,11 @@ class BarefootInThePines(AbstractScraper):
         )
 
     def nutrients(self):
-        nutrition_data = {}
         nutrition_container = self.soup.select_one(".mv-create-nutrition-box")
         if not nutrition_container:
-            return nutrition_data
+            return None
 
+        nutrition_data = {}
         for item in nutrition_container.select(".mv-create-nutrition-item"):
             label = item.select_one(".mv-create-nutrition-label")
             if label:
