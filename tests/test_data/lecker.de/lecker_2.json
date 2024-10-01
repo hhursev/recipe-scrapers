@@ -14,7 +14,6 @@
     "3 EL Öl",
     "100 g Vollmilchjoghurt"
   ],
-  "instructions": "Schritt 1\nDen Backofen auf ca. 50 °C vorheizen. Milch lauwarm erwärmen, mit Zucker und Trockenhefe verrühren, dann 25 Minuten ruhen lassen. Mehl und Salz mischen. Hefemilch, Öl und Joghurt zugeben. Die Teigzutaten mit einem Kochlöffel verrühren. Dann mit den Händen zu einem geschmeidigen, glatten Teig verkneten.\nSchritt 2\nDen Teig für das Naan-Brot mit einem Küchentuch abdecken und im warmen Ofen ca. 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat. Den Teig nach dem Gehen auf einer bemehlten Arbeitsfläche noch einmal kräftig durchkneten. Dadurch wird er elastischer und besser formbar. Anschließend zu 6 Kugeln formen und diese nochmals 15 Minuten ruhen lassen.\nSchritt 3\nDie Kugeln mit der Teigrolle jeweils zu ca. 1/2 cm dünnen ovalen Fladen à ca. 18 x 10 cm ausrollen. Eine Pfanne ohne Fett erhitzen. Die Brotfladen darin bei starker Hitze nacheinander von jeder Seite 1-2 Minuten goldbraun braten. Wenn das Brot blasen wirft, wenden und von der anderen Seite braten.",
   "instructions_list": [
     "Schritt 1",
     "Den Backofen auf ca. 50 °C vorheizen. Milch lauwarm erwärmen, mit Zucker und Trockenhefe verrühren, dann 25 Minuten ruhen lassen. Mehl und Salz mischen. Hefemilch, Öl und Joghurt zugeben. Die Teigzutaten mit einem Kochlöffel verrühren. Dann mit den Händen zu einem geschmeidigen, glatten Teig verkneten.",
@@ -32,11 +31,11 @@
   "ratings": 5.0,
   "ratings_count": 1,
   "nutrients": {
+    "servingSize": "1 Stück",
     "calories": "215 kcal",
-    "carbohydrateContent": "33 g",
     "fatContent": "7 g",
-    "proteinContent": "6 g",
-    "servingSize": "1 Stück"
+    "carbohydrateContent": "33 g",
+    "proteinContent": "6 g"
   },
   "image": "https://images.lecker.de/naan-brot-b-f6193840/1x1,id=d239fb08,b=lecker,w=1600,h=,ca=10.42,0,85.58,100,rm=sk.jpeg",
   "keywords": [

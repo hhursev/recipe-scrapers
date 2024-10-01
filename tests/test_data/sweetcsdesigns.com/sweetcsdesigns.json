@@ -10,7 +10,6 @@
     "2-3 tablespoons olive oil",
     "Sea salt and pepper, to taste"
   ],
-  "instructions": "Using a mandoline, slice the potatoes into fries. I don't worry too much about the size of fry I am making- some are bigger, and some are smaller. That's fine!\nNext, place your spuds in a nice cool water bath. Completely submerge the fries in water.\nLet fries sit one hour. This helps to remove excess starch and will help the fries crisp up more in the oven.\nPreheat air fryer to 375 degrees.\nAfter an hour, drain the water, and pat fries dry with a paper towel.\nToss with a couple tablespoons of olive oil, salt and pepper.\nAdd fries to bottom of air fryer basket, making sure they are all on the same level (don't stack them on top of each other.)\nCook 15-20 minutes, until crispy and golden brown.\nPlace on a baking sheet lined with paper towels and a cooling rack over it.\nPlace in warm oven (set to the minimum temperature, not over 250 degrees) and let rest while other batches of fries are cooking.\nServe hot and enjoy.",
   "instructions_list": [
     "Using a mandoline, slice the potatoes into fries. I don't worry too much about the size of fry I am making- some are bigger, and some are smaller. That's fine!",
     "Next, place your spuds in a nice cool water bath. Completely submerge the fries in water.",
@@ -34,19 +33,22 @@
   "ratings": 4.9,
   "ratings_count": 544,
   "nutrients": {
-    "calories": "205 calories",
-    "carbohydrateContent": "32 grams carbohydrates",
-    "cholesterolContent": "0 milligrams cholesterol",
-    "fatContent": "7 grams fat",
-    "fiberContent": "3 grams fiber",
-    "proteinContent": "4 grams protein",
-    "saturatedFatContent": "1 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "70 milligrams sodium",
-    "sugarContent": "2 grams sugar",
+    "calories": "205 calories",
+    "fatContent": "7 grams fat",
+    "saturatedFatContent": "1 grams saturated fat",
+    "unsaturatedFatContent": "6 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "6 grams unsaturated fat"
+    "carbohydrateContent": "32 grams carbohydrates",
+    "sugarContent": "2 grams sugar",
+    "proteinContent": "4 grams protein",
+    "sodiumContent": "70 milligrams sodium",
+    "fiberContent": "3 grams fiber",
+    "cholesterolContent": "0 milligrams cholesterol"
   },
+  "dietary_restrictions": [
+    "Gluten Free Diet"
+  ],
   "image": "https://sweetcsdesigns.com/wp-content/uploads/2022/12/air-fryer-french-fries-recipe-picture-720x720.jpg",
   "keywords": [
     "side dish",

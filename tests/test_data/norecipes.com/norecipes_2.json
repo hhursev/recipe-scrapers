@@ -50,7 +50,6 @@
       "purpose": "to serve"
     }
   ],
-  "instructions": "Add the chicken, soy sauce, sake and fresh ginger to a bowl and mix together. Let the chicken marinate for at least 15 minutes, or preferably up to 8 hours.\nAdd all the ingredients for the orange sauce into a skillet and whisk together.\nWhen you're ready to make the orange chicken, preheat a heavy pot filled with 2-inches of vegetable oil to 340 degrees F (170 C). Prepare a paper towel lined rack.\nAdd 1/2 cup potato starch to another bowl, and dust the chicken with the potato starch. You want an even coating, but it should not be caked on.\nFry the chicken in batches until golden brown and cooked through, flipping a few times to ensure it browns evenly.\nDrain the chicken on the prepared rack.\nWhen all the chicken is done, heat the skillet with the orange sauce over medium-high heat, stirring constantly until it starts to thicken.\nAdd the fried chicken to the orange sauce and toss to coat evenly. The orange chicken is done when the sauce forms a thick glaze around the pieces of the chicken. Garnish with red pepper and sesame seeds.",
   "instructions_list": [
     "Add the chicken, soy sauce, sake and fresh ginger to a bowl and mix together. Let the chicken marinate for at least 15 minutes, or preferably up to 8 hours.",
     "Add all the ingredients for the orange sauce into a skillet and whisk together.",
@@ -71,16 +70,16 @@
   "ratings": 4.43,
   "ratings_count": 14,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "418 kcal",
-    "carbohydrateContent": "41 g",
-    "proteinContent": "21 g",
     "fatContent": "19 g",
     "saturatedFatContent": "5 g",
-    "cholesterolContent": "110 mg",
+    "carbohydrateContent": "41 g",
+    "sugarContent": "21 g",
+    "proteinContent": "21 g",
     "sodiumContent": "656 mg",
     "fiberContent": "2 g",
-    "sugarContent": "21 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "110 mg"
   },
   "image": "https://norecipes.com/wp-content/uploads/2017/06/orange-chicken-005.jpg",
   "keywords": [

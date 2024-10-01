@@ -16,7 +16,6 @@
     "corn or flour taco-size tortillas",
     "avocado, tomatoes, cheese, cilantro, sour cream (for serving)"
   ],
-  "instructions": "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).\nCover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)\nDo a quick release (turn vent knob to the VENT position and allow to de-pressurize until the float valve drops down) then uncover and shred chicken with two forks.\nServe chicken in tortillas topped with cheese, tomatoes, avocado, cilantro, or any other favorite toppings.",
   "instructions_list": [
     "In your instant pot/pressure cooker combine chicken, broth or water, cumin, chili powder, garlic powder, and fire roasted tomatoes (with liquid).",
     "Cover and set to PRESSURE COOK or MANUAL for 20 minutes. (30 minutes if using frozen chicken breasts)",
@@ -33,17 +32,17 @@
   "ratings": 4.85,
   "ratings_count": 165,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "202 kcal",
-    "carbohydrateContent": "1 g",
-    "proteinContent": "37 g",
     "fatContent": "5 g",
     "saturatedFatContent": "1 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "108 mg",
+    "carbohydrateContent": "1 g",
+    "sugarContent": "1 g",
+    "proteinContent": "37 g",
     "sodiumContent": "1003 mg",
     "fiberContent": "1 g",
-    "sugarContent": "1 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "108 mg"
   },
   "image": "https://www.lecremedelacrumb.com/wp-content/uploads/2019/01/instant-pot-shredded-chicken-tacos-5.jpg",
   "keywords": [

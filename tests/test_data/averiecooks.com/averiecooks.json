@@ -14,7 +14,6 @@
     "1/3 cup goat cheese, crumbled or as desired",
     "1/3 cup candied nuts, or as desired"
   ],
-  "instructions": "To a high-sided medium/large kettle (use one bigger than you think you need), add the vinegar, 1/2 cup sugar, and heat over medium to medium-high until mixture boils and can sustain a fast rolling boil.\nBoil for about 15 to 20 minutes, or until reduced by about 80% and has thickened and is syrupy; stir intermittently and keep an eye on it so it doesn't bubble over.\nWhen the sauce looks like it's about halfway done, taste the sauce, and if it's too vinegary and bitter for you, add part of or all of the remaining sugar. I personally use almost 1 cup. Sauce will thicken up more as it cools.\nTo a medium bowl, add all the remaining ingredients, stir to combine, and drizzle as much of the balsamic reduction as desired.",
   "instructions_list": [
     "To a high-sided medium/large kettle (use one bigger than you think you need), add the vinegar, 1/2 cup sugar, and heat over medium to medium-high until mixture boils and can sustain a fast rolling boil.",
     "Boil for about 15 to 20 minutes, or until reduced by about 80% and has thickened and is syrupy; stir intermittently and keep an eye on it so it doesn't bubble over.",
@@ -31,19 +30,22 @@
   "ratings": 5.0,
   "ratings_count": 13,
   "nutrients": {
-    "calories": "4245 calories",
-    "carbohydrateContent": "812 grams carbohydrates",
-    "cholesterolContent": "17 milligrams cholesterol",
-    "fatContent": "20 grams fat",
-    "fiberContent": "4 grams fiber",
-    "proteinContent": "34 grams protein",
-    "saturatedFatContent": "8 grams saturated fat",
     "servingSize": "1",
-    "sodiumContent": "1160 milligrams sodium",
-    "sugarContent": "717 grams sugar",
+    "calories": "4245 calories",
+    "fatContent": "20 grams fat",
+    "saturatedFatContent": "8 grams saturated fat",
+    "unsaturatedFatContent": "12 grams unsaturated fat",
     "transFatContent": "0 grams trans fat",
-    "unsaturatedFatContent": "12 grams unsaturated fat"
+    "carbohydrateContent": "812 grams carbohydrates",
+    "sugarContent": "717 grams sugar",
+    "proteinContent": "34 grams protein",
+    "sodiumContent": "1160 milligrams sodium",
+    "fiberContent": "4 grams fiber",
+    "cholesterolContent": "17 milligrams cholesterol"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://www.averiecooks.com/wp-content/uploads/2020/07/watermelonsalad-5-480x480.jpg",
   "keywords": [
     "watermelon cucumber salad",

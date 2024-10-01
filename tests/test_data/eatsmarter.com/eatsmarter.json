@@ -20,7 +20,6 @@
     "1 tsp honey",
     "1 Tbsp Hazelnut oil"
   ],
-  "instructions": "Clean pumpkin, wash, cut in half, remove seeds, cut flesh into narrow wedges. Peel the ginger and chop finely. Mix olive oil with salt, pepper and ginger. Brush the pumpkin wedges with it and place on a baking tray lined with baking paper and cook in a preheated oven at 180 °C / 350 °F for about 25 minutes.\nMeanwhile, wash spinach and spin dry. Peel shallots and cut into wedges. Peel garlic and cut in half lengthwise. Rinse beans and drain in a sieve.\nHeat 2 tablespoons of oil in a frying pan. Sauté shallots and garlic in it over medium heat for 2 minutes, then remove. Pour remaining oil and heat over high heat. Add drained beans and fry for 3-4 minutes until they pop.\nMix the lemon juice, salt, honey, pepper and nut oil to make a dressing. Arrange the pumpkin, beans, shallots and garlic on plates and drizzle with the dressing.",
   "instructions_list": [
     "Clean pumpkin, wash, cut in half, remove seeds, cut flesh into narrow wedges. Peel the ginger and chop finely. Mix olive oil with salt, pepper and ginger. Brush the pumpkin wedges with it and place on a baking tray lined with baking paper and cook in a preheated oven at 180 °C / 350 °F for about 25 minutes.",
     "Meanwhile, wash spinach and spin dry. Peel shallots and cut into wedges. Peel garlic and cut in half lengthwise. Rinse beans and drain in a sieve.",
@@ -39,10 +38,14 @@
     "calories": "345 kcal",
     "fatContent": "21 g",
     "saturatedFatContent": "2.3 g",
-    "proteinContent": "12 g",
     "carbohydrateContent": "26 g",
     "sugarContent": "1 g",
+    "proteinContent": "12 g",
     "cholesterolContent": "0 mg"
   },
+  "dietary_restrictions": [
+    "Low-calorie",
+    "Vegetarian"
+  ],
   "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg"
 }

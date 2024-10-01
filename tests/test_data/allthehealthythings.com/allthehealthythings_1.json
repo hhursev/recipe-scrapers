@@ -45,7 +45,6 @@
       "purpose": "Whipped Hot Honey Butter"
     }
   ],
-  "instructions": "Place a 8 or 9 inch skillet in the oven and then set to preheat at 400 degrees.\nTo a large mixing bowl add the corn meal, flour, baking powder, and salt. Then, add the shredded cheese and jalapeño and stir until well combined.\nIn another bowl, whisk together the eggs, buttermilk, and 1/4 cup melted butter.\nPour the wet ingredients into the dry and gently fold until everything is well combined.\nRemove the hot skillet from the oven and add 2 tablespoons of butter. Add the skillet back to the oven and let melt completely. Once the butter has melted, remove the skillet from the oven and swirl the butter around until the skillet is fully coated. Pour the batter into the hot skillet.\nBake the cornbread for around 25-30 minutes at 400 degrees or until a toothpick comes out clean. The center of the cornbread should be puffed and the edges golden brown.\nMake the Whipped Hot Honey Butter\nWhile the cornbread is baking make the whipped honey butter. Add the softened butter and honey to a mixing bowl. Use a hand mixer to beat at high speed for 1 minute until fluffy.\nWhile the cornbread is still hot, brush some of the honey butter overtop of the cornbread. Let cool for a few minutes and then slice the cornbread into 8 slices and serve warm with an extra dollop of honey butter, a drizzle of hot honey, and flaky sea salt.",
   "instructions_list": [
     "Place a 8 or 9 inch skillet in the oven and then set to preheat at 400 degrees.",
     "To a large mixing bowl add the corn meal, flour, baking powder, and salt. Then, add the shredded cheese and jalapeño and stir until well combined.",
@@ -69,16 +68,19 @@
   "ratings_count": 1,
   "nutrients": {
     "calories": "412 calories",
-    "sugarContent": "11.6 g",
-    "sodiumContent": "1172.4 mg",
     "fatContent": "25.2 g",
     "saturatedFatContent": "14.8 g",
     "transFatContent": "0.1 g",
     "carbohydrateContent": "37.9 g",
-    "fiberContent": "2 g",
+    "sugarContent": "11.6 g",
     "proteinContent": "9.7 g",
+    "sodiumContent": "1172.4 mg",
+    "fiberContent": "2 g",
     "cholesterolContent": "111.3 mg"
   },
+  "dietary_restrictions": [
+    "Gluten Free Diet"
+  ],
   "image": "https://allthehealthythings.com/wp-content/uploads/2023/08/Jalapeno-Cheddar-Skillet-Cornbread-with-Whipped-Hot-Honey-Butter-6-scaled-225x225.jpg",
   "keywords": [
     "jalapeno cheddar cornbread",

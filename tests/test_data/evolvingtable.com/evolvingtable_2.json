@@ -43,7 +43,6 @@
       "purpose": "Honey Mustard Sauce"
     }
   ],
-  "instructions": "In a shallow bowl place tapioca starch.\nIn a second shallow bowl whisk together egg and milk.\nIn a third shallow bowl combine almond flour, salt, pepper, garlic powder, and paprika. Whisk to combine.\nTake a chicken tender and coat it in tapioca starch, dip it in the milk/egg mixture, and coat it with the almond flour crust mixture. Repeat with the remaining chicken tenders.\nIn a large skillet over medium heat place 1 tablespoon butter or coconut oil. Lay chicken tenders in a single layer in the skillet and cook for 5-6 minutes.\nAdd remaining 1 tablespoon butter or coconut oil and flip chicken tenders. Cover skillet with a lid and continue cooking over medium heat for 5-6 minutes, or until tenders reach 165°F.\nIn a medium-sized bowl combine honey and mustard. Whisk to combine.\nServe two chicken tenders per person with honey mustard dipping sauce and enjoy!",
   "instructions_list": [
     "In a shallow bowl place tapioca starch.",
     "In a second shallow bowl whisk together egg and milk.",
@@ -64,16 +63,16 @@
   "ratings": 5.0,
   "ratings_count": 5,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "366 kcal",
-    "carbohydrateContent": "23 g",
-    "proteinContent": "29 g",
     "fatContent": "18 g",
-    "fiberContent": "2 g",
     "saturatedFatContent": "5 g",
-    "cholesterolContent": "129 mg",
-    "sodiumContent": "688 mg",
+    "carbohydrateContent": "23 g",
     "sugarContent": "9 g",
-    "servingSize": "1 serving"
+    "proteinContent": "29 g",
+    "sodiumContent": "688 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "129 mg"
   },
   "image": "https://www.evolvingtable.com/wp-content/uploads/2018/03/Chicken-Tenders-Paleo-6.jpg"
 }

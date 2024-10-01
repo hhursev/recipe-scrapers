@@ -13,7 +13,6 @@ MANDATORY_TESTS = [
     "host",
     "image",
     "ingredients",
-    "instructions",
     "instructions_list",
     "language",
     "site_name",
@@ -24,6 +23,7 @@ MANDATORY_TESTS = [
 
 OPTIONAL_TESTS = [
     "ingredient_groups",
+    "instructions",
     "category",
     "description",
     "cook_time",
@@ -144,6 +144,24 @@ def test_func_factory(
 
         with self.subTest("ingredient_groups"):
             self.assertEqual(sorted(actual.ingredients()), sorted(grouped))
+
+        if "instructions_list" in expect:
+            list_instructions_normalized = [
+                line.strip() for line in expect["instructions_list"] if line.strip()
+            ]
+
+            string_instructions_normalized = [
+                instruction.strip()
+                for instruction in actual.instructions().split("\n")
+                if instruction.strip()
+            ]
+
+            with self.subTest("instructions_list vs instructions comparison"):
+                self.assertEqual(
+                    string_instructions_normalized,
+                    list_instructions_normalized,
+                    msg="The actual value for .instructions() did not match the value from instructions_list.",
+                )
 
     return test_func
 

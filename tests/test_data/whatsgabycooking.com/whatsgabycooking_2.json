@@ -53,7 +53,6 @@
       "purpose": "For the Tzatziki"
     }
   ],
-  "instructions": "Preheat the oven to broil.\nIn a medium bowl, combine lamb with all of the meatball ingredients. Form the meat into golf ball sized balls. Place the meatballs two inches apart on the baking sheet, and position the baking sheet a few inches from the heat source. Broil for about 5-7 minutes, turning once halfway through. Alternatively you can bake these at 425 for 8-10 minutes.\nCombine the ingredients for the feta tzatziki. Serve alongside the meatballs for dipping.",
   "instructions_list": [
     "Preheat the oven to broil.",
     "In a medium bowl, combine lamb with all of the meatball ingredients. Form the meat into golf ball sized balls. Place the meatballs two inches apart on the baking sheet, and position the baking sheet a few inches from the heat source. Broil for about 5-7 minutes, turning once halfway through. Alternatively you can bake these at 425 for 8-10 minutes.",
@@ -69,18 +68,18 @@
   "ratings": 4.9,
   "ratings_count": 19,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "461 kcal",
-    "carbohydrateContent": "13 g",
-    "proteinContent": "30 g",
     "fatContent": "32 g",
     "saturatedFatContent": "15 g",
+    "unsaturatedFatContent": "15 g",
     "transFatContent": "0.01 g",
-    "cholesterolContent": "143 mg",
+    "carbohydrateContent": "13 g",
+    "sugarContent": "4 g",
+    "proteinContent": "30 g",
     "sodiumContent": "1226 mg",
     "fiberContent": "2 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "15 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "143 mg"
   },
   "image": "https://whatsgabycooking.com/wp-content/uploads/2022/04/Stonyfield-__-Greek-Lamb-Meatballs-4.jpg",
   "keywords": [

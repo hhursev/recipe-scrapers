@@ -14,7 +14,6 @@
     "1/2 cup breadcrumbs",
     "3 tablespoons butter (melted)"
   ],
-  "instructions": "Preheat the oven to 425 degrees.\nMist a baking tray or 9x13 pan with cooking spray. Set aside.\nSlice the chicken in half lengthwise, or pound to 1/2 inch thickens.\nPlace on the prepared baking tray, making sure not to overlap.\nSeason the chicken with salt, pepper, and garlic powder.\nBrush 1 tablespoon of ranch dressing onto the top of each chicken piece.\nMix the bread crumbs with the butter. Spoon over the top of each chicken.\nBake 15 minutes, or until the chicken reaches an internal temperature of 165 degrees.\nServe with extra ranch dressing if desired.",
   "instructions_list": [
     "Preheat the oven to 425 degrees.",
     "Mist a baking tray or 9x13 pan with cooking spray. Set aside.",
@@ -43,15 +42,15 @@
   "nutrients": {
     "servingSize": "1 g",
     "calories": "394 kcal",
-    "carbohydrateContent": "11 g",
-    "proteinContent": "39 g",
     "fatContent": "20 g",
     "saturatedFatContent": "8 g",
-    "cholesterolContent": "129 mg",
+    "unsaturatedFatContent": "11 g",
+    "carbohydrateContent": "11 g",
+    "sugarContent": "2 g",
+    "proteinContent": "39 g",
     "sodiumContent": "656 mg",
     "fiberContent": "1 g",
-    "sugarContent": "2 g",
-    "unsaturatedFatContent": "11 g"
+    "cholesterolContent": "129 mg"
   },
   "image": "https://onesweetappetite.com/wp-content/uploads/2021/07/ranch-chicken-recipe-6.jpg"
 }

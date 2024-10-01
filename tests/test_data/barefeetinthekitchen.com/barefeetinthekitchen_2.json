@@ -43,7 +43,6 @@
       "purpose": "Dressing Ingredients"
     }
   ],
-  "instructions": "Toast the orzo in ½ tablespoon oil over medium heat, about 5 minutes, until golden brown. Add 4 cups water, and bring to a boil. Reduce to simmer, and cover with a lid for 7-8 minutes. Drain any liquid and fluff with a fork.\nPlace the spinach in a large mixing bowl. Add the cooked orzo, cranberries, almonds, and cooked chicken - if desired.\nIn a small bowl or large measuring cup, combine the oil, vinegar, honey, salt, and pepper. Whisk to combine. Pour the dressing over the salad and toss well to coat.\nTop with goat cheese and toss lightly. Serve immediately or store in the refrigerator for up to 2 days.",
   "instructions_list": [
     "Toast the orzo in ½ tablespoon oil over medium heat, about 5 minutes, until golden brown. Add 4 cups water, and bring to a boil. Reduce to simmer, and cover with a lid for 7-8 minutes. Drain any liquid and fluff with a fork.",
     "Place the spinach in a large mixing bowl. Add the cooked orzo, cranberries, almonds, and cooked chicken - if desired.",
@@ -60,16 +59,16 @@
   "ratings": 5.0,
   "ratings_count": 17,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "415 kcal",
-    "carbohydrateContent": "43 g",
-    "proteinContent": "16 g",
     "fatContent": "20 g",
     "saturatedFatContent": "3 g",
-    "cholesterolContent": "40 mg",
+    "carbohydrateContent": "43 g",
+    "sugarContent": "12 g",
+    "proteinContent": "16 g",
     "sodiumContent": "476 mg",
     "fiberContent": "3 g",
-    "sugarContent": "12 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "40 mg"
   },
   "image": "https://barefeetinthekitchen.com/wp-content/uploads/2019/04/Spinach-Orzo-Salad-BFK-3-1-of-1.jpg",
   "keywords": [

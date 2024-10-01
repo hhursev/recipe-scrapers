@@ -17,7 +17,6 @@
     "1 1/2 cups shredded cheddar cheese",
     "4 tablespoons butter (melted)"
   ],
-  "instructions": "In a crock pot toss cooked macaroni with vegetable oil.\nStir in remaining ingredients.\nCover and cook on low for 2 - 3 hours. Stir a couple times and enjoy!",
   "instructions_list": [
     "In a crock pot toss cooked macaroni with vegetable oil.",
     "Stir in remaining ingredients.",
@@ -33,16 +32,16 @@
   "ratings": 5.0,
   "ratings_count": 20,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "306 kcal",
-    "carbohydrateContent": "23 g",
-    "proteinContent": "15 g",
     "fatContent": "17 g",
     "saturatedFatContent": "11 g",
-    "cholesterolContent": "49 mg",
+    "carbohydrateContent": "23 g",
+    "sugarContent": "8 g",
+    "proteinContent": "15 g",
     "sodiumContent": "828 mg",
     "fiberContent": "1 g",
-    "sugarContent": "8 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "49 mg"
   },
   "image": "https://plowingthroughlife.com/wp-content/uploads/2020/05/Farmhouse-Mac-and-cheese-FI.jpg",
   "keywords": [

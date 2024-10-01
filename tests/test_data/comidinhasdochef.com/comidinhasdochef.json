@@ -17,7 +17,6 @@
     "pimenta do reino a gosto",
     "sal a gosto"
   ],
-  "instructions": "Como preparar Coxa de Frango na Fritadeira Elétrica\nPasso 1\nEm uma tigela coloque as coxas de frango e adicione todos os ingredientes ( a mostarda, o azeite, o shoyu, o suco de limão, a salsa, o alho picado, o colorau, a pimenta do reino e o sal);\nPasso 2\nCom as mãos misture bem, massageando as coxas de frango para que o tempero pegue bem;\nPasso 3\nEm seguida tampe a tigela e reserve por 25-30 minutos;\nPasso 4\nPré aqueça sua fritadeira elétrica a 200º C por 5 minutos;\nPasso 5\nColoque as coxas de frango e deixe fritar por 10 minutos;\nPasso 6\nAbra a fritadeira, vire o frango e deixe por mais 10 minutos, mantendo sempre a temperatura de 200º C;\nPasso 7\nRetire as coxas de frango da fritadeira e sirva em seguida.",
   "instructions_list": [
     "Como preparar Coxa de Frango na Fritadeira Elétrica",
     "Passo 1",
@@ -45,17 +44,22 @@
   "ratings": 4.8,
   "ratings_count": 75,
   "nutrients": {
-    "calories": "163 kcal",
-    "carbohydrateContent": "1.2 g",
-    "fiberContent": "0.2 g",
-    "proteinContent": "15 g",
     "servingSize": "5",
-    "sodiumContent": "355 mg",
+    "calories": "163 kcal",
+    "fatContent": "10 g",
     "saturatedFatContent": "2.9 g",
     "unsaturatedFatContent": "4.8 g",
     "transFatContent": "0 g",
-    "fatContent": "10 g"
+    "carbohydrateContent": "1.2 g",
+    "proteinContent": "15 g",
+    "sodiumContent": "355 mg",
+    "fiberContent": "0.2 g"
   },
+  "dietary_restrictions": [
+    "Diabetic Diet",
+    "Low Calorie Diet",
+    "Low Lactose Diet"
+  ],
   "image": "https://comidinhasdochef.com/wp-content/uploads/2022/01/Coxa-de-Frango-na-Fritadeira-Elétrica00.jpg",
   "keywords": [
     "Coxa de Frango na Fritadeira Elétrica"

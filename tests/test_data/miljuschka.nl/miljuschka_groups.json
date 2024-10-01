@@ -1,0 +1,102 @@
+{
+  "author": "Miljuschka Witzenhausen",
+  "canonical_url": "https://miljuschka.nl/thaise-biefstuksalade-podcast-peter-r-de-vries/",
+  "site_name": "Miljuschka.nl",
+  "host": "miljuschka.nl",
+  "language": "nl-NL",
+  "title": "Thaise biefstuksalade",
+  "ingredients": [
+    "1 rode chilipeper (heel fijn gesneden)",
+    "2 teentjes knoflook",
+    "1 el korianderstengels",
+    "2 tl suiker",
+    "2 el vissaus",
+    "3 el limoensap",
+    "1 el plantaardige olie",
+    "250 gr biefstuk of entrecote (van goede kwaliteit)",
+    "1/2 el plantaardige olie",
+    "zout en peper",
+    "100 gr gemengde sla",
+    "100 gr kerstomaatjes (gehalveerd)",
+    "1/4 rode ui (fijn gesneden)",
+    "1/2 komkommer (in kwarten en dan dun gesneden)",
+    "1 bosje koriander (fijn gesneden)",
+    "1 bosje munt (fijn gesneden)",
+    "1 el geroosterde pinda's (gehakt)",
+    "extra koriander om te serveren"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 rode chilipeper (heel fijn gesneden)",
+        "2 teentjes knoflook",
+        "1 el korianderstengels",
+        "2 tl suiker",
+        "2 el vissaus",
+        "3 el limoensap",
+        "1 el plantaardige olie"
+      ],
+      "purpose": "Dressing"
+    },
+    {
+      "ingredients": [
+        "250 gr biefstuk of entrecote (van goede kwaliteit)",
+        "1/2 el plantaardige olie",
+        "zout en peper",
+        "100 gr gemengde sla",
+        "100 gr kerstomaatjes (gehalveerd)",
+        "1/4 rode ui (fijn gesneden)",
+        "1/2 komkommer (in kwarten en dan dun gesneden)",
+        "1 bosje koriander (fijn gesneden)",
+        "1 bosje munt (fijn gesneden)"
+      ],
+      "purpose": "Salade"
+    },
+    {
+      "ingredients": [
+        "1 el geroosterde pinda's (gehakt)",
+        "extra koriander om te serveren"
+      ],
+      "purpose": "Om te serveren"
+    }
+  ],
+  "instructions_list": [
+    "Dressing",
+    "Doe de rode peper, knoflook, koriandersteeltjes en een beetje zout in een vijzel. Draai tot een gladde pasta.",
+    "Voeg de overige dressing-ingrediënten toe en gebruik suiker, limoensap en vissaus naar smaak. Zet de dressing even apart.",
+    "Biefstuk",
+    "Verhit een koekenpan op hoog vuur tot goed heet.",
+    "Doe wat olie aan beide kanten van het vlees, bestrooi dan met een beetje zout en peper Bak de biefstuk naar wens. (Medium rare vind ik het lekkerste voor dit recept!)",
+    "Haal het vlees uit de pan en leg op een bord. Dek af met aluminiumfolie en laat een minuutje of 10 rusten.",
+    "Salade",
+    "Doe de sla in een kom, doe hier 1 el dressing overheen en schud om.",
+    "Snij de biefstuk (tegen de draad in) in mooie plakjes en doe in een kom met de overige salade ingrediënten. Doe het meeste van de dressing erbij en schud voorzichtig om.",
+    "Doe de gemengde sla op twee borden, doe hier het vlees en de overige ingredienten op.",
+    "Strooi de pinda's erover en garneer met extra koriander en munt. Heb je nog extra dressing over? Drizzle deze er dan overheen. Serveer de biefstuksalade meteen."
+  ],
+  "category": "Hoofdgerecht",
+  "yields": "2 servings",
+  "total_time": 25,
+  "cook_time": 5,
+  "prep_time": 20,
+  "cuisine": "Thaise keuken",
+  "ratings": 4.34,
+  "ratings_count": 59,
+  "nutrients": {
+    "servingSize": "1 portie",
+    "calories": "457 kcal",
+    "fatContent": "31 g",
+    "saturatedFatContent": "9 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "17 g",
+    "sugarContent": "10 g",
+    "proteinContent": "30 g",
+    "sodiumContent": "1527 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "76 mg"
+  },
+  "image": "https://miljuschka.nl/wp-content/uploads/2021/04/thaise-biefstuksalade.jpg",
+  "keywords": [
+    "biefstuk"
+  ]
+}

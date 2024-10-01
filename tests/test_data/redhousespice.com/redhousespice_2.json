@@ -16,7 +16,6 @@
     "Chinese chilli oil (to taste)",
     "Sichuan pepper oil (optional)"
   ],
-  "instructions": "Place cucumber onto a chopping board. Use the side of a cleaver, or a rolling pin/a meat pounder, to smash it. Make sure the pressure is enough to crack it open by one stroke, instead of pounding it multiple times on one spot. Then cut it crosswise into bite-sized pieces.\nTransfer the cucumber to a bowl. Sprinkle evenly with salt. Leave to rest for 10 minutes or so. Then drain away the water extracted by the salt (see note).\nAdd light soy sauce, black rice vinegar, sesame oil, sugar, minced garlic, chilli oil and Sichuan pepper oil if using. Toss very well to evenly distribute the seasonings.\nEnjoy it right away or let it sit for 2 minutes before serving (The flavour will penetrate further into the cucumber).",
   "instructions_list": [
     "Place cucumber onto a chopping board. Use the side of a cleaver, or a rolling pin/a meat pounder, to smash it. Make sure the pressure is enough to crack it open by one stroke, instead of pounding it multiple times on one spot. Then cut it crosswise into bite-sized pieces.",
     "Transfer the cucumber to a bowl. Sprinkle evenly with salt. Leave to rest for 10 minutes or so. Then drain away the water extracted by the salt (see note).",
@@ -34,15 +33,19 @@
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "53 kcal",
-    "carbohydrateContent": "6 g",
-    "proteinContent": "2 g",
     "fatContent": "2 g",
     "saturatedFatContent": "0.3 g",
-    "sodiumContent": "813 mg",
-    "fiberContent": "1 g",
+    "unsaturatedFatContent": "11 g",
+    "carbohydrateContent": "6 g",
     "sugarContent": "3 g",
-    "unsaturatedFatContent": "11 g"
+    "proteinContent": "2 g",
+    "sodiumContent": "813 mg",
+    "fiberContent": "1 g"
   },
+  "dietary_restrictions": [
+    "Vegan Diet",
+    "Vegetarian Diet"
+  ],
   "image": "https://redhousespice.com/wp-content/uploads/2022/06/chinese-smashed-cucumber-scaled.jpg",
   "keywords": [
     "cucumber salad",

@@ -15,7 +15,7 @@
     "¾ dl strösocker",
     "½ tsk flingsalt",
     "75 g Svenskt Smör från Arla®",
-    "1½ dl Arla Ko® Syrad grädde 30%",
+    "1½ dl Arla Ko® Syrad grädde",
     "½ tsk vaniljsocker",
     "½ liter vaniljglass"
   ],
@@ -41,20 +41,19 @@
     },
     {
       "ingredients": [
-        "1½ dl Arla Ko® Syrad grädde 30%",
+        "1½ dl Arla Ko® Syrad grädde",
         "½ tsk vaniljsocker",
         "½ liter vaniljglass"
       ],
       "purpose": null
     }
   ],
-  "instructions": "Första instruktionen\nSkala, kärna ur och skär äpplena i ca 1x1 cm tärningar. Lägg dem i en kastrull.\nDela och skrapa ur vaniljstången, lägg ner i kastrullen. Tillsätt vatten och socker, sjud ca 10 min. Ställ kallt.\nNästa instruktion\nSätt ugnen på 175°.\nNyp ihop alla ingredienser till smulkrispet. Lägg på en plåt med bakplåtspapper och baka i mitten av ugnen ca 10 min.\nSista instruktionen\nVispa den syrade grädden, rör i vaniljsockret.\nVarva kompott, smulkrisp, syrad grädde och glass i portionsglas. Börja med äppelkompott, avsluta med smulkrisp och toppa med glass.",
   "instructions_list": [
     "Första instruktionen",
     "Skala, kärna ur och skär äpplena i ca 1x1 cm tärningar. Lägg dem i en kastrull.",
     "Dela och skrapa ur vaniljstången, lägg ner i kastrullen. Tillsätt vatten och socker, sjud ca 10 min. Ställ kallt.",
     "Nästa instruktion",
-    "Sätt ugnen på 175°.",
+    "Sätt ugnen på 175° eller 160° varmluft.",
     "Nyp ihop alla ingredienser till smulkrispet. Lägg på en plåt med bakplåtspapper och baka i mitten av ugnen ca 10 min.",
     "Sista instruktionen",
     "Vispa den syrade grädden, rör i vaniljsockret.",
@@ -65,13 +64,13 @@
   "description": "Som en snabb och underbart god smulpaj på höjden! Trifle är en brittisk dessert-tradition som alltid innehåller någon typ av frukt, grädde och kaka i olika lager – en utsökt tradition.",
   "total_time": null,
   "ratings": 3.5,
-  "ratings_count": 205,
+  "ratings_count": 215,
   "nutrients": {
-    "type": "NutritionInformation",
     "calories": "470 kcal",
-    "carbohydrateContent": "55 g",
     "fatContent": "26 g",
-    "proteinContent": "4 g"
+    "carbohydrateContent": "55 g",
+    "proteinContent": "4 g",
+    "type": "NutritionInformation"
   },
   "image": "https://cdn-rdb.arla.com/Files/arla-se/1800291189/1765383d-98b9-4a7e-b6cb-a4a0d6bcbdbc.jpg?w=1300&h=525&mode=crop&ak=f525e733&hm=697c0698",
   "keywords": [

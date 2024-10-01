@@ -20,7 +20,6 @@
     "1 cup boiling water",
     "Chocolate Buttercream Frosting Recipe"
   ],
-  "instructions": "Preheat oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.\nFor the chocolate cake:\nAdd flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder to a large bowl or the bowl of a stand mixer. Whisk through to combine or, using your paddle attachment, stir through flour mixture until combined well.\nAdd milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.\nDistribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.\nRemove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely.\nFrost the cake with Chocolate Buttercream Frosting.",
   "instructions_list": [
     "Preheat oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.",
     "For the chocolate cake:",
@@ -40,16 +39,16 @@
   "ratings": 5.0,
   "ratings_count": 4164,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "124 kcal",
-    "carbohydrateContent": "27 g",
-    "proteinContent": "3 g",
     "fatContent": "1 g",
     "saturatedFatContent": "1 g",
-    "cholesterolContent": "15 mg",
+    "carbohydrateContent": "27 g",
+    "sugarContent": "17 g",
+    "proteinContent": "3 g",
     "sodiumContent": "178 mg",
     "fiberContent": "1 g",
-    "sugarContent": "17 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "15 mg"
   },
   "image": "https://addapinch.com/wp-content/uploads/2020/04/chocolate-cake-DSC_1768.jpg",
   "keywords": [

@@ -1,7 +1,9 @@
 import unittest
 
 from recipe_scrapers import (
+    AbstractScraper,
     NoSchemaFoundInWildMode,
+    RecipeSchemaNotFound,
     WebsiteNotImplementedError,
     scrape_html,
 )
@@ -17,3 +19,13 @@ class TestExceptions(unittest.TestCase):
 
         self.assertEqual(exception.url, "example.com")
         self.assertEqual(exception.message, "No Recipe Schema found at example.com.")
+
+    def test_no_schema_found_for_fill_plugin(self):
+        class TestScraper(AbstractScraper):
+            @classmethod
+            def host(cls):
+                return "example.com"
+
+        scraper = TestScraper(html="<html></html>", url="http://example.com/recipe")
+        with self.assertRaises(RecipeSchemaNotFound):
+            scraper.category()

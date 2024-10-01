@@ -17,7 +17,6 @@
     "1 baguette",
     "Sel et poivre"
   ],
-  "instructions": "Épluchez les oignons et les poireaux et émincez-les.\nFaites revenir à feu doux les oignons dans le beurre et laissez- les colorer, ajoutez la farine et déglacez avec le vin blanc.\nAjoutez les poireaux, arrosez de bouillon et laissez cuire 1h à feu doux.\nCoupez le pain et préparez des croûtons que vous ferez griller au four.\nVersez la soupe dans des bols allant au four sur laquelle vous rajouterez les croûtons.\nRâpez l'emmental et disposez-le dans les bols.\nFaites gratiner 6 min sous le grill jusqu'à ce que le râpé soit bien fondu.",
   "instructions_list": [
     "Épluchez les oignons et les poireaux et émincez-les.",
     "Faites revenir à feu doux les oignons dans le beurre et laissez- les colorer, ajoutez la farine et déglacez avec le vin blanc.",
@@ -29,9 +28,8 @@
   ],
   "category": null,
   "yields": "6 servings",
-  "description": null,
-  "total_time": 85.0,
-  "cook_time": 70.0,
+  "total_time": 85,
+  "cook_time": 70,
   "prep_time": 15,
   "cuisine": null,
   "ratings": null,

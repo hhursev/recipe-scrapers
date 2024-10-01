@@ -49,7 +49,6 @@
       "purpose": "Icing:"
     }
   ],
-  "instructions": "1.Preheat the oven to 350F degrees. Line a muffin pan with 8 liners. Sift the flour, baking soda, baking powder, and salt.\n2.Cream the butter & sugar until light and fluffy. Add the eggs one at a time. Slowly add the flour to the butter mixture. Add the sour cream & raspberry extract. Then stir in the chocolate chunks.\n3.Divide the batter evenly among the liners and bake for 15-20 minutes, until done. For mini cupcakes, bake 12-14 minutes.\nFor the icing:\n1/2 cup of cream cheese\n1 cup of sifted powder sugar\n1/2 tsp. of vanilla extract\n1/4 cup of butter ~~at; room temp.\nA half pint of fresh raspberries\nBeat cream cheese, powdered sugar, vanilla, butter and raspberries until smooth. Top each cupcake with frosting and 1 raspberry, if desired.",
   "instructions_list": [
     "1.Preheat the oven to 350F degrees. Line a muffin pan with 8 liners. Sift the flour, baking soda, baking powder, and salt.",
     "2.Cream the butter & sugar until light and fluffy. Add the eggs one at a time. Slowly add the flour to the butter mixture. Add the sour cream & raspberry extract. Then stir in the chocolate chunks.",
@@ -72,17 +71,17 @@
   "ratings": 3.96,
   "ratings_count": 24,
   "nutrients": {
+    "servingSize": "1 1 Serving (165g)",
     "calories": "481 calories",
     "fatContent": "26.8979413713296 g",
-    "carbohydrateContent": "57.4098187923495 g",
-    "cholesterolContent": "67.6928125483674 mg",
-    "fiberContent": "1.67127084293811 g",
-    "proteinContent": "5.32984031303912 g",
     "saturatedFatContent": "16.3710790210703 g",
-    "servingSize": "1 1 Serving (165g)",
-    "sodiumContent": "2999.16267349517 mg",
+    "transFatContent": "2.40130497025108 g",
+    "carbohydrateContent": "57.4098187923495 g",
     "sugarContent": "55.7385479494114 g",
-    "transFatContent": "2.40130497025108 g"
+    "proteinContent": "5.32984031303912 g",
+    "sodiumContent": "2999.16267349517 mg",
+    "fiberContent": "1.67127084293811 g",
+    "cholesterolContent": "67.6928125483674 mg"
   },
   "image": "https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/white-chocolate-raspberry-cupc-bd2bf9.jpg",
   "keywords": [

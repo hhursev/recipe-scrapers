@@ -17,7 +17,6 @@
     "1 teaspoon salt",
     "1-2 pounds chicken (breasts, cutlets, thighs, or drumsticks)"
   ],
-  "instructions": "To a Ziploc bag, add the chicken followed by the wet ingredients and the spices.\nSeal the bag, and toss the chicken so that the chicken is well coated in the marinade.\nPlace in the fridge and allow to marinate for 2-24 hours.\nRemove the chicken from the bag, and grill it or bake it until the internal temperature of the chicken reaches 165°F/74°C with an Instant read thermometer.",
   "instructions_list": [
     "To a Ziploc bag, add the chicken followed by the wet ingredients and the spices.",
     "Seal the bag, and toss the chicken so that the chicken is well coated in the marinade.",
@@ -33,15 +32,15 @@
   "ratings": 4.95,
   "ratings_count": 57,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "49 kcal",
-    "carbohydrateContent": "2 g",
-    "proteinContent": "1 g",
     "fatContent": "5 g",
     "saturatedFatContent": "1 g",
-    "sodiumContent": "400 mg",
-    "fiberContent": "1 g",
+    "carbohydrateContent": "2 g",
     "sugarContent": "1 g",
-    "servingSize": "1 serving"
+    "proteinContent": "1 g",
+    "sodiumContent": "400 mg",
+    "fiberContent": "1 g"
   },
   "image": "https://littlesunnykitchen.com/wp-content/uploads/2021/05/Mexican-Chicken-Marinade-1.jpg",
   "keywords": [

@@ -20,7 +20,6 @@
     "chili eller cayennepeber efter smag",
     "salt og peber"
   ],
-  "instructions": "Rengør og hak løg, peberfrugt og tomater i tern.\nOpvarm olie i en stor gryde og svits kyllingekebaben et par minutter. Tilsæt grøntsagerne og lad det svitse med yderligere 2 minutter.\nTilsæt spaghetti, flødeost, vand, bouillonterning og krydderier.\nLad retten simre ved middelvarme til spaghettien er aldente og vandet er kogt næsten ind til en cremet sauce.\nSmag til med salt og peber.",
   "instructions_list": [
     "Rengør og hak løg, peberfrugt og tomater i tern.",
     "Opvarm olie i en stor gryde og svits kyllingekebaben et par minutter. Tilsæt grøntsagerne og lad det svitse med yderligere 2 minutter.",
@@ -37,8 +36,8 @@
   "ratings": 4.0,
   "ratings_count": 40,
   "nutrients": {
-    "calories": "300 kcal",
-    "servingSize": "1 person"
+    "servingSize": "1 person",
+    "calories": "300 kcal"
   },
   "image": "https://sundpaabudget.dk/wp-content/uploads/2021/08/20210803123311_IMG_0714.jpg"
 }

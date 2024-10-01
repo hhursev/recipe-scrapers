@@ -23,7 +23,6 @@
     "Sea salt and black pepper (to taste)",
     "1/3 tsp red pepper flakes ((optional))"
   ],
-  "instructions": "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.\nHeat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.\nAdd all spices, sweetener, lentils, and vegetable broth or water. Bring to a boil and let simmer for about 10 minutes.\nFinally, add coconut milk and cook for a further 5 minutes or until the desired thickness of the dahl is reached.\nSeason with black pepper and salt. Taste and adjust the seasonings as needed.\nServe warm with basmati rice, potatoes, or naan (flatbread) and garnish with fresh herbs.",
   "instructions_list": [
     "You can watch the short video for visual instructions.Rinse lentils under running water. Chop the onion, garlic, ginger, bell pepper, and carrot.",
     "Heat oil in a pot and sauté onion for about 3-4 minutes over medium heat. Add ginger, garlic, carrot, and bell pepper.",
@@ -42,13 +41,13 @@
   "ratings": 4.95,
   "ratings_count": 125,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "302 kcal",
-    "proteinContent": "14 g",
-    "carbohydrateContent": "35 g",
     "fatContent": "9.7 g",
+    "carbohydrateContent": "35 g",
     "sugarContent": "5.8 g",
-    "fiberContent": "8.1 g",
-    "servingSize": "1 serving"
+    "proteinContent": "14 g",
+    "fiberContent": "8.1 g"
   },
   "image": "https://elavegan.com/wp-content/uploads/2019/10/Red-Lentil-Dhal-with-rice.jpg",
   "keywords": [
