@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_yields
 
 
 class TheGlutenFreeAustrian(AbstractScraper):
@@ -22,3 +23,7 @@ class TheGlutenFreeAustrian(AbstractScraper):
                 group.purpose = None
 
         return ingredient_groups
+
+    def yields(self):
+        yield_element = self.soup.select_one(".mv-create-title-wrap .mv-create-yield")
+        return get_yields(yield_element)
