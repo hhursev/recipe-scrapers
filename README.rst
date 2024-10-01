@@ -161,6 +161,7 @@ Scrapers available for:
 - `https://dish.co.nz/ <https://dish.co.nz>`_
 - `https://dobruchut.aktuality.sk/ <https://dobruchut.aktuality.sk>`_
 - `https://domesticate-me.com/ <https://domesticate-me.com/>`_
+- `https://donalskehan.com/ <https://donalskehan.com/>`_
 - `https://downshiftology.com/ <https://downshiftology.com/>`_
 - `https://www.dr.dk/ <https://www.dr.dk/>`_
 - `https://www.eatingbirdfood.com/ <https://www.eatingbirdfood.com>`_
@@ -168,6 +169,7 @@ Scrapers available for:
 - `https://www.eatliverun.com/ <https://www.eatliverun.com/>`_
 - `https://eatsmarter.com/ <https://eatsmarter.com/>`_
     - `.de <https://eatsmarter.de/>`__
+- `https://eatthismuch.com/ <https://eatthismuch.com/>`_
 - `https://eattolerant.de/ <https://eattolerant.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
@@ -274,6 +276,7 @@ Scrapers available for:
 - `https://www.mccormick.com/ <https://www.mccormick.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
+- `https://www.miljuschka.nl/ <https://www.miljuschka.nl/>`_
 - `http://mindmegette.hu/ <http://mindmegette.hu/>`_
 - `https://minimalistbaker.com/ <https://minimalistbaker.com/>`_
 - `https://ministryofcurry.com/ <https://ministryofcurry.com/>`_

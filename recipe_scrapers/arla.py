@@ -11,6 +11,6 @@ class Arla(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            "div.u-mt--m > h5",
-            "div.u-mt--m > table > tbody > tr",
+            ".c-recipe__ingredients-group h5",
+            ".c-recipe__ingredients-group tr",
         )

@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
 from ._utils import normalize_string
 
 
@@ -8,32 +7,12 @@ class GesundAktiv(AbstractScraper):
     def host(cls):
         return "gesund-aktiv.com"
 
-    def site_name(self):
-        raise StaticValueException(return_value="gesund + aktiv")
-
-    def title(self):
-        return self.soup.find("h1", {"class": "page-header"}).get_text()
-
-    def image(self):
-        return self.soup.find("a", {"class": "colorbox"})["href"]
+    def author(self):
+        return self.site_name()
 
     def ingredients(self):
         ingredients_container = self.soup.find(
-            "div", {"class": "field--name-field-zutaten"}
+            "div", {"class": "news-recipes-indgredients"}
         )
-        ingredients = ingredients_container.findAll("div", {"class": "field--item"})
-        return [normalize_string(instruction.get_text()) for instruction in ingredients]
-
-    def instructions(self):
-        instructions_container = self.soup.find(
-            "div", {"class": "field--name-field-content-element"}
-        )
-        instructions = instructions_container.findAll("div", {"class": "field--item"})
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
-
-    def description(self):
-        return normalize_string(
-            self.soup.find("meta", {"name": "description"})["content"]
-        )
+        ingredients = ingredients_container.findAll("li")
+        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]

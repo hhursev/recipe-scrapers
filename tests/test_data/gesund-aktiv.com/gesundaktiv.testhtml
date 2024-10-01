@@ -1,726 +1,1164 @@
 <!DOCTYPE html>
-<html  lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-  <head>
-    <meta charset="utf-8" />
-<link rel="canonical" href="https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes" />
-<meta name="robots" content="index, follow" />
-<meta name="description" content="Tagesstart à la Popeye: Fluffige Spinat-Pfannkuchen mit süßem Topping aus Joghurt, Honig und Beeren. " />
-<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0779bf} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
-<link rel="icon" href="/themes/contrib/ga/favicon.ico" type="image/vnd.microsoft.icon" />
+<html lang="de">
+<head>
 
-    <title>Süße Spinat-Pancakes | gesund + aktiv</title>
-    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/modules/contrib/eu_cookie_compliance/css/eu_cookie_compliance.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/modules/contrib/webform/modules/webform_bootstrap/css/webform_bootstrap.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/core/modules/layout_discovery/layouts/onecol/onecol.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/modules/contrib/colorbox/styles/default/colorbox_style.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/themes/contrib/ga/assets/css/bootstrap.min.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/themes/contrib/ga/assets/css/bootstrap.drupal.min.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/themes/contrib/ga/assets/css/font-awesome.min.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/themes/contrib/ga/assets/css/style.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/themes/contrib/ga/assets/css/responsive.css?ru5cfe" />
-<link rel="stylesheet" media="all" href="/themes/contrib/ga/assets/css/responsive-tablet.css?ru5cfe" />
+<meta charset="utf-8">
 
 
-  </head>
-  <body class="path-node page-node-type-rezept has-glyphicons">
-    <a href="#main-content" class="visually-hidden focusable skip-link">
-      Direkt zum Inhalt
+
+<link rel="icon" href="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Icons/favicon.ico" type="image/vnd.microsoft.icon">
+<title>Süße Spinat-Pancakes Rezept</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Tagesstart à la Popeye: Fluffige Spinat-Pfannkuchen mit süßem Topping aus Joghurt, Honig und Beeren. ">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta property="og:title" content="Süße Spinat-Pancakes">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes">
+<meta property="og:image" content="https://www.gesund-aktiv.com/fileadmin/data/rezepte/info/rezept_suesse_spinat_pancakes_a.png">
+<meta property="og:image:width" content="767">
+<meta property="og:image:height" content="430">
+<meta property="og:description" content="Tagesstart à la Popeye: Fluffige Spinat-Pfannkuchen mit süßem Topping aus Joghurt, Honig und Beeren. ">
+<meta property="og:site_name" content="gesund + aktiv">
+<meta name="twitter:card" content="summary">
+<meta name="apple-mobile-web-app-capable" content="no">
+<meta name="google" content="notranslate">
+
+<link rel="stylesheet" href="https://www.gesund-aktiv.com/typo3temp/assets/compressed/merged-f3ed7bca1ea097a9c3718e1479ddff66-4aca1a8954d6e1d4e42824f49587d901.css?1724363443" media="all">
+<link rel="stylesheet" href="https://www.gesund-aktiv.com/typo3temp/assets/compressed/merged-7fc0c362b8fdf8b10e70aacd5a15deb7-a9a761cb064bc61647aa5da9bfb0a38f.css?1724363443" media="all">
+
+
+<script src="https://www.gesund-aktiv.com/typo3temp/assets/compressed/merged-f0b33d7358a83daf4f12501668da67d4-c195cd95ef29c00c88c5889ae5d3788f.js?1724363443"></script>
+
+
+
+<script data-ignore="1" data-cookieconsent="statistics" type="text/plain"></script><script data-ignore="1" >function DPInitTagManager(){if(typeof window.tx_cookieconsent_init == 'undefined'){
+    window.tx_cookieconsent_init = true;
+    /* Google Tag Manager */
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NXS4MH6F');
+    /* End Google Tag Manager */
+
+    window.dataLayer = window.dataLayer || [];
+    if(typeof window.gtag == 'undefined') window.gtag = function() { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500
+    });
+}}</script><script data-ignore="1" data-cookieconsent="statistics" type="text/plain">/* Init DP Tag Manager */ DPInitTagManager(); /* End Init DP Tag Manager*/</script><script data-ignore="1" data-cookieconsent="marketing" type="text/plain">/* Init DP Tag Manager */ DPInitTagManager(); /* End Init DP Tag Manager*/</script><script data-ignore="1" data-cookieconsent="statistics" type="text/plain">/* DP publisch Events to Tag Manager */
+gtag('consent', 'update', {
+  'analytics_storage': 'granted'
+});
+window.dataLayer.push({ 'event': 'dp-cookie-statistics-accept' });
+/* End DP publisch Events to Tag Manager */</script><script data-ignore="1" data-cookieconsent="marketing" type="text/plain">/* DP publisch Events to Tag Manager */
+gtag('consent', 'update', {
+  'ad_storage': 'granted',
+  'ad_user_data': 'granted',
+  'ad_personalization': 'granted'
+});
+window.dataLayer.push({ 'event': 'dp-cookie-marketing-accept' });
+/* End DP publisch Events to Tag Manager */</script>
+<link rel="canonical" href="https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes"/>
+
+<script type="application/ld+json" id="ext-schema-jsonld">{"@context":"https://schema.org/","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":{"@type":"WebPage","@id":"https://www.gesund-aktiv.com/"},"name":"Für Patienten","position":"1"},{"@type":"ListItem","item":{"@type":"WebPage","@id":"https://www.gesund-aktiv.com/magazin"},"name":"Info-Center","position":"2"},{"@type":"ListItem","item":{"@type":"WebPage","@id":"https://www.gesund-aktiv.com/rezepte"},"name":"Rezepte","position":"3"}]},{"@type":"Recipe","datePublished":"2022-01-04T17:48:54+01:00","description":"Tagesstart à la Popeye: Fluffige Spinat-Pfannkuchen mit süßem Topping aus Joghurt, Honig und Beeren. ","image":"https://www.gesund-aktiv.com/fileadmin/data/rezepte/info/rezept_suesse_spinat_pancakes_a.png","name":"Süße Spinat-Pancakes","recipeCategory":"Frühstück","recipeInstructions":["Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen Masse vermixen. ","Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig entsteht.","Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune immer wieder wenden.\r\nTipp: Mit kleinen, für die Pfanne geeigneten Dessertringen lassen sich die Pancakes ganz einfach in Form halten.","Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und genießen."]}]}</script>
+</head>
+<body id="p63" class="page-63 pagelevel-4 language-0 backendlayout-default layout-default">
+
+<div id="top"></div>
+<div class="body-bg">
+
+    
+
+
+
+
+    <a class="visually-hidden-focusable page-skip-link" href="#page-content">
+        <span>Skip to main content</span>
+    </a>
+    <a class="visually-hidden-focusable page-skip-link" href="#page-footer">
+        <span>Skip to page footer</span>
     </a>
 
-      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
-    <div class="grey-band header">
-  <div class="container">
-    <div class="gua-top-bar">
-        <div class="region region-gua-top-bar">
-    <nav role="navigation" aria-labelledby="block-mainmenu-2-menu" id="block-mainmenu-2">
-
-  <h2 class="visually-hidden" id="block-mainmenu-2-menu">Main menu</h2>
+    
 
 
 
-            <ul class="menu menu--main nav navbar-nav">
-                                                                            <li class="active active-trail first" data-title="für-patientinnen">
-                                                                                                    <a href="/" class="active-trail" data-drupal-link-system-path="&lt;front&gt;">Für Patient:innen</a>
 
-                                    </li>
-                                                                            <li class="last" data-title="für-therapeutinnen">
-                                                                                                    <a href="/fuer-therapeuten" data-drupal-link-system-path="node/11082">Für Therapeut:innen</a>
-
-                                    </li>
-                    </ul>
-
-  </nav>
-
-  </div>
-
-    </div>
-  </div>
-</div>
-<div class="grey-band">
-                  <header class="navbar navbar-default container" id="navbar" role="banner">
-        <div class="container">
-          <div class="navbar-header">
-              <div class="region region-branding">
-                <a class="logo navbar-btn pull-left" href="/" title="Startseite" rel="home">
-            <img src="/themes/contrib/ga/logo.svg" alt="Startseite" />
-        </a>
-
-  </div>
-
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                <span class="sr-only">Navigation aktivieren/deaktivieren</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-                      </div>
-
-                      <div id="navbar-collapse" class="navbar-collapse collapse">
-                <div class="region region-navigation">
-    <nav role="navigation" aria-labelledby="block-mainmenu-menu" id="block-mainmenu">
-
-  <h2 class="visually-hidden" id="block-mainmenu-menu">Main menu</h2>
+<header id="page-header" class="bp-page-header navbar navbar-mainnavigation navbar-default navbar-has-image navbar-top">
+    <div class="container container-mainnavigation">
+        
+<a class="navbar-brand navbar-brand-image" title="gesund aktiv" href="https://www.gesund-aktiv.com/">
+    
+            <img class="navbar-brand-logo-normal" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Images/logo.svg" alt="gesund aktiv" height="52" width="192">
+            
+                <img class="navbar-brand-logo-inverted" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Images/logo-inverted.svg" alt="gesund aktiv" height="52" width="192">
+            
+        
+</a>
 
 
-
-            <ul class="menu menu--main nav navbar-nav">
-                                                                            <li class="first" data-title="stoffwechselprogramm">
-                                                                                                    <a href="/stoffwechselprogramm" data-drupal-link-system-path="node/11075">Stoffwechselprogramm</a>
-
-                                    </li>
-                                                                            <li data-title="ernährung--gesundheit">
-                                                                                                    <a href="/ernaehrung-und-gesundheit" data-drupal-link-system-path="taxonomy/term/66">Ernährung &amp; Gesundheit</a>
-
-                                    </li>
-                                                                            <li class="expanded dropdown active active-trail" data-title="info-center">
-                                                                                                                                                                        <a href="/magazin" class="dropdown-toggle active-trail" data-drupal-link-system-path="node/11087">Info-Center <span class="caret"></span></a>
-                                                        <ul class="dropdown-menu">
-                                                                            <li class="active active-trail first" data-title="rezepte">
-                                                                                                    <a href="/rezepte" class="active-trail" data-drupal-link-system-path="taxonomy/term/14">Rezepte</a>
-
-                                    </li>
-                                                                            <li data-title="wissenswertes">
-                                                                                                    <a href="/wissenswertes" data-drupal-link-system-path="taxonomy/term/5">Wissenswertes</a>
-
-                                    </li>
-                                                                            <li data-title="erfolgsgeschichten">
-                                                                                                    <a href="/erfolgsgeschichten" data-drupal-link-system-path="taxonomy/term/6">Erfolgsgeschichten</a>
-
-                                    </li>
-                                                                            <li class="last" data-title="lesestoff">
-                                                                                                    <a href="/buecher" data-drupal-link-system-path="node/11076">Lesestoff</a>
-
-                                    </li>
-                    </ul>
+        
+            
+<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainnavigation" aria-controls="mainnavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
 
 
-                                    </li>
-                                                                            <li data-title="suche">
-                                                                                                    <a href="/suche" data-drupal-link-system-path="suche">Suche</a>
-
-                                            <div class="searchbar">
-                              <div class="region region-gua-search-bar">
-    <section class="views-exposed-form block block-views block-views-exposed-filter-blocksuche-page-1 clearfix" data-drupal-selector="views-exposed-form-suche-page-1" id="block-hervorgehobenesformularsuchepage-1-2">
-
-
-
-      <form action="/suche" method="get" id="views-exposed-form-suche-page-1" accept-charset="UTF-8">
-  <div class="form--inline form-inline clearfix">
-  <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-search-api-fulltext js-form-item-search-api-fulltext form-no-label form-group">
-
-
-  <input placeholder="Suchbegriff eingeben ..." data-drupal-selector="edit-search-api-fulltext" class="form-text form-control" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" />
-
-
-
-  </div>
-<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions"><button data-drupal-selector="edit-submit-suche" class="button js-form-submit form-submit btn-default btn" type="submit" id="edit-submit-suche" value="Suchen" name="">Suchen</button></div>
-
+            <nav aria-label="Main navigation" id="mainnavigation" class="collapse navbar-collapse">
+                
+<div class="mobile-search align-items-center mt-4 me-5 ms-5">
+    <form action="https://www.gesund-aktiv.com/suche" method="GET">
+        <div class="input-group">
+            <div class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="16" height="16" viewBox="0 0 32 32" class="" aria-hidden="true"><path d="M13.3 1c1.7 0 3.3.3 4.8 1 1.5.6 2.8 1.5 3.9 2.6s2 2.4 2.6 3.9c.6 1.5 1 3.1 1 4.8v.1c0 2.3-.6 4.5-1.9 6.5l6.9 6.8c.4.4.6.8.6 1.1 0 .3-.2.7-.6 1.1L29 30.5c-.4.3-.8.5-1.2.5-.3 0-.7-.2-1-.5L20 23.6c-2 1.3-4.2 1.9-6.5 1.9h-.1c-1.7 0-3.3-.3-4.8-1s-2.9-1.4-4-2.5-2-2.4-2.6-3.9c-.6-1.5-1-3.1-1-4.8 0-1.7.3-3.3 1-4.8s1.5-2.8 2.6-3.9S7 2.7 8.5 2s3.1-1 4.8-1zm0 4.3c-1.5 0-2.8.4-4 1.1S7 8 6.3 9.2s-1.1 2.6-1.1 4c0 1.5.4 2.8 1.1 4 .7 1.4 1.7 2.3 2.9 3.1 1.2.7 2.6 1.1 4 1.1s2.8-.4 4-1.1c1.2-.7 2.2-1.7 2.9-2.9.7-1.2 1.1-2.6 1.1-4 0-1.5-.4-2.8-1.1-4-.6-1.4-1.6-2.4-2.8-3.1s-2.6-1-4-1z"></path></svg></div>
+            <input type="text" name="tx_kesearch_pi1[sword]" placeholder="Suchbegriff eingeben">
+        </div>
+    </form>
 </div>
 
-  <div class="clearfix"></div>
-</form>
-
-  </section>
 
 
-  </div>
+                
+
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+            
+
+                    
+                    <li class="nav-item ">
+                        <a
+                            id="nav-item-4"
+                            href="https://www.gesund-aktiv.com/stoffwechselprogramm"
+                            class="nav-link nav-link-main"
+                            
+                            
+                            aria-current="false"
+                            >
+                            
+                            <span class="nav-link-text">
+                                Stoffwechselprogramm
+                                
+                            </span>
+                        </a>
+                        
+                        <div class="dropdown-menu">
+                            
+    
+
+
+
 
                         </div>
-                                    </li>
-                                                                            <li class="last" data-title="therapeuten-finden">
-                                                                                                    <a href="/ihr-therapeut-vor-ort" data-drupal-link-system-path="node/11074">Therapeuten finden</a>
-
-                                    </li>
-                    </ul>
-
-  </nav>
-
-  </div>
-
-            </div>
-                  </div>
-      </header>
-        </div>
-
-  <div class="container-fluid">
-    <div class="gua-hero-bar">
-        <div class="region region-gua-hero-bar">
-    <section id="block-ga-block-72" class="block block-block-content block-block-contente661eb4e-2714-446b-8c90-c72d798ac12a clearfix">
-
-
-
-
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"> <div class="container-fluild np hero-title">
-<div class="hero-title-rezepte">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <span class="gua-hero-title">Rezepte</span>
-      </div>
-    </div>
-  </div>
-</div>
-</div> </div>
-
-  </section>
-
-
-  </div>
-
-    </div>
-  </div>
-
-  <div class="main-container container page-node-11154">
-    <div class="row">
-
-            <section class="col-md-8">
-        <a id="main-content"></a>
-
-
-
-
-
-                    <div class="region region-content">
-    <div data-drupal-messages-fallback class="hidden"></div><section id="block-titelblock" class="block block-block-content block-block-content66f617cd-d22c-42c2-9d61-349c73892f17 clearfix">
-
-
-
-
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h1 class="page-header">
- Süße Spinat-Pancakes</h1></div>
-
-  </section>
-
-  <article role="article" about="/rezepte/fruehstueck/suesse-spinat-pancakes" class="rezept is-promoted full clearfix">
-
-
-
-
-
-  <div class="content">
-        <div class="layout layout--onecol" id="panel-bootstrap-region-center">
-        <div  class="layout__region layout__region--content">
-            <section class="block block-layout-builder block-field-blocknoderezeptfield-teaserbild clearfix">
-
-
-
-
-            <div class="field field--name-field-teaserbild field--type-entity-reference field--label-hidden field--item"><div>
-
-      <div class="layout layout--onecol" id="panel-bootstrap-region-center">
-        <div  class="layout__region layout__region--content">
-            <section class="block block-layout-builder block-field-blockmediaimagefield-media-image clearfix">
-
-
-
-
-  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
-    <div class="field--label sr-only">Image</div>
-              <div class="field--item">
-<a href="https://www.gesund-aktiv.com/sites/default/files/2022-01/rezept_suesse_spinat-pancakes-a.png" aria-controls="colorbox" aria-label="{&quot;alt&quot;:&quot;&quot;}" role="button"  title="Süße Spinat-Pancakes" data-colorbox-gallery="" class="colorbox" data-cbox-img-attrs="{&quot;alt&quot;:&quot;&quot;}"><img src="/sites/default/files/styles/full_width/public/2022-01/rezept_suesse_spinat-pancakes-a.png?itok=eREHlaOS" width="716" height="401" alt="" loading="lazy" typeof="foaf:Image" class="img-responsive" />
-
-</a>
-</div>
-          </div>
-
-  </section>
-
-
-        </div>
-    </div>
-
-</div>
-</div>
-
-  </section>
-
-<section class="views-element-container block block-views block-views-blockinformationn-block clearfix">
-
-
-
-      <div class="form-group"><div class="js-view-dom-id-d8995e899ebbf2cf8d234882160a6cf8c8db759a1cdc4a2e3528d2629397fd5f">
-
-
-
-
-      <div class="view-informationn views-row"><div class="views-field views-field-field-stand"><span class="views-label views-label-field-stand">Stand: </span><div class="field-content">-</div></div><div class="views-field views-field-field-foto-credits"><span class="views-label views-label-field-foto-credits">Foto: </span><div class="field-content">Shutterstock</div></div><div class="views-field views-field-nothing"><span class="field-content"> <a href="mailto:?subject=Süße Spinat-Pancakes&amp;body=https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes">An E-mail versenden</a></span></div><div class="views-field views-field-field-pdf-download"><div class="field-content"><div>
-
-
-  <div class="field field--name-field-media-document field--type-file field--label-visually_hidden">
-    <div class="field--label sr-only">Document</div>
-              <div class="field--item"><span class="file-d"><img class="file-d-icon" alt="PDF icon" title="application/pdf" src="/themes/contrib/ga/assets/img/application-pdf.png"><a href="https://www.gesund-aktiv.com/sites/default/files/2022-01/rezept_suesse_spinat_pancakes.pdf" type="application/pdf; length=408159" title="Datei in neuem Fenster öffnen" target="_blank" data-toggle="tooltip" data-placement="bottom">Download</a><span class="file-d-size"> (238.74 KB) </span></span></div>
-          </div>
-
-</div>
-</div></div></div>
-
-
-
-
-
-
-
-
-</div>
-</div>
-
-  </section>
-
-<section class="block block-layout-builder block-field-blocknoderezeptfield-zutaten clearfix">
-
-
-
-
-  <div class="field field--name-field-zutaten field--type-string field--label-above">
-    <div class="field--label">Zutaten*:</div>
-          <div class="field--items">
-              <div class="field--item">80 g Spinat</div>
-          <div class="field--item">125 g Quark (Schaf)</div>
-          <div class="field--item">100 ml Milch (Schaf)</div>
-          <div class="field--item">100 g Dinkelmehl</div>
-          <div class="field--item">2 Stück Eier</div>
-          <div class="field--item">2 Esslöffel Joghurt (Schaf)</div>
-          <div class="field--item">50 g Blaubeeren</div>
-          <div class="field--item">2 Esslöffel Honig</div>
-          <div class="field--item">2 Esslöffel Rapsöl</div>
-          <div class="field--item">1 Prise Salz</div>
-              </div>
-      </div>
-
-  </section>
-
-<section class="block block-layout-builder block-inline-blockbasic clearfix">
-
-
-
-
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p>* Beispielhafte Mengenvorgaben, individuelle Mengen entnehmen Sie bitte Ihrem Ernährungsplan.</p>
-
-<p> </p>
-</div>
-
-  </section>
-
-<section class="block block-layout-builder block-field-blocknoderezeptfield-content-element clearfix">
-
-
-
-
-  <div class="field field--name-field-content-element field--type-entity-reference-revisions field--label-above">
-    <div class="field--label">Zubereitung:</div>
-          <div class="field--items">
-              <div class="field--item">  <div class="paragraph paragraph--type--content-element paragraph--view-mode--full">
-
-            <div><h3 class="ga-content-block-title">1</h3></div>
-
-<div class="ga-content-block-content">
-            <div><p>Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen Masse vermixen.</p>
-</div>
-      </div>
-      </div>
-</div>
-          <div class="field--item">  <div class="paragraph paragraph--type--content-element paragraph--view-mode--full">
-
-            <div><h3 class="ga-content-block-title">2</h3></div>
-
-<div class="ga-content-block-content">
-            <div><p>Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig entsteht.</p>
-</div>
-      </div>
-      </div>
-</div>
-          <div class="field--item">  <div class="paragraph paragraph--type--content-element paragraph--view-mode--full">
-
-            <div><h3 class="ga-content-block-title">3</h3></div>
-
-<div class="ga-content-block-content">
-            <div><p>Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune immer wieder wenden. Tipp: Mit kleinen, für die Pfanne geeigneten Dessertringen lassen sich die Pancakes ganz einfach in Form halten.</p>
-</div>
-      </div>
-      </div>
-</div>
-          <div class="field--item">  <div class="paragraph paragraph--type--content-element paragraph--view-mode--full">
-
-            <div><h3 class="ga-content-block-title">4</h3></div>
-
-<div class="ga-content-block-content">
-            <div><p>Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und genießen.</p>
-</div>
-      </div>
-      </div>
-</div>
-              </div>
-      </div>
-
-  </section>
-
-<section class="block block-layout-builder block-field-blocknoderezeptfield-rezeptvariation clearfix">
-
-
-
-
-  <div class="field field--name-field-rezeptvariation field--type-string-long field--label-above">
-    <div class="field--label">Rezeptvariation</div>
-              <div class="field--item">Die Pancakes schmecken auch als pikante Variante mit Grünkohl sehr lecker.</div>
-          </div>
-
-  </section>
-
-<section class="block block-layout-builder block-field-blocknoderezeptfield-zusatzinformation clearfix">
-
-
-
-
-  <div class="field field--name-field-zusatzinformation field--type-text-long field--label-above">
-    <div class="field--label">gesund + aktiv informiert</div>
-              <div class="field--item"><p>Der Spinat ist für seine vielen wertvollen Inhaltsstoffe bekannt. Jedoch ist er auch reich an Oxalsäure. Diese kann die Bioverfügbarkeit von Calcium und Eisen verschlechtern. Daher wird empfohlen Spinat mit Milchprodukten zu verzehren, da durch diese Calciumoxalat entsteht, welches die Oxalsäure unschädlich macht</p>
-</div>
-          </div>
-
-  </section>
-
-
-        </div>
+                    </li>
+
+                
+        
+            
+
+                    
+                    <li class="nav-item ">
+                        <a
+                            id="nav-item-5"
+                            href="https://www.gesund-aktiv.com/ernaehrung-und-gesundheit"
+                            class="nav-link nav-link-main"
+                            
+                            
+                            aria-current="false"
+                            >
+                            
+                            <span class="nav-link-text">
+                                Ernährung &amp; Gesundheit
+                                
+                            </span>
+                        </a>
+                        
+                        <div class="dropdown-menu">
+                            
+    
+
+
+
+
+                        </div>
+                    </li>
+
+                
+        
+            
+
+                    
+                    <li class="nav-item active nav-style-simple ">
+                        <a
+                            id="nav-item-6"
+                            href="https://www.gesund-aktiv.com/magazin"
+                            class="nav-link nav-link-main active"
+                            
+                            
+                            aria-current="false"
+                            >
+                            
+                            <span class="nav-link-text">
+                                Info-Center
+                                
+                            </span>
+                        </a>
+                        
+                            <button
+                                type="button"
+                                id="nav-toggle-6"
+                                class="nav-link nav-link-toggle"
+                                data-bs-toggle="dropdown"
+                                data-bs-display="static"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >
+                                <span class="nav-link-indicator" aria-hidden="true"></span>
+                                <span class="nav-link-text visually-hidden">Submenu for "Info-Center"</span>
+                            </button>
+                        
+                        <div class="dropdown-menu dropdown-menu-simple">
+                            
+    
+        <ul class="dropdown-nav" data-level="2">
+            
+            
+                
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-dropdown active" href="https://www.gesund-aktiv.com/rezepte" title="Rezepte">
+                                <span class="nav-link-text">
+                                    Rezepte
+                                    
+                                </span>
+                            </a>
+                            
+    
+
+                        </li>
+                    
+            
+                
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-dropdown" href="https://www.gesund-aktiv.com/wissenswertes" title="Wissenswertes">
+                                <span class="nav-link-text">
+                                    Wissenswertes
+                                    
+                                </span>
+                            </a>
+                            
+    
+
+                        </li>
+                    
+            
+                
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-dropdown" href="https://www.gesund-aktiv.com/erfolgsgeschichten" title="Erfolgsgeschichten">
+                                <span class="nav-link-text">
+                                    Erfolgsgeschichten
+                                    
+                                </span>
+                            </a>
+                            
+    
+
+                        </li>
+                    
+            
+                
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-dropdown" href="https://www.gesund-aktiv.com/buecher" title="Lesestoff">
+                                <span class="nav-link-text">
+                                    Lesestoff
+                                    
+                                </span>
+                            </a>
+                            
+    
+
+                        </li>
+                    
+            
+        </ul>
+    
+
+
+
+
+                        </div>
+                    </li>
+
+                
+        
+            
+
+                    
+                    <li class="nav-item search">
+                        <a
+                            id="nav-item-27"
+                            href="https://www.gesund-aktiv.com/suche"
+                            class="nav-link nav-link-main"
+                            
+                            
+                            aria-current="false"
+                            >
+                            
+                                <span class="nav-link-icon suche">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="16" height="16" viewBox="0 0 32 32" class="" aria-hidden="true"><path d="M13.3 1c1.7 0 3.3.3 4.8 1 1.5.6 2.8 1.5 3.9 2.6s2 2.4 2.6 3.9c.6 1.5 1 3.1 1 4.8v.1c0 2.3-.6 4.5-1.9 6.5l6.9 6.8c.4.4.6.8.6 1.1 0 .3-.2.7-.6 1.1L29 30.5c-.4.3-.8.5-1.2.5-.3 0-.7-.2-1-.5L20 23.6c-2 1.3-4.2 1.9-6.5 1.9h-.1c-1.7 0-3.3-.3-4.8-1s-2.9-1.4-4-2.5-2-2.4-2.6-3.9c-.6-1.5-1-3.1-1-4.8 0-1.7.3-3.3 1-4.8s1.5-2.8 2.6-3.9S7 2.7 8.5 2s3.1-1 4.8-1zm0 4.3c-1.5 0-2.8.4-4 1.1S7 8 6.3 9.2s-1.1 2.6-1.1 4c0 1.5.4 2.8 1.1 4 .7 1.4 1.7 2.3 2.9 3.1 1.2.7 2.6 1.1 4 1.1s2.8-.4 4-1.1c1.2-.7 2.2-1.7 2.9-2.9.7-1.2 1.1-2.6 1.1-4 0-1.5-.4-2.8-1.1-4-.6-1.4-1.6-2.4-2.8-3.1s-2.6-1-4-1z"/></svg>
+                                </span>
+                            
+                            <span class="nav-link-text">
+                                Suche
+                                
+                            </span>
+                        </a>
+                        
+                        <div class="dropdown-menu">
+                            
+    
+
+
+
+
+                        </div>
+                    </li>
+
+                
+        
+    </ul>
+    <div class="nav-item quick-nav">
+        <a href="https://www.gesund-aktiv.com/fuer-therapeuten" class="nav-link">Für Therapeuten</a>
     </div>
 
-  </div>
 
-</article>
 
-<section id="block-prevnext" class="block block-prev-next block-prev-next-block clearfix">
+                
 
 
 
-      <div class="row width_100p">
-    <div class="col-md-4">
+            </nav>
+        
+    </div>
+</header>
 
-            </div>
 
-    <div class="col-md-4">
-        <div class="news_backlink">
+
+    <div class="border-section">
+        
+    
+
+    </div>
+    
+
+
+
+    <main id="panel-bootstrap-region-center" class="bp-page-content main-section">
+        <!--TYPO3SEARCH_begin-->
+        
+    
+    <div class="section section-default">
+        
+
+
+
+
+
+
+
+
+        <div id="c157" class=" frame frame-default frame-type-news_pi1 frame-layout-none frame-size-default frame-height-default frame-background-none frame-space-before-none frame-space-after-none frame-no-backgroundimage">
+            <div class="frame-group-container">
+                <div class="frame-group-inner">
+                    
+
+
+
+                    <div class="frame-container frame-container-default">
+                        <div class="frame-inner">
+                            
+    
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+    
+<div class="news news-single">
+    <div class="article" itemscope="itemscope" itemtype="http://schema.org/Article">
+        
+	
+        
+            
+                
+            
+            
+            
+                
+            
+        
+
+
+        
+
+        <div class="row frame frame-default frame-type-news_pi1 frame-layout-default frame-size-default frame-height-default frame-background-none frame-space-before-none frame-space-after-none frame-no-backgroundimage frame-space-before-real-none">
+            <div class="col-md-8">
+                <div class="news-image mb-5">
+                    
+                        <div class="thumbnail">
+                            
+                                    
+
+                                    
+                                        
+                                    
+
+                                    <a href="https://www.gesund-aktiv.com/fileadmin/data/rezepte/info/rezept_suesse_spinat_pancakes_a.png" title=""
+                                       class="lightbox"
+                                       rel="lightbox-242"
+                                       data-lightbox-width="767"
+                                       data-lightbox-height="430"
+                                       lightbox-title=""
+                                       lightbox-alt=""
+                                       lightbox-caption="">
+                                        <img itemprop="image" class="img-fluid" loading="lazy" src="https://www.gesund-aktiv.com/fileadmin/_processed_/4/8/csm_rezept_suesse_spinat_pancakes_a_195740f1a6.png" width="840" height="471" alt="" />
+                                    </a>
+                                
+                            
+                                
+                                    
+                                
+                                    
+                                        <div class="list-category-title">
+                                            <div class="background--white">
+                                                
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="orig" viewBox="0 0 96 96" width="35">
+  <defs>
+    <style>.gray-LT{fill:#d8d8d8;}</style>
+  </defs>
+  <title>egg_gray_LT</title>
+  <path class="gray-LT" d="M56.38,38.8A2,2,0,0,1,54.58,41h-.2a2,2,0,0,1-2-1.8,21,21,0,0,0-4.49-11,2,2,0,1,1,3.2-2.4A25.08,25.08,0,0,1,56.38,38.8ZM73.79,54.6A24.33,24.33,0,0,1,60.34,74.09a13.68,13.68,0,0,1,1.55,5A3.52,3.52,0,0,1,58.4,83H37.6a3.52,3.52,0,0,1-3.49-3.91,13.67,13.67,0,0,1,1.55-5A24.33,24.33,0,0,1,22.21,54.6a5,5,0,0,1,5-5.6H28c.13-15.12,6.35-36,20-36S67.86,33.88,68,49h.82a5,5,0,0,1,5,5.6ZM32,49H64c-.13-15.49-6.21-32-16-32S32.14,33.51,32,49Zm37.81,5.13a1,1,0,0,0-.25-.78,1,1,0,0,0-.76-.35H27.19a1,1,0,0,0-1,1.13,20.53,20.53,0,0,0,13.2,17.24,2,2,0,0,1,.81,3.14,9.33,9.33,0,0,0-2,4.49H57.84a9.33,9.33,0,0,0-2-4.49,2,2,0,0,1-.39-1.78,2,2,0,0,1,1.21-1.36A20.53,20.53,0,0,0,69.82,54.14Z"/>
+</svg>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                                
+                                    
+                                        <div class="list-category-title">
+                                            <div class="background--white">
+                                                
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="orig" viewBox="0 0 96 96" width="35">
+  <defs>
+    <style>.gray-LT{fill:#d8d8d8;}</style>
+  </defs>
+  <title>veggie_gray_LT</title>
+  <path class="gray-LT" d="M85.32,32.22c-.73-2.71-3.82-4.28-8.52-4.44,2.2-4.16,2.39-7.63.4-9.61s-5.45-1.8-9.61.4c-.16-4.7-1.73-7.79-4.45-8.52-1.35-.36-4.1-.35-7.21,3.83a31,31,0,0,0-4.65,10.26c-.25.9-.45,1.8-.62,2.69-3.38-1.49-6.91-1.7-9.84,1.22C36.47,32.4,14.47,68.79,13.56,70.6l-.34.67c-1.53,3-4.72,9.14-.86,13A6.29,6.29,0,0,0,17,86.1c3.13,0,6.43-1.71,8.36-2.71l.66-.34c1.81-.9,38.21-22.91,42.55-27.25,3.32-3.32,2.59-7.44.54-11.21.7-.15,1.41-.31,2.12-.5C79.24,42,86.65,37.19,85.32,32.22ZM65.74,53C62,56.76,26.11,78.54,24.23,79.48l-.7.36c-2.13,1.1-6.56,3.39-8.35,1.6s.5-6.22,1.6-8.34l.36-.71c.39-.79,4.41-7.48,9.23-15.28l6.9,6.9a2,2,0,0,0,2.83,0,2,2,0,0,0,0-2.83l-7.56-7.56c1.68-2.7,3.4-5.45,5.06-8.06l8.73,8.73a2,2,0,0,0,1.41.59,2,2,0,0,0,1.42-3.42l-9.35-9.35c3.6-5.57,6.63-10,7.84-11.23a3.28,3.28,0,0,1,2.54-1.11c2.13,0,5.85,1.59,12.46,8.2,3.94,3.94,6.41,7.11,7.54,9.7C67.5,50.66,66.64,52.07,65.74,53ZM70.2,40.23a32.32,32.32,0,0,1-3.49.72,60.28,60.28,0,0,0-5.23-5.81A54.37,54.37,0,0,0,54.37,29a36.4,36.4,0,0,1,.77-3.79,27.68,27.68,0,0,1,4-8.91c1.42-1.91,2.59-2.44,3-2.35.72.2,1.91,2.87,1.35,8.17a2,2,0,0,0,1,1.94,2,2,0,0,0,2.18-.11c4.3-3.13,7.21-3.44,7.75-2.92s.21,3.44-2.92,7.76a2,2,0,0,0,1.83,3.16c5.3-.56,8,.63,8.17,1.35C81.74,34.33,78.15,38.1,70.2,40.23Z"/>
+</svg>
+                                                
+                                            </div>
+                                        </div>
+                                    
+                                
+                            
+                        </div>
+                    
+                </div>
+
+                <div class="col-md-12">
+                    
+	<h1 class="mb-5" itemprop="headline">Süße Spinat-Pancakes</h1>
+
+                </div>
+
+                
+
+                
+                
+                    <div class="news-recipes-indgredients mb-5">
+                        <h3>Zutaten*</h3>
+
+                        
+                            <ul>
+                                
+                                    <li>80 g Spinat</li>
+                                
+                                    <li>125 g Quark (Schaf)</li>
+                                
+                                    <li>100 ml Milch (Schaf)</li>
+                                
+                                    <li>100 g Dinkelmehl</li>
+                                
+                                    <li>2 Stück Ei</li>
+                                
+                                    <li>2 Esslöffel Joghurt (Schaf)</li>
+                                
+                                    <li>50 g Blaubeere</li>
+                                
+                                    <li>2 Esslöffel Honig</li>
+                                
+                                    <li>2 Esslöffel Rapsöl</li>
+                                
+                                    <li>1 Prise Salz</li>
+                                
+                            </ul>
+                        
+
+                        <p class="pt-4">* Beispielhafte Mengenvorgaben, individuelle Mengen entnehmen Sie bitte Ihrem Ernährungsplan.</p>
                     </div>
-    </div>
-    <div class="col-md-4">
+
+                    
+                        <div class="news-recipes-cookingsteps mb-5">
+                            <h3>Zubereitung:</h3>
+                            <ol><li>Zu Beginn müssen der gefrorene Spinat und die gefrorenen Blaubeeren zum Auftauen beiseite gelegt werden. Dies am besten eine Stunde vorher erledigen. Dann aus dem aufgetauten Spinat das Wasser herauspressen. Anschließend Spinat zusammen mit Milch und Quark zu einer feinen, grünen Masse vermixen. </li><li>Nun die Eier unter die Spinat-Masse mischen uns salzen. Im Anschluss wird das Dinkelmehl hinzugegeben und so lange verrührt bis ein klumpenfreier Teig entsteht.</li><li>Etwas Rapsöl in einer beschichteten Pfanne auf mittlerer Stufe erhitzen. Jeweils eine kleine Kelle Teig in die Pfanne geben. Von beiden Seiten etwas anbraten lassen bis kleine Bläschen entstehen und je nach gewünschter Bräune immer wieder wenden.
+Tipp: Mit kleinen, für die Pfanne geeigneten Dessertringen lassen sich die Pancakes ganz einfach in Form halten.</li><li>Die fertigen Spinat-Pancakes mit zwei Esslöffeln Joghurt und ein wenig Honig beträufeln. Anschließend mit den aufgetauten Blaubeeren servieren und genießen.</li></ol>
+                        </div>
+                    
+                
+
+                
+	
+        
+        <div class="news-text-wrap" itemprop="articleBody">
+            
+        </div>
+
+		
+	
+
+    
+
+	
+
+	
+
+
+                
+                    
+                    
+                    
+                        
+                        
+                    
+
+                    
+                        
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination news--pagination mt-3 mb-3 prev-forward ">
+                                    <li class="page-item text-left">
+                                        
+                                            <a class="page-link ps-0" href="https://www.gesund-aktiv.com/rezepte/fleisch/bunte-quinoa-pfanne">
+                                                <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#007096'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg></span> Vorheriges Rezept
+                                            </a>
+                                        
+                                    </li>
+
+                                    
+                                        <li class="share-item">
+                                            <a href="mailto:?subject=Süße Spinat-Pancakes&body=https://www.gesund-aktiv.com/rezepte/fruehstueck/suesse-spinat-pancakes" class="btn btn-primary news--share">
+                                                An E-Mail versenden
+                                            </a>
+                                        </li>
+
+                                        
+                                            
+                                                <li class="share-item">
+                                                    <a href="https://www.gesund-aktiv.com/fileadmin/data/rezepte/info/rezept_suesse_spinat_pancakes.pdf" target="_blank" class="btn btn-primary news--share">
+                                                        Download
+                                                        <span class="file-size">(239 KB)</span>
+                                                    </a>
+                                                </li>
+                                            
+                                        
+                                    
+
+
+                                    <li class="page-item text-right">
+                                        
+                                            <a class="page-link pe-0" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/gruenkohl-mal-anders">
+                                                Nächstes Rezept <span aria-hidden="true"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#007096'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg></span>
+                                            </a>
+                                        
+                                    </li>
+                                </ul>
+                            </nav>
+                        
+                    
+                
             </div>
-</div>
-  </section>
+
+            
+                <div class="col-md-4 news-sidebar">
+                    <div class="background--blue position-relative news-sidebar-element mb-5">
+                        <a href="https://www.gesund-aktiv.com/stoffwechselprogramm">
+                            <img class="img-fluid" alt="Ernährungsplan von gesund+aktiv" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Images/sidebar_plan.jpg" width="350" height="177" />
+                        </a>
+                        <div class="text-center">
+                            <p class="sb-hl-1">Es ist Zeit, sich <br>wieder gut zu fühlen</p>
+                            <p class="sb-hl-2">Sie wollen sich fit und vital fühlen, Ihr Wunschgewicht erreichen oder Ihren gesundheitlichen Zustand verbessern?<br/> Wir unterstützen Sie dabei!</p>
+                            <a href="https://www.gesund-aktiv.com/stoffwechselprogramm" class="btn btn-secondary">Zu meinem Ernährungsplan</a>
+                        </div>
+                        <br>
+                    </div>
+
+                    
+                        
+                            <div class="news-recipes-variation frame-layout-border mb-5">
+                                <h4>Rezeptvariation</h4>
+                                <p>Die Pancakes schmecken auch als pikante Variante mit Grünkohl sehr lecker.</p>
+                            </div>
+                        
+
+                        
+                            <div class="news-recipes-information frame-layout-border mb-5">
+                                <h4>gesund + aktiv informiert</h4>
+                                <p>Der Spinat ist für seine vielen wertvollen Inhaltsstoffe bekannt. Jedoch ist er auch reich an Oxalsäure. Diese kann die Bioverfügbarkeit von Calcium und Eisen verschlechtern. Daher wird empfohlen Spinat mit Milchprodukten zu verzehren, da durch diese Calciumoxalat entsteht, welches die Oxalsäure unschädlich macht</p>
+                            </div>
+                        
+                    
+
+                    
+                </div>
+            
+        </div>
 
 
-  </div>
+        
+    
+            
+                    <div class="news-related news-related-news mb-4">
+                        <h4 class="mb-4">Weitere Rezepte</h4>
+                        <div class="row frame frame-default frame-type-news_pi1 frame-layout-default frame-size-default frame-height-default frame-background-none frame-space-before-none frame-space-after-none frame-no-backgroundimage frame-space-before-real-none frame-space-after-real-none">
+                        
+                            
+                                <div class="col-sm-12 col-md-4 mb-3" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="card h-100">
+                                        <a class="image-link position-relative" title="Gefüllte Aubergine" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/gefuellte-aubergine">
+                                            
+                                                    <img class="img-fluid" src="https://www.gesund-aktiv.com/fileadmin/_processed_/1/f/csm_rezept_gefuellte_aubergine_a_297d32b998.png" width="400" height="225" loading="lazy" alt="" />
+                                                
+                                            
+                                                
+                                                    
+                                                
+                                                    
+                                                        <div class="list-category-title">
+                                                            <div class="background--white">
+                                                                
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" id="orig" viewBox="0 0 96 96" width="35">
+  <defs>
+    <style>.gray-LT{fill:#d8d8d8;}</style>
+  </defs>
+  <title>veggie_gray_LT</title>
+  <path class="gray-LT" d="M85.32,32.22c-.73-2.71-3.82-4.28-8.52-4.44,2.2-4.16,2.39-7.63.4-9.61s-5.45-1.8-9.61.4c-.16-4.7-1.73-7.79-4.45-8.52-1.35-.36-4.1-.35-7.21,3.83a31,31,0,0,0-4.65,10.26c-.25.9-.45,1.8-.62,2.69-3.38-1.49-6.91-1.7-9.84,1.22C36.47,32.4,14.47,68.79,13.56,70.6l-.34.67c-1.53,3-4.72,9.14-.86,13A6.29,6.29,0,0,0,17,86.1c3.13,0,6.43-1.71,8.36-2.71l.66-.34c1.81-.9,38.21-22.91,42.55-27.25,3.32-3.32,2.59-7.44.54-11.21.7-.15,1.41-.31,2.12-.5C79.24,42,86.65,37.19,85.32,32.22ZM65.74,53C62,56.76,26.11,78.54,24.23,79.48l-.7.36c-2.13,1.1-6.56,3.39-8.35,1.6s.5-6.22,1.6-8.34l.36-.71c.39-.79,4.41-7.48,9.23-15.28l6.9,6.9a2,2,0,0,0,2.83,0,2,2,0,0,0,0-2.83l-7.56-7.56c1.68-2.7,3.4-5.45,5.06-8.06l8.73,8.73a2,2,0,0,0,1.41.59,2,2,0,0,0,1.42-3.42l-9.35-9.35c3.6-5.57,6.63-10,7.84-11.23a3.28,3.28,0,0,1,2.54-1.11c2.13,0,5.85,1.59,12.46,8.2,3.94,3.94,6.41,7.11,7.54,9.7C67.5,50.66,66.64,52.07,65.74,53ZM70.2,40.23a32.32,32.32,0,0,1-3.49.72,60.28,60.28,0,0,0-5.23-5.81A54.37,54.37,0,0,0,54.37,29a36.4,36.4,0,0,1,.77-3.79,27.68,27.68,0,0,1,4-8.91c1.42-1.91,2.59-2.44,3-2.35.72.2,1.91,2.87,1.35,8.17a2,2,0,0,0,1,1.94,2,2,0,0,0,2.18-.11c4.3-3.13,7.21-3.44,7.75-2.92s.21,3.44-2.92,7.76a2,2,0,0,0,1.83,3.16c5.3-.56,8,.63,8.17,1.35C81.74,34.33,78.15,38.1,70.2,40.23Z"/>
+</svg>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    
+                                                
+                                            
+                                        </a>
 
-              </section>
+                                        <div class="card-body">
+                                            <h5 class="card-title" itemprop="headline">
+                                                <a itemprop="url" title="Gefüllte Aubergine" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/gefuellte-aubergine">
+                                                    Gefüllte Aubergine
+                                                </a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-sm-12 col-md-4 mb-3" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="card h-100">
+                                        <a class="image-link position-relative" title="Quinoa-Quiche" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/quinoa-quiche">
+                                            
+                                                    <img class="img-fluid" src="https://www.gesund-aktiv.com/fileadmin/_processed_/f/b/csm_rezept_quinoa_quiche_a_75da39dfd0.png" width="400" height="225" loading="lazy" alt="" />
+                                                
+                                            
+                                                
+                                                    
+                                                
+                                                    
+                                                        <div class="list-category-title">
+                                                            <div class="background--white">
+                                                                
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" id="orig" viewBox="0 0 96 96" width="35">
+  <defs>
+    <style>.gray-LT{fill:#d8d8d8;}</style>
+  </defs>
+  <title>veggie_gray_LT</title>
+  <path class="gray-LT" d="M85.32,32.22c-.73-2.71-3.82-4.28-8.52-4.44,2.2-4.16,2.39-7.63.4-9.61s-5.45-1.8-9.61.4c-.16-4.7-1.73-7.79-4.45-8.52-1.35-.36-4.1-.35-7.21,3.83a31,31,0,0,0-4.65,10.26c-.25.9-.45,1.8-.62,2.69-3.38-1.49-6.91-1.7-9.84,1.22C36.47,32.4,14.47,68.79,13.56,70.6l-.34.67c-1.53,3-4.72,9.14-.86,13A6.29,6.29,0,0,0,17,86.1c3.13,0,6.43-1.71,8.36-2.71l.66-.34c1.81-.9,38.21-22.91,42.55-27.25,3.32-3.32,2.59-7.44.54-11.21.7-.15,1.41-.31,2.12-.5C79.24,42,86.65,37.19,85.32,32.22ZM65.74,53C62,56.76,26.11,78.54,24.23,79.48l-.7.36c-2.13,1.1-6.56,3.39-8.35,1.6s.5-6.22,1.6-8.34l.36-.71c.39-.79,4.41-7.48,9.23-15.28l6.9,6.9a2,2,0,0,0,2.83,0,2,2,0,0,0,0-2.83l-7.56-7.56c1.68-2.7,3.4-5.45,5.06-8.06l8.73,8.73a2,2,0,0,0,1.41.59,2,2,0,0,0,1.42-3.42l-9.35-9.35c3.6-5.57,6.63-10,7.84-11.23a3.28,3.28,0,0,1,2.54-1.11c2.13,0,5.85,1.59,12.46,8.2,3.94,3.94,6.41,7.11,7.54,9.7C67.5,50.66,66.64,52.07,65.74,53ZM70.2,40.23a32.32,32.32,0,0,1-3.49.72,60.28,60.28,0,0,0-5.23-5.81A54.37,54.37,0,0,0,54.37,29a36.4,36.4,0,0,1,.77-3.79,27.68,27.68,0,0,1,4-8.91c1.42-1.91,2.59-2.44,3-2.35.72.2,1.91,2.87,1.35,8.17a2,2,0,0,0,1,1.94,2,2,0,0,0,2.18-.11c4.3-3.13,7.21-3.44,7.75-2.92s.21,3.44-2.92,7.76a2,2,0,0,0,1.83,3.16c5.3-.56,8,.63,8.17,1.35C81.74,34.33,78.15,38.1,70.2,40.23Z"/>
+</svg>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    
+                                                
+                                            
+                                        </a>
 
-                        <aside class="col-md-4" role="complementary">
-              <div class="region region-sidebar-second">
-    <section id="block-ga-block-73" class="block block-block-content block-block-contente9246b24-94b3-41a5-8c1d-5407e6b350ab clearfix">
+                                        <div class="card-body">
+                                            <h5 class="card-title" itemprop="headline">
+                                                <a itemprop="url" title="Quinoa-Quiche" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/quinoa-quiche">
+                                                    Quinoa-Quiche
+                                                </a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-sm-12 col-md-4 mb-3" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="card h-100">
+                                        <a class="image-link position-relative" title="Grill-Feta in Pergament" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/grill-feta-in-pergament">
+                                            
+                                                    <img class="img-fluid" src="https://www.gesund-aktiv.com/fileadmin/_processed_/1/7/csm_rezept_grill_feta_in_pergament_a_20474d7253.png" width="400" height="225" loading="lazy" alt="" />
+                                                
+                                            
+                                                
+                                                    
+                                                
+                                                    
+                                                        <div class="list-category-title">
+                                                            <div class="background--white">
+                                                                
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" id="orig" viewBox="0 0 96 96" width="35">
+  <defs>
+    <style>.gray-LT{fill:#d8d8d8;}</style>
+  </defs>
+  <title>veggie_gray_LT</title>
+  <path class="gray-LT" d="M85.32,32.22c-.73-2.71-3.82-4.28-8.52-4.44,2.2-4.16,2.39-7.63.4-9.61s-5.45-1.8-9.61.4c-.16-4.7-1.73-7.79-4.45-8.52-1.35-.36-4.1-.35-7.21,3.83a31,31,0,0,0-4.65,10.26c-.25.9-.45,1.8-.62,2.69-3.38-1.49-6.91-1.7-9.84,1.22C36.47,32.4,14.47,68.79,13.56,70.6l-.34.67c-1.53,3-4.72,9.14-.86,13A6.29,6.29,0,0,0,17,86.1c3.13,0,6.43-1.71,8.36-2.71l.66-.34c1.81-.9,38.21-22.91,42.55-27.25,3.32-3.32,2.59-7.44.54-11.21.7-.15,1.41-.31,2.12-.5C79.24,42,86.65,37.19,85.32,32.22ZM65.74,53C62,56.76,26.11,78.54,24.23,79.48l-.7.36c-2.13,1.1-6.56,3.39-8.35,1.6s.5-6.22,1.6-8.34l.36-.71c.39-.79,4.41-7.48,9.23-15.28l6.9,6.9a2,2,0,0,0,2.83,0,2,2,0,0,0,0-2.83l-7.56-7.56c1.68-2.7,3.4-5.45,5.06-8.06l8.73,8.73a2,2,0,0,0,1.41.59,2,2,0,0,0,1.42-3.42l-9.35-9.35c3.6-5.57,6.63-10,7.84-11.23a3.28,3.28,0,0,1,2.54-1.11c2.13,0,5.85,1.59,12.46,8.2,3.94,3.94,6.41,7.11,7.54,9.7C67.5,50.66,66.64,52.07,65.74,53ZM70.2,40.23a32.32,32.32,0,0,1-3.49.72,60.28,60.28,0,0,0-5.23-5.81A54.37,54.37,0,0,0,54.37,29a36.4,36.4,0,0,1,.77-3.79,27.68,27.68,0,0,1,4-8.91c1.42-1.91,2.59-2.44,3-2.35.72.2,1.91,2.87,1.35,8.17a2,2,0,0,0,1,1.94,2,2,0,0,0,2.18-.11c4.3-3.13,7.21-3.44,7.75-2.92s.21,3.44-2.92,7.76a2,2,0,0,0,1.83,3.16c5.3-.56,8,.63,8.17,1.35C81.74,34.33,78.15,38.1,70.2,40.23Z"/>
+</svg>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    
+                                                
+                                            
+                                        </a>
 
+                                        <div class="card-body">
+                                            <h5 class="card-title" itemprop="headline">
+                                                <a itemprop="url" title="Grill-Feta in Pergament" href="https://www.gesund-aktiv.com/rezepte/vegetarisch/grill-feta-in-pergament">
+                                                    Grill-Feta in Pergament
+                                                </a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        
+                        </div>
+                    </div>
 
+                    <div class="news-related news-related-news mb-4">
+                        <h4 class="mb-4">Wissenswertes</h4>
 
+                        <div class="row frame frame-default frame-type-news_pi1 frame-layout-default frame-size-default frame-height-default frame-background-none frame-space-before-none frame-space-after-none frame-no-backgroundimage frame-space-before-real-none frame-space-after-real-none">
+                            
+                                
+                                    <div class="col-sm-12 col-md-4 mb-3" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                        <div class="card h-100">
+                                            <a class="image-link position-relative" title="Was dein Blut dir sagt" href="https://www.gesund-aktiv.com/wissenswertes/was-dein-blut-dir-sagt">
+                                                
+                                                        <img class="img-fluid" src="https://www.gesund-aktiv.com/fileadmin/_processed_/b/e/csm_titelbild_artikel_ganzheitliche_laboranalyse_a_c65b4f14ba.png" width="400" height="225" loading="lazy" alt="" />
+                                                    
+                                            </a>
 
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"> <a href="/ernaehrungsprogramm">
-<div class="primary-gradient-blue">
-   <img src="/sites/default/files/ernaehrungsplan_abnehmen_desktop.jpg" alt="" class="img-responsive the-knife">
-   <img src="/sites/default/files/hr-icon-sidebar.jpg" alt="" class="sidebar-icon">
-   <p class="sb-hl-1">Es ist Zeit, sich <br>wieder gut zu fühlen</p>
-   <p class="sb-hl-2">Sie wollen sich fit und vital fühlen, Ihr Wunschgewicht erreichen oder Ihren gesundheitlichen Zustand verbessern? Wir unterstützen Sie dabei!</p>
-   <a href="/stoffwechselprogramm" class="btn-ga-red">zu meinem ernährungsplan</a>
-   <br>
-</div>
-</a> </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title" itemprop="headline">
+                                                    <a itemprop="url" title="Was dein Blut dir sagt" href="https://www.gesund-aktiv.com/wissenswertes/was-dein-blut-dir-sagt">
+                                                        Was dein Blut dir sagt
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-sm-12 col-md-4 mb-3" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                        <div class="card h-100">
+                                            <a class="image-link position-relative" title="Gewohnheiten ändern: Mit diesen 7 Tipps klappt es endlich" href="https://www.gesund-aktiv.com/wissenswertes/gewohnheiten-aendern-mit-diesen-7-tipps-klappt-es-endlich">
+                                                
+                                                        <img class="img-fluid" src="https://www.gesund-aktiv.com/fileadmin/_processed_/1/1/csm_artikel-gewohnheiten_aendern_mit_diesen_7_tipps_klappt_es_endlich-a_a6c6be73f0.png" width="400" height="225" loading="lazy" alt="" />
+                                                    
+                                            </a>
 
-  </section>
+                                            <div class="card-body">
+                                                <h5 class="card-title" itemprop="headline">
+                                                    <a itemprop="url" title="Gewohnheiten ändern: Mit diesen 7 Tipps klappt es endlich" href="https://www.gesund-aktiv.com/wissenswertes/gewohnheiten-aendern-mit-diesen-7-tipps-klappt-es-endlich">
+                                                        Gewohnheiten ändern: Mit diesen 7 Tipps klappt es endlich
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-sm-12 col-md-4 mb-3" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                        <div class="card h-100">
+                                            <a class="image-link position-relative" title="Eiweißhunger - warum werde ich ohne Eiweiß nicht satt?" href="https://www.gesund-aktiv.com/wissenswertes/eiweisshunger-warum-werde-ich-ohne-eiweiss-nicht-satt">
+                                                
+                                                        <img class="img-fluid" src="https://www.gesund-aktiv.com/fileadmin/_processed_/0/e/csm_artikel-eiweisshunger-warum_werde_ich_ohne_eiweiss_nicht_satt-a_37345e170b.png" width="400" height="225" loading="lazy" alt="" />
+                                                    
+                                            </a>
 
-<section class="views-element-container block block-views block-views-blockteaser-small-block-2 clearfix" id="block-views-block-teaser-small-block-2">
+                                            <div class="card-body">
+                                                <h5 class="card-title" itemprop="headline">
+                                                    <a itemprop="url" title="Eiweißhunger - warum werde ich ohne Eiweiß nicht satt?" href="https://www.gesund-aktiv.com/wissenswertes/eiweisshunger-warum-werde-ich-ohne-eiweiss-nicht-satt">
+                                                        Eiweißhunger - warum werde ich ohne Eiweiß nicht satt?
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            
+                        </div>
+                    </div>
+                
+    
 
-      <h2 class="block-title">Mehr Rezepte für Sie!</h2>
-
-
-      <div class="form-group"><div class="js-view-dom-id-043a8aa51fdaae80c559219372d8f7665fc0bcb04ff49da75668bb36c1d3ab72">
-
-
-
-
-      <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="teaser-small-left">
-  <a href="/rezepte/fleisch/puten-paella" hreflang="de"><img src="/sites/default/files/styles/medium/public/rezepte/bilder/rezept-puten-paella-a.png?itok=XkuYcQPF" width="220" height="123" loading="lazy" typeof="Image" class="img-responsive" />
-
-</a>
-
-<a href="/rezepte/fleisch" hreflang="de">Fleisch</a>
-</div>
-<div class="teaser-small-right">
-<a href="/rezepte/fleisch/puten-paella" hreflang="de">Puten-Paella</a>
-<a href="/rezepte/fleisch/puten-paella" hreflang="de">Weiterlesen →</a>
-</div>
-<div class="clear"></div></span></div></div>
-    <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="teaser-small-left">
-  <a href="/rezepte/fruehstueck/joghurt-mit-johannisbeeren-und-granola-topping" hreflang="de"><img src="/sites/default/files/styles/medium/public/rezepte/bilder/rezept-joghurt_mit_johannisbeeren_und_granola-topping-a.png?itok=UhXcDbUq" width="220" height="123" loading="lazy" typeof="Image" class="img-responsive" />
-
-</a>
-
-<a href="/rezepte/fruehstueck" hreflang="de">Frühstück</a>
-</div>
-<div class="teaser-small-right">
-<a href="/rezepte/fruehstueck/joghurt-mit-johannisbeeren-und-granola-topping" hreflang="de">Joghurt mit Johannisbeeren und Granola-Topping</a>
-<a href="/rezepte/fruehstueck/joghurt-mit-johannisbeeren-und-granola-topping" hreflang="de">Weiterlesen →</a>
-</div>
-<div class="clear"></div></span></div></div>
-    <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="teaser-small-left">
-  <a href="/rezepte/vegetarisch/himbeer-joghurt-eis" hreflang="de"><img src="/sites/default/files/styles/medium/public/rezepte/bilder/rezept-himbeer-joghurt-wassereis-a.png?itok=AZhlUn5-" width="220" height="123" loading="lazy" typeof="Image" class="img-responsive" />
-
-</a>
-
-<a href="/rezepte/vegetarisch" hreflang="de">Vegetarisch</a>
-</div>
-<div class="teaser-small-right">
-<a href="/rezepte/vegetarisch/himbeer-joghurt-eis" hreflang="de">Himbeer-Joghurt-Eis</a>
-<a href="/rezepte/vegetarisch/himbeer-joghurt-eis" hreflang="de">Weiterlesen →</a>
-</div>
-<div class="clear"></div></span></div></div>
-
-
-
-
-
-
-
-
-</div>
-</div>
-
-  </section>
-
-<section class="views-element-container block block-views block-views-blockteaser-small-block-3 clearfix" id="block-views-block-teaser-small-block-3">
-
-      <h2 class="block-title">Wissenswertes</h2>
-
-
-      <div class="form-group"><div class="js-view-dom-id-e63fdffb0c30405b7030e2a09b7df1a57083f097a48288a20e471515f0cde419">
-
-
-
-
-      <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="teaser-small-left">
-  <a href="/wissenswertes/die-kartoffel-beilagenliebling-mit-schattenseiten" hreflang="de"><img src="/sites/default/files/styles/medium/public/2022-06/artikel-die_kartoffel-beilagenliebling_mit_schattenseiten-a.png?itok=QL94TNCn" width="220" height="123" loading="lazy" typeof="Image" class="img-responsive" />
-
-</a>
-
-<a href="/wissenswertes" hreflang="de">Wissenswertes</a>
-</div>
-<div class="teaser-small-right">
-<a href="/wissenswertes/die-kartoffel-beilagenliebling-mit-schattenseiten" hreflang="de">Die Kartoffel - Beilagenliebling mit Schattenseiten</a>
-<a href="/wissenswertes/die-kartoffel-beilagenliebling-mit-schattenseiten" hreflang="de">Weiterlesen →</a>
-</div>
-<div class="clear"></div></span></div></div>
-    <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="teaser-small-left">
-  <a href="/wissenswertes/haferkur-bei-insulinresistenz" hreflang="de"><img src="/sites/default/files/styles/medium/public/2022-05/haferflocken-a.png?itok=ydnnWtLh" width="220" height="123" loading="lazy" typeof="Image" class="img-responsive" />
-
-</a>
-
-<a href="/wissenswertes" hreflang="de">Wissenswertes</a>
-</div>
-<div class="teaser-small-right">
-<a href="/wissenswertes/haferkur-bei-insulinresistenz" hreflang="de">Haferkur bei Insulinresistenz</a>
-<a href="/wissenswertes/haferkur-bei-insulinresistenz" hreflang="de">Weiterlesen →</a>
-</div>
-<div class="clear"></div></span></div></div>
-    <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="teaser-small-left">
-  <a href="/wissenswertes/wie-gesund-ist-fasten" hreflang="de"><img src="/sites/default/files/styles/medium/public/2022-03/Artikel_Wie_gesund_ist_Fasten-a.png?itok=GzX47hFD" width="220" height="123" loading="lazy" typeof="Image" class="img-responsive" />
-
-</a>
-
-<a href="/wissenswertes" hreflang="de">Wissenswertes</a>
-</div>
-<div class="teaser-small-right">
-<a href="/wissenswertes/wie-gesund-ist-fasten" hreflang="de">Wie gesund ist Fasten?</a>
-<a href="/wissenswertes/wie-gesund-ist-fasten" hreflang="de">Weiterlesen →</a>
-</div>
-<div class="clear"></div></span></div></div>
-
-
-
-
-
-
-
-
-</div>
-</div>
-
-  </section>
-
-
-  </div>
-
-          </aside>
+	
 
     </div>
-  </div>
-
-      <footer class="footer" role="contentinfo">
-        <div class="region region-footer">
-    <section id="block-ga-block-59" class="block block-block-content block-block-contentb9fdaed8-cb0f-4b6b-9d45-83861720df62 clearfix">
-
-
-
-
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><script async src="https://www.googletagmanager.com/gtag/js?id=G-KYGMERHJ82"></script>
-<script>
-if(document.cookie.includes("cookie-agreed=2")) {
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KYGMERHJ82');
-}
-</script> </div>
-
-  </section>
-
-<section id="block-ga-block-4" class="block block-block-content block-block-content7e13a389-8f31-4b86-9f8a-6b2d7ee08f94 clearfix">
-
-
-
-
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"> <div class="gradient-sa" id="newsletter-box">
-   <img src="/sites/default/files/pin-icon.jpg" alt="" class="img-responsive">
-   <div class="row">
-      <div class="col-md-6 col-md-push-3">
-         <div class="infoteaser_button">
-            <a class="btn-ga-red" href="/ihr-therapeut-vor-ort">Hier Finden Sie Ihren Therapeuten</a>
-         </div>
-         <p>Vertrauen und Erfahrung sind wichtige Faktoren bei der Therapeuten-Suche. In unserer „Kartei“ finden Sie ausschließlich Ärzte und Heilpraktiker, die von gesund + aktiv zertifiziert sind. Verteilt auf ganz Deutschland. Da ist sicher auch in Ihrer Nähe ein Kontakt dabei.
-            <br><br>
-         </p>
-      </div>
-   </div>
 </div>
-<div class="footer-bg">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-2 npr col-sm-12"><p class="text-center footer-text">&copy; 2023 gesund + aktiv</p></div>
-         <div class="col-md-1 col-sm-12">
-         </div>
-         <div class="col-md-6 col-sm-12">
-            <div id="footer_quicklinks">
-               <ul>
-                  <li>
-                     <a href="/akademie/">Akademie</a>
-                  </li>
-<!--
-                  <li>
-                     <a href="/haeufige-fragen/">FAQ</a>
-                  </li>
--->
-                  <li>
-                     <a href="/ueber-uns/">Über uns</a>
-                  </li>
-                  <li>
-                     <a href="/impressum/">Impressum & Kontakt</a>
-                  </li>
-                  <li>
-                     <a href="/datenschutz/">Datenschutz</a>
-                  </li>
-                  <li>
-                     <a href="https://www.facebook.com/pages/gesund-aktiv-Das-individuelle-Ern%C3%A4hrungsprogramm/177453432303148?fref=ts" target="_blank"><img src="/themes/contrib/ga/assets/img/Facebook-web.jpg"></a>
-                  </li>
-               </ul>
+
+
+
+    
+
+
+
+    
+
+
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="col-md-3 col-sm-12 app-store-images">
-               <a href="https://play.google.com/store/apps/details?id=com.gesundaktiv.app" title="gesund + aktiv App im Google Play Store" target="_blank"><img alt="Logo Google Play Store" class="img-responsive" src="/sites/default/files/google_play.jpg" width="125"></a>
-               <a href="https://apps.apple.com/de/app/gesund-aktiv/id1570427550" title="gesund + aktiv App im Apple App Store" target="_blank"><img alt="Logo Apple App Store" class="img-responsive" src="/sites/default/files/apple_store.jpg" width="112"></a>
-         </div>
-      </div>
-   </div>
-</div> </div>
+        </div>
 
-  </section>
+    
 
 
-  </div>
+
+    </div>
+
+    
+
+        <!--TYPO3SEARCH_end-->
+    </main>
+
+    <footer id="page-footer" class="bp-page-footer">
+        
+
+
+
+        
+    
+<section class="section footer-section footer-section-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 pt-1 mb-3">
+                &copy 2024 gesund + aktiv
+            </div>
+            <div class="col-12 col-md-5 col-sm-12 pt-1 mb-3">
+                
+
+
+
+
+    
+
+
+
+
+
+
+        <a id="c35"></a>
+        
+        
+    
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+        
+
+
+
+        
+
+    
+        <ul>
+            
+                <li>
+                    <a href="https://www.gesund-aktiv.com/akademie" title="Akademie">Akademie</a>
+                    
+
+    
+
+
+                </li>
+            
+                <li>
+                    <a href="https://www.gesund-aktiv.com/ueber-uns" title="Über uns">Über uns</a>
+                    
+
+    
+
+
+                </li>
+            
+                <li>
+                    <a href="https://www.gesund-aktiv.com/impressum" title="Impressum">Impressum</a>
+                    
+
+    
+
+
+                </li>
+            
+                <li>
+                    <a href="https://www.gesund-aktiv.com/datenschutz" title="Datenschutz">Datenschutz</a>
+                    
+
+    
+
+
+                </li>
+            
+        </ul>
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+
+
+        
+
+    
+
+
+
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <ul class="icon-menu">
+                    <li>
+                        <a href="https://www.facebook.com/pages/gesund-aktiv-Das-individuelle-Ern%C3%A4hrungsprogramm/177453432303148?fref=ts" title="gesund + aktiv auf Facebook" target="_blank">
+                            <img alt="Logo Facebook" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Icons/facebook.png" width="87" height="87" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/gesund_und_aktiv/" title="gesund + aktiv auf Instagram" target="_blank">
+                            <img alt="Logo Instagram" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Icons/instagram.png" width="87" height="87" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://play.google.com/store/apps/details?id=com.gesundaktiv.app" title="gesund + aktiv App im Google Play Store" target="_blank">
+                            <img alt="Logo Google Play Store" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Icons/play_store.png" width="296" height="88" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://apps.apple.com/de/app/gesund-aktiv/id1570427550" title="gesund + aktiv App im Apple App Store" target="_blank">
+                            <img alt="Logo Apple App Store" src="https://www.gesund-aktiv.com/_assets/248cd9cc184c9671248acc3b5edd35c1/Icons/app_store.png" width="296" height="88" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        
+
+
 
     </footer>
+    
+<a class="scroll-top" title="Scroll to top" href="#top">
+    <span class="scroll-top-icon"></span>
+</a>
 
-  </div>
+
+    
+<a class="therapist-search" title="" href="https://www.gesund-aktiv.com/ihr-therapeut-vor-ort">
+    <span class="therapist-search-icon"></span>
+    <span class="therapist-search-text">Therapeuten finden</span>
+</a>
+
+    
 
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/11154","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"de"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Cp\u003EDiese Website verwendet Cookies, um eine bestm\u00f6gliche Erfahrung bieten zu k\u00f6nnen.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EWeitere Informationen\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EAllen Cookies zustimmen\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022\u003ENur notwendige Cookies zulassen\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EWeitere Informationen\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EAllen Cookies zustimmen\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022\u003ENur notwendige Cookies zulassen\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/datenschutz","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"de","store_consent":true,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"opt_in","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EDatenschutzeinstellungen\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Cp\u003EDiese Website verwendet Cookies, um eine bestm\u00f6gliche Erfahrung bieten zu k\u00f6nnen.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button \u0022\u003EZustimmung zur\u00fcckziehen\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":true,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"olivero_primary_button_classes":"","olivero_secondary_button_classes":"","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true},"bootstrap":{"forms_has_error_value_toggle":1,"popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"colorbox":{"opacity":"0.85","current":"{current} von {total}","previous":"\u00ab Zur\u00fcck","next":"Weiter \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ajaxTrustedUrl":{"\/suche":true},"user":{"uid":0,"permissionsHash":"791a9cf0e08382e4a9fdbe0feb4eab6bf44971335d2326921d24b87399176fac"}}</script>
-<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.0"></script>
-<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.3"></script>
-<script src="/core/misc/polyfills/element.matches.js?v=9.3.19"></script>
-<script src="/core/misc/polyfills/object.assign.js?v=9.3.19"></script>
-<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
-<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
-<script src="/core/misc/drupalSettingsLoader.js?v=9.3.19"></script>
-<script src="/sites/default/files/languages/de_3UerlyY7pGxtUaCZunVudMqa4u9UVIF1X2uplbyAy84.js?ru5cfe"></script>
-<script src="/core/misc/drupal.js?v=9.3.19"></script>
-<script src="/core/misc/drupal.init.js?v=9.3.19"></script>
-<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?ru5cfe"></script>
-<script src="/themes/contrib/bootstrap/js/attributes.js?ru5cfe"></script>
-<script src="/themes/contrib/bootstrap/js/theme.js?ru5cfe"></script>
-<script src="/themes/contrib/ga/assets/js/bootstrap.js?v=1.x"></script>
-<script src="/themes/contrib/ga/assets/js/jquery.geocomplete.js?v=1.x"></script>
-<script src="/themes/contrib/ga/assets/js/custom.js?v=1.x"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf1SF-ueilrdnk_MmPCtJcNWLXOtVZmxE&amp;libraries=places&amp;v=3"></script>
-<script src="/modules/contrib/webform/js/webform.behaviors.js?v=9.3.19"></script>
-<script src="/core/misc/jquery.once.bc.js?v=9.3.19"></script>
-<script src="/core/misc/states.js?v=9.3.19"></script>
-<script src="/themes/contrib/bootstrap/js/misc/states.js?ru5cfe"></script>
-<script src="/modules/contrib/webform/js/webform.states.js?v=9.3.19"></script>
-<script src="/modules/contrib/webform/modules/webform_bootstrap/js/webform_bootstrap.states.js?v=9.3.19"></script>
-<script src="/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.1"></script>
-<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?v=9.3.19" defer></script>
-<script src="/themes/contrib/bootstrap/js/popover.js?ru5cfe"></script>
-<script src="/themes/contrib/bootstrap/js/tooltip.js?ru5cfe"></script>
-<script src="/libraries/colorbox/jquery.colorbox-min.js?v=9.3.19"></script>
-<script src="/modules/contrib/colorbox/js/colorbox.js?v=9.3.19"></script>
-<script src="/modules/contrib/colorbox/styles/default/colorbox_style.js?v=9.3.19"></script>
 
-  </body>
+
+    <div id="search-box-main" class="d-none">
+        <div class="search-box-wrap position-relative">
+            <button type="button" class="btn-close searchClose" aria-label="Close"></button>
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-lg-9 mx-auto">
+                        <form action="https://www.gesund-aktiv.com/suche" method="GET">
+                            <div class="input-form-group d-flex">
+                                <input type="search" name="tx_kesearch_pi1[sword]" placeholder="Suchbegriff eingeben">
+                                <button type="submit" class="btn btn-primary">Suchen</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://www.gesund-aktiv.com/typo3temp/assets/compressed/merged-541c83c214017d6e5d1b652b705ae87a-a09294d55258c53137608071ba1d9368.js?1724363443"></script>
+<script src="https://www.gesund-aktiv.com/typo3temp/assets/compressed/merged-87c9ca940b36bc6c03fc76083898317d-f018e80df9e2aa8db00d537f4459ccca.js?1724363443"></script>
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.gesund-aktiv.com\/","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.gesund-aktiv.com\/suche?searchterm=&cHash=2de6d2ab4f9b9ff4e73bb7662a9a2cc3{search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="text/plain" data-ignore="1" data-dp-cookieDesc="layout">
+    
+
+Diese Website benutzt Cookies, die für den technischen Betrieb der Website erforderlich sind und stets gesetzt werden. Andere Cookies, um Inhalte und Anzeigen zu personalisieren und die Zugriffe auf unsere Website zu analysieren, werden nur mit Ihrer Zustimmung gesetzt.
+
+
+    <a aria-label="Mehr Infos about cookies"
+       role="button"
+       class="cc-link"
+       href="https://www.gesund-aktiv.com/datenschutz"
+       rel="noopener noreferrer nofollow"
+       target="_blank"
+    >
+
+        Mehr Infos
+    </a>
+
+
+</script>
+<script type="text/plain" data-ignore="1" data-dp-cookieSelect="layout">
+    
+
+<div class="dp--cookie-check">
+    <label for="dp--cookie-required">
+        <input class="dp--check-box" id="dp--cookie-required" type="checkbox" name="" value="" checked disabled>
+        Notwendig
+    </label>
+    <label for="dp--cookie-statistics">
+        <input class="dp--check-box" id="dp--cookie-statistics" type="checkbox" name="" value="">
+        Statistiken
+    </label>
+    <label for="dp--cookie-marketing">
+        <input class="dp--check-box" id="dp--cookie-marketing"  type="checkbox" name="" value="">
+        Marketing
+    </label>
+</div>
+
+</script>
+<script type="text/plain" data-ignore="1" data-dp-cookieRevoke="layout">
+    <div class="dp--revoke {{classes}}">
+    <i class="dp--icon-fingerprint"></i>
+    <span class="dp--hover">Cookies</span>
+</div>
+</script>
+<script type="text/plain" data-ignore="1" data-dp-cookieIframe="layout">
+    <div class="dp--overlay-inner" data-nosnippet>
+    <div class="dp--overlay-header">{{notice}}</div>
+    <div class="dp--overlay-description">{{desc}}</div>
+    <div class="dp--overlay-button">
+        <button class="db--overlay-submit" onclick="window.DPCookieConsent.forceAccept(this)"
+                data-cookieconsent="{{type}}">
+        {{btn}}
+        </button>
+    </div>
+</div>
+
+</script>
+<script type="text/javascript" data-ignore="1">
+    window.cookieconsent_options = {
+        overlay: {
+            notice: true,
+            box: {
+                background: 'rgba(0,0,0,.8)',
+                text: '#fff'
+            },
+            btn: {
+                background: '#b81839',
+                text: '#fff'
+            }
+        },
+        content: {
+            message:'Diese Website benutzt Cookies, die für den technischen Betrieb der Website erforderlich sind und stets gesetzt werden. Andere Cookies, um Inhalte und Anzeigen zu personalisieren und die Zugriffe auf unsere Website zu analysieren, werden nur mit Ihrer Zustimmung gesetzt.',
+            dismiss:'Cookies zulassen!',
+            allow:'Speichern',
+            deny: 'Ablehnen',
+            link:'Mehr Infos',
+            href:'https://www.gesund-aktiv.com/datenschutz',
+            target:'_blank',
+            'allow-all': 'Alle akzeptieren!',
+            config: 'Anpassen',
+            'config-header':  'Einstellungen für die Zustimmung anpassen',
+
+
+            cookie: 'Cookies',
+            duration: 'Duration',
+            vendor: 'Vendor',
+
+            media: {
+                notice: 'Cookie-Hinweis',
+                desc: 'Durch das Laden dieser Ressource wird eine Verbindung zu externen Servern hergestellt, die Cookies und andere Tracking-Technologien verwenden, um die Benutzererfahrung zu personalisieren und zu verbessern. Weitere Informationen finden Sie in unserer Datenschutzerklärung.',
+                btn: 'Erlaube Cookies und lade diese Ressource',
+            }
+        },
+        theme: 'edgeless',
+        position: 'bottom-left',
+        type: 'opt-in',
+        revokable: true,
+        reloadOnRevoke: false,
+        checkboxes: {"statistics":"false","marketing":"false"},
+        cookies: [],
+        palette: {
+            popup: {
+                background: 'rgba(0,0,0,.8)',
+                text: '#fff'
+            },
+            button: {
+                background: '#006f95',
+                text: '#fff',
+            }
+        }
+    };
+</script>
+</body>
 </html>
