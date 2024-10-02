@@ -8,6 +8,11 @@ class CookiesAndCups(AbstractScraper):
     def host(cls):
         return "cookiesandcups.com"
 
+    def author(self):
+        return self.soup.select_one(
+            ".post-author-detail.post-author-by .entry-author-name a"
+        ).get_text(strip=True)
+
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
