@@ -474,7 +474,7 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``>=python3.8`` installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have ``>=python3.9`` installed, navigate to the directory where you want this project to live in and drop these lines
 
 .. code:: shell
 
