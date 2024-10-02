@@ -321,6 +321,7 @@ from .smulweb import Smulweb
 from .sobors import SoBors
 from .southerncastiron import SouthernCastIron
 from .southernliving import SouthernLiving
+from .spainonafork import SpainOnAFork
 from .spendwithpennies import SpendWithPennies
 from .springlane import Springlane
 from .staysnatched import StaySnatched
@@ -517,6 +518,7 @@ SCRAPERS = {
     RicettePerBimby.host(): RicettePerBimby,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
+    SpainOnAFork.host(): SpainOnAFork,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,
     TheCookieRookie.host(): TheCookieRookie,
