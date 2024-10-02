@@ -18,8 +18,21 @@ class BitsOfCarey(AbstractScraper):
 
     def equipment(self):
         equipment_items = self.soup.select(
-            ".wprm-recipe-equipment-container .wprm-recipe-equipment-item .wprm-recipe-equipment-name"
+            ".wprm-recipe-equipment-container .wprm-recipe-equipment-item"
         )
-        equipment_list = [item.get_text() for item in equipment_items]
+        equipment_list = []
+
+        for item in equipment_items:
+            name_element = item.select_one(".wprm-recipe-equipment-name")
+            note = item.select_one(".wprm-recipe-equipment-notes")
+
+            name = name_element.get_text(strip=True)
+
+            if note:
+                note_text = note.get_text(strip=True)
+                name = name.replace(note_text, "").strip()
+                name += f" (note: {note_text})"
+
+            equipment_list.append(name)
 
         return get_equipment(equipment_list)
