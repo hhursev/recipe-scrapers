@@ -1,7 +1,8 @@
 {
-  "host": "spainonafork.com",
-  "canonical_url": "https://spainonafork.com/canned-salmon-meatballs-with-potatoes-recipe/",
   "author": "Albert Bevia @ Spain on a Fork",
+  "canonical_url": "https://spainonafork.com/canned-salmon-meatballs-with-potatoes-recipe/",
+  "site_name": "Spain on a Fork",
+  "host": "spainonafork.com",
   "language": "en-US",
   "title": "Canned Salmon Meatballs with Potatoes",
   "ingredients": [
@@ -25,7 +26,6 @@
     "1.5 lbs baby yukon gold potatoes (700 grams)",
     "handful chopped fresh parsley"
   ],
-  "site_name": "Spain on a Fork",
   "ingredient_groups": [
     {
       "ingredients": [
@@ -73,25 +73,25 @@
     "After boiling the potatoes for 15 to 20 minutes and they're just cooked through, you can always pierce them with a toothpick, drain into a colander",
     "Transfer the potatoes into serving dishes, along with some of the simmering salmon meatballs, then top off with some of the sauce and chopped fresh parsley, enjoy!"
   ],
-  "total_time": 35,
-  "prep_time": 15,
-  "cook_time": 20,
+  "category": "Main Course",
   "yields": "4 servings",
-  "image": "https://spainonafork.com/wp-content/uploads/2024/08/image3-84-11.png",
+  "total_time": 35,
+  "cook_time": 20,
+  "prep_time": 15,
+  "cuisine": "Spanish",
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "458 kcal",
-    "carbohydrateContent": "42 g",
-    "proteinContent": "28 g",
     "fatContent": "21 g",
     "saturatedFatContent": "3 g",
+    "unsaturatedFatContent": "15 g",
     "transFatContent": "0.03 g",
-    "cholesterolContent": "152 mg",
+    "carbohydrateContent": "42 g",
+    "sugarContent": "4 g",
+    "proteinContent": "28 g",
     "sodiumContent": "427 mg",
     "fiberContent": "5 g",
-    "sugarContent": "4 g",
-    "unsaturatedFatContent": "15 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "152 mg"
   },
-  "cuisine": "Spanish",
-  "category": "Main Course"
+  "image": "https://spainonafork.com/wp-content/uploads/2024/08/image3-84-11.png"
 }

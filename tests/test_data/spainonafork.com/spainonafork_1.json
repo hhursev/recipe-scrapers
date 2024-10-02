@@ -1,7 +1,8 @@
 {
-  "host": "spainonafork.com",
-  "canonical_url": "https://spainonafork.com/spanish-sangria-recipe/",
   "author": "Albert Bevia @ Spain on a Fork",
+  "canonical_url": "https://spainonafork.com/spanish-sangria-recipe/",
+  "site_name": "Spain on a Fork",
+  "host": "spainonafork.com",
   "language": "en-US",
   "title": "Homemade Spanish Sangria - Authentic Recipe",
   "ingredients": [
@@ -15,7 +16,6 @@
     "1/3 Cup White Sugar",
     "1 Cinnamon Stick"
   ],
-  "site_name": "Spain on a Fork",
   "instructions_list": [
     "Thinly slice 1 orange and 1 lemon, add half of the orange slices and half of the lemon slices into a pitcher and reserve the other slices, cut 1 peach and 1 apple into small cubes and add all the cubed peaches and half the cubed apples to the pitcher, reserve the other cubed apples",
     "Next add a 1/4 cup of a good quality brandy into the pitcher, 1 cup of non-concentrated orange juice and 1/3 cup of white sugar",
@@ -25,11 +25,11 @@
     "When ready to serve, stir the sangria around in the pitcher, then add some ice cubes to each serving glass, add some of the reserved cut apples into the glass, and pour in some sangria, add 1 orange and 1 lemon slice to each glass and serve",
     "Enjoy!"
   ],
-  "total_time": 135,
-  "prep_time": 15,
-  "cook_time": 120,
   "yields": "4 servings",
-  "image": "https://i1.wp.com/spainonafork.com/wp-content/uploads/2017/09/sangria1-11.png?fit=750%2C750&ssl=1",
+  "total_time": 135,
+  "cook_time": 120,
+  "prep_time": 15,
   "ratings": 5.0,
-  "ratings_count": 1
+  "ratings_count": 1,
+  "image": "https://i1.wp.com/spainonafork.com/wp-content/uploads/2017/09/sangria1-11.png?fit=750%2C750&ssl=1"
 }
