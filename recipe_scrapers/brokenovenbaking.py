@@ -21,7 +21,7 @@ class BrokenOvenBaking(AbstractScraper):
             ".wprm-recipe-equipment-container .wprm-recipe-equipment-item"
         )
         equipment_list = [
-            item.select_one(".wprm-recipe-equipment-name").get_text(strip=True)
+            item.select_one(".wprm-recipe-equipment-name").get_text()
             for item in equipment_items
         ]
 
