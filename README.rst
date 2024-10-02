@@ -200,6 +200,7 @@ Scrapers available for:
 - `https://franzoesischkochen.de/ <https://franzoesischkochen.de/>`_
 - `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
+- `https://glutenfreeonashoestring.com/ <https://glutenfreeonashoestring.com/>`_
 - `https://godt.no/ <https://godt.no/>`_
 - `https://gonnawantseconds.com/ <https://gonnawantseconds.com>`_
 - `https://goodfooddiscoveries.com/ <https://goodfooddiscoveries.com/>`_
@@ -395,10 +396,12 @@ Scrapers available for:
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thefoodietakesflight.com/ <https://thefoodietakesflight.com/>`_
+- `https://theglutenfreeaustrian.com/ <https://theglutenfreeaustrian.com/>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
 - `https://www.thekitchenmagpie.com/ <https://www.thekitchenmagpie.com>`_
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
+- `https://theloopywhisk.com/ <https://theloopywhisk.com/>`_
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_
@@ -475,7 +478,7 @@ If you want a scraper for a new site added
 For Devs / Contribute
 ---------------------
 
-Assuming you have ``>=python3.8`` installed, navigate to the directory where you want this project to live in and drop these lines
+Assuming you have ``>=python3.9`` installed, navigate to the directory where you want this project to live in and drop these lines
 
 .. code:: shell
 
