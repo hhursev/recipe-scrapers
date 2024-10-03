@@ -1,6 +1,5 @@
 import inspect
 from collections import OrderedDict
-from typing import Dict, Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
@@ -21,19 +20,19 @@ HEADERS = {
 
 
 class AbstractScraper:
-    page_data: Union[str, bytes]
+    page_data: str | bytes
 
     def __init__(
         self,
-        url: Union[str, None],
-        proxies: Optional[
-            Dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
-        wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
+        url: str | None,
+        proxies: (
+            dict[str, str] | None
+        ) = None,  # allows us to specify optional proxy server
+        timeout: (
+            float | tuple[float, float] | tuple[float, None] | None
+        ) = None,  # allows us to specify optional timeout for request
+        wild_mode: bool | None = False,
+        html: str | bytes | None = None,
     ):
         if html:
             self.page_data = html
