@@ -1,5 +1,3 @@
-from typing import List
-
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._grouping_utils import IngredientGroup
@@ -69,7 +67,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
         section = []
@@ -123,7 +121,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return [IngredientGroup(ingredients_list)]
 
-    def ingredients(self) -> List[str]:
+    def ingredients(self) -> list[str]:
         results = []
         for ingredient_group in self.ingredient_groups():
             results.extend(ingredient_group.ingredients)
