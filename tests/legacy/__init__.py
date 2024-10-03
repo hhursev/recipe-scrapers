@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import unittest
-from typing import Any
 from collections.abc import Iterator
+from typing import Any
 
 import responses
 from responses import matchers
