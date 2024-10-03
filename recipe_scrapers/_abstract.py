@@ -1,6 +1,6 @@
 import inspect
 from collections import OrderedDict
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 from urllib.parse import urljoin
 
 import requests
@@ -123,7 +123,7 @@ class AbstractScraper:
         """Ingredients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         """List of ingredient groups."""
         return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
 
@@ -131,7 +131,7 @@ class AbstractScraper:
         """Instructions to prepare the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def instructions_list(self) -> List[str]:
+    def instructions_list(self) -> list[str]:
         """Instructions to prepare the recipe as a list."""
         return [
             instruction

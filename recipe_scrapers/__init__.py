@@ -126,6 +126,7 @@ from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
+from .glutenfreeonashoestring import GlutenFreeOnAShoeString
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
@@ -205,6 +206,7 @@ from .matprat import Matprat
 from .mccormick import McCormick
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
+from .miljuschka import Miljuschka
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
 from .ministryofcurry import MinistryOfCurry
@@ -321,10 +323,12 @@ from .theclevercarrot import TheCleverCarrot
 from .thecookierookie import TheCookieRookie
 from .thecookingguy import TheCookingGuy
 from .theexpertguides import TheExpertGuides
+from .theglutenfreeaustrian import TheGlutenFreeAustrian
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchencommunity import TheKitchenCommunity
 from .thekitchenmagpie import TheKitchenMagPie
 from .thekitchn import TheKitchn
+from .theloopywhisk import TheLoopyWhisk
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themodernproper import TheModernProper
 from .thepalatablelife import ThePalatableLife
@@ -457,6 +461,7 @@ SCRAPERS = {
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FifteenGram.host(): FifteenGram,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
+    GlutenFreeOnAShoeString.host(): GlutenFreeOnAShoeString,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
@@ -473,6 +478,7 @@ SCRAPERS = {
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
     McCormick.host(): McCormick,
+    Miljuschka.host(): Miljuschka,
     ModernHoney.host(): ModernHoney,
     MomOnTimeout.host(): MomOnTimeout,
     Moulinex.host(): Moulinex,
@@ -497,6 +503,8 @@ SCRAPERS = {
     TasteAtlas.host(): TasteAtlas,
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
+    TheGlutenFreeAustrian.host(): TheGlutenFreeAustrian,
+    TheLoopyWhisk.host(): TheLoopyWhisk,
     ThePalatableLife.host(): ThePalatableLife,
     TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
     Thinlicious.host(): Thinlicious,
