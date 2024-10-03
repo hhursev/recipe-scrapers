@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 import unittest
-from typing import Any, Optional
+from typing import Any
 from collections.abc import Iterator
 
 import responses
@@ -8,7 +10,7 @@ from responses import matchers
 
 class ScraperTest(unittest.TestCase):
     maxDiff = None
-    test_file_name: Optional[str] = None
+    test_file_name: str | None = None
     test_file_extension = "testhtml"
     scraper_class: Any
 

@@ -1,4 +1,4 @@
-from typing import Optional, Union
+from __future__ import annotations
 
 from requests import Session
 
@@ -19,14 +19,14 @@ class BettyBossi(AbstractScraper):
     def __init__(
         self,
         url: str,
-        proxies: Optional[
-            dict[str, str]
-        ] = None,  # allows us to specify optional proxy server
-        timeout: Optional[
-            Union[float, tuple[float, float], tuple[float, None]]
-        ] = None,  # allows us to specify optional timeout for request
-        wild_mode: Optional[bool] = False,
-        html: Union[str, bytes, None] = None,
+        proxies: (
+            dict[str, str] | None
+        ) = None,  # allows us to specify optional proxy server
+        timeout: (
+            float | tuple[float, float] | tuple[float, None] | None
+        ) = None,  # allows us to specify optional timeout for request
+        wild_mode: bool | None = False,
+        html: str | bytes | None = None,
     ) -> None:
         if html is None:
             with Session() as session:
