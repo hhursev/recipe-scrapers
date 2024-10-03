@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import inspect
 from collections import OrderedDict
 from urllib.parse import urljoin
