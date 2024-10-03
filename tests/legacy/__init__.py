@@ -1,5 +1,6 @@
 import unittest
-from typing import Any, Iterator, Optional, Tuple
+from typing import Any, Optional
+from collections.abc import Iterator
 
 import responses
 from responses import matchers
@@ -12,7 +13,7 @@ class ScraperTest(unittest.TestCase):
     scraper_class: Any
 
     @classmethod
-    def expected_requests(cls) -> Iterator[Tuple[str, str, str]]:
+    def expected_requests(cls) -> Iterator[tuple[str, str, str]]:
         """
         Descriptions of the expected requests that the scraper-under-test will make, as
         tuples of: HTTP method, URL, path-to-content-file

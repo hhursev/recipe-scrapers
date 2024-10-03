@@ -1,4 +1,4 @@
-from typing import Dict, Optional, Tuple, Union
+from typing import Optional, Union
 
 from requests import Session
 
@@ -20,10 +20,10 @@ class BettyBossi(AbstractScraper):
         self,
         url: str,
         proxies: Optional[
-            Dict[str, str]
+            dict[str, str]
         ] = None,  # allows us to specify optional proxy server
         timeout: Optional[
-            Union[float, Tuple[float, float], Tuple[float, None]]
+            Union[float, tuple[float, float], tuple[float, None]]
         ] = None,  # allows us to specify optional timeout for request
         wild_mode: Optional[bool] = False,
         html: Union[str, bytes, None] = None,
