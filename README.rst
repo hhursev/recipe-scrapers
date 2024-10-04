@@ -146,6 +146,7 @@ Scrapers available for:
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookscountry.com/ <https://www.cookscountry.com>`_ (*)
 - `https://cooksillustrated.com/ <https://www.cooksillustrated.com>`_ (*)
+- `https://cookwell.com/ <https://cookwell.com/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
