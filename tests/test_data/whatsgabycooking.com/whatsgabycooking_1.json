@@ -47,5 +47,43 @@
     "roasted broccoli",
     "caesar broccoli",
     "how to roast broccoli"
+  ],
+  "reviews": [
+    {
+      "author": "Amy Pezzimenti",
+      "datePublished": "2023-10-28",
+      "reviewRating": "5",
+      "reviewBody": "Delicious...could not stop eating it straight from the sheet pan!"
+    },
+    {
+      "author": "Camille H",
+      "datePublished": "2023-05-28",
+      "reviewRating": "5",
+      "reviewBody": "So good and such an easy/delicious take on just some regular broccoli. This will be a staple for us! We used store bought Brianna’s caesar and it was perfection with it. Thanks Gaby"
+    },
+    {
+      "author": "Kelly",
+      "datePublished": "2023-01-31",
+      "reviewRating": "5",
+      "reviewBody": "Absolute perfection. Best broccoli I've ever had! I could eat this every single day."
+    },
+    {
+      "author": "Jamie",
+      "datePublished": "2023-01-30",
+      "reviewRating": "5",
+      "reviewBody": "Gaby! Something is so wrong with this recipe. The recipe mentions 6 servings, but my husband and I devoured all of this dish on our own.  \r\n\r\nI’ll be making this on a regular basis."
+    },
+    {
+      "author": "Stephanie",
+      "datePublished": "2023-01-18",
+      "reviewRating": "5",
+      "reviewBody": "NO NOTES. SO GOOD CAPS ARE NECESSARY!!!"
+    },
+    {
+      "author": "Monika",
+      "datePublished": "2023-01-16",
+      "reviewRating": "5",
+      "reviewBody": "This sounds like it will be on constant rotation - so glad I am growing broccoli!!"
+    }
   ]
 }

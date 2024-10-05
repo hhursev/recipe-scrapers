@@ -81,5 +81,79 @@
     "healthy salmon",
     "healthy salmon recipe",
     "salmon with avocado"
+  ],
+  "reviews": [
+    {
+      "author": "Barry",
+      "datePublished": "2024-02-11",
+      "reviewRating": "5",
+      "reviewBody": "What a great recipe for a hot summers day here in Australia. Just really enjoyed the flavours. These flavours suite me. There was a bit of the salsa left over so I added a splash of Green Tabasco which for me took the salso to another level.\r\nThoughly enjoyed it. Thanks"
+    },
+    {
+      "author": "Teresa",
+      "datePublished": "2023-07-31",
+      "reviewRating": "5",
+      "reviewBody": "This was AMAZING.  I can’t wait to make it again. Is the nutrition information for the whole recipe, or per serving? Thanks!"
+    },
+    {
+      "author": "Christy",
+      "datePublished": "2023-07-07",
+      "reviewRating": "5",
+      "reviewBody": "Our absolute favorite way to cook salmon!! The avacado salsa is the perfect addition 🤩"
+    },
+    {
+      "author": "Beth",
+      "datePublished": "2023-05-09",
+      "reviewRating": "5",
+      "reviewBody": "My family regularly requests this meal! It is so satisfying and fresh!  We adjust the ingredient portion to our tastes and it is wonderful EVERY TIME!!"
+    },
+    {
+      "author": "Anna",
+      "datePublished": "2023-04-04",
+      "reviewRating": "5",
+      "reviewBody": "I make this for my family at least 2-3 times a month. We ALL love it. I just refer back to it so I can make the spice rub. I make it in bulk and store it in a jar."
+    },
+    {
+      "author": "Grace",
+      "datePublished": "2022-11-11",
+      "reviewRating": "5",
+      "reviewBody": "Was delicious, I have prepared this salmon quite a few times , I had some friends for dinner and everyone enjoyed and \r\n love it ."
+    },
+    {
+      "author": "Julie",
+      "datePublished": "2022-08-13",
+      "reviewRating": "5",
+      "reviewBody": "I use this recipe all the time!  It is so tasty. I usually broil my salmon though. About 6 min under the broiler."
+    },
+    {
+      "author": "Judy",
+      "datePublished": "2022-07-10",
+      "reviewRating": "5",
+      "reviewBody": "I've been using your spice rub on grilled salmon for years, not because we follow the whole 30 plan but because it is so darn good!! I make it exactly as shown but I make extra rub per pound so it can generously coat every square inch of the fish. I like it with the salsa, but it is just as good on it's own. Thank you again for posting such a great recipe  that's  become a staple in my home!"
+    },
+    {
+      "author": "Kandis",
+      "datePublished": "2022-07-03",
+      "reviewRating": "5",
+      "reviewBody": "It was soooooo good and fresh and tasty"
+    },
+    {
+      "author": "Marie",
+      "datePublished": "2022-05-07",
+      "reviewRating": "5",
+      "reviewBody": "Fabulous !!!!"
+    },
+    {
+      "author": "Laura McAlister",
+      "datePublished": "2022-04-26",
+      "reviewRating": "5",
+      "reviewBody": "Delicious!"
+    },
+    {
+      "author": "dddd",
+      "datePublished": "2022-03-03",
+      "reviewRating": "5",
+      "reviewBody": "Step 1 should say onion powder, not onion - to avoid confusion w the onion used in the avocado salsa"
+    }
   ]
 }

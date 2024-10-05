@@ -55,5 +55,19 @@
     "baked beans using canned beans",
     "baked beans with molasses",
     "gluten-free baked beans"
+  ],
+  "reviews": [
+    {
+      "author": "Jen Wooster",
+      "datePublished": "2022-07-01",
+      "reviewRating": "5",
+      "reviewBody": "Thanks for the feedback!"
+    },
+    {
+      "author": "Jason",
+      "datePublished": "2022-06-30",
+      "reviewRating": "5",
+      "reviewBody": "This recipe is amazing, I didn't realize what copious amounts of bacon would do to baked beans but now I know and can never go back.  Sorry vegetarians.  The molasses adds great flavor making the dish both delicious and very filling. Thanks for sharing this one!"
+    }
   ]
 }

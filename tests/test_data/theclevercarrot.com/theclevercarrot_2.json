@@ -59,5 +59,25 @@
   "cook_time": 20,
   "ratings": 4.3,
   "ratings_count": 3,
-  "image": "https://www.theclevercarrot.com/wp-content/uploads/2012/12/IMG_1824-225x225.jpg"
+  "image": "https://www.theclevercarrot.com/wp-content/uploads/2012/12/IMG_1824-225x225.jpg",
+  "reviews": [
+    {
+      "author": "Molly @ Toffee Bits and Chocolate Chips",
+      "datePublished": "2012-12-30",
+      "reviewRating": "4",
+      "reviewBody": "Just found your blog and LOVE it! I've been pinning recipes like crazy! Your photography is incredible- have you done a post with tips?\r\n\r\nps- this recipe looks simply and delicious!"
+    },
+    {
+      "author": "Pat",
+      "datePublished": "2013-01-16",
+      "reviewRating": "4",
+      "reviewBody": "I just prepared this recipe, and is was awesome. I am a little mad at myself for walking past the sweet chili sauce for all these years. I never knew about it, and I could have been using it in all sorts of recipes. But, now I know about it, and will be using it often! Thank you"
+    },
+    {
+      "author": "lovefoodies",
+      "datePublished": "2013-06-10",
+      "reviewRating": "5",
+      "reviewBody": "All I can say is DELICIOUS!!! What a lovely photo and recipe. Perfecto!\r\nMary"
+    }
+  ]
 }

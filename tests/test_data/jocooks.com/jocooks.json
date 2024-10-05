@@ -92,5 +92,55 @@
   "keywords": [
     "fried chicken",
     "korean fried chicken"
+  ],
+  "reviews": [
+    {
+      "author": "Olivia",
+      "datePublished": "2023-10-16",
+      "reviewRating": "5",
+      "reviewBody": "This recipe is my absolute favorite!! My husband said this is better than the chicken at his favorite Asian restaurant. I thought this dish was going to be complex but it was surprisingly easy. My chicken also looked just like the picture which never happens. I highly recommend making this dish. It is now my go to dish to impress my family and guest."
+    },
+    {
+      "author": "Chris",
+      "datePublished": "2023-09-09",
+      "reviewRating": "5",
+      "reviewBody": "This recipe is absolutely brilliant!, it's  restaurant quality I have to say. I do have one question, I saw on the photos of the ingredients and there is a photo of salt and pepper but I didn't see that on the instructions and the ingredients list although I didn't add it but maybe next time would you recommend to add it to the cornstarch while breading chicken or not really needed? \r\nOther than that Thanks for your recipe perfect recipe for a Saturday night in"
+    },
+    {
+      "author": "Jack Dorsey",
+      "datePublished": "2023-09-04",
+      "reviewRating": "5",
+      "reviewBody": "This was perfect. I didn’t deviate from the recipe and it turned out wonderfully. Prepared in my giant cast iron wok. We’re going to make wraps with the leftovers tomorrow"
+    },
+    {
+      "author": "Terri",
+      "datePublished": "2023-08-22",
+      "reviewRating": "5",
+      "reviewBody": "Loved the dish. Will make it again"
+    },
+    {
+      "author": "Rhona Perkins",
+      "datePublished": "2023-08-22",
+      "reviewRating": "5",
+      "reviewBody": "Perfect! Restaurant/take out quality!"
+    },
+    {
+      "author": "Lauren",
+      "datePublished": "2023-04-27",
+      "reviewRating": "5",
+      "reviewBody": "Amazing 🤩 thank you"
+    },
+    {
+      "author": "Martin Hughes",
+      "datePublished": "2022-12-31",
+      "reviewRating": "5",
+      "reviewBody": "I made this after eating Korean chicken in a restaurant. This recipe is excellent. Really  authentic. Was even better than I had in the Korean restaurant. I’ve shared  it with loads of my friends and they  have come back and said the same."
+    },
+    {
+      "author": "CarolZ",
+      "datePublished": "2021-05-30",
+      "reviewRating": "5",
+      "reviewBody": "This really was absolutely delicious. The sauce was perfect - a little heat and not too sweet. The chicken was crispy because of the corn starch. I made broccoli and rice with it.  What a great meal."
+    }
   ]
 }

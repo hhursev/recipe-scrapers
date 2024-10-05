@@ -91,5 +91,19 @@
     "braised beef",
     "red wine-butter sauce",
     "stewed beef"
+  ],
+  "reviews": [
+    {
+      "author": "LG",
+      "datePublished": "2024-03-26",
+      "reviewRating": "5",
+      "reviewBody": "I’m Portuguese. My Mom was not a great cook. Her version of this recipe was kind of bland (bless her heart).  This version is AMAZING! We absolutely loved it!   Thank you for sharing!"
+    },
+    {
+      "author": "kathy",
+      "datePublished": "2022-08-16",
+      "reviewRating": "5",
+      "reviewBody": "Delicious, tender and flavorful beef. I doubled the red pepper because we like spicy food. Next time, I'll try 4 times as much because we like very spicy. I cooked this in an instant pot because it's so hot outside and it worked great. Thanks for the recipe."
+    }
   ]
 }

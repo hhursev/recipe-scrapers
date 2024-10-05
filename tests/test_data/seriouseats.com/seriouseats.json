@@ -48,5 +48,28 @@
     "holiday",
     "pastry",
     "pie"
+  ],
+  "reviews": [
+    {
+      "author": "Mark Chais",
+      "reviewBody": "Just tried the pie again this morning, and I've revised my opinion. This recipe deserves a nobel prize. I'll never use another. The crust is perfect. For all those with problems, all I can say is you're doing something wrong. Check your steps carefully. Are you using the right ingredients? Do you have a good oven thermometer? Are you watching oven temperature carefully? Are you using the right kind of pie pan? If you deviate from Stella's instructions by one iota than you have no right to complain. My crust did not melt in the oven. It was not greasy. It was not semi-translucent(!). It was not hard to cut with a knife. No. It was crisp, flakey, beautifully browned, and delicious. Follow the instructions. Don't be a hockey puck ."
+    },
+    {
+      "author": "ktabtiang",
+      "reviewBody": "I made this crust for the first time on Thanksgiving and had a butter flood! My crust shrank down and it was so tough, I had a hard time cutting it to serve. It sounds like others have had similar problems. But the recipe sounded so promising that I tried it again a few days later. (More pie- great!) First, I read all the comments, and then found a related article and read all those comments too. (https://www.seriouseats.com/2016/06/how-to-make-a-beautifully-flaky-pie-crust) That's where I figured out my problem.\n\nAs a last step, Stella says to \"Use as directed in your favorite recipe.\" My recipe said to start the pie at 425F for 20 min and then lower the temp. I also used a pizza stone since that normally gives me a great bottom crust. Apparently this is a double no for this recipe! One of Stella's comments says an oven temp over 400 or a pizza stone will make the butter leak. It would be nice if this were mentioned in the recipe. My second try worked so much better and the crust mostly held its shape, and was very flaky and delicious. I hope this helps someone else succeed with this yummy recipe!"
+    },
+    {
+      "author": "SC",
+      "reviewRating": "5",
+      "reviewBody": "I’ve had mixed success with this recipe, but after multiple trys and, often, moderate failure, I’ve come to agree with other success-story comments here. You’re probably missing something. For me, I wasn’t really kneading the dough (as instructed), but rather was trying to let the lamination bring the dough together as in other recipes. Often, I ended up with a brittle crust and moderate to significant butter pooling, even though I was using all the right ingredients and thought I was doing everything “to a T.” Now, I realize this light kneading 1) promotes gluten development (as discussed) helping the dough expand and hold on to the butter—think croissants or puff pastry, which undergo significant gluten development—and 2) mixes some of the butter further into the flour, helping with tenderness.\n\nKneading the dough into a shaggy mass and keeping everything else the same removed both of my issues and gave me the crust promised. So, as many have said before, (actually) following Stella’s direction will lead to success."
+    },
+    {
+      "author": "Juju",
+      "reviewBody": "Have used Gold Medal AP flour for years and have always baked by weight.\n\nGold Medal flour lists 1/4 C = 30g; therefore, for ~225g, cup volume is a scant 2 C flour or 1-3/4 C + 2 TBSP flour, not 1-2/3 C (160g).\n\nThis pie dough is along the lines of a 100% butter-to-flour blitz puff pastry.\n\nIf anyone is using volume measurement, the butter ratio becomes 140% -- not 100% -- which may also explain why dough for some turns out greasy with butter pooling."
+    },
+    {
+      "author": "Matthew",
+      "reviewBody": "Are these crusts THIN? 1 2/3rds cup of flour for 2 crusts seems so minimal. I've seen recipes that call for over 2 cups of flour to make 2 \"thin\" crusts. Am I missing something here?"
+    }
   ]
 }

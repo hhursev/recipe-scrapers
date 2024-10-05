@@ -37,5 +37,52 @@
     "Fry",
     "Lunch",
     "Main course"
+  ],
+  "reviews": [
+    {
+      "author": "Martha Stewart Member",
+      "reviewRating": "5",
+      "reviewBody": "yummy recipe"
+    },
+    {
+      "author": "Bill Maltsberger",
+      "reviewRating": "5",
+      "reviewBody": "This recipe and demo make it look perfectly easy!"
+    },
+    {
+      "author": "JudyR",
+      "reviewRating": "5",
+      "reviewBody": "I subbed panko and I thought they were great!"
+    },
+    {
+      "author": "bekagram",
+      "reviewRating": "0",
+      "reviewBody": "I'm glad I read your comments. I agree there looks like a lot of salt so I will take\nyour advice and cut back. Bekagram"
+    },
+    {
+      "author": "Martha Stewart Member",
+      "reviewRating": "0",
+      "reviewBody": "What would be good to serve with this?"
+    },
+    {
+      "author": "andrea",
+      "reviewRating": "0",
+      "reviewBody": "I have made this many times, we are jewish and call this dish chicken shnitzel. I do agree with erasure though, it doesn't need all that salt. I have never added salt to the egg or the flour, just a little to the breadcrumbs along with other spices, and lately I've been baking it instead of frying for health reasons, and it is almost as tasty...almost, not quite."
+    },
+    {
+      "author": "BnN's Granny",
+      "reviewRating": "0",
+      "reviewBody": "I find that some of the recipes here are too salty for my tastes too. I just use less. I bet a touch a parmesan cheese, instead of the salt, would be good as well as a few herbs."
+    },
+    {
+      "author": "Martha Stewart Member",
+      "reviewRating": "0",
+      "reviewBody": "Why so much salt? I've made this recipe without any salt, and it's equally delicious. Try adding some herbs to the breadcrumbs, too!"
+    },
+    {
+      "author": "Martha Stewart Member",
+      "reviewRating": "0",
+      "reviewBody": "This breading for chicken is delicious, although I needed less breadcrumbs and more flour. It is crispy and a treat to eat."
+    }
   ]
 }

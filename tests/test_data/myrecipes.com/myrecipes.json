@@ -23,5 +23,25 @@
   "total_time": 20,
   "ratings": 3.0,
   "ratings_count": 3,
-  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F01%2F25%2Fmyrecipestrending_1-09-18_1772_1-2000.jpg"
+  "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F01%2F25%2Fmyrecipestrending_1-09-18_1772_1-2000.jpg",
+  "reviews": [
+    {
+      "author": "judygoldin",
+      "datePublished": "2022-10-02T23:34:43.873Z",
+      "reviewRating": 3,
+      "reviewBody": "Please please please tell me what's the difference between grated and shredded cheese."
+    },
+    {
+      "author": "MyRecipes Member",
+      "datePublished": "2021-05-28T18:20:15.903Z",
+      "reviewRating": 5,
+      "reviewBody": "To the person who wants exactMeasurements: a word to live by, a recipe is not an exact science.It is a roadmap so you can take side trips into making something yours.  Add more, or less, pepper. . add more, or less, salt. . Make it yours.This is not rocket science here.Enjoy yourself in the kitchen.Best ingredient ever-LOVE!Very Best Regards,Mike Sneller940-632-9522"
+    },
+    {
+      "author": "MyRecipes Member",
+      "datePublished": "2021-02-05T20:49:49.307Z",
+      "reviewRating": 1,
+      "reviewBody": "Oh, those pesky details. 6 pieces of pasta, a box and a half of salt, a single peppercorn??I need ounces, teaspoons, tablespoons - things like  that - in order to follow a recipe.This is not the only recipe on this site missing crucial measurement info."
+    }
+  ]
 }

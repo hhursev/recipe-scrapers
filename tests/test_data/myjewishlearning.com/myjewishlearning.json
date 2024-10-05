@@ -44,5 +44,25 @@
   "cooking_method": "Baking",
   "ratings": 4.7,
   "ratings_count": 3,
-  "image": "https://www.myjewishlearning.com/wp-content/uploads/2023/07/Sourdough-Challah-KO-1-1-225x225.jpg"
+  "image": "https://www.myjewishlearning.com/wp-content/uploads/2023/07/Sourdough-Challah-KO-1-1-225x225.jpg",
+  "reviews": [
+    {
+      "author": "Ric",
+      "datePublished": "2024-01-19",
+      "reviewRating": "4",
+      "reviewBody": "So are saying that this dough proofs for 8 hours on the counter then gets braided, and put into fridge overnight to be baked the next day,"
+    },
+    {
+      "author": "Erin",
+      "datePublished": "2024-01-30",
+      "reviewRating": "5",
+      "reviewBody": "This was really delicious. Very complex flavor while still tasting like a challah. Pretty simple if you’re used to working with a starter."
+    },
+    {
+      "author": "Heather",
+      "datePublished": "2024-03-07",
+      "reviewRating": "5",
+      "reviewBody": "I love this recipe"
+    }
+  ]
 }

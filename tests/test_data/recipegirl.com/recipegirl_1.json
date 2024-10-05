@@ -52,5 +52,19 @@
     "clam linguine",
     "linguine with clam sauce",
     "pioneer woman"
+  ],
+  "reviews": [
+    {
+      "author": "Allyson Gallagher",
+      "datePublished": "2023-05-09",
+      "reviewRating": "5",
+      "reviewBody": "Had fresh razor clams from our son. Fixed the recipe, adding red pepper flakes. Delicious clam sauce."
+    },
+    {
+      "author": "Rebecca",
+      "datePublished": "2022-11-15",
+      "reviewRating": "5",
+      "reviewBody": "One of my faves to order out!  This recipe was great!  Skipped the parm, because why cheese?"
+    }
   ]
 }

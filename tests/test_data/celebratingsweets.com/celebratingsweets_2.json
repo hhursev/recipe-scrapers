@@ -82,5 +82,37 @@
   "keywords": [
     "Chocolate Pudding Cake",
     "Pudding Cake"
+  ],
+  "reviews": [
+    {
+      "author": "Tooby",
+      "datePublished": "2024-03-12",
+      "reviewRating": "5",
+      "reviewBody": "I made with this with walnuts and unsweetened almond milk and it was incredible. Like a hot fudge sundae all in one step. It did need about ten minutes more of cooking time, but other than that it went exactly as the recipe said it would."
+    },
+    {
+      "author": "Abiyah",
+      "datePublished": "2024-01-17",
+      "reviewRating": "5",
+      "reviewBody": "Perfect"
+    },
+    {
+      "author": "Natasha",
+      "datePublished": "2023-02-01",
+      "reviewRating": "5",
+      "reviewBody": "I didn’t have Espresso powder :’( but I just pretended like I didn’t see it on the list, and oh my goodness! It’s so delicious!!! Definitely going to make this again and I hope by the next time, espresso appears in my shopping cart because I bet it makes this more of a 10* recipe with that added."
+    },
+    {
+      "author": "Lani",
+      "datePublished": "2023-01-17",
+      "reviewRating": "5",
+      "reviewBody": "I have made this for years, it’s such an easy but special treat! Do you think this could be doubled (for a dinner party) and if so, what size pan or bake time might you suggest? Thank you."
+    },
+    {
+      "author": "Janet L Fortner",
+      "datePublished": "2021-02-04",
+      "reviewRating": "5",
+      "reviewBody": "Oh my oh my"
+    }
   ]
 }

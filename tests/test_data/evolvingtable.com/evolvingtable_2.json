@@ -74,5 +74,19 @@
     "fiberContent": "2 g",
     "cholesterolContent": "129 mg"
   },
-  "image": "https://www.evolvingtable.com/wp-content/uploads/2018/03/Chicken-Tenders-Paleo-6.jpg"
+  "image": "https://www.evolvingtable.com/wp-content/uploads/2018/03/Chicken-Tenders-Paleo-6.jpg",
+  "reviews": [
+    {
+      "author": "Brenda Speer",
+      "datePublished": "2018-03-28",
+      "reviewRating": "5",
+      "reviewBody": "Thanks!  I will make these tomorrow! Can't wait to try!"
+    },
+    {
+      "author": "Brenda",
+      "datePublished": "2018-03-25",
+      "reviewRating": "5",
+      "reviewBody": "Hi!  When you say refrigerate overnight.... so I coat the chicken and then leave on pan in refrigerator overnight and then fry tenders?"
+    }
+  ]
 }

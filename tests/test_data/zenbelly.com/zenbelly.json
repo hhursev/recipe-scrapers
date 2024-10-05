@@ -36,5 +36,25 @@
   "prep_time": 10,
   "ratings": 5.0,
   "ratings_count": 4,
-  "image": "https://www.zenbelly.com/wp-content/uploads/2019/01/gingerbread-3-225x225.jpeg"
+  "image": "https://www.zenbelly.com/wp-content/uploads/2019/01/gingerbread-3-225x225.jpeg",
+  "reviews": [
+    {
+      "author": "Sheryl",
+      "datePublished": "2020-05-27",
+      "reviewRating": "5",
+      "reviewBody": "I made this a last month (or the one before, who remembers?  quarantine living...).  It is fabulous.  So much so that I've decided to go rogue this year and make it my birthday cake tomorrow (May 28th).  I am going to attempt to pour it into 2 round cake pans instead of the 9 x 13 pan.  I am also going to make a lemon buttercream frosting for it (with real organic powdered sugar, because it's my birthday and I do not scoff at the sugar *enough maybe*, but again - quarantine living and quarantine birthday so WTF?) -- thank you for inspiring me to look beyond other birthday cake ideas this year!  xo"
+    },
+    {
+      "author": "Natalie",
+      "datePublished": "2020-12-24",
+      "reviewRating": "5",
+      "reviewBody": "So good. Used 1/2 maple sugar, 1/2 dark brown sugar, because I &lt;3 sugar"
+    },
+    {
+      "author": "Maria",
+      "datePublished": "2021-02-04",
+      "reviewRating": "5",
+      "reviewBody": "Hi Simone,\r\n\r\nThanks so much for sharing this recipe. It is absolutely delicious! It reminds me of the gingerbread my mom used to make when I was kid. She'd serve it with hot cinnamon applesauce, which is what I did, and what memories it brought back! I did bake it for 35 minutes and it turned out perfectly! I also used parchment paper in my baking dish since I was too lazy to grease it and sprinkle with tapioca starch:)."
+    }
+  ]
 }

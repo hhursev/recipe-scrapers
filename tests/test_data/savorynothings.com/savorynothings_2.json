@@ -99,5 +99,25 @@
     "quick bread",
     "whole wheat",
     "whole wheat banana bread"
+  ],
+  "reviews": [
+    {
+      "author": "Tanya Bay",
+      "datePublished": "2021-11-06",
+      "reviewRating": "5",
+      "reviewBody": "Great tecture of the dough, I really like it!"
+    },
+    {
+      "author": "Vienna Harrison",
+      "datePublished": "2021-06-09",
+      "reviewRating": "5",
+      "reviewBody": "This is a great recipe! I was hoping these could be a more healthy substitute for a sour cream coffee cake muffin that I love but is really decadent, and these really fit the bill. Thank you for giving suggested bake time for the muffin conversion - I almost always prefer to make muffins instead of a loaf and can somehow never remember bake times. I also chose to do the 1C white flour and 1C whole wheat flour suggestion, and I layered the crumb topping on the bottom, middle and top of the muffin because we are cinnamon lovers in this house. I only had vanilla greek yogurt so I cut the sugar to 1/3 cup as you suggested for cutting sweetness and they turned out beautifully! I had way more crumb topping than I needed but I put it in the freezer for next time. I will definitely be holding on to this recipe, thanks for sharing!"
+    },
+    {
+      "author": "Stefanie",
+      "datePublished": "2021-02-05",
+      "reviewRating": "5",
+      "reviewBody": "Great banana bread!  I had to make a few changes - I only had one table spoon of butter, so for the crumb I halved the dry ingredients and just used the 1 tbsp butter and that turned out ok - definitely would have been better with more, but it worked!  I also used 1 7/8 whole wheat flour and 1/8 cornstarch, was a bit low on both banana and oil so added an extra egg white.  Finally, I added about a cup of blueberries right at the end before baking.  Overall, quite tasty!  My version ends up around 230 calories if splitting into 12 servings."
+    }
   ]
 }

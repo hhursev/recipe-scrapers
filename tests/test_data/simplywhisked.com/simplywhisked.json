@@ -61,5 +61,13 @@
     "chili",
     "beans",
     "buffalo"
+  ],
+  "reviews": [
+    {
+      "author": "Long",
+      "datePublished": "2020-12-08",
+      "reviewRating": "5",
+      "reviewBody": "So good and so easy!  My son commented twice on how good they were. Will make again! Thank you!!"
+    }
   ]
 }

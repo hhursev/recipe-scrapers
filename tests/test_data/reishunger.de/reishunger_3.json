@@ -58,5 +58,22 @@
     "Hangiri Holzschüssel",
     "Reishunger Bambus Schneidebrett"
   ],
-  "image": "https://cdn.reishunger.com/klassisches-maki-sushi-und-inside-out-rolls-von-reishunger.jpg?quality=85"
+  "image": "https://cdn.reishunger.com/klassisches-maki-sushi-und-inside-out-rolls-von-reishunger.jpg?quality=85",
+  "reviews": [
+    {
+      "author": "David Burgmann",
+      "datePublished": "2024-06-03T12:48:53+00:00",
+      "reviewRating": 4
+    },
+    {
+      "author": "E-Max",
+      "datePublished": "2024-02-06T21:41:14+00:00",
+      "reviewRating": 5
+    },
+    {
+      "author": "geile Sau",
+      "datePublished": "2022-11-30T11:42:39+00:00",
+      "reviewRating": 5
+    }
+  ]
 }

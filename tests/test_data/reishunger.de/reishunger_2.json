@@ -51,5 +51,12 @@
   "nutrients": {
     "calories": "696 kcal"
   },
-  "image": "https://cdn.reishunger.com/img7830bearbeitetklein.jpg?quality=85"
+  "image": "https://cdn.reishunger.com/img7830bearbeitetklein.jpg?quality=85",
+  "reviews": [
+    {
+      "author": "Tabea",
+      "datePublished": "2020-10-23T13:02:00+00:00",
+      "reviewRating": 5
+    }
+  ]
 }

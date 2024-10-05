@@ -41,5 +41,31 @@
     "dip",
     "easy",
     "spicy"
+  ],
+  "reviews": [
+    {
+      "author": "Gaby",
+      "datePublished": "2023-08-15",
+      "reviewRating": "5",
+      "reviewBody": "Thank you for this recipe! Just made it with a little more of Sriracha than 1 Tbsp, and LOVED it! My poke was truly amazing with this sauce. I'll surely try it with other dishes 🙂"
+    },
+    {
+      "author": "TAMARA G SUTTLE",
+      "datePublished": "2023-07-22",
+      "reviewRating": "5",
+      "reviewBody": "This was one of the best meals I've had ever!  Thank you for this.  \r\n\r\nYour heat scale for using the Sriracha sauce was spot on.  I used a Tablespoon and it was mildly spicy and just perfect for me!  I added an extra squeeze of honey on the salmon for extra sweetness.  It was PERFECTION!\r\n\r\nI do have a question though.  I believe I followed your instructions but did not have ANY marinade left over to put in the pan with the salmon.  Am wondering how much you typically have left over to pour back in there and then cook down when you make it?"
+    },
+    {
+      "author": "Barbara Renze",
+      "datePublished": "2023-03-12",
+      "reviewRating": "5",
+      "reviewBody": "This is the easiest  and best tasting recipe for Sriracha Mayo!! My family loved it so much, they ate it all and were angry that I didn't  double the recipe!!  Next time, I definitely will.   We ate it on Banh Mi sandwiches.   Yum!!!"
+    },
+    {
+      "author": "Max McCrat",
+      "datePublished": "2022-02-07",
+      "reviewRating": "5",
+      "reviewBody": "Delish, I'll make it again and again"
+    }
   ]
 }

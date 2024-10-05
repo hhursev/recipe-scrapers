@@ -34,5 +34,22 @@
   "total_time": 60,
   "ratings": 3.67,
   "ratings_count": 3,
-  "image": "https://cdn.reishunger.com/crispy-tofu-bowl.jpg?quality=85"
+  "image": "https://cdn.reishunger.com/crispy-tofu-bowl.jpg?quality=85",
+  "reviews": [
+    {
+      "author": "Frau Klein",
+      "datePublished": "2021-03-05T15:41:35+00:00",
+      "reviewRating": 5
+    },
+    {
+      "author": "Stefan",
+      "datePublished": "2021-01-05T12:58:02+00:00",
+      "reviewRating": 5
+    },
+    {
+      "author": "Maxi",
+      "datePublished": "2021-01-05T06:55:34+00:00",
+      "reviewRating": 1
+    }
+  ]
 }

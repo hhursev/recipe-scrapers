@@ -46,5 +46,67 @@
     "chocolate",
     "christmas",
     "cookies"
+  ],
+  "reviews": [
+    {
+      "author": "Lauren Moore",
+      "datePublished": "2023-12-23",
+      "reviewRating": "5",
+      "reviewBody": "These cookies turned out so good! They were fun to make and are a hit with my family."
+    },
+    {
+      "author": "Gail",
+      "datePublished": "2023-12-19",
+      "reviewRating": "5",
+      "reviewBody": "Hi Nora, I made these last year and everyone devoured them! They are soooooo darn delicious! I accidentally gave away the recipe and could not find it this year so i had the scroll through dozens of text massages to find the one i sent my friends. LOL! I am going to make them again today. Have you ever tried adding espresso downer to them? I think it might even enhance the chocolate flavor. I am going to try adding a teaspoon. Crossing my fingers they turn out just as good if not better. Thank you so much for this amazing Crinkle cookie recipe!"
+    },
+    {
+      "author": "Trish",
+      "datePublished": "2023-12-18",
+      "reviewRating": "5",
+      "reviewBody": "Easy and delicious.  Truly the best chocolate crinkle cookies I have ever made."
+    },
+    {
+      "author": "Tami Fry",
+      "datePublished": "2023-12-02",
+      "reviewRating": "5",
+      "reviewBody": "made this turned out great! added a twist to it, added 1/4 top of peppermint oil, great results"
+    },
+    {
+      "author": "Diane Fleming",
+      "datePublished": "2023-12-02",
+      "reviewRating": "5",
+      "reviewBody": "By far these are the best chocolate crinkle cookies I have ever made. I made the larger one and tapped it down a little. Thanks for sharing!"
+    },
+    {
+      "author": "Sherry Pelphrey",
+      "datePublished": "2023-10-08",
+      "reviewRating": "5",
+      "reviewBody": "Delicious, easy to make and turned out perfectly."
+    },
+    {
+      "author": "Sherry Pelphrey",
+      "datePublished": "2023-10-08",
+      "reviewRating": "5",
+      "reviewBody": "Delicious, my husband said they taste just like his mother used to make!! Thank you!"
+    },
+    {
+      "author": "Kathy",
+      "datePublished": "2023-10-07",
+      "reviewRating": "5",
+      "reviewBody": "I love cookies but buy them and never bake. I decided to try these because they look so delicious! I followed the recipe precisely and they were not only delicious but looked just like the ones in the picture. I will definitely be making them again! \r\nDo you have nutritional information for them?"
+    },
+    {
+      "author": "Casey",
+      "datePublished": "2023-04-04",
+      "reviewRating": "5",
+      "reviewBody": "I use this recipe every year. I love it. I add a little almond extract to mine, I love almond and chocolate. :)"
+    },
+    {
+      "author": "Susan Sandifer",
+      "datePublished": "2022-11-15",
+      "reviewRating": "5",
+      "reviewBody": "Made these last week for a small group of friends. Very tasty and easy to make.  \r\nThe few that are left are still light and chewy 7 days later."
+    }
   ]
 }

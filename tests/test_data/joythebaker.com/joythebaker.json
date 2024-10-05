@@ -76,5 +76,43 @@
     "mardi gras",
     "bell peppers",
     "roasted tomato"
+  ],
+  "reviews": [
+    {
+      "author": "Suzy Parker",
+      "datePublished": "2023-02-09",
+      "reviewRating": "5",
+      "reviewBody": "More reasons to eat Andouille Sausage, yes, please!"
+    },
+    {
+      "author": "Sue",
+      "datePublished": "2023-02-09",
+      "reviewRating": "5",
+      "reviewBody": "A great new recipe to try with my biscuit cutters. I personally have never eaten andouille sausage. I am guessing this sausage is on the hot side. Thank you for sharing this unique biscuit recipe."
+    },
+    {
+      "author": "Sabrina",
+      "datePublished": "2023-02-15",
+      "reviewRating": "5",
+      "reviewBody": "yummy, I love savory biscuits, a great weekend dish, and love these ingredients, thank you!"
+    },
+    {
+      "author": "Micha",
+      "datePublished": "2023-02-22",
+      "reviewRating": "5",
+      "reviewBody": "Made these for lunch today and they are amazing! Love the fluffy texture from the great rise. This recipe will definitely be on rotation here."
+    },
+    {
+      "author": "Jane",
+      "datePublished": "2023-02-27",
+      "reviewRating": "5",
+      "reviewBody": "Made these tonight to go with a simple salad. OMG, so good. Looking forward to leftovers tomorrow. I may try freezing a couple, because in a two person household, eight large biscuits are a lot.  Thanks so much for a great recipe!"
+    },
+    {
+      "author": "JK",
+      "datePublished": "2023-10-09",
+      "reviewRating": "5",
+      "reviewBody": "wow, these are fantastic!  they cook up moist and not too dense. I even use a GF blend and they still turned out great.  Have made 3 times now.  I cut the sausage into much smaller pieces and used a flax egg but followed the recipe as directed.  very tasty - big hit with hubby!"
+    }
   ]
 }

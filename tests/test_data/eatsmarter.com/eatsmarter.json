@@ -47,5 +47,27 @@
     "Low-calorie",
     "Vegetarian"
   ],
-  "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg"
+  "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg",
+  "reviews": [
+    {
+      "author": "loula.b",
+      "datePublished": "2018-10-29",
+      "reviewRating": 4
+    },
+    {
+      "author": "LeoLou",
+      "datePublished": "2018-10-29",
+      "reviewRating": 4
+    },
+    {
+      "author": "FrauSchwarz",
+      "datePublished": "2022-08-09",
+      "reviewRating": 5
+    },
+    {
+      "author": "Cyndy from EAT SMARTER",
+      "datePublished": "2022-09-15",
+      "reviewRating": 5
+    }
+  ]
 }

@@ -97,5 +97,37 @@
     "cheesecake bars recipe",
     "creamy cheesecake recipe",
     "easy cheesecake recipe"
+  ],
+  "reviews": [
+    {
+      "author": "Sam",
+      "datePublished": "2023-12-14",
+      "reviewRating": "5",
+      "reviewBody": "I never leave a comment but this recipe deserves one. My cheese cakes turn out good but they are never like the ones from the bakery and holy cow this one is. It is incredible. I used biscoff cookies for the crust and it is delightful. Perfectly cooked, silky smooth and not too sweet. I was a little concerned it wouldn’t turn out as good because I had never used some of the ingredients in a cheese cake before and they temps are odd. But it is sooo perfect. My husband said it’s dangerous. Thank you!"
+    },
+    {
+      "author": "Margie",
+      "datePublished": "2023-07-29",
+      "reviewRating": "5",
+      "reviewBody": "Oh my goodness - the bars are in the oven cooling now - but if the batter is any indication of how these are going to taste, they are going to be absolutely delicious!  Company tomorrow night is in for a treat!!!  Thank you - I loved making these with fresh blackberries!!!  Cannot wait to try -"
+    },
+    {
+      "author": "Bryant",
+      "datePublished": "2023-07-04",
+      "reviewRating": "5",
+      "reviewBody": "Another stellar recipe! These cheesecake bars are perfect and a million times easier than a traditional cheesecake. Thank you, Kat!"
+    },
+    {
+      "author": "Anna",
+      "datePublished": "2022-07-31",
+      "reviewRating": "5",
+      "reviewBody": "Love this recipe! Thanks so much.\r\nI made it for a party yesterday and it went down a treat."
+    },
+    {
+      "author": "Fatema",
+      "datePublished": "2021-08-23",
+      "reviewRating": "5",
+      "reviewBody": "I enjoyed reading this recipe, and definitely am going to try it. Thank you for sharing ❤"
+    }
   ]
 }

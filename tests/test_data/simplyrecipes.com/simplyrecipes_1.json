@@ -59,5 +59,27 @@
     "Soup",
     "Favorite Fall",
     "Favorite Winter"
+  ],
+  "reviews": [
+    {
+      "author": "Jj ply",
+      "reviewBody": "Not enough veggies. 25 min cook time results in soggy mess. Good flavor but visually unappealing"
+    },
+    {
+      "author": "Kathleen",
+      "reviewBody": "Skewer the garlic cloves together to make them easier to find and mash when the soup is finished."
+    },
+    {
+      "author": "SHERIHAN",
+      "reviewBody": "Just made this soup today and it was heartwarming and delicious!\n\nI used what I had in my pantry already, chicken breasts, 1-quart veggie broth and 1-quart chicken, and asparagus instead of celery.\n\nI loved it and my roommate loved it as well and commented on the lemon addition!\n\nThis soup will be my go-to.\n\nThe only adjustment I would make is use less rice next time."
+    },
+    {
+      "author": "Andrea",
+      "reviewBody": "Easy and delish. I Need to add more aromatics since I am a no salt kind of person."
+    },
+    {
+      "author": "PThomas",
+      "reviewBody": "I'd already made up a chicken and rice recipe that's almost identical to this except it has fresh thyme and a bay leaf in the broth while simmering, and no lemon juice. Next time I'm going to add the lemon!"
+    }
   ]
 }

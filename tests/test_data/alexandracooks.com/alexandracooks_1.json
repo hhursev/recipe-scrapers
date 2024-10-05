@@ -39,5 +39,31 @@
     "lemon juice",
     "garlic",
     "chives"
+  ],
+  "reviews": [
+    {
+      "author": "Kristen",
+      "datePublished": "2024-02-11",
+      "reviewRating": "5",
+      "reviewBody": "Just made this to go with the Indian-ish nachos with cheddar black beans and chutney from the NYT. I only have a food processor so it took some extra water and a few minutes rather than one and I soaked roasted salted cashews (what I had in hand) and just omitted the salt. It’s probably not as creamy as if I had used a VitaMix but it’s still smooth enough and the flavor is fantastic! I can’t wait to see how much better it is after it sits in the fridge a couple hours. Has a bit of a green goddess vibe. Thanks for sharing!"
+    },
+    {
+      "author": "Rebecca Seaman",
+      "datePublished": "2024-02-20",
+      "reviewRating": "5",
+      "reviewBody": "Amazing - I love it!!!"
+    },
+    {
+      "author": "Kelli",
+      "datePublished": "2024-03-05",
+      "reviewRating": "5",
+      "reviewBody": "OK, that’s what I figured. Thank you for responding and I can’t wait to try it.!"
+    },
+    {
+      "author": "Shal",
+      "datePublished": "2024-04-09",
+      "reviewRating": "5",
+      "reviewBody": "Wonderful recipe! I have stored it in a glass jar in my fridge and am wondering how long it will last? I'm hoping the fact that it's dairy free means... a long time? As it made a lot haha!"
+    }
   ]
 }

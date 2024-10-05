@@ -61,5 +61,19 @@
     "fiberContent": "10.7 g",
     "cholesterolContent": "0 mg"
   },
-  "image": "https://simple-veganista.com/wp-content/uploads/2022/02/easy-vegan-jambalaya-recipe-5-225x225.jpg"
+  "image": "https://simple-veganista.com/wp-content/uploads/2022/02/easy-vegan-jambalaya-recipe-5-225x225.jpg",
+  "reviews": [
+    {
+      "author": "Amanda",
+      "datePublished": "2023-07-24",
+      "reviewRating": "5",
+      "reviewBody": "Love this recipe! Any advice for cooking this in an instant pot with soaked red kidney beans?"
+    },
+    {
+      "author": "Brett",
+      "datePublished": "2023-10-14",
+      "reviewRating": "5",
+      "reviewBody": "Delicious, will make this over and over."
+    }
+  ]
 }
