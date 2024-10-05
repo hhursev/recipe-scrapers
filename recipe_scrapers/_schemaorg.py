@@ -376,11 +376,14 @@ class SchemaOrg:
                 formatted_review = {
                     "author": review.get("author", {}).get("name"),
                     "datePublished": review.get("datePublished"),
-                    "reviewRating": {
-                        "ratingValue": review.get("reviewRating", {}).get("ratingValue")
-                    },
+                    "reviewRating": review.get("reviewRating", {}).get("ratingValue"),
                     "reviewBody": review.get("reviewBody"),
                 }
-                formatted_reviews.append(formatted_review)
+
+                formatted_review = {
+                    k: v for k, v in formatted_review.items() if v is not None
+                }
+                if formatted_review:
+                    formatted_reviews.append(formatted_review)
 
         return formatted_reviews

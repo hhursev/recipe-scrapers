@@ -143,11 +143,11 @@ class TestUtils(unittest.TestCase):
             "ratings",
             "ratings_count",
             "equipment",
-            "reviews",
             "nutrients",
             "dietary_restrictions",
             "image",
             "keywords",
+            "reviews",
         ]
         self.assertEqual((expected_methods), (abstract_methods))
 
