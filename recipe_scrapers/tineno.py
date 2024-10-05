@@ -1,7 +1,5 @@
-import re
-
 from ._abstract import AbstractScraper
-from ._utils import change_keys
+from ._utils import change_keys, get_max_res_src
 
 
 def fix_json_ld_property_keys(k):
@@ -22,33 +20,7 @@ class TineNo(AbstractScraper):
 
     def image(self):
         image = self.soup.find("img", {"id": "HeaderMediaContent"})
-        if not image:
-            # No image available
-            return None
-        # Prefer data src set for higher image resolution
-        srcset_str = image.get("data-srcset", None)
-        if not srcset_str:
-            # Fallback to regular img source
-            return image.get("src", None)
-        # Convert source set string to cleaner list
-        srcset = srcset_str.split(",")
-        # Find image with the best resolution
-        max_res = None
-        max_res_src = None
-        res_pattern = re.compile(r"(\d+)w")
-        for src_str in srcset:
-            src = src_str.strip().split(" ")
-            res_match = res_pattern.findall(src[1])
-            res = None
-            if res_match:
-                try:
-                    res = int(res_match[0])
-                except ValueError:
-                    pass
-            if max_res is None or res > max_res:
-                max_res = res
-                max_res_src = src[0]
-        return max_res_src
+        return get_max_res_src(image) if image else None
 
     def instructions(self):
         """

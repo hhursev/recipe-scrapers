@@ -342,3 +342,30 @@ def get_nutrition_keys():
         "fiberContent",
         "cholesterolContent",
     ]
+
+
+def get_max_res_src(img):
+    # Prefer data src set for higher image resolution
+    srcset_str = img.get("data-srcset", None)
+    if not srcset_str:
+        # Fallback to regular img source
+        return img.get("src", None)
+    # Convert source set string to cleaner list
+    srcset = srcset_str.split(",")
+    # Find image with the best resolution
+    max_res = None
+    max_res_src = None
+    res_pattern = re.compile(r"(\d+)w")
+    for src_str in srcset:
+        src = src_str.strip().split(" ")
+        res_match = res_pattern.findall(src[1])
+        res = None
+        if res_match:
+            try:
+                res = int(res_match[0])
+            except ValueError:
+                pass
+        if max_res is None or res > max_res:
+            max_res = res
+            max_res_src = src[0]
+    return max_res_src
