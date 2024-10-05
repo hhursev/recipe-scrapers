@@ -530,6 +530,7 @@ If there is Schema/Recipe available it will work just fine.
     scraper.cooking_method()  # not always available
     scraper.keywords()  # not always available
     scraper.dietary_restrictions() # not always available
+    scraper.reviews() # not always available
 
 Notes:
 

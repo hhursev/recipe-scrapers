@@ -361,3 +361,26 @@ class SchemaOrg:
         final_diets = csv_to_tags(formatted_diets)
 
         return final_diets
+
+    def reviews(self):
+        reviews = self.data.get("review") or self.data.get("reviews")
+        if not reviews:
+            raise SchemaOrgException("No review data found in SchemaOrg")
+
+        if not isinstance(reviews, list):
+            reviews = [reviews]
+
+        formatted_reviews = []
+        for review in reviews:
+            if isinstance(review, dict):
+                formatted_review = {
+                    "author": review.get("author", {}).get("name"),
+                    "datePublished": review.get("datePublished"),
+                    "reviewRating": {
+                        "ratingValue": review.get("reviewRating", {}).get("ratingValue")
+                    },
+                    "reviewBody": review.get("reviewBody"),
+                }
+                formatted_reviews.append(formatted_review)
+
+        return formatted_reviews

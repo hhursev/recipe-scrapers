@@ -349,3 +349,19 @@ Returns the dietary restrictions specified by the recipe.
 >>> scraper.dietary_restrictions()
 ['Vegan Diet', 'Vegetarian Diet']
 ```
+
+### `reviews() -> List[Dict[str, str]]`
+
+Returns a `list` of reviews about the recipe from the website. Each review is a `dict` containing the reviewer's name (`str`), the date the review was published (`str`), the rating (`str`), and the review body (`str`).
+
+```py
+>>> scraper.reviews()
+[
+    {
+        'name': 'Jane Doe',
+        'date': '2023-05-15',
+        'rating': '5',
+        'review': 'This recipe was fantastic! Easy to follow and delicious.'
+    }
+]
+```
