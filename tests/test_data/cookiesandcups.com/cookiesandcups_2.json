@@ -1,0 +1,80 @@
+{
+  "author": "Shelly",
+  "canonical_url": "https://cookiesandcups.com/strawberry-buckle/",
+  "site_name": "Cookies and Cups",
+  "host": "cookiesandcups.com",
+  "language": "en-US",
+  "title": "Strawberry Buckle",
+  "ingredients": [
+    "1/2 cup butter, room temperature",
+    "3/4 cup granulated sugar",
+    "1 teaspoon vanilla extract",
+    "2 large eggs",
+    "1/2 teaspoon kosher salt",
+    "1/2 teaspoon baking powder",
+    "Zest of one lemon (about 1 tablespoon)",
+    "2 cups all-purpose flour",
+    "1/2 cup milk",
+    "1 pound strawberries, coarsely chopped",
+    "6 tablespoons butter, room temperature, cubed",
+    "1 cup all-purpose flour",
+    "1/4 cup light brown sugar",
+    "1/4 teaspoon kosher salt",
+    "Optional: powdered sugar to dust on top"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1/2 cup butter, room temperature",
+        "3/4 cup granulated sugar",
+        "1 teaspoon vanilla extract",
+        "2 large eggs",
+        "1/2 teaspoon kosher salt",
+        "1/2 teaspoon baking powder",
+        "Zest of one lemon (about 1 tablespoon)",
+        "2 cups all-purpose flour",
+        "1/2 cup milk",
+        "1 pound strawberries, coarsely chopped"
+      ],
+      "purpose": "Cake"
+    },
+    {
+      "ingredients": [
+        "6 tablespoons butter, room temperature, cubed",
+        "1 cup all-purpose flour",
+        "1/4 cup light brown sugar",
+        "1/4 teaspoon kosher salt",
+        "Optional: powdered sugar to dust on top"
+      ],
+      "purpose": "Topping"
+    }
+  ],
+  "instructions_list": [
+    "Preheat the oven to 350°F.",
+    "Grease a 10-inch cast iron skillet (or 10-inch Springform pan) with butter and set aside.",
+    "In the bowl of your stand mixer fitted with paddle attachment, mix butter and sugar for 2 minutes on medium speed. Add in the eggs, vanilla, salt, baking powder, and lemon zest. Mix for 1 minute until combined, scraping the sides of the bowl as necessary.",
+    "Turn the mixer to low and add in the flour and milk in alternating increments, beginning and ending with flour, mixing until just combined.",
+    "Stir in the strawberries and spread into the prepared pan.",
+    "Place all the topping ingredients into a medium bowl. Using a pastry cutter or fork mix ingredients together until they resemble coarse sand. Use your hands to squeeze the mixture into large crumbs. Sprinkle on top of the batter.",
+    "Bake for 45-50 minutes until a toothpick inserted in the center comes out clean.",
+    "Dust with powdered sugar, if desired."
+  ],
+  "category": "Dessert",
+  "yields": "10 servings",
+  "description": "This easy strawberry buckle is an old-fashioned dessert made with fresh strawberries and a sweet crumble topping. Baked in a skillet so it's crisp outside and soft and buttery inside!",
+  "total_time": 65,
+  "cook_time": 50,
+  "prep_time": 15,
+  "cuisine": "American",
+  "cooking_method": "Oven",
+  "equipment": [
+    "cast iron skillet",
+    "Springform pan",
+    "stand mixer",
+    "paddle attachment"
+  ],
+  "image": "https://cookiesandcups.com/wp-content/uploads/2016/01/strawberry-buckle-14-225x225.jpg",
+  "keywords": [
+    "strawberry buckle"
+  ]
+}

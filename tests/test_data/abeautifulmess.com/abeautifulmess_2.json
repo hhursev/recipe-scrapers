@@ -1,0 +1,94 @@
+{
+  "author": "Emma Chapman",
+  "canonical_url": "https://abeautifulmess.com/pumpkin-bars/",
+  "site_name": "A Beautiful Mess",
+  "host": "abeautifulmess.com",
+  "language": "en-US",
+  "title": "Pumpkin Cake",
+  "ingredients": [
+    "15 ounces pumpkin puree",
+    "1 cup granulated white sugar",
+    "½ cup brown sugar",
+    "1 cup vegetable oil",
+    "1 teaspoon vanilla extract",
+    "4 eggs",
+    "2 cups all-purpose flour",
+    "2 teaspoons pumpkin pie spice",
+    "2 teaspoons baking powder",
+    "1 teaspoon baking soda",
+    "1 teaspoon salt",
+    "¼ cup butter",
+    "8 ounces cream cheese",
+    "1 teaspoon vanilla extract",
+    "2 cups confectioners' sugar"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "15 ounces pumpkin puree",
+        "1 cup granulated white sugar",
+        "½ cup brown sugar",
+        "1 cup vegetable oil",
+        "1 teaspoon vanilla extract",
+        "4 eggs",
+        "2 cups all-purpose flour",
+        "2 teaspoons pumpkin pie spice",
+        "2 teaspoons baking powder",
+        "1 teaspoon baking soda",
+        "1 teaspoon salt"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "¼ cup butter",
+        "8 ounces cream cheese",
+        "1 teaspoon vanilla extract",
+        "2 cups confectioners' sugar"
+      ],
+      "purpose": "Frosting"
+    }
+  ],
+  "instructions_list": [
+    "In a large bowl, stir together the pumpkin puree, granulated white sugar, brown sugar, and oil.",
+    "Then stir in the eggs and vanilla extract. Set aside.",
+    "In a medium bowl, whisk together the all-purpose flour, pumpkin pie spice, baking powder, baking soda and salt.",
+    "Stir the dry ingredients into the wet ingredients until no dry flour is still visible.",
+    "Butter or spray (with nonstick cooking spray) a 9×13 baking pan. Then spoon the batter in an even layer.",
+    "Bake at 350°F (177°C) for 26-28 minutes, until a toothpick inserted in the cake comes out clean (no gooey batter on the toothpick).",
+    "Allow the cake to fully cool before adding frosting.",
+    "To make the frosting, cream together the softened butter and softened cream cheese.",
+    "Then incorporate the vanilla extract and powdered sugar (confectioners' sugar). Spread the frosting over the cooled cake."
+  ],
+  "category": "Dessert",
+  "yields": "12 servings",
+  "description": "A soft pumpkin sheet cake with cream cheese frosting",
+  "total_time": 35,
+  "cook_time": 26,
+  "prep_time": 9,
+  "cuisine": "American",
+  "ratings": 4.88,
+  "ratings_count": 8,
+  "equipment": [
+    "9×13 baking pan"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "550 kcal",
+    "fatContent": "30 g",
+    "saturatedFatContent": "10 g",
+    "unsaturatedFatContent": "18 g",
+    "transFatContent": "0.3 g",
+    "carbohydrateContent": "66 g",
+    "sugarContent": "47 g",
+    "proteinContent": "6 g",
+    "sodiumContent": "472 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "84 mg"
+  },
+  "image": "https://abeautifulmess.com/wp-content/uploads/2023/10/best-pumpkin-bars.jpg",
+  "keywords": [
+    "cake",
+    "pumpkin"
+  ]
+}

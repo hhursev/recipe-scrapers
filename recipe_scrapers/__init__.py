@@ -33,6 +33,7 @@ from ._exceptions import (
 )
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
+from .abeautifulmess import ABeautifulMess
 from .aberlehome import AberleHome
 from .abril import Abril
 from .abuelascounter import AbuelasCounter
@@ -62,13 +63,17 @@ from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
 from .barefeetinthekitchen import BarefeetInTheKitchen
 from .barefootcontessa import BareFootContessa
+from .barefootinthepines import BarefootInThePines
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
 from .bestrecipes import BestRecipes
+from .betterfoodguru import BetterFoodGuru
 from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
+from .beyondfrosting import BeyondFrosting
 from .biancazapatka import BiancaZapatka
 from .bigoven import BigOven
+from .bitsofcarey import BitsOfCarey
 from .blueapron import BlueApron
 from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
@@ -77,8 +82,11 @@ from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
 from .briceletbaklava import BricelEtBaklava
+from .brokenovenbaking import BrokenOvenBaking
 from .budgetbytes import BudgetBytes
 from .cafedelites import CafeDelites
+from .cakemehometonight import CakeMeHomeTonight
+from .cambreabakes import CambreaBakes
 from .carlsbadcravings import CarlsBadCravings
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
@@ -87,9 +95,11 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .closetcooking import ClosetCooking
+from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
 from .cookieandkate import CookieAndKate
+from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
 from .cookpad import CookPad
@@ -396,6 +406,7 @@ from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 
 SCRAPERS = {
+    ABeautifulMess.host(): ABeautifulMess,
     ACoupleCooks.host(): ACoupleCooks,
     AFlavorJournal.host(): AFlavorJournal,
     ALittleBitYummy.host(): ALittleBitYummy,
@@ -429,11 +440,15 @@ SCRAPERS = {
     BakingMischief.host(): BakingMischief,
     BareFootContessa.host(): BareFootContessa,
     BarefeetInTheKitchen.host(): BarefeetInTheKitchen,
+    BarefootInThePines.host(): BarefootInThePines,
     BestRecipes.host(): BestRecipes,
+    BetterFoodGuru.host(): BetterFoodGuru,
     BettyBossi.host(): BettyBossi,
     BettyCrocker.host(): BettyCrocker,
+    BeyondFrosting.host(): BeyondFrosting,
     BiancaZapatka.host(): BiancaZapatka,
     BigOven.host(): BigOven,
+    BitsOfCarey.host(): BitsOfCarey,
     BlueApron.host(): BlueApron,
     BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
@@ -442,8 +457,11 @@ SCRAPERS = {
     BongEats.host(): BongEats,
     Breadtopia.host(): Breadtopia,
     BricelEtBaklava.host(): BricelEtBaklava,
+    BrokenOvenBaking.host(): BrokenOvenBaking,
     BudgetBytes.host(): BudgetBytes,
     CafeDelites.host(): CafeDelites,
+    CakeMeHomeTonight.host(): CakeMeHomeTonight,
+    CambreaBakes.host(): CambreaBakes,
     CarlsBadCravings.host(): CarlsBadCravings,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
@@ -452,11 +470,13 @@ SCRAPERS = {
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
     ClosetCooking.host(): ClosetCooking,
+    ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
     CookEatShare.host(): CookEatShare,
     CookPad.host(): CookPad,
     CookTalk.host(): CookTalk,
     CookieAndKate.host(): CookieAndKate,
+    CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
     CooksCountry.host(): CooksCountry,
