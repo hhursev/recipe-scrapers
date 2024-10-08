@@ -23,7 +23,8 @@ class BarefootInThePines(AbstractScraper):
         raw_nutrition_data = {
             item.select_one(".mv-create-nutrition-label")
             .get_text(strip=True)
-            .lower(): item.get_text(strip=True)
+            .lower()
+            .rstrip(":"): item.get_text(strip=True)
             .replace(
                 item.select_one(".mv-create-nutrition-label").get_text(strip=True), ""
             )
@@ -33,24 +34,24 @@ class BarefootInThePines(AbstractScraper):
         }
 
         nutrition_label_mapping = {
-            "calories:": "calories",
-            "carbohydrates:": "carbohydrateContent",
-            "cholesterol:": "cholesterolContent",
-            "total fat:": "fatContent",
-            "fiber:": "fiberContent",
-            "protein:": "proteinContent",
-            "saturated fat:": "saturatedFatContent",
-            "serving size:": "servingSize",
-            "sodium:": "sodiumContent",
-            "sugar:": "sugarContent",
-            "trans fat:": "transFatContent",
-            "unsaturated fat:": "unsaturatedFatContent",
+            "calories": "calories",
+            "carbohydrates": "carbohydrateContent",
+            "cholesterol": "cholesterolContent",
+            "total fat": "fatContent",
+            "fiber": "fiberContent",
+            "protein": "proteinContent",
+            "saturated fat": "saturatedFatContent",
+            "serving size": "servingSize",
+            "sodium": "sodiumContent",
+            "sugar": "sugarContent",
+            "trans fat": "transFatContent",
+            "unsaturated fat": "unsaturatedFatContent",
         }
 
         standardized_nutrition_data = {
-            schema_label: raw_nutrition_data[custom_label.lower()]
-            for custom_label, schema_label in nutrition_label_mapping.items()
-            if custom_label.lower() in raw_nutrition_data
+            nutrition_label_mapping[custom_label]: value
+            for custom_label, value in raw_nutrition_data.items()
+            if custom_label in nutrition_label_mapping
         }
 
         return standardized_nutrition_data
