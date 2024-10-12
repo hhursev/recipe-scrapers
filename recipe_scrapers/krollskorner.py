@@ -8,6 +8,12 @@ class KrollsKorner(AbstractScraper):
     def host(cls):
         return "krollskorner.com"
 
+    def author(self):
+        author_tag = self.soup.select_one(
+            ".wprm-recipe-details.wprm-recipe-author.wprm-block-text-normal a"
+        )
+        return author_tag.get_text(strip=True)
+
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
