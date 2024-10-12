@@ -222,6 +222,7 @@ Scrapers available for:
 - `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
+- `https://hungryhappens.net/ <https://hungryhappens.net/>`_
 - `https://www.ica.se/ <https://www.ica.se/>`_
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://inbloombakery.com/ <https://inbloombakery.com/>`_
