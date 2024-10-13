@@ -1,0 +1,107 @@
+{
+  "author": "Erin Clarke",
+  "canonical_url": "https://www.wellplated.com/miso-ramen/",
+  "site_name": "Well Plated by Erin",
+  "host": "wellplated.com",
+  "language": "en-US",
+  "title": "Miso Ramen",
+  "ingredients": [
+    "1 tablespoon toasted sesame oil",
+    "2 tablespoons minced or grated fresh ginger",
+    "4 garlic cloves (minced)",
+    "1 medium shallot (minced)",
+    "1 hot chili pepper",
+    "¼ cup white miso paste",
+    "8 cups low-sodium beef bone broth",
+    "4 bone-in (skin-on chicken thighs*)",
+    "9 ounces ramen or soba noodles** (or two packages of seasoned ramen noodles; discard the seasoning pack)",
+    "4 large eggs",
+    "Optional: thawed frozen spinach (corn, or other frozen vegetables)",
+    "Chopped baby bok choy or fresh spinach",
+    "Chopped green onions",
+    "Corn kernels",
+    "Bean sprouts",
+    "Shredded cabbage",
+    "Sesame seeds",
+    "Grated daikon radish",
+    "Japanese pickles"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 tablespoon toasted sesame oil",
+        "2 tablespoons minced or grated fresh ginger",
+        "4 garlic cloves (minced)",
+        "1 medium shallot (minced)",
+        "2 tablespoons minced or grated fresh ginger",
+        "¼ cup white miso paste",
+        "8 cups low-sodium beef bone broth",
+        "4 bone-in (skin-on chicken thighs*)",
+        "9 ounces ramen or soba noodles** (or two packages of seasoned ramen noodles; discard the seasoning pack)",
+        "4 large eggs",
+        "Optional: thawed frozen spinach (corn, or other frozen vegetables)"
+      ],
+      "purpose": "For the Miso Ramen:"
+    },
+    {
+      "ingredients": [
+        "Chopped baby bok choy or fresh spinach",
+        "Chopped green onions",
+        "Corn kernels",
+        "Bean sprouts",
+        "Shredded cabbage",
+        "Sesame seeds",
+        "Grated daikon radish",
+        "Japanese pickles"
+      ],
+      "purpose": "For Topping (choose one or add them all!):"
+    }
+  ],
+  "instructions_list": [
+    "Soften",
+    "Heat the oil in a large pot over medium heat. Add the ginger, garlic, shallot, and chili pepper, if using. Cook, stirring, until the shallot is softened, about 4 minutes.",
+    "Cook",
+    "Add the miso paste and cook, stirring, until it is slightly darkened, about 2 minutes.",
+    "Simmer",
+    "Slowly add the broth and scrape up any browned bits on the bottom of the pot. Add the chicken and bring to a simmer over high heat. Reduce the heat to low, cover, and let simmer for 10-15 minutes, until the chicken is cooked through and registers at least 165°F on an instant-read thermometer.",
+    "Cook",
+    "Meanwhile, bring a large pot of salted water to a boil. Cook the noodles according to package instructions. Drain and set aside.",
+    "Simmer",
+    "Soft-boil the eggs***: Fill a large bowl with water and ice to create an ice bath. Bring a medium pot of water to a boil. With a slotted spoon, gently lower in the eggs and return to a high simmer. Reduce the heat to maintain a simmer (not a hard boil) and cook for 6 minutes. Immediately transfer the eggs to the ice bath. Let chill for 2 minutes, then remove, peel, and slice in half.",
+    "Shred",
+    "When the chicken is cooked, transfer it to a bowl. Shred the meat with two forks, discarding the skin and bones. Return the meat to the pot.",
+    "Heat",
+    "If using, add the frozen vegetables to the pot, stir, and let heat through for a few minutes.",
+    "Serve",
+    "To serve, divide the noodles between bowls. Ladle on the soup. Top with the soft-boiled eggs and any other desired toppings."
+  ],
+  "category": "Main Course,Soup",
+  "yields": "4 servings",
+  "description": "A flavorful miso-infused broth takes this miso ramen to the next level. With plenty of noodles, chicken, and veggies, it's a satisfying meal!",
+  "total_time": 30,
+  "cook_time": 25,
+  "prep_time": 5,
+  "cuisine": "Asian, Japanese",
+  "ratings": 5.0,
+  "ratings_count": 10,
+  "nutrients": {
+    "servingSize": "1 (of 4)",
+    "calories": "805 kcal",
+    "fatContent": "43 g",
+    "saturatedFatContent": "13 g",
+    "unsaturatedFatContent": "26 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "49 g",
+    "sugarContent": "3 g",
+    "proteinContent": "55 g",
+    "fiberContent": "3 g",
+    "cholesterolContent": "305 mg"
+  },
+  "image": "https://www.wellplated.com/wp-content/uploads/2023/08/Miso-Ramen-Toppings.jpg",
+  "keywords": [
+    "authentic miso ramen recipe",
+    "miso ramen broth",
+    "miso ramen soup",
+    "spicy miso ramen"
+  ]
+}
