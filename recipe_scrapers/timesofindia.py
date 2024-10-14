@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._exceptions import StaticValueException
+from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
@@ -20,3 +21,11 @@ class TimesOfIndia(AbstractScraper):
         meta_language = self.soup.find("meta", attrs={"http-equiv": "content-language"})
 
         return normalize_string(meta_language.get("content"))
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".specialingrs span",
+            "ul[data-convert] label.clearfix",
+        )
