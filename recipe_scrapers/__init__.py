@@ -354,6 +354,7 @@ from .theclevercarrot import TheCleverCarrot
 from .thecookierookie import TheCookieRookie
 from .thecookingguy import TheCookingGuy
 from .theexpertguides import TheExpertGuides
+from .thefoodietakesflight import TheFoodieTakesFlight
 from .theglutenfreeaustrian import TheGlutenFreeAustrian
 from .thehappyfoodie import TheHappyFoodie
 from .thekitchencommunity import TheKitchenCommunity
@@ -545,6 +546,7 @@ SCRAPERS = {
     TasteAtlas.host(): TasteAtlas,
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
+    TheFoodieTakesFlight.host(): TheFoodieTakesFlight,
     TheGlutenFreeAustrian.host(): TheGlutenFreeAustrian,
     TheLoopyWhisk.host(): TheLoopyWhisk,
     ThePalatableLife.host(): ThePalatableLife,
