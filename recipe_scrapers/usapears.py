@@ -25,6 +25,10 @@ class USAPears(AbstractScraper):
             for paragraph in ingredient_elements
         ]
 
+    def nutrients(self):
+        schema_nutrients = self.schema.nutrients()
+        return schema_nutrients
+
     def ratings(self):
         try:
             ratings = self.schema.ratings()
