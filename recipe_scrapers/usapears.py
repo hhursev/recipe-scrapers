@@ -41,6 +41,15 @@ class USAPears(AbstractScraper):
             if re.match(redundant_pattern, content):
                 content = re.sub(redundant_pattern, "", content)
             results[nutrient] = content
+
+        corrections = {
+            "carbohydrates": "carbohydrateContent",
+            "protein": "proteinContent",
+        }
+        for mistake, correction in corrections.items():
+            if mistake in results:
+                results[correction] = results.pop(mistake)
+
         return results
 
     def ratings(self):
