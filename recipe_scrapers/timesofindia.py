@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-
 from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
