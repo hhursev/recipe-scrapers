@@ -383,6 +383,7 @@ Scrapers available for:
 - `https://sobors.hu/ <https://sobors.hu>`_
 - `https://www.southerncastiron.com/ <https://www.southerncastiron.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
+- `https://spainonafork.com/ <https://spainonafork.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://www.springlane.de <https://www.springlane.de>`_
 - `https://www.staysnatched.com/ <https://www.staysnatched.com/>`_
