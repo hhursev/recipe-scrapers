@@ -12,11 +12,11 @@ class TimesOfIndia(AbstractScraper):
         raise StaticValueException(return_value="Times of India - Recipes")
 
     def ingredients(self):
-        ingredient_container = self.soup.find("div", id="ingredata")
-        if not ingredient_container:
+        container = self.soup.find("div", id="ingredata")
+        if not container:
             raise ElementNotFoundInHtml("Could not find ingredient data container")
 
-        ingredients = ingredient_container.find_all("label", attrs={"class": "clearfix"})
+        ingredients = container.find_all("label", attrs={"class": "clearfix"})
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def language(self):
