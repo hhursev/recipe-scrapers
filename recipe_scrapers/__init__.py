@@ -183,6 +183,7 @@ from .hellofresh import HelloFresh
 from .hersheyland import HersheyLand
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
+from .hungryhappens import HungryHappens
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
@@ -511,6 +512,7 @@ SCRAPERS = {
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
     HeatherChristo.host(): HeatherChristo,
+    HungryHappens.host(): HungryHappens,
     InBloomBakery.host(): InBloomBakery,
     InGoodFlavor.host(): InGoodFlavor,
     JoCooks.host(): JoCooks,
