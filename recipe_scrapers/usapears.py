@@ -1,4 +1,7 @@
+import re
+
 from ._abstract import AbstractScraper
+from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, normalize_string
 
 
@@ -26,8 +29,19 @@ class USAPears(AbstractScraper):
         ]
 
     def nutrients(self):
-        schema_nutrients = self.schema.nutrients()
-        return schema_nutrients
+        container = self.soup.find("ul", {"itemprop": "nutrition"})
+        if not container:
+            raise ElementNotFoundInHtml("Could not find nutritional info container")
+
+        results = {}
+        redundant_pattern = r"<strong>(.+)[:] </strong>"
+        for item in container.find_all("li", {"itemprop": True}):
+            nutrient = item["itemprop"]
+            content = "".join(str(elem) for elem in item.children)
+            if re.match(redundant_pattern, content):
+                content = re.sub(redundant_pattern, "", content)
+            results[nutrient] = content
+        return results
 
     def ratings(self):
         try:
