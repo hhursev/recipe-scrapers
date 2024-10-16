@@ -320,6 +320,7 @@ from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
 from .saltpepperskillet import SaltPepperSkillet
+from .samsungfood import SamsungFood
 from .sandwhichtribunal import SandwhichTribunal
 from .saveur import Saveur
 from .savorynothings import SavoryNothings
@@ -731,6 +732,7 @@ SCRAPERS = {
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
     SaltPepperSkillet.host(): SaltPepperSkillet,
+    SamsungFood.host(): SamsungFood,
     Saveur.host(): Saveur,
     SeriousEats.host(): SeriousEats,
     SimpleVeganista.host(): SimpleVeganista,
