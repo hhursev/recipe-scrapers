@@ -45,6 +45,7 @@ class USAPears(AbstractScraper):
         corrections = {
             "carbohydrates": "carbohydrateContent",
             "protein": "proteinContent",
+            "fat": "fatContent",
         }
         for mistake, correction in corrections.items():
             if mistake in results:
