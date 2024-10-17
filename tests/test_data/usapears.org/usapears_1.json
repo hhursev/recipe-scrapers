@@ -23,14 +23,12 @@
   "yields": "6 servings",
   "description": "This simple, tasty pear recipe was created by Chef Jamie Lauren of Absinthe Brasserie and Bar in San Francisco and cookbook author Mollie Katzen. If you can’t find Bosc pears at your local grocery store, red or green Anjou pears also work well.",
   "total_time": 25,
-  "ratings": null,
-  "ratings_count": 4,
+  "ratings_count": 0,
   "nutrients": {
-    "servingSize": "Serving Size: 1 Pear",
-    "calories": "Calories: 230",
-    "carbohydrateContent": "Carbohydrate: 34g",
-    "proteinContent": "Protein: 5g",
-    "fiberContent": "Dietary Fiber: 7g"
+    "servingSize": "1 Pear",
+    "calories": "230",
+    "carbohydrateContent": "34g",
+    "proteinContent": "5g"
   },
   "image": "https://usapears.org/wp-content/uploads/2014/10/Sauteed-Bosc-Pears1.jpg"
 }

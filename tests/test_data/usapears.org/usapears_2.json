@@ -76,11 +76,12 @@
   "description": "Time for a taco party! In this festive recipe, pears appear in two ways: braised with pork shoulder to create depth and sweetness for a juicy, shredded taco filling, and also mixed into a zesty pear and jicama pico de gallo for topping. There will be plenty of the flavorful slow-cooked meat to feed a crowd, and any leftovers can be frozen for quick taco making for future weeknight dinners. Serve with margaritas and chips and salsa to round out the menu.",
   "total_time": 620,
   "cuisine": "Mexican",
+  "ratings_count": 0,
   "nutrients": {
-    "servingSize": "Serving Size: 1 Taco (178g)",
-    "calories": "Calories: 410",
-    "carbohydrates": "Carbohydrates: 27g",
-    "protein": "Protein: 23g"
+    "servingSize": "1 Taco (178g)",
+    "calories": "410",
+    "carbohydrateContent": "27g",
+    "proteinContent": "23g"
   },
   "image": "https://usapears.org/wp-content/uploads/2018/05/UsaPears_0019-Copy.jpg"
 }
