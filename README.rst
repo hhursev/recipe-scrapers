@@ -407,7 +407,6 @@ Scrapers available for:
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
 - `https://www.thecookierookie.com/ <https://www.thecookierookie.com/>`_
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
-- `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thefoodietakesflight.com/ <https://thefoodietakesflight.com/>`_
 - `https://theglutenfreeaustrian.com/ <https://theglutenfreeaustrian.com/>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
