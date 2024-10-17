@@ -27,6 +27,43 @@
     "0.5 ts salt",
     "0.25 ts pepper"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 dl basmatiris"
+      ],
+      "purpose": "Ris:"
+    },
+    {
+      "ingredients": [
+        "400 g kyllingfileter",
+        "1 ss TINE® Meierismør til steking",
+        "1 stk paprika",
+        "0.5 dl chili",
+        "3 stk vårløk",
+        "1 ts hvitløksfedd",
+        "1 ss hakket, frisk ingefær",
+        "0.5 dl hakket, frisk koriander",
+        "2 ts garam masala",
+        "3 dl TINE® Lett Crème Fraîche 18 %",
+        "3 ss tomatpuré",
+        "0.5 ts salt",
+        "0.25 ts pepper"
+      ],
+      "purpose": "Tikka masala:"
+    },
+    {
+      "ingredients": [
+        "0.5 dl slangeagurk",
+        "3 dl TINE® Yoghurt Naturell",
+        "0.5 dl frisk mynte",
+        "1 ts hvitløksfedd",
+        "0.5 ts salt",
+        "0.25 ts pepper"
+      ],
+      "purpose": "Raita:"
+    }
+  ],
   "instructions_list": [
     "Kok ris etter anvisningen på pakken.",
     "Tikka masala:",
