@@ -79,6 +79,7 @@ Scrapers available for:
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://15gram.be <https://15gram.be>`_
 - `https://www.750g.com <https://www.750g.com>`_
+- `https://abeautifulmess.com/ <https://abeautifulmess.com/>`_
 - `https://aberlehome.com/ <https://aberlehome.com>`_
 - `https://abuelascounter.com/ <https://abuelascounter.com>`_
 - `https://www.acouplecooks.com <https://acouplecooks.com/>`_
@@ -108,14 +109,18 @@ Scrapers available for:
 - `https://bakingmischief.com/ <https://bakingmischief.com/>`_
 - `https://barefeetinthekitchen.com/ <https://barefeetinthekitchen.com/>`_
 - `https://barefootcontessa.com/ <https://barefootcontessa.com>`_
+- `https://barefootinthepines.com/ <https://barefootinthepines.com/>`_
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
     - `.co.uk <https://bbc.co.uk/food/recipes>`__
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
 - `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
+- `https://betterfoodguru.com/ <https://betterfoodguru.com/>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_
 - `https://bettycrocker.com/ <https://bettycrocker.com>`_
+- `https://beyondfrosting.com/ <https://beyondfrosting.com/>`_
 - `https://biancazapatka.com/ <https://biancazapatka.com>`_
 - `https://bigoven.com/ <https://bigoven.com>`_
+- `https://bitsofcarey.com/ <https://bitsofcarey.com/>`_
 - `https://blueapron.com/ <https://blueapron.com>`_
 - `https://bluejeanchef.com/ <https://bluejeanchef.com/>`_
 - `https://www.bodybuilding.com/ <https://www.bodybuilding.com/>`_
@@ -125,8 +130,11 @@ Scrapers available for:
 - `https://bowlofdelicious.com/ <https://bowlofdelicious.com/>`_
 - `https://breadtopia.com/ <https://breadtopia.com/>`_
 - `https://briceletbaklava.ch/ <https://briceletbaklava.ch/>`_
+- `https://brokenovenbaking.com/ <https://brokenovenbaking.com/>`_
 - `https://budgetbytes.com/ <https://budgetbytes.com>`_
 - `https://cafedelites.com/ <https://cafedelites.com/>`_
+- `https://cakemehometonight.com/ <https://cakemehometonight.com/>`_
+- `https://cambreabakes.com/ <https://cambreabakes.com/>`_
 - `https://carlsbadcravings.com/ <https://carlsbadcravings.com/>`_
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
@@ -136,16 +144,19 @@ Scrapers available for:
 - `https://chefsavvy.com/ <https://chefsavvy.com/>`_
 - `https://claudia.abril.com.br/ <https://claudia.abril.com.br>`_
 - `https://closetcooking.com/ <https://closetcooking.com>`_
+- `https://colleenchristensennutrition.com/ <https://colleenchristensennutrition.com/>`_
 - `https://comidinhasdochef.com/ <https://comidinhasdochef.com/>`_
 - `https://cook-talk.com/ <https://cook-talk.com/>`_
 - `https://cookeatshare.com/ <https://cookeatshare.com/>`_
 - `https://cookieandkate.com/ <https://cookieandkate.com/>`_
+- `https://cookiesandcups.com/ <https://cookiesandcups.com/>`_
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookscountry.com/ <https://www.cookscountry.com>`_ (*)
 - `https://cooksillustrated.com/ <https://www.cooksillustrated.com>`_ (*)
+- `https://cookwell.com/ <https://cookwell.com/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
@@ -222,6 +233,7 @@ Scrapers available for:
 - `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
+- `https://hungryhappens.net/ <https://hungryhappens.net/>`_
 - `https://www.ica.se/ <https://www.ica.se/>`_
 - `https://www.im-worthy.com/ <https://www.im-worthy.com>`_
 - `https://inbloombakery.com/ <https://inbloombakery.com/>`_
@@ -373,6 +385,7 @@ Scrapers available for:
 - `https://sobors.hu/ <https://sobors.hu>`_
 - `https://www.southerncastiron.com/ <https://www.southerncastiron.com>`_
 - `https://southernliving.com/ <https://southernliving.com/>`_
+- `https://spainonafork.com/ <https://spainonafork.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://www.springlane.de <https://www.springlane.de>`_
 - `https://www.staysnatched.com/ <https://www.staysnatched.com/>`_
@@ -395,6 +408,7 @@ Scrapers available for:
 - `https://www.thecookierookie.com/ <https://www.thecookierookie.com/>`_
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
 - `https://theexpertguides.com/ <https://theexpertguides.com>`_
+- `https://thefoodietakesflight.com/ <https://thefoodietakesflight.com/>`_
 - `https://theglutenfreeaustrian.com/ <https://theglutenfreeaustrian.com/>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_
 - `https://thekitchencommunity.org/ <https://thekitchencommunity.org/>`_
