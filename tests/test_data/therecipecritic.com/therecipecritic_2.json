@@ -1,0 +1,76 @@
+{
+  "author": "The Recipe Critic",
+  "canonical_url": "https://therecipecritic.com/creamy-parmesan-garlic-mushroom-chicken/",
+  "site_name": "The Recipe Critic",
+  "host": "therecipecritic.com",
+  "language": "en-US",
+  "title": "Creamy Parmesan Garlic Mushroom Chicken",
+  "ingredients": [
+    "4 boneless (skinless chicken breasts, thinly sliced)",
+    "2 Tablespoons Olive oil",
+    "Salt Pepper",
+    "8 ounces sliced mushrooms",
+    "1/4 cup butter",
+    "2 garlic cloves (minced)",
+    "1 tablespoon flour",
+    "1/2 cup chicken broth",
+    "1 cup heavy cream or half and half",
+    "1/2 cup grated parmesan cheese",
+    "1/2 teaspoon garlic powder",
+    "1/4 teaspoon pepper",
+    "1/2 teaspoon salt",
+    "1 cup spinach (chopped)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 boneless (skinless chicken breasts, thinly sliced)",
+        "2 Tablespoons Olive oil",
+        "Salt Pepper",
+        "8 ounces sliced mushrooms"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1/4 cup butter",
+        "2 garlic cloves (minced)",
+        "1 tablespoon flour",
+        "1/2 cup chicken broth",
+        "1 cup heavy cream or half and half",
+        "1/2 cup grated parmesan cheese",
+        "1/2 teaspoon garlic powder",
+        "1/4 teaspoon pepper",
+        "1/2 teaspoon salt",
+        "1 cup spinach (chopped)"
+      ],
+      "purpose": "Creamy Parmesan Garlic Sauce:"
+    }
+  ],
+  "instructions_list": [
+    "In a large skillet add olive oil and cook the chicken on medium high heat for 3-5 minutes on each side or until brown on each side and cooked until no longer pink in center. Remove chicken and set aside on a plate. Add the sliced mushrooms and cook for a few minutes until tender. Remove and set aside.",
+    "To make the sauce add the butter and melt. Add garlic and cook until tender. Whisk in the flour until it thickens. Whisk in chicken broth, heavy cream, parmesan cheese, garlic powder, pepper and salt. Add the spinach and let simmer until it starts to thicken and spinach wilts. Add the chicken and ,mushrooms back to the sauce and serve over pasta is desired."
+  ],
+  "category": "Dinner",
+  "yields": "8 servings",
+  "description": "Creamy Parmesan Garlic Mushroom Chicken is ready in just 30 minutes and the parmesan garlic sauce will wow the entire family! This will become a new favorite!",
+  "total_time": 25,
+  "cook_time": 20,
+  "prep_time": 5,
+  "cuisine": "American,Italian",
+  "ratings": 4.92,
+  "ratings_count": 199,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "290 kcal",
+    "fatContent": "18 g",
+    "saturatedFatContent": "8 g",
+    "carbohydrateContent": "4 g",
+    "sugarContent": "1 g",
+    "proteinContent": "29 g",
+    "sodiumContent": "494 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "104 mg"
+  },
+  "image": "https://therecipecritic.com/wp-content/uploads/2021/07/creamyparmesanchicken.jpg"
+}
