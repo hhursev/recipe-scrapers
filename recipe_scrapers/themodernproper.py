@@ -29,7 +29,7 @@ class TheModernProper(AbstractScraper):
             if key not in nutrient_mapping:
                 continue
             redundant_suffix = nutrient_mapping[key]
-            if value.endswith(redundant_suffix):    
-                results[key] = value.removesuffix(redundant_suffix)
+            if value.endswith(redundant_suffix):
+                results[key] = value.removesuffix(redundant_suffix).strip()
 
         return results
