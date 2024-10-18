@@ -26,8 +26,10 @@ class TheModernProper(AbstractScraper):
         }
 
         for key, value in container.items():
-            if key in nutrient_mapping:
-                content = value.replace(nutrient_mapping[key], "").strip()
-                results[key] = content
+            if key not in nutrient_mapping:
+                continue
+            redundant_suffix = nutrient_mapping[key]
+            if value.endswith(redundant_suffix):    
+                results[key] = value.removesuffix(redundant_suffix)
 
         return results
