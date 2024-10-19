@@ -14,9 +14,13 @@ class USAPears(AbstractScraper):
     def author(self):
         author = self.schema.author()
         if not author:
-            twitter_data = self.soup.find("meta", {"name": "twitter:data1"})
-            if twitter_data and twitter_data.get("content"):
-                author = f"{twitter_data['content']}"
+            twitter_data = self.soup.find(
+                "meta", {"name": "twitter:data1", "content": True}
+            )
+            if twitter_data and self.soup.find(
+                "meta", {"name": "twitter:label1", "content": "Written by"}
+            ):
+                author = twitter_data["content"]
         return author
 
     def total_time(self):
