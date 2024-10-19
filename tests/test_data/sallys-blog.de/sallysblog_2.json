@@ -21,6 +21,32 @@
     "150 g Erbse / Erbsen (TK)",
     "500 g Nudel / Nudeln (z. B. Orechiette)"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 Zwiebel / Zwiebeln",
+        "1 Knoblauchzehe / Knoblauchzehen",
+        "20 g Butter",
+        "20 g Mehl",
+        "300 g Gemüsebrühe",
+        "200 g Milch",
+        "500 g Brokkoli",
+        "200 g Gorgonzola",
+        "50 g Parmesan",
+        "0.25 TL Salz",
+        "0.25 TL Pfeffer",
+        "100 g Schinken (z. B. Pute)",
+        "150 g Erbse / Erbsen (TK)"
+      ],
+      "purpose": "Käsesahnesoße"
+    },
+    {
+      "ingredients": [
+        "500 g Nudel / Nudeln (z. B. Orechiette)"
+      ],
+      "purpose": "Pasta"
+    }
+  ],
   "instructions_list": [
     "Käsesahnesoße",
     "Schäle die Zwiebel und Knoblauchzehe und schneide sie fein.",
