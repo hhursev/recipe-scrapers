@@ -11,6 +11,14 @@ class USAPears(AbstractScraper):
     def host(cls):
         return "usapears.org"
 
+    def author(self):
+        author = self.schema.author()
+        if not author:
+            twitter_data = self.soup.find("meta", {"name": "twitter:data1"})
+            if twitter_data and twitter_data.get("content"):
+                author = f"{twitter_data['content']}"
+        return author
+
     def total_time(self):
         total_time = 0
         recipe_legends = self.soup.find_all("div", {"class": "recipe-legend"})
@@ -65,10 +73,19 @@ class USAPears(AbstractScraper):
         return results
 
     def ratings(self):
-        try:
-            ratings = self.schema.ratings()
-            if ratings > 0:
-                return ratings
-        except Exception:
-            pass
+        rating_elements = self.soup.find_all("p", {"class": "comment-rating"})
+        if not rating_elements:
+            return None
+
+        total_rating = 0
+        for element in rating_elements:
+            img_tag = element.find("img")
+            if img_tag and "src" in img_tag.attrs:
+                src = img_tag["src"]
+                match = re.search(r"(\d+)-star\.svg", src)
+                if match:
+                    total_rating += int(match.group(1))
+
+        if len(rating_elements) > 0:
+            return total_rating / len(rating_elements)
         return None
