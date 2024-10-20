@@ -153,8 +153,8 @@ Scrapers available for:
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
-- `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://cookwell.com/ <https://cookwell.com/>`_
+- `https://www.coop.se/ <https://www.coop.se/>`_
 - `https://copykat.com/ <https://copykat.com>`_
 - `https://www.costco.com/ <https://www.costco.com>`_
 - `https://countryliving.com/ <https://countryliving.com>`_
