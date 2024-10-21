@@ -13,15 +13,13 @@ class USAPears(AbstractScraper):
 
     def author(self):
         author = self.schema.author()
-        if not author:
-            twitter_data = self.soup.find(
-                "meta", {"name": "twitter:data1", "content": True}
-            )
-            if twitter_data and self.soup.find(
-                "meta", {"name": "twitter:label1", "content": "Written by"}
-            ):
-                author = twitter_data["content"]
-        return author
+        if author:
+            return author
+
+        d1 = self.soup.find("meta", {"name": "twitter:data1", "content": True})
+        l1 = self.soup.find("meta", {"name": "twitter:label1", "content": "Written by"})
+        if d1 and l1:
+            return d1["content"]
 
     def total_time(self):
         total_time = 0
@@ -83,13 +81,13 @@ class USAPears(AbstractScraper):
 
         total_rating = 0
         for element in rating_elements:
-            img_tag = element.find("img")
-            if img_tag and "src" in img_tag.attrs:
-                src = img_tag["src"]
-                match = re.search(r"(\d+)-star\.svg", src)
-                if match:
-                    total_rating += int(match.group(1))
+            img = element.find("img", {"src": True})
+            if not img:
+                continue
+            match = re.search(r"(\d+)-star\.svg", img["src"])
+            if match:
+                total_rating += int(match.group(1))
 
         if len(rating_elements) > 0:
-            return total_rating / len(rating_elements)
+            return round(total_rating / len(rating_elements), 2)
         return None
