@@ -22,8 +22,5 @@ class TheKitchenMagPie(AbstractScraper):
             if equipment_text:
                 equipment_list = equipment_text.find_next_sibling("dd")
                 if equipment_list:
-                    return [
-                        item.strip()
-                        for item in equipment_list.get_text(strip=True).split(",")
-                    ]
+                    return get_equipment(csv_to_tags(equipment_list.text))
         return None
