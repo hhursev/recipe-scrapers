@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._grouping_utils import group_ingredients
 
 
@@ -14,3 +15,6 @@ class TheKitchn(AbstractScraper):
             ".Recipe__ingredientsGroupName",
             ".Recipe__ingredient",
         )
+
+    def site_name(self):
+        raise StaticValueException(return_value="The Kitchn")
