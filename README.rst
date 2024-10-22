@@ -265,6 +265,7 @@ Scrapers available for:
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://kristineskitchenblog.com/ <https://kristineskitchenblog.com>`_
+- `https://krollskorner.com/ <https://krollskorner.com/>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -407,7 +408,6 @@ Scrapers available for:
 - `https://theclevercarrot.com/ <https://theclevercarrot.com>`_
 - `https://www.thecookierookie.com/ <https://www.thecookierookie.com/>`_
 - `https://thecookingguy.com/ <https://thecookingguy.com>`_
-- `https://theexpertguides.com/ <https://theexpertguides.com>`_
 - `https://thefoodietakesflight.com/ <https://thefoodietakesflight.com/>`_
 - `https://theglutenfreeaustrian.com/ <https://theglutenfreeaustrian.com/>`_
 - `https://thehappyfoodie.co.uk/ <https://thehappyfoodie.co.uk>`_

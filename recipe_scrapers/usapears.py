@@ -2,6 +2,7 @@ import re
 
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
+from ._grouping_utils import group_ingredients
 from ._utils import get_minutes, normalize_string
 
 
@@ -21,12 +22,22 @@ class USAPears(AbstractScraper):
         return total_time
 
     def ingredients(self):
-        ingredient_elements = self.soup.find_all("li", {"itemprop": "ingredients"})
+        ingredient_elements = self.soup.select(
+            'li[itemprop="ingredients"]:not(:has(strong))'
+        )
 
         return [
             normalize_string(paragraph.get_text().strip())
             for paragraph in ingredient_elements
         ]
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            'li[itemprop="ingredients"] strong',
+            'li[itemprop="ingredients"]:not(:has(strong))',
+        )
 
     def nutrients(self):
         container = self.soup.find("ul", {"itemprop": "nutrition"})
