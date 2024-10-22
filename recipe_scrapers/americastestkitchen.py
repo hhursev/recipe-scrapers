@@ -71,5 +71,4 @@ class AmericasTestKitchen(AbstractScraper):
     @functools.cached_property
     def _get_additional_details(self):
         j = json.loads(self.soup.find(type="application/json").string)
-        name = list(j["props"]["initialState"]["content"]["documents"])[0]
-        return j["props"]["initialState"]["content"]["documents"][name]
+        return j["props"]["pageProps"]["data"]
