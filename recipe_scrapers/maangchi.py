@@ -10,9 +10,9 @@ class Maangchi(AbstractScraper):
         return "maangchi.com"
 
     def ingredients(self):
-        before = self.soup.find(
-            "h2", string=re.compile(r"Ingredients(\s*\(.*\))?")
-        ).find_all_next("li")
+        before = self.soup.find("h2", string=re.compile(r"Ingredients")).find_all_next(
+            "li"
+        )
         after = self.soup.find("h2", string="Directions").find_all_previous("li")
         list_before = [normalize_string(b.get_text()) for b in before]
         list_after = [normalize_string(a.get_text()) for a in after]
