@@ -6,6 +6,7 @@ from recipe_scrapers._utils import (
     get_minutes,
     get_nutrition_keys,
     get_url_slug,
+    get_yields,
     url_path_to_dict,
 )
 
@@ -168,3 +169,10 @@ class TestUtils(unittest.TestCase):
             "cholesterolContent",
         ]
         self.assertEqual((expected_order), (nutrition_keys))
+
+    def test_get_yields(self):
+        self.assertEqual("5 servings", get_yields("5"))
+
+    def test_get_yields_empty_string(self):
+        with self.assertRaises(ValueError):
+            get_yields("")
