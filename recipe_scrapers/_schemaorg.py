@@ -184,8 +184,8 @@ class SchemaOrg:
         yield_data = self.data.get("recipeYield") or self.data.get("yield")
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]
-        recipe_yield = str(yield_data)
-        return get_yields(recipe_yield)
+        if yield_data:
+            return get_yields(str(yield_data))
 
     def image(self):
         image = self.data.get("image")
