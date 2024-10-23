@@ -199,6 +199,8 @@ def get_yields(element):
         serve_text = element
     else:
         serve_text = element.get_text()
+    if not serve_text:
+        raise ValueError("Cannot extract yield information from empty string")
 
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
