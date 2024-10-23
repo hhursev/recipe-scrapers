@@ -216,6 +216,7 @@ from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
 from .kristineskitchenblog import KristinesKitchenBlog
+from .krollskorner import KrollsKorner
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
@@ -356,7 +357,6 @@ from .tastykitchen import TastyKitchen
 from .theclevercarrot import TheCleverCarrot
 from .thecookierookie import TheCookieRookie
 from .thecookingguy import TheCookingGuy
-from .theexpertguides import TheExpertGuides
 from .thefoodietakesflight import TheFoodieTakesFlight
 from .theglutenfreeaustrian import TheGlutenFreeAustrian
 from .thehappyfoodie import TheHappyFoodie
@@ -522,6 +522,7 @@ SCRAPERS = {
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KitchenDreaming.host(): KitchenDreaming,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
+    KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
@@ -760,7 +761,6 @@ SCRAPERS = {
     Tasty.host(): Tasty,
     TastyKitchen.host(): TastyKitchen,
     TheCleverCarrot.host(): TheCleverCarrot,
-    TheExpertGuides.host(): TheExpertGuides,
     TheHappyFoodie.host(): TheHappyFoodie,
     TheKitchenCommunity.host(): TheKitchenCommunity,
     TheKitchenMagPie.host(): TheKitchenMagPie,
