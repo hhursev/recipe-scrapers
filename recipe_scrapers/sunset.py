@@ -1,7 +1,40 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import IngredientGroup
 
 
 class Sunset(AbstractScraper):
     @classmethod
     def host(cls):
         return "sunset.com"
+
+    def ingredient_groups(self):
+        groups = []
+        current_group = []
+        current_purpose = None
+        seen_ingredients = set()
+
+        for element in self.soup.select(".cooked-single-ingredient"):
+            classes = element.get("class", [])
+            if "cooked-heading" in classes:
+                if current_group:
+                    groups.append(
+                        IngredientGroup(
+                            ingredients=current_group, purpose=current_purpose
+                        )
+                    )
+                current_group = []
+                current_purpose = element.get_text(strip=True)
+            elif "cooked-ingredient" in classes:
+                ingredient = " ".join(
+                    element.get_text(separator=" ", strip=True).split()
+                )
+                if ingredient not in seen_ingredients:
+                    current_group.append(ingredient)
+                    seen_ingredients.add(ingredient)
+
+        if current_group:
+            groups.append(
+                IngredientGroup(ingredients=current_group, purpose=current_purpose)
+            )
+
+        return groups
