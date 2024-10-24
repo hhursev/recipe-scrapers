@@ -31,6 +31,8 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
       - name: Run Tests
+        env:
+          PYTHONWARNINGS: "ignore:::recipe_scrapers.plugins.static_values"
         run: |
           pip install tox
           tox -e ${{ matrix.toxenv }}
