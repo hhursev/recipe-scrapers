@@ -500,7 +500,7 @@ Assuming you have ``>=python3.9`` installed, navigate to the directory where you
     python -m venv .venv &&
     source .venv/bin/activate &&
     python -m pip install --upgrade pip &&
-    pip install -r requirements-dev.txt &&
+    pip install -e .[dev] &&
     pip install pre-commit &&
     pre-commit install &&
     python -m unittest
