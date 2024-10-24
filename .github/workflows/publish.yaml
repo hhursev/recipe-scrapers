@@ -8,11 +8,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Check that the release commit can be found in a release branch
         run: git branch main v14 --contains ${{ github.sha }} | egrep '.+'
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
       - name: Build the package
