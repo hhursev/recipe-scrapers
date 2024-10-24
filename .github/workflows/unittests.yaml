@@ -32,7 +32,7 @@ jobs:
           cache: pip
       - name: Run Tests
         env:
-          PYTHONWARNINGS: "ignore:::recipe_scrapers.plugins.static_values"
+          PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
         run: |
           pip install tox
           tox -e ${{ matrix.toxenv }}
