@@ -41,7 +41,7 @@ $ cd recipe-scrapers
 ```shell
 $ python -m venv .venv --upgrade-deps
 $ source .venv/bin/activate
-$ pip install -r requirements-dev.txt
+$ pip install -e .[dev]
 $ pip install pre-commit
 $ pre-commit install
 ```
