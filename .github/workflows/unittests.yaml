@@ -26,6 +26,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
       - name: Run Tests
-        run: |
-          pip install tox
-          tox
+        run: python -m unittest
