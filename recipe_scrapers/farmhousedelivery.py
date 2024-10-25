@@ -1,3 +1,8 @@
+"""
+    NOTE: This website has at least 2 prominent layouts styles, so there are two logic blocks and 2 test cases to
+    support in ingredients and instructions processing sections.
+"""
+
 import re
 
 from bs4 import Tag
@@ -5,11 +10,6 @@ from bs4 import Tag
 from ._abstract import AbstractScraper
 from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
-
-"""
-    NOTE: This website has at least 2 prominent layouts styles, so there are two logic blocks and 2 test cases to
-    support in ingredients and instructions processing sections.
-"""
 
 
 class FarmhouseDelivery(AbstractScraper):
@@ -51,10 +51,9 @@ class FarmhouseDelivery(AbstractScraper):
                 ):
                     if ingredients_marker_sibling.get_text() == "Instructions":
                         break
-                    else:
-                        ingredients.append(
-                            normalize_string(ingredients_marker_sibling.get_text())
-                        )
+                    ingredients.append(
+                        normalize_string(ingredients_marker_sibling.get_text())
+                    )
             return ingredients
 
         return None

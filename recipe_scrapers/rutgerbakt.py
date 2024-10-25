@@ -51,6 +51,7 @@ class RutgerBakt(AbstractScraper):
         # the keywords.
         # I split the heading into words so I keep word boundaries in check.
         headings.reverse()
+        heading = None
         for heading in headings:
             tokens = heading.getText().lower().split(" ")
             keywords = ["recept", "bereiding", "maken", "maak"]
@@ -69,8 +70,9 @@ class RutgerBakt(AbstractScraper):
                     continue
                 yield instruction.text.replace("\n", " ").strip()
 
-        instructions = parse_instructions(heading)
-        return "\n".join(instructions)
+        if heading:
+            instructions = parse_instructions(heading)
+            return "\n".join(instructions)
 
     def description(self):
         # Assuming the first paragraph is the description.

@@ -108,8 +108,8 @@ class WeightWatchers(AbstractScraper):
             )
 
     def __parse_ingredient(self, ingredient):
-        ingredient_name = self.__class__._extract_ingredient_name(ingredient)
-        amount, unit, comment = self.__class__._extract_portion_parts(ingredient)
+        ingredient_name = self._extract_ingredient_name(ingredient)
+        amount, unit, comment = self._extract_portion_parts(ingredient)
 
         if comment:
             return f"{amount} {unit} {ingredient_name}; {comment}"

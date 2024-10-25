@@ -66,10 +66,15 @@ class Reishunger(AbstractScraper):
                     continue
 
                 # Add the title of the first method
+                method = None
                 for method in step.find("section").find_all("div", {"id": True}):
                     title = method.find("p")
                     results.append(normalize_string(title.text))
                     break
+
+                # Unable to find a method here
+                if not method:
+                    continue
 
                 # Include all the steps from the first method
                 for substep in method.find_all("li"):

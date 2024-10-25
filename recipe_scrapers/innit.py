@@ -1,9 +1,9 @@
-from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
-
 """
     Note that innit hosts recipes for several companies.  I found it while looking at centralmarket.com
 """
+
+from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class Innit(AbstractScraper):

@@ -49,7 +49,7 @@ class WikiCookbook(AbstractScraper):
         )
 
     def description(self):
-        paragraphs = list()
+        paragraphs = []
         for tag in self.soup.find(class_="mw-parser-output"):
             try:
                 # get all paragraphs except for links

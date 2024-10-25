@@ -64,6 +64,3 @@ class KuchynaLidla(AbstractScraper):
         il = re.split(r"[\n\r]{3,10}", self.instructions())
         il = [norm for i in il if (norm := normalize_string(i))]
         return il
-
-    def language(self):
-        return super().language()

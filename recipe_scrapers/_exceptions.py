@@ -39,20 +39,13 @@ class ElementNotFoundInHtml(RecipeScrapersExceptions):
 class FillPluginException(RecipeScrapersExceptions):
     """Inability to locate an element on a page by using a fill plugin"""
 
-    def __init__(self, message):
-        super().__init__(message)
-
 
 class OpenGraphException(FillPluginException):
     """Unable to locate element on the page using OpenGraph metadata"""
 
-    ...
-
 
 class SchemaOrgException(FillPluginException):
     """Error in parsing or missing portion of the Schema.org data on the page"""
-
-    ...
 
 
 class RecipeSchemaNotFound(SchemaOrgException):
@@ -75,5 +68,3 @@ class StaticValueException(RecipeScrapersExceptions):
 
 class FieldNotProvidedByWebsiteException(StaticValueException):
     """Error when, as far as we know, the website does not provide this info for any recipes."""
-
-    ...

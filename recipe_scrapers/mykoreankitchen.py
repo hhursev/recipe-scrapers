@@ -14,29 +14,22 @@ class MyKoreanKitchen(AbstractScraper):
         )
 
         results = []
-        ingredient_index_base = 0
+        index_base = 0
 
         for ingredient_group in ingredient_groups:
 
-            ingredient_count = (
-                len(ingredient_group.find_all("li")) + ingredient_index_base
-            )
+            count = index_base + len(ingredient_group.find_all("li"))
 
             purpose_heading = ingredient_group.find(
                 "h4", "wprm-recipe-ingredient-group-name"
             )
             results.append(
                 IngredientGroup(
-                    ingredients=[
-                        ingredient
-                        for ingredient in self.schema.ingredients()[
-                            ingredient_index_base:ingredient_count
-                        ]
-                    ],
+                    ingredients=self.schema.ingredients()[index_base:count],
                     purpose=purpose_heading.text if purpose_heading else None,
                 )
             )
 
-            ingredient_index_base = ingredient_count
+            index_base = count
 
         return results

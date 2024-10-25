@@ -156,7 +156,7 @@ class SchemaOrg:
         return None
 
     def total_time(self):
-        if not (self.data.keys() & {"totalTime", "prepTime", "cookTime"}):
+        if not self.data.keys() & {"totalTime", "prepTime", "cookTime"}:
             raise SchemaOrgException("Cooking time information not found in SchemaOrg")
 
         total_time = self._read_duration_field("totalTime")
@@ -169,17 +169,17 @@ class SchemaOrg:
             return prep_time + cook_time
 
     def cook_time(self):
-        if not (self.data.keys() & {"cookTime"}):
+        if not self.data.keys() & {"cookTime"}:
             raise SchemaOrgException("Cooktime information not found in SchemaOrg")
         return self._read_duration_field("cookTime")
 
     def prep_time(self):
-        if not (self.data.keys() & {"prepTime"}):
+        if not self.data.keys() & {"prepTime"}:
             raise SchemaOrgException("Preptime information not found in SchemaOrg")
         return self._read_duration_field("prepTime")
 
     def yields(self):
-        if not (self.data.keys() & {"recipeYield", "yield"}):
+        if not self.data.keys() & {"recipeYield", "yield"}:
             raise SchemaOrgException("Servings information not found in SchemaOrg")
         yield_data = self.data.get("recipeYield") or self.data.get("yield")
         if yield_data and isinstance(yield_data, list):
@@ -239,7 +239,7 @@ class SchemaOrg:
 
     def _extract_howto_instructions_text(self, schema_item):
         instructions_gist = []
-        if type(schema_item) is str:
+        if isinstance(schema_item, str):
             instructions_gist.append(schema_item)
         elif schema_item.get("@type") == "HowToStep":
             if schema_item.get("name", False):
@@ -318,7 +318,7 @@ class SchemaOrg:
         cuisine = self.data.get("recipeCuisine")
         if cuisine is None:
             raise SchemaOrgException("No cuisine data in SchemaOrg.")
-        elif isinstance(cuisine, list):
+        if isinstance(cuisine, list):
             return ",".join(cuisine)
         return cuisine
 

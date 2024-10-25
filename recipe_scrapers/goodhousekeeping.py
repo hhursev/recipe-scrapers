@@ -18,6 +18,10 @@ class GoodHousekeeping(AbstractScraper):
             ".ingredient-lists li",
         )
 
+    def __init__(self, html: str, url: str) -> None:
+        super().__init__(html, url)
+        self.nutrient_soup = self.soup.find(class_="recipe-body-content")
+
     def instructions(self):
         directions = self.soup.find(
             "ul",
@@ -54,7 +58,6 @@ class GoodHousekeeping(AbstractScraper):
             return None
 
     def nutrients(self):
-        self.nutrient_soup = self.soup.find(class_="recipe-body-content")
         nutrients = {
             "calories": self._find_nutrient("Calories"),
             "fatContent": self._find_nutrient("(Total )?[Ff]at"),

@@ -875,7 +875,8 @@ def scrape_html(
     if supported_only is not None and wild_mode is not None:
         msg = "Please provide either 'supported_only' or 'wild_mode', but not both."
         raise ValueError(msg)
-    elif supported_only is None and wild_mode is not None:
+
+    if supported_only is None and wild_mode is not None:
         supported_only = not bool(wild_mode)  # wild: true -> supported_only: false
 
     if html is None and online is True:

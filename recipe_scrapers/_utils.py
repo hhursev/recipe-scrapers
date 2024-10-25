@@ -224,9 +224,9 @@ def get_yields(element):
         return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return f"{matched} item{'' if int(matched) == 1 else 's'}"
 
-    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+    return f"{matched} serving{'' if int(matched) == 1 else 's'}"
 
 
 def get_equipment(equipment_items):
@@ -317,7 +317,7 @@ def get_url_slug(url):
 
 
 def get_abstract_methods():
-    from ._abstract import AbstractScraper
+    from ._abstract import AbstractScraper  # noqa
 
     return [
         name

@@ -64,6 +64,3 @@ class LekkerEnSimpel(AbstractScraper):
         except SchemaOrgException:
             description = self.soup.find("meta", {"name": "description"})
             return description["content"] if description else None
-
-    def language(self):
-        return super().language()

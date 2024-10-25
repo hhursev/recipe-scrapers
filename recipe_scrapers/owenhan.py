@@ -17,10 +17,10 @@ class OwenHan(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def ingredients(self):
-        return [x for x in map(lambda x: x.text, self.soup.select("ul > li"))]
+        return list(map(lambda x: x.text, self.soup.select("ul > li")))
 
     def instructions_list(self):
-        return [x for x in map(lambda x: x.text, self.soup.select("ol > li"))]
+        return list(map(lambda x: x.text, self.soup.select("ol > li")))
 
     def instructions(self):
         return "\n".join(self.instructions_list())

@@ -23,8 +23,8 @@ class MLStripper(HTMLParser):
         self.convert_charrefs = True
         self.text = StringIO()
 
-    def handle_data(self, d):
-        self.text.write(d)
+    def handle_data(self, data):
+        self.text.write(data)
 
     def get_data(self):
         return self.text.getvalue()
@@ -73,7 +73,7 @@ class HTMLTagStripperPlugin(PluginInterface):
 
             decorated_func_result = decorated(self, *args, **kwargs)
 
-            if type(decorated_func_result) is list:
+            if isinstance(decorated_func_result, list):
                 return [stripper(item) for item in decorated_func_result]
             else:
                 return stripper(decorated_func_result)

@@ -51,7 +51,7 @@ class Mob(AbstractScraper):
                     current_section["ingredients"].append(item.get("label"))
                 else:
                     empty_section["ingredients"].append(item.get("label"))
-        if len(empty_section["ingredients"]):
+        if empty_section["ingredients"]:
             result.append(empty_section)
         return [
             IngredientGroup(
