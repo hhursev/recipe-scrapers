@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class SpendWithPennies(AbstractScraper):
@@ -20,10 +21,10 @@ class SpendWithPennies(AbstractScraper):
             "div", class_="wprm-recipe-equipment-container"
         )
         if equipment_container:
-            return [
-                item.get_text(strip=True)
+            equipment_items = [
+                item.get_text()
                 for item in equipment_container.find_all(
                     "div", class_="wprm-recipe-equipment-name"
                 )
             ]
-        return None
+            return get_equipment(equipment_items)
