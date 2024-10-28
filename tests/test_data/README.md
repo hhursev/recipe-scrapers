@@ -9,4 +9,4 @@ If you are the author/publisher of any of those files and would prefer for them 
 
   * You may follow GitHub's [DMCA notice and takedown process](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy) that is available to you as a copyright owner.
 
-  * Alternatively you may contact one of the library's authors and/or file a bugreport -- preferably from an email address associated with the recipe website, or otherwise proving ownership of the content.  Note that this reduces our ability to support affected website(s).
+  * Alternatively you may contact the library's authors and/or file a bugreport -- preferably from an email address associated with the recipe website, or otherwise proving ownership of the content you'd like us to remove.  Note that removal of test HTML will reduce our ability to support the affected website(s).
