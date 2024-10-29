@@ -9,4 +9,4 @@ If you would prefer for any of them to be removed, there are at least two approa
 
   * You may follow GitHub's [content removal request processes](https://docs.github.com/en/site-policy/content-removal-policies/submitting-content-removal-requests).
 
-  * Alternatively you may contact us (the software developers of this library) and/or file a bugreport with us -- preferably from an email address associated with the recipe website, or otherwise proving ownership of the content you'd like us to remove.  Note that removal of test HTML may reduce our ability to support the affected website(s).
+  * Alternatively you may contact us (the software maintainers of this library) and/or file a bugreport with us -- preferably from an email address associated with the recipe website, or otherwise proving ownership of the content you'd like us to remove.  Note that removal of test HTML may reduce our ability to support the affected website(s).
