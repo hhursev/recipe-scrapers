@@ -22,6 +22,6 @@ The following statements apply to my request:
 
   - [ ] I am the owner of content contained within those files, and would like them to be removed.
 
-  - [ ] I would also like them to be erased from all versions of the source control history.
+  - [ ] I would also like them to be erased from all revisions of the source control history.
 
 <!-- NOTE: the second request may be difficult for us to fulfill; rewriting the code history is potentially disruptive for users and developers of this library.  however, if you require this, we may be able to accommodate your request under some circumstances.  please note that other copies of this repository exist and are outside of our control. -->
