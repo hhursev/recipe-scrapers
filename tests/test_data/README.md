@@ -5,7 +5,7 @@ As a precondition for inclusion in this library, each recipe scraper is required
 
 To achieve that, the development source repository includes a minimal number of test HTML files from the public web -- often only one or two per recipe website -- to confirm the scraper's behaviour.  These test files are not included in the [published releases](https://pypi.org/project/recipe-scrapers/) of the library.
 
-If you would prefer for any of them to be removed, there are at least three approaches available to you:
+If you would prefer for any of them to be removed, we recommend choosing one of these processes:
 
   * You may follow GitHub's [content removal request processes](https://docs.github.com/en/site-policy/content-removal-policies/submitting-content-removal-requests).
 
