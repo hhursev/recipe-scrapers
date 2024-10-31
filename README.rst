@@ -346,6 +346,7 @@ Scrapers available for:
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
+- `https://quitoque.fr/ <https://quitoque.fr>`_
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
