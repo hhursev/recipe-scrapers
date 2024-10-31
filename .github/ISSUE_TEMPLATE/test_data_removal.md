@@ -24,4 +24,4 @@ The following statements apply to my request:
 
   - [ ] I would also like them to be erased from all versions of the source control history.
 
-<!-- NOTE: the second request may be difficult for us to fulfill; other copies of the source control exist outside of our control, and rewriting the code history makes is potentially disruptive for users and developers of this library.  however, if you require this, we may be able to accommodate your request under some circumstances -->
+<!-- NOTE: the second request may be difficult for us to fulfill; other copies of the source control exist outside of our control, and rewriting the code history is potentially disruptive for users and developers of this library.  however, if you require this, we may be able to accommodate your request under some circumstances -->
