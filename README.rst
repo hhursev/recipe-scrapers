@@ -78,7 +78,7 @@ Content removal
 
 This source code repository includes test HTML files from the public web that are used to quality-check the recipe web scrapers.  These test files are not included in the [published releases](https://pypi.org/project/recipe-scrapers/) of the library.
 
-If you would prefer for any of them to be removed, we recommend choosing one of these processes:
+If you would prefer for any of them to be removed, we recommend choosing one of the following processes:
 
   * You may follow GitHub's [content removal request processes](https://docs.github.com/en/site-policy/content-removal-policies/submitting-content-removal-requests).
 
