@@ -9,6 +9,6 @@ If you would prefer for any of them to be removed, we recommend choosing one of 
 
   * You may [contact us](https://github.com/hhursev/recipe-scrapers/blob/6a6a9144c2be5ce299ce3805ea9344e34afadaca/pyproject.toml#L12-L14) (the software maintainers of this library) privately by email.
 
-  * You may [create a public bugreport for us](https://github.com/hhursev/recipe-scrapers/issues/new).  Please **do not** include your email address in your bugreport, because GitHub issues are public, and doing so could expose your email address to spammers.
+  * You may [create a public bugreport for us](https://github.com/hhursev/recipe-scrapers/issues/new?assignees=&labels=bug&projects=&template=test_data_removal.md).  Please **do not** include your email address in your bugreport, because GitHub issues are public, and doing so could expose your email address to spammers.
 
 Note that removal of test HTML may reduce our ability to support the affected website(s).
