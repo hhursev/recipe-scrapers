@@ -13,6 +13,8 @@ class AldiNord(AbstractScraper):
         return "ALDI"
 
     def instructions(self):
-        instructions: str | None = self.schema.data.get("recipeInstructions", None)
-        if instructions:
-            return instructions.replace("\xa0", " ").replace("\r\n ", "\n")
+        return (
+            self.schema.data.get("recipeInstructions", "")
+            .replace("\xa0", " ")
+            .replace("\r\n ", "\n")
+        )
