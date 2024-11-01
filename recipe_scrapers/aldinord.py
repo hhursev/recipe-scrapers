@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-
+from ._exceptions import StaticValueException
 
 class AldiNord(AbstractScraper):
     @classmethod
@@ -7,10 +7,10 @@ class AldiNord(AbstractScraper):
         return domain
 
     def author(self):
-        return "ALDI"
+        raise StaticValueException(return_value="ALDI")
 
     def site_name(self):
-        return "ALDI"
+        raise StaticValueException(return_value="ALDI")
 
     def instructions(self):
         return (
