@@ -44,8 +44,6 @@ from .aflavorjournal import AFlavorJournal
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .aldi import Aldi
-from .aldies import AldiEs
-from .aldilu import AldiLu
 from .aldinord import AldiNord
 from .alexandracooks import AlexandraCooks
 from .alittlebityummy import ALittleBitYummy
@@ -427,12 +425,12 @@ SCRAPERS = {
     AlbertHeijn.host(): AlbertHeijn,
     Aldi.host(): Aldi,
     AldiNord.host(): AldiNord,
-    AldiEs.host(domain="aldi.es"): AldiEs,
-    AldiLu.host(): AldiLu,
-    # AldiNord.host(domain="aldi.fr"): AldiNord,
-    # AldiNord.host(domain="aldi.nl"): AldiNord,
-    # AldiNord.host(domain="aldi.pl"): AldiNord,
-    # AldiNord.host(domain="aldi.pt"): AldiNord,
+    AldiNord.host(domain="aldi.es"): AldiNord,
+    AldiNord.host(domain="aldi.fr"): AldiNord,
+    AldiNord.host(domain="aldi.lu"): AldiNord,
+    AldiNord.host(domain="aldi.nl"): AldiNord,
+    AldiNord.host(domain="aldi.pl"): AldiNord,
+    AldiNord.host(domain="aldi.pt"): AldiNord,
     AlexandraCooks.host(): AlexandraCooks,
     AllRecipes.host(): AllRecipes,
     AllTheHealthyThings.host(): AllTheHealthyThings,

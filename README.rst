@@ -89,9 +89,8 @@ Scrapers available for:
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://aldi-nord.de/ <https://aldi-nord.de/>`_
+    - `.es <https://aldi.es/>`__, `.fr <https://aldi.fr/>`__, `.lu <https://aldi.lu/>`__, `.nl <https://aldi.nl/>`__, `.pl <https://aldi.pl/>`__, `.pt <https://aldi.pt/>`__
 - `https://aldi.com.au/ <https://aldi.com.au/>`_
-- `https://aldi.es <https://aldi.es/>`_
-- `https://aldi.lu <https://aldi.lu/>`_
 - `https://alexandracooks.com/ <https://alexandracooks.com/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
 - `https://allrecipes.com/ <https://allrecipes.com/>`_
