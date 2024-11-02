@@ -13,7 +13,9 @@ class Sunset(AbstractScraper):
         current_purpose = None
         seen_ingredients = set()
 
-        for element in self.soup.select(".cooked-single-ingredient"):
+        for element in self.soup.select(
+            ".recipe-ingredients .cooked-single-ingredient"
+        ):
             classes = element.get("class", [])
             if "cooked-heading" in classes:
                 if current_group:
@@ -28,9 +30,8 @@ class Sunset(AbstractScraper):
                 ingredient = " ".join(
                     element.get_text(separator=" ", strip=True).split()
                 )
-                if ingredient not in seen_ingredients:
-                    current_group.append(ingredient)
-                    seen_ingredients.add(ingredient)
+                current_group.append(ingredient)
+                seen_ingredients.add(ingredient)
 
         if current_group:
             groups.append(
