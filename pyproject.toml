@@ -7,6 +7,7 @@ name = "recipe_scrapers"
 description = "Python package, scraping recipes from all over the internet"
 authors = [
     {name = "Hristo Harsev", email = "r+pypi@hharsev.com"},
+    {name = "James Addison", email = "james@reciperadar.com"},
 ]
 urls = {Homepage = "https://github.com/hhursev/recipe-scrapers/"}
 keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
@@ -34,6 +35,11 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+dev = [
+    "coverage >=7.4.4",
+    "types-beautifulsoup4>=4.12.0",
+    "importlib-metadata>=4.6 ; python_version < '3.10'",
+]
 online = [
     "requests >= 2.31.0",
 ]
