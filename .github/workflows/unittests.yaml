@@ -30,4 +30,6 @@ jobs:
       - name: Install parallel test runner
         run: python -m pip install unittest-parallel
       - name: Run Tests
+        env:
+          PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
         run: unittest-parallel --level test
