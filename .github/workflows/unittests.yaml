@@ -32,4 +32,4 @@ jobs:
       - name: Run Tests
         env:
           PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
-        run: unittest-parallel --level test
+        run: unittest-parallel --level class
