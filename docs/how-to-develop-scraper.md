@@ -52,12 +52,6 @@ $ python -m unittest
 ```
 This will run all the tests for all the scrapers. You should not see any errors or failures.
 
-**OPTIONAL: To run the full test suite in parallel**
-```shell
-$ pip install unittest-parallel
-$ unittest-parallel --level test
-```
-
 ## 3. Identify a recipe and generate the scraper and test file
 
 To develop the scraper for the website, first identify a recipe. This will be used to create the test case that will validate that the scraper is working correctly.
