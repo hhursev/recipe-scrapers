@@ -6,41 +6,40 @@ from recipe_scrapers._utils import (
     get_minutes,
     get_nutrition_keys,
     get_url_slug,
+    get_yields,
     url_path_to_dict,
 )
 
 
 class TestUtils(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.iso8601_fixtures = {
-            "PT1H": 60,
-            "PT20M": 20,
-            "PT2H10M": 130,
-            "PT0H9M30S": 10,
-        }
-        cls.minutes_fixtures = [
-            ("1 hour 15 mins", 75),
-            ("1h and 15mins", 75),
-            ("3h10m", 190),
-            ("PT2H30M", 150),
-            ("P0DT1H10M", 70),
-            ("90", 90),
-            ("1.5 hours", 90),
-            ("2 days", 2880),
-            ("1½ hours", 90),
-            ("1¾ hours", 105),
-            ("1¼ hours", 75),
-            ("1⅔ hours", 100),
-            ("1 1/2 hours", 90),
-            ("1 3/4 hours", 105),
-            ("1 1/4 hours", 75),
-            ("1 2/3 hours", 100),
-            ("15 - 20 minutes", 20),
-            ("15 to 20 minutes", 20),
-            ("Pá-Pum", None),
-            ("PT0M", None),
-        ]
+    iso8601_fixtures = {
+        "PT1H": 60,
+        "PT20M": 20,
+        "PT2H10M": 130,
+        "PT0H9M30S": 10,
+    }
+    minutes_fixtures = [
+        ("1 hour 15 mins", 75),
+        ("1h and 15mins", 75),
+        ("3h10m", 190),
+        ("PT2H30M", 150),
+        ("P0DT1H10M", 70),
+        ("90", 90),
+        ("1.5 hours", 90),
+        ("2 days", 2880),
+        ("1½ hours", 90),
+        ("1¾ hours", 105),
+        ("1¼ hours", 75),
+        ("1⅔ hours", 100),
+        ("1 1/2 hours", 90),
+        ("1 3/4 hours", 105),
+        ("1 1/4 hours", 75),
+        ("1 2/3 hours", 100),
+        ("15 - 20 minutes", 20),
+        ("15 to 20 minutes", 20),
+        ("Pá-Pum", None),
+        ("PT0M", None),
+    ]
 
     def test_minutes_fixtures(self):
         # Tests for minute related output formats.
@@ -168,3 +167,10 @@ class TestUtils(unittest.TestCase):
             "cholesterolContent",
         ]
         self.assertEqual((expected_order), (nutrition_keys))
+
+    def test_get_yields(self):
+        self.assertEqual("5 servings", get_yields("5"))
+
+    def test_get_yields_empty_string(self):
+        with self.assertRaises(ValueError):
+            get_yields("")

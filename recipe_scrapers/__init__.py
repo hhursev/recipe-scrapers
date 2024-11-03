@@ -192,6 +192,7 @@ from .kochbucher import Kochbucher
 from .koket import Koket
 from .kptncook import KptnCook
 from .kristineskitchenblog import KristinesKitchenBlog
+from .krollskorner import KrollsKorner
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
@@ -278,6 +279,7 @@ from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
+from .quitoque import QuiToque
 from .rachlmansfield import RachlMansfield
 from .rainbowplantlife import RainbowPlantLife
 from .realfoodtesco import RealFoodTesco
@@ -499,6 +501,7 @@ SCRAPERS = {
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KitchenDreaming.host(): KitchenDreaming,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
+    KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
@@ -518,6 +521,7 @@ SCRAPERS = {
     PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
+    QuiToque.host(): QuiToque,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecipeGirl.host(): RecipeGirl,

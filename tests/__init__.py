@@ -162,16 +162,40 @@ def test_func_factory(
     return test_func
 
 
+def prepare_test_cases():
+    """
+    This function dynamically generates the class definition for RecipeTestCase by adding
+    a test function for each pair of testhtml and testjson files found in the
+    tests/test_data directory.
+    """
+    test_dir = pathlib.Path("tests/test_data")
+    for host in test_dir.iterdir():
+        if not host.is_dir():
+            continue
+
+        for testhtml in host.glob("*.testhtml"):
+            testjson = testhtml.with_suffix(".json")
+            if not testjson.is_file():
+                continue
+
+            # Add a new function to RecipeTestCase class to test this scraper
+            # The name of this function the path to the testjson file.
+            setattr(
+                RecipeTestCase,
+                str(testjson),
+                test_func_factory(host.name, testhtml, testjson),
+            )
+
+
+prepare_test_cases()
+
+
 def load_tests(
     loader: unittest.TestLoader, standard_tests: unittest.TestSuite, pattern: str
 ) -> unittest.TestSuite:
     """
     Customise the loading of tests. This function is automatically picked up by the
     unittest test loader.
-
-    This function dynamically generates the class definition for RecipeTestCase by adding
-    a test function for each pair of testhtml and testjson files found in the
-    tests/test_data directory.
 
     This also includes the library tests from the tests/library folder as well.
 
@@ -193,23 +217,6 @@ def load_tests(
         A TestSuite object populated with tests from the pairs of testhtml and testjson
         files, and the library tests.
     """
-    test_dir = pathlib.Path("tests/test_data")
-    for host in test_dir.iterdir():
-        if not host.is_dir():
-            continue
-
-        for testhtml in host.glob("*.testhtml"):
-            testjson = testhtml.with_suffix(".json")
-            if not testjson.is_file():
-                continue
-
-            # Add a new function to RecipeTestCase class to test this scraper
-            # The name of this function the path to the testjson file.
-            setattr(
-                RecipeTestCase,
-                str(testjson),
-                test_func_factory(host.name, testhtml, testjson),
-            )
 
     # Create a test suite and load all tests from the RecipeTestClass definition
     suite = unittest.TestSuite()

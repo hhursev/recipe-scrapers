@@ -264,6 +264,7 @@ Scrapers available for:
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://kristineskitchenblog.com/ <https://kristineskitchenblog.com>`_
+- `https://krollskorner.com/ <https://krollskorner.com/>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -349,6 +350,7 @@ Scrapers available for:
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
+- `https://quitoque.fr/ <https://quitoque.fr>`_
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
@@ -505,7 +507,7 @@ Assuming you have ``>=python3.9`` installed, navigate to the directory where you
     python -m venv .venv &&
     source .venv/bin/activate &&
     python -m pip install --upgrade pip &&
-    pip install -r requirements-dev.txt &&
+    pip install -e .[dev] &&
     pip install pre-commit &&
     pre-commit install &&
     python -m unittest
@@ -577,6 +579,12 @@ All the `contributors that helped improving <https://github.com/hhursev/recipe-s
 
 .. image:: https://contrib.rocks/image?repo=hhursev/recipe-scrapers
    :target: https://github.com/hhursev/recipe-scrapers/graphs/contributors
+
+
+Test Data Notice
+---------------
+
+All content in ``tests/test_data/`` is used for limited, non-commercial testing purposes and belongs to their respective copyright holders. See the ``tests/test_data/LICENSE.md`` for details. If you're a copyright holder with concerns, you can open an issue or contact us privately via the email in our PyPI page.
 
 
 Extra:
