@@ -44,6 +44,8 @@ from .aflavorjournal import AFlavorJournal
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .aldi import Aldi
+from .aldisued import AldiSued
+from .aldisuisse import AldiSuisse
 from .alexandracooks import AlexandraCooks
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
@@ -181,6 +183,7 @@ from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
 from .hersheyland import HersheyLand
+from .hofer import Hofer
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
 from .hungryhappens import HungryHappens
@@ -423,6 +426,10 @@ SCRAPERS = {
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
     Aldi.host(): Aldi,
+    AldiSued.host(): AldiSued,
+    AldiSued.host(domain="aldi.hu"): AldiSued,
+    AldiSued.host(domain="aldi.it"): AldiSued,
+    AldiSuisse.host(): AldiSuisse,
     AlexandraCooks.host(): AlexandraCooks,
     AllRecipes.host(): AllRecipes,
     AllTheHealthyThings.host(): AllTheHealthyThings,
@@ -627,6 +634,8 @@ SCRAPERS = {
     HelloFresh.host(domain="no"): HelloFresh,
     HelloFresh.host(domain="se"): HelloFresh,
     HersheyLand.host(): HersheyLand,
+    Hofer.host(): Hofer,
+    Hofer.host(domain="hofer.si"): Hofer,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
     Ica.host(): Ica,
