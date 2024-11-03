@@ -3,5 +3,5 @@ from .aldisued import AldiSued
 
 class AldiSuisse(AldiSued):
     @classmethod
-    def host(cls):
-        return "aldi-suisse.ch"
+    def host(cls, domain="aldi-suisse.ch"):
+        return domain
