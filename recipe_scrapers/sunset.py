@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
+from ._utils import normalize_string
 
 
 class Sunset(AbstractScraper):
@@ -24,12 +25,12 @@ class Sunset(AbstractScraper):
                         )
                     )
                 current_group = []
-                current_purpose = element.get_text(strip=True)
+                current_purpose = normalize_string(element.get_text())
             elif "cooked-ingredient" in classes:
                 ingredient = " ".join(
                     element.get_text(separator=" ", strip=True).split()
                 )
-                current_group.append(ingredient)
+                current_group.append(normalize_string(ingredient))
 
         if current_group:
             groups.append(
