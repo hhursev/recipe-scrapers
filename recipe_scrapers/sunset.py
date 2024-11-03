@@ -11,7 +11,6 @@ class Sunset(AbstractScraper):
         groups = []
         current_group = []
         current_purpose = None
-        seen_ingredients = set()
 
         for element in self.soup.select(
             ".recipe-ingredients .cooked-single-ingredient"
@@ -31,7 +30,6 @@ class Sunset(AbstractScraper):
                     element.get_text(separator=" ", strip=True).split()
                 )
                 current_group.append(ingredient)
-                seen_ingredients.add(ingredient)
 
         if current_group:
             groups.append(
