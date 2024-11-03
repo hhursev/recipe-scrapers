@@ -10,7 +10,7 @@ class AldiSued(AbstractScraper):
         instruction_elements = self.schema.data.get("recipeInstructions", [])
         return "\n".join(
             [
-                element.get("text")
+                element.get("text").replace("\xad", "")
                 for element in instruction_elements
                 if element.get("text")
             ]
