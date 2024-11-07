@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
-from ._utils import get_equipment, normalize_string
 from ._schemaorg import SchemaOrg
+from ._utils import get_equipment, normalize_string
 
 
 class Argiro(AbstractScraper):
