@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class SaltPepperSkillet(AbstractScraper):
@@ -22,11 +23,12 @@ class SaltPepperSkillet(AbstractScraper):
         equipment_container = self.soup.find(
             "div", class_="wprm-recipe-equipment-container"
         )
-        if equipment_container:
-            return [
-                item.get_text(strip=True)
-                for item in equipment_container.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-            ]
-        return None
+        if not equipment_container:
+            return None
+        equipment_items = [
+            item.get_text(strip=True)
+            for item in equipment_container.find_all(
+                "div", class_="wprm-recipe-equipment-name"
+            )
+        ]
+        return get_equipment(equipment_items)
