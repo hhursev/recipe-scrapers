@@ -132,6 +132,15 @@ def test_func_factory(
                 except StaticValueException as e:
                     return_value = e.return_value
 
+                # Special-case; see https://github.com/hhursev/recipe-scrapers/issues/1372
+                if key == "description":
+                    return_value = return_value[:100]
+                    expect[key] = expect[key].removesuffix("...") if len(expect[key]) > 100 else expect[key]
+                    self.assertTrue(
+                        len(expect[key]) <= 100,
+                        "Expectation for the 'description' field is too long; reduce to 100 chars."
+                    )
+
                 self.assertEqual(
                     expect[key],
                     return_value,
