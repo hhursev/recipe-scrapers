@@ -24,6 +24,9 @@ HEADERS = {
 class AbstractScraper:
     page_data: str | bytes
 
+    _opengraph_cls = OpenGraph
+    _schema_cls = SchemaOrg
+
     def __init__(
         self,
         url: str | None,
@@ -52,8 +55,8 @@ class AbstractScraper:
 
         self.wild_mode = wild_mode
         self.soup = BeautifulSoup(self.page_data, "html.parser")
-        self.opengraph = OpenGraph(self.soup)
-        self.schema = SchemaOrg(self.page_data)
+        self.opengraph = self._opengraph_cls(self.soup)
+        self.schema = self._schema_cls(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):

@@ -10,6 +10,10 @@ The [Beautiful Soup documentation](https://www.crummy.com/software/BeautifulSoup
 
 This guide covers a number of common patterns that are used in this library.
 
+## `_schema_cls` and `_opengraph_cls`
+
+It should rarely be necessary to override the default behaviour of schema.org and OpenGraph metadata retrieval; recipe websites should generally adhere to their respective standard formats when including metadata on their webpages.  However, bugs/mistakes do happen - if you need to override the implementations provided by the `SchemaOrg` and `OpenGraph` classes, you can subclass from those and add a `_schema_cls` or `_opengraph_cls` attribute to your scraper class to instruct the library to use them instead.
+
 ## Finding a single element
 
 The `self.soup.find()` function returns the first element matching the arguments. This is useful if you are trying to extract some information that should only occur once, for example the prep time or total time.
