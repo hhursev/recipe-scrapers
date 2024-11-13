@@ -34,12 +34,12 @@ class SimplyCookit(AbstractScraper):
         current_group = None
 
         for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
-            h3 = li.find("h3")
-            if h3:
+            group_heading = li.find("h3")
+            if group_heading:
                 if current_group:
                     ingredient_groups.append(current_group)
                 current_group = IngredientGroup(
-                    ingredients=[], purpose=normalize_string(h3.get_text())
+                    ingredients=[], purpose=normalize_string(group_heading.get_text())
                 )
             else:
                 text = normalize_string(li.get_text())
