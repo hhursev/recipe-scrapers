@@ -1,8 +1,8 @@
 {
-  "host": "rewe.de",
+  "author": "",
   "canonical_url": "https://www.rewe.de/rezepte/wintergemuese-gnocchi-pfanne-kraeuterdip/",
   "site_name": "Rewe.de",
-  "author": "",
+  "host": "rewe.de",
   "language": "de",
   "title": "Wintergemüse-Gnocchi-Pfanne mit Kräuterdip",
   "ingredients": [
@@ -32,8 +32,8 @@
     "2 EL Öl in einer großen Pfanne erhitzen, das Gemüse portionsweise, außer der roten Bete, unter Rühren 5 Minuten garen, sodass es gar ist aber noch leichten Biss hat. Mit Salz, Pfeffer und Muskatnuss würzen.",
     "Gemüse aus der Pfanne nehmen und Gnocchi im restlichen Öl kurz goldbraun braten. Dann das Gemüse, inklusive Rote Bete, wieder zugeben, mischen und nochmals mit Salz und Pfeffer würzen. Mit Walnüssen und Dip servieren."
   ],
-  "total_time": "45min",
   "yields": "4",
-  "image": "https://c.rewe-static.de/31535699/6/31535699.png",
-  "description": ""
+  "description": "",
+  "total_time": "45min",
+  "image": "https://c.rewe-static.de/31535699/6/31535699.png"
 }
