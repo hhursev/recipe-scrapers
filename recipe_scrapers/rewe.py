@@ -13,7 +13,7 @@ class Rewe(AbstractScraper):
         return self.soup.find("html")["lang"]
 
     def author(self):
-        return ""
+        return self.schema.author()
 
     def title(self):
         return self.soup.find("h1", {"class": "ld-rds"}).get_text()
@@ -70,7 +70,7 @@ class Rewe(AbstractScraper):
         return "\n".join(steps)
 
     def description(self):
-        return ""
+        return None
 
     def canonical_url(self):
         return self.soup.find("meta", {"property": "og:url"})["content"]
