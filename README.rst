@@ -363,6 +363,7 @@ Scrapers available for:
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
+- `https://rewe.de/ <https://www.rewe.de>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://ricetta.it/ <https://ricetta.it>`_
 - `https://ricette.giallozafferano.it/ <https://ricette.giallozafferano.it>`_
