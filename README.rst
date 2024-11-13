@@ -88,6 +88,11 @@ Scrapers available for:
 - `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
+- `https://aldi-nord.de/ <https://aldi-nord.de/>`_
+    - `.es <https://aldi.es/>`__, `.fr <https://aldi.fr/>`__, `.lu <https://aldi.lu/>`__, `.nl <https://aldi.nl/>`__, `.pl <https://aldi.pl/>`__, `.pt <https://aldi.pt/>`__
+- `https://aldi-sued.de/ <https://aldi-sued.de/>`_
+    - `.hu <https://aldi.hu/>`__, `.it <https://aldi.it/>`__
+- `https://aldi-suisse.ch <https://aldi-suisse.ch/>`_
 - `https://aldi.com.au/ <https://aldi.com.au/>`_
 - `https://alexandracooks.com/ <https://alexandracooks.com/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
@@ -231,6 +236,8 @@ Scrapers available for:
 - `https://hellofresh.com/ <https://hellofresh.com>`_
     - `.at <https://www.hellofresh.at/>`__, `.be <https://www.hellofresh.be/>`__, `.ca <https://www.hellofresh.ca/>`__, `.ch <https://www.hellofresh.ch/>`__, `.co.nz <https://www.hellofresh.co.nz/>`__, `.co.uk <https://hellofresh.co.uk>`__, `.com.au <https://www.hellofresh.com.au/>`__, `.de <https://www.hellofresh.de/>`__, `.dk <https://www.hellofresh.dk/>`__, `.es <https://www.hellofresh.es/>`__, `.fr <https://www.hellofresh.fr/>`__, `.ie <https://www.hellofresh.ie/>`__, `.it <https://www.hellofresh.it/>`__, `.lu <https://www.hellofresh.lu/>`__, `.nl <https://www.hellofresh.nl/>`__, `.no <https://www.hellofresh.no/>`__, `.se <https://www.hellofresh.se/>`__
 - `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
+- `https://hofer.at/ <https://hofer.at/>`_
+    - `.si <https://hofer.si/>`__
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://hungryhappens.net/ <https://hungryhappens.net/>`_
@@ -502,7 +509,7 @@ Assuming you have ``>=python3.9`` installed, navigate to the directory where you
     python -m venv .venv &&
     source .venv/bin/activate &&
     python -m pip install --upgrade pip &&
-    pip install -e .[dev] &&
+    pip install -e ".[dev]" &&
     pip install pre-commit &&
     pre-commit install &&
     python -m unittest
