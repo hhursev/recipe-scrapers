@@ -1,3 +1,4 @@
+import ast
 import re
 
 from ._abstract import AbstractScraper
@@ -26,7 +27,9 @@ class Rewe(AbstractScraper):
         ).get("x-data")
 
         # Transform the `x-data` string into a dictionary
-        data_dict = eval(re.sub(r"(\w+):", r"'\1':", x_data.replace("`", "'")))
+        data_dict = ast.literal_eval(
+            re.sub(r"(\w+):", r"'\1':", x_data.replace("`", "'"))
+        )
 
         # Return the "displayText" field
         return data_dict["displayText"]
@@ -35,8 +38,8 @@ class Rewe(AbstractScraper):
         return self.soup.find("span", {"x-text": "currentServings"}).get_text().strip()
 
     def ingredients(self):
-        list = self.soup.find("ul", {"id": "ingredient_list"})
-        list_items = list.find_all("li", {"class": "ingredient_list_item"})
+        ingredient_list = self.soup.find("ul", {"id": "ingredient_list"})
+        list_items = ingredient_list.find_all("li", {"class": "ingredient_list_item"})
         ingredients = []
 
         for item in list_items:
