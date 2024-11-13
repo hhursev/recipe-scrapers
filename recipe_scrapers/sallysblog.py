@@ -53,7 +53,7 @@ class SallysBlog(AbstractScraper):
 
         schema_title = self.schema.title()
 
-        if len(groups) == 1 and schema_title.lower() == groups[0].purpose.lower():
+        if len(groups) > 1:
+            return groups
+        else:
             return [IngredientGroup(ingredients=self.ingredients(), purpose=None)]
-
-        return groups
