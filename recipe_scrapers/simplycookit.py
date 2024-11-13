@@ -31,8 +31,8 @@ class SimplyCookit(AbstractScraper):
 
     def ingredient_groups(self):
         ingredient_groups = []
-
         current_group = None
+
         for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
             h3 = li.find("h3")
             if h3:
@@ -54,8 +54,4 @@ class SimplyCookit(AbstractScraper):
         if current_group:
             ingredient_groups.append(current_group)
 
-        return (
-            ingredient_groups
-            if ingredient_groups
-            else [IngredientGroup(ingredients=self.ingredients())]
-        )
+        return ingredient_groups or [IngredientGroup(ingredients=self.ingredients())]
