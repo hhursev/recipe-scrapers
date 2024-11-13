@@ -51,8 +51,6 @@ class SallysBlog(AbstractScraper):
             ".shop-studio-recipes-recipe-detail-tabs-description-ingredients__content__ingredient-list__ingredient",
         )
 
-        schema_title = self.schema.title()
-
         if len(groups) > 1:
             return groups
         else:
