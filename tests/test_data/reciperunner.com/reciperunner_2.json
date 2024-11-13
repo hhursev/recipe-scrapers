@@ -11,7 +11,7 @@
     "1/4 teaspoon fine sea salt",
     "3 eggs",
     "3/4 cup granulated sugar",
-    "1/2 cup unsalted butter, melted",
+    "1/2 cup unsalted butter (melted)",
     "1 tablespoon vanilla extract",
     "1 3/4 cup all purpose flour",
     "1/4 cup unsweetened cocoa powder",
@@ -19,8 +19,35 @@
     "1/4 teaspoon fine sea salt",
     "3 eggs",
     "3/4 cup granulated sugar",
-    "1/2 cup unsalted butter, melted",
+    "1/2 cup unsalted butter (melted)",
     "1 1/2 teaspoons vanilla extract"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 3/4 cup all purpose flour",
+        "2 teaspoons baking powder",
+        "1/4 teaspoon fine sea salt",
+        "3 eggs",
+        "3/4 cup granulated sugar",
+        "1/2 cup unsalted butter (melted)",
+        "1 tablespoon vanilla extract"
+      ],
+      "purpose": "Vanilla Pizzelles"
+    },
+    {
+      "ingredients": [
+        "1 3/4 cup all purpose flour",
+        "1/4 cup unsweetened cocoa powder",
+        "2 teaspoons baking powder",
+        "1/4 teaspoon fine sea salt",
+        "3 eggs",
+        "3/4 cup granulated sugar",
+        "1/2 cup unsalted butter (melted)",
+        "1 1/2 teaspoons vanilla extract"
+      ],
+      "purpose": "Chocolate Pizzelles"
+    }
   ],
   "instructions_list": [
     "Preheat the pizzelle press according to manufacturers instructions. In a bowl whisk together the flour, baking powder and salt.",
@@ -35,32 +62,27 @@
   "total_time": 30,
   "cook_time": 15,
   "prep_time": 15,
-  "ratings": 4.6,
-  "ratings_count": 13,
+  "ratings": 4.61,
+  "ratings_count": 23,
   "nutrients": {
-    "servingSize": "1",
-    "calories": "71 calories",
-    "fatContent": "3 grams fat",
-    "saturatedFatContent": "2 grams saturated fat",
-    "unsaturatedFatContent": "1 grams unsaturated fat",
-    "transFatContent": "0 grams trans fat",
-    "carbohydrateContent": "9 grams carbohydrates",
-    "sugarContent": "4 grams sugar",
-    "proteinContent": "1 grams protein",
-    "sodiumContent": "50 grams sodium",
-    "fiberContent": "0 grams fiber",
-    "cholesterolContent": "23 milligrams cholesterol"
+    "servingSize": "1 g",
+    "calories": "71 kcal",
+    "fatContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "unsaturatedFatContent": "1 g",
+    "carbohydrateContent": "9 g",
+    "sugarContent": "4 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "50 mg",
+    "cholesterolContent": "23 mg"
   },
-  "dietary_restrictions": [
-    "Vegetarian Diet"
-  ],
-  "image": "https://reciperunner.com/wp-content/uploads/2014/12/Vanilla-Chocolate-Pizzelles-Pic-720x720.jpg",
+  "image": "https://reciperunner.com/wp-content/uploads/2014/12/Vanilla-Chocolate-Pizzelles-Pic.jpg",
   "keywords": [
-    "cookies",
-    "pizzelles",
-    "christmas",
     "chocolate",
-    "vanilla",
-    "Italian"
+    "Christmas",
+    "cookies",
+    "Italian",
+    "pizzelles",
+    "vanilla"
   ]
 }
