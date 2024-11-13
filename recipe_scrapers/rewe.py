@@ -70,7 +70,7 @@ class Rewe(AbstractScraper):
         return "\n".join(steps)
 
     def description(self):
-        return None
+        return self.soup.find("meta", {"property": "og:description"})["content"]
 
     def canonical_url(self):
         return self.soup.find("meta", {"property": "og:url"})["content"]
