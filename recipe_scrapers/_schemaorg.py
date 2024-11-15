@@ -87,7 +87,9 @@ class SchemaOrg:
                 if recipe := self._find_entity(item, "Recipe"):
                     pass
                 # If the item is a webpage and describes a recipe entity, use the entity as our datasource
-                elif self._contains_schematype(item, "WebPage") and (recipe := item.get("mainEntity", {})):
+                elif self._contains_schematype(item, "WebPage") and (
+                    recipe := item.get("mainEntity", {})
+                ):
                     pass
                 else:
                     continue
@@ -100,7 +102,9 @@ class SchemaOrg:
                     encountered_value = recipe.get(prop)
                     if existing_value and encountered_value == existing_value:
                         self.format = syntax
-                        self.data.update({k: self.data.get(k, v) for k, v in recipe.items()})
+                        self.data.update(
+                            {k: self.data.get(k, v) for k, v in recipe.items()}
+                        )
 
     def site_name(self):
         if not self.website_name:
