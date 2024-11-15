@@ -85,17 +85,29 @@ class SchemaOrg:
 
                 # If the item itself is a recipe, then use it directly as our datasource
                 if recipe := self._find_entity(item, "Recipe"):
-                    if not self.data or recipe.get("@id", "") == self.data.get("@id", ""):
+                    should_update = not self.data
+                    for prop in ("@id", "name"):
+                        existing_value = self.data.get(prop)
+                        encountered_value = recipe.get(prop)
+                        if existing_value and encountered_value == existing_value:
+                            should_update = True
+                    if should_update:
                         self.format = syntax
-                        self.data.update(recipe)
+                        self.data.update({k: self.data.get(k, v) for k, v in recipe.items()})
 
                 # If the item is a webpage and describes a recipe entity, use the entity as our datasource
                 if self._contains_schematype(item, "WebPage"):
                     main_entity = item.get("mainEntity", {})
                     if self._contains_schematype(main_entity, "Recipe"):
-                        if not self.data or main_entity.get("@id", "") == self.data.get("@id", ""):
+                        should_update = not self.data
+                        for prop in ("@id", "name"):
+                            existing_value = self.data.get(prop)
+                            encountered_value = main_entity.get(prop)
+                            if existing_value and encountered_value == existing_value:
+                                should_update = True
+                        if should_update:
                             self.format = syntax
-                            self.data.update(main_entity)
+                            self.data.update({k: self.data.get(k, v) for k, v in main_entity.items()})
 
     def site_name(self):
         if not self.website_name:
