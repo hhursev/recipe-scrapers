@@ -2,6 +2,7 @@ import ast
 import re
 
 from ._abstract import AbstractScraper
+from ._utils import get_minutes, normalize_string
 
 
 class Rewe(AbstractScraper):
@@ -19,7 +20,10 @@ class Rewe(AbstractScraper):
         return self.soup.find("h1", {"class": "ld-rds"}).get_text()
 
     def category(self):
-        return self.soup.find("a", {"id": "nutrition-information-mobile"}).get_text()
+        category = self.soup.find(
+            "a", {"id": "nutrition-information-mobile"}
+        ).get_text()
+        return normalize_string(category)
 
     def total_time(self):
         x_data = self.soup.select_one(
@@ -32,7 +36,7 @@ class Rewe(AbstractScraper):
         )
 
         # Return the "displayText" field
-        return data_dict["displayText"]
+        return get_minutes(data_dict["displayText"])
 
     def yields(self):
         return self.soup.find("span", {"x-text": "currentServings"}).get_text().strip()
