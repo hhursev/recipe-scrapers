@@ -384,6 +384,7 @@ Scrapers available for:
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
+- `https://shelikesfood.com/ <https://shelikesfood.com/>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
 - `https://simply-cookit.com/ <https://simply-cookit.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_

@@ -330,6 +330,7 @@ from .sandwhichtribunal import SandwhichTribunal
 from .saveur import Saveur
 from .savorynothings import SavoryNothings
 from .seriouseats import SeriousEats
+from .shelikesfood import SheLikesFood
 from .simpleveganista import SimpleVeganista
 from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
@@ -565,6 +566,7 @@ SCRAPERS = {
     RicettePerBimby.host(): RicettePerBimby,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
+    SheLikesFood.host(): SheLikesFood,
     SpainOnAFork.host(): SpainOnAFork,
     StrongrFastr.host(): StrongrFastr,
     TasteAtlas.host(): TasteAtlas,
