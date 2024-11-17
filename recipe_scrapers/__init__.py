@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from .kitchendivas import KitchenDivas
-
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -215,6 +213,7 @@ from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
 from .kitchenaidaustralia import KitchenAidAustralia
+from .kitchendivas import KitchenDivas
 from .kitchendreaming import KitchenDreaming
 from .kitchensanctuary import KitchenSanctuary
 from .kitchenstories import KitchenStories
