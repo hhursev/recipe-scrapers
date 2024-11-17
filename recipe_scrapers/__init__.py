@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from .kitchendivas import KitchenDivas
+
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -536,6 +538,7 @@ SCRAPERS = {
     JoyTheBaker.host(): JoyTheBaker,
     KaleJunkie.host(): KaleJunkie,
     KitchenAidAustralia.host(): KitchenAidAustralia,
+    KitchenDivas.host(): KitchenDivas,
     KitchenDreaming.host(): KitchenDreaming,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KrollsKorner.host(): KrollsKorner,
