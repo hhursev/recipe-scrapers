@@ -158,6 +158,7 @@ Scrapers available for:
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
+- `https://cookingwithjanica.com/ <https://cookingwithjanica.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookscountry.com/ <https://www.cookscountry.com>`_ (*)
 - `https://cooksillustrated.com/ <https://www.cooksillustrated.com>`_ (*)
