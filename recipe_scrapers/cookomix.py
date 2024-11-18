@@ -7,12 +7,8 @@ class Cookomix(AbstractScraper):
         return "cookomix.com"
 
     def instructions(self):
-        instructions_data = self.schema.data.get("recipeInstructions", [])
+        instructions_html = self.soup.select_one(".instructions.dsb-select ol")
 
-        instructions = [step.get("text", "") for step in instructions_data]
+        instructions = [li.get_text() for li in instructions_html.find_all("li")]
 
-        filtered_instructions = [
-            line for line in instructions if not line.startswith("Ajout d")
-        ]
-
-        return "\n".join(filtered_instructions)
+        return "\n".join(instructions)
