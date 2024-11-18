@@ -1,0 +1,78 @@
+{
+  "author": "Lana Stuart",
+  "canonical_url": "https://www.lanascooking.com/oven-roasted-turkey/",
+  "site_name": "Lana's Cooking",
+  "host": "lanascooking.com",
+  "language": "en-US",
+  "title": "Oven Roasted Turkey with Gravy",
+  "ingredients": [
+    "1 cup butter (softened)",
+    "2 tablespoons seasoned salt (recommended: Jane's Crazy Mixed-Up Salt)",
+    "10 pounds turkey (fresh or frozen)",
+    "½ cup pan drippings from turkey",
+    "½ cup all-purpose flour",
+    "3 ¾ cups turkey or chicken broth or stock"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup butter (softened)",
+        "2 tablespoons seasoned salt (recommended: Jane's Crazy Mixed-Up Salt)",
+        "10 pounds turkey (fresh or frozen)"
+      ],
+      "purpose": "For the Turkey:"
+    },
+    {
+      "ingredients": [
+        "½ cup pan drippings from turkey",
+        "½ cup all-purpose flour",
+        "3 ¾ cups turkey or chicken broth or stock"
+      ],
+      "purpose": "For the Gravy:"
+    }
+  ],
+  "instructions_list": [
+    "To Roast the Turkey:",
+    "If using a frozen turkey, thaw in the refrigerator allowing at least 24 hours for every 4 pounds of turkey.",
+    "Approximately 1 1/2 hours before cooking, remove the turkey from the refrigerator and let it sit at room temperature.",
+    "Preheat the oven to 325 degrees. Drain any juices from the turkey and pat it dry with paper towels.",
+    "Place the turkey breast side up on a rack in a roasting pan.",
+    "Tuck the wings under the turkey and secure the legs with kitchen twine if needed.",
+    "Rub the turkey generously with the butter. Sprinkle evenly with seasoned salt.",
+    "Place the turkey in the preheated oven.",
+    "About 2/3 through cooking time, check to make sure the breast and tops of the legs aren't browning too quickly. If needed, cover the turkey loosely with a tent of aluminum foil to prevent overcooking.",
+    "Turkey is done when the temperature in the thigh registers 180 degrees on a meat thermometer.",
+    "Remove from the oven and let stand for at least 20 minutes before carving.",
+    "To Make the Gravy:",
+    "Remove drippings from the turkey roasting pan and place in a medium saucepan.",
+    "Using a whisk, blend the flour into the pandrippings.",
+    "Whisk in the stock or broth a little at a time",
+    "Place the saucepan over medium high heat and bring to a boil. Reduce the heat to low and simmer for about 5 minutes."
+  ],
+  "category": "Main Course,Main Dishes",
+  "yields": "6 servings",
+  "description": "A simple method for cooking a beautifully moist Oven Roasted Turkey with golden, crispy skin and instructions for making the best pan gravy.",
+  "total_time": 215,
+  "cook_time": 180,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 6,
+  "nutrients": {
+    "servingSize": "1",
+    "calories": "1198 kcal",
+    "fatContent": "72 g",
+    "saturatedFatContent": "35 g",
+    "carbohydrateContent": "13 g",
+    "sugarContent": "3 g",
+    "proteinContent": "121 g",
+    "sodiumContent": "3408 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "472 mg"
+  },
+  "image": "https://www.lanascooking.com/wp-content/uploads/2020/11/oven-roasted-turkey-feature-1200x1200-1.jpg",
+  "keywords": [
+    "oven roasted turkey",
+    "turkey gravy"
+  ]
+}

@@ -276,6 +276,7 @@ Scrapers available for:
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
+- `https://lanascooking.com/ <https://lanascooking.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
 - `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
