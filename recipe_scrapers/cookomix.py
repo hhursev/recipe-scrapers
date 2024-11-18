@@ -9,6 +9,5 @@ class Cookomix(AbstractScraper):
     def instructions(self):
         instructions_html = self.soup.select_one(".instructions.dsb-select ol")
 
-        instructions = [li.get_text() for li in instructions_html.find_all("li")]
-
-        return "\n".join(instructions)
+        instructions = instructions_html.find_all("li")
+        return "\n".join(li.get_text() for li in instructions)
