@@ -101,6 +101,8 @@ class SchemaOrg:
                     existing_value = self.data.get(prop)
                     encountered_value = recipe.get(prop)
                     if existing_value and encountered_value == existing_value:
+                        if syntax != self.format:
+                            pass  # TODO: single recipe represented using multiple formats; what should we do?
                         self.format = syntax
                         self.data.update(
                             {k: self.data.get(k, v) for k, v in recipe.items()}
