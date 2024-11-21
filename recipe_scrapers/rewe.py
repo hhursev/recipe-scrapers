@@ -2,6 +2,7 @@ import ast
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, normalize_string
 
 
@@ -78,3 +79,6 @@ class Rewe(AbstractScraper):
 
     def canonical_url(self):
         return self.soup.find("meta", {"property": "og:url"})["content"]
+
+    def site_name(self):
+        raise StaticValueException(return_value="REWE")
