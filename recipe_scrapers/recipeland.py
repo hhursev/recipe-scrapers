@@ -9,7 +9,6 @@ class RecipeLand(AbstractScraper):
         return "recipeland.com"
 
     def _parse_ingredient_row(self, row):
-        """Helper method to parse ingredients."""
         amount = row.select_one(".amount") and row.select_one(".amount").get_text()
         measure = row.select_one(".measure") and row.select_one(".measure").get_text()
         ingredient_elem = row.select_one(".ingred")
