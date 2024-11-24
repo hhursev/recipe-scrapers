@@ -10,19 +10,14 @@ class RecipeLand(AbstractScraper):
 
     def _parse_ingredient_row(self, row):
         """Helper method to parse ingredients."""
-        amount = (
-            row.select_one(".amount").get_text() if row.select_one(".amount") else ""
-        )
-        measure = (
-            row.select_one(".measure").get_text() if row.select_one(".measure") else ""
-        )
-        ingredient = (
-            row.select_one(".ingred").get_text() if row.select_one(".ingred") else ""
-        )
+        amount = row.select_one(".amount") and row.select_one(".amount").get_text()
+        measure = row.select_one(".measure") and row.select_one(".measure").get_text()
+        ingredient_elem = row.select_one(".ingred")
+        ingredient = ingredient_elem and ingredient_elem.get_text()
         feature = (
-            row.select_one(".ingred small").get_text()
-            if row.select_one(".ingred small")
-            else ""
+            ingredient_elem
+            and ingredient_elem.select_one("small")
+            and ingredient_elem.select_one("small").get_text()
         )
 
         full_ingredient = f"{amount} {measure} {ingredient}".strip()
@@ -31,19 +26,23 @@ class RecipeLand(AbstractScraper):
         return normalize_string(full_ingredient)
 
     def ingredients(self):
-        ingredients = []
         ingredient_rows = self.soup.select("#ingredient_list tbody tr")
-        for row in ingredient_rows:
-            if row.select_one("th.i-head"):
-                continue
-
-            full_ingredient = self._parse_ingredient_row(row)
-            if full_ingredient:
-                ingredients.append(full_ingredient)
-
-        return ingredients
+        return [
+            self._parse_ingredient_row(row)
+            for row in ingredient_rows
+            if not row.select_one("th.i-head")
+        ]
 
     def ingredient_groups(self):
+
+        def add_group():
+            if current_group or grouped_ingredients:
+                groups.append(
+                    IngredientGroup(
+                        ingredients=grouped_ingredients, purpose=current_group
+                    )
+                )
+
         ingredient_rows = self.soup.select("#ingredient_list tbody tr")
         groups = []
         current_group = None
@@ -52,24 +51,13 @@ class RecipeLand(AbstractScraper):
         for row in ingredient_rows:
             group_header = row.select_one("th.i-head")
             if group_header:
-                if current_group or grouped_ingredients:
-                    groups.append(
-                        IngredientGroup(
-                            ingredients=grouped_ingredients, purpose=current_group
-                        )
-                    )
-                    grouped_ingredients = []
-
+                add_group()
+                grouped_ingredients = []
                 current_group = group_header.get_text(strip=True)
-                continue
+            else:
+                full_ingredient = self._parse_ingredient_row(row)
+                if full_ingredient:
+                    grouped_ingredients.append(full_ingredient)
 
-            full_ingredient = self._parse_ingredient_row(row)
-            if full_ingredient:
-                grouped_ingredients.append(full_ingredient)
-
-        if current_group or grouped_ingredients:
-            groups.append(
-                IngredientGroup(ingredients=grouped_ingredients, purpose=current_group)
-            )
-
+        add_group()
         return groups
