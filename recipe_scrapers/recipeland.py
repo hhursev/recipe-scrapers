@@ -13,15 +13,8 @@ class RecipeLand(AbstractScraper):
         measure = row.select_one(".measure") and row.select_one(".measure").get_text()
         ingredient_elem = row.select_one(".ingred")
         ingredient = ingredient_elem and ingredient_elem.get_text()
-        feature = (
-            ingredient_elem
-            and ingredient_elem.select_one("small")
-            and ingredient_elem.select_one("small").get_text()
-        )
 
         full_ingredient = f"{amount} {measure} {ingredient}".strip()
-        if feature:
-            full_ingredient += f", {feature}"
         return normalize_string(full_ingredient)
 
     def ingredients(self):
