@@ -364,6 +364,7 @@ Scrapers available for:
 - `https://recept.se/ <https://recept.se/>`_
 - `https://receptyprevas.sk/ <https://receptyprevas.sk/>`_
 - `https://www.recipegirl.com/ <https://www.recipegirl.com/>`_
+- `https://recipeland.com/ <https://recipeland.com/>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://recipes.timesofindia.com/ <https://recipes.timesofindia.com/>`_
