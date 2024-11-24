@@ -14,7 +14,7 @@ class RecipeLand(AbstractScraper):
         ingredient_elem = row.select_one(".ingred")
         ingredient = ingredient_elem and ingredient_elem.get_text()
 
-        full_ingredient = f"{amount} {measure} {ingredient}".strip()
+        full_ingredient = f"{amount} {measure} {ingredient}"
         return normalize_string(full_ingredient)
 
     def ingredients(self):
