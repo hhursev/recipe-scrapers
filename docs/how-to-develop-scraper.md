@@ -30,26 +30,29 @@ To create a fork, click the Fork button near the top of page on the project GitH
 
 You can then clone the fork to your computer and set it up for development.
 
-**Clone the repository**, replacing \<username> with your username
+**Clone the repository**, replacing \<username> with your username:
 
 ```shell
-$ git clone git@github.com:<username>/recipe-scrapers.git
-$ cd recipe-scrapers
+git clone git@github.com:<username>/recipe-scrapers.git
+cd recipe-scrapers
 ```
 
-**Create a virtual environment, activate and install dependencies**
+**Create a virtual environment, activate and install dependencies**:
+
 ```shell
-$ python -m venv .venv --upgrade-deps
-$ source .venv/bin/activate
-$ pip install -e .[dev]
-$ pip install pre-commit
-$ pre-commit install
+python -m venv .venv --upgrade-deps
+source .venv/bin/activate
+pip install -e .[dev]
+pip install pre-commit
+pre-commit install
 ```
 
-**Check that everything is working by running the tests**
+**Check that everything is working by running the tests**:
+
 ```shell
-$ python -m unittest
+python -m unittest
 ```
+
 This will run all the tests for all the scrapers. You should not see any errors or failures.
 
 ## 3. Identify a recipe and generate the scraper and test file
@@ -78,7 +81,7 @@ If Recipe Schema is not available, then `scraper.schema.data` will return an emp
 Next, generate the scraper class and test files by running this command:
 
 ```shell
-$ python generate.py <ClassName> <URL>
+python generate.py <ClassName> <URL>
 ```
 
 This will generate a file for the scraper with name \<ClassName> with basic code that you will need to modify. This will also download the recipe at \<URL> and create a test case.
@@ -165,7 +168,7 @@ A test case was automatically created when the scraper class was created. It can
 The test case comprises two parts:
 
 1. testhtml file containing the html from the URL used to generate the scraper
-2. json file containing the expected output from the scraper when the scraper is run on the testhtml file.
+1. json file containing the expected output from the scraper when the scraper is run on the testhtml file.
 
 The generated json file will look something like this, with only the host field populated:
 
@@ -195,7 +198,7 @@ In some cases, a scraper is not able to support one or more of the mandatory fun
 You can check whether your scraper is passing the tests by running
 
 ```shell
-$ python -m unittest -k <ClassName.lower()>
+python -m unittest -k <ClassName.lower()>
 ```
 
 Where `ClassName` is the name that you used earlier to generate the scraper.
