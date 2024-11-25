@@ -289,6 +289,7 @@ Scrapers available for:
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://www.maangchi.com <https://www.maangchi.com>`_
+- `https://www.madamecuisine.de <https://www.madamecuisine.de>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
