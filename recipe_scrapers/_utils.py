@@ -254,6 +254,8 @@ def normalize_string(string):
         .replace("\r\n", " ")
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
+        .replace("((", "(")
+        .replace("))", ")")
         .strip(),
     )
 
