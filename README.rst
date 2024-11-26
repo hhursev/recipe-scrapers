@@ -102,6 +102,7 @@ Scrapers available for:
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
+- `https://app.samsungfood.com/ <https://app.samsungfood.com>`_ (*)
 - `https://americastestkitchen.com/ <https://www.americastestkitchen.com>`_ (*)
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://www.argiro.gr/ <https://www.argiro.gr/>`_

@@ -1,0 +1,55 @@
+{
+  "author": "test source",
+  "canonical_url": "https://app.samsungfood.com/recipes/1070191967dda557270adeb97ab8d4ca1c6",
+  "host": "app.samsungfood.com",
+  "language": "en",
+  "title": "Test Recipe 1",
+  "ingredients": [
+    "1 egg, large",
+    "100g butter",
+    "10g cheddar, finely chopped"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 egg, large",
+        "100g butter"
+      ]
+    },
+    {
+      "ingredients": [
+        "10g cheddar, finely chopped"
+      ],
+      "purpose": "To serve"
+    }
+  ],
+  "instructions_list": [
+    "Finely chop the egg.",
+    "Bake until golden brown. Meanwhile make the sauce.",
+    "Serve immediately."
+  ],
+  "yields": "4 servings",
+  "description": "Description goes here.",
+  "total_time": 75,
+  "cook_time": 70,
+  "prep_time": 5,
+  "ratings": 5.0,
+  "equipment": [
+    "Oven",
+    "Baking sheet"
+  ],
+  "nutrients": {
+    "calories": "207.2 calories",
+    "fatContent": "22.3 grams fat",
+    "carbohydrateContent": "0.2 grams carbohydrates",
+    "sugarContent": "0.1 grams sugar",
+    "proteinContent": "2.4 grams protein"
+  },
+  "image": "https://bunny-image-cdn.whisk.com/image/upload/v1724806979/v3/user-recipes/a6df80b07fa2dcefc95e7e58393687ef.jpg?height=1120&width=1002&aspect_ratio=1002:1120",
+  "keywords": [
+    "Fresh",
+    "Go-to",
+    "Kid-friendly",
+    "Sweet"
+  ]
+}
