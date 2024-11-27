@@ -1,6 +1,5 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class McCormick(AbstractScraper):
@@ -17,13 +16,12 @@ class McCormick(AbstractScraper):
         )
 
     def instructions(self):
-        instructions_list = self.soup.findAll(
-            "li", {"id": lambda x: x and x.startswith("step")}
-        )
+        instructions = self.schema.instructions()
 
-        return "\n".join(
-            [
-                normalize_string(instruction.find("span", {"class": "para"}).get_text())
-                for instruction in instructions_list
-            ]
-        )
+        filtered_instructions = [
+            line
+            for line in instructions.split("\n")
+            if not line.lower().startswith("step")
+        ]
+
+        return "\n".join(filtered_instructions)
