@@ -5,6 +5,7 @@ The files in this `test_data` directory contain content from various recipe webs
 ## Purpose of Use
 
 This content is used exclusively for:
+
 - Software testing
 - Educational purposes
 - Technical verification
@@ -13,6 +14,7 @@ This content is used exclusively for:
 ## Copyright Notice
 
 All recipe content, including but not limited to:
+
 - Recipe titles
 - Ingredient lists
 - Instructions
@@ -29,6 +31,7 @@ Each test file is named after its source website. The content within each file w
 ## Limited Use Statement
 
 Our use of this content is strictly limited and justified because:
+
 1. It is used solely for testing software functionality
 2. Only the minimum necessary content is stored
 3. The content is not used for commercial purposes
