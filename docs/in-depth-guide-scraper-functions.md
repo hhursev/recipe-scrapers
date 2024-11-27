@@ -6,15 +6,15 @@ Each website scraper has a number of functions that return information about the
 
    These functions can be expected to be available for all Scraper classes and combined provide the majority of the information for a recipe.
 
-2. Inherited functions
+1. Inherited functions
 
    These functions are always available for all Scraper classes. They are implemented in the `AbstractScraper` base class and rarely require overriding in the Scraper class.
 
-3. Optional functions
+1. Optional functions
 
    These functions provide extra information about a recipe, from the particular websites that support them.
 
-All of the examples below come from https://www.bbcgoodfood.com/recipes/monster-cupcakes.
+All of the examples below come from <https://www.bbcgoodfood.com/recipes/monster-cupcakes>.
 
 ```py
 >>> from recipe_scrapers import scrape_html
@@ -40,6 +40,7 @@ Returns the host of the website the Scraper class is for. This is a constant `st
 >>> scraper.host()
 'bbcgoodfood.com'
 ```
+
 ### `description() -> str`
 
 Returns a description of the recipe. This is normally a sentence or short paragraph describing the recipe. Often the website defines the description, but sometimes it has to be inferred from the page content.
@@ -57,6 +58,7 @@ Returns the URL to the main image associated with the recipe, usually a photogra
 >>> scraper.image()
 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-405483_12-cee017a.jpg?resize=768,574'
 ```
+
 ### `ingredients() -> List[str]`
 
 Returns the ingredients needed to make the recipe as a `list` of `str`. Each element of the list is usually a single sentence stating an ingredient, the required amount and any additional comments. The elements of the list should mirror the ingredients written on the website and should not include non-ingredient sentences such as sub-headings.
@@ -189,7 +191,7 @@ but may also include the dialect or variation, such as 'en-US' for American Engl
 
 The language code is based on BCP 47 standards.
 For a comprehensive list of BCP 47 language codes, refer to this GitHub Gist:
-https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1
+<https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1>
 
 ```py
 >>> scraper.language()

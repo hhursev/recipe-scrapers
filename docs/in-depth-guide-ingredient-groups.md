@@ -4,9 +4,9 @@ Sometimes a website will format lists of ingredients using groups, where each gr
 
 Some examples of recipes that have ingredient groups are:
 
-* https://cooking.nytimes.com/recipes/1024570-green-salad-with-warm-goat-cheese-salade-de-chevre-chaud
-* https://lifestyleofafoodie.com/air-fryer-frozen-french-fries
-* https://www.bbcgoodfood.com/recipes/monster-cupcakes
+* <https://cooking.nytimes.com/recipes/1024570-green-salad-with-warm-goat-cheese-salade-de-chevre-chaud>
+* <https://lifestyleofafoodie.com/air-fryer-frozen-french-fries>
+* <https://www.bbcgoodfood.com/recipes/monster-cupcakes>
 
 Not all websites use ingredient groups and those that do use ingredient groups will not use them for all recipes.
 
@@ -38,8 +38,8 @@ The `ingredient_groups()` function has a default implementation in the `Abstract
 Adding ingredient group support to a scraper involves overriding the `ingredient_groups` function for it. There are three important points to consider:
 
 1. The schema.org Recipe format does not support groupings - so scraping from the HTML is required in the implementation.
-2. The ingredients found in `ingredients()` and `ingredient_groups()` should be the same because we're presenting the same set of ingredients, just in a different way. There can sometimes be minor differences in the ingredients in the schema and the ingredients in the HTML which needs to be handled.
-3. Not all recipes on a website will use ingredient groups, so the implementation must degrade gracefully in cases where groupings aren't available. For recipes that don't have ingredient groups, the output should be the same as default implementation (i.e. a single `IngredientGroup` with `purpose=None` and `ingredients=ingredients()`).
+1. The ingredients found in `ingredients()` and `ingredient_groups()` should be the same because we're presenting the same set of ingredients, just in a different way. There can sometimes be minor differences in the ingredients in the schema and the ingredients in the HTML which needs to be handled.
+1. Not all recipes on a website will use ingredient groups, so the implementation must degrade gracefully in cases where groupings aren't available. For recipes that don't have ingredient groups, the output should be the same as default implementation (i.e. a single `IngredientGroup` with `purpose=None` and `ingredients=ingredients()`).
 
 In many cases the structure of how ingredients and group heading appear in the HTML is very similar. Some helper functions have been developed to make the implementation easier.
 
@@ -65,9 +65,9 @@ def group_ingredients(
 
 ### Example
 
-Many recipe blogs use WordPress and the WordPress Recipe Manager plugin. This means they often use the same HTML elements and CSS classes to represent the same things. One such example is https://rainbowplantlife.com.
+Many recipe blogs use WordPress and the WordPress Recipe Manager plugin. This means they often use the same HTML elements and CSS classes to represent the same things. One such example is <https://rainbowplantlife.com>.
 
-If we look at the recipe: https://rainbowplantlife.com/vegan-pasta-salad/
+If we look at the recipe: <https://rainbowplantlife.com/vegan-pasta-salad/>
 
 The group headings in this recipe are all `h4` headings inside an element with the class `wprm-recipe-ingredient-group`. Therefore we can select all ingredient group headings with the selector: `.wprm-recipe-ingredient-group h4`
 
@@ -101,7 +101,7 @@ Some other examples of scrapers that support ingredient groups are:
 * [PickUpLimes](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/pickuplimes.py)
 * [RealFoodTesco](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/realfoodtesco.py)
 
-### What if `group_ingredients()` doesn't work?
+**What if `group_ingredients()` doesn't work?**
 
 The `group_ingredients` function relies on being able to identify all the group headings with a single CSS selector and all the ingredients with a single CSS selector. However, this is not always possible - it depends on how the website lays out its HTML.
 
