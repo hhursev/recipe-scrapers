@@ -46,23 +46,16 @@ As an example, consider one of the ingredients in [this recipe](https://rainbowp
 
 ```html
 <li class="wprm-recipe-ingredient" style="list-style-type: none;" data-uid="0">
-    <span class="wprm-checkbox-container">
-    	<input type="checkbox" id="wprm-checkbox-1" class="wprm-checkbox" aria-label="&nbsp;1 tablespoon coconut oil (or oil of choice)">
-    	<label for="wprm-checkbox-1" class="wprm-checkbox-label">
-        	<span class="sr-only screen-reader-text wprm-screen-reader-text">▢ </span>
-    	</label>
-    </span>
-    <span class="wprm-recipe-ingredient-amount">
-        1
-    </span>
-    <span class="wprm-recipe-ingredient-unit">
-        tablespoon</span>
-    <span class="wprm-recipe-ingredient-name">
-        coconut oil
-    </span>
-    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-normal">
-        (or oil of choice)
-    </span>
+  <span class="wprm-checkbox-container">
+    <input type="checkbox" id="wprm-checkbox-1" class="wprm-checkbox" aria-label="&nbsp;1 tablespoon coconut oil (or oil of choice)">
+    <label for="wprm-checkbox-1" class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">▢ </span>
+    </label>
+  </span>
+  <span class="wprm-recipe-ingredient-amount">1</span>
+  <span class="wprm-recipe-ingredient-unit">tablespoon</span>
+  <span class="wprm-recipe-ingredient-name">coconut oil</span>
+  <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-normal">(or oil of choice)</span>
 </li>
 ```
 
