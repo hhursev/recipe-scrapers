@@ -58,8 +58,8 @@ This will run all the tests for all the scrapers. You should not see any errors 
 **OPTIONAL: To run the full test suite in parallel**:
 
 ```shell
-$ pip install unittest-parallel
-$ unittest-parallel --level test
+pip install unittest-parallel
+unittest-parallel --level test
 ```
 
 ## 3. Identify a recipe and generate the scraper and test file
