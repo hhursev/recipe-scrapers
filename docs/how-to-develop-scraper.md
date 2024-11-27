@@ -56,6 +56,7 @@ python -m unittest
 This will run all the tests for all the scrapers. You should not see any errors or failures.
 
 **OPTIONAL: To run the full test suite in parallel**:
+
 ```shell
 $ pip install unittest-parallel
 $ unittest-parallel --level test
