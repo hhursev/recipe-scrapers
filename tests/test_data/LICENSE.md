@@ -41,4 +41,4 @@ Our use of this content is strictly limited and justified because:
 
 ## Content Removal and Privacy
 
-If you are a copyright holder of any content in this directory and wish to have it removed, you can either open an issue in this repository or, if you wish to keep your privacy, contact us through the email address listed in the project's PyPI page (https://pypi.org/project/recipe-scrapers/) under the Authors section. We'll sort it out promptly with our legal team.
+If you are a copyright holder of any content in this directory and wish to have it removed, you can either open an issue in this repository or, if you wish to keep your privacy, contact us through the email address listed in the [project's PyPI page](https://pypi.org/project/recipe-scrapers/) (<https://pypi.org/project/recipe-scrapers/>) under the Authors section. We'll sort it out promptly with our legal team.
