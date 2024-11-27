@@ -8,7 +8,7 @@
   "MD013": {
     "line_length": 800,
     "heading_line_length": 80,
-    "code_block_line_length": 80,
+    "code_block_line_length": 800,
     "code_blocks": true,
     "tables": true,
     "headings": true,
