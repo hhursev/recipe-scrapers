@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from .veroniquecloutier import VeroniqueCloutier
+
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -806,6 +808,8 @@ SCRAPERS = {
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
+    VeroniqueCloutier.host(): VeroniqueCloutier,
+    VeroniqueCloutier.host(): VeroniqueCloutier,
     Waitrose.host(): Waitrose,
     WatchWhatUEat.host(): WatchWhatUEat,
     WeAreNotMartha.host(): WeAreNotMartha,
