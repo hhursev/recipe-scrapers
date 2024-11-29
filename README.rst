@@ -444,10 +444,10 @@ Scrapers available for:
 - `https://www.valdemarsro.dk/ <https://www.valdemarsro.dk/>`_
 - `https://vanillaandbean.com/ <https://vanillaandbean.com>`_
 - `https://varecha.pravda.sk/ <https://varecha.pravda.sk>`_
-- `https://veroniquecloutier.com <https://veroniquecloutier.com>`_
 - `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
+- `https://veroniquecloutier.com <https://veroniquecloutier.com>`_
 - `https://www.waitrose.com/ <https://www.waitrose.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
