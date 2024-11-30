@@ -1,4 +1,5 @@
 from __future__ import annotations
+from .ahealthysliceoflife import AHealthySliceOfLife
 
 __all__ = (
     "AbstractScraper",
@@ -419,6 +420,7 @@ SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
     ACoupleCooks.host(): ACoupleCooks,
     AFlavorJournal.host(): AFlavorJournal,
+    AHealthySliceOfLife.host(): AHealthySliceOfLife,
     ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
