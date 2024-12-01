@@ -312,6 +312,7 @@ from .realsimple import RealSimple
 from .receitasnestlebr import ReceitasNestleBR
 from .recept import Recept
 from .receptyprevas import ReceptyPreVas
+from .recetteplus import RecettePlus
 from .recipegirl import RecipeGirl
 from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
@@ -562,6 +563,7 @@ SCRAPERS = {
     QuiToque.host(): QuiToque,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,
+    RecettePlus.host(): RecettePlus,
     RecipeGirl.host(): RecipeGirl,
     Rewe.host(): Rewe,
     RicettePerBimby.host(): RicettePerBimby,
