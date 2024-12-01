@@ -88,6 +88,11 @@ Scrapers available for:
 - `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
+- `https://aldi-nord.de/ <https://aldi-nord.de/>`_
+    - `.es <https://aldi.es/>`__, `.fr <https://aldi.fr/>`__, `.lu <https://aldi.lu/>`__, `.nl <https://aldi.nl/>`__, `.pl <https://aldi.pl/>`__, `.pt <https://aldi.pt/>`__
+- `https://aldi-sued.de/ <https://aldi-sued.de/>`_
+    - `.hu <https://aldi.hu/>`__, `.it <https://aldi.it/>`__
+- `https://aldi-suisse.ch <https://aldi-suisse.ch/>`_
 - `https://aldi.com.au/ <https://aldi.com.au/>`_
 - `https://alexandracooks.com/ <https://alexandracooks.com/>`_
 - `https://alittlebityummy.com/ <https://alittlebityummy.com/>`_
@@ -231,6 +236,8 @@ Scrapers available for:
 - `https://hellofresh.com/ <https://hellofresh.com>`_
     - `.at <https://www.hellofresh.at/>`__, `.be <https://www.hellofresh.be/>`__, `.ca <https://www.hellofresh.ca/>`__, `.ch <https://www.hellofresh.ch/>`__, `.co.nz <https://www.hellofresh.co.nz/>`__, `.co.uk <https://hellofresh.co.uk>`__, `.com.au <https://www.hellofresh.com.au/>`__, `.de <https://www.hellofresh.de/>`__, `.dk <https://www.hellofresh.dk/>`__, `.es <https://www.hellofresh.es/>`__, `.fr <https://www.hellofresh.fr/>`__, `.ie <https://www.hellofresh.ie/>`__, `.it <https://www.hellofresh.it/>`__, `.lu <https://www.hellofresh.lu/>`__, `.nl <https://www.hellofresh.nl/>`__, `.no <https://www.hellofresh.no/>`__, `.se <https://www.hellofresh.se/>`__
 - `https://www.hersheyland.com/ <https://www.hersheyland.com/>`_
+- `https://hofer.at/ <https://hofer.at/>`_
+    - `.si <https://hofer.si/>`__
 - `https://www.homechef.com/ <https://www.homechef.com/>`_
 - `https://hostthetoast.com/ <https://hostthetoast.com/>`_
 - `https://hungryhappens.net/ <https://hungryhappens.net/>`_
@@ -265,6 +272,7 @@ Scrapers available for:
 - `https://kochbucher.com/ <https://kochbucher.com/>`_
 - `http://koket.se/ <http://koket.se>`_
 - `https://kristineskitchenblog.com/ <https://kristineskitchenblog.com>`_
+- `https://krollskorner.com/ <https://krollskorner.com/>`_
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
@@ -345,6 +353,7 @@ Scrapers available for:
 - `https://przepisy.pl/ <https://przepisy.pl>`_
 - `https://purelypope.com/ <https://purelypope.com>`_
 - `https://purplecarrot.com/ <https://purplecarrot.com>`_
+- `https://quitoque.fr/ <https://quitoque.fr>`_
 - `https://rachlmansfield.com/ <https://rachlmansfield.com>`_
 - `https://rainbowplantlife.com/ <https://rainbowplantlife.com/>`_
 - `https://realfood.tesco.com/ <https://realfood.tesco.com>`_
@@ -361,6 +370,7 @@ Scrapers available for:
 - `https://recipetineats.com/ <https://www.recipetineats.com/>`_
 - `https://redhousespice.com/ <https://redhousespice.com/>`_
 - `https://reishunger.de/ <https://www.reishunger.de/>`_
+- `https://rewe.de/ <https://www.rewe.de>`_
 - `https://rezeptwelt.de/ <https://rezeptwelt.de>`_
 - `https://ricetta.it/ <https://ricetta.it>`_
 - `https://ricette.giallozafferano.it/ <https://ricette.giallozafferano.it>`_
@@ -499,7 +509,7 @@ Assuming you have ``>=python3.9`` installed, navigate to the directory where you
     python -m venv .venv &&
     source .venv/bin/activate &&
     python -m pip install --upgrade pip &&
-    pip install -r requirements-dev.txt &&
+    pip install -e ".[dev]" &&
     pip install pre-commit &&
     pre-commit install &&
     python -m unittest
@@ -571,6 +581,12 @@ All the `contributors that helped improving <https://github.com/hhursev/recipe-s
 
 .. image:: https://contrib.rocks/image?repo=hhursev/recipe-scrapers
    :target: https://github.com/hhursev/recipe-scrapers/graphs/contributors
+
+
+Test Data Notice
+---------------
+
+All content in ``tests/test_data/`` is used for limited, non-commercial testing purposes and belongs to their respective copyright holders. See the ``tests/test_data/LICENSE.md`` for details. If you're a copyright holder with concerns, you can open an issue or contact us privately via the email in our PyPI page.
 
 
 Extra:
