@@ -79,31 +79,34 @@ class SchemaOrg:
                         self.ratingsdata[rating_id] = rating
 
         for syntax in SYNTAXES:
-            # Make sure entries of type Recipe are always parsed first
-            syntax_data = data.get(syntax, [])
-            try:
-                index = [x.get("@type", "") for x in syntax_data].index("Recipe")
-                syntax_data.insert(0, syntax_data.pop(index))
-            except ValueError:
-                pass
-
-            for item in syntax_data:
+            for item in data.get(syntax, []):
                 if SCHEMA_ORG_HOST not in item.get("@context", ""):
                     continue
 
                 # If the item itself is a recipe, then use it directly as our datasource
                 if recipe := self._find_entity(item, "Recipe"):
-                    self.format = syntax
-                    self.data = recipe
-                    return
-
+                    pass
                 # If the item is a webpage and describes a recipe entity, use the entity as our datasource
-                if self._contains_schematype(item, "WebPage"):
-                    main_entity = item.get("mainEntity", {})
-                    if self._contains_schematype(main_entity, "Recipe"):
+                elif self._contains_schematype(item, "WebPage") and (
+                    recipe := item.get("mainEntity", {})
+                ):
+                    pass
+                else:
+                    continue
+                if not self._contains_schematype(recipe, "Recipe"):
+                    continue
+
+                self.data = self.data or recipe
+                for prop in ("@id", "name"):
+                    existing_value = self.data.get(prop)
+                    encountered_value = recipe.get(prop)
+                    if existing_value and encountered_value == existing_value:
+                        if syntax != self.format:
+                            pass  # TODO: single recipe represented using multiple formats; what should we do?
                         self.format = syntax
-                        self.data = main_entity
-                        return
+                        self.data.update(
+                            {k: self.data.get(k, v) for k, v in recipe.items()}
+                        )
 
     def site_name(self):
         if not self.website_name:
