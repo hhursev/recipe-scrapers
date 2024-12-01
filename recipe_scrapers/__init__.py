@@ -318,6 +318,7 @@ from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
+from .rewe import Rewe
 from .rezeptwelt import Rezeptwelt
 from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
@@ -564,6 +565,7 @@ SCRAPERS = {
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecipeGirl.host(): RecipeGirl,
+    Rewe.host(): Rewe,
     RicettePerBimby.host(): RicettePerBimby,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
