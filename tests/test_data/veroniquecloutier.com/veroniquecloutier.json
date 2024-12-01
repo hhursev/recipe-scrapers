@@ -1,8 +1,8 @@
 {
-  "host": "veroniquecloutier.com",
+  "author": "Marilou",
   "canonical_url": "https://veroniquecloutier.com/cuisine/boeuf-braise-a-loignon-et-puree-de-pommes-de-terre-au-bacon",
   "site_name": "Véronique Cloutier",
-  "author": "Marilou",
+  "host": "veroniquecloutier.com",
   "language": "fr-CA",
   "title": "Boeuf braisé à l’oignon et purée de pommes de terre au bacon",
   "ingredients": [
@@ -56,8 +56,8 @@
     "Ajouter le beurre et la crème avant de bien mélanger.",
     "Ajouter le bacon et bien mélanger à nouveau."
   ],
-  "total_time": null,
   "yields": "4 servings",
-  "image": "https://s3.amazonaws.com/rose.vero/wp-content/uploads/2015/01/12154413/boeuf-braise-1.jpg",
-  "description": "Enfin une recette simple pour nourrir de grandes tablées sans trop d’efforts! Les restes font d’excellents sandwiches à l’effilochée de boeuf."
+  "description": "Enfin une recette simple pour nourrir de grandes tablées sans trop d’efforts! Les restes font d’excellents sandwiches à l’effilochée de boeuf.",
+  "total_time": null,
+  "image": "https://s3.amazonaws.com/rose.vero/wp-content/uploads/2015/01/12154413/boeuf-braise-1.jpg"
 }
