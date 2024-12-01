@@ -20,7 +20,9 @@ class AHealthySliceOfLife(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        ingredients = self.soup.find("div", {"class": "tasty-recipes-ingredients-body"}).findAll("p")
+        ingredients = self.soup.find(
+            "div", {"class": "tasty-recipes-ingredients-body"}
+        ).findAll("p")
         return [normalize_string(ing.get_text().strip()) for ing in ingredients]
 
     def instructions(self):
