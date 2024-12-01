@@ -265,6 +265,7 @@ Scrapers available for:
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
+- `https://kitchendivas.com <https://kitchendivas.com>`_
 - `https://www.kitchendreaming.com <https://www.kitchendreaming.com>`_
 - `https://www.kitchensanctuary.com/ <https://www.kitchensanctuary.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
