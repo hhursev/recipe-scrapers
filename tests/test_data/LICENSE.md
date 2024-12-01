@@ -5,6 +5,7 @@ The files in this `test_data` directory contain content from various recipe webs
 ## Purpose of Use
 
 This content is used exclusively for:
+
 - Software testing
 - Educational purposes
 - Technical verification
@@ -13,6 +14,7 @@ This content is used exclusively for:
 ## Copyright Notice
 
 All recipe content, including but not limited to:
+
 - Recipe titles
 - Ingredient lists
 - Instructions
@@ -29,6 +31,7 @@ Each test file is named after its source website. The content within each file w
 ## Limited Use Statement
 
 Our use of this content is strictly limited and justified because:
+
 1. It is used solely for testing software functionality
 2. Only the minimum necessary content is stored
 3. The content is not used for commercial purposes
@@ -38,4 +41,4 @@ Our use of this content is strictly limited and justified because:
 
 ## Content Removal and Privacy
 
-If you are a copyright holder of any content in this directory and wish to have it removed, you can either open an issue in this repository or, if you wish to keep your privacy, contact us through the email address listed in the project's PyPI page (https://pypi.org/project/recipe-scrapers/) under the Authors section. We'll sort it out promptly with our legal team.
+If you are a copyright holder of any content in this directory and wish to have it removed, you can either open an issue in this repository or, if you wish to keep your privacy, contact us through the email address listed in the [project's PyPI page](https://pypi.org/project/recipe-scrapers/) (<https://pypi.org/project/recipe-scrapers/>) under the Authors section. We'll sort it out promptly with our legal team.
