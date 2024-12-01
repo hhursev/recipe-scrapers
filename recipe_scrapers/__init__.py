@@ -1,5 +1,4 @@
 from __future__ import annotations
-from .ahealthysliceoflife import AHealthySliceOfLife
 
 __all__ = (
     "AbstractScraper",
@@ -42,6 +41,7 @@ from .acouplecooks import ACoupleCooks
 from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .aflavorjournal import AFlavorJournal
+from .ahealthysliceoflife import AHealthySliceOfLife
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .aldi import Aldi
