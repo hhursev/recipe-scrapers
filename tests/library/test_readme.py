@@ -11,14 +11,14 @@ else:
     # only available in importlib.metadata from py3.10 onwards
     from importlib_metadata import PackageNotFoundError, metadata
 
-from typing import Dict, List, Optional, Tuple
+from typing import Optional
 
 from recipe_scrapers import SCRAPERS, AbstractScraper
 
 START_LIST = "-----------------------"
 END_LIST = "(*) offline saved files only"
 
-ScraperIndex = Dict[str, Tuple[AbstractScraper, List[str]]]
+ScraperIndex = dict[str, tuple[AbstractScraper, list[str]]]
 
 
 def get_scraper_domains():
@@ -56,7 +56,7 @@ def get_scraper_index() -> ScraperIndex:
     return scraper_index
 
 
-def get_shared_prefix(domains: List[str]) -> str:
+def get_shared_prefix(domains: list[str]) -> str:
     """
     Find the longest-common-prefix of the domains
     """
@@ -78,12 +78,12 @@ def get_shared_prefix(domains: List[str]) -> str:
 
 def get_secondary_domains(
     scraper_index: ScraperIndex, primary_domain: str
-) -> List[str]:
+) -> list[str]:
     _, suffixes = scraper_index[primary_domain]
     return [suffix for suffix in suffixes if not primary_domain.endswith(suffix)]
 
 
-def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
+def parse_primary_line(line: str) -> Optional[tuple[str, str]]:
     match = re.search(
         r"^- `https?://(?:www\.)?([^/\s]+)[^<]*<https?://(?:www\.)?([^/\s]*)[^>]*>`_(?: \(\*\))?$",
         line,
@@ -95,17 +95,17 @@ def parse_primary_line(line: str) -> Optional[Tuple[str, str]]:
     return None
 
 
-def parse_secondary_line(line: str) -> List[Tuple[str, str]]:
+def parse_secondary_line(line: str) -> list[tuple[str, str]]:
     return re.findall(r"`(\.[^\s]+)\s<https?://(?:www\.)?([^/>]+)[^>]*>`_", line)
 
 
-def get_package_description() -> List[str]:
+def get_package_description() -> list[str]:
     pkg_metadata = metadata("recipe_scrapers")
     return pkg_metadata["Description"].splitlines()
 
 
-def get_list_lines() -> List[str]:
-    list_lines: List[str] = []
+def get_list_lines() -> list[str]:
+    list_lines: list[str] = []
     started_list = False
     for line in get_package_description():
         stripped_line = line.strip()

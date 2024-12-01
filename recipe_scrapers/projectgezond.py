@@ -1,6 +1,7 @@
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class ProjectGezond(AbstractScraper):
@@ -11,82 +12,33 @@ class ProjectGezond(AbstractScraper):
     def author(self):
         return "Project Gezond"
 
-    def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).text
-
-    def category(self):
-        return ", ".join(
-            [
-                element.text
-                for element in self.soup.find(
-                    "span", {"class": "meta-category"}
-                ).find_all(
-                    "a", {"class": lambda x: x is not None and x.startswith("category")}
-                )
-            ]
-        )
-
-    def total_time(self):
-        time_element = self.soup.find("em", string="Bereidingstijd:").parent
-        return "".join(
-            [
-                element.text
-                for element in time_element.children
-                if element.text != "Bereidingstijd:"
-            ]
-        ).strip()
-
-    def yields(self):
-        # Match everything in the h2 with 'Dit heb je nodig'
-        # The text inside the parentheses contains the yield for the ingredients that are listed
-        return re.search(
-            r"Dit heb je nodig \(([^)]+)",
-            self.soup.find(
-                "h2", string=lambda x: x.startswith("Dit heb je nodig")
-            ).text,
-        ).group(1)
-
-    def ingredients(self):
-        ingredients_table = self.soup.find(
-            "h2", string=lambda x: x.startswith("Dit heb je nodig")
-        ).next_sibling.next_sibling
-        ingredients = [
-            ingredient.text
-            for ingredient in ingredients_table
-            if ingredient.text.strip()
-        ]
-        return ingredients
-
-    def instructions(self):
-        instructions_table = self.soup.find(
-            "h2", string=lambda x: x.startswith("Zo maak je het")
-        ).next_sibling.next_sibling.next_sibling.next_sibling
-        instructions = [
-            instruction.text
-            for instruction in instructions_table
-            if instruction.text.strip()
-        ]
-        return "\n".join(instructions).strip()
-
     def ratings(self):
-        # Ratings do not exist on this site
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def cuisine(self):
-        # Not listed on site
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
-    def description(self):
-        # Get the recipe's content start. The recipe will start with the description until
-        # we reach the instructions.
-        content_start = self.soup.find("div", {"class", "entry-content"})
+    def category(self):
+        category_script = self.soup.find(
+            "script", string=re.compile("var dataLayer_content =")
+        )
+        if not category_script:
+            return None
 
-        description = ""
-        for content_element in content_start.children:
-            # If we reach this, the ingredients are listed and the description is complete
-            if content_element.text.startswith("Dit heb je nodig"):
-                break
+        category_text = category_script.string
+        start = category_text.find('"pageCategory":[')
+        if start != -1:
+            start += len('"pageCategory":[')
+            end = category_text.find("]", start)
+            if end != -1:
+                categories = category_text[start:end].strip('"').split('","')
+                return categories if categories else None
 
-            description += content_element.text
-
-        return description.strip()
+    def nutrients(self):
+        nutrient_info = {}
+        nutrient_elements = self.soup.select("details.nutritions div.nutrition")
+        for element in nutrient_elements:
+            key = element.get("itemprop")
+            value = element.find("dt").get_text(strip=True)
+            nutrient_info[key] = value
+        return nutrient_info

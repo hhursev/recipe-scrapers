@@ -1,7 +1,7 @@
 import functools
 import logging
 
-from recipe_scrapers._exceptions import FillPluginException
+from recipe_scrapers._exceptions import FillPluginException, RecipeSchemaNotFound
 from recipe_scrapers.settings import settings
 
 from ._interface import PluginInterface
@@ -57,7 +57,9 @@ class SchemaOrgFillPlugin(PluginInterface):
                 return decorated(self, *args, **kwargs)
             except (FillPluginException, NotImplementedError) as e:
                 function = getattr(self.schema, decorated.__name__)
-                if self.schema.data and function:
+                if not self.schema.data:
+                    raise RecipeSchemaNotFound(url=self.url)
+                if function:
                     logger.info(
                         f"{class_name}.{method_name}() seems to not be implemented but .schema is available! Attempting to return result from SchemaOrg."
                     )

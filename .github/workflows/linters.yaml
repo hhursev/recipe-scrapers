@@ -12,12 +12,14 @@ on:
 
 jobs:
   linters:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-      - run: pip install tox
-      - run: tox -e lint
+          cache: pip
+          cache-dependency-path: .pre-commit-config.yaml
+      - run: pip install pre-commit
+      - run: pre-commit run --all-files

@@ -7,9 +7,6 @@ class HalfBakedHarvest(AbstractScraper):
     def host(cls):
         return "halfbakedharvest.com"
 
-    def nutrients(self):
-        return self.schema.nutrients()
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),

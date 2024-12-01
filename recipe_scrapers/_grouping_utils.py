@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 from collections import defaultdict
 from dataclasses import dataclass
-from typing import Dict, List, Optional
 
 from bs4 import BeautifulSoup
 
@@ -9,8 +10,8 @@ from ._utils import normalize_string
 
 @dataclass
 class IngredientGroup:
-    ingredients: List[str]
-    purpose: Optional[str] = (
+    ingredients: list[str]
+    purpose: str | None = (
         None  # this group of ingredients is {purpose} (e.g. "For the dressing")
     )
 
@@ -50,7 +51,7 @@ def score_sentence_similarity(first: str, second: str) -> float:
     return 2 * intersection / (len(first_bigrams) + len(second_bigrams))
 
 
-def best_match(test_string: str, target_strings: List[str]) -> str:
+def best_match(test_string: str, target_strings: list[str]) -> str:
     """Find the best match for a given test string within a list of target strings.
 
     This function utilizes the score_sentence_similarity function to compare the test string
@@ -61,7 +62,7 @@ def best_match(test_string: str, target_strings: List[str]) -> str:
     ----------
     test_string : str
         The string to find the best match for.
-    target_strings : List[str]
+    target_strings : list[str]
         A list of strings to compare against the test string.
 
     Returns
@@ -78,11 +79,11 @@ def best_match(test_string: str, target_strings: List[str]) -> str:
 
 
 def group_ingredients(
-    ingredients_list: List[str],
+    ingredients_list: list[str],
     soup: BeautifulSoup,
     group_heading: str,
     group_element: str,
-) -> List[IngredientGroup]:
+) -> list[IngredientGroup]:
     """
     Group ingredients into sublists according to the heading in the recipe.
 
@@ -93,7 +94,7 @@ def group_ingredients(
 
     Parameters
     ----------
-    ingredients_list : List[str]
+    ingredients_list : list[str]
         Ingredients extracted by the scraper.
     soup : BeautifulSoup
         Parsed HTML of the recipe page.
@@ -104,7 +105,7 @@ def group_ingredients(
 
     Returns
     -------
-    List[IngredientGroup]
+    list[IngredientGroup]
         groupings of ingredients categorized by their purpose or heading.
 
     Raises
@@ -119,7 +120,7 @@ def group_ingredients(
             f"Found {len(found_ingredients)} grouped ingredients but was expecting to find {len(ingredients_list)}."
         )
 
-    groupings: Dict[Optional[str], List[str]] = defaultdict(list)
+    groupings: dict[str | None, list[str]] = defaultdict(list)
     current_heading = None
 
     elements = soup.select(f"{group_heading}, {group_element}")

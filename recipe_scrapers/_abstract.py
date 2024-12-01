@@ -1,6 +1,5 @@
 import inspect
 from collections import OrderedDict
-from typing import List
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -22,12 +21,15 @@ HEADERS = {
 class AbstractScraper:
     page_data: str
 
+    _opengraph_cls = OpenGraph
+    _schema_cls = SchemaOrg
+
     def __init__(self, html: str, url: str):
         self.page_data = html
         self.url = url
         self.soup = BeautifulSoup(self.page_data, "html.parser")
-        self.opengraph = OpenGraph(self.soup)
-        self.schema = SchemaOrg(self.page_data)
+        self.opengraph = self._opengraph_cls(self.soup)
+        self.schema = self._schema_cls(self.page_data)
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):
@@ -98,7 +100,7 @@ class AbstractScraper:
         """Ingredients of the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         """List of ingredient groups."""
         return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
 
@@ -106,7 +108,7 @@ class AbstractScraper:
         """Instructions to prepare the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def instructions_list(self) -> List[str]:
+    def instructions_list(self) -> list[str]:
         """Instructions to prepare the recipe as a list."""
         return [
             instruction

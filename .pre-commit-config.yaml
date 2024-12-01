@@ -34,9 +34,13 @@ repos:
     rev: v3.15.1
     hooks:
     - id: pyupgrade
-      args: [--py38-plus]
+      args: [--py39-plus]
 -   repo: https://github.com/sphinx-contrib/sphinx-lint
     rev: v0.9.1
     hooks:
     - id: sphinx-lint
       args: ["-e", "all", "-d", "line-too-long"]
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.43.0
+    hooks:
+    -   id: markdownlint
