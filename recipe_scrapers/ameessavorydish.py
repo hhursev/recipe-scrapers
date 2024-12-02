@@ -3,7 +3,7 @@ from ._grouping_utils import group_ingredients
 from ._utils import get_equipment, normalize_string
 
 
-class AmesSavoryDish(AbstractScraper):
+class AmeesSavoryDish(AbstractScraper):
     @classmethod
     def host(cls):
         return "ameessavorydish.com"
