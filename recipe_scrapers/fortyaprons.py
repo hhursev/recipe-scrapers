@@ -48,3 +48,8 @@ class FortyAprons(AbstractScraper):
     def keywords(self):
         return self.schema.keywords()
 
+    # def ingredient_groups(self):
+    #     return self.schema.ingredient_groups()
+    
+    # def equipment(self):
+    #     return self.schema.equipment()
