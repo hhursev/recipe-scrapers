@@ -586,7 +586,7 @@ All the `contributors that helped improving <https://github.com/hhursev/recipe-s
 
 
 Test Data Notice
----------------
+----------------
 
 All content in ``tests/test_data/`` is used for limited, non-commercial testing purposes and belongs to their respective copyright holders. See the ``tests/test_data/LICENSE.md`` for details. If you're a copyright holder with concerns, you can open an issue or contact us privately via the email in our PyPI page.
 
