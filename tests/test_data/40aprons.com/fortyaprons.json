@@ -1,48 +1,110 @@
 {
   "author": "Cheryl Malik",
-  "canonical_url": "https://40aprons.com/easy-perfect-caramel-sauce/",
+  "canonical_url": "https://40aprons.com/rosemary-raspberry-vodka-fizz/",
   "site_name": "40 Aprons",
   "host": "40aprons.com",
   "language": "en-US",
-  "title": "Easy Homemade Caramel Sauce",
+  "title": "Raspberry Cocktails with Rosemary",
   "ingredients": [
-    "½ cup water",
-    "1 ½ cups granulated sugar",
-    "3 tablespoons unsalted butter (at room temperature)",
-    "1 cup whipping cream (at room temperature)"
+    "1 tablespoon rosemary needles",
+    "1 ½ cups frozen raspberries (defrosted)",
+    "juice of 1 lemon (approximately 2 tablespoons)",
+    "5 tablespoons sugar (¼ cup + 1 tablespoon)",
+    "¾ cup water",
+    "1 tablespoon cornstarch",
+    "1 ½ ounces vodka (or gin)",
+    "½ ounce St. Germaine elderflower liqueur",
+    "1 ½ ounces raspberry-rosemary syrup (made from ingredients above)",
+    "ice",
+    "1 tablespoon soda water",
+    "1 tablespoon champagne",
+    "ice",
+    "rosemary sprigs",
+    "raspberries"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 tablespoon rosemary needles",
+        "1 ½ cups frozen raspberries (defrosted)",
+        "juice of 1 lemon (approximately 2 tablespoons)",
+        "5 tablespoons sugar (¼ cup + 1 tablespoon)",
+        "¾ cup water",
+        "1 tablespoon cornstarch"
+      ],
+      "purpose": "For the Raspberry-Rosemary Syrup (Makes Enough for 6–8 Cocktails)"
+    },
+    {
+      "ingredients": [
+        "1 ½ ounces vodka (or gin)",
+        "½ ounce St. Germaine elderflower liqueur",
+        "1 ½ ounces raspberry-rosemary syrup (made from ingredients above)",
+        "ice",
+        "1 tablespoon soda water",
+        "1 tablespoon champagne"
+      ],
+      "purpose": "For the Cocktail (Makes Enough for 1 Cocktail)"
+    },
+    {
+      "ingredients": [
+        "ice",
+        "rosemary sprigs",
+        "raspberries"
+      ],
+      "purpose": "Serving Suggestions (All Optional)"
+    }
   ],
   "instructions_list": [
-    "Place large saucepan on stovetop over medium-low heat. Add ½ cup water and 1 ½ cups granulated sugar to saucepan, then slowly whisk ingredients together until sugar has dissolved completely, approximately 5 minutes.",
-    "Once sugar has dissolved, increase heat under saucepan to medium-high. Let syrup come to boil, then boil syrup just until golden, approximately 10 to 12 minutes. Occasionally, brush down sides of pan with pastry brush dipped into water to prevent or stop any crystallization. Swirl pan as needed if sugar clumps.",
-    "When syrup is golden, reduce heat under saucepan to low and remove saucepan from heat. Add 3 tablespoons unsalted butter to saucepan and whisk to incorporate.",
-    "Once butter is incorporated, gradually add 1 cup whipping cream in small increments while whisking constantly. Mixture will bubble vigorously with each addition. Repeat until all cream has been added and incorporated.",
-    "After whipping cream is added, return saucepan to low heat. Gently stir mixture until sauce is completely smooth.",
-    "Carefully transfer caramel sauce to jar or serving container. Allow sauce to cool to lukewarm temperature before serving."
+    "For the Syrup (Makes Enough for 6-8 Cocktails)",
+    "Add 1 tablespoon rosemary needles to small bowl. Muddle rosemary needles with muddler or back of wooden spoon to release oils.",
+    "Place small saucepan on stovetop over high heat. Add muddled rosemary needles, 1 ½ cups frozen raspberries, juice of lemon, 5 tablespoons sugar, ¾ cup water, and 1 tablespoon cornstarch to saucepan. Stir to incorporate, then bring mixture to rolling boil.",
+    "When mixture begins to boil, immediately reduce heat under saucepan to low.",
+    "Use potato masher to mash raspberries completely, then stir mixture and simmer 10 minutes.",
+    "After 10 minutes, remove saucepan from heat and set aside. Let mixture cool completely.",
+    "Once cooled, pour mixture through fine-mesh strainer or nut-milk bag and into airtight container. Use immediately or refrigerate until ready to use.",
+    "For the Cocktail (Makes Enough for 1 Cocktail)",
+    "Add 1 ½ ounces vodka (or gin), ½ ounce St. Germaine elderflower liqueur, 1 ½ ounces raspberry-rosemary syrup, and ice to cocktail shaker. Shake vigorously.",
+    "Strain cocktail into glass, with or without ice. Add 1 tablespoon soda water and stir to incorporate into drink. Top cocktail with 1 tablespoon champagne, then garnish with rosemary sprigs and raspberries if desired. Serve immediately."
   ],
-  "category": "Dessert,Sauce",
-  "yields": "8 servings",
-  "description": "Sweet, sticky, rich caramel sauce - made quick and easy in your own kitchen!",
-  "total_time": 20,
+  "category": "Drinks",
+  "yields": "1 serving",
+  "description": "A flavorful, vibrant cocktail blending fruity raspberry, woodsy rosemary, floral St. Germaine, and bubbly champagne.",
+  "total_time": 25,
   "cook_time": 15,
-  "prep_time": 5,
+  "prep_time": 10,
   "cuisine": "American",
   "nutrients": {
-    "servingSize": "1 serving",
-    "calories": "283 kcal",
-    "fatContent": "15 g",
-    "saturatedFatContent": "10 g",
-    "unsaturatedFatContent": "7 g",
-    "transFatContent": "0.2 g",
-    "carbohydrateContent": "38 g",
-    "sugarContent": "38 g",
+    "servingSize": "1 cocktail",
+    "calories": "357 kcal",
+    "carbohydrateContent": "36 g",
     "proteinContent": "1 g",
-    "sodiumContent": "10 mg",
-    "cholesterolContent": "45 mg"
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "2 g",
+    "sodiumContent": "18 mg",
+    "fiberContent": "4 g",
+    "sugarContent": "30 g"
   },
-  "image": "https://40aprons.com/wp-content/uploads/2012/12/easy-caramel-sauce-2.jpg",
+  "image": "https://40aprons.com/wp-content/uploads/2015/12/raspberry-cocktails-rosemary-01.jpg",
   "keywords": [
-    "autumn recipe",
-    "easy to make",
-    "holiday"
+    "christmas dinner",
+    "holiday drink",
+    "winter flavors"
+  ],
+  "equipment": [
+    "Small bowl",
+    "Muddler",
+    "Small saucepan",
+    "Potato masher",
+    "Fine mesh sieve or nut-milk bag",
+    "Cocktail shaker"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 1.0,
+  "reviews": [
+    {
+      "name": "O",
+      "review": "These look amazing! I can't wait to make them. Great looking photo's. Happy New Year!"
+    }
   ]
 }
