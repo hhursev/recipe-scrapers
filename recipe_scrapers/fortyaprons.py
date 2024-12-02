@@ -48,20 +48,3 @@ class FortyAprons(AbstractScraper):
     def keywords(self):
         return self.schema.keywords()
 
-    def ratings(self):
-        return "No ratings available"
-
-    def ratings_count(self):
-        return "0 (No ratings available)"
-
-    def reviews(self):
-        return "No reviews available"
-
-    def equipment(self):
-        return "No equipment information available"
-
-    def cooking_method(self):
-        return "No cooking method available"
-
-    def dietary_restrictions(self):
-        return "No dietary restriction information available"
