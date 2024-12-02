@@ -66,10 +66,6 @@ class VeroniqueCloutier(AbstractScraper):
         start = self.soup.find(
             string=lambda text: text and text.lower() == "ingrédients"
         )
-        end = self.soup.find(string=lambda text: text and text.lower() == "préparation")
-
-        if not start or not end:
-            return []
 
         ingredient_list = []
         for sibling in start.find_all_next():
@@ -84,10 +80,6 @@ class VeroniqueCloutier(AbstractScraper):
         start = self.soup.find(
             string=lambda text: text and text.lower() == "ingrédients"
         )
-        end = self.soup.find(string=lambda text: text and text.lower() == "préparation")
-
-        if not start or not end:
-            return []
 
         found_ingredients = []
         groupings = defaultdict(list)
@@ -119,9 +111,6 @@ class VeroniqueCloutier(AbstractScraper):
         start = self.soup.find(
             string=lambda text: text and text.lower() == "préparation"
         )
-
-        if not start:
-            return ""
 
         instruction_list = []
         for sibling in start.find_all_next():
