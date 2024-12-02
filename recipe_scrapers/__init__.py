@@ -31,7 +31,6 @@ from ._exceptions import (
     StaticValueException,
     WebsiteNotImplementedError,
 )
-
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abeautifulmess import ABeautifulMess
