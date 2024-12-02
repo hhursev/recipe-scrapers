@@ -73,24 +73,8 @@
   "cook_time": 15,
   "prep_time": 10,
   "cuisine": "American",
-  "nutrients": {
-    "servingSize": "1 cocktail",
-    "calories": "357 kcal",
-    "carbohydrateContent": "36 g",
-    "proteinContent": "1 g",
-    "fatContent": "1 g",
-    "saturatedFatContent": "1 g",
-    "unsaturatedFatContent": "2 g",
-    "sodiumContent": "18 mg",
-    "fiberContent": "4 g",
-    "sugarContent": "30 g"
-  },
-  "image": "https://40aprons.com/wp-content/uploads/2015/12/raspberry-cocktails-rosemary-01.jpg",
-  "keywords": [
-    "christmas dinner",
-    "holiday drink",
-    "winter flavors"
-  ],
+  "ratings": 5.0,
+  "ratings_count": 1.0,
   "equipment": [
     "Small bowl",
     "Muddler",
@@ -99,12 +83,28 @@
     "Fine mesh sieve or nut-milk bag",
     "Cocktail shaker"
   ],
-  "ratings": 5.0,
-  "ratings_count": 1.0,
   "reviews": [
     {
       "name": "O",
       "review": "These look amazing! I can't wait to make them. Great looking photo's. Happy New Year!"
     }
+  ],
+  "nutrients": {
+    "servingSize": "1 cocktail",
+    "calories": "357 kcal",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "2 g",
+    "carbohydrateContent": "36 g",
+    "sugarContent": "30 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "18 mg",
+    "fiberContent": "4 g"
+  },
+  "image": "https://40aprons.com/wp-content/uploads/2015/12/raspberry-cocktails-rosemary-01.jpg",
+  "keywords": [
+    "christmas dinner",
+    "holiday drink",
+    "winter flavors"
   ]
 }
