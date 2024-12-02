@@ -329,6 +329,7 @@ from .saltpepperskillet import SaltPepperSkillet
 from .sandwhichtribunal import SandwhichTribunal
 from .saveur import Saveur
 from .savorynothings import SavoryNothings
+from .schoolofwok import SchoolOfWok
 from .seriouseats import SeriousEats
 from .simpleveganista import SimpleVeganista
 from .simplycookit import SimplyCookit
@@ -752,6 +753,7 @@ SCRAPERS = {
     SallysBlog.host(): SallysBlog,
     SaltPepperSkillet.host(): SaltPepperSkillet,
     Saveur.host(): Saveur,
+    SchoolOfWok.host(): SchoolOfWok,
     SeriousEats.host(): SeriousEats,
     SimpleVeganista.host(): SimpleVeganista,
     SimplyCookit.host(): SimplyCookit,
