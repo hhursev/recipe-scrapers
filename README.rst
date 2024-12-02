@@ -157,6 +157,7 @@ Scrapers available for:
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
+- `https://cookomix.com/ <https://cookomix.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookwell.com/ <https://cookwell.com/>`_
 - `https://www.coop.se/ <https://www.coop.se/>`_
@@ -264,6 +265,7 @@ Scrapers available for:
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
+- `https://kitchendivas.com <https://kitchendivas.com>`_
 - `https://www.kitchendreaming.com <https://www.kitchendreaming.com>`_
 - `https://www.kitchensanctuary.com/ <https://www.kitchensanctuary.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
@@ -590,7 +592,7 @@ All the `contributors that helped improving <https://github.com/hhursev/recipe-s
 
 
 Test Data Notice
----------------
+----------------
 
 All content in ``tests/test_data/`` is used for limited, non-commercial testing purposes and belongs to their respective copyright holders. See the ``tests/test_data/LICENSE.md`` for details. If you're a copyright holder with concerns, you can open an issue or contact us privately via the email in our PyPI page.
 
