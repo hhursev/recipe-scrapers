@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import IngredientGroup, group_ingredients
+from ._grouping_utils import group_ingredients
 
 class FortyAprons(AbstractScraper):
     @classmethod
@@ -66,5 +66,4 @@ class FortyAprons(AbstractScraper):
             "h4.wprm-recipe-group-name",
             "li.wprm-recipe-ingredient",
         )
-
-   
+    
