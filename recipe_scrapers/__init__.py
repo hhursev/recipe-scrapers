@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -196,6 +195,7 @@ from .imworthy import ImWorthy
 from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .ingoodflavor import InGoodFlavor
+from .irishcentral import IrishCentral
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
 from .inspiralized import Inspiralized
@@ -535,6 +535,7 @@ SCRAPERS = {
     HungryHappens.host(): HungryHappens,
     InBloomBakery.host(): InBloomBakery,
     InGoodFlavor.host(): InGoodFlavor,
+    IrishCentral.host(): IrishCentral,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
