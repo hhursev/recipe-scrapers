@@ -83,7 +83,4 @@ class FortyAprons(AbstractScraper):
         )
         return groups if groups else self.ingredients()
 
-    # def dietary_restrictions(self):
-    #     return 
-    
    
