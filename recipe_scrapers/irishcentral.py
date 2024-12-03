@@ -3,8 +3,6 @@ import json, re
 from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
-
-
 class IrishCentral(AbstractScraper):
     @classmethod
     def host(cls):
@@ -12,7 +10,7 @@ class IrishCentral(AbstractScraper):
 
     def author(self):
         script_tag = self.soup.find('script', type='application/ld+json')
-    
+
         if script_tag:
             script_content = script_tag.string
             cleaned_script_content = re.sub(r'[\x00-\x1f\x7f]', '', script_content)
@@ -28,7 +26,7 @@ class IrishCentral(AbstractScraper):
     def description(self):
         description = self.soup.find('meta', {'property': 'og:description'})['content']
         return description if description else FieldNotProvidedByWebsiteException(return_value=None)
-    
+
     def image(self):
         image = self.soup.find('meta', {'property': 'og:image'})['content']
         return image if image else FieldNotProvidedByWebsiteException(return_value=None)
@@ -54,7 +52,7 @@ class IrishCentral(AbstractScraper):
 
             if ingredients_list:
                 return ingredients_list
-            
+
             # Check if the ingredients are in a <ul> structure (https://www.irishcentral.com/culture/food-drink/shepherds-pie-recipe)
             ingredients_list = ingredients_label.find_next("ul")
             if ingredients_list:
@@ -77,17 +75,17 @@ class IrishCentral(AbstractScraper):
 
             for step in instructions_steps:
                 instruction_text = normalize_string(step.get_text())
-            
+
                 if not instruction_text or instruction_text.startswith("*"):
                     break
 
                 instructions_list.append(instruction_text)
-            
+
             if not instructions_list:
                 return FieldNotProvidedByWebsiteException(return_value=None)
-            
+
             return "\n".join(instructions_list)
-        
+
         return FieldNotProvidedByWebsiteException(return_value=None)
 
     def title(self):
@@ -99,12 +97,12 @@ class IrishCentral(AbstractScraper):
 
     def yields(self):
         serves_label = self.soup.find("strong", text=lambda t: t and "Serves:" in t)
-        
+
         if serves_label:
             serves_text = normalize_string(serves_label.get_text())
             serves_value = serves_text.replace("Serves:", "").strip()
             return f"Serves {serves_value}"
-        
+
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def keywords(self):
