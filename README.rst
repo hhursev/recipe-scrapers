@@ -213,7 +213,6 @@ Scrapers available for:
 - `https://foodrepublic.com/ <https://foodrepublic.com>`_
 - `https://www.forksoverknives.com/ <https://www.forksoverknives.com/>`_
 - `https://forktospoon.com/ <https://forktospoon.com/>`_
-- `https://fortyaprons.com/ <https://40aprons.com/>`_
 - `https://franzoesischkochen.de/ <https://franzoesischkochen.de/>`_
 - `https://www.gesund-aktiv.com/ <https://www.gesund-aktiv.com>`_
 - `https://gimmesomeoven.com/ <https://www.gimmesomeoven.com/>`_
