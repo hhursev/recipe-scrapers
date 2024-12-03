@@ -47,17 +47,7 @@ class FortyAprons(AbstractScraper):
         return self.schema.prep_time()
     
     def ratings(self):
-        reviews_data = self.schema.data.get("review", [])
-        if not reviews_data:
-            return float(0)
-        
-        ratings = [
-            float(review.get("reviewRating", {}).get("ratingValue"))
-            for review in reviews_data
-            if review.get("reviewRating", {}).get("ratingValue")
-        ]
-
-        return (sum(ratings) / len(ratings)) if ratings else float(0)
+        return self.schema.ratings()
 
     def ratings_count(self):
         return self.schema.ratings_count()
