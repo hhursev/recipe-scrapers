@@ -160,7 +160,6 @@ from .foodnetwork import FoodNetwork
 from .foodrepublic import FoodRepublic
 from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
-from .fortyaprons import FortyAprons
 from .franzoesischkochen import FranzoesischKochen
 from .g750g import G750g
 from .gesundaktiv import GesundAktiv
@@ -527,7 +526,6 @@ SCRAPERS = {
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FifteenGram.host(): FifteenGram,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
-    FortyAprons.host(): FortyAprons,
     GlutenFreeOnAShoeString.host(): GlutenFreeOnAShoeString,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
