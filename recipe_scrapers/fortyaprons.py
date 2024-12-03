@@ -75,12 +75,11 @@ class FortyAprons(AbstractScraper):
         return self.schema.keywords()
 
     def ingredient_groups(self):
-        groups = group_ingredients(
+        return group_ingredients(
             self.ingredients(),
             self.soup,
             "h4.wprm-recipe-group-name",
             "li.wprm-recipe-ingredient",
         )
-        return groups if groups else self.ingredients()
 
    
