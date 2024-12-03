@@ -3,22 +3,22 @@ from ._grouping_utils import group_ingredients
 
 class FortyAprons(AbstractScraper):
     @classmethod
-    
+
     def host(cls):
         return "40aprons.com"
-    
+
     def author(self):
         return self.schema.author()
 
     def description(self):
         return self.schema.description()
-    
+
     def image(self):
         return self.schema.image()
 
     def ingredients(self):
         return self.schema.ingredients()
-    
+
     def instructions(self):
         return self.schema.instructions()
 
@@ -42,10 +42,10 @@ class FortyAprons(AbstractScraper):
 
     def nutrients(self):
         return self.schema.nutrients()
-    
+
     def prep_time(self):
         return self.schema.prep_time()
-    
+
     def ratings(self):
         return self.schema.ratings()
 
@@ -66,4 +66,3 @@ class FortyAprons(AbstractScraper):
             "h4.wprm-recipe-group-name",
             "li.wprm-recipe-ingredient",
         )
-    
