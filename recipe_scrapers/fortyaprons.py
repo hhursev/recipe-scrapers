@@ -60,10 +60,7 @@ class FortyAprons(AbstractScraper):
         return (sum(ratings) / len(ratings)) if ratings else float(0)
 
     def ratings_count(self):
-        aggregate_rating = self.schema.data.get("aggregateRating", {})
-        rating_count = aggregate_rating.get("ratingCount")
-
-        return float(rating_count) if rating_count else float(0)
+        return self.schema.ratings_count()
 
 
 
