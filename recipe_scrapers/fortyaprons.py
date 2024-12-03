@@ -65,19 +65,6 @@ class FortyAprons(AbstractScraper):
 
         return float(rating_count) if rating_count else float(0)
 
-    def reviews(self):
-        reviews_data = self.schema.data.get("review", [])
-        reviews_list = []
-        for review in reviews_data:
-            review_body = review.get("reviewBody")
-            reviewer_name = review.get("author", {}).get("name")
-            if review_body and reviewer_name:
-                reviews_list.append({
-                    "name": reviewer_name,
-                    "review": review_body
-                })
-
-        return reviews_list if reviews_list else None
 
 
     def equipment(self):
