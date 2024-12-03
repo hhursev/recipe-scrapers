@@ -250,6 +250,7 @@ Scrapers available for:
 - `https://www.innit.com/ <https://www.innit.com/>`_
 - `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
+- `https://www.irishcentral.com/ <https://www.irishcentral.com/>`_
 - `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_

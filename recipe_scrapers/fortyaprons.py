@@ -52,8 +52,6 @@ class FortyAprons(AbstractScraper):
     def ratings_count(self):
         return self.schema.ratings_count()
 
-
-
     def equipment(self):
         equipment_elements = self.soup.select(".wprm-recipe-equipment-name")
         return [element.get_text() for element in equipment_elements] if equipment_elements else None

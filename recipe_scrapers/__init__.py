@@ -1,4 +1,5 @@
 from __future__ import annotations
+from .irishcentral import IrishCentral
 
 __all__ = (
     "AbstractScraper",
@@ -534,6 +535,7 @@ SCRAPERS = {
     HungryHappens.host(): HungryHappens,
     InBloomBakery.host(): InBloomBakery,
     InGoodFlavor.host(): InGoodFlavor,
+    IrishCentral.host(): IrishCentral,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
