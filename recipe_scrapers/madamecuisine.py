@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._utils import get_yields
 
 
 class MadameCuisine(AbstractScraper):
@@ -27,7 +28,7 @@ class MadameCuisine(AbstractScraper):
         return f"{total_time}"
 
     def yields(self):
-        return self.soup.find("span", {"class": "wprm-recipe-servings"}).get_text()
+        return get_yields(self.soup.find("span", {"class": "wprm-recipe-servings"}))
 
     def image(self):
         return self.soup.select_one(".wp-block-image img")["src"]
