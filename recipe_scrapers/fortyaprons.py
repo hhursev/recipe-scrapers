@@ -1,9 +1,9 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
+
 class FortyAprons(AbstractScraper):
     @classmethod
-
     def host(cls):
         return "40aprons.com"
 
@@ -54,7 +54,11 @@ class FortyAprons(AbstractScraper):
 
     def equipment(self):
         equipment_elements = self.soup.select(".wprm-recipe-equipment-name")
-        return [element.get_text() for element in equipment_elements] if equipment_elements else None
+        return (
+            [element.get_text() for element in equipment_elements]
+            if equipment_elements
+            else None
+        )
 
     def keywords(self):
         return self.schema.keywords()
