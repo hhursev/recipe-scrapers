@@ -9,7 +9,7 @@ class QuakerOats(AbstractScraper):
         return "quakeroats.com"
 
     def canonical_url(self):
-        raise FieldNotProvidedByWebsiteException("No canonical URL provided")
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def instructions_list(self):
         raise ElementNotFoundInHtml("instructions_list")
