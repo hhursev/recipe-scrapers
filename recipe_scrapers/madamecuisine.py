@@ -25,7 +25,7 @@ class MadameCuisine(AbstractScraper):
         for time_element in time_elements:
             total_time += int(time_element.contents[0].strip())
 
-        return f"{total_time}"
+        return total_time
 
     def yields(self):
         return get_yields(self.soup.find("span", {"class": "wprm-recipe-servings"}))
