@@ -84,8 +84,6 @@ class IrishCentral(AbstractScraper):
             serves_value = re.search(r"Serves\s+(\d+)", serves_text).group(1)
             return get_yields(serves_value)
 
-        raise FieldNotProvidedByWebsiteException(return_value=None)
-
     def keywords(self):
         keywords = self.soup.find("meta", {"name": "keywords"})["content"]
         return [keyword.strip() for keyword in keywords.split(",")] if keywords else []
