@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-import json, re
+import re
 from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
