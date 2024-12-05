@@ -72,8 +72,8 @@ class IrishCentral(AbstractScraper):
         return "\n".join(instructions_list)
 
     def title(self):
-        title = self.soup.find('meta', {'property': 'og:title'})['content']
-        return title if title else FieldNotProvidedByWebsiteException(return_value=None)
+        title = self.soup.find("meta", {"property": "og:title"})["content"]
+        return title
 
     def total_time(self):
         return FieldNotProvidedByWebsiteException(return_value=None)
