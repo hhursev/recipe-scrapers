@@ -82,13 +82,13 @@ class IrishCentral(AbstractScraper):
 
     def yields(self):
         serves_label = self.soup.find("strong", text=lambda t: t and "Serves:" in t)
-        
+
         # serves_label = self.soup.find("p", string=re.compile(r"Serves\s+\d+"))
 
         if serves_label:
             serves_text = normalize_string(serves_label.get_text())
             serves_value = serves_text.replace("Serves:", "").strip()
-            return f"Serves {serves_value}"
+            return get_yields(serves_value)
         
         # if serves_label:
         #     serves_text = normalize_string(serves_label.get_text())
