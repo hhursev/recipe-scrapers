@@ -81,12 +81,19 @@ class IrishCentral(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
-        serves_label = self.soup.find("p", string=re.compile(r"Serves\s+\d+"))
+        serves_label = self.soup.find("strong", text=lambda t: t and "Serves:" in t)
+        
+        # serves_label = self.soup.find("p", string=re.compile(r"Serves\s+\d+"))
 
         if serves_label:
             serves_text = normalize_string(serves_label.get_text())
-            serves_value = re.search(r"Serves\s+(\d+)", serves_text).group(1)
-            return get_yields(serves_value)
+            serves_value = serves_text.replace("Serves:", "").strip()
+            return f"Serves {serves_value}"
+        
+        # if serves_label:
+        #     serves_text = normalize_string(serves_label.get_text())
+        #     serves_value = re.search(r"Serves\s+(\d+)", serves_text).group(1)
+        #     return get_yields(serves_value)
 
     def keywords(self):
         keywords = self.soup.find("meta", {"name": "keywords"})["content"]
