@@ -21,7 +21,7 @@ class IrishCentral(AbstractScraper):
 
     def ingredients(self):
         # Check if the ingredients are in a <p> structure (https://www.irishcentral.com/culture/food-drink/apple-jameson-tart-recipe)
-        ingredients_label = self.soup.find("p", text=re.compile(r"Ingredients:"))
+        ingredients_label = self.soup.find("p", string=re.compile(r"Ingredients:"))
 
         if ingredients_label:
             ingredients_list = []
