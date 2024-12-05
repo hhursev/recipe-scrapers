@@ -13,8 +13,8 @@ class IrishCentral(AbstractScraper):
         return author_element.get_text(strip=True)
 
     def description(self):
-        description = self.soup.find('meta', {'property': 'og:description'})['content']
-        return description if description else FieldNotProvidedByWebsiteException(return_value=None)
+        description = self.soup.find("meta", {"property": "og:description"})["content"]
+        return description
 
     def image(self):
         image = self.soup.find('meta', {'property': 'og:image'})['content']
