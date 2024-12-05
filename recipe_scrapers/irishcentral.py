@@ -17,8 +17,7 @@ class IrishCentral(AbstractScraper):
         return description
 
     def image(self):
-        image = self.soup.find('meta', {'property': 'og:image'})['content']
-        return image if image else FieldNotProvidedByWebsiteException(return_value=None)
+        return self.schema.image()
 
     def ingredients(self):
         # Check if the ingredients are in a <p> structure (https://www.irishcentral.com/culture/food-drink/apple-jameson-tart-recipe)
