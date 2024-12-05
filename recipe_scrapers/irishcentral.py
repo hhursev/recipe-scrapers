@@ -83,8 +83,8 @@ class IrishCentral(AbstractScraper):
 
         if serves_label:
             serves_text = normalize_string(serves_label.get_text())
-            serves_value = serves_text.replace("Serves:", "").strip()
-            return f"Serves {serves_value}"
+            serves_value = re.search(r"Serves\s+(\d+)", serves_text).group(1)
+            return get_yields(serves_value)
 
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
