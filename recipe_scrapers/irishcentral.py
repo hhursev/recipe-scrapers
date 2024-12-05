@@ -79,7 +79,7 @@ class IrishCentral(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
-        serves_label = self.soup.find("strong", text=lambda t: t and "Serves:" in t)
+        serves_label = self.soup.find("p", string=re.compile(r"Serves\s+\d+"))
 
         if serves_label:
             serves_text = normalize_string(serves_label.get_text())
