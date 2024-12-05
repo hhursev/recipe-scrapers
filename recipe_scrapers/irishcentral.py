@@ -9,19 +9,8 @@ class IrishCentral(AbstractScraper):
         return "irishcentral.com"
 
     def author(self):
-        script_tag = self.soup.find('script', type='application/ld+json')
-
-        if script_tag:
-            script_content = script_tag.string
-            cleaned_script_content = re.sub(r'[\x00-\x1f\x7f]', '', script_content)
-            try:
-                ld_json = json.loads(cleaned_script_content)
-                author = ld_json.get('author', {}).get('name', 'Author not found')
-                return author
-            except json.JSONDecodeError:
-                raise FieldNotProvidedByWebsiteException(return_value=None)
-        else:
-            raise FieldNotProvidedByWebsiteException(return_value=None)
+        author_element = self.soup.find("div", class_="article-header-byline-author")
+        return author_element.get_text(strip=True)
 
     def description(self):
         description = self.soup.find('meta', {'property': 'og:description'})['content']
