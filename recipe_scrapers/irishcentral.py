@@ -1,7 +1,8 @@
 from ._abstract import AbstractScraper
 import re
 from ._exceptions import FieldNotProvidedByWebsiteException
-from ._utils import normalize_string
+from ._utils import normalize_string, get_yields
+
 
 class IrishCentral(AbstractScraper):
     @classmethod
@@ -33,7 +34,9 @@ class IrishCentral(AbstractScraper):
                 if not text or text.lower() in ["most read", "popular"]:
                     continue
 
-                if not text.startswith("-") and not any(char.isdigit() for char in text):
+                if not text.startswith("-") and not any(
+                    char.isdigit() for char in text
+                ):
                     break
 
                 ingredients_list.append(text.lstrip("-").strip())
@@ -47,7 +50,8 @@ class IrishCentral(AbstractScraper):
                 ingredients_list = [
                     normalize_string(li.get_text())
                     for li in ingredients_list.find_all("li")
-                    if li.get_text(strip=True) and li.get_text(strip=True).lower() not in ["most read", "popular"]
+                    if li.get_text(strip=True)
+                    and li.get_text(strip=True).lower() not in ["most read", "popular"]
                 ]
                 if ingredients_list:
                     return ingredients_list
