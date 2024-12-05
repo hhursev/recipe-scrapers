@@ -76,7 +76,7 @@ class IrishCentral(AbstractScraper):
         return title
 
     def total_time(self):
-        return FieldNotProvidedByWebsiteException(return_value=None)
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         serves_label = self.soup.find("strong", text=lambda t: t and "Serves:" in t)
