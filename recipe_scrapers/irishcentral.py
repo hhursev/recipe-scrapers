@@ -52,8 +52,6 @@ class IrishCentral(AbstractScraper):
                 if ingredients_list:
                     return ingredients_list
 
-        return FieldNotProvidedByWebsiteException(return_value=None)
-
     def instructions(self):
         instructions_label = self.soup.find("p", string=re.compile(r"Method"))
         instructions_list = []
