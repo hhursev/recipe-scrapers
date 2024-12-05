@@ -64,18 +64,12 @@ class IrishCentral(AbstractScraper):
 
             for step in instructions_steps:
                 instruction_text = normalize_string(step.get_text())
-
-                if not instruction_text or instruction_text.startswith("*"):
+                if instruction_text and not instruction_text.startswith("*"):
+                    instructions_list.append(instruction_text)
+                else:
                     break
 
-                instructions_list.append(instruction_text)
-
-            if not instructions_list:
-                return FieldNotProvidedByWebsiteException(return_value=None)
-
-            return "\n".join(instructions_list)
-
-        return FieldNotProvidedByWebsiteException(return_value=None)
+        return "\n".join(instructions_list)
 
     def title(self):
         title = self.soup.find('meta', {'property': 'og:title'})['content']
