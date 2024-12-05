@@ -55,7 +55,8 @@ class IrishCentral(AbstractScraper):
         return FieldNotProvidedByWebsiteException(return_value=None)
 
     def instructions(self):
-        instructions_label = self.soup.find("p", text=re.compile(r"Method:"))
+        instructions_label = self.soup.find("p", string=re.compile(r"Method"))
+        instructions_list = []
 
         if instructions_label:
             instructions_list = []
