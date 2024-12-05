@@ -23,14 +23,10 @@ else:
     requests_import_error = None
 
 from ._abstract import HEADERS, AbstractScraper
-from ._exceptions import (
-    ElementNotFoundInHtml,
-    FieldNotProvidedByWebsiteException,
-    NoSchemaFoundInWildMode,
-    RecipeSchemaNotFound,
-    StaticValueException,
-    WebsiteNotImplementedError,
-)
+from ._exceptions import (ElementNotFoundInHtml,
+                          FieldNotProvidedByWebsiteException,
+                          NoSchemaFoundInWildMode, RecipeSchemaNotFound,
+                          StaticValueException, WebsiteNotImplementedError)
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abeautifulmess import ABeautifulMess
@@ -194,10 +190,10 @@ from .imworthy import ImWorthy
 from .inbloombakery import InBloomBakery
 from .indianhealthyrecipes import IndianHealthyRecipes
 from .ingoodflavor import InGoodFlavor
-from .irishcentral import IrishCentral
 from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
 from .inspiralized import Inspiralized
+from .irishcentral import IrishCentral
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
 from .jimcooksfoodgood import JimCooksFoodGood
