@@ -23,10 +23,14 @@ else:
     requests_import_error = None
 
 from ._abstract import HEADERS, AbstractScraper
-from ._exceptions import (ElementNotFoundInHtml,
-                          FieldNotProvidedByWebsiteException,
-                          NoSchemaFoundInWildMode, RecipeSchemaNotFound,
-                          StaticValueException, WebsiteNotImplementedError)
+from ._exceptions import (
+    ElementNotFoundInHtml,
+    FieldNotProvidedByWebsiteException,
+    NoSchemaFoundInWildMode,
+    RecipeSchemaNotFound,
+    StaticValueException,
+    WebsiteNotImplementedError,
+)
 from ._factory import SchemaScraperFactory
 from ._utils import get_host_name
 from .abeautifulmess import ABeautifulMess
