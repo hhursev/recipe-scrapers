@@ -58,6 +58,7 @@ To learn what the library can do, you can open a `Python interpreter session <ht
     Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>> from recipe_scrapers import scrape_html
+    >>> import requests
     >>> url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
     >>> name = input('What is your name, burger seeker?\n')
     >>> html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
