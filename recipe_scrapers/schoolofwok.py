@@ -2,7 +2,7 @@ from collections import defaultdict
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
-from ._utils import normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class SchoolOfWok(AbstractScraper):
@@ -24,117 +24,83 @@ class SchoolOfWok(AbstractScraper):
             string=lambda text: text and text.lower() == "cuisine"
         )
 
-        if not categoryheader:
-            return ""
-
-        return categoryheader.find_next("p").get_text()
+        return categoryheader.find_next("p").get_text() if categoryheader else None
 
     def total_time(self):
         timeheader = self.soup.find(string=lambda text: text and text.lower() == "time")
 
-        if not timeheader:
-            return ""
-
-        return int(timeheader.find_next("p").get_text().split(" ")[0])
+        return get_minutes(timeheader.find_next("p").get_text()) if timeheader else None
 
     def yields(self):
         servingheader = self.soup.find(
             string=lambda text: text and text.lower() == "servings"
         )
 
-        if not servingheader:
-            return ""
-
-        servingsize = servingheader.find_next("p").get_text().split(" ")[0]
         return (
-            f"{servingsize} serving"
-            if int(servingsize) == 1
-            else f"{servingsize} servings"
+            get_yields(servingheader.find_next("p").get_text())
+            if servingheader
+            else None
         )
 
     def image(self):
         return self.soup.find("img", {"alt": "recipe"}).get("src")
 
     def ingredients(self):
-        possibleingredients = (
-            self.soup.find("section", {"id": "recipe-ingredients"})
-            .findChildren(
-                "div",
-                {
-                    "class": "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-                },
-            )[0]
-            .find_all("p")
-        )
-        ingredientslist = []
+        section = self.soup.find("section", {"id": "recipe-ingredients"})
+        div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
+        divs = section.findChildren("div", {"class": div_class})
 
-        if possibleingredients:
-            for ingredient in possibleingredients:
-                if not ingredient.find("strong") and normalize_string(
-                    ingredient.get_text()
-                ):
-                    ingredientslist.append(normalize_string(ingredient.get_text()))
+        if not divs:
+            return []
+
+        paragraphs = divs[0].find_all("p")
+        ingredients_list = []
+
+        if paragraphs:
+            for paragraph in paragraphs:
+                text = normalize_string(paragraph.get_text())
+                if text and not paragraph.find("strong"):
+                    ingredients_list.append(text)
         else:
-            possibleingredients = (
-                self.soup.find("section", {"id": "recipe-ingredients"})
-                .findChildren(
-                    "div",
-                    {
-                        "class": "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-                    },
-                )[0]
-                .find_all("li")
-            )
-            ingredientslist = [
-                normalize_string(ingredient.get_text())
-                for ingredient in possibleingredients
+            list_items = divs[0].find_all("li")
+            ingredients_list = [
+                normalize_string(item.get_text()) for item in list_items
             ]
 
-        return ingredientslist
+        return ingredients_list
 
     def ingredient_groups(self):
-        possibleingredients = (
-            self.soup.find("section", {"id": "recipe-ingredients"})
-            .findChildren(
-                "div",
-                {
-                    "class": "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-                },
-            )[0]
-            .find_all("p")
-        )
+        section = self.soup.find("section", {"id": "recipe-ingredients"})
+        div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
+        divs = section.findChildren("div", {"class": div_class})
+
+        if not divs:
+            return []
+
+        paragraphs = divs[0].find_all("p")
         groupings = defaultdict(list)
         current_heading = None
 
-        if possibleingredients:
-            for ingredient in possibleingredients:
-                normalizedingredient = normalize_string(ingredient.get_text())
-                if normalizedingredient:
-                    if ingredient.find("strong"):
-                        current_heading = normalizedingredient
+        if paragraphs:
+            for paragraph in paragraphs:
+                normalized_ingredient = normalize_string(paragraph.get_text())
+                if normalized_ingredient:
+                    if paragraph.find("strong"):
+                        current_heading = normalized_ingredient
                     else:
-                        groupings[current_heading].append(normalizedingredient)
+                        groupings[current_heading].append(normalized_ingredient)
         else:
-            possibleingredients = (
-                self.soup.find("section", {"id": "recipe-ingredients"})
-                .findChildren(
-                    "div",
-                    {
-                        "class": "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-                    },
-                )[0]
-                .find_all()
-            )
-            for ingredient in possibleingredients:
-                normalizedingredient = normalize_string(ingredient.get_text())
-                if normalizedingredient:
-                    if (
-                        ingredient.name == "h3"
-                        and normalizedingredient.lower() != "ingredients"
-                    ):
-                        current_heading = normalizedingredient
-                    elif ingredient.name == "li":
-                        groupings[current_heading].append(normalizedingredient)
+            list_items = divs[0].find_all()
+            for item in list_items:
+                if (
+                    item.name == "h3"
+                    and normalize_string(item.get_text()).lower() != "ingredients"
+                ):
+                    current_heading = normalize_string(item.get_text())
+                elif item.name == "li":
+                    normalized_ingredient = normalize_string(item.get_text())
+                    if normalized_ingredient:
+                        groupings[current_heading].append(normalized_ingredient)
 
         return [
             IngredientGroup(purpose=heading, ingredients=items)
@@ -142,16 +108,14 @@ class SchoolOfWok(AbstractScraper):
         ]
 
     def instructions(self):
-        instructions = (
-            self.soup.find("section", {"id": "recipe-ingredients"})
-            .findChildren(
-                "div",
-                {
-                    "class": "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-                },
-            )[1]
-            .find_all("p")
-        )
+        section = self.soup.find("section", {"id": "recipe-ingredients"})
+        div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
+        divs = section.findChildren("div", {"class": div_class})
+
+        if len(divs) < 2:
+            return ""
+
+        instructions = divs[1].find_all("p")
         instructionslist = []
 
         for instruction in instructions:
