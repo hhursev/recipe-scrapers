@@ -393,6 +393,7 @@ Scrapers available for:
 - `https://sandwichtribunal.com/ <https://sandwichtribunal.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
+- `https://schoolofwok.co.uk/ <https://schoolofwok.co.uk/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
 - `https://shelikesfood.com/ <https://shelikesfood.com/>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
