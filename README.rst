@@ -51,18 +51,21 @@ Start by using `Python's built-in package installer <https://docs.python.org/3/i
 
 This should produce output about the installation process, with the final line reading: ``Successfully installed recipe-scrapers-<version-number>``.
 
-To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below (on the lines containing the ``>>>`` prompt):
+To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below:
 
-.. code:: pycon
+.. code:: python
 
-    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> from recipe_scrapers import scrape_html
-    >>> url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    >>> name = input('What is your name, burger seeker?\n')
-    >>> html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
-    >>> scraper = scrape_html(html, org_url=url)
-    >>> help(scraper)
+    from urllib.request import urlopen
+
+    from recipe_scrapers import scrape_html
+
+    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    html = urlopen(url).read().decode("utf-8")  # retrieves the recipe webpage HTML
+    scraper = scrape_html(html, org_url=url)
+    scraper.title()
+    scraper.instructions()  # etc.
+    # for a complete list of methods:
+    # help(scraper)
 
 Some Python HTTP clients that you can use to retrieve HTML include `requests`_, `httpx`_, and the `urllib.request module`_ included in Python's standard library.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
 
@@ -579,15 +582,16 @@ Notes:
 
 Run in python shell:
 
-.. code:: pycon
+.. code:: python
 
-    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> from recipe_scrapers import scrape_html
-    >>> scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
-    >>> # if no error is raised - there's schema available:
-    >>> scraper.title()
-    >>> scraper.instructions()  # etc.
+    # first ensure you have the required packages:
+    # pip install "recipe-scrapers[online]"
+
+    from recipe_scrapers import scrape_html
+    scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
+    # if no error is raised - there's schema available:
+    scraper.title()
+    scraper.instructions()  # etc.
 
 
 Special thanks to:
