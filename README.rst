@@ -37,8 +37,6 @@ If you're using this library to collect large numbers of recipes from the web, p
 
 Python's standard library provides a ``robots.txt`` `parser <https://docs.python.org/3/library/urllib.robotparser.html>`_ that may be helpful to automatically follow common instructions specified by websites for web crawlers.
 
-Another parser option -- particularly if you find that many web requests from ``urllib.robotparser`` are blocked -- is the `robotexclusionrulesparser <https://pypi.org/project/robotexclusionrulesparser/>`_ library.
-
 
 Getting Started
 ---------------
@@ -51,18 +49,21 @@ Start by using `Python's built-in package installer <https://docs.python.org/3/i
 
 This should produce output about the installation process, with the final line reading: ``Successfully installed recipe-scrapers-<version-number>``.
 
-To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below (on the lines containing the ``>>>`` prompt):
+To learn what the library can do, you can open a `Python interpreter session <https://docs.python.org/3/tutorial/interpreter.html>`_, and then begin typing -- and/or modifying -- the statements below:
 
-.. code:: pycon
+.. code:: python
 
-    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> from recipe_scrapers import scrape_html
-    >>> url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    >>> name = input('What is your name, burger seeker?\n')
-    >>> html = requests.get(url, headers={"User-Agent": f"Burger Seeker {name}"}).content
-    >>> scraper = scrape_html(html, org_url=url)
-    >>> help(scraper)
+    from urllib.request import urlopen
+
+    from recipe_scrapers import scrape_html
+
+    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
+    html = urlopen(url).read().decode("utf-8")  # retrieves the recipe webpage HTML
+    scraper = scrape_html(html, org_url=url)
+    scraper.title()
+    scraper.instructions()  # etc.
+    # for a complete list of methods:
+    # help(scraper)
 
 Some Python HTTP clients that you can use to retrieve HTML include `requests`_, `httpx`_, and the `urllib.request module`_ included in Python's standard library.  Please refer to their documentation to find out what options (timeout configuration, proxy support, etc) are available.
 
@@ -78,6 +79,7 @@ Scrapers available for:
 
 - `https://101cookbooks.com/ <https://101cookbooks.com/>`_
 - `https://15gram.be <https://15gram.be>`_
+- `https://40aprons.com/ <https://40aprons.com/>`_
 - `https://www.750g.com <https://www.750g.com>`_
 - `https://abeautifulmess.com/ <https://abeautifulmess.com/>`_
 - `https://aberlehome.com/ <https://aberlehome.com>`_
@@ -87,6 +89,7 @@ Scrapers available for:
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
+- `https://www.ahealthysliceoflife.com/ <https://www.ahealthysliceoflife.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://aldi-nord.de/ <https://aldi-nord.de/>`_
     - `.es <https://aldi.es/>`__, `.fr <https://aldi.fr/>`__, `.lu <https://aldi.lu/>`__, `.nl <https://aldi.nl/>`__, `.pl <https://aldi.pl/>`__, `.pt <https://aldi.pt/>`__
@@ -102,6 +105,7 @@ Scrapers available for:
 - `https://altonbrown.com/ <https://altonbrown.com/>`_
 - `https://amazingribs.com/ <https://amazingribs.com/>`_
 - `https://ambitiouskitchen.com/ <https://ambitiouskitchen.com>`_
+- `https://ameessavorydish.com/ <https://ameessavorydish.com/>`_
 - `https://americastestkitchen.com/ <https://www.americastestkitchen.com>`_ (*)
 - `https://archanaskitchen.com/ <https://archanaskitchen.com/>`_
 - `https://www.argiro.gr/ <https://www.argiro.gr/>`_
@@ -144,6 +148,7 @@ Scrapers available for:
 - `https://castironketo.net/ <https://castironketo.net/>`_
 - `https://cdkitchen.com/ <https://cdkitchen.com/>`_
 - `https://celebratingsweets.com/ <https://celebratingsweets.com/>`_
+- `https://chefjeanpierre.com/ <https://chefjeanpierre.com/>`_
 - `https://chefkoch.de/ <https://chefkoch.de>`_
 - `https://www.chefnini.com/ <https://www.chefnini.com/>`_
 - `https://chefsavvy.com/ <https://chefsavvy.com/>`_
@@ -158,6 +163,7 @@ Scrapers available for:
 - `https://cooking.nytimes.com/ <https://cooking.nytimes.com>`_
 - `https://cookingcircle.com/ <https://cookingcircle.com/>`_
 - `https://cookinglight.com/ <https://cookinglight.com/>`_
+- `https://cookomix.com/ <https://cookomix.com/>`_
 - `https://cookpad.com/ <https://cookpad.com/>`_
 - `https://cookscountry.com/ <https://www.cookscountry.com>`_ (*)
 - `https://cooksillustrated.com/ <https://www.cooksillustrated.com>`_ (*)
@@ -250,6 +256,7 @@ Scrapers available for:
 - `https://insanelygoodrecipes.com <https://insanelygoodrecipes.com/>`_
 - `https://inspiralized.com/ <https://inspiralized.com>`_
 - `https://inspiredtaste.net/ <https://inspiredtaste.net/>`_
+- `https://irishcentral.com/ <https://irishcentral.com>`_
 - `https://izzycooking.com/ <https://izzycooking.com/>`_
 - `https://jamieoliver.com/ <https://jamieoliver.com>`_
 - `https://jimcooksfoodgood.com/ <https://jimcooksfoodgood.com/>`_
@@ -266,6 +273,7 @@ Scrapers available for:
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
 - `https://kitchenaid.com.au/ <https://kitchenaid.com.au/blogs/kitchenthusiast/tagged/blog-category-recipes>`_
+- `https://kitchendivas.com <https://kitchendivas.com>`_
 - `https://www.kitchendreaming.com <https://www.kitchendreaming.com>`_
 - `https://www.kitchensanctuary.com/ <https://www.kitchensanctuary.com>`_
 - `https://www.kitchenstories.com/ <https://www.kitchenstories.com>`_
@@ -277,6 +285,7 @@ Scrapers available for:
 - `https://kuchnia-domowa.pl/ <https://www.kuchnia-domowa.pl/>`_
 - `https://kuchynalidla.sk/ <https://www.kuchynalidla.sk/>`_
 - `https://www.kwestiasmaku.com/ <https://www.kwestiasmaku.com/>`_
+- `https://lanascooking.com/ <https://lanascooking.com/>`_
 - `https://www.latelierderoxane.com <https://www.latelierderoxane.com/blog/recettes/>`_
 - `https://leanandgreenrecipes.net <https://leanandgreenrecipes.net>`_
 - `https://www.lecker.de <https://www.lecker.de/rezepte>`_
@@ -290,12 +299,14 @@ Scrapers available for:
 - `http://livelytable.com/ <http://livelytable.com/>`_
 - `https://lovingitvegan.com/ <https://lovingitvegan.com/>`_
 - `https://www.maangchi.com <https://www.maangchi.com>`_
+- `https://www.madamecuisine.de <https://www.madamecuisine.de>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
 - `https://www.mccormick.com/ <https://www.mccormick.com/>`_
+- `https://meganvskitchen.com/ <https://meganvskitchen.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `https://www.miljuschka.nl/ <https://www.miljuschka.nl/>`_
@@ -364,6 +375,7 @@ Scrapers available for:
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://recept.se/ <https://recept.se/>`_
 - `https://receptyprevas.sk/ <https://receptyprevas.sk/>`_
+- `https://recette.plus/ <https://recette.plus/>`_
 - `https://www.recipegirl.com/ <https://www.recipegirl.com/>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
@@ -385,7 +397,9 @@ Scrapers available for:
 - `https://sandwichtribunal.com/ <https://sandwichtribunal.com/>`_
 - `https://www.saveur.com/ <https://www.saveur.com/>`_
 - `https://www.savorynothings.com/ <https://www.savorynothings.com/>`_
+- `https://schoolofwok.co.uk/ <https://schoolofwok.co.uk/>`_
 - `https://seriouseats.com/ <https://seriouseats.com>`_
+- `https://shelikesfood.com/ <https://shelikesfood.com/>`_
 - `https://simple-veganista.com/ <https://simple-veganista.com/>`_
 - `https://simply-cookit.com/ <https://simply-cookit.com>`_
 - `https://simplyquinoa.com/ <https://simplyquinoa.com>`_
@@ -426,6 +440,7 @@ Scrapers available for:
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://theloopywhisk.com/ <https://theloopywhisk.com/>`_
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
+- `https://themediterraneandish.com/ <https://themediterraneandish.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
@@ -449,9 +464,11 @@ Scrapers available for:
 - `https://www.vegetarbloggen.no/ <https://www.vegetarbloggen.no/>`_
 - `https://vegolosi.it/ <https://vegolosi.it>`_
 - `https://vegrecipesofindia.com/ <https://www.vegrecipesofindia.com/>`_
+- `https://veroniquecloutier.com <https://veroniquecloutier.com>`_
 - `https://www.waitrose.com/ <https://www.waitrose.com/>`_
 - `https://watchwhatueat.com/ <https://watchwhatueat.com/>`_
 - `https://wearenotmartha.com/ <https://wearenotmartha.com/>`_
+- `https://wedishitup.com/ <https://wedishitup.com/>`_
 - `https://www.weightwatchers.com/ <https://www.weightwatchers.com/>`_ (*)
 - `https://www.wellplated.com/ <https://www.wellplated.com/>`_
 - `https://whatsgabycooking.com/ <https://whatsgabycooking.com>`_
@@ -564,15 +581,16 @@ Notes:
 
 Run in python shell:
 
-.. code:: pycon
+.. code:: python
 
-    Python 4.0.4 (main, Oct 26 1985, 09:00:32) [GCC 22.3.4] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    >>> from recipe_scrapers import scrape_html
-    >>> scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
-    >>> # if no error is raised - there's schema available:
-    >>> scraper.title()
-    >>> scraper.instructions()  # etc.
+    # first ensure you have the required packages:
+    # pip install "recipe-scrapers[online]"
+
+    from recipe_scrapers import scrape_html
+    scraper = scrape_html(html=None, org_url='<url of a recipe from the site>', online=True, wild_mode=True)
+    # if no error is raised - there's schema available:
+    scraper.title()
+    scraper.instructions()  # etc.
 
 
 Special thanks to:
@@ -585,7 +603,7 @@ All the `contributors that helped improving <https://github.com/hhursev/recipe-s
 
 
 Test Data Notice
----------------
+----------------
 
 All content in ``tests/test_data/`` is used for limited, non-commercial testing purposes and belongs to their respective copyright holders. See the ``tests/test_data/LICENSE.md`` for details. If you're a copyright holder with concerns, you can open an issue or contact us privately via the email in our PyPI page.
 

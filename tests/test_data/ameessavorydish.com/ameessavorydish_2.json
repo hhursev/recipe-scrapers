@@ -1,0 +1,84 @@
+{
+  "author": "Amee Livingston",
+  "canonical_url": "https://ameessavorydish.com/roasted-vegetable-power-bowl-with-creamy-avocado-dressing-thereciperedux/",
+  "site_name": "Amee's Savory Dish",
+  "host": "ameessavorydish.com",
+  "language": "en-US",
+  "title": "Taco Bell Veggie Power Bowl {Copycat Recipe}",
+  "ingredients": [
+    "1 cup canned black beans in seasoned sauce",
+    "1 cup Spanish style ready rice",
+    "4 cups lettuce finely chopped",
+    "2 Roma tomatoes seeded and chopped",
+    "2 oz cheddar cheese shredded-or try a three-cheese blend similar to the one Taco Bell uses, made with mozzarella, cheddar, and pepper jack cheese",
+    "½ avocado sliced",
+    "2 tbsp sour cream",
+    "½ ripe avocado",
+    "½ cup plain non-fat Greek yogurt",
+    "3 tbsp fresh lime juice",
+    "1 tbsp ranch seasoning *in the packet",
+    "Optional bowl add-ins: onions, pickled jalapeños, salsa, pico de gallo"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup canned black beans in seasoned sauce",
+        "1 cup Spanish style ready rice",
+        "4 cups lettuce finely chopped",
+        "2 Roma tomatoes seeded and chopped",
+        "2 oz cheddar cheese shredded-or try a three-cheese blend similar to the one Taco Bell uses, made with mozzarella, cheddar, and pepper jack cheese",
+        "½ avocado sliced",
+        "2 tbsp sour cream"
+      ],
+      "purpose": "For the bowls:"
+    },
+    {
+      "ingredients": [
+        "½ ripe avocado",
+        "½ cup plain non-fat Greek yogurt",
+        "3 tbsp fresh lime juice",
+        "1 tbsp ranch seasoning *in the packet",
+        "Optional bowl add-ins: onions, pickled jalapeños, salsa, pico de gallo"
+      ],
+      "purpose": "For the avocado lime ranch dressing:"
+    }
+  ],
+  "instructions_list": [
+    "Place the black beans in a small saucepan and heat on medium-low. Heat beans until simmering, while stirring.",
+    "While the beans are simmering, cook the seasoned rice in the microwave according to package directions, typically 90 seconds.",
+    "Divide the ingredients between 2 medium-size bowls.",
+    "Place the dressing ingredients into a small blender or food processor and blend until smooth.",
+    "Drizzle the dressing on top of the bowls and serve."
+  ],
+  "category": "Main Course",
+  "yields": "2 servings",
+  "description": "An easy Mexican-inspired vegetable power bowl recipe ready in 10 minutes or less.",
+  "total_time": 10,
+  "cook_time": 5,
+  "prep_time": 5,
+  "cuisine": "Mexican",
+  "equipment": [
+    "Microwave",
+    "small saucepan"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "484 kcal",
+    "fatContent": "21 g",
+    "saturatedFatContent": "7 g",
+    "unsaturatedFatContent": "11 g",
+    "transFatContent": "0.01 g",
+    "carbohydrateContent": "55 g",
+    "sugarContent": "8 g",
+    "proteinContent": "22 g",
+    "sodiumContent": "1343 mg",
+    "fiberContent": "12 g",
+    "cholesterolContent": "35 mg"
+  },
+  "image": "https://ameessavorydish.com/wp-content/uploads/2016/10/Veggie-taco-bowl-feature.jpg",
+  "keywords": [
+    "beans",
+    "rice",
+    "vegetables"
+  ]
+}
