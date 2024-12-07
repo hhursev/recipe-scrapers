@@ -437,6 +437,7 @@ Scrapers available for:
 - `https://thekitchn.com/ <https://thekitchn.com/>`_
 - `https://theloopywhisk.com/ <https://theloopywhisk.com/>`_
 - `https://www.themagicalslowcooker.com/ <https://www.themagicalslowcooker.com/>`_
+- `https://themediterraneandish.com/ <https://themediterraneandish.com/>`_
 - `https://themodernproper.com/ <https://themodernproper.com/>`_
 - `https://www.thepalatablelife.com <https://www.thepalatablelife.com/>`_
 - `https://thepioneerwoman.com/ <https://thepioneerwoman.com>`_
