@@ -371,6 +371,7 @@ Scrapers available for:
 - `https://www.receitasnestle.com.br <https://www.receitasnestle.com.br>`_
 - `https://recept.se/ <https://recept.se/>`_
 - `https://receptyprevas.sk/ <https://receptyprevas.sk/>`_
+- `https://recette.plus/ <https://recette.plus/>`_
 - `https://www.recipegirl.com/ <https://www.recipegirl.com/>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
