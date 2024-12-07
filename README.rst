@@ -88,6 +88,7 @@ Scrapers available for:
 - `http://www.afghankitchenrecipes.com/ <http://www.afghankitchenrecipes.com/>`_
 - `https://aflavorjournal.com/ <https://aflavorjournal.com/>`_
 - `https://ah.nl/ <https://ah.nl/>`_
+- `https://www.ahealthysliceoflife.com/ <https://www.ahealthysliceoflife.com/>`_
 - `https://akispetretzikis.com/ <https://akispetretzikis.com/>`_
 - `https://aldi-nord.de/ <https://aldi-nord.de/>`_
     - `.es <https://aldi.es/>`__, `.fr <https://aldi.fr/>`__, `.lu <https://aldi.lu/>`__, `.nl <https://aldi.nl/>`__, `.pl <https://aldi.pl/>`__, `.pt <https://aldi.pt/>`__

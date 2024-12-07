@@ -41,6 +41,7 @@ from .acouplecooks import ACoupleCooks
 from .addapinch import AddAPinch
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .aflavorjournal import AFlavorJournal
+from .ahealthysliceoflife import AHealthySliceOfLife
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
 from .aldi import Aldi
@@ -428,6 +429,7 @@ SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
     ACoupleCooks.host(): ACoupleCooks,
     AFlavorJournal.host(): AFlavorJournal,
+    AHealthySliceOfLife.host(): AHealthySliceOfLife,
     ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
