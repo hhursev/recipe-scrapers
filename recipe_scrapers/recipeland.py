@@ -26,15 +26,6 @@ class RecipeLand(AbstractScraper):
         ]
 
     def ingredient_groups(self):
-
-        def add_group():
-            if current_group or grouped_ingredients:
-                groups.append(
-                    IngredientGroup(
-                        ingredients=grouped_ingredients, purpose=current_group
-                    )
-                )
-
         ingredient_rows = self.soup.select("#ingredient_list tbody tr")
         groups = []
         current_group = None
@@ -43,13 +34,22 @@ class RecipeLand(AbstractScraper):
         for row in ingredient_rows:
             group_header = row.select_one("th.i-head")
             if group_header:
-                add_group()
-                grouped_ingredients = []
+                if current_group or grouped_ingredients:
+                    groups.append(
+                        IngredientGroup(
+                            ingredients=grouped_ingredients, purpose=current_group
+                        )
+                    )
                 current_group = group_header.get_text(strip=True)
+                grouped_ingredients = []
             else:
                 full_ingredient = self._parse_ingredient_row(row)
                 if full_ingredient:
                     grouped_ingredients.append(full_ingredient)
 
-        add_group()
+        if current_group or grouped_ingredients:
+            groups.append(
+                IngredientGroup(ingredients=grouped_ingredients, purpose=current_group)
+            )
+
         return groups
