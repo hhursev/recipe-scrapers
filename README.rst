@@ -195,6 +195,7 @@ Scrapers available for:
 - `https://eattolerant.de/ <https://eattolerant.de/>`_
 - `https://www.eatwell101.com <https://www.eatwell101.com>`_
 - `https://eatwhattonight.com/ <https://eatwhattonight.com/>`_
+- `https://eggs.ca/ <https://eggs.ca/>`_
 - `https://elavegan.com/ <https://elavegan.com/>`_
 - `https://emmikochteinfach.de/ <https://emmikochteinfach.de/>`_
 - `https://en.wikibooks.org/ <https://en.wikibooks.org>`_

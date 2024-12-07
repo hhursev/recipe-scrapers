@@ -267,7 +267,11 @@ class SchemaOrg:
         return instructions_gist
 
     def instructions(self):
-        instructions = self.data.get("recipeInstructions") or ""
+        instructions = (
+            self.data.get("recipeInstructions")
+            or self.data.get("RecipeInstructions")
+            or ""
+        )
 
         if (
             instructions
