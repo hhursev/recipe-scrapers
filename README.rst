@@ -301,6 +301,7 @@ Scrapers available for:
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
 - `https://www.mccormick.com/ <https://www.mccormick.com/>`_
+- `https://meganvskitchen.com/ <https://meganvskitchen.com/>`_
 - `https://meljoulwan.com/ <https://meljoulwan.com/>`_
 - `https://www.melskitchencafe.com/ <https://www.melskitchencafe.com/>`_
 - `https://www.miljuschka.nl/ <https://www.miljuschka.nl/>`_
