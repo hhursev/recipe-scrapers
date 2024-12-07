@@ -46,6 +46,18 @@
   "yields": "4 servings",
   "description": "Dieser leckere Eintopf wird mit viel Gemüse, Bohnen, Gewürzen und Kräutern zubereitet. Die Gemüse-Sorten lassen sich - je nach Geschmack und Saison - beliebig variieren. Ein einfaches Essen, das sich wunderbar vorbereiten lässt und durchaus auch Gäste tauglich ist. ",
   "total_time": 60,
+  "cook_time": 40,
+  "prep_time": 20,
   "cuisine": "Amerikanisch, Deutsch",
-  "image": "https://www.madamecuisine.de/wp-content/uploads/2024/10/gemueseeintopf-mit-wintergemuese04.jpg"
+  "ratings": 5.0,
+  "ratings_count": 4,
+  "nutrients": {
+    "servingSize": "1 Portion",
+    "calories": "540 kcal"
+  },
+  "image": "https://www.madamecuisine.de/wp-content/uploads/2024/10/gemueseeintopf-mit-wintergemuese04.jpg",
+  "keywords": [
+    "Eintopf",
+    "Gemüseeintopf"
+  ]
 }

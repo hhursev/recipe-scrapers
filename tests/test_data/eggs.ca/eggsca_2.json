@@ -62,5 +62,17 @@
   "total_time": 55,
   "cook_time": 15,
   "prep_time": 15,
+  "nutrients": {
+    "calories": "294",
+    "fatContent": "14 g",
+    "saturatedFatContent": "6 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "42 g",
+    "sugarContent": "33 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "167 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "2 mg"
+  },
   "image": "https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS.jpg"
 }

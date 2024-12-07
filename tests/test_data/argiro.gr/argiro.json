@@ -54,5 +54,10 @@
   "cook_time": 75,
   "prep_time": 30,
   "cuisine": "Ελληνική Κουζίνα",
+  "ratings": 5.0,
+  "ratings_count": 6418,
+  "nutrients": {
+    "calories": "468 Θερμίδες"
+  },
   "image": "https://www.argiro.gr/wp-content/uploads/2023/08/gemista-400x400.jpg?v=1715951925"
 }
