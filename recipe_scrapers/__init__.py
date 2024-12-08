@@ -1,4 +1,5 @@
 from __future__ import annotations
+from .noracooks import NoraCooks
 
 __all__ = (
     "AbstractScraper",
@@ -582,6 +583,7 @@ SCRAPERS = {
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
     MyVegetarianRoots.host(): MyVegetarianRoots,
+    NoraCooks.host(): NoraCooks,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
