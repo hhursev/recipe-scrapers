@@ -303,6 +303,7 @@ Scrapers available for:
 - `https://www.madamecuisine.de <https://www.madamecuisine.de>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
+- `https://makeitdairyfree.com/ <https://makeitdairyfree.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
