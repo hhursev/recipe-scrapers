@@ -6,9 +6,13 @@ on:
 
 jobs:
   publish:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
