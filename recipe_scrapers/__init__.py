@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from .naturalharry import NaturalHarry
+
 __all__ = (
     "AbstractScraper",
     "ElementNotFoundInHtml",
@@ -582,6 +584,7 @@ SCRAPERS = {
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
     MyVegetarianRoots.host(): MyVegetarianRoots,
+    NaturalHarry.host(): NaturalHarry,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
