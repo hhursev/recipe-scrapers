@@ -331,6 +331,7 @@ Scrapers available for:
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://myvegetarianroots.com/ <https://myvegetarianroots.com/>`_
+- 'https://naturalharry.com.au/crispy-cauli-tacos-with-tangy-chipotle-mayo/?v=b870c45f9584'_
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://norecipes.com/ <https://norecipes.com/>`_
