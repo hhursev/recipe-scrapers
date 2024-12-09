@@ -326,6 +326,7 @@ from .recept import Recept
 from .receptyprevas import ReceptyPreVas
 from .recetteplus import RecettePlus
 from .recipegirl import RecipeGirl
+from .recipeland import RecipeLand
 from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
@@ -595,6 +596,7 @@ SCRAPERS = {
     RecettePlus.host(): RecettePlus,
     RecipeGirl.host(): RecipeGirl,
     Rewe.host(): Rewe,
+    RecipeLand.host(): RecipeLand,
     RicettePerBimby.host(): RicettePerBimby,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
