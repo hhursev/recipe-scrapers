@@ -270,6 +270,7 @@ Scrapers available for:
 - `https://justbento.com/ <https://justbento.com>`_
 - `https://www.justonecookbook.com/ <https://www.justonecookbook.com>`_
 - `https://kalejunkie.com/ <https://kalejunkie.com/>`_
+- `https://kellyscleankitchen.com/ <https://kellyscleankitchen.com/>`_
 - `https://kennymcgovern.com/ <https://kennymcgovern.com>`_
 - `https://keukenliefde.nl/ <https://keukenliefde.nl>`_
 - `https://www.kingarthurbaking.com <https://www.kingarthurbaking.com>`_
