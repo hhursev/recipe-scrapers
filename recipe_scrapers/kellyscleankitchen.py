@@ -51,7 +51,7 @@ class KellysCleanKitchen(AbstractScraper):
             instruction_text = normalize_string(step.find_next("p").get_text())
             if instruction_text:
                 instructions_list.append(instruction_text)
-        return instructions_list
+        return "\n".join(instructions_list)
 
     def prep_time(self):
         prep_time = (
