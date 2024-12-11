@@ -250,6 +250,7 @@ from .maangchi import Maangchi
 from .madamecuisine import MadameCuisine
 from .madensverden import MadensVerden
 from .madsvin import Madsvin
+from .makeitdairyfree import MakeItDairyFree
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -574,6 +575,7 @@ SCRAPERS = {
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
     MadameCuisine.host(): MadameCuisine,
+    MakeItDairyFree.host(): MakeItDairyFree,
     McCormick.host(): McCormick,
     MeganVsKitchen.host(): MeganVsKitchen,
     Miljuschka.host(): Miljuschka,
