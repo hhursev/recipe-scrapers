@@ -333,7 +333,6 @@ Scrapers available for:
 - `https://myvegetarianroots.com/ <https://myvegetarianroots.com/>`_
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
-- `https://noracooks.com/ <https://noracooks.com/>`_
 - `https://norecipes.com/ <https://norecipes.com/>`_
 - `https://nosalty.hu/ <https://nosalty.hu/>`_
 - `https://www.notenoughcinnamon.com/ <https://www.notenoughcinnamon.com/>`_
