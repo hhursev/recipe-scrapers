@@ -8,5 +8,7 @@ class JamieOliver(AbstractScraper):
         return "jamieoliver.com"
 
     def instructions(self):
-        instructions = self.soup.find("ol", {"class": "recipeSteps"}).findAll("li")
+        method_heading = self.soup.find("h2", string="Method")
+        instructions_list = method_heading.find_next("ol")
+        instructions = instructions_list.find_all("li")
         return "\n".join([normalize_string(inst.get_text()) for inst in instructions])
