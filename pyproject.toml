@@ -47,10 +47,11 @@ online = [
     "requests >= 2.31.0",
 ]
 docs = [
-    "mkdocs",
-    "mkdocs-material",
-    "mkdocstrings[python]",
-    "markdown-exec",
+    "mkdocs >= 1.6.1",
+    "mkdocs-material >= 9.5.48",
+    "mkdocstrings >= 0.27.0",
+    "mkdocstrings-python >= 1.12.2",
+    "markdown-exec >= 1.10.0",
 ]
 
 [tool.setuptools.packages.find]
