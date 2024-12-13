@@ -26,6 +26,11 @@
   "cook_time": 15,
   "prep_time": 5,
   "cuisine": "American",
+  "equipment": [
+    "Large saucepan light-colored saucepan recommended",
+    "whisk",
+    "Pastry brush"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "283 kcal",

@@ -303,6 +303,7 @@ Scrapers available for:
 - `https://www.madamecuisine.de <https://www.madamecuisine.de>`_
 - `https://madensverden.dk/ <https://madensverden.dk/>`_
 - `https://madsvin.com/ <https://madsvin.com/>`_
+- `https://makeitdairyfree.com/ <https://makeitdairyfree.com/>`_
 - `https://marmiton.org/ <https://marmiton.org/>`_
 - `https://www.marthastewart.com/ <https://www.marthastewart.com/>`_
 - `https://matprat.no/ <https://matprat.no/>`_
@@ -333,6 +334,7 @@ Scrapers available for:
 - `https://myvegetarianroots.com/ <https://myvegetarianroots.com/>`_
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
+- `https://noracooks.com/ <https://noracooks.com/>`_
 - `https://norecipes.com/ <https://norecipes.com/>`_
 - `https://nosalty.hu/ <https://nosalty.hu/>`_
 - `https://www.notenoughcinnamon.com/ <https://www.notenoughcinnamon.com/>`_
@@ -378,6 +380,7 @@ Scrapers available for:
 - `https://receptyprevas.sk/ <https://receptyprevas.sk/>`_
 - `https://recette.plus/ <https://recette.plus/>`_
 - `https://www.recipegirl.com/ <https://www.recipegirl.com/>`_
+- `https://recipeland.com/ <https://recipeland.com/>`_
 - `https://reciperunner.com/ <https://www.reciperunner.com>`_
 - `https://recipes.farmhousedelivery.com/ <https://recipes.farmhousedelivery.com/>`_
 - `https://recipes.timesofindia.com/ <https://recipes.timesofindia.com/>`_
