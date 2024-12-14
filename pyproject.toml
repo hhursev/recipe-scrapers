@@ -96,3 +96,31 @@ version = {attr = "recipe_scrapers.__version__.__version__"}
 
 [tool.setuptools.package-data]
 recipe_scrapers = ["py.typed"]
+
+[tool.coverage.run]
+branch = true
+source = ["recipe_scrapers"]
+relative_files = true
+
+[tool.coverage.report]
+omit = [
+    "recipe_scrapers/__version__.py",
+    "recipe_scrapers/plugins/template.py",
+    "recipe_scrapers/settings/template.py"
+]
+exclude_lines = [
+    "raise NotImplementedError"
+]
+
+[tool.mypy]
+[[tool.mypy.overrides]]
+module = "recipe_scrapers.*"
+disable_error_code = "union-attr"
+
+[[tool.mypy.overrides]]
+module = "isodate"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "extruct"
+ignore_missing_imports = true
