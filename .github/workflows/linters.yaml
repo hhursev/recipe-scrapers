@@ -20,6 +20,5 @@ jobs:
         with:
           python-version: "3.x"
           cache: pip
-          cache-dependency-path: .pre-commit-config.yaml
-      - run: pip install pre-commit
+      - run: pip install ".[linters]"
       - run: pre-commit run --all-files

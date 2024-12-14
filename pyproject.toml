@@ -64,13 +64,12 @@ docs = [
 #   coverage run -m unittest                  # Run tests with coverage
 #   coverage report                           # View coverage report in terminal
 #   coverage html                             # Generate HTML coverage report
-test = [
+tests = [
     "coverage >= 7.6.9",           # Code coverage measurement tool
     "unittest-parallel >= 1.7.0",  # Run unittest tests in parallel
     "importlib-metadata >= 4.6 ; python_version < '3.10'",  # used in test_readme
 ]
-dev = [
-    "recipe-scrapers[test]",  # assuming you have test dependencies
+linters = [
     "pre-commit == 4.0.1",    # latest from PyPI
     "black == 24.10.0",       # match what's in .pre-commit-config.yaml
     "flake8 == 7.1.1",        # match what's in .pre-commit-config.yaml
@@ -79,8 +78,11 @@ dev = [
     "types-beautifulsoup4",   # needed for mypy
     "types-requests",         # needed for mypy
 ]
+dev = [
+    "recipe-scrapers[docs,tests,linters]",
+]
 all = [
-    "recipe_scrapers[online,docs,test,dev]"
+    "recipe_scrapers[online,docs,tests,linters,dev]"
 ]
 
 
