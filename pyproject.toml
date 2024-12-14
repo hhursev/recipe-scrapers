@@ -57,7 +57,7 @@ docs = [
 ]
 dev = [
     "recipe-scrapers[test]",  # assuming you have test dependencies
-    "pre-commit == 4.0.1",    # use whatever is .pre-commit-config.yaml
+    "pre-commit == 4.0.1",    # latest from PyPI
     "black == 24.10.0",       # match what's in .pre-commit-config.yaml
     "flake8 == 7.1.1",        # match what's in .pre-commit-config.yaml
     "pep8-naming == 0.14.1",  # match what's in .pre-commit-config.yaml
