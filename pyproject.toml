@@ -65,8 +65,19 @@ dev = [
     "types-beautifulsoup4",   # needed for mypy
     "types-requests",         # needed for mypy
 ]
+# Testing dependencies
+# Install these to run tests and check coverage:
+#   pip install -e ".[test]"
+# Common commands:
+#   python -m unittest                        # Run tests sequentially
+#   python -m unittest_parallel --level test  # Run tests in parallel (speeed)
+#   coverage run -m unittest                  # Run tests with coverage
+#   coverage report                           # View coverage report in terminal
+#   coverage html                             # Generate HTML coverage report
 test = [
-    "coverage >= 7.4.4",
+    "coverage >= 7.6.9",           # Code coverage measurement tool
+    "unittest-parallel >= 1.7.0",  # Run unittest tests in parallel
+    "importlib-metadata >= 4.6 ; python_version < '3.10'",  # used in test_readme
 ]
 all = [
     "recipe_scrapers[online,docs,test]"
