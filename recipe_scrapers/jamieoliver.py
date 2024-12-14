@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class JamieOliver(AbstractScraper):
@@ -15,9 +15,9 @@ class JamieOliver(AbstractScraper):
         return "\n".join([normalize_string(inst.get_text()) for inst in instructions])
 
     def ingredients(self):
+        ingredients_list = self.soup.select(".ingredients-rich-text p.type-body")
         return [
-            ingredient.get_text(strip=True)
-            for ingredient in self.soup.select(".ingredients-rich-text p.type-body")
+            normalize_string(ingredient.get_text()) for ingredient in ingredients_list
         ]
 
     def ingredient_groups(self):
