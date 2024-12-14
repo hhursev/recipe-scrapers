@@ -19,9 +19,6 @@
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
     :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
     :alt: License
-.. image:: https://app.codacy.com/project/badge/Grade/3ee8da77aaa3475a8085ca22287dea89
-    :target: https://app.codacy.com/gh/hhursev/recipe-scrapers/dashboard
-    :alt: Codacy Badge
 
 
 ------
