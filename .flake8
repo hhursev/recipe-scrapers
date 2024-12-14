@@ -1,10 +1,43 @@
 [flake8]
-# FS002 comes from pugin "flake8-use-fstring"
-# and would error on `str.format()` usage
-ignore = E203, E501, W503, FS002, N818
+# Error codes we ignore:
+#
+# Ignored because Black handles code formatting:
+# E203: Whitespace before ':'
+# E501: Line too long (82 > 79 characters)
+# W503: Line break occurred before a binary operator
+#
+# Other ignored rules:
+# N818: Exception names should end in 'Error'
+ignore =
+    E203,
+    E501,
+    W503,
+    N818
+
+# To match Black's default
 max-line-length = 88
+
+# McCabe complexity checker
+# Standard is 10, we should aim to improve
 max-complexity = 21
-select = B,C,E,F,N,W,T4,B9
+
+# Selected error codes:
+# B: bugbear checks
+# C: complexity checks
+# E: pycodestyle errors
+# F: pyflakes
+# N: naming checks (from pep8-naming)
+# W: pycodestyle warnings
+# T4: mypy type checks
+select =
+    B,
+    C,
+    E,
+    F,
+    N,
+    W,
+    T4
+
 exclude =
     ./.tox/
     ./.venv/
