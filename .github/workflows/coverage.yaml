@@ -14,27 +14,18 @@ jobs:
   coverage:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: run unittests
-        run: |
-          pip install tox
-          tox -e py
-      - name: (coveralls.io) Report code coverage
-        uses: AndreMiras/coveralls-python-action@develop
-        with:
-          github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-      - if: github.event_name == 'push'
-        name: (codacy) Create coverage xml report
+      - name: Install coverage
         run: |
           pip install coverage
-          coverage xml
-      - if: github.event_name == 'push'
-        name: (codacy) Report code coverage
-        uses: codacy/codacy-coverage-reporter-action@v1
+      - name: Run tests with coverage
+        run: |
+          coverage run -m unittest
+      - name: Report coverage to Coveralls
+        uses: coverallsapp/github-action@v2
         with:
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
-          coverage-reports: "coverage.xml"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
