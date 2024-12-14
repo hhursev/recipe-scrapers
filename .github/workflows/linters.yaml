@@ -2,13 +2,10 @@ name: linters
 
 on:
   push:
-    branches:
-      - main
-      - v14
+    branches: [ main, v14 ]
   pull_request:
-    branches:
-      - main
-      - v14
+    branches: [ main, v14 ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   linters:
@@ -20,5 +17,7 @@ jobs:
         with:
           python-version: "3.x"
           cache: pip
-      - run: pip install ".[linters]"
-      - run: pre-commit run --all-files
+      - name: Install linter-related packages
+        run: pip install ".[linters]"
+      - name: Run pre-commit hooks
+        run: pre-commit run --all-files

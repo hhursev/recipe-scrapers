@@ -2,13 +2,10 @@ name: coverage
 
 on:
   push:
-    branches:
-      - main
-      - v14
+    branches: [ main, v14 ]
   pull_request:
-    branches:
-      - main
-      - v14
+    branches: [ main, v14 ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   coverage:
@@ -19,12 +16,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Install coverage
-        run: |
-          pip install coverage
+          cache: pip
+      - name: Install test packages
+        run: pip install ".[tests]"
       - name: Run tests with coverage
-        run: |
-          coverage run -m unittest
+        env:
+          PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
+        run: coverage run -m unittest
       - name: Report coverage to Coveralls
         uses: coverallsapp/github-action@v2
         with:

@@ -2,13 +2,10 @@ name: unittests
 
 on:
   push:
-    branches:
-      - main
-      - v14
+    branches: [ main, v14 ]
   pull_request:
-    branches:
-      - main
-      - v14
+    branches: [ main, v14 ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   test:
@@ -26,7 +23,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
       - name: Install dependencies
-        run: pip install ".[test]"
+        run: pip install ".[tests]"
       - name: Run Tests
         env:
           PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
