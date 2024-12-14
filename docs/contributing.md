@@ -164,7 +164,7 @@ If the website does not support Recipe Schema, or the schema does not include al
 
 An example of a scraper that uses this approach is [Przepisy](https://github.com/hhursev/recipe-scrapers/blob/main/recipe_scrapers/przepisy.py).
 
-The [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html) is a good resource for getting started with extracting information from HTML. A guide of common patterns and best practice used in this library can be found [here](in-depth-guide-html-scraping).
+The [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html) is a good resource for getting started with extracting information from HTML. A guide of common patterns and best practice used in this library can be found [here](in-depth-guide-html-scraping.md).
 
 Some helper functions are available in the `_utils.py` file. These are functions that are commonly needed when extracting information from HTML, such as `normalize_string()`.
 
