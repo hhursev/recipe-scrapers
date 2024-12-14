@@ -259,6 +259,7 @@ from .strongrfastr import StrongrFastr
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
+from .svt import Svt
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
 from .tasteau import TasteAU
@@ -392,6 +393,7 @@ SCRAPERS = {
     PinchOfYum.host(): PinchOfYum,
     Recept.host(): Recept,
     RicettePerBimby.host(): RicettePerBimby,
+    Svt.host(): Svt,
     StrongrFastr.host(): StrongrFastr,
     ThePalatableLife.host(): ThePalatableLife,
     Thinlicious.host(): Thinlicious,
