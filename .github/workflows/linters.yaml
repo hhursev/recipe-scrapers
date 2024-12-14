@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.x"
           cache: pip
-      - name: Install linter-related packages
+      - name: Install linters related packages
         run: pip install ".[linters]"
       - name: Run pre-commit hooks
         run: pre-commit run --all-files

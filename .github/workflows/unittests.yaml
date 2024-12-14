@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
-      - name: Install dependencies
+      - name: Install tests dependencies
         run: pip install ".[tests]"
       - name: Run Tests
         env:

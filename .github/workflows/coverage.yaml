@@ -23,7 +23,7 @@ jobs:
         env:
           PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
         run: coverage run -m unittest
-      - name: Report coverage to Coveralls
+      - name: Report coverage to coveralls.io
         uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
