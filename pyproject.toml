@@ -38,22 +38,40 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = [
-    "pre_commit >= 4.0.1",
-    "coverage >= 7.4.4",
-    "types-beautifulsoup4 >= 4.12.0",
-    "importlib-metadata >= 4.6 ; python_version < '3.10'",
-]
 online = [
     "requests>=2.31.0",
 ]
+# Documentation dependencies
+# Install these to build and serve the documentation:
+#   pip install -e ".[docs]"
+#
+# Common commands:
+#   mkdocs serve  # Start local docs server at http://127.0.0.1:8000
+#                 # The server auto-reloads when you change files in docs/
 docs = [
-    "mkdocs >= 1.6.1",
-    "mkdocs-material >= 9.5.48",
-    "mkdocstrings >= 0.27.0",
-    "mkdocstrings-python >= 1.12.2",
-    "markdown-exec >= 1.10.0",
+    "mkdocs >= 1.6.1",               # Core documentation generator
+    "mkdocs-material >= 9.5.48",     # Material theme for MkDocs
+    "mkdocstrings >= 0.27.0",        # API documentation from docstrings
+    "mkdocstrings-python >= 1.12.2", # Python handler for mkdocstrings
+    "markdown-exec >= 1.10.0",       # Execute code blocks in markdown
 ]
+dev = [
+    "recipe-scrapers[test]",  # assuming you have test dependencies
+    "pre-commit == 5.0.0",    # use whatever is .pre-commit-config.yaml
+    "black == 24.10.0",       # match what's in .pre-commit-config.yaml
+    "flake8 == 7.1.1",        # match what's in .pre-commit-config.yaml
+    "pep8-naming == 0.14.1",  # match what's in .pre-commit-config.yaml
+    "mypy == 1.13.0",         # match what's in .pre-commit-config.yaml
+    "types-beautifulsoup4",   # needed for mypy
+    "types-requests",         # needed for mypy
+]
+test = [
+    "coverage >= 7.4.4",
+]
+all = [
+    "recipe_scrapers[online,docs,test]"
+]
+
 
 [tool.setuptools.packages.find]
 include = ["recipe_scrapers", "recipe_scrapers.*"]
