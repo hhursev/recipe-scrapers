@@ -1,9 +1,11 @@
 # Supported Websites
 
-!!! note "Contributing"
-    Want to help maintain or add support for a site? Join our community of contributors! See our [contributing guidelines](../contributing/how-to-contribute.md).
-    See something missing or incorrect? [Open an issue](https://github.com/hhursev/recipe-scrapers/issues) or submit a pull request.
+!!! success "Join Our Community"
+    🌟 Want to add your favorite recipe site? We'd love your help!
 
+    - 📖 Check our [contributing guidelines](../contributing/how-to-contribute.md)
+    - 🐛 Found a bug? [Open an issue](https://github.com/hhursev/recipe-scrapers/issues)
+    - 🚀 Ready to contribute? Submit a pull request!
 
 ```python exec="on"
 import sys
@@ -11,7 +13,9 @@ sys.path.insert(0, '.')
 from recipe_scrapers import SCRAPERS
 
 sites = sorted(SCRAPERS.keys())
-print(f"Currently, there are {len(sites)} sites that this package supports.\n")
-print(f"### Currently Supported Sites:\n")
+
+print(f"## What we offer?")
+print(f"We currently support over **{len(sites)} popular recipe websites** out of the box! And with our `wild_mode` option, you can potentially scrape many more sites that follow common patterns - making this probably the most extensive recipe scraping library available.\n")
+print(f"## Supported Sites List\n")
 print("\n".join(f"- [{host}](https://{host}/)" for host in sites))
 ```
