@@ -1,7 +1,7 @@
 # Supported Websites
 
 !!! note "Contributing"
-    Want to help maintain or add support for a site? Join our community of contributors! See our [contributing guidelines](contributing.md).
+    Want to help maintain or add support for a site? Join our community of contributors! See our [contributing guidelines](../contributing/how-to-contribute.md).
     See something missing or incorrect? [Open an issue](https://github.com/hhursev/recipe-scrapers/issues) or submit a pull request.
 
 

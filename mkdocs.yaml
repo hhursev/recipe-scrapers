@@ -27,18 +27,27 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - Supported Sites: supported-sites.md
+  - Getting Started:
+    - Home: index.md
+    - Examples: getting-started/examples.md
+    - Supported Sites: getting-started/supported-sites.md
+    - Advanced Usage: getting-started/advanced-usage.md
+    - Releases & License: getting-started/releases-and-license.md
   - Contributing:
-    - Contributing to Our Documentation: contributing-to-our-documentation.md
-    - Overview: contributing.md
-    - "In Depth: HTML Scraping": in-depth-guide-html-scraping.md
-    - "In Depth: Scraper Functions": in-depth-guide-scraper-functions.md
-    - "In Depth: Ingredient Groups": in-depth-guide-ingredient-groups.md
-    - "In Depth: Debugging": in-depth-guide-debugging.md
+    - How to Contribute: contributing/how-to-contribute.md
+    - Documentation: contributing/documentation.md
+    - Code Contribution: contributing/code-contribution.md
+    - In-Depth Guides:
+      - HTML Scraping: contributing/in-depth-guide-html-scraping.md
+      - Scraper Functions: contributing/in-depth-guide-scraper-functions.md
+      - Ingredient Groups: contributing/in-depth-guide-ingredient-groups.md
+      - Debugging: contributing/in-depth-guide-debugging.md
+  - Copyright and Usage: copyright-and-usage.md
 
 markdown_extensions:
   - admonition
