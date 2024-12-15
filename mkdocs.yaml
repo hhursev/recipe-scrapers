@@ -39,10 +39,6 @@ nav:
     - "In Depth: Scraper Functions": in-depth-guide-scraper-functions.md
     - "In Depth: Ingredient Groups": in-depth-guide-ingredient-groups.md
     - "In Depth: Debugging": in-depth-guide-debugging.md
-  - API Reference:
-    - Base Scraper: api/scraper.md
-    - Exceptions: api/exceptions.md
-    - Utils: api/utils.md
 
 markdown_extensions:
   - admonition
