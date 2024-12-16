@@ -77,7 +77,8 @@ url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/
 html = urlopen(url).read().decode("utf-8")  # retrieves the recipe webpage HTML
 scraper = scrape_html(html, org_url=url)
 scraper.title()
-scraper.instructions()  # etc.
+scraper.instructions()
+scraper.to_json()
 # for a complete list of methods:
 # help(scraper)
 ```
@@ -99,6 +100,5 @@ Today, our library helps power diverse projects across the cooking landscape:
 
 We're excited to see what you'll create! Feel free to share your project in our [community showcase](https://github.com/hhursev/recipe-scrapers/issues/9) - we love seeing what others build with the library.
 
-While building, remember to be mindful of websites' terms and fair usage - our [Copyright and Usage Guidelines](copyright-and-usage.md) will help you stay on track.
-
-Happy cooking with code! 👋
+!!! tip "Happy cooking with code! 👋"
+    While building, remember to be mindful of websites' terms and fair usage - our [Copyright and Usage Guidelines](copyright-and-usage.md) will help you stay on track.

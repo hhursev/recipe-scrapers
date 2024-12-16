@@ -37,6 +37,7 @@ nav:
     - Examples: getting-started/examples.md
     - Supported Sites: getting-started/supported-sites.md
     - Advanced Usage: getting-started/advanced-usage.md
+    - Migrating from v14: misc/migrating-from-v14.md
     - Releases & License: getting-started/releases-and-license.md
   - Contributing:
     - How to Contribute: contributing/how-to-contribute.md
@@ -70,7 +71,7 @@ plugins:
       default_handler: python
       handlers:
         python:
-          paths: recipe_scrapers
+          paths: [tests, recipe_scrapers]
           options:
             show_source: true
             show_root_heading: true

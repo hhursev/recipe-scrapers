@@ -98,7 +98,9 @@ Don't worry if your first PR needs some adjustments - this is normal and part of
 
 ## Development Guidelines (Coming Soon)
 
-While we're working on comprehensive documentation, the codebase is designed to be self-explanatory. As a developer, you can understand our patterns and expectations by taking a look at existing scrapers in the `recipe_scrapers/` directory.
+While we're working on comprehensive documentation, the codebase is designed to
+be self-explanatory. As a developer, you can understand our patterns and expectations
+by taking a look at existing scrapers in the `recipe_scrapers/` directory.
 
 !!! tip "Generator Tool"
     If you're adding a new site scraper, you can use our generator command to create a template:
