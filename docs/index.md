@@ -10,14 +10,13 @@
 
 ---
 
-`recipe-scrapers` is a Python package designed to scrape recipes from cooking websites. It provides a simple and consistent API to extract recipe data like ingredients, instructions, cooking time, and more from popular cooking websites. Works with the python versions listed above.
-
+`recipe-scrapers` is a Python package designed to extract recipe data from HTM content of cooking websites. It parses the HTML structure of recipe pages to provide a simple and consistent API for retrieving structured data like ingredients, instructions, cooking time, and more. Works with the python versions listed above.
 
 ## Installation
 
-You can install Recipe Scrapers using pip or your preferred Python package manager:
+You can install `recipe-scrapers` using pip or your preferred Python package manager:
 
-!!! tip "Install (assuming python 3.9+)"
+!!! tip "Install"
     ``` console
     pip install recipe-scrapers
     ```
@@ -100,5 +99,5 @@ Today, our library helps power diverse projects across the cooking landscape:
 
 We're excited to see what you'll create! Feel free to share your project in our [community showcase](https://github.com/hhursev/recipe-scrapers/issues/9) - we love seeing what others build with the library.
 
-!!! tip "Happy cooking with code! 👋"
-    While building, remember to be mindful of websites' terms and fair usage - our [Copyright and Usage Guidelines](copyright-and-usage.md) will help you stay on track.
+!!! tip "Happy cooking with code!"
+    While building awesome stuff, remember to be mindful of websites' terms and fair usage - our [Copyright and Usage Guidelines](copyright-and-usage.md) will help you stay on track.
