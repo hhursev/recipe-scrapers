@@ -17,9 +17,10 @@
 
 You can install Recipe Scrapers using pip or your preferred Python package manager:
 
-``` console
-pip install recipe-scrapers
-```
+!!! tip "Install (assuming python 3.9+)"
+    ``` console
+    pip install recipe-scrapers
+    ```
 
 !!! note
 

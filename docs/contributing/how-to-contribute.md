@@ -20,7 +20,7 @@ All issues should be opened on our [GitHub repository](https://github.com/hhurse
 ### Contributing Code
 
 If you'd like to contribute code, whether it's fixing a bug, adding support for a new site, or closing a raised issue
-we're happy to help you through the process. Check out our development guidelines [starting here](./documentation.md).
+we're happy to help you through the process. Check out our development guidelines [starting here](./documentation-contribution.md).
 
 ## Our Contributors
 
