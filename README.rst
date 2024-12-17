@@ -418,6 +418,7 @@ Scrapers available for:
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
 - `https://www.strongrfastr.com <https://www.strongrfastr.com>`_
+- `https://sugarhero.com/ <https://sugarhero.com/>`_
 - `https://sunbasket.com/ <https://sunbasket.com>`_
 - `https://sundpaabudget.dk/ <https://sundpaabudget.dk>`_
 - `https://www.sunset.com/ <https://www.sunset.com/>`_
