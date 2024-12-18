@@ -329,6 +329,7 @@ Scrapers available for:
 - `https://www.myplate.gov/ <https://www.myplate.gov/>`_
 - `https://myrecipes.com/ <https://myrecipes.com>`_
 - `https://myvegetarianroots.com/ <https://myvegetarianroots.com/>`_
+- `https://natashaskitchen.com/ <https://natashaskitchen.com/>`_
 - `https://www.nhs.uk/healthier-families/ <https://www.nhs.uk/healthier-families/>`_
 - `https://nibbledish.com/ <https://nibbledish.com>`_
 - `https://noracooks.com/ <https://noracooks.com/>`_
