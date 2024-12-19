@@ -345,6 +345,7 @@ Scrapers available for:
 - `https://omnivorescookbook.com <https://omnivorescookbook.com>`_
 - `https://www.onceuponachef.com <https://www.onceuponachef.com>`_
 - `https://onesweetappetite.com/ <https://onesweetappetite.com>`_
+- `https://ottolenghi.co.uk/ <https://ottolenghi.co.uk>`_
 - `https://owen-han.com/ <https://owen-han.com>`_
 - `https://www.paleorunningmomma.com/ <https://www.paleorunningmomma.com>`_
 - `https://www.panelinha.com.br/ <https://www.panelinha.com.br>`_

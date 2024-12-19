@@ -1,0 +1,60 @@
+{
+  "author": "Ottolenghi",
+  "canonical_url": "https://ottolenghi.co.uk/pages/recipes/jammy-croissant-strawberry-sundae",
+  "site_name": "Ottolenghi",
+  "host": "ottolenghi.co.uk",
+  "language": "en",
+  "title": "Jammy croissant strawberry sundae",
+  "ingredients": [
+    "shop bought strawberry ice cream",
+    "unsweetened lightly whipped cream",
+    "sumac",
+    "400g strawberries, hulled and halved (quartered if large)",
+    "50g caster sugar",
+    "2 tsp lime juice",
+    "150g stale croissants, roughly blitzed in a food processor (or chopped by hand)",
+    "60g unsalted butter, melted",
+    "60g caster sugar",
+    "¾ tsp flaked sea salt"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "shop bought strawberry ice cream",
+        "unsweetened lightly whipped cream",
+        "sumac"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "400g strawberries, hulled and halved (quartered if large)",
+        "50g caster sugar",
+        "2 tsp lime juice"
+      ],
+      "purpose": "QUICK ROASTED STRAWBERRIES"
+    },
+    {
+      "ingredients": [
+        "150g stale croissants, roughly blitzed in a food processor (or chopped by hand)",
+        "60g unsalted butter, melted",
+        "60g caster sugar",
+        "¾ tsp flaked sea salt"
+      ],
+      "purpose": "“CRANKO”"
+    }
+  ],
+  "instructions": "For the strawberries: Preheat oven to 200c and line a roasting tin with parchment paper.\nCombine the strawberries, sugar and lime juice in the roasting tin and bake for 15-18 minutes, stirring halfway through, until the juices are released and the strawberries are super soft but still holding their shape. Set aside to cool. They will keep for up to two days in the fridge.\nFor the Cranko: Preheat the oven to 150c and line a baking tray with parchment paper.\nCombine everything together in a medium bowl and mix to combine. Transfer onto the baking tray and bake for 25-30 minutes until golden brown and crispy, stirring a couple of times throughout the baking time. Set aside to cool. Store in an airtight container for up to two weeks.",
+  "instructions_list": [
+    "For the strawberries: Preheat oven to 200c and line a roasting tin with parchment paper.",
+    "Combine the strawberries, sugar and lime juice in the roasting tin and bake for 15-18 minutes, stirring halfway through, until the juices are released and the strawberries are super soft but still holding their shape. Set aside to cool. They will keep for up to two days in the fridge.",
+    "For the Cranko: Preheat the oven to 150c and line a baking tray with parchment paper.",
+    "Combine everything together in a medium bowl and mix to combine. Transfer onto the baking tray and bake for 25-30 minutes until golden brown and crispy, stirring a couple of times throughout the baking time. Set aside to cool. Store in an airtight container for up to two weeks."
+  ],
+  "category": "Desserts",
+  "yields": "Serves 4",
+  "description": "Jammy croissant strawberry sundae",
+  "cook_time": "Cook 5o min",
+  "prep_time": "Prep 10 min",
+  "image": "//ottolenghi.co.uk/cdn/shop/files/Jammy_croissant_strawberry_sundae.jpg?v=1723375810&width=1000"
+}
