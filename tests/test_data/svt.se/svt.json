@@ -4,13 +4,44 @@
   "host": "svt.se",
   "description": "Ugnspannkaka är en sådan där älskad rätt som dyker upp hos oss titt som tätt då den går snabbt, är älskad av alla och om du följer det här receptet svår att misslyckas med! Här gör jag den vegetarisk och min kompis Sebastian tipsade mig en gång om att kombinationen solroskärnor och kapris är ett perfekt substitut för fläsk. Men självklart kan du ersätta solroskärnor, kapris och liquid smoke med fläsk om du är sugen!",
   "image": "https://backend.main-bvxea6i-nbs7p5fes6fzc.eu-5.platformsh.site/sites/default/files/images/23318806.jpg",
-  "ingredients": "",
-  "instructions": "",
-  "instructions_list": "",
+  "ingredients": [
+    "6 ekologiska ägg",
+    "9dl mjölk, 3 %",
+    "4½dl vetemjöl",
+    "½tsk bakpulver",
+    "1⅓tsk salt",
+    "1dl kapris",
+    "1dl solroskärnor",
+    "1krm liquid smoke",
+    "smör till långpannan",
+    "lingonsylt till servering"
+  ],
+  "ingredient_groups": [
+    {
+      "purpose": null,
+      "ingredients": [
+        "6 ekologiska ägg",
+        "9dl mjölk, 3 %",
+        "4½dl vetemjöl",
+        "½tsk bakpulver",
+        "1⅓tsk salt",
+        "1dl kapris",
+        "1dl solroskärnor",
+        "1krm liquid smoke",
+        "smör till långpannan",
+        "lingonsylt till servering"
+      ]
+    }
+  ],
+  "instructions": "1. Förbered gärna pannkakassmeten i god tid, med fördel redan på morgonen.\n2. Vispa samman mjöl, bakpulver och salt med hälften av mjölken tills du har en slät smet. Tillsätt äggen och resten av mjölken och vispa samman.\n3. Värm ugnen till 225 grader med en stor långpanna i ugnen så den får bli riktigt varm. Detta gör att ugnspannkakan blir ordentligt fluffig.\n4. Smält smör i långpannan och fördela över hela.\n5. Blanda kapris och solroskärnor med liquid smoke och låt detta sedan rosta i den heta pannan i någon minut tills solroskärnorna börjar få färg.\n6. Häll på pannkakassmeten (enklast när plåten fortfarande står kvar i ugnen) Låt grädda i ca 25-30 minuter eller tills pannkakan fluffat upp ordentligt och fått fin färg.\n7. Servera genast med lingonsylt och en god sallad.\n\nTips\nHemligheten bakom en riktigt fluffig ugnspannkaka är att förbereda smeten i god tid och att grädda den i en ordentligt het långpanna! Överbliven ugnspannkaka går utmärkt att frysa in eller förvara i kylskåp där den håller 3-4 dagar.",
+  "instructions_list": [
+    "1. Förbered gärna pannkakassmeten i god tid, med fördel redan på morgonen.",
+    "2. Vispa samman mjöl, bakpulver och salt med hälften av mjölken tills du har"
+  ],
   "language": "sv",
   "site_name": "SVT recept",
   "title": "Lisas ugnspannkaka med kapris",
-  "cook_time": "45",
+  "cook_time": 45,
   "prep_time": null,
   "yields": "6 servings"
 }
