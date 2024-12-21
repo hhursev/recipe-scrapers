@@ -1,5 +1,7 @@
 import json
 
+from bs4 import BeautifulSoup
+
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -59,11 +61,9 @@ class Svt(AbstractScraper):
         return ingredients
 
     def instructions_list(self):
-        # TODO: Use itemProp=recipeInstructions
         instructions_string = normalize_string(self.recipe_data.get("description"))
-        print(instructions_string)
-        instructions = instructions_string.split("\n\n")
-        instructions = [normalize_string(instruction) for instruction in instructions]
+        instructions_soup = BeautifulSoup(instructions_string, "html.parser")
+        instructions = [element.text for element in instructions_soup.find_all("p")]
         print(instructions)
         return instructions
 
