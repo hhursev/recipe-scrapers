@@ -1,0 +1,70 @@
+{
+  "author": "Lisa Lemke",
+  "canonical_url": "svt.se",
+  "host": "svt.se",
+  "description": "Knäckig saffran och mandelkaka med päron, idén är att använda för hårt kokt eller överbliven knäck i denna kakan. Vid sidan av kakan kommer en lätt vispad vitchokladganache som smaksätts med vanilj och lite citronzest. Själva chokladganachen kan du vispa lite hårdare om önskas och spritsas upp på tex någon bakelse.",
+  "image": "https://backend.main-bvxea6i-nbs7p5fes6fzc.eu-5.platformsh.site/sites/default/files/images/23318806.jpg",
+  "ingredients": [
+    "165g smör (rumstempererat)",
+    "330g mandelmassa",
+    "180g ägg (ca 3 st stora)",
+    "35g havremjöl (funkar lika bra med vetemjöl)",
+    "0,5g mixad saffran (1pkt)",
+    "2g salt",
+    "1st stort skalat päron",
+    "20st små knäck",
+    "4g potatismjöl",
+    "130g mjölk",
+    "1st blötlagt gelatinblad",
+    "100g vitchoklad ca 28-32% kakaohalt",
+    "1nypa(or) salt",
+    "zest från en halv citron",
+    "75g grädde",
+    "1st skrapad och hackad vaniljstång"
+  ],
+  "ingredient_groups": [
+    {
+      "purpose": "Saffranskaka",
+      "ingredients": [
+        "165g smör (rumstempererat)",
+        "330g mandelmassa",
+        "180g ägg (ca 3 st stora)",
+        "35g havremjöl (funkar lika bra med vetemjöl)",
+        "0,5g mixad saffran (1pkt)",
+        "2g salt",
+        "1st stort skalat päron",
+        "20st små knäck"
+      ]
+    },
+    {
+      "purpose": "Vispad chokladganache",
+      "ingredients": [
+        "4g potatismjöl",
+        "130g mjölk",
+        "1st blötlagt gelatinblad",
+        "100g vitchoklad ca 28-32% kakaohalt",
+        "1nypa(or) salt",
+        "zest från en halv citron",
+        "75g grädde",
+        "1st skrapad och hackad vaniljstång"
+      ]
+    }
+  ],
+  "instructions": "1. Förbered gärna pannkakassmeten i god tid, med fördel redan på morgonen.\n2. Vispa samman mjöl, bakpulver och salt med hälften av mjölken tills du har en slät smet. Tillsätt äggen och resten av mjölken och vispa samman.\n3. Värm ugnen till 225 grader med en stor långpanna i ugnen så den får bli riktigt varm. Detta gör att ugnspannkakan blir ordentligt fluffig.\n4. Smält smör i långpannan och fördela över hela.\n5. Blanda kapris och solroskärnor med liquid smoke och låt detta sedan rosta i den heta pannan i någon minut tills solroskärnorna börjar få färg.\n6. Häll på pannkakassmeten (enklast när plåten fortfarande står kvar i ugnen) Låt grädda i ca 25-30 minuter eller tills pannkakan fluffat upp ordentligt och fått fin färg.\n7. Servera genast med lingonsylt och en god sallad.  Tips\nHemligheten bakom en riktigt fluffig ugnspannkaka är att förbereda smeten i god tid och att grädda den i en ordentligt het långpanna! Överbliven ugnspannkaka går utmärkt att frysa in eller förvara i kylskåp där den håller 3-4 dagar.",
+  "instructions_list": [
+    "1. Förbered gärna pannkakassmeten i god tid, med fördel redan på morgonen.",
+    "2. Vispa samman mjöl, bakpulver och salt med hälften av mjölken tills du har en slät smet. Tillsätt äggen och resten av mjölken och vispa samman.",
+    "3. Värm ugnen till 225 grader med en stor långpanna i ugnen så den får bli riktigt varm. Detta gör att ugnspannkakan blir ordentligt fluffig.",
+    "4. Smält smör i långpannan och fördela över hela.",
+    "5. Blanda kapris och solroskärnor med liquid smoke och låt detta sedan rosta i den heta pannan i någon minut tills solroskärnorna börjar få färg.",
+    "6. Häll på pannkakassmeten (enklast när plåten fortfarande står kvar i ugnen) Låt grädda i ca 25-30 minuter eller tills pannkakan fluffat upp ordentligt och fått fin färg.",
+    "7. Servera genast med lingonsylt och en god sallad.  Tips",
+    "Hemligheten bakom en riktigt fluffig ugnspannkaka är att förbereda smeten i god tid och att grädda den i en ordentligt het långpanna! Överbliven ugnspannkaka går utmärkt att frysa in eller förvara i kylskåp där den håller 3-4 dagar."
+  ],
+  "language": "sv",
+  "site_name": "SVT recept",
+  "title": "Saffran- och mandelkaka med vispad vitchokladganache",
+  "cook_time": 30,
+  "prep_time": null,
+  "yields": "8 servings"
+}
