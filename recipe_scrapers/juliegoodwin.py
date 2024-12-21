@@ -35,9 +35,9 @@ class JulieGoodwin(AbstractScraper):
         return self.extract_time("Cooking time") or 0
 
     def total_time(self):
-        prep_mins = self.prep_time()
-        cook_mins = self.cook_time()
-        total_mins = prep_mins + cook_mins
+        prep_time = self.prep_time()
+        cook_time = self.cook_time()
+        total_mins = prep_time + cook_time
         return total_mins
 
     def yields(self):
