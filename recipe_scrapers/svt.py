@@ -3,6 +3,7 @@ import json
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import IngredientGroup
 from ._utils import normalize_string
 
 
@@ -47,6 +48,28 @@ class Svt(AbstractScraper):
     def image(self):
         return self.schema.image()
 
+    def ingredient_groups(self):
+        ingredient_groups = []
+        ingredient_list = self.recipe_data.get("ingredientList")
+        for group in ingredient_list:
+            group_purpose = group.get("headline")
+            group_ingredients = []
+            ingredients = group.get("ingredients")
+            for ingredient in ingredients:
+                name = ingredient.get("name")
+                amount = ingredient.get("amount")
+                unit = ingredient.get("unit")
+                ingredient_string = self._make_ingredient_string(name, amount, unit)
+                group_ingredients.append(ingredient_string)
+
+            ingredient_group = IngredientGroup(
+                ingredients=group_ingredients, purpose=group_purpose
+            )
+
+            ingredient_groups.append(ingredient_group)
+
+        return ingredient_groups
+
     def ingredients(self):
         ingredients = []
         ingredient_groups = self.recipe_data.get("ingredientList")
@@ -64,7 +87,6 @@ class Svt(AbstractScraper):
         instructions_string = normalize_string(self.recipe_data.get("description"))
         instructions_soup = BeautifulSoup(instructions_string, "html.parser")
         instructions = [element.text for element in instructions_soup.find_all("p")]
-        print(instructions)
         return instructions
 
     def instructions(self):
