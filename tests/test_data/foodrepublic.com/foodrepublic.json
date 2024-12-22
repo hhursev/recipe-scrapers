@@ -1,4 +1,5 @@
 {
+  "author": "Michael's Restaurant",
   "canonical_url": "https://www.foodrepublic.com/recipes/dutch-white-asparagus-recipe/",
   "site_name": "Food Republic",
   "host": "foodrepublic.com",
@@ -27,9 +28,10 @@
     "Goat Cheese And Asparagus Macaroni Salad Recipe",
     "Roasted Asparagus & Scrambled Eggs Recipe"
   ],
-  "yields": "0 servings",
+  "yields": "4 servings",
   "total_time": 60,
   "cook_time": 40,
   "prep_time": 20,
+  "cuisine": "Dutch",
   "image": "https://www.foodrepublic.com/img/gallery/dutch-white-asparagus-recipe/intro-import.jpg"
 }
