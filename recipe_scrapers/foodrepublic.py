@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_yields, normalize_string
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class FoodRepublic(AbstractScraper):
@@ -11,22 +11,24 @@ class FoodRepublic(AbstractScraper):
         title_div = self.soup.find("div", {"class": "recipe-card-title"})
         return title_div.get_text()
 
-    def total_time(self):
+    def prep_time(self):
         prep_time_div = self.soup.find("div", {"class": "recipe-card-prep-time"})
+        if prep_time_div:
+            prep_time_text = prep_time_div.find(
+                "div", {"class": "recipe-card-amount"}
+            ).text
+            return get_minutes(prep_time_text)
+
+    def cook_time(self):
         cook_time_div = self.soup.find("div", {"class": "recipe-card-cook-time"})
+        if cook_time_div:
+            cook_time_text = cook_time_div.find(
+                "div", {"class": "recipe-card-amount"}
+            ).text
+            return get_minutes(cook_time_text)
 
-        prep_time = (
-            int(prep_time_div.find("div", {"class": "recipe-card-amount"}).text)
-            if prep_time_div
-            else 0
-        )
-        cook_time = (
-            int(cook_time_div.find("div", {"class": "recipe-card-amount"}).text)
-            if cook_time_div
-            else 0
-        )
-
-        return prep_time + cook_time
+    def total_time(self):
+        return self.prep_time() + self.cook_time()
 
     def yields(self):
         servings_div = self.soup.find("div", {"class": "recipe-card-servings"})
