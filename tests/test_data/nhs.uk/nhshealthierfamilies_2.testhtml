@@ -6,7 +6,6 @@
 
 
 
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="ie8" lang="en"><![endif]-->
 <!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
@@ -22,18 +21,18 @@
 
   <title>Healthy homemade fish and chips - Recipes - Healthier Families - NHS</title>
 
-
+  
   <link href="https://www.nhs.uk/" rel="preconnect">
   <link href="https://assets.nhs.uk/" rel="preconnect" crossorigin>
 
+  
+  <link rel="stylesheet" href="/campaigns/static/nhsuk/css/main.eea677d0366b.css" type="text/css" />
 
-  <link rel="stylesheet" href="/campaigns/static/nhsuk/css/main.b9972d13bc4e.css" type="text/css" />
+  
+<link rel="stylesheet" type="text/css" href="/campaigns/static/css/hf.b3c4dee4f31a.css">
 
 
-<link rel="stylesheet" type="text/css" href="/campaigns/static/css/hf.2e029550b0e1.css">
-
-
-
+  
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap" media="print" onload="this.media='all'" />
@@ -53,18 +52,18 @@
   <meta name="msapplication-wide310x150logo" content="/campaigns/static/nhsuk/img/favicons/widetile-310x150.535c3996630d.png">
   <meta name="msapplication-square310x310logo" content="/campaigns/static/nhsuk/img/favicons/largetile-310x310.294742e00ff4.png">
 
+  
 
+  
 
-
-
-
+  
     <meta property="og:url" content="https://www.nhs.uk/healthier-families/recipes/homemade-fish-and-chips/">
     <meta property="og:site_name" content="nhs.uk">
     <meta property="og:title" content="Healthy homemade fish and chips - Recipes - Healthier Families"/>
     <meta property="og:description" content="Try our recipe for healthier, homemade fish and chips! Click to read the ingredients and a step-by-step guide to making it">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_GB">
-    <meta property="og:image" content="https://assets.nhs.uk/campaigns-cms-prod/images/Fish_and_chips.width-1200.png">
+    <meta property="og:image" content="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Fish_and_chips.width-1200.png">
     <meta property="og:image:alt" content="Homebaked chips and fillets of fish with breadcrumbs"/>
     <meta property="article:author" content="https://www.facebook.com/nhswebsite/">
     <meta property="article:modified_time" content="30 May 2023, 4:02 p.m.">
@@ -75,6 +74,8 @@
     <meta name="twitter:creator" content="@nhsuk">
     <meta name="twitter:image:alt" content="Homebaked chips and fillets of fish with breadcrumbs"/>
 
+    
+  
 
   <script src="https://assets.nhs.uk/scripts/cookie-consent.js"></script>
 
@@ -107,23 +108,23 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
+  
     gtag('config', 'G-1K4S0MRD2T');
   </script>
 
     <!--  js for card component-->
     <script src="/campaigns/static/js/card.bd87dbb941c3.js"></script>
   <!-- Event support to record anonymous KPIs. -->
-  <script src="/campaigns/static/js/min/eventtrigger.min.f167b2a7b2f9.js"></script>
+  <script src="/campaigns/static/js/min/eventtrigger-hf.min.50926d84d592.js"></script>
   <!-- js for components-->
-  <script src="/campaigns/static/js/min/main.min.687c229e7d1c.js" defer></script>
+  <script src="/campaigns/static/js/min/main-hf.min.4a2cada329d9.js" defer></script>
 </head>
 
 <body class="">
   <a class="nhsuk-skip-link" href="#maincontent" id="nhsuk-skip-link">Skip to main content</a>
 
-
-
+  
+  
 
 
 
@@ -149,114 +150,114 @@
 
 </header>
 
+  
 
-
-
+  
 
 <nav>
     <div class="nhsuk-width-container hf-navigation">
       <ul class="bh-new-nav">
-
+      
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link " href="/healthier-families/food-facts/" >
                 <span class="bh-new-nav__link--break">Food facts</span>
             </a>
         </li>
-
+        
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link app-nav-active" href="/healthier-families/recipes/" >
                 <span class="bh-new-nav__link--break">Recipes</span>
             </a>
         </li>
-
+        
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link " href="/healthier-families/activities/" >
                 <span class="bh-new-nav__link--break">Activities</span>
             </a>
         </li>
-
+        
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link " href="/healthier-families/childrens-weight/" >
                 <span class="bh-new-nav__link--break">Children&#x27;s weight</span>
             </a>
         </li>
-
+        
       </ul>
     </div>
   </nav>
 
+  
+  
+  
 
 
 
 
 
-
-
-
-
-
-
+  
+  
+  
 
 
   <nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
     <div class="nhsuk-width-container">
       <ol class="nhsuk-breadcrumb__list">
-
-
+        
+            
 
 <li class="nhsuk-breadcrumb__item">
   <a href="/healthier-families/" class="nhsuk-breadcrumb__link">Home</a>
 </li>
-
-
-
-
-
-
+        
+        
+          
+        
+          
+            
 
 <li class="nhsuk-breadcrumb__item">
   <a href="/healthier-families/recipes/" class="nhsuk-breadcrumb__link">Recipes</a>
 </li>
 
-
-
+          
+        
       </ol>
 
       <p class="nhsuk-breadcrumb__back">
-
-
+        
+          
 
 <a href="/healthier-families/recipes/" class="nhsuk-breadcrumb__backlink">Back to Recipes</a>
 
-
+        
       </p>
     </div>
   </nav>
 
 
 
-
+  
 
   <main id="maincontent" class="nhsuk-main-wrapper">
-
-
-
-
-
-
+    
+    
+    
+        
+        
+          
 
 <section class="nhsuk-section app-section " >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-
+      
         <div class="nhsuk-grid-column-full nhsuk-section__content">
            <div class="nhsuk-u-reading-width">
-
-
+            
+            
             </div>
-
-
-
+            
+              
+                  
 
 
 
@@ -273,8 +274,8 @@
     <h1>Good old fish and chips recipe</h1>
       <div class="bh-recipe__description"><p data-block-key="nvxr5">Make your own healthier version of fish and chips at home!</p><p data-block-key="g6ms3">Prep: 10 mins<br/>Cook: 40 mins<br/>Serves 4</p></div>
       <div class="bh-recipe__details">
-
-
+        
+        
           <details class="nhsuk-details nhsuk-expander">
             <summary class="nhsuk-details__summary">
               <span class="nhsuk-details__summary-text">
@@ -282,34 +283,34 @@
               </span>
             </summary>
             <div class="nhsuk-details__text">
-
-
+              
+                
                   <p data-block-key="csbz8">Per serving:</p><ul><li data-block-key="niq4f">1,682kJ / 402kcal</li><li data-block-key="v7bxl">34g protein</li><li data-block-key="z4m9g">56g carbohydrate of which 3g sugars</li><li data-block-key="tnqn2">6g fat of which 1g saturates</li><li data-block-key="1iynt">4g fibre</li><li data-block-key="s1arp">1g salt</li></ul>
-
-
+                
+              
             </div>
           </details>
-
+        
       </div>
   </div>
   <div class="nhsuk-grid-column-one-third bh-recipe__image">
     <figure class="nhsuk-image">
       <img
         class="nhsuk-image__img"
-        src="https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg"
+        src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg"
         sizes="
           (min-width: 1020px) 320px,
           (min-width: 768px) 50vw,
           100vw
         "
         srcset="
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg 320w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-510.jpg 510w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-640.jpg 640w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-767.jpg 767w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-1019.jpg 1019w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-1125.jpg 1125w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-1534.jpg 1534w
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg 320w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-510.jpg 510w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-640.jpg 640w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-767.jpg 767w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-1019.jpg 1019w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-1125.jpg 1125w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-1534.jpg 1534w
         "
         alt="Homebaked chips and fillets of fish with breadcrumbs"
       />
@@ -320,58 +321,58 @@
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third">
-
-            <h2 data-block-key="1jltc">Ingredients</h2><ul><li data-block-key="t7l6i">4 potatoes, scrubbed, each cut into 8 wedges</li><li data-block-key="u1wma">1 tablespoon vegetable oil</li><li data-block-key="0u0we">75g dried white or wholemeal breadcrumbs</li><li data-block-key="gdffu">1 egg, beaten with 2 tbsp cold water</li><li data-block-key="0o6d2">4 fillets skinless white fish, like haddock, cod or pollock</li></ul><h3 data-block-key="ygpzk">Swappable or optional</h3><ul><li data-block-key="39bkh">300g mushy peas</li><li data-block-key="7djhw">1 pinch ground black pepper (optional)</li></ul><h4 data-block-key="bk6dp">Swap tip</h4><p data-block-key="rjm6s">You can use any frozen, fresh or canned peas if you don&#x27;t have mushy ones.</p>
-
+          
+            <h2 data-block-key="1jltc">Ingredients</h2><ul><li data-block-key="t7l6i">4 potatoes, scrubbed, each cut into 8 wedges</li><li data-block-key="u1wma">1 tablespoon vegetable oil</li><li data-block-key="0u0we">75g dried white or wholemeal breadcrumbs</li><li data-block-key="gdffu">1 egg, beaten with 2 tbsp cold water</li><li data-block-key="0o6d2">4 fillets skinless white fish, like haddock, cod or pollock</li></ul><h3 data-block-key="ygpzk">Swappable or optional</h3><ul><li data-block-key="39bkh">300g mushy peas</li><li data-block-key="7djhw">1 pinch ground black pepper (optional)</li></ul><h4 data-block-key="bk6dp">Swap tip</h4><p data-block-key="rjm6s">You can use any frozen, fresh or canned peas if you don&#x27;t have mushy ones.</p>
+          
       </div>
       <div class="nhsuk-grid-column-two-thirds bh-recipe-instructions__method">
         <h2>Method</h2>
         <ol>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="764nu">Preheat the oven to 200C (fan 180C, gas mark 6). Lightly grease a baking sheet with a little vegetable oil.</p>
-
+  
 </li>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="pbyh9">Put the potato wedges into a roasting tin. Add the remaining vegetable oil and toss to coat. Season with black pepper. Transfer to the oven to bake for 35 to 40 minutes, turning them over after 20 minutes.</p>
-
+  
     <div class="nhsuk-inset-text">
   <span class="nhsuk-u-visually-hidden">Information: </span>
   <p data-block-key="fjtfl">Not peeling the potatoes means you get more fibre in your diet – and they&#x27;re quicker to prepare.</p>
 </div>
 
-
+  
 </li>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="25cvj">Meanwhile, sprinkle the breadcrumbs onto a large plate. Season with a little pepper. Dip each fish fillet in the beaten egg, then coat in the breadcrumbs. Place on the baking sheet, then transfer to the oven when you turn the potatoes, so that it cooks for 15 to 20 minutes. To check that the fish is cooked, it should flake easily when tested with a fork.</p>
-
+  
     <div class="nhsuk-inset-text">
   <span class="nhsuk-u-visually-hidden">Information: </span>
   <p data-block-key="cmko8">Look out for dried breadcrumbs flavoured with lemon or spices to add extra flavour to the fish, or add some finely grated lemon zest or a pinch of paprika to plain dried breadcrumbs.</p>
 </div>
 
-
+  
 </li>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="sh8ae">Heat the mushy peas in a saucepan, then serve with the fish and chips.</p>
-
+  
 </li>
-
+          
         </ol>
       </div>
     </div>
@@ -383,128 +384,128 @@
     "@context": "https://schema.org",
     "@type": "Recipe",
     "description": "Make your own healthier version of fish and chips at home!",
-    "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg",
+    "image": "https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Recipes-square-healthy-fish-and-chips.width-320.jpg",
     "recipeIngredient": ["4 potatoes, scrubbed, each cut into 8 wedges", "1 tablespoon vegetable oil", "75g dried white or wholemeal breadcrumbs", "1 egg, beaten with 2 tbsp cold water", "4 fillets skinless white fish, like haddock, cod or pollock", "300g mushy peas", "1 pinch\u00a0ground black pepper (optional)"],
     "name": "Good old fish and chips recipe",
     "recipeInstructions": "Preheat the oven to 200C (fan 180C, gas mark 6). Lightly grease a baking sheet with a little vegetable oil.Put the potato wedges into a roasting tin. Add the remaining vegetable oil and toss to coat. Season with black pepper. Transfer to the oven to bake for 35 to 40 minutes, turning them over after 20 minutes.Meanwhile, sprinkle the breadcrumbs onto a large plate. Season with a little pepper. Dip each fish fillet in the beaten egg, then coat in the breadcrumbs. Place on the baking sheet, then transfer to the oven when you turn the potatoes, so that it cooks for 15 to 20 minutes. To check that the fish is cooked, it should flake easily when tested with a fork.Heat the mushy peas in a saucepan, then serve with the fish and chips."
   }
   </script>
-
-
+              
+            
           </div>
-
+      
     </div>
   </div>
 </section>
 
-
-
+        
+          
 
 <section class="nhsuk-section app-section--banana"  id="more-recipes" >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-
+      
         <div class="nhsuk-grid-column-full nhsuk-section__content">
            <div class="nhsuk-u-reading-width">
-
+            
               <h2>More recipes</h2>
-
-
+            
+            
             </div>
-
-
-
+            
+              
+                  
 
 <div class="nhsuk-grid-row nhsuk-promo-group">
-
+  
     <div class=" nhsuk-grid-column-one-third  nhsuk-promo-group__item  bh-partners-promo">
-
+      
 
 
 <div class="nhsuk-promo">
   <a class="nhsuk-promo__link-wrapper" href="/healthier-families/recipes/mediterranean-potato-bake/">
-
-
-      <img class="nhsuk-promo__img" src="https://assets.nhs.uk/campaigns-cms-prod/images/Mediterranean_potato_bake.2e16d0ba.fill-720x405.png" alt="">
-
+    
+      
+      <img class="nhsuk-promo__img" src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Mediterranean_potato_bake.2e16d0ba.fill-720x405.png" alt="">
+    
     <div class="nhsuk-promo__content">
       <h3 class="nhsuk-promo__heading">Mediterranean potato bake</h3>
       <div class="nhsuk-promo__description">
-
-
+        
+        
       </div>
     </div>
   </a>
 </div>
     </div>
-
+  
     <div class=" nhsuk-grid-column-one-third  nhsuk-promo-group__item  bh-partners-promo">
-
+      
 
 
 <div class="nhsuk-promo">
   <a class="nhsuk-promo__link-wrapper" href="/healthier-families/recipes/tasty-vegetarian-chilli/">
-
-
-      <img class="nhsuk-promo__img" src="https://assets.nhs.uk/campaigns-cms-prod/images/Veggie_chilli.2e16d0ba.fill-720x405.png" alt="">
-
+    
+      
+      <img class="nhsuk-promo__img" src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Veggie_chilli.2e16d0ba.fill-720x405.png" alt="">
+    
     <div class="nhsuk-promo__content">
       <h3 class="nhsuk-promo__heading">Tasty veggie chilli</h3>
       <div class="nhsuk-promo__description">
-
-
+        
+        
       </div>
     </div>
   </a>
 </div>
     </div>
-
+  
     <div class=" nhsuk-grid-column-one-third  nhsuk-promo-group__item  bh-partners-promo">
-
+      
 
 
 <div class="nhsuk-promo">
   <a class="nhsuk-promo__link-wrapper" href="/healthier-families/recipes/meatballs-and-sauce/">
-
-
-      <img class="nhsuk-promo__img" src="https://assets.nhs.uk/campaigns-cms-prod/images/Meatballs_and_sauce.2e16d0ba.fill-720x405.png" alt="">
-
+    
+      
+      <img class="nhsuk-promo__img" src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Meatballs_and_sauce.2e16d0ba.fill-720x405.png" alt="">
+    
     <div class="nhsuk-promo__content">
       <h3 class="nhsuk-promo__heading">Meatballs and sauce</h3>
       <div class="nhsuk-promo__description">
-
-
+        
+        
       </div>
     </div>
   </a>
 </div>
     </div>
-
+  
 </div>
 
-
-
+              
+            
           </div>
-
+      
     </div>
   </div>
 </section>
 
-
-
+        
+          
 
 <section class="nhsuk-section app-section--pomegranate"  id="signup-emails" >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-
+      
         <div class="nhsuk-grid-column-full nhsuk-section__content">
            <div class="nhsuk-u-reading-width">
-
-
+            
+            
             </div>
-
-
-
+            
+              
+                  
 
 
 
@@ -518,61 +519,61 @@
 
         <img
         class="nhsuk-card__img nhsuk-grid-column-one-half"
-        src="https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg"
+        src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg"
         sizes="
             (min-width: 1020px) 510px,
             (min-width: 768px) 50vw,
             100vw"
         srcset="
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg 320w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-510_NfVzp1g.jpg 510w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-640_lIaZS0j.jpg 640w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-767_OFJ0mAJ.jpg 767w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1019_4GllBgO.jpg 1019w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1125_xF06MA0.jpg 1125w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1534_msakzDJ.jpg 1534w
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg 320w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-510_NfVzp1g.jpg 510w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-640_lIaZS0j.jpg 640w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-767_OFJ0mAJ.jpg 767w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1019_4GllBgO.jpg 1019w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1125_xF06MA0.jpg 1125w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1534_msakzDJ.jpg 1534w
             "
         alt=""
         />
 
         <div class="nhsuk-card__content nhsuk-grid-column-one-half">
-
+            
                 <h2
                 class="
                 nhsuk-card__heading
-
-
-
+                
+                
+                
                 "
                 >
-
+                
                     <a class="nhsuk-card__link" href="https://healthysteps.betterhealth-healthierfamilies.co.uk/signup/?bh_hf">
                     Sign up for Healthy Steps emails
                     </a>
-
+                
                 </h2>
-
-
+            
+            
             <p data-block-key="tdep2">Want the recipe for a healthier family? Join today and over 8 weeks you&#x27;ll get easy tips from nutrition experts and parents, healthy swaps and tasty recipes on a budget.</p>
-
+            
         </div>
     </div>
 </div>
 
-
-
+              
+            
           </div>
-
+      
     </div>
   </div>
 </section>
 
-
-
-
+        
+      
+    
   </main>
 
-
+  
 
 <footer role="contentinfo">
   <div class="nhsuk-footer" id="nhsuk-footer">
@@ -580,19 +581,19 @@
       <nav class="footer-nav">
         <h2 class="nhsuk-u-visually-hidden">Support links</h2>
         <ul class="nhsuk-footer__list">
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/about-and-contact/"  class="nhsuk-footer__list-item-link">About and contact</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/accessibility-statement/"  class="nhsuk-footer__list-item-link">Accessibility statement</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="https://www.nhs.uk/our-policies/cookies-policy/"  class="nhsuk-footer__list-item-link">Cookies</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/privacy-policy/"  class="nhsuk-footer__list-item-link">Privacy policy</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/site-map/"  class="nhsuk-footer__list-item-link">Site map</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/terms-and-conditions/"  class="nhsuk-footer__list-item-link">Terms and conditions</a></li>
-
+        
         </ul>
       </nav>
       <p class="nhsuk-footer__copyright">&copy; Crown copyright</p>
@@ -601,11 +602,11 @@
 </footer>
 
 
+  
 
-
-
-
-
+  
+  
+  
 </body>
 
 </html>
