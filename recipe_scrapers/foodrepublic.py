@@ -18,6 +18,7 @@ class FoodRepublic(AbstractScraper):
                 "div", {"class": "recipe-card-amount"}
             ).text
             return get_minutes(prep_time_text)
+        return 0
 
     def cook_time(self):
         cook_time_div = self.soup.find("div", {"class": "recipe-card-cook-time"})
@@ -26,6 +27,7 @@ class FoodRepublic(AbstractScraper):
                 "div", {"class": "recipe-card-amount"}
             ).text
             return get_minutes(cook_time_text)
+        return 0
 
     def total_time(self):
         return self.prep_time() + self.cook_time()
