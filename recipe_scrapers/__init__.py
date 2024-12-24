@@ -313,6 +313,7 @@ from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
 from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
+from .preppykitchen import PreppyKitchen
 from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
 from .projectgezond import ProjectGezond
@@ -596,6 +597,7 @@ SCRAPERS = {
     PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
+    PreppyKitchen.host(): PreppyKitchen,
     QuiToque.host(): QuiToque,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,

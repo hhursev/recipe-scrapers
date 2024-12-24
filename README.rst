@@ -360,6 +360,7 @@ Scrapers available for:
 - `https://popsugar.com/ <https://popsugar.com>`_
 - `https://potatorolls.com/ <https://potatorolls.com/>`_
 - `https://practicalselfreliance.com/ <https://practicalselfreliance.com>`_
+- `https://preppykitchen.com/ <https://preppykitchen.com/>`_
 - `https://pressureluckcooking.com/ <https://pressureluckcooking.com/>`_
 - `https://www.primaledgehealth.com/ <https://www.primaledgehealth.com/>`_
 - `https://www.projectgezond.nl/ <https://www.projectgezond.nl/>`_
