@@ -119,7 +119,6 @@ Scrapers available for:
 - `https://bbc.com/ <https://bbc.com/food/recipes>`_
     - `.co.uk <https://bbc.co.uk/food/recipes>`__
 - `https://bbcgoodfood.com/ <https://bbcgoodfood.com>`_
-- `https://dashboard.bergamot.app/ <https://dashboard.bergamot.app/>`_
 - `https://bestrecipes.com.au/ <https://bestrecipes.com.au>`_
 - `https://betterfoodguru.com/ <https://betterfoodguru.com/>`_
 - `https://bettybossi.ch/ <https://bettybossi.ch>`_

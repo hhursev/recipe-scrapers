@@ -71,7 +71,6 @@ from .barefootcontessa import BareFootContessa
 from .barefootinthepines import BarefootInThePines
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
-from .bergamot import Bergamot
 from .bestrecipes import BestRecipes
 from .betterfoodguru import BetterFoodGuru
 from .bettybossi import BettyBossi
