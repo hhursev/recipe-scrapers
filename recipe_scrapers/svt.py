@@ -86,7 +86,11 @@ class Svt(AbstractScraper):
     def instructions_list(self):
         instructions_string = normalize_string(self.recipe_data.get("description"))
         instructions_soup = BeautifulSoup(instructions_string, "html.parser")
-        instructions = [element.text for element in instructions_soup.find_all("p")]
+        instructions = [
+            element.text
+            for element in instructions_soup.children
+            if not element.text.isspace()
+        ]
         return instructions
 
     def instructions(self):

@@ -1,9 +1,9 @@
 {
-  "author": "Lisa Lemke",
+  "author": "Fredrik Borgskog",
   "canonical_url": "svt.se",
   "host": "svt.se",
   "description": "Knäckig saffran och mandelkaka med päron, idén är att använda för hårt kokt eller överbliven knäck i denna kakan. Vid sidan av kakan kommer en lätt vispad vitchokladganache som smaksätts med vanilj och lite citronzest. Själva chokladganachen kan du vispa lite hårdare om önskas och spritsas upp på tex någon bakelse.",
-  "image": "https://backend.main-bvxea6i-nbs7p5fes6fzc.eu-5.platformsh.site/sites/default/files/images/23318806.jpg",
+  "image": "https://backend.main-bvxea6i-nbs7p5fes6fzc.eu-5.platformsh.site/sites/default/files/2024-12/Saffranskakaka.jpg",
   "ingredients": [
     "165g smör (rumstempererat)",
     "330g mandelmassa",
@@ -50,16 +50,15 @@
       ]
     }
   ],
-  "instructions": "1. Förbered gärna pannkakassmeten i god tid, med fördel redan på morgonen.\n2. Vispa samman mjöl, bakpulver och salt med hälften av mjölken tills du har en slät smet. Tillsätt äggen och resten av mjölken och vispa samman.\n3. Värm ugnen till 225 grader med en stor långpanna i ugnen så den får bli riktigt varm. Detta gör att ugnspannkakan blir ordentligt fluffig.\n4. Smält smör i långpannan och fördela över hela.\n5. Blanda kapris och solroskärnor med liquid smoke och låt detta sedan rosta i den heta pannan i någon minut tills solroskärnorna börjar få färg.\n6. Häll på pannkakassmeten (enklast när plåten fortfarande står kvar i ugnen) Låt grädda i ca 25-30 minuter eller tills pannkakan fluffat upp ordentligt och fått fin färg.\n7. Servera genast med lingonsylt och en god sallad.  Tips\nHemligheten bakom en riktigt fluffig ugnspannkaka är att förbereda smeten i god tid och att grädda den i en ordentligt het långpanna! Överbliven ugnspannkaka går utmärkt att frysa in eller förvara i kylskåp där den håller 3-4 dagar.",
+  "instructions": "Receptet passar till 4st små springformar (12cm) eller 1st stor (24cm).\nSaffranskaka:\nMixa smör och mandelmassa i en matberedare, gå sedan i med resterande ingredienser förutom päron och knäck, mixa ihop till en smet. Hacka nu ner knäcken i mindre bitar och dela ut i springformarna som är förberedda med bakplåtspapper i. Strimla upp päronen och lägg ovanpå knäcken. Dela ut saffranssmeten i formarna.Baka av på 180°C i 30min. Låt svalna och servera med botten uppåt.\nVispad chokladganache:\nBörja med att blanda ca 30g mjölk med potatismjölet. Koka upp resterande mjölk med vanilj, salt. Gå sedan i med potatismjölken. Koka upp under omrörning. Smält gelatinet i det. Sila det över chokladen. Mixa ihop till en kräm med stavmixer. Zesta i citron i choklad och häll i grädden. Mixa igen och sätt i kyl. Minst 8 tim kyltid.\nMontering:Börja med att vispa upp ganachen till en härlig konsistens. Dela kakan på hälften och och lägg upp och avsluta med ganachen.\nTips:Ganachen går bra att smaka upp på olika sätt och även bra användningsområde till att garnera bakelser eller tårtor.",
   "instructions_list": [
-    "1. Förbered gärna pannkakassmeten i god tid, med fördel redan på morgonen.",
-    "2. Vispa samman mjöl, bakpulver och salt med hälften av mjölken tills du har en slät smet. Tillsätt äggen och resten av mjölken och vispa samman.",
-    "3. Värm ugnen till 225 grader med en stor långpanna i ugnen så den får bli riktigt varm. Detta gör att ugnspannkakan blir ordentligt fluffig.",
-    "4. Smält smör i långpannan och fördela över hela.",
-    "5. Blanda kapris och solroskärnor med liquid smoke och låt detta sedan rosta i den heta pannan i någon minut tills solroskärnorna börjar få färg.",
-    "6. Häll på pannkakassmeten (enklast när plåten fortfarande står kvar i ugnen) Låt grädda i ca 25-30 minuter eller tills pannkakan fluffat upp ordentligt och fått fin färg.",
-    "7. Servera genast med lingonsylt och en god sallad.  Tips",
-    "Hemligheten bakom en riktigt fluffig ugnspannkaka är att förbereda smeten i god tid och att grädda den i en ordentligt het långpanna! Överbliven ugnspannkaka går utmärkt att frysa in eller förvara i kylskåp där den håller 3-4 dagar."
+    "Receptet passar till 4st små springformar (12cm) eller 1st stor (24cm).",
+    "Saffranskaka:",
+    "Mixa smör och mandelmassa i en matberedare, gå sedan i med resterande ingredienser förutom päron och knäck, mixa ihop till en smet. Hacka nu ner knäcken i mindre bitar och dela ut i springformarna som är förberedda med bakplåtspapper i. Strimla upp päronen och lägg ovanpå knäcken. Dela ut saffranssmeten i formarna.Baka av på 180°C i 30min. Låt svalna och servera med botten uppåt.",
+    "Vispad chokladganache:",
+    "Börja med att blanda ca 30g mjölk med potatismjölet. Koka upp resterande mjölk med vanilj, salt. Gå sedan i med potatismjölken. Koka upp under omrörning. Smält gelatinet i det. Sila det över chokladen. Mixa ihop till en kräm med stavmixer. Zesta i citron i choklad och häll i grädden. Mixa igen och sätt i kyl. Minst 8 tim kyltid.",
+    "Montering:Börja med att vispa upp ganachen till en härlig konsistens. Dela kakan på hälften och och lägg upp och avsluta med ganachen.",
+    "Tips:Ganachen går bra att smaka upp på olika sätt och även bra användningsområde till att garnera bakelser eller tårtor."
   ],
   "language": "sv",
   "site_name": "SVT recept",
