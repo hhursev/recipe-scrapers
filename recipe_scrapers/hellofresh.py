@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -9,9 +8,6 @@ class HelloFresh(AbstractScraper):
     @classmethod
     def host(cls, domain="com"):
         return f"hellofresh.{domain}"
-
-    def title(self):
-        return self.schema.title()
 
     def cook_time(self):
         script_tag = self.soup.find("script", {"id": "__NEXT_DATA__"})
@@ -37,24 +33,3 @@ class HelloFresh(AbstractScraper):
         prep_time, cook_time = self.prep_time(), self.cook_time()
         if prep_time or cook_time:
             return (prep_time or 0) + (cook_time or 0)
-
-    def yields(self):
-        return self.schema.yields()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def image(self):
-        return self.schema.image()
-
-    def nutrients(self):
-        return self.schema.nutrients()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def category(self):
-        return self.schema.category()

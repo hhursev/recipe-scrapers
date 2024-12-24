@@ -1,5 +1,3 @@
-# mypy: disallow_untyped_defs=False
-
 from recipe_scrapers._exceptions import SchemaOrgException
 
 from ._abstract import AbstractScraper
@@ -10,12 +8,6 @@ class SouthernLiving(AbstractScraper):
     @classmethod
     def host(cls):
         return "southernliving.com"
-
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
 
     def yields(self):
         try:
@@ -36,15 +28,3 @@ class SouthernLiving(AbstractScraper):
                     "div", class_="mntl-recipe-details__value"
                 )
                 return get_yields(servings_element)
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def description(self):
-        return self.schema.description()

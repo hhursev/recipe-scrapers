@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from itertools import chain
 from urllib.parse import urljoin
 

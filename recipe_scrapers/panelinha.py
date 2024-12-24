@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -11,9 +10,6 @@ class Panelinha(AbstractScraper):
     @classmethod
     def host(cls):
         return "panelinha.com.br"
-
-    def title(self):
-        return self.schema.title()
 
     def ingredients(self):
         ingredients = self.soup.find("h5", string="Ingredientes").nextSibling.findAll(

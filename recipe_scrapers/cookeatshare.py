@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class CookEatShare(AbstractScraper):
@@ -7,17 +7,8 @@ class CookEatShare(AbstractScraper):
     def host(cls):
         return "cookeatshare.com"
 
-    def title(self):
-        return self.schema.title()
+    def site_name(self):
+        raise StaticValueException(return_value="CookEatShare Cookbook")
 
     def total_time(self):
         return None
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()

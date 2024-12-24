@@ -1,6 +1,5 @@
-# mypy: disallow_untyped_defs=False
-
 import html
+import inspect
 import math
 import re
 
@@ -70,6 +69,31 @@ RECIPE_YIELD_TYPES = (
     ("item", "items"),
     # ... add more types as needed, in (singular, plural) format ...
 )
+
+
+def format_diet_name(diet_input):
+    replacements = {
+        # https://schema.org/RestrictedDiet
+        "DiabeticDiet": "Diabetic Diet",
+        "GlutenFreeDiet": "Gluten Free Diet",
+        "HalalDiet": "Halal Diet",
+        "HinduDiet": "Hindu Diet",
+        "KosherDiet": "Kosher Diet",
+        "LowCalorieDiet": "Low Calorie Diet",
+        "LowFatDiet": "Low Fat Diet",
+        "LowLactoseDiet": "Low Lactose Diet",
+        "LowSaltDiet": "Low Salt Diet",
+        "VeganDiet": "Vegan Diet",
+        "VegetarianDiet": "Vegetarian Diet",
+    }
+    if "https://schema.org/" in diet_input:
+        diet_input = diet_input.replace("https://schema.org/", "")
+
+    for key, value in replacements.items():
+        if key in diet_input:
+            return value
+
+    return diet_input
 
 
 def _extract_fractional(input_string: str) -> float:
@@ -175,6 +199,8 @@ def get_yields(element):
         serve_text = element
     else:
         serve_text = element.get_text()
+    if not serve_text:
+        raise ValueError("Cannot extract yield information from empty string")
 
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
@@ -198,9 +224,9 @@ def get_yields(element):
         return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return f"{matched} item{'s' if int(matched) != 1 else ''}"
 
-    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+    return f"{matched} serving{'s' if int(matched) != 1 else ''}"
 
 
 def get_equipment(equipment_items):
@@ -217,10 +243,12 @@ def get_equipment(equipment_items):
 def normalize_string(string):
     # Convert all named and numeric character references (e.g. &gt;, &#62;)
     unescaped_string = html.unescape(string)
+    # Remove HTML tags
+    no_html_string = re.sub("<[^>]*>", "", unescaped_string)
     return re.sub(
         r"\s+",
         " ",
-        unescaped_string.replace("\xc2\xa0", " ")
+        no_html_string.replace("\xc2\xa0", " ")
         .replace("\xa0", " ")
         .replace("\u200b", "")
         .replace("\r\n", " ")
@@ -228,6 +256,18 @@ def normalize_string(string):
         .replace("\t", " ")
         .strip(),
     )
+
+
+def csv_to_tags(csv, lowercase=False):
+    raw_tags = csv.split(",")
+    seen = set()
+    tags = []
+    for raw_tag in raw_tags:
+        tag = raw_tag.strip()
+        if tag and tag.lower() not in seen:
+            seen.add(tag.lower())
+            tags.append(tag.lower() if lowercase else tag)
+    return tags
 
 
 def url_path_to_dict(path):
@@ -269,3 +309,38 @@ def change_keys(obj, convert):
         return cls(change_keys(item, convert) for item in obj)
     else:
         return obj
+
+
+def get_url_slug(url):
+    path = url_path_to_dict(url).get("path")
+    return path.split("/")[-1]
+
+
+def get_abstract_methods():
+    from ._abstract import AbstractScraper
+
+    return [
+        name
+        for name, value in AbstractScraper.__dict__.items()  # Attributes of the abstract scraper class..
+        if not name.startswith("_")  # ... that are not private ...
+        and inspect.isfunction(value)  # ... and are functions ...
+        and name not in {"links", "to_json"}  # ... and not excluded as special-cases.
+        or name == "host"  # ... explicitly include the `host` method.
+    ]
+
+
+def get_nutrition_keys():
+    return [
+        "servingSize",
+        "calories",
+        "fatContent",
+        "saturatedFatContent",
+        "unsaturatedFatContent",
+        "transFatContent",
+        "carbohydrateContent",
+        "sugarContent",
+        "proteinContent",
+        "sodiumContent",
+        "fiberContent",
+        "cholesterolContent",
+    ]

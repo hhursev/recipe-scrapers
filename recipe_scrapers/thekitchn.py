@@ -1,5 +1,6 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
+from ._grouping_utils import group_ingredients
 
 
 class TheKitchn(AbstractScraper):
@@ -7,23 +8,13 @@ class TheKitchn(AbstractScraper):
     def host(cls):
         return "thekitchn.com"
 
-    def title(self):
-        return self.schema.title()
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".Recipe__ingredientsGroupName",
+            ".Recipe__ingredient",
+        )
 
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
+    def site_name(self):
+        raise StaticValueException(return_value="The Kitchn")

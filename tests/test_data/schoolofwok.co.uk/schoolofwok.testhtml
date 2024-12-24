@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simple Chicken and Rice Recipe! | School of Wok</title>
+    <meta name="description" content="Here&#039;s a quicker and easier way to make Hainanese chicken rice !">
+
+    <meta name="keywords" content="">
+    <meta property=”og:image” content="https://school-of-wok.s3.eu-west-2.amazonaws.com/recipes/index_images/d3f8117f14bb75197f7de186859d4d59.jpg" />
+
+    <link rel="canonical" href="https://schoolofwok.co.uk/tips-and-recipes/simple-chicken-and-rice">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon.png">
+
+    <meta name="csrf-token" content="OIbfYSRE1AMhxgxcoPBgSKTsOoJFEBLLRzwcEJb0">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-5L2HZF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'GTM-5L2HZF');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5L2HZF');</script>
+    <!-- End Google Tag Manager -->
+
+    
+    <link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/alert.2b2ba170.js" /><script type="module" src="https://schoolofwok.co.uk/build/assets/alert.2b2ba170.js"></script>    <link rel="preload" as="style" href="https://schoolofwok.co.uk/build/assets/app.f5dfac94.css" /><link rel="preload" as="style" href="https://schoolofwok.co.uk/build/assets/app.1f41fc10.css" /><link rel="preload" as="style" href="https://schoolofwok.co.uk/build/assets/splide-skyblue.cd258f16.css" /><link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/app.c98a0cfe.js" /><link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/alert.2b2ba170.js" /><link rel="stylesheet" href="https://schoolofwok.co.uk/build/assets/app.f5dfac94.css" /><link rel="stylesheet" href="https://schoolofwok.co.uk/build/assets/app.1f41fc10.css" /><link rel="stylesheet" href="https://schoolofwok.co.uk/build/assets/splide-skyblue.cd258f16.css" /><script type="module" src="https://schoolofwok.co.uk/build/assets/app.c98a0cfe.js"></script>    <link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/class-index.a40f69da.js" /><script type="module" src="https://schoolofwok.co.uk/build/assets/class-index.a40f69da.js"></script>    <link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/recipe-index.394a29d8.js" /><script type="module" src="https://schoolofwok.co.uk/build/assets/recipe-index.394a29d8.js"></script>    <link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/cookware-index.2d797938.js" /><script type="module" src="https://schoolofwok.co.uk/build/assets/cookware-index.2d797938.js"></script>    <link rel="preload" as="style" href="https://schoolofwok.co.uk/build/assets/app.1f41fc10.css" /><link rel="preload" as="style" href="https://schoolofwok.co.uk/build/assets/splide-skyblue.cd258f16.css" /><link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/cart.991ddd1a.js" /><link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/alert.2b2ba170.js" /><link rel="stylesheet" href="https://schoolofwok.co.uk/build/assets/app.1f41fc10.css" /><link rel="stylesheet" href="https://schoolofwok.co.uk/build/assets/splide-skyblue.cd258f16.css" /><script type="module" src="https://schoolofwok.co.uk/build/assets/cart.991ddd1a.js"></script>    <link rel="modulepreload" href="https://schoolofwok.co.uk/build/assets/voucher-print.000726e2.js" /><script type="module" src="https://schoolofwok.co.uk/build/assets/voucher-print.000726e2.js"></script>
+    
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPtYyYA6eouLs7v5_39TuATuOs7RKlFks&callback=initMap"></script> -->
+</head>
+
+<body class="antialiased scrollbar">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-5L2HZF height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+            <header class="pb-4 lg:pb-8 xl:pb-4 2xl:pb-6 w-full bg-white text-gray sticky top-0 z-30">
+
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6ca12ecf-7d4c-4b72-b939-fc89c3c11df0" type="text/javascript" async></script>
+
+    <div class="flex gap-x-2 justify-center items-center py-1.5 mb-4 text-white font-semibold bg-dark-gray-yellow lg:mb-6 xl:mb-4 2xl:mb-6 2xl:text-lg">
+        <a class="uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes" target="_blank">BLACK FRIDAY | 20% OFF | CODE: BF24</a>
+        <button class="hidden" type="button"><i class="fa-solid fa-angle-down"></i></button>
+    </div>
+
+    <div class="flex flex-col w-6/7 mx-auto 2xl:max-w-[1650px]">
+
+        <div class="flex justify-between items-center xl:items-stretch">
+
+                        <div class="self-center w-1/2 lg:w-1/5 xl:w-1/6 2xl:w-1/5">
+                <a href="https://schoolofwok.co.uk">
+                    <img src="/img/svg/logo2.svg" alt="school of wok">
+                </a>
+            </div>
+            <div class="flex items-center gap-x-2 lg:hidden">
+                <a class="w-8 relative" href="https://schoolofwok.co.uk/cart">
+                    <svg viewBox="0 0 47 47" >
+  <g id="Grupo_77" data-name="Grupo 77" transform="translate(-1736 -98)">
+    <circle id="Elipse_53" data-name="Elipse 53" cx="23.5" cy="23.5" r="23.5" transform="translate(1736 98)" fill="#e2231a"/>
+    <g id="Grupo_31" data-name="Grupo 31" transform="translate(-75.8 3.67)">
+      <rect id="Rectángulo_88" data-name="Rectángulo 88" width="21" height="22" rx="1" transform="translate(1824.8 108.33)" fill="#fff"/>
+      <g id="Rectángulo_89" data-name="Rectángulo 89" transform="translate(1829.8 102.33)" fill="none" stroke="#fff" stroke-width="1.5">
+        <path d="M5,0H6a5,5,0,0,1,5,5V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V5A5,5,0,0,1,5,0Z" stroke="none"/>
+        <path d="M5,.75H6A4.25,4.25,0,0,1,10.25,5V7.25a0,0,0,0,1,0,0H.75a0,0,0,0,1,0,0V5A4.25,4.25,0,0,1,5,.75Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
+                    <p data-quantity="0" class="header-cart-bag-text hidden w-5 aspect-square bg-dark-gray-yellow text-white text-sm text-center font-black rounded-full absolute -right-3 -top-2">0</p>
+                </a>
+                <button id="btn-contact-mobile" class="flex items-center gap-x-2 ml-2 p-[6px] text-lg border border-transparent bg-crimson text-white rounded-full font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson">
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+                <div class="open-mobile w-12">
+                    <svg id="ham-menu" viewBox="0 0 100 100" class="ham hamRotate ham4 stroke-gray">
+  <path
+        class="line top"
+        d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+  <path
+        class="line middle"
+        d="m 70,50 h -40" />
+  <path
+        class="line bottom"
+        d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+</svg>
+
+                </div>
+                <div id="contact-menu-mobile" class="hidden space-y-4 p-6 bg-white absolute top-28 right-2 rounded md:top-32" style="box-shadow: 0px 1px 7px 1px black;">
+
+                    <div class="flex gap-x-2 font-medium">
+                        <div class="self-end w-5 mb-1.5">
+                            <img class="w-full" src="/img/svg/envelope2.svg" alt="">
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <p class="text-gray text-sm">Email</p>
+                            <a class="text-crimson xl:text-lg" href="/cdn-cgi/l/email-protection#fd94939b92bd8e9e95929291929b8a9296d39e92d38896"><span class="__cf_email__" data-cfemail="254c4b434a6556464d4a4a494a43524a4e0b464a0b504e">[email&#160;protected]</span></a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-x-2 font-medium">
+                        <div class="self-end w-5 mb-1">
+                            <img class="w-full" src="/img/svg/phone.svg" alt="">
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <p class="text-gray text-sm">General Enquires</p>
+                            <a class="gen-number text-crimson xl:text-lg" href="tel:07365266695">0736 526 6695</a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-x-2 font-medium">
+                        <div class="self-end w-5 mb-1">
+                            <img class="w-full" src="/img/svg/phone.svg" alt="">
+                        </div>
+                        <div class="flex flex-col gap-y-2">
+                            <p class="text-gray text-sm">Corporate Events</p>
+                            <a class="text-crimson xl:text-lg" href="tel:07474655338">0747 465 5338</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="links-container hidden lg:flex flex-col gap-y-4 mt-2 transition-all duration-300 ease-in-out xl:flex-row xl:items-start xl:gap-x-8 xl:mt-0 xl:py-4 2xl:gap-x-20">
+
+                <nav class="flex gap-x-2 font-semibold uppercase xl:gap-x-5 xl:mt-2 2xl:gap-x-10 2xl:text-xl">
+                    <a class=" lg:hover:underline" href="https://schoolofwok.co.uk/cookery-classes">Classes</a>
+                    <a class=" lg:hover:underline" href="https://schoolofwok.co.uk/gift-vouchers">Vouchers</a>
+                    <a class=" lg:hover:underline" href="https://schoolofwok.co.uk/events">Corporate Events</a>
+                    <a class=" lg:hover:underline" href="https://schoolofwok.co.uk/consultancy">Consultancy</a>
+                    <a class=" lg:hover:underline" href="https://schoolofwok.co.uk/shop">Gift Shop</a>
+                    <a class=" lg:hover:underline" href="https://schoolofwok.co.uk/tips-and-recipes">Recipes</a>
+                </nav>
+
+                <div id="options-menu" class="flex gap-x-2 items-center self-end relative xl:self-auto xl:gap-x-4">
+
+                    <button id="btn-contact" class="flex items-center gap-x-2 py-2 px-4 border border-transparent bg-crimson text-white rounded-full font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson">
+                        Contact
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+
+                    <div id="contact-menu" class="hidden space-y-4 p-6 bg-white absolute top-12 -left-20 rounded xl:-left-40 2xl:top-14" style="box-shadow: 0px 1px 7px 1px black;">
+
+                        <div class="flex gap-x-2 font-medium">
+                            <div class="self-end w-5 mb-1.5">
+                                <img class="w-full" src="/img/svg/envelope2.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-y-2">
+                                <p class="text-gray text-sm">Email</p>
+                                <a class="text-crimson xl:text-lg" href="/cdn-cgi/l/email-protection#e38a8d858ca390808b8c8c8f8c85948c88cd808ccd9688"><span class="__cf_email__" data-cfemail="8ae3e4ece5caf9e9e2e5e5e6e5ecfde5e1a4e9e5a4ffe1">[email&#160;protected]</span></a>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-2 font-medium">
+                            <div class="self-end w-5 mb-1">
+                                <img class="w-full" src="/img/svg/phone.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-y-2">
+                                <p class="text-gray text-sm">General Enquires</p>
+                                <a class="gen-number text-crimson xl:text-lg" href="tel:07365266695">0736 526 6695</a>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-2 font-medium">
+                            <div class="self-end w-5 mb-1">
+                                <img class="w-full" src="/img/svg/phone.svg" alt="">
+                            </div>
+                            <div class="flex flex-col gap-y-2">
+                                <p class="text-gray text-sm">Corporate Events</p>
+                                <a class="text-crimson xl:text-lg" href="tel:07474655338">0747 465 5338</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <a class="w-8" href="#">
+                        <img src="/img/svg/user.svg" alt="user">
+                    </a> -->
+                    
+
+                    <a class="w-10 relative" href="https://schoolofwok.co.uk/cart">
+                        <svg viewBox="0 0 47 47" >
+  <g id="Grupo_77" data-name="Grupo 77" transform="translate(-1736 -98)">
+    <circle id="Elipse_53" data-name="Elipse 53" cx="23.5" cy="23.5" r="23.5" transform="translate(1736 98)" fill="#e2231a"/>
+    <g id="Grupo_31" data-name="Grupo 31" transform="translate(-75.8 3.67)">
+      <rect id="Rectángulo_88" data-name="Rectángulo 88" width="21" height="22" rx="1" transform="translate(1824.8 108.33)" fill="#fff"/>
+      <g id="Rectángulo_89" data-name="Rectángulo 89" transform="translate(1829.8 102.33)" fill="none" stroke="#fff" stroke-width="1.5">
+        <path d="M5,0H6a5,5,0,0,1,5,5V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V5A5,5,0,0,1,5,0Z" stroke="none"/>
+        <path d="M5,.75H6A4.25,4.25,0,0,1,10.25,5V7.25a0,0,0,0,1,0,0H.75a0,0,0,0,1,0,0V5A4.25,4.25,0,0,1,5,.75Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
+                        <p data-quantity="0" class="header-cart-bag-text hidden w-6 aspect-square bg-dark-gray-yellow text-white text-center font-black rounded-full absolute -right-4 -top-2">0</p>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="mobile-menu hidden my-2 text-gray">
+            <nav class="flex flex-col gap-y-4 w-11/12 mx-auto text-right font-medium uppercase">
+                <a class="active:font-semibold" href="https://schoolofwok.co.uk/cookery-classes">Classes</a>
+                <a class="active:font-semibold" href="https://schoolofwok.co.uk/gift-vouchers">Vouchers</a>
+                <a class="active:font-semibold" href="https://schoolofwok.co.uk/events">Corporate Events</a>
+                <a class="active:font-semibold" href="https://schoolofwok.co.uk/consultancy">Consultancy</a>
+                <a class="active:font-semibold" href="https://schoolofwok.co.uk/shop">Gift shop</a>
+                <a class="active:font-semibold" href="https://schoolofwok.co.uk/tips-and-recipes">Recipes</a>
+            </nav>
+        </div>
+
+    </div>
+
+    
+    <div id="error-alert-js" class="hidden w-2/3 px-8 py-4 border-l-8 rounded-lg absolute top-full -translate-x-full transition-all duration-200 ease-in-out md:w-1/2 lg:w-1/3 2xl:w-1/4">
+        <p class="title text-white text-lg font-semibold"></p>
+        <p class="content text-white font-semibold"></p>
+    </div>
+
+</header>
+
+<div class="fixed right-1 bottom-8 z-20 xl:right-4" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+    <div class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z" />
+        </svg>
+    </div>
+</div>    
+    <main class="flex flex-col">
+        <section id="recipe-home">
+
+        <div class="flex flex-col-reverse mb-8 xl:flex-row 2xl:max-w-[1920px] 2xl:mx-auto">
+
+            <div class="bg-dark-gray-yellow py-8 xl:w-2/5">
+                <div class="flex flex-col gap-y-4 w-6/7 mx-auto text-white font-medium xl:w-3/4 2xl:max-w-[475px] 2xl:h-full 2xl:justify-center">
+
+                    <h4 class="font-semibold uppercase xl:text-lg 2xl:text-xl">Posted on Wed 13th March 2024</h4>
+                    <h1 class="my-2 text-3xl uppercase lg:text-4xl xl:text-5xl 2xl:text-6xl">Simple Chicken and Rice</h1>
+                    <p class="mb-2 pb-4 border-b border-b-white xl:text-lg">We all love Hainanese chicken rice, but we don&#039;t always have the time to make the full thing. Here&#039;s a quicker and easier way to get similar results that will leave your cravings satisfied!</p>
+
+                    <div class="flex gap-x-8 mb-2 pb-4 border-b border-b-white uppercase xl:gap-x-16">
+                        <div>
+                            <p class="font-semibold xl:text-lg 2xl:text-xl">Cuisine</p>
+                            <p>Singaporean</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold xl:text-lg 2xl:text-xl">Time</p>
+                            <p>45 mins</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold xl:text-lg 2xl:text-xl">Servings</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="flex gap-x-4 mb-2">
+                        <div class="flex gap-x-1 items-center">
+                            <div class="w-6 2xl:w-8">
+                                <img src="/img/svg/star.svg" alt="star">
+                            </div>
+                            <div class="w-6 2xl:w-8">
+                                <img src="/img/svg/star.svg" alt="star">
+                            </div>
+                            <div class="w-6 2xl:w-8">
+                                <img src="/img/svg/star.svg" alt="star">
+                            </div>
+                            <div class="w-6 2xl:w-8">
+                                <img src="/img/svg/star.svg" alt="star">
+                            </div>
+                            <div class="w-6 2xl:w-8">
+                                <img src="/img/svg/star.svg" alt="star">
+                            </div>
+                        </div>
+
+                        <p class="mt-1 uppercase">5 from 3 votes</p>
+                    </div> -->
+
+                    <div class="recipe-tags flex items-center gap-4 flex-wrap mb-2">
+                                                <span class="py-2 px-4 text-[#F3F0DF] border-[#F3F0DF] border-2 rounded-full text-center font-semibold uppercase xl:py-1 xl:px-8 2xl:text-xl">Most popular</span>
+                                                <span class="py-2 px-4 text-[#F3F0DF] border-[#F3F0DF] border-2 rounded-full text-center font-semibold uppercase xl:py-1 xl:px-8 2xl:text-xl">Latest</span>
+                                            </div>
+
+                </div>
+            </div>
+
+            <div class="xl:w-3/5">
+                <img class="xl:w-full xl:h-full" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/recipes/show_images/7287b461711c044521422a0a246757fe.jpg" alt="recipe">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="recipe-ingredients">
+        <div class="flex flex-col gap-y-8 w-6/7 mx-auto my-12 text-gray md:flex-row md:gap-x-8 xl:justify-between xl:max-w-[1200px] xl:mb-20">
+
+            <div class="flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5">
+                <h3 class="mb-4 text-2xl uppercase lg:text-3xl xl:text-4xl 2xl:text-5xl">Ingredients</h3>
+                <div class="text-reset flex flex-col gap-y-4">
+                    <p>400g boned, skinless chicken thighs</p>
+
+<p>280g jasmine rice</p>
+
+<p>340ml chicken stock</p>
+
+<p>&frac12; onion</p>
+
+<p>1 thumb-sized piece of ginger (roughly chopped)&nbsp;</p>
+
+<p>2 spring onions (sliced in half&nbsp;&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>The Marinade</strong></p>
+
+<p>2 teaspoons sesame oil</p>
+
+<p>2 tablespoons light soy sauce</p>
+
+<p>2 tablespoons Shaoxing rice wine</p>
+
+<p>1 teaspoon granulated sugar</p>
+
+<p>1 thumb size piece of ginger grated</p>
+
+<p>3 garlic cloves grated</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Chilli Paste</strong></p>
+
+<p>1 thumb-sized piece of ginger&nbsp;</p>
+
+<p>2 cloves garlic&nbsp;</p>
+
+<p>1 tsp sugar&nbsp;</p>
+
+<p>5 birds eye chillies&nbsp;</p>
+
+<p>Juice of a lime</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5">
+                <h3 class="mb-4 text-2xl uppercase lg:text-3xl xl:text-4xl 2xl:text-5xl">Method</h3>
+                <h4 class="mb-2 font-semibold uppercase xl:text-lg 2xl:text-xl">Preparation</h4>
+                <div class="text-reset flex flex-col gap-y-4">
+                    <p>Trim all the fat and bone from the chicken and place in a pot with the chicken stock.&nbsp;&nbsp;Add the spring onions and ginger and allow that broth to simmer on the side.&nbsp;</p>
+
+<p>Cut the chicken thighs into 5mm slices and put in a bowl. Add the marinade ingredients to the bowl and, using your hands, rub them together until all the marinade has been absorbed.</p>
+
+<p>Rinse the rice 2&ndash;3 times to get rid of any excess starch, then drain the rice through a sieve.</p>
+                </div>
+                <h4 class="mb-2 font-semibold uppercase xl:text-lg 2xl:text-xl">Cooking</h4>
+                <div class="text-reset flex flex-col gap-y-4">
+                    <p>Heat the vegetable oil to a medium heat in a heavy-bottomed saucepan.</p>
+
+<p>Finely dice the onion and place in the pan to fry until golden.&nbsp;</p>
+
+<p>Add the washed rice to the pan and fry it for 1 minute, stirring to coat the grains evenly, then pour over the broth. Bring to the boil, then reduce to a simmer, add the chicken,&nbsp; cover with a lid and cook over a low heat for 15-20 minutes.&nbsp;</p>
+
+<p>Remove the lid and check that the chicken is cooked (it should be light brown or white in colour, with no pink), and that the rice has formed a crisp, golden-brown layer on the bottom of the pan. If it needs it, leave it to cook for a few minutes longer. Make a quick chilli sauce from the juice of a lime, red chillies, ginger, sugar and garlic. Pop that into a pestle and mortar and break down into a chiili paste.&nbsp;</p>
+
+<p>Once cooked, spoon the chicken rice into bowls and garnish with the chilli.&nbsp;&nbsp;</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="class-products">
+
+    <div class="flex flex-col gap-y-8 items-center w-6/7 mx-auto py-8 text-gray xl:w-3/5 2xl:w-6/7 2xl:max-w-[1650px]">
+        <h3 class="mb-8 text-gray text-center text-2xl font-medium uppercase lg:mb-12 lg:text-3xl xl:mb-0">Explore our award-winning cookware range today!</h3>
+
+        <div class="flex flex-col gap-y-8 w-full ">
+            <div id="products-slider" class="splide">
+                <div class="splide__track">
+                    <div class="splide__list">
+
+                                                <div class="splide__slide">
+                            <div class="flex flex-col h-full text-center">
+                                
+                                                                
+                                <a class="product-container mb-6 rounded-full overflow-hidden 2xl:max-w-[460px] 2xl:mx-auto" href="https://schoolofwok.co.uk/shop/pots-pans/chasseur-round-casserole-20cm-matt-black-11832001">
+                                    <img class="w-full aspect-[2.5/3] object-cover object-center rounded-full transition-transform duration-300 ease-in-out hover:scale-105" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/e78db242d5a43c4b0c23c74d0e071a13.jpg" alt="Chasseur Round Casserole 20cm Matt Black (11832001)">
+                                    <!-- <div class="product-add hidden">
+                                        <div class="flex items-center justify-center w-full h-full bg-dark-yellow-2 text-white rounded-full transition-all duration-300 ease-in-out absolute top-0 z-10">
+                                            <p class="text-xl uppercase lg:hover:underline cursor-pointer">Add <br> to bag</p>
+                                        </div>
+                                    </div> -->
+                                </a>
+                                
+                                <a class="mb-1 font-medium uppercase hover:underline" href="https://schoolofwok.co.uk/shop/pots-pans/chasseur-round-casserole-20cm-matt-black-11832001">Chasseur Round Casserole 20cm Matt Black (11832001)</a>
+                                <p class="mt-auto mb-2 text-dark-yellow-2 font-medium xl:text-lg">£158.00</p>
+                                                                    <button class="add-to-bag-gift-shop py-2 bg-crimson border-2 border-transparent rounded-full text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson md:self-center md:px-8 2xl:text-lg" type="button" data-url="https://schoolofwok.co.uk/cart/store/chasseur-round-casserole-20cm-matt-black-11832001?qty=1">Add to bag</button>
+                                                            </div>
+                        </div>
+                                                <div class="splide__slide">
+                            <div class="flex flex-col h-full text-center">
+                                
+                                                                
+                                <a class="product-container mb-6 rounded-full overflow-hidden 2xl:max-w-[460px] 2xl:mx-auto" href="https://schoolofwok.co.uk/shop/kitchen-utensils/stainless-steel-wok-ring-12322012">
+                                    <img class="w-full aspect-[2.5/3] object-cover object-center rounded-full transition-transform duration-300 ease-in-out hover:scale-105" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/1278f57a68ac91d7d7d28d5c64766303.jpg" alt="STAINLESS STEEL WOK RING (12322012)">
+                                    <!-- <div class="product-add hidden">
+                                        <div class="flex items-center justify-center w-full h-full bg-dark-yellow-2 text-white rounded-full transition-all duration-300 ease-in-out absolute top-0 z-10">
+                                            <p class="text-xl uppercase lg:hover:underline cursor-pointer">Add <br> to bag</p>
+                                        </div>
+                                    </div> -->
+                                </a>
+                                
+                                <a class="mb-1 font-medium uppercase hover:underline" href="https://schoolofwok.co.uk/shop/kitchen-utensils/stainless-steel-wok-ring-12322012">STAINLESS STEEL WOK RING (12322012)</a>
+                                <p class="mt-auto mb-2 text-dark-yellow-2 font-medium xl:text-lg">£12.00</p>
+                                                                    <button class="add-to-bag-gift-shop py-2 bg-crimson border-2 border-transparent rounded-full text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson md:self-center md:px-8 2xl:text-lg" type="button" data-url="https://schoolofwok.co.uk/cart/store/stainless-steel-wok-ring-12322012?qty=1">Add to bag</button>
+                                                            </div>
+                        </div>
+                                                <div class="splide__slide">
+                            <div class="flex flex-col h-full text-center">
+                                
+                                                                
+                                <a class="product-container mb-6 rounded-full overflow-hidden 2xl:max-w-[460px] 2xl:mx-auto" href="https://schoolofwok.co.uk/shop/kitchen-utensils/school-of-wok-wok-clock-12373365">
+                                    <img class="w-full aspect-[2.5/3] object-cover object-center rounded-full transition-transform duration-300 ease-in-out hover:scale-105" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/5a44a5337375950291d11f2a55fd20a4.jpg" alt="School of Wok Wok Clock (12373365)">
+                                    <!-- <div class="product-add hidden">
+                                        <div class="flex items-center justify-center w-full h-full bg-dark-yellow-2 text-white rounded-full transition-all duration-300 ease-in-out absolute top-0 z-10">
+                                            <p class="text-xl uppercase lg:hover:underline cursor-pointer">Add <br> to bag</p>
+                                        </div>
+                                    </div> -->
+                                </a>
+                                
+                                <a class="mb-1 font-medium uppercase hover:underline" href="https://schoolofwok.co.uk/shop/kitchen-utensils/school-of-wok-wok-clock-12373365">School of Wok Wok Clock (12373365)</a>
+                                <p class="mt-auto mb-2 text-dark-yellow-2 font-medium xl:text-lg">£15.00</p>
+                                                                    <button class="add-to-bag-gift-shop py-2 bg-crimson border-2 border-transparent rounded-full text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson md:self-center md:px-8 2xl:text-lg" type="button" data-url="https://schoolofwok.co.uk/cart/store/school-of-wok-wok-clock-12373365?qty=1">Add to bag</button>
+                                                            </div>
+                        </div>
+                                                <div class="splide__slide">
+                            <div class="flex flex-col h-full text-center">
+                                
+                                                                
+                                <a class="product-container mb-6 rounded-full overflow-hidden 2xl:max-w-[460px] 2xl:mx-auto" href="https://schoolofwok.co.uk/shop/pots-pans/supreme-24cm-non-stick-frying-pan-12101823">
+                                    <img class="w-full aspect-[2.5/3] object-cover object-center rounded-full transition-transform duration-300 ease-in-out hover:scale-105" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/e01dbd4bcc432d2897d7459afca1a658.jpg" alt="Supreme 24cm Non-Stick Frying Pan (12101823)">
+                                    <!-- <div class="product-add hidden">
+                                        <div class="flex items-center justify-center w-full h-full bg-dark-yellow-2 text-white rounded-full transition-all duration-300 ease-in-out absolute top-0 z-10">
+                                            <p class="text-xl uppercase lg:hover:underline cursor-pointer">Add <br> to bag</p>
+                                        </div>
+                                    </div> -->
+                                </a>
+                                
+                                <a class="mb-1 font-medium uppercase hover:underline" href="https://schoolofwok.co.uk/shop/pots-pans/supreme-24cm-non-stick-frying-pan-12101823">Supreme 24cm Non-Stick Frying Pan (12101823)</a>
+                                <p class="mt-auto mb-2 text-dark-yellow-2 font-medium xl:text-lg">£82.00</p>
+                                                                    <button class="add-to-bag-gift-shop py-2 bg-crimson border-2 border-transparent rounded-full text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson md:self-center md:px-8 2xl:text-lg" type="button" data-url="https://schoolofwok.co.uk/cart/store/supreme-24cm-non-stick-frying-pan-12101823?qty=1">Add to bag</button>
+                                                            </div>
+                        </div>
+                                                <div class="splide__slide">
+                            <div class="flex flex-col h-full text-center">
+                                
+                                                                
+                                <a class="product-container mb-6 rounded-full overflow-hidden 2xl:max-w-[460px] 2xl:mx-auto" href="https://schoolofwok.co.uk/shop/kitchen-utensils/stainless-steel-sieve-15cm-17830311">
+                                    <img class="w-full aspect-[2.5/3] object-cover object-center rounded-full transition-transform duration-300 ease-in-out hover:scale-105" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/fa20dca1a0447423bf6a072cf444d44a.jpg" alt="Stainless Steel Sieve 15cm (17830311)">
+                                    <!-- <div class="product-add hidden">
+                                        <div class="flex items-center justify-center w-full h-full bg-dark-yellow-2 text-white rounded-full transition-all duration-300 ease-in-out absolute top-0 z-10">
+                                            <p class="text-xl uppercase lg:hover:underline cursor-pointer">Add <br> to bag</p>
+                                        </div>
+                                    </div> -->
+                                </a>
+                                
+                                <a class="mb-1 font-medium uppercase hover:underline" href="https://schoolofwok.co.uk/shop/kitchen-utensils/stainless-steel-sieve-15cm-17830311">Stainless Steel Sieve 15cm (17830311)</a>
+                                <p class="mt-auto mb-2 text-dark-yellow-2 font-medium xl:text-lg">£10.00</p>
+                                                                    <button class="add-to-bag-gift-shop py-2 bg-crimson border-2 border-transparent rounded-full text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson md:self-center md:px-8 2xl:text-lg" type="button" data-url="https://schoolofwok.co.uk/cart/store/stainless-steel-sieve-15cm-17830311?qty=1">Add to bag</button>
+                                                            </div>
+                        </div>
+                                                <div class="splide__slide">
+                            <div class="flex flex-col h-full text-center">
+                                
+                                                                
+                                <a class="product-container mb-6 rounded-full overflow-hidden 2xl:max-w-[460px] 2xl:mx-auto" href="https://schoolofwok.co.uk/shop/kitchen-utensils/wooden-lemon-reamer-17841485">
+                                    <img class="w-full aspect-[2.5/3] object-cover object-center rounded-full transition-transform duration-300 ease-in-out hover:scale-105" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/3a951648f5cfee87ff9b80080bc21bfd.jpg" alt="Wooden Lemon Reamer (17841485)">
+                                    <!-- <div class="product-add hidden">
+                                        <div class="flex items-center justify-center w-full h-full bg-dark-yellow-2 text-white rounded-full transition-all duration-300 ease-in-out absolute top-0 z-10">
+                                            <p class="text-xl uppercase lg:hover:underline cursor-pointer">Add <br> to bag</p>
+                                        </div>
+                                    </div> -->
+                                </a>
+                                
+                                <a class="mb-1 font-medium uppercase hover:underline" href="https://schoolofwok.co.uk/shop/kitchen-utensils/wooden-lemon-reamer-17841485">Wooden Lemon Reamer (17841485)</a>
+                                <p class="mt-auto mb-2 text-dark-yellow-2 font-medium xl:text-lg">£4.75</p>
+                                                                    <button class="add-to-bag-gift-shop py-2 bg-crimson border-2 border-transparent rounded-full text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson md:self-center md:px-8 2xl:text-lg" type="button" data-url="https://schoolofwok.co.uk/cart/store/wooden-lemon-reamer-17841485?qty=1">Add to bag</button>
+                                                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                                <div class="splide__arrows flex flex-col items-center gap-y-4 my-8 lg:flex-row xl:mt-2 xl:mb-12 2xl:mt-12">
+                    <div class="flex gap-x-2 items-center xl:gap-x-4">
+                        <button class="splide__arrow splide__arrow--prev !static !translate-y-0">
+                            <i class="fa-solid fa-angle-left xl:text-2xl"></i>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next !static !translate-y-0">
+                            <i class="fa-solid fa-angle-right xl:text-2xl"></i>
+                        </button> 
+                    </div>
+                    <a class="self-center w-fit py-2 px-8 bg-crimson rounded-full border-2 border-transparent text-white font-semibold uppercase transition-colors duration-300 ease-in-out hover:bg-white hover:text-crimson hover:border-crimson lg:ml-auto lg:mr-[50%] lg:translate-x-1/2 xl:text-lg 2xl:text-xl" href="https://schoolofwok.co.uk/shop">Go Shopping</a>
+                </div>
+                            </div>
+        </div>
+
+    </div>
+
+</section>
+        <section id="recipe-video">
+
+        <div class="flex flex-col gap-y-4 w-6/7 mx-auto my-12 text-gray">
+            <h2 class="mb-4 text-xl text-center font-medium uppercase lg:text-2xl xl:text-3xl 2xl:text-4xl">How to cook Simple Chicken and Rice</h2>
+
+            <div class="w-full rounded lg:w-3/4 lg:mx-auto 2xl:max-w-[960px]">
+                <iframe class="w-full aspect-[4/3] rounded xl:aspect-[4/2.5]" src="https://www.youtube.com/embed/rkT33vqHmVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section id="related-classes" >
+    <div class="flex flex-col gap-y-4 w-6/7 mx-auto my-12 text-gray 2xl:max-w-[1500px]">
+        <h2 class="mb-4 text-xl text-center font-medium uppercase lg:text-2xl xl:text-3xl 2xl:text-4xl">Check out our Cooking Classes</h2>
+
+        <div class="w-full">
+            <div id="related-classes-slider" class="splide">
+                <div class="splide__track p-8">
+                    <div class="splide__list">
+
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/d44df70ba1ad2e0c5220cab5c8d9b5d3.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Korean cooking masterclass with Da-Hae West</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu: Kimchi jeon: crispy kimchi pancake, jumeok bap: Korean rice balls, tteokbokki: spicy Korean rice cakes, goma kimbap: mini seaweed rolls</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>12 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/korean-cooking-masterclass-with-da-hae-west?2025-05-23T18:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/d7dfb6504f08b1939a2ebca0cd901b99.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Full Day Indonesian Cooking</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£195.00</span>
+                                            <p class="mb-auto text-justify">Menu: Gado-Gado, Beef Rendang, Ayam Taliwang, Sate Ayam Madura, Nasi Kuning, Klepon</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>9 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/full-day-indonesian-cooking?2025-01-07T11:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/c608dd5d5caf03d57c03bbf4bd84a393.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Understanding the Wok (3hr)</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu: Jiao Zi, Stir Fried Sichuan Chicken, Flash Fried Morning Glory, Egg Fried Rice</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>9 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/understanding-the-wok-3hr?2025-02-19T18:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/0daacfe9f490d6e78190aa4885fe13f5.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Vietnamese Cuisine Masterclass (3hr)</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu:  Hanoi Fried Fish with Turmeric &amp; Dill (Chả Cá Lã Vọng), Bánh Xèo, Nước chấm dipping sauce , Shaking Beef (Bò lúc lắc)</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>4 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/vietnamese-cuisine-masterclass-3hr?2025-01-28T18:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/47fafd30a1eb5d5a2d7beeba73dab862.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Thai Cooking Masterclass with Yui Miles</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu: Chicken Massman curry, Somtum Khao pod (Papaya salad with sweetcorn), Pad Se-ew (Noodles with pork and dark soy sauce)</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>12 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/thai-cooking-masterclass-with-yui-miles?2025-09-12T18:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/769452434969d7aa3753f3ff7cbec78f.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Gluten-Free Dim Sum &amp; Bao Cooking Class (3hr)</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu: Char Sui Pork Bao Bun, Jiaozi , Gui Chai Tod, Smashed Cucumber Salad</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>12 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/gluten-free-dim-sum-bao-cooking-class-3hr?2025-05-02T18:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/590cc2048c34bef796085fbe50fe32c1.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Sushi Making Class (3hr)</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu: Gyoza, Hosomaki, Temaki, Uramaki</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>1 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/sushi-making-class-3hr?2025-02-15T10:30">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/c3df6db66661f16d2270bd38b1fad747.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Thai Cookery masterclass with Marni Xuto</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£115.00</span>
+                                            <p class="mb-auto text-justify">Menu: Fish Jungle curry with jasmine rice, Chicken Satay and Son in law eggs (Tamarind eggs with crunchy topping).</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>11 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/thai-cookery-masterclass-with-marni-xuto?2025-07-18T18:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/d93b6808c8022969bfb73f2df39068b2.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">7 course Supper club with  recipes from the Silk Road from Radhika&#039;s cookbook Flavours without Borders</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£50.00</span>
+                                            <p class="mb-auto text-justify">Menu: Atho noodles from Myanmar (Indo-Burmese), Paneer Manchurian (Indo- Chinese connection in Kolkata, India ), Tuna samosa – Samosa tale on the Silk route,  Achari baingan – aubergine cooked with pickling spices (Aubergine odyssey on Silk route) Dahi chicken with paratha (stories from the Spice route) This will be served with flat bread) / vegetarian option with chickpeas, Coronation chicken or Cauliflower / seasonal vegetable curry Exploring the curry trail from India – Vietnam – Japan. Curry connection – Vietnamese curri chai, Mango shrikhand from India.</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>24 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/7-course-supper-club-with-recipes-from-the-silk-road-from-radhika-s-cookbook-flavours-without-borders?2025-02-01T19:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                            
+                                <div class="splide__slide">
+                                    <div class="flex flex-col h-full shadow-xl">
+
+                                        <div class="rounded-tl rounded-tr">
+                                            <img class="w-full aspect-square object-cover rounded-tl rounded-tr" src="https://school-of-wok.s3.eu-west-2.amazonaws.com/products/main_images/db47c3050c30bc3ee8250abf47506505.jpg" alt="recipe1">
+                                        </div>
+
+                                        <div class="flex flex-col gap-y-4 w-full h-full py-4 px-6 bg-white text-gray font-medium rounded-bl rounded-br">
+                                            <h3 class="text-lg uppercase xl:text-xl 2xl:text-2xl">Full Day Takeaway Classics</h3>
+                                            <span class="text-dark-gray-yellow text-lg lg:text-xl xl:text-2xl">£195.00</span>
+                                            <p class="mb-auto text-justify">Menu: Sweet &amp; Sour Pork, Chicken &amp; Cashew Nuts Stir-fry, Chinese Vegetarian Spring Rolls, Hong Kong Noodles, Egg Fried Rice</p>
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center gap-x-2 font-medium text-gray">
+                                                    <div class="w-6">
+                                                        <img src="/img/svg/spaces.svg">
+                                                    </div>
+                                                    <p>9 Spaces Left</p>
+                                                </div>
+
+                                                <a class="text-crimson uppercase hover:underline" href="https://schoolofwok.co.uk/cookery-classes/type/full-day-takeaway-classics?2025-01-21T11:00">Learn more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    </main>
+
+    <footer class="py-8 bg-crimson-2 text-white">
+    <div class="grid gap-y-6 w-6/7 mx-auto py-8 lg:grid-cols-2 2xl:max-w-[1650px]">
+
+        <div class="newsletter-form flex flex-col gap-y-4">
+            <h4 class="text-xl uppercase lg:w-2/3 xl:text-2xl 2xl:w-1/2 2xl:text-3xl">Subscribe To Our Newsletter</h4>
+
+            <div class="flex flex-col w-full mb-4">
+                <div class="relative md:w-1/2 lg:w-2/3">
+                    <input id="footer-news" class="w-full py-2 pl-4 rounded-full text-gray font-medium placeholder:text-gray focus-visible:outline-crimson xl:py-4 xl:pl-8 2xl:text-lg" type="email" name="newsletter" placeholder="Email">
+                    <button id="btn-footer-news" class="w-6 absolute right-4 top-1/2 -translate-y-1/2 xl:w-8 xl:right-6" type="button">
+                        <img src="/img/svg/send.svg">
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid gap-2 font-medium lg:grid-cols-2">
+                <div class="flex flex-col gap-y-1">
+                    <span class="text-lg font-bold">Address:</span>
+                    <a class="w-fit hover:underline" href="https://goo.gl/maps/7YvVbq16uPoVMWPW8" target="_blank">61 Chandos Pl, London WC2N 4HG, United Kingdom</a>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                    <span class="text-lg font-bold">Contact E-mail:</span> 
+                    <a class="w-fit hover:underline" href="/cdn-cgi/l/email-protection#c4adaaa2ab84b7a7acababa8aba2b3abafeaa7abeab1af"><span class="__cf_email__" data-cfemail="5d34333b321d2e3e35323231323b2a3236733e32732836">[email&#160;protected]</span></a>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                    <span class="text-lg font-bold">General Enquires:</span>
+                    <a class="gen-number w-fit hover:underline" href="tel:07365266695">0736 526 6695</a>
+                </div>
+                <div class="flex flex-col gap-y-1">
+                    <span class="text-lg font-bold">Corporate Events:</span>
+                    <a class="w-fit hover:underline" href="tel:07474655338">0747 465 5338</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-nav flex flex-col xl:text-lg 2xl:w-2/3 2xl:ml-auto 2xl:text-xl">
+
+            <nav class="flex flex-col items-start gap-y-1 pb-4 mb-4 border-b border-b-white font-semibold uppercase">
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/cookery-classes">Classes <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/gift-vouchers">Gift Vouchers <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/events">Corporate Events <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/consultancy">Consultancy <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/shop">Shop <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/blog">Blog <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+            </nav>
+            
+            <nav class="flex flex-col items-start gap-y-1 font-semibold uppercase">
+                <!-- <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/our-story">About us <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/blog">Blog <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/faqs">FAQ's <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/our-story">Our Story <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/careers">Careers <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/sponsors">Sponsors <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/terms-and-conditions">Terms and Conditions <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/privacy-policy">Privacy Policy <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/cookie-policy">Cookie Policy <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a class="footer-link lg:hover:underline" href="https://schoolofwok.co.uk/delivery">Delivery Info <i class="hidden ml-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+            </nav>
+
+        </div>
+
+        <div class="social-links flex items-center gap-x-8">
+            <a class="text-3xl transition-colors duration-300 ease-in-out hover:text-black" target="_blank" href="https://www.facebook.com/schoolofwok">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="text-4xl transition-colors duration-300 ease-in-out hover:text-black" target="_blank" href="https://www.instagram.com/schoolofwok/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="text-4xl transition-colors duration-300 ease-in-out hover:text-black" target="_blank" href="https://www.youtube.com/channel/UCBrxd1Mum2cYH7DOxo2exJA">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="flex flex-col gap-y-4 justify-center w-6/7 mx-auto mt-4 pt-4 pb-8 border-t border-t-white font-medium xl:flex-row 2xl:max-w-[1650px]">
+        <p class="xl:basis-full xl:text-lg 2xl:text-xl">© 2023 School of Wok. All rights reserved.</p>
+        <p class="text-justify 2xl:text-lg">Europe's award winning London cookery school located in Covent Garden, specialising in Asian & Oriental cookery. Book a cookery class or team event now!</p>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=T7CXL2"></script>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox='gallery']", {
+          // Your custom options
+        });
+    </script>
+
+    <script src="https://www.google.com/recaptcha/api.js?hl=&render=6LeE7xUqAAAAAGetR4oAT2Pbwu_VJ7oBBgUEN1VC"></script>
+
+    </body>
+
+</html>

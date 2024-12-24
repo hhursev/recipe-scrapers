@@ -1,0 +1,77 @@
+{
+  "author": "Megan",
+  "canonical_url": "https://meganvskitchen.com/cheesy-bean-and-rice-burrito/",
+  "site_name": "Megan vs Kitchen",
+  "host": "meganvskitchen.com",
+  "language": "en-US",
+  "title": "Cheesy Bean and Rice Burrito",
+  "ingredients": [
+    "¼ cup sour cream",
+    "¼ cup mayonnaise",
+    "2 tablespoons pickled jalapenos diced (optional)",
+    "2 tablespoons pickled jalapeno juice (optional)",
+    "1 teaspoon paprika",
+    "1 teaspoon cumin",
+    "½ teaspoon garlic powder",
+    "½ teaspoon onion powder",
+    "½ teaspoon chipotle chili powder or regular chili powder",
+    "8 9-inch flour tortillas",
+    "1 16-oz can of refried beans",
+    "2 2/3 cups Spanish rice (I used a box of New East’s Spanish rice which makes about 3 cups)",
+    "2 cups Mexican cheese blend"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "¼ cup sour cream",
+        "¼ cup mayonnaise",
+        "2 tablespoons pickled jalapenos diced (optional)",
+        "2 tablespoons pickled jalapeno juice (optional)",
+        "1 teaspoon paprika",
+        "1 teaspoon cumin",
+        "½ teaspoon garlic powder",
+        "½ teaspoon onion powder",
+        "½ teaspoon chipotle chili powder or regular chili powder"
+      ],
+      "purpose": "Creamy Jalapeno Sauce"
+    },
+    {
+      "ingredients": [
+        "8 9-inch flour tortillas",
+        "1 16-oz can of refried beans",
+        "2 2/3 cups Spanish rice (I used a box of New East’s Spanish rice which makes about 3 cups)",
+        "2 cups Mexican cheese blend"
+      ],
+      "purpose": "Cheesy Bean and Rice Burrito"
+    }
+  ],
+  "instructions_list": [
+    "In a small bowl, mix together the creamy jalapeno sauce ingredients.",
+    "Lay a tortilla flat, spread 1/4 cup of refried beans, 1/3 cup of Spanish rice, 1/4 cup of Mexican cheese, and 1/2 tablespoon* of jalapeno sauce down the middle. Roll into a burrito.",
+    "Fold the burrito.",
+    "Place a skillet over medium heat. Add burrito seam side down. Toast on both sides till brown."
+  ],
+  "category": "Dinner",
+  "yields": "8 servings",
+  "description": "Inspired by Taco Bell, this copycat Cheesy Bean and Rice Burrito is easy to make, cheap, and so much better than the original.",
+  "total_time": 35,
+  "cook_time": 15,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 4.79,
+  "ratings_count": 37,
+  "nutrients": {
+    "servingSize": "1 Burrito",
+    "calories": "385 kcal",
+    "fatContent": "15.1 g",
+    "saturatedFatContent": "6.9 g",
+    "carbohydrateContent": "51 g",
+    "sugarContent": "2.1 g",
+    "proteinContent": "13.4 g",
+    "fiberContent": "3.2 g"
+  },
+  "image": "https://meganvskitchen.com/wp-content/uploads/2022/11/IMG_5024-scaled.jpg",
+  "keywords": [
+    "cheesy bean and rice burrito"
+  ]
+}

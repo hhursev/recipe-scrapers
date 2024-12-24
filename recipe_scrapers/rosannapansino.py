@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
 
@@ -12,8 +11,8 @@ class RosannaPansino(AbstractScraper):
     def title(self):
         return self.soup.find("meta", {"property": "og:title"})["content"]
 
-    def image(self):
-        return self.schema.image()
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def ingredients(self):
         ingredients = (

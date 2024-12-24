@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class Tasty(AbstractScraper):
@@ -7,20 +7,7 @@ class Tasty(AbstractScraper):
     def host(cls):
         return "tasty.co"
 
-    def title(self):
-        return self.schema.title()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(), self.soup, ".ingredient-section-name", ".ingredient"
+        )

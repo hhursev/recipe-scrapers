@@ -1,7 +1,7 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import change_keys
 
 
@@ -20,21 +20,6 @@ class TineNo(AbstractScraper):
     @classmethod
     def host(cls):
         return "tine.no"
-
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
 
     def image(self):
         image = self.soup.find("img", {"id": "HeaderMediaContent"})
@@ -66,9 +51,6 @@ class TineNo(AbstractScraper):
                 max_res_src = src[0]
         return max_res_src
 
-    def ingredients(self):
-        return self.schema.ingredients()
-
     def instructions(self):
         """
         Standard Schema.org implementation, except removes HowToSection with generic 'Oppskrift' header.
@@ -78,11 +60,10 @@ class TineNo(AbstractScraper):
             [i for i in self.schema.instructions().split("\n") if i != "Oppskrift"]
         )
 
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "#ingredient-groups-container h4",
+            "#ingredient-groups-container [itemprop='ingredients']",
+        )

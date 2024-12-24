@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import normalize_string
 
 
@@ -7,35 +8,8 @@ class BongEats(AbstractScraper):
     def host(cls):
         return "bongeats.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def description(self):
-        return self.schema.description()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def nutrients(self):
-        return self.schema.nutrients()
-
-    def cuisine(self):
-        return self.schema.cuisine()
+    def site_name(self):
+        raise StaticValueException(return_value="Bong Eats")
 
     def ingredients(self):
         ingredients_div = self.soup.find(

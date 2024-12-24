@@ -1,8 +1,7 @@
-# mypy: allow-untyped-defs
-
 import re
 
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class Chefnini(AbstractScraper):
@@ -16,11 +15,8 @@ class Chefnini(AbstractScraper):
     def title(self):
         return self.soup.find("span", {"itemprop": "headline"}).get_text()
 
-    def category(self):
-        return self.schema.category()
-
     def total_time(self):
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         recipe_yields_text = self.soup.find(
@@ -28,9 +24,6 @@ class Chefnini(AbstractScraper):
         ).get_text()
         servings = re.match(r"Pour (\d+)", recipe_yields_text).group(1)
         return f"{servings} servings"
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.soup.findAll("li", {"itemprop": "ingredients"})

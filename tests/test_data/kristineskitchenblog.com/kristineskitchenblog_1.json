@@ -1,0 +1,44 @@
+{
+  "author": "Kristine Rosenblatt",
+  "canonical_url": "https://kristineskitchenblog.com/berry-smoothie/",
+  "site_name": "Kristine's Kitchen",
+  "host": "kristineskitchenblog.com",
+  "language": "en-US",
+  "title": "Berry Smoothie",
+  "ingredients": [
+    "1 cup frozen strawberries",
+    "½ cup frozen raspberries",
+    "½ cup frozen blueberries",
+    "½ medium banana*",
+    "¼ cup plain Greek yogurt*",
+    "¾ cup unsweetened almond milk (or other nondairy or dairy milk)"
+  ],
+  "instructions_list": [
+    "Place all ingredients in a blender and blend until smooth, starting with the blender on low speed and then gradually increasing the speed to fully blend the smoothie. If the smoothie is too thick, blend in a little bit more almond milk. Serve immediately."
+  ],
+  "category": "Breakfast,Smoothie,Snack",
+  "yields": "1 serving",
+  "description": "This refreshing Berry Smoothie is bursting with sweet berry flavor! It's made with three kinds of berries, or you can use a package of frozen mixed berries. Enjoy this healthy smoothie for breakfast, a snack, or even dessert.",
+  "total_time": 5,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "servingSize": "2 cups",
+    "calories": "228 kcal",
+    "fatContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "3 g",
+    "carbohydrateContent": "45 g",
+    "sugarContent": "26 g",
+    "proteinContent": "9 g",
+    "sodiumContent": "265 mg",
+    "fiberContent": "11 g",
+    "cholesterolContent": "3 mg"
+  },
+  "image": "https://kristineskitchenblog.com/wp-content/uploads/2022/02/best-berry-smoothie-recipe-06.jpg",
+  "keywords": [
+    "berry smoothie"
+  ]
+}

@@ -1,4 +1,6 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class SaltPepperSkillet(AbstractScraper):
@@ -6,36 +8,27 @@ class SaltPepperSkillet(AbstractScraper):
     def host(cls):
         return "saltpepperskillet.com"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
-        author_name = self.schema.author()
-        return author_name.capitalize()
+        return self.schema.author().title()
 
-    def category(self):
-        return self.schema.category()
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient",
+        )
 
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
+    def equipment(self):
+        equipment_container = self.soup.find(
+            "div", class_="wprm-recipe-equipment-container"
+        )
+        if not equipment_container:
+            return None
+        equipment_items = [
+            item.get_text(strip=True)
+            for item in equipment_container.find_all(
+                "div", class_="wprm-recipe-equipment-name"
+            )
+        ]
+        return get_equipment(equipment_items)

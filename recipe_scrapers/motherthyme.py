@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 
 
@@ -7,20 +6,7 @@ class MotherThyme(AbstractScraper):
     def host(cls):
         return "motherthyme.com"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
+    def site_name(self):
+        home_link = self.soup.find("a", {"rel": "home", "aria-label": True})
+        if home_link:
+            return home_link["aria-label"]

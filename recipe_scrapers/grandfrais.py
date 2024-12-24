@@ -1,6 +1,3 @@
-# mypy: allow-untyped-defs
-
-
 import re
 from urllib.parse import urlparse
 
@@ -12,9 +9,6 @@ class GrandFrais(AbstractScraper):
     @classmethod
     def host(cls):
         return "grandfrais.com"
-
-    def title(self):
-        return self.schema.title()
 
     def category(self):
         return None
@@ -46,9 +40,6 @@ class GrandFrais(AbstractScraper):
         if raw:
             return get_minutes(raw[0].text)
         return None
-
-    def yields(self):
-        return self.schema.yields()
 
     def image(self):
         img = self.soup.find("img", {"alt": self.title()})

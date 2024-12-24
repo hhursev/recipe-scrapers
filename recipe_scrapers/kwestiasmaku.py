@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import get_yields, normalize_string
 
 
@@ -8,11 +8,8 @@ class KwestiaSmaku(AbstractScraper):
     def host(cls):
         return "kwestiasmaku.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         return get_yields(
@@ -37,6 +34,3 @@ class KwestiaSmaku(AbstractScraper):
             "div", {"class": "field-name-field-przygotowanie"}
         ).find_all("li")
         return "\n".join([normalize_string(i.get_text()) for i in instructions])
-
-    def ratings(self):
-        return self.schema.ratings()

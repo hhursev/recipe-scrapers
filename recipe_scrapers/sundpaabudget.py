@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class SundPaaBudget(AbstractScraper):
@@ -7,39 +7,20 @@ class SundPaaBudget(AbstractScraper):
     def host(cls):
         return "sundpaabudget.dk"
 
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def author(self):
-        return self.schema.author()
-
     def description(self):
         # Schema returns empty string
         return self.soup.head.find("meta", {"property": "og:description"})["content"]
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-ingredient",
+        )
+
+    def nutrients(self):
+        # Some schema.org nutrition info exists in this site's recipe webpages,
+        # but the content seems unreliable
+        # Ref: https://github.com/hhursev/recipe-scrapers/issues/1346
+        return None

@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -12,20 +11,11 @@ class LekkerEnSimpel(AbstractScraper):
         return "lekkerensimpel.com"
 
     def author(self):
-        return self.schema.author()
+        return self.soup.find("meta", {"name": "author"})["content"]
 
     def title(self):
         title = self.soup.find("h1", {"class": "hero__title"}).text
         return normalize_string(title)
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
 
     def image(self):
         image = self.soup.find("meta", {"property", "og:image"})
@@ -68,12 +58,6 @@ class LekkerEnSimpel(AbstractScraper):
 
         raise ElementNotFoundInHtml("Could not find instructions.")
 
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
     def description(self):
         try:
             return self.schema.description()
@@ -82,4 +66,4 @@ class LekkerEnSimpel(AbstractScraper):
             return description["content"] if description else None
 
     def language(self):
-        return "nl-NL"
+        return super().language()

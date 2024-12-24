@@ -1,6 +1,6 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import ElementNotFoundInHtml
+from ._grouping_utils import group_ingredients
 
 
 class TheModernProper(AbstractScraper):
@@ -8,35 +8,37 @@ class TheModernProper(AbstractScraper):
     def host(cls):
         return "themodernproper.com"
 
-    def author(self):
-        return self.schema.author()
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".recipe-ingredients__list-title",
+            ".recipe-ingredients__item",
+        )
 
-    def title(self):
-        return self.schema.title()
+    def nutrients(self):
+        container = self.schema.nutrients()
+        if not container:
+            raise ElementNotFoundInHtml("Could not find nutritional info container")
 
-    def category(self):
-        return self.schema.category()
+        results = {}
+        nutrient_mapping = {
+            "calories": "calories",
+            "fatContent": "fat",
+            "saturatedFatContent": "saturated fat",
+            "carbohydrateContent": "carbohydrates",
+            "sugarContent": "sugar",
+            "proteinContent": "protein",
+            "sodiumContent": "sodium",
+            "fiberContent": "fiber",
+            "cholesterolContent": "cholesterol",
+        }
 
-    def total_time(self):
-        return self.schema.total_time()
+        for key, value in container.items():
+            if key not in nutrient_mapping:
+                continue
+            redundant_suffix = nutrient_mapping[key]
+            if value.endswith(redundant_suffix):
+                results[key] = value.removesuffix(redundant_suffix).strip()
 
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
+        return results

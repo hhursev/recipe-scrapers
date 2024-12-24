@@ -1,9 +1,9 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
 """
@@ -19,6 +19,9 @@ class FarmhouseDelivery(AbstractScraper):
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
+
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def ingredients(self):
         # Style 1

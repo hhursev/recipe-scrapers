@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -61,9 +60,6 @@ class Meljoulwan(AbstractScraper):
         matches = re.search(r"^Serves\s(\d+\-?\–?\d+)", infostring)
 
         return get_yields(matches.group(1))
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ul_list = self.soup.find("div", {"class": "tabbed-list"}).findChildren("ul")

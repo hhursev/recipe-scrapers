@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._exceptions import SchemaOrgException
 from ._utils import normalize_string
@@ -8,9 +7,6 @@ class Lecker(AbstractScraper):
     @classmethod
     def host(cls):
         return "lecker.de"
-
-    def author(self):
-        return self.schema.author()
 
     def title(self):
         try:
@@ -23,27 +19,6 @@ class Lecker(AbstractScraper):
                 .find("h1")
                 .get_text()
             )
-
-    def category(self):
-        return self.schema.category()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         if self.schema.instructions():
@@ -73,12 +48,6 @@ class Lecker(AbstractScraper):
 
                     return "\n".join(instructions)
 
-    def ratings(self):
-        return self.schema.ratings()
-
-    def nutrients(self):
-        return self.schema.nutrients()
-
     def cuisine(self):
         try:
             return self.schema.cuisine()
@@ -88,3 +57,6 @@ class Lecker(AbstractScraper):
     def description(self):
         cleaned_description = self.schema.description()
         return normalize_string(cleaned_description)
+
+    def site_name(self):
+        return "lecker.de"

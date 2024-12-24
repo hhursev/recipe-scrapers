@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -8,10 +7,10 @@ class AllRecipes:
     def host(cls):
         return "allrecipes.com"
 
-    def __new__(cls, url, *args, **kwargs):
+    def __new__(cls, html, url):
         if AllRecipesUser.host() in url:
-            return AllRecipesUser(url, *args, **kwargs)
-        return AllRecipesCurated(url, *args, **kwargs)
+            return AllRecipesUser(html, url)
+        return AllRecipesCurated(html, url)
 
 
 class AllRecipesCurated(AbstractScraper):
@@ -19,54 +18,24 @@ class AllRecipesCurated(AbstractScraper):
     def host(cls):
         return "allrecipes.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def description(self):
-        return self.schema.description()
-
-    def cook_time(self):
-        return self.schema.cook_time()
-
-    def prep_time(self):
-        return self.schema.prep_time()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         def get_ingredient_text(item, key):
             span = item.find("span", {"data-ingredient-" + key: True})
             return normalize_string(span.text) if span else ""
 
+        def match_ingredient_class(tag):
+            return tag.has_attr("class") and any(
+                cls.endswith("structured-ingredients__list-item")
+                for cls in tag["class"]
+            )
+
         ingredients_list = []
         keys = ["quantity", "unit", "name"]
-        for item in self.soup.select(".mntl-structured-ingredients__list-item"):
+        for item in self.soup.find_all(match_ingredient_class):
             ingredient_parts = [get_ingredient_text(item, key) for key in keys]
             ingredients_list.append(" ".join(filter(None, ingredient_parts)))
 
         return ingredients_list
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def category(self):
-        return self.schema.category()
 
 
 class AllRecipesUser(AbstractScraper):

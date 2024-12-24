@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -20,9 +19,6 @@ class Dr(AbstractScraper):
             author_div.find("span", {"itemprop": "name"}) if author_div else None
         )
         return author_span.get_text() if author_span else None
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients_divs = self.soup.findAll("div", {"class": "dre-list dre-variables"})

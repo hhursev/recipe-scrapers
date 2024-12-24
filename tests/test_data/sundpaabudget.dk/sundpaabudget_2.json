@@ -1,0 +1,102 @@
+{
+  "author": "Britt // Sund på budget",
+  "canonical_url": "https://sundpaabudget.dk/veggieburger-ala-big-mac/",
+  "site_name": "Sund på budget",
+  "host": "sundpaabudget.dk",
+  "language": "da-DK",
+  "title": "Veggieburger ala Big Mac",
+  "ingredients": [
+    "2 ds sorte bønner eller kidney bønner (ca. 450 g drænet vægt)",
+    "2 æg",
+    "1 alm. løg",
+    "2 fed hvidløg",
+    "4 spsk BBQ sauce, engelsk sauce eller worcestershire sauce",
+    "4 spsk rasp",
+    "2 spsk havregryn",
+    "1 tsk salt",
+    "peber",
+    "1 spsk olie til stegning",
+    "1 dl fraiche 5%",
+    "0,5 dl mayonnaise",
+    "1 spsk sød sennep",
+    "2,5 spsk drueagurker, finthakket",
+    "2 spsk finthakket løg",
+    "2 tsk drueagurker",
+    "1 tsk stødt løgpulver",
+    "0,5 tsk hvidløgspulver",
+    "0,5 paprika, gerne røget",
+    "salt",
+    "4 burgerboller",
+    "4 skiver cheddar",
+    "0,5 iceberg",
+    "1 alm. løg",
+    "cornichoner el. drueagurker",
+    "500 g sweet potato fritter"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 ds sorte bønner eller kidney bønner (ca. 450 g drænet vægt)",
+        "2 æg",
+        "1 alm. løg",
+        "2 fed hvidløg",
+        "4 spsk BBQ sauce, engelsk sauce eller worcestershire sauce",
+        "4 spsk rasp",
+        "2 spsk havregryn",
+        "1 tsk salt",
+        "peber",
+        "1 spsk olie til stegning"
+      ],
+      "purpose": "Bønnebøf"
+    },
+    {
+      "ingredients": [
+        "1 dl fraiche 5%",
+        "0,5 dl mayonnaise",
+        "1 spsk sød sennep",
+        "2,5 spsk drueagurker, finthakket",
+        "2 spsk finthakket løg",
+        "2 tsk drueagurker",
+        "1 tsk stødt løgpulver",
+        "0,5 tsk hvidløgspulver",
+        "0,5 paprika, gerne røget",
+        "salt"
+      ],
+      "purpose": "Big Mac dressing"
+    },
+    {
+      "ingredients": [
+        "4 burgerboller",
+        "4 skiver cheddar",
+        "0,5 iceberg",
+        "1 alm. løg",
+        "cornichoner el. drueagurker",
+        "500 g sweet potato fritter"
+      ],
+      "purpose": "Tilbehør"
+    }
+  ],
+  "instructions_list": [
+    "Tænd ovnen på 200 grader.",
+    "Når ovnen er varm bages sweet potato fritterne i ca. 25 minutter på en bageplade med bagepapir. Drys med salt.",
+    "Bønnebøffer",
+    "Hæld væden fra bønnerne og skyl dem under den kolde hane. Sørg for at de er dryppet godt af inden du moser dem, da farsen ellers godt kan blive tynd.",
+    "Riv løg og hvidløg.",
+    "Kom bønnerne i en skål og mos dem med en gaffel eller stavblender. De må gerne have lidt struktur, det giver bid til burgeren, fremfor en hel jævn mos.",
+    "Rør de mosede bønner sammen med resten af ingredienserne. Er farsen for våd tilsættes mere rasp eller havregryn, er farsen for tør kan der tilsættes lidt ekstra æg eller mælk.",
+    "Form farsen til ønskede antal bøffer, og steg dem på begge sider i olie ved middelvarme – ca. 5-7 minutter på hver side, hold øje med at de ikke branker.",
+    "Big mac dressing",
+    "Hak løg og drueagurker helt fint, og bland det sammen med de resterende ingredienser til dressingen. Smag til med salt og evt. mere lage.",
+    "Veggie Big Mac",
+    "Snit salaten og lun bollerne. Saml burgerne med en bønnebøf, iceberg, bic mac dressing, løg, drueagurk i tynde skiver og cheddar. Server med sweet potato fritter."
+  ],
+  "category": "Burger,Vegetar",
+  "yields": "4 servings",
+  "description": "Vegetarburger med en lækker bøf af sorte bønner og en skøn Bic Mac inspireret dressing 🙂 Jeg serverede den med sweet potato fries, men kan sagtens serveres med kartoffelbåde, hasselback gulerødder eller grøntsagsstave.",
+  "total_time": 60,
+  "cook_time": 30,
+  "prep_time": 30,
+  "ratings": 5.0,
+  "ratings_count": 2,
+  "image": "https://sundpaabudget.dk/wp-content/uploads/2021/07/20210729165517_IMG_0665.jpg"
+}

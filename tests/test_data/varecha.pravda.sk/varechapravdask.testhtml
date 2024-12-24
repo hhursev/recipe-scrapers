@@ -1,0 +1,2205 @@
+<!doctype html>
+<html class="no-js" lang="sk">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Palacinky (fotorecept) - recept | Varecha.sk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+	<script>window.didomiConfig={app:{logoUrl:'https://ipravda.sk/res/portal2017/logo_varecha.png'},theme:{color:'#b3d846',linkColor:'#b3d846'}};
+window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("3247b01c-86d7-4390-a7ac-9f5e09b2e1bd")})();</script>
+		<meta name="description" content="Palacinky sa dajú robiť na milión spôsobov - na sladko, na slano, tenké, hrubé, plnené, 
+zapekané, flambované, to samozrejme všetci vieme.... :)
+Vyskúšala som mnoho receptov ale nedarilo sa a nedávno som našla recept na palacinky 
+ktoré sú naozaj jemné, nadýchané, chutné,nelepia sa ale to samozrejme závisí aj od 
+panvice na ktorej palacinky pečieme :) ">
+		<meta property="og:site_name" content="Varecha.sk">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="Palacinky (fotorecept)">
+		<meta property="og:url" content="https://varecha.pravda.sk/recepty/palacinky-fotorecept/60785-recept.html">
+		<meta property="og:image" content="https://varecha.pravda.sk/usercontent/images/velky-recept66949_1444894775.jpg">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:description" content="Palacinky sa dajú robiť na milión spôsobov - na sladko, na slano, tenké, hrubé, plnené, 
+zapekané, flambované, to samozrejme všetci vieme.... :)
+Vyskúšala som mnoho receptov ale nedarilo sa a nedávno som našla recept na palacinky 
+ktoré sú naozaj jemné, nadýchané, chutné,nelepia sa ale to samozrejme závisí aj od 
+panvice na ktorej palacinky pečieme :) ">
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+		<meta property="fb:app_id" content="156835179146" />
+		<meta name="robots" content="index, follow">
+		<meta name="google-site-verification" content="DNS2Rhf0Hq_9Rkz4OF4GYK1LtaTNNX-oUvQr-vbmkwc">
+	<script type='text/javascript'>
+    (function() {
+        /** CONFIGURATION START **/
+        var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+        _sf_async_config.uid = 67028;
+        _sf_async_config.domain = 'pravda.sk';
+        _sf_async_config.topStorageDomain = 'pravda.sk';
+		_sf_async_config.flickerControl = false;
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.useCanonicalDomain = true;
+        _sf_async_config.sections = 'varecha,varecha-recepty';
+        _sf_async_config.authors = "varecha-user-uzivatel"; //SET PAGE AUTHOR(S)
+		var _cbq = window._cbq = (window._cbq || []);
+		_cbq.push(['_acct', "anon"]);
+        /** CONFIGURATION END **/
+        function loadChartbeat() {
+            var e = document.createElement('script');
+            var n = document.getElementsByTagName('script')[0];
+            e.type = 'text/javascript';
+            e.async = true;
+            e.src = '//static.chartbeat.com/js/chartbeat.js';
+            n.parentNode.insertBefore(e, n);
+        }
+        loadChartbeat();
+     })();
+</script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,400italic,500italic,700italic&subset=latin,latin-ext" rel="stylesheet">
+		<link rel="stylesheet" href="/static/css/bootstrap-varecha.css?v=2024_03_07_0640">
+        <link href="//fonts.googleapis.com/css?family=Caveat&amp;subset=latin-ext" rel="stylesheet">
+
+		<link rel="apple-touch-icon" sizes="57x57" href="/static/icons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/static/icons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/static/icons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/static/icons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/static/icons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/static/icons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/static/icons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/static/icons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/static/icons/android-chrome-192x192.png">
+		<link rel="icon" type="image/png" href="/static/icons/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="/static/icons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/static/icons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/static/icons/android-chrome-192x192.png" sizes="192x192">
+		<link rel="manifest" href="/static/icons/manifest.json?v=2">
+		<link rel="mask-icon" href="/static/icons/safari-pinned-tab.svg" color="#111111">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="Varecha">
+		<meta name="application-name" content="Varecha">
+		<meta name="msapplication-TileColor" content="#84b113">
+		<meta name="msapplication-TileImage" content="/static/icons/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script defer src="https://kit.fontawesome.com/e17ea90d75.js" async></script>			
+		<script defer src="/static/js/varecha.js?v=2024_03_07_0640"></script>				
+
+			
+	<!-- PEREX Ad Blocker detection -->
+	<script src="https://ipravda.sk/js/pravda-min-extern_varecha.js"></script>
+	<script>
+	PEREX.registerInitHook(function () {
+		PEREX.checkAdBlock(function () {
+			if (PEREX.adblockEnabled && PEREX.isAdvertisementEnabled()) {
+				
+				// TODO: uzivatel ma adblock, mozes nieco zobrazit
+				//alert('Nepouzivajte, prosim, Adblock');
+			}
+			// GA Event
+			PEREX.sendAdblockGaEvents();
+		});
+	});
+	</script>		
+	<script type="text/javascript">
+        var perexadoceankeys = ['recepty', 'bezmasitejedla', 'mucnejedla', 'chody', 'dezerty', 'nasladko', 'palacinky', 'pecene', 'receptypravdy', 'mlieko', 'mukahladka', 'vajcia', 'cukorvanilkovy', 'sol', '60785'];
+        var perexsectionseo = ['recepty', 'bezmasitejedla', 'mucnejedla', 'chody', 'dezerty', 'nasladko', 'palacinky', 'pecene', 'receptypravdy', 'mlieko', 'mukahladka', 'vajcia', 'cukorvanilkovy', 'sol', '60785'];
+	</script>
+<script>
+  if (/(^|;)\s*PEREX_ASMS/.test(document.cookie)) {
+      document.write('<scr' + 'ipt src="https://servis.pravda.sk/hajax/asms/"></scri' + 'pt>');
+  }
+</script>
+
+
+<script type="text/javascript">
+  perex_dfp = {
+    //"ba": {"name": '/61782924/varecha_art_ba', "id": 'div-gpt-ad-1528634504686-612'},
+    "bbb": {"name": '/61782924/varecha_art_bbb', "id": 'div-gpt-ad-1528634504686-613'},
+    //"bs": {"name": '/61782924/varecha_art_bs', "id": 'div-gpt-ad-1528634504686-614'},
+    "lea": {"name": '/61782924/varecha_art_lea', "id": 'div-gpt-ad-1528634504686-615'},
+    "ss_co": {"name": '/61782924/varecha_art_ss_co', "id": 'div-gpt-ad-1528634504686-616'},
+    "ss1": {"name": '/61782924/varecha_art_ss1', "id": 'div-gpt-ad-1528634504686-617'},
+    "ss2": {"name": '/61782924/varecha_art_ss2', "id": 'div-gpt-ad-1528634504686-618'},
+    "interstitial": {},
+    "innerscroller": {"position": '.col-content .row:nth(0)', "include": 'before', "disableBgr": '.page-recipe', "bgrColor": '#fafafa'}
+  };
+</script>
+
+<script type="application/javascript" src="https://storage.googleapis.com/ad-master-script/perex_universalMaster.min.js?v=v"></script>
+ 
+	<script>
+	$( document ).ready(function() {
+		lazyload();
+	});
+	
+	$( document ).ready(function() {
+
+    	if (window.location.hash) {
+		    var hash = window.location.hash;
+		
+		    if ($(hash).length) {
+		        $('html, body').animate({
+		            scrollTop: $(hash).offset().top - 82
+		        }, 400, 'swing');
+		    }
+		}
+
+	});
+	</script>	
+
+	<!--Heatmap - 22/03/2022 -->
+	<script type="text/javascript">
+	    (function(c,l,a,r,i,t,y){
+	        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+	        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+	        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+	    })(window, document, "clarity", "script", "b1w4r69xx6");
+	</script>
+    </head>
+
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       
+<style type="text/css">
+	#navbar-varecha.fixed-top {
+		z-index: 1000000;
+	}
+</style>
+<script>
+
+$(document).on('scroll', function() {
+	
+	if (screen.width < 577) {
+		
+    	$( "#navbar-varecha" ).addClass( "fixed-top" );
+		$( ".varecha-page" ).addClass( "header-is-fixed" );
+		$( ".userpanel" ).addClass( "header-is-fixed" );
+	    
+	}
+	else {
+		
+		if ($( "#ap_1_layer" ).height() > 1) {
+
+			if($(this).scrollTop()>= (50 + ($( "#ap_1_layer" ).height()) ) ){
+		        $( "#navbar-varecha" ).addClass( "fixed-top" );
+				$( ".varecha-page" ).addClass( "header-is-fixed" );
+				$( ".userpanel" ).addClass( "header-is-fixed" );
+			    $('.varecha-menu').removeClass('showbasic');
+		    }
+		    else {
+		        $( "#navbar-varecha" ).removeClass( "fixed-top" );
+				$( ".varecha-page" ).removeClass( "header-is-fixed" );
+				$( ".userpanel" ).removeClass( "header-is-fixed" );
+							
+			    $('.varecha-menu').removeClass('show');
+			    $('.varecha-menu').addClass('showbasic');
+			    $('.userpanel').removeClass('show');
+			}
+
+
+	
+		}
+		else {
+			
+			if($(this).scrollTop()>=50){
+		        $( "#navbar-varecha" ).addClass( "fixed-top" );
+				$( ".varecha-page" ).addClass( "header-is-fixed" );
+				$( ".userpanel" ).addClass( "header-is-fixed" );
+			    $('.varecha-menu').removeClass('showbasic');
+		    }
+		    else {
+		        $( "#navbar-varecha" ).removeClass( "fixed-top" );
+				$( ".varecha-page" ).removeClass( "header-is-fixed" );
+				$( ".userpanel" ).removeClass( "header-is-fixed" );
+				
+			    $('.varecha-menu').removeClass('show');
+			    $('.varecha-menu').addClass('showbasic');
+			    $('.userpanel').removeClass('show');
+			}
+		}
+	
+	}
+});
+
+$(document).click(function() {
+    $('.varecha-menu').removeClass('show');
+    $('.userpanel').removeClass('show');
+	$('.varecha-menu').addClass('showbasic');
+});
+</script>        
+
+<div id="wrap"> <!--class="branding"-->
+
+
+
+
+<nav class="navbar navbar-portal navbar-expand-sm bg-white navbar-light justify-content-end pt-0 pb-0 pl-0 pr-0 pl-sm-1 pr-sm-1">
+    
+    <div class="container">
+    <ul class="navbar-nav mr-auto m-0 p-0 list-unstyled d-none d-sm-flex">
+			<li class="nav-item active">
+			    <a class="nav-link text-uppercase" href="/" title="Varecha.sk">Varecha.sk</a>
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link text-uppercase" href="/tv/" title="TV Varecha">TV Varecha</a>
+			</li>   
+			
+			<li class="nav-item">
+			    <a class="nav-link text-uppercase" href="/casopisy/" title="Časopisy Varecha">Časopis</a>
+			</li>     
+			<li class="nav-item">
+			    <a class="nav-link text-uppercase" href="/diskusie/" title="Diskusie">Diskusie</a>
+			</li>      	
+			<li class="nav-item">
+			    <a class="nav-link text-uppercase" href="//napady.pravda.sk/" title="Nápady.Pravda.sk">Nápady</a>
+			</li>	   
+			<li class="nav-item">
+			    <a class="nav-link text-uppercase" href="/newsletter/" title="Newsletter">Newsletter</a>
+			</li>   
+		</ul>
+		
+	
+	 
+	 <ul class="list-unstyled ml-auto m-0 p-0 d-sm-none d-md-block">
+			<li class="float-right d-none d-md-inline">
+				<a href="//www.pravda.sk/" title="Pravda.sk" class="pravda-logo"><span class="d-none">Pravda</span></a>
+			</li>
+				 </ul>
+
+    </div>
+</nav>
+
+
+
+
+
+
+<!--navbar-expand-md --> <!--navbar-light-->
+<nav id="navbar-varecha" class="navbar navbar-site bg-varecha pt-0 pb-0 pl-0 pr-0 pl-sm-1 pr-sm-1 border-shadow border-bottom-only">
+    
+    
+    
+    <div class="varecha-bar justify-between container clearfix pl-0 pr-0"><!--.container-fluid-->
+    
+     <div class="varecha-top justify-between d-flex clearfix">
+	    <button class="navbar-toggler d-flex d-lg-none" type="button" data-toggle="collapse" data-target="#varechaMenuExpanded"><span class="fa fa-bars"></span></button> 
+    
+		<a href="/vyhladavanie/" class="navbar-icon d-inline-block d-sm-none"><span class="fas fa-search" aria-hidden="true"></span></a>
+			    <div class="my-logo d-flex">			<a href="/" class="varecha-logo-white ml-0 mr-0"><span class="d-none">Varecha</span></a>	    </div>	    	
+	    	    
+		 
+			<div class="navbar-search ml-0 mr-auto d-none d-sm-flex">
+							<form action="/vyhladavanie/" class="form-inline ml-auto mr-auto" role="search"> <!--my-2 mt-md-3 mt-lg-4 mt-xl-4 pt-xl-1-->
+					<input class="form-control ml-0 mr mr-2" type="search" placeholder="hľadaj jedlo"  value="" name="q" aria-label="Search">
+					<button class="btn btn-search ml-0 mr-2 displayfont" type="submit"><span class="fas fa-search"></span><span class="d-none d-lg-inline-block"> Hľadaj</span></button>
+				</form>
+					    </div>
+		    
+		   
+	    <div class="my-userpanel d-flex">
+		    
+		    
+			<ul class="list-unstyled ml-auto m-0 p-0">
+		    			
+			<li class="float-right p-0 pl-2 m-0 d-none d-lg-block"><a href="/registracia/" class="btn color-black basicfont"><b>Registrácia</b></a></li>
+			<li class="float-right p-0 m-0 navbar-signin"><a href="/prihlasenie/" class="btn color-black basicfont"><span class="fa fa-user"></span> <span class="d-none d-md800-inline"><b>Prihlásenie</b></span></a></li>
+			
+			</ul> 
+		</div>
+    
+    
+				 </div>
+	    
+  
+	    
+	    
+		
+        <div id="varechaMenuExpanded" class="varecha-menu navbar-expand-sm ml-2 clearfix">
+	        <ul class="navbar-nav float-left ml-0 m-0 p-0 list-unstyled d-none d-md-flex">
+				<li class="nav-item ">
+				    <a class="nav-link" href="/recepty/" title="Recepty">Recepty</a>
+				</li>
+				<li class="nav-item ">
+				    <a class="nav-link" href="/videorecepty/" title="Videorecepty">Videorecepty</a>
+				</li>
+				
+				<li class="nav-item ">
+				    <a class="nav-link" href="/fotorecepty/" title="Fotopostupy">Fotopostupy</a>
+				</li>
+				
+				
+				<li class="nav-item ">
+				    <a class="nav-link" href="/magazin/rady-a-tipy/" title="Články">Rady a tipy</a>
+				</li>
+				
+				
+				
+				<li class="nav-item ">
+				    <a class="nav-link" href="/magazin/rubrika/receptove-vybery/" title="Články">Receptové výbery</a>
+				</li>
+				<li class="nav-item ">
+				    <a class="nav-link" href="/magazin/rubrika/rebricky/" title="Články">Rebríčky</a>
+				</li>
+				
+				<li class="nav-item ">
+				    <a class="nav-link" href="/magazin/" title="Magazín">Magazín</a>
+				</li>
+				
+				<li class="nav-item ">
+				    <a class="nav-link" href="/tv/" title="TV Varecha">TV Varecha</a>
+				</li>
+				
+				
+				
+				<li class="nav-item ">
+					<a class="nav-link" href="/maresi/" title="Súťaž">Súťaž</a>
+				</li>
+				 				
+				
+	        </ul>
+	        
+	        <ul class="navbar-nav float-right mr-2 m-0 p-0 list-unstyled d-none d-md-flex">
+		    	<li class="nav-item fixed-only">
+				    <hr class="mt-1 mb-1">
+				</li>
+		        <li class="nav-item ">
+				    <a class="nav-link" href="/moja/" title="Moja Varecha"><i class="fas fa-th"></i>&nbsp;Funkcie</a>
+				</li>
+				<li class="nav-item ">
+				    <a class="nav-link" href="/info/" title="O Vareche">O Vareche</a>
+				</li>
+				
+				<li class="nav-item fixed-only">
+				    <hr class="mt-1 mb-1">
+				</li>
+				<li class="nav-item fixed-only">
+				    <a class="nav-link" href="//tv.varecha.sk/" title="TV Varecha">TV Varecha</a>
+				</li>
+				<li class="nav-item fixed-only">
+				    <a class="nav-link" href="/diskusie/" title="Diskusie">Diskusie</a>
+				</li>
+				<li class="nav-item fixed-only">
+				    <a class="nav-link" href="//www.pravda.sk/" title="Pravda.sk">Pravda.sk</a>
+				</li>
+			</ul>
+        </div>
+   
+		
+    </div>
+    
+</nav>
+
+
+        
+
+      
+        
+        
+<div class="varecha-page">        <div class="rt"><!-- /61782924/varecha_art_lea -->
+<div id="advert-top-nest"></div>
+<div id='div-gpt-ad-1528634504686-615' style="max-width: 1200px; max-height: 400px; overflow: hidden">
+<script>
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528634504686-615'); }); }
+</script>
+</div></div><div class="varechasuperpage container">
+<main role="main" id="recept_vrch" class="container main-recipe">
+
+<div class="page-recipe radius-mini">
+	<script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "Recipe",
+    "name": "Palacinky (fotorecept)",
+    "image": [
+        "https:\/\/varecha.pravda.sk\/usercontent\/images\/velky-recept66949_1444894775.jpg"
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "charllote"
+    },
+    "datePublished": "2015-10-15",
+    "description": "Palacinky sa dajú robiť na milión spôsobov - na sladko, na slano, tenké, hrubé, plnené, \r\nzapekané, flambované, to samozrejme všetci vieme.... :)\r\nVyskúšala som mnoho receptov ale nedarilo sa a nedávno som našla recept na palacinky \r\nktoré sú naozaj jemné, nadýchané, chutné,nelepia sa ale to samozrejme závisí aj od \r\npanvice na ktorej palacinky pečieme :) ",
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "recipeYield": "10-15 porcií",
+    "recipeIngredient": [
+        "mlieko, 500 ml",
+        "múka hladká, 10  PL",
+        "vajcia , 2  ks celé",
+        "cukor vanilkový, 1 ks bal.",
+        "soľ, štipka"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Nachystáme si suroviny :)  Ešte raz sa budem opakovať ako pri minulom recepte ja sa snažím robiť recepty teda fotiť postupy aj kvôli začiatočníkom čo napr palacinky ešte nerobili lebo to dosť pomáha keď sú aj fotky pri recepte,viem z vlastnej skúsenosti ;)  napr. zbehlé kuchárky\/kuchári určite nepotrebujú fotky lebo palacinky vedia už možno  aj z pamäti takže tak :) "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "všetky suroviny si dáme do jednej misky "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "keď už máme všetky suroviny v miske cesto mixujeme s mixérom ...a necháme aspoň 15-20 minút odpočívať \r\nniekto možno cesto mieša ručne ale s mixérom to je rýchle a dobre :)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "cesto nám postálo 20 minút skontrolujeme či ma správnu hustotu  a môžeme sa pustiť do pečenia :) Vymastíme si panvicu s olejom úplne jemnučko nie veľa oleja a poriadne rozohrejeme panvicu a môžeme piecť..\r\nnaozaj je dosť dôležité na akej panvici palacinky pečieme ja som piekla na tefal panvici, čo sa aj odzrkadlilo lebo sa mi ani jedna palacinka nepotrhala ani ta prvá...."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "upečené palacinky si ochutíme podľa vlastného gusta :)  ja dávam do palacinky nutelu, čerstvé ovocie nakrájané jahody,maliny,čučoriedky a šľahačku, keď dávam šľahačku do vnútra je to super fakt a určite to vyskúšajte :) ozdobila som topingom , šľahačkou, ovocím a mätou...   Dobrú chuť :) \r\n"
+        }
+    ],
+    "keywords": [
+        "Bezmäsité jedlá",
+        "Chody",
+        "Dezerty",
+        "Múčne jedlá",
+        "Na sladko",
+        "Palacinky",
+        "Pečené",
+        "* Recepty z Pravdy"
+    ]
+}</script>
+   <div class="intro text-center ml-2 mr-2">
+	    <div class="row"> <!--d-none d-md-block-->
+		   <div class="col col-6 col-md-3 ml-0 pl-0 pl-sm-0 pl-lg-1 text-left">
+			     <a href="/kucharska-kniha/pridaj/60785/" title="Ulož si recept do svojej Kuchárskej knihy" class="btn btn-outlined-primary color-varechalink recipe-save">
+                                            <span class="fa fa-heart-o"></span>
+                                            <span class="label label-default">Ulož do KK</span>
+                                        </a>
+                                    		   </div>
+		   
+		   <div class="col d-none d-md-block col-md-6 text-center">
+				<span class="handwritten h2"></span>	
+		   </div>
+		   <div class="col col-6 col-md-3 mr-0 pr-0 pr-sm-0 pr-lg-1 text-right">			   
+			   <a href="/recepty/palacinky-fotorecept/60785-vytlacit.html" rel="nofollow" class="btn btn-outlined-primary color-varechalink"><span class="far fa-copy"></span>&nbsp;Vytlačiť<span class="d-none d-sm-inline">&nbsp;recept</span></a>		   </div>
+		   
+
+		   <div class="col col-12 d-block d-md-none text-center">
+				<span class="handwritten h2"></span>	
+		   </div>
+		   
+	   </div>
+
+	  	   
+	   <h1 class="header-xl">Palacinky <span class="d-block my-badge">fotorecept</span></h1>
+   
+   
+   
+	   <div class="row">
+		   
+		   <div class="col col-5 col-md-3 d-none d-md-block ml-0 pl-1 pl-sm-2 pl-lg-3 text-left">
+			   
+		   </div>		   
+		   
+		   <div class="col col-md-6 text-center">
+			   <a href="/profil/charllote/"><img src="/usercontent/avatar/fotka66949_1444584602m.jpg" alt="charllote - fotka" width="36" heigth="36" class="recipe-avatar my-avatar"></a><a class="color-varechalink" href="/profil/charllote/">charllote</a><span class="small">, 15. októbra 2015</span>			   		    </div>
+		   
+		   <div class="col col-7 col-md-3 d-none d-md-block mr-0 pr-1 pr-sm-2 pr-lg-3 text-right">			   
+
+		   </div>
+		   
+		 
+	   </div>
+   
+   </div>
+   
+   
+   
+   
+
+
+
+
+
+    <div class="row">
+ 
+ 
+   
+   
+
+	    <div class="col col-content col-main col-12 col-lg-8 pl-2 pl-md-4 pr-2 pr-md-4 pr-lg-0">
+		    <div class="recipe-photo recipe-photo-standard clearfix"><img class="recipe-standard" src="/usercontent/images/velky-recept66949_1444894775.jpg" alt="Palacinky (fotorecept)"><br /><span class="small float-right recipe-autor">Foto: <a href="/profil/charllote/">charllote</a></span></div>	
+			
+			
+	
+			
+			
+										<div class="recipe-description">
+                                    <p class="recipe-desc">
+	                                    <span class="recipe-desc-part d-inline">Palacinky sa dajú robiť na milión spôsobov - na sladko, na slano, tenké, hrubé, plnené, 
+zapekané, flambované, to samozrejme všetci vieme.... :)
+Vyskúšala som mnoho <a href="#" class="showdesc">Zobraziť&nbsp;celý&nbsp;popis</a></span><span class="recipe-desc-whole d-none">Palacinky sa dajú robiť na milión spôsobov - na sladko, na slano, tenké, hrubé, plnené, 
+zapekané, flambované, to samozrejme všetci vieme.... :)
+Vyskúšala som mnoho receptov ale nedarilo sa a nedávno som našla recept na palacinky 
+ktoré sú naozaj jemné, nadýchané, chutné,nelepia sa ale to samozrejme závisí aj od 
+panvice na ktorej palacinky pečieme :) </span>					                                <script>
+						                            $(".showdesc").click(function(){
+														$(".recipe-desc-part").removeClass('d-inline');
+														$(".recipe-desc-part").addClass('d-none');
+														$(".recipe-desc-whole").removeClass('d-none');
+														$(".recipe-desc-whole").addClass('d-inline');
+														return false;
+													});
+													</script>
+					                                	                                </p>
+                                </div>
+						<span class="p-0" style="display: block;
+				font-size: 12px;
+				font-weight: 600;
+				color: #76a20e;
+				letter-spacing: .75px;
+				text-transform: uppercase;
+			">Reklama&nbsp;Addmention:</span>
+			<div class="newsletter_box clearfix" style="font-size:15px;margin:2px auto 6px auto;padding:0px;background:#FDFCF1;border:1px solid #EFEDE7">
+				<div class="clearfix float-left p-0" style="line-height:1.5em;">
+				
+					
+					<a href="https://gymbeam.sk/bio-javorovy-sirup-gymbeam.html" target="_blank" class="color-varechalink"><img src="/static/reklamy/addmention-gymbean-2024-01-25-1n.jpg" alt="obrazok" style="float:right;width:180px;margin-left:12px;"></a>
+					<div class="pt-3 pl-3 pr-3 pb-3">
+				 			Vylepšite Váš recept na palacinky s <a href="https://gymbeam.sk/bio-javorovy-sirup-gymbeam.html" target="_blank" class="color-varechalink">javorovým sirupom GymBeam</a>. Lahodná medovo-oriešková chuť. Bio kvalita.
+			 		</div>
+				</div>
+			 
+			</div>
+						
+			
+			
+			<div class="info-summary"><div class="row"><div class="col col-4">		  
+				  	<div class="info-icon"><i class="color-silver far fa-smile"></i></div>
+				  	<div class="info-number"><strong>10-15</strong><br />porcií</div></div>
+<div class="col col-4">
+				  	<div class="info-icon"><i class="color-silver far fa-clock"></i></div>
+				  	<div class="info-number"><strong>10 minút</strong><br>príprava</div></div>
+</div></div>			
+			
+			
+			<div class="row">
+				<div class="col suroviny col-12 col-xs-12 col-sm-4 pl-0 pr-0 pr-sm-3">
+					<a name="recept_postup"></a>
+					<h2 class="mb-3">Suroviny</h2>
+					
+					<table class="table">
+  					<tbody>
+					 													<tr class="recipe-ingredients__row clearfix">
+                                                        <td class="recipe-ingredients__amount">500&nbsp;ml</td>
+                                                        <td class="recipe-ingredients__ingredient">
+                                                            <div class="checkbox">
+                                                                <!--<input id="ingredient1" type="checkbox" name="check" value="ingredient1" />-->
+                                                                <label for="ingredient1"><span><a href="/suroviny/mlieko/">mlieko</a></span></label>
+                                                            </div>
+                                                        </td>
+                                                    </tr> 													<tr class="recipe-ingredients__row clearfix">
+                                                        <td class="recipe-ingredients__amount">10 &nbsp;PL</td>
+                                                        <td class="recipe-ingredients__ingredient">
+                                                            <div class="checkbox">
+                                                                <!--<input id="ingredient2" type="checkbox" name="check" value="ingredient2" />-->
+                                                                <label for="ingredient2"><span><a href="/suroviny/muka-hladka/">múka hladká</a></span></label>
+                                                            </div>
+                                                        </td>
+                                                    </tr> 													<tr class="recipe-ingredients__row clearfix">
+                                                        <td class="recipe-ingredients__amount">2 &nbsp;ks celé</td>
+                                                        <td class="recipe-ingredients__ingredient">
+                                                            <div class="checkbox">
+                                                                <!--<input id="ingredient3" type="checkbox" name="check" value="ingredient3" />-->
+                                                                <label for="ingredient3"><span><a href="/suroviny/vajcia/">vajcia</a></span></label>
+                                                            </div>
+                                                        </td>
+                                                    </tr> 													<tr class="recipe-ingredients__row clearfix">
+                                                        <td class="recipe-ingredients__amount">1 ks&nbsp;bal.</td>
+                                                        <td class="recipe-ingredients__ingredient">
+                                                            <div class="checkbox">
+                                                                <!--<input id="ingredient4" type="checkbox" name="check" value="ingredient4" />-->
+                                                                <label for="ingredient4"><span><a href="/suroviny/cukor-vanilkovy/">cukor vanilkový</a></span></label>
+                                                            </div>
+                                                        </td>
+                                                    </tr> 													<tr class="recipe-ingredients__row clearfix">
+                                                        <td class="recipe-ingredients__amount">štipka</td>
+                                                        <td class="recipe-ingredients__ingredient">
+                                                            <div class="checkbox">
+                                                                <!--<input id="ingredient5" type="checkbox" name="check" value="ingredient5" />-->
+                                                                <label for="ingredient5"><span><a href="/suroviny/sol/">soľ</a></span></label>
+                                                            </div>
+                                                        </td>
+                                                    </tr></tbody>
+					</table>
+					<br />
+			<!-- (c) 2000-2024 Gemius SA version 2.0: /Pravda/Pravda_Varecha_stabilka_letak_220x90, Lidl_07_2024 -->
+<script language="javascript1.2" type="text/javascript">
+//<![CDATA[
+document.write('<scr'+'ipt src="https://skgde.adocean.pl/_'+(new Date()).getTime()+'/ad.js?id=7e86JGLbkx3xZpJ0zb.4zfzH7ln2v5r8mDEOonZhUEb.Q7/nc=0/gdpr=0/gdpr_consent=/redir=" language="javascript"></scr'+'ipt>');
+//]]>
+</script>
+<br /><br /><br />		
+				<!--LIDL-->
+				<a name="recept_poznamky"></a>
+				
+		
+									
+					
+
+
+		
+					
+					
+					
+					
+				</div>
+				<div class="col postup col-12 col-xs-12 col-sm-8 pl-0 pl-sm-2 pr-0 pr-sm-1">
+					<h2>Postup</h2>
+					
+					
+					<ol class="recipe-instructions list-unstyled">
+
+
+
+  												<li class="recipe-instruction clearfix">
+                                                    <span class="recipe-instruction__number handwritten">1</span>
+                                                    <div class="recipe-instruction__main"><p>Nachystáme si suroviny :)  Ešte raz sa budem opakovať ako pri minulom recepte ja sa snažím robiť recepty teda fotiť postupy aj kvôli začiatočníkom čo napr palacinky ešte nerobili lebo to dosť pomáha keď sú aj fotky pri recepte,viem z vlastnej skúsenosti ;)  napr. zbehlé kuchárky/kuchári určite nepotrebujú fotky lebo palacinky vedia už možno  aj z pamäti takže tak :) </p>                                                        <img class="lazyload" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/images/velky-postup66949_1444894943.jpg" alt="Palacinky (fotorecept) - obrázok 1" />                                                    </div>
+                                                </li><div class="">
+</div>  												<li class="recipe-instruction clearfix">
+                                                    <span class="recipe-instruction__number handwritten">2</span>
+                                                    <div class="recipe-instruction__main"><p>všetky suroviny si dáme do jednej misky </p>                                                        <img class="lazyload" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/images/velky-postup66949_1444895007.jpg" alt="Palacinky (fotorecept) - obrázok 2" />                                                    </div>
+                                                </li><div class="">
+</div>  												<li class="recipe-instruction clearfix">
+                                                    <span class="recipe-instruction__number handwritten">3</span>
+                                                    <div class="recipe-instruction__main"><p>keď už máme všetky suroviny v miske cesto mixujeme s mixérom ...a necháme aspoň 15-20 minút odpočívať 
+niekto možno cesto mieša ručne ale s mixérom to je rýchle a dobre :)</p>                                                        <img class="lazyload" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/images/velky-postup66949_1444895269.jpg" alt="Palacinky (fotorecept) - obrázok 3" />                                                    </div>
+                                                </li><div class="">
+</div>  												<li class="recipe-instruction clearfix">
+                                                    <span class="recipe-instruction__number handwritten">4</span>
+                                                    <div class="recipe-instruction__main"><p>cesto nám postálo 20 minút skontrolujeme či ma správnu hustotu  a môžeme sa pustiť do pečenia :) Vymastíme si panvicu s olejom úplne jemnučko nie veľa oleja a poriadne rozohrejeme panvicu a môžeme piecť..
+naozaj je dosť dôležité na akej panvici palacinky pečieme ja som piekla na tefal panvici, čo sa aj odzrkadlilo lebo sa mi ani jedna palacinka nepotrhala ani ta prvá....</p>                                                        <img class="lazyload" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/images/velky-postup66949_1444895385.jpg" alt="Palacinky (fotorecept) - obrázok 4" />                                                    </div>
+                                                </li><div class="">
+</div>  												<li class="recipe-instruction clearfix">
+                                                    <span class="recipe-instruction__number handwritten">5</span>
+                                                    <div class="recipe-instruction__main"><p>upečené palacinky si ochutíme podľa vlastného gusta :)  ja dávam do palacinky nutelu, čerstvé ovocie nakrájané jahody,maliny,čučoriedky a šľahačku, keď dávam šľahačku do vnútra je to super fakt a určite to vyskúšajte :) ozdobila som topingom , šľahačkou, ovocím a mätou...   Dobrú chuť :) 
+</p>                                                        <img class="lazyload" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/images/velky-postup66949_1444896448.jpg" alt="Palacinky (fotorecept) - obrázok 5" />                                                    </div>
+                                                </li><div class="">
+</div>                                            </ol>	
+ 
+ 
+                                            
+
+				</div>
+				
+
+				
+			</div>
+
+		<div class="share-buttons">
+				  <div class="pinterest-button"><script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script><a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=https://varecha.pravda.sk/recepty/palacinky-fotorecept/60785-recept.html&media=https://varecha.pravda.sk/usercontent/images/velky-recept66949_1444894775.jpg&description=Palacinky+%28fotorecept%29" data-pin-height="28"></a></div>
+		  
+		  <div class="fb-share-button" data-href="https://varecha.pravda.sk/recepty/palacinky-fotorecept/60785-recept.html" data-width="" data-layout="button" data-size="large"></div>
+		  <div class="fb-save" data-uri="https://varecha.pravda.sk/recepty/palacinky-fotorecept/60785-recept.html" data-size="large"></div> 
+		  			
+		</div>		
+
+		
+		<div class="recipe-in-tags pt-0 pl-0 pb-4 pr-0">
+				</div>
+		
+				
+
+	
+		
+			<div class="content comments">
+				
+				<a name="recept_komenty"></a>	
+					
+<h3 class="h3">Diskusia k receptu</h3><div class="text-center"><a onclick="triggeComment()" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> Pridaj koment</a></div><div class="comment-list"><div class="comment-here">         <article class="row "><a id="koment1" name="koment1"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/xyz"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/x.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/xyz/">xyz</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/xyz/">xyz</a> 
+                    <time class="comment-date small color-gray" datetime="15-10-2015 13:16">15. októbra 2015 o 13:16</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Nuž,ak chceš ponúknuť recept pre začiatočníkov,nesmieš používať množstvá,ako sú polievkové lyžice :),musíš byť presnejšia a udávať hmotnosť;koľko je teda tej múky? 250gr? Ja dávam 250gr na 0,5l ,ale používam polohrubú múku.Oceňujem,že píšeš,že cesto musí postáť,to je pri palacinkách podstatná informácia (preto sa ti netrhajú).</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('xyz (15.10.2015 13:16)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_597979_60785_0_best_1_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 8x  <a href="/profil/xyz/">xyz</a>, <a href="/profil/1katra1/">1katra1</a>, <a href="/profil/katarina22/">katarina22</a>, <a href="/profil/boyle/">boyle</a>, <a href="/profil/katka512/">katka512</a>, <a href="/profil/1peko40/">1peko40</a>, <a href="/profil/betka1983/">betka1983</a> a <a href="/profil/temzy/">temzy</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here">         <article class="row "><a id="koment2" name="koment2"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/maska10"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/m.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/maska10/">maska10</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/maska10/">maska10</a> 
+                    <time class="comment-date small color-gray" datetime="15-10-2015 19:30">15. októbra 2015 o 19:30</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Ja pouzivam hladku muku a do cesta davam 1dc oleja a potom nemusim potierat panvicu Mas to velmi pokne naaranzovane krasne a urcite aj chutne</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('maska10 (15.10.2015 19:30)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_598036_60785_0_best_2_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 2x  <a href="/profil/charllote/">charllote</a> a <a href="/profil/renato/">renato</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here">         <article class="row "><a id="koment3" name="koment3"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/charllote"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka66949_1444584602m.jpg" alt="66949_1444584602 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/charllote/">charllote</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/charllote/">charllote</a> 
+                    <time class="comment-date small color-gray" datetime="15-10-2015 20:39">15. októbra 2015 o 20:39</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">však aj ja dávam hladkú muku je to tam napisane</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('charllote (15.10.2015 20:39)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_598058_60785_0_best_3_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 2x  <a href="/profil/gabika987/">gabika987</a> a <a href="/profil/wivi/">wivi</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment4" name="koment4"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/babucka"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/b.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/babucka/">babucka</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/babucka/">babucka</a> 
+                    <time class="comment-date small color-gray" datetime="16-10-2015 13:39">16. októbra 2015 o 13:39</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Tiez davam hladku muku,olej a miesto mlieka mineralku a v chlade nechat odstat aby muka napucala.Prave som dokoncila pecenie.RADA-Ak chces dobre palacinky nepozeraj na hodinky</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('babucka (16.10.2015 13:39)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_598134_60785_0_best_4_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/aleana/">aleana</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment5" name="koment5"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/babucka"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/b.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/babucka/">babucka</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/babucka/">babucka</a> 
+                    <time class="comment-date small color-gray" datetime="16-10-2015 13:39">16. októbra 2015 o 13:39</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Tiez davam hladku muku,olej a miesto mlieka mineralku a v chlade nechat odstat aby muka napucala.Prave som dokoncila pecenie.RADA-Ak chces dobre palacinky nepozeraj na hodinky</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('babucka (16.10.2015 13:39)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_598135_60785_0_best_5_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment6" name="koment6"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/charllote"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka66949_1444584602m.jpg" alt="66949_1444584602 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/charllote/">charllote</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/charllote/">charllote</a> 
+                    <time class="comment-date small color-gray" datetime="28-10-2015 17:09">28. októbra 2015 o 17:09</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">babucka a to ako chutia ked dávaš minerálku na miesto mlieka? :) </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('charllote (28.10.2015 17:09)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_599975_60785_0_best_6_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/73eka/">73eka</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment7" name="koment7"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/biba180903"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/b.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/biba180903/">biba180903</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/biba180903/">biba180903</a> 
+                    <time class="comment-date small color-gray" datetime="20-01-2017 8:23">20. januára 2017 o 08:23</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Skúšali sme na raňajky a veľmi chutili, ale ja by som tam dala aj troška škorice. Inak veľmi dobrý recept. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('biba180903 (20.1.2017 08:23)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_649278_60785_0_best_7_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 3x  <a href="/profil/charllote/">charllote</a>, <a href="/profil/katarina22/">katarina22</a> a <a href="/profil/merevik/">merevik</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment8" name="koment8"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/charllote"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka66949_1444584602m.jpg" alt="66949_1444584602 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/charllote/">charllote</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/charllote/">charllote</a> 
+                    <time class="comment-date small color-gray" datetime="22-06-2017 8:21">22. júna 2017 o 08:21</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/biba180903/"><b>@Biba180903</b></a>  (20.1.2017 08:23) <br />
+<br />
+Tak to som naozaj rada že chutili :) Teší ma to a ta škorica nie je zlý nápad ,dokonca som ich minule robila a pridala som aj trochu kakaa , boli hnedé a chutne :) </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('charllote (22.6.2017 08:21)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_663137_60785_0_best_8_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/katrinecka/">katrinecka</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment9" name="koment9"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/katrinecka"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka5887_1287252541m.jpg" alt="5887_1287252541 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/katrinecka/">katrinecka</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/katrinecka/">katrinecka</a> 
+                    <time class="comment-date small color-gray" datetime="01-07-2018 12:07">1. júla 2018 o 12:07</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Cestíčko uz zamiešane, uz len pockat a idem nato, manžel uz chodí, jak tiger okolo </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('katrinecka (1.7.2018 12:07)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_689180_60785_0_best_9_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment10" name="koment10"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/mitzy"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka71120_1577052968m.jpg" alt="71120_1577052968 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/mitzy/">mitzy</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/mitzy/">mitzy</a> 
+                    <time class="comment-date small color-gray" datetime="02-09-2018 13:07">2. septembra 2018 o 13:07</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Super isla som podla tvojho receptu. Pridala som odoka mlete orechy, miesto van.cukru vanilku a trstinovy cukor. Su super jemne. Robila som ich na panvici nalievance :) boli to take mini specialne palacinky pre najmensich ;) a ze ,,mnaam". Tak vdaka!<br /> <br><a href="https://varecha.pravda.sk/uc/di/6/c/71120_1535886471_cf3eca95b9379f8f10803ce783ee041c.jpg" target="_blank"><img src="https://varecha.pravda.sk/uc/di/6/c/71120_1535886471_cf3eca95b9379f8f10803ce783ee041c.jpg" border="0" style="border:1px solid gray"></a><br></div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('mitzy (2.9.2018 13:07)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_691358_60785_0_best_10_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/haji/">haji</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment11" name="koment11"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/nephilim"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka76977_1520949457m.jpg" alt="76977_1520949457 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/nephilim/">nephilim</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/nephilim/">nephilim</a> 
+                    <time class="comment-date small color-gray" datetime="02-09-2018 20:20">2. septembra 2018 o 20:20</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/mitzy/"><b>@Mitzy</b></a>  Nech mi autor receptu odpustí. Sis pozdravuje.<br />
+<br />
+<br /> <br><a href="https://varecha.pravda.sk/uc/di/6/0/76977_1535912422_3e15f4894297b3bcf1a67cbee143fd53.jpg" target="_blank"><img src="https://varecha.pravda.sk/uc/di/6/0/76977_1535912422_3e15f4894297b3bcf1a67cbee143fd53.jpg" border="0" style="border:1px solid gray"></a><br></div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('nephilim (2.9.2018 20:20)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_691398_60785_0_best_11_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 2x  <a href="/profil/mitzy/">mitzy</a> a <a href="/profil/emiska/">emiska</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment12" name="koment12"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/mitzy"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka71120_1577052968m.jpg" alt="71120_1577052968 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/mitzy/">mitzy</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/mitzy/">mitzy</a> 
+                    <time class="comment-date small color-gray" datetime="02-09-2018 21:57">2. septembra 2018 o 21:57</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/nephilim/"><b>@Nephilim</b></a>  (2.9.2018 20:20) <br />
+aaaaa to je super ^.^ karta prisla! kniha sa ujala. robievam jeden skvely kolac z knizky. ked bude viac casu, uverejnim. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('mitzy (2.9.2018 21:57)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_691407_60785_0_best_12_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment13" name="koment13"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/pojo"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/p.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/pojo/">pojo</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/pojo/">pojo</a> 
+                    <time class="comment-date small color-gray" datetime="24-11-2018 20:44">24. novembra 2018 o 20:44</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Tak za prvé som chlap. Za druhé, palacinky som v živote nerobil. Ale super recept, myslím že sa podarili. K tomu foto návodu by som asi dodal pre nás menej skúsených len ako namazať panvicu a ako často ju mazať :D  Samozrejme prišiel som na to, ale jedna palacinka bola utopená a jedna prihorela :)</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('pojo (24.11.2018 20:44)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_695271_60785_0_best_13_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/hribjetko/">hribjetko</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment15" name="koment15"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/natalkaph"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/n.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/natalkaph/">natalkaph</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/natalkaph/">natalkaph</a> 
+                    <time class="comment-date small color-gray" datetime="23-12-2018 18:01">23. decembra 2018 o 18:01</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Je to super recept. :)</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('natalkaph (23.12.2018 18:01)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_697095_60785_0_best_15_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment16" name="koment16"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/mary123123"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/m.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/mary123123/">mary123123</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/mary123123/">mary123123</a> 
+                    <time class="comment-date small color-gray" datetime="15-03-2019 14:55">15. marca 2019 o 14:55</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">no, nepodarili sa, strasne riedke cesto, musela som prisypat muku., potom to bolo dobré</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('mary123123 (15.3.2019 14:55)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_702046_60785_0_best_16_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/zuziacik/">zuziacik</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment17" name="koment17"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/amihry"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/a.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/amihry/">amihry</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/amihry/">amihry</a> 
+                    <time class="comment-date small color-gray" datetime="29-10-2019 21:29">29. októbra 2019 o 21:29</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/xyz/"><b>@xyz</b></a>  (15.10.2015 13:16) <br />
+<br />
+za mna je dobre aj v pl a cl palacinky robim sama 1krat,verim ze budu mnam.aspon nemusia vazit na vahe<br />
+</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('amihry (29.10.2019 21:29)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_713671_60785_0_best_17_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment18" name="koment18"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/1maria1"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/1.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/1maria1/">1maria1</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/1maria1/">1maria1</a> 
+                    <time class="comment-date small color-gray" datetime="13-11-2019 21:48">13. novembra 2019 o 21:48</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/pojo/"><b>@pojo</b></a>  (24.11.2018 20:44) <br />
+<br />
+Treba natrieť prvú a potom už len štetcom pomazať jemnúčko olejom, alebo olejovou servítkou.</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('1maria1 (13.11.2019 21:48)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_714589_60785_0_best_18_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment19" name="koment19"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/pavelj"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/p.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/pavelj/">pavelj</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/pavelj/">pavelj</a> 
+                    <time class="comment-date small color-gray" datetime="07-02-2020 12:05">7. februára 2020 o 12:05</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Robím palacinky od detstva, presne podľa tohoto receptu, sú najlepšie!<br />
+Olej nepoužívam vôbec vo varení, iba bravčovú masť, sú potom ľahšie.  <br />
+Od istého času namiesto polovice múky pridám ovsené vločky a štipku škorice, najlepšie palacinky na svete </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('pavelj (7.2.2020 12:05)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_718616_60785_0_best_19_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment20" name="koment20"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/ivkopivko"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/i.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/ivkopivko/">ivkopivko</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/ivkopivko/">ivkopivko</a> 
+                    <time class="comment-date small color-gray" datetime="13-03-2020 18:08">13. marca 2020 o 18:08</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Strašne sa trhali, vôbec nešli otáčať, mala som aj teflonovu panvicu, aj som mastila, naozaj veľmi riedke cesto, pri dávala som aj múku aj vajíčko, potom bolo trochu lepšie, inak chuťovo sú fakt jemne, ale mala som slzy v očiach, keď som ich robila, dcéra ich robila tiež a to isté, strašne sa jej trhali, a palacinky sme robili mrte krát, <br />
+</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('ivkopivko (13.3.2020 18:08)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_719990_60785_0_best_20_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/zuziacik/">zuziacik</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment21" name="koment21"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/viera1"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka2853_1586418376m.jpg" alt="2853_1586418376 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/viera1/">viera1</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/viera1/">viera1</a> 
+                    <time class="comment-date small color-gray" datetime="14-03-2020 14:52">14. marca 2020 o 14:52</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/ivkopivko/"><b>@ivkopivko</b></a>  (13.3.2020 18:08) <br />
+<br />
+Na 0,5l mlieka ide 250g múky a tri vajcia.Schválne som teraz odvážila objem dvoch veľkostí lyžíc a do jednej mi vošlo 8g vody a do druhej 13g a pri múke to bude ešte väčší rozdiel podľa toho,ako kopcom naplníš lyžicu.Podstatné je nechať cesto postáť.Z tohto množstva by malo vyjsť 20ks palaciniek (tenkých),robených na panvici s dnom ↔ 20cm.</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('viera1 (14.3.2020 14:52)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_720001_60785_0_best_21_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment22" name="koment22"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/viera1"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka2853_1586418376m.jpg" alt="2853_1586418376 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/viera1/">viera1</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/viera1/">viera1</a> 
+                    <time class="comment-date small color-gray" datetime="14-03-2020 15:17">14. marca 2020 o 15:17</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/viera1/"><b>@viera1</b></a>  (14.3.2020 14:52) <br />
+<br />
+Kto nemá váhu,250g hl. múky je 4dl neosiatej múky :).</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('viera1 (14.3.2020 15:17)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_720003_60785_0_best_22_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment23" name="koment23"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/relex"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/r.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/relex/">relex</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/relex/">relex</a> 
+                    <time class="comment-date small color-gray" datetime="23-03-2020 17:44">23. marca 2020 o 17:44</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Vyskúšal som sú naozaj super. Ďakujem. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('relex (23.3.2020 17:44)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_720455_60785_0_best_23_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment24" name="koment24"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/radipat"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/r.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/radipat/">radipat</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/radipat/">radipat</a> 
+                    <time class="comment-date small color-gray" datetime="01-04-2020 18:19">1. apríla 2020 o 18:19</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Recept fajn ale 10 polievkových lyžíc múky je malo!!</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('radipat (1.4.2020 18:19)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_720754_60785_0_best_24_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment25" name="koment25"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/finczi"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka51989_1393178839m.jpg" alt="51989_1393178839 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/finczi/">finczi</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/finczi/">finczi</a> 
+                    <time class="comment-date small color-gray" datetime="01-04-2020 20:15">1. apríla 2020 o 20:15</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/radipat/"><b>@radipat</b></a>  (1.4.2020 18:19) <br />
+<br />
+Tak, včera som robila, dala som 10 kopcovitých lyžíc a pre mňa bolo zas veľa, doliala som trošku mlieka. Každá lyžica je ale iná..každý si upraví podľa seba a svojich potrieb...</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('finczi (1.4.2020 20:15)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_720767_60785_0_best_25_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment26" name="koment26"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/sofinyyy"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/s.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/sofinyyy/">sofinyyy</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/sofinyyy/">sofinyyy</a> 
+                    <time class="comment-date small color-gray" datetime="18-04-2020 16:11">18. apríla 2020 o 16:11</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Akurát ich robíme, naozaj sa nelepia ale treba pridať trochu mlieka</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('sofinyyy (18.4.2020 16:11)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_721549_60785_0_best_26_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment27" name="koment27"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/simona12"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/s.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/simona12/">simona12</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/simona12/">simona12</a> 
+                    <time class="comment-date small color-gray" datetime="21-04-2020 14:43">21. apríla 2020 o 14:43</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Vynikajúce palacinky ❤️Ďakujem za recept </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('simona12 (21.4.2020 14:43)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_721696_60785_0_best_27_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment28" name="koment28"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/zuziiik"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka54510_1398181273m.jpg" alt="54510_1398181273 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/zuziiik/">zuziiik</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/zuziiik/">zuziiik</a> 
+                    <time class="comment-date small color-gray" datetime="17-05-2020 11:55">17. mája 2020 o 11:55</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Už dvakrát som naletela na tento recept, lebo mi ho vyhodil google a dvakrát som sa nanadávala jak pohan. Cesto je neskutočne riedke a trhá sa. Pridala som dokonca o 6 lyžíc viac múky a stále to stojí za figu. Neodporúčam! </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('zuziiik (17.5.2020 11:55)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_723227_60785_0_best_28_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/zuziacik/">zuziacik</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment29" name="koment29"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/lilianeast"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/l.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/lilianeast/">lilianeast</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/lilianeast/">lilianeast</a> 
+                    <time class="comment-date small color-gray" datetime="19-07-2020 11:59">19. júla 2020 o 11:59</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Ďakujem, ale mne tento recept nepomohol. Chcela som vyskúšať palacinky na iný spôsob, ako bežne robím, ale recept je nanič. Presne ako už niekto iný písal - 10 polievkových lyžíc nie je dobrý údaj. Aj keď som dala kopcovité, múky bolo málo, cesto bolo vodové! (A počkala som 20 minút.) A že nelepia? Vyskúšala som 3 panvice a na všetkých lepili a trhali sa. Musela som sa vrátiť k môjmu osobnému receptu. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('lilianeast (19.7.2020 11:59)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_725931_60785_0_best_29_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/zuziacik/">zuziacik</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment30" name="koment30"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/merevik"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/m.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/merevik/">merevik</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/merevik/">merevik</a> 
+                    <time class="comment-date small color-gray" datetime="21-07-2020 11:16">21. júla 2020 o 11:16</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Recept super, palacinky su naozaj vynikajuce - ja davam 11 lyzic muky a bezlaktozove mlieko. <br />
+Palacinky su fakt paradne a okrem prvej sa netrhaju vobec. <br />
+Ja som asi lepsie nejedla. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('merevik (21.7.2020 11:16)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_726006_60785_0_best_30_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment31" name="koment31"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/dedojezo"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/d.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/dedojezo/">dedojezo</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/dedojezo/">dedojezo</a> 
+                    <time class="comment-date small color-gray" datetime="13-08-2020 16:30">13. augusta 2020 o 16:30</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">SUPER recept, neviem čím to je, ale to sú prvé palacinky z mlieka, ktoré mi neprihoreli!!<br /> <br><a href="https://varecha.pravda.sk/uc/di/1/4/93178_1597329016_2e6378235a866ad3a4a6df67e54b55e2.jpg" target="_blank"><img src="https://varecha.pravda.sk/uc/di/1/4/93178_1597329016_2e6378235a866ad3a4a6df67e54b55e2.jpg" border="0" style="border:1px solid gray"></a><br></div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('dedojezo (13.8.2020 16:30)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_726761_60785_0_best_31_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment32" name="koment32"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/lucka1218"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/l.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/lucka1218/">lucka1218</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/lucka1218/">lucka1218</a> 
+                    <time class="comment-date small color-gray" datetime="02-01-2021 12:15">2. januára 2021 o 12:15</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Úžasné cesto, vynikajúci recept ?</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('lucka1218 (2.1.2021 12:15)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_731514_60785_0_best_32_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment34" name="koment34"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/lusiii"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/l.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/lusiii/">lusiii</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/lusiii/">lusiii</a> 
+                    <time class="comment-date small color-gray" datetime="26-11-2021 13:00">26. novembra 2021 o 13:00</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Ďakujem za recept. Ja len podľa tohto vždy robím ❤️❤️❤️</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('lusiii (26.11.2021 13:00)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_741911_60785_0_best_34_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment35" name="koment35"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/vili33"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/v.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/vili33/">vili33</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/vili33/">vili33</a> 
+                    <time class="comment-date small color-gray" datetime="30-12-2021 1:16">30. decembra 2021 o 01:16</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Ten kto pridal tento recept, v živote nerobil palacinky! Na pol litra mlieka veľmi málo múky, cukru. Recept si prosím Vás nabudúce odskúšajte</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('vili33 (30.12.2021 01:16)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_743040_60785_0_best_35_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment36" name="koment36"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/natjadvis"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/n.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/natjadvis/">natjadvis</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/natjadvis/">natjadvis</a> 
+                    <time class="comment-date small color-gray" datetime="06-03-2022 18:04">6. marca 2022 o 18:04</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Výborný recept,pečiem na panvici delimano a absolútne žiaden problém,ani s prvou ?? múku dávam tých 10lyžíc,ale veľmi vrchovaté lyžice.Ale ak treba tak aj viac,už podľa oka.</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('natjadvis (6.3.2022 18:04)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_745759_60785_0_best_36_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment37" name="koment37"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/koleno303"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/k.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/koleno303/">koleno303</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/koleno303/">koleno303</a> 
+                    <time class="comment-date small color-gray" datetime="23-07-2022 22:35">23. júla 2022 o 22:35</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/viera1/"><b>@viera1</b></a>  (14.3.2020 15:17) <br />
+<br />
+😊</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('koleno303 (23.7.2022 22:35)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_749320_60785_0_best_37_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment38" name="koment38"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/nika33"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/n.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/nika33/">nika33</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/nika33/">nika33</a> 
+                    <time class="comment-date small color-gray" datetime="22-08-2022 5:52">22. augusta 2022 o 05:52</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Ja som tiež robila podľa tohto recepta a ako boli dobre...ale potom som si recept upravila tak, ze ja dávam 8 PL hladkej muky kopcom samozrejme inak je ozaj malo múky tam a potom tam pridám 2 polievkové lyžice polohrubej múky kopcom, dám tam ešte aj trochu oleja cca 1dc, ja dávam od oko a okrem toho vanilkového cukru pridám aj ktystalovy cukor ... potom sú palacinky ozaj mňam </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('nika33 (22.8.2022 05:52)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_750123_60785_0_best_38_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment39" name="koment39"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/nika33"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/n.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/nika33/">nika33</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/nika33/">nika33</a> 
+                    <time class="comment-date small color-gray" datetime="27-08-2022 19:49">27. augusta 2022 o 19:49</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><br><a href="https://varecha.pravda.sk/uc/di/6/4/119665_1661622564_d9a396a41398a698e0ba6e8d73e824aa.jpg" target="_blank"><img src="https://varecha.pravda.sk/uc/di/6/4/119665_1661622564_d9a396a41398a698e0ba6e8d73e824aa.jpg" border="0" style="border:1px solid gray"></a><br></div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('nika33 (27.8.2022 19:49)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_750306_60785_0_best_39_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment40" name="koment40"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/silvinka23"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/s.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/silvinka23/">silvinka23</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/silvinka23/">silvinka23</a> 
+                    <time class="comment-date small color-gray" datetime="16-02-2023 17:08">16. februára 2023 o 17:08</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Výborné palacinky, ďakujem 🙏</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('silvinka23 (16.2.2023 17:08)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_755232_60785_0_best_40_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment41" name="koment41"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/emiska"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/e.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/emiska/">emiska</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/emiska/">emiska</a> 
+                    <time class="comment-date small color-gray" datetime="09-06-2023 13:53">9. júna 2023 o 13:53</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/nephilim/"><b>@nephilim</b></a>  (2.9.2018 20:20) <br />
+<br />
+To co za palacinku😄</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('emiska (9.6.2023 13:53)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_757532_60785_0_best_41_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment42" name="koment42"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/bugout"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka113720_1615195829m.jpg" alt="113720_1615195829 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/bugout/">bugout</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/bugout/">bugout</a> 
+                    <time class="comment-date small color-gray" datetime="09-06-2023 22:53">9. júna 2023 o 22:53</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/emiska/"><b>@emiska</b></a>  (9.6.2023 13:53) <br />
+Som vážne zvedavý či bude reagovať na príspevok starý skoro päť rokov. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('bugout (9.6.2023 22:53)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_757542_60785_0_best_42_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			<div class="comment-rate clear-left clearfix" title="ľudia, ktorí osrdiečkovali komentár"> 1x  <a href="/profil/leaela/">leaela</a></div>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment43" name="koment43"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/zuziacik"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/z.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/zuziacik/">zuziacik</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/zuziacik/">zuziacik</a> 
+                    <time class="comment-date small color-gray" datetime="04-08-2023 13:35">4. augusta 2023 o 13:35</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/zuziiik/"><b>@zuziiik</b></a>  (17.5.2020 11:55) <br />
+<br />
+Ja tiež 🤣 XY krát som povedala, že už nikdy v živote nebudem robiť palacinky. Skúšal to aj môj brat a jemu to tiež nešlo.</div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('zuziacik (4.8.2023 13:35)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_758337_60785_0_best_43_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment44" name="koment44"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/vladimirkamirkova"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/v.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/vladimirkamirkova/">vladimirkamirkova</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/vladimirkamirkova/">vladimirkamirkova</a> 
+                    <time class="comment-date small color-gray" datetime="11-12-2023 21:07">11. decembra 2023 o 21:07</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Dokonale najlepsie palacinky aké sme robili , ďakujeme za recept ❤️<br /> <br><a href="https://varecha.pravda.sk/uc/di/0/f/132925_1702325262_17379865270b39334d9e6a1119075aef.jpg" target="_blank"><img src="https://varecha.pravda.sk/uc/di/0/f/132925_1702325262_17379865270b39334d9e6a1119075aef.jpg" border="0" style="border:1px solid gray"></a><br></div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('vladimirkamirkova (11.12.2023 21:07)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_760132_60785_0_best_44_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment45" name="koment45"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/betka181881"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/b.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/betka181881/">betka181881</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/betka181881/">betka181881</a> 
+                    <time class="comment-date small color-gray" datetime="29-03-2024 13:11">29. marca 2024 o 13:11</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">to je najhorsi recept na palacinky aky som robila. spravila som prvych 7 z coho 5 boli neuspesny pokus (uz ma to prestalo bavit) vela mlieka malo muky a neviem cele zle. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('betka181881 (29.3.2024 13:11)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_761721_60785_0_best_45_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment46" name="koment46"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/zolik"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/usercontent/avatar/fotka10900_1308330799m.jpg" alt="10900_1308330799 - profilový obrázok"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/zolik/">zolik</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/zolik/">zolik</a> 
+                    <time class="comment-date small color-gray" datetime="29-03-2024 15:06">29. marca 2024 o 15:06</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3"><a href="/profil/betka181881/"><b>@betka181881</b></a>  (29.3.2024 13:11) <br />
+To Ti verím. Ja dávam na 1/2L mlieka 5 vajec a 250g múky (+štipka soli). A nikdy nedávam cukor. Používam na slano, aj na sladko. A keď zostanú tak aj na rezance do polievky. </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('zolik (29.3.2024 15:06)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_761723_60785_0_best_46_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div><div class="comment-here d-none">         <article class="row "><a id="koment47" name="koment47"></a>
+            <div class="col-2 col-sm-2 col-md-2 pr-2 pr-sm-2 pl-1 pl-sm-2">
+              <figure class="thumbnail"><a href="/profil/vetama"><img class="lazyload img-responsive my-responsive-avatar" src="/static/imgs/transparent-48x48.png" data-src="/static/avatars/v.jpg" alt="používateľ nemá avatar"></a>                <figcaption class="text-center"><a class="color-varechadark d-none d-sm-inline" href="/profil/vetama/">vetama</a></figcaption>              </figure>
+            </div> 			<div class="col-10 col-sm-10 col-md-10 pl-0 pr-1 pl-sm-2 pr-sm-2 pr-md-3">
+              <div class="panel panel-default bg-white border-shadow pt-2 pb-4 pl-3 pr-3 radius-basic arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <a class="comment-user color-varechadark" href="/profil/vetama/">vetama</a> 
+                    <time class="comment-date small color-gray" datetime="12-06-2024 16:45">12. júna 2024 o 16:45</time>
+                  </header>
+                  <div class="comment-post"><div class="p mb-3">Najlepší recept na palacinky ♥️♥️♥️. Vždy sa podarili. Inak palacinky už ani nerobím. Ďakujem krásne za recept </div></div>
+                </div>
+             </div>                  <div class="comment-likes clearfix">
+                  <div class="float-right text-right"><a onclick="triggerReaction('vetama (12.6.2024 16:45)')" href="javascript:void(0);" class="btn btn-secondary color-varechadark basicfont"><i class="fa fa-reply"></i> @zareaguj</a></div>			<div class="comment-rate float-left"><div class="likebox likehere"><span data="like_r_762454_60785_0_best_47_" class="inlike like btn btn-secondary color-varechadark basicfont"><span class="far fa-heart"></span> Pekný<span class="d-none d-sm-inline"> komentár</span></span>			</div></div></div>             </div>
+          </article></div>
+	<div class="text-center mt-4 mb-4">
+		<a href="#" class="btn btn-main color-varechadark d-inline-block showallcomments" style="font-size:1.2rem"><b>Zobraziť&nbsp;všetky&nbsp;komentáre</b></a>
+</div>					                                <script>
+						                            $(".showallcomments").click(function(){
+														$(".comment-here").removeClass('d-none');
+														$(".showallcomments").hide();
+														return false;
+													});
+													</script>
+		
+
+<div class="text-center mt-1 mb-0">
+	<a href="/prihlasenie/" class="btn btn-main color-varechadark d-inline-block">Prihlás sa a pridaj komentár</a>
+</div><br /></div><script type="text/javascript">
+$(document).ready(function(){
+  $(".likehere").click(function(){
+	  var likebtn = $(this).find(".inlike");
+	  var likedata = $(likebtn).attr( "data" );
+	  $( this ).load('/pages/ajax_like.php?d='+likedata);
+	  return false;
+  });
+ 
+
+});
+</script>
+
+                                
+	
+				
+				
+			</div><!--.koniec diskusie-->
+			
+			
+			
+  
+
+
+	
+		<br /><br />
+ 
+ 
+	
+
+		<div class="following-content-loaded">
+			
+			<h3 class="h3">Tipy na recepty z Varechy</h3>
+			<div class="followingcontent pr-0 pr-860-0">		
+				<div class="row">
+					
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-1">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/recepty/kysla-fazulkova-polievka-videorecept/88633-recept.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept130247_1719650219.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Kyslá fazuľková polievka (videorecept)" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/recepty/kysla-fazulkova-polievka-videorecept/88633-recept.html"><strong><span class="underline">Kyslá fazuľková polievka (videorecept)</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-2">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/recepty/kysnute-kolace-zo-suseneho-mlieka-s-tvarohom-a-marhula/88664-recept.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept51400_1719929560.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami (fotorecept)" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/recepty/kysnute-kolace-zo-suseneho-mlieka-s-tvarohom-a-marhula/88664-recept.html"><strong><span class="underline">Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami (fotorecept)</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-3">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/recepty/bananova-babovka-/88663-recept.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept156255_1719918156.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Banánová bábovka " class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/recepty/bananova-babovka-/88663-recept.html"><strong><span class="underline">Banánová bábovka </span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-4">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/recepty/tvarohove-zelatinove-kocky-s-malinami-a-ribezlami-fot/88662-recept.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept54945_1719916303.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/recepty/tvarohove-zelatinove-kocky-s-malinami-a-ribezlami-fot/88662-recept.html"><strong><span class="underline">Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+								
+				</div>
+			</div>
+		</div>
+ 
+ 
+	
+<br />
+
+		<div class="following-content-loaded">
+			
+			<h3 class="h3">SÚŤAŽ: Takto využívajú Maresi mliečko naši čitatelia</h3>
+			<div class="followingcontent pr-0 pr-860-0">		
+				<div class="row">
+					
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-1">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/maresi/foto/1709154817_1567/" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/sutaz_maresi/photo1709154817_1567m.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Edita , Žilina" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/maresi/foto/1709154817_1567/"><strong><span class="underline">Edita , Žilina</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-2">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/maresi/foto/1715171564_7375/" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/sutaz_maresi/photo1715171564_7375m.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Júlia, Skýcov" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/maresi/foto/1715171564_7375/"><strong><span class="underline">Júlia, Skýcov</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-3">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/maresi/foto/1714988783_9005/" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/sutaz_maresi/photo1714988783_9005m.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Jozef, Považská Bystrica" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/maresi/foto/1714988783_9005/"><strong><span class="underline">Jozef, Považská Bystrica</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-4">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/maresi/foto/1715627089_7933/" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/sutaz_maresi/photo1715627089_7933m.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Janka, KEŽMAROK" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/maresi/foto/1715627089_7933/"><strong><span class="underline">Janka, KEŽMAROK</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+								
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+			<a href="/maresi/" class="btn btn-main color-varechadark">Viac o súťaži s mliečkom Maresi</a>
+		</div>
+		
+<br /><br /> 
+ 
+	
+
+		<div class="following-content-loaded">
+			
+			<h3 class="h3">Tipy na články z Varechy</h3>
+			<div class="followingcontent pr-0 pr-860-0">		
+				<div class="row">
+					
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-1">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/magazin/granadir-aj-sunkofleky-domace-zapekane-naslano-aj-nas/20524-clanok.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-img_7053.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Granadír aj šunkofleky: Domáce, zapekané, naslano aj nasladko. Uvarte si fliačky na 11 spôsobov" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/magazin/granadir-aj-sunkofleky-domace-zapekane-naslano-aj-nas/20524-clanok.html"><strong><span class="underline">Granadír aj šunkofleky: Domáce, zapekané, naslano aj nasladko. Uvarte si fliačky na 11 spôsobov</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-2">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/magazin/na-prospech-urobte-s-lanovymi-semienkami-tuto-jedinu-ve/21288-clanok.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-shutterstock_425058799.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Na prospech: Urobte s ľanovými semienkami túto jedinú vec a vaše telo z nich vyťaží maximum" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/magazin/na-prospech-urobte-s-lanovymi-semienkami-tuto-jedinu-ve/21288-clanok.html"><strong><span class="underline">Na prospech: Urobte s ľanovými semienkami túto jedinú vec a vaše telo z nich vyťaží maximum</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-3">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/magazin/dobre-inspiracie-10-receptov-co-navarit-z-karfiolu-a/21291-clanok.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-recept52767_1395476746.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Dobré inšpirácie: 10 receptov, čo navariť z karfiolu. A nenechajte si ujsť ani tip, ako využiť vývar z neho " class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/magazin/dobre-inspiracie-10-receptov-co-navarit-z-karfiolu-a/21291-clanok.html"><strong><span class="underline">Dobré inšpirácie: 10 receptov, čo navariť z karfiolu. A nenechajte si ujsť ani tip, ako využiť vývar z neho </span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+									<div class="col col-6 col-sm-4 pl-2 pr-0 column-4">				
+						<div class="card h-100 border-0">					
+							<a class="card-a lazyload" href="/magazin/velka-trojka-ak-by-ste-mali-mat-vo-svojej-kuchyni-len-tr/21215-clanok.html" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-shutterstock_2470633047.jpg"><img src="/static/imgs/transparent-16x9.png" alt="Veľká trojka: Ak by ste mali mať vo svojej kuchyni len tri nože, mali by to byť tieto" class="card-img-top"></a>					
+							<div class="card-body pt-2 pl-1 pb-3 pr-2">
+							<h4 class="h6 basicfont"><a href="/magazin/velka-trojka-ak-by-ste-mali-mat-vo-svojej-kuchyni-len-tr/21215-clanok.html"><strong><span class="underline">Veľká trojka: Ak by ste mali mať vo svojej kuchyni len tri nože, mali by to byť tieto</span></strong></a></h4>
+							</div>
+						</div>
+					</div>	
+				
+								
+				</div>
+			</div>
+		</div>
+	
+
+		<div class="reklama-under">
+			<!-- /61782924/varecha_art_ba
+<div id='div-gpt-ad-1528634504686-612'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528634504686-612'); });
+</script>
+</div> -->
+
+<!-- widget Engerio -->
+<div id="horizontal-66ebcd64-0925-45e6-8eb4-152eca22d8bb" data-eWidget="66ebcd64-0925-45e6-8eb4-152eca22d8bb" data-eType="horizontal" data-eListener="true"></div>
+<div id="engerio-widget-horizontal-42625b68-7bcf-456e-a57b-3762838e3e1a" data-eWidget="42625b68-7bcf-456e-a57b-3762838e3e1a" data-eType="horizontal" data-eListener="true"></div>
+<script type="text/javascript" src="https://cdn.engerio.sk/js/widget.js" async ></script>
+
+<!-- Varecha AS Relevant Resp -->
+<ins class="adsbygoogle"
+     style="display:block"
+  	 data-matched-content-ui-type="image_stacked,image_stacked"
+     data-matched-content-rows-num="2,3"
+     data-matched-content-columns-num="1,3"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-9548545491773721"
+     data-ad-slot="3716256997"></ins>
+<script>
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) {
+    document.write('<scr'+'ipt async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></sc'+'ript>');
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }
+</script>
+
+		</div> 
+						
+		<br /><br />
+    </div>
+
+    
+		
+		
+	    <div class="col col-12 col-lg-4 col-sidebar text-center">
+		    
+		    
+							<div class="web-zije-z-reklam sq0"><!-- /61782924/varecha_art_ss_co -->
+<div id='div-gpt-ad-1528634504686-616'>
+<script>
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528634504686-616'); }); }
+</script>
+</div>                            </div>
+                                         
+								<div class="sidebar-panel sidebar-videopanel bg-white border-shadow radius-mini pt-2 pb-2">
+<strong class="h2">Redakčné tipy</strong> <em class="sidebar-header">z <a href="/magazin/" class="color-varechadark">Varechy</a></em>
+<div class="largelist"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+	<a class="img" href="/magazin/sviatocne-aj-na-vsedny-den-10-fajnovych-marhulovych-kolacov-a-zaku/21248-clanok.html" target="_blank" title="10 fajnových marhuľových koláčov a zákuskov"><img alt="10 fajnových marhuľových koláčov a zákuskov" src="/static/imgs/transparent-16x9.png" data-src="/uploady/velky-recept130247_1718957841.jpg" class="lazyload radius-mini" /></a>
+	
+	<a href="/magazin/sviatocne-aj-na-vsedny-den-10-fajnovych-marhulovych-kolacov-a-zaku/21248-clanok.html" target="_blank" title="Magazín Varecha"><span>Magazín Varecha:</span> <strong>10 fajnových marhuľových koláčov a zákuskov</strong></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+	<a class="img" href="/recepty/rychla-jablkova-rolada-fotorecept/88673-recept.html" target="_blank" title="Rýchla jablková roláda"><img alt="Rýchla jablková roláda" src="/static/imgs/transparent-16x9.png" data-src="/usercontent/images/x540-recept118075_1720153696.jpg" class="lazyload radius-mini" /></a>
+	
+	<a href="/recepty/rychla-jablkova-rolada-fotorecept/88673-recept.html" target="_blank" title="Koláče"><span>Koláče:</span> <strong>Rýchla jablková roláda</strong></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+	<a class="img" href="/recepty/bezlepkove-keksiky-z-arasidoveho-masla-videorecept/88676-recept.html" target="_blank" title="Bezlepkové keksíky z arašidového masla"><img alt="Bezlepkové keksíky z arašidového masla" src="/static/imgs/transparent-16x9.png" data-src="/usercontent/images/x540-recept76471_1720170708.jpg" class="lazyload radius-mini" /></a>
+	
+	<a href="/recepty/bezlepkove-keksiky-z-arasidoveho-masla-videorecept/88676-recept.html" target="_blank" title="Na sladko"><span>Na sladko:</span> <strong>Bezlepkové keksíky z arašidového masla</strong></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+	<a class="img" href="/magazin/uzasna-bylinka-na-travenie-aj-nespavost-objavte-nove-sposoby-ako-dom/21294-clanok.html" target="_blank" title="Úžasná bylinka: Na trávenie aj nespavosť. Objavte nové spôsoby, ako doma využiť zdravý kôpor "><img alt="Úžasná bylinka: Na trávenie aj nespavosť. Objavte nové spôsoby, ako doma využiť zdravý kôpor " src="/static/imgs/transparent-16x9.png" data-src="/uploady/velky-shutterstock_2255840545.jpg" class="lazyload radius-mini" /></a>
+	
+	<a href="/magazin/uzasna-bylinka-na-travenie-aj-nespavost-objavte-nove-sposoby-ako-dom/21294-clanok.html" target="_blank" title="Magazín Varecha"><span>Magazín Varecha:</span> <strong>Úžasná bylinka: Na trávenie aj nespavosť. Objavte nové spôsoby, ako doma využiť zdravý kôpor </strong></a></li></ol></div><br /><br />
+                                        
+								<div class="sidebar-panel sidebar-videopanel bg-white border-shadow radius-mini pt-2 pb-2">
+<strong class="h2">Najnovšie video</strong> <em class="sidebar-header">z <a href="//tv.varecha.sk/" class="color-varechadark">TV Varecha</a></em>
+                                    
+                                        <ol class="toplist clearfix list-unstyled mt-3">                                            <li id="novevideo21240" class="clearfix pt-2 pb-2 pl-4 pr-4 m-2">
+                                                
+                                                	<a class="img-video" href="/tv/pecena-ryza-so-zeleninou-a-vajickami/21240-video.html">
+                                                        <img alt="Pečená ryža so zeleninou a vajíčkami" class="radius-tv" src="/usercontent/images/x540-obr130247_1719651852.jpg" />
+                                                        <em class="playbutton"></em>
+                                                    </a><br />
+                                                 <a class="" href="/tv/pecena-ryza-so-zeleninou-a-vajickami/21240-video.html" title="Pečená ryža so zeleninou a vajíčkami"><b><strong>Pečená ryža so zeleninou a vajíčkami</strong></b></a>
+                                                 
+                                            </li>                                        </ol>
+                                    </div>
+                          
+<div class="largelist sidebar-panel sidebar-toplist sidebar-toplist-t bg-white border-shadow radius-mini placeholder-ad pt-4 pb-0"><!--pb-5-->
+<h2 class="h2">Najklikanejšie<br /><em>recepty, videá a články</em></h2>
+
+<ul class="nav nav-tabs pl-2 pr-2">
+  <li class="nav-item">
+    <a id="top1-t" class="nav-link " href="#" title="Najčítanejšie recepty dnes">24 hod</a>
+  </li>
+  <li class="nav-item">
+    <a id="top2-t" class="nav-link active" href="#" title="Najčítanejšie recepty za posledné 3 dni">3 dni</a>
+  </li>
+  <li class="nav-item">
+    <a id="top3-t" class="nav-link" href="#" title="Najčítanejšie recepty tento týždeň">7 dní</a>
+  </li>
+  <li class="nav-item">
+    <a id="top4-t" class="nav-link " href="#" title="Najpozeranejšie videá TV Varecha">TV</a>
+  </li>  
+  <li class="nav-item">
+    <a id="top5-t" class="nav-link " href="#" title="Najčítanejšie články">Články</a>
+  </li>
+</ul>
+<script>
+$( "#top1-t").click(function() {
+  $(".sidebar-toplist-t .nav-link").removeClass('active');
+  $("#top1-t").addClass('active');
+  $(".toplists-t").hide();
+  $(".toplist-1-t").show();
+  return false;
+});
+$( "#top2-t").click(function() {
+  $(".sidebar-toplist-t .nav-link").removeClass('active');
+  $("#top2-t").addClass('active');
+  $(".toplists-t").hide();
+  $(".toplist-2-t").show();
+  return false;
+});
+$( "#top3-t").click(function() {
+  $(".sidebar-toplist-t .nav-link").removeClass('active');
+  $("#top3-t").addClass('active');
+  $(".toplists-t").hide();
+  $(".toplist-3-t").show();
+  return false;
+});
+$( "#top4-t").click(function() {
+  $(".sidebar-toplist-t .nav-link").removeClass('active');
+  $("#top4-t").addClass('active');
+  $(".toplists-t").hide();
+  $(".toplist-4-t").show();
+  return false;
+});
+$( "#top5-t").click(function() {
+  $(".sidebar-toplist-t .nav-link").removeClass('active');
+  $("#top5-t").addClass('active');
+  $(".toplists-t").hide();
+  $(".toplist-5-t").show();
+  return false;
+});
+</script>
+
+<div class="toplist-1-t toplists-t hide"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-0">
+<a class="img lazyload radius-mini" href="/recepty/rychla-jablkova-rolada-fotorecept/88673-recept.html" title="Rýchla jablková roláda (fotorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept118075_1720153696.jpg"><img alt="Rýchla jablková roláda (fotorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/rychla-jablkova-rolada-fotorecept/88673-recept.html" title="Rýchla jablková roláda (fotorecept)"><b>Rýchla jablková roláda </b> <span>+fotopostup</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+<a class="img lazyload radius-mini" href="/recepty/palacinky-so-skoricovym-cukrom/88445-recept.html" title="Palacinky so škoricovým cukrom" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-shutterstock_1286227333.jpg"><img alt="Palacinky so škoricovým cukrom" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/palacinky-so-skoricovym-cukrom/88445-recept.html" title="Palacinky so škoricovým cukrom"><b>Palacinky so škoricovým cukrom</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-2">
+<a class="img lazyload radius-mini" href="/recepty/bezlepkove-keksiky-z-arasidoveho-masla-videorecept/88676-recept.html" title="Bezlepkové keksíky z arašidového masla (videorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept76471_1720170708.jpg"><img alt="Bezlepkové keksíky z arašidového masla (videorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/bezlepkove-keksiky-z-arasidoveho-masla-videorecept/88676-recept.html" title="Bezlepkové keksíky z arašidového masla (videorecept)"><b>Bezlepkové keksíky z arašidového masla </b> <span>+video</span></a></li></ol></div><div class="toplist-2-t toplists-t"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-0">
+<a class="img lazyload radius-mini" href="/recepty/tvarohove-zelatinove-kocky-s-malinami-a-ribezlami-fotorecept/88662-recept.html" title="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept54945_1719916303.jpg"><img alt="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/tvarohove-zelatinove-kocky-s-malinami-a-ribezlami-fotorecept/88662-recept.html" title="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)"><b>Tvarohové želatínové kocky s malinami a ríbezľami </b> <span>+fotopostup</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+<a class="img lazyload radius-mini" href="/recepty/kysnute-kolace-zo-suseneho-mlieka-s-tvarohom-a-marhulami-fotorecept/88664-recept.html" title="Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami (fotorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept51400_1719929560.jpg"><img alt="Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami (fotorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/kysnute-kolace-zo-suseneho-mlieka-s-tvarohom-a-marhulami-fotorecept/88664-recept.html" title="Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami (fotorecept)"><b>Kysnuté koláče zo sušeného mlieka s tvarohom a marhuľami </b> <span>+fotopostup</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-2">
+<a class="img lazyload radius-mini" href="/recepty/kysla-fazulkova-polievka-videorecept/88633-recept.html" title="Kyslá fazuľková polievka (videorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept130247_1719650219.jpg"><img alt="Kyslá fazuľková polievka (videorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/kysla-fazulkova-polievka-videorecept/88633-recept.html" title="Kyslá fazuľková polievka (videorecept)"><b>Kyslá fazuľková polievka </b> <span>+video</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-3">
+<a class="img lazyload radius-mini" href="/recepty/bananova-babovka-/88663-recept.html" title="Banánová bábovka " style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept156255_1719918156.jpg"><img alt="Banánová bábovka " src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/bananova-babovka-/88663-recept.html" title="Banánová bábovka "><b>Banánová bábovka</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-4">
+<a class="img lazyload radius-mini" href="/recepty/pecena-ryza-so-zeleninou-a-vajickami-videorecept/88635-recept.html" title="Pečená ryža so zeleninou a vajíčkami (videorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept130247_1719652445.jpg"><img alt="Pečená ryža so zeleninou a vajíčkami (videorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/pecena-ryza-so-zeleninou-a-vajickami-videorecept/88635-recept.html" title="Pečená ryža so zeleninou a vajíčkami (videorecept)"><b>Pečená ryža so zeleninou a vajíčkami </b> <span>+video</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-5">
+<a class="img lazyload radius-mini" href="/recepty/kralik-na-vine-a-cesnaku/88618-recept.html" title="Králik na víne a cesnaku" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-24-shutterstock_1929899891-1.jpg"><img alt="Králik na víne a cesnaku" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/kralik-na-vine-a-cesnaku/88618-recept.html" title="Králik na víne a cesnaku"><b>Králik na víne a cesnaku</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-6">
+<a class="img lazyload radius-mini" href="/recepty/palacinky-so-skoricovym-cukrom/88445-recept.html" title="Palacinky so škoricovým cukrom" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-shutterstock_1286227333.jpg"><img alt="Palacinky so škoricovým cukrom" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/palacinky-so-skoricovym-cukrom/88445-recept.html" title="Palacinky so škoricovým cukrom"><b>Palacinky so škoricovým cukrom</b></a></li></ol></div><div class="toplist-3-t toplists-t hide"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-0">
+<a class="img lazyload radius-mini" href="/recepty/tvarohove-zelatinove-kocky-s-malinami-a-ribezlami-fotorecept/88662-recept.html" title="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept54945_1719916303.jpg"><img alt="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/tvarohove-zelatinove-kocky-s-malinami-a-ribezlami-fotorecept/88662-recept.html" title="Tvarohové želatínové kocky s malinami a ríbezľami (fotorecept)"><b>Tvarohové želatínové kocky s malinami a ríbezľami </b> <span>+fotopostup</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+<a class="img lazyload radius-mini" href="/recepty/jednoduchy-kokosovy-kolac/88648-recept.html" title="Jednoduchý kokosový koláč" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept98541_1719760022.jpg"><img alt="Jednoduchý kokosový koláč" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/jednoduchy-kokosovy-kolac/88648-recept.html" title="Jednoduchý kokosový koláč"><b>Jednoduchý kokosový koláč</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-2">
+<a class="img lazyload radius-mini" href="/recepty/grecky-mokry-kolac/88632-recept.html" title="Grécky mokrý koláč" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept98541_1719642368.jpg"><img alt="Grécky mokrý koláč" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/grecky-mokry-kolac/88632-recept.html" title="Grécky mokrý koláč"><b>Grécky mokrý koláč</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-3">
+<a class="img lazyload radius-mini" href="/recepty/visnove-pite-videorecept/88623-recept.html" title="Višňové pité (videorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept34291_1719661535.jpg"><img alt="Višňové pité (videorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/visnove-pite-videorecept/88623-recept.html" title="Višňové pité (videorecept)"><b>Višňové pité </b> <span>+video</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-4">
+<a class="img lazyload radius-mini" href="/recepty/jednoduchy-cokoladovy-tart/88640-recept.html" title="Jednoduchý čokoládový tart" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept98541_1719696407.jpg"><img alt="Jednoduchý čokoládový tart" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/jednoduchy-cokoladovy-tart/88640-recept.html" title="Jednoduchý čokoládový tart"><b>Jednoduchý čokoládový tart</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-5">
+<a class="img lazyload radius-mini" href="/recepty/makovo-tvarohovy-kolac-s-marhulami-videorecept/88584-recept.html" title="Makovo-tvarohový koláč s marhuľami (videorecept)" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept130247_1718957841.jpg"><img alt="Makovo-tvarohový koláč s marhuľami (videorecept)" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/makovo-tvarohovy-kolac-s-marhulami-videorecept/88584-recept.html" title="Makovo-tvarohový koláč s marhuľami (videorecept)"><b>Makovo-tvarohový koláč s marhuľami </b> <span>+video</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-6">
+<a class="img lazyload radius-mini" href="/recepty/obycajne-rezne/88629-recept.html" title="Obyčajné rezne" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/velky-recept156255_1719593229.jpg"><img alt="Obyčajné rezne" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/recepty/obycajne-rezne/88629-recept.html" title="Obyčajné rezne"><b>Obyčajné rezne</b></a></li></ol></div><div class="toplist-4-t toplists-t hide"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-0">
+<a class="img lazyload radius-mini" href="/tv/jednoduchy-ciernohorsky-rezen-/21193-video.html" title="Jednoduchý čiernohorský rezeň " style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1717157763.jpg"><img alt="Jednoduchý čiernohorský rezeň " src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/jednoduchy-ciernohorsky-rezen-/21193-video.html" title="Jednoduchý čiernohorský rezeň "><b>Jednoduchý čiernohorský rezeň </b> <span>VIDEO</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+<a class="img lazyload radius-mini" href="/tv/plnene-cuketove-zavitky/21194-video.html" title="Plnené cuketové závitky" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1717406906.jpg"><img alt="Plnené cuketové závitky" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/plnene-cuketove-zavitky/21194-video.html" title="Plnené cuketové závitky"><b>Plnené cuketové závitky</b> <span>VIDEO</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-2">
+<a class="img lazyload radius-mini" href="/tv/nepecena-piskotova-rolada/21196-video.html" title="Nepečená piškótová roláda" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1717591699.jpg"><img alt="Nepečená piškótová roláda" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/nepecena-piskotova-rolada/21196-video.html" title="Nepečená piškótová roláda"><b>Nepečená piškótová roláda</b> <span>VIDEO</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-3">
+<a class="img lazyload radius-mini" href="/tv/viete-ako-spravne-zamrazit-jahody-/21186-video.html" title="Viete, ako správne zamraziť jahody?" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1715943706.jpg"><img alt="Viete, ako správne zamraziť jahody?" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/viete-ako-spravne-zamrazit-jahody-/21186-video.html" title="Viete, ako správne zamraziť jahody?"><b>Viete, ako správne zamraziť jahody?</b> <span>VIDEO</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-4">
+<a class="img lazyload radius-mini" href="/tv/pecene-kura-s-plnkou/21207-video.html" title="Pečené kura s plnkou" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1717878876.jpg"><img alt="Pečené kura s plnkou" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/pecene-kura-s-plnkou/21207-video.html" title="Pečené kura s plnkou"><b>Pečené kura s plnkou</b> <span>VIDEO</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-5">
+<a class="img lazyload radius-mini" href="/tv/makovo-tvarohovy-kolac-s-marhulami/21236-video.html" title="Makovo-tvarohový koláč s marhuľami" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1718957067.jpg"><img alt="Makovo-tvarohový koláč s marhuľami" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/makovo-tvarohovy-kolac-s-marhulami/21236-video.html" title="Makovo-tvarohový koláč s marhuľami"><b>Makovo-tvarohový koláč s marhuľami</b> <span>VIDEO</span></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-6">
+<a class="img lazyload radius-mini" href="/tv/palacinka-pecena-na-plechu/21235-video.html" title="Palacinka pečená na plechu" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/usercontent/images/obr130247_1718955886.jpg"><img alt="Palacinka pečená na plechu" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/tv/palacinka-pecena-na-plechu/21235-video.html" title="Palacinka pečená na plechu"><b>Palacinka pečená na plechu</b> <span>VIDEO</span></a></li></ol></div><div class="toplist-5-t toplists-t hide"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-0">
+<a class="img lazyload radius-mini" href="/magazin/super-jednoduche-11-kolacikov-na-ktore-vam-staci-len-listkove-cesto/20756-clanok.html" title="Super jednoduché: 11 koláčikov, na ktoré vám stačí len lístkové cesto a pár surovín " style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-recept9921_1299317646.jpg"><img alt="Super jednoduché: 11 koláčikov, na ktoré vám stačí len lístkové cesto a pár surovín " src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/super-jednoduche-11-kolacikov-na-ktore-vam-staci-len-listkove-cesto/20756-clanok.html" title="Super jednoduché: 11 koláčikov, na ktoré vám stačí len lístkové cesto a pár surovín "><span class="my-badge basicfont">Super jednoduché:</span><b> 11 koláčikov, na ktoré vám stačí len lístkové cesto a pár surovín </b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+<a class="img lazyload radius-mini" href="/magazin/9-receptov-kuraci-perkelt-alebo-paprikas-nech-sa-vola-ako-chce-vzdy-po/21159-clanok.html" title="9 receptov: Kurací perkelt alebo paprikáš? Nech sa volá ako chce, vždy poteší" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-recept15508_1432890133.jpg"><img alt="9 receptov: Kurací perkelt alebo paprikáš? Nech sa volá ako chce, vždy poteší" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/9-receptov-kuraci-perkelt-alebo-paprikas-nech-sa-vola-ako-chce-vzdy-po/21159-clanok.html" title="9 receptov: Kurací perkelt alebo paprikáš? Nech sa volá ako chce, vždy poteší"><span class="my-badge basicfont">9 receptov:</span><b> Kurací perkelt alebo paprikáš? Nech sa volá ako chce, vždy poteší</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-2">
+<a class="img lazyload radius-mini" href="/magazin/vajicko-na-panvici-toto-su-najcastejsie-chyby-pri-priprave-volskeho-ok/21239-clanok.html" title="Vajíčko na panvici: Toto sú najčastejšie chyby pri príprave volského oka. Určite aspoň jednu z nich robíte " style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-shutterstock_1765877756.jpg"><img alt="Vajíčko na panvici: Toto sú najčastejšie chyby pri príprave volského oka. Určite aspoň jednu z nich robíte " src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/vajicko-na-panvici-toto-su-najcastejsie-chyby-pri-priprave-volskeho-ok/21239-clanok.html" title="Vajíčko na panvici: Toto sú najčastejšie chyby pri príprave volského oka. Určite aspoň jednu z nich robíte "><span class="my-badge basicfont">Vajíčko na panvici:</span><b> Toto sú najčastejšie chyby pri príprave volského oka. Určite aspoň jednu z nich robíte </b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-3">
+<a class="img lazyload radius-mini" href="/magazin/v-bojovych-podmienkach-13-vybornych-tipov-co-varit-na-chalupe/21128-clanok.html" title="V bojových podmienkach: 13 výborných tipov, čo variť na chalupe" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-recept14679_1377465227.jpg"><img alt="V bojových podmienkach: 13 výborných tipov, čo variť na chalupe" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/v-bojovych-podmienkach-13-vybornych-tipov-co-varit-na-chalupe/21128-clanok.html" title="V bojových podmienkach: 13 výborných tipov, čo variť na chalupe"><span class="my-badge basicfont">V bojových podmienkach:</span><b> 13 výborných tipov, čo variť na chalupe</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-4">
+<a class="img lazyload radius-mini" href="/magazin/pre-maskrtne-bruska-buchty-sulance-palacinky-10x-sladky-obed-pre/21268-clanok.html" title="Pre maškrtné brušká: Buchty, šúľance, palacinky... 10x sladký obed pre ešte sladšie prázdniny" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-recept98541_1692288854.jpg"><img alt="Pre maškrtné brušká: Buchty, šúľance, palacinky... 10x sladký obed pre ešte sladšie prázdniny" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/pre-maskrtne-bruska-buchty-sulance-palacinky-10x-sladky-obed-pre/21268-clanok.html" title="Pre maškrtné brušká: Buchty, šúľance, palacinky... 10x sladký obed pre ešte sladšie prázdniny"><span class="my-badge basicfont">Pre maškrtné brušká:</span><b> Buchty, šúľance, palacinky... 10x sladký obed pre ešte sladšie prázdniny</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-5">
+<a class="img lazyload radius-mini" href="/magazin/takato-je-pravda-treba-ryzu-pred-varenim-premyvat-odpoved-je-jednozna/21014-clanok.html" title="Takáto je pravda: Treba ryžu pred varením premývať? Odpoveď je jednoznačná a dôvod vás možno prekvapí" style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-shutterstock_1644320017-1.jpg"><img alt="Takáto je pravda: Treba ryžu pred varením premývať? Odpoveď je jednoznačná a dôvod vás možno prekvapí" src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/takato-je-pravda-treba-ryzu-pred-varenim-premyvat-odpoved-je-jednozna/21014-clanok.html" title="Takáto je pravda: Treba ryžu pred varením premývať? Odpoveď je jednoznačná a dôvod vás možno prekvapí"><span class="my-badge basicfont">Takáto je pravda:</span><b> Treba ryžu pred varením premývať? Odpoveď je jednoznačná a dôvod vás možno prekvapí</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-6">
+<a class="img lazyload radius-mini" href="/magazin/sladky-obed-9x-marhulove-gulky-rodinne-poklady-aj-recepty-z-restaura/21162-clanok.html" title="Sladký obed: 9x marhuľové guľky. Rodinné poklady, aj recepty z reštaurácií a kopaníc " style="background: url('/static/imgs/transparent-16x9.png') center center / cover no-repeat" data-src="/uploady/velky-recept56859_1436178736-1.jpg"><img alt="Sladký obed: 9x marhuľové guľky. Rodinné poklady, aj recepty z reštaurácií a kopaníc " src="/static/imgs/transparent-16x9.png" class="radius-mini" /></a>
+<a href="/magazin/sladky-obed-9x-marhulove-gulky-rodinne-poklady-aj-recepty-z-restaura/21162-clanok.html" title="Sladký obed: 9x marhuľové guľky. Rodinné poklady, aj recepty z reštaurácií a kopaníc "><span class="my-badge basicfont">Sladký obed:</span><b> 9x marhuľové guľky. Rodinné poklady, aj recepty z reštaurácií a kopaníc </b></a></li></ol></div><div class=""><!--selfpromo radius-mini-->
+<br />
+</div>   
+
+						
+</div>
+
+
+							<div class="web-zije-z-reklam sq1">
+                                <!-- /61782924/varecha_art_ss1 -->
+<div id='div-gpt-ad-1528634504686-617'>
+<script>
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528634504686-617'); }); }
+</script>
+</div>                            </div>                           <div class="sidebar-panel sidebar-toplist sidebar-toplist-t bg-white border-shadow radius-mini placeholder-ad pt-4 pb-0"><!--pb-5-->
+
+<a href="/magazin/rubrika/rebricky"><strong class="h2">Rebríčky</strong></a> <em class="sidebar-header">top recepty a iné rebríčky</em>
+
+
+<div class="largelist"><ol class="toplist clearfix list-unstyled mt-3"><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-0">
+	<a class="img" href="/magazin/to-naj-z-juna-ciernohorsky-rezen-domace-zemle-aj-ovocna-rolada-top-/21285-clanok.html" target="_blank" title="To naj z júna: Čiernohorský rezeň, domáce žemle aj ovocná roláda. TOP 15 videoreceptov pre jednoduché varenie a pečenie"><img alt="To naj z júna: Čiernohorský rezeň, domáce žemle aj ovocná roláda. TOP 15 videoreceptov pre jednoduché varenie a pečenie" src="/static/imgs/transparent-48x48.png" data-src="/uploady/stredny-recept130247_1717157268.jpg" class="lazyload radius-mini" /></a>
+	<a href="/magazin/to-naj-z-juna-ciernohorsky-rezen-domace-zemle-aj-ovocna-rolada-top-/21285-clanok.html" target="_blank" title="To naj z júna: Čiernohorský rezeň, domáce žemle aj ovocná roláda. TOP 15 videoreceptov pre jednoduché varenie a pečenie"><span class="my-badge basicfont">To naj z júna:</span><b> Čiernohorský rezeň, domáce žemle aj ovocná roláda. TOP 15 videoreceptov pre jednoduché varenie a pečenie</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-1">
+	<a class="img" href="/magazin/maj-na-varecha-sk-zabodoval-kolac-uja-andora-aj-30-minutovy-makovec-poz/21193-clanok.html" target="_blank" title="Máj na Varecha.sk: Zabodoval koláč uja Andora aj 30-minútový makovec. Pozrite si kompletné rebríčky naj receptov"><img alt="Máj na Varecha.sk: Zabodoval koláč uja Andora aj 30-minútový makovec. Pozrite si kompletné rebríčky naj receptov" src="/static/imgs/transparent-48x48.png" data-src="/uploady/stredny-recept122953_1716126583.jpg" class="lazyload radius-mini" /></a>
+	<a href="/magazin/maj-na-varecha-sk-zabodoval-kolac-uja-andora-aj-30-minutovy-makovec-poz/21193-clanok.html" target="_blank" title="Máj na Varecha.sk: Zabodoval koláč uja Andora aj 30-minútový makovec. Pozrite si kompletné rebríčky naj receptov"><span class="my-badge basicfont">Máj na Varecha.sk:</span><b> Zabodoval koláč uja Andora aj 30-minútový makovec. Pozrite si kompletné rebríčky naj receptov</b></a></li><li class="clearfix pt-2 pb-2 pl-0 m-0 text-left item-2">
+	<a class="img" href="/magazin/majove-videa-koprova-omacka-misa-rezy-aj-segedin-top-15-najsledov/21196-clanok.html" target="_blank" title="Májové videá: Kôprová omáčka, Míša rezy aj segedín. TOP 15 najsledovanejších videoreceptov"><img alt="Májové videá: Kôprová omáčka, Míša rezy aj segedín. TOP 15 najsledovanejších videoreceptov" src="/static/imgs/transparent-48x48.png" data-src="/uploady/stredny-88300-vyrez.jpg" class="lazyload radius-mini" /></a>
+	<a href="/magazin/majove-videa-koprova-omacka-misa-rezy-aj-segedin-top-15-najsledov/21196-clanok.html" target="_blank" title="Májové videá: Kôprová omáčka, Míša rezy aj segedín. TOP 15 najsledovanejších videoreceptov"><span class="my-badge basicfont">Májové videá:</span><b> Kôprová omáčka, Míša rezy aj segedín. TOP 15 najsledovanejších videoreceptov</b></a></li></ol></div>   				
+		
+<a href="/magazin/rubrika/rebricky/" class="newest color-varechalink">Ďalšie rebríčky&nbsp;<span class="fas fa-angle-right" aria-hidden="true"> </span></a>
+<br />&nbsp;								
+</div><style>
+	
+	.job_text {
+		margin: 6px 0 8px 0;
+		padding: 6px 80px 6px 18px;
+		text-align: left;
+		display: block;
+		clear: both;
+		border-top: 1px solid #dee2e6;
+		min-height: 60px;
+		position: relative;
+	}
+	.job_text a:hover {
+		text-decoration: none;
+	}
+	.job_text a b {
+		font-family: 'Montserrat';
+		display: block;
+		/* float: left; */
+	}
+	.job_text a:hover b {
+		text-decoration: underline;
+	}
+	
+	.job_text a small {
+		/* display: block; */
+		/* float: left; */
+	}
+	
+	
+	.job_text a.job_img {
+		/* float: right; */
+		position: absolute;
+		top: 8px;
+		right: 8px;
+		display: block;
+	}
+	
+	.job_post h2 a,
+	.job_post a h2,
+	.job_post h2 {
+		color: #111;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	.job_cta  {
+		padding-top:8px;
+	}
+	.job_cta a {
+	display: inline-block;
+	/* font-weight: 400; */
+	color: #76a20e;
+	text-align: center;
+	vertical-align: middle;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	border: 2px solid #76a20e;
+	}
+</style>
+<div id="external-content">&nbsp;</div>
+<div class="pracaWidget" id="dreamJobsWidget"><div class="job_post"><h2>Hľadáte si novú prácu ?</h2><div class="job_text"><a href="https://praca.pravda.sk/jobs/detail/13333?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget"><b>Mzdový účtovník</b><small>Dr.Max Holding SK, a.s.</small></a><a href="https://praca.pravda.sk/jobs/detail/13333?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget" class="job_img"><img src="https://g.pravda.sk/kreativy/dreamjobs/img/obr11.png" /></a></div><div class="job_text"><a href="https://praca.pravda.sk/jobs/detail/12477?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget"><b>Výkonný asistent GM PHOENIX BENU /m/ž/</b><small>PHOENIX | BENU</small></a><a href="https://praca.pravda.sk/jobs/detail/12477?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget" class="job_img"><img src="https://g.pravda.sk/kreativy/dreamjobs/img/obr14.png" /></a></div><div class="job_text"><a href="https://praca.pravda.sk/jobs/detail/12549?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget"><b>Obchodník/ Technická podpora predaja</b><small>ABB SK</small></a><a href="https://praca.pravda.sk/jobs/detail/12549?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget" class="job_img"><img src="https://g.pravda.sk/kreativy/dreamjobs/img/obr14.png" /></a></div><div class="job_cta"><a href="https://praca.pravda.sk/jobs/?utm_source=pravda&utm_medium=rightCol-article-varecha&utm_campaign=dreamJobsWidget">všetky pracovné ponuky</a></div></div></div><script>
+	(function() {
+	//GA event
+	if (typeof gtag === "function") gtag('event', 'PracaWidget', { 'event_category': "praca.pravda.sk", 'event_label': 'varecha', 'value': 'varecha', 'non_interaction': true });
+			
+	$('#dreamJobsWidget a').each(function()
+	{	$(this).on('click', function(){
+			gtag('event', 'PracaWidget_click', { 'event_category': "praca.pravda.sk", 'event_label': section, varecha: href, 'non_interaction': false });
+			return true;
+		});
+	});
+})()
+</script><!-- tempGenerate: 01. 07. 2024 14:03:47 --><br /><br /><br />
+							<div class="web-zije-z-reklam sq2"><!-- /61782924/varecha_art_ss2 - LAZY -->
+<div id='div-gpt-ad-1528634504686-618'></div>                            </div>
+                           		    
+	    </div>
+    </div>
+    
+
+
+	<!-- Newsletter - zaciatok -->
+			<div class="modal fade" id="modalFirst" tabindex="-1" role="dialog" aria-labelledby="modalFirstLabel" aria-hidden="true" style="">
+			  <div class="modal-dialog" role="document">
+			    <form method="post" action="/pages/newsletter-prvy.php">
+				<input type="hidden" name="typformulara" value="c" />		
+				<input type="hidden" name="kluc" value="60785" />
+				<input type="hidden" name="vybranynewsletter" id="vybranynewsletter" value="x" /> 
+				<input type="hidden" name="kampan" id="kampan" value="Kampan_v_recepte" /> 
+				
+			    
+			    <div class="modal-content">
+				  <div class="modal-header">
+			        <h5 class="modal-title" id="modalFirstLabel">Prihlásenie k odberu newsletterov</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div> 
+			      
+			      <div class="modal-form pt-2 pr-3 pb-4 pl-3">
+				    <h3 class="h4">E-mail:</h3>
+			      	<input type="text" name="email" value="" placeholder="Zadajte svoj e-mail" class="input100" style="width:100%; font-size:16px; padding:4px;" />	
+			      </div>
+			      
+			      <div class="modal-footer text-center">
+			        <button type="submit" class="btn btn-main btn-search">Prihlásiť odber newsletteru</button>
+			      </div>
+			      
+			      <div class="modal-agree pt-2 pr-3 pb-4 pl-3">
+					<input type="hidden" name="suhlasi" value="ano" />
+				    <span style="font-size:12px;line-height:15px;">Zadaním emailu súhlasím s tým, že moje osobné údaje (meno a e-mailová adresa) budú spracované podľa <a href="https://varecha.pravda.sk/info/osobne-udaje/" target="_blank" class="color-varechalink">zásad ochrany osobných údajov</a>, ktoré vychádzajú z európskej legislatívy a dávam súhlas s týmto spracovaním a k zasielaniu pravidelných e-mailových tipov z Varecha.sk. 
+				    </span>
+			      </div>
+			    </div>
+			    
+			    </form>
+			  </div>
+			</div>
+			
+
+			<script> 
+				
+				$('#modalFirst').on('show.bs.modal', function (event) {
+				  var button = $(event.relatedTarget);
+				//  var button = $('#myButton').trigger('focus')
+				  var selectednewsletter = button.data('whatnewsletter'); // Extract info from data-* attributes
+				  var modal = $(this);
+				//  modal.find('.modal-text').text('Prihlásenie newsletteru ' + selectednewsletter);
+				  modal.find('.modal-dialog #vybranynewsletter').val(selectednewsletter);
+				});
+
+
+			</script>
+			
+			<style>
+				.modal {
+					display: none;
+					position: fixed;
+					margin-top:100px;					
+					padding: 1px;	
+					z-index: 1000000 !important;	
+			    }
+			    
+			    ::ng-deep ngb-modal-backdrop {
+				  z-index: 1000000 !important;
+				}
+			</style>
+	<!-- Newsletter - koniec -->	
+	
+</main>	
+		    
+   
+</div>
+   
+   
+   
+   
+   
+   
+     
+     
+     
+     
+                 
+    
+         
+<div class="varechasuperpage rb container text-center">
+	<!-- /61782924/varecha_art_bbb -->
+<div id='div-gpt-ad-1528634504686-613'>
+<script>
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528634504686-613'); }); }
+</script>
+</div></div>
+
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+<footer class="varechasuperpage container clearfix">
+		  
+		  
+	<div class="row">
+		<div class="col col-12 d-none d-lg-flex text-center col-lg-4 text-sm-left pt-3 pb-3">
+			<a href="/info/kontakty/" class="btn btn-main color-varechadark">Kontakty <i class="fas fa-phone"></i></a>
+		</div>
+		<div class="col col-12 d-none d-sm-flex col-sm-6 col-lg-4 text-sm-center pt-4 pt-sm-0 justify-content-md-center">
+		    <div class="my-logo d-flex justify-content-start justify-content-md-center">
+				<a href="/" class="varecha-logo-green"><span class="d-none">Varecha.sk</span></a>
+		    </div>
+		</div>
+		
+		<div class="col col-12 text-center col-sm-6 col-lg-4 pt-1 pt-md-3 d-flex justify-content-md-end">
+			<ul class="list-unstyled footer-social-icons p-0">
+				
+				<li class="float-right p-2">
+					<a href="/info/rss/" rel="rss" title="<b>RSS kanály Varechy</b><br />recepty do tvojej čítačky" data-toggle="tooltip" data-html="true"><span class="fas fa-rss"></span></a>
+				</li>
+				<!--
+				<li class="float-right p-2">
+					<a href="//tv.varecha.sk/" target="_blank" rel="me" title="<b>TV Varecha</b><br />naša internetová televízia" data-toggle="tooltip" data-html="true"><span class="fas fa-tv"></span></a>
+				</li>
+				-->
+				<li class="float-right p-2">
+					<a href="//twitter.com/varecha_sk" target="_blank" rel="me" title="<b>Varecha na Twitteri</b>" data-toggle="tooltip" data-html="true"><span class="fab fa-twitter"></span></a>
+				</li>
+				<li class="float-right p-2">
+					<a href="//pinterest.com/varecha/" target="_blank" rel="me" title="<b>Varecha na Pintereste</b>" data-toggle="tooltip" data-html="true"><span class="fab fa-pinterest-p"></span></a>
+				</li>
+				<li class="float-right p-2">
+					<a href="//instagram.com/varechask/" target="_blank" rel="me" title="<b>Varecha na Instagrame</b><br />instastorky, pekné fotky" data-toggle="tooltip" data-html="true"><span class="fab fa-instagram"></span></a>
+				</li>
+				<li class="float-right p-2">
+					<a href="//facebook.com/varechask/" target="_blank" rel="me" title="<b>Varecha na Facebooku</b><br />(160 tisíc fanúšikov)" data-toggle="tooltip" data-html="true"><span class="fab fa-facebook-square"></span></a>
+				</li>
+				<li class="float-right p-2">
+					<a href="//youtube.com/varechaTV/" target="_blank" rel="me" title="<b>Varecha na Youtube</b><br />Kliknite pre odber!" data-toggle="tooltip" data-html="true"><span class="fab fa-youtube"></span></a>
+				</li>
+			</ul>
+			
+		</div>
+
+	</div>	    
+	<div class="row">
+	   <div class="col text-center footer-menu">
+		
+			<a href="/info/o-vareche/" rel="me">O projekte</a>
+		    &bull;
+		    <a href="/info/kontakty/">Kontakty</a>
+		    &bull;
+		    <a href="/casopisy/">Časopis</a>
+		    &bull;
+		    <a href="/info/reklama/" rel="nofollow">Inzercia</a> 
+		    &bull;
+		    <a class="is-hidden-mobile" href="/info/logo-varechy/">Logo</a>
+		    &bull;
+		    <a class="is-hidden-mobile" href="/gdpr/">GDPR</a>
+		    &bull;
+		    <a class="is-hidden-mobile" href="javascript:Didomi.preferences.show();">Nastavenia súkromia</a>
+		    <span class="is-hidden-mobile">&bull;</span>
+		    <a href="/info/podmienky-pouzivania/">Pravidlá<span class="is-hidden-mobile">&nbsp;používania</span></a>	
+		    <span class="is-hidden-mobile">&bull;</span>
+		    <a href="/info/osobne-udaje/" title="Informácia o spracúvaní a ochrane osobných údajov a ochrane súkromia">Osobné údaje <span class="is-hidden-mobile">a&nbsp;súkromie</span></a>
+		</div>
+	</div>
+	
+	<div class="row">
+	   <div class="col text-center copyright">
+	   		<p>
+		      <a href="/">Varecha.sk</a> a <a href="//tv.varecha.sk/">TV Varecha</a> sú internetové stránky plné receptov vydavateľstva <a class="link-black" href="//www.ourmedia.sk/" target="_blank"><span>OUR MEDIA SR a.s.</span></a> &copy; 2009 - 2024.
+		    </p>
+		    <p>
+			    Recepty, fotografie jedál, videá a ďalší obsah na Vareche je chránený autorskými právami. <a href="//www.pravda.sk/info/7038-copyright-a-agentury/" target="_blank" rel="license">Viac info</a>.<br><span class="is-hidden-touch">Varecha využíva súbory <a class="link-black" rel="nofollow" href="/info/cookies/">cookies</a>, všetky recepty bežia na serveroch firmy <a href="http://www.webglobe-yegon.sk/" target="_blank">Webglobe - Yegon</a>.</span> 
+		        <br />Made in Slovakia &nbsp; <span class="fas fa-heart"> </span> &nbsp; Vyrobené na Slovensku</div>	
+		    </p>
+	   </div>
+	</div>
+	
+			  
+
+
+
+ 		<!-- (C)2000-2014 Gemius SA - gemiusAudience / pravda.sk / varecha.pravda.sk.script -->   
+		<script type="text/javascript">
+		<!--//--><![CDATA[//><!--		
+		var pp_gemius_identifier = 'zPo1X6cYFaBtxzcDWeBnp6eELbpsJKcClAJ7PtbenhP.k7';	
+		var pp_gemius_use_cmp = true;
+		var pp_gemius_cmp_timeout = 30e3;
+
+		// lines below shouldn't be edited
+		function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+		gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+		(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+		gt.setAttribute('defer','defer'); gt.src=l+'://gask.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+		//--><!]]>
+		</script>		  
+	
+	
+		
+
+		<!-- NOVY KOD -->
+		<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-M124XMBG3V"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-M124XMBG3V'); </script>
+
+
+
+		<!-- STARY KOD -->
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-26GE433HZT"></script>
+		        <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-157766-28', 'auto'); /* varecha.pravda.sk */
+		  ga('create', 'UA-157766-20', 'auto', 'celaPravda'); /* .pravda.sk */
+		  ga('set', 'dimension1', 'new');
+			ga('set', 'dimension2', "charllote");
+			ga('set', 'dimension3', "60785");
+					  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-26GE433HZT', {"dimension4":"varecha.pravda.sk","dimension1":"recept","dimension2":"60785","dimension3":"charllote"});
+		  ga('send', 'pageview');
+		  ga('send', {
+			hitType: 'event',
+			eventCategory: 'template',
+			eventAction: 'view',
+			eventLabel: 'new'
+		  });
+		  ga('celaPravda.set', {"dimension4":"varecha.pravda.sk","dimension1":"recept","dimension2":"60785","dimension3":"charllote"});
+		  ga('celaPravda.send', 'pageview');
+		</script>
+		
+		
+		
+		
+					
+		
+
+		
+<a href="//www.toplist.sk/" target="_top"><img src="https://toplist.sk/dot.asp?id=1226877" border="0" alt="TOPlist" width="1" height="1" /></a>
+		
+			       
+</footer>
+	                        
+		    <div class="center" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+				<!-- /61782924/varecha_art_bs -- >
+<div id="BottomStripContainer" style="display: none; width: 100%; position: fixed; z-index: 9998; text-align: center; background-color: rgba(0,0,0,0.5); border-top: 1px solid #000">
+<div style="cursor: pointer; position: absolute; z-index: 9999; color: white; background-color: #000; width: 80px; height: 24px; top: -24px; right: 0;" onclick="$(this).parent().remove();">ZATVORIŤ</div>
+<div id='div-gpt-ad-1528634504686-614' class="BottomStripBanner">
+<script>
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) {googletag.cmd.push(function() { googletag.display('div-gpt-ad-1528634504686-614'); }); }
+</script>
+</div></div>-->
+
+<!--// inArticle, inImage varecha.pravda.sk //-->
+<ins data-revive-zoneid="3419" data-revive-id="3da3953905c854bc794c8734cae204c7"></ins>
+<script type="didomi/javascript" data-vendor="c:sitelement">
+  if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) {
+    (function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = 'https://ad.sitelement.sk/www/delivery/asyncjs.php'; s.parentNode.insertBefore(g, s);}(document, 'script'));
+  }
+</script>
+
+<script>
+if (typeof PEREX !== "object" || PEREX.isAdvertisementEnabled()) {
+  //R2B2
+  document.write('<scr'+'ipt type="didomi/javascript" data-vendor="iab:1235" src="//trackad.cz/get/pravda.sk/generic/fixed/mobile"></scr'+'ipt>');
+  
+  //Connect Container: pravda.sk
+  document.write('<scr'+'ipt type="didomi/javascript" data-vendor="iab:241" src="//get.s-onetag.com/9f792ab4-c7ba-433b-b900-423a313fb85c/tag.min.js" async defer></scr'+'ipt>');
+}
+</script>		    </div>
+	
+		    
+	             
+
+
+</div> <!--.varecha-page-->
+
+</div> <!-- #wrap-->
+
+
+
+
+
+
+
+
+
+	
+		
+ 		<script defer src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+		
+		
+
+
+
+
+	    	    <!-- Facebook Root-->
+	    <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
+
+</body>
+</html>

@@ -1,5 +1,6 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
+from ._grouping_utils import IngredientGroup
 from ._utils import normalize_string
 
 
@@ -8,27 +9,14 @@ class SimplyCookit(AbstractScraper):
     def host(cls):
         return "simply-cookit.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
+    def site_name(self):
+        raise StaticValueException(return_value="Simply Cookit")
 
     def ingredients(self):
         ingredients = []
         for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
+            if li.find("h3"):
+                continue
             ingredients.append(normalize_string(li.get_text()))
 
         return ingredients
@@ -41,8 +29,29 @@ class SimplyCookit(AbstractScraper):
 
         return "\n".join(instructions)
 
-    def cuisine(self):
-        return self.schema.cuisine()
+    def ingredient_groups(self):
+        ingredient_groups = []
+        current_group = None
 
-    def description(self):
-        return self.schema.description()
+        for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
+            group_heading = li.find("h3")
+            if group_heading:
+                if current_group:
+                    ingredient_groups.append(current_group)
+                current_group = IngredientGroup(
+                    ingredients=[], purpose=normalize_string(group_heading.get_text())
+                )
+            else:
+                text = normalize_string(li.get_text())
+                if text:
+                    if current_group:
+                        current_group.ingredients.append(text)
+                    else:
+                        if not ingredient_groups:
+                            ingredient_groups.append(IngredientGroup(ingredients=[]))
+                        ingredient_groups[0].ingredients.append(text)
+
+        if current_group:
+            ingredient_groups.append(current_group)
+
+        return ingredient_groups or [IngredientGroup(ingredients=self.ingredients())]

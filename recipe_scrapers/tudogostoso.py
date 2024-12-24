@@ -1,5 +1,5 @@
-# mypy: allow-untyped-defs
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class TudoGostoso(AbstractScraper):
@@ -7,14 +7,10 @@ class TudoGostoso(AbstractScraper):
     def host(cls):
         return "tudogostoso.com.br"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".recipe-ingredients-subtitle",
+            ".recipe-ingredients-item",
+        )

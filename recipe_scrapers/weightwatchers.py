@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import re
 
 from ._abstract import AbstractScraper
@@ -9,16 +7,13 @@ from ._utils import get_minutes, get_yields, normalize_string
 class WeightWatchers(AbstractScraper):
     @classmethod
     def host(cls):
-        return "www.weightwatchers.com"
+        return "weightwatchers.com"
 
     def author(self):
         return "WeightWatchers"
 
     def title(self):
         return self.soup.find("h1").get_text().strip()
-
-    def category(self):
-        return "WeightWatchers"
 
     # cooking times, yield, difficulty are in a common div in public and non-public recipes
     # but class of that block and sub elements are different

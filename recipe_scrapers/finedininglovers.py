@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 
 
@@ -8,23 +6,7 @@ class FineDiningLovers(AbstractScraper):
     def host(cls):
         return "finedininglovers.com"
 
-    def title(self):
-        return self.schema.title()
-
-    def author(self):
-        return self.schema.author()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def ingredients(self):
-        return self.schema.ingredients()
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def image(self):
-        return self.schema.image()
+    def site_name(self):
+        home_link = self.soup.find("a", {"rel": "home", "href": "/", "title": True})
+        if home_link:
+            return home_link["title"]

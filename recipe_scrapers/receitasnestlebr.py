@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import re
 
 from ._abstract import AbstractScraper
@@ -9,15 +7,6 @@ class ReceitasNestleBR(AbstractScraper):
     @classmethod
     def host(cls):
         return "receitasnestle.com.br"
-
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
 
     def total_time(self):
         total_time = self.schema.total_time()
@@ -29,15 +18,6 @@ class ReceitasNestleBR(AbstractScraper):
                 if total_time_str:
                     total_time = int(total_time_str.group())
         return total_time
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         steps_div = self.soup.find("div", {"class": "recipeDetail__steps"})
@@ -63,6 +43,3 @@ class ReceitasNestleBR(AbstractScraper):
                         rating_str = cls.split("--")[-1]
                         if rating_str.isdigit():
                             return int(rating_str)
-
-    def description(self):
-        return self.schema.description()

@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class Ricetta(AbstractScraper):
@@ -8,26 +7,8 @@ class Ricetta(AbstractScraper):
     def host(cls):
         return "ricetta.it"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
+    def site_name(self):
+        raise StaticValueException(return_value="Ricetta.it")
 
     def instructions(self):
         instructions_list = []
@@ -45,12 +26,3 @@ class Ricetta(AbstractScraper):
             instructions_list.append(current_instruction.lstrip(" "))
 
         return "\n".join(instructions_list)
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()

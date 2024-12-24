@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
@@ -12,18 +10,6 @@ class BareFootContessa(AbstractScraper):
 
     def author(self):
         return "Ina Garten"
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredient_list = []

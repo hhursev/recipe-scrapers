@@ -1,502 +1,259 @@
+
 <!doctype html>
-<!--[if lt IE 9]><html class="no-js no-svg ie lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-<!--[if IE 9]><html class="no-js no-svg ie ie9 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js no-svg" lang="en-US"> <!--<![endif]-->
+<html lang="en-GB">
+
 <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Tofoo Organic Tofu is made by hand to a traditional Japanese recipe using only natural ingredients.">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="author" href="https://tofoo.co.uk/wp-content/themes/tofoo/humans.txt" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link rel="pingback" href="https://tofoo.co.uk/xmlrpc.php">
 
-    <meta name="theme-color" content="#00a19d">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Tofoo">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Tofoo">
-    <!-- FAVICONS -->
-    <link rel="shortcut icon" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="https://tofoo.co.uk/wp-content/themes/tofoo/images/favicons/apple-touch-icon-180x180.png" />
-
-
-	<!-- This site is optimized with the Yoast SEO plugin v14.2 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Sticky Sriracha Tofoo - Tofoo</title>
-	<meta name="robots" content="index, follow" />
-	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	const gtm4wp_use_sku_instead = false;
+	const gtm4wp_currency = 'GBP';
+	const gtm4wp_product_per_impression = 10;
+	const gtm4wp_clear_ecommerce = false;
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v23.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Sticky Sriracha Tofoo | Tofoo</title>
 	<link rel="canonical" href="https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/" />
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale" content="en_GB" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Sticky Sriracha Tofoo - Tofoo" />
+	<meta property="og:title" content="Sticky Sriracha Tofoo | Tofoo" />
 	<meta property="og:url" content="https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/" />
 	<meta property="og:site_name" content="Tofoo" />
 	<meta property="article:publisher" content="https://www.facebook.com/TofooCo/" />
-	<meta property="og:image" content="https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled.jpg" />
+	<meta property="article:modified_time" content="2024-05-29T08:00:44+00:00" />
+	<meta property="og:image" content="https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg" />
 	<meta property="og:image:width" content="1920" />
 	<meta property="og:image:height" content="1280" />
+	<meta property="og:image:type" content="image/jpeg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://tofoo.co.uk/#website","url":"https://tofoo.co.uk/","name":"The Tofoo","description":"Tofoo Organic Tofu is made by hand to a traditional Japanese recipe using only natural ingredients.","potentialAction":[{"@type":"SearchAction","target":"https://tofoo.co.uk/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#primaryimage","inLanguage":"en-US","url":"https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled.jpg","width":1920,"height":1280},{"@type":"WebPage","@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#webpage","url":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/","name":"Sticky Sriracha Tofoo - Tofoo","isPartOf":{"@id":"https://tofoo.co.uk/#website"},"primaryImageOfPage":{"@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#primaryimage"},"datePublished":"2023-07-11T13:21:01+00:00","dateModified":"2023-07-11T13:21:01+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/"]}]}]}</script>
+	<meta name="twitter:site" content="@tofooco" />
+	<meta name="twitter:label1" content="Estimated reading time" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/","url":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/","name":"Sticky Sriracha Tofoo | Tofoo","isPartOf":{"@id":"https://tofoo.co.uk/#website"},"primaryImageOfPage":{"@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#primaryimage"},"image":{"@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#primaryimage"},"thumbnailUrl":"https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg","datePublished":"2023-07-11T13:21:01+00:00","dateModified":"2024-05-29T08:00:44+00:00","breadcrumb":{"@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/"]}]},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#primaryimage","url":"https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg","contentUrl":"https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg","width":1920,"height":1280},{"@type":"BreadcrumbList","@id":"https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://tofoo.co.uk/"},{"@type":"ListItem","position":2,"name":"Recipes","item":"https://tofoo.co.uk/recipes/"},{"@type":"ListItem","position":3,"name":"Sticky Sriracha Tofoo"}]},{"@type":"WebSite","@id":"https://tofoo.co.uk/#website","url":"https://tofoo.co.uk/","name":"Tofoo","description":"Tofoo Organic Tofu is made by hand to a traditional Japanese recipe using only natural ingredients.","publisher":{"@id":"https://tofoo.co.uk/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://tofoo.co.uk/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https://tofoo.co.uk/#organization","name":"Tofoo","url":"https://tofoo.co.uk/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://tofoo.co.uk/#/schema/logo/image/","url":"https://tofoo.co.uk/wp-content/uploads/2024/05/logo-1.png","contentUrl":"https://tofoo.co.uk/wp-content/uploads/2024/05/logo-1.png","width":696,"height":696,"caption":"Tofoo"},"image":{"@id":"https://tofoo.co.uk/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/TofooCo/","https://x.com/tofooco","https://www.instagram.com/tofoo/"]}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
-<script type='application/javascript'>console.log('PixelYourSite Free version 9.2.0');</script>
-<link rel='stylesheet' id='wp-block-library-css'  href='https://tofoo.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=5.4.13' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='https://tofoo.co.uk/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=5.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-blocks-style-css'  href='https://tofoo.co.uk/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=5.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.7.1' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.7.1' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.7.1' type='text/css' media='all' />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tofoo.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='wc-stripe-blocks-checkout-style-css' href='https://tofoo.co.uk/wp-content/plugins/woocommerce-gateway-stripe/build/upe_blocks.css?ver=391b2d5acc3d3d8a40080f40b4dc3a17' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://tofoo.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.2.3' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.2.3' type='text/css' media='all' />
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
-<link rel='stylesheet' id='custom-style-css'  href='https://tofoo.co.uk/wp-content/themes/tofoo/css/main.min.css?ver=5.4.13' type='text/css' media='all' />
-<link rel='stylesheet' id='custom-dflip-style-css'  href='https://tofoo.co.uk/wp-content/themes/tofoo/dflip/css/dflip.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='custom-dflip-style-icons-css'  href='https://tofoo.co.uk/wp-content/themes/tofoo/dflip/css/themify-icons.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='cf7cf-style-css'  href='https://tofoo.co.uk/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.3.9' type='text/css' media='all' />
-<script type='text/javascript'>
-function shouldTrack(){
-var trackLoggedIn = true;
-var loggedIn = false;
-if(!loggedIn){
-return true;
-} else if( trackLoggedIn ) {
-return true;
-}
-return false;
-}
-function hasWKGoogleAnalyticsCookie() {
-return (new RegExp('wp_wk_ga_untrack_' + document.location.hostname)).test(document.cookie);
-}
-if (!hasWKGoogleAnalyticsCookie() && shouldTrack()) {
-//Google Tag Manager
-(function (w, d, s, l, i) {
-w[l] = w[l] || [];
-w[l].push({
-'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-});
-var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-j.async = true;
-j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-NWRZKWS');
-}
-</script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.5.7.1'></script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=5.4.13'></script>
-<script type='text/javascript'>
+<link rel='stylesheet' id='theme-styles-css' href='https://tofoo.co.uk/wp-content/themes/tofoo/assets/css/theme.min.css?ver=1719579198' type='text/css' media='all' />
+<script type="text/javascript" src="https://tofoo.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.2.3" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
 /* <![CDATA[ */
-var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","name":"PageView","pixelIds":["2719215051723481"],"eventID":"e7114d88-fc0c-41a8-b7c5-0b7c4b1f4430","params":{"post_type":"recipe_item","plugin":"PixelYourSite","user_role":"guest","event_url":"tofoo.co.uk\/recipes\/sticky-sriracha-tofoo\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":{"automatic_event_form":{"facebook":{"delay":0,"type":"dyn","name":"Form","pixelIds":["2719215051723481"],"eventID":"84183124-efc5-47b3-b100-701a5ef713b0","params":{"post_type":"recipe_item","plugin":"PixelYourSite","user_role":"guest","event_url":"tofoo.co.uk\/recipes\/sticky-sriracha-tofoo\/"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_download":{"facebook":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"pixelIds":["2719215051723481"],"eventID":"8daba1c5-e4af-4fda-bbad-01d65f88ab6e","params":{"post_type":"recipe_item","plugin":"PixelYourSite","user_role":"guest","event_url":"tofoo.co.uk\/recipes\/sticky-sriracha-tofoo\/"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_comment":{"facebook":{"delay":0,"type":"dyn","name":"Comment","pixelIds":["2719215051723481"],"eventID":"d57f21e8-8cee-48fd-b39d-81974b852914","params":{"post_type":"recipe_item","plugin":"PixelYourSite","user_role":"guest","event_url":"tofoo.co.uk\/recipes\/sticky-sriracha-tofoo\/"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"woo_add_to_cart_on_button_click":{"facebook":{"delay":0,"type":"dyn","name":"AddToCart","pixelIds":["2719215051723481"],"eventID":"acc0d304-ce43-420e-b047-bf2cd2727e14","params":{"post_type":"recipe_item","plugin":"PixelYourSite","user_role":"guest","event_url":"tofoo.co.uk\/recipes\/sticky-sriracha-tofoo\/"},"e_id":"woo_add_to_cart_on_button_click","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["2719215051723481"],"advancedMatching":[],"removeMetadata":false,"contentParams":[],"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"ajaxForServerEvent":true,"serverApiEnabled":false,"wooCRSendFromServer":false},"debug":"","siteUrl":"https:\/\/tofoo.co.uk","ajaxUrl":"https:\/\/tofoo.co.uk\/wp-admin\/admin-ajax.php","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false},"woo":{"enabled":true,"addToCartOnButtonEnabled":true,"addToCartOnButtonValueEnabled":true,"addToCartOnButtonValueOption":"price","singleProductId":null,"removeFromCartSelector":"form.woocommerce-cart-form .remove","addToCartCatchMethod":"add_cart_js"},"edd":{"enabled":false}};
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View basket","cart_url":"https:\/\/tofoo.co.uk\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=9.2.0'></script>
-<link rel='https://api.w.org/' href='https://tofoo.co.uk/wp-json/' />
-<link rel="alternate" type="application/json+oembed" href="https://tofoo.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://tofoo.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F&#038;format=xml" />
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.2.3" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.2.3" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.2.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="theme-scripts-js-extra">
+/* <![CDATA[ */
+var loadmore_params = {"ajaxurl":"https:\/\/tofoo.co.uk\/wp-json\/tofoo\/posts","posts":"{\"page\":0,\"recipe_item\":\"sticky-sriracha-tofoo\",\"post_type\":\"recipe_item\",\"name\":\"sticky-sriracha-tofoo\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":12,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","category":"","current_page":"1","max_page":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/themes/tofoo/assets/js/theme.min.js?ver=1718784738" id="theme-scripts-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://tofoo.co.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://tofoo.co.uk/wp-json/wp/v2/recipe_item/3594" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tofoo.co.uk/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://tofoo.co.uk/?p=3594' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://tofoo.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://tofoo.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F&#038;format=xml" />
 
-		<!-- GA Google Analytics @ https://m0n.co/ga -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-G5VJ11536J"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-G5VJ11536J');
-		</script>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pagePostType":"recipe_item","pagePostType2":"single-recipe_item","pagePostAuthor":"Kirsty Jones"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWRZKWS');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style id='wp-fonts-local' type='text/css'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://tofoo.co.uk/wp-content/uploads/2024/05/cropped-logo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://tofoo.co.uk/wp-content/uploads/2024/05/cropped-logo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://tofoo.co.uk/wp-content/uploads/2024/05/cropped-logo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://tofoo.co.uk/wp-content/uploads/2024/05/cropped-logo-1-270x270.png" />
 
-			<script>
-			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
-		</script>
-			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0102/0268.js" async="async"></script>
+    <!-- Google Tag Manager -->
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- End Google Tag Manager -->
+</head>
 
-    ga('create', 'UA-86516313-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+<body class="recipe_item-template-default single single-recipe_item postid-3594 theme-tofoo woocommerce-no-js">
+    <!-- Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NWRZKWS');</script>
-  <!-- End Google Tag Manager -->
-			</head>
-	<body class="recipe_item-template-default single single-recipe_item postid-3594 theme-tofoo woocommerce-no-js ">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe  height="0" width="0" style="display:none;visibility:hidden" data-src="https://www.googletagmanager.com/ns.html?id=GTM-NWRZKWS" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+    <header id="header" class="header">
+        <div class="inner">
+            <button id="nav_toggle" class="nav__toggle"><span></span></button>
 
-                  <header>
-	<div class="nav">
-		<div class="container">
-			<div class="nav__menu">
-				<ul>
-											<li class="nav__menu-main menu-item menu-item-type-post_type menu-item-object-page menu-item-44 menu-item-has-children">
-							<a href="https://tofoo.co.uk/about-tofoo/">
-								<span>About Tofoo</span>
-							</a>
-															<ul class="nav__sub-menu">
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/about-tofoo/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">What makes Tofoo special</a>
-																					</li>
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/how-to-do-tofoo/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">How to do Tofoo</a>
-																					</li>
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/sustainability/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">Sustainability</a>
-																					</li>
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/blog/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">Blog</a>
-																					</li>
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/our-story/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962">Our Story</a>
-																					</li>
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/careers/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1775">Careers</a>
-																					</li>
-																	</ul>
-													</li>
-											<li class="nav__menu-main menu-item menu-item-type-post_type menu-item-object-page menu-item-48 menu-item-has-children">
-							<a href="https://tofoo.co.uk/products/">
-								<span>Products</span>
-							</a>
-															<ul class="nav__sub-menu">
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/products/?cate=block" class="">Blocks</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/products/?cate=scrambled" class="">Scrambled</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/products/?cate=silken" class="">Silken</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/products/?cate=tempeh" class="">Tempeh</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/products/?cate=all" class="">All Products</a>
-																																	</li>
-																	</ul>
-													</li>
-											<li class="nav__menu-main menu-item menu-item-type-post_type menu-item-object-page menu-item-53 menu-item-has-children">
-							<a href="https://tofoo.co.uk/recipes/">
-								<span>Recipes</span>
-							</a>
-															<ul class="nav__sub-menu">
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=naked" class="">Naked</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=smoked" class="">Smoked</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=teriyaki" class="">Teriyaki</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=sriracha" class="">Sriracha</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=silken" class="">Silken</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=tempeh" class="">Tempeh</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=crispy" class="">Crispy</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=scrambled" class="">Scrambled</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=straight-to-wok" class="">Straight to Wok</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=cold-eats" class="">Cold eats</a>
-																																	</li>
-																			<li class="nav__menu-sub">
-																																				<a href="https://tofoo.co.uk/recipes/?cate=all" class="">All Recipes</a>
-																																	</li>
-																	</ul>
-													</li>
-									</ul>
-			</div>
-			<div class="nav__logo">
-				<a href="https://tofoo.co.uk">
-					<img  alt="" data-src="/wp-content/themes/tofoo/images/logos/logo.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="/wp-content/themes/tofoo/images/logos/logo.svg" alt=""/></noscript>
-				</a>
-			</div>
-			<div class="nav__menu right">
-				<ul>
-											<li class="nav__menu-main menu-item menu-item-type-post_type menu-item-object-page menu-item-3255 menu-item-has-children">
-							<a href="https://tofoo.co.uk/stockists/">
-								<span>Stockists</span>
-							</a>
-															<ul class="nav__sub-menu">
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/shops/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3256">Shops</a>
-																					</li>
-																			<li class="nav__menu-sub">
-																							<a href="https://tofoo.co.uk/food-service/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3264">Food Service</a>
-																					</li>
-																	</ul>
-													</li>
-											<li class="nav__menu-main menu-item menu-item-type-post_type menu-item-object-page menu-item-2258">
-							<a href="https://tofoo.co.uk/shop/">
-								<span>Shop</span>
-							</a>
-													</li>
-											<li class="nav__menu-main menu-item menu-item-type-post_type menu-item-object-page menu-item-62">
-							<a href="https://tofoo.co.uk/faqs/">
-								<span>FAQs</span>
-							</a>
-													</li>
-					            <li>
-                <a href="/cart" class="box-cart">
-                <i class="icon-cart"></i>
-                <div class="noti">
-                  <span class="cart_c"><div style="display: none;" id="cart-count-element-container"class=“noti”><span class=“cart_c”><span id='cart-count-element'></span></span></div></span>
-                </div>
+            <div class="header__desktop">
+                <ul class="header__menu header__menu--left">
+                    <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21"><a href="https://tofoo.co.uk/about-tofu/">What is tofu?</a>
+<ul class="sub-menu">
+	<li id="menu-item-4198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4198"><a href="https://tofoo.co.uk/about-tofu/">What is tofu?</a></li>
+	<li id="menu-item-4199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4199"><a href="https://tofoo.co.uk/how-to-cook-tofu/">How to cook tofu</a></li>
+	<li id="menu-item-4200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4200"><a href="https://tofoo.co.uk/sustainability/">Sustainability</a></li>
+	<li id="menu-item-4416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4416"><a href="https://tofoo.co.uk/stockists/">Stockists</a></li>
+</ul>
+</li>
+<li id="menu-item-4203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4203"><a href="https://tofoo.co.uk/products/">Products</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://tofoo.co.uk/recipes/">Recipes</a></li>
+                </ul>
+
+                <a class="header__logo" href="https://tofoo.co.uk" aria-label="View Tofoo home page">
+                    <img src="https://tofoo.co.uk/wp-content/themes/tofoo/assets/images/tofoo-logo.svg" width="173" height="144" alt="Tofoo logo">
                 </a>
-            </li>
 
+                <ul class="header__menu">
+                    <li id="menu-item-4178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4178"><a href="https://tofoo.co.uk/faqs/">FAQs</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://tofoo.co.uk/shop/">Shop</a></li>
+<li id="menu-item-4393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4393"><a href="https://tofoo.co.uk/food-service/">Food Service</a>
+<ul class="sub-menu">
+	<li id="menu-item-4550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4550"><a href="https://tofoo.co.uk/food-service/">Food Service</a></li>
+	<li id="menu-item-4552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4552"><a href="https://tofoo.co.uk/the-team/">Meet the team</a></li>
+	<li id="menu-item-4549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4549"><a href="https://tofoo.co.uk/inspiration-and-trends/">Inspiration and trends</a></li>
+</ul>
+</li>
+                </ul>
 
+                <div class="header__desktop__close"><span></span></div>
+            </div>
 
-				</ul>
-			</div>
-			<div class="nav__ham">
-				<div class="nav__ham-inner"></div>
-			</div>
-		</div>
-	</div>
-	<div class="menu-mobile">
-		<div class="container">
-			<div class="menu-mobile__logo">
-				<a href="https://tofoo.co.uk">
-					<img  alt="" data-src="/wp-content/themes/tofoo/images/logos/logo-white.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img src="/wp-content/themes/tofoo/images/logos/logo-white.svg" alt=""/></noscript>
-				</a>
-			</div>
-		</div>
-		<div class="menu-mobile__wrap">
-			<ul>
-									<li>
-						<a href="https://tofoo.co.uk/about-tofoo/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44 menu-item-has-children">
-							About Tofoo
-															<div class="menu-mobile__open">
-									<i class="icon-arrow-down"></i>
-								</div>
-													</a>
-													<div class="menu-mobile__sub">
-								<ul>
-																			<li>
-																							<a href="https://tofoo.co.uk/about-tofoo/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45">What makes Tofoo special</a>
-																					</li>
-																			<li>
-																							<a href="https://tofoo.co.uk/how-to-do-tofoo/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131">How to do Tofoo</a>
-																					</li>
-																			<li>
-																							<a href="https://tofoo.co.uk/sustainability/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">Sustainability</a>
-																					</li>
-																			<li>
-																							<a href="https://tofoo.co.uk/blog/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">Blog</a>
-																					</li>
-																			<li>
-																							<a href="https://tofoo.co.uk/our-story/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962">Our Story</a>
-																					</li>
-																			<li>
-																							<a href="https://tofoo.co.uk/careers/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1775">Careers</a>
-																					</li>
-																	</ul>
-							</div>
-											</li>
-									<li>
-						<a href="https://tofoo.co.uk/products/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48 menu-item-has-children">
-							Products
-															<div class="menu-mobile__open">
-									<i class="icon-arrow-down"></i>
-								</div>
-													</a>
-													<div class="menu-mobile__sub">
-								<ul>
-																			<li>
-																																				<a href="https://tofoo.co.uk/products/?cate=block" class="">Blocks</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/products/?cate=scrambled" class="">Scrambled</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/products/?cate=silken" class="">Silken</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/products/?cate=tempeh" class="">Tempeh</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/products/?cate=all" class="">All Products</a>
-																																	</li>
-																	</ul>
-							</div>
-											</li>
-									<li>
-						<a href="https://tofoo.co.uk/recipes/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53 menu-item-has-children">
-							Recipes
-															<div class="menu-mobile__open">
-									<i class="icon-arrow-down"></i>
-								</div>
-													</a>
-													<div class="menu-mobile__sub">
-								<ul>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=naked" class="">Naked</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=smoked" class="">Smoked</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=teriyaki" class="">Teriyaki</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=sriracha" class="">Sriracha</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=silken" class="">Silken</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=tempeh" class="">Tempeh</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=crispy" class="">Crispy</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=scrambled" class="">Scrambled</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=straight-to-wok" class="">Straight to Wok</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=cold-eats" class="">Cold eats</a>
-																																	</li>
-																			<li>
-																																				<a href="https://tofoo.co.uk/recipes/?cate=all" class="">All Recipes</a>
-																																	</li>
-																	</ul>
-							</div>
-											</li>
-									<li>
-						<a href="https://tofoo.co.uk/stockists/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3255 menu-item-has-children">
-							Stockists
-															<div class="menu-mobile__open">
-									<i class="icon-arrow-down"></i>
-								</div>
-													</a>
-													<div class="menu-mobile__sub">
-								<ul>
-																			<li>
-																							<a href="https://tofoo.co.uk/shops/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3256">Shops</a>
-																					</li>
-																			<li>
-																							<a href="https://tofoo.co.uk/food-service/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3264">Food Service</a>
-																					</li>
-																	</ul>
-							</div>
-											</li>
-									<li>
-						<a href="https://tofoo.co.uk/shop/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2258">
-							Shop
-													</a>
-											</li>
-									<li>
-						<a href="https://tofoo.co.uk/faqs/" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62">
-							FAQs
-													</a>
-											</li>
-							</ul>
-		</div>
-							<div class="menu-mobile__social">
-				<ul>
-											<li>
-							<a href="https://www.facebook.com/TofooCo/" target="_blank">
-								<i class="icon-facebook-white"></i>
-							</a>
-						</li>
-																<li>
-							<a href="https://www.instagram.com/tofoo/" target="_blank">
-								<i class="icon-instagram-white"></i>
-							</a>
-						</li>
-														</ul>
-			</div>
-			</div>
-</header>
+                            
+                                                        <a href="https://tofoo.co.uk/cart/" class="header__basket" aria-label="View cart">
+                        <span class="header__basket__total header__basket__total--0">0</span>
 
-          <section class="banner">
-  <div class="banner__img">
-  <img  srcset="
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-415x812-c-center.jpg 414w,
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-768x1024-c-center.jpg 768w,
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1024x768-c-center.jpg 1024w,
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1920x969-c-center.jpg 1920w"
-          sizes="(max-width: 415px) 415px,
-                (max-width: 768px) 768px,
-                (max-width: 1024px) 1024px,
-                1920px" alt=""  data-src="https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1920x969-c-center.jpg" data-sizes="(max-width: 415px) 415px,
-                (max-width: 768px) 768px,
-                (max-width: 1024px) 1024px,
-                1920px" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1920x969-c-center.jpg" srcset="
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-415x812-c-center.jpg 414w,
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-768x1024-c-center.jpg 768w,
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1024x768-c-center.jpg 1024w,
-          https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1920x969-c-center.jpg 1920w"
-          sizes="(max-width: 415px) 415px,
-                (max-width: 768px) 768px,
-                (max-width: 1024px) 1024px,
-                1920px" alt="" class=""></noscript>
-    <div class="content banner__content">
-      <div class="container">
-        <div class="banner__nav">
-          <a href="https://tofoo.co.uk/recipes/cali-sunshine-burrito/"><i class="icon-arrow-prev"></i></a>
-          <a href="https://tofoo.co.uk/recipes/tofoo-yaki-udon/"><i class="icon-arrow-next"></i></a>
+                        <div class="header__basket__lottie" data-lottie-path="https://tofoo.co.uk/wp-content/themes/tofoo/assets/lottie/basket.json"></div>
+                    </a>
+                                    </div>
+
+        <div class="nav">
+            <ul class="nav__menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21"><a href="https://tofoo.co.uk/about-tofu/">What is tofu?</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4198"><a href="https://tofoo.co.uk/about-tofu/">What is tofu?</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4199"><a href="https://tofoo.co.uk/how-to-cook-tofu/">How to cook tofu</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4200"><a href="https://tofoo.co.uk/sustainability/">Sustainability</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4416"><a href="https://tofoo.co.uk/stockists/">Stockists</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4203"><a href="https://tofoo.co.uk/products/">Products</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://tofoo.co.uk/recipes/">Recipes</a></li>
+
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4178"><a href="https://tofoo.co.uk/faqs/">FAQs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://tofoo.co.uk/shop/">Shop</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4393"><a href="https://tofoo.co.uk/food-service/">Food Service</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4550"><a href="https://tofoo.co.uk/food-service/">Food Service</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4552"><a href="https://tofoo.co.uk/the-team/">Meet the team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4549"><a href="https://tofoo.co.uk/inspiration-and-trends/">Inspiration and trends</a></li>
+</ul>
+</li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </div>
-</section>  <div class="container">
-    <section class="recipe-detail block-t-center">
-      <h1 class="recipe-detail__title h3 blue">Sticky Sriracha Tofoo</h1>
-                  <div class="recipe-detail__desc">Serves 2 • Prep 5 min • Cooking 15 min</div>
-                    <div class="recipe-detail__ins h6"> Vegans</div>
+    </header>
 
+    <main id="main" class="main">        <div class="hero hero--recipe">
+            <div class="inner">
+                <div class="hero__content">
+                                                                <ul class="hero__cats">
+                                                            <li>Naked</li>
+                                                                                        <li>Beginners</li>
+                                                            <li>Dinner</li>
+                                                            <li>Fakeaway</li>
+                                                            <li>Speedy</li>
+                                                            <li>Stir-fry</li>
+                                                    </ul>
+                    
+                    <h1>Sticky Sriracha Tofoo</h1>
 
+                                                                <ul class="hero__stats">
+                                                            <li><strong>Serves:</strong> 2 people</li>
+                            
+                                                            <li><strong>Prep:</strong> 5 mins</li>
+                            
+                                                            <li><strong>Cooking:</strong> 15 mins</li>
+                                                    </ul>
+                    
+                    <a class="btn btn--down" href="#recipe"><span>Get started</span></a>
+                </div>
+            </div>
+        </div>
 
-    </section>
-  </div>
-  <div class="container full-size">
-              <section class="sect--get-this block-border-t block-t-center">
-        <div class="sect--get-this__body">
-
-          <div class="block-raw-material">
-            <div class="block-raw-material__body">
-              <div class="group-fruit left"><img  alt="" data-src="/wp-content/themes/tofoo/images/group-fruit4.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="/wp-content/themes/tofoo/images/group-fruit4.svg" alt=""></noscript></div>
-              <h5>For the Tofoo</h5>
+                                                        
+            <div class="featured_post">
+                <div class="featured_post__image">
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg" width="1920" height="1280">
+                </div>
+            </div>
+        
+        <div id="recipe">
+            <!-- TODO: Get new version of this... -->
+            <div class="recipe_details recipe_details--v1">
+                <div class="inner">
+                    <div class="recipe_details__ingredients">
+                                                    <h2><span>Ingredients</span></h2>
+                            <div class="recipe_details__ingredient">
+                                <h5>For the Tofoo</h5>
 <ul>
 <li>1 pack of Naked Tofoo, cut into cubes</li>
 <li>2 tbsp cornflour</li>
@@ -516,199 +273,334 @@ var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"s
 <li>Sesame seeds</li>
 <li>Sliced spring onion</li>
 </ul>
+                            </div>
+                                            </div>
+                    <div class="recipe_details__steps">
+                                                    <h2><span>Get started</span></h2>
 
-              <div class="group-fruit right"><img  alt="" data-src="/wp-content/themes/tofoo/images/group-fruit5.svg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="/wp-content/themes/tofoo/images/group-fruit5.svg" alt=""></noscript></div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      </div>
-  <div class="container full-size">
-              <section class="sect--do-this block block--green-light">
-        <div class="sect--do-this__title">Do this stuff</div>
-        <ol>
+                            <div class="recipe_details__steps__ol">
+                                <ol>
 <li>In a bowl, mix the cornflour with a pinch of pepper and toss your Tofoo cubes through until evenly covered.</li>
 <li>Heat your veg oil in a large frying pan over a medium heat. Once hot, add your Tofoo cubes and cook for 5 mins, turning them over until golden on all sides.</li>
 <li>Whisk all sauce ingredients in a small bowl and add to your Tofoo. Stir and cook for a few mins until all your Tofoo is evenly covered in sticky sauce.</li>
 <li>Meanwhile, cook your microwave rice as per the pack instructions and add into bowls before topping with your sticky Sriracha Tofoo. Scatter with spring onion and sesame seeds for the ultimate fakeaway, ready in only 20 mins!</li>
 </ol>
+                            </div>
+                                            </div>
+                </div>
+            </div>
 
-      </section>
-      </div>
+            <div class="sharer">
+                <div class="outer">
+                    <div class="inner">
+                        <div class="sharer__title">Share</div>
 
-      <section class="block-recipes block-t-center">
-      <div class="container block-border-t">
-        <div class="block block--title block-t-center">
-          <div class="block--title__content h3 blue">People also viewed</div>
+                        <div class="sharer__icons">
+                            <a class="social_icon social_icon--fb" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F">Facebook</a>
+
+                            <a class="social_icon social_icon--x" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F">Twitter</a>
+
+                                                                                            
+                                <a class="social_icon social_icon--pin" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Ftofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F&media=https%3A%2F%2Ftofoo.co.uk%2Fwp-content%2Fuploads%2F2023%2F07%2FStickySriracha-scaled-1.jpg">Pin it</a>
+                                                    </div>
+
+                        <a class="btn js--print" href="#"><span>Print</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RECIPES CAROUSEL -->
+            <div class="product_selector product_selector--full product_selector--yellow">
+                <div class="outer">
+                    <div class="inner">
+                                                    <div class="product_selector__title">Recipes galore!</div>
+                        
+                        
+                        <div class="recipe_carousel_wrapper">
+                            <div class="recipe_carousel" data-tns-classes="recipe_carousel_inner">
+                                
+                                                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/vietnamese-style-lemongrass-tofoo-stir-fry/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2024/08/Vietnamese_Style_Lemongrass_Stir_Fry_Web-1.jpg" width="2504" height="1866" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Vietnamese Style Lemongrass Tofoo Stir Fry</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/crispy-chilli-tofoo-ramen/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2024/08/Crispy_Chilli_Ramen_Pink_RT-copy1-1.jpg" width="2504" height="1866" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Crispy Chilli Tofoo Ramen</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/peanut-tofoo-noodles/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2024/08/Peanut_Noodles-1.jpg" width="2504" height="1866" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Peanut Tofoo Noodles</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/sticky-hoisin-tofoo-stir-fry/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2024/08/Sticky_Hoisin_Noodles-1.jpg" width="2504" height="1866" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Sticky Hoisin Tofoo Stir Fry </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/spicy-tofoo-with-thai-basil-and-green-beans/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2024/08/Tofoo_Green_Beans-1.jpg" width="2504" height="1866" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Spicy Tofoo with Thai Basil and Green Beans</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/easy-tofu-stir-fry/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2024/06/easystirfry.jpg" width="2560" height="1673" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Easy Tofoo Stir Fry</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/korean-bbq-tofoo-bao/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2023/09/Korean_Bao_Buns_WH.jpg" width="1733" height="1155" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Korean BBQ Tofoo Bao</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/tofoo-doner-kebab/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2023/09/Tempeh_Donner_WH.jpg" width="1920" height="1280" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Tofoo Doner Kebab</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/xo-tofoo/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2023/08/XO_Tofoo_WH.jpg" width="1733" height="1155" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">XO Tofoo</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2023/07/StickySriracha-scaled-1.jpg" width="1920" height="1280" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Sticky Sriracha Tofoo</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/smokey-joe-zinger-wrap/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2023/07/zingerwrap-scaled-1.jpg" width="1920" height="1280" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Smokey Joe Zinger Wrap</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                                    <div>
+                                            <a class="recipe_card" href="https://tofoo.co.uk/recipes/smokey-joe-banh-mi/">
+                                                <div class="recipe_card__image">
+                                                                                                                                                                                                                                                                                    
+                                                        <img src="https://tofoo.co.uk/wp-content/uploads/2023/07/Bahn-Mi_WH-scaled-1.jpg" width="1920" height="1280" loading="lazy" alt="">
+                                                                                                    </div>
+
+                                                <div class="recipe_card__content">
+                                                                                                            <ul class="recipe_card__cats">
+                                                                                                                            <li>Naked</li>
+                                                                                                                    </ul>
+                                                    
+                                                    <div class="recipe_card__title">Smokey Joe Bánh Mì</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                                                                                </div>
+                        </div>
+
+                                                    <a class="btn" href="https://tofoo.co.uk/recipes/" target="_self"><span>View all</span></a>
+                                            </div>
+                </div>
+            </div>
+
+                <div class="usps_carousel" data-tns-classes="usps_carousel_inner">
+                                    <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2912.png" alt="" width="653" height="387">
+                </div>
+                                                <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2914.png" alt="" width="511" height="304">
+                </div>
+                                                <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2937.png" alt="" width="558" height="424">
+                </div>
+                                                <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2939.png" alt="" width="665" height="397">
+                </div>
+                                                <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2915.png" alt="" width="313" height="337">
+                </div>
+                                                <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2917.png" alt="" width="623" height="377">
+                </div>
+                                                <div>
+                    <img src="https://tofoo.co.uk/wp-content/uploads/2024/04/Group-2990.png" alt="" width="705" height="368">
+                </div>
+                        </div>
+    <div class="spacer spacer--md"></div>
+
+                    </div>
+
+</main>
+
+<footer id="footer" class="footer">
+    <div class="inner">
+        <div class="footer__content">
+            <img class="footer__logo" src="https://tofoo.co.uk/wp-content/themes/tofoo/assets/images/tofoo-logo-yellow.svg" width="188" height="155" alt="">
+
+            <ul class="footer__menu footer__menu--main">
+                <li id="menu-item-4420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4420"><a href="https://tofoo.co.uk/careers/">Careers</a></li>
+<li id="menu-item-4421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4421"><a href="https://tofoo.co.uk/sustainability/">Sustainability</a></li>
+<li id="menu-item-4422" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4422"><a href="https://tofoo.co.uk/blog/">Blog</a></li>
+<li id="menu-item-4424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4424"><a href="https://tofoo.co.uk/our-story/">Our story</a></li>
+            </ul>
+
+            <div class="footer__social">
+                                    <a class="social_icon social_icon--fb" href="https://www.facebook.com/TofooCo/">Facebook</a>
+                
+                                    <a class="social_icon social_icon--in" href="https://www.instagram.com/tofoo/">Instagram</a>
+                
+                                    <a class="social_icon social_icon--x" href="https://twitter.com/tofooco">Twitter</a>
+                
+                                    <a class="social_icon social_icon--tt" href="https://www.tiktok.com/@tofooco">TikTok</a>
+                            </div>
+
+            <ul class="footer__menu">
+                <li id="menu-item-4541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-4541"><a rel="privacy-policy" href="https://tofoo.co.uk/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-4542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4542"><a href="https://tofoo.co.uk/delivery-and-returns-policy/">Delivery and Returns Policy</a></li>
+<li id="menu-item-4560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4560"><a href="https://tofoo.co.uk/contact-us/">Contact</a></li>
+            </ul>
+
+            <div class="footer__copyright">&copy; 2024 Tofoo | Site by <a href="https://tall.agency/">Tall</a></div>
         </div>
-      </div>
-      <div class="container full-size">
-        <div class="row row--list child-center">
-                      <div class="col col-3">
-              <a href="https://tofoo.co.uk/recipes/korean-bbq-tofoo-bao/" class="box-food box--img-style">
-                <img  alt="Korean BBQ Tofoo Bao Buns" data-src="https://tofoo.co.uk/wp-content/uploads/2023/09/Korean_Bao_Buns_WH.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://tofoo.co.uk/wp-content/uploads/2023/09/Korean_Bao_Buns_WH.jpg" alt="Korean BBQ Tofoo Bao Buns"></noscript>
-                <div class="box-food--name"><span>Korean BBQ Tofoo Bao</span></div>
-              </a>
-            </div>
-                      <div class="col col-3">
-              <a href="https://tofoo.co.uk/recipes/tofoo-doner-kebab/" class="box-food box--img-style">
-                <img  alt="Tofoo Doner Kebab" data-src="https://tofoo.co.uk/wp-content/uploads/2023/09/Tempeh_Donner_WH.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://tofoo.co.uk/wp-content/uploads/2023/09/Tempeh_Donner_WH.jpg" alt="Tofoo Doner Kebab"></noscript>
-                <div class="box-food--name"><span>Tofoo Doner Kebab</span></div>
-              </a>
-            </div>
-                      <div class="col col-3">
-              <a href="https://tofoo.co.uk/recipes/xo-tofoo/" class="box-food box--img-style">
-                <img  alt="XO Tofoo" data-src="https://tofoo.co.uk/wp-content/uploads/2023/08/XO_Tofoo_WH.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="https://tofoo.co.uk/wp-content/uploads/2023/08/XO_Tofoo_WH.jpg" alt="XO Tofoo"></noscript>
-                <div class="box-food--name"><span>XO Tofoo</span></div>
-              </a>
-            </div>
-                  </div>
-        <div class="group-btn">
-          <div class="group-fruit left"><img  alt="" data-src="/wp-content/themes/tofoo/images/group-fruit1.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="/wp-content/themes/tofoo/images/group-fruit1.png" alt=""></noscript></div>
-          <a href="https://tofoo.co.uk/recipes/" class="btn btn-blue btn-big">View all recipes</a>
-          <div class="group-fruit right"><img  alt="" data-src="/wp-content/themes/tofoo/images/group-fruit2.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="/wp-content/themes/tofoo/images/group-fruit2.png" alt=""></noscript></div>
-        </div>
-      </div>
-    </section>
 
-
-<footer>
-  <div class="container footer-container">
-    <div class="footer-row">
-      <div class="footer-col">
-        <ul class="footer-menu">
-                      <li><a href="https://tofoo.co.uk/stockists/">Stockists</a></li>
-                      <li><a href="https://tofoo.co.uk/careers/">Careers</a></li>
-                      <li><a href="https://tofoo.co.uk/privacy-policy/">Privacy Policy</a></li>
-                      <li><a href="https://tofoo.co.uk/delivery-and-returns-policy/">Delivery and Returns Policy</a></li>
-                      <li><a href="https://tofoo.co.uk/contact-us/">Contact us</a></li>
-                  </ul>
-        <div class="footer-address">4 Rye Close <br />
-York Road Industrial Park<br />
-Malton YO17 6YD</div>
-      </div>
-      <div class="footer-col">
-                        <ul class="social-list">
-                      <li><a href="https://www.facebook.com/TofooCo/" target="_blank"><i class="icon-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/tofoo/" target="_blank"><i class="icon-instagram"></i></a></li>
-                                <li><a href="https://twitter.com/tofooco" target="_blank"><i class="icon-twitter"></i></a></li>
-                  </ul>
-              </div>
+        <img class="footer__img" data-src="https://tofoo.co.uk/wp-content/themes/tofoo/assets/images/footer_tofoo.png" width="757" height="754" alt="">
     </div>
-  </div>
 </footer>
 
-<!-- Load Google fonts asynchronously -->
-<script>
-  WebFontConfig = {
-    google: {
-      families: ['Roboto:300,300i,400,400i,500,500i,700,700i', 'Open+Sans:300,300i,400,400i,600,600i,700,700i']
-    }
-  };
-
-  (function () {
-    var wf = document.createElement('script');
-    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-
-
-
-
-
-  })();
-
-</script>
-<script>
-    jQuery(document).ready(() => {
-        jQuery.ajax({
-            url: "https://tofoo.co.uk/wp-admin/admin-ajax.php",
-            type: "post",
-            data: {
-                action:'toofoo_get_cart_count'
-            },
-            success:(r) => {
-                jQuery('#cart-count-element').text(r.count);
-                jQuery('#cart-count-element-container').fadeIn(250);
-                jQuery('.nav__cart #cart-count-element').text(r.count);
-                jQuery('.nav__cart #cart-count-element-container').fadeIn(250);
-            }
-        });
-    });
-
-</script>
-<noscript>
-    <iframe  height="0" width="0"
-        style="display:none;visibility:hidden" data-src="https://www.googletagmanager.com/ns.html?id=GTM-NWRZKWS" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
-</noscript>
-
-<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=2719215051723481&ev=PageView&noscript=1&cd%5Bpost_type%5D=recipe_item&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=tofoo.co.uk%2Frecipes%2Fsticky-sriracha-tofoo%2F" alt=""></noscript>
-	<script type="text/javascript">
+	<script type='text/javascript'>
 		(function () {
 			var c = document.body.className;
 			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 			document.body.className = c;
 		})();
 	</script>
-	<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.5.7.1'></script>
-<script type='text/javascript'>
+	<link rel='stylesheet' id='wc-blocks-style-css' href='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.2.3' type='text/css' media='all' />
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-form-move-tracker.js?ver=1.20.2" id="gtm4wp-form-move-tracker-js"></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-ecommerce-generic.js?ver=1.20.2" id="gtm4wp-ecommerce-generic-js"></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-woocommerce.js?ver=1.20.2" id="gtm4wp-woocommerce-js"></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.2.3" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
 /* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/tofoo.co.uk\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/tofoo.co.uk\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.7.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.7.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_7651244c258f7f5579ec2886a422b5f7","fragment_name":"wc_fragments_7651244c258f7f5579ec2886a422b5f7","request_timeout":"5000"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.7.1'></script>
-<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LdvTq4ZAAAAAG1zVQCf2clM62myumhoTfOtLt0s&#038;ver=3.0'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7_recaptcha = {"sitekey":"6LdvTq4ZAAAAAG1zVQCf2clM62myumhoTfOtLt0s","actions":{"homepage":"homepage","contactform":"contactform"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/contact-form-7/modules/recaptcha/script.js?ver=5.3.2'></script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/themes/tofoo/js/app.js?ver=1.0.0'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/tofoo.co.uk\/wp-admin\/admin-ajax.php"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.3.9'></script>
-<script type='text/javascript' src='https://tofoo.co.uk/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.11.1'></script>
+<script type="text/javascript" src="https://tofoo.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.2.3" id="wc-order-attribution-js"></script>
+</body>
 
-
-		        <div id="cookieConsent">
-  <div  class="content-desktop">
-    <div class="info">We use cookies to ensure that we give  you the best experience on our website.<br> If you continue to use this site we will assume that you are happy with it.</div>
-    <div class="button-container"><button class="cookiebutton"><a href="https://tofoo.co.uk/privacy-policy/">Privacy Policy</a></button></div>
-    <div class="ok cookieConsentOK"><span>OK</span></div>
-    <div id="closeCookieConsent"><span>X</span></div>
-  </div>
-  <div  class="content-mobile">
-    <div class="info">We use cookies to ensure that we give  you the best experience on our website.<br> If you continue to use this site we will assume that you are happy with it.
-
-    </div>
-
-    <div class="ok cookieConsentprivacy">
-      <button class="cookiebutton"><a href="https://tofoo.co.uk/privacy-policy/">Privacy Policy</a></button>
-      <br>
-      <span class="cookieConsentOK">OK</span>
-    </div>
-    <span class="close" id="closeCookieConsent">&times;</span>
-  </div>
-
-</div>
-	</body>
-</html><!-- WP Fastest Cache file was created in 0.44911098480225 seconds, on 20-09-23 13:39:01 --><!-- via php -->
+</html>

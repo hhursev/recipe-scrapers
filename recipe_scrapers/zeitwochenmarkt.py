@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import extruct
 
 from ._abstract import AbstractScraper
@@ -7,8 +5,8 @@ from ._utils import normalize_string
 
 
 class ZeitWochenmarkt(AbstractScraper):
-    def __init__(self, url, **kwargs):
-        AbstractScraper.__init__(self, url, **kwargs)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         data = extruct.extract(
             self.soup.prettify(), syntaxes=["json-ld"], errors="log", uniform=True
         )
@@ -20,20 +18,8 @@ class ZeitWochenmarkt(AbstractScraper):
     def host(cls):
         return "zeit.de"
 
-    def title(self):
-        return self.schema.title()
-
     def author(self):
         return self.soup.find("a", {"rel": "author"}).get_text().strip()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients = []
@@ -61,6 +47,3 @@ class ZeitWochenmarkt(AbstractScraper):
                 for item in subset.find_all_next("p", {"class": class_name})
             ]
         )
-
-    def ratings(self):
-        return self.schema.ratings()

@@ -1,4 +1,3 @@
-# mypy: allow-untyped-defs
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
@@ -33,9 +32,6 @@ class KeukenLiefdeNL(AbstractScraper):
             return get_yields(yields.get_text())
 
         return None
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredents_container = self.soup.find("div", {"id": "clipboard-ingredients"})

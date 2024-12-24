@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fudgy Brownies | Eggs.ca</title>
+  <link rel='preload' href='https://eggs.ca/wp-content/themes/eggs/assets/fonts/Kaleko205Round.woff2' as='font' type='font/woff2' crossorigin='anonymous'><style type='text/css'>@font-face{font-family:'Kaleko205Round';font-weight: 700;font-style: normal;src: url(https://eggs.ca/wp-content/themes/eggs/assets/fonts/Kaleko205Round.woff2) format('woff2');}</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" media='print' onload='this.media="all"'>  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get Cracking">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/eggs/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/eggs/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/eggs/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/themes/eggs/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/themes/eggs/assets/img/favicon/safari-pinned-tab.svg" color="#8a8a8a">
+<link rel="shortcut icon" href="/wp-content/themes/eggs/assets/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/wp-content/themes/eggs/assets/img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+  <meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" hreflang="en" href="https://eggs.ca/recipes/fudgey-brownies/" />
+<link rel="alternate" hreflang="fr" href="https://lesoeufs.ca/recettes/brownies-moelleux/" />
+<link rel="alternate" hreflang="x-default" href="https://eggs.ca/recipes/fudgey-brownies/" />
+<link rel='stylesheet' id='wp-block-library-css' href='https://eggs.ca/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpml-blocks-css' href='https://eggs.ca/wp-content/plugins/sitepress-multilingual-cms/dist/css/blocks/styles.css?ver=4.6.13' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='https://eggs.ca/wp-content/themes/eggs/style.css?ver=2024-10-02' type='text/css' media='all' />
+<link rel='stylesheet' id='searchwp-forms-css' href='https://eggs.ca/wp-content/plugins/searchwp/assets/css/frontend/search-forms.css?ver=4.3.16' type='text/css' media='all' />
+<script type="text/javascript" id="wpml-cookie-js-extra">
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eggs.ca/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.6.13" id="wpml-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://eggs.ca/wp-content/themes/eggs/assets/js/scripts.js?ver=2024-10-02" id="theme-main-js"></script>
+<script type="text/javascript" id="wpml-xdomain-data-js-extra">
+/* <![CDATA[ */
+var wpml_xdomain_data = {"css_selector":"wpml-ls-item","ajax_url":"https:\/\/eggs.ca\/wp-admin\/admin-ajax.php","current_lang":"en","_nonce":"e6e4a3ae3d"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://eggs.ca/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js?ver=4.6.13" id="wpml-xdomain-data-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://eggs.ca/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://eggs.ca/wp-json/wp/v2/efc_recipe/14264" /><link rel="canonical" href="https://eggs.ca/recipes/fudgey-brownies/" />
+<link rel='shortlink' href='https://eggs.ca/?p=14264' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://eggs.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feggs.ca%2Frecipes%2Ffudgey-brownies%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://eggs.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feggs.ca%2Frecipes%2Ffudgey-brownies%2F&#038;format=xml" />
+  <script>window.Eggs=window.Eggs||{};window.Eggs.vars={"lang":"en","errorToast":"Error","copiedToast":"Copied!"}</script>  
+
+<meta property='og:url' content='https://eggs.ca/recipes/fudgey-brownies/' />
+<meta property='og:title' content='Fudgey Brownies Recipe' />
+<meta property='og:type' content='article' />
+<meta property='og:locale' content='en_CA' />
+<meta property='og:locale:alternate' content='fr_CA' />
+<meta property='og:description' content='Fudgey brownies are every kid&#039;s favourite. These brownies make a decadent dessert &amp; are a great weekend recipe. Try them, today.' />
+<meta name='description' content='Fudgey brownies are every kid&#039;s favourite. These brownies make a decadent dessert &amp; are a great weekend recipe. Try them, today.' />
+<meta property='og:site_name' content='Eggs.ca' />
+<meta name='twitter:card' content='summary_large_image' />
+<meta property='og:image' content='https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS.jpg' />
+    </head>
+<body class="efc_recipe-template-default single single-efc_recipe postid-14264 page--fudgey-brownies lang--en">
+  <script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('CF5F1KBC77U110MJPSHG');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PBK4GMV');</script>
+<!-- End Google Tag Manager -->  
+  
+<script async defer src="https://www.googletagmanager.com/gtag/js?id=AW-994072017"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-994072017',  {'allow_google_signals': false});
+</script>
+
+
+<script async defer src="https://www.googletagmanager.com/gtag/js?id=G-1BCR3YEJML"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1BCR3YEJML', {'allow_google_signals': false});
+</script>
+
+    <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1326129581510097');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1326129581510097&ev=PageView&noscript=1"
+  /></noscript>
+
+    <script>
+  !function(e){if(!window.pintrk){window.pintrk = function () {
+  window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+    n=window.pintrk;n.queue=[],n.version="3.0";var
+    t=document.createElement("script");t.async=!0,t.src=e;var
+    r=document.getElementsByTagName("script")[0];
+    r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+  pintrk('load', '2612529640519', {em: '<user_email_address>'});
+  pintrk('page');
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none;" alt=""
+    src="https://ct.pinterest.com/v3/?event=init&tid=2612529640519&pd[em]=<hashed_email_address>&noscript=1" />
+  </noscript>
+  <div class='nst-siteContent'>
+    <header class="nav-wrapper siteHeader__wrap">
+      <nav class='siteHeader' aria-label="Primary Menu"><div class='header__hamburgerWrap'>
+  <button id='headerHamburger' class='header__hamburger'>
+    <span class='header__hamburgerIcon header__hamburgerIcon--open' aria-label='Open Primary Nav'><svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 18h28M2 10h28M2 2h28" stroke="#14181F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <span class='header__hamburgerIcon header__hamburgerIcon--close' aria-label='Close Primary Nav'><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.9 23.9L2.1 2.1m21.8 0L2.1 23.9" stroke="#14181F" stroke-width="3.273" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+</div>
+<div class='header__logoWrap'>
+  <a href='https://eggs.ca/'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/site-logo-en.svg' alt='Home' class='header__logo' /></a>
+</div>
+<div class='header__navWrapWrap'><div class="header__navWrap"><ul id="menu-header-nav" class="menu"><li id="menu-item-8473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8473"><div class='header__navItemWrap header__navItemWrap--parent'><a href="https://eggs.ca/recipes/">Recipes</a><span class='header__navExpandIndicator'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/chevron-down.svg' alt='has submenu' /></span><button type='button' class='header__navExpander' aria-label='Open submenu'><svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 18l8-8-8-8" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+<ul class="sub-menu">
+	<li id="menu-item-16330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16330"><div class='header__navSubItemWrap'><a href="https://eggs.ca/recipe-categories/">All Recipes</a></div></li>
+	<li id="menu-item-16624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16624"><div class='header__navSubItemWrap'><a href="/recipe-category/dinner/">What&#8217;s for Dinner</a></div></li>
+	<li id="menu-item-16625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16625"><div class='header__navSubItemWrap'><a href="/recipe-category/eggs-benedict/">Eggs Benny</a></div></li>
+	<li id="menu-item-16626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16626"><div class='header__navSubItemWrap'><a href="/recipe-category/desserts-sweets/">Desserts</a></div></li>
+	<li id="menu-item-16627" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16627"><div class='header__navSubItemWrap'><a href="/recipe-category/omelettes-and-fritattas/">Omelettes</a></div></li>
+</ul>
+</li>
+<li id="menu-item-8472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8472"><div class='header__navItemWrap'><a href="https://eggs.ca/eggs-101/">Eggs 101</a></div></li>
+<li id="menu-item-8526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8526"><div class='header__navItemWrap'><a href="https://eggs.ca/nutrition/">Nutrition</a></div></li>
+</ul></div><div class='header__navSpacer'></div><div class='header__hamburgerLangWrap'><div class='header__hamburgerLang'><a href="https://lesoeufs.ca/recettes/brownies-moelleux/" rel="alternate" hreflang="fr" class="alternate-language">Français</a></div></div></div><div id='header__mobileSubmenuWrap' style='display:none' class='header__mobileSubmenuWrap'><div class='header__mobileSubmenu'>
+  <button class='header__mobileSubmenuBack'><svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 2l-8 8 8 8" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span class='header__mobileSubmenuBackText'>Menu</span></button>
+  <div class='header__mobileSubmenuTitle'></div>
+  <div class='header__mobileSubmenuMenu'></div>
+</div></div><div class='header__utilWrap'>
+	<div class='header__search'><div class='searchInput__wrap searchInput__wrap--header'>
+    <form  id='headerSearch'  role='search' method='get' class='searchInput__form' action='/' autocomplete='off'>
+    <label class='searchInput__label'>
+    <span class='searchInput__labelText'>Search terms</span>
+      <input type='search' class='searchInput__input' placeholder='Search' value='' name='s'>
+    	<button type='button' class='searchInput__clear'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/clear.svg' alt='Clear' /></button>
+    </label>
+    
+    <button type='submit' class='searchInput__submit'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/search.svg' alt='Search' /></button>
+  </form>
+</div><div class='header__searchToggleWrap'>
+  <button id='headerSearchToggle' class='header__searchToggle'>
+		<span class='header__searchToggleIcon header__searchToggleIcon--open' aria-label='Open Search'><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 23l-6.7-6.7m0 0A8.38 8.38 0 104.46 4.46a8.38 8.38 0 0011.86 11.86z" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  	<span class='header__searchToggleIcon header__searchToggleIcon--close' aria-label='Close Search'><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.9 23.9L2.1 2.1m21.8 0L2.1 23.9" stroke="#14181F" stroke-width="3.273" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </button>
+</div></div>
+	<div class='header__lang'><a href="https://lesoeufs.ca/recettes/brownies-moelleux/" rel="alternate" hreflang="fr" class="alternate-language">Fr</a></div>
+</div>
+      </nav>
+    </header>
+    <main class='siteMain'><div class='titleBlock'>
+<div class='titleBlock__sectionHeading'>Recipes</div>
+<h1 class='titleBlock__title'>Fudgy Brownies</h1>
+</div><div class='tagList__wrap tagList--recipe'><ul class='tagList'><li class='tag' ><a class='tag__content' href='https://eggs.ca/recipe-category/desserts-sweets/'><span class='tag__label'>Desserts &amp; Sweets</span></a></li><li class='tag' ><a class='tag__content' href='https://eggs.ca/recipe-category/game-night/'><span class='tag__label'>Game Night</span></a></li><li class='tag' ><a class='tag__content' href='https://eggs.ca/recipe-category/for-kids/'><span class='tag__label'>For Kids</span></a></li></ul></div><div class='pageHeader__heroWrap'><div class='pageHeader__hero'><div class='mediaBlock mediaBlock--responsive' ><div class='mediaBlock__imgWrap'><img src='https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-128x64.jpg' srcset='https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-128x64.jpg 128w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-256x128.jpg 256w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-384x192.jpg 384w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-512x256.jpg 512w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-750x375.jpg 750w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS-1024x512.jpg 1024w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS.jpg 1440w,https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS.jpg 2048w' alt='' sizes='(max-width:479px)calc(100vw - 30px),min(1920px,95vw)'  class='mediaBlock__img'  /></div></div></div></div><div class='recipe__description'>
+    
+    <div class='content'>Fudgey brownies are every kid's favourite. These brownies make a decadent dessert and are a great recipe for any bake sale, potluck or birthday celebration.</div>
+  </div><div class='recipe__statsAndUtils'>
+  <div class='recipe__stats'><div class='recipe__stat'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/serves.svg' class='recipe__statIcon eggs_icon' alt='' /><span class='recipe__statLabel'>Serves</span>
+<span class='recipe__statVal'>20</span>
+</div><div class='recipe__stat'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/timer.svg' class='recipe__statIcon eggs_icon' alt='' /><span class='recipe__statLabel'>Prep Time</span>
+<span class='recipe__statVal'>15 min</span>
+</div><div class='recipe__stat'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/timer.svg' class='recipe__statIcon eggs_icon' alt='' /><span class='recipe__statLabel'>Cook Time</span>
+<span class='recipe__statVal'>40 min</span>
+</div></div><div class='recipe__utils shareLinksOwner'><div class='recipe__util'><button id='shareButton' class='shareLink__toggle recipe__shareButton' type='button' data-share-url='https://eggs.ca/recipes/fudgey-brownies/' data-share-title='Fudgy Brownies'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/share.svg' class=' eggs_icon' alt='' />Share Recipe</button></div><div class='shareLinks__wrap'>
+      <div class='shareLinks__title'>Share</div>
+      <nav class='shareLinks' aria-label='Share Options'><div class='shareLinkWrap shareLinkWrap--share'><button type='button' class='shareLink'  data-share-title='Fudgy Brownies'  data-share-url='https://eggs.ca/recipes/fudgey-brownies/' >
+      <div class='shareLink__iconWrap'><img class='shareLink__icon eggs_icon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/share.svg' alt='' /></div>
+      <span class='shareLink__label'>Share Link</span>
+    </button></div><div class='shareLinkWrap shareLinkWrap--facebook'><a class='shareLink' href='https://www.facebook.com/sharer.php?u=https%3A%2F%2Feggs.ca%2Frecipes%2Ffudgey-brownies%2F' rel='noopener' target='_blank'  onclick='javascript:w=window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600&quot;);var blocked=(!w || w.closed || typeof w.closed==&quot;undefined&quot;);return blocked;' >
+      <div class='shareLink__iconWrap'><img class='shareLink__icon eggs_icon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/facebook.svg' alt='' /></div>
+      <span class='shareLink__label'>Facebook</span>
+    </a></div><div class='shareLinkWrap shareLinkWrap--twitter'><a class='shareLink' href='https://x.com/share?text=Fudgy+Brownies%2C+thanks+to+%40eggsoeufs&amp;url=https%3A%2F%2Feggs.ca%2Frecipes%2Ffudgey-brownies%2F' rel='noopener' target='_blank' >
+      <div class='shareLink__iconWrap'><img class='shareLink__icon eggs_icon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/twitter.svg' alt='' /></div>
+      <span class='shareLink__label'>X</span>
+    </a></div><div class='shareLinkWrap shareLinkWrap--pinterest'><a class='shareLink' href='https://pinterest.com/pin/create/button/?url=https%3A%2F%2Feggs.ca%2Frecipes%2Ffudgey-brownies%2F&amp;media=https%3A%2F%2Feggs.ca%2Fwp-content%2Fuploads%2F2024%2F06%2FFudgey-Brownies-UPDATED-CMS.jpg&amp;description=Fudgy+Brownies' rel='noopener' target='_blank' >
+      <div class='shareLink__iconWrap'><img class='shareLink__icon eggs_icon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/pinterest.svg' alt='' /></div>
+      <span class='shareLink__label'>Pinterest</span>
+    </a></div><div class='shareLinkWrap shareLinkWrap--email'><a class='shareLink' href='mailto:?subject=From eggs.ca%3A Fudgy Brownies&amp;body=https%3A%2F%2Feggs.ca%2Frecipes%2Ffudgey-brownies%2F' rel='noopener' target='_blank' >
+      <div class='shareLink__iconWrap'><img class='shareLink__icon eggs_icon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/email.svg' alt='' /></div>
+      <span class='shareLink__label'>Email</span>
+    </a></div><div class='shareLinkWrap shareLinkWrap--link'><button type='button' class='shareLink'  onclick='window.Plaintext.Clipboard.writeAndToast(&quot;https:\/\/eggs.ca\/recipes\/fudgey-brownies\/&quot;, this);return false;' >
+      <div class='shareLink__iconWrap'><img class='shareLink__icon eggs_icon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/link.svg' alt='' /></div>
+      <span class='shareLink__label'>Copy Link</span>
+    </button></div></nav>
+      <button class='shareLinks__close' aria-label='Close'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/close--thick.svg' alt='' /></button>
+    </div><div class='recipe__util'><a href='https://eggs.ca/recipes/fudgey-brownies/?view=print' target='_blank'><img src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/print.svg' class=' eggs_icon' alt='' />Print Recipe</a></div></div>
+</div><div class='recipe__viewToggleWrap'>
+  <div class='recipe__viewToggle'>
+    <button class='recipe__viewToggleButton recipe__viewToggle--ingredients'>Ingredients</button>
+    <button class='recipe__viewToggleButton recipe__viewToggle--instructions'>Instructions</button>
+  </div>
+</div><div class='section__wrap recipe__ingredientsWrap section--sectionColor-white section--cardColor-grey'  ><div class='section'>
+<div class='section__header'><h2 class='section__title'>Ingredients</h2></div>
+<div class='section__content'><div class='ingredients__wrap ingredients__wrap--sectioned'><ul class='ingredients__sections'><li class='ingredients__section'><h3 class='innerSectionHeading ingredients__sectionHeading'>Brownies</h3><ul class='ingredients'><li class='ingredient'><span class='ingredient__amount'>1 &frac14; cup (315 mL) </span><span class='ingredient__ingredient'>all-purpose flour</span></li><li class='ingredient'><span class='ingredient__amount'>1 tsp </span><span class='ingredient__ingredient'>baking powder</span></li><li class='ingredient'><span class='ingredient__amount'>&frac12; tsp (2.5 mL) </span><span class='ingredient__ingredient'>salt</span></li><li class='ingredient'><span class='ingredient__amount'>&frac34; cup (175 mL) </span><span class='ingredient__ingredient'>butter or margarine</span></li><li class='ingredient'><span class='ingredient__amount'>&frac34; cup (175 mL) </span><span class='ingredient__ingredient'>unsweetened cocoa powder</span></li><li class='ingredient'><span class='ingredient__amount'>1 cup </span><span class='ingredient__ingredient'>packed brown sugar</span></li><li class='ingredient'><span class='ingredient__amount'>1 cup </span><span class='ingredient__ingredient'>granulated sugar</span></li><li class='ingredient'><span class='ingredient__amount'>4 </span><span class='ingredient__ingredient'>eggs</span></li><li class='ingredient'><span class='ingredient__amount'>2 tsp </span><span class='ingredient__ingredient'>vanilla extract</span></li><li class='ingredient'><span class='ingredient__amount'>1 cup </span><span class='ingredient__ingredient'>chopped walnuts</span></li></ul></li><li class='ingredients__section'><h3 class='innerSectionHeading ingredients__sectionHeading'>Fudgey Icing</h3><ul class='ingredients'><li class='ingredient'><span class='ingredient__amount'>2 tbsp </span><span class='ingredient__ingredient'>butter or margarine</span></li><li class='ingredient'><span class='ingredient__amount'>&frac14; cup (60 mL) </span><span class='ingredient__ingredient'>unsweetened cocoa powder</span></li><li class='ingredient'><span class='ingredient__amount'>&frac12; tsp (2.5 mL) </span><span class='ingredient__ingredient'>vanilla extract</span></li><li class='ingredient'><span class='ingredient__amount'>2 cups </span><span class='ingredient__ingredient'>sifted icing sugar</span></li><li class='ingredient'><span class='ingredient__amount'>&frac14; cup (60 mL) </span><span class='ingredient__ingredient'>milk (1%)</span></li></ul></li></ul></div></div>
+    </div></div><div class='section__wrap steps__wrap steps__wrap--sectioned recipe__stepsWrap  section--sectionColor-white section--cardColor-white section--monochrome'  ><div class='section'>
+<div class='section__header'><h2 class='section__title'>Instructions</h2></div>
+<div class='section__content'><ul class='steps__sections'><li class='steps__section'><h3 class='innerSectionHeading steps__sectionHeading'>Brownies</h3><ul class='steps__stepList'><li class='steps__step'><div class='step__label'>Step 1</div><div class='step__content eggsContent'><p> Preheat oven to 350°F (180°C).</p>
+</div></li><li class='steps__step'><div class='step__label'>Step 2</div><div class='step__content eggsContent'><p>Combine flour, baking powder and salt in medium bowl; set aside. Melt butter in large saucepan over low heat; remove from heat. Stir in cocoa. Beat in brown sugar, sugar, eggs and vanilla. Stir in dry ingredients and walnuts. Spray or butter a 9-inch (23 cm) square pan. Spread batter in pan. Bake in preheated 350°F (180°C) oven for 40 minutes. Do not overbake. Cool completely.</p>
+</div></li></ul></li><li class='steps__section'><h3 class='innerSectionHeading steps__sectionHeading'>Fudgey Icing</h3><ul class='steps__stepList'><li class='steps__step'><div class='step__label'>Step 1</div><div class='step__content eggsContent'><p>Melt butter over low heat in medium saucepan. Remove from heat. Stir in cocoa and vanilla. Stir in icing sugar and milk until smooth and of spreading consistency. Spread icing over cooled brownies.</p>
+</div></li></ul></li></ul></div>
+    </div></div><div class='section__wrap recipe__nutritionWrap section--sectionColor-white section--cardColor-white section--monochrome'  ><div class='section'>
+<div class='section__header'><h2 class='section__title'>Nutrition Facts</h2></div>
+<div class='section__content'><div class='nutrition infobox'>
+    <table class='nutrition__table'>
+      <thead><tr><th colspan='2'>Per  serving</th></thead>
+      <tbody><tr><th>Calories</th><td>294</td></tr><tr><th>Fat</th><td>14 g</td></tr><tr><th>Saturated Fat</th><td>6 g</td></tr><tr><th>Trans Fat</th><td>0 g</td></tr><tr><th>Carbohydrate</th><td>294 g</td></tr><tr><th>Fibre</th><td>2 g</td></tr><tr><th>Sugars</th><td>33 g</td></tr><tr><th>Protein</th><td>5 g</td></tr><tr><th>Sodium</th><td>167 mg</td></tr></tbody>
+    </table>
+  </div></div>
+    </div></div><div class='section__wrap related__wrap section--sectionColor-white section--cardColor-white section--monochrome'  ><div class='section'>
+<div class='section__header'><h2 class='section__title'>You Might Also Like</h2></div>
+<div class='section__content'><div class='cardGridWrap cardGridWrap--of4 '><ul class='cardGrid'><li class='cardGrid__card'><div class='ptcard__wrap  ptcard--simple'><a class='ptcard' href='https://eggs.ca/recipes/chocolate-brownie-smores/' >
+      <div class='ptcard__imgWrap'><img src='https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-128x128.jpg' srcset='https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-128x128.jpg 128w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-256x256.jpg 256w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-384x384.jpg 384w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-512x512.jpg 512w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-750x750.jpg 750w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-1024x832.jpg 1024w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1-1440x832.jpg 1440w,https://eggs.ca/wp-content/uploads/2024/06/Chocolate-Brownie-Smores-1664x832-1.jpg 2048w' alt='' sizes='(max-width:639px) calc(50vw - 25px),(max-width:1920px) 22.12vw,430px'  class='ptcard__img'  /></div>
+      <div class='ptcard__contentWrap'><h3 class='ptcard__title'>Chocolate Brownie S&#039;mores</h3></div>
+</a></div></li><li class='cardGrid__card'><div class='ptcard__wrap  ptcard--simple'><a class='ptcard' href='https://eggs.ca/recipes/heavenly-baked-alaska/' >
+      <div class='ptcard__imgWrap'><img src='https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-128x128.jpg' srcset='https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-128x128.jpg 128w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-256x256.jpg 256w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-384x384.jpg 384w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-512x512.jpg 512w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-750x750.jpg 750w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-1024x832.jpg 1024w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1-1440x832.jpg 1440w,https://eggs.ca/wp-content/uploads/2024/06/Heavenly-Baked-Alaska-1664x832-1.jpg 2048w' alt='' sizes='(max-width:639px) calc(50vw - 25px),(max-width:1920px) 22.12vw,430px'  class='ptcard__img'  /></div>
+      <div class='ptcard__contentWrap'><h3 class='ptcard__title'>Heavenly Baked Alaska</h3></div>
+</a></div></li><li class='cardGrid__card'><div class='ptcard__wrap  ptcard--simple'><a class='ptcard' href='https://eggs.ca/recipes/classic-chocolate-layer-cake/' >
+      <div class='ptcard__imgWrap'><img src='https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-128x128.jpg' srcset='https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-128x128.jpg 128w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-256x256.jpg 256w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-384x384.jpg 384w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-512x512.jpg 512w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-750x750.jpg 750w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-1024x832.jpg 1024w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1-1440x832.jpg 1440w,https://eggs.ca/wp-content/uploads/2024/06/Classic-Layer-Cake-1664x832-1.jpg 2048w' alt='' sizes='(max-width:639px) calc(50vw - 25px),(max-width:1920px) 22.12vw,430px'  class='ptcard__img'  /></div>
+      <div class='ptcard__contentWrap'><h3 class='ptcard__title'>Classic Chocolate Layer Cake</h3></div>
+</a></div></li><li class='cardGrid__card'><div class='ptcard__wrap  ptcard--simple'><a class='ptcard' href='https://eggs.ca/recipes/egg-veggie-pops/' >
+      <div class='ptcard__imgWrap'><img src='https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-128x128.jpg' srcset='https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-128x128.jpg 128w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-256x256.jpg 256w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-384x384.jpg 384w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-512x512.jpg 512w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-750x750.jpg 750w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-1024x832.jpg 1024w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1-1440x832.jpg 1440w,https://eggs.ca/wp-content/uploads/2024/06/EFC-egg-veggie-pops-1664x832-1.jpg 2048w' alt='' sizes='(max-width:639px) calc(50vw - 25px),(max-width:1920px) 22.12vw,430px'  class='ptcard__img'  /></div>
+      <div class='ptcard__contentWrap'><h3 class='ptcard__title'>Egg Veggie Pops</h3></div>
+</a></div></li></ul></div></div>
+    </div></div><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Recipe","name":"Fudgy Brownies","description":"Fudgey brownies are every kid's favourite. These brownies make a decadent dessert and are a great recipe for any bake sale, potluck or birthday celebration.","image":"https:\/\/eggs.ca\/wp-content\/uploads\/2024\/06\/Fudgey-Brownies-UPDATED-CMS.jpg","recipeYield":"Serves 20","prepTime":"PT15M","cookTime":"PT15M","totalTime":"PT55M","nutrition":{"@type":"NutritionInformation","calories":"294","fatContent":"14 g","transFatContent":"0 g","saturatedFatContent":"6 g","sodiumContent":"167 mg","carbohydrateContent":"42 g","sugarContent":"33 g","proteinContent":"5 g","fiberContent":"2 g","cholesterolContent":"2 mg"},"ingredients":["1 1\/4 cup all-purpose flour","1 tsp baking powder","1\/2 tsp salt","3\/4 cup butter or margarine","3\/4 cup unsweetened cocoa powder","1 cup packed brown sugar","1 cup granulated sugar","4  eggs","2 tsp vanilla extract","1 cup chopped walnuts","2 tbsp butter or margarine","1\/4 cup unsweetened cocoa powder","1\/2 tsp vanilla extract","2 cups sifted icing sugar","1\/4 cup milk (1%)"],"RecipeInstructions":[{"@type":"HowToSection","name":"Brownies","position":1,"itemListElement":[{"@type":"HowToStep","position":1,"text":" Preheat oven to 350\u00b0F (180\u00b0C).\n"},{"@type":"HowToStep","position":2,"text":"Combine flour, baking powder and salt in medium bowl; set aside. Melt butter in large saucepan over low heat; remove from heat. Stir in cocoa. Beat in brown sugar, sugar, eggs and vanilla. Stir in dry ingredients and walnuts. Spray or butter a 9-inch (23 cm) square pan. Spread batter in pan. Bake in preheated 350\u00b0F (180\u00b0C) oven for 40 minutes. Do not overbake. Cool completely.\n"}]},{"@type":"HowToSection","name":"Fudgey Icing","position":2,"itemListElement":[{"@type":"HowToStep","position":1,"text":"Melt butter over low heat in medium saucepan. Remove from heat. Stir in cocoa and vanilla. Stir in icing sugar and milk until smooth and of spreading consistency. Spread icing over cooled brownies.\n"}]}],"recipeCategory":"Desserts &amp; Sweets"}</script>
+</main>
+<footer class='siteFooter__wrap'><div class='siteFooter'>
+  
+<div class='footer__newsletterWrap'>
+  <div class='footer__newsletter'>
+    <form id='footer__newsletterForm' class='footer__newsletterForm' action='https://eggs.us2.list-manage.com/subscribe/post?u=bff6fb280562dedc558252190&amp;id=a9981c177c&amp;f_id=00f2c2e1f0' aria-live='polite' data-newsletter-form-status='form'>
+      <div class='footer__newsletterFormContent' data-newsletter-form-content>
+        <div class='footer__newsletterCta'>Subscribe to the eggs.ca newsletter</div>
+        
+        <div class='footer__newsletterInputCell'>
+          <div class='footer__newsletterInputWrap'>
+            <label class='footer__newsletterInputLabel inlineLabel'>
+              <span class='footer__newsletterInputLabelText inlineLabel__text'>Enter Your Email Address</span>
+              <input class='footer__newsletterInput' name='EMAIL' type='email' required />
+            </label>
+            
+            <button type='submit' class='footer__newsletterSubmit' aria-label='Submit'>
+              <img class='footer__newsletterSubmitIcon' src='https://eggs.ca/wp-content/themes/eggs/assets/img/icon/arrow-right.svg' alt='' ?>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div class='footer__newsletterThanks' data-newsletter-thanks>Thanks for signing up! You&#039;ll be receiving a confirmation email shortly.</div>
+      <div class='footer__newsletterError' data-newsletter-error>An error occurred during signup.  Please try again later.</div>
+    </form>
+  </div>
+</div>
+
+  
+	<nav class="footer__navWrap" aria-label="Footer Nav"><ul id="menu-footer-nav" class="menu"><li id="menu-item-8644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8644"><a href="https://eggs.ca/about-us/">About Us</a></li>
+<li id="menu-item-8643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8643"><a href="https://eggs.ca/contactus/">Contact Us</a></li>
+<li id="menu-item-8642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8642"><a href="https://eggs.ca/accessibility/">Accessibility</a></li>
+<li id="menu-item-8641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8641"><a href="https://eggs.ca/yourquestions/">FAQ</a></li>
+<li id="menu-item-14015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14015"><a href="#">Eggs Around the World</a>
+<ul class="sub-menu">
+	<li id="menu-item-14016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14016"><a target="_blank" rel="noopener" href="https://tc.eggsareeasy.ca/">繁體中文 Traditional Chinese</a></li>
+	<li id="menu-item-14017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14017"><a target="_blank" rel="noopener" href="https://sc.eggsareeasy.ca/">简体中文 Simplified Chinese</a></li>
+	<li id="menu-item-14018" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14018"><a target="_blank" rel="noopener" href="https://sa.eggsareeasy.ca/">South Asian</a></li>
+	<li id="menu-item-16339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16339"><a target="_blank" rel="noopener" href="https://punjabi.egghisuperstar.com/">ਪੰਜਾਬੀ Punjabi</a></li>
+	<li id="menu-item-16677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16677"><a target="_blank" rel="noopener" href="https://ar.eggsareeasy.ca/">العربية Arabic</a></li>
+</ul>
+</li>
+</ul></nav>
+	<div class='footer__socialWrap'><nav class='socialLinks ' aria-label='Social links'><div class='socialLink__wrap'><a href='https://www.instagram.com/eggsoeufs/' class='socialLink socialLink--instagram' rel='noopener' target='_blank'>
+    <span class='visuallyHidden'>Follow us on Instagram</span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 1000 1000"><path d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34" transform="translate(-2.5 -2.5)"/></svg></a>
+  </div><div class='socialLink__wrap'><a href='https://www.tiktok.com/@getcracking' class='socialLink socialLink--tiktok' rel='noopener' target='_blank'>
+    <span class='visuallyHidden'>Follow us on TikTok</span><svg width="25" height="25" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M25.4442 13.9608C25.2694 13.9778 25.094 13.9867 24.9184 13.9875C22.9928 13.9877 21.1969 13.0171 20.1421 11.4061V20.1962C20.1421 23.7843 17.2333 26.693 13.6453 26.693C10.0572 26.693 7.14853 23.7843 7.14853 20.1962C7.14853 16.6082 10.0572 13.6995 13.6453 13.6995C13.7809 13.6995 13.9135 13.7117 14.0468 13.72V16.9216C13.9135 16.9056 13.7824 16.8812 13.6453 16.8812C11.814 16.8812 10.3295 18.3657 10.3295 20.197C10.3295 22.0283 11.814 23.5128 13.6453 23.5128C15.4769 23.5128 17.0944 22.0698 17.0944 20.2381L17.1264 5.30937H20.1893C20.4781 8.05599 22.6928 10.2014 25.4472 10.4027V13.9608M28.4874 0H4.1064C2.00583 0 0.296875 1.70894 0.296875 3.80952V28.1905C0.296875 30.291 2.00583 32 4.1064 32H28.4874C30.5879 32 32.2969 30.291 32.2969 28.1905V3.80952C32.2969 1.70894 30.5879 0 28.4874 0Z" fill="black"/></svg></a>
+  </div><div class='socialLink__wrap'><a href='https://www.facebook.com/eggs' class='socialLink socialLink--facebook' rel='noopener' target='_blank'>
+    <span class='visuallyHidden'>Follow us on Facebook</span><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 500 500" width="25" height="25"><path d="M500 250C500 111.93 388.07 0 250 0S0 111.93 0 250c0 117.24 80.72 215.62 189.61 242.64V326.4h-51.55V250h51.55v-32.92c0-85.09 38.51-124.53 122.05-124.53 15.84 0 43.17 3.11 54.35 6.21v69.25c-5.9-.62-16.15-.93-28.88-.93-40.99 0-56.83 15.53-56.83 55.9V250h81.66l-14.03 76.4H280.3v171.77C404.07 483.22 500 377.82 500 250z" fill="#0866ff"/></svg></a>
+  </div><div class='socialLink__wrap'><a href='https://www.youtube.com/channel/UCq6p--GVSjdVKp_B4zQbqgQ' class='socialLink socialLink--youtube' rel='noopener' target='_blank'>
+    <span class='visuallyHidden'>Follow us on YouTube</span><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" width="71.412064" height="50" x="0" y="0" version="1.1" viewBox="0 0 71.412065 50"><g id="g5" transform="scale(.58824)"><path id="path7" fill="#282828" fill-opacity="1" d="M118.9 13.3c-1.4-5.2-5.5-9.3-10.7-10.7C98.7 0 60.7 0 60.7 0s-38 0-47.5 2.5C8.1 3.9 3.9 8.1 2.5 13.3 0 22.8 0 42.5 0 42.5s0 19.8 2.5 29.2C3.9 76.9 8 81 13.2 82.4 22.8 85 60.7 85 60.7 85s38 0 47.5-2.5c5.2-1.4 9.3-5.5 10.7-10.7 2.5-9.5 2.5-29.2 2.5-29.2s.1-19.8-2.5-29.3z"/><path id="polygon9" class="svg--whitespace" fill="#fff" d="M80.2 42.5 48.6 24.3v36.4z"/></g></svg></a>
+  </div><div class='socialLink__wrap'><a href='https://www.pinterest.com/eggs/' class='socialLink socialLink--pinterest' rel='noopener' target='_blank'>
+    <span class='visuallyHidden'>Follow us on Pinterest</span><svg width="26" height="32" viewBox="0 0 26 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.758789 11.4808C0.758789 14 1.77546 17.6731 4.57129 18.5C4.66905 18.5192 4.8059 18.5577 4.90366 18.5577C5.54885 18.5577 5.92033 16.7885 5.92033 16.2885C5.92033 15.6923 4.37578 14.4231 4.37578 11.9423C4.37578 6.78846 8.36424 3.13462 13.5258 3.13462C17.9639 3.13462 21.2485 5.61538 21.2485 10.1731C21.2485 13.5769 19.8604 19.9615 15.3636 19.9615C13.7408 19.9615 12.3527 18.8077 12.3527 17.1538C12.3527 14.7308 14.0732 12.3846 14.0732 9.88461C14.0732 8.36538 13.1934 7.13462 11.5511 7.13462C9.32225 7.13462 7.95366 9.59615 7.95366 11.5385C7.95366 12.6154 8.09052 13.8077 8.5793 14.7885C7.67994 18.5962 5.84212 24.2692 5.84212 28.1923C5.84212 29.4038 6.01808 30.5962 6.13539 31.8077L6.31135 32L6.58507 31.9038C9.86969 27.4808 9.75238 26.6154 11.2383 20.8269C12.0399 22.3269 14.1123 23.1346 15.7546 23.1346C22.6758 23.1346 25.7844 16.5 25.7844 10.5192C25.7844 4.15385 20.1928 0 14.0537 0C7.36712 0 0.758789 4.38462 0.758789 11.4808Z" fill="black"/></svg></a>
+  </div><div class='socialLink__wrap'><a href='https://x.com/eggsoeufs' class='socialLink socialLink--twitter' rel='noopener' target='_blank'>
+    <span class='visuallyHidden'>Follow us on Twitter</span><svg width="25" height="25" viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"/></svg></a>
+  </div></nav></div>
+	
+	<nav class='footer__partnerSiteWrap' aria-label='EFC Partner Links'>
+    <ul class='partnerLinks'><li class='partnerLink'><a href='https://www.eggfarmers.ca/' rel='noopener' target='_blank'>
+      <img src='https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg' srcset='https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 128w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 256w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 384w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 512w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 750w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 1024w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 1440w,https://eggs.ca/wp-content/uploads/2024/06/EFC-Logo.svg 2048w' alt='Egg Farmers of Canada' sizes='250px' class='partnerLink__img' />
+    </a></li><li class='partnerLink'><a href='https://eggquality.ca/' rel='noopener' target='_blank'>
+      <img src='https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg' srcset='https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 128w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 256w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 384w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 512w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 750w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 1024w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 1440w,https://eggs.ca/wp-content/uploads/2024/06/logo-EQA.svg 2048w' alt='Egg Quality Assurance' sizes='250px' class='partnerLink__img' />
+    </a></li></ul>	</nav>
+	
+	<div class='footer__copyright'>&copy; 2024 Egg Farmers of Canada. All Rights Reserved.</div>
+
+  <nav class="footer__policyWrap" aria-label="Policy Nav"><ul id="menu-policy-nav" class="menu"><li id="menu-item-8942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8942"><a href="https://eggs.ca/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-8941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8941"><a href="https://eggs.ca/terms-conditions/">Terms &amp; Conditions</a></li>
+</ul></nav></div></footer></div>
+
+<script src='https://www.youtube.com/player_api' async defer></script>
+</body>
+</html>

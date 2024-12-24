@@ -1,7 +1,7 @@
-# mypy: disallow_untyped_defs=False
 from recipe_scrapers._grouping_utils import group_ingredients
 
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class Matprat(AbstractScraper):
@@ -9,20 +9,8 @@ class Matprat(AbstractScraper):
     def host(cls):
         return "matprat.no"
 
-    def title(self):
-        return self.schema.title()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
+    def site_name(self):
+        raise StaticValueException(return_value="MatPrat")
 
     def ingredient_groups(self):
         return group_ingredients(
@@ -31,15 +19,6 @@ class Matprat(AbstractScraper):
             "h3.ingredient-section-title",
             "ul.ingredientsList > li > span:not(.amount):not(.unit)",
         )
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def description(self):
-        return self.schema.description()
 
     def nutrients(self):
         nutrient_names = [

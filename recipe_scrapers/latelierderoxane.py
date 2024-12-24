@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -7,9 +6,6 @@ class LAtelierDeRoxane(AbstractScraper):
     @classmethod
     def host(cls):
         return "latelierderoxane.com"
-
-    def image(self):
-        return self.schema.image()
 
     def title(self):
         div = self.soup.find("div", {"class": "bloc_titreh1 bloc_blog"})

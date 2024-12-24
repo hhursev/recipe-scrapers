@@ -1,8 +1,5 @@
-# mypy: disallow_untyped_defs=False
-from typing import List
-
 from ._abstract import AbstractScraper
-from ._exceptions import ElementNotFoundInHtml
+from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -15,6 +12,11 @@ class NIHHealthyEating(AbstractScraper):
     def title(self):
         # This content must be present for all recipes on this website.
         return normalize_string(self.soup.h1.get_text())
+
+    def site_name(self):
+        raise StaticValueException(
+            return_value="National Heart, Lung and Blood Institute"
+        )
 
     def total_time(self):
         # This content must be present for all recipes on this website.
@@ -65,7 +67,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
         section = []
@@ -119,7 +121,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return [IngredientGroup(ingredients_list)]
 
-    def ingredients(self) -> List[str]:
+    def ingredients(self) -> list[str]:
         results = []
         for ingredient_group in self.ingredient_groups():
             results.extend(ingredient_group.ingredients)

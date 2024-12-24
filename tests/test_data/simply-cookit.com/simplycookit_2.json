@@ -1,0 +1,78 @@
+{
+  "author": "simply-cookit.com",
+  "canonical_url": "https://www.simply-cookit.com/de/rezepte/pumpkin-pie",
+  "site_name": "Simply Cookit",
+  "host": "simply-cookit.com",
+  "language": "de",
+  "title": "Pumpkin Pie",
+  "ingredients": [
+    "200 g Weizenmehl 405",
+    "120 g Butter, kalt",
+    "60 g Zucker",
+    "40 ml Wasser, eiskalt",
+    "1 Prise Salz",
+    "1 Prise gemahlener Zimt",
+    "750 g Hokkaidokürbis",
+    "100 ml Wasser",
+    "200 g Doppelrahm-Frischkäse",
+    "120 g brauner Zucker",
+    "3 Eier",
+    "1 TL gemahlener Zimt",
+    "0,5 TL Ingwerpulver",
+    "1 Prise Muskatnusspulver",
+    "1 Msp. Pimentpulver",
+    "1 Prise Salz",
+    "Butter, zum Fetten",
+    "Weizenmehl 405, zum Bearbeiten"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "200 g Weizenmehl 405",
+        "120 g Butter, kalt",
+        "60 g Zucker",
+        "40 ml Wasser, eiskalt",
+        "1 Prise Salz",
+        "1 Prise gemahlener Zimt"
+      ],
+      "purpose": "Für den Teig"
+    },
+    {
+      "ingredients": [
+        "750 g Hokkaidokürbis",
+        "100 ml Wasser",
+        "200 g Doppelrahm-Frischkäse",
+        "120 g brauner Zucker",
+        "3 Eier",
+        "1 TL gemahlener Zimt",
+        "0,5 TL Ingwerpulver",
+        "1 Prise Muskatnusspulver",
+        "1 Msp. Pimentpulver",
+        "1 Prise Salz"
+      ],
+      "purpose": "Für die Füllung"
+    },
+    {
+      "ingredients": [
+        "Butter, zum Fetten",
+        "Weizenmehl 405, zum Bearbeiten"
+      ],
+      "purpose": "Außerdem"
+    }
+  ],
+  "category": "Desserts & Backen",
+  "yields": "10 servings",
+  "description": "Der traditionelle Kürbiskuchen aus den USA zeichnet sich durch sein strahlendes Orange und die Vielfalt an Gewürzen aus. Die perfekte Verbindung aus cremiger Kürbisfüllung und knusprigem Mürbeteig. Nach 1 Stunde Abkühlzeit kannst du dich selber von dem unglaublichen Geschmack überzeugen. Für dieses Rezept benötigst du das Crushmesser.",
+  "total_time": 190,
+  "cook_time": 190,
+  "nutrients": {
+    "calories": "344 kcal",
+    "fatContent": "18 g",
+    "carbohydrateContent": "39 g",
+    "proteinContent": "7 g"
+  },
+  "image": "https://www.simply-cookit.com/sites/default/files/styles/square/public/assets/image/2024/10/pumpkin-pie_landscape.jpg?h=4727d466&itok=NZhYUH7F",
+  "keywords": [
+    "Desserts & Backen"
+  ]
+}
