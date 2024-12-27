@@ -67,7 +67,6 @@ docs = [
 tests = [
     "coverage >= 7.6.9",           # Code coverage measurement tool
     "unittest-parallel >= 1.7.0",  # Run unittest tests in parallel
-    "importlib-metadata >= 4.6 ; python_version < '3.10'",  # used in test_readme
 ]
 linters = [
     "pre-commit == 4.0.1",    # latest from PyPI
