@@ -102,5 +102,4 @@ class DagelijkseKost(AbstractScraper):
 
             return parsed_instructions
 
-        raise
         return short_instructions
