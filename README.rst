@@ -415,6 +415,7 @@ Scrapers available for:
 - `https://spainonafork.com/ <https://spainonafork.com/>`_
 - `https://spendwithpennies.com/ <https://spendwithpennies.com/>`_
 - `https://www.springlane.de <https://www.springlane.de>`_
+- `https://stacyling.com/ <https://stacyling.com/>`_
 - `https://www.staysnatched.com/ <https://www.staysnatched.com/>`_
 - `https://steamykitchen.com/ <https://steamykitchen.com>`_
 - `https://streetkitchen.hu/ <https://streetkitchen.hu>`_
