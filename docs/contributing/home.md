@@ -16,7 +16,8 @@ and their frequent design changes, bugs are inevitable. Your reports help us
 maintain quality and improve the project.
 
 Want support for a new site? Open an issue using our _issue templates_. All issues
-should be submitted through our [GitHub repository](https://github.com/hhursev/recipe-scrapers/issues).
+should be submitted through our
+[GitHub repository](https://github.com/hhursev/recipe-scrapers/issues).
 
 ### Contributing to the Project
 

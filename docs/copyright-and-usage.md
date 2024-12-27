@@ -2,7 +2,9 @@
 
 ## Overview
 
-`recipe-scrapers` is a Python library that provides tools for extracting structured recipe data from websites. This document outlines our approach to copyright considerations and clarifies responsibilities for library maintainers and end users.
+`recipe-scrapers` is a Python library that provides tools for extracting structured recipe data
+from websites. This document outlines our approach to copyright considerations and clarifies
+responsibilities for library maintainers and end users.
 
 ## Copyright Responsibility
 
@@ -34,7 +36,8 @@ Many uses of `recipe-scrapers` may fall under fair use doctrine, particularly:
 - Transformative uses that add value to the original content
 - Non-commercial educational purposes
 
-However, users should conduct their own legal analysis based on their specific use case and jurisdiction.
+However, users should conduct their own legal analysis based on their specific use case and
+jurisdiction.
 
 ## Best Practices for Users
 
@@ -58,7 +61,9 @@ For contributors and maintainers:
 
 ## Disclaimer
 
-`recipe-scrapers` is provided "as is" without warranty of any kind. The maintainers make no representations about the suitability, reliability, availability, timeliness, or accuracy of the software or its content extraction capabilities.
+`recipe-scrapers` is provided "as is" without warranty of any kind. The maintainers make no
+representations about the suitability, reliability, availability, timeliness, or accuracy of the
+software or its content extraction capabilities.
 
 ## Additional Resources
 

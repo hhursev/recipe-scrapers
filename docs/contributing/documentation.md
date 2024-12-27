@@ -39,11 +39,12 @@ The preview will automatically update as you make changes to the documentation f
    git push origin docs/your-feature-name
    ```
 
-3. Create a Pull Request (PR) from your fork to the main [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) repository.
+3. Create a Pull Request (PR) from your fork to the main
+[recipe-scrapers](https://github.com/hhursev/recipe-scrapers) repository.
 
 !!! success "PR Preview"
-    When you create a PR, a special preview URL will be generated where your documentation changes can be reviewed.
-    This will make it easy for maintainers to see your changes in action.
+    When you create a PR, a special preview URL will be generated where your documentation
+    changes can be reviewed. This will make it easy for maintainers to see your changes in action.
 
 ## Documentation Style Guidelines
 

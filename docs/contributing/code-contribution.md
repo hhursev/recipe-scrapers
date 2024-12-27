@@ -1,4 +1,4 @@
-# Code Contribution
+# Code Contributions
 
 !!! note "Prerequisites"
     This guide assumes you are already familiar with our [setup guide](./setup.md).
@@ -45,14 +45,16 @@ by taking a look at existing scrapers in the `recipe_scrapers/` directory.
     Where:
 
     - `ClassName`: The name of your new scraper class (e.g., `BBCGoodFood`)
-    - `URL`: A sample recipe URL from the target site. This will be saved in `test_data/` for testing.
+    - `URL`: A sample recipe URL from the target site. This will be saved in `test_data/`
+    for testing.
 
 
 ## Examples
 
 !!! warning "Work in Progress"
 
-    This contributing guide is currently being developed. Meanwhile, you can check these PRs as examples of good contribution standards:
+    This contributing guide is currently being developed. Meanwhile, you can check these
+    PRs as examples of good contribution standards:
 
     - [#1414](https://github.com/hhursev/recipe-scrapers/pull/1414/) - Adding a new site scraper
     - [#1432](https://github.com/hhursev/recipe-scrapers/pull/1432/) - Fixing broken functionality

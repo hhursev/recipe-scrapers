@@ -18,11 +18,13 @@ print(SCRAPERS.get("bbcgoodfood.com"))
 ```
 
 !!! note "Track Your Progress"
-    Create an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) to track your work.
+    Create an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) to track
+    your work.
 
 ## Setup Repository
 
-Fork the [recipe-scrapers repository](https://github.com/hhursev/recipe-scrapers) on GitHub and follow these steps:
+Fork the [recipe-scrapers repository](https://github.com/hhursev/recipe-scrapers) on GitHub and
+follow these steps:
 
 !!! tip "Quick Setup"
     ```sh
@@ -57,7 +59,8 @@ git checkout -b site/website-name
 ### 1. Select Recipe URL
 
 !!! tip "Recipe Selection"
-    Choose a recipe with multiple instructions when possible. Single-instruction recipes may indicate parsing errors, unless [explicitly handled](https://github.com/hhursev/recipe-scrapers/blob/98ead6fc6e9653805b01539a3f46fbfb4e096136/tests/test_allrecipes.py#L147-L150).
+    Choose a recipe with multiple instructions when possible. Single-instruction recipes may
+    indicate parsing errors, unless [explicitly handled](https://github.com/hhursev/recipe-scrapers/blob/98ead6fc6e9653805b01539a3f46fbfb4e096136/tests/test_allrecipes.py#L147-L150).
 
 ### 2. Check Schema Support
 

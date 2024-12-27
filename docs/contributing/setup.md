@@ -107,14 +107,16 @@ automatically when you commit changes, handling tasks like:
 
 ## Syncing Your Fork
 
-To keep your fork up-to-date with the original repository, you can fetch and merge changes from the upstream remote:
+To keep your fork up-to-date with the original repository, you can fetch and merge changes from
+the upstream remote:
 
 ```sh
 git fetch upstream
 git merge upstream/main
 ```
 
-Then create a Pull Request back to the [main repository](https://github.com/hhursev/recipe-scrapers) from your fork.
+Then create a Pull Request back to the [main repository](https://github.com/hhursev/recipe-scrapers)
+from your fork.
 
 
 If you have troubles check out [Submitting A  Pull Request Section](#submitting-a-pull-request).
@@ -134,7 +136,8 @@ If you have troubles check out [Submitting A  Pull Request Section](#submitting-
 
 When you submit your PR:
 
-1. Our CI suite will run against your code to ensure everything works as expected. You can run the tests locally before submitting:
+1. Our CI suite will run against your code to ensure everything works as expected. You can run the
+2. tests locally before submitting:
 ```sh
 python -m unittest
 # or
@@ -151,4 +154,5 @@ unittest-parallel --level test
     - Your contribution will be included in the next release
     - Tackle any follow-up improvements in subsequent PRs
 
-Don't worry if your first PR needs some adjustments - this is normal and part of the collaborative development process!
+Don't worry if your first PR needs some adjustments - this is normal and part of the collaborative
+development process!
