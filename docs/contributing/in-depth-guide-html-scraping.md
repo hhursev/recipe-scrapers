@@ -1,5 +1,8 @@
 # In Depth Guide: HTML Scraping
 
+!!! warning "Under Construction"
+    This section is being updated. Some information may be outdated or inaccurate.
+
 The preferred method of scraping recipe information from a web page is to use the schema.org Recipe data. This is a machine readable, structured format intended to provide a standardised method of extracting information. However, whilst most recipe websites use the schema.org Recipe format, not all do, and for those websites that do, it does not always include all the information we are looking for. In these cases, we can use HTML scraping to extract the information from the HTML markup.
 
 ## `soup`

@@ -5,7 +5,7 @@
 
     - 📖 Check our [contributing guidelines](../contributing/how-to-contribute.md)
     - 🐛 Found a bug? [Open an issue](https://github.com/hhursev/recipe-scrapers/issues)
-    - 🚀 Ready to contribute? Submit a pull request!
+    - 🚀 Ready to contribute? [Submit a pull request](../contributing/setup.md)!
 
 ```python exec="on"
 import sys

@@ -41,7 +41,8 @@ nav:
     - Releases & License: getting-started/releases-and-license.md
   - Contributing:
     - How to Contribute: contributing/how-to-contribute.md
-    - Documentation Contribution: contributing/documentation-contribution.md
+    - Setup: contributing/setup.md
+    - Documentation: contributing/documentation.md
     - Code Contribution: contributing/code-contribution.md
     - How To Develop A Scraper: contributing/how-to-develop-a-scraper.md
     - In-Depth Guides:

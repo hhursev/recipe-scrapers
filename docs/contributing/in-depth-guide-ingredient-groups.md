@@ -1,5 +1,8 @@
 # In Depth Guide: Ingredient Groups
 
+!!! warning "Under Construction"
+    This section is being updated. Some information may be outdated or inaccurate.
+
 Sometimes a website will format lists of ingredients using groups, where each group contains the ingredients needed for a particular aspect of the recipe. Recipe Schema has no way to represent these groupings, so all of the ingredients are presented as a single list and information about the groupings is lost.
 
 Some examples of recipes that have ingredient groups are:

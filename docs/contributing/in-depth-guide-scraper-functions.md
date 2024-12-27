@@ -1,5 +1,8 @@
 # In Depth Guide: Scraper Functions
 
+!!! warning "Under Construction"
+    This section is being updated. Some information may be outdated or inaccurate.
+
 Each website scraper has a number of functions that return information about the recipe that has been scraped. Due to the variability in how recipes are written, not all of them are always applicable. These functions fall into three categories:
 
 1. Mandatory functions
