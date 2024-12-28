@@ -1,0 +1,95 @@
+site_name: recipe-scrapers
+site_url: https://docs.recipe-scrapers.com
+site_description: Documentation for recipe-scrapers - Python package for scraping recipes data from the web
+repo_url: https://github.com/hhursev/recipe-scrapers
+repo_name: hhursev/recipe-scrapers
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+nav:
+  - Getting Started:
+    - Getting Started: index.md
+    - Examples: getting-started/examples.md
+    - Supported Sites: getting-started/supported-sites.md
+    - Advanced Usage: getting-started/advanced-usage.md
+    - Migrating from v14: misc/migrating-from-v14.md
+    - Releases & License: getting-started/releases-and-license.md
+  - Contributing:
+    - Contributing: contributing/home.md
+    - Setup: contributing/setup.md
+    - Documentation: contributing/documentation.md
+    - Code Contributions: contributing/code-contribution.md
+    - How To Develop A Scraper: contributing/how-to-develop-a-scraper.md
+    - In-Depth Guides:
+      - HTML Scraping: contributing/in-depth-guide-html-scraping.md
+      - Scraper Functions: contributing/in-depth-guide-scraper-functions.md
+      - Ingredient Groups: contributing/in-depth-guide-ingredient-groups.md
+      - Debugging: contributing/in-depth-guide-debugging.md
+  - Copyright and Usage:
+    - Copyright and Usage: copyright-and-usage.md
+    - Test Data Notice: test-data-notice.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+plugins:
+  - search
+  - markdown-exec  # used in supported-sites.md
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [tests, recipe_scrapers]
+          options:
+            show_source: true
+            show_root_heading: true
+            heading_level: 1
+            show_category_heading: true
+            docstring_style: google
+#            show_signature_annotations: true
+#            show_if_no_docstring: true
+#            show_root_full_path: true
+#            members: true
+#            show_private_members: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hhursev/recipe-scrapers
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/recipe-scrapers/

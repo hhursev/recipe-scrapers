@@ -251,6 +251,7 @@ from .maangchi import Maangchi
 from .madamecuisine import MadameCuisine
 from .madensverden import MadensVerden
 from .madsvin import Madsvin
+from .makeitdairyfree import MakeItDairyFree
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -278,9 +279,11 @@ from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
 from .myvegetarianroots import MyVegetarianRoots
+from .natashaskitchen import NatashasKitchen
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
+from .noracooks import NoraCooks
 from .norecipes import NoRecipes
 from .nosalty import NoSalty
 from .notenoughcinnamon import NotEnoughCinnamon
@@ -327,6 +330,7 @@ from .recept import Recept
 from .receptyprevas import ReceptyPreVas
 from .recetteplus import RecettePlus
 from .recipegirl import RecipeGirl
+from .recipeland import RecipeLand
 from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
@@ -360,10 +364,12 @@ from .southernliving import SouthernLiving
 from .spainonafork import SpainOnAFork
 from .spendwithpennies import SpendWithPennies
 from .springlane import Springlane
+from .stacyling import StacyLing
 from .staysnatched import StaySnatched
 from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .strongrfastr import StrongrFastr
+from .sugarhero import SugarHero
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
@@ -574,6 +580,7 @@ SCRAPERS = {
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
     MadameCuisine.host(): MadameCuisine,
+    MakeItDairyFree.host(): MakeItDairyFree,
     McCormick.host(): McCormick,
     MeganVsKitchen.host(): MeganVsKitchen,
     Miljuschka.host(): Miljuschka,
@@ -584,6 +591,8 @@ SCRAPERS = {
     MyJewishLearning.host(): MyJewishLearning,
     MyKoreanKitchen.host(): MyKoreanKitchen,
     MyVegetarianRoots.host(): MyVegetarianRoots,
+    NatashasKitchen.host(): NatashasKitchen,
+    NoraCooks.host(): NoraCooks,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
     OneSweetAppetite.host(): OneSweetAppetite,
@@ -597,12 +606,15 @@ SCRAPERS = {
     RecettePlus.host(): RecettePlus,
     RecipeGirl.host(): RecipeGirl,
     Rewe.host(): Rewe,
+    RecipeLand.host(): RecipeLand,
     RicettePerBimby.host(): RicettePerBimby,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
     SheLikesFood.host(): SheLikesFood,
     SpainOnAFork.host(): SpainOnAFork,
+    StacyLing.host(): StacyLing,
     StrongrFastr.host(): StrongrFastr,
+    SugarHero.host(): SugarHero,
     TasteAtlas.host(): TasteAtlas,
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
