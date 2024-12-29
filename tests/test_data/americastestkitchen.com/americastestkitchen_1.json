@@ -72,13 +72,36 @@
   ],
   "category": "Main Courses, Casseroles",
   "yields": "8 servings",
-  "description": "Could we adapt and simplify this northern Italian classic for the American kitchen?",
+  "description": "Could we adapt and simplify this northern Italian classic for the American kitchen? When we started thinking about a simple lasagna Bolognese recipe, there was no denying the appeal of no-boil noodles. After several tests, we found that a five-minute soak proved most effective for getting sturdy, al dente noodles that bound together the layers of ragu and béchamel without soaking up all the moisture. Stumbling through multiple rounds of meat sauce testing gave us the idea of combining the ragu and béchamel when both were lukewarm. The resulting sauce was thickened but easy to spread, with enough moisture for cooking the noodles in our simplified lasagna recipe.",
   "total_time": 210,
   "cuisine": "Europe, Italian",
   "ratings": 4.4,
-  "ratings_count": 80,
+  "ratings_count": 98,
   "nutrients": {
-    "calories": "5764 calories"
+    "calories": "721",
+    "fatContent": "40 grams",
+    "saturatedFatContent": "20 grams",
+    "unsaturatedFatContent": "14 grams",
+    "transFatContent": "1 grams",
+    "carbohydrateContent": "39 grams",
+    "sugarContent": "13 grams",
+    "proteinContent": "39 grams",
+    "sodiumContent": "1165 miligrams",
+    "cholesterolContent": "119 miligrams"
   },
-  "image": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_150/3801_so04-lasagnabolognes-article"
+  "image": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_150/3801_so04-lasagnabolognes-article",
+  "keywords": [
+    "Main Courses",
+    "Europe",
+    "Italian",
+    "Pasta",
+    "Grains",
+    "Rice & Beans",
+    "Eggs & Dairy",
+    "Meat",
+    "Cheese",
+    "Beef",
+    "Pork",
+    "Casseroles"
+  ]
 }

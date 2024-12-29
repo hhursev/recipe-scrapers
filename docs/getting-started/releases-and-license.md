@@ -23,4 +23,8 @@ pip install git+https://github.com/hhursev/recipe-scrapers.git@14.25.0
 This project is licensed under the [MIT License](https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE).
 
 ### Test Data Notice
-The `test_data` directory contains content from various recipe websites used for testing purposes only. This content is used under copyright exceptions including Fair Use (USA), Fair Dealing (UK, Canada, Australia), and other international copyright doctrines that permit limited use of copyrighted material for technical testing purposes. See the [test data license](https://github.com/hhursev/recipe-scrapers/blob/main/tests/test_data/LICENSE.md) for more details.
+The `test_data` directory contains content from various recipe websites used for testing purposes
+only. This content is used under copyright exceptions including Fair Use (USA), Fair Dealing
+(UK, Canada, Australia), and other international copyright doctrines that permit limited use of
+copyrighted material for technical testing purposes. See the [test data license](https://github.com/hhursev/recipe-scrapers/blob/main/tests/test_data/LICENSE.md)
+for more details.
