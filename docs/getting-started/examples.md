@@ -3,8 +3,8 @@
 !!! important
     `recipe-scrapers` is designed to focus **exclusively on HTML parsing**.
 
-    This core principle guides our development and support. You'll need to implement your own solution for fetching
-    recipe HTML files and managing network requests. The library works best when you
+    This core principle guides our development and support. You'll need to implement your own solution
+    for fetching recipe HTML files and managing network requests. The library works best when you
     provide both the HTML content and its source domain.
 
 
