@@ -5,13 +5,16 @@
 
 ## Overview
 
-Version 15 introduces important changes to the core API of recipe-scrapers, particularly regarding how recipes are scraped from websites. The main change is the deprecation of the `scrape_me` function in favor of more explicit HTML parsing methods.
+Version 15 introduces important changes to the core API of recipe-scrapers, particularly regarding
+how recipes are scraped from websites. The main change is the deprecation of the `scrape_me`
+function in favor of more explicit HTML parsing methods.
 
 ## Key Changes
 
 ### 1. Deprecation of `scrape_me`
 
-The `scrape_me` function, which was the primary method for scraping recipes in v14, is being deprecated. While it still works in v15, you'll receive deprecation warnings when using it:
+The `scrape_me` function, which was the primary method for scraping recipes in v14, is being
+deprecated. While it still works in v15, you'll receive deprecation warnings when using it:
 
 ```python
 # Old v14 approach (deprecated)
@@ -38,7 +41,8 @@ scraper = scrape_html(html, org_url=url)
 
 ## Why This Change?
 
-1. **Better Separation of Concerns**: The library now focuses solely on HTML parsing, letting you handle HTTP requests as you see fit
+1. **Better Separation of Concerns**: The library now focuses solely on HTML parsing, letting
+you handle HTTP requests as you see fit
 2. **More Flexibility**: You can use your preferred HTTP client (requests, httpx, aiohttp, etc.)
 3. **Better Error Handling**: Separate networking issues from parsing issues
 
@@ -66,7 +70,8 @@ scraper = scrape_html(html, org_url=url)
    scraper = scrape_html(html, org_url=url)
    ```
 
-3. If you're using a web framework or need to handle many requests, consider using a more robust HTTP client:
+3. If you're using a web framework or need to handle many requests, consider using a more
+robust HTTP client:
    ```python
    # Example with requests
    import requests
