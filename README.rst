@@ -56,7 +56,6 @@ Basic Usage
 
     # Example recipe URL
     url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-
     # retrieve the recipe webpage HTML
     html = urlopen(url).read().decode("utf-8")
 
