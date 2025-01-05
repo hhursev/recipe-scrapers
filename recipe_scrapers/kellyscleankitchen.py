@@ -15,28 +15,26 @@ class KellysCleanKitchen(AbstractScraper):
         )
 
     def total_time(self):
-        total_time = (
-            self.soup.find_all("div", class_="fusion-li-item-content")[3]
-            .get_text()
-            .split(":")[1]
-            .strip()
+        total_time_element = self.soup.find(
+            "span", class_="white-text", string=re.compile("TOTAL TIME")
         )
-        return get_minutes(total_time)
+        if total_time_element:
+            total_time = total_time_element.get_text().split(":")[1]
+            return get_minutes(total_time)
 
     def yields(self):
-        servings = (
-            self.soup.find_all("div", class_="fusion-li-item-content")[0]
-            .get_text()
-            .split(":")[1]
-            .strip()
+        servings_element = self.soup.find(
+            "div", class_="fusion-li-item-content", string=re.compile("SERVINGS")
         )
-        return get_yields(servings)
+        if servings_element:
+            servings = servings_element.get_text().split(":")[1]
+            return get_yields(servings)
 
     def ingredients(self):
         ingredients_list = []
-        ingredients_section = self.soup.find(id=re.compile("ingredients.*")).find_next(
-            "ul"
-        )
+        ingredients_section = self.soup.find(
+            "h3", id=re.compile("ingredients.*")
+        ).find_next("ul")
         if ingredients_section:
             ingredients = ingredients_section.find_all("li")
             ingredients_list = [
@@ -54,22 +52,20 @@ class KellysCleanKitchen(AbstractScraper):
         return "\n".join(instructions_list)
 
     def prep_time(self):
-        prep_time = (
-            self.soup.find_all("div", class_="fusion-li-item-content")[1]
-            .get_text()
-            .split(":")[1]
-            .strip()
+        prep_time_element = self.soup.find(
+            "span", class_="white-text", string=re.compile("PREP TIME")
         )
-        return get_minutes(prep_time)
+        if prep_time_element:
+            prep_time = prep_time_element.get_text().split(":")[1]
+            return get_minutes(prep_time)
 
     def cook_time(self):
-        cook_time = (
-            self.soup.find_all("div", class_="fusion-li-item-content")[2]
-            .get_text()
-            .split(":")[1]
-            .strip()
+        cook_time_element = self.soup.find(
+            "span", class_="white-text", string=re.compile("COOK TIME")
         )
-        return get_minutes(cook_time)
+        if cook_time_element:
+            cook_time = cook_time_element.get_text().split(":")[1]
+            return get_minutes(cook_time)
 
     def description(self):
         description_text = self.soup.find("h1").find_next("p")
