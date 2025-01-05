@@ -233,6 +233,7 @@ from .krollskorner import KrollsKorner
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
+from .lacucinaitaliana import LaCucinaItaliana
 from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
@@ -574,6 +575,7 @@ SCRAPERS = {
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
+    LaCucinaItaliana.host(): LaCucinaItaliana,
     LanasCooking.host(): LanasCooking,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
