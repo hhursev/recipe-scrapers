@@ -576,6 +576,7 @@ SCRAPERS = {
     KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
     LaCucinaItaliana.host(): LaCucinaItaliana,
+    LaCucinaItaliana.host(domain="com"): LaCucinaItaliana,
     LanasCooking.host(): LanasCooking,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
