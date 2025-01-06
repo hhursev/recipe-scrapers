@@ -16,24 +16,28 @@ def levenshtein_distance(s1, s2):
     for i in range(1, m + 1):
         for j in range(1, n + 1):
             cost = 0 if s1[i - 1] == s2[j - 1] else 1
-            dp[i][j] = min(dp[i - 1][j] + 1,         # Deletion
-                           dp[i][j - 1] + 1,         # Insertion
-                           dp[i - 1][j - 1] + cost)  # Substitution
+            dp[i][j] = min(
+                dp[i - 1][j] + 1,  # Deletion
+                dp[i][j - 1] + 1,  # Insertion
+                dp[i - 1][j - 1] + cost,
+            )  # Substitution
 
     return dp[m][n]
 
 
 def find_json(blocks):
     for block in blocks:
-        if not block.string or 'self.__next_f.push' not in block.string:
+        if not block.string or "self.__next_f.push" not in block.string:
             continue
         start_idx = block.string.find('"f:')
         end_idx = block.string.rfind('"')
         if start_idx == -1 or end_idx == -1 or start_idx >= end_idx:
             continue
-        json_content = block.string[start_idx + 3:end_idx]
+        json_content = block.string[start_idx + 3 : end_idx]
         try:
-            unescaped_content = json_content.encode('latin-1', 'backslashreplace').decode('unicode-escape')
+            unescaped_content = json_content.encode(
+                "latin-1", "backslashreplace"
+            ).decode("unicode-escape")
             return json.loads(unescaped_content)
         except json.JSONDecodeError:
             continue
@@ -57,7 +61,7 @@ def find_instructions(data):
 
 def parse_instructions(instructions):
     try:
-        return '\n'.join([instructions[key] for key in sorted(instructions, key=int)])
+        return "\n".join([instructions[key] for key in sorted(instructions, key=int)])
     except (KeyError, ValueError):
         return None
 
@@ -81,7 +85,7 @@ class DagelijkseKost(AbstractScraper):
 
         short_instructions = self.schema.instructions()
 
-        first_instruction = short_instructions.split('\n')[0]
+        first_instruction = short_instructions.split("\n")[0]
         if not first_instruction:
             return short_instructions
 
@@ -89,10 +93,10 @@ class DagelijkseKost(AbstractScraper):
         dist = min(3, len(first_instruction) // 5)
 
         for instructions in instruction_candidates:
-            if '0' not in instructions:
+            if "0" not in instructions:
                 continue
 
-            if levenshtein_distance(first_instruction, instructions['0']) > dist:
+            if levenshtein_distance(first_instruction, instructions["0"]) > dist:
                 continue
 
             parsed_instructions = parse_instructions(instructions)
