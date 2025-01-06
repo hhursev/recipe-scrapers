@@ -1,5 +1,4 @@
 import re
-from typing import List
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
@@ -36,7 +35,7 @@ class KitchenAidAustralia(AbstractScraper):
         elements = self._parse_list(ingredients)
         return elements
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         recipe = self._get_recipe()
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
@@ -54,7 +53,7 @@ class KitchenAidAustralia(AbstractScraper):
     def instructions(self):
         return "\n".join(self.instructions_list())
 
-    def instructions_list(self) -> List[str]:
+    def instructions_list(self) -> list[str]:
         recipe = self._get_recipe()
         method = recipe.find("div", {"class": "rightPanel"})
 
@@ -87,7 +86,7 @@ class KitchenAidAustralia(AbstractScraper):
         """
         return item.find_next_sibling("p").text
 
-    def _parse_list(self, container) -> List[str]:
+    def _parse_list(self, container) -> list[str]:
         """
         Get the text from each of the li elements contained by the given container.
         """

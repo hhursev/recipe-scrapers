@@ -1,0 +1,82 @@
+{
+  "author": "Stacy Roman",
+  "canonical_url": "https://wedishitup.com/14176/sheet-pan-ranch-chicken-thighs/",
+  "site_name": "We Dish It Up",
+  "host": "wedishitup.com",
+  "language": "en-US",
+  "title": "Sheet Pan Ranch Chicken Thighs",
+  "ingredients": [
+    "1 pkt Ranch Seasoning",
+    "1/2 cup Olive Oil",
+    "2 tbsp Garlic Herb Seasoning",
+    "4-6 Chicken Thighs (Bone in Skin On)",
+    "4 Apples (Peeled, Cored and Sliced)",
+    "2 cups Baby Carrots",
+    "2 Red Onions (Thinly Sliced)",
+    "6-8 Red Potatoes (Sliced in Half)",
+    "Chopped Parsley"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 pkt Ranch Seasoning",
+        "1/2 cup Olive Oil",
+        "2 tbsp Garlic Herb Seasoning"
+      ],
+      "purpose": "Chicken Marinade"
+    },
+    {
+      "ingredients": [
+        "4-6 Chicken Thighs (Bone in Skin On)",
+        "4 Apples (Peeled, Cored and Sliced)",
+        "2 cups Baby Carrots",
+        "2 Red Onions (Thinly Sliced)",
+        "6-8 Red Potatoes (Sliced in Half)",
+        "Chopped Parsley"
+      ],
+      "purpose": "Chicken and Vegetables"
+    }
+  ],
+  "instructions_list": [
+    "Pre-heat oven to 400 °",
+    "In a small mixing bowl , combine ranch seasoning , garlic herb seasoning and olive oil, Whisk together.",
+    "In a large bowl place chicken thighs and pour half of the marinade over the chicken and toss to coat well.",
+    "Next, refrigerate marinated chicken for 20-30 minutes well doing the other prepping of veggies.",
+    "Chop and slice apples and veggies.",
+    "Spray a baking pan with nonstick spray , arrange vegetables on baking sheet pour remaining marinade on veggies.",
+    "Add chicken to pan and bake for 35-40 minutes until internal temperature of chicken reaches 165°",
+    "Serve hot"
+  ],
+  "category": "dinner",
+  "yields": "4 servings",
+  "description": "Sheet Pan Ranch Chicken Thighs are the perfect weeknight dinner. Chicken Thighs, baby carrots, red potatoes, apples, red onion, and seasonings. It can all be thrown together on one pan and ready in less than an hour. You can't beat that am I right?",
+  "total_time": 85,
+  "cook_time": 40,
+  "prep_time": 15,
+  "cuisine": "American",
+  "equipment": [
+    "OVEN",
+    "Sheet Pan",
+    "Mixing Bowl"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "730 kcal",
+    "fatContent": "33 g",
+    "saturatedFatContent": "7 g",
+    "unsaturatedFatContent": "24 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "87 g",
+    "sugarContent": "28 g",
+    "proteinContent": "26 g",
+    "sodiumContent": "217 mg",
+    "fiberContent": "13 g",
+    "cholesterolContent": "111 mg"
+  },
+  "image": "https://wedishitup.com/wp-content/uploads/2022/09/Ranch-Chicken-Sheet-Pan-2-1-2.jpg",
+  "keywords": [
+    "Chicken Thighs",
+    "Dinner",
+    "Sheet Pan"
+  ]
+}

@@ -129,8 +129,8 @@ class InitScraperState(ScraperState):
         if isinstance(node, ast.Module) or isinstance(node, ast.Import):
             return True
 
-        if isinstance(node, ast.ImportFrom):
-            if node.module > self.module_name and node.level > 0:
+        if isinstance(node, ast.ImportFrom) and node.level > 0:
+            if node.module > self.module_name:
                 offset = self._offset(node)
                 import_statement = (
                     f"\nfrom .{self.module_name} import {self.class_name}"

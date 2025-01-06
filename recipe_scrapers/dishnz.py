@@ -28,9 +28,7 @@ class Dishnz(AbstractScraper):
         )
 
     def image(self):
-        return "https://{}{}".format(
-            self.host(), self.soup.find("img", itemprop="image").attrs["src"]
-        )
+        return f"https://{self.host()}{self.soup.find('img', itemprop='image').attrs['src']}"
 
     def ingredients(self):
         ingredients = []

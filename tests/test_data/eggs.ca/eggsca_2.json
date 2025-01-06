@@ -1,0 +1,78 @@
+{
+  "author": "Eggs.ca",
+  "canonical_url": "https://eggs.ca/recipes/fudgey-brownies/",
+  "site_name": "Eggs.ca",
+  "host": "eggs.ca",
+  "language": "en",
+  "title": "Fudgy Brownies",
+  "ingredients": [
+    "1 ¼ cup (315 mL) all-purpose flour",
+    "1 tsp baking powder",
+    "½ tsp (2.5 mL) salt",
+    "¾ cup (175 mL) butter or margarine",
+    "¾ cup (175 mL) unsweetened cocoa powder",
+    "1 cup packed brown sugar",
+    "1 cup granulated sugar",
+    "4 eggs",
+    "2 tsp vanilla extract",
+    "1 cup chopped walnuts",
+    "2 tbsp butter or margarine",
+    "¼ cup (60 mL) unsweetened cocoa powder",
+    "½ tsp (2.5 mL) vanilla extract",
+    "2 cups sifted icing sugar",
+    "¼ cup (60 mL) milk (1%)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 ¼ cup (315 mL) all-purpose flour",
+        "1 tsp baking powder",
+        "½ tsp (2.5 mL) salt",
+        "¾ cup (175 mL) butter or margarine",
+        "¾ cup (175 mL) unsweetened cocoa powder",
+        "1 cup packed brown sugar",
+        "1 cup granulated sugar",
+        "4 eggs",
+        "2 tsp vanilla extract",
+        "1 cup chopped walnuts"
+      ],
+      "purpose": "Brownies"
+    },
+    {
+      "ingredients": [
+        "2 tbsp butter or margarine",
+        "¼ cup (60 mL) unsweetened cocoa powder",
+        "½ tsp (2.5 mL) vanilla extract",
+        "2 cups sifted icing sugar",
+        "¼ cup (60 mL) milk (1%)"
+      ],
+      "purpose": "Fudgey Icing"
+    }
+  ],
+  "instructions_list": [
+    "Brownies",
+    "Preheat oven to 350°F (180°C).",
+    "Combine flour, baking powder and salt in medium bowl; set aside. Melt butter in large saucepan over low heat; remove from heat. Stir in cocoa. Beat in brown sugar, sugar, eggs and vanilla. Stir in dry ingredients and walnuts. Spray or butter a 9-inch (23 cm) square pan. Spread batter in pan. Bake in preheated 350°F (180°C) oven for 40 minutes. Do not overbake. Cool completely.",
+    "Fudgey Icing",
+    "Melt butter over low heat in medium saucepan. Remove from heat. Stir in cocoa and vanilla. Stir in icing sugar and milk until smooth and of spreading consistency. Spread icing over cooled brownies."
+  ],
+  "category": "Desserts &amp; Sweets",
+  "yields": "20 servings",
+  "description": "Fudgey brownies are every kid's favourite. These brownies make a decadent dessert and are a great recipe for any bake sale, potluck or birthday celebration.",
+  "total_time": 55,
+  "cook_time": 15,
+  "prep_time": 15,
+  "nutrients": {
+    "calories": "294",
+    "fatContent": "14 g",
+    "saturatedFatContent": "6 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "42 g",
+    "sugarContent": "33 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "167 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "2 mg"
+  },
+  "image": "https://eggs.ca/wp-content/uploads/2024/06/Fudgey-Brownies-UPDATED-CMS.jpg"
+}

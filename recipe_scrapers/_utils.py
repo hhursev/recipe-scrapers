@@ -199,6 +199,8 @@ def get_yields(element):
         serve_text = element
     else:
         serve_text = element.get_text()
+    if not serve_text:
+        raise ValueError("Cannot extract yield information from empty string")
 
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
@@ -222,9 +224,9 @@ def get_yields(element):
         return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return f"{matched} item{'s' if int(matched) != 1 else ''}"
 
-    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+    return f"{matched} serving{'s' if int(matched) != 1 else ''}"
 
 
 def get_equipment(equipment_items):

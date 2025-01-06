@@ -1,7 +1,7 @@
 import pathlib
 import unittest
 from unittest import mock
-from warnings import catch_warnings
+from warnings import catch_warnings, simplefilter
 
 from recipe_scrapers import (
     NoSchemaFoundInWildMode,
@@ -80,6 +80,7 @@ class TestMainMethods(unittest.TestCase):
         mock_get.return_value.text = recipe_html.read_text()
 
         with catch_warnings(record=True) as ws:
+            simplefilter("always", category=DeprecationWarning)
             scrape_html(
                 html=None,
                 org_url="https://recipe-scrapers.example/algorithmic-cupcakes.html",
@@ -104,6 +105,7 @@ class TestMainMethods(unittest.TestCase):
 
         with self.assertRaises(NoSchemaFoundInWildMode):
             with catch_warnings(record=True) as ws:
+                simplefilter("always", category=DeprecationWarning)
                 scrape_html(html=html, org_url=url, online=False, wild_mode=True)
 
         self.assertTrue(any(w.category is DeprecationWarning for w in ws))

@@ -16,23 +16,29 @@ class JulieGoodwin(AbstractScraper):
     def title(self):
         return normalize_string(self.soup.find("h1").get_text())
 
-    def process_total_time(self, container):
-        if container:
-            prep_hours_match = re.search(
-                r"(\d+) hour", container.next_element.get_text()
+    def extract_time(self, keyword):
+        minutes = 0
+        time_elements = self.soup.find_all(["h4", "h3"])
+        for element in time_elements:
+            text = element.get_text(strip=True)
+            match = re.search(
+                rf"{keyword}\s*[\|=]?\s*(\d+)\s*(min|mins|minutes)", text, re.IGNORECASE
             )
-            if prep_hours_match:
-                return 60 * int(prep_hours_match.group(1))
-            prep_mins_match = re.search(r"(\d+) min", container.next_element.get_text())
-            if prep_mins_match:
-                return int(prep_mins_match.group(1))
+            if match:
+                minutes += int(match.group(1))
+        return get_minutes(minutes)
+
+    def prep_time(self):
+        return self.extract_time("Prep time") or 0
+
+    def cook_time(self):
+        return self.extract_time("Cooking time") or 0
 
     def total_time(self):
-        prep = self.soup.find(string=re.compile("Prep time"))
-        mins = self.process_total_time(prep)
-        cooking = self.soup.find(string=re.compile("Cooking time"))
-        mins += self.process_total_time(cooking)
-        return get_minutes(mins)
+        prep_time = self.prep_time()
+        cook_time = self.cook_time()
+        total_mins = prep_time + cook_time
+        return total_mins
 
     def yields(self):
         container = self.soup.find("i", attrs={"class", "fa-cutlery"})

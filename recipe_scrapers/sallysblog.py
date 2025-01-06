@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import IngredientGroup, group_ingredients
 
 
 class SallysBlog(AbstractScraper):
@@ -41,3 +42,16 @@ class SallysBlog(AbstractScraper):
 
     def author(self):
         return "Sally's Blog"
+
+    def ingredient_groups(self):
+        groups = group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".shop-studio-recipes-recipe-detail-tabs-description-ingredients__content__ingredient-list__title",
+            ".shop-studio-recipes-recipe-detail-tabs-description-ingredients__content__ingredient-list__ingredient",
+        )
+
+        if len(groups) > 1:
+            return groups
+        else:
+            return [IngredientGroup(ingredients=self.ingredients(), purpose=None)]

@@ -1,0 +1,104 @@
+{
+  "author": "Gina",
+  "canonical_url": "https://www.skinnytaste.com/sesame-chicken/",
+  "site_name": "Skinnytaste",
+  "host": "skinnytaste.com",
+  "language": "en-US",
+  "title": "Sesame Chicken Recipe",
+  "ingredients": [
+    "1 ½ pounds boneless skinless chicken breast (cut into small 1/2-inch cubes)",
+    "½ teaspoon kosher salt",
+    "½ teaspoon black pepper",
+    "¼ teaspoon ginger powder",
+    "1 teaspoon arrowroot ( or cornstarch)",
+    "1 ½ tablespoons toasted sesame oil",
+    "1 tablespoons avocado oil (divided)",
+    "½ teaspoon red pepper flakes",
+    "1 ½ tablespoons minced garlic (about 4 cloves)",
+    "3 cups cooked white rice",
+    "2 scallions (sliced)",
+    "1/3 cup reduced sodium soy sauce (or gluten-free tamari)",
+    "3 tablespoons monk fruit sweetener (coconut sugar, honey or sweetener of choice)",
+    "2 teaspoons tomato paste",
+    "2 ½ tablespoons seasoned rice vinegar",
+    "½ tablespoon toasted sesame oil",
+    "1 tablespoon sesame seeds (plus more for garnish)",
+    "1 teaspoon grated ginger",
+    "1 tablespoon arrowroot ( or cornstarch)",
+    "¼ cup filtered water"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 ½ pounds boneless skinless chicken breast (cut into small 1/2-inch cubes)",
+        "½ teaspoon kosher salt",
+        "½ teaspoon black pepper",
+        "¼ teaspoon ginger powder",
+        "1 teaspoon arrowroot ( or cornstarch)",
+        "1 ½ tablespoons toasted sesame oil",
+        "1 tablespoons avocado oil (divided)",
+        "½ teaspoon red pepper flakes",
+        "1 ½ tablespoons minced garlic (about 4 cloves)",
+        "3 cups cooked white rice",
+        "2 scallions (sliced)"
+      ],
+      "purpose": "Chicken"
+    },
+    {
+      "ingredients": [
+        "1/3 cup reduced sodium soy sauce (or gluten-free tamari)",
+        "3 tablespoons monk fruit sweetener (coconut sugar, honey or sweetener of choice)",
+        "2 teaspoons tomato paste",
+        "2 ½ tablespoons seasoned rice vinegar",
+        "½ tablespoon toasted sesame oil",
+        "1 tablespoon sesame seeds (plus more for garnish)",
+        "1 teaspoon grated ginger",
+        "1 tablespoon arrowroot ( or cornstarch)",
+        "¼ cup filtered water"
+      ],
+      "purpose": "Sauce"
+    }
+  ],
+  "instructions_list": [
+    "Combine cubed chicken with salt, pepper, ginger, arrowroot, and 1 tablespoon of sesame oil. I like to lay it flat on a cutting board and sprinkle the oil first and mix. Then I evenly distribute the powders and seasonings and mix well to evenly combine.",
+    "Heat a large skillet over medium-high heat for 3 minutes. When hot add half of the avocado oil and let it heat up for 1 minute.",
+    "Add half of the chicken in an even layer to the skillet and cook for 5-6 minutes, flipping halfway until golden brown. It’s best to cook in batches not to overcrowd the pan so chicken can crisp up. Remove from the pan with a slotted spoon and set aside on a plate. Repeat with remaining oil and chicken and set aside.",
+    "Prepare the sauce by mixing the soy sauce, sugar, tomato paste, rice vinegar, sesame oil, sesame seeds, and ginger together in a bowl until well combined. Set aside.",
+    "Make the slurry by combing the tablespoon of cornstarch or arrowroot flour and water together in a small bowl. Set aside.",
+    "Add 1/2 tablespoon sesame oil to the pan along with red chili pepper flakes and garlic. Cook 30 seconds, stirring the pan frequently, until fragrant.",
+    "Add half of the sauce to the pan and continue cooking for 1 minute, stirring the bottom of the pan frequently.",
+    "Return the chicken back into the pan and toss to combine. Add the remainder of the sauce into the pan. Slowly drizzle in the arrowroot slurry and cook for an additional 2 minutes, stirring frequently.",
+    "Serve with cooked rice and garnish with sesame seeds and chopped green onions."
+  ],
+  "category": "Dinner,main dish",
+  "yields": "4 servings",
+  "description": "This healthy Sesame Chicken recipe features chicken breast bites in a sweet, savory, tangy, and slightly spicy sauce topped with sesame seeds and green onions.",
+  "total_time": 35,
+  "cook_time": 20,
+  "prep_time": 15,
+  "cuisine": "Asian,Chinese-American",
+  "ratings": 4.74,
+  "ratings_count": 19,
+  "equipment": [
+    "large deep skilletor wok"
+  ],
+  "nutrients": {
+    "servingSize": "3 /4 cup chicken with 3/4 cups rice",
+    "calories": "513 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "2.5 g",
+    "carbohydrateContent": "54 g",
+    "sugarContent": "1 g",
+    "proteinContent": "44.5 g",
+    "sodiumContent": "1115.5 mg",
+    "fiberContent": "1.5 g",
+    "cholesterolContent": "124 mg"
+  },
+  "image": "https://www.skinnytaste.com/wp-content/uploads/2024/09/Sesame-Chicken-8.jpg",
+  "keywords": [
+    "chicken breast",
+    "high protein",
+    "homemade takeout",
+    "quick stir fry"
+  ]
+}
