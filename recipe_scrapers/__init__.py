@@ -256,6 +256,7 @@ from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
 from .mccormick import McCormick
+from .mealprepmanual import MealPrepManual
 from .meganvskitchen import MeganVsKitchen
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
@@ -314,6 +315,7 @@ from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
 from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
+from .preppykitchen import PreppyKitchen
 from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
 from .projectgezond import ProjectGezond
@@ -582,6 +584,7 @@ SCRAPERS = {
     MadameCuisine.host(): MadameCuisine,
     MakeItDairyFree.host(): MakeItDairyFree,
     McCormick.host(): McCormick,
+    MealPrepManual.host(): MealPrepManual,
     MeganVsKitchen.host(): MeganVsKitchen,
     Miljuschka.host(): Miljuschka,
     ModernHoney.host(): ModernHoney,
@@ -600,6 +603,7 @@ SCRAPERS = {
     PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
+    PreppyKitchen.host(): PreppyKitchen,
     QuiToque.host(): QuiToque,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,

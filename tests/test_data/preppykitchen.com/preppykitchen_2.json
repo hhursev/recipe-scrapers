@@ -1,0 +1,82 @@
+{
+  "author": "John Kanell",
+  "canonical_url": "https://preppykitchen.com/mongolian-beef/",
+  "site_name": "Preppy Kitchen",
+  "host": "preppykitchen.com",
+  "language": "en-US",
+  "title": "Mongolian Beef Recipe",
+  "ingredients": [
+    "⅓ cup soy sauce (80ml)",
+    "⅓ cup water (80ml)",
+    "⅓ cup light brown sugar (73g)",
+    "1 ½ tablespoons minced ginger",
+    "6 garlic cloves (minced)",
+    "1 pound flank steak (thinly sliced against the grain (450g)",
+    "⅓ cup cornstarch (37g)",
+    "3 tablespoons vegetable oil",
+    "10 dried red chilies (or ½ teaspoon crushed red pepper flakes), optional)",
+    "5 green onions (sliced into 1-inch pieces (2¾oucnes/80g)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "⅓ cup soy sauce (80ml)",
+        "⅓ cup water (80ml)",
+        "⅓ cup light brown sugar (73g)",
+        "1 ½ tablespoons minced ginger",
+        "6 garlic cloves (minced)"
+      ],
+      "purpose": "For the Sauce"
+    },
+    {
+      "ingredients": [
+        "1 pound flank steak (thinly sliced against the grain (450g)",
+        "⅓ cup cornstarch (37g)",
+        "3 tablespoons vegetable oil",
+        "10 dried red chilies (or ½ teaspoon crushed red pepper flakes), optional)",
+        "5 green onions (sliced into 1-inch pieces (2¾oucnes/80g)"
+      ],
+      "purpose": "For the Beef"
+    }
+  ],
+  "instructions_list": [
+    "For the Sauce:",
+    "In a medium bowl, whisk together the soy sauce, water, brown sugar, ginger, and garlic. Set aside.",
+    "For the Beef:",
+    "In a large bowl, toss the steak with the cornstarch until well coated.",
+    "In a large skillet or wok, heat the oil over medium-high heat. Shake the beef strips to remove excess cornstarch, and then add the beef to the skillet. Cook, stirring occasionally, until the beef is browned and mostly cooked through, 3 to 4 minutes. Transfer the beef to a large bowl.",
+    "With the skillet still over medium-high heat, add the sauce to the skillet and cook, stirring occasionally, scraping any browned bits from the bottom of the skillet with a spoon, until the sauce is thickened, about 3 minutes. Stir in the beef, red chilies (if using), and green onions.",
+    "Cook, stirring often, until the beef is well coated and the green onions are softened, about 1 minute. Serve immediately over rice."
+  ],
+  "category": "Main Course",
+  "yields": "4 servings",
+  "description": "Quick and savory Mongolian Beef is a restaurant favorite you can make at home in less 20 minutes! Tender and juicy flank steak is the perfect cut of meat to sear before being coated in a homemade sauce. Serve this family-friendly dish with rice and your favorite vegetable.",
+  "total_time": 20,
+  "cook_time": 10,
+  "prep_time": 10,
+  "cuisine": "Chinese",
+  "equipment": [
+    "Mixing Bowls",
+    "Large skillet or wok"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "385 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "4 g",
+    "unsaturatedFatContent": "11 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "33 g",
+    "sugarContent": "19 g",
+    "proteinContent": "27 g",
+    "sodiumContent": "1152 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "68 mg"
+  },
+  "image": "https://preppykitchen.com/wp-content/uploads/2024/12/Mongolian-Beef-Recipe-Card.jpg",
+  "keywords": [
+    "how to make Mongolian Beef",
+    "Mongolian Beef",
+    "Mongolian Beef recipe"
+  ]
+}
