@@ -108,6 +108,7 @@ from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
+from .cookingwithjanica import CookingWithJanica
 from .cookomix import Cookomix
 from .cookpad import CookPad
 from .cookscountry import CooksCountry
@@ -234,6 +235,7 @@ from .krollskorner import KrollsKorner
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
+from .lacucinaitaliana import LaCucinaItaliana
 from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
@@ -256,6 +258,7 @@ from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
 from .mccormick import McCormick
+from .mealprepmanual import MealPrepManual
 from .meganvskitchen import MeganVsKitchen
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
@@ -314,6 +317,7 @@ from .plowingthroughlife import PlowingThroughLife
 from .popsugar import PopSugar
 from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
+from .preppykitchen import PreppyKitchen
 from .pressureluckcooking import PressureLuckCooking
 from .primaledgehealth import PrimalEdgeHealth
 from .projectgezond import ProjectGezond
@@ -529,6 +533,7 @@ SCRAPERS = {
     CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
+    CookingWithJanica.host(): CookingWithJanica,
     Cookomix.host(): Cookomix,
     CooksCountry.host(): CooksCountry,
     CooksIllustrated.host(): CooksIllustrated,
@@ -576,12 +581,15 @@ SCRAPERS = {
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
+    LaCucinaItaliana.host(): LaCucinaItaliana,
+    LaCucinaItaliana.host(domain="com"): LaCucinaItaliana,
     LanasCooking.host(): LanasCooking,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
     MadameCuisine.host(): MadameCuisine,
     MakeItDairyFree.host(): MakeItDairyFree,
     McCormick.host(): McCormick,
+    MealPrepManual.host(): MealPrepManual,
     MeganVsKitchen.host(): MeganVsKitchen,
     Miljuschka.host(): Miljuschka,
     ModernHoney.host(): ModernHoney,
@@ -600,6 +608,7 @@ SCRAPERS = {
     PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
+    PreppyKitchen.host(): PreppyKitchen,
     QuiToque.host(): QuiToque,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,
