@@ -33,7 +33,10 @@
   "total_time": 30,
   "cuisine": "Middle Eastern",
   "nutrients": {
-    "calories": "2558 calories"
+    "calories": "2558 calories",
+    "fatContent": "49 g",
+    "carbohydrateContent": "402 g",
+    "proteinContent": "132 g"
   },
   "image": "https://cdn.sanity.io/images/g1s4qnmz/production/3b2a77f0f746cf90c4f7f49a92b39885ada6e9de-3543x3543.jpg",
   "keywords": [

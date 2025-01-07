@@ -28,7 +28,10 @@
   "total_time": 75,
   "cuisine": "American",
   "nutrients": {
-    "calories": "970 calories"
+    "calories": "970 calories",
+    "fatContent": "60 g",
+    "carbohydrateContent": "100 g",
+    "proteinContent": "12 g"
   },
   "image": "https://cdn.sanity.io/images/g1s4qnmz/production/ba9d3d0d5ff9a0f9f17f8e11df7e93b7f3806a48-1000x1000.jpg",
   "keywords": [
