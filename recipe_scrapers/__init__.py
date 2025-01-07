@@ -376,6 +376,7 @@ from .sugarhero import SugarHero
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
+from .svt import Svt
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
 from .tasteatlas import TasteAtlas
@@ -615,6 +616,7 @@ SCRAPERS = {
     Rewe.host(): Rewe,
     RecipeLand.host(): RecipeLand,
     RicettePerBimby.host(): RicettePerBimby,
+    Svt.host(): Svt,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
     SheLikesFood.host(): SheLikesFood,

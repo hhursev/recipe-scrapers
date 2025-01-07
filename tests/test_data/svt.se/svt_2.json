@@ -1,0 +1,69 @@
+{
+  "author": "Fredrik Borgskog",
+  "canonical_url": "svt.se",
+  "host": "svt.se",
+  "description": "Knäckig saffran och mandelkaka med päron, idén är att använda för hårt kokt eller överbliven knäck i denna kakan. Vid sidan av kakan kommer en lätt vispad vitchokladganache som smaksätts med vanilj och lite citronzest. Själva chokladganachen kan du vispa lite hårdare om önskas och spritsas upp på tex någon bakelse.",
+  "image": "https://backend.main-bvxea6i-nbs7p5fes6fzc.eu-5.platformsh.site/sites/default/files/2024-12/Saffranskakaka.jpg",
+  "ingredients": [
+    "165g smör (rumstempererat)",
+    "330g mandelmassa",
+    "180g ägg (ca 3 st stora)",
+    "35g havremjöl (funkar lika bra med vetemjöl)",
+    "0,5g mixad saffran (1pkt)",
+    "2g salt",
+    "1st stort skalat päron",
+    "20st små knäck",
+    "4g potatismjöl",
+    "130g mjölk",
+    "1st blötlagt gelatinblad",
+    "100g vitchoklad ca 28-32% kakaohalt",
+    "1nypa(or) salt",
+    "zest från en halv citron",
+    "75g grädde",
+    "1st skrapad och hackad vaniljstång"
+  ],
+  "ingredient_groups": [
+    {
+      "purpose": "Saffranskaka",
+      "ingredients": [
+        "165g smör (rumstempererat)",
+        "330g mandelmassa",
+        "180g ägg (ca 3 st stora)",
+        "35g havremjöl (funkar lika bra med vetemjöl)",
+        "0,5g mixad saffran (1pkt)",
+        "2g salt",
+        "1st stort skalat päron",
+        "20st små knäck"
+      ]
+    },
+    {
+      "purpose": "Vispad chokladganache",
+      "ingredients": [
+        "4g potatismjöl",
+        "130g mjölk",
+        "1st blötlagt gelatinblad",
+        "100g vitchoklad ca 28-32% kakaohalt",
+        "1nypa(or) salt",
+        "zest från en halv citron",
+        "75g grädde",
+        "1st skrapad och hackad vaniljstång"
+      ]
+    }
+  ],
+  "instructions": "Receptet passar till 4st små springformar (12cm) eller 1st stor (24cm).\nSaffranskaka:\nMixa smör och mandelmassa i en matberedare, gå sedan i med resterande ingredienser förutom päron och knäck, mixa ihop till en smet. Hacka nu ner knäcken i mindre bitar och dela ut i springformarna som är förberedda med bakplåtspapper i. Strimla upp päronen och lägg ovanpå knäcken. Dela ut saffranssmeten i formarna.Baka av på 180°C i 30min. Låt svalna och servera med botten uppåt.\nVispad chokladganache:\nBörja med att blanda ca 30g mjölk med potatismjölet. Koka upp resterande mjölk med vanilj, salt. Gå sedan i med potatismjölken. Koka upp under omrörning. Smält gelatinet i det. Sila det över chokladen. Mixa ihop till en kräm med stavmixer. Zesta i citron i choklad och häll i grädden. Mixa igen och sätt i kyl. Minst 8 tim kyltid.\nMontering:Börja med att vispa upp ganachen till en härlig konsistens. Dela kakan på hälften och och lägg upp och avsluta med ganachen.\nTips:Ganachen går bra att smaka upp på olika sätt och även bra användningsområde till att garnera bakelser eller tårtor.",
+  "instructions_list": [
+    "Receptet passar till 4st små springformar (12cm) eller 1st stor (24cm).",
+    "Saffranskaka:",
+    "Mixa smör och mandelmassa i en matberedare, gå sedan i med resterande ingredienser förutom päron och knäck, mixa ihop till en smet. Hacka nu ner knäcken i mindre bitar och dela ut i springformarna som är förberedda med bakplåtspapper i. Strimla upp päronen och lägg ovanpå knäcken. Dela ut saffranssmeten i formarna.Baka av på 180°C i 30min. Låt svalna och servera med botten uppåt.",
+    "Vispad chokladganache:",
+    "Börja med att blanda ca 30g mjölk med potatismjölet. Koka upp resterande mjölk med vanilj, salt. Gå sedan i med potatismjölken. Koka upp under omrörning. Smält gelatinet i det. Sila det över chokladen. Mixa ihop till en kräm med stavmixer. Zesta i citron i choklad och häll i grädden. Mixa igen och sätt i kyl. Minst 8 tim kyltid.",
+    "Montering:Börja med att vispa upp ganachen till en härlig konsistens. Dela kakan på hälften och och lägg upp och avsluta med ganachen.",
+    "Tips:Ganachen går bra att smaka upp på olika sätt och även bra användningsområde till att garnera bakelser eller tårtor."
+  ],
+  "language": "sv",
+  "site_name": "SVT recept",
+  "title": "Saffran- och mandelkaka med vispad vitchokladganache",
+  "cook_time": 30,
+  "prep_time": null,
+  "yields": "8 servings"
+}
