@@ -8,7 +8,6 @@ class CookWell(AbstractScraper):
         return "cookwell.com"
 
     def nutrients(self):
-        nutrition = None
         nutrition_pattern = re.compile(
             r'{\\"calories\\":(?P<calories>\d+),\\"carbohydrates\\":(?P<carbohydrates>\d+),\\"fat\\":(?P<fat>\d+),\\"protein\\":(?P<protein>\d+)}'
         )
