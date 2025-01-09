@@ -39,7 +39,6 @@ class TwentyFourKitchen(AbstractScraper):
         paragraph_steps = self.soup.select(".preparation-text p")
         for step in paragraph_steps:
             text = step.get_text(strip=True)
-            # Remove "Stap {number}:" prefix using regex
             cleaned_instructions_text = re.sub(r"^Stap\s*\d+:?", "", text).strip()
             if cleaned_instructions_text:
                 instructions.append(cleaned_instructions_text)
