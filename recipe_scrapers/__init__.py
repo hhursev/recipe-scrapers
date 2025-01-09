@@ -121,6 +121,7 @@ from .countryliving import CountryLiving
 from .creativecanning import CreativeCanning
 from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
+from .culy import Culy
 from .cybercook import Cybercook
 from .damndelicious import DamnDelicious
 from .davidlebovitz import DavidLebovitz
@@ -542,6 +543,7 @@ SCRAPERS = {
     CreativeCanning.host(): CreativeCanning,
     Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
+    Culy.host(): Culy,
     Cybercook.host(): Cybercook,
     DamnDelicious.host(): DamnDelicious,
     DavidLebovitz.host(): DavidLebovitz,
