@@ -220,6 +220,7 @@ from .justataste import JustATaste
 from .justbento import JustBento
 from .justonecookbook import JustOneCookbook
 from .kalejunkie import KaleJunkie
+from .kellyscleankitchen import KellysCleanKitchen
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kingarthur import KingArthur
@@ -580,6 +581,7 @@ SCRAPERS = {
     JoyTheBaker.host(): JoyTheBaker,
     Jumbo.host(): Jumbo,
     KaleJunkie.host(): KaleJunkie,
+    KellysCleanKitchen.host(): KellysCleanKitchen,
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KitchenDivas.host(): KitchenDivas,
     KitchenDreaming.host(): KitchenDreaming,
