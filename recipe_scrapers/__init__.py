@@ -230,6 +230,7 @@ from .kitchenstories import KitchenStories
 from .kochbar import Kochbar
 from .kochbucher import Kochbucher
 from .koket import Koket
+from .kookjij import KookJij
 from .kristineskitchenblog import KristinesKitchenBlog
 from .krollskorner import KrollsKorner
 from .kuchniadomowa import KuchniaDomowa
@@ -579,6 +580,7 @@ SCRAPERS = {
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KitchenDivas.host(): KitchenDivas,
     KitchenDreaming.host(): KitchenDreaming,
+    KookJij.host(): KookJij,
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
