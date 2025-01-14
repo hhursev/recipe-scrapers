@@ -14,8 +14,8 @@ recipe-scrapers
 .. image:: https://pepy.tech/badge/recipe-scrapers
     :target: https://pepy.tech/project/recipe-scrapers
     :alt: Downloads
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=main
-    :target: https://github.com/hhursev/recipe-scrapers/actions/
+.. image:: https://github.com/hhursev/recipe-scrapers/actions/workflows/unittests.yaml/badge.svg?branch=main
+    :target: unittests
     :alt: GitHub Actions Unittests
 .. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github
     :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=main
