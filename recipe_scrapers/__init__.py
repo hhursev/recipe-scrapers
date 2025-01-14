@@ -415,6 +415,7 @@ from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tofoo import Tofoo
 from .tudogostoso import TudoGostoso
+from .twentyfourkitchen import TwentyFourKitchen
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .uitpaulineskeukennl import UitPaulinesKeukenNL
 from .unsophisticook import Unsophisticook
@@ -861,6 +862,7 @@ SCRAPERS = {
     TineNo.host(): TineNo,
     Tofoo.host(): Tofoo,
     TudoGostoso.host(): TudoGostoso,
+    TwentyFourKitchen.host(): TwentyFourKitchen,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     USAPears.host(): USAPears,
     USDAMyPlate.host(): USDAMyPlate,
