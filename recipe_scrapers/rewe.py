@@ -48,13 +48,15 @@ class Rewe(AbstractScraper):
         ingredients = []
 
         for item in list_items:
-            text = item.find("div", {"class": "ld-rds flex-[1_0_0%]"})
-            ingredient_text = (
-                text.get_text(" ", strip=True).replace("\n", "").replace("  ", " ")
+            amount = normalize_string(
+                item.find("div", class_="formattedAmountDiv").get_text()
             )
-            ingredient_text = re.sub(r"\s+", " ", ingredient_text)
-
-            ingredients.append(ingredient_text)
+            ingredient = item.find(
+                "span", {"class": "ld-rds break-words leading-6"}
+            ).get_text(" ", strip=True)
+            ingredients.append(
+                normalize_string(f"{amount + ' ' if amount != '0' else ''}{ingredient}")
+            )
 
         return ingredients
 
