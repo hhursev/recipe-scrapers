@@ -1,5 +1,9 @@
 # How To Develop a New Scraper
 
+!!! warning "Under Construction"
+    This section is being updated. Some information may be outdated or inaccurate.
+
+
 ## Find a website
 
 First, check if the website is already supported:
@@ -14,14 +18,16 @@ print(SCRAPERS.get("bbcgoodfood.com"))
 ```
 
 !!! note "Track Your Progress"
-    Create an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) to track your work.
+    Create an [issue](https://github.com/hhursev/recipe-scrapers/issues/new/choose) to track
+    your work.
 
 ## Setup Repository
 
-Fork the [recipe-scrapers repository](https://github.com/hhursev/recipe-scrapers) on GitHub and follow these steps:
+Fork the [recipe-scrapers repository](https://github.com/hhursev/recipe-scrapers) on GitHub and
+follow these steps:
 
 !!! tip "Quick Setup"
-    ```bash
+    ```sh
     # Clone your fork
     git clone https://github.com/YOUR-USERNAME/recipe-scrapers.git
     cd recipe-scrapers
@@ -35,12 +41,12 @@ Fork the [recipe-scrapers repository](https://github.com/hhursev/recipe-scrapers
 
 Create a new branch:
 
-```bash
+```sh
 git checkout -b site/website-name
 ```
 
 !!! tip "Run Tests"
-    ```bash
+    ```sh
     python -m unittest
 
     # Optional: Parallel testing
@@ -53,7 +59,8 @@ git checkout -b site/website-name
 ### 1. Select Recipe URL
 
 !!! tip "Recipe Selection"
-    Choose a recipe with multiple instructions when possible. Single-instruction recipes may indicate parsing errors, unless [explicitly handled](https://github.com/hhursev/recipe-scrapers/blob/98ead6fc6e9653805b01539a3f46fbfb4e096136/tests/test_allrecipes.py#L147-L150).
+    Choose a recipe with multiple instructions when possible. Single-instruction recipes may
+    indicate parsing errors, unless [explicitly handled](https://github.com/hhursev/recipe-scrapers/blob/98ead6fc6e9653805b01539a3f46fbfb4e096136/tests/test_allrecipes.py#L147-L150).
 
 ### 2. Check Schema Support
 
@@ -68,7 +75,7 @@ print(scraper.schema.data)  # Empty dict if schema not supported
 
 ### 3. Generate Files
 
-```bash
+```sh
 python generate.py <ClassName> <URL>
 ```
 
@@ -123,7 +130,7 @@ Edit `tests/test_data/<host>/test.json`:
 
 ### 2. Run Tests
 
-```bash
+```sh
 python -m unittest -k <ClassName.lower()>
 ```
 
@@ -133,7 +140,7 @@ python -m unittest -k <ClassName.lower()>
 ## Submit Changes
 
 1. Commit your work:
-```bash
+```sh
 git add -p  # Review changes
 git commit -m "Add scraper for example.com"
 git push origin site/website-name

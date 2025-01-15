@@ -6,7 +6,6 @@
 
 
 
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="ie8" lang="en"><![endif]-->
 <!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
@@ -22,18 +21,18 @@
 
   <title>Easy Chilli Con Carne - Recipes - Healthier Families - NHS</title>
 
-
+  
   <link href="https://www.nhs.uk/" rel="preconnect">
   <link href="https://assets.nhs.uk/" rel="preconnect" crossorigin>
 
+  
+  <link rel="stylesheet" href="/campaigns/static/nhsuk/css/main.eea677d0366b.css" type="text/css" />
 
-  <link rel="stylesheet" href="/campaigns/static/nhsuk/css/main.b9972d13bc4e.css" type="text/css" />
+  
+<link rel="stylesheet" type="text/css" href="/campaigns/static/css/hf.b3c4dee4f31a.css">
 
 
-<link rel="stylesheet" type="text/css" href="/campaigns/static/css/hf.2e029550b0e1.css">
-
-
-
+  
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap" media="print" onload="this.media='all'" />
@@ -53,18 +52,18 @@
   <meta name="msapplication-wide310x150logo" content="/campaigns/static/nhsuk/img/favicons/widetile-310x150.535c3996630d.png">
   <meta name="msapplication-square310x310logo" content="/campaigns/static/nhsuk/img/favicons/largetile-310x310.294742e00ff4.png">
 
+  
 
+  
 
-
-
-
+  
     <meta property="og:url" content="https://www.nhs.uk/healthier-families/recipes/chilli-con-carne/">
     <meta property="og:site_name" content="nhs.uk">
     <meta property="og:title" content="Easy Chilli Con Carne - Recipes - Healthier Families"/>
     <meta property="og:description" content="This classic chilli is packed with flavour. It also freezes well, so is perfect for batch-cooking.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_GB">
-    <meta property="og:image" content="https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne.width-1200.jpg">
+    <meta property="og:image" content="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne.width-1200.jpg">
     <meta property="og:image:alt" content="Chilli made with beef, mushrooms, peppers and kidney beans served with rice"/>
     <meta property="article:author" content="https://www.facebook.com/nhswebsite/">
     <meta property="article:modified_time" content="30 May 2023, 4:11 p.m.">
@@ -75,6 +74,8 @@
     <meta name="twitter:creator" content="@nhsuk">
     <meta name="twitter:image:alt" content="Chilli made with beef, mushrooms, peppers and kidney beans served with rice"/>
 
+    
+  
 
   <script src="https://assets.nhs.uk/scripts/cookie-consent.js"></script>
 
@@ -107,23 +108,23 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
+  
     gtag('config', 'G-1K4S0MRD2T');
   </script>
 
     <!--  js for card component-->
     <script src="/campaigns/static/js/card.bd87dbb941c3.js"></script>
   <!-- Event support to record anonymous KPIs. -->
-  <script src="/campaigns/static/js/min/eventtrigger.min.f167b2a7b2f9.js"></script>
+  <script src="/campaigns/static/js/min/eventtrigger-hf.min.50926d84d592.js"></script>
   <!-- js for components-->
-  <script src="/campaigns/static/js/min/main.min.687c229e7d1c.js" defer></script>
+  <script src="/campaigns/static/js/min/main-hf.min.4a2cada329d9.js" defer></script>
 </head>
 
 <body class="">
   <a class="nhsuk-skip-link" href="#maincontent" id="nhsuk-skip-link">Skip to main content</a>
 
-
-
+  
+  
 
 
 
@@ -149,114 +150,114 @@
 
 </header>
 
+  
 
-
-
+  
 
 <nav>
     <div class="nhsuk-width-container hf-navigation">
       <ul class="bh-new-nav">
-
+      
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link " href="/healthier-families/food-facts/" >
                 <span class="bh-new-nav__link--break">Food facts</span>
             </a>
         </li>
-
+        
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link app-nav-active" href="/healthier-families/recipes/" >
                 <span class="bh-new-nav__link--break">Recipes</span>
             </a>
         </li>
-
+        
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link " href="/healthier-families/activities/" >
                 <span class="bh-new-nav__link--break">Activities</span>
             </a>
         </li>
-
+        
         <li class="bh-new-nav__item ia-new-nav__item--active">
             <a class="bh-new-nav__link " href="/healthier-families/childrens-weight/" >
                 <span class="bh-new-nav__link--break">Children&#x27;s weight</span>
             </a>
         </li>
-
+        
       </ul>
     </div>
   </nav>
 
+  
+  
+  
 
 
 
 
 
-
-
-
-
-
-
+  
+  
+  
 
 
   <nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
     <div class="nhsuk-width-container">
       <ol class="nhsuk-breadcrumb__list">
-
-
+        
+            
 
 <li class="nhsuk-breadcrumb__item">
   <a href="/healthier-families/" class="nhsuk-breadcrumb__link">Home</a>
 </li>
-
-
-
-
-
-
+        
+        
+          
+        
+          
+            
 
 <li class="nhsuk-breadcrumb__item">
   <a href="/healthier-families/recipes/" class="nhsuk-breadcrumb__link">Recipes</a>
 </li>
 
-
-
+          
+        
       </ol>
 
       <p class="nhsuk-breadcrumb__back">
-
-
+        
+          
 
 <a href="/healthier-families/recipes/" class="nhsuk-breadcrumb__backlink">Back to Recipes</a>
 
-
+        
       </p>
     </div>
   </nav>
 
 
 
-
+  
 
   <main id="maincontent" class="nhsuk-main-wrapper">
-
-
-
-
-
-
+    
+    
+    
+        
+        
+          
 
 <section class="nhsuk-section app-section " >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-
+      
         <div class="nhsuk-grid-column-full nhsuk-section__content">
            <div class="nhsuk-u-reading-width">
-
-
+            
+            
             </div>
-
-
-
+            
+              
+                  
 
 
 
@@ -273,8 +274,8 @@
     <h1>Chilli con carne recipe</h1>
       <div class="bh-recipe__description"><p data-block-key="i84ap">This classic chilli is packed with flavour. It also freezes well, so is perfect to batch-cook.</p><p data-block-key="03130">Prep: 10 mins<br/>Cook: 25 mins<br/>Serves 4</p></div>
       <div class="bh-recipe__details">
-
-
+        
+        
           <details class="nhsuk-details nhsuk-expander">
             <summary class="nhsuk-details__summary">
               <span class="nhsuk-details__summary-text">
@@ -282,34 +283,34 @@
               </span>
             </summary>
             <div class="nhsuk-details__text">
-
-
+              
+                
                   <p data-block-key="e6jxb">Per serving:</p><ul><li data-block-key="6e06t">2,042kJ / 488kcals</li><li data-block-key="5a9n9">30g protein</li><li data-block-key="akbl1">5g fat, of which 1.5g saturates</li><li data-block-key="eqp54">82g carbohydrate, of which 12g sugars</li><li data-block-key="163ci">7g fibre</li><li data-block-key="cd774">0.9g salt</li></ul>
-
-
+                
+              
             </div>
           </details>
-
+        
       </div>
   </div>
   <div class="nhsuk-grid-column-one-third bh-recipe__image">
     <figure class="nhsuk-image">
       <img
         class="nhsuk-image__img"
-        src="https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg"
+        src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg"
         sizes="
           (min-width: 1020px) 320px,
           (min-width: 768px) 50vw,
           100vw
         "
         srcset="
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg 320w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-510.jpg 510w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-640.jpg 640w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-767.jpg 767w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-1019.jpg 1019w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-1125.jpg 1125w,
-          https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-1534.jpg 1534w
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg 320w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-510.jpg 510w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-640.jpg 640w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-767.jpg 767w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-1019.jpg 1019w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-1125.jpg 1125w,
+          https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-1534.jpg 1534w
         "
         alt="Chilli made with beef, mushrooms, peppers and kidney beans served with rice"
       />
@@ -320,58 +321,58 @@
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third">
-
+          
             <h2 data-block-key="sks56">Ingredients</h2><ul><li data-block-key="9mq5k">300g extra-lean minced beef</li><li data-block-key="5ncd7">1 large onion, finely chopped</li><li data-block-key="8jqoh">2 garlic cloves, finely chopped</li><li data-block-key="amhbc">400g chopped tomatoes</li><li data-block-key="4mhhc">2 tablespoons tomato purée</li><li data-block-key="cr68a">2 teaspoons chilli powder</li><li data-block-key="2dfgb">1 teaspoon ground cumin</li><li data-block-key="5q1u1">1 red pepper, deseeded and chopped</li><li data-block-key="cavvd">2 handfuls of cup or button mushrooms, sliced</li><li data-block-key="6sbrl">410g red kidney beans, drained</li><li data-block-key="8gir4">150ml reduced-salt vegetable or chicken stock</li><li data-block-key="e4vss">300g easy-cook white or brown rice</li><li data-block-key="6hjhi">1 pinch ground black pepper</li></ul>
-
+          
       </div>
       <div class="nhsuk-grid-column-two-thirds bh-recipe-instructions__method">
         <h2>Method</h2>
         <ol>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="y8m4o">Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.</p>
-
+  
     <div class="nhsuk-inset-text">
   <span class="nhsuk-u-visually-hidden">Information: </span>
   <p data-block-key="sictq">Turkey mince also makes an excellent chilli – and it&#x27;s lower in fat too. If you want to keep things vegetarian, substitute the minced beef with vegetarian mince, or try our <a href="/healthier-families/recipes/tasty-vegetarian-chilli/">tasty veggie chilli recipe</a>.</p>
 </div>
 
-
+  
 </li>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="wx53g">Add the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.</p>
-
+  
 </li>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="jum64">Meanwhile, cook the rice according to pack instructions.</p>
-
+  
 </li>
-
-
+          
+            
 
 <li>
-
+  
     <p data-block-key="2f16g">Season the chilli with pepper and serve with the boiled rice.</p>
-
+  
     <div class="nhsuk-inset-text">
   <span class="nhsuk-u-visually-hidden">Information: </span>
   <p data-block-key="3om7p">Chilli makes a really versatile topping or filling, and is also great for reheating leftovers. So instead of rice, try serving with baked potatoes, topped with a spoonful of low-fat plain yoghurt and some chopped cucumber and tomatoes – or in a wholewheat wrap.</p>
 </div>
 
-
+  
 </li>
-
+          
         </ol>
       </div>
     </div>
@@ -383,128 +384,128 @@
     "@context": "https://schema.org",
     "@type": "Recipe",
     "description": "This classic chilli is packed with flavour. It also freezes well, so is perfect to batch-cook.",
-    "image": "https://assets.nhs.uk/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg",
+    "image": "https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg",
     "recipeIngredient": ["300g extra-lean minced beef", "1 large onion, finely chopped", "2 garlic cloves, finely chopped", "400g chopped tomatoes", "2 tablespoons tomato pur\u00e9e", "2 teaspoons chilli powder", "1 teaspoon ground cumin", "1 red pepper, deseeded and chopped", "2 handfuls of cup or button mushrooms, sliced", "410g red kidney beans, drained", "150ml reduced-salt vegetable or chicken stock", "300g easy-cook white or brown rice", "1 pinch ground black pepper"],
     "name": "Chilli con carne recipe",
     "recipeInstructions": "Heat a large saucepan and add the minced beef, a handful at a time, cooking it until browned. Add the onion and garlic, then cook for another 2 to 3 minutes.Add the chopped tomatoes, tomato purée, spices, red pepper, mushrooms, kidney beans and stock. Stir well, bring to the boil, then lower the heat and simmer gently for 15 to 20 minutes.Meanwhile, cook the rice according to pack instructions.Season the chilli with pepper and serve with the boiled rice."
   }
   </script>
-
-
+              
+            
           </div>
-
+      
     </div>
   </div>
 </section>
 
-
-
+        
+          
 
 <section class="nhsuk-section app-section--banana"  id="more-recipes" >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-
+      
         <div class="nhsuk-grid-column-full nhsuk-section__content">
            <div class="nhsuk-u-reading-width">
-
+            
               <h2>More recipes</h2>
-
-
+            
+            
             </div>
-
-
-
+            
+              
+                  
 
 <div class="nhsuk-grid-row nhsuk-promo-group">
-
+  
     <div class=" nhsuk-grid-column-one-third  nhsuk-promo-group__item  bh-partners-promo">
-
+      
 
 
 <div class="nhsuk-promo">
   <a class="nhsuk-promo__link-wrapper" href="/healthier-families/recipes/panjabi-keema/">
-
-
-      <img class="nhsuk-promo__img" src="https://assets.nhs.uk/campaigns-cms-prod/images/Panjabi_Keema.2e16d0ba.fill-720x405.png" alt="">
-
+    
+      
+      <img class="nhsuk-promo__img" src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Panjabi_Keema.2e16d0ba.fill-720x405.png" alt="">
+    
     <div class="nhsuk-promo__content">
       <h3 class="nhsuk-promo__heading">Panjabi keema</h3>
       <div class="nhsuk-promo__description">
-
-
+        
+        
       </div>
     </div>
   </a>
 </div>
     </div>
-
+  
     <div class=" nhsuk-grid-column-one-third  nhsuk-promo-group__item  bh-partners-promo">
-
+      
 
 
 <div class="nhsuk-promo">
   <a class="nhsuk-promo__link-wrapper" href="/healthier-families/recipes/classic-cottage-pie/">
-
-
-      <img class="nhsuk-promo__img" src="https://assets.nhs.uk/campaigns-cms-prod/images/Classic_cottage_pie.2e16d0ba.fill-720x405.png" alt="">
-
+    
+      
+      <img class="nhsuk-promo__img" src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Classic_cottage_pie.2e16d0ba.fill-720x405.png" alt="">
+    
     <div class="nhsuk-promo__content">
       <h3 class="nhsuk-promo__heading">Classic cottage pie</h3>
       <div class="nhsuk-promo__description">
-
-
+        
+        
       </div>
     </div>
   </a>
 </div>
     </div>
-
+  
     <div class=" nhsuk-grid-column-one-third  nhsuk-promo-group__item  bh-partners-promo">
-
+      
 
 
 <div class="nhsuk-promo">
   <a class="nhsuk-promo__link-wrapper" href="/healthier-families/recipes/dinner/">
-
-
-      <img class="nhsuk-promo__img" src="https://assets.nhs.uk/campaigns-cms-prod/images/Salmon_with_spring_onion_mash_KX8I.2e16d0ba.fill-720x405.png" alt="">
-
+    
+      
+      <img class="nhsuk-promo__img" src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Salmon_with_spring_onion_mash_KX8I.2e16d0ba.fill-720x405.png" alt="">
+    
     <div class="nhsuk-promo__content">
       <h3 class="nhsuk-promo__heading">More dinner ideas</h3>
       <div class="nhsuk-promo__description">
-
-
+        
+        
       </div>
     </div>
   </a>
 </div>
     </div>
-
+  
 </div>
 
-
-
+              
+            
           </div>
-
+      
     </div>
   </div>
 </section>
 
-
-
+        
+          
 
 <section class="nhsuk-section app-section--pomegranate"  id="signup-emails" >
   <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
-
+      
         <div class="nhsuk-grid-column-full nhsuk-section__content">
            <div class="nhsuk-u-reading-width">
-
-
+            
+            
             </div>
-
-
-
+            
+              
+                  
 
 
 
@@ -518,61 +519,61 @@
 
         <img
         class="nhsuk-card__img nhsuk-grid-column-one-half"
-        src="https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg"
+        src="https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg"
         sizes="
             (min-width: 1020px) 510px,
             (min-width: 768px) 50vw,
             100vw"
         srcset="
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg 320w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-510_NfVzp1g.jpg 510w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-640_lIaZS0j.jpg 640w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-767_OFJ0mAJ.jpg 767w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1019_4GllBgO.jpg 1019w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1125_xF06MA0.jpg 1125w,
-            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1534_msakzDJ.jpg 1534w
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_TWMe8UM.jpg 320w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-510_NfVzp1g.jpg 510w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-640_lIaZS0j.jpg 640w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-767_OFJ0mAJ.jpg 767w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1019_4GllBgO.jpg 1019w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1125_xF06MA0.jpg 1125w,
+            https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1534_msakzDJ.jpg 1534w
             "
         alt=""
         />
 
         <div class="nhsuk-card__content nhsuk-grid-column-one-half">
-
+            
                 <h2
                 class="
                 nhsuk-card__heading
-
-
-
+                
+                
+                
                 "
                 >
-
+                
                     <a class="nhsuk-card__link" href="https://healthysteps.betterhealth-healthierfamilies.co.uk/signup/?bh_hf">
                     Sign up for Healthy Steps emails
                     </a>
-
+                
                 </h2>
-
-
+            
+            
             <p data-block-key="y1gr4">Want the recipe for a healthier family? Join today and over 8 weeks you&#x27;ll get easy tips from nutrition experts and parents, healthy swaps and tasty recipes on a budget.</p>
-
+            
         </div>
     </div>
 </div>
 
-
-
+              
+            
           </div>
-
+      
     </div>
   </div>
 </section>
 
-
-
-
+        
+      
+    
   </main>
 
-
+  
 
 <footer role="contentinfo">
   <div class="nhsuk-footer" id="nhsuk-footer">
@@ -580,19 +581,19 @@
       <nav class="footer-nav">
         <h2 class="nhsuk-u-visually-hidden">Support links</h2>
         <ul class="nhsuk-footer__list">
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/about-and-contact/"  class="nhsuk-footer__list-item-link">About and contact</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/accessibility-statement/"  class="nhsuk-footer__list-item-link">Accessibility statement</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="https://www.nhs.uk/our-policies/cookies-policy/"  class="nhsuk-footer__list-item-link">Cookies</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/privacy-policy/"  class="nhsuk-footer__list-item-link">Privacy policy</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/site-map/"  class="nhsuk-footer__list-item-link">Site map</a></li>
-
+        
           <li class="nhsuk-footer__list-item"><a href="/healthier-families/terms-and-conditions/"  class="nhsuk-footer__list-item-link">Terms and conditions</a></li>
-
+        
         </ul>
       </nav>
       <p class="nhsuk-footer__copyright">&copy; Crown copyright</p>
@@ -601,11 +602,11 @@
 </footer>
 
 
+  
 
-
-
-
-
+  
+  
+  
 </body>
 
 </html>
