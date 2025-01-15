@@ -224,9 +224,9 @@ def get_yields(element):
         return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return f"{matched} item{'s' if int(matched) != 1 else ''}"
 
-    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+    return f"{matched} serving{'s' if int(matched) != 1 else ''}"
 
 
 def get_equipment(equipment_items):
