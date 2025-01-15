@@ -3,9 +3,9 @@
 !!! success "Join Our Community"
     🌟 Want to add your favorite recipe site? We'd love your help!
 
-    - 📖 Check our [contributing guidelines](../contributing/how-to-contribute.md)
+    - 📖 Check our [contributing guidelines](../contributing/home.md)
     - 🐛 Found a bug? [Open an issue](https://github.com/hhursev/recipe-scrapers/issues)
-    - 🚀 Ready to contribute? Submit a pull request!
+    - 🚀 Ready to contribute? [Submit a pull request](../contributing/setup.md)!
 
 ```python exec="on"
 import sys

@@ -1,0 +1,2088 @@
+<!doctype html>
+<html lang="nl-NL" class="no-js">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript">window.gdprAppliesGlobally=true;
+(function(){function n(){if(!window.frames.__cmpLocator){if(document.body&&document.body.firstChild){var e=document.body;var t=document.createElement("iframe");t.style.display="none";t.name="__cmpLocator";t.title="cmpLocator";e.insertBefore(t,e.firstChild)}else{setTimeout(n,5)}}}function e(e,t,n){if(typeof n!=="function"){return}
+if(!window.__cmpBuffer){window.__cmpBuffer=[]}if(e==="ping"){n({gdprAppliesGlobally:window.gdprAppliesGlobally,cmpLoaded:false},true)}else{window.__cmpBuffer.push({command:e,parameter:t,callback:n})}}e.stub=true;function t(r){if(!window.__cmp||window.__cmp.stub!==true){return}if(!r.data){return}var a=typeof r.data==="string";var e;try{e=a?JSON.parse(r.data):r.data}catch(t){return}if(e.__cmpCall){var o=e.__cmpCall;window.__cmp(o.command,o.parameter,function(e,t){var n={__cmpReturn:{returnValue:e,success:t,callId:o.callId}};r.source.postMessage(a?JSON.stringify(n):n,"*")})}}if(typeof window.__cmp!=="function"){window.__cmp=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}n()})();(function(e){var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];
+n.parentNode.insertBefore(t,n)})("11ef8ac9-6270-4d5e-8b99-8d6a5bd60059");console.log('Didomi cookiewall');
+
+window.didomiOnReady = window.didomiOnReady || [];
+window.didomiOnReady.push(function (Didomi) {
+    window.tc_vars = {
+      // Add Didomi variables
+      didomiGDPRApplies: window.didomiState.didomiGDPRApplies,
+      didomiIABConsent: window.didomiState.didomiIABConsent,
+      didomiVendorsConsent: window.didomiState.didomiVendorsConsent,
+      didomiVendorsConsentUnknown: window.didomiState.didomiVendorsConsentUnknown,
+      didomiVendorsConsentDenied: window.didomiState.didomiVendorsConsentDenied,
+      didomiPurposesConsent: window.didomiState.didomiPurposesConsent,
+      didomiPurposesConsentUnknown: window.didomiState.didomiPurposesConsentUnknown,
+      didomiPurposesConsentDenied: window.didomiState.didomiPurposesConsentDenied,
+      didomiExperimentId: window.didomiState.didomiExperimentId,
+      didomiExperimentUserGroup: window.didomiState.didomiExperimentUserGroup,
+    };
+    if(tc_vars.didomiPurposesConsent != ''){
+        console.log( 'cookiewall okay');
+        consentLevel = 3;
+        loadAllScripts();
+      }
+});
+
+window.didomiEventListeners = window.didomiEventListeners || [];
+  window.didomiEventListeners.push({
+    event: 'notice.clickagree',
+    listener: function () {
+      console.log('clicked agree');
+      consentLevel =3;
+      loadAllScripts();
+      return false;
+    }
+  });
+  window.didomiEventListeners.push({
+    event: 'preferences.clickagreetoall',
+    listener: function () {
+        console.log('clicked agree');
+        consentLevel =3;
+        loadAllScripts();
+        return false;
+    }
+  });
+  window.didomiEventListeners.push({
+    event: 'preferences.clicksavechoices',
+    listener: function () {
+        console.log('clicked agree');
+        consentLevel = 3;
+        loadAllScripts();
+        return false;
+    }
+  });
+
+function loadAllScripts(){
+  console.log('start loading all scripts 2.19');
+  console.log(tc_vars.didomiPurposesConsentDenied);
+  var deniedConsent = tc_vars.didomiPurposesConsentDenied;
+  
+  if(deniedConsent.indexOf('cookies') == -1) {
+    //SETTING VARIABLES
+    var wpk_tags = dataLayer[0].Tags;
+    if (wpk_tags != undefined) {
+      var wpk_tags_array = wpk_tags.split(',');
+    } else {
+      var wpk_tags_array = [];
+    }
+
+    var sales_keywords = dataLayer[0].sales_keywords;
+    if(sales_keywords == undefined){
+        sales_keywords= '';
+    } else {
+      sales_keywords = sales_keywords.replace(/_/g, '');
+      sales_keywords = sales_keywords.replace(/&/g, '_');
+      sales_keywords = sales_keywords.replace(/&amp;/g, '_');
+    }
+
+    if (typeof dataLayer[0].Site !== 'undefined') {
+      var site_name = dataLayer[0].Site.toLowerCase();
+    } else {
+      var site_name = '';
+    }
+
+    site_name = site_name.split(".");
+
+    //SETTING VARIABLES
+    var script = document.createElement("script");
+    script.src = "https://shared.mediahuis.be/cxense/cxense.culy.min.js";
+    script.type = "didomi/javascript";
+    script.setAttribute('data-vendor','iab:412');
+
+    console.log('ads: '+deniedConsent.indexOf('create_ads_profile'));
+    console.log('content: '+deniedConsent.indexOf('select_personalized_content'));
+
+    if(deniedConsent.indexOf('create_ads_profile') < 0  && deniedConsent.indexOf('select_personalized_content') < 0){
+      document.head.appendChild(script);
+      console.log('load cxense!!!');
+    } else {
+      console.log('NOT load cxense!!');
+    }
+    if (dataLayer[0].show_banners == 1) {
+      console.log('cancel fillSlots from cookiewall');
+      // setTimeout(function(){ fillSlots(); }, 1000);   // REMOVED BECAUSE KA-CHING IS NOW ALWAYS LOADING
+    }
+    if(deniedConsent.indexOf('social_media') < 0){
+      var y = document.getElementsByClassName("social-media-no-consent-box");
+      var i;
+      for (i = 0; i < y.length; i++) {
+        y[i].style.display = "none";
+      }
+      var x_fb_post = document.getElementsByClassName("fb-post-no-consent");
+      while(x_fb_post.length > 0) {
+        x_fb_post[0].className = "fb-post";
+      }
+      var x_fb_video = document.getElementsByClassName("fb-video-no-consent");
+      var i;
+      while(x_fb_video.length > 0) {
+        x_fb_video[0].className = "fb-video";
+      }
+      var x_twitter = document.getElementsByClassName("twitter-tweet-no-consent");
+      while(x_twitter.length > 0) {
+        x_twitter[0].className = "twitter-tweet";
+      }
+      var xi = document.getElementsByClassName("instagram-media-no-consent");
+      while(xi.length > 0) {
+        xi[0].className = "instagram-media";
+      }
+      var script = document.createElement("script");
+      script.src = "https://platform.twitter.com/widgets.js";
+      document.head.appendChild(script);
+
+      var script = document.createElement("script");
+      script.src = "https://www.instagram.com/embed.js";
+      document.head.appendChild(script);
+
+      var script = document.createElement("script");
+      script.innerHTML = "window.instgrm.Embeds.process();";
+      document.head.appendChild(script);
+
+      var script = document.createElement("script");
+      script.src = "https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&amp;version=v8.0";
+
+      var facebookDiv = document.createElement('script');
+          facebookDiv.innerHTML =`window.fbAsyncInit = function() {FB.init({ xfbml      : true, version    : 'v5.0' });}; `;
+          document.head.appendChild(facebookDiv);
+
+      var my_awesome_script = document.createElement('script');
+          my_awesome_script.setAttribute('src','https://connect.facebook.net/en_US/sdk.js');
+          my_awesome_script.async = 'true';
+          my_awesome_script.defer = 'true';
+          document.head.appendChild(my_awesome_script);
+    }
+  }
+}
+
+if (navigator.userAgent.toLowerCase().indexOf('cxensebot') != -1) {
+  loadAllScripts();
+}
+</script>
+
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="manifest" href="/wp-json/app/manifest">
+  <link rel="preload" href="https://www.culy.nl/wp-content/themes/fw3-culy/fonts/wpk.ttf?6dnb4w" as="font" crossorigin="anonymous">
+  <link rel="license" href="https://www.mediahuis.nl/algemene-voorwaarden/gebruikersvoorwaarden-uitgaven/general-terms-of-use-for-mediahuis-publications/">
+  <meta name="dcterms.rights" content="Mediahuis Nederland B.V." />
+      <meta name="theme-color" content="#ea4816">
+        <script>
+    document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,"js");var window_width=Math.max(document.documentElement.clientWidth,window.innerWidth||0),isApple=/ipad|iphone|ipod/i.test(navigator.userAgent.toLowerCase()),isIphone=/iphone/i.test(navigator.userAgent.toLowerCase()),isAndroid=/android/i.test(navigator.userAgent.toLowerCase()),isMsie=/msie|windows/i.test(navigator.userAgent.toLowerCase()),isEdge=/edge/i.test(navigator.userAgent.toLowerCase());if(isApple)document.documentElement.className+=" apple",isIphone&&(document.documentElement.className+=" iphone");else if(isAndroid)document.documentElement.className+=" android";else if(isEdge)document.documentElement.className+=" edge";else if(isMsie){document.documentElement.className+=" msie";var isTen=/msie\ 10.0/i.test(navigator.userAgent.toLowerCase());isTen&&(document.documentElement.className+=" msie10");var isChrome=/chrome/i.test(navigator.userAgent.toLowerCase());isChrome&&(document.documentElement.className+=" mschrome");var isOld=/msie\ 9.0/i.test(navigator.userAgent.toLowerCase());isOld&&(document.documentElement.className+=" msieold");var isTooOld=/msie 8.0|msie 7.0|msie 6.0/i.test(navigator.userAgent.toLowerCase());isTooOld&&(document.documentElement.className+=" noooooo")}
+  </script>
+
+  		<style type="text/css">
+			.rtng-star .dashicons {
+				color: #ffb900 !important;
+				font-size: 20px;
+			}
+			.rtng-star .dashicons.rtng-hovered,
+			.rtng-star-rating.rtng-no-js .rtng-star input:checked + .dashicons::before {
+				color: #ff7f00 !important;
+			}
+			.rtng-text {
+				color: #777777 !important;
+				font-size: 18px;
+			}
+			.rtng-rate-bar-wrap {
+				height: 10px;
+				border: 1px solid #ffb900;
+			}
+			.rtng-rate-bar {
+				height: 100%;
+				background-color: #ffb900;
+			}
+		</style>
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v23.2 (Yoast SEO v23.2) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Zuurvlees (Limburgs zoervleisj) maken: zo doe je dat zelf - Culy</title>
+	<meta name="description" content="Een Limburgs zuurvlees-recept (ook wel zoervleisj) mag niet ontbreken in je repertoire! Een op en top winters gerecht dat heel goed thuis te maken is." />
+	<link rel="canonical" href="https://www.culy.nl/recepten/zuurvlees-zoervleisj/" />
+	<meta property="og:locale" content="nl_NL" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Zo maak je thuis Limburgs zuurvlees (zoervleisj)" />
+	<meta property="og:description" content="Limburgs zuurvlees, ofwel zoervleisj, is een op en top winters gerecht vol smaak en is heel goed thuis te maken." />
+	<meta property="og:url" content="https://www.culy.nl/recepten/zuurvlees-zoervleisj/" />
+	<meta property="og:site_name" content="Culy" />
+	<meta property="article:publisher" content="https://www.facebook.com/CulyNL" />
+	<meta property="article:modified_time" content="2025-01-09T08:55:06+00:00" />
+	<meta property="og:image" content="https://img.culy.nl/images/lR_HW0Of_43dBjxpNk59ik45Ys8=/0x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg" />
+	<meta property="og:image:width" content="1024" />
+	<meta property="og:image:height" content="683" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="Een Limburgs zuurvlees-recept (ook wel zoervleisj) mag niet ontbreken in je repertoire! Een op en top winters gerecht dat heel goed thuis te maken is." />
+	<meta name="twitter:site" content="@CulyNL" />
+	<meta name="twitter:label1" content="Geschatte leestijd" />
+	<meta name="twitter:data1" content="4 minuten" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/","url":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/","name":"Zuurvlees (Limburgs zoervleisj) maken: zo doe je dat zelf - Culy","isPartOf":{"@id":"https://www.culy.nl/#website"},"primaryImageOfPage":{"@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/#primaryimage"},"image":{"@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/#primaryimage"},"thumbnailUrl":"https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg","datePublished":"2025-01-08T15:00:18+00:00","dateModified":"2025-01-09T08:55:06+00:00","description":"Een Limburgs zuurvlees-recept (ook wel zoervleisj) mag niet ontbreken in je repertoire! Een op en top winters gerecht dat heel goed thuis te maken is.","breadcrumb":{"@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/#breadcrumb"},"inLanguage":"nl-NL","potentialAction":[{"@type":"ReadAction","target":["https://www.culy.nl/recepten/zuurvlees-zoervleisj/"]}]},{"@type":"ImageObject","inLanguage":"nl-NL","@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/#primaryimage","url":"https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg","contentUrl":"https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg","width":6000,"height":4000,"caption":"Bron:"},{"@type":"BreadcrumbList","@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.culy.nl/"},{"@type":"ListItem","position":2,"name":"Zo maak je thuis Limburgs zuurvlees (zoervleisj)"}]},{"@type":"WebSite","@id":"https://www.culy.nl/#website","url":"https://www.culy.nl/","name":"Culy","description":"Dagelijks genieten","publisher":{"@id":"https://www.culy.nl/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.culy.nl/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"nl-NL"},{"@type":"Organization","@id":"https://www.culy.nl/#organization","name":"Culy","url":"https://www.culy.nl/","logo":{"@type":"ImageObject","inLanguage":"nl-NL","@id":"https://www.culy.nl/#/schema/logo/image/","url":"https://www.culy.nl/wp-content/uploads/2018/05/culy_logo.gif","contentUrl":"https://www.culy.nl/wp-content/uploads/2018/05/culy_logo.gif","width":143,"height":141,"caption":"Culy"},"image":{"@id":"https://www.culy.nl/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CulyNL","https://x.com/CulyNL","https://www.instagram.com/culynl/","https://nl.pinterest.com/culy/","https://www.youtube.com/user/CulyNL"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//shared.mediahuis.be' />
+<link rel='dns-prefetch' href='//www.dwin2.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+        <script>
+          dataLayer = [{
+          'show_banners': 1,
+          'Author':'OgechiChibueze',
+          'Pubdate':'2025/01/08',
+          'Categories': 'Diner,Homemade,Recepten,Vlees,Wat eten we vandaag?',
+          'Tags':'culy-basics,culy-homemade,hollands,rundvlees,stoofpot',
+          'Site':'Culy',
+          'Type':'recipe',
+          'Socialshares':47,
+          'Words':560,
+          'PostID':227116,
+          'sales_keywords': 'Food & Drinks',
+          'cs_fpid': '0'
+
+          }];
+        </script>
+
+        <meta name="cXenseParse:mhu-article_author" content="OgechiChibueze" />
+        <meta name="cXenseParse:mhu-article_ispaidcontent" content="false" />
+                          <meta name="cXenseParse:mhu-article_tag" content="culy-basics" />
+                  <meta name="cXenseParse:mhu-article_tag" content="culy-homemade" />
+                  <meta name="cXenseParse:mhu-article_tag" content="hollands" />
+                  <meta name="cXenseParse:mhu-article_tag" content="rundvlees" />
+                  <meta name="cXenseParse:mhu-article_tag" content="stoofpot" />
+                <meta name="cXenseParse:Taxonomy" content="Diner/Homemade/Recepten/Vlees/Wat eten we vandaag?" />
+
+
+    <link rel='stylesheet' id='wpcomvip-governance-css' href='https://www.culy.nl/wp-content/plugins/vip-governance/css/vip-governance.css?ver=1.0.6' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.culy.nl/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='plugin-styles-css' href='https://www.culy.nl/wp-content/plugins/mediahuis-advertisement/css/main.css?ver=1.0.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mh_culy_rb_styles-css' href='https://www.culy.nl/wp-content/plugins/mediahuis-culy-xmasblock//css/main.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='plugin-styles-speechbubble-css' href='https://www.culy.nl/wp-content/plugins/mediahuis-speechbubble//css/speechbubble.css?ver=0.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.culy.nl/wp-includes/css/dashicons.min.css?ver=6.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rtng_stylesheet-css' href='https://www.culy.nl/wp-content/plugins/rating-bws/css/style.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fw3-styles-css' href='https://www.culy.nl/wp-content/themes/fw3-culy/css/culy.css?ver=3.5.23' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Merriweather:700|Poppins:600,600i,400,400i&#038;display=swap' type='text/css' media='all' />
+<script type="text/javascript" src="https://shared.mediahuis.be/ka-ching/culy/ka-ching.umd.js?ver=202501-09-17" id="kaching-script-js"></script>
+<script type="text/javascript" src="https://www.culy.nl/wp-content/plugins/wpo365-login/apps/dist/pintra-redirect.js?ver=30.2" id="pintraredirectjs-js" async></script>
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.culy.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.culy.nl%2Frecepten%2Fzuurvlees-zoervleisj%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.culy.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.culy.nl%2Frecepten%2Fzuurvlees-zoervleisj%2F&#038;format=xml" />
+    <style></style>
+          <meta name="onesignal" content="wordpress-plugin"/>
+            <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: "/" };
+        OneSignal.setDefaultNotificationUrl("https://www.culy.nl");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'c5a006ca-34b4-46e5-a3d7-e15a0dc11177';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "Culy.nl";
+oneSignal_options['welcomeNotification']['message'] = "Bedankt voor het aanmelden!";
+oneSignal_options['path'] = "https://www.culy.nl/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.3b8b9214-66ac-44d1-a7fb-a9dc856242cb";
+oneSignal_options['persistNotification'] = true;
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = "Wat eten we vandaag? Ontvang elke dag de lekkerste inspiratie";
+oneSignal_options['promptOptions']['acceptButtonText'] = "Graag!";
+oneSignal_options['promptOptions']['cancelButtonText'] = "Nee bedankt";
+                OneSignal.init(window._oneSignalInitOptions);
+                OneSignal.showSlidedownPrompt();      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+<link rel="icon" href="https://www.culy.nl/wp-content/uploads/2018/10/cropped-culy-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.culy.nl/wp-content/uploads/2018/10/cropped-culy-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.culy.nl/wp-content/uploads/2018/10/cropped-culy-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.culy.nl/wp-content/uploads/2018/10/cropped-culy-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.yoast-table-of-contents ul {
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+.yoast-table-of-contents ul li, .yoast-table-of-contents ul li ul {
+  padding: 0;
+	margin-top: 0;
+}
+.yoast-table-of-contents ul li::marker {
+	color: #000;
+}
+.list-featured__title {text-shadow: 2px 2px 10px #53504f;}		</style>
+		        
+
+
+
+    
+
+        <script>
+            const kaching = new KaChing();
+            var site_name = 'Culy';
+
+                        var is_fixed = '';
+            // console.log('is fixed: ', is_fixed);
+            
+            document.addEventListener("DOMContentLoaded", function(event) {
+                console.log('DOM loaded...');
+                // console.log(document.querySelector('.article__content').offsetHeight);
+                if (dataLayer[0].show_banners == 1) { 
+                    // fillSlots();
+                    setTimeout(function(){ fillSlots(); }, 800);
+                }
+            });
+            
+
+            function fillSlots() {
+                console.log('Fill slots called..');
+                $premium_article = false;
+                $premium_ad_settings = "no_ads";
+                                    $premium_article = '';
+                
+                
+                var sales_keywords = dataLayer[0].sales_keywords;
+                if (sales_keywords != undefined) {
+                    sales_keywords = sales_keywords.replace(/_/g, '');
+                    sales_keywords = sales_keywords.replace(/&/g, '_');
+                    sales_keywords = sales_keywords.replace(/&amp;/g, '_');
+                    var sales_keywords_array = sales_keywords.split(',');
+                } else {
+                    var sales_keywords_array = [];
+                }
+
+                var tags = dataLayer[0].Tags;
+                if (tags != undefined) {
+                    tags = tags.replace(/_/g, '');
+                    tags = tags.replace(/&/g, '_');
+                    tags = tags.replace(/&amp;/g, '_');
+                    var tags_array = tags.split(',');
+                } else {
+                    var tags_array = [];
+                }
+
+                // t1 - Top banner
+                if (document.getElementById('ad_leaderboard-t1')) {
+                    //if (window_width > 768) {
+                    kaching.defineSlot(
+                        'leaderboard',
+                        't1', {
+                        isLazy: true,
+                        }
+                    );
+                    //}
+                }
+            
+                // // Elastic native
+                if (document.getElementById('ad_elasticnative-1')) {
+                    kaching.defineSlot(
+                        'elasticnative',
+                        '1', {
+                        isLazy: true,
+                        }
+                    );
+                }
+
+                // Inpage banners 
+                var inpageBanners = document.querySelectorAll(".ad--inpageleaderboard");
+                var i_page;
+                var inpageSpot= [];
+                
+                for (i_page = 0; i_page < inpageBanners.length; i_page++) {
+                    inpageSpot[i_page] = 'wpk_inline_' + i_page;
+                    realcount_page = i_page + 2;
+                    kaching.defineSlot(
+                        'leaderboard',
+                        'b'+realcount_page, {
+                        isLazy: true,
+                        }
+                    );
+                }
+
+                // Inline banners
+                var inlineBanners = document.querySelectorAll(".ad-inline_banner");
+                var i;
+                var inlineSpot= [];
+                
+                for (i = 0; i < inlineBanners.length; i++) {
+                    inlineSpot[i] = 'ad_leaderboardrectangle-' + i;
+                    realcount = i + 1;
+                    
+                    // // AD ADS WITH KACHING
+                    kaching.defineSlot(
+                        'leaderboardrectangle',
+                        'b'+realcount, {
+                        isLazy: true,
+                        }
+                    );
+                }
+
+
+                // Sidebar banners
+                if(!$premium_ad_settings || !$premium_article) { 
+                    var aside_h;
+                    if (document.querySelector('.aside-wrap')) {
+                        // aside_h = document.querySelector('.aside-wrap').offsetHeight + (inlineBanners.length * 90); 
+                        // aside_h = document.querySelector('.aside-wrap').offsetHeight;
+                        aside_h = document.querySelector('.article__content').offsetHeight - 0;
+                        // console.log('aside: ',aside_h);
+                        console.log('aside-wrap: ', document.querySelector('.article__content').offsetHeight);
+                    }
+                    // echo "aside_h = document.querySelector('.aside-wrap').offsetHeight;";
+                    var sidebar_density = '1000';
+                    // console.log('sidebar density: ', sidebar_density);
+                    if (sidebar_density < 1) {
+                        sidebar_density = 1000;
+                    }
+                    var banner_count = Math.floor(aside_h / sidebar_density);  //was 1000 and before that 1200
+                    var banner_container_height = Math.floor(100 / banner_count);
+                    // console.log('b_count: ', banner_count);
+                    var selection = document.querySelector('body .site-main') !== null;
+                    if (selection) {
+                        document.querySelector('body .site-main').style.overflow = 'unset';
+                    }
+
+                    var selection = document.querySelector('body .wrap') !== null;
+                    if (selection) {
+                        document.querySelector('body .wrap').style.overflow = 'unset';
+                    }
+                    var wpk_aside = document.querySelector('.aside .aside-wrap') !== null;
+                    if (wpk_aside) {
+                        document.querySelector('aside .aside-wrap').style.position = 'static';
+                    }
+                    
+                    for (x = 1; x <= banner_count; x++) {
+                        document.querySelector('.aside-wrap').insertAdjacentHTML('beforeend', '<div class="sticky-banner-container "  style="position:relative;" id="sticky-banner-container' + x + '"><div class="ad ad--rectangleskyscraper sticky-banner" id="ad_rectangleskyscraper-b'+x+'" style="text-align:center;width:300px;position:sticky;top: 75px; margin-top: 0px;"></div></div>');
+                        document.querySelector('#sticky-banner-container' + x).style.height = banner_container_height + '%';
+                        document.querySelector('#aside-single').style.height = aside_h + 'px';
+                        document.querySelector('.aside-wrap').style.height = '100%';
+
+                        // TODO: add option to fix sidebar to complete right of the browser window (relative on main is the issue for absolute )
+                        // document.querySelector('.aside-wrap').style.position = 'fixed';
+                        // document.querySelector('.aside-wrap').style.right = '10px';
+
+                        kaching.defineSlot(
+                            'rectangleskyscraper',
+                            'b' + x, {
+                            isLazy: true,
+                            }
+                        );
+                    }
+                }
+
+
+
+
+                // Footer banner
+                if (document.getElementById('ad_leaderboard-b1') ) {
+                    kaching.defineSlot(
+                        'leaderboard',
+                        'b1', {
+                            isLazy: true,
+                        }
+                    );
+                }
+
+                // // Related content banner
+                // if (document.getElementById('ad_leaderboard-b99') ) {
+                //     kaching.defineSlot(
+                //         'leaderboard',
+                //         'b2', {
+                //             isLazy: true,
+                //         }
+                //     );
+                // }
+
+
+                                    var page_type = 'detail';
+                
+                var showGamblingAdsKaching = document.cookie.match('(^|;)\\s*showGamblingAds\\s*=\\s*([^;]+)')?.pop() || true;
+                
+                // Exception for Metro
+                if (dataLayer[0].Author == 'Mediaplanet') { 
+                    console.log('author:', dataLayer[0].Author);
+                    adunit_name = '/mediaplanet'
+                } else {
+                    adunit_name = '/page'
+                }
+
+                if(window_width < 500){
+                        var platform = 'MOB';
+                    }else{
+                        var platform = 'WWW';
+                    }
+
+                console.log('init ka-ching ...');
+                kaching.init({
+                    adunit: site_name+adunit_name,
+                    page: {
+                        paid: false,
+                        taglist: tags_array,
+                    },
+                    // environment: test,
+                    platform: platform,
+                    personalAds: true,
+                    Prebid:true,
+                    targeting: {
+                        article_taglist: tags_array,
+                        sales_keywords: sales_keywords_array,
+                        page_type: page_type,
+                        article_id: '227116',
+                        gambling: showGamblingAdsKaching ? 'true' : 'false'                    },
+                    })
+                    .then(() => {
+                        console.log('after ka-ching init');
+                    });
+                }
+
+                document.addEventListener('KaChing.render.init', event => {
+                    console.log('ka-ching init post action...');
+                    // event contains the event channel & data
+                    // ie. channel outputs "KaChing.render.init"
+                    // ie. data outputs "{ format: 'video', url: 'http://the-vast-tag-url' }"
+
+                    // DO STUFF AFTER KACHING RENDERED...
+                    postAdActions();
+                });
+
+
+                function postAdActions() {
+                    var inlineBanners = document.querySelectorAll(".ad-inline_banner");
+                    
+                    inlineBanners.forEach(element => {
+                        if(element.getAttribute('data-google-query-id')){
+                            // console.log(element);
+                            placeholderDiv = 'placeholder_'+element.id;
+                            console.log('el child: ', element.childNodes[0].childElementCount);
+                            if (element.childNodes[0].childElementCount > 0 && !placeholderDiv) {
+                                document.getElementById(placeholderDiv).style.display = 'none';
+                            }
+                        } else {
+                            // Element is filled by GAM
+                            // console.log('Wait whats here?', element.getAttribute('data-google-query-id'));
+                            // console.log(element.lastChild.childElementCount);
+                            // Remove placeholder
+                        }
+
+                       
+                    });
+
+                    var topBanners = document.querySelectorAll(".ad-top_banner");
+                    topBanners.forEach(element => {
+                        if(element.getAttribute('data-google-query-id')){
+                            placeholderDiv = 'placeholder_'+element.id;
+                            if (element.childNodes[0].childElementCount > 0 && !placeholderDiv) {
+                                document.getElementById(placeholderDiv).style.display = 'none';
+                            }
+                        }
+                    });
+
+                    var footerBanners = document.querySelectorAll(".ad-footer_banner");
+                    footerBanners.forEach(element => {
+                        if(element.getAttribute('data-google-query-id')){
+                            placeholderDiv = 'placeholder_'+element.id;
+                            if (element.childNodes[0].childElementCount > 0 && !placeholderDiv) {
+                                document.getElementById(placeholderDiv).style.display = 'none';
+                            }
+                        }
+                    });
+
+                }
+        </script>
+         <script async id="ebx" src="//applets.ebxcdn.com/ebx.js"></script>
+    </head>
+    <body data-rsssl=1 class="recipe-template-default single single-recipe postid-227116 single-format-standard wp-custom-logo light-theme no-dark-mode" data-type="single">
+    <script>
+        const currentTheme = document.cookie.match('(^|;)\\s*fw3-theme\\s*=\\s*([^;]+)')?.pop() || '';
+        const noDarkMode = document.body.classList.contains("no-dark-mode");
+        const darkModeMobileOnly = document.body.classList.contains("dark-mode-mobile-only");
+        let isMobile = window.matchMedia("(any-pointer:coarse) and (max-width: 766px)").matches;
+        if (!noDarkMode && ((darkModeMobileOnly && isMobile) || !darkModeMobileOnly)) {
+          if (currentTheme == "dark") {
+            if (document.body.classList.contains("light-theme")) document.body.classList.remove("light-theme");
+            if (!document.body.classList.contains("dark-theme")) document.body.classList.add("dark-theme");
+          } else if (currentTheme == "light") {
+            if (document.body.classList.contains("dark-theme")) document.body.classList.remove("dark-theme");
+            if (!document.body.classList.contains("light-theme")) document.body.classList.add("light-theme");
+          }
+        }
+      </script>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P2RH3M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P2RH3M');</script>
+<!-- End Google Tag Manager -->
+    <div class="header-container">
+      <div class="header-holder">
+        <header id="masthead" class="header" role="banner">
+          <div class="logo logo__header"><a href="https://www.culy.nl" data-component-name="header-logo" data-link-type="image"><img src="https://www.culy.nl/wp-content/uploads/2018/08/culy-logo-1.svg" alt="Culy" class="logo"></a></div>
+                    <div class="search-btn"
+          data-component-name="search" data-link-type="button" data-action="open"><i class="icon-search"></i></div>
+          <div class="mobile-menu-btn open"><i class="icon-menu"
+          data-component-name="nav" data-link-type="button" data-action="open"></i></div>
+        </header>
+        <div class="overlay"></div>
+<nav class="nav " role="navigation" aria-label="Culy Hoofdmenu">
+    <div class="nav__header">
+        <a href="https://www.culy.nl" data-component-name="header-logo" data-link-type="image"><img src="https://www.culy.nl/wp-content/uploads/2018/08/culy-logo-1.svg" alt="Culy" class="logo"></a>        <div class="mobile-menu-btn close"><i class="icon-close"></i></div>
+    </div>
+    <ul id="menu-main-navigation" class="menu"><li id="menu-item-298593" class="menu-item menu-item-type-taxonomy menu-item-object-category current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-has-children menu-item-298593"><a href="https://www.culy.nl/recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/">Recepten</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-401299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401299"><a href="https://www.culy.nl/recepten/menugang/ontbijt/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/ontbijt/">Ontbijt</a></li>
+	<li id="menu-item-401300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401300"><a href="https://www.culy.nl/recepten/menugang/brunch/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/brunch/">Brunch</a></li>
+	<li id="menu-item-401301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401301"><a href="https://www.culy.nl/recepten/menugang/lunch/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/lunch/">Lunch</a></li>
+	<li id="menu-item-401302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401302"><a href="https://www.culy.nl/recepten/menugang/diner/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/diner/">Avondeten</a></li>
+	<li id="menu-item-401307" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401307"><a href="https://www.culy.nl/tag/culy-homemade/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/culy-homemade/">Culy Homemade</a></li>
+	<li id="menu-item-409930" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-409930"><a href="https://www.culy.nl/makkelijke-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/makkelijke-recepten/">Makkelijke recepten</a></li>
+	<li id="menu-item-414576" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-414576"><a href="https://www.culy.nl/snelle-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/snelle-recepten/">Snelle recepten</a></li>
+	<li id="menu-item-409931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-409931"><a href="https://www.culy.nl/gezonde-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/gezonde-recepten/">Gezonde recepten</a></li>
+	<li id="menu-item-401343" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401343"><a href="https://www.culy.nl/tag/koolhydraatarme-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/koolhydraatarme-recepten/">Koolhydraatarme recepten</a></li>
+	<li id="menu-item-409932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-409932"><a href="https://www.culy.nl/budgetrecepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/budgetrecepten/">Budgetrecepten</a></li>
+	<li id="menu-item-414805" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-414805"><a href="https://www.culy.nl/recepten/soort/vegetarisch/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/vegetarisch/">Vegetarische recepten</a></li>
+	<li id="menu-item-414806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-414806"><a href="https://www.culy.nl/tag/veganistische-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/veganistische-recepten/">Veganistische recepten</a></li>
+	<li id="menu-item-401308" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401308"><a href="https://www.culy.nl/recepten/menugang/snack/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/snack/">Snacks</a></li>
+	<li id="menu-item-401309" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401309"><a href="https://www.culy.nl/recepten/menugang/dessert/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/dessert/">Dessert</a></li>
+	<li id="menu-item-401310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401310"><a href="https://www.culy.nl/recepten/menugang/drankje/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/drankje/">Drankjes &#038; Cocktails</a></li>
+</ul>
+</li>
+<li id="menu-item-401298" class="menu-item menu-item-type-taxonomy menu-item-object-category current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-has-children menu-item-401298"><a href="https://www.culy.nl/recepten/menugang/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/">Wat eten we vandaag</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-401324" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401324"><a href="https://www.culy.nl/tag/bowl/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/bowl/">Bowls</a></li>
+	<li id="menu-item-401325" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401325"><a href="https://www.culy.nl/tag/kip/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/kip/">Kiprecepten</a></li>
+	<li id="menu-item-401317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401317"><a href="https://www.culy.nl/tag/lasagne/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/lasagne/">Lasagne-recepten</a></li>
+	<li id="menu-item-401315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401315"><a href="https://www.culy.nl/recepten/soort/pasta-soort/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/pasta-soort/">Pastarecepten</a></li>
+	<li id="menu-item-401319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401319"><a href="https://www.culy.nl/tag/pizza/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/pizza/">Pizza</a></li>
+	<li id="menu-item-401314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401314"><a href="https://www.culy.nl/tag/ramen/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/ramen/">Ramenrecepten</a></li>
+	<li id="menu-item-401316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401316"><a href="https://www.culy.nl/tag/rijst/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/rijst/">Rijstrecepten</a></li>
+	<li id="menu-item-401322" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401322"><a href="https://www.culy.nl/recepten/soort/salade-soort/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/salade-soort/">Salades</a></li>
+	<li id="menu-item-401321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401321"><a href="https://www.culy.nl/recepten/soort/soep-soort/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/soep-soort/">Soepen</a></li>
+	<li id="menu-item-401323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401323"><a href="https://www.culy.nl/recepten/soort/taarten-cake/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/taarten-cake/">Taart &#038; cake-recepten</a></li>
+	<li id="menu-item-401318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401318"><a href="https://www.culy.nl/tag/hapjes/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/hapjes/">Tapas &#038; borrelhapjes</a></li>
+	<li id="menu-item-418814" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-418814"><a href="https://www.culy.nl/recepten/soort/traybake-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/traybake-recepten/">Traybake recepten</a></li>
+	<li id="menu-item-401326" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401326"><a href="https://www.culy.nl/recepten/soort/vis/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/soort/vis/">Visrecepten</a></li>
+	<li id="menu-item-401320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401320"><a href="https://www.culy.nl/tag/wraps/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/wraps/">Wraps</a></li>
+</ul>
+</li>
+<li id="menu-item-409943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-409943"><a href="https://www.culy.nl/keuken/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/keuken/">Keuken</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-401708" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401708"><a href="https://www.culy.nl/tag/chinese-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/chinese-recepten/">Chinees eten</a></li>
+	<li id="menu-item-401338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401338"><a href="https://www.culy.nl/tag/frans/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/frans/">Frans eten</a></li>
+	<li id="menu-item-401332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401332"><a href="https://www.culy.nl/tag/grieks/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/grieks/">Grieks eten</a></li>
+	<li id="menu-item-401339" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401339"><a href="https://www.culy.nl/tag/hollands/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/hollands/">Hollands eten</a></li>
+	<li id="menu-item-401717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401717"><a href="https://www.culy.nl/tag/indiaas/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/indiaas/">Indiaas eten</a></li>
+	<li id="menu-item-401335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401335"><a href="https://www.culy.nl/tag/indonesische-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/indonesische-recepten/">Indonesisch eten</a></li>
+	<li id="menu-item-401334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401334"><a href="https://www.culy.nl/tag/italiaanse-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/italiaanse-recepten/">Italiaans eten</a></li>
+	<li id="menu-item-401337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401337"><a href="https://www.culy.nl/tag/japans/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/japans/">Japans eten</a></li>
+	<li id="menu-item-401709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401709"><a href="https://www.culy.nl/tag/koreaans/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/koreaans/">Koreaans eten</a></li>
+	<li id="menu-item-401331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401331"><a href="https://www.culy.nl/tag/mexicaans/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/mexicaans/">Mexicaans eten</a></li>
+	<li id="menu-item-401718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401718"><a href="https://www.culy.nl/tag/midden-oosten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/midden-oosten/">Midden-Oosters</a></li>
+	<li id="menu-item-401336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401336"><a href="https://www.culy.nl/tag/spaans/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/spaans/">Spaans eten</a></li>
+	<li id="menu-item-401715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401715"><a href="https://www.culy.nl/tag/thaise-recepten/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/thaise-recepten/">Thais eten</a></li>
+	<li id="menu-item-401333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401333"><a href="https://www.culy.nl/tag/turks/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/turks/">Turks eten</a></li>
+	<li id="menu-item-401716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401716"><a href="https://www.culy.nl/tag/vietnamees/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/vietnamees/">Vietnamees eten</a></li>
+</ul>
+</li>
+<li id="menu-item-409944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-409944"><a href="https://www.culy.nl/inspiratie/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/inspiratie/">Inspiratie</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-409945" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-409945"><a href="https://www.culy.nl/inspiratie/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/inspiratie/">Inspiratie</a></li>
+	<li id="menu-item-401341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401341"><a href="https://www.culy.nl/tag/weekmenu/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/weekmenu/">Weekmenu</a></li>
+	<li id="menu-item-401342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401342"><a href="https://www.culy.nl/koken-bakken/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/koken-bakken/">Kooktips</a></li>
+	<li id="menu-item-401935" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-401935"><a href="https://www.culy.nl/nieuws/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/nieuws/">Culinair nieuws</a></li>
+	<li id="menu-item-401710" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401710"><a href="https://www.culy.nl/tag/trends/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/trends/">Food trends</a></li>
+	<li id="menu-item-403924" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403924"><a href="https://www.culy.nl/tag/interview/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/interview/">Interviews</a></li>
+</ul>
+</li>
+<li id="menu-item-298607" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-298607"><a href="https://www.culy.nl/restaurants/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/">Restaurants</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-401311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401311"><a href="https://www.culy.nl/restaurants/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/">Restaurants in Nederland</a></li>
+	<li id="menu-item-409946" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409946"><a href="https://www.culy.nl/restaurants/stad-2/amsterdam-stad-2/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/amsterdam-stad-2/">Restaurants Amsterdam</a></li>
+	<li id="menu-item-409949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409949"><a href="https://www.culy.nl/restaurants/stad-2/den-haag-stad-2/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/den-haag-stad-2/">Restaurants Den Haag</a></li>
+	<li id="menu-item-409948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409948"><a href="https://www.culy.nl/restaurants/stad-2/rotterdam-stad-2/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/rotterdam-stad-2/">Restaurants Rotterdam</a></li>
+	<li id="menu-item-409947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409947"><a href="https://www.culy.nl/restaurants/stad-2/utrecht/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/utrecht/">Restaurants Utrecht</a></li>
+	<li id="menu-item-401312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401312"><a href="https://www.culy.nl/tag/sterrenrestaurant/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/sterrenrestaurant/">Sterrenrestaurants</a></li>
+	<li id="menu-item-401313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401313"><a href="https://www.culy.nl/restaurants/dineren-hotspot-2/vegan-friendly/" data-component-name="nav" data-position="header" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/dineren-hotspot-2/vegan-friendly/">Vegan restaurants</a></li>
+</ul>
+</li>
+</ul>    <div class="nav__footer">
+        <ul class="socialmenu">
+          <li class="socialmenu__item">
+          <a href="https://www.facebook.com/CulyNL/" target="_blank" data-component-name="social" data-link-title="Facebook" data-link-type="button" data-link-uri="https://www.facebook.com/CulyNL/"><span class="socialmenu__item-text">Facebook</span><i class="icon-facebook"></i></a>
+      </li>
+            <li class="socialmenu__item">
+        <a href="https://www.instagram.com/culynl/" target="_blank" data-component-name="social" data-link-title="Instagram" data-link-type="button" data-link-uri="https://www.instagram.com/culynl/"><span class="socialmenu__item-text">Instagram</span><i class="icon-instagram"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://www.pinterest.com/culy/" target="_blank" data-component-name="social" data-link-title="Pinterest" data-link-type="button" data-link-uri="https://www.pinterest.com/culy/"><span class="socialmenu__item-text">Pinterest</span><i class="icon-pinterest"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://twitter.com/@CulyNL/" target="_blank" data-component-name="social" data-link-title="Twitter" data-link-type="button" data-link-uri="https://twitter.com/@CulyNL/"><span class="socialmenu__item-text">Twitter</span><i class="icon-twitter"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://www.youtube.com/c/CulyNLfood/" target="_blank" data-component-name="social" data-link-title="YouTube" data-link-type="button" data-link-uri="https://www.youtube.com/c/CulyNLfood/"><span class="socialmenu__item-text">YouTube</span><i class="icon-youtube"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://www.tiktok.com/@culynl/" target="_blank" data-component-name="social" data-link-title="TikTok" data-link-type="button" data-link-uri="https://www.tiktok.com/@culynl/"><span class="socialmenu__item-text">TikTok</span><i class="icon-tiktok"></i></a>
+    </li>
+    </ul>
+    </div>
+</nav>
+      </div>
+    </div>
+    <div class="search search__header">
+      
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var jsonValues = [
+  "ovenschotel",
+  "klassiek",
+  "zalm avocado",
+  "mexicaans",
+  "weekmenu",
+  "miso",
+  "witlof",
+  "vegan",
+  "lasagne",
+  "vis",
+  "aubergine",
+  "rabarber",
+  "broccoli",
+  "barbecue",
+  "taco",
+  "pompoen",
+  "bloemkool",
+  "bbq",
+  "rijst",
+  "prei",
+  "quiche",
+  "thais",
+  "venkel",
+  "courgette",
+  "spitskool",
+  "pasta",
+  "couscous",
+  "brood",
+  "spinazie",
+  "curry",
+  "noedels",
+  "koekjes",
+  "pizza",
+  "lunch",
+  "noodles",
+  "risotto",
+  "voorgerecht",
+  "preischotel",
+  "wraps",
+  "zalm",
+  "orzo",
+  "zoete aardappel",
+  "gnocchi",
+  "kip",
+  "garnalen",
+  "tofu",
+  "ottolenghi",
+  "taart",
+  "spaghetti",
+  "nasi",
+  "ravioli",
+  "kabeljauw",
+  "tonijn",
+  "burrata",
+  "aardappel",
+  "gehakt",
+  "hartige taart",
+  "broodje",
+  "salade",
+  "soep",
+  "traybake",
+  "grieks",
+  "asperges",
+  "italiaans",
+  "ramen",
+  "borrel",
+  "cake"
+];
+    autocomplete(document.getElementById('s'), jsonValues);
+  });
+
+  function autocomplete(inp, arr) {
+    var currentFocus;
+    inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+
+      // Create and append the title
+      // var title = document.createElement("DIV");
+      // title.setAttribute("class", "autocomplete-title");
+      // title.innerHTML = "<strong><small>Onze suggesties...</small></strong>";
+      // a.appendChild(title);
+
+      this.parentNode.appendChild(a);
+      for (i = 0; i < arr.length; i++) {
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          b = document.createElement("DIV");
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          b.addEventListener("click", function(e) {
+            inp.value = this.getElementsByTagName("input")[0].value;
+            closeAllLists();
+            document.querySelector('.search--container form').submit();
+          });
+          a.appendChild(b);
+        }
+      }
+    });
+
+    inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        currentFocus++;
+        addActive(x);
+      } else if (e.keyCode == 38) {
+        currentFocus--;
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        if (currentFocus > -1) {
+          e.preventDefault();
+          if (x) x[currentFocus].click();
+        }
+      }
+    });
+
+    function addActive(x) {
+      if (!x) return false;
+      removeActive(x);
+      if (currentFocus >= x.length) currentFocus = 0;
+      if (currentFocus < 0) currentFocus = (x.length - 1);
+      x[currentFocus].classList.add("autocomplete-active");
+    }
+
+    function removeActive(x) {
+      for (var i = 0; i < x.length; i++) {
+        x[i].classList.remove("autocomplete-active");
+      }
+    }
+
+    function closeAllLists(elmnt) {
+      var x = document.getElementsByClassName("autocomplete-items");
+      for (var i = 0; i < x.length; i++) {
+        if (elmnt != x[i] && elmnt != inp) {
+          x[i].parentNode.removeChild(x[i]);
+        }
+      }
+    }
+
+    document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+    });
+  }
+</script>
+
+
+<style>
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: 5px solid #e9e9e9;
+    z-index: 99;
+    top: calc(100% - 1.5rem);
+    left: auto;
+    right: auto;
+    width: 100%;
+    
+  }
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  @media all and (max-width: 450px) {
+    .autocomplete-items {
+      left: 0;
+      right: 0;
+    }
+    .autocomplete-items div {
+      max-width: 100%;
+    }
+  }
+  @media all and (min-width: 450px) {
+    .autocomplete-items {
+      max-width: 395px;
+    }
+    .autocomplete-items div {
+      max-width: 395px;
+    }
+  }
+
+  .autocomplete-items div:not(.autocomplete-title):hover {
+    background-color: #e9e9e9;
+  }
+  .autocomplete-items .autocomplete-title {
+    padding: 4px 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 12px;
+  }
+
+  .autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+  }
+</style>
+
+
+
+<style>
+  #pills-container {
+    font-size: 12px;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 10px;
+  }
+  @media all and (min-width: 450px) {
+    #pills-container {
+    text-align: center;
+  }
+  }
+  .search.search__boxed #pills-container {
+    display: none;
+  }
+  .pill {
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 3px;
+    background-color: var(--fw3-primary);
+    color: var(--fw3-white);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .pill:hover {
+    background-color: var(--fw3-secondary);
+    color: var(--fw3-primary);
+  }
+</style>
+
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var popularValues = [
+  ["Pasta", "/?s=pasta"],
+  ["Soep", "/?s=soep"],
+  ["Salade", "/?s=salade"],
+  ["Zalm", "/?s=zalm"],
+  ["Kip", "/?s=kip"],
+  ["Curry", "/?s=curry"],
+  ["Taart", "/?s=taart"],
+  ["Pompoen", "/?s=pompoen"],
+  ["Gnocchi", "/?s=gnocchi"],
+
+];
+    var pillsContainer = document.querySelector('.search__header #pills-container');
+    
+    if (pillsContainer && pillsContainer.children.length === 0) {
+      popularValues.forEach(function(value) {
+        var pill = document.createElement('span');
+        pill.className = 'pill';
+        pill.textContent = value[0];
+        pill.addEventListener('click', function() {
+          // document.getElementById('s').value = value;
+          // document.querySelector('.search--container form').submit();
+          window.location.href = value[1];
+        });
+        pillsContainer.appendChild(pill);
+      });
+    }
+
+    // Set the selected value of the dropdown based on the URL parameter
+    var urlParams = new URLSearchParams(window.location.search);
+    var category = urlParams.get('category');
+    if (category) {
+     
+      var categorySelects = document.querySelectorAll('.search_container_category');
+      categorySelects.forEach(function(categorySelect) {
+        console.log(category);
+        categorySelect.value = category;
+      });
+    }
+  });
+</script>
+  
+  <div id="pills-container">Trending: </div>
+    
+  
+
+
+
+
+
+<div class="search--container">
+   
+    <form method="get" action="https://www.culy.nl">
+      <div class="search--container__input">
+        <input class="search-string" placeholder="Waar ben je naar op zoek" value="" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Waar ben je naar op zoek'" name="s" id="s">
+       
+        <span class="empty-btn"><i class="icon-close2" data-component-name="search" data-link-type="button" data-action="close"></i></span>
+      </div>
+
+            <div class="search--container__taxonomies">
+      <select name="category" id="SearchContainerCategory" class="search_container_category">
+        <option value="" selected>Alles</option>
+                            <option value="Recepten" >
+                        Recepten                    </option>
+                                    <option value="Inspiratie" >
+                        Inspiratie                    </option>
+                                    <option value="Restaurants" >
+                        Restaurants                    </option>
+                      </select>
+      </div>
+            
+      <div class="search--container__button">
+        <button class="submit" data-component-name="search" data-link-type="button" data-searchterm=""><i class="icon-search" id="iconSearchFormSubmit"></i></button>
+      </div>
+    </form>
+</div>
+    </div>
+	
+<div class="reading-time-wrapper"><progress class="reading-time-indicator" value="0" max="0"></progress></div>
+
+<div id="breadcrumbs" class="container container--breadcrumbs"><span><span><a href="https://www.culy.nl/">Home</a></span> » <span class="breadcrumb_last" aria-current="page">Zo maak je thuis Limburgs zuurvlees (zoervleisj)</span></span></div>
+<div class="mha_container mha_container--fixedheight mha_container--header"><div id="ad_leaderboard-t1" class="ad ad-leaderboard ad-top_banner"></div></div>
+
+<div id="primary" class="content-area content-area--columns">
+  <main id="main" class="" role="main">
+      <article class="single article__content has--featured-image"
+      data-id="227116"
+      data-type="recipe"
+      data-format=""
+      data-url="https://www.culy.nl/recepten/zuurvlees-zoervleisj/">
+
+        <div class="meta">
+    <div class="meta__image">
+      <a href="https://www.culy.nl/author/ogechi/" data-component-name="meta" data-link-type="button" data-link-title="Ogechi Chibueze"><img src="https://img.culy.nl/images/DDHJIKX0-Ho2_L9V4A1Iel9GX1o=/60x60/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2023%2F05%2FSchermafbeelding-2023-05-26-om-13.17.46.png" alt="Ogechi Chibueze" class="meta__author-image"></a>    </div>
+    <div class="meta__content">
+      <span class="meta__author">
+        <a href="https://www.culy.nl/author/ogechi/" class="meta__author-link" data-component-name="meta" data-link-type="button" data-link-title="Ogechi Chibueze" data-link-uri="https://www.culy.nl/author/ogechi/">Ogechi Chibueze</a>      </span>
+      <span data-nosnippet class="meta__category">
+        <a href="https://www.culy.nl/recepten/" class="list__meta-category-link" data-component-name="meta" data-link-type="button" data-link-title="Recepten" data-link-uri="https://www.culy.nl/recepten/">Recepten</a>      </span>
+      <span data-nosnippet class="meta__date">
+        <span class="day">Gisteren</span><span class="meta__time meta__time--show">,&nbsp;<time datetime="2025-01-08T16:00:18+01:00" class="time">16:00</time></span>      </span>
+            <div class="meta__reading-time">
+        Leestijd: 3 minuten      </div>
+    </div>
+  </div>
+
+      <div><div class="social-share social-share--top"><span class="social-share__text">Deel dit artikel:</span>
+      <a href="https://www.facebook.com/sharer.php?u=https://www.culy.nl/recepten/zuurvlees-zoervleisj/?utm_medium=social%26utm_source=Facebook%26utm_campaign=sharebutton&t=Zo maak je thuis Limburgs zuurvlees (zoervleisj)" target="_blank">
+        <svg width="24" height="24" role="img" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg><span class="social-share__name">Share</span></a>
+      <a href="whatsapp://send?text=https://www.culy.nl/recepten/zuurvlees-zoervleisj/?utm_medium=social%26utm_source=WhatsApp%26utm_campaign=sharebutton - Zo maak je thuis Limburgs zuurvlees (zoervleisj)" data-action-"/share/whatsapp/share">
+        <svg width="24" height="24" role="img" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg><span class="social-share__name">App</span></a>
+      <a href="/cdn-cgi/l/email-protection#b986caccdbd3dcdacd84e3d699d4d8d8d299d3dc99cdd1ccd0ca99f5d0d4dbcccbdeca99c3cccccbcfd5dcdcca9991c3d6dccbcfd5dcd0cad3909fdbd6ddc084d1cdcdc9ca839696cecece97daccd5c097d7d596cbdcdadcc9cddcd796c3cccccbcfd5dcdcca94c3d6dccbcfd5dcd0cad396">
+        <svg width="24" height="24 role="img" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+          <path d="M15.61 12c0 1.99-1.62 3.61-3.61 3.61-1.99 0-3.61-1.62-3.61-3.61 0-1.99 1.62-3.61 3.61-3.61 1.99 0 3.61 1.62 3.61 3.61M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12c2.424 0 4.761-.722 6.76-2.087l.034-.024-1.617-1.879-.027.017A9.494 9.494 0 0 1 12 21.54c-5.26 0-9.54-4.28-9.54-9.54 0-5.26 4.28-9.54 9.54-9.54 5.26 0 9.54 4.28 9.54 9.54a9.63 9.63 0 0 1-.225 2.05c-.301 1.239-1.169 1.618-1.82 1.568-.654-.053-1.42-.52-1.426-1.661V12A6.076 6.076 0 0 0 12 5.93 6.076 6.076 0 0 0 5.93 12 6.076 6.076 0 0 0 12 18.07a6.02 6.02 0 0 0 4.3-1.792 3.9 3.9 0 0 0 3.32 1.805c.874 0 1.74-.292 2.437-.821.719-.547 1.256-1.336 1.553-2.285.047-.154.135-.504.135-.507l.002-.013c.175-.76.253-1.52.253-2.457 0-6.617-5.383-12-12-12"/>
+        </svg><span class="social-share__name">Mail</span></a>
+      <a href="https://pinterest.com/pin/create/button/?url=https://www.culy.nl/recepten/zuurvlees-zoervleisj/?utm_medium=social%26utm_source=Pinterest%26utm_campaign=sharebutton&media=https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg&description=Zo maak je thuis Limburgs zuurvlees (zoervleisj)" count-layout="horizontal" target="_blank">
+        <svg width="24" height="24" role="img" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+          <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/>
+        </svg><span class="social-share__name">Pin</span></a></div></div>
+      <h1 class="article__title">Zo maak je thuis Limburgs zuurvlees (zoervleisj)</h1>
+            <figure class="featured-image featured-image--has-caption">
+        <img
+          class="featured-image__image"
+          src="https://img.culy.nl/images/y1NfGe8ISJ3PxJO78EZ1IANuuNA=/375x211/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg"
+          srcset="https://img.culy.nl/images/y1NfGe8ISJ3PxJO78EZ1IANuuNA=/375x211/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg 375w, https://img.culy.nl/images/EfZm-sn6x6UHN-iBRyIVsY-xxZ8=/750x422/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg 750w, https://img.culy.nl/images/y_G-FvZvvMw70u55Sow75TMHtUI=/768x432/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg 768w, https://img.culy.nl/images/NYeZw3EdY9H_DY7FrxuGfCNuFpw=/860x484/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg 860w, https://img.culy.nl/images/dbiJ2nm2HJgwuWhqEnfuykUN0hs=/1536x864/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg 1536w, https://img.culy.nl/images/oi9NRJN2qudeKhlHpeNSzeKhINA=/1720x968/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_1.jpg 1720w"
+          width="375"
+          height="211"
+          sizes="(min-width: 767px) 720px, (min-width: 1180px) 860px, 100vw"
+          alt="Limburgs Zuurvlees Zoervleisj maken recept"
+          loading="lazy" data-pin-media="https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg" data-pin-description="Limburgs Zuurvlees Zoervleisj maken recept">
+                <figcaption class="wp-caption-text">
+                      <span class="caption-text">
+              Bron:            </span>
+                                <span class="source caption-source">Ogechi Chibueze voor Culy</span>
+                  </figcaption>
+              </figure>
+    <p>Elke Limburger kent het, en iedereen die het (nog) niet kent, moet absoluut blijven lezen. Limburgs zuurvlees, ofwel <em>zoervleisj</em>, is een op en top winters gerecht vol smaak. Met dit zuurvleesrecept kun je er ook thuis van genieten.</p>
+<p>We kregen dit recept voor Limburgs zuurvlees (of zoervleisj dus), dat heel goed thuis te maken is, van een vaste Culy-lezer. Je moet er even wat tijd voor uittrekken en tijdig beginnen door de tijd die nodig is voor het marineren van het vlees. Verder is het gerecht <a href="https://www.culy.nl/tag/stoofpot/">low &amp; slow</a> en hoef je niet veel te doen, een supermakkelijk recept dus!</p>
+<aside class="frame-block"><div class="frame-block__container frame-block__container--emoji"><span class="frame-block__emoji">🥩</span><h3 class="frame-block__title">Welk vlees gebruik je voor zuurvlees? </h3><div class="frame-block__content"><p>Begin met ruim een kilo mooie sukadelappen of riblappen. Sukade blijft wat vaster, de riblappen vallen iets meer uit elkaar. Tip: wil je een keer wat anders, gebruik dan konijnenbouten of reerug. Of, écht traditioneel voor zoervleisj: paardenvlees!</p></div></div></aside>
+<blockquote class="wp-embedded-content" data-secret="37rlAhtmQS"><p><a class="inline-read-more" data-href="https://www.culy.nl/inspiratie/wild-betere-optie/?utm_source=inline_lees_ook" href="https://www.culy.nl/inspiratie/wild-betere-optie/">Dit is waarom wild een betere optie is (en probeer ook eens deze stukken)</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="“Dit is waarom wild een betere optie is (en probeer ook eens deze stukken)” — Culy" src="https://www.culy.nl/inspiratie/wild-betere-optie/embed/#?secret=k2oaLpZQSH#?secret=37rlAhtmQS" data-secret="37rlAhtmQS" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p><div class="mha_container mha_container--inline mha_container--fixedheight" id="mhaContainer-1"><div class="ad ad-leaderboard ad-inline_banner wpk-inline-banner" id="ad_leaderboardrectangle-b1"></div></div>
+<div class="article__content-image"><figure id="attachment_430411" aria-labelledby="figcaption_attachment_430411" class="wp-caption "><img loading="lazy" srcset="https://img.culy.nl/images/3tVxRUTAq-EQl16--_vb-7DxcWY=/335x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_3.jpg 335w,https://img.culy.nl/images/uV6NoQPsK85UR-Gb0ZYEScTqQ_8=/670x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_3.jpg 670w,https://img.culy.nl/images/sy_7XAPLTRWCUAPzZCxqsnKhk8U=/600x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_3.jpg 600w,https://img.culy.nl/images/VUOlvW70--oLbLWgygOxd2iY8vw=/1200x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_3.jpg 1200w," sizes="(min-width: 1024px) 600px, (min-width: 768px) 560px, calc(100vw - 40px)" src="https://img.culy.nl/images/sy_7XAPLTRWCUAPzZCxqsnKhk8U=/600x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_3.jpg" alt="Limburgs Zuurvlees Zoervleisj maken recept" width="600" height="223" class="size-full wp-image-430411" data-pin-media="https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_3.jpg" data-pin-description="Limburgs Zuurvlees Zoervleisj maken recept"><figcaption id="figcaption_attachment_430411" class="wp-caption-text sourced"><span class="text">Bron:</span> <span class="source">Ogechi Chibueze voor Culy</span></figcaption></figure></div>
+<h2>Serveertip voor zuurvlees</h2>
+<p>Dit Limburgs zuurvleesrecept kun je op verschillende manieren serveren. Op de Culy-redactie zijn we dol op friet erbij en dan vooral <a href="https://www.culy.nl/inspiratie/steppegras-friet-shoestring-fries/">shoestring fries</a>, Deze superdunne frietjes zijn niet helemaal traditoneel, maar wel onwijs lekker. Je maakt het net als gewone friet, alleen snijd je de frieten nog dunner. Een mandoline kan hiervoor handig zijn. Je kunt het natuurlijk ook met gewone – of dikke – frieten serveren.</p><div class="mha_container mha_container--inline mha_container--fixedheight" id="mhaContainer-2"><div class="ad ad-leaderboard ad-inline_banner wpk-inline-banner" id="ad_leaderboardrectangle-b2"></div></div>
+<p>Naast friet zijn aardappelpuree of aardappelkroketten ook lekker op je bordje zuurvlees. Doe daar dan <a href="https://www.culy.nl/inspiratie/spruitjes-koken/">spruitjes</a> met spekjes of <a href="https://www.culy.nl/recepten/rode-kool-met-appels/">rodekool</a> bij. En natuurlijk wat lekkers te drinken: een glas stevige rode wijn, een goed abdijbier of een glas port.</p>
+<blockquote class="wp-embedded-content" data-secret="fGByYRaNhL"><p><a class="inline-read-more" data-href="https://www.culy.nl/inspiratie/stoofvlees-serveren/?utm_source=inline_lees_ook" href="https://www.culy.nl/inspiratie/stoofvlees-serveren/">Wat serveer je bij stoofvlees? (hint: bloemkoolrijst, friet en meer)</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; visibility: hidden;" title="“Wat serveer je bij stoofvlees? (hint: bloemkoolrijst, friet en meer)” — Culy" src="https://www.culy.nl/inspiratie/stoofvlees-serveren/embed/#?secret=QDJyfaPiJA#?secret=fGByYRaNhL" data-secret="fGByYRaNhL" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<div class="article__content-image"><figure id="attachment_430410" aria-labelledby="figcaption_attachment_430410" class="wp-caption "><img loading="lazy" srcset="https://img.culy.nl/images/_hZAF7syDtnKL6tOzCqDtsoXuL0=/335x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_2.jpg 335w,https://img.culy.nl/images/Biedfk4fmenOvqOLm-zWgRUklZ0=/670x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_2.jpg 670w,https://img.culy.nl/images/cuMT8Uzji_Hkhh_dxb3BxP9-zLU=/600x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_2.jpg 600w,https://img.culy.nl/images/eh4O-vzkbj-1TaAERdr0rsFj2KQ=/1200x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_2.jpg 1200w," sizes="(min-width: 1024px) 600px, (min-width: 768px) 560px, calc(100vw - 40px)" src="https://img.culy.nl/images/cuMT8Uzji_Hkhh_dxb3BxP9-zLU=/600x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_2.jpg" alt="Limburgs Zuurvlees Zoervleisj maken recept" width="600" height="503" class="size-full wp-image-430410" data-pin-media="https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_2.jpg" data-pin-description="Limburgs Zuurvlees Zoervleisj maken recept"><figcaption id="figcaption_attachment_430410" class="wp-caption-text sourced"><span class="text">Bron:</span> <span class="source">Ogechi Chibueze voor Culy</span></figcaption></figure></div><div class="mha_container mha_container--inline mha_container--fixedheight" id="mhaContainer-3"><div class="ad ad-leaderboard ad-inline_banner wpk-inline-banner" id="ad_leaderboardrectangle-b3"></div></div>
+<h2>Limburgs zuurvlees maken: het recept</h2>
+<h3>Een dag van tevoren</h3>
+<ol>
+<li>Snijd het <strong>vlees</strong> in flinke stukken.</li>
+<li>Marineer de stukken vlees een nachtje in een mengsel van <strong>water</strong>, <strong>natuurazijn</strong>, <strong>specerijen</strong> en de <strong>gesneden</strong> <strong>uien</strong>. Zorg dat het vlees volledig onderstaat.</li>
+</ol>
+<h3>De volgende dag</h3>
+<ol>
+<li>Haal het vlees de volgende dag samen met de uien uit de marinade. Vis ook de laurierblaadjes eruit, de kruidnagels en jeneverbessen gooi je weg. Bewaar wel het marinadevocht van het zuurvlees.</li>
+<li>Zet een grote braadpan op het vuur en smelt daar in een flinke klont <strong>boter</strong>.</li>
+<li>Dep het vlees goed droog en bestrooi vervolgens met <strong>zout</strong> en <strong>peper</strong>.</li>
+<li>Braad het vlees goudbruin aan alle zijdes. Doe dit eventueel in delen, zodat de pan niet te vol raakt en het vlees goed kan bakken.</li>
+<li>Haal het vlees uit de pan en voeg de uien toe. Bak deze ongeveer 5 minuten.</li>
+<li>Doe het vlees en de laurierblaadjes er daarna weer bij, samen met één kopje van het <strong>marinadevocht</strong>, de <strong>appelstroop</strong>, <strong>bruine</strong> <strong>basterdsuiker</strong>, <strong>speculaaskruiden</strong> en de verkruimelde <strong>ontbijtkoek</strong>.</li>
+<li>Laat ruim een 2 tot 4 uur op laag vuur zachtjes stoven (of zet het ongeveer 8 uur op 80 graden met deksel op de pan in de oven).</li>
+<li>Maak de saus indien nodig dikker met wat extra ontbijtkoek. Proef het zuurvlees, en breng eventueel op smaak met een beetje zout en peper en voeg eventueel nog wat suiker toe naar smaak.</li>
+</ol><div class="mha_container mha_container--inline mha_container--fixedheight" id="mhaContainer-4"><div class="ad ad-leaderboard ad-inline_banner wpk-inline-banner" id="ad_leaderboardrectangle-b4"></div></div>
+<div class="article__content-image"><figure id="attachment_430412" aria-labelledby="figcaption_attachment_430412" class="wp-caption "><img loading="lazy" srcset="https://img.culy.nl/images/GC58FMnIFrQcwoCnKkThfSLtUIU=/335x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_4.jpg 335w,https://img.culy.nl/images/BS8DZ6uOS9fV7VkQVuUGHzQfuUM=/670x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_4.jpg 670w,https://img.culy.nl/images/s4aAVinvjlAo2HyBr2DP4LxnEpA=/600x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_4.jpg 600w,https://img.culy.nl/images/nCkiN8IXp_ovfrsQHY0FtTbMNDE=/1200x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_4.jpg 1200w," sizes="(min-width: 1024px) 600px, (min-width: 768px) 560px, calc(100vw - 40px)" src="https://img.culy.nl/images/s4aAVinvjlAo2HyBr2DP4LxnEpA=/600x0/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2016%2F01%2FZuurvlees_Zoervleisj_maken_4.jpg" alt="Limburgs Zuurvlees Zoervleisj maken recept" width="600" height="223" class="wp-image-430412 size-full" data-pin-media="https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_4.jpg" data-pin-description="Limburgs Zuurvlees Zoervleisj maken recept"><figcaption id="figcaption_attachment_430412" class="wp-caption-text sourced"><span class="text">Bron:</span> <span class="source">Ogechi Chibueze voor Culy</span></figcaption></figure></div>
+<h2>Meer recepten voor stoofvlees:</h2>
+<ul>
+<li>Misschien niet het makkelijkste gerecht om te maken, maar het proberen waard: <a href="https://www.culy.nl/recepten/rendang/">rendang</a></li>
+<li>Leer de Perzische keuken beter kennen: <a href="https://www.culy.nl/recepten/perzische-notenstoof-fesenjan/">Fesenjan met kip en granaatappel</a></li>
+<li>Verlangen naar een oud-Hollandse klassieker? Dan moet je <a href="https://www.culy.nl/recepten/hachee-maken-basisrecept/">hachee maken</a></li>
+</ul>
+        <div class="article-feedback">
+          <p class="article-feedback__text">
+            <a href="/cdn-cgi/l/email-protection#84edeae2ebc4e7f1e8fdaaeae8bbf7f1e6eee1e7f0b9c2ebf1f0eee1a4e3e1feede1eaa4edeaa4e5f6f0edefe1e8bea4deeba4e9e5e5efa4eee1a4f0ecf1edf7a4c8ede9e6f1f6e3f7a4fef1f1f6f2e8e1e1f7a4acfeebe1f6f2e8e1edf7eeada2e5e9f4bfe6ebe0fdb9c8edeaefbea4ecf0f0f4f7a1b7c5a1b6c2a1b6c2f3f3f3aae7f1e8fdaaeae8a1b6c2f6e1e7e1f4f0e1eaa1b6c2fef1f1f6f2e8e1e1f7a9feebe1f6f2e8e1edf7eea1b6c2a1b4c0a1b4c5a1b4c0a1b4c5c2e1e1e0e6e5e7efbea4" data-component-name="article-feedback" data-link-type="article-link" data-link-title="Zo maak je thuis Limburgs zuurvlees (zoervleisj)" data-link-uri="https://www.culy.nl/recepten/zuurvlees-zoervleisj/" class="article-feedback__link">Foutje gezien? Mail ons! Jouw feedback maakt Culy nóg lekkerder.</a>
+          </p>
+        </div>
+      
+              <div id="block-subscribe-echobox" class="block-subscribe">
+                <form id="echobox-subscribe" action="" method="post" target="_blank" novalidate>
+                  <h2 class="block-subscribe__title"> Dagelijks de lekkerste recepten in je inbox 🥘 </h2>
+                  <p class="block-subscribe__text">Een mail waar het water je al van in de mond loopt.</p>
+                  <div class="block-subscribe__inputs" id="js-form-inputs">
+                    <div>
+                      <label for="mce-EMAIL" class="block-subscribe__label">E-mailadres<sup>*</sup></label>
+                      <input type="hidden" name="newsletterid" id="echobox-id" value="1" />
+                      <input type="hidden" name="campaignurn" id="echobox-campaignurn" value="urn:newsletter:campaign:6b647b3d-0ce7-4fe5-80c2-ee0246c17ade" />
+                      <input type="email" name="email" id="echobox-email" value="" placeholder="Waar mogen we het heensturen?" class="block-subscribe__input-email" required>
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" id="js-validate-robot" name="validate" tabindex="-1" value="" /></div>
+                      <button type="submit" name="subscribe" id="echobox-subscribe-btn" class="button--primary block-subscribe__submit"> Ja, dit wil ik! </button>
+                    </div>
+                  </div>
+                  <p id="subscribe-response" class="block-subscribe__response" id="js-subscribe-response"></p>
+                </form>
+              </div>
+            <div class="article__navigation article__navigation--fixed">
+    <div class="pagination pagination--left">
+        <a href="https://www.culy.nl/recepten/broccolistamppot/" rel="next"><i class="icon-arrow-left"></i>Vorige</a>            </div>
+        <div class="pagination pagination--right">
+        <a href="https://www.culy.nl/recepten/pesto-trapanese/" rel="prev">Volgende<i class="icon-arrow-right"></i></a>            </div>
+</div>
+<div id="ad_elasticnative-1" class="ad ad--elasticnative wpk-bottom-banner"></div>
+    </article>
+
+    
+    
+  </main>
+
+  <aside id="aside-single">
+  <div class="aside-wrap">
+    <div id="sticky" class="">
+    </div>
+
+    
+  </div>
+</aside>
+
+</div>
+
+<div class="block">
+<div class="block__content"><div class="list-plain-wrap">
+<div class="list-wrap">
+  <div class="list list--plain list-1">
+    <div class="list__header">
+      <h2 class="list__header-title">Ook interessant</h2>
+    </div>
+      <ul class="list__items">
+                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/broccolistamppot/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="1" data-link-title="Broccolistamppot met runderbraadworst en uien-jus" data-link-uri="https://www.culy.nl/recepten/broccolistamppot/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/qu6ayfOlVXW6p4oA48GIk6FAl4c=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg 1x, https://img.culy.nl/images/qu6ayfOlVXW6p4oA48GIk6FAl4c=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/jChp_BlbkpLWhpQuPGMwTQ1m7F0=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg 1x, https://img.culy.nl/images/jChp_BlbkpLWhpQuPGMwTQ1m7F0=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/XstccqhinwD2ybWSVQNHNuSrr9U=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg 1x, https://img.culy.nl/images/FtEnmEi0FzTwTfsFER8c6y1Ra1A=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg 2x">
+                      <img src="https://img.culy.nl/images/XstccqhinwD2ybWSVQNHNuSrr9U=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2025%2F01%2FBroccolistamppot_met_runderbraadworst_2.jpg" alt="Broccolistamppot met runderbraadworst en uien-jus" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      <span class="day">Vandaag</span><span class="meta__time meta__time--show">,&nbsp;<time datetime="2025-01-09T16:00:59+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Broccolistamppot met runderbraadworst en uien-jus</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/pesto-trapanese/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="2" data-link-title="Pasta pesto met een twist: pesto Trapanese is je nieuwe favoriet (met tomaat en amandelen)" data-link-uri="https://www.culy.nl/recepten/pesto-trapanese/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/SSugfuqBb_65F-bKm0TPw_rHYqY=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg 1x, https://img.culy.nl/images/SSugfuqBb_65F-bKm0TPw_rHYqY=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/OMW8tyj7CCk2NZ9fu0z-vwo-yxQ=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg 1x, https://img.culy.nl/images/OMW8tyj7CCk2NZ9fu0z-vwo-yxQ=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/5ygkWBPwvRUk3ZRb7JP5fae4eZ0=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg 1x, https://img.culy.nl/images/G_0JpfXlNSNe_Ddx8AR0UYIrVMY=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg 2x">
+                      <img src="https://img.culy.nl/images/5ygkWBPwvRUk3ZRb7JP5fae4eZ0=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fpasta-pesto-tomaat-1.jpg" alt="Pasta pesto tomaat" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      7 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-07T16:00:35+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Pasta pesto met een twist: pesto Trapanese is je nieuwe favoriet (met tomaat en amandelen)</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/bulgur-traybake/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="3" data-link-title="Lekker gezond: bulgur-traybake met tomaat, harissa en kikkererwten" data-link-uri="https://www.culy.nl/recepten/bulgur-traybake/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/G_3cvMLyQhFmVKs775zaBdtmXqk=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg 1x, https://img.culy.nl/images/G_3cvMLyQhFmVKs775zaBdtmXqk=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/fPZ9v_BcKpBp6FA0jMDB6z_6uWY=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg 1x, https://img.culy.nl/images/fPZ9v_BcKpBp6FA0jMDB6z_6uWY=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/NYPTdVfuI5zhWGQN7ZQW_Z8NGjg=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg 1x, https://img.culy.nl/images/MBuONH0SWSPiOEOerzqcajjpGEk=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg 2x">
+                      <img src="https://img.culy.nl/images/NYPTdVfuI5zhWGQN7ZQW_Z8NGjg=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2Fberlinerbolletjes-3.jpg" alt="Bulgur met Harissa" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      6 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-06T16:00:19+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Lekker gezond: bulgur-traybake met tomaat, harissa en kikkererwten</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/mandarijnsmoothie/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="4" data-link-title="Gezonde mandarijnsmoothie vol vitamine C in de stijl van Erewhon" data-link-uri="https://www.culy.nl/recepten/mandarijnsmoothie/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/zmMBhUVZRHmYt2HzVKJcbJl3hB0=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg 1x, https://img.culy.nl/images/zmMBhUVZRHmYt2HzVKJcbJl3hB0=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/tNZR7FLy4z4AxPBGbjS2crinfcc=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg 1x, https://img.culy.nl/images/tNZR7FLy4z4AxPBGbjS2crinfcc=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/6rk0tVX32_UGthPZNGcezP17XKg=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg 1x, https://img.culy.nl/images/SdIqDNCWb_B-yUTaO9VUc1_52Ik=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg 2x">
+                      <img src="https://img.culy.nl/images/6rk0tVX32_UGthPZNGcezP17XKg=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FMandarijnsmoothie_gezond_2.jpg" alt="Mandarijnsmoothie" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      5 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-05T16:00:11+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Gezonde mandarijnsmoothie vol vitamine C in de stijl van Erewhon</h3>
+                </div>
+              </a>
+                          </li>
+            </ul><div class="wpk_gridrelated_ad"><div class="ad ad--leaderboard wpk-footer-banner" id="ad_leaderboard-b2"></div></div><ul class="list__items">                        <li class="list__item">
+              <a href="https://www.culy.nl/recepten/posteleinstamppot-postelein-recept/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="5" data-link-title="Lekker recept met postelein: stamppot met lamsgehaktballetjes en oude kaas" data-link-uri="https://www.culy.nl/recepten/posteleinstamppot-postelein-recept/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/Kz4yivSI2iPGGNcLJC1JQlEpwyI=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg 1x, https://img.culy.nl/images/Kz4yivSI2iPGGNcLJC1JQlEpwyI=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/nMoLvK4_wxqDs1BI_gQGdaK2hyU=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg 1x, https://img.culy.nl/images/nMoLvK4_wxqDs1BI_gQGdaK2hyU=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/zzJ_LIAyL4vTJ6xGm5Af655ZG6E=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg 1x, https://img.culy.nl/images/P5ubJsCW9yykwJ0Iwxxx-VtToy0=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg 2x">
+                      <img src="https://img.culy.nl/images/zzJ_LIAyL4vTJ6xGm5Af655ZG6E=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FPosteleinstamppot_1.jpg" alt="Posteleinstamppot / postelein recept" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      4 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-04T16:00:24+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Lekker recept met postelein: stamppot met lamsgehaktballetjes en oude kaas</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/witte-chocolademelk-met-matcha/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="6" data-link-title="Deze witte chocolademelk met matcha is onze nieuwe winterobsessie" data-link-uri="https://www.culy.nl/recepten/witte-chocolademelk-met-matcha/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/cz6FF3lBQwl14RIoFGmkubHcLfQ=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg 1x, https://img.culy.nl/images/cz6FF3lBQwl14RIoFGmkubHcLfQ=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/M1kCpyf56XWtF8EwoPRX8xv2q4k=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg 1x, https://img.culy.nl/images/M1kCpyf56XWtF8EwoPRX8xv2q4k=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/9iMDwPMEFjV0-YobQQEejeHilx0=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg 1x, https://img.culy.nl/images/YogmLqG3qiFcuIRKgNaSU018xSY=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg 2x">
+                      <img src="https://img.culy.nl/images/9iMDwPMEFjV0-YobQQEejeHilx0=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FWitte_chocolademelk_met_matcha_2.jpg" alt="Witte chocolademelk met matcha" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      3 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-03T16:00:07+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Deze witte chocolademelk met matcha is onze nieuwe winterobsessie</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/gemarineerde-seitan-basisrecept/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="7" data-link-title="Gemarineerde seitan met groente en rijst (handig basisrecept!)" data-link-uri="https://www.culy.nl/recepten/gemarineerde-seitan-basisrecept/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/IIJJBS9R4d1fecRVDqHoh4h4TnE=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg 1x, https://img.culy.nl/images/IIJJBS9R4d1fecRVDqHoh4h4TnE=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/Z1n8PuYMh9mNvNqfwLOq9Fc5FqU=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg 1x, https://img.culy.nl/images/Z1n8PuYMh9mNvNqfwLOq9Fc5FqU=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/lIsYTmzBJp8MJTUI8DkXrK83TaU=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg 1x, https://img.culy.nl/images/h0wxXVaPtNHr3klmh_CF68N3adA=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg 2x">
+                      <img src="https://img.culy.nl/images/lIsYTmzBJp8MJTUI8DkXrK83TaU=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FSeitan_marineren.jpg" alt="Germarineerde seitan | Seitan marineren | Seitan basisrecept" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      2 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-02T16:00:27+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Gemarineerde seitan met groente en rijst (handig basisrecept!)</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/libanese-fatteh/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="8" data-link-title="Fatteh: gezonde(re) Libanese nacho&#8217;s met kip, kikkererwten en pijnboompitten" data-link-uri="https://www.culy.nl/recepten/libanese-fatteh/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/s-maQUE-lE7w-ALoOh7mT9B0N1g=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg 1x, https://img.culy.nl/images/s-maQUE-lE7w-ALoOh7mT9B0N1g=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/bND24sa08GK-eeXInZX_QgXs7pc=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg 1x, https://img.culy.nl/images/bND24sa08GK-eeXInZX_QgXs7pc=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/2vSntaDp3Ao5VIADu7cyY3zKAcU=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg 1x, https://img.culy.nl/images/ysf0MSJBCkgYvohjByUOJRC679A=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg 2x">
+                      <img src="https://img.culy.nl/images/2vSntaDp3Ao5VIADu7cyY3zKAcU=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2019%2F03%2F8_kip-fatteh-gezonde-nachos.jpg" alt="Libanese kip fatteh: een soort gezonde nacho's" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      1 jan 2025<span class="meta__time">,&nbsp;<time datetime="2025-01-01T16:00:01+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Fatteh: gezonde(re) Libanese nacho&#8217;s met kip, kikkererwten en pijnboompitten</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/makkelijke-cocktail-met-amaretto/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="9" data-link-title="Makkelijke amaretto-cocktail met maar 3 ingrediënten" data-link-uri="https://www.culy.nl/recepten/makkelijke-cocktail-met-amaretto/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/C33Lfi3YMn0_WyRT6-dDcZQoMb4=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg 1x, https://img.culy.nl/images/C33Lfi3YMn0_WyRT6-dDcZQoMb4=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/iSzWlk3S-R3ZMEBeIE7qyKCfxFY=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg 1x, https://img.culy.nl/images/iSzWlk3S-R3ZMEBeIE7qyKCfxFY=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/L0qp7ggAlFf18mmZqfENtP_GoDI=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg 1x, https://img.culy.nl/images/0zmyFhjppOYazvwxxwF1lFzBBhA=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg 2x">
+                      <img src="https://img.culy.nl/images/L0qp7ggAlFf18mmZqfENtP_GoDI=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2021%2F12%2F4_cocktail-met-amaretto.jpg" alt="Cocktail met amaretto" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      31 dec 2024<span class="meta__time">,&nbsp;<time datetime="2024-12-31T16:00:05+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Makkelijke amaretto-cocktail met maar 3 ingrediënten</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/rice-porridge-rijstepap/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="10" data-link-title="Culy&#8217;s Ogechi vindt troost in deze hartige Aziatische rijstepap als ze verkouden is" data-link-uri="https://www.culy.nl/recepten/rice-porridge-rijstepap/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/1Ad7A3AAnXs4bdsa2AKZkwRFhNU=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg 1x, https://img.culy.nl/images/1Ad7A3AAnXs4bdsa2AKZkwRFhNU=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/pG49J7L4ke1Jmyd6VW1KnDRa2Jk=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg 1x, https://img.culy.nl/images/pG49J7L4ke1Jmyd6VW1KnDRa2Jk=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/TmvCWPz6Y7yM-QLMuaHbEdjpp3k=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg 1x, https://img.culy.nl/images/9j8vXuVRqynN4R8F7DJ3d08BZ8s=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg 2x">
+                      <img src="https://img.culy.nl/images/TmvCWPz6Y7yM-QLMuaHbEdjpp3k=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FRice_porridge_aziatische_rijstpap_1.jpg" alt="Rice porridge | Aziatische rijstpap | hainanese chicken rice congee fushion" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Recepten                    </span>
+                    <span class="list__meta-date ">
+                      30 dec 2024<span class="meta__time">,&nbsp;<time datetime="2024-12-30T16:00:07+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Culy&#8217;s Ogechi vindt troost in deze hartige Aziatische rijstepap als ze verkouden is</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/spiced-old-fashioned/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="11" data-link-title="Spiced old fashioned met kaneel en steranijs (leuk voor oud &#038; nieuw)" data-link-uri="https://www.culy.nl/recepten/spiced-old-fashioned/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/4h_jnkF-bu57Cxck8gAsus98Mk0=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg 1x, https://img.culy.nl/images/4h_jnkF-bu57Cxck8gAsus98Mk0=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/0FTpgcDBBKTfRIqx4NdELrAKlOA=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg 1x, https://img.culy.nl/images/0FTpgcDBBKTfRIqx4NdELrAKlOA=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/OH-Zd3F2rkuUbilV-wEwB995WBc=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg 1x, https://img.culy.nl/images/wZxXrYTI172jTAX4koThmh-PaME=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg 2x">
+                      <img src="https://img.culy.nl/images/OH-Zd3F2rkuUbilV-wEwB995WBc=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FKruidige-old-fashioned-1.jpg" alt="Spiced old fashioned" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Homemade                    </span>
+                    <span class="list__meta-date ">
+                      29 dec 2024<span class="meta__time">,&nbsp;<time datetime="2024-12-29T16:00:59+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Spiced old fashioned met kaneel en steranijs (leuk voor oud &#038; nieuw)</h3>
+                </div>
+              </a>
+                          </li>
+                                    <li class="list__item">
+              <a href="https://www.culy.nl/recepten/loaded-gyozas/?utm_source=article_related_posts" class="list__link"
+              data-component-name="list-related" data-link-type="listitem" data-link-position="12" data-link-title="Dit wil je: loaded gyoza&#8217;s voor oud &#038; nieuw" data-link-uri="https://www.culy.nl/recepten/loaded-gyozas/">
+                <div class="list__media">
+                  <div class="list__media-wrap">
+                                        <picture>
+                      <source media="(min-width: 1180px)" srcset="https://img.culy.nl/images/DDo2oP89IMP3wgYxVkYmi3duCTQ=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg 1x, https://img.culy.nl/images/DDo2oP89IMP3wgYxVkYmi3duCTQ=/252x142/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg 2x">
+                      <source media="(min-width: 767px)" srcset="https://img.culy.nl/images/ux-kuV3Gb5b6aw1l0rwUHLr7KH4=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg 1x, https://img.culy.nl/images/ux-kuV3Gb5b6aw1l0rwUHLr7KH4=/162x92/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg 2x">
+                      <source srcset="https://img.culy.nl/images/sk6jRfZ2qBDLvusjz2pWzpEL_xE=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg 1x, https://img.culy.nl/images/vPiQDE08R3FC-IGuflUhNlS2PAU=/244x138/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg 2x">
+                      <img src="https://img.culy.nl/images/sk6jRfZ2qBDLvusjz2pWzpEL_xE=/122x69/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.culy.nl%2Fwp-content%2Fuploads%2F2024%2F12%2FLoaded-gyoza-oud-en-nieuw-1.jpg" alt="Loaded gyoza's voor oud en nieuw" loading="lazy" class="list__image">
+                    </picture>
+                  </div>
+                </div>
+                <div class="list__content">
+                  <p class="list__meta">
+                                        <span class="list__meta-category">
+                      Homemade                    </span>
+                    <span class="list__meta-date ">
+                      28 dec 2024<span class="meta__time">,&nbsp;<time datetime="2024-12-28T16:00:32+01:00" class="time">16:00</time></span>                    </span>
+                                      </p>
+                  <h3 class="list__title">Dit wil je: loaded gyoza&#8217;s voor oud &#038; nieuw</h3>
+                </div>
+              </a>
+                          </li>
+                        
+              </ul>
+    <div class="list__footer list-featured__footer">
+        </div>
+  </div>
+</div>
+</div></div></div>
+
+
+
+
+<div class="mha_container mha_container--fixedheight mha_container--footer"><div id="ad_leaderboard-b1" class="ad ad-leaderboard ad-footer_banner"></div></div>
+<footer class="footer" role="contentinfo">
+              <div class="footer__totop">
+                  <a onClick="jumpToTop();" class="button--totop"
+                  data-component="footer-totop" data-link-type="button" data-action="move-to-top"><i class="icon-arrow-up"></i><span class="button--toptop-text">Top</span></a>
+              </div>
+              <div class="footer__navigation " >
+                <div class="container">
+                    <div class="footer__navigation-container">
+                    <div class="footer__navigation-content">
+                        <div class="logo logo__footer"></div>
+                                            </div>
+                    <ul id="menu-footer-navigation" class="menu"><li id="menu-item-401275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-401275"><a data-component-name="nav" data-position="footer" data-link-type="navitem">Over Culy</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-202390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202390"><a href="https://www.culy.nl/contact/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/contact/">Contact</a></li>
+	<li id="menu-item-401329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401329"><a href="https://www.culy.nl/over-ons/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/over-ons/">Over ons</a></li>
+	<li id="menu-item-401276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401276"><a href="https://www.culy.nl/colofon/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/colofon/">Colofon</a></li>
+	<li id="menu-item-338369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-338369"><a href="https://culy-nl.campaign-list.com/subscribe/culys-recept-van-de-dag/6b647b3d-0ce7-4fe5-80c2-ee0246c17ade" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://culy-nl.campaign-list.com/subscribe/culys-recept-van-de-dag/6b647b3d-0ce7-4fe5-80c2-ee0246c17ade">Nieuwsbrief (dagelijks recept)</a></li>
+	<li id="menu-item-392387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-392387"><a href="https://culy-nl.campaign-list.com/subscribe/culy-weekend/ecc9e9bb-bbdf-44df-a45a-4631ad83083b" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://culy-nl.campaign-list.com/subscribe/culy-weekend/ecc9e9bb-bbdf-44df-a45a-4631ad83083b">Nieuwsbrief (weekend)</a></li>
+	<li id="menu-item-408126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-408126"><a href="https://www.culy.nl/tag/winactie/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/winactie/">Winacties</a></li>
+	<li id="menu-item-344291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-344291"><a href="https://www.mediahuis.nl/merk/culy/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.mediahuis.nl/merk/culy/">Adverteren op Culy</a></li>
+	<li id="menu-item-249328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-249328"><a href="https://www.mediahuis.nl/algemene-gebruiksvoorwaarden" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.mediahuis.nl/algemene-gebruiksvoorwaarden">Gebruiksvoorwaarden</a></li>
+</ul>
+</li>
+<li id="menu-item-401277" class="menu-item menu-item-type-taxonomy menu-item-object-category current-recipe-ancestor current-menu-parent current-recipe-parent menu-item-has-children menu-item-401277"><a href="https://www.culy.nl/recepten/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/">Recepten</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-411933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-411933"><a href="https://www.culy.nl/kerst/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/kerst/">Kerstrecepten</a></li>
+	<li id="menu-item-401279" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401279"><a href="https://www.culy.nl/recepten/menugang/ontbijt/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/ontbijt/">Ontbijt</a></li>
+	<li id="menu-item-401281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401281"><a href="https://www.culy.nl/recepten/menugang/lunch/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/lunch/">Lunch</a></li>
+	<li id="menu-item-401283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401283"><a href="https://www.culy.nl/recepten/menugang/diner/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/recepten/menugang/diner/">Avondeten</a></li>
+	<li id="menu-item-401280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401280"><a href="https://www.culy.nl/tag/voorgerecht/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/voorgerecht/">Voorgerecht</a></li>
+	<li id="menu-item-401285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401285"><a href="https://www.culy.nl/tag/hoofdgerecht/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/hoofdgerecht/">Hoofdgerecht</a></li>
+	<li id="menu-item-401287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401287"><a href="https://www.culy.nl/tag/bijgerecht/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/bijgerecht/">Bijgerecht</a></li>
+	<li id="menu-item-401290" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401290"><a href="https://www.culy.nl/tag/nagerecht/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/nagerecht/">Nagerecht</a></li>
+	<li id="menu-item-401936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401936"><a href="https://www.culy.nl/tag/budget-recepten/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/budget-recepten/">Budget recepten</a></li>
+	<li id="menu-item-414578" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-414578"><a href="https://www.culy.nl/snelle-recepten/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/snelle-recepten/">Snelle recepten</a></li>
+</ul>
+</li>
+<li id="menu-item-401278" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-401278"><a href="https://www.culy.nl/restaurants/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/">Restaurants</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-401292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401292"><a href="https://www.culy.nl/restaurants/stad-2/amsterdam-stad-2/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/amsterdam-stad-2/">Restaurants Amsterdam</a></li>
+	<li id="menu-item-401293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401293"><a href="https://www.culy.nl/restaurants/stad-2/utrecht/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/utrecht/">Restaurants Utrecht</a></li>
+	<li id="menu-item-401294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401294"><a href="https://www.culy.nl/restaurants/stad-2/rotterdam-stad-2/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/rotterdam-stad-2/">Restaurants Rotterdam</a></li>
+	<li id="menu-item-401295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401295"><a href="https://www.culy.nl/restaurants/stad-2/den-haag-stad-2/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/stad-2/den-haag-stad-2/">Restaurants Den Haag</a></li>
+	<li id="menu-item-401296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401296"><a href="https://www.culy.nl/tag/sterrenrestaurant/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/sterrenrestaurant/">Sterrenrestaurants</a></li>
+	<li id="menu-item-401297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401297"><a href="https://www.culy.nl/restaurants/dineren-hotspot-2/vegan-friendly/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/restaurants/dineren-hotspot-2/vegan-friendly/">Vegan restaurants</a></li>
+</ul>
+</li>
+<li id="menu-item-401348" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-401348"><a data-component-name="nav" data-position="footer" data-link-type="navitem">Keuken</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-401349" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401349"><a href="https://www.culy.nl/tag/mexicaans/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/mexicaans/">Mexicaans eten</a></li>
+	<li id="menu-item-401350" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401350"><a href="https://www.culy.nl/tag/grieks/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/grieks/">Grieks eten</a></li>
+	<li id="menu-item-401351" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401351"><a href="https://www.culy.nl/tag/turks/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/turks/">Turks eten</a></li>
+	<li id="menu-item-401352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401352"><a href="https://www.culy.nl/tag/italiaanse-recepten/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/italiaanse-recepten/">Italiaans eten</a></li>
+	<li id="menu-item-401353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401353"><a href="https://www.culy.nl/tag/indonesische-recepten/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/indonesische-recepten/">Indonesisch eten</a></li>
+	<li id="menu-item-401354" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401354"><a href="https://www.culy.nl/tag/spaans/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/spaans/">Spaans eten</a></li>
+	<li id="menu-item-401355" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401355"><a href="https://www.culy.nl/tag/japans/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/japans/">Japans eten</a></li>
+	<li id="menu-item-401356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401356"><a href="https://www.culy.nl/tag/frans/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/frans/">Frans eten</a></li>
+	<li id="menu-item-401357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401357"><a href="https://www.culy.nl/tag/hollands/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/hollands/">Hollands eten</a></li>
+</ul>
+</li>
+<li id="menu-item-401851" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-401851"><a data-component-name="nav" data-position="footer" data-link-type="navitem">Thema</a><button class="sub-menu-toggle" role="button"></button>
+<ul class="sub-menu">
+	<li id="menu-item-410866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-410866"><a href="https://www.culy.nl/tag/sinterklaas-recepten/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/sinterklaas-recepten/">Sinterklaas recepten</a></li>
+	<li id="menu-item-403288" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403288"><a href="https://www.culy.nl/kerst/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/kerst/">Kerstrecepten</a></li>
+	<li id="menu-item-403289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403289"><a href="https://www.culy.nl/tag/kerstbrunch/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/kerstbrunch/">Kerstbrunch &#038; kerstlunch</a></li>
+	<li id="menu-item-411374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-411374"><a href="https://www.culy.nl/tag/kerstontbijt/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/kerstontbijt/">Kerstontbijt</a></li>
+	<li id="menu-item-401852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401852"><a href="https://www.culy.nl/tag/pasen/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/pasen/">Paasrecepten</a></li>
+	<li id="menu-item-401853" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401853"><a href="https://www.culy.nl/tag/paasbrunch/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/tag/paasbrunch/">Paasbrunch</a></li>
+</ul>
+</li>
+<li id="menu-item-417807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-417807"><a href="https://www.culy.nl/videos/" data-component-name="nav" data-position="footer" data-link-type="navitem" data-link-uri="https://www.culy.nl/videos/">Video&#8217;s</a></li>
+</ul>                    </div>
+                </div>
+              </div>
+              <div class="footer__secondary">
+                <div class="container">
+                  <div class="footer__social">
+                      <ul class="socialmenu">
+          <li class="socialmenu__item">
+          <a href="https://www.facebook.com/CulyNL/" target="_blank" data-component-name="social" data-link-title="Facebook" data-link-type="button" data-link-uri="https://www.facebook.com/CulyNL/"><span class="socialmenu__item-text">Facebook</span><i class="icon-facebook"></i></a>
+      </li>
+            <li class="socialmenu__item">
+        <a href="https://www.instagram.com/culynl/" target="_blank" data-component-name="social" data-link-title="Instagram" data-link-type="button" data-link-uri="https://www.instagram.com/culynl/"><span class="socialmenu__item-text">Instagram</span><i class="icon-instagram"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://www.pinterest.com/culy/" target="_blank" data-component-name="social" data-link-title="Pinterest" data-link-type="button" data-link-uri="https://www.pinterest.com/culy/"><span class="socialmenu__item-text">Pinterest</span><i class="icon-pinterest"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://twitter.com/@CulyNL/" target="_blank" data-component-name="social" data-link-title="Twitter" data-link-type="button" data-link-uri="https://twitter.com/@CulyNL/"><span class="socialmenu__item-text">Twitter</span><i class="icon-twitter"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://www.youtube.com/c/CulyNLfood/" target="_blank" data-component-name="social" data-link-title="YouTube" data-link-type="button" data-link-uri="https://www.youtube.com/c/CulyNLfood/"><span class="socialmenu__item-text">YouTube</span><i class="icon-youtube"></i></a>
+    </li>
+            <li class="socialmenu__item">
+        <a href="https://www.tiktok.com/@culynl/" target="_blank" data-component-name="social" data-link-title="TikTok" data-link-type="button" data-link-uri="https://www.tiktok.com/@culynl/"><span class="socialmenu__item-text">TikTok</span><i class="icon-tiktok"></i></a>
+    </li>
+    </ul>
+                  </div>
+                  <div class="footer__copyright">
+                      <p>&copy; 2025 <strong>Culy</strong>. <span class="all-rights">Alle rechten voorbehouden</span>
+                                              <span class="hosting">Hosting by <strong><a href="https://www.xynta.com/" target="_blank" rel="noopener"
+                        data-component="footer-hosting" data-link-type="image">Xynta</a></strong></span>
+                                          </p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+        
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    wpk_elastic_json = [{'wpk_en_padding_desk': '0','wpk_en_padding_mob': '0','wpk_h1_font_weight': '600','wpk_en_h2_font_weight': '600','wpk_en_p_font_weight': '400','wpk_h1_family': 'Merriweather','wpk_h1_size_mob': '28px','wpk_h1_size_desk': '30px','wpk_h1_align': 'left','wpk_h1_color': '#000','wpk_h2_family': 'Poppins','wpk_h2_size_mob': '20px','wpk_h2_size_desk': '22px','wpk_h2_color': '#ea4816', 'wpk_p_family': 'Poppins','wpk_p_size_mob': '16px','wpk_p_size_desk': '16px', 'wpk_p_color': '#3f3f3f', 'wpk_p_line_height': '24px','wpk_bg_color': '#FFFFFF','wpk_href_color': '#ea4815','wpk_google_fonts': 'Poppins:400,500,600|Merriweather:400,700'}];
+</script>
+
+
+<article id="inhouse" class="single article__content has--featured-image" style="display:none;" data-id=""></article>            <script>
+                document.addEventListener("DOMContentLoaded", function(event) {
+                var inhouse = document.getElementById("inhouse");
+                                
+
+                });
+            </script>
+            <script async defer data-pin-hover="true" data-pin-tall="true" src="//assets.pinterest.com/js/pinit.js"></script>
+    <div id="receptlist" class="receptlist" style="display:none;"><style>
+          .receptlist {
+              border: 1px solid #ddd;
+              border-style: solid none;
+              margin-top: 3rem;
+              padding-bottom: 2.5rem;
+              margin-bottom: 3rem;
+              padding-top: 0rem;
+          }
+          .ingredients-container .ingredients {
+              margin: 0;
+          }
+          .ingredients-container h2 {
+              margin-top: 0;
+              line-height: 1;
+          }
+          .ingredients-container .recept-subhead {
+              font-size: 1.3rem;
+              color: #777;
+          }
+          .ingredients-container .ingredients ul li {
+              font-size: 1.5rem;
+              font-weight: normal;
+          }
+          .recipe-meta {
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            font-size: 1.3rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 2rem 0 1rem 0;
+          }
+          .recipe-meta__data {
+            color: #777;
+            font-weight: normal;
+            padding-right: 2rem;
+          }
+
+          .recipe-rating .rtng-text {
+            font-size: 14px;
+          }
+          .recipe-meta__data span {
+            color: #ea4816;
+            display: block;
+            font-size: 1.4rem;
+            font-weight: 700;
+          }
+          .recipe-rating {
+            border-top: .1rem solid #ddd;
+            margin-top: 3rem;
+            padding: 2rem 0 0 0;
+          }
+          .recipe-rating .rtng-title {
+            color: #ea4816 !important;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 4px;
+          }
+          .recipe-rating .rtng-total {
+            display: block;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 0;
+          }
+          .recipe-rating .rtng-rating-total {
+            margin-bottom: 0 !important;
+          }
+
+          @media all and (max-width: 359px) {
+            .recipe-meta span {
+              font-size: 1.3rem;
+            }
+            .recipe-meta__data {
+              padding-right: 1.4rem;
+            }
+          }
+
+           @media all and (min-width: 768px) {
+             .receptlist {
+              border-style: solid;
+            }
+            .ingredients-container .ingredients {
+              margin: 0 3rem;
+            }
+            .recipe-meta {
+             padding: 1rem 3rem 1rem 3rem;
+            }
+            .recipe-rating {
+              margin: 3rem 3rem 0 3rem;
+            }
+          }
+          @media all and (min-width: 1024px) {
+            .receptlist {
+              border-radius: .6rem;
+            }
+            .recipe-meta {
+             padding: 1rem 3rem 1rem 3rem;
+            }
+          }
+      </style><div class="ingredients-container" id="ingredientsContainerOrg"><div class="recipe-meta">
+    <label id="wakeLockContainer" class="wake-lock" style="display:none;">
+      <input type="checkbox" id="wakeLockCheckbox" class="wake-lock__checkbox" />
+      <span class="wake-lock__slider"></span>
+      <span class="wake-lock__label">Scherm aanhouden</span>
+    </label>
+
+    <script>
+      const wakeLockCheckbox = document.querySelector('#wakeLockCheckbox');
+        
+      if ('WakeLock' in window && 'request' in window.WakeLock) {  
+        let wakeLock = null;
+        const wakeLockContainer = document.getElementById('wakeLockContainer');
+        wakeLockContainer.style.display = 'flex';
+        
+        const requestWakeLock = () => {
+          const controller = new AbortController();
+          const signal = controller.signal;
+          window.WakeLock.request('screen', {signal})
+          .catch((e) => {      
+            if (e.name === 'AbortError') {
+              wakeLockCheckbox.checked = false;
+              console.log('Wake Lock was aborted');
+            } else {
+              console.error(e.name, e.message);
+            }
+          });
+          wakeLockCheckbox.checked = true;
+          console.log('Wake Lock is active');
+          return controller;
+        };
+        
+        wakeLockCheckbox.addEventListener('change', () => {
+          if (wakeLockCheckbox.checked) {
+            wakeLock = requestWakeLock();
+          } else {
+            wakeLock.abort();
+            wakeLock = null;
+          }
+        });   
+      
+      } else if ('wakeLock' in navigator && 'request' in navigator.wakeLock) {  
+        let wakeLock = null;
+        const wakeLockContainer = document.getElementById('wakeLockContainer');
+        wakeLockContainer.style.display = 'flex';
+        
+        const requestWakeLock = async () => {
+          try {
+            wakeLock = await navigator.wakeLock.request('screen');
+            wakeLock.addEventListener('release', (e) => {
+              console.log(e);
+              wakeLockCheckbox.checked = false;
+              console.log('Wake Lock was released');                    
+            });
+            wakeLockCheckbox.checked = true;
+            console.log('Wake Lock is active');      
+          } catch (e) {      
+            wakeLockCheckbox.checked = false;
+          } 
+        };
+        
+        wakeLockCheckbox.addEventListener('change', () => {
+          if (wakeLockCheckbox.checked) {
+            requestWakeLock();
+          } else {
+            wakeLock.release();
+            wakeLock = null;
+          }
+        });
+      } else {  
+        console.error('Wake Lock API not supported.');
+      }
+    </script>
+    
+    <style>
+      .wake-lock {
+        align-items: center;
+        display: flex;
+        flex-basis: 100%;
+        height: 26px;
+        margin: auto 0 2rem auto;
+        position: relative;
+      }
+
+      @media screen and (min-width: 767px) {
+        .wake-lock {
+          flex-basis: auto;
+          margin-bottom: auto;
+          order: 4;
+        }
+      }
+      
+      .wake-lock__checkbox {
+        height: 0;
+        opacity: 0;
+        width: 0;
+      }
+      
+      .wake-lock__slider {
+        background-color: #ddd;
+        border-radius: 34px;
+        bottom: 0;
+        cursor: pointer;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: .4s;
+        width: 46px;
+      }
+      
+      .wake-lock__slider::before {
+        background-color: white;
+        border-radius: 50%;
+        bottom: 3px;
+        content: '';
+        height: 20px;
+        left: 3px;
+        position: absolute;
+        transition: .4s;
+        width: 20px;
+      }
+      
+      .wake-lock__checkbox:checked + .wake-lock__slider {
+        background-color: var(--fw3-link-default);
+      }
+      
+      .wake-lock__checkbox:focus + .wake-lock__slider {
+        box-shadow: 0 0 1px var(--fw3-link-default);
+      }
+      
+      .wake-lock__checkbox:checked + .wake-lock__slider::before {
+        transform: translateX(20px);
+      }
+
+      .wake-lock__label {
+        padding-left: 50px;
+    </style><div class="recipe-meta__data"><span>Voorbereiding</span> 30 minuten</div><div class="recipe-meta__data"><span>Kooktijd</span>6 uur 20 minuten</div><div class="recipe-meta__data"><span>Calorieën</span>645 kcal</div></div>
+      <div class="ingredients" >
+      <div class="step">
+          <h4 class="btn--step"> </h4>
+      </div><h2 itemprop="recipeYield">Ingrediënten</h2><span class="recept-subhead">Voor 4 tot 6 personen:</span><h3>Voor de marinade:</h3>
+<ul>
+<li itemprop="ingredients"><span class="s1">1 ruime kilo rundersukade of runderlappen</span></li>
+<li class="p1"><span class="s1">400 ml water </span></li>
+<li class="p1"><span class="s1">400 ml natuurazijn</span></li>
+<li class="p1"><span class="s1">10 laurierblaadjes</span></li>
+<li class="p1"><span class="s1">10 jeneverbessen</span></li>
+<li class="p1"><span class="s1">10 kruidnagels</span></li>
+<li itemprop="ingredients">3 uien, in halve ringen</li>
+</ul>
+<h3>Voor het zuurvlees:</h3>
+<ul>
+<li itemprop="ingredients">1 flinke klont boter, om in te bakken</li>
+<li class="p1"><span class="s1">3 eetlepels appelstroop, of perenstroop</span></li>
+<li class="p1"><span class="s1">3 eetlepels bruine basterdsuiker</span></li>
+<li class="p1"><span class="s1">1 eetlepel speculaaskruiden, of koekkruiden</span></li>
+<li class="p1"><span class="s1">5 plakken ontbijtkoek, verkruimeld </span></li>
+</ul>
+</div><div class="recipe-rating"><form action="" method="post" class="rtng-form rtng-rating-total rtng-form-combined" data-id="227116"><span class="rtng-text rtng-title">Beoordeling</span><div class="rtng-star-rating rtng-no-js rtng-active" data-rating="88.976635514019">
+					<label class="rtng-star" data-rating="1">
+						<input type="radio"  name="rtng_rating[0]" value="1" />
+						<span class="dashicons dashicons-star-filled"></span>
+					</label>
+					<label class="rtng-star" data-rating="2">
+						<input type="radio"  name="rtng_rating[0]" value="2" />
+						<span class="dashicons dashicons-star-filled"></span>
+					</label>
+					<label class="rtng-star" data-rating="3">
+						<input type="radio"  name="rtng_rating[0]" value="3" />
+						<span class="dashicons dashicons-star-filled"></span>
+					</label>
+					<label class="rtng-star" data-rating="4">
+						<input type="radio"  name="rtng_rating[0]" value="4" />
+						<span class="dashicons dashicons-star-filled"></span>
+					</label>
+					<label class="rtng-star" data-rating="5">
+						<input type="radio" name="rtng_rating[0]" value="5" />
+						<span class="dashicons dashicons-star-half"></span>
+					</label></div><input type="hidden" name="rtng_object_type" value="post">
+					<input type="hidden" name="rtng_object_id" value="0">
+					<input type="hidden" name="rtng_post_id" value="227116">
+					<input type="hidden" name="rtng_show_title" value="1"><input type="hidden" id="rtng_nonce_button" name="rtng_nonce_button" value="6dcf74b37e" /><input type="hidden" name="_wp_http_referer" value="/recepten/zuurvlees-zoervleisj/" /><noscript><input type="submit" name="rtng_add_button" class="rtng-add-button" value="Rate" /></noscript><span class="rtng-text rtng-total">4.4 / 5 sterren. 428 x beoordeeld.</span></form></div></div></div><!-- Start of Food Influencers United "Recipe to Basket" code --><script async src="https://cdn.foodinfluencersunited.nl/r2b.js"></script><!-- End of Food Influencers United "Recipe to Basket" code -->      <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "mainEntityOfPage":{
+          "@type":"WebPage",
+          "@id":"https://www.culy.nl/recepten/zuurvlees-zoervleisj/"
+        },
+        "name": "Zuurvlees (Limburgs zoervleisj) maken: zo doe je dat zelf - Culy",
+        "recipeInstructions" : "Elke Limburger kent het, en iedereen die het (nog) niet kent, moet absoluut blijven lezen. Limburgs zuurvlees, ofwel zoervleisj, is een op en top winters gerecht vol smaak. Met dit zuurvleesrecept kun je er ook thuis van genieten.
+
+We kregen dit recept voor Limburgs zuurvlees (of zoervleisj dus), dat heel goed thuis te maken is, van een vaste Culy-lezer. Je moet er even wat tijd voor uittrekken en tijdig beginnen door de tijd die nodig is voor het marineren van het vlees. Verder is het gerecht low &amp; slow en hoef je niet veel te doen, een supermakkelijk recept dus!
+
+
+
+https://www.culy.nl/inspiratie/wild-betere-optie/
+
+
+Serveertip voor zuurvlees
+Dit Limburgs zuurvleesrecept kun je op verschillende manieren serveren. Op de Culy-redactie zijn we dol op friet erbij en dan vooral shoestring fries, Deze superdunne frietjes zijn niet helemaal traditoneel, maar wel onwijs lekker. Je maakt het net als gewone friet, alleen snijd je de frieten nog dunner. Een mandoline kan hiervoor handig zijn. Je kunt het natuurlijk ook met gewone - of dikke - frieten serveren.
+
+Naast friet zijn aardappelpuree of aardappelkroketten ook lekker op je bordje zuurvlees. Doe daar dan spruitjes met spekjes of rodekool bij. En natuurlijk wat lekkers te drinken: een glas stevige rode wijn, een goed abdijbier of een glas port.
+
+https://www.culy.nl/inspiratie/stoofvlees-serveren/
+
+
+Limburgs zuurvlees maken: het recept
+Een dag van tevoren
+
+ 	Snijd het vlees in flinke stukken.
+ 	Marineer de stukken vlees een nachtje in een mengsel van water, natuurazijn, specerijen en de gesneden uien. Zorg dat het vlees volledig onderstaat.
+
+De volgende dag
+
+ 	Haal het vlees de volgende dag samen met de uien uit de marinade. Vis ook de laurierblaadjes eruit, de kruidnagels en jeneverbessen gooi je weg. Bewaar wel het marinadevocht van het zuurvlees.
+ 	Zet een grote braadpan op het vuur en smelt daar in een flinke klont boter.
+ 	Dep het vlees goed droog en bestrooi vervolgens met zout en peper.
+ 	Braad het vlees goudbruin aan alle zijdes. Doe dit eventueel in delen, zodat de pan niet te vol raakt en het vlees goed kan bakken.
+ 	Haal het vlees uit de pan en voeg de uien toe. Bak deze ongeveer 5 minuten.
+ 	Doe het vlees en de laurierblaadjes er daarna weer bij, samen met één kopje van het marinadevocht, de appelstroop, bruine basterdsuiker, speculaaskruiden en de verkruimelde ontbijtkoek.
+ 	Laat ruim een 2 tot 4 uur op laag vuur zachtjes stoven (of zet het ongeveer 8 uur op 80 graden met deksel op de pan in de oven).
+ 	Maak de saus indien nodig dikker met wat extra ontbijtkoek. Proef het zuurvlees, en breng eventueel op smaak met een beetje zout en peper en voeg eventueel nog wat suiker toe naar smaak.
+
+
+Meer recepten voor stoofvlees:
+
+ 	Misschien niet het makkelijkste gerecht om te maken, maar het proberen waard: rendang
+ 	Leer de Perzische keuken beter kennen: Fesenjan met kip en granaatappel
+ 	Verlangen naar een oud-Hollandse klassieker? Dan moet je hachee maken
+",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg",
+          "height": 4000,
+          "width": 6000
+        },
+        "datePublished": "2025-01-08T16:00:18+01:00",
+        "dateModified": "2025-01-09T08:55:06+00:00",
+        "author": {
+          "@type": "Person",
+          "name": "Ogechi Chibueze"
+        },
+         "publisher": {
+          "@type": "Organization",
+          "name": "Culy",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.culy.nl/wp-content/uploads/2018/08/culy-site-schema-logo.png",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "description": "Elke Limburger kent het, en iedereen die het (nog) niet kent, moet absoluut blijven lezen. Limburgs zuurvlees, ofwel zoervleisj, is een op en top winters ger...",
+        "recipeYield": "4 tot 6 personen",
+        "recipeCategory": [],
+                "nutrition" : {
+          "@type": "NutritionInformation",
+          "calories": "645"        },
+                        "prepTime" : "PT30M",
+                        "cookTime" : "PT6H20M",
+                "recipeIngredient": ["1 ruime kilo rundersukade of runderlappen","400 ml water ","400 ml natuurazijn","10 laurierblaadjes","10 jeneverbessen","10 kruidnagels","3 uien, in halve ringen","1 flinke klont boter, om in te bakken","3 eetlepels appelstroop, of perenstroop","3 eetlepels bruine basterdsuiker","1 eetlepel speculaaskruiden, of koekkruiden","5 plakken ontbijtkoek, verkruimeld "]        ,
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.448831775700935",
+          "ratingCount": "428",
+          "bestRating" : "5",
+          "worstRating": "1"
+        }
+            }
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+        var receptlist = document.getElementById("receptlist");
+                  receptlist.style.display = 'block';
+          main = document.getElementsByTagName("ARTICLE")[0];
+          intro = main.getElementsByTagName("P")[0];
+          intro.parentNode.insertBefore(receptlist, intro.nextSibling);
+                });
+      </script>
+      <script type="text/javascript" src="https://www.culy.nl/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.culy.nl/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.culy.nl/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.culy.nl\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2024-10-28 20:51:53+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"This contact form is placed in the wrong place.":["Dit contactformulier staat op de verkeerde plek."],"Error:":["Fout:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.culy.nl/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://www.dwin2.com/pub.671135.min.js?ver=6.6.2" id="convert-a-link-js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" id="jquery-js"></script>
+<script type="text/javascript" id="wpk-scripts-js-extra">
+/* <![CDATA[ */
+var wpk_vars = {"site_name":"Culy","theme":"fw3-culy","is_post":"1","is_home":"","post_id":"227116","show_grid_related":"","ajax_url":"https:\/\/www.culy.nl\/wp-admin\/admin-ajax.php","newsletter":"8a86a82f21"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.culy.nl/wp-content/themes/fw3-culy/js/all.min.js?ver=3.5.23" id="wpk-scripts-js"></script>
+<script type="text/javascript" src="https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=1.0.0" id="remote_sdk-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://www.culy.nl/wp-includes/js/wp-embed.min.js?ver=6.6.2" id="wp-embed-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.culy.nl/wp-content/plugins/rating-bws/bws_menu/js/c_o_o_k_i_e.js?ver=1.4" id="rtng_bws_cookies-js"></script>
+<script type="text/javascript" id="rtng_scripts-js-extra">
+/* <![CDATA[ */
+var rtng_vars = {"ajaxurl":"https:\/\/www.culy.nl\/wp-admin\/admin-ajax.php","nonce":"423659a913","cookies_host":"www.culy.nl","secure":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.culy.nl/wp-content/plugins/rating-bws/js/script.js?ver=1.4" id="rtng_scripts-js"></script>
+    </body>
+</html>
