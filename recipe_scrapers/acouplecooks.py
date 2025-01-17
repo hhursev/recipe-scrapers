@@ -14,3 +14,7 @@ class ACoupleCooks(AbstractScraper):
             ".tasty-recipes-ingredients-body p b",
             ".tasty-recipes-ingredients-body ul li",
         )
+
+    def ingredients(self):
+        ingredients_list = self.soup.select(".tasty-recipes-ingredients-body ul li")
+        return [element.get_text() for element in ingredients_list]
