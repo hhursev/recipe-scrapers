@@ -1,7 +1,7 @@
 exclude: '.test(html|json)'
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v5.0.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
@@ -12,35 +12,17 @@ repos:
             - "--no-sort-keys"
             - "--no-ensure-ascii"
 -   repo: https://github.com/pycqa/flake8.git
-    rev: 7.0.0
+    rev: 7.1.1
     hooks:
     - id: flake8
-      additional_dependencies: [flake8-use-fstring, pep8-naming]
--   repo: https://github.com/pycqa/isort
-    rev: 5.13.2
-    hooks:
-    - id: isort
-      args: ["--profile", "black", "--filter-files"]
+      additional_dependencies: ["pep8-naming==0.14.1"]
 -   repo: https://github.com/psf/black
-    rev: 24.2.0
+    rev: 24.10.0
     hooks:
     - id: black
+      args: ["--target-version", "py39"]
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.9.0
+    rev: v1.14.0
     hooks:
     - id: mypy
       additional_dependencies: [types-beautifulsoup4, types-requests]
--   repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.1
-    hooks:
-    - id: pyupgrade
-      args: [--py39-plus]
--   repo: https://github.com/sphinx-contrib/sphinx-lint
-    rev: v0.9.1
-    hooks:
-    - id: sphinx-lint
-      args: ["-e", "all", "-d", "line-too-long"]
--   repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.43.0
-    hooks:
-    -   id: markdownlint

@@ -6,13 +6,17 @@ on:
 
 jobs:
   publish:
+    name: Upload release to PyPI
     runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/recipe-scrapers
+    permissions:
+      id-token: write
     steps:
-      - uses: actions/checkout@v3
-      - name: Check that the release commit can be found in a release branch
-        run: git branch main v14 --contains ${{ github.sha }} | egrep '.+'
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
       - name: Build the package
@@ -22,8 +26,6 @@ jobs:
       - name: Publish a Python distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
           verbose: true
       - name: Show build version used
         run: pip list | grep build
