@@ -1,7 +1,7 @@
 {
-  "author": "Lecker.de Redaktion",
+  "author": "Lecker",
   "canonical_url": "https://www.lecker.de/gemuesepfanne-mit-haehnchen-zuckerschoten-und-brokkoli-79685.html",
-  "site_name": "lecker.de",
+  "site_name": "LECKER",
   "host": "lecker.de",
   "language": "de",
   "title": "Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli",
@@ -32,8 +32,6 @@
   "description": "Unser beliebtes Rezept für Gemüsepfanne mit Hähnchen, Zuckerschoten und Brokkoli und mehr als 45.000 weitere kostenlose Rezepte auf LECKER.de.",
   "total_time": 25,
   "cook_time": 25,
-  "prep_time": null,
-  "cuisine": null,
   "ratings": 3.94,
   "ratings_count": 99,
   "nutrients": {
@@ -45,23 +43,16 @@
   },
   "image": "https://images.lecker.de/gemusepfanne-mit-hahnchen-zuckerschoten-und-brokkoli/1x1,id=7e976162,b=lecker,w=1600,h=,ca=12.42,0,87.58,100,rm=sk.jpeg",
   "keywords": [
-    "Hähnchen",
-    "Geflügel",
-    "Fleisch",
     "Zutaten",
-    "Mittagessen",
-    "Mahlzeit",
-    "Rezepte",
-    "Abendbrot",
-    "Low Carb",
-    "Gesundes Essen",
-    "Hauptgerichte",
-    "Menüs",
+    "Fleisch",
+    "Geflügel",
+    "Hähnchen",
     "Brokkoli",
-    "Kohl",
-    "Gemüse",
+    "Hauptgerichte",
+    "Low Carb",
     "Zuckerschoten",
     "Gemüsepfanne",
-    "Pfannengerichte"
+    "Mittagessen",
+    "Abendbrot"
   ]
 }
