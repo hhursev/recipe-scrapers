@@ -372,6 +372,7 @@ from .southerncastiron import SouthernCastIron
 from .southernliving import SouthernLiving
 from .spainonafork import SpainOnAFork
 from .spendwithpennies import SpendWithPennies
+from .spisbedre import SpisBedre
 from .springlane import Springlane
 from .stacyling import StacyLing
 from .staysnatched import StaySnatched
@@ -633,6 +634,7 @@ SCRAPERS = {
     SavoryNothings.host(): SavoryNothings,
     SheLikesFood.host(): SheLikesFood,
     SpainOnAFork.host(): SpainOnAFork,
+    SpisBedre.host(): SpisBedre,
     StacyLing.host(): StacyLing,
     StrongrFastr.host(): StrongrFastr,
     SugarHero.host(): SugarHero,
