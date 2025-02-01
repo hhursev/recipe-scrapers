@@ -1,8 +1,8 @@
 {
-  "host": "spisbedre.dk",
+  "author": "Louisa Lorang",
   "canonical_url": "https://spisbedre.dk/opskrifter/kyllingetaerte-med-butterdejslag",
   "site_name": "SPIS BEDRE",
-  "author": "Louisa Lorang",
+  "host": "spisbedre.dk",
   "language": "da",
   "title": "Kyllingetærte med butterdejslåg",
   "ingredients": [
@@ -52,9 +52,9 @@
     "Fordel fyldet i en tærteform. Rul butterdejen ud, og læg den forsigtigt over fyldet. Klem overskydende dej sammen rundt i kanten. Klip et par små huller i midten af butterdejslåget, så damp kan slippe ud.",
     "Pisk æg med 1½ spsk. koldt vand, og pensl butterdejslåget. Bag tærten i ovnen i ca. 20 minutter, til den er gylden og lækker. Servér den lun, evt. med salat til."
   ],
-  "total_time": 40,
+  "category": "Hovedretter",
   "yields": "4 servings",
-  "image": "https://spisbedre-production-app.imgix.net/images/recipes/kyllingetaerte-med-butterdejslag_15964.jpg?fit=crop&crop=focalpoint&fp-x=0.44097082638046&fp-y=0.66429758726712&fp-z=1.25",
   "description": "Brug dine grøntsags- og kyllingerester i en lun tærte til middagsbordet. Det sprøde butterdejslåg er prikken over i'et.",
-  "category": "Hovedretter"
+  "total_time": 40,
+  "image": "https://spisbedre-production-app.imgix.net/images/recipes/kyllingetaerte-med-butterdejslag_15964.jpg?fit=crop&crop=focalpoint&fp-x=0.44097082638046&fp-y=0.66429758726712&fp-z=1.25"
 }
