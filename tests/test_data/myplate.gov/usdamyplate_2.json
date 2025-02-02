@@ -1,0 +1,68 @@
+{
+  "author": "MyPlate",
+  "canonical_url": "https://www.myplate.gov/recipes/asparagus-mandarin-orange-chicken-and-rice",
+  "site_name": "MyPlate",
+  "host": "myplate.gov",
+  "language": "en",
+  "title": "Asparagus, Mandarin Orange, Chicken, and Rice",
+  "ingredients": [
+    "2 tablespoons extra virgin olive oil",
+    "2 tablespoons rice vinegar",
+    "3 tablespoons mandarin orange juice (reserved from oranges)",
+    "1 tablespoon soy sauce, reduced sodium",
+    "3 1/3 cups fresh asparagus (trimmed)",
+    "2 cans 11 oz cans mandarin oranges (drained, reserve juice)",
+    "12 ounces cooked chicken breast (cut into chunks)",
+    "3 cups cooked instant brown rice"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 tablespoons extra virgin olive oil",
+        "2 tablespoons rice vinegar",
+        "3 tablespoons mandarin orange juice (reserved from oranges)",
+        "1 tablespoon soy sauce, reduced sodium"
+      ],
+      "purpose": "For the Vinaigrette:"
+    },
+    {
+      "ingredients": [
+        "3 1/3 cups fresh asparagus (trimmed)",
+        "2 cans 11 oz cans mandarin oranges (drained, reserve juice)",
+        "12 ounces cooked chicken breast (cut into chunks)",
+        "3 cups cooked instant brown rice"
+      ],
+      "purpose": "For the Salad:"
+    }
+  ],
+  "instructions_list": [
+    "In a small bowl, whisk vinaigrette ingredients, set aside.",
+    "Cook rice according to package directions.",
+    "Place whole trimmed asparagus in a large skillet with 1 1/2 inches of water.",
+    "Bring to a boil, reduce heat and simmer, uncovered, for 2-5 minutes.",
+    "Rinse with cool water and cut into 1-inch pieces.",
+    "In a medium size bowl, toss all ingredients."
+  ],
+  "yields": "4 servings",
+  "description": "Fresh California asparagus, mandarin oranges, chicken, and brown rice make perfect compliments in this Asian-influenced salad.",
+  "prep_time": 30,
+  "ratings": 3.46,
+  "ratings_count": 164,
+  "nutrients": {
+    "Total Calories": "440",
+    "Total Fat": "11 g",
+    "Saturated Fat": "2 g",
+    "Cholesterol": "70 mg",
+    "Sodium": "N/A",
+    "Carbohydrates": "51 g",
+    "Dietary Fiber": "6 g",
+    "Total Sugars": "12 g",
+    "Added Sugars included": "0 g",
+    "Protein": "33 g",
+    "Vitamin D": "0 mcg",
+    "Calcium": "63 mg",
+    "Iron": "3 mg",
+    "Potassium": "737 mg"
+  },
+  "image": "https://myplate-prod.azureedge.us/sites/default/files/styles/medium/public/recipe-images/Asparagus%20Manderin%20Salad.jpg?itok=Kpd19Hqu"
+}
