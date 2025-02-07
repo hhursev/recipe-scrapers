@@ -153,3 +153,15 @@ class SpisBedre(AbstractScraper):
             if equipment.get("name")
         ]
         return get_equipment(result)
+
+    def nutrients(self):
+        nutrition = self.recipe_json.get("nutrition")
+        if not nutrition:
+            return None
+
+        return {
+            "calories": f"{round(nutrition.get("calories"))} kcal",
+            "fatContent": f"{round(nutrition.get("fat"))} g",
+            "carbohydrateContent": f"{round(nutrition.get("carbohydrates"))} g",
+            "proteinContent": f"{round(nutrition.get("protein"))} g",
+        }
