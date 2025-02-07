@@ -2,6 +2,7 @@ import json
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
+from ._utils import get_equipment
 
 
 class SpisBedre(AbstractScraper):
@@ -141,3 +142,12 @@ class SpisBedre(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        result = [
+            equipment.get("name")
+            for group in self.recipe_json.get("grouped_equipment", [])
+            for equipment in group.get("equipment", [])
+            if equipment.get("name")
+        ]
+        return get_equipment(result)

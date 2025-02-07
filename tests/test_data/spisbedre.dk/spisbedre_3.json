@@ -1,0 +1,96 @@
+{
+  "author": "Camilla Biesbjerg Markussen",
+  "canonical_url": "https://spisbedre.dk/opskrifter/fastelavnsboller-med-lemoncurd-og-braendt-marengs",
+  "site_name": "SPIS BEDRE",
+  "host": "spisbedre.dk",
+  "language": "da",
+  "title": "Fastelavnsboller med lemoncurd og brændt marengs",
+  "ingredients": [
+    "75 g smør",
+    "2.5 dl mælk",
+    "50 g gær",
+    "125 g yoghurt naturel 3,5 %",
+    "1 æg",
+    "2 spsk. sukker",
+    "2 spsk. vaniljesukker",
+    "0.5 tsk. salt",
+    "600 g hvedemel",
+    "0.5 dl mælk til pensling",
+    "3 usprøjtede citroner",
+    "200 g sukker",
+    "2 æg",
+    "75 g smør",
+    "300 g sukker",
+    "1 vaniljestang",
+    "1 dl vand",
+    "150 g pasteuriserede æggehvider"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "75 g smør",
+        "2.5 dl mælk",
+        "50 g gær",
+        "125 g yoghurt naturel 3,5 %",
+        "1 æg",
+        "2 spsk. sukker",
+        "2 spsk. vaniljesukker",
+        "0.5 tsk. salt",
+        "600 g hvedemel",
+        "0.5 dl mælk til pensling"
+      ],
+      "purpose": "Vaniljeboller"
+    },
+    {
+      "ingredients": [
+        "3 usprøjtede citroner",
+        "200 g sukker",
+        "2 æg",
+        "75 g smør"
+      ],
+      "purpose": "Lemoncurd"
+    },
+    {
+      "ingredients": [
+        "300 g sukker",
+        "1 vaniljestang",
+        "1 dl vand",
+        "150 g pasteuriserede æggehvider"
+      ],
+      "purpose": "Brændt marengs"
+    }
+  ],
+  "instructions_list": [
+    "Smelt smørret, og rør det sammen med mælken, til blandingen er lun. Rør gæren ud i mælkeblandingen, tilsæt yoghurt, æg, sukker, vaniljesukker og salt, og rør godt. Tilsæt hvedemelet lidt ad gangen, og ælt dejen godt sammen, til den er glat og smidig. Dæk skålen med et rent, fugtigt viskestykke, og lad dejen hæve et lunt sted i 1 time.",
+    "Tag dejen ud på bordet, og tril den til lige store boller. Sæt dem på en bageplade beklædt med bagepapir, dæk med et rent, fugtigt viskestykke, og lad bollerne hæve i 30 minutter. Pensl bollerne med mælk, og bag dem i en 200° varm ovn i 10-12 minutter. Afkøl på en rist.",
+    "Riv citronskallen fint, og pres saften af citronerne. Varm forsigtigt citronskal, citronsaft, sukker og æg op i en gryde ved svag varme. Tilsæt smør skåret i små tern, og pisk konstant over middel varme i ca. 10 minutter, til smørret er smeltet, og massen er tyknet. Det må ikke komme helt op at koge, for så skiller cremen!",
+    "Tag gryden af varmen, hæld citroncremen på et rent glas, og sæt låg på. Lad citroncremen blive helt kold i køleskabet.",
+    "Skær toppen af på hver bolle med en savtakket brødkniv (gem toppen!). Skrab forsigtigt en smule af indmaden ud af hver bolle. Læg ca. 2 tsk. lemoncurd i hullet på hver bolle, og læg toppen af bollen på igen.",
+    "Flæk vaniljestangen, og skrab kornene ud. Bland sukker, vaniljekorn og vand i en gryde, og bring det i kog. Lad det koge, til sukkeret er smeltet, og temperaturen er på 120° (brug et sukker- eller stegetermometer). Pisk æggehviderne helt stive i en ren skål med en elpisker (eller på en røremaskine). Tilsæt den varme sukkerlage i en tynd stråle, mens du pisker kraftigt i 5-7 minutter. Pisk, indtil marengsen er blank og meget fast.",
+    "Fyld marengsen i en sprøjtepose, og sprøjt den ud i pæne toppe oven på hver bolle. Brænd marengsen med en lille gasbrænder, så den får gyldne kanter. Servér fastelavnsbollerne straks med en god skefuld lemoncurd på toppen."
+  ],
+  "category": "Desserter, Kager, Fastelavnsboller",
+  "yields": "12 servings",
+  "description": "Du kender de traditionelle danske fastelavnsboller, men du har sikkert ikke smagt vores engelske fortolkning med lemoncurd og brændt marengs. Forandring fryder!",
+  "total_time": 60,
+  "ratings": 4.0,
+  "ratings_count": 2,
+  "equipment": [
+    "en lille créme brûée-gasbrænder",
+    "et sukker eller stegetermometer"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "211 kcal",
+    "fatContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "unsaturatedFatContent": "1.2 g",
+    "carbohydrateContent": "41 g",
+    "sugarContent": "27 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "48 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "15 mg"
+  },
+  "image": "https://spisbedre-production-app.imgix.net/images/recipes/fastelavnsboller-med-lemoncurd-og-braendt-marengs_2317.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5501708984375&fp-z=1"
+}
