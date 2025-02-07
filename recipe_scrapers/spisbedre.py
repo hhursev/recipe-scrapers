@@ -126,11 +126,12 @@ class SpisBedre(AbstractScraper):
         ]
 
     def instructions(self):
-        result = []
-        for group in self.recipe_json.get("grouped_instructions", []):
-            for instruction in group.get("instructions", []):
-                if instruction.get("instruction"):
-                    result.append(instruction.get("instruction"))
+        result = [
+            instruction.get("instruction")
+            for group in self.recipe_json.get("grouped_instructions", [])
+            for instruction in group.get("instructions", [])
+            if instruction.get("instruction")
+        ]
 
         return "\n".join(result)
 
