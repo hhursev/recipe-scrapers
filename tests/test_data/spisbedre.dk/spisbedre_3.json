@@ -70,7 +70,7 @@
     "Fyld marengsen i en sprøjtepose, og sprøjt den ud i pæne toppe oven på hver bolle. Brænd marengsen med en lille gasbrænder, så den får gyldne kanter. Servér fastelavnsbollerne straks med en god skefuld lemoncurd på toppen."
   ],
   "category": "Desserter, Kager, Fastelavnsboller",
-  "yields": "12 servings",
+  "yields": "12 items",
   "description": "Du kender de traditionelle danske fastelavnsboller, men du har sikkert ikke smagt vores engelske fortolkning med lemoncurd og brændt marengs. Forandring fryder!",
   "total_time": 60,
   "ratings": 4.0,
@@ -80,17 +80,10 @@
     "et sukker eller stegetermometer"
   ],
   "nutrients": {
-    "servingSize": "1 serving",
-    "calories": "211 kcal",
-    "fatContent": "4 g",
-    "saturatedFatContent": "2 g",
-    "unsaturatedFatContent": "1.2 g",
-    "carbohydrateContent": "41 g",
-    "sugarContent": "27 g",
-    "proteinContent": "5 g",
-    "sodiumContent": "48 mg",
-    "fiberContent": "3 g",
-    "cholesterolContent": "15 mg"
+    "calories": "390 kcal",
+    "fatContent": "16 g",
+    "carbohydrateContent": "43 g",
+    "proteinContent": "5 g"
   },
   "image": "https://spisbedre-production-app.imgix.net/images/recipes/fastelavnsboller-med-lemoncurd-og-braendt-marengs_2317.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5501708984375&fp-z=1"
 }

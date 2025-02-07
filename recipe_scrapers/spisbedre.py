@@ -29,7 +29,8 @@ class SpisBedre(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
-        return self.schema.yields()
+        servings = int(self.recipe_json.get("serving_size"))
+        return f"{servings} {'item' if self.recipe_json.get("serving_size_unit_id") != 1 else 'serving'}{'s' if servings != 1 else ''}"
 
     def ingredients(self):
         result = []
