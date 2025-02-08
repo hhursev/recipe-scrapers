@@ -33,7 +33,10 @@ class SpisBedre(AbstractScraper):
 
     def yields(self):
         servings = int(self.recipe_json.get("serving_size"))
-        return f"{servings} {'item' if self.recipe_json.get("serving_size_unit_id") != 1 else 'serving'}{'s' if servings != 1 else ''}"
+        yield_type = (
+            "item" if self.recipe_json.get("serving_size_unit_id") != 1 else "serving"
+        )
+        return f"{servings} {yield_type}{'s' if servings != 1 else ''}"
 
     def ingredients(self):
         result = []
