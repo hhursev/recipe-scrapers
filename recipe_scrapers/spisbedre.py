@@ -1,4 +1,5 @@
 import json
+import locale
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
@@ -11,6 +12,8 @@ class SpisBedre(AbstractScraper):
         self.recipe_json = json.loads(
             self.soup.find("div", id="app").attrs["data-page"]
         )["props"]["recipe"]
+
+        locale.setlocale(locale.LC_NUMERIC, "da_DK")
 
     @classmethod
     def host(cls):
@@ -83,10 +86,18 @@ class SpisBedre(AbstractScraper):
 
             total_amount = amount = ingredient.get("amount")
             if amount:
-                total_amount = amount * servings
-                if int(total_amount) == total_amount:
-                    total_amount = int(total_amount)
-                ingredient_elements.append(str(total_amount))
+                total_amount = round(amount * servings, 2)
+                # Formatting amount using same logic as the website
+                formatted_amount = (
+                    f"{total_amount:n}".replace("0,25", "¼")
+                    .replace("0,5", "½")
+                    .replace("0,75", "¾")
+                    .replace(",00", "")
+                    .replace(",25", "¼")
+                    .replace(",5", "½")
+                    .replace(",75", "¾")
+                )
+                ingredient_elements.append(formatted_amount)
 
             # For some reason unit_id 21 isn't rendered on the site, so we filter it as well
             if ingredient.get("unit_id") != 21:
