@@ -173,9 +173,14 @@ class SpisBedre(AbstractScraper):
         if not nutrition:
             return None
 
+        calories = round(nutrition.get("calories"))
+        fat = round(nutrition.get("fat"))
+        carbohydrates = round(nutrition.get("carbohydrates"))
+        protein = round(nutrition.get("protein"))
+
         return {
-            "calories": f"{round(nutrition.get("calories"))} kcal",
-            "fatContent": f"{round(nutrition.get("fat"))} g",
-            "carbohydrateContent": f"{round(nutrition.get("carbohydrates"))} g",
-            "proteinContent": f"{round(nutrition.get("protein"))} g",
+            "calories": f"{calories} kcal",
+            "fatContent": f"{fat} g",
+            "carbohydrateContent": f"{carbohydrates} g",
+            "proteinContent": f"{protein} g",
         }
