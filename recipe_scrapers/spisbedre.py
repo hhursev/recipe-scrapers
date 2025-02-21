@@ -2,6 +2,7 @@ import json
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
+from ._utils import get_equipment
 
 
 class SpisBedre(AbstractScraper):
@@ -28,7 +29,11 @@ class SpisBedre(AbstractScraper):
         return self.schema.total_time()
 
     def yields(self):
-        return self.schema.yields()
+        servings = int(self.recipe_json.get("serving_size"))
+        yield_type = (
+            "item" if self.recipe_json.get("serving_size_unit_id") != 1 else "serving"
+        )
+        return f"{servings} {yield_type}{'s' if servings != 1 else ''}"
 
     def ingredients(self):
         result = []
@@ -81,10 +86,20 @@ class SpisBedre(AbstractScraper):
 
             total_amount = amount = ingredient.get("amount")
             if amount:
-                total_amount = amount * servings
-                if int(total_amount) == total_amount:
-                    total_amount = int(total_amount)
-                ingredient_elements.append(str(total_amount))
+                total_amount = round(amount * servings, 2)
+                # Formatting amount using same logic as the website
+                formatted_amount = (
+                    str(total_amount)
+                    .replace(".", ",")
+                    .replace(",0", "")
+                    .replace("0,25", "¼")
+                    .replace("0,5", "½")
+                    .replace("0,75", "¾")
+                    .replace(",25", "¼")
+                    .replace(",5", "½")
+                    .replace(",75", "¾")
+                )
+                ingredient_elements.append(formatted_amount)
 
             # For some reason unit_id 21 isn't rendered on the site, so we filter it as well
             if ingredient.get("unit_id") != 21:
@@ -125,11 +140,12 @@ class SpisBedre(AbstractScraper):
         ]
 
     def instructions(self):
-        result = []
-        for group in self.recipe_json.get("grouped_instructions", []):
-            for instruction in group.get("instructions", []):
-                if instruction.get("instruction"):
-                    result.append(instruction.get("instruction"))
+        result = [
+            instruction.get("instruction")
+            for group in self.recipe_json.get("grouped_instructions", [])
+            for instruction in group.get("instructions", [])
+            if instruction.get("instruction")
+        ]
 
         return "\n".join(result)
 
@@ -141,3 +157,27 @@ class SpisBedre(AbstractScraper):
 
     def description(self):
         return self.schema.description()
+
+    def equipment(self):
+        result = [
+            equipment.get("name")
+            for group in self.recipe_json.get("grouped_equipment", [])
+            for equipment in group.get("equipment", [])
+            if equipment.get("name")
+        ]
+        return get_equipment(result)
+
+    def nutrients(self):
+        nutrition = self.recipe_json.get("nutrition")
+        if not nutrition:
+            return None
+
+        def format_nutrient(value, unit):
+            return f"{round(value)} {unit}"
+
+        return {
+            "calories": format_nutrient(nutrition.get("calories"), "kcal"),
+            "fatContent": format_nutrient(nutrition.get("fat"), "g"),
+            "carbohydrateContent": format_nutrient(nutrition.get("carbohydrates"), "g"),
+            "proteinContent": format_nutrient(nutrition.get("protein"), "g"),
+        }
