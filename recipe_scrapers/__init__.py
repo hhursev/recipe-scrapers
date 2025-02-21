@@ -409,6 +409,7 @@ from .themediterranedish import TheMediterraneDish
 from .themodernproper import TheModernProper
 from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
+from .theplantbasedschool import ThePlantBasedSchool
 from .therecipecritic import Therecipecritic
 from .thesaltymarshmallow import TheSaltyMarshmallow
 from .thespruceeats import TheSpruceEats
@@ -650,6 +651,7 @@ SCRAPERS = {
     TheLoopyWhisk.host(): TheLoopyWhisk,
     TheMediterraneDish.host(): TheMediterraneDish,
     ThePalatableLife.host(): ThePalatableLife,
+    ThePlantBasedSchool.host(): ThePlantBasedSchool,
     TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
     Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
