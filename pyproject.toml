@@ -10,6 +10,7 @@ authors = [
     {name = "James Addison", email = "james@reciperadar.com"},
 ]
 maintainers = [
+    {name = "Hristo Harsev", email = "r+pypi@hharsev.com"},
     {name = "James Addison", email = "james@reciperadar.com"},
 ]
 urls = {Homepage = "https://github.com/hhursev/recipe-scrapers/"}
