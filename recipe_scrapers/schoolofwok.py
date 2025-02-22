@@ -24,12 +24,16 @@ class SchoolOfWok(AbstractScraper):
             string=lambda text: text and text.lower() == "cuisine"
         )
 
-        return categoryheader.find_next("p").get_text() if categoryheader else None
+        return categoryheader.find_next(name="p").get_text() if categoryheader else None
 
     def total_time(self):
         timeheader = self.soup.find(string=lambda text: text and text.lower() == "time")
 
-        return get_minutes(timeheader.find_next("p").get_text()) if timeheader else None
+        return (
+            get_minutes(timeheader.find_next(name="p").get_text())
+            if timeheader
+            else None
+        )
 
     def yields(self):
         servingheader = self.soup.find(
@@ -37,7 +41,7 @@ class SchoolOfWok(AbstractScraper):
         )
 
         return (
-            get_yields(servingheader.find_next("p").get_text())
+            get_yields(servingheader.find_next(name="p").get_text())
             if servingheader
             else None
         )

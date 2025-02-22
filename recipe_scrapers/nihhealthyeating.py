@@ -106,7 +106,7 @@ class NIHHealthyEating(AbstractScraper):
         if len(ingredients_h4_sections) == 1:
             items = (
                 ingredients_div.find("h4")
-                .find_next_sibling("p")
+                .find_next_sibling(name="p")
                 .get_text()
                 .strip()
                 .split("\n")

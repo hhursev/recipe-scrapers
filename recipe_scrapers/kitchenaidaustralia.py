@@ -43,7 +43,7 @@ class KitchenAidAustralia(AbstractScraper):
 
         headings = ingredients.find_all("h2")
         for heading in headings:
-            ul = heading.find_next_sibling("ul")
+            ul = heading.find_next_sibling(name="ul")
             elements = self._parse_list(ul)
             ingredient_group = IngredientGroup(elements, heading.text)
             groups.append(ingredient_group)
@@ -84,7 +84,7 @@ class KitchenAidAustralia(AbstractScraper):
         """
         Get the value associated with a summary field.
         """
-        return item.find_next_sibling("p").text
+        return item.find_next_sibling(name="p").text
 
     def _parse_list(self, container) -> list[str]:
         """

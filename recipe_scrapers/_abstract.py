@@ -183,7 +183,7 @@ class AbstractScraper:
     def links(self):
         """Links found in the recipe."""
         invalid_href = {"#", ""}
-        links_html = self.soup.findAll("a", href=True)
+        links_html = self.soup.find_all("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 

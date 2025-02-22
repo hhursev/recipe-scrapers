@@ -22,7 +22,7 @@ class AHealthySliceOfLife(AbstractScraper):
     def ingredients(self):
         ingredients = self.soup.find(
             "div", {"class": "tasty-recipes-ingredients-body"}
-        ).findAll("p")
+        ).find_all("p")
         return [normalize_string(ing.get_text().strip()) for ing in ingredients]
 
     def instructions(self):

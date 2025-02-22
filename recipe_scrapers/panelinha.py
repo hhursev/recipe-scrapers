@@ -18,6 +18,6 @@ class Panelinha(AbstractScraper):
 
     def total_time(self):
         tempo_de_preparo = (
-            self.soup.find("dt", string="Tempo de preparo").find_next("dd").text
+            self.soup.find("dt", string="Tempo de preparo").find_next(name="dd").text
         )
         return get_minutes(tempo_de_preparo)

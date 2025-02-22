@@ -57,8 +57,8 @@ class AllRecipesUser(AbstractScraper):
         # and total times
         # Possible keys are 'servings', 'yield', 'cook', 'prep', 'total'
         meta = zip(
-            self.soup.findAll("div", {"class": "recipe-meta-item-header"}),
-            self.soup.findAll("div", {"class": "recipe-meta-item-body"}),
+            self.soup.find_all("div", {"class": "recipe-meta-item-header"}),
+            self.soup.find_all("div", {"class": "recipe-meta-item-body"}),
         )
         self.meta = {
             k.text.lower().rstrip(":"): normalize_string(v.text) for k, v in meta
@@ -95,12 +95,12 @@ class AllRecipesUser(AbstractScraper):
         raise NotImplementedError("Not available for personal recipes.")
 
     def ingredients(self):
-        ingredients = self.soup.findAll("span", {"class": "ingredients-item-name"})
+        ingredients = self.soup.find_all("span", {"class": "ingredients-item-name"})
         ingredients = [normalize_string(i.text) for i in ingredients]
         return ingredients
 
     def instructions(self):
-        instructions = self.soup.findAll("div", {"class": "paragraph"})
+        instructions = self.soup.find_all("div", {"class": "paragraph"})
         instructions = "\n".join(normalize_string(i.text) for i in instructions)
         return instructions
 
@@ -124,10 +124,10 @@ class AllRecipesUser(AbstractScraper):
         """
         reviews = []
         for element in zip(
-            self.soup.findAll("span", {"class": "reviewer__name"}),  # name
-            self.soup.findAll("span", {"class": "feedback__reviewDate"}),  # date
-            self.soup.findAll("span", {"class": "review-star-text"}),  # rating
-            self.soup.findAll("div", {"class": "feedback__reviewBody"}),  # comment
+            self.soup.find_all("span", {"class": "reviewer__name"}),  # name
+            self.soup.find_all("span", {"class": "feedback__reviewDate"}),  # date
+            self.soup.find_all("span", {"class": "review-star-text"}),  # rating
+            self.soup.find_all("div", {"class": "feedback__reviewBody"}),  # comment
         ):
             name, date, rating, comment = element
             name = normalize_string(name.text)

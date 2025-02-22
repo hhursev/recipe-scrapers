@@ -8,13 +8,13 @@ class CookingLight(AbstractScraper):
         return "cookinglight.com"
 
     def ingredients(self):
-        ingredients = self.soup.find("div", {"class": "ingredients"}).ul.findAll("li")
+        ingredients = self.soup.find("div", {"class": "ingredients"}).ul.find_all("li")
         return "\n".join(
             [normalize_string(ingredient.get_text()) for ingredient in ingredients]
         )
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "recipe-instructions"}).findAll(
+        instructions = self.soup.find("div", {"class": "recipe-instructions"}).find_all(
             "div", {"class": "step"}
         )
         return "\n".join([normalize_string(instr.get_text()) for instr in instructions])

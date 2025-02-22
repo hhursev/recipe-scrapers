@@ -17,7 +17,7 @@ class EatWell101(AbstractScraper):
         ingredients_h2 = self.soup.find(
             "h2", string=re.compile(r"Ingredients", re.IGNORECASE)
         )
-        ingredients_ul = ingredients_h2.find_next("ul")
+        ingredients_ul = ingredients_h2.find_next(name="ul")
         ingredients_list = [item.text.strip() for item in ingredients_ul.find_all("li")]
         normalized_ingredients = [
             normalize_string(ingredient) for ingredient in ingredients_list
@@ -29,12 +29,12 @@ class EatWell101(AbstractScraper):
         directions_h2 = self.soup.find("h2", string="Directions")
         instructions_list = []
         if directions_h2:
-            next_sibling = directions_h2.find_next_sibling()
+            next_sibling = directions_h2.find_next_sibling(name=True)
             while next_sibling:
                 if next_sibling.name == "p" and next_sibling.find("strong"):
                     instruction_text = normalize_string(next_sibling.text.strip())
                     instructions_list.append(instruction_text)
-                    next_sibling = next_sibling.find_next_sibling()
+                    next_sibling = next_sibling.find_next_sibling(name=True)
                 else:
                     break
 

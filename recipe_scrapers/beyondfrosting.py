@@ -21,8 +21,9 @@ class BeyondFrosting(AbstractScraper):
             ".tasty-recipes-equipment .tasty-link-card a.tasty-link"
         )
         equipment_list = [
-            item.find_next("p").get_text(strip=True)
+            item.find_next(name="p").get_text(strip=True)
             for item in equipment_items
-            if "affiliate link" not in item.find_next("p").get_text(strip=True).lower()
+            if "affiliate link"
+            not in item.find_next(name="p").get_text(strip=True).lower()
         ]
         return get_equipment(equipment_list)

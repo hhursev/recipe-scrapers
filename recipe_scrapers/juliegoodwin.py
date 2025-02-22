@@ -83,7 +83,7 @@ class JulieGoodwin(AbstractScraper):
 
         instruction_header = self.soup.find(string=re.compile("Method"))
         if instruction_header:
-            instructions = instruction_header.parent.findNextSiblings("p")
+            instructions = instruction_header.parent.find_next_siblings(name="p")
             return "\n".join(
                 [
                     normalize_string(inst.get_text().split(".", 1)[1])

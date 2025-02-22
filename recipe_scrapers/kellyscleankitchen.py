@@ -34,7 +34,7 @@ class KellysCleanKitchen(AbstractScraper):
         ingredients_list = []
         ingredients_section = self.soup.find(
             "h3", id=re.compile("ingredients.*")
-        ).find_next("ul")
+        ).find_next(name="ul")
         if ingredients_section:
             ingredients = ingredients_section.find_all("li")
             ingredients_list = [
@@ -46,7 +46,7 @@ class KellysCleanKitchen(AbstractScraper):
         instructions_list = []
         steps = self.soup.find_all(class_="recipe-steps")
         for step in steps:
-            instruction_text = normalize_string(step.find_next("p").get_text())
+            instruction_text = normalize_string(step.find_next(name="p").get_text())
             if instruction_text:
                 instructions_list.append(instruction_text)
         return "\n".join(instructions_list)
@@ -68,5 +68,5 @@ class KellysCleanKitchen(AbstractScraper):
             return get_minutes(cook_time)
 
     def description(self):
-        description_text = self.soup.find("h1").find_next("p")
+        description_text = self.soup.find("h1").find_next(name="p")
         return normalize_string(description_text.get_text()) if description_text else ""

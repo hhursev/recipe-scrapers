@@ -21,7 +21,7 @@ class TheKitchenMagPie(AbstractScraper):
         if equipment_container:
             equipment_text = equipment_container.find("dt", string="Equipment")
             if equipment_text:
-                equipment_list = equipment_text.find_next_sibling("dd")
+                equipment_list = equipment_text.find_next_sibling(name="dd")
                 if equipment_list:
                     return get_equipment(csv_to_tags(equipment_list.text))
         return None

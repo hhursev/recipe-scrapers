@@ -33,7 +33,7 @@ classifiers = [
 dynamic = ["version", "readme"]
 requires-python = ">= 3.9"
 dependencies = [
-    "beautifulsoup4 >= 4.12.3, < 4.13.0",
+    "beautifulsoup4 >= 4.12.3",
     "extruct >= 0.17.0",
     "isodate >= 0.6.1",
 ]
