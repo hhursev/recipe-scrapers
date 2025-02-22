@@ -13,6 +13,8 @@ __all__ = (
 
 import warnings
 
+from urllib.request import urlopen
+
 try:
     # requests is an optional dependency; we can provide better error messages
     # when we know that it's unavailable before a user attempts a web request
@@ -1020,3 +1022,8 @@ def scrape_html(
         return schema_scraper
 
     raise NoSchemaFoundInWildMode(org_url)
+
+
+def scrape_me(url: str) -> AbstractScraper:
+    html = urlopen(url).read().decode("utf-8")
+    return scrape_html(html, org_url=url)
