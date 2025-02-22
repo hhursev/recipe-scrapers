@@ -44,7 +44,7 @@ bot protection measures implemented by websites.
 
 
 Installation
------------
+------------
 .. code:: shell
 
     pip install recipe-scrapers
