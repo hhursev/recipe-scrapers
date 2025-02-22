@@ -42,14 +42,10 @@ not.
 
 ### Core Methods
 
-These methods should be available for all supported websites:
+These methods must be available for all supported websites:
 
 !!! warning "Under Construction"
     This documentation section is currently being updated and improved.
-
-::: tests.MANDATORY_TESTS
-    options:
-        heading_level: 4
 
 
 ### Optional Methods
@@ -58,10 +54,6 @@ These additional methods are available for some websites:
 
 !!! warning "Under Construction"
     This documentation section is currently being updated and improved.
-
-::: tests.OPTIONAL_TESTS
-    options:
-      heading_level: 4
 
 
 ## Common Patterns
