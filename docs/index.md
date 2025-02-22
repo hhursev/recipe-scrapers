@@ -3,17 +3,16 @@
 [![Github](https://img.shields.io/github/stars/hhursev/recipe-scrapers?style=social)](https://github.com/hhursev/recipe-scrapers/)
 [![Version](https://img.shields.io/pypi/v/recipe-scrapers.svg)](https://pypi.org/project/recipe-scrapers/)
 [![Python Version](https://img.shields.io/pypi/pyversions/recipe-scrapers)](https://pypi.org/project/recipe-scrapers/)
-[![Downloads](https://pepy.tech/badge/recipe-scrapers)](https://pepy.tech/project/recipe-scrapers)
 [![GitHub Actions Unittests](https://github.com/hhursev/recipe-scrapers/actions/workflows/unittests.yaml/badge.svg?branch=main)](https://github.com/hhursev/recipe-scrapers/actions/)
 [![Coveralls](https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github)](https://coveralls.io/github/hhursev/recipe-scraper?branch=main)
 [![License](https://img.shields.io/github/license/hhursev/recipe-scrapers)](https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE)
 
 ---
 
-`recipe-scrapers` is a [python](https://www.python.org/) package for extracting recipe data from
+`recipe-scrapers` is a [Python](https://www.python.org/) package for extracting recipe data from
 cooking websites. It parses recipe information from either standard
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) structure, [Schema](https://schema.org/)
-markup (including JSON-LD, Microdata, and RDFa formats) or [OpenGraph](https://ogp.me/) metadata found.
+markup (including JSON-LD, Microdata, and RDFa formats) or [OpenGraph](https://ogp.me/) metadata.
 
 The package provides a simple and consistent API for retrieving data such as ingredients, instructions,
 cooking times, and more.
