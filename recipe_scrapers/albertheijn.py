@@ -3,8 +3,8 @@ from ._abstract import AbstractScraper
 
 class AlbertHeijn(AbstractScraper):
     @classmethod
-    def host(cls):
-        return "ah.nl"
+    def host(cls, domain: str = "ah.nl"):
+        return domain
 
     def instructions(self):
         instructions = self.schema.instructions()
