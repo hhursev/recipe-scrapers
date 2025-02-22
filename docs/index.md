@@ -4,33 +4,28 @@
 [![Version](https://img.shields.io/pypi/v/recipe-scrapers.svg)](https://pypi.org/project/recipe-scrapers/)
 [![Python Version](https://img.shields.io/pypi/pyversions/recipe-scrapers)](https://pypi.org/project/recipe-scrapers/)
 [![Downloads](https://pepy.tech/badge/recipe-scrapers)](https://pepy.tech/project/recipe-scrapers)
-[![GitHub Actions Unittests](https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=main)](https://github.com/hhursev/recipe-scrapers/actions/)
+[![GitHub Actions Unittests](https://github.com/hhursev/recipe-scrapers/actions/workflows/unittests.yaml/badge.svg?branch=main)](https://github.com/hhursev/recipe-scrapers/actions/)
 [![Coveralls](https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github)](https://coveralls.io/github/hhursev/recipe-scraper?branch=main)
 [![License](https://img.shields.io/github/license/hhursev/recipe-scrapers)](https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE)
 
 ---
 
-`recipe-scrapers` is a Python package designed to extract recipe data from HTM content of
-cooking websites. It parses the HTML structure of recipe pages to provide a simple and consistent
-API for retrieving structured data like ingredients, instructions, cooking time, and more.
-Works with the python versions listed above.
+`recipe-scrapers` is a [python](https://www.python.org/) package for extracting recipe data from
+cooking websites. It parses recipe information from either standard
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) structure, [Schema](https://schema.org/)
+markup (including JSON-LD, Microdata, and RDFa formats) or [OpenGraph](https://ogp.me/) metadata found.
 
-## Installation
+The package provides a simple and consistent API for retrieving data such as ingredients, instructions,
+cooking times, and more.
 
-You can install `recipe-scrapers` using pip or your preferred Python package manager:
+Compatible with the Python versions listed above. This package does not circumvent or bypass any
+bot protection measures implemented by websites.
+
 
 !!! tip "Install"
     ``` console
     pip install recipe-scrapers
     ```
-
-!!! note
-
-    This should produce output about the installation process, with the final line reading:
-    `Successfully installed recipe-scrapers-<version-number>`.
-
-
-## Overview
 
 ```python exec="on"
 import sys
@@ -41,6 +36,40 @@ print(f"There are **{len(SCRAPERS.keys())}** cooking websites currently supporte
 ```
 
 For a full list check our [Supported Sites](./getting-started/supported-sites.md) section.
+
+
+## Getting Started
+
+Parsing recipe information can be as simple as:
+
+```python
+from recipe_scrapers import scrape_me
+
+scraper = scrape_me("https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/")
+scraper.title()
+scraper.instructions()
+scraper.to_json()
+# for a complete list of methods:
+# help(scraper)
+```
+
+!!! warning
+    `recipe-scrapers` is designed to focus **exclusively on HTML parsing**.
+
+    This core principle guides our development and support. You'll need to implement your own solution
+    for fetching recipe HTMLs and managing network requests. The library works best when you
+    provide both the HTML content and its source domain.
+
+    For more advanced implementations, we recommend using:
+
+    ```python
+    from recipe_scrapers import scrape_html
+    ```
+
+    Check out our [Examples](./getting-started/examples.md) section.
+
+
+## Overview
 
 With `recipe-scrapers`, you should easily extract structured recipe data such as:
 
@@ -54,41 +83,6 @@ With `recipe-scrapers`, you should easily extract structured recipe data such as
 
 Check out our [Examples](./getting-started/examples.md) section to see how to get started with the library.
 
-## Core Functionality
-
-`recipe-scrapers` long term aim is to focus **solely on HTML parsing** and not to handle
-networking operations. This design choice provides flexibility in how you retrieve HTML content
-and allows you to:
-
-- Implement your own networking logic
-- Handle rate limiting
-- Manage caching
-- Control error handling
-- Use your preferred HTTP client
-
-
-## Getting Started
-
-👋 We suspect you've missed a few key links, such as us mentioning the [Examples](./getting-started/examples.md) and
-the [Supported Sites](./getting-started/supported-sites.md) section.
-
-Thus, we drop this tiny Python snippet for you (using Python's built-in `urllib`) to showcase how
-you can use this package:
-
-```python
-from urllib.request import urlopen
-
-from recipe_scrapers import scrape_html
-
-url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-html = urlopen(url).read().decode("utf-8")  # retrieves the recipe webpage HTML
-scraper = scrape_html(html, org_url=url)
-scraper.title()
-scraper.instructions()
-scraper.to_json()
-# for a complete list of methods:
-# help(scraper)
-```
 
 ## Why recipe-scrapers Exists
 
@@ -110,6 +104,6 @@ Today, our library helps power diverse projects across the cooking landscape:
 We're excited to see what you'll create! Feel free to share your project in our
 [community showcase](https://github.com/hhursev/recipe-scrapers/issues/9) - we love seeing what others build with the library.
 
-!!! tip "Happy cooking with code!"
-    While building awesome stuff, remember to be mindful of websites' terms and fair usage -
-    our [Copyright and Usage Guidelines](copyright-and-usage.md) will help you stay on track.
+
+While building awesome stuff, remember to be mindful of websites' terms and fair usage -
+our [Copyright and Usage](copyright-and-usage.md) will help you stay on track.
