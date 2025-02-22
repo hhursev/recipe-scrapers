@@ -34,6 +34,8 @@ class SchemaOrg:
             return item
         for graph in item.get("@graph", []):
             for node in graph if isinstance(graph, list) else [graph]:
+                if not isinstance(node, dict):
+                    continue
                 if self._contains_schematype(node, schematype):
                     return node
 
