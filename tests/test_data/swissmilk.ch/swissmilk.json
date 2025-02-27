@@ -1,8 +1,8 @@
 {
-  "host": "swissmilk.ch",
+  "author": "Swissmilk",
   "canonical_url": "https://www.swissmilk.ch/de/rezepte-kochideen/rezepte/LM200910_59/tomatenrisotto/",
   "site_name": "Swissmilk",
-  "author": "Swissmilk",
+  "host": "swissmilk.ch",
   "language": "de",
   "title": "Tomatenrisotto",
   "ingredients": [
@@ -24,8 +24,8 @@
     "Knoblauch und Zwiebel in Butter andünsten. Reis und Tomatenpüree kurz mitdünsten. Mit Wein oder Bouillon ablöschen, einkochen. Nach und nach heisse Bouillon dazugiessen, unter häufigem Rühren 15-20 Minuten al dente kochen.",
     "Mascarpone, Oregano, Tomaten und Sbrinz daruntermischen, nur heiss werden lassen, mit Pfeffer würzen, garnieren."
   ],
-  "total_time": 30,
   "yields": "2 servings",
-  "image": "https://res.cloudinary.com/swissmilk/image/fetch/w_1600,c_fill,g_auto,f_auto,q_auto:eco,ar_16:9/https://api.swissmilk.ch/wp-content/uploads/2019/12/LM200910_59_Tomatenrisotto-2560x1707.jpg",
-  "description": "Risotto mal anders: wunderbares Aroma von Tomaten und Oregano und herrlich sämig dank Mascarpone. Jede Gabel schmeckt wie Ferien im Tessin."
+  "description": "Risotto mal anders: wunderbares Aroma von Tomaten und Oregano und herrlich sämig dank Mascarpone. Jede Gabel schmeckt wie Ferien im Tessin.",
+  "total_time": 30,
+  "image": "https://res.cloudinary.com/swissmilk/image/fetch/w_1600,c_fill,g_auto,f_auto,q_auto:eco,ar_16:9/https://api.swissmilk.ch/wp-content/uploads/2019/12/LM200910_59_Tomatenrisotto-2560x1707.jpg"
 }
