@@ -389,6 +389,7 @@ from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
+from .swissmilk import SwissMilk
 from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tasteofhome import TasteOfHome
@@ -646,6 +647,7 @@ SCRAPERS = {
     StacyLing.host(): StacyLing,
     StrongrFastr.host(): StrongrFastr,
     SugarHero.host(): SugarHero,
+    SwissMilk.host(): SwissMilk,
     TasteAtlas.host(): TasteAtlas,
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
