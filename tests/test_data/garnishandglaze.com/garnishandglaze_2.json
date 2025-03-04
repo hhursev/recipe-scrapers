@@ -1,0 +1,57 @@
+{
+  "author": "Melanie",
+  "canonical_url": "https://www.garnishandglaze.com/orzo-rice/",
+  "site_name": "Garnish & Glaze",
+  "host": "garnishandglaze.com",
+  "language": "en-US",
+  "title": "Orzo Rice",
+  "ingredients": [
+    "1 tablespoon butter",
+    "1/2 cup orzo",
+    "1 cup Jasmine rice",
+    "2 1/4 cups chicken broth*"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 tablespoon butter",
+        "1/2 cup orzo",
+        "1 cup Jasmine rice",
+        "2 1/4 cups chicken broth*"
+      ],
+      "purpose": null
+    }
+  ],
+  "instructions": "Melt butter in a 2 quart sauce pan over medium high heat. Add orzo and cook and stir until golden and toasted.\nStir in the rice and broth. Bring to a boil, cover, and turn to low. Cook for 18 minutes. Take pot off element (do not open lid!) and let sit at least 10 minutes.\nFluff with a fork and serve.",
+  "instructions_list": [
+    "Melt butter in a 2 quart sauce pan over medium high heat. Add orzo and cook and stir until golden and toasted.",
+    "Stir in the rice and broth. Bring to a boil, cover, and turn to low. Cook for 18 minutes. Take pot off element (do not open lid!) and let sit at least 10 minutes.",
+    "Fluff with a fork and serve."
+  ],
+  "category": "Side Dish",
+  "yields": "6 servings",
+  "description": "Orzo Rice is an easy and simple side dish that pairs well with various proteins. Plain rice is just... plain, pilaf requires chopping and takes an hour, but this simple Orzo Rice takes just 35 minutes and is packed with flavor from the butter toasted orzo and chicken broth.",
+  "total_time": 35,
+  "cook_time": 22,
+  "prep_time": 3,
+  "cuisine": "American",
+  "ratings": 4.86,
+  "ratings_count": 7,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "181 kcal",
+    "fatContent": "2 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "2 g",
+    "carbohydrateContent": "34 g",
+    "sugarContent": "1 g",
+    "proteinContent": "4 g",
+    "sodiumContent": "351 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "2 mg"
+  },
+  "image": "https://www.garnishandglaze.com/wp-content/uploads/2022/04/orzo-rice-4.jpg",
+  "keywords": [
+    "Orzo Rice"
+  ]
+}
