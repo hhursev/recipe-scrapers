@@ -84,6 +84,7 @@ from .bitsofcarey import BitsOfCarey
 from .blueapron import BlueApron
 from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
+from .bofrost import Bofrost
 from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
@@ -521,6 +522,7 @@ SCRAPERS = {
     BlueApron.host(): BlueApron,
     BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
+    Bofrost.host(): Bofrost,
     BonAppetit.host(): BonAppetit,
     BowlOfDelicious.host(): BowlOfDelicious,
     BongEats.host(): BongEats,
