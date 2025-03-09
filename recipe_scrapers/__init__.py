@@ -384,6 +384,7 @@ from .staysnatched import StaySnatched
 from .steamykitchen import SteamyKitchen
 from .streetkitchen import StreetKitchen
 from .strongrfastr import StrongrFastr
+from .sudachirecipes import SudachiRecipes
 from .sugarhero import SugarHero
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
@@ -648,6 +649,7 @@ SCRAPERS = {
     SpisBedre.host(): SpisBedre,
     StacyLing.host(): StacyLing,
     StrongrFastr.host(): StrongrFastr,
+    SudachiRecipes.host(): SudachiRecipes,
     SugarHero.host(): SugarHero,
     SwissMilk.host(): SwissMilk,
     TasteAtlas.host(): TasteAtlas,
