@@ -56,6 +56,7 @@ from .allrecipes import AllRecipes
 from .allthehealthythings import AllTheHealthyThings
 from .alltomat import AllTomat
 from .altonbrown import AltonBrown
+from .amazingoriental import AmazingOriental
 from .amazingribs import AmazingRibs
 from .ambitiouskitchen import AmbitiousKitchen
 from .ameessavorydish import AmeesSavoryDish
@@ -492,6 +493,7 @@ SCRAPERS = {
     AllTheHealthyThings.host(): AllTheHealthyThings,
     AllTomat.host(): AllTomat,
     AltonBrown.host(): AltonBrown,
+    AmazingOriental.host(): AmazingOriental,
     AmazingRibs.host(): AmazingRibs,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     AmericasTestKitchen.host(): AmericasTestKitchen,
