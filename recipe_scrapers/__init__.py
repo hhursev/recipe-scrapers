@@ -1033,5 +1033,5 @@ def scrape_html(
 
 
 def scrape_me(url: str) -> AbstractScraper:
-    html = urlopen(Request(url, headers={'User-Agent': 'Mozilla/5.0'})).read().decode("utf-8")
+    html = urlopen(Request(url, headers=HEADERS)).read().decode("utf-8")
     return scrape_html(html, org_url=url)
