@@ -13,7 +13,7 @@ __all__ = (
 
 import warnings
 
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
 
 try:
     # requests is an optional dependency; we can provide better error messages
@@ -1035,5 +1035,5 @@ def scrape_html(
 
 
 def scrape_me(url: str) -> AbstractScraper:
-    html = urlopen(url).read().decode("utf-8")
+    html = urlopen(Request(url, headers=HEADERS)).read().decode("utf-8")
     return scrape_html(html, org_url=url)
