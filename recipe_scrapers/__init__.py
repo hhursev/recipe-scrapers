@@ -212,6 +212,7 @@ from .innit import Innit
 from .insanelygoodrecipes import InsanelyGoodRecipes
 from .inspiralized import Inspiralized
 from .inspiredtaste import InspiredTaste
+from .iowagirleats import iowagirleats
 from .irishcentral import IrishCentral
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
@@ -923,6 +924,8 @@ SCRAPERS = {
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
+    iowagirleats.host(): iowagirleats,
+    iowagirleats.host(): iowagirleats,
 }
 
 
