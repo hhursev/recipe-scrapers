@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string, get_equipment
+from ._grouping_utils import group_ingredients
 
 
 class EditionsLarousse(AbstractScraper):
@@ -19,6 +20,14 @@ class EditionsLarousse(AbstractScraper):
             for element in elements
             if normalize_string(element.get_text())
         ]
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".Ingredients h2",
+            ".Ingredients li, .Ingredients p",
+        )
 
     def equipment(self):
         elements = self.soup.select("div.Equipment div.Contents p")

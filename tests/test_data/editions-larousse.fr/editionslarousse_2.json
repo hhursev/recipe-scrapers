@@ -30,6 +30,57 @@
     "250g de beurre mou",
     "Extrait de café (à doser selon votre goût)"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "50g de chocolat de couverture noir à 70%",
+        "Cacao en poudre"
+      ],
+      "purpose": "Décor"
+    },
+    {
+      "ingredients": [
+        "2 oeufs (100g)",
+        "70g de noisette en poudre",
+        "60g de cassonnade",
+        "20g de farine",
+        "1/2 gousse de vanille grattée",
+        "1c. à soupe de beurre (facultatif)",
+        "2 blanc d'oeufs (60g)",
+        "25g de sucre"
+      ],
+      "purpose": "Biscuit Joconde"
+    },
+    {
+      "ingredients": [
+        "200g de chocolat de couverture noir à 70%",
+        "25cl de crème liquide",
+        "75g de beurre mou",
+        "5cl de rhum"
+      ],
+      "purpose": "Ganache au chocolat"
+    },
+    {
+      "ingredients": [
+        "12cl d'eau",
+        "100g de sucre",
+        "1c. à café d'extrait de café",
+        "4cl de rhum"
+      ],
+      "purpose": "Sirop au rhum"
+    },
+    {
+      "ingredients": [
+        "1 oeuf (50g)",
+        "2 jaunes d'oeufs (40g)",
+        "160g de sucre",
+        "8cl d'eau",
+        "250g de beurre mou",
+        "Extrait de café (à doser selon votre goût)"
+      ],
+      "purpose": "Crème au beurre au café"
+    }
+  ],
   "instructions_list": [
     "Tempérez le chocolat noir, puis étalez-le pour le décor sur une feuille de plastique épais et recouvrez de la seconde feuille.",
     "Donnez une légère forme ondulée en recourbant sur un support (par exemple, un petit livre ou magazine). Laissez durcir le chocolat au moins 30 minutes à température ambiante.",
