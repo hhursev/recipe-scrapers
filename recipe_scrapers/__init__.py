@@ -417,7 +417,7 @@ from .themodernproper import TheModernProper
 from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
 from .theplantbasedschool import ThePlantBasedSchool
-from .therecipecritic import Therecipecritic
+from .therecipecritic import TheRecipeCritic
 from .thesaltymarshmallow import TheSaltyMarshmallow
 from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
@@ -881,7 +881,7 @@ SCRAPERS = {
     ThePioneerWoman.host(): ThePioneerWoman,
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
-    Therecipecritic.host(): Therecipecritic,
+    TheRecipeCritic.host(): TheRecipeCritic,
     Thewoksoflife.host(): Thewoksoflife,
     TidyMom.host(): TidyMom,
     TimesOfIndia.host(): TimesOfIndia,
