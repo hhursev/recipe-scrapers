@@ -1,13 +1,14 @@
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields
 
+
 class AmazingOriental(AbstractScraper):
     @classmethod
     def host(cls):
         return "amazingoriental.com"
 
     def title(self):
-        return self.soup.find('h1').get_text()
+        return self.soup.find("h1").get_text()
 
     def category(self):
         return self.soup.select("div.recipe-info .meal-type")[0].get_text()
@@ -20,7 +21,7 @@ class AmazingOriental(AbstractScraper):
 
     def ingredients(self):
         ingredients = self.soup.select(".sidebar .ingredients-wrap ul li")
-        return [' '.join(ingredient.get_text().split()) for ingredient in ingredients]
+        return [" ".join(ingredient.get_text().split()) for ingredient in ingredients]
 
     def instructions(self):
         instructions = self.soup.select(".main-wrap ul li")
