@@ -9,10 +9,13 @@ class AHealthySliceOfLife(AbstractScraper):
         return "ahealthysliceoflife.com"
 
     def ingredients(self):
-        ingredients = self.soup.find(
-            "div", {"class": "tasty-recipes-ingredients-body"}
-        ).find_all("p")
-        return [normalize_string(ing.get_text().strip()) for ing in ingredients]
+        ingredients = []
+        for p in self.soup.select(".tasty-recipes-ingredients-body p"):
+            if not p.find("strong"):
+                text = p.get_text(" ", strip=True)
+                if text:
+                    ingredients.append(normalize_string(text))
+        return ingredients
 
     def ingredient_groups(self):
         groups = []
