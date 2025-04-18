@@ -22,6 +22,38 @@
     "1 tbsp sugar",
     "Fresh berries of choice for decoration"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "5 large egg whites",
+        "1/2 teaspoon cream of tartar",
+        "¼ tsp salt",
+        "1 cup + 2 tbsp granulated sugar (125g)",
+        "1 teaspoon pure vanilla extract"
+      ],
+      "purpose": "Mini pavlova shells:"
+    },
+    {
+      "ingredients": [
+        "12oz cream cheese (340g), room temp",
+        "1/2 cup sugar (100g)",
+        "1 tsp vanilla",
+        "¼ tsp salt",
+        "2-3 tablespoon lemon juice",
+        "1 cup heavy cream (240g)"
+      ],
+      "purpose": "Cheesecake filling:"
+    },
+    {
+      "ingredients": [
+        "4 tbsp berry jam of choice",
+        "2 tbsp water",
+        "1 tbsp sugar",
+        "Fresh berries of choice for decoration"
+      ],
+      "purpose": "Berry glaze:"
+    }
+  ],
   "instructions_list": [
     "Mini pavlova shells:",
     "Pre-heat oven to 220F and line a large baking sheet (light colored preferred) with parchment paper",
