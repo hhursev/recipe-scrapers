@@ -13,7 +13,7 @@ __all__ = (
 
 import warnings
 
-from urllib.request import urlopen
+from urllib.request import urlopen, Request
 
 try:
     # requests is an optional dependency; we can provide better error messages
@@ -176,6 +176,7 @@ from .forktospoon import ForkToSpoon
 from .fortyaprons import FortyAprons
 from .franzoesischkochen import FranzoesischKochen
 from .g750g import G750g
+from .garnishandglaze import GarnishAndGlaze
 from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
@@ -699,6 +700,7 @@ SCRAPERS = {
     ForksOverKnives.host(): ForksOverKnives,
     FranzoesischKochen.host(): FranzoesischKochen,
     G750g.host(): G750g,
+    GarnishAndGlaze.host(): GarnishAndGlaze,
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
     Globo.host(): Globo,
@@ -1035,5 +1037,5 @@ def scrape_html(
 
 
 def scrape_me(url: str) -> AbstractScraper:
-    html = urlopen(url).read().decode("utf-8")
+    html = urlopen(Request(url, headers=HEADERS)).read().decode("utf-8")
     return scrape_html(html, org_url=url)
