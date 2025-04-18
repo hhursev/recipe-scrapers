@@ -20,7 +20,7 @@ class AHealthySliceOfLife(AbstractScraper):
         current_ingredients = []
 
         for p in self.soup.select(".tasty-recipes-ingredients-body p"):
-            text = p.get_text(strip=True)
+            text = p.get_text(" ", strip=True)
             if not text:
                 continue
             if p.find("strong"):
