@@ -7,9 +7,29 @@ from bs4 import BeautifulSoup
 
 from ._utils import normalize_string
 
-DEFAULT_GROUPINGS: list[tuple[str, str, str]] = [
-    ("wprm", ".wprm-recipe-ingredient-group h4", ".wprm-recipe-ingredient"),
-    # Add more defaults here
+DEFAULT_GROUPINGS: list[tuple[str, list[str], list[str]]] = [
+    (
+        "wprm",
+        [
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-group-name",
+        ],
+        [
+            ".wprm-recipe-ingredient",
+            ".wprm-recipe-ingredients li",
+        ],
+    ),
+    (
+        "tasty",
+        [
+            ".tasty-recipes-ingredients-body p strong",
+            ".tasty-recipes-ingredients h4",
+        ],
+        [
+            ".tasty-recipes-ingredients-body ul li",
+            ".tasty-recipes-ingredients ul li",
+        ],
+    ),
 ]
 
 
@@ -123,10 +143,16 @@ def group_ingredients(
     """
 
     if group_heading is None or group_element is None:
-        for _, heading_sel, element_sel in DEFAULT_GROUPINGS:
-            if soup.select(heading_sel) and soup.select(element_sel):
-                group_heading = heading_sel
-                group_element = element_sel
+        for _, heading_opts, element_opts in DEFAULT_GROUPINGS:
+            for heading_sel in heading_opts:
+                for element_sel in element_opts:
+                    if soup.select(heading_sel) and soup.select(element_sel):
+                        group_heading = heading_sel
+                        group_element = element_sel
+                        break
+                if group_heading and group_element:
+                    break
+            if group_heading and group_element:
                 break
 
     if not group_heading or not group_element:
@@ -154,5 +180,5 @@ def group_ingredients(
     return [
         IngredientGroup(purpose=heading, ingredients=items)
         for heading, items in groupings.items()
-        if items != []
+        if items
     ]
