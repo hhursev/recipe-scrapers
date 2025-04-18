@@ -1,6 +1,5 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
-from ._exceptions import RecipeSchemaNotFound
 
 NUTRIENT_MAP = {
     "calories"              : ".mv-create-nutrition-calories",
