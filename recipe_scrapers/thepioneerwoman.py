@@ -14,3 +14,10 @@ class ThePioneerWoman(AbstractScraper):
             ".ingredients-body h3",
             ".ingredient-lists li",
         )
+
+    def instructions(self):
+        instructions = self.schema.instructions()
+        if instructions == "":
+            instructions = self.soup.select_one(".directions").get_text()
+        return instructions
+
