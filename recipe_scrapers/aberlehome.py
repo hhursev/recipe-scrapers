@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
+from ._exceptions import SchemaOrgException
 
 NUTRIENT_MAP = {
     "calories"              : ".mv-create-nutrition-calories",
@@ -67,29 +68,29 @@ class AberleHome(AbstractScraper):
 
     def total_time(self):
         try:
-            time = self.soup.total_time()
-        except TypeError:
+            time = self.schema.total_time()
+        except SchemaOrgException:
             time = self.soup.select('.mv-create-time-total .mv-time-part')[0].get_text()
         return time
 
     def cook_time(self):
         try:
-            time = self.soup.cook_time()
-        except TypeError:
+            time = self.schema.cook_time()
+        except SchemaOrgException:
             time = self.soup.select('.mv-create-time-active .mv-time-part')[0].get_text()
         return time
 
     def prep_time(self):
         try:
-            time = self.soup.prep_time()
-        except TypeError:
+            time = self.schema.prep_time()
+        except SchemaOrgException:
             time = self.soup.select('.mv-create-time-prep .mv-time-part')[0].get_text()
         return time
 
     def description(self):
         try:
-            description = self.soup.description()
-        except TypeError:
+            description = self.schema.description()
+        except SchemaOrgException:
             description = self.soup.select('.mv-create-description p')[0].get_text()
         return description
 
