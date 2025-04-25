@@ -101,7 +101,11 @@ class AberleHome(AbstractScraper):
             instructions = [normalize_string(ingredient.get_text()) for
                            ingredient in instructions]
             if instructions == [] or instructions == '':
-                raise Exception
+                instructions = self.soup.select(".mv-create-instructions p")
+                instructions = [normalize_string(ingredient.get_text()) for
+                               ingredient in instructions]
+                if instructions == [] or instructions == '':
+                    raise Exception
         return instructions
 
     def ratings(self):
