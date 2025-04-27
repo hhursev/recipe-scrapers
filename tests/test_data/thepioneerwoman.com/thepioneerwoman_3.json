@@ -1,10 +1,10 @@
 {
   "author": "Erica Kastner",
   "canonical_url": "https://www.thepioneerwoman.com/food-cooking/recipes/a98271/how-to-make-cream-cheese-whipped-cream/",
-  "category": "dessert,main dish",
-  "description": "I\u2019ll bet just reading the title of this post made you say, \u201cCream cheese whipped cream?",
+  "site_name": "The Pioneer Woman",
   "host": "thepioneerwoman.com",
-  "image": "https://hips.hearstapps.com/thepioneerwoman/wp-content/uploads/2018/06/cream-cheese-whipped-cream-01.jpg?crop=0.6668334167083542xw:1xh;center,top&resize=1200:*",
+  "language": "en-US",
+  "title": "How to Make Cream Cheese Whipped Cream",
   "ingredients": [
     "8 oz. weight Cream Cheese, Softened",
     "2 tbsp. Pure Maple Syrup, Or More To Taste",
@@ -18,6 +18,12 @@
     "Add the lemon zest and vanilla and beat until smooth. Store in the refrigerator until ready to use. If you want the cream cheese whipped cream to be soft, make sure to take out of the refrigerator for about 15 minutes and give it a good whisk before serving.",
     "Makes enough to frost a layer cake made with two 6-inch layers."
   ],
+  "category": "dessert,main dish",
+  "yields": "8 servings",
+  "description": "I’ll bet just reading the title of this post made you say, “Cream cheese whipped cream?",
+  "total_time": 10,
+  "prep_time": 10,
+  "image": "https://hips.hearstapps.com/thepioneerwoman/wp-content/uploads/2018/06/cream-cheese-whipped-cream-01.jpg?crop=0.6668334167083542xw:1xh;center,top&resize=1200:*",
   "keywords": [
     "content-type: Recipe",
     "locale: US",
@@ -31,11 +37,5 @@
     "CATEGORY: main dish",
     "TOTALTIME: 00:10:00",
     "FILTERTIME: <30MINS"
-  ],
-  "language": "en-US",
-  "prep_time": 10,
-  "site_name": "The Pioneer Woman",
-  "title": "How to Make Cream Cheese Whipped Cream",
-  "total_time": 10,
-  "yields": "8 servings"
+  ]
 }
