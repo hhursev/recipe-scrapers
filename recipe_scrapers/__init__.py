@@ -146,6 +146,7 @@ from .eatthismuch import EatThisMuch
 from .eattolerant import EatTolerant
 from .eatwell101 import EatWell101
 from .eatwhattonight import EatWhatTonight
+from .edeka import EDEKA
 from .eggsca import EggsCa
 from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
@@ -574,6 +575,7 @@ SCRAPERS = {
     Dishnz.host(): Dishnz,
     DobruChutAktualitySK.host(): DobruChutAktualitySK,
     DonalSkehan.host(): DonalSkehan,
+    EDEKA.host(): EDEKA,
     EatLiveRun.host(): EatLiveRun,
     EatThisMuch.host(): EatThisMuch,
     EggsCa.host(): EggsCa,
