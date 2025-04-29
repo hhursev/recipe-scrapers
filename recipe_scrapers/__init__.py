@@ -257,6 +257,7 @@ from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littlespicejar import LittleSpiceJar
 from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
+from .loveandlemons import LoveAndLemons
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madamecuisine import MadameCuisine
@@ -611,6 +612,7 @@ SCRAPERS = {
     LanasCooking.host(): LanasCooking,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
+    LoveAndLemons.host(): LoveAndLemons,
     MadameCuisine.host(): MadameCuisine,
     MakeItDairyFree.host(): MakeItDairyFree,
     McCormick.host(): McCormick,
