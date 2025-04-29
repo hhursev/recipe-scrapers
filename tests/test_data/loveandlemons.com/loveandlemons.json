@@ -1,35 +1,35 @@
 {
   "author": "Jeanine Donofrio",
   "canonical_url": "https://www.loveandlemons.com/green-smoothie/",
-  "category": "Breakfast,Snack",
-  "cuisine": "American",
-  "description": "Our best green smoothie recipe! It's creamy, frosty, and refreshing. Adjust the amount of fruit to taste depending on how sweet you want your smoothie to be.",
+  "site_name": "Love and Lemons",
   "host": "loveandlemons.com",
-  "image": "https://cdn.loveandlemons.com/wp-content/uploads/2022/12/green-smoothie-recipes-500x500.jpg",
+  "language": "en-US",
+  "title": "Green Smoothie",
   "ingredients": [
     "1 cup frozen spinach or kale",
-    "\u00bd frozen banana",
-    "\u00bd tablespoon almond butter",
+    "½ frozen banana",
+    "½ tablespoon almond butter",
     "1 to 2 cups peeled and frozen orange segments (or frozen pineapple or mango chunks)",
-    "\u00bd teaspoon chia seeds (optional)",
+    "½ teaspoon chia seeds (optional)",
     "1 cup almond milk (plus more as needed to blend)",
     "Handful of ice"
   ],
   "instructions_list": [
     "In a blender, place the spinach, banana, almond butter, 1 cup frozen fruit, and chia seeds, if using. Add the almond milk and blend until smooth, adding more almond milk as needed to blend. Add the ice and blend again.",
-    "Taste and add more frozen fruit if you\u2019d like your smoothie to be sweeter. Blend until smooth, adding more almond milk as needed."
+    "Taste and add more frozen fruit if you’d like your smoothie to be sweeter. Blend until smooth, adding more almond milk as needed."
   ],
+  "category": "Breakfast,Snack",
+  "yields": "1 serving",
+  "description": "Our best green smoothie recipe! It's creamy, frosty, and refreshing. Adjust the amount of fruit to taste depending on how sweet you want your smoothie to be.",
+  "total_time": 5,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 30,
+  "image": "https://cdn.loveandlemons.com/wp-content/uploads/2022/12/green-smoothie-recipes-500x500.jpg",
   "keywords": [
     "Green smoothie",
     "Green smoothie recipe",
     "Green smoothie recipes"
-  ],
-  "language": "en-US",
-  "prep_time": 5,
-  "ratings": 5.0,
-  "ratings_count": 30,
-  "site_name": "Love and Lemons",
-  "title": "Green Smoothie",
-  "total_time": 5,
-  "yields": "1 serving"
+  ]
 }
