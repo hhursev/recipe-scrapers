@@ -22,4 +22,3 @@ class ThePioneerWoman(AbstractScraper):
             if instructions_element:
                 instructions = instructions_element.get_text(separator="\n")
         return instructions
-
