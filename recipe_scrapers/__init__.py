@@ -150,6 +150,7 @@ from .eggsca import EggsCa
 from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
+from .erinliveswhole import ErinLivesWhole
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
 from .evolvingtable import EvolvingTable
@@ -578,6 +579,7 @@ SCRAPERS = {
     EatThisMuch.host(): EatThisMuch,
     EggsCa.host(): EggsCa,
     ElaVegan.host(): ElaVegan,
+    ErinLivesWhole.host(): ErinLivesWhole,
     EvolvingTable.host(): EvolvingTable,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FeastingAtHome.host(): FeastingAtHome,
