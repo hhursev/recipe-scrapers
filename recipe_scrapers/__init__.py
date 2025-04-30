@@ -372,6 +372,7 @@ from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
+from .sizzlefish import SizzleFish
 from .skinnytaste import SkinnyTaste
 from .smulweb import Smulweb
 from .sobors import SoBors
@@ -648,6 +649,7 @@ SCRAPERS = {
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
     SheLikesFood.host(): SheLikesFood,
+    SizzleFish.host(): SizzleFish,
     SpainOnAFork.host(): SpainOnAFork,
     SpisBedre.host(): SpisBedre,
     StacyLing.host(): StacyLing,
