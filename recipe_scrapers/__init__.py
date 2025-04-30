@@ -111,6 +111,7 @@ from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
+from .cookinglsl import CookingLSL
 from .cookingwithjanica import CookingWithJanica
 from .cookomix import Cookomix
 from .cookpad import CookPad
@@ -552,6 +553,7 @@ SCRAPERS = {
     CookieAndKate.host(): CookieAndKate,
     CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
+    CookingLSL.host(): CookingLSL,
     CookingLight.host(): CookingLight,
     CookingWithJanica.host(): CookingWithJanica,
     Cookomix.host(): Cookomix,
