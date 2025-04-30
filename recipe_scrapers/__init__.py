@@ -312,6 +312,7 @@ from .omnivorescookbook import OmnivoresCookbook
 from .onceuponachef import OnceUponAChef
 from .onehundredonecookbooks import OneHundredOneCookBooks
 from .onesweetappetite import OneSweetAppetite
+from .organicallyaddison import OrganicallyAddison
 from .ottolenghibooks import OttolenghiBooks
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
@@ -631,6 +632,7 @@ SCRAPERS = {
     NutritionFacts.host(): NutritionFacts,
     OkokoRecepten.host(): OkokoRecepten,
     OneSweetAppetite.host(): OneSweetAppetite,
+    OrganicallyAddison.host(): OrganicallyAddison,
     OttolenghiBooks.host(): OttolenghiBooks,
     PeelWithZeal.host(): PeelWithZeal,
     PinchOfYum.host(): PinchOfYum,
