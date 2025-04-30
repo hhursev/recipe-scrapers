@@ -1,6 +1,5 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._utils import normalize_string
 
 
 class TasteAU(AbstractScraper):
@@ -16,6 +15,8 @@ class TasteAU(AbstractScraper):
             "div.ingredient-description",
         )
 
-    def description(self):
-        description_text = normalize_string(self.schema.description())
-        return description_text
+    def instructions(self):
+        steps = self.soup.select(
+            "ul.recipe-method-steps li .recipe-method-step-content"
+        )
+        return "\n".join(step.get_text(strip=True) for step in steps)
