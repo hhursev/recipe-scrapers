@@ -2,31 +2,10 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
 
-class picnic(AbstractScraper):
+class Picnic(AbstractScraper):
     @classmethod
     def host(cls):
         return "picnic.app"
-
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         # Picnic names the steps "Schritt 1" ("step 1") and the current verison of
@@ -38,15 +17,6 @@ class picnic(AbstractScraper):
         return "\n".join(
             normalize_string(instruction) for instruction in new_instructions
         )
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
 
     def site_name(self):
         # Picnic recipes have the site name as author and mentioned nowhere else alone

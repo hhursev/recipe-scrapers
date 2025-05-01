@@ -329,7 +329,7 @@ from .paninihappy import PaniniHappy
 from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
-from .picnic import picnic
+from .picnic import Picnic
 from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
@@ -841,6 +841,7 @@ SCRAPERS = {
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     PersnicketyPlates.host(): PersnicketyPlates,
+    Picnic.host(): Picnic,
     PickUpLimes.host(): PickUpLimes,
     PingoDoce.host(): PingoDoce,
     PinkOwlKitchen.host(): PinkOwlKitchen,
@@ -953,7 +954,6 @@ SCRAPERS = {
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
-    picnic.host(): picnic,
     ZestfulKitchen.host(): ZestfulKitchen,
 }
 
