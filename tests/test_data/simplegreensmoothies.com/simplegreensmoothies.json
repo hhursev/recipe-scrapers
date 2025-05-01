@@ -1,0 +1,54 @@
+{
+  "author": "Jen Hansard",
+  "canonical_url": "https://simplegreensmoothies.com/best-green-smoothie/",
+  "site_name": "Simple Green Smoothies",
+  "host": "simplegreensmoothies.com",
+  "language": "en-US",
+  "title": "Best Green Smoothie Recipe",
+  "ingredients": [
+    "1 cup spinach",
+    "1 cup water",
+    "1/2 cup pineapple (frozen )",
+    "1/2 cup mango (frozen)",
+    "1 banana"
+  ],
+  "instructions_list": [
+    "Measure: Tightly pack spinach in a measuring cup.",
+    "Add: Put spinach to blender with water. Blend together until all chunks are gone. (Should resemble green water when blended well).",
+    "Toss: Pineapple, mango and banana to blender. I like to use frozen pineapple and mangos to chill the smoothie down and save time cutting and prepping. It’s a win-win!",
+    "Blend: It all together until smooth and creamy. Depending on your blender, this could take as little as 30 seconds or as long as 2 minutes.",
+    "Pour: Into a glass and serve immediately."
+  ],
+  "category": "Smoothie",
+  "yields": "1 serving",
+  "description": "Supercharge your morning with the best green smoothie recipe using sweet mango, creamy banana, and nutrient-packed spinach. Green smoothies come together in just 5 minutes to give you a delicious, energizing, and nourishing option to start the day.",
+  "total_time": 5,
+  "cook_time": 2,
+  "prep_time": 3,
+  "cuisine": "Plant-Based",
+  "ratings": 4.85,
+  "ratings_count": 1939,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "203 kcal",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "unsaturatedFatContent": "2 g",
+    "carbohydrateContent": "51 g",
+    "sugarContent": "34 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "38 mg",
+    "fiberContent": "6 g"
+  },
+  "dietary_restrictions": [
+    "Gluten Free Diet",
+    "Vegan Diet",
+    "Vegetarian Diet"
+  ],
+  "image": "https://simplegreensmoothies.com/wp-content/uploads/best-green-smoothie-recipe-simple-featured.jpg",
+  "keywords": [
+    "green smoothie",
+    "green smoothies",
+    "spinach smoothie recipe"
+  ]
+}
