@@ -2,7 +2,7 @@ from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class Therecipecritic(AbstractScraper):
+class TheRecipeCritic(AbstractScraper):
     @classmethod
     def host(cls):
         return "therecipecritic.com"

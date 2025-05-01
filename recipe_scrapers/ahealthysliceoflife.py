@@ -12,6 +12,6 @@ class AHealthySliceOfLife(AbstractScraper):
             "div", {"class": "tasty-recipes-ingredients-body"}
         ).find_all("p")
         ingredients = [normalize_string(ing.get_text().strip()) for ing in ingredients]
-        if ingredients == []:
+        if not ingredients:
             ingredients = self.schema.ingredients()
         return ingredients
