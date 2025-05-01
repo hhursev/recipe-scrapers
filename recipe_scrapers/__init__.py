@@ -410,6 +410,7 @@ from .tastesoflizzyt import TastesOfLizzyT
 from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .tastyoven import TastyOven
+from .thebigmansworld import TheBigMansWorld
 from .theclevercarrot import TheCleverCarrot
 from .thecookierookie import TheCookieRookie
 from .thecookingguy import TheCookingGuy
@@ -675,6 +676,7 @@ SCRAPERS = {
     SwissMilk.host(): SwissMilk,
     TasteAtlas.host(): TasteAtlas,
     TastyOven.host(): TastyOven,
+    TheBigMansWorld.host(): TheBigMansWorld,
     TheCookieRookie.host(): TheCookieRookie,
     TheCookingGuy.host(): TheCookingGuy,
     TheFoodieTakesFlight.host(): TheFoodieTakesFlight,
