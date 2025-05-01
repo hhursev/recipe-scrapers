@@ -461,6 +461,7 @@ from .yummly import Yummly
 from .zaubertopf import ZauberTopf
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
+from .zestfulkitchen import ZestfulKitchen
 
 SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
@@ -923,6 +924,7 @@ SCRAPERS = {
     ZenBelly.host(): ZenBelly,
     GesundAktiv.host(): GesundAktiv,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
+    ZestfulKitchen.host(): ZestfulKitchen,
 }
 
 
