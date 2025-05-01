@@ -66,6 +66,7 @@ from .arla import Arla
 from .atelierdeschefs import AtelierDesChefs
 from .averiecooks import AverieCooks
 from .bakels import Bakels
+from .bakewithzoha import BakeWithZoha
 from .bakingmischief import BakingMischief
 from .bakingsense import BakingSense
 from .barefeetinthekitchen import BarefeetInTheKitchen
@@ -508,6 +509,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BakeWithZoha.host(): BakeWithZoha,
     Bakels.host(): Bakels,
     Bakels.host(domain="co.uk"): Bakels,
     BakingSense.host(): BakingSense,
