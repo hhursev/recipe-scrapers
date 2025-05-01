@@ -195,6 +195,7 @@ from .halfbakedharvest import HalfBakedHarvest
 from .handletheheat import HandleTheHeat
 from .hassanchef import HassanChef
 from .headbangerskitchen import HeadbangersKitchen
+from .healthywithachanceofsprinkles import HealthyWithAChanceOfSprinkles
 from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
@@ -592,6 +593,7 @@ SCRAPERS = {
     GlutenFreeOnAShoeString.host(): GlutenFreeOnAShoeString,
     GourmetTraveller.host(): GourmetTraveller,
     GrandFrais.host(): GrandFrais,
+    HealthyWithAChanceOfSprinkles.host(): HealthyWithAChanceOfSprinkles,
     HeatherChristo.host(): HeatherChristo,
     HungryHappens.host(): HungryHappens,
     InBloomBakery.host(): InBloomBakery,
