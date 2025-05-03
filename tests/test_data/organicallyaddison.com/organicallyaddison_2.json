@@ -1,0 +1,70 @@
+{
+  "author": "Addison LaBonte",
+  "canonical_url": "https://organicallyaddison.com/whole30_pork_chops_with_garlic_ghee_sauce/",
+  "site_name": "Organically Addison",
+  "host": "organicallyaddison.com",
+  "language": "en-US",
+  "title": "Whole30 Pork Chops with Garlic Ghee Sauce",
+  "ingredients": [
+    "4 pork chops",
+    "2 tbsp olive oil",
+    "1/2 tsp ground pepper",
+    "1/2 tsp sea salt",
+    "2 tbsp ghee (or grass fed butter)",
+    "1 tsp olive oil",
+    "1 tsp minced garlic",
+    "chopped basil (for garnish (optional)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 pork chops",
+        "2 tbsp olive oil",
+        "1/2 tsp ground pepper",
+        "1/2 tsp sea salt"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "2 tbsp ghee (or grass fed butter)",
+        "1 tsp olive oil",
+        "1 tsp minced garlic",
+        "chopped basil (for garnish (optional)"
+      ],
+      "purpose": "Garlic Ghee Sauce"
+    }
+  ],
+  "instructions_list": [
+    "First, preheat oven to 350 degrees Fahrenheit.",
+    "Pat pork chops dry with paper towels. Season both sides with salt and pepper.",
+    "Add olive oil to a large cast iron or oven safe skillet. Once oil is hot, place pork chops in skillet. Sear for 4 to 5 minutes over medium heat on each side.",
+    "Then, remove from heat. Place skillet in the oven. Bake for 15 to 20 minutes or until internal temperature of pork reaches at least 145 degrees Fahrenheit.",
+    "Remove skillet from oven.",
+    "Meanwhile, melt ghee in a small microwave safe dish. Stir in olive oil and minced garlic. Spoon this sauce over each pork chop.",
+    "Finally, garnish with chopped basil if desired."
+  ],
+  "category": "Main Course",
+  "yields": "4 servings",
+  "description": "These Whole30 Pork Chops are smothered in a garlic ghee sauce! They are tender, flavorful and hearty. These pork chops are anything but boring and dry. They are melt in your mouth delicious!",
+  "total_time": 35,
+  "cook_time": 30,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "346 kcal",
+    "fatContent": "25 g",
+    "saturatedFatContent": "9 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "1 g",
+    "sugarContent": "1 g",
+    "proteinContent": "29 g",
+    "sodiumContent": "355 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "109 mg"
+  },
+  "image": "https://organicallyaddison.com/wp-content/uploads/2020/08/PORK-CHOPS-2-e1597103156988.jpeg"
+}
