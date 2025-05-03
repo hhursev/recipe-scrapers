@@ -1,0 +1,88 @@
+{
+  "author": "Erin Morrissey",
+  "canonical_url": "https://www.erinliveswhole.com/healthy-blueberry-cobbler/",
+  "site_name": "Erin Lives Whole",
+  "host": "erinliveswhole.com",
+  "language": "en-US",
+  "title": "Healthy Blueberry Cobbler",
+  "ingredients": [
+    "4 cups fresh blueberries (or frozen)",
+    "2 tbsps maple syrup",
+    "1 tbsp lemon juice",
+    "1 tsp vanilla",
+    "1 tbsp arrowroot powder (or cornstarch) – this is optional but recommended. it will be more liquidy without!",
+    "1 cup rolled oats",
+    "1 cup finely chopped walnuts (or other nut)",
+    "1 cup almond flour",
+    "1/4 tsp salt",
+    "1/2 cup maple syrup",
+    "1/3 cup coconut oil, melted",
+    "1 tsp vanilla"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 cups fresh blueberries (or frozen)",
+        "2 tbsps maple syrup",
+        "1 tbsp lemon juice",
+        "1 tsp vanilla",
+        "1 tbsp arrowroot powder (or cornstarch) – this is optional but recommended. it will be more liquidy without!"
+      ],
+      "purpose": "Blueberry base:"
+    },
+    {
+      "ingredients": [
+        "1 cup rolled oats",
+        "1 cup finely chopped walnuts (or other nut)",
+        "1 cup almond flour",
+        "1/4 tsp salt",
+        "1/2 cup maple syrup",
+        "1/3 cup coconut oil, melted",
+        "1 tsp vanilla"
+      ],
+      "purpose": "Cobbler:"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350F.",
+    "In a large bowl, mix together blueberries, maple syrup, lemon juice, and vanilla. Then add arrowroot starch and toss blueberries.",
+    "Spoon berries into an 8×8 inch pan, leaving juice in bowl behind.",
+    "In another bowl, mix together oats, walnuts, almond flour, and salt.",
+    "Stir in maple syrup, coconut oil, and vanilla until well combined.",
+    "Spread cobbler topping on top of blueberries until most of the blueberries are covered.",
+    "Bake in oven for 40-45 minutes or until topping is golden brown.",
+    "Let cool for 15 minutes before eating. Store leftovers in refrigerator."
+  ],
+  "category": "dessert",
+  "yields": "8 servings",
+  "description": "Healthy Blueberry Cobbler is a decadent dessert that's vegan-friendly, gluten free, and full of flavor. Requiring just 10 minutes of prep time, this is a must-try dish that you're guaranteed to love!",
+  "total_time": 50,
+  "cook_time": 40,
+  "prep_time": 10,
+  "cuisine": "American",
+  "cooking_method": "oven",
+  "ratings": 5.0,
+  "ratings_count": 120,
+  "nutrients": {
+    "calories": "321 calories",
+    "fatContent": "17 g",
+    "saturatedFatContent": "6.8 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "30.4 g",
+    "sugarContent": "17.5 g",
+    "proteinContent": "4.8 g",
+    "sodiumContent": "61.2 mg",
+    "fiberContent": "3.4 g",
+    "cholesterolContent": "0 mg"
+  },
+  "dietary_restrictions": [
+    "Gluten Free Diet"
+  ],
+  "image": "https://www.erinliveswhole.com/wp-content/uploads/2020/03/BlueberryCrisp-8-scaled-225x225.jpg",
+  "keywords": [
+    "healthy blueberry crisp",
+    "cobbler",
+    "gluten free dessert",
+    "healthy dessert"
+  ]
+}
