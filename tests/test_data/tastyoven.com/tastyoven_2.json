@@ -55,6 +55,13 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 29,
+  "equipment": [
+    "springform pan",
+    "electric hand mixer",
+    "small round pan",
+    "aluminum foil",
+    "plastic wrap"
+  ],
   "nutrients": {
     "servingSize": "4 oz",
     "calories": "466 kcal",

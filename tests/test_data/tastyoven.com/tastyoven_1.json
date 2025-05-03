@@ -28,6 +28,9 @@
   "cuisine": "American",
   "ratings": 4.43,
   "ratings_count": 466,
+  "equipment": [
+    "air fryer"
+  ],
   "nutrients": {
     "servingSize": "6 oz",
     "calories": "202 kcal",
