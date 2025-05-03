@@ -24,6 +24,40 @@
     "ghee",
     "maple syrup or honey"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 large ripe bananas",
+        "8 eggs",
+        "1 teaspoon pure vanilla extract",
+        "3/4 teaspoon ground cinnamon",
+        "1/2 teaspoon salt",
+        "ghee or coconut oil for cooking"
+      ],
+      "purpose": "Pancakes*:"
+    },
+    {
+      "ingredients": [
+        "1 pound ground pork",
+        "2 teaspoons maple syrup (omit for Whole30)",
+        "3/4 teaspoon salt",
+        "1/2 teaspoon ground black pepper",
+        "1/4 teaspoon rubbed sage",
+        "1/4 teaspoon dried thyme leaves",
+        "1/4 teaspoon crushed red pepper flakes",
+        "pinch grated nutmeg",
+        "pinch cayenne pepper"
+      ],
+      "purpose": "Sausage:"
+    },
+    {
+      "ingredients": [
+        "ghee",
+        "maple syrup or honey"
+      ],
+      "purpose": "Toppings (optional)"
+    }
+  ],
   "instructions_list": [
     "Prep. Preheat the oven to 200F and cover a baking sheet with parchment paper.",
     "Make the batter. Crack the eggs in a bowl and beat them until smooth and frothy. Add the vanilla and cinnamon. Stir again and set aside.",
