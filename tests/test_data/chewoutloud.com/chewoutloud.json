@@ -5,17 +5,27 @@
   "host": "chewoutloud.com",
   "language": "en-US",
   "title": "Lemon Garlic Swordfish Recipe",
-  "ingredients": [
-    "2 TB salted butter (softened to room temp)",
-    "1 TB freshly chopped chives",
-    "2 TB garlic cloves (minced)",
-    "1/8 tsp kosher salt",
-    "1/4 tsp freshly ground black pepper",
-    "1 TB juice from fresh lemon",
-    "1 TB grated lemon peel",
-    "2 TB olive oil",
-    "2 1-inch thick each swordfish fillets, about 6-7 oz each",
-    "kosher salt and freshly ground black pepper"
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 TB salted butter (softened to room temp)",
+        "1 TB freshly chopped chives",
+        "2 TB garlic cloves (minced)",
+        "1/8 tsp kosher salt",
+        "1/4 tsp freshly ground black pepper",
+        "1 TB juice from fresh lemon",
+        "1 TB grated lemon peel"
+      ],
+      "purpose": "For the Lemon Garlic Mixture:"
+    },
+    {
+      "ingredients": [
+        "2 TB olive oil",
+        "2 1-inch thick each swordfish fillets, about 6-7 oz each",
+        "kosher salt and freshly ground black pepper"
+      ],
+      "purpose": "For the Fish:"
+    }
   ],
   "instructions_list": [
     "Preheat oven to 400F with rack on middle position. In a small pan, combine all Lemon Garlic Mixture ingredients and stir to fully combine. Set aside.",
