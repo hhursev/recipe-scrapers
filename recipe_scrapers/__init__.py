@@ -339,6 +339,7 @@ from .quitoque import QuiToque
 from .rachlmansfield import RachlMansfield
 from .rainbowplantlife import RainbowPlantLife
 from .realfoodtesco import RealFoodTesco
+from .realfoodwell import RealFoodWell
 from .realsimple import RealSimple
 from .receitasnestlebr import ReceitasNestleBR
 from .recept import Recept
@@ -637,6 +638,7 @@ SCRAPERS = {
     PotatoRolls.host(): PotatoRolls,
     PreppyKitchen.host(): PreppyKitchen,
     QuiToque.host(): QuiToque,
+    RealFoodWell.host(): RealFoodWell,
     Recept.host(): Recept,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecettePlus.host(): RecettePlus,
