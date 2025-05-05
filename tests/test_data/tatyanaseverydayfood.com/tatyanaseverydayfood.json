@@ -1,12 +1,29 @@
 {
   "author": "tatyanaseverydayfood",
   "canonical_url": "https://tatyanaseverydayfood.com/grilled-garlic-swordfish/",
-  "category": "Dinner,Lunch",
-  "cook_time": 10,
-  "cuisine": "American,Asian",
-  "description": "Delicious swordfish recipe with a homemade teriyaki sauce and mango avocado salsa! The fish can be grilled or pan-fried!",
+  "site_name": "Tatyanas Everyday Food",
   "host": "tatyanaseverydayfood.com",
-  "image": "https://tatyanaseverydayfood.com/wp-content/uploads/2014/04/Ginger-Garlic-Swordfish-with-mango-salsa.jpg",
+  "language": "en",
+  "title": "Ginger Garlic Swordfish Recipe with Mango Salsa",
+  "ingredients": [
+    "4 large swordfish steaks",
+    "2 to 3 tbsp soy sauce (for marinating)",
+    "1/4 cup soy sauce",
+    "1/4 cup water",
+    "1/4 cup brown sugar",
+    "1 tbsp rice vinegar",
+    "1 tbsp sesame seed oil",
+    "5 to 6 garlic cloves (finely minced or pressed)",
+    "1 inch ginger root (grated or finely minced)",
+    "2 ripe avocados (diced)",
+    "1 cup diced fresh tomatoes",
+    "1 cup corn (fresh or canned)",
+    "1/2 cup ripe mango (diced)",
+    "3 green scallions or 1 shallot (diced)",
+    "1/4 cup fresh cilantro (chopped)",
+    "2 tbsp freshly squeezed lime juice",
+    "salt to taste"
+  ],
   "ingredient_groups": [
     {
       "ingredients": [
@@ -41,25 +58,6 @@
       "purpose": "For Mango Salsa:"
     }
   ],
-  "ingredients": [
-    "4 large swordfish steaks",
-    "2 to 3 tbsp soy sauce (for marinating)",
-    "1/4 cup soy sauce",
-    "1/4 cup water",
-    "1/4 cup brown sugar",
-    "1 tbsp rice vinegar",
-    "1 tbsp sesame seed oil",
-    "5 to 6 garlic cloves (finely minced or pressed)",
-    "1 inch ginger root (grated or finely minced)",
-    "2 ripe avocados (diced)",
-    "1 cup diced fresh tomatoes",
-    "1 cup corn (fresh or canned)",
-    "1/2 cup ripe mango (diced)",
-    "3 green scallions or 1 shallot (diced)",
-    "1/4 cup fresh cilantro (chopped)",
-    "2 tbsp freshly squeezed lime juice",
-    "salt to taste"
-  ],
   "instructions_list": [
     "Marinating the Fish:",
     "Place the swordfish steaks into a dish and pour a few tablespoons of soy sauce over the top, then refrigerate for 30 minutes.",
@@ -74,6 +72,30 @@
     "Serving the Swordfish:",
     "When ready to serve, spoon a few tablespoons of the prepared ginger garlic sauce over each steak and top with a heaping amount of mango salsa."
   ],
+  "category": "Dinner,Lunch",
+  "yields": "4 servings",
+  "description": "Delicious swordfish recipe with a homemade teriyaki sauce and mango avocado salsa! The fish can be grilled or pan-fried!",
+  "total_time": 25,
+  "cook_time": 10,
+  "prep_time": 15,
+  "cuisine": "American,Asian",
+  "ratings": 5.0,
+  "ratings_count": 2,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "573 kcal",
+    "fatContent": "30 g",
+    "saturatedFatContent": "5 g",
+    "unsaturatedFatContent": "22 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "39 g",
+    "sugarContent": "21 g",
+    "proteinContent": "40 g",
+    "sodiumContent": "1467 mg",
+    "fiberContent": "9 g",
+    "cholesterolContent": "112 mg"
+  },
+  "image": "https://tatyanaseverydayfood.com/wp-content/uploads/2014/04/Ginger-Garlic-Swordfish-with-mango-salsa.jpg",
   "keywords": [
     "avocado",
     "cilantro",
@@ -88,27 +110,5 @@
     "swordfish steaks",
     "teriyaki swordfish",
     "tomatoes"
-  ],
-  "language": "en",
-  "nutrients": {
-    "calories": "573 kcal",
-    "carbohydrateContent": "39 g",
-    "proteinContent": "40 g",
-    "fatContent": "30 g",
-    "saturatedFatContent": "5 g",
-    "transFatContent": "1 g",
-    "cholesterolContent": "112 mg",
-    "sodiumContent": "1467 mg",
-    "fiberContent": "9 g",
-    "sugarContent": "21 g",
-    "unsaturatedFatContent": "22 g",
-    "servingSize": "1 serving"
-  },
-  "prep_time": 15,
-  "ratings": 5.0,
-  "ratings_count": 2,
-  "site_name": "Tatyanas Everyday Food",
-  "title": "Ginger Garlic Swordfish Recipe with Mango Salsa",
-  "total_time": 25,
-  "yields": "4 servings"
+  ]
 }
