@@ -119,6 +119,7 @@ from .cooksillustrated import CooksIllustrated
 from .cooktalk import CookTalk
 from .cookwell import CookWell
 from .copykat import CopyKat
+from .corriecooks import CorrieCooks
 from .costco import Costco
 from .countryliving import CountryLiving
 from .creativecanning import CreativeCanning
@@ -558,6 +559,7 @@ SCRAPERS = {
     CooksCountry.host(): CooksCountry,
     CooksIllustrated.host(): CooksIllustrated,
     CopyKat.host(): CopyKat,
+    CorrieCooks.host(): CorrieCooks,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
     CreativeCanning.host(): CreativeCanning,
