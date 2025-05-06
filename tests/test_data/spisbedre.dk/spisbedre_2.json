@@ -58,6 +58,14 @@
   "yields": "4 servings",
   "description": "Hvad enten der er tale om frokost eller aftensmad, kan du altid spise stegt makrel med møre kartofler toppet med surt og sødt.",
   "total_time": 35,
+  "prep_time": 35,
   "ratings": 4.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "calories": "631 kcal",
+    "fatContent": "52 g",
+    "carbohydrateContent": "34 g",
+    "proteinContent": "7 g"
+  },
   "image": "https://spisbedre-production-app.imgix.net/images/recipes/stegt-makrel-med-kartofler_324.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.63232421875&fp-z=1"
 }

@@ -21,36 +21,36 @@
   ],
   "ingredient_groups": [
     {
-      "purpose": null,
       "ingredients": [
         "Glacé cherries*, I used around 40 to 50, but the number is up to you",
         "Confectioner’s sugar (with starch added)"
-      ]
+      ],
+      "purpose": null
     },
     {
-      "purpose": "Initial Gum Arabic Coating",
       "ingredients": [
         "4 tablespoons gum arabic powder*",
         "4 tablespoons warm water",
         "2 tablespoons granulated sugar"
-      ]
+      ],
+      "purpose": "Initial Gum Arabic Coating"
     },
     {
-      "purpose": "Super Saturated Sugar Solution",
       "ingredients": [
         "1 cup (250 ml) water",
         "2 tablespoons orange blossom water or rose water, OR 1 tablespoon vanilla, optional",
         "3 cups (600 g) granulated sugar, divided"
-      ]
+      ],
+      "purpose": "Super Saturated Sugar Solution"
     },
     {
-      "purpose": "Decorative Gum Arabic Coating",
       "ingredients": [
         "2 cups (500 ml) water, divided",
         "3 cups (600 g) granulated sugar, divided",
         "1 cup gum arabic powder*",
         "Food coloring, gel works well"
-      ]
+      ],
+      "purpose": "Decorative Gum Arabic Coating"
     }
   ],
   "instructions_list": [
