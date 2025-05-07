@@ -1,0 +1,56 @@
+{
+  "author": "Erin",
+  "canonical_url": "https://www.erinliveswhole.com/green-protein-smoothie/",
+  "site_name": "Erin Lives Whole",
+  "host": "erinliveswhole.com",
+  "language": "en-US",
+  "title": "Green Protein Smoothie",
+  "ingredients": [
+    "1 cup ice",
+    "1 frozen banana",
+    "1 tbsp peanut butter",
+    "3/4 cup frozen spinach or 1 cup fresh spinach",
+    "1 scoop vanilla protein powder",
+    "1 tbsp chia seeds",
+    "1 – 1.5 cup almond milk (depending on desired thickness)"
+  ],
+  "instructions_list": [
+    "In a high powered blender, add all ingredients in order as they are listed.",
+    "Blend until completely smooth, you may need to add more almond milk as you go.",
+    "Enjoy!"
+  ],
+  "category": "smoothie",
+  "yields": "1 serving",
+  "description": "Start your day or refresh and cool down with a Green Protein Smoothie. Made with a banana, peanut butter, and chia seeds, it's the perfect breakfast or post-workout snack!",
+  "total_time": 10,
+  "cook_time": 5,
+  "prep_time": 5,
+  "cuisine": "American",
+  "cooking_method": "blender",
+  "ratings": 5.0,
+  "ratings_count": 5,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "411 calories",
+    "fatContent": "15.9 g",
+    "saturatedFatContent": "2.4 g",
+    "transFatContent": "0 g",
+    "carbohydrateContent": "46.7 g",
+    "sugarContent": "16.5 g",
+    "proteinContent": "25.8 g",
+    "sodiumContent": "325.9 mg",
+    "fiberContent": "8.8 g",
+    "cholesterolContent": "3.4 mg"
+  },
+  "dietary_restrictions": [
+    "Gluten Free Diet"
+  ],
+  "image": "https://www.erinliveswhole.com/wp-content/uploads/2022/02/greensmoothie-5-225x225.jpg",
+  "keywords": [
+    "breakfast",
+    "smoothie",
+    "protein",
+    "breakfast smoothie",
+    "healthy breakfast"
+  ]
+}
