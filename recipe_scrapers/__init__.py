@@ -206,6 +206,7 @@ from .heb import HEB
 from .hellofresh import HelloFresh
 from .hersheyland import HersheyLand
 from .hofer import Hofer
+from .homeandplate import HomeAndPlate
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
 from .hungryhappens import HungryHappens
@@ -610,6 +611,7 @@ SCRAPERS = {
     GrandFrais.host(): GrandFrais,
     HealthyWithAChanceOfSprinkles.host(): HealthyWithAChanceOfSprinkles,
     HeatherChristo.host(): HeatherChristo,
+    HomeAndPlate.host(): HomeAndPlate,
     HungryHappens.host(): HungryHappens,
     InBloomBakery.host(): InBloomBakery,
     InGoodFlavor.host(): InGoodFlavor,
