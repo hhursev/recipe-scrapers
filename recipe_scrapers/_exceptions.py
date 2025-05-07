@@ -1,10 +1,13 @@
+from recipe_scrapers.__version__ import __version__
+
+
 class RecipeScrapersExceptions(Exception):
     def __init__(self, message):
         self.message = message
         super().__init__(message)
 
     def __str__(self):
-        return f"recipe-scrapers exception: {self.message}"
+        return f"recipe-scrapers ({__version__}) exception: {self.message}"
 
 
 class WebsiteNotImplementedError(RecipeScrapersExceptions):
