@@ -19,6 +19,25 @@
     "1 Msp. Cayennepfeffer",
     "1 Prise Salz"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "600 g Rindergulasch (ca. 3x3 cm große Stücke, gegebenenfalls selbst kleiner schneiden)",
+        "400 ml Rinderfond (selbstgemacht oder aus dem Glas)",
+        "300 g Schalotten (geschält und halbiert)",
+        "200 ml trockener Rotwein, einen den Du gerne trinkst (alternativ roter 100% Traubendirektsaft )",
+        "40 g Tomatenmark",
+        "3 EL Butterschmalz (z.B. Buttaris; Alternativ Pflanzenöl )",
+        "1 Knoblauchzehe (geschält, klein geschnitten)",
+        "1-2 TL Zitronenabrieb (unbehandelt bzw. Bio) (kannst Du auch weggelassen )",
+        "2 TL Paprikapulver, edelsüß",
+        "1/2 TL Majoran, getrocknet",
+        "1 Msp. Cayennepfeffer",
+        "1 Prise Salz"
+      ],
+      "purpose": "FÜR DIE DOPPELTE ZUTATENMENGE SOLLTE DER BRÄTER 6-7 LITER FASSUNGSVERMÖGEN HABEN."
+    }
+  ],
   "instructions_list": [
     "Das Gulasch-Fleisch bitte ca. eine halbe Stunde vor der Zubereitung aus dem Kühlschrank nehmen, damit es Zimmertemperatur annehmen kann und nicht eiskalt gebraten wird. Wenn Du das Fleisch selbst schneidest, erst Scheiben quer zur Fleischfaser und daraus wiederum Würfel schneiden. Eine ideale Größe ist ca. 3x3 cm (Walnussgröße). Die 600 g Fleisch nur mäßig salzen, wenn überhaupt nur mit 1 Prise Salz kurz vor dem Anbraten.",
     "Jetzt schälst Du die 300 g Schalotten und halbierst sie, besonders große Exemplare kannst Du auch vierteln. 1 EL Butterschmalz in einem Bräter / Schmortopf erhitzen und darin die Schalotten goldgelb anbraten. Herausnehmen und zur Seite stellen.",
@@ -29,7 +48,6 @@
     "Das Fleisch und die Schalotten nun mit 400 ml Rinderfond ablöschen und mit Deckel für ca. 1,5 Stunden bei geringer Hitze auf der Herdplatte garen. Nach einer Stunde mal nachsehen, ob Dir die Soße zu flüssig erscheint. Falls ja, kannst Du das Gulasch die letzten 30 Minuten ohne Deckel weiter garen. Am Ende der Garzeit das Gulasch nach Belieben abschmecken und gegebenenfalls eindicken.",
     "Ich wünsche Dir einen guten Appetit! Lass Dir mein klassisches Rindergulasch Rezept gut schmecken."
   ],
-  "category": null,
   "yields": "4 servings",
   "description": "Mein Familienrezept ist ein echter Klassiker. Gulasch kochen geht einfacher als man denkt. Mit zartem Fleisch, leckeren Röstaromen und einer sämigen Soße wird es auch Dir gelingen.",
   "total_time": 120,

@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 from ._utils import get_equipment
 
 
@@ -7,14 +6,6 @@ class BeyondFrosting(AbstractScraper):
     @classmethod
     def host(cls):
         return "beyondfrosting.com"
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".tasty-recipes-ingredients-body p strong",
-            ".tasty-recipes-ingredients-body ul li",
-        )
 
     def equipment(self):
         equipment_items = self.soup.select(

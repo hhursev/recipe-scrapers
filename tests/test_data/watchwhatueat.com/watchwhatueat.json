@@ -8,19 +8,51 @@
   "ingredients": [
     "1 large cauliflower head",
     "3-4 garlic cloves finely chopped",
-    "1 tbsp fresh thyme (or 1 tsp dried)",
-    "1 tbsp fresh parsley finely chopped",
-    "1/2 tbsp olive oil",
-    "1 tbsp lemon juice",
+    "1 tablespoon fresh thyme or 1 teaspoon dried",
+    "1 tablespoon fresh parsley finely chopped",
+    "½ tablespoon olive oil",
+    "1 tablespoon lemon juice",
     "1 tsp smoked paprika",
     "salt and pepper",
     "1 onion cut into large pieces",
-    "1 tsp oil",
+    "1 teaspoon oil",
     "2-3 garlic cloves whole",
-    "1 1/2 cup vegetable stock",
-    "1/2 tsp thyme (or more if fresh)",
-    "1/2 tbsp lemon juice",
-    "1 tbsp whole wheat flour"
+    "1 ½ cup vegetable stock",
+    "½ tsp thyme or more if fresh",
+    "½ tablespoon lemon juice",
+    "1 tablespoon whole wheat flour"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 large cauliflower head"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "3-4 garlic cloves finely chopped",
+        "1 tablespoon fresh thyme or 1 teaspoon dried",
+        "1 tablespoon fresh parsley finely chopped",
+        "½ tablespoon olive oil",
+        "1 tablespoon lemon juice",
+        "1 tsp smoked paprika",
+        "salt and pepper"
+      ],
+      "purpose": "Marinade"
+    },
+    {
+      "ingredients": [
+        "1 onion cut into large pieces",
+        "1 teaspoon oil",
+        "2-3 garlic cloves whole",
+        "1 ½ cup vegetable stock",
+        "½ tsp thyme or more if fresh",
+        "½ tablespoon lemon juice",
+        "1 tablespoon whole wheat flour"
+      ],
+      "purpose": "For Gravy"
+    }
   ],
   "instructions_list": [
     "In a small bowl combine all the ingredients listed under marinade.",
