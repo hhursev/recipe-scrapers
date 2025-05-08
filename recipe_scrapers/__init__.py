@@ -105,6 +105,7 @@ from .chefjeanpierre import ChefJeanPierre
 from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
+from .chewoutloud import ChewOutLoud
 from .closetcooking import ClosetCooking
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
@@ -560,6 +561,7 @@ SCRAPERS = {
     ChefSavvy.host(): ChefSavvy,
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
+    ChewOutLoud.host(): ChewOutLoud,
     ClosetCooking.host(): ClosetCooking,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
