@@ -7,6 +7,31 @@ from bs4 import BeautifulSoup
 
 from ._utils import normalize_string
 
+DEFAULT_GROUPINGS: list[tuple[str, list[str], list[str]]] = [
+    (
+        "wprm",
+        [
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-group-name",
+        ],
+        [
+            ".wprm-recipe-ingredient",
+            ".wprm-recipe-ingredients li",
+        ],
+    ),
+    (
+        "tasty",
+        [
+            ".tasty-recipes-ingredients-body p strong",
+            ".tasty-recipes-ingredients h4",
+        ],
+        [
+            ".tasty-recipes-ingredients-body ul li",
+            ".tasty-recipes-ingredients ul li",
+        ],
+    ),
+]
+
 
 @dataclass
 class IngredientGroup:
@@ -81,8 +106,8 @@ def best_match(test_string: str, target_strings: list[str]) -> str:
 def group_ingredients(
     ingredients_list: list[str],
     soup: BeautifulSoup,
-    group_heading: str,
-    group_element: str,
+    group_heading: str | None = None,
+    group_element: str | None = None,
 ) -> list[IngredientGroup]:
     """
     Group ingredients into sublists according to the heading in the recipe.
@@ -92,16 +117,19 @@ def group_ingredients(
     group with all ingredients. It ensures ingredient groupings match those in
     the .ingredients() method of a scraper by comparing the text against the ingredients list.
 
+    If no selectors are provided, it attempts to auto-detect grouping selectors
+    from known defaults.
+
     Parameters
     ----------
     ingredients_list : list[str]
         Ingredients extracted by the scraper.
     soup : BeautifulSoup
         Parsed HTML of the recipe page.
-    group_heading : str
-        CSS selector for ingredient group headings.
-    group_element : str
-        CSS selector for ingredient list items.
+    group_heading : str | None
+        CSS selector for ingredient group headings. If None, auto-detection is attempted.
+    group_element : str | None
+        CSS selector for ingredient list items. If None, auto-detection is attempted.
 
     Returns
     -------
@@ -114,6 +142,22 @@ def group_ingredients(
         If the number of elements selected does not match the length of ingredients_list.
     """
 
+    if group_heading is None or group_element is None:
+        for _, heading_opts, element_opts in DEFAULT_GROUPINGS:
+            for heading_sel in heading_opts:
+                for element_sel in element_opts:
+                    if soup.select(heading_sel) and soup.select(element_sel):
+                        group_heading = heading_sel
+                        group_element = element_sel
+                        break
+                if group_heading and group_element:
+                    break
+            if group_heading and group_element:
+                break
+
+    if not group_heading or not group_element:
+        return [IngredientGroup(ingredients=ingredients_list)]
+
     found_ingredients = soup.select(group_element)
     if len(found_ingredients) != len(ingredients_list):
         raise ValueError(
@@ -121,21 +165,20 @@ def group_ingredients(
         )
 
     groupings: dict[str | None, list[str]] = defaultdict(list)
-    current_heading = None
-
+    current_heading: str | None = None
     elements = soup.select(f"{group_heading}, {group_element}")
     for element in elements:
         if element in element.parent.select(group_heading):
-            current_heading = normalize_string(element.text) or None
+            current_heading = normalize_string(element.get_text()) or None
             if current_heading not in groupings:
                 groupings[current_heading] = []
         else:
-            ingredient_text = normalize_string(element.text)
+            ingredient_text = normalize_string(element.get_text())
             matched_ingredient = best_match(ingredient_text, ingredients_list)
             groupings[current_heading].append(matched_ingredient)
 
     return [
         IngredientGroup(purpose=heading, ingredients=items)
         for heading, items in groupings.items()
-        if items != []
+        if items
     ]
