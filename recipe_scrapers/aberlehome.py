@@ -95,18 +95,20 @@ class AberleHome(AbstractScraper):
 
     def instructions(self):
         instructions = self.schema.instructions()
-        if instructions == [] or instructions == "":
-            instructions = self.soup.select(".mv-create-instructions li")
-            instructions = [
-                normalize_string(ingredient.get_text()) for ingredient in instructions
-            ]
-            if instructions == [] or instructions == "":
-                instructions = self.soup.select(".mv-create-instructions p")
-                instructions = [
-                    normalize_string(ingredient.get_text())
-                    for ingredient in instructions
-                ]
-        return instructions
+        if instructions:
+            return instructions
+
+        instructions = self.soup.select(".mv-create-instructions li")
+        if instructions:
+            instructions = [normalize_string(item.get_text()) for item in instructions]
+            return "\n".join(instructions)
+
+        instructions = self.soup.select(".mv-create-instructions p")
+        if instructions:
+            instructions = [normalize_string(item.get_text()) for item in instructions]
+            instructions_list = "\n".join(instructions)
+
+        return instructions_list
 
     def ratings(self):
         try:
