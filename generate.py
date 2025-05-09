@@ -3,239 +3,222 @@ import ast
 import json
 import sys
 from pathlib import Path
+import re
 
 import requests
 
 from recipe_scrapers._abstract import HEADERS
 from recipe_scrapers._utils import get_host_name
 
-template_class_name = "Template"
-template_host_name = "example.com"
-
-
-def generate_scraper(class_name, host_name):
-    template_path = Path("templates/scraper.py")
-    with template_path.open() as source:
-        code = source.read()
-        program = ast.parse(code)
-
-        state = GenerateScraperState(class_name, host_name, code)
-        for node in ast.walk(program):
-            if not state.step(node):
-                break
-
-        output = Path(f"recipe_scrapers/{class_name.lower()}.py")
-        output.write_text(state.result())
-
-
-def generate_scraper_test(class_name, host_name):
-    test_data_dir = Path(f"tests/test_data/{host_name}")
-    test_data_dir.mkdir(parents=True, exist_ok=True)
-
-    testjson = {
-        "host": host_name,
-        "canonical_url": "",
-        "site_name": "",
-        "author": "",
-        "language": "",
-        "title": "",
-        "ingredients": "",
-        "instructions_list": "",
-        "total_time": "",
-        "yields": "",
-        "image": "",
-        "description": "",
-    }
-
-    output = test_data_dir / f"{class_name.lower()}.json"
-    output.write_text(json.dumps(testjson, indent=2))
-
-
-def init_scraper(class_name):
-    init_file = Path("recipe_scrapers/__init__.py")
-    with init_file.open("r+") as source:
-        code = source.read()
-        program = ast.parse(code)
-
-        state = InitScraperState(class_name, code)
-        for node in ast.walk(program):
-            if not state.step(node):
-                break
-
-        source.seek(0)
-        source.write(state.result())
-        source.truncate()
-
-
-def generate_test_data(class_name, host_name, content):
-    output = Path(f"tests/test_data/{host_name}/{class_name.lower()}.testhtml")
-    with output.open("w", encoding="utf-8") as target:
-        target.write(content.decode(encoding="utf-8"))
-
-
-class ScraperState:
-    def __init__(self, code):
-        self.code = code
-        self.line_offsets = get_line_offsets(code)
-        self.replacer = Replacer(code)
-
-    def result(self):
-        return self.replacer.result()
-
-    def _offset(self, node):
-        return self.line_offsets[node.lineno - 1] + node.col_offset
-
-    def _replace(self, replacement_text, start, length):
-        self.replacer.replace(replacement_text, start, length)
-
-
-class GenerateScraperState(ScraperState):
-    def __init__(self, class_name, host_name, code):
-        super().__init__(code)
-        self.class_name = class_name
-        self.host_name = host_name
-
-    def step(self, node):
-        if isinstance(node, ast.ClassDef) and node.name == template_class_name:
-            offset = self._offset(node)
-            segment_end = self.code.index(template_class_name, offset)
-            self._replace(self.class_name, segment_end, len(template_class_name))
-
-        if isinstance(node, ast.Constant) and node.value == template_host_name:
-            offset = self._offset(node)
-            segment_end = self.code.index(template_host_name, offset)
-            self._replace(self.host_name, segment_end, len(template_host_name))
-
-        return True
-
-
-class InitScraperState(ScraperState):
-    def __init__(self, class_name, code):
-        super().__init__(code)
-        self.class_name = class_name
-        self.module_name = class_name.lower()
-        self.state = "import"
-        self.last_node = None
-
-    def step(self, node):
-        if self.state == "import":
-            return self._import(node)
-        elif self.state == "init":
-            return self._init(node)
-        else:
-            return False
-
-    def _import(self, node):
-        if isinstance(node, ast.Module) or isinstance(node, ast.Import):
-            return True
-
-        if isinstance(node, ast.ImportFrom) and node.level > 0:
-            if node.module > self.module_name:
-                offset = self._offset(node)
-                import_statement = (
-                    f"\nfrom .{self.module_name} import {self.class_name}"
-                )
-                self._replace(import_statement, offset, 0)
-                self.state = "init"
-            self.last_node = node
-        elif isinstance(self.last_node, ast.ImportFrom):
-            offset = (
-                self.line_offsets[self.last_node.lineno - 1]
-                + self.last_node.end_col_offset
-            )
-            segment_end = self.code.index("\n", offset)
-            import_statement = f"\nfrom .{self.module_name} import {self.class_name}"
-            self._replace(import_statement, segment_end, 0)
-            self.state = "init"
-            return self._init(node)
-
-        return True
-
-    def _init(self, node):
-        if isinstance(node, ast.Assign):
-            for target in node.targets:
-                if (
-                    hasattr(target, "id")
-                    and target.id == "SCRAPERS"
-                    and isinstance(node.value, ast.Dict)
-                ):
-                    for key in node.value.keys:
-                        if (
-                            isinstance(key, ast.Call)
-                            and isinstance(key.func, ast.Attribute)
-                            and isinstance(key.func.value, ast.Name)
-                        ):
-                            if key.func.value.id > self.class_name:
-                                offset = self._offset(key)
-                                init_statement = f" {self.class_name}.host(): {self.class_name},\n   "
-                                self._replace(init_statement, offset, 0)
-                                return False
-                            self.last_node = key
-
-            if isinstance(self.last_node, ast.Call):
-                offset = (
-                    self.line_offsets[self.last_node.lineno - 1]
-                    + self.last_node.end_col_offset
-                )
-                segment_end = self.code.index("\n", offset)
-                init_statement = f"\n    {self.class_name}.host(): {self.class_name},"
-                self._replace(init_statement, segment_end, 0)
-                return False
-
-        return True
-
-
-class Replacer:
-    def __init__(self, code):
-        self.code = code
-        self.delta = 0
-        self.replacements = []
-
-    def replace(self, replacement_text, start, length):
-        self.replacements.append((replacement_text, start, length))
-
-    def result(self):
-        code = self.code
-        for replacement_text, start, length in self.replacements:
-            start = start + self.delta
-            end = start + length
-            code = code[:start] + replacement_text + code[end:]
-            self.delta += len(replacement_text) - length
-
-        return code
-
-
-def get_line_offsets(code):
-    offset = 0
-    indices = [0]
-    try:
-        while True:
-            index = code.index("\n", offset)
-            indices.append(index)
-            offset = index + 1
-    except ValueError:
-        return indices
+TEMPLATE_CLASS = "Template"
+TEMPLATE_HOST = "example.com"
+BASE_DIR = Path(__file__).parent
+SCRAPERS_DIR = BASE_DIR / "recipe_scrapers"
+TEST_DATA_DIR = Path("tests/test_data")
 
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python generate.py <ScraperClassName> <url>")
-        print(
-            "Example: python generate.py ExampleClassName https://www.example.com/recipe/12345/example-recipe/"
-        )
+    if len(sys.argv) < 3:
+        print("Usage: python generate.py <ScraperClassName> <url1> [url2 ...]")
         sys.exit(1)
 
     class_name = sys.argv[1]
-    url = sys.argv[2]
-    host_name = get_host_name(url)
-    testhtml = requests.get(url, headers=HEADERS).content
+    urls = sys.argv[2:]
+    module_file = SCRAPERS_DIR / f"{class_name.lower()}.py"
+    if module_file.exists():
+        print(f"Error: Scraper '{class_name}' already exists at {module_file}")
+        sys.exit(1)
 
-    generate_scraper(class_name, host_name)
-    generate_scraper_test(class_name, host_name)
-    generate_test_data(class_name, host_name, testhtml)
-    init_scraper(class_name)
+    first_url = urls[0]
+    first_host = get_host_name(first_url)
 
-    print(f"Successfully generated scraper for {class_name} ({host_name})")
+    _generate_scraper(class_name, first_host)
+    _register_scraper(class_name)
+
+    for idx, url in enumerate(urls, start=1):
+        suffix = f"_{idx}" if len(urls) > 1 else ""
+        name = f"{class_name}{suffix}"
+        host = get_host_name(url)
+        html = requests.get(url, headers=HEADERS).content
+        _generate_tests_and_data(name, host, html)
+
+    if len(urls) == 1:
+        print(f"Successfully generated scraper and test data for {class_name}")
+    else:
+        print(
+            f"Successfully generated scraper and {len(urls)} sets of test data for {class_name}"
+        )
+
+
+def _generate_scraper(class_name, host):
+    template = BASE_DIR / "templates/scraper.py"
+    code = template.read_text()
+    tree = ast.parse(code)
+    replacer = _TemplateReplacer(code, class_name, host)
+
+    for node in ast.walk(tree):
+        replacer.apply(node)
+
+    out = SCRAPERS_DIR / f"{class_name.lower()}.py"
+    out.write_text(replacer.result())
+
+
+def _generate_tests_and_data(class_name, host, html):
+    dest = TEST_DATA_DIR / host
+    dest.mkdir(parents=True, exist_ok=True)
+
+    data = {
+        k: ""
+        for k in (
+            "host",
+            "canonical_url",
+            "site_name",
+            "author",
+            "language",
+            "title",
+            "ingredients",
+            "instructions_list",
+            "total_time",
+            "yields",
+            "image",
+            "description",
+        )
+    }
+    data["host"] = host
+
+    (dest / f"{class_name.lower()}.json").write_text(json.dumps(data, indent=2) + "\n")
+    (dest / f"{class_name.lower()}.testhtml").write_bytes(html)
+
+
+def _register_scraper(class_name):
+    module = class_name.lower()
+    init_path = SCRAPERS_DIR / "__init__.py"
+    lines = init_path.read_text().splitlines()
+
+    new_import = f"from .{module} import {class_name}"
+    import_re = re.compile(r"^from \.[\w]+ import [\w]+$")
+    idxs = [i for i, line in enumerate(lines) if import_re.match(line)]
+    existing = [lines[i] for i in idxs]
+    if new_import not in existing:
+        underscore_imports = [
+            imp for imp in existing if imp.split()[1].startswith("._")
+        ]
+        regular_imports = [
+            imp for imp in existing if not imp.split()[1].startswith("._")
+        ] + [new_import]
+        underscore_imports = sorted(
+            underscore_imports, key=lambda imp: imp.split()[-1].lower()
+        )
+        regular_imports = sorted(
+            regular_imports, key=lambda imp: imp.split()[-1].lower()
+        )
+        all_imports = underscore_imports + regular_imports
+        start, end = idxs[0], idxs[-1]
+        lines = lines[:start] + all_imports + lines[end + 1 :]
+
+    new_entry = f"    {class_name}.host(): {class_name},"
+    out, block, in_block = [], [], False
+    for line in lines:
+        if line.strip().startswith("SCRAPERS") and line.strip().endswith("{"):
+            in_block = True
+            out.append(line)
+            continue
+        if in_block:
+            if line.strip() == "}":
+                block.append(new_entry)
+                sorted_block = sorted(set(block), key=lambda e: e.lower())
+                out.extend(sorted_block)
+                out.append(line)
+                in_block = False
+            else:
+                block.append(line)
+            continue
+        out.append(line)
+
+    init_path.write_text("\n".join(out) + "\n")
+
+
+class _TemplateReplacer:
+    def __init__(self, code, class_name, host):
+        self.code = code
+        self.class_name = class_name
+        self.host = host
+        self.repls = []
+        self.lines = [0] + [i + 1 for i, c in enumerate(code) if c == "\n"]
+
+    def apply(self, node):
+        if isinstance(node, ast.ClassDef) and node.name == TEMPLATE_CLASS:
+            pos = self._pos(node)
+            end = self.code.index(TEMPLATE_CLASS, pos)
+            self._add(end, len(TEMPLATE_CLASS), self.class_name)
+        elif isinstance(node, ast.Constant) and node.value == TEMPLATE_HOST:
+            pos = self._pos(node)
+            end = self.code.index(TEMPLATE_HOST, pos)
+            self._add(end, len(TEMPLATE_HOST), self.host)
+
+    def _pos(self, node):
+        return self.lines[node.lineno - 1] + node.col_offset
+
+    def _add(self, start, length, text):
+        self.repls.append((start, length, text))
+
+    def result(self):
+        code, delta = self.code, 0
+        for start, length, text in sorted(self.repls, key=lambda x: x[0]):
+            s = start + delta
+            code = code[:s] + text + code[s + length :]
+            delta += len(text) - length
+        return code
+
+
+class _InitRegistrar:
+    def __init__(self, class_name, code):
+        self.class_name = class_name
+        self.module = class_name.lower()
+        self.code = code
+        self.stage = "import"
+        self.repls = []
+        self.lines = [0] + [i + 1 for i, c in enumerate(code) if c == "\n"]
+
+    def step(self, node):
+        if self.stage == "import":
+            return self._handle_import(node)
+        if self.stage == "init":
+            return self._handle_init(node)
+        return False
+
+    def _handle_import(self, node):
+        if isinstance(node, ast.ImportFrom) and node.level > 0:
+            pos = self.lines[node.lineno - 1] + node.end_col_offset
+            text = f"\nfrom .{self.module} import {self.class_name}"
+            self._add(pos, 0, text)
+            self.stage = "init"
+        return True
+
+    def _handle_init(self, node):
+        if isinstance(node, ast.Assign):
+            if any(getattr(t, "id", None) == "SCRAPERS" for t in node.targets):
+                if isinstance(node.value, ast.Dict):
+                    key = next(
+                        (k for k in node.value.keys if isinstance(k, ast.Call)), None
+                    )
+                    if key:
+                        pos = self.lines[key.lineno - 1] + key.end_col_offset
+                        entry = f"\n    {self.class_name}.host(): {self.class_name},"
+                        self._add(pos, 0, entry)
+                        return False
+        return True
+
+    def _add(self, start, length, text):
+        self.repls.append((start, length, text))
+
+    def result(self):
+        code, delta = self.code, 0
+        for start, length, text in sorted(self.repls, key=lambda x: x[0]):
+            s = start + delta
+            code = code[:s] + text + code[s + length :]
+            delta += len(text) - length
+        return code
 
 
 if __name__ == "__main__":
