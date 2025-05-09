@@ -24,23 +24,29 @@ def main():
 
     class_name = sys.argv[1]
     urls = sys.argv[2:]
+    module_file = SCRAPERS_DIR / f"{class_name.lower()}.py"
+    if module_file.exists():
+        print(f"Error: Scraper '{class_name}' already exists at {module_file}")
+        sys.exit(1)
+
+    first_url = urls[0]
+    first_host = get_host_name(first_url)
+    _generate_scraper(class_name, first_host)
+    _register_scraper(class_name)
 
     for idx, url in enumerate(urls, start=1):
         suffix = f"_{idx}" if len(urls) > 1 else ""
         name = f"{class_name}{suffix}"
-        module_file = SCRAPERS_DIR / f"{name.lower()}.py"
-        if module_file.exists():
-            print(f"Error: Scraper '{name}' already exists at {module_file}")
-            continue
-
         host = get_host_name(url)
         html = requests.get(url, headers=HEADERS).content
-
-        _generate_scraper(name, host)
         _generate_tests_and_data(name, host, html)
-        _register_scraper(name)
 
-        print(f"Successfully generated scraper for {name} ({host})")
+    if len(urls) == 1:
+        print(f"Successfully generated scraper and test data for {class_name}")
+    else:
+        print(
+            f"Successfully generated scraper and {len(urls)} sets of test data for {class_name}"
+        )
 
 
 def _generate_scraper(class_name, host):
