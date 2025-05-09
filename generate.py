@@ -31,6 +31,7 @@ def main():
 
     first_url = urls[0]
     first_host = get_host_name(first_url)
+
     _generate_scraper(class_name, first_host)
     _register_scraper(class_name)
 
