@@ -375,6 +375,7 @@ from .sandwhichtribunal import SandwhichTribunal
 from .saveur import Saveur
 from .savorynothings import SavoryNothings
 from .schoolofwok import SchoolOfWok
+from .scrummylane import ScrummyLane
 from .seriouseats import SeriousEats
 from .shelikesfood import SheLikesFood
 from .simplegreensmoothies import SimpleGreenSmoothies
@@ -671,6 +672,7 @@ SCRAPERS = {
     SamsungFood.host(): SamsungFood,
     SandwhichTribunal.host(): SandwhichTribunal,
     SavoryNothings.host(): SavoryNothings,
+    ScrummyLane.host(): ScrummyLane,
     SheLikesFood.host(): SheLikesFood,
     SimpleGreenSmoothies.host(): SimpleGreenSmoothies,
     SizzleFish.host(): SizzleFish,
