@@ -292,6 +292,7 @@ from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
 from .myvegetarianroots import MyVegetarianRoots
 from .natashaskitchen import NatashasKitchen
+from .naturallyella import NaturallyElla
 from .ndr import Ndr
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
@@ -625,6 +626,7 @@ SCRAPERS = {
     MyKoreanKitchen.host(): MyKoreanKitchen,
     MyVegetarianRoots.host(): MyVegetarianRoots,
     NatashasKitchen.host(): NatashasKitchen,
+    NaturallyElla.host(): NaturallyElla,
     Ndr.host(): Ndr,
     NoraCooks.host(): NoraCooks,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
