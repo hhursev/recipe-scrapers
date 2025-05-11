@@ -17,6 +17,33 @@
     "100 gram makroner",
     "40 gram mandelflager"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "400 gram rabarber",
+        "75 gram sukker",
+        "10 gram vaniljesukker"
+      ],
+      "purpose": "Rabarberkompot laves af"
+    },
+    {
+      "ingredients": [
+        "2 pasteuriserede æggeblommer",
+        "40 gram sukker",
+        "10 gram majsstivelse",
+        "2,5 deciliter sødmælk"
+      ],
+      "purpose": "Creme laves af"
+    },
+    {
+      "ingredients": [
+        "2,5 deciliter piskefløde",
+        "100 gram makroner",
+        "40 gram mandelflager"
+      ],
+      "purpose": "Derudover anvendes"
+    }
+  ],
   "instructions_list": [
     "Start med at lave rabarberkompot. Rabarber snittes i tynde skiver, som koges i en kasserolle sammen med sukker og vaniljesukker. Kogetiden er cirka 10 minutter, og du skal ikke tilsætte vand, da rabarberne kaster rigeligt med væske af sig. Lad kompotten køle af.",
     "Cremen laves ved at piske æggeblommer sammen med sukker og majsstivelse i en kasserolle. Koges op med sødmælken indtil den har den rette konsistens, og du skal piske i den undervejs så cremen ikke brænder på. Lad den køle lidt af.",
