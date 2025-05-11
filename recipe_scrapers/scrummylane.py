@@ -1,10 +1,12 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
+
 class ScrummyLane(AbstractScraper):
     @classmethod
     def host(cls):
         return "scrummylane.com"
+
 
 def ingredient_groups(self):
     return group_ingredients(
