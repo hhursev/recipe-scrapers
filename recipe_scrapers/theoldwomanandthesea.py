@@ -8,7 +8,7 @@ class TheOldWomanAndTheSea(AbstractScraper):
         return "theoldwomanandthesea.com"
 
     def description(self):
-        return self.soup.find('meta', {'property': 'og:description'}).get('content')
+        return self.soup.find("meta", {"property": "og:description"}).get("content")
 
     def ingredient_groups(self):
         return group_ingredients(
