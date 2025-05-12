@@ -7,7 +7,6 @@ class TheFirstMess(AbstractScraper):
     def host(cls):
         return "thefirstmess.com"
 
-
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
