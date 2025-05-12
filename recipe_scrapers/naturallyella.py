@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._exceptions import SchemaOrgException
 from ._exceptions import FieldNotProvidedByWebsiteException
 
 
@@ -17,7 +18,10 @@ class NaturallyElla(AbstractScraper):
         )
 
     def total_time(self):
-        total_time = self.schema.total_time()
-        if total_time:
-            return total_time
-        return FieldNotProvidedByWebsiteException
+        try:
+            total_time = self.schema.total_time()
+            if total_time:
+                return total_time
+        except SchemaOrgException:
+            pass
+        raise FieldNotProvidedByWebsiteException(return_value=None)
