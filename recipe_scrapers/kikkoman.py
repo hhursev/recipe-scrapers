@@ -30,8 +30,8 @@ class Kikkoman(AbstractScraper):
                 else ""
             )
 
-            combined = f"{amount} {label}".strip()
-            if combined:
+            if amount or label:
+                combined = f"{amount} {label}".strip()
                 ingredients.append(combined)
 
         return ingredients
