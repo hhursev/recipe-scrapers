@@ -233,6 +233,7 @@ from .joyfoodsunshine import Joyfoodsunshine
 from .joythebaker import JoyTheBaker
 from .juliegoodwin import JulieGoodwin
 from .jumbo import Jumbo
+from .justalittlebitofbacon import JustALittleBitOfBacon
 from .justataste import JustATaste
 from .justbento import JustBento
 from .justinesnacks import JustineSnacks
@@ -637,6 +638,7 @@ SCRAPERS = {
     JoshuaWeissman.host(): JoshuaWeissman,
     JoyTheBaker.host(): JoyTheBaker,
     Jumbo.host(): Jumbo,
+    JustALittleBitOfBacon.host(): JustALittleBitOfBacon,
     JustineSnacks.host(): JustineSnacks,
     KaleJunkie.host(): KaleJunkie,
     KellysCleanKitchen.host(): KellysCleanKitchen,
