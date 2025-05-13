@@ -412,6 +412,7 @@ from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
 from .sweetpeasandsaffron import SweetPeasAndSaffron
 from .swissmilk import SwissMilk
+from .tableanddish import TableAndDish
 from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tasteofhome import TasteOfHome
@@ -696,6 +697,7 @@ SCRAPERS = {
     SudachiRecipes.host(): SudachiRecipes,
     SugarHero.host(): SugarHero,
     SwissMilk.host(): SwissMilk,
+    TableAndDish.host(): TableAndDish,
     TasteAtlas.host(): TasteAtlas,
     TastingHistory.host(): TastingHistory,
     TastyOven.host(): TastyOven,
