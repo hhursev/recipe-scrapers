@@ -327,6 +327,7 @@ from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
+from .panlasangpinoy import PanlasangPinoy
 from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
@@ -663,6 +664,7 @@ SCRAPERS = {
     OneSweetAppetite.host(): OneSweetAppetite,
     OrganicallyAddison.host(): OrganicallyAddison,
     OttolenghiBooks.host(): OttolenghiBooks,
+    PanlasangPinoy.host(): PanlasangPinoy,
     PeelWithZeal.host(): PeelWithZeal,
     PilipinasRecipes.host(): PilipinasRecipes,
     PinchOfYum.host(): PinchOfYum,
