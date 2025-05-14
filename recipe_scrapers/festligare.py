@@ -9,12 +9,6 @@ class Festligare(AbstractScraper):
     def host(cls):
         return "festligare.se"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         try:
             category = self.schema.category()
@@ -114,16 +108,10 @@ class Festligare(AbstractScraper):
 
     def ratings_count(self):
         try:
-            return self.schema.ratings_count()
+            return int(self.schema.ratings_count())
         except SchemaOrgException:
             pass
         rating_count_tag = self.soup.find(itemprop="reviewCount")
         if rating_count_tag:
-            return float(rating_count_tag.get("content"))
+            return int(float(rating_count_tag.get("content")))
         return None
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
