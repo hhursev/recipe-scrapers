@@ -1,0 +1,103 @@
+{
+  "author": "Vanjo Merano",
+  "canonical_url": "https://panlasangpinoy.com/stuffed-eggplant-relyenong-talong-recipe/",
+  "site_name": "Panlasang Pinoy",
+  "host": "panlasangpinoy.com",
+  "language": "en-US",
+  "title": "Stuffed Eggplant with Ground Chicken",
+  "ingredients": [
+    "2 pieces Japanese eggplants",
+    "3 eggs",
+    "1 quart water",
+    "8 tablespoons cooking oil",
+    "Salt and ground black pepper to taste",
+    "1/2 lb. ground chicken",
+    "1 tomato (chopped)",
+    "1 onion (minced)",
+    "5 cloves garlic (minced)",
+    "1 red bell pepper",
+    "1/2 cup green peas",
+    "2 tablespoons soy sauce",
+    "salt and ground black pepper to taste"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 pieces Japanese eggplants",
+        "3 eggs",
+        "1 quart water",
+        "8 tablespoons cooking oil",
+        "Salt and ground black pepper to taste"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1/2 lb. ground chicken",
+        "1 tomato (chopped)",
+        "1 onion (minced)",
+        "5 cloves garlic (minced)",
+        "1 red bell pepper",
+        "1/2 cup green peas",
+        "2 tablespoons soy sauce",
+        "salt and ground black pepper to taste"
+      ],
+      "purpose": "Filling ingredients"
+    }
+  ],
+  "instructions_list": [
+    "sautéing",
+    "Heat 3 tablespoons of oil in a pan. Sauté the garlic, onion, and tomato until the tomato softens.",
+    "cooking-beef",
+    "Add the ground chicken and cook until browned, about 3 to 5 minutes.",
+    "Add bell pepper and green peas. Saute for 2 minutes.",
+    "Pour the soy sauce into the pan. Stir.",
+    "Season with salt and ground black pepper. Continue cooking, stirring occasionally, until all the liquid evaporates. Set aside.",
+    "cooking-eggplant",
+    "Grill the eggplants until the inside softens. Let it cool down before peeling-off the skin.",
+    "Lay 1 piece of eggplant on a large plate and then spread it out using a fork to form a fan shaped figure.",
+    "filling",
+    "Beat 3 eggs and then season with salt and ground black pepper.",
+    "filling",
+    "Dip each eggplant into he beaten eggs. Let it stay for 1 minute.",
+    "heating-oil",
+    "Heat the remaining oil in a pan.",
+    "frying",
+    "Gently place the eggplant on the pan. Fry the bottom side for 1 1/2 minutes.",
+    "Top it with enough ground chicken mixture and spread the mixture evenly. Pour enough beaten eggs over the mixture and then scoop some hot oil and pour it over the eggplant. This will make the eggs firm enough to hold the filling together.",
+    "frying",
+    "Flip the eggplants and continue frying the side with the filling over low to medium heat for 2 minutes.",
+    "serving",
+    "Remove the eggplants from the pan and arrange them on a serving plate.",
+    "serving",
+    "Serve with rice, share with friends or family, and enjoy!"
+  ],
+  "category": "Main Course",
+  "yields": "2 servings",
+  "description": "Whole eggplants are filled with a mixture of spiced ground beef and other ingredients.",
+  "total_time": 27,
+  "cook_time": 15,
+  "prep_time": 12,
+  "cuisine": "Filipino",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "1703 kcal",
+    "fatContent": "144 g",
+    "saturatedFatContent": "18 g",
+    "unsaturatedFatContent": "122 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "41 g",
+    "sugarContent": "18 g",
+    "proteinContent": "68 g",
+    "sodiumContent": "2403 mg",
+    "fiberContent": "11 g",
+    "cholesterolContent": "686 mg"
+  },
+  "image": "https://panlasangpinoy.com/wp-content/uploads/2025/04/Relyenong-talong-recipe.jpg",
+  "keywords": [
+    "beef recipes",
+    "eggplant recipes",
+    "relyenong talong",
+    "tortang talong"
+  ]
+}
