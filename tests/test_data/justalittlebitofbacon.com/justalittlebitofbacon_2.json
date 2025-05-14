@@ -1,0 +1,65 @@
+{
+  "author": "Just a Little Bit of Bacon",
+  "canonical_url": "https://www.justalittlebitofbacon.com/grilled-sicilian-swordfish-oregano-summer-squash/",
+  "site_name": "Just a Little Bit of Bacon",
+  "host": "justalittlebitofbacon.com",
+  "language": "en-US",
+  "title": "Grilled Sicilian Swordfish with Oregano and Summer Squash",
+  "ingredients": [
+    "3 medium summer squash, (cut into 1/2 inch slices on the bias)",
+    "kosher salt and olive oil",
+    "2 lb swordfish",
+    "2 medium tomatoes, (chopped)",
+    "4 tbsp olive oil",
+    "2 tbsp lemon juice",
+    "2 tsp kosher salt",
+    "2 tsp chopped fresh oregano"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "3 medium summer squash, (cut into 1/2 inch slices on the bias)",
+        "kosher salt and olive oil",
+        "2 lb swordfish",
+        "2 medium tomatoes, (chopped)"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "4 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "2 tsp kosher salt",
+        "2 tsp chopped fresh oregano"
+      ],
+      "purpose": "Oregano Sauce"
+    }
+  ],
+  "instructions_list": [
+    "Preheat grill. Put a metal grill basket on the grill and get it good and hot.",
+    "Toss the sliced summer squash with a pinch or two of kosher salt and a drizzle of olive oil. Spread them on in the grill basket and cover the grill. Lower the heat to medium-high. Grill until the squash is soft and browned, checking every couple of minutes to stir and turn the squash, about 10 minutes. Adjust the heat/coals as needed to let the squash cook without burning. Transfer the squash to a serving bowl.",
+    "Bring the grill back up to high heat. Grill the swordfish with the cover open for 5 minutes per side, turning once, or until the swordfish reaches a temperature of 130F.",
+    "While the swordfish is grilling, make the oregano sauce. In a bowl mix together the lemon juice and salt until the salt dissolves. Then whisk in the olive oil and add the oregano.",
+    "When the swordfish is done, move it to a serving platter. Prick the swordfish all over with a fork, then pour the sauce over the fish. Top with the chopped tomatoes.",
+    "Serve the swordfish with the grilled squash and some rice or orzo pasta."
+  ],
+  "category": "Main Course",
+  "yields": "4 servings",
+  "description": "Sicilian swordfish is an easy dinner recipe perfect for a summer's evening. Just fire up the grill to cook your summer squash and then the swordfish steaks, top it all with a tangy lemon and olive oil oregano sauce and some diced tomatoes, and you have a meal!",
+  "total_time": 30,
+  "cook_time": 20,
+  "prep_time": 10,
+  "cuisine": "Italian",
+  "ratings": 5.0,
+  "ratings_count": 11,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "475 kcal"
+  },
+  "image": "https://www.justalittlebitofbacon.com/wp-content/uploads/2018/05/grilled-sicilian-swordfish-for-submission.jpg",
+  "keywords": [
+    "fish",
+    "italian",
+    "summer"
+  ]
+}

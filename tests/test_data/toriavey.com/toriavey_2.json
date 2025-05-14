@@ -1,0 +1,71 @@
+{
+  "author": "Tori Avey",
+  "canonical_url": "https://toriavey.com/spring-berry-pistachio-salad-maple-balsamic/",
+  "site_name": "Tori Avey",
+  "host": "toriavey.com",
+  "language": "en-US",
+  "title": "Strawberry Spinach Salad",
+  "ingredients": [
+    "10 ounces baby spinach",
+    "2 cups strawberries (rinsed and sliced)",
+    "1 pint blackberries (rinsed)",
+    "1 pint raspberries (rinsed)",
+    "1/2 cup unsalted pistachios, (shelled and toasted (you may substitute lightly toasted pecans, walnuts, or almonds)",
+    "1/2 cup extra virgin olive oil",
+    "1/4 cup balsamic vinegar",
+    "1 1/2 tablespoons maple syrup",
+    "1 teaspoon whole grain dijon mustard",
+    "1 teaspoon salt",
+    "1/4 teaspoon black pepper"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "10 ounces baby spinach",
+        "2 cups strawberries (rinsed and sliced)",
+        "1 pint blackberries (rinsed)",
+        "1 pint raspberries (rinsed)",
+        "1/2 cup unsalted pistachios, (shelled and toasted (you may substitute lightly toasted pecans, walnuts, or almonds)"
+      ],
+      "purpose": "Salad Ingredients"
+    },
+    {
+      "ingredients": [
+        "1/2 cup extra virgin olive oil",
+        "1/4 cup balsamic vinegar",
+        "1 1/2 tablespoons maple syrup",
+        "1 teaspoon whole grain dijon mustard",
+        "1 teaspoon salt",
+        "1/4 teaspoon black pepper"
+      ],
+      "purpose": "Dressing Ingredients"
+    }
+  ],
+  "instructions_list": [
+    "To make the dressing, combine all ingredients in a mixing bowl and whisk to combine.",
+    "Gently toss the salad ingredients together. Serve topped with the maple balsamic vinaigrette dressing. If the dressing has separated, simply whisk again to combine."
+  ],
+  "category": "Salad",
+  "yields": "8 servings",
+  "description": "Easy recipe for vegan strawberry spinach salad with berries, pistachios, and an easy, luscious maple balsamic vinaigrette. Perfect for spring!",
+  "total_time": 15,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 3,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "256 kcal",
+    "fatContent": "17 g",
+    "saturatedFatContent": "2 g",
+    "carbohydrateContent": "23 g",
+    "sugarContent": "11 g",
+    "proteinContent": "4 g",
+    "sodiumContent": "330 mg",
+    "fiberContent": "9 g"
+  },
+  "image": "https://toriavey.com/images/2013/07/IMG_1419.jpeg",
+  "keywords": [
+    "strawberry spinach salad"
+  ]
+}
