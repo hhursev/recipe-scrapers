@@ -7,15 +7,16 @@ class PoppyCooks(AbstractScraper):
     def host(cls):
         return "poppycooks.com"
 
+    def author(self):
+        author_meta = self.soup.find("div", itemprop="author")
+        name_meta = author_meta.find("meta", itemprop="name")
+        return normalize_string(name_meta["content"])
+
     def title(self):
-        return normalize_string(
-            self.soup.find("h1", class_="fl-post-title").get_text()
-        )
+        return normalize_string(self.soup.find("h1", class_="fl-post-title").get_text())
 
     def yields(self):
-        return get_yields(
-            self.soup.find("div", class_="kw-recipe-servings").get_text()
-        )
+        return get_yields(self.soup.find("div", class_="kw-recipe-servings").get_text())
 
     def ingredients(self):
         ingredients_list = []
@@ -37,12 +38,12 @@ class PoppyCooks(AbstractScraper):
                 if instruction_text:
                     instructions_list.append(instruction_text)
         return "\n".join(instructions_list)
-    
+
     def image(self):
         img_section = self.soup.find("div", class_="fl-post-thumb")
         img_tag = img_section.find("img")
 
-        largest_image_url = ''
+        largest_image_url = ""
         if img_tag:
             srcset = img_tag.get("data-srcset", "")
             if srcset:
@@ -61,4 +62,3 @@ class PoppyCooks(AbstractScraper):
             else:
                 largest_image_url = img_tag.get("src", "")
         return largest_image_url
-
