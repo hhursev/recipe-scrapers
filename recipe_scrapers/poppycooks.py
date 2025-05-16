@@ -40,25 +40,20 @@ class PoppyCooks(AbstractScraper):
         return "\n".join(instructions_list)
 
     def image(self):
-        img_section = self.soup.find("div", class_="fl-post-thumb")
-        img_tag = img_section.find("img")
+        img_tag = self.soup.find("div", class_="fl-post-thumb").find("img")
+        if not img_tag:
+            return ""
 
-        largest_image_url = ""
-        if img_tag:
-            srcset = img_tag.get("data-srcset", "")
-            if srcset:
-                images = []
-                for item in srcset.split(","):
-                    parts = item.strip().split(" ")
-                    if len(parts) == 2:
-                        url_candidate, width_str = parts
-                        try:
-                            width = int(width_str.rstrip("w"))
-                        except ValueError:
-                            width = 0
-                        images.append((width, url_candidate))
-                if images:
-                    largest_image_url = max(images, key=lambda x: x[0])[1]
-            else:
-                largest_image_url = img_tag.get("src", "")
-        return largest_image_url
+        srcset = img_tag.get("data-srcset", "")
+        if not srcset:
+            return img_tag.get("src", "")
+
+        images = [
+            (int(width_str.rstrip("w")), url_candidate)
+            for item in srcset.split(",")
+            if (parts := item.strip().split(" ")) and len(parts) == 2
+            for url_candidate, width_str in [parts]
+            if width_str.rstrip("w").isdigit()
+        ]
+
+        return max(images, key=lambda x: x[0])[1] if images else ""
