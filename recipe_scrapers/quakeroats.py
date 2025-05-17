@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
-from ._exceptions import ElementNotFoundInHtml, FieldNotProvidedByWebsiteException
-from ._utils import get_minutes, normalize_string
+from ._grouping_utils import group_ingredients
+from ._utils import get_minutes, get_yields, normalize_string
 
 
 class QuakerOats(AbstractScraper):
@@ -8,14 +8,8 @@ class QuakerOats(AbstractScraper):
     def host(cls):
         return "quakeroats.com"
 
-    def canonical_url(self):
-        raise FieldNotProvidedByWebsiteException(return_value=None)
-
-    def instructions_list(self):
-        raise ElementNotFoundInHtml("instructions_list")
-
     def author(self):
-        return "Quaker Oats"
+        return "The Quaker Oats Company"
 
     def title(self):
         title_tag = self.soup.find("title")
@@ -27,33 +21,29 @@ class QuakerOats(AbstractScraper):
             return normalize_string(title_text)
         return ""
 
-    def category(self):
-        # The website may not have categories.
-        return None
+    def _get_metadata_from_span(self, partial_id):
+        el = self.soup.find("span", id=lambda x: x and partial_id in x)
+        return el.get_text(strip=True) if el else ""
 
-    def total_time(self):
-        # Extract preparation time
-        prep_time_span = self.soup.find("span", id=lambda x: x and "lblPreptime" in x)
-        if prep_time_span:
-            prep_time = get_minutes(prep_time_span.get_text())
-        else:
-            prep_time = 0
+    def prep_time(self):
+        times = self.soup.find_all("span", id=lambda x: x and "lblCooktime" in x)
+        if len(times) == 2:
+            return get_minutes(times[0].get_text())
+        return 0
 
-        # Extract cook time
-        cook_time_span = self.soup.find("span", id=lambda x: x and "lblCooktime" in x)
-        if cook_time_span:
-            cook_time = get_minutes(cook_time_span.get_text())
-        else:
-            cook_time = 0
-
-        return prep_time + cook_time
+    def cook_time(self):
+        times = self.soup.find_all("span", id=lambda x: x and "lblCooktime" in x)
+        if len(times) == 2:
+            return get_minutes(times[1].get_text())
+        return 0
 
     def yields(self):
-        recipeyield = self.soup.find(itemprop="recipeYield")
-        if recipeyield:
-            return normalize_string(recipeyield.get_text())
+        return get_yields(self._get_metadata_from_span("lblServings"))
 
-        return None
+    def total_time(self):
+        prep = self.prep_time()
+        cook = self.cook_time()
+        return prep + cook
 
     def ingredients(self):
         ingredients = []
@@ -78,31 +68,29 @@ class QuakerOats(AbstractScraper):
                     ingredients.append(ingredient)
         return ingredients
 
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingrd-txts li p strong",
+            ".ingrd-txts li",
+        )
+
     def instructions(self):
         instructions_section = self.soup.find("div", class_="CookingContent")
-        if instructions_section:
-            ul_tag = instructions_section.find("ul", class_="cook-desc")
-            if ul_tag:
-                steps = ul_tag.find_all("li")
-                instructions = []
-                for step in steps:
-                    instruction_text = normalize_string(step.get_text())
-                    instructions.append(instruction_text)
-                return "\n".join(instructions)
-        return ""
-
-    def ratings(self):
-        raise FieldNotProvidedByWebsiteException(return_value=None)
-
-    def cuisine(self):
-        # The website does not specify cuisine.
-        return None
+        if not instructions_section:
+            return None
+        ul_tag = instructions_section.find("ul", class_="cook-desc")
+        if not ul_tag:
+            return None
+        steps = ul_tag.find_all("li")
+        instructions = [normalize_string(step.get_text()) for step in steps]
+        return "\n".join(instructions)
 
     def description(self):
         description_tag = self.soup.find("meta", attrs={"name": "description"})
-        if description_tag:
-            return normalize_string(description_tag.get("content", ""))
-        return ""
+        if description_tag and description_tag.get("content"):
+            return normalize_string(description_tag["content"])
 
     def language(self):
         return "en-US"
