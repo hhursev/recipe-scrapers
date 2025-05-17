@@ -355,6 +355,7 @@ from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
+from .quakeroats import QuakerOats
 from .quitoque import QuiToque
 from .rachlmansfield import RachlMansfield
 from .rainbowplantlife import RainbowPlantLife
@@ -686,6 +687,7 @@ SCRAPERS = {
     PilipinasRecipes.host(): PilipinasRecipes,
     PinchOfYum.host(): PinchOfYum,
     PotatoRolls.host(): PotatoRolls,
+    QuakerOats.host(): QuakerOats,
     PreppyKitchen.host(): PreppyKitchen,
     QuiToque.host(): QuiToque,
     RealFoodWell.host(): RealFoodWell,
