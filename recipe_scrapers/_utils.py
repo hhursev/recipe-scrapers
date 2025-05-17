@@ -223,7 +223,7 @@ def get_yields(element):
     if best_match:
         return best_match
 
-    plural='s' if float(matched) > 1 or float(matched) == 0 else ''
+    plural = "s" if float(matched) > 1 or float(matched) == 0 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         return f"{matched} item{plural}"
 
