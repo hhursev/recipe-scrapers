@@ -16,7 +16,7 @@ class GourmetTraveller(AbstractScraper):
         )
         if not recipe_category_span:
             return None
-        value = recipe_category_span.find_next_sibling("span")
+        value = recipe_category_span.find_next_sibling(name="span")
         return normalize_string(value.text)
 
     def ingredients(self):

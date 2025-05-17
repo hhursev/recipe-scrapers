@@ -8,7 +8,7 @@ from recipe_scrapers.__version__ import __version__
 from recipe_scrapers.settings import settings
 
 from ._exceptions import ElementNotFoundInHtml
-from ._grouping_utils import IngredientGroup
+from ._grouping_utils import group_ingredients, IngredientGroup
 from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
@@ -101,8 +101,8 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def ingredient_groups(self) -> list[IngredientGroup]:
-        """List of ingredient groups."""
-        return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
+        """List of ingredient groups with purpose and ingredients."""
+        return group_ingredients(self.ingredients(), self.soup)
 
     def instructions(self) -> str:
         """Instructions to prepare the recipe."""
@@ -183,7 +183,7 @@ class AbstractScraper:
     def links(self):
         """Links found in the recipe."""
         invalid_href = {"#", ""}
-        links_html = self.soup.findAll("a", href=True)
+        links_html = self.soup.find_all("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 

@@ -33,7 +33,7 @@ class FarmhouseDelivery(AbstractScraper):
                     isinstance(ingredients_marker_sibling, Tag)
                     and ingredients_marker_sibling.name == "ul"
                 ):
-                    ingredients = ingredients_marker_sibling.findAll("li")
+                    ingredients = ingredients_marker_sibling.find_all("li")
                     return [
                         normalize_string(ingredient.get_text())
                         for ingredient in ingredients
@@ -70,7 +70,7 @@ class FarmhouseDelivery(AbstractScraper):
                     and instructions_marker_sibling.name == "p"
                     and instructions_marker_sibling.get_text(strip=True) != ""
                 ):
-                    instructions = instructions_marker_sibling.findAll("span")
+                    instructions = instructions_marker_sibling.find_all("span")
                     return [
                         normalize_string(instruction.get_text())
                         for instruction in instructions

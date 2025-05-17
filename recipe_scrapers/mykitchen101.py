@@ -24,7 +24,7 @@ class MyKitchen101(AbstractScraper):
         soup = BeautifulSoup(str(self.soup), features="html.parser")
         ingredients = (
             soup.find(name="p", string=re.compile("材料："))
-            .find_next("ul")
+            .find_next(name="ul")
             .find_all("li")
         )
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]

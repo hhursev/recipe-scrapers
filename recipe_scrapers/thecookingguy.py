@@ -43,7 +43,7 @@ class TheCookingGuy(AbstractScraper):
                 normalize_string(ingredient.get_text()) for ingredient in ingredients
             ]
 
-            purpose_p = ingredients_ul.find_previous_sibling()
+            purpose_p = ingredients_ul.find_previous_sibling(name=True)
 
             if purpose_p and purpose_p.name == "p" and purpose_p.find("strong"):
                 # has purpose, add new group

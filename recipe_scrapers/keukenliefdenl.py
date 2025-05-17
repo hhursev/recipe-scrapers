@@ -41,7 +41,7 @@ class KeukenLiefdeNL(AbstractScraper):
         ingredient_header = self.soup.find("strong", string="Ingrediënten")
         if ingredient_header:
             return self.process_ingredients(
-                ingredient_header.parent.find_next_sibling("ul")
+                ingredient_header.parent.find_next_sibling(name="ul")
             )
 
         # Nothing found, we give up.
@@ -66,7 +66,7 @@ class KeukenLiefdeNL(AbstractScraper):
             # We are doing some assumptions here
             return self.normalize_instructions(
                 [instructions_heading.parent]
-                + instructions_heading.parent.find_next_siblings("p")
+                + instructions_heading.parent.find_next_siblings(name="p")
             )
 
         raise ElementNotFoundInHtml("Could not find instructions.")

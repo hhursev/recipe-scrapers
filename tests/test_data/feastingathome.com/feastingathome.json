@@ -27,6 +27,38 @@
     "1 teaspoon salt",
     "oil for searing"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 lb cherry or grape tomatoes",
+        "1 tablespoon olive oil",
+        "1 white or yellow onion, diced",
+        "2 tablespoons olive oil",
+        "4-6 cloves garlic, rough chopped",
+        "1 teaspoon dried thyme (or 1 tablespoon fresh)",
+        "1 1/2 cups arborio rice or Spanish short-grain rice",
+        "pinch saffron",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "1/4 teaspoon smoked paprika",
+        "6-8 cups veggie stock or chicken stock, warmed",
+        "1 tablespoon butter",
+        "1/4 cup grated parmesan"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "16 ounces large shrimp -raw, peeled, deveined (or sub a white fish)",
+        "1 tablespoon cumin",
+        "1 tablespoon smoked paprika",
+        "2 teaspoons granulated garlic",
+        "1 teaspoon salt",
+        "oil for searing"
+      ],
+      "purpose": "Seared Prawns (optional, see notes)"
+    }
+  ],
   "instructions_list": [
     "BLISTER TOMATOES",
     "In a large skillet, heat oil over medium-high heat. Add tomatoes (whole) and sear, stirring occasionally, until they burst and soften, about 7 minutes. Turn heat off. Chop if extra-large.",
@@ -62,6 +94,9 @@
     "fiberContent": "2.8 g",
     "cholesterolContent": "11.2 mg"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://www.feastingathome.com/wp-content/uploads/2020/07/Tomato-Risotto_-20-225x225.jpg",
   "keywords": [
     "tomato risotto",

@@ -20,6 +20,31 @@
     "1 red onion (cut into 1 ½-inch chunks)",
     "1 zucchini (sliced)"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "¼ cup olive oil",
+        "2 tablespoons red wine vinegar",
+        "3 tablespoons lemon juice",
+        "1 teaspoon Dijon mustard",
+        "3 garlic cloves (minced)",
+        "1 teaspoon dried oregano",
+        "½ teaspoon salt",
+        "¼ teaspoon black pepper"
+      ],
+      "purpose": "Marinade"
+    },
+    {
+      "ingredients": [
+        "1 ½ pounds boneless skinless chicken breasts (about 3 large chicken breasts, cut into 1 ½-inch pieces.)",
+        "1 red bell pepper (seeded, cut into 1 ½-Inch pieces)",
+        "1 yellow bell pepper (seeded, cut into 1 ½-inch pieces)",
+        "1 red onion (cut into 1 ½-inch chunks)",
+        "1 zucchini (sliced)"
+      ],
+      "purpose": "Chicken Kabobs"
+    }
+  ],
   "instructions_list": [
     "Make marinade",
     "Make the marinade. In a bowl, whisk together the olive oil, red wine vinegar, lemon juice, Dijon mustard, minced garlic, dried oregano, salt, and pepper.",

@@ -32,13 +32,13 @@ class AfghanKitchenRecipes(AbstractScraper):
         return get_yields(servings)
 
     def ingredients(self):
-        ingredient_elements = self.soup.findAll("li", {"class": "ingredient"})
+        ingredient_elements = self.soup.find_all("li", {"class": "ingredient"})
         return [
             element.get_text() for element in ingredient_elements if element.get_text()
         ]
 
     def instructions(self):
-        instruction_elements = self.soup.findAll("p", {"class": "instructions"})
+        instruction_elements = self.soup.find_all("p", {"class": "instructions"})
         return "\n".join(
             [
                 element.get_text().strip()
