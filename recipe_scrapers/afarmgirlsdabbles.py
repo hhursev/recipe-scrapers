@@ -16,7 +16,9 @@ class AFarmGirlsDabbles(AbstractScraper):
                 ".wprm-recipe-ingredient-name, "
                 ".wprm-recipe-ingredient-notes"
             )
-            text = " ".join(part.get_text(strip=True) for part in parts)
+            text = " ".join(
+                part.get_text(strip=True) for part in parts if part.get_text(strip=True)
+            )
             ingredients.append(text.strip())
         return ingredients
 
