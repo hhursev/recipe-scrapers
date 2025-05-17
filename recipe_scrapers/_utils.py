@@ -32,7 +32,7 @@ TIME_REGEX = re.compile(
     r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
+SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
     r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b | \bcookies\b | \b(large |small )?buns\b",
@@ -224,9 +224,9 @@ def get_yields(element):
         return best_match
 
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return f"{matched} item{'s' if int(matched) != 1 else ''}"
+        return f"{matched} item{'s' if float(matched) > 1 else ''}"
 
-    return f"{matched} serving{'s' if int(matched) != 1 else ''}"
+    return f"{matched} serving{'s' if float(matched) > 1 else ''}"
 
 
 def get_equipment(equipment_items):
