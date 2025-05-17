@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string, get_yields
+from ._grouping_utils import group_ingredients
 
 
 class PoppyCooks(AbstractScraper):
@@ -20,13 +21,21 @@ class PoppyCooks(AbstractScraper):
 
     def ingredients(self):
         ingredients_list = []
-        ingredients_section = self.soup.find("ul", class_="ingredients-list")
-        if ingredients_section:
-            ingredients = ingredients_section.find_all("li", class_="metric")
-            ingredients_list = [
+        ingredients_sections = self.soup.find_all("ul", class_="ingredients-list")
+        for section in ingredients_sections:
+            ingredients = section.find_all("li", class_="metric")
+            ingredients_list.extend(
                 normalize_string(ingredient.get_text()) for ingredient in ingredients
-            ]
+            )
         return ingredients_list
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredients-groups h4",
+            ".ingredients-list li.metric",
+        )
 
     def instructions(self):
         instructions_list = []
