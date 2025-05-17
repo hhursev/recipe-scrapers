@@ -34,6 +34,8 @@ class SchemaOrg:
             return item
         for graph in item.get("@graph", []):
             for node in graph if isinstance(graph, list) else [graph]:
+                if not isinstance(node, dict):
+                    continue
                 if self._contains_schematype(node, schematype):
                     return node
 
@@ -278,7 +280,10 @@ class SchemaOrg:
             and isinstance(instructions, list)
             and isinstance(instructions[0], list)
         ):
-            instructions = list(chain(*instructions))  # flatten
+            if instructions and all(isinstance(item, list) for item in instructions):
+                instructions = list(
+                    chain(*instructions)
+                )  # flatten, only if all items are list
 
         if isinstance(instructions, dict):
             instructions = instructions.get("itemListElement")

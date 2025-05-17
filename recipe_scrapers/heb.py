@@ -23,7 +23,7 @@ class HEB(AbstractScraper):
         ingredients_container = self.soup.find(
             "div", {"data-qe-id": "recipeIngredientsContainer"}
         )
-        ingredients = ingredients_container.findAll("li")
+        ingredients = ingredients_container.find_all("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
@@ -31,7 +31,7 @@ class HEB(AbstractScraper):
         instructions_container = self.soup.find(
             "div", {"data-qe-id": "recipeInstructionsContainer"}
         )
-        instructions = instructions_container.findAll("li")
+        instructions = instructions_container.find_all("li")
         return [
             normalize_string(instruction.get_text()) for instruction in instructions
         ]

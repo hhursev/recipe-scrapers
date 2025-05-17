@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 from ._utils import get_equipment
 
 
@@ -10,14 +9,6 @@ class SaltPepperSkillet(AbstractScraper):
 
     def author(self):
         return self.schema.author().title()
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient",
-        )
 
     def equipment(self):
         equipment_container = self.soup.find(

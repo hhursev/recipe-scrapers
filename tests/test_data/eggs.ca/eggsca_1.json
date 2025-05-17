@@ -23,5 +23,17 @@
   "total_time": 50,
   "cook_time": 15,
   "prep_time": 15,
+  "nutrients": {
+    "calories": "441",
+    "fatContent": "38 g",
+    "saturatedFatContent": "22 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "22 g",
+    "sugarContent": "19 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "43 mg",
+    "fiberContent": "0 g",
+    "cholesterolContent": "0 mg"
+  },
   "image": "https://eggs.ca/wp-content/uploads/2024/06/Creme-Brulee-1664x832-1.jpg"
 }

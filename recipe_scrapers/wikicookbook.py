@@ -19,11 +19,13 @@ class WikiCookbook(AbstractScraper):
         )
 
     def total_time(self):
-        return get_minutes(self.soup.find("th", string="Time").find_next_sibling("td"))
+        return get_minutes(
+            self.soup.find("th", string="Time").find_next_sibling(name="td")
+        )
 
     def yields(self):
         return get_yields(
-            self.soup.find("th", string="Servings").find_next_sibling("td")
+            self.soup.find("th", string="Servings").find_next_sibling(name="td")
         )
 
     def image(self):
@@ -36,14 +38,14 @@ class WikiCookbook(AbstractScraper):
         ingredients_section = self.soup.find("h2", {"id": "Ingredients"})
         if not ingredients_section:
             raise ElementNotFoundInHtml(element="//h2[@id='Ingredients']")
-        ingredients = ingredients_section.find_next("ul").findAll("li")
+        ingredients = ingredients_section.find_next(name="ul").findAll("li")
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         instructions_section = self.soup.find("h2", {"id": "Procedure"})
         if not instructions_section:
             raise ElementNotFoundInHtml(element="//h2[@id='Procedure']")
-        instructions = instructions_section.find_next("ol").findAll("li")
+        instructions = instructions_section.find_next(name="ol").findAll("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )

@@ -35,8 +35,8 @@ class JustBento(AbstractScraper):
         elements_after_title = (
             self.soup.find("div", {"class": "field-name-body"})
             .find("h3")
-            .find_next_sibling("ul")
-            .find_next_siblings()
+            .find_next_sibling(name="ul")
+            .find_next_siblings(name=True)
         )
 
         instructions = []

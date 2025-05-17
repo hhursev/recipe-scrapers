@@ -51,7 +51,7 @@ class Aldi(AbstractScraper):
 
     def ingredients(self):
         h2 = self.soup.find("h2", string=re.compile("Ingredients"))
-        list_element = h2.find_next_sibling("ul")
+        list_element = h2.find_next_sibling(name="ul")
         ingredients = []
         for li in list_element.find_all("li"):
             ingredients.append(li.text.strip())
@@ -62,12 +62,38 @@ class Aldi(AbstractScraper):
         return "\n".join(li.text.strip() for li in list_element.find_all("li"))
 
     def _get_value(self, label):
-        label_element = self.soup.find("b", string=label)
-        if label_element:
-            parts = [
-                sibling.strip()
-                for sibling in label_element.find_next_siblings(string=True)
-                if sibling.strip()
-            ]
-            return " ".join(parts)
-        return None
+        # Find the element containing the label
+        if hasattr(label, "search"):  # Is regex pattern
+            # Find all b tags first
+            all_b_tags = self.soup.find_all("b")
+            # Then filter manually for regex match
+            label_element = None
+            for b in all_b_tags:
+                if b.string and label.search(b.string):
+                    label_element = b
+                    break
+        else:
+            # Direct string match
+            label_element = self.soup.find("b", string=label)
+
+        if not label_element:
+            return None
+
+        # Extract value: Get parent of b tag and collect all text after the label
+        parent = label_element.parent
+        if not parent:
+            return None
+
+        # Get all content in the parent after the label_element
+        value_text = ""
+        capture = False
+        for content in parent.contents:
+            if content is label_element:
+                capture = True
+                continue
+            if capture and hasattr(content, "text"):
+                value_text += content.text
+            elif capture and isinstance(content, str):
+                value_text += content
+
+        return value_text.strip() if value_text.strip() else None

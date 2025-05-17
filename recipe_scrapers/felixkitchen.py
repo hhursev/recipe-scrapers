@@ -26,7 +26,7 @@ class FelixKitchen(AbstractScraper):
 
     def yields(self):
         heading_p = self.soup.find("p", {"class": "ti"})
-        container_p = heading_p.find_next_sibling("p")
+        container_p = heading_p.find_next_sibling(name="p")
         yields_strong = container_p.find("strong")
         return yields_strong.text
 

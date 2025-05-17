@@ -20,5 +20,5 @@ class BigOven(AbstractScraper):
         )
 
     def instructions(self):
-        ps = self.soup.find("div", {"class": "instructions"}).findAll("p")
+        ps = self.soup.find("div", {"class": "instructions"}).find_all("p")
         return "\n".join([normalize_string(p.text) for p in ps])

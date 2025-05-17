@@ -16,7 +16,7 @@ class BongEats(AbstractScraper):
             "div",
             class_="recipe-ingredients",
         )
-        ingredients = ingredients_div.findAll("li")
+        ingredients = ingredients_div.find_all("li")
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
@@ -24,7 +24,7 @@ class BongEats(AbstractScraper):
             "div",
             class_="recipe-process",
         )
-        instructions = instructions_div.findAll("li")
+        instructions = instructions_div.find_all("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )

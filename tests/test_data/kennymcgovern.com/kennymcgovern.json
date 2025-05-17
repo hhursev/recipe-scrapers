@@ -22,6 +22,48 @@
     "1 skinless, boneless chicken breast fillet (around 114g)",
     "vegetable oil (for deep frying)"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "8 tablespoons panko breadcrumbs",
+        "4 tablespoons plain flour",
+        "1/4 teaspoon garlic powder",
+        "1/4 teaspoon onion granules",
+        "1/4 teaspoon cayenne pepper",
+        "1/4 teaspoon dried Italian herbs",
+        "1/2 teaspoon sea salt",
+        "1/4 teaspoon black pepper"
+      ],
+      "purpose": "Breading Prep"
+    },
+    {
+      "ingredients": [
+        "4 tablespoons plain flour",
+        "1/4 teaspoon sea salt",
+        "Pinch black pepper"
+      ],
+      "purpose": "Flour dusting prep"
+    },
+    {
+      "ingredients": [
+        "1 egg",
+        "3 tablespoons milk"
+      ],
+      "purpose": "Egg prep"
+    },
+    {
+      "ingredients": [
+        "1 skinless, boneless chicken breast fillet (around 114g)"
+      ],
+      "purpose": "Chicken prep"
+    },
+    {
+      "ingredients": [
+        "vegetable oil (for deep frying)"
+      ],
+      "purpose": "Time to cook!"
+    }
+  ],
   "instructions_list": [
     "In a large bowl, add panko breadcrumbs, plain flour, garlic powder, onion granules, cayenne pepper, dried Italian herbs, sea salt & black pepper. Mix well.",
     "On a plate, mix plain flour, sea salt & black pepper. Mix well.",
