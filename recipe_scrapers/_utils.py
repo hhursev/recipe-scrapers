@@ -223,10 +223,11 @@ def get_yields(element):
     if best_match:
         return best_match
 
+    plural='s' if float(matched) > 1 or float(matched) == 0 else ''
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return f"{matched} item{'s' if float(matched) > 1 else ''}"
+        return f"{matched} item{plural}"
 
-    return f"{matched} serving{'s' if float(matched) > 1 else ''}"
+    return f"{matched} serving{plural}"
 
 
 def get_equipment(equipment_items):
