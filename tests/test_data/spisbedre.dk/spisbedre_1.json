@@ -22,28 +22,6 @@
     "1 rulle butterdej",
     "1 æg til pensling"
   ],
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "2 stilke bladselleri",
-        "2 gulerødder",
-        "1 porre",
-        "2 fed hvidløg",
-        "2 spsk. olivenolie til stegning",
-        "salt og peber",
-        "50 g smør",
-        "50 g hvedemel",
-        "2 dl hønsebouillon",
-        "2 dl piskefløde",
-        "300 g kogt kyllingebrystfilet",
-        "200 g ærter fra frost",
-        "1 spsk. frisk timian",
-        "1 rulle butterdej",
-        "1 æg til pensling"
-      ],
-      "purpose": null
-    }
-  ],
   "instructions_list": [
     "Rens bladselleri, og skær dem i tynde skiver. Skrub eller skræl gulerødderne, og skær dem i tern. Rens porre, og pil hvidløg. Hak begge dele fint.",
     "Steg alle grøntsagerne i olie i en stor, dyb pande. De skal ikke tage farve, men falde let sammen. Krydr dem med salt og peber. Tag grøntsagerne af panden, og læg dem til side på en stor tallerken.",
@@ -56,5 +34,13 @@
   "yields": "4 servings",
   "description": "Brug dine grøntsags- og kyllingerester i en lun tærte til middagsbordet. Det sprøde butterdejslåg er prikken over i'et.",
   "total_time": 40,
+  "cook_time": 20,
+  "prep_time": 40,
+  "nutrients": {
+    "calories": "787 kcal",
+    "fatContent": "53 g",
+    "carbohydrateContent": "43 g",
+    "proteinContent": "33 g"
+  },
   "image": "https://spisbedre-production-app.imgix.net/images/recipes/kyllingetaerte-med-butterdejslag_15964.jpg?fit=crop&crop=focalpoint&fp-x=0.44097082638046&fp-y=0.66429758726712&fp-z=1.25"
 }
