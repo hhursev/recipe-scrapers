@@ -73,7 +73,7 @@ RECIPE_YIELD_TYPES = (
 
 def format_diet_name(diet_input):
     replacements = {
-        # https://schema.org/RestrictedDiet
+        # schema.org/RestrictedDiet
         "DiabeticDiet": "Diabetic Diet",
         "GlutenFreeDiet": "Gluten Free Diet",
         "HalalDiet": "Halal Diet",
@@ -86,8 +86,12 @@ def format_diet_name(diet_input):
         "VeganDiet": "Vegan Diet",
         "VegetarianDiet": "Vegetarian Diet",
     }
-    if "https://schema.org/" in diet_input:
-        diet_input = diet_input.replace("https://schema.org/", "")
+    if "schema.org/" in diet_input:
+        diet_input = diet_input.split("schema.org/")[-1]
+
+    # Exclude results that are just "schema.org/"
+    if diet_input.strip() == "":
+        return None
 
     for key, value in replacements.items():
         if key in diet_input:
