@@ -246,6 +246,7 @@ from .kalejunkie import KaleJunkie
 from .kellyscleankitchen import KellysCleanKitchen
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
+from .kikkoman import Kikkoman
 from .kingarthur import KingArthur
 from .kitchenaidaustralia import KitchenAidAustralia
 from .kitchendivas import KitchenDivas
@@ -655,6 +656,7 @@ SCRAPERS = {
     JustineSnacks.host(): JustineSnacks,
     KaleJunkie.host(): KaleJunkie,
     KellysCleanKitchen.host(): KellysCleanKitchen,
+    Kikkoman.host(): Kikkoman,
     KitchenAidAustralia.host(): KitchenAidAustralia,
     KitchenDivas.host(): KitchenDivas,
     KitchenDreaming.host(): KitchenDreaming,
