@@ -94,6 +94,10 @@
   "cook_time": 180,
   "prep_time": 30,
   "cuisine": "Mexican",
+  "equipment": [
+    "Al Pastor Skewer for Grill",
+    "Charcoal or gas grill"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "247 kcal",

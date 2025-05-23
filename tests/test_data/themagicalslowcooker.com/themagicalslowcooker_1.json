@@ -28,6 +28,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Slow Cooker – 3 quart or larger"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "275 kcal",

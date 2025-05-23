@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_yields
+from ._utils import get_yields, get_equipment
 
 
 class MadameCuisine(AbstractScraper):
@@ -58,3 +58,11 @@ class MadameCuisine(AbstractScraper):
 
     def description(self):
         return self.soup.find("div", {"class": "wprm-recipe-summary"}).get_text()
+
+    def equipment(self):
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)

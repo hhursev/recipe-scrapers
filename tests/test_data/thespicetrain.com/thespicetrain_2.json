@@ -62,6 +62,16 @@
   "total_time": 20,
   "cook_time": 20,
   "cuisine": "Mexican",
+  "equipment": [
+    "measuring spoons",
+    "kitchen scale",
+    "knife and cutting board",
+    "cast iron skillet or non-stick pan",
+    "wooden spoon or spatula",
+    "paper towels",
+    "kitchen tongs",
+    "cheese grater"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "616 kcal",

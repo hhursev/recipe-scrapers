@@ -31,6 +31,12 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 20,
+  "equipment": [
+    "Slow Cooker",
+    "Silicone Spatula",
+    "Slow Cooker Liners",
+    "Measuring Spoons"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "306 kcal",

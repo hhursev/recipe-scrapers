@@ -8,13 +8,9 @@ class HungryHappens(AbstractScraper):
         return "hungryhappens.net"
 
     def equipment(self):
-        equipment_container = self.soup.select_one(".wprm-recipe-equipment-container")
-        if not equipment_container:
-            return None
-
         equipment_items = [
-            item.select_one(".wprm-recipe-equipment-name").get_text(strip=True)
-            for item in equipment_container.select(".wprm-recipe-equipment-item")
-            if item.select_one(".wprm-recipe-equipment-name")
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
         ]
         return get_equipment(equipment_items)

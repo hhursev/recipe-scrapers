@@ -9,9 +9,8 @@ class BowlOfDelicious(AbstractScraper):
 
     def equipment(self):
         equipment_items = [
-            link.get_text()
-            for link in self.soup.select(
-                "div.wprm-recipe-equipment-name a.wprm-recipe-equipment-link"
-            )
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
         ]
         return get_equipment(equipment_items)

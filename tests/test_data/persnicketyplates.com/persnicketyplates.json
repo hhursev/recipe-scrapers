@@ -32,6 +32,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 2,
+  "equipment": [
+    "Slow Cooker"
+  ],
   "nutrients": {
     "servingSize": "1 g",
     "calories": "638 kcal",

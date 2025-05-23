@@ -46,6 +46,9 @@
   "cuisine": "American",
   "ratings": 4.94,
   "ratings_count": 16,
+  "equipment": [
+    "Handheld milk frother"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "200 kcal",

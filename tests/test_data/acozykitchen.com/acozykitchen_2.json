@@ -109,6 +109,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 13,
+  "equipment": [
+    "1 (8×8-inch or 9×9-inch) square baking pan"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "350 kcal",

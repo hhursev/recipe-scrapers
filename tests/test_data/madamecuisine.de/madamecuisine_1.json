@@ -84,6 +84,11 @@
   "cuisine": "Amerikanisch, Deutsch",
   "ratings": 5.0,
   "ratings_count": 4,
+  "equipment": [
+    "1 Schneidebrett + Messer",
+    "1 großer Topf mit Deckel",
+    "1 Sieb"
+  ],
   "nutrients": {
     "servingSize": "1 Portion",
     "calories": "540 kcal"

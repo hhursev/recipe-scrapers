@@ -34,6 +34,12 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 25,
+  "equipment": [
+    "1 slow cooker at least 6 quarts",
+    "1 Food processor",
+    "1 Measuring cup",
+    "1 Measuring spoons"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "574 kcal"

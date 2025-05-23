@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_equipment, normalize_string
+from ._utils import get_equipment
 
 
 class OneSweetAppetite(AbstractScraper):
@@ -9,7 +9,8 @@ class OneSweetAppetite(AbstractScraper):
 
     def equipment(self):
         equipment_items = [
-            normalize_string(e.get_text())
-            for e in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
         ]
         return get_equipment(equipment_items)

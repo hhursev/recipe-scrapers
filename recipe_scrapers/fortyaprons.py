@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class FortyAprons(AbstractScraper):
@@ -53,12 +54,12 @@ class FortyAprons(AbstractScraper):
         return self.schema.ratings_count()
 
     def equipment(self):
-        equipment_elements = self.soup.select(".wprm-recipe-equipment-name")
-        return (
-            [element.get_text() for element in equipment_elements]
-            if equipment_elements
-            else None
-        )
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)
 
     def keywords(self):
         return self.schema.keywords()

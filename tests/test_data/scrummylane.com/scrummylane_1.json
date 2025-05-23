@@ -36,6 +36,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 6,
+  "equipment": [
+    "Jumbo sautée pan"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "92 kcal",

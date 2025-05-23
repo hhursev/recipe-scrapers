@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._utils import get_equipment
 
 
 class ForkToSpoon(AbstractScraper):
@@ -7,10 +8,9 @@ class ForkToSpoon(AbstractScraper):
         return "forktospoon.com"
 
     def equipment(self):
-        seen = set()
-        return [
-            equip.get_text()
+        equipment_items = [
+            text
             for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if equip.get_text()
-            and (equip.get_text() not in seen and not seen.add(equip.get_text()))
+            if (text := equip.get_text())
         ]
+        return get_equipment(equipment_items)
