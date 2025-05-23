@@ -37,7 +37,7 @@ either standard `HTML <https://developer.mozilla.org/en-US/docs/Web/HTML>`_ stru
 `OpenGraph <https://ogp.me/>`_ metadata.
 
 The package provides a simple and consistent API for retrieving data such as ingredients, instructions,
-cooking times, and more.
+cooking times, and `more <https://docs.recipe-scrapers.com/contributing/in-depth-guide-scraper-functions/>`_.
 
 Compatible with the Python versions listed above. This package does not circumvent or bypass any
 bot protection measures implemented by websites.
