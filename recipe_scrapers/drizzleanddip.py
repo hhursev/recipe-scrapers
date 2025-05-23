@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
@@ -27,14 +26,6 @@ class DrizzleAndDip(AbstractScraper):
             ingredients_list.append(normalize_string(ingredient))
 
         return ingredients_list
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient-group li",
-        )
 
     def instructions(self):
         instructions = self.soup.find_all(

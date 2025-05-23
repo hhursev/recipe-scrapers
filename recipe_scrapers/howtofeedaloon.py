@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 
 
 class HowToFeedALoon(AbstractScraper):
@@ -26,11 +25,3 @@ class HowToFeedALoon(AbstractScraper):
             ingredients_list.append(ingredient)
 
         return ingredients_list
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient-group li",
-        )
