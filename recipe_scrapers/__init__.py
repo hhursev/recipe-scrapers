@@ -40,7 +40,9 @@ from .aberlehome import AberleHome
 from .abril import Abril
 from .abuelascounter import AbuelasCounter
 from .acouplecooks import ACoupleCooks
+from .acozykitchen import ACozyKitchen
 from .addapinch import AddAPinch
+from .afarmgirlsdabbles import AFarmGirlsDabbles
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .aflavorjournal import AFlavorJournal
 from .ahealthysliceoflife import AHealthySliceOfLife
@@ -144,6 +146,7 @@ from .domesticateme import DomesticateMe
 from .donalskehan import DonalSkehan
 from .downshiftology import Downshiftology
 from .dr import Dr
+from .drizzleanddip import DrizzleAndDip
 from .eatingbirdfood import EatingBirdFood
 from .eatingwell import EatingWell
 from .eatliverun import EatLiveRun
@@ -209,10 +212,12 @@ from .heatherchristo import HeatherChristo
 from .heb import HEB
 from .hellofresh import HelloFresh
 from .hersheyland import HersheyLand
+from .hilahcooking import HilahCooking
 from .hofer import Hofer
 from .homeandplate import HomeAndPlate
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
+from .howtofeedaloon import HowToFeedALoon
 from .hungryhappens import HungryHappens
 from .ica import Ica
 from .ig import IG
@@ -243,6 +248,8 @@ from .kalejunkie import KaleJunkie
 from .kellyscleankitchen import KellysCleanKitchen
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
+from .kiddokitchen import KiddoKitchen
+from .kikkoman import Kikkoman
 from .kingarthur import KingArthur
 from .kitchenaidaustralia import KitchenAidAustralia
 from .kitchendivas import KitchenDivas
@@ -263,6 +270,7 @@ from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
+from .leckerschmecker import LeckerSchmecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
@@ -307,6 +315,7 @@ from .mykoreankitchen import MyKoreanKitchen
 from .myrecipes import MyRecipes
 from .myvegetarianroots import MyVegetarianRoots
 from .natashaskitchen import NatashasKitchen
+from .naturallyella import NaturallyElla
 from .ndr import Ndr
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
@@ -344,6 +353,7 @@ from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
 from .plowingthroughlife import PlowingThroughLife
+from .poppycooks import PoppyCooks
 from .popsugar import PopSugar
 from .potatorolls import PotatoRolls
 from .practicalselfreliance import PracticalSelfReliance
@@ -354,6 +364,7 @@ from .projectgezond import ProjectGezond
 from .przepisy import Przepisy
 from .purelypope import PurelyPope
 from .purplecarrot import PurpleCarrot
+from .quakeroats import QuakerOats
 from .quitoque import QuiToque
 from .rachlmansfield import RachlMansfield
 from .rainbowplantlife import RainbowPlantLife
@@ -443,6 +454,7 @@ from .theloopywhisk import TheLoopyWhisk
 from .themagicalslowcooker import TheMagicalSlowCooker
 from .themediterranedish import TheMediterraneDish
 from .themodernproper import TheModernProper
+from .theoldwomanandthesea import TheOldWomanAndTheSea
 from .thepalatablelife import ThePalatableLife
 from .thepioneerwoman import ThePioneerWoman
 from .theplantbasedschool import ThePlantBasedSchool
@@ -453,6 +465,7 @@ from .thespruceeats import TheSpruceEats
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
 from .thinlicious import Thinlicious
+from .thishealthytable import ThisHealthyTable
 from .tidymom import TidyMom
 from .timesofindia import TimesOfIndia
 from .tineno import TineNo
@@ -496,6 +509,12 @@ from .zestfulkitchen import ZestfulKitchen
 
 SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
+    ACoupleCooks.host(): ACoupleCooks,
+    AFarmGirlsDabbles.host(): AFarmGirlsDabbles,
+    ACozyKitchen.host(): ACozyKitchen,
+    AFlavorJournal.host(): AFlavorJournal,
+    AHealthySliceOfLife.host(): AHealthySliceOfLife,
+    ALittleBitYummy.host(): ALittleBitYummy,
     AberleHome.host(): AberleHome,
     Abril.host(): Abril,
     AbuelasCounter.host(): AbuelasCounter,
@@ -611,6 +630,130 @@ SCRAPERS = {
     DinnerThenDessert.host(): DinnerThenDessert,
     Dishnz.host(): Dishnz,
     DobruChutAktualitySK.host(): DobruChutAktualitySK,
+    DonalSkehan.host(): DonalSkehan,
+    DrizzleAndDip.host(): DrizzleAndDip,
+    EatLiveRun.host(): EatLiveRun,
+    EatThisMuch.host(): EatThisMuch,
+    EditionsLarousse.host(): EditionsLarousse,
+    EggsCa.host(): EggsCa,
+    ElaVegan.host(): ElaVegan,
+    ErinLivesWhole.host(): ErinLivesWhole,
+    EvolvingTable.host(): EvolvingTable,
+    FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
+    FeastingAtHome.host(): FeastingAtHome,
+    FifteenGram.host(): FifteenGram,
+    FitSlowCookerQueen.host(): FitSlowCookerQueen,
+    FortyAprons.host(): FortyAprons,
+    GlutenFreeOnAShoeString.host(): GlutenFreeOnAShoeString,
+    GourmetTraveller.host(): GourmetTraveller,
+    GrandFrais.host(): GrandFrais,
+    HealthyWithAChanceOfSprinkles.host(): HealthyWithAChanceOfSprinkles,
+    HeatherChristo.host(): HeatherChristo,
+    HilahCooking.host(): HilahCooking,
+    HomeAndPlate.host(): HomeAndPlate,
+    HowToFeedALoon.host(): HowToFeedALoon,
+    HungryHappens.host(): HungryHappens,
+    InBloomBakery.host(): InBloomBakery,
+    InGoodFlavor.host(): InGoodFlavor,
+    InspiredTaste.host(): InspiredTaste,
+    IrishCentral.host(): IrishCentral,
+    JoCooks.host(): JoCooks,
+    JoshuaWeissman.host(): JoshuaWeissman,
+    JoyTheBaker.host(): JoyTheBaker,
+    Jumbo.host(): Jumbo,
+    JustALittleBitOfBacon.host(): JustALittleBitOfBacon,
+    JustineSnacks.host(): JustineSnacks,
+    KaleJunkie.host(): KaleJunkie,
+    KellysCleanKitchen.host(): KellysCleanKitchen,
+    KiddoKitchen.host(): KiddoKitchen,
+    Kikkoman.host(): Kikkoman,
+    KitchenAidAustralia.host(): KitchenAidAustralia,
+    KitchenDivas.host(): KitchenDivas,
+    KitchenDreaming.host(): KitchenDreaming,
+    KookJij.host(): KookJij,
+    KristinesKitchenBlog.host(): KristinesKitchenBlog,
+    KrollsKorner.host(): KrollsKorner,
+    KuchynaLidla.host(): KuchynaLidla,
+    LaCucinaItaliana.host(): LaCucinaItaliana,
+    LaCucinaItaliana.host(domain="com"): LaCucinaItaliana,
+    LanasCooking.host(): LanasCooking,
+    LeckerSchmecker.host(): LeckerSchmecker,
+    LittleSunnyKitchen.host(): LittleSunnyKitchen,
+    LeitesCulinaria.host(): LeitesCulinaria,
+    LoveAndLemons.host(): LoveAndLemons,
+    MadameCuisine.host(): MadameCuisine,
+    MakeItDairyFree.host(): MakeItDairyFree,
+    McCormick.host(): McCormick,
+    MealPrepManual.host(): MealPrepManual,
+    MeganVsKitchen.host(): MeganVsKitchen,
+    Miljuschka.host(): Miljuschka,
+    ModernHoney.host(): ModernHoney,
+    MomOnTimeout.host(): MomOnTimeout,
+    Moulinex.host(): Moulinex,
+    MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
+    MyJewishLearning.host(): MyJewishLearning,
+    MyKoreanKitchen.host(): MyKoreanKitchen,
+    MyVegetarianRoots.host(): MyVegetarianRoots,
+    NatashasKitchen.host(): NatashasKitchen,
+    NaturallyElla.host(): NaturallyElla,
+    Ndr.host(): Ndr,
+    NoraCooks.host(): NoraCooks,
+    NotEnoughCinnamon.host(): NotEnoughCinnamon,
+    NutritionFacts.host(): NutritionFacts,
+    OkokoRecepten.host(): OkokoRecepten,
+    OneSweetAppetite.host(): OneSweetAppetite,
+    OrganicallyAddison.host(): OrganicallyAddison,
+    OttolenghiBooks.host(): OttolenghiBooks,
+    PanlasangPinoy.host(): PanlasangPinoy,
+    PeelWithZeal.host(): PeelWithZeal,
+    PilipinasRecipes.host(): PilipinasRecipes,
+    PinchOfYum.host(): PinchOfYum,
+    PoppyCooks.host(): PoppyCooks,
+    PotatoRolls.host(): PotatoRolls,
+    QuakerOats.host(): QuakerOats,
+    PreppyKitchen.host(): PreppyKitchen,
+    QuiToque.host(): QuiToque,
+    RealFoodWell.host(): RealFoodWell,
+    Recept.host(): Recept,
+    ReceptyPreVas.host(): ReceptyPreVas,
+    RecettePlus.host(): RecettePlus,
+    RecipeGirl.host(): RecipeGirl,
+    Rewe.host(): Rewe,
+    RecipeLand.host(): RecipeLand,
+    RicettePerBimby.host(): RicettePerBimby,
+    SamsungFood.host(): SamsungFood,
+    SandwhichTribunal.host(): SandwhichTribunal,
+    SavoryNothings.host(): SavoryNothings,
+    ScrummyLane.host(): ScrummyLane,
+    SheLikesFood.host(): SheLikesFood,
+    SimpleGreenSmoothies.host(): SimpleGreenSmoothies,
+    SizzleFish.host(): SizzleFish,
+    SpainOnAFork.host(): SpainOnAFork,
+    SpisBedre.host(): SpisBedre,
+    StacyLing.host(): StacyLing,
+    StrongrFastr.host(): StrongrFastr,
+    SudachiRecipes.host(): SudachiRecipes,
+    SugarHero.host(): SugarHero,
+    SwissMilk.host(): SwissMilk,
+    TableAndDish.host(): TableAndDish,
+    TasteAtlas.host(): TasteAtlas,
+    TatyanasEverydayFood.host(): TatyanasEverydayFood,
+    TastingHistory.host(): TastingHistory,
+    TastyOven.host(): TastyOven,
+    TheBigMansWorld.host(): TheBigMansWorld,
+    TheCookieRookie.host(): TheCookieRookie,
+    TheCookingGuy.host(): TheCookingGuy,
+    TheFirstMess.host(): TheFirstMess,
+    TheFoodieTakesFlight.host(): TheFoodieTakesFlight,
+    TheGlutenFreeAustrian.host(): TheGlutenFreeAustrian,
+    TheLoopyWhisk.host(): TheLoopyWhisk,
+    TheMediterraneDish.host(): TheMediterraneDish,
+    TheOldWomanAndTheSea.host(): TheOldWomanAndTheSea,
+    ThePalatableLife.host(): ThePalatableLife,
+    ThePlantBasedSchool.host(): ThePlantBasedSchool,
+    TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
+    TheSpiceTrain.host(): TheSpiceTrain,
+    Thinlicious.host(): Thinlicious,
     DomesticateMe.host(): DomesticateMe,
     DonalSkehan.host(): DonalSkehan,
     Downshiftology.host(): Downshiftology,
@@ -944,6 +1087,7 @@ SCRAPERS = {
     TheSpruceEats.host(): TheSpruceEats,
     TheVintageMixer.host(): TheVintageMixer,
     Thewoksoflife.host(): Thewoksoflife,
+    ThisHealthyTable.host(): ThisHealthyTable,
     Thinlicious.host(): Thinlicious,
     TidyMom.host(): TidyMom,
     TimesOfIndia.host(): TimesOfIndia,

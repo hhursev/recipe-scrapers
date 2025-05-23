@@ -5,3 +5,16 @@ class TastyOven(AbstractScraper):
     @classmethod
     def host(cls):
         return "tastyoven.com"
+
+    def equipment(self):
+        equipment_container = self.soup.find(
+            "div", class_="wprm-recipe-equipment-container"
+        )
+        if equipment_container:
+            return [
+                item.get_text(strip=True)
+                for item in equipment_container.find_all(
+                    "div", class_="wprm-recipe-equipment-name"
+                )
+            ]
+        return None
