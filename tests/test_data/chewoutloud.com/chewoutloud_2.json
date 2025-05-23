@@ -54,6 +54,10 @@
   "cuisine": "American",
   "ratings": 4.75,
   "ratings_count": 316,
+  "equipment": [
+    "Splatter Screen for Frying Pan",
+    "Large Oven Proof Pan"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "241 kcal",
