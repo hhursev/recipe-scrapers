@@ -1,0 +1,59 @@
+{
+  "author": "Neta",
+  "canonical_url": "https://netacooks.com/chocolate-vanilla-swirl-muffins/",
+  "site_name": "Neta Cooks",
+  "host": "netacooks.com",
+  "language": "en-US",
+  "title": "Chocolate Vanilla Swirl Muffins",
+  "ingredients": [
+    "2 cups flour",
+    "2 tsp baking powder",
+    "½ tsp salt",
+    "2 large eggs",
+    "1 cup sugar",
+    "125 gr cream cheese",
+    "200 gr greek yogurt",
+    "⅓ cup vegetable oil I used canola",
+    "1 tsp vanilla extract",
+    "100 gr dark chocolate"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups flour",
+        "2 tsp baking powder",
+        "½ tsp salt",
+        "2 large eggs",
+        "1 cup sugar",
+        "125 gr cream cheese",
+        "200 gr greek yogurt",
+        "⅓ cup vegetable oil I used canola",
+        "1 tsp vanilla extract"
+      ],
+      "purpose": "Muffins dough"
+    },
+    {
+      "ingredients": [
+        "100 gr dark chocolate"
+      ],
+      "purpose": "For the swirl"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 375 °F/195°C. Line muffin pan with muffin liners.",
+    "Melt the chocolate chips in the microwave in 30 sec intervals, mixing in between until fully melted. Set aside to cool down.",
+    "To make the muffins",
+    "Mix flour, baking powder, and salt in a large bowl.",
+    "In a separate bowl whisk together sugar and eggs. Add the cream cheese, yogurt, oil, and vanilla, keep whisking until the mixture is pale and fluffy.",
+    "Fold the wet ingredients into the dry ones, mix well.",
+    "Pour the melted chocolate on top of muffin dough. With a wooden spoon swirl melted chocolate into batter.",
+    "Spoon batter into prepared muffin tins, filling about ⅔ of each cup.",
+    "Place them in the oven and bake for 18-20 minutes or until the toothpick inserted in the center comes out clean.",
+    "Cool for 5 minutes in the pan then remove muffins and cool on a wire rack."
+  ],
+  "yields": "16 servings",
+  "total_time": 30,
+  "cook_time": 20,
+  "prep_time": 10,
+  "image": "https://i1.wp.com/netacooks.com/wp-content/uploads/2017/06/IMG_0107.jpg?fit=800%2C1200&ssl=1"
+}

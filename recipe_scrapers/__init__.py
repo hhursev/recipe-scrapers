@@ -317,6 +317,7 @@ from .myvegetarianroots import MyVegetarianRoots
 from .natashaskitchen import NatashasKitchen
 from .naturallyella import NaturallyElla
 from .ndr import Ndr
+from .netacooks import NetaCooks
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
@@ -694,6 +695,7 @@ SCRAPERS = {
     NatashasKitchen.host(): NatashasKitchen,
     NaturallyElla.host(): NaturallyElla,
     Ndr.host(): Ndr,
+    NetaCooks.host(): NetaCooks,
     NoraCooks.host(): NoraCooks,
     NotEnoughCinnamon.host(): NotEnoughCinnamon,
     NutritionFacts.host(): NutritionFacts,
