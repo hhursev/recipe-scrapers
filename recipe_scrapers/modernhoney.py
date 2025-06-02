@@ -9,7 +9,8 @@ class ModernHoney(AbstractScraper):
 
     def equipment(self):
         equipment_items = [
-            item.get_text()
-            for item in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
         ]
         return get_equipment(equipment_items)

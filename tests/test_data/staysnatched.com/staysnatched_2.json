@@ -73,6 +73,10 @@
   "cuisine": "American",
   "ratings": 4.89,
   "ratings_count": 60,
+  "equipment": [
+    "Slow Cooker",
+    "Meat Chopper"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "346 kcal",

@@ -123,6 +123,9 @@
   "cuisine": "Greek",
   "ratings": 5.0,
   "ratings_count": 17,
+  "equipment": [
+    "Cuisinart 8 cup food processor"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "589 kcal",
