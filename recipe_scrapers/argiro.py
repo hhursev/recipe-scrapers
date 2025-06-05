@@ -84,9 +84,8 @@ class Argiro(AbstractScraper):
             containers_by_section = container.select(".ingredients__container")
 
             for title, section in zip(sections, containers_by_section):
-                purpose = title.get_text(strip=True)
-                if not purpose:
-                    continue
+                raw_purpose = title.get_text(strip=True)
+                purpose = raw_purpose if raw_purpose else None
 
                 group_ingredients = []
                 items = section.select(".ingredients__item label.ingredient-label")
@@ -103,6 +102,26 @@ class Argiro(AbstractScraper):
                 groups.append(
                     IngredientGroup(ingredients=group_ingredients, purpose=purpose)
                 )
+
+            # Fallback: handle case with no group titles
+            if not sections and containers_by_section:
+                for section in containers_by_section:
+                    group_ingredients = []
+                    items = section.select(".ingredients__item label.ingredient-label")
+                    for label in items:
+                        quantity = label.select_one(".ingredients__quantity")
+                        name = label.select_one("p")
+                        text = ""
+                        if quantity:
+                            text += quantity.get_text(strip=True) + " "
+                        if name:
+                            text += name.get_text(strip=True)
+                        group_ingredients.append(text.strip())
+
+                    if group_ingredients:
+                        groups.append(
+                            IngredientGroup(ingredients=group_ingredients, purpose=None)
+                        )
 
         return groups
 
