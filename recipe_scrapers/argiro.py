@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 from ._utils import get_yields
 import re
+from ._grouping_utils import IngredientGroup
 
 
 class Argiro(AbstractScraper):
@@ -73,6 +74,37 @@ class Argiro(AbstractScraper):
                         text += name.get_text(strip=True)
                     results.append(text.strip())
         return results
+
+    def ingredient_groups(self):
+        groups = []
+        containers = self.soup.select("div.single_recipe__left_column div.ingredients")
+
+        for container in containers:
+            sections = container.select(".ingredients__title")
+            containers_by_section = container.select(".ingredients__container")
+
+            for title, section in zip(sections, containers_by_section):
+                purpose = title.get_text(strip=True)
+                if not purpose:
+                    continue
+
+                group_ingredients = []
+                items = section.select(".ingredients__item label.ingredient-label")
+                for label in items:
+                    quantity = label.select_one(".ingredients__quantity")
+                    name = label.select_one("p")
+                    text = ""
+                    if quantity:
+                        text += quantity.get_text(strip=True) + " "
+                    if name:
+                        text += name.get_text(strip=True)
+                    group_ingredients.append(text.strip())
+
+                groups.append(
+                    IngredientGroup(ingredients=group_ingredients, purpose=purpose)
+                )
+
+        return groups
 
     def instructions(self):
         steps = self.soup.select(".single_recipe__method_steps ol li")
