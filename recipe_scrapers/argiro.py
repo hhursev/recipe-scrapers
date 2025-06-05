@@ -1,33 +1,79 @@
 from ._abstract import AbstractScraper
-from ._schemaorg import SchemaOrg
-from ._utils import get_equipment, normalize_string
+from ._utils import get_yields
+import re
 
 
 class Argiro(AbstractScraper):
-
-    class _CustomSchemaOrg(SchemaOrg):
-        """Overrides the default schema.org metadata parser"""
-
-        @staticmethod
-        def _contains_schematype(item, schematype):
-            if not isinstance(item, (dict, list, str)):
-                return False
-            return SchemaOrg._contains_schematype(item, schematype)
-
-        def _extract_howto_instructions_text(self, schema_item):
-            if schema_item.get("@type") != "HowToStep":
-                return
-            return schema_item.get("text").split("\n")
-
-    _schema_cls = _CustomSchemaOrg
-
     @classmethod
     def host(cls):
         return "argiro.gr"
 
-    def equipment(self):
-        equipment_items = [
-            normalize_string(e.get_text())
-            for e in self.soup.find_all("div", class_="equipment-title")
+    def author(self):
+        return "Αργυρώ Μπαρμπαρίγου"
+
+    def title(self):
+        return self.soup.select_one("h1.single_recipe__title").get_text(strip=True)
+
+    def description(self):
+        meta_description = self.soup.select_one('meta[name="description"]')
+        return meta_description.get("content", "")
+
+    def category(self):
+        return [
+            a.get_text(strip=True)
+            for a in self.soup.select(".article__tags ul li.tag_item a")
         ]
-        return get_equipment(equipment_items)
+
+    def _parse_time(self, selector):
+        element = self.soup.select_one(selector)
+        if not element:
+            return 0
+        text = element.get_text(strip=True)
+        hours = int(re.search(r"(\d+)\s*ώρα", text).group(1)) if "ώρα" in text else 0
+        minutes = (
+            int(re.search(r"(\d+)\s*λεπτά", text).group(1)) if "λεπτά" in text else 0
+        )
+        return hours * 60 + minutes
+
+    def prep_time(self):
+        return self._parse_time(".item.preparation_time h2.item__title")
+
+    def cook_time(self):
+        return self._parse_time(".item.cooking_time h2.item__title")
+
+    def total_time(self):
+        prep_time = self.prep_time()
+        cook_time = self.cook_time()
+        if prep_time == 0 or cook_time == 0:
+            return None
+        return prep_time + cook_time
+
+    def equipment(self):
+        equipment_items = self.soup.select(".equipment__item h2.equipment__item__name")
+        return [item.get_text(strip=True) for item in equipment_items]
+
+    def yields(self):
+        yields = self.soup.select_one(".item.portions h2.item__title")
+        return get_yields(yields.get_text(strip=True))
+
+    def ingredients(self):
+        results = []
+        containers = self.soup.select("div.single_recipe__left_column div.ingredients")
+
+        for container in containers:
+            for section in container.select(".ingredients__container"):
+                items = section.select(".ingredients__item label.ingredient-label")
+                for label in items:
+                    quantity = label.select_one(".ingredients__quantity")
+                    name = label.select_one("p")
+                    text = ""
+                    if quantity:
+                        text += quantity.get_text(strip=True) + " "
+                    if name:
+                        text += name.get_text(strip=True)
+                    results.append(text.strip())
+        return results
+
+    def instructions(self):
+        steps = self.soup.select(".single_recipe__method_steps ol li")
+        return "\n".join(step.get_text(" ", strip=True) for step in steps)
