@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
+from ._grouping_utils import group_ingredients, IngredientGroup
 
 
 class InGoodFlavor(AbstractScraper):
@@ -17,9 +17,10 @@ class InGoodFlavor(AbstractScraper):
         return schema_author
 
     def ingredient_groups(self):
-        return group_ingredients(
+        groups = group_ingredients(
             self.ingredients(),
             self.soup,
-            "h4",
+            "div.dr-ingredients-list h4",
             ".dr-ingredient-name",
         )
+        return groups if len(groups) > 1 else [IngredientGroup(self.ingredients())]
