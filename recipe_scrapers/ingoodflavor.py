@@ -17,15 +17,9 @@ class InGoodFlavor(AbstractScraper):
         return schema_author
 
     def ingredient_groups(self):
-        groups = group_ingredients(
+        return group_ingredients(
             self.ingredients(),
             self.soup,
-            ".dr-title",
+            "h4",
             ".dr-ingredient-name",
         )
-
-        for group in groups:
-            if group.purpose and group.purpose.strip().lower() == "ingredients":
-                group.purpose = None
-
-        return groups
