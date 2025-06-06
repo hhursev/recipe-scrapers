@@ -16,16 +16,12 @@
 <!-- End of global snippet: Please do not remove -->
 
 <!-- Google Tag Manager -->
-<script type="text/plain" class="trustecm" data-trackertype="advertising">(function (w, d, s, l, i) {
-	    w[l] = w[l] || []; w[l].push({
-	        'gtm.start':
-	        new Date().getTime(), event: 'gtm.js'
-	    }); var f = d.getElementsByTagName(s)[0],
-	    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-	    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-	})(window, document, 'script', 'dataLayer', 'GTM-P8LK38');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P8LK38');</script>
 <!-- End Google Tag Manager -->
-
 			<!-- TITLE -->
 						<title>Steel Cut Oats Summer Grain Salad Recipe | Quaker Oats</title>
 
@@ -51,19 +47,19 @@
 			<meta property="og:title" content="Steel Cut Oats Summer Grain Salad Recipe | Quaker Oats"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://www.quakeroats.com/cooking-and-recipes/steel-cut-oats-summer-grain-salad"/>
-<meta property="og:image" content="http://www.quakeroats.com/sites/quakeroats.com/files/steel-cut-oats-summer-grain-salad.jpg"/>
+<meta property="og:image" content="https://www.quakeroats.com/sites/quakeroats.com/files/steel-cut-oats-summer-grain-salad.jpg"/>
 <meta property="og:description" content="Discover a fun and delicious way to enjoy oats with our easy and delicious Steel Cut Oats Summer Grain Salad recipe made with your favorite Quaker® products."/>
 
 			<!-- META SCHEMA.ORG -->
 			<meta itemprop="name" content="Steel Cut Oats Summer Grain Salad | Quaker Oats">
 <meta itemprop="description" content="Discover a fun and delicious way to enjoy oats with our easy and delicious Steel Cut Oats Summer Grain Salad recipe made with your favorite Quaker® products.">
-<meta itemprop="image" content="http://www.quakeroats.com/sites/quakeroats.com/files/steel-cut-oats-summer-grain-salad.jpg">
+<meta itemprop="image" content="https://www.quakeroats.com/sites/quakeroats.com/files/steel-cut-oats-summer-grain-salad.jpg">
 			<!-- META TWITTER -->
 			<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@Quaker">
 <meta name="twitter:title" content="Steel Cut Oats Summer Grain Salad | Quaker Oats">
 <meta name="twitter:description" content="Discover a fun and delicious way to enjoy oats with our easy and delicious Steel Cut Oats Summer Grain Salad recipe made with your favorite Quaker® products.">
-<meta name="twitter:image" content="http://www.quakeroats.com/sites/quakeroats.com/files/steel-cut-oats-summer-grain-salad.jpg">
+<meta name="twitter:image" content="https://www.quakeroats.com/sites/quakeroats.com/files/steel-cut-oats-summer-grain-salad.jpg">
 <meta name="twitter:creator" content="@Quaker">
 
 			<!-- FRAME BUSTING -->
@@ -76,9 +72,9 @@
     }
 </script>
 			<!-- STYLES -->
-			<link rel="stylesheet" type="text/css" href="/sites/quakeroats.com/themes/quakeroats/css/style.css?v=1727454723846"/>
+			<link rel="stylesheet" type="text/css" href="/sites/quakeroats.com/themes/quakeroats/css/style.css?v=5_22_2025,_3:12:07 PM"/>
 
-												<link rel="stylesheet" type="text/css" href="/sites/quakeroats.com/themes/quakeroats/css/app/specific/recipe.css?v=1727454723846"/>
+												<link rel="stylesheet" type="text/css" href="/sites/quakeroats.com/themes/quakeroats/css/app/specific/recipe.css?v=5_22_2025,_3:12:07 PM"/>
 							
 			<!-- SLIDER STYLES -->
 			
@@ -230,1178 +226,1960 @@ g[aT].push(arguments);
 
 			<!-- HEADER -->
 			<header>
-				<!-- mobile Header starts -->
-				<nav class="navbar navbar-default navbar-fixed-top quakerHeaderNav" aria-label="Mobile Navigation">
-					<div
-						class="container quakerHeaderNav nocontent">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeader">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar top-bar"></span>
-								<span class="icon-bar middle-bar"></span>
-								<span class="icon-bar bottom-bar"></span>
-								<span class="icon-text">Menu</span>
+		<!-- mobile Header starts -->
+	<nav class="navbar navbar-default navbar-fixed-top quakerHeaderNav" aria-label="Mobile Navigation">
+		<div
+			class="container quakerHeaderNav nocontent">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeader">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+					<span class="icon-text">Menu</span>
+				</button>
+				<div class="quakerLogo">
+					<a href="/" aria-label="Navigate to home page mobile">
+						<img src="/sites/quakeroats.com/themes/quakeroats/img/Quaker_Logo_Header.png" id="headerlogo" loading="lazy" alt="quakeroats home">
+					</a>
+				</div>
+				<div class="Pagetitle hidden-lg">
+					<span id="spnPageTitle">Recipes</span>
+					<div class="searchNavigation">
+
+						<img loading="lazy" src="/sites/quakeroats.com/themes/quakeroats/img/Header_Search_Icon_Mobile.png" alt="Quaker Oats - Search Icon" class="img-responsive" id="globalSrch">
+						<span class="icon-text">Search</span>
+					</div>
+					<div class="closeButton hide">
+						<img loading="lazy" src="/sites/quakeroats.com/themes/quakeroats/img/header_search_close.png" alt="Quaker Oats - Search Close">
+					</div>
+				</div>
+			</div>
+
+			<!-- search container -->
+			<div class="mobile-searchContainer hidden-lg">
+				<div class="mobile-searchBarContainer hidden">
+					<div class="input-group">
+						<input aria-label="Mobile Search" type="text" class="form-control pull-left navbtnBox" id="msearchInput" placeholder="Find recipes, products &amp; more">
+						<button type="button" class="btn btn-default navBtn" id="msearchbtnBox" onclick="SearchRecipe();">
+							<img loading="lazy" alt="Search mobile" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Header_Icon_Desktop.png" class="img-responsive">
+						</button>
+						<span class="input-group-btn closeButton">
+							<button class="btn btn-default navBtn" id="removeBtnMobile">
+								<img loading="lazy" alt="Quaker Oats - Search Close" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Close_Icon.png" class="img-responsive">
 							</button>
-							<div class="quakerLogo">
-								<a href="/" aria-label="Navigate to home page mobile">
-									<img src="/sites/quakeroats.com/themes/quakeroats/img/Quaker_Logo_Header.png" id="headerlogo" loading="lazy" alt="quakeroats home">
+
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navHeader">
+				<ul class="nav navbar-nav">
+					<!-- CMS start -->
+					
+										<li class="dropdown bold">
+						<a href="/cooking-and-recipes" class="dropdown-toggle" data-toggle="dropdown" aria-label="Recipes mobile">
+							Recipes
+														<span class="glyphicon glyphicon-play pull-right"></span>
+													</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="/cooking-and-recipes" class="text-center">
+									<strong>										
+										<span class="glyphicon glyphicon-menu-left pull-left"></span>
+										Recipes
+									</strong>
 								</a>
-							</div>
-							<div class="Pagetitle hidden-lg">
-								<span id="spnPageTitle">Recipes</span>
-								<div class="searchNavigation">
-
-									<img loading="lazy" src="/sites/quakeroats.com/themes/quakeroats/img/Header_Search_Icon_Mobile.png" alt="Quaker Oats - Search Icon" class="img-responsive" id="globalSrch">
-									<span class="icon-text">Search</span>
-								</div>
-								<div class="closeButton hide">
-									<img loading="lazy" src="/sites/quakeroats.com/themes/quakeroats/img/header_search_close.png" alt="Quaker Oats - Search Close">
-								</div>
-							</div>
-						</div>
-
-						<!-- search container -->
-						<div class="mobile-searchContainer hidden-lg">
-							<div class="mobile-searchBarContainer hidden">
-								<div class="input-group">
-									<input aria-label="Mobile Search" type="text" class="form-control pull-left navbtnBox" id="msearchInput" placeholder="Find recipes, products &amp; more">
-									<button type="button" class="btn btn-default navBtn" id="msearchbtnBox" onclick="SearchRecipe();">
-										<img loading="lazy" alt="Search mobile" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Header_Icon_Desktop.png" class="img-responsive">
-									</button>
-									<span class="input-group-btn closeButton">
-										<button class="btn btn-default navBtn" id="removeBtnMobile">
-											<img loading="lazy" alt="Quaker Oats - Search Close" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Close_Icon.png" class="img-responsive">
-										</button>
-
-									</span>
-								</div>
-							</div>
-						</div>
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="navHeader">
-							<ul class="nav navbar-nav">
-
-								<li class="dropdown">
-									<a href="/cooking-and-recipes" class="dropdown-toggle" data-toggle="dropdown" aria-label="Recipes submenu mobile">Recipes<span class="glyphicon glyphicon-play pull-right"></span>
+							</li>	
+					
+																						<li>
+									<a href="/cooking-and-recipes/all-recipes">
+										<strong>All Recipes</strong>
 									</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="/cooking-and-recipes" class="text-center">
-												<strong>
-													<span class="glyphicon glyphicon-menu-left pull-left"></span>Recipes</strong>
-											</a>
-										</li>
-										<li>
-											<a href="/cooking-and-recipes/all-recipes">
-												<strong>All Recipes</strong>
-											</a>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/our-favorites" class="submenu-item">Our Favorites*<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/our-favorites" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Our Favorites</strong>
+								</li>	
+																								
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/our-favorites" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								OUR FAVORITES
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/our-favorites">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>OUR FAVORITES</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/top-rated-recipes">Top Rated</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/family-fun-recipes">Family Fun</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/new-recipes">New</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/easy-recipes">Easy</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/make-ahead-recipes">Make Ahead</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/community-creations">Community Creations</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/5-ingredients-or-less">5 Ingredients or Less</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/our-favorites/summer-time-oats">Summer Time Oats Recipes</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/meal-type" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								MEAL TYPE
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/meal-type">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>MEAL TYPE</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/meal-type/breakfast-brunch-recipes">Breakfast & Brunch</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/meal-type/lunch-dinner-recipes">Lunch & Dinner</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/meal-type/desserts">Dessert</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/meal-type/snacks">Snacks</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/meal-type/appetizers-sides">Appetizer & Sides</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/by-ingredient" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								BY INGREDIENT
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/by-ingredient">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>BY INGREDIENT</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/oat-recipes">Oats</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/barley-recipes">Barley</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/rice-cakes-recipes">Oat Flour</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/grits-recipes">Grits</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/rice-cakes-recipes">Rice Cakes</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/cornmeal-recipes">Corn Meal</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/by-ingredient/recipes-with-cereal">Cereal</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/dietary-preferences" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								DIETARY PREFERENCES
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/dietary-preferences">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>DIETARY PREFERENCES</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/dietary-preferences/heart-healthy-recipes">Heart Healthy</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dietary-preferences/gluten-free-recipes">Gluten-Free</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dietary-preferences/vegetarian-recipes">Vegetarian</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/dish-type" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								BY DISH
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/dish-type">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>BY DISH</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/oatmeal-recipes">Oatmeal</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/cookies">Cookies</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/cakes">Cakes</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/bread">Bread</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/soups-chilis">Soups & Chilis</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/pies-crumbles-crisps">Pies, Crumbles & Crisps</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/overnight-oats">Overnight Oats</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/smoothies">Smoothies</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/muffins-scones">Muffins & Scones</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/oatmeal-bars">Oatmeal Bars</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/pancakes-waffles">Pancakes & Waffles</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/dish-type/energy-bites">Energy Bites</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/recipes-by-occasions" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								OCCASIONS
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>OCCASIONS</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions/party-recipes">Party</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions/christmas-recipes">Christmas </a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions/thanksgiving-recipes">Thanksgiving</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions/easter-recipes">Easter</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions/halloween-recipes">Halloween</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/recipes-by-occasions/patriotic-recipes">Patriotic</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								BAKING WITH QUAKER
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>BAKING WITH QUAKER</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101">Baking Overview</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/cookies">Cookies </a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/bar-cookies">Bar Cookies</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/muffins">Muffins </a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/biscuits">Biscuits</a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/quick-breads"> Quick Breads </a>
+											</li>
+																					<li>
+												<a href="/cooking-and-recipes/baking-101/yeast-breads">Yeast Breads</a>
+											</li>
+										
+										</ul>
+									</li>
+																																																<li>
+										<div class="imgSec">
+											<div class="row">
+												<div class="col-sm-6">
+													<a href="/cooking-and-recipes/how-to-prepare-oats" aria-hidden="true">
+														<img class="img-responsive center-block" alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/prepare-oats.jpg"></a>
+												</div>
+												<div class="col-sm-6 imgTxt">
+													<a href="/cooking-and-recipes/how-to-prepare-oats">
+														<strong>How to<br>Prepare Oats</strong>
 													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/top-rated-recipes">Top Rated</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/family-fun-recipes">Family Fun</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/new-recipes">New</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/easy-recipes">Easy</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/make-ahead-recipes">Make Ahead</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/community-creations">Community Creations</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/5-ingredients-or-less">5 Ingredients or Less</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/our-favorites/summer-time-oats">Summer Time Oats Recipes</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/meal-type" class="submenu-item">Meal Type<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/meal-type" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Meal Type</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/meal-type/breakfast-brunch-recipes">Breakfast &amp; Brunch</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/meal-type/lunch-dinner-recipes">Lunch &amp; Dinner</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/meal-type/desserts">Dessert</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/meal-type/snacks">Snacks</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/meal-type/appetizers-sides">Appetizer &amp; Sides</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/by-ingredient" class="submenu-item">By Ingredient<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>By Ingredient</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/oat-recipes">Oats</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/barley-recipes">Barley</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/oat-flour-recipes">Oat Flour</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/grits-recipes">Grits</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/rice-cakes-recipes">Rice Cakes</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/cornmeal-recipes">Corn Meal</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/by-ingredient/recipes-with-cereal">Cereal</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/dietary-preferences" class="submenu-item">Dietary Preferences<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/dietary-preferences" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Dietary Preferences</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dietary-preferences/heart-healthy-recipes">Heart Healthy</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dietary-preferences/gluten-free-recipes">Gluten-Free</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dietary-preferences/vegetarian-recipes">Vegetarian</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/dish-type" class="submenu-item">By Dish<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/dish-type" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>By Dish</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/oatmeal-recipes">Oatmeal</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/cookies">Cookies</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/cakes">Cakes</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/breads">Bread</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/soups-chilis">Soups &amp; Chilis</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/pies-crumbles-crisps">Pies, Crumbles &amp; Crisps</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/overnight-oats">Overnight Oats</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/smoothies">Smoothies</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/muffins-scones">Muffins &amp; Scones</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/oatmeal-bars">Oatmeal Bars</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/pancakes-waffles">Pancakes &amp; Waffles</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/dish-type/energy-bites">Energy Bites</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/recipes-by-occasions" class="submenu-item">Occasions<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Occasions</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions/party-recipes">Party</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions/christmas-recipes">Christmas</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions/thanksgiving-recipes">Thanksgiving</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions/easter-recipes">Easter</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions/halloween-recipes">Halloween</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/recipes-by-occasions/patriotic-recipes">Patriotic</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101" class="submenu-item">Baking With Quaker<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Baking With Quaker</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101">Baking Overview</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/cookies">Cookies</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/bar-cookies">Bar Cookies</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/muffins">Muffins</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/biscuits">Biscuits</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/quick-breads">Quick Breads</a>
-												</li>
-												<li>
-													<a href="/cooking-and-recipes/baking-101/yeast-breads">Yeast Breads</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<div class="imgSec">
-												<div class="row">
-													<div class="col-sm-6">
-														<a href="/cooking-and-recipes/how-to-prepare-oats" aria-hidden="true">
-															<img class="img-responsive center-block" alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/prepare-oats.jpg"></a>
-													</div>
-													<div class="col-sm-6 imgTxt">
-														<a href="/cooking-and-recipes/how-to-prepare-oats">
-															<strong>How to<br>
-																Prepare Oats</strong>
-														</a>
-													</div>
 												</div>
 											</div>
-										</li>
-										<li>
-											<div class="imgSec">
-												<div class="row">
-													<div class="col-sm-6">
-														<a href="/cooking-and-recipes/overnight-oats" aria-hidden="true">
-															<img class="img-responsive center-block" alt="Oats Jar" src="/sites/quakeroats.com/themes/quakeroats/img/overnight-oats.jpg"></a>
-													</div>
-													<div class="col-sm-6 imgTxt">
-														<a href="/cooking-and-recipes/overnight-oats">
-															<strong>How to make<br>
-																Overnight Oats</strong>
-														</a>
-													</div>
+										</div>
+									</li>
+																		<li>
+										<div class="imgSec">
+											<div class="row">
+												<div class="col-sm-6">
+													<a href="/cooking-and-recipes/overnight-oats" aria-hidden="true">
+														<img class="img-responsive center-block" alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/overnight-oats.jpg"></a>
+												</div>
+												<div class="col-sm-6 imgTxt">
+													<a href="/cooking-and-recipes/overnight-oats">
+														<strong>How to make<br>Overnight Oats</strong>
+													</a>
 												</div>
 											</div>
+										</div>
+									</li>
+													
+																					</ul>
+					</li>
+										
+										<li class="dropdown ">
+						<a href="/products" class="dropdown-toggle" data-toggle="dropdown" aria-label="Products mobile">
+							Products
+														<span class="glyphicon glyphicon-play pull-right"></span>
+													</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="/products" class="text-center">
+									<strong>										
+										<span class="glyphicon glyphicon-menu-left pull-left"></span>
+										Products
+									</strong>
+								</a>
+							</li>	
+					
+																						<li>
+									<a href="/products">
+										<strong>All Products</strong>
+									</a>
+								</li>	
+																								
+									<li class="dropdown-submenu">
+										<a href="/products/hot-cereals" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Oats &amp; Oatmeal
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/products/hot-cereals">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Oats &amp; Oatmeal</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/hot-cereals/old-fashioned-oats-quick-oats">Old Fashioned & Quick Oats</a>
+											</li>
+																					<li>
+												<a href="/products/hot-cereals/instant-oatmeal">Instant Oatmeal </a>
+											</li>
+																					<li>
+												<a href="/products/hot-cereals/steel-cut-oats">Steel Cut Oats </a>
+											</li>
+																					<li>
+												<a href="/products/organic">Organic Oatmeal</a>
+											</li>
+																					<li>
+												<a href="/products/hot-cereals/instant-oatmeal-cups">Instant Oatmeal Cups</a>
+											</li>
+																					<li>
+												<a href="/products/gluten-free">Gluten Free Oatmeal</a>
+											</li>
+																					<li>
+												<a href="/products/hot-cereals/oat-bran-hot-cereal">Hot Oat Bran</a>
+											</li>
+																					<li>
+												<a href="/products/hot-cereals/grits">Grits</a>
+											</li>
+																					<li>
+												<a href="/products/other-products/oat-flour">Oat Flour</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/products/cold-cereals" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Breakfast Cereals
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/products/cold-cereals">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Breakfast Cereals</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/cold-cereals/life-cereal">Life Cereal</a>
+											</li>
+																					<li>
+												<a href="/products/cold-cereals/chewy-granola">Chewy Granola</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="">
+										<a href="/products/cold-cereals/granola" class="submenu-item">
+											<strong>
+												 
+													<span class="glyphicon glyphicon-menu-left pull-left"></span>											
+																								Quaker Granola
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/products/cold-cereals/granola">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Quaker Granola</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/cold-cereals/oatmeal-squares">Oatmeal Squares</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/products/other-products" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Barley, Corn Meal &amp; Mixes
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/products/other-products">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Barley, Corn Meal &amp; Mixes</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/other-products/barley">Barley</a>
+											</li>
+																					<li>
+												<a href="/products/other-products/corn-meal">Corn Meal</a>
+											</li>
+																					<li>
+												<a href="/products/other-products/mixes">Mixes</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/products/snacks" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Snacks
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/products/snacks">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Snacks</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/snacks/chewy-granola-bars">Chewy Granola Bars</a>
+											</li>
+																					<li>
+												<a href="/products/snacks/protein-granola-bars">Protein Granola Bars</a>
+											</li>
+																					<li>
+												<a href="/products/variety-packs">Quaker Variety Bundles</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/products/rice-snacks" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Rice Snacks
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/products/rice-snacks">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Rice Snacks</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/rice-snacks/rice-crisps">Rice Crisps</a>
+											</li>
+																					<li>
+												<a href="/products/rice-snacks/rice-cakes">Rice Cakes</a>
+											</li>
+																					<li>
+												<a href="/products/rice-snacks/rice-chips">Rice Chips</a>
+											</li>
+																					<li>
+												<a href="/products/rice-snacks/rice-thins">Rice Thins</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="##" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								By Specialty
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="##">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>By Specialty</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/organic">Organic</a>
+											</li>
+																					<li>
+												<a href="/products/gluten-free">Gluten Free</a>
+											</li>
+																					<li>
+												<a href="/products/variety-packs">Variety Packs</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="##" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								By Brand
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="##">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>By Brand</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/snacks/chewy-granola-bars">Chewy</a>
+											</li>
+																					<li>
+												<a href="/products/cold-cereals/life-cereal">Life Cereal</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="">
+										<a href="##" class="submenu-item">
+											<strong>
+												 
+													<span class="glyphicon glyphicon-menu-left pull-left"></span>											
+																								Featured
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="##">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Featured</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/products/hot-cereals/old-fashioned-oats">Quaker® Oats Old Fashioned</a>
+											</li>
+										
+										</ul>
+									</li>
+																					</ul>
+					</li>
+										
+										<li class="dropdown Inside">
+						<a href="/inside-quaker" class="dropdown-toggle" data-toggle="dropdown" aria-label="About Quaker mobile">
+							About Quaker
+														<span class="glyphicon glyphicon-play pull-right"></span>
+													</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="/inside-quaker" class="text-center">
+									<strong>										
+										<span class="glyphicon glyphicon-menu-left pull-left"></span>
+										About Quaker
+									</strong>
+								</a>
+							</li>	
+					
+																															
+									<li class="">
+										<a href="/about-quaker-oats/quaker-history" class="submenu-item">
+											<strong>
+												 
+													<span class="glyphicon glyphicon-menu-left pull-left"></span>											
+																								Quaker History
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/about-quaker-oats/quaker-history">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Quaker History</strong>
+												</a>
+											</li>									
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/oats-do-more/why-oats/our-oat-story" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								About Our Oats
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/oats-do-more/why-oats/our-oat-story">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>About Our Oats</strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/about-quaker-oats/quaker-oats-center-of-excellence/explore-the-power-of-the-oat">The Power of Quaker Oats</a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/why-oats/surprising-uses-for-oats">Surprising Uses For Oats </a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/why-oats/the-difference-between-our-oats">The Difference Between Our Oats</a>
+											</li>
+																					<li>
+												<a href="/about-quaker-oats/quaker-oats-center-of-excellence">Oats Center of Excellence </a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/why-oats/company-of-firsts">A Company of Firsts </a>
+											</li>
+																					<li>
+												<a href="/nourish">Relief Efforts</a>
+											</li>
+																					<li>
+												<a href="https://contact.pepsico.com/quaker">Contact Us</a>
+											</li>
+																					<li>
+												<a href="https://contact.pepsico.com/quaker/faqs">FAQs</a>
+											</li>
+										
+										</ul>
+									</li>
+																					</ul>
+					</li>
+										
+										<li class="dropdown ">
+						<a href="/extraordinary-oats" class="dropdown-toggle" data-toggle="dropdown" aria-label="Health &amp; Nutrition mobile">
+							Health &amp; Nutrition
+														<span class="glyphicon glyphicon-play pull-right"></span>
+													</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="/extraordinary-oats" class="text-center">
+									<strong>										
+										<span class="glyphicon glyphicon-menu-left pull-left"></span>
+										Health &amp; Nutrition
+									</strong>
+								</a>
+							</li>	
+					
+																															
+									<li class="dropdown-submenu">
+										<a href="/extraordinary-oats" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Benefits of Oats 
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/extraordinary-oats">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Benefits of Oats </strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/extraordinary-oats/keep-your-heart-healthy">Heart Health </a>
+											</li>
+																					<li>
+												<a href="/extraordinary-oats/energy-to-keep-you-going">Energy</a>
+											</li>
+																					<li>
+												<a href="/extraordinary-oats/digestive-health-starts-with-oats">Digestive Health</a>
+											</li>
+										
+										</ul>
+									</li>
+																																							
+									<li class="dropdown-submenu">
+										<a href="/oats-do-more" class="submenu-item">
+											<strong>
+																									<span class="glyphicon glyphicon glyphicon-play pull-right"></span>										
+																								Living Healthy 
+											</strong>
+										</a>
+										<ul class="dropdown-menu">	
+											<li>
+												<a href="/oats-do-more">
+													<strong>
+														<span class="glyphicon glyphicon-menu-left pull-left"></span>Living Healthy </strong>
+												</a>
+											</li>									
+																					<li>
+												<a href="/oats-do-more/for-your-family/teaching-healthy-eating-habits">Teaching Healthy Eating Habits </a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/for-your-family/family-nutrition">Family Nutrition</a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/for-your-family/family-fitness">Family Fitness</a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/for-your-health/healthy-eating">Healthy Eating</a>
+											</li>
+																					<li>
+												<a href="/oats-do-more/for-your-health/fiber-and-whole-grains">Fiber & Whole grains</a>
+											</li>
+										
+										</ul>
+									</li>
+																					</ul>
+					</li>
+										
+										<li class="">
+						<a href="https://www.tastyrewards.com/en-us/dashboard-qgg" aria-label="PepsiCo Tasty Rewards mobile" target="_blank" rel="noopener noreferrer">PepsiCo Tasty Rewards</span>
+					</li>
+										
+
+					<!-- CMS end -->
+					
+					
+					<li id="amSignInUser" class="beforelogin account" style="display: block">
+						<a href="/sign-up">Sign Up /</a>
+						<a href="/sign-in">
+							Sign In</a>
+					</li>
+					<li id="amLogout" class="afterlogin account" style="display: none">
+						<a href="/myprofile" class="noCaps">My Account</a>
+						<a class="noCaps" href="javascript:__doPostBack('ctl00$ctl00$ctl33','')">
+							/ Logout</a>
+					</li>
+
+					<li>
+						<a class="text-submenu" href="/products/product-locator">Where to Buy</a>
+					</li>
+					<li>
+						<a class="text-submenu" href="/about-quaker-oats/offers-and-promotions">Promotions</a>
+					</li>
+					<li>
+						<a class="text-submenu" href="https://contact.pepsico.com/quaker">Contact Us<div class="sr-only">Mobile(open in a new tab)</div>
+						</a>
+					</li>
+
+				</ul>
+
+
+				<ul class="nav navbar-nav navbar-right quakerSubnav">
+					<li>
+						<a href="https://www.facebook.com/quaker" target="_blank" title="Connect with Quaker on Facebook" class="fbook">
+							<img loading="lazy" alt="Quaker Oats - Facebook" src="/sites/quakeroats.com/themes/quakeroats/img/icon-facebook-nav.png">
+						</a>
+					</li>
+					<li>
+						<a href="https://x.com/Quaker" target="_blank" title="Connect with Quaker on X" class="tweet">
+							<img loading="lazy" alt="Quaker Oats - X" src="/sites/quakeroats.com/themes/quakeroats/img/icon-x-nav.png">
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.instagram.com/Quaker/" target="_blank" title="Connect with Quaker on Instagram" class="insta">
+							<img loading="lazy" alt="Quaker Oats - Instagram" src="/sites/quakeroats.com/themes/quakeroats/img/icon-instagram-nav.png">
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.pinterest.com/quaker/" target="_blank" title="Connect with Quaker on pinterest" class="pint">
+							<img loading="lazy" alt="Quaker Oats - Pinterest" src="/sites/quakeroats.com/themes/quakeroats/img/icon-pinterest-nav.png">
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Mobile Header Ends -->
+
+	<!-- Desktop Header starts -->
+	<div class="desktopHeader nocontent">
+		<nav class="navbar navbar-default quakerHeader">
+			<div class="container">
+				<ul class="mainMenu nav navbar-nav mainNav">
+
+										
+										
+					<li class="dropdown bold">
+						<a href="/cooking-and-recipes" class="dropdown-toggle animate" data-toggle="dropdown" aria-expanded="false" aria-label="Recipes submenu">Recipes</a>
+					<div class="subMenuNew recipes bold" style="display: none;">
+						<div class="row">
+
+							
+																																											
+									<div class="col-sm-8">	
+										<div class="row">
+											<div class="col-sm-3">	
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/cooking-and-recipes/our-favorites" class="dropdown-toggle animate" aria-label="OUR FAVORITES">
+												<strong>OUR FAVORITES</strong>
+											</a>
 										</li>
+
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/top-rated-recipes" aria-label="Top Rated">Top Rated</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/family-fun-recipes" aria-label="Family Fun">Family Fun</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/new-recipes" aria-label="New">New</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/easy-recipes" aria-label="Easy">Easy</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/make-ahead-recipes" aria-label="Make Ahead">Make Ahead</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/community-creations" aria-label="Community Creations">Community Creations</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/5-ingredients-or-less" aria-label="5 Ingredients or Less">5 Ingredients or Less</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/our-favorites/summer-time-oats" aria-label="Summer Time Oats Recipes">Summer Time Oats Recipes</a>
+											</li>
+																							
+										
 									</ul>
-								</li>
 
-								<li class="dropdown">
-									<a href="/products" class="dropdown-toggle" data-toggle="dropdown" aria-label="Products submenu mobile">Products<span class="glyphicon glyphicon-play pull-right"></span>
-									</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="/products" class="text-center">
-												<strong>
-													<span class="glyphicon glyphicon-menu-left pull-left"></span>Products</strong>
-											</a>
-										</li>
-										<li>
-											<a href="/products">
-												<strong>All Products</strong>
-											</a>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/products/hot-cereals" class="submenu-item">Oats &amp; Oatmeal
-												<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/products/hot-cereals" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Oats &amp; Oatmeal</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/hot-cereals">All Oats &amp; Oatmeal</a>
-												</li>
-												<li>
-													<a href="/products/hot-cereals/old-fashioned-oats-quick-oats">Old Fashioned &amp; Quick Oats
-													</a>
-												</li>
-												<li>
-													<a href="/products/hot-cereals/instant-oatmeal">Instant Oatmeal
-													</a>
-												</li>
-												<li>
-													<a href="/products/hot-cereals/steel-cut-oats">Steel Cut Oats
-													</a>
-												</li>
-																								<li>
-													<a href="/products/hot-cereals/instant-oatmeal-cups">Instant Oatmeal Cups
-													</a>
-												</li>
-												<li>
-													<a href="/products/gluten-free">Gluten Free OatMeal
-													</a>
-												</li>
-												<li>
-													<a href="/products/organic">Organic Oatmeal</a>
-												</li>
-												<li>
-													<a href="/products/hot-cereals/oat-bran-hot-cereal">Hot Oat Bran</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/products/cold-cereals" class="submenu-item">Breakfast Cereals<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/products/cold-cereals" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Breakfast Cereals</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/cold-cereals/life-cereal">Life Cereal</a>
-												</li>
-												<li>
-													<a href="/products/cold-cereals/chewy-granola">
-														Chewy Granola
-													</a>
-												</li>
-												<li>
-													<a href="/products/cold-cereals/granola">
-														<strong>Quaker Granola</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/cold-cereals/oatmeal-squares">Oatmeal Squares</a>
-												</li>
+																			
+								
+															
+								
+								
+								
+																										<ul>						
 
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/products/snacks" class="submenu-item">Snacks<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/products/snacks" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Snacks</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/snacks/chewy-granola-bars">Chewy Granola Bars</a>
-												</li>
-												<li>
-													<a href="/products/snacks/protein-granola-bars">Protein Granola Bars</a>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/products/rice-snacks" class="submenu-item">Rice Snacks<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/products/rice-snacks" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Rice Snacks</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/rice-snacks/rice-crisps">Rice Crisps</a>
-												</li>
-												<li>
-													<a href="/products/rice-snacks/rice-cakes">Rice Cakes</a>
-												</li>
-												<li>
-													<a href="/products/rice-snacks/rice-chips">Rice Chips</a>
-												</li>
-												<li>
-													<a href="/products/rice-snacks/rice-thins">Rice Thins</a>
-												</li>
-											</ul>
-										</li>
 										<li>
-											<a href="/products/hot-cereals/grits">Grits</a>
-										</li>
-										<li>
-											<a href="/products/other-products/oat-flour">Oat Flour</a>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="/products/other-products" class="submenu-item">Barley, Cornmeal, &amp; Mixes<span class="glyphicon glyphicon-play pull-right"></span>
+											<a href="/cooking-and-recipes/meal-type" class="dropdown-toggle animate" aria-label="MEAL TYPE">
+												<strong>MEAL TYPE</strong>
 											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/products/other-products" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Barley, Cornmeal, &amp; Mixes</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/other-products/barley">Barley</a>
-												</li>
-												<li>
-													<a href="/products/other-products/corn-meal">Corn Meal</a>
-												</li>
-												<li>
-													<a href="/products/other-products/mixes">Mixes</a>
-												</li>
-											</ul>
 										</li>
-										<li class="dropdown-submenu">
-											<a href="#" class="submenu-item">By Specialty<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="#" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>By Specialty</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/products/organic">Organic</a>
-												</li>
-												<li>
-													<a href="/products/gluten-free">Gluten Free</a>
-												</li>
-												<li>
-													<a href="/products/variety-packs">Variety Packs</a>
-												</li>
 
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="#" class="submenu-item">By Brand<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="#" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>By Brand</strong>
-													</a>
-												</li>
-												
-												<li>
-													<a href="/products/snacks/chewy-granola-bars">Chewy</a>
-												</li>
-												<li>
-													<a href="/products/cold-cereals/life-cereal">Life Cereal</a>
-												</li>
-											</ul>
-										</li>
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/meal-type/breakfast-brunch-recipes" aria-label="Breakfast &amp; Brunch">Breakfast & Brunch</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/meal-type/lunch-dinner-recipes" aria-label="Lunch &amp; Dinner">Lunch & Dinner</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/meal-type/desserts" aria-label="Dessert">Dessert</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/meal-type/snacks" aria-label="Snacks">Snacks</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/meal-type/appetizers-sides" aria-label="Appetizer &amp; Sides">Appetizer & Sides</a>
+											</li>
+																							
+										
 									</ul>
-								</li>
 
-								<li class="dropdown dropdown-about">
-									<a href="/inside-quaker" class="dropdown-toggle" data-toggle="dropdown" aria-label="About Quaker submenu mobile">About Quaker<span class="glyphicon glyphicon-play pull-right"></span>
-									</a>
-									<ul class="dropdown-menu">
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+								
+																										<ul>						
+
 										<li>
-											<a href="/inside-quaker" class="text-center">
-												<strong>
-													<span class="glyphicon glyphicon-menu-left pull-left"></span>About Quaker</strong>
+											<a href="/cooking-and-recipes/by-ingredient" class="dropdown-toggle animate" aria-label="BY INGREDIENT">
+												<strong>BY INGREDIENT</strong>
 											</a>
 										</li>
-										<li>
-											<a href="/about-quaker-oats/quaker-history">Quaker History</a>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="#" class="submenu-item">About Our Oats
-												<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/oats-do-more/why-oats/our-oat-story" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>About Our Oats</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/about-quaker-oats/quaker-oats-center-of-excellence/explore-the-power-of-the-oat">The Power of Quaker Oats</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/why-oats/surprising-uses-for-oats">Surprising Uses For Oats</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/why-oats/the-difference-between-our-oats">The Difference Between Our Oats</a>
-												</li>
-												<li>
-													<a href="/about-quaker-oats/quaker-oats-center-of-excellence">Oats Center of Excellence</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/why-oats/company-of-firsts">A Company of Firsts</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="/nourish">
-												<strong>Relief Efforts</strong>
-											</a>
-										</li>
-										<li>
-											<a href="https://contact.pepsico.com/quaker" target="_blank">
-												<strong>Contact Us</strong>
-											</a>
-										</li>
-										<li>
-											<a href="https://contact.pepsico.com/quaker/faqs" target="_blank">
-												<strong>FAQs</strong>
-											</a>
-										</li>
+
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/oat-recipes" aria-label="Oats">Oats</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/barley-recipes" aria-label="Barley">Barley</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/rice-cakes-recipes" aria-label="Oat Flour">Oat Flour</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/grits-recipes" aria-label="Grits">Grits</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/rice-cakes-recipes" aria-label="Rice Cakes">Rice Cakes</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/cornmeal-recipes" aria-label="Corn Meal">Corn Meal</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/by-ingredient/recipes-with-cereal" aria-label="Cereal">Cereal</a>
+											</li>
+																							
+										
 									</ul>
-								</li>
 
-								<li class="dropdown dropdown-health">
-									<a href="/extraordinary-oats" class="dropdown-toggle" data-toggle="dropdown" aria-label="Health &amp; Nutrition submenu mobile">Health &amp; Nutrition<span class="glyphicon glyphicon-play pull-right"></span>
-									</a>
-									<ul class="dropdown-menu">
+																			
+								
+															
+								
+								
+								
+																										<ul>						
+
 										<li>
-											<a href="#" class="text-center">
-												<strong>
-													<span class="glyphicon glyphicon-menu-left pull-left"></span>Health &amp; Nutrition</strong>
+											<a href="/cooking-and-recipes/dietary-preferences" class="dropdown-toggle animate" aria-label="DIETARY PREFERENCES">
+												<strong>DIETARY PREFERENCES</strong>
 											</a>
 										</li>
-										<li class="dropdown-submenu">
-											<a href="#" class="submenu-item">Benefits of Oats
-												<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/extraordinary-oats" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Benefits of Oats
-														</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/extraordinary-oats/keep-your-heart-healthy">Heart Health</a>
-												</li>
-												<li>
-													<a href="/extraordinary-oats/energy-to-keep-you-going">Energy</a>
-												</li>
-												<li>
-													<a href="/extraordinary-oats/digestive-health-starts-with-oats">Digestive Health</a>
-												</li>
-												<!--<li><a href="/rise-thrive">Rise &amp; Thrive</a></li>-->
-											</ul>
-										</li>
-										<li class="dropdown-submenu">
-											<a href="#" class="submenu-item">Living Healthy
-												<span class="glyphicon glyphicon-play pull-right"></span>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/oats-do-more" class="text-center">
-														<strong>
-															<span class="glyphicon glyphicon-menu-left pull-left"></span>Living Healthy</strong>
-													</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/for-your-family/teaching-healthy-eating-habits">Teaching Healthy Eating Habits</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/for-your-family/family-nutrition">Family Nutrition</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/for-your-family/family-fitness">Family Fitness</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/for-your-health/healthy-eating">Healthy Eating</a>
-												</li>
-												<li>
-													<a href="/oats-do-more/for-your-health/fiber-and-whole-grains">Fiber &amp; Whole grains</a>
-												</li>
-											</ul>
-										</li>
+
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dietary-preferences/heart-healthy-recipes" aria-label="Heart Healthy">Heart Healthy</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dietary-preferences/gluten-free-recipes" aria-label="Gluten-Free">Gluten-Free</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dietary-preferences/vegetarian-recipes" aria-label="Vegetarian">Vegetarian</a>
+											</li>
+																							
+										
 									</ul>
-								</li>
-								<li class="">
-									<a href="https://www.tastyrewards.com/en-us/dashboard-qgg" aria-label="PepsiCo Tasty Rewards submenu mobile" target="_blank" rel="noopener noreferrer">PepsiCo Tasty Rewards</span>
-								</li>
 
-								<li id="amSignInUser" class="beforelogin account" style="display: block">
-									<a href="/sign-up">Sign Up /</a>
-									<a href="/sign-in">
-										Sign In</a>
-								</li>
-								<li id="amLogout" class="afterlogin account" style="display: none">
-									<a href="/myprofile" class="noCaps">My Account</a>
-									<a class="noCaps" href="javascript:__doPostBack('ctl00$ctl00$ctl33','')">
-										/ Logout</a>
-								</li>
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+								
+																										<ul>						
 
-								<li>
-									<a class="text-submenu" href="/products/product-locator">Where to Buy</a>
-								</li>
-								<li>
-									<a class="text-submenu" href="/about-quaker-oats/offers-and-promotions">Promotions</a>
-								</li>
-								<li>
-									<a class="text-submenu" href="https://contact.pepsico.com/quaker">Contact Us<div class="sr-only">Mobile(open in a new tab)</div>
-									</a>
-								</li>
+										<li>
+											<a href="/cooking-and-recipes/dish-type" class="dropdown-toggle animate" aria-label="BY DISH">
+												<strong>BY DISH</strong>
+											</a>
+										</li>
 
-							</ul>
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/oatmeal-recipes" aria-label="Oatmeal">Oatmeal</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/cookies" aria-label="Cookies">Cookies</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/cakes" aria-label="Cakes">Cakes</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/bread" aria-label="Bread">Bread</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/soups-chilis" aria-label="Soups &amp; Chilis">Soups & Chilis</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/pies-crumbles-crisps" aria-label="Pies, Crumbles &amp; Crisps">Pies, Crumbles & Crisps</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/overnight-oats" aria-label="Overnight Oats">Overnight Oats</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/smoothies" aria-label="Smoothies">Smoothies</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/muffins-scones" aria-label="Muffins &amp; Scones">Muffins & Scones</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/oatmeal-bars" aria-label="Oatmeal Bars">Oatmeal Bars</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/pancakes-waffles" aria-label="Pancakes &amp; Waffles">Pancakes & Waffles</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/dish-type/energy-bites" aria-label="Energy Bites">Energy Bites</a>
+											</li>
+																							
+										
+									</ul>
 
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+								
+																										<ul>						
 
-							<ul class="nav navbar-nav navbar-right quakerSubnav">
-								<li>
-									<a href="https://www.facebook.com/quaker" target="_blank" title="Connect with Quaker on Facebook" class="fbook">
-										<img loading="lazy" alt="Quaker Oats - Facebook" src="/sites/quakeroats.com/themes/quakeroats/img/icon-facebook-nav.png">
-									</a>
-								</li>
-								<li>
-									<a href="https://x.com/Quaker" target="_blank" title="Connect with Quaker on X" class="tweet">
-										<img loading="lazy" alt="Quaker Oats - X" src="/sites/quakeroats.com/themes/quakeroats/img/icon-x-nav.png">
-									</a>
-								</li>
+										<li>
+											<a href="/cooking-and-recipes/recipes-by-occasions" class="dropdown-toggle animate" aria-label="OCCASIONS">
+												<strong>OCCASIONS</strong>
+											</a>
+										</li>
 
-								<li>
-									<a href="https://www.instagram.com/Quaker/" target="_blank" title="Connect with Quaker on Instagram" class="insta">
-										<img loading="lazy" alt="Quaker Oats - Instagram" src="/sites/quakeroats.com/themes/quakeroats/img/icon-instagram-nav.png">
-									</a>
-								</li>
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/recipes-by-occasions/party-recipes" aria-label="Party">Party</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/recipes-by-occasions/christmas-recipes" aria-label="Christmas ">Christmas </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/recipes-by-occasions/thanksgiving-recipes" aria-label="Thanksgiving">Thanksgiving</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/recipes-by-occasions/easter-recipes" aria-label="Easter">Easter</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/recipes-by-occasions/halloween-recipes" aria-label="Halloween">Halloween</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/recipes-by-occasions/patriotic-recipes" aria-label="Patriotic">Patriotic</a>
+											</li>
+																							
+										
+									</ul>
 
-								<li>
-									<a href="https://www.pinterest.com/quaker/" target="_blank" title="Connect with Quaker on pinterest" class="pint">
-										<img loading="lazy" alt="Quaker Oats - Pinterest" src="/sites/quakeroats.com/themes/quakeroats/img/icon-pinterest-nav.png">
-									</a>
-								</li>
+																			
+								
+															
+								
+								
+								
+																										<ul>						
 
-							</ul>
+										<li>
+											<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101" class="dropdown-toggle animate" aria-label="BAKING WITH QUAKER">
+												<strong>BAKING WITH QUAKER</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/welcome-to-baking-101" aria-label="Baking Overview">Baking Overview</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/cookies" aria-label="Cookies ">Cookies </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/bar-cookies" aria-label="Bar Cookies">Bar Cookies</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/muffins" aria-label="Muffins ">Muffins </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/biscuits" aria-label="Biscuits">Biscuits</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/quick-breads" aria-label=" Quick Breads "> Quick Breads </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/cooking-and-recipes/baking-101/yeast-breads" aria-label="Yeast Breads">Yeast Breads</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+																			</div>
+											</div> 
+											</div> 
+											<div class="last-col imageSections col-sm-4">	
+								
+								
+																			<div class="imgSec">
+											<div class="row">
+												<div class="col-sm-6">
+													<a href="/cooking-and-recipes/how-to-prepare-oats" aria-hidden="true">
+														<img class="img-responsive center-block" alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/prepare-oats.jpg"></a>
+												</div>
+												<div class="col-sm-6 imgTxt">
+													<a href="/cooking-and-recipes/how-to-prepare-oats">
+														<strong>How to<br>Prepare Oats</strong>
+													</a>
+												</div>
+											</div>
+										</div>
+																			<div class="imgSec">
+											<div class="row">
+												<div class="col-sm-6">
+													<a href="/cooking-and-recipes/overnight-oats" aria-hidden="true">
+														<img class="img-responsive center-block" alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/overnight-oats.jpg"></a>
+												</div>
+												<div class="col-sm-6 imgTxt">
+													<a href="/cooking-and-recipes/overnight-oats">
+														<strong>How to make<br>Overnight Oats</strong>
+													</a>
+												</div>
+											</div>
+										</div>
+									
+								
+																</div> 
+																					</div>
+					</div>
+
+					</li>
+															
+										
+					<li class="dropdown ">
+						<a href="/products" class="dropdown-toggle animate" data-toggle="dropdown" aria-expanded="false" aria-label="Products submenu">Products</a>
+					<div class="subMenuNew products " style="display: none;">
+						<div class="row">
+
+							
+																																											
+									<div class="col-sm-8">	
+										<div class="row">
+											<div class="col-sm-3">	
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/products/hot-cereals" class="dropdown-toggle animate" aria-label="Oats &amp; Oatmeal">
+												<strong>Oats & Oatmeal</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/hot-cereals/old-fashioned-oats-quick-oats" aria-label="Old Fashioned &amp; Quick Oats">Old Fashioned & Quick Oats</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/hot-cereals/instant-oatmeal" aria-label="Instant Oatmeal ">Instant Oatmeal </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/hot-cereals/steel-cut-oats" aria-label="Steel Cut Oats ">Steel Cut Oats </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/organic" aria-label="Organic Oatmeal">Organic Oatmeal</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/hot-cereals/instant-oatmeal-cups" aria-label="Instant Oatmeal Cups">Instant Oatmeal Cups</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/gluten-free" aria-label="Gluten Free Oatmeal">Gluten Free Oatmeal</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/hot-cereals/oat-bran-hot-cereal" aria-label="Hot Oat Bran">Hot Oat Bran</a>
+											</li>
+																							
+											
+																					
+											<li class="bold">
+												<a href="/products/hot-cereals/grits" aria-label="Grits">Grits</a>
+											</li>
+																							
+											
+																					
+											<li class="bold">
+												<a href="/products/other-products/oat-flour" aria-label="Oat Flour">Oat Flour</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/products/cold-cereals" class="dropdown-toggle animate" aria-label="Breakfast Cereals">
+												<strong>Breakfast Cereals</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/cold-cereals/life-cereal" aria-label="Life Cereal">Life Cereal</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/cold-cereals/chewy-granola" aria-label="Chewy Granola">Chewy Granola</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/products/cold-cereals/granola" class="dropdown-toggle animate" aria-label="Quaker Granola">
+												<strong>Quaker Granola</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/cold-cereals/oatmeal-squares" aria-label="Oatmeal Squares">Oatmeal Squares</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/products/other-products" class="dropdown-toggle animate" aria-label="Barley, Corn Meal &amp; Mixes">
+												<strong>Barley, Corn Meal & Mixes</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/other-products/barley" aria-label="Barley">Barley</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/other-products/corn-meal" aria-label="Corn Meal">Corn Meal</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/other-products/mixes" aria-label="Mixes">Mixes</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/products/snacks" class="dropdown-toggle animate" aria-label="Snacks">
+												<strong>Snacks</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/snacks/chewy-granola-bars" aria-label="Chewy Granola Bars">Chewy Granola Bars</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/snacks/protein-granola-bars" aria-label="Protein Granola Bars">Protein Granola Bars</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/variety-packs" aria-label="Quaker Variety Bundles">Quaker Variety Bundles</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/products/rice-snacks" class="dropdown-toggle animate" aria-label="Rice Snacks">
+												<strong>Rice Snacks</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/rice-snacks/rice-crisps" aria-label="Rice Crisps">Rice Crisps</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/rice-snacks/rice-cakes" aria-label="Rice Cakes">Rice Cakes</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/rice-snacks/rice-chips" aria-label="Rice Chips">Rice Chips</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/rice-snacks/rice-thins" aria-label="Rice Thins">Rice Thins</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+																			</div>
+											</div> 
+											</div> 
+											<div class="new-col last-col">	
+								
+																										<ul>						
+
+										<li>
+											<a href="##" class="dropdown-toggle animate" aria-label="By Specialty">
+												<strong>By Specialty</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/organic" aria-label="Organic">Organic</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/gluten-free" aria-label="Gluten Free">Gluten Free</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/variety-packs" aria-label="Variety Packs">Variety Packs</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="##" class="dropdown-toggle animate" aria-label="By Brand">
+												<strong>By Brand</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/snacks/chewy-granola-bars" aria-label="Chewy">Chewy</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/products/cold-cereals/life-cereal" aria-label="Life Cereal">Life Cereal</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+								
+																										<div class="imgSec">
+																		<ul>						
+
+										<li>
+											<a href="##" class="dropdown-toggle animate" aria-label="Featured">
+												<strong>Featured</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/products/hot-cereals/old-fashioned-oats" aria-label="Quaker® Oats Old Fashioned">Quaker® Oats Old Fashioned</a>
+											</li>
+																						<li>
+												<img alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/quaker_old-fasioned_thumb.jpg"></a>
+											</li>
+																							
+										
+									</ul>
+
+																		</div>
+																			
+								
+																</div> 
+																					</div>
+					</div>
+
+					</li>
+															
+										
+					<li class="dropdown Inside">
+						<a href="/inside-quaker" class="dropdown-toggle animate" data-toggle="dropdown" aria-expanded="false" aria-label="About Quaker submenu">About Quaker</a>
+					<div class="subMenuNew about quaker Inside" style="display: none;">
+						<div class="row">
+
+							
+																																																						
+																	
+									<div class="col-sm-12 first-col-12">	
+										<div class="row">
+											<div class="col-sm-12">	
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/about-quaker-oats/quaker-history" class="dropdown-toggle animate" aria-label="Quaker History">
+												<strong>Quaker History</strong>
+											</a>
+										</li>
+
+										
+									</ul>
+
+																			
+								
+															
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/oats-do-more/why-oats/our-oat-story" class="dropdown-toggle animate" aria-label="About Our Oats">
+												<strong>About Our Oats</strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/about-quaker-oats/quaker-oats-center-of-excellence/explore-the-power-of-the-oat" aria-label="The Power of Quaker Oats">The Power of Quaker Oats</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/why-oats/surprising-uses-for-oats" aria-label="Surprising Uses For Oats ">Surprising Uses For Oats </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/why-oats/the-difference-between-our-oats" aria-label="The Difference Between Our Oats">The Difference Between Our Oats</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/about-quaker-oats/quaker-oats-center-of-excellence" aria-label="Oats Center of Excellence ">Oats Center of Excellence </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/why-oats/company-of-firsts" aria-label="A Company of Firsts ">A Company of Firsts </a>
+											</li>
+																							
+											
+																					
+											<li class="bold">
+												<a href="/nourish" aria-label="Relief Efforts">Relief Efforts</a>
+											</li>
+																							
+											
+																					
+											<li class="bold">
+												<a href="https://contact.pepsico.com/quaker" aria-label="Contact Us">Contact Us</a>
+											</li>
+																							
+											
+																					
+											<li class="bold">
+												<a href="https://contact.pepsico.com/quaker/faqs" aria-label="FAQs">FAQs</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+																</div> 
+																					</div>
+					</div>
+
+					</li>
+															
+										
+					<li class="dropdown ">
+						<a href="/extraordinary-oats" class="dropdown-toggle animate" data-toggle="dropdown" aria-expanded="false" aria-label="Health &amp; Nutrition submenu">Health &amp; Nutrition</a>
+					<div class="subMenuNew health &amp; nutrition " style="display: none;">
+						<div class="row">
+
+							
+																																													
+																										
+									<div class="col-sm-12 first-col-6">	
+										<div class="row">
+											<div class="col-sm-6">	
+								
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/extraordinary-oats" class="dropdown-toggle animate" aria-label="Benefits of Oats ">
+												<strong>Benefits of Oats </strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/extraordinary-oats/keep-your-heart-healthy" aria-label="Heart Health ">Heart Health </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/extraordinary-oats/energy-to-keep-you-going" aria-label="Energy">Energy</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/extraordinary-oats/digestive-health-starts-with-oats" aria-label="Digestive Health">Digestive Health</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+															
+								
+																												</div>	
+											<div class="col-sm-3">									
+								
+								
+																										<ul>						
+
+										<li>
+											<a href="/oats-do-more" class="dropdown-toggle animate" aria-label="Living Healthy ">
+												<strong>Living Healthy </strong>
+											</a>
+										</li>
+
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/for-your-family/teaching-healthy-eating-habits" aria-label="Teaching Healthy Eating Habits ">Teaching Healthy Eating Habits </a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/for-your-family/family-nutrition" aria-label="Family Nutrition">Family Nutrition</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/for-your-family/family-fitness" aria-label="Family Fitness">Family Fitness</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/for-your-health/healthy-eating" aria-label="Healthy Eating">Healthy Eating</a>
+											</li>
+																							
+											
+																					
+											<li class="">
+												<a href="/oats-do-more/for-your-health/fiber-and-whole-grains" aria-label="Fiber &amp; Whole grains">Fiber & Whole grains</a>
+											</li>
+																							
+										
+									</ul>
+
+																			
+								
+																</div> 
+																					</div>
+					</div>
+
+					</li>
+															
+										<li class="">
+						<a href="https://www.tastyrewards.com/en-us/dashboard-qgg" aria-label="PepsiCo Tasty Rewards" target="_blank" rel="noopener noreferrer">PepsiCo Tasty Rewards</span>
+					</li>
+														</ul>
+
+				<div class="logo">
+					<a href="/" aria-label="Navigate to home page">
+						<img src="/sites/quakeroats.com/themes/quakeroats/img/Quaker_Logo_Header.png" id="logomain" loading="lazy" alt="Quaker Oats logo">
+					</a>
+				</div>
+				<ul class="subMenu nav navbar-nav pull-right" id="hideMenuItem">
+					<li class="beforelogin account pull-left">
+						<a href="/sign-up">Sign Up /</a>
+						<a href="/sign-in">
+							Sign In</a>
+					</li>
+					<li class="afterlogin account pull-left">
+						<a href="/myprofile" class="noCaps">My Account</a>
+						<a id="A1" class="noCaps" href="javascript:__doPostBack('ctl00$ctl00$A1','')">
+							<span class="bullet">•</span>Logout</a>
+					</li>
+
+					<li class="buy pull-left">
+						<a href="/products/product-locator">Where to Buy</a>
+					</li>
+					<li class="promotion pull-left">
+						<a href="/about-quaker-oats/offers-and-promotions">Promotions</a>
+					</li>
+					<li class="contactus pull-left">
+						<a href="https://contact.pepsico.com/quaker" target="_blank">Contact Us<div class="sr-only">(open in a new tab)</div>
+						</a>
+					</li>
+					<li class="search pull-left">
+						<a role="button" href="#" aria-controls="searchContainerBox">Search<p class="sr-only">&nbsp;(opens a modal)</p>
+						</a>
+					</li>
+
+				</ul>
+
+				<div role="navigation" class="subMenu nav navbar-nav pull-right hide" aria-expanded="false" id="searchContainerBox">
+					<div class="">
+						<div class="input-group">
+							<input aria-label="Search Input" type="text" class="form-control pull-left navbtnBox" id="searchInput" placeholder="Find recipes, products &amp; more">
+							<button aria-label="Search" type="button" class="btn btn-default navBtn" id="searchbtnBox" onclick="SearchRecipe();">
+								<img loading="lazy" alt="" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Header_Icon_Desktop.png" class="img-responsive">
+							</button>
+							<span class="input-group-btn">
+								<button aria-label="Close Search" class="btn btn-default navBtn" id="removeBtn">
+									<img loading="lazy" alt="" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Close_Icon.png" class="img-responsive">
+								</button>
+
+							</span>
 						</div>
 					</div>
-				</nav>
-				<!-- Mobile Header Ends -->
-
-				<!-- Desktop Header starts -->
-				<div class="desktopHeader nocontent">
-					<nav class="navbar navbar-default quakerHeader">
-						<div
-							class="container">
-							<!-- Brand and toggle get grouped for better mobile display -->
-
-							<ul class="mainMenu nav navbar-nav mainNav">
-
-								<li class="dropdown">
-									<a href="/cooking-and-recipes" class="dropdown-toggle animate" data-toggle="dropdown" aria-expanded="false" aria-label="Recipes submenu">Recipes</a>
-
-									<div class="subMenuNew recipes">
-										<div class="row">
-											<div class="col-sm-8">
-												<div class="row">
-													<div class="col-sm-3">
-														<ul>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites">
-																	<strong>OUR FAVORITES*</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/top-rated-recipes">Top Rated</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/family-fun-recipes">Family Fun</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/new-recipes">New</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/easy-recipes">Easy</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/make-ahead-recipes">Make Ahead</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/community-creations">Community Creations</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/5-ingredients-or-less">5 Ingredients or Less</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/our-favorites/summer-time-oats">Summer Time Oats Recipes</a>
-															</li>
-														</ul>
-														<ul>
-															<li><a href="/cooking-and-recipes/meal-type"><strong>MEAL TYPE</strong></a></li>
-															<li><a href="/cooking-and-recipes/meal-type/breakfast-brunch-recipes">Breakfast &amp; Brunch</a></li>
-															<li><a href="/cooking-and-recipes/meal-type/lunch-dinner-recipes">Lunch &amp; Dinner</a></li>
-															<li><a href="/cooking-and-recipes/meal-type/desserts">Dessert</a></li>
-															<li><a href="/cooking-and-recipes/meal-type/snacks">Snacks</a></li>
-															<li><a href="/cooking-and-recipes/meal-type/appetizers-sides">Appetizer &amp; Sides</a></li>
-														</ul>
-													</div>
-													<div class="col-sm-3">
-														<ul>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient">
-																	<strong>BY INGREDIENT
-																	</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/oat-recipes">Oats</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/barley-recipes">Barley</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/oat-flour-recipes">Oat Flour</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/grits-recipes">Grits</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/rice-cakes-recipes">Rice Cakes</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/cornmeal-recipes">Corn Meal</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/by-ingredient/recipes-with-cereal">Cereal</a>
-															</li>
-														</ul>
-														<ul class="diet-menu">
-															<li>
-																<a href="/cooking-and-recipes/dietary-preferences">
-																	<strong>DIETARY PREFERENCES</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/dietary-preferences/heart-healthy-recipes">Heart Healthy</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/dietary-preferences/gluten-free-recipes">Gluten-Free</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/dietary-preferences/vegetarian-recipes">Vegetarian</a>
-															</li>
-														</ul>
-													</div>
-													<div class="col-sm-3">
-														<ul>
-															<li><a href="/cooking-and-recipes/dish-type"><strong>BY DISH</strong></a></li>
-															<li><a href="/cooking-and-recipes/dish-type/oatmeal-recipes">Oatmeal</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/cookies">Cookies</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/cakes">Cakes</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/breads">Bread</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/soups-chilis">Soups &amp; Chilis</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/pies-crumbles-crisps">Pies, Crumbles &amp; Crisps</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/overnight-oats">Overnight Oats</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/smoothies">Smoothies</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/muffins-scones">Muffins &amp; Scones</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/oatmeal-bars">Oatmeal Bars</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/pancakes-waffles">Pancakes &amp; Waffles</a></li>
-															<li><a href="/cooking-and-recipes/dish-type/energy-bites">Energy Bites</a></li>
-														</ul>
-													</div>
-													<div class="col-sm-3">
-														<ul>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions">
-																	<strong>OCCASIONS</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions/party-recipes">Party</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions/christmas-recipes">Christmas</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions/thanksgiving-recipes">Thanksgiving</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions/easter-recipes">Easter</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions/halloween-recipes">Halloween</a>
-															</li>
-															<li>
-																<a href="/cooking-and-recipes/recipes-by-occasions/patriotic-recipes">Patriotic</a>
-															</li>
-														</ul>
-														<ul>
-															<li><a href="/cooking-and-recipes/baking-101/welcome-to-baking-101"><strong>Baking With Quaker</strong></a></li>
-															<li><a href="/cooking-and-recipes/baking-101/welcome-to-baking-101">Baking Overview</a></li>
-															<li><a href="/cooking-and-recipes/baking-101/cookies">Cookies</a></li>
-															<li><a href="/cooking-and-recipes/baking-101/bar-cookies">Bar Cookies</a></li>
-															<li><a href="/cooking-and-recipes/baking-101/muffins">Muffins</a></li>
-															<li><a href="/cooking-and-recipes/baking-101/biscuits">Biscuits</a></li>
-															<li><a href="/cooking-and-recipes/baking-101/quick-breads">Quick Breads</a></li>
-															<li><a href="/cooking-and-recipes/baking-101/yeast-breads">Yeast Breads</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-											<div class="col-sm-4 imageSections">
-												<div class="imgSec prepareOats">
-													<div class="row">
-														<div class="col-sm-6">
-															<a href="/cooking-and-recipes/how-to-prepare-oats" aria-hidden="true">
-																<img class="img-responsive center-block" alt="Oats Bowl" src="/sites/quakeroats.com/themes/quakeroats/img/prepare-oats.jpg"></a>
-														</div>
-														<div class="col-sm-6 imgTxt">
-															<a href="/cooking-and-recipes/how-to-prepare-oats">
-																<strong>How to<br>
-																	Prepare Oats</strong>
-															</a>
-														</div>
-													</div>
-												</div>
-												<div class="imgSec">
-													<div class="row">
-														<div class="col-sm-6">
-															<a href="/cooking-and-recipes/overnight-oats" aria-hidden="true">
-																<img class="img-responsive center-block" alt="Oats Jar" src="/sites/quakeroats.com/themes/quakeroats/img/overnight-oats.jpg"></a>
-														</div>
-														<div class="col-sm-6 imgTxt">
-															<a href="/cooking-and-recipes/overnight-oats">
-																<strong>How to make<br>
-																	Overnight Oats</strong>
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li class="dropdown">
-									<a href="/products" class="dropdown-toggle animate " data-toggle="dropdown" aria-expanded="false" aria-label="Products submenu">Products</a>
-									<div class="subMenuNew products" style="display: none;">
-										<div class="row">
-											<div class="col-sm-8">
-												<div class="row">
-													<div class="col-sm-4">
-														<ul>
-															<li>
-																<a href="/products/hot-cereals">
-																	<strong>Oats &amp; Oatmeal</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/products/hot-cereals/old-fashioned-oats-quick-oats">Old Fashioned &amp; Quick Oats</a>
-															</li>
-															<li>
-																<a href="/products/hot-cereals/instant-oatmeal">Instant Oatmeal</a>
-															</li>
-															<li>
-																<a href="/products/hot-cereals/steel-cut-oats">Steel Cut Oats</a>
-															</li>
-																														<li>
-																<a href="/products/hot-cereals/instant-oatmeal-cups">Instant Oatmeal Cups</a>
-															</li>
-															<li>
-																<a href="/products/gluten-free">Gluten Free Oatmeal</a>
-															</li>
-															<li>
-																<a href="/products/organic">Organic Oatmeal</a>
-															</li>
-															<li>
-																<a href="/products/hot-cereals/oat-bran-hot-cereal">Hot Oat Bran</a>
-															</li>
-															<li>
-																<a href="/products/hot-cereals/grits">
-																	<strong>Grits</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/products/other-products/oat-flour">
-																	<strong>Oat Flour</strong>
-																</a>
-															</li>
-														</ul>
-													</div>
-													<div class="col-sm-4">
-														<ul>
-															<li>
-																<a href="/products/cold-cereals">
-																	<strong>Breakfast Cereals</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/products/cold-cereals/life-cereal">Life Cereal</a>
-															</li>
-															<li>
-																<a href="/products/cold-cereals/chewy-granola">Chewy Granola</a>
-															</li>
-															<li>
-																<a href="/products/cold-cereals/granola">
-																	<strong>Quaker Granola</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/products/cold-cereals/oatmeal-squares">Oatmeal Squares</a>
-															</li>
-																														<li>
-																<a href="/products/other-products">
-																	<strong>Barley, Corn Meal &amp; Mixes</strong>
-																</a>
-															</li>
-															<li>
-																<a href="/products/other-products/barley">Barley</a>
-															</li>
-															<li>
-																<a href="/products/other-products/corn-meal">Corn Meal</a>
-															</li>
-															<li>
-																<a href="/products/other-products/mixes">Mixes</a>
-															</li>
-														</ul>
-													</div>
-													<div class="col-sm-4">
-														<ul>
-															<li><a href="/products/snacks"><strong>Snacks</strong></a></li>
-															<li><a href="/products/snacks/chewy-granola-bars">Chewy Granola Bars</a></li>
-															<li><a href="/products/snacks/protein-granola-bars">Protein Granola Bars</a></li>
-
-															<li><a href="/products/rice-snacks"><strong>Rice Snacks</strong></a></li>
-															<li><a href="/products/rice-snacks/rice-crisps">Rice Crisps</a></li>
-															<li><a href="/products/rice-snacks/rice-cakes">Rice Cakes</a></li>
-															<li><a href="/products/rice-snacks/rice-chips">Rice Chips</a></li>
-															<li><a href="/products/rice-snacks/rice-thins">Rice Thins</a></li>
-														</ul>
-													</div>
-
-												</div>
-											</div>
-											<div class="col-sm-4 imageSections">
-												<ul>
-													<li>
-														<strong>By Specialty</strong>
-													</li>
-													<li>
-														<a href="/products/organic">Organic</a>
-													</li>
-													<li>
-														<a href="/products/gluten-free">Gluten Free</a>
-													</li>
-													<li>
-														<a href="/products/variety-packs">Variety Packs</a>
-													</li>
-												</ul>
-												<ul>
-													<li>
-														<strong>By Brand</strong>
-													</li>
-																										<li>
-														<a href="/products/snacks/chewy-granola-bars">Chewy</a>
-													</li>
-													<li>
-														<a href="/products/cold-cereals/life-cereal">Life Cereal</a>
-													</li>
-												</ul>
-												<div class="imgSec">
-													<ul>
-														<li>
-															<strong>Featured</strong>
-														</li>
-														<li>
-															<a href="/products/hot-cereals/old-fashioned-oats">Quaker<sup>®</sup>
-																Oats Old Fashioned</a>
-														</li>
-														<li>
-															<a href="/products/hot-cereals/old-fashioned-oats" aria-hidden="true">
-																<img src="/sites/quakeroats.com/themes/quakeroats/img/quaker_old-fasioned_thumb.jpg" alt="Quaker Old Fashioned Oats"></a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li class="dropdown dropdown-about">
-									<a href="/inside-quaker" class="dropdown-toggle animate " data-toggle="dropdown" aria-expanded="false" aria-label="About Quaker submenu">About Quaker</a>
-									<div class="subMenuNew Inside" style="display: none;">
-										<div class="row">
-											<div class="col-sm-12">
-												<ul>
-													<li><a href="/about-quaker-oats/quaker-history"><strong>Quaker History</strong></a></li>
-													<li><a href="/oats-do-more/why-oats/our-oat-story"><strong>About Our Oats</strong></a></li>
-													<li><a href="/about-quaker-oats/quaker-oats-center-of-excellence/explore-the-power-of-the-oat">The Power of Quaker Oats</a></li>
-													<li><a href="/oats-do-more/why-oats/surprising-uses-for-oats">Surprising Uses For Oats</a></li>
-													<li><a href="/oats-do-more/why-oats/the-difference-between-our-oats">The Difference Between Our Oats</a></li>
-													<li><a href="/about-quaker-oats/quaker-oats-center-of-excellence">Oats Center of Excellence</a></li>
-													<li><a href="/oats-do-more/why-oats/company-of-firsts">A Company of Firsts</a></li>
-													<li><a href="/nourish"><strong>Relief Efforts</strong></a></li>
-													<li><a href="https://contact.pepsico.com/quaker" target="_blank"><strong>Contact Us</strong></a></li>
-													<li><a href="https://contact.pepsico.com/quaker/faqs" target="_blank"><strong>FAQs</strong></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li class="dropdown dropdown-health">
-									<a href="/extraordinary-oats" class="dropdown-toggle animate " data-toggle="dropdown" aria-expanded="false" aria-label="Health &amp; Nutrition submenu">Health &amp; Nutrition</a>
-									<div class="subMenuNew health" style="display: none;">
-										<div class="row">
-											<div class="col-sm-6">
-												<ul>
-													<li>
-														<a href="/extraordinary-oats">
-															<strong>Benefits of Oats</strong>
-														</a>
-													</li>
-													<li>
-														<a href="/extraordinary-oats/keep-your-heart-healthy">Heart Health</a>
-													</li>
-													<li>
-														<a href="/extraordinary-oats/energy-to-keep-you-going">Energy</a>
-													</li>
-													<li>
-														<a href="/extraordinary-oats/digestive-health-starts-with-oats">Digestive Health</a>
-													</li>
-													<!--<li><a href="/rise-thrive">Rise &amp; Thrive</a></li>-->
-												</ul>
-											</div>
-											<div class="col-sm-6">
-												<ul>
-													<li><a href="/oats-do-more"><strong>Living Healthy</strong></a></li>
-													<li><a href="/oats-do-more/for-your-family/teaching-healthy-eating-habits">Teaching Healthy Eating Habits</a></li>
-													<li><a href="/oats-do-more/for-your-family/family-nutrition">Family Nutrition</a></li>
-													<li><a href="/oats-do-more/for-your-family/family-fitness">Family Fitness</a></li>
-													<li><a href="/oats-do-more/for-your-health/healthy-eating">Healthy Eating</a></li>
-													<li><a href="/oats-do-more/for-your-health/fiber-and-whole-grains">Fiber &amp; Whole grains</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li class="dropdown">
-									<a href="https://www.tastyrewards.com/en-us/dashboard-qgg" aria-label="PepsiCo Tasty Rewards submenu" target="_blank" rel="noopener noreferrer">PepsiCo Tasty Rewards</a>
-								</li>
-							</ul>
-							<div class="logo">
-								<a href="/" aria-label="Navigate to home page">
-									<img src="/sites/quakeroats.com/themes/quakeroats/img/Quaker_Logo_Header.png" id="logomain" loading="lazy" alt="Quaker Oats logo">
-								</a>
-							</div>
-							<ul class="subMenu nav navbar-nav pull-right" id="hideMenuItem">
-								<li class="beforelogin account pull-left">
-									<a href="/sign-up">Sign Up /</a>
-									<a href="/sign-in">
-										Sign In</a>
-								</li>
-								<li class="afterlogin account pull-left">
-									<a href="/myprofile" class="noCaps">My Account</a>
-									<a id="A1" class="noCaps" href="javascript:__doPostBack('ctl00$ctl00$A1','')">
-										<span class="bullet">•</span>Logout</a>
-								</li>
-
-								<li class="buy pull-left">
-									<a href="/products/product-locator">Where to Buy</a>
-								</li>
-								<li class="promotion pull-left">
-									<a href="/about-quaker-oats/offers-and-promotions">Promotions</a>
-								</li>
-								<li class="contactus pull-left">
-									<a href="https://contact.pepsico.com/quaker" target="_blank">Contact Us<div class="sr-only">(open in a new tab)</div>
-									</a>
-								</li>
-								<li class="search pull-left">
-									<a role="button" href="#" aria-controls="searchContainerBox">Search<p class="sr-only">&nbsp;(opens a modal)</p>
-									</a>
-								</li>
-
-							</ul>
-
-							<div role="navigation" class="subMenu nav navbar-nav pull-right hide" aria-expanded="false" id="searchContainerBox">
-								<div class="">
-									<div class="input-group">
-										<input aria-label="Search Input" type="text" class="form-control pull-left navbtnBox" id="searchInput" placeholder="Find recipes, products &amp; more">
-										<button aria-label="Search" type="button" class="btn btn-default navBtn" id="searchbtnBox" onclick="SearchRecipe();">
-											<img loading="lazy" alt="" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Header_Icon_Desktop.png" class="img-responsive">
-										</button>
-										<span class="input-group-btn">
-											<button aria-label="Close Search" class="btn btn-default navBtn" id="removeBtn">
-												<img loading="lazy" alt="" src="/sites/quakeroats.com/themes/quakeroats/img/Search_Close_Icon.png" class="img-responsive">
-											</button>
-
-										</span>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</nav>
-				</div>
-				<!-- Desktop Header Ends -->
-			</header>
-
+				</div>		
+			</div>
+		</nav>
+	</div>
+	<!-- Desktop Header Ends -->
+</header>
 			<!-- MAIN CONTENT -->
 			<main id="main-content" tabindex="-1">
 				  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
@@ -2554,10 +3332,7 @@ g[aT].push(arguments);
 	</div>
 </footer>
 
-			<div class="cookieConsent js-cookie-consent" style="position: fixed; bottom: -2px; left: 0; width: 100%; z-index: 99999;">
-				<div id="consent_blackbar"></div>
-				<script async="async" src="//consent.trustarc.com/notice?domain=pepsico-na-globalcorporate.com&c=teconsent&text=true&js=nj&noticeType=bb&language=en&country=gb&gtm=1&cookieLink=https://contact.pepsico.com/quaker/privacy-policy" crossorigin=""></script>
-			</div>
+		
 
 			
 
@@ -2569,8 +3344,8 @@ g[aT].push(arguments);
 			</script>
 
 			<!-- APP.JS -->
-			<script src="/sites/quakeroats.com/themes/quakeroats/js/app.min.js?v=1727454723845"></script>
-												<script src="/sites/quakeroats.com/themes/quakeroats/js/src/specific/recipe.js?v=1727454723845"></script>
+			<script src="/sites/quakeroats.com/themes/quakeroats/js/app.min.js?v=5_22_2025,_6:16:19 PM"></script>
+												<script src="/sites/quakeroats.com/themes/quakeroats/js/src/specific/recipe.js?v=5_22_2025,_6:16:19 PM"></script>
 							
-		<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1839283759" async></script></body>
+		</body>
 	</html>
