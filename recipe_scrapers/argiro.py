@@ -127,4 +127,11 @@ class Argiro(AbstractScraper):
 
     def instructions(self):
         steps = self.soup.select(".single_recipe__method_steps ol li")
-        return "\n".join(step.get_text(" ", strip=True) for step in steps)
+        cleaned_steps = []
+        punctuation = [".", ",", ";", "!", "?", ":", "·", "…", "–"]
+        for step in steps:
+            text = step.get_text(" ", strip=True).replace("  ", " ")
+            for punct in punctuation:
+                text = text.replace(f" {punct}", punct)
+            cleaned_steps.append(text)
+        return "\n".join(cleaned_steps)
