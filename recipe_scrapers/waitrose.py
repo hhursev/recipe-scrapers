@@ -5,8 +5,10 @@ import re
 
 destep_pattern = re.compile(r"^Step \d+\n")
 
+
 def destep(line):
     return destep_pattern.sub("", line)
+
 
 class Waitrose(AbstractScraper):
     @classmethod
