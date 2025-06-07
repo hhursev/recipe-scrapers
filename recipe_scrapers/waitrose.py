@@ -1,7 +1,12 @@
 from ._abstract import AbstractScraper
 from ._exceptions import StaticValueException
 from ._utils import normalize_string
+import re
 
+destep_pattern = re.compile(r"^Step \d+\n")
+
+def destep(line):
+    return destep_pattern.sub("", line)
 
 class Waitrose(AbstractScraper):
     @classmethod
@@ -25,10 +30,8 @@ class Waitrose(AbstractScraper):
             return url[2:] if url.startswith("//") else url
 
     def ingredients(self):
-        ingredients_div = self.soup.find("div", {"class": "ingredients"})
-
-        if ingredients_div:
-            ingredient_items = ingredients_div.find_all("li")
+        ingredient_items = self.soup.select("div[class^='ingredients'] li")
+        if ingredient_items:
             ingredient_text = [
                 normalize_string(item.get_text())
                 for item in ingredient_items
@@ -36,13 +39,12 @@ class Waitrose(AbstractScraper):
             ]
             return ingredient_text
 
-    def extract_instructions(self):
-        instructions_div = self.soup.find("div", {"class": "ingredients"})
+    def instructions(self):
+        instruction_items = self.soup.select("div[class^='method'] li")
 
-        if instructions_div:
-            instruction_items = instructions_div.find_all("li")
+        if instruction_items:
             instruction_text = [
-                normalize_string(item.get_text())
+                destep(normalize_string(item.get_text()))
                 for item in instruction_items
                 if item.get_text()
             ]
