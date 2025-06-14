@@ -32,7 +32,7 @@ TIME_REGEX = re.compile(
     r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
+SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
     r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b | \bcookies\b | \b(large |small )?buns\b",
@@ -73,7 +73,7 @@ RECIPE_YIELD_TYPES = (
 
 def format_diet_name(diet_input):
     replacements = {
-        # https://schema.org/RestrictedDiet
+        # schema.org/RestrictedDiet
         "DiabeticDiet": "Diabetic Diet",
         "GlutenFreeDiet": "Gluten Free Diet",
         "HalalDiet": "Halal Diet",
@@ -86,8 +86,12 @@ def format_diet_name(diet_input):
         "VeganDiet": "Vegan Diet",
         "VegetarianDiet": "Vegetarian Diet",
     }
-    if "https://schema.org/" in diet_input:
-        diet_input = diet_input.replace("https://schema.org/", "")
+    if "schema.org/" in diet_input:
+        diet_input = diet_input.split("schema.org/")[-1]
+
+    # Exclude results that are just "schema.org/"
+    if diet_input.strip() == "":
+        return None
 
     for key, value in replacements.items():
         if key in diet_input:
@@ -223,21 +227,16 @@ def get_yields(element):
     if best_match:
         return best_match
 
+    plural = "s" if float(matched) > 1 or float(matched) == 0 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return f"{matched} item{'s' if int(matched) != 1 else ''}"
+        return f"{matched} item{plural}"
 
-    return f"{matched} serving{'s' if int(matched) != 1 else ''}"
+    return f"{matched} serving{plural}"
 
 
 def get_equipment(equipment_items):
     # Removes duplicates from results and sorts them in order they appear on site.
-    seen = set()
-    unique_equipment = []
-    for item in equipment_items:
-        if item not in seen:
-            seen.add(item)
-            unique_equipment.append(item)
-    return unique_equipment
+    return list(dict.fromkeys(equipment_items))
 
 
 def normalize_string(string):

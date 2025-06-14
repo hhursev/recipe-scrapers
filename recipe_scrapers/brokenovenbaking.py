@@ -8,12 +8,9 @@ class BrokenOvenBaking(AbstractScraper):
         return "brokenovenbaking.com"
 
     def equipment(self):
-        equipment_items = self.soup.select(
-            ".wprm-recipe-equipment-container .wprm-recipe-equipment-item"
-        )
-        equipment_list = [
-            item.select_one(".wprm-recipe-equipment-name").get_text()
-            for item in equipment_items
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
         ]
-
-        return get_equipment(equipment_list)
+        return get_equipment(equipment_items)

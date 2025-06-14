@@ -27,6 +27,10 @@
   "cuisine": "World",
   "ratings": 4.9,
   "ratings_count": 19,
+  "equipment": [
+    "measuring spoons",
+    "mixing bowl"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "13 kcal",

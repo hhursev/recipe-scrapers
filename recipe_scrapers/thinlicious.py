@@ -8,5 +8,9 @@ class Thinlicious(AbstractScraper):
         return "thinlicious.com"
 
     def equipment(self):
-        equipment_list = self.soup.select(".wprm-recipe-equipment-name")
-        return get_equipment(item.get_text() for item in equipment_list)
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)

@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._utils import get_equipment
 
 
 class SkinnyTaste(AbstractScraper):
@@ -7,14 +8,9 @@ class SkinnyTaste(AbstractScraper):
         return "skinnytaste.com"
 
     def equipment(self):
-        equipment_container = self.soup.find(
-            "div", class_="wprm-recipe-equipment-container"
-        )
-        if equipment_container:
-            return [
-                item.get_text(strip=True)
-                for item in equipment_container.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-            ]
-        return None
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)
