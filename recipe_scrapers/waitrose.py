@@ -18,17 +18,9 @@ class Waitrose(AbstractScraper):
         if home_link := logo.find("a", {"href": "/"}):
             return home_link.text
 
-    def image(self):
-        img_tag = self.soup.find("img", {"itemprop": "image"})
-        if img_tag:
-            url = img_tag.get("src")
-            return url[2:] if url.startswith("//") else url
-
     def ingredients(self):
-        ingredients_div = self.soup.find("div", {"class": "ingredients"})
-
-        if ingredients_div:
-            ingredient_items = ingredients_div.find_all("li")
+        ingredient_items = self.soup.select("[data-testid='ingredients'] li")
+        if ingredient_items:
             ingredient_text = [
                 normalize_string(item.get_text())
                 for item in ingredient_items
@@ -36,14 +28,15 @@ class Waitrose(AbstractScraper):
             ]
             return ingredient_text
 
-    def extract_instructions(self):
-        instructions_div = self.soup.find("div", {"class": "ingredients"})
+    def instructions(self):
+        instruction_items = self.soup.select("[data-test='method'] li")
 
-        if instructions_div:
-            instruction_items = instructions_div.find_all("li")
-            instruction_text = [
-                normalize_string(item.get_text())
-                for item in instruction_items
-                if item.get_text()
-            ]
+        if instruction_items:
+            instruction_text = []
+            for item in instruction_items:
+                line = item.get_text()
+                lower = line.lower().strip()
+                if not lower or (lower.startswith("step ") and lower[5:].isdigit()):
+                    continue
+                instruction_text.append(normalize_string(line))
             return "\n".join(instruction_text)
