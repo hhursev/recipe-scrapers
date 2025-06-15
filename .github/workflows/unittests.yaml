@@ -21,6 +21,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+          allow-prereleases: true
           cache: pip
       - name: Install tests dependencies
         run: pip install ".[tests]"
