@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class NinjaTestKitchen(AbstractScraper):
@@ -8,6 +9,14 @@ class NinjaTestKitchen(AbstractScraper):
 
     def author(self):
         return "Ninja Test Kitchen"
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup.select_one('div.single-ingredients__group[data-unit="imperial"]'),
+            "div.single-ingredients__item > h4.single-ingredients__title",
+            "div.single-ingredients__item ul.single-ingredients__list li",
+        )
 
     def ingredients(self):
         ingredients = []
@@ -39,7 +48,11 @@ class NinjaTestKitchen(AbstractScraper):
             for li in method_list.select("li"):
                 step = li.select_one("p")
                 if step:
-                    instructions.append(step.get_text(strip=True))
+                    text = step.get_text()
+                    parts = text.split(". ", 1)
+                    if len(parts) == 2 and parts[0].isdigit():
+                        text = parts[1]
+                    instructions.append(text)
         return "\n".join(instructions)
 
     def equipment(self):
