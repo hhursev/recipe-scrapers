@@ -1,0 +1,70 @@
+{
+  "author": "Matprat",
+  "canonical_url": "https://www.matprat.no/oppskrifter/gjester/potetsalat/",
+  "site_name": "MatPrat",
+  "host": "matprat.no",
+  "language": "no",
+  "title": "Potetsalat",
+  "ingredients": [
+    "1 kg potet",
+    "4 stk. vårløk",
+    "0,5 stk. løk",
+    "2 stk. hel sylteagurk (eller tilsvarende skivet sylteagurk)",
+    "4 ss majones",
+    "2 dl lettrømme",
+    "1 ss lake av syltet agurk",
+    "1 ss soyasaus",
+    "0,5 ts tabasco"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 kg potet",
+        "4 stk. vårløk",
+        "0,5 stk. løk",
+        "2 stk. hel sylteagurk (eller tilsvarende skivet sylteagurk)"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "4 ss majones",
+        "2 dl lettrømme",
+        "1 ss lake av syltet agurk",
+        "1 ss soyasaus",
+        "0,5 ts tabasco"
+      ],
+      "purpose": "Dressing:"
+    }
+  ],
+  "instructions_list": [
+    "Skrell potetene og kok dem i en kjele med vann til de er møre (bruker du nypoteter er det ikke nødvendig å skrelle dem). Hell av kokevannet og avkjøl potetene helt. Del dem i passe store biter.",
+    "Finkutt vårløk og løk og ha det i en bolle sammen med sylteagurk og potetbiter.",
+    "Bland majones, rømme, sylteagurklake, soyasaus og tabasco. Smak til med litt salt og pepper.",
+    "Vend potetene inn i dressingen. Sett potetsalaten kjølig et par timer før servering. Juster om nødvendig smaken med litt mer salt, pepper og sylteagurklake."
+  ],
+  "category": "Tilbehør,Koldtbord",
+  "yields": "6 servings",
+  "description": "Vår klassiske oppskrift på potetsalat med rømme og majones passer like godt enten det er som tilbehør til grillmaten eller på koldtbordet.",
+  "total_time": 60,
+  "cuisine": "Europa,Norge",
+  "ratings": 4.86,
+  "ratings_count": 366,
+  "nutrients": {
+    "Energi": "212 kcal",
+    "Fett": "10 g",
+    "Protein": "4 g",
+    "Karbohydrater": "23 g"
+  },
+  "image": "https://images.matprat.no/fa47fnd734",
+  "keywords": [
+    "kremet potetsalat",
+    "potetsalat",
+    "klassisk potetsalat",
+    "vanlig potetsalat",
+    "nypotet",
+    "tilbehør til grillmat",
+    "vårløk",
+    "løk"
+  ]
+}
