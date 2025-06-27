@@ -29,7 +29,6 @@ class SchemaOrgFillPlugin(PluginInterface):
         "ingredients",
         "instructions",
         "ratings",
-        "reviews",
         "links",
         "language",
         "nutrients",

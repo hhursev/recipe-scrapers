@@ -160,10 +160,6 @@ class AbstractScraper:
         """Equipment needed for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def reviews(self):
-        """Reviews of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
     def nutrients(self):
         """Nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
