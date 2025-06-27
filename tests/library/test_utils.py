@@ -141,7 +141,6 @@ class TestUtils(unittest.TestCase):
             "ratings",
             "ratings_count",
             "equipment",
-            "reviews",
             "nutrients",
             "dietary_restrictions",
             "image",
