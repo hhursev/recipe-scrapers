@@ -1,5 +1,5 @@
 import re
-
+import functools
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -18,7 +18,8 @@ class WeightWatchers(AbstractScraper):
     # cooking times, yield, difficulty are in a common div in public and non-public recipes
     # but class of that block and sub elements are different
     # so finding the block and extracting a value will be overridden in class for public recipes,
-    # but picking the data item based on order is don in this base class (total_time(), cook_time() and so on)
+    # but picking the data item based on order is done in this base class (total_time(), cook_time() and so on)
+    @functools.cached_property
     def _find_data_container(self):
         return self.soup.find("div", {"class": "styles_container__3N3E8"})
 
@@ -27,27 +28,27 @@ class WeightWatchers(AbstractScraper):
 
     def total_time(self):
         return get_minutes(
-            self._extract_item_field(self._find_data_container().contents[0])
+            self._extract_item_field(self._find_data_container.contents[0])
         )
 
     def prep_time(self):
         return get_minutes(
-            self._extract_item_field(self._find_data_container().contents[1])
+            self._extract_item_field(self._find_data_container.contents[1])
         )
 
     def cook_time(self):
         return get_minutes(
-            self._extract_item_field(self._find_data_container().contents[2])
+            self._extract_item_field(self._find_data_container.contents[2])
         )
 
     def yields(self):
         return get_yields(
-            self._extract_item_field(self._find_data_container().contents[3])
+            self._extract_item_field(self._find_data_container.contents[3])
         )
 
     def difficulty(self):
         return self._extract_item_field(
-            self._find_data_container().contents[4]
+            self._find_data_container.contents[4]
         ).get_text()
 
     #   Alternative way to extract data based on description instead of position

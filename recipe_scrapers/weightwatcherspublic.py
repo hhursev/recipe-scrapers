@@ -1,3 +1,4 @@
+import functools
 from ._exceptions import StaticValueException
 from ._utils import normalize_string
 from .weightwatchers import WeightWatchers
@@ -16,6 +17,7 @@ class WeightWatchersPublic(WeightWatchers):
         _recipe, _delimiter, site_name = title.text.rpartition("|")
         return site_name.lstrip()
 
+    @functools.cached_property
     def _find_data_container(self):
         return self.soup.find("div", {"class": "HorizontalList_list__GESs0"})
 
