@@ -26,6 +26,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "1 small bowl"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "50 kcal",

@@ -236,13 +236,7 @@ def get_yields(element):
 
 def get_equipment(equipment_items):
     # Removes duplicates from results and sorts them in order they appear on site.
-    seen = set()
-    unique_equipment = []
-    for item in equipment_items:
-        if item not in seen:
-            seen.add(item)
-            unique_equipment.append(item)
-    return unique_equipment
+    return list(dict.fromkeys(equipment_items))
 
 
 def normalize_string(string):

@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
-from ._utils import get_yields, normalize_string
+from ._utils import get_yields, normalize_string, get_equipment
 
 
 class MyKitchen101(AbstractScraper):
@@ -43,11 +43,9 @@ class MyKitchen101(AbstractScraper):
         )
 
     def equipment(self):
-        return list(
-            {
-                normalize_string("".join(item.stripped_strings).split("(")[0].strip())
-                for item in self.soup.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-            }
-        )
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)

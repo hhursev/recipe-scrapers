@@ -74,6 +74,9 @@
   "cuisine": "American Inspired",
   "ratings": 4.59,
   "ratings_count": 17,
+  "equipment": [
+    "Instant Pot"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "99 kcal",

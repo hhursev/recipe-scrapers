@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class LifestyleOfAFoodie(AbstractScraper):
@@ -16,11 +17,9 @@ class LifestyleOfAFoodie(AbstractScraper):
         )
 
     def equipment(self):
-        return list(
-            dict.fromkeys(
-                (item.get_text())
-                for item in self.soup.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-            )
-        )
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)
