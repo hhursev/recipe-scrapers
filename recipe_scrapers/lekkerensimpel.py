@@ -22,29 +22,55 @@ class LekkerEnSimpel(AbstractScraper):
         return image["content"] if image else None
 
     def ingredients(self):
-        if self.schema.ingredients():
-            return self.schema.ingredients()
+        schema_ingredients = self.schema.ingredients()
+        if schema_ingredients:
+            return schema_ingredients
 
         ingredient_header = self.soup.find("strong", string="Benodigdheden:")
         if ingredient_header:
-            ingredients = ingredient_header.parent.parent.find_next(
-                name="ul"
-            ).findChildren("li")
-            return [normalize_string(i.get_text()) for i in ingredients]
+            ul = ingredient_header.parent.parent.find_next(name="ul")
+            if ul:
+                return [normalize_string(li.get_text()) for li in ul.find_all("li")]
 
         ingredient_header = self.soup.find("p", string="Benodigdheden:")
         if ingredient_header:
-            ingredients = ingredient_header.parent.find_next(name="ul").findChildren(
-                "li"
-            )
-            return [normalize_string(i.get_text()) for i in ingredients]
+            ul = ingredient_header.parent.find_next(name="ul")
+            if ul:
+                return [normalize_string(li.get_text()) for li in ul.find_all("li")]
+
+        necessities_div = self.soup.find("div", class_="recipe__necessities")
+        if necessities_div:
+            ul = necessities_div.find("ul")
+            if ul:
+                ingredients = []
+                for li in ul.find_all("li", recursive=False):
+                    parts = []
+                    value = li.find("span", class_="value")
+                    measure = li.find("span", class_="measure")
+                    ingredient = li.find("span", class_="ingredient")
+                    description = li.find("span", class_="description")
+
+                    if value and value.get_text(strip=True):
+                        parts.append(value.get_text(strip=True))
+                    if measure and measure.get_text(strip=True):
+                        parts.append(measure.get_text(strip=True))
+                    if ingredient and ingredient.get_text(strip=True):
+                        parts.append(ingredient.get_text(strip=True))
+                    if description and description.get_text(strip=True):
+                        parts.append(f"({description.get_text(strip=True)})")
+
+                    # If no structured spans, fallback to li text
+                    if not parts:
+                        text = li.get_text(strip=True)
+                        if text:
+                            parts.append(text)
+
+                    if parts:
+                        ingredients.append(normalize_string(" ".join(parts)))
+                if ingredients:
+                    return ingredients
 
         raise ElementNotFoundInHtml("Could not find ingredients.")
-
-    def process_ingredients(self, container):
-        ingredients = container.findChildren("li")
-
-        return [normalize_string(i.get_text()) for i in ingredients]
 
     def instructions(self):
         if self.schema.instructions():
