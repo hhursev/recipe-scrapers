@@ -58,18 +58,18 @@ class LekkerEnSimpel(AbstractScraper):
                 for child in p_tag.children:
                     if getattr(child, "name", None) == "b":
                         break
-                    if hasattr(child, "get_text"):
-                        text = child.get_text(strip=True)
-                    else:
-                        text = str(child).strip()
+                    text = (
+                        child.get_text(strip=True)
+                        if hasattr(child, "get_text")
+                        else str(child).strip()
+                    )
                     if text:
                         lines.append(text)
                 return "\n".join(lines)
 
         instructions_head = self.soup.find(string=re.compile("Bereidingswijze"))
         if instructions_head and instructions_head.parent:
-            parent = instructions_head.parent
-            grandparent = parent.parent if parent else None
+            grandparent = instructions_head.parent.parent
             if grandparent:
                 return grandparent.get_text(separator="\n", strip=True)
 
