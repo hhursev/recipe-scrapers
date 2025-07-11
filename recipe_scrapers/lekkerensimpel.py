@@ -52,11 +52,49 @@ class LekkerEnSimpel(AbstractScraper):
 
         instructions_head = self.soup.find("strong", string="Bereidingswijze:")
         if instructions_head:
-            return instructions_head.parent.find_next(name="p")
+            p_tag = instructions_head.find_parent().find_next(name="p")
+            if p_tag:
+                lines = []
+                for child in p_tag.children:
+                    if getattr(child, "name", None) == "b":
+                        break
+                    if hasattr(child, "get_text"):
+                        text = child.get_text(strip=True)
+                    else:
+                        text = str(child).strip()
+                    if text:
+                        lines.append(text)
+                return "\n".join(lines)
 
         instructions_head = self.soup.find(string=re.compile("Bereidingswijze"))
-        if instructions_head.parent:
-            return instructions_head.parent.parent.text
+        if instructions_head and instructions_head.parent:
+            parent = instructions_head.parent
+            grandparent = parent.parent if parent else None
+            if grandparent:
+                return grandparent.get_text(separator="\n", strip=True)
+
+        heading = self.soup.find("h2", class_="wp-block-heading")
+        if heading:
+            lines = []
+            for tag in heading.find_all_next():
+                if tag.name and tag.name.startswith("h"):
+                    break
+                if tag.name == "p":
+                    if tag.find("strong"):
+                        break
+                    lines.append(tag.get_text(strip=True))
+                elif tag.name == "strong":
+                    break
+                elif tag.name == "br" and tag.next_sibling:
+                    sibling_text = tag.next_sibling.strip()
+                    if sibling_text:
+                        lines.append(sibling_text)
+                elif tag.name is None and isinstance(tag, str):
+                    text = tag.strip()
+                    if text:
+                        lines.append(text)
+            if lines:
+                return "\n".join(lines)
 
         raise ElementNotFoundInHtml("Could not find instructions.")
 
