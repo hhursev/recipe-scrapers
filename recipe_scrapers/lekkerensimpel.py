@@ -17,10 +17,6 @@ class LekkerEnSimpel(AbstractScraper):
         title = self.soup.find("h1", {"class": "hero__title"}).text
         return normalize_string(title)
 
-    def image(self):
-        image = self.soup.find("meta", {"property", "og:image"})
-        return image["content"] if image else None
-
     def ingredients(self):
         schema_ingredients = self.schema.ingredients()
         if schema_ingredients:
@@ -130,6 +126,3 @@ class LekkerEnSimpel(AbstractScraper):
         except SchemaOrgException:
             description = self.soup.find("meta", {"name": "description"})
             return description["content"] if description else None
-
-    def language(self):
-        return super().language()
