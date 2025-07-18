@@ -1,5 +1,4 @@
 import json
-from typing import cast
 
 from ._abstract import AbstractScraper
 from ._exceptions import (ElementNotFoundInHtml,
@@ -70,7 +69,7 @@ class Xiachufang(AbstractScraper):
         desc = desc_div.get_text(separator="", strip=True)
         tip_div = self.soup.select_one("div.tip")
         if tip_div:
-            desc += f"\n[小贴士]: {tip_div.get_text(separator="", strip=True)}"
+            desc += f"\n[小贴士]: {normalize_string(tip_div.get_text())}"
         return desc
 
     def total_time(self):
@@ -84,7 +83,5 @@ class Xiachufang(AbstractScraper):
         if not recipe_json:
             return None
         recipe = json.loads(recipe_json.get_text())
-        if not recipe:
-            return []
-        keywords = cast(list[str], recipe["keywords"])
+        keywords = recipe["keywords"]
         return [normalize_string(k) for k in keywords]
