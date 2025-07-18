@@ -1,4 +1,5 @@
 import re
+import functools
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
@@ -46,15 +47,18 @@ class GoodHousekeeping(AbstractScraper):
     def cuisine(self):
         return self.schema.cuisine() or None
 
+    @functools.cached_property
+    def _nutrient_soup(self):
+        return self.soup.find(class_="recipe-body-content")
+
     def _find_nutrient(self, prefix):
-        nutrient = self.nutrient_soup.find(string=re.compile(prefix))
+        nutrient = self._nutrient_soup.find(string=re.compile(prefix))
         if nutrient is not None:
             return re.sub(prefix, "", nutrient, count=1).lstrip(":").strip()
         else:
             return None
 
     def nutrients(self):
-        self.nutrient_soup = self.soup.find(class_="recipe-body-content")
         nutrients = {
             "calories": self._find_nutrient("Calories"),
             "fatContent": self._find_nutrient("(Total )?[Ff]at"),

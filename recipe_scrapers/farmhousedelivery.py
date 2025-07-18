@@ -1,5 +1,6 @@
 import re
 
+import functools
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
@@ -59,6 +60,7 @@ class FarmhouseDelivery(AbstractScraper):
 
         return None
 
+    @functools.cached_property
     def _instructions_list(self):
         # Style 1
         instructions_marker = self.soup.find("p", string=re.compile(r"Instructions:"))
@@ -95,7 +97,7 @@ class FarmhouseDelivery(AbstractScraper):
         return None
 
     def instructions(self):
-        data = self._instructions_list()
+        data = self._instructions_list
         return "\n".join(data) if data else None
 
     def image(self):

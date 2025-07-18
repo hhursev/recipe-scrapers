@@ -1,3 +1,4 @@
+import functools
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -8,16 +9,16 @@ class PopSugar(AbstractScraper):
         return "popsugar.com"
 
     def title(self):
-        title = self._context().find("h2", {"class": "recipe-title"}).get_text()
+        title = self._context.find("h2", {"class": "recipe-title"}).get_text()
         return normalize_string(title)
 
     def total_time(self):
-        anchor = self._context().find(string="Total Time")
+        anchor = self._context.find(string="Total Time")
         time = anchor.parent.findNext("dd").get_text()
         return get_minutes(time)
 
     def yields(self):
-        anchor = self._context().find(string="Yield")
+        anchor = self._context.find(string="Yield")
         serves = anchor.parent.findNext("dd").get_text()
         return get_yields(serves)
 
@@ -28,7 +29,7 @@ class PopSugar(AbstractScraper):
         return article
 
     def ingredients(self):
-        container = self._context().find("h3", string="Ingredients").parent
+        container = self._context.find("h3", string="Ingredients").parent
         entries = container.findAll("li")
 
         ingredients = []
@@ -50,8 +51,9 @@ class PopSugar(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        container = self._context().find("h3", string="Directions").parent
+        container = self._context.find("h3", string="Directions").parent
         return "\n".join([entry.get_text() for entry in container.findAll("li")])
 
+    @functools.cached_property
     def _context(self):
         return self.soup.find("div", {"class": "recipe-card"})

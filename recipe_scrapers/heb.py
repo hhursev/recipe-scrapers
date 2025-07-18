@@ -1,3 +1,4 @@
+import functools
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -27,6 +28,7 @@ class HEB(AbstractScraper):
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
+    @functools.cached_property
     def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"data-qe-id": "recipeInstructionsContainer"}
@@ -37,7 +39,7 @@ class HEB(AbstractScraper):
         ]
 
     def instructions(self):
-        data = self._instructions_list()
+        data = self._instructions_list
         return "\n".join(data) if data else None
 
     def image(self):
