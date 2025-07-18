@@ -1,12 +1,21 @@
+import json
+
 from ._abstract import AbstractScraper
-from ._exceptions import FieldNotProvidedByWebsiteException
+from ._exceptions import ElementNotFoundInHtml, FieldNotProvidedByWebsiteException
 from ._grouping_utils import group_ingredients
+from ._utils import normalize_string
 
 
 class Xiachufang(AbstractScraper):
     @classmethod
     def host(cls):
         return "xiachufang.com"
+
+    def site_name(self):
+        return "下厨房"
+
+    def language(self):
+        return "zh-CN"
 
     def title(self):
         title_tag = self.soup.select_one("h1.page-title")
@@ -48,22 +57,30 @@ class Xiachufang(AbstractScraper):
                 steps.append(text)
         return "\n".join(steps)
 
-    def keywords(self):
-        keywords = []
-        keyword_links = self.soup.select("div.recipe-cats a")
-        for link in keyword_links:
-            text = link.get_text(strip=True)
-            if text and text not in keywords:
-                keywords.append(text)
-        return keywords
+    def category(self):
+        category_tags = self.soup.select("div.recipe-cats > a")
+        return ", ".join((normalize_string(t.get_text()) for t in category_tags))
 
     def description(self):
         desc_div = self.soup.select_one("div.desc")
-        if desc_div:
-            return desc_div.get_text(separator="", strip=True)
+        if not desc_div:
+            raise ElementNotFoundInHtml("Could not find description")
+        desc = desc_div.get_text(separator="", strip=True)
+        tip_div = self.soup.select_one("div.tip")
+        if tip_div:
+            desc += f"\n[小贴士]: {normalize_string(tip_div.get_text())}"
+        return desc
 
     def total_time(self):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         raise FieldNotProvidedByWebsiteException(return_value=None)
+
+    def keywords(self):
+        recipe_json = self.soup.select_one("script[type='application/ld+json']")
+        if not recipe_json:
+            return None
+        recipe = json.loads(recipe_json.get_text())
+        keywords = recipe["keywords"]
+        return [normalize_string(k) for k in keywords]
