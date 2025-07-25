@@ -43,9 +43,6 @@ class GoodHousekeeping(AbstractScraper):
             ]
         )
 
-    def cuisine(self):
-        return self.schema.cuisine() or None
-
     def _find_nutrient(self, prefix):
         nutrient = self.nutrient_soup.find(string=re.compile(prefix))
         if nutrient is not None:
@@ -69,3 +66,8 @@ class GoodHousekeeping(AbstractScraper):
             for nutrient, quantity in nutrients.items()
             if quantity is not None
         }
+
+    def keywords(self):
+        keywords = self.schema.keywords()
+        filtered_keywords = [kw for kw in keywords if ": " not in kw]
+        return filtered_keywords
