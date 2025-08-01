@@ -19,9 +19,6 @@ class Mob(AbstractScraper):
         chefs = self.recipe_json.get("chefs", [])
         return " & ".join([chef["title"] for chef in chefs]) if chefs else "Mob Team"
 
-    def category(self):
-        return ", ".join([type["title"] for type in self.recipe_json.get("types", [])])
-
     def instructions(self):
         return "\n".join(
             [
