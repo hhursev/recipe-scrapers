@@ -18,11 +18,3 @@ class Mob(AbstractScraper):
     def author(self):
         chefs = self.recipe_json.get("chefs", [])
         return " & ".join([chef["title"] for chef in chefs]) if chefs else "Mob Team"
-
-    def instructions(self):
-        return "\n".join(
-            [
-                instruction["description"]
-                for instruction in self.recipe_json.get("method", [])
-            ]
-        )
