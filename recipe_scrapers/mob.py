@@ -47,9 +47,3 @@ class Mob(AbstractScraper):
         return ", ".join(
             [cuisine["title"] for cuisine in self.recipe_json.get("cuisines", [])]
         )
-
-    def description(self):
-        return self.recipe_json.get("summary", "")
-
-    def ratings(self):
-        return round(float(self.recipe_json.get("averageRating", "0")), 2)
