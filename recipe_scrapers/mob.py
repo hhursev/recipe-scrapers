@@ -1,7 +1,6 @@
 import json
 
 from ._abstract import AbstractScraper
-from ._grouping_utils import IngredientGroup
 
 
 class Mob(AbstractScraper):
@@ -35,37 +34,6 @@ class Mob(AbstractScraper):
 
     def image(self):
         return self.recipe_json.get("image", [])[0]["url"]
-
-    def ingredient_groups(self):
-        result = []
-        current_section = None
-
-        empty_section = {"ingredients": [], "purpose": None}
-        for item in self.recipe_json.get("recipeIngredients", []):
-            if item.get("typeHandle") == "header":
-                # If the item is a header, create a new section
-                current_section = {"ingredients": [], "purpose": item.get("heading")}
-                result.append(current_section)
-            elif item.get("typeHandle") == "ingredient":
-                if current_section is not None:
-                    current_section["ingredients"].append(item.get("label"))
-                else:
-                    empty_section["ingredients"].append(item.get("label"))
-        if len(empty_section["ingredients"]):
-            result.append(empty_section)
-        return [
-            IngredientGroup(
-                ingredient_group["ingredients"], ingredient_group["purpose"]
-            )
-            for ingredient_group in result
-        ]
-
-    def ingredients(self):
-        return [
-            ingredient["label"]
-            for ingredient in self.recipe_json.get("recipeIngredients", [])
-            if "label" in ingredient
-        ]
 
     def instructions(self):
         return "\n".join(
