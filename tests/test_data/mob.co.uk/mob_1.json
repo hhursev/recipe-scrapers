@@ -6,38 +6,16 @@
   "language": "en",
   "title": "Chilli Cheese Paratha",
   "ingredients": [
-    "200g Plain Flour",
-    "140ml Hot Water",
-    "7 Garlic Cloves",
-    "3 Tsp Chilli Powder",
-    "Handful Of Coriander",
-    "3 Spring Onions",
-    "250g Mozzarella",
-    "250g Cheddar Cheese",
+    "Plain Flour",
+    "Water",
+    "Garlic",
+    "Chilli Powder",
+    "Coriander",
+    "Spring Onion",
+    "Mozzarella",
+    "Cheddar Cheese",
     "Salt",
     "Vegetable Oil"
-  ],
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "200g Plain Flour",
-        "140ml Hot Water"
-      ],
-      "purpose": "The Dough"
-    },
-    {
-      "ingredients": [
-        "7 Garlic Cloves",
-        "3 Tsp Chilli Powder",
-        "Handful Of Coriander",
-        "3 Spring Onions",
-        "250g Mozzarella",
-        "250g Cheddar Cheese",
-        "Salt",
-        "Vegetable Oil"
-      ],
-      "purpose": "The Filling"
-    }
   ],
   "instructions_list": [
     "Combine the plain flour, a pinch of salt and hot water (from the kettle) in a bowl and mix with a wooden spoon. Once it is cool enough to handle, knead the dough for 5 minutes until smooth. Pour in a tablespoon of oil and knead through. Cover and rest for 10 minutes",
@@ -54,5 +32,20 @@
   "total_time": 30,
   "cuisine": "Indian",
   "ratings": 4.65,
-  "image": "https://files.mob-cdn.co.uk/recipes/2023/11/Chilli-Cheese-Paratha.jpg"
+  "ratings_count": 53,
+  "nutrients": {
+    "servingSize": "4"
+  },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
+  "image": "https://files.mob-cdn.co.uk/recipes/2023/11/Chilli-Cheese-Paratha.jpg",
+  "keywords": [
+    "chilli cheese paratha",
+    "indian cheese paratha",
+    "indian paratha recipe",
+    "cheese paratha recipe",
+    "chilli cheese paratha recipe",
+    "cheesy paratha recipe"
+  ]
 }
