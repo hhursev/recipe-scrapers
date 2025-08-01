@@ -182,7 +182,8 @@ def get_minutes(element):
 
     total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
     # Rounding to the nearest whole number, considering seconds
-    return round(total_minutes)
+    rounded_minutes = round(total_minutes)
+    return None if rounded_minutes == 0 else rounded_minutes
 
 
 def get_yields(element):
