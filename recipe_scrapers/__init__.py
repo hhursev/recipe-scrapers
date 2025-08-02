@@ -295,6 +295,7 @@ from .mealprepmanual import MealPrepManual
 from .meganvskitchen import MeganVsKitchen
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
+from .migusto import Migusto
 from .miljuschka import Miljuschka
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
@@ -803,6 +804,7 @@ SCRAPERS = {
     MeganVsKitchen.host(): MeganVsKitchen,
     Meljoulwan.host(): Meljoulwan,
     MelsKitchenCafe.host(): MelsKitchenCafe,
+    Migusto.host(): Migusto,
     Miljuschka.host(): Miljuschka,
     Mindmegette.host(): Mindmegette,
     Minimalistbaker.host(): Minimalistbaker,
