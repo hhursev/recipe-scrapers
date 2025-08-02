@@ -8,4 +8,3 @@ class Migusto(AbstractScraper):
 
     def image(self):
         return self.soup.find("meta", {"property": "og:image"})["content"]
-
