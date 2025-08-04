@@ -73,3 +73,8 @@ class GoodHousekeeping(AbstractScraper):
             for nutrient, quantity in nutrients.items()
             if quantity is not None
         }
+
+    def keywords(self):
+        keywords = self.schema.keywords()
+        filtered_keywords = [kw for kw in keywords if ": " not in kw]
+        return filtered_keywords
