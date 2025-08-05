@@ -1,4 +1,5 @@
 import re
+import functools
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
@@ -19,18 +20,19 @@ class NHSHealthierFamilies(AbstractScraper):
             title = title[:-7]
         return title
 
+    @functools.cached_property
     def _get_recipe_content(self):
         container = self.soup.find("div", {"class": "bh-recipe__description"})
         descriptions = container.findAll("p")
         return "".join([description.get_text() for description in descriptions])
 
     def prep_time(self):
-        content = self._get_recipe_content()
+        content = self._get_recipe_content
         prep_time = re.search(r"Prep: (\d+) mins", content)
         return get_minutes(prep_time.group(0)) if prep_time else 0
 
     def cook_time(self):
-        content = self._get_recipe_content()
+        content = self._get_recipe_content
         cook_time = re.search(r"Cook: (\d+) mins", content)
         return get_minutes(cook_time.group(0)) if cook_time else 0
 
@@ -38,7 +40,7 @@ class NHSHealthierFamilies(AbstractScraper):
         return self.prep_time() + self.cook_time()
 
     def yields(self):
-        content = self._get_recipe_content()
+        content = self._get_recipe_content
         recipe_yields = re.search(r"Serves (\d+)", content)
         return get_yields(recipe_yields.group(0)) if recipe_yields else None
 
