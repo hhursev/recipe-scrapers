@@ -12,26 +12,29 @@
     "1 cl Citronjuice",
     "1 cl Grenadin"
   ],
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "6 cl Kokoslikör",
-        "6 cl Ananasjuice",
-        "6 cl Apelsinjuice",
-        "1 cl Citronjuice",
-        "1 cl Grenadin"
-      ],
-      "purpose": null
-    }
-  ],
-  "instructions": "Häll ner alla ingredienser i en shaker.\nFyll upp shakern med is och skaka tills drinken blivit kall.\nSila upp din Bahama Mama i ett glas med krossad is och garnera med ananas och körsbär.",
   "instructions_list": [
     "Häll ner alla ingredienser i en shaker.",
     "Fyll upp shakern med is och skaka tills drinken blivit kall.",
     "Sila upp din Bahama Mama i ett glas med krossad is och garnera med ananas och körsbär."
   ],
-  "yields": 1,
+  "category": "Drink",
+  "yields": null,
   "description": "Bahama Mama är en god, fruktig och exotisk drink.",
   "total_time": 6,
+  "cook_time": 4,
+  "prep_time": 2,
+  "ratings": 5.0,
+  "ratings_count": 2,
+  "equipment": [
+    "Hurricaneglas",
+    "Inlagda körsbär",
+    "Shaker",
+    "Jigger",
+    "Citruspress",
+    "Cocktailsil",
+    "Finmaskig sil",
+    "Iskross",
+    "Barset med shaker"
+  ],
   "image": "https://drinkoteket.se/wp-content/uploads/bahama-mama-1-860x860.jpg"
 }

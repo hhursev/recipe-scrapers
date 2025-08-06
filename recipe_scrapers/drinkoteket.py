@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class Drinkoteket(AbstractScraper):
@@ -8,46 +7,18 @@ class Drinkoteket(AbstractScraper):
     def host(cls):
         return "drinkoteket.se"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
+    def ingredients(self):
+        items = []
+        for li in self.soup.select("ul.ingredients > li"):
+            if "separator" in li.get("class", []):
+                break
+            text = li.get_text()
+            if text:
+                items.append(text.strip())
+        return items
 
     def yields(self):
-        return 1
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        ingredients_element = self.soup.find("ul", {"class": "ingredients"})
-
-        ingredients_separator = ingredients_element.find("li", {"class": "separator"})
-
-        if ingredients_separator is not None:
-            separator_index = ingredients_element.index(ingredients_separator)
-            raw_list = ingredients_element.findAll("span")[0::2][:separator_index]
-        else:
-            raw_list = ingredients_element.findAll("span")[0::2]
-
-        ingredients = [i.getText().strip() for i in raw_list]
-        return ingredients
-
-    def instructions(self):
-        return self.schema.instructions()
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
+    def equipment(self):
+        return [e.get_text(strip=True) for e in self.soup.select("div.rbs-img-content")]
