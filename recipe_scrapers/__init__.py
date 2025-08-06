@@ -57,7 +57,7 @@ from .alexandracooks import AlexandraCooks
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
 from .allthehealthythings import AllTheHealthyThings
-from .alltomat import AllTomat
+from .alltommat import AlltOmMat
 from .altonbrown import AltonBrown
 from .amazingoriental import AmazingOriental
 from .amazingribs import AmazingRibs
@@ -105,6 +105,7 @@ from .carlsbadcravings import CarlsBadCravings
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .celebratingsweets import CelebratingSweets
+from .chefjackovens import ChefJackOvens
 from .chefjeanpierre import ChefJeanPierre
 from .chefkoch import Chefkoch
 from .chefnini import Chefnini
@@ -160,10 +161,10 @@ from .eggsca import EggsCa
 from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
-from .everydaypie import EverydayPie
 from .erinliveswhole import ErinLivesWhole
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
+from .everydaypie import EverydayPie
 from .evolvingtable import EvolvingTable
 from .familyfoodonthetable import FamilyfoodOnTheTable
 from .farmhousedelivery import FarmhouseDelivery
@@ -295,6 +296,7 @@ from .mealprepmanual import MealPrepManual
 from .meganvskitchen import MeganVsKitchen
 from .meljoulwan import Meljoulwan
 from .melskitchencafe import MelsKitchenCafe
+from .migusto import Migusto
 from .miljuschka import Miljuschka
 from .mindmegette import Mindmegette
 from .minimalistbaker import Minimalistbaker
@@ -542,7 +544,7 @@ SCRAPERS = {
     ALittleBitYummy.host(): ALittleBitYummy,
     AllRecipes.host(): AllRecipes,
     AllTheHealthyThings.host(): AllTheHealthyThings,
-    AllTomat.host(): AllTomat,
+    AlltOmMat.host(): AlltOmMat,
     AltonBrown.host(): AltonBrown,
     AmazingOriental.host(): AmazingOriental,
     AmazingRibs.host(): AmazingRibs,
@@ -592,6 +594,7 @@ SCRAPERS = {
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
     CelebratingSweets.host(): CelebratingSweets,
+    ChefJackOvens.host(): ChefJackOvens,
     ChefJeanPierre.host(): ChefJeanPierre,
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
@@ -648,10 +651,10 @@ SCRAPERS = {
     ElaVegan.host(): ElaVegan,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Epicurious.host(): Epicurious,
-    EverydayPie.host(): EverydayPie,
     ErinLivesWhole.host(): ErinLivesWhole,
     ErrensKitchen.host(): ErrensKitchen,
     EthanChlebowski.host(): EthanChlebowski,
+    EverydayPie.host(): EverydayPie,
     EvolvingTable.host(): EvolvingTable,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FarmhouseDelivery.host(): FarmhouseDelivery,
@@ -803,6 +806,7 @@ SCRAPERS = {
     MeganVsKitchen.host(): MeganVsKitchen,
     Meljoulwan.host(): Meljoulwan,
     MelsKitchenCafe.host(): MelsKitchenCafe,
+    Migusto.host(): Migusto,
     Miljuschka.host(): Miljuschka,
     Mindmegette.host(): Mindmegette,
     Minimalistbaker.host(): Minimalistbaker,

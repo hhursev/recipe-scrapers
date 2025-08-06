@@ -2,7 +2,7 @@ from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class AllTomat(AbstractScraper):
+class AlltOmMat(AbstractScraper):
     @classmethod
     def host(cls):
         return "alltommat.se"

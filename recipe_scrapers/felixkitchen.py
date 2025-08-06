@@ -1,3 +1,4 @@
+import functools
 from ._abstract import AbstractScraper
 from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
@@ -33,7 +34,7 @@ class FelixKitchen(AbstractScraper):
     def ingredients(self):
         ingredients = []
 
-        step_divs = self._get_step_divs()
+        step_divs = self._get_step_divs
         for step_div in step_divs:
             ingredients_div = step_div.find("div")
             ingredients_em_list = ingredients_div.find_all("em")
@@ -48,7 +49,7 @@ class FelixKitchen(AbstractScraper):
     def instructions(self):
         instruction_lines = []
 
-        step_divs = self._get_step_divs()
+        step_divs = self._get_step_divs
         for step_div in step_divs:
             instructions_div = step_div.find_all("div")[1]
             instructions_p_list = instructions_div.find_all("p")
@@ -76,5 +77,6 @@ class FelixKitchen(AbstractScraper):
             lines.append(child.text)
         return "\n".join(lines)
 
+    @functools.cached_property
     def _get_step_divs(self):
         return self.soup.select('div[class*="wp-block-columns is-layout-flex"]')

@@ -1,3 +1,4 @@
+import functools
 import re
 
 from ._abstract import AbstractScraper
@@ -13,7 +14,7 @@ class KitchenAidAustralia(AbstractScraper):
     def total_time(self):
         time_pattern = re.compile("time", re.IGNORECASE)
 
-        summary = self._get_summary()
+        summary = self._get_summary
         time_items = summary.find_all("strong", string=time_pattern)
 
         if not time_items:
@@ -29,14 +30,14 @@ class KitchenAidAustralia(AbstractScraper):
         return self._get_summary_value("Makes")
 
     def ingredients(self):
-        recipe = self._get_recipe()
+        recipe = self._get_recipe
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
         elements = self._parse_list(ingredients)
         return elements
 
     def ingredient_groups(self) -> list[IngredientGroup]:
-        recipe = self._get_recipe()
+        recipe = self._get_recipe
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
         groups = []
@@ -54,17 +55,19 @@ class KitchenAidAustralia(AbstractScraper):
         return "\n".join(self.instructions_list())
 
     def instructions_list(self) -> list[str]:
-        recipe = self._get_recipe()
+        recipe = self._get_recipe
         method = recipe.find("div", {"class": "rightPanel"})
 
         return self._parse_list(method)
 
+    @functools.cached_property
     def _get_recipe(self):
         """
         Get the recipe container element.
         """
         return self.soup.find("article")
 
+    @functools.cached_property
     def _get_summary(self):
         """
         Get the summary container element.
@@ -75,7 +78,7 @@ class KitchenAidAustralia(AbstractScraper):
         """
         Get the value from the given summary field search string.
         """
-        summary = self._get_summary()
+        summary = self._get_summary
 
         item = summary.find("strong", string=field)
         return self._parse_summary_item(item)
