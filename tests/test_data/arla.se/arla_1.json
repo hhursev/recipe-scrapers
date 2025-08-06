@@ -6,41 +6,41 @@
   "language": "sv",
   "title": "Reuben sandwich",
   "ingredients": [
-    "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
-    "1 dl surkål",
-    "1 dl riven Arla Ko Präst® Ost 31%",
-    "8 skivor surdegsbröd",
+    "400 g Pastrami, kokt oxbringa eller skivad grillad rostbiff",
+    "1 dl Surkål",
+    "1 dl Riven Arla Ko Präst® Ost 31%",
+    "8 skivor Surdegsbröd",
     "50 g Svenskt Smör från Arla®, smält",
-    "4 saltgurkor",
-    "1 schalottenlök",
-    "½ grön paprika",
-    "1 dl majonnäs",
-    "1 msk chilisås",
-    "1 tsk paprikapulver",
-    "1 tsk dijonsenap",
-    "½ krm tabasco"
+    "4 Saltgurkor",
+    "1 Schalottenlök",
+    "½ Grön paprika",
+    "1 dl Majonnäs",
+    "1 msk Chilisås",
+    "1 tsk Paprikapulver",
+    "1 tsk Dijonsenap",
+    "½ krm Tabasco"
   ],
   "ingredient_groups": [
     {
       "ingredients": [
-        "400 g pastrami, kokt oxbringa eller skivad grillad rostbiff",
-        "1 dl surkål",
-        "1 dl riven Arla Ko Präst® Ost 31%",
-        "8 skivor surdegsbröd",
+        "400 g Pastrami, kokt oxbringa eller skivad grillad rostbiff",
+        "1 dl Surkål",
+        "1 dl Riven Arla Ko Präst® Ost 31%",
+        "8 skivor Surdegsbröd",
         "50 g Svenskt Smör från Arla®, smält",
-        "4 saltgurkor"
+        "4 Saltgurkor"
       ],
       "purpose": null
     },
     {
       "ingredients": [
-        "1 schalottenlök",
-        "½ grön paprika",
-        "1 dl majonnäs",
-        "1 msk chilisås",
-        "1 tsk paprikapulver",
-        "1 tsk dijonsenap",
-        "½ krm tabasco"
+        "1 Schalottenlök",
+        "½ Grön paprika",
+        "1 dl Majonnäs",
+        "1 msk Chilisås",
+        "1 tsk Paprikapulver",
+        "1 tsk Dijonsenap",
+        "½ krm Tabasco"
       ],
       "purpose": "Dressing:"
     }
@@ -58,9 +58,10 @@
   "yields": "4 servings",
   "description": "Reuben sandwich är en amerikansk macka med mycket pastrami, saltgurka och så kallad rysk dressing. Bröden fylls med alla godsaker fär att sedan smörstekas. En riktig mack-klassiker som är perfekt att bjuda på till brunch!",
   "total_time": 40,
+  "prep_time": 30,
   "cuisine": "Amerikansk",
-  "ratings": 4.4,
-  "ratings_count": 19,
+  "ratings": 4.3,
+  "ratings_count": 27,
   "nutrients": {
     "calories": "920 kcal",
     "fatContent": "61 g",
@@ -68,7 +69,7 @@
     "proteinContent": "43 g",
     "type": "NutritionInformation"
   },
-  "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?format=webp&width=1300&height=525&mode=crop&crop=(0,332,0,−312)",
+  "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?width=1300&height=525&mode=crop&crop=(0,332,0,-312)&format=webp",
   "keywords": [
     "Smörgås"
   ]

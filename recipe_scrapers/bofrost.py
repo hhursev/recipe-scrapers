@@ -1,3 +1,5 @@
+import functools
+
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -6,6 +8,10 @@ class Bofrost(AbstractScraper):
     @classmethod
     def host(cls):
         return "bofrost.de"
+
+    @functools.cached_property
+    def _nutrients(self):
+        return self.soup.select_one(".recipe-nutrations")
 
     def nutrients(self):
         self._nutrients = self.soup.select_one(".recipe-nutrations")

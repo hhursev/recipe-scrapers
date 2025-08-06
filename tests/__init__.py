@@ -33,7 +33,6 @@ OPTIONAL_TESTS = [
     "cooking_method",
     "keywords",
     "ratings",
-    "reviews",
     "equipment",
     "ratings_count",
     "dietary_restrictions",
