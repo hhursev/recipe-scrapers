@@ -1,16 +1,42 @@
-# mypy: disallow_untyped_defs=False
+from __future__ import annotations
+
+from collections import defaultdict
 from dataclasses import dataclass
-from typing import Dict, List, Optional
 
 from bs4 import BeautifulSoup
 
 from ._utils import normalize_string
 
+DEFAULT_GROUPINGS: list[tuple[str, list[str], list[str]]] = [
+    (
+        "wprm",
+        [
+            ".wprm-recipe-ingredient-group h4",
+            ".wprm-recipe-group-name",
+        ],
+        [
+            ".wprm-recipe-ingredient",
+            ".wprm-recipe-ingredients li",
+        ],
+    ),
+    (
+        "tasty",
+        [
+            ".tasty-recipes-ingredients-body p strong",
+            ".tasty-recipes-ingredients h4",
+        ],
+        [
+            ".tasty-recipes-ingredients-body ul li",
+            ".tasty-recipes-ingredients ul li",
+        ],
+    ),
+]
+
 
 @dataclass
 class IngredientGroup:
-    ingredients: List[str]
-    purpose: Optional[str] = (
+    ingredients: list[str]
+    purpose: str | None = (
         None  # this group of ingredients is {purpose} (e.g. "For the dressing")
     )
 
@@ -50,7 +76,7 @@ def score_sentence_similarity(first: str, second: str) -> float:
     return 2 * intersection / (len(first_bigrams) + len(second_bigrams))
 
 
-def best_match(test_string: str, target_strings: List[str]) -> str:
+def best_match(test_string: str, target_strings: list[str]) -> str:
     """Find the best match for a given test string within a list of target strings.
 
     This function utilizes the score_sentence_similarity function to compare the test string
@@ -61,7 +87,7 @@ def best_match(test_string: str, target_strings: List[str]) -> str:
     ----------
     test_string : str
         The string to find the best match for.
-    target_strings : List[str]
+    target_strings : list[str]
         A list of strings to compare against the test string.
 
     Returns
@@ -78,11 +104,11 @@ def best_match(test_string: str, target_strings: List[str]) -> str:
 
 
 def group_ingredients(
-    ingredients_list: List[str],
+    ingredients_list: list[str],
     soup: BeautifulSoup,
-    group_heading: str,
-    group_element: str,
-) -> List[IngredientGroup]:
+    group_heading: str | None = None,
+    group_element: str | None = None,
+) -> list[IngredientGroup]:
     """
     Group ingredients into sublists according to the heading in the recipe.
 
@@ -91,20 +117,23 @@ def group_ingredients(
     group with all ingredients. It ensures ingredient groupings match those in
     the .ingredients() method of a scraper by comparing the text against the ingredients list.
 
+    If no selectors are provided, it attempts to auto-detect grouping selectors
+    from known defaults.
+
     Parameters
     ----------
-    ingredients_list : List[str]
+    ingredients_list : list[str]
         Ingredients extracted by the scraper.
     soup : BeautifulSoup
         Parsed HTML of the recipe page.
-    group_heading : str
-        CSS selector for ingredient group headings.
-    group_element : str
-        CSS selector for ingredient list items.
+    group_heading : str | None
+        CSS selector for ingredient group headings. If None, auto-detection is attempted.
+    group_element : str | None
+        CSS selector for ingredient list items. If None, auto-detection is attempted.
 
     Returns
     -------
-    List[IngredientGroup]
+    list[IngredientGroup]
         groupings of ingredients categorized by their purpose or heading.
 
     Raises
@@ -113,28 +142,43 @@ def group_ingredients(
         If the number of elements selected does not match the length of ingredients_list.
     """
 
+    if group_heading is None or group_element is None:
+        for _, heading_opts, element_opts in DEFAULT_GROUPINGS:
+            for heading_sel in heading_opts:
+                for element_sel in element_opts:
+                    if soup.select(heading_sel) and soup.select(element_sel):
+                        group_heading = heading_sel
+                        group_element = element_sel
+                        break
+                if group_heading and group_element:
+                    break
+            if group_heading and group_element:
+                break
+
+    if not group_heading or not group_element:
+        return [IngredientGroup(ingredients=ingredients_list)]
+
     found_ingredients = soup.select(group_element)
     if len(found_ingredients) != len(ingredients_list):
         raise ValueError(
             f"Found {len(found_ingredients)} grouped ingredients but was expecting to find {len(ingredients_list)}."
         )
 
-    groupings: Dict[Optional[str], List[str]] = {None: []}
-    current_heading = None
-
+    groupings: dict[str | None, list[str]] = defaultdict(list)
+    current_heading: str | None = None
     elements = soup.select(f"{group_heading}, {group_element}")
     for element in elements:
         if element in element.parent.select(group_heading):
-            current_heading = normalize_string(element.text)
+            current_heading = normalize_string(element.get_text()) or None
             if current_heading not in groupings:
                 groupings[current_heading] = []
         else:
-            ingredient_text = normalize_string(element.text)
+            ingredient_text = normalize_string(element.get_text())
             matched_ingredient = best_match(ingredient_text, ingredients_list)
             groupings[current_heading].append(matched_ingredient)
 
     return [
         IngredientGroup(purpose=heading, ingredients=items)
         for heading, items in groupings.items()
-        if items != []
+        if items
     ]

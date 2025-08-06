@@ -7,6 +7,11 @@ name = "recipe_scrapers"
 description = "Python package, scraping recipes from all over the internet"
 authors = [
     {name = "Hristo Harsev", email = "r+pypi@hharsev.com"},
+    {name = "James Addison", email = "james@reciperadar.com"},
+]
+maintainers = [
+    {name = "Hristo Harsev", email = "r+pypi@hharsev.com"},
+    {name = "James Addison", email = "james@reciperadar.com"},
 ]
 urls = {Homepage = "https://github.com/hhursev/recipe-scrapers/"}
 keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
@@ -14,11 +19,11 @@ license = {text = "MIT License"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
@@ -26,13 +31,60 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
 ]
 dynamic = ["version", "readme"]
-requires-python = ">= 3.8"
+requires-python = ">= 3.9"
 dependencies = [
     "beautifulsoup4 >= 4.12.3",
-    "extruct >= 0.15.0",
+    "extruct >= 0.17.0",
     "isodate >= 0.6.1",
-    "requests >= 2.31.0",
 ]
+
+[project.optional-dependencies]
+online = [
+    "requests>=2.31.0",
+]
+# Documentation dependencies
+# Install these to build and serve the documentation:
+#   pip install -e ".[docs]"
+#
+# Common commands:
+#   mkdocs serve  # Start local docs server at http://127.0.0.1:8000
+#                 # The server auto-reloads when you change files in docs/
+docs = [
+    "mkdocs >= 1.6.1",               # Core documentation generator
+    "mkdocs-material >= 9.5.48",     # Material theme for MkDocs
+    "mkdocstrings >= 0.27.0",        # API documentation from docstrings
+    "mkdocstrings-python >= 1.12.2", # Python handler for mkdocstrings
+    "markdown-exec >= 1.10.0",       # Execute code blocks in markdown
+]
+# Testing dependencies
+# Install these to run tests and check coverage:
+#   pip install -e ".[test]"
+# Common commands:
+#   python -m unittest                        # Run tests sequentially
+#   python -m unittest_parallel --level test  # Run tests in parallel (speeed)
+#   coverage run -m unittest                  # Run tests with coverage
+#   coverage report                           # View coverage report in terminal
+#   coverage html                             # Generate HTML coverage report
+tests = [
+    "coverage >= 7.6.9",           # Code coverage measurement tool
+    "unittest-parallel >= 1.7.0",  # Run unittest tests in parallel
+]
+linters = [
+    "pre-commit == 4.0.1",    # latest from PyPI
+    "black == 24.10.0",       # match what's in .pre-commit-config.yaml
+    "flake8 == 7.1.1",        # match what's in .pre-commit-config.yaml
+    "pep8-naming == 0.14.1",  # match what's in .pre-commit-config.yaml
+    "mypy == 1.14.0",         # match what's in .pre-commit-config.yaml
+    "types-beautifulsoup4",   # needed for mypy
+    "types-requests",         # needed for mypy
+]
+dev = [
+    "recipe-scrapers[docs,tests,linters]",
+]
+all = [
+    "recipe_scrapers[online,docs,tests,linters,dev]"
+]
+
 
 [tool.setuptools.packages.find]
 include = ["recipe_scrapers", "recipe_scrapers.*"]
@@ -44,3 +96,32 @@ version = {attr = "recipe_scrapers.__version__.__version__"}
 
 [tool.setuptools.package-data]
 recipe_scrapers = ["py.typed"]
+
+[tool.coverage.run]
+branch = true
+source = ["recipe_scrapers"]
+relative_files = true
+
+[tool.coverage.report]
+omit = [
+    "recipe_scrapers/__version__.py",
+    "recipe_scrapers/plugins/template.py",
+    "recipe_scrapers/settings/template.py"
+]
+exclude_lines = [
+    "raise NotImplementedError"
+]
+
+[tool.mypy]
+[[tool.mypy.overrides]]
+module = "recipe_scrapers.*"
+disable_error_code = "union-attr"
+[[tool.mypy.overrides]]
+module = "._abstract"
+ignore_missing_imports = true
+[[tool.mypy.overrides]]
+module = "isodate"
+ignore_missing_imports = true
+[[tool.mypy.overrides]]
+module = "extruct"
+ignore_missing_imports = true

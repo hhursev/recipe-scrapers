@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 import re
+import functools
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
@@ -20,48 +20,29 @@ class NHSHealthierFamilies(AbstractScraper):
             title = title[:-7]
         return title
 
-    def _get_recipe_metadata(self):
+    @functools.cached_property
+    def _get_recipe_content(self):
         container = self.soup.find("div", {"class": "bh-recipe__description"})
         descriptions = container.findAll("p")
-        content = "".join([description.get_text() for description in descriptions])
+        return "".join([description.get_text() for description in descriptions])
+
+    def prep_time(self):
+        content = self._get_recipe_content
         prep_time = re.search(r"Prep: (\d+) mins", content)
+        return get_minutes(prep_time.group(0)) if prep_time else 0
+
+    def cook_time(self):
+        content = self._get_recipe_content
         cook_time = re.search(r"Cook: (\d+) mins", content)
-        recipe_yields = re.search(r"Serves (\d+)", content)
-        return {
-            "prep_time": get_minutes(prep_time.group(0)) if prep_time else None,
-            "cook_time": get_minutes(cook_time.group(0)) if cook_time else None,
-            "yields": get_yields(recipe_yields.group(0)) if recipe_yields else None,
-        }
+        return get_minutes(cook_time.group(0)) if cook_time else 0
 
     def total_time(self):
-        metadata = self._get_recipe_metadata()
-        return metadata["prep_time"] + metadata["cook_time"]
+        return self.prep_time() + self.cook_time()
 
     def yields(self):
-        metadata = self._get_recipe_metadata()
-        return metadata["yields"]
-
-    def image(self):
-        return self.soup.find("img", {"class": "nhsuk-image__img"})["src"]
-
-    def ingredients(self):
-        ingredients = []
-        instructions_div = self.soup.find("div", {"class": "bh-recipe-instructions"})
-        ul = instructions_div.find("ul")
-
-        if ul:
-            for li in ul.findAll("li"):
-                ingredients.append(normalize_string(li.get_text()))
-
-        # Stop when encountering an 'ol' element which is where instructions are stored.
-        for sibling in ul.find_next_siblings():
-            if sibling.name == "ol":
-                break
-            if sibling.name == "ul":
-                for li in sibling.findAll("li"):
-                    ingredients.append(normalize_string(li.get_text()))
-
-        return ingredients
+        content = self._get_recipe_content
+        recipe_yields = re.search(r"Serves (\d+)", content)
+        return get_yields(recipe_yields.group(0)) if recipe_yields else None
 
     def ingredient_groups(self):
         return group_ingredients(
@@ -83,7 +64,3 @@ class NHSHealthierFamilies(AbstractScraper):
         return "\n".join(
             [normalize_string(instruction) for instruction in instructions]
         )
-
-    def description(self):
-        description_meta = self.soup.find("meta", {"name": "description"})
-        return normalize_string(description_meta["content"])

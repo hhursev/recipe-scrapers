@@ -2,20 +2,22 @@ name: linters
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main, v14 ]
   pull_request:
-    branches:
-      - main
+    branches: [ main, v14 ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   linters:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-      - run: pip install tox
-      - run: tox -e lint
+          python-version: "3.12"
+          cache: pip
+      - name: Install linters related packages
+        run: pip install ".[linters]"
+      - name: Run pre-commit hooks
+        run: pre-commit run --all-files

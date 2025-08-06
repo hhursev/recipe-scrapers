@@ -2,8 +2,10 @@ from recipe_scrapers.plugins import (
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
+    OpenGraphFillPlugin,
     OpenGraphImageFetchPlugin,
     SchemaOrgFillPlugin,
+    StaticValueExceptionHandlingPlugin,
 )
 
 # Plugins to be attached.
@@ -11,9 +13,11 @@ from recipe_scrapers.plugins import (
 # Check recipe_scrapers.settings.template.py for ways to extend.
 PLUGINS = (
     ExceptionHandlingPlugin,
+    StaticValueExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
     OpenGraphImageFetchPlugin,
+    OpenGraphFillPlugin,
     SchemaOrgFillPlugin,
 )
 
@@ -30,7 +34,6 @@ ON_EXCEPTION_RETURN_VALUES = {
     "instructions": None,
     "instructions_list": None,
     "ratings": None,
-    "reviews": None,
     "links": None,
     "language": None,
     "nutrients": None,

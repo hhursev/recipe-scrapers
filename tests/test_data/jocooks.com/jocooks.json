@@ -1,0 +1,96 @@
+{
+  "author": "Joanna Cismaru",
+  "canonical_url": "https://www.jocooks.com/recipes/korean-fried-chicken/",
+  "site_name": "Jo Cooks",
+  "host": "jocooks.com",
+  "language": "en-US",
+  "title": "Korean Fried Chicken",
+  "ingredients": [
+    "2 pounds chicken breasts (boneless and skinless, cut into 1 inch pieces)",
+    "1 large egg (beaten)",
+    "½ cup cornstarch",
+    "vegetable oil (for frying)",
+    "3 tablespoon butter (unsalted)",
+    "4 cloves garlic (minced)",
+    "1 tablespoon fresh ginger (minced)",
+    "¼ cup honey",
+    "¼ cup brown sugar",
+    "2 tablespoon soy sauce (low sodium)",
+    "1 tablespoon rice vinegar",
+    "1 tablespoon sesame oil",
+    "2 tablespoon gochujang",
+    "green onions",
+    "toasted sesame seeds",
+    "red chilis (sliced)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 pounds chicken breasts (boneless and skinless, cut into 1 inch pieces)",
+        "1 large egg (beaten)",
+        "½ cup cornstarch",
+        "vegetable oil (for frying)"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "3 tablespoon butter (unsalted)",
+        "4 cloves garlic (minced)",
+        "1 tablespoon fresh ginger (minced)",
+        "¼ cup honey",
+        "¼ cup brown sugar",
+        "2 tablespoon soy sauce (low sodium)",
+        "1 tablespoon rice vinegar",
+        "1 tablespoon sesame oil",
+        "2 tablespoon gochujang"
+      ],
+      "purpose": "Korean Sauce"
+    },
+    {
+      "ingredients": [
+        "green onions",
+        "toasted sesame seeds",
+        "red chilis (sliced)"
+      ],
+      "purpose": "Garnish"
+    }
+  ],
+  "instructions_list": [
+    "Toss the chicken pieces through the egg first, then dredge through cornstarch.",
+    "Add about 3 inches of oil to a heavy bottom pan and heat to 375°F.",
+    "Add chicken to the pan and fry in batches about 3 to 4 minutes per batch. Transfer the chicken to a paper towel lined plate and repeat with remaining chicken.",
+    "Melt the butter in a skillet over medium heat. Add the garlic and ginger and cook for 30 seconds or until aromatic. Stir in the brown sugar and honey and cook for about 1 minute until the brown butter dissolves. Add the soy sauce, rice vinegar, sesame oil and gochujang sauce to the skillet and stir. Cook for 30 seconds then add the chicken to the skillet and toss well with the sauce.",
+    "Serve garnished with green onions, toasted sesame seeds and red chilis."
+  ],
+  "category": "Dinner,Lunch",
+  "yields": "6 servings",
+  "description": "Korean Fried Chicken - juicy, yet crispy pieces of chicken coated in a sweet and spicy sauce. An easy fried chicken recipe with a fiery kick making for the perfect meal or appetizer. This chicken truly is perfect for any occasion.",
+  "total_time": 30,
+  "cook_time": 15,
+  "prep_time": 15,
+  "cuisine": "Korean",
+  "ratings": 4.63,
+  "ratings_count": 82,
+  "equipment": [
+    "12-inch Cast Iron Skillet",
+    "Glass Mixing Bowl Set (3 piece)"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "466 kcal",
+    "fatContent": "22 g",
+    "saturatedFatContent": "13 g",
+    "carbohydrateContent": "33 g",
+    "sugarContent": "21 g",
+    "proteinContent": "34 g",
+    "sodiumContent": "372 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "143 mg"
+  },
+  "image": "https://www.jocooks.com/wp-content/uploads/2020/02/korean-fried-chicken-1-16.jpg",
+  "keywords": [
+    "fried chicken",
+    "korean fried chicken"
+  ]
+}

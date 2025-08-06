@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import functools
 import logging
 
@@ -33,7 +32,6 @@ class ExceptionHandlingPlugin(PluginInterface):
         "ingredients",
         "instructions",
         "ratings",
-        "reviews",
         "links",
         "language",
         "nutrients",

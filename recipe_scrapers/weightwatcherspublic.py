@@ -1,5 +1,4 @@
-# mypy: allow-untyped-defs
-
+from ._exceptions import StaticValueException
 from ._utils import normalize_string
 from .weightwatchers import WeightWatchers
 
@@ -8,33 +7,24 @@ from .weightwatchers import WeightWatchers
 class WeightWatchersPublic(WeightWatchers):
     @classmethod
     def host(cls):
-        return "www.weightwatchers.com"
+        return "weightwatchers.com"
 
-    def _find_data_container(self):
-        return self.soup.find("div", {"class": "HorizontalList_list__GESs0"})
+    def site_name(self):
+        title = self.soup.find("title")
+        if not title:
+            raise StaticValueException(return_value="WeightWatchers")
+        _recipe, _delimiter, site_name = title.text.rpartition("|")
+        return site_name.lstrip()
 
-    def _extract_item_field(self, item):
-        return item.find("div", {"data-e2e-name": "attribute_item_value"})
-
-    def image(self):
-        return self.soup.find("img", {"class": "FoodMasthead_heroImage__BjVdZ"})["src"]
+    def language(self):
+        return self.soup.find("html").get("xml:lang")
 
     def nutrients(self):
-        return {
-            "points": self.soup.find("div", {"class": "Coin_text__3UOb0"})["aria-label"]
-        }
-
-    def description(self):
-        return normalize_string(
-            self.soup.find("div", {"data-e2e-name": "food_masthead_detail_description"})
-            .find("div", {"class": "ReadMoreLess_collapsed__IAzxP"})
-            .get_text()
-        )
-
-    def instructions(self):
-        return self._get_instructions(
-            "h2", "class", "InstructionsFood_headline__vw7cn", "span"
-        )
+        nutrients = self.schema.nutrients() or {}
+        points = self.soup.find("div", {"class": "Coin_text__3UOb0"})["aria-label"]
+        points = points.replace("&reg;", "")
+        nutrients["points"] = points
+        return nutrients
 
     def _find_ingredient_tags(self):
         return (

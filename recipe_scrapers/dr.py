@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -22,12 +21,14 @@ class Dr(AbstractScraper):
         return author_span.get_text() if author_span else None
 
     def ingredients(self):
-        ingredients_divs = self.soup.findAll("div", {"class": "dre-list dre-variables"})
+        ingredients_divs = self.soup.find_all(
+            "div", {"class": "dre-list dre-variables"}
+        )
         ingredients_list = []
 
         for div in ingredients_divs:
             ul = div.find("ul", {"class": "dre-list__list"})
-            lis = ul.findAll("li", {"class": "dre-list-item"})
+            lis = ul.find_all("li", {"class": "dre-list-item"})
 
             for li in lis:
                 span = li.find("span", {"class": "dre-list-item__content"})
@@ -44,7 +45,7 @@ class Dr(AbstractScraper):
             parent_section = fremgangsmade_div.find_parent("section")
             if parent_section:
                 instructions_list = []
-                instructions_divs = parent_section.findAll(
+                instructions_divs = parent_section.find_all(
                     "div", {"class": "dre-speech"}
                 )
                 for div in instructions_divs:

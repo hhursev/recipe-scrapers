@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_equipment, normalize_string
 
@@ -15,8 +14,8 @@ class Joyfoodsunshine(AbstractScraper):
 
     def equipment(self):
         equipment_items = [
-            item.find("a", class_="wprm-recipe-equipment-link").get_text()
-            for item in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if item.find("a", class_="wprm-recipe-equipment-link")
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
         ]
         return get_equipment(equipment_items)

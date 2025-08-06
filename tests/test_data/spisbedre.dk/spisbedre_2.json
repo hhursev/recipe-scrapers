@@ -1,0 +1,71 @@
+{
+  "author": "Timm Vladimir",
+  "canonical_url": "https://spisbedre.dk/opskrifter/stegt-makrel-med-kartofler",
+  "site_name": "SPIS BEDRE",
+  "host": "spisbedre.dk",
+  "language": "da",
+  "title": "Stegt makrel med kartofler",
+  "ingredients": [
+    "4 ferske makrelfileter",
+    "100 g smør",
+    "300 g stikkelsbær",
+    "1 dl vand",
+    "1 dl eddike",
+    "1 dl sukker",
+    "600 g små kartofler",
+    "1 bundt frisk dild",
+    "salt",
+    "2 hjertesalater",
+    "1 spsk. smagsneutral olie til stegning"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 ferske makrelfileter",
+        "100 g smør"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "300 g stikkelsbær",
+        "1 dl vand",
+        "1 dl eddike",
+        "1 dl sukker"
+      ],
+      "purpose": "Syltede stikkelsbær"
+    },
+    {
+      "ingredients": [
+        "600 g små kartofler",
+        "1 bundt frisk dild",
+        "salt",
+        "2 hjertesalater",
+        "1 spsk. smagsneutral olie til stegning"
+      ],
+      "purpose": "Tilbehør"
+    }
+  ],
+  "instructions_list": [
+    "Skyl stikkelsbærrene, og hæld dem i et skoldet glas. Kog vand, eddike og sukker op i en lille gryde, og hæld den kogende lage over bærrene.",
+    "Luk glasset til, og lad bærrene stå 1-2 døgn.",
+    "Skrub kartoflerne, og læg dem i en gryde. Skyl dild, og skær stilkene fra (gem toppene til pynt). Læg stilkene ned til kartoflerne, hæld vand og lidt salt på, og kog kartoflerne, til de er møre.",
+    "Skyl hjertesalater, og skær dem over på langs. Steg dem i lidt olie på en pande i ca. 1 minut, til de har taget lidt farve.",
+    "Filetér makrellerne. Steg dem i lidt smør på en pande i ca. 3 minutter på skindsiden. Vend dem, og steg dem i 1 minut på kødsiden.",
+    "Smelt resten af smørret på panden, til det er brunet. Anret makrelfileterne på tallerkener sammen med kogte kartofler, stegt hjertesalat, brunet smør og dild. Servér de syltede stikkelsbær til."
+  ],
+  "category": "Hovedretter, Frokost, Dansk",
+  "yields": "4 servings",
+  "description": "Hvad enten der er tale om frokost eller aftensmad, kan du altid spise stegt makrel med møre kartofler toppet med surt og sødt.",
+  "total_time": 35,
+  "prep_time": 35,
+  "ratings": 4.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "calories": "631 kcal",
+    "fatContent": "52 g",
+    "carbohydrateContent": "34 g",
+    "proteinContent": "7 g"
+  },
+  "image": "https://spisbedre-production-app.imgix.net/images/recipes/stegt-makrel-med-kartofler_324.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.63232421875&fp-z=1"
+}

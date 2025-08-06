@@ -1,8 +1,9 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields
+from ._exceptions import StaticValueException
+from ._grouping_utils import group_ingredients
 
 
 class Meljoulwan(AbstractScraper):
@@ -19,12 +20,7 @@ class Meljoulwan(AbstractScraper):
         )
 
     def title(self):
-        return (
-            self.soup.find("div", {"class": "recipe-post"})
-            .findChild("h2")
-            .get_text()
-            .strip()
-        )
+        return self.soup.find("title").get_text().strip()
 
     def category(self):
         ul_list = (
@@ -39,28 +35,38 @@ class Meljoulwan(AbstractScraper):
                 categories.append(li.get_text())
         return ",".join(categories)
 
+    def _extract_info(self, pattern):
+        infostring = self.soup.find("div", {"class": "recipe-copy"}).get_text().strip()
+        matches = re.search(pattern, infostring)
+        return matches.group(1)
+
     def total_time(self):
-        infostring = (
-            self.soup.find("div", {"class": "recipe-copy"}).find("em").get_text()
-        )
+        time = self._extract_info(r"Total time\s*:?\s*(\d+)\s*(?:minutes|min)")
+        if not time:
+            prep_time = self.prep_time()
+            cook_time = self.cook_time()
+            if prep_time or cook_time:
+                time = (prep_time or 0) + (cook_time or 0)
+        return get_minutes(time)
 
-        matches = re.search(
-            r"(Cook|Total time:)\s(\d+\-?\d+)\s\bmin(utes)?", infostring
-        )
+    def prep_time(self):
+        time = self._extract_info(r"Prep\s*:?\s*(\d+)\s*(?:minutes|min)")
+        return get_minutes(time)
 
-        return get_minutes(matches.group(2))
+    def cook_time(self):
+        time = self._extract_info(r"Cook\s*:?\s*(\d+)\s*(?:minutes|min)")
+        return get_minutes(time)
 
     def yields(self):
-        infostring = (
-            self.soup.find("div", {"class": "recipe-copy"})
-            .find("em")
-            .get_text()
-            .strip()
+        yield_value = self._extract_info(r"Serves\s(\d+)")
+        if yield_value:
+            return get_yields(yield_value)
+
+        # Check for the alternative format
+        yield_value = self._extract_info(
+            r"Serves\s(\d+)\s*\|\s*Total time\s*:?\s*\d+\s*minutes\s*\|"
         )
-
-        matches = re.search(r"^Serves\s(\d+\-?\–?\d+)", infostring)
-
-        return get_yields(matches.group(1))
+        return get_yields(yield_value)
 
     def ingredients(self):
         ul_list = self.soup.find("div", {"class": "tabbed-list"}).findChildren("ul")
@@ -73,18 +79,25 @@ class Meljoulwan(AbstractScraper):
 
         return ingredients
 
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".tabbed-list h6",
+            ".tabbed-list li",
+        )
+
     def instructions(self):
         ul_list = self.soup.find("div", {"class": "numbered-list"}).findChildren(
             "div", {"class", "num-list-group"}
         )
 
-        count = 0
         instructions = []
         for li in ul_list:
-            count += 1
             instructions.append(
-                str(count)
-                + ". "
-                + li.findChild("div", {"class": "num-list-copy"}).get_text().strip()
+                li.findChild("div", {"class": "num-list-copy"}).get_text().strip()
             )
         return "\n".join(instructions)
+
+    def language(self):
+        raise StaticValueException(return_value="en-US")

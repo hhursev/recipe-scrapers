@@ -1,5 +1,4 @@
-# mypy: disallow_untyped_defs=False
-
+import functools
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -9,6 +8,10 @@ class SunBasket(AbstractScraper):
     def host(cls, domain="com"):
         return f"sunbasket.{domain}"
 
+    def site_name(self):
+        return self.author()
+
+    @functools.cached_property
     def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"class": "instructions-container"}
@@ -33,5 +36,5 @@ class SunBasket(AbstractScraper):
         return instruction_list
 
     def instructions(self):
-        data = self._instructions_list()
+        data = self._instructions_list
         return "\n".join(data) if data else None

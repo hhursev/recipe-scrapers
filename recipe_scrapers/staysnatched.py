@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._utils import get_equipment
 
 
 class StaySnatched(AbstractScraper):
@@ -16,3 +15,11 @@ class StaySnatched(AbstractScraper):
             },
         )
         return author_element.find("a").get_text() if author_element else "Unknown"
+
+    def equipment(self):
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)

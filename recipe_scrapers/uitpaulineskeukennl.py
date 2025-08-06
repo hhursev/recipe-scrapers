@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
@@ -33,9 +31,9 @@ class UitPaulinesKeukenNL(AbstractScraper):
         )
 
     def description(self):
-        return (
+        return normalize_string(
             self.soup.find("article", {"class": "single-recipe"})
             .findChild("section", {"class": "text"})
-            .find_next()
+            .find_next(name=True)
             .get_text()
         )

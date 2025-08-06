@@ -1,6 +1,5 @@
-# mypy: disallow_untyped_defs=False
-
 import html
+import inspect
 import math
 import re
 
@@ -33,7 +32,7 @@ TIME_REGEX = re.compile(
     r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
+SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
     r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b | \bcookies\b | \b(large |small )?buns\b",
@@ -70,6 +69,35 @@ RECIPE_YIELD_TYPES = (
     ("item", "items"),
     # ... add more types as needed, in (singular, plural) format ...
 )
+
+
+def format_diet_name(diet_input):
+    replacements = {
+        # schema.org/RestrictedDiet
+        "DiabeticDiet": "Diabetic Diet",
+        "GlutenFreeDiet": "Gluten Free Diet",
+        "HalalDiet": "Halal Diet",
+        "HinduDiet": "Hindu Diet",
+        "KosherDiet": "Kosher Diet",
+        "LowCalorieDiet": "Low Calorie Diet",
+        "LowFatDiet": "Low Fat Diet",
+        "LowLactoseDiet": "Low Lactose Diet",
+        "LowSaltDiet": "Low Salt Diet",
+        "VeganDiet": "Vegan Diet",
+        "VegetarianDiet": "Vegetarian Diet",
+    }
+    if "schema.org/" in diet_input:
+        diet_input = diet_input.split("schema.org/")[-1]
+
+    # Exclude results that are just "schema.org/"
+    if diet_input.strip() == "":
+        return None
+
+    for key, value in replacements.items():
+        if key in diet_input:
+            return value
+
+    return diet_input
 
 
 def _extract_fractional(input_string: str) -> float:
@@ -154,7 +182,8 @@ def get_minutes(element):
 
     total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
     # Rounding to the nearest whole number, considering seconds
-    return round(total_minutes)
+    rounded_minutes = round(total_minutes)
+    return None if rounded_minutes == 0 else rounded_minutes
 
 
 def get_yields(element):
@@ -175,6 +204,8 @@ def get_yields(element):
         serve_text = element
     else:
         serve_text = element.get_text()
+    if not serve_text:
+        raise ValueError("Cannot extract yield information from empty string")
 
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
@@ -197,21 +228,16 @@ def get_yields(element):
     if best_match:
         return best_match
 
+    plural = "s" if float(matched) > 1 or float(matched) == 0 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return "{} item{}".format(matched, "" if int(matched) == 1 else "s")
+        return f"{matched} item{plural}"
 
-    return "{} serving{}".format(matched, "" if int(matched) == 1 else "s")
+    return f"{matched} serving{plural}"
 
 
 def get_equipment(equipment_items):
     # Removes duplicates from results and sorts them in order they appear on site.
-    seen = set()
-    unique_equipment = []
-    for item in equipment_items:
-        if item not in seen:
-            seen.add(item)
-            unique_equipment.append(item)
-    return unique_equipment
+    return list(dict.fromkeys(equipment_items))
 
 
 def normalize_string(string):
@@ -238,7 +264,7 @@ def csv_to_tags(csv, lowercase=False):
     tags = []
     for raw_tag in raw_tags:
         tag = raw_tag.strip()
-        if tag.lower() not in seen:
+        if tag and tag.lower() not in seen:
             seen.add(tag.lower())
             tags.append(tag.lower() if lowercase else tag)
     return tags
@@ -288,3 +314,33 @@ def change_keys(obj, convert):
 def get_url_slug(url):
     path = url_path_to_dict(url).get("path")
     return path.split("/")[-1]
+
+
+def get_abstract_methods():
+    from ._abstract import AbstractScraper
+
+    return [
+        name
+        for name, value in AbstractScraper.__dict__.items()  # Attributes of the abstract scraper class..
+        if not name.startswith("_")  # ... that are not private ...
+        and inspect.isfunction(value)  # ... and are functions ...
+        and name not in {"links", "to_json"}  # ... and not excluded as special-cases.
+        or name == "host"  # ... explicitly include the `host` method.
+    ]
+
+
+def get_nutrition_keys():
+    return [
+        "servingSize",
+        "calories",
+        "fatContent",
+        "saturatedFatContent",
+        "unsaturatedFatContent",
+        "transFatContent",
+        "carbohydrateContent",
+        "sugarContent",
+        "proteinContent",
+        "sodiumContent",
+        "fiberContent",
+        "cholesterolContent",
+    ]

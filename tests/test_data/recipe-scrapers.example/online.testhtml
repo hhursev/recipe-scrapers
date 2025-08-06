@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "author": "recipe-scrapers contributors",
+  "name": "Algorithmic Cupcakes",
+  "recipeIngredients": [
+    "flour",
+    "sugar",
+    "some other ingredients",
+  ]
+}
+    </script>
+  </body>
+</html>

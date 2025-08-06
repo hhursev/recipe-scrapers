@@ -1,9 +1,10 @@
-# mypy: disallow_untyped_defs=False
 import re
 
+import functools
 from bs4 import Tag
 
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
 """
@@ -20,6 +21,9 @@ class FarmhouseDelivery(AbstractScraper):
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text(strip=True)
 
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
+
     def ingredients(self):
         # Style 1
         ingredients_marker = self.soup.find("p", string=re.compile(r"Ingredients:"))
@@ -30,7 +34,7 @@ class FarmhouseDelivery(AbstractScraper):
                     isinstance(ingredients_marker_sibling, Tag)
                     and ingredients_marker_sibling.name == "ul"
                 ):
-                    ingredients = ingredients_marker_sibling.findAll("li")
+                    ingredients = ingredients_marker_sibling.find_all("li")
                     return [
                         normalize_string(ingredient.get_text())
                         for ingredient in ingredients
@@ -56,6 +60,7 @@ class FarmhouseDelivery(AbstractScraper):
 
         return None
 
+    @functools.cached_property
     def _instructions_list(self):
         # Style 1
         instructions_marker = self.soup.find("p", string=re.compile(r"Instructions:"))
@@ -67,7 +72,7 @@ class FarmhouseDelivery(AbstractScraper):
                     and instructions_marker_sibling.name == "p"
                     and instructions_marker_sibling.get_text(strip=True) != ""
                 ):
-                    instructions = instructions_marker_sibling.findAll("span")
+                    instructions = instructions_marker_sibling.find_all("span")
                     return [
                         normalize_string(instruction.get_text())
                         for instruction in instructions
@@ -92,7 +97,7 @@ class FarmhouseDelivery(AbstractScraper):
         return None
 
     def instructions(self):
-        data = self._instructions_list()
+        data = self._instructions_list
         return "\n".join(data) if data else None
 
     def image(self):

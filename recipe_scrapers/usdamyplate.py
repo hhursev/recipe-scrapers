@@ -1,6 +1,7 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._exceptions import StaticValueException
+from ._utils import get_minutes, normalize_string
+from ._grouping_utils import group_ingredients
 
 
 class USDAMyPlate(AbstractScraper):
@@ -8,49 +9,35 @@ class USDAMyPlate(AbstractScraper):
     def host(cls):
         return "myplate.gov"
 
-    def title(self):
-        return self.soup.h1.get_text().strip()
+    def site_name(self):
+        raise StaticValueException(return_value="MyPlate")
+
+    def cook_time(self):
+        cook_time_span = self.soup.find(
+            "div", {"class": "mp-recipe-full__detail--cook-time"}
+        ).find("span", {"class": "mp-recipe-full__detail--data"})
+
+        if cook_time_span:
+            return get_minutes(cook_time_span)
+
+        return 0
+
+    def prep_time(self):
+        prep_time_span = self.soup.find(
+            "div", {"class": "mp-recipe-full__detail--prep-time"}
+        ).find("span", {"class": "mp-recipe-full__detail--data"})
+
+        if prep_time_span:
+            return get_minutes(prep_time_span)
+
+        return 0
 
     def total_time(self):
-        # not in every recipe has time given
-        full_detail = self.soup.find(
-            "div", {"class": "mp-recipe-full__overview desktop:grid-col-5 grid-row"}
-        )
+        cook_time = self.cook_time()
+        prep_time = self.prep_time()
 
-        minutes = 0
-        for span in full_detail.findAll(
-            "span", {"class": "mp-recipe-full__detail--data"}
-        ):
-            if "minute" in span.get_text().lower() or "hour" in span.get_text().lower():
-                minutes += get_minutes(span)
-
-        if minutes == 0:
-            return None
-
-        return minutes
-
-    def yields(self):
-        full_detail = self.soup.find(
-            "div", {"class": "mp-recipe-full__overview desktop:grid-col-5 grid-row"}
-        )
-
-        spans = full_detail.findAll("span")
-        i = 0
-        for span in spans:
-            if "Makes:" in span:
-                return get_yields(spans[i + 1])
-            i += 1
-
-    def image(self):
-        div = self.soup.find(
-            "div",
-            {
-                "class": "field field--name-field-recipe-image field--type-image field--label-visually_hidden"
-            },
-        )
-        url = div.find("img")["src"]
-        # return only the portion before the question mark
-        return url.split("?")[0]
+        total_minutes = cook_time + prep_time
+        return total_minutes
 
     def ingredients(self):
         ingredients = self.soup.find(
@@ -58,6 +45,17 @@ class USDAMyPlate(AbstractScraper):
         ).findAll("li")
 
         return [normalize_string(paragraph.get_text()) for paragraph in ingredients]
+
+    def ingredient_groups(self):
+        ingredients_section = self.soup.find(
+            "div", {"class": "field--name-field-ingredients"}
+        )
+        return group_ingredients(
+            self.ingredients(),
+            ingredients_section,
+            "b",
+            "li.field__item",
+        )
 
     def instructions(self):
         div = self.soup.find(
@@ -89,24 +87,3 @@ class USDAMyPlate(AbstractScraper):
                 nutrition[el[0]] = el[1]
 
         return nutrition
-
-    def serving_size(self):
-        return normalize_string(
-            self.soup.find("div", {"class": "field--name-field-recipe-serving-size"})
-            .find("span", {"class": "field__item"})
-            .get_text()
-        )
-
-    def description(self):
-        return normalize_string(
-            self.soup.find("div", {"class": "mp-recipe-full__description"})
-            .find("p")
-            .get_text()
-        )
-
-    def recipe_source(self):
-        return normalize_string(
-            self.soup.find("span", {"class": "field--name-field-source"})
-            .find("p")
-            .get_text()
-        )

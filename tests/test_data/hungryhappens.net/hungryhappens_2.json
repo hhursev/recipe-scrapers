@@ -1,0 +1,88 @@
+{
+  "author": "Stella",
+  "canonical_url": "https://hungryhappens.net/crispy-salmon-tacos/",
+  "site_name": "Hungry Happens",
+  "host": "hungryhappens.net",
+  "language": "en-US",
+  "title": "Crispy Salmon Tacos",
+  "ingredients": [
+    "1/2 head green cabbage, (fine shredded)",
+    "1/2 large cucumber",
+    "3 tbs dill, (chopped)",
+    "1/4 cup champagne vinegar (or white wine vinegar)",
+    "salt and pepper (to taste)",
+    "3 avocadoes",
+    "2 tsp Sriracha sauce",
+    "1 lime, (juiced)",
+    "salt and pepper (to taste)",
+    "2 lbs salmon, (skin removed)",
+    "2 tsp chipotle powder (or chili powder)",
+    "1 tsp onion powder",
+    "1 tsp dried oregano",
+    "1 lime, (zested + juiced)",
+    "8 small corn tortillas"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1/2 head green cabbage, (fine shredded)",
+        "1/2 large cucumber",
+        "3 tbs dill, (chopped)",
+        "1/4 cup champagne vinegar (or white wine vinegar)",
+        "salt and pepper (to taste)"
+      ],
+      "purpose": "Slaw:"
+    },
+    {
+      "ingredients": [
+        "3 avocadoes",
+        "2 tsp Sriracha sauce",
+        "1 lime, (juiced)",
+        "salt and pepper (to taste)"
+      ],
+      "purpose": "Spicy Avocado Mash:"
+    },
+    {
+      "ingredients": [
+        "2 lbs salmon, (skin removed)",
+        "2 tsp chipotle powder (or chili powder)",
+        "1 tsp onion powder",
+        "1 tsp dried oregano",
+        "1 lime, (zested + juiced)",
+        "8 small corn tortillas"
+      ],
+      "purpose": "Salmon:"
+    }
+  ],
+  "instructions_list": [
+    "Slaw:",
+    "Leave the skin on your cucumber. Slice your cucumber in half lengthwise. Remove seeds and then slice thin.",
+    "Mix everyhting in a large bowl, cover and place in your fridge while you make everything else.",
+    "Avocado Mash:",
+    "In a medium bowl, rough mash your avocados. Add in the rest of the ingredients and mix to combine. Taste and adjust the sriracha if needed.",
+    "Salmon:",
+    "Pat your fish dry with paper towel. Slice the filet into large chunks. Transfer to a bowl and mix with the seasonings, lime zest and juice to coat.",
+    "In a large skillet, working in two batches, add 1/2 tbs olive oil. Once pan is hot add in the salmon pieces and cook until crispy and done. Remove to a plate lined with paper towel. Wipe the pan clean and repeat with the rest of the salmon.",
+    "Heat your tortillas in a pan or wrapped in a stack, in aluminum foil in your small toaster oven."
+  ],
+  "yields": "4 servings",
+  "total_time": 30,
+  "cook_time": 10,
+  "prep_time": 20,
+  "ratings": 4.94,
+  "ratings_count": 32,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "728 kcal",
+    "fatContent": "38 g",
+    "saturatedFatContent": "6 g",
+    "unsaturatedFatContent": "29 g",
+    "carbohydrateContent": "48 g",
+    "sugarContent": "6 g",
+    "proteinContent": "53 g",
+    "sodiumContent": "200 mg",
+    "fiberContent": "18 g",
+    "cholesterolContent": "125 mg"
+  },
+  "image": "https://hungryhappens.net/wp-content/uploads/2022/04/JPEG-image-110-scaled.jpeg"
+}

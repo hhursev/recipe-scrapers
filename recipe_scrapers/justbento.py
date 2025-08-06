@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, normalize_string
 
 
@@ -7,6 +7,9 @@ class JustBento(AbstractScraper):
     @classmethod
     def host(cls):
         return "justbento.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Just Bento")
 
     def title(self):
         expected_prefix = "Recipe: "
@@ -32,8 +35,8 @@ class JustBento(AbstractScraper):
         elements_after_title = (
             self.soup.find("div", {"class": "field-name-body"})
             .find("h3")
-            .find_next_sibling("ul")
-            .find_next_siblings()
+            .find_next_sibling(name="ul")
+            .find_next_siblings(name=True)
         )
 
         instructions = []

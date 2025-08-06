@@ -1,6 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from abc import ABC, abstractmethod
-from typing import Iterable
+from collections.abc import Iterable
 
 
 class PluginInterface(ABC):

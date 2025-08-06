@@ -1,6 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
+from ._utils import get_equipment
 
 
 class AltonBrown(AbstractScraper):
@@ -8,20 +7,10 @@ class AltonBrown(AbstractScraper):
     def host(cls):
         return "altonbrown.com"
 
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient",
-        )
-
     def equipment(self):
-        return list(
-            dict.fromkeys(
-                (equip.get_text())
-                for equip in self.soup.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-            )
-        )
+        equipment_items = [
+            text
+            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
+            if (text := equip.get_text())
+        ]
+        return get_equipment(equipment_items)

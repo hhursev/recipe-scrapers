@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import json
 
 from ._abstract import AbstractScraper
@@ -14,8 +13,8 @@ class Mob(AbstractScraper):
         )["props"]["pageProps"]["recipe"]
 
     @classmethod
-    def host(cls, domain="mob.co.uk"):
-        return domain
+    def host(cls):
+        return "mob.co.uk"
 
     def author(self):
         chefs = self.recipe_json.get("chefs", [])
@@ -85,4 +84,4 @@ class Mob(AbstractScraper):
         return self.recipe_json.get("summary", "")
 
     def ratings(self):
-        return self.recipe_json.get("averageRating", "")
+        return round(float(self.recipe_json.get("averageRating", "0")), 2)

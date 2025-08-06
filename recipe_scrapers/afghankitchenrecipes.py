@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_yields
 
 
@@ -7,6 +7,9 @@ class AfghanKitchenRecipes(AbstractScraper):
     @classmethod
     def host(cls):
         return "afghankitchenrecipes.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Afghan Kitchen Recipes")
 
     def author(self):
         given_name = self.soup.find("h5", {"class": "given-name"})
@@ -29,13 +32,13 @@ class AfghanKitchenRecipes(AbstractScraper):
         return get_yields(servings)
 
     def ingredients(self):
-        ingredient_elements = self.soup.findAll("li", {"class": "ingredient"})
+        ingredient_elements = self.soup.find_all("li", {"class": "ingredient"})
         return [
             element.get_text() for element in ingredient_elements if element.get_text()
         ]
 
     def instructions(self):
-        instruction_elements = self.soup.findAll("p", {"class": "instructions"})
+        instruction_elements = self.soup.find_all("p", {"class": "instructions"})
         return "\n".join(
             [
                 element.get_text().strip()

@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 from ._utils import get_yields, normalize_string
@@ -21,8 +20,5 @@ class BigOven(AbstractScraper):
         )
 
     def instructions(self):
-        ps = self.soup.find("div", {"class": "instructions"}).findAll("p")
+        ps = self.soup.find("div", {"class": "instructions"}).find_all("p")
         return "\n".join([normalize_string(p.text) for p in ps])
-
-    def ratings(self):
-        return self.schema.ratings()

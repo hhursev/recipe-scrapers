@@ -1,4 +1,4 @@
-# mypy: disallow_untyped_defs=False
+import functools
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -24,21 +24,22 @@ class HEB(AbstractScraper):
         ingredients_container = self.soup.find(
             "div", {"data-qe-id": "recipeIngredientsContainer"}
         )
-        ingredients = ingredients_container.findAll("li")
+        ingredients = ingredients_container.find_all("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
+    @functools.cached_property
     def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"data-qe-id": "recipeInstructionsContainer"}
         )
-        instructions = instructions_container.findAll("li")
+        instructions = instructions_container.find_all("li")
         return [
             normalize_string(instruction.get_text()) for instruction in instructions
         ]
 
     def instructions(self):
-        data = self._instructions_list()
+        data = self._instructions_list
         return "\n".join(data) if data else None
 
     def image(self):

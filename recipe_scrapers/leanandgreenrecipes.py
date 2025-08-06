@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
@@ -13,7 +11,9 @@ class LeanAndGreenRecipes(AbstractScraper):
 
     def instructions(self):
         instructions = (
-            self.soup.find("div", {"class": "item-list"}).find_next("ol").find_all("li")
+            self.soup.find("div", {"class": "item-list"})
+            .find_next(name="ol")
+            .find_all("li")
         )
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

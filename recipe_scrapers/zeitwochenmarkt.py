@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import extruct
 
 from ._abstract import AbstractScraper
@@ -7,8 +5,8 @@ from ._utils import normalize_string
 
 
 class ZeitWochenmarkt(AbstractScraper):
-    def __init__(self, url, **kwargs):
-        AbstractScraper.__init__(self, url, **kwargs)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         data = extruct.extract(
             self.soup.prettify(), syntaxes=["json-ld"], errors="log", uniform=True
         )

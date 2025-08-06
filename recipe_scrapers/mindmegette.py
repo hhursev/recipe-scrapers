@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -13,7 +12,7 @@ class Mindmegette(AbstractScraper):
 
     def total_time(self):
         item_sibling = self.soup.find("span", {"class": "spriteTime"})
-        time = item_sibling.find_next().get_text()
+        time = item_sibling.find_next(name=True).get_text()
 
         return get_minutes(time)
 
@@ -57,6 +56,6 @@ class Mindmegette(AbstractScraper):
 
     def yields(self):
         item_sibling = self.soup.find("span", {"class": "spritePortion"})
-        portion = item_sibling.find_next().get_text()
+        portion = item_sibling.find_next(name=True).get_text()
 
         return get_yields(portion)

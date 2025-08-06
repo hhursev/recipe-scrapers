@@ -1,6 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._exceptions import SchemaOrgException
+from ._exceptions import SchemaOrgException, StaticValueException
 from ._utils import normalize_string
 
 
@@ -8,6 +7,9 @@ class Rezeptwelt(AbstractScraper):
     @classmethod
     def host(cls):
         return "rezeptwelt.de"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Rezeptwelt")
 
     def author(self):
         return normalize_string(self.soup.find("span", {"id": "viewRecipeAuthor"}).text)

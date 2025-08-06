@@ -1,6 +1,3 @@
-# mypy: allow-untyped-defs
-
-
 import re
 from urllib.parse import urlparse
 
