@@ -1,9 +1,10 @@
 {
   "author": "Drinkoteket",
   "canonical_url": "https://drinkoteket.se/recept/bahama-mama/",
+  "site_name": "Drinkoteket",
   "host": "drinkoteket.se",
-  "description": "Bahama Mama är en god, fruktig och exotisk drink.",
-  "image": "https://drinkoteket.se/wp-content/uploads/bahama-mama-1-860x860.jpg",
+  "language": "sv-SE",
+  "title": "Bahama Mama",
   "ingredients": [
     "6 cl Kokoslikör",
     "6 cl Ananasjuice",
@@ -29,9 +30,8 @@
     "Fyll upp shakern med is och skaka tills drinken blivit kall.",
     "Sila upp din Bahama Mama i ett glas med krossad is och garnera med ananas och körsbär."
   ],
-  "language": "sv-SE",
-  "site_name": "Drinkoteket",
-  "title": "Bahama Mama",
+  "yields": 1,
+  "description": "Bahama Mama är en god, fruktig och exotisk drink.",
   "total_time": 6,
-  "yields": 1
+  "image": "https://drinkoteket.se/wp-content/uploads/bahama-mama-1-860x860.jpg"
 }

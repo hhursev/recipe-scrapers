@@ -1,9 +1,10 @@
 {
   "author": "Drinkoteket",
   "canonical_url": "https://drinkoteket.se/recept/margarita/",
+  "site_name": "Drinkoteket",
   "host": "drinkoteket.se",
-  "description": "Margarita är en klassisk drink och finns i en uppsjö av varianter. Det här är originalet. Ett vanligt misstag är att man väljer en tequila som man inte tycker om. Eftersom tequilan utgör 50% av drinken innebär det ofta att man inte heller gillar Margaritan man just har blandat. Prova dig därför fram för att hitta en tequila som du gillar.",
-  "image": "https://drinkoteket.se/wp-content/uploads/margarita-1-860x860.jpg",
+  "language": "sv-SE",
+  "title": "Margarita",
   "ingredients": [
     "4 cl Tequila",
     "2 cl Apelsinlikör (Triple sec)",
@@ -31,9 +32,8 @@
     "Om man tycker att drinken blir för \"spetsig\" i sin smak, kan man tillsätta ca 0,5-1 cl sockerlag för att runda av och balansera smakerna. Som med alla drinkar handlar det i grund och botten om vad man själv gillar, så testa dig fram för att optimera receptet utifrån dina preferenser.",
     "Hur gör du din Margarita?"
   ],
-  "language": "sv-SE",
-  "site_name": "Drinkoteket",
-  "title": "Margarita",
+  "yields": 1,
+  "description": "Margarita är en klassisk drink och finns i en uppsjö av varianter. Det här är originalet. Ett vanligt misstag är att man väljer en tequila som man inte tycker om. Eftersom tequilan utgör 50% av drinken innebär det ofta att man inte heller gillar Margaritan man just har blandat. Prova dig därför fram för att hitta en tequila som du gillar.",
   "total_time": 8,
-  "yields": 1
+  "image": "https://drinkoteket.se/wp-content/uploads/margarita-1-860x860.jpg"
 }
