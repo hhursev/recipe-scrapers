@@ -17,5 +17,5 @@ class LazyCatKitchen(AbstractScraper):
         if len(groups) == 1 and (
             not groups[0].purpose or groups[0].purpose.strip().lower() == "ingredients"
         ):
-            return None
+            return [type(groups[0])(ingredients=groups[0].ingredients, purpose=None)]
         return groups
