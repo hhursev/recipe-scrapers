@@ -410,6 +410,7 @@ from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
+from .sipandfeast import SipAndFeast
 from .sizzlefish import SizzleFish
 from .skinnytaste import SkinnyTaste
 from .smulweb import Smulweb
@@ -921,6 +922,7 @@ SCRAPERS = {
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
     SimplyWhisked.host(): SimplyWhisked,
+    SipAndFeast.host(): SipAndFeast,
     SizzleFish.host(): SizzleFish,
     SkinnyTaste.host(): SkinnyTaste,
     Smulweb.host(): Smulweb,
