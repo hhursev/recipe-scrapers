@@ -1,8 +1,8 @@
 {
-  "host": "cuisinez-pour-bebe.fr",
+  "author": "Clémence",
   "canonical_url": "https://www.cuisinez-pour-bebe.fr/couscous-aux-legumes-pour-bebe-et-toute-la-famille/",
   "site_name": "Cuisinez pour bébé",
-  "author": "Clémence",
+  "host": "cuisinez-pour-bebe.fr",
   "language": "fr-FR",
   "title": "Couscous aux légumes",
   "ingredients": [
@@ -37,8 +37,8 @@
     "Dès 8/9 mois : mixer en purée 50g de carottes + 50g de courgettes + 25g de navets + 25g de céleri + 1 c.c d’huile d’olive + 1 pincée de ras-el-hanout + 1 pincée de persil. Mélanger avec 1 c. à soupe de semoule.",
     "Dès 12 mois : après l'étape 12, prélever ~150g de légumes dans la cocotte. Ecraser les pois chiches et couper les légumes en petits morceaux adaptés à bébé (s’il n’est pas à l’aise avec les morceaux, mouliner les légumes). Servir les légumes avec environ 2 c. à soupe de semoule et décorer d'herbes fraîches."
   ],
-  "total_time": 60,
   "yields": "2 personnes",
-  "image": "https://www.cuisinez-pour-bebe.fr/wp-content/uploads/2020/09/couscous-aux-legumes-recette-parents-bebe.jpeg",
-  "description": "Voici une recette délicieuse et gouteuse pour faire découvrir les saveurs orientales à bébé ! Le couscous est un plat très équilibré pour faire le plein de légumes, et éveiller les papilles de bébés et grands ! Un plat idéal à partager en famille...\nDans cette version du couscous revisitée, pour préserver tous les bienfaits des légumes, nous allons d’abord pré-cuire les légumes à la vapeur (en les ajoutant au fur et à mesure pour respecter les temps de cuisson), avant de les faire mijoter ensemble pour le couscous dès 12 mois et pour les grands."
+  "description": "Voici une recette délicieuse et gouteuse pour faire découvrir les saveurs orientales à bébé ! Le couscous est un plat très équilibré pour faire le plein de légumes, et éveiller les papilles de bébés et grands ! Un plat idéal à partager en famille...\nDans cette version du couscous revisitée, pour préserver tous les bienfaits des légumes, nous allons d’abord pré-cuire les légumes à la vapeur (en les ajoutant au fur et à mesure pour respecter les temps de cuisson), avant de les faire mijoter ensemble pour le couscous dès 12 mois et pour les grands.",
+  "total_time": 60,
+  "image": "https://www.cuisinez-pour-bebe.fr/wp-content/uploads/2020/09/couscous-aux-legumes-recette-parents-bebe.jpeg"
 }
