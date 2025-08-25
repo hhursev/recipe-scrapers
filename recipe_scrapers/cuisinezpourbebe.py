@@ -7,12 +7,6 @@ class CuisinezPourBebe(AbstractScraper):
     def host(cls):
         return "cuisinez-pour-bebe.fr"
 
-    def category(self):
-        return self.schema.category()
-
-    def image(self):
-        return self.schema.image()
-
     def description(self):
         tags = self.soup.find(class_="wprm-recipe-summary").find_all("span")
         desc = [normalize_string(tag.get_text()) for tag in tags]
