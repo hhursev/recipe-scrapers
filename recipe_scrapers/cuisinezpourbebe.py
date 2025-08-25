@@ -17,7 +17,9 @@ class CuisinezPourBebe(AbstractScraper):
         tags = self.soup.find(class_="wprm-recipe-summary").find_all("span")
         desc = [normalize_string(tag.get_text()) for tag in tags]
         return "\n".join(desc)
-
+    
+    def yields(self):
+        return self.schema.data.get("recipeYield", "")[1]
 
     def instructions(self):
         instructions = self.soup.find_all(
