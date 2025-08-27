@@ -86,8 +86,8 @@ Check out our [Examples](./getting-started/examples.md) section to see how to ge
 ## Why recipe-scrapers Exists
 
 Born from late-night coding sessions and a love for both food and programming, `recipe-scrapers`
-evolved from a personal project into a community tool. It's open-sourced and under
-the [MIT license](https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE)
+evolved from a personal project into a community tool. It's opensource under the
+[MIT license](https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE)
 with a simple goal: let developers focus on building amazing food-related applications without
 reinventing the recipe-parsing wheel.
 
@@ -104,5 +104,5 @@ We're excited to see what you'll create! Feel free to share your project in our
 [community showcase](https://github.com/hhursev/recipe-scrapers/issues/9) - we love seeing what others build with the library.
 
 
-While building awesome stuff, remember to be mindful of websites' terms and fair usage -
-our [Copyright and Usage](copyright-and-usage.md) will help you stay on track.
+While building awesome stuff, remember to be mindful of websites' terms and fair use.
+Our [Copyright and Usage](copyright-and-usage.md) will help you stay on track.
