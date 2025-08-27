@@ -138,6 +138,15 @@ Returns the total time required to complete the recipe, in minutes.
 Returns the number of items or servings the recipe will make. This `str` includes the quantity and
 unit of the yield, for example: 4 servings, 6 items, 12 cookies.
 
+The output is automatically localized based on the detected language of the recipe page. For example:
+- English: "2 servings", "1 serving"
+- German: "2 Portionen", "1 Portion"
+- French: "2 portions", "1 portion"
+- Norwegian: "2 porsjoner", "1 porsjon"
+- Polish: "3 porcje", "1 porcja"
+
+If the recipe page language is not detected or not supported, the function defaults to English terms.
+
 ```py
 >>> scraper.yields()
 '12 items'
@@ -221,6 +230,9 @@ but may also include the dialect or variation, such as 'en-US' for American Engl
 The language code is based on BCP 47 standards.
 For a comprehensive list of BCP 47 language codes, refer to this GitHub Gist:
 <https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1>
+
+!!! note "Language Impact on Yields"
+    The detected language is automatically used to localize the output of the `yields()` function when supported languages are detected.
 
 ```py
 >>> scraper.language()
