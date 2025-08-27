@@ -15,9 +15,9 @@ SERVINGS_LOCALIZATION = {
     "de": ("Portion", "Portionen"),
     # Greek
     "el": ("μερίδα", "μερίδες"),
-    # English variants
+    # English
     "en": ("serving", "servings"),
-    # French variants
+    # French
     "fr": ("portion", "portions"),
     # Hungarian
     "hu": ("adag", "adagok"),
@@ -25,7 +25,7 @@ SERVINGS_LOCALIZATION = {
     "it": ("porzione", "porzioni"),
     # Japanese
     "ja": ("人分", "人分"),
-    # Norwegian Bokmål
+    # Norwegian
     "nb": ("porsjon", "porsjoner"),
     # Dutch
     "nl": ("portie", "porties"),
