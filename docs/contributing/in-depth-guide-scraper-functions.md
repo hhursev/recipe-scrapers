@@ -151,6 +151,16 @@ If the recipe page language is not detected or not supported, the function defau
 >>> scraper.yields()
 '12 items'
 ```
+### Adding New Localizations To Yields
+
+To add support for a new language in the yields localization, edit `recipe_scrapers/_utils.py` to add an entry to the `SERVINGS_LOCALIZATION` dictionary:
+   ```python
+   SERVINGS_LOCALIZATION = {
+       # ... existing entries ...
+       "your-lang-code": ("singular_term", "plural_term"),
+   }
+   ```
+The language code should follow [BCP 47](https://gist.github.com/typpo/b2b828a35e683b9bf8db91b5404f1bd1#file-bcp47-locales-md) standards (e.g., "es" for Spanish, "it" for Italian)
 
 ## Inherited functions
 
