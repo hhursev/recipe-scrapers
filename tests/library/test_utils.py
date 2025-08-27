@@ -169,6 +169,15 @@ class TestUtils(unittest.TestCase):
     def test_get_yields(self):
         self.assertEqual("5 servings", get_yields("5"))
 
+    def test_get_yields_custom_serving_term(self):
+        self.assertEqual("4 dozen", get_yields("4 dozen"))
+
+    def test_get_yields_fractional_above_one(self):
+        self.assertEqual("1.5 cups", get_yields("1.5 cups"))
+
+    def test_get_yields_fractional_below_one(self):
+        self.assertEqual("0.5 cups", get_yields("0.5 cups"))
+
     def test_get_yields_empty_string(self):
         with self.assertRaises(ValueError):
             get_yields("")

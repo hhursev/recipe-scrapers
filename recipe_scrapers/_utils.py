@@ -252,6 +252,7 @@ def get_yields(element, lang=None):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
     matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
+    matched_float = float(matched)
     serve_text_lower = serve_text.lower()
 
     best_match = None
@@ -264,12 +265,12 @@ def get_yields(element, lang=None):
             )
             if match_length > best_match_length:
                 best_match_length = match_length
-                best_match = f"{matched} {singular if int(matched) == 1 else plural}"
+                best_match = f"{matched} {singular if matched_float == 1 else plural}"
 
     if best_match:
         return best_match
 
-    plural = "s" if float(matched) > 1 or float(matched) == 0 else ""
+    plural = "s" if matched_float > 1 or matched_float == 0 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         return f"{matched} item{plural}"
 
