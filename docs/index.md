@@ -10,9 +10,9 @@
 ---
 
 `recipe-scrapers` is a [Python](https://www.python.org/) package for extracting recipe data from
-cooking websites. It parses recipe information from either standard
+cooking websites. It parses recipe information from standard
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) structure, [Schema](https://schema.org/)
-markup (including JSON-LD, Microdata, and RDFa formats) or [OpenGraph](https://ogp.me/) metadata.
+markup (including JSON-LD, Microdata, and RDFa formats), or [OpenGraph](https://ogp.me/) metadata.
 
 The package provides a simple and consistent API for retrieving data such as ingredients, instructions,
 cooking times, and more.
@@ -70,7 +70,7 @@ scraper.to_json()
 
 ## Overview
 
-With `recipe-scrapers`, you should easily extract structured recipe data such as:
+With `recipe-scrapers`, you can easily extract structured recipe data such as:
 
 - title
 - ingredients
