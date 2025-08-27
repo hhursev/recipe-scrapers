@@ -29,7 +29,7 @@ class AbstractScraper:
         self.url = url
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.opengraph = self._opengraph_cls(self.soup)
-        self.schema = self._schema_cls(self.page_data)
+        self.schema = self._schema_cls(self.page_data, language_fallback=self.language)
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):

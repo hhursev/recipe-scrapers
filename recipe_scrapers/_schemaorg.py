@@ -39,12 +39,13 @@ class SchemaOrg:
                 if self._contains_schematype(node, schematype):
                     return node
 
-    def __init__(self, page_data):
+    def __init__(self, page_data, language_fallback=None):
         self.format = None
         self.data = {}
         self.people = {}
         self.ratingsdata = {}
         self.website_name = None
+        self.language_fallback = language_fallback
 
         data = extruct.extract(
             page_data,
@@ -117,7 +118,23 @@ class SchemaOrg:
         return normalize_string(self.website_name)
 
     def language(self):
-        return self.data.get("inLanguage") or self.data.get("language")
+        """
+        Get language code from schema data or fallback to HTML-based detection.
+
+        Returns:
+            Language code (e.g., 'en', 'de', 'fr') or None if not found
+        """
+        schema_lang = self.data.get("inLanguage") or self.data.get("language")
+        if schema_lang:
+            return schema_lang
+
+        if self.language_fallback:
+            try:
+                return self.language_fallback()
+            except Exception:
+                pass
+
+        return None
 
     def title(self):
         return normalize_string(self.data.get("name"))
@@ -190,7 +207,7 @@ class SchemaOrg:
         if yield_data and isinstance(yield_data, list):
             yield_data = yield_data[0]
         if yield_data:
-            return get_yields(str(yield_data))
+            return get_yields(str(yield_data), self.language())
 
     def image(self):
         image = self.data.get("image")

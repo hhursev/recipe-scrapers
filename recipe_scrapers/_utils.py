@@ -7,6 +7,46 @@ import isodate
 
 from ._exceptions import ElementNotFoundInHtml
 
+
+SERVINGS_LOCALIZATION = {
+    # Danish
+    "da": ("portion", "portioner"),
+    # German
+    "de": ("Portion", "Portionen"),
+    # Greek
+    "el": ("μερίδα", "μερίδες"),
+    # English variants
+    "en": ("serving", "servings"),
+    # French variants
+    "fr": ("portion", "portions"),
+    # Hungarian
+    "hu": ("adag", "adagok"),
+    # Italian
+    "it": ("porzione", "porzioni"),
+    # Japanese
+    "ja": ("人分", "人分"),
+    # Norwegian Bokmål
+    "nb": ("porsjon", "porsjoner"),
+    # Dutch
+    "nl": ("portie", "porties"),
+    # Norwegian
+    "no": ("porsjon", "porsjoner"),
+    # Polish
+    "pl": ("porcja", "porcje"),
+    # Portuguese
+    "pt": ("porção", "porções"),
+    # Russian
+    "ru": ("порция", "порции"),
+    # Swedish
+    "sv": ("portion", "portioner"),
+    # Slovak
+    "sk": ("porcia", "porcie"),
+    # Turkish
+    "tr": ("porsiyon", "porsiyonlar"),
+    # Chinese (Simplified)
+    "zh": ("份", "份"),
+}
+
 FRACTIONS = {
     "½": 0.5,
     "⅓": 1 / 3,
@@ -186,7 +226,7 @@ def get_minutes(element):
     return None if rounded_minutes == 0 else rounded_minutes
 
 
-def get_yields(element):
+def get_yields(element, lang=None):
     """
     Will return a string of servings or items, if the recipe is for number of items and not servings
     the method will return the string "x item(s)" where x is the quantity.
@@ -194,8 +234,9 @@ def get_yields(element):
     it returns "x item(s)" where x is the quantity. This function handles cases where the yield is in dozens,
     such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
     accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
+    Optionally, a language code can be provided to localize the "serving(s)" word.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
-    :return: The number of servings or items.
+    :param lang: Optional language code for localization (e.g., "en-US", "fr", etc.)
     :return: The number of servings, items, dozen, batches, etc...
     """
     if element is None:
@@ -232,7 +273,41 @@ def get_yields(element):
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
         return f"{matched} item{plural}"
 
-    return f"{matched} serving{plural}"
+    # Get localized serving terms or use English default
+    serving_terms = _get_serving_terms(lang)
+
+    if serving_terms:
+        singular, plural_form = serving_terms
+        serving_word = singular if float(matched) == 1 else plural_form
+    else:
+        # Default to English
+        plural_suffix = "s" if float(matched) > 1 or float(matched) == 0 else ""
+        serving_word = "serving" + plural_suffix
+
+    return f"{matched} {serving_word}"
+
+
+def _get_serving_terms(lang):
+    """
+    Get localized serving terms for the given language.
+
+    Args:
+        lang: Language code (e.g., 'en', 'de', 'fr-CA') or None
+
+    Returns:
+        (singular, plural) tuple for localized terms or None for English default
+    """
+    if not lang:
+        return None
+
+    if lang in SERVINGS_LOCALIZATION:
+        return SERVINGS_LOCALIZATION[lang]
+
+    base_lang = lang.split("-")[0].split("_")[0]
+    if base_lang in SERVINGS_LOCALIZATION:
+        return SERVINGS_LOCALIZATION[base_lang]
+
+    return None
 
 
 def get_equipment(equipment_items):
