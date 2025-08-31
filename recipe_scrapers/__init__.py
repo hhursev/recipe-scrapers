@@ -114,6 +114,7 @@ from .chewoutloud import ChewOutLoud
 from .closetcooking import ClosetCooking
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
+from .cookedandloved import CookedAndLoved
 from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
@@ -606,6 +607,7 @@ SCRAPERS = {
     ClosetCooking.host(): ClosetCooking,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
+    CookedAndLoved.host(): CookedAndLoved,
     CookieAndKate.host(): CookieAndKate,
     CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
