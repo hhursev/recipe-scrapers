@@ -195,6 +195,7 @@ from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
 from .gimmesomeoven import GimmeSomeOven
 from .globo import Globo
+from .gloriousrecipes import GloriousRecipes
 from .glutenfreeonashoestring import GlutenFreeOnAShoeString
 from .godt import Godt
 from .gonnawantseconds import GonnaWantSeconds
@@ -689,6 +690,7 @@ SCRAPERS = {
     GialloZafferano.host(): GialloZafferano,
     GimmeSomeOven.host(): GimmeSomeOven,
     Globo.host(): Globo,
+    GloriousRecipes.host(): GloriousRecipes,
     GlutenFreeOnAShoeString.host(): GlutenFreeOnAShoeString,
     Godt.host(): Godt,
     GonnaWantSeconds.host(): GonnaWantSeconds,
