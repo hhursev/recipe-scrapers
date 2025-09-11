@@ -62,14 +62,19 @@ class StreetKitchen(AbstractScraper):
         return groups
 
     def instructions(self):
-        article = self.soup.select_one("article.recipe-article")
-        if article:
-            instructions = []
-            for child in article.children:
-                if getattr(child, "name", None) == "p":
-                    text = child.get_text(" ", strip=True)
-                    if text:
-                        instructions.append(text)
-                elif getattr(child, "name", None) is not None:
-                    break
-            return "\n".join(instructions)
+        container = self.soup.select_one(
+            "article.recipe-article"
+        ) or self.soup.select_one("div.recipe-article")
+        if not container:
+            return ""
+
+        instructions = []
+        for child in container.children:
+            if getattr(child, "name", None) == "p":
+                text = child.get_text(" ", strip=True)
+                if text:
+                    instructions.append(text)
+            elif getattr(child, "name", None) not in [None, "h2", "h3"]:
+                break
+
+        return "\n".join(instructions)
