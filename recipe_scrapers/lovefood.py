@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes
+from ._utils import get_minutes, get_yields
 from ._grouping_utils import group_ingredients
 
 
@@ -30,7 +30,7 @@ class LoveFood(AbstractScraper):
 
     def yields(self):
         el = self.soup.select_one("li:-soup-contains('Serves:')")
-        return el.get_text(strip=True).split(":", 1)[-1].strip()
+        return get_yields(el.get_text(strip=True).split(":", 1)[-1].strip())
 
     def ingredients(self):
         items = self.soup.select('ul[name="ingredients-metric"] li')
