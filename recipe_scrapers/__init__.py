@@ -271,6 +271,7 @@ from .kwestiasmaku import KwestiaSmaku
 from .lacucinaitaliana import LaCucinaItaliana
 from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
+from .lazycatkitchen import LazyCatKitchen
 from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .leckerschmecker import LeckerSchmecker
@@ -785,6 +786,7 @@ SCRAPERS = {
     LaCucinaItaliana.host(domain="com"): LaCucinaItaliana,
     LanasCooking.host(): LanasCooking,
     LAtelierDeRoxane.host(): LAtelierDeRoxane,
+    LazyCatKitchen.host(): LazyCatKitchen,
     LeanAndGreenRecipes.host(): LeanAndGreenRecipes,
     Lecker.host(): Lecker,
     LeckerSchmecker.host(): LeckerSchmecker,
