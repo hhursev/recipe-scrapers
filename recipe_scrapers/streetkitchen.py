@@ -34,6 +34,9 @@ class StreetKitchen(AbstractScraper):
             heading_tag = group_block.select_one("h5.text-lg.font-bold")
             purpose = heading_tag.get_text(strip=True) if heading_tag else None
 
+            if purpose == "":
+                return [IngredientGroup(ingredients=self.ingredients())]
+
             ingredients = []
             for item in group_block.select("div.my-2.flex.items-center.gap-2.text-lg"):
                 divs = [
@@ -48,7 +51,6 @@ class StreetKitchen(AbstractScraper):
                 ]
                 if parts:
                     text = " ".join(parts)
-                    # remove spaces just inside parentheses
                     text = text.replace("( ", "(").replace(" )", ")")
                     ingredients.append(text)
 
