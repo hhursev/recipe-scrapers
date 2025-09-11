@@ -40,7 +40,7 @@ def main():
         name = f"{class_name}{suffix}"
         host = get_host_name(url)
         html = requests.get(url, headers=HEADERS).content
-        _generate_tests_and_data(name, host, html)
+        _generate_tests_and_data(name, host, html, url)
 
     if len(urls) == 1:
         print(f"Successfully generated scraper and test data for {class_name}")
@@ -63,7 +63,7 @@ def _generate_scraper(class_name, host):
     out.write_text(replacer.result())
 
 
-def _generate_tests_and_data(class_name, host, html):
+def _generate_tests_and_data(class_name, host, html, url):
     dest = TEST_DATA_DIR / host
     dest.mkdir(parents=True, exist_ok=True)
 
@@ -82,9 +82,11 @@ def _generate_tests_and_data(class_name, host, html):
             "yields",
             "image",
             "description",
+            "source_uri",
         )
     }
     data["host"] = host
+    data["source_uri"] = url
 
     (dest / f"{class_name.lower()}.json").write_text(json.dumps(data, indent=2) + "\n")
     (dest / f"{class_name.lower()}.testhtml").write_bytes(html)
