@@ -1,0 +1,77 @@
+{
+  "author": "Tami Smith",
+  "canonical_url": "https://fithealthymacros.com/recipes/berry-spinach-salad-with-30-grams-protein/",
+  "site_name": "Fit Healthy Macros",
+  "host": "fithealthymacros.com",
+  "language": "en-US",
+  "title": "Berry Spinach Salad with 30 Grams Protein",
+  "ingredients": [
+    "1 lb Chicken breast",
+    "1 tbsp Olive oil",
+    "2 tsp Chili powder",
+    "1 tsp Salt",
+    "1/2 tsp Paprika",
+    "1/4 tsp Garlic powder",
+    "1/4 tsp Onion powder",
+    "6 cups Baby spinach",
+    "1 cup Mixed berries",
+    "2 oz Goat cheese crumbles",
+    "1/2 cup Marzetti Simply Balsamic Vinaigrette (Or a similar brand)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 lb Chicken breast",
+        "1 tbsp Olive oil",
+        "2 tsp Chili powder",
+        "1 tsp Salt",
+        "1/2 tsp Paprika",
+        "1/4 tsp Garlic powder",
+        "1/4 tsp Onion powder"
+      ],
+      "purpose": "For the chicken:"
+    },
+    {
+      "ingredients": [
+        "6 cups Baby spinach",
+        "1 cup Mixed berries",
+        "2 oz Goat cheese crumbles",
+        "1/2 cup Marzetti Simply Balsamic Vinaigrette (Or a similar brand)"
+      ],
+      "purpose": "For the salad:"
+    }
+  ],
+  "instructions_list": [
+    "Start by preparing the chicken. Rub the chicken breasts with olive oil. Combine all seasonings and evenly sprinkle over both sides of the chicken breasts. Cook the chicken over medium-high heat, either in a pan or on a grill, for approximately 6 minutes per side or until the internal temperature reaches at least 165°F. Transfer to a cutting board and allow to cool slightly before slicing.",
+    "While the chicken cools, prepare the salad and dressing.",
+    "Arrange baby spinach on a serving plate or bowl. Layer with sliced strawberries, fresh blueberries, crumbled goat cheese, and the sliced chicken.",
+    "Drizzle the dressing over the salad to taste, or serve it on the side.",
+    "Gently toss the salad ingredients together to coat evenly with the dressing. Serve the salad immediately and enjoy!"
+  ],
+  "category": "Dinner",
+  "yields": "4 servings",
+  "description": "This vibrant Berry Spinach Salad combines juicy grilled chicken, sweet berries, and creamy goat cheese for a refreshing, high-protein meal topped with tangy balsamic vinaigrette, perfect for a light lunch or dinner.",
+  "total_time": 40,
+  "cook_time": 20,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "equipment": [
+    "1 Cutting board + knife",
+    "1 Small Mixing Bowl",
+    "1 Mixing spoon",
+    "measuring spoons",
+    "1 Grill pan, skillet, or outdoor grill",
+    "1 Tongs or spatula",
+    "1 Meat thermometer"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "278 kcal",
+    "fatContent": "14 g",
+    "carbohydrateContent": "8 g",
+    "proteinContent": "30 g"
+  },
+  "image": "https://fithealthymacros.com/wp-content/uploads/2025/05/High-Protein-Berry-Spinach-Salad.jpg"
+}
