@@ -1,7 +1,6 @@
 {
   "author": "Elizabeth Lindemann",
   "canonical_url": "https://www.bowlofdelicious.com/six-minute-seared-ahi-tuna-steaks/",
-  "source_uri": "https://www.bowlofdelicious.com/six-minute-seared-ahi-tuna-steaks/",
   "site_name": "Bowl of Delicious",
   "host": "bowlofdelicious.com",
   "language": "en-US",
@@ -53,5 +52,6 @@
     "Ahi tuna recipe",
     "How to cook ahi tuna",
     "Seared ahi tuna medium rare"
-  ]
+  ],
+  "source_uri": "https://www.bowlofdelicious.com/six-minute-seared-ahi-tuna-steaks/"
 }

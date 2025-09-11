@@ -1,7 +1,6 @@
 {
   "author": "Sylvia Fountaine | feasting at home",
   "canonical_url": "https://www.feastingathome.com/tomato-risotto/",
-  "source_uri": "https://www.feastingathome.com/tomato-risotto/",
   "site_name": "Feasting At Home",
   "host": "feastingathome.com",
   "language": "en-US",
@@ -103,5 +102,6 @@
     "tomato risotto",
     "vegetarian risotto",
     "shrimp risotto"
-  ]
+  ],
+  "source_uri": "https://www.feastingathome.com/tomato-risotto/"
 }

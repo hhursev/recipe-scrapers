@@ -1,7 +1,6 @@
 {
   "author": "Hersheyland",
   "canonical_url": "hersheyland.com",
-  "source_uri": "https://www.hersheyland.com/recipes/hersheys-perfectly-chocolate-chocolate-cake.html",
   "site_name": "Hersheyland",
   "host": "hersheyland.com",
   "language": "en-US",
@@ -61,5 +60,6 @@
     "Birthdays",
     "Cakes",
     "HERSHEY'S"
-  ]
+  ],
+  "source_uri": "https://www.hersheyland.com/recipes/hersheys-perfectly-chocolate-chocolate-cake.html"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Karin and Ken",
   "canonical_url": "https://kitchendivas.com/taco-bell-cheesy-gordita-crunch/",
-  "source_uri": "https://kitchendivas.com/taco-bell-cheesy-gordita-crunch/",
   "site_name": "Kitchen Divas",
   "host": "kitchendivas.com",
   "language": "en-US",
@@ -115,5 +114,6 @@
   "keywords": [
     "cheesy gordita crunch",
     "taco bell copycat"
-  ]
+  ],
+  "source_uri": "https://kitchendivas.com/taco-bell-cheesy-gordita-crunch/"
 }

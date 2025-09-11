@@ -1,7 +1,6 @@
 {
   "author": "Louisa Lorang",
   "canonical_url": "https://spisbedre.dk/opskrifter/kyllingetaerte-med-butterdejslag",
-  "source_uri": "https://spisbedre.dk/opskrifter/kyllingetaerte-med-butterdejslag",
   "site_name": "SPIS BEDRE",
   "host": "spisbedre.dk",
   "language": "da",
@@ -43,5 +42,6 @@
     "carbohydrateContent": "43 g",
     "proteinContent": "33 g"
   },
-  "image": "https://spisbedre-production-app.imgix.net/images/recipes/kyllingetaerte-med-butterdejslag_15964.jpg?fit=crop&crop=focalpoint&fp-x=0.44097082638046&fp-y=0.66429758726712&fp-z=1.25"
+  "image": "https://spisbedre-production-app.imgix.net/images/recipes/kyllingetaerte-med-butterdejslag_15964.jpg?fit=crop&crop=focalpoint&fp-x=0.44097082638046&fp-y=0.66429758726712&fp-z=1.25",
+  "source_uri": "https://spisbedre.dk/opskrifter/kyllingetaerte-med-butterdejslag"
 }

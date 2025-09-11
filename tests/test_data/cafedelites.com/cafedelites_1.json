@@ -1,7 +1,6 @@
 {
   "author": "Karina",
   "canonical_url": "https://cafedelites.com/best-churros-recipe/",
-  "source_uri": "https://cafedelites.com/best-churros-recipe/",
   "site_name": "Cafe Delites",
   "host": "cafedelites.com",
   "language": "en-US",
@@ -81,5 +80,6 @@
   "image": "https://cafedelites.com/wp-content/uploads/2020/05/Churros-IMAGE-121.jpg",
   "keywords": [
     "churros"
-  ]
+  ],
+  "source_uri": "https://cafedelites.com/best-churros-recipe/"
 }

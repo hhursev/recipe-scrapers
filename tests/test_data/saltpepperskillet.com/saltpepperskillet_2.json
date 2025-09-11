@@ -1,7 +1,6 @@
 {
   "author": "Justin Mcchesney-Wachs",
   "canonical_url": "https://saltpepperskillet.com/smoked-bread-pudding/",
-  "source_uri": "https://saltpepperskillet.com/smoked-bread-pudding/",
   "site_name": "Salt Pepper Skillet",
   "host": "saltpepperskillet.com",
   "language": "en-US",
@@ -79,5 +78,6 @@
   "equipment": [
     "Container: disposable aluminum or 12″ cast iron skillet"
   ],
-  "image": "https://saltpepperskillet.com/wp-content/uploads/smoked-bread-pudding-recipe-on-plate-overhead.jpg"
+  "image": "https://saltpepperskillet.com/wp-content/uploads/smoked-bread-pudding-recipe-on-plate-overhead.jpg",
+  "source_uri": "https://saltpepperskillet.com/smoked-bread-pudding/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Kelli Avila",
   "canonical_url": "https://everydaypie.com/pistachio-cream-pie/",
-  "source_uri": "https://everydaypie.com/pistachio-cream-pie/",
   "site_name": "Everyday Pie",
   "host": "everydaypie.com",
   "language": "en-US",
@@ -93,5 +92,6 @@
   "keywords": [
     "Pistachio Cream Pie",
     "Pistachio Pudding Pie"
-  ]
+  ],
+  "source_uri": "https://everydaypie.com/pistachio-cream-pie/"
 }

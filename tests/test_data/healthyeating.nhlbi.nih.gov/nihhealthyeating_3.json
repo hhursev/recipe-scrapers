@@ -1,6 +1,5 @@
 {
   "canonical_url": "healthyeating.nhlbi.nih.gov",
-  "source_uri": "https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?cId=0&rId=163",
   "site_name": "National Heart, Lung and Blood Institute",
   "host": "healthyeating.nhlbi.nih.gov",
   "title": "Fruit Skewers With Yogurt Dip",
@@ -60,5 +59,6 @@
     "Calcium": "4%",
     "Iron": "2%"
   },
-  "image": "https://healthyeating.nhlbi.nih.gov/images/food/Fruit_Skewers.jpg"
+  "image": "https://healthyeating.nhlbi.nih.gov/images/food/Fruit_Skewers.jpg",
+  "source_uri": "https://healthyeating.nhlbi.nih.gov/recipedetail.aspx?cId=0&rId=163"
 }

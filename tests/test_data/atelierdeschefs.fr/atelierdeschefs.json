@@ -1,7 +1,6 @@
 {
   "author": "L'atelier des Chefs",
   "canonical_url": "atelierdeschefs.fr",
-  "source_uri": "https://www.atelierdeschefs.fr/recettes/16689/crepe-savoyarde/",
   "site_name": "https://www.atelierdeschefs.fr",
   "host": "atelierdeschefs.fr",
   "language": "fr",
@@ -50,5 +49,6 @@
   "prep_time": 10,
   "ratings": 3.7,
   "ratings_count": 297,
-  "image": "https://www.atelierdeschefs.com/media/recette-e16689-crepe-savoyarde.jpg"
+  "image": "https://www.atelierdeschefs.com/media/recette-e16689-crepe-savoyarde.jpg",
+  "source_uri": "https://www.atelierdeschefs.fr/recettes/16689/crepe-savoyarde/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "James Delmage",
   "canonical_url": "https://www.sipandfeast.com/salisbury-steak-mushroom-gravy/",
-  "source_uri": "https://www.sipandfeast.com/salisbury-steak-mushroom-gravy/",
   "site_name": "Sip and Feast",
   "host": "sipandfeast.com",
   "language": "en-US",
@@ -77,5 +76,6 @@
   "yields": "4 servings",
   "description": "Salisbury steak with mushroom gravy is a tasty stick-to-your-ribs comfort food that tastes like it's cooked for hours but can be on your table in 45 minutes!",
   "total_time": 45,
-  "image": "https://www.sipandfeast.com/wp-content/uploads/2023/11/salisbury-steak-recipe-snippet.jpg"
+  "image": "https://www.sipandfeast.com/wp-content/uploads/2023/11/salisbury-steak-recipe-snippet.jpg",
+  "source_uri": "https://www.sipandfeast.com/salisbury-steak-mushroom-gravy/"
 }

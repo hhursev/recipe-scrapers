@@ -1,7 +1,6 @@
 {
   "author": "Dagelijkse kost",
   "canonical_url": "https://dagelijksekost.vrt.be/gerechten/vol-au-vent",
-  "source_uri": "https://dagelijksekost.vrt.be/gerechten/vol-au-vent",
   "site_name": "Dagelijkse kost",
   "host": "dagelijksekost.vrt.be",
   "language": "nl",
@@ -97,5 +96,6 @@
     "Verjaardag",
     "Week van het Gehakt",
     "Hoofdgerecht"
-  ]
+  ],
+  "source_uri": "https://dagelijksekost.vrt.be/gerechten/vol-au-vent"
 }

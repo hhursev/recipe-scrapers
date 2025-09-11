@@ -1,7 +1,6 @@
 {
   "author": "Marwin Brown",
   "canonical_url": "https://www.foodfidelity.com/strawberry-oatmeal/",
-  "source_uri": "https://www.foodfidelity.com/strawberry-oatmeal/",
   "site_name": "Food Fidelity",
   "host": "foodfidelity.com",
   "language": "en-US",
@@ -46,5 +45,6 @@
   "keywords": [
     "oatmeal",
     "strawberry oatmeal"
-  ]
+  ],
+  "source_uri": "https://www.foodfidelity.com/strawberry-oatmeal/"
 }

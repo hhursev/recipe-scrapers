@@ -1,7 +1,6 @@
 {
   "author": "Camilla Biesbjerg Markussen",
   "canonical_url": "https://spisbedre.dk/opskrifter/fastelavnsboller-med-lemoncurd-og-braendt-marengs",
-  "source_uri": "https://spisbedre.dk/opskrifter/fastelavnsboller-med-lemoncurd-og-braendt-marengs",
   "site_name": "SPIS BEDRE",
   "host": "spisbedre.dk",
   "language": "da",
@@ -88,5 +87,6 @@
     "carbohydrateContent": "43 g",
     "proteinContent": "5 g"
   },
-  "image": "https://spisbedre-production-app.imgix.net/images/recipes/fastelavnsboller-med-lemoncurd-og-braendt-marengs_2317.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5501708984375&fp-z=1"
+  "image": "https://spisbedre-production-app.imgix.net/images/recipes/fastelavnsboller-med-lemoncurd-og-braendt-marengs_2317.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5501708984375&fp-z=1",
+  "source_uri": "https://spisbedre.dk/opskrifter/fastelavnsboller-med-lemoncurd-og-braendt-marengs"
 }

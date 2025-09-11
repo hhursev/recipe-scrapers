@@ -1,7 +1,6 @@
 {
   "author": "Wei Guo",
   "canonical_url": "https://redhousespice.com/smashed-cucumber/",
-  "source_uri": "https://redhousespice.com/smashed-cucumber/",
   "site_name": "Red House Spice",
   "host": "redhousespice.com",
   "language": "en-US",
@@ -51,5 +50,6 @@
   "keywords": [
     "cucumber salad",
     "smashed cucumber salad"
-  ]
+  ],
+  "source_uri": "https://redhousespice.com/smashed-cucumber/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Seema Pankhania",
   "canonical_url": "https://www.mob.co.uk/recipes/chilli-cheese-paratha",
-  "source_uri": "https://www.mob.co.uk/recipes/chilli-cheese-paratha",
   "site_name": "Mob",
   "host": "mob.co.uk",
   "language": "en",
@@ -48,5 +47,6 @@
     "cheese paratha recipe",
     "chilli cheese paratha recipe",
     "cheesy paratha recipe"
-  ]
+  ],
+  "source_uri": "https://www.mob.co.uk/recipes/chilli-cheese-paratha"
 }

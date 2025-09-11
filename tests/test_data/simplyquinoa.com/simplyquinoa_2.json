@@ -1,7 +1,6 @@
 {
   "author": "Alyssa",
   "canonical_url": "https://www.simplyquinoa.com/gluten-free-pancake-recipe/",
-  "source_uri": "https://www.simplyquinoa.com/gluten-free-pancake-recipe/",
   "site_name": "Simply Quinoa",
   "host": "simplyquinoa.com",
   "language": "en-US",
@@ -75,5 +74,6 @@
     "fluffy pancakes",
     "healthy pancakes",
     "vegan pancakes"
-  ]
+  ],
+  "source_uri": "https://www.simplyquinoa.com/gluten-free-pancake-recipe/"
 }

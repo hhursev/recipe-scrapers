@@ -1,7 +1,6 @@
 {
   "author": "Jeanine Donofrio",
   "canonical_url": "https://www.loveandlemons.com/green-smoothie/",
-  "source_uri": "https://www.loveandlemons.com/green-smoothie/",
   "site_name": "Love and Lemons",
   "host": "loveandlemons.com",
   "language": "en-US",
@@ -32,5 +31,6 @@
     "Green smoothie",
     "Green smoothie recipe",
     "Green smoothie recipes"
-  ]
+  ],
+  "source_uri": "https://www.loveandlemons.com/green-smoothie/"
 }

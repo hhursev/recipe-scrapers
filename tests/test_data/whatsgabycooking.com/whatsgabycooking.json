@@ -1,7 +1,6 @@
 {
   "author": "Gaby Dalkin",
   "canonical_url": "https://whatsgabycooking.com/chicken-fajita-bowls/",
-  "source_uri": "https://whatsgabycooking.com/chicken-fajita-bowls/",
   "site_name": "What's Gaby Cooking",
   "host": "whatsgabycooking.com",
   "language": "en-US",
@@ -58,5 +57,6 @@
   "keywords": [
     "fajita bowls",
     "chicken fajita bowls"
-  ]
+  ],
+  "source_uri": "https://whatsgabycooking.com/chicken-fajita-bowls/"
 }

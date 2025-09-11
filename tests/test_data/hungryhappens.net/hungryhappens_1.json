@@ -1,7 +1,6 @@
 {
   "author": "Stella",
   "canonical_url": "https://hungryhappens.net/one-pot-vegetable-tortellini-soup/",
-  "source_uri": "https://hungryhappens.net/one-pot-vegetable-tortellini-soup/",
   "site_name": "Hungry Happens",
   "host": "hungryhappens.net",
   "language": "en-US",
@@ -52,5 +51,6 @@
     "fiberContent": "13 g",
     "cholesterolContent": "109 mg"
   },
-  "image": "https://hungryhappens.net/wp-content/uploads/2022/12/IMG_2810-scaled.jpeg"
+  "image": "https://hungryhappens.net/wp-content/uploads/2022/12/IMG_2810-scaled.jpeg",
+  "source_uri": "https://hungryhappens.net/one-pot-vegetable-tortellini-soup/"
 }

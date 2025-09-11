@@ -1,7 +1,6 @@
 {
   "author": "Judy",
   "canonical_url": "https://thewoksoflife.com/whole-wheat-mantou/",
-  "source_uri": "https://thewoksoflife.com/whole-wheat-mantou/",
   "site_name": "The Woks of Life",
   "host": "thewoksoflife.com",
   "language": "en-US",
@@ -45,5 +44,6 @@
   "image": "https://thewoksoflife.com/wp-content/uploads/2018/01/whole-wheat-mantou-9-1.jpg",
   "keywords": [
     "mantou"
-  ]
+  ],
+  "source_uri": "https://thewoksoflife.com/whole-wheat-mantou/"
 }

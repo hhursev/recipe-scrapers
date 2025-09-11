@@ -1,7 +1,6 @@
 {
   "author": "Pilipinas Recipes",
   "canonical_url": "https://pilipinasrecipes.com/banana-cue-recipe/",
-  "source_uri": "https://pilipinasrecipes.com/banana-cue-recipe/",
   "site_name": "Pilipinas Recipes",
   "host": "pilipinasrecipes.com",
   "language": "en-US",
@@ -50,5 +49,6 @@
     "snack food",
     "caramel banana",
     "traditional"
-  ]
+  ],
+  "source_uri": "https://pilipinasrecipes.com/banana-cue-recipe/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Traci York",
   "canonical_url": "https://vanillaandbean.com/healthy-waffles/",
-  "source_uri": "https://vanillaandbean.com/healthy-waffles/",
   "site_name": "Vanilla And Bean",
   "host": "vanillaandbean.com",
   "language": "en-US",
@@ -52,5 +51,6 @@
     "Healthy Waffles",
     "Oat Waffles",
     "Vegan Gluten Free Waffles"
-  ]
+  ],
+  "source_uri": "https://vanillaandbean.com/healthy-waffles/"
 }

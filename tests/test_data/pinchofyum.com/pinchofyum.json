@@ -1,7 +1,6 @@
 {
   "author": "Lindsay Ostrom",
   "canonical_url": "https://pinchofyum.com/broccoli-cheese-soup",
-  "source_uri": "https://pinchofyum.com/broccoli-cheese-soup",
   "site_name": "Pinch of Yum",
   "host": "pinchofyum.com",
   "language": "en-US",
@@ -61,5 +60,6 @@
     "soup season",
     "broccoli cheddar",
     "Panera broccoli cheese soup"
-  ]
+  ],
+  "source_uri": "https://pinchofyum.com/broccoli-cheese-soup"
 }

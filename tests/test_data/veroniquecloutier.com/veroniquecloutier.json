@@ -1,7 +1,6 @@
 {
   "author": "Marilou",
   "canonical_url": "https://veroniquecloutier.com/cuisine/boeuf-braise-a-loignon-et-puree-de-pommes-de-terre-au-bacon",
-  "source_uri": "https://veroniquecloutier.com/cuisine/boeuf-braise-a-loignon-et-puree-de-pommes-de-terre-au-bacon",
   "site_name": "Véronique Cloutier",
   "host": "veroniquecloutier.com",
   "language": "fr-CA",
@@ -60,5 +59,6 @@
   "yields": "4 servings",
   "description": "Enfin une recette simple pour nourrir de grandes tablées sans trop d’efforts! Les restes font d’excellents sandwiches à l’effilochée de boeuf.",
   "total_time": null,
-  "image": "https://s3.amazonaws.com/rose.vero/wp-content/uploads/2015/01/12154413/boeuf-braise-1.jpg"
+  "image": "https://s3.amazonaws.com/rose.vero/wp-content/uploads/2015/01/12154413/boeuf-braise-1.jpg",
+  "source_uri": "https://veroniquecloutier.com/cuisine/boeuf-braise-a-loignon-et-puree-de-pommes-de-terre-au-bacon"
 }

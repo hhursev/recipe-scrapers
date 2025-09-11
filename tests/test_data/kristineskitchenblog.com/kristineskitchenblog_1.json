@@ -1,7 +1,6 @@
 {
   "author": "Kristine Rosenblatt",
   "canonical_url": "https://kristineskitchenblog.com/berry-smoothie/",
-  "source_uri": "https://kristineskitchenblog.com/berry-smoothie/",
   "site_name": "Kristine's Kitchen",
   "host": "kristineskitchenblog.com",
   "language": "en-US",
@@ -41,5 +40,6 @@
   "image": "https://kristineskitchenblog.com/wp-content/uploads/2022/02/best-berry-smoothie-recipe-06.jpg",
   "keywords": [
     "berry smoothie"
-  ]
+  ],
+  "source_uri": "https://kristineskitchenblog.com/berry-smoothie/"
 }

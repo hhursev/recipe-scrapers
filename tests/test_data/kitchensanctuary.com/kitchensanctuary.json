@@ -1,7 +1,6 @@
 {
   "author": "Nicky Corbishley",
   "canonical_url": "https://www.kitchensanctuary.com/korean-fried-chicken/",
-  "source_uri": "https://www.kitchensanctuary.com/korean-fried-chicken/",
   "site_name": "Nicky's Kitchen Sanctuary",
   "host": "kitchensanctuary.com",
   "language": "en-US",
@@ -115,5 +114,6 @@
     "better than takeout",
     "Fakeaway",
     "spicy"
-  ]
+  ],
+  "source_uri": "https://www.kitchensanctuary.com/korean-fried-chicken/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Arman Liew",
   "canonical_url": "https://thebigmansworld.com/hanger-steak/",
-  "source_uri": "https://thebigmansworld.com/hanger-steak/",
   "site_name": "The Big Man's World ®",
   "host": "thebigmansworld.com",
   "language": "en-US",
@@ -44,5 +43,6 @@
   "image": "https://thebigmansworld.com/wp-content/uploads/2024/07/hanger-steak-recipe2.jpg",
   "keywords": [
     "hanger steak"
-  ]
+  ],
+  "source_uri": "https://thebigmansworld.com/hanger-steak/"
 }

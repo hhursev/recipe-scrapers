@@ -1,7 +1,6 @@
 {
   "author": "Sonja",
   "canonical_url": "https://www.madamecuisine.de/gemueseeintopf-mit-wintergemuese/",
-  "source_uri": "https://www.madamecuisine.de/gemueseeintopf-mit-wintergemuese/",
   "site_name": "Madame Cuisine Foodblog",
   "host": "madamecuisine.de",
   "language": "de",
@@ -98,5 +97,6 @@
   "keywords": [
     "Eintopf",
     "Gemüseeintopf"
-  ]
+  ],
+  "source_uri": "https://www.madamecuisine.de/gemueseeintopf-mit-wintergemuese/"
 }

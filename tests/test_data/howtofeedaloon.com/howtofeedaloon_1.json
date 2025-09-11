@@ -1,7 +1,6 @@
 {
   "author": "Kris Longwell",
   "canonical_url": "https://howtofeedaloon.com/best-ever-chicken-salad/",
-  "source_uri": "https://howtofeedaloon.com/best-ever-chicken-salad/",
   "site_name": "How To Feed A Loon",
   "host": "howtofeedaloon.com",
   "language": "en-US",
@@ -59,5 +58,6 @@
     "easy chicken salad",
     "homemade mayonnaise",
     "Roasted Chicken"
-  ]
+  ],
+  "source_uri": "https://howtofeedaloon.com/best-ever-chicken-salad/"
 }

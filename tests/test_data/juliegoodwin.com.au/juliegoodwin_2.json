@@ -1,7 +1,6 @@
 {
   "author": "Julie Goodwin",
   "canonical_url": "https://juliegoodwin.com.au/butter-chicken-recipe/",
-  "source_uri": "https://juliegoodwin.com.au/butter-chicken-recipe/",
   "site_name": "Julie Goodwin",
   "host": "juliegoodwin.com.au",
   "language": "en",
@@ -34,5 +33,6 @@
   "total_time": 35,
   "cook_time": 20,
   "prep_time": 15,
-  "image": "https://juliegoodwin.com.au/wordpress/wp-content/uploads/2015/09/800-butter-chicken-2.jpg"
+  "image": "https://juliegoodwin.com.au/wordpress/wp-content/uploads/2015/09/800-butter-chicken-2.jpg",
+  "source_uri": "https://juliegoodwin.com.au/butter-chicken-recipe/"
 }

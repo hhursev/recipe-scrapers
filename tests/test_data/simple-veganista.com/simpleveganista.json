@@ -1,7 +1,6 @@
 {
   "author": "Julie | The Simple Veganista",
   "canonical_url": "https://simple-veganista.com/vegan-jambalaya/",
-  "source_uri": "https://simple-veganista.com/vegan-jambalaya/",
   "site_name": "THE SIMPLE VEGANISTA",
   "host": "simple-veganista.com",
   "language": "en-US",
@@ -62,5 +61,6 @@
     "fiberContent": "10.7 g",
     "cholesterolContent": "0 mg"
   },
-  "image": "https://simple-veganista.com/wp-content/uploads/2022/02/easy-vegan-jambalaya-recipe-5-225x225.jpg"
+  "image": "https://simple-veganista.com/wp-content/uploads/2022/02/easy-vegan-jambalaya-recipe-5-225x225.jpg",
+  "source_uri": "https://simple-veganista.com/vegan-jambalaya/"
 }

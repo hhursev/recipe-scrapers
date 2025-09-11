@@ -1,7 +1,6 @@
 {
   "author": "Flavia Imperatore",
   "canonical_url": "https://www.misya.info/ricetta/tortino-cuore-caldo.htm",
-  "source_uri": "https://www.misya.info/ricetta/tortino-cuore-caldo.htm",
   "site_name": "Ricette di Misya",
   "host": "misya.info",
   "language": "it",
@@ -42,5 +41,6 @@
   "keywords": [
     "tortino cuore caldo",
     "ricetta tortino cuore caldo"
-  ]
+  ],
+  "source_uri": "https://www.misya.info/ricetta/tortino-cuore-caldo.htm"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Monti - Budget Bytes",
   "canonical_url": "https://www.budgetbytes.com/smash-burger/",
-  "source_uri": "https://www.budgetbytes.com/smash-burger/",
   "site_name": "Budget Bytes",
   "host": "budgetbytes.com",
   "language": "en-US",
@@ -50,5 +49,6 @@
     "Burger Seasoning",
     "Cheese Burger",
     "Smash Burger"
-  ]
+  ],
+  "source_uri": "https://www.budgetbytes.com/smash-burger/"
 }

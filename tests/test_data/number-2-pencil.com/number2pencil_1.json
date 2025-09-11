@@ -1,7 +1,6 @@
 {
   "author": "Melissa",
   "canonical_url": "https://www.number-2-pencil.com/one-sheet-pan-shrimp-fajitas/",
-  "source_uri": "https://www.number-2-pencil.com/one-sheet-pan-shrimp-fajitas/",
   "site_name": "No. 2 Pencil",
   "host": "number-2-pencil.com",
   "language": "en-US",
@@ -56,5 +55,6 @@
     "fiberContent": "3 g",
     "cholesterolContent": "274 mg"
   },
-  "image": "https://www.number-2-pencil.com/wp-content/uploads/2016/09/Sheet-Pan-Shrimp-Fajitas_-6.jpg"
+  "image": "https://www.number-2-pencil.com/wp-content/uploads/2016/09/Sheet-Pan-Shrimp-Fajitas_-6.jpg",
+  "source_uri": "https://www.number-2-pencil.com/one-sheet-pan-shrimp-fajitas/"
 }

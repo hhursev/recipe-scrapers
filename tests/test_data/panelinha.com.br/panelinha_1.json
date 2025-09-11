@@ -1,7 +1,6 @@
 {
   "author": "Panelinha",
   "canonical_url": "https://panelinha.com.br/receita/rosbife",
-  "source_uri": "https://panelinha.com.br/receita/rosbife",
   "site_name": "Panelinha - Receitas que funcionam",
   "host": "panelinha.com.br",
   "language": "pt-br",
@@ -24,5 +23,6 @@
   "description": "Clássico é clássico! Com a técnica certa, o rosbife fica perfeito. Atente para os tempos e as temperaturas. Ele não pode estar gelado e precisa mesmo do descanso depois de assado.",
   "total_time": 60,
   "cuisine": "Inglesa,Prática,Clássica,Argentina,Sem Glúten",
-  "image": "https://i.panelinha.com.br/i1/228-q-9959-rosbife.webp"
+  "image": "https://i.panelinha.com.br/i1/228-q-9959-rosbife.webp",
+  "source_uri": "https://panelinha.com.br/receita/rosbife"
 }

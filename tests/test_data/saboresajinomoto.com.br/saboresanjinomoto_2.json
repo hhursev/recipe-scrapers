@@ -1,7 +1,6 @@
 {
   "author": "sabores ajinomoto",
   "canonical_url": "https://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango",
-  "source_uri": "https://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango",
   "site_name": "Sabores Ajinomoto",
   "host": "saboresajinomoto.com.br",
   "language": "pt-br",
@@ -53,5 +52,6 @@
   "image": "https://www.saboresajinomoto.com.br/uploads/images/recipes/crepioca_de_brocolis_e_frango.webp",
   "keywords": [
     "CREPIOCA; CALDO SAZÓN; BRÓCOLIS; FRANGO"
-  ]
+  ],
+  "source_uri": "https://www.saboresajinomoto.com.br/receita/crepioca-com-brocolis-e-frango"
 }

@@ -1,7 +1,6 @@
 {
   "author": "15gram",
   "canonical_url": "https://15gram.be/recepten/mac-n-cheese-met-gehakt-en-pompoen",
-  "source_uri": "https://15gram.be/recepten/mac-n-cheese-met-gehakt-en-pompoen",
   "site_name": "15gram",
   "host": "15gram.be",
   "language": "nl",
@@ -38,5 +37,6 @@
     "pasta",
     "pompoen",
     "skikost"
-  ]
+  ],
+  "source_uri": "https://15gram.be/recepten/mac-n-cheese-met-gehakt-en-pompoen"
 }

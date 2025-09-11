@@ -1,7 +1,6 @@
 {
   "author": "Marc Matsumoto",
   "canonical_url": "https://norecipes.com/orange-chicken-recipe/",
-  "source_uri": "https://norecipes.com/orange-chicken-recipe/",
   "site_name": "Norecipes - Elevating Everyday Meals",
   "host": "norecipes.com",
   "language": "en-US",
@@ -87,5 +86,6 @@
     "easy",
     "orange",
     "quick"
-  ]
+  ],
+  "source_uri": "https://norecipes.com/orange-chicken-recipe/"
 }

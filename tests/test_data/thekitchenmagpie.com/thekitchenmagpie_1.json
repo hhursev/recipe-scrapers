@@ -1,7 +1,6 @@
 {
   "author": "Karlynn Johnston",
   "canonical_url": "https://www.thekitchenmagpie.com/salmon-loaf/",
-  "source_uri": "https://www.thekitchenmagpie.com/salmon-loaf/",
   "site_name": "The Kitchen Magpie",
   "host": "thekitchenmagpie.com",
   "language": "en-US",
@@ -50,5 +49,6 @@
   "image": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2021/02/salmonloafonplate.jpg",
   "keywords": [
     "salmon loaf"
-  ]
+  ],
+  "source_uri": "https://www.thekitchenmagpie.com/salmon-loaf/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Cassie Marshall",
   "canonical_url": "https://thekitchencommunity.org/crock-pot-mac-and-cheese/",
-  "source_uri": "https://thekitchencommunity.org/crock-pot-mac-and-cheese/",
   "site_name": "The Kitchen Community",
   "host": "thekitchencommunity.org",
   "language": "en-US",
@@ -48,5 +47,6 @@
   "image": "https://thekitchencommunity.org/wp-content/uploads/2022/01/shutterstock_556523302-1200x801.jpg",
   "keywords": [
     "crockpot mac and cheese"
-  ]
+  ],
+  "source_uri": "https://thekitchencommunity.org/crock-pot-mac-and-cheese/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "America's Test Kitchen",
   "canonical_url": "https://www.americastestkitchen.com/recipes/7346-beef-and-bean-burritos",
-  "source_uri": "https://www.americastestkitchen.com/recipes/7346-beef-and-bean-burritos",
   "site_name": "Cook's Country",
   "host": "cookscountry.com",
   "language": "en",
@@ -101,5 +100,6 @@
     "Meat",
     "Beans",
     "Beef"
-  ]
+  ],
+  "source_uri": "https://www.americastestkitchen.com/recipes/7346-beef-and-bean-burritos"
 }

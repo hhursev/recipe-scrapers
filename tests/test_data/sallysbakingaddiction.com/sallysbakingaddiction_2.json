@@ -1,7 +1,6 @@
 {
   "author": "Sally",
   "canonical_url": "https://sallysbakingaddiction.com/cinnamon-crunch-bread/",
-  "source_uri": "https://sallysbakingaddiction.com/cinnamon-crunch-bread/",
   "site_name": "Sally's Baking Addiction",
   "host": "sallysbakingaddiction.com",
   "language": "en-US",
@@ -91,5 +90,6 @@
     "cinnamon",
     "bread",
     "cinnamon crunch bread"
-  ]
+  ],
+  "source_uri": "https://sallysbakingaddiction.com/cinnamon-crunch-bread/"
 }

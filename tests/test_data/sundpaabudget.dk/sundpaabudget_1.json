@@ -1,7 +1,6 @@
 {
   "author": "Britt // Sund på budget",
   "canonical_url": "https://sundpaabudget.dk/one-pot-pasta-med-kyllingekebab/",
-  "source_uri": "https://sundpaabudget.dk/one-pot-pasta-med-kyllingekebab/",
   "site_name": "Sund på budget",
   "host": "sundpaabudget.dk",
   "language": "da-DK",
@@ -36,5 +35,6 @@
   "prep_time": 10,
   "ratings": 4.0,
   "ratings_count": 40,
-  "image": "https://sundpaabudget.dk/wp-content/uploads/2021/08/20210803123311_IMG_0714.jpg"
+  "image": "https://sundpaabudget.dk/wp-content/uploads/2021/08/20210803123311_IMG_0714.jpg",
+  "source_uri": "https://sundpaabudget.dk/one-pot-pasta-med-kyllingekebab/"
 }

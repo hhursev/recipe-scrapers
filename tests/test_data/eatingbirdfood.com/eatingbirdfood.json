@@ -1,7 +1,6 @@
 {
   "author": "Brittany Mullins",
   "canonical_url": "https://www.eatingbirdfood.com/curried-shakshuka/",
-  "source_uri": "https://www.eatingbirdfood.com/curried-shakshuka/",
   "site_name": "Eating Bird Food",
   "host": "eatingbirdfood.com",
   "language": "en-US",
@@ -54,5 +53,6 @@
   "image": "https://www.eatingbirdfood.com/wp-content/uploads/2020/12/Shakshuka-in-pan.jpg",
   "keywords": [
     "shakshuka"
-  ]
+  ],
+  "source_uri": "https://www.eatingbirdfood.com/curried-shakshuka/"
 }

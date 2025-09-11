@@ -1,7 +1,6 @@
 {
   "author": "Melissa Joulwan",
   "canonical_url": "http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/",
-  "source_uri": "http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/",
   "site_name": "Mel Joulwan : Well Fed",
   "host": "meljoulwan.com",
   "language": "en-US",
@@ -69,5 +68,6 @@
   "yields": "2 servings",
   "cook_time": 25,
   "prep_time": 10,
-  "image": "https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg"
+  "image": "https://meljoulwan.com/wp-content/uploads/2014/03/pestochicken.jpg",
+  "source_uri": "http://meljoulwan.com/2014/03/17/chicken-pesto-meatballs-marinara/"
 }

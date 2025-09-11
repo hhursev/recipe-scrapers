@@ -1,7 +1,6 @@
 {
   "author": "By Jenn Segal",
   "canonical_url": "https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html",
-  "source_uri": "https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html",
   "site_name": "Once Upon a Chef",
   "host": "onceuponachef.com",
   "language": "en-US",
@@ -60,5 +59,6 @@
     "Pumpkin",
     "Thanksgiving",
     "Winter"
-  ]
+  ],
+  "source_uri": "https://www.onceuponachef.com/recipes/spiced-pumpkin-bread.html"
 }

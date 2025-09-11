@@ -1,7 +1,6 @@
 {
   "author": "Waitrose",
   "canonical_url": "https://www.waitrose.com/ecom/recipe/brooklyn-blackout-cake",
-  "source_uri": "https://www.waitrose.com/ecom/recipe/brooklyn-blackout-cake",
   "site_name": "Waitrose",
   "host": "waitrose.com",
   "language": "en-GB",
@@ -65,5 +64,6 @@
     "Martha Collison",
     "Chocolate Cake",
     "Birthday Cake"
-  ]
+  ],
+  "source_uri": "https://www.waitrose.com/ecom/recipe/brooklyn-blackout-cake"
 }

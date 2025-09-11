@@ -1,7 +1,6 @@
 {
   "author": "Mirabelle",
   "canonical_url": "https://www.marmiton.org/recettes/recette_ratatouille_23223.aspx",
-  "source_uri": "https://www.marmiton.org/recettes/recette_ratatouille_23223.aspx",
   "site_name": "Marmiton",
   "host": "marmiton.org",
   "language": "fr",
@@ -57,5 +56,6 @@
     "ail",
     "facile",
     "moyen"
-  ]
+  ],
+  "source_uri": "https://www.marmiton.org/recettes/recette_ratatouille_23223.aspx"
 }

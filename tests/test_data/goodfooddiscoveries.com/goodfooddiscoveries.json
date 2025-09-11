@@ -1,7 +1,6 @@
 {
   "author": "Magda",
   "canonical_url": "https://goodfooddiscoveries.com/lemon-risotto/",
-  "source_uri": "https://goodfooddiscoveries.com/lemon-risotto/",
   "site_name": "Good Food Discoveries",
   "host": "goodfooddiscoveries.com",
   "language": "en",
@@ -45,5 +44,6 @@
     "lemon risotto",
     "parmesan",
     "risotto"
-  ]
+  ],
+  "source_uri": "https://goodfooddiscoveries.com/lemon-risotto/"
 }

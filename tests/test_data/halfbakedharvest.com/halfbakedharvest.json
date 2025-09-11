@@ -1,7 +1,6 @@
 {
   "author": "Tieghan",
   "canonical_url": "https://www.halfbakedharvest.com/brown-butter-corn-and-feta-orzo/",
-  "source_uri": "https://www.halfbakedharvest.com/brown-butter-corn-and-feta-orzo/",
   "site_name": "Half Baked Harvest",
   "host": "halfbakedharvest.com",
   "language": "en-US",
@@ -38,5 +37,6 @@
     "servingSize": "1 serving",
     "calories": "722 kcal"
   },
-  "image": "https://www.halfbakedharvest.com/wp-content/uploads/2020/07/Brown-Butter-Corn-and-Feta-Orzo-with-Crispy-Prosciutto-1-1.jpg"
+  "image": "https://www.halfbakedharvest.com/wp-content/uploads/2020/07/Brown-Butter-Corn-and-Feta-Orzo-with-Crispy-Prosciutto-1-1.jpg",
+  "source_uri": "https://www.halfbakedharvest.com/brown-butter-corn-and-feta-orzo/"
 }

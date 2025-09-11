@@ -1,7 +1,6 @@
 {
   "author": "Mads Vindfeld Andersen",
   "canonical_url": "https://madsvin.com/pandekager/",
-  "source_uri": "https://madsvin.com/pandekager/",
   "site_name": "Madsvin.com",
   "host": "madsvin.com",
   "language": "da-DK",
@@ -53,5 +52,6 @@
     "pandekage",
     "pandekage opskrift",
     "Pandekager"
-  ]
+  ],
+  "source_uri": "https://madsvin.com/pandekager/"
 }

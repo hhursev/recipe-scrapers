@@ -1,7 +1,6 @@
 {
   "author": "The Tofoo co.",
   "canonical_url": "https://tofoo.co.uk/recipes/banh-mi-2/",
-  "source_uri": "https://tofoo.co.uk/recipes/banh-mi-2/",
   "site_name": "Tofoo",
   "host": "tofoo.co.uk",
   "language": "en-GB",
@@ -42,5 +41,6 @@
     "Dinner",
     "Fakeaway",
     "Lunch"
-  ]
+  ],
+  "source_uri": "https://tofoo.co.uk/recipes/banh-mi-2/"
 }

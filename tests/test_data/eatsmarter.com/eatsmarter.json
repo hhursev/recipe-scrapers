@@ -1,7 +1,6 @@
 {
   "author": "EAT SMARTER",
   "canonical_url": "https://eatsmarter.com/recipes/pumpkin-black-bean-salad",
-  "source_uri": "https://eatsmarter.com/recipes/pumpkin-black-bean-salad",
   "site_name": "Eat Smarter USA",
   "host": "eatsmarter.com",
   "language": "en",
@@ -46,5 +45,6 @@
     "Low-calorie",
     "Vegetarian"
   ],
-  "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg"
+  "image": "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/pumpkin-black-bean-salad-673709.jpg",
+  "source_uri": "https://eatsmarter.com/recipes/pumpkin-black-bean-salad"
 }

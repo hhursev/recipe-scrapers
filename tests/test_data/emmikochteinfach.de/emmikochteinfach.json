@@ -1,7 +1,6 @@
 {
   "author": "Emmi",
   "canonical_url": "https://emmikochteinfach.de/klassisches-rindergulasch/",
-  "source_uri": "https://emmikochteinfach.de/klassisches-rindergulasch/",
   "site_name": "emmikochteinfach",
   "host": "emmikochteinfach.de",
   "language": "de-DE",
@@ -56,5 +55,6 @@
   "prep_time": 30,
   "ratings": 4.99,
   "ratings_count": 716,
-  "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg"
+  "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
+  "source_uri": "https://emmikochteinfach.de/klassisches-rindergulasch/"
 }

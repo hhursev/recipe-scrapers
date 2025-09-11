@@ -1,7 +1,6 @@
 {
   "author": "Ethan Chlebowski",
   "canonical_url": "https://cookwell.com/recipe/crispy-oven-fries",
-  "source_uri": "https://cookwell.com/recipe/crispy-oven-fries",
   "host": "cookwell.com",
   "language": "en",
   "title": "Crispy oven fries",
@@ -40,5 +39,6 @@
     "best alternative to deep frying",
     "how to make crispy fries at home",
     "the science of good french fries"
-  ]
+  ],
+  "source_uri": "https://cookwell.com/recipe/crispy-oven-fries"
 }

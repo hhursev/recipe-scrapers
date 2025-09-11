@@ -1,7 +1,6 @@
 {
   "author": "Australian Bakels",
   "canonical_url": "https://www.bakels.com.au/recipes/donut-glaze/",
-  "source_uri": "https://www.bakels.com.au/recipes/donut-glaze/",
   "site_name": "Australian Bakels",
   "host": "bakels.com.au",
   "language": "en",
@@ -17,5 +16,6 @@
   ],
   "category": "Bakery",
   "description": "Donut Glaze - Australian Bakels",
-  "image": "https://www.bakels.com.au/wp-content/uploads/sites/21/2021/11/i-QrWDhMX-X3-1.jpg"
+  "image": "https://www.bakels.com.au/wp-content/uploads/sites/21/2021/11/i-QrWDhMX-X3-1.jpg",
+  "source_uri": "https://www.bakels.com.au/recipes/donut-glaze/"
 }

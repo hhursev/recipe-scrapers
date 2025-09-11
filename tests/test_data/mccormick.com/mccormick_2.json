@@ -1,7 +1,6 @@
 {
   "author": "McCormick Gourmet",
   "canonical_url": "https://www.mccormick.com/gourmet/recipes/appetizer/smoked-paprika-shredded-pork-with-orange-fennel-marmalade",
-  "source_uri": "https://www.mccormick.com/gourmet/recipes/appetizer/smoked-paprika-shredded-pork-with-orange-fennel-marmalade",
   "site_name": "McCormick Gourmet",
   "host": "mccormick.com",
   "language": "en",
@@ -73,5 +72,6 @@
   "nutrients": {
     "calories": "128 Calories"
   },
-  "image": "https://mccormick.widen.net/content/gc7vlhmppr/original/smoked_paprika_shredded_pork_with_orange_fennel_marmalade_2000x1125.jpg"
+  "image": "https://mccormick.widen.net/content/gc7vlhmppr/original/smoked_paprika_shredded_pork_with_orange_fennel_marmalade_2000x1125.jpg",
+  "source_uri": "https://www.mccormick.com/gourmet/recipes/appetizer/smoked-paprika-shredded-pork-with-orange-fennel-marmalade"
 }

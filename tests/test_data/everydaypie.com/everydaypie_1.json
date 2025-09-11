@@ -1,7 +1,6 @@
 {
   "author": "Kelli Avila",
   "canonical_url": "https://everydaypie.com/caramelized-onion-tarts/",
-  "source_uri": "https://everydaypie.com/caramelized-onion-tarts/",
   "site_name": "Everyday Pie",
   "host": "everydaypie.com",
   "language": "en-US",
@@ -41,5 +40,6 @@
   "image": "https://everydaypie.com/wp-content/uploads/2022/06/Caramelized-Onion-Tarts-14-225x225.jpg",
   "keywords": [
     "Caramelized Onions Tarts"
-  ]
+  ],
+  "source_uri": "https://everydaypie.com/caramelized-onion-tarts/"
 }

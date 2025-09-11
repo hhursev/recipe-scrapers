@@ -1,7 +1,6 @@
 {
   "author": "Maria Lichty",
   "canonical_url": "https://www.twopeasandtheirpod.com/mango-salad/",
-  "source_uri": "https://www.twopeasandtheirpod.com/mango-salad/",
   "site_name": "Two Peas & Their Pod",
   "host": "twopeasandtheirpod.com",
   "language": "en-US",
@@ -46,5 +45,6 @@
   "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/07/Mango-Salad-0715.jpg",
   "keywords": [
     "mango"
-  ]
+  ],
+  "source_uri": "https://www.twopeasandtheirpod.com/mango-salad/"
 }

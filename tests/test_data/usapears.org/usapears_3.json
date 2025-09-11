@@ -1,7 +1,6 @@
 {
   "author": "Kathy Stephenson",
   "canonical_url": "https://usapears.org/recipe/pear-burrata-salad/",
-  "source_uri": "https://usapears.org/recipe/pear-burrata-salad/",
   "site_name": "USA Pears",
   "host": "usapears.org",
   "language": "en-US",
@@ -29,5 +28,6 @@
   "total_time": 10,
   "ratings": 5.0,
   "ratings_count": 2,
-  "image": "https://usapears.org/wp-content/uploads/2020/07/Pear-Burrata-Salad-Photo.jpg"
+  "image": "https://usapears.org/wp-content/uploads/2020/07/Pear-Burrata-Salad-Photo.jpg",
+  "source_uri": "https://usapears.org/recipe/pear-burrata-salad/"
 }

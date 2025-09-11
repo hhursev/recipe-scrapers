@@ -1,7 +1,6 @@
 {
   "author": "Ogechi Chibueze",
   "canonical_url": "https://www.culy.nl/recepten/zuurvlees-zoervleisj/",
-  "source_uri": "https://www.culy.nl/recepten/zuurvlees-zoervleisj/",
   "site_name": "Culy",
   "host": "culy.nl",
   "language": "nl-NL",
@@ -66,5 +65,6 @@
   "nutrients": {
     "calories": "645"
   },
-  "image": "https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg"
+  "image": "https://www.culy.nl/wp-content/uploads/2016/01/Zuurvlees_Zoervleisj_maken_1.jpg",
+  "source_uri": "https://www.culy.nl/recepten/zuurvlees-zoervleisj/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Arman Liew",
   "canonical_url": "https://thebigmansworld.com/coconut-cake/",
-  "source_uri": "https://thebigmansworld.com/coconut-cake/",
   "site_name": "The Big Man's World ®",
   "host": "thebigmansworld.com",
   "language": "en-US",
@@ -76,5 +75,6 @@
   "image": "https://thebigmansworld.com/wp-content/uploads/2025/02/coconut-cake-recipe.jpg",
   "keywords": [
     "coconut cake recipe"
-  ]
+  ],
+  "source_uri": "https://thebigmansworld.com/coconut-cake/"
 }

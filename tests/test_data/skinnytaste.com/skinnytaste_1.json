@@ -1,7 +1,6 @@
 {
   "author": "Gina",
   "canonical_url": "https://www.skinnytaste.com/grilled-chicken-with-spinach-and-melted/",
-  "source_uri": "https://www.skinnytaste.com/grilled-chicken-with-spinach-and-melted/",
   "site_name": "Skinnytaste",
   "host": "skinnytaste.com",
   "language": "en-US",
@@ -49,5 +48,6 @@
     "grilled chicken breast",
     "grilled chicken recipe",
     "Grilled Chicken with Spinach and Melted Mozzarella"
-  ]
+  ],
+  "source_uri": "https://www.skinnytaste.com/grilled-chicken-with-spinach-and-melted/"
 }

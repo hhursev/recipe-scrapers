@@ -1,7 +1,6 @@
 {
   "author": "Claire Saffitz",
   "canonical_url": "epicurious.testhtml_files/ramen-noodle-bowl-with-escarole-and-spicy-tofu-crum_002.html",
-  "source_uri": "epicurious.testhtml_files/ramen-noodle-bowl-with-escarole-and-spicy-tofu-crum_002.html",
   "site_name": "Epicurious",
   "host": "epicurious.com",
   "language": "en",
@@ -25,5 +24,6 @@
   "cuisine": "Asian",
   "ratings": 4.0,
   "ratings_count": 4,
-  "image": "https://assets.epicurious.com/photos/568194b8fb9544f72b678fd4/master/pass/Ramen-Noodle-Bowl-With-Escarole.jpg"
+  "image": "https://assets.epicurious.com/photos/568194b8fb9544f72b678fd4/master/pass/Ramen-Noodle-Bowl-With-Escarole.jpg",
+  "source_uri": "epicurious.testhtml_files/ramen-noodle-bowl-with-escarole-and-spicy-tofu-crum_002.html"
 }

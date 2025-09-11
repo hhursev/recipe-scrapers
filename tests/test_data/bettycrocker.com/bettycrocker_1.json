@@ -1,7 +1,6 @@
 {
   "author": "Betty Crocker Kitchens",
   "canonical_url": "https://www.bettycrocker.com/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec",
-  "source_uri": "https://www.bettycrocker.com/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec",
   "site_name": "BettyCrocker.com",
   "host": "bettycrocker.com",
   "language": "en",
@@ -44,5 +43,6 @@
   "image": "https://images-gmi-pmc.edge-generalmills.com/e1306219-6178-4e15-afaf-ba6e527f1e6b.jpg",
   "keywords": [
     "éclair bars"
-  ]
+  ],
+  "source_uri": "https://www.bettycrocker.com/recipes/eclair-bars/0cb1d3f0-f074-400b-aa5a-5e729102c4ec"
 }

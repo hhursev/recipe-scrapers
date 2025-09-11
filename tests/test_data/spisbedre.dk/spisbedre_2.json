@@ -1,7 +1,6 @@
 {
   "author": "Timm Vladimir",
   "canonical_url": "https://spisbedre.dk/opskrifter/stegt-makrel-med-kartofler",
-  "source_uri": "https://spisbedre.dk/opskrifter/stegt-makrel-med-kartofler",
   "site_name": "SPIS BEDRE",
   "host": "spisbedre.dk",
   "language": "da",
@@ -68,5 +67,6 @@
     "carbohydrateContent": "34 g",
     "proteinContent": "7 g"
   },
-  "image": "https://spisbedre-production-app.imgix.net/images/recipes/stegt-makrel-med-kartofler_324.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.63232421875&fp-z=1"
+  "image": "https://spisbedre-production-app.imgix.net/images/recipes/stegt-makrel-med-kartofler_324.jpg?fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.63232421875&fp-z=1",
+  "source_uri": "https://spisbedre.dk/opskrifter/stegt-makrel-med-kartofler"
 }

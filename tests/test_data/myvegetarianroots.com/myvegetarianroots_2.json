@@ -1,7 +1,6 @@
 {
   "author": "Hetal Desai",
   "canonical_url": "https://myvegetarianroots.com/falafel/",
-  "source_uri": "https://myvegetarianroots.com/falafel/",
   "site_name": "My Vegetarian Roots",
   "host": "myvegetarianroots.com",
   "language": "en-US",
@@ -123,5 +122,6 @@
   "cook_time": 30,
   "prep_time": 30,
   "cuisine": "Mediterranean",
-  "image": "https://myvegetarianroots.com/wp-content/uploads/2022/06/DSC_0058.jpg"
+  "image": "https://myvegetarianroots.com/wp-content/uploads/2022/06/DSC_0058.jpg",
+  "source_uri": "https://myvegetarianroots.com/falafel/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Hundred Rabbits",
   "canonical_url": "grimgrains.com",
-  "source_uri": "https://grimgrains.com/site/black_sesame_brittle.html",
   "site_name": "Grimgrains",
   "host": "grimgrains.com",
   "language": "en",
@@ -21,5 +20,6 @@
   ],
   "yields": "10 pieces",
   "total_time": 20,
-  "image": "media/recipes/black_sesame_brittle.jpg"
+  "image": "media/recipes/black_sesame_brittle.jpg",
+  "source_uri": "https://grimgrains.com/site/black_sesame_brittle.html"
 }

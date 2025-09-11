@@ -1,7 +1,6 @@
 {
   "author": "Riley Wofford",
   "canonical_url": "https://www.delish.com/cooking/recipe-ideas/a40272839/apple-cookie-recipe/",
-  "source_uri": "https://www.delish.com/cooking/recipe-ideas/a40272839/apple-cookie-recipe/",
   "site_name": "Delish",
   "host": "delish.com",
   "language": "en-US",
@@ -83,5 +82,6 @@
     "dessert",
     "nut-free",
     "vegetarian"
-  ]
+  ],
+  "source_uri": "https://www.delish.com/cooking/recipe-ideas/a40272839/apple-cookie-recipe/"
 }

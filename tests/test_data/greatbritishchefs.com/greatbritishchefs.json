@@ -1,7 +1,6 @@
 {
   "author": "GBC Kitchen",
   "canonical_url": "https://www.greatbritishchefs.com/recipes/picadillo-recipe",
-  "source_uri": "https://www.greatbritishchefs.com/recipes/picadillo-recipe",
   "site_name": "Great British Chefs",
   "host": "greatbritishchefs.com",
   "language": "en",
@@ -38,5 +37,6 @@
   "image": "https://media-cdn2.greatbritishchefs.com/media/mwtkdmv3/img73858.whqc_1426x713q80.jpg",
   "keywords": [
     "easy"
-  ]
+  ],
+  "source_uri": "https://www.greatbritishchefs.com/recipes/picadillo-recipe"
 }

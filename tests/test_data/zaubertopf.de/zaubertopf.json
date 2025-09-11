@@ -1,7 +1,6 @@
 {
   "author": "mein ZauberTopf",
   "canonical_url": "https://www.zaubertopf.de/wikinger-auflauf-monsieur-cuisine/",
-  "source_uri": "https://www.zaubertopf.de/wikinger-auflauf-monsieur-cuisine/",
   "site_name": "mein ZauberTopf",
   "host": "zaubertopf.de",
   "language": "de-DE",
@@ -45,5 +44,6 @@
   "image": "https://www.zaubertopf.de/wp-content/uploads/2022/10/Wikinger-Auflauf-mit-dem-Monsieur-Cuisine_44778-640x640.jpg",
   "keywords": [
     "Mittagessen"
-  ]
+  ],
+  "source_uri": "https://www.zaubertopf.de/wikinger-auflauf-monsieur-cuisine/"
 }

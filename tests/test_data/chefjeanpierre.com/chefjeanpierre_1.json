@@ -1,7 +1,6 @@
 {
   "author": "Chef Jean-Pierre",
   "canonical_url": "https://chefjeanpierre.com/recipes/beef-bourguignon-recipe/",
-  "source_uri": "https://chefjeanpierre.com/recipes/beef-bourguignon-recipe/",
   "site_name": "Chef Jean-Pierre",
   "host": "chefjeanpierre.com",
   "language": "en-US",
@@ -44,5 +43,6 @@
     "Cutting Board",
     "Signed Cooking 101"
   ],
-  "image": "https://eadn-wc02-12309146.nxedge.io/wp-content/uploads/2021/11/How-To-Make-Beef-Bourguignon-_-Chef-Jean-Pierre.jpg"
+  "image": "https://eadn-wc02-12309146.nxedge.io/wp-content/uploads/2021/11/How-To-Make-Beef-Bourguignon-_-Chef-Jean-Pierre.jpg",
+  "source_uri": "https://chefjeanpierre.com/recipes/beef-bourguignon-recipe/"
 }

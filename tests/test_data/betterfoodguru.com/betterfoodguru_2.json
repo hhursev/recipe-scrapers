@@ -1,7 +1,6 @@
 {
   "author": "Sara Tercero",
   "canonical_url": "https://betterfoodguru.com/garden-salad-with-oregano-vinaigrette/",
-  "source_uri": "https://betterfoodguru.com/garden-salad-with-oregano-vinaigrette/",
   "site_name": "BetterFoodGuru",
   "host": "betterfoodguru.com",
   "language": "en-US",
@@ -82,5 +81,6 @@
     "no-cook",
     "quick",
     "salad"
-  ]
+  ],
+  "source_uri": "https://betterfoodguru.com/garden-salad-with-oregano-vinaigrette/"
 }

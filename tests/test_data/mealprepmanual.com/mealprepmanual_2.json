@@ -1,7 +1,6 @@
 {
   "author": "Josh Cortis",
   "canonical_url": "https://mealprepmanual.com/sriracha-lime-chicken-bowls/",
-  "source_uri": "https://mealprepmanual.com/sriracha-lime-chicken-bowls/",
   "site_name": "The Meal Prep Manual",
   "host": "mealprepmanual.com",
   "language": "en-US",
@@ -98,5 +97,6 @@
     "gluten free",
     "meal prep",
     "under 500 calories"
-  ]
+  ],
+  "source_uri": "https://mealprepmanual.com/sriracha-lime-chicken-bowls/"
 }

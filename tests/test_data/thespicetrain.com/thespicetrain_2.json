@@ -1,7 +1,6 @@
 {
   "author": "Nicole B.",
   "canonical_url": "https://thespicetrain.com/shrimp-and-chorizo-tacos/",
-  "source_uri": "https://thespicetrain.com/shrimp-and-chorizo-tacos/",
   "site_name": "The Spice Train",
   "host": "thespicetrain.com",
   "language": "en-US",
@@ -89,5 +88,6 @@
   "keywords": [
     "chorizo and shrimp tacos",
     "shrimp and chorizo tacos"
-  ]
+  ],
+  "source_uri": "https://thespicetrain.com/shrimp-and-chorizo-tacos/"
 }

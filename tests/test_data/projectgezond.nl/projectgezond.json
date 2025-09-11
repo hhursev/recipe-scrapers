@@ -1,7 +1,6 @@
 {
   "author": "Project Gezond",
   "canonical_url": "https://www.projectgezond.nl/recepten/boeuf-bourguignon",
-  "source_uri": "https://www.projectgezond.nl/recepten/boeuf-bourguignon",
   "site_name": "Project Gezond",
   "host": "projectgezond.nl",
   "language": "nl-NL",
@@ -57,5 +56,6 @@
     "proteinContent": "33 gram",
     "fiberContent": "8 gram"
   },
-  "image": "https://www.projectgezond.nl/content/uploads/2021/11/BoeufBourguignon-scaled-1.jpg"
+  "image": "https://www.projectgezond.nl/content/uploads/2021/11/BoeufBourguignon-scaled-1.jpg",
+  "source_uri": "https://www.projectgezond.nl/recepten/boeuf-bourguignon"
 }

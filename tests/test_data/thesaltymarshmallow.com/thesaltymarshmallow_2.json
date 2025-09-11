@@ -1,7 +1,6 @@
 {
   "author": "Nichole",
   "canonical_url": "https://thesaltymarshmallow.com/chocolate-cream-pie/",
-  "source_uri": "https://thesaltymarshmallow.com/chocolate-cream-pie/",
   "site_name": "The Salty Marshmallow",
   "host": "thesaltymarshmallow.com",
   "language": "en-US",
@@ -72,5 +71,6 @@
   "keywords": [
     "chocolate cream pie",
     "chocolate pie"
-  ]
+  ],
+  "source_uri": "https://thesaltymarshmallow.com/chocolate-cream-pie/"
 }

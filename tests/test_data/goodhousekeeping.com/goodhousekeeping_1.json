@@ -1,7 +1,6 @@
 {
   "author": "The Good Housekeeping Cookery Team",
   "canonical_url": "https://www.goodhousekeeping.com/uk/halloween/a535444/spiced-pumpkin-soup/",
-  "source_uri": "https://www.goodhousekeeping.com/uk/halloween/a535444/spiced-pumpkin-soup/",
   "site_name": "Good Housekeeping",
   "host": "goodhousekeeping.com",
   "language": "en-GB",
@@ -41,5 +40,6 @@
     "easy pumpkin soup",
     "how to make pumpkin soup",
     "pumpkin recipes"
-  ]
+  ],
+  "source_uri": "https://www.goodhousekeeping.com/uk/halloween/a535444/spiced-pumpkin-soup/"
 }

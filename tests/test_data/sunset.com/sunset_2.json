@@ -1,7 +1,6 @@
 {
   "author": "Klementine Song",
   "canonical_url": "https://www.sunset.com/recipe/tsubaki-caesar-salad",
-  "source_uri": "https://www.sunset.com/recipe/tsubaki-caesar-salad",
   "site_name": "Sunset Magazine",
   "host": "sunset.com",
   "title": "Tsubaki Caesar Salad",
@@ -86,5 +85,6 @@
     "Panko",
     "Parmesan",
     "Ponzu"
-  ]
+  ],
+  "source_uri": "https://www.sunset.com/recipe/tsubaki-caesar-salad"
 }

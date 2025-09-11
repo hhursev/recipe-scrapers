@@ -1,7 +1,6 @@
 {
   "author": "okoko recepten",
   "canonical_url": "okokorecepten.nl",
-  "source_uri": "https://www.okokorecepten.nl/recept/soep/meer-soep/zuurkoolsoep",
   "site_name": "okoko recepten",
   "host": "okokorecepten.nl",
   "language": "nl",
@@ -50,5 +49,6 @@
     "kippenbouillontablet",
     "kipfilet",
     "basilicum"
-  ]
+  ],
+  "source_uri": "https://www.okokorecepten.nl/recept/soep/meer-soep/zuurkoolsoep"
 }

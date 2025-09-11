@@ -1,7 +1,6 @@
 {
   "author": "The Tofoo co.",
   "canonical_url": "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/",
-  "source_uri": "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/",
   "site_name": "Tofoo",
   "host": "tofoo.co.uk",
   "language": "en-GB",
@@ -65,5 +64,6 @@
     "Fakeaway",
     "Speedy",
     "Stir-fry"
-  ]
+  ],
+  "source_uri": "https://tofoo.co.uk/recipes/sticky-sriracha-tofoo/"
 }

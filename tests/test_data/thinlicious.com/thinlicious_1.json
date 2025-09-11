@@ -1,7 +1,6 @@
 {
   "author": "Thinlicious",
   "canonical_url": "https://thinlicious.com/keto-hot-dog-buns/",
-  "source_uri": "https://thinlicious.com/keto-hot-dog-buns/",
   "site_name": "Thinlicious",
   "host": "thinlicious.com",
   "language": "en-US",
@@ -54,5 +53,6 @@
   "image": "https://thinlicious.com/wp-content/uploads/2023/07/Keto-Hot-Dog-Buns-Featured-Image-Template-1200x1200-1.jpg",
   "keywords": [
     "keto hot dog bun"
-  ]
+  ],
+  "source_uri": "https://thinlicious.com/keto-hot-dog-buns/"
 }

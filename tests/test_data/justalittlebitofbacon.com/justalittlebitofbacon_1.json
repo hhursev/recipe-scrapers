@@ -1,7 +1,6 @@
 {
   "author": "justalittlebitofbacon",
   "canonical_url": "https://www.justalittlebitofbacon.com/cold-asparagus-bisque/",
-  "source_uri": "https://www.justalittlebitofbacon.com/cold-asparagus-bisque/",
   "site_name": "Just a Little Bit of Bacon",
   "host": "justalittlebitofbacon.com",
   "language": "en-US",
@@ -40,5 +39,6 @@
   "keywords": [
     "cold asparagus soup",
     "cream of asparagus soup"
-  ]
+  ],
+  "source_uri": "https://www.justalittlebitofbacon.com/cold-asparagus-bisque/"
 }

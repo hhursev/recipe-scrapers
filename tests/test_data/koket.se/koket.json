@@ -1,7 +1,6 @@
 {
   "author": "Tommy Myllymäki",
   "canonical_url": "https://www.koket.se/mitt-kok/tommy-myllymaki/myllymakis-toast-skagen",
-  "source_uri": "https://www.koket.se/mitt-kok/tommy-myllymaki/myllymakis-toast-skagen",
   "site_name": "Köket.se",
   "host": "koket.se",
   "title": "Myllymäkis toast skagen",
@@ -31,5 +30,6 @@
   "total_time": 25,
   "ratings": 3.6,
   "ratings_count": 380,
-  "image": "https://img.koket.se/standard-mega/myllymakis-toast-skagen-2.jpg"
+  "image": "https://img.koket.se/standard-mega/myllymakis-toast-skagen-2.jpg",
+  "source_uri": "https://www.koket.se/mitt-kok/tommy-myllymaki/myllymakis-toast-skagen"
 }

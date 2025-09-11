@@ -1,7 +1,6 @@
 {
   "author": "School of Wok",
   "canonical_url": "https://schoolofwok.co.uk/tips-and-recipes/simple-chicken-and-rice",
-  "source_uri": "https://schoolofwok.co.uk/tips-and-recipes/simple-chicken-and-rice",
   "site_name": "School of Wok",
   "host": "schoolofwok.co.uk",
   "language": "en",
@@ -73,5 +72,6 @@
   "description": "We all love Hainanese chicken rice, but we don't always have the time to make the full thing. Here's a quicker and easier way to get similar results that will leave your cravings satisfied!",
   "total_time": 45,
   "cuisine": "Singaporean",
-  "image": "https://school-of-wok.s3.eu-west-2.amazonaws.com/recipes/show_images/7287b461711c044521422a0a246757fe.jpg"
+  "image": "https://school-of-wok.s3.eu-west-2.amazonaws.com/recipes/show_images/7287b461711c044521422a0a246757fe.jpg",
+  "source_uri": "https://schoolofwok.co.uk/tips-and-recipes/simple-chicken-and-rice"
 }

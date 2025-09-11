@@ -1,7 +1,6 @@
 {
   "author": "Ottolenghi",
   "canonical_url": "https://books.ottolenghi.co.uk/simple/recipe/vanilla-custard-with-roasted-strawberries-and-rhubarb/",
-  "source_uri": "https://books.ottolenghi.co.uk/simple/recipe/vanilla-custard-with-roasted-strawberries-and-rhubarb/",
   "site_name": "Ottolenghi Books",
   "host": "books.ottolenghi.co.uk",
   "language": "en-GB",
@@ -56,5 +55,6 @@
     "10 ingredients or less",
     "make ahead",
     "easier than you thnk"
-  ]
+  ],
+  "source_uri": "https://books.ottolenghi.co.uk/simple/recipe/vanilla-custard-with-roasted-strawberries-and-rhubarb/"
 }

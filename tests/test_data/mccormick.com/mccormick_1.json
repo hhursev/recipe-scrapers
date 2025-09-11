@@ -1,7 +1,6 @@
 {
   "author": "McCormick Gourmet",
   "canonical_url": "https://www.mccormick.com/gourmet/recipes/appetizer/sweet-and-smoky-pumpkin-seeds",
-  "source_uri": "https://www.mccormick.com/gourmet/recipes/appetizer/sweet-and-smoky-pumpkin-seeds",
   "site_name": "McCormick Gourmet",
   "host": "mccormick.com",
   "language": "en",
@@ -27,5 +26,6 @@
   "nutrients": {
     "calories": "189 Calories"
   },
-  "image": "https://mccormick.widen.net/content/bh1uvr3zhx/original/sweet_and_smoky_pumpkin_seeds_2000x1125.jpg"
+  "image": "https://mccormick.widen.net/content/bh1uvr3zhx/original/sweet_and_smoky_pumpkin_seeds_2000x1125.jpg",
+  "source_uri": "https://www.mccormick.com/gourmet/recipes/appetizer/sweet-and-smoky-pumpkin-seeds"
 }

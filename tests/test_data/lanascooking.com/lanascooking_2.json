@@ -1,7 +1,6 @@
 {
   "author": "Lana Stuart",
   "canonical_url": "https://www.lanascooking.com/oven-roasted-turkey/",
-  "source_uri": "https://www.lanascooking.com/oven-roasted-turkey/",
   "site_name": "Lana's Cooking",
   "host": "lanascooking.com",
   "language": "en-US",
@@ -75,5 +74,6 @@
   "keywords": [
     "oven roasted turkey",
     "turkey gravy"
-  ]
+  ],
+  "source_uri": "https://www.lanascooking.com/oven-roasted-turkey/"
 }

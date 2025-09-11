@@ -1,7 +1,6 @@
 {
   "author": "Angela Brassinga",
   "canonical_url": "https://www.sunset.com/recipe/crisp-top-sourdough-stuffing",
-  "source_uri": "https://www.sunset.com/recipe/crisp-top-sourdough-stuffing",
   "site_name": "Sunset Magazine",
   "host": "sunset.com",
   "title": "Crisp-Top Sourdough Stuffing",
@@ -54,5 +53,6 @@
     "fiberContent": "1.4",
     "cholesterolContent": "16"
   },
-  "image": "https://img.sunset02.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/crisp-top-sourdough-stuffing-su.jpg"
+  "image": "https://img.sunset02.com/sites/default/files/styles/4_3_horizontal_-_900x675/public/crisp-top-sourdough-stuffing-su.jpg",
+  "source_uri": "https://www.sunset.com/recipe/crisp-top-sourdough-stuffing"
 }

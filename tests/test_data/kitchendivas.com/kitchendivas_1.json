@@ -1,7 +1,6 @@
 {
   "author": "Karin and Ken",
   "canonical_url": "https://kitchendivas.com/our-favorite-banana-bread/",
-  "source_uri": "https://kitchendivas.com/our-favorite-banana-bread/",
   "site_name": "Kitchen Divas",
   "host": "kitchendivas.com",
   "language": "en-US",
@@ -62,5 +61,6 @@
   "image": "https://kitchendivas.com/wp-content/uploads/2019/05/Banana-Bread-cc.jpg",
   "keywords": [
     "chocolate chip banana bread"
-  ]
+  ],
+  "source_uri": "https://kitchendivas.com/our-favorite-banana-bread/"
 }

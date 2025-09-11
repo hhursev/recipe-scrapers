@@ -1,7 +1,6 @@
 {
   "author": "FAKelco",
   "canonical_url": "https://www.cdkitchen.com/recipes/recs/473/Veal-Steak-Vesuvio92364.shtml",
-  "source_uri": "https://www.cdkitchen.com/recipes/recs/473/Veal-Steak-Vesuvio92364.shtml",
   "site_name": "CDKitchen",
   "host": "cdkitchen.com",
   "language": "en",
@@ -24,5 +23,6 @@
   ],
   "yields": "4 servings",
   "total_time": 45,
-  "image": "https://cdn.cdkitchen.com/recipes/images/sharing/25/veal-steak-vesuvio-63237-small.png"
+  "image": "https://cdn.cdkitchen.com/recipes/images/sharing/25/veal-steak-vesuvio-63237-small.png",
+  "source_uri": "https://www.cdkitchen.com/recipes/recs/473/Veal-Steak-Vesuvio92364.shtml"
 }

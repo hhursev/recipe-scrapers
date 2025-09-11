@@ -1,7 +1,6 @@
 {
   "author": "Gaby Dalkin",
   "canonical_url": "https://whatsgabycooking.com/roasted-broccoli/",
-  "source_uri": "https://whatsgabycooking.com/roasted-broccoli/",
   "site_name": "What's Gaby Cooking",
   "host": "whatsgabycooking.com",
   "language": "en-US",
@@ -48,5 +47,6 @@
     "roasted broccoli",
     "caesar broccoli",
     "how to roast broccoli"
-  ]
+  ],
+  "source_uri": "https://whatsgabycooking.com/roasted-broccoli/"
 }

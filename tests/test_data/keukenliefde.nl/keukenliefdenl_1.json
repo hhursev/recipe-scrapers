@@ -1,7 +1,6 @@
 {
   "author": "Annemiek",
   "canonical_url": "https://www.keukenliefde.nl/macaroni-stroganoff/",
-  "source_uri": "https://www.keukenliefde.nl/macaroni-stroganoff/",
   "site_name": "Keuken♥Liefde",
   "host": "keukenliefde.nl",
   "language": "nl-NL",
@@ -29,5 +28,6 @@
   "yields": "4 servings",
   "description": "Een keer wat anders dan macaroni bolognese? Maak deze macaroni met stroganoffsaus: een goedgevulde saus met gehakt, paprika's en champignons.",
   "total_time": 15,
-  "image": "https://www.keukenliefde.nl/wp-content/uploads/2017/11/Macaroni-stroganoff-4568.jpg"
+  "image": "https://www.keukenliefde.nl/wp-content/uploads/2017/11/Macaroni-stroganoff-4568.jpg",
+  "source_uri": "https://www.keukenliefde.nl/macaroni-stroganoff/"
 }

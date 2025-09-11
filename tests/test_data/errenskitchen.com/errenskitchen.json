@@ -1,7 +1,6 @@
 {
   "author": "Erren Hart",
   "canonical_url": "https://www.errenskitchen.com/chicken-sundried-tomato-pasta/",
-  "source_uri": "https://www.errenskitchen.com/chicken-sundried-tomato-pasta/",
   "site_name": "Erren's Kitchen",
   "host": "errenskitchen.com",
   "language": "en-US",
@@ -59,5 +58,6 @@
     "Creamy Sun-Dried Tomato Pasta",
     "Creamy Sun-Dried Tomato Pasta with Chicken",
     "Sun-Dried Tomato Pasta"
-  ]
+  ],
+  "source_uri": "https://www.errenskitchen.com/chicken-sundried-tomato-pasta/"
 }

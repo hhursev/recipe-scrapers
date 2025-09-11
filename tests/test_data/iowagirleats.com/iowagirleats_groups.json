@@ -1,7 +1,6 @@
 {
   "author": "Kristin Porter",
   "canonical_url": "https://iowagirleats.com/cheesy-taco-soup/",
-  "source_uri": "https://iowagirleats.com/cheesy-taco-soup/",
   "site_name": "Iowa Girl Eats",
   "host": "iowagirleats.com",
   "language": "en-US",
@@ -90,5 +89,6 @@
   "image": "https://iowagirleats.com/wp-content/uploads/2015/04/Cheesy-Taco-Soup-iowagirleats-NEW-Featured2.jpg",
   "keywords": [
     "gluten free"
-  ]
+  ],
+  "source_uri": "https://iowagirleats.com/cheesy-taco-soup/"
 }

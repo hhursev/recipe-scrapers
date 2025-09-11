@@ -1,7 +1,6 @@
 {
   "author": "Kaleigh",
   "canonical_url": "https://livelytable.com/easy-chipotle-shrimp-tacos/",
-  "source_uri": "https://livelytable.com/easy-chipotle-shrimp-tacos/",
   "site_name": "Lively Table",
   "host": "livelytable.com",
   "language": "en-US",
@@ -91,5 +90,6 @@
     "chipotle shrimp tacos",
     "easy chipotle shrimp tacos",
     "healthy shrimp tacos recipe"
-  ]
+  ],
+  "source_uri": "https://livelytable.com/easy-chipotle-shrimp-tacos/"
 }

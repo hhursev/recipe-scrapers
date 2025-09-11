@@ -1,7 +1,6 @@
 {
   "author": "Eisler Zsolt",
   "canonical_url": "https://streetkitchen.hu/olcso-receptek/olcso-ebedek/toltott-patisszon/",
-  "source_uri": "https://streetkitchen.hu/olcso-receptek/olcso-ebedek/toltott-patisszon/",
   "site_name": "Street Kitchen",
   "host": "streetkitchen.hu",
   "language": "hu",
@@ -75,5 +74,6 @@
   "keywords": [
     "patisszon",
     "töltött"
-  ]
+  ],
+  "source_uri": "https://streetkitchen.hu/olcso-receptek/olcso-ebedek/toltott-patisszon/"
 }

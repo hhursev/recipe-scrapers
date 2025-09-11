@@ -1,7 +1,6 @@
 {
   "author": "Jamie",
   "canonical_url": "https://www.mybakingaddiction.com/chocolate-coconut-zucchini-bread/",
-  "source_uri": "https://www.mybakingaddiction.com/chocolate-coconut-zucchini-bread/",
   "site_name": "My Baking Addiction",
   "host": "mybakingaddiction.com",
   "language": "en-US",
@@ -61,5 +60,6 @@
     "Coconut",
     "Summer Recipes",
     "Zucchini"
-  ]
+  ],
+  "source_uri": "https://www.mybakingaddiction.com/chocolate-coconut-zucchini-bread/"
 }

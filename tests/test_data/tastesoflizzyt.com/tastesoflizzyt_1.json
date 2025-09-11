@@ -1,7 +1,6 @@
 {
   "author": "Julie Clark",
   "canonical_url": "https://www.tastesoflizzyt.com/soft-baked-gingerbread-cookies/",
-  "source_uri": "https://www.tastesoflizzyt.com/soft-baked-gingerbread-cookies/",
   "site_name": "Tastes of Lizzy T",
   "host": "tastesoflizzyt.com",
   "language": "en-US",
@@ -53,5 +52,6 @@
     "easy cookies",
     "egg free cookies",
     "gingerbread cookies"
-  ]
+  ],
+  "source_uri": "https://www.tastesoflizzyt.com/soft-baked-gingerbread-cookies/"
 }

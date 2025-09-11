@@ -1,7 +1,6 @@
 {
   "author": "kwestiasmaku",
   "canonical_url": "https://www.kwestiasmaku.com/przepis/pieczony-kalafior",
-  "source_uri": "https://www.kwestiasmaku.com/przepis/pieczony-kalafior",
   "site_name": "Kwestia Smaku",
   "host": "kwestiasmaku.com",
   "language": "pl",
@@ -27,5 +26,6 @@
   "total_time": null,
   "ratings": 4.77,
   "ratings_count": 52,
-  "image": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg"
+  "image": "https://www.kwestiasmaku.com/sites/v123.kwestiasmaku.com/files/pieczony-kalafior-01_0.jpg",
+  "source_uri": "https://www.kwestiasmaku.com/przepis/pieczony-kalafior"
 }

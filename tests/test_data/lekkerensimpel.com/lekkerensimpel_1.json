@@ -1,7 +1,6 @@
 {
   "author": "Lekker en Simpel",
   "canonical_url": "https://www.lekkerensimpel.com/poke-bowl-met-kip/",
-  "source_uri": "https://www.lekkerensimpel.com/poke-bowl-met-kip/",
   "site_name": "Lekker en Simpel",
   "host": "lekkerensimpel.com",
   "language": "nl-NL",
@@ -35,5 +34,6 @@
   "keywords": [
     "bowl",
     "kip"
-  ]
+  ],
+  "source_uri": "https://www.lekkerensimpel.com/poke-bowl-met-kip/"
 }

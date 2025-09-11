@@ -1,7 +1,6 @@
 {
   "author": "Jen Hansard",
   "canonical_url": "https://simplegreensmoothies.com/best-green-smoothie/",
-  "source_uri": "https://simplegreensmoothies.com/best-green-smoothie/",
   "site_name": "Simple Green Smoothies",
   "host": "simplegreensmoothies.com",
   "language": "en-US",
@@ -54,5 +53,6 @@
     "green smoothie",
     "green smoothies",
     "spinach smoothie recipe"
-  ]
+  ],
+  "source_uri": "https://simplegreensmoothies.com/best-green-smoothie/"
 }

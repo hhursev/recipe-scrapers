@@ -1,7 +1,6 @@
 {
   "author": "Courtney",
   "canonical_url": "https://cakemehometonight.com/brownie-cookies/",
-  "source_uri": "https://cakemehometonight.com/brownie-cookies/",
   "site_name": "Cake Me Home Tonight",
   "host": "cakemehometonight.com",
   "language": "en-US",
@@ -45,5 +44,6 @@
     "brownie",
     "chocolate",
     "cookie"
-  ]
+  ],
+  "source_uri": "https://cakemehometonight.com/brownie-cookies/"
 }

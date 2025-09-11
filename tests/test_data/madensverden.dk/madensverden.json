@@ -1,7 +1,6 @@
 {
   "author": "Holger Rørby Madsen",
   "canonical_url": "https://madensverden.dk/trifli-med-rabarber/",
-  "source_uri": "https://madensverden.dk/trifli-med-rabarber/",
   "site_name": "Madens Verden",
   "host": "madensverden.dk",
   "language": "da-DK",
@@ -70,5 +69,6 @@
   "image": "https://madensverden.dk/wp-content/uploads/2017/08/billederesultat-for-rabarbertrifli.jpg",
   "keywords": [
     "rabarber"
-  ]
+  ],
+  "source_uri": "https://madensverden.dk/trifli-med-rabarber/"
 }

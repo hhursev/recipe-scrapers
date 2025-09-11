@@ -1,7 +1,6 @@
 {
   "author": "Cambrea Gordon",
   "canonical_url": "https://cambreabakes.com/oreo-brownies/",
-  "source_uri": "https://cambreabakes.com/oreo-brownies/",
   "site_name": "Cambrea Bakes",
   "host": "cambreabakes.com",
   "language": "en-US",
@@ -66,5 +65,6 @@
     "Oreo cookie brownies",
     "Oreo topped brownies",
     "Ultimate oreo brownie"
-  ]
+  ],
+  "source_uri": "https://cambreabakes.com/oreo-brownies/"
 }

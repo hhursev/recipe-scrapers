@@ -1,7 +1,6 @@
 {
   "author": "Yuto Omura",
   "canonical_url": "https://sudachirecipes.com/nasu-dengaku/",
-  "source_uri": "https://sudachirecipes.com/nasu-dengaku/",
   "site_name": "Sudachi",
   "host": "sudachirecipes.com",
   "language": "en-US",
@@ -61,5 +60,6 @@
     "Summer",
     "Traditional",
     "Washoku"
-  ]
+  ],
+  "source_uri": "https://sudachirecipes.com/nasu-dengaku/"
 }

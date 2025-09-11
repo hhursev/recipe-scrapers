@@ -1,7 +1,6 @@
 {
   "author": "Shelly",
   "canonical_url": "https://cookiesandcups.com/strawberry-buckle/",
-  "source_uri": "https://cookiesandcups.com/strawberry-buckle/",
   "site_name": "Cookies and Cups",
   "host": "cookiesandcups.com",
   "language": "en-US",
@@ -77,5 +76,6 @@
   "image": "https://cookiesandcups.com/wp-content/uploads/2016/01/strawberry-buckle-14-225x225.jpg",
   "keywords": [
     "strawberry buckle"
-  ]
+  ],
+  "source_uri": "https://cookiesandcups.com/strawberry-buckle/"
 }

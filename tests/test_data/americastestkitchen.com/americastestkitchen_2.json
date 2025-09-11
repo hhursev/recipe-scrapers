@@ -1,7 +1,6 @@
 {
   "author": "America's Test Kitchen",
   "canonical_url": "https://www.americastestkitchen.com/recipes/1629-lasagna-bolognese-simplified",
-  "source_uri": "https://www.americastestkitchen.com/recipes/1629-lasagna-bolognese-simplified",
   "site_name": "America's Test Kitchen",
   "host": "americastestkitchen.com",
   "language": "en",
@@ -104,5 +103,6 @@
     "Beef",
     "Pork",
     "Casseroles"
-  ]
+  ],
+  "source_uri": "https://www.americastestkitchen.com/recipes/1629-lasagna-bolognese-simplified"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Annemiek",
   "canonical_url": "https://www.keukenliefde.nl/stroganoff-gehaktschotel/",
-  "source_uri": "https://www.keukenliefde.nl/stroganoff-gehaktschotel/",
   "site_name": "Keuken♥Liefde",
   "host": "keukenliefde.nl",
   "language": "nl-NL",
@@ -41,5 +40,6 @@
   "yields": "4 servings",
   "description": "Een heerlijk gerecht geïnspireerd op de Hongaarse keuken: stroganoff-gehaktschotel!",
   "total_time": 60,
-  "image": "https://www.keukenliefde.nl/wp-content/uploads/2014/11/Stroganoff-gehaktschotel-27.jpg"
+  "image": "https://www.keukenliefde.nl/wp-content/uploads/2014/11/Stroganoff-gehaktschotel-27.jpg",
+  "source_uri": "https://www.keukenliefde.nl/stroganoff-gehaktschotel/"
 }

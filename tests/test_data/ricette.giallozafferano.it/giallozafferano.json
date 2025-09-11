@@ -1,7 +1,6 @@
 {
   "author": "GialloZafferano",
   "canonical_url": "https://ricette.giallozafferano.it/Bavarese-alle-fragole.html",
-  "source_uri": "https://ricette.giallozafferano.it/Bavarese-alle-fragole.html",
   "site_name": "Ricette di cucina - Le Ricette di GialloZafferano.it",
   "host": "ricette.giallozafferano.it",
   "language": "it",
@@ -67,5 +66,6 @@
     "Gelatina in fogli",
     "Panna fresca liquida",
     "Zucchero a velo"
-  ]
+  ],
+  "source_uri": "https://ricette.giallozafferano.it/Bavarese-alle-fragole.html"
 }

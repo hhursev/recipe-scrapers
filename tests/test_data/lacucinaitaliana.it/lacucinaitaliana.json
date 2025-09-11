@@ -1,7 +1,6 @@
 {
   "author": "La Cucina Italiana",
   "canonical_url": "https://www.lacucinaitaliana.it/ricetta/dolcetti-fillo-frutta-secca-miele/",
-  "source_uri": "https://www.lacucinaitaliana.it/ricetta/dolcetti-fillo-frutta-secca-miele/",
   "site_name": "La Cucina Italiana",
   "host": "lacucinaitaliana.it",
   "language": "it-IT",
@@ -31,5 +30,6 @@
     "vegetariana",
     "facile",
     "magazine"
-  ]
+  ],
+  "source_uri": "https://www.lacucinaitaliana.it/ricetta/dolcetti-fillo-frutta-secca-miele/"
 }

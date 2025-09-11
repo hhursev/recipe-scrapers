@@ -1,7 +1,6 @@
 {
   "author": "Marc Matsumoto",
   "canonical_url": "https://norecipes.com/burnt-basque-cheesecake/",
-  "source_uri": "https://norecipes.com/burnt-basque-cheesecake/",
   "site_name": "Norecipes - Elevating Everyday Meals",
   "host": "norecipes.com",
   "language": "en-US",
@@ -50,5 +49,6 @@
     "cheesecake",
     "party food",
     "sweets"
-  ]
+  ],
+  "source_uri": "https://norecipes.com/burnt-basque-cheesecake/"
 }

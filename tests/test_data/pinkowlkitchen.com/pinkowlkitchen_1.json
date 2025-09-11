@@ -1,7 +1,6 @@
 {
   "author": "Ashley Boyd",
   "canonical_url": "https://pinkowlkitchen.com/chocolate-chess-pie/",
-  "source_uri": "https://pinkowlkitchen.com/chocolate-chess-pie/",
   "site_name": "Pink Owl Kitchen",
   "host": "pinkowlkitchen.com",
   "language": "en-US",
@@ -54,5 +53,6 @@
     "chess pie",
     "chocolate chess pie",
     "chocolate pie"
-  ]
+  ],
+  "source_uri": "https://pinkowlkitchen.com/chocolate-chess-pie/"
 }

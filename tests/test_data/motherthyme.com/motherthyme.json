@@ -1,7 +1,6 @@
 {
   "author": "Jenn (Mother Thyme)",
   "canonical_url": "https://www.motherthyme.com/2014/01/cinnamon-roll-oatmeal.html",
-  "source_uri": "https://www.motherthyme.com/2014/01/cinnamon-roll-oatmeal.html",
   "site_name": "Mother Thyme",
   "host": "motherthyme.com",
   "language": "en-US",
@@ -42,5 +41,6 @@
   "prep_time": 15,
   "ratings": 4.9,
   "ratings_count": 23,
-  "image": "https://www.motherthyme.com/wp-content/uploads/2014/01/cinnamonoatmeal1-225x225.jpg"
+  "image": "https://www.motherthyme.com/wp-content/uploads/2014/01/cinnamonoatmeal1-225x225.jpg",
+  "source_uri": "https://www.motherthyme.com/2014/01/cinnamon-roll-oatmeal.html"
 }

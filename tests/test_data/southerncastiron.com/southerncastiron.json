@@ -1,7 +1,6 @@
 {
   "author": null,
   "canonical_url": "https://southerncastiron.com/apple-cider-doughnuts/",
-  "source_uri": "https://southerncastiron.com/apple-cider-doughnuts/",
   "site_name": "Southern Cast Iron",
   "host": "southerncastiron.com",
   "language": "en-US",
@@ -29,5 +28,6 @@
     "In a large bowl, combine remaining 1 cup sugar and remaining 1 teaspoon apple pie spice. Dip doughnut holes in sugar mixture, shaking off excess. Drizzle with apple cider syrup."
   ],
   "yields": "10 servings",
-  "image": "https://southerncastiron.com/wp-content/uploads/2018/10/doughnuts-featured-470x470.jpg"
+  "image": "https://southerncastiron.com/wp-content/uploads/2018/10/doughnuts-featured-470x470.jpg",
+  "source_uri": "https://southerncastiron.com/apple-cider-doughnuts/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Rutger van den Broek",
   "canonical_url": "https://rutgerbakt.nl/taart-recepten/abrikozenvlaai/",
-  "source_uri": "https://rutgerbakt.nl/taart-recepten/abrikozenvlaai/",
   "site_name": "Rutger Bakt",
   "host": "rutgerbakt.nl",
   "language": "nl",
@@ -56,5 +55,6 @@
   "prep_time": 90,
   "ratings": 4.0,
   "ratings_count": 131,
-  "image": "https://rutgerbakt.nl/wp-content/uploads/2020/04/abrikozenvlaai-scaled-1920x1080-c-default.jpg"
+  "image": "https://rutgerbakt.nl/wp-content/uploads/2020/04/abrikozenvlaai-scaled-1920x1080-c-default.jpg",
+  "source_uri": "https://rutgerbakt.nl/taart-recepten/abrikozenvlaai/"
 }

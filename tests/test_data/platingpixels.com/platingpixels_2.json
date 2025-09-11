@@ -1,7 +1,6 @@
 {
   "author": "Matt Ivan",
   "canonical_url": "https://www.platingpixels.com/chicken-fried-chicken/",
-  "source_uri": "https://www.platingpixels.com/chicken-fried-chicken/",
   "site_name": "Plating Pixels",
   "host": "platingpixels.com",
   "language": "en-US",
@@ -92,5 +91,6 @@
     "breaded fried chicken",
     "Chicken Fried Chicken",
     "fried chicken recipe"
-  ]
+  ],
+  "source_uri": "https://www.platingpixels.com/chicken-fried-chicken/"
 }

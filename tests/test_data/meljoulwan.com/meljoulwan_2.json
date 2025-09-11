@@ -1,7 +1,6 @@
 {
   "author": "Melissa Joulwan",
   "canonical_url": "http://meljoulwan.com/2019/05/13/sushi-bar-tuna-salad/",
-  "source_uri": "http://meljoulwan.com/2019/05/13/sushi-bar-tuna-salad/",
   "site_name": "Mel Joulwan : Well Fed",
   "host": "meljoulwan.com",
   "language": "en-US",
@@ -28,5 +27,6 @@
   "category": "Fish/Seafood,Recipes,Salads,Whole30",
   "yields": "2 servings",
   "total_time": 15,
-  "image": "https://meljoulwan.com/wp-content/uploads/2019/04/sushi-bar-tuna.jpg"
+  "image": "https://meljoulwan.com/wp-content/uploads/2019/04/sushi-bar-tuna.jpg",
+  "source_uri": "http://meljoulwan.com/2019/05/13/sushi-bar-tuna-salad/"
 }

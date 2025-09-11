@@ -1,7 +1,6 @@
 {
   "author": "HelloFresh",
   "canonical_url": "https://www.hellofresh.fr/recipes/chakchouka-au-chevre-frais-5eb41aa7d5418a482a67b864",
-  "source_uri": "https://www.hellofresh.fr/recipes/chakchouka-au-chevre-frais-5eb41aa7d5418a482a67b864",
   "site_name": "HelloFresh",
   "host": "hellofresh.com",
   "language": "fr-FR",
@@ -41,5 +40,6 @@
   "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF170522_R03_W25_NL_MAIN_low-fa391294.jpg",
   "keywords": [
     "Végétarien"
-  ]
+  ],
+  "source_uri": "https://www.hellofresh.fr/recipes/chakchouka-au-chevre-frais-5eb41aa7d5418a482a67b864"
 }

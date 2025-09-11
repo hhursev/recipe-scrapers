@@ -1,7 +1,6 @@
 {
   "author": "Kristin Porter",
   "canonical_url": "https://iowagirleats.com/low-carb-taco-boats/",
-  "source_uri": "https://iowagirleats.com/low-carb-taco-boats/",
   "site_name": "Iowa Girl Eats",
   "host": "iowagirleats.com",
   "language": "en-US",
@@ -47,5 +46,6 @@
     "gluten free",
     "vegan",
     "vegetarian"
-  ]
+  ],
+  "source_uri": "https://iowagirleats.com/low-carb-taco-boats/"
 }

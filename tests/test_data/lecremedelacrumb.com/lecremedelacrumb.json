@@ -1,7 +1,6 @@
 {
   "author": "Tiffany",
   "canonical_url": "https://www.lecremedelacrumb.com/instant-pot-shredded-chicken-tacos/",
-  "source_uri": "https://www.lecremedelacrumb.com/instant-pot-shredded-chicken-tacos/",
   "site_name": "Creme De La Crumb",
   "host": "lecremedelacrumb.com",
   "language": "en-US",
@@ -51,5 +50,6 @@
     "healthy",
     "instant pot",
     "slow cooker"
-  ]
+  ],
+  "source_uri": "https://www.lecremedelacrumb.com/instant-pot-shredded-chicken-tacos/"
 }

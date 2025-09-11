@@ -1,7 +1,6 @@
 {
   "author": "MyPlate",
   "canonical_url": "https://www.myplate.gov/recipes/fabulous-fig-bars",
-  "source_uri": "https://www.myplate.gov/recipes/fabulous-fig-bars",
   "site_name": "MyPlate",
   "host": "myplate.gov",
   "language": "en",
@@ -52,5 +51,6 @@
     "Iron": "1 mg",
     "Potassium": "169 mg"
   },
-  "image": "https://myplate-prod.azureedge.us/sites/default/files/styles/medium/public/2021-03/FigBars.jpg?itok=3ZW7jyGj"
+  "image": "https://myplate-prod.azureedge.us/sites/default/files/styles/medium/public/2021-03/FigBars.jpg?itok=3ZW7jyGj",
+  "source_uri": "https://www.myplate.gov/recipes/fabulous-fig-bars"
 }

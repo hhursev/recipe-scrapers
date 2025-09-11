@@ -1,7 +1,6 @@
 {
   "author": "Erin Morrissey",
   "canonical_url": "https://www.erinliveswhole.com/healthy-blueberry-cobbler/",
-  "source_uri": "https://www.erinliveswhole.com/healthy-blueberry-cobbler/",
   "site_name": "Erin Lives Whole",
   "host": "erinliveswhole.com",
   "language": "en-US",
@@ -85,5 +84,6 @@
     "cobbler",
     "gluten free dessert",
     "healthy dessert"
-  ]
+  ],
+  "source_uri": "https://www.erinliveswhole.com/healthy-blueberry-cobbler/"
 }

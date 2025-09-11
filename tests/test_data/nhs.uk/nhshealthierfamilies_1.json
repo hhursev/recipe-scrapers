@@ -1,7 +1,6 @@
 {
   "author": "NHS Better Health",
   "canonical_url": "nhs.uk",
-  "source_uri": "https://www.nhs.uk/healthier-families/recipes/chilli-con-carne/",
   "site_name": "nhs.uk",
   "host": "nhs.uk",
   "language": "en",
@@ -32,5 +31,6 @@
   "total_time": 35,
   "cook_time": 25,
   "prep_time": 10,
-  "image": "https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg"
+  "image": "https://digitalcampaignsstorage.blob.core.windows.net/campaigns-cms-prod/images/Chilli-con-carne_x7m8d91.width-320.jpg",
+  "source_uri": "https://www.nhs.uk/healthier-families/recipes/chilli-con-carne/"
 }

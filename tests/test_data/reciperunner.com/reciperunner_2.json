@@ -1,7 +1,6 @@
 {
   "author": "Danae Halliday",
   "canonical_url": "https://reciperunner.com/vanilla-chocolate-pizzelles/",
-  "source_uri": "https://reciperunner.com/vanilla-chocolate-pizzelles/",
   "site_name": "Recipe Runner",
   "host": "reciperunner.com",
   "language": "en-US",
@@ -85,5 +84,6 @@
     "Italian",
     "pizzelles",
     "vanilla"
-  ]
+  ],
+  "source_uri": "https://reciperunner.com/vanilla-chocolate-pizzelles/"
 }

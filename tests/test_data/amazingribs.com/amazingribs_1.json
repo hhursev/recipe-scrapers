@@ -1,7 +1,6 @@
 {
   "author": "meathead",
   "canonical_url": "https://amazingribs.com/tested-recipes/sausage-recipes/texas-hot-guts-smoked-sausage/",
-  "source_uri": "https://amazingribs.com/tested-recipes/sausage-recipes/texas-hot-guts-smoked-sausage/",
   "site_name": "Meathead's AmazingRibs.com",
   "host": "amazingribs.com",
   "language": "en-US",
@@ -46,5 +45,6 @@
     "brisket sausage",
     "sausage",
     "smoked sausage"
-  ]
+  ],
+  "source_uri": "https://amazingribs.com/tested-recipes/sausage-recipes/texas-hot-guts-smoked-sausage/"
 }

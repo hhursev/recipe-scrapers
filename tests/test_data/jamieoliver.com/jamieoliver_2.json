@@ -1,7 +1,6 @@
 {
   "author": "Romy Gill",
   "canonical_url": "https://www.jamieoliver.com/recipes/chicken/murg-makhani",
-  "source_uri": "https://www.jamieoliver.com/recipes/chicken/murg-makhani",
   "site_name": "Jamie Oliver",
   "host": "jamieoliver.com",
   "language": "en-GB",
@@ -107,5 +106,6 @@
     "Indian-style",
     "Dinner Party",
     "Dinner"
-  ]
+  ],
+  "source_uri": "https://www.jamieoliver.com/recipes/chicken/murg-makhani"
 }

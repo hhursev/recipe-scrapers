@@ -1,7 +1,6 @@
 {
   "author": "NibbleDish Contributor",
   "canonical_url": "http://nibbledish.com/soon-dubu-chigae/",
-  "source_uri": "http://nibbledish.com/soon-dubu-chigae/",
   "site_name": "NibbleDish",
   "host": "nibbledish.com",
   "language": "en-CA",
@@ -32,5 +31,6 @@
     "Add scallions on top and serve on top of rice."
   ],
   "category": "Soups",
-  "image": "http://media.nibbledish.com/wp-content/legacy-recipe-images/b2d1d675269ccfed2f246a99b3c04cbc.jpg"
+  "image": "http://media.nibbledish.com/wp-content/legacy-recipe-images/b2d1d675269ccfed2f246a99b3c04cbc.jpg",
+  "source_uri": "http://nibbledish.com/soon-dubu-chigae/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "gunilla von heland",
   "canonical_url": "https://alltommat.expressen.se/recept/briochehamburgerbrod/",
-  "source_uri": "https://alltommat.expressen.se/recept/briochehamburgerbrod/",
   "site_name": "Allt om Mat",
   "host": "alltommat.se",
   "language": "sv",
@@ -54,5 +53,6 @@
   "image": "https://static.cdn-expressen.se/images/8b/46/8b46181ad1eb42e98d7b05cfdf21e0a9/16x9/1920@80.jpg",
   "keywords": [
     "sections/recept"
-  ]
+  ],
+  "source_uri": "https://alltommat.expressen.se/recept/briochehamburgerbrod/"
 }

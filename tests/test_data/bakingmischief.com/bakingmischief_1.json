@@ -1,7 +1,6 @@
 {
   "author": "Tracy",
   "canonical_url": "https://bakingmischief.com/barbacoa-burrito-bowls/",
-  "source_uri": "https://bakingmischief.com/barbacoa-burrito-bowls/",
   "site_name": "Baking Mischief",
   "host": "bakingmischief.com",
   "language": "en-US",
@@ -109,5 +108,6 @@
   "image": "https://bakingmischief.com/wp-content/uploads/2020/12/barbacoa-burrito-bowls-image-square-2.jpg",
   "keywords": [
     "Barbacoa Burrito Bowl"
-  ]
+  ],
+  "source_uri": "https://bakingmischief.com/barbacoa-burrito-bowls/"
 }

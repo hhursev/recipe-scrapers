@@ -1,7 +1,6 @@
 {
   "author": "Panelinha",
   "canonical_url": "https://panelinha.com.br/receita/arroz-sirio-com-frango",
-  "source_uri": "https://panelinha.com.br/receita/arroz-sirio-com-frango",
   "site_name": "Panelinha - Receitas que funcionam",
   "host": "panelinha.com.br",
   "language": "pt-br",
@@ -34,5 +33,6 @@
   "description": "Nesta versão com frango, o tradicional e perfumado arroz com lentilhas libanês se transforma numa refeição completa. E o melhor, feito numa panela só!",
   "total_time": null,
   "cuisine": "Prática,Árabe,Libanesa,Sem Glúten",
-  "image": "https://i.panelinha.com.br/i1/228-q-4303-arroz-sirio-com-frango.webp"
+  "image": "https://i.panelinha.com.br/i1/228-q-4303-arroz-sirio-com-frango.webp",
+  "source_uri": "https://panelinha.com.br/receita/arroz-sirio-com-frango"
 }

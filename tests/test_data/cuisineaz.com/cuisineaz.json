@@ -1,7 +1,6 @@
 {
   "author": "Cuisine AZ",
   "canonical_url": "https://www.cuisineaz.com/recettes/filet-de-saumon-au-four-63049.aspx",
-  "source_uri": "https://www.cuisineaz.com/recettes/filet-de-saumon-au-four-63049.aspx",
   "site_name": "Cuisine AZ",
   "host": "cuisineaz.com",
   "language": "fr",
@@ -33,5 +32,6 @@
   "nutrients": {
     "calories": "339 calories"
   },
-  "image": "https://img.cuisineaz.com/660x660/2014/02/24/i78436-filet-de-saumon-au-four.jpeg"
+  "image": "https://img.cuisineaz.com/660x660/2014/02/24/i78436-filet-de-saumon-au-four.jpeg",
+  "source_uri": "https://www.cuisineaz.com/recettes/filet-de-saumon-au-four-63049.aspx"
 }

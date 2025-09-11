@@ -1,7 +1,6 @@
 {
   "author": "Anne Lippert",
   "canonical_url": "https://www.rewe.de/rezepte/wintergemuese-gnocchi-pfanne-kraeuterdip/",
-  "source_uri": "https://www.rewe.de/rezepte/wintergemuese-gnocchi-pfanne-kraeuterdip/",
   "site_name": "Rewe.de",
   "host": "rewe.de",
   "language": "de",
@@ -54,5 +53,6 @@
     "Party",
     "Dip",
     "gesund"
-  ]
+  ],
+  "source_uri": "https://www.rewe.de/rezepte/wintergemuese-gnocchi-pfanne-kraeuterdip/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Emma Chapman",
   "canonical_url": "https://abeautifulmess.com/pumpkin-bars/",
-  "source_uri": "https://abeautifulmess.com/pumpkin-bars/",
   "site_name": "A Beautiful Mess",
   "host": "abeautifulmess.com",
   "language": "en-US",
@@ -91,5 +90,6 @@
   "keywords": [
     "cake",
     "pumpkin"
-  ]
+  ],
+  "source_uri": "https://abeautifulmess.com/pumpkin-bars/"
 }

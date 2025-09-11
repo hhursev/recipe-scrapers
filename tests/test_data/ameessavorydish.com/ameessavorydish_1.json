@@ -1,7 +1,6 @@
 {
   "author": "Amee Livingston",
   "canonical_url": "https://ameessavorydish.com/pumpkin-chocolate-cake/",
-  "source_uri": "https://ameessavorydish.com/pumpkin-chocolate-cake/",
   "site_name": "Amee's Savory Dish",
   "host": "ameessavorydish.com",
   "language": "en-US",
@@ -60,5 +59,6 @@
     "fall",
     "glutenfree",
     "pumpkin"
-  ]
+  ],
+  "source_uri": "https://ameessavorydish.com/pumpkin-chocolate-cake/"
 }

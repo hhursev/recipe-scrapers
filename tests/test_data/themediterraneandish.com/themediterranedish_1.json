@@ -1,7 +1,6 @@
 {
   "author": "Suzy Karadsheh",
   "canonical_url": "https://www.themediterraneandish.com/savory-yogurt-bowl/",
-  "source_uri": "https://www.themediterraneandish.com/savory-yogurt-bowl/",
   "site_name": "The Mediterranean Dish",
   "host": "themediterraneandish.com",
   "language": "en-US",
@@ -51,5 +50,6 @@
     "breakfast recipe",
     "greek yogurt",
     "savory yogurt"
-  ]
+  ],
+  "source_uri": "https://www.themediterraneandish.com/savory-yogurt-bowl/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "British Bakels",
   "canonical_url": "https://www.britishbakels.co.uk/recipes/multiseed-rolls/",
-  "source_uri": "https://www.britishbakels.co.uk/recipes/multiseed-rolls/",
   "site_name": "British Bakels",
   "host": "bakels.com.au",
   "language": "en",
@@ -24,5 +23,6 @@
   ],
   "category": "Bakery",
   "description": "Multiseed Rolls",
-  "image": "https://britishbakels.b-cdn.net/wp-content/uploads/sites/2/2018/10/Bakels_040-Large.jpg"
+  "image": "https://britishbakels.b-cdn.net/wp-content/uploads/sites/2/2018/10/Bakels_040-Large.jpg",
+  "source_uri": "https://www.britishbakels.co.uk/recipes/multiseed-rolls/"
 }

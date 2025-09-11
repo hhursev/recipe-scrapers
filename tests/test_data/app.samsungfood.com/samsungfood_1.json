@@ -1,7 +1,6 @@
 {
   "author": "STEPH De Sousa",
   "canonical_url": "https://app.samsungfood.com/recipes/107018a3052180271afa5138d3ead5f8c57",
-  "source_uri": "https://app.samsungfood.com/recipes/107018a3052180271afa5138d3ead5f8c57",
   "site_name": "Samsung Food",
   "host": "app.samsungfood.com",
   "language": "en",
@@ -51,5 +50,6 @@
     "5 Minute lemon and blueberry cake",
     "Desserts",
     "World Cuisine"
-  ]
+  ],
+  "source_uri": "https://app.samsungfood.com/recipes/107018a3052180271afa5138d3ead5f8c57"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Purple Carrot",
   "canonical_url": "https://www.purplecarrot.com/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette",
-  "source_uri": "https://www.purplecarrot.com/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette",
   "site_name": "Purple Carrot",
   "host": "purplecarrot.com",
   "language": "en",
@@ -36,5 +35,6 @@
     "calories": "530 cal",
     "fatContent": "18.0 g"
   },
-  "image": "https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg"
+  "image": "https://images.purplecarrot.com/uploads/product/image/1357/_1400_700_Vegan_TB12_RoastedCauli_Hero-4-fcfead9e8b8f0df11875ae6baae25ab0.jpg",
+  "source_uri": "https://www.purplecarrot.com/recipe/roasted-cauliflower-lentil-bowl-with-avocado-curried-balsamic-vinaigrette"
 }

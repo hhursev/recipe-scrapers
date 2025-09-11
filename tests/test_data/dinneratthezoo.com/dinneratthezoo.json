@@ -1,7 +1,6 @@
 {
   "author": "Sara Welch",
   "canonical_url": "https://www.dinneratthezoo.com/grilled-scallops/",
-  "source_uri": "https://www.dinneratthezoo.com/grilled-scallops/",
   "site_name": "Dinner at the Zoo",
   "host": "dinneratthezoo.com",
   "language": "en-US",
@@ -47,5 +46,6 @@
   "image": "https://www.dinneratthezoo.com/wp-content/uploads/2021/03/grilled-scallops-final-2.jpg",
   "keywords": [
     "grilled scallops"
-  ]
+  ],
+  "source_uri": "https://www.dinneratthezoo.com/grilled-scallops/"
 }

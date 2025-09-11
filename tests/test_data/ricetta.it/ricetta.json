@@ -1,7 +1,6 @@
 {
   "author": "Luca Gatti",
   "canonical_url": "https://ricetta.it/lasagne-al-radicchio-e-formaggio",
-  "source_uri": "https://ricetta.it/lasagne-al-radicchio-e-formaggio",
   "site_name": "Ricetta.it",
   "host": "ricetta.it",
   "language": "it",
@@ -39,5 +38,6 @@
   "cuisine": "Italiana",
   "ratings": 4.6,
   "ratings_count": 1335,
-  "image": "https://ricetta.it/Uploads/Imgs/lasagne-al-radicchio-e-formaggio_medium.jpg.webp"
+  "image": "https://ricetta.it/Uploads/Imgs/lasagne-al-radicchio-e-formaggio_medium.jpg.webp",
+  "source_uri": "https://ricetta.it/lasagne-al-radicchio-e-formaggio"
 }

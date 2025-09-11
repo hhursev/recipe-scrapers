@@ -1,7 +1,6 @@
 {
   "author": "Scott Loitsch",
   "canonical_url": "https://tasty.co/recipe/homemade-cinnamon-rolls",
-  "source_uri": "https://tasty.co/recipe/homemade-cinnamon-rolls",
   "site_name": "tasty.co",
   "host": "tasty.co",
   "language": "en",
@@ -109,5 +108,6 @@
     "today food",
     "video",
     "yeast"
-  ]
+  ],
+  "source_uri": "https://tasty.co/recipe/homemade-cinnamon-rolls"
 }

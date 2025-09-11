@@ -1,7 +1,6 @@
 {
   "author": "Karen McCormick",
   "canonical_url": "https://momswithcrockpots.com/slow-cooked-macaroni-cheese/",
-  "source_uri": "https://momswithcrockpots.com/slow-cooked-macaroni-cheese/",
   "site_name": "Moms with Crockpots",
   "host": "momswithcrockpots.com",
   "language": "en-US",
@@ -52,5 +51,6 @@
   "image": "https://momswithcrockpots.com/wp-content/uploads/2012/01/Crockpot-Macaroni-and-cheese-2.jpg",
   "keywords": [
     "holiday"
-  ]
+  ],
+  "source_uri": "https://momswithcrockpots.com/slow-cooked-macaroni-cheese/"
 }

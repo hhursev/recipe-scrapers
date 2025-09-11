@@ -1,7 +1,6 @@
 {
   "author": "hello@adozensundays.com",
   "canonical_url": "https://adozensundays.com/cranberry-white-chocolate-shortbread-biscuits/",
-  "source_uri": "https://adozensundays.com/cranberry-white-chocolate-shortbread-biscuits/",
   "site_name": "A Dozen Sundays",
   "host": "adozensundays.com",
   "language": "en-US",
@@ -66,5 +65,6 @@
     "Easy Biscuit Recipe",
     "Shortbread Recipe",
     "White Chocolate and Cranberry"
-  ]
+  ],
+  "source_uri": "https://adozensundays.com/cranberry-white-chocolate-shortbread-biscuits/"
 }

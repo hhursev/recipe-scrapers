@@ -1,7 +1,6 @@
 {
   "author": "Natalya Drozhzhin",
   "canonical_url": "https://natashaskitchen.com/sugar-cookies-recipe/",
-  "source_uri": "https://natashaskitchen.com/sugar-cookies-recipe/",
   "site_name": "NatashasKitchen.com",
   "host": "natashaskitchen.com",
   "language": "en-US",
@@ -47,5 +46,6 @@
   "image": "https://natashaskitchen.com/wp-content/uploads/2019/12/Sugar-Cookies-8.jpg",
   "keywords": [
     "sugar cookies"
-  ]
+  ],
+  "source_uri": "https://natashaskitchen.com/sugar-cookies-recipe/"
 }

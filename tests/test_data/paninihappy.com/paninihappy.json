@@ -1,6 +1,5 @@
 {
   "canonical_url": "https://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/",
-  "source_uri": "https://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/",
   "site_name": "Panini Happy®",
   "host": "paninihappy.com",
   "language": "en-US",
@@ -25,5 +24,6 @@
   ],
   "yields": "4 sandwiches",
   "total_time": 30,
-  "image": "https://paninihappy.com/wp-content/uploads/2011/04/Grilled_Mac_and_Cheese-close-490.jpg"
+  "image": "https://paninihappy.com/wp-content/uploads/2011/04/Grilled_Mac_and_Cheese-close-490.jpg",
+  "source_uri": "https://paninihappy.com/grilled-mac-cheese-with-bbq-pulled-pork/"
 }

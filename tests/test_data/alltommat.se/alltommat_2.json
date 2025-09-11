@@ -1,7 +1,6 @@
 {
   "author": "cecilia lundin",
   "canonical_url": "https://alltommat.expressen.se/recept/kottbullar-med-potatismos-graddsas-gurka-och-lingon/",
-  "source_uri": "https://alltommat.expressen.se/recept/kottbullar-med-potatismos-graddsas-gurka-och-lingon/",
   "site_name": "Allt om Mat",
   "host": "alltommat.se",
   "language": "sv",
@@ -117,5 +116,6 @@
     "sections/recept",
     "topic/recept",
     "topic/mat"
-  ]
+  ],
+  "source_uri": "https://alltommat.expressen.se/recept/kottbullar-med-potatismos-graddsas-gurka-och-lingon/"
 }

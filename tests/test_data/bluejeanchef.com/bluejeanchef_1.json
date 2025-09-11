@@ -1,7 +1,6 @@
 {
   "author": "theyadmin",
   "canonical_url": "https://bluejeanchef.com/recipes/chicken-tortilla-soup/",
-  "source_uri": "https://bluejeanchef.com/recipes/chicken-tortilla-soup/",
   "site_name": "Blue Jean Chef - Meredith Laurence",
   "host": "bluejeanchef.com",
   "language": "en",
@@ -60,5 +59,6 @@
     "Pasta",
     "One Pot Meal",
     "Quick and Easy"
-  ]
+  ],
+  "source_uri": "https://bluejeanchef.com/recipes/chicken-tortilla-soup/"
 }

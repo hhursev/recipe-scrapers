@@ -1,7 +1,6 @@
 {
   "author": "Arla Mat",
   "canonical_url": "https://www.arla.se/recept/reuben-sandwich/",
-  "source_uri": "https://www.arla.se/recept/reuben-sandwich/",
   "site_name": "Arla",
   "host": "arla.se",
   "language": "sv",
@@ -73,5 +72,6 @@
   "image": "https://images.arla.com/recordid/FB2425A1-47CE-4EFB-8D47570F80762F18/reuben-sandwich.jpg?width=1300&height=525&mode=crop&crop=(0,332,0,-312)&format=webp",
   "keywords": [
     "Smörgås"
-  ]
+  ],
+  "source_uri": "https://www.arla.se/recept/reuben-sandwich/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Kris Longwell",
   "canonical_url": "https://howtofeedaloon.com/grilled-tacos-al-pastor/",
-  "source_uri": "https://howtofeedaloon.com/grilled-tacos-al-pastor/",
   "site_name": "How To Feed A Loon",
   "host": "howtofeedaloon.com",
   "language": "en-US",
@@ -116,5 +115,6 @@
   "keywords": [
     "how to make tacos al pastor",
     "pork tacos recipe"
-  ]
+  ],
+  "source_uri": "https://howtofeedaloon.com/grilled-tacos-al-pastor/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Traci York",
   "canonical_url": "https://vanillaandbean.com/maple-oat-sourdough-sandwich-bread/",
-  "source_uri": "https://vanillaandbean.com/maple-oat-sourdough-sandwich-bread/",
   "site_name": "Vanilla And Bean",
   "host": "vanillaandbean.com",
   "language": "en-US",
@@ -75,5 +74,6 @@
     "Maple Oat Sourdough",
     "Sourdough Bread",
     "Sourdough Sandwich Bread"
-  ]
+  ],
+  "source_uri": "https://vanillaandbean.com/maple-oat-sourdough-sandwich-bread/"
 }

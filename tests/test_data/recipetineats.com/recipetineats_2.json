@@ -1,7 +1,6 @@
 {
   "author": "Nagi",
   "canonical_url": "https://www.recipetineats.com/vietnamese-caramel-pork/",
-  "source_uri": "https://www.recipetineats.com/vietnamese-caramel-pork/",
   "site_name": "RecipeTin Eats",
   "host": "recipetineats.com",
   "language": "en-US",
@@ -64,5 +63,6 @@
   "keywords": [
     "Vietnamese caramel pork",
     "Vietnamese pork recipe"
-  ]
+  ],
+  "source_uri": "https://www.recipetineats.com/vietnamese-caramel-pork/"
 }

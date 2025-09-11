@@ -1,7 +1,6 @@
 {
   "author": "Alyssa",
   "canonical_url": "https://www.simplyquinoa.com/dairy-free-hot-chocolate/",
-  "source_uri": "https://www.simplyquinoa.com/dairy-free-hot-chocolate/",
   "site_name": "Simply Quinoa",
   "host": "simplyquinoa.com",
   "language": "en-US",
@@ -42,5 +41,6 @@
     "hot cocoa",
     "vegan chocolate",
     "vegan hot chocolate"
-  ]
+  ],
+  "source_uri": "https://www.simplyquinoa.com/dairy-free-hot-chocolate/"
 }

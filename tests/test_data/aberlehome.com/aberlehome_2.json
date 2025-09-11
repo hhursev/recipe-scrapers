@@ -1,7 +1,6 @@
 {
   "author": "Leanna Aberle",
   "canonical_url": "https://aberlehome.com/sourdough-einkorn-donut-muffins/",
-  "source_uri": "https://aberlehome.com/sourdough-einkorn-donut-muffins/",
   "site_name": "Aberle Home",
   "host": "aberlehome.com",
   "language": "en-US",
@@ -52,5 +51,6 @@
     "fiberContent": "4g",
     "cholesterolContent": "49mg"
   },
-  "image": "https://aberlehome.com/wp-content/uploads/2024/02/sourdough-einkorn-donut-muffins-137.jpg"
+  "image": "https://aberlehome.com/wp-content/uploads/2024/02/sourdough-einkorn-donut-muffins-137.jpg",
+  "source_uri": "https://aberlehome.com/sourdough-einkorn-donut-muffins/"
 }

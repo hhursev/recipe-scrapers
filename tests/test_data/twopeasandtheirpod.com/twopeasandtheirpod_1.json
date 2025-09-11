@@ -1,7 +1,6 @@
 {
   "author": "Maria Lichty",
   "canonical_url": "https://www.twopeasandtheirpod.com/baked-chicken-taquitos/",
-  "source_uri": "https://www.twopeasandtheirpod.com/baked-chicken-taquitos/",
   "site_name": "Two Peas & Their Pod",
   "host": "twopeasandtheirpod.com",
   "language": "en-US",
@@ -84,5 +83,6 @@
   "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2017/03/Baked-Chicken-Taquitos-1.jpg",
   "keywords": [
     "taquitos"
-  ]
+  ],
+  "source_uri": "https://www.twopeasandtheirpod.com/baked-chicken-taquitos/"
 }

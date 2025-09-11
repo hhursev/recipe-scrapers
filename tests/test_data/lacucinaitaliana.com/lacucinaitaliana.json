@@ -1,7 +1,6 @@
 {
   "author": "La Cucina Italiana",
   "canonical_url": "https://www.lacucinaitaliana.com/recipe/pasta/caserecce-with-broccoli-and-tuna",
-  "source_uri": "https://www.lacucinaitaliana.com/recipe/pasta/caserecce-with-broccoli-and-tuna",
   "site_name": "La Cucina Italiana",
   "host": "lacucinaitaliana.it",
   "language": "en-US",
@@ -29,5 +28,6 @@
   "cuisine": "Italian",
   "ratings": 4.2,
   "ratings_count": 13,
-  "image": "https://rms.condenast.it/rms/public/5d3/f03/de5/thumb_982_1200_670_0_0_auto.jpg"
+  "image": "https://rms.condenast.it/rms/public/5d3/f03/de5/thumb_982_1200_670_0_0_auto.jpg",
+  "source_uri": "https://www.lacucinaitaliana.com/recipe/pasta/caserecce-with-broccoli-and-tuna"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Eat This Much",
   "canonical_url": "https://www.eatthismuch.com/calories/easy-garlic-chicken,33501",
-  "source_uri": "https://www.eatthismuch.com/calories/easy-garlic-chicken,33501",
   "site_name": "Eat This Much",
   "host": "eatthismuch.com",
   "language": "en",
@@ -37,5 +36,6 @@
     "cholesterolContent": "436.2",
     "name": "Easy Garlic Chicken"
   },
-  "image": "https://images.eatthismuch.com/img/33501_elm333_4bb41603-56fd-43db-8de6-af0ee43b8c16.jpg"
+  "image": "https://images.eatthismuch.com/img/33501_elm333_4bb41603-56fd-43db-8de6-af0ee43b8c16.jpg",
+  "source_uri": "https://www.eatthismuch.com/calories/easy-garlic-chicken,33501"
 }

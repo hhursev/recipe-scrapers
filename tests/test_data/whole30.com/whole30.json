@@ -1,7 +1,6 @@
 {
   "author": "Michael Beasley",
   "canonical_url": "https://www2.whole30.com/recipes/whole30-smash-burger-taco/",
-  "source_uri": "https://www2.whole30.com/recipes/whole30-smash-burger-taco/",
   "site_name": "The Whole30® Program",
   "host": "whole30.com",
   "language": "en-US",
@@ -73,5 +72,6 @@
     "burger",
     "taco",
     "whole30 wraps"
-  ]
+  ],
+  "source_uri": "https://www2.whole30.com/recipes/whole30-smash-burger-taco/"
 }

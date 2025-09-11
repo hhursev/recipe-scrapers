@@ -1,7 +1,6 @@
 {
   "author": "Brandi Crawford",
   "canonical_url": "https://www.staysnatched.com/slow-cooker-chili-mac/",
-  "source_uri": "https://www.staysnatched.com/slow-cooker-chili-mac/",
   "site_name": "Stay Snatched",
   "host": "staysnatched.com",
   "language": "en-US",
@@ -90,5 +89,6 @@
     "chili mac and cheese",
     "Crockpot Chili Mac",
     "slow cooker chili mac"
-  ]
+  ],
+  "source_uri": "https://www.staysnatched.com/slow-cooker-chili-mac/"
 }

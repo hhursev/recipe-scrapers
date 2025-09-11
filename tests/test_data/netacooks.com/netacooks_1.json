@@ -1,7 +1,6 @@
 {
   "author": "neta",
   "canonical_url": "https://netacooks.com/instant-chocolate-chip-cookies/",
-  "source_uri": "https://netacooks.com/instant-chocolate-chip-cookies/",
   "site_name": "Neta Cooks",
   "host": "netacooks.com",
   "language": "en-US",
@@ -36,5 +35,6 @@
   "keywords": [
     "chocolate chip",
     "cookies"
-  ]
+  ],
+  "source_uri": "https://netacooks.com/instant-chocolate-chip-cookies/"
 }

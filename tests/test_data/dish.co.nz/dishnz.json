@@ -1,7 +1,6 @@
 {
   "author": "Claire Aldous",
   "canonical_url": "https://dish.co.nz/recipes/tikka-masala-lamb-meatball-curry/",
-  "source_uri": "https://dish.co.nz/recipes/tikka-masala-lamb-meatball-curry/",
   "site_name": "Dish",
   "host": "dish.co.nz",
   "language": "en",
@@ -62,5 +61,6 @@
   "yields": "Serves: 4",
   "description": "With a ready-made curry paste, dinner is on the table quick smart. I don’t brown the meatballs before adding them to the sauce; one less step to do!",
   "total_time": null,
-  "image": "https://dish.co.nz/assets/media/images/meatball_curry__FillWzg1MCwxMTc0XQ.jpg"
+  "image": "https://dish.co.nz/assets/media/images/meatball_curry__FillWzg1MCwxMTc0XQ.jpg",
+  "source_uri": "https://dish.co.nz/recipes/tikka-masala-lamb-meatball-curry/"
 }

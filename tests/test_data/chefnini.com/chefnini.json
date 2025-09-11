@@ -1,7 +1,6 @@
 {
   "author": "chefNini",
   "canonical_url": "https://www.chefnini.com/tagliatelles-carbonara/",
-  "source_uri": "https://www.chefnini.com/tagliatelles-carbonara/",
   "site_name": "chefNini",
   "host": "chefnini.com",
   "language": "fr-FR",
@@ -31,5 +30,6 @@
   "yields": "2 servings",
   "description": "En France, les pâtes carbonara sont très souvent cuisinées avec des oignons et de la crème liquide. C’est d’ailleurs de cette manière que je les ai découvertes. J’aimais bien mais j’ai toujours trouvé ça un peu écœurant et lourd.",
   "total_time": null,
-  "image": "https://static.chefnini.com/wp-content/uploads/2013/09/tagliatelle-carbonara10.jpg"
+  "image": "https://static.chefnini.com/wp-content/uploads/2013/09/tagliatelle-carbonara10.jpg",
+  "source_uri": "https://www.chefnini.com/tagliatelles-carbonara/"
 }

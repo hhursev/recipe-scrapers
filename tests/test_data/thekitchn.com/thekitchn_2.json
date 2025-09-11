@@ -1,7 +1,6 @@
 {
   "author": "Meghan Splawn",
   "canonical_url": "https://www.thekitchn.com/chicken-fried-steak-23002756",
-  "source_uri": "https://www.thekitchn.com/chicken-fried-steak-23002756",
   "site_name": "The Kitchn",
   "host": "thekitchn.com",
   "language": "en",
@@ -125,5 +124,6 @@
     "lifestyle:kid-friendly",
     "meal:dinner",
     "updated:2024-02-05"
-  ]
+  ],
+  "source_uri": "https://www.thekitchn.com/chicken-fried-steak-23002756"
 }

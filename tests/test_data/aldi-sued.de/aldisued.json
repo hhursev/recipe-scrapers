@@ -1,7 +1,6 @@
 {
   "author": "ALDI SÜD",
   "canonical_url": "https://www.aldi-sued.de/de/r.fraenkische-weissweinsuppe.Article_RZ49615010000000.html",
-  "source_uri": "https://www.aldi-sued.de/de/r.fraenkische-weissweinsuppe.Article_RZ49615010000000.html",
   "site_name": "ALDI SÜD",
   "host": "aldi-sued.de",
   "language": "de",
@@ -35,5 +34,6 @@
   "total_time": 35,
   "cook_time": 20,
   "prep_time": 15,
-  "image": "https://s7g10.scene7.com/is/image/aldi/202410030128"
+  "image": "https://s7g10.scene7.com/is/image/aldi/202410030128",
+  "source_uri": "https://www.aldi-sued.de/de/r.fraenkische-weissweinsuppe.Article_RZ49615010000000.html"
 }

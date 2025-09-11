@@ -1,7 +1,6 @@
 {
   "author": "Ottolenghi",
   "canonical_url": "https://books.ottolenghi.co.uk/otk-shelf-love/recipe/chickpeas-cacio-e-pepe/",
-  "source_uri": "https://books.ottolenghi.co.uk/otk-shelf-love/recipe/chickpeas-cacio-e-pepe/",
   "site_name": "Ottolenghi Books",
   "host": "books.ottolenghi.co.uk",
   "language": "en-GB",
@@ -34,5 +33,6 @@
   "keywords": [
     "Meat, Seafood & Dairy",
     "Spices"
-  ]
+  ],
+  "source_uri": "https://books.ottolenghi.co.uk/otk-shelf-love/recipe/chickpeas-cacio-e-pepe/"
 }

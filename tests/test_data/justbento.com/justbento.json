@@ -1,6 +1,5 @@
 {
   "canonical_url": "https://justbento.com/handbook/recipes-sides-and-fillers/bento-filler-orange-juice-carrots",
-  "source_uri": "https://justbento.com/handbook/recipes-sides-and-fillers/bento-filler-orange-juice-carrots",
   "site_name": "Just Bento",
   "host": "justbento.com",
   "language": "en",
@@ -21,5 +20,6 @@
   ],
   "yields": "1",
   "total_time": 20,
-  "image": "http://justbento.com/files/bento/images/orangecarrots1.jpg"
+  "image": "http://justbento.com/files/bento/images/orangecarrots1.jpg",
+  "source_uri": "https://justbento.com/handbook/recipes-sides-and-fillers/bento-filler-orange-juice-carrots"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Αργυρώ Μπαρμπαρίγου",
   "canonical_url": "http://www.argiro.gr/recipe/gemista/",
-  "source_uri": "http://www.argiro.gr/recipe/gemista/",
   "site_name": "Argiro.gr",
   "host": "argiro.gr",
   "language": "el",
@@ -107,5 +106,6 @@
     "Ταψί",
     "Τηγάνι"
   ],
-  "image": "http://www.argiro.gr/wp-content/uploads/2023/08/gemista-2.jpg"
+  "image": "http://www.argiro.gr/wp-content/uploads/2023/08/gemista-2.jpg",
+  "source_uri": "http://www.argiro.gr/recipe/gemista/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Kimography",
   "canonical_url": "https://www.bigoven.com/recipe/white-chocolate-raspberry-cupcakes/165783",
-  "source_uri": "https://www.bigoven.com/recipe/white-chocolate-raspberry-cupcakes/165783",
   "site_name": "BigOven.com",
   "host": "bigoven.com",
   "language": "en",
@@ -112,5 +111,6 @@
     "contains dairy",
     "contains eggs",
     "pescatarian"
-  ]
+  ],
+  "source_uri": "https://www.bigoven.com/recipe/white-chocolate-raspberry-cupcakes/165783"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Marwin Brown",
   "canonical_url": "https://www.foodfidelity.com/citrus-israeli-couscous/",
-  "source_uri": "https://www.foodfidelity.com/citrus-israeli-couscous/",
   "site_name": "Food Fidelity",
   "host": "foodfidelity.com",
   "language": "en-US",
@@ -90,5 +89,6 @@
   "image": "https://www.foodfidelity.com/wp-content/uploads/2018/05/citrus-couscous.jpg",
   "keywords": [
     "couscous"
-  ]
+  ],
+  "source_uri": "https://www.foodfidelity.com/citrus-israeli-couscous/"
 }

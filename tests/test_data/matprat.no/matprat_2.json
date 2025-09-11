@@ -1,7 +1,6 @@
 {
   "author": "MatPrat",
   "canonical_url": "https://www.matprat.no/oppskrifter/sunn/mangosalat/",
-  "source_uri": "https://www.matprat.no/oppskrifter/sunn/mangosalat/",
   "site_name": "MatPrat",
   "host": "matprat.no",
   "language": "no",
@@ -42,5 +41,6 @@
     "olivenolje",
     "salt",
     "pepper"
-  ]
+  ],
+  "source_uri": "https://www.matprat.no/oppskrifter/sunn/mangosalat/"
 }

@@ -1,7 +1,6 @@
 {
   "author": "Lauren Allen",
   "canonical_url": "https://tastesbetterfromscratch.com/pulled-pork/",
-  "source_uri": "https://tastesbetterfromscratch.com/pulled-pork/",
   "site_name": "Tastes Better From Scratch",
   "host": "tastesbetterfromscratch.com",
   "language": "en-US",
@@ -58,5 +57,6 @@
     "pulled pork recipe",
     "pulled pork recipe oven",
     "slow cooker pulled pork"
-  ]
+  ],
+  "source_uri": "https://tastesbetterfromscratch.com/pulled-pork/"
 }

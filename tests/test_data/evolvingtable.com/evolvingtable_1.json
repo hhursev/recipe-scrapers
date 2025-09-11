@@ -1,7 +1,6 @@
 {
   "author": "London Brazil",
   "canonical_url": "https://www.evolvingtable.com/sriracha-mayo/",
-  "source_uri": "https://www.evolvingtable.com/sriracha-mayo/",
   "site_name": "Evolving Table",
   "host": "evolvingtable.com",
   "language": "en-US",
@@ -42,5 +41,6 @@
     "dip",
     "easy",
     "spicy"
-  ]
+  ],
+  "source_uri": "https://www.evolvingtable.com/sriracha-mayo/"
 }

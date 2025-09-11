@@ -1,7 +1,6 @@
 {
   "author": "Larousse",
   "canonical_url": "https://www.editions-larousse.fr/recette/buche-de-noel-au-chocolat/",
-  "source_uri": "https://www.editions-larousse.fr/recette/buche-de-noel-au-chocolat/",
   "host": "editions-larousse.fr",
   "language": "fr",
   "title": "Bûche de Noël au chocolat",
@@ -109,5 +108,6 @@
     "1 douille chemin de fer",
     "1 douille unie de largeur d'embout 10mm"
   ],
-  "image": "https://media.hachette.fr/fit-in/800x800/28/2024-10/buche-de-noel-au-chocolat-4.jpg"
+  "image": "https://media.hachette.fr/fit-in/800x800/28/2024-10/buche-de-noel-au-chocolat-4.jpg",
+  "source_uri": "https://www.editions-larousse.fr/recette/buche-de-noel-au-chocolat/"
 }

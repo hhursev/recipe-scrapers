@@ -1,7 +1,6 @@
 {
   "author": "Heidi Swanson",
   "canonical_url": "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",
-  "source_uri": "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/",
   "site_name": "101 Cookbooks",
   "host": "101cookbooks.com",
   "language": "en-US",
@@ -47,5 +46,6 @@
   "image": "https://images.101cookbooks.com/coconut_broccoli_soup.jpg?w=1200&auto=format",
   "keywords": [
     "broccoli soup"
-  ]
+  ],
+  "source_uri": "https://www.101cookbooks.com/broccoli-soup-with-coconut-milk/"
 }

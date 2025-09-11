@@ -1,7 +1,6 @@
 {
   "author": "Michele Rosen",
   "canonical_url": "https://www.paleorunningmomma.com/paleo-beef-stroganoff-whole30-keto/",
-  "source_uri": "https://www.paleorunningmomma.com/paleo-beef-stroganoff-whole30-keto/",
   "site_name": "The Paleo Running Momma",
   "host": "paleorunningmomma.com",
   "language": "en-US",
@@ -61,5 +60,6 @@
     "paleo",
     "stroganoff",
     "whole30"
-  ]
+  ],
+  "source_uri": "https://www.paleorunningmomma.com/paleo-beef-stroganoff-whole30-keto/"
 }

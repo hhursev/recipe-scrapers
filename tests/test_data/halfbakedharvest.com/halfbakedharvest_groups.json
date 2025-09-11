@@ -1,7 +1,6 @@
 {
   "author": "Tieghan",
   "canonical_url": "https://www.halfbakedharvest.com/street-corn-pasta-salad/",
-  "source_uri": "https://www.halfbakedharvest.com/street-corn-pasta-salad/",
   "site_name": "Half Baked Harvest",
   "host": "halfbakedharvest.com",
   "language": "en-US",
@@ -84,5 +83,6 @@
     "30 minute meal",
     "quick and easy",
     "summer pasta"
-  ]
+  ],
+  "source_uri": "https://www.halfbakedharvest.com/street-corn-pasta-salad/"
 }

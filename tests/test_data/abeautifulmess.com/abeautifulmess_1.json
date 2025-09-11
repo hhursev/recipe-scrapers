@@ -1,7 +1,6 @@
 {
   "author": "Elsie Larson",
   "canonical_url": "https://abeautifulmess.com/banana-ice-cream/",
-  "source_uri": "https://abeautifulmess.com/banana-ice-cream/",
   "site_name": "A Beautiful Mess",
   "host": "abeautifulmess.com",
   "language": "en-US",
@@ -45,5 +44,6 @@
   "keywords": [
     "Banana Ice Cream",
     "Banana Ninja Creami Ice Cream"
-  ]
+  ],
+  "source_uri": "https://abeautifulmess.com/banana-ice-cream/"
 }

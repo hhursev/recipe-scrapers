@@ -1,7 +1,6 @@
 {
   "author": "Jesseca",
   "canonical_url": "https://onesweetappetite.com/ranch-chicken/",
-  "source_uri": "https://onesweetappetite.com/ranch-chicken/",
   "site_name": "One Sweet Appetite",
   "host": "onesweetappetite.com",
   "language": "en-US",
@@ -53,5 +52,6 @@
     "fiberContent": "1 g",
     "cholesterolContent": "129 mg"
   },
-  "image": "https://onesweetappetite.com/wp-content/uploads/2021/07/ranch-chicken-recipe-6.jpg"
+  "image": "https://onesweetappetite.com/wp-content/uploads/2021/07/ranch-chicken-recipe-6.jpg",
+  "source_uri": "https://onesweetappetite.com/ranch-chicken/"
 }

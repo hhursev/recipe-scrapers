@@ -1,7 +1,6 @@
 {
   "author": "Meghan Splawn",
   "canonical_url": "https://www.thekitchn.com/manicotti-22949270",
-  "source_uri": "https://www.thekitchn.com/manicotti-22949270",
   "site_name": "The Kitchn",
   "host": "thekitchn.com",
   "language": "en",
@@ -92,5 +91,6 @@
     "dishtype:casserole",
     "dishtype:pasta dish",
     "dishtype:meat dish"
-  ]
+  ],
+  "source_uri": "https://www.thekitchn.com/manicotti-22949270"
 }
