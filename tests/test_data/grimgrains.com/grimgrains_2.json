@@ -23,6 +23,38 @@
     "beni shouga: to taste",
     "scallions: 4 stalks"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "nagaimo: 160 g, grated",
+        "green cabbage: 500 g, minced",
+        "chickpea flour: 85 g",
+        "nutritional yeast: 15 g",
+        "salt: 1.25 g",
+        "shiitake: 6",
+        "water: 320 ml",
+        "sesame oil: 10 ml"
+      ],
+      "purpose": "okonomiyaki"
+    },
+    {
+      "ingredients": [
+        "soy sauce: 60 ml",
+        "mirin: 60 ml",
+        "granulated sugar: 15 g",
+        "arrowroot starch: 15 g"
+      ],
+      "purpose": "sauce"
+    },
+    {
+      "ingredients": [
+        "ao nori: 30 g",
+        "beni shouga: to taste",
+        "scallions: 4 stalks"
+      ],
+      "purpose": "topping"
+    }
+  ],
   "instructions_list": [
     "Peel the nagaimo, then soak it in a water and vinegar solution (doing this helps to remove irritants). Dry the nagaimo, then grate 160 g (6-8cm) of nagaimo with a fine grater. Do this over a bowl, as the grated nagaimo is very slimy. Keep aside.",
     "Mince 500 g (1 small head) green cabbage, keep aside.",

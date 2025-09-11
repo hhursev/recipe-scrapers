@@ -37,9 +37,6 @@ class Festligare(AbstractScraper):
         )
         return [normalize_string(tag.get_text()) for tag in keyword_tags]
 
-    def total_time(self):
-        return self.schema.total_time()
-
     def yields(self):
         try:
             return self.schema.yields()
@@ -58,9 +55,6 @@ class Festligare(AbstractScraper):
             )
 
         return None
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         try:

@@ -53,6 +53,13 @@ class AmericasTestKitchen(AbstractScraper):
             ]
         ).lstrip("\n")
 
+    def image(self):
+        preload = self.soup.find("link", rel="preload", attrs={"as": "image"})
+        if preload and preload.get("href"):
+            return preload["href"]
+        og_image = self.soup.find("meta", {"property": "og:image", "content": True})
+        return og_image["content"]
+
     @staticmethod
     def _parse_ingredient_item(ingredient_item):
         fields = ingredient_item["fields"]

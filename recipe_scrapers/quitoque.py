@@ -1,3 +1,4 @@
+import functools
 from ._abstract import AbstractScraper
 from ._utils import csv_to_tags, get_minutes, get_yields, normalize_string
 
@@ -21,6 +22,10 @@ class QuiToque(AbstractScraper):
             if time_name in time.get_text():
                 total_time = self._get_text(time).replace(time_name, "")
         return get_minutes(total_time)
+
+    @functools.cached_property
+    def _nutrients(self):
+        return self.soup.find(id="portion")
 
     def _get_nutrient(self, nutrient_name):
         nutrient_element = self._nutrients.find("p", string=nutrient_name).parent
@@ -77,7 +82,6 @@ class QuiToque(AbstractScraper):
         return self._get_text(description)
 
     def nutrients(self):
-        self._nutrients = self.soup.find(id="portion")
         nutrients = {
             "calories": self._get_nutrient("Énergie (kCal)"),
             "fatContent": self._get_nutrient("Matières grasses"),

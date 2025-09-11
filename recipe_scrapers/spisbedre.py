@@ -16,12 +16,6 @@ class SpisBedre(AbstractScraper):
     def host(cls):
         return "spisbedre.dk"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def category(self):
         return ", ".join([type["name"] for type in self.recipe_json.get("tags", [])])
 
@@ -148,15 +142,6 @@ class SpisBedre(AbstractScraper):
         ]
 
         return "\n".join(result)
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
 
     def equipment(self):
         result = [
