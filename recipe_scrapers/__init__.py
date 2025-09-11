@@ -114,6 +114,7 @@ from .chewoutloud import ChewOutLoud
 from .closetcooking import ClosetCooking
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
+from .cookedandloved import CookedAndLoved
 from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
@@ -272,6 +273,7 @@ from .kwestiasmaku import KwestiaSmaku
 from .lacucinaitaliana import LaCucinaItaliana
 from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
+from .lazycatkitchen import LazyCatKitchen
 from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .leckerschmecker import LeckerSchmecker
@@ -607,6 +609,7 @@ SCRAPERS = {
     ClosetCooking.host(): ClosetCooking,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
+    CookedAndLoved.host(): CookedAndLoved,
     CookieAndKate.host(): CookieAndKate,
     CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
@@ -786,6 +789,7 @@ SCRAPERS = {
     LaCucinaItaliana.host(domain="com"): LaCucinaItaliana,
     LanasCooking.host(): LanasCooking,
     LAtelierDeRoxane.host(): LAtelierDeRoxane,
+    LazyCatKitchen.host(): LazyCatKitchen,
     LeanAndGreenRecipes.host(): LeanAndGreenRecipes,
     Lecker.host(): Lecker,
     LeckerSchmecker.host(): LeckerSchmecker,
