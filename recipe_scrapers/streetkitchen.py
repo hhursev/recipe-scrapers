@@ -70,11 +70,13 @@ class StreetKitchen(AbstractScraper):
 
         instructions = []
         for child in container.children:
-            if getattr(child, "name", None) == "p":
+            if getattr(child, "name", None) in ["p", "span"]:
                 text = child.get_text(" ", strip=True)
                 if text:
                     instructions.append(text)
-            elif getattr(child, "name", None) not in [None, "h2", "h3"]:
+            elif getattr(child, "name", None) in ["h2", "h3", "figure"]:
+                continue
+            elif getattr(child, "name", None) is not None:
                 break
 
         return "\n".join(instructions)
