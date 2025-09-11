@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import IngredientGroup
 
 
 class StreetKitchen(AbstractScraper):
@@ -22,8 +23,41 @@ class StreetKitchen(AbstractScraper):
                 if div.get_text(strip=True)
             ]
             if parts:
-                ingredients_list.append(" ".join(parts))
+                text = " ".join(parts)
+                text = text.replace("( ", "(").replace(" )", ")")
+                ingredients_list.append(text)
         return ingredients_list
+
+    def ingredient_groups(self):
+        groups = []
+        for group_block in self.soup.select("div.w-full.rounded-b-md > div > div"):
+            heading_tag = group_block.select_one("h5.text-lg.font-bold")
+            purpose = heading_tag.get_text(strip=True) if heading_tag else None
+
+            ingredients = []
+            for item in group_block.select("div.my-2.flex.items-center.gap-2.text-lg"):
+                divs = [
+                    child
+                    for child in item.children
+                    if getattr(child, "name", None) == "div"
+                ]
+                parts = [
+                    div.get_text(" ", strip=True)
+                    for div in divs
+                    if div.get_text(strip=True)
+                ]
+                if parts:
+                    text = " ".join(parts)
+                    # remove spaces just inside parentheses
+                    text = text.replace("( ", "(").replace(" )", ")")
+                    ingredients.append(text)
+
+            if ingredients:
+                groups.append(IngredientGroup(ingredients=ingredients, purpose=purpose))
+
+        if not groups:
+            return [IngredientGroup(ingredients=self.ingredients())]
+        return groups
 
     def instructions(self):
         article = self.soup.select_one("article.recipe-article")
@@ -37,4 +71,3 @@ class StreetKitchen(AbstractScraper):
                 elif getattr(child, "name", None) is not None:
                     break
             return "\n".join(instructions)
-        return ""

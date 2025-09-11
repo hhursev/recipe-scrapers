@@ -6,10 +6,10 @@
   "language": "hu",
   "title": "Töltött patisszon recept darált húsos raguval | Street Kitchen",
   "ingredients": [
-    "1 db patisszon ( 1 kg/db )",
+    "1 db patisszon (1 kg/db)",
     "1 ek só",
     "1 ek sertészsír",
-    "1 fej vöröshagyma ( 120 g/fej )",
+    "1 fej vöröshagyma (120 g/fej)",
     "3 gerezd fokhagyma",
     "1 ek sűrített paradicsom",
     "500 g darált sertéshús",
@@ -23,6 +23,40 @@
     "1 gerezd fokhagyma",
     "só",
     "4 szál snidling"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 db patisszon (1 kg/db)",
+        "1 ek só"
+      ],
+      "purpose": "A patisszonhoz"
+    },
+    {
+      "ingredients": [
+        "1 ek sertészsír",
+        "1 fej vöröshagyma (120 g/fej)",
+        "3 gerezd fokhagyma",
+        "1 ek sűrített paradicsom",
+        "500 g darált sertéshús",
+        "2 ek daráltpaprika-krém",
+        "só, bors",
+        "1 mk őrölt kömény",
+        "1 tk őrölt fűszerpaprika",
+        "200 ml víz",
+        "150 g edami sajt"
+      ],
+      "purpose": "A raguhoz"
+    },
+    {
+      "ingredients": [
+        "175 g tejföl",
+        "1 gerezd fokhagyma",
+        "só",
+        "4 szál snidling"
+      ],
+      "purpose": "A tálaláshoz"
+    }
   ],
   "instructions_list": [
     "A töltött patisszon első lépéseként a patisszon belsejét egy kis késsel kifaragjuk. A kieső részt a héjától megszabadítva apró darabokra vágjuk, nekem 200 g jött ki belőle. A patisszont bő, sós, forrásban lévő vízbe tesszük és 20 percig főzzük, majd kivesszük a vízből és félretesszük.",
