@@ -68,6 +68,7 @@ from .archanaskitchen import ArchanasKitchen
 from .argiro import Argiro
 from .arla import Arla
 from .atelierdeschefs import AtelierDesChefs
+from .aubreyskitchen import AubreysKitchen
 from .averiecooks import AverieCooks
 from .bakels import Bakels
 from .bakerbynature import BakerByNature
@@ -561,6 +562,7 @@ SCRAPERS = {
     Argiro.host(): Argiro,
     Arla.host(): Arla,
     AtelierDesChefs.host(): AtelierDesChefs,
+    AubreysKitchen.host(): AubreysKitchen,
     AverieCooks.host(): AverieCooks,
     Bakels.host(): Bakels,
     Bakels.host(domain="co.uk"): Bakels,
