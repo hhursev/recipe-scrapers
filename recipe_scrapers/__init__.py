@@ -283,6 +283,7 @@ from .littlespicejar import LittleSpiceJar
 from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
 from .loveandlemons import LoveAndLemons
+from .lovefood import LoveFood
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madamecuisine import MadameCuisine
@@ -796,6 +797,7 @@ SCRAPERS = {
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LivelyTable.host(): LivelyTable,
     LoveAndLemons.host(): LoveAndLemons,
+    LoveFood.host(): LoveFood,
     Lovingitvegan.host(): Lovingitvegan,
     Maangchi.host(): Maangchi,
     MadameCuisine.host(): MadameCuisine,
