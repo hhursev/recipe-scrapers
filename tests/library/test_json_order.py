@@ -17,7 +17,13 @@ class TestJsonOrder(unittest.TestCase):
                     with open(os.path.join(root, filename), encoding="utf-8") as f:
                         data = json.load(f)
 
-                    filtered_data_keys = [key for key in correct_order if key in data]
+                    filtered_data_keys = [
+                        key
+                        for key in correct_order
+                        if key in data and key != "source_uri"
+                    ]
+                    if "source_uri" in data:
+                        filtered_data_keys.append("source_uri")
 
                     expected_keys = filtered_data_keys
                     actual_keys = list(data.keys())

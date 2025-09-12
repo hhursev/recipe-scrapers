@@ -18,7 +18,16 @@ def reorder_json_keys(file_path, *, quiet=False):
     with open(file_path, encoding="utf-8") as file:
         data = json.load(file)
 
-    reordered_data = {key: data[key] for key in KEYS if key in data}
+    reordered_data = {}
+    for key in KEYS:
+        if key in data and key != "source_uri":
+            reordered_data[key] = data[key]
+    for key in data:
+        if key not in reordered_data and key != "source_uri":
+            reordered_data[key] = data[key]
+    if "source_uri" in data:
+        reordered_data["source_uri"] = data["source_uri"]
+
     if list(data.keys()) != list(reordered_data.keys()) and not quiet:
         print(f"Re-ordering JSON keys for: {file_path}")
 
