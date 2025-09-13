@@ -360,8 +360,10 @@ class SchemaOrg:
             raise SchemaOrgException("No keywords data in SchemaOrg")
         if keywords:
             if isinstance(keywords, list):
+                keywords = [normalize_string(k) for k in keywords]
                 keywords = ", ".join(keywords)
-            keywords = normalize_string(keywords)
+            else:
+                keywords = normalize_string(keywords)
             keywords = csv_to_tags(keywords)
         return keywords
 
