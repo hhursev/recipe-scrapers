@@ -152,6 +152,7 @@ from .downshiftology import Downshiftology
 from .dr import Dr
 from .drizzleanddip import DrizzleAndDip
 from .eatingbirdfood import EatingBirdFood
+from .eatingonadime import EatingOnADime
 from .eatingwell import EatingWell
 from .eatliverun import EatLiveRun
 from .eatsmarter import Eatsmarter
@@ -652,6 +653,7 @@ SCRAPERS = {
     Dr.host(): Dr,
     DrizzleAndDip.host(): DrizzleAndDip,
     EatingBirdFood.host(): EatingBirdFood,
+    EatingOnADime.host(): EatingOnADime,
     EatingWell.host(): EatingWell,
     EatLiveRun.host(): EatLiveRun,
     Eatsmarter.host(): Eatsmarter,
