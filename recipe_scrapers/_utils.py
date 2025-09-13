@@ -257,7 +257,6 @@ def normalize_string(string: str) -> str:
         .replace("\n", " ")
         .replace("\t", " ")
         .replace("u0026#039;", "'")
-        .replace("u0026#039;", "'")
         .strip()
     )
 
