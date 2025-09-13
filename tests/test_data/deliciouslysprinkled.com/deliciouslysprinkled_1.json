@@ -25,6 +25,9 @@
   "cook_time": 120,
   "prep_time": 5,
   "cuisine": "American",
+  "equipment": [
+    "Crockpot"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "46 kcal",
