@@ -165,6 +165,7 @@ from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
 from .epicurious import Epicurious
 from .erinliveswhole import ErinLivesWhole
+from .erinscozykitchen import ErinsCozyKitchen
 from .errenskitchen import ErrensKitchen
 from .ethanchlebowski import EthanChlebowski
 from .everydaypie import EverydayPie
@@ -665,6 +666,7 @@ SCRAPERS = {
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Epicurious.host(): Epicurious,
     ErinLivesWhole.host(): ErinLivesWhole,
+    ErinsCozyKitchen.host(): ErinsCozyKitchen,
     ErrensKitchen.host(): ErrensKitchen,
     EthanChlebowski.host(): EthanChlebowski,
     EverydayPie.host(): EverydayPie,
