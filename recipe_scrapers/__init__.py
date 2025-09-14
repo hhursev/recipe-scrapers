@@ -61,6 +61,7 @@ from .alltommat import AlltOmMat
 from .altonbrown import AltonBrown
 from .amazingoriental import AmazingOriental
 from .amazingribs import AmazingRibs
+from .amberskitchencooks import AmbersKitchencooks
 from .ambitiouskitchen import AmbitiousKitchen
 from .ameessavorydish import AmeesSavoryDish
 from .americastestkitchen import AmericasTestKitchen
@@ -559,6 +560,7 @@ SCRAPERS = {
     AltonBrown.host(): AltonBrown,
     AmazingOriental.host(): AmazingOriental,
     AmazingRibs.host(): AmazingRibs,
+    AmbersKitchencooks.host(): AmbersKitchencooks,
     AmbitiousKitchen.host(): AmbitiousKitchen,
     AmeesSavoryDish.host(): AmeesSavoryDish,
     AmericasTestKitchen.host(): AmericasTestKitchen,
