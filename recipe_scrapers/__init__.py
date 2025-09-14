@@ -364,6 +364,7 @@ from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
 from .pickuplimes import PickUpLimes
 from .picnic import Picnic
+from .piesandplots import PiesAndPlots
 from .pilipinasrecipes import PilipinasRecipes
 from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
@@ -890,6 +891,7 @@ SCRAPERS = {
     PersnicketyPlates.host(): PersnicketyPlates,
     PickUpLimes.host(): PickUpLimes,
     Picnic.host(): Picnic,
+    PiesAndPlots.host(): PiesAndPlots,
     PilipinasRecipes.host(): PilipinasRecipes,
     PinchOfYum.host(): PinchOfYum,
     PingoDoce.host(): PingoDoce,
