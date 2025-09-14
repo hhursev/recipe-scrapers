@@ -525,6 +525,7 @@ from .wikicookbook import WikiCookbook
 from .williamssonoma import WilliamsSonoma
 from .womensweeklyfood import WomensWeeklyFood
 from .woop import Woop
+from .wyseguide import WyseGuide
 from .xiachufang import Xiachufang
 from .yemek import Yemek
 from .yummly import Yummly
@@ -1057,6 +1058,7 @@ SCRAPERS = {
     WilliamsSonoma.host(): WilliamsSonoma,
     WomensWeeklyFood.host(): WomensWeeklyFood,
     Woop.host(): Woop,
+    WyseGuide.host(): WyseGuide,
     Xiachufang.host(): Xiachufang,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
