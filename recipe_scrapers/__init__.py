@@ -421,6 +421,7 @@ from .simplywhisked import SimplyWhisked
 from .sipandfeast import SipAndFeast
 from .sizzlefish import SizzleFish
 from .skinnytaste import SkinnyTaste
+from .smalltownwoman import SmallTownWoman
 from .smulweb import Smulweb
 from .sobors import SoBors
 from .southerncastiron import SouthernCastIron
@@ -942,6 +943,7 @@ SCRAPERS = {
     SipAndFeast.host(): SipAndFeast,
     SizzleFish.host(): SizzleFish,
     SkinnyTaste.host(): SkinnyTaste,
+    SmallTownWoman.host(): SmallTownWoman,
     Smulweb.host(): Smulweb,
     SoBors.host(): SoBors,
     SouthernCastIron.host(): SouthernCastIron,

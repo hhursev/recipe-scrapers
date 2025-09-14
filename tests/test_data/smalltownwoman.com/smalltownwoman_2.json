@@ -1,0 +1,97 @@
+{
+  "author": "Beth Pierce",
+  "canonical_url": "https://www.smalltownwoman.com/banana-cream-pie/",
+  "site_name": "Small Town Woman",
+  "host": "smalltownwoman.com",
+  "language": "en-US",
+  "title": "Banana Cream Pie Recipe",
+  "ingredients": [
+    "1 ½ cups graham cracker crumbs (reserve 1 1/2 tablespoons)",
+    "6 tablespoons butter melted",
+    "⅓ cup sugar",
+    "2 bananas sliced",
+    "1 ¼ cups 2% milk",
+    "1 cup whipping cream",
+    "⅔ cup sugar",
+    "⅛ teaspoon salt",
+    "¼ cup cornstarch",
+    "4 large egg yolks (room temperature)",
+    "1 teaspoon vanilla extract",
+    "2 tablespoons unsalted butter",
+    "1 cup whipping cream",
+    "1 ½ tablespoons powdered sugar",
+    "½ teaspoon vanilla extract",
+    "bananas for garnish"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 ½ cups graham cracker crumbs (reserve 1 1/2 tablespoons)",
+        "6 tablespoons butter melted",
+        "⅓ cup sugar"
+      ],
+      "purpose": "Graham Cracker Crust"
+    },
+    {
+      "ingredients": [
+        "2 bananas sliced",
+        "1 ¼ cups 2% milk",
+        "1 cup whipping cream",
+        "⅔ cup sugar",
+        "⅛ teaspoon salt",
+        "¼ cup cornstarch",
+        "4 large egg yolks (room temperature)",
+        "1 teaspoon vanilla extract",
+        "2 tablespoons unsalted butter"
+      ],
+      "purpose": "Filling"
+    },
+    {
+      "ingredients": [
+        "1 cup whipping cream",
+        "1 ½ tablespoons powdered sugar",
+        "½ teaspoon vanilla extract",
+        "bananas for garnish"
+      ],
+      "purpose": "Whipped Topping"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350 degrees.",
+    "Mix the graham crackers, melted butter, and sugar. Press into a 9-inch pie dish and bake in the oven for 7 minutes. Cool on a wire rack. Once cooled, layer the bottom and sides with banana slices.",
+    "In a medium saucepan over medium heat, whisk together milk, cream, sugar, salt, and cornstarch. Whisk until the sugar dissolves and the mixture bubbles. Cook for 2 minutes, stirring constantly.",
+    "In a medium bowl, whisk the egg yolks together. Remove 1/2 cup of the hot mixture and whisk it into the egg yolk mixture slowly. In a very slow stream, whisk the egg mixture into the saucepan, cooking until bubbling. Cook for 2 minutes, whisking constantly. It should be fairly thick and leave a whisk trail as you drag the whisk through it. It would also pile slightly when poured, as in the picture of the pudding added to the pie crust.",
+    "Remove from the heat and whisk in the vanilla and butter. Cool for 15 minutes whisking several times so a skin does not form. Pour the pudding into the crust over the bananas. Cover with plastic wrap and refrigerate for at least 4 hours.",
+    "Chill bowl and beaters in the freezer for 20 minutes. Add whipping cream, powdered sugar, and vanilla to the bowl. Beat on low until the mixture starts to increase in volume. Turn to medium-high and beat until stiff peaks form. Spread or pipe over chilled pie. Garnish with banana slices and reserved graham cracker crumbs."
+  ],
+  "category": "Dessert",
+  "yields": "8 servings",
+  "description": "A scrumptious and easy fresh Banana Cream Pie Recipe with a homemade banana pudding, graham cracker crust and a fresh whipped topping. This is one of our favorite pies and a banana lovers' dream come true.",
+  "total_time": 35,
+  "cook_time": 20,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 4.97,
+  "ratings_count": 85,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "565 kcal",
+    "fatContent": "37 g",
+    "saturatedFatContent": "22 g",
+    "unsaturatedFatContent": "12 g",
+    "transFatContent": "0.5 g",
+    "carbohydrateContent": "52 g",
+    "sugarContent": "37 g",
+    "proteinContent": "7 g",
+    "sodiumContent": "274 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "182 mg"
+  },
+  "image": "https://www.smalltownwoman.com/wp-content/uploads/2021/02/Banana-Cream-Pie-Recipe-Card.jpg",
+  "keywords": [
+    "banana cream pie recipe",
+    "easy banana cream pie recipe",
+    "how to make a banana cream pie",
+    "how to make banana cream pie"
+  ]
+}
