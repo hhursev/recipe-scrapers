@@ -234,7 +234,9 @@ class SchemaOrg:
         cleaned_nutrients = {}
 
         for key, val in nutrients.items():
-            if not key or key.startswith("@") or not val:
+            if not key or not val:
+                continue
+            if key.startswith("@") or key == "type":
                 continue
 
             cleaned_nutrients[key] = str(val)
