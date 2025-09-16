@@ -1,11 +1,10 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 
 
-class FarmhouseOnBoone(AbstractScraper):
+class EatingOnADime(AbstractScraper):
     @classmethod
     def host(cls):
-        return "farmhouseonboone.com"
+        return "eatingonadime.com"
 
     def equipment(self):
         return list(
@@ -16,12 +15,4 @@ class FarmhouseOnBoone(AbstractScraper):
                 )
                 if equip.find("a") and equip.find("a").get_text()
             )
-        )
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group .wprm-recipe-group-name",
-            ".wprm-recipe-ingredient",
         )
