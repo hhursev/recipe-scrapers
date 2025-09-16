@@ -125,7 +125,9 @@ class SchemaOrg:
     def category(self):
         category = self.data.get("recipeCategory")
         if isinstance(category, list):
-            return ",".join(category)
+            return ",".join([normalize_string(c) for c in category])
+        if category is not None:
+            return normalize_string(category)
         return category
 
     def author(self):
