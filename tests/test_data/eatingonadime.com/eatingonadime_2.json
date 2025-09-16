@@ -1,0 +1,77 @@
+{
+  "author": "Carrie Barnard",
+  "canonical_url": "https://www.eatingonadime.com/cottage-cheese-cheesecake/",
+  "site_name": "Eating on a Dime",
+  "host": "eatingonadime.com",
+  "language": "en-US",
+  "title": "Cottage Cheese Cheesecake",
+  "ingredients": [
+    "1 Cup Almond Flour",
+    "2 Tablespoons Butter (melted)",
+    "2 Tablespoons Monk Fruit Sweetener",
+    "1 Cup Cottage Cheese",
+    "1/4 Cup Sour Cream",
+    "1/4 Cup Cream Cheese",
+    "4 Tablespoons Monk Fruit Sweetener",
+    "2 Eggs (room temperature)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 Cup Almond Flour",
+        "2 Tablespoons Butter (melted)",
+        "2 Tablespoons Monk Fruit Sweetener"
+      ],
+      "purpose": "For the Crust:"
+    },
+    {
+      "ingredients": [
+        "1 Cup Cottage Cheese",
+        "1/4 Cup Sour Cream",
+        "1/4 Cup Cream Cheese",
+        "4 Tablespoons Monk Fruit Sweetener",
+        "2 Eggs (room temperature)"
+      ],
+      "purpose": "For the Filling:"
+    }
+  ],
+  "instructions_list": [
+    "Preheat Oven to 350 degrees F. Prepare a 6\" Springform Pan with non-stick cooking spray.",
+    "Stir together all of the crust ingredients in a mixing bowl until well combined.",
+    "Press into the bottom of the pan and bake for 8 minutes or until golden brown.",
+    "While the crust cools, make the cheesecake filling.",
+    "Combine the cottage cheese, sour cream, cheesecake and monk fruit sweetener in a blender or food processor.",
+    "Once combined and smooth, add the eggs and combine.",
+    "Pour the mixture on the cooled crust.",
+    "Bake for 25-30 minutes until set but still slightly jiggly.",
+    "Refrigerate for 2 hours.",
+    "Carefully remove the cheesecake from the spring form pan and serve topped with berries and whipped cream. Enjoy!"
+  ],
+  "category": "Dessert",
+  "yields": "8 servings",
+  "description": "Make this Cottage Cheese Cheesecake for a twist on a classic cheesecake recipe. This will become your new favorite high-protein dessert!",
+  "total_time": 175,
+  "cook_time": 35,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "185 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "5 g",
+    "unsaturatedFatContent": "3 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "14 g",
+    "sugarContent": "2 g",
+    "proteinContent": "8 g",
+    "sodiumContent": "145 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "64 mg"
+  },
+  "image": "https://www.eatingonadime.com/wp-content/uploads/2025/04/1200-x-1800-Cottage-Cheese-Cheesecake-Eating-on-a-Dime-10-of-11-1.jpg",
+  "keywords": [
+    "Cottage Cheese Cheesecake"
+  ]
+}
