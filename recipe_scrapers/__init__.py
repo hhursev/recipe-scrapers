@@ -295,6 +295,7 @@ from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
 from .lmld import Lmld
 from .loveandlemons import LoveAndLemons
+from .lovefood import LoveFood
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madamecuisine import MadameCuisine
@@ -827,6 +828,7 @@ SCRAPERS = {
     LivelyTable.host(): LivelyTable,
     Lmld.host(): Lmld,
     LoveAndLemons.host(): LoveAndLemons,
+    LoveFood.host(): LoveFood,
     Lovingitvegan.host(): Lovingitvegan,
     Maangchi.host(): Maangchi,
     MadameCuisine.host(): MadameCuisine,
