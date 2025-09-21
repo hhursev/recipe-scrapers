@@ -1,0 +1,89 @@
+{
+  "author": "Sara Wells",
+  "canonical_url": "https://ourbestbites.com/spicy-honey-chicken/",
+  "site_name": "Our Best Bites",
+  "host": "ourbestbites.com",
+  "language": "en-US",
+  "title": "Spicy Honey Chicken",
+  "ingredients": [
+    "8 chicken thighs, boneless, skinless (about 2 pounds)",
+    "2 teaspoons vegetable oil",
+    "2 teaspoons granulated garlic",
+    "2 teaspoons chili powder",
+    "½ teaspoon onion powder",
+    "½ teaspoon coriander",
+    "1 teaspoon kosher salt",
+    "1 teaspoon cumin",
+    "½ teaspoon chipotle chili powder",
+    "½ cup honey",
+    "1 tablespoon cider vinegar"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "8 chicken thighs, boneless, skinless (about 2 pounds)",
+        "2 teaspoons vegetable oil"
+      ],
+      "purpose": "Thighs"
+    },
+    {
+      "ingredients": [
+        "2 teaspoons granulated garlic",
+        "2 teaspoons chili powder",
+        "½ teaspoon onion powder",
+        "½ teaspoon coriander",
+        "1 teaspoon kosher salt",
+        "1 teaspoon cumin",
+        "½ teaspoon chipotle chili powder"
+      ],
+      "purpose": "Rub"
+    },
+    {
+      "ingredients": [
+        "½ cup honey",
+        "1 tablespoon cider vinegar"
+      ],
+      "purpose": "Glaze"
+    }
+  ],
+  "instructions_list": [
+    "Rub",
+    "Combine the rub spices in bowl and mix well.",
+    "Grill",
+    "Use kitchen shears (or a pair of clean scissors) to trim off any excess fat from the chicken pieces. Pat dry. Drizzle oil over chicken and rub in with your hands to lightly coat all the pieces. Then toss chicken with the spice rub to coat all sides well. Grill chicken for 3-5 minutes on each side, until cooked through. Using a digital thermometer, cook chicken until it is a minimum temperature of 165°. However, you’ll want to aim for between 170-175° for improved flavor and texture.",
+    "Glaze",
+    "While chicken is cooking, warm honey in the microwave so it’s not so thick. Add the vinegar and combine well. Reserve 2 tablespoons honey glaze for later. Take the rest and brush on chicken (both sides) in the final moments of grilling.",
+    "Drizzle chicken with reserved glaze before serving."
+  ],
+  "category": "Main Courses",
+  "yields": "6 servings",
+  "description": "The best chicken thighs! This recipe combines a savory spice rub with a sweet honey glaze for a crowd-pleasing favorite.",
+  "total_time": 25,
+  "cook_time": 15,
+  "prep_time": 10,
+  "cuisine": "BBQ",
+  "ratings": 5.0,
+  "ratings_count": 85,
+  "equipment": [
+    "Baking Sheet",
+    "Silicon Basting Brush"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "108 kcal",
+    "fatContent": "2 g",
+    "saturatedFatContent": "0.3 g",
+    "unsaturatedFatContent": "1.4 g",
+    "transFatContent": "0.01 g",
+    "carbohydrateContent": "25 g",
+    "sugarContent": "23 g",
+    "proteinContent": "0.5 g",
+    "sodiumContent": "404 mg",
+    "fiberContent": "1 g"
+  },
+  "image": "https://ourbestbites.com/wp-content/uploads/2008/06/Screen-Shot-2019-05-22-at-12.13.59-PM-2.jpg",
+  "keywords": [
+    "Chicken Thighs",
+    "Spicy Honey Chicken"
+  ]
+}

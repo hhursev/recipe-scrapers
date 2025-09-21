@@ -1,0 +1,78 @@
+{
+  "author": "Amy Flanigan",
+  "canonical_url": "https://bellyfull.net/grilled-steak-salad-with-tzatziki-sauce/",
+  "site_name": "Belly Full",
+  "host": "bellyfull.net",
+  "language": "en-US",
+  "title": "Grilled Steak Salad with Tzatziki Sauce",
+  "ingredients": [
+    "1 pound sirloin steak",
+    "1/2 cup cherry tomatoes (, halved)",
+    "1 head Romaine lettuce (, chopped (about 6 cups)",
+    "1 teaspoon Dijon mustard",
+    "2 cloves garlic (, minced)",
+    "1/2 teaspoon dried Italian seasoning",
+    "1/8 teaspoon kosher salt",
+    "pinch of pepper",
+    "1/4 cup red wine vinegar",
+    "3 tablespoons extra-virgin olive oil",
+    "Tzatziki Sauce"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 pound sirloin steak",
+        "1/2 cup cherry tomatoes (, halved)",
+        "1 head Romaine lettuce (, chopped (about 6 cups)"
+      ],
+      "purpose": "For the Salad"
+    },
+    {
+      "ingredients": [
+        "1 teaspoon Dijon mustard",
+        "2 cloves garlic (, minced)",
+        "1/2 teaspoon dried Italian seasoning",
+        "1/8 teaspoon kosher salt",
+        "pinch of pepper",
+        "1/4 cup red wine vinegar",
+        "3 tablespoons extra-virgin olive oil"
+      ],
+      "purpose": "For the Marinade"
+    },
+    {
+      "ingredients": [
+        "Tzatziki Sauce"
+      ],
+      "purpose": "Homemade Tzatziki Sauce"
+    }
+  ],
+  "instructions_list": [
+    "Preheat an outdoor grill to medium-high.",
+    "In a medium bowl, whisk together all the the ingredients for the marinade, except the olive oil. Then slowly stream in the olive oil to emulsify. Add the steak; toss to coat and let marinate for 15 minutes.",
+    "Lightly oil the grill grates. Remove steak from the marinade and pat dry. Place on grill and cook for 4 minutes per side for medium-rare (an internal temperature of 135 degrees F.) Transfer to a cutting board and let rest for 5 minutes. Slice thinly across the grain.",
+    "Divide the lettuce and tomatoes among plates; drizzle with any juices that accumulated from the cutting board, and top with the steak and Tzatziki Sauce. Serve and enjoy!"
+  ],
+  "category": "Salad",
+  "yields": "4 servings",
+  "description": "Grilled Steak Salad with Tzatziki Sauce - tender marinated steak is served on top of salad with a light and refreshing yogurt sauce for an easy, low-calorie meal!",
+  "total_time": 28,
+  "cook_time": 8,
+  "prep_time": 20,
+  "cuisine": "American",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "282 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "3 g",
+    "carbohydrateContent": "7 g",
+    "sugarContent": "2 g",
+    "proteinContent": "27 g",
+    "sodiumContent": "168 mg",
+    "fiberContent": "4 g",
+    "cholesterolContent": "69 mg"
+  },
+  "image": "https://bellyfull.net/wp-content/uploads/2017/08/Grilled-Steak-Salad-with-Tzatziki-blog.jpg",
+  "keywords": [
+    "steak recipe"
+  ]
+}
