@@ -245,9 +245,7 @@ def normalize_string(string):
     unescaped_string = html.unescape(string)
     # Remove HTML tags
     no_html_string = re.sub("<[^>]*>", "", unescaped_string)
-    return re.sub(
-        r"\s+",
-        " ",
+    cleaned = (
         no_html_string.replace("\xc2\xa0", " ")
         .replace("\xa0", " ")
         .replace("\u200b", "")
@@ -255,8 +253,12 @@ def normalize_string(string):
         .replace("\n", " ")  # &nbsp;
         .replace("\t", " ")
         .replace("u0026#039;", "'")
-        .strip(),
     )
+    # Only replace '((' and '))' if both are present in the string
+    if "((" in cleaned and "))" in cleaned:
+        cleaned = cleaned.replace("((", "(").replace("))", ")")
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned.strip()
 
 
 def csv_to_tags(csv, lowercase=False):

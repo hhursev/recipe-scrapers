@@ -224,9 +224,7 @@ class SchemaOrg:
             ingredients = [ingredients]
 
         return [
-            normalize_string(ingredient).replace("((", "(").replace("))", ")")
-            for ingredient in ingredients
-            if ingredient
+            normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
 
     def nutrients(self):
