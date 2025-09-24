@@ -1,10 +1,10 @@
 {
-  "author": "Eisler Zsolt",
-  "canonical_url": "https://streetkitchen.hu/olcso-receptek/olcso-ebedek/toltott-patisszon/",
+  "author": "Eisler Zsolti",
+  "canonical_url": "https://streetkitchen.hu/receptek/toltott-patisszon",
   "site_name": "Street Kitchen",
   "host": "streetkitchen.hu",
   "language": "hu",
-  "title": "Töltött patisszon",
+  "title": "Töltött patisszon recept darált húsos raguval | Street Kitchen",
   "ingredients": [
     "1 db patisszon (1 kg/db)",
     "1 ek só",
@@ -64,15 +64,13 @@
     "Az előfőzött patisszon belsejét megsózzuk – óvatosan, mert sós vízben főztük –, belepakoljuk a ragut, a tetejét megszórjuk a reszelt sajttal és betesszük légkeverésen a 180 fokra előmelegített sütőbe kb. 15 percre. Az idő leteltével feltesszük 200 fokra a hőfokot és grillfokozaton 5 perc alatt rápirítunk.",
     "Tálaláshoz a tejfölben elkeverjük a zúzott fokhagymát, sózzuk és a sült patisszonnal tálaljuk, amit még megszórunk a frissen aprított snidlinggel."
   ],
-  "category": "Olcsó ebédek",
+  "category": "Street Kitchen, Receptek, Nyári receptek, Sertéshúsos ételek, Olcsó ételek és receptek, Friss, Olcsó ebédek, Darált sertéshús receptek",
   "yields": "4 servings",
-  "description": "Ha már unod a rántott patisszont, akkor most íme egy töltött verzió. És van egy jó hírem. Itt még csak a pucolással – ami a patisszonban az egyik legbosszantóbb – sem kell bíbelődnöd.",
+  "description": "Ha már unod a rántott verziót, akkor most íme, itt van a töltött patisszon! Ráadásul ennél a receptnél a pucolással sem kell bíbelődnöd.",
   "total_time": 80,
-  "cook_time": 20,
-  "prep_time": 60,
-  "image": "https://static.streetkitchen.hu/live/uploads/2024/07/toltott-patisszon-3-1618x855.jpg",
+  "cook_time": 60,
+  "image": "https://azureskproductionfs.blob.core.windows.net/azureskproduction/toltott-patisszon-3-scaled-2GDje-.webp",
   "keywords": [
-    "patisszon",
-    "töltött"
+    "Töltött patisszon"
   ]
 }
