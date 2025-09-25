@@ -1,9 +1,10 @@
 {
   "author": "Picnic",
   "canonical_url": "https://picnic.app/nl/recepten/6792675902800f45c8f6b9d8/rode-curry-met-kabeljauw-en-boontjes",
-  "description": "Simpel, snel en supersmaakvol! Ideaal voor doordeweeks.",
+  "site_name": "Picnic",
   "host": "picnic.app",
-  "image": "https://storefront-prod.nl.picnicinternational.com/static/images/recipes/37f239e4b2075d6bf35c569cab1f8d9d66d48a6675a6a175ef83f845bf84337c/filled-600x600.webp",
+  "language": "nl",
+  "title": "Rode curry met kabeljauw en boontjes",
   "ingredients": [
     "1 stuk rode paprika",
     "4 stuks tomaten",
@@ -33,8 +34,8 @@
     "Verdeel de rijst over diepe borden en schep de curry hier op. Leg de kabeljauw in de curry en garneer met een partje limoen.",
     "Garneer de curry eventueel met koriander. Ook lekker met garnalen in plaats van kabeljauw."
   ],
-  "site_name": "Picnic",
-  "title": "Rode curry met kabeljauw en boontjes",
+  "yields": "4 servings",
+  "description": "Simpel, snel en supersmaakvol! Ideaal voor doordeweeks.",
   "total_time": 20,
-  "yields": "4 servings"
+  "image": "https://storefront-prod.nl.picnicinternational.com/static/images/recipes/37f239e4b2075d6bf35c569cab1f8d9d66d48a6675a6a175ef83f845bf84337c/filled-600x600.webp"
 }

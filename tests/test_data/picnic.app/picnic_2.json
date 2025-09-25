@@ -1,9 +1,10 @@
 {
   "author": "Picnic",
   "canonical_url": "https://picnic.app/de/rezepte/67b5f0907307ef5f89145e4e/kritharaki-suppe-mit-fleischbllchen-und-zitrone",
-  "description": "Die saftigen Fleischbällchen harmonieren perfekt mit der fruchtigen Zitrone.",
+  "site_name": "Picnic",
   "host": "picnic.app",
-  "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/033376ba5b61787c3953d50e0240f388dc3904700f7530db63ac824e1c5291a8/filled-600x600.webp",
+  "language": "de",
+  "title": "Kritharaki-Suppe mit Fleischbällchen und Zitrone",
   "ingredients": [
     "275 g Kritharaki",
     "1 Stk. Fenchel",
@@ -29,9 +30,9 @@
     "Erbsen und Fleischbällchen zur Suppe hinzufügen und etwa weitere **5 Min.** kochen lassen. Zum Schluss Orzo unter die Suppe rühren und mit **Salz**, **Pfeffer** und Zitronensaft abschmecken. Die Suppe mit einer Zitronenscheibe garnieren.",
     "Extra cremig mit einem Löffel Crème fraîche. Zum Schluss zusammen mit den Orzo in die Suppe einrühren oder mit gewürfelter Zucchini noch mehr Gemüse hinzufügen. Die Suppe mit Parmesanflocken garnieren."
   ],
-  "prep_time": 25,
-  "site_name": "Picnic",
-  "title": "Kritharaki-Suppe mit Fleischbällchen und Zitrone",
+  "yields": "4 servings",
+  "description": "Die saftigen Fleischbällchen harmonieren perfekt mit der fruchtigen Zitrone.",
   "total_time": 25,
-  "yields": "4 servings"
+  "prep_time": 25,
+  "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/033376ba5b61787c3953d50e0240f388dc3904700f7530db63ac824e1c5291a8/filled-600x600.webp"
 }

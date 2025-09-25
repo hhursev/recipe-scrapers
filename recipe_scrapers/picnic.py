@@ -10,10 +10,12 @@ class Picnic(AbstractScraper):
         self.recipe_data = None
         script_tag = self.soup.find("script", string=re.compile(r'\{\\"recipe\\":\{\\"id\\"'))
 
-        if recipe_data := re.search(r'({\\"recipe\\":{.*locale.*?})', script_tag.string):
-            recipe_match = recipe_data.group(1).encode("utf-8").decode("unicode_escape")
+        if script_tag is None:
+            return
+        if html_recipe_data := re.search(r'({\\"recipe\\":{.*locale.*?})', script_tag.string):
+            recipe_match = html_recipe_data.group(1).encode("utf-8").decode("unicode_escape")
             fixed_recipe = recipe_match.encode("latin1").decode("utf-8")  # Fix for encoding issues
-            self.recipe_data = json.loads(fixed_recipe)["recipe"]
+            self.recipe_data = json.loads(fixed_recipe)
 
     @classmethod
     def host(cls):
@@ -22,7 +24,7 @@ class Picnic(AbstractScraper):
     def instructions(self):
         new_instructions = []
 
-        recipe_data = self.recipe_data
+        recipe_data = self.recipe_data["recipe"]
         if recipe_data is None:
             return None
 
@@ -35,7 +37,7 @@ class Picnic(AbstractScraper):
     def ingredients(self):
         new_ingredients = []
 
-        recipe_data = self.recipe_data
+        recipe_data = self.recipe_data["recipe"]
         if recipe_data is None:
             return None
 
@@ -55,22 +57,22 @@ class Picnic(AbstractScraper):
         return "Picnic"
 
     def title(self):
-        if recipe_data := self.recipe_data:
+        if recipe_data := self.recipe_data["recipe"]:
             return recipe_data["name"]
         return None
 
     def description(self):
-        if recipe_data := self.recipe_data:
+        if recipe_data := self.recipe_data["recipe"]:
             return recipe_data["description"]
         return None
 
     def total_time(self):
-        if recipe_data := self.recipe_data:
+        if recipe_data := self.recipe_data["recipe"]:
             return recipe_data["preparationTimeInMinutes"]
         return None
 
     def prep_time(self):
-        if recipe_data := self.recipe_data:
+        if recipe_data := self.recipe_data["recipe"]:
             return recipe_data["activePreparationTimeInMinutes"]
         return None
 

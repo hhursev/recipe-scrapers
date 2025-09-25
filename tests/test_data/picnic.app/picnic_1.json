@@ -1,31 +1,10 @@
 {
   "author": "Picnic",
   "canonical_url": "https://picnic.app/de/rezepte/66ebf8dea958575e050c782d/udon-nudeln-bowl-mit-pak-choi",
-  "description": "Mit frischen Frühlingszwiebeln, Ingwer und Limette",
+  "site_name": "Picnic",
   "host": "picnic.app",
-  "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/a14574daa444d4e3d214f9f4f70abf1160a5ed7d761ece01924776084e0c5dbd/filled-600x600.webp",
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "3 Stk. Pak Choi",
-        "0.5 Bund Frühlingszwiebeln",
-        "Ingwer gemahlen",
-        "1 Stk. Limette",
-        "1 Glas Mungobohnenkeimlinge",
-        "2 Pck. Veganes Hack",
-        "3 Pck. Udon Nudeln",
-        "4 EL Tahin",
-        "5 EL Sojasoße",
-        "1 TL Rohrzucker",
-        "Sriracha",
-        "Sesam",
-        "Ei",
-        "1 Zehe Knoblauch",
-        "2 EL Sonnenblumenöl"
-      ],
-      "purpose": null
-    }
-  ],
+  "language": "de",
+  "title": "Udon Nudeln-Bowl mit Pak Choi",
   "ingredients": [
     "3 Stk. Pak Choi",
     "0.5 Bund Frühlingszwiebeln",
@@ -52,9 +31,9 @@
     "In einer Schüssel gegarte Udon mit Dressing vermengen. Auf Bowls verteilen und jeweils mit gegartem Pak Choi, veganem Hack, Mungobohnen und etwas Frühlingszwiebeln belegen.",
     "Wenn du möchtest, kannst du deine Nudeln mit etwas Sesam und einem Spiegelei toppen. Wer es etwas mehr spicy mag, kann 2 EL Sriracha mit in das Dressing mengen."
   ],
-  "prep_time": 25,
-  "site_name": "Picnic",
-  "title": "Udon Nudeln-Bowl mit Pak Choi",
+  "yields": "4 servings",
+  "description": "Mit frischen Frühlingszwiebeln, Ingwer und Limette",
   "total_time": 25,
-  "yields": "4 servings"
+  "prep_time": 25,
+  "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/a14574daa444d4e3d214f9f4f70abf1160a5ed7d761ece01924776084e0c5dbd/filled-600x600.webp"
 }
