@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
+from ._exceptions import FieldNotProvidedByWebsiteException
 import re
 import json
 
@@ -8,6 +9,7 @@ class Picnic(AbstractScraper):
     def __init__(self, html: str, url: str):
         super().__init__(html, url)
         self.recipe_data = None
+        self._recipe = None
         script_tag = self.soup.find(
             "script", string=re.compile(r'\{\\"recipe\\":\{\\"id\\"')
         )
@@ -21,6 +23,7 @@ class Picnic(AbstractScraper):
             # Fix for encoding issues
             fixed_recipe = recipe_parseable.encode("latin1").decode("utf-8")
             self.recipe_data = json.loads(fixed_recipe)
+            self._recipe = self.recipe_data.get("recipe")
 
     @classmethod
     def host(cls):
@@ -29,7 +32,7 @@ class Picnic(AbstractScraper):
     def instructions(self):
         new_instructions = []
 
-        recipe_data = self.recipe_data["recipe"]
+        recipe_data = self._recipe
         if recipe_data is None:
             return None
 
@@ -42,7 +45,7 @@ class Picnic(AbstractScraper):
     def ingredients(self):
         new_ingredients = []
 
-        recipe_data = self.recipe_data["recipe"]
+        recipe_data = self._recipe
         if recipe_data is None:
             return None
 
@@ -62,28 +65,27 @@ class Picnic(AbstractScraper):
         return "Picnic"
 
     def title(self):
-        if recipe_data := self.recipe_data["recipe"]:
-            return recipe_data["name"]
+        if self._recipe:
+            return self._recipe.get("name")
         return None
 
     def description(self):
-        if recipe_data := self.recipe_data["recipe"]:
-            return recipe_data["description"]
+        if self._recipe:
+            return self._recipe.get("description")
         return None
 
     def total_time(self):
-        if recipe_data := self.recipe_data["recipe"]:
-            return recipe_data["preparationTimeInMinutes"]
+        if self._recipe:
+            return self._recipe.get("preparationTimeInMinutes")
         return None
 
     def prep_time(self):
-        if recipe_data := self.recipe_data["recipe"]:
-            return recipe_data["activePreparationTimeInMinutes"]
+        if self._recipe:
+            return self._recipe.get("activePreparationTimeInMinutes")
         return None
 
     def yields(self):
-        # not specified on the website, app seems to default to four servings with the same ingredients
-        return "4 servings"
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def language(self):
         if recipe_data := self.recipe_data:
