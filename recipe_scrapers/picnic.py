@@ -8,13 +8,18 @@ class Picnic(AbstractScraper):
     def __init__(self, html: str, url: str):
         super().__init__(html, url)
         self.recipe_data = None
-        script_tag = self.soup.find("script", string=re.compile(r'\{\\"recipe\\":\{\\"id\\"'))
+        script_tag = self.soup.find(
+            "script", string=re.compile(r'\{\\"recipe\\":\{\\"id\\"')
+        )
 
         if script_tag is None:
             return
-        if html_recipe_data := re.search(r'({\\"recipe\\":{.*locale.*?})', script_tag.string):
-            recipe_match = html_recipe_data.group(1).encode("utf-8").decode("unicode_escape")
-            fixed_recipe = recipe_match.encode("latin1").decode("utf-8")  # Fix for encoding issues
+        recipe_regex = r'({\\"recipe\\":{.*locale.*?})'
+        if html_recipe_data := re.search(recipe_regex, script_tag.string):
+            recipe_match = html_recipe_data.group(1)
+            recipe_parseable = recipe_match.encode("utf-8").decode("unicode_escape")
+            # Fix for encoding issues
+            fixed_recipe = recipe_parseable.encode("latin1").decode("utf-8")
             self.recipe_data = json.loads(fixed_recipe)
 
     @classmethod
