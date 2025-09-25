@@ -14,7 +14,7 @@ class Picnic(AbstractScraper):
             "script", string=re.compile(r'\{\\"recipe\\":\{\\"id\\"')
         )
 
-        if script_tag is None:
+        if script_tag is None or script_tag.string is None:
             return
         recipe_regex = r'({\\"recipe\\":{.*locale.*?})'
         if html_recipe_data := re.search(recipe_regex, script_tag.string):
