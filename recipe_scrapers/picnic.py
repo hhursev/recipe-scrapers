@@ -32,11 +32,10 @@ class Picnic(AbstractScraper):
     def instructions(self):
         new_instructions = []
 
-        recipe_data = self._recipe
-        if recipe_data is None:
+        if self._recipe is None:
             return None
 
-        for instruction in recipe_data["preparationInstructions"]:
+        for instruction in self._recipe["preparationInstructions"]:
             new_instructions.append(instruction["body"])
         return "\n".join(
             normalize_string(instruction) for instruction in new_instructions
@@ -45,11 +44,10 @@ class Picnic(AbstractScraper):
     def ingredients(self):
         new_ingredients = []
 
-        recipe_data = self._recipe
-        if recipe_data is None:
+        if self._recipe is None:
             return None
 
-        for ingredient in recipe_data["ingredients"]:
+        for ingredient in self._recipe["ingredients"]:
             qty = ingredient["displayIngredientQuantity"]
             unit = ingredient["displayUnitOfMeasurement"]
             name = ingredient["name"]
