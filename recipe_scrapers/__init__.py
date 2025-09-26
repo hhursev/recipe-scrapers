@@ -422,6 +422,7 @@ from .scrummylane import ScrummyLane
 from .seriouseats import SeriousEats
 from .shelikesfood import SheLikesFood
 from .simplegreensmoothies import SimpleGreenSmoothies
+from .simplehomeedit import SimpleHomeEdit
 from .simpleveganista import SimpleVeganista
 from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
@@ -955,6 +956,7 @@ SCRAPERS = {
     SeriousEats.host(): SeriousEats,
     SheLikesFood.host(): SheLikesFood,
     SimpleGreenSmoothies.host(): SimpleGreenSmoothies,
+    SimpleHomeEdit.host(): SimpleHomeEdit,
     SimpleVeganista.host(): SimpleVeganista,
     SimplyCookit.host(): SimplyCookit,
     SimplyQuinoa.host(): SimplyQuinoa,
