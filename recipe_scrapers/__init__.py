@@ -43,6 +43,7 @@ from .acouplecooks import ACoupleCooks
 from .acozykitchen import ACozyKitchen
 from .addapinch import AddAPinch
 from .adozensundays import ADozenSundays
+from .adrianasbestrecipes import AdrianasBestRecipes
 from .afarmgirlsdabbles import AFarmGirlsDabbles
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .aflavorjournal import AFlavorJournal
@@ -544,6 +545,7 @@ SCRAPERS = {
     ACozyKitchen.host(): ACozyKitchen,
     AddAPinch.host(): AddAPinch,
     ADozenSundays.host(): ADozenSundays,
+    AdrianasBestRecipes.host(): AdrianasBestRecipes,
     AFarmGirlsDabbles.host(): AFarmGirlsDabbles,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AFlavorJournal.host(): AFlavorJournal,
