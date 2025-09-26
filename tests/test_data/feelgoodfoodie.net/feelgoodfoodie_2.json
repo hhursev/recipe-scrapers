@@ -1,0 +1,86 @@
+{
+  "author": "Yumna Jawad",
+  "canonical_url": "https://feelgoodfoodie.net/recipe/ground-beef-tacos-napa-cabbage-guacamole/",
+  "site_name": "Feel Good Foodie",
+  "host": "feelgoodfoodie.net",
+  "language": "en-US",
+  "title": "Ground Beef Tacos",
+  "ingredients": [
+    "1 tablespoon olive oil",
+    "1 pound lean ground beef",
+    "2 teaspoons chili powder",
+    "2 teaspoons cumin",
+    "½ teaspoon oregano",
+    "½ teaspoon garlic powder",
+    "½ teaspoon salt",
+    "½ teaspoon black pepper",
+    "2 tablespoons tomato paste",
+    "½ cup water",
+    "8 Corn or flour tortillas",
+    "Lettuce (finely chopped)",
+    "Shredded Mexican cheese blend or cheddar cheese",
+    "Tomatoes (chopped)",
+    "Red onions (chopped)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "1 pound lean ground beef",
+        "2 teaspoons chili powder",
+        "2 teaspoons cumin",
+        "½ teaspoon oregano",
+        "½ teaspoon garlic powder",
+        "½ teaspoon salt",
+        "½ teaspoon black pepper",
+        "2 tablespoons tomato paste",
+        "½ cup water"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "8 Corn or flour tortillas",
+        "Lettuce (finely chopped)",
+        "Shredded Mexican cheese blend or cheddar cheese",
+        "Tomatoes (chopped)",
+        "Red onions (chopped)"
+      ],
+      "purpose": "For serving the tacos"
+    }
+  ],
+  "instructions_list": [
+    "Heat the olive oil in skillet over medium high heat. Add the ground beef and cook until browned, about 5-7 minutes. Drain any fat.",
+    "Add the chili powder, cumin, dried oregano, garlic powder, salt, pepper, tomato paste and water. Stir to combine and continue cooking over medium-low heat until the sauce has thickened, about 3-5 minutes",
+    "Serve warm over tortillas with lettuce, tomatoes, cheese and red onions, or your other desired toppings."
+  ],
+  "category": "Main Course",
+  "yields": "8 servings",
+  "description": "These Ground Beef Tacos are filled with juicy flavorful taco meat made with my homemade taco seasoning - it's an easy weeknight recipe for the whole family!",
+  "total_time": 25,
+  "cook_time": 10,
+  "prep_time": 15,
+  "cuisine": "Mexican",
+  "ratings": 5.0,
+  "ratings_count": 2211,
+  "equipment": [
+    "Anodized Nonstick Cookware"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "142 kcal",
+    "fatContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "carbohydrateContent": "13 g",
+    "sugarContent": "1 g",
+    "proteinContent": "14 g",
+    "sodiumContent": "236 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "35 mg"
+  },
+  "image": "https://feelgoodfoodie.net/wp-content/uploads/2024/04/Ground-Beef-Tacos-TIMG.jpg",
+  "keywords": [
+    "Beef Tacos",
+    "Mexican Tacos"
+  ]
+}
