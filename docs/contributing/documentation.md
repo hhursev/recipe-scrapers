@@ -12,9 +12,9 @@ git checkout -b docs/your-feature-name
 
 !!! example "Local Development"
     1. From the project root directory, start the MkDocs development server:
-       ```sh
+   ```sh
        mkdocs serve
-       ```
+   ```
     2. Open your browser and navigate to `http://127.0.0.1:8000`
 
 The preview will automatically update as you make changes to the documentation files.
