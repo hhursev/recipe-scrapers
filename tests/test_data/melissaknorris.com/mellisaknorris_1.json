@@ -25,6 +25,9 @@
   "cuisine": "American",
   "ratings": 3.45,
   "ratings_count": 65,
+  "equipment": [
+    "Blender"
+  ],
   "nutrients": {
     "servingSize": "1 cup",
     "calories": "126 kcal",

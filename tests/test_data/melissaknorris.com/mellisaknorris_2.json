@@ -74,6 +74,10 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Stand Mixer",
+    "Jumbo Muffin Tins"
+  ],
   "nutrients": {
     "servingSize": "1 shortcake",
     "calories": "637 kcal",
