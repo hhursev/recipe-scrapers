@@ -25,11 +25,11 @@ class Foodism(AbstractScraper):
         )
 
     def instructions(self):
-        lis = [
+        steps = [
             li.get_text(strip=True)
             for li in self.soup.select(
                 "div.recipe-tab.article-method div.recipe-tab-body ol li"
             )
             if li.get_text(strip=True)
         ]
-        return "".join(step + "\n" for step in lis)
+        return "\n".join(steps)
