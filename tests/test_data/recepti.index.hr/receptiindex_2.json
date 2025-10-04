@@ -21,6 +21,32 @@
     "sol",
     "bijeli papar"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 rajčica",
+        "0,5 ljubičastog luka",
+        "150 g kuhanog slanutka",
+        "1 stabljika celera",
+        "0,5 krastavca",
+        "2 rotkvice",
+        "0 par listova zelene salate",
+        "2 žlice suncokretovih sjemenki"
+      ],
+      "purpose": "Salata"
+    },
+    {
+      "ingredients": [
+        "100 g grčkog jogurta",
+        "3 žlice svježe iscijeđenog limunovog soka",
+        "1 žlica bijelog vinskog octa",
+        "1 žlica maslinovog ulja",
+        "sol",
+        "bijeli papar"
+      ],
+      "purpose": "Dresing"
+    }
+  ],
   "instructions_list": [
     "Rajčicu narežite na kockice, ljubičasti luk, krastavac, rotkvice i stabljiku celera na tanke ploške, a zelenu salatu na rezance.",
     "Stavite suncokretove sjemenke u suhu tavu i vrtite na laganoj vatri dvije do tri minute da postanu hrskave i zamirišu. Ohladite.",

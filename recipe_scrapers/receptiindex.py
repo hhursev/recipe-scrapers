@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class ReceptiIndex(AbstractScraper):
@@ -20,3 +21,11 @@ class ReceptiIndex(AbstractScraper):
                     instructions.append(text)
 
         return "\n".join(instructions)
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".recipe-page__ingredients__name",
+            ".recipe-page__ingredients__item",
+        )
