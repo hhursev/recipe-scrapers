@@ -3,7 +3,7 @@ import logging
 import re
 from collections import OrderedDict
 from collections.abc import Iterable, Iterator
-from typing import Optional
+from typing import Optional, Union
 
 from recipe_scrapers.settings import settings
 
@@ -139,7 +139,10 @@ class BestImagePlugin(PluginInterface):
 
     @classmethod
     def _merge_candidate(
-        cls, candidates: "OrderedDict[str, dict]", candidate: dict | None, source: str
+        cls,
+        candidates: "OrderedDict[str, dict]",
+        candidate: Union[dict, None],
+        source: str,
     ) -> None:
         if not candidate:
             return
