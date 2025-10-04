@@ -100,17 +100,17 @@ class TestSchemaOrg(unittest.TestCase):
             url="http://recipe.test/template",
         )
         self.assertEqual(
-            "https://images.example.com/recipe-320x240.jpg",
+            "https://images.example.com/recipe-1280x720.jpg",
             default_scraper.image(),
         )
 
         best_image_scraper = SchemaScraperFactory.generate(
             html=page_data,
             url="http://recipe.test/template",
-            best_image=True,
+            best_image=False,
         )
         self.assertEqual(
-            "https://images.example.com/recipe-1280x720.jpg",
+            "https://images.example.com/recipe-320x240.jpg",
             best_image_scraper.image(),
         )
 
