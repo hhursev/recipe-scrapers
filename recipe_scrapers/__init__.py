@@ -399,6 +399,7 @@ from .realfoodwell import RealFoodWell
 from .realsimple import RealSimple
 from .receitasnestlebr import ReceitasNestleBR
 from .recept import Recept
+from .receptiindex import ReceptiIndex
 from .receptyprevas import ReceptyPreVas
 from .recetteplus import RecettePlus
 from .recipegirl import RecipeGirl
@@ -938,6 +939,7 @@ SCRAPERS = {
     RealSimple.host(): RealSimple,
     ReceitasNestleBR.host(): ReceitasNestleBR,
     Recept.host(): Recept,
+    ReceptiIndex.host(): ReceptiIndex,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecettePlus.host(): RecettePlus,
     RecipeGirl.host(): RecipeGirl,
