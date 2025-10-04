@@ -342,6 +342,7 @@ from .netacooks import NetaCooks
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
+from .ninjatestkitchen import NinjatestKitchen
 from .noracooks import NoraCooks
 from .norecipes import NoRecipes
 from .nosalty import NoSalty
@@ -881,6 +882,7 @@ SCRAPERS = {
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NibbleDish.host(): NibbleDish,
     NIHHealthyEating.host(): NIHHealthyEating,
+    NinjatestKitchen.host(): NinjatestKitchen,
     NoraCooks.host(): NoraCooks,
     NoRecipes.host(): NoRecipes,
     NoSalty.host(): NoSalty,
