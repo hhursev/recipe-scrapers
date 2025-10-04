@@ -44,9 +44,6 @@ class GoodHousekeeping(AbstractScraper):
             ]
         )
 
-    def cuisine(self):
-        return self.schema.cuisine() or None
-
     @functools.cached_property
     def _nutrient_soup(self):
         return self.soup.find(class_="recipe-body-content")
