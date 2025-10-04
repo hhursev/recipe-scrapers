@@ -3,6 +3,7 @@ import logging
 import re
 from collections import OrderedDict
 from collections.abc import Iterable, Iterator
+from typing import Optional
 
 from recipe_scrapers.settings import settings
 
@@ -119,7 +120,7 @@ class BestImagePlugin(PluginInterface):
         if soup is None:
             return
 
-        current: dict | None = None
+        current: Optional[dict] = None
         for meta in soup.find_all("meta"):
             prop = (meta.get("property") or meta.get("name") or "").lower()
             content = meta.get("content")
@@ -204,8 +205,8 @@ class BestImagePlugin(PluginInterface):
         return None
 
     @classmethod
-    def _select_best_candidate(cls, candidates: list[dict]) -> str | None:
-        best_candidate: dict | None = None
+    def _select_best_candidate(cls, candidates: list[dict]) -> Optional[str]:
+        best_candidate: Optional[dict] = None
         best_score = (-1, 0, 0)
 
         for candidate in candidates:
@@ -234,7 +235,7 @@ class BestImagePlugin(PluginInterface):
         return (area, secure, order)
 
     @classmethod
-    def _ensure_dimensions(cls, candidate: dict) -> tuple[int | None, int | None]:
+    def _ensure_dimensions(cls, candidate: dict) -> tuple[Optional[int], Optional[int]]:
         width = candidate.get("width")
         height = candidate.get("height")
         if width and height:
@@ -253,7 +254,7 @@ class BestImagePlugin(PluginInterface):
         )
 
     @classmethod
-    def _extract_dimensions_from_url(cls, url: str) -> tuple[int, int] | None:
+    def _extract_dimensions_from_url(cls, url: str) -> Optional[tuple[int, int]]:
         if not url:
             return None
 
@@ -272,7 +273,7 @@ class BestImagePlugin(PluginInterface):
         return None
 
     @staticmethod
-    def _find_query_dimension(pattern: re.Pattern[str], url: str) -> int | None:
+    def _find_query_dimension(pattern: re.Pattern[str], url: str) -> Optional[int]:
         match = pattern.search(url)
         if match:
             try:
