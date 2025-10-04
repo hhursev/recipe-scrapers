@@ -2,7 +2,7 @@ from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class NinjatestKitchen(AbstractScraper):
+class NinjaTestKitchen(AbstractScraper):
     @classmethod
     def host(cls):
         return "ninjatestkitchen.eu"
