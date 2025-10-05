@@ -106,6 +106,7 @@ from .cafedelites import CafeDelites
 from .cakemehometonight import CakeMeHomeTonight
 from .cambreabakes import CambreaBakes
 from .carlsbadcravings import CarlsBadCravings
+from .carriesexperimentalkitchen import CarriesExperimentalKitchen
 from .castironketo import CastIronKeto
 from .cdkitchen import CdKitchen
 from .celebratingsweets import CelebratingSweets
@@ -626,6 +627,7 @@ SCRAPERS = {
     CakeMeHomeTonight.host(): CakeMeHomeTonight,
     CambreaBakes.host(): CambreaBakes,
     CarlsBadCravings.host(): CarlsBadCravings,
+    CarriesExperimentalKitchen.host(): CarriesExperimentalKitchen,
     CastIronKeto.host(): CastIronKeto,
     CdKitchen.host(): CdKitchen,
     CelebratingSweets.host(): CelebratingSweets,
