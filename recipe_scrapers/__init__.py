@@ -423,6 +423,7 @@ from .saveur import Saveur
 from .savoringthegood import SavoringTheGood
 from .savorynothings import SavoryNothings
 from .schoolofwok import SchoolOfWok
+from .scrambledandscrumptious import ScrambledAndScrumptious
 from .scrummylane import ScrummyLane
 from .seriouseats import SeriousEats
 from .shelikesfood import SheLikesFood
@@ -962,6 +963,7 @@ SCRAPERS = {
     SavoringTheGood.host(): SavoringTheGood,
     SavoryNothings.host(): SavoryNothings,
     SchoolOfWok.host(): SchoolOfWok,
+    ScrambledAndScrumptious.host(): ScrambledAndScrumptious,
     ScrummyLane.host(): ScrummyLane,
     SeriousEats.host(): SeriousEats,
     SheLikesFood.host(): SheLikesFood,
