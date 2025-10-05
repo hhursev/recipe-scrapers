@@ -7,6 +7,12 @@ class SavvySavingCouple(AbstractScraper):
     def host(cls):
         return "savvysavingcouple.net"
 
+    def instructions(self):
+        instructions = self.soup.findAll(
+            "div", {"class": "wprm-recipe-instruction-text"}
+        )
+        return "\n".join([instruction.get_text() for instruction in instructions])
+
     def equipment(self):
         equipment_items = [
             text
