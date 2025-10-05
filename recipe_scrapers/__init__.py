@@ -436,6 +436,7 @@ from .simplyrecipes import SimplyRecipes
 from .simplywhisked import SimplyWhisked
 from .sipandfeast import SipAndFeast
 from .sizzlefish import SizzleFish
+from .sizzlingeats import SizzlingEats
 from .skinnytaste import SkinnyTaste
 from .smalltownwoman import SmallTownWoman
 from .smulweb import Smulweb
@@ -976,6 +977,7 @@ SCRAPERS = {
     SimplyWhisked.host(): SimplyWhisked,
     SipAndFeast.host(): SipAndFeast,
     SizzleFish.host(): SizzleFish,
+    SizzlingEats.host(): SizzlingEats,
     SkinnyTaste.host(): SkinnyTaste,
     SmallTownWoman.host(): SmallTownWoman,
     Smulweb.host(): Smulweb,
