@@ -29,24 +29,11 @@ class SharkNinja(AbstractScraper):
             return
 
         instructions = []
-        buffer = ""
-
-        for p in container.find_all("p"):
-            text = p.get_text(" ", strip=True)
-
-            if text.lower().startswith("step"):
-                if buffer:
-                    instructions.append(buffer.strip())
-                    buffer = ""
-
-                parts = text.split(" ", 2)
-                if len(parts) == 3 and parts[0].lower() == "step":
-                    buffer = parts[2]
-                else:
-                    buffer = " ".join(parts[1:]) if len(parts) > 1 else ""
-
-        if buffer.strip():
-            instructions.append(buffer.strip())
+        for step in container.select("p"):
+            text = step.get_text(" ", strip=True)
+            parts = text.split(" ", 2)
+            if len(parts) == 3 and parts[0].lower() == "step":
+                instructions.append(parts[2].strip())
 
         return "\n".join(instructions)
 
