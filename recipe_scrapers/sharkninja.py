@@ -44,8 +44,6 @@ class SharkNinja(AbstractScraper):
                     buffer = parts[2]
                 else:
                     buffer = " ".join(parts[1:]) if len(parts) > 1 else ""
-            else:
-                buffer += " " + text
 
         if buffer.strip():
             instructions.append(buffer.strip())
