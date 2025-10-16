@@ -128,8 +128,6 @@ from .cookinglsl import CookingLSL
 from .cookingwithjanica import CookingWithJanica
 from .cookomix import Cookomix
 from .cookpad import CookPad
-from .cookscountry import CooksCountry
-from .cooksillustrated import CooksIllustrated
 from .cooktalk import CookTalk
 from .cookwell import CookWell
 from .copykat import CopyKat
@@ -650,8 +648,6 @@ SCRAPERS = {
     CookingWithJanica.host(): CookingWithJanica,
     Cookomix.host(): Cookomix,
     CookPad.host(): CookPad,
-    CooksCountry.host(): CooksCountry,
-    CooksIllustrated.host(): CooksIllustrated,
     CookTalk.host(): CookTalk,
     CookWell.host(): CookWell,
     CopyKat.host(): CopyKat,
