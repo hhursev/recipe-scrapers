@@ -3,11 +3,12 @@ from ._utils import normalize_string
 from ._exceptions import FieldNotProvidedByWebsiteException
 import re
 import json
+from typing import Optional
 
 
 class Picnic(AbstractScraper):
-    def __init__(self, html: str, url: str):
-        super().__init__(html, url)
+    def __init__(self, html: str, url: str, best_image: Optional[bool] = None):
+        super().__init__(html, url, best_image=best_image)
         self.recipe_data = None
         self._recipe = None
         script_tag = self.soup.find(

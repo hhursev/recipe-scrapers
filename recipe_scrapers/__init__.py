@@ -1107,6 +1107,7 @@ def scrape_html(
     online: bool = False,
     supported_only: bool | None = None,
     wild_mode: bool | None = None,
+    best_image: bool | None = None,
 ) -> AbstractScraper:
     """
     Accepts optional HTML and a required URL as input, and returns a scraper object.
@@ -1127,6 +1128,8 @@ def scrape_html(
         online (bool): whether the library may download HTML.
         supported_only (bool | None): whether to restrict to supported domains.
         wild_mode (bool | None): deprecated: whether to attempt scraping unsupported domains.
+        best_image (bool | None): whether to prefer the highest-quality image when multiple
+            are available. Defaults to the configured setting when not provided.
 
     Raises:
         ElementNotFoundInHtml: Retrieval of data failed because an HTML element was not found.
@@ -1181,7 +1184,7 @@ def scrape_html(
 
     host_name = get_host_name(org_url)
     if host_name in SCRAPERS:
-        return SCRAPERS[host_name](html=html, url=org_url)
+        return SCRAPERS[host_name](html=html, url=org_url, best_image=best_image)
 
     if supported_only in (None, True):
         msg = (
@@ -1192,7 +1195,9 @@ def scrape_html(
         )
         raise WebsiteNotImplementedError(msg)
 
-    schema_scraper = SchemaScraperFactory.generate(html=html, url=org_url)
+    schema_scraper = SchemaScraperFactory.generate(
+        html=html, url=org_url, best_image=best_image
+    )
     if schema_scraper.schema.data:
         return schema_scraper
 
