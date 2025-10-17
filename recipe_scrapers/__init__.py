@@ -247,6 +247,7 @@ from .iowagirleats import IowaGirlEats
 from .irishcentral import IrishCentral
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
+from .jennycancook import JennyCanCook
 from .jimcooksfoodgood import JimCooksFoodGood
 from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
@@ -789,6 +790,7 @@ SCRAPERS = {
     IrishCentral.host(): IrishCentral,
     IzzyCooking.host(): IzzyCooking,
     JamieOliver.host(): JamieOliver,
+    JennyCanCook.host(): JennyCanCook,
     JimCooksFoodGood.host(): JimCooksFoodGood,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
