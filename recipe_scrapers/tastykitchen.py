@@ -20,12 +20,14 @@ class TastyKitchen(AbstractScraper):
         return current_selection.text
 
     def ingredients(self):
-        ingredients = self.soup.find("ul", {"class": "ingredients"}).findAll("li")
+        ingredients = self.soup.find("ul", {"class": "ingredients"}).find_all("li")
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.find("span", {"itemprop": "instructions"}).findAll("p")
+        instructions = self.soup.find("span", {"itemprop": "instructions"}).find_all(
+            "p"
+        )
 
         return "\n".join(
             [normalize_string(direction.get_text()) for direction in instructions]

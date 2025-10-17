@@ -8,7 +8,7 @@ class Joyfoodsunshine(AbstractScraper):
         return "joyfoodsunshine.com"
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "wprm-recipe-ingredient"})
+        ingredients = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 

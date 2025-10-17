@@ -28,7 +28,7 @@ class Mindmegette(AbstractScraper):
 
     def ingredients(self):
         ingredients = []
-        shopping_cart = self.soup.find("ul", {"class": "shopingCart"}).findAll("li")
+        shopping_cart = self.soup.find("ul", {"class": "shopingCart"}).find_all("li")
 
         for ingredient in shopping_cart:
             amount_unit = (
@@ -44,12 +44,12 @@ class Mindmegette(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "instructions"}).findAll("li")
+        instructions = self.soup.find("div", {"class": "instructions"}).find_all("li")
 
         instructions_arr = []
         for instruction in instructions:
-            for tag in instruction.findAll("h2"):
-                tag.replaceWith("")
+            for tag in instruction.find_all("h2"):
+                tag.replace_with("")
             instructions_arr.append(normalize_string(instruction.get_text()))
 
         return "\n".join(instructions_arr)

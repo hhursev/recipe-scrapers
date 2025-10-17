@@ -9,7 +9,7 @@ class CookingCircle(AbstractScraper):
     def author(self):
         return (
             self.soup.find("div", {"class": "recipe-author"})
-            .findChild("span", {"class": "text-uppercase"})
+            .find("span", {"class": "text-uppercase"})
             .get_text()
         )
 
@@ -18,8 +18,8 @@ class CookingCircle(AbstractScraper):
             self.soup.find(
                 "div", {"class": "single-ingredients__group", "data-unit": "metric"}
             )
-            .findChild("ul", {"class": "single-ingredients__list"})
-            .findChildren("li")
+            .find("ul", {"class": "single-ingredients__list"})
+            .find_all("li")
         )
 
         ingredients = []
@@ -30,7 +30,7 @@ class CookingCircle(AbstractScraper):
         return ingredients
 
     def instructions(self):
-        ul_list = self.soup.find("ul", {"class": "single-method__method"}).findChildren(
+        ul_list = self.soup.find("ul", {"class": "single-method__method"}).find_all(
             "li"
         )
 

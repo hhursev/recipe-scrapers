@@ -22,7 +22,7 @@ class Maangchi(AbstractScraper):
         ols = self.soup.find("div", {"class": "entry"}).find_all("ol")
         instructions = []
         for ol in ols:
-            for li in ol.findAll("li"):
+            for li in ol.find_all("li"):
                 instructions.append(li)
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
