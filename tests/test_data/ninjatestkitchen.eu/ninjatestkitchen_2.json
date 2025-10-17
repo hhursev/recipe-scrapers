@@ -1,0 +1,66 @@
+{
+  "author": "Ninja Test Kitchen",
+  "canonical_url": "https://ninjatestkitchen.eu/recipe/miso-honey-salmon-fillets-with-mixed-quinoa-vegetables/",
+  "site_name": "Ninja Test Kitchen",
+  "host": "ninjatestkitchen.eu",
+  "language": "en-UN",
+  "title": "Miso, Honey Salmon Fillets With Mixed Quinoa & Vegetables",
+  "ingredients": [
+    "10oz mixed quinoa, rinsed",
+    "28fl. oz vegetable stock",
+    "8oz asparagus, trimmed, cut into 3cm lengths",
+    "3oz frozen edamame beans",
+    "2 tbsp white miso paste",
+    "2 tbsp honey",
+    "2 tbsp soy sauce",
+    "2 tbsp mirin",
+    "1 tbsp grated ginger",
+    "4 x 4.2oz salmon fillets",
+    "Toasted sesame seeds, for garnish",
+    "Spring onion, sliced, for garnish"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "10oz mixed quinoa, rinsed",
+        "28fl. oz vegetable stock",
+        "8oz asparagus, trimmed, cut into 3cm lengths",
+        "3oz frozen edamame beans"
+      ],
+      "purpose": "LEVEL 1 (Combi Pan, Crisper Plate)"
+    },
+    {
+      "ingredients": [
+        "2 tbsp white miso paste",
+        "2 tbsp honey",
+        "2 tbsp soy sauce",
+        "2 tbsp mirin",
+        "1 tbsp grated ginger",
+        "4 x 4.2oz salmon fillets",
+        "Toasted sesame seeds, for garnish",
+        "Spring onion, sliced, for garnish"
+      ],
+      "purpose": "LEVEL 2 (Bake Tray)"
+    }
+  ],
+  "instructions_list": [
+    "In a large bowl, whisk miso, honey, soy sauce, mirin and ginger together. Place salmon in large bowl and evenly cover with sauce and refrigerate for 30 minutes. ",
+    "Place all Level 1 ingredients in the Combi Pan and stir to combine. Slide the pan into Level 1. ",
+    "Remove salmon from marinade, place on Bake Tray with a little of the marinade on top. Slide the tray  into Level 2. ",
+    "Close door and flip the SmartSwitch to COMBI COOKER. ",
+    "Select COMBI MEALS, set temperature to 180°C and set time to 12 minutes. Press START/STOP to begin cooking (the unit will steam for 10 minutes before cooking).",
+    "When cooking is complete, remove tray and pan. Stir and fluff the quinoa and serve salmon sprinkled with sesame seeds and spring onions.  "
+  ],
+  "category": "15 min Multi-Cooker Meals",
+  "yields": "4 servings",
+  "total_time": 67,
+  "cook_time": 67,
+  "prep_time": 15,
+  "equipment": [
+    "Ninja Combi All-in-One Multi-Cooker, Oven & Air Fryer"
+  ],
+  "image": "https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/05/31090923/miso-honey-salmon-filles-with-mixed-quinoa-and-vegetables-landscape-2-2220x1000.jpg",
+  "keywords": [
+    "Dinner"
+  ]
+}
