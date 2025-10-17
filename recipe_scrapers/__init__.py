@@ -379,6 +379,7 @@ from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
 from .plowingthroughlife import PlowingThroughLife
+from .polishfoodies import PolishFoodies
 from .poppycooks import PoppyCooks
 from .popsugar import PopSugar
 from .potatorolls import PotatoRolls
@@ -921,6 +922,7 @@ SCRAPERS = {
     PinkOwlKitchen.host(): PinkOwlKitchen,
     PlatingPixels.host(): PlatingPixels,
     PlowingThroughLife.host(): PlowingThroughLife,
+    PolishFoodies.host(): PolishFoodies,
     PoppyCooks.host(): PoppyCooks,
     PopSugar.host(): PopSugar,
     PotatoRolls.host(): PotatoRolls,
