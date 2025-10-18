@@ -26,14 +26,16 @@ class StreetKitchen(AbstractScraper):
         )
 
     def ingredients(self):
-        ingredients_raw = self.soup.find("div", class_="ingredients-main").findAll("dd")
+        ingredients_raw = self.soup.find("div", class_="ingredients-main").find_all(
+            "dd"
+        )
         ingredients = []
         for ingredient in ingredients_raw:
             ingredients.append(normalize_string(ingredient.text))
         return ingredients
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "the-content-div"}).findAll("p")
+        instructions = self.soup.find("div", {"class": "the-content-div"}).find_all("p")
 
         instructions_arr = []
         for instruction in instructions:
