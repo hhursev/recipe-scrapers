@@ -8,7 +8,7 @@ class KFoods(AbstractScraper):
         return "kfoods.com"
 
     def language(self):
-        # HTML meta lang attribute is in place, but does reliably describe the recipe language
+        # HTML meta lang attribute is in place, but does not reliably describe the recipe language
         raise FieldNotProvidedByWebsiteException()
 
     def ingredients(self):
