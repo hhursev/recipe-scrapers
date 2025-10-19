@@ -82,6 +82,7 @@ from .barefootcontessa import BareFootContessa
 from .barefootinthepines import BarefootInThePines
 from .bbcfood import BBCFood
 from .bbcgoodfood import BBCGoodFood
+from .belleofthekitchen import BelleOfTheKitchen
 from .bellyfull import BellyFull
 from .bestrecipes import BestRecipes
 from .betterfoodguru import BetterFoodGuru
@@ -606,6 +607,7 @@ SCRAPERS = {
     BBCFood.host(): BBCFood,
     BBCFood.host(domain="co.uk"): BBCFood,
     BBCGoodFood.host(): BBCGoodFood,
+    BelleOfTheKitchen.host(): BelleOfTheKitchen,
     BellyFull.host(): BellyFull,
     BestRecipes.host(): BestRecipes,
     BetterFoodGuru.host(): BetterFoodGuru,
