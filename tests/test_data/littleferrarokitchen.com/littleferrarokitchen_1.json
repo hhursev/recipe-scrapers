@@ -39,6 +39,9 @@
   "cuisine": "American,Jewish",
   "ratings": 5.0,
   "ratings_count": 13,
+  "equipment": [
+    "Rolling Pin"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "291 kcal",

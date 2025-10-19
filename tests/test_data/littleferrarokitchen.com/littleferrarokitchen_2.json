@@ -80,6 +80,10 @@
   "cuisine": "French",
   "ratings": 4.74,
   "ratings_count": 45,
+  "equipment": [
+    "Dutch Oven Braiser",
+    "skillet"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "494 kcal",
