@@ -294,6 +294,7 @@ from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
 from .leukerecepten import Leukerecepten
 from .lifestyleofafoodie import LifestyleOfAFoodie
+from .littleferrarokitchen import LittleFerraroKitchen
 from .littlespicejar import LittleSpiceJar
 from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
@@ -839,6 +840,7 @@ SCRAPERS = {
     LekkerEnSimpel.host(): LekkerEnSimpel,
     Leukerecepten.host(): Leukerecepten,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
+    LittleFerraroKitchen.host(): LittleFerraroKitchen,
     LittleSpiceJar.host(): LittleSpiceJar,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LivelyTable.host(): LivelyTable,
