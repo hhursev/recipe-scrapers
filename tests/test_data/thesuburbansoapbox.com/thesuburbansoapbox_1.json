@@ -25,6 +25,14 @@
   "cook_time": 240,
   "prep_time": 30,
   "cuisine": "American,Southern",
+  "equipment": [
+    "trifle bowl",
+    "mixing bowl",
+    "whisk",
+    "chef's knife",
+    "cutting board",
+    "silicone spatula"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "280 kcal",
