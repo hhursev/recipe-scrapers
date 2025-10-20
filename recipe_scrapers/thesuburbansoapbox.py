@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._utils import get_equipment
 
 
 class TheSuburbanSoapBox(AbstractScraper):
@@ -7,14 +8,12 @@ class TheSuburbanSoapBox(AbstractScraper):
         return "thesuburbansoapbox.com"
 
     def equipment(self):
-        equipment = []
-        seen = set()
+        items = []
         for equip_div in self.soup.find_all("div", class_="wprm-recipe-equipment-name"):
             if equip_div.find("a"):
                 name = equip_div.find("a").get_text(strip=True)
             else:
                 name = equip_div.get_text(strip=True)
-            if name and name not in seen:
-                equipment.append(name)
-                seen.add(name)
-        return equipment
+            if name:
+                items.append(name)
+        return get_equipment(items)
