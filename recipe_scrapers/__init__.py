@@ -505,6 +505,7 @@ from .therecipecritic import TheRecipeCritic
 from .thesaltymarshmallow import TheSaltyMarshmallow
 from .thespicetrain import TheSpiceTrain
 from .thespruceeats import TheSpruceEats
+from .thesuburbansoapbox import TheSuburbanSoapBox
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
 from .thinlicious import Thinlicious
@@ -1055,6 +1056,7 @@ SCRAPERS = {
     TheSaltyMarshmallow.host(): TheSaltyMarshmallow,
     TheSpiceTrain.host(): TheSpiceTrain,
     TheSpruceEats.host(): TheSpruceEats,
+    TheSuburbanSoapBox.host(): TheSuburbanSoapBox,
     TheVintageMixer.host(): TheVintageMixer,
     Thewoksoflife.host(): Thewoksoflife,
     Thinlicious.host(): Thinlicious,
