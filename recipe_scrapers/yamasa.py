@@ -8,6 +8,14 @@ class Yamasa(AbstractScraper):
     def host(cls):
         return "recipe.yamasa.com"
 
+    def author(self):
+        author_tag = self.soup.find("th", string="Author")
+        if author_tag:
+            td = author_tag.find_next_sibling("td")
+            if td:
+                return td.get_text(strip=True)
+        return self.schema.author()
+
     def ingredients(self):
         return [
             " ".join(i.stripped_strings)
