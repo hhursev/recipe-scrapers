@@ -545,6 +545,7 @@ from .womensweeklyfood import WomensWeeklyFood
 from .woop import Woop
 from .wyseguide import WyseGuide
 from .xiachufang import Xiachufang
+from .yamasa import Yamasa
 from .yemek import Yemek
 from .yummly import Yummly
 from .zaubertopf import ZauberTopf
@@ -1096,6 +1097,7 @@ SCRAPERS = {
     Woop.host(): Woop,
     WyseGuide.host(): WyseGuide,
     Xiachufang.host(): Xiachufang,
+    Yamasa.host(): Yamasa,
     Yemek.host(): Yemek,
     Yummly.host(): Yummly,
     ZauberTopf.host(): ZauberTopf,
