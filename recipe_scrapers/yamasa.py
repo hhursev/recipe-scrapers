@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
-from ._exceptions import FieldNotProvidedByWebsiteException
+from ._exceptions import StaticValueException
 
 
 class Yamasa(AbstractScraper):
@@ -42,4 +42,4 @@ class Yamasa(AbstractScraper):
         )
 
     def cuisine(self):
-        raise FieldNotProvidedByWebsiteException()
+        raise StaticValueException(return_value="Japanese")
