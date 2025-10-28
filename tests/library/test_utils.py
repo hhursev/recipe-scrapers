@@ -172,3 +172,13 @@ class TestUtils(unittest.TestCase):
     def test_get_yields_empty_string(self):
         with self.assertRaises(ValueError):
             get_yields("")
+
+    def test_get_yields_leading_zeros(self):
+        test_cases = [
+            ("02 servings", "2 servings"),
+            ("02 dozen", "2 dozen"),
+            ("02 items", "2 items"),
+        ]
+        for input_text, expected in test_cases:
+            with self.subTest(input_text=input_text):
+                self.assertEqual(expected, get_yields(input_text))
