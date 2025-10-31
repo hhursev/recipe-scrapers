@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Almost Classic Caesar Salad - Alison Roman</title>
+
+        <link rel="preconnect" href="https://unpkg.com" crossorigin>
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+        <link rel="dns-prefetch" href="//unpkg.com">
+        <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+
+        <link rel="preload" as="style" href="https://www.alisoneroman.com/assets/built/screen.css?v=5037338943">
+        <link rel="preload" as="script" href="https://www.alisoneroman.com/assets/built/main.min.js?v=5037338943">
+
+        <link rel="stylesheet" type="text/css" href="https://www.alisoneroman.com/assets/built/screen.css?v=5037338943">
+
+        <noscript>
+            <style>
+                .gh-main {
+                    opacity: 1 !important;
+                }
+            </style>
+        </noscript>
+        
+          <link rel="stylesheet" type="text/css" href="https://www.alisoneroman.com/assets/built/screen.css?v=5037338943" media="print">
+
+        <meta name="description" content="Bolognese and a caesar salad? That’s amore. This is an all-occasion salad, 
+but is particularly nice with a bowl of pasta. Bring a hunk of parmesan to 
+grate at the table for true red sauce vibes.">
+    <link rel="icon" href="https://www.alisoneroman.com/content/images/size/w256h256/format/png/2025/09/AR_MakersMark_v2_091625-copy.svg" type="image/png">
+    <link rel="canonical" href="https://www.alisoneroman.com/recipes/almost-classic-caesar-salad/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Alison Roman">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Almost Classic Caesar Salad — Alison Roman">
+    <meta property="og:description" content="Bolognese and a caesar salad?  That’s  amore. This is an all-occasion salad, but is particularly nice with a bowl of pasta. Bring a hunk of parmesan to grate at the table for true red sauce vibes.">
+    <meta property="og:url" content="https://www.alisoneroman.com/recipes/almost-classic-caesar-salad/">
+    <meta property="og:image" content="https://www.alisoneroman.com/content/images/size/w1200/static1-squarespace-com/static/541b1515e4b0a990b33a796e/5f91d9339d0f796956dd8fe6/64ee20f10f6c855323f3779d/1719937383786/caesar_salad_photo-format-1500w.jpg">
+    <meta property="article:published_time" content="2023-08-29T17:58:35.000Z">
+    <meta property="article:modified_time" content="2025-09-22T15:13:32.000Z">
+    <meta property="article:tag" content="Recipes">
+    <meta property="article:tag" content="Salads">
+    <meta property="article:tag" content="Anchovy">
+    <meta property="article:tag" content="Panko">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Almost Classic Caesar Salad — Alison Roman">
+    <meta name="twitter:description" content="Bolognese and a caesar salad?  That’s  amore. This is an all-occasion salad, but is particularly nice with a bowl of pasta. Bring a hunk of parmesan to grate at the table for true red sauce vibes.">
+    <meta name="twitter:url" content="https://www.alisoneroman.com/recipes/almost-classic-caesar-salad/">
+    <meta name="twitter:image" content="https://www.alisoneroman.com/content/images/size/w1200/static1-squarespace-com/static/541b1515e4b0a990b33a796e/5f91d9339d0f796956dd8fe6/64ee20f10f6c855323f3779d/1719937383786/caesar_salad_photo-format-1500w.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Alison Roman">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Recipes, Salads, Anchovy, Panko">
+    <meta name="twitter:site" content="@alisoneroman">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="900">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Alison Roman",
+        "url": "https://www.alisoneroman.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.alisoneroman.com/content/images/2025/09/ar-markers-mark.svg"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Alison Roman",
+        "url": "https://www.alisoneroman.com/404/",
+        "sameAs": []
+    },
+    "headline": "Almost Classic Caesar Salad — Alison Roman",
+    "url": "https://www.alisoneroman.com/recipes/almost-classic-caesar-salad/",
+    "datePublished": "2023-08-29T17:58:35.000Z",
+    "dateModified": "2025-09-22T15:13:32.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.alisoneroman.com/content/images/size/w1200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg",
+        "width": 1200,
+        "height": 900
+    },
+    "keywords": "Recipes, Salads, Anchovy, Panko",
+    "description": "Bolognese and a caesar salad? That’s  amore. This is an all-occasion salad, but is particularly nice with a bowl of pasta. Bring a hunk of parmesan to grate at the table for true red sauce vibes.",
+    "mainEntityOfPage": "https://www.alisoneroman.com/recipes/almost-classic-caesar-salad/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.5">
+    <link rel="alternate" type="application/rss+xml" title="Alison Roman" href="">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.56/umd/portal.min.js" data-i18n="true" data-ghost="https://www.alisoneroman.com/" data-key="3473ce2252305060f99e25c8ca" data-api="https://alisoneroman.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="3473ce2252305060f99e25c8ca" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://alisoneroman.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://www.alisoneroman.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=5037338943"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=5037338943">
+    <script defer src="/public/comment-counts.min.js?v=5037338943" data-ghost-comments-counts-api="https://www.alisoneroman.com/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=5037338943"></script>
+    <script defer src="/public/ghost-stats.min.js?v=5037338943" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.alisoneroman.com/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="aac954d7-13e7-4d9e-8784-fa2d15230fb2" tb_post_uuid="a82e1556-a2e0-45b1-8274-ede261dd9d1e" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined"></script><style>:root {--ghost-accent-color: #290A08;}</style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Almost Classic Caesar Salad",
+  "image": "https://www.alisoneroman.com/content/images/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Alison Roman"
+  },
+  "recipeYield": "YIELD — 4 servings",
+  "recipeIngredient": [
+  "2 large egg yolks",
+  "6 anchovy filets or 2 tablespoons capers, finely chopped",
+  "2 garlic cloves, finely chopped or grated on a microplane ",
+  "1 teaspoon dijon mustard, plus more",
+  "¼ cup fresh lemon juice",
+  "¼ cup olive oil ",
+  "¼ cup canola oil ",
+  "1 teaspoon worcestershire sauce, plus more",
+  "Kosher salt, freshly ground black pepper",
+  "3–4 tablespoons olive oil ",
+  "4 anchovy filets, plus more for serving ",
+  "1 cup panko breadcrumbs",
+  "Kosher salt, freshly ground black pepper ",
+  "1/2 garlic clove, finely chopped or grated on a microplane ",
+  "1 large head romaine or 2-3 heads little gems, tougher outer leaves removed, ends trimmed, leaves torn or cut into large pieces ",
+  "A hunk of parmesan for shaving or grating ",
+  "1 pound boneless, skinless chicken breast",
+  "Kosher salt, freshly ground black pepper",
+  "1 tablespoon canola oil or olive oil ",
+  "More anchovies!",
+  "2 large tortillas, lavash, or whatever you use to wrap things in, idk "
+],
+  "recipeInstructions": [
+  {
+    "@type": "HowToStep",
+    "text": "For the dressing: Whisk the yolks, anchovies, capers, garlic, mustard and lemon juice together in a medium bowl. Gently whisk in the olive oil and canola oil, without worrying anything is going to break— it won’t. Think of this as a thick vinaigrette, not a thin mayonnaise/aioli."
+  },
+  {
+    "@type": "HowToStep",
+    "text": "Add a teaspoon of Worcestershire and decide if you want more of that, or maybe more mustard (I always do). Season with salt, and so much black pepper it really ought to be in the recipe name. The dressing should be very acidic and again, less on the creamy scale. If you find it too punchy, whisk in a few tablespoons of canola (or olive) oil."
+  },
+  {
+    "@type": "HowToStep",
+    "text": "For the breadcrumbs and assembly: Heat oil in a medium skillet over medium heat. Add anchovies, stirring just to melt. Add the panko and stir to coat in the oil. Keep tossing or stirring until the panko is evenly coated and turning a nice golden brown, the color of perfect toast, about 4 or 5 minutes; remove from heat, add garlic and toss in the warm crumbs, just to take the edge off."
+  },
+  {
+    "@type": "HowToStep",
+    "text": "Remove breadcrumbs from heat and season with salt and pepper; let them cool before dressing your salad."
+  },
+  {
+    "@type": "HowToStep",
+    "text": "Toss half the dressing onto your bowl of torn leaves and season with more dressing, salt, or pepper. Shower with cheese and bread crumbs, tossing to encourage both to settle into the nooks and crannies and, if you’re me, top with more anchovies."
+  },
+  {
+    "@type": "HowToStep",
+    "text": "For the Chicken Caesar Salad Wrap: Season chicken with salt and pepper. In a medium skillet (use the same skillet you did the breadcrumbs in, if available), heat 1 tablespoon oil over medium heat. Add chicken and cook until cooked through and golden brown on both sides, about 10 minutes. Set aside to cool slightly, then slice chicken into strips if you’re going David-style, or shred it with your hands if you’re going Alison-style."
+  },
+  {
+    "@type": "HowToStep",
+    "text": "In a large bowl, toss lettuce with dressing until everything is well-coated and perfectly dressed, then chop the lettuce into bite-size pieces. Gently warm the tortilla or wrap vessel of your choosing over the stove for a few seconds on each side. Top with dressed lettuce, slices of chicken, a few more anchovies, grated cheese, and breadcrumbs, making sure you leave a border between the fillings and the edge of the tortilla so as not to overfill (rookie mistake!). Fold in two sides of the tortilla, then gently roll the wrap away from you (like a burrito), making sure everything stays tucked in as you go. Cut in half so you can show all your friends."
+  }
+]
+}
+</script>
+    </head>
+
+    <body class="post-template tag-recipes tag-salads tag-hash-sqs tag-hash-import-2025-06-19-08-44 tag-anchovy tag-panko">
+        <a href="#main-content" class="absolute -top-96 left-4 z-[9999] px-4 py-2 bg-brown text-cream text-action font-sans focus:top-4 transition-all duration-200 ease-in-out hover:opacity-100 border-2 border-brown hover:bg-cream hover:text-brown focus:outline-none">
+  Skip to main content
+</a>        
+        <div class="gh-site">
+            <header id="gh-head" class="gh-head gh-outer is-head-middle-logo"
+  x-data="{ 
+    isMenuOpen: false,
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+      document.body.style.overflow = this.isMenuOpen ? 'hidden' : '';
+    }
+  }"
+>
+    <div class="gh-head-inner gh-inner">
+        <div class="gh-head-brand">
+            <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="11" cy="11.5" r="8" stroke="#290A08" stroke-width="1.2"/>
+<path d="M16.5 17L21.5 22" stroke="#290A08" stroke-width="1.2"/>
+</svg>
+</button>
+            <div class="gh-head-brand-wrapper">
+                <a class="gh-head-logo text-eyebrow" href="https://www.alisoneroman.com">
+                     Alison Roman
+                </a>
+            </div>
+            <button class="gh-burger" @click="toggleMenu" :aria-expanded="isMenuOpen">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M2 21H22" stroke="#290A08" stroke-width="1.2"/>
+  <path d="M2 15H22" stroke="#290A08" stroke-width="1.2"/>
+  <path d="M2 9H22" stroke="#290A08" stroke-width="1.2"/>
+  <path d="M2 3H22" stroke="#290A08" stroke-width="1.2"/>
+</svg>            </button>
+        </div>
+
+        <nav class="gh-head-menu" :class="{ 'is-open': isMenuOpen }">
+            <ul class="nav">
+    <li class="nav-recipes nav-current-parent"><a href="https://www.alisoneroman.com/recipes/">Recipes</a></li>
+    <li class="nav-newsletters"><a href="https://www.alisoneroman.com/newsletters/">Newsletters</a></li>
+    <li class="nav-books"><a href="https://www.alisoneroman.com/books/">Books</a></li>
+    <li class="nav-tour"><a href="https://www.alisoneroman.com/tour/">Tour</a></li>
+    <li class="nav-first-bloom"><a href="https://firstbloomcornerstore.com/">First Bloom</a></li>
+</ul>
+
+            <ul class="nav md:!hidden">
+                <li>
+                    <a href="/recommendations">Recommendations</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="gh-head-actions">
+            <a class="hidden md:flex gh-head-link" href="/recommendations">Recommendations</a>
+            <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="11" cy="11.5" r="8" stroke="#290A08" stroke-width="1.2"/>
+<path d="M16.5 17L21.5 22" stroke="#290A08" stroke-width="1.2"/>
+</svg>
+ <span class="gh-search-label">Search</span></button>
+            <div class="gh-head-members">
+                    <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
+                    <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">Subscribe</a>
+            </div>
+        </div>
+    </div>
+</header>
+            
+            <div id="main-content">
+              
+
+<main class="gh-main recipe-detail-page">
+  <div class="recipe-content">
+    <article class="gh-article post tag-recipes tag-salads tag-hash-sqs tag-hash-import-2025-06-19-08-44 tag-anchovy tag-panko">
+    <header class="gh-article-header gh-canvas">
+
+			<h1 class="gh-article-title">Almost Classic Caesar Salad</h1>
+
+				<p class="gh-article-excerpt">Bolognese and a caesar salad? That’s  amore. This is an all-occasion salad, but is particularly nice with a bowl of pasta. Bring a hunk of parmesan to grate at the table for true red sauce vibes.</p>
+
+                <picture class="gh-article-image kg-width-wide">
+                    <!-- Serve the AVIF format if the browser supports it -->
+                    <source 
+                        srcset="/content/images/size/w200/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 200w,
+                                /content/images/size/w360/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 360w,
+                                /content/images/size/w600/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 600w,
+                                /content/images/size/w820/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 820w,
+                                /content/images/size/w1200/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 1200w"
+                        sizes="(min-width: 2500px) 1200px, (min-width: 960px) 50vw, 100vw" 
+                        type="image/avif"
+                    >
+                    <!-- Serve the WebP format if the browser supports it -->
+                    <source 
+                        srcset="/content/images/size/w200/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 200w,
+                                /content/images/size/w360/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 360w,
+                                /content/images/size/w600/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 600w,
+                                /content/images/size/w820/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 820w,
+                                /content/images/size/w1200/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 1200w"
+                        sizes="(min-width: 2500px) 1200px, (min-width: 960px) 50vw, 100vw" 
+                        type="image/webp"
+                    >
+                    <!-- Serve original file format as a fallback -->
+                    <img
+                        srcset="/content/images/size/w200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 200w,
+                                /content/images/size/w360/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 360w,
+                                /content/images/size/w600/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 600w,
+                                /content/images/size/w820/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 820w,
+                                /content/images/size/w1200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg 1200w"
+                        sizes="(min-width: 2500px) 1200px, (min-width: 960px) 50vw, 100vw" 
+                        src="/content/images/size/w1200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/1693327677343-9OTJ6N3CN5FRHG837DUU/caesar_salad_photo.jpg"
+                        alt="Almost Classic Caesar Salad"
+                        loading="eager"
+                    >
+                </picture>
+        </header>
+
+	<section class="gh-content gh-canvas">
+		<p><strong>YIELD</strong> — 4 servings</p><p>This Caesar dressing is classic in the list of ingredients, but as we know, Caesar dressings can seriously range from almost mayo-y, to barely a vinaigrette. This one is creamy without being heavy, and punchy without preventing you from eating the whole bowl. Of course, there are anchovies, but capers are a legit good stand-in here.</p><p>Depending on how much salad you’re making and how wet you enjoy those leaves, this recipe for the dressing may make more than you need, but great news: it keeps well in the fridge for a few days. It’s <a href="https://www.youtube.com/watch?v=NC7cmWkBoz4&ref=alisoneroman.com">good in a glass, good on green(s), good for dipping raw carrots and celery</a>. If you’re eating meat, chicken and anchovies are a gorgeous match, so you know it belongs spooned over a seared chicken breast, greens optional (scroll down for instructions on how to…wrap it, I guess).</p><h2 id="ingredients">Ingredients</h2><p>For the Dressing:</p><ul><li>2 large <strong>egg yolks</strong></li><li>6<strong> anchovy filets or 2 tablespoons capers</strong>, finely chopped</li><li>2 <strong>garlic </strong>cloves, finely chopped or grated on a microplane</li><li>1 teaspoon <strong>Dijon mustard</strong>, plus more</li><li>¼ cup fresh <strong>lemon juice</strong></li><li>¼ cup <strong>olive oil</strong></li><li>¼ cup <strong>canola oil</strong></li><li>1 teaspoon<strong> Worcestershire sauce</strong>, plus more</li><li><strong>Kosher salt</strong>, freshly ground <strong>black pepper</strong></li></ul><p>For the Breadcrumbs and Assembly:</p><ul><li>3–4 tablespoons <strong>olive oil</strong></li><li>4 <strong>anchovy filets</strong>, plus more for serving</li><li>1 cup <strong>panko breadcrumbs</strong></li><li><strong>Kosher salt</strong>, freshly <strong>ground black pepper</strong></li><li>1/2 <strong>garlic</strong> clove, finely chopped or grated on a microplane</li><li>1 large head <strong>romaine or </strong>2-3 heads<strong> little gems</strong>, tougher outer leaves removed, ends trimmed, leaves torn or cut into large pieces</li><li>A hunk of <strong>parmesan</strong> for shaving or grating</li></ul><p>BONUS, For the Chicken Caesar Salad Wrap:</p><ul><li>All of the above</li><li>1 pound <strong>boneless, skinless chicken breast</strong></li><li><strong>Kosher salt</strong>, freshly ground<strong> black pepper</strong></li><li>1 tablespoon <strong>canola oil or olive oil</strong></li><li>More<strong> anchovies</strong>!</li><li>2 large <strong>tortillas, lavash</strong>, or whatever you use to wrap things in, idk</li></ul><h2 id="preparation">Preparation</h2><figure class="kg-card kg-embed-card"><iframe width="160" height="90" src="https://www.youtube.com/embed/pjFBYiP6NgI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></figure>
+<!--kg-card-begin: html-->
+<ol><li>For the dressing:<p>Whisk the yolks, anchovies, capers, garlic, mustard and lemon juice together in a medium bowl. Gently whisk in the olive oil and canola oil, without worrying anything is going to break— it won’t. Think of this as a thick vinaigrette, not a thin mayonnaise/aioli.</p></li><li>Add a teaspoon of Worcestershire and decide if you want more of that, or maybe more mustard (I always do). Season with salt, and so much black pepper it really ought to be in the recipe name. The dressing should be very acidic and again, less on the creamy scale. If you find it too punchy, whisk in a few tablespoons of canola (or olive) oil.</li><li>For the breadcrumbs and assembly:<p>Heat oil in a medium skillet over medium heat. Add anchovies, stirring just to melt. Add the panko and stir to coat in the oil. Keep tossing or stirring until the panko is evenly coated and turning a nice golden brown, the color of perfect toast, about 4 or 5 minutes; remove from heat, add garlic and toss in the warm crumbs, just to take the edge off.</p></li><li>Remove breadcrumbs from heat and season with salt and pepper; let them cool before dressing your salad.</li><li>Toss half the dressing onto your bowl of torn leaves and season with more dressing, salt, or pepper. Shower with cheese and bread crumbs, tossing to encourage both to settle into the nooks and crannies and, if you’re me, top with more anchovies.</li><li>For the Chicken Caesar Salad Wrap: <p>Season chicken with salt and pepper. In a medium skillet (use the same skillet you did the breadcrumbs in, if available), heat 1 tablespoon oil over medium heat. Add chicken and cook until cooked through and golden brown on both sides, about 10 minutes. Set aside to cool slightly, then slice chicken into strips if you’re going David-style, or shred it with your hands if you’re going Alison-style.</p></li><li>In a large bowl, toss lettuce with dressing until everything is well-coated and perfectly dressed, then chop the lettuce into bite-size pieces. Gently warm the tortilla or wrap vessel of your choosing over the stove for a few seconds on each side. Top with dressed lettuce, slices of chicken, a few more anchovies, grated cheese, and breadcrumbs, making sure you leave a border between the fillings and the edge of the tortilla so as not to overfill (rookie mistake!). Fold in two sides of the tortilla, then gently roll the wrap away from you (like a burrito), making sure everything stays tucked in as you go. Cut in half so you can show all your friends. </li></ol>
+<!--kg-card-end: html-->
+
+	</section>
+
+			<div class="gh-article-comments gh-canvas">
+				<div class="gh-article-comments-header flex flex-row justify-between items-center mb-6">
+					<h2 class="gh-article-comments-title !text-brown !text-action text-center !mb-0">Discussion</h2>
+					<h2 class="gh-article-comments-count !text-brown !text-action text-center"><script
+    data-ghost-comment-count="6853ce0c012b8100013e0389"
+    data-ghost-comment-count-empty=""
+    data-ghost-comment-count-singular="comment"
+    data-ghost-comment-count-plural="comments"
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script></h2>
+				</div>
+				<div class="gh-article-comments-list md:border md:border-brown-20 px-4 py-3 md:p-[7.5rem] md:mx-6">
+					
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.2/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://www.alisoneroman.com/" data-api="https://alisoneroman.ghost.io/ghost/api/content/" data-admin="https://alisoneroman.ghost.io/ghost/" data-key="3473ce2252305060f99e25c8ca" data-title="" data-count="false" data-post-id="6853ce0c012b8100013e0389" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#290A08" data-comments-enabled="paid" data-publication="Alison Roman" crossorigin="anonymous"></script>
+    
+				</div>
+			</div>
+</article>
+    <div class="signup-card-container mx-auto !py-16 !px-4 sm:!px-20 md:!py-40 site-max:!py-48 flex justify-center items-center !bg-transparent">
+        <div class="signup-card !py-14 sm:!py-28 !px-4 md:!px-20 md:!py-40 w-full text-center relative m-auto !bg-maroon selection:bg-brown-40 max-w-inner-content-max overflow-hidden">
+          <picture class="absolute inset-0 w-auto h-auto">
+            <!-- Serve the AVIF format if the browser supports it -->
+            <source 
+              srcset="/content/images/size/w360/format/avif/2025/09/AR_Subscribe.webp 360w,
+                      /content/images/size/w600/format/avif/2025/09/AR_Subscribe.webp 600w,
+                      /content/images/size/w820/format/avif/2025/09/AR_Subscribe.webp 820w,
+                      /content/images/size/w1200/format/avif/2025/09/AR_Subscribe.webp 1200w,
+                      /content/images/2025/09/AR_Subscribe.webp 2312w"
+              sizes="(min-width: 1360px) 1200px, (min-width: 720px) calc(100vw - 80px), calc(100vw - 16px)"
+              type="image/avif"
+            >
+            <!-- Serve the WebP format if the browser supports it -->
+            <source 
+              srcset="/content/images/size/w360/format/webp/2025/09/AR_Subscribe.webp 360w,
+                      /content/images/size/w600/format/webp/2025/09/AR_Subscribe.webp 600w,
+                      /content/images/size/w820/format/webp/2025/09/AR_Subscribe.webp 820w,
+                      /content/images/size/w1200/format/webp/2025/09/AR_Subscribe.webp 1200w,
+                      /content/images/2025/09/AR_Subscribe.webp 2312w"
+              sizes="(min-width: 1360px) 1200px, (min-width: 720px) calc(100vw - 80px), calc(100vw - 16px)"
+              type="image/webp"
+            >
+            <!-- Serve original file format as a fallback -->
+            <img
+              srcset="/content/images/size/w360/2025/09/AR_Subscribe.webp 360w,
+                      /content/images/size/w600/2025/09/AR_Subscribe.webp 600w,
+                      /content/images/size/w820/2025/09/AR_Subscribe.webp 820w,
+                      /content/images/size/w1200/2025/09/AR_Subscribe.webp 1200w,
+                      /content/images/2025/09/AR_Subscribe.webp 2312w"
+              sizes="(min-width: 1360px) 1200px, (min-width: 720px) calc(100vw - 80px), calc(100vw - 16px)"
+              src="/content/images/2025/09/AR_Subscribe.webp"
+              alt=""
+              aria-hidden="true"
+              class="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+            >
+          </picture>
+          
+          <!-- Notches positioned at the actual card edges -->
+          <div class="notch-tl absolute size-6 bg-cream pointer-events-none z-20 -top-px -left-px"></div>
+          <div class="notch-tr absolute size-6 bg-cream pointer-events-none z-20 -top-px -right-px"></div>
+          <div class="notch-bl absolute size-6 bg-cream pointer-events-none z-20 -bottom-px -left-px"></div>
+          <div class="notch-br absolute size-6 bg-cream pointer-events-none z-20 -bottom-px -right-px"></div>
+          
+          <div class="relative z-10">
+      <div class="signup-container w-full mx-auto px-4 py-16 md:px-32 max-sm-md:max-w-[476px]">
+        <h2 class="signup-card-header text-display !text-cream !mb-4 mx-auto max-w-[300px] sm-md:max-w-[550px] md:max-w-[650px]">Subscribe to A Newsletter</h2>
+        <p class="signup-card-text !text-action !text-cream !mb-8 mx-auto">
+          recipes, opinions, recommendations, and so much more.
+        </p>
+        <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js"
+          data-button-color="#FFFAEC"
+          data-button-text-color="#46332f"
+          data-site="https://www.alisoneroman.com"
+          data-locale="en"
+          defer>
+        </script>
+      </div>
+    </div>
+  </div>
+</div>   </div>
+</main>
+        <div class="recipe-more-recipes-container flex flex-col gap-12 py-12 bg-white px-4 sm-md:px-6 mt-24 md:mt-32 justify-center items-center">
+          <h2 class="text-subhead text-brown recipe-more-recipes-title text-center">More recipes</h2>
+          <div class="recipe-more-recipes grid grid-cols-1 sm:grid-cols-3 gap-x-4 sm-md:gap-x-6 gap-y-12">
+              <div class="list-item-container relative">
+    <a class="gh-list-item-inner" href="/recipes/kale-salad-with-honeyd-walnuts/">
+        <article class="gh-list-item post no-image group relative">
+            <figure class="gh-list-item-image relative bg-butter">
+                    <!-- Placeholder when no feature image -->
+                    <div class="feature-image-placeholder size-full bg-yellow text-cream flex items-center justify-center [&>svg]:w-[62%] group-hover:opacity-70 transition-opacity duration-200 ease-in-out">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="80" viewBox="0 0 110 80" fill="none">
+  <path d="M71.172 0.0230582L71.118 1.64298C67.3513 6.93738 64.5584 12.5651 62.1071 18.5757C57.834 29.0484 56.4056 37.0937 54.7632 48.248C54.5469 49.7099 53.7036 51.799 53.5216 53.1744C53.4675 53.5819 53.3004 55.471 54.006 55.2141C55.4295 53.9671 57.8709 52.8929 58.6773 51.1495C59.7665 48.7937 59.5231 45.9959 60.3394 43.2993C62.6578 35.6367 71.5162 26.3888 78.7569 23.2058C83.9175 20.9364 89.7985 19.8968 95.3869 20.0795C96.5695 20.119 99.2175 20.7611 100.181 20.5635C100.395 20.5191 103.786 18.7139 104.049 18.509C104.644 18.0472 104.875 17.3014 105.664 16.7903C108.693 14.8246 110.539 20.9389 108.386 21.5908C106.709 22.0995 106.406 19.7165 105.371 19.8079C104.821 19.8548 103.2 20.9092 103.191 21.497C103.321 23.0576 104.511 23.1292 105.246 23.8083C112.241 30.2658 111.196 39.6964 104.213 45.6921C103.016 46.7194 99.9895 48.9493 98.6372 49.6086C97.2678 50.2753 96.0188 50.3371 94.5904 50.6877C94.4158 51.1446 94.4428 51.6483 94.465 52.1274C94.6592 56.1254 93.9462 60.1579 93.0857 64.099C92.9087 64.9115 92.3186 65.6548 92.1957 66.5487C92.0064 67.9291 92.0801 72.3691 93.0611 73.3519C94.5412 73.6927 96.3016 74.315 97.6095 73.3445C100.285 71.3541 102.716 68.0896 104.612 65.3856C105.15 64.6176 106.387 64.1336 105.971 62.9656C105.836 62.5828 105.283 62.5458 105.116 62.2742C104.263 60.9012 105.123 59.1874 106.239 58.2762C107.69 57.0909 108 58.6516 107.798 59.9677C108.504 60.353 108.681 58.8763 109.214 59.7035C109.573 60.2591 109.022 61.3037 108.789 61.8642C106.883 66.4178 103.37 69.9491 100.112 73.4754C99.0822 74.5891 99.4633 75.0039 97.5972 75.8386C95.6377 76.7152 93.1644 77.4733 91.8097 75.3842C88.5028 70.2849 91.8662 62.9952 92.4268 57.523C92.5546 56.2883 92.8619 51.6063 91.7408 51.0112C90.1157 51.1273 86.1426 48.9641 84.987 50.0506L80.3058 57.5675C77.235 60.8172 74.4445 64.3929 71.4326 67.8229C69.2199 70.3417 64.3961 76.2633 61.6744 77.8339C61.3007 78.0487 54.7264 79.8958 54.0699 79.9896C52.9045 80.1526 50.0624 78.3524 49.2584 77.4807C48.8601 77.0461 48.1791 75.8262 47.8889 75.2533C47.2694 74.0211 47.3702 72.1863 47.9529 71.7715C48.7667 71.1936 48.9855 69.9762 50.4754 70.3219C54.3526 71.2233 53.3225 77.7622 57.6373 76.3522C63.6315 74.3915 75.0542 60.4098 78.929 55.0166C83.8019 48.2356 86.6908 40.2817 90.9393 33.1352C92.8029 30.0016 95.1853 27.2482 97.1621 24.196C97.5899 23.0107 96.7171 22.4971 95.6451 22.3909C90.8016 21.9168 84.3674 22.7835 79.8362 24.5541C71.74 27.7198 61.4531 38.5877 61.4138 47.7516C61.4064 49.7913 61.9153 50.9001 63.5036 52.1027C66.3876 54.2857 67.6611 54.1177 70.8229 52.5497C74.2256 50.8631 77.4341 46.754 78.2701 43.0499C78.3979 42.4893 78.4569 39.7384 78.216 39.3804C76.9277 38.5482 76.4679 40.7262 75.6516 41.4497C75.0542 41.9782 73.8814 42.5683 73.0848 42.4967C72.6103 42.4548 70.4148 41.1707 70.2132 40.8595C69.3379 39.4915 70.3509 37.1949 71.413 36.1627C72.4726 35.133 73.5594 35.1058 74.6362 34.5132C76.104 33.7057 76.4851 31.9376 78.0389 34.1576C82.966 41.2003 78.3733 50.384 71.5556 54.0609C69.5813 55.1252 67.7693 55.3055 65.6746 55.8611C63.9978 54.6561 61.9719 54.4215 60.4156 53.1226L59.9042 53.1423L53.052 59.2738C51.744 62.0519 53.2118 65.4671 52.7201 68.0748C52.3612 69.9663 50.7385 69.228 49.7796 69.2354C48.8085 69.2428 47.5447 69.8429 46.5613 68.8699C46.1777 68.4896 45.568 66.0523 45.5877 65.4967C45.6172 64.6596 47.0284 63.5854 45.9024 62.8298C43.2667 63.4175 40.9999 63.7188 38.2536 63.578C34.251 63.3706 30.5434 62.2272 26.7497 61.0469C26.2777 61.1555 26.1449 62.2519 25.8327 62.6816C22.1054 67.7933 14.5771 73.7272 8.26341 74.878C6.38995 75.2188 4.49681 74.7397 2.63564 74.3989C0.784299 72.9543 0.67612 71.2159 0 69.1564C1.16047 67.8698 2.40453 63.1483 4.67383 64.6349C4.8951 64.7806 5.9056 66.3783 5.99411 66.6549C6.38995 67.8945 4.8951 69.2601 5.8343 70.6751C6.29652 71.0134 7.08819 70.4454 7.71022 70.5639C8.42076 70.6973 9.29357 71.8406 10.2942 71.7468C10.8499 71.6949 15.3811 69.1737 16.1728 68.6773C17.2472 68.0032 19.1526 66.7092 20.0648 65.8968C20.9179 65.1387 24.3723 61.3778 24.6894 60.5036C25.1885 59.1331 22.9291 58.4046 21.9751 57.5453C19.7919 55.5771 17.2128 52.6386 16.4113 49.7568C15.5163 46.5441 15.3934 39.7952 15.9048 36.506C16.0277 35.7158 16.2293 35.1206 16.726 34.5008C17.2792 33.8119 22.1521 30.6066 23.0249 30.2806C27.48 28.6187 34.7796 30.2238 38.7183 32.75C39.4583 33.2241 40.7934 35.2886 41.676 34.7329C42.7824 32.1648 44.7321 29.9942 46.2761 27.6507C50.3082 21.5217 54.4166 16.0643 59.1248 10.4538C61.4654 7.66585 64.2732 4.53218 67.0612 2.21588C68.2217 1.25282 69.6084 -0.23129 71.1647 0.0304661L71.172 0.0230582ZM51.0114 44.6056C52.2014 43.1808 52.1276 40.3459 52.8013 38.3037C54.9378 31.8289 57.5759 25.3196 59.9755 19.0103C60.9811 16.3655 62.1907 13.6912 62.4587 10.8316C59.4002 12.9355 57.33 16.0865 55.0263 18.9288C51.985 22.6823 50.3082 25.3566 47.6701 29.2929C46.1458 31.5647 44.3092 33.6933 42.7824 35.9751C42.4505 37.0986 45.1304 41.0719 45.6885 42.477C46.6719 44.9464 47.1931 47.6849 47.7119 50.1988C47.7783 50.5248 48.511 53.9375 48.8822 53.5448L51.0089 44.6105L51.0114 44.6056ZM105.339 28.4829C104.985 28.1619 104.826 27.6606 104.336 27.2976C104.093 27.1148 101.381 25.5838 101.206 25.5468C99.0896 25.0998 97.1694 28.962 96.1221 30.3646C94.1576 32.9871 92.4612 35.2836 90.8901 38.2296C90.332 39.2766 88.9405 41.7362 88.6946 42.7338C88.2668 44.4747 89.7174 44.4525 90.6197 45.1958C92.7316 46.9392 92.8521 48.085 96.1295 47.6059C99.9846 47.0429 105.433 42.4473 106.95 38.921C107.99 36.5035 108.58 32.8611 107.402 30.3967C107.233 30.0411 105.784 28.8805 105.344 28.4829H105.339ZM26.5998 58.4268L39.9329 37.1851C40.1713 35.491 36.8596 33.4785 35.5442 32.8513C31.4433 30.9004 25.6385 30.4312 21.9874 33.5921C20.7704 34.6465 20.6622 36.017 19.8337 36.8319C19.4255 37.232 18.6584 37.3752 18.5257 37.5777C18.4298 37.7234 17.4857 40.6422 17.4414 40.862C16.4826 45.5613 18.2479 51.6582 21.7342 54.9573L26.5998 58.4268ZM28.6871 59.4245C32.0849 60.6987 36.1638 61.2913 39.8025 61.0098C40.7417 60.9357 46.34 59.7035 46.7063 59.1973C46.8858 58.9479 47.0751 57.9107 47.0678 57.5551C47.0333 56.15 46.3154 52.4608 46.0106 50.9001C45.3025 47.275 44.0338 42.6029 41.9317 39.5606C40.7811 37.8987 40.8057 39.81 40.1738 40.741C37.0907 45.7316 33.5822 50.5223 30.4893 55.5129C30.1058 56.1328 28.3872 58.9355 28.6896 59.4269L28.6871 59.4245Z" fill="#FFF3CC"/>
+</svg>                    </div>
+            </figure>
+            <div class="gh-list-item-content mt-4 group-hover:opacity-70 transition-opacity duration-200 ease-in-out ">
+                    <h3 class="gh-list-item-title">Kale Salad with Honey’d Walnuts</h3>
+                <p class="gh-list-item-excerpt text-action text-brown-40 before:hidden">Kale salad, how 2013, I know. But it’s undeniably a great candidate for a meal like this. It’s sturdy, almost masquerading as a side instead of a salad, it’s one of the only salad greens that get better with age and can even be saved as a leftover with little to no consequences.</p>
+            </div>
+        </article>
+    </a>
+</div>              <div class="list-item-container relative">
+    <a class="gh-list-item-inner" href="/recipes/citrus-salad-with-bitter-greens/">
+        <article class="gh-list-item post group relative">
+            <figure class="gh-list-item-image relative bg-butter">
+                    <picture class="group-hover:opacity-70 transition-opacity duration-200 ease-in-out">
+                        <!-- Serve the AVIF format if the browser supports it -->
+                        <source 
+                            srcset="/content/images/size/w200/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 200w,
+                                /content/images/size/w360/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 360w,
+                                /content/images/size/w600/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 600w,
+                                /content/images/size/w820/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 820w,
+                                /content/images/size/w1200/format/avif/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 1200w"
+                            sizes="(min-width: 2500px) 820px, (min-width: 720px) 33vw, 100vw"
+                            type="image/avif"
+                        >
+                        <!-- Serve the WebP format if the browser supports it -->
+                        <source 
+                            srcset="/content/images/size/w200/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 200w,
+                                /content/images/size/w360/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 360w,
+                                /content/images/size/w600/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 600w,
+                                /content/images/size/w820/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 820w,
+                                /content/images/size/w1200/format/webp/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 1200w"
+                            sizes="(min-width: 2500px) 820px, (min-width: 720px) 33vw, 100vw"
+                            type="image/webp"
+                        >
+                        <!-- Serve original file format as a fallback -->
+                        <img
+                            srcset="/content/images/size/w200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 200w,
+                                /content/images/size/w360/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 360w,
+                                /content/images/size/w600/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 600w,
+                                /content/images/size/w820/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 820w,
+                                /content/images/size/w1200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg 1200w"
+                            sizes="(min-width: 2500px) 820px, (min-width: 720px) 33vw, 100vw"
+                            src="/content/images/size/w1200/images-squarespace-cdn-com/content/v1/541b1515e4b0a990b33a796e/34656501-1aef-452a-8b79-02de0f8d6bb8/img_2157_vsco.jpg"
+                            alt="Citrus Salad with Bitter Greens"
+                            decoding="async"
+                        >
+                    </picture>
+            </figure>
+            <div class="gh-list-item-content mt-4 group-hover:opacity-70 transition-opacity duration-200 ease-in-out ">
+                    <h3 class="gh-list-item-title">Citrus Salad with Bitter Greens</h3>
+                <p class="gh-list-item-excerpt text-action text-brown-40 before:hidden">The perfect way to use winter citrus. Arrange bitter leaves on a plate, layer with sliced citrus and onion and season casually with flaky salt, vinegar and oil.</p>
+            </div>
+        </article>
+    </a>
+</div>              <div class="list-item-container relative">
+    <a class="gh-list-item-inner" href="/recipes/any-greens-mustard-dressing/">
+        <article class="gh-list-item post no-image group relative">
+            <figure class="gh-list-item-image relative bg-butter">
+                    <!-- Placeholder when no feature image -->
+                    <div class="feature-image-placeholder size-full bg-yellow text-cream flex items-center justify-center [&>svg]:w-[62%] group-hover:opacity-70 transition-opacity duration-200 ease-in-out">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="80" viewBox="0 0 110 80" fill="none">
+  <path d="M71.172 0.0230582L71.118 1.64298C67.3513 6.93738 64.5584 12.5651 62.1071 18.5757C57.834 29.0484 56.4056 37.0937 54.7632 48.248C54.5469 49.7099 53.7036 51.799 53.5216 53.1744C53.4675 53.5819 53.3004 55.471 54.006 55.2141C55.4295 53.9671 57.8709 52.8929 58.6773 51.1495C59.7665 48.7937 59.5231 45.9959 60.3394 43.2993C62.6578 35.6367 71.5162 26.3888 78.7569 23.2058C83.9175 20.9364 89.7985 19.8968 95.3869 20.0795C96.5695 20.119 99.2175 20.7611 100.181 20.5635C100.395 20.5191 103.786 18.7139 104.049 18.509C104.644 18.0472 104.875 17.3014 105.664 16.7903C108.693 14.8246 110.539 20.9389 108.386 21.5908C106.709 22.0995 106.406 19.7165 105.371 19.8079C104.821 19.8548 103.2 20.9092 103.191 21.497C103.321 23.0576 104.511 23.1292 105.246 23.8083C112.241 30.2658 111.196 39.6964 104.213 45.6921C103.016 46.7194 99.9895 48.9493 98.6372 49.6086C97.2678 50.2753 96.0188 50.3371 94.5904 50.6877C94.4158 51.1446 94.4428 51.6483 94.465 52.1274C94.6592 56.1254 93.9462 60.1579 93.0857 64.099C92.9087 64.9115 92.3186 65.6548 92.1957 66.5487C92.0064 67.9291 92.0801 72.3691 93.0611 73.3519C94.5412 73.6927 96.3016 74.315 97.6095 73.3445C100.285 71.3541 102.716 68.0896 104.612 65.3856C105.15 64.6176 106.387 64.1336 105.971 62.9656C105.836 62.5828 105.283 62.5458 105.116 62.2742C104.263 60.9012 105.123 59.1874 106.239 58.2762C107.69 57.0909 108 58.6516 107.798 59.9677C108.504 60.353 108.681 58.8763 109.214 59.7035C109.573 60.2591 109.022 61.3037 108.789 61.8642C106.883 66.4178 103.37 69.9491 100.112 73.4754C99.0822 74.5891 99.4633 75.0039 97.5972 75.8386C95.6377 76.7152 93.1644 77.4733 91.8097 75.3842C88.5028 70.2849 91.8662 62.9952 92.4268 57.523C92.5546 56.2883 92.8619 51.6063 91.7408 51.0112C90.1157 51.1273 86.1426 48.9641 84.987 50.0506L80.3058 57.5675C77.235 60.8172 74.4445 64.3929 71.4326 67.8229C69.2199 70.3417 64.3961 76.2633 61.6744 77.8339C61.3007 78.0487 54.7264 79.8958 54.0699 79.9896C52.9045 80.1526 50.0624 78.3524 49.2584 77.4807C48.8601 77.0461 48.1791 75.8262 47.8889 75.2533C47.2694 74.0211 47.3702 72.1863 47.9529 71.7715C48.7667 71.1936 48.9855 69.9762 50.4754 70.3219C54.3526 71.2233 53.3225 77.7622 57.6373 76.3522C63.6315 74.3915 75.0542 60.4098 78.929 55.0166C83.8019 48.2356 86.6908 40.2817 90.9393 33.1352C92.8029 30.0016 95.1853 27.2482 97.1621 24.196C97.5899 23.0107 96.7171 22.4971 95.6451 22.3909C90.8016 21.9168 84.3674 22.7835 79.8362 24.5541C71.74 27.7198 61.4531 38.5877 61.4138 47.7516C61.4064 49.7913 61.9153 50.9001 63.5036 52.1027C66.3876 54.2857 67.6611 54.1177 70.8229 52.5497C74.2256 50.8631 77.4341 46.754 78.2701 43.0499C78.3979 42.4893 78.4569 39.7384 78.216 39.3804C76.9277 38.5482 76.4679 40.7262 75.6516 41.4497C75.0542 41.9782 73.8814 42.5683 73.0848 42.4967C72.6103 42.4548 70.4148 41.1707 70.2132 40.8595C69.3379 39.4915 70.3509 37.1949 71.413 36.1627C72.4726 35.133 73.5594 35.1058 74.6362 34.5132C76.104 33.7057 76.4851 31.9376 78.0389 34.1576C82.966 41.2003 78.3733 50.384 71.5556 54.0609C69.5813 55.1252 67.7693 55.3055 65.6746 55.8611C63.9978 54.6561 61.9719 54.4215 60.4156 53.1226L59.9042 53.1423L53.052 59.2738C51.744 62.0519 53.2118 65.4671 52.7201 68.0748C52.3612 69.9663 50.7385 69.228 49.7796 69.2354C48.8085 69.2428 47.5447 69.8429 46.5613 68.8699C46.1777 68.4896 45.568 66.0523 45.5877 65.4967C45.6172 64.6596 47.0284 63.5854 45.9024 62.8298C43.2667 63.4175 40.9999 63.7188 38.2536 63.578C34.251 63.3706 30.5434 62.2272 26.7497 61.0469C26.2777 61.1555 26.1449 62.2519 25.8327 62.6816C22.1054 67.7933 14.5771 73.7272 8.26341 74.878C6.38995 75.2188 4.49681 74.7397 2.63564 74.3989C0.784299 72.9543 0.67612 71.2159 0 69.1564C1.16047 67.8698 2.40453 63.1483 4.67383 64.6349C4.8951 64.7806 5.9056 66.3783 5.99411 66.6549C6.38995 67.8945 4.8951 69.2601 5.8343 70.6751C6.29652 71.0134 7.08819 70.4454 7.71022 70.5639C8.42076 70.6973 9.29357 71.8406 10.2942 71.7468C10.8499 71.6949 15.3811 69.1737 16.1728 68.6773C17.2472 68.0032 19.1526 66.7092 20.0648 65.8968C20.9179 65.1387 24.3723 61.3778 24.6894 60.5036C25.1885 59.1331 22.9291 58.4046 21.9751 57.5453C19.7919 55.5771 17.2128 52.6386 16.4113 49.7568C15.5163 46.5441 15.3934 39.7952 15.9048 36.506C16.0277 35.7158 16.2293 35.1206 16.726 34.5008C17.2792 33.8119 22.1521 30.6066 23.0249 30.2806C27.48 28.6187 34.7796 30.2238 38.7183 32.75C39.4583 33.2241 40.7934 35.2886 41.676 34.7329C42.7824 32.1648 44.7321 29.9942 46.2761 27.6507C50.3082 21.5217 54.4166 16.0643 59.1248 10.4538C61.4654 7.66585 64.2732 4.53218 67.0612 2.21588C68.2217 1.25282 69.6084 -0.23129 71.1647 0.0304661L71.172 0.0230582ZM51.0114 44.6056C52.2014 43.1808 52.1276 40.3459 52.8013 38.3037C54.9378 31.8289 57.5759 25.3196 59.9755 19.0103C60.9811 16.3655 62.1907 13.6912 62.4587 10.8316C59.4002 12.9355 57.33 16.0865 55.0263 18.9288C51.985 22.6823 50.3082 25.3566 47.6701 29.2929C46.1458 31.5647 44.3092 33.6933 42.7824 35.9751C42.4505 37.0986 45.1304 41.0719 45.6885 42.477C46.6719 44.9464 47.1931 47.6849 47.7119 50.1988C47.7783 50.5248 48.511 53.9375 48.8822 53.5448L51.0089 44.6105L51.0114 44.6056ZM105.339 28.4829C104.985 28.1619 104.826 27.6606 104.336 27.2976C104.093 27.1148 101.381 25.5838 101.206 25.5468C99.0896 25.0998 97.1694 28.962 96.1221 30.3646C94.1576 32.9871 92.4612 35.2836 90.8901 38.2296C90.332 39.2766 88.9405 41.7362 88.6946 42.7338C88.2668 44.4747 89.7174 44.4525 90.6197 45.1958C92.7316 46.9392 92.8521 48.085 96.1295 47.6059C99.9846 47.0429 105.433 42.4473 106.95 38.921C107.99 36.5035 108.58 32.8611 107.402 30.3967C107.233 30.0411 105.784 28.8805 105.344 28.4829H105.339ZM26.5998 58.4268L39.9329 37.1851C40.1713 35.491 36.8596 33.4785 35.5442 32.8513C31.4433 30.9004 25.6385 30.4312 21.9874 33.5921C20.7704 34.6465 20.6622 36.017 19.8337 36.8319C19.4255 37.232 18.6584 37.3752 18.5257 37.5777C18.4298 37.7234 17.4857 40.6422 17.4414 40.862C16.4826 45.5613 18.2479 51.6582 21.7342 54.9573L26.5998 58.4268ZM28.6871 59.4245C32.0849 60.6987 36.1638 61.2913 39.8025 61.0098C40.7417 60.9357 46.34 59.7035 46.7063 59.1973C46.8858 58.9479 47.0751 57.9107 47.0678 57.5551C47.0333 56.15 46.3154 52.4608 46.0106 50.9001C45.3025 47.275 44.0338 42.6029 41.9317 39.5606C40.7811 37.8987 40.8057 39.81 40.1738 40.741C37.0907 45.7316 33.5822 50.5223 30.4893 55.5129C30.1058 56.1328 28.3872 58.9355 28.6896 59.4269L28.6871 59.4245Z" fill="#FFF3CC"/>
+</svg>                    </div>
+            </figure>
+            <div class="gh-list-item-content mt-4 group-hover:opacity-70 transition-opacity duration-200 ease-in-out ">
+                    <h3 class="gh-list-item-title">Any-Greens Mustard Dressing</h3>
+                <p class="gh-list-item-excerpt text-action text-brown-40 before:hidden">This one is pretty basic, but very good, with lots of whole grain mustard– the spicier the better for me– but Dijon works, too (just expect a creamier texture). As for the greens, peppery arugula, crisp romaine, and ruffly kale are all great contenders, but my hands-down favorite is escarole.</p>
+            </div>
+        </article>
+    </a>
+</div>          </div>
+          <a href="/recipes" class="button-primary mb-4 sm-md:mb-8">All recipes</a>
+        </div>
+
+<script defer src="https://www.alisoneroman.com/assets/built/inline/wrapFirstParagraph.js?v=5037338943"></script>
+<script defer src="https://www.alisoneroman.com/assets/built/inline/recipeDetailLayout.js?v=5037338943"></script>
+<script defer src="https://www.alisoneroman.com/assets/built/inline/commentSectionIframeStyleOverride.js?v=5037338943"></script>
+<script defer src="https://www.alisoneroman.com/assets/built/inline/mobileIngredientsDrawer.js?v=5037338943"></script>
+            </div>
+
+            <footer class="custom-footer">
+  <div class="footer-top text-cream">
+    <a href="https://www.alisoneroman.com" aria-label="Alison Roman">
+        <img src="https://www.alisoneroman.com/content/images/2025/09/ar-markers-mark.svg" alt="Alison Roman logo" loading="lazy" decoding="async" />
+    </a>
+    <div class="footer-nav">
+      <ul class="footer-nav-col">
+        <li><a href="https://www.youtube.com/user/alisoneroman" target="_blank" rel="noopener noreferrer">Home Movies</a></li>
+        <li><a href="/solicited-advice">Solicited Advice</a></li>
+      </ul>
+      <div class="footer-nav-col">
+        <ul class="nav">
+    <li class="nav-first-bloom"><a href="https://firstbloomcornerstore.com/">First Bloom</a></li>
+    <li class="nav-merch"><a href="https://shop.alisoneroman.com/">Merch</a></li>
+    <li class="nav-about-alison"><a href="https://www.alisoneroman.com/about/">About Alison</a></li>
+    <li class="nav-books"><a href="https://www.alisoneroman.com/books/">Books</a></li>
+    <li class="nav-press"><a href="https://www.alisoneroman.com/press/">Press</a></li>
+</ul>
+
+      </div>
+      <ul class="footer-nav-col">
+        <li><a href="https://www.instagram.com/alisoneroman" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><div class="footer-spacing"></div></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-tip-text"></p>
+  </div>
+</footer>        </div>
+
+            <div class='pswp' tabindex='-1' role='dialog' aria-hidden='true'>
+  <div class='pswp__bg'></div>
+
+  <div class='pswp__scroll-wrap'>
+    <div class='pswp__container'>
+      <div class='pswp__item'></div>
+      <div class='pswp__item'></div>
+      <div class='pswp__item'></div>
+    </div>
+
+    <div class='pswp__ui pswp__ui--hidden'>
+      <div class='pswp__top-bar'>
+        <div class='pswp__counter'></div>
+
+        <button class='pswp__button pswp__button--close' title='Close (Esc)'></button>
+        <button class='pswp__button pswp__button--share' title='Share'></button>
+        <button class='pswp__button pswp__button--fs' title='Toggle fullscreen'></button>
+        <button class='pswp__button pswp__button--zoom' title='Zoom in/out'></button>
+
+        <div class='pswp__preloader'>
+          <div class='pswp__preloader__icn'>
+            <div class='pswp__preloader__cut'>
+              <div class='pswp__preloader__donut'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='pswp__share-modal pswp__share-modal--hidden pswp__single-tap'>
+        <div class='pswp__share-tooltip'></div>
+      </div>
+
+      <button class='pswp__button pswp__button--arrow--left' title='Previous (arrow left)'></button>
+      <button class='pswp__button pswp__button--arrow--right' title='Next (arrow right)'></button>
+
+      <div class='pswp__caption'>
+        <div class='pswp__caption__center'></div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+
+        <script defer>
+        document.addEventListener('DOMContentLoaded', function () {
+          const main = document.querySelector('main.gh-main');
+          if (!main) {
+            return;
+          }
+
+          // Add fade-in class after DOM is loaded
+          main.classList.add('page-loaded');
+        });
+        </script>
+
+        <script defer>
+        // Handle external links: add target="_blank" and remove ref parameter
+        document.addEventListener('DOMContentLoaded', function() {
+          const links = document.querySelectorAll('a[href]');
+          const currentDomain = window.location.hostname;
+          
+          links.forEach(link => {
+            const href = link.getAttribute('href');
+            
+            // Skip if it's not a full URL or is relative/internal
+            if (!href || href.startsWith('/') || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+              return;
+            }
+            
+            try {
+              const url = new URL(href);
+              
+              // Check if it's an external link
+              if (url.hostname !== currentDomain) {
+                // Add target="_blank" and rel attributes for external links
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer');
+                
+                // Remove the ref parameter
+                url.searchParams.delete('ref');
+                
+                // Update the href with the cleaned URL
+                link.setAttribute('href', url.toString());
+              }
+            } catch (e) {
+              // Invalid URL, skip
+            }
+          });
+        });
+        </script>
+
+        <script defer src="https://www.alisoneroman.com/assets/built/main.min.js?v=5037338943"></script>
+        
+        <script defer src="https://unpkg.com/alpinejs@3.14.9/dist/cdn.min.js"></script>
+        
+        <script defer src="https://www.alisoneroman.com/assets/built/inline/portalIframeTextOverride.js?v=5037338943"></script>
+    </body>
+</html>
