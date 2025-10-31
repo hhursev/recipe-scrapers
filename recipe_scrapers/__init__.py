@@ -141,6 +141,7 @@ from .creativecanning import CreativeCanning
 from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
 from .cuisinezpourbebe import CuisinezPourBebe
+from .culinaryhill import CulinaryHill
 from .culy import Culy
 from .cybercook import Cybercook
 from .dagelijksekost import DagelijkseKost
@@ -671,6 +672,7 @@ SCRAPERS = {
     Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
     CuisinezPourBebe.host(): CuisinezPourBebe,
+    CulinaryHill.host(): CulinaryHill,
     Culy.host(): Culy,
     Cybercook.host(): Cybercook,
     DagelijkseKost.host(): DagelijkseKost,
