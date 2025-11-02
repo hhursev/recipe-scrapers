@@ -45,10 +45,16 @@ class Continente(AbstractScraper):
         return self._data.get("name") or self.soup.find("h1").get_text(strip=True)
 
     def description(self):
-        return normalize_string(
-            self._data.get("description")
-            or self.soup.find("meta", {"name": "description"}).get("content", "")
-        )
+        container = self.soup.find("div", class_="detailsTextBlock")
+        if not container:
+            return ""
+    
+        paragraphs = container.find_all("p")
+        texts = [p.get_text(" ", strip=True) for p in paragraphs if p.get_text(strip=True)]
+        text = " ".join(texts).strip()
+    
+        # Fix spaces before punctuation
+        return re.sub(r"\s+([.,;!?])", r"\1", text)
 
     def image(self):
         image = self._data.get("image")
