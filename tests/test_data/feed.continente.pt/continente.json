@@ -1,8 +1,8 @@
 {
-  "host": "feed.continente.pt",
+  "author": "Continente",
   "canonical_url": "https://feed.continente.pt/receitas/muesli",
   "site_name": "Continente",
-  "author": "Continente",
+  "host": "feed.continente.pt",
   "language": "pt-PT",
   "title": "Muesli",
   "ingredients": [
@@ -24,8 +24,8 @@
     "Transferir o muesli para um tabuleiro forrado com papel vegetal e espalhar.",
     "Levar ao forno a 150ºC durante 50 minutos, mexendo de 15 em 15 minutos para que fique tostado uniformemente."
   ],
-  "total_time": 60,
   "yields": "12 servings",
-  "image": "https://feed.continente.pt/media/qqqmsuls/muesli.jpg",
-  "description": "Croccante, dourado e cheio de sabor — este muesli é a escolha ideal para um pequeno-almoço nutritivo e irresistível. Aproveite e conheça a nossa receita de granola e de bolachas de manteiga de amendoim."
+  "description": "Croccante, dourado e cheio de sabor — este muesli é a escolha ideal para um pequeno-almoço nutritivo e irresistível. Aproveite e conheça a nossa receita de granola e de bolachas de manteiga de amendoim.",
+  "total_time": 60,
+  "image": "https://feed.continente.pt/media/qqqmsuls/muesli.jpg"
 }
