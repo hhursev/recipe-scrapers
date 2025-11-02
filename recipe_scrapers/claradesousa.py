@@ -22,13 +22,13 @@ class ClaraDeSousa(AbstractScraper):
     # CORE FIELDS
     # -------------------------------------------------------------------------
     def title(self):
-        h1 = self.soup.find("h1", class_="elementor-heading-title")
-        if h1:
-            return html.unescape(h1.get_text(strip=True))
-        meta = self.soup.find("meta", property="og:title")
-        if meta and meta.get("content"):
-            return html.unescape(meta["content"])
-        return None
+        title_tag = self.soup.find("h1")
+        if not title_tag:
+            return None
+        title = title_tag.get_text(" ", strip=True)
+        # ensure space before parenthesis if missing
+        title = re.sub(r"(?<=\w)\(", " (", title)
+        return title.strip()
 
     def description(self):
         meta = self.soup.find("meta", {"name": "description"})
