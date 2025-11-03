@@ -521,6 +521,7 @@ from .tofoo import Tofoo
 from .toriavey import ToriAvey
 from .tudogostoso import TudoGostoso
 from .twentyfourkitchen import TwentyFourKitchen
+from .twentyfourkitchenpt import TwentyFourKitchenPT
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .uitpaulineskeukennl import UitPaulinesKeukenNL
 from .unsophisticook import Unsophisticook
@@ -1076,6 +1077,7 @@ SCRAPERS = {
     ToriAvey.host(): ToriAvey,
     TudoGostoso.host(): TudoGostoso,
     TwentyFourKitchen.host(): TwentyFourKitchen,
+    TwentyFourKitchenPT.host(): TwentyFourKitchenPT,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
     Unsophisticook.host(): Unsophisticook,
