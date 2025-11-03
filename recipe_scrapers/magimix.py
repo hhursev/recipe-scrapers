@@ -18,3 +18,11 @@ class Magimix(AbstractScraper):
                 if text:
                     instructions.append(text)
         return "\n".join(instructions)
+
+    def equipment(self):
+        equipment_items = []
+        for p in self.soup.select("div.recipe-equipment-content p"):
+            text = p.get_text(strip=True)
+            if text:
+                equipment_items.append(text)
+        return equipment_items
