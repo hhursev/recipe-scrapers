@@ -2,7 +2,7 @@ import functools
 import logging
 import re
 from collections import OrderedDict
-from collections.abc import Iterable, Iterator
+from collections.abc import Iterator
 from typing import Optional, Union
 
 from recipe_scrapers.settings import settings
@@ -108,10 +108,6 @@ class BestImagePlugin(PluginInterface):
             yield {"url": entry, "width": None, "height": None}
             return
 
-        if isinstance(entry, Iterable):
-            for item in entry:
-                yield from cls._normalize_entries(item)
-
     @classmethod
     def _collect_opengraph_candidates(
         cls, scraper, candidates: "OrderedDict[str, dict]"
@@ -120,7 +116,8 @@ class BestImagePlugin(PluginInterface):
         if soup is None:
             return
 
-        current: Optional[dict] = None
+        images: dict[str, dict] = {}
+        current_url: Optional[str] = None
         for meta in soup.find_all("meta"):
             prop = (meta.get("property") or meta.get("name") or "").lower()
             content = meta.get("content")
@@ -128,14 +125,30 @@ class BestImagePlugin(PluginInterface):
                 continue
 
             if prop in {"og:image", "og:image:url", "og:image:secure_url"}:
-                current = {"url": content.strip(), "width": None, "height": None}
+                url = content.strip()
+                current_url = url
+                if url not in images:
+                    images[url] = {
+                        "url": url,
+                        "width": None,
+                        "height": None,
+                    }
+                current = images[url]
                 cls._merge_candidate(candidates, current, "opengraph")
-            elif prop == "og:image:width" and current is not None:
-                current["width"] = cls._parse_dimension(content)
-                cls._merge_candidate(candidates, current, "opengraph")
-            elif prop == "og:image:height" and current is not None:
-                current["height"] = cls._parse_dimension(content)
-                cls._merge_candidate(candidates, current, "opengraph")
+            elif (
+                prop == "og:image:width"
+                and current_url is not None
+                and current_url in images
+            ):
+                images[current_url]["width"] = cls._parse_dimension(content)
+                cls._merge_candidate(candidates, images[current_url], "opengraph")
+            elif (
+                prop == "og:image:height"
+                and current_url is not None
+                and current_url in images
+            ):
+                images[current_url]["height"] = cls._parse_dimension(content)
+                cls._merge_candidate(candidates, images[current_url], "opengraph")
 
     @classmethod
     def _merge_candidate(
@@ -252,8 +265,8 @@ class BestImagePlugin(PluginInterface):
             candidate["height"] = height
 
         return (
-            int(width) if isinstance(width, int) else width,
-            int(height) if isinstance(height, int) else height,
+            int(width) if width is not None else None,
+            int(height) if height is not None else None,
         )
 
     @classmethod
