@@ -14,7 +14,7 @@ class SimplyCookit(AbstractScraper):
 
     def ingredients(self):
         ingredients = []
-        for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
+        for li in self.soup.find("ul", {"class": "recipe_ingredients"}).find_all("li"):
             if li.find("h3"):
                 continue
             ingredients.append(normalize_string(li.get_text()))
@@ -23,7 +23,7 @@ class SimplyCookit(AbstractScraper):
 
     def instructions(self):
         instructions = []
-        for li in self.soup.find("ul", {"class": "recipe_steps"}).findAll("li"):
+        for li in self.soup.find("ul", {"class": "recipe_steps"}).find_all("li"):
             li.find("span", {"class": "number"}).clear()
             instructions.append(normalize_string(li.get_text()))
 
@@ -33,7 +33,7 @@ class SimplyCookit(AbstractScraper):
         ingredient_groups = []
         current_group = None
 
-        for li in self.soup.find("ul", {"class": "recipe_ingredients"}).findAll("li"):
+        for li in self.soup.find("ul", {"class": "recipe_ingredients"}).find_all("li"):
             group_heading = li.find("h3")
             if group_heading:
                 if current_group:

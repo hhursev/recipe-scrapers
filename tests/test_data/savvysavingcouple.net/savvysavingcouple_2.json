@@ -1,0 +1,80 @@
+{
+  "author": "Amy Desrosiers",
+  "canonical_url": "https://www.savvysavingcouple.net/apple-turnovers/",
+  "site_name": "Savvy Saving Couple",
+  "host": "savvysavingcouple.net",
+  "language": "en-US",
+  "title": "Apple Turnovers Recipe",
+  "ingredients": [
+    "2 cups diced apples (peeled, cored )",
+    "17.3 puff pastry",
+    "4 tablespoons butter (divided )",
+    "2 teaspoons ground cinnamon (divided)",
+    "⅛ teaspoon nutmeg",
+    "2 tablespoons granulated sugar",
+    "1 cup powdered sugar",
+    "1-2 tablespoons milk (*can also use water )"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups diced apples (peeled, cored )",
+        "17.3 puff pastry",
+        "4 tablespoons butter (divided )",
+        "2 teaspoons ground cinnamon (divided)",
+        "⅛ teaspoon nutmeg",
+        "2 tablespoons granulated sugar"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1 cup powdered sugar",
+        "1-2 tablespoons milk (*can also use water )"
+      ],
+      "purpose": "Icing"
+    }
+  ],
+  "instructions_list": [
+    "Melt butter in a skillet over low heat. Add diced apples and spices (cinnamon/nutmeg). Cook until apples are soft, fragrant, and slightly caramelized, and juices thicken, about 5–8 minutes. Remove from heat and let cool slightly.",
+    "Preheat oven to 400°F (200°C). Unfold the puff pastry sheet onto a parchment-lined baking sheet. Cut the sheet into four equal squares.",
+    "Spoon 2–3 tablespoons of the cooled apple filling onto one half of each pastry square, leaving a border. Fold the empty half over the filling to form a triangle.",
+    "Use a fork to firmly crimp and seal the edges of the turnovers. Brush the tops generously with melted butter (or egg wash). Sprinkle with cinnamon and sugar (or coarse sugar).",
+    "Bake for 18–22 minutes, or until the pastry is puffed and golden brown.",
+    "Let cool on a wire rack for 10–15 minutes. For a glaze, whisk together powdered sugar and milk/water, then drizzle over the warm turnovers before serving."
+  ],
+  "category": "Dessert",
+  "yields": "8 servings",
+  "description": "Get the bakery look and taste at home! Our easy recipe uses puff pastry for quick, flaky apple turnovers filled with warm, cinnamon-spiced apples. Perfect for a simple, impressive dessert or breakfast treat.",
+  "total_time": 40,
+  "cook_time": 30,
+  "prep_time": 10,
+  "cuisine": "American",
+  "equipment": [
+    "baking sheets",
+    "pastry cutter",
+    "Spoon",
+    "skillet",
+    "wooden spoon",
+    "measuring spoons"
+  ],
+  "nutrients": {
+    "servingSize": "1 turnover",
+    "calories": "699 kcal",
+    "fatContent": "45 g",
+    "saturatedFatContent": "13 g",
+    "unsaturatedFatContent": "28 g",
+    "transFatContent": "0.2 g",
+    "carbohydrateContent": "69 g",
+    "sugarContent": "22 g",
+    "proteinContent": "8 g",
+    "sodiumContent": "299 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "15 mg"
+  },
+  "image": "https://www.savvysavingcouple.net/wp-content/uploads/2025/10/Iced-apple-turnovers-1.jpg",
+  "keywords": [
+    "apple",
+    "puff pastry"
+  ]
+}
