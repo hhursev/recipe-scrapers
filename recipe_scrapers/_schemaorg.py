@@ -226,9 +226,7 @@ class SchemaOrg:
             ingredients = [ingredients]
 
         return [
-            normalize_string(ingredient).replace("((", "(").replace("))", ")")
-            for ingredient in ingredients
-            if ingredient
+            normalize_string(ingredient) for ingredient in ingredients if ingredient
         ]
 
     def nutrients(self):
@@ -236,7 +234,9 @@ class SchemaOrg:
         cleaned_nutrients = {}
 
         for key, val in nutrients.items():
-            if not key or key.startswith("@") or not val:
+            if not key or not val:
+                continue
+            if key.startswith("@") or key == "type":
                 continue
 
             cleaned_nutrients[key] = str(val)

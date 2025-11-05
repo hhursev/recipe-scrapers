@@ -39,12 +39,12 @@ class NIHHealthyEating(AbstractScraper):
             )
 
         i = 0
-        for t in time_table.findAll("th"):
+        for t in time_table.find_all("th"):
             if "Yields" in t:
                 break
             i += 1
 
-        if i >= len(time_table.findAll("td")):
+        if i >= len(time_table.find_all("td")):
             raise ElementNotFoundInHtml(
                 "Table cells with servings that the recipe yields were not found."
             )
@@ -94,7 +94,7 @@ class NIHHealthyEating(AbstractScraper):
             return section
 
         # Default case
-        ingredients_p = ingredients_div.findAll("p")
+        ingredients_p = ingredients_div.find_all("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
         ingredients_list = [
             ing for ing in ingredients if not ing.lower().startswith("recipe cards")
@@ -134,7 +134,7 @@ class NIHHealthyEating(AbstractScraper):
         if directions_div is None:
             raise ElementNotFoundInHtml("Instructions not found.")
 
-        instructions = directions_div.findAll("div", {"class": "steptext"})
+        instructions = directions_div.find_all("div", {"class": "steptext"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

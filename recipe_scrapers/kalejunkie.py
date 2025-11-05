@@ -7,7 +7,7 @@ class KaleJunkie(AbstractScraper):
         return "kalejunkie.com"
 
     def instructions(self):
-        instructions = self.soup.findAll(
+        instructions = self.soup.find_all(
             "div", {"class": "wprm-recipe-instruction-text"}
         )
 
