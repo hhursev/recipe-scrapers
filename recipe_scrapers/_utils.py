@@ -260,7 +260,13 @@ def normalize_string(string: str) -> str:
         .strip()
     )
 
-    return re.sub(r"\s+", " ", cleaned)
+    # Only replace '((' and '))' if both are present in the string
+    if "((" in cleaned and "))" in cleaned:
+        cleaned = cleaned.replace("((", "(").replace("))", ")")
+
+    cleaned = re.sub(r"\s+", " ", cleaned)
+
+    return cleaned.strip()
 
 
 def csv_to_tags(csv, lowercase=False):
