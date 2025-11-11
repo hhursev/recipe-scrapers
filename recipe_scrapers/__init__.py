@@ -118,10 +118,12 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .chewoutloud import ChewOutLoud
+from .claradesousa import ClaraDeSousa
 from .cleaneatingkitchen import CleanEatingKitchen
 from .closetcooking import ClosetCooking
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
+from .continente import Continente
 from .cookedandloved import CookedAndLoved
 from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
@@ -299,6 +301,7 @@ from .lecremedelacrumb import LeCremeDeLaCrumb
 from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
 from .leukerecepten import Leukerecepten
+from .lidlpt import LidlPT
 from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littleferrarokitchen import LittleFerraroKitchen
 from .littlespicejar import LittleSpiceJar
@@ -519,6 +522,7 @@ from .tofoo import Tofoo
 from .toriavey import ToriAvey
 from .tudogostoso import TudoGostoso
 from .twentyfourkitchen import TwentyFourKitchen
+from .twentyfourkitchenpt import TwentyFourKitchenPT
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .uitpaulineskeukennl import UitPaulinesKeukenNL
 from .unsophisticook import Unsophisticook
@@ -651,10 +655,12 @@ SCRAPERS = {
     Chefnini.host(): Chefnini,
     ChefSavvy.host(): ChefSavvy,
     ChewOutLoud.host(): ChewOutLoud,
+    ClaraDeSousa.host(): ClaraDeSousa,
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
+    Continente.host(): Continente,
     CookedAndLoved.host(): CookedAndLoved,
     CookieAndKate.host(): CookieAndKate,
     CookiesAndCups.host(): CookiesAndCups,
@@ -853,6 +859,7 @@ SCRAPERS = {
     LeitesCulinaria.host(): LeitesCulinaria,
     LekkerEnSimpel.host(): LekkerEnSimpel,
     Leukerecepten.host(): Leukerecepten,
+    LidlPT.host(): LidlPT,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
     LittleFerraroKitchen.host(): LittleFerraroKitchen,
     LittleSpiceJar.host(): LittleSpiceJar,
@@ -1073,6 +1080,7 @@ SCRAPERS = {
     ToriAvey.host(): ToriAvey,
     TudoGostoso.host(): TudoGostoso,
     TwentyFourKitchen.host(): TwentyFourKitchen,
+    TwentyFourKitchenPT.host(): TwentyFourKitchenPT,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
     Unsophisticook.host(): Unsophisticook,
