@@ -1,6 +1,8 @@
 import unittest
 
+from recipe_scrapers._factory import SchemaScraperFactory
 from recipe_scrapers._schemaorg import SchemaOrg
+from recipe_scrapers.settings import settings
 
 JSONLD_PAGE_TEMPLATE = """
 <html>
@@ -49,6 +51,25 @@ MULTI_ENTITY_SCHEMA = """
   }
 ]
 """
+BEST_IMAGE_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Image Comparison",
+  "image": [
+    "https://images.example.com/recipe-320x240.jpg",
+    {
+      "@type": "ImageObject",
+      "url": "https://images.example.com/recipe-1280x720.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "https://images.example.com/recipe-640x480.jpg"
+  ],
+  "recipeIngredient": [],
+  "recipeInstructions": []
+}
+"""
 
 
 class TestSchemaOrg(unittest.TestCase):
@@ -70,3 +91,42 @@ class TestSchemaOrg(unittest.TestCase):
         self.assertIn("1 slice of bread", parser.ingredients())
         self.assertIn("5g margarine", parser.ingredients())
         self.assertEqual("spread the margarine on the bread", parser.instructions())
+
+    def test_best_image_selection(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=BEST_IMAGE_SCHEMA)
+
+        default_scraper = SchemaScraperFactory.generate(
+            html=page_data,
+            url="http://recipe.test/template",
+        )
+        self.assertEqual(
+            "https://images.example.com/recipe-1280x720.jpg",
+            default_scraper.image(),
+        )
+
+        best_image_scraper = SchemaScraperFactory.generate(
+            html=page_data,
+            url="http://recipe.test/template",
+            best_image=False,
+        )
+        self.assertEqual(
+            "https://images.example.com/recipe-320x240.jpg",
+            best_image_scraper.image(),
+        )
+
+    def test_best_image_setting_toggle(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=BEST_IMAGE_SCHEMA)
+
+        original = settings.BEST_IMAGE_SELECTION
+        try:
+            settings.BEST_IMAGE_SELECTION = True
+            configured_scraper = SchemaScraperFactory.generate(
+                html=page_data,
+                url="http://recipe.test/template",
+            )
+            self.assertEqual(
+                "https://images.example.com/recipe-1280x720.jpg",
+                configured_scraper.image(),
+            )
+        finally:
+            settings.BEST_IMAGE_SELECTION = original
