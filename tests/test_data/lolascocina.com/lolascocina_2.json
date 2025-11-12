@@ -1,0 +1,79 @@
+{
+  "author": "by Lola Dweck",
+  "canonical_url": "https://lolascocina.com/fresas-and-flan/",
+  "site_name": "Lola's Cocina",
+  "host": "lolascocina.com",
+  "language": "en-US",
+  "title": "Flan Casero (Classic Flan Topped with Fresh Berries)",
+  "ingredients": [
+    "1 cup sugar",
+    "2 12- ounce cans evaporated milk",
+    "1 14- ounce can condensed milk",
+    "1 tablespoon vanilla",
+    "6 eggs",
+    "strawberries",
+    "blueberries",
+    "raspberries"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup sugar",
+        "2 12- ounce cans evaporated milk",
+        "1 14- ounce can condensed milk",
+        "1 tablespoon vanilla",
+        "6 eggs"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "strawberries",
+        "blueberries",
+        "raspberries"
+      ],
+      "purpose": "GARNISHES"
+    }
+  ],
+  "instructions_list": [
+    "Prepare caramel. Heat oven to 350 degrees Fahrenheit. Prepare caramel by dissolving sugar in a small saucepan over medium-low heat. Once sugar begins to liquify, stir it frequently with a wooden spatula until it is dissolved and completely smooth. Be sure to break up any lumps with a spatula.PRO TIPS: Once you start your caramel, do not walk away from the stove until it is ready. It can burn in seconds! You will notice that the sugar will start to transform into an amber color sauce. If it burns, you’ll have to start the process all over again. If your sugar is cooking too quickly, reduce stove to low heat and gradually increase to create the caramel.Once your caramel topping is a deep golden brown, smooth, and no longer has lumps of sugar, you can proceed to the next step.",
+    "Pour caramel into flan pan. Working quickly and carefully, pour caramelized sugar mixture into pan and swirl to coat the bottom and sides. Use baking gloves if necessary because the aluminum pans can get very hot.Do not touch or attempt to taste caramel – it is extremely hot!",
+    "Blend ingredients. Next, combine evaporated milk, condensed milk, and vanilla extract, in a blender and process until smooth, about 30 seconds. Add whole eggs to the blender and quickly process for another 10 seconds.",
+    "Pour mixture into flan pan.",
+    "Prepare baño María. Next, prepare a baño María (water bath) by arranging flan pan into a larger baking dish or extra large dutch oven. Very carefully pour enough hot water into the larger baking dish to come halfway up the sides of the ramekins. Be careful not to add too much water or splash any into the flan. You have the option to cover the flan pan with foil before arranging it into the larger baking dish. I go back and forth on this and oftentimes prefer it uncovered!",
+    "Bake flan. Place flan in water bath on a wire rack in the oven and bake for approximately 60 minutes (times will vary depending on oven and in a conventional oven can take up to 2 hours). Check if the center is set. If it’s still very jiggly, it needs more time. To test if flan is ready, insert a toothpick or knife into the center of the flan. If it comes out clean or mostly clean, it’s ready. If it comes out completely wet with the custard mixture, it needs more time.PRO TIP: If baking in a conventional oven, you can also skip the foil and bake uncovered.Turn off oven and allow flan to cool completely in the oven before refrigerating. I like to leave the oven door open slightly.Refrigerate until ready to serve.",
+    "Demold and invert flan. To de-mold flan, carefully run a sharp knife around the edges without cutting into the flan. Place a large plate over pan. Moving carefully and quickly, invert flan onto a plate. Flan should come out easily with caramel sauce.",
+    "Garnish and serve. Garnish with a mix of berries including blueberries, raspberries, and strawberries.PRO TIP: Leave greens on strawberries for extra color and cut them in half. Adding garnishes to only one side allows the flan to shine. You can always add extra berries when serving individual slices. The tartness of the berries pairs perfectly with the sweet creaminess of the flan."
+  ],
+  "category": "Dessert",
+  "yields": "10 servings",
+  "description": "Flan casero is a classic creamy custard dessert popular in Mexico and Latin America. This basic recipe lends itself to so many fun variations.",
+  "total_time": 310,
+  "cook_time": 60,
+  "prep_time": 10,
+  "cuisine": "Mexican",
+  "ratings": 5.0,
+  "ratings_count": 7,
+  "equipment": [
+    "Small saucepan",
+    "Wooden Spatula",
+    "9-inch heavy-duty aluminum cake pan 8 or 10-inch pans will also work",
+    "Large glass baking dish or dutch oven",
+    "Knife",
+    "Plate for serving"
+  ],
+  "nutrients": {
+    "servingSize": "1 slice",
+    "calories": "309 kcal",
+    "fatContent": "9 g",
+    "saturatedFatContent": "5 g",
+    "unsaturatedFatContent": "4 g",
+    "transFatContent": "0.01 g",
+    "carbohydrateContent": "47 g",
+    "sugarContent": "47 g",
+    "proteinContent": "9 g",
+    "sodiumContent": "134 mg",
+    "cholesterolContent": "124 mg"
+  },
+  "image": "https://lolascocina.com/wp-content/uploads/2024/05/2024.05.08-Flan-Casero-Fresas-and-Flan-WEB-6.jpg"
+}

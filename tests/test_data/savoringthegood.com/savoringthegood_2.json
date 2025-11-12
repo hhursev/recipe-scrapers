@@ -1,0 +1,96 @@
+{
+  "author": "Sarah Mock",
+  "canonical_url": "https://www.savoringthegood.com/sous-vide-pickled-vegetables/",
+  "site_name": "Savoring The Good®",
+  "host": "savoringthegood.com",
+  "language": "en",
+  "title": "Sous Vide Pickled Vegetables",
+  "ingredients": [
+    "1 clove Garlic (thinly sliced)",
+    "1 bay leaf",
+    "1 teaspoon dill weed (dried)",
+    "1/4 teaspoon mustard seeds",
+    "1/4 teaspoon pepper corns",
+    "1/8 teaspoon red pepper flakes",
+    "1 2/3 cup Vinegar",
+    "1 2/3 cup Water",
+    "1/3 cup Sugar",
+    "1 1/2 tablespoon salt",
+    "green beans",
+    "pearl onions",
+    "cauliflower",
+    "bell peppers",
+    "radishes"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 clove Garlic (thinly sliced)",
+        "1 bay leaf",
+        "1 teaspoon dill weed (dried)",
+        "1/4 teaspoon mustard seeds",
+        "1/4 teaspoon pepper corns",
+        "1/8 teaspoon red pepper flakes"
+      ],
+      "purpose": "To each jar add:"
+    },
+    {
+      "ingredients": [
+        "1 2/3 cup Vinegar",
+        "1 2/3 cup Water",
+        "1/3 cup Sugar",
+        "1 1/2 tablespoon salt"
+      ],
+      "purpose": "Make a brine of:"
+    },
+    {
+      "ingredients": [
+        "green beans",
+        "pearl onions",
+        "cauliflower",
+        "bell peppers",
+        "radishes"
+      ],
+      "purpose": "To each jar add clean, chopped vegetables:"
+    }
+  ],
+  "instructions_list": [
+    "In each jar add:",
+    "garlic, thinly sliced",
+    "bay leaf",
+    "dill weed, dried",
+    "mustard seeds",
+    "pepper corns",
+    "red pepper flakes",
+    "Combine the water, vinegar, sugar and salt. Stir until the sugar and salt are dissolved.",
+    "Fill the quart jars with the clean vegetables and packing them tightly.",
+    "Fill the quart jars with the brine mixture.",
+    "Close the jars with clean lids and a canning ring.",
+    "Finger tighten the jar.",
+    "Lower into the sous vide bath. Heat the sous vide water to 150. Set the timer for 2 hours.",
+    "Remove from the bath when cooked. Allow to come to room temperature before storing in the refrigerator."
+  ],
+  "category": "Sous Vide",
+  "yields": "2 servings",
+  "description": "Sous vide pickled vegetables are ready to eat in hours instead of weeks. The vegetables maintain a delightful crispness while taking on the bright flavors of pickling aromatics and spices.",
+  "total_time": 135,
+  "cook_time": 120,
+  "prep_time": 15,
+  "cuisine": "French",
+  "equipment": [
+    "Joule Sous Vide",
+    "Anova Culinary Sous Vide Cooker",
+    "Sous Vide Water Bath",
+    "Lid for Sous Vide Container"
+  ],
+  "nutrients": {
+    "servingSize": "2",
+    "calories": "51 kcal",
+    "carbohydrateContent": "10 g",
+    "sugarContent": "7 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "803 mg",
+    "fiberContent": "2 g"
+  },
+  "image": "https://www.savoringthegood.com/wp-content/uploads/2022/08/Sous-Vide-Pickled-Vegetables..jpg"
+}
