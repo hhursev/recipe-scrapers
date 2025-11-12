@@ -7,6 +7,48 @@ from bs4 import BeautifulSoup
 
 from ._utils import normalize_string
 
+
+def normalize_fractions(text: str) -> str:
+    """Normalize Unicode fractions to ASCII fractions for consistent matching.
+
+    This function converts Unicode fraction characters (like ½, ¼, ¾) to their
+    ASCII equivalents (like 1/2, 1/4, 3/4) to ensure consistent matching
+    in ingredient grouping.
+
+    Parameters
+    ----------
+    text : str
+        The text string that may contain Unicode fractions.
+
+    Returns
+    -------
+    str
+        The text with Unicode fractions converted to ASCII fractions.
+    """
+    fraction_map = {
+        "½": "1/2",
+        "⅓": "1/3",
+        "⅔": "2/3",
+        "¼": "1/4",
+        "¾": "3/4",
+        "⅕": "1/5",
+        "⅖": "2/5",
+        "⅗": "3/5",
+        "⅘": "4/5",
+        "⅙": "1/6",
+        "⅚": "5/6",
+        "⅛": "1/8",
+        "⅜": "3/8",
+        "⅝": "5/8",
+        "⅞": "7/8",
+    }
+
+    for unicode_frac, ascii_frac in fraction_map.items():
+        text = text.replace(unicode_frac, ascii_frac)
+
+    return text
+
+
 DEFAULT_GROUPINGS: list[tuple[str, list[str], list[str]]] = [
     (
         "wprm",
@@ -81,7 +123,8 @@ def best_match(test_string: str, target_strings: list[str]) -> str:
 
     This function utilizes the score_sentence_similarity function to compare the test string
     against each target string. The target string with the highest similarity score to the
-    test string is returned as the best match.
+    test string is returned as the best match. Fractions are normalized to ensure consistent
+    matching between Unicode and ASCII fraction representations.
 
     Parameters
     ----------
@@ -95,8 +138,12 @@ def best_match(test_string: str, target_strings: list[str]) -> str:
     str
         The string from target_strings that has the highest similarity score with test_string.
     """
+    normalized_test = normalize_fractions(test_string)
+    normalized_targets = [normalize_fractions(target) for target in target_strings]
+
     scores = [
-        score_sentence_similarity(test_string, target) for target in target_strings
+        score_sentence_similarity(normalized_test, target)
+        for target in normalized_targets
     ]
     best_match_index = max(range(len(scores)), key=scores.__getitem__)
 

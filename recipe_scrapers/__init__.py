@@ -254,6 +254,7 @@ from .inspiralized import Inspiralized
 from .inspiredtaste import InspiredTaste
 from .iowagirleats import IowaGirlEats
 from .irishcentral import IrishCentral
+from .itdoesnttastelikechicken import ItDoesntTasteLikeChicken
 from .itsnotaboutnutrition import ItsNotAboutNutrition
 from .izzycooking import IzzyCooking
 from .jamieoliver import JamieOliver
@@ -819,6 +820,7 @@ SCRAPERS = {
     InspiredTaste.host(): InspiredTaste,
     IowaGirlEats.host(): IowaGirlEats,
     IrishCentral.host(): IrishCentral,
+    ItDoesntTasteLikeChicken.host(): ItDoesntTasteLikeChicken,
     ItsNotAboutNutrition.host(): ItsNotAboutNutrition,
     IzzyCooking.host(): IzzyCooking,
     JamieOliver.host(): JamieOliver,
