@@ -55,6 +55,7 @@ from .aldinord import AldiNord
 from .aldisued import AldiSued
 from .aldisuisse import AldiSuisse
 from .alexandracooks import AlexandraCooks
+from .alisoneroman import AlisoneRoman
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
 from .allthehealthythings import AllTheHealthyThings
@@ -588,6 +589,7 @@ SCRAPERS = {
     AldiSued.host(domain="aldi.it"): AldiSued,
     AldiSuisse.host(): AldiSuisse,
     AlexandraCooks.host(): AlexandraCooks,
+    AlisoneRoman.host(): AlisoneRoman,
     ALittleBitYummy.host(): ALittleBitYummy,
     AllRecipes.host(): AllRecipes,
     AllTheHealthyThings.host(): AllTheHealthyThings,
