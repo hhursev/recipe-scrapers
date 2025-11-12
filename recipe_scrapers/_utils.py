@@ -240,24 +240,32 @@ def get_equipment(equipment_items):
     return list(dict.fromkeys(equipment_items))
 
 
-def normalize_string(string):
-    # Convert all named and numeric character references (e.g. &gt;, &#62;)
-    unescaped_string = html.unescape(string)
-    # Remove HTML tags
-    no_html_string = re.sub("<[^>]*>", "", unescaped_string)
+def normalize_string(string: str) -> str:
+    prev = None
+    unescaped = string
+    while prev != unescaped:
+        prev = unescaped
+        unescaped = html.unescape(unescaped)
+
+    no_html_string = re.sub(r"<[^>]*>", "", unescaped)
+
     cleaned = (
         no_html_string.replace("\xc2\xa0", " ")
         .replace("\xa0", " ")
         .replace("\u200b", "")
         .replace("\r\n", " ")
-        .replace("\n", " ")  # &nbsp;
+        .replace("\n", " ")
         .replace("\t", " ")
         .replace("u0026#039;", "'")
+        .strip()
     )
+
     # Only replace '((' and '))' if both are present in the string
     if "((" in cleaned and "))" in cleaned:
         cleaned = cleaned.replace("((", "(").replace("))", ")")
+
     cleaned = re.sub(r"\s+", " ", cleaned)
+
     return cleaned.strip()
 
 
