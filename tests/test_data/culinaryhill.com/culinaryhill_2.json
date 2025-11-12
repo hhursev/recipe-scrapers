@@ -1,0 +1,94 @@
+{
+  "author": "Meggan Hill",
+  "canonical_url": "https://www.culinaryhill.com/apple-cider-donuts/",
+  "site_name": "Culinary Hill",
+  "host": "culinaryhill.com",
+  "language": "en-US",
+  "title": "Apple Cider Donuts",
+  "ingredients": [
+    "3 cups apple cider (see note 2)",
+    "2 cups all-purpose flour",
+    "1 teaspoon baking soda",
+    "¾ teaspoon baking powder",
+    "1 teaspoon apple pie spice (see note 3)",
+    "1 teaspoon ground cinnamon",
+    "1/4 teaspoon salt",
+    "2 tablespoon butter melted",
+    "1 egg",
+    "1/2 cup brown sugar packed",
+    "½ cup granulated sugar",
+    "1/2 cup milk",
+    "1 teaspoon vanilla extract",
+    "1 cup granulated sugar",
+    "3/4 teaspoon apple pie spice",
+    "3/4 teaspoon ground cinnamon",
+    "1/2 cup butter melted (see note 4)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "3 cups apple cider (see note 2)",
+        "2 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "¾ teaspoon baking powder",
+        "1 teaspoon apple pie spice (see note 3)",
+        "1 teaspoon ground cinnamon",
+        "1/4 teaspoon salt",
+        "2 tablespoon butter melted",
+        "1 egg",
+        "1/2 cup brown sugar packed",
+        "½ cup granulated sugar",
+        "1/2 cup milk",
+        "1 teaspoon vanilla extract"
+      ],
+      "purpose": "For the donuts:"
+    },
+    {
+      "ingredients": [
+        "1 cup granulated sugar",
+        "3/4 teaspoon apple pie spice",
+        "3/4 teaspoon ground cinnamon",
+        "1/2 cup butter melted (see note 4)"
+      ],
+      "purpose": "For the topping:"
+    }
+  ],
+  "instructions_list": [
+    "In a small saucepan over medium low heat, simmer the apple cider until you are left with about 1/2 cup of cider, about 45 minutes, stirring occasionally. Set aside to cool, about 10 minutes.",
+    "Preheat the oven to 350 degrees. Grease a donut pan with nonstick spray, set aside. In a large mixing bowl, whisk together the flour, baking soda, baking powder, cinnamon, apple pie spice, and salt.",
+    "In a medium bowl, whisk together apple cider, melted butter, egg, brown sugar, granulated sugar, milk, and vanilla extract. Pour cider mixture into the flour mixture. Whisk until smooth.",
+    "Spoon batter into donut pan, filling each one about 1/2 way, about 1/4 cup. Bake the donuts until lightly brown on top, about 12 minutes. If donuts bounce back to the touch, then they are done. Remove donuts from pan and cool on a wire rack.",
+    "For the topping, in a medium bowl combine the granulated sugar, cinnamon, and apple pie spice. Place the melted butter in a separate medium bowl.",
+    "To coat the donuts, working one donut at a time, dip the donuts into the melted butter then gently roll the donut around in the sugar mixture. Serve immediately or can be stored in refrigerator for 5 days in an airtight container."
+  ],
+  "category": "Dessert",
+  "yields": "16 servings",
+  "description": "Overflowing with the flavors of fall, these homemade Apple Cider Donuts are baked, not fried, and then rolled in a cinnamon-sugar mixture for extra crunch.",
+  "total_time": 60,
+  "cook_time": 45,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 4,
+  "equipment": [
+    "Donut pan (see note 1)"
+  ],
+  "nutrients": {
+    "servingSize": "1 donut",
+    "calories": "251 kcal",
+    "fatContent": "8 g",
+    "saturatedFatContent": "5 g",
+    "unsaturatedFatContent": "3 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "43 g",
+    "sugarContent": "30 g",
+    "proteinContent": "2 g",
+    "sodiumContent": "200 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "31 mg"
+  },
+  "image": "https://www.culinaryhill.com/wp-content/uploads/2021/09/Apple-Cider-Donuts-Culinary-Hill-1200x800-1.jpg",
+  "keywords": [
+    "apple cider donuts"
+  ]
+}
