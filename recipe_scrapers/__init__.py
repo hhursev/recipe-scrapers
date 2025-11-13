@@ -193,6 +193,7 @@ from .felixkitchen import FelixKitchen
 from .festligare import Festligare
 from .fifteengram import FifteenGram
 from .fifteenspatulas import FifteenSpatulas
+from .figjar import FigJar
 from .finedininglovers import FineDiningLovers
 from .fithealthymacros import FitHealthyMacros
 from .fitmencook import FitMenCook
@@ -740,6 +741,7 @@ SCRAPERS = {
     Festligare.host(): Festligare,
     FifteenGram.host(): FifteenGram,
     FifteenSpatulas.host(): FifteenSpatulas,
+    FigJar.host(): FigJar,
     FineDiningLovers.host(): FineDiningLovers,
     FitHealthyMacros.host(): FitHealthyMacros,
     FitMenCook.host(): FitMenCook,
