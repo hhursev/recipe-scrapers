@@ -1,0 +1,74 @@
+{
+  "author": "Becky Schmieg",
+  "canonical_url": "https://www.figjar.com/berries-and-cream-cake/",
+  "site_name": "The Fig Jar",
+  "host": "figjar.com",
+  "language": "en-US",
+  "title": "Fresh Berries and Cream Cake Recipe",
+  "ingredients": [
+    "1 cup salted butter, 2 sticks softened to room temperature",
+    "1 cup granulated sugar",
+    "1 tsp vanilla",
+    "1 egg",
+    "1 cup milk (whole or 2%)",
+    "1 1/2 cups all-purpose flour",
+    "1 1/2 tsp baking powder",
+    "1 1/2 tsp baking soda",
+    "1/2 tsp salt",
+    "1 cup heavy whipping cream",
+    "1 tbsp honey + 2 tsp",
+    "1 cup each: blueberries, raspberries, strawberries (halved or quartered depending on size)",
+    "fresh mint, for topping"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup salted butter, 2 sticks softened to room temperature",
+        "1 cup granulated sugar",
+        "1 tsp vanilla",
+        "1 egg",
+        "1 cup milk (whole or 2%)",
+        "1 1/2 cups all-purpose flour",
+        "1 1/2 tsp baking powder",
+        "1 1/2 tsp baking soda",
+        "1/2 tsp salt"
+      ],
+      "purpose": "cake"
+    },
+    {
+      "ingredients": [
+        "1 cup heavy whipping cream",
+        "1 tbsp honey + 2 tsp",
+        "1 cup each: blueberries, raspberries, strawberries (halved or quartered depending on size)",
+        "fresh mint, for topping"
+      ],
+      "purpose": "topping"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350F.",
+    "Grease a 9-inch baking pan with butter and cut a circle of parchment paper to fit in the bottom of the pan.",
+    "In a medium mixing bowl, combine flour, baking powder, baking soda and salt. Stir to combine and set aside.",
+    "Add softened butter and sugar to the bowl of a stand mixer, start on medium speed and increase to medium-high as it comes together and beat for 3-5 minutes, until lightened in color.",
+    "Add the egg and vanilla and beat on medium speed again until combined.",
+    "With the mixer on medium-low, add the milk and dry ingredient mixture by alternating between both in 3 additions (add 1/3 of dry ingredients, then 1/3 milk, etc). Mix until fully combined. Remove the stand mixer bowl and use a rubber spatula to scrape down the edges and stir if necessary.",
+    "Scrape the batter into the cake pan and use the spatula to spread in an even layer.",
+    "Bake 35-45 minutes, until slightly golden around the edges and a toothpick inserted in the center comes out clean.",
+    "Allow cake to cool at least 30 minutes before inverting cake onto a cooling rack. Allow cake to cool fully before topping with whipped cream and berries.",
+    "Wash berries and add to a medium-sized mixing bowl. Drizzle with 2 tsp of honey, stir and set aside.",
+    "Add whipping cream and 1 tbsp honey to the bowl of the stand mixer and beat until stiff peaks form.",
+    "When the cake is cooled, top with whipped cream, then berries and garnish with fresh mint."
+  ],
+  "category": "dessert",
+  "yields": "8 servings",
+  "description": "This berries and cream cake is perfect for summer! And with its festive colors, it's also perfect for Fourth of July celebrations.",
+  "total_time": 85,
+  "cook_time": 45,
+  "prep_time": 40,
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "image": "https://www.figjar.com/wp-content/uploads/2024/07/berries-and-cream-cake.jpg",
+  "keywords": [
+    "berries and cream cake"
+  ]
+}
