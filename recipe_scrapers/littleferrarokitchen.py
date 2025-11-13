@@ -1,18 +1,8 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class LittleFerraroKitchen(AbstractScraper):
+class LittleFerraroKitchen(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "littleferrarokitchen.com"
-
-    def equipment(self):
-        return list(
-            dict.fromkeys(
-                (equip.find("a").get_text())
-                for equip in self.soup.find_all(
-                    "div", class_="wprm-recipe-equipment-name"
-                )
-                if equip.find("a") and equip.find("a").get_text()
-            )
-        )
