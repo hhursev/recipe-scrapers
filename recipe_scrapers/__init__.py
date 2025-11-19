@@ -488,6 +488,7 @@ from .swissmilk import SwissMilk
 from .tableanddish import TableAndDish
 from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
+from .tastefullygrace import TastefullyGrace
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
 from .tastesoflizzyt import TastesOfLizzyT
@@ -1056,6 +1057,7 @@ SCRAPERS = {
     TableAndDish.host(): TableAndDish,
     TasteAtlas.host(): TasteAtlas,
     TasteAU.host(): TasteAU,
+    TastefullyGrace.host(): TastefullyGrace,
     TasteOfHome.host(): TasteOfHome,
     TastesBetterFromScratch.host(): TastesBetterFromScratch,
     TastesOfLizzyT.host(): TastesOfLizzyT,
