@@ -67,6 +67,7 @@ from .amberskitchencooks import AmbersKitchencooks
 from .ambitiouskitchen import AmbitiousKitchen
 from .ameessavorydish import AmeesSavoryDish
 from .americastestkitchen import AmericasTestKitchen
+from .anitalianinmykitchen import AnItalianInMyKitchen
 from .archanaskitchen import ArchanasKitchen
 from .argiro import Argiro
 from .arla import Arla
@@ -616,6 +617,7 @@ SCRAPERS = {
     AmbitiousKitchen.host(): AmbitiousKitchen,
     AmeesSavoryDish.host(): AmeesSavoryDish,
     AmericasTestKitchen.host(): AmericasTestKitchen,
+    AnItalianInMyKitchen.host(): AnItalianInMyKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     Argiro.host(): Argiro,
     Arla.host(): Arla,
