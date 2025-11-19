@@ -480,6 +480,7 @@ from .streetkitchen import StreetKitchen
 from .strongrfastr import StrongrFastr
 from .sudachirecipes import SudachiRecipes
 from .sugarhero import SugarHero
+from .sugarspunrun import SugarSpunRun
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
@@ -1049,6 +1050,7 @@ SCRAPERS = {
     StrongrFastr.host(): StrongrFastr,
     SudachiRecipes.host(): SudachiRecipes,
     SugarHero.host(): SugarHero,
+    SugarSpunRun.host(): SugarSpunRun,
     SunBasket.host(): SunBasket,
     SundPaaBudget.host(): SundPaaBudget,
     Sunset.host(): Sunset,

@@ -1,0 +1,104 @@
+{
+  "author": "Sam Merritt",
+  "canonical_url": "https://sugarspunrun.com/pecan-pie-cookies/",
+  "site_name": "Sugar Spun Run",
+  "host": "sugarspunrun.com",
+  "language": "en-US",
+  "title": "Pecan Pie Cookies",
+  "ingredients": [
+    "1 cup unsalted butter (softened)",
+    "1 cup light brown sugar (firmly packed)",
+    "½ cup granulated sugar",
+    "2 large eggs (room temperature preferred)",
+    "½ teaspoon vanilla extract",
+    "3 ½ cups all-purpose flour",
+    "¼ cup cornstarch",
+    "2 teaspoons baking powder",
+    "½ teaspoon baking soda",
+    "1 teaspoon salt",
+    "⅔ cup light brown sugar (firmly packed)",
+    "½ cup unsalted butter",
+    "⅓ cup dark corn syrup",
+    "¼ teaspoon salt",
+    "1 heaping cup chopped toasted pecans",
+    "2 Tablespoons heavy cream",
+    "1 teaspoon vanilla extract"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup unsalted butter (softened)",
+        "1 cup light brown sugar (firmly packed)",
+        "½ cup granulated sugar",
+        "2 large eggs (room temperature preferred)",
+        "½ teaspoon vanilla extract",
+        "3 ½ cups all-purpose flour",
+        "¼ cup cornstarch",
+        "2 teaspoons baking powder",
+        "½ teaspoon baking soda",
+        "1 teaspoon salt"
+      ],
+      "purpose": "Cookie"
+    },
+    {
+      "ingredients": [
+        "⅔ cup light brown sugar (firmly packed)",
+        "½ cup unsalted butter",
+        "⅓ cup dark corn syrup",
+        "¼ teaspoon salt",
+        "1 heaping cup chopped toasted pecans",
+        "2 Tablespoons heavy cream",
+        "1 teaspoon vanilla extract"
+      ],
+      "purpose": "Topping"
+    }
+  ],
+  "instructions_list": [
+    "Cookies",
+    "In a large mixing bowl, use an electric mixer to beat butter and sugars for several minutes until light and fluffy.",
+    "Add eggs and vanilla and stir to combine.",
+    "In a separate medium-sized mixing bowl, whisk together flour, cornstarch, baking powder, baking soda, and salt.",
+    "Gradually add dry ingredients into wet, stirring thoroughly after each addition. Use a spatula to scrape the sides and bottom of the bowl to be sure all ingredients are incorporated.",
+    "Cover bowl with plastic wrap and transfer to the refrigerator to chill for 30 minutes.",
+    "Preheat oven to 350F (175C) and line baking sheets with parchment paper. Set aside.",
+    "Once dough has finished chilling, scoop dough by 2-Tablespoon (45g) sized scoops and roll gently between your palms to form a smooth ball. Place on prepared baking sheet, spacing cookies at least 2” (5cm) apart, and bake for 10-12 minutes, until the bottom edges of the cookie just start to turn slightly brown (don’t under-bake the cookies, or they’ll fall apart after you fill them).",
+    "Immediately after removing from oven, use the rounded back of a (clean!) Tablespoon or cookie scoop to create an indent/nest in the cookie for the filling (I like to make the indent slightly wider than the cookie scoop).",
+    "Bake and cool all cookies before preparing your topping, as they will need to be cooled completely before being filled.",
+    "Topping",
+    "In a medium-sized saucepan, combine sugar, butter, corn syrup, and salt. Heat on your stovetop over medium/low heat, stirring frequently, until mixture boils and reaches a temperature between 236-240F (113-116C) (softball stage, this usually takes 5-10 minutes).",
+    "Remove from heat and immediately stir in chopped pecans, cream, and vanilla.",
+    "Allow mixture to sit for 5 minutes before scooping by rounded Tablespoon into the indent of the cooled cookies. Allow filling to cool completely before enjoying!"
+  ],
+  "category": "cookie,Dessert",
+  "yields": "23 servings",
+  "description": "Inspired by the pie, these pecan pie cookies feature a buttery shortbread base and gooey pecan topping. Add a drizzle of chocolate or a sprinkle of sea salt for a gourmet twist! Only 30 minutes of chilling! Recipe includes a how-to video.",
+  "total_time": 38,
+  "cook_time": 18,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 6,
+  "equipment": [
+    "Baking sheet",
+    "Mixing bowls",
+    "Medium saucepan"
+  ],
+  "nutrients": {
+    "servingSize": "1 cookie",
+    "calories": "283 kcal",
+    "fatContent": "13 g",
+    "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "4 g",
+    "transFatContent": "0.5 g",
+    "carbohydrateContent": "40 g",
+    "sugarContent": "24 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "198 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "48 mg"
+  },
+  "image": "https://sugarspunrun.com/wp-content/uploads/2025/09/Pecan-Pie-Cookies-1-of-1-2.jpg",
+  "keywords": [
+    "pecan pie cookies"
+  ]
+}
