@@ -277,6 +277,7 @@ from .justinesnacks import JustineSnacks
 from .justonecookbook import JustOneCookbook
 from .kalejunkie import KaleJunkie
 from .kellyscleankitchen import KellysCleanKitchen
+from .kennethtemple import KennethTemple
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kfoods import KFoods
@@ -850,6 +851,7 @@ SCRAPERS = {
     JustOneCookbook.host(): JustOneCookbook,
     KaleJunkie.host(): KaleJunkie,
     KellysCleanKitchen.host(): KellysCleanKitchen,
+    KennethTemple.host(): KennethTemple,
     KennyMcGovern.host(): KennyMcGovern,
     KeukenLiefdeNL.host(): KeukenLiefdeNL,
     KFoods.host(): KFoods,
