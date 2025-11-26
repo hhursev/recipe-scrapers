@@ -65,7 +65,7 @@ scraper.to_json()
     from recipe_scrapers import scrape_html
 ```
 
-    Check out our [Examples](./getting-started/examples.md) section.
+Check out our [Examples](./getting-started/examples.md) section.
 
 
 ## Overview
