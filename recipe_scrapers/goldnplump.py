@@ -6,35 +6,11 @@ class GoldnPlump(AbstractScraper):
     def host(cls):
         return "goldnplump.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
-        return self.schema.ingredients()
+        container = self.soup.select_one(".recipe-ingredeients .field-item p")
+        if not container:
+            return []
 
-    def instructions(self):
-        return self.schema.instructions()
+        lines = [line.strip() for line in container.stripped_strings]
 
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
+        return [line for line in lines if not line.isupper()]
