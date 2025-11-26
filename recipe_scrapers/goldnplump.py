@@ -11,18 +11,15 @@ class GoldnPlump(AbstractScraper):
         words = [w for w in text.strip().split() if any(c.isalnum() for c in w)]
         if not words:
             return False
-
-        uppercase_words = [w for w in words if w.isupper()]
-        return len(uppercase_words) >= len(words) / 2
+        return words[0].isupper()
 
     def ingredients(self):
-
-        ing = self.soup.select(".recipe-ingredeients .field-item p")
-        if not ing:
+        container = self.soup.select(".recipe-ingredeients .field-item p")
+        if not container:
             return []
 
         lines = []
-        for p in ing:
+        for p in container:
             for el in p.children:
                 if getattr(el, "name", None) == "b":
                     text = el.get_text(strip=True)
@@ -32,6 +29,7 @@ class GoldnPlump(AbstractScraper):
                     text = el.strip()
                     if text:
                         lines.append(text)
+
         return lines
 
     def ingredient_groups(self):
@@ -48,6 +46,7 @@ class GoldnPlump(AbstractScraper):
                 if element.name == "b":
                     text = element.get_text(strip=True)
                     if self.is_group_heading(text):
+                        # Save current group if exists
                         if current_group:
                             groups.append(
                                 IngredientGroup(
