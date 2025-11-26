@@ -1,11 +1,18 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
+from ._exceptions import SchemaOrgException
 
 
 class GoldnPlump(AbstractScraper):
     @classmethod
     def host(cls):
         return "goldnplump.com"
+
+    def total_time(self):
+        try:
+            return self.schema.total_time()
+        except SchemaOrgException:
+            return None
 
     def is_group_heading(self, text):
         words = [w for w in text.strip().split() if any(c.isalnum() for c in w)]
@@ -46,7 +53,6 @@ class GoldnPlump(AbstractScraper):
                 if element.name == "b":
                     text = element.get_text(strip=True)
                     if self.is_group_heading(text):
-                        # Save current group if exists
                         if current_group:
                             groups.append(
                                 IngredientGroup(
