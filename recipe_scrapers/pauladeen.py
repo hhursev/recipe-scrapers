@@ -1,5 +1,6 @@
 import re
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 
 
 class PaulaDeen(AbstractScraper):
@@ -9,7 +10,6 @@ class PaulaDeen(AbstractScraper):
 
     def __init__(self, html, url, best_image=None):
         # Fix invalid JSON-LD by removing the trailing semicolon before the closing script tag
-        # found on pauladeen.com recipe pages
         html = re.sub(r"};\s*</script>", "}</script>", html)
         super().__init__(html, url, best_image)
 
@@ -44,4 +44,9 @@ class PaulaDeen(AbstractScraper):
         return self.schema.cuisine()
 
     def description(self):
+        # The JSON-LD description is often empty, so we use
+        # the HTML content found in the 'full-description' div.
+        if element := self.soup.find("div", {"class": "full-description"}):
+            return normalize_string(element.get_text())
+
         return self.schema.description()
