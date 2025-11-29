@@ -1,8 +1,8 @@
 {
-  "host": "pauladeen.com",
+  "author": "Paula Deen",
   "canonical_url": "https://www.pauladeen.com/recipe/southern-green-bean-casserole-recipe/",
   "site_name": "Paula Deen",
-  "author": "Paula Deen",
+  "host": "pauladeen.com",
   "language": "en-US",
   "title": "Green Bean Casserole",
   "ingredients": [
@@ -19,15 +19,15 @@
   "instructions_list": [
     "Preheat the oven to 350 °F. Melt the butter in a large skillet. Sauté the onions and mushrooms in the butter. Boil green beans in chicken broth for 10 minutes and drain. Add the green beans, mushroom soup, onion rings and House Seasoning to taste. Stir well. Pour into a greased 1 1/2-quart baking dish. Bake for 20 minutes, then top the casserole with the Cheddar and bake for 10 minutes longer, or until the casserole is hot and cheese is melted."
   ],
+  "category": "Side Dish",
+  "yields": "6 servings",
+  "description": "This easy Southern Green Bean Casserole Recipe from Paula Deen is a traditional side dish perfect for Thanksgiving. Ingredients include green beans, mushrooms, french fried onion rings and cream of mushroom soup. Prep time is about 5 minutes and cooking time is 5 minutes at 350 °F.",
   "total_time": 40,
-  "prep_time" : 10,
   "cook_time": 30,
+  "prep_time": 10,
   "ratings": 4.98,
   "ratings_count": 85,
-  "yields": "6 servings",
-  "category": "Side Dish",
   "image": "https://cdn.pauladeen.com/wp-content/uploads/2017/10/31070111/greenbeancasserole.jpg",
-  "description": "This easy Southern Green Bean Casserole Recipe from Paula Deen is a traditional side dish perfect for Thanksgiving. Ingredients include green beans, mushrooms, french fried onion rings and cream of mushroom soup. Prep time is about 5 minutes and cooking time is 5 minutes at 350 °F.",
   "keywords": [
     "Side Dish"
   ]
