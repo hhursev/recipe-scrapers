@@ -40,7 +40,7 @@ class FlavorsByLinbie(AbstractScraper):
         if category_from_schema:
             return category_from_schema
         
-        meta = self.soup.select_one('meta[property="article:section]')
+        meta = self.soup.select_one('meta[property="article:section"]')
         if meta and meta.get("content"):
             return normalize_string(meta.get("content"))
 
