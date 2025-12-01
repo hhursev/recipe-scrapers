@@ -8,13 +8,41 @@ class FlavorsByLinbie(AbstractScraper):
         return "flavorsbylinbie.com"
 
     def author(self):
-        return self.schema.author()
+        # Try schema first (in case there's a Recipe schema)
+        author_from_schema = self.schema.author()
+        if author_from_schema:
+            return author_from_schema
+
+        # Try extracting from author link in HTML
+        author_link = self.soup.select_one('a[href*="/author/"]')
+        if author_link:
+            author_text = author_link.get_text(strip=True)
+            if author_text:
+                return normalize_string(author_text)
+
+        # Fallback to site name
+        return "Flavors By Linbie"
 
     def title(self):
-        return self.schema.title()
+        title_tag = self.soup.find("title")
+        if title_tag:
+            return normalize_string(title_tag.get_text(" ", strip=True))
+
+        # Fallback to main H1 heading
+        h1 = self.soup.find("h1")
+        if h1:
+            return normalize_string(h1.get_text(" ", strip=True))
+
+        return ""
 
     def category(self):
-        return self.schema.category()
+        category_from_schema = self.schema.category()
+        if category_from_schema:
+            return category_from_schema
+        
+        meta = self.soup.select_one('meta[property="article:section]')
+        if meta and meta.get("content"):
+            return normalize_string(meta.get("content"))
 
     def total_time(self):
         return self.schema.total_time()
