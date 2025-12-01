@@ -46,13 +46,34 @@ class FlavorsByLinbie(AbstractScraper):
                     return items
 
     def instructions(self):
-        return self.schema.instructions()
+        # isolate the main content area
+        entry = self.soup.find(class_='entry-content') or self.soup.find(itemprop='text')
+        
+        # locate the H2 that labels the instructions section
+        instr_heading = None
+        for h in entry.find_all(['h2']):
+            if 'instructions' in h.get_text(' ', strip=True).lower():
+                instr_heading = h
+                break
 
-    def ratings(self):
-        return self.schema.ratings()
+        # collect paragraph texts until next H2
+        instructions = []
+        sib = instr_heading.find_next_sibling()
+        while sib:
+            name = getattr(sib, 'name', None)
+            # stop if we hit another top-level H2 block
+            if name == 'h2':
+                break
+            # add paragraph text to instructions list
+            if name == 'p':
+                text = normalize_string(sib.get_text(' ', strip=True))
+                if text:
+                    instructions.append(text)
+            sib = sib.find_next_sibling()
 
-    def cuisine(self):
-        return self.schema.cuisine()
+            return '\n'.join(instructions)
+
+
 
     def description(self):
         # isolate the main content area
