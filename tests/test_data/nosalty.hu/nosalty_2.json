@@ -22,6 +22,38 @@
     "6 dkg Cukor",
     "1 púpozott ek Finomliszt"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "50 dkg Finomliszt",
+        "2 dkg Friss élesztő",
+        "7 dkg Vaj",
+        "3 dl Tej",
+        "1 púpozott ek Cukor",
+        "2 db Tojássárgája",
+        "1 ek Vaj a forma kikenéséhez"
+      ],
+      "purpose": "A tésztához"
+    },
+    {
+      "ingredients": [
+        "30 dkg Dió darált",
+        "15 dkg Cukor ízlés szerint",
+        "10 dkg Vaj"
+      ],
+      "purpose": "A szóráshoz"
+    },
+    {
+      "ingredients": [
+        "7 dl Tej",
+        "4 db Tojássárgája",
+        "1 db Vanília kikapart magja",
+        "6 dkg Cukor",
+        "1 púpozott ek Finomliszt"
+      ],
+      "purpose": "A sodóhoz"
+    }
+  ],
   "instructions_list": [
     "A szobahőmérsékletű lisztet tálba szitáljuk.",
     "A tejet meglangyosítjuk, elmorzsoljuk benne az élesztőt, hozzáadjuk a cukrot, és felfuttatjuk.",
