@@ -4,14 +4,17 @@ from ._utils import normalize_string
 
 
 class PaulaDeen(AbstractScraper):
+    class _CustomSchemaOrg(SchemaOrg):
+        def __init__(self, page_data):
+            # Fix invalid JSON-LD by removing the trailing semicolon before the closing script tag
+            page_data = re.sub(r"};\s*</script>", "}</script>", page_data)
+            super().__init__(page_data)
+
+    _schema_cls = _CustomSchemaOrg
+
     @classmethod
     def host(cls):
         return "pauladeen.com"
-
-    def __init__(self, html, url, best_image=None):
-        # Fix invalid JSON-LD by removing the trailing semicolon before the closing script tag
-        html = re.sub(r"};\s*</script>", "}</script>", html)
-        super().__init__(html, url, best_image)
 
     def author(self):
         return self.schema.author()
