@@ -8,6 +8,9 @@ class GoldnPlump(AbstractScraper):
     def host(cls):
         return "goldnplump.com"
 
+    def author(self):
+        return "Gold'n Plump"
+
     def total_time(self):
         try:
             return self.schema.total_time()
