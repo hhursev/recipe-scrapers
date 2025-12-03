@@ -1,7 +1,7 @@
 {
   "author": "Dacota",
   "canonical_url": "https://www.nosalty.hu/recept/aranygaluska-ahogy-nagymamam-kesziti",
-  "site_name": "NoSalty",
+  "site_name": "Nosalty",
   "host": "nosalty.hu",
   "language": "hu",
   "title": "Aranygaluska ahogy a nagymamám készíti",
@@ -21,6 +21,38 @@
     "1 db Vanília kikapart magja",
     "6 dkg Cukor",
     "1 púpozott ek Finomliszt"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "50 dkg Finomliszt",
+        "2 dkg Friss élesztő",
+        "7 dkg Vaj",
+        "3 dl Tej",
+        "1 púpozott ek Cukor",
+        "2 db Tojássárgája",
+        "1 ek Vaj a forma kikenéséhez"
+      ],
+      "purpose": "A tésztához"
+    },
+    {
+      "ingredients": [
+        "30 dkg Dió darált",
+        "15 dkg Cukor ízlés szerint",
+        "10 dkg Vaj"
+      ],
+      "purpose": "A szóráshoz"
+    },
+    {
+      "ingredients": [
+        "7 dl Tej",
+        "4 db Tojássárgája",
+        "1 db Vanília kikapart magja",
+        "6 dkg Cukor",
+        "1 púpozott ek Finomliszt"
+      ],
+      "purpose": "A sodóhoz"
+    }
   ],
   "instructions_list": [
     "A szobahőmérsékletű lisztet tálba szitáljuk.",
@@ -42,6 +74,8 @@
   "cook_time": 50,
   "prep_time": 40,
   "cuisine": "magyar",
+  "ratings": 5.0,
+  "ratings_count": 21,
   "nutrients": {
     "servingSize": "2374 g",
     "calories": "7031.58 g",
@@ -56,10 +90,6 @@
   "image": "https://image-api.nosalty.hu/nosalty/images/recipes/Am/SZ/aranygaluska-ahogy-nagymamam-kesziti.jpeg?w=1200&h=1200&s=78e81357b434b48faaac2ca43c8321f5",
   "keywords": [
     "vasárnapi ebéd",
-    "szüret",
-    "ebéd",
-    "uzsonna",
-    "vacsora",
     "ovo-lakto vegetáriánus",
     "vegetáriánus",
     "Finomliszt",
