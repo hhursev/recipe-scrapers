@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string, get_minutes
+from ._utils import normalize_string, get_minutes, get_yields
 
 
 class FlavorsByLinbie(AbstractScraper):
@@ -45,7 +45,6 @@ class FlavorsByLinbie(AbstractScraper):
             return normalize_string(meta.get("content"))
 
     def total_time(self):
-        # Parse from HTML headings
         headings = self.soup.find_all(['h2'])
         for h in headings:
             text = h.get_text(" ", strip=True)
@@ -154,7 +153,48 @@ class FlavorsByLinbie(AbstractScraper):
         return None
 
     def yields(self):
-        return self.schema.yields()
+        headings = self.soup.find_all(['h2'])
+        for h in headings:
+            text = h.get_text(" ", strip=True)
+            normalized = text.replace("'", "'").replace("'", "'").lower()
+            
+            # Check for "Servings & Time" heading - extract "Serves:" from paragraph
+            if "servings" in normalized and "time" in normalized:
+                sib = h.find_next_sibling()
+                while sib and getattr(sib, 'name', None) != 'p':
+                    sib = sib.find_next_sibling()
+                if sib and sib.name == 'p':
+                    p_text = sib.get_text(" ", strip=True)
+                    # Look for "Serves:" pattern
+                    if "serves:" in p_text.lower():
+                        try:
+                            serves_match = p_text.lower().split("serves:")[1]
+                            # Split by common delimiters
+                            for delimiter in ["prep time:", "cook time:", "total time:", "\n", "<", "<br"]:
+                                if delimiter in serves_match:
+                                    serves_match = serves_match.split(delimiter)[0].strip()
+                                    break
+                            else:
+                                serves_match = serves_match.strip()
+                            if serves_match:
+                                return get_yields(serves_match)
+                        except Exception:
+                            pass
+            
+            # Check for standalone "Makes", "Servings", or "Serves" headings
+            if normalized.strip() in ["makes", "servings", "serves"]:
+                sib = h.find_next_sibling()
+                while sib and getattr(sib, 'name', None) != 'p':
+                    sib = sib.find_next_sibling()
+                if sib and sib.name == 'p':
+                    try:
+                        yields_text = sib.get_text(" ", strip=True)
+                        if yields_text:
+                            return get_yields(yields_text)
+                    except Exception:
+                        pass
+        
+        return None
 
     def image(self):
         return self.schema.image()
