@@ -45,19 +45,26 @@ class FlavorsByLinbie(AbstractScraper):
             return normalize_string(meta.get("content"))
 
     def total_time(self):
-        # Try schema first (in case there's a Recipe schema)
-        try:
-            total_time_from_schema = self.schema.total_time()
-            if total_time_from_schema:
-                return total_time_from_schema
-        except Exception:
-            pass
-
-        # Otherwise parse from "Servings & Time" heading
+        # Parse from HTML headings
         headings = self.soup.find_all(['h2'])
         for h in headings:
             text = h.get_text(" ", strip=True)
             normalized = text.replace("'", "'").replace("'", "'")
+            
+            # First, check for standalone "Total Time" heading
+            if normalized.lower().strip() == "total time":
+                sib = h.find_next_sibling()
+                while sib and getattr(sib, 'name', None) != 'p':
+                    sib = sib.find_next_sibling()
+                if sib and sib.name == 'p':
+                    try:
+                        time_text = sib.get_text(" ", strip=True)
+                        total_time = get_minutes(time_text)
+                        if total_time:
+                            return total_time
+                    except Exception:
+                        pass
+            
             # check for "Servings & Time" heading
             if "servings" in normalized.lower() and "time" in normalized.lower():
                 # find the next sibling paragraph
@@ -124,6 +131,13 @@ class FlavorsByLinbie(AbstractScraper):
                                 parts = cook_match.split("-", 1)
                                 if len(parts) == 2:
                                     cook_match = parts[1].strip()
+                            
+                            # Clean up any extra text like "on low" or "on high" before parsing
+                            # get_minutes should handle this, but we can help by removing common phrases
+                            for phrase in [" on low", " on high", " on medium"]:
+                                if phrase in cook_match.lower():
+                                    cook_match = cook_match.lower().split(phrase)[0].strip()
+                                    break
                             
                             cook_time = get_minutes(cook_match)
                         except Exception:
