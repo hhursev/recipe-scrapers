@@ -67,6 +67,7 @@ from .amberskitchencooks import AmbersKitchencooks
 from .ambitiouskitchen import AmbitiousKitchen
 from .ameessavorydish import AmeesSavoryDish
 from .americastestkitchen import AmericasTestKitchen
+from .anitalianinmykitchen import AnItalianInMyKitchen
 from .archanaskitchen import ArchanasKitchen
 from .argiro import Argiro
 from .arla import Arla
@@ -224,6 +225,7 @@ from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
 from .goodstuffrecipes import GoodStuffRecipes
 from .gourmettraveller import GourmetTraveller
+from .grandbabycakes import GrandbabyCakes
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
@@ -242,8 +244,11 @@ from .hofer import Hofer
 from .homeandplate import HomeAndPlate
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
+from .howtocook import HowToCook
 from .howtofeedaloon import HowToFeedALoon
 from .hungryhappens import HungryHappens
+from .iamafoodblog import IAmAFoodBlog
+from .iambaker import IAmBaker
 from .ica import Ica
 from .ig import IG
 from .imworthy import ImWorthy
@@ -275,6 +280,7 @@ from .justinesnacks import JustineSnacks
 from .justonecookbook import JustOneCookbook
 from .kalejunkie import KaleJunkie
 from .kellyscleankitchen import KellysCleanKitchen
+from .kennethtemple import KennethTemple
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
 from .kfoods import KFoods
@@ -424,6 +430,7 @@ from .recept import Recept
 from .receptiindex import ReceptiIndex
 from .receptyprevas import ReceptyPreVas
 from .recetteplus import RecettePlus
+from .recipeforperfection import RecipeForPerfection
 from .recipegirl import RecipeGirl
 from .recipeland import RecipeLand
 from .reciperunner import RecipeRunner
@@ -480,6 +487,7 @@ from .streetkitchen import StreetKitchen
 from .strongrfastr import StrongrFastr
 from .sudachirecipes import SudachiRecipes
 from .sugarhero import SugarHero
+from .sugarspunrun import SugarSpunRun
 from .sunbasket import SunBasket
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
@@ -489,6 +497,7 @@ from .swissmilk import SwissMilk
 from .tableanddish import TableAndDish
 from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
+from .tastefullygrace import TastefullyGrace
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
 from .tastesoflizzyt import TastesOfLizzyT
@@ -613,6 +622,7 @@ SCRAPERS = {
     AmbitiousKitchen.host(): AmbitiousKitchen,
     AmeesSavoryDish.host(): AmeesSavoryDish,
     AmericasTestKitchen.host(): AmericasTestKitchen,
+    AnItalianInMyKitchen.host(): AnItalianInMyKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
     Argiro.host(): Argiro,
     Arla.host(): Arla,
@@ -774,6 +784,7 @@ SCRAPERS = {
     GoodHousekeeping.host(): GoodHousekeeping,
     GoodStuffRecipes.host(): GoodStuffRecipes,
     GourmetTraveller.host(): GourmetTraveller,
+    GrandbabyCakes.host(): GrandbabyCakes,
     GrandFrais.host(): GrandFrais,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,
@@ -810,8 +821,11 @@ SCRAPERS = {
     HomeAndPlate.host(): HomeAndPlate,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
+    HowToCook.host(): HowToCook,
     HowToFeedALoon.host(): HowToFeedALoon,
     HungryHappens.host(): HungryHappens,
+    IAmAFoodBlog.host(): IAmAFoodBlog,
+    IAmBaker.host(): IAmBaker,
     Ica.host(): Ica,
     IG.host(): IG,
     ImWorthy.host(): ImWorthy,
@@ -843,6 +857,7 @@ SCRAPERS = {
     JustOneCookbook.host(): JustOneCookbook,
     KaleJunkie.host(): KaleJunkie,
     KellysCleanKitchen.host(): KellysCleanKitchen,
+    KennethTemple.host(): KennethTemple,
     KennyMcGovern.host(): KennyMcGovern,
     KeukenLiefdeNL.host(): KeukenLiefdeNL,
     KFoods.host(): KFoods,
@@ -993,6 +1008,7 @@ SCRAPERS = {
     ReceptiIndex.host(): ReceptiIndex,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecettePlus.host(): RecettePlus,
+    RecipeForPerfection.host(): RecipeForPerfection,
     RecipeGirl.host(): RecipeGirl,
     RecipeLand.host(): RecipeLand,
     RecipeRunner.host(): RecipeRunner,
@@ -1049,6 +1065,7 @@ SCRAPERS = {
     StrongrFastr.host(): StrongrFastr,
     SudachiRecipes.host(): SudachiRecipes,
     SugarHero.host(): SugarHero,
+    SugarSpunRun.host(): SugarSpunRun,
     SunBasket.host(): SunBasket,
     SundPaaBudget.host(): SundPaaBudget,
     Sunset.host(): Sunset,
@@ -1058,6 +1075,7 @@ SCRAPERS = {
     TableAndDish.host(): TableAndDish,
     TasteAtlas.host(): TasteAtlas,
     TasteAU.host(): TasteAU,
+    TastefullyGrace.host(): TastefullyGrace,
     TasteOfHome.host(): TasteOfHome,
     TastesBetterFromScratch.host(): TastesBetterFromScratch,
     TastesOfLizzyT.host(): TastesOfLizzyT,

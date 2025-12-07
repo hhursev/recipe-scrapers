@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head ><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.4",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),o([])},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	
+	
+<!-- Social Warfare v4.5.6 https://warfareplugins.com - BEGINNING OF OUTPUT -->
+<meta property="og:description" content="Get the exact cooking time for boiled corn on the cob.  It's foolproof and easy once you learn how to boil corn on the cob!">
+<meta property="og:title" content="How to Boil Corn on the Cob">
+<meta property="article_author" content="https://www.facebook.com/recipeforperfection/">
+<meta property="article_publisher" content="https://www.facebook.com/recipeforperfection/">
+<meta property="og:image" content="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg">
+<meta property="fb:app_id" content="529576650555031">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/">
+<meta property="og:site_name" content="Recipe for Perfection">
+<meta property="article:published_time" content="2017-07-04T06:00:10-04:00">
+<meta property="article:modified_time" content="2017-07-12T10:06:21-04:00">
+<meta property="og:updated_time" content="2017-07-12T10:06:21-04:00">
+<meta name="twitter:title" content="How to Boil Corn on the Cob">
+<meta name="twitter:description" content="Get the exact cooking time for boiled corn on the cob.  It's foolproof and easy once you learn how to boil corn on the cob!">
+<meta name="twitter:image" content="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg">
+<meta name="twitter:site" content="@recipeforperfec">
+<meta name="twitter:creator" content="@recipeforperfec">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Social Warfare v4.5.6 https://warfareplugins.com - END OF OUTPUT -->
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<link media="all" href="https://recipeforperfection.com/wp-content/cache/autoptimize/css/autoptimize_c0db6f3e7ccdcf4786abee4ac61ee5b0.css" rel="stylesheet"><title>How to Boil Corn on the Cob &#8226; Recipe for Perfection</title>
+<link data-rocket-prefetch href="https://connect.facebook.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://assets.mailerlite.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://scripts.mediavine.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://pixel2.realclever.com" rel="dns-prefetch">
+	<meta name="description" content="Get the exact cooking time for boiled corn on the cob. It&#039;s foolproof and easy once you learn how to boil corn on the cob!" />
+	<link rel="canonical" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="recipe" />
+	<meta property="og:title" content="How to Boil Corn on the Cob &#8226; Recipe for Perfection" />
+	<meta property="og:description" content="Get the exact cooking time for boiled corn on the cob. It&#039;s foolproof and easy once you learn how to boil corn on the cob!" />
+	<meta property="og:url" content="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/" />
+	<meta property="og:site_name" content="Recipe for Perfection" />
+	<meta property="article:publisher" content="https://www.facebook.com/recipeforperfection/" />
+	<meta property="article:author" content="http://www.facebook.com/recipeforperfection" />
+	<meta property="article:published_time" content="2017-07-04T10:00:10+00:00" />
+	<meta property="article:modified_time" content="2017-07-12T14:06:21+00:00" />
+	<meta property="og:image" content="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg" />
+	<meta property="og:image:width" content="800" />
+	<meta property="og:image:height" content="1200" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Katie Moseman" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@RecipeForPerfec" />
+	<meta name="twitter:site" content="@recipeforperfec" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Katie Moseman" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/","url":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/","name":"How to Boil Corn on the Cob &#8226; Recipe for Perfection","isPartOf":{"@id":"https://recipeforperfection.com/#website"},"primaryImageOfPage":{"@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#primaryimage"},"image":{"@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#primaryimage"},"thumbnailUrl":"https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg","datePublished":"2017-07-04T10:00:10+00:00","dateModified":"2017-07-12T14:06:21+00:00","author":{"@id":"https://recipeforperfection.com/#/schema/person/eea956898271a8b51fde2a4677f50c6f"},"description":"Get the exact cooking time for boiled corn on the cob. It's foolproof and easy once you learn how to boil corn on the cob!","breadcrumb":{"@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://recipeforperfection.com/how-to-boil-corn-on-the-cob/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#primaryimage","url":"https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg","contentUrl":"https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg","width":800,"height":1200,"caption":"Closeup of boiled corn on the cob kernels on a metal tray with salt"},{"@type":"BreadcrumbList","@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://recipeforperfection.com/"},{"@type":"ListItem","position":2,"name":"Recipes","item":"https://recipeforperfection.com/recipes/"},{"@type":"ListItem","position":3,"name":"Side Dishes","item":"https://recipeforperfection.com/recipes/side-dishes/"},{"@type":"ListItem","position":4,"name":"How to Boil Corn on the Cob"}]},{"@type":"WebSite","@id":"https://recipeforperfection.com/#website","url":"https://recipeforperfection.com/","name":"Recipe for Perfection","description":"Easy Recipes That Work","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://recipeforperfection.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://recipeforperfection.com/#/schema/person/eea956898271a8b51fde2a4677f50c6f","name":"Katie Moseman","description":"My name is Katie Moseman, and I specialize in \"Easy Recipes That Work!\" Try the best brownies in the world and you'll become a believer.","sameAs":["https://recipeforperfection.com","http://www.facebook.com/recipeforperfection","https://x.com/RecipeForPerfec"],"url":"https://recipeforperfection.com/author/theper35_wp/"},{"@type":"Recipe","name":"How to Boil Corn on the Cob","author":{"@id":"https://recipeforperfection.com/#/schema/person/eea956898271a8b51fde2a4677f50c6f"},"description":"Get the exact cooking time for boiled corn on the cob.  It's foolproof and easy once you learn how to boil corn on the cob!","datePublished":"2017-07-04T06:00:10+00:00","image":["https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg"],"recipeYield":["6"],"prepTime":"PT3M","cookTime":"PT17M","totalTime":"PT20M","recipeIngredient":["6 ears Fresh corn","3 tbsp Butter","Sea salt or smoked salt"],"recipeInstructions":[{"@type":"HowToStep","text":"Remove the husks and strings of silk from the corn just before cooking.  Snap off the stems.  If the ears are too large to fit in your pot, break them in half.","name":"Remove the husks and strings of silk from the corn just before cooking.  Snap off the stems.  If the ears are too large to fit in your pot, break them in half.","url":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#wprm-recipe-7927-step-0-0"},{"@type":"HowToStep","text":"Fill a large pot, such as a Dutch oven, half full with water.  Put the corn in the water.  Cover the pot with a lid and bring the water to a boil over high heat.","name":"Fill a large pot, such as a Dutch oven, half full with water.  Put the corn in the water.  Cover the pot with a lid and bring the water to a boil over high heat.","url":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#wprm-recipe-7927-step-0-1"},{"@type":"HowToStep","text":"Once the water is boiling, remove the lid and boil for 2 minutes.","name":"Once the water is boiling, remove the lid and boil for 2 minutes.","url":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#wprm-recipe-7927-step-0-2"},{"@type":"HowToStep","text":"Remove the pot from the heat, and let it stand uncovered for 10 minutes.  Drain the water and serve the corn immediately.","name":"Remove the pot from the heat, and let it stand uncovered for 10 minutes.  Drain the water and serve the corn immediately.","url":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#wprm-recipe-7927-step-0-3"},{"@type":"HowToSection","name":"Optional","itemListElement":[{"@type":"HowToStep","text":"Rub the cooked corn with butter, then sprinkle with sea salt or smoked salt (smoked salt gives the corn a delightful flavor).","name":"Rub the cooked corn with butter, then sprinkle with sea salt or smoked salt (smoked salt gives the corn a delightful flavor).","url":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#wprm-recipe-7927-step-1-0"}]}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"1","reviewCount":"1"},"review":[{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5"},"reviewBody":"I am in LOVE with corn! I can eat a bunch of them in just one sitting. I especially love it when it's slathered with butter and your recipe is almost similar to mine &lt;3","author":{"@type":"Person","name":"Aileen Adalid"},"datePublished":"2016-06-16"}],"recipeCategory":["Side Dish"],"recipeCuisine":["American"],"nutrition":{"@type":"NutritionInformation","calories":"128 kcal","carbohydrateContent":"16 g","proteinContent":"3 g","fatContent":"6 g","saturatedFatContent":"3 g","cholesterolContent":"15 mg","sodiumContent":"64 mg","fiberContent":"1 g","sugarContent":"5 g","servingSize":"1 serving"},"@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#recipe","isPartOf":{"@id":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/"},"mainEntityOfPage":"https://recipeforperfection.com/how-to-boil-corn-on-the-cob/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Recipe for Perfection &raquo; Feed" href="https://recipeforperfection.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Recipe for Perfection &raquo; Comments Feed" href="https://recipeforperfection.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Recipe for Perfection &raquo; How to Boil Corn on the Cob Comments Feed" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/feed/" />
+<script type="rocketlazyloadscript">(()=>{"use strict";const e=[400,500,600,700,800,900],t=e=>`wprm-min-${e}`,n=e=>`wprm-max-${e}`,s=new Set,o="ResizeObserver"in window,r=o?new ResizeObserver((e=>{for(const t of e)c(t.target)})):null,i=.5/(window.devicePixelRatio||1);function c(s){const o=s.getBoundingClientRect().width||0;for(let r=0;r<e.length;r++){const c=e[r],a=o<=c+i;o>c+i?s.classList.add(t(c)):s.classList.remove(t(c)),a?s.classList.add(n(c)):s.classList.remove(n(c))}}function a(e){s.has(e)||(s.add(e),r&&r.observe(e),c(e))}!function(e=document){e.querySelectorAll(".wprm-recipe").forEach(a)}();if(new MutationObserver((e=>{for(const t of e)for(const e of t.addedNodes)e instanceof Element&&(e.matches?.(".wprm-recipe")&&a(e),e.querySelectorAll?.(".wprm-recipe").forEach(a))})).observe(document.documentElement,{childList:!0,subtree:!0}),!o){let e=0;addEventListener("resize",(()=>{e&&cancelAnimationFrame(e),e=requestAnimationFrame((()=>s.forEach(c)))}),{passive:!0})}})();</script>
+
+
+
+
+
+
+
+
+
+
+
+<link rel='stylesheet' id='google-fonts-css' href='//fonts.googleapis.com/css?family=Droid+Serif%3Aregular%2Citalic%2C700%7CRaleway%3Aregular%2C700%2C200%2C300%2C900%26subset%3Dlatin%2C&#038;ver=1513793254' type='text/css' media='all' />
+
+<script type="text/javascript" src="https://recipeforperfection.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://recipeforperfection.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://recipeforperfection.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://recipeforperfection.com/wp-json/wp/v2/posts/6333" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://recipeforperfection.com/xmlrpc.php?rsd" />
+
+<link rel='shortlink' href='https://recipeforperfection.com/?p=6333' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://recipeforperfection.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://recipeforperfection.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F&#038;format=xml" />
+        <!-- MailerLite Universal -->
+        <script type="rocketlazyloadscript">
+            (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+                .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+                n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+            (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+            ml('account', '756992');
+            ml('enablePopups', true);
+        </script>
+        <!-- End MailerLite Universal -->
+        <script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="//scripts.mediavine.com/tags/recipe-for-perfection.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=UA-53696723-1"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53696723-1');
+</script>
+
+<!-- Google Tag Manager for Collective Bias -->
+<!--noptimize-->
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+dataLayerCBias = [{
+	'trackingID':'UA-59436114-17',
+	'javaScriptVersion':'analytics.js',
+	'homePageURL':'https://recipeforperfection.com'
+}];
+</script>
+<noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-PBN79J' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>/*<![CDATA[*/(function(w,d,s,l,i){w[l]=w[l]||[];
+w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;j.src='//www.googletagmanager.com/gtm.'+'js?id='+i+dl;
+f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayerCBias','GTM-PBN79J');
+/*]]>*/</script>
+<!--/noptimize-->
+<!-- End Google Tag Manager -->
+<!-- Facebook Pixel Code -->
+<script type="rocketlazyloadscript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2126486250998762');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2126486250998762&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<meta name="google-site-verification" content="6sL5NRqfBNVlqQ4C_-8UWBCJT1m5Os-hYERX_87BmP8" />
+<link rel="icon" href="https://recipeforperfection.com/wp-content/uploads/2017/05/cropped-Recipe-for-Perfection-square-2-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://recipeforperfection.com/wp-content/uploads/2017/05/cropped-Recipe-for-Perfection-square-2-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://recipeforperfection.com/wp-content/uploads/2017/05/cropped-Recipe-for-Perfection-square-2-300x300.png" />
+<meta name="msapplication-TileImage" content="https://recipeforperfection.com/wp-content/uploads/2017/05/cropped-Recipe-for-Perfection-square-2-300x300.png" />
+		
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><meta name="generator" content="WP Rocket 3.20.1.2" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_preconnect_external_domains wpr_mobile" /></head>
+<body class="wp-singular post-template-default single single-post postid-6333 single-format-standard wp-theme-genesis wp-child-theme-foodie-pro custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-visible genesis-footer-widgets-visible foodie-pro"><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li><li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://recipeforperfection.com/">Recipe for Perfection</a></p><p class="site-description">Easy Recipes That Work</p></div></div></header><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-pages" class="menu genesis-nav-menu menu-primary"><li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-430"><a href="https://recipeforperfection.com/"><span >Home</span></a></li>
+<li id="menu-item-11468" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11468"><a href="http://amazon.com/author/katiemoseman"><span >The Cookbooks</span></a></li>
+<li id="menu-item-11081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11081"><a href="https://recipeforperfection.com/subscribe/"><span >Subscribe</span></a></li>
+<li id="menu-item-10980" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-10980"><a href="https://recipeforperfection.com/most-popular/"><span >Most Popular</span></a></li>
+<li id="menu-item-13629" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-13629"><a href="https://recipeforperfection.com/recipes/"><span >Recipes</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-13630" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13630"><a href="https://recipeforperfection.com/recipes/beverages/"><span >Beverages</span></a></li>
+	<li id="menu-item-13631" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13631"><a href="https://recipeforperfection.com/recipes/bread/"><span >Bread</span></a></li>
+	<li id="menu-item-13632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13632"><a href="https://recipeforperfection.com/recipes/breakfast/"><span >Breakfast</span></a></li>
+	<li id="menu-item-13633" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13633"><a href="https://recipeforperfection.com/recipes/desserts/"><span >Desserts</span></a></li>
+	<li id="menu-item-13634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13634"><a href="https://recipeforperfection.com/recipes/main-courses/"><span >Main Courses</span></a></li>
+	<li id="menu-item-13635" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13635"><a href="https://recipeforperfection.com/recipes/salad/"><span >Salad</span></a></li>
+	<li id="menu-item-13636" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13636"><a href="https://recipeforperfection.com/recipes/sauces/"><span >Sauces</span></a></li>
+	<li id="menu-item-13637" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-13637"><a href="https://recipeforperfection.com/recipes/side-dishes/"><span >Side Dishes</span></a></li>
+	<li id="menu-item-13638" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13638"><a href="https://recipeforperfection.com/recipes/snacks/"><span >Snacks</span></a></li>
+	<li id="menu-item-13639" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13639"><a href="https://recipeforperfection.com/recipes/soup/"><span >Soup</span></a></li>
+</ul>
+</li>
+<li id="menu-item-10424" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10424"><a href="https://recipeforperfection.com/advice/"><span >Tasty Tips</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-5548" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5548"><a href="https://recipeforperfection.com/advice/kitchen-tips/"><span >Food Hacks</span></a></li>
+	<li id="menu-item-5549" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5549"><a href="https://recipeforperfection.com/advice/product-reviews/"><span >Products I Like</span></a></li>
+	<li id="menu-item-5550" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5550"><a href="https://recipeforperfection.com/advice/gift-guides/"><span >Gift Guides</span></a></li>
+</ul>
+</li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-48"><a href="https://recipeforperfection.com/about/"><span >About</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-4610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4610"><a href="https://recipeforperfection.com/work-with-me/"><span >Work With Me</span></a></li>
+	<li id="menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986"><a href="https://recipeforperfection.com/press/"><span >As Seen On</span></a></li>
+	<li id="menu-item-943" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-943"><a href="https://recipeforperfection.com/privacy/"><span >Privacy</span></a></li>
+	<li id="menu-item-937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-937"><a href="https://recipeforperfection.com/disclosure/"><span >Disclosure</span></a></li>
+</ul>
+</li>
+<li id="foodie-social" class="foodie-social menu-item"><form class="search-form" method="get" action="https://recipeforperfection.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://recipeforperfection.com/?s={s}"></form></li></ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"><div class="breadcrumb"><span><span><a href="https://recipeforperfection.com/">Home</a></span> » <span><a href="https://recipeforperfection.com/recipes/">Recipes</a></span> » <span><a href="https://recipeforperfection.com/recipes/side-dishes/">Side Dishes</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>How to Boil Corn on the Cob</strong></span></span></div><article class="post-6333 post type-post status-publish format-standard has-post-thumbnail category-most-popular category-recipes category-side-dishes mv-content-wrapper entry" aria-label="How to Boil Corn on the Cob"><header class="entry-header"><h1 class="entry-title">How to Boil Corn on the Cob</h1>
+<p class="entry-meta"><time class="entry-time">July 4, 2017</time> By <span class="entry-author"><a href="https://recipeforperfection.com/author/theper35_wp/" class="entry-author-link" rel="author"><span class="entry-author-name">Katie Moseman</span></a></span> <span class="entry-comments-link"><a href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comments">25 Comments</a></span> </p></header><div class="entry-content"><div class="swp_social_panel swp_horizontal_panel swp_pill  swp_default_dark_gray swp_other_dark_gray swp_individual_medium_gray scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="6333" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://recipeforperfection.com/how-to-boil-corn-on-the-cob/&media=https%3A%2F%2Frecipeforperfection.com%2Fwp-content%2Fuploads%2F2016%2F06%2FHow-to-Boil-Corn-on-the-Cob-Pin-1.jpg&description=Get+the+exact+cooking+time+for+boiled+corn+on+the+cob.++It%27s+foolproof+and+easy+once+you+learn+how+to+boil+corn+on+the+cob%21+via+%40recipeforperfec" href="https://pinterest.com/pin/create/button/?url=https://recipeforperfection.com/how-to-boil-corn-on-the-cob/&media=https%3A%2F%2Frecipeforperfection.com%2Fwp-content%2Fuploads%2F2016%2F06%2FHow-to-Boil-Corn-on-the-Cob-Pin-1.jpg&description=Get+the+exact+cooking+time+for+boiled+corn+on+the+cob.++It%27s+foolproof+and+easy+once+you+learn+how+to+boil+corn+on+the+cob%21+via+%40recipeforperfec" ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">5K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link external" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_reddit" data-network="reddit"><a class="nc_tweet swp_share_link external" rel="nofollow noreferrer noopener" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" data-link="https://www.reddit.com/submit?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_reddit_icon"></i><span class="swp_share">Reddit</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=How+to+Boil+Corn+on+the+Cob&url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F&via=recipeforperfec" data-link="https://twitter.com/intent/tweet?text=How+to+Boil+Corn+on+the+Cob&url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F&via=recipeforperfec"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span><span class="swp_count">3</span></a></div><div class="nc_tweetContainer swp_share_button swp_yummly" data-network="yummly"><a class="nc_tweet swp_share_link external" rel="nofollow noreferrer noopener" target="_blank" href="https://www.yummly.com/urb/verify?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" data-link="https://www.yummly.com/urb/verify?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_yummly_icon"></i><span class="swp_share">Yum</span></span></span><span class="swp_count">259</span></a></div><div class="nc_tweetContainer swp_share_button swp_email" data-network="email"><a class="nc_tweet noPop swp_share_link" rel="nofollow noreferrer noopener" href="/cdn-cgi/l/email-protection#2b14585e49414e485f1663445c0e191b5f440e191b694442470e191b684459450e191b44450e191b5f434e0e191b6844490d49444f52166c4e5f0e191b5f434e0e191b4e534a485f0e191b4844444042454c0e191b5f42464e0e191b4d44590e191b494442474e4f0e191b484459450e191b44450e191b5f434e0e191b484449050e191b0e191b625f0e191c580e191b4d4444475b5944444d0e191b4a454f0e191b4e4a58520e191b4445484e0e191b52445e0e191b474e4a59450e191b43445c0e191b5f440e191b494442470e191b484459450e191b44450e191b5f434e0e191b4844490e191a0e1b6f0e1b6a0e1b6f0e1b6a794e4a4f0b6644594e0b634e594e110b0e191b435f5f5b580e186a0e196d0e196d594e48425b4e4d44595b4e594d4e485f424445054844460e196d43445c065f4406494442470648445945064445065f434e064844490e196d" target="_blank"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_email_icon"></i><span class="swp_share">Email</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">6K <span class="swp_label">Shares</span></span></div></div><div class="wprm-recipe-snippets"><a href="https://recipeforperfection.com/wprm_print/how-to-boil-corn-on-the-cob" style="" class="wprm-recipe-print wprm-recipe-link wprm-print-recipe-shortcode wprm-block-text-normal" data-recipe-id="7927" data-template="" target="_blank" rel="nofollow">Print Recipe</a> <a href="#wprm-recipe-container-7927" data-recipe="7927" style="" class="wprm-recipe-jump wprm-recipe-link wprm-jump-to-recipe-shortcode wprm-block-text-normal">Jump to Recipe</a></div><p>These step-by-step directions for how to boil corn on the cob are completely foolproof.  You&#8217;ll get easy instructions, exact cooking times, and perfect corn on the cob!</p>
+<p><a href="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe.jpg"><img decoding="async" class="aligncenter wp-image-6371 size-full" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%201200'%3E%3C/svg%3E" alt="One ear of boiled corn on the cob with butter and sea salt on top" width="800" height="1200" data-lazy-srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe.jpg 800w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe-200x300.jpg 200w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe-768x1152.jpg 768w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe-683x1024.jpg 683w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe.jpg" /><noscript><img decoding="async" class="aligncenter wp-image-6371 size-full" src="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe.jpg" alt="One ear of boiled corn on the cob with butter and sea salt on top" width="800" height="1200" srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe.jpg 800w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe-200x300.jpg 200w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe-768x1152.jpg 768w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-recipe-683x1024.jpg 683w" sizes="(max-width: 800px) 100vw, 800px" /></noscript></a></p>
+<h2>How to Boil Corn on the Cob</h2>
+<p>Knowing how to boil corn on the cob is probably one of the top ten kitchen skills you need to have in your cooking repertoire.  It&#8217;s that important.</p>
+<p>No one- repeat, <em>no one</em>&#8211; wants to eat mushy corn on the cob.  It&#8217;s an offense against nature.  And, truthfully, it&#8217;s so easy to boil corn on the cob the right way that there&#8217;s absolutely no defense for cooking it the wrong way.</p>
+<p>It&#8217;s been a long journey since I cooked my very first corn on the cob.  Many years ago, when I was a college student working in a university computer lab, our department had a little get-together where each of us were expected to help out in some way.</p>
+<p>One person ran out to buy supplies.  Another set up a grill outside and grilled the hot dogs and hamburgers out in the Florida sun.  Meanwhile, the lab manager asked me to head down to the small kitchen on the first floor and cook the corn on the cob.</p>
+<p>To this day, it&#8217;s a mystery to me why I got chosen for this duty.  I was 18, the youngest of the staff, and my cooking skills were pretty much limited to the four food groups of college: spaghetti, mashed potatoes, macaroni and cheese, and ramen noodles.</p>
+<p>Nevertheless, I charged gamely downstairs and put a pot on to boil.  Having absolutely no idea how long to cook the ears, I simply tossed the shucked ears into the water, turned on the burner, and watched the corn darken slightly in color as the water simmered, then boiled for a few minutes.  Then I drained the water and carried the corn back upstairs in a large casserole dish.</p>
+<p><a href="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob.jpg"><img decoding="async" class="aligncenter wp-image-6369 size-full" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%201200'%3E%3C/svg%3E" alt="Stack of corn on the cob ears sprinkled with sea salt to show how to boil corn on the cob" width="800" height="1200" data-lazy-srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob.jpg 800w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-200x300.jpg 200w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-768x1152.jpg 768w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-683x1024.jpg 683w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob.jpg" /><noscript><img decoding="async" class="aligncenter wp-image-6369 size-full" src="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob.jpg" alt="Stack of corn on the cob ears sprinkled with sea salt to show how to boil corn on the cob" width="800" height="1200" srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob.jpg 800w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-200x300.jpg 200w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-768x1152.jpg 768w, https://recipeforperfection.com/wp-content/uploads/2016/06/How-to-boil-corn-on-the-cob-683x1024.jpg 683w" sizes="(max-width: 800px) 100vw, 800px" /></noscript></a></p>
+<p>I still remember the unusual purple shade of that casserole dish.</p>
+<p>Lunch was served, plates were made, and everyone tucked in.  Compliments poured in over the corn, leaving me nonplussed because the positive result was really nothing more than a total accident.  Everyone liked how crisp it was, as did I, so I made a mental note to try to make boiled corn on the cob the same way in the future.</p>
+<p>Fast forward a number of years, and I&#8217;ve expanded my cooking repertoire exponentially.  I won&#8217;t tell you that I never cook spaghetti, mashed potatoes, macaroni and cheese, or ramen noodles anymore, but let&#8217;s just say that they they occur much less frequently.</p>
+<p>My corn on the cob, however, is just the same as it ever was and is a frequent star of the table.  When corn is in season, I pick some up on almost every shopping trip.</p>
+<p>I still don&#8217;t add anything to the water.  I still cook it crisp.  And the compliments just keep on coming.</p>
+<p>So, in the spirit of that hapless young lady who accidentally got it right on the first try, I&#8217;d like to show you exactly how to boil corn on the cob.</p>
+<p><a href="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg"><img decoding="async" class="aligncenter size-full wp-image-6370" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%201200'%3E%3C/svg%3E" alt="These step-by-step directions for how to boil corn on the cob are completely foolproof. Easy instructions, exact cooking times, and perfect corn on the cob!" width="800" height="1200" data-lazy-srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg 800w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-200x300.jpg 200w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-768x1152.jpg 768w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-683x1024.jpg 683w" data-lazy-sizes="(max-width: 800px) 100vw, 800px" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg" /><noscript><img decoding="async" class="aligncenter size-full wp-image-6370" src="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg" alt="These step-by-step directions for how to boil corn on the cob are completely foolproof. Easy instructions, exact cooking times, and perfect corn on the cob!" width="800" height="1200" srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg 800w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-200x300.jpg 200w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-768x1152.jpg 768w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-683x1024.jpg 683w" sizes="(max-width: 800px) 100vw, 800px" /></noscript></a></p>
+<p>If you enjoy this recipe for boiled corn on the cob, you might also like these classic side dish recipes using fresh produce.</p>
+<ul>
+<li><a href="https://recipeforperfection.com/how-to-steam-broccoli-without-a-steamer-basket/">How to steam broccoli the easy way</a></li>
+<li><a href="https://recipeforperfection.com/olive-oil-and-sea-salt-oven-roasted-crispy-potato-rounds-recipe/">Oven Roasted Potato Rounds</a></li>
+<li><a href="https://recipeforperfection.com/maple-butter-roasted-acorn-squash-pecans/">Roasted Acorn Squash</a></li>
+<li><a href="https://recipeforperfection.com/baked-sweet-potatoes/">Baked Sweet Potatoes</a></li>
+</ul>
+<p>Pair this side dish with <a href="https://recipeforperfection.com/meatloaf-without-eggs/">meatloaf made without eggs</a> for a complete comfort food dinner.</p>
+<div id="recipe"></div><div id="wprm-recipe-container-7927" class="wprm-recipe-container" data-recipe-id="7927" data-servings="6"><div class="wprm-recipe wprm-recipe-simple">
+	<div class="wprm-recipe-image-container">
+		<div class="wprm-recipe-image"><img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail" alt="Closeup of boiled corn on the cob kernels on a metal tray with salt" data-lazy-srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-150x150.jpg 150w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-320x321.jpg 320w" data-lazy-sizes="(max-width: 150px) 100vw, 150px" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-150x150.jpg" /><noscript><img decoding="async" width="150" height="150" src="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="Closeup of boiled corn on the cob kernels on a metal tray with salt" srcset="https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-150x150.jpg 150w, https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob-320x321.jpg 320w" sizes="(max-width: 150px) 100vw, 150px" /></noscript></div>
+		<div class="wprm-recipe-buttons">
+			<div class="wprm-recipe-rating"><span class="wprm-rating-star wprm-rating-star-1 wprm-rating-star-full" data-rating="1"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-2 wprm-rating-star-full" data-rating="2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-3 wprm-rating-star-full" data-rating="3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-4 wprm-rating-star-full" data-rating="4"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><span class="wprm-rating-star wprm-rating-star-5 wprm-rating-star-full" data-rating="5"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g  transform="translate(0, 0)"><polygon fill="none" stroke="#343434" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9 " stroke-linejoin="miter"/></g></svg></span><div class="wprm-recipe-rating-details"><span class="wprm-recipe-rating-average">5</span> from <span class="wprm-recipe-rating-count">1</span> vote</div></div>			<a href="https://recipeforperfection.com/wprm_print/how-to-boil-corn-on-the-cob" class="wprm-recipe-print" target="_blank" rel="nofollow"><span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path fill="#343434" d="M19,5.09V1c0-0.552-0.448-1-1-1H6C5.448,0,5,0.448,5,1v4.09C2.167,5.569,0,8.033,0,11v7c0,0.552,0.448,1,1,1h4v4c0,0.552,0.448,1,1,1h12c0.552,0,1-0.448,1-1v-4h4c0.552,0,1-0.448,1-1v-7C24,8.033,21.833,5.569,19,5.09z M7,2h10v3H7V2z M17,22H7v-9h10V22z M18,10c-0.552,0-1-0.448-1-1c0-0.552,0.448-1,1-1s1,0.448,1,1C19,9.552,18.552,10,18,10z"/></g></svg></span> Print</a>
+		</div>
+	</div>
+	<h2 class="wprm-recipe-name">How to Boil Corn on the Cob</h2>
+	<div class="wprm-recipe-summary">
+		<p>Get the exact cooking time for boiled corn on the cob.  It's foolproof and easy once you learn how to boil corn on the cob!</p>	</div>
+	<div class="wprm-recipe-details-container wprm-recipe-tags-container">
+					<div class="wprm-recipe-course-container">
+				<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path fill="#000000" d="M22.707,12.293l-11-11C11.52,1.106,11.265,1,11,1H2C1.448,1,1,1.448,1,2v9c0,0.265,0.105,0.52,0.293,0.707l11,11C12.488,22.903,12.744,23,13,23s0.512-0.098,0.707-0.293l9-9C23.098,13.317,23.098,12.684,22.707,12.293z M7,9C5.895,9,5,8.105,5,7c0-1.105,0.895-2,2-2s2,0.895,2,2C9,8.105,8.105,9,7,9z M13,17.414L8.586,13L10,11.586L14.414,16L13,17.414z M16,14.414L11.586,10L13,8.586L17.414,13L16,14.414z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-course-name">Course</span>
+				<span class="wprm-recipe-course">
+					Side Dish				</span>
+			</div>
+					<div class="wprm-recipe-cuisine-container">
+				<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path fill="#000000" d="M22.707,12.293l-11-11C11.52,1.106,11.265,1,11,1H2C1.448,1,1,1.448,1,2v9c0,0.265,0.105,0.52,0.293,0.707l11,11C12.488,22.903,12.744,23,13,23s0.512-0.098,0.707-0.293l9-9C23.098,13.317,23.098,12.684,22.707,12.293z M7,9C5.895,9,5,8.105,5,7c0-1.105,0.895-2,2-2s2,0.895,2,2C9,8.105,8.105,9,7,9z M13,17.414L8.586,13L10,11.586L14.414,16L13,17.414z M16,14.414L11.586,10L13,8.586L17.414,13L16,14.414z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-cuisine-name">Cuisine</span>
+				<span class="wprm-recipe-cuisine">
+					American				</span>
+			</div>
+			</div>
+	<div class="wprm-recipe-details-container wprm-recipe-times-container">
+				<div class="wprm-recipe-prep-time-container">
+			<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path data-color="color-2" fill="#000000" d="M4.3,16.6l-2.2,2.2c-0.6,0.6-0.9,1.3-0.9,2.1c0,0.8,0.3,1.6,0.9,2.1s1.3,0.9,2.1,0.9c0.8,0,1.6-0.3,2.1-0.9l2.2-2.2L4.3,16.6z"/><path fill="#000000" d="M22.6,5.4l-3.5-3.5c-1.1-1.1-2.6-1.8-4.2-1.8s-3.1,0.6-4.2,1.8l-8.4,8.4c-0.4,0.4-0.4,1,0,1.4l7.1,7.1C9.5,18.9,9.7,19,10,19c0,0,0,0,0,0c0.3,0,0.5-0.1,0.7-0.3L22.6,6.8C23,6.4,23,5.8,22.6,5.4z M9.2,14.6l-1.4-1.4l6.4-6.4l1.4,1.4L9.2,14.6z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-prep-time-name">Prep Time</span> <span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-prep_time wprm-recipe-prep_time-minutes">3</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-prep_time-unit wprm-recipe-prep_timeunit-minutes">minutes</span>		</div>
+						<div class="wprm-recipe-cook-time-container">
+			<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path data-color="color-2" fill="#000000" d="M9,9c0.6,0,1-0.4,1-1V4c0-0.6-0.4-1-1-1S8,3.4,8,4v4C8,8.6,8.4,9,9,9z"/><path data-color="color-2" fill="#000000" d="M4,12c0.6,0,1-0.4,1-1V7c0-0.6-0.4-1-1-1S3,6.4,3,7v4C3,11.6,3.4,12,4,12z"/><path data-color="color-2" fill="#000000" d="M14,12c0.6,0,1-0.4,1-1V7c0-0.6-0.4-1-1-1s-1,0.4-1,1v4C13,11.6,13.4,12,14,12z"/><path fill="#000000" d="M23,14h-5H1c-0.6,0-1,0.4-1,1v3c0,1.7,1.3,3,3,3h13c1.7,0,3-1.3,3-3v-1h4c0.6,0,1-0.4,1-1v-1C24,14.4,23.6,14,23,14z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-cook-time-name">Cook Time</span> <span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-cook_time wprm-recipe-cook_time-minutes">17</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-cook_time-unit wprm-recipe-cook_timeunit-minutes">minutes</span>		</div>
+								<div class="wprm-recipe-total-time-container">
+			<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path fill="#000000" d="M21,11h2.949C23.466,5.181,18.819,0.534,13,0.051V3h-2V0.051C5.181,0.534,0.534,5.181,0.051,11H3v2H0.051C0.534,18.819,5.181,23.466,11,23.949V21h2v2.949c5.819-0.484,10.466-5.13,10.949-10.949H21V11z M17,13h-5.535L6.613,5.723l1.664-1.109L12.535,11H17V13z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-total-time-name">Total Time</span> <span class="wprm-recipe-details wprm-recipe-details-minutes wprm-recipe-total_time wprm-recipe-total_time-minutes">20</span> <span class="wprm-recipe-details-unit wprm-recipe-details-minutes wprm-recipe-total_time-unit wprm-recipe-total_timeunit-minutes">minutes</span>		</div>
+			</div>
+	<div class="wprm-recipe-details-container">
+				<div class="wprm-recipe-servings-container">
+			<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path fill="#000000" d="M10,0C9.4,0,9,0.4,9,1v4H7V1c0-0.6-0.4-1-1-1S5,0.4,5,1v4H3V1c0-0.6-0.4-1-1-1S1,0.4,1,1v8c0,1.7,1.3,3,3,3v10c0,1.1,0.9,2,2,2s2-0.9,2-2V12c1.7,0,3-1.3,3-3V1C11,0.4,10.6,0,10,0z"/><path data-color="color-2" fill="#000000" d="M19,0c-3.3,0-6,2.7-6,6v9c0,0.6,0.4,1,1,1h2v6c0,1.1,0.9,2,2,2s2-0.9,2-2V1C20,0.4,19.6,0,19,0z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-servings-name">Servings</span> <span class="wprm-recipe-details wprm-recipe-servings wprm-recipe-servings-7927">6</span> <span class="wprm-recipe-details-unit wprm-recipe-servings-unit"></span>
+		</div>
+						<div class="wprm-recipe-calories-container">
+			<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><rect data-color="color-2" x="21" y="8" fill="#343434" width="3" height="8"/><path fill="#343434" d="M18,5H1C0.448,5,0,5.447,0,6v12c0,0.553,0.448,1,1,1h17c0.552,0,1-0.447,1-1V6C19,5.447,18.552,5,18,5z M11,12v4l-7-5l5,1V8l6,5L11,12z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-calories-name">Calories</span> <span class="wprm-recipe-details wprm-recipe-calories">128</span> <span class="wprm-recipe-details-unit wprm-recipe-calories-unit">kcal</span>
+		</div>
+						<div class="wprm-recipe-author-container">
+			<span class="wprm-recipe-details-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 24 24"><g ><path data-color="color-2" fill="#343434" d="M13,21h-2H5v2c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1v-2H13z"/><path fill="#343434" d="M18,4c-0.1,0-0.2,0-0.3,0c-0.8-2.3-3-4-5.7-4S7.2,1.7,6.3,4C6.2,4,6.1,4,6,4c-3.3,0-6,2.7-6,6c0,3,2.2,5.4,5,5.9V19h6v-4h2v4h6v-3.1c2.8-0.5,5-2.9,5-5.9C24,6.7,21.3,4,18,4z"/></g></svg></span> <span class="wprm-recipe-details-name wprm-recipe-author-name">Author</span> <span class="wprm-recipe-details wprm-recipe-author">Katie Moseman</span>
+		</div>
+			</div>
+
+		<div class="wprm-recipe-ingredients-container">
+		<h3 class="wprm-recipe-header">Ingredients</h3>
+				<div class="wprm-recipe-ingredient-group">
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">6</span>
+															<span class="wprm-recipe-ingredient-unit">ears</span>
+										<span class="wprm-recipe-ingredient-name">Fresh corn</span>
+									</li>
+							</ul>
+		</div>
+	 		<div class="wprm-recipe-ingredient-group">
+						<h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Optional</h4>
+						<ul class="wprm-recipe-ingredients">
+								<li class="wprm-recipe-ingredient">
+										<span class="wprm-recipe-ingredient-amount">3</span>
+															<span class="wprm-recipe-ingredient-unit">tbsp</span>
+										<span class="wprm-recipe-ingredient-name">Butter</span>
+									</li>
+								<li class="wprm-recipe-ingredient">
+															<span class="wprm-recipe-ingredient-name">Sea salt or smoked salt</span>
+									</li>
+							</ul>
+		</div>
+	 	 	</div>
+			<div class="wprm-recipe-instructions-container">
+		<h3 class="wprm-recipe-header">Instructions</h3>
+				<div class="wprm-recipe-instruction-group">
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">Remove the husks and strings of silk from the corn just before cooking.  Snap off the stems.  If the ears are too large to fit in your pot, break them in half.
+</div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">Fill a large pot, such as a Dutch oven, half full with water.  Put the corn in the water.  Cover the pot with a lid and bring the water to a boil over high heat.
+</div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">Once the water is boiling, remove the lid and boil for 2 minutes.
+</div>
+														</li>
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">Remove the pot from the heat, and let it stand uncovered for 10 minutes.  Drain the water and serve the corn immediately.
+</div>
+														</li>
+							</ol>
+		</div>
+				<div class="wprm-recipe-instruction-group">
+						<h4 class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Optional</h4>
+						<ol class="wprm-recipe-instructions">
+								<li class="wprm-recipe-instruction">
+										<div class="wprm-recipe-instruction-text">Rub the cooked corn with butter, then sprinkle with sea salt or smoked salt (smoked salt gives the corn a delightful flavor).</div>
+														</li>
+							</ol>
+		</div>
+			</div>
+				<div id="recipe-7927-nutrition" class="wprm-nutrition-label-shortcode-container"><div class="wprm-nutrition-label-container wprm-nutrition-label-container-label" style="text-align: left;"><div class="wprm-nutrition-label" style="background-color: #ffffff;color: #000000;">
+	<div class="nutrition-title">Nutrition Facts</div>
+	<div class="nutrition-recipe">How to Boil Corn on the Cob</div>
+	<div class="nutrition-line nutrition-line-big"></div>
+	<div class="nutrition-serving">
+					Amount Per Serving						</div>
+	<div class="nutrition-item">
+		<span class="nutrition-main"><strong>Calories</strong> 128</span>
+				<span class="nutrition-percentage">Calories from Fat 54</span>
+			</div>
+		<div class="nutrition-line"></div>
+	<div class="nutrition-item">
+		<span class="nutrition-percentage"><strong>% Daily Value*</strong></span>
+	</div>
+	<div class="nutrition-item nutrition-item-fat"><span class="nutrition-main"><strong>Fat</strong> 6g</span><span class="nutrition-percentage"><strong>9%</strong></span></div><div class="nutrition-sub-item nutrition-item-saturated_fat"><span class="nutrition-sub">Saturated Fat 3g</span><span class="nutrition-percentage"><strong>19%</strong></span></div><div class="nutrition-item nutrition-item-cholesterol"><span class="nutrition-main"><strong>Cholesterol</strong> 15mg</span><span class="nutrition-percentage"><strong>5%</strong></span></div><div class="nutrition-item nutrition-item-sodium"><span class="nutrition-main"><strong>Sodium</strong> 64mg</span><span class="nutrition-percentage"><strong>3%</strong></span></div><div class="nutrition-item nutrition-item-potassium"><span class="nutrition-main"><strong>Potassium</strong> 243mg</span><span class="nutrition-percentage"><strong>7%</strong></span></div><div class="nutrition-item nutrition-item-carbohydrates"><span class="nutrition-main"><strong>Carbohydrates</strong> 16g</span><span class="nutrition-percentage"><strong>5%</strong></span></div><div class="nutrition-sub-item nutrition-item-fiber"><span class="nutrition-sub">Fiber 1g</span><span class="nutrition-percentage"><strong>4%</strong></span></div><div class="nutrition-sub-item nutrition-item-sugar"><span class="nutrition-sub">Sugar 5g</span><span class="nutrition-percentage"><strong>6%</strong></span></div><div class="nutrition-item nutrition-item-protein"><span class="nutrition-main"><strong>Protein</strong> 3g</span><span class="nutrition-percentage"><strong>6%</strong></span></div>			<div class="nutrition-line nutrition-line-big"></div>
+	<div class="nutrition-item nutrition-item-vitamin_a"><span class="nutrition-main"><strong>Vitamin A</strong> 345IU</span><span class="nutrition-percentage"><strong>7%</strong></span></div><div class="nutrition-item nutrition-item-vitamin_c"><span class="nutrition-main"><strong>Vitamin C</strong> 6.1mg</span><span class="nutrition-percentage"><strong>7%</strong></span></div><div class="nutrition-item nutrition-item-calcium"><span class="nutrition-main"><strong>Calcium</strong> 4mg</span><span class="nutrition-percentage"><strong>0%</strong></span></div><div class="nutrition-item nutrition-item-iron"><span class="nutrition-main"><strong>Iron</strong> 0.5mg</span><span class="nutrition-percentage"><strong>3%</strong></span></div>		<div class="nutrition-warning">* Percent Daily Values are based on a 2000 calorie diet.</div>
+</div>
+</div></div></div>
+</div>
+<p>&nbsp;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_pill  swp_default_dark_gray swp_other_dark_gray swp_individual_medium_gray scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="6333" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://recipeforperfection.com/how-to-boil-corn-on-the-cob/&media=https%3A%2F%2Frecipeforperfection.com%2Fwp-content%2Fuploads%2F2016%2F06%2FHow-to-Boil-Corn-on-the-Cob-Pin-1.jpg&description=Get+the+exact+cooking+time+for+boiled+corn+on+the+cob.++It%27s+foolproof+and+easy+once+you+learn+how+to+boil+corn+on+the+cob%21+via+%40recipeforperfec" href="https://pinterest.com/pin/create/button/?url=https://recipeforperfection.com/how-to-boil-corn-on-the-cob/&media=https%3A%2F%2Frecipeforperfection.com%2Fwp-content%2Fuploads%2F2016%2F06%2FHow-to-Boil-Corn-on-the-Cob-Pin-1.jpg&description=Get+the+exact+cooking+time+for+boiled+corn+on+the+cob.++It%27s+foolproof+and+easy+once+you+learn+how+to+boil+corn+on+the+cob%21+via+%40recipeforperfec" ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">5K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link external" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_reddit" data-network="reddit"><a class="nc_tweet swp_share_link external" rel="nofollow noreferrer noopener" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" data-link="https://www.reddit.com/submit?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_reddit_icon"></i><span class="swp_share">Reddit</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button swp_twitter" data-network="twitter"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://twitter.com/intent/tweet?text=How+to+Boil+Corn+on+the+Cob&url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F&via=recipeforperfec" data-link="https://twitter.com/intent/tweet?text=How+to+Boil+Corn+on+the+Cob&url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F&via=recipeforperfec"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_twitter_icon"></i><span class="swp_share">Tweet</span></span></span><span class="swp_count">3</span></a></div><div class="nc_tweetContainer swp_share_button swp_yummly" data-network="yummly"><a class="nc_tweet swp_share_link external" rel="nofollow noreferrer noopener" target="_blank" href="https://www.yummly.com/urb/verify?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F" data-link="https://www.yummly.com/urb/verify?url=https%3A%2F%2Frecipeforperfection.com%2Fhow-to-boil-corn-on-the-cob%2F"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_yummly_icon"></i><span class="swp_share">Yum</span></span></span><span class="swp_count">259</span></a></div><div class="nc_tweetContainer swp_share_button swp_email" data-network="email"><a class="nc_tweet noPop swp_share_link" rel="nofollow noreferrer noopener" href="/cdn-cgi/l/email-protection#2b14585e49414e485f1663445c0e191b5f440e191b694442470e191b684459450e191b44450e191b5f434e0e191b6844490d49444f52166c4e5f0e191b5f434e0e191b4e534a485f0e191b4844444042454c0e191b5f42464e0e191b4d44590e191b494442474e4f0e191b484459450e191b44450e191b5f434e0e191b484449050e191b0e191b625f0e191c580e191b4d4444475b5944444d0e191b4a454f0e191b4e4a58520e191b4445484e0e191b52445e0e191b474e4a59450e191b43445c0e191b5f440e191b494442470e191b484459450e191b44450e191b5f434e0e191b4844490e191a0e1b6f0e1b6a0e1b6f0e1b6a794e4a4f0b6644594e0b634e594e110b0e191b435f5f5b580e186a0e196d0e196d594e48425b4e4d44595b4e594d4e485f424445054844460e196d43445c065f4406494442470648445945064445065f434e064844490e196d" target="_blank"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_email_icon"></i><span class="swp_share">Email</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">6K <span class="swp_label">Shares</span></span></div></div><div class="swp-content-locator"></div><div class='code-block code-block-1' style='margin: 8px 0; clear: both;'>
+<a href="https://amzn.to/2v4aVyT" class="external" rel="nofollow" target="_blank"><img class="aligncenter wp-image-11469 size-full" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20680%20340'%3E%3C/svg%3E" alt="Vegetable Cookbook" width="680" height="340" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2018/07/I-Hate-Vegetables-Cookbook-Cover-Blog-1.jpg" /><noscript><img class="aligncenter wp-image-11469 size-full" src="https://recipeforperfection.com/wp-content/uploads/2018/07/I-Hate-Vegetables-Cookbook-Cover-Blog-1.jpg" alt="Vegetable Cookbook" width="680" height="340" /></noscript></a></div>
+<!-- CONTENT END 1 -->
+</div><footer class="entry-footer"><p class="entry-meta"><span class="entry-categories">Filed Under: <a href="https://recipeforperfection.com/most-popular/" rel="category tag">Most Popular</a>, <a href="https://recipeforperfection.com/recipes/" rel="category tag">Recipes</a>, <a href="https://recipeforperfection.com/recipes/side-dishes/" rel="category tag">Side Dishes</a></span> </p></footer></article><div class="adjacent-entry-pagination pagination"><div class="pagination-previous alignleft"><a href="https://recipeforperfection.com/easy-blackberry-crumble-recipe-sundaysupper/" rel="prev"><span class="screen-reader-text">Previous Post: </span><span class="adjacent-post-link">&#xAB; Easy Blackberry Crumble Recipe</span></a></div><div class="pagination-next alignright"><a href="https://recipeforperfection.com/gluten-free-chocolate-ultimate-guide/" rel="next"><span class="screen-reader-text">Next Post: </span><span class="adjacent-post-link">Gluten Free Chocolate: The Ultimate Guide &#xBB;</span></a></div></div><h2 class="screen-reader-text">Reader Interactions</h2><div class="after-entry"><section id="custom_html-5" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h3 class="widgettitle widget-title">Subscribe</h3>
+<div class="textwidget custom-html-widget"><div class="ml-embedded" data-form="Fp6sc8"></div></div></div></section>
+</div><div class="entry-comments" id="comments"><h3>Comments</h3><ol class="comment-list">
+	<li class="comment even thread-even depth-1" id="comment-13969">
+	<article id="article-comment-13969">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name">MJ</span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13969">June 14, 2016 at 10:35 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Corn is my most favorite thing to eat in the summer. We grill it, roast it on the grill or in the oven. I&#8217;ve made it just like you. I&#8217;ve also boiled it with milk and sugar which a Hispanic friend suggested. Letting it stand for 10 minutes is definitely the key. I do something similar for perfect boiled eggs too.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13969" data-commentid="13969" data-postid="6333" data-belowelement="article-comment-13969" data-respondelement="respond" data-replyto="Reply to MJ" aria-label="Reply to MJ">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14021">
+	<article id="article-comment-14021">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14021">June 15, 2016 at 9:55 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Milk and sugar?  I&#8217;ll have to look into that!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14021" data-commentid="14021" data-postid="6333" data-belowelement="article-comment-14021" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-13970">
+	<article id="article-comment-13970">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name">Kita</span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13970">June 14, 2016 at 10:45 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I just boiled a big old pot of corn this weekend for our family barbeque. It was the hit of the barbeque as usual.  Boiling is always our preferred method. Sometimes we roast but boiling is our go to. I&#8217;ve never done the let stand or 10 minutes method so I will give that a try the next time I make a batch.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13970" data-commentid="13970" data-postid="6333" data-belowelement="article-comment-13970" data-respondelement="respond" data-replyto="Reply to Kita" aria-label="Reply to Kita">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14020">
+	<article id="article-comment-14020">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14020">June 15, 2016 at 9:55 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Give it a shot!  I bet you&#8217;ll like it. 🙂</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14020" data-commentid="14020" data-postid="6333" data-belowelement="article-comment-14020" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-even depth-1" id="comment-13971">
+	<article id="article-comment-13971">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name">Alaina Bullock</span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13971">June 14, 2016 at 11:31 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I LOVE corn on the cob, and too often I&#8217;ll order it when we go out to eat, and it is just not cooked correctly! How you fix it, is the BEST way to do it! And yes, Fresh From Florida offers some amazingly good produce and seafood! I&#8217;m lucky that I live in Alabama and my mom lives on Florida &#8211; i get Fresh From Florida all the time! Thanks for the recipe!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13971" data-commentid="13971" data-postid="6333" data-belowelement="article-comment-13971" data-respondelement="respond" data-replyto="Reply to Alaina Bullock" aria-label="Reply to Alaina Bullock">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14019">
+	<article id="article-comment-14019">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14019">June 15, 2016 at 9:55 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Thank you for stopping by!  I bet Alabama has some good produce, too!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14019" data-commentid="14019" data-postid="6333" data-belowelement="article-comment-14019" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-13972">
+	<article id="article-comment-13972">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://www.beingreese.com/" class="comment-author-link" rel="external nofollow">Theresa Sutton</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13972">June 14, 2016 at 11:32 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Oh wow! This just made me super hungry. I LOVE corn on the cob. Apparently I haven&#8217;t been boiling it correctly though!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13972" data-commentid="13972" data-postid="6333" data-belowelement="article-comment-13972" data-respondelement="respond" data-replyto="Reply to Theresa Sutton" aria-label="Reply to Theresa Sutton">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14018">
+	<article id="article-comment-14018">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14018">June 15, 2016 at 9:54 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>LOL, everyone has a different method. 🙂  No worries!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14018" data-commentid="14018" data-postid="6333" data-belowelement="article-comment-14018" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-even depth-1" id="comment-13981">
+	<article id="article-comment-13981">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://www.girlgonemom.com" class="comment-author-link" rel="external nofollow">Heather</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13981">June 14, 2016 at 7:27 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I boil them as well because the kids won&#8217;t eat them grilled. I don&#8217;t remove the cover and cook more though. I&#8217;ll try that.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13981" data-commentid="13981" data-postid="6333" data-belowelement="article-comment-13981" data-respondelement="respond" data-replyto="Reply to Heather" aria-label="Reply to Heather">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14015">
+	<article id="article-comment-14015">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14015">June 15, 2016 at 9:52 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Interesting!  I&#8217;ve never tried giving my kids grilled corn.  I wonder if they&#8217;d notice?</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14015" data-commentid="14015" data-postid="6333" data-belowelement="article-comment-14015" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-13983">
+	<article id="article-comment-13983">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://www.findingsanityinourcrazylife.com" class="comment-author-link" rel="external nofollow">Gwendolyn Mulholland</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13983">June 14, 2016 at 10:42 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I love corn on the cob and can&#8217;t wait to stock up my freezer again this season. It is important to not overcook it so that it doesn&#8217;t end up mushy. These are great tips for those that struggle to get it right. I also love throwing it on the grill .</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13983" data-commentid="13983" data-postid="6333" data-belowelement="article-comment-13983" data-respondelement="respond" data-replyto="Reply to Gwendolyn Mulholland" aria-label="Reply to Gwendolyn Mulholland">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14014">
+	<article id="article-comment-14014">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14014">June 15, 2016 at 9:52 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I have had grilled corn at a local restaurant topped with cotija cheese and cilantro- so good!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14014" data-commentid="14014" data-postid="6333" data-belowelement="article-comment-14014" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-even depth-1" id="comment-13985">
+	<article id="article-comment-13985">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://www.buildingourstory.com" class="comment-author-link" rel="external nofollow">Censie Sawyer</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13985">June 15, 2016 at 12:25 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Yummy,  Our favorite summer and fall veggie.   We usually grill ours but I do love boiled corn too.  I love that our kids like corn on the cobb because it is a great veggie fro them to enjoy</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13985" data-commentid="13985" data-postid="6333" data-belowelement="article-comment-13985" data-respondelement="respond" data-replyto="Reply to Censie Sawyer" aria-label="Reply to Censie Sawyer">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14013">
+	<article id="article-comment-14013">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14013">June 15, 2016 at 9:51 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Yes, my kids like it too!  It&#8217;s a miracle. 😉</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14013" data-commentid="14013" data-postid="6333" data-belowelement="article-comment-14013" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-13995">
+	<article id="article-comment-13995">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://myunentitledlife.com" class="comment-author-link" rel="external nofollow">Dina Demarest</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13995">June 15, 2016 at 10:42 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Corn is one of those things that I can not stand to eat if it&#8217;s overcooked. So I&#8217;m very particular about it. I cook it barely! Love to know you only boil for 2 minutes!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13995" data-commentid="13995" data-postid="6333" data-belowelement="article-comment-13995" data-respondelement="respond" data-replyto="Reply to Dina Demarest" aria-label="Reply to Dina Demarest">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14011">
+	<article id="article-comment-14011">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14011">June 15, 2016 at 9:51 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Me too!  Mushy corn is the worst.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14011" data-commentid="14011" data-postid="6333" data-belowelement="article-comment-14011" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-even depth-1" id="comment-13997">
+	<article id="article-comment-13997">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://www.mommyhatescooking.com" class="comment-author-link" rel="external nofollow">Kristy @ Mommy Hates Cooking</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-13997">June 15, 2016 at 12:18 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>You just can&#8217;t have summer without corn on the cob!  Oh so delicious!  We grill a couple of times a week, so we usually just grill our corn on the cob.  Good to know that boiling it is just as simple!</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-13997" data-commentid="13997" data-postid="6333" data-belowelement="article-comment-13997" data-respondelement="respond" data-replyto="Reply to Kristy @ Mommy Hates Cooking" aria-label="Reply to Kristy @ Mommy Hates Cooking">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14009">
+	<article id="article-comment-14009">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14009">June 15, 2016 at 9:50 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Yes!  A good option for when it&#8217;s raining and you can&#8217;t fire up the grill.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14009" data-commentid="14009" data-postid="6333" data-belowelement="article-comment-14009" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-14027">
+	<article id="article-comment-14027">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://surviving5kidsblog.wordpress.com/" class="comment-author-link" rel="external nofollow">Heather Stone Brodbeck</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14027">June 16, 2016 at 2:06 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I just bought 10 corn on the cobs today at Food Lion they were having a sale. I love love love corn! And Summer is the perfect time for corn on the cob! Something about the two just go hand in hand. I also love cooking them in my crock pot on low for 6-8 hours or on the grill.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14027" data-commentid="14027" data-postid="6333" data-belowelement="article-comment-14027" data-respondelement="respond" data-replyto="Reply to Heather Stone Brodbeck" aria-label="Reply to Heather Stone Brodbeck">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14048">
+	<article id="article-comment-14048">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14048">June 17, 2016 at 10:00 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I blush to admit it, but I still don&#8217;t own a crock pot!  Isn&#8217;t that crazy?</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14048" data-commentid="14048" data-postid="6333" data-belowelement="article-comment-14048" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-even depth-1" id="comment-14034">
+	<article id="article-comment-14034">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="http://iamaileen.com" class="comment-author-link" rel="external nofollow">Aileen Adalid</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14034">June 16, 2016 at 6:07 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p><img class="wprm-comment-rating" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=" data-lazy-src="https://recipeforperfection.com/wp-content/plugins/wp-recipe-maker/assets/icons/rating/stars-alt-5.svg" alt="5 stars" width="80" height="16" /><br />
+I am in LOVE with corn! I can eat a bunch of them in just one sitting. I especially love it when it&#8217;s slathered with butter and your recipe is almost similar to mine &lt;3</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14034" data-commentid="14034" data-postid="6333" data-belowelement="article-comment-14034" data-respondelement="respond" data-replyto="Reply to Aileen Adalid" aria-label="Reply to Aileen Adalid">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-14049">
+	<article id="article-comment-14049">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-14049">June 17, 2016 at 10:01 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Mmm&#8230; I can eat a bunch, too!  My current record is 3 ears in one sitting.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-14049" data-commentid="14049" data-postid="6333" data-belowelement="article-comment-14049" data-respondelement="respond" data-replyto="Reply to Katie" aria-label="Reply to Katie">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-odd thread-alt depth-1" id="comment-29208">
+	<article id="article-comment-29208">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name">Betty</span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-29208">October 18, 2017 at 2:39 am</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I love corn, boiled, streamed,  fried,  roasted,  corn cut off cob. Any way it can be cooked. Try it in mircowave is quick and easy.  Cut the end off, and cut or break the  bottom end off. Put timer on 4 mins , hold under cold water, and the silk comes come right off.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-29208" data-commentid="29208" data-postid="6333" data-belowelement="article-comment-29208" data-respondelement="respond" data-replyto="Reply to Betty" aria-label="Reply to Betty">Reply</a></div>
+		
+	</article>
+	<ul class="children">
+
+	<li class="comment byuser comment-author-theper35_wp bypostauthor odd alt depth-2" id="comment-29248">
+	<article id="article-comment-29248">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://recipeforperfection.com" class="comment-author-link" rel="external nofollow">Katie Moseman</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-29248">October 18, 2017 at 2:19 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>Good idea!  I&#8217;ll have to try the microwave method.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-29248" data-commentid="29248" data-postid="6333" data-belowelement="article-comment-29248" data-respondelement="respond" data-replyto="Reply to Katie Moseman" aria-label="Reply to Katie Moseman">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+
+	<li class="comment even thread-even depth-1" id="comment-119140">
+	<article id="article-comment-119140">
+
+		
+		<header class="comment-header">
+			<p class="comment-author">
+				<span class="comment-author-name"><a href="https://theoldfellowgoesrunning.com/" class="comment-author-link" rel="external nofollow">Carl Wright</a></span>			</p>
+
+			<p class="comment-meta"><time class="comment-time"><a class="comment-time-link" href="https://recipeforperfection.com/how-to-boil-corn-on-the-cob/#comment-119140">August 3, 2024 at 5:52 pm</a></time></p>		</header>
+
+		<div class="comment-content">
+			
+			<p>I just googled how long should I boil corn on the cob. This article came up. I&#8217;m currently letting it stand uncovered for 10 minutes before draining. Thank you for the help.</p>
+		</div>
+
+		<div class="comment-reply"><a rel="nofollow" class="comment-reply-link" href="#comment-119140" data-commentid="119140" data-postid="6333" data-belowelement="article-comment-119140" data-respondelement="respond" data-replyto="Reply to Carl Wright" aria-label="Reply to Carl Wright">Reply</a></div>
+		
+	</article>
+	</li><!-- #comment-## -->
+</ol></div>	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/how-to-boil-corn-on-the-cob/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://recipeforperfection.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><div class="comment-form-wprm-rating">
+	<label for="wprm-comment-rating-117801800">Recipe Rating</label>	<span class="wprm-rating-stars">
+		<fieldset class="wprm-comment-ratings-container" data-original-rating="0" data-current-rating="0">
+			<legend>Recipe Rating</legend>
+			<input aria-label="Don&#039;t rate this recipe" name="wprm-comment-rating" value="0" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="margin-left: -21px !important; width: 24px !important; height: 24px !important;" checked="checked"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-empty" id="wprm-star-0" fill="none" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+  </defs>
+	<use xlink:href="#wprm-star-0" x="4" y="4" />
+	<use xlink:href="#wprm-star-0" x="36" y="4" />
+	<use xlink:href="#wprm-star-0" x="68" y="4" />
+	<use xlink:href="#wprm-star-0" x="100" y="4" />
+	<use xlink:href="#wprm-star-0" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 1 out of 5 stars" name="wprm-comment-rating" value="1" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-empty" id="wprm-star-empty-1" fill="none" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+	<path class="wprm-star-full" id="wprm-star-full-1" fill="#343434" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-1" x="4" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="36" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-1" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 2 out of 5 stars" name="wprm-comment-rating" value="2" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-empty" id="wprm-star-empty-2" fill="none" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+	<path class="wprm-star-full" id="wprm-star-full-2" fill="#343434" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-2" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-2" x="36" y="4" />
+	<use xlink:href="#wprm-star-empty-2" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-2" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-2" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 3 out of 5 stars" name="wprm-comment-rating" value="3" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-empty" id="wprm-star-empty-3" fill="none" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+	<path class="wprm-star-full" id="wprm-star-full-3" fill="#343434" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-3" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-3" x="36" y="4" />
+	<use xlink:href="#wprm-star-full-3" x="68" y="4" />
+	<use xlink:href="#wprm-star-empty-3" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-3" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 4 out of 5 stars" name="wprm-comment-rating" value="4" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-empty" id="wprm-star-empty-4" fill="none" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+	<path class="wprm-star-full" id="wprm-star-full-4" fill="#343434" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+  </defs>
+	<use xlink:href="#wprm-star-full-4" x="4" y="4" />
+	<use xlink:href="#wprm-star-full-4" x="36" y="4" />
+	<use xlink:href="#wprm-star-full-4" x="68" y="4" />
+	<use xlink:href="#wprm-star-full-4" x="100" y="4" />
+	<use xlink:href="#wprm-star-empty-4" x="132" y="4" />
+</svg></span><br><input aria-label="Rate this recipe 5 out of 5 stars" name="wprm-comment-rating" value="5" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" id="wprm-comment-rating-117801800" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+  <defs>
+	<path class="wprm-star-full" id="wprm-star-5" fill="#343434" stroke="#343434" stroke-width="2" stroke-linejoin="round" d="M11.99,1.94c-.35,0-.67.19-.83.51l-2.56,5.2c-.11.24-.34.4-.61.43l-5.75.83c-.35.05-.64.3-.74.64-.11.34,0,.7.22.94l4.16,4.05c.19.19.27.45.22.7l-.98,5.72c-.06.35.1.7.37.9.29.21.66.24.98.08l5.14-2.71h0c.24-.13.51-.13.75,0l5.14,2.71c.32.16.69.13.98-.08.29-.21.43-.56.37-.9l-.98-5.72h0c-.05-.26.05-.53.22-.7l4.16-4.05h0c.26-.24.34-.61.22-.94s-.4-.58-.74-.64l-5.75-.83c-.26-.03-.48-.21-.61-.43l-2.56-5.2c-.16-.32-.48-.53-.83-.51,0,0-.02,0-.02,0Z"/>
+  </defs>
+	<use xlink:href="#wprm-star-5" x="4" y="4" />
+	<use xlink:href="#wprm-star-5" x="36" y="4" />
+	<use xlink:href="#wprm-star-5" x="68" y="4" />
+	<use xlink:href="#wprm-star-5" x="100" y="4" />
+	<use xlink:href="#wprm-star-5" x="132" y="4" />
+</svg></span>		</fieldset>
+	</span>
+</div>
+<p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class='comment-form-subscriptions'><label for='subscribe-reloaded'><input style='width:30px' type='checkbox' name='subscribe-reloaded' id='subscribe-reloaded' value='replies' checked='checked' /> Notify me of followup comments via e-mail. You can also <a href='https://recipeforperfection.com/comment-subscriptions/?srp=6333&amp;srk=9430b66f39d7878fb3a9efaf3bc01be9&amp;sra=s&amp;srsrc=f'>subscribe</a> without commenting.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='6333' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e6775128cd" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="rocketlazyloadscript">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	</main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><section id="media_image-3" class="widget widget_media_image"><div class="widget-wrap"><a href="https://amzn.to/2v4aVyT"><img width="350" height="350" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20350'%3E%3C/svg%3E" class="image wp-image-12156  attachment-full size-full" alt="Covers of I Hate Vegetables Cookbook in paperback and ebook format" style="max-width: 100%; height: auto;" decoding="async" data-lazy-srcset="https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon.jpg 350w, https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon-150x150.jpg 150w, https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon-300x300.jpg 300w, https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon-320x321.jpg 320w" data-lazy-sizes="(max-width: 350px) 100vw, 350px" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon.jpg" /><noscript><img width="350" height="350" src="https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon.jpg" class="image wp-image-12156  attachment-full size-full" alt="Covers of I Hate Vegetables Cookbook in paperback and ebook format" style="max-width: 100%; height: auto;" decoding="async" srcset="https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon.jpg 350w, https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon-150x150.jpg 150w, https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon-300x300.jpg 300w, https://recipeforperfection.com/wp-content/uploads/2018/08/I-Hate-Vegetables-Cookbook-covers-on-Amazon-320x321.jpg 320w" sizes="(max-width: 350px) 100vw, 350px" /></noscript></a></div></section>
+<section id="media_image-4" class="widget widget_media_image"><div class="widget-wrap"><a href="https://amzn.to/2Bh57XD"><img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="image wp-image-12155  attachment-medium size-medium" alt="Cookbook covers for Fixin to Eat in paperback and ebook format" style="max-width: 100%; height: auto;" decoding="async" data-lazy-srcset="https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-300x300.jpg 300w, https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-150x150.jpg 150w, https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-320x321.jpg 320w, https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon.jpg 350w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-300x300.jpg" /><noscript><img width="300" height="300" src="https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-300x300.jpg" class="image wp-image-12155  attachment-medium size-medium" alt="Cookbook covers for Fixin to Eat in paperback and ebook format" style="max-width: 100%; height: auto;" decoding="async" srcset="https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-300x300.jpg 300w, https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-150x150.jpg 150w, https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon-320x321.jpg 320w, https://recipeforperfection.com/wp-content/uploads/2018/08/Fixin-to-Eat-Cookbook-covers-on-Amazon.jpg 350w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></a></div></section>
+<section id="custom_html-4" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h3 class="widgettitle widget-title">Subscribe</h3>
+<div class="textwidget custom-html-widget"><div class="ml-embedded" data-form="Fp6sc8"></div></div></div></section>
+<section id="categories-4" class="widget widget_categories"><div class="widget-wrap"><h3 class="widgettitle widget-title">Categories</h3>
+<form action="https://recipeforperfection.com" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform'>
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="992">Cookbooks</option>
+	<option class="level-0" value="93">Gluten Free</option>
+	<option class="level-0" value="81">Holidays</option>
+	<option class="level-1" value="103">&nbsp;&nbsp;&nbsp;Birthdays</option>
+	<option class="level-1" value="82">&nbsp;&nbsp;&nbsp;Christmas</option>
+	<option class="level-1" value="104">&nbsp;&nbsp;&nbsp;Easter</option>
+	<option class="level-1" value="122">&nbsp;&nbsp;&nbsp;Fall</option>
+	<option class="level-1" value="117">&nbsp;&nbsp;&nbsp;Fourth of July</option>
+	<option class="level-1" value="28">&nbsp;&nbsp;&nbsp;Halloween</option>
+	<option class="level-1" value="106">&nbsp;&nbsp;&nbsp;Mother&#8217;s Day</option>
+	<option class="level-1" value="98">&nbsp;&nbsp;&nbsp;St. Patrick&#8217;s Day</option>
+	<option class="level-1" value="124">&nbsp;&nbsp;&nbsp;Thanksgiving</option>
+	<option class="level-1" value="95">&nbsp;&nbsp;&nbsp;Valentine&#8217;s Day</option>
+	<option class="level-0" value="80">Interviews</option>
+	<option class="level-0" value="130">Most Popular</option>
+	<option class="level-0" value="29">Quizzes</option>
+	<option class="level-0" value="32">Recipes</option>
+	<option class="level-1" value="31">&nbsp;&nbsp;&nbsp;Beverages</option>
+	<option class="level-1" value="115">&nbsp;&nbsp;&nbsp;Bread</option>
+	<option class="level-1" value="110">&nbsp;&nbsp;&nbsp;Breakfast</option>
+	<option class="level-1" value="99">&nbsp;&nbsp;&nbsp;Desserts</option>
+	<option class="level-2" value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brownies &amp; Blondies</option>
+	<option class="level-2" value="96">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cakes</option>
+	<option class="level-2" value="88">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Candy</option>
+	<option class="level-2" value="75">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cookies</option>
+	<option class="level-2" value="90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crumbles &amp; Cobblers</option>
+	<option class="level-2" value="107">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice Cream</option>
+	<option class="level-2" value="875">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puddings &amp; Custards</option>
+	<option class="level-1" value="60">&nbsp;&nbsp;&nbsp;Main Courses</option>
+	<option class="level-1" value="119">&nbsp;&nbsp;&nbsp;Salad</option>
+	<option class="level-1" value="927">&nbsp;&nbsp;&nbsp;Sauces</option>
+	<option class="level-1" value="112">&nbsp;&nbsp;&nbsp;Side Dishes</option>
+	<option class="level-1" value="92">&nbsp;&nbsp;&nbsp;Snacks</option>
+	<option class="level-2" value="87">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Appetizers</option>
+	<option class="level-1" value="125">&nbsp;&nbsp;&nbsp;Soup</option>
+	<option class="level-0" value="118">Restaurants</option>
+	<option class="level-0" value="33">Roundups</option>
+	<option class="level-0" value="100">Special Events</option>
+	<option class="level-1" value="79">&nbsp;&nbsp;&nbsp;#SundaySupper</option>
+	<option class="level-1" value="78">&nbsp;&nbsp;&nbsp;#WeekdaySupper</option>
+	<option class="level-1" value="120">&nbsp;&nbsp;&nbsp;Charities</option>
+	<option class="level-1" value="105">&nbsp;&nbsp;&nbsp;Pinterest Group Boards</option>
+	<option class="level-1" value="27">&nbsp;&nbsp;&nbsp;Time Lord Chefs</option>
+	<option class="level-0" value="933">Tasty Tips</option>
+	<option class="level-1" value="113">&nbsp;&nbsp;&nbsp;Gift Guides</option>
+	<option class="level-1" value="7">&nbsp;&nbsp;&nbsp;Kitchen Tips</option>
+	<option class="level-1" value="91">&nbsp;&nbsp;&nbsp;Products I Like</option>
+	<option class="level-0" value="97">Travel</option>
+	<option class="level-1" value="131">&nbsp;&nbsp;&nbsp;Florida</option>
+	<option class="level-1" value="133">&nbsp;&nbsp;&nbsp;Hotels</option>
+	<option class="level-1" value="132">&nbsp;&nbsp;&nbsp;Orlando</option>
+	<option class="level-0" value="1">Uncategorized</option>
+</select>
+</form><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+/* <![CDATA[ */
+
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+
+/* ]]> */
+</script>
+</div></section>
+<section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><!-- CLEVER Pixel v4c Begin -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://pixel2.realclever.com/v4/X9J35JI6NdY34GokFxYC3t3pOV1SmiJ8.js" async="async"></script>
+<!-- CLEVER Pixel v4c End --></div></div></section>
+</aside></div></div><div class="footer-widgets" id="genesis-footer-widgets"><h2 class="genesis-sidebar-title screen-reader-text">Footer</h2><div class="wrap"><div class="widget-area footer-widgets-1 footer-widget-area"><section id="search-3" class="widget widget_search"><div class="widget-wrap"><h3 class="widgettitle widget-title">Search Recipe for Perfection</h3>
+<form class="search-form" method="get" action="https://recipeforperfection.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-2">Search</label><input class="search-form-input" type="search" name="s" id="searchform-2" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://recipeforperfection.com/?s={s}"></form></div></section>
+<section id="custom_html-2" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><div class="custom-social-icons">
+	<a href="https://www.facebook.com/RecipeForPerfection" target="_blank" class="external" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i>
+</a>
+	<a href="https://twitter.com/recipeforperfec" target="_blank" class="external" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	<a href="https://www.pinterest.com/recipeforperfec" target="_blank" class="external" rel="nofollow"><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+</a>
+	<a href="https://www.instagram.com/recipeforperfection" target="_blank" class="external" rel="nofollow"><i class="fa fa-instagram" aria-hidden="true"></i>
+</a>
+	<a href="https://plus.google.com/+recipeforperfection1" target="_blank" class="external" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i>
+</a>
+	<a href="https://youtube.com/c/Recipeforperfection1" target="_blank" class="external" rel="nofollow"><i class="fa fa-youtube" aria-hidden="true"></i>
+</a>
+</div></div></div></section>
+</div></div></div><footer class="site-footer"><div class="wrap"><p>Copyright 2014 - 2017</p></div></footer></div><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/foodie-pro\/*","\/wp-content\/themes\/genesis\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="rocketlazyloadscript">window.wprm_recipes = {"recipe-7927":{"type":"food","name":"How to Boil Corn on the Cob","slug":"wprm-how-to-boil-corn-on-the-cob","image_url":"https:\/\/recipeforperfection.com\/wp-content\/uploads\/2016\/06\/Boiled-corn-on-the-cob.jpg","rating":{"count":1,"total":5,"average":5,"type":{"comment":1,"no_comment":0,"user":0},"user":0},"ingredients":[{"amount":"6","unit":"ears","name":"Fresh corn","notes":"","id":553,"type":"ingredient","uid":0,"unit_systems":{"unit-system-1":{"amount":"6","unit":"ears","unitParsed":"ears"}}},{"amount":"3","unit":"tbsp","name":"Butter","notes":"","id":240,"type":"ingredient","uid":2,"unit_systems":{"unit-system-1":{"amount":"3","unit":"tbsp","unitParsed":"tbsp"}}},{"amount":"","unit":"","name":"Sea salt or smoked salt","notes":"","id":554,"type":"ingredient","uid":3,"unit_systems":{"unit-system-1":{"amount":"","unit":"","unitParsed":""}}}],"originalServings":"6","originalServingsParsed":6,"currentServings":"6","currentServingsParsed":6,"currentServingsFormatted":"6","currentServingsMultiplier":1,"originalSystem":1,"currentSystem":1,"unitSystems":[1],"originalAdvancedServings":{"shape":"round","unit":"inch","diameter":0,"width":0,"length":0,"height":0},"currentAdvancedServings":{"shape":"round","unit":"inch","diameter":0,"width":0,"length":0,"height":0}}}</script>
+
+<script type="text/javascript" id="social_warfare_script-js-extra">
+/* <![CDATA[ */
+var socialWarfare = {"addons":["pro"],"post_id":"6333","variables":{"emphasizeIcons":"0","powered_by_toggle":false,"affiliate_link":"https:\/\/warfareplugins.com"},"floatBeforeContent":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://recipeforperfection.com/wp-content/plugins/social-warfare/assets/js/script.min.js?ver=4.5.6" id="social_warfare_script-js" data-rocket-defer defer></script>
+<script type="text/javascript" src="https://recipeforperfection.com/wp-includes/js/comment-reply.min.js?ver=22f70922070e10c5b37b0f30f36c8756" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://recipeforperfection.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.6.1" id="skip-links-js" data-rocket-defer defer></script>
+<script data-minify="1" type="text/javascript" src="https://recipeforperfection.com/wp-content/cache/min/1/wp-content/themes/foodie-pro/assets/js/general.js?ver=1763569828" id="foodie-pro-general-js" data-rocket-defer defer></script>
+<script type="text/javascript" id="wprm-public-js-extra">
+/* <![CDATA[ */
+var wprm_public = {"user":"0","endpoints":{"analytics":"https:\/\/recipeforperfection.com\/wp-json\/wp-recipe-maker\/v1\/analytics","integrations":"https:\/\/recipeforperfection.com\/wp-json\/wp-recipe-maker\/v1\/integrations","manage":"https:\/\/recipeforperfection.com\/wp-json\/wp-recipe-maker\/v1\/manage","utilities":"https:\/\/recipeforperfection.com\/wp-json\/wp-recipe-maker\/v1\/utilities"},"settings":{"jump_output_hash":true,"features_comment_ratings":true,"template_color_comment_rating":"#343434","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"google_analytics_enabled":false,"print_new_tab":true,"print_recipe_identifier":"slug"},"post_id":"6333","home_url":"https:\/\/recipeforperfection.com\/","print_slug":"wprm_print","permalinks":"\/%postname%\/","ajax_url":"https:\/\/recipeforperfection.com\/wp-admin\/admin-ajax.php","nonce":"9f2f2efdc3","api_nonce":"301629b1b1","translations":[],"version":{"free":"10.1.1","pro":"10.1.0"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://recipeforperfection.com/wp-content/plugins/wp-recipe-maker/dist/public-modern.js?ver=10.1.1" id="wprm-public-js" data-rocket-defer defer></script>
+<script type="text/javascript" id="wprmp-public-js-extra">
+/* <![CDATA[ */
+var wprmp_public = {"user":"0","endpoints":{"private_notes":"https:\/\/recipeforperfection.com\/wp-json\/wp-recipe-maker\/v1\/private-notes","user_rating":"https:\/\/recipeforperfection.com\/wp-json\/wp-recipe-maker\/v1\/user-rating"},"settings":{"recipe_template_mode":"legacy","features_adjustable_servings":true,"adjustable_servings_url":false,"adjustable_servings_url_param":"servings","adjustable_servings_round_to_decimals":"2","unit_conversion_remember":true,"unit_conversion_temperature":"none","unit_conversion_temperature_precision":"round_5","unit_conversion_system_1_temperature":"F","unit_conversion_system_2_temperature":"C","unit_conversion_advanced_servings_conversion":false,"unit_conversion_system_1_length_unit":"inch","unit_conversion_system_2_length_unit":"cm","fractions_enabled":false,"fractions_use_mixed":true,"fractions_use_symbols":true,"fractions_max_denominator":"8","unit_conversion_system_1_fractions":true,"unit_conversion_system_2_fractions":true,"unit_conversion_enabled":false,"decimal_separator":"point","features_comment_ratings":true,"features_user_ratings":false,"user_ratings_type":"modal","user_ratings_force_comment_scroll_to_smooth":true,"user_ratings_modal_title":"Rate This Recipe","user_ratings_thank_you_title":"Thank You!","user_ratings_thank_you_message_with_comment":"","user_ratings_problem_message":"There was a problem rating this recipe. Please try again later.","user_ratings_force_comment_scroll_to":"","user_ratings_open_url_parameter":"rate","user_ratings_require_comment":true,"user_ratings_require_name":true,"user_ratings_require_email":true,"user_ratings_comment_suggestions_enabled":"never","rating_details_zero":"No ratings yet","rating_details_one":"%average% from 1 vote","rating_details_multiple":"%average% from %votes% votes","rating_details_user_voted":"(Your vote: %user%)","rating_details_user_not_voted":"(Click on the stars to vote!)","servings_changer_display":"tooltip_slider","template_ingredient_list_style":"disc","template_instruction_list_style":"decimal","template_color_icon":"#343434"},"timer":{"sound_file":"https:\/\/recipeforperfection.com\/wp-content\/plugins\/wp-recipe-maker-premium\/assets\/sounds\/alarm.mp3","text":{"start_timer":"Click to Start Timer"},"icons":{"pause":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M9,2H4C3.4,2,3,2.4,3,3v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C10,2.4,9.6,2,9,2z\"\/><path fill=\"#fffefe\" d=\"M20,2h-5c-0.6,0-1,0.4-1,1v18c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V3C21,2.4,20.6,2,20,2z\"\/><\/g><\/svg>","play":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M6.6,2.2C6.3,2,5.9,1.9,5.6,2.1C5.2,2.3,5,2.6,5,3v18c0,0.4,0.2,0.7,0.6,0.9C5.7,22,5.8,22,6,22c0.2,0,0.4-0.1,0.6-0.2l12-9c0.3-0.2,0.4-0.5,0.4-0.8s-0.1-0.6-0.4-0.8L6.6,2.2z\"\/><\/g><\/svg>","close":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"24px\" height=\"24px\" viewBox=\"0 0 24 24\"><g ><path fill=\"#fffefe\" d=\"M22.7,4.3l-3-3c-0.4-0.4-1-0.4-1.4,0L12,7.6L5.7,1.3c-0.4-0.4-1-0.4-1.4,0l-3,3c-0.4,0.4-0.4,1,0,1.4L7.6,12l-6.3,6.3c-0.4,0.4-0.4,1,0,1.4l3,3c0.4,0.4,1,0.4,1.4,0l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l3-3c0.4-0.4,0.4-1,0-1.4L16.4,12l6.3-6.3C23.1,5.3,23.1,4.7,22.7,4.3z\"\/><\/g><\/svg>"}},"recipe_submission":{"max_file_size":10485760,"text":{"image_size":"The file is too large. Maximum size:"}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://recipeforperfection.com/wp-content/plugins/wp-recipe-maker-premium/dist/public-pro.js?ver=10.1.0" id="wprmp-public-js" data-rocket-defer defer></script>
+<script data-minify="1" defer type="text/javascript" src="https://recipeforperfection.com/wp-content/cache/min/1/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1763569831" id="akismet-frontend-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript"> var swp_nonce = "25b10041e3";function parentIsEvil() { var html = null; try { var doc = top.location.pathname; } catch(err){ }; if(typeof doc === "undefined") { return true } else { return false }; }; if (parentIsEvil()) { top.location = self.location.href; };var url = "https://recipeforperfection.com/how-to-boil-corn-on-the-cob/";if(url.indexOf("stfi.re") != -1) { var canonical = ""; var links = document.getElementsByTagName("link"); for (var i = 0; i &lt; links.length; i ++) { if (links[i].getAttribute(&quot;rel&quot;) === &quot;canonical&quot;) { canonical = links[i].getAttribute(&quot;href&quot;)}}; canonical = canonical.replace(&quot;?sfr=1&quot;, &quot;&quot;);top.location = canonical; console.log(canonical);};var swpFloatBeforeContent = false; var swp_ajax_url = &quot;https://recipeforperfection.com/wp-admin/admin-ajax.php&quot;; var swp_post_id = &quot;6333&quot;;var swpClickTracking = false; swpPinIt={&quot;enabled&quot;:false};</script><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://recipeforperfection.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script></body></html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1763572829 -->
