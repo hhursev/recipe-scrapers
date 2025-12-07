@@ -152,6 +152,64 @@ class FlavorsByLinbie(AbstractScraper):
 
         return None
 
+    def _extract_time_from_servings_section(self, time_type):
+        """Helper method to extract prep_time or cook_time from the Servings & Time section."""
+        headings = self.soup.find_all(['h2'])
+        for h in headings:
+            text = h.get_text(" ", strip=True)
+            normalized = text.replace("'", "'").replace("'", "'").lower()
+            
+            # Check for "Servings & Time" heading
+            if "servings" in normalized and "time" in normalized:
+                sib = h.find_next_sibling()
+                while sib and getattr(sib, 'name', None) != 'p':
+                    sib = sib.find_next_sibling()
+                if sib and sib.name == 'p':
+                    p_text = sib.get_text(" ", strip=True)
+                    
+                    # Look for the specific time type
+                    pattern = f"{time_type} time:"
+                    if pattern in p_text.lower():
+                        try:
+                            time_match = p_text.lower().split(pattern)[1]
+                            # Split by other time fields or newlines
+                            for delimiter in ["prep time:", "cook time:", "total time:", "\n", "<"]:
+                                if delimiter in time_match:
+                                    time_match = time_match.split(delimiter)[0].strip()
+                                    break
+                            else:
+                                time_match = time_match.strip()
+                            
+                            # Handle "8 hours on low or 4 hours on high" - take first option
+                            if " or " in time_match:
+                                time_match = time_match.split(" or ")[0].strip()
+                            elif ", or " in time_match:
+                                time_match = time_match.split(", or ")[0].strip()
+                            
+                            # Handle ranges like "6–8 hours" - take the higher value
+                            if "–" in time_match or "-" in time_match:
+                                time_match = time_match.replace("–", "-")
+                                parts = time_match.split("-", 1)
+                                if len(parts) == 2:
+                                    time_match = parts[1].strip()
+                            
+                            # Clean up extra text like "on low" or "on high"
+                            for phrase in [" on low", " on high", " on medium"]:
+                                if phrase in time_match.lower():
+                                    time_match = time_match.lower().split(phrase)[0].strip()
+                                    break
+                            
+                            return get_minutes(time_match)
+                        except Exception:
+                            pass
+        return None
+
+    def prep_time(self):
+        return self._extract_time_from_servings_section("prep")
+
+    def cook_time(self):
+        return self._extract_time_from_servings_section("cook")
+
     def yields(self):
         headings = self.soup.find_all(['h2'])
         for h in headings:
@@ -222,13 +280,19 @@ class FlavorsByLinbie(AbstractScraper):
     def instructions(self):
         # isolate the main content area
         entry = self.soup.find(class_='entry-content') or self.soup.find(itemprop='text')
+        if not entry:
+            return ""
         
         # locate the H2 that labels the instructions section
         instr_heading = None
         for h in entry.find_all(['h2']):
-            if 'instructions' in h.get_text(' ', strip=True).lower():
+            text = h.get_text(' ', strip=True).lower()
+            if 'instructions' in text or 'how to make' in text:
                 instr_heading = h
                 break
+
+        if not instr_heading:
+            return ""
 
         # collect paragraph texts until next H2
         instructions = []
@@ -245,7 +309,7 @@ class FlavorsByLinbie(AbstractScraper):
                     instructions.append(text)
             sib = sib.find_next_sibling()
 
-            return '\n'.join(instructions)
+        return '\n'.join(instructions)
 
 
 
