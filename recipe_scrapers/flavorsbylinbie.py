@@ -39,7 +39,7 @@ class FlavorsByLinbie(AbstractScraper):
         category_from_schema = self.schema.category()
         if category_from_schema:
             return category_from_schema
-        
+
         meta = self.soup.select_one('meta[property="article:section"]')
         if meta and meta.get("content"):
             return normalize_string(meta.get("content"))
@@ -139,7 +139,15 @@ class FlavorsByLinbie(AbstractScraper):
         if label not in lower:
             return ""
         value = lower.split(label, 1)[1]
-        for delimiter in ["prep time:", "cook time:", "total time:", "serves:", "\n", "<", "<br"]:
+        for delimiter in [
+            "prep time:",
+            "cook time:",
+            "total time:",
+            "serves:",
+            "\n",
+            "<",
+            "<br",
+        ]:
             if delimiter in value:
                 value = value.split(delimiter, 1)[0]
                 break
@@ -181,7 +189,7 @@ class FlavorsByLinbie(AbstractScraper):
         return self.schema.image()
 
     def ingredients(self):
-        headings = self.soup.find_all(['h2'])
+        headings = self.soup.find_all(["h2"])
         for h in headings:
             text = h.get_text(" ", strip=True)
             normalized = text.replace("’", "'").replace("‘", "'")
@@ -189,12 +197,12 @@ class FlavorsByLinbie(AbstractScraper):
             if "what you'll need" in normalized.lower():
                 # find the next sibling UL (skip intervening strings/comments)
                 sib = h.find_next_sibling()
-                while sib and getattr(sib, 'name', None) != 'ul':
+                while sib and getattr(sib, "name", None) != "ul":
                     sib = sib.find_next_sibling()
-                if sib and sib.name == 'ul':
+                if sib and sib.name == "ul":
                     # add all ingredients to items list
                     items = []
-                    for li in sib.find_all('li'):
+                    for li in sib.find_all("li"):
                         text = li.get_text(" ", strip=True)
                         if text:
                             items.append(normalize_string(text))
@@ -202,15 +210,17 @@ class FlavorsByLinbie(AbstractScraper):
 
     def instructions(self):
         # isolate the main content area
-        entry = self.soup.find(class_='entry-content') or self.soup.find(itemprop='text')
+        entry = self.soup.find(class_="entry-content") or self.soup.find(
+            itemprop="text"
+        )
         if not entry:
             return ""
-        
+
         # locate the H2 that labels the instructions section
         instr_heading = None
-        for h in entry.find_all(['h2']):
-            text = h.get_text(' ', strip=True).lower()
-            if 'instructions' in text or 'how to make' in text:
+        for h in entry.find_all(["h2"]):
+            text = h.get_text(" ", strip=True).lower()
+            if "instructions" in text or "how to make" in text:
                 instr_heading = h
                 break
 
@@ -221,24 +231,24 @@ class FlavorsByLinbie(AbstractScraper):
         instructions = []
         sib = instr_heading.find_next_sibling()
         while sib:
-            name = getattr(sib, 'name', None)
-            if name == 'h2':
+            name = getattr(sib, "name", None)
+            if name == "h2":
                 break
             # add paragraph text to instructions list
-            if name == 'p':
-                text = normalize_string(sib.get_text(' ', strip=True))
+            if name == "p":
+                text = normalize_string(sib.get_text(" ", strip=True))
                 if text:
                     instructions.append(text)
             sib = sib.find_next_sibling()
 
-        return '\n'.join(instructions)
-
-
+        return "\n".join(instructions)
 
     def description(self):
         # isolate the main content area
-        entry = self.soup.find(class_='entry-content') or self.soup.find(itemprop='text')
+        entry = self.soup.find(class_="entry-content") or self.soup.find(
+            itemprop="text"
+        )
 
         # get the first paragraph tag in the entry
-        first_p = entry.find('p')
+        first_p = entry.find("p")
         return normalize_string(first_p.get_text(" ", strip=True))
