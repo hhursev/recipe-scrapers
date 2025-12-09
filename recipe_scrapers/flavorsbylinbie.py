@@ -195,18 +195,18 @@ class FlavorsByLinbie(AbstractScraper):
             normalized = text.replace("’", "'").replace("‘", "'")
             # check for "What You'll Need" heading
             if "what you'll need" in normalized.lower():
-                # find the next sibling UL (skip intervening strings/comments)
+                items = []
                 sib = h.find_next_sibling()
-                while sib and getattr(sib, "name", None) != "ul":
+                while sib:
+                    name = getattr(sib, 'name', None)
+                    if name == 'h2':
+                        break
+                    if name == 'ul':
+                        for li in sib.find_all('li'):
+                            li_text = li.get_text(" ", strip=True)
+                            items.append(normalize_string(li_text))
                     sib = sib.find_next_sibling()
-                if sib and sib.name == "ul":
-                    # add all ingredients to items list
-                    items = []
-                    for li in sib.find_all("li"):
-                        text = li.get_text(" ", strip=True)
-                        if text:
-                            items.append(normalize_string(text))
-                    return items
+                return items
 
     def instructions(self):
         # isolate the main content area
