@@ -40,7 +40,9 @@ class PaulaDeen(AbstractScraper):
 
     def instructions(self):
         paragraphs = self.soup.select("section.directions .directions__content p")
-        steps = [normalize_string(p.get_text()) for p in paragraphs if p.get_text(strip=True)]
+        steps = [
+            normalize_string(p.get_text()) for p in paragraphs if p.get_text(strip=True)
+        ]
         return "\n".join(steps)
 
     def ratings(self):
