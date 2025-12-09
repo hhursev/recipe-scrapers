@@ -132,6 +132,13 @@ class FlavorsByLinbie(AbstractScraper):
                     sib = sib.find_next_sibling()
                 if sib and sib.name == "p":
                     return sib.get_text(" ", strip=True)
+
+        for p in self.soup.find_all("p"):
+            text = p.get_text(" ", strip=True)
+            lower = text.lower()
+            if "serves:" in lower and "total time" in lower:
+                return text
+
         return ""
 
     def _slice_field(self, paragraph: str, label: str) -> str:
@@ -198,11 +205,11 @@ class FlavorsByLinbie(AbstractScraper):
                 items = []
                 sib = h.find_next_sibling()
                 while sib:
-                    name = getattr(sib, 'name', None)
-                    if name == 'h2':
+                    name = getattr(sib, "name", None)
+                    if name == "h2":
                         break
-                    if name == 'ul':
-                        for li in sib.find_all('li'):
+                    if name == "ul":
+                        for li in sib.find_all("li"):
                             li_text = li.get_text(" ", strip=True)
                             items.append(normalize_string(li_text))
                     sib = sib.find_next_sibling()
@@ -244,11 +251,22 @@ class FlavorsByLinbie(AbstractScraper):
         return "\n".join(instructions)
 
     def description(self):
-        # isolate the main content area
+        import re
+
         entry = self.soup.find(class_="entry-content") or self.soup.find(
             itemprop="text"
         )
+        if not entry:
+            return ""
 
-        # get the first paragraph tag in the entry
-        first_p = entry.find("p")
-        return normalize_string(first_p.get_text(" ", strip=True))
+        for p in entry.find_all("p"):
+            text = normalize_string(p.get_text(" ", strip=True))
+            if not text:
+                continue
+            if text.lower().startswith("serves:"):
+                continue
+            # Remove spaces before punctuation (caused by get_text separator)
+            text = re.sub(r"\s+([.!?,;:])", r"\1", text)
+            return text
+
+        return ""
