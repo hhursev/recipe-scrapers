@@ -47,6 +47,7 @@ from .adrianasbestrecipes import AdrianasBestRecipes
 from .afarmgirlsdabbles import AFarmGirlsDabbles
 from .afghankitchenrecipes import AfghanKitchenRecipes
 from .aflavorjournal import AFlavorJournal
+from .africanbites import AfricanBites
 from .ahealthysliceoflife import AHealthySliceOfLife
 from .akispetretzikis import AkisPetretzikis
 from .albertheijn import AlbertHeijn
@@ -121,8 +122,10 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .chewoutloud import ChewOutLoud
+from .choosehomemade import ChooseHomemade
 from .cleaneatingkitchen import CleanEatingKitchen
 from .closetcooking import ClosetCooking
+from .coleycooks import ColeyCooks
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
 from .cookedandloved import CookedAndLoved
@@ -219,11 +222,13 @@ from .globo import Globo
 from .gloriousrecipes import GloriousRecipes
 from .glutenfreeonashoestring import GlutenFreeOnAShoeString
 from .godt import Godt
+from .goldnplump import GoldnPlump
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
 from .goodstuffrecipes import GoodStuffRecipes
 from .gourmettraveller import GourmetTraveller
+from .grandbabycakes import GrandbabyCakes
 from .grandfrais import GrandFrais
 from .greatbritishchefs import GreatBritishChefs
 from .grimgrains import GrimGrains
@@ -472,6 +477,7 @@ from .skinnytaste import SkinnyTaste
 from .smalltownwoman import SmallTownWoman
 from .smulweb import Smulweb
 from .sobors import SoBors
+from .southernbite import SouthernBite
 from .southerncastiron import SouthernCastIron
 from .southernliving import SouthernLiving
 from .spainonafork import SpainOnAFork
@@ -592,6 +598,7 @@ SCRAPERS = {
     AFarmGirlsDabbles.host(): AFarmGirlsDabbles,
     AfghanKitchenRecipes.host(): AfghanKitchenRecipes,
     AFlavorJournal.host(): AFlavorJournal,
+    AfricanBites.host(): AfricanBites,
     AHealthySliceOfLife.host(): AHealthySliceOfLife,
     AkisPetretzikis.host(): AkisPetretzikis,
     AlbertHeijn.host(): AlbertHeijn,
@@ -677,8 +684,10 @@ SCRAPERS = {
     Chefnini.host(): Chefnini,
     ChefSavvy.host(): ChefSavvy,
     ChewOutLoud.host(): ChewOutLoud,
+    ChooseHomemade.host(): ChooseHomemade,
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
+    ColeyCooks.host(): ColeyCooks,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
     CookedAndLoved.host(): CookedAndLoved,
@@ -777,11 +786,13 @@ SCRAPERS = {
     GloriousRecipes.host(): GloriousRecipes,
     GlutenFreeOnAShoeString.host(): GlutenFreeOnAShoeString,
     Godt.host(): Godt,
+    GoldnPlump.host(): GoldnPlump,
     GonnaWantSeconds.host(): GonnaWantSeconds,
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GoodHousekeeping.host(): GoodHousekeeping,
     GoodStuffRecipes.host(): GoodStuffRecipes,
     GourmetTraveller.host(): GourmetTraveller,
+    GrandbabyCakes.host(): GrandbabyCakes,
     GrandFrais.host(): GrandFrais,
     GreatBritishChefs.host(): GreatBritishChefs,
     GrimGrains.host(): GrimGrains,
@@ -1049,6 +1060,7 @@ SCRAPERS = {
     SmallTownWoman.host(): SmallTownWoman,
     Smulweb.host(): Smulweb,
     SoBors.host(): SoBors,
+    SouthernBite.host(): SouthernBite,
     SouthernCastIron.host(): SouthernCastIron,
     SouthernLiving.host(): SouthernLiving,
     SpainOnAFork.host(): SpainOnAFork,
