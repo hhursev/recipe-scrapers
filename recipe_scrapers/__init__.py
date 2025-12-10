@@ -202,6 +202,7 @@ from .finedininglovers import FineDiningLovers
 from .fithealthymacros import FitHealthyMacros
 from .fitmencook import FitMenCook
 from .fitslowcookerqueen import FitSlowCookerQueen
+from .flavorsbylinbie import FlavorsByLinbie
 from .food import Food
 from .food52 import Food52
 from .foodandwine import FoodAndWine
@@ -764,6 +765,7 @@ SCRAPERS = {
     FitHealthyMacros.host(): FitHealthyMacros,
     FitMenCook.host(): FitMenCook,
     FitSlowCookerQueen.host(): FitSlowCookerQueen,
+    FlavorsByLinbie.host(): FlavorsByLinbie,
     Food.host(): Food,
     Food52.host(): Food52,
     FoodAndWine.host(): FoodAndWine,
