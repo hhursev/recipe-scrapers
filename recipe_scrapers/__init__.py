@@ -143,6 +143,7 @@ from .copykat import CopyKat
 from .corriecooks import CorrieCooks
 from .costco import Costco
 from .countryliving import CountryLiving
+from .crazyforcrust import CrazyForCrust
 from .creativecanning import CreativeCanning
 from .cucchiaio import Cucchiaio
 from .cuisineaz import CuisineAZ
@@ -707,6 +708,7 @@ SCRAPERS = {
     CorrieCooks.host(): CorrieCooks,
     Costco.host(): Costco,
     CountryLiving.host(): CountryLiving,
+    CrazyForCrust.host(): CrazyForCrust,
     CreativeCanning.host(): CreativeCanning,
     Cucchiaio.host(): Cucchiaio,
     CuisineAZ.host(): CuisineAZ,
