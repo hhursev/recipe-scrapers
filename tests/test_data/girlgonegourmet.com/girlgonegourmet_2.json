@@ -1,0 +1,77 @@
+{
+  "author": "April Anderson",
+  "canonical_url": "https://www.girlgonegourmet.com/spicy-peanut-udon-noodles/",
+  "site_name": "Girl Gone Gourmet",
+  "host": "girlgonegourmet.com",
+  "language": "en-US",
+  "title": "Spicy Peanut Udon Noodles",
+  "ingredients": [
+    "3 tablespoons peanut butter",
+    "3 tablespoons tamari",
+    "2 tablespoon Sambal oelek",
+    "1 tablespoon lime juice",
+    "1 teaspoon rice vinegar",
+    "1 teaspoon sesame oil",
+    "8 ounces udon noodles (cooked according to package and rinsed in cold water)",
+    "1 cup shredded cabbage",
+    "1/2 cup chopped mixed fresh herbs - I use cilantro, mint, and basil",
+    "1/2 English cucumber (diced)",
+    "4 green onions (sliced)",
+    "2 Thai chilis (minced)",
+    "1 tablespoon sesame seeds"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "3 tablespoons peanut butter",
+        "3 tablespoons tamari",
+        "2 tablespoon Sambal oelek",
+        "1 tablespoon lime juice",
+        "1 teaspoon rice vinegar",
+        "1 teaspoon sesame oil"
+      ],
+      "purpose": "For the Sauce"
+    },
+    {
+      "ingredients": [
+        "8 ounces udon noodles (cooked according to package and rinsed in cold water)",
+        "1 cup shredded cabbage",
+        "1/2 cup chopped mixed fresh herbs - I use cilantro, mint, and basil",
+        "1/2 English cucumber (diced)",
+        "4 green onions (sliced)",
+        "2 Thai chilis (minced)",
+        "1 tablespoon sesame seeds"
+      ],
+      "purpose": "Everything Else"
+    }
+  ],
+  "instructions_list": [
+    "In a small bowl, whisk all of the sauce ingredients until smooth. Refrigerate the sauce while you prepare the rest of the recipe.",
+    "Combine the noodles, shredded cabbage, herbs, cucumber, green onion, and chiles.",
+    "Pour the sauce over the salad and toss well to combine. Transfer to a serving platter and sprinkle with sesame seeds to serve."
+  ],
+  "category": "Dinner",
+  "yields": "4 servings",
+  "description": "This easy noodle dish has a spicy peanut sauce, chewy udon noodles, and crunchy veggies. It's delicious warm or cold and the leftovers keep well, too.",
+  "total_time": 30,
+  "cook_time": 10,
+  "prep_time": 20,
+  "cuisine": "Thai-Inspired",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "339 kcal",
+    "fatContent": "9.5 g",
+    "saturatedFatContent": "1.8 g",
+    "unsaturatedFatContent": "7 g",
+    "carbohydrateContent": "52.4 g",
+    "sugarContent": "7.7 g",
+    "proteinContent": "13 g",
+    "sodiumContent": "985.5 mg",
+    "fiberContent": "4.1 g"
+  },
+  "image": "https://www.girlgonegourmet.com/wp-content/uploads/2022/03/Spicy-Peanut-Udon-Noodles-9.jpg",
+  "keywords": [
+    "peanut udon noodles",
+    "spicy peanut noodles"
+  ]
+}
