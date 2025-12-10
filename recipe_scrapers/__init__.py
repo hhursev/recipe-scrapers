@@ -94,6 +94,7 @@ from .bettybossi import BettyBossi
 from .bettycrocker import BettyCrocker
 from .beyondfrosting import BeyondFrosting
 from .biancazapatka import BiancaZapatka
+from .biggerbolderbaking import BiggerBolderBaking
 from .bigoven import BigOven
 from .billyparisi import BillyParisi
 from .bitsofcarey import BitsOfCarey
@@ -661,6 +662,7 @@ SCRAPERS = {
     BettyCrocker.host(): BettyCrocker,
     BeyondFrosting.host(): BeyondFrosting,
     BiancaZapatka.host(): BiancaZapatka,
+    BiggerBolderBaking.host(): BiggerBolderBaking,
     BigOven.host(): BigOven,
     BillyParisi.host(): BillyParisi,
     BitsOfCarey.host(): BitsOfCarey,
