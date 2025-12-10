@@ -87,7 +87,10 @@ plugins:
 #            show_root_full_path: true
 #            members: true
 #            show_private_members: true
+  - mike:
 extra:
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hhursev/recipe-scrapers
