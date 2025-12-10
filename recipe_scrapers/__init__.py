@@ -255,6 +255,7 @@ from .hofer import Hofer
 from .homeandplate import HomeAndPlate
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
+from .houseofnasheats import HouseOfNashEats
 from .howtocook import HowToCook
 from .howtofeedaloon import HowToFeedALoon
 from .hungryhappens import HungryHappens
@@ -847,6 +848,7 @@ SCRAPERS = {
     HomeAndPlate.host(): HomeAndPlate,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
+    HouseOfNashEats.host(): HouseOfNashEats,
     HowToCook.host(): HowToCook,
     HowToFeedALoon.host(): HowToFeedALoon,
     HungryHappens.host(): HungryHappens,
