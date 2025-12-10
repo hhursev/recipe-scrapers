@@ -2,6 +2,7 @@ from ._abstract import AbstractScraper
 from ._utils import normalize_string, get_minutes, get_yields
 import re
 
+
 class FlavorsByLinbie(AbstractScraper):
     @classmethod
     def host(cls):
