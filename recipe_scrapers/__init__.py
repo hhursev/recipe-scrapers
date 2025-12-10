@@ -110,6 +110,7 @@ from .briceletbaklava import BricelEtBaklava
 from .brokenovenbaking import BrokenOvenBaking
 from .budgetbytes import BudgetBytes
 from .cafedelites import CafeDelites
+from .caioflorentina import CaioFlorentina
 from .cakemehometonight import CakeMeHomeTonight
 from .cambreabakes import CambreaBakes
 from .carlsbadcravings import CarlsBadCravings
@@ -679,6 +680,7 @@ SCRAPERS = {
     BrokenOvenBaking.host(): BrokenOvenBaking,
     BudgetBytes.host(): BudgetBytes,
     CafeDelites.host(): CafeDelites,
+    CaioFlorentina.host(): CaioFlorentina,
     CakeMeHomeTonight.host(): CakeMeHomeTonight,
     CambreaBakes.host(): CambreaBakes,
     CarlsBadCravings.host(): CarlsBadCravings,
