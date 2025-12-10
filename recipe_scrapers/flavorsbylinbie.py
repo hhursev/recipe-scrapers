@@ -1,6 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import normalize_string, get_minutes, get_yields
-
+import re
 
 class FlavorsByLinbie(AbstractScraper):
     @classmethod
@@ -77,8 +77,6 @@ class FlavorsByLinbie(AbstractScraper):
         if prep and cook:
             return prep + cook
         return prep or cook
-
-        return None
 
     def _extract_time_from_servings_section(self, time_type):
         paragraph = self._get_servings_time_paragraph()
@@ -251,8 +249,6 @@ class FlavorsByLinbie(AbstractScraper):
         return "\n".join(instructions)
 
     def description(self):
-        import re
-
         entry = self.soup.find(class_="entry-content") or self.soup.find(
             itemprop="text"
         )
