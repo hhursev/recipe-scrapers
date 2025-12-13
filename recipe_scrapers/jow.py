@@ -5,4 +5,3 @@ class Jow(AbstractScraper):
     @classmethod
     def host(cls):
         return "jow.fr"
-    
