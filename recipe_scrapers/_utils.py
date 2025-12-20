@@ -42,31 +42,34 @@ SERVE_REGEX_ITEMS = re.compile(
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 RECIPE_YIELD_TYPES = (
-    ("dozen", "dozen"),
-    ("batch", "batches"),
-    ("cake", "cakes"),
-    ("sandwich", "sandwiches"),
-    ("bun", "buns"),
-    ("cookie", "cookies"),
-    ("muffin", "muffins"),
-    ("cupcake", "cupcakes"),
-    ("loaf", "loaves"),
-    ("pie", "pies"),
-    ("cup", "cups"),
-    ("pint", "pints"),
-    ("gallon", "gallons"),
-    ("ounce", "ounces"),
-    ("pound", "pounds"),
-    ("gram", "grams"),
-    ("liter", "liters"),
-    ("piece", "pieces"),
-    ("layer", "layers"),
-    ("scoop", "scoops"),
     ("bar", "bars"),
-    ("patty", "patties"),
+    ("batch", "batches"),
+    ("bowl", "bowls"),
+    ("bun", "buns"),
+    ("cake", "cakes"),
+    ("cookie", "cookies"),
+    ("cup", "cups"),
+    ("cupcake", "cupcakes"),
+    ("dozen", "dozen"),
+    ("gallon", "gallons"),
+    ("gram", "grams"),
     ("hamburger bun", "hamburger buns"),
-    ("pancake", "pancakes"),
     ("item", "items"),
+    ("layer", "layers"),
+    ("liter", "liters"),
+    ("loaf", "loaves"),
+    ("muffin", "muffins"),
+    ("ounce", "ounces"),
+    ("pancake", "pancakes"),
+    ("patty", "patties"),
+    ("piece", "pieces"),
+    ("pie", "pies"),
+    ("pint", "pints"),
+    ("pound", "pounds"),
+    ("sandwich", "sandwiches"),
+    ("scone", "scones"),
+    ("scoop", "scoops"),
+    ("slice", "slices"),
     # ... add more types as needed, in (singular, plural) format ...
 )
 
@@ -195,6 +198,7 @@ def get_yields(element):
     such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
     accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
+                     Can also be a list, in which case it will prefer the element containing a unit.
     :return: The number of servings, items, dozen, batches, etc...
     """
 
@@ -208,10 +212,32 @@ def get_yields(element):
 
     if element is None:
         raise ElementNotFoundInHtml(element)
+
+    if isinstance(element, list):
+        best_element = element[0]
+        for item in element:
+            item_str = str(item).lower()
+            for singular, plural in RECIPE_YIELD_TYPES:
+                singular_pattern = re.compile(
+                    rf"\b{re.escape(singular)}\b", re.IGNORECASE
+                )
+                plural_pattern = re.compile(rf"\b{re.escape(plural)}\b", re.IGNORECASE)
+                if singular_pattern.search(item_str) or plural_pattern.search(item_str):
+                    best_element = item
+                    break
+            else:
+                continue
+            break
+        element = best_element
+
     if isinstance(element, str):
         serve_text = element
-    else:
+    elif isinstance(element, (int, float)):
+        serve_text = str(element)
+    elif hasattr(element, "get_text"):
         serve_text = element.get_text()
+    else:
+        serve_text = str(element)
     if not serve_text:
         raise ValueError("Cannot extract yield information from empty string")
 
