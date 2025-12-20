@@ -35,13 +35,14 @@ TIME_REGEX = re.compile(
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
-    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b | \bcookies\b | \b(large |small )?buns\b",
+    r"\bmakes\b |\bporzioni\b",
     flags=re.I | re.X,
 )
 
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 RECIPE_YIELD_TYPES = (
+    ("appetizer", "appetizers"),
     ("bar", "bars"),
     ("batch", "batches"),
     ("bowl", "bowls"),
@@ -70,8 +71,20 @@ RECIPE_YIELD_TYPES = (
     ("scone", "scones"),
     ("scoop", "scoops"),
     ("slice", "slices"),
+    ("taquito", "tacquitos"),
     # ... add more types as needed, in (singular, plural) format ...
 )
+
+# Pre-compile regex patterns for yield type matching with word boundaries
+_YIELD_TYPE_PATTERNS = [
+    (
+        re.compile(rf"\b{re.escape(singular)}\b", re.IGNORECASE),
+        re.compile(rf"\b{re.escape(plural)}\b", re.IGNORECASE),
+        singular,
+        plural,
+    )
+    for singular, plural in RECIPE_YIELD_TYPES
+]
 
 
 def format_diet_name(diet_input):
@@ -217,11 +230,7 @@ def get_yields(element):
         best_element = element[0]
         for item in element:
             item_str = str(item).lower()
-            for singular, plural in RECIPE_YIELD_TYPES:
-                singular_pattern = re.compile(
-                    rf"\b{re.escape(singular)}\b", re.IGNORECASE
-                )
-                plural_pattern = re.compile(rf"\b{re.escape(plural)}\b", re.IGNORECASE)
+            for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS:
                 if singular_pattern.search(item_str) or plural_pattern.search(item_str):
                     best_element = item
                     break
@@ -254,10 +263,14 @@ def get_yields(element):
     best_match = None
     best_match_length = 0
 
-    for singular, plural in RECIPE_YIELD_TYPES:
-        if singular in serve_text_lower or plural in serve_text_lower:
+    for singular_pattern, plural_pattern, singular, plural in _YIELD_TYPE_PATTERNS:
+        singular_match = singular_pattern.search(serve_text_lower)
+        plural_match = plural_pattern.search(serve_text_lower)
+        if singular_match or plural_match:
             match_length = (
-                len(singular) if singular in serve_text_lower else len(plural)
+                max(len(singular), len(plural))
+                if (singular_match and plural_match)
+                else (len(singular) if singular_match else len(plural))
             )
             if match_length > best_match_length:
                 best_match_length = match_length
