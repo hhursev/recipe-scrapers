@@ -12,8 +12,7 @@ __all__ = (
 )
 
 import warnings
-
-from urllib.request import urlopen, Request
+from urllib.request import Request, urlopen
 
 try:
     # requests is an optional dependency; we can provide better error messages
@@ -33,8 +32,8 @@ from ._exceptions import (
     StaticValueException,
     WebsiteNotImplementedError,
 )
-from ._utils import get_host_name
 from ._factory import SchemaScraperFactory
+from ._utils import get_host_name
 from .abeautifulmess import ABeautifulMess
 from .aberlehome import AberleHome
 from .abril import Abril
@@ -132,6 +131,7 @@ from .coleycooks import ColeyCooks
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
 from .cookedandloved import CookedAndLoved
+from .cookedwiki import CookedWiki
 from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
@@ -704,6 +704,7 @@ SCRAPERS = {
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
     CloudyKitchen.host(): CloudyKitchen,
+    CookedWiki.host(): CookedWiki,
     ColeyCooks.host(): ColeyCooks,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
