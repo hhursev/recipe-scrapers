@@ -1,57 +1,71 @@
 {
-  "author": null,
-  "canonical_url": "https://andrewzimmern.com/recipes/tuna-tataki/",
+  "author": "Andrew Zimmern",
+  "canonical_url": "https://andrewzimmern.com/recipes/worlds-best-fried-chicken-sandwich/",
   "site_name": "Andrew Zimmern",
   "host": "andrewzimmern.com",
   "language": "en-US",
-  "title": null,
+  "title": "World’s Best Fried Chicken Sandwich",
   "ingredients": [
-    "1 pound sushi-grade tuna loin (center cut, block style)",
-    "1 tablespoon neutral oil (grapeseed or canola)",
-    "3 tablespoons soy sauce",
-    "1 tablespoon chili crisp (with some of its oil)",
-    "1 tablespoon lemon juice (freshly squeezed)",
-    "1 teaspoon toasted sesame oil",
-    "1 teaspoon freshly grated ginger",
-    "Thinly sliced scallions",
-    "Toasted sesame seeds",
-    "Shaved radish or daikon"
+    "2 skin-on boneless chicken thighs",
+    "2 cups buttermilk",
+    "1/2 cup potato starch",
+    "1/2 cup rice flour",
+    "1/2 cup tapioca flour",
+    "1/4 cup Andrew Zimmern’s Mexican Fiesta seasoning",
+    "Salt, to taste",
+    "Oil, for frying",
+    "Queso",
+    "Toasted sesame seed buns",
+    "Baby arugula",
+    "Olive oil",
+    "Fresh lemon juice",
+    "1 large tomato, sliced",
+    "Shredded Parmesan cheese"
   ],
   "ingredient_groups": [
     {
       "ingredients": [
-        "1 pound sushi-grade tuna loin (center cut, block style)",
-        "1 tablespoon neutral oil (grapeseed or canola)"
+        "2 skin-on boneless chicken thighs",
+        "2 cups buttermilk",
+        "1/2 cup potato starch",
+        "1/2 cup rice flour",
+        "1/2 cup tapioca flour",
+        "1/4 cup Andrew Zimmern’s Mexican Fiesta seasoning",
+        "Salt, to taste",
+        "Oil, for frying"
       ],
-      "purpose": "For the tuna:"
+      "purpose": "For the fried chicken:"
     },
     {
       "ingredients": [
-        "3 tablespoons soy sauce",
-        "1 tablespoon chili crisp (with some of its oil)",
-        "1 tablespoon lemon juice (freshly squeezed)",
-        "1 teaspoon toasted sesame oil",
-        "1 teaspoon freshly grated ginger"
+        "Queso",
+        "Toasted sesame seed buns",
+        "Baby arugula",
+        "Olive oil",
+        "Fresh lemon juice",
+        "1 large tomato, sliced",
+        "Shredded Parmesan cheese"
       ],
-      "purpose": "For the sauce:"
-    },
-    {
-      "ingredients": [
-        "Thinly sliced scallions",
-        "Toasted sesame seeds",
-        "Shaved radish or daikon"
-      ],
-      "purpose": "To garnish (optional):"
+      "purpose": "For Serving:"
     }
   ],
   "instructions_list": [
-    "Make the sauce:In a small bowl, whisk together soy sauce, chili crisp, lemon juice, sesame oil, and grated ginger until combined. Set aside so the flavors meld.",
-    "Prepare the tuna:Pat the tuna dry with paper towels. Coat in toasted sesame seeds.",
-    "Heat a heavy skillet (cast iron works best) over high heat. Add the neutral oil. Once shimmering hot, sear the tuna for about 45 seconds per side. The goal is a crisp, smoky exterior while keeping the interior nearly raw. Immediately transfer to a cutting board. Let rest for 1–2 minutes.",
-    "Slice:With a very sharp knife, slice the tuna crosswise into thin pieces (about ¼-inch thick).",
-    "Assemble:Arrange the slices on a chilled plate in a fan or overlapping row. Spoon some of the sauce over the tuna, and serve the rest on the side for dipping. Garnish with scallions, sesame seeds, and/or radish, if using."
+    "Place chicken thighs in a bowl and cover with buttermilk. Marinate for 8 hours or overnight in the refrigerator.",
+    "In a large bowl, combine potato starch, rice flour, tapioca flour, and Mexican Fiesta seasoning.",
+    "Remove chicken from buttermilk, allowing excess to drip off. Dredge each thigh thoroughly in the flour mixture, pressing gently to ensure coating adheres. For the best crispy edges, let it sit in the flour mixture for 10 minutes.",
+    "Heat oil in a large heavy-bottomed pot to 375 degrees F.",
+    "Carefully fry chicken thighs until golden brown and cooked through (internal temperature should reach 165 degrees F), about 6-8 minutes.",
+    "Transfer to a wire rack set over a sheet tray. Season immediately with salt while hot.",
+    "In a medium saucepan, melt butter over medium heat. Whisk in flour and cook for 1-2 minutes to create a roux, whisking constantly. Add nutmeg and tomato paste, whisking to combine.",
+    "Gradually add milk, whisking continuously to prevent lumps. Cook until thickened, about 5 minutes.",
+    "Remove from heat and gradually stir in grated cheddar cheese until melted and smooth. Keep warm.",
+    "Make Parmesan crisps: Heat a non-stick skillet over medium heat. Add a small pile of shredded Parmesan to the center of the pan, spreading it into a thin, even circle. Cook until golden and crispy, about 2 minutes per side. Carefully remove with a spatula and set aside. Repeat as needed.",
+    "Prepare arugula: Toss baby arugula with a drizzle of olive oil and a squeeze of fresh lemon juice. Season lightly with salt.",
+    "Toast buns: Toast sesame seed buns until golden brown.",
+    "Build sandwiches:",
+    "Serving Tip: Serve immediately while the chicken is hot and the Parmesan crisps are still crispy for the best texture."
   ],
-  "yields": null,
+  "yields": "2 servings",
   "total_time": null,
-  "image": "https://andrewzimmern.com/wp-content/uploads/tuna-tataki-1-1-scaled.jpg"
+  "image": "https://andrewzimmern.com/wp-content/uploads/Andrew-Zimmern-Recipe-Fried-Chicken-Sandwich-4-scaled.jpg"
 }
