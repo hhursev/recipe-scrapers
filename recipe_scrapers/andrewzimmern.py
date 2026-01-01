@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class AndrewZimmern(AbstractScraper):
@@ -13,6 +14,14 @@ class AndrewZimmern(AbstractScraper):
             ingredient = li.get_text(strip=True)
             ingredients.append(ingredient)
         return ingredients
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "div.ingredients_list p strong",
+            "div.ingredients_list li",
+        )
 
     def instructions(self):
         instruction_paragraphs = self.soup.select("div.preparation p")

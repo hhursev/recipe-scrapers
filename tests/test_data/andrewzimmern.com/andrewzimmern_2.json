@@ -17,6 +17,33 @@
     "Toasted sesame seeds",
     "Shaved radish or daikon"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 pound sushi-grade tuna loin (center cut, block style)",
+        "1 tablespoon neutral oil (grapeseed or canola)"
+      ],
+      "purpose": "For the tuna:"
+    },
+    {
+      "ingredients": [
+        "3 tablespoons soy sauce",
+        "1 tablespoon chili crisp (with some of its oil)",
+        "1 tablespoon lemon juice (freshly squeezed)",
+        "1 teaspoon toasted sesame oil",
+        "1 teaspoon freshly grated ginger"
+      ],
+      "purpose": "For the sauce:"
+    },
+    {
+      "ingredients": [
+        "Thinly sliced scallions",
+        "Toasted sesame seeds",
+        "Shaved radish or daikon"
+      ],
+      "purpose": "To garnish (optional):"
+    }
+  ],
   "instructions_list": [
     "Make the sauce:In a small bowl, whisk together soy sauce, chili crisp, lemon juice, sesame oil, and grated ginger until combined. Set aside so the flavors meld.",
     "Prepare the tuna:Pat the tuna dry with paper towels. Coat in toasted sesame seeds.",
