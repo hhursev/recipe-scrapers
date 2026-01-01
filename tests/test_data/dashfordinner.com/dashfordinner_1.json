@@ -28,6 +28,9 @@
   "cuisine": "American",
   "ratings": 4.75,
   "ratings_count": 8,
+  "equipment": [
+    "Medium baking dish"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "218 kcal",
