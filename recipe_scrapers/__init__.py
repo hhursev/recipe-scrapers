@@ -489,6 +489,7 @@ from .skinnytaste import SkinnyTaste
 from .smalltownwoman import SmallTownWoman
 from .smulweb import Smulweb
 from .sobors import SoBors
+from .somuchfoodblog import SoMuchFoodBlog
 from .southernbite import SouthernBite
 from .southerncastiron import SouthernCastIron
 from .southernliving import SouthernLiving
@@ -1086,6 +1087,7 @@ SCRAPERS = {
     SmallTownWoman.host(): SmallTownWoman,
     Smulweb.host(): Smulweb,
     SoBors.host(): SoBors,
+    SoMuchFoodBlog.host(): SoMuchFoodBlog,
     SouthernBite.host(): SouthernBite,
     SouthernCastIron.host(): SouthernCastIron,
     SouthernLiving.host(): SouthernLiving,
