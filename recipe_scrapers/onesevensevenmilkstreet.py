@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields
+from ._grouping_utils import group_ingredients
 
 
 class OneSevenSevenMilkStreet(AbstractScraper):
@@ -57,6 +58,14 @@ class OneSevenSevenMilkStreet(AbstractScraper):
                 ):
                     ingredients.append(text)
         return ingredients
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "li[class*=ingredientSectionHeadingItemContainer] span[class*=LineHeading_title]",
+            "ul[class*=ItemLabelList_list] li:has(p)",
+        )
 
     def instructions(self):
         container = self.soup.find("div", class_=lambda x: x and "instructions" in x)
