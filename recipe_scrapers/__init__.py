@@ -158,6 +158,7 @@ from .culy import Culy
 from .cybercook import Cybercook
 from .dagelijksekost import DagelijkseKost
 from .damndelicious import DamnDelicious
+from .dashfordinner import DashForDinner
 from .davidlebovitz import DavidLebovitz
 from .deliciouslysprinkled import DeliciouslySprinkled
 from .delish import Delish
@@ -421,6 +422,7 @@ from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
 from .platingpixels import PlatingPixels
+from .platingsandpairings import PlatingsAndPairings
 from .plowingthroughlife import PlowingThroughLife
 from .polishfoodies import PolishFoodies
 from .poppycooks import PoppyCooks
@@ -490,6 +492,7 @@ from .skinnytaste import SkinnyTaste
 from .smalltownwoman import SmallTownWoman
 from .smulweb import Smulweb
 from .sobors import SoBors
+from .somuchfoodblog import SoMuchFoodBlog
 from .southernbite import SouthernBite
 from .southerncastiron import SouthernCastIron
 from .southernliving import SouthernLiving
@@ -553,6 +556,7 @@ from .thespruceeats import TheSpruceEats
 from .thesuburbansoapbox import TheSuburbanSoapBox
 from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
+from .thewoodenskillet import TheWoodenSkillet
 from .thinlicious import Thinlicious
 from .thishealthytable import ThisHealthyTable
 from .threesixfivedaysofbakingandmore import ThreeSixFiveDaysOfBakingAndMore
@@ -735,6 +739,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DagelijkseKost.host(): DagelijkseKost,
     DamnDelicious.host(): DamnDelicious,
+    DashForDinner.host(): DashForDinner,
     DavidLebovitz.host(): DavidLebovitz,
     DeliciouslySprinkled.host(): DeliciouslySprinkled,
     Delish.host(): Delish,
@@ -1019,6 +1024,7 @@ SCRAPERS = {
     PingoDoce.host(): PingoDoce,
     PinkOwlKitchen.host(): PinkOwlKitchen,
     PlatingPixels.host(): PlatingPixels,
+    PlatingsAndPairings.host(): PlatingsAndPairings,
     PlowingThroughLife.host(): PlowingThroughLife,
     PolishFoodies.host(): PolishFoodies,
     PoppyCooks.host(): PoppyCooks,
@@ -1088,6 +1094,7 @@ SCRAPERS = {
     SmallTownWoman.host(): SmallTownWoman,
     Smulweb.host(): Smulweb,
     SoBors.host(): SoBors,
+    SoMuchFoodBlog.host(): SoMuchFoodBlog,
     SouthernBite.host(): SouthernBite,
     SouthernCastIron.host(): SouthernCastIron,
     SouthernLiving.host(): SouthernLiving,
@@ -1151,6 +1158,7 @@ SCRAPERS = {
     TheSuburbanSoapBox.host(): TheSuburbanSoapBox,
     TheVintageMixer.host(): TheVintageMixer,
     Thewoksoflife.host(): Thewoksoflife,
+    TheWoodenSkillet.host(): TheWoodenSkillet,
     Thinlicious.host(): Thinlicious,
     ThisHealthyTable.host(): ThisHealthyTable,
     ThreeSixFiveDaysOfBakingAndMore.host(): ThreeSixFiveDaysOfBakingAndMore,
