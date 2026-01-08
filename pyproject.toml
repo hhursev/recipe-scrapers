@@ -55,6 +55,7 @@ docs = [
     "mkdocstrings >= 0.27.0",        # API documentation from docstrings
     "mkdocstrings-python >= 1.12.2", # Python handler for mkdocstrings
     "markdown-exec >= 1.10.0",       # Execute code blocks in markdown
+    "mike >= 2.1.3",                 # Versioned documentation
 ]
 # Testing dependencies
 # Install these to run tests and check coverage:
