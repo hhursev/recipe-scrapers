@@ -27,5 +27,14 @@
   "total_time": 50,
   "cook_time": 40,
   "prep_time": 10,
+  "nutrients": {
+    "calories": "300",
+    "fatContent": "12 g",
+    "carbohydrateContent": "26 g",
+    "sugarContent": "3 g",
+    "proteinContent": "24 g",
+    "sodiumContent": "420 mg",
+    "fiberContent": "5 g"
+  },
   "image": "https://fitmencook.com/wp-content/uploads/2025/11/breakfast-frittata-muffins-potato-crust-leftover-recipe-3.jpg"
 }

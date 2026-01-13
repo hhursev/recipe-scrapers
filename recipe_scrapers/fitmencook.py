@@ -33,3 +33,52 @@ class FitMenCook(AbstractScraper):
             for ingredient in ingredients
             if ingredient.find("strong") is None
         ]
+
+    def nutrients(self):
+        data = {}
+        div = self.soup.find("div", class_="fmc_macros")
+        if not div:
+            return {}
+
+        mapping = {
+            "Calories": "calories",
+            "Cal": "calories",
+            "Protein": "proteinContent",
+            "Fats": "fatContent",
+            "Fat": "fatContent",
+            "Carbs": "carbohydrateContent",
+            "Carbohydrates": "carbohydrateContent",
+            "Fiber": "fiberContent",
+            "Sodium": "sodiumContent",
+            "Sugar": "sugarContent",
+        }
+
+        for item in div.find_all("div", class_="fmc_macro"):
+            span = item.find("span")
+            if not span:
+                continue
+
+            raw_val = span.get_text(strip=True)
+            raw_val = raw_val.strip()
+            num_value = ""
+            unit = ""
+            i = 0
+            while i < len(raw_val) and (raw_val[i].isdigit() or raw_val[i] == "."):
+                num_value += raw_val[i]
+                i += 1
+            if i < len(raw_val):
+                unit = raw_val[i:].strip()
+            if not num_value:
+                num_value, unit = raw_val, ""
+
+            label = item.get_text(strip=True).replace(raw_val, "").strip()
+
+            for key, field in mapping.items():
+                if key in label:
+                    if field == "calories":
+                        data[field] = num_value
+                    else:
+                        val = f"{num_value} {unit}".strip()
+                        data[field] = val if val != num_value else num_value
+                    break
+        return data

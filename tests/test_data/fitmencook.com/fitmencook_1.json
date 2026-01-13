@@ -36,5 +36,13 @@
   "total_time": 35,
   "cook_time": 30,
   "prep_time": 5,
+  "nutrients": {
+    "calories": "306",
+    "fatContent": "11 g",
+    "carbohydrateContent": "23 g",
+    "sugarContent": "7 g",
+    "proteinContent": "32 g",
+    "fiberContent": "3 g"
+  },
   "image": "https://fitmencook.com/wp-content/uploads/2023/03/chili-with-plantains-chile-con-carne-4-1.jpg"
 }
