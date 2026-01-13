@@ -82,3 +82,12 @@ class FitMenCook(AbstractScraper):
                         data[field] = val if val != num_value else num_value
                     break
         return data
+
+    def category(self):
+        div = self.soup.find("div", class_="fmc_grid_cat")
+        if not div:
+            return ""
+        categories = [
+            a.get_text(strip=True) for a in div.find_all("a") if a.get_text(strip=True)
+        ]
+        return ", ".join(set(categories))
