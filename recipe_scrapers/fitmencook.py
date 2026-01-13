@@ -26,13 +26,28 @@ class FitMenCook(AbstractScraper):
                     return get_yields(f"{word} servings")
 
     def ingredients(self):
-        ingredients_parent = self.soup.find("div", {"class": "fmc_ingredients"})
-        ingredients = ingredients_parent.find_all("li")
-        return [
-            normalize_string(ingredient.get_text())
-            for ingredient in ingredients
-            if ingredient.find("strong") is None
-        ]
+        parent = self.soup.find("div", {"class": "fmc_ingredients"})
+        if parent:
+            return [
+                normalize_string(li.get_text())
+                for li in parent.find_all("li")
+                if not li.find("strong") and normalize_string(li.get_text())
+            ]
+
+        ingredients = []
+        seen = set()
+        for ul in self.soup.find_all("ul", class_="fmc_instacart_list"):
+            for li in ul.find_all("li", recursive=False):
+                for junk in li.select("button, .fmc_btn_container, .product_price"):
+                    junk.decompose()
+                text = normalize_string(li.get_text())
+                if text and len(text) > 2 and text not in seen:
+                    ingredients.append(text)
+                    seen.add(text)
+        if ingredients:
+            return ingredients
+
+        return []
 
     def nutrients(self):
         data = {}
