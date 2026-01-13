@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._utils import get_equipment, get_minutes, get_yields, normalize_string
 
 
 class FitMenCook(AbstractScraper):
@@ -90,4 +90,4 @@ class FitMenCook(AbstractScraper):
         categories = [
             a.get_text(strip=True) for a in div.find_all("a") if a.get_text(strip=True)
         ]
-        return ", ".join(set(categories))
+        return ", ".join(get_equipment(categories))
