@@ -106,3 +106,25 @@ class FitMenCook(AbstractScraper):
             a.get_text(strip=True) for a in div.find_all("a") if a.get_text(strip=True)
         ]
         return ", ".join(get_equipment(categories))
+
+    def instructions(self):
+        steps = []
+
+        rc_steps = self.soup.find("div", class_="rc_steps")
+        if rc_steps:
+            for li in rc_steps.find_all("li", class_="rc_step"):
+                text = li.get_text(separator=" ", strip=True)
+                if text:
+                    steps.append(" ".join(text.split()))
+
+        if not steps:
+            container = self.soup.find("div", class_="fmc_recipe_the_content")
+            if container:
+                for step_div in container.find_all("div", class_="fmc_step_wrap"):
+                    content_div = step_div.find("div", class_="fmc_step_content")
+                    if content_div:
+                        text = content_div.get_text(separator=" ", strip=True)
+                        if text:
+                            steps.append(" ".join(text.split()))
+
+        return "\n".join(steps)
