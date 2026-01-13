@@ -332,6 +332,7 @@ from .lidiasitaly import LidiasItaly
 from .lifestyleofafoodie import LifestyleOfAFoodie
 from .littleferrarokitchen import LittleFerraroKitchen
 from .littlespicejar import LittleSpiceJar
+from .littlespoonfarm import LittleSpoonFarm
 from .littlesunnykitchen import LittleSunnyKitchen
 from .livelytable import LivelyTable
 from .lmld import Lmld
@@ -933,6 +934,7 @@ SCRAPERS = {
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
     LittleFerraroKitchen.host(): LittleFerraroKitchen,
     LittleSpiceJar.host(): LittleSpiceJar,
+    LittleSpoonFarm.host(): LittleSpoonFarm,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LivelyTable.host(): LivelyTable,
     Lmld.host(): Lmld,
