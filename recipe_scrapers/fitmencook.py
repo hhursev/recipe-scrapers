@@ -15,15 +15,15 @@ class FitMenCook(AbstractScraper):
                 return get_minutes(time_text.text.strip())
 
     def yields(self):
-        yields = None
+        if div := self.soup.find("div", class_="fmc_nos"):
+            if span := div.find("span"):
+                return get_yields(f"{span.get_text(strip=True)} servings")
+
         for h4 in self.soup.find_all("h4"):
-            raw_yield = h4.text
+            raw_yield = h4.get_text(strip=True)
             for word in raw_yield.split():
                 if word.isdigit():
-                    yields = word
-
-        if yields:
-            return get_yields(f"{yields} servings")
+                    return get_yields(f"{word} servings")
 
     def ingredients(self):
         ingredients_parent = self.soup.find("div", {"class": "fmc_ingredients"})
