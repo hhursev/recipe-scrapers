@@ -99,6 +99,7 @@ from .biggerbolderbaking import BiggerBolderBaking
 from .bigoven import BigOven
 from .billyparisi import BillyParisi
 from .bitsofcarey import BitsOfCarey
+from .blessthismessplease import BlessThisMessPlease
 from .blueapron import BlueApron
 from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
@@ -685,6 +686,7 @@ SCRAPERS = {
     BigOven.host(): BigOven,
     BillyParisi.host(): BillyParisi,
     BitsOfCarey.host(): BitsOfCarey,
+    BlessThisMessPlease.host(): BlessThisMessPlease,
     BlueApron.host(): BlueApron,
     BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
