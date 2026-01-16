@@ -35,40 +35,56 @@ TIME_REGEX = re.compile(
 SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
-    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b | \bcookies\b | \b(large |small )?buns\b",
+    r"\bmakes\b |\bporzioni\b",
     flags=re.I | re.X,
 )
 
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 RECIPE_YIELD_TYPES = (
-    ("dozen", "dozen"),
-    ("batch", "batches"),
-    ("cake", "cakes"),
-    ("sandwich", "sandwiches"),
-    ("bun", "buns"),
-    ("cookie", "cookies"),
-    ("muffin", "muffins"),
-    ("cupcake", "cupcakes"),
-    ("loaf", "loaves"),
-    ("pie", "pies"),
-    ("cup", "cups"),
-    ("pint", "pints"),
-    ("gallon", "gallons"),
-    ("ounce", "ounces"),
-    ("pound", "pounds"),
-    ("gram", "grams"),
-    ("liter", "liters"),
-    ("piece", "pieces"),
-    ("layer", "layers"),
-    ("scoop", "scoops"),
+    ("appetizer", "appetizers"),
     ("bar", "bars"),
-    ("patty", "patties"),
+    ("batch", "batches"),
+    ("bowl", "bowls"),
+    ("bun", "buns"),
+    ("cake", "cakes"),
+    ("cookie", "cookies"),
+    ("cup", "cups"),
+    ("cupcake", "cupcakes"),
+    ("dozen", "dozen"),
+    ("gallon", "gallons"),
+    ("gram", "grams"),
     ("hamburger bun", "hamburger buns"),
-    ("pancake", "pancakes"),
     ("item", "items"),
+    ("layer", "layers"),
+    ("liter", "liters"),
+    ("loaf", "loaves"),
+    ("muffin", "muffins"),
+    ("ounce", "ounces"),
+    ("pancake", "pancakes"),
+    ("patty", "patties"),
+    ("piece", "pieces"),
+    ("pie", "pies"),
+    ("pint", "pints"),
+    ("pound", "pounds"),
+    ("sandwich", "sandwiches"),
+    ("scone", "scones"),
+    ("scoop", "scoops"),
+    ("slice", "slices"),
+    ("taquito", "tacquitos"),
     # ... add more types as needed, in (singular, plural) format ...
 )
+
+# Pre-compile regex patterns for yield type matching with word boundaries
+_YIELD_TYPE_PATTERNS = [
+    (
+        re.compile(rf"\b{re.escape(singular)}\b", re.IGNORECASE),
+        re.compile(rf"\b{re.escape(plural)}\b", re.IGNORECASE),
+        singular,
+        plural,
+    )
+    for singular, plural in RECIPE_YIELD_TYPES
+]
 
 
 def format_diet_name(diet_input):
@@ -195,6 +211,7 @@ def get_yields(element):
     such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
     accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
+                     Can also be a list, in which case it will prefer the element containing a unit.
     :return: The number of servings, items, dozen, batches, etc...
     """
 
@@ -208,10 +225,28 @@ def get_yields(element):
 
     if element is None:
         raise ElementNotFoundInHtml(element)
+
+    if isinstance(element, list):
+        best_element = element[0]
+        for item in element:
+            item_str = str(item).lower()
+            for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS:
+                if singular_pattern.search(item_str) or plural_pattern.search(item_str):
+                    best_element = item
+                    break
+            else:
+                continue
+            break
+        element = best_element
+
     if isinstance(element, str):
         serve_text = element
-    else:
+    elif isinstance(element, (int, float)):
+        serve_text = str(element)
+    elif hasattr(element, "get_text"):
         serve_text = element.get_text()
+    else:
+        serve_text = str(element)
     if not serve_text:
         raise ValueError("Cannot extract yield information from empty string")
 
@@ -228,10 +263,14 @@ def get_yields(element):
     best_match = None
     best_match_length = 0
 
-    for singular, plural in RECIPE_YIELD_TYPES:
-        if singular in serve_text_lower or plural in serve_text_lower:
+    for singular_pattern, plural_pattern, singular, plural in _YIELD_TYPE_PATTERNS:
+        singular_match = singular_pattern.search(serve_text_lower)
+        plural_match = plural_pattern.search(serve_text_lower)
+        if singular_match or plural_match:
             match_length = (
-                len(singular) if singular in serve_text_lower else len(plural)
+                max(len(singular), len(plural))
+                if (singular_match and plural_match)
+                else (len(singular) if singular_match else len(plural))
             )
             if match_length > best_match_length:
                 best_match_length = match_length
