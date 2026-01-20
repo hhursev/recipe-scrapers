@@ -1292,18 +1292,20 @@ def scrape_html(
         supported_only = not bool(wild_mode)  # wild: true -> supported_only: false
 
     if html is None and online is True:
-        if requests_import_error is not None:
-            msg = (
-                "Unable to import the 'requests' library for use when recipe-scrapers \n"
-                "is operating online.\n"
-                "Did you install using 'pip install recipe-scrapers[online]'?"
-            )
-            raise ImportError(msg) from requests_import_error
-
         try:
-            html = requests.get(url=org_url, headers=HEADERS).text
+            html = urlopen(Request(org_url, headers=HEADERS)).read().decode("utf-8")
         except Exception as e:
-            raise Exception(f"Failed to retrieve HTML content from {org_url}.") from e
+            if requests_import_error is not None:
+                raise Exception(
+                    f"Failed to retrieve HTML content from {org_url}."
+                ) from e
+
+            try:
+                html = requests.get(url=org_url, headers=HEADERS).text
+            except Exception as req_error:
+                raise Exception(
+                    f"Failed to retrieve HTML content from {org_url}."
+                ) from req_error
 
     if html is None and online is False:
         msg = (

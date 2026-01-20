@@ -71,13 +71,16 @@ class TestMainMethods(unittest.TestCase):
 
         assert not mock_get.called
 
+    @mock.patch("recipe_scrapers.urlopen")
     @mock.patch("recipe_scrapers.requests.get")
-    def test_online_mode_html_retrieval(self, mock_get):
+    def test_online_mode_html_retrieval(self, mock_get, mock_urlopen):
         recipe_html = pathlib.Path(
             "tests/test_data/recipe-scrapers.example/online.testhtml"
         )
-        mock_get.return_value = mock.MagicMock()
-        mock_get.return_value.text = recipe_html.read_text()
+        mock_urlopen.return_value = mock.MagicMock()
+        mock_urlopen.return_value.read.return_value = recipe_html.read_text().encode(
+            "utf-8"
+        )
 
         with catch_warnings(record=True) as ws:
             simplefilter("always", category=DeprecationWarning)
@@ -89,7 +92,8 @@ class TestMainMethods(unittest.TestCase):
             )
             self.assertTrue(any(w.category is DeprecationWarning for w in ws))
 
-        assert mock_get.called
+        assert mock_urlopen.called
+        assert not mock_get.called
 
     def test_unsupported_website(self):
         html, url = (
