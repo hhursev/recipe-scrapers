@@ -56,6 +56,23 @@ The preview will automatically update as you make changes to the documentation f
     - Ensure all links are working
     - Use proper Markdown formatting
 
+## Publishing Versioned Docs
+
+!!! info "Versioned site"
+    The public documentation is published with [mike](https://github.com/jimporter/mike) so that
+    every release has its own versioned docs. When a GitHub release is published, the workflow
+    automatically deploys that version's docs by running:
+
+    ```sh
+    mike deploy 15.8.0
+    mike set-default 15.8.0
+    ```
+
+    Replace `15.8.0` with the released version. The docs for each release are then available at
+    `https://docs.recipe-scrapers.com/<version>/`.
+
+    If you need to publish docs manually (e.g. for testing), run the same commands locally
+
 ## Need Help?
 
 !!! question "Getting Support"
