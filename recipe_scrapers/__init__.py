@@ -417,6 +417,7 @@ from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
 from .paninihappy import PaniniHappy
 from .panlasangpinoy import PanlasangPinoy
+from .pastificiosorrentino import PastificioSorrentino
 from .pauladeen import PaulaDeen
 from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
@@ -1028,6 +1029,7 @@ SCRAPERS = {
     Panelinha.host(): Panelinha,
     PaniniHappy.host(): PaniniHappy,
     PanlasangPinoy.host(): PanlasangPinoy,
+    PastificioSorrentino.host(): PastificioSorrentino,
     PaulaDeen.host(): PaulaDeen,
     PeelWithZeal.host(): PeelWithZeal,
     PersnicketyPlates.host(): PersnicketyPlates,
