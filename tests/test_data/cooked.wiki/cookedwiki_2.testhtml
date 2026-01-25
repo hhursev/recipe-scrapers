@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cooked - Chocolate Chip Cheesecake</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="/apple-touch-icon.png?v=2"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="/favicon-32x32.png?v=2"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="/favicon-16x16.png?v=2"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link href="/site.webmanifest?v=2" rel="manifest" />
+    <link color="#d97757" href="/safari-pinned-tab.svg?v=2" rel="mask-icon" />
+    <link href="/favicon.ico?v=2" rel="shortcut icon" />
+    <meta content="Cooked.wiki" name="apple-mobile-web-app-title" />
+    <meta content="Cooked.wiki" name="application-name" />
+    <meta content="#efede3" name="msapplication-TileColor" />
+    <meta content="#efede3" name="theme-color" />
+    <script
+      src="/dist/base/js/index.js?version=47.0.0"
+      type="text/javascript"
+    ></script>
+    <meta
+      content="https://cooked.wiki/imgproxy/unsafe/resizing_type:fill-down/width:250/height:250/enlarge:1/quality:90/NTczMmM4NjItZTJhZC00ZGZiLTljMmUtN2M2YzFlNjgxYmFi.jpg"
+      property="og:image"
+    />
+    <meta content="Chocolate Chip Cheesecake" property="og:title" />
+    <meta content="" name="keywords" />
+    <link
+      href="/dist/base/style/style.css?version=47.0.0"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      let FF_FOUC_FIX;
+    </script>
+    <script
+      defer
+      src="https://a.cooked.wiki/script.js"
+      data-website-id="dadc2b0b-5e41-41df-9113-b76918f58e42"
+    ></script>
+    <script type="text/javascript">
+      (function (t, c, e, r, s, n, a) {
+        t[e] =
+          t[e] ||
+          function () {
+            (t[e].q = t[e].q || []).push(arguments);
+          };
+        n = c.createElement(r);
+        n.async = 1;
+        n.src = "https://www.clarity.ms/tag/" + s;
+        a = c.getElementsByTagName(r)[0];
+        a.parentNode.insertBefore(n, a);
+      })(window, document, "clarity", "script", "lw25q3o13h");
+    </script>
+  </head>
+  <body>
+    <div
+      class="modal"
+      hx-on::after-settle="setUpPlaceHolderModal()"
+      id="placeholder-modal"
+    >
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title"></div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fixed-modal"
+      hx-on::after-settle="setUpPlaceHolderModalFixed()"
+      id="placeholder-modal-fixed"
+    >
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title"></div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="login-needed-free">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Unauthorized</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>You need to be <a href="/login">logged in</a>.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="/login"><button>Login</button></a
+            ><button class="light-input modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="patron-required-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Patrons only</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>This feature is only available to patrons.</p>
+              <p>
+                Please consider <a href="/team">becoming a patron</a> to support
+                this project!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="/team"><button>Learn more</button></a
+            ><button class="light-input modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="retry-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Unexpected Error</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div><p>We are very sorry. Please retry.</p></div>
+          </div>
+          <div class="modal-footer">
+            <a href="#" onclick="window.location.reload()"
+              ><button>Retry</button></a
+            ><button class="light-input modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="suggest-patron-voices">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Recipe dictation limitations</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>
+                At this moment we can only offer improved
+                <strong>AI Voices</strong> on
+                <a href="/team">Patron accounts</a>.
+              </p>
+              <p>
+                If you are interested in supporting this project please consider
+                upgrading!
+              </p>
+              <p>If you are a Patron, please <a href="/login">login</a>.</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="/team"><button>Upgrade</button></a
+            ><a class="fake-link modal-close"
+              ><button class="light-input">Keep robotic voices</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="patron-only-dictation-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Recipe dictation limitations</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>Due to limited resources, the voice may sound robotic.</p>
+              <p>
+                We offer improved <strong>AI Voices</strong> on
+                <a href="/landing#pricing">Patron accounts</a>, if you are
+                interested in supporting this project please consider upgrading.
+              </p>
+              <p class="tip">Thank you!</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="fake-link modal-close"><button>Ok</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="added-to-shopping-list-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Shopping list</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>
+                Added to your <a href="/buy">🛒 shopping list</a> successfully.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="convert-units-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Convert units</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>
+                You need to be <a href="/login">logged in</a> to use this
+                feature. It's free!
+              </p>
+              <form class="convert-units-options disabled requires-login">
+                <input name="metric" type="submit" value="Metric" />
+                <div>or</div>
+                <input name="imperial" type="submit" value="Imperial" />
+              </form>
+              <p></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <input
+              class="light-input reset-convertion"
+              name="reset"
+              type="submit"
+              value="Reset"
+            /><button class="light-input modal-close">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="sort-ingredients-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title with-icon">
+                <img class="icon" src="/icons/sparkles.svg" />Sort ingredients
+              </h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <form class="convert-units-options">
+                <p>
+                  For easier reading, you can sort the ingredients according to
+                  their functional role in the recipe.
+                </p>
+              </form>
+              <p></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <input
+              id="sort-ingredients"
+              name="sort"
+              type="submit"
+              value="Sort ingredients"
+            /><a href="" id="reset-sort-ingredients" style="display: none"
+              ><button class="light-input">Reset</button></a
+            ><button class="light-input modal-close">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="breakdown-recipe-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title with-icon">
+                <img class="icon" src="/icons/sparkles.svg" />Breakdown recipe
+              </h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>
+                To help you understand the recipe, we can break it down into
+                sections.
+              </p>
+              <p>
+                Fluff is removed from steps while preserving necessary details
+                for experienced cooks.
+              </p>
+              <p>
+                You can break down the recipe visually (diagram), or view all
+                sections in the same page.
+              </p>
+              <div
+                class="breakdown-menu"
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                "
+              >
+                <div
+                  class="breakdown-recipe-options"
+                  style="display: flex; flex-direction: row; gap: var(--gap0)"
+                >
+                  <button
+                    class="modal-close"
+                    hx-include=".scale input[name='portions']"
+                    hx-indicator="#breakdown-recipe-button"
+                    hx-on="htmx:configRequest: event.detail.parameters['recipe-contents'] = window.getRecipeHTMLContent()"
+                    hx-post="/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e/summary"
+                    hx-push-url="true"
+                    id="breakdown-recipe-button"
+                  >
+                    Breakdown</button
+                  ><button
+                    class="modal-close"
+                    hx-get="/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e/diagram"
+                    hx-indicator="#breakdown-recipe-button"
+                    hx-push-url="true"
+                    id="breakdown-recipe-diagram-button"
+                  >
+                    Diagram
+                  </button>
+                </div>
+                <button class="light-input modal-close">Cancel</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div id="summarize-cta">
+      <div class="summarize-cta" style="border-radius: var(--border-radius)">
+        <div
+          class="summarize-cta-left-menu"
+          style="
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: var(--gap0);
+              justify-content: center;
+              min-width: 250px;
+            "
+          >
+            <div>Long recipe. Create sections?</div>
+          </div>
+          <button
+            class="with-icon"
+            hx-include=".scale input[name='portions']"
+            hx-indicator="#breakdown-recipe-button, #summarize-cta"
+            hx-on="htmx:configRequest: event.detail.parameters['recipe-contents'] = window.getRecipeHTMLContent()"
+            hx-post="/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e/summary"
+            hx-push-url="true"
+            id="summarize-cta-button"
+            style="white-space: nowrap"
+          >
+            <img class="icon sparkles" src="/icons/sparkles-white.svg" /><span
+              class="icon spinner"
+            ></span
+            ><span>Breakdown</span>
+          </button>
+        </div>
+        <div class="summarize-cta-right-menu">
+          <span
+            onclick="this.closest('.summarize-cta').remove()"
+            style="cursor: pointer"
+            ><span class="xmark"></span
+          ></span>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="logged-as-cooked">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">Logged successfully</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>Successfully logged as cooked!</p>
+              <p>You can edit your notes and add photos.</p>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="cook-mode-help-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">What is cook mode?</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>
+                <span class="mark"></span>Select the step you are cooking to
+                track your progress.
+              </p>
+              <p>
+                <span class="mark"></span>Highlights ingredients being used on
+                that step.
+              </p>
+              <p><span class="mark"></span>Screen does not go dark.</p>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="one-column-help-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">What is narrative view?</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p class="tip">Currently in beta version.</p>
+              <p><span class="mark"></span>Steps take full width.</p>
+              <p>
+                <span class="mark"></span>Ingredients and quantities used in the
+                step appear bellow it.
+              </p>
+              <p>
+                <span class="mark"></span>Smart highlighting and more accurate
+                results.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="nutrition-servings-help-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">What is this number?</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div>
+              <p>
+                Based on the recipe nutrition information, this number is the
+                recommended number of total servings for the recipe.
+              </p>
+              <p>
+                You can edit it to scale the recipe, or adjust the size of the
+                servings using the portion control slider.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="other-recipe-operations-modal">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modal-header">
+            <div class="modal-title">
+              <h3 class="tip title">More options</h3>
+            </div>
+            <span class="xmark modal-close">⨯</span>
+          </div>
+          <div class="modal-body-contents">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                gap: var(--gap1);
+                justify-content: space-between;
+              "
+            >
+              <a
+                href="/new?url=https://cooked.wiki/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"
+                ><button>Create copy</button></a
+              >
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page item-page">
+      <div class="page-top-bar" hx-preserve="true" id="page-top-bar">
+        <a class="page-logo" href="/landing"
+          ><span class="logo"
+            ><span>C</span><span>ook<span class="ed">ed</span></span></span
+          ><span class="beta">Home</span></a
+        >
+        <div class="page-menu top-menu">
+          <div>
+            <a class="home" href="/landing">Home</a
+            ><a class="community with-icon" href="/community">Community</a>
+          </div>
+          <div><a class="recipes" href="/recipes">My Recipes</a></div>
+        </div>
+      </div>
+      <div>
+        <div class="header-user-menu" id="header-user-menu">
+          <a class="profile-menu" href="/user/ashes"
+            ><img
+              alt="Profile picture"
+              class="profile-picture"
+              height="30"
+              src="/images/profile.svg"
+              width="30"
+            />ashes</a
+          >
+          <div class="recipe-menu">
+            <a
+              class="open-qr-code"
+              hx-post="/qrcode/modal"
+              hx-vals='{"url":"https://cooked.wiki/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"}'
+              ><img class="icon" src="/icons/iphone.svg" />QR Code</a
+            ><a class="listen-recipe with-icon" hx-get="/reader/modal"
+              ><img class="icon" src="/icons/volume_up.svg" />Listen</a
+            ><a
+              class="fake-link print-pdf with-icon"
+              hx-get="/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e/print/modal"
+              ><img class="icon" src="/icons/print.svg" />Pdf</a
+            >
+          </div>
+        </div>
+        <div class="view page-content" itemtype="http://schema.org/Recipe">
+          <div class="header-menu">
+            <div class="header-image" style="background-color: var(--white)">
+              <div class="header-title">
+                <div class="header-title-content">
+                  <div class="title" itemprop="name">
+                    Chocolate Chip Cheesecake<a
+                      class="recipe-link"
+                      href="https://www.allrecipes.com/recipe/15058/chocolate-chip-cheesecake-i/"
+                      target="_blank"
+                      ><img
+                        class="icon"
+                        src="/icons/arrow-up-right-from-square-solid.svg"
+                    /></a>
+                  </div>
+                  <div class="header-shortcuts">
+                    <div class="left-section">
+                      <a
+                        href="/new?url=https://cooked.wiki/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"
+                        ><button class="with-icon">
+                          <img
+                            class="icon"
+                            src="/icons/bookmark-solid-secondary.svg"
+                          />Save copy
+                        </button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="item-img"
+                height="250"
+                id="img-crop"
+                src="https://cooked.wiki/imgproxy/unsafe/resizing_type:fill-down/width:250/height:250/enlarge:1/quality:90/NTczMmM4NjItZTJhZC00ZGZiLTljMmUtN2M2YzFlNjgxYmFi.jpg"
+                width="250"
+              />
+            </div>
+          </div>
+          <div
+            class="body"
+            data-is-censored="true"
+            data-is-user-logged-in="false"
+            data-recipe-id="b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"
+            data-recipe-portions="12.0"
+            data-user-patron=""
+            hx-history-elt
+            id="body"
+          >
+            <div class="recipe-bar">
+              <div class="left-section">
+                <div class="convert-units-menu">
+                  <button
+                    class="light-input open-diagram with-icon"
+                    id="breakdown-recipe-button"
+                    onclick="openModal(document.getElementById('breakdown-recipe-modal'))"
+                  >
+                    Breakdown <span class="icon spinner"></span
+                    ><img class="icon" src="/icons/sparkles.svg" />
+                  </button>
+                </div>
+              </div>
+              <div class="right-section">
+                <div class="toggle-view-container">
+                  <div class="toggle-view">
+                    <button class="set-one-column light-input with-icon">
+                      <img
+                        class="icon"
+                        src="/icons/arrows-left-right-to-line-solid.svg"
+                      />Full width</button
+                    ><button class="set-two-column light-input with-icon">
+                      <img class="icon" src="/icons/vertical-split.svg" />Column
+                      view
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="recipe-content recipe-page-content"
+              hx-history="false"
+              id="recipe-content"
+            >
+              <div
+                class="yield-meta"
+                itemprop="recipeYield"
+                style="display: none"
+              >
+                12.0
+              </div>
+              <ul class="ingredients">
+                <div class="scale-menu">
+                  <button
+                    class="light-input ingredient-group-top-button with-icon open-nutrition"
+                    hx-include="ul.ingredients input[name='ingredients'], #portions"
+                    hx-on:click="const ingredients = document.querySelectorAll(&quot;input[name='ingredients']&quot;);
+                   ingredients.forEach(ingredient =&gt; ingredient.checked = true);
+                   htmx.trigger(this, 'load-nutrition')"
+                    hx-post="/nutrition/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"
+                    hx-push-url="true"
+                    hx-swap="innerHTML show:#header-user-menu:top"
+                    hx-target="#body"
+                    hx-trigger="load-nutrition from:body"
+                  >
+                    Nutrition<img class="icon" src="/icons/exercise.svg" /><span
+                      class="icon spinner"
+                    ></span></button
+                  ><button
+                    class="light-input ingredient-group-top-button sort-ingredients with-icon"
+                    id="open-sort-ingredients-modal"
+                  >
+                    Sort<img class="icon" src="/icons/sparkles.svg" /></button
+                  ><button class="light-input portions-loading" disabled>
+                    Loading...
+                  </button>
+                  <form class="scale-container">
+                    <div class="scale composite-input">
+                      <input
+                        class="minus"
+                        disabled
+                        type="button"
+                        value="-"
+                      /><input autocomplete="off" disabled id="portions"
+                      inputmode="decimal" name="portions" pattern=="\d+(\.\d*)?"
+                      required step=".01" type="number" value="12"><input
+                        class="plus"
+                        disabled
+                        type="button"
+                        value="+"
+                      />
+                    </div>
+                    <button
+                      class="lighter-input with-icon convert-units loading"
+                      disabled
+                      type="submit"
+                    >
+                      <span>Loading...</span
+                      ><img
+                        class="icon"
+                        src="/icons/balance.svg"
+                        style="display: none"
+                      />
+                    </button>
+                  </form>
+                </div>
+                <div class="shopping-list">
+                  <p class="note">CRUST:</p>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="1.5 cups graham cracker crumbs"
+                      />
+                      <p>1.5 cups graham cracker crumbs</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="⅓ cup white sugar"
+                      />
+                      <p>⅓ cup white sugar</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="⅓ cup unsweetened cocoa powder"
+                      />
+                      <p>⅓ cup unsweetened cocoa powder</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="⅓ cup butter, melted"
+                      />
+                      <p>⅓ cup butter, melted</p></label
+                    >
+                  </li>
+                  <div class="menu" style="visibility: hidden">
+                    <a class="selector" href="#">Select all</a
+                    ><button class="light-input with-icon">
+                      Add<img
+                        class="icon"
+                        src="/icons/cart-shopping-solid.svg"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </ul>
+              <ul class="ingredients">
+                <div class="scale-menu">
+                  <button
+                    class="light-input ingredient-group-top-button sort-ingredients with-icon"
+                    id="open-sort-ingredients-modal"
+                  >
+                    Sort<img class="icon" src="/icons/sparkles.svg" /></button
+                  ><button class="light-input portions-loading" disabled>
+                    Loading...
+                  </button>
+                  <form class="scale-container">
+                    <div class="scale composite-input">
+                      <input
+                        class="minus"
+                        disabled
+                        type="button"
+                        value="-"
+                      /><input autocomplete="off" disabled id="portions"
+                      inputmode="decimal" name="portions" pattern=="\d+(\.\d*)?"
+                      required step=".01" type="number" value="12"><input
+                        class="plus"
+                        disabled
+                        type="button"
+                        value="+"
+                      />
+                    </div>
+                    <button
+                      class="lighter-input with-icon convert-units loading"
+                      disabled
+                      type="submit"
+                    >
+                      <span>Loading...</span
+                      ><img
+                        class="icon"
+                        src="/icons/balance.svg"
+                        style="display: none"
+                      />
+                    </button>
+                  </form>
+                </div>
+                <div class="shopping-list">
+                  <p class="note">CHEESECAKE:</p>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="3 (8 ounce) packages cream cheese"
+                      />
+                      <p>3 (8 ounce) packages cream cheese</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="1 (14 ounce) can sweetened condensed milk"
+                      />
+                      <p>1 (14 ounce) can sweetened condensed milk</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="3 eggs"
+                      />
+                      <p>3 eggs</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="2 teaspoons vanilla extract"
+                      />
+                      <p>2 teaspoons vanilla extract</p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="1 cup mini semisweet chocolate chips, divided"
+                      />
+                      <p>
+                        1 cup mini semisweet chocolate chips, divided
+                      </p></label
+                    >
+                  </li>
+                  <li class="ingredient" itemprop="recipeIngredient">
+                    <label
+                      ><input
+                        name="ingredients"
+                        type="checkbox"
+                        value="1 teaspoon all-purpose flour"
+                      />
+                      <p>1 teaspoon all-purpose flour</p></label
+                    >
+                  </li>
+                  <div class="menu" style="visibility: hidden">
+                    <a class="selector" href="#">Select all</a
+                    ><button class="light-input with-icon">
+                      Add<img
+                        class="icon"
+                        src="/icons/cart-shopping-solid.svg"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </ul>
+              <ol class="steps" itemprop="recipeInstructions">
+                <li>
+                  <p>Preheat the oven to 300 degrees F (150 degrees C).</p>
+                </li>
+                <li>
+                  <p>
+                    Make the crust: Mix graham cracker crumbs, sugar, cocoa, and
+                    melted butter. Press onto the bottom and up the sides of a
+                    9-inch springform pan. Set aside.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Prepare the cheesecake: Beat cream cheese until smooth.
+                    Gradually add sweetened condensed milk; beat well. Add eggs
+                    and vanilla and beat on medium speed until smooth.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Toss ⅓ of the chocolate chips with flour to coat (this keeps
+                    them from sinking to the bottom of the cake). Mix into
+                    cheesecake batter. Pour into prepared crust. Sprinkle top
+                    with remaining chocolate chips.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Bake in the preheated oven for 1 hour. Turn off the oven (do
+                    not open oven door) and leave the cake in the oven to cool
+                    in the oven for another hour. Remove from oven and cool
+                    completely.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Refrigerate before removing the sides of the pan. Keep cake
+                    refrigerated until time to serve.
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <div
+              class="recipe-tags-container hscroll-container"
+              id="recipe-tags"
+            >
+              <span class="icon hscroll-btn left"></span>
+              <div class="hscroll-indicator"></div>
+              <div class="tags hscroll">
+                <p class="tag course">
+                  <span class="tag-name">Course</span
+                  ><span class="keyword highlighted">🍰Dessert</span>
+                </p>
+                <p class="tag diets">
+                  <span class="tag-name">Diets</span
+                  ><span class="tag-list"
+                    ><span class="keyword highlighted">🥕Vegetarian</span
+                    ><span
+                      class="keyword-ellipsis"
+                      hx-get="/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e/tags/diet"
+                      hx-trigger="click"
+                      >...</span
+                    ></span
+                  >
+                </p>
+                <p class="tag category">
+                  <span class="tag-name">Category</span
+                  ><span class="keyword highlighted">🍰Cheesecake</span>
+                </p>
+                <p class="tag cuisine">
+                  <span class="tag-name">Cuisine</span
+                  ><span class="keyword highlighted">🇺🇸American</span>
+                </p>
+                <p class="tag occasions">
+                  <span class="tag-name">Occasions</span
+                  ><span class="tag-list"
+                    ><span class="keyword highlighted">🎉Celebration</span
+                    ><span class="keyword highlighted">🎊Party</span></span
+                  >
+                </p>
+                <p class="tag seasonal">
+                  <span class="tag-name">Season</span
+                  ><span class="keyword highlighted">🔁Year-round</span>
+                </p>
+                <p class="tag difficulty">
+                  <span class="tag-name">Difficulty</span
+                  ><span class="keyword highlighted">Medium ⏰ 1h</span>
+                </p>
+              </div>
+              <span class="icon hscroll-btn right"></span>
+            </div>
+          </div>
+          <div class="footer" style="display: none">
+            <div><span>Created 53 weeks ago</span></div>
+            <p>
+              <a
+                class="save-recipe"
+                href="/https://cooked.wiki/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"
+                >Duplicate</a
+              ><button
+                class="lighter-input"
+                hx-get="/saved/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e/manage/modal"
+                style="display: flex; align-items: center; gap: var(--gap1)"
+              >
+                <span class="icon folder"></span>Planning
+              </button>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="patron-ad" style="border-radius: ">
+            <div
+              class="patron-ad-left-menu"
+              style="
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  gap: var(--gap0);
+                  justify-content: center;
+                  min-width: 250px;
+                "
+              >
+                <div>
+                  📲 Get the iOS & Android app - just released with extra
+                  features!
+                </div>
+              </div>
+              <a href="/app/download"
+                ><button class="primary" style="white-space: nowrap">
+                  Get the app
+                </button></a
+              >
+            </div>
+            <div class="patron-ad-right-menu">
+              <span
+                onclick="this.closest('.patron-ad').remove()"
+                style="cursor: pointer"
+                ><img class="icon" src="/icons/xmark_white.svg"
+              /></span>
+            </div>
+          </div>
+        </div>
+        <div
+          hx-get="/journal/recipe/b3c7e088-d40b-4e6c-ac39-b1adb82d2f9e"
+          hx-trigger="load"
+          id="community-section"
+        >
+          <section class="community journal" id="community">
+            <div style="padding-bottom: 40px">Loading...</div>
+          </section>
+        </div>
+        <div class="footer terms-footer">
+          <div class="terms">
+            <a href="/terms/pp.txt" target="_blank">Privacy Policy</a
+            ><a href="/terms/cp.txt" target="_blank">Cookie Policy</a
+            ><a href="/terms/tos.txt" target="_blank">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="/dist/recipe/view/js/index.js?version=47.0.0"
+      type="text/javascript"
+    ></script>
+    <script defer src="/js/lib/htmx1.9.12.js" type="text/javascript"></script>
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'9b513c405a05c2c0',t:'MTc2NjkyNjc3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
