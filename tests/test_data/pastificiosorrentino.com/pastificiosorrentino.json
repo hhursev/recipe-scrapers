@@ -1,8 +1,8 @@
 {
-  "host": "pastificiosorrentino.com",
+  "author": "Giuseppe Carella",
   "canonical_url": "https://www.pastificiosorrentino.com/pasta-con-pesce-spada-e-melanzane/",
   "site_name": "Pastificio Sorrentino",
-  "author": "Giuseppe Carella",
+  "host": "pastificiosorrentino.com",
   "language": "it-IT",
   "title": "Pasta con pesce spada e melanzane",
   "ingredients": [
@@ -28,8 +28,8 @@
     "Sistemare la pasta in un piatto fondo e completare con il pangrattato.",
     "Decorare con delle foglioline di menta fresca."
   ],
-  "total_time": 45,
   "yields": "4 servings",
-  "image": "https://www.pastificiosorrentino.com/wp-content/uploads/2025/12/pasta_pesce_spada_e_melanzane-1.png",
-  "description": "Ci sono ricette che raccontano il Mediterraneo già dal primo profumo. I paccheri con pesce spada e melanzane nascono dall’incontro tra terra e mare, tra la dolcezza vellutata delle melanzane e la carne tenera e saporita del pesce spada."
+  "description": "Ci sono ricette che raccontano il Mediterraneo già dal primo profumo. I paccheri con pesce spada e melanzane nascono dall’incontro tra terra e mare, tra la dolcezza vellutata delle melanzane e la carne tenera e saporita del pesce spada.",
+  "total_time": 45,
+  "image": "https://www.pastificiosorrentino.com/wp-content/uploads/2025/12/pasta_pesce_spada_e_melanzane-1.png"
 }
