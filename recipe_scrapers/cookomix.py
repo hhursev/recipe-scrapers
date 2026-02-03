@@ -7,7 +7,21 @@ class Cookomix(AbstractScraper):
         return "cookomix.com"
 
     def instructions(self):
-        instructions_html = self.soup.select_one(".instructions.dsb-select ol")
+        container = self.soup.select_one(".instructions.dsb-select")
 
-        instructions = instructions_html.find_all("li")
-        return "\n".join(li.get_text() for li in instructions)
+        instructions = []
+
+        if container:
+            for child in container.find_all(recursive=False):
+                if child.name == "h2":
+                    text = child.get_text()
+                    if text:
+                        instructions.append(text)
+
+                elif child.name == "ol":
+                    for li in child.find_all("li"):
+                        text = li.get_text()
+                        if text:
+                            instructions.append(text)
+
+        return "\n".join(instructions)

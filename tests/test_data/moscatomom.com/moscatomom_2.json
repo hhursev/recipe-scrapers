@@ -1,0 +1,83 @@
+{
+  "author": "Moscato Mom",
+  "canonical_url": "https://moscatomom.com/keto-lemon-loaf-recipe-with-sweet-glaze/",
+  "site_name": "Moscato Mom",
+  "host": "moscatomom.com",
+  "language": "en-US",
+  "title": "Keto Lemon Loaf",
+  "ingredients": [
+    "4 large eggs - room temperature",
+    "2 cups almond flour",
+    "1/2 cup almond milk",
+    "1/2 cup monk fruit sweetener",
+    "4 oz melted butter, cooled",
+    "2 teaspoon vanilla extract",
+    "1 teaspoon lemon extract",
+    "2 teaspoon baking powder",
+    "lemon zest",
+    "1 cup confectioners monk fruit sweetener",
+    "2 tablespoon almond milk",
+    "1/2 teaspoon lemon extract"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 large eggs - room temperature",
+        "2 cups almond flour",
+        "1/2 cup almond milk",
+        "1/2 cup monk fruit sweetener",
+        "4 oz melted butter, cooled",
+        "2 teaspoon vanilla extract",
+        "1 teaspoon lemon extract",
+        "2 teaspoon baking powder",
+        "lemon zest"
+      ],
+      "purpose": "For The Cake"
+    },
+    {
+      "ingredients": [
+        "1 cup confectioners monk fruit sweetener",
+        "2 tablespoon almond milk",
+        "1/2 teaspoon lemon extract"
+      ],
+      "purpose": "For The Glaze"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350*",
+    "Mix together dry ingredients in a large bowl. Using a hand mixer, add in wet ingredients and mix well. Pour into a greased or parchment paper-lined loaf pan. If using a single loaf, bake for 45 minutes or until a toothpick comes out clean. If using a smaller loaf pan, bake for 24 minutes or until a toothpick comes out clean.",
+    "Mix ingredients of the glaze together until desired thickness and pour over cooled keto lemon loaf. If it gets too thin you can add a bit of xanthan gum to thicken.",
+    "Pour on top of the cake and enjoy!"
+  ],
+  "category": "Keto Recipes",
+  "description": "This Keto Lemon Loaf will satisfy your craving without abandoning your keto diet goals. Soft and moist, this low-carb lemon bread is full of flavor without being full of carbs.",
+  "total_time": 55,
+  "cook_time": 45,
+  "prep_time": 10,
+  "cuisine": "Keto",
+  "nutrients": {
+    "servingSize": "1",
+    "calories": "165 calories",
+    "fatContent": "14 grams fat",
+    "saturatedFatContent": "5 grams saturated fat",
+    "unsaturatedFatContent": "9 grams unsaturated fat",
+    "transFatContent": "0 grams trans fat",
+    "carbohydrateContent": "6 grams carbohydrates",
+    "sugarContent": "3 grams sugar",
+    "proteinContent": "5 grams protein",
+    "sodiumContent": "125 milligrams sodium",
+    "fiberContent": "2 grams fiber",
+    "cholesterolContent": "62 milligrams cholesterol"
+  },
+  "dietary_restrictions": [
+    "Diabetic Diet"
+  ],
+  "image": "https://moscatomom.com/wp-content/uploads/2021/05/keto-lemon-loaf-3.jpg",
+  "keywords": [
+    "keto lemon loaf",
+    "keto lemon pound cake",
+    "keto lemon bread",
+    "low carb lemon bread",
+    "almond flour lemon bread"
+  ]
+}

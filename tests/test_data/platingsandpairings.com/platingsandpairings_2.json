@@ -1,0 +1,87 @@
+{
+  "author": "Erin Lynch",
+  "canonical_url": "https://www.platingsandpairings.com/sous-vide-chicken-breasts-recipe/",
+  "site_name": "Platings + Pairings",
+  "host": "platingsandpairings.com",
+  "language": "en-US",
+  "title": "Sous Vide Chicken Breast",
+  "ingredients": [
+    "2 chicken breasts",
+    "Salt and pepper",
+    "2-4 sprigs fresh herbs",
+    "2 thin slices lemon",
+    "2 Tablespoons butter (or compound butter - see recipe below)",
+    "1 Tablespoon olive oil",
+    "Kosher salt & pepper",
+    "1/2 cup unsalted butter (at room temperature)",
+    "1/4 cup fresh parsley (chopped )",
+    "3 cloves garlic ( grated or minced)",
+    "Zest of 1 lemon",
+    "3 teaspoons combination of fresh chopped herbs (like rosemary, tarragon, basil, thyme)",
+    "1/2 teaspoon kosher salt",
+    "1/4 teaspoon ground black pepper"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 chicken breasts",
+        "Salt and pepper",
+        "2-4 sprigs fresh herbs",
+        "2 thin slices lemon"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "2 Tablespoons butter (or compound butter - see recipe below)",
+        "1 Tablespoon olive oil",
+        "Kosher salt & pepper"
+      ],
+      "purpose": "For Finishing:"
+    },
+    {
+      "ingredients": [
+        "1/2 cup unsalted butter (at room temperature)",
+        "1/4 cup fresh parsley (chopped )",
+        "3 cloves garlic ( grated or minced)",
+        "Zest of 1 lemon",
+        "3 teaspoons combination of fresh chopped herbs (like rosemary, tarragon, basil, thyme)",
+        "1/2 teaspoon kosher salt",
+        "1/4 teaspoon ground black pepper"
+      ],
+      "purpose": "Compound Butter:"
+    }
+  ],
+  "instructions_list": [
+    "Set the sous vide to 145-degrees.",
+    "Vacuum seal the chicken breasts using your preferred method. 2 breasts per bag, along with salt and pepper, fresh herbs and lemon slices.",
+    "Cook for 1 hour, up to four hours.",
+    "Remove chicken breasts and pat dry with paper towels. Season with additional salt and pepper.",
+    "Preheat a cast iron skillet over high heat. Add oil and butter. Sear chicken breasts 1-minute per side, tilting skillet and spooning butter over them as they cook. Serve immediately."
+  ],
+  "category": "Chicken",
+  "yields": "2 servings",
+  "description": "Learn how to make the PERFECT Sous Vide Chicken Breasts. This fail proof recipe results in perfectly tender & juicy chicken every time. Plus, it provides tips on flavoring your chicken breasts in several different ways. You can even sous vide frozen chicken breasts.",
+  "total_time": 65,
+  "cook_time": 60,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 57,
+  "equipment": [
+    "Sous Vide Machine"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "430 kcal",
+    "fatContent": "25 g",
+    "saturatedFatContent": "9 g",
+    "carbohydrateContent": "1 g",
+    "sugarContent": "1 g",
+    "proteinContent": "49 g",
+    "sodiumContent": "363 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "175 mg"
+  },
+  "image": "https://www.platingsandpairings.com/wp-content/uploads/2020/02/pin-sous-vide-chicken-breasts-2.jpg"
+}

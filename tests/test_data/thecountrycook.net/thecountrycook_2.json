@@ -1,0 +1,76 @@
+{
+  "author": "Brandie Skibinski",
+  "canonical_url": "https://www.thecountrycook.net/southern-fudge-pie/",
+  "site_name": "The Country Cook",
+  "host": "thecountrycook.net",
+  "language": "en-US",
+  "title": "Southern Fudge Pie",
+  "ingredients": [
+    "3/4 cup salted butter",
+    "3 (1 ounce) unsweetened chocolate squares",
+    "3 large eggs",
+    "1 1/2 cups sugar",
+    "3/4 cup all-purpose flour",
+    "1 teaspoon vanilla extract",
+    "1/2 cup chopped pecans (or walnuts)",
+    "vanilla ice cream, chocolate syrup and chopped pecans"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "3/4 cup salted butter",
+        "3 (1 ounce) unsweetened chocolate squares",
+        "3 large eggs",
+        "1 1/2 cups sugar",
+        "3/4 cup all-purpose flour",
+        "1 teaspoon vanilla extract",
+        "1/2 cup chopped pecans (or walnuts)"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "vanilla ice cream, chocolate syrup and chopped pecans"
+      ],
+      "purpose": "Optional toppings:"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350F degrees. Spray a 9-inch pie plate with nonstick cooking spray.",
+    "In a small saucepan, over low heat, add 3/4 cup salted butter and 3 (1 ounce) unsweetened chocolate squares. Stirring often until both are melted and combined. Then take off heat and set aside to cool.",
+    "In a bowl, beat 3 large eggs with an electric or stand mixer for 5 minutes.",
+    "Gradually add 1 1/2 cups sugar, beating until blended.",
+    "Then gradually add melted chocolate mixture and mix until combined.",
+    "Then add 3/4 cup all-purpose flour and 1 teaspoon vanilla extract, beating until blended.",
+    "If you're using a stand mixer, it's important that you continually scrape down the sides so everything mixes evenly.",
+    "Stir in 1/2 cup chopped pecans.",
+    "Pour into pie plate. Bake on the middle rack, at 350F, for about 35-40 minutes. The center should be firm when finished.",
+    "Let pie cool completely. Then slice and serve topped with vanilla ice cream, chocolate syrup and chopped pecans."
+  ],
+  "category": "Dessert",
+  "yields": "6 servings",
+  "description": "Southern Fudge Pie is an easy, crustless, homemade chocolate pie made with chocolate, sugar, flour, butter, eggs and pecans. Pure deliciousness!",
+  "total_time": 50,
+  "cook_time": 40,
+  "prep_time": 10,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 24,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "652 kcal",
+    "fatContent": "42 g",
+    "saturatedFatContent": "20 g",
+    "carbohydrateContent": "68 g",
+    "sugarContent": "50 g",
+    "proteinContent": "7 g",
+    "sodiumContent": "238 mg",
+    "fiberContent": "4 g",
+    "cholesterolContent": "142 mg"
+  },
+  "image": "https://www.thecountrycook.net/wp-content/uploads/2019/04/fudge-pie-8.jpg",
+  "keywords": [
+    "Chocolate Fudge Pie",
+    "Fudge Pie"
+  ]
+}
