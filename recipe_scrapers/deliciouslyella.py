@@ -1,7 +1,7 @@
 from ._abstract import AbstractScraper
 
 
-class deliciouslyella(AbstractScraper):
+class DeliciouslyElla(AbstractScraper):
     @classmethod
     def host(cls):
         return "deliciouslyella.com"
