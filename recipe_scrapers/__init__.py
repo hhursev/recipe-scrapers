@@ -162,6 +162,7 @@ from .dagelijksekost import DagelijkseKost
 from .damndelicious import DamnDelicious
 from .dashfordinner import DashForDinner
 from .davidlebovitz import DavidLebovitz
+from .deliciouslyella import deliciouslyella
 from .deliciouslysprinkled import DeliciouslySprinkled
 from .delish import Delish
 from .delscookingtwist import DelsCookingTwist
@@ -754,6 +755,7 @@ SCRAPERS = {
     DamnDelicious.host(): DamnDelicious,
     DashForDinner.host(): DashForDinner,
     DavidLebovitz.host(): DavidLebovitz,
+    deliciouslyella.host(): deliciouslyella,
     DeliciouslySprinkled.host(): DeliciouslySprinkled,
     Delish.host(): Delish,
     DelsCookingTwist.host(): DelsCookingTwist,
