@@ -547,7 +547,7 @@ from .thefirstmess import TheFirstMess
 from .thefoodcharlatan import TheFoodCharlatan
 from .thefoodietakesflight import TheFoodieTakesFlight
 from .theglutenfreeaustrian import TheGlutenFreeAustrian
-from .theguardian import theguardian
+from .theguardian import TheGuardian
 from .thehappyfoodie import TheHappyFoodie
 from .theicecreamconfectionals import TheIceCreamConfectionals
 from .thekitchencommunity import TheKitchenCommunity
@@ -1161,7 +1161,7 @@ SCRAPERS = {
     TheFoodCharlatan.host(): TheFoodCharlatan,
     TheFoodieTakesFlight.host(): TheFoodieTakesFlight,
     TheGlutenFreeAustrian.host(): TheGlutenFreeAustrian,
-    theguardian.host(): theguardian,
+    TheGuardian.host(): TheGuardian,
     TheHappyFoodie.host(): TheHappyFoodie,
     TheIceCreamConfectionals.host(): TheIceCreamConfectionals,
     TheKitchenCommunity.host(): TheKitchenCommunity,
@@ -1337,9 +1337,7 @@ def scrape_html(
         )
         raise WebsiteNotImplementedError(msg)
 
-    schema_scraper = SchemaScraperFactory.generate(
-        html=html, url=org_url, best_image=best_image
-    )
+    schema_scraper = SchemaScraperFactory.generate(html=html, url=org_url, best_image=best_image)
     if schema_scraper.schema.data:
         return schema_scraper
 
