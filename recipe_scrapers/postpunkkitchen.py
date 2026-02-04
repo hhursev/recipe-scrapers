@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 
 
 class PostPunkKitchen(AbstractScraper):
@@ -16,7 +17,7 @@ class PostPunkKitchen(AbstractScraper):
         return self.schema.category()
 
     def total_time(self):
-        return self.schema.total_time()
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         return self.schema.yields()
