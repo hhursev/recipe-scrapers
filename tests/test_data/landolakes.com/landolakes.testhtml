@@ -1,0 +1,1424 @@
+
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US" xmlns:fb="http://ogp.me/ns/fb#">
+<head id="head">
+        <title>
+            Pineapple Upside-Down Cake Recipe | Land O&#x2019;Lakes
+        </title>
+    
+    
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://www.landolakes.com/recipe/8989/pineapple-upside-down-cake/" />
+    <link type="text/css" rel="stylesheet" href="/Content/Styles/LOLRetail/css/MasterBuild.css?v=1.0" />
+    
+    <link href="/_content/Kentico.Content.Web.Rcl/Content/Bundles/Public/systemPageComponents.min.css" rel="stylesheet" />
+
+    <link type="text/css" rel="stylesheet" href="/Content/Styles/LOLRetail/less/compile/recipe-detail.min.css?v=1.0" />
+    <style>
+        .checkSwitch {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: auto;
+            padding-left: 66px;
+        }
+
+            .checkSwitch input {
+                display: none;
+            }
+
+        .checkSlider {
+            background-color: #ccc;
+            bottom: 0;
+            cursor: pointer;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: .4s;
+            width: 56px;
+            height: 26px;
+        }
+
+            .checkSlider:before {
+                background-color: #fff;
+                bottom: 3px;
+                content: "";
+                height: 20px;
+                left: 4px;
+                position: absolute;
+                transition: .4s;
+                width: 20px;
+            }
+
+        .checkSwitch input:checked + .checkSlider {
+            background-color: #66bb6a;
+        }
+
+            .checkSwitch input:checked + .checkSlider:before {
+                transform: translateX(26px);
+            }
+
+        .checkSlider.round {
+            border-radius: 34px;
+        }
+
+            .checkSlider.round:before {
+                border-radius: 50%;
+            }
+
+        .checkSwitch span {
+            display: inline-block;
+            line-height: 30px
+        }
+
+        .recipes-cook-mode .get-started-text {
+            color: #ed1c30;
+            padding-bottom: 0;
+            font-weight: bold;
+        }
+
+        .recipes-cook-mode {
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (min-width: 40em) {
+            .recipes-cook-mode {
+                margin-bottom: 16px;
+            }
+        }
+    </style>
+
+
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/Content/Images/LOLRetail/favicon-152.png" />
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Content/Images/LOLRetail/favicon-144.png" />
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/Content/Images/LOLRetail/favicon-120.png" />
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Content/Images/LOLRetail/favicon-114.png" />
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Content/Images/LOLRetail/favicon-72.png" />
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/Content/Images/LOLRetail/favicon-57.png" />
+    <link href="/Content/Images/LOLRetail/favicon.ico" type="image/x-icon" rel="icon" />
+    <script src="https://use.fortawesome.com/0373e875.js" async></script>
+    <meta http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests" />
+
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/sagona/34F960_3_0.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/sagona/34F960_7_0.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/sagona/34F960_A_0.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/sagona/34F960_6_0.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/sagona/34F960_8_0.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/muli/muli-black-webfont.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/muli/muli-bold-webfont.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/muli/muli-italic-webfont.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/muli/muli-extrabold-webfont.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/muli/muli-light-webfont.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/Content/Styles/LOLRetail/fonts/muli/muli-regular-webfont.woff2" as="font" type="font/woff2" />
+    <style type="text/css">
+        .submenu-seasonal-recipes a {
+                        color: #fbc00f !important;
+                    }
+                     .submenu-seasonal-recipes a:hover{
+                        color: #ed1c30;
+                    }
+                    .globalBanner[data-filtername="holidayFilter"] .picture-bgImage img{
+                        object-position : center !important;
+                    }
+    </style>
+    
+            <meta name="description" content="Butter and brown sugar topped with pineapple and maraschino cherries form the decadent topping on this classic pineapple upside-down cake." />
+            <meta property="og:title" content="Pineapple Upside-Down Cake" />
+            <meta property="og:site_name" content="Land O'Lakes\" />
+            <meta property="og:url" content="https://www.landolakes.com/recipe/8989/pineapple-upside-down-cake/" />
+            <meta property="og:description" content="Butter and brown sugar topped with pineapple and maraschino cherries form the decadent topping on this classic pineapple upside-down cake." />
+            <meta property="og:image" content="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg" />
+            <meta property="og:type" content="article\" />
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:site" content="LANDOLAKESKTCHN" />
+            <meta property="twitter:title" content="Pineapple Upside-Down Cake" />
+            <meta property="twitter:description" content="Butter and brown sugar topped with pineapple and maraschino cherries form the decadent topping on this classic pineapple upside-down cake." />
+            <meta property="twitter:image" content="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg" />
+
+    <meta name="google-site-verification" content="Lv8Oa-6oMs1EBopMauvTETMnI57JKCkgN7D2A6LTzSI" />
+    <script src="https://assets.adobedtm.com/7390c55bcb09/98f5f2d00997/launch-54a5def2157e.min.js" async></script>
+            <script>var lolData = { 'visitor': { 'state': 'unauthenticated' } }</script>
+</head>
+<body>
+    <a b-5z3ph8uevr href="#main-content" class="skip-main">Skip Navigation</a>
+    <div data-dtmdetail="pineapple-upside-down-cake"data-dtmisproduction="true"data-dtmlevel1="Our-Recipes" data-dtmlevel2="Recipe" data-dtmtype="Our-Recipes-Recipe" data-dtmserver="lolr prod" data-dtmPublished="202208" data-dtmAge="42" data-dtmlevel="2" class="kentico-data"></div>
+    <div b-5z3ph8uevr id="wrapper">
+        
+
+        <div b-5z3ph8uevr class="searchLoader2 mainLoader text-center" style="display: none">
+            <div b-5z3ph8uevr class="rippleLoad">
+                <div b-5z3ph8uevr></div>
+                <div b-5z3ph8uevr></div>
+            </div>
+            <img class="Not-IE-Loading" alt="Loading..." src="/Content/Images/LOLRetail/loading-image.svg" />
+        </div>
+        <section b-5z3ph8uevr class="globalSearchForm" aria-label="Global Search">
+            <div b-5z3ph8uevr class="innerGlobalSrch">
+                <a b-5z3ph8uevr href="javascript:void(0);"
+                   id="btn-search-close"
+                   class="btn srch-btns btn--search-close"
+                   aria-label="Close search form">
+                    <div b-5z3ph8uevr class="lolr lolr-close">
+                        <span b-5z3ph8uevr class="sr-only">Close</span>
+                    </div>
+                </a>
+
+                <div b-5z3ph8uevr class="search__form">
+                    <span b-5z3ph8uevr class="search__info">
+                        Search recipes, ingredients, articles, products...
+                    </span>
+
+                    <a b-5z3ph8uevr href="javascript:void(0);" aria-label="Search">
+                        <div b-5z3ph8uevr class="lolr lolr-lg lolr-search lolr-searchIcon"
+                             style="display: none"
+                             aria-hidden="true">
+                            <span b-5z3ph8uevr class="sr-only">Search</span>
+                        </div>
+                        <div b-5z3ph8uevr class="lolr-voiceIcon" aria-hidden="true">
+                            <picture b-5z3ph8uevr>
+                                <source b-5z3ph8uevr type="image/webp"
+                                        srcset="/Content/Images/LOLRetail/mic-r.webp" />
+                                <source b-5z3ph8uevr type="image/png" src="/Content/Images/LOLRetail/mic-r.png" />
+                                <img b-5z3ph8uevr class="animated searchMicImg" id="searchMicImg"
+                                     src="/Content/Images/LOLRetail/mic-r.png"
+                                     alt="microphone" />
+                            </picture>
+                        </div>
+                    </a>
+                    <input b-5z3ph8uevr class="search__input voiceSearchInput"
+                           id="searchInput"
+                           name="search"
+                           type="search"
+                           placeholder="Start Your Search"
+                           autocomplete="off"
+                           autocorrect="off"
+                           autocapitalize="off"
+                           spellcheck="false" />
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8I_oKBkCMzNPiIcN03CaaV-MjCYhapE7ynaAO67vRV8bMhxDBvpqg3jjn4qdULOwd1w4roK4Mrk-ws6SN60rXCZdvJXTYy0fQn9nTZWojFCdh-YE2o_02MtbjfNGEfOLct9hKgpHfNn-kYrgqcrbjYQ" />
+                    <label b-5z3ph8uevr class="sr-only" for="searchInput">Search</label>
+                    <input b-5z3ph8uevr class="sr-only" type="submit" value="search" />
+                    <span b-5z3ph8uevr class="bottom-border"></span>
+                </div>
+                <!-- // .search__form -->
+            </div>
+            <!-- // .innerGlobalSrch -->
+        </section>
+        <!-- // .globalSearchForm -->
+        <header role="banner">
+            <div b-5z3ph8uevr class="greyTop-strip show-for-large">
+                
+
+<div class="row clearfix"
+     data-closing-time="0"
+     data-responsive-menu="accordion">
+    <ul class="vertical medium-horizontal menu grid-x" role="menu" aria-label="Navigation Menu">
+                <li  class="stripLink cell auto" role="menuitem">
+                        <a href="/where-to-buy/"
+                           aria-label="Where to Buy "
+                           role="menuitem"
+                           class="whereToBuyLink">
+                            <div class="iconsize lolr">
+                                <span class="lolr-map-pin">&nbsp;</span>
+                                <span class="sr-only">Where to Buy  in Header</span>
+                            </div>
+                            <span>Where to Buy </span>
+                        </a>
+                </li>
+                <li  class="stripLink has-submenu cell auto" role="menuitem">
+                        <a href="/contact-us/"
+                           aria-label="Let Us Help"
+                           class="whereToBuyLink letushelp">
+                            <div class="iconsize lolr">
+                                <span class="lolr-service-chat">&nbsp;</span>
+                                <span class="sr-only">Let Us Help in Header</span>
+                            </div>
+                            <span>Let Us Help</span>
+                        </a>
+                            <ul role="menu" aria-label="Navigation subMenu">
+                                    <li  role="menuitem">
+                                        <a href="/contact-us/"
+                                           aria-label="Contact Us"
+                                           role="menuitem"
+                                           class="contactus new_menu">
+                                            <span class="sr-only">Contact Us in Header</span>Contact Us
+                                        </a>
+                                    </li>
+                                    <li  role="menuitem">
+                                        <a href="/faqs/product-faqs/"
+                                           aria-label="FAQs"
+                                           role="menuitem"
+                                           class="faqs new_menu">
+                                            <span class="sr-only">FAQs in Header</span>FAQs
+                                        </a>
+                                    </li>
+                            </ul>
+                </li>
+                <li  class="stripLink cell auto" role="menuitem">
+                        <a href="/newsletter-sign-up/"
+                           aria-label="Newsletter"
+                           role="menuitem"
+                           class="whereToBuyLink">
+                            <div class="iconsize lolr">
+                                <span class="lolr-envelope">&nbsp;</span>
+                                <span class="sr-only">Newsletter in Header</span>
+                            </div>
+                            <span>Newsletter</span>
+                        </a>
+                </li>
+    </ul>
+</div>
+
+            </div>
+            <nav b-5z3ph8uevr aria-labelledby="main-menu">
+                <div b-5z3ph8uevr class="row clearfix">
+                    
+
+<div class="logo">
+    <a href="/" title="Land O'Lakes Logo">
+        <img src="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/logos/landolakes-logo-watermark-red.svg"
+             alt="Land O&#x27;Lakes Logo" width="300" height="65" fetchpriority="high" loading="eager" decoding="async" />
+    </a>
+</div>
+
+
+
+                    <span b-5z3ph8uevr class="title-bar menuToggle hide-for-large"
+                          data-hide-for="large"
+                          data-responsive-toggle="main-menu">
+                        <button b-5z3ph8uevr class="burgerIcon" data-toggle="" type="button" aria-label="Toggle menu">
+                            <span b-5z3ph8uevr>&nbsp;</span><span b-5z3ph8uevr>&nbsp;</span><span b-5z3ph8uevr>&nbsp;</span>
+                        </button>
+                    </span>
+                    <span b-5z3ph8uevr class="hide-for-large searchMobilelink">
+                        <a b-5z3ph8uevr href="javascript:void(0);"
+                           class="btn srch-btns btn_mob_search btn--search">
+                            <div b-5z3ph8uevr class="iconsize lolr">
+                                <span b-5z3ph8uevr class="lolr-search"></span><span b-5z3ph8uevr class="sr-only">close</span>
+                            </div>
+                        </a>
+                    </span>
+                    
+
+
+
+<div data-close-on-click="true"
+     data-responsive-menu="accordion"
+     id="main-menu">
+    <ul class="menu navigation align-right" role="menu" aria-label="Navigation Menu">
+            <li 
+            class="menu-item-our-recipes has-submenu"
+                role="menuitem"
+            data-name="Our Recipes">
+                <a href="/our-recipes/" aria-label=" Our Recipes"
+                   role="menuitem"> Our Recipes </a>
+                    <ul role="menu" aria-label="Navigation subMenu">
+                        <li  role="menuitem">
+                            <div class="clearfix containerWidth">
+                                <ul class="menu" role="submenu" aria-label="Navigation subMenu">
+                                            <li  class="submenu-all-recipes" role="menuitem">
+                                                <a href="/recipes/" aria-label="All Recipes"
+                                                   role="menuitem">All Recipes </a>
+                                            </li>
+                                            <li  class="submenu-breakfast" role="menuitem">
+                                                <a href="/recipes/?&amp;mealFilter=Breakfast and Brunch" aria-label="Breakfast"
+                                                   role="menuitem">Breakfast </a>
+                                            </li>
+                                            <li  class="submenu-lunch" role="menuitem">
+                                                <a href="/recipes/?&amp;mealFilter=Lunch" aria-label=" Lunch"
+                                                   role="menuitem"> Lunch </a>
+                                            </li>
+                                            <li  class="submenu-dinner" role="menuitem">
+                                                <a href="/recipes/?&amp;mealFilter=Main%20Course" aria-label="Dinner"
+                                                   role="menuitem">Dinner </a>
+                                            </li>
+                                            <li  class="submenu-desserts-sweets" role="menuitem">
+                                                <a href="/recipes/?&amp;mealFilter=Dessert" aria-label="Desserts &#x2B; Sweets"
+                                                   role="menuitem">Desserts &#x2B; Sweets </a>
+                                            </li>
+                                            <li  class="submenu-recipe-collections" role="menuitem">
+                                                <a href="/recipes/collections/" aria-label="All Recipe Collections"
+                                                   role="menuitem">All Recipe Collections </a>
+                                            </li>
+                                            <li  class="submenu-seasonal-recipes" role="menuitem">
+                                                <a href="https://www.landolakes.com/recipes/collections/valentines-day-dinners/?icid=2826-dr-sn-cr-vdd" aria-label="Valentine&#x27;s Day Dinners"
+                                                   role="menuitem">Valentine&#x27;s Day Dinners </a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+            </li>
+            <li 
+            class="menu-item-expert-advice has-submenu "
+                role="menuitem"
+            data-name="Expert Advice">
+                <a href="/expert-advice/" aria-label=" Expert Advice"
+                   role="menuitem"> Expert Advice </a>
+                    <ul role="menu" aria-label="Navigation subMenu">
+                        <li  role="menuitem">
+                            <div class="clearfix containerWidth">
+                                <ul class="menu" role="submenu" aria-label="Navigation subMenu">
+                                            <li  class="submenu-articles" role="menuitem">
+                                                <a href="/expert-advice" aria-label=" Articles"
+                                                   role="menuitem"> Articles </a>
+                                            </li>
+                                            <li  class="submenu-kitchen-reference" role="menuitem">
+                                                <a href="/kitchen-reference/ingredients-substitutions/" aria-label=" Kitchen Reference"
+                                                   role="menuitem"> Kitchen Reference </a>
+                                            </li>
+                                            <li  class="submenu-our-experts" role="menuitem">
+                                                <a href="/expert-advice/our-experts/" aria-label="Our Experts"
+                                                   role="menuitem">Our Experts </a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+            </li>
+            <li 
+            class="menu-item-what-we-make has-submenu"
+                role="menuitem"
+            data-name="Our Products">
+                <a href="/our-products/" aria-label=" Our Products"
+                   role="menuitem"> Our Products </a>
+                    <ul role="menu" aria-label="Navigation subMenu">
+                        <li  role="menuitem">
+                            <div class="clearfix containerWidth">
+                                <ul class="menu" role="submenu" aria-label="Navigation subMenu">
+                                            <li class="submenu-butter-and-spreads withIconMenu" role="menuitem">
+                                                <a href="/products/butter-spreads/" aria-label="Butter and Spreads"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-bread-butter">
+                                                        &nbsp; <span class="sr-only">Butter and Spreads</span>
+                                                    </div>
+                                                    <span>Butter and Spreads</span>
+                                                </a>
+                                            </li>
+                                            <li class="submenu-margarine withIconMenu" role="menuitem">
+                                                <a href="/products/margarine/" aria-label="Margarine"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-tub">
+                                                        &nbsp; <span class="sr-only">Margarine</span>
+                                                    </div>
+                                                    <span>Margarine</span>
+                                                </a>
+                                            </li>
+                                            <li class="submenu-plant-based withIconMenu" role="menuitem">
+                                                <a href="/products/plant-based/" aria-label="Plant-Based"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-leaf">
+                                                        &nbsp; <span class="sr-only">Plant-Based</span>
+                                                    </div>
+                                                    <span>Plant-Based</span>
+                                                </a>
+                                            </li>
+                                            <li class="submenu-cheese withIconMenu" role="menuitem">
+                                                <a href="/products/cheese/" aria-label="Cheese"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-cheese">
+                                                        &nbsp; <span class="sr-only">Cheese</span>
+                                                    </div>
+                                                    <span>Cheese</span>
+                                                </a>
+                                            </li>
+                                            <li class="submenu-eggs withIconMenu" role="menuitem">
+                                                <a href="/products/eggs/" aria-label="Eggs"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-eggs">
+                                                        &nbsp; <span class="sr-only">Eggs</span>
+                                                    </div>
+                                                    <span>Eggs</span>
+                                                </a>
+                                            </li>
+                                            <li class="submenu-whipping-cream-and-half-half withIconMenu" role="menuitem">
+                                                <a href="/products/whipping-cream-and-half-half/" aria-label="Whipping Cream  and Half &amp; Half"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-carton">
+                                                        &nbsp; <span class="sr-only">Whipping Cream  and Half &amp; Half</span>
+                                                    </div>
+                                                    <span>Whipping Cream  and Half &amp; Half</span>
+                                                </a>
+                                            </li>
+                                            <li class="submenu-all-products withIconMenu" role="menuitem">
+                                                <a href="/products/" aria-label="All Products"
+                                                   role="menuitem">
+                                                    <div class="lolr lolr-3x lolr-line-all-menu">
+                                                        &nbsp; <span class="sr-only">All Products</span>
+                                                    </div>
+                                                    <span>All Products</span>
+                                                </a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+            </li>
+            <li 
+            class="menu-item-who-we-are has-submenu"
+                role="menuitem"
+            data-name="Who We Are">
+                <a href="/who-we-are/" aria-label=" Who We Are"
+                   role="menuitem"> Who We Are </a>
+                    <ul role="menu" aria-label="Navigation subMenu">
+                        <li  role="menuitem">
+                            <div class="clearfix containerWidth">
+                                <ul class="menu" role="submenu" aria-label="Navigation subMenu">
+                                            <li  class="submenu-our-farmers" role="menuitem">
+                                                <a href="/our-farmer-owners/" aria-label="Our Farmer-Owners"
+                                                   role="menuitem">Our Farmer-Owners </a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+            </li>
+            <li 
+            class="menu-item-all-things-dairy"
+                role="menuitem"
+            data-name="All Things Dairy">
+                <a href="/all-things-dairy/" aria-label=" All Things Dairy"
+                   role="menuitem"> All Things Dairy </a>
+            </li>
+        <li class="searchNav show-for-large" role="menuitem" aria-label="Main Navigation">
+            <a href="javascript:void(0);"
+               title="Search Land O'Lakes"
+               class="btn srch-btns btn__search btn--search">
+                <div class="iconsize lolr">
+                    <span class="lolr-search"></span><span class="sr-only">Search</span>
+                </div>
+            </a>
+        </li>
+        
+    <li aria-selected="false" class="stripLink " data-name="Where to Buy ">
+        <a href="/where-to-buy/" class="whereToBuyLink wheretobuy">
+            <div class="iconsize lolr">
+                <span class="lolr-map-pin"></span><span class="sr-only">Where to Buy </span>
+            </div>
+            <span>Where to Buy </span>
+        </a>
+    </li>
+    <li aria-selected="false" class="stripLink has-submenu" data-name="Let Us Help">
+        <a href="/let-us-help/" class="whereToBuyLink letushelp">
+            <div class="iconsize lolr">
+                <span class="lolr-service-chat"></span><span class="sr-only">Let Us Help</span>
+            </div>
+            <span>Let Us Help</span>
+        </a>
+            <ul>
+                    <li aria-selected="false">
+                        <a href="/contact-us/" class="contactus">Contact Us</a>
+                    </li>
+                    <li aria-selected="false">
+                        <a href="/faqs/product-faqs/" class="faqs">FAQs</a>
+                    </li>
+            </ul>
+    </li>
+    <li aria-selected="false" class="stripLink " data-name="Newsletter">
+        <a href="/newsletter-sign-up/" class="whereToBuyLink newsletter">
+            <div class="iconsize lolr">
+                <span class="lolr-envelope"></span><span class="sr-only">Newsletter</span>
+            </div>
+            <span>Newsletter</span>
+        </a>
+    </li>
+
+    </ul>
+</div>
+
+
+
+
+                </div>
+            </nav>
+        </header>
+
+        <!-- Container -->
+        <main b-5z3ph8uevr class="fadeIn animated" id="main-content">
+            <input b-5z3ph8uevr id="nodeAias" type="hidden" />
+            
+<script async src="https://apps.bazaarvoice.com/deployments/landolakes/main_site/production/en_US/bv.js"></script>
+    <input type="hidden" id="txtRecaptchaKey" value="6LcEkC4UAAAAAEKa4fIe-YURA9NHJo_-s1KS_hOn" />
+    <div class="recipeStickyMenu">
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="cell small-8">
+                    <div class="recipe-title">Pineapple Upside-Down Cake</div>
+                </div>
+                <div class="cell small-4 text-right">
+                    <span class="buttonRecipeBookmarkSticky">
+                        <a href="javascript:void(0)" class="lolr lolr-print recipePrintBtn " tabindex="-1">&nbsp;</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container print-container">
+        <div class="grid-x grid-padding-x">
+            <div class="medium-12 cell">
+                <ul class="breadcrumb">
+                                <li>
+                                    <a href="https://www.landolakes.com/recipes">
+                                        <span class="lolr lolr-angle-right"></span>
+                                        <span>recipes</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.landolakes.com/recipes/ingredient/fruit">
+                                        <span class="lolr lolr-angle-right"></span>
+                                        <span>FRUIT</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.landolakes.com/recipes/ingredient/fruit/pineapple">
+                                        <span class="lolr lolr-angle-right"></span>
+                                        <span>PINEAPPLE</span>
+                                    </a>
+                                </li>
+                    
+                </ul>
+            </div>  
+        </div>
+        <div class="recipeInfo grid-x grid-padding-x small-collapse">
+            <div class="cell medium-4 large-5 heroImagePrnt">
+                <div class="relative">
+                    <picture>
+                        <source type="image/webp"
+                                srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/webp/may/2018_pineapple-upside-down-cake_5308-600.webp" width="400" height="400" />
+                        <source type="image/jpg"
+                                src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg" width="400" height="400" />
+                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg"
+                             alt="Pineapple Upside-Down Cake" width="400" height="400" fetchpriority="high" />
+                    </picture>
+                    <div class="text-center medium-text-left social-row columns">
+                        <div class="socialIcons">
+                            <div class="followUS">
+                                <div class="followLink">
+                                            <a href="javascript:void(0)" id="social-pinterest-link-recipe" data-label="Pinterest" aria-label="External - Pinterest" data-title="Pinterest" class="lolr lolr-social-pinterest printR" tabindex="-1">Pinterest</a>
+        <a href="javascript:void(0)" id="social-facebook-link-recipe" data-label="Facebook" aria-label="External - Facebook" data-title="Facebook" class="fb lolr lolr-social-facebook" tabindex="-1">Facebook</a>
+        <a href="javascript:void(0)" id="recipe-email" data-label="Email Share" aria-label="External - Email Share" data-title="Email Share" class="lolr lolr-envelope ig" tabindex="-1">Email Share</a>
+
+                                    <a href="javascript:void(0)" class="printIcon lolr lolr-print recipePrintBtn show-for-small-only">&nbsp;</a>
+                                    <!-- class=printPage-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Socail Icon end-->
+                </div>
+            </div>
+            <div class="cell medium-8 large-7 heroContPrnt commonArea grid-y">
+                <div class="flex-child-auto">
+                    <h1 itemprop="name">Pineapple Upside-Down Cake
+                    </h1>
+                    <p itemprop="description">
+Butter and brown sugar topped with pineapple and maraschino cherries form the decadent topping on this classic pineapple upside-down cake.                    </p>
+                    <!-- Link to Related Article -->
+                    <div class="grid-x align-middle grid-padding-x">
+                        
+<div class="cell shrink" data-bv-show="rating_summary" data-bv-product-id="8989"></div>
+                        <a href="javascript:void(0)" class="cell auto inlineBtn recipePrintBtn hide-for-small-only" tabindex="-1"><span class="printIcon lolr lolr-print lolr-4x" aria-hidden="true">&nbsp;</span>Print</a>
+                    </div>
+                    <div class="text-center grid-x isChicoryBtn">
+                        <div>
+                            <span class="grid_8"><button class="button blueBtn ingredientsBtn" tabindex="-1"><span class="lolr-cart lolr"></span> Get Ingredients</button></span><br />
+                            <div class="approvedBtn whatsThis">
+                                <span class="lolr-tip-circle lolr"></span><span>What's this?</span>
+                                <div class="tootipBox text-center">
+                                    <h4>What is this button?</h4>
+                                    <p>You now are able to shop &amp; buy these ingredients online! After you select your market, you decide if you want to have your items delivered or picked up today! </p>
+                                    <p><strong><a class="link" href="/shoppable-recipes-explained/">Learn How it Works...</a></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="RecipeID" value="0" />
+                </div>
+                <div class="recipeServing text-center grid-x flex-child-shrink collapse">
+                    <div class="cell small-6 medium-4">
+                        <span class="lolr lolr-whisk"></span>
+                        <div class="servingTime">
+                            <div class="time">30 <span>min</span></div>
+                            <meta itemprop="prepTime" content="PT'0'H'30'M">
+                            <span>Prep Time</span>
+                        </div>
+                    </div>
+                    <div class="cell small-6 medium-4">
+                        <span class="lolr lolr-timer"></span>
+                        <div class="servingTime">
+                            <div class="time">
+                                2 <span>hrs</span>
+                            </div>
+                            <meta itemprop="totalTime" content="PT'2'H'0'M">
+                            <span>Total Time</span>
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-4">
+                        <span class="lolr lolr-servings"></span>
+                        <div class="servingTime" itemprop="recipeYield">
+<div class="time">12 </div><span>servings</span>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="email-panel" style="display:none">
+    <div class="FormPanel">
+        <span id="thankyouMsg" style="font:bold 16px;display:none">Thank You</span>
+        <form action="/recipes/" method="post" data-ajax="true" data-ajax-method="POST" data-ajax-failure="OnFailure" data-ajax-success="OnSuccess" id="FormId" class="form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8I_oKBkCMzNPiIcN03CaaV-MjCYhapE7ynaAO67vRV8bMhxDBvpqg3jjn4qdULOwd1w4roK4Mrk-ws6SN60rXCZdvJXTYy0fQn9nTZWojFCdh-YE2o_02MtbjfNGEfOLct9hKgpHfNn-kYrgqcrbjYQ" />
+            <span id="globalError" class="EditingFormErrorLabel" style="display:none">The entered values cannot be saved. Please see the fields below for details.</span>
+             <input type="hidden" id="Role" name="Role" runat="server" data-val="true" data-val-length="The field Role must be a string with a maximum length of 200." data-val-length-max="200" value="" />
+            <div class="recipeShareForm" id="recipe-email-form">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-5 text-left">
+                        <label class="EditingFormLabel" for="firstName">Your Name</label><span style="color:red"><sup>*</sup></span>
+                    </div>
+                    <div class="cell small-12 medium-7" id="SenderName">
+                        <input type="text" maxlength="60" id="firstName" class="form-control" name="FirstName" value="" />
+                        <span id="nameError" class="EditingFormErrorLabel" style="display:none">Please enter Your Name.</span>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-5 text-left">
+                        <label class="EditingFormLabel" for="fromEmail">Your Email</label><span style="color:red"><sup>*</sup></span>
+                    </div>
+
+                    <div class="cell small-12 medium-7" id="FromEmail">
+                        <input type="text" maxlength="60" id="fromEmail" class="form-control" data-val="true" data-val-required="The Email field is required." name="Email" value="" />
+                        <span id="emailError" class="EditingFormErrorLabel" style="display:none">Please enter valid email id.</span>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-5 text-left">
+                        <label class="EditingFormLabel" for="toEmail">Your Friend&#x27;s Email</label><span style="color:red"><sup>*</sup></span>
+                    </div>
+
+                    <div class="cell small-12 medium-7" id="ToEmail">
+                        <input type="text" maxlength="60" id="toEmail" class="form-control" data-val="true" data-val-required="The FriendEmail field is required." name="FriendEmail" value="" />
+                        <span id="friendEmailError" class="EditingFormErrorLabel" style="display:none">Please enter valid email id.</span>
+                    </div>
+                </div>
+                <div class="">
+                  <div id="ReCaptchContainer"></div>
+                  <span class="EditingFormErrorLabel" id="lblMessage" runat="server" clientidmode="static"></span> 
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-12 text-left" id="PageName">
+                        <label id="" class="sr-only" for="">Page Name</label>
+                        <div id="" class="EditingFormControlNestedControl editing-form-control-nested-control">
+                            <input type="hidden" maxlength="500" id="PageName" class="form-control txtRecipeName" data-val="true" data-val-length="The field PageName must be a string with a maximum length of 200." data-val-length-max="200" name="PageName" value="" />
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-12 text-left" id="PageUrl">
+                        <label id="" class="sr-only" for="">Page Url</label>
+                        <div id="" class="EditingFormControlNestedControl editing-form-control-nested-control">
+                            <input type="hidden" maxlength="500" id="PageUrl" class="form-control txtRecipeUrl" data-val="true" data-val-length="The field PageUrl must be a string with a maximum length of 200." data-val-length-max="200" name="PageUrl" value="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-x">
+                    <div class="cell text-left"><span id="email-message">&nbsp;</span></div>
+                </div>
+            </div>
+            <input type="submit" name="btnOK" value="Submit" id="btnSubmit" class="FormButton btn btn-primary" />
+        </form>
+    </div>
+</div>
+<script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit" async defer></script>
+<script type="text/javascript">
+    function OnFailure(response) {
+        console.log("Error occured.");
+    }
+    function OnSuccess(response) {
+        $("#FormId").hide();
+        $("#thankyouMsg").show();
+        console.log("success");
+    }
+</script>
+        <div class="reveal printModal" id="printPageModal" data-reveal>
+            <div class="printModalContent" id="printModalContent">
+            </div>
+            <div id="recipePrintContent"></div>
+        </div>
+    </div>
+    <div class="recipeContent recipeContentPrint">
+        <div class="grid-x grid-container grid-padding-x">
+            <div class="cell">
+                <div class="recipes-cook-mode">
+                    <h5 class="get-started-text">Get started!</h5>
+                    <label class="checkSwitch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <span class="checkSlider round"></span>
+                        <span>Keep screen on.</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-container medium-up-2 grid-padding-x">
+            <div class="cell">
+                <div>
+                <h2>Ingredients</h2>
+                            <p class="groupTitle">Topping</p>
+                        <p>
+<sup class = 'bold-font'>1</sup><span class='bar bold-font'>/</span><sub class = 'bold-font'>3</sub>
+                                <strong>cup </strong>
+                                <a name="00034500151368" href="/products/butter-spreads/salted-butter/"> Land O Lakes&#xAE; Butter</a>                        </p>
+                        <p>
+<sup class = 'bold-font'>3</sup><span class='bar bold-font'>/</span><sub class = 'bold-font'>4</sub>
+                                <strong>cup </strong>
+firmly packed brown sugar                        </p>
+                        <p>
+                                        <strong>12</strong>
+
+                                <strong>slices </strong>
+pineapple,                                     <a href="#substitution" class="lolr-swap-circle lolr internallink" tabindex="-1">&nbsp;</a>
+well drained                        </p>
+                        <p>
+                                        <strong>1</strong>
+
+                                <strong>(10-ounce) </strong>
+                                <strong>jar </strong>
+maraschino cherries, stems removed                        </p>
+                            <p class="groupTitle">Cake</p>
+                        <p>
+                                        <strong>2</strong>
+
+                                <strong>cups </strong>
+all-purpose flour                        </p>
+                        <p>
+                                        <strong>1</strong>
+
+                                <strong>tablespoon </strong>
+baking powder                        </p>
+                        <p>
+<sup class = 'bold-font'>1</sup><span class='bar bold-font'>/</span><sub class = 'bold-font'>4</sub>
+                                <strong>teaspoon </strong>
+salt                        </p>
+                        <p>
+                                        <strong>1</strong>
+
+                                <strong>cup </strong>
+firmly packed brown sugar                        </p>
+                        <p>
+<sup class = 'bold-font'>2</sup><span class='bar bold-font'>/</span><sub class = 'bold-font'>3</sub>
+                                <strong>cup </strong>
+                                <a name="00034500151368" href="/products/butter-spreads/salted-butter/"> Land O Lakes&#xAE; Butter</a>, softened                        </p>
+                        <p>
+                                        <strong>3</strong>
+
+                                <a name="brown-eggs" href="/products/eggs/brown-eggs/"> large Land O Lakes&#xAE; Eggs</a>                        </p>
+                        <p>
+2 <sup class = 'bold-font'>1</sup><span class='bar bold-font'>/</span><sub class = 'bold-font'>2</sub>
+                                <strong>teaspoons </strong>
+vanilla extract                        </p>
+                        <p>
+<sup class = 'bold-font'>3</sup><span class='bar bold-font'>/</span><sub class = 'bold-font'>4</sub>
+                                <strong>cup </strong>
+milk                        </p>
+                        <p><a name="substitution" id="substitution" class="lolr-swap-circle lolr">&nbsp;</a>*Substitute 1 (16-ounce) can peach or pear slices, well drained.</p>
+                </div>
+                <div class="chicory-bottom-wrapper">
+                    <button class="button blueBtn ingredientsBtn" tabindex="-1"><i class="lolr-cart lolr" aria-hidden="true"></i> <span class="ingredients-btn-text">Get Ingredients</span></button>
+                </div>
+                <div class="chicory-order-ingredients"></div>
+            </div>
+            <div class="cell">
+                    <h2>How to make</h2>
+                    <div class="howMake">
+                        <ol>
+                                <li>
+                                    <p>STEP <span>1</span></p>
+                                    <p>Heat oven to 350&deg;F. </p>
+                                </li>
+                                <li>
+                                    <p>STEP <span>2</span></p>
+                                    <p>Melt 1/3 cup butter in 13x9-inch ungreased baking pan in oven. Stir in 3/4 cup brown sugar. Spread mixture evenly in pan.</p>
+                                        <div class="videoTips">
+                                            <p>
+                                                <span class="lolr lolr-tip-circle lolr-4x" aria-hidden="true" tabindex="-1"></span> <span class="red">Tip:</span>
+                                                    <a href="javascript:void(0);">Making Caramel</a>
+                                                <span class="collapseIcon lolr-angle-right lolr"></span>
+                                            </p>
+                                                <div class="callout">
+                                                    <div class="text-center">
+                                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/x17/1997/may/2018_pineapple-upside-down-cake_5308_step2_making-caramel.jpg?ext=.jpg" alt="Making Caramel" />
+                                                    </div>
+                                                </div>
+                                        </div>
+                                </li>
+                                <li>
+                                    <p>STEP <span>3</span></p>
+                                    <p>Arrange 12 pineapple slices on top. Place cherry in center and between each pineapple slice, if desired.</p>
+                                        <div class="videoTips">
+                                            <p>
+                                                <span class="lolr lolr-tip-circle lolr-4x" aria-hidden="true" tabindex="-1"></span> <span class="red">Tip:</span>
+                                                    <a href="javascript:void(0);">Arranging Pineapple &amp; Cherries</a>
+                                                <span class="collapseIcon lolr-angle-right lolr"></span>
+                                            </p>
+                                                <div class="callout">
+                                                    <div class="text-center">
+                                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/x17/1997/may/2018_pineapple-upside-down-cake_5308_step3_pineapples.jpg?ext=.jpg" alt="Arranging Pineapple &amp; Cherries" />
+                                                    </div>
+                                                </div>
+                                        </div>
+                                </li>
+                                <li>
+                                    <p>STEP <span>4</span></p>
+                                    <p>Combine flour, baking powder and salt in bowl; set aside.&nbsp;</p>
+                                </li>
+                                <li>
+                                    <p>STEP <span>5</span></p>
+                                    <p>Combine 1 cup brown sugar and 2/3 cup butter in bowl; beat at medium speed, scraping bowl often, until creamy. Continue beating, adding&nbsp;<em>1</em>&nbsp;egg at a time, until well mixed. Stir in vanilla.&nbsp;Gradually add flour mixture alternately with milk, beating at low speed and scraping bowl often after each addition.</p>
+                                        <div class="videoTips">
+                                            <p>
+                                                <span class="lolr lolr-tip-circle lolr-4x" aria-hidden="true" tabindex="-1"></span> <span class="red">Tip:</span>
+                                                    <a href="javascript:void(0);">Mixing Batter</a>
+                                                <span class="collapseIcon lolr-angle-right lolr"></span>
+                                            </p>
+                                                <div class="callout">
+                                                    <div class="text-center">
+                                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/x17/1997/may/2018_pineapple-upside-down-cake_5308_steps_mixing-batter.jpg?ext=.jpg" alt="Mixing Batter" />
+                                                    </div>
+                                                </div>
+                                        </div>
+                                </li>
+                                <li>
+                                    <p>STEP <span>6</span></p>
+                                    <p>Gently spread batter over pineapple. Bake 35-40 minutes or until toothpick inserted in center comes out clean. Loosen sides of cake from pan by running knife around inside of pan. Invert cake onto serving platter; let stand 5 minutes. Remove pan. Cool completely.</p>
+                                        <div class="videoTips">
+                                            <p>
+                                                <span class="lolr lolr-tip-circle lolr-4x" aria-hidden="true" tabindex="-1"></span> <span class="red">Tip:</span>
+                                                    <a href="javascript:void(0);">Spreading Batter</a>
+                                                <span class="collapseIcon lolr-angle-right lolr"></span>
+                                            </p>
+                                                <div class="callout">
+                                                    <div class="text-center">
+                                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/x17/1997/may/2018_pineapple-upside-down-cake_5308_steps_pouring-batter.jpg?ext=.jpg" alt="Spreading Batter" />
+                                                    </div>
+                                                </div>
+                                        </div>
+                                </li>
+
+                        </ol>
+                        
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container commonArea">
+        <div class="recipeVariants recipeTips grid-margin-x grid-x small-up-12 medium-up-12 text-center">
+        </div>
+        <div class="recipeTips grid-x align-center small-up-1 medium-up-2 grid-margin-x text-center">
+        </div>
+          <div class="recipeNutrition text-center" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+               <div class="toggle" data-toggle="nutrition">
+                <button type="button" >Nutrition (1 serving) <span class="lolr lolr-angle-right lolr-2x float-right">&nbsp;</span></button>
+               </div>
+            <div class="grid-x is-hidden" id="nutrition">
+                <div itemprop="calories">450 <span>Calories</span></div>
+                <div itemprop="fatContent">17 <span>Fat (g)</span></div>
+                <div itemprop="cholesterolContent">90 <span>Cholesterol (mg)</span></div>
+                <div itemprop="sodiumContent">340 <span>Sodium (mg)</span></div>
+                <div itemprop="carbohydrateContent">70 <span>Carbohydrates (g)</span></div>
+                <div itemprop="fiberContent">2 <span>Dietary Fiber</span></div>
+                <div itemprop="proteinContent">4 <span>Protein (g)</span></div>
+            </div>
+          </div>
+        <div class="recipeReviews" id="reviewsSection">
+            <div class="flexibleMessage text-center">
+                Tried this recipe? Instagram it!<br />
+                And don&#39;t forget to tag us <a href="https://www.instagram.com/landolakesktchn/" target="_blank" title="" rel="noopener">@landolakesktchn</a>.
+            </div><div class="bv-writeReview-alt writeReview clearfix"></div>
+            
+<div class="bazaarVoiceRecipeReviews" data-bv-show="reviews" data-bv-product-id="8989"></div>
+        </div>
+        <div class="allThingsButter withList">
+            <div class="useableSection">
+                <div class="text-center">
+                    <h3 class="l-title">More Recipes To Make</h3>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+                        <div class="cell">
+                            <figure>
+                                <a href="/recipe/8255/kale-chips/">
+                                    <picture class="lazy-img">
+                                        <source srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/2013/webp/may/16110.webp" type="image/webp" width="400" height="400">
+                                        <source srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/2013/may/16110.jpg?ext=.jpg" type="image/jpg" width="400" height="400">
+                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/2013/may/16110.jpg?ext=.jpg" alt="Kale Chips" class="fadeIn" width="400" height="400" loading="lazy" />
+                                    </picture>
+                                    <figcaption class="relatedInfo">
+                                        <h5>Kale Chips</h5>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="cell">
+                            <figure>
+                                <a href="/recipe/8468/magic-coconut-custard-pie/">
+                                    <picture class="lazy-img">
+                                        <source srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/2010/webp/may/13011.webp" type="image/webp" width="400" height="400">
+                                        <source srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/2010/may/13011.jpg?ext=.jpg" type="image/jpg" width="400" height="400">
+                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/2010/may/13011.jpg?ext=.jpg" alt="Magic Coconut Custard Pie" class="fadeIn" width="400" height="400" loading="lazy" />
+                                    </picture>
+                                    <figcaption class="relatedInfo">
+                                        <h5>Magic Coconut Custard Pie</h5>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="cell">
+                            <figure>
+                                <a href="/recipe/9572/savory-breadsticks/">
+                                    <picture class="lazy-img">
+                                        <source srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1995/webp/may/7625.webp" type="image/webp" width="400" height="400">
+                                        <source srcset="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1995/may/7625.jpg" type="image/jpg" width="400" height="400">
+                                        <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1995/may/7625.jpg" alt="Savory Breadsticks" class="fadeIn" width="400" height="400" loading="lazy" />
+                                    </picture>
+                                    <figcaption class="relatedInfo">
+                                        <h5>Savory Breadsticks</h5>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+            </div>
+        </div>
+        <div class="featured-collection">
+                <h2>Featured In</h2>
+                <div class="relative">
+                    <picture>
+                        <source type="image/jpg"
+                                src="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/recipe-media-files/recipes/retail/desktopimages/20019_ginger_upside_down_cake.jpg?ext=.jpg" width="760" height="580" />
+                        <img src="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/recipe-media-files/recipes/retail/desktopimages/20019_ginger_upside_down_cake.jpg?ext=.jpg"
+                             alt="Upside-Down Cake Recipes" width="760" height="580" loading="lazy" />
+                    </picture>
+                    <span class="overlayIcon lolr lolr-line-collection" aria-hidden="true" tabindex="-1">&nbsp;</span>
+                    <div class="collection-content commonArea grid-x align-center-middle">
+                        <div>
+                            <h3>COLLECTION</h3>
+                            <h2>Upside-Down Cake Recipes</h2>
+                                <p>A classic recipe making a modern day comeback! Upside-down cakes are simple to make and delicious to eat, especially if you go beyond the traditional pineapple.&nbsp;</p>
+                            <a href="/recipes/collections/upside-down-cake-recipes/" class="button redBtn">See Recipes</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+
+    <style type="text/css">
+        #BVRRSearchContainer .bv-searchbar {
+            display: none !important;
+        }
+    </style>
+        </main>
+    </div>
+    <footer b-5z3ph8uevr class="footer">
+        <!-- Top -->
+        <section b-5z3ph8uevr class="top-row" aria-label="Footer Navigation">
+            <div b-5z3ph8uevr class="grid-x grid-container">
+                <div b-5z3ph8uevr class="cell small-12 followLink whiteIcon show-for-small-only">
+                    
+
+        <a class="fb lolr lolr-social-facebook" rel="noopener" href="https://www.facebook.com/LandOLakes" target="_blank" tabindex="-1">Facebook</a>
+        <a class="instagram lolr" rel="noopener" href="https://www.instagram.com/landolakesktchn/" target="_blank" tabindex="-1">Instagram</a>
+        <a class="tiktok lolr lolr-tiktok" rel="noopener" href="https://www.tiktok.com/@landolakesdairy " target="_blank" tabindex="-1">Tiktok</a>
+        <a class="pintR lolr lolr-social-pinterest" rel="noopener" href="https://www.pinterest.com/landolakesktchn/" target="_blank" tabindex="-1">Pinterest</a>
+        <a class="youtube lolr lolr-youtube" rel="noopener" href="https://www.youtube.com/user/LandOLakesKtchn " target="_blank" tabindex="-1">YouTube </a>
+
+                </div>
+
+                <div b-5z3ph8uevr class="cell small-12 medium-8 large-9">
+                    <nav b-5z3ph8uevr class="footer-nav" aria-label="Footer Nav">
+                                <a href="/where-to-buy/">Where to Buy </a>
+        <a href="/contact-us/">Let Us Help</a>
+          <a href="/recipes/categories/">Recipe Categories</a><br class="show-for-medium" />
+        <a href="/newsletter-sign-up/">Newsletter</a>
+
+                        <a b-5z3ph8uevr href="https://www.landolakesinc.com/"
+                           rel="noopener"
+                           target="_blank">Corporate</a>
+                        <a b-5z3ph8uevr href="https://www.landolakesfoodservice.com/"
+                           rel="noopener"
+                           target="_blank">Foodservice</a>
+                        <a b-5z3ph8uevr href="https://www.landolakesinc.com/Careers"
+                           rel="noopener"
+                           target="_blank">Careers</a>
+                    </nav>
+                </div>
+
+                <div b-5z3ph8uevr class="cell medium-4 large-3 hide-for-small-only">
+                    <div b-5z3ph8uevr class="followLink whiteIcon">
+                        
+
+        <a class="fb lolr lolr-social-facebook" rel="noopener" href="https://www.facebook.com/LandOLakes" target="_blank" tabindex="-1">Facebook</a>
+        <a class="instagram lolr" rel="noopener" href="https://www.instagram.com/landolakesktchn/" target="_blank" tabindex="-1">Instagram</a>
+        <a class="tiktok lolr lolr-tiktok" rel="noopener" href="https://www.tiktok.com/@landolakesdairy " target="_blank" tabindex="-1">Tiktok</a>
+        <a class="pintR lolr lolr-social-pinterest" rel="noopener" href="https://www.pinterest.com/landolakesktchn/" target="_blank" tabindex="-1">Pinterest</a>
+        <a class="youtube lolr lolr-youtube" rel="noopener" href="https://www.youtube.com/user/LandOLakesKtchn " target="_blank" tabindex="-1">YouTube </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- // .top-row --><!-- Bottom -->
+        <section b-5z3ph8uevr class="bottom-row" aria-label="Landolakes Privacy Notice">
+            
+
+<div class="grid-x grid-container grid-padding-x">
+    <div class="cell small-12 medium-1 text-center">
+        <picture class="lazy-img">
+            <source type="image/webp"
+                    srcset="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/logos/undeniably-dairy-logo-2x.webp"
+                    data-srcset="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/logos/undeniably-dairy-logo-2x.webp" width="160" height="160" />
+            <source type="image/png"
+                    srcset="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/logos/undeniably-dairy-logo-2x.png"
+                    data-srcset="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/logos/undeniably-dairy-logo-2x.png" width="160" height="160" />
+            <img class="undeniably-dairy imageArticle" src="/Content/Images/LOLRetail/transparent.png" data-src="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/logos/undeniably-dairy-logo-2x.webp" alt="undeniably-dairy-logo" loading="lazy" width="160" height="160" />
+        </picture>
+    </div>
+    <div class="cell small-12 medium-6 copyright-wrap">
+        <a href="https://www.landolakesinc.com"
+           target="_blank"
+           rel="noopener" aria-label="Land O'Lakes Inc">
+            <div class="footerLogo lolr lolr-inc-logo">
+                <span class="sr-only">Landolakes</span>
+            </div>
+        </a>
+        <div class="copyright">
+            &copy;2026 Land O&rsquo;Lakes, Inc. All rights reserved.
+        </div>
+        <a href="https://www.landolakesinc.com/privacy"
+           class="privacy-policy"
+           target="_blank"
+           rel="nofollow noopener">Legal | Privacy Policy</a>
+        <a href=" https://www.landolakesinc.com/terms-of-use"
+           class="privacy-policy terms_of_use"
+           target="_blank"
+           rel="nofollow noopener">| Terms of Use</a>
+    </div>
+
+    <div class="cell small-12 medium-5 legal-links-wrap">
+        <a href="https://www.landolakesinc.com/privacy-form"
+           target="_blank"
+           rel="nofollow noopener">Do Not Sell My Personal Information</a>
+        <a href="https://www.landolakesinc.com/california-supply-chains-act"
+           target="_blank"
+           rel="nofollow noopener">CA Transparency Act</a>
+    </div>
+</div>
+
+        </section>
+        <!-- // .bottom-row -->
+
+        
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8I_oKBkCMzNPiIcN03CaaV-MjCYhapE7ynaAO67vRV8bMhxDBvpqg3jjn4qdULOwd1w4roK4Mrk-ws6SN60rXCZdvJXTYy0fQn9nTZWojFCdh-YE2o_02MtbjfNGEfOLct9hKgpHfNn-kYrgqcrbjYQ" />    <div class="promoteSignUp">
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-4 hide-for-small-only promotebanner">
+                <picture class="picture-bgImage">
+                    <source srcset="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/homepage/images/newsletter-banner-latest.jpg" type="image/webp" />
+                    <source srcset="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/homepage/images/newsletter-banner-latest.jpg" type="image/jpg" />
+                    <img src="https://stordflolretailpd.blob.core.windows.net/df-us/lolretail/media/lolr-media/homepage/images/newsletter-banner-latest.jpg" alt="Looking for inspiration?" />
+                </picture>
+            </div>
+            <div class="cell small-12 medium-8">
+                <button type="button" class="openBtn" aria-label="Close"><span class="lolr"></span></button>
+                <h4>Looking for inspiration?</h4>
+                <p>Sign up for our newsletter today!</p>
+                <div class="grid-x grid-padding-x promoteForm sidePardotFormWrapper">
+                    <div class="inputboxM cell small-12 simple-email">
+                        <input name="mcBannerEmail" type="email" id="mcBannerEmail" aria-label="Enter Your Email" class="form-input" placeholder="Enter Your Email">
+                        <span class="field-error ErrorLabel">Please enter valid email.</span>
+                    </div>
+                    <div class="inputboxM cell small-6">
+                        <input name="mcBannerFirstName" type="text" id="mcBannerFirstName" aria-label="First Name" class="form-input" placeholder="First Name">
+                        <span class="field-error ErrorLabel">Please enter first name.</span>
+                    </div>
+                    <div class="inputboxM cell small-6">
+                        <input name="mcBannerLastName" type="text" id="mcBannerLastName" aria-label="Last Name" class="form-input" placeholder="Last Name">
+                        <span class="field-error ErrorLabel">Please enter last name.</span>
+                    </div>
+                    <div class="cell small-12 text-center end">
+                        <div class="button">
+                            <input type="submit" name="submit" value="Send" id="btnMCBannerSubmit" class="button redBtn salesforcebutton banner" />
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12">
+                    <div class="measuringCupThankYou" style="display:none">
+                        <h3>Thank you!!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loaderPromoteSignUp mainLoader text-center" style="display: none;">
+            <div class="rippleLoad">
+                <div></div>
+                <div></div>
+            </div>
+            <img class="Not-IE-Loading" alt="Loading..." src="https://storcpdkenticomedia.blob.core.windows.net/media/lolretail/media/lolr-media/assets/loading-image.svg">
+        </div>
+    </div>
+
+    </footer>
+
+    <!-- Master Build Js -->
+    <script src="/Scripts/masterscriptsbundle.min.js?v=9uM8J5M4TdiHqUMyvaxlj04hGNCh2zlRbaNV7nOt6Nw"></script>
+
+    <script src="/Scripts/prototype.LOLRPageInit.min.js"></script>
+    <script src="/Scripts/LOLRetail/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>
+    <script src="/Scripts/LOLRetail/Voice-Search.min.js"></script>
+    <script type="text/javascript">
+        $('.customSelect').selectmenu({
+            select: function(event, ui) {
+                $(ui.item.element).parent().change();
+            }
+        });
+        document.querySelectorAll('li[role="none"]').forEach((item) => {
+            if (item.closest('ul[role="menu"]')) {
+                item.setAttribute('role', 'menuitem');
+            }
+        });
+        $(document).ready(function () {
+            $('.submenu').attr('role', 'menu');
+            $('.submenu a[role="menuitem"],.menu a[role="menuitem"]').removeAttr('role');
+            //For container element is empty accessibility
+            $('.accordion-menu,.main-menu').removeAttr('aria-multiselectable');
+            $('.menu.navigation li').removeAttr('aria-selected');
+            $('.vertical.medium-horizontal li').removeAttr('aria-selected');
+            $('.accordion-menu[role="menubar"]').attr('role', 'navigation');           
+        });
+        $(window).on('scroll', function () {
+            if ($(this).scrollTop() > 60) {
+                $('header[role="banner"]').css('z-index', '9');
+            } else {
+                $('header[role="banner"]').css('z-index', 'inherit');
+            }
+        });
+    </script>
+   <script>
+    //get the url of the website
+    var currentURL = window.location.href;
+    // Initialize variables for the recipe
+    var recipeName = '';
+    var isRecipePage = false;
+    // If it's a recipe page, extract the recipe name
+    if (currentURL.split('/')[3] === 'recipe') {
+    var urlParts = currentURL.split('/');
+    recipeName = urlParts.length == 7 ? urlParts[urlParts.length - 2] : urlParts[urlParts.length - 1];
+    isRecipePage = true;
+    }
+    window.astuteBotMessengerSettings = {
+        channelId: "vMfz6yPFYXWgs6m3munylQ",
+        context: {
+            astuteBotApp: {
+                createContext: {
+                    webpageDetail: {
+    url: currentURL,
+    recipe: isRecipePage,
+    recipeName: recipeName,
+    isRecipePage: isRecipePage
+                    }
+                }
+            }
+        }
+    };
+function includeScript(e) {
+    var t = document.createElement("script"),
+      n = document.getElementsByTagName("script")[0];
+    (t.type = "text/javascript"),
+      (t.src = e),
+      (t.async = !0),
+      n.parentNode.insertBefore(t, n);
+  }
+  includeScript(
+    "https://bot.emplifi.io/components/Launchers/Messenger/LauncherSelector.js"
+  );
+</script>
+
+    
+    <script async src="https://www.chicoryapp.com/widget_v2/"></script>
+    <script src="/Scripts/LOLRetail/mousetrap.min.js"></script>
+    <script src="/Scripts/LOLRetail/LOLR-RecipeDetailPage.js?v=1.0"></script>
+    <script src="/Scripts/LOLRetail/LOLR-ShareEmail.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var baseUrl = location.protocol;
+            var pintrestURL = "http://pinterest.com/pin/create/link/";
+            var twitterURL = "https://twitter.com/intent/tweet";
+            var currentURL = location.protocol + '//' + location.hostname + location.pathname;
+            var recipeName = "Pineapple Upside-Down Cake";
+            var media = "https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg";
+            var datapin = pintrestURL + "?url=" + currentURL + "&media=" + media + "&description=" + recipeName + " from Land O'Lakes";
+            var twitterDataURL = twitterURL + "?text=" + recipeName + "&url=" + currentURL + "&via=landolakesktchn";
+            $('#social-pinterest-link-recipe').attr('data-pin', datapin);
+            $('#social-facebook-link-recipe').attr('data-img', media);
+            $('#social-twitter-link-recipe').attr('data-url', twitterDataURL);
+        });
+        lolData.recipes = JSON.parse('{"category":"Dessert,Cake,Sheet,Dessert,Cake,Upside-down,Fruit,Apple,Fruit,Pineapple,Sweet,Baking","id":"8989","name":"Pineapple Upside-Down Cake","thumbnailUrl":"https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg"}');
+
+    </script>
+    <script>
+        $('.videoTips > p').click(function() {
+            $(this).closest('.videoTips').toggleClass('open');
+            $(this).next().fadeToggle(340);
+            if ($(this).next().hasClass('iframe')) {
+                var selector = $(this).closest('.videoTips').find('iframe');
+                selector.attr('src', selector.data('src'));
+            }
+            if ($(this).next().hasClass('html5')) {
+                var html5video = $(this).closest('.videoTips').find('video');
+
+            }
+        });
+    </script>
+            <script type="application/ld+json">
+                {
+                "@context": "http://schema.org",
+                "@type": "Recipe",
+                "author": {"@type":"Organization","name":"Land O'Lakes"},
+                "totalTime": "PT2H0M",
+                "prepTime": "PT0H30M",
+                "datePublished": "2022-05-19",
+                "mainEntityOfPage": "True",
+                "description": "Butter and brown sugar topped with pineapple and maraschino cherries form the decadent topping on this classic pineapple upside-down cake.",
+                "image": "https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg",
+                "recipeIngredient": ["Topping","1/3 cup  Land O Lakes® Butter ","3/4 cup firmly packed brown sugar ","12 slices pineapple, * well drained ","1 (10-ounce) jar maraschino cherries, stems removed ","Cake","2 cups all-purpose flour ","1 tablespoon baking powder ","1/4 teaspoon salt ","1 cup firmly packed brown sugar ","2/3 cup  Land O Lakes® Butter softened ","3  large Land O Lakes® Eggs ","2 1/2 teaspoons vanilla extract ","3/4 cup milk "],
+                "name": "Pineapple Upside-Down Cake",
+                "nutrition": {
+                "@type": "NutritionInformation",
+                "calories": "450 calories",
+                "fatContent": "17 grams",
+                "saturatedFatContent":"0 grams",
+                "transfatContent": "0 grams",
+                "cholesterolContent": "90 milligrams",
+                "sodiumContent": "340 milligrams",
+                "carbohydrateContent": "70 grams",
+                "fiberContent":"2 grams",
+                "sugarContent":"0 grams",
+                "proteinContent":"4 grams"
+                },
+                "recipeInstructions":[{
+"@type": "HowToStep",
+"name": "Heat",
+"text": "Heat oven to 350°F. "
+},
+{
+"@type": "HowToStep",
+"name": "Melt",
+"text": "Melt 1/3 cup butter in 13x9-inch ungreased baking pan in oven. Stir in 3/4 cup brown sugar. Spread mixture evenly in pan."
+},
+{
+"@type": "HowToStep",
+"name": "Arrange",
+"text": "Arrange 12 pineapple slices on top. Place cherry in center and between each pineapple slice, if desired."
+},
+{
+"@type": "HowToStep",
+"name": "Combine",
+"text": "Combine flour, baking powder and salt in bowl; set aside. "
+},
+{
+"@type": "HowToStep",
+"name": "Combine",
+"text": "Combine 1 cup brown sugar and 2/3 cup butter in bowl; beat at medium speed, scraping bowl often, until creamy. Continue beating, adding <em>1</em> egg at a time, until well mixed. Stir in vanilla. Gradually add flour mixture alternately with milk, beating at low speed and scraping bowl often after each addition."
+},
+{
+"@type": "HowToStep",
+"name": "Gently",
+"text": "Gently spread batter over pineapple. Bake 35-40 minutes or until toothpick inserted in center comes out clean. Loosen sides of cake from pan by running knife around inside of pan. Invert cake onto serving platter; let stand 5 minutes. Remove pan. Cool completely."
+}],
+                "recipeYield":"12 servings",
+                "recipeCategory":["Birthday", "Sheet", "Upside-Down Cake Recipes", "Our Favorite Salted Butter Recipes", "Upside-down", "Apple", "Pineapple", "Sweet", "Baking"],
+                "recipeCuisine": [],
+                 "aggregateRating": [{
+                "@type": "AggregateRating",
+                "ratingValue": "4",
+                "ratingCount": "79"
+                }]
+                }
+            </script>
+
+            <script async type="text/javascript">
+                window.bvDCC = {
+                    catalogData: {
+                        locale: "en_US",
+                        catalogProducts: [{
+                            "productId": "8989",
+                            "productName": "Pineapple Upside-Down Cake",
+                            "productDescription": "Butter and brown sugar topped with pineapple and maraschino cherries form the decadent topping on this classic pineapple upside-down cake.",
+                            "productImageURL": "https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipesmedia/recipes/retail/desktopimages/1997/may/2018_pineapple-upside-down-cake_5308-600.jpg?ext=.jpg",
+                            "productPageURL": "https://www.landolakes.com/recipe/8989/pineapple-upside-down-cake/",
+                            "brandName": "Land O Lakes",
+                            "categoryPath": [],
+                            "inactive": false
+                        }]
+                    }
+                };
+
+                window.bvCallback = function(BV) {
+                    BV.pixel.trackEvent("CatalogUpdate", {
+                        type: 'Product',
+                        locale: window.bvDCC.catalogData.locale,
+                        catalogProducts: window.bvDCC.catalogData.catalogProducts
+
+                    });
+                };
+            </script>
+            <script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+{
+"@type" : "ListItem",
+"position" : 1,
+"item": {
+"@id": "https://www.landolakes.com/recipes",
+"name": "Recipes",
+"image": ""
+}
+},
+
+{
+"@type" : "ListItem",
+"position" : 2,
+"item": {
+"@id": "https://www.landolakes.com/recipes/ingredient/fruit",
+"name": "Recipes",
+"image": ""
+}
+},
+
+{
+"@type" : "ListItem",
+"position" : 3,
+"item": {
+"@id": "https://www.landolakes.com/recipes/ingredient/fruit/pineapple",
+"name": "Recipes",
+"image": ""
+}
+}]
+                }
+             </script>
+
+</body>
+</html>

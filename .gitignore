@@ -140,3 +140,6 @@ Temporary Items
 # Editor configs
 .vscode
 .idea
+
+# Temp files for json tests
+*.temp.json
