@@ -1,8 +1,9 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 from ._utils import get_yields
 
 
-class MadameCuisine(AbstractScraper):
+class MadameCuisine(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "madamecuisine.de"

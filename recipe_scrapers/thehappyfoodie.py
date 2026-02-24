@@ -11,7 +11,7 @@ class TheHappyFoodie(AbstractScraper):
     def ingredients(self):
         ingredient_elements = self.soup.find(
             "div", {"class": "hf-ingredients__container"}
-        ).findAll("tr")
+        ).find_all("tr")
 
         amount = 0
         ingredient_name = 1

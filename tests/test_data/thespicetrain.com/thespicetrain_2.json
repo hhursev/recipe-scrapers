@@ -1,0 +1,92 @@
+{
+  "author": "Nicole B.",
+  "canonical_url": "https://thespicetrain.com/shrimp-and-chorizo-tacos/",
+  "site_name": "The Spice Train",
+  "host": "thespicetrain.com",
+  "language": "en-US",
+  "title": "Shrimp and Chorizo Tacos",
+  "ingredients": [
+    "1 teaspoon mild olive oil",
+    "4 ounces bulk Mexican chorizo sausage",
+    "4 ounces raw shrimp, thawed, peeled, deveined and cut into ¾-inch chunks",
+    "1 teaspoon smoked hot or smoked sweet paprika",
+    "⅛ teaspoon ground cumin",
+    "6 corn tortillas (5-inch diameter)",
+    "about 1 cup shredded lettuce",
+    "about 3 tablespoons diced tomato",
+    "about 3 tablespoons sour cream",
+    "about 3 tablespoons grated cheddar cheese",
+    "about 3 tablespoons chopped cilantro"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 teaspoon mild olive oil",
+        "4 ounces bulk Mexican chorizo sausage",
+        "4 ounces raw shrimp, thawed, peeled, deveined and cut into ¾-inch chunks",
+        "1 teaspoon smoked hot or smoked sweet paprika",
+        "⅛ teaspoon ground cumin"
+      ],
+      "purpose": "For the shrimp and chorizo filling:"
+    },
+    {
+      "ingredients": [
+        "6 corn tortillas (5-inch diameter)"
+      ],
+      "purpose": "For the tacos:"
+    },
+    {
+      "ingredients": [
+        "about 1 cup shredded lettuce",
+        "about 3 tablespoons diced tomato",
+        "about 3 tablespoons sour cream",
+        "about 3 tablespoons grated cheddar cheese",
+        "about 3 tablespoons chopped cilantro"
+      ],
+      "purpose": "Toppings:"
+    }
+  ],
+  "instructions_list": [
+    "For the shrimp and chorizo filling:",
+    "Heat the oil in a skillet or a pan until shimmering.",
+    "Add chorizo and cook until starting to brown (about 4 minutes). Use a spatula or wooden spoon to break up the bulk meat as it cooks.",
+    "Add the shrimp. Continue to cook shrimp and chorizo together until the shrimp are pink and opaque in the center (about 3 minutes).",
+    "Stir in the paprika and the cumin. Transfer to a bowl and set aside.",
+    "For the tacos:*",
+    "Wipe the empty pan with a paper towel, then set back on the heat. Heat the tortillas in the pan, one by one, each for about ½ minute on each side. Using kitchen tongs, transfer the tortillas onto plates.",
+    "Add shrimp and chorizo to tortillas, then add toppings. Serve immediately."
+  ],
+  "category": "Main",
+  "yields": "2 servings",
+  "description": "These shrimp and chorizo tacos combine crispy browned Mexican chorizo and juicy shrimp cooked with smoked paprika.",
+  "total_time": 20,
+  "cook_time": 20,
+  "cuisine": "Mexican",
+  "equipment": [
+    "measuring spoons",
+    "kitchen scale",
+    "knife and cutting board",
+    "cast iron skillet or non-stick pan",
+    "wooden spoon or spatula",
+    "paper towels",
+    "kitchen tongs",
+    "cheese grater"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "616 kcal",
+    "fatContent": "36.9 g",
+    "saturatedFatContent": "14.1 g",
+    "carbohydrateContent": "37.7 g",
+    "sugarContent": "1.9 g",
+    "proteinContent": "34.5 g",
+    "sodiumContent": "950 mg",
+    "fiberContent": "5.5 g",
+    "cholesterolContent": "188 mg"
+  },
+  "image": "https://thespicetrain.com/wp-content/uploads/2022/08/shrimp-and-chorizo-tacos-275-6.jpg",
+  "keywords": [
+    "chorizo and shrimp tacos",
+    "shrimp and chorizo tacos"
+  ]
+}

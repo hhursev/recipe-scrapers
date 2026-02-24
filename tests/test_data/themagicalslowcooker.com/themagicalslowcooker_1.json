@@ -28,6 +28,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Slow Cooker – 3 quart or larger"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "275 kcal",
@@ -42,7 +45,7 @@
     "fiberContent": "0.4 g",
     "cholesterolContent": "98 mg"
   },
-  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-8.jpg",
+  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-feature.jpg",
   "keywords": [
     "ground beef"
   ]

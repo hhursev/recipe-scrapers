@@ -1,8 +1,9 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 from ._grouping_utils import group_ingredients
 
 
-class FortyAprons(AbstractScraper):
+class FortyAprons(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "40aprons.com"
@@ -51,14 +52,6 @@ class FortyAprons(AbstractScraper):
 
     def ratings_count(self):
         return self.schema.ratings_count()
-
-    def equipment(self):
-        equipment_elements = self.soup.select(".wprm-recipe-equipment-name")
-        return (
-            [element.get_text() for element in equipment_elements]
-            if equipment_elements
-            else None
-        )
 
     def keywords(self):
         return self.schema.keywords()

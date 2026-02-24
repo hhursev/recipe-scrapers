@@ -1,0 +1,106 @@
+{
+  "author": "Grace Vallo",
+  "canonical_url": "https://tastefullygrace.com/tres-leches-cake/",
+  "site_name": "Tastefully Grace",
+  "host": "tastefullygrace.com",
+  "language": "en-US",
+  "title": "BEST Tres Leches Cake Recipe",
+  "ingredients": [
+    "1 cup all-purpose flour",
+    "5 large eggs (yolks and whites separated)",
+    "¾ cup granulated sugar",
+    "⅓ cup whole milk",
+    "1 ½ teaspoons vanilla extract",
+    "1 ½ teaspoons baking powder",
+    "¼ teaspoon salt",
+    "14 ounces sweetened condensed milk",
+    "12 ounces evaporated milk",
+    "½ cup whole milk",
+    "1 ½ cups heavy cream ((not whipping cream) cold)",
+    "2 tablespoons powdered sugar",
+    "1 teaspoon vanilla extract",
+    "Cinnamon or berries (to garnish (optional))"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "5 large eggs (yolks and whites separated)",
+        "¾ cup granulated sugar",
+        "⅓ cup whole milk",
+        "1 ½ teaspoons vanilla extract",
+        "1 ½ teaspoons baking powder",
+        "¼ teaspoon salt"
+      ],
+      "purpose": "The Cake"
+    },
+    {
+      "ingredients": [
+        "14 ounces sweetened condensed milk",
+        "12 ounces evaporated milk",
+        "½ cup whole milk"
+      ],
+      "purpose": "Tres Leches Mixture"
+    },
+    {
+      "ingredients": [
+        "1 ½ cups heavy cream ((not whipping cream) cold)",
+        "2 tablespoons powdered sugar",
+        "1 teaspoon vanilla extract",
+        "Cinnamon or berries (to garnish (optional))"
+      ],
+      "purpose": "Whipped Cream Topping"
+    }
+  ],
+  "instructions_list": [
+    "Grease a 9x13” baking pan (no need to flour). Preheat oven to 350℉.",
+    "For the cake, whisk together the flour, baking powder, and salt. Set aside.",
+    "In the bowl of a mixer, beat together the egg whites to soft peaks, about 1-2 minutes on medium-high speed.",
+    "Slowly add in ¼ cup granulated sugar and beat to stiff peaks, about 1-2 minutes on medium-high speed. Gently scoop the egg white mixture into another bowl, and set aside.",
+    "In the scooped out bowl (no need to rinse), beat the egg yolks with ½ cup granulated sugar on medium-high speed until pale and thick, about 1-2 minutes.",
+    "Stir in 1/3 cup whole milk and 1 ½ teaspoons vanilla.",
+    "Mix dry ingredients into the egg yolk mixture until just combined.",
+    "Using a spatula, gently fold in the egg white mixture in 2 batches until combined. Do not deflate!",
+    "Pour/scoop the batter into the prepared pan. Bake for 16-20 minutes until golden and a toothpick comes out clean.",
+    "Cool completely in the pan for at least 2 hours.",
+    "Use a fork to pierce the cake all over, all the way down to the bottom of the pan, every ½ inch or so apart.",
+    "In a pourable container, whisk sweetened condensed milk, evaporated milk, and whole milk together. Slowly and evenly pour the milks all over the cake, right to the edges. Use all of the milks! They will seep into the cake over time.",
+    "Cover and place in the refrigerator for at least 1 hour (ideally 4+ hours).",
+    "Place heavy cream, powdered sugar and vanilla in the bowl of mixer. Whip over medium-high speed for a few minutes (3-5 minutes) until stiff peaks form.",
+    "Frost cake with desired amount of whipped cream, and serve as-is or garnished with cinnamon or berries."
+  ],
+  "category": "Dessert",
+  "yields": "12 servings",
+  "description": "This tres leches cake is a dreamy vanilla sponge cake, soaked in a sweet milk mixture and crowned with easy homemade whipped cream. One bite, and it’ll disappear fast!",
+  "total_time": 240,
+  "cook_time": 20,
+  "prep_time": 40,
+  "cuisine": "Latin American,Mexican",
+  "ratings": 5.0,
+  "ratings_count": 3,
+  "equipment": [
+    "Stand or hand mixer (stand mixer preferred)",
+    "9\"x13\" baking pan"
+  ],
+  "nutrients": {
+    "servingSize": "1 slice",
+    "calories": "379 kcal",
+    "fatContent": "18 g",
+    "saturatedFatContent": "11 g",
+    "unsaturatedFatContent": "6 g",
+    "carbohydrateContent": "45 g",
+    "sugarContent": "37 g",
+    "proteinContent": "10 g",
+    "sodiumContent": "218 mg",
+    "fiberContent": "0.3 g",
+    "cholesterolContent": "133 mg"
+  },
+  "image": "https://tastefullygrace.com/wp-content/uploads/2025/09/Tres-Leches-Cake-Recipe-1-scaled.jpg",
+  "keywords": [
+    "chocolate chip pancakes",
+    "fall",
+    "summer",
+    "tres leches",
+    "tres leches cake"
+  ]
+}

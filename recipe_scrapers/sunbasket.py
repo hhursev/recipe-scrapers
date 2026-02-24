@@ -1,3 +1,4 @@
+import functools
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -10,11 +11,12 @@ class SunBasket(AbstractScraper):
     def site_name(self):
         return self.author()
 
+    @functools.cached_property
     def _instructions_list(self):
         instructions_container = self.soup.find(
             "div", {"class": "instructions-container"}
         )
-        instructions = instructions_container.findAll("div", {"class": "step"})
+        instructions = instructions_container.find_all("div", {"class": "step"})
         instruction_list = []
         for instruction in instructions:
             step_number_tag = instruction.find(class_="step-number")
@@ -34,5 +36,5 @@ class SunBasket(AbstractScraper):
         return instruction_list
 
     def instructions(self):
-        data = self._instructions_list()
+        data = self._instructions_list
         return "\n".join(data) if data else None

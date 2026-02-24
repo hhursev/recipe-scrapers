@@ -1,16 +1,31 @@
 # Examples
 
-!!! important
+!!! warning
     `recipe-scrapers` is designed to focus **exclusively on HTML parsing**.
 
     This core principle guides our development and support. You'll need to implement your own solution
-    for fetching recipe HTML files and managing network requests. The library works best when you
+    for fetching recipe HTMLs and managing network requests. The library works best when you
     provide both the HTML content and its source domain.
 
 
-## Basic Usage
+### HTTP Clients
 
-Here's a simple example of how to use the library:
+Some Python HTTP clients you can use to retrieve HTML include:
+
+- [requests](https://docs.python-requests.org/en/): Popular and feature-rich
+- [httpx](https://www.python-httpx.org/): A fully featured HTTP client for Python 3,
+- [aiohttp](https://docs.aiohttp.org/en/): Asynchronous HTTP Client/Server
+- [urllib.request](https://docs.python.org/3/library/urllib.request.html): Included in Python's standard library
+
+Please refer to their documentation to find out what options (headers, timeout configuration, proxy
+support, etc) are available.
+
+We use the built-in [urllib.requests](https://docs.python.org/3/library/urllib.request.html)
+in our examples and assume HTML has been fetched successfully.
+
+## Usage
+
+Example of how to use the library:
 
 ```python title="Basic Usage Example" linenums="1"
 from urllib.request import urlopen
@@ -42,14 +57,10 @@ not.
 
 ### Core Methods
 
-These methods should be available for all supported websites:
+These methods are available for all the supported websites:
 
 !!! warning "Under Construction"
     This documentation section is currently being updated and improved.
-
-::: tests.MANDATORY_TESTS
-    options:
-        heading_level: 4
 
 
 ### Optional Methods
@@ -58,10 +69,6 @@ These additional methods are available for some websites:
 
 !!! warning "Under Construction"
     This documentation section is currently being updated and improved.
-
-::: tests.OPTIONAL_TESTS
-    options:
-      heading_level: 4
 
 
 ## Common Patterns

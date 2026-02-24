@@ -1,0 +1,84 @@
+{
+  "author": "Katie Cooksey",
+  "canonical_url": "https://laurenslatest.com/junes-shortbread/",
+  "site_name": "Lauren's Latest",
+  "host": "laurenslatest.com",
+  "language": "en-US",
+  "title": "Shortbread Christmas Cookies",
+  "ingredients": [
+    "1 cup butter (room temperature, very soft)",
+    "1/2 cup granulated sugar",
+    "1 teaspoon vanilla extract",
+    "2 1/4 cups all purpose flour",
+    "2/3 cup jam (preserves or nutella)",
+    "1/2 cup powdered sugar",
+    "1-2 teaspoons milk",
+    "1/2 teaspoon vanilla extract"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup butter (room temperature, very soft)",
+        "1/2 cup granulated sugar",
+        "1 teaspoon vanilla extract",
+        "2 1/4 cups all purpose flour"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "2/3 cup jam (preserves or nutella)"
+      ],
+      "purpose": "filling-"
+    },
+    {
+      "ingredients": [
+        "1/2 cup powdered sugar",
+        "1-2 teaspoons milk",
+        "1/2 teaspoon vanilla extract"
+      ],
+      "purpose": "for the icing-"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 325° F.",
+    "Line baking sheet with parchment paper and set aside.",
+    "In a large bowl, mix butter, sugar, vanilla extract, and flour together until incorporated. Dough should hold its shape when squeezed together.",
+    "Divide dough into 4 equal portions and form into logs down the length of the cookie sheet.",
+    "Press your finger into the center to create an indent all down each log.",
+    "Bake 12-15 minutes. Cool completely.",
+    "Fill each log with jam.",
+    "for the icing-",
+    "In a small bowl, mix together powdered sugar, 1 teaspoon of milk, and vanilla extract until its the consistency of white school glue. Add more milk as needed for desired consistency.",
+    "Drizzle icing over each log generously. Allow to set for 20-30 minutes before slicing.",
+    "Using a sharp knife, slice diagonally into 60 equal sized cookies and serve!"
+  ],
+  "category": "Dessert",
+  "yields": "60 servings",
+  "description": "These Christmas Shortbread Cookies are so easy and delicious! Fill the middle with anything from strawberry jam to nutella! Enjoy!",
+  "total_time": 60,
+  "cook_time": 15,
+  "prep_time": 45,
+  "cuisine": "American",
+  "ratings": 4.49,
+  "ratings_count": 27,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "65 kcal",
+    "fatContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "unsaturatedFatContent": "1.1 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "9 g",
+    "sugarContent": "5 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "26 mg",
+    "fiberContent": "0.2 g",
+    "cholesterolContent": "8 mg"
+  },
+  "image": "https://laurenslatest.com/wp-content/uploads/2025/11/christmas-shortbread-cookies-social.jpg",
+  "keywords": [
+    "cookies",
+    "shortbread cookies"
+  ]
+}

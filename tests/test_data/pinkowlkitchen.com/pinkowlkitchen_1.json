@@ -30,6 +30,12 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Mixing bowls",
+    "Measuring cups and spoons",
+    "9-inch pie plate",
+    "Pie server"
+  ],
   "nutrients": {
     "servingSize": "1 slice",
     "calories": "260 kcal",

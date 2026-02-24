@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 
 
 class NoRecipes(AbstractScraper):
@@ -16,12 +15,3 @@ class NoRecipes(AbstractScraper):
 
     def ingredients(self):
         return self._cleaned_ingredients()
-
-    def ingredient_groups(self):
-        cleaned_ingredients = self._cleaned_ingredients()
-        return group_ingredients(
-            cleaned_ingredients,
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient-group li",
-        )

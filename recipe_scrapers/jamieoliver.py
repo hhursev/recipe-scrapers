@@ -10,7 +10,7 @@ class JamieOliver(AbstractScraper):
 
     def instructions(self):
         method_heading = self.soup.find("h2", string="Method")
-        instructions_list = method_heading.find_next("ol")
+        instructions_list = method_heading.find_next(name="ol")
         instructions = instructions_list.find_all("li")
         return "\n".join([normalize_string(inst.get_text()) for inst in instructions])
 

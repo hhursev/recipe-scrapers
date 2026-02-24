@@ -14,5 +14,5 @@ class GesundAktiv(AbstractScraper):
         ingredients_container = self.soup.find(
             "div", {"class": "news-recipes-indgredients"}
         )
-        ingredients = ingredients_container.findAll("li")
+        ingredients = ingredients_container.find_all("li")
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]

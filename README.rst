@@ -11,11 +11,8 @@ recipe-scrapers
 .. image:: https://img.shields.io/pypi/pyversions/recipe-scrapers
     :target: https://pypi.org/project/recipe-scrapers/
     :alt: PyPI - Python Version
-.. image:: https://pepy.tech/badge/recipe-scrapers
-    :target: https://pepy.tech/project/recipe-scrapers
-    :alt: Downloads
-.. image:: https://github.com/hhursev/recipe-scrapers/workflows/unittests/badge.svg?branch=main
-    :target: https://github.com/hhursev/recipe-scrapers/actions/
+.. image:: https://github.com/hhursev/recipe-scrapers/actions/workflows/unittests.yaml/badge.svg?branch=main
+    :target: unittests
     :alt: GitHub Actions Unittests
 .. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github
     :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=main
@@ -23,12 +20,6 @@ recipe-scrapers
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
     :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE
     :alt: License
-
--------
-
-A reliable python tool for scraping recipe data from popular cooking websites. Extract structured
-recipe information including ingredients, instructions, cooking times, and nutritional data
-with ease. Supports 400+ major recipe websites out of the box.
 
 
 Quick Links
@@ -40,8 +31,20 @@ Quick Links
 - `Share Project Ideas <https://github.com/hhursev/recipe-scrapers/issues/9>`_
 
 
-Installing
-----------
+A Python package for extracting recipe data from cooking websites. Parses recipe information from
+either standard `HTML <https://developer.mozilla.org/en-US/docs/Web/HTML>`_ structure,
+`Schema <https://schema.org/>`_ markup (including JSON-LD, Microdata, and RDFa formats) or
+`OpenGraph <https://ogp.me/>`_ metadata.
+
+The package provides a simple and consistent API for retrieving data such as ingredients, instructions,
+cooking times, and `more <https://docs.recipe-scrapers.com/contributing/in-depth-guide-scraper-functions/>`_.
+
+Compatible with the Python versions listed above. This package does not circumvent or bypass any
+bot protection measures implemented by websites.
+
+
+Installation
+------------
 .. code:: shell
 
     pip install recipe-scrapers
@@ -51,43 +54,40 @@ Basic Usage
 -----------
 .. code:: python
 
-    from urllib.request import urlopen
+    from recipe_scrapers import scrape_me
+
+    scraper = scrape_me("https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/")
+    scraper.title()
+    scraper.instructions()
+    scraper.to_json()
+    # for a complete list of methods:
+    # help(scraper)
+
+
+This package is focused **exclusively on HTML parsing**.
+
+For advanced implementations, you'll need to implement your own solution for fetching recipe HTMLs
+and managing network requests. The library works best when you provide both the HTML content and
+its source domain.
+
+You are encouraged to use our *scrape_html* method:
+
+.. code:: python
+
     from recipe_scrapers import scrape_html
 
-    # Example recipe URL
-    url = "https://www.allrecipes.com/recipe/158968/spinach-and-feta-turkey-burgers/"
-    # retrieve the recipe webpage HTML
-    html = urlopen(url).read().decode("utf-8")
+Higher-quality image detection is enabled by default when multiple options are available
+on a page. If you prefer to keep the first image returned by the site, disable the
+behaviour on a per-call basis or via the global setting:
 
-    # pass the html alongside the url to our scrape_html function
-    scraper = scrape_html(html, org_url=url)
+.. code:: python
 
-    # Extract recipe information
-    print(scraper.title())          # "Spinach and Feta Turkey Burgers"
-    print(scraper.total_time())     # 35
-    print(scraper.yields())         # "4 servings"
-    print(scraper.ingredients())    # ['1 pound ground turkey', '1 cup fresh spinach...']
-    print(scraper.instructions())   # 'Step 1: In a large bowl...'
+    scraper = scrape_html(html, url, best_image=False)
+    image_url = scraper.image()
 
-    # For a complete list of available methods:
-    help(scraper)
+    from recipe_scrapers.settings import settings
 
-
-HTTP Clients
-------------
-Some Python HTTP clients you can use to retrieve HTML include:
-
-- `requests`_: Popular and feature-rich
-- `httpx`_: Modern, supports async/await
-- `urllib.request`_: Included in Python's standard library
-
-Please refer to their documentation to find out what options (timeout configuration, proxy
-support, etc) are available.
-
-.. _requests: https://pypi.org/project/requests/
-.. _httpx: https://pypi.org/project/httpx/
-.. _urllib.request: https://docs.python.org/3/library/urllib.request.html
-
+    settings.BEST_IMAGE_SELECTION = False
 
 Supported Sites
 ---------------
@@ -102,12 +102,6 @@ You can also get the full list programmatically with:
     from recipe_scrapers import SCRAPERS
 
     SCRAPERS.keys()
-
-
-Documentation
--------------
-For detailed usage instructions, examples, and API reference, visit our
-`documentation <https://docs.recipe-scrapers.com>`_.
 
 
 Contributing

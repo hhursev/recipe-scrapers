@@ -53,14 +53,14 @@ It's recommended to use a virtual environment to manage dependencies. You can cr
 
 ```sh
 python -m venv .venv
-source venv/bin/activate  # On Windows: `venv\Scripts\activate`
+source .venv/bin/activate  # On Windows: `.venv\Scripts\activate`
 ```
 
 !!! tip "Virtual Environment"
     Remember to activate your virtual environment each time you work on the project:
-    ```sh
+```sh
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-    ```
+```
 
 ## Install Dependencies
 

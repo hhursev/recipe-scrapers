@@ -77,6 +77,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 8,
+  "equipment": [
+    "Slow Cooker- 6 quart or larger"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "582 kcal",
@@ -91,7 +94,7 @@
     "fiberContent": "4 g",
     "cholesterolContent": "182 mg"
   },
-  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/02/crockpot-pork-pot-roast-4.jpg",
+  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/02/crockpot-pork-pot-roast-feature.jpg",
   "keywords": [
     "pork pot roast"
   ]

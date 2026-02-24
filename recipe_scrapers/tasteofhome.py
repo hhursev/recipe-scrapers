@@ -8,7 +8,7 @@ class TasteOfHome(AbstractScraper):
         return "tasteofhome.com"
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "recipe-directions__item"})
+        instructions = self.soup.find_all("li", {"class": "recipe-directions__item"})
         if instructions:
             return "\n".join(
                 [

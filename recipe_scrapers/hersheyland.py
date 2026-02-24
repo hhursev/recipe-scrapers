@@ -21,3 +21,10 @@ class HersheyLand(AbstractScraper):
             if item.find("span", class_="h6")
         ]
         return get_equipment(equipment_items)
+
+    def instructions(self):
+        instructions = self.schema.instructions()
+        filtered_instructions = "\n".join(
+            line for line in instructions.split("\n") if not line.startswith("Step")
+        )
+        return filtered_instructions

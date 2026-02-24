@@ -26,7 +26,7 @@ class Chefnini(AbstractScraper):
         return f"{servings} servings"
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"itemprop": "ingredients"})
+        ingredients = self.soup.find_all("li", {"itemprop": "ingredients"})
         return [ingredient.get_text() for ingredient in ingredients]
 
     def instructions(self):

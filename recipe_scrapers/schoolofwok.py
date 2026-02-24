@@ -24,12 +24,16 @@ class SchoolOfWok(AbstractScraper):
             string=lambda text: text and text.lower() == "cuisine"
         )
 
-        return categoryheader.find_next("p").get_text() if categoryheader else None
+        return categoryheader.find_next(name="p").get_text() if categoryheader else None
 
     def total_time(self):
         timeheader = self.soup.find(string=lambda text: text and text.lower() == "time")
 
-        return get_minutes(timeheader.find_next("p").get_text()) if timeheader else None
+        return (
+            get_minutes(timeheader.find_next(name="p").get_text())
+            if timeheader
+            else None
+        )
 
     def yields(self):
         servingheader = self.soup.find(
@@ -37,7 +41,7 @@ class SchoolOfWok(AbstractScraper):
         )
 
         return (
-            get_yields(servingheader.find_next("p").get_text())
+            get_yields(servingheader.find_next(name="p").get_text())
             if servingheader
             else None
         )
@@ -48,7 +52,7 @@ class SchoolOfWok(AbstractScraper):
     def ingredients(self):
         section = self.soup.find("section", {"id": "recipe-ingredients"})
         div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-        divs = section.findChildren("div", {"class": div_class})
+        divs = section.find_all("div", {"class": div_class})
 
         if not divs:
             return []
@@ -72,7 +76,7 @@ class SchoolOfWok(AbstractScraper):
     def ingredient_groups(self):
         section = self.soup.find("section", {"id": "recipe-ingredients"})
         div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-        divs = section.findChildren("div", {"class": div_class})
+        divs = section.find_all("div", {"class": div_class})
 
         if not divs:
             return []
@@ -110,7 +114,7 @@ class SchoolOfWok(AbstractScraper):
     def instructions(self):
         section = self.soup.find("section", {"id": "recipe-ingredients"})
         div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-        divs = section.findChildren("div", {"class": div_class})
+        divs = section.find_all("div", {"class": div_class})
 
         if len(divs) < 2:
             return ""

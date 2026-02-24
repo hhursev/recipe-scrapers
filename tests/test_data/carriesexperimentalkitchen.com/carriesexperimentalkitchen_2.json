@@ -1,0 +1,92 @@
+{
+  "author": "Carrie's Experimental Kitchen",
+  "canonical_url": "https://www.carriesexperimentalkitchen.com/chicken-costoletta-cheesecake-factory-copycat/",
+  "site_name": "Carrie’s Experimental Kitchen",
+  "host": "carriesexperimentalkitchen.com",
+  "language": "en-US",
+  "title": "Chicken Costoletta (Cheesecake Factory Copycat)",
+  "ingredients": [
+    "8 - (2-ounce) chicken tenderloins",
+    "½ cup all purpose flour",
+    "2 large eggs",
+    "1 cup panko breadcrumbs",
+    "zest from 1 lemon",
+    "¼ cup grated pecorino romano cheese",
+    "¼ cup extra virgin olive oil",
+    "2 tablespoons butter",
+    "1 tablespoon extra virgin olive oil",
+    "1 tablespoons all purpose flour",
+    "1 tablespoon minced garlic",
+    "¼ cup milk",
+    "¾ cup heavy cream",
+    "¼ cup chicken broth",
+    "2 tablespoons lemon juice",
+    "1 tablespoon butter"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "8 - (2-ounce) chicken tenderloins",
+        "½ cup all purpose flour",
+        "2 large eggs",
+        "1 cup panko breadcrumbs",
+        "zest from 1 lemon",
+        "¼ cup grated pecorino romano cheese",
+        "¼ cup extra virgin olive oil",
+        "2 tablespoons butter"
+      ],
+      "purpose": "For the Chicken"
+    },
+    {
+      "ingredients": [
+        "1 tablespoon extra virgin olive oil",
+        "1 tablespoons all purpose flour",
+        "1 tablespoon minced garlic",
+        "¼ cup milk",
+        "¾ cup heavy cream",
+        "¼ cup chicken broth",
+        "2 tablespoons lemon juice",
+        "1 tablespoon butter"
+      ],
+      "purpose": "For the Sauce"
+    }
+  ],
+  "instructions_list": [
+    "For the Chicken",
+    "Using a meat mallet, flatten the tenderloins so that they are even in thickness.",
+    "Gather three bowls. In one, place the flour. In the second, add the eggs and whisk them with a fork. In the third, combine the breadcrumbs, lemon zest and cheese.",
+    "Coat each piece of chicken first in the flour, then the eggs, and then the breadcrumb mixture.",
+    "Heat a large nonstick saute pan over medium heat and add the oil and butter. Once melted and hot, add the chicken to the pan and fry on both sides until cooked through; approximately 3-5 minutes per side depending on the thickness. You may need to do this in two batches.",
+    "Remove chicken from the pan and drain on paper towels to absorb any excess oil. Set aside.",
+    "For the Sauce",
+    "Melt the oil in a medium saucepan over low-medium heat and add the garlic.",
+    "Saute 1-2 minutes then whisk in the flour.",
+    "Whisk in the milk, heavy cream, chicken stock and lemon juice and bring to a boil over medium-high heat until the sauce has thickened; approximately 3-5 minutes.",
+    "Next, stir in the butter and pour desired amount of sauce over the chicken."
+  ],
+  "category": "Main Entree",
+  "yields": "4 servings",
+  "description": "Enjoy one of your favorite restaurant meals at home with this copycat version of The Cheesecake Factory's Chicken Costoletta. Boneless chicken lightly breaded in a Panko and lemon crust, fried; then topped with a lemony cream sauce.",
+  "total_time": 40,
+  "cook_time": 20,
+  "prep_time": 20,
+  "cuisine": "Italian",
+  "nutrients": {
+    "servingSize": "2 g",
+    "calories": "706 kcal",
+    "fatContent": "50 g",
+    "saturatedFatContent": "21 g",
+    "unsaturatedFatContent": "25 g",
+    "transFatContent": "0.4 g",
+    "carbohydrateContent": "28 g",
+    "sugarContent": "3 g",
+    "proteinContent": "35 g",
+    "sodiumContent": "443 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "247 mg"
+  },
+  "image": "https://www.carriesexperimentalkitchen.com/wp-content/uploads/2014/02/chickencostolettacloseup-cek_zps928a1137-1.jpg",
+  "keywords": [
+    "chicken"
+  ]
+}

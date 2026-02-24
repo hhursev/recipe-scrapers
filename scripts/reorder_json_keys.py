@@ -7,12 +7,19 @@ KEYS = get_abstract_methods()
 NUTRITION_KEYS = get_nutrition_keys()
 
 
-def reorder_json_keys(file_path):
+def reorder_json_keys(file_path, *, quiet=False):
+    """
+    Order the keys in a json test file according to "importance".
+
+    Args:
+        file_path (str): The file to sort
+        quiet (bool, optional): Don't print progress. Defaults to False.
+    """
     with open(file_path, encoding="utf-8") as file:
         data = json.load(file)
 
     reordered_data = {key: data[key] for key in KEYS if key in data}
-    if list(data.keys()) != list(reordered_data.keys()):
+    if list(data.keys()) != list(reordered_data.keys()) and not quiet:
         print(f"Re-ordering JSON keys for: {file_path}")
 
     if "nutrients" in data and data["nutrients"] is not None:
@@ -26,7 +33,8 @@ def reorder_json_keys(file_path):
 
         if list(nutrients.keys()) != list(reordered_nutrients.keys()):
             reordered_data["nutrients"] = reordered_nutrients
-            print(f"Re-ordering nutrition keys for: {file_path}")
+            if not quiet:
+                print(f"Re-ordering nutrition keys for: {file_path}")
 
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(reordered_data, file, indent=2, ensure_ascii=False)

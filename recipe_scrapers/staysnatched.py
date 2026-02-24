@@ -1,8 +1,8 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
+from ._wprm import WPRMMixin
 
 
-class StaySnatched(AbstractScraper):
+class StaySnatched(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "staysnatched.com"
@@ -15,11 +15,3 @@ class StaySnatched(AbstractScraper):
             },
         )
         return author_element.find("a").get_text() if author_element else "Unknown"
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient",
-        )

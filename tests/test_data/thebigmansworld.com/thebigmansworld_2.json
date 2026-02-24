@@ -1,0 +1,79 @@
+{
+  "author": "Arman Liew",
+  "canonical_url": "https://thebigmansworld.com/coconut-cake/",
+  "site_name": "The Big Man's World ®",
+  "host": "thebigmansworld.com",
+  "language": "en-US",
+  "title": "Coconut Cake Recipe",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "1 1/2 cups sugar",
+    "2 teaspoons baking soda",
+    "1/2 teaspoon salt",
+    "1 1/2 cups water",
+    "1 tablespoon vinegar",
+    "1/2 cup oil",
+    "1 tablespoon vanilla extract",
+    "1 cup shredded coconut",
+    "8 ounces cream cheese (softened)",
+    "1 cup confectioners sugar",
+    "3/4 cup heavy cream",
+    "1 teaspoon coconut extract (or vanilla extract)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 1/2 cups sugar",
+        "2 teaspoons baking soda",
+        "1/2 teaspoon salt",
+        "1 1/2 cups water",
+        "1 tablespoon vinegar",
+        "1/2 cup oil",
+        "1 tablespoon vanilla extract",
+        "1 cup shredded coconut"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "8 ounces cream cheese (softened)",
+        "1 cup confectioners sugar",
+        "3/4 cup heavy cream",
+        "1 teaspoon coconut extract (or vanilla extract)"
+      ],
+      "purpose": "Frosting"
+    }
+  ],
+  "instructions_list": [
+    "Preheat the oven to 190C/375F.",
+    "In a mixing bowl, whisk together the flour, sugar, baking soda, and salt. Add the water, oil, vanilla, and vinegar and whisk until smooth. Fold through the coconut flakes.",
+    "Grease two 8-inch cake pans and divide the batter between the two.",
+    "Bake the cakes for 30-35 minutes or until a skewer comes out clean.",
+    "Let the cakes cool completely before frosting.",
+    "To make the frosting, beat the cream cheese until smooth and creamy. Slowly add in the powdered sugar until combined. Add the cream and coconut extract and beat until stiff peaks form."
+  ],
+  "category": "Dessert",
+  "yields": "12 servings",
+  "description": "My coconut cake is moist and fluffy in texture and rich in coconut flavor. It's a simple recipe that requires no eggs and very little prep work.",
+  "total_time": 35,
+  "cook_time": 30,
+  "prep_time": 5,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 297,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "295 kcal",
+    "fatContent": "15 g",
+    "carbohydrateContent": "43 g",
+    "sugarContent": "12 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "284 mg",
+    "fiberContent": "2 g"
+  },
+  "image": "https://thebigmansworld.com/wp-content/uploads/2025/02/coconut-cake-recipe.jpg",
+  "keywords": [
+    "coconut cake recipe"
+  ]
+}
