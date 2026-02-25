@@ -45,8 +45,8 @@ class AndyCooks(AbstractScraper):
             ".rk_ingredients ul li",
         )
 
-    def instructions(self) -> str:
-        return str(self.schema.instructions() or "")
+    def instructions(self):
+        return self.schema.instructions()
 
     def ratings(self):
         return self.schema.ratings()
