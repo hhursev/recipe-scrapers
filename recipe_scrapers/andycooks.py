@@ -11,8 +11,7 @@ class AndyCooks(AbstractScraper):
         return self.schema.site_name()
 
     def author(self):
-        author = self.schema.author()
-        return author
+        return self.schema.author()
 
     def title(self):
         return self.schema.title()
