@@ -18,9 +18,6 @@ class IrishCentral(AbstractScraper):
         description = self.soup.find("meta", {"property": "og:description"})["content"]
         return description
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         # Check if the ingredients are in a <p> structure (https://www.irishcentral.com/culture/food-drink/apple-jameson-tart-recipe)
         ingredients_label = self.soup.find("p", string=re.compile(r"Ingredients:"))
