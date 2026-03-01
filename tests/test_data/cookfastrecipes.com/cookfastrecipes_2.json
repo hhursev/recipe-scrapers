@@ -1,0 +1,85 @@
+{
+  "author": "James Carter",
+  "canonical_url": "https://www.cookfastrecipes.com/high-protein-cinnamon-roll-breakfast/",
+  "site_name": "Cook Fast Recipes",
+  "host": "cookfastrecipes.com",
+  "language": "en-US",
+  "title": "High Protein Cottage Cheese Cinnamon Roll Bread",
+  "ingredients": [
+    "1¼ cups cottage cheese (blended until smooth)",
+    "1 large egg",
+    "2 tbsp maple syrup or honey",
+    "1 tsp vanilla extract",
+    "2 cups oat flour (or almond flour for gluten-free)",
+    "1 tsp baking powder",
+    "¼ tsp baking soda",
+    "Pinch of salt",
+    "⅓ cup coconut sugar or brown sugar",
+    "2 tbsp melted butter or coconut oil",
+    "1½ tsp cinnamon",
+    "Optional Glaze: ½ cup powdered sugar",
+    "Optional Glaze: 1–2 tbsp blended cottage cheese or Greek yogurt",
+    "Optional Glaze: Splash of vanilla or milk"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1¼ cups cottage cheese (blended until smooth)",
+        "1 large egg",
+        "2 tbsp maple syrup or honey",
+        "1 tsp vanilla extract",
+        "2 cups oat flour (or almond flour for gluten-free)",
+        "1 tsp baking powder",
+        "¼ tsp baking soda",
+        "Pinch of salt"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "⅓ cup coconut sugar or brown sugar",
+        "2 tbsp melted butter or coconut oil",
+        "1½ tsp cinnamon"
+      ],
+      "purpose": "For the Cinnamon Swirl"
+    },
+    {
+      "ingredients": [
+        "Optional Glaze: ½ cup powdered sugar",
+        "Optional Glaze: 1–2 tbsp blended cottage cheese or Greek yogurt",
+        "Optional Glaze: Splash of vanilla or milk"
+      ],
+      "purpose": "Optional Glaze"
+    }
+  ],
+  "instructions_list": [
+    "Preheat your oven to 350°F. Grease a loaf pan and line it with parchment paper for easy removal.",
+    "Place the cottage cheese into a blender or food processor and blend until completely smooth to ensure a soft texture.",
+    "In a large bowl, whisk together the smooth cottage cheese, egg, maple syrup (or honey), and vanilla extract until well combined.",
+    "In a separate bowl, whisk together the oat flour, baking powder, baking soda, and a pinch of salt.",
+    "Stir the dry ingredients into the wet mixture until a thick batter forms.",
+    "In a small bowl, mix the cinnamon swirl ingredients: coconut sugar (or brown sugar), melted butter, and cinnamon until it forms a paste.",
+    "Pour half of the batter into the loaf pan. Spoon half of the cinnamon mixture over it and swirl gently with a knife.",
+    "Add the remaining batter and the rest of the cinnamon mixture. Swirl again to create a marble pattern.",
+    "Bake for 30 to 35 minutes, or until a toothpick inserted into the center comes out clean. Let cool in the pan.",
+    "Optional: Mix powdered sugar, cottage cheese/yogurt, and milk to make a glaze and drizzle over the cooled bread."
+  ],
+  "category": "Breakfast",
+  "yields": "1 loaf",
+  "description": "A soft, moist high-protein bread that tastes just like a cinnamon roll. This easy blender recipe packs over 20g of protein per slice for a perfect quick breakfast.",
+  "total_time": 45,
+  "cook_time": 35,
+  "prep_time": 10,
+  "nutrients": {
+    "servingSize": "1 slice",
+    "calories": "240 calories",
+    "fatContent": "6g fat",
+    "saturatedFatContent": "3g saturated fat",
+    "carbohydrateContent": "26g carbs",
+    "sugarContent": "9g sugar",
+    "proteinContent": "20g protein",
+    "sodiumContent": "280mg sodium",
+    "fiberContent": "3g fiber"
+  },
+  "image": "https://www.cookfastrecipes.com/wp-content/uploads/2026/02/high-protein-cinnamon-roll-bread-with-cottage-cheese-recipe-for-breakfast-1.webp"
+}
