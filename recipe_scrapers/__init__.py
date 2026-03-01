@@ -230,6 +230,7 @@ from .forktospoon import ForkToSpoon
 from .fortyaprons import FortyAprons
 from .franzoesischkochen import FranzoesischKochen
 from .g750g import G750g
+from .garlicandzest import GarlicAndZest
 from .garnishandglaze import GarnishAndGlaze
 from .gesundaktiv import GesundAktiv
 from .giallozafferano import GialloZafferano
@@ -829,6 +830,7 @@ SCRAPERS = {
     FortyAprons.host(): FortyAprons,
     FranzoesischKochen.host(): FranzoesischKochen,
     G750g.host(): G750g,
+    GarlicAndZest.host(): GarlicAndZest,
     GarnishAndGlaze.host(): GarnishAndGlaze,
     GesundAktiv.host(): GesundAktiv,
     GialloZafferano.host(): GialloZafferano,
