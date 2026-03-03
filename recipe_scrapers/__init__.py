@@ -527,6 +527,7 @@ from .sugarhero import SugarHero
 from .sugarmaplefarmhouse import SugarMapleFarmhouse
 from .sugarspunrun import SugarSpunRun
 from .sunbasket import SunBasket
+from .sundaysuppermovement import SundaySupperMovement
 from .sundpaabudget import SundPaaBudget
 from .sunset import Sunset
 from .sweetcsdesigns import SweetCsDesigns
@@ -1148,6 +1149,7 @@ SCRAPERS = {
     SugarMapleFarmhouse.host(): SugarMapleFarmhouse,
     SugarSpunRun.host(): SugarSpunRun,
     SunBasket.host(): SunBasket,
+    SundaySupperMovement.host(): SundaySupperMovement,
     SundPaaBudget.host(): SundPaaBudget,
     Sunset.host(): Sunset,
     SweetCsDesigns.host(): SweetCsDesigns,
