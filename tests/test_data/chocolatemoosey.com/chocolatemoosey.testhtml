@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- Hubbub v.1.34.7 https://morehubbub.com/ -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Kohlrabi Soup (with Kohlrabi Greens)" />
+<meta property="og:description" content="Not sure what to do with kohlrabi leaves? Make Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It&#039;s a gluten free vegan soup." />
+<meta property="og:url" content="https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/" />
+<meta property="og:site_name" content="Homemade In The Kitchen" />
+<meta property="og:updated_time" content="2024-02-14T14:52:01+00:00" />
+<meta property="article:published_time" content="2022-02-17T13:04:00+00:00" />
+<meta property="article:modified_time" content="2024-02-14T14:52:01+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kohlrabi Soup (with Kohlrabi Greens)" />
+<meta name="twitter:description" content="Not sure what to do with kohlrabi leaves? Make Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It&#039;s a gluten free vegan soup." />
+<meta class="flipboard-article" content="Not sure what to do with kohlrabi leaves? Make Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It&#039;s a gluten free vegan soup." />
+<meta property="og:image" content="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9998.jpg" />
+<meta name="twitter:image" content="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9998.jpg" />
+<meta property="og:image:width" content="650" />
+<meta property="og:image:height" content="433" />
+<meta property="article:author" content="https://www.facebook.com/homemadeinthekitchen" />
+<meta name="twitter:creator" content="@hitkrecipes" />
+<!-- Hubbub v.1.34.7 https://morehubbub.com/ -->
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Kohlrabi Soup (with Kohlrabi Greens) - Homemade In The Kitchen</title><link rel="preload" data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Oxygen%20Mono%3Anormal%2C%7CCambo%3Anormal%2C&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen%20Mono%3Anormal%2C%7CCambo%3Anormal%2C&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen%20Mono%3Anormal%2C%7CCambo%3Anormal%2C&#038;display=swap" /></noscript>
+<link rel="preload" as="font" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/fonts/caustenround-extrabold-webfont.woff2" crossorigin>
+<link rel="preload" as="font" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/fonts/caustenround-regular-webfont.woff2" crossorigin>
+<link rel="preload" as="font" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/fonts/caustenround-regularoblique-webfont.woff2" crossorigin><link rel="preload" data-rocket-preload as="image" href="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg" imagesrcset="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg 650w, https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983-364x546.jpg 364w" imagesizes="(max-width: 650px) 100vw, 650px" fetchpriority="high">
+	<meta name="description" content="Not sure what to do with kohlrabi leaves? Make Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It&#039;s a gluten free vegan soup." />
+	<link rel="canonical" href="https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/" />
+	<meta name="author" content="Carla" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Carla" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="5 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#article","isPartOf":{"@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/"},"author":{"name":"Carla","@id":"https://www.chocolatemoosey.com/#/schema/person/cc5f472520c5f1fe917741463b1acb27"},"headline":"Kohlrabi Soup (with Kohlrabi Greens)","datePublished":"2022-02-17T18:04:00+00:00","dateModified":"2024-02-14T19:52:01+00:00","mainEntityOfPage":{"@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/"},"wordCount":949,"commentCount":35,"publisher":{"@id":"https://www.chocolatemoosey.com/#organization"},"image":{"@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#primaryimage"},"thumbnailUrl":"https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg","keywords":["broth/stock","carrots","garlic","gluten free","kohlrabi","onions","sweet potato","vegan","vegetarian"],"articleSection":["Soups + Stews","Thanksgiving","winter"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#respond"]}]},{"@type":"WebPage","@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/","url":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/","name":"Kohlrabi Soup (with Kohlrabi Greens) - Homemade In The Kitchen","isPartOf":{"@id":"https://www.chocolatemoosey.com/#website"},"primaryImageOfPage":{"@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#primaryimage"},"image":{"@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#primaryimage"},"thumbnailUrl":"https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg","datePublished":"2022-02-17T18:04:00+00:00","dateModified":"2024-02-14T19:52:01+00:00","description":"Not sure what to do with kohlrabi leaves? Make Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It's a gluten free vegan soup.","breadcrumb":{"@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#primaryimage","url":"https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg","contentUrl":"https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg","width":650,"height":975,"caption":"Kohlrabi Soup with Kohlrabi Greens in a silver ridged bowl on a dark gray plate"},{"@type":"BreadcrumbList","@id":"https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.chocolatemoosey.com/"},{"@type":"ListItem","position":2,"name":"Soups + Stews","item":"https://www.chocolatemoosey.com/category/soupsandstews/"},{"@type":"ListItem","position":3,"name":"Kohlrabi Soup (with Kohlrabi Greens)"}]},{"@type":"WebSite","@id":"https://www.chocolatemoosey.com/#website","url":"https://www.chocolatemoosey.com/","name":"Homemade In The Kitchen","description":"Small Batch Recipes and Recipes For Two","publisher":{"@id":"https://www.chocolatemoosey.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.chocolatemoosey.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.chocolatemoosey.com/#organization","name":"Homemade In The Kitchen","url":"https://www.chocolatemoosey.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.chocolatemoosey.com/#/schema/logo/image/","url":"https://www.chocolatemoosey.com/wp-content/uploads/2026/01/homemadeinthekitchen_logo.vFINALalt-01.png","contentUrl":"https://www.chocolatemoosey.com/wp-content/uploads/2026/01/homemadeinthekitchen_logo.vFINALalt-01.png","width":800,"height":200,"caption":"Homemade In The Kitchen"},"image":{"@id":"https://www.chocolatemoosey.com/#/schema/logo/image/"},"sameAs":["http://www.facebook.com/homemadeinthekitchen","http://www.instagram.com/homemadeinthekitchen","http://www.pinterest.com/homemadeinthekitchen"]},{"@type":"Person","@id":"https://www.chocolatemoosey.com/#/schema/person/cc5f472520c5f1fe917741463b1acb27","name":"Carla","sameAs":["https://www.chocolatemoosey.com","https://www.facebook.com/homemadeinthekitchen","https://twitter.com/hitkrecipes"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//scripts.mediavine.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Homemade In The Kitchen &raquo; Kohlrabi Soup (with Kohlrabi Greens) Comments Feed" href="https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.chocolatemoosey.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.chocolatemoosey.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F&#038;format=xml" />
+<script>function cpLoadCSS(e,t,n){"use strict";var i=window.document.createElement("link"),o=t||window.document.getElementsByTagName("script")[0];return i.rel="stylesheet",i.href=e,i.media="only x",o.parentNode.insertBefore(i,o),setTimeout(function(){i.media=n||"all"}),i}</script><style>.cp-popup-container .cpro-overlay,.cp-popup-container .cp-popup-wrapper{opacity:0;visibility:hidden;display:none}</style><style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #3d3d3c;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #007eaf;--wp--preset--color--medblue: #4ca5c7;--wp--preset--color--lightblue: #d9ecf3;--wp--preset--color--lightgray: #F3F3F1;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1758726758' type='text/css' media='all' />
+<style id='dpsp-frontend-style-pro-inline-css' type='text/css'>
+
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			
+/*# sourceURL=dpsp-frontend-style-pro-inline-css */
+</style>
+<script>document.addEventListener('DOMContentLoaded', function(event) {  if( typeof cpLoadCSS !== 'undefined' ) { cpLoadCSS('https://www.chocolatemoosey.com/wp-content/plugins/convertpro/assets/modules/css/cp-popup.min.css?ver=1.7.8', 0, 'all'); } }); </script>
+<link data-minify="1" rel='stylesheet' id='font-awesome-css' href='https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/themes/homemadeinthekitchen/fontawesome-subset/css/all.css?ver=1758726758' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='custom-style-css' href='https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/themes/homemadeinthekitchen/style.css?ver=1758726758' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='responsive-style-css' href='https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/themes/homemadeinthekitchen/responsive.css?ver=1758726758' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='custom-mobile-header-style-css' href='https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/themes/homemadeinthekitchen/mobile-header/mobile-header-style.css?ver=1758726758' type='text/css' media='all' />
+<script type="text/javascript" async="async" fetchpriority="high" data-noptimize="1" data-cfasync="false" src="https://scripts.mediavine.com/tags/chocolate-moosey.js?ver=6.9.1" id="mv-script-wrapper-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.chocolatemoosey.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.chocolatemoosey.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://www.chocolatemoosey.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.chocolatemoosey.com/wp-json/wp/v2/posts/1910" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.chocolatemoosey.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.1" />
+<link rel='shortlink' href='https://www.chocolatemoosey.com/?p=1910' />
+		<style>
+			:root {
+				--mv-create-radius: 0;
+			}
+		</style>
+		<script type="application/ld+json" class="mv-create-json-ld mv-create-json-ld-recipe">{"@context":"http:\/\/schema.org","@type":"Recipe","name":"Kohlrabi Soup with Kohlrabi Greens","author":{"@type":"Person","name":"Carla Cardello"},"datePublished":"2018-11-15","recipeYield":4,"description":"Not sure what to do with kohlrabi leaves? Make this beautifully orange Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It\u2019s a gluten free vegan soup, perfect for when you want a meatless meal.","image":["https:\/\/www.chocolatemoosey.com\/wp-content\/uploads\/2011\/01\/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001-320x320.jpg","https:\/\/www.chocolatemoosey.com\/wp-content\/uploads\/2011\/01\/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001-480x360.jpg","https:\/\/www.chocolatemoosey.com\/wp-content\/uploads\/2011\/01\/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001.jpg","https:\/\/www.chocolatemoosey.com\/wp-content\/uploads\/2011\/01\/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001-480x270.jpg"],"recipeCategory":"Soups + Stews","recipeCuisine":"American","prepTime":"PT30M","cookTime":"PT1H","performTime":"PT1H","totalTime":"PT1H30M","recipeIngredient":["1 tablespoon olive oil","    Salt (preferably kosher), to taste","    1\/4 cup diced white or yellow onion","    1 large carrot, peeled and diced","    1 clove garlic, minced","    5 cups vegetable broth\/stock","    1 pound kohlrabi, bulbs peeled and diced and leaves chopped","    1 small sweet potato, peeled and diced (roughly 8 ounces)","    1 tablespoon lemon juice"],"recipeInstructions":[{"@type":"HowToStep","text":"In a Dutch oven or large pot, add the oil. Once hot, add the onion, carrot, and a big pinch of salt. Cook until they start to soften and brown, about 3-5 minutes. Add the garlic and cook 1 minute.","position":1,"name":"In a Dutch oven or large pot, add...","url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/#mv_create_95_1"},{"@type":"HowToStep","text":"Add 1 + 1\/2 cups broth and bring to a boil. Cook until carrots are softened, about 8-10 minutes.","position":2,"name":"Add 1 + 1\/2 cups broth and bring...","url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/#mv_create_95_2"},{"@type":"HowToStep","text":"Transfer mixture to a blender and blend until smooth. There should be enough broth but if it's too thick to blend, you can add a little more.","position":3,"name":"Transfer mixture to a blender and blend until...","url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/#mv_create_95_3"},{"@type":"HowToStep","text":"Pour the carrot puree back into the Dutch oven. Add the remaining 3 + 1\/2 cups broth then bring to a boil.","position":4,"name":"Pour the carrot puree back into the Dutch...","url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/#mv_create_95_4"},{"@type":"HowToStep","text":"Once boiling, add the kohlrabi bulbs, sweet potato, and a big pinch of salt. Cook until fork tender, about 15 minutes.You should have enough broth, but if your vegetable amounts are bigger than indicated, it's possible you may need to add more as the vegetables will absorb the broth.","position":5,"name":"Once boiling, add the kohlrabi bulbs, sweet potato,...","url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/#mv_create_95_5"},{"@type":"HowToStep","text":"Add kohlrabi leaves and cook 3-5 minutes until the leaves are softened. Add lemon juice then taste and adjust for salt.","position":6,"name":"Add kohlrabi leaves and cook 3-5 minutes until...","url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/#mv_create_95_6"}],"keywords":"kohlrabi soup","suitableForDiet":"VeganDiet","aggregateRating":{"@type":"AggregateRating","ratingValue":4.4,"reviewCount":"88"},"url":"https:\/\/www.chocolatemoosey.com\/hungarian-kohlrabi-soup-kalarabeleves\/"}</script><meta name="hubbub-info" description="Hubbub 1.34.7"><meta name="pinterest-rich-pin" content="false" />		<style type="text/css" id="wp-custom-css">
+			/* Mediavine CSS */
+@media only screen and (max-width: 359px) {
+.post-content .mv-create-card .mv-create-wrapper > div {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.post-content .mv-create-card .mv-create-wrapper {
+margin-left: unset !important;
+margin-right: unset !important;
+border: unset !important;
+}
+ol .mv-ad-box {
+margin-left: -40px !important;
+}
+}
+/* End of CSS */		</style>
+		
+<!--Favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/favicon/favicon-16x16.png">
+<link rel="mask-icon" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/safari-pinned-tab.svg" color="#007eaf">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="preload" as="image" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/mobile-header/logo-mobile.png" media="(max-width: 800px)">
+<link rel="preload" as="image" href="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/images/logo@2x.png" media="(min-width: 800.1px)">
+
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=UA-33227271-1"></script>
+<script type="rocketlazyloadscript">
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-33227271-1');
+</script>
+
+<link data-minify="1" rel='stylesheet' id='mv-create-card_centered-css' href='https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/plugins/mediavine-create/client/build/card-centered.1.9.11.css?ver=1758726758' type='text/css' media='all' />
+
+
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.17.2.1" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_preload_fonts wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_desktop wpr_preload_links" /></head>
+
+<body class="wp-singular post-template-default single single-post postid-1910 single-format-standard wp-embed-responsive wp-theme-homemadeinthekitchen">
+<div  id="skip"><a href="#content">Skip to Main Content</a></div>
+
+	
+	<input type="checkbox" id="custom-mobile-search-trigger" aria-hidden="true" />
+	
+	<input type="checkbox" id="custom-mobile-header-trigger" aria-hidden="true" />
+	
+	<div  id="custom-mobile-header" class="layout-middle text-dark mh-sticky-true">
+		
+		<div  id="custom-mobile-top-bar" style="background-color: rgba(255,255,255, 0.98);">
+			
+			
+			<a href="https://www.chocolatemoosey.com/" id="custom-mobile-logo-link">
+				<img src="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/mobile-header/logo-mobile.png" alt="Homemade In The Kitchen" width="211" height="52" />
+			</a>
+			
+			<label id="custom-mobile-hamburger" for="custom-mobile-header-trigger">
+			    <span class="screen-reader-text">Mobile Menu Trigger</span>
+				<div id="custom-mobile-hamburger-trigger">
+					<span></span>
+				</div>
+			</label>
+			
+			<div  id="custom-mobile-form-wrapper">
+				<form role="search" method="get" class="search-form" action="https://www.chocolatemoosey.com/">
+    <input type="search" class="search-field search-input"
+        placeholder="search..."
+        value="" name="s"
+        aria-label="Search Keywords" />
+
+    <button type="submit" class="btn btn-success search-submit" aria-label="Submit">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="22" height="18"><!-- Font Awesome Pro 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg><span class="screen-reader-text">Submit</span>
+	</button>
+</form>			</div>
+			
+			<label id="custom-mobile-search" for="custom-mobile-search-trigger">
+			    <span class="screen-reader-text">Mobile Search Trigger</span>
+				<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-search fa-w-16 fa-2x"><path fill="currentColor" d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z" class=""></path></svg>
+				<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+			</label>
+			
+		</div>
+		
+		<div  id="custom-mobile-menu-container" style="background-color: rgba(255,255,255, 0.98);">
+				
+			<ul id="custom-mobile-menu" class="custom-mobile-menu"><li id="menu-item-47427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47427"><label for="recipes-0">Recipes</label>
+				<input type="checkbox" id="recipes-0" aria-hidden="true" />
+				<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z" fill="currentColor"></path></svg>
+				<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 11h12v2H6z" fill="currentColor"></path></svg>
+			
+<ul class="sub-menu">
+	<li id="menu-item-47436" class="bold menu-item menu-item-type-post_type menu-item-object-page menu-item-47436"><a href="https://www.chocolatemoosey.com/recipes/">Recipe Index</a></li>
+	<li id="menu-item-47429" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47429"><a href="https://www.chocolatemoosey.com/category/appetizers-and-party-foods/">Appetizers + Snacks</a></li>
+	<li id="menu-item-47430" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47430"><a href="https://www.chocolatemoosey.com/category/desserts/">Desserts</a></li>
+	<li id="menu-item-47431" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47431"><a href="https://www.chocolatemoosey.com/category/drinks/">Drinks</a></li>
+	<li id="menu-item-47432" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47432"><a href="https://www.chocolatemoosey.com/category/meat/">Meat</a></li>
+	<li id="menu-item-47433" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47433"><a href="https://www.chocolatemoosey.com/category/salads/">Salads</a></li>
+	<li id="menu-item-47434" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47434"><a href="https://www.chocolatemoosey.com/category/sidedishes/">Side Dishes</a></li>
+	<li id="menu-item-47435" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-47435"><a href="https://www.chocolatemoosey.com/category/soupsandstews/">Soups + Stews</a></li>
+</ul>
+</li>
+<li id="menu-item-47425" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47425"><a href="https://www.chocolatemoosey.com/category/occasion/valentines-day/">Romantic Recipes For Two</a></li>
+<li id="menu-item-47426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47426"><label for="about-0">About</label>
+				<input type="checkbox" id="about-0" aria-hidden="true" />
+				<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z" fill="currentColor"></path></svg>
+				<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 11h12v2H6z" fill="currentColor"></path></svg>
+			
+<ul class="sub-menu">
+	<li id="menu-item-47428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47428"><a href="https://www.chocolatemoosey.com/contact/">Contact</a></li>
+	<li id="menu-item-49525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49525"><a href="https://www.chocolatemoosey.com/work-with-me/">Work With Me</a></li>
+	<li id="menu-item-49526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49526"><a href="https://www.carlacardello.com/food/">Photography Portfolio</a></li>
+</ul>
+</li>
+<li id="menu-item-47441" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47441"><a target="_blank" rel="noopener" href="https://homemadeinthekitchen.ck.page/872e5af867">Subscribe</a></li>
+</ul>			
+						
+		</div>
+		
+	</div>
+	
+
+<header  class="header">
+<div  class="wrap">
+	
+			<div  class="logo">
+			<a href="https://www.chocolatemoosey.com/" title="Homemade In The Kitchen" rel="home">
+			<img src="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/images/logo@2x.png" 
+			srcset="https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/images/logo.png 1x,
+				   https://www.chocolatemoosey.com/wp-content/themes/homemadeinthekitchen/images/logo@2x.png 2x"
+			alt="Homemade In The Kitchen - Small Batch Recipes and Recipes For Two"
+			width="386" height="110" data-pin-nopin="true" />
+			</a>
+		</div>
+		
+	
+	<div  class="top-stuff">
+	
+		<nav id="top" class="top-nav">
+			<ul id="topmenu" class="topmenu">
+							</ul>
+		</nav>
+		
+		<div class="social">
+			<a href="https://www.facebook.com/homemadeinthekitchen" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://instagram.com/homemadeinthekitchen" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.pinterest.com/homemadeinthekitchen/" aria-label="Pinterest" target="_blank" rel="noopener"><i class="fab fa-pinterest-p"></i></a>
+		</div>
+	
+		<div class="header-search">
+			<form role="search" method="get" class="search-form" action="https://www.chocolatemoosey.com/">
+    <input type="search" class="search-field search-input"
+        placeholder="search..."
+        value="" name="s"
+        aria-label="Search Keywords" />
+
+    <button type="submit" class="btn btn-success search-submit" aria-label="Submit">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="22" height="18"><!-- Font Awesome Pro 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg><span class="screen-reader-text">Submit</span>
+	</button>
+</form>		</div>
+	
+	</div>
+	
+	<nav id="main" class="main-nav">
+		<ul id="mainmenu" class="mainmenu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47427"><a href="https://www.chocolatemoosey.com/recipes/">Recipes</a>
+<ul class="sub-menu">
+	<li class="bold menu-item menu-item-type-post_type menu-item-object-page menu-item-47436"><a href="https://www.chocolatemoosey.com/recipes/">Recipe Index</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47429"><a href="https://www.chocolatemoosey.com/category/appetizers-and-party-foods/">Appetizers + Snacks</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47430"><a href="https://www.chocolatemoosey.com/category/desserts/">Desserts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47431"><a href="https://www.chocolatemoosey.com/category/drinks/">Drinks</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47432"><a href="https://www.chocolatemoosey.com/category/meat/">Meat</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47433"><a href="https://www.chocolatemoosey.com/category/salads/">Salads</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47434"><a href="https://www.chocolatemoosey.com/category/sidedishes/">Side Dishes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-47435"><a href="https://www.chocolatemoosey.com/category/soupsandstews/">Soups + Stews</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47425"><a href="https://www.chocolatemoosey.com/category/occasion/valentines-day/">Romantic Recipes For Two</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47426"><a href="https://www.chocolatemoosey.com/about-3/">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47428"><a href="https://www.chocolatemoosey.com/contact/">Contact</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49525"><a href="https://www.chocolatemoosey.com/work-with-me/">Work With Me</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49526"><a href="https://www.carlacardello.com/food/">Photography Portfolio</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47441"><a target="_blank" href="https://homemadeinthekitchen.ck.page/872e5af867">Subscribe</a></li>
+		</ul>
+	</nav>
+
+	<div  class="clear"></div>
+</div>
+</header>
+
+<div  class="clear"></div><div  class="wrapper">
+<div  id="content" class="col span_10 clr span_content">
+
+<article  class="post single-post-content">
+
+	<div class="breadcrumb"><span><span><a href="https://www.chocolatemoosey.com/">Home</a></span> » <span><a href="https://www.chocolatemoosey.com/category/soupsandstews/">Soups + Stews</a></span> » <span class="breadcrumb_last" aria-current="page">Kohlrabi Soup (with Kohlrabi Greens)</span></span></div> 	
+ 	<h1 class="post-title">Kohlrabi Soup (with Kohlrabi Greens)</h1>
+
+ 	<div class="post-meta">
+		  
+		<em>posted by</em> <a href="https://www.chocolatemoosey.com" title="Visit Carla&#8217;s website" rel="author external">Carla</a>		<em>on</em> Feb 17, 2022 <em>(updated </em>Feb 14, 2024<em>)</em> 		<span class="spacer"></span>
+		<span class="ccount"><a href="https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#comments">35 comments »</a></span>
+		
+	</div>
+	  	
+	<div class="post-content">
+		<div id="dpsp-content-top" class="dpsp-content-wrapper dpsp-shape-circle dpsp-size-medium dpsp-no-labels dpsp-no-labels-mobile dpsp-show-on-mobile dpsp-button-style-6" style="min-height:40px;position:relative">
+	<ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-share dpsp-networks-btns-content dpsp-column-auto " style="padding:0;margin:0;list-style-type:none">
+<li class="dpsp-network-list-item dpsp-network-list-item-facebook" style="float:left">
+	<a rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F&#038;t=Kohlrabi%20Soup%20%28with%20Kohlrabi%20Greens%29" class="dpsp-network-btn dpsp-facebook dpsp-no-label dpsp-first dpsp-has-label-mobile" target="_blank" aria-label="Share on Facebook" title="Share on Facebook" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 18 32"><path d="M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z"></path></svg></span>
+	</span>
+	</a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-x" style="float:left">
+	<a rel="nofollow noopener" href="https://x.com/intent/tweet?text=Kohlrabi%20Soup%20%28with%20Kohlrabi%20Greens%29&#038;url=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F" class="dpsp-network-btn dpsp-x dpsp-no-label dpsp-has-label-mobile" target="_blank" aria-label="Share on X" title="Share on X" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 30"><path d="M30.3 29.7L18.5 12.4l0 0L29.2 0h-3.6l-8.7 10.1L10 0H0.6l11.1 16.1l0 0L0 29.7h3.6l9.7-11.2L21 29.7H30.3z M8.6 2.7 L25.2 27h-2.8L5.7 2.7H8.6z"></path></svg></span>
+	</span>
+	</a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-pinterest" style="float:left">
+	<button rel="nofollow noopener" data-href="#" class="dpsp-network-btn dpsp-pinterest dpsp-no-label dpsp-has-label-mobile" target="_blank" aria-label="Save to Pinterest" title="Save to Pinterest" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 23 32"><path d="M0 10.656q0-1.92 0.672-3.616t1.856-2.976 2.72-2.208 3.296-1.408 3.616-0.448q2.816 0 5.248 1.184t3.936 3.456 1.504 5.12q0 1.728-0.32 3.36t-1.088 3.168-1.792 2.656-2.56 1.856-3.392 0.672q-1.216 0-2.4-0.576t-1.728-1.568q-0.16 0.704-0.48 2.016t-0.448 1.696-0.352 1.28-0.48 1.248-0.544 1.12-0.832 1.408-1.12 1.536l-0.224 0.096-0.16-0.192q-0.288-2.816-0.288-3.36 0-1.632 0.384-3.68t1.184-5.152 0.928-3.616q-0.576-1.152-0.576-3.008 0-1.504 0.928-2.784t2.368-1.312q1.088 0 1.696 0.736t0.608 1.824q0 1.184-0.768 3.392t-0.8 3.36q0 1.12 0.8 1.856t1.952 0.736q0.992 0 1.824-0.448t1.408-1.216 0.992-1.696 0.672-1.952 0.352-1.984 0.128-1.792q0-3.072-1.952-4.8t-5.12-1.728q-3.552 0-5.952 2.304t-2.4 5.856q0 0.8 0.224 1.536t0.48 1.152 0.48 0.832 0.224 0.544q0 0.48-0.256 1.28t-0.672 0.8q-0.032 0-0.288-0.032-0.928-0.288-1.632-0.992t-1.088-1.696-0.576-1.92-0.192-1.92z"></path></svg></span>
+	</span>
+	</button></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
+	<a rel="nofollow noopener" href="mailto:?subject=Kohlrabi%20Soup%20%28with%20Kohlrabi%20Greens%29&#038;body=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last dpsp-has-label-mobile" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 28 32"><path d="M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z"></path></svg></span>
+	</span>
+	</a></li>
+</ul></div>
+<div class="mv-create-jtr-wrapper"><a href="#mv-creation-95-jtr" class="mv-create-jtr mv-create-jtr-slot-v2 mv-create-jtr-link mv-create-jtr-button-uppercase"><svg class="mv-create-jtr-caret" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 444.819 444.819" width="16px" height="16px"><path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561 L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416 C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848 c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693 C444.819,130.287,441.295,121.629,434.252,114.203z"/></svg> Jump to Recipe</a></div><style>.mv-create-jtr-wrapper{margin-bottom:20px}a.mv-create-jtr-link{display:inline-block;padding:10px 10px 10px 0;color:#333;font-size:16px;text-decoration:none!important;-webkit-transition:color .5s;transition:color .5s}a.mv-create-jtr-link:hover,a.mv-create-jtr-link:focus{color:#666}.mv-create-jtr-link .mv-create-jtr-caret{margin-right:5px;padding-top:6px;fill:#333}.mv-create-jtr-link:hover .mv-create-jtr-caret,.mv-create-jtr-link:focus .mv-create-jtr-caret{fill:#666}.mv-create-jtr-button-uppercase{text-transform:uppercase}</style><p><em>Not sure what to do with kohlrabi leaves? Make this beautifully orange Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It&#8217;s a gluten free vegan soup, perfect for when you want a meatless meal.</em></p>
+<p><center><br />
+<img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-27065" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg" alt="Kohlrabi Soup with Kohlrabi Greens in a silver ridged bowl on a dark gray plate" width="650" height="975" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983.jpg 650w, https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9983-364x546.jpg 364w" sizes="(max-width: 650px) 100vw, 650px" /></center><br />
+Have you heard of kohlrabi?</p>
+<p>I bet it&#8217;s a vegetable most of you have never heard of, let alone eaten.</p>
+<p>It translates into &#8220;cabbage turnip,&#8221; which is the best way to describe this vegetable. Eating it raw reminds me of a radish without such a strong bite.</p>
+<p>Not only are the bulbs edible, so are the leaves. That&#8217;s why my Kohlrabi Soup with Kohlrabi Greens incorporates both. No food waste!</p>
+<p>It&#8217;s a bright orange vegetable soup with kohlrabi and sweet potato. After some changes I made it a gluten free vegan soup, but you would never know after taking a bite.</p>
+<p>I first learned about kohlrabi when I was reading my always-reliable vegetable cookbook &#8211; <a href="https://amzn.to/3LRLuXo" target="_blank" rel="nofollow noopener">Greene on Greens</a>.</p>
+<p>One of the chapters is dedicated to kohlrabi, which I skipped because I&#8217;ve never heard of it. Then one day I was shopping at my local farm when I spotted some for sale.</p>
+<p>I have a habit of buying new things and figuring out what to do with them later. Remembering the chapter I skipped, I grabbed a bunch and made them for dinner.</p>
+<p>This was back in 2011. Turns out I was developing recipes way before I realized it because I made a bunch of changes to the original kohlrabi soup recipe.</p>
+<p>It called for boned-in chicken to be cooked in the broth, but I didn&#8217;t have time. Plus I had a sweet potato ready to go rotten, so I added that instead.</p>
+<p>I also omitted the bacon because I was afraid it would overpower the kohlrabi. Turns out I accidentally made this soup vegan.</p>
+<p>My kohlrabi soup gets its beautiful orange color from pureeing carrots. Sure, it&#8217;s one extra step, but the carrot base builds an extra layer of flavor.</p>
+<p>Serve it with <a href="https://www.chocolatemoosey.com/vegan-stuffed-butternut-squash/">stuffed butternut squash</a>, <a href="https://www.chocolatemoosey.com/artichoke-olive-quiche/">vegetarian quiche</a>, or <a href="https://www.chocolatemoosey.com/greek-pita-pizza/">pita pizza</a> to make it a complete meal.</p>
+<p><span id="more-1910"></span></p>
+<p><center><br />
+<img decoding="async" class="alignnone size-full wp-image-27068" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-with-Kohlrabi-Greens-photo-9977.jpg" alt="Kohlrabi on brown table" width="650" height="975"></center></p>
+<h2>What is kohlrabi?</h2>
+<p>Kohlrabi is a cruciferous vegetable, which is fancy botanist speak for being in the cabbage family. If you enjoy cabbage, broccoli, and even <a href="https://www.chocolatemoosey.com/roasted-brussels-sprouts/">roasted Brussels sprouts</a>, there&#8217;s a high chance you&#8217;ll also love kohlrabi.</p>
+<h2>Can you eat kohlrabi leaves?</h2>
+<p>Absolutely! Kohlrabi greens are similar to eating kale or Swiss chard, so if you&#8217;re lucky to find them with the leaves, grab them. The stems are edible as well.</p>
+<p><center><br />
+<img decoding="async" class="alignnone size-full wp-image-27066" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9988.jpg" alt="Kohlrabi Soup with Kohlrabi Greens in a silver ridged bowl on a dark gray plate" width="650" height="975"></center></p>
+<h2>What does kohlrabi taste like?</h2>
+<p>The kohlrabi bulbs have a sweet yet peppery flavor, much like a radish. The kohlrabi greens taste similar to kale leaves with a mild leafy flavor.</p>
+<h2>When is kohlrabi in season?</h2>
+<p>Like most produce you can often find kohlrabi all year long. However, kohlrabi peak season is from winter to early spring (roughly November &#8211; April).</p>
+<p>That would make my kohlrabi soup a great side or main dish for your <a href="https://www.chocolatemoosey.com/thanksgiving-dinner-for-two/">Thanksgiving Dinner For Two</a>.</p>
+<p>If you have a farmer&#8217;s market during those months, you&#8217;ll have a higher chance of finding kohlrabi intact with its leaves.</p>
+<p>Although my local grocery store had kohlrabi with greens, the leaves were a bit wilted.</p>
+<p><center><br />
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-27064" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001.jpg" alt="Kohlrabi Soup with Kohlrabi Greens in a silver ridged bowl on a dark gray plate" width="650" height="433"></center></p>
+<h2>How To Prepare Kohlrabi</h2>
+<p>To prepare kohlrabi, there are two parts:</p>
+<p><b>For the bulb</b>: Cut off the stems and leaves until you&#8217;re left with the bulb. Peel then thinly slice the ends so it sits flat on your cutting board.</p>
+<p>Cut the bulb in half then cut the halves into half so you have 4 quarter pieces. Remove the core from each quarter.</p>
+<p>For diced kohlrabi, cut each half into slices then cut each slice into cubes.</p>
+<p>For step by step photos, check out The Kitchn&#8217;s <a href=" https://www.thekitchn.com/how-to-cut-up-kohlrabi-cooking-lessons-from-the-kitchn-205838">how to cut up kohlrabi</a> guide.</p>
+<p><b>For the greens</b>: Wash the leaves then dry. If you&#8217;re not using the stems, cut and discard those.</p>
+<p>Next, cut the greens into bite-sized pieces.</p>
+<p><center><br />
+<img loading="lazy" decoding="async" class="alignnone size-full wp-image-27067" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-9998.jpg" alt="Close up of Kohlrabi Soup in silver ridged bowl" width="650" height="433"></center></p>
+<h2>How To Make Kohlrabi Soup</h2>
+<p>First, heat your oil in a Dutch oven or similar large pot. You can also use butter (which no longer makes this soup vegan but still a delicious vegetarian dinner).</p>
+<p>Once hot, add your onion, carrot, and a big pinch of salt. Cook until they start to brown.</p>
+<p>Next, add some of the broth then cook until the carrots are soft.</p>
+<p>Add the mixture to your blender and blend until smooth. Transfer the carrot puree back into the pot then add the remaining broth. Bring to a boil.</p>
+<p>Once boiling, add your kohlrabi and sweet potato. Cook until fork tender, about 15 minutes.</p>
+<p>Add your leaves then cook another 3-5 minutes or until the greens are softened. Stir in lemon juice and enjoy!</p>
+<blockquote><p>
+If you really want to go all out with this soup, learn <a href="https://tablematters.com/how-to-make-vegetable-stock/" target="_blank" rel="noopener">how to make vegetable stock</a> from Table Matters rather than buying a box.
+</p></blockquote>
+<h2>Did you change this recipe?</h2>
+<p>Busted! If you&#8217;ve made my kohlrabi soup recipe between 2011-2022, you may notice the directions are different.</p>
+<p>For whatever reason the original recipe was unnecessarily complicated with extra pans. Plus it used flour to thicken it, but honestly it doesn&#8217;t need it.</p>
+<p>I was tempted to skip the blending as well, but the carrot puree adds a lovely layer of flavor as well as a beautiful orange color rather than your typical brown broth soup.</p>
+<p>Trust me &#8211; that little extra effort is totally worth it.</p>
+<blockquote>
+<h2>More Vegetarian Soup Recipes</h2>
+<ul>
+<li><a href="https://www.chocolatemoosey.com/roasted-jalapeno-soup/">Roasted Jalapeno Soup</a></li>
+<li><a href=" https://www.chocolatemoosey.com/broccoli-cheese-soup/">Broccoli Cheese Soup</a></li>
+<li><a href="https://www.chocolatemoosey.com/creamy-onion-bacon-soup/">Cream Of Onion Soup</a> (omit the bacon)</li>
+<li><a href="https://www.chocolatemoosey.com/one-pot-lasagna-soup-two/">One Pot Lasagna Soup</a></li>
+<li><a href="https://www.rachelcooks.com/carrot-soup-with-crispy-shallots/">Creamy Carrot Soup</a> by Rachel Cooks</li>
+</ul>
+</blockquote>
+<p>			<div id="mv-creation-95-jtr-hint-wrapper" class="mv-create-jtr-hint-wrapper">
+			<div id="mv-creation-95-jtr" class="mv-pre-create-target">
+				<div class="mv-create-jtr-continue" style="display:none"><a href="#mv-creation-95" class="mv-create-jtr mv-create-jtr-link mv-create-jtr-button-uppercase"><svg class="mv-create-jtr-caret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444.819 444.819" width="16px" height="16px"><path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561 L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416 C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848 c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693 C444.819,130.287,441.295,121.629,434.252,114.203z" /></svg> Continue to Content</a></div>			</div>
+				<section id="mv-creation-95" class="mv-create-card mv-create-card-95 mv-recipe-card mv-create-card-style-centered mv-no-js mv-create-center-cards mv-create-has-uppercase mv-create-has-image " style="position: relative;">
+		
+		<div class="mv-create-wrapper">
+
+			
+			<header class="mv-create-header">
+				<img decoding="async" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001-320x320.jpg" class="mv-create-image no_pin ggnoads" data-pin-nopin="true" alt="Kohlrabi Soup with Kohlrabi Greens in a silver ridged bowl on a dark gray plate" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001-320x320.jpg 320w, https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001-200x200.jpg 200w" sizes="(max-width: 320px) 100vw, 320px" data-pin-media="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001.jpg"><div class="mv-pinterest-btn mv-pinterest-btn-right" data-mv-pinterest-desc="Kohlrabi%20Soup%20with%20Kohlrabi%20Greens" data-mv-pinterest-img-src="https%3A%2F%2Fwww.chocolatemoosey.com%2Fwp-content%2Fuploads%2F2011%2F01%2FKohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001.jpg" data-mv-pinterest-url="https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F"></div>
+<h2 class="mv-create-title mv-create-title-primary">Kohlrabi Soup with Kohlrabi Greens</h2>
+
+<div class="mv-create-times mv-create-times-3">
+
+				<div class="mv-create-time mv-create-time-yield">
+				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Yield: </em>
+				<span class="mv-create-time-format mv-create-uppercase">4-6 servings</span>
+			</div>
+	
+						<div class="mv-create-time mv-create-time-prep">
+				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Prep Time: </em>
+				<span class="mv-create-time-format mv-create-uppercase"><span class="mv-time-part mv-time-minutes">30 minutes</span> </span>
+			</div>
+					<div class="mv-create-time mv-create-time-active">
+				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Cook Time: </em>
+				<span class="mv-create-time-format mv-create-uppercase"><span class="mv-time-part mv-time-hours">1 hour</span> </span>
+			</div>
+					<div class="mv-create-time mv-create-time-total">
+				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Total Time: </em>
+				<span class="mv-create-time-format mv-create-uppercase"><span class="mv-time-part mv-time-hours">1 hour</span> <span class="mv-time-part mv-time-minutes">30 minutes</span> </span>
+			</div>
+			
+</div>
+		<div class="mv-create-description">
+			<p><em>Not sure what to do with kohlrabi leaves? Make this beautifully orange Kohlrabi Soup with kohlrabi greens, sweet potato, and carrots! It’s a gluten free vegan soup, perfect for when you want a meatless meal.</em></p>
+		</div>
+		<form class="mv-create-print-form">
+		<button class="mv-create-button mv-create-print-button" data-mv-print="https://www.chocolatemoosey.com/wp-json/mv-create/v1/creations/95/print">
+			Print		</button>
+	</form>
+			</header>
+
+				<div id="mv-create-95" class="mv-create-reviews" data-mv-create-id="95" data-mv-create-rating="4.4" data-mv-create-total-ratings="88" data-mv-rest-url="https://www.chocolatemoosey.com/wp-json/"></div>
+	<!-- This is a button so it inherits theme styles -->
+<div class="mv-create-target mv-create-primary-unit"><div class="mv_slot_target" data-slot="recipe"></div></div>	<div class="mv-create-ingredients">
+		<h3 class="mv-create-ingredients-title mv-create-title-secondary">Ingredients</h3>
+
+											<ul>
+									<li>
+						1 tablespoon olive oil					</li>
+									<li>
+						    Salt (preferably kosher), to taste					</li>
+									<li>
+						    1/4 cup diced white or yellow onion					</li>
+									<li>
+						    1 large carrot, peeled and diced					</li>
+									<li>
+						    1 clove garlic, minced					</li>
+									<li>
+						    5 cups vegetable broth/stock					</li>
+									<li>
+						    1 pound kohlrabi, bulbs peeled and diced and leaves chopped					</li>
+									<li>
+						    1 small sweet potato, peeled and diced (roughly 8 ounces)					</li>
+									<li>
+						    1 tablespoon lemon juice					</li>
+							</ul>
+			</div>
+		<div class="mv-create-hands-free"></div>
+		<div class="mv-create-instructions mv-create-instructions-slot-v2">
+		<h3 class="mv-create-instructions-title mv-create-title-secondary">Instructions</h3>
+		<ol><li id="mv_create_95_1">In a Dutch oven or large pot, add the oil. Once hot, add the onion, carrot, and a big pinch of salt. Cook until they start to soften and brown, about 3-5 minutes. Add the garlic and cook 1 minute.</li><li id="mv_create_95_2">Add 1 + 1/2 cups broth and bring to a boil. Cook until carrots are softened, about 8-10 minutes.</li><li id="mv_create_95_3">Transfer mixture to a blender and blend until smooth. There should be enough broth but if it's too thick to blend, you can add a little more.</li><li id="mv_create_95_4">Pour the carrot puree back into the Dutch oven. Add the remaining 3 + 1/2 cups broth then bring to a boil.</li><li id="mv_create_95_5">Once boiling, add the kohlrabi bulbs, sweet potato, and a big pinch of salt. Cook until fork tender, about 15 minutes.<br><br>You should have enough broth, but if your vegetable amounts are bigger than indicated, it's possible you may need to add more as the vegetables will absorb the broth.</li><li id="mv_create_95_6">Add kohlrabi leaves and cook 3-5 minutes until the leaves are softened. Add lemon juice then taste and adjust for salt.</li></ol>	</div>
+		<div class="mv-create-products">
+			<h3 class="mv-create-products-title mv-create-title-secondary">Recommended Products</h3>
+
+							<p class="mv-create-affiliate-disclaimer">As an Amazon Associate and member of other affiliate programs, I earn from qualifying purchases.</p>
+			
+			<ul class="mv-create-products-list">
+				
+				<li class="mv-create-products-listitem">
+					<a class="mv-create-products-link" href="https://www.amazon.com/Calphalon-Classic-Nonstick-Dutch-Cover/dp/B01CY3MW6U/ref=sr_1_6?dchild=1&amp;keywords=5+quart+dutch+oven&amp;qid=1620151794&amp;s=home-garden&amp;sr=1-6" rel="nofollow noopener" target="_blank">
+													<div class="mv-create-products-imgwrap" id="img-wrap-1126">
+																	<img loading="lazy" decoding="async" class="mv-create-products-img obj-fit no_pin ggnoads" src="https://m.media-amazon.com/images/I/318gX+diqjL._SL500_.jpg" alt="Dutch Oven" nopin="nopin" height="240" width="240" />
+															</div>
+												<div class="mv-create-products-product-name">
+							Dutch Oven						</div>
+					</a>
+				</li>
+
+							</ul>
+		</div>
+			<div class="mv-create-social">
+		<a href="https://instagram.com/homemadeinthekitchen" title="Instagram: homemadeinthekitchen" class="mv-create-social-link" target="_blank" rel="noreferrer noopener"><div class="mv-create-social-icon mv-create-social-icon-instagram">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26px" height="26px" class="svg svg-instagram">
+		<path d="M 7.546875 0 C 3.390625 0 0 3.390625 0 7.546875 L 0 18.453125 C 0 22.609375 3.390625 26 7.546875 26 L 18.453125 26 C 22.609375 26 26 22.609375 26 18.453125 L 26 7.546875 C 26 3.390625 22.609375 0 18.453125 0 Z M 7.546875 2 L 18.453125 2 C 21.527344 2 24 4.46875 24 7.546875 L 24 18.453125 C 24 21.527344 21.53125 24 18.453125 24 L 7.546875 24 C 4.472656 24 2 21.53125 2 18.453125 L 2 7.546875 C 2 4.472656 4.46875 2 7.546875 2 Z M 20.5 4 C 19.671875 4 19 4.671875 19 5.5 C 19 6.328125 19.671875 7 20.5 7 C 21.328125 7 22 6.328125 22 5.5 C 22 4.671875 21.328125 4 20.5 4 Z M 13 6 C 9.144531 6 6 9.144531 6 13 C 6 16.855469 9.144531 20 13 20 C 16.855469 20 20 16.855469 20 13 C 20 9.144531 16.855469 6 13 6 Z M 13 8 C 15.773438 8 18 10.226563 18 13 C 18 15.773438 15.773438 18 13 18 C 10.226563 18 8 15.773438 8 13 C 8 10.226563 10.226563 8 13 8 Z " />
+	</svg>
+</div>
+</a>		<div class="mv-create-social-content">
+			<h3 class="mv-create-social-title mv-create-title-secondary">Did you make this recipe?</h3>
+			<p class="mv-create-social-body">Let me know what you think! Rate the recipe above, leave a comment below, and/or share a photo on Instagram using #HITKrecipes</p>
+		</div>
+	</div>
+
+		</div>
+
+		<footer class="mv-create-footer">
+			
+<div class="mv-create-footer-flexbox">
+
+			<div class="mv-create-copy">&copy; Carla Cardello</div>
+	
+	<div class="mv-create-categories">
+
+					<span class="mv-create-cuisine">
+				<strong class="mv-create-uppercase mv-create-strong">
+					Cuisine:
+				</strong>
+				American			</span>
+							<span class="mv-create-spacer">/</span>
+					
+					<span class="mv-create-category"><strong class="mv-create-uppercase mv-create-strong">Category:</strong> Soups + Stews</span>
+		
+	</div>
+
+	<img decoding="async" src="https://www.chocolatemoosey.com/wp-content/uploads/2011/01/Kohlrabi-Soup-with-Kohlrabi-Greens-recipe-photo-0001.jpg" alt="" data-pin-description="" class="mv-create-pinterest no_pin ggnoads">
+</div>
+		</footer>
+
+		
+	</section>
+
+				</div>
+		Source: Adapted from Greene on Greens cookbook, page 213</p>
+<p><em>Originally published January 9, 2011</em></p>
+<span class="cp-load-after-post"></span><div id="dpsp-content-bottom" class="dpsp-content-wrapper dpsp-shape-circle dpsp-size-medium dpsp-no-labels dpsp-no-labels-mobile dpsp-show-on-mobile dpsp-button-style-6" style="min-height:40px;position:relative">
+	<ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-share dpsp-networks-btns-content dpsp-column-auto " style="padding:0;margin:0;list-style-type:none">
+<li class="dpsp-network-list-item dpsp-network-list-item-facebook" style="float:left">
+	<a rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F&#038;t=Kohlrabi%20Soup%20%28with%20Kohlrabi%20Greens%29" class="dpsp-network-btn dpsp-facebook dpsp-no-label dpsp-first dpsp-has-label-mobile" target="_blank" aria-label="Share on Facebook" title="Share on Facebook" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 18 32"><path d="M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z"></path></svg></span>
+	</span>
+	</a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-x" style="float:left">
+	<a rel="nofollow noopener" href="https://x.com/intent/tweet?text=Kohlrabi%20Soup%20%28with%20Kohlrabi%20Greens%29&#038;url=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F" class="dpsp-network-btn dpsp-x dpsp-no-label dpsp-has-label-mobile" target="_blank" aria-label="Share on X" title="Share on X" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 30"><path d="M30.3 29.7L18.5 12.4l0 0L29.2 0h-3.6l-8.7 10.1L10 0H0.6l11.1 16.1l0 0L0 29.7h3.6l9.7-11.2L21 29.7H30.3z M8.6 2.7 L25.2 27h-2.8L5.7 2.7H8.6z"></path></svg></span>
+	</span>
+	</a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-pinterest" style="float:left">
+	<button rel="nofollow noopener" data-href="#" class="dpsp-network-btn dpsp-pinterest dpsp-no-label dpsp-has-label-mobile" target="_blank" aria-label="Save to Pinterest" title="Save to Pinterest" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 23 32"><path d="M0 10.656q0-1.92 0.672-3.616t1.856-2.976 2.72-2.208 3.296-1.408 3.616-0.448q2.816 0 5.248 1.184t3.936 3.456 1.504 5.12q0 1.728-0.32 3.36t-1.088 3.168-1.792 2.656-2.56 1.856-3.392 0.672q-1.216 0-2.4-0.576t-1.728-1.568q-0.16 0.704-0.48 2.016t-0.448 1.696-0.352 1.28-0.48 1.248-0.544 1.12-0.832 1.408-1.12 1.536l-0.224 0.096-0.16-0.192q-0.288-2.816-0.288-3.36 0-1.632 0.384-3.68t1.184-5.152 0.928-3.616q-0.576-1.152-0.576-3.008 0-1.504 0.928-2.784t2.368-1.312q1.088 0 1.696 0.736t0.608 1.824q0 1.184-0.768 3.392t-0.8 3.36q0 1.12 0.8 1.856t1.952 0.736q0.992 0 1.824-0.448t1.408-1.216 0.992-1.696 0.672-1.952 0.352-1.984 0.128-1.792q0-3.072-1.952-4.8t-5.12-1.728q-3.552 0-5.952 2.304t-2.4 5.856q0 0.8 0.224 1.536t0.48 1.152 0.48 0.832 0.224 0.544q0 0.48-0.256 1.28t-0.672 0.8q-0.032 0-0.288-0.032-0.928-0.288-1.632-0.992t-1.088-1.696-0.576-1.92-0.192-1.92z"></path></svg></span>
+	</span>
+	</button></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
+	<a rel="nofollow noopener" href="mailto:?subject=Kohlrabi%20Soup%20%28with%20Kohlrabi%20Greens%29&#038;body=https%3A%2F%2Fwww.chocolatemoosey.com%2Fhungarian-kohlrabi-soup-kalarabeleves%2F" class="dpsp-network-btn dpsp-email dpsp-no-label dpsp-last dpsp-has-label-mobile" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon ">
+		<span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 28 32"><path d="M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z"></path></svg></span>
+	</span>
+	</a></li>
+</ul></div>
+	</div>
+
+	<div class="disclosure disclosure-bottom">
+	<p>This post may contain affiliate links. As an Amazon Associate and member of other affiliate programs, I earn from qualifying purchase.</p>
+	</div>
+	
+ 	<div class="post-meta meta-bottom">
+		
+		<div class="post-cats">
+			<a href="https://www.chocolatemoosey.com/category/soupsandstews/" rel="category tag">Soups + Stews</a> <a href="https://www.chocolatemoosey.com/category/occasion/thanksgiving/" rel="category tag">Thanksgiving</a> <a href="https://www.chocolatemoosey.com/category/occasion/winter/" rel="category tag">winter</a>			<a href="https://www.chocolatemoosey.com/tag/broth-stock/" rel="tag">broth/stock</a> <a href="https://www.chocolatemoosey.com/tag/carrots/" rel="tag">carrots</a> <a href="https://www.chocolatemoosey.com/tag/garlic/" rel="tag">garlic</a> <a href="https://www.chocolatemoosey.com/tag/gluten-free/" rel="tag">gluten free</a> <a href="https://www.chocolatemoosey.com/tag/kohlrabi/" rel="tag">kohlrabi</a> <a href="https://www.chocolatemoosey.com/tag/onions/" rel="tag">onions</a> <a href="https://www.chocolatemoosey.com/tag/sweet-potato/" rel="tag">sweet potato</a> <a href="https://www.chocolatemoosey.com/tag/vegan/" rel="tag">vegan</a> <a href="https://www.chocolatemoosey.com/tag/vegetarian/" rel="tag">vegetarian</a> 
+		</div>
+		<p>
+ 		<em>originally published on</em> Feb 17, 2022 <em>(last updated </em>Feb 14, 2024<em>)</em> 		</p>
+		<p>
+ 		<span class="ccount"><a href="https://www.chocolatemoosey.com/hungarian-kohlrabi-soup-kalarabeleves/#comments">35 comments</a></span>
+ 		<span class="spacer"></span>
+ 		<a href="#respond">Leave a comment &raquo;</a>
+ 		
+				</p>
+		
+	</div>
+
+		
+</article> <!-- end .post -->
+
+<div data-wpr-lazyrender="1" class="inner-post">
+		</div>
+
+<div data-wpr-lazyrender="1" class="post-nav">
+	<div class="nav-previous"><em>&laquo; Previous Post</em> <a href="https://www.chocolatemoosey.com/ramekin-dessert-recipes/" rel="prev">30+ Ramekin Dessert Recipes</a></div>
+	<div class="nav-next"><em>Next Post &raquo;</em> <a href="https://www.chocolatemoosey.com/how-to-make-ganache/" rel="next">How To Make Ganache (Small Batch)</a></div>
+</div>
+
+<div data-wpr-lazyrender="1" id="commentjump"></div>
+
+<div data-wpr-lazyrender="1" id="comments" class="comments-area">
+
+		
+		
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/hungarian-kohlrabi-soup-kalarabeleves/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.chocolatemoosey.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea autocomplete="new-password"  id="f01efbd0ba"  name="f01efbd0ba"   cols="45" rows="8" maxlength="65525" required="required"></textarea><textarea id="comment" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script type="rocketlazyloadscript" data-noptimize>document.getElementById("comment").setAttribute( "id", "a5d3fe50ac1c43e47626f375b9baa640" );document.getElementById("f01efbd0ba").setAttribute( "id", "comment" );</script></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required="required" /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required="required" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1910' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+		
+			
+		
+		<h2>
+			35 comments on &ldquo;Kohlrabi Soup (with Kohlrabi Greens)&rdquo;		</h2>
+			
+		<ol id="comment-list" class="comment-list">
+				    <li class="comment even thread-even depth-1" id="li-comment-473000">
+	        <div id="comment-473000" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>K P</strong>            	 &#8212; 
+                <time pubdate datetime="2019-11-05T11:27:01-05:00">
+                November 5, 2019 @ 11:27 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-473000" data-commentid="473000" data-postid="1910" data-belowelement="comment-473000" data-respondelement="respond" data-replyto="Reply to K P" aria-label="Reply to K P">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I don’t know if you’re still out there as it’s now 2019, but I just found this while trying to figure out what to do with some kohlrabi I was given. I already had the bulbs roasting in the oven and was looking for something to do with the leaves. This soup looks delicious! I may get some broth and carrots to try it today and make it with the roasted kohlrabi or just cook the leaves like I would collard greens and try this soup another day :) I can’t decide!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor odd alt depth-2" id="li-comment-473002">
+	        <div id="comment-473002" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2019-11-05T11:39:08-05:00">
+                November 5, 2019 @ 11:39 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-473002" data-commentid="473002" data-postid="1910" data-belowelement="comment-473002" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Yes I&#8217;m still here! You can see my latest posts on my home page :) Let me know what you think of the soup if you try it!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment even depth-3" id="li-comment-491487">
+	        <div id="comment-491487" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Donna Ryan-Cochrane</strong>            	 &#8212; 
+                <time pubdate datetime="2021-07-08T05:53:30-04:00">
+                July 8, 2021 @ 5:53 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-491487" data-commentid="491487" data-postid="1910" data-belowelement="comment-491487" data-respondelement="respond" data-replyto="Reply to Donna Ryan-Cochrane" aria-label="Reply to Donna Ryan-Cochrane">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>II am not actually replying to this comment, but hoping you are still reading about the soup.  I too was looking what to do with kohlrabi leaves and saw your recipe.   I have some growing but not ready to harvest.  This recipe is a keeper and I will make it as soon as I get them out of the ground.  I used the kohlrabi bulb raw in salads.  Thanks!!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor odd alt depth-4" id="li-comment-491499">
+	        <div id="comment-491499" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2021-07-08T09:48:54-04:00">
+                July 8, 2021 @ 9:48 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-491499" data-commentid="491499" data-postid="1910" data-belowelement="comment-491499" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Yes I&#8217;m still here! Glad you enjoyed the recipe and great idea using the bulb in salads.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment even depth-3" id="li-comment-522418">
+	        <div id="comment-522418" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Natalie b Masse</strong>            	 &#8212; 
+                <time pubdate datetime="2022-08-17T09:01:23-04:00">
+                August 17, 2022 @ 9:01 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-522418" data-commentid="522418" data-postid="1910" data-belowelement="comment-522418" data-respondelement="respond" data-replyto="Reply to Natalie b Masse" aria-label="Reply to Natalie b Masse">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Looks like a great soup to freeze. Has anyone tried to?</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor odd alt depth-4" id="li-comment-522419">
+	        <div id="comment-522419" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2022-08-17T09:43:09-04:00">
+                August 17, 2022 @ 9:43 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-522419" data-commentid="522419" data-postid="1910" data-belowelement="comment-522419" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I haven&#8217;t personally tried it, but you should be able to.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-474955">
+	        <div id="comment-474955" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Janine</strong>            	 &#8212; 
+                <time pubdate datetime="2020-06-16T14:07:45-04:00">
+                June 16, 2020 @ 2:07 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-474955" data-commentid="474955" data-postid="1910" data-belowelement="comment-474955" data-respondelement="respond" data-replyto="Reply to Janine" aria-label="Reply to Janine">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I just made this soup since I had Kohlrabi and always wanted to use the leaves too. Omg, it is sooooo good!!! Thank you for this!<br />
+Oh and I also live in Pittsburgh ????</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment odd alt depth-2" id="li-comment-503277">
+	        <div id="comment-503277" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Keshia Abraham</strong>            	 &#8212; 
+                <time pubdate datetime="2021-11-07T13:27:59-05:00">
+                November 7, 2021 @ 1:27 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-503277" data-commentid="503277" data-postid="1910" data-belowelement="comment-503277" data-respondelement="respond" data-replyto="Reply to Keshia Abraham" aria-label="Reply to Keshia Abraham">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Wow!  I stumbled here as I&#8217;m about to make a vegan soup with the rest of the veggies from last week&#8217;s farmer&#8217;s market finds: whole kohlrabi, sweet potato, carrot, a piece of pumpkin&#8230; and thought let&#8217;s see how other&#8217;s treat the leaves this time because usually I&#8217;d use the leaves on their own but it&#8217;s the perfect day for a yummy soup.  To my amazement, there&#8217;s a connection with my hometown!  I&#8217;m from Pittsburgh and headed home next weekend for a super quick visit and your shout out to the Strip district just reminded to me leave room in suitcase for the many treasures that await in the land of the black and gold!<br />
+ Thanks for sharing.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-3" id="li-comment-503335">
+	        <div id="comment-503335" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2021-11-07T19:26:07-05:00">
+                November 7, 2021 @ 7:26 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-503335" data-commentid="503335" data-postid="1910" data-belowelement="comment-503335" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Oh fun! Might need a second suitcase when you’re done 😂</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-475189">
+	        <div id="comment-475189" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Dinah Gleed-Owen</strong>            	 &#8212; 
+                <time pubdate datetime="2020-06-25T17:42:29-04:00">
+                June 25, 2020 @ 5:42 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-475189" data-commentid="475189" data-postid="1910" data-belowelement="comment-475189" data-respondelement="respond" data-replyto="Reply to Dinah Gleed-Owen" aria-label="Reply to Dinah Gleed-Owen">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I’m UK based and have grown kohlrabi for the first time. Have lots of them ready to go. The soup looks lovely, &amp; perfect for a vegetarian family like us</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-475203">
+	        <div id="comment-475203" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-06-26T13:47:13-04:00">
+                June 26, 2020 @ 1:47 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-475203" data-commentid="475203" data-postid="1910" data-belowelement="comment-475203" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Let me know how you like it!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-478041">
+	        <div id="comment-478041" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Jill Shellhammer</strong>            	 &#8212; 
+                <time pubdate datetime="2020-10-01T18:05:43-04:00">
+                October 1, 2020 @ 6:05 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-478041" data-commentid="478041" data-postid="1910" data-belowelement="comment-478041" data-respondelement="respond" data-replyto="Reply to Jill Shellhammer" aria-label="Reply to Jill Shellhammer">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I&#8217;ve recently discovered kohlrabi and I love it! I can&#8217;t wait to try this soup..at the end I may add some shredded chicken.<br />
+I&#8217;m also excited about your format with recipes for 1-2 people.<br />
+Thank you for what you do!<br />
+Enjoy!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-478056">
+	        <div id="comment-478056" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-10-02T10:01:34-04:00">
+                October 2, 2020 @ 10:01 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-478056" data-commentid="478056" data-postid="1910" data-belowelement="comment-478056" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Love the idea of adding chicken!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-478072">
+	        <div id="comment-478072" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Lynsey</strong>            	 &#8212; 
+                <time pubdate datetime="2020-10-03T10:11:54-04:00">
+                October 3, 2020 @ 10:11 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-478072" data-commentid="478072" data-postid="1910" data-belowelement="comment-478072" data-respondelement="respond" data-replyto="Reply to Lynsey" aria-label="Reply to Lynsey">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I’d love to know what the nutritional facts are to this recipe.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-478077">
+	        <div id="comment-478077" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-10-03T18:17:43-04:00">
+                October 3, 2020 @ 6:17 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-478077" data-commentid="478077" data-postid="1910" data-belowelement="comment-478077" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Unfortunately I do not provide nutritional info because I am not a nutritionist. You can use a calorie tracker site such as My Fitness Pal to calculate this info.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-478325">
+	        <div id="comment-478325" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="http://chocolatemoosey.com" class="url" rel="ugc external nofollow">Jesse</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-10-12T18:39:58-04:00">
+                October 12, 2020 @ 6:39 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-478325" data-commentid="478325" data-postid="1910" data-belowelement="comment-478325" data-respondelement="respond" data-replyto="Reply to Jesse" aria-label="Reply to Jesse">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I just made this soup with my first ever home grown kohlrabi and it was amazing! Followed the recipe exactly! </p>
+<p>Thanks so much!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-478341">
+	        <div id="comment-478341" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-10-13T11:40:05-04:00">
+                October 13, 2020 @ 11:40 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-478341" data-commentid="478341" data-postid="1910" data-belowelement="comment-478341" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Oh wonderful! Glad you enjoyed the soup.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-479760">
+	        <div id="comment-479760" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.mindmegette.hu/kereses/karal%C3%A1b%C3%A9leves/?filter=&#038;andFilter=&#038;koltseg=0&#038;elkeszitesi_ido=0,180&#038;nehezseg=0&#038;order=&#038;type=all" class="url" rel="ugc external nofollow">Diane</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-11-16T15:07:21-05:00">
+                November 16, 2020 @ 3:07 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-479760" data-commentid="479760" data-postid="1910" data-belowelement="comment-479760" data-respondelement="respond" data-replyto="Reply to Diane" aria-label="Reply to Diane">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I just made the soup and it was wonderful!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-479806">
+	        <div id="comment-479806" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2020-11-17T11:10:24-05:00">
+                November 17, 2020 @ 11:10 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-479806" data-commentid="479806" data-postid="1910" data-belowelement="comment-479806" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Glad you enjoyed the soup!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-491714">
+	        <div id="comment-491714" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Bryna</strong>            	 &#8212; 
+                <time pubdate datetime="2021-07-13T19:05:30-04:00">
+                July 13, 2021 @ 7:05 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-491714" data-commentid="491714" data-postid="1910" data-belowelement="comment-491714" data-respondelement="respond" data-replyto="Reply to Bryna" aria-label="Reply to Bryna">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Made it exactly as written, really good! Would consider adding chicken next time as mentioned above to make the macros more balanced, but it was delicious as written. May have to check out that cookbook where you got the inspiration from. Thanks!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-491759">
+	        <div id="comment-491759" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2021-07-14T10:26:46-04:00">
+                July 14, 2021 @ 10:26 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-491759" data-commentid="491759" data-postid="1910" data-belowelement="comment-491759" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Chicken would be a great addition. Glad you enjoyed the soup!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-494014">
+	        <div id="comment-494014" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Anne</strong>            	 &#8212; 
+                <time pubdate datetime="2021-08-28T16:14:51-04:00">
+                August 28, 2021 @ 4:14 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-494014" data-commentid="494014" data-postid="1910" data-belowelement="comment-494014" data-respondelement="respond" data-replyto="Reply to Anne" aria-label="Reply to Anne">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I just made this soup,  mostly followed directions,   and I asked my husband to taste it.  Well. 8 &#8211; 10 spoonfuls later her grinned  and said it was great.  Thank you for this recipe!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-494039">
+	        <div id="comment-494039" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2021-08-29T10:03:37-04:00">
+                August 29, 2021 @ 10:03 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-494039" data-commentid="494039" data-postid="1910" data-belowelement="comment-494039" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Wonderful! Glad you both enjoyed the soup.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-510663">
+	        <div id="comment-510663" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>HoAnn</strong>            	 &#8212; 
+                <time pubdate datetime="2022-02-20T20:59:02-05:00">
+                February 20, 2022 @ 8:59 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-510663" data-commentid="510663" data-postid="1910" data-belowelement="comment-510663" data-respondelement="respond" data-replyto="Reply to HoAnn" aria-label="Reply to HoAnn">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I made this soup and it was delicious. My husband loved it too. He thought the sweet potato was carrot. He doesn&#8217;t like sweet potatoes. I also used a few bacon strips and we were well nourished and we filled up our soup bowls and dived in. Thank you for a great recipe.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-510685">
+	        <div id="comment-510685" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2022-02-21T10:11:24-05:00">
+                February 21, 2022 @ 10:11 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-510685" data-commentid="510685" data-postid="1910" data-belowelement="comment-510685" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Ha too funny on the sweet potato! Bacon is def a great idea as well. Glad you both enjoyed the soup!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-510853">
+	        <div id="comment-510853" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Cora</strong>            	 &#8212; 
+                <time pubdate datetime="2022-02-24T17:50:50-05:00">
+                February 24, 2022 @ 5:50 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-510853" data-commentid="510853" data-postid="1910" data-belowelement="comment-510853" data-respondelement="respond" data-replyto="Reply to Cora" aria-label="Reply to Cora">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Thank you for this recipe!! It was so good!! 💜<br />
+I added mushrooms &amp; oh so yummy!!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-510878">
+	        <div id="comment-510878" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2022-02-25T10:45:44-05:00">
+                February 25, 2022 @ 10:45 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-510878" data-commentid="510878" data-postid="1910" data-belowelement="comment-510878" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Mushrooms are a great idea! Glad you enjoyed the soup.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-533072">
+	        <div id="comment-533072" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Cori Roth</strong>            	 &#8212; 
+                <time pubdate datetime="2023-05-30T12:52:28-04:00">
+                May 30, 2023 @ 12:52 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-533072" data-commentid="533072" data-postid="1910" data-belowelement="comment-533072" data-respondelement="respond" data-replyto="Reply to Cori Roth" aria-label="Reply to Cori Roth">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>This is the first time I am tasting and cooking with Kohlrabi as my CSA was offering it this past week.    I found this simple recipe online and decided to try it out.   I had to use scallions as I used my yellow onions in another recipe.   Also the Kohlrabi had the green tops removed so I couldn&#8217;t add the greens to the soup preparation..   On a cool rainy day, such as today,  this soup is comforting, warming and delicious.   I did add some caraway seeds, dried chervil and fresh rosemary during the last part of the cooking as I especially love caraway seeds and thought it would be complimentary to the soup.  .   I will serve the soup with a dollop of plain whole milk yogurt on top.    I will freeze leftovers as this made a sizable amount.   Thank you!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-533073">
+	        <div id="comment-533073" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2023-05-30T13:13:08-04:00">
+                May 30, 2023 @ 1:13 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-533073" data-commentid="533073" data-postid="1910" data-belowelement="comment-533073" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Glad you enjoyed the soup recipe and were able to adjust using your ingredients on hand!</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-535444">
+	        <div id="comment-535444" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>G Dean</strong>            	 &#8212; 
+                <time pubdate datetime="2023-07-17T22:34:04-04:00">
+                July 17, 2023 @ 10:34 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-535444" data-commentid="535444" data-postid="1910" data-belowelement="comment-535444" data-respondelement="respond" data-replyto="Reply to G Dean" aria-label="Reply to G Dean">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>It was my first kohlrabi purchase and among the  last fresh plant food left from vacation! I improvised with a shallot instead.😅<br />
+To make a complete protein, vegan meal I added cannellini beans and ditialini pasta similar to/ applying my experience with the chickpea &amp; pasta Italian dish process (but no tomato paste or tomatoes.) <br />
+And some savory spices but I am no chef just someone who likes to cook, eat and serve healthy food! <br />
+My husband actually didn’t like the kohlrabi but I noticed a good portion of the ball jar was empty anyway. I guess his comment was that he’s not much of a turnip fan and equated it with that and the, kohlrabi was still somewhat crisp. I liked  it crisp like  a kohlrabi summer! </p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-535460">
+	        <div id="comment-535460" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2023-07-18T10:36:02-04:00">
+                July 18, 2023 @ 10:36 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-535460" data-commentid="535460" data-postid="1910" data-belowelement="comment-535460" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Glad you both enjoyed the soup! I like the idea of adding beans and pasta.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-540967">
+	        <div id="comment-540967" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Anna</strong>            	 &#8212; 
+                <time pubdate datetime="2023-09-28T14:11:50-04:00">
+                September 28, 2023 @ 2:11 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-540967" data-commentid="540967" data-postid="1910" data-belowelement="comment-540967" data-respondelement="respond" data-replyto="Reply to Anna" aria-label="Reply to Anna">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>A delicious soup, first time trying kohlrabi which I got in an organic veggie delivery from a local farm &#8211; hope it won’t be the last! Perfect as an autumn meal with the colder darker evenings. I used chicken bone broth, ham stock and added some gammon pieces at the end to make it more substantial as a dinner. I think the recipe is fine for 2 portions for a lunch but I could have eaten it all for dinner &#8211; only got 2 bowls out of it and I really didn’t want to have to give it to my husband as I wanted it. Would double quantity next time. Thanks very much.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-540968">
+	        <div id="comment-540968" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2023-09-28T14:27:15-04:00">
+                September 28, 2023 @ 2:27 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-540968" data-commentid="540968" data-postid="1910" data-belowelement="comment-540968" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>So glad you enjoyed the soup recipe! I&#8217;m actually surprised you only got 2 bowls out of it because this soup actually makes more than what I usually make (4-6 servings instead of 2-4 servings). Regardless at least now you know for next time.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	    <li class="comment odd alt thread-even depth-1" id="li-comment-544325">
+	        <div id="comment-544325" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong>Rose</strong>            	 &#8212; 
+                <time pubdate datetime="2024-01-06T06:57:11-05:00">
+                January 6, 2024 @ 6:57 AM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-544325" data-commentid="544325" data-postid="1910" data-belowelement="comment-544325" data-respondelement="respond" data-replyto="Reply to Rose" aria-label="Reply to Rose">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>I made this soup it was great. Loved the addition of sweet potatoes. I grew kohlrabi in my hydroponic tower and the Leaves were humongous  I also made kohlarabi chips with the leaves grew up eating it raw with a salt shaker sitting on a swing on the porch !! </p>
+
+	        </div><!-- #comment-## -->
+	 
+	    <ul class="children">
+	    <li class="comment byuser comment-author-chocolatemooseyblogadmin bypostauthor even depth-2" id="li-comment-544345">
+	        <div id="comment-544345" class="comment">
+            
+            		
+            <div class="post-meta comment-meta">
+            	<strong><a href="https://www.chocolatemoosey.com" class="url" rel="ugc">Carla</a></strong>            	 &#8212; 
+                <time pubdate datetime="2024-01-07T18:21:19-05:00">
+                January 7, 2024 @ 6:21 PM                </time>
+                
+                <a rel="nofollow" class="comment-reply-link" href="#comment-544345" data-commentid="544345" data-postid="1910" data-belowelement="comment-544345" data-respondelement="respond" data-replyto="Reply to Carla" aria-label="Reply to Carla">Reply</a>                            </div><!-- .comment-meta -->
+			
+			<p>Chips are a great idea! You can even use them as a side or garnish to the soup.</p>
+
+	        </div><!-- #comment-## -->
+	 
+	    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+				
+		<a href="#reply-title" class="smbutton">Leave a comment &raquo;</a>
+		
+		
+		
+</div><!-- #comments -->
+
+
+
+</div> <!-- end .content -->
+
+<aside class="sidebar span_sidebar">
+
+	<div id="acf_widget_47378-3" class="widget-odd widget-first widget-1 about widget acf_widget_47378 Acf_Widget_47378 "><div class="widget-content about-content">
+	<div class="image">
+		<a href="/about/" target="_self" title="More About Me"><img width="728" height="485" src="https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-728x485.jpg" class="attachment-large size-large" alt="Carla holding plate of cookies" data-pin-nopin="true" decoding="async" loading="lazy" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-728x485.jpg 728w, https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-364x243.jpg 364w, https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-768x512.jpg 768w, https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-1536x1024.jpg 1536w, https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-2048x1365.jpg 2048w, https://www.chocolatemoosey.com/wp-content/uploads/2025/03/Carla-Cardello-Cookie-Contest-1603-1456x971.jpg 1456w" sizes="auto, (max-width: 728px) 100vw, 728px" /></a>	</div>
+	
+	<div class="caption">
+	
+					<h2 class="block-title block-title-lg">
+							Hello & Welcome!			</h2>
+		
+		<p>I’m Carla, a 30-some childfree woman from Pittsburgh who&#8217;s sharing recipes for two and small batch recipes made from scratch because not everybody cooks for a crowd.</p>
+		
+				    <div class="more"><a href="/about/" target="_self" class="more-link">More About Me <i class='fas fa-chevron-double-right'></i></a></div>
+				
+			</div>
+</div></div><div id="acf_widget_47308-4" class="widget-even widget-2 subscribe widget acf_widget_47308 Acf_Widget_47308 "><div class="optin-content">
+	<div class="caption">	
+					<h2 class="block-title">
+			get <em>new recipes</em> via email:			</h2>
+				
+			</div>
+		
+	<div class="form">
+		<script type="rocketlazyloadscript" async data-uid="bf523632df" data-rocket-src="https://homemadeinthekitchen.ck.page/bf523632df/index.js"></script>		
+	</div>		
+
+</div></div><div id="acf_widget_30433-4" class="widget-odd widget-last widget-3 widget acf_widget_30433 Acf_Widget_30433 ">	<h2 class="block-title">
+			Popular Posts	</h2>
+
+
+
+    <div class="items items-4-col">
+            <div class="item">
+            <a href="https://www.chocolatemoosey.com/cornish-hen-with-homemade-classic-stuffing/" class="block">
+	            					<img width="258" height="344" src="https://www.chocolatemoosey.com/wp-content/uploads/2016/11/Cornish-Hen-With-Homemade-Classic-Stuffing-photo-8553-258x344.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Roasted Cornish hen in pan with stuffing" data-pin-nopin="nopin" decoding="async" loading="lazy" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2016/11/Cornish-Hen-With-Homemade-Classic-Stuffing-photo-8553-258x344.jpg 258w, https://www.chocolatemoosey.com/wp-content/uploads/2016/11/Cornish-Hen-With-Homemade-Classic-Stuffing-photo-8553-345x460.jpg 345w" sizes="auto, (max-width: 258px) 100vw, 258px" />					            <h3 class="title"><span class="inline">Stuffed Cornish Hen (Thanksgiving For Two)</span></h3>
+	            </a>
+
+		</div>
+            <div class="item">
+            <a href="https://www.chocolatemoosey.com/homemade-gravy-without-meat-drippings/" class="block">
+	            					<img width="258" height="344" src="https://www.chocolatemoosey.com/wp-content/uploads/2012/11/Homemade-Gravy-Without-Drippings-recipe-photo-9300-258x344.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Gravy In Gravy Boat" data-pin-nopin="nopin" decoding="async" loading="lazy" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2012/11/Homemade-Gravy-Without-Drippings-recipe-photo-9300-258x344.jpg 258w, https://www.chocolatemoosey.com/wp-content/uploads/2012/11/Homemade-Gravy-Without-Drippings-recipe-photo-9300-345x460.jpg 345w, https://www.chocolatemoosey.com/wp-content/uploads/2012/11/Homemade-Gravy-Without-Drippings-recipe-photo-9300-240x320.jpg 240w, https://www.chocolatemoosey.com/wp-content/uploads/2012/11/Homemade-Gravy-Without-Drippings-recipe-photo-9300-360x480.jpg 360w, https://www.chocolatemoosey.com/wp-content/uploads/2012/11/Homemade-Gravy-Without-Drippings-recipe-photo-9300-540x720.jpg 540w" sizes="auto, (max-width: 258px) 100vw, 258px" />					            <h3 class="title"><span class="inline">Homemade Gravy Without Drippings</span></h3>
+	            </a>
+
+		</div>
+            <div class="item">
+            <a href="https://www.chocolatemoosey.com/creamy-garlic-mashed-potatoes/" class="block">
+	            					<img width="258" height="344" src="https://www.chocolatemoosey.com/wp-content/uploads/2008/11/Garlic-Mashed-Potatoes-For-Two-photo-9748-258x344.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Mashed potatoes in a bowl with a spoon" data-pin-nopin="nopin" decoding="async" loading="lazy" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2008/11/Garlic-Mashed-Potatoes-For-Two-photo-9748-258x344.jpg 258w, https://www.chocolatemoosey.com/wp-content/uploads/2008/11/Garlic-Mashed-Potatoes-For-Two-photo-9748-345x460.jpg 345w, https://www.chocolatemoosey.com/wp-content/uploads/2008/11/Garlic-Mashed-Potatoes-For-Two-photo-9748-240x320.jpg 240w, https://www.chocolatemoosey.com/wp-content/uploads/2008/11/Garlic-Mashed-Potatoes-For-Two-photo-9748-360x480.jpg 360w, https://www.chocolatemoosey.com/wp-content/uploads/2008/11/Garlic-Mashed-Potatoes-For-Two-photo-9748-540x720.jpg 540w" sizes="auto, (max-width: 258px) 100vw, 258px" />					            <h3 class="title"><span class="inline">Mashed Potatoes For Two</span></h3>
+	            </a>
+
+		</div>
+            <div class="item">
+            <a href="https://www.chocolatemoosey.com/pumpkin-pie-for-two-egg-free/" class="block">
+	            					<img width="258" height="344" src="https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-258x344.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Close up of eggless pumpkin pie in ramekin with spoon" data-pin-nopin="nopin" decoding="async" loading="lazy" srcset="https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-258x344.jpg 258w, https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-345x460.jpg 345w, https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-690x920.jpg 690w, https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-240x320.jpg 240w, https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-360x480.jpg 360w, https://www.chocolatemoosey.com/wp-content/uploads/2023/11/Eggless-Pumpkin-Pie-recipe-photo-8848b-540x720.jpg 540w" sizes="auto, (max-width: 258px) 100vw, 258px" />					            <h3 class="title"><span class="inline">Eggless Pumpkin Pie (Gluten Free)</span></h3>
+	            </a>
+
+		</div>
+        </div>
+    
+</div>	
+</aside><!-- end #sidebar -->
+</div> <!-- end .wrapper -->
+<div data-wpr-lazyrender="1" class="clear"></div>
+		
+<div  class="footer">
+		
+		 
+			<div  id="acf_widget_47308-3" class="widget-odd widget-last widget-first widget-1 subscribe home-section footer-section acf_widget_47308 Acf_Widget_47308 "><div  class="wrap"><div class="optin-content">
+	<div class="caption">	
+					<h2 class="block-title">
+			get <em>new recipes</em> via email:			</h2>
+				
+			</div>
+		
+	<div class="form">
+		<script type="rocketlazyloadscript" async data-uid="f4bcc68d7c" data-rocket-src="https://homemadeinthekitchen.ck.page/f4bcc68d7c/index.js"></script>		
+	</div>		
+
+</div></div></div> 
+		</div>	
+<div data-wpr-lazyrender="1" class="sub-footer">
+<div  class="wrap">
+	<nav class="footer-nav">
+		<ul class="footer-nav">
+			<li id="menu-item-47423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47423"><a href="#">^ Back to Top</a></li>
+<li id="menu-item-47421" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-47421"><a href="https://www.chocolatemoosey.com/">Home</a></li>
+<li id="menu-item-6169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6169"><a href="https://www.chocolatemoosey.com/about-3/">About</a></li>
+<li id="menu-item-17808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17808"><a href="https://www.chocolatemoosey.com/recipes/">Recipe Index</a></li>
+<li id="menu-item-19304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19304"><a href="https://www.chocolatemoosey.com/work-with-me/">Work With Me</a></li>
+<li id="menu-item-47424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47424"><a href="https://www.chocolatemoosey.com/press/">Press</a></li>
+<li id="menu-item-6173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6173"><a href="https://www.chocolatemoosey.com/contact/">Contact</a></li>
+<li id="menu-item-47422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-47422"><a rel="privacy-policy" href="https://www.chocolatemoosey.com/disclosures-and-disclaimers/">Disclosures and Disclaimers</a></li>
+		</ul>
+	</nav>
+		
+	<div  class="copyright">
+		<p><strong>&copy;2026 Homemade In The Kitchen</strong>. <em>Design by</em> <a href="https://www.purrdesign.com" target="_blank" rel="nofollow noopener">Purr</a>.</p>
+		<!--197 queries. 0.287 seconds-->
+	</div>
+
+</div>
+</div>
+	
+
+</div>
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/homemadeinthekitchen/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<a href="#mv-creation-95" id="mv-create-screen-reader-text-in-footer" class="mv-create-screen-reader-text">Skip to Recipe</a><script type="rocketlazyloadscript">var screenReaderLink=document.getElementById("mv-create-screen-reader-text-in-footer");document.body.prepend(screenReaderLink)</script><style>.mv-create-screen-reader-text{overflow:hidden;clip:rect(1px,1px,1px,1px);position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;border:0;clip-path:inset(50%)}.mv-create-screen-reader-text:focus{clip:auto!important;z-index:1000000;top:5px;left:5px;width:auto;height:auto;padding:15px 23px 14px;color:#444;background-color:#eee;font-size:1em;line-height:normal;text-decoration:none;clip-path:none}</style><div id="mv-grow-data" data-settings='{&quot;general&quot;:{&quot;contentSelector&quot;:false,&quot;show_count&quot;:{&quot;content&quot;:false,&quot;sidebar&quot;:false},&quot;isTrellis&quot;:false,&quot;license_last4&quot;:&quot;&quot;},&quot;post&quot;:{&quot;ID&quot;:1910,&quot;categories&quot;:[{&quot;ID&quot;:255},{&quot;ID&quot;:125},{&quot;ID&quot;:276}]},&quot;shareCounts&quot;:[],&quot;shouldRun&quot;:true,&quot;buttonSVG&quot;:{&quot;share&quot;:{&quot;height&quot;:32,&quot;width&quot;:26,&quot;paths&quot;:[&quot;M20.8 20.8q1.984 0 3.392 1.376t1.408 3.424q0 1.984-1.408 3.392t-3.392 1.408-3.392-1.408-1.408-3.392q0-0.192 0.032-0.448t0.032-0.384l-8.32-4.992q-1.344 1.024-2.944 1.024-1.984 0-3.392-1.408t-1.408-3.392 1.408-3.392 3.392-1.408q1.728 0 2.944 0.96l8.32-4.992q0-0.128-0.032-0.384t-0.032-0.384q0-1.984 1.408-3.392t3.392-1.408 3.392 1.376 1.408 3.424q0 1.984-1.408 3.392t-3.392 1.408q-1.664 0-2.88-1.024l-8.384 4.992q0.064 0.256 0.064 0.832 0 0.512-0.064 0.768l8.384 4.992q1.152-0.96 2.88-0.96z&quot;]},&quot;facebook&quot;:{&quot;height&quot;:32,&quot;width&quot;:18,&quot;paths&quot;:[&quot;M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z&quot;]},&quot;twitter&quot;:{&quot;height&quot;:30,&quot;width&quot;:32,&quot;paths&quot;:[&quot;M30.3 29.7L18.5 12.4l0 0L29.2 0h-3.6l-8.7 10.1L10 0H0.6l11.1 16.1l0 0L0 29.7h3.6l9.7-11.2L21 29.7H30.3z M8.6 2.7 L25.2 27h-2.8L5.7 2.7H8.6z&quot;]},&quot;pinterest&quot;:{&quot;height&quot;:32,&quot;width&quot;:23,&quot;paths&quot;:[&quot;M0 10.656q0-1.92 0.672-3.616t1.856-2.976 2.72-2.208 3.296-1.408 3.616-0.448q2.816 0 5.248 1.184t3.936 3.456 1.504 5.12q0 1.728-0.32 3.36t-1.088 3.168-1.792 2.656-2.56 1.856-3.392 0.672q-1.216 0-2.4-0.576t-1.728-1.568q-0.16 0.704-0.48 2.016t-0.448 1.696-0.352 1.28-0.48 1.248-0.544 1.12-0.832 1.408-1.12 1.536l-0.224 0.096-0.16-0.192q-0.288-2.816-0.288-3.36 0-1.632 0.384-3.68t1.184-5.152 0.928-3.616q-0.576-1.152-0.576-3.008 0-1.504 0.928-2.784t2.368-1.312q1.088 0 1.696 0.736t0.608 1.824q0 1.184-0.768 3.392t-0.8 3.36q0 1.12 0.8 1.856t1.952 0.736q0.992 0 1.824-0.448t1.408-1.216 0.992-1.696 0.672-1.952 0.352-1.984 0.128-1.792q0-3.072-1.952-4.8t-5.12-1.728q-3.552 0-5.952 2.304t-2.4 5.856q0 0.8 0.224 1.536t0.48 1.152 0.48 0.832 0.224 0.544q0 0.48-0.256 1.28t-0.672 0.8q-0.032 0-0.288-0.032-0.928-0.288-1.632-0.992t-1.088-1.696-0.576-1.92-0.192-1.92z&quot;]},&quot;email&quot;:{&quot;height&quot;:32,&quot;width&quot;:28,&quot;paths&quot;:[&quot;M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z&quot;]}},&quot;inlineContentHook&quot;:[&quot;loop_start&quot;]}'></div>			<div class="cpro-onload  cp-popup-global  cp-custom-cls-manual_trigger_50112 "  data-class-id="50112" data-inactive-time='60' ></div>
+			
+		<div id="cp_popup_id_50112" class="cp-popup-container cp-popup-live-wrap cp_style_50112 cp-module-modal_popup  " data-style="cp_style_50112" data-module-type="modal_popup" data-class-id="50112" data-styleslug="email-newsletter">
+
+							<div class="cpro-overlay">
+			
+			<div class="cp-popup-wrapper cp-auto  "  >
+				<div class="cp-popup  cpro-animate-container ">
+
+					
+								<form class="cpro-form" method="post" id="50112">
+						<input type='hidden' class='panel-settings' data-style_id= '50112' data-section='configure' value='{&quot;enable_custom_cookies&quot;:&quot;0&quot;,&quot;enable_cookies_class&quot;:&quot;&quot;,&quot;enable_adblock_detection&quot;:&quot;&quot;,&quot;enable_visitors&quot;:&quot;0&quot;,&quot;visitor_type&quot;:&quot;first-time&quot;,&quot;referrer_type&quot;:&quot;hide-from&quot;,&quot;hide_custom_cookies&quot;:&quot;&quot;,&quot;hide_cookies_class&quot;:&quot;&quot;,&quot;show_for_logged_in&quot;:&quot;1&quot;,&quot;hide_on_device&quot;:&quot;&quot;,&quot;cookies_enabled&quot;:&quot;1&quot;,&quot;conversion_cookie&quot;:&quot;90&quot;,&quot;closed_cookie&quot;:&quot;30&quot;,&quot;cookies_enabled_submit&quot;:&quot;&quot;,&quot;enable_cookies_class_submit&quot;:&quot;&quot;,&quot;conversion_cookie_submit&quot;:&quot;90&quot;,&quot;cookies_enabled_closed&quot;:&quot;&quot;,&quot;enable_cookies_class_closed&quot;:&quot;&quot;,&quot;closed_cookie_new&quot;:&quot;30&quot;}' ><input type='hidden' class='panel-rulesets' data-style_id= '50112' data-section='configure' value='[{&quot;name&quot;:&quot;Ruleset 1&quot;,&quot;autoload_on_duration&quot;:&quot;1&quot;,&quot;load_on_duration&quot;:&quot;5&quot;,&quot;autoload_on_no_page_visit&quot;:false,&quot;load_on_no_page_visit&quot;:1,&quot;load_on_page_visit_type&quot;:&quot;is-more-than&quot;,&quot;cp_show_note_page_view&quot;:&quot;&quot;,&quot;modal_exit_intent&quot;:false,&quot;autoload_on_scroll&quot;:false,&quot;load_after_scroll&quot;:75,&quot;inactivity&quot;:false,&quot;inactivity_link&quot;:&quot;&quot;,&quot;enable_after_post&quot;:false,&quot;enable_custom_scroll&quot;:false,&quot;enable_scroll_class&quot;:&quot;&quot;,&quot;on_scroll_txt&quot;:&quot;&quot;,&quot;show_cta_info&quot;:&quot;&quot;,&quot;enable_custom_cookies&quot;:&quot;0&quot;,&quot;enable_cookies_class&quot;:&quot;&quot;,&quot;on_cookie_txt&quot;:&quot;&quot;,&quot;hide_cta_link&quot;:&quot;&quot;,&quot;enable_adblock_detection&quot;:false,&quot;all_visitor_info&quot;:&quot;&quot;,&quot;enable_visitors&quot;:&quot;0&quot;,&quot;visitor_type&quot;:&quot;first-time&quot;,&quot;enable_referrer&quot;:&quot;&quot;,&quot;referrer_type&quot;:&quot;hide-from&quot;,&quot;display_to&quot;:&quot;&quot;,&quot;hide_from&quot;:&quot;&quot;,&quot;enable_scheduler&quot;:false,&quot;enable_scheduler_txt&quot;:&quot;&quot;,&quot;start_date&quot;:&quot;&quot;,&quot;end_date&quot;:&quot;&quot;,&quot;custom_cls_text_head&quot;:&quot;&quot;,&quot;enable_custom_class&quot;:false,&quot;copy_link_code_button&quot;:&quot;Copy Link Code&quot;,&quot;copy_link_cls_code_button&quot;:&quot;&quot;,&quot;custom_class&quot;:&quot;&quot;,&quot;custom_cls_text&quot;:&quot;&quot;}]' ><style id='cp_popup_style_50112' type='text/css'>.cp_style_50112 .cp-popup-content {font-family:Verdana;font-style:Normal;font-weight:Normal;}.cp_style_50112 .cp-popup-content{ border-style:none;border-color:#e1e1e1;border-width:1px 1px 1px 1px;border-radius:3px 3px 3px 3px;-webkit-box-shadow:0px 0px 8px 0px #494949;-moz-box-shadow:0px 0px 8px 0px #494949;box-shadow:0px 0px 8px 0px #494949;mobile-breakpoint:767;}.cp_style_50112 #panel-1-50112 .cp-target:hover { }.cp_style_50112 #panel-1-50112 { }.cp_style_50112 .cpro-overlay{background:rgba(255,255,255,0.89);}.cp_style_50112 .cp-popup-wrapper .cpro-overlay {height:350px;}.cp_style_50112 .cp-popup-content { background-color:rgba(0,0,0,0.1);background-blend-mode: overlay;background-repeat :no-repeat;background-position :center;background-size :cover;width:590px;height:350px;}@media ( max-width: 767px ) {.cp_style_50112 .cp-popup-content{ border-style:none;border-color:#e1e1e1;border-width:1px 1px 1px 1px;border-radius:3px 3px 3px 3px;-webkit-box-shadow:0px 0px 8px 0px #494949;-moz-box-shadow:0px 0px 8px 0px #494949;box-shadow:0px 0px 8px 0px #494949;mobile-breakpoint:767;}.cp_style_50112 #panel-1-50112 .cp-target:hover { }.cp_style_50112 #panel-1-50112 { }.cp_style_50112 .cpro-overlay{background:rgba(255,255,255,0.89);}.cp_style_50112 .cp-popup-wrapper .cpro-overlay {height:250px;}.cp_style_50112 .cp-popup-content { background-color:rgba(0,0,0,0.1);background-blend-mode: overlay;background-repeat :no-repeat;background-position :center;background-size :cover;width:365px;height:250px;}}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field{ font-family:Open Sans;font-style:Normal;font-weight:Normal;font-size:13px;letter-spacing:0px;text-align:center;padding:0px 0px 0px 0px;color:#666;background-color:#ffffff;border-style:solid;border-width:0px 0px 0px 0px;border-radius:20px 20px 20px 20px;border-color:#bbb;active-border-color:#666;text-transform:none;}.cp_style_50112 #form_field-50112 .cp-target:hover { }.cp_style_50112 #form_field-50112 placeholder { color:#666;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field input[type='radio'], .cp_style_50112 .cp-popup .cpro-form .cp-form-input-field input[type='checkbox'] {color:#666;background-color:#ffffff;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field:focus {border-color: #666;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field::-webkit-input-placeholder {color:#666;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field::-moz-placeholder  {color:#666;}.cp_style_50112 .cp-popup .cpro-form .pika-lendar table tbody button:hover { background :#666;}.cp_style_50112 .cp-popup .cpro-form .pika-lendar table tbody .is-selected .pika-button { background :#666;box-shadow : inset 0 1px 3px #666;}.cp_style_50112 #form_field-50112 { }@media ( max-width: 767px ) {.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field{ font-family:Open Sans;font-style:Normal;font-weight:Normal;font-size:11px;letter-spacing:0px;text-align:center;padding:0px 0px 0px 0px;color:#666;background-color:#ffffff;border-style:solid;border-width:0px 0px 0px 0px;border-radius:20px 20px 20px 20px;border-color:#bbb;active-border-color:#666;text-transform:none;}.cp_style_50112 #form_field-50112 .cp-target:hover { }.cp_style_50112 #form_field-50112 placeholder { color:#666;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field input[type='radio'], .cp_style_50112 .cp-popup .cpro-form .cp-form-input-field input[type='checkbox'] {color:#666;background-color:#ffffff;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field:focus {border-color: #666;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field::-webkit-input-placeholder {color:#666;}.cp_style_50112 .cp-popup .cpro-form .cp-form-input-field::-moz-placeholder  {color:#666;}.cp_style_50112 .cp-popup .cpro-form .pika-lendar table tbody button:hover { background :#666;}.cp_style_50112 .cp-popup .cpro-form .pika-lendar table tbody .is-selected .pika-button { background :#666;box-shadow : inset 0 1px 3px #666;}.cp_style_50112 #form_field-50112 { }}.cp_style_50112 #cp_shape-2-50112 .cp-target { fill:#007eba;width:230px;height:427px;}.cp_style_50112 #cp_shape-2-50112 .cp-target:hover { fill:#007eba;}.cp_style_50112 #cp_shape-2-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_shape-2-50112 { left: 16px;top: -49px;z-index:2;}@media ( max-width: 767px ) {.cp_style_50112 #cp_shape-2-50112 .cp-target { fill:#007eba;width:226px;height:251px;}.cp_style_50112 #cp_shape-2-50112 .cp-target:hover { fill:#007eba;}.cp_style_50112 #cp_shape-2-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_shape-2-50112 { left: 14.5px;top: -1px;z-index:2;}}.cp_style_50112 #cp_button-2-50112 .cp-target { font-family:Helvetica;font-style:Normal;font-weight:Normal;font-size:14px;letter-spacing:0px;text-align:center;color:#007eba;background:#d9ecf5;width:202px;height:42px;}.cp_style_50112 #cp_button-2-50112 .cp-target:hover { color:#4ca5cf;background:#d9ecf5;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-style:none;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-color:#757575;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target > .cp-close-link { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target > .cp-close-image { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target { }.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { }.cp_style_50112 #cp_button-2-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_button-2-50112 .cp-target:hover { }.cp_style_50112 #cp_button-2-50112 .cp-target:hover ~ .cp-field-shadow { }.cp_style_50112 #cp_button-2-50112 { left: 30px;top: 308px;z-index:10;}@media ( max-width: 767px ) {.cp_style_50112 #cp_button-2-50112 .cp-target { font-family:Helvetica;font-style:Normal;font-weight:Normal;font-size:12px;letter-spacing:0px;text-align:center;color:#007eba;background:#d9ecf5;width:202px;height:40px;}.cp_style_50112 #cp_button-2-50112 .cp-target:hover { color:#4ca5cf;background:#d9ecf5;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-style:none;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-color:#757575;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_button-2-50112 .cp-target { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target > .cp-close-link { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target > .cp-close-image { border-radius:20px 20px 20px 20px;}.cp_style_50112 #cp_button-2-50112 .cp-target { }.cp_style_50112 #cp_button-2-50112 .cp-target ~ .cp-field-shadow { }.cp_style_50112 #cp_button-2-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_button-2-50112 .cp-target:hover { }.cp_style_50112 #cp_button-2-50112 .cp-target:hover ~ .cp-field-shadow { }.cp_style_50112 #cp_button-2-50112 { left: 26.5px;top: 195px;z-index:10;}}.cp_style_50112 #cp_email-1-50112 .cp-target { width:202px;height:42px;}.cp_style_50112 #cp_email-1-50112 .cp-target:hover { }.cp_style_50112 #cp_email-1-50112 { left: 30px;top: 211px;z-index:12;}@media ( max-width: 767px ) {.cp_style_50112 #cp_email-1-50112 .cp-target { width:202px;height:40px;}.cp_style_50112 #cp_email-1-50112 .cp-target:hover { }.cp_style_50112 #cp_email-1-50112 { left: 25.5px;top: 117px;z-index:12;}}.cp_style_50112 #cp_number-1-50112 .cp-target { width:165px;height:37px;}.cp_style_50112 #cp_number-1-50112 .cp-target:hover { }.cp_style_50112 #cp_number-1-50112 { left: 49.5px;top: 261px;z-index:12;}@media ( max-width: 767px ) {.cp_style_50112 #cp_number-1-50112 .cp-target { width:101px;height:23px;}.cp_style_50112 #cp_number-1-50112 .cp-target:hover { }.cp_style_50112 #cp_number-1-50112 { left: 71px;top: 160px;z-index:12;}}.cp_style_50112 #cp_shape-5-50112 .cp-target { fill:#f79c00;stroke-width:2;width:60px;height:54px;}.cp_style_50112 #cp_shape-5-50112 .cp-target:hover { }.cp_style_50112 #cp_shape-5-50112 .cp-target { }.cp_style_50112 #cp_shape-5-50112 .cp-target ~ .cp-field-shadow { }.cp_style_50112 #cp_shape-5-50112 { }.cp_style_50112 #cp_shape-5-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_shape-5-50112 { }.cp_style_50112 #cp_shape-5-50112 { left: 101px;top: -53px;z-index:7;}@media ( max-width: 767px ) {.cp_style_50112 #cp_shape-5-50112 .cp-target { fill:#f79c00;stroke-width:2;width:24px;height:37px;}.cp_style_50112 #cp_shape-5-50112 .cp-target:hover { }.cp_style_50112 #cp_shape-5-50112 .cp-target { }.cp_style_50112 #cp_shape-5-50112 .cp-target ~ .cp-field-shadow { }.cp_style_50112 #cp_shape-5-50112 { }.cp_style_50112 #cp_shape-5-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_shape-5-50112 { }.cp_style_50112 #cp_shape-5-50112 { left: 55px;top: -29px;z-index:7;}}.cp_style_50112 #cp_paragraph-1-50112 .cp-target { font-family:inherit;font-style:Inherit;font-weight:Inherit;font-size:26px;line-height:1;letter-spacing:0;text-align:center;color:#ffffff;width:155px;height:96px;}.cp_style_50112 #cp_paragraph-1-50112 .cp-target:hover { }.cp_style_50112 #cp_paragraph-1-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_paragraph-1-50112 { left: 49.5px;top: 17px;z-index:13;}@media ( max-width: 767px ) {.cp_style_50112 #cp_paragraph-1-50112 .cp-target { font-family:inherit;font-style:Inherit;font-weight:Inherit;font-size:31px;line-height:1.29;letter-spacing:0;text-align:center;color:#ffffff;width:200px;height:37px;}.cp_style_50112 #cp_paragraph-1-50112 .cp-target:hover { }.cp_style_50112 #cp_paragraph-1-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_paragraph-1-50112 { left: 25.5px;top: 32px;z-index:13;}}.cp_style_50112 #cp_paragraph-2-50112 .cp-target { font-family:Cambo;font-style:Inherit;font-weight:Inherit;font-size:14px;line-height:1.40;letter-spacing:0;text-align:center;color:#ffffff;width:161px;height:70px;}.cp_style_50112 #cp_paragraph-2-50112 .cp-target:hover { }.cp_style_50112 #cp_paragraph-2-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_paragraph-2-50112 { left: 46px;top: 120px;z-index:14;}@media ( max-width: 767px ) {.cp_style_50112 #cp_paragraph-2-50112 .cp-target { font-family:Cambo;font-style:Inherit;font-weight:Inherit;font-size:12px;line-height:1.34;letter-spacing:0;text-align:center;color:#ffffff;width:178px;height:43px;}.cp_style_50112 #cp_paragraph-2-50112 .cp-target:hover { }.cp_style_50112 #cp_paragraph-2-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_paragraph-2-50112 { left: 37px;top: 75px;z-index:14;}}.cp_style_50112 #cp_paragraph-3-50112 .cp-target { font-family:inherit;font-style:Inherit;font-weight:Inherit;font-size:14px;line-height:01;letter-spacing:0.5px;text-align:left;color:#555;width:43px;height:36px;}.cp_style_50112 #cp_paragraph-3-50112 .cp-target:hover { }.cp_style_50112 #cp_paragraph-3-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_paragraph-3-50112 { left: 109.5px;top: -44px;z-index:16;}@media ( max-width: 767px ) {.cp_style_50112 #cp_paragraph-3-50112 .cp-target { font-family:inherit;font-style:Inherit;font-weight:Inherit;font-size:8px;line-height:01;letter-spacing:0.5px;text-align:left;color:#555;width:113px;height:20px;}.cp_style_50112 #cp_paragraph-3-50112 .cp-target:hover { }.cp_style_50112 #cp_paragraph-3-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_paragraph-3-50112 { left: 71px;top: 9px;z-index:16;}}.cp_style_50112 #cp_close_image-0-50112 .cp-target { width:32px;height:32px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target:hover { }.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-style:none;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-color:#757575;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { }.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { }.cp_style_50112 #cp_close_image-0-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_close_image-0-50112 .cp-target:hover { }.cp_style_50112 #cp_close_image-0-50112 .cp-target:hover ~ .cp-field-shadow { }.cp_style_50112 #cp_close_image-0-50112 { left: 30.5px;top: -40px;z-index:21;}@media ( max-width: 767px ) {.cp_style_50112 #cp_close_image-0-50112 .cp-target { width:25px;height:25px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target:hover { }.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-style:none;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-color:#757575;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_50112 #cp_close_image-0-50112 .cp-target { }.cp_style_50112 #cp_close_image-0-50112 .cp-target ~ .cp-field-shadow { }.cp_style_50112 #cp_close_image-0-50112 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_50112 #cp_close_image-0-50112 .cp-target:hover { }.cp_style_50112 #cp_close_image-0-50112 .cp-target:hover ~ .cp-field-shadow { }.cp_style_50112 #cp_close_image-0-50112 { left: 14.5px;top: 6.5px;z-index:21;}}@media ( max-width: 767px ) {.cp_style_50112 .cp-invisible-on-mobile {display: none !important;}}</style>
+					<div class="cp-popup-content cpro-active-step cp-img-lazy cp-bg-lazy cp-modal_popup      cp-panel-1" data-entry-animation = "cp-fadeIn" data-cp-src="[&quot;19474|https://www.chocolatemoosey.com/wp-content/uploads/2018/04/Small-Batch-Strawberry-Swirl-Cheesecake-Bars-9053.jpg|full&quot;,&quot;19474|https://www.chocolatemoosey.com/wp-content/uploads/2018/04/Small-Batch-Strawberry-Swirl-Cheesecake-Bars-9053.jpg|full&quot;]" data-overlay-click ="1" data-title="Email Newsletter" data-module-type="modal_popup"  data-step="1"  data-width="590" data-mobile-width="365" data-height="350" data-mobile-height="250" data-mobile-break-pt="767" data-mobile-responsive="yes">
+												
+					<div class="cpro-form-container">                             
+						<div id="cp_shape-2-50112" class="cp-field-html-data   cp-shapes-wrap cp-none" data-type="cp_shape"  data-action="none" data-success-message="Thank you for subscribing." data-step=""        data-get-param="{{get-param}}">
+	<div class="cp-shape-container">
+		<div class="cp-shape-tooltip"></div>
+		<label class="cp-shape-label">
+			
+			<div class="cp-rotate-wrap"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30" height="30" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" preserveAspectRatio="none" fill="#007eba" class="cp-target">
+<path d="M0,0h100v100H0V0z"/>
+</svg>
+</div>
+			<div class="cp-field-shadow"></div>
+		</label>
+	</div>
+</div><div id="cp_button-2-50112" class="cp-field-html-data   cp-none" data-type="cp_button"   data-action="submit_n_close" data-step=""        >
+	<div class="cp-rotate-wrap"><button type="submit" class=" cp-target cp-field-element cp-button cp-button-field"  data-success-message="Thank you for subscribing!" data-get-param="{{get-param}}">Yes I Want Free Recipes!</button>
+	<div class="cp-btn-tooltip"></div>
+</div></div><div id="cp_email-1-50112" class="cp-field-html-data    cp-none" data-type="cp_email"     >
+	<input type="email"  class="cp-target cp-field-element cp-form-input-field cp-form-field cp-email cp-form-field cp-email-field" aria-label="Email Address" placeholder="Email Address" name="param[email]" value="" required="required" data-email-error-msg="Please enter a valid email address." autocomplete="on" />
+</div><div id="cp_number-1-50112" class="cp-field-html-data    cp-none" data-type="cp_number" data-field-title="Text"   >
+	<input type="text" class="cp-target cp-field-element cp-number cp-form-field cp-form-input-field cp-text-field"  aria-label="First Name" placeholder="First Name" name="param[numberfield_4704]" value=""  {{pattern}} {{cp_regx_title}} access_cp_pro autocomplete="on" />
+</div><div id="cp_shape-5-50112" class="cp-field-html-data   cp-invisible-on-mobile  cp-shapes-wrap cp-none" data-type="cp_shape"  data-action="none" data-success-message="Thank You for Subscribing!" data-step=""        data-get-param="{{get-param}}">
+	<div class="cp-shape-container">
+		<div class="cp-shape-tooltip"></div>
+		<label class="cp-shape-label">
+			
+			<div class="cp-rotate-wrap"><!-- Generated by IcoMoon.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="30" viewBox="0 0 26 30" xml:space="preserve" preserveAspectRatio="none" fill="#f79c00" class="cp-target">
+<path d="M23.247 0c0.297 0 0.595 0.059 0.872 0.178 0.872 0.337 1.428 1.15 1.428 2.042v25.559c0 0.892-0.555 1.705-1.428 2.042-0.278 0.119-0.575 0.159-0.872 0.159-0.615 0-1.19-0.218-1.646-0.635l-8.744-8.407-8.744 8.407c-0.456 0.416-1.031 0.654-1.646 0.654-0.297 0-0.595-0.059-0.872-0.178-0.872-0.337-1.428-1.15-1.428-2.042v-25.559c0-0.892 0.555-1.705 1.428-2.042 0.278-0.119 0.575-0.178 0.872-0.178h20.78z"></path>
+</svg>
+</div>
+			<div class="cp-field-shadow"></div>
+		</label>
+	</div>
+</div><div id="cp_paragraph-1-50112" class="cp-field-html-data    cp-none cp_has_editor" data-type="cp_paragraph" data-field-title="Paragraph"      ><div class="cp-rotate-wrap"><div class="cp-target cp-field-element cp-paragraph tinymce"  name="{{name}}"><p>Free Recipes In Your Inbox!</p></div></div>
+</div><div id="cp_paragraph-2-50112" class="cp-field-html-data    cp-none cp_has_editor" data-type="cp_paragraph" data-field-title="Paragraph"      ><div class="cp-rotate-wrap"><div class="cp-target cp-field-element cp-paragraph tinymce"  name="{{name}}"><p>Get each new recipe delivered to you as soon as it's published.</p></div></div>
+</div><div id="cp_paragraph-3-50112" class="cp-field-html-data    cp-none cp_has_editor" data-type="cp_paragraph" data-field-title="Paragraph"      ><div class="cp-rotate-wrap"><div class="cp-target cp-field-element cp-paragraph tinymce"  name="{{name}}"></div></div>
+</div><div id="cp_close_image-0-50112" class="cp-field-html-data    cp-none cp-image-ratio cp-close-field cp-close-image-wrap" data-type="cp_close_image" data-field-title="Close Image" data-action="close"   >	
+	<div class="cp-rotate-wrap">
+		<div class="cp-image-main"><img width="32" height="32" data-cp-src="https://www.chocolatemoosey.com/wp-content/plugins/convertpro/assets/admin/img/close1.png" class="cp-target cp-field-element cp-close-image cp-img-lazy" alt="" name="cp_close_image-0" value="" src="">
+			<div class="cp-field-shadow"></div>
+		</div>
+		
+	</div>
+</div>							</div>              
+														
+						</div><!-- .cp-popup-content -->
+						      
+		<input type="hidden" name="param[date]" value="February 16, 2026" />
+		<input type='text' class='cpro-hp-field' name='cpro_hp_feedback_field_50112' value=''>
+		<input type="hidden" name="action" value="cp_v2_add_subscriber" />
+		<input type="hidden" name="style_id" value="50112" />
+						</form>
+										</div>
+							</div><!-- .cp-popup-wrapper -->
+			
+							</div><!-- Overlay -->
+				
+
+					</div><!-- Modal popup container -->
+			<script type="text/javascript" id="dpsp-frontend-js-pro-js-extra">
+/* <![CDATA[ */
+var dpsp_ajax_send_save_this_email = {"ajax_url":"https://www.chocolatemoosey.com/wp-admin/admin-ajax.php","dpsp_token":"49a17ef326"};
+//# sourceURL=dpsp-frontend-js-pro-js-extra
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" async data-noptimize  data-cfasync="false" src="https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/plugins/social-pug/assets/dist/front-end-free.js?ver=1758726759" id="dpsp-frontend-js-pro-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://www.chocolatemoosey.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/themes/homemadeinthekitchen/js/custom.js?ver=1758726759" id="custom-js-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.chocolatemoosey.com/wp-includes/js/comment-reply.min.js?ver=6.9.1" id="comment-reply-js" async="async" data-wp-strategy="async" fetchpriority="low"></script>
+<script type="text/javascript" id="mv_create/client.js-js-extra">
+/* <![CDATA[ */
+var MV_CREATE_SETTINGS = {"__API_ROOT__":"https://www.chocolatemoosey.com/wp-json/","__REVIEWS_DIV__":null,"__PROMPT_THRESHOLD__":"5.5","__SUBMIT_THRESHOLD__":"5.5","__PX_BETWEEN_ADS__":null,"__OPTIONS__":{"reviews_ctas":false,"jtc_enabled":true,"asset_url":"https://www.chocolatemoosey.com/wp-content/plugins/mediavine-create/","wakeLockEnabled":false}};
+var MV_CREATE_I18N = {"COMMENTS":"Comments","COMMENTS_AND_REVIEWS":"Comments & Reviews","RATING":"Rating","REVIEWS":"Reviews","RATING_SUBMITTED":"Your rating has been submitted. Write a review below (optional).","X_REVIEWS_FOR":"%1$s Reviews for %2$s","X_REVIEW_FOR":"%1$s Review for %2$s","LOADING":"Loading","VIEW_MORE":"View More","NUM_REVIEW":"%s Review","NUM_REVIEWS":"%s Reviews","REVIEW":"Review","NUM_STARS":"%s Stars","STARS":"Stars","STAR":"Star","TITLE":"Title","ANONYMOUS_USER":"Anonymous User","NO_TITLE":"No Title","CONTENT":"Content","NO_RATINGS":"No Ratings","NAME":"Name","EMAIL":"Email","REVIEW_TITLE":"Review Title","REVIEW_CONTENT":"Review","CONSENT":"To submit this review, I consent to the collection of this data.","SUBMIT_REVIEW":"Submit Review","SUBMITTING":"Submitting","UPDATE":"Update Review","THANKS_RATING":"Thanks for the rating!","DID_YOU_MAKE_THIS":"Did you make this? Tell us about it!","LEAVE_REVIEW":"Leave a review","THANKS_REVIEW":"Thanks for the review!","PRINT":"Print","YIELD":"Yield","SERVING_SIZE":"Serving Size","AMOUNT_PER_SERVING":"Amount Per Serving","CUISINE":"Cuisine","PROJECT_TYPE":"Project Type","TYPE":"Type","CATEGORY":"Category","RECOMMENDED_PRODUCTS":"Recommended Products","AFFILIATE_NOTICE":"As an Amazon Associate and member of other affiliate programs, I earn from qualifying purchases.","TOOLS":"Tools","MATERIALS":"Materials","INGREDIENTS":"Ingredients","INSTRUCTIONS":"Instructions","NOTES":"Notes","CALORIES":"Calories","TOTAL_FAT":"Total Fat","SATURATED_FAT":"Saturated Fat","TRANS_FAT":"Trans Fat","UNSATURATED_FAT":"Unsaturated Fat","CHOLESTEROL":"Cholesterol","SODIUM":"Sodium","CARBOHYDRATES":"Carbohydrates","NET_CARBOHYDRATES":"Net Carbohydrates","FIBER":"Fiber","SUGAR":"Sugar","SUGAR_ALCOHOLS":"Sugar Alcohols","PROTEIN":"Protein"};
+//# sourceURL=mv_create%2Fclient.js-js-extra
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" async data-noptimize src="https://www.chocolatemoosey.com/wp-content/cache/min/1/wp-content/plugins/mediavine-create/client/build/bundle.1.9.11.js?ver=1758726759" id="mv_create/client.js-js"></script>
+<script type="text/javascript" id="cp-popup-script-js-extra">
+/* <![CDATA[ */
+var cp_ajax = {"url":"https://www.chocolatemoosey.com/wp-admin/admin-ajax.php","ajax_nonce":"b8939b7ba1","assets_url":"https://www.chocolatemoosey.com/wp-content/plugins/convertpro/assets/","not_connected_to_mailer":"This form is not connected with any mailer service! Please contact web administrator.","timer_labels":"Years,Months,Weeks,Days,Hours,Minutes,Seconds","timer_labels_singular":"Year,Month,Week,Day,Hour,Minute,Second","image_on_ready":"","cpro_mx_valid":"0","invalid_email_id":"Invalid Email Address!"};
+var cp_pro = {"inactive_time":"60"};
+var cp_pro_url_cookie = {"days":"30"};
+var cp_v2_ab_tests = {"cp_v2_ab_tests_object":[]};
+//# sourceURL=cp-popup-script-js-extra
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" defer="defer" data-rocket-src="https://www.chocolatemoosey.com/wp-content/plugins/convertpro/assets/modules/js/cp-popup.min.js?ver=1.7.8" id="cp-popup-script-js"></script>
+	
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+
+				jQuery(document).on( "cp_after_form_submit", function( e, element, response
+					, style_slug ) {
+
+					if( false == response.data.error ) {
+
+						if( 'undefined' !== typeof response.data['cfox_data']  ) {
+							var form_data = JSON.parse( response.data['cfox_data']  );
+
+							form_data.overwrite_tags = false;
+
+							if( 'undefined' !== typeof convertfox ) {
+								convertfox.identify( form_data );
+							}
+						}
+					}
+
+				});
+
+
+			});</script>
+				
+
+</body></html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1771245113 -->

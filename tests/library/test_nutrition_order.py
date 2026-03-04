@@ -14,6 +14,7 @@ class TestNutritionKeyOrder(unittest.TestCase):
         for root, dirs, files in os.walk(json_directory):
             for filename in files:
                 if filename.endswith(".json"):
+                    print(f"Testing file: {os.path.join(root, filename)}")
                     with open(os.path.join(root, filename), encoding="utf-8") as f:
                         data = json.load(f)
 
