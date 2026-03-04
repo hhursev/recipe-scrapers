@@ -130,3 +130,27 @@ class TestSchemaOrg(unittest.TestCase):
             )
         finally:
             settings.BEST_IMAGE_SELECTION = original
+
+    def test_nextjs_ssr_jsonld(self):
+        """JSON-LD injected via Next.js __next_s.push() must be detected."""
+        import json as _json
+
+        ld = {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Test Next.js Recipe",
+            "recipeIngredient": ["500g fish"],
+            "recipeInstructions": ["Cook the fish."],
+        }
+        outer = _json.dumps(
+            {"type": "application/ld+json", "async": True, "children": _json.dumps(ld)}
+        )
+        page_data = (
+            "<html><head><title>Test</title>"
+            f"<script>(self.__next_s=self.__next_s||[]).push([0,{outer}])</script>"
+            "</head><body></body></html>"
+        )
+        parser = SchemaOrg(page_data)
+        self.assertEqual("Test Next.js Recipe", parser.title())
+        self.assertIn("500g fish", parser.ingredients())
+        self.assertEqual("Cook the fish.", parser.instructions())
