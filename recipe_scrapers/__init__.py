@@ -168,6 +168,7 @@ from .dagelijksekost import DagelijkseKost
 from .damndelicious import DamnDelicious
 from .dashfordinner import DashForDinner
 from .davidlebovitz import DavidLebovitz
+from .deliciouslyella import DeliciouslyElla
 from .deliciouslysprinkled import DeliciouslySprinkled
 from .delish import Delish
 from .delscookingtwist import DelsCookingTwist
@@ -769,6 +770,7 @@ SCRAPERS = {
     DamnDelicious.host(): DamnDelicious,
     DashForDinner.host(): DashForDinner,
     DavidLebovitz.host(): DavidLebovitz,
+    DeliciouslyElla.host(): DeliciouslyElla,
     DeliciouslySprinkled.host(): DeliciouslySprinkled,
     Delish.host(): Delish,
     DelsCookingTwist.host(): DelsCookingTwist,
@@ -1353,9 +1355,7 @@ def scrape_html(
         )
         raise WebsiteNotImplementedError(msg)
 
-    schema_scraper = SchemaScraperFactory.generate(
-        html=html, url=org_url, best_image=best_image
-    )
+    schema_scraper = SchemaScraperFactory.generate(html=html, url=org_url, best_image=best_image)
     if schema_scraper.schema.data:
         return schema_scraper
 
