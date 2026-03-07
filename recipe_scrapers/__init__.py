@@ -416,6 +416,7 @@ from .okokorecepten import OkokoRecepten
 from .omnivorescookbook import OmnivoresCookbook
 from .onceuponachef import OnceUponAChef
 from .onehundredonecookbooks import OneHundredOneCookBooks
+from .onesevensevenmilkstreet import OneSevenSevenMilkStreet
 from .onesweetappetite import OneSweetAppetite
 from .organicallyaddison import OrganicallyAddison
 from .ottolenghibooks import OttolenghiBooks
@@ -1038,6 +1039,7 @@ SCRAPERS = {
     OmnivoresCookbook.host(): OmnivoresCookbook,
     OnceUponAChef.host(): OnceUponAChef,
     OneHundredOneCookBooks.host(): OneHundredOneCookBooks,
+    OneSevenSevenMilkStreet.host(): OneSevenSevenMilkStreet,
     OneSweetAppetite.host(): OneSweetAppetite,
     OrganicallyAddison.host(): OrganicallyAddison,
     OttolenghiBooks.host(): OttolenghiBooks,
