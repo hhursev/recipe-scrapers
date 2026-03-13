@@ -214,6 +214,26 @@ class SchemaOrg:
 
         return image
 
+    @staticmethod
+    def _ingredient_to_string(ingredient):
+        """Convert recipe ingredient to string; supports string or schema.org PropertyValue."""
+        if isinstance(ingredient, str):
+            return ingredient
+        if isinstance(ingredient, dict):
+            itemtype = ingredient.get("@type", "")
+            types = itemtype if isinstance(itemtype, list) else [itemtype]
+            if "PropertyValue" in (t for t in types if t):
+                value = ingredient.get("value", "")
+                name = ingredient.get("name", "")
+                unit = ingredient.get("unitText") or ingredient.get("unitCode") or ""
+                parts = (
+                    [str(value), str(unit), str(name)]
+                    if unit
+                    else [str(value), str(name)]
+                )
+                return " ".join(p for p in parts if p).strip()
+        return str(ingredient)
+
     def ingredients(self):
         ingredients = (
             self.data.get("recipeIngredient") or self.data.get("ingredients") or []
@@ -225,9 +245,14 @@ class SchemaOrg:
         if ingredients and isinstance(ingredients, str):
             ingredients = [ingredients]
 
-        return [
-            normalize_string(ingredient) for ingredient in ingredients if ingredient
-        ]
+        result = []
+        for ingredient in ingredients:
+            if ingredient is None:
+                continue
+            s = normalize_string(self._ingredient_to_string(ingredient))
+            if s:
+                result.append(s)
+        return result
 
     def nutrients(self):
         nutrients = self.data.get("nutrition", {})
