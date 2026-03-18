@@ -1,0 +1,98 @@
+{
+  "author": "Jessica",
+  "canonical_url": "https://fantabulosity.com/texas-sheet-cake/",
+  "site_name": "Fantabulosity",
+  "host": "fantabulosity.com",
+  "language": "en-US",
+  "title": "Texas Sheet Cake",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "2 cups granulated sugar",
+    "1 teaspoon baking soda",
+    "½ teaspoon salt",
+    "½ cup sour cream",
+    "2 large eggs",
+    "2 teaspoons vanilla extract",
+    "1 cup water",
+    "1 cup 2 sticks salted butter, softened",
+    "⅓ cup cocoa powder",
+    "½ cup 1 stick salted butter",
+    "⅓ cup whole milk",
+    "¼ cup cocoa powder",
+    "4 cups powdered sugar",
+    "2 teaspoons vanilla extract",
+    "1 cup chopped walnuts"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 cups granulated sugar",
+        "1 teaspoon baking soda",
+        "½ teaspoon salt",
+        "½ cup sour cream",
+        "2 large eggs",
+        "2 teaspoons vanilla extract",
+        "1 cup water",
+        "1 cup 2 sticks salted butter, softened",
+        "⅓ cup cocoa powder"
+      ],
+      "purpose": "Cake:"
+    },
+    {
+      "ingredients": [
+        "½ cup 1 stick salted butter",
+        "⅓ cup whole milk",
+        "¼ cup cocoa powder",
+        "4 cups powdered sugar",
+        "2 teaspoons vanilla extract"
+      ],
+      "purpose": "Icing:"
+    },
+    {
+      "ingredients": [
+        "1 cup chopped walnuts"
+      ],
+      "purpose": "Garnish:"
+    }
+  ],
+  "instructions_list": [
+    "For the cake:",
+    "Preheat your oven to 350°F and spray a 10x15 jelly roll pan with non-stick cooking spray.",
+    "In a large bowl, whisk together the flour, sugar, baking soda, and salt.",
+    "With a hand or stand mixer, beat in the sour cream and eggs until just combined and set aside.",
+    "In a small skillet over low heat, combine the water, butter, and cocoa powder. Bring to a boil and immediately remove from the heat.",
+    "Allow the cocoa mixture to cool slightly before adding it to the mixing bowl with the other ingredients and beating until smooth.",
+    "Pour the batter into the jelly roll pan and bake uncovered for 20 minutes or until a toothpick comes out clean. Set it aside to cool while you make your icing.",
+    "For the icing:",
+    "In a large saucepan, over medium heat, stir together the butter, milk, and cocoa powder. Once bubbling, remove from heat and stir in the powdered sugar and vanilla until well combined.",
+    "Spread this mixture over the warm cake and sprinkle with walnuts. Serve warm or room temperature."
+  ],
+  "category": "Dessert",
+  "yields": "15 servings",
+  "description": "This Texas sheet cake is a soft, ultra-moist chocolate cake topped with warm fudgy icing and chopped walnuts, perfect for feeding a crowd with minimal effort.",
+  "total_time": 35,
+  "cook_time": 20,
+  "prep_time": 15,
+  "cuisine": "American",
+  "nutrients": {
+    "servingSize": "1 slice",
+    "calories": "539 kcal",
+    "fatContent": "26 g",
+    "saturatedFatContent": "14 g",
+    "unsaturatedFatContent": "11 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "75 g",
+    "sugarContent": "59 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "312 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "76 mg"
+  },
+  "image": "https://fantabulosity.com/wp-content/uploads/2026/02/Texas-Sheet-Cake-Recipe-1-2.jpg",
+  "keywords": [
+    "chocolate cake recipe",
+    "church cookbook recipe",
+    "vintage recipe"
+  ]
+}
