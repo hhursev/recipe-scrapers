@@ -14,11 +14,34 @@
     "1 teaspoon sesame oil",
     "12 rice papers (8 inches)",
     "1 tablespoon canola oil",
-    "DIPPING SAUCE:",
     "1/4 cup soy sauce",
     "1 tablespoon chili crisp sauce",
     "2 tablespoons rice vinegar",
     "Optional: Sesame seeds and thinly sliced green onions"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "12 ounces ground chicken",
+        "2 green onions, minced",
+        "3 tablespoons soy sauce",
+        "2 tablespoons minced fresh gingerroot",
+        "1 tablespoon chili crisp sauce",
+        "1 teaspoon sesame oil",
+        "12 rice papers (8 inches)",
+        "1 tablespoon canola oil"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1/4 cup soy sauce",
+        "1 tablespoon chili crisp sauce",
+        "2 tablespoons rice vinegar",
+        "Optional: Sesame seeds and thinly sliced green onions"
+      ],
+      "purpose": "dipping sauce:"
+    }
   ],
   "instructions_list": [
     "Make the filling",
