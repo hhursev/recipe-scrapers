@@ -1337,7 +1337,9 @@ def scrape_html(
         )
         raise WebsiteNotImplementedError(msg)
 
-    schema_scraper = SchemaScraperFactory.generate(html=html, url=org_url, best_image=best_image)
+    schema_scraper = SchemaScraperFactory.generate(
+        html=html, url=org_url, best_image=best_image
+    )
     if schema_scraper.schema.data:
         return schema_scraper
 
