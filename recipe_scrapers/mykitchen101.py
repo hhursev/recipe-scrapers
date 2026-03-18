@@ -3,10 +3,11 @@ import re
 from bs4 import BeautifulSoup
 
 from ._abstract import AbstractScraper
-from ._utils import get_yields, normalize_string, get_equipment
+from ._wprm import WPRMMixin
+from ._utils import get_yields, normalize_string
 
 
-class MyKitchen101(AbstractScraper):
+class MyKitchen101(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "mykitchen101.com"
@@ -41,11 +42,3 @@ class MyKitchen101(AbstractScraper):
                 if instruction.get_text()[:1].isdigit()
             ]
         )
-
-    def equipment(self):
-        equipment_items = [
-            text
-            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if (text := equip.get_text())
-        ]
-        return get_equipment(equipment_items)

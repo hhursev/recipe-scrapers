@@ -1,0 +1,82 @@
+{
+  "author": "Rosemary Molloy",
+  "canonical_url": "https://anitalianinmykitchen.com/honey-lemon-cake/",
+  "site_name": "An Italian in my Kitchen",
+  "host": "anitalianinmykitchen.com",
+  "language": "en-US",
+  "title": "Honey Lemon Cake",
+  "ingredients": [
+    "⅓ cup + 1½ tablespoons milk (2% or whole milk)",
+    "½ cup butter (softened)",
+    "2 cups cake / pastry flour",
+    "1½ teaspoons baking powder",
+    "1 pinch salt (if you use unsalted butter then add ¼ teaspoon salt)",
+    "1 tablespoon lemon zest",
+    "⅓ cup +1½ tablespoons honey",
+    "1 large egg yolk",
+    "1-2 tablespoons lemon juice",
+    "1 teaspoon vanilla extract",
+    "1 cup powdered / icing sugar",
+    "1 tablespoon butter (softened)",
+    "2 tablespoons lemon juice"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "⅓ cup + 1½ tablespoons milk (2% or whole milk)",
+        "½ cup butter (softened)",
+        "2 cups cake / pastry flour",
+        "1½ teaspoons baking powder",
+        "1 pinch salt (if you use unsalted butter then add ¼ teaspoon salt)",
+        "1 tablespoon lemon zest",
+        "⅓ cup +1½ tablespoons honey",
+        "1 large egg yolk",
+        "1-2 tablespoons lemon juice",
+        "1 teaspoon vanilla extract"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1 cup powdered / icing sugar",
+        "1 tablespoon butter (softened)",
+        "2 tablespoons lemon juice"
+      ],
+      "purpose": "LEMON GLAZE"
+    }
+  ],
+  "instructions_list": [
+    "Pre-heat oven to 350F/180C. Grease and flour or spray an 8-9 inch round cake pan.",
+    "In a small/medium pot add the milk and butter, heat until hot but not boiling and butter has melted. Let cool.",
+    "In a large mixer add the flour, baking powder, salt and zest, make a well in the middle add the honey, yolk, lemon juice, vanilla and cooled milk mixture. Beat one minute until combined. Pour into the prepared cake pan and bake for approximately 35 minutes, test with a toothpick for doneness. Let cool 20 -30 minutes in the pan then move to a wire rack to cool completely. Dust with powdered sugar or drizzle with a lemon glaze before serving. Enjoy!",
+    "Lemon Glaze",
+    "In a small bowl beat together the powdered sugar, butter and lemon juice until smooth."
+  ],
+  "category": "Brunch,Dessert,Snack",
+  "yields": "8 servings",
+  "description": "This honey lemon cake is soft, tender, and full of bright citrus flavor with a touch of natural sweetness from honey, finished with a simple lemon glaze.",
+  "total_time": 65,
+  "cook_time": 35,
+  "prep_time": 30,
+  "cuisine": "American/Italian",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "346 kcal",
+    "fatContent": "14 g",
+    "saturatedFatContent": "9 g",
+    "unsaturatedFatContent": "5 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "51 g",
+    "sugarContent": "27 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "110 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "59 mg"
+  },
+  "image": "https://anitalianinmykitchen.com/wp-content/uploads/2025/11/honey-lem-cake-pict-1-of-1.jpg",
+  "keywords": [
+    "honey cake",
+    "honey lemon cake",
+    "Lemon Cake"
+  ]
+}

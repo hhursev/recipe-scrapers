@@ -58,9 +58,9 @@ source .venv/bin/activate  # On Windows: `.venv\Scripts\activate`
 
 !!! tip "Virtual Environment"
     Remember to activate your virtual environment each time you work on the project:
-    ```sh
+```sh
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-    ```
+```
 
 ## Install Dependencies
 

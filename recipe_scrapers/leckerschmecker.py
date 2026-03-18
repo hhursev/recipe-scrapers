@@ -1,11 +1,11 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 from ._schemaorg import SchemaOrg
-from ._utils import get_equipment
 
 
-class LeckerSchmecker(AbstractScraper):
+class LeckerSchmecker(WPRMMixin, AbstractScraper):
 
-    class _CustomSchemaOrg(SchemaOrg):
+    class _CustomSchemaOrg(WPRMMixin, SchemaOrg):
         def _find_entity(self, item, schematype):
             if self._contains_schematype(item, schematype):
                 return item
@@ -25,11 +25,3 @@ class LeckerSchmecker(AbstractScraper):
     @classmethod
     def host(cls):
         return "leckerschmecker.me"
-
-    def equipment(self):
-        equipment_items = [
-            text
-            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if (text := equip.get_text())
-        ]
-        return get_equipment(equipment_items)

@@ -1,0 +1,49 @@
+{
+  "author": "Stephanie",
+  "canonical_url": "https://iamafoodblog.com/dan-dan-noodles/",
+  "site_name": "i am a food blog",
+  "host": "iamafoodblog.com",
+  "language": "en-US",
+  "title": "Dan Dan Noodles",
+  "ingredients": [
+    "2 tbsp Chinese sesame paste",
+    "2 tbsp chili oil (or to taste)",
+    "2 tbsp soy sauce",
+    "2 tsp black vinegar",
+    "2 tsp sugar",
+    "1-2 cloves garlic (finely minced)",
+    "2 servings noodles (of choice)",
+    "toasted sesame seeds (if desired)"
+  ],
+  "instructions_list": [
+    "In a large bowl, mix together the sesame paste with the the chili oil, soy sauce, vinegar, sugar, and garlic.",
+    "Cook the noodles according to the package instructions. Save 1/4 cup of the cooking water, then drain well.",
+    "Toss the noodles with the sauce, loosening with hot noodle water if too thick.",
+    "Enjoy topped with toasted sesame seeds and extra chili oil."
+  ],
+  "category": "Main Course",
+  "yields": "2 servings",
+  "description": "When you want a fast, easy, flavorful meal that takes just under ten minutes.",
+  "total_time": 5,
+  "cook_time": 4,
+  "prep_time": 1,
+  "cuisine": "Chinese",
+  "ratings": 4.8,
+  "ratings_count": 25,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "297 kcal",
+    "fatContent": "27.5 g",
+    "saturatedFatContent": "5 g",
+    "carbohydrateContent": "8 g",
+    "sugarContent": "5.1 g",
+    "proteinContent": "5.6 g",
+    "sodiumContent": "985 mg",
+    "fiberContent": "1.7 g",
+    "cholesterolContent": "45 mg"
+  },
+  "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/12/spicy-noodles-1014w.jpg",
+  "keywords": [
+    "noodles"
+  ]
+}

@@ -11,7 +11,7 @@ class JustOneCookbook(AbstractScraper):
         lis = self.soup.find_all("li", {"class": "wprm-recipe-ingredient"})
         ingredients = []
         for ingredient in lis:
-            spans = ingredient.findAll(
+            spans = ingredient.find_all(
                 "span", class_=lambda x: x != "wprm-checkbox-container"
             )[1:]
             ingredient = []

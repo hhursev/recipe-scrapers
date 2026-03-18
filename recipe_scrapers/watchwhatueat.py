@@ -1,8 +1,8 @@
 from ._abstract import AbstractScraper
-from ._utils import get_equipment
+from ._wprm import WPRMMixin
 
 
-class WatchWhatUEat(AbstractScraper):
+class WatchWhatUEat(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "watchwhatueat.com"
@@ -19,11 +19,3 @@ class WatchWhatUEat(AbstractScraper):
             text = " ".join(part.get_text(strip=True) for part in parts)
             ingredients.append(text.strip())
         return ingredients
-
-    def equipment(self):
-        equipment_items = [
-            text
-            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if (text := equip.get_text())
-        ]
-        return get_equipment(equipment_items)

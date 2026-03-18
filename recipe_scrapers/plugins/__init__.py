@@ -5,8 +5,11 @@ from .opengraph_fill import OpenGraphFillPlugin
 from .opengraph_image_fetch import OpenGraphImageFetchPlugin
 from .schemaorg_fill import SchemaOrgFillPlugin
 from .static_values import StaticValueExceptionHandlingPlugin
+from .best_image import BestImagePlugin
+
 
 __all__ = [
+    "BestImagePlugin",
     "ExceptionHandlingPlugin",
     "StaticValueExceptionHandlingPlugin",
     "HTMLTagStripperPlugin",

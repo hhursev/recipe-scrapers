@@ -1,9 +1,9 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 from ._grouping_utils import group_ingredients
-from ._utils import get_equipment
 
 
-class AmeesSavoryDish(AbstractScraper):
+class AmeesSavoryDish(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "ameessavorydish.com"
@@ -30,11 +30,3 @@ class AmeesSavoryDish(AbstractScraper):
             ".wprm-recipe-ingredient-group .wprm-recipe-ingredient-name strong",
             ".wprm-recipe-ingredient:not(:has(strong))",
         )
-
-    def equipment(self):
-        equipment_items = [
-            text
-            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if (text := equip.get_text())
-        ]
-        return get_equipment(equipment_items)

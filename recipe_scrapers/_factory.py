@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import get_host_name
+from typing import Optional
 
 
 class SchemaScraperFactory:
@@ -47,5 +48,5 @@ class SchemaScraperFactory:
             return self.schema.description()
 
     @classmethod
-    def generate(cls, html, url):
-        return cls.SchemaScraper(html=html, url=url)
+    def generate(cls, html, url, best_image: Optional[bool] = None):
+        return cls.SchemaScraper(html=html, url=url, best_image=best_image)

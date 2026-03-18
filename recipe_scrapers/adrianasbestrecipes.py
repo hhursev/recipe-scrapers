@@ -1,19 +1,11 @@
 from ._abstract import AbstractScraper
-from ._utils import get_equipment
+from ._wprm import WPRMMixin
 
 
-class AdrianasBestRecipes(AbstractScraper):
+class AdrianasBestRecipes(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "adrianasbestrecipes.com"
-
-    def equipment(self):
-        equipment_items = [
-            text
-            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if (text := equip.get_text())
-        ]
-        return get_equipment(equipment_items)
 
     def instructions(self):
         instructions = []

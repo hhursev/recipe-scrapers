@@ -42,7 +42,7 @@ class USDAMyPlate(AbstractScraper):
     def ingredients(self):
         ingredients = self.soup.find(
             "div", {"class": "field--name-field-ingredients"}
-        ).findAll("li")
+        ).find_all("li")
 
         return [normalize_string(paragraph.get_text()) for paragraph in ingredients]
 

@@ -5,7 +5,7 @@ from ._grouping_utils import group_ingredients
 class NinjaTestKitchen(AbstractScraper):
     @classmethod
     def host(cls):
-        return "ninjatestkitchen.com"
+        return "ninjatestkitchen.eu"
 
     def author(self):
         return "Ninja Test Kitchen"
