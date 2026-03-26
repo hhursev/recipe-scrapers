@@ -335,7 +335,6 @@ from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
 from .laurenslatest import LaurensLatest
 from .lazycatkitchen import LazyCatKitchen
-from .leanandgreenrecipes import LeanAndGreenRecipes
 from .lecker import Lecker
 from .leckerschmecker import LeckerSchmecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
@@ -961,7 +960,6 @@ SCRAPERS = {
     LAtelierDeRoxane.host(): LAtelierDeRoxane,
     LaurensLatest.host(): LaurensLatest,
     LazyCatKitchen.host(): LazyCatKitchen,
-    LeanAndGreenRecipes.host(): LeanAndGreenRecipes,
     Lecker.host(): Lecker,
     LeckerSchmecker.host(): LeckerSchmecker,
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
