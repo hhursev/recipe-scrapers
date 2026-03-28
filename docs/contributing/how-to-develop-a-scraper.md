@@ -84,7 +84,7 @@ python generate.py <ClassName> <URL>
 ```
 
 `<URL>` should be the recipe page you selected in the first step. The script
-downloads this recipe and uses it to create the initial test data.
+downloads this recipe and uses it to create the initial test data. If the domain includes any characters other than a-z, 0-9, or '_', you will have to replace them in the class name to conform to Python's naming standard. 
 
 This creates:
 
@@ -148,7 +148,7 @@ scraper = scrape_html(html, "<URL>")
 print(json.dumps(scraper.to_json(), indent=2, ensure_ascii=False))
 ```
 
-This will print the output returned by the scraper to your terminal for reference
+This will print the output returned by the scraper to your terminal for reference. You can also try the new script, populate_json_by_scraper.py that will place a .temp.json file in your test folder. Please remove the .temp.json as it can interfere with your unittest scan. 
 
 ### 2. Run Tests
 
