@@ -1,0 +1,104 @@
+{
+  "author": "Camelea Gohier",
+  "canonical_url": "https://www.empirecipes.com/caramel-apple-cookies/",
+  "site_name": "empirecipes.com",
+  "host": "empirecipes.com",
+  "language": "en-US",
+  "title": "Caramel Apple Cookies",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "1 teaspoon baking soda",
+    "1/2 teaspoon salt",
+    "1 teaspoon ground cinnamon",
+    "1/2 teaspoon ground nutmeg",
+    "1 cup unsalted butter (softened)",
+    "1 cup packed light brown sugar",
+    "1/2 cup granulated sugar",
+    "2 large eggs (room temperature)",
+    "2 teaspoons vanilla extract",
+    "1 cup old-fashioned rolled oats",
+    "1 1/2 cups chopped Granny Smith apples",
+    "1 cup caramel bits"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "1 teaspoon ground cinnamon",
+        "1/2 teaspoon ground nutmeg"
+      ],
+      "purpose": "Dry Ingredients"
+    },
+    {
+      "ingredients": [
+        "1 cup unsalted butter (softened)",
+        "1 cup packed light brown sugar",
+        "1/2 cup granulated sugar",
+        "2 large eggs (room temperature)",
+        "2 teaspoons vanilla extract"
+      ],
+      "purpose": "Wet Ingredients"
+    },
+    {
+      "ingredients": [
+        "1 cup old-fashioned rolled oats",
+        "1 1/2 cups chopped Granny Smith apples",
+        "1 cup caramel bits"
+      ],
+      "purpose": "Mix-ins"
+    }
+  ],
+  "instructions_list": [
+    "Preheat your oven to 350°F (175°C) and line two baking sheets with parchment paper.",
+    "In a medium bowl, whisk together the all-purpose flour, baking soda, salt, cinnamon, and nutmeg until well combined.",
+    "In a large bowl using an electric mixer, cream together the softened butter, brown sugar, and granulated sugar on medium speed until light and fluffy, about 3-4 minutes.",
+    "Beat in the eggs one at a time until fully incorporated, then mix in the vanilla extract.",
+    "Gradually add the flour mixture to the wet ingredients, mixing on low speed until just combined—be careful not to overmix.",
+    "Fold in the rolled oats, chopped apples, and caramel bits using a spatula until evenly distributed throughout the cookie dough.",
+    "Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart to allow for spreading.",
+    "Bake for 10-12 minutes until the edges are golden brown and the centers look set. Let cookies cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+  ],
+  "category": "Dessert",
+  "yields": "36 servings",
+  "description": "These delicious Caramel Apple Cookies combine sweet caramel bits with tart Granny Smith apples in a soft, spiced cookie. Perfect for fall baking.",
+  "total_time": 32,
+  "cook_time": 12,
+  "prep_time": 20,
+  "cuisine": "American",
+  "equipment": [
+    "oven",
+    "baking sheets",
+    "parchment paper",
+    "medium bowl",
+    "whisk",
+    "large bowl",
+    "electric mixer",
+    "spatula",
+    "measuring cups",
+    "measuring spoons",
+    "knife",
+    "cutting board",
+    "wire rack"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "130 kcal",
+    "fatContent": "5.5 g",
+    "saturatedFatContent": "3.5 g",
+    "unsaturatedFatContent": "1.8 g",
+    "carbohydrateContent": "19 g",
+    "sugarContent": "11 g",
+    "proteinContent": "1.5 g",
+    "sodiumContent": "85 mg",
+    "fiberContent": "0.6 g",
+    "cholesterolContent": "20 mg"
+  },
+  "image": "https://www.empirecipes.com/wp-content/uploads/2026/03/Easy-Caramel-Apple-Cookies.webp",
+  "keywords": [
+    "caramel apple",
+    "cookies",
+    "fall baking"
+  ]
+}

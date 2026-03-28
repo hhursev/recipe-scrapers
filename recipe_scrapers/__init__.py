@@ -195,6 +195,7 @@ from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
 from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
+from .empirecipes import Empirecipes
 from .epicurious import Epicurious
 from .erinliveswhole import ErinLivesWhole
 from .erinscozykitchen import ErinsCozyKitchen
@@ -800,6 +801,7 @@ SCRAPERS = {
     EggsCa.host(): EggsCa,
     ElaVegan.host(): ElaVegan,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
+    Empirecipes.host(): Empirecipes,
     Epicurious.host(): Epicurious,
     ErinLivesWhole.host(): ErinLivesWhole,
     ErinsCozyKitchen.host(): ErinsCozyKitchen,
