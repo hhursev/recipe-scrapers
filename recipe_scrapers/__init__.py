@@ -166,6 +166,7 @@ from .culy import Culy
 from .cybercook import Cybercook
 from .dagelijksekost import DagelijkseKost
 from .damndelicious import DamnDelicious
+from .daringgourmet import DaringGourmet
 from .dashfordinner import DashForDinner
 from .davidlebovitz import DavidLebovitz
 from .deliciouslyella import DeliciouslyElla
@@ -770,6 +771,7 @@ SCRAPERS = {
     Cybercook.host(): Cybercook,
     DagelijkseKost.host(): DagelijkseKost,
     DamnDelicious.host(): DamnDelicious,
+    DaringGourmet.host(): DaringGourmet,
     DashForDinner.host(): DashForDinner,
     DavidLebovitz.host(): DavidLebovitz,
     DeliciouslyElla.host(): DeliciouslyElla,
