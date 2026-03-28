@@ -60,6 +60,7 @@ from .alexandracooks import AlexandraCooks
 from .alisoneroman import AlisoneRoman
 from .alittlebityummy import ALittleBitYummy
 from .allrecipes import AllRecipes
+from .allsavoryrecipes import AllSavoryRecipes
 from .allthehealthythings import AllTheHealthyThings
 from .alltommat import AlltOmMat
 from .altonbrown import AltonBrown
@@ -662,6 +663,7 @@ SCRAPERS = {
     AlisoneRoman.host(): AlisoneRoman,
     ALittleBitYummy.host(): ALittleBitYummy,
     AllRecipes.host(): AllRecipes,
+    AllSavoryRecipes.host(): AllSavoryRecipes,
     AllTheHealthyThings.host(): AllTheHealthyThings,
     AlltOmMat.host(): AlltOmMat,
     AltonBrown.host(): AltonBrown,

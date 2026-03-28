@@ -1,0 +1,93 @@
+{
+  "author": "Emma Harper",
+  "canonical_url": "https://www.allsavoryrecipes.com/paprika-chicken-comfort-bowl/",
+  "site_name": "allsavoryrecipes.com",
+  "host": "allsavoryrecipes.com",
+  "language": "en-US",
+  "title": "Paprika Chicken Comfort Bowl",
+  "ingredients": [
+    "1 tablespoon paprika",
+    "1 teaspoon garlic powder",
+    "1 teaspoon onion powder",
+    "1/2 teaspoon salt",
+    "1/4 teaspoon black pepper",
+    "2 tablespoons olive oil",
+    "4 boneless, skinless chicken breasts (about 1 1/2 pounds total)",
+    "1 cup long-grain white rice",
+    "2 cups chicken broth",
+    "1 medium yellow onion (finely chopped)",
+    "1 red bell pepper (finely chopped)",
+    "1/2 cup sour cream (at room temperature)",
+    "2 tablespoons fresh parsley (chopped)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 tablespoon paprika",
+        "1 teaspoon garlic powder",
+        "1 teaspoon onion powder",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon black pepper"
+      ],
+      "purpose": "Spice Rub"
+    },
+    {
+      "ingredients": [
+        "2 tablespoons olive oil",
+        "4 boneless, skinless chicken breasts (about 1 1/2 pounds total)",
+        "1 cup long-grain white rice",
+        "2 cups chicken broth",
+        "1 medium yellow onion (finely chopped)",
+        "1 red bell pepper (finely chopped)",
+        "1/2 cup sour cream (at room temperature)",
+        "2 tablespoons fresh parsley (chopped)"
+      ],
+      "purpose": "Main Ingredients"
+    }
+  ],
+  "instructions_list": [
+    "In a small bowl, combine the paprika, garlic powder, onion powder, salt, and black pepper. Pat the chicken breasts dry with paper towels, then rub the spice mixture evenly over all sides of the chicken.",
+    "Heat the olive oil in a large, deep skillet or Dutch oven over medium-high heat. Add the chicken breasts and cook for 5-7 minutes per side, until golden brown and nearly cooked through. Remove the chicken from the skillet and set it aside on a plate.",
+    "Add the chopped onion and bell pepper to the same skillet. Cook for 4-5 minutes, stirring occasionally, until the vegetables have softened.",
+    "Stir in the rice and cook for 1 minute, toasting the grains lightly. Pour in the chicken broth, scraping up any browned bits from the bottom of the pan. Bring the mixture to a boil.",
+    "Reduce the heat to low, return the chicken breasts to the skillet, and cover. Simmer gently for 18-20 minutes, or until the rice is tender and has absorbed the liquid.",
+    "Remove the skillet from the heat. Stir in the sour cream until well combined and the sauce is creamy. Sprinkle with chopped parsley before serving."
+  ],
+  "category": "Dinner",
+  "yields": "4 servings",
+  "description": "This Paprika Chicken Comfort Bowl features juicy chicken breasts with aromatic spices served over creamy rice with bell peppers. A satisfying 50-minute one-pan meal perfect for weeknight dinners.",
+  "total_time": 50,
+  "cook_time": 35,
+  "prep_time": 15,
+  "cuisine": "American",
+  "equipment": [
+    "small bowl",
+    "measuring spoons",
+    "knife",
+    "cutting board",
+    "paper towels",
+    "large, deep skillet or Dutch oven",
+    "plate",
+    "spatula",
+    "measuring cups"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "480 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "5 g",
+    "unsaturatedFatContent": "10 g",
+    "carbohydrateContent": "45 g",
+    "sugarContent": "4 g",
+    "proteinContent": "38 g",
+    "sodiumContent": "780 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "105 mg"
+  },
+  "image": "https://www.allsavoryrecipes.com/wp-content/uploads/2026/02/Easy-Paprika-Chicken-Comfort-Bowl.webp",
+  "keywords": [
+    "comfort food",
+    "one-pan meal",
+    "paprika chicken"
+  ]
+}
