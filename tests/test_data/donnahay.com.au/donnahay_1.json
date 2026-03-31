@@ -1,8 +1,8 @@
 {
-  "host": "donnahay.com.au",
+  "author": "Donna Hay",
   "canonical_url": "https://www.donnahay.com.au/recipes/dinner/green-minestrone-soup",
   "site_name": "Donna Hay",
-  "author": "Donna Hay",
+  "host": "donnahay.com.au",
   "language": "en",
   "title": "Green Minestrone Soup",
   "ingredients": [
@@ -47,8 +47,8 @@
     "Stir through lemon rind, parsley, mint and salt and pepper. Serve scattered with parmesan.",
     "To freeze, allow to cool, divide between airtight containers and freeze for up to 3 months."
   ],
-  "total_time": null,
   "yields": "4 servings",
+  "total_time": null,
   "image": "https://cdn.donnahaycdn.com.au/images/content-images/green_minestrone_soup_1.jpg",
   "keywords": [
     "broccoli",
