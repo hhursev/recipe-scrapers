@@ -42,7 +42,6 @@
       "purpose": "Filling"
     }
   ],
-  "instructions": "Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.\nHeat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.\nIn medium bowl, beat Filling ingredients with electric mixer on medium speed until smooth. Spread over cooled crust. Cover and refrigerate until cool and gelatin topping in bowl is partially set.\nCarefully spoon gelatin topping over filling. Refrigerate 4 to 6 hours or until firm. To serve, cut into 4 rows by 3 rows.",
   "instructions_list": [
     "Dissolve gelatin in boiling water. Stir in strawberries; refrigerate until partially set, about 1 hour 45 minutes.",
     "Heat oven to 350° F. In medium bowl, mix Crust ingredients. Press into ungreased 13 x 9-inch baking dish. Bake 10 minutes. Cool on cooling rack.",
@@ -57,17 +56,17 @@
   "ratings": 4.5,
   "ratings_count": 96,
   "nutrients": {
-    "calories": "480",
-    "carbohydrateContent": "66 g",
-    "cholesterolContent": "50 mg",
-    "fatContent": "4 1/2",
-    "fiberContent": "2 g",
-    "proteinContent": "4 g",
-    "saturatedFatContent": "14 g",
     "servingSize": "1 Serving",
-    "sodiumContent": "360 mg",
+    "calories": "480",
+    "fatContent": "4 1/2",
+    "saturatedFatContent": "14 g",
+    "transFatContent": "1/2 g",
+    "carbohydrateContent": "66 g",
     "sugarContent": "53 g",
-    "transFatContent": "1/2 g"
+    "proteinContent": "4 g",
+    "sodiumContent": "360 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "50 mg"
   },
   "image": "https://images-gmi-pmc.edge-generalmills.com/6ec084f7-ffd9-4df2-8302-877825ecc321.jpg",
   "keywords": [

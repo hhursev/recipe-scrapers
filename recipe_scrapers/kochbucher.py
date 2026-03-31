@@ -1,12 +1,14 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 
 
 class Kochbucher(AbstractScraper):
     @classmethod
     def host(cls):
         return "kochbucher.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Kochbucher")
 
     def title(self):
         return self.soup.find("h1", {"class": "post-title entry-title left"}).get_text()
@@ -26,7 +28,7 @@ class Kochbucher(AbstractScraper):
     def ingredients(self):
         zutaten_heading = self.soup.find("p", string="Zutaten")
         if zutaten_heading is not None:
-            next_p_element = zutaten_heading.find_next("p")
+            next_p_element = zutaten_heading.find_next(name="p")
             if next_p_element is not None:
                 ingredients_list = next_p_element.get_text().split("\n")
                 ingredients_list = [
@@ -39,7 +41,7 @@ class Kochbucher(AbstractScraper):
     def instructions(self):
         zubereitung_heading = self.soup.find("p", string="Zubereitung")
         if zubereitung_heading is not None:
-            next_p_element = zubereitung_heading.find_next("p")
+            next_p_element = zubereitung_heading.find_next(name="p")
             if next_p_element is not None:
                 raw_instructions = next_p_element.get_text().replace("– ", "")
                 if isinstance(raw_instructions, str):

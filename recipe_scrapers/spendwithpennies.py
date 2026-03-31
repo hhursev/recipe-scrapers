@@ -1,9 +1,8 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class SpendWithPennies(AbstractScraper):
+class SpendWithPennies(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "spendwithpennies.com"

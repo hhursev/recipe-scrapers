@@ -1,0 +1,83 @@
+{
+  "author": "Christin Mahrlig",
+  "canonical_url": "https://spicysouthernkitchen.com/pineapple-pound-cake/",
+  "site_name": "Spicy Southern Kitchen",
+  "host": "spicysouthernkitchen.com",
+  "language": "en-US",
+  "title": "Pineapple Pound Cake",
+  "ingredients": [
+    "1½ cups unsalted butter (softened)",
+    "2¾ cups granulated sugar",
+    "2 teaspoons vanilla extract",
+    "5 large eggs (room temperature)",
+    "1 cup crushed pineapple (drained (save juice for glaze))",
+    "3 cups all-purpose flour",
+    "1 teaspoon baking powder",
+    "½ teaspoon salt",
+    "2 tablespoons melted butter",
+    "2 cups powdered sugar",
+    "¼ cup pineapple juice"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1½ cups unsalted butter (softened)",
+        "2¾ cups granulated sugar",
+        "2 teaspoons vanilla extract",
+        "5 large eggs (room temperature)",
+        "1 cup crushed pineapple (drained (save juice for glaze))",
+        "3 cups all-purpose flour",
+        "1 teaspoon baking powder",
+        "½ teaspoon salt"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "2 tablespoons melted butter",
+        "2 cups powdered sugar",
+        "¼ cup pineapple juice"
+      ],
+      "purpose": "Pineapple Glaze"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 325 degrees.",
+    "Cream butter and granulated sugar and vanilla extract with an electric stand mixer for 3 minutes.",
+    "Beat in eggs one at a time, stopping to scrape down sides of the bowl.",
+    "Whisk together flour, baking powder, and salt.",
+    "Add flour mixture to butter mixture, alternating with the drained crushed pineapple.",
+    "Spray a bundt pan well with baking spray with flour. Transfer batter to pan.",
+    "Bake for 1 hour and 15 minutes, covering with foil after 50 minutes.",
+    "Let cool 10 to 15 minutes in bundt pan and then invert onto a cake stand or plate.",
+    "Whisk together glaze ingredients in a bowl. Drizzle over cooled cake."
+  ],
+  "category": "Dessert",
+  "yields": "18 servings",
+  "description": "This easy Pineapple Pound Cake has tons of fresh tropical pineapple flavor. A simple pineapple glaze adds extra sweetness. Makes a wonderful summer dessert.",
+  "total_time": 90,
+  "cook_time": 75,
+  "prep_time": 15,
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "equipment": [
+    "Bundt Pan",
+    "Electric Stand Mixer",
+    "Baking spray with flour"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "423 kcal",
+    "fatContent": "18 g",
+    "saturatedFatContent": "11 g",
+    "unsaturatedFatContent": "6 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "62 g",
+    "sugarContent": "46 g",
+    "proteinContent": "4 g",
+    "sodiumContent": "121 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "96 mg"
+  },
+  "image": "https://spicysouthernkitchen.com/wp-content/uploads/2025/03/Pineapple-Pound-Cake-7-1-of-1.jpg"
+}

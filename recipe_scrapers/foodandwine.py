@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_yields, normalize_string
 
@@ -14,7 +13,7 @@ class FoodAndWine(AbstractScraper):
         )
         if yield_label:
             yield_value = yield_label.find_next(
-                "div", {"class": "mntl-recipe-details__value"}
+                name="div", attrs={"class": "mntl-recipe-details__value"}
             )
             if yield_value:
                 return get_yields(normalize_string(yield_value.text))

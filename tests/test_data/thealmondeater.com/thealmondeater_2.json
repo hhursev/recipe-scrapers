@@ -1,0 +1,83 @@
+{
+  "author": "Erin Alvarez",
+  "canonical_url": "https://thealmondeater.com/grilled-chicken-sandwich/",
+  "site_name": "The Almond Eater",
+  "host": "thealmondeater.com",
+  "language": "en-US",
+  "title": "Grilled Chicken Sandwich",
+  "ingredients": [
+    "2 chicken breasts (pounded to be the same thickness)",
+    "3 tbsp olive oil",
+    "1 tsp garlic powder",
+    "1 tsp paprika",
+    "½ tsp onion powder",
+    "½ tsp parsley",
+    "¼ tsp salt",
+    "¼ tsp pepper",
+    "2 hamburger buns",
+    "2 slices of cheddar cheese",
+    "2 slices of bacon",
+    "Lettuce",
+    "1 large tomato",
+    "3 tbsp mayo (more or less to taste)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 chicken breasts (pounded to be the same thickness)",
+        "3 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp paprika",
+        "½ tsp onion powder",
+        "½ tsp parsley",
+        "¼ tsp salt",
+        "¼ tsp pepper"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "2 hamburger buns",
+        "2 slices of cheddar cheese",
+        "2 slices of bacon",
+        "Lettuce",
+        "1 large tomato",
+        "3 tbsp mayo (more or less to taste)"
+      ],
+      "purpose": "For the sandwich:"
+    }
+  ],
+  "instructions_list": [
+    "Place the chicken in a ziploc bag or in a shallow dish. In a small bowl, stir the olive oil, garlic powder, paprika, onion powder, parsley, salt, and pepper together, then pour the mixture over the chicken. Seal the bag, then shake so that the chicken is coated in the seasoning mixture. Allow the chicken to marinade for at least 30 minutes, or up to 24 hours in the fridge.",
+    "Heat the grill to medium heat (about 400°F). Once hot, place the chicken smooth-side down and grill for 5 minutes. Use tongs to flip over and cook for an additional 3-5 minutes. If using cheese, place a piece of cheese on each piece of chicken during the last minute of cooking.",
+    "Let the chicken sit on a cutting board for 5 minutes before assembling the sandwich, which will allow the chicken to finish cooking.",
+    "Assemble the sandwiches: place chicken on a bun, then top with bacon, tomato and lettuce. Spread mayo on the top bun, then place it on top. Enjoy!"
+  ],
+  "category": "Main Course",
+  "yields": "2 servings",
+  "description": "With layers of juicy grilled chicken, melted cheddar, and crispy bacon, this easy Grilled Chicken Sandwich is the ultimate summer sandwich! Make it for a mouthwatering lunch or a kid-friendly weeknight dinner.",
+  "total_time": 40,
+  "cook_time": 10,
+  "prep_time": 30,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "597 kcal",
+    "fatContent": "27 g",
+    "saturatedFatContent": "9 g",
+    "unsaturatedFatContent": "14 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "26 g",
+    "sugarContent": "4 g",
+    "proteinContent": "59 g",
+    "sodiumContent": "1197 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "180 mg"
+  },
+  "image": "https://thealmondeater.com/wp-content/uploads/2025/07/grilled-chicken-sandwich_web-1.jpg",
+  "keywords": [
+    "grilled chicken sandwich"
+  ]
+}

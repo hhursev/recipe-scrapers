@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import re
 from itertools import zip_longest
 
@@ -68,4 +66,4 @@ class KuchynaLidla(AbstractScraper):
         return il
 
     def language(self):
-        return "sk"
+        return super().language()

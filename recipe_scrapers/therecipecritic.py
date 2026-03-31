@@ -1,9 +1,7 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 
 
-class Therecipecritic(AbstractScraper):
+class TheRecipeCritic(AbstractScraper):
     @classmethod
     def host(cls):
         return "therecipecritic.com"

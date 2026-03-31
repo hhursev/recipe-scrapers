@@ -1,18 +1,7 @@
-# mypy: allow-untyped-defs
-import warnings
-
 from ._abstract import AbstractScraper
-from ._exceptions import ElementNotFoundInHtml
+from ._exceptions import ElementNotFoundInHtml, FieldNotProvidedByWebsiteException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_yields, normalize_string
-
-BUG_REPORT_LINK = "https://github.com/hhursev/recipe-scrapers"
-_null_return_warning = (
-    "Hm. Apparently {} doesn't provide {} values? "
-    "If you know that's untrue for some recipe, "
-    "let us know at {} by creating an issue with "
-    "the bug label."
-)
 
 
 class TheCookingGuy(AbstractScraper):
@@ -20,23 +9,11 @@ class TheCookingGuy(AbstractScraper):
     def host(cls):
         return "thecookingguy.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def total_time(self):
-        warnings.warn(
-            _null_return_warning.format(self.host(), "total_time", BUG_REPORT_LINK)
-        )
-        return None
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
         return get_yields(self.soup.find("div", class_="text-block-7").get_text())
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         ingredients = self.soup.find(
@@ -66,7 +43,7 @@ class TheCookingGuy(AbstractScraper):
                 normalize_string(ingredient.get_text()) for ingredient in ingredients
             ]
 
-            purpose_p = ingredients_ul.find_previous_sibling()
+            purpose_p = ingredients_ul.find_previous_sibling(name=True)
 
             if purpose_p and purpose_p.name == "p" and purpose_p.find("strong"):
                 # has purpose, add new group

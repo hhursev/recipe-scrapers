@@ -1,22 +1,17 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
 class Bakels(AbstractScraper):
     @classmethod
-    def host(cls):
-        return "bakels.com.au"
+    def host(cls, domain="com.au"):
+        return f"bakels.{domain}"
 
     def author(self):
-        return "Australian Bakels"
+        return self.site_name()
 
     def title(self):
         return self.soup.find("h1").get_text()
-
-    def image(self):
-        return self.schema.image()
 
     def ingredients(self):
         div = self.soup.find("div", id="tab-ingredients_1")
@@ -56,7 +51,7 @@ class Bakels(AbstractScraper):
         if not tag:
             return None
 
-        instructions = tag.get_text(separator="\n", strip=True)
+        instructions = div.get_text(separator="\n", strip=True)
         instructions = "\n".join(
             step.split(". ", 1)[-1] for step in instructions.split("\n")
         )  # Removes the instruction number from each step
@@ -73,7 +68,7 @@ class Bakels(AbstractScraper):
         if not category_h4:
             return None
 
-        category_p = category_h4.find_next_sibling("p")
+        category_p = category_h4.find_next_sibling(name="p")
         if not category_p:
             return None
 

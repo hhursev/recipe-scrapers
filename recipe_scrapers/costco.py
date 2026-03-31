@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import normalize_string
 
 
@@ -11,6 +10,9 @@ class Costco(AbstractScraper):
 
     def author(self):
         return "Costco Connection"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Costco")
 
     def title(self):
         return self.soup.find("h1", style="font-size: 2.5em;").get_text()

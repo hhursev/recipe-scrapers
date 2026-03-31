@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
@@ -11,7 +11,7 @@ class TheHappyFoodie(AbstractScraper):
     def ingredients(self):
         ingredient_elements = self.soup.find(
             "div", {"class": "hf-ingredients__container"}
-        ).findAll("tr")
+        ).find_all("tr")
 
         amount = 0
         ingredient_name = 1
@@ -28,3 +28,11 @@ class TheHappyFoodie(AbstractScraper):
             )
 
         return [normalize_string(f"{amount} {name}") for amount, name in ingredients]
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".heading th",
+            ".hf-ingredients__single-group tr:not(.heading, .spacer)",
+        )

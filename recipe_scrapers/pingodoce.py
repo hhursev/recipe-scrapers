@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 
 
@@ -8,5 +7,11 @@ class PingoDoce(AbstractScraper):
         return "pingodoce.pt"
 
     def instructions(self):
-        instructions = self.soup.findAll("div", {"class": "step-description"})
+        instructions = self.soup.find_all("div", {"class": "step-description"})
         return "\n".join([i.get_text() for i in instructions])
+
+    def category(self):
+        return None
+
+    def cuisine(self):
+        return None

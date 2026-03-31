@@ -1,4 +1,3 @@
-# mypy: allow-untyped-defs
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
@@ -42,14 +41,14 @@ class KeukenLiefdeNL(AbstractScraper):
         ingredient_header = self.soup.find("strong", string="Ingrediënten")
         if ingredient_header:
             return self.process_ingredients(
-                ingredient_header.parent.find_next_sibling("ul")
+                ingredient_header.parent.find_next_sibling(name="ul")
             )
 
         # Nothing found, we give up.
         raise ElementNotFoundInHtml("Could not find ingredients.")
 
     def process_ingredients(self, container):
-        ingredients = container.findChildren("li")
+        ingredients = container.find_all("li")
 
         return [normalize_string(i.get_text()) for i in ingredients]
 
@@ -67,7 +66,7 @@ class KeukenLiefdeNL(AbstractScraper):
             # We are doing some assumptions here
             return self.normalize_instructions(
                 [instructions_heading.parent]
-                + instructions_heading.parent.find_next_siblings("p")
+                + instructions_heading.parent.find_next_siblings(name="p")
             )
 
         raise ElementNotFoundInHtml("Could not find instructions.")

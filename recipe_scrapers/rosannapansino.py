@@ -1,6 +1,5 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
 
@@ -12,11 +11,14 @@ class RosannaPansino(AbstractScraper):
     def title(self):
         return self.soup.find("meta", {"property": "og:title"})["content"]
 
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
+
     def ingredients(self):
         ingredients = (
             self.soup.find("div", {"class": "recipe-left"})
-            .find_next("em", string="Ingredients")
-            .find_next_sibling("ul")
+            .find_next(name="em", string="Ingredients")
+            .find_next_sibling(name="ul")
             .find_all("li")
         )
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
@@ -24,7 +26,7 @@ class RosannaPansino(AbstractScraper):
     def instructions(self):
         instructions = (
             self.soup.find("div", {"class": "recipe-right"})
-            .find_next("ol")
+            .find_next(name="ol")
             .find_all("li")
         )
         return "\n".join(

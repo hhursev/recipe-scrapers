@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="format-detection" content="telephone=no">
-		
+
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v22.1 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -64,7 +64,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 .block_footer_text, .quote-category .blogpostcategory {font-family: Playfair Display, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;}
-body {	 
+body {
 	background:#f2f2f2   !important;
 	color:#010101;
 	font-family: Karla, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
@@ -75,35 +75,35 @@ body {
 ::selection { background: #000; color:#fff; text-shadow: none; }
 
 h1, h2, h3, h4, h5, h6, .block1 p, .hebe .tp-tab-desc, a.blog-name-main {font-family: Lora, "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;}
-h1 { 	
+h1 {
 	color:#010101;
 	font-size: 34px !important;
 	}
-	
-h2, .term-description p { 	
+
+h2, .term-description p {
 	color:#010101;
 	font-size: 31px !important;
 	}
 
-h3 { 	
+h3 {
 	color:#010101;
 	font-size: 27px !important;
 	}
 
-h4 { 	
+h4 {
 	color:#010101;
 	font-size: 23px !important;
-	}	
-	
-h5 { 	
+	}
+
+h5 {
 	color:#010101;
 	font-size: 19px !important;
-	}	
+	}
 
-h6 { 	
+h6 {
 	color:#010101;
 	font-size: 15px !important;
-	}	
+	}
 
 .pagenav a {font-family: Karla !important;
 			  font-size: 15px;
@@ -133,7 +133,7 @@ a:hover, span, .current-menu-item a, .blogmore, .more-link, .pagenav.fixedmenu l
 
 .su-quote-style-default  {border-left:5px solid #c5a179;}
 .addthis_toolbox a i:hover {color:#c5a179 !important;}
- 
+
 /* ***********************
 --------------------------------------
 ------------BACKGROUND MAIN COLOR----------
@@ -162,10 +162,10 @@ ul#menu-top-menu, a.catlink:hover, .everly-read-more a, #commentform #submit, in
 ------------BOXED---------------------
 -----------------------------------*/
    	.sidebars-wrap.bottom {margin-top: 30px !important;padding-bottom:45px;}
- 
+
 .top-wrapper {background:;}
 
-.pagenav {background:#ffffff;border-top:px solid #000;border-bottom:px solid #000;} 
+.pagenav {background:#ffffff;border-top:px solid #000;border-bottom:px solid #000;}
 
 
 
@@ -228,7 +228,7 @@ a.pinit-button::after {
 			}
 		</style>
 		        <!-- MailerLite Universal -->
-        
+
         <!-- End MailerLite Universal -->
         <meta name="fo-verify" content="625fbbe0-cfbf-43e8-ba2a-75828713bb6e" /><link rel="icon" href="https://aberlehome.com/wp-content/uploads/2019/08/cropped-Aberle-Home-32x32.png" sizes="32x32" />
 <link rel="icon" href="https://aberlehome.com/wp-content/uploads/2019/08/cropped-Aberle-Home-192x192.png" sizes="192x192" />
@@ -249,11 +249,11 @@ width: 100% !important;
 
 
 @media screen and (min-width: 0px) and (max-width:615px) {
-	
+
 	#pmc-tabs ul li {
 			display:block;
 	}
-	
+
 }
 
 /* Mediavine CSS */
@@ -299,7 +299,7 @@ width: 100% !important;
         padding-right: 10px !important;
         margin-right: auto !important;
         margin-left: auto !important;
-        
+
   }
 	.main .sidebar {
     margin-right: 40px !important;
@@ -324,21 +324,21 @@ width: 100% !important;
     .mv-reviews-cta-wrap {
         padding: unset !important;
   }
-} 
+}
 
 body { line-height: 1.9; }		</style>
-		</head>		
+		</head>
 <!-- start body -->
 <body class="post-template-default single single-post postid-4450 single-format-standard" >
 	<!-- start header -->
-			<!-- fixed menu -->		
-				
-			
-			<div class="pagenav fixedmenu">						
-				<div class="holder-fixedmenu">							
-					<div class="logo-fixedmenu">								
+			<!-- fixed menu -->
+
+
+			<div class="pagenav fixedmenu">
+				<div class="holder-fixedmenu">
+					<div class="logo-fixedmenu">
 											 							<a href="https://aberlehome.com/"><img src="https://aberlehome.com/wp-content/uploads/2021/01/RedoscrollLogo40height.png" alt="Aberle Home - Sourdough Baking, Home Milled Flour &amp; Homemaking" ></a>
-												
+
 										</div>
 						<div class="menu-fixedmenu home">
 						<ul id="menu-main" class="menu"><li id="menu-item-5862-2975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a  href="https://aberlehome.com/">Home</a></li>
@@ -362,9 +362,9 @@ body { line-height: 1.9; }		</style>
 <li id="menu-item-4057-7138" class="menu-item menu-item-type-post_type menu-item-object-post"><a  href="https://aberlehome.com/milling-flour-at-home/">Milling Flour</a></li>
 <li id="menu-item-2401-2137" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a  href="https://aberlehome.com/category/crafts/">Crafts</a></li>
 <li id="menu-item-2249-21" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://aberlehome.com/contact/">Contact</a></li>
-</ul>	
+</ul>
 					</div>
-				</div>	
+				</div>
 			</div>
 				<header>
 				<!-- top bar -->
@@ -379,8 +379,8 @@ body { line-height: 1.9; }		</style>
 	</form></div>							</div>
 						</div>
 					</div>
-								
-					<div id="headerwrap">			
+
+					<div id="headerwrap">
 						<!-- logo and main menu -->
 						<div id="header">
 							<!-- respoonsive menu main-->
@@ -408,19 +408,19 @@ body { line-height: 1.9; }		</style>
 <a  class="menu-item menu-item-type-post_type menu-item-object-post" href="https://aberlehome.com/milling-flour-at-home/"><strong>Milling Flour</strong></a><br>
 <a  class="menu-item menu-item-type-taxonomy menu-item-object-category" href="https://aberlehome.com/category/crafts/"><strong>Crafts</strong></a><br>
 <a  class="menu-item menu-item-type-post_type menu-item-object-page" href="https://aberlehome.com/contact/"><strong>Contact</strong></a><br>
-</div></div>	
-							</div>	
+</div></div>
+							</div>
 							<!-- logo -->
 							<div class="logo-inner">
 								<div id="logo" class="">
 																			 											<a href="https://aberlehome.com/"><img src="https://aberlehome.com/wp-content/uploads/2019/10/Aberle-home@2x.png" alt="Aberle Home - Sourdough Baking, Home Milled Flour &amp; Homemaking" ></a>
-												
+
 								</div>
-																	
-							</div>	
-							
+
+							</div>
+
 							<!-- main menu -->
-							<div class="pagenav"> 	
+							<div class="pagenav">
 								<div class="pmc-main-menu">
 								<ul id="menu-main-menu-container" class="menu"><li id="menu-item-7953-2975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a  href="https://aberlehome.com/">Home</a></li>
 <li id="menu-item-5308-27" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://aberlehome.com/about/">About</a></li>
@@ -443,46 +443,46 @@ body { line-height: 1.9; }		</style>
 <li id="menu-item-2682-7138" class="menu-item menu-item-type-post_type menu-item-object-post"><a  href="https://aberlehome.com/milling-flour-at-home/">Milling Flour</a></li>
 <li id="menu-item-4278-2137" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a  href="https://aberlehome.com/category/crafts/">Crafts</a></li>
 <li id="menu-item-1826-21" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://aberlehome.com/contact/">Contact</a></li>
-</ul>											
-								</div> 	
-							</div> 
+</ul>
+								</div>
+							</div>
 						</div>
-					</div> 							
-												
-				
-						
-									</header>	
+					</div>
+
+
+
+									</header>
 						<!-- top bar with breadcrumb and post navigation -->
 
 <!-- main content start -->
 <div class="mainwrap single-default sidebar">
 		<!--rev slider-->
-		
-	<div class="main clearfix">	
+
+	<div class="main clearfix">
 	<div class="content singledefult">
-		<div class="postcontent singledefult" id="post-" class="post-4450 post type-post status-publish format-standard has-post-thumbnail hentry category-sourdough-recipes mv-content-wrapper">		
-			<div class="blogpost">		
+		<div class="postcontent singledefult" id="post-" class="post-4450 post type-post status-publish format-standard has-post-thumbnail hentry category-sourdough-recipes mv-content-wrapper">
+			<div class="blogpost">
 				<div class="posttext">
-					<div class="topBlog">	
+					<div class="topBlog">
 						<div class="blog-category"><em><a href="https://aberlehome.com/category/recipes/sourdough-recipes/" >Sourdough Recipes</a></em> </div>
 						<h1 class="title"><a href="https://aberlehome.com/homemade-sourdough-croissants/" rel="bookmark" title="Permanent Link to Homemade Sourdough Croissants">Homemade Sourdough Croissants</a></h1>
 												<div class = "post-meta">
-														<a class="post-meta-time" href="https://aberlehome.com/2021/08/01/">August 1, 2021</a> <a class="post-meta-author" href="https://aberlehome.com">by Leanna Aberle</a> <a href="https://aberlehome.com/homemade-sourdough-croissants/#commentform">36 Comments</a>				
+														<a class="post-meta-time" href="https://aberlehome.com/2021/08/01/">August 1, 2021</a> <a class="post-meta-author" href="https://aberlehome.com">by Leanna Aberle</a> <a href="https://aberlehome.com/homemade-sourdough-croissants/#commentform">36 Comments</a>
 						</div>
 						 <!-- end of post meta -->
-					</div>			
-											 
-						<div class="blogsingleimage">			
-							
-															<input class="jpibfi" type="hidden"><img width="760" height="507" src="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003.jpg" class="attachment-everly-postBlock size-everly-postBlock wp-post-image" alt="homemade sourdough croissants" decoding="async" fetchpriority="high" srcset="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003.jpg 760w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-300x200.jpg 300w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-120x80.jpg 120w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-345x230.jpg 345w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-735x490.jpg 735w" sizes="(max-width: 760px) 100vw, 760px" data-jpibfi-description="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://aberlehome.com/homemade-sourdough-croissants/" data-jpibfi-post-title="Homemade Sourdough Croissants" data-jpibfi-src="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003.jpg" >														
-								
-								
+					</div>
+
+						<div class="blogsingleimage">
+
+															<input class="jpibfi" type="hidden"><img width="760" height="507" src="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003.jpg" class="attachment-everly-postBlock size-everly-postBlock wp-post-image" alt="homemade sourdough croissants" decoding="async" fetchpriority="high" srcset="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003.jpg 760w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-300x200.jpg 300w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-120x80.jpg 120w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-345x230.jpg 345w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003-735x490.jpg 735w" sizes="(max-width: 760px) 100vw, 760px" data-jpibfi-description="" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://aberlehome.com/homemade-sourdough-croissants/" data-jpibfi-post-title="Homemade Sourdough Croissants" data-jpibfi-src="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-003.jpg" >
+
+
 
 						</div>
-		
+
 
 										<div class="sentry">
-						 
+
 						    							<div><div class='heateorSssClear'></div><div  class='heateor_sss_sharing_container heateor_sss_horizontal_sharing' data-heateor-sss-href='https://aberlehome.com/homemade-sourdough-croissants/' data-heateor-sss-no-counts="1"><div class='heateor_sss_sharing_title' style="font-weight:bold" >Share this post:</div><div class="heateor_sss_sharing_ul"><a aria-label="Facebook" class="heateor_sss_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faberlehome.com%2Fhomemade-sourdough-croissants%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#0765FE;width:70px;height:29px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span></a><a aria-label="Pinterest" class="heateor_sss_button_pinterest" href="https://aberlehome.com/homemade-sourdough-croissants/" onclick="event.preventDefault();javascript:void( (function() {var e=document.createElement('script' );e.setAttribute('type','text/javascript' );e.setAttribute('charset','UTF-8' );e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)})());" title="Pinterest" rel="nofollow noopener" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_pinterest" style="background-color:#cc2329;width:70px;height:29px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-2 -2 35 35"><path fill="#fff" d="M16.539 4.5c-6.277 0-9.442 4.5-9.442 8.253 0 2.272.86 4.293 2.705 5.046.303.125.574.005.662-.33.061-.231.205-.816.27-1.06.088-.331.053-.447-.191-.736-.532-.627-.873-1.439-.873-2.591 0-3.338 2.498-6.327 6.505-6.327 3.548 0 5.497 2.168 5.497 5.062 0 3.81-1.686 7.025-4.188 7.025-1.382 0-2.416-1.142-2.085-2.545.397-1.674 1.166-3.48 1.166-4.689 0-1.081-.581-1.983-1.782-1.983-1.413 0-2.548 1.462-2.548 3.419 0 1.247.421 2.091.421 2.091l-1.699 7.199c-.505 2.137-.076 4.755-.039 5.019.021.158.223.196.314.077.13-.17 1.813-2.247 2.384-4.324.162-.587.929-3.631.929-3.631.46.876 1.801 1.646 3.227 1.646 4.247 0 7.128-3.871 7.128-9.053.003-3.918-3.317-7.568-8.361-7.568z"/></svg></span></a><a aria-label="X" class="heateor_sss_button_x" href="https://twitter.com/intent/tweet?text=Homemade%20Sourdough%20Croissants&url=https%3A%2F%2Faberlehome.com%2Fhomemade-sourdough-croissants%2F" title="X" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_x" style="background-color:#2a2a2a;width:70px;height:29px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg width="100%" height="100%" style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M21.751 7h3.067l-6.7 7.658L26 25.078h-6.172l-4.833-6.32-5.531 6.32h-3.07l7.167-8.19L6 7h6.328l4.37 5.777L21.75 7Zm-1.076 16.242h1.7L11.404 8.74H9.58l11.094 14.503Z"></path></svg></span></a><a style="font-size:32px!important;box-shadow: none;display: inline-block!important;font-size: 16px;padding: 0 4px;vertical-align: middle;display:inline;" class="heateorSssSharingRound"><div style="width:70px;height:29px;border-radius:4px;margin-left:9px !important;visibility:visible;" title="Total Shares" class="heateorSssSharing heateorSssTCBackground"><div class="heateorSssTotalShareCount" style="font-size:17.98px">31.3K</div><div class="heateorSssTotalShareText" style="font-size: 11.02px">Shares</div></div></a></div><div class="heateorSssClear"></div></div><div class='heateorSssClear'></div><p style="text-align: center;"><span style="color: #aaaaaa; font-size: 12pt;">This post may contain affiliate links. See my full <span style="text-decoration: underline;"><a style="text-decoration: underline; color: #aaaaaa;" href="https://aberlehome.com/disclaimers-disclosure/">disclosure</a></span>. As an Amazon Associate, I earn from qualifying purchases.</span></p>
 <div class="mv-create-jtr-wrapper"><a href="#mv-creation-31-jtr" class="mv-create-jtr mv-create-jtr-slot-v2 mv-create-jtr-link mv-create-jtr-button-uppercase"><svg class="mv-create-jtr-caret" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 444.819 444.819" width="16px" height="16px"><path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561 L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416 C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848 c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693 C444.819,130.287,441.295,121.629,434.252,114.203z"/></svg> Jump to Recipe</a></div><style>.mv-create-jtr-wrapper{margin-bottom:20px}a.mv-create-jtr-link{display:inline-block;padding:10px 10px 10px 0;color:#333;font-size:16px;text-decoration:none!important;-webkit-transition:color .5s;transition:color .5s}a.mv-create-jtr-link:hover,a.mv-create-jtr-link:focus{color:#666}.mv-create-jtr-link .mv-create-jtr-caret{margin-right:5px;padding-top:6px;fill:#333}.mv-create-jtr-link:hover .mv-create-jtr-caret,.mv-create-jtr-link:focus .mv-create-jtr-caret{fill:#666}.mv-create-jtr-button-uppercase{text-transform:uppercase}</style><input class="jpibfi" type="hidden">
 <p>These hand-rolled sourdough croissants require simple ingredients and only two lamination folds after locking in the butter block. No stand mixer required! They are akin to what you would find at a bakery but with all the benefits of sourdough with a long fermentation.</p>
@@ -1171,10 +1171,10 @@ body { line-height: 1.9; }		</style>
 			<div id="mv-creation-31-jtr" class="mv-pre-create-target">
 				<div class="mv-create-jtr-continue" style="display:none"><a href="#mv-creation-31" class="mv-create-jtr mv-create-jtr-link mv-create-jtr-button-uppercase"><svg class="mv-create-jtr-caret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444.819 444.819" width="16px" height="16px"><path d="M434.252,114.203l-21.409-21.416c-7.419-7.04-16.084-10.561-25.975-10.561c-10.095,0-18.657,3.521-25.7,10.561 L222.41,231.549L83.653,92.791c-7.042-7.04-15.606-10.561-25.697-10.561c-9.896,0-18.559,3.521-25.979,10.561l-21.128,21.416 C3.615,121.436,0,130.099,0,140.188c0,10.277,3.619,18.842,10.848,25.693l185.864,185.865c6.855,7.23,15.416,10.848,25.697,10.848 c10.088,0,18.75-3.617,25.977-10.848l185.865-185.865c7.043-7.044,10.567-15.608,10.567-25.693 C444.819,130.287,441.295,121.629,434.252,114.203z" /></svg> Continue to Content</a></div>			</div>
 			<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Recipe","name":"Sourdough Croissants","author":{"@type":"Person","name":"Leanna Aberle"},"datePublished":"2021-07-27","recipeYield":10,"description":"These hand-rolled sourdough croissants require simple ingredients and only two lamination folds after locking in the butter block. No stand mixer required! They are akin to what you would find at a bakery but with all the benefits of sourdough with a long fermentation.","image":["https:\/\/aberlehome.com\/wp-content\/uploads\/2021\/07\/sourdough-croissants-021-480x480.jpg","https:\/\/aberlehome.com\/wp-content\/uploads\/2021\/07\/sourdough-croissants-021-480x360.jpg","https:\/\/aberlehome.com\/wp-content\/uploads\/2021\/07\/sourdough-croissants-021-360x480.jpg","https:\/\/aberlehome.com\/wp-content\/uploads\/2021\/07\/sourdough-croissants-021-720x405.jpg","https:\/\/aberlehome.com\/wp-content\/uploads\/2021\/07\/sourdough-croissants-021-735x490.jpg"],"recipeCategory":"Sourdough Recipes","recipeCuisine":"French","prepTime":"PT1H","cookTime":"PT15M","performTime":"PT21H15M","totalTime":"PT22H15M","recipeIngredient":["115g active sourdough starter, 100% hydration","36g sugar","10g kosher salt","29g (2 tablespoons) unsalted butter, melted","240g whole milk, cold","423g unbleached all-purpose flour","227g (1 cup) 82% fat (European-style) unsalted butter, cold","8g (1 tablespoon) unbleached all-purpose flour","1 egg","15g (1 tablespoon) whole milk"],"recipeInstructions":"Feed starter several hours before mixing dough and allow it to peak.\n\nSourdough Croissant Dough:\n\n1. Day 1: Mix the dough ingredients until a shaggy dough forms. Remove dough to a clean countertop and knead for a few minutes until a smooth dough forms. Form dough into a ball.\n\n2. Transfer dough to a large bowl and cover. Leave in a warm place (75&deg;-78&deg;F) to ferment for 4 hours, or until it looks slightly poofy.\n\n3. Cover and refrigerate dough overnight.\n\nButter Block:\n\n1. Day 2: Place cold butter on a sheet of parchment paper and sprinkle with the flour. Fold the ends of the parchment loosely to cover the butter and begin pounding the butter with a rolling pin until it begins to flatten. (Update: I find it's easier to measure and fold the parchment before placing the butter inside.)\n\n\n\n2. Use a measuring tape to form the parchment paper into a 6x8-inch rectangle pouch over the butter. Flip the pouch over to keep the edges closed. Then use a rolling pin and your fingers to evenly press the butter into the pouch to make a butter block. Chill if butter has begun to melt and looks greasy on the edges. If butter is still cold but very pliable when you bend the package, it is ready for the next step.\n\n\n\nLock in Butter Block:\n\n1. Remove dough from fridge and turn it out onto a lightly floured surface. Use your hands to begin to shape the dough into a rectangle and pinch the corners to shape them. Roll the dough into a 13x9-inch rectangle. \n\n2. Unwrap butter block and place in the center of your dough with a short side facing you.\n\n\n\n3. Bring the ends of the dough over the butter so they meet in the middle of the butter block, encasing the butter. Press every seam to seal so the butter does not escape during rolling. Brush away any loose flour with a pastry brush.\n\n\n\nFirst Lamination Fold (Book Fold):\n\n1. Turn the dough so the center seam is parallel to you. Use your rolling pin to gently pound the dough to lengthen it. Then roll to a 24x10-inch rectangle. Try to keep the edges and corners straight, and dust underneath with more flour as needed to prevent sticking.\n\n2. Fold the short ends of the rectangle inward to meet in the center (Update: meeting the edges together off-center is actually better). Then fold the new ends together like you're closing a book. Brush away any loose flour as you go.\n\n\n\n3. Wrap book in plastic wrap and refrigerate for 20 minutes.\n\nSecond Lamination Fold (Tri-Fold or Letter Fold):\n\n1. Place dough on your lightly floured surface again, this time with the fold facing you. Pound and roll to a 24x10-inch rectangle again.\n\n2. Fold the short ends of the rectangle in thirds this time, as if you are folding a letter. Brush away loose flour as you go. \n\n\n\n3. Wrap in plastic again, and chill for 1 hour.\n\nShaping and Baking Croissants:\n\n1. Remove dough from fridge and allow it to rest for 20 minutes or until the butter is pliable again. With the folded side facing you, roll to a 18x11.5-inch rectangle. Use a pizza cutter to trim the edges.\n\n\n\n2. Cut the rectangle into 5 equal rectangles, measuring for accuracy. Cut each rectangle in half on the diagonal to form 10 triangles. \n\n\n\n3. Set a triangle in front of you with the bottom two corners facing you. Brush away loose flour. Gently stretch these corners wider with your fingers and then roll the croissant tight enough that there won't be gaps in the finished pastry. (Update: I now make a small cut in the center of the base of each triangle instead of stretching the edges, then roll.) Lightly press the tip of the triangle into the croissant to help it adhere to the underneath side. Repeat for remaining triangles.\n\n\n\n4. Arrange the croissants on 2 parchment-lined half sheet pans, 5 to each pan. Cover with plastic wrap (not too tightly) and leave at room temperature to proof for several hours (do not exceed 75&deg;F during proofing), or until croissants have doubled in size and wobble like marshmallows when you bump the pan. You should begin to see some separation in the layers when proofing is finished. Meanwhile, preheat your oven to 425&deg;F.\n\n5. Beat your egg and milk together to make an egg wash. Use a pastry brush to brush egg wash over each proofed croissant, avoiding the laminated edges.\n\n6. Bake one pan at a time on the center rack for 15-17 minutes, or until deeply golden brown. (Hold second pan in the fridge until you're ready to egg wash and bake if done proofing.)\n\n7. Place croissants on a cooling rack, and serve or store once they've cooled completely.","keywords":"sourdough croissants, sourdough croissant, homemade croissants, sourdough croissants no yeast","nutrition":{"@type":"NutritionInformation","calories":"288 calories","carbohydrateContent":"52 grams carbohydrates","cholesterolContent":"29 milligrams cholesterol","fatContent":"5 grams fat","fiberContent":"2 grams fiber","proteinContent":"9 grams protein","saturatedFatContent":"2 grams saturated fat","servingSize":"1","sodiumContent":"436 milligrams sodium","sugarContent":"6 grams sugar","transFatContent":"0 grams trans fat","unsaturatedFatContent":"2 grams unsaturated fat"},"aggregateRating":{"@type":"AggregateRating","ratingValue":4.79999999999999982236431605997495353221893310546875,"reviewCount":"54"},"url":"https:\/\/aberlehome.com\/homemade-sourdough-croissants\/"}</script>	<section id="mv-creation-31" class="mv-create-card mv-create-card-31 mv-recipe-card mv-create-card-style-centered mv-no-js mv-create-aggressive-buttons mv-create-center-cards mv-create-has-uppercase mv-create-aggressive-lists mv-create-has-image " style="position: relative;">
-		
+
 		<div class="mv-create-wrapper">
 
-			
+
 			<header class="mv-create-header">
 				<img decoding="async" src="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-480x480.jpg" class="mv-create-image no_pin ggnoads" data-pin-nopin="true" alt="sourdough croissants" srcset="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-480x480.jpg 480w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-150x150.jpg 150w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-200x200.jpg 200w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-320x320.jpg 320w" sizes="(max-width: 480px) 100vw, 480px" data-pin-media="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021.jpg"><div class="mv-pinterest-btn mv-pinterest-btn-right" data-mv-pinterest-desc="Sourdough%20Croissants" data-mv-pinterest-img-src="https%3A%2F%2Faberlehome.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fsourdough-croissants-021.jpg" data-mv-pinterest-url="https%3A%2F%2Faberlehome.com%2Fhomemade-sourdough-croissants%2F"></div>
 <h2 class="mv-create-title mv-create-title-primary">Sourdough Croissants</h2>
@@ -1185,7 +1185,7 @@ body { line-height: 1.9; }		</style>
 				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Yield: </em>
 				<span class="mv-create-time-format mv-create-uppercase">10 croissants</span>
 			</div>
-	
+
 						<div class="mv-create-time mv-create-time-prep">
 				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Prep Time: </em>
 				<span class="mv-create-time-format mv-create-uppercase"><span class="mv-time-part mv-time-hours">1 hour</span> </span>
@@ -1202,7 +1202,7 @@ body { line-height: 1.9; }		</style>
 				<em class="mv-create-time-label mv-create-lowercase mv-create-strong">Total Time: </em>
 				<span class="mv-create-time-format mv-create-uppercase"><span class="mv-time-part mv-time-hours">22 hours</span> <span class="mv-time-part mv-time-minutes">15 minutes</span> </span>
 			</div>
-			
+
 </div>
 		<div class="mv-create-description">
 			<p>These hand-rolled sourdough croissants require simple ingredients and only two lamination folds after locking in the butter block. No stand mixer required! They are akin to what you would find at a bakery but with all the benefits of sourdough with a long fermentation.</p>
@@ -1262,9 +1262,9 @@ body { line-height: 1.9; }		</style>
 			<h3 class="mv-create-products-title mv-create-title-secondary">Recommended Products</h3>
 
 							<p class="mv-create-affiliate-disclaimer">As an Amazon Associate and member of other affiliate programs, I earn from qualifying purchases.</p>
-			
+
 			<ul class="mv-create-products-list">
-				
+
 				<li class="mv-create-products-listitem">
 					<a class="mv-create-products-link" href="https://www.amazon.com/Kitchen-Scale-Bakers-KD8000-Weight/dp/B00VEKX35Y?crid=1E6GEIBWK1JSJ&amp;keywords=Bakers+Math+Kitchen+Scale+-+KD8000+Scale+by+My+Weight%2C+Silver&amp;qid=1649034011&amp;sprefix=bakers+math+kitchen+scale+-+kd8000+scale+by+my+weight%2C+silver%2Caps%2C392&amp;sr=8-2&amp;linkCode=ll1&amp;tag=aberlehome-20&amp;linkId=e1c8bebdde4fbab48023f7d8eb8cf416&amp;language=en_US&amp;ref_=as_li_ss_tl" rel="nofollow noopener" target="_blank">
 													<div class="mv-create-products-imgwrap" id="img-wrap-25139">
@@ -1275,7 +1275,7 @@ body { line-height: 1.9; }		</style>
 					</a>
 				</li>
 
-				
+
 				<li class="mv-create-products-listitem">
 					<a class="mv-create-products-link" href="https://amzn.to/3445xvq" rel="nofollow noopener" target="_blank">
 													<div class="mv-create-products-imgwrap" id="img-wrap-25140">
@@ -1286,7 +1286,7 @@ body { line-height: 1.9; }		</style>
 					</a>
 				</li>
 
-				
+
 				<li class="mv-create-products-listitem">
 					<a class="mv-create-products-link" href="https://www.amazon.com/gp/product/B08QCLP81D/ref=as_li_tl?ie=UTF8&amp;tag=aberlehome-20&amp;camp=1789&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B08QCLP81D&amp;linkId=20aa431dc572874305bf78ec25af2f01" rel="nofollow noopener" target="_blank">
 													<div class="mv-create-products-imgwrap" id="img-wrap-25141">
@@ -1297,7 +1297,7 @@ body { line-height: 1.9; }		</style>
 					</a>
 				</li>
 
-				
+
 				<li class="mv-create-products-listitem">
 					<a class="mv-create-products-link" href="https://www.amazon.com/gp/product/B0049C2S32/ref=as_li_tl?ie=UTF8&amp;tag=aberlehome-20&amp;camp=1789&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B0049C2S32&amp;linkId=3b08a1e87b27757b84a1aea32cbf4a2d" rel="nofollow noopener" target="_blank">
 													<div class="mv-create-products-imgwrap" id="img-wrap-25142">
@@ -1308,7 +1308,7 @@ body { line-height: 1.9; }		</style>
 					</a>
 				</li>
 
-				
+
 				<li class="mv-create-products-listitem">
 					<a class="mv-create-products-link" href="https://www.amazon.com/gp/product/B081TZ5KPD/ref=as_li_qf_asin_il_tl?ie=UTF8&amp;tag=aberlehome-20&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B081TZ5KPD&amp;linkId=c559ad45a5115cef60d9dc826f2e228c" rel="nofollow noopener" target="_blank">
 													<div class="mv-create-products-imgwrap" id="img-wrap-25143">
@@ -1328,16 +1328,16 @@ body { line-height: 1.9; }		</style>
 		<h6 class="mv-create-nutrition-title mv-create-strong"><span>Nutrition Information:</span></h6>
 
 					<span class="mv-create-nutrition-item mv-create-nutrition-yield"><span class="mv-create-nutrition-label mv-create-uppercase">Yield:</span> 10</span>
-		
+
 					<span class="mv-create-nutrition-item mv-create-nutrition-serving-size"><span class="mv-create-nutrition-label mv-create-uppercase">Serving Size:</span> 1</span>
-		
+
 		<br><span class="mv-create-nutrition-amount"><em>Amount Per Serving:</em></span>
 
 		<span class="mv-create-nutrition-item mv-create-nutrition-calories"><span class="mv-create-nutrition-label mv-create-uppercase">Calories:</span> 288</span><span class="mv-create-nutrition-item mv-create-nutrition-total-fat"><span class="mv-create-nutrition-label mv-create-uppercase">Total Fat:</span> 5g</span><span class="mv-create-nutrition-item mv-create-nutrition-saturated-fat mv-create-nutrition-indent"><span class="mv-create-nutrition-label mv-create-uppercase">Saturated Fat:</span> 2g</span><span class="mv-create-nutrition-item mv-create-nutrition-trans-fat mv-create-nutrition-indent"><span class="mv-create-nutrition-label mv-create-uppercase">Trans Fat:</span> 0g</span><span class="mv-create-nutrition-item mv-create-nutrition-unsaturated-fat mv-create-nutrition-indent"><span class="mv-create-nutrition-label mv-create-uppercase">Unsaturated Fat:</span> 2g</span><span class="mv-create-nutrition-item mv-create-nutrition-cholesterol"><span class="mv-create-nutrition-label mv-create-uppercase">Cholesterol:</span> 29mg</span><span class="mv-create-nutrition-item mv-create-nutrition-sodium"><span class="mv-create-nutrition-label mv-create-uppercase">Sodium:</span> 436mg</span><span class="mv-create-nutrition-item mv-create-nutrition-carbohydrates"><span class="mv-create-nutrition-label mv-create-uppercase">Carbohydrates:</span> 52g</span><span class="mv-create-nutrition-item mv-create-nutrition-fiber mv-create-nutrition-indent"><span class="mv-create-nutrition-label mv-create-uppercase">Fiber:</span> 2g</span><span class="mv-create-nutrition-item mv-create-nutrition-sugar mv-create-nutrition-indent"><span class="mv-create-nutrition-label mv-create-uppercase">Sugar:</span> 6g</span><span class="mv-create-nutrition-item mv-create-nutrition-protein"><span class="mv-create-nutrition-label mv-create-uppercase">Protein:</span> 9g</span>
 	</div>
 
 			<p class="mv-create-nutrition-disclaimer"><em>*Nutrition information is not always accurate.</em></p>
-	
+
 </div>
 
 
@@ -1345,11 +1345,11 @@ body { line-height: 1.9; }		</style>
 		</div>
 
 		<footer class="mv-create-footer">
-			
+
 <div class="mv-create-footer-flexbox">
 
 			<div class="mv-create-copy">&copy; Leanna Aberle</div>
-	
+
 	<div class="mv-create-categories">
 
 					<span class="mv-create-cuisine">
@@ -1358,252 +1358,252 @@ body { line-height: 1.9; }		</style>
 				</strong>
 				French			</span>
 							<span class="mv-create-spacer">/</span>
-					
+
 					<span class="mv-create-category"><strong class="mv-create-uppercase mv-create-strong">Category:</strong> Sourdough Recipes</span>
-		
+
 	</div>
 
 	<img decoding="async" src="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-735x490.jpg" alt="" data-pin-description="" class="mv-create-pinterest no_pin ggnoads" srcset="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-735x490.jpg 735w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-300x200.jpg 300w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-120x80.jpg 120w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021-345x230.jpg 345w, https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021.jpg 760w" sizes="(max-width: 735px) 100vw, 735px" data-pin-media="https://aberlehome.com/wp-content/uploads/2021/07/sourdough-croissants-021.jpg">
 </div>
 		</footer>
 
-		
+
 	</section>
 
 				</div>
 		</div>
-<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script></div>		
+<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script></div>
 												<div class="post-page-links"></div>
 						<div class="singleBorder"></div>
 					</div>
 				</div>
-				
-								
+
+
 				 <!-- end of blog-info -->
-				
+
 				 <!-- end of author info -->
-				
-			</div>						
-			
-		</div>	
-		
+
+			</div>
+
+		</div>
+
 		 <!-- end of related -->
-		
-		
+
+
 		<!-- You can start editing here. -->				<ol class="commentlist">		<div class="titleborderOut">		<div class="titleborder"></div>	</div>	<div class="post-comments-title">		<h4 class="post-comments" id="comments">36 Comments</h4>		</div>		   <li class="comment even thread-even depth-1" id="li-comment-1488">		<div class = "specificComment" id="comment-1488">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Aleida Baez Arnold  			</span>			<span class = "commentsDate"> February 18, 2024 at 8:16 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1488' data-commentid="1488" data-postid="4450" data-belowelement="comment-1488" data-respondelement="respond" data-replyto="Reply to Aleida Baez Arnold" aria-label='Reply to Aleida Baez Arnold'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I started to learn how to bake different pastry using sourdough starter. I look a different recipe. I found yours on how to make croissants and I’m in love on how easy was to follow the steps. I wish I could show you my end result. </p>
 <p>Thank you</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1489">		<div class = "specificComment" id="comment-1489">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna Aberle</a>  			</span>			<span class = "commentsDate"> February 18, 2024 at 8:52 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1489' data-commentid="1489" data-postid="4450" data-belowelement="comment-1489" data-respondelement="respond" data-replyto="Reply to Leanna Aberle" aria-label='Reply to Leanna Aberle'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Thank you so much for letting me know, Aleida! I love to hear that the croissants turned out well for you.</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-1449">		<div class = "specificComment" id="comment-1449">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Ashlyn  			</span>			<span class = "commentsDate"> January 25, 2024 at 2:38 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1449' data-commentid="1449" data-postid="4450" data-belowelement="comment-1449" data-respondelement="respond" data-replyto="Reply to Ashlyn" aria-label='Reply to Ashlyn'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi, how long is &#8220;a few hours&#8221; for the second proof? They have been sitting for about 3 hours at 72-75 degrees and barely have risen. I will say though, the first rise barely even got poofy after 5 hours. my starter was very active though and had pretty much doubled when I used it</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1451">		<div class = "specificComment" id="comment-1451">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna Aberle</a>  			</span>			<span class = "commentsDate"> January 25, 2024 at 8:12 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1451' data-commentid="1451" data-postid="4450" data-belowelement="comment-1451" data-respondelement="respond" data-replyto="Reply to Leanna Aberle" aria-label='Reply to Leanna Aberle'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Ashlyn! The proof can take quite a while. The timing for the first rise also depends a lot on your dough temperature after mixing, and if your starter was all the way at its peak. If you give the croissants the time they need to get wobbly, though, they will turn out much more open in the center. I&#8217;d love to hear how things went.</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-even depth-1" id="li-comment-1433">		<div class = "specificComment" id="comment-1433">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Victoria  			</span>			<span class = "commentsDate"> January 13, 2024 at 5:36 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1433' data-commentid="1433" data-postid="4450" data-belowelement="comment-1433" data-respondelement="respond" data-replyto="Reply to Victoria" aria-label='Reply to Victoria'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hey! Can’t wait to try, what are your thoughts on freezing after shaping? Thank you!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1444">		<div class = "specificComment" id="comment-1444">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna Aberle</a>  			</span>			<span class = "commentsDate"> January 18, 2024 at 4:59 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1444' data-commentid="1444" data-postid="4450" data-belowelement="comment-1444" data-respondelement="respond" data-replyto="Reply to Leanna Aberle" aria-label='Reply to Leanna Aberle'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Victoria! I haven&#8217;t tried that yet. Did you end up freezing some before proofing?</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-1370">		<div class = "specificComment" id="comment-1370">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Ashley  			</span>			<span class = "commentsDate"> December 1, 2023 at 9:41 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1370' data-commentid="1370" data-postid="4450" data-belowelement="comment-1370" data-respondelement="respond" data-replyto="Reply to Ashley" aria-label='Reply to Ashley'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Can you use homemade raw butter for these?</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1372">		<div class = "specificComment" id="comment-1372">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna Aberle</a>  			</span>			<span class = "commentsDate"> December 1, 2023 at 2:30 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1372' data-commentid="1372" data-postid="4450" data-belowelement="comment-1372" data-respondelement="respond" data-replyto="Reply to Leanna Aberle" aria-label='Reply to Leanna Aberle'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Yes you can, Ashley! Unsalted butter works the best for laminating pastry.</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-even depth-1" id="li-comment-1366">		<div class = "specificComment" id="comment-1366">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Ruby  			</span>			<span class = "commentsDate"> November 29, 2023 at 2:33 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1366' data-commentid="1366" data-postid="4450" data-belowelement="comment-1366" data-respondelement="respond" data-replyto="Reply to Ruby" aria-label='Reply to Ruby'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi! I made these today and I just have to say thank you! Croissants have been something I’ve had such a hard time with and these were perfect! I literally did a happy dance! Thank you for a fantastic recipe!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1369">		<div class = "specificComment" id="comment-1369">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna Aberle</a>  			</span>			<span class = "commentsDate"> December 1, 2023 at 7:31 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1369' data-commentid="1369" data-postid="4450" data-belowelement="comment-1369" data-respondelement="respond" data-replyto="Reply to Leanna Aberle" aria-label='Reply to Leanna Aberle'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I&#8217;m so glad you had a fun time making the croissants, Ruby! 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-1194">		<div class = "specificComment" id="comment-1194">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Ellen  			</span>			<span class = "commentsDate"> July 29, 2023 at 7:52 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1194' data-commentid="1194" data-postid="4450" data-belowelement="comment-1194" data-respondelement="respond" data-replyto="Reply to Ellen" aria-label='Reply to Ellen'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi! Wondering what difference would need to be made if I was looking to fill these? Like make a ham and cheese breakfast croissant with them?</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1219">		<div class = "specificComment" id="comment-1219">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna Aberle</a>  			</span>			<span class = "commentsDate"> August 7, 2023 at 5:38 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1219' data-commentid="1219" data-postid="4450" data-belowelement="comment-1219" data-respondelement="respond" data-replyto="Reply to Leanna Aberle" aria-label='Reply to Leanna Aberle'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Ellen, though you could probably just roll in ham and cheese in while shaping, I would worry about the long proof time. I would personally just cut the finished croissants open, layer on some ham and cheese, then stick under the broiler briefly to melt the cheese. 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-even depth-1" id="li-comment-1089">		<div class = "specificComment" id="comment-1089">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Lauren K  			</span>			<span class = "commentsDate"> April 18, 2023 at 1:16 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1089' data-commentid="1089" data-postid="4450" data-belowelement="comment-1089" data-respondelement="respond" data-replyto="Reply to Lauren K" aria-label='Reply to Lauren K'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I followed the recipe to a T and unfortunately they did not turn out. They looked beautiful as I put them in the oven but when they came out they were burnt on the bottom and raw on the inside.  Not sure what went wrong, but pretty disappointing for how much time went into them.</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1090">		<div class = "specificComment" id="comment-1090">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> April 18, 2023 at 1:22 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1090' data-commentid="1090" data-postid="4450" data-belowelement="comment-1090" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I&#8217;m sorry, that&#8217;s such a bummer! It sounds like your oven may run hot!</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-1067">		<div class = "specificComment" id="comment-1067">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				maleeka  			</span>			<span class = "commentsDate"> March 24, 2023 at 9:17 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1067' data-commentid="1067" data-postid="4450" data-belowelement="comment-1067" data-respondelement="respond" data-replyto="Reply to maleeka" aria-label='Reply to maleeka'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>hey! what properties of whole milk are necessary for this recipe? I’m dairy free and thinking of using oat milk. thank you!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-1069">		<div class = "specificComment" id="comment-1069">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> March 25, 2023 at 11:36 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1069' data-commentid="1069" data-postid="4450" data-belowelement="comment-1069" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Maleeka! The milk adds softness to the dough. I think you should be fine substituting with oat milk, but let me know how it goes!</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
    <li class="comment even depth-2" id="li-comment-1096">		<div class = "specificComment" id="comment-1096">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Melissa  			</span>			<span class = "commentsDate"> April 24, 2023 at 6:59 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-1096' data-commentid="1096" data-postid="4450" data-belowelement="comment-1096" data-respondelement="respond" data-replyto="Reply to Melissa" aria-label='Reply to Melissa'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I&#8217;ve used homemade almond milk (almonds and water) 3 times now and they have turned out wonderful each time!</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-even depth-1" id="li-comment-1018">		<div class = "specificComment" id="comment-1018">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Chad  			</span>			<span class = "commentsDate"> November 29, 2022 at 8:13 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1018' data-commentid="1018" data-postid="4450" data-belowelement="comment-1018" data-respondelement="respond" data-replyto="Reply to Chad" aria-label='Reply to Chad'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Easy recipe with great results!! Thank you!!!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor even depth-2" id="li-comment-1019">		<div class = "specificComment" id="comment-1019">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> November 30, 2022 at 11:03 am				<a rel='nofollow' class='comment-reply-link' href='#comment-1019' data-commentid="1019" data-postid="4450" data-belowelement="comment-1019" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Thank you for trying the recipe, Chad!</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-992">		<div class = "specificComment" id="comment-992">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				carly  			</span>			<span class = "commentsDate"> November 9, 2022 at 3:00 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-992' data-commentid="992" data-postid="4450" data-belowelement="comment-992" data-respondelement="respond" data-replyto="Reply to carly" aria-label='Reply to carly'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Leanna! Hope you are doing well. After the initial 4 hours of dough warm ferment time, should the dough look doubled in size? What should I be looking for once it has been 4 hours? Thanks so much for the recipe! Looking forward to getting to do the rest!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor even depth-2" id="li-comment-994">		<div class = "specificComment" id="comment-994">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> November 9, 2022 at 3:59 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-994' data-commentid="994" data-postid="4450" data-belowelement="comment-994" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Carly! The dough will increase in size a little, but it won&#8217;t double. As long as it&#8217;s been in a warm place (75°-78°), it should be ready for the fridge! Have fun. 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-even depth-1" id="li-comment-968">		<div class = "specificComment" id="comment-968">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Marianne  			</span>			<span class = "commentsDate"> October 24, 2022 at 1:26 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-968' data-commentid="968" data-postid="4450" data-belowelement="comment-968" data-respondelement="respond" data-replyto="Reply to Marianne" aria-label='Reply to Marianne'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Can I use 2% milk…?…. It’s what I have and my starter is at peak?   Thanks</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor even depth-2" id="li-comment-969">		<div class = "specificComment" id="comment-969">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> October 24, 2022 at 8:56 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-969' data-commentid="969" data-postid="4450" data-belowelement="comment-969" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Marianne, 2% should work just fine!</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-944">		<div class = "specificComment" id="comment-944">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Donna Baley  			</span>			<span class = "commentsDate"> October 4, 2022 at 10:56 am				<a rel='nofollow' class='comment-reply-link' href='#comment-944' data-commentid="944" data-postid="4450" data-belowelement="comment-944" data-respondelement="respond" data-replyto="Reply to Donna Baley" aria-label='Reply to Donna Baley'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>How long can you leave the finished croissants at room temperature or do you have to freeze them right away?<br />
 Also how would you store them on the counter?</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor even depth-2" id="li-comment-949">		<div class = "specificComment" id="comment-949">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> October 9, 2022 at 6:37 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-949' data-commentid="949" data-postid="4450" data-belowelement="comment-949" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Donna! You wouldn&#8217;t have to freeze them right away&#8211;that&#8217;s just what we always do with the leftovers. I would guess they would stay fresh for 2 or 3 days in an airtight container at room temperature. Make sure they cool completely before you store them.</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-even depth-1" id="li-comment-872">		<div class = "specificComment" id="comment-872">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Fernando  			</span>			<span class = "commentsDate"> August 20, 2022 at 7:26 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-872' data-commentid="872" data-postid="4450" data-belowelement="comment-872" data-respondelement="respond" data-replyto="Reply to Fernando" aria-label='Reply to Fernando'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi, I was wondering if it would be ok to use pastry flour instead of all purpose flour for this recipe?</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor even depth-2" id="li-comment-890">		<div class = "specificComment" id="comment-890">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> August 30, 2022 at 8:39 am				<a rel='nofollow' class='comment-reply-link' href='#comment-890' data-commentid="890" data-postid="4450" data-belowelement="comment-890" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Fernando, I haven&#8217;t tested with pastry flour, so I&#8217;m not sure how the switch would affect the recipe. 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-869">		<div class = "specificComment" id="comment-869">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Claudia V  			</span>			<span class = "commentsDate"> August 19, 2022 at 6:59 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-869' data-commentid="869" data-postid="4450" data-belowelement="comment-869" data-respondelement="respond" data-replyto="Reply to Claudia V" aria-label='Reply to Claudia V'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I made this recipe and it turned out amazing!!!<br />
 Thank you!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor even depth-2" id="li-comment-891">		<div class = "specificComment" id="comment-891">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> August 30, 2022 at 8:40 am				<a rel='nofollow' class='comment-reply-link' href='#comment-891' data-commentid="891" data-postid="4450" data-belowelement="comment-891" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I&#8217;m so glad to hear that, Claudia! Thanks for leaving a comment. 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment odd alt thread-even depth-1" id="li-comment-853">		<div class = "specificComment" id="comment-853">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Kate S.  			</span>			<span class = "commentsDate"> August 9, 2022 at 6:35 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-853' data-commentid="853" data-postid="4450" data-belowelement="comment-853" data-respondelement="respond" data-replyto="Reply to Kate S." aria-label='Reply to Kate S.'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>If I would want to bake these first thing in the morning, how would i go about that &#8211; having done all the leg work (folding and proofing) the day before?</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-787">		<div class = "specificComment" id="comment-787">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Jill  			</span>			<span class = "commentsDate"> July 12, 2022 at 4:00 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-787' data-commentid="787" data-postid="4450" data-belowelement="comment-787" data-respondelement="respond" data-replyto="Reply to Jill" aria-label='Reply to Jill'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Would it be possible to refrigerate them after shaping in order to bake them in the morning? If so, would you recommend letting them proof first? And would I have to bring them to room temp before baking? Looking forward to trying this recipe this weekend!!!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-790">		<div class = "specificComment" id="comment-790">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> July 14, 2022 at 8:18 am				<a rel='nofollow' class='comment-reply-link' href='#comment-790' data-commentid="790" data-postid="4450" data-belowelement="comment-790" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Hi Jill! Yes, I think that would work. I wouldn&#8217;t do the extra day in the fridge after laminating in that case or they would get too sour. I would try proofing first and then refrigerate them covered well with plastic wrap. You could bake them from cold the next morning as long as they have proofed sufficiently by then. 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-even depth-1" id="li-comment-754">		<div class = "specificComment" id="comment-754">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="http://Jeremyplanet.com" class="url" rel="ugc external nofollow">Jeremy</a>  			</span>			<span class = "commentsDate"> June 10, 2022 at 12:42 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-754' data-commentid="754" data-postid="4450" data-belowelement="comment-754" data-respondelement="respond" data-replyto="Reply to Jeremy" aria-label='Reply to Jeremy'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Just finished trying your<br />
 recipe of Sourdough Croissants. Very<br />
 successful and fun. Thank you!</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-762">		<div class = "specificComment" id="comment-762">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> June 12, 2022 at 4:44 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-762' data-commentid="762" data-postid="4450" data-belowelement="comment-762" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>I&#8217;m so glad you enjoyed making the croissants, Jeremy!</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
    <li class="comment even thread-odd thread-alt depth-1" id="li-comment-633">		<div class = "specificComment" id="comment-633">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				Christiannah Williams-Ehrman  			</span>			<span class = "commentsDate"> February 1, 2022 at 11:43 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-633' data-commentid="633" data-postid="4450" data-belowelement="comment-633" data-respondelement="respond" data-replyto="Reply to Christiannah Williams-Ehrman" aria-label='Reply to Christiannah Williams-Ehrman'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>Why are we needing to let the dough do a 12hr cold proof?</p>
 </div>	</div>			 	</div><ul class="children">
    <li class="comment byuser comment-author-leanna-aberlegmail-com bypostauthor odd alt depth-2" id="li-comment-638">		<div class = "specificComment" id="comment-638">	<div class="blogAuthor">		<a href="https://aberlehome.com/author/leanna-aberlegmail-com/"></a>	</div>	<div class = "right-part">
-		<div class ="comment-meta">			<span class="authorBlogName">	
+		<div class ="comment-meta">			<span class="authorBlogName">
 				<a href="https://aberlehome.com" class="url" rel="ugc">Leanna</a>  			</span>			<span class = "commentsDate"> February 2, 2022 at 4:56 pm				<a rel='nofollow' class='comment-reply-link' href='#comment-638' data-commentid="638" data-postid="4450" data-belowelement="comment-638" data-respondelement="respond" data-replyto="Reply to Leanna" aria-label='Reply to Leanna'>Reply</a>			</span>			</div>
 				<div class="commenttext"><p>The cold ferment allows the dough enough time to develop properly. 🙂</p>
 </div>	</div>			 	</div></li><!-- #comment-## -->
@@ -1617,12 +1617,12 @@ successful and fun. Thank you!</p>
 <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Leave a Comment" /> <input type='hidden' name='comment_post_ID' value='4450' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 </p></form>	</div><!-- #respond -->
-	</div>		
+	</div>
 		 <!-- end of post navigation -->
 				</div>
-		
-		
-			<div class="sidebar">	
+
+
+			<div class="sidebar">
 			<div class="widget widget_text"><h3>Welcome to Aberle Home!</h3><div class="widget-line"></div>			<div class="textwidget"><p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-332" src="https://aberlehome.com/wp-content/uploads/2019/10/about-me.jpg" alt="" width="300" height="300" srcset="https://aberlehome.com/wp-content/uploads/2019/10/about-me.jpg 300w, https://aberlehome.com/wp-content/uploads/2019/10/about-me-150x150.jpg 150w, https://aberlehome.com/wp-content/uploads/2019/10/about-me-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" /></p>
 <p>Hi, I&#8217;m Leanna Aberle. Join me for sourdough baking, baking with freshly milled grains, and more from my home in the mountains of Colorado! <strong><em><a href="https://aberlehome.com/about/" target="_blank" rel="noopener">Learn more.</a></em></strong></p>
 </div>
@@ -1634,18 +1634,18 @@ successful and fun. Thank you!</p>
 <!-- footer-->
 <!-- footer-->
 <footer>
-			
-	
+
+
 	<!-- footer bar at the bootom-->
 	<div id="footerbwrap">
 		<div id="footerb">
 			<div class="lowerfooter">
-			<div class="copyright">	
+			<div class="copyright">
 				© Copyright Leanna Aberle 2024 - <a href="https://aberlehome.com/privacy-policy">Privacy Policy </a> | <a href="https://aberlehome.com/disclaimers-disclosure">Disclosure </a>			</div>
 			</div>
 		</div>
-	</div>	
-</footer>	
+	</div>
+</footer>
 <a href="#mv-creation-31" id="mv-create-screen-reader-text-in-footer" class="mv-create-screen-reader-text">Skip to Recipe</a><style>.mv-create-screen-reader-text{overflow:hidden;clip:rect(1px,1px,1px,1px);position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;border:0;clip-path:inset(50%)}.mv-create-screen-reader-text:focus{clip:auto!important;z-index:1000000;top:5px;left:5px;width:auto;height:auto;padding:15px 23px 14px;color:#444;background-color:#eee;font-size:1em;line-height:normal;text-decoration:none;clip-path:none}</style><div id="grow-wp-data" data-grow='{&quot;content&quot;:{&quot;ID&quot;:4450,&quot;categories&quot;:[{&quot;ID&quot;:59}]}}'></div><!-- Instagram Feed JS -->
 
 
@@ -1661,22 +1661,22 @@ var jpibfi_options = {"hover":{"siteTitle":"Aberle Home","image_selector":".jpib
 
 <script type="text/javascript" id="everly_customjs-js-after">
 /* <![CDATA[ */
-	
-		"use strict"; 
-		jQuery(document).ready(function($){	
-			jQuery(".searchform #s").attr("value","Search and hit enter...");	
+
+		"use strict";
+		jQuery(document).ready(function($){
+			jQuery(".searchform #s").attr("value","Search and hit enter...");
 			jQuery(".searchform #s").focus(function() {
 				jQuery(".searchform #s").val("");
 			});
-			
+
 			jQuery(".searchform #s").focusout(function() {
 				if(jQuery(".searchform #s").attr("value") == "")
 					jQuery(".searchform #s").attr("value","Search and hit enter...");
-			});		
-				
-		});	
-		
-		
+			});
+
+		});
+
+
 /* ]]> */
 </script>
 
@@ -1708,3 +1708,4 @@ var MV_CREATE_I18N = {"COMMENTS":"Comments","COMMENTS_AND_REVIEWS":"Comments & R
 
 <script  src="https://aberlehome.com/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-c8d37046d8f76f9ffe91da4f125d99dc.js"></script></body>
 </html>
+

@@ -1,0 +1,45 @@
+{
+  "author": "Sally",
+  "canonical_url": "https://www.realmomnutrition.com/easy-lemonade/",
+  "site_name": "Real Mom Nutrition",
+  "host": "realmomnutrition.com",
+  "language": "en-US",
+  "title": "Easy Lemonade (Made with Fresh + Bottled Lemon Juice)",
+  "ingredients": [
+    "3/4 cup sugar",
+    "8 1/2 cup water, divided",
+    "1 cup lemon juice"
+  ],
+  "instructions_list": [
+    "Make the simple syrup: Combine sugar plus 1/2 cup water in a small saucepan over medium-low heat. Heat and stir until sugar is fully dissolved (you'll know it's dissolved when the liquid looks clear).",
+    "Combine the simple syrup and lemon juice in a 2-quart pitcher.",
+    "Add 8 cups of cold water.",
+    "Chill before serving (or serve over ice)."
+  ],
+  "category": "Drinks",
+  "yields": "8 servings",
+  "total_time": 12,
+  "cook_time": 2,
+  "prep_time": 10,
+  "ratings": 4.6,
+  "ratings_count": 174,
+  "equipment": [
+    "Large 8 Cup Water Pitcher with Handle",
+    "OXO Good Grips CItrus Squeezer"
+  ],
+  "nutrients": {
+    "servingSize": "1 cup",
+    "calories": "78 calories",
+    "fatContent": "0 grams fat",
+    "saturatedFatContent": "0 grams saturated fat",
+    "unsaturatedFatContent": "0 grams unsaturated fat",
+    "transFatContent": "0 grams trans fat",
+    "carbohydrateContent": "20 grams carbohydrates",
+    "sugarContent": "19 grams sugar",
+    "proteinContent": "0 grams protein",
+    "sodiumContent": "18 milligrams sodium",
+    "fiberContent": "0 grams fiber",
+    "cholesterolContent": "0 milligrams cholesterol"
+  },
+  "image": "https://www.realmomnutrition.com/wp-content/uploads/Lemonade4.jpg"
+}

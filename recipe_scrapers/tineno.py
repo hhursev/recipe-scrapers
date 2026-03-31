@@ -1,7 +1,7 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 from ._utils import change_keys
 
 
@@ -58,4 +58,12 @@ class TineNo(AbstractScraper):
         """
         return "\n".join(
             [i for i in self.schema.instructions().split("\n") if i != "Oppskrift"]
+        )
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "#ingredient-groups-container h4",
+            "#ingredient-groups-container [itemprop='ingredients']",
         )

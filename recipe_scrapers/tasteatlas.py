@@ -1,6 +1,3 @@
-# mypy: allow-untyped-defs
-
-
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 

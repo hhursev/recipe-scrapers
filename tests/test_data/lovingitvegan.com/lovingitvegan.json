@@ -8,7 +8,7 @@
   "ingredients": [
     "1 1/4 cups Soy Milk ((300ml) or Almond Milk)",
     "2 Frozen Bananas ((200g) previously peeled, broken into quarters and frozen for at least 12 hours)",
-    "1/2 cup Raw Cashews ((75g))",
+    "1/2 cup Raw Cashews (75g)",
     "2 cups Kale ((56g) Torn up, packed)",
     "4 Medjool Dates (Pitted)",
     "1 tsp Minced Ginger",
@@ -16,23 +16,6 @@
     "1 Tbsp Lime Juice (freshly squeezed)",
     "1 cup Ice Cubes"
   ],
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "1 1/4 cups Soy Milk ((300ml) or Almond Milk)",
-        "2 Frozen Bananas ((200g) previously peeled, broken into quarters and frozen for at least 12 hours)",
-        "1/2 cup Raw Cashews ((75g))",
-        "2 cups Kale ((56g) Torn up, packed)",
-        "4 Medjool Dates (Pitted)",
-        "1 tsp Minced Ginger",
-        "1/8 tsp Cinnamon",
-        "1 Tbsp Lime Juice (freshly squeezed)",
-        "1 cup Ice Cubes"
-      ],
-      "purpose": null
-    }
-  ],
-  "instructions": "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.\nBlend until very smooth.\nPour out into glasses and serve immediately.",
   "instructions_list": [
     "Add the soy milk to your blender jug and then the frozen bananas, cashews, kale, dates, minced ginger, cinnamon and fresh lime juice. Top with ice cubes.",
     "Blend until very smooth.",
@@ -49,15 +32,18 @@
   "nutrients": {
     "servingSize": "1 Smoothie",
     "calories": "373 kcal",
-    "sugarContent": "15.2 g",
-    "sodiumContent": "180 mg",
     "fatContent": "19.5 g",
     "saturatedFatContent": "3.7 g",
     "carbohydrateContent": "42.6 g",
-    "fiberContent": "4.9 g",
-    "proteinContent": "13.8 g"
+    "sugarContent": "15.2 g",
+    "proteinContent": "13.8 g",
+    "sodiumContent": "180 mg",
+    "fiberContent": "4.9 g"
   },
-  "image": "https://lovingitvegan.com/wp-content/uploads/2018/08/Kale-Smoothie-8.jpg",
+  "dietary_restrictions": [
+    "Vegan Diet"
+  ],
+  "image": "https://lovingitvegan.com/wp-content/uploads/2018/08/Kale-Smoothie-3.jpg",
   "keywords": [
     "kale smoothie",
     "smoothies",

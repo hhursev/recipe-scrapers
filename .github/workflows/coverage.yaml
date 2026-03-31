@@ -2,37 +2,28 @@ name: coverage
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main, v14 ]
   pull_request:
-    branches:
-      - main
+    branches: [ main, v14 ]
+    types: [ opened, synchronize, reopened ]
 
 jobs:
   coverage:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "< 3.12"  # ref: https://github.com/hhursev/recipe-scrapers/issues/909
-      - name: run unittests
-        run: |
-          pip install tox
-          tox -e py
-      - name: (coveralls.io) Report code coverage
-        uses: AndreMiras/coveralls-python-action@develop
+          python-version: "3.12"
+          cache: pip
+      - name: Install test packages
+        run: pip install ".[tests]"
+      - name: Run tests with coverage
+        env:
+          PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
+        run: coverage run -m unittest
+      - name: Report coverage to coveralls.io
+        uses: coverallsapp/github-action@v2
         with:
           github-token: "SmlfzlVJy4ow55rduU7IU5GmmFCfAdGeq"
-      - if: github.event_name == 'push'
-        name: (codacy) Create coverage xml report
-        run: |
-          pip install coverage
-          coverage xml
-      - if: github.event_name == 'push'
-        name: (codacy) Report code coverage
-        uses: codacy/codacy-coverage-reporter-action@v1
-        with:
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
-          coverage-reports: "coverage.xml"

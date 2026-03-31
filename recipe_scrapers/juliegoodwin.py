@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -17,23 +16,29 @@ class JulieGoodwin(AbstractScraper):
     def title(self):
         return normalize_string(self.soup.find("h1").get_text())
 
-    def process_total_time(self, container):
-        if container:
-            prep_hours_match = re.search(
-                r"(\d+) hour", container.next_element.get_text()
+    def extract_time(self, keyword):
+        minutes = 0
+        time_elements = self.soup.find_all(["h4", "h3"])
+        for element in time_elements:
+            text = element.get_text(strip=True)
+            match = re.search(
+                rf"{keyword}\s*[\|=]?\s*(\d+)\s*(min|mins|minutes)", text, re.IGNORECASE
             )
-            if prep_hours_match:
-                return 60 * int(prep_hours_match.group(1))
-            prep_mins_match = re.search(r"(\d+) min", container.next_element.get_text())
-            if prep_mins_match:
-                return int(prep_mins_match.group(1))
+            if match:
+                minutes += int(match.group(1))
+        return get_minutes(minutes)
+
+    def prep_time(self):
+        return self.extract_time("Prep time") or 0
+
+    def cook_time(self):
+        return self.extract_time("Cooking time") or 0
 
     def total_time(self):
-        prep = self.soup.find(string=re.compile("Prep time"))
-        mins = self.process_total_time(prep)
-        cooking = self.soup.find(string=re.compile("Cooking time"))
-        mins += self.process_total_time(cooking)
-        return get_minutes(mins)
+        prep_time = self.prep_time()
+        cook_time = self.cook_time()
+        total_mins = prep_time + cook_time
+        return total_mins
 
     def yields(self):
         container = self.soup.find("i", attrs={"class", "fa-cutlery"})
@@ -45,7 +50,7 @@ class JulieGoodwin(AbstractScraper):
     def image(self):
         container = self.soup.find("div", {"class": "inner-wrap"})
         if container:
-            image = container.findNext("img", {"src": True})
+            image = container.find_next("img", {"src": True})
             return image["src"] if image else None
 
     def ingredients(self):
@@ -53,12 +58,12 @@ class JulieGoodwin(AbstractScraper):
         if ingredients:
             return [
                 normalize_string(ingredient.get_text())
-                for ingredient in ingredients.findAll("li")
+                for ingredient in ingredients.find_all("li")
             ]
 
         ingredients_heading = self.soup.find(string="Ingredients")
         if ingredients_heading:
-            ingredients = ingredients_heading.findNext("h5")
+            ingredients = ingredients_heading.find_next("h5")
             return [
                 normalize_string(ingredient.split("•", 1)[1])
                 for ingredient in ingredients.get_text().split("\n")
@@ -67,7 +72,7 @@ class JulieGoodwin(AbstractScraper):
         raise ElementNotFoundInHtml("Could not find ingredients.")
 
     def instructions(self):
-        instructions = self.soup.findAll(string=re.compile("STEP "))
+        instructions = self.soup.find_all(string=re.compile("STEP "))
         if instructions:
             return "\n".join(
                 [
@@ -78,7 +83,7 @@ class JulieGoodwin(AbstractScraper):
 
         instruction_header = self.soup.find(string=re.compile("Method"))
         if instruction_header:
-            instructions = instruction_header.parent.findNextSiblings("p")
+            instructions = instruction_header.parent.find_next_siblings(name="p")
             return "\n".join(
                 [
                     normalize_string(inst.get_text().split(".", 1)[1])

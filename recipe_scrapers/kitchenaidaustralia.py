@@ -1,7 +1,5 @@
-# mypy: allow-untyped-defs
-
+import functools
 import re
-from typing import List
 
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
@@ -16,7 +14,7 @@ class KitchenAidAustralia(AbstractScraper):
     def total_time(self):
         time_pattern = re.compile("time", re.IGNORECASE)
 
-        summary = self._get_summary()
+        summary = self._get_summary
         time_items = summary.find_all("strong", string=time_pattern)
 
         if not time_items:
@@ -32,21 +30,21 @@ class KitchenAidAustralia(AbstractScraper):
         return self._get_summary_value("Makes")
 
     def ingredients(self):
-        recipe = self._get_recipe()
+        recipe = self._get_recipe
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
         elements = self._parse_list(ingredients)
         return elements
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
-        recipe = self._get_recipe()
+    def ingredient_groups(self) -> list[IngredientGroup]:
+        recipe = self._get_recipe
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
         groups = []
 
         headings = ingredients.find_all("h2")
         for heading in headings:
-            ul = heading.find_next_sibling("ul")
+            ul = heading.find_next_sibling(name="ul")
             elements = self._parse_list(ul)
             ingredient_group = IngredientGroup(elements, heading.text)
             groups.append(ingredient_group)
@@ -56,18 +54,20 @@ class KitchenAidAustralia(AbstractScraper):
     def instructions(self):
         return "\n".join(self.instructions_list())
 
-    def instructions_list(self) -> List[str]:
-        recipe = self._get_recipe()
+    def instructions_list(self) -> list[str]:
+        recipe = self._get_recipe
         method = recipe.find("div", {"class": "rightPanel"})
 
         return self._parse_list(method)
 
+    @functools.cached_property
     def _get_recipe(self):
         """
         Get the recipe container element.
         """
         return self.soup.find("article")
 
+    @functools.cached_property
     def _get_summary(self):
         """
         Get the summary container element.
@@ -78,7 +78,7 @@ class KitchenAidAustralia(AbstractScraper):
         """
         Get the value from the given summary field search string.
         """
-        summary = self._get_summary()
+        summary = self._get_summary
 
         item = summary.find("strong", string=field)
         return self._parse_summary_item(item)
@@ -87,9 +87,9 @@ class KitchenAidAustralia(AbstractScraper):
         """
         Get the value associated with a summary field.
         """
-        return item.find_next_sibling("p").text
+        return item.find_next_sibling(name="p").text
 
-    def _parse_list(self, container) -> List[str]:
+    def _parse_list(self, container) -> list[str]:
         """
         Get the text from each of the li elements contained by the given container.
         """

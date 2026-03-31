@@ -6,25 +6,12 @@
   "language": "en-US",
   "title": "Slow Cooker Ground Beef",
   "ingredients": [
-    "2 lbs. ground beef ((7-20 % fat))",
+    "2 lbs. ground beef (7-20 % fat)",
     "1 ½ tsp. salt",
     "½ tsp. garlic powder",
     "½ tsp. onion powder",
     "1 small white onion (diced)"
   ],
-  "ingredient_groups": [
-    {
-      "ingredients": [
-        "2 lbs. ground beef ((7-20 % fat))",
-        "1 ½ tsp. salt",
-        "½ tsp. garlic powder",
-        "½ tsp. onion powder",
-        "1 small white onion (diced)"
-      ],
-      "purpose": null
-    }
-  ],
-  "instructions": "Crumble the beef slightly with your fingers and add to the slow cooker.\nSprinkle over the salt, pepper, onion powder and garlic powder.\nAdd the diced white onion. Stir.\nCook on low for 5 hours or on high for 3 hours. Stirring occasionally, when stirring break up the meat with the spatula.\nServe and enjoy.",
   "instructions_list": [
     "Crumble the beef slightly with your fingers and add to the slow cooker.",
     "Sprinkle over the salt, pepper, onion powder and garlic powder.",
@@ -41,21 +28,24 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Slow Cooker – 3 quart or larger"
+  ],
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "275 kcal",
-    "carbohydrateContent": "2 g",
-    "proteinContent": "31 g",
     "fatContent": "15 g",
     "saturatedFatContent": "6 g",
+    "unsaturatedFatContent": "8 g",
     "transFatContent": "1 g",
-    "cholesterolContent": "98 mg",
+    "carbohydrateContent": "2 g",
+    "sugarContent": "1 g",
+    "proteinContent": "31 g",
     "sodiumContent": "682 mg",
     "fiberContent": "0.4 g",
-    "sugarContent": "1 g",
-    "unsaturatedFatContent": "8 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "98 mg"
   },
-  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-8.jpg",
+  "image": "https://www.themagicalslowcooker.com/wp-content/uploads/2023/08/crockpot-ground-beef-feature.jpg",
   "keywords": [
     "ground beef"
   ]

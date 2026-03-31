@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import normalize_string
 
@@ -9,7 +8,7 @@ class KennyMcGovern(AbstractScraper):
         return "kennymcgovern.com"
 
     def instructions(self):
-        instructions = self.soup.findAll(
+        instructions = self.soup.find_all(
             "div", {"class": "wprm-recipe-instruction-text"}
         )
 

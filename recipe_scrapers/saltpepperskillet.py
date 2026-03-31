@@ -1,7 +1,8 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class SaltPepperSkillet(AbstractScraper):
+class SaltPepperSkillet(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "saltpepperskillet.com"

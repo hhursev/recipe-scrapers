@@ -1,0 +1,90 @@
+{
+  "author": "Chef Billy Parisi",
+  "canonical_url": "https://www.billyparisi.com/pierogi/",
+  "site_name": "Chef Billy Parisi",
+  "host": "billyparisi.com",
+  "language": "en-US",
+  "title": "Homemade Pierogi Recipe",
+  "ingredients": [
+    "5 cups all-purpose flour",
+    "1 ¾ cup hot water",
+    "1 teaspoon coarse salt",
+    "¼ cup cooking oil",
+    "1 large whisked egg",
+    "1 peeled small-diced yellow onion",
+    "1 stick + 6 tablespoons unsalted butter",
+    "3 pounds peeled russet potatoes (about 5 large potatoes)",
+    "1 cup farmer’s cheese",
+    "coarse salt and ground white pepper to taste"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "5 cups all-purpose flour",
+        "1 ¾ cup hot water",
+        "1 teaspoon coarse salt",
+        "¼ cup cooking oil",
+        "1 large whisked egg"
+      ],
+      "purpose": "For the Dough:"
+    },
+    {
+      "ingredients": [
+        "1 peeled small-diced yellow onion",
+        "1 stick + 6 tablespoons unsalted butter",
+        "3 pounds peeled russet potatoes (about 5 large potatoes)",
+        "1 cup farmer’s cheese",
+        "coarse salt and ground white pepper to taste"
+      ],
+      "purpose": "For the Filling:"
+    }
+  ],
+  "instructions_list": [
+    "Sift the flour onto a clean surface and then form a well using your hand.",
+    "Add in the hot water, salt, and oil, and using a fork, begin to bring the flour into the wet ingredients.",
+    "Once the mixture becomes like a thick paste, transfer to using a bench knife, or your hands start to knead the dough just until the flour is hydrated.",
+    "Add the whisked egg and knead the dough for 5 to 6 minutes until it becomes smooth.",
+    "Cover the dough and let it rest for 30 to 60 minutes.",
+    "While the dough is resting, add 2 tablespoons of butter to a medium-sized frying pan over medium heat and sauté the onions for 4 to 5 minutes or until they begin to turn brown.",
+    "Turn the heat down to low-medium and continue cooking for 10 to 12 minutes or until darker brown, tender, and translucent. Set them to the side.",
+    "Next, add the peeled potatoes to a pot of boiling salted water and cook for 6 to 8 minutes or until tender. Do not overcook.",
+    "Drain and mash the potatoes using a hand masher or a food mill.",
+    "Fold in the butter, cheese, ½ of the caramelized onions, salt, and ground white pepper until combined. Set them aside.",
+    "Dust a clean surface with flour and cut the resting dough into two equal parts.",
+    "Roll out the dough until it is about 1/8” thick.",
+    "Using a 3-inch round cookie cutter, make as many rounds on the dough as you can.",
+    "Place 1 to 1 ½ tablespoons of the potato filling in the center of a dough round, and in your hand, gently pull the dough to make it slightly larger.",
+    "Fold one side of the dough over to the other, covering the potato completely, then pinch the seams completely shut. Repeat the process until all the dough and potato filling is used.",
+    "Add the pierogi to a large pot of lightly boiling salted water and cook until they float, which takes about 2 to 3 minutes. You will need to do this in batches.",
+    "While they have about 30 to 45 seconds left cooking, melt 3 to 4 tablespoons of butter in a large non-stick skillet over medium heat.",
+    "Drain the pierogi, add them to the pan of melted butter, and saute for 1 to 2 minutes or until lightly browned.",
+    "Season them with salt and garnish them with the remaining caramelized onions and optional chopped fresh dill."
+  ],
+  "category": "Main Course",
+  "yields": "50 servings",
+  "description": "This tasty homemade pierogi recipe has a savory potato filling that is boiled and pan-seared in butter until lightly browned.",
+  "total_time": 90,
+  "cook_time": 15,
+  "prep_time": 75,
+  "cuisine": "polish",
+  "ratings": 5.0,
+  "ratings_count": 11,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "85 kcal",
+    "fatContent": "2 g",
+    "saturatedFatContent": "0.4 g",
+    "unsaturatedFatContent": "1.4 g",
+    "transFatContent": "0.01 g",
+    "carbohydrateContent": "15 g",
+    "sugarContent": "0.3 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "69 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "5 mg"
+  },
+  "image": "https://www.billyparisi.com/wp-content/uploads/2024/01/pierogi-fb.jpg",
+  "keywords": [
+    "Pierogi"
+  ]
+}

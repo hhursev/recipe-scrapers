@@ -1,0 +1,71 @@
+{
+  "author": "Jennifer",
+  "canonical_url": "https://deliciouslysprinkled.com/easy-cherry-delight/",
+  "site_name": "Deliciously Sprinkled",
+  "host": "deliciouslysprinkled.com",
+  "language": "en-US",
+  "title": "Cherry Delight",
+  "ingredients": [
+    "1 3/4 cups crushed graham cracker crumbs",
+    "1 Tablespoon granulated sugar",
+    "1/4 cup melted butter",
+    "2 cups Cool Whip",
+    "1 8 oz. package Cream cheese, softened",
+    "⅓ cup granulated sugar",
+    "½ teaspoon vanilla",
+    "1 28 oz. can Cherry pie filling"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 3/4 cups crushed graham cracker crumbs",
+        "1 Tablespoon granulated sugar",
+        "1/4 cup melted butter"
+      ],
+      "purpose": "CRUST:"
+    },
+    {
+      "ingredients": [
+        "2 cups Cool Whip",
+        "1 8 oz. package Cream cheese, softened",
+        "⅓ cup granulated sugar",
+        "½ teaspoon vanilla",
+        "1 28 oz. can Cherry pie filling"
+      ],
+      "purpose": "CHEESECAKE FILLING:"
+    }
+  ],
+  "instructions_list": [
+    "Spray a 9x9 inch baking pan with nonstick baking spray.",
+    "In a bowl, mix the graham cracker crumbs, melted butter, and sugar together. Spread graham cracker crust evenly on the bottom of the prepared baking pan.",
+    "Using an electric hand or stand mixer, beat together the Cool Whip and cream cheese until smooth.",
+    "Add sugar and vanilla until well blended.",
+    "Pour the cheesecake mixture on top of the crust. Spread evenly.",
+    "Top with the cherry pie filling.",
+    "Chill for at least 3-5 hours (overnight is even better) if storing in the fridge overnight, cover with plastic wrap."
+  ],
+  "category": "Dessert",
+  "yields": "20 servings",
+  "description": "The perfect No-Bake dessert for a hot summers day or a holiday get together, Cherry Delight just hits the spot.",
+  "total_time": 190,
+  "prep_time": 10,
+  "cuisine": "American",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "53 kcal",
+    "fatContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "unsaturatedFatContent": "1.1 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "6 g",
+    "sugarContent": "6 g",
+    "proteinContent": "0.3 g",
+    "sodiumContent": "24 mg",
+    "fiberContent": "0.001 g",
+    "cholesterolContent": "6 mg"
+  },
+  "image": "https://deliciouslysprinkled.com/wp-content/uploads/2024/06/Cherry-Delight-Recipe.jpg",
+  "keywords": [
+    "Cherry delight"
+  ]
+}

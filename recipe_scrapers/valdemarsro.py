@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import re
 
 from ._abstract import AbstractScraper
@@ -22,7 +21,7 @@ class Valdemarsro(AbstractScraper):
         return ",".join(categories)
 
     def get_time(self, label):
-        metadata_group_element = self.soup.findAll(
+        metadata_group_element = self.soup.find_all(
             "span", {"class": "recipe-stat-label"}
         )
         time_label_element = next(

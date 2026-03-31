@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 import functools
 import logging
 from html.parser import HTMLParser

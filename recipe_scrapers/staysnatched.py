@@ -1,9 +1,8 @@
-# mypy: allow-untyped-defs
-
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class StaySnatched(AbstractScraper):
+class StaySnatched(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "staysnatched.com"

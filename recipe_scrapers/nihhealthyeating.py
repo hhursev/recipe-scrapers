@@ -1,8 +1,5 @@
-# mypy: disallow_untyped_defs=False
-from typing import List
-
 from ._abstract import AbstractScraper
-from ._exceptions import ElementNotFoundInHtml
+from ._exceptions import ElementNotFoundInHtml, StaticValueException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_minutes, get_yields, normalize_string
 
@@ -15,6 +12,11 @@ class NIHHealthyEating(AbstractScraper):
     def title(self):
         # This content must be present for all recipes on this website.
         return normalize_string(self.soup.h1.get_text())
+
+    def site_name(self):
+        raise StaticValueException(
+            return_value="National Heart, Lung and Blood Institute"
+        )
 
     def total_time(self):
         # This content must be present for all recipes on this website.
@@ -37,12 +39,12 @@ class NIHHealthyEating(AbstractScraper):
             )
 
         i = 0
-        for t in time_table.findAll("th"):
+        for t in time_table.find_all("th"):
             if "Yields" in t:
                 break
             i += 1
 
-        if i >= len(time_table.findAll("td")):
+        if i >= len(time_table.find_all("td")):
             raise ElementNotFoundInHtml(
                 "Table cells with servings that the recipe yields were not found."
             )
@@ -65,7 +67,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return image_relative_url
 
-    def ingredient_groups(self) -> List[IngredientGroup]:
+    def ingredient_groups(self) -> list[IngredientGroup]:
         # This content must be present for recipes on this website.
         ingredients_div = self.soup.find("div", {"id": "ingredients"})
         section = []
@@ -92,7 +94,7 @@ class NIHHealthyEating(AbstractScraper):
             return section
 
         # Default case
-        ingredients_p = ingredients_div.findAll("p")
+        ingredients_p = ingredients_div.find_all("p")
         ingredients = [normalize_string(para.get_text()) for para in ingredients_p]
         ingredients_list = [
             ing for ing in ingredients if not ing.lower().startswith("recipe cards")
@@ -104,7 +106,7 @@ class NIHHealthyEating(AbstractScraper):
         if len(ingredients_h4_sections) == 1:
             items = (
                 ingredients_div.find("h4")
-                .find_next_sibling("p")
+                .find_next_sibling(name="p")
                 .get_text()
                 .strip()
                 .split("\n")
@@ -119,7 +121,7 @@ class NIHHealthyEating(AbstractScraper):
 
         return [IngredientGroup(ingredients_list)]
 
-    def ingredients(self) -> List[str]:
+    def ingredients(self) -> list[str]:
         results = []
         for ingredient_group in self.ingredient_groups():
             results.extend(ingredient_group.ingredients)
@@ -132,7 +134,7 @@ class NIHHealthyEating(AbstractScraper):
         if directions_div is None:
             raise ElementNotFoundInHtml("Instructions not found.")
 
-        instructions = directions_div.findAll("div", {"class": "steptext"})
+        instructions = directions_div.find_all("div", {"class": "steptext"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

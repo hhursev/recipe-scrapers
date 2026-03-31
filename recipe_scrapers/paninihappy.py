@@ -1,5 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields, normalize_string
 
 
@@ -7,6 +7,9 @@ class PaniniHappy(AbstractScraper):
     @classmethod
     def host(cls):
         return "paninihappy.com"
+
+    def site_name(self):
+        raise StaticValueException(return_value="Panini Happy®")
 
     def title(self):
         return self.soup.find("h1", {"class": "entry-title"}).get_text()
@@ -25,12 +28,12 @@ class PaniniHappy(AbstractScraper):
                 return img_tag["src"]
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "ingredient"})
+        ingredients = self.soup.find_all("li", {"class": "ingredient"})
 
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
-        instructions = self.soup.findAll("li", {"class": "instruction"})
+        instructions = self.soup.find_all("li", {"class": "instruction"})
 
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]

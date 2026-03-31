@@ -1,4 +1,3 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields
 
@@ -15,9 +14,9 @@ class Bodybuilding(AbstractScraper):
         return self.soup.find("h1", {"class": "bb-recipe-headline-title"}).get_text()
 
     def category(self):
-        tag_list = self.soup.find(
-            "div", {"class": "bb-recipe__desktop-tags"}
-        ).findChildren("div", {"class": "bb-recipe__topic"})
+        tag_list = self.soup.find("div", {"class": "bb-recipe__desktop-tags"}).find_all(
+            "div", {"class": "bb-recipe__topic"}
+        )
 
         categories = []
         for tag in tag_list:
@@ -49,7 +48,7 @@ class Bodybuilding(AbstractScraper):
     def ingredients(self):
         ul_list = self.soup.find(
             "ul", {"class": "bb-recipe__ingredient-list"}
-        ).findChildren("li")
+        ).find_all("li")
 
         ingredients = []
         for li in ul_list:
@@ -59,7 +58,7 @@ class Bodybuilding(AbstractScraper):
     def instructions(self):
         ol_list = self.soup.find(
             "ol", {"class": "bb-recipe__directions-list"}
-        ).findChildren("li")
+        ).find_all("li")
 
         count = 0
         instructions = []

@@ -1,9 +1,12 @@
 from recipe_scrapers.plugins import (
+    BestImagePlugin,
     ExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
+    OpenGraphFillPlugin,
     OpenGraphImageFetchPlugin,
     SchemaOrgFillPlugin,
+    StaticValueExceptionHandlingPlugin,
 )
 
 # Plugins to be attached.
@@ -11,11 +14,16 @@ from recipe_scrapers.plugins import (
 # Check recipe_scrapers.settings.template.py for ways to extend.
 PLUGINS = (
     ExceptionHandlingPlugin,
+    BestImagePlugin,
+    StaticValueExceptionHandlingPlugin,
     HTMLTagStripperPlugin,
     NormalizeStringPlugin,
     OpenGraphImageFetchPlugin,
+    OpenGraphFillPlugin,
     SchemaOrgFillPlugin,
 )
+
+BEST_IMAGE_SELECTION = True
 
 SUPPRESS_EXCEPTIONS = False
 # Applicable only if SUPPRESS_EXCEPTIONS is True, otherwise ignored
@@ -30,7 +38,6 @@ ON_EXCEPTION_RETURN_VALUES = {
     "instructions": None,
     "instructions_list": None,
     "ratings": None,
-    "reviews": None,
     "links": None,
     "language": None,
     "nutrients": None,

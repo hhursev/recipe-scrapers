@@ -1,8 +1,8 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class Thinlicious(AbstractScraper):
+class Thinlicious(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "thinlicious.com"

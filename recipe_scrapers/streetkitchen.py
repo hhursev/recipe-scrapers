@@ -1,6 +1,5 @@
-# mypy: disallow_untyped_defs=False
 from ._abstract import AbstractScraper
-from ._utils import get_yields, normalize_string
+from ._grouping_utils import IngredientGroup
 
 
 class StreetKitchen(AbstractScraper):
@@ -8,41 +7,76 @@ class StreetKitchen(AbstractScraper):
     def host(cls):
         return "streetkitchen.hu"
 
-    def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).get_text()
-
-    def total_time(self):
-        return None
-
-    def image(self):
-        return (
-            self.soup.find("div", {"class": "article-featured-image-bg"})
-            .find("noscript")
-            .find("img")["src"]
-        )
-
     def ingredients(self):
-        ingredients_raw = self.soup.findAll("dd")
-        ingredients = []
-        # There are separate sets of ingredients for desktop and mobile view
-        for ingredient in ingredients_raw[: int(len(ingredients_raw) / 2)]:
-            ingredients.append(normalize_string(ingredient.get_text()).strip())
-        return ingredients
+        ingredients_list = []
+        for item in self.soup.select(
+            "div.w-full.rounded-b-md div.my-2.flex.items-center.gap-2.text-lg"
+        ):
+            divs = [
+                child
+                for child in item.children
+                if getattr(child, "name", None) == "div"
+            ]
+            parts = [
+                div.get_text(" ", strip=True)
+                for div in divs
+                if div.get_text(strip=True)
+            ]
+            if parts:
+                text = " ".join(parts)
+                text = text.replace("( ", "(").replace(" )", ")")
+                ingredients_list.append(text)
+        return ingredients_list
+
+    def ingredient_groups(self):
+        groups = []
+        for group_block in self.soup.select("div.w-full.rounded-b-md > div > div"):
+            heading_tag = group_block.select_one("h5.text-lg.font-bold")
+            purpose = heading_tag.get_text(strip=True) if heading_tag else None
+
+            if purpose == "":
+                return [IngredientGroup(ingredients=self.ingredients())]
+
+            ingredients = []
+            for item in group_block.select("div.my-2.flex.items-center.gap-2.text-lg"):
+                divs = [
+                    child
+                    for child in item.children
+                    if getattr(child, "name", None) == "div"
+                ]
+                parts = [
+                    div.get_text(" ", strip=True)
+                    for div in divs
+                    if div.get_text(strip=True)
+                ]
+                if parts:
+                    text = " ".join(parts)
+                    text = text.replace("( ", "(").replace(" )", ")")
+                    ingredients.append(text)
+
+            if ingredients:
+                groups.append(IngredientGroup(ingredients=ingredients, purpose=purpose))
+
+        if not groups:
+            return [IngredientGroup(ingredients=self.ingredients())]
+        return groups
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "the-content-div"}).findAll("p")
+        container = self.soup.select_one(
+            "article.recipe-article"
+        ) or self.soup.select_one("div.recipe-article")
+        if not container:
+            return ""
 
-        instructions_arr = []
-        for instruction in instructions:
-            text = instruction.get_text()
-            # From the point we encounter "If you liked..." it's just ads.
-            if text.startswith("Ha tetszett a"):
+        instructions = []
+        for child in container.children:
+            if getattr(child, "name", None) in ["p", "span"]:
+                text = child.get_text(" ", strip=True)
+                if text:
+                    instructions.append(text)
+            elif getattr(child, "name", None) in ["h2", "h3", "figure"]:
+                continue
+            elif getattr(child, "name", None) is not None:
                 break
-            instructions_arr.append(normalize_string(text))
 
-        return "\n".join(instructions_arr)
-
-    def yields(self):
-        return get_yields(
-            self.soup.find("span", {"class": "quantity-number"}).get_text()
-        )
+        return "\n".join(instructions)
