@@ -10,7 +10,7 @@ class JoshuaWeissman(AbstractScraper):
         return "joshuaweissman.com"
 
     def prep_time(self):
-        spans = self.soup.findAll(name="span")
+        spans = self.soup.find_all(name="span")
         spans_texts = [tag.get_text().lower() for tag in spans]
         prep = next((tag for tag in spans_texts if "prep time" in tag), None)
         if prep:
@@ -18,7 +18,7 @@ class JoshuaWeissman(AbstractScraper):
         return None
 
     def cook_time(self):
-        spans = self.soup.findAll(name="span")
+        spans = self.soup.find_all(name="span")
         spans_texts = [tag.get_text().lower() for tag in spans]
         cook = next((tag for tag in spans_texts if "cook time" in tag), None)
         if cook:
@@ -31,7 +31,7 @@ class JoshuaWeissman(AbstractScraper):
         return total if total > 0 else None
 
     def yields(self):
-        spans = self.soup.findAll(name="span")
+        spans = self.soup.find_all(name="span")
         return get_yields(
             next(
                 (
@@ -45,7 +45,7 @@ class JoshuaWeissman(AbstractScraper):
 
     def ingredients(self):
         ingredients = [
-            li.get_text() for ul in self.soup.findAll("ul") for li in ul.findAll("li")
+            li.get_text() for ul in self.soup.find_all("ul") for li in ul.find_all("li")
         ]
 
         ingredients = [
@@ -65,7 +65,7 @@ class JoshuaWeissman(AbstractScraper):
 
     def instructions(self):
         instructions = [
-            li.get_text() for ol in self.soup.findAll("ol") for li in ol.findAll("li")
+            li.get_text() for ol in self.soup.find_all("ol") for li in ol.find_all("li")
         ]
 
         instructions = [

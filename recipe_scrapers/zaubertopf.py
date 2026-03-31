@@ -10,7 +10,7 @@ class ZauberTopf(AbstractScraper):
     def ingredients(self):
         for h2_element in self.soup.find_all("h2"):
             if "Die Zutaten" in h2_element.text:
-                ul_element = h2_element.find_next("ul")
+                ul_element = h2_element.find_next(name="ul")
                 if ul_element:
                     return [
                         normalize_string(li.text)
@@ -21,7 +21,7 @@ class ZauberTopf(AbstractScraper):
     def instructions(self):
         for h2_element in self.soup.find_all("h2"):
             if "Die Zubereitung" in h2_element.text:
-                ol_element = h2_element.find_next("ol")
+                ol_element = h2_element.find_next(name="ol")
                 if ol_element:
                     return "\n".join(
                         [li.get_text() for li in ol_element.find_all("li") if li.text]

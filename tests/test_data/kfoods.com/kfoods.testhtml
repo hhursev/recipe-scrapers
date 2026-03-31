@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>class UPLazyLoadScripts {constructor(e) {this.triggerEvents = e, this.eventOptions = {passive: !0}, this.userEventListener = this.triggerListener.bind(this), this.delayedScripts = {normal: [],async: [],defer: []}, this.allJQueries = []}_addUserInteractionListener(e) {this.triggerEvents.forEach((t => window.addEventListener(t, e.userEventListener, e.eventOptions)))}_removeUserInteractionListener(e) {this.triggerEvents.forEach((t => window.removeEventListener(t, e.userEventListener, e.eventOptions)))}triggerListener() {this._removeUserInteractionListener(this), "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this._loadEverythingNow.bind(this)) : this._loadEverythingNow()}async _loadEverythingNow() {this._delayEventListeners(), this._delayJQueryReady(this), this._handleDocumentWrite(), this._registerAllDelayedScripts(), this._preloadAllScripts(), await this._loadScriptsFromList(this.delayedScripts.normal), await this._loadScriptsFromList(this.delayedScripts.defer), await this._loadScriptsFromList(this.delayedScripts.async), await this._triggerDOMContentLoaded(), await this._triggerWindowLoad(), window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts() {document.querySelectorAll("script[type=uplazyloadscript]").forEach((e => {e.hasAttribute("src") ? e.hasAttribute("async") && !1 !== e.async ? this.delayedScripts.async.push(e) : e.hasAttribute("defer") && !1 !== e.defer || "module" === e.getAttribute("data-rocket-type") ? this.delayedScripts.defer.push(e) : this.delayedScripts.normal.push(e) : this.delayedScripts.normal.push(e)}))}async _transformScript(e) {return await this._requestAnimFrame(), new Promise((t => {const n = document.createElement("script");let i;[...e.attributes].forEach((e => {let t = e.nodeName;"type" !== t && ("data-rocket-type" === t && (t = "type", i = e.nodeValue), n.setAttribute(t, e.nodeValue))})), e.hasAttribute("src") && this._isValidScriptType(i) ? (n.addEventListener("load", t), n.addEventListener("error", t)) : (n.text = e.text, t()), e.parentNode.replaceChild(n, e)}))}_isValidScriptType(e) {return !e || "" === e || "string" == typeof e && ["text/javascript", "text/x-javascript", "text/ecmascript", "text/jscript", "application/javascript", "application/x-javascript", "application/ecmascript", "application/jscript", "module"].includes(e.toLowerCase())}async _loadScriptsFromList(e) {const t = e.shift();return t ? (await this._transformScript(t), this._loadScriptsFromList(e)) : Promise.resolve()}_preloadAllScripts() {var e = document.createDocumentFragment();[...this.delayedScripts.normal, ...this.delayedScripts.defer, ...this.delayedScripts.async].forEach((t => {const n = t.getAttribute("src");if (n) {const t = document.createElement("link");t.href = n, t.rel = "preload", t.as = "script", e.appendChild(t)}})), document.head.appendChild(e)}_delayEventListeners() {let e = {};function t(t, n) {! function(t) {function n(n) {return e[t].eventsToRewrite.indexOf(n) >= 0 ? "rocket-" + n : n}e[t] || (e[t] = {originalFunctions: {add: t.addEventListener,remove: t.removeEventListener},eventsToRewrite: []}, t.addEventListener = function() {arguments[0] = n(arguments[0]), e[t].originalFunctions.add.apply(t, arguments)}, t.removeEventListener = function() {arguments[0] = n(arguments[0]), e[t].originalFunctions.remove.apply(t, arguments)})}(t), e[t].eventsToRewrite.push(n)}function n(e, t) {let n = e[t];Object.defineProperty(e, t, {get: () => n || function() {},set(i) {e["rocket" + t] = n = i}})}t(document, "DOMContentLoaded"), t(window, "DOMContentLoaded"), t(window, "load"), t(window, "pageshow"), t(document, "readystatechange"), n(document, "onreadystatechange"), n(window, "onload"), n(window, "onpageshow")}_delayJQueryReady(e) {let t = window.jQuery;Object.defineProperty(window, "jQuery", {get: () => t,set(n) {if (n && n.fn && !e.allJQueries.includes(n)) {n.fn.ready = n.fn.init.prototype.ready = function(t) {e.domReadyFired ? t.bind(document)(n) : document.addEventListener("rocket-DOMContentLoaded", (() => t.bind(document)(n)))};const t = n.fn.on;n.fn.on = n.fn.init.prototype.on = function() {if (this[0] === window) {function e(e) {return e.split(" ").map((e => "load" === e || 0 === e.indexOf("load.") ? "rocket-jquery-load" : e)).join(" ")}"string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = e(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach((t => {delete Object.assign(arguments[0], {[e(t)]: arguments[0][t]})[t]}))}return t.apply(this, arguments), this}, e.allJQueries.push(n)}t = n}})}async _triggerDOMContentLoaded() {this.domReadyFired = !0, await this._requestAnimFrame(), document.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._requestAnimFrame(), window.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._requestAnimFrame(), document.dispatchEvent(new Event("rocket-readystatechange")), await this._requestAnimFrame(), document.rocketonreadystatechange && document.rocketonreadystatechange()}async _triggerWindowLoad() {await this._requestAnimFrame(), window.dispatchEvent(new Event("rocket-load")), await this._requestAnimFrame(), window.rocketonload && window.rocketonload(), await this._requestAnimFrame(), this.allJQueries.forEach((e => e(window).trigger("rocket-jquery-load"))), window.dispatchEvent(new Event("rocket-pageshow")), await this._requestAnimFrame(), window.rocketonpageshow && window.rocketonpageshow()}_handleDocumentWrite() {const e = new Map;document.write = document.writeln = function(t) {const n = document.currentScript;n || console.error("unable to document.write this: " + t);const i = document.createRange(),r = n.parentElement;let a = e.get(n);void 0 === a && (a = n.nextSibling, e.set(n, a));const o = document.createDocumentFragment();i.setStart(o, 0), o.appendChild(i.createContextualFragment(t)), r.insertBefore(o, a)}}async _requestAnimFrame() {return new Promise((e => requestAnimationFrame(e)))}static run() {const e = new UPLazyLoadScripts(["keydown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"]);e._addUserInteractionListener(e)}}UPLazyLoadScripts.run();</script>
+    <title>
+	Gol Gappay Recipe in Urdu | Golgappa recipe in urdu | Gol Gappay Banane Ka Tarika
+</title><link rel="preconnect" href="https://www.googletagmanager.com" /><link rel="preload" href="https://kfoods.com/font/poppins-regular.woff" as="font" type="font/woff" crossorigin="anonymous" /><link rel="preload" href="https://kfoods.com/font/poppins-medium.woff" as="font" type="font/woff" crossorigin="anonymous" /><link rel="preload" href="https://kfoods.com/font/poppins-semiBold.woff" as="font" type="font/woff" crossorigin="anonymous" /><link rel="preload" href="https://kfoods.com/font/urdufont.woff" as="font" type="font/woff" crossorigin="anonymous" /><link rel="preload" href="https://kfoods.com/js/jquery.min.js" as="script" /><link rel="preload" href="https://kfoods.com/js/jquery-ui.js" as="script" /><link rel="preload" href="https://kfoods.com/js/lazysizesbg.min.js" as="script" /><link rel="preload" href="https://c.pubguru.net/pg.kfoods.js" as="script" /><link href="//fonts.gstatic.com" crossorigin="" rel="preconnect" /><link rel="icon" href="https://kfoods.com/images/kf-icon32.png" sizes="32x32" /><link rel="icon" href="https://kfoods.com/images/kf-icon64.png" sizes="64x64" /><link rel="icon" href="https://kfoods.com/images/kf-icon192.png" sizes="192x192" /><link rel="apple-touch-icon" href="https://kfoods.com/images/kf-icon32.png" />
+
+    <script type="uplazyloadscript" data-rocket-type='text/javascript' src="//kfoods.com/js/jquery.min.js"></script>
+    <script type="uplazyloadscript" data-rocket-type='text/javascript' src="//kfoods.com/js/jquery-ui.js"></script>
+    <script async src="https://kfoods.com/js/lazysizesbg.min.js"></script>
+
+    <script type="text/javascript">
+        window.pg = window.pg || [];
+        window.pg.disabledUnits = ['/1021105/KF_MM_right_sidebar_atf','/1021105/KF_MM_right_sidebar_btf'];
+    </script>
+    
+    <script async src="https://c.pubguru.net/pg.kfoods.js"></script>
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {w[l] = w[l] || []; w[l].push({ 'gtm.start':new Date().getTime(), event: 'gtm.js'}); var f = d.getElementsByTagName(s)[0],j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src ='https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);})(window, document, 'script', 'dataLayer', 'GTM-NK2SPLV');
+    </script>
+
+     <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "KFoods",
+        "alternateName": "Hamariweb.com",
+        "url": "https://kfoods.com/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://kfoods.com/",
+        "logo": "https://kfoods.com/images/kf-site-logo.png",
+        "sameAs": [
+            "https://www.facebook.com/kfoods",
+            "https://www.instagram.com/kfoodscom/",
+            "https://twitter.com/kfoods_com",
+            "https://www.youtube.com/@Kfoods_com"
+        ],
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+92-316-8141973",
+            "contactType": "customer service",
+            "areaServed": "PK"
+        }]
+    }
+    </script>
+    <style>.fixed_btn,.fixed_btn span{box-shadow:0 0 5px #05296245}.fixed_btn{position:fixed;bottom:140px;right:20px;width:45px;height:45px;border-radius:50%;padding:6px 8px;z-index:99;background:#00e676;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}.fixed_btn span{font-size:10px;font-weight:500;position:absolute;width:65px;top:100%;margin-top:7px;background:#eee;border-radius:3px;padding:5px;line-height:1;color:#000;text-align:center;letter-spacing:.3px;text-transform:capitalize}</style>
+    <style>@font-face{font-family:urdufont;src:url('https://kfoods.com/font/urdufont.woff') format('woff');font-display:swap}@font-face{font-family:Poppins;font-style:normal;font-weight:400;font-display:swap;src:url('https://kfoods.com/font/poppins-regular.woff') format('woff')}@font-face{font-family:Poppins;font-style:normal;font-weight:500;font-display:swap;src:url('https://kfoods.com/font/Poppins-Medium.woff') format('woff')}@font-face{font-family:Poppins;font-style:normal;font-weight:600;font-display:swap;src:url('https://kfoods.com/font/poppins-semiBold.woff') format('woff')}.mt_15{margin-top:15px}.ads_height{min-height:130px}.bg_gray{background:#e9e9e9}.share_post a{display:inline-flex;width:32px;height:32px;border-radius:10px;transition:.2s ease-in-out;vertical-align:text-bottom;align-items:center;justify-content:center;margin:3px}.share_post a:hover{transform:translateY(-4px);outline-offset:-1px;color:inherit}.instagram{background:#f09433;background:-moz-linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);background:-webkit-linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);background:linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)}.breadcrumbs,.h5 span,.limit_1,.limit_3,.recipe_box .content .title a{text-overflow:ellipsis;overflow:hidden}.nav__dropdown-menu li a,.tabs__list .tabs__item,.text-uppercase{text-transform:uppercase}.nav__dropdown-menu,.nav__menu,.pagination,.ui-menu,ul{list-style:none}.adsbygoogle,.mb_15,.mt_15{margin-bottom:15px}.mb_10{margin-bottom:10px}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}.d-none,.d_inline_none,.d_none,ul.breadcrumbs li:last-child a:after{display:none}.d-block,article,aside,footer,header,main,nav,section{display:block}.h5 span,.limit_1,.recipe_box .content .title a{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}.limit_2,.recipe_box .content .eng_title a,.recipe_box .content .urdu_title a{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.limit_3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}button{border-radius:0}button,input,optgroup,select,textarea{margin:0;font-size:inherit;line-height:inherit}button,input{overflow:visible}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}.rtl{direction:rtl}.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-10px;margin-left:-10px}.col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-auto,.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-auto,.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-auto,.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-auto,.col-xl,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-auto{position:relative;width:100%;min-height:1px;padding-right:10px;padding-left:10px}.container{width:100%;padding-right:10px;padding-left:10px;margin-right:auto;margin-left:auto}.ui-menu,ul{padding:0}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}.col-md-2{-webkit-box-flex:0;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.col-md-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-4{-webkit-box-flex:0;-ms-flex:0 0 33.33%;flex:0 0 33.33%;max-width:33.33}.col-md-5{-webkit-box-flex:0;-ms-flex:0 0 41.66667%;flex:0 0 41.66667%;max-width:41.66667%}.col-md-7{-webkit-box-flex:0;-ms-flex:0 0 58.33333%;flex:0 0 58.33333%;max-width:58.33333%}.col,.col-md-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-md-8{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}.col-md-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}}@media (min-width:992px){.d-lg-block{display:block}.col-lg-7{-webkit-box-flex:0;-ms-flex:0 0 58.33333%;flex:0 0 58.33333%;max-width:58.33333%}.col-lg-5{-webkit-box-flex:0;-ms-flex:0 0 41.66667%;flex:0 0 41.66667%;max-width:41.66667%}.col-lg-10{-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.text-lg-right{text-align:right}.col-lg-2{-webkit-box-flex:0;-ms-flex:0 0 16.66667%;flex:0 0 16.66667%;max-width:16.66667%}.col-lg-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-4{-webkit-box-flex:0;-ms-flex:0 0 33.33333%;flex:0 0 33.33333%;max-width:33.33333%}.col-lg-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-lg-8{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}.col-lg-9{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}}#CatFish,.ui-front{z-index:100}.btn,a,a:focus,a:hover{text-decoration:none}.breadcrumbs,.btn{white-space:nowrap}body,input,select,textarea{font-family:Poppins}ul.breadcrumbs li,ul.breadcrumbs li a{color:#000;font-size:12px;text-transform:capitalize;font-weight:400}ul.breadcrumbs li a i.fa-home:before{content:"Home";font-style:normal}.nav-icon-toggle,button,select{text-transform:none}.logo{width:147px;height:29px;display:block;background-size:cover;background-repeat:no-repeat;line-height:1}.logo:focus-visible{border:none;outline:0}input[type=radio]+label:before{display:inline-block;content:"";-webkit-box-shadow:0 .125rem .25rem rgba(0,0,0,.075);box-shadow:0 .125rem .25rem rgba(0,0,0,.075);border-radius:40px;margin:-1px 8px 0 0;outline:0;vertical-align:middle;cursor:pointer;width:15px;height:15px;border:1px solid #d3a6a6}.nav__search-box,.shadow{-webkit-box-shadow:0 .125rem .25rem rgba(0,0,0,.075)}input[type=radio]:checked+label:before{background-color:#000;border:4px solid #d3a6a6;padding:3px}input[type=checkbox]+label,input[type=radio]+label{cursor:pointer;margin-bottom:0;position:relative;line-height:22px}ul.breadcrumbs li{display:inline;padding:10px 0}ul.breadcrumbs li a{position:relative;padding-top:10px;padding-bottom:10px}ul.breadcrumbs li a:focus,ul.breadcrumbs li a:hover{color:#007bff}ul.breadcrumbs li a:after{content:"";-webkit-transform:translateY(-50%);transform:translateY(-50%);transform:rotate(-45deg);border-right:1px solid #595959;border-bottom:1px solid #595959;display:inline-block;width:5px;height:5px;margin:0 6px 1px}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.form_search input,.form_search select,.ui-menu,body,ul{margin:0}.ui-autocomplete{position:absolute;top:0;left:0;cursor:default}.form_field,.nav,.nav__menu>li,.nav__search-form,.relative,.txtCapcha{position:relative}.ui-menu{display:block;outline:0}.nav__right,.nav__search{margin-left:auto}.ui-menu .ui-menu-item{margin:0;cursor:pointer;padding:6px 10px;border-top:1px solid #eeeeeea8}.ui-menu .ui-menu-item-wrapper{position:relative;padding:3px 1em 3px .4em}.ui-widget{font-size:13px;font-weight:500}.footer a:focus,.footer a:hover,.ui-menu .ui-menu-item:hover,.view_more_link:hover,.view_more_link_urdu:hover{color:#f15b29}.ui-widget-content{border:1px solid #ddd;background:#fff;color:#000;border-top:0}.ui-button.ui-state-active:hover,.ui-button:active,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active,a.ui-button:active{border:1px solid #fbd850;background:#fff;font-weight:700;color:#eb8f00}.nav__right a:focus,.nav__right a:hover,.section_title .title a,.section_title h1 a,.section_title h2 a,.section_title h3 a,a,body,h1,h2,h3,h4,h5,h6,p{color:#000}a:focus,a:hover{color:#f25a2a}.nav{min-height:48px;-webkit-backface-visibility:hidden;backface-visibility:hidden;z-index:120;-webkit-transition:height .3s ease-in-out;transition:height .3s ease-in-out}.nav__right{display:-webkit-box;display:-ms-flexbox;display:flex}.nav__search-box{width:300px;position:absolute;right:0;top:100%;padding:15px 20px;background-color:#f7f7f7;display:none;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)}.nav__search-input{margin-bottom:0;display:block;line-height:40px}.nav__search-trigger{font-size:23px;display:inline-block;line-height:48px}.nav__search-trigger,.nav__search-trigger:focus,.nav__search-trigger:hover{color:#171821;display:flex;align-items:center;justify-content:center;width:48px;height:48px;text-align:center;padding:0;border:none;background:0 0;outline:0}.nav__search .ui-close{font-size:20px;position:relative}.nav-icon-toggle{padding:0;display:inline-block;cursor:pointer;-webkit-transition:.15s linear;transition:.15s linear;font:inherit;color:inherit;background-color:transparent;border:0;margin-right:5px;overflow:visible;position:absolute;top:50%;right:15px;transform:translateY(-50%)}.h5,.product .content small.price b,body,p{font-weight:400}.nav-icon-toggle:focus,input:focus,select:focus,textarea:focus{outline:0}.nav-icon-toggle__box{width:18px;height:20px;position:relative;display:block}.nav-icon-toggle__inner{display:block;top:50%;margin-top:-1px;margin-left:3px;width:18px}.nav-icon-toggle__inner,.nav-icon-toggle__inner:after,.nav-icon-toggle__inner:before{height:2px;background-color:#000;position:absolute;-webkit-transition:.2s;transition:.2s}.nav-icon-toggle:hover .nav-icon-toggle__inner,.nav-icon-toggle:hover .nav-icon-toggle__inner:after,.nav-icon-toggle:hover .nav-icon-toggle__inner:before{background-color:#f15b29}.nav-icon-toggle__inner:after,.nav-icon-toggle__inner:before{content:"";display:block}.nav-icon-toggle__inner:before{top:-6px;width:18px}.nav-icon-toggle__inner:after{bottom:-6px;width:18px}.sticky{position:fixed;left:0;right:0;top:0;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}.flex-parent{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-flow:row nowrap;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-flow:row nowrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:48px}.link_h5 span,.list_recipes_box .detail a,.photos_title{text-overflow:ellipsis;-webkit-box-orient:vertical}.flex-child{margin:0 auto}.nav__holder{background-color:#fff;-webkit-box-shadow:0 2px 10px rgba(0,0,0,.1);box-shadow:0 2px 10px rgba(0,0,0,.1)}@media (min-width:1200px){.container{max-width:1140px}.nav--sticky.sticky .nav__menu>li>a,.nav__menu>li>a{line-height:48px}#back-to-top,.nav__menu>li>a:before{display:block;-webkit-transition:.3s ease-in-out}.nav__dropdown-menu>li>a:hover,.nav__menu>li>a:hover{color:#f15b29}.nav__dropdown .nav__dropdown,.nav__menu,.nav__menu>li>a{position:relative}.nav__dropdown>a:after{content:"";margin-left:7px;font-size:10px;width:7px;height:7px;color:#000;display:inline-block;border-right:2px solid #000;border-bottom:2px solid #000;transform:rotate(45deg);margin-bottom:3px}.nav__dropdown .nav__dropdown>a:after{content:"";position:absolute;right:20px;top:35%;-webkit-transform:translateY(-50%);transform:translateY(-50%);transform:rotate(-45deg);border-right:1px solid #000;border-bottom:1px solid #000}.nav__menu>li.active a:before,.nav__menu>li:hover a:before{width:100%}.nav__menu>li>a{color:#000;font-size:13px;font-weight:600;text-transform:uppercase;padding:0 10px;display:block}.nav__menu>li>a:before{content:"";position:absolute;width:0;height:2px;bottom:0;left:0;right:0;margin:0 auto;background-color:#f15b29;transition:.3s ease-in-out}.nav__menu>li{display:inline-block;text-align:center}.nav__dropdown-menu{position:absolute;top:100%;left:0;padding:0;z-index:1000;min-width:200px;width:100%;text-align:left;list-style:none;white-space:nowrap;background-color:#fff;-webkit-box-shadow:0 4px 20px rgba(0,0,0,.1);box-shadow:0 4px 20px rgba(0,0,0,.1);background-clip:padding-box;display:block;visibility:hidden;opacity:0;-webkit-transition:.1s ease-in-out;transition:.1s ease-in-out}.nav__dropdown-menu>li>a{color:#54555e;padding:10px 15px;font-size:14px;display:block;border-bottom:1px solid #f5f5f5}.nav__dropdown:hover>.nav__dropdown-menu{opacity:1;visibility:visible}.nav__dropdown-menu .nav__dropdown-menu{left:100%;top:0}#back-to-top{z-index:100;width:34px;height:34px;text-align:center;font-size:12px;border:1px solid #dddddd2b;position:fixed;bottom:-34px;right:20px;line-height:32px;color:#fff;cursor:pointer;background-color:rgba(23,24,33,.5);-webkit-box-shadow:0 .125rem .25rem rgba(0,0,0,.075);box-shadow:0 .125rem .25rem rgba(0,0,0,.075);transition:.3s ease-in-out;text-decoration:none}#back-to-top i{-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}#back-to-top:hover{background-color:#f15b29;border-color:transparent}#back-to-top:hover i{color:#fff}.nav-icon-toggle,.sidenav__close,.sidenav__menu-toggle{display:none}.d-lg-block-menu{display:block}}@media (max-width:1199px){.sidenav__close{position:absolute;right:15px;top:15px}.sidenav__close-button{padding:0;background:0 0;border:0;color:#000;width:24px;height:24px}.sidenav__close-icon{font-size:22px;line-height:24px}.content-overlay{position:fixed;width:100%;height:100%;top:0;bottom:0;opacity:0;visibility:hidden;-webkit-transition:.3s cubic-bezier(.16, .36, 0, .98);transition:.3s cubic-bezier(.16, .36, 0, .98);background-color:rgba(0,0,0,.5)}.content-overlay--is-visible{opacity:1;visibility:visible}.nav__right-item{margin-right:0}.sidenav__menu-toggle{position:absolute;top:0;right:5px;background-color:transparent;border:none;color:#54555e;font-size:12px;padding:0;width:46px;height:46px;text-align:center}.sidenav__menu-toggle .ui-arrow-down:before{content:"";width:7px;height:7px;color:#000;display:inline-block;border-right:2px solid #000;border-bottom:2px solid #000;transform:rotate(45deg);margin-bottom:4px}.sidenav__close-button:focus,.sidenav__menu-toggle:focus{outline:0}.nav__search-box{width:100%}.logo{position:absolute}.nav__wrap{text-align:left;left:0;background-color:#fff;position:fixed;top:0;bottom:0;width:320px;height:100vh;z-index:999;overflow-y:auto;-webkit-transition:-webkit-transform .5s cubic-bezier(.55, 0, .1, 1);transition:transform .5s cubic-bezier(.55, 0, .1, 1);transition:transform .5s cubic-bezier(.55, 0, .1, 1),-webkit-transform .5s cubic-bezier(.55, 0, .1, 1);-webkit-transform:translateX(-320px);transform:translateX(-320px)}.sidenav--is-open{-webkit-transform:translateX(0);transform:translateX(0)}.nav__menu{list-style:none;padding:50px 0}ul.nav__menu li{position:relative;border-bottom:1px solid #e3e4e8;font-size:14px}ul.nav__menu li:last-child{border-bottom:0}ul.nav__menu li a{text-transform:uppercase;width:100%;display:block;color:#000;letter-spacing:.3px;padding:12px 15px;font-size:14px;font-weight:500;-webkit-transition:background .3s;transition:background .3s}.nav__dropdown-menu{list-style:none;overflow:hidden;display:none;background-color:#f7f7f7}.sidenav__menu--is-open>a{background-color:#f7f7f7;color:#000;border-bottom:1px solid #e3e4e8}.nav__dropdown-menu li a{padding-left:35px!important;font-weight:400!important}}.single_review{margin-bottom:10px;padding:18px;position:relative;margin-left:20px;background:#eee}.single_review:before{content:"";height:0;width:0;top:0;left:-19px;position:absolute;border-style:solid;border-width:20px 0 0 20px;border-color:#eee transparent transparent}.single_review .title{margin-bottom:10px;font-size:16px;line-height:1.4;font-weight:600;color:#000}.comment_form .btn,.comment_form .btn:focus,.comment_form .btn:hover{color:#fff;background:#000}.single_review ul{display:-webkit-flex;display:flex;justify-content:space-between;font-size:13px}.comment_form textarea{height:112px;padding:15px;margin-bottom:10px}.comment_form input{padding:15px;margin-bottom:20px}.comment_form .btn{margin-bottom:15px;font-weight:500;padding:0!important;letter-spacing:1px;height:46px;border:none;width:100%;line-height:45px}.send_comment_msg{border-left:7px solid #f6912d;display:block;padding:15px;text-align:left;background:#f5f5f5}.form_field .error_msg,.txtCapcha .error_msg{position:absolute;top:-17px;font-size:10px;color:#00f;font-weight:600;width:100%;left:0}.txtCapcha img{position:absolute;top:2px;left:1px;width:120px;height:42px;object-fit:cover}.txtCapcha input{padding-left:130px}.section_tab{border:1px solid #f5f5f5}.tabs__list{display:-webkit-flex;display:flex;justify-content:space-around}.tabs__list .tabs__item{width:100%;padding:10px 5px;text-align:center;cursor:pointer;font-size:16px;font-weight:600;color:#000;background:#f5f5f5}.tabs__list .tabs__item span{font-family:urdufont;font-size:17px}.tabs__list .tabs__item.active{position:relative;color:#fff;background:#f15b28}.tabs__content{display:none;padding:15px;background:#fff}.tabs__content.active{display:inline-block;width:100%}@media only screen and (max-width:991px){#back-to-top{display:block;z-index:100;width:34px;height:34px;text-align:center;font-size:12px;border:1px solid;position:absolute;bottom:-34px;right:20px;line-height:32px;color:#fff;background-color:rgba(23,24,33,.5);text-decoration:none}}@media screen and (max-width:1200px) and (min-width:1025px){.nav__menu>li>a{font-size:12px;padding:0 8px}}body{padding:0;font-size:16px;line-height:1.5;outline:0}#CatFish{position:fixed;background-color:#fff;width:100%;bottom:0;height:100px;padding:0;display:none}.CatFish_ad{height:100px;width:320px;margin:0 auto}.dfpunit1{max-width:970px;margin:15px auto;height:250px}.dfpunit2,.dfpunit3,.dfpunit4,.dfpunit5{text-align:center;height:90px;display:inline-block;width:100%}.full_view_more_link,.urdu_full_view_more_link,.view_more_link,.view_more_link_urdu{cursor:pointer;display:block;text-transform:capitalize}img{border:none;max-width:100%;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none}.btn,.btn:hover{color:#fff;background-color:#000}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:10px;font-weight:600;line-height:1.4}h1,h2{font-size:26px}p{font-size:16px;line-height:28px;margin:0 0 10px}.btn{font-weight:600;border:0;z-index:1;cursor:pointer}.btn:hover{border-color:transparent}.btn i{font-size:20px}input,select,textarea{height:45px;border:1px solid #e3e4e8;background-color:#fff;width:100%;margin-bottom:20px;padding:0 6px;-webkit-transition:border-color .3s ease-in-out,background-color .3s ease-in-out;transition:border-color .3s ease-in-out,background-color .3s ease-in-out}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}input:focus,textarea:focus{border-color:#f15b29;background-color:#fff;outline:0;-webkit-box-shadow:none;box-shadow:none}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#54555e}.shadow{box-shadow:0 .125rem .25rem rgba(0,0,0,.075)}.section_title h1{font-size:24px;font-weight:600;margin-bottom:20px}.section_title .title,.section_title h2,.section_title h3{font-size:20px;font-weight:600;text-transform:capitalize;margin-bottom:15px;color:#000;line-height:1.4}.footer p,.full_view_more_link,.view_more_link{font-size:14px}.footer a,.footer p{color:#fff}.section_title .single_title{font-size:20px;font-weight:600;text-transform:capitalize;margin-bottom:20px;color:#171821;line-height:1.4}.mx_0{margin-left:0;margin-right:0}.px_0{padding-left:0;padding-right:0}.full_view_more_link,.urdu_full_view_more_link{background:#f5f5f5;padding:10px}.mt_25{margin-top:25px}.mb_25{margin-bottom:25px}.full_view_more_link:after,.view_more_link:after{content:"";margin-left:4px;font-size:11px;width:8px;height:8px;display:inline-block;border-top:1px solid;border-right:1px solid;transform:rotate(45deg)}.urdu_full_view_more_link,.view_more_link_urdu{font-size:16px;direction:rtl;font-family:urdufont}.urdu_full_view_more_link:after,.view_more_link_urdu:after{content:"";margin-right:4px;font-size:11px;width:8px;height:8px;display:inline-block;border-bottom:1px solid;border-left:1px solid;transform:rotate(45deg)}.full_view_more_link:hover,.urdu_full_view_more_link:hover{background:#f15b29;color:#fff}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.mx_5{margin-right:-5px;margin-left:-5px}.px_5{padding-right:5px;padding-left:5px}.mb_0,.section_title.mb_0{margin-bottom:0}.footer{position:relative;background-color:#333;padding:15px 0}.footer p{margin:0}@media (max-width:991px){.mb_sm_15,.section_title .title,.section_title h2,.section_title h3{margin-bottom:15px}.dfpunit2,.dfpunit3,.dfpunit4,.dfpunit5{height:250px;overflow:hidden}.mb_25{margin-bottom:20px}.view_more_link,.view_more_link_urdu{text-align:center;padding:10px 0;background:#222;border-radius:5px;font-weight:500;border:1px solid #f5f5f5;border-bottom:none;-webkit-box-shadow:0 1px 2px rgb(0 0 0 / 6%);box-shadow:0 1px 2px rgb(0 0 0 / 6%);transition:.5s linear;color:#fff}.mx_sm_5{margin-left:-5px;margin-right:-5px}.px_sm_5{padding-left:5px;padding-right:5px}.footer{padding:12px 0;text-align:center}.footer a{font-size:14px}.footer p{padding-bottom:2px}.section_title .title{font-size:20px;margin-bottom:15px}}.footer_spacer{width:100%;height:100px;display:block;background:#fff}.recipe_box .content .urdu_title,.sm_urdu_title,.urdu_h{font-family:urdufont;direction:rtl;text-align:right}@media (max-width:767px){input:focus,select:focus,textarea:focus{box-shadow:none;outline:0}.search_box,.search_inline{padding:2px}.section_title .single_title,.section_title .title,.section_title h2,.section_title h3{font-size:18px}.mobile_menu{background:#f1f1f1;border-top:2px solid #f1f1f1;border-bottom:2px solid #f1f1f1;white-space:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar;width:100%}.mobile_menu ul{width:100%;margin:0}.mobile_menu ul li{display:inline-block;padding:7px 5px;background:#fff;vertical-align:top}.mobile_menu ul li a{font-size:12px;color:#111;text-transform:uppercase;padding:0 5px;font-weight:600}.col-sm-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.section_title h1,h1{font-size:20px}.mt_25{margin-top:15px}}.link_h5 span,.mehndi_thumb,.photo_gallery,.photos_title{overflow:hidden}.chef_box,.lg_recipe_box,.recipe_box{-webkit-box-shadow:0 1px 0 0 #eaeaea;-moz-box-shadow:0 1px 0 0 #eaeaea}.lg_recipe_box,.recipe_box{position:relative;border:1px solid #eaeaea;box-shadow:0 1px 0 0 #eaeaea;background:#fff}.lg_recipe_box .content{position:absolute;bottom:20px;left:0;background:#0000009e;padding:6px 20px}.lg_recipe_box .content .title span{color:#fff;font-size:20px;font-weight:600}.lg_recipe_box .image,.recipe_box .image{position:relative;padding-top:56.25%;background:center center/cover no-repeat #ddd}.chef_box .image img,.lg_recipe_box .image img,.recipe_box .image img,.rest_box img,.top_Herbalist img{position:absolute;top:0;left:0;width:100%;height:100%}.recipe_box .content{padding:14px 15px}.recipe_box .content .title{font-size:15px;font-weight:500}.recipe_box .content .eng_title{font-size:16px;font-weight:500}.recipe_box .content .urdu_title{font-size:18px}.form_search{position:relative;display:flex;align-items:center;justify-content:center;padding-right:50px}.form_search select{width:135px}.form_search .btn-search{position:absolute;top:0;right:0;width:100px;height:100%;background:#333;text-align:center;display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px}.list_recipes_box .thumb,.urdu_list_recipes_box .thumb{background-position:center center;width:120px;height:68px;position:absolute}.form_search .btn-search span{margin-left:5px}.form_search_row{max-width:60%;margin-left:auto;margin-right:auto;background:#f15b29;padding:5px;display:none}.list_recipes_box .thumb,.top_Herbalist,.urdu_list_recipes_box .thumb{background-size:cover;background-repeat:no-repeat}.photo_gallery,.top_Herbalist{display:block;background-position:top}.list_recipes_box,.urdu_list_recipes_box{border-bottom:1px solid #f5f5f5;padding-bottom:10px;margin-bottom:10px;position:relative}.list_recipes_box{padding-left:140px}.urdu_list_recipes_box{padding-right:140px}.list_recipes_box .thumb{top:0;left:0}.urdu_list_recipes_box .thumb{top:0;right:0}.photo_gallery img,.rest_box .image{top:0;left:0;width:100%;height:100%}.list_recipes_box .thumb img,.urdu_list_recipes_box .thumb img{width:120px;height:68px}.list_recipes_box .detail,.urdu_list_recipes_box .detail{min-height:70px;display:flex;flex-direction:column;justify-content:center}.list_recipes_box .detail a{font-size:15px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;font-weight:500}.list_recipes_box .detail span.post-date{display:block;font-size:12px;margin-top:5px}.urdu_h{font-size:24px;font-weight:600;margin-bottom:7px}.sm_urdu_title{font-size:18px!important}.top_Herbalist{position:relative;border:1px solid #f15b2921;box-shadow:0 .125rem .25rem rgba(0,0,0,.075);padding-top:100%}.chef_box,.photo_gallery{border:1px solid #eaeaea}.top_Herbalist .title{position:absolute;bottom:10px;left:0;width:100%;text-align:center;background:#fff;padding:7px 5px;font-weight:600;font-size:14px}.chef_box{padding:6px;text-align:center;background-color:#f3f8f4;box-shadow:0 1px 0 0 #eaeaea}.chef_box .image{position:relative;padding-top:100%;background:top/cover no-repeat #fff}.photo_gallery,.rest_box .image{background-repeat:no-repeat;background-size:cover}.chef_box .title{padding-top:10px;padding-bottom:6px;font-weight:500;font-size:16px}.photo_gallery{position:relative;padding:80% 5px 5px;-webkit-transition:3s;-o-transition:.5s;transition:3s;background-color:#fff}.h5,.list_links a{border:1px solid #e7e3e1;text-transform:capitalize;-webkit-box-shadow:0 1px 0 0 #eaeaea;-moz-box-shadow:0 1px 0 0 #eaeaea}.photo_gallery img{transition:.3s ease-in-out;position:absolute}.photoslider_content{padding:10px 3px;position:absolute;bottom:0;left:0;background:#fff;transform:translateY(50px);transition:.5s ease-in-out;width:100%;text-align:center}.c_section,.h5,.page-link,.rest_box{position:relative}.photos_title{font-weight:500;font-size:15px;display:-webkit-box;-webkit-line-clamp:1;margin:0}.h5,.rest_box{display:block}.photo_gallery:hover .photoslider_content{transform:translateY(0)}.list_links a{display:inline-block;background:#fff;padding:5px 7px;box-shadow:0 1px 0 0 #eaeaea;margin-left:3px;margin-bottom:5px;font-size:14px}.rest_box{text-align:center;box-shadow:0 .125rem .25rem rgba(0,0,0,.075);padding-top:56.25%;background:#f5f5f5}.h5,.link_h5{text-align:left}.rest_box .image{background-position:center;position:absolute}.h5{color:#000;font-size:15px;font-weight:500;margin-bottom:15px;padding:10px 10px 10px 30px;box-shadow:0 1px 0 0 #eaeaea;background:#fff}.h5:after{content:"";position:absolute;top:17px;left:11px;width:10px;height:10px;-webkit-transform:rotate(313deg);transform:rotate(313deg);background:#ccc}.more_links ul li{display:inline;padding-right:5px;font-size:15px;margin-bottom:5px;color:#000}.right_form_search_row input,.right_form_search_row select{font-size:14px;height:40px}.pagination{display:-ms-flexbox;display:flex;padding-left:0;border-radius:.25rem}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.page-item.disabled .page-link{color:#6c757d;pointer-events:none;cursor:auto;background-color:#fff;border-color:#dee2e6}.page-link{display:block;padding:.5rem .75rem;margin-left:-1px;line-height:1.25;color:#333;background-color:#fff;border:1px solid #dee2e6}.btn_loadmore,.group_btns .c_btn{display:inline-block;min-width:200px;font-family:Poppins;font-weight:500}.page-item.active .page-link{color:#fff;background-color:#f15b29;border-color:#f15b29}.btn_loadmore{width:auto;padding:10px 35px;background:#333;color:#fff;text-transform:uppercase;border:none;-webkit-box-shadow:0 1px 0 0 #eaeaea;-moz-box-shadow:0 1px 0 0 #eaeaea;box-shadow:0 1px 0 0 #eaeaea;margin-top:15px}.btn_loadmore:focus,.btn_loadmore:hover{background:#7e3c97;color:#fff;border:none;outline:0}.group_btns .c_btn{margin:0 3px 10px;background:#333;padding:10px;text-align:center;font-size:15px;color:#fff;border:none}.group_btns .c_btn:focus,.group_btns .c_btn:hover{outline:0;color:#fff;background:#7c3996}.container_sm{max-width:970px;margin:0 auto}.c_section{border:1px solid #dddddd94;box-shadow:0 1px 5px 0 #eaeaea}.c_section:before{content:"";background:url(/images/ramadan_bg_image.png) center/cover;width:100%;height:100%;position:absolute;top:0;left:0;opacity:.2}.c_section h3{padding:12px 16px;background:#7d3a97;color:#fff;text-align:center;text-transform:uppercase;letter-spacing:.5px;margin:0;position:relative}.c_section .list_box{padding:20px;position:relative}.link_h5{position:relative;color:#171821;font-size:16px;display:block;font-weight:400;margin-bottom:13px;padding:0 0 10px 18px;border-bottom:1px solid #eee}.link_h5 span{display:-webkit-box;-webkit-line-clamp:1}.link_h5:after{content:"";position:absolute;top:8px;left:0;width:8px;height:8px;-webkit-transform:rotate(316deg);transform:rotate(314deg);background:#ccc}.c_section .list_box .view_more_link{margin-top:6px}@media(max-width:991px){.form_search_row{max-width:100%;padding:0}.form_search select{width:90px}.form_search input,.form_search select{font-size:13px}.form_search .btn-search{width:50px}.form_search .btn-search span{display:none}}@media(max-width:767px){.recipe_box .content{padding:8px}.chef_box .title{font-size:14px}.lg_recipe_box .content .title a{font-size:15px}.ads_height{min-height:150px}.c_section:before{background-position:100%}}.endcontent h2,.endcontent h3,.endcontent h4,.endcontent p.heading{margin-bottom:10px;margin-top:1.8rem;font-weight:600}.endcontent h2:first-child,.endcontent h3:first-child{margin-top:0}.endcontent ol,.endcontent ul{list-style:none;margin-left:0;margin-bottom:15px;padding-left:0}.endcontent li{position:relative;padding-left:20px;line-height:1.7;color:#222;font-size:17px;margin-bottom:10px}.endcontent li:before{content:"";position:absolute;top:8px;left:0;width:12px!important;height:12px!important;background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16"><path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/></svg>');background-repeat:no-repeat;background-size:cover;opacity:.5}.endcontent h3[itemprop=name],.endcontent h4[itemprop=name]{margin-top:1.8rem!important}.endcontent h2{font-size:22px}.endcontent h3{font-size:20px}</style>
+    <base href="https://kfoods.com" />
+    <link rel="canonical" href="https://kfoods.com/recipes/gol-gappay_urid34" />
+    <meta property="fb:app_id" content="2082136268681369" />
+    <meta property="og:description" content="Gol gappay recipe is served with its special chutney, boiled chickpeas, boiled potatoes and enjoyed. Access the most desirable recipes online posted on this page. You can prepare Gol Gappayonline along with the required ingredients and method so you can note them and prepare it with ease. Gol gappay is prepared and loved by every individual in Pakistan especially they are very popular among women. They are made with semolina dough and then deep fried until crispy. They are filled with chickpeas and sour water which is the specialty of gol gappay. Some people like it with sweet chutney also." />
+    <meta property="og:image" content="https://kfoods.com/images1/newrecipeicon/gol-gappay_34.jpg" />
+    <meta property="og:site_name" content="Kfoods Recipes" />
+    <meta property="og:title" content="Gol Gappay" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://kfoods.com/recipes/gol-gappay_urid34" />
+    <link rel="image_src" href="https://kfoods.com/images1/newrecipeicon/gol-gappay_34.jpg" />
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Recipe",
+      "author": "~Sani~",
+      "cookTime": "PT0H30M",  
+      "description": "Gol gappay recipe is served with its special chutney, boiled chickpeas, boiled potatoes and enjoyed. Access the most desirable recipes online posted on this page. You can prepare Gol Gappayonline along with the required ingredients and method so you can note them and prepare it with ease. Gol gappay is prepared and loved by every individual in Pakistan especially they are very popular among women. They are made with semolina dough and then deep fried until crispy. They are filled with chickpeas and sour water which is the specialty of gol gappay. Some people like it with sweet chutney also.",
+      "image": "https://kfoods.com/images1/newrecipeicon/gol-gappay_34.jpg",
+      "recipeIngredient": ["میدہ۔۔۔۔۔1کپ
+تیل۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔ 1 کھانے کا چمچ
+تیل۔۔۔۔۔۔۔۔۔۔۔ فار فرائنگ
+فلنگ کے لیے
+آلو۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔ 1کپ ( بوائلڈ)
+کابلی چنے۔۔۔۔۔۔۔1کپ ( بوائلڈ) ( سفید والے)
+املی۔۔۔۔۔۔۔۔۔۔ 50 گرام
+چینی۔۔۔۔۔۔۔۔۔۔ 1کپ
+لیموں۔۔۔۔۔۔۔۔۔۔۔۔۔ 2 عدد
+سرخ مرچ پاؤڈر۔۔۔۔۔۔۔۔۔۔۔۔۔آدھا چائے چمچ
+نمک۔۔۔۔۔۔۔۔۔۔۔۔آدھا چائے چمچ
+پودینہ پیسٹ۔۔۔۔۔۔۔۔۔۔۔2 کھانے کے چمچ
+زیرہ۔۔۔۔۔۔۔۔۔۔۔۔۔1 چائے چمچ ( توے پر بھون لیں)"
+      ],   
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "62"
+      },
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/Comment",
+        "userInteractionCount": "62"
+      },
+      "name": "Gol Gappay", 
+      "prepTime": "PT0H15M",
+      "recipeInstructions": "میدے میں تیل ملا کر پانی کے ساتھ سخت سے گوندھ لیں۔ اور پھر اسکی پتلی سے روٹی بیل لیں۔ اس کو کٹر سے گول گول کاٹ لیں۔۔خیال رہے کہ آپ ٹکڑے ساتھ ساتھ گیلے ٹھنڈے کپڑے سے ڈانپتے جائیں۔۔۔پھر آئل گرم کر کے فرائی کر لیں۔۔۔اگر کوئی گول گپہ نہ پھولے تو اسے پاپڑی کی طرح استعمال کرلیں۔
+املی کو 3-2 گھنٹے کے لئے پانی میں بھگو دیں۔۔اس کے بعد گودا نکال کر اس میں باقی چیزیں مکس کر لیں۔۔۔اور ہلکا سا جوش دے لیں۔پھر تھنڈا کرکے5-4 گلاس پانی ڈال کر کھٹاس بنا لیں۔
+گول گپےکو پیش کرنے سے پہلے اس کو سائیڈ سےتھوڑا سا توڑ کے اس میں آلو اور چنے بھر لیں اور اس کھٹاس کے ساتھ پیش کریں۔",
+      "recipeYield": "10"
+      
+      ,
+        "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize" : "1 Bowl","calories" : "100","fatContent" : "12"
+        
+        }
+    }
+    </script>
+    <style>.add_btn svg,.posted_user svg,.table td,.table td svg,.table th{vertical-align:middle}.recipe_box .en_title{font-size:17px!important;text-align:center}.long_description,.visible-xs{display:none}.btn_link,.comment_form .btn,.tabs-container,ul.tags li{display:inline-block}.bold-text{font-weight:600;color:#f15b29;font-size:15px}.btn_link{margin-bottom:10px;padding:4px 9px;border:1px solid #ced4da;color:#000;font-weight:700;text-align:left}.UrduLinkBold,.urdu_box,.urdu_box p,.urdu_section_title,.urdu_title{font-family:urdufont;direction:rtl;text-align:right}.comment_form .btn,span.cmt_review{text-align:center}.content_widget{padding:12px;background:#f5f5f5;-webkit-box-shadow:0 1px 2px rgb(0 0 0 / 20%);box-shadow:0 1px 2px rgb(0 0 0 / 20%)}.detail_img{position:relative;padding-top:56.25%;background:#f5f5f5;border:1px solid #ddd}.table,span.cmt_review{background:#fff;margin-bottom:10px}.table td,.table th,.table-bordered,span.cmt_review{border:1px solid #dee2e6}.detail_img img{position:absolute;top:0;left:0;width:100%;height:100%}.table{width:100%;color:#212529;border-collapse:collapse}.spacer_20,.urdu_title{margin-bottom:20px}.table td,.table th{padding:10px}.list_table td{padding:16px 10px;font-size:16px}.urdu_box,.urdu_box p{font-size:20px;line-height:1.9}.urdu_title{font-size:24px;font-weight:600}ul.tags li{margin-right:8px;-webkit-box-shadow:0 1px 0 0 #eaeaea;-moz-box-shadow:0 1px 0 0 #eaeaea;box-shadow:0 1px 0 0 #eaeaea;padding:6px 15px;margin-bottom:10px;border:1px solid #eaeaea;background:#f5f5f5}.recipe_box .content .urdu_title{margin:0}.urdu_section_title{color:#000;font-weight:600;font-size:20px;letter-spacing:-.5px}.content_widget iframe{height:450px}.tabs-container{width:100%}.urdu_recipe_tab ul.tabs-nav{display:table;border-bottom:1px solid #e6e0dd;width:100%;margin-bottom:4px;overflow:hidden}span.cmt_review .fa-star,span.cmt_review .fa-star-o{width:16px;height:16px;display:inline-block;margin-right:2px}.section_bg,.tabs-container .tab-content{background:#f5f5f5;padding:12px;-webkit-box-shadow:0 1px 2px rgb(0 0 0 / 20%);box-shadow:0 1px 2px rgb(0 0 0 / 20%)}.urdu_recipe_tab ul.tabs-nav li{height:40px;position:relative;line-height:40px;display:table-cell;text-align:center;background:#f5f5f5;cursor:pointer;font-size:14px;font-weight:600;text-transform:uppercase}.urdu_recipe_tab ul.tabs-nav li.active{border-color:#f15b29}.urdu_recipe_tab ul.tabs-nav li.active:before{content:"";position:absolute;border:0;left:0;bottom:0;width:100%;height:2px;background:#7e3b96}.UrduLinkBold{font-size:1.2em;letter-spacing:-.5px}.table td svg{width:17px;margin-right:5px}span.cmt_review .fa-star{background:url('/images/star.png') 0 0/cover no-repeat}span.cmt_review .fa-star-o{background:url('/images/star-o.png') 0 0/cover no-repeat}span.review_icon:before,span.view_icon:before{content:"";width:16px;height:16px;display:inline-block;margin-right:5px;vertical-align:middle;margin-bottom:4px}span.review_icon,span.view_icon{font-size:14px;margin-right:10px}span.view_icon:before{background:url('/images/show.png') 0 0/cover no-repeat}span.review_icon:before{background:url('/images/review.png') 0 0/cover no-repeat}.section_bg p:last-child{margin-bottom:0}span.cmt_review{display:block;padding:5px 3px 0}.posted_user{font-size:14px}.posted_user a{color:#000}.posted_user svg{border:1px solid #ddd;width:30px;height:30px;padding:5px;border-radius:50px;margin-right:5px;background:#f7f7f7}.add_btn{background:#333;display:inline-block;padding:8px 15px;color:#fff;border-radius:5px;font-size:15px}.add_btn svg{width:25px;height:25px;fill:#fff}.add_btn:hover{background:#f15b29;color:#fff}@media (max-width:767px){.hidden-xs,.recipe_box .content small,.table td span,.table td:empty,.table tr:empty{display:none}.content_widget,.section_bg{padding:7px}.visible-xs{display:block}.content_widget iframe{height:250px}.recipe_box .en_title{font-size:14px!important}.recipe_box .content .en_title a{-webkit-line-clamp:2}.table td{text-align:left;position:relative;font-size:13px}.text-sm-center{text-align:center}}</style>
+<meta name="description" content="Gol Gappay Recipe in Urdu | See how to make gol gappay at home with an easy recipe by KFoods.com. Enjoy delicious golgappa (Gol Gappay Banane Ka Tarika)..." /><meta name="keywords" content="Gol Gappay Recipe in Urdu, Golgappa recipe in urdu" /></head>
+<body id="top" class="">
+    <form name="aspnetForm" method="post" action="/recipes/gol-gappay_urid34" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0NjUwNjY2MDMPFgIeBVJlY0lEAiIWAmYPZBYCAgMPFgIeBmFjdGlvbgUaL3JlY2lwZXMvZ29sLWdhcHBheV91cmlkMzQWBGYPZBYCZg9kFgICAQ8QDxYCHgtfIURhdGFCb3VuZGdkZGRkAgEPZBYOZg8PFgIeBFRleHQF5gs8aDQgY2xhc3M9J2dyYXkgJz48YT5Hb2wgR2FwcGF5IHZpZGhpPC9hPjwvaDQ+PGJyPjxzcGFuIHN0eWxlPSdmb250LXdlaWdodDpub3JtYWw7IGxpbmUtaGVpZ2h0OjIwcHg7JyBjbGFzcz0nJz5NYWlkYQkxIGN1cA08YnIgLz48YSB0YXJnZXQ9J19ibGFuaycgY2xhc3M9J3JlY2lwZXRleHQnIHN0eWxlPSd0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lOycgdGl0bGU9J9iq24zZhCBUYXlsJyBocmVmPScvZ2xvc3Nhcnkvb2lsX2dpZDE4Jz5PaWw8L2E+CTEga2hhbmF5IGthIGNoYW1jaA08YnIgLz48YSB0YXJnZXQ9J19ibGFuaycgY2xhc3M9J3JlY2lwZXRleHQnIHN0eWxlPSd0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lOycgdGl0bGU9J9iq24zZhCBUYXlsJyBocmVmPScvZ2xvc3Nhcnkvb2lsX2dpZDE4Jz5PaWw8L2E+CWZyeWluZyBrIGxpeWUNPGJyIC8+RmxpbmcgayBsaXllDTxiciAvPkFhbG8JMSBjdXAgKGI8YSB0YXJnZXQ9J19ibGFuaycgY2xhc3M9J3JlY2lwZXRleHQnIHN0eWxlPSd0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lOycgdGl0bGU9J9iq24zZhCBUYXlsJyBocmVmPScvZ2xvc3Nhcnkvb2lsX2dpZDE4Jz48YSB0YXJnZXQ9J19ibGFuaycgY2xhc3M9J3JlY2lwZXRleHQnIHN0eWxlPSd0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lOycgdGl0bGU9J9iq24zZhCBUYXlsJyBocmVmPScvZ2xvc3Nhcnkvb2lsX2dpZDE4Jz5PaWw8L2E+PC9hPmVkKQ08YnIgLz48YSB0YXJnZXQ9J19ibGFuaycgY2xhc3M9J3JlY2lwZXRleHQnIHN0eWxlPSd0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lOycgdGl0bGU9J9qp2KfYqNmE24wg2obZhtinIGthYnVsaSBjaGFuYScgaHJlZj0nL2dsb3NzYXJ5L2thYnVsaS1jaGFuYV9naWQyNDgnPkthYnVsaSBjaGFuYTwvYT55CTEgY3VwIChiPGEgdGFyZ2V0PSdfYmxhbmsnIGNsYXNzPSdyZWNpcGV0ZXh0JyBzdHlsZT0ndGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTsnIHRpdGxlPSfYqtuM2YQgVGF5bCcgaHJlZj0nL2dsb3NzYXJ5L29pbF9naWQxOCc+PGEgdGFyZ2V0PSdfYmxhbmsnIGNsYXNzPSdyZWNpcGV0ZXh0JyBzdHlsZT0ndGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTsnIHRpdGxlPSfYqtuM2YQgVGF5bCcgaHJlZj0nL2dsb3NzYXJ5L29pbF9naWQxOCc+T2lsPC9hPjwvYT5lZCBzYWZpYWQgd2FsYXkpDTxiciAvPkltbGkJNTAgZ3JhbQ08YnIgLz5DaGVlbmkJMSBjdXANPGJyIC8+PGEgdGFyZ2V0PSdfYmxhbmsnIGNsYXNzPSdyZWNpcGV0ZXh0JyBzdHlsZT0ndGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTsnIHRpdGxlPSfZhNuM2YXZiNq6IExlbW8nIGhyZWY9Jy9nbG9zc2FyeS9sZW1vbl9naWQ2MzAnPkxlbW9uPC9hPgkyIGFkYWQNPGJyIC8+U3Vya2ggbWlyY2ggcG93ZGVyDTxiciAvPk5hbWFrCcK9IGNoYXllIGthIGNoYW1hY2gNPGJyIC8+UG9kZWVuYSBwYXN0ZQkyIGtoYW5heSBrIGNoYW1hY2gNPGJyIC8+WmVlcmEJMSBjaGF5ZSBrYSBjaGFtYWNoCSh0YXdheSBwZXIgYmhvb24gbGFpbik8L3NwYW4+ZGQCAQ8PFgIfAwX6AjxoNCBjbGFzcz0nZ3JheSAnPjxhPkJhbmFuZSBraSB0YXJrZWViPC9hPjwvaDQ+PGJyLz48c3BhbiBjbGFzcz0nJz5NYWlkYXkgbWFpbiB0YWlsIG1pbGEga2FyIHBhYW5pIGsgc2F0aCBzYWtodCBnb25kaCBsYWluIGF1ciBwaHIgaXNraSBwYXRsaSBjIHJvdGkgYmFpbCBsYWluLiBJc2tvIGN1dHRlciBzeSBnb2wgZ29sIGthYXQgbGFpbi4gS2hheWFsIHJhaGF5IGsgYXAgdHVrcmF5IHNhdGggc2F0aCBnZWVsYXkgdGhhbmRheSBrYXByYXkgc3kgZGhhbnB0YXkgamFhaW4uIFBociBvaWwgZ2FybSBrYXIgayBmcnkga2FyIGxhaW4uIEFnYXIga29pIGdvbCBnYXBwYSBuYSBwaG9sYXkgdG8gaXN5IHBhcHJpIGtpIHRhcmhhIGlzdGVtYWwga2FyIGxhaW4uPC9zcGFuPmRkAgIPDxYCHwMFzgY8ZGl2IGNsYXNzPSd1cmR1JyA+PHNwYW4gY2xhc3M9J3JlY2lwZXRpdGxlc21hbGxVcmR1JyBzdHlsZT0nY29sb3I6IzY2QjQ1MDsnPtin2KzYstin2KE6PC9zcGFuPjxicj7ZhduM2K/bgduU25TblNuU25Qx2qnZvg08YnI+2KrbjNmE25TblNuU25TblNuU25TblNuU25TblNuU25TblNuU25QgMSDaqdq+2KfZhtuSINqp2Kcg2obZhdqGDTxicj7YqtuM2YTblNuU25TblNuU25TblNuU25TblNuUINmB2KfYsSDZgdix2KfYptmG2q8NPGJyPtmB2YTZhtqvINqp25Ig2YTbjNuSDTxicj7YotmE2YjblNuU25TblNuU25TblNuU25TblNuU25TblNuU25QgMdqp2b4gKCDYqNmI2KfYptmE2ogpDTxicj7aqdin2KjZhNuMINqG2YbbktuU25TblNuU25TblNuUMdqp2b4gKCDYqNmI2KfYptmE2ogpICgg2LPZgduM2K8g2YjYp9mE25IpDTxicj7Yp9mF2YTbjNuU25TblNuU25TblNuU25TblNuUIDUwINqv2LHYp9mFDTxicj7ahtuM2YbbjNuU25TblNuU25TblNuU25TblNuUIDHaqdm+DTxicj7ZhNuM2YXZiNq625TblNuU25TblNuU25TblNuU25TblNuU25QgMiDYudiv2K8NPGJyPtiz2LHYriDZhdix2oYg2b7Yp9ik2ojYsduU25TblNuU25TblNuU25TblNuU25TblNuU2KLYr9q+2Kcg2obYp9im25Ig2obZhdqGDTxicj7ZhtmF2qnblNuU25TblNuU25TblNuU25TblNuU25TYotiv2r7YpyDahtin2KbbkiDahtmF2oYNPGJyPtm+2YjYr9uM2YbbgSDZvtuM2LPZuduU25TblNuU25TblNuU25TblNuU25QyINqp2r7Yp9mG25Ig2qnbkiDahtmF2oYNPGJyPtiy24zYsduB25TblNuU25TblNuU25TblNuU25TblNuU25QxINqG2KfYptuSINqG2YXahiAoINiq2YjbkiDZvtixINio2r7ZiNmGINmE24zauik8L2Rpdj5kZAIDDw8WAh8DBYAIPGRpdiBjbGFzcz0ndXJkdScgPtmF24zYr9uSINmF24zauiDYqtuM2YQg2YXZhNinINqp2LEg2b7Yp9mG24wg2qnbkiDYs9in2KraviDYs9iu2Kog2LPbkiDar9mI2YbYr9q+INmE24zautuUINin2YjYsSDZvtq+2LEg2KfYs9qp24wg2b7YqtmE24wg2LPbkiDYsdmI2bnbjCDYqNuM2YQg2YTbjNq625Qg2KfYsyDaqdmIINqp2bnYsSDYs9uSINqv2YjZhCDar9mI2YQg2qnYp9m5INmE24zautuU25TYrtuM2KfZhCDYsduB25Ig2qnbgSDYotm+INm52qnakduSINiz2KfYqtq+INiz2KfYqtq+INqv24zZhNuSINm52r7ZhtqI25Ig2qnZvtqR25Ig2LPbkiDaiNin2YbZvtiq25Ig2KzYp9im24zautuU25TblNm+2r7YsSDYotim2YQg2q/YsdmFINqp2LEg2qnbkiDZgdix2KfYptuMINqp2LEg2YTbjNq625TblNuU2Kfar9ixINqp2YjYptuMINqv2YjZhCDar9m+24Eg2YbbgSDZvtq+2YjZhNuSINiq2Ygg2KfYs9uSINm+2KfZvtqR24wg2qnbjCDYt9ix2K0g2KfYs9iq2LnZhdin2YQg2qnYsdmE24zautuUDTxicj7Yp9mF2YTbjCDaqdmIIDMtMiDar9q+2YbZuduSINqp25Ig2YTYptuSINm+2KfZhtuMINmF24zauiDYqNq+2q/ZiCDYr9uM2rrblNuU2KfYsyDaqduSINio2LnYryDar9mI2K/YpyDZhtqp2KfZhCDaqdixINin2LMg2YXbjNq6INio2KfZgtuMINqG24zYstuM2rog2YXaqdizINqp2LEg2YTbjNq625TblNuU2KfZiNixINuB2YTaqdinINiz2Kcg2KzZiNi0INiv25Ig2YTbjNq625TZvtq+2LEg2KravtmG2ojYpyDaqdix2qnbkjUtNCDar9mE2KfYsyDZvtin2YbbjCDaiNin2YQg2qnYsSDaqdq+2bnYp9izINio2YbYpyDZhNuM2rrblA08YnI+2q/ZiNmEINqv2b7bktqp2Ygg2b7bjNi0INqp2LHZhtuSINiz25Ig2b7bgdmE25Ig2KfYsyDaqdmIINiz2KfYptuM2ogg2LPbktiq2r7ZiNqR2Kcg2LPYpyDYqtmI2pEg2qnbkiDYp9izINmF24zauiDYotmE2Ygg2KfZiNixINqG2YbbkiDYqNq+2LEg2YTbjNq6INin2YjYsSDYp9izINqp2r7Zudin2LMg2qnbkiDYs9in2KraviDZvtuM2LQg2qnYsduM2rrblDwvZGl2PmRkAgQPDxYCHwMF0Ag8ZGl2IGNsYXNzPSd1cmR1JyA+PHNwYW4gY2xhc3M9J3JlY2lwZXRpdGxlc21hbGxVcmR1JyBzdHlsZT0nY29sb3I6IzY2QjQ1MDsnPtiq2LHaqduM2Kg6PC9zcGFuPjxicj7ZhduM2K/bkiDZhduM2rog2KrbjNmEINmF2YTYpyDaqdixINm+2KfZhtuMINqp25Ig2LPYp9iq2r4g2LPYrtiqINiz25Ig2q/ZiNmG2K/aviDZhNuM2rrblCDYp9mI2LEg2b7avtixINin2LPaqduMINm+2KrZhNuMINiz25Ig2LHZiNm524wg2KjbjNmEINmE24zautuUINin2LMg2qnZiCDaqdm52LEg2LPbkiDar9mI2YQg2q/ZiNmEINqp2KfZuSDZhNuM2rrblNuU2K7bjNin2YQg2LHbgduSINqp24Eg2KLZviDZudqp2pHbkiDYs9in2KraviDYs9in2KraviDar9uM2YTbkiDZudq+2YbaiNuSINqp2b7akduSINiz25Ig2ojYp9mG2b7YqtuSINis2KfYptuM2rrblNuU25TZvtq+2LEg2KLYptmEINqv2LHZhSDaqdixINqp25Ig2YHYsdin2KbbjCDaqdixINmE24zautuU25TblNin2q/YsSDaqdmI2KbbjCDar9mI2YQg2q/ZvtuBINmG24Eg2b7avtmI2YTbkiDYqtmIINin2LPbkiDZvtin2b7akduMINqp24wg2LfYsditINin2LPYqti52YXYp9mEINqp2LHZhNuM2rrblA08YnI+2KfZhdmE24wg2qnZiCAzLTIg2q/avtmG2bnbkiDaqduSINmE2KbbkiDZvtin2YbbjCDZhduM2rog2Kjavtqv2Ygg2K/bjNq625TblNin2LMg2qnbkiDYqNi52K8g2q/ZiNiv2Kcg2Ybaqdin2YQg2qnYsSDYp9izINmF24zauiDYqNin2YLbjCDahtuM2LLbjNq6INmF2qnYsyDaqdixINmE24zautuU25TblNin2YjYsSDbgdmE2qnYpyDYs9inINis2YjYtCDYr9uSINmE24zautuU2b7avtixINiq2r7ZhtqI2Kcg2qnYsdqp25I1LTQg2q/ZhNin2LMg2b7Yp9mG24wg2ojYp9mEINqp2LEg2qnavtm52KfYsyDYqNmG2Kcg2YTbjNq625QNPGJyPtqv2YjZhCDar9m+25LaqdmIINm+24zYtCDaqdix2YbbkiDYs9uSINm+24HZhNuSINin2LMg2qnZiCDYs9in2KbbjNqIINiz25LYqtq+2YjakdinINiz2Kcg2KrZiNqRINqp25Ig2KfYsyDZhduM2rog2KLZhNmIINin2YjYsSDahtmG25Ig2KjavtixINmE24zauiDYp9mI2LEg2KfYsyDaqdq+2bnYp9izINqp25Ig2LPYp9iq2r4g2b7bjNi0INqp2LHbjNq625Q8L2Rpdj5kZAIFDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWAmYPFQUZcmVjaXBlcy9nb2wtZ2FwcGFfcmlkMzU4Mwlnb2wtZ2FwcGEEMzU4MxlyZWNpcGVzL2dvbC1nYXBwYV9yaWQzNTgzCUdvbCBHYXBwYWQCAQ9kFgJmDxUFI3JlY2lwZXMvZ29sLWdhcHBlLXBhbmktcHVyaV9yaWQ3MDY5E2dvbC1nYXBwZS1wYW5pLXB1cmkENzA2OSNyZWNpcGVzL2dvbC1nYXBwZS1wYW5pLXB1cmlfcmlkNzA2ORVHb2wgR2FwcGUgLyBQYW5pIFB1cmlkAgIPZBYCZg8VBRlyZWNpcGVzL3BhbmktcHVyaV9yaWQ4NjYwCXBhbmktcHVyaQQ4NjYwGXJlY2lwZXMvcGFuaS1wdXJpX3JpZDg2NjAJUGFuaSBQdXJpZAIGDxYCHwQCBRYKZg9kFgJmDxUDkQJUaGlzIEdvbCBHYXBwYXkgaXMgbXkgcHJlZmVycmVkIGRpc2ggd2hpY2ggSSBlYXQgdGhhdCBlbmVyZ2V0aWNhbGx5IGFuZCBudW1lcm91cyBwZW9wbGUgZ3JvdXBzIHRydWx5IHByZWZlciB0byBlYXQgdGhhdCBhZGRpdGlvbmFsbHkgeWV0IHdlIGRvbicndCBoYXZlIHRoZSBmb2dnaWVzdCBpZGVhIGhvdyB0byBtYWtlIGl0LCB0aGF0IGlzIHRoZSByZWFzb24gSSBwZXJ1c2UgdGhpcyBzaXRlIHBhZ2UgdG8gY2hlY2sgdGhlIGdlbnVpbmUgbWV0aG9kIGl0cyBwcmVwYXJhdGlvbi4Oc2h1bWFpbGEgYW1qYWQAZAIBD2QWAmYPFQOZAUdvbCBnYXBwYXkgaXMgbXkgZmF2b3VyaXRlLiBJIHRyaWVkIGl0IG1hbnkgdGltZXMgYnV0IG5ldmVyIGV2ZXIgZ290IGEgZ29vZCByZXN1bHQgYnV0IHRoaXMgcmVjaXBlIGhlbHBlZCBtZS4gdGhleSB0dXJuZWQgb3V0IGdvb2QgYnkgdHJ5aW5nIHRoaXMgcmVjaXBlLgdLYWluYWF0B0thcmFjaGlkAgIPZBYCZg8VA8QBSXQgaXMgYSB2ZXJ5IGVhc3kgc3RlcCBieSBzdGVwIHJlY2lwZSBmb3IgZ29sIGdhcHBheS4gQWxzbyBzaGFyZSBzb21lIG1vcmUgcmVjaXBlcyBvZiBHb2wgZ2FwcGF5IGJlY2F1c2UgdGhlcmUgaXMgYSBodWdlIHZhcmlldHkgb2YgZ29sIGdhcHBhcyBhdmFpbGFibGUgbm93IGF0IGV2ZXJ5IG1hcmtldC4gSSB3YW50IHRvIHRyeSBhdCBob21lLgZHaGF6YWwGTGFob3JlZAIDD2QWAmYPFQPAAUdvbCBHYXBwYXkgaXMgdGhlIGJlc3QgdHJlYXQgZm9yIGV2ZXJ5b25lIGhlcmUgaW4gUGFraXN0YW4uIHdlIGxvdmUgdG8gaGF2ZSBnb2wgZ2FwcGFzIHdoZW5ldmVyIHdlIGdvIG91dCB0b2dldGhlci4gQnV0IEkgbWFkZSBnb2wgZ2FwcGF5IGZvciBldmVyeW9uZSBhdCBob21lIGFuZCB0aGV5IHJlYWxseSB3ZXJlIGFwcHJlY2lhdGVkLgpTaGVociBCYW5vBkxhaG9yZWQCBA9kFgJmDxUDwwFJIHRyaWVkIHRvIG1ha2UgdGhlIGdvbCBnYXBwYXkgYWNjb3JkaW5nIHRvIHlvdXIgaW5zdHJ1Y3Rpb25zIGJ1dCBJIGZvdW5kIHRoYXQgZ29sIGdhcHBheSBhcmUgbm90IGdldHRpbmcgY3Jpc3B5LiBJIGFtIHVzaW5nIGdyb3VuZCBvaWwgdG8gZnJ5IGF0IGxvdyB0ZW1wZXJhdHVyZS4gUGxlYXNlIGd1aWRlIG1lIHRvIGNvcnJlY3QgdGhpcy4FQWJlZXIGTGFob3JlZGSmIBzSSdzBUM5PSZ/AmIxzbQgRu/9UTOmxSM6j09Be3g==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3BE9A783" />
+</div>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK2SPLV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <header class="nav">
+            <div class="nav__holder nav--sticky">
+                <div class="container relative">
+                    <div class="flex-parent">
+                        <button type="button" class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu"> 
+                            <span class="nav-icon-toggle__box">
+                                <span class="nav-icon-toggle__inner"></span> 
+                            </span>
+                        </button>
+                        <a href="/" class="logo lazyload" data-bg="//kfoods.com/images/kf-site-logo.png" title="Kfood"></a>
+                        <nav class="flex-child nav__wrap d-lg-block-menu">
+                            <div class="sidenav__close">
+                                <button type="button" class="sidenav__close-button" id="sidenav__close-button" aria-label="close sidenav">&#x2715</button>
+                            </div>
+                            <ul class="nav__menu">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/recipes/">Recipes</a></li>
+                                <li><a href="/daily-tips/">Daily Tips</a></li>
+                                <li><a href="/recipes/video/">Video Recipes</a></li>
+                                <li><a href="/recipes/urdu/">Urdu Recipes</a></li>
+                                <li><a href="/articles/">Articles</a></li>
+                                <li><a href="/restaurant/">Restaurant</a></li>
+                                <li><a href="/recipes/step-by-step/">Step by Step Recipes</a></li>
+                                <li class="nav__dropdown">
+                                    <a href="#">More</a>
+                                    <button type="button" class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+                                    <ul class="nav__dropdown-menu">
+                                        <li><a href="/chef/">Chef</a></li>
+                                        <li><a href="/parenting/">Parenting</a></li>
+                                        <li><a href="/prayer-times/">Prayer Times</a></li>
+                                        <li><a href="/photos/">Photos</a></li>
+                                        <li><a href="/grocery-Price-list/">Grocery Price</a></li>
+                                        <li><a href="/glossary/">Glossary</a></li>
+                                        <li><a href="/ramadan-calendar-timings/">Ramadan Timings</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="content-overlay"></div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="text-center mb_25 mt_15 ads_height">
+                
+                    <pubguru data-pg-ad="KF_MM_header"></pubguru>
+                
+            </div>
+            
+    <div class="row mb_15">
+        <div class="col-lg-6">
+            <ul class="breadcrumbs mt_15 mb_15" itemscope itemtype="http://schema.org/BreadcrumbList">
+                
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/recipes/urdu/"><span itemprop="name">
+                    Urdu Recipes
+                </span></a>
+                    <meta itemprop="position" content="3" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="/recipes/urdu/iftar-items/"><span itemprop="name">
+                    Iftar Items
+                    Recipes
+                    
+                </span></a>
+                    <meta itemprop="position" content="3" />
+                </li>
+                
+                </li>
+                
+                <li>Gol Gappay Recipe in Urdu</li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            
+ <div class="form_search spacer_25">
+    <select name="ctl00$bCrumbnew$SearchControl1$ddSearchOptions" id="ctl00_bCrumbnew_SearchControl1_ddSearchOptions" class="custom-select form-control">
+	<option value="1">Recipes</option>
+	<option value="7">Article</option>
+	<option value="4">Totkay</option>
+
+</select>
+    <input name="ctl00$bCrumbnew$SearchControl1$txtSearchHeader" type="text" id="ctl00_bCrumbnew_SearchControl1_txtSearchHeader" class="form-control" placeholder="Type to Search in KFoods.com" />
+    <a id="ctl00_bCrumbnew_SearchControl1_LinkButton1" class="btn-search" aria-label="search" href="javascript:__doPostBack(&#39;ctl00$bCrumbnew$SearchControl1$LinkButton1&#39;,&#39;&#39;)"><svg width="18" height="18" class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><g class="search-path" fill="none" stroke="#fff" stroke-width="2"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg> <span class="hidden-xs">Search</span></a>
+</div>
+        </div>
+    </div>
+
+            
+    <div class="">
+    <div class="section_bg mb_15">        
+    <h1>Gol Gappay Recipe in Urdu</h1>
+<p>
+Find delicious Gol Gappay recipes in Urdu with our easy-to-cook recipes crafted with our simple cooking tips with proper step-by-step instructions, required ingredients, and cooking time. Gol Gappay recipe is one of the common and most searched dishes in the Iftar Items recipes category. Enhance your cooking journey and enjoy creating Gol Gappay recipes in Urdu with available user-friendly, procedure instructions in Urdu recipes.
+</p>
+</div>
+
+            
+        <div class="recipe_content">
+            <div class="content_widget mb_15">
+                <div class="row mx_5">
+                    <div class="col-lg-8 col-md-8 px_5">
+                        
+                        <div class="detail_img">
+                            <img onerror="this.style.display = 'none'" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="//kfoods.com/images1/newrecipeicon/gol-gappay_34.jpg" alt="Gol Gappay" width="612" height="345" class="lazyload" />
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-4 px_5">
+                      <table class="table table-bordered list_table">
+                            <tr>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 90.53 122.88"><title>chef</title><path d="M62.2,83.36l.21.18a1.42,1.42,0,0,1,.71,0L76.5,87.35c4.11,1.47,7.62,3.41,10.1,6.14a15.17,15.17,0,0,1,3.92,11v16.86A1.54,1.54,0,0,1,89,122.88H1.53A1.54,1.54,0,0,1,0,121.35V106.43A21.19,21.19,0,0,1,2.94,95.61a19.22,19.22,0,0,1,8.33-7.22l.25-.1,15.75-4.42a1.48,1.48,0,0,1,.69,0l.08,0a13.83,13.83,0,0,0,3.59-3.94,20.82,20.82,0,0,0,1.13-2,37.73,37.73,0,0,1-4.23-5.55l-4.44-7a12.87,12.87,0,0,1-2.52-6.44,4.47,4.47,0,0,1,2-4.06,4.76,4.76,0,0,1,1.08-.55,21.14,21.14,0,0,1,.1-3.49,1.65,1.65,0,0,1-.06-.32l-1.27-11c-8.56-3.35-12.63-9-13.47-14.77a16.72,16.72,0,0,1,.76-7.79A19.19,19.19,0,0,1,33.59,4.52c4-3,8.2-4.72,12.49-4.5,3.79.19,7.56,1.86,11.13,5.43A17.35,17.35,0,0,1,76,7.68a19.23,19.23,0,0,1,5.56,7.44,17.31,17.31,0,0,1,1.24,9.23C81.85,30.56,77.31,36.6,67.5,39.9L66.13,50.69a1.87,1.87,0,0,1-.09.41l.46,3.52h0A3.21,3.21,0,0,1,68.84,57c.36,1.4,0,3.35-1.22,6h0a1,1,0,0,1-.07.15l-5.06,8.31a39.58,39.58,0,0,1-4.7,6.35,20.44,20.44,0,0,0,1,1.86,12.7,12.7,0,0,0,3.38,3.61ZM28.45,52.09l.23,5.15a6.89,6.89,0,0,1-1.45-.05h0c-1.61.06-3,.52-2.94,2.32a9.67,9.67,0,0,0,2,4.74l0,0h0l4.22,6.51a30.76,30.76,0,0,0,5.67,6.6,14.08,14.08,0,0,0,8.95,3.16,14.32,14.32,0,0,0,9.42-3.3,32.46,32.46,0,0,0,5.84-7.09l4.76-7.6c.88-2,1.21-3.27,1-4-.42-1.26-3.42-.65-4.44-.78l1-5.36c-10.57-4.35-22-4.32-34.32-.29Zm34.82-6.4,1-7.26A1.71,1.71,0,0,1,65.43,37c9.07-2.76,13.19-7.9,14-13.13a13.88,13.88,0,0,0-1-7.42,15.74,15.74,0,0,0-4.56-6.12A14.15,14.15,0,0,0,57.73,9a1.71,1.71,0,0,1-2.15-.31c-3.18-3.49-6.44-5.1-9.66-5.26C42.28,3.24,38.58,4.87,35,7.71A1.71,1.71,0,0,1,33.49,8a15.75,15.75,0,0,0-16.27,4.36,15.58,15.58,0,0,0-3.32,5.54,13.28,13.28,0,0,0-.61,6.22C14,29,17.66,33.76,25.53,36.55A1.72,1.72,0,0,1,26.66,38l.92,7.72a71.89,71.89,0,0,1,35.69,0ZM31.55,38.08a1.7,1.7,0,0,1,3.32-.75l.91,2.58a1.71,1.71,0,0,1-3.33.75l-.9-2.58ZM27.48,12.16a1.7,1.7,0,0,1,.95,3.27,12.07,12.07,0,0,0-5.62,3.18,9,9,0,0,0-2.24,5.48,1.71,1.71,0,1,1-3.41-.29,12.33,12.33,0,0,1,3.14-7.49,15.32,15.32,0,0,1,7.18-4.15Zm7.78,68.08c-.26.48-.53,1-.81,1.39a19.19,19.19,0,0,1-3.1,3.76,37,37,0,0,0,14.74,3,30.53,30.53,0,0,0,9-1.41,25.05,25.05,0,0,0,3.76-2A16.64,16.64,0,0,1,56,81.55c-.25-.39-.49-.79-.72-1.22-2.63,2.17-5.85,3.09-10.12,3.09s-7.3-1-9.91-3.18ZM43.58,75a.78.78,0,1,1,0-1.55L47,73.3a.78.78,0,0,1,.8.76.77.77,0,0,1-.75.8L43.58,75Zm-.73-10.14a.94.94,0,0,1,.52-1.8c1.87.55,2,.51,3.58-.07l.16-.05a.93.93,0,1,1,.63,1.75l-.16.06c-2.14.77-2.28.82-4.73.11ZM53.2,54.28a2,2,0,1,1-2,2,2,2,0,0,1,2-2Zm-14.88,0a2,2,0,1,1-2,2,2,2,0,0,1,2-2ZM51.8,71a19.61,19.61,0,0,1-2.19.6h0a9.32,9.32,0,0,1-2.11.36,3.14,3.14,0,0,1-1.83-.45,3.3,3.3,0,0,1-.4-.32,3.43,3.43,0,0,1-.41.32,3.14,3.14,0,0,1-1.83.45,9.32,9.32,0,0,1-2.11-.36h0a19.44,19.44,0,0,1-2.18-.6,20.6,20.6,0,0,1-2.06-.83.57.57,0,0,1-.29-.81.63.63,0,0,1,.47-.33h0l.91-.13h0a9.37,9.37,0,0,0,2.34-.54c.22-.09.45-.19.67-.3,1.3-.6,2.71-1.25,4.12-.13a2.56,2.56,0,0,1,.34.31,3.26,3.26,0,0,1,.33-.31c1.41-1.12,2.83-.47,4.12.13.23.11.45.21.68.3a9.26,9.26,0,0,0,2.34.54h0l.91.13h0a.66.66,0,0,1,.48.33.59.59,0,0,1-.29.81A21.61,21.61,0,0,1,51.8,71ZM45.56,91.47l-1,0a30.48,30.48,0,0,1-13.82-3c-1.09-.44-2.17-.94-3.23-1.48L12.46,91.2a16.27,16.27,0,0,0-6.92,6,18.08,18.08,0,0,0-2.48,9.29v13.32H30.94V109.19a16.74,16.74,0,0,1,1.49-7.82,17.8,17.8,0,0,1,5.09-5.87,1.41,1.41,0,0,1,.31-.21l7.74-3.82Zm-.75,20.24a2.51,2.51,0,1,1-2.51,2.51,2.5,2.5,0,0,1,2.51-2.51Zm0-10.45a2.51,2.51,0,1,1-2.51,2.51,2.51,2.51,0,0,1,2.51-2.51Zm10-11a1.12,1.12,0,0,1-.28.18L39.34,98a14.88,14.88,0,0,0-4.15,4.76A13.8,13.8,0,0,0,34,109.17v10.65H87.47V104.46a12.28,12.28,0,0,0-3.13-8.92,21.41,21.41,0,0,0-8.83-5.29L63,86.69a29.18,29.18,0,0,1-8.13,3.59Z"></path></svg>
+                                    Recommended By Chef
+                                </td>
+                            </tr>
+                        
+                      
+                            <tr>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 122.88 122.88"><title>time-clock</title><path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.23,61.23,0,0,1,61.44,0ZM64.6,55.18a7.05,7.05,0,0,1,2.91,2.74h9.9a2.71,2.71,0,0,1,.34-2.68,2.68,2.68,0,0,1,3.74-.48l5.89,4.55a2.64,2.64,0,0,1,1,2.08h0v.06h0a2.65,2.65,0,0,1-1,2.09l-5.89,4.54A2.66,2.66,0,0,1,77.41,65H67.5a7,7,0,1,1-10-9.35l.08-13.54A2.66,2.66,0,0,1,54.48,38l4.67-5.78a2.67,2.67,0,0,1,2-1h.06a2.65,2.65,0,0,1,2.2,1.08l4.41,6a2.66,2.66,0,0,1-3.13,4.05L64.6,55.18Zm22,43.94a3,3,0,0,1-5.12,3l-2.21-3.82a3,3,0,0,1,5.12-3l2.21,3.83ZM36.27,23.75a3,3,0,0,1,5.12-2.94l2.21,3.82a3,3,0,1,1-5.12,2.94l-2.21-3.82Zm65.8,57.74a3,3,0,1,1-2.94,5.12L95.31,84.4a3,3,0,0,1,2.94-5.12l3.82,2.21ZM20.8,41.39a3,3,0,1,1,3-5.12l3.83,2.21a3,3,0,0,1-3,5.12L20.8,41.39Zm85.86,17.08a3,3,0,0,1,0,5.93h-4.42a3,3,0,0,1,0-5.93ZM16.22,64.41a3,3,0,1,1,0-5.93h4.42a3,3,0,0,1,0,5.93ZM99.13,36.27a3,3,0,0,1,2.94,5.12L98.25,43.6a3,3,0,0,1-2.94-5.12l3.82-2.21ZM23.75,86.61a3,3,0,1,1-2.94-5.12l3.82-2.21a3,3,0,0,1,2.94,5.12l-3.82,2.21Zm57.74-65.8a3,3,0,0,1,5.12,2.94L84.4,27.57a3,3,0,1,1-5.12-2.94l2.21-3.82Zm-40.1,81.27a3,3,0,0,1-5.12-3l2.21-3.83a3,3,0,0,1,5.12,3l-2.21,3.82ZM58.47,16.22a3,3,0,0,1,5.93,0v4.42a3,3,0,0,1-5.93,0V16.22Zm5.93,90.44a3,3,0,1,1-5.93,0v-4.42a3,3,0,0,1,5.93,0v4.42ZM100,22.89a54.51,54.51,0,1,0,16,38.55,54.37,54.37,0,0,0-16-38.55Z"></path></svg>
+                                    0:15
+                                    To Prep
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 122.88 122.88"><title>time-clock</title><path d="M61.44,0A61.46,61.46,0,1,1,18,18,61.23,61.23,0,0,1,61.44,0ZM64.6,55.18a7.05,7.05,0,0,1,2.91,2.74h9.9a2.71,2.71,0,0,1,.34-2.68,2.68,2.68,0,0,1,3.74-.48l5.89,4.55a2.64,2.64,0,0,1,1,2.08h0v.06h0a2.65,2.65,0,0,1-1,2.09l-5.89,4.54A2.66,2.66,0,0,1,77.41,65H67.5a7,7,0,1,1-10-9.35l.08-13.54A2.66,2.66,0,0,1,54.48,38l4.67-5.78a2.67,2.67,0,0,1,2-1h.06a2.65,2.65,0,0,1,2.2,1.08l4.41,6a2.66,2.66,0,0,1-3.13,4.05L64.6,55.18Zm22,43.94a3,3,0,0,1-5.12,3l-2.21-3.82a3,3,0,0,1,5.12-3l2.21,3.83ZM36.27,23.75a3,3,0,0,1,5.12-2.94l2.21,3.82a3,3,0,1,1-5.12,2.94l-2.21-3.82Zm65.8,57.74a3,3,0,1,1-2.94,5.12L95.31,84.4a3,3,0,0,1,2.94-5.12l3.82,2.21ZM20.8,41.39a3,3,0,1,1,3-5.12l3.83,2.21a3,3,0,0,1-3,5.12L20.8,41.39Zm85.86,17.08a3,3,0,0,1,0,5.93h-4.42a3,3,0,0,1,0-5.93ZM16.22,64.41a3,3,0,1,1,0-5.93h4.42a3,3,0,0,1,0,5.93ZM99.13,36.27a3,3,0,0,1,2.94,5.12L98.25,43.6a3,3,0,0,1-2.94-5.12l3.82-2.21ZM23.75,86.61a3,3,0,1,1-2.94-5.12l3.82-2.21a3,3,0,0,1,2.94,5.12l-3.82,2.21Zm57.74-65.8a3,3,0,0,1,5.12,2.94L84.4,27.57a3,3,0,1,1-5.12-2.94l2.21-3.82Zm-40.1,81.27a3,3,0,0,1-5.12-3l2.21-3.83a3,3,0,0,1,5.12,3l-2.21,3.82ZM58.47,16.22a3,3,0,0,1,5.93,0v4.42a3,3,0,0,1-5.93,0V16.22Zm5.93,90.44a3,3,0,1,1-5.93,0v-4.42a3,3,0,0,1,5.93,0v4.42ZM100,22.89a54.51,54.51,0,1,0,16,38.55,54.37,54.37,0,0,0-16-38.55Z"></path></svg>
+                                    0:30
+                                    To Cook
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 122.88 116.65" style="enable-background: new 0 0 122.88 116.65" xml:space="preserve"><style type="text/css">.st0{fill-rule: evenodd;clip-rule: evenodd;}</style><g><path class="st0" d="M31.51,106.42V76.94h13.26c5.62,1.01,11.24,4.06,16.86,7.59h10.3c4.66,0.28,7.1,5,2.57,8.11 c-3.61,2.65-8.37,2.5-13.26,2.06c-3.37-0.17-3.51,4.36,0,4.37c1.22,0.1,2.55-0.19,3.7-0.19c6.09-0.01,11.11-1.17,14.19-5.99 l1.54-3.6l15.32-7.59c7.66-2.52,13.12,5.49,7.46,11.07c-11.1,8.07-22.47,14.71-34.11,20.08c-8.45,5.14-16.91,4.96-25.35,0 L31.51,106.42L31.51,106.42L31.51,106.42z M77.89,0c1.92,0,3.66,0.78,4.92,2.04c1.26,1.26,2.04,3,2.04,4.92 c0,0.81-0.14,1.59-0.4,2.31c-0.15,0.43-0.34,0.83-0.57,1.22c1.63,0.24,3.25,0.59,4.85,1.04c1.9,0.53,3.76,1.2,5.56,2.01l0.03,0.02 c7.01,3.16,13.2,8.43,17.49,15.82c3.84,6.61,6.15,14.91,6.16,24.89c0,0.55-0.22,1.05-0.59,1.42l0,0c-0.34,0.34-0.8,0.56-1.3,0.59 l-0.11,0.01l-76.14,0c-0.56,0-1.06-0.22-1.43-0.59l-0.04-0.04c-0.34-0.36-0.55-0.85-0.55-1.39c0-0.06,0-0.11,0.01-0.19 c0.03-9.92,2.35-18.17,6.18-24.74c4.3-7.38,10.49-12.64,17.49-15.79c1.8-0.81,3.66-1.48,5.56-2.01c1.6-0.45,3.22-0.79,4.85-1.04 c-0.23-0.38-0.42-0.79-0.57-1.22c-0.26-0.73-0.4-1.51-0.4-2.31c0.01-1.92,0.79-3.66,2.04-4.92C74.23,0.78,75.97,0,77.89,0L77.89,0z M32.63,66.48V62.3c0-0.33,0.27-0.6,0.6-0.6h89.06c0.33,0,0.6,0.27,0.6,0.6v4.18c0,0.33-0.27,0.6-0.6,0.6H33.22 C32.89,67.08,32.63,66.81,32.63,66.48L32.63,66.48z M41.86,52.24h72.05c-0.3-8.51-2.44-15.59-5.83-21.24 c-3.85-6.43-9.3-11.03-15.44-13.79l-0.03-0.01c-2.3-1.03-4.7-1.81-7.15-2.33c-2.49-0.53-5.03-0.79-7.58-0.79 c-5.06,0-10.11,1.04-14.76,3.13C56.99,19.96,51.54,24.56,47.69,31C44.31,36.65,42.16,43.74,41.86,52.24L41.86,52.24z M53.19,43.19 c-0.17,0.51-0.53,0.92-0.97,1.15c-0.45,0.24-1,0.31-1.53,0.14c-0.53-0.16-0.95-0.53-1.19-0.98c-0.24-0.45-0.31-1-0.14-1.53 c0.72-2.31,1.65-4.43,2.78-6.35c1.13-1.93,2.46-3.66,3.98-5.21c1.51-1.54,3.21-2.89,5.07-4.07c1.86-1.17,3.89-2.17,6.08-2.99 c0.52-0.2,1.07-0.16,1.54,0.05c0.47,0.21,0.86,0.6,1.06,1.12l0.01,0.04c0.18,0.51,0.15,1.04-0.06,1.5 c-0.21,0.47-0.6,0.86-1.12,1.06l-0.03,0.01c-1.92,0.73-3.69,1.59-5.3,2.6c-1.61,1.01-3.08,2.18-4.38,3.5 c-1.29,1.32-2.42,2.79-3.39,4.44c-0.97,1.65-1.77,3.48-2.4,5.49L53.19,43.19L53.19,43.19z M0,74.11h27.52v35.27H0V74.11L0,74.11z"></path></g></svg>
+                                    10
+                                    Servings
+                                </td>
+                            </tr>
+                          
+                        
+                          <tr>
+                                <td>
+                                
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewbox="0 0 418 512.535"><path fill-rule="nonzero" d="M40.896 237.026c.444-78.78.889-144.007 1.336-222.478.018-5.233 3.732-9.586 8.658-10.603l-.004-.015c53.592-11.186 123.886.624 158.684 46.863C246.233 5.818 313.831-4.137 368.173 3.804c5.425.795 9.33 5.457 9.325 10.785.02 0 .011 205.116.011 223.403 0 6.029-4.887 10.916-10.915 10.916-.871 0-1.718-.105-2.527-.294-20.718-3.267-48.53-1.344-70.273 4.484l-.181 20.595c3.1-.091 6.2-.125 9.3-.106 27.864.177 65.683 4.722 93.256 11.83 0-82.659-.011-151.791-.011-234.435h10.927c6.027 0 10.915 4.887 10.915 10.916v237.8c0 6.028-4.888 10.916-10.915 10.916-1.231 0-2.414-.205-3.519-.58-24.055-6.888-54.318-11.953-80.722-13.867 1.621 2.518 2.854 5.38 3.784 8.476h13.992c.563 0 1.111.065 1.636.189 12.586 2.019 18.453 10.811 21.008 22.01a7.141 7.141 0 011.896-.255h9.848c.564 0 1.113.066 1.64.191 27.033 4.324 26.638 39.142 26.379 61.855-.008.761-.017 1.479-.017 5.486l.565 25.171c.016.263.019.529.007.799-1.209 24.503-12.31 43.636-23.751 63.356l-.969 1.692c-5.047 8.826-10.9 15.567-17.568 20.177-6.788 4.692-14.297 7.104-22.538 7.192l-.652.029h-84.431v-.024c-8.493.169-15.088-3.546-19.937-10.816-3.904-5.848-6.499-14.044-7.898-24.372l-53.319-80.679c-3.149-4.217-7.429-10.777-10.64-18.062-2.409-5.466-4.234-11.397-4.616-17.22-.451-6.887.506-12.435 2.468-16.773 2.438-5.386 6.31-8.898 11-10.805 4.375-1.78 9.317-2.044 14.299-1.054 5.972 1.188 12.128 4.212 17.377 8.551 4.393 3.63 11.565 9.52 18.424 15.127l6.061 4.952.284-53.02c-3.991 1.48-7.983 3.1-11.977 4.864a10.936 10.936 0 01-6.199 1.81 10.933 10.933 0 01-6.196-1.81c-29.266-12.933-58.454-18.06-87.631-17.874-29.92.189-70.303 5.989-100.736 14.704-1.105.375-2.288.58-3.522.58C4.888 310.614 0 305.726 0 299.698v-237.8c0-6.029 4.888-10.916 10.915-10.916h10.916v234.435c27.576-7.108 65.392-11.653 93.256-11.83 25.738-.162 51.474 3.419 77.24 12.158-16.027-12.993-33.898-22.509-52.946-28.723-24.01-7.835-60.141-10.438-86.723-8.156-6.005.492-11.273-3.974-11.765-9.979a10.608 10.608 0 01.003-1.861zm324.052 103.841c.295 7.593-.147 15.445-.548 22.562-.239 4.226-.46 8.143-.46 11.734a7.143 7.143 0 01-14.283 0c0-3.396.248-7.781.515-12.516 1-17.705 2.336-41.379-10.03-43.721h-11.158c.556 8.456.053 17.402-.399 25.417-.239 4.225-.46 8.142-.46 11.732a7.143 7.143 0 01-14.284 0c0-3.395.248-7.78.516-12.515.999-17.704 2.335-41.381-10.032-43.723h-9.369a7.195 7.195 0 01-1.57-.175l-.325 36.85a7.115 7.115 0 01-14.227-.111l.754-85.89-.022-.565c0-12.428-5.069-20.264-11.544-23.538-2.377-1.202-4.931-1.808-7.454-1.812a16.324 16.324 0 00-7.414 1.796c-6.412 3.259-11.413 11.127-11.413 23.849h-.027l-.76 142.342a7.115 7.115 0 01-14.228-.056l.07-13.121a7.122 7.122 0 01-1.193-.773 1777.083 1777.083 0 01-13.81-11.178 5011.309 5011.309 0 01-18.481-15.182c-3.448-2.851-7.351-4.809-11.016-5.539-2.356-.468-4.517-.416-6.209.272-1.379.561-2.556 1.675-3.355 3.442-1.043 2.306-1.532 5.593-1.241 10.022.257 3.927 1.625 8.238 3.444 12.366 2.692 6.107 6.344 11.688 9.038 15.293.159.214.305.434.437.659l54.239 82.073a7.084 7.084 0 011.135 3.097c1.085 8.936 2.982 15.62 5.781 19.813 2.03 3.043 4.659 4.593 7.941 4.509l.167-.002v-.026h84.431l.591.025c5.292-.08 10.128-1.649 14.509-4.679 4.843-3.348 9.266-8.543 13.271-15.547l1.027-1.747c10.541-18.17 20.77-35.804 21.844-56.749l-.543-24.29a7.204 7.204 0 01-.077-1.046l.073-5.697c.203-17.772.514-44.991-14.267-47.651h-9.372l-.212-.004zm-74.486-109.385c20.719-5.113 46.06-7.293 65.22-5.771V24.253c-48.14-4.545-107.824 5.005-135.596 49.25v191.441a343.885 343.885 0 017.347-4.774l.053-9.929h-.028c0-18.89 8.423-31.079 19.224-36.571a30.51 30.51 0 0113.886-3.302 30.82 30.82 0 0113.871 3.319c6.73 3.403 12.554 9.359 16.023 17.795zm57.363 183.293a5.833 5.833 0 0111.665 0v26.677a5.833 5.833 0 01-11.665 0v-26.677zm-34.477-11.786a5.833 5.833 0 0111.665 0v38.461a5.834 5.834 0 01-11.665 0v-38.461zM198.259 262.846V73.178C172.635 28.033 111.358 16.964 63.924 23.74l-1.225 202.662c25.265-.9 60.166 2.315 83.419 9.901 18.519 6.04 36.056 14.847 52.141 26.543z"></path></svg>
+                                        Tips About Recipe
+                                </td>
+                            </tr>
+                        </table>
+                        <span class="cmt_review">
+                            <span  title='4 of 5 star'><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i></span></span>
+                        <p class="text-sm-center">
+                            <span class="view_icon">
+                                228844
+                                Views</span> <span class="review_icon">
+                                    62
+                                    Comments</span>
+                        </p>
+                        
+                        <div class="share_post text-center mb_25">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://kfoods.com/recipes/gol-gappay_urid34" target="_blank" rel="nofollow noopener" style="background-color: rgb(59, 89, 152);">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-facebook-11" class="at-icon at-icon-facebook" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;"><title id="at-svg-facebook-11">Facebook</title><g><path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z" fill-rule="evenodd"></path></g></svg>
+                            </a><a href="whatsapp://send?text=https://kfoods.com/recipes/gol-gappay_urid34" target="_blank" rel="nofollow noopener" style="background-color: rgb(77, 194, 71);">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-whatsapp-10" class="at-icon at-icon-whatsapp" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;"><title id="at-svg-whatsapp-10">WhatsApp</title><g><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path></g></svg>
+                            </a><a href="https://www.pinterest.com/pin/create/button?url=https://kfoods.com/recipes/gol-gappay_urid34&amp;media=&amp;description=" target="_blank" rel="nofollow noopener" style="background-color: rgb(203, 32, 39);">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-pinterest_share-7" class="at-icon at-icon-pinterest_share" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;"><title id="at-svg-pinterest_share-7">Pinterest</title><g><path d="M7 13.252c0 1.81.772 4.45 2.895 5.045.074.014.178.04.252.04.49 0 .772-1.27.772-1.63 0-.428-1.174-1.34-1.174-3.123 0-3.705 3.028-6.33 6.947-6.33 3.37 0 5.863 1.782 5.863 5.058 0 2.446-1.054 7.035-4.468 7.035-1.232 0-2.286-.83-2.286-2.018 0-1.742 1.307-3.43 1.307-5.225 0-1.092-.67-1.977-1.916-1.977-1.692 0-2.732 1.77-2.732 3.165 0 .774.104 1.63.476 2.336-.683 2.736-2.08 6.814-2.08 9.633 0 .87.135 1.728.224 2.6l.134.137.207-.07c2.494-3.178 2.405-3.8 3.533-7.96.61 1.077 2.182 1.658 3.43 1.658 5.254 0 7.614-4.77 7.614-9.067C26 7.987 21.755 5 17.094 5 12.017 5 7 8.15 7 13.252z" fill-rule="evenodd"></path></g></svg>
+                            </a><a href="https://twitter.com/intent/tweet?url=https://kfoods.com/recipes/gol-gappay_urid34&amp;text=&amp;via=" target="_blank" rel="nofollow noopener" style="background-color: rgb(29, 161, 242);">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-twitter-8" class="at-icon at-icon-twitter" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;"><title id="at-svg-twitter-8">Twitter</title><g><path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path></g></svg>
+                            </a><a href="https://www.instagram.com/?url=https://kfoods.com/recipes/gol-gappay_urid34" target="_blank" rel="nofollow noopener" class="instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" class="bi bi-instagram" viewbox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_bg mb_15">
+            <span id="ctl00_ContentPlaceHolder1_llbRomanIng"><h4 class='gray '><a>Gol Gappay vidhi</a></h4><br><span style='font-weight:normal; line-height:20px;' class=''>Maida	1 cup<br /><a target='_blank' class='recipetext' style='text-decoration:underline;' title='تیل Tayl' href='/glossary/oil_gid18'>Oil</a>	1 khanay ka chamch<br /><a target='_blank' class='recipetext' style='text-decoration:underline;' title='تیل Tayl' href='/glossary/oil_gid18'>Oil</a>	frying k liye<br />Fling k liye<br />Aalo	1 cup (b<a target='_blank' class='recipetext' style='text-decoration:underline;' title='تیل Tayl' href='/glossary/oil_gid18'><a target='_blank' class='recipetext' style='text-decoration:underline;' title='تیل Tayl' href='/glossary/oil_gid18'>Oil</a></a>ed)<br /><a target='_blank' class='recipetext' style='text-decoration:underline;' title='کابلی چنا kabuli chana' href='/glossary/kabuli-chana_gid248'>Kabuli chana</a>y	1 cup (b<a target='_blank' class='recipetext' style='text-decoration:underline;' title='تیل Tayl' href='/glossary/oil_gid18'><a target='_blank' class='recipetext' style='text-decoration:underline;' title='تیل Tayl' href='/glossary/oil_gid18'>Oil</a></a>ed safiad walay)<br />Imli	50 gram<br />Cheeni	1 cup<br /><a target='_blank' class='recipetext' style='text-decoration:underline;' title='لیموں Lemo' href='/glossary/lemon_gid630'>Lemon</a>	2 adad<br />Surkh mirch powder<br />Namak	½ chaye ka chamach<br />Podeena paste	2 khanay k chamach<br />Zeera	1 chaye ka chamach	(taway per bhoon lain)</span></span>
+            <span id="ctl00_ContentPlaceHolder1_lblRomanRecipe"><h4 class='gray '><a>Banane ki tarkeeb</a></h4><br/><span class=''>Maiday main tail mila kar paani k sath sakht gondh lain aur phr iski patli c roti bail lain. Isko cutter sy gol gol kaat lain. Khayal rahay k ap tukray sath sath geelay thanday kapray sy dhanptay jaain. Phr oil garm kar k fry kar lain. Agar koi gol gappa na pholay to isy papri ki tarha istemal kar lain.</span></span>
+            <div class="urdu_title">
+                گول گپے</div>
+            <div class="urdu_box mb_25">
+                <span id="ctl00_ContentPlaceHolder1_lblTxt"><div class='urdu' ><span class='recipetitlesmallUrdu' style='color:#66B450;'>اجزاء:</span><br>میدہ۔۔۔۔۔1کپ<br>تیل۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔ 1 کھانے کا چمچ<br>تیل۔۔۔۔۔۔۔۔۔۔۔ فار فرائنگ<br>فلنگ کے لیے<br>آلو۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔ 1کپ ( بوائلڈ)<br>کابلی چنے۔۔۔۔۔۔۔1کپ ( بوائلڈ) ( سفید والے)<br>املی۔۔۔۔۔۔۔۔۔۔ 50 گرام<br>چینی۔۔۔۔۔۔۔۔۔۔ 1کپ<br>لیموں۔۔۔۔۔۔۔۔۔۔۔۔۔ 2 عدد<br>سرخ مرچ پاؤڈر۔۔۔۔۔۔۔۔۔۔۔۔۔آدھا چائے چمچ<br>نمک۔۔۔۔۔۔۔۔۔۔۔۔آدھا چائے چمچ<br>پودینہ پیسٹ۔۔۔۔۔۔۔۔۔۔۔2 کھانے کے چمچ<br>زیرہ۔۔۔۔۔۔۔۔۔۔۔۔۔1 چائے چمچ ( توے پر بھون لیں)</div></span>
+            </div>
+            <div class="urdu_title">
+                ترکیب:</div>
+            <div class="urdu_box mb_25">
+                <span id="ctl00_ContentPlaceHolder1_lblRecipeMethod"><div class='urdu' >میدے میں تیل ملا کر پانی کے ساتھ سخت سے گوندھ لیں۔ اور پھر اسکی پتلی سے روٹی بیل لیں۔ اس کو کٹر سے گول گول کاٹ لیں۔۔خیال رہے کہ آپ ٹکڑے ساتھ ساتھ گیلے ٹھنڈے کپڑے سے ڈانپتے جائیں۔۔۔پھر آئل گرم کر کے فرائی کر لیں۔۔۔اگر کوئی گول گپہ نہ پھولے تو اسے پاپڑی کی طرح استعمال کرلیں۔<br>املی کو 3-2 گھنٹے کے لئے پانی میں بھگو دیں۔۔اس کے بعد گودا نکال کر اس میں باقی چیزیں مکس کر لیں۔۔۔اور ہلکا سا جوش دے لیں۔پھر تھنڈا کرکے5-4 گلاس پانی ڈال کر کھٹاس بنا لیں۔<br>گول گپےکو پیش کرنے سے پہلے اس کو سائیڈ سےتھوڑا سا توڑ کے اس میں آلو اور چنے بھر لیں اور اس کھٹاس کے ساتھ پیش کریں۔</div></span>
+            </div>
+            <div id="Method" class="tab-pane fade" style="display: none;">
+                <div class="urdu" style="display: none;">
+                    <div class="urdu_title">
+                        گول گپے</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="row mb_25">
+            <div class="col-lg-6 col-md-6 mb_15">
+                <div class="posted_user"><svg class="svg-icon" viewBox="0 0 20 20" width="20" height="20"><path d="M12.075,10.812c1.358-0.853,2.242-2.507,2.242-4.037c0-2.181-1.795-4.618-4.198-4.618S5.921,4.594,5.921,6.775c0,1.53,0.884,3.185,2.242,4.037c-3.222,0.865-5.6,3.807-5.6,7.298c0,0.23,0.189,0.42,0.42,0.42h14.273c0.23,0,0.42-0.189,0.42-0.42C17.676,14.619,15.297,11.677,12.075,10.812 M6.761,6.775c0-2.162,1.773-3.778,3.358-3.778s3.359,1.616,3.359,3.778c0,2.162-1.774,3.778-3.359,3.778S6.761,8.937,6.761,6.775 M3.415,17.69c0.218-3.51,3.142-6.297,6.704-6.297c3.562,0,6.486,2.787,6.705,6.297H3.415z"></path></svg> Posted By: ~Sani~, Karachi</div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb_15 text-right text-sm-center">
+                <a href="/addrecipe.aspx" class="add_btn"><svg class="svg-icon" viewBox="0 0 20 20"><path d="M14.613,10c0,0.23-0.188,0.419-0.419,0.419H10.42v3.774c0,0.23-0.189,0.42-0.42,0.42s-0.419-0.189-0.419-0.42v-3.774H5.806c-0.23,0-0.419-0.189-0.419-0.419s0.189-0.419,0.419-0.419h3.775V5.806c0-0.23,0.189-0.419,0.419-0.419s0.42,0.189,0.42,0.419v3.775h3.774C14.425,9.581,14.613,9.77,14.613,10 M17.969,10c0,4.401-3.567,7.969-7.969,7.969c-4.402,0-7.969-3.567-7.969-7.969c0-4.402,3.567-7.969,7.969-7.969C14.401,2.031,17.969,5.598,17.969,10 M17.13,10c0-3.932-3.198-7.13-7.13-7.13S2.87,6.068,2.87,10c0,3.933,3.198,7.13,7.13,7.13S17.13,13.933,17.13,10"></path></svg> Add Your Recipe</a>
+            </div>
+        </div>
+
+        <div class="section_bg mb_15">
+            <p class="mb_0">
+                Find out the <a href="https://kfoods.com/recipes/gol-gappay_urid34">
+                    Gol Gappay
+                    Recipe in Urdu</a> this is the most easy and traditional cooking recipe in all the <a href="/recipes/urdu/iftar-items/">
+                        Iftar Items</a>.
+                Gol Gappay
+                is very famous in desi people. At KFoods you can find
+                Gol Gappay
+                and all the <a href="https://kfoods.com/recipes/urdu/">urdu recipes</a> in a very easiest way.</p>
+        </div>
+        <div class="section_bg mb_25">
+            <div class="section_title">
+                <div class="title">
+                    Gol Gappay</div>
+            </div>
+            <p>
+                Gol gappay recipe is served with its special chutney, boiled chickpeas, boiled potatoes and enjoyed. Access the most desirable recipes online posted on this page. You can prepare Gol Gappayonline along with the required ingredients and method so you can note them and prepare it with ease. Gol gappay is prepared and loved by every individual in Pakistan especially they are very popular among women. They are made with semolina dough and then deep fried until crispy. They are filled with chickpeas and sour water which is the specialty of gol gappay. Some people like it with sweet chutney also.</p>
+            
+        </div>
+    </div>
+    <!--=== Related Recipes ===-->
+    <div class="mb_15">
+        <div class="section_title">
+            <div class="urdu_title">
+                مزید
+                افطاری آئیٹم
+                ریسیپیز</div>
+        </div>
+        <div class="row mx_sm_5">
+            
+                    <div class="col-lg-4 col-md-4 col-sm-6 mb_15 px_sm_5">
+                        <div class="recipe_box">
+                            <div class="image">
+                                <a href="/recipes/gol-gappa_rid3583">
+                                    <img onerror="this.src='/images/error_img.jpg';" class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="//kfoods.com/images1/newrecipeicon/gol-gappa_3583.jpg" alt="Recipe" width="612" height="345" />
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="title en_title">
+                                    <a href="/recipes/gol-gappa_rid3583">
+                                        Gol Gappa</a></div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-4 col-sm-6 mb_15 px_sm_5">
+                        <div class="recipe_box">
+                            <div class="image">
+                                <a href="/recipes/gol-gappe-pani-puri_rid7069">
+                                    <img onerror="this.src='/images/error_img.jpg';" class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="//kfoods.com/images1/newrecipeicon/gol-gappe-pani-puri_7069.jpg" alt="Recipe" width="612" height="345" />
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="title en_title">
+                                    <a href="/recipes/gol-gappe-pani-puri_rid7069">
+                                        Gol Gappe / Pani Puri</a></div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-4 col-sm-6 mb_15 px_sm_5">
+                        <div class="recipe_box">
+                            <div class="image">
+                                <a href="/recipes/pani-puri_rid8660">
+                                    <img onerror="this.src='/images/error_img.jpg';" class="lazyload" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-src="//kfoods.com/images1/newrecipeicon/pani-puri_8660.jpg" alt="Recipe" width="612" height="345" />
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="title en_title">
+                                    <a href="/recipes/pani-puri_rid8660">
+                                        Pani Puri</a></div>
+                            </div>
+                        </div>
+                    </div>
+                
+        </div>
+        <div class="text-center">
+            <a href="/recipes/urdu/iftar-items/" class="view_more_link">View More Recipes</a>
+        </div>
+    </div>
+    <!-- ==== Latest Articles === -->
+    
+    <!-- ==== Tags === -->
+    
+    <div class="mb_25">
+        <div class="section_title">
+            <div class="title">
+                Tags</div>
+        </div>
+        <ul class="tags">
+            <li>goll gapay</li><li> gol gappa</li><li> gol gapa</li>
+        </ul>
+    </div>
+    
+    <!-- === Comments Form === -->
+    <div class="section_title">
+        <div class="title">
+            Reviews & Comments</div>
+    </div>
+    <div class="comment_listing">
+        
+                <div class="single_review">
+                    <p>
+                        This Gol Gappay is my preferred dish which I eat that energetically and numerous people groups truly prefer to eat that additionally yet we don''t have the foggiest idea how to make it, that is the reason I peruse this site page to check the genuine method its preparation.</p>
+                    <ul>
+                        <li>
+                            shumaila amjad,
+                            </li>
+                        <li>
+                            </li>
+                    </ul>
+                </div>
+            
+                <div class="single_review">
+                    <p>
+                        Gol gappay is my favourite. I tried it many times but never ever got a good result but this recipe helped me. they turned out good by trying this recipe.</p>
+                    <ul>
+                        <li>
+                            Kainaat,
+                            Karachi</li>
+                        <li>
+                            </li>
+                    </ul>
+                </div>
+            
+                <div class="single_review">
+                    <p>
+                        It is a very easy step by step recipe for gol gappay. Also share some more recipes of Gol gappay because there is a huge variety of gol gappas available now at every market. I want to try at home.</p>
+                    <ul>
+                        <li>
+                            Ghazal,
+                            Lahore</li>
+                        <li>
+                            </li>
+                    </ul>
+                </div>
+            
+                <div class="single_review">
+                    <p>
+                        Gol Gappay is the best treat for everyone here in Pakistan. we love to have gol gappas whenever we go out together. But I made gol gappay for everyone at home and they really were appreciated.</p>
+                    <ul>
+                        <li>
+                            Shehr Bano,
+                            Lahore</li>
+                        <li>
+                            </li>
+                    </ul>
+                </div>
+            
+                <div class="single_review">
+                    <p>
+                        I tried to make the gol gappay according to your instructions but I found that gol gappay are not getting crispy. I am using ground oil to fry at low temperature. Please guide me to correct this.</p>
+                    <ul>
+                        <li>
+                            Abeer,
+                            Lahore</li>
+                        <li>
+                            </li>
+                    </ul>
+                </div>
+            
+    </div>
+    <div class="comment_form mb_25">
+        
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form_field">
+                    <textarea name="ctl00$ContentPlaceHolder1$txtC" rows="8" cols="8" id="ctl00_ContentPlaceHolder1_txtC" class="mb-10" placeholder="Message" required="">
+</textarea>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form_field">
+                    <input name="ctl00$ContentPlaceHolder1$txtN" type="text" id="ctl00_ContentPlaceHolder1_txtN" placeholder="Name" required="" />
+                    
+                </div>
+                <div class="form_field">
+                    <input name="ctl00$ContentPlaceHolder1$txtE" id="ctl00_ContentPlaceHolder1_txtE" placeholder="Email" required="" type="email" />
+                    
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <a id="ctl00_ContentPlaceHolder1_subBtn" class="btn btn-lg-dark" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$subBtn&#39;,&#39;&#39;)">Submit</a>
+            </div>
+        </div>
+    </div>
+
+            <div class="mb_25">
+            <strong>Top Searches:</strong><br />
+            <a class="Textclass" style="color: #999999" title="KFC Menu" href="https://kfoods.com/restaurant/kfc_res540 ">KFC Menu</a>, <a class="Textclass" style="color: #999999" title="Florida Salad " href="https://kfoods.com/recipes/florida-salad_rid3930 ">Florida Salad</a>,<a class="Textclass" style="color: #999999" title="Bread Cake" href="https://kfoods.com/recipes/bread-cake_rid12354 ">Bread Cake</a>,<a class="Textclass" style="color: #999999" title="Green Pepper Chutney" href="https://kfoods.com/recipes/green-pepper-chutney_rid802">Green Pepper Chutney</a>, <a class="Textclass" style="color: #999999" title="Mcdonald's Menu" href="https://kfoods.com/restaurant/mcdonald-s_res206">Mcdonald's Menu</a>, <a class="Textclass" style="color: #999999" title="Potato Sticks" href="https://kfoods.com/recipes/potato-sticks_rid655">Potato Sticks</a>,<a class="Textclass" style="color: #999999" title="گردے چیک کرنے کا طریقہ" href="https://kfoods.com/articles/gurdon-ke-kharab-hone-ki-nishaniyan_a2923">گردے چیک کرنے کا طریقہ</a>, <a class="Textclass" style="color: #999999" title="Phool Makhana Benefits in Urdu" href="https://kfoods.com/daily-tips/phool-makhana-khane-ke-fayde-in-urdu_tid1759">Phool Makhana Benefits in Urdu</a>, <a class="Textclass" style="color: #999999" title="ہلدی کے نقصانات" href="https://kfoods.com/articles/haldi-ke-nuqsanat_a3864">ہلدی کے نقصانات</a>, <a class="Textclass" style="color: #999999" title="Japani Phal Ke Fayde in Urdu" href="https://kfoods.com/articles/japani-fruit-benefits_a1271">Japani Phal Ke Fayde in Urdu</a>, <a class="Textclass" style="color: #999999" title="Ragi Name in Pakistan" href="https://kfoods.com/what-is-finger-millet-ragi-flour_qid916">Ragi Name in Pakistan</a>,<a class="Textclass" style="color: #999999" title=" Chicken Rate Today Chakwal" href="https://kfoods.com/grocery-Price-list/Poultry-price-list/chicken-rate-chakwal ">Chicken Rate Today Chakwal</a></div>
+        </div>
+
+        <!-- ==== footer ==== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="copyright">&copy;  All Rights Reseverd by <a href="/">Kfoods.com</a></p>
+                    </div>
+                    <div class="col-lg-8 text-lg-right">
+                        <p><a href="https://kfoods.com/">Home</a>&nbsp;|&nbsp; 
+                        <a href="/about">About us</a>&nbsp;|&nbsp; 
+                        <a href="/contactus">Contact Us</a>&nbsp;|&nbsp; 
+                        <a href="/privacy-policy.aspx">Privacy Policy</a>&nbsp;|&nbsp; 
+                        <a href="/advertising">Advertising</a></p>
+                    </div>
+                </div>
+                
+            </div> 
+        </footer>
+        <a href="https://www.whatsapp.com/channel/0029VaDUkg67IUYe1uRKli2G" target="_blank" class="fixed_btn" title="Subscribe to our WhatsApp channel to get Important&nbsp;News&nbsp;Alerts"><svg class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="fill: #fff; width: 26px;"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg><span>Get Alerts</span></a>
+        <div class="footer_spacer"></div>
+
+        
+        <noscript id="deferred-styles">
+            <style>
+                .d_none{display:block}
+                .d_inline_none {display:inline-block}
+            </style>
+        </noscript>
+
+        <script type="uplazyloadscript">var loadDeferredStyles=function(){var a=document.getElementById("deferred-styles"),b=document.createElement("div");b.innerHTML=a.textContent,document.body.appendChild(b),a.parentElement.removeChild(a)},raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;raf?raf(function(){window.setTimeout(loadDeferredStyles,0)}):window.addEventListener("load",loadDeferredStyles);</script>
+
+        <script type="uplazyloadscript">
+            $(document).ready(function(){"use strict";var $window=$(window);$window.on('load',function(){$window.trigger("resize")});$window.scroll(function(){var $stickyNav=$('.nav--sticky');if($(window).scrollTop()>80){$stickyNav.addClass('sticky')}else{$stickyNav.removeClass('sticky')}});var $backToTop=$("#back-to-top");$(window).on('scroll',function(){if($(this).scrollTop()>100){$backToTop.css('bottom','15px')}else{$backToTop.css('bottom','-40px')}});$backToTop.on('click',function(e){$("html, body").animate({scrollTop:0},500)});var $sidenav=$('.nav__wrap'),$mainContainer=$('#main-container'),$navIconToggle=$('.nav-icon-toggle'),$navHolder=$('.nav__holder'),$contentOverlay=$('.content-overlay'),$htmlContainer=$('html'),$sidenavCloseButton=$('#sidenav__close-button');$(".nav-icon-toggle").on('click',function(e){e.stopPropagation();$(this).toggleClass('nav-icon-toggle--is-open');$sidenav.toggleClass('sidenav--is-open');$contentOverlay.toggleClass('content-overlay--is-visible')});function resetNav(){$navIconToggle.removeClass('nav-icon-toggle--is-open');$sidenav.removeClass('sidenav--is-open');$contentOverlay.removeClass('content-overlay--is-visible')} $contentOverlay.on('click',function(){resetNav()});$sidenavCloseButton.on('click',function(){resetNav()});$('.sidenav__menu-toggle').on('click',function(e){e.preventDefault();var $this=$(this);$this.parent().siblings().removeClass('sidenav__menu--is-open');$this.parent().siblings().find('li').removeClass('sidenav__menu--is-open');$this.parent().find('li').removeClass('sidenav__menu--is-open');$this.parent().toggleClass('sidenav__menu--is-open');if($this.next().hasClass('show')){$this.next().removeClass('show').slideUp(350)}else{$this.parent().parent().find('li .sidenav__menu-dropdown').removeClass('show').slideUp(350);$this.next().toggleClass('show').slideToggle(350)}});var navSearchTrigger=$('.nav__search-trigger'),navSearchTriggerIcon=navSearchTrigger.find('i'),navSearchBox=$('.nav__search-box'),navSearchInput=$('.nav__search-input');navSearchTrigger.on('click',function(e){e.preventDefault();navSearchTriggerIcon.toggleClass('ui-close');navSearchBox.slideToggle()})})
+        </script>   
+         
+        
+    
+    <script type="uplazyloadscript">
+        (function($) {
+	        "use strict";
+	        var $tabsNav = $('.tabs-nav'),
+		        $tabsNavLis = $tabsNav.children('li');
+	        $tabsNav.each(function() {
+		        var $this = $(this);
+		        $this.next().children('.tab-content').stop(true, true).hide().last().show();
+		        $this.children('li').last().addClass('active').stop(true, true).show();
+	        });
+	        $tabsNavLis.on('click', function(e) {
+		        var $this = $(this);
+		        $this.siblings().removeClass('active').end().addClass('active');
+		        var idx = $this.parent().children().index($this);
+		        $this.parent().next().children('.tab-content').stop(true, true).hide().eq(idx).fadeIn();
+		        e.preventDefault();
+	        });
+	        $('dl.accordion dt').on("click", function() {
+		        $(this).siblings('dt').removeClass('current');
+		        $(this).addClass('current').next('dd').stop(true, true).slideDown(500).siblings('dd').stop(true, true).slideUp(500);
+	        });
+	        $(window).load(function() {
+		        $('.fade-load-left').queue(function() {
+			        $(this).addClass("fadeInLeft");
+		        });
+		        $('.fade-load-right').queue(function() {
+			        $(this).addClass("fadeInRight");
+		        });
+		        $('.fade-load-up').queue(function() {
+			        $(this).addClass("fadeInUp");
+		        });
+		        $('.fade-load-down').queue(function() {
+			        $(this).addClass("fadeInDown");
+		        });
+	        });
+        })(jQuery);
+
+        $(document).ready(function () {
+            $('.tabs__list li').click(function () {
+                var tab_id = $(this).attr('data-tab');
+                $('.tabs__list li').removeClass('active');
+                $('.tabs__content').removeClass('active');
+
+                $(this).addClass('active');
+                $("#" + tab_id).addClass('active');
+            });
+            
+            $("#short_desc").click(function () {
+                $(".short_description").css("display", "block");
+                $(".long_description").css("display", "none");
+            });
+            $("#full_desc").click(function () {
+                $(".long_description").css("display", "block");
+                $(".short_description").css("display", "none");
+            });
+        });
+    </script>
+
+    </form>
+</body>
+</html>

@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class RutgerBakt(AbstractScraper):
@@ -14,17 +15,25 @@ class RutgerBakt(AbstractScraper):
         return title_raw.replace(" – recept", "").replace(" – Recept", "")
 
     def category(self):
-        category = (
-            self.url.split("rutgerbakt.nl/")[-1]
-            .split("/")[0]
-            .replace("-recepten", "")
-            .replace("-", " ")
-        )
-        return category
+        breadcrumb_container = self.soup.find("div", class_="cd-lay-footer__sub")
+        if breadcrumb_container:
+            links = breadcrumb_container.find_all("a")
+            if len(links) > 1:
+                second_link_text = links[1].get_text(strip=True)
+                return second_link_text
+        return None
 
     def yields(self):
         # The yields are all over the place. There is no way to parse this.
         return None
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".cd-mod-boxed__container > .cd-mod-boxed__item strong",
+            ".cd-mod-boxed__item:not(:has(strong))",
+        )
 
     def instructions(self):
         # Find the "instructions" heading. It is not really clear when that is.

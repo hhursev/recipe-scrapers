@@ -35,6 +35,9 @@
   "cuisine": "American",
   "ratings": 4.99,
   "ratings_count": 744,
+  "equipment": [
+    "Dutch Oven"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "310 kcal",

@@ -1,0 +1,58 @@
+{
+  "author": "Katie Moseman",
+  "canonical_url": "https://recipeforperfection.com/how-to-boil-corn-on-the-cob/",
+  "site_name": "Recipe for Perfection",
+  "host": "recipeforperfection.com",
+  "language": "en-US",
+  "title": "How to Boil Corn on the Cob",
+  "ingredients": [
+    "6 ears Fresh corn",
+    "3 tbsp Butter",
+    "Sea salt or smoked salt"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "6 ears Fresh corn"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "3 tbsp Butter",
+        "Sea salt or smoked salt"
+      ],
+      "purpose": "Optional"
+    }
+  ],
+  "instructions_list": [
+    "Remove the husks and strings of silk from the corn just before cooking. Snap off the stems. If the ears are too large to fit in your pot, break them in half.",
+    "Fill a large pot, such as a Dutch oven, half full with water. Put the corn in the water. Cover the pot with a lid and bring the water to a boil over high heat.",
+    "Once the water is boiling, remove the lid and boil for 2 minutes.",
+    "Remove the pot from the heat, and let it stand uncovered for 10 minutes. Drain the water and serve the corn immediately.",
+    "Optional",
+    "Rub the cooked corn with butter, then sprinkle with sea salt or smoked salt (smoked salt gives the corn a delightful flavor)."
+  ],
+  "category": "Side Dish",
+  "yields": "6 servings",
+  "description": "Get the exact cooking time for boiled corn on the cob. It's foolproof and easy once you learn how to boil corn on the cob!",
+  "total_time": 20,
+  "cook_time": 17,
+  "prep_time": 3,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "128 kcal",
+    "fatContent": "6 g",
+    "saturatedFatContent": "3 g",
+    "carbohydrateContent": "16 g",
+    "sugarContent": "5 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "64 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "15 mg"
+  },
+  "image": "https://recipeforperfection.com/wp-content/uploads/2016/06/Boiled-corn-on-the-cob.jpg"
+}

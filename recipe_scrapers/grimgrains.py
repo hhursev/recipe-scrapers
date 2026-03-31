@@ -3,6 +3,7 @@ from urllib.parse import urljoin
 
 from ._abstract import AbstractScraper
 from ._utils import get_minutes, get_yields
+from ._grouping_utils import group_ingredients, IngredientGroup
 
 
 class GrimGrains(AbstractScraper):
@@ -31,6 +32,17 @@ class GrimGrains(AbstractScraper):
             for i in chain.from_iterable(self.soup.main("dl", "ingredients"))
             if i.b
         ]
+
+    def ingredient_groups(self):
+        headings = self.soup.select("dl.ingredients h3")
+        if len(headings) <= 1:
+            return [IngredientGroup(ingredients=self.ingredients())]
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "dl.ingredients h3",
+            "dl.ingredients dt",
+        )
 
     def instructions(self):
         instructions = [i("li") for i in self.soup.main("ul", "instructions")]

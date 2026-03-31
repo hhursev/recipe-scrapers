@@ -57,6 +57,11 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 13,
+  "equipment": [
+    "1 9×13 Baking Dish",
+    "1 Mixing Bowls",
+    "1 Hand Mixer"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "951 kcal",

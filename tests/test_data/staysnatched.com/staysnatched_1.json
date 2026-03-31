@@ -36,6 +36,11 @@
   "cook_time": 25,
   "prep_time": 10,
   "cuisine": "American",
+  "equipment": [
+    "12 inch Cast Iron Skillet",
+    "Cast Iron Skillet",
+    "Cast Iron Dutch Oven"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "545 kcal",

@@ -18,16 +18,13 @@ class IrishCentral(AbstractScraper):
         description = self.soup.find("meta", {"property": "og:description"})["content"]
         return description
 
-    def image(self):
-        return self.schema.image()
-
     def ingredients(self):
         # Check if the ingredients are in a <p> structure (https://www.irishcentral.com/culture/food-drink/apple-jameson-tart-recipe)
         ingredients_label = self.soup.find("p", string=re.compile(r"Ingredients:"))
 
         if ingredients_label:
             ingredients_list = []
-            ingredients_paragraphs = ingredients_label.find_next_siblings("p")
+            ingredients_paragraphs = ingredients_label.find_next_siblings(name="p")
 
             for paragraph in ingredients_paragraphs:
                 text = normalize_string(paragraph.get_text())
@@ -46,7 +43,7 @@ class IrishCentral(AbstractScraper):
                 return ingredients_list
 
             # Check if the ingredients are in a <ul> structure (https://www.irishcentral.com/culture/food-drink/shepherds-pie-recipe)
-            ingredients_list = ingredients_label.find_next("ul")
+            ingredients_list = ingredients_label.find_next(name="ul")
             if ingredients_list:
                 ingredients_list = [
                     normalize_string(li.get_text())
@@ -63,7 +60,7 @@ class IrishCentral(AbstractScraper):
 
         if instructions_label:
             instructions_list = []
-            instructions_steps = instructions_label.find_next_siblings("p")
+            instructions_steps = instructions_label.find_next_siblings(name="p")
 
             for step in instructions_steps:
                 instruction_text = normalize_string(step.get_text())
@@ -82,7 +79,7 @@ class IrishCentral(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
-        serves_label = self.soup.find("strong", text=lambda t: t and "Serves:" in t)
+        serves_label = self.soup.find("strong", string=lambda t: t and "Serves:" in t)
 
         # serves_label = self.soup.find("p", string=re.compile(r"Serves\s+\d+"))
 

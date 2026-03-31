@@ -1,0 +1,56 @@
+{
+  "author": "YAMASA",
+  "canonical_url": "recipe.yamasa.com",
+  "host": "recipe.yamasa.com",
+  "language": "en",
+  "title": "Lean Tuna Sesame Steak",
+  "ingredients": [
+    "250g Lean tuna",
+    "2 tablespoons White sesame seeds",
+    "1 teaspoon Black sesame seeds",
+    "2 cloves Garlic",
+    "2 or more tablespoons KOMBU TSUYU",
+    "3 teaspoons Vegetable oil",
+    "30g Watercress",
+    "1/4 pcs Onion"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "250g Lean tuna",
+        "2 tablespoons White sesame seeds",
+        "1 teaspoon Black sesame seeds",
+        "2 cloves Garlic",
+        "2 or more tablespoons KOMBU TSUYU",
+        "3 teaspoons Vegetable oil"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "30g Watercress",
+        "1/4 pcs Onion"
+      ],
+      "purpose": "Side"
+    }
+  ],
+  "instructions_list": [
+    "Tear watercress into pieces using hands. Slice onion thin. Refresh both watercress and onion in cold water and drain. Slice garlic.",
+    "Coat tuna with \"KOMBU TSUYU\" (2 tablespoons) and vegetable oil (2 teaspoons), and refrigerate for 10 minutes.",
+    "Mix white and black sesame seeds on a tray and spread them out. Cover the tuna refrigerated in STEP2 with the sesame seeds in a tray.",
+    "Put the sliced garlic from STEP1 and vegetable oil (1 teaspoon) to a frying pan over medium heat. When you smell the garlic cooking, add STEP3 and sauté. Cook for 1 minute on each side. Place the tuna on a cutting board. Wait for 1-2 minutes, and cut into proper size. Dish up with garlic and vegetables as a side, and dress with \"KOMBU TSUYU\"."
+  ],
+  "category": "和風",
+  "yields": "4 servings",
+  "description": "The aroma of sesame seeds and garlic matches well with \"KOMBU TSUYU\". Enjoy the dish either warm or cold.",
+  "total_time": 15,
+  "cook_time": 15,
+  "nutrients": {
+    "calories": "169 Calories",
+    "sodiumContent": "0.9 g"
+  },
+  "image": "https://recipe.yamasa.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVZ2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--39d845c730fd79697eea15e0f50d3b95c90bcde6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMZ0FXa0NhQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--6feffee7c65eecfcf3c859a4c2158773ad0e829f/619.jpg?locale=en",
+  "keywords": [
+    "Lean Tuna Sesam Steak The aroma sesam seed garlic match KOMBU TSUYU Enjoi dish warm cold マグロ（赤身） 白ごま 黒ごま にんにく ヤマサ昆布つゆ サラダ油 クレソン 玉ねぎ tuna White Black Garlic Veget oil Watercress Onion"
+  ]
+}

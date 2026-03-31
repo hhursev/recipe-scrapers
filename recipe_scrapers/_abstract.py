@@ -1,5 +1,6 @@
 import inspect
 from collections import OrderedDict
+from typing import Optional
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -8,7 +9,7 @@ from recipe_scrapers.__version__ import __version__
 from recipe_scrapers.settings import settings
 
 from ._exceptions import ElementNotFoundInHtml
-from ._grouping_utils import IngredientGroup
+from ._grouping_utils import group_ingredients, IngredientGroup
 from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
@@ -24,12 +25,15 @@ class AbstractScraper:
     _opengraph_cls = OpenGraph
     _schema_cls = SchemaOrg
 
-    def __init__(self, html: str, url: str):
+    def __init__(self, html: str, url: str, best_image: Optional[bool] = None):
         self.page_data = html
         self.url = url
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.opengraph = self._opengraph_cls(self.soup)
         self.schema = self._schema_cls(self.page_data)
+        self.best_image_selection = (
+            settings.BEST_IMAGE_SELECTION if best_image is None else bool(best_image)
+        )
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):
@@ -101,8 +105,8 @@ class AbstractScraper:
         raise NotImplementedError("This should be implemented.")
 
     def ingredient_groups(self) -> list[IngredientGroup]:
-        """List of ingredient groups."""
-        return [IngredientGroup(purpose=None, ingredients=self.ingredients())]
+        """List of ingredient groups with purpose and ingredients."""
+        return group_ingredients(self.ingredients(), self.soup)
 
     def instructions(self) -> str:
         """Instructions to prepare the recipe."""
@@ -160,10 +164,6 @@ class AbstractScraper:
         """Equipment needed for the recipe."""
         raise NotImplementedError("This should be implemented.")
 
-    def reviews(self):
-        """Reviews of the recipe."""
-        raise NotImplementedError("This should be implemented.")
-
     def nutrients(self):
         """Nutrients of the recipe."""
         raise NotImplementedError("This should be implemented.")
@@ -183,7 +183,7 @@ class AbstractScraper:
     def links(self):
         """Links found in the recipe."""
         invalid_href = {"#", ""}
-        links_html = self.soup.findAll("a", href=True)
+        links_html = self.soup.find_all("a", href=True)
 
         return [link.attrs for link in links_html if link["href"] not in invalid_href]
 

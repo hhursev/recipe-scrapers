@@ -26,22 +26,23 @@ def levenshtein_distance(s1, s2):
 
 
 def find_json(blocks):
+    res = []
     for block in blocks:
         if not block.string or "self.__next_f.push" not in block.string:
             continue
-        start_idx = block.string.find('"f:')
+        start_idx = block.string.find(":[")
         end_idx = block.string.rfind('"')
         if start_idx == -1 or end_idx == -1 or start_idx >= end_idx:
             continue
-        json_content = block.string[start_idx + 3 : end_idx]
+        json_content = block.string[start_idx + 1 : end_idx]
         try:
             unescaped_content = json_content.encode(
                 "latin-1", "backslashreplace"
             ).decode("unicode-escape")
-            return json.loads(unescaped_content)
+            res.extend(json.loads(unescaped_content))
         except json.JSONDecodeError:
             continue
-    return None
+    return res
 
 
 def find_instructions(data):

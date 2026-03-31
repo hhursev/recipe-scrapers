@@ -1,0 +1,90 @@
+{
+  "author": "Megan Miller",
+  "canonical_url": "https://www.howtocook.recipes/classic-chocolate-cake-recipe/",
+  "site_name": "How To Cook.Recipes",
+  "host": "howtocook.recipes",
+  "language": "en-US",
+  "title": "Classic Chocolate Cake Recipe",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "2 1/4 cups sugar",
+    "2 tsp baking powder",
+    "1 tsp salt",
+    "1 1/2 tsp baking soda",
+    "3/4 cocoa powder (unsweetened)",
+    "1/2 cup vegetable oil",
+    "1 1/8 cup buttermilk",
+    "2 eggs",
+    "3 tsp vanilla extract",
+    "1 cup hot water",
+    "1 cup cocoa powder (unsweetened)",
+    "2 cups butter (softened)",
+    "5 cups confectioners sugar",
+    "1/2 cup heavy cream",
+    "2 1/2 tsp vanilla extract"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 1/4 cups sugar",
+        "2 tsp baking powder",
+        "1 tsp salt",
+        "1 1/2 tsp baking soda",
+        "3/4 cocoa powder (unsweetened)",
+        "1/2 cup vegetable oil",
+        "1 1/8 cup buttermilk",
+        "2 eggs",
+        "3 tsp vanilla extract",
+        "1 cup hot water"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1 cup cocoa powder (unsweetened)",
+        "2 cups butter (softened)",
+        "5 cups confectioners sugar",
+        "1/2 cup heavy cream",
+        "2 1/2 tsp vanilla extract"
+      ],
+      "purpose": "Chocolate Buttercream Frosting"
+    }
+  ],
+  "instructions_list": [
+    "Grease two 9-inch cake pans and preheat oven to 350F.",
+    "Then, add the flour, sugar, cocoa powder, baking powder, baking soda and teaspoon of salt to a large bowl and stir thoroughly. Next, add the milk, vegetable oil, eggs, and vanilla to your dry ingredient mixture. Combine together with a whisk or hand mixer on medium speed until thoroughly mixed. Once the mixture is thoroughly combined, slowly pour in your hot water until the batter is combined.",
+    "Pour even amounts of cake batter into the two prepared cake pans and bake for 30 to 35 minutes. Allow to cool thoroughly before frosting.",
+    "Chocolate Buttercream Frosting",
+    "In a large bowl, cream together the cocoa powder and butter until thoroughly combined.",
+    "Then, in small batches of 1 cup, add in the confectioner’s sugar with about 1-2 tablespoons of cream and mix on high speed with a hand mixer. Repeat this until you have added all of your cream and confectioner’s sugar, then add the vanilla extract and combined thoroughly."
+  ],
+  "category": "Dessert",
+  "yields": "14 servings",
+  "description": "This family favorite chocolate cake recipe makes the best chocolate cake I've EVER had! It has a silky soft textured chocolate frosting with super moist light cake that comes out perfect every time! The chocolate combination is incredible and always has people asking me for the recipe. Here you go!",
+  "total_time": 50,
+  "cook_time": 30,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "equipment": [
+    "Large mixing bowl",
+    "Electric hand mixer",
+    "Rubber spatula",
+    "Cake pan"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "541 kcal",
+    "fatContent": "31 g",
+    "saturatedFatContent": "11 g",
+    "carbohydrateContent": "106 g",
+    "sugarContent": "33 g",
+    "proteinContent": "12 g",
+    "sodiumContent": "407 mg",
+    "fiberContent": "3 g",
+    "cholesterolContent": "37 mg"
+  },
+  "image": "https://www.howtocook.recipes/wp-content/uploads/2020/12/Chocolate-cake-recipe.jpg"
+}

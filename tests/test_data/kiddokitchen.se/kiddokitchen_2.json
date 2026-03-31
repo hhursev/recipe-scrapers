@@ -1,0 +1,68 @@
+{
+  "author": "KiddoKitchen",
+  "canonical_url": "https://kiddokitchen.se/recept/flygande-jacob-i-stekpanna",
+  "site_name": "KiddoKitchen",
+  "host": "kiddokitchen.se",
+  "language": "sv",
+  "title": "Flygande Jacob i stekpanna",
+  "ingredients": [
+    "700 g Kycklinglår",
+    "2 dl Chilisås",
+    "3 dl Grädde",
+    "1 paket Bacon",
+    "1 st Vitlöksklyfta",
+    "0,5 tsk Cayennepeppar",
+    "Salt",
+    "Svartpeppar",
+    "2,5 dl Ris",
+    "Jordnötter",
+    "Banan"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "700 g Kycklinglår",
+        "2 dl Chilisås",
+        "3 dl Grädde",
+        "1 paket Bacon",
+        "1 st Vitlöksklyfta",
+        "0,5 tsk Cayennepeppar",
+        "Salt",
+        "Svartpeppar"
+      ],
+      "purpose": "Sås/kyckling"
+    },
+    {
+      "ingredients": [
+        "2,5 dl Ris",
+        "Jordnötter",
+        "Banan"
+      ],
+      "purpose": "Ris och toppings"
+    }
+  ],
+  "instructions_list": [
+    "Koka riset enligt anvisningen på paketet.",
+    "Klipp eller skiva kycklingen in mindre bitar/strimlor.",
+    "Stek kycklingen i smör eller olja ett par minuter.",
+    "Hacka eller klipp ner baconet samt pressa ner vitlöken. Krydda med cayennepeppar (valfritt och efter smak). Fräs runt en stund.",
+    "Slå på chilisåsen (vill ni ha lite mildare så börja med lite mindre chilisås) och låt puttra någon minut.",
+    "Häll på grädden och låt koka upp, sänk sedan värmen och låt puttra ett par minuter.",
+    "Smaka av med mer chilisås/grädde beroende på hur starkt ni vill ha det samt med salt/peppar.",
+    "Servera med ris och toppa med jordnötter och banan."
+  ],
+  "category": "Lunch & Middag",
+  "yields": "4 servings",
+  "description": "Familjefavorit i stekpanna istället för ugn. Enklare med smaksättning och även för att kunna ta ut portion till de allra minsta innan sista kryddning.Tänk på att anpassa bitarna på kycklingen, baconet, bananen och jordnötterna efter ditt barns mognadsgrad. Tips är att mortla jordnötterna. Exempel på bitstorlekar för banan och kyckling hittar du bland våra bitguider.",
+  "ratings": 3.0,
+  "ratings_count": 1,
+  "image": "https://api.kiddokitchen.se/v2/image/uploads/cm96wvumt182b0yqpei9w21r4.png?quality=30&width=1000&height=1000&fit=cover",
+  "keywords": [
+    "Lunch & Middag",
+    "För hela familjen",
+    "Kyckling",
+    "Äggfritt",
+    "Glutenfritt",
+    "Mejeriprodukter"
+  ]
+}

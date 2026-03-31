@@ -16,7 +16,7 @@ class FitMenCook(AbstractScraper):
 
     def yields(self):
         yields = None
-        for h4 in self.soup.findAll("h4"):
+        for h4 in self.soup.find_all("h4"):
             raw_yield = h4.text
             for word in raw_yield.split():
                 if word.isdigit():
@@ -27,7 +27,7 @@ class FitMenCook(AbstractScraper):
 
     def ingredients(self):
         ingredients_parent = self.soup.find("div", {"class": "fmc_ingredients"})
-        ingredients = ingredients_parent.findAll("li")
+        ingredients = ingredients_parent.find_all("li")
         return [
             normalize_string(ingredient.get_text())
             for ingredient in ingredients

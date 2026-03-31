@@ -19,7 +19,7 @@ class WDR(AbstractScraper):
 
         # find <li> siblings until the next <h2> tag:
         ingredients = []
-        for sibling in header.find_next_siblings():
+        for sibling in header.find_next_siblings(name=True):
             if sibling.name == "h2":
                 break
             items = sibling.find_all("li")
@@ -28,7 +28,7 @@ class WDR(AbstractScraper):
         return ingredients
 
     def image(self):
-        return f'https://{self.host()}{self.soup.find("picture").find_next("source")["srcset"]}'
+        return f'https://{self.host()}{self.soup.find("picture").find_next(name="source")["srcset"]}'
 
     def instructions(self) -> str:
         header = self.soup.find("h2", string="Zubereitung")
@@ -36,9 +36,12 @@ class WDR(AbstractScraper):
         return "\n".join(
             [
                 normalize_string(li.get_text())
-                for li in header.findNextSibling().find_all("li")
+                for li in header.find_next_sibling(name=True).find_all("li")
             ]
-            + [normalize_string(p.get_text()) for p in header.find_next_siblings("p")]
+            + [
+                normalize_string(p.get_text())
+                for p in header.find_next_siblings(name="p")
+            ]
         )
 
     def description(self):

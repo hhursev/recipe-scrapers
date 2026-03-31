@@ -32,7 +32,6 @@ class ExceptionHandlingPlugin(PluginInterface):
         "ingredients",
         "instructions",
         "ratings",
-        "reviews",
         "links",
         "language",
         "nutrients",

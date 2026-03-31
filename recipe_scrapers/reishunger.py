@@ -19,8 +19,8 @@ class Reishunger(AbstractScraper):
         in_equipment = False
 
         # Skip past the "portions" (Portionnen in German) heading
-        portions = heading.find_next_sibling("div")
-        container = portions.find_next_sibling("div")
+        portions = heading.find_next_sibling(name="div")
+        container = portions.find_next_sibling(name="div")
 
         # Iterate through the ingredient list
         for element in container.find_all("div"):
@@ -52,10 +52,10 @@ class Reishunger(AbstractScraper):
         chose_method = False
         results = []
 
-        container = heading.find_next_sibling("div")
+        container = heading.find_next_sibling(name="div")
 
         # Iterate through the instruction list
-        for step in container.find("div").find_next_siblings("div"):
+        for step in container.find("div").find_next_siblings(name="div"):
 
             # Sometimes recipes provide multiple rice prep options; choose the first so
             # that we produce a complete recipe.

@@ -31,6 +31,9 @@
   "cuisine": "American,Mexican",
   "ratings": 4.95,
   "ratings_count": 57,
+  "equipment": [
+    "Gallon sized Ziploc bag"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "49 kcal",

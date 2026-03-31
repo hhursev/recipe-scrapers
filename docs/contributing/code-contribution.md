@@ -38,9 +38,9 @@ by taking a look at existing scrapers in the `recipe_scrapers/` directory.
 !!! tip "Generator Tool"
     If you're adding a new site scraper, you can use our generator command to create a template:
 
-    ```sh
+```sh
     python generate.py <ClassName> <URL>
-    ```
+```
 
     Where:
 

@@ -11,18 +11,20 @@ class OkokoRecepten(AbstractScraper):
         instructions = []
 
         voorbereiden_section = self.soup.find(
-            "h2", string=lambda text: "Voorbereiden" in text
+            "h2", string=lambda text: "Voorbereiden" in text if text else False
         )
         if voorbereiden_section:
-            for sibling in voorbereiden_section.find_next_siblings():
+            for sibling in voorbereiden_section.find_next_siblings(name=True):
                 if sibling.name == "h2":
                     break
                 if sibling.name == "p":
                     instructions.append(sibling.get_text(strip=True))
 
-        bereiden_section = self.soup.find("h2", string=lambda text: "Bereiden" in text)
+        bereiden_section = self.soup.find(
+            "h2", string=lambda text: "Bereiden" in text if text else False
+        )
         if bereiden_section:
-            for sibling in bereiden_section.find_next_siblings():
+            for sibling in bereiden_section.find_next_siblings(name=True):
                 if sibling.name == "h2":
                     break
                 if sibling.name == "p":
@@ -33,14 +35,14 @@ class OkokoRecepten(AbstractScraper):
     def ingredient_groups(self):
         ingredient_groups = []
         ingredients_section = self.soup.find(
-            "h2", string=lambda text: "Ingrediënten" in text
+            "h2", string=lambda text: "Ingrediënten" in text if text else False
         )
         if not ingredients_section:
             return None
 
         current_group = {"purpose": None, "ingredients": []}
 
-        for sibling in ingredients_section.find_next_siblings():
+        for sibling in ingredients_section.find_next_siblings(name=True):
             if sibling.name == "h2":
                 break
             if sibling.name == "ul":

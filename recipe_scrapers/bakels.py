@@ -68,7 +68,7 @@ class Bakels(AbstractScraper):
         if not category_h4:
             return None
 
-        category_p = category_h4.find_next_sibling("p")
+        category_p = category_h4.find_next_sibling(name="p")
         if not category_p:
             return None
 

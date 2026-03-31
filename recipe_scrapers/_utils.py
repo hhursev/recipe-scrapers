@@ -32,48 +32,64 @@ TIME_REGEX = re.compile(
     r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+)?\D*)")
+SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
 
 SERVE_REGEX_ITEMS = re.compile(
-    r"\bsandwiches\b |\btacquitos\b | \bmakes\b | \bcups\b | \bappetizer\b | \bporzioni\b | \bcookies\b | \b(large |small )?buns\b",
+    r"\bmakes\b |\bporzioni\b",
     flags=re.I | re.X,
 )
 
 SERVE_REGEX_TO = re.compile(r"\d+(\s+to\s+|-)\d+", flags=re.I | re.X)
 
 RECIPE_YIELD_TYPES = (
-    ("dozen", "dozen"),
-    ("batch", "batches"),
-    ("cake", "cakes"),
-    ("sandwich", "sandwiches"),
-    ("bun", "buns"),
-    ("cookie", "cookies"),
-    ("muffin", "muffins"),
-    ("cupcake", "cupcakes"),
-    ("loaf", "loaves"),
-    ("pie", "pies"),
-    ("cup", "cups"),
-    ("pint", "pints"),
-    ("gallon", "gallons"),
-    ("ounce", "ounces"),
-    ("pound", "pounds"),
-    ("gram", "grams"),
-    ("liter", "liters"),
-    ("piece", "pieces"),
-    ("layer", "layers"),
-    ("scoop", "scoops"),
+    ("appetizer", "appetizers"),
     ("bar", "bars"),
-    ("patty", "patties"),
+    ("batch", "batches"),
+    ("bowl", "bowls"),
+    ("bun", "buns"),
+    ("cake", "cakes"),
+    ("cookie", "cookies"),
+    ("cup", "cups"),
+    ("cupcake", "cupcakes"),
+    ("dozen", "dozen"),
+    ("gallon", "gallons"),
+    ("gram", "grams"),
     ("hamburger bun", "hamburger buns"),
-    ("pancake", "pancakes"),
     ("item", "items"),
+    ("layer", "layers"),
+    ("liter", "liters"),
+    ("loaf", "loaves"),
+    ("muffin", "muffins"),
+    ("ounce", "ounces"),
+    ("pancake", "pancakes"),
+    ("patty", "patties"),
+    ("piece", "pieces"),
+    ("pie", "pies"),
+    ("pint", "pints"),
+    ("pound", "pounds"),
+    ("sandwich", "sandwiches"),
+    ("scone", "scones"),
+    ("scoop", "scoops"),
+    ("slice", "slices"),
+    ("taquito", "tacquitos"),
     # ... add more types as needed, in (singular, plural) format ...
 )
+
+# Pre-compile regex patterns for yield type matching with word boundaries
+_YIELD_TYPE_PATTERNS = [
+    (
+        re.compile(rf"\b{re.escape(singular)}\b", re.IGNORECASE),
+        re.compile(rf"\b{re.escape(plural)}\b", re.IGNORECASE),
+        singular,
+        plural,
+    )
+    for singular, plural in RECIPE_YIELD_TYPES
+]
 
 
 def format_diet_name(diet_input):
     replacements = {
-        # https://schema.org/RestrictedDiet
+        # schema.org/RestrictedDiet
         "DiabeticDiet": "Diabetic Diet",
         "GlutenFreeDiet": "Gluten Free Diet",
         "HalalDiet": "Halal Diet",
@@ -86,8 +102,12 @@ def format_diet_name(diet_input):
         "VeganDiet": "Vegan Diet",
         "VegetarianDiet": "Vegetarian Diet",
     }
-    if "https://schema.org/" in diet_input:
-        diet_input = diet_input.replace("https://schema.org/", "")
+    if "schema.org/" in diet_input:
+        diet_input = diet_input.split("schema.org/")[-1]
+
+    # Exclude results that are just "schema.org/"
+    if diet_input.strip() == "":
+        return None
 
     for key, value in replacements.items():
         if key in diet_input:
@@ -178,7 +198,8 @@ def get_minutes(element):
 
     total_minutes = minutes + (hours * 60) + (days * 24 * 60) + (seconds / 60)
     # Rounding to the nearest whole number, considering seconds
-    return round(total_minutes)
+    rounded_minutes = round(total_minutes)
+    return None if rounded_minutes == 0 else rounded_minutes
 
 
 def get_yields(element):
@@ -190,72 +211,113 @@ def get_yields(element):
     such as "4 dozen cookies", returning "4 dozen" instead of "4 servings". Additionally
     accommodates yields specified in batches (e.g., "2 batches of brownies"), returning the yield as stated.
     :param element: Should be BeautifulSoup.TAG, in some cases not feasible and will then be text.
-    :return: The number of servings or items.
+                     Can also be a list, in which case it will prefer the element containing a unit.
     :return: The number of servings, items, dozen, batches, etc...
     """
+
+    def format_count_label(count, singular, plural):
+        formatted = (
+            f"{count:.0f}"
+            if isinstance(count, float) and count.is_integer()
+            else str(count)
+        )
+        return f"{formatted} {singular if count == 1 else plural}"
+
     if element is None:
         raise ElementNotFoundInHtml(element)
+
+    if isinstance(element, list):
+        best_element = element[0]
+        for item in element:
+            item_str = str(item).lower()
+            for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS:
+                if singular_pattern.search(item_str) or plural_pattern.search(item_str):
+                    best_element = item
+                    break
+            else:
+                continue
+            break
+        element = best_element
+
     if isinstance(element, str):
         serve_text = element
-    else:
+    elif isinstance(element, (int, float)):
+        serve_text = str(element)
+    elif hasattr(element, "get_text"):
         serve_text = element.get_text()
+    else:
+        serve_text = str(element)
     if not serve_text:
         raise ValueError("Cannot extract yield information from empty string")
 
     if SERVE_REGEX_TO.search(serve_text):
         serve_text = serve_text.split(SERVE_REGEX_TO.split(serve_text, 2)[1], 2)[1]
 
-    matched = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or 0
-    serve_text_lower = serve_text.lower()
+    matched_raw = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or "0"
+    try:
+        matched = float(matched_raw)
+    except ValueError:
+        matched = 0.0
 
+    serve_text_lower = serve_text.lower()
     best_match = None
     best_match_length = 0
 
-    for singular, plural in RECIPE_YIELD_TYPES:
-        if singular in serve_text_lower or plural in serve_text_lower:
+    for singular_pattern, plural_pattern, singular, plural in _YIELD_TYPE_PATTERNS:
+        singular_match = singular_pattern.search(serve_text_lower)
+        plural_match = plural_pattern.search(serve_text_lower)
+        if singular_match or plural_match:
             match_length = (
-                len(singular) if singular in serve_text_lower else len(plural)
+                max(len(singular), len(plural))
+                if (singular_match and plural_match)
+                else (len(singular) if singular_match else len(plural))
             )
             if match_length > best_match_length:
                 best_match_length = match_length
-                best_match = f"{matched} {singular if int(matched) == 1 else plural}"
+                best_match = format_count_label(matched, singular, plural)
 
     if best_match:
         return best_match
 
+    plural = "s" if matched != 1 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
-        return f"{matched} item{'s' if int(matched) != 1 else ''}"
+        return format_count_label(matched, "item", f"item{plural}")
 
-    return f"{matched} serving{'s' if int(matched) != 1 else ''}"
+    return format_count_label(matched, "serving", f"serving{plural}")
 
 
 def get_equipment(equipment_items):
     # Removes duplicates from results and sorts them in order they appear on site.
-    seen = set()
-    unique_equipment = []
-    for item in equipment_items:
-        if item not in seen:
-            seen.add(item)
-            unique_equipment.append(item)
-    return unique_equipment
+    return list(dict.fromkeys(equipment_items))
 
 
-def normalize_string(string):
-    # Convert all named and numeric character references (e.g. &gt;, &#62;)
-    unescaped_string = html.unescape(string)
-    # Remove HTML tags
-    no_html_string = re.sub("<[^>]*>", "", unescaped_string)
-    return re.sub(
-        r"\s+",
-        " ",
+def normalize_string(string: str) -> str:
+    prev = None
+    unescaped = string
+    while prev != unescaped:
+        prev = unescaped
+        unescaped = html.unescape(unescaped)
+
+    no_html_string = re.sub(r"<[^>]*>", "", unescaped)
+
+    cleaned = (
         no_html_string.replace("\xc2\xa0", " ")
         .replace("\xa0", " ")
         .replace("\u200b", "")
         .replace("\r\n", " ")
-        .replace("\n", " ")  # &nbsp;
+        .replace("\n", " ")
         .replace("\t", " ")
-        .strip(),
+        .replace("u0026#039;", "'")
+        .strip()
     )
+
+    # Only replace '((' and '))' if both are present in the string
+    if "((" in cleaned and "))" in cleaned:
+        cleaned = cleaned.replace("((", "(").replace("))", ")")
+
+    cleaned = re.sub(r"\s+", " ", cleaned)
+
+    return cleaned.strip()
 
 
 def csv_to_tags(csv, lowercase=False):

@@ -1,0 +1,51 @@
+{
+  "author": "Christin Mahrlig",
+  "canonical_url": "https://spicysouthernkitchen.com/fried-oreos/",
+  "site_name": "Spicy Southern Kitchen",
+  "host": "spicysouthernkitchen.com",
+  "language": "en-US",
+  "title": "Fried Oreos",
+  "ingredients": [
+    "1 cup milk",
+    "1 large egg",
+    "2 teaspoons vegetable oil",
+    "1 teaspoon vanilla extract",
+    "1½ cups pancake mix",
+    "1 tablespoon granulated sugar",
+    "12 to 15 Double Stuff Oreo Cookies",
+    "powdered sugar",
+    "Vegetable oil"
+  ],
+  "instructions_list": [
+    "Whisk together milk, egg, vegetable oil, and vanilla extract in a mixing bowl.",
+    "Add pancake mix and granulated sugar and stir just until combined. Let sit 5 to 10 minutes.",
+    "Pour 1 to 2 inches of oil into a Dutch oven. Heat oil to 350 to 370 degrees.",
+    "Use a fork to dip the oreos into the batter and coat on both sides and then drop into the oil. Fry for about 2 minutes per side.",
+    "Drain on a paper towel-lined plate. Sprinkle with powdered sugar and serve."
+  ],
+  "category": "Dessert",
+  "yields": "6 servings",
+  "description": "You'll feel like you're at the county fair when you whip up a batch of these Fried Oreos. Coated in a golden pancake batter, the cookies get soft and melty inside. They are the perfect sweet treat.",
+  "total_time": 25,
+  "cook_time": 10,
+  "prep_time": 15,
+  "equipment": [
+    "Dutch Oven",
+    "Deep-Frying Thermometer"
+  ],
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "322 kcal",
+    "fatContent": "20 g",
+    "saturatedFatContent": "5 g",
+    "unsaturatedFatContent": "14 g",
+    "transFatContent": "0.1 g",
+    "carbohydrateContent": "30 g",
+    "sugarContent": "14 g",
+    "proteinContent": "6 g",
+    "sodiumContent": "285 mg",
+    "fiberContent": "1 g",
+    "cholesterolContent": "59 mg"
+  },
+  "image": "https://spicysouthernkitchen.com/wp-content/uploads/2025/07/Deep-Fried-Oreos-10-1-of-1.jpg"
+}

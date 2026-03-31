@@ -1,19 +1,10 @@
 from ._abstract import AbstractScraper
-from ._grouping_utils import group_ingredients
 
 
-class Therecipecritic(AbstractScraper):
+class TheRecipeCritic(AbstractScraper):
     @classmethod
     def host(cls):
         return "therecipecritic.com"
 
     def author(self):
         return "The Recipe Critic"
-
-    def ingredient_groups(self):
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".wprm-recipe-ingredient-group h4",
-            ".wprm-recipe-ingredient",
-        )

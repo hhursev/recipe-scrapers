@@ -32,6 +32,53 @@
     "3/4 cup (97 g) powdered sugar",
     "1/2 tbsp vanilla"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 1/4 cups (300 ml) whole milk, warmed to about 110 degrees",
+        "2 1/4 tsp active dry yeast",
+        "1 tsp granulated white sugar (to bloom the yeast)",
+        "4 3/4 cups (593 g) all-purpose flour, spooned and leveled",
+        "1 1/2 tsp salt",
+        "2 tbsp (25 g) granulated white sugar",
+        "2 eggs, whisked",
+        "1 tbsp vanilla",
+        "1/2 cup (112 g) unsalted butter, very softened"
+      ],
+      "purpose": "For the Dough"
+    },
+    {
+      "ingredients": [
+        "1/2 cup (112 g) unsalted butter, very softened",
+        "1 cup (220 g) light brown sugar, packed",
+        "2 tsp cinnamon",
+        "1/3 cup (116 g) honey",
+        "1/2 tbsp vanilla",
+        "3 tbsp (45 ml) heavy cream",
+        "1/4 tsp salt"
+      ],
+      "purpose": "For the Cinnamon Caramel Sauce"
+    },
+    {
+      "ingredients": [
+        "1/2 cup (112 g) unsalted butter, very softened",
+        "1 cup (220 g) light brown sugar, packed",
+        "2 tbsp cinnamon",
+        "1/4 tsp salt",
+        "1/4 cup (60 ml) heavy cream (for pouring in between the rolls)"
+      ],
+      "purpose": "For the Cinnamon Filling"
+    },
+    {
+      "ingredients": [
+        "6 tbsp (84 g) unsalted butter, very softened",
+        "6 oz (170 g) cream cheese, cold",
+        "3/4 cup (97 g) powdered sugar",
+        "1/2 tbsp vanilla"
+      ],
+      "purpose": "For the Cream Cheese Frosting"
+    }
+  ],
   "instructions_list": [
     "For the Dough",
     "To start, bloom your yeast. Mix your active dry yeast, sugar, and warm milk together and let sit for 10 minutes until foamy on top.",
@@ -65,8 +112,8 @@
   "cook_time": 30,
   "prep_time": 45,
   "cuisine": "American",
-  "ratings": 4.97,
-  "ratings_count": 252,
+  "ratings": 4.93,
+  "ratings_count": 380,
   "image": "https://inbloombakery.com/wp-content/uploads/2023/08/Cinnamon-Rolls-21.jpg",
   "keywords": [
     "best cinnamon rolls",

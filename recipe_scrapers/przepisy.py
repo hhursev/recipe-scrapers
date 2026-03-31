@@ -15,7 +15,7 @@ class Przepisy(AbstractScraper):
         return get_yields(self.soup.find("div", {"class": "person-count"}))
 
     def ingredients(self):
-        ingredients = self.soup.findAll("span", {"class": "text-bg-white"})
+        ingredients = self.soup.find_all("span", {"class": "text-bg-white"})
 
         return [
             normalize_string(i.get_text()) + " " + normalize_string(j.get_text())

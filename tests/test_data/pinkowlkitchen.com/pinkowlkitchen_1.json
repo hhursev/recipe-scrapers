@@ -22,7 +22,7 @@
     "Allow the pie to cool to room temperature on a wire rack. Enjoy chilled or room temperature with a dollop of fresh whipped cream!"
   ],
   "category": "Dessert",
-  "yields": "10 servings",
+  "yields": "10 slices",
   "description": "Chocolate chess pie is a decadent, fudgy custard pie baked in a buttery homemade pie crust. This tasty pie is a chocolate lover's dream and makes the perfect Thanksgiving dessert!",
   "total_time": 60,
   "cook_time": 50,
@@ -30,6 +30,12 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Mixing bowls",
+    "Measuring cups and spoons",
+    "9-inch pie plate",
+    "Pie server"
+  ],
   "nutrients": {
     "servingSize": "1 slice",
     "calories": "260 kcal",
