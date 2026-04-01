@@ -121,8 +121,6 @@ class MonsieurCuisine(AbstractScraper):
         response = requests.get(
             f"https://mc-api.tecpal.com/api/v2/recipes/{recipe_id}",
             headers=headers,
-            # ignore certificate error
-            verify=False,
         )
 
         data = json.loads(response.content)
