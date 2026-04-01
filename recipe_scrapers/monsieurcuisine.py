@@ -80,7 +80,7 @@ class MonsieurCuisine(AbstractScraper):
         return ""
     
     def site_name(self):
-        return "monsieurcuisine.com"
+        return "monsieur-cuisine.com"
 
     def _recipe_id(self):
         site_config_script = self.soup.find(
