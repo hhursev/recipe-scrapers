@@ -482,6 +482,7 @@ from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
 from .rewe import Rewe
 from .rezeptwelt import Rezeptwelt
+from .ricardocuisine import RicardoCuisine
 from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
 from .rosannapansino import RosannaPansino
@@ -1114,6 +1115,7 @@ SCRAPERS = {
     Reishunger.host(): Reishunger,
     Rewe.host(): Rewe,
     Rezeptwelt.host(): Rezeptwelt,
+    RicardoCuisine.host(): RicardoCuisine,
     Ricetta.host(): Ricetta,
     RicettePerBimby.host(): RicettePerBimby,
     RosannaPansino.host(): RosannaPansino,
