@@ -16,10 +16,12 @@ class HalfBakedHarvest(AbstractScraper):
     def instructions(self):
         recipe_instructions = self.schema.data.get("recipeInstructions")
 
-        if (isinstance(recipe_instructions, list)
+        if (
+            isinstance(recipe_instructions, list)
             and len(recipe_instructions) == 1
             and isinstance(recipe_instructions[0], dict)
-            and recipe_instructions[0].get("@type") == "HowToStep"):
+            and recipe_instructions[0].get("@type") == "HowToStep"
+        ):
             raw_text = recipe_instructions[0].get("text")
             if isinstance(raw_text, str):
                 steps = []
