@@ -6,6 +6,8 @@ from ._abstract import AbstractScraper
 class HalfBakedHarvest(AbstractScraper):
     # Splits between inline numbered steps after sentence punctuation, e.g. "400°F.2. Mix" -> "400°F." / "2. Mix"
     _INLINE_STEP_PATTERN = re.compile(r"(?<=[.!?])\s*(?=\d+\.\s)")
+    # Strips a leading step prefix after splitting, e.g. "2. Mix the batter" -> "Mix the batter"
+    _LEADING_STEP_NUMBER_PATTERN = re.compile(r"^\d+\.\s*")
 
     @classmethod
     def host(cls):
@@ -23,7 +25,9 @@ class HalfBakedHarvest(AbstractScraper):
                 steps = []
                 for step in self._INLINE_STEP_PATTERN.split(raw_text.strip()):
                     if step.strip():
-                        steps.append(step)
+                        steps.append(
+                            self._LEADING_STEP_NUMBER_PATTERN.sub("", step.strip())
+                        )
                 if len(steps) > 1:
                     return "\n".join(steps)
 
