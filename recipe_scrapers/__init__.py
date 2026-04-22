@@ -51,6 +51,7 @@ from .africanbites import AfricanBites
 from .afullliving import AFullLiving
 from .ahealthysliceoflife import AHealthySliceOfLife
 from .akispetretzikis import AkisPetretzikis
+from .albertcz import AlbertCz
 from .albertheijn import AlbertHeijn
 from .aldi import Aldi
 from .aldinord import AldiNord
@@ -652,6 +653,7 @@ SCRAPERS = {
     AFullLiving.host(): AFullLiving,
     AHealthySliceOfLife.host(): AHealthySliceOfLife,
     AkisPetretzikis.host(): AkisPetretzikis,
+    AlbertCz.host(): AlbertCz,
     AlbertHeijn.host(): AlbertHeijn,
     AlbertHeijn.host(domain="ah.be"): AlbertHeijn,
     Aldi.host(): Aldi,
