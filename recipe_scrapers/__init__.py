@@ -113,6 +113,7 @@ from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
+from .brianlagerstrom import BrianLagerstrom
 from .briceletbaklava import BricelEtBaklava
 from .brokenovenbaking import BrokenOvenBaking
 from .budgetbytes import BudgetBytes
@@ -725,6 +726,7 @@ SCRAPERS = {
     BongEats.host(): BongEats,
     BowlOfDelicious.host(): BowlOfDelicious,
     Breadtopia.host(): Breadtopia,
+    BrianLagerstrom.host(): BrianLagerstrom,
     BricelEtBaklava.host(): BricelEtBaklava,
     BrokenOvenBaking.host(): BrokenOvenBaking,
     BudgetBytes.host(): BudgetBytes,
