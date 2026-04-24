@@ -1,5 +1,3 @@
-import re
-
 from ._abstract import AbstractScraper
 
 
@@ -38,7 +36,7 @@ class AlbertCz(AbstractScraper):
         filtered = [
             line
             for line in instructions.split("\n")
-            if not re.fullmatch(r"\d+\.", line.strip())
+            if not line.strip().endswith(".") or not line.strip()[:-1].isdigit()
         ]
 
         return "\n".join(filtered)
