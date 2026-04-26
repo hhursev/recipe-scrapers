@@ -15,8 +15,7 @@ class VelocidadCuchara(AbstractScraper):
         strong = li.find("strong")
         return bool(
             strong
-            and normalize_string(li.get_text())
-            == normalize_string(strong.get_text())
+            and normalize_string(li.get_text()) == normalize_string(strong.get_text())
         )
 
     def ingredients(self):
@@ -47,7 +46,9 @@ class VelocidadCuchara(AbstractScraper):
 
         if current_ingredients:
             groups.append(
-                IngredientGroup(purpose=current_purpose, ingredients=current_ingredients)
+                IngredientGroup(
+                    purpose=current_purpose, ingredients=current_ingredients
+                )
             )
 
         return groups or [IngredientGroup(purpose=None, ingredients=self.ingredients())]
