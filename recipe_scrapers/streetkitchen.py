@@ -35,7 +35,7 @@ class StreetKitchen(AbstractScraper):
             purpose = heading_tag.get_text(strip=True) if heading_tag else None
 
             if purpose == "":
-                return [IngredientGroup(ingredients=self.ingredients())]
+                purpose = None
 
             ingredients = []
             for item in group_block.select("div.my-2.flex.items-center.gap-2.text-lg"):
