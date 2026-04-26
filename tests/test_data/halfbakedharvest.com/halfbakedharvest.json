@@ -66,16 +66,16 @@
   "ratings": 4.33,
   "ratings_count": 43,
   "nutrients": {
+    "servingSize": "1 serving",
     "calories": "187 kcal",
-    "carbohydrateContent": "88 g",
-    "proteinContent": "15 g",
     "fatContent": "36 g",
     "saturatedFatContent": "9 g",
-    "cholesterolContent": "264 mg",
+    "carbohydrateContent": "88 g",
+    "sugarContent": "31 g",
+    "proteinContent": "15 g",
     "sodiumContent": "1985 mg",
     "fiberContent": "6 g",
-    "sugarContent": "31 g",
-    "servingSize": "1 serving"
+    "cholesterolContent": "264 mg"
   },
   "image": "https://www.halfbakedharvest.com/wp-content/uploads/2015/09/Chocolate-Chip-Banana-Bread-French-Toast-Muffins-with-Cinnamon-Streusel-1.jpg"
 }
