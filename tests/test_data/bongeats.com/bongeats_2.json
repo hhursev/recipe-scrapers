@@ -24,6 +24,35 @@
     "¼ tsp salt",
     "¼ tsp vanilla"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "‍225 g all-purpose flour (maida)",
+        "75 g cocoa powder (we’re using dutch-processed; you can use any)",
+        "10 g baking powder",
+        "20 g instant coffee",
+        "10 g baking soda",
+        "3 g salt",
+        "300 g sugar",
+        "3 eggs",
+        "10 g vanilla extract",
+        "180 g melted butter (salted; if using unsalted, increase salt to 7 g)",
+        "50 g yoghurt (skip if using regular cocoa powder; replace with milk)",
+        "150 g milk",
+        "150 g boiling hot water"
+      ],
+      "purpose": "FOR THE SPONGE"
+    },
+    {
+      "ingredients": [
+        "‍300 g dark chocolate (70% cocoa solids)",
+        "350 g heavy cream (at least 30% milk fat)",
+        "¼ tsp salt",
+        "¼ tsp vanilla"
+      ],
+      "purpose": "‍FOR THE GANACHE"
+    }
+  ],
   "instructions_list": [
     "Grease the cake tins with butter and line them with baking paper.",
     "Preheat your oven at 150 degree Celcius.",

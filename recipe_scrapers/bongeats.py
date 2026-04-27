@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._exceptions import StaticValueException
+from ._grouping_utils import group_ingredients
 from ._utils import normalize_string
 
 
@@ -27,4 +28,12 @@ class BongEats(AbstractScraper):
         instructions = instructions_div.find_all("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
+        )
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".recipe-ingredients h3",
+            ".recipe-ingredients ul li",
         )
