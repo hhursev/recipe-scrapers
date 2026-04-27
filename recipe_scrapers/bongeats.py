@@ -13,22 +13,12 @@ class BongEats(AbstractScraper):
         raise StaticValueException(return_value="Bong Eats")
 
     def ingredients(self):
-        ingredients_div = self.soup.find(
-            "div",
-            class_="recipe-ingredients",
-        )
-        ingredients = ingredients_div.find_all("li")
-        return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
+        ingredients = self.soup.select(".recipe-ingredients ul li")
+        return [normalize_string(i.get_text()) for i in ingredients]
 
     def instructions(self):
-        instructions_div = self.soup.find(
-            "div",
-            class_="recipe-process",
-        )
-        instructions = instructions_div.find_all("li")
-        return "\n".join(
-            [normalize_string(instruction.get_text()) for instruction in instructions]
-        )
+        instructions = self.soup.select(".recipe-process ol li")
+        return "\n".join(normalize_string(i.get_text()) for i in instructions)
 
     def ingredient_groups(self):
         return group_ingredients(
