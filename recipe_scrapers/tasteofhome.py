@@ -1,5 +1,5 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._grouping_utils import group_ingredients
 
 
 class TasteOfHome(AbstractScraper):
@@ -7,15 +7,20 @@ class TasteOfHome(AbstractScraper):
     def host(cls):
         return "tasteofhome.com"
 
-    def instructions(self):
-        instructions = self.soup.find_all("li", {"class": "recipe-directions__item"})
-        if instructions:
-            return "\n".join(
-                [
-                    normalize_string(instruction.get_text())
-                    for instruction in instructions
-                ]
-            )
-        else:
-            # In case our HTML parsing doesn't find any instructions, fall back to what the schema provides.
-            return self.schema.instructions()
+    def ingredients(self):
+        ingredient_elements = self.soup.select(
+            ".ingredient-item:not(.sub-ingredient-title)"
+        )
+        ingredients = []
+        for ingredient in ingredient_elements:
+            ingredient_text = ingredient.get_text(strip=True)
+            ingredients.append(ingredient_text)
+        return ingredients
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredient-item.sub-ingredient-title",
+            ".ingredients-list > .ingredient-item:not(.sub-ingredient-title), .sub-ingredients .ingredient-item",
+        )

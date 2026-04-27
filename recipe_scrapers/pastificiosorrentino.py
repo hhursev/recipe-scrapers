@@ -7,29 +7,8 @@ class PastificioSorrentino(AbstractScraper):
     def host(cls):
         return "pastificiosorrentino.com"
 
-    def author(self):
-        return self.schema.author()
-
-    def title(self):
-        return self.schema.title()
-
     def site_name(self):
         return "Pastificio Sorrentino"
-
-    def category(self):
-        return self.schema.category()
-
-    def total_time(self):
-        return self.schema.total_time()
-
-    def yields(self):
-        return self.schema.yields()
-
-    def image(self):
-        return self.schema.image()
-
-    def ingredients(self):
-        return self.schema.ingredients()
 
     def instructions(self):
         # The schema parser might miss 'HowtoStep' due to case sensitivity.
@@ -41,12 +20,3 @@ class PastificioSorrentino(AbstractScraper):
                 [normalize_string(item.get_text()) for item in instruction_items]
             )
         return instructions
-
-    def ratings(self):
-        return self.schema.ratings()
-
-    def cuisine(self):
-        return self.schema.cuisine()
-
-    def description(self):
-        return self.schema.description()
