@@ -44,6 +44,11 @@
   "cuisine": "Italian,Pasta",
   "ratings": 5.0,
   "ratings_count": 2,
+  "equipment": [
+    "(9×13 inch) Casserole Dish",
+    "large skillet OR",
+    "large nonstick skillet"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "507 kcal",
