@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
-from ._utils import normalize_string
+from ._utils import normalize_string, get_minutes
+from ._grouping_utils import IngredientGroup
 
 
 class ALittleBitYummy(AbstractScraper):
@@ -15,29 +16,37 @@ class ALittleBitYummy(AbstractScraper):
             return author_tag.text.replace("Author:", "").strip()
 
     def ingredients(self):
-        ingredient_blocks = self.soup.select(".ingredients-tab-content div")
+        ingredient_blocks = self.soup.select(
+            ".ingredients-tab-content div:has(b.ingredient-unit-display)"
+        )
+
         seen = set()
         ingredients = []
+
         for block in ingredient_blocks:
             unit_display = block.find("b", class_="ingredient-unit-display")
-            primary = (
-                unit_display.get("data-primary-amount", "").strip(),
-                unit_display.get("data-primary-unit", "").strip(),
-            )
-            secondary = (
-                unit_display.get("data-secondary-amount", "").strip(),
-                unit_display.get("data-secondary-unit", "").strip(),
-            )
+            name_display = block.find("span", class_="ingredient-name-display")
 
-            amount_text = f"{primary[0]} {primary[1]}"
-            if secondary[0]:
-                amount_text += f" ({secondary[0]} {secondary[1]})"
+            if not unit_display or not name_display:
+                continue
 
-            name = block.find("span", class_="ingredient-name-display").text.strip()
-            full_ingredient = f"{amount_text} {name}"
+            primary_amount = unit_display.get("data-primary-amount", "").strip()
+            primary_unit = unit_display.get("data-primary-unit", "").strip()
+
+            secondary_amount = unit_display.get("data-secondary-amount", "").strip()
+            secondary_unit = unit_display.get("data-secondary-unit", "").strip()
+
+            amount_text = f"{primary_amount} {primary_unit}".strip()
+            if secondary_amount:
+                amount_text += f" ({secondary_amount} {secondary_unit})"
+
+            name = name_display.get_text(strip=True)
+            full_ingredient = f"{amount_text} {name}".strip()
+
             if full_ingredient not in seen:
                 seen.add(full_ingredient)
                 ingredients.append(full_ingredient)
+
         return ingredients
 
     def instructions(self):
@@ -47,3 +56,80 @@ class ALittleBitYummy(AbstractScraper):
             for step in instruction_steps
             if step.get_text()
         )
+
+    def ingredient_groups(self):
+        ingredients = self.ingredients()
+        groups = []
+
+        current_purpose = None
+        current_ingredients = []
+        ing_idx = 0
+
+        nodes = self.soup.select(
+            ".ingredients-tab-content h4.highlighted, "
+            ".ingredients-tab-content div:has(b.ingredient-unit-display)"
+        )
+
+        for node in nodes:
+            if node.name == "h4":
+                if current_ingredients:
+                    groups.append(
+                        IngredientGroup(
+                            ingredients=current_ingredients,
+                            purpose=current_purpose,
+                        )
+                    )
+                    current_ingredients = []
+                current_purpose = node.get_text(strip=True)
+
+            else:
+                if ing_idx < len(ingredients):
+                    current_ingredients.append(ingredients[ing_idx])
+                    ing_idx += 1
+
+        if current_ingredients:
+            groups.append(
+                IngredientGroup(
+                    ingredients=current_ingredients,
+                    purpose=current_purpose,
+                )
+            )
+
+        if len(groups) <= 1:
+            return [IngredientGroup(ingredients=ingredients, purpose=None)]
+
+        return groups
+
+    def prep_time(self):
+        meta = self.soup.select_one(".recipe-meta")
+        if not meta:
+            return None
+
+        for span in meta.find_all("span"):
+            if "PREP IN" in span.get_text():
+                value = span.find("span")
+                if value:
+                    return get_minutes(value.get_text(strip=True).lower())
+        return None
+
+    def cook_time(self):
+        meta = self.soup.select_one(".recipe-meta")
+        if not meta:
+            return None
+
+        for span in meta.find_all("span"):
+            if "COOKS IN" in span.get_text():
+                value = span.find("span")
+                if value:
+                    return get_minutes(value.get_text(strip=True).lower())
+        return None
+
+    def total_time(self):
+        prep = self.prep_time()
+        cook = self.cook_time()
+        if prep is None and cook is None:
+            return None
+        prep_minutes = prep if prep is not None else 0
+        cook_minutes = cook if cook is not None else 0
+        total = prep_minutes + cook_minutes
+        return total if total else None
