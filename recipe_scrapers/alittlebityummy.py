@@ -159,6 +159,13 @@ class ALittleBitYummy(AbstractScraper):
             "unsaturated fat": "unsaturatedFatContent",
         }
 
+        def clean_nutrient_value(v):
+            if not v:
+                return None
+            v = v.strip()
+            v = "".join(ch for ch in v if (ch.isdigit() or ch == "."))
+            return v if v else None
+
         nutrients = {}
 
         for block in tab.select(".nutrition-block"):
@@ -169,7 +176,9 @@ class ALittleBitYummy(AbstractScraper):
                 continue
 
             name_raw = name_el.get_text(strip=True).lower()
-            value = value_el.get_text(strip=True)
+            value_raw = value_el.get_text(strip=True)
+
+            value = clean_nutrient_value(value_raw)
 
             key = None
             for k in mapping:
