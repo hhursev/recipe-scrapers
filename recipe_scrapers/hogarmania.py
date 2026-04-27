@@ -1,5 +1,4 @@
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
 from ._utils import get_minutes, normalize_string
 
 
@@ -9,7 +8,7 @@ class Hogarmania(AbstractScraper):
         return "hogarmania.com"
 
     def site_name(self):
-        raise StaticValueException(return_value="Hogarmania")
+        return self.soup.find("meta", property="og:site_name")["content"]
 
     def _get_duration(self, field: str):
         v = self.schema.data.get(field)
