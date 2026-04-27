@@ -36,6 +36,18 @@
   "total_time": 40,
   "cook_time": 30,
   "prep_time": 10,
+  "nutrients": {
+    "calories": "454",
+    "fatContent": "15.7g",
+    "saturatedFatContent": "3g",
+    "carbohydrateContent": "64.9g",
+    "sugarContent": "12.3g",
+    "proteinContent": "16.5g",
+    "sodiumContent": "1.4g",
+    "fiberContent": "9.7g",
+    "iron": "7mg",
+    "calcium": "280.1mg"
+  },
   "image": "https://alittlebityummy.com/wp-content/uploads/2021/12/Low-FODMAP-Creamy-Ham-Potato-Soup.jpg",
   "keywords": [
     "gluten free",

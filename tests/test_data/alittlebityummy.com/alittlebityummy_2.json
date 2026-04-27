@@ -61,6 +61,18 @@
   "total_time": 30,
   "cook_time": 20,
   "prep_time": 10,
+  "nutrients": {
+    "calories": "796",
+    "fatContent": "49.7g",
+    "saturatedFatContent": "16.6g",
+    "carbohydrateContent": "69.8g",
+    "sugarContent": "7.9g",
+    "proteinContent": "17.5g",
+    "sodiumContent": "1.2g",
+    "fiberContent": "5.3g",
+    "iron": "2.6mg",
+    "calcium": "94.5mg"
+  },
   "image": "https://alittlebityummy.com/wp-content/uploads/2025/06/Low-FODMAP-Creamy-Pasta-with-Bacon-Veggies.jpg",
   "keywords": [
     "gluten free",

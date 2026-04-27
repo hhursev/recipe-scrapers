@@ -133,3 +133,53 @@ class ALittleBitYummy(AbstractScraper):
         cook_minutes = cook if cook is not None else 0
         total = prep_minutes + cook_minutes
         return total if total else None
+
+    def nutrients(self):
+        meta = self.soup.select_one(".recipe-nutrition")
+        if not meta:
+            return None
+
+        tab = meta.select_one(".nutrition-tab-content.current") or meta.select_one(
+            ".nutrition-tab-content"
+        )
+        if not tab:
+            return None
+
+        mapping = {
+            "calories": "calories",
+            "fat": "fatContent",
+            "saturates": "saturatedFatContent",
+            "protein": "proteinContent",
+            "carbs": "carbohydrateContent",
+            "sugars": "sugarContent",
+            "fibre": "fiberContent",
+            "salt": "sodiumContent",
+            "cholesterol": "cholesterolContent",
+            "trans fat": "transFatContent",
+            "unsaturated fat": "unsaturatedFatContent",
+        }
+
+        nutrients = {}
+
+        for block in tab.select(".nutrition-block"):
+            name_el = block.select_one(".nutrition-name")
+            value_el = block.select_one(".nutrition-weight")
+
+            if not name_el or not value_el:
+                continue
+
+            name_raw = name_el.get_text(strip=True).lower()
+            value = value_el.get_text(strip=True)
+
+            key = None
+            for k in mapping:
+                if k in name_raw:
+                    key = mapping[k]
+                    break
+
+            if key:
+                nutrients[key] = value
+            else:
+                nutrients[name_raw] = value
+
+        return nutrients if nutrients else None
