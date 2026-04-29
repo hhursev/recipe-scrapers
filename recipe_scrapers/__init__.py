@@ -448,6 +448,7 @@ from .pilipinasrecipes import PilipinasRecipes
 from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
+from .plantyou import PlantYou
 from .platingpixels import PlatingPixels
 from .platingsandpairings import PlatingsAndPairings
 from .plowingthroughlife import PlowingThroughLife
@@ -1086,6 +1087,7 @@ SCRAPERS = {
     PinchOfYum.host(): PinchOfYum,
     PingoDoce.host(): PingoDoce,
     PinkOwlKitchen.host(): PinkOwlKitchen,
+    PlantYou.host(): PlantYou,
     PlatingPixels.host(): PlatingPixels,
     PlatingsAndPairings.host(): PlatingsAndPairings,
     PlowingThroughLife.host(): PlowingThroughLife,
