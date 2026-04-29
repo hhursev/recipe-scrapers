@@ -23,10 +23,7 @@ class MollyBaz(AbstractScraper):
     def _page_rows(self):
         # data-node is a Beaver Builder attribute present only on top-level
         # layout rows, not on nested content wrappers with the same fl-row class
-        return [
-            r for r in self.soup.find_all(class_="fl-row")
-            if r.get("data-node")
-        ]
+        return [r for r in self.soup.find_all(class_="fl-row") if r.get("data-node")]
 
     @functools.cached_property
     def _hero_row(self):
@@ -38,8 +35,7 @@ class MollyBaz(AbstractScraper):
     @functools.cached_property
     def _hero_modules(self):
         return [
-            m for m in self._hero_row.find_all(class_="fl-module")
-            if m.get("data-node")
+            m for m in self._hero_row.find_all(class_="fl-module") if m.get("data-node")
         ]
 
     @functools.cached_property
@@ -51,13 +47,15 @@ class MollyBaz(AbstractScraper):
             if not col_group:
                 continue
             direct_cols = [
-                c for c in col_group.children
+                c
+                for c in col_group.children
                 if hasattr(c, "get") and "fl-col" in c.get("class", [])
             ]
             if len(direct_cols) != 2:
                 continue
             modules = [
-                m for m in direct_cols[0].find_all(class_="fl-module")
+                m
+                for m in direct_cols[0].find_all(class_="fl-module")
                 if m.get("data-node")
             ]
             if any(
