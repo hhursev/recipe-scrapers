@@ -16,9 +16,6 @@ class MollyBaz(AbstractScraper):
     def author(self):
         return "Molly Baz"
 
-    def site_name(self):
-        return self.opengraph.site_name()
-
     @functools.cached_property
     def _page_rows(self):
         # data-node is a Beaver Builder attribute present only on top-level
@@ -120,15 +117,6 @@ class MollyBaz(AbstractScraper):
                 return get_minutes(text)
         raise ElementNotFoundInHtml("total time heading")
 
-    def image(self):
-        photo_mod = self._hero_row.find(class_="fl-module-photo")
-        if not photo_mod:
-            raise ElementNotFoundInHtml("recipe image")
-        img = photo_mod.find("img")
-        if img and img.get("src"):
-            return img["src"]
-        raise ElementNotFoundInHtml("recipe image")
-
     def ingredients(self):
         return [i for group in self._ingredient_groups for i in group.ingredients]
 
@@ -154,3 +142,13 @@ class MollyBaz(AbstractScraper):
                     steps.append(normalize_string(li.get_text()))
 
         return "\n".join(steps)
+
+    def category(self):
+        cat_mod = self.soup.find(string=lambda s: s and "Filed Under:" in s)
+        if cat_mod:
+            parent = cat_mod.find_parent()
+            if parent:
+                link = parent.find("a")
+                if link:
+                    return normalize_string(link.get_text())
+        raise ElementNotFoundInHtml("category")
