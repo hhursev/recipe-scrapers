@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
-from ._exceptions import StaticValueException
+from ._exceptions import StaticValueException, FieldNotProvidedByWebsiteException
+from ._utils import get_yields
 
 
 class RickBayless(AbstractScraper):
@@ -10,9 +11,15 @@ class RickBayless(AbstractScraper):
     def site_name(self):
         raise StaticValueException(return_value="Rick Bayless")
 
+    def author(self):
+        raise StaticValueException(return_value="Rick Bayless")
+
     def title(self):
         header = self.soup.find("div", {"class": "page-header"})
         return header.find("h1").get_text(strip=True)
+
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def description(self):
         desc = self.soup.find("div", {"class": "recipe-description"})
@@ -31,14 +38,10 @@ class RickBayless(AbstractScraper):
             if p.get_text(strip=True)
         )
 
-    def image(self):
-        og_image = self.soup.find("meta", {"property": "og:image"})
-        return og_image["content"] if og_image else None
-
     def yields(self):
         servings = self.soup.find("div", {"class": "recipe-servings"})
         if not servings:
             return None
         text = servings.get_text(strip=True)
         result = text.replace("Servings:", "").strip()
-        return result or None
+        return get_yields(result)
