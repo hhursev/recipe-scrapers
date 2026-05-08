@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fallback Recipe</title>
+    <meta property="og:title" content="Fallback Recipe" />
+    <meta property="og:image" content="https://example.com/fallback.jpg" />
+  </head>
+  <body>
+    <article>
+      <h1>Fallback Recipe</h1>
+      <div class="wprm-recipe-servings">4 servings</div>
+      <section class="wprm-recipe-ingredients">
+        <ul>
+          <li class="wprm-recipe-ingredient">1 cup rice</li>
+          <li class="wprm-recipe-ingredient">2 cups water</li>
+        </ul>
+      </section>
+      <section class="wprm-recipe-instructions">
+        <ol>
+          <li class="wprm-recipe-instruction">Rinse the rice.</li>
+          <li class="wprm-recipe-instruction">Simmer until tender.</li>
+        </ol>
+      </section>
+    </article>
+  </body>
+</html>

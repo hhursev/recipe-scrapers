@@ -1,0 +1,10 @@
+{
+  "title": "Fallback Recipe",
+  "ingredients": [
+    "1 cup rice",
+    "2 cups water"
+  ],
+  "instructions": "Rinse the rice.\nSimmer until tender.",
+  "image": "https://example.com/fallback.jpg",
+  "yields": "4 servings"
+}
