@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import FieldNotProvidedByWebsiteException
 from ._utils import normalize_string
 
 
@@ -14,22 +15,7 @@ class MeatChurch(AbstractScraper):
         return "Meat Church"
 
     def title(self):
-        og_title = self.soup.find("meta", {"property": "og:title"})
-        if og_title:
-            return normalize_string(og_title.get("content"))
-        heading = self.soup.find("h1", class_="section__title-text")
-        if heading:
-            return normalize_string(heading.get_text())
-        return None
-
-    def image(self):
-        og_image = self.soup.find("meta", {"property": "og:image:secure_url"})
-        if og_image:
-            return og_image.get("content")
-        og_image = self.soup.find("meta", {"property": "og:image"})
-        if og_image:
-            return og_image.get("content")
-        return None
+        return self.soup.find("meta", property="og:title")["content"]
 
     def ingredients(self):
         article = self.soup.find("div", class_="article__content")
@@ -60,3 +46,9 @@ class MeatChurch(AbstractScraper):
                 if text:
                     steps.append(text)
         return "\n".join(steps)
+
+    def total_time(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
+
+    def yields(self):
+        raise FieldNotProvidedByWebsiteException(return_value=None)
