@@ -95,6 +95,31 @@ HOWTO_SECTION_EMPTY_SCHEMA = """
 }
 """
 
+HOWTO_SECTION_MIXED_ITEM_LIST_ELEMENT_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Mixed Section Recipe",
+  "recipeIngredient": [],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "Prep."},
+    {
+      "@type": "HowToSection",
+      "name": "Standard section",
+      "itemListElement": [
+        {"@type": "HowToStep", "text": "List step one."},
+        {"@type": "HowToStep", "text": "List step two."}
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Wrapped section",
+      "itemListElement": {"@type": "HowToStep", "text": "Dict step."}
+    }
+  ]
+}
+"""
+
 BEST_IMAGE_SCHEMA = """
 {
   "@context": "https://schema.org",
@@ -158,6 +183,21 @@ class TestSchemaOrg(unittest.TestCase):
         page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=HOWTO_SECTION_EMPTY_SCHEMA)
         parser = SchemaOrg(page_data)
         self.assertEqual("First step.", parser.instructions())
+
+    def test_howto_section_with_mixed_item_list_element_shapes(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=HOWTO_SECTION_MIXED_ITEM_LIST_ELEMENT_SCHEMA
+        )
+        parser = SchemaOrg(page_data)
+        self.assertEqual(
+            "Prep.\n"
+            "Standard section\n"
+            "List step one.\n"
+            "List step two.\n"
+            "Wrapped section\n"
+            "Dict step.",
+            parser.instructions(),
+        )
 
     def test_best_image_selection(self):
         page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=BEST_IMAGE_SCHEMA)
