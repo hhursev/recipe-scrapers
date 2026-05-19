@@ -1,0 +1,110 @@
+{
+  "author": "Feyza Kırmacı",
+  "canonical_url": "https://www.castironketo.net/blog/keto-spanakopita/",
+  "site_name": "Cast Iron Keto",
+  "host": "castironketo.net",
+  "language": "en-US",
+  "title": "Keto Spanakopita",
+  "ingredients": [
+    "4 large egg whites",
+    "1 cup water",
+    "1.2 ounces melted butter",
+    "1.1 ounces fine coconut flour",
+    "¼ teaspoon xanthan gum",
+    "12 ounces frozen baby spinach",
+    "2 spring onions (chopped)",
+    "1 egg yolk",
+    "¼ cup feta cheese (crumbled)",
+    "½ teaspoon red pepper flakes",
+    "½ teaspoon onion powder",
+    "½ teaspoon garlic powder",
+    "⅛ teaspoon black pepper",
+    "¼ teaspoon salt",
+    "⅓ cup melted butter"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "4 large egg whites",
+        "1 cup water",
+        "1.2 ounces melted butter",
+        "1.1 ounces fine coconut flour",
+        "¼ teaspoon xanthan gum"
+      ],
+      "purpose": "For phyllo"
+    },
+    {
+      "ingredients": [
+        "12 ounces frozen baby spinach",
+        "2 spring onions (chopped)",
+        "1 egg yolk",
+        "¼ cup feta cheese (crumbled)",
+        "½ teaspoon red pepper flakes",
+        "½ teaspoon onion powder",
+        "½ teaspoon garlic powder",
+        "⅛ teaspoon black pepper",
+        "¼ teaspoon salt"
+      ],
+      "purpose": "For spinach"
+    },
+    {
+      "ingredients": [
+        "⅓ cup melted butter"
+      ],
+      "purpose": "For layers"
+    }
+  ],
+  "instructions_list": [
+    "Make the phyllo batter",
+    "Whisk the egg whites and water until foamy in a medium bowl.",
+    "Add the melted butter, xanthan gum, and coconut flour to the bowl.",
+    "Mix everything until well combined.",
+    "Make the spinach mixture",
+    "Combine the raw spinach, chopped spring onions, egg yolk, crumbled feta cheese, and the aromatics in a large bowl.",
+    "Thoroughly stir the mixture until you achieve an even distribution of all ingredients.",
+    "Whip up the phyllo sheets",
+    "Prepare a double boiling set: Fill a pot with water and bring it to a boil. Then, place a pan on top of it.",
+    "Lightly grease the pan with cooking spray for the first phyllo. Pour approximately 3 tablespoons of phyllo batter into the pan.",
+    "Shake the pan to spread the mixture evenly and cook for about 3-4 minutes, until the edges separate from the pan.",
+    "Carefully remove the cooked phyllo and set it on a wire rack.",
+    "Repeat the process with the remaining batter.",
+    "Assemble the pie",
+    "On a baking dish, lay one phyllo sheet and brush it with melted butter. Continue to stack and brush each phyllo sheet until you have a total of 4-6 layers.",
+    "Next, spread the cooked spinach filling evenly on top of the sheets.",
+    "Repeat the layering process with the remaining phyllo sheets.",
+    "Then, cut the assembled pie into squares and pour the remaining melted butter over it.",
+    "Bake the spanakopita",
+    "Preheat your oven to 355°F (180°C).",
+    "Transfer the baking dish to it and bake for 20-25 minutes, until the phyllo is golden and crispy.",
+    "Once done, remove it from the oven and let it cool off before serving."
+  ],
+  "category": "Main Course",
+  "yields": "4 servings",
+  "description": "Enjoy the scrumptious flavors of this Keto Spanakopita, where crispy phyllo and creamy spinach filling come together to create a low-carb Greek masterpiece.",
+  "total_time": 85,
+  "cook_time": 25,
+  "prep_time": 60,
+  "cuisine": "Greek",
+  "ratings": 5.0,
+  "ratings_count": 3,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "310 kcal",
+    "fatContent": "27 g",
+    "saturatedFatContent": "17 g",
+    "unsaturatedFatContent": "8 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "9 g",
+    "sugarContent": "1 g",
+    "proteinContent": "9 g",
+    "sodiumContent": "578 mg",
+    "fiberContent": "5 g",
+    "cholesterolContent": "116 mg"
+  },
+  "image": "https://www.castironketo.net/wp-content/uploads/2023/07/keto-spanakopita-featured-image.jpg",
+  "keywords": [
+    "keto",
+    "low carb",
+    "Spanakopita"
+  ]
+}

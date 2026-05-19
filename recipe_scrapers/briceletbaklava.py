@@ -7,6 +7,9 @@ class BricelEtBaklava(AbstractScraper):
     def host(cls):
         return "briceletbaklava.ch"
 
+    def site_name(self):
+        return normalize_string(self.opengraph.site_name())
+
     def title(self):
         return self.soup.find("h1", {"class": "Post-title"}).get_text().strip()
 

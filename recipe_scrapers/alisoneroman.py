@@ -7,6 +7,9 @@ class AlisoneRoman(AbstractScraper):
     def host(cls):
         return "alisoneroman.com"
 
+    def description(self):
+        return self.soup.select_one("p.gh-article-excerpt").get_text()
+
     def _clean_ingredient(self, text):
         text = " ".join(text.split())
         for punct in [",", ".", "!", "?", ":"]:
@@ -45,6 +48,10 @@ class AlisoneRoman(AbstractScraper):
             tag = elements[i]
             if tag.name == "p":
                 purpose = tag.get_text(strip=True).strip()
+
+                if not purpose.endswith(":"):
+                    i += 1
+                    continue
 
                 if i + 1 < len(elements) and elements[i + 1].name == "ul":
                     ul = elements[i + 1]

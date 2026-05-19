@@ -2,6 +2,7 @@ import re
 
 from ._abstract import AbstractScraper
 from ._exceptions import FieldNotProvidedByWebsiteException
+from ._grouping_utils import group_ingredients
 
 
 class Chefnini(AbstractScraper):
@@ -13,7 +14,10 @@ class Chefnini(AbstractScraper):
         return "chefNini"
 
     def title(self):
-        return self.soup.find("span", {"itemprop": "headline"}).get_text()
+        title = self.soup.title.get_text().strip()
+        if title.endswith(" - chefNini"):
+            title = title[: -len(" - chefNini")].rstrip()
+        return title
 
     def total_time(self):
         raise FieldNotProvidedByWebsiteException(return_value=None)
@@ -40,11 +44,16 @@ class Chefnini(AbstractScraper):
 
         return "\n".join(instruction_list)
 
-    def ratings(self):
-        return None
-
     def cuisine(self):
         return None
 
     def description(self):
         return self.soup.find("p", {"itemprop": "description"}).get_text()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "p strong",
+            "li[itemprop='ingredients']",
+        )

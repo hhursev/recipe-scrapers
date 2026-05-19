@@ -1,0 +1,93 @@
+{
+  "author": "Brittany Mullins",
+  "canonical_url": "https://www.eatingbirdfood.com/protein-cake/",
+  "site_name": "Eating Bird Food",
+  "host": "eatingbirdfood.com",
+  "language": "en-US",
+  "title": "Protein Cake",
+  "ingredients": [
+    "¾ cup oat flour",
+    "1 cup vegan chocolate protein powder (I used Sun Warrior)",
+    "¼ cup cocoa powder",
+    "1 teaspoon baking powder",
+    "½ teaspoon baking soda",
+    "½ teaspoon salt",
+    "¾ cup maple syrup",
+    "¾ cup unsweetened almond milk",
+    "½ cup full fat plain greek yogurt",
+    "¼ cup avocado oil or melted coconut oil",
+    "2 large eggs",
+    "1 teaspoon vanilla",
+    "½ cup dark chocolate chips",
+    "3 Tablespoons unsweetened almond milk"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "¾ cup oat flour",
+        "1 cup vegan chocolate protein powder (I used Sun Warrior)",
+        "¼ cup cocoa powder",
+        "1 teaspoon baking powder",
+        "½ teaspoon baking soda",
+        "½ teaspoon salt",
+        "¾ cup maple syrup",
+        "¾ cup unsweetened almond milk",
+        "½ cup full fat plain greek yogurt",
+        "¼ cup avocado oil or melted coconut oil",
+        "2 large eggs",
+        "1 teaspoon vanilla"
+      ],
+      "purpose": "Cake"
+    },
+    {
+      "ingredients": [
+        "½ cup dark chocolate chips",
+        "3 Tablespoons unsweetened almond milk"
+      ],
+      "purpose": "Chocolate Ganache Frosting"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350F and spray a 8” round cake pan with cooking spray.",
+    "Stir dry ingredients",
+    "Add oat flour, protein powder, cocoa powder, baking powder, baking soda and salt to a medium mixing bowl and stir to combine.",
+    "Whisk wet ingredients",
+    "Add maple syrup, almond milk, yogurt, oil, eggs and vanilla to a large mixing bowl and whisk to combine.",
+    "Combine",
+    "Add dry ingredients to wet ingredients and stir to fully combine, until smooth.",
+    "Bake",
+    "Pour batter into prepared cake pan. Bake for 35 minutes or until a toothpick inserted comes out clean.",
+    "Cool",
+    "Remove from three oven and let cool completely before frosting.",
+    "Make frosting",
+    "While cake is cooling, make the ganache frosting. Add chocolate chips to a microwave-safe bowl and microwave in 15-second increments until fully melted. This should take 45-60 seconds. Once melted add milk and stir to combine.",
+    "Serve",
+    "Frost the top of the cake and serve!"
+  ],
+  "category": "Dessert",
+  "yields": "8 servings",
+  "description": "This delicious chocolate protein cake is guaranteed to be your new favorite dessert! It's rich, moist, naturally sweetened and packed with 15 grams of protein per slice.",
+  "total_time": 45,
+  "cook_time": 35,
+  "prep_time": 10,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 26,
+  "nutrients": {
+    "servingSize": "1 slice",
+    "calories": "324 kcal",
+    "fatContent": "15 g",
+    "saturatedFatContent": "4 g",
+    "unsaturatedFatContent": "7 g",
+    "carbohydrateContent": "37 g",
+    "sugarContent": "19 g",
+    "proteinContent": "15 g",
+    "sodiumContent": "532 mg",
+    "fiberContent": "7 g",
+    "cholesterolContent": "48 mg"
+  },
+  "image": "https://www.eatingbirdfood.com/wp-content/uploads/2024/02/protein-cake-hero.jpg",
+  "keywords": [
+    "Protein Cake"
+  ]
+}

@@ -1,0 +1,655 @@
+	<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="origin-trial" content="AiqUWlZY+nfuxPWIBmf6fngAKEQUjpjIkazHs65Ane+XYYnIzH4o6ixAN5m6t14u4Xca0NCDhOdv2AKSWxpVfwsAAABueyJvcmlnaW4iOiJodHRwczovL3d3dy5jZGtpdGNoZW4uY29tOjQ0MyIsImZlYXR1cmUiOiJQcmlvcml0eUhpbnRzQVBJIiwiZXhwaXJ5IjoxNjQ3OTkzNTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=">
+        <title>Japanese Sukiyaki Recipe | CDKitchen.com</title>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYRSQ7319D"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-GYRSQ7319D');
+        </script>        
+<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-164582-1', 'cdkitchen.com');
+          ga('require', 'displayfeatures');
+          ga('send', 'pageview');
+        setTimeout("ga('send','event','VW User Engagement','time on page more than 15 seconds')",15000);
+        </script>
+
+        <meta name="description" content="Fun variation on a standard stir-fry. Thin-sliced steak and a medley of veggies get a quick simmer in a soy-mirin sauce. Sukiyaki goes wonderfully with white rice and a variety of spiced dipping sauces.">
+		<meta name="robots" content="noodp,noydir">
+		<meta property="og:title" content="Japanese Sukiyaki Recipe | CDKitchen.com">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml">
+		<meta property="og:image" content="https://cdn.cdkitchen.com/recipes/images/2017/10/2319-7802-mx.jpg">
+		<meta property="og:description" content="Fun variation on a standard stir-fry. Thin-sliced steak and a medley of veggies get a quick simmer in a soy-mirin sauce. Sukiyaki goes wonderfully with white rice and a variety of spiced dipping sauces.">
+		<meta property="og:site_name" content="CDKitchen">
+		<meta property="fb:admins" content="1302058699">
+		<meta property="fb:app_id" content="103056499643">
+		
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@cdkitchen">
+		<meta name="twitter:creator" content="@cdkitchen">
+		<meta name="twitter:title" content="Japanese Sukiyaki Recipe | CDKitchen.com">
+		<meta name="twitter:description" content="Fun variation on a standard stir-fry. Thin-sliced steak and a medley of veggies get a quick simmer in a soy-mirin sauce. Sukiyaki goes wonderfully with white rice and a variety of spiced dipping sauces.">
+		<meta name="twitter:url" content="https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml">
+		<meta name="twitter:domain" content="https://www.cdkitchen.com">
+		<meta name="twitter:image" content="https://cdn.cdkitchen.com/recipes/images/2017/10/2319-7802-mx.jpg">
+		<meta name="pinterest-rich-pin" content="false">
+		<meta name="theme-color" content="#c00000">
+		<link rel="alternate" type="application/rss+xml" title="What's New at CDKitchen RSS Feed" href="https://www.cdkitchen.com/feeds/rss.xml">
+		
+		<link rel="preload" as="image" href="https://cdn.cdkitchen.com/images/background/background5.jpg">
+		
+		
+		<link rel="canonical" href="https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml">
+
+		<link rel="image_src" href="https://cdn.cdkitchen.com/recipes/images/2017/10/2319-7802-mx.jpg">
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/bootstrap.min.css" media="all">
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/font-awesome.min.css" media="all">
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/owl.carousel.min.css" media="all">
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/owl.theme.min.css" media="all">
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/jquery.navgoco.min.css">
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/style.min.css">
+        
+        <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/responsive.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="https://cdn.cdkitchen.com/css/ie.min.css" type="text/css" media="all">
+        <![endif]-->      
+        <script src="https://cdn.cdkitchen.com/js/modernizr.custom.js"></script>
+        <script>
+if (window.top.location != window.location) {   window.top.location.replace(window.location);} (function () {
+    'use strict';
+    console.log('window.top.location', window.top.location);
+    console.log('window.location', window.location);
+
+    if (window.location !== window.top.location) {
+        window.top.location = window.location;
+    }
+})();
+		var sc_project=642571;
+		var sc_invisible=1;
+		var sc_security="69287ad8";
+		</script>
+		<script src="https://www.statcounter.com/counter/counter.js"></script>
+		
+<script type="text/javascript">
+function showNutrition(divId,mid) {
+   $("#"+divId).toggle();
+   if ($("#"+divId).css('display') == 'none') {
+      $("#nTag"+mid).html('Show full nutritional data');
+
+   }
+   else {
+      $("#nTag"+mid).html('Hide full nutritional data');
+   }
+}
+</script>           
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="https://www.cdkitchen.com/favicon.ico">
+        <link rel="apple-touch-icon" href="https://www.cdkitchen.com/img/apple-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://www.cdkitchen.com/img/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://www.cdkitchen.com/img/apple-icon-114x114.png"><script src="https://cdn.adapex.io/hb/aaw.cdkitchen.js" async></script>
+<!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WBK53F');</script>
+  <!-- End Google Tag Manager -->
+<script src="//s.ntv.io/serve/load.js" async></script>
+
+<script src="https://cdn.cdkitchen.com/js/ep.min.js"></script><script>bioEp.init({
+        width: 500,
+        height: 225,
+        delay: 4,
+        html: '<form style="width:500px;padding:2%" action="//cdkitchen.us4.list-manage.com/subscribe/post?u=938404d2fad4f5d73282e9f19&amp;id=ac76f4dcbb" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate id="epsignup"><div class="epheader">Hungry For More?</div><div class="epdescription"><p>Subscribe now for FREE recipes delivered daily to your inbox</p></div><div class="input"><input type="text" style="width:60%;background:#FDFCFB;font-family:inherit;color:#737373;letter-spacing:1px;text-indent:5%;border-radius:5px 0 0 5px;font-size:100%;height:46px;" id="EMAIL" name="EMAIL" placeholder="NAME@EXAMPLE.COM"><input type="submit" style="width:40%;height:46px;background:#C00000;font-family:inherit;font-weight:700;color:inherit;letter-spacing:1px;border-radius:0 5px 5px 0;cursor:pointer;transition:background .3s ease-in-out" id="submit" name="subscribe" value="YES, SUBSCRIBE ME!"></div><input type="hidden" name="MMERGE3" value="ep2"><input type="hidden" value="2" name="group[13485][2]"><input type="hidden" value="html" name="EMAILTYPE"><div id="mce-responses" class="clear"><div class="response" id="mce-error-response" style="display:none"></div>		<div class="response" id="mce-success-response" style="display:none"></div></div><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_938404d2fad4f5d73282e9f19_ac76f4dcbb" tabindex="-1" value=""></div><div class="clear"></div></div></form>',
+    css: '#epsignup{background:#F8A434;font-family:Lato,sans-serif;color:#FDFCFB;text-align:center;line-height:2;}.epheader{font-size:38px;text-transform:uppercase;letter-spacing:5px}.epdescription{font-size:17px;letter-spacing:1px;line-height:1.3em;margin:-2px 0 45px}.epinput{display:flex;align-items:center}.epbutton{height:44px;border:none}',
+        fonts: ['//fonts.googleapis.com/css?family=Lato:400,700'],
+        cookieExp: 60
+    });
+    </script><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {
+  "@type": "ListItem",
+  "position": 1,
+  "name": "home",
+  "item": "https://www.cdkitchen.com/"
+  },
+  {
+  "@type": "ListItem",
+  "position": 2,
+  "name": "recipes",
+  "item": "https://www.cdkitchen.com/recipes/"
+  },{
+  "@type": "ListItem",
+  "position": 3,
+  "name": "meals / dishes",
+  "item": "https://www.cdkitchen.com/recipes/course/"
+},{
+  "@type": "ListItem",
+  "position": 4,
+  "name": "dinner meals",
+  "item": "https://www.cdkitchen.com/recipes/course/main-dish/"
+},{
+  "@type": "ListItem",
+  "position": 5,
+  "name": "meat and poultry dishes",
+  "item": "https://www.cdkitchen.com/recipes/dish/meat-poultry/"
+},{
+  "@type": "ListItem",
+  "position": 6,
+  "name": "beef dishes",
+  "item": "https://www.cdkitchen.com/recipes/dish/beef/"
+},{
+  "@type": "ListItem",
+  "position": 7,
+  "name": "asian-style beef",
+  "item": "https://www.cdkitchen.com/recipes/dish/beef/asian/"
+}
+  ]
+}</script>
+    </head>
+<body class="punica-home-3">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBK53F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header id="punica-page-header">
+        <div class="punica-header-top">
+            <div class="wrapper-inner clearfix">
+                <div id="logo-image"><a href="https://www.cdkitchen.com"><img src="https://www.cdkitchen.com/placeholders/main-logo.png" height="51" width="195" alt="CDKitchen, it's what's cooking online!" importance="high"></a></div>
+                <nav id="top-nav" class="pull-left">
+                    <ul id="top-menu" class="clearfix">
+                        <li><div><form action="https://cdkitchen.us4.list-manage.com/subscribe/post?u=938404d2fad4f5d73282e9f19&amp;id=ac76f4dcbb" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate><div class="cfff"><label for="EMAIL">Sign up for our recipe newsletters</label>&nbsp;&nbsp; <input type="email" value="" id="EMAIL" name="EMAIL" class="nlettertopform" placeholder=" enter your email address"><input type="submit" value="Subscribe!" name="subscribe" class="punica-button orange-button"></div>
+<input type="hidden" name="MMERGE3" value="cnavbar_top_3">
+<input type="hidden" value="2" name="group[13485][2]">
+<input type="hidden" value="html" name="EMAILTYPE">
+		    <div class="offpage"><input type="text" name="b_938404d2fad4f5d73282e9f19_ac76f4dcbb" tabindex="-1" value=""></div>
+						</form></div>
+</li>
+                    </ul>
+                    <!-- end:top-menu -->
+                </nav>
+                <!-- end:top-nav -->
+                <ul id="top-contact-info" class="clearfix pull-right">
+                    <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/helpdesk/"><img src="https://cdn.cdkitchen.com/images/helpdesk2.jpg" height="17" width="174" alt="contact the CDKitchen helpdesk" importance="low"></a></li>
+                </ul>
+                <!-- end:top-contact-info -->
+            </div>
+            <!-- end:wrapper-inner -->
+        </div>
+        <!-- end:punica-header-top -->
+        <div class="punica-header-middle">
+            
+            <div class="wrapper-inner clearfix">
+                <nav id="main-nav" class="pull-left">
+
+                    <ul id="main-menu" class="clearfix">
+                        <li>
+                            <a href="https://www.cdkitchen.com/">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.cdkitchen.com/recipes/">Recipes</a>
+                        </li>
+<li class="current-menu-item"><a href="https://www.cdkitchen.com/recipes/dish/beef/">see other beef dishes recipes</a><ul><li><a href="https://www.cdkitchen.com/recipes/dish/beef/asian/">more asian style beef like this &nbsp;&nbsp;&gt;&gt;</a><ul><li><a href="https://www.cdkitchen.com/recipes/recs/637/pf-changs-china-bistro-beef158147.shtml">P.F. Chang's China Bistro Beef Lo Mein</a></li><li><a href="https://www.cdkitchen.com/recipes/recs/637/chinese-pepper-steak157920.shtml">Chinese Pepper Steak</a></li><li><a href="https://www.cdkitchen.com/recipes/recs/42/Authentic_Bulgogi52771.shtml">Authentic Bulgogi</a></li>
+      <li><a href="https://www.cdkitchen.com/recipes/dish/beef/asian/">view more</a></li>
+      </ul>
+      </li><li><a href="https://www.cdkitchen.com/recipes/ingredient/beef/ground-beef/">ground beef</a></li><li><a href="https://www.cdkitchen.com/recipes/dish/beef/beef-stroganoff/">beef stroganoff</a></li><li><a href="https://www.cdkitchen.com/recipes/ingredient/beef/corned-beef/">corned beef</a></li></ul></li>                        <li>
+                              <a href="https://www.cdkitchen.com/recipes/ideas/">Ideas</a>
+                        </li>
+                        <li><a href="https://recipebox.cdkitchen.com/">recipe box login</a></li>
+
+                    </ul>
+                    <!-- end:main-menu -->
+
+                    <i class="fa fa-align-justify"></i>
+                
+                    <div class="mobile-menu-wrapper">
+                        <ul id="mobile-menu">
+                            <li>
+                             <a href="https://www.cdkitchen.com/">Home</a>
+                                
+                            </li><li>
+                            <a href="https://www.cdkitchen.com/recipes/">Recipes</a>
+                        </li>
+<li class="current-menu-item"><a href="https://www.cdkitchen.com/recipes/dish/beef/">see other beef dishes recipes</a><ul><li><a href="https://www.cdkitchen.com/recipes/dish/beef/asian/">more asian style beef like this &nbsp;&nbsp;&gt;&gt;</a><ul><li><a href="https://www.cdkitchen.com/recipes/recs/637/pf-changs-china-bistro-beef158147.shtml">P.F. Chang's China Bistro Beef Lo Mein</a></li><li><a href="https://www.cdkitchen.com/recipes/recs/637/chinese-pepper-steak157920.shtml">Chinese Pepper Steak</a></li><li><a href="https://www.cdkitchen.com/recipes/recs/42/Authentic_Bulgogi52771.shtml">Authentic Bulgogi</a></li>
+      <li><a href="https://www.cdkitchen.com/recipes/dish/beef/asian/">view more</a></li>
+      </ul>
+      </li><li><a href="https://www.cdkitchen.com/recipes/ingredient/beef/ground-beef/">ground beef</a></li><li><a href="https://www.cdkitchen.com/recipes/dish/beef/beef-stroganoff/">beef stroganoff</a></li><li><a href="https://www.cdkitchen.com/recipes/ingredient/beef/corned-beef/">corned beef</a></li></ul></li>                            
+                            <li>
+                                         <a href="https://www.cdkitchen.com/recipes/ideas/">Ideas</a>
+                            </li>
+ <li><a href="https://recipebox.cdkitchen.com/">recipe box login</a></li>
+                        </ul>
+                        <!-- mobile-menu -->
+                    </div>
+                    <!-- mobile-menu-wrapper -->
+                    
+                </nav>
+                <!-- end:main-nav -->                
+
+            </div>
+            <!-- end:wrapper-inner -->
+
+        </div>
+        <!-- end:punica-header-middle -->
+
+        <div  style="min-height:136px;" class="punica-header-bottom">
+
+            <div class="wrapper-inner clearfix">
+
+
+<div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_728v_1"></div><div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_mob_300v_3"></div>
+                <div class="search-box pull-right clearfix">
+                    <span class="pull-left">recipe search</span>
+                    <form action="//www.cdkitchen.com/search/search.php" class="search-form pull-left clearfix" method="get">
+                        <input type="text" onBlur="if (this.value == '')
+                            this.value = this.defaultValue;" onFocus="if (this.value == this.defaultValue)
+                            this.value = '';" value="" name="q" class="search-text" placeholder="keywords or recipe id#">
+                        <button type="submit" class="search-submit"><i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                    <!-- search-form -->
+                </div>                <!--search-box-->
+
+            </div>
+            <!-- end:wrapper-inner -->
+            
+        </div>
+        <!-- end:punica-header-bottom -->
+
+    </header>
+    <!-- end:punica-page-header -->
+
+    <div id="main-content">
+
+        <div class="wrapper punica-shadow-box">
+
+            <div class="widget-area-2 pull-left">
+
+                <div class="breadcrumb clearfix">
+          <span>
+            <a href="/">
+              <span>Home</span>
+            </a>
+          </span>
+          <span>&nbsp;/&nbsp;</span>
+          <span class="prev-page">
+            <a href="/recipes/">
+              <span>Recipes</span>
+            </a>
+          </span>
+          <span>&nbsp;/&nbsp;</span>
+          <span class="prev-page">
+            <a href="https://www.cdkitchen.com/recipes/course/">
+              <span>meals / dishes</span>
+            </a>
+          </span> <span>&nbsp;/&nbsp;</span>
+          <span class="prev-page">
+            <a href="https://www.cdkitchen.com/recipes/course/main-dish/">
+              <span>dinner meals</span>
+            </a>
+          </span> <span>&nbsp;/&nbsp;</span>
+          <span class="prev-page">
+            <a href="https://www.cdkitchen.com/recipes/dish/meat-poultry/">
+              <span>meat and poultry dishes</span>
+            </a>
+          </span> <span>&nbsp;/&nbsp;</span>
+          <span class="prev-page">
+            <a href="https://www.cdkitchen.com/recipes/dish/beef/">
+              <span>beef dishes</span>
+            </a>
+          </span> <span>&nbsp;/&nbsp;</span><span><a class="current-page" href="https://www.cdkitchen.com/recipes/dish/beef/asian/"><span>see more: asian-style beef</span></a></span></div>             
+<!-- start recipe div -->
+<div id="recipepage" class="row">
+<div itemscope itemtype="http://schema.org/Recipe">
+<link itemprop="url" href="https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml">
+<meta itemprop="mainEntityOfPage" content="True" />
+
+<h1 style="min-height:30px;" itemprop="name">Japanese Sukiyaki</h1>
+		<div class="recipetools clearfix">
+  <ul>
+
+<li class="print">
+      <form method="post" action="https://www.cdkitchen.com/recipes/print/2319,47460,s=4.html" target="_blank"><input type="hidden" name="mid" value="2319"><span class="htext icontool"><input type="submit" size="34" style="color:#ff9935;background:none;border:none;padding:0px;margin:0px;" class="icon fa fa-print fa-2x" id="print" value="&#xf02f;"><b>print recipe</b></span></form>
+    </li>
+
+<li class="email">
+      <form method="post" action="https://www.cdkitchen.com/recipes/mail/2319/Japanese-Sukiyaki"><input type="hidden" name="mid" value="2319"><span class="htext icontool"><input type="submit"  size="34" style="color:#ff9935;background:none;border:none;padding:0px;margin:0px;" class="icon fa fa-envelope fa-2x" id="email" value="&#xf0e0;"><b>email recipe</b></span></form>
+    </li>
+<li class="save">
+      <form method="post" action="https://recipebox.cdkitchen.com/addNewLink.html"><input type="hidden" name="mid" value="2319"/><input type="hidden" name="subsite" value=""><input type="hidden" name="linkPath" value="http://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml"><input type="hidden" name="linkPublic" value="F"><input type="hidden" name="linkName" value="Japanese+Sukiyaki"><span class="htext icontool"><input type="submit" style="color:#ff9935;background:none;border:none;padding:0px;margin:0px;"  size="34" class="icon fa fa-save fa-2x" id="save" value="&#xf0c7;"><b>save recipe</b></span></form>
+    </li>
+
+
+<li class="addphoto">
+      <form method="post" action="https://recipebox.cdkitchen.com/addImage.html?mid=2319&amp;img=1"><input type="hidden" name="mid" value="2319"><input type="hidden" name="linkPath" value="https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml"><input type="hidden" name="img" value=1><span class="htext icontool"><input type="submit"  size="34" style="color:#ff9935;background:none;border:none;padding:0px;margin:0px;" class="icon fa fa-camera fa-2x" id="addimage" value="&#xf030;"><b>add photo</b></span></form>
+    </li>
+
+
+    <li class="addreview">
+      <a class="icontool" href="#inpagereview"><span class="icon fa fa-comments fa-2x"></span><b>add review</b></a>
+    </li>
+<li><span class="s16" id="midholder">#2319</span></li>
+  </ul>
+</div>	
+		<p style="font-family:verdana,arial;font-size:18px;margin:1% 2% 2% 4%;line-height:120%;" itemprop="description" id="headnote">Fun variation on a standard stir-fry. Thin-sliced steak and a medley of veggies get a quick simmer in a soy-mirin sauce. Sukiyaki goes wonderfully with white rice and a variety of spiced dipping sauces.</p><div>                    <div class="entry-thumb recipe-main-img">                        
+            <div class="entry-thumb-inner">
+              <div class="punica-carousel-wrapper ">
+                <div class="recipe-main-img  punica-single-post-carousel">
+                  <div class="item"><img class="heroimages" itemprop="image" src="https://cdn.cdkitchen.com/recipes/images/2017/10/2319-7802-mx.jpg" alt="photo of Japanese Sukiyaki" data-pin-description="Japanese Sukiyaki - Fun variation on a standard stir-fry. Thin-sliced steak and a medley of veggies get a quick simmer in a soy-mirin sauce. Sukiyaki goes wonderfully with white rice and a variety of spiced dipping sauces." data-src="https://cdn.cdkitchen.com/recipes/images/2017/10/2319-7802-mx.jpg"  data-src-retina="https://cdn.cdkitchen.com/recipes/images/2017/10/2319-7802-mx.jpg" importance="high"></div>
+
+                </div>
+                <!-- end:punica-single-post-carousel -->
+              </div>
+              <!-- end:punica-carousel-wrapper -->
+              <!-- end:entry-caption -->
+            </div>
+            <!-- end:entry-thumb-inner -->
+          </div>
+          <!-- end:entry-thumb --></div><br class="clearboth"/><div class="ataglance-div s18"><div class="col-md-4 col-sm-4 mb-20"><meta itemprop="recipeYield" content="4" />serves/makes: <br><span class="fa fa-cutlery fa-3x recipeglance" title="servings"></span><form action="https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml" method="post" class="change-servs-form"><input type="text" name="scale" class="change-servs-input s18" size="2" value="4">&nbsp;&nbsp;<input type="hidden" name="mid" value="2319"><br><input class="punica-button black-button" type="submit" value="change servings"> <input type="button" class="button change-servs-reset" onclick="location.href = 'https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml'" value="reset"></form></div><div class="col-md-4 col-sm-4 mb-20">ready in:<br><span class="fa fa-clock-o fa-4x recipeglance" title="cook time"></span> &nbsp;&nbsp;<meta itemprop="cookTime" content="PT6M"/><meta itemprop="totalTime" content="PT6M" />under 30 minutes	</div><div class="col-md-4 col-sm-4 mb-20"><span class="s18" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><a href="#comments"><img src="//www.cdkitchen.com/images/new4star.png" alt="Rating: 4/5" title="Recipe Rating: 4/5" style="float:left;padding-right:15px;" importance="low" loading="lazy"/></a><br class="clearboth"/><br /><meta itemprop="ratingValue" content="4" /><meta itemprop="bestRating" content="5"/><meta itemprop="worstRating" content="1"/><span itemprop="reviewCount">1</span>  review<br /></span></div></div><br class="clearboth"/><h2 class="recipe-h2">ingredients</h2><p class="ml-30"><span class="ft-verdana s18"><span itemprop="recipeIngredient">  <span class="uline big2"><br>Sauce</span></span><br><span itemprop="recipeIngredient">1/2 cup soy sauce</span><br><span itemprop="recipeIngredient">1 cup chicken or vegetable stock</span><br><span itemprop="recipeIngredient">1/4 cup mirin</span><br><span itemprop="recipeIngredient">  <span class="uline big2"><br>Remaining Ingredients</span></span><br><span itemprop="recipeIngredient">1 pound very thinly sliced flank or sirloin beef</span><br><span itemprop="recipeIngredient">1/4 cup sugar</span><br><span itemprop="recipeIngredient">3  stalks celery, thinly sliced on the diagonal</span><br><span itemprop="recipeIngredient">1 cup sliced bamboo shoots</span><br><span itemprop="recipeIngredient">1 bunch green onion, cut in 2-inch pieces</span><br><span itemprop="recipeIngredient">2 large onions, sliced</span><br><span itemprop="recipeIngredient">1 package (7 ounce size) shirataki (konjac noodles)</span><br><span itemprop="recipeIngredient">1 can (4 ounce size) sliced mushrooms</span><br><span itemprop="recipeIngredient">1  bean cake cut in 1-inch squares</span><br><span itemprop="recipeIngredient">6  leaves napa cabbage, coarsely chopped</span><br></span></p><h2 class="recipe-h2">directions</h2><div itemprop="recipeInstructions" class="ft-verdana s18"><p class="ml-30">Have all the ingredients prepped before starting cooking. <br><br> For the sauce, combine the soy sauce, stock, and mirin in a bowl and stir well. <br><br> Heat a lightly greased wok or skillet over medium-high heat. Add the beef and sprinkle it with the sugar. Quickly stir fry it and then move to one side. <br><br> Add the celery, bamboo shoots, green onion, onions, shirataki, mushrooms, bean cake, and napa cabbage. Stir for 2 minutes then add the sauce. <br><br> Cover the wok and let the sauce boil for 2 minutes. <br><br> Remove the cover and stir. Serve immediately.</p></div><meta itemprop="author" content="CDKitchen"/><br><h2 class="recipe-h2" style="border-bottom: 1px solid #000;width:80%">nutrition data</h2><span class="small">Nutritional data has not been calculated yet. </span><br><br><br class="clearboth"/><div id="socialbuttons">
+<a href="https://www.facebook.com/sharer.php?u=https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" rel="nofollow"><img src="https://cdn.cdkitchen.com/images/social/facebook.png" class="recipe-social" alt="share on facebook" loading="lazy"/></a>
+<a href="https://twitter.com/share?text=Japanese+Sukiyaki+%40CDKitchen&amp;url=https://www.cdkitchen.com/recipes/recs/42/Japanese_Sukiyaki47460.shtml" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" rel="nofollow"><img src="https://cdn.cdkitchen.com/images/social/twitter.png" class="recipe-social" alt="share on twitter"  loading="lazy"/></a>
+<a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.cdkitchen.com%2Frecipes%2Frecs%2F42%2FJapanese_Sukiyaki47460.shtml&amp;description=Japanese+Sukiyaki+-+Fun+variation+on+a+standard+stir-fry.+Thin-sliced+steak+and+a+medley+of+veggies+get+a+quick+simmer+in+a+soy-mirin+sauce.+Sukiyaki+goes+wonderfully+with+white+rice+and+a+variety+of+spiced+dipping+sauces.+Made+with+%2C+soy+sauce%2C+stock%2C+mirin%2C+flank+or+sirloin+beef%2C+sugar%2C+celery%2C+bamboo+shoots%2C+green+onion%2C+onions%2C+shirataki%2C+mushrooms%2C+bean+cake%2C+napa+cabbage+%7C+CDKitchen.com&amp;media=https%3A%2F%2Fcdn.cdkitchen.com%2Frecipes%2Fimages%2Fpinterest%2F67%2Fjapanese-sukiyaki-2319.jpg" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" rel="nofollow"><img src="https://cdn.cdkitchen.com/images/social/pinterest.png" class="recipe-social" alt="share on pinterest"  loading="lazy"/></a>
+<br class="clearboth"/><br></div>
+
+<div id="rec-nativo" class="ggnoads"></div><div class="widget punica-carousel-list-2-widget mt-25 ggnoads">
+          <span class="widget-title h4 s20">more recipes like japanese sukiyaki</span>
+          <div class="punica-carousel-wrapper">
+            <div class="owl-carousel punica-carousel-2">
+<div class="item">
+                <div class="entry-item video-post">
+                  <div class="entry-thumb">
+                    <a href="https://www.cdkitchen.com/recipes/recs/540/Gyuniku_Teriyaki_Japan7143.shtml"><img data-pin-nopin="true" src="https://cdn.cdkitchen.com/recipes/images/2016/12/34427-6999-sm.jpg" alt="Gyuniku Teriyaki (Japanese Beef Teriyaki)"><span class="h6 s16">GYUNIKU TERIYAKI (JAPANESE BEEF TERIYAKI)</span></a>
+                  </div>
+                  <!-- end:entry-thumb -->
+                </div>
+                <!-- end:entry-item -->
+              </div>
+              <!-- end:item --><div class="item">
+                <div class="entry-item video-post">
+                  <div class="entry-thumb">
+                    <a href="https://www.cdkitchen.com/recipes/recs/42/Hamburger_Chop_Suey16107.shtml"><img data-pin-nopin="true" src="https://cdn.cdkitchen.com/recipes/images/2016/01/16122-4144-sm.jpg" alt="Hamburger Chop Suey"><span class="h6 s16">HAMBURGER CHOP SUEY</span></a>
+                  </div>
+                  <!-- end:entry-thumb -->
+                </div>
+                <!-- end:entry-item -->
+              </div>
+              <!-- end:item --><div class="item">
+                <div class="entry-item video-post">
+                  <div class="entry-thumb">
+                    <a href="https://www.cdkitchen.com/recipes/recs/42/Coca_Cola_Bulgogi37277.shtml"><img data-pin-nopin="true" src="https://cdn.cdkitchen.com/recipes/images/2017/08/29768-7413-sm.jpg" alt="Coca Cola Bulgogi"><span class="h6 s16">COCA COLA BULGOGI</span></a>
+                  </div>
+                  <!-- end:entry-thumb -->
+                </div>
+                <!-- end:entry-item -->
+              </div>
+              <!-- end:item --><div class="item">
+                <div class="entry-item video-post">
+                  <div class="entry-thumb">
+                    <a href="https://www.cdkitchen.com/recipes/recs/42/Authentic_Bulgogi52771.shtml"><img data-pin-nopin="true" src="https://cdn.cdkitchen.com/recipes/images/2020/11/10543-9327-sm.jpg" alt="Authentic Bulgogi"><span class="h6 s16">AUTHENTIC BULGOGI</span></a>
+                  </div>
+                  <!-- end:entry-thumb -->
+                </div>
+                <!-- end:entry-item -->
+              </div>
+              <!-- end:item --><div class="item">
+                <div class="entry-item video-post">
+                  <div class="entry-thumb">
+                    <a href="https://www.cdkitchen.com/recipes/recs/42/PepperBeefStirFry63740.shtml"><img data-pin-nopin="true" src="https://cdn.cdkitchen.com/recipes/images/2011/08/33515-2246-sm.jpg" alt="Pepper-Beef Stir-Fry"><span class="h6 s16">PEPPER-BEEF STIR-FRY</span></a>
+                  </div>
+                  <!-- end:entry-thumb -->
+                </div>
+                <!-- end:entry-item -->
+              </div>
+              <!-- end:item --><div class="item">
+                <div class="entry-item video-post">
+                  <div class="entry-thumb">
+                    <a href="https://www.cdkitchen.com/recipes/recs/637/Beef-Snow-Peas-In-Oyster-Sau74683.shtml"><img data-pin-nopin="true" src="https://cdn.cdkitchen.com/recipes/images/2020/12/45467-9373-sm.jpg" alt="Beef & Snow Peas In Oyster Sauce"><span class="h6 s16">BEEF & SNOW PEAS IN OYSTER SAUCE</span></a>
+                  </div>
+                  <!-- end:entry-thumb -->
+                </div>
+                <!-- end:entry-item -->
+              </div>
+              <!-- end:item -->
+
+            </div>
+          </div>
+        </div>
+        <br><section id="comments" class="s16"><h2 class="recipe-h2" style="border-bottom: 1px solid #000;width:80%">reviews &amp; comments</h2><ol class="comments-list clearfix">
+<li class="comment clearfix">
+                            <div class="comment-wrap clearfix"> 
+                                <div class="comment-avatar pull-left">
+                                <span style="font-size:60px;opacity:0.2" class="fa fa-user-o" title="Guest at CDKitchen.com"></span>
+                                </div>
+                                <div class="comment-body clearfix">
+                                    <header class="clearfix">                                
+                                        <div class="pull-left">
+                                            <span class="h6 s14">Guest Foodie</span>
+                                            
+                                            <span style="font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;">REVIEW:</span> <span class="stars-active" style="width:88%;color:#FFD700">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true" style="color:#D3D3D3"></i>
+    </span><br /> 
+                                            <span class="entry-date" >January 31, 2007</span>
+                                        </div>
+                                        
+                     
+                                        <div class="clear"></div>
+                                    </header>
+                                    <p>This recipe is easy and alot of fun. My 18 year old son and I made this for our mother/son night of cooking. </p>
+                                </div><!--comment-body -->
+                            </div>                                                                     
+                            </li></ol><!--comments-list--></section><p></p><div id="sreviews"><script>document.write('<div class="recipe-inpagereview-div"><iframe id="inpagereview" src="https://recipebox.cdkitchen.com/inpage-review1.html?photomid=2319" class="recipe-inpagereview-frame" importance="low"></iframe></div>');</script><div class="recipe-nojs"><noscript>Looks like you have javascript disabled. Please enable it and refresh the page to add a review.</noscript></div></div>
+
+
+
+	
+	
+	
+	
+</div>
+</div>
+<!--end recipe div -->
+
+
+
+
+<!-- add trending here-->
+<!-- end trending-->                
+
+	                
+            </div>
+            <!-- end:widget-area-2 -->
+			
+            <div class="widget-area-3 sidebar pull-left">
+	            
+<div class="widget punica-article-list-1-widget recipe-quickjump">
+                    <span class="widget-title h4 s20">Recipe Quick Jump</span>
+                    <ul class="clearfix recipe-quickjump-left">
+                                    <li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/main-dish/">dinners</a></li>
+                                    <li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/main-dish/casseroles/">casseroles</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/soup-salad/">soups &amp; salads</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/appetizers-snacks/">appetizers</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/desserts/">desserts</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/dish/breads-and-baking/">baked goods</a></li>
+                                </ul>                                
+                    <ul class="clearfix recipe-quickjump-right">
+                                    <li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/cooking-method/crockpot/">crockpot</a></li>
+                                    <li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/copy-cat-recipes/">copycat</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/drinks/">drinks</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/side-dish/">side dishes</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/course/breakfast-brunch/">breakfast</a></li>
+									<li class="quickjumpli"><a href="https://www.cdkitchen.com/recipes/holidays-parties/">holidays</a></li>
+                                </ul>                                
+                </div><br>
+                <!-- end:punica-article-list-1-widget -->  
+
+                <div class="widget punica-ads-2-widget">
+                    <div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_siderail"></div><div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_mob_300v_1"></div>	                    
+                 </div>
+                <!-- end:punica-ads-2-widget -->
+
+
+                <!-- end:punica-article-list-1-widget -->
+               <div class="widget punica-ads-2-widget">
+                    <div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_sticky_rail"></div>                </div>
+
+
+
+                
+                <!-- if short page end sidebar here-->
+                
+                
+                <div class="widget punica-ads-2-widget">
+                                    </div>
+                <!-- end:punica-ads-2-widget -->
+
+               <div class="widget punica-ads-2-widget">
+                                   </div>
+
+                <div class="widget punica-ads-2-widget">
+                                    </div>
+                <!-- end:punica-ads-2-widget -->
+               <div class="widget punica-ads-2-widget">
+                    <a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.cdkitchen.com%2Frecipes%2Frecs%2F42%2FJapanese_Sukiyaki47460.shtml&amp;description=Japanese+Sukiyaki+-+Fun+variation+on+a+standard+stir-fry.+Thin-sliced+steak+and+a+medley+of+veggies+get+a+quick+simmer+in+a+soy-mirin+sauce.+Sukiyaki+goes+wonderfully+with+white+rice+and+a+variety+of+spiced+dipping+sauces.+Made+with+%2C+soy+sauce%2C+stock%2C+mirin%2C+flank+or+sirloin+beef%2C+sugar%2C+celery%2C+bamboo+shoots%2C+green+onion%2C+onions%2C+shirataki%2C+mushrooms%2C+bean+cake%2C+napa+cabbage+%7C+CDKitchen.com&amp;media=https%3A%2F%2Fcdn.cdkitchen.com%2Frecipes%2Fimages%2Fpinterest%2F67%2Fjapanese-sukiyaki-2319.jpg" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" rel="nofollow"><div class="punica-button big-button red-button" style="position:relative;top:200px;font-size:170%;line-height:1">Click To Save This Recipe To Pinterest</div><br><img src="https://cdn.cdkitchen.com/recipes/images/pinterest/67/japanese-sukiyaki-2319.jpg" data-pin-description="Japanese Sukiyaki - Fun variation on a standard stir-fry. Thin-sliced steak and a medley of veggies get a quick simmer in a soy-mirin sauce. Sukiyaki goes wonderfully with white rice and a variety of spiced dipping sauces. Made with , soy sauce, stock, mirin, flank or sirloin beef, sugar, celery, bamboo shoots, green onion, onions, shirataki, mushrooms, bean cake, napa cabbage | CDKitchen.com" alt="Japanese Sukiyaki Recipe" style="max-width:300px;" loading="lazy"/></a>               </div>
+
+
+<div style="height:25px;"><br />&nbsp;<br /></div><div style="background-color:#ececec;"><span class="widget-title h4 s22" style="display:block;padding-left:15%;">Today On CDKitchen:</span><br><div class="col-sm-12 col-md-12" style="background-color:#ececec">
+                                <div class="entry-item clearfix">
+<div class="entry-thumb"><a href="https://www.cdkitchen.com/recipes/ideas/sweetened-condensed-milk/"><img src="https://cdn.cdkitchen.com/recipes/images/2016/04/10013-5793-s300.jpg" alt="Sweet stuff!" class="nada" data-pin-nopin="true" importance="low"></a></div><span class="h6 s18"><a href="https://www.cdkitchen.com/recipes/ideas/sweetened-condensed-milk/">Sweet! 15 ways to use sweetened condensed milk</a></span>
+                                    <div class="entry-content">
+                                        <p class="small">Not to be confused with evaporated milk, <span class="inlink">sweetened condensed milk</span> is very sweet (and very sticky) and used primarily in desserts. 
+                                        </p>
+                                    </div>
+                                    <!-- end:entry-content -->
+                                </div>    
+                                <!-- end:entry-item -->
+                            </div><div class="col-sm-12 col-md-12" style="background-color:#ececec">
+                                <div class="entry-item clearfix">
+<div class="entry-thumb"><a href="https://www.cdkitchen.com/recipes/ideas/overnight-breakfast/"><img src="https://cdn.cdkitchen.com/recipes/images/2013/05/121629-2916-s300.jpg" alt="Start your day off right!" class="nada" data-pin-nopin="true" importance="low"></a></div><span class="h6 s18"><a href="https://www.cdkitchen.com/recipes/ideas/overnight-breakfast/">11 Ways To Make Breakfast While You Sleep</a></span>
+                                    <div class="entry-content">
+                                        <p class="small">Make your mornings a little less hectic with these <span class="inlink">overnight breakfast</span> recipes. Prep the night before and enjoy a warm, comforting meal in the morning.
+                                        </p>
+                                    </div>
+                                    <!-- end:entry-content -->
+                                </div>    
+                                <!-- end:entry-item -->
+                            </div><div class="col-sm-12 col-md-12" style="background-color:#ececec">
+                                <div class="entry-item clearfix">
+<div class="entry-thumb"><a href="https://www.cdkitchen.com/recipes/ideas/onion-soup-mix/"><img src="https://cdn.cdkitchen.com/recipes/images/2016/03/13415-5088-s300.jpg" alt="Start cooking!" class="nada" data-pin-nopin="true" importance="low"></a></div><span class="h6 s18"><a href="https://www.cdkitchen.com/recipes/ideas/onion-soup-mix/">Onion Soup Mix Saves The Day</a></span>
+                                    <div class="entry-content">
+                                        <p class="small">Ah, the unassuming envelope of <span class="inlink">onion soup mix</span>. It's more than just for onion soup (or dip). It adds tremendous flavor (and convenience) in all these recipes.
+                                        </p>
+                                    </div>
+                                    <!-- end:entry-content -->
+                                </div>    
+                                <!-- end:entry-item -->
+                            </div></div><br style="clear:both;"/><div style="height:25px;"><br />&nbsp;<br /></div>
+<span class="widget-title h4 s20 ggnoads"><a href="https://www.cdkitchen.com/recipes/dish/beef/asian/">see more asian style beef recipes<br><img src="https://cdn.cdkitchen.com/images/cats/637/cat-637-300-1.jpg" alt="asian style beef" data-pin-nopin="true" loading="lazy"/></a></span><br><span class="widget-title h4 s20 ggnoads"><a href="https://www.cdkitchen.com/recipes/cuisines/japanese/">see more japanese recipes<br><img src="https://cdn.cdkitchen.com/images/cats/1010/cat-1010-300-1.jpg" alt="japanese" data-pin-nopin="true" loading="lazy"/></a></span><br>
+<!-- full page sidebar -->
+                        </div>
+            <!-- end:widget-area-3 -->
+
+            <div class="clear"></div>
+            
+        </div>
+        <!-- end:wrapper -->
+        
+    </div>
+    <!-- end:main-content -->
+
+            <div class="row text-center"></div>
+    <div id="bottom-sidebar">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 widget-area-9">
+                    <div class="widget widget_text">
+                        <span class="widget-title h4 s20">About CDKitchen</span>
+                        <p class="hpblock">Online since 1995, CDKitchen has grown into a large collection of delicious recipes created by home cooks and professional chefs from around the world. We are all about tasty treats, good eats, and fun food. Join our community of 200K+ members - browse for a recipe, submit your own, add a review, or upload a recipe photo. <br><br></p>
+                    </div>
+                    <!-- end:widget_text -->
+                </div>
+                <!-- end:col-md-3 -->
+               <div class="col-md-4 col-sm-4 widget-area-11">
+                    <div class="widget punica-categories-widget  hpblock">
+                        <span class="widget-title h4 s20">Contact Us</span>
+                        <ul>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/helpdesk/contact/publicity.php" title="">Media Inquiries</a></li>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/helpdesk/contact/advertising.php" title="">Advertise</a></li>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/helpdesk/" title="">Help Desk</a></li>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/aboutcdkitchen.html" title="">About CDKitchen</a></li>
+                        </ul>
+                    </div>
+                    <!-- end:punica-categories-widget -->
+                </div>
+                <!-- end:col-md-3 -->
+                <div class="col-md-4 col-sm-4 widget-area-11">
+                    <div class="widget punica-categories-widget  hpblock">
+                        <span class="widget-title h4 s20">Legal</span>
+                        <ul>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/admin/privacy.html" title="">Privacy Policy</a></li>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/copyright.html" title="">Copyright</a></li>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/admin/use.php" title="">Recipe Use</a></li>
+                            <li class="clearfix"><a class="pull-left" href="https://www.cdkitchen.com/admin/photouse.html" title="">Photo Use</a></li>
+                        </ul>
+                    </div>
+                    <!-- end:punica-categories-widget -->
+                </div>
+                <!-- end:col-md-3 -->
+            </div>
+            <!-- end:row -->
+        </div>
+        <!-- end:wrapper -->
+        <i class="fa fa-arrow-up back-to-top"></i>     
+    </div>
+    <!-- end:bottom-sidebar -->
+    <footer id="punica-page-footer">
+        <div class="wrapper clearfix">
+            <p id="copyright" class="pull-left">Copyright &copy; 1995-2026 . All Rights Reserved. CDKitchen, Inc. 26:05:02:15:30:48&nbsp;&nbsp; :C:<br></p>
+        </div>
+        <!-- end:wrapper -->
+    </footer>
+    <!-- end:punica-page-footer -->
+    <script src="https://www.cdkitchen.com/recst.js"></script>
+    <script src="https://cdn.cdkitchen.com/js/jquery-1.10.2.min.js"></script><script src="https://cdn.cdkitchen.com/js/bootstrap.min.js"></script>
+    <script src="https://cdn.cdkitchen.com/js/custom.min.js" charset="utf-8"></script>
+    <!-- LiveConnectTag for advertisers -->
+  <script src="//b-code.liadm.com/a-00xr.min.js" async="true" charset="utf-8"></script>
+<!-- LiveConnectTag for advertisers -->
+<script type="text/javascript">
+window.liQ = window.liQ || [];
+window.liQ.push(
+ {"event": "conversion", 			 //required
+"email": "[USER_EMAIL]", 			 //required
+});
+</script>
+    
+    <div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_sticky_footer"></div><div data-aaad="true" data-aa-adunit="/22181265/cdkitchen_mob_stickyfooter"></div>   
+    
+<noscript><div class="statcounter"><a href="https://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/642571/0/69287ad8/1/" alt=""></a></div></noscript>
+
+
+
+
+<!-- all code on this site is copyrighted by CDKitchen, Inc. No portion of this code may be used for any purpose.   0 on/off-->
+<br><br><br>
+</body>
+</html>

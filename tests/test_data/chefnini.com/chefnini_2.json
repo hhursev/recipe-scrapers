@@ -1,0 +1,39 @@
+{
+  "author": "chefNini",
+  "canonical_url": "https://www.chefnini.com/porridge-vitamine-a-lorange-sanguine-et-grenade/",
+  "site_name": "chefNini",
+  "host": "chefnini.com",
+  "language": "fr-FR",
+  "title": "Porridge vitaminé à l'orange sanguine et grenade",
+  "ingredients": [
+    "50 g de flocons d’avoine",
+    "25 cl de lait (vache ou végétal : amande/avoine marche très bien)",
+    "1 c. à café rase de sucre en poudre",
+    "1/4 de grenade",
+    "1 orange sanguine",
+    "1 c. à soupe de graines de chia",
+    "1 à 2 c. à café de miel (selon votre envie)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "50 g de flocons d’avoine",
+        "25 cl de lait (vache ou végétal : amande/avoine marche très bien)",
+        "1 c. à café rase de sucre en poudre"
+      ],
+      "purpose": "Base porridge"
+    },
+    {
+      "ingredients": [
+        "1/4 de grenade",
+        "1 orange sanguine",
+        "1 c. à soupe de graines de chia",
+        "1 à 2 c. à café de miel (selon votre envie)"
+      ],
+      "purpose": "Garniture"
+    }
+  ],
+  "yields": "1 servings",
+  "total_time": null,
+  "image": "https://static.chefnini.com/wp-content/uploads/2026/02/IMG_9898-copie.jpg"
+}

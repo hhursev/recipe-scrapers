@@ -1,0 +1,84 @@
+{
+  "author": "Mexican Please",
+  "canonical_url": "https://www.mexicanplease.com/chicken-burritos-with-freshly-made-salsa-verde/",
+  "site_name": "Mexican Please",
+  "host": "mexicanplease.com",
+  "language": "en-US",
+  "title": "Chicken Burritos with Freshly Made Salsa Verde",
+  "ingredients": [
+    "1 cooked chicken breast",
+    "1 cup shredded cheese (I used Jack)",
+    "2-3 cups cooked white rice",
+    "3-4 burrito-sized flour tortillas",
+    "1 avocado",
+    "1 lime",
+    "2-3 tablespoons chopped onion",
+    "1/4 teaspoon salt (plus more to taste)",
+    "4-5 medium sized tomatillos",
+    "1 serrano (or jalapeno)",
+    "1/2 small onion",
+    "1 garlic clove",
+    "10-12 sprigs cilantro"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cooked chicken breast",
+        "1 cup shredded cheese (I used Jack)",
+        "2-3 cups cooked white rice",
+        "3-4 burrito-sized flour tortillas"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1 avocado",
+        "1 lime",
+        "2-3 tablespoons chopped onion",
+        "1/4 teaspoon salt (plus more to taste)"
+      ],
+      "purpose": "For the Easy Guacamole:"
+    },
+    {
+      "ingredients": [
+        "4-5 medium sized tomatillos",
+        "1 serrano (or jalapeno)",
+        "1/2 small onion",
+        "1 garlic clove",
+        "10-12 sprigs cilantro"
+      ],
+      "purpose": "For the Salsa Verde:"
+    }
+  ],
+  "instructions_list": [
+    "Start by husking and rinsing the tomatillos. I usually de-stem them as well knowing that any juices leftover in the roasting pan will go in the blender too. Add the tomatillos to a baking sheet and roast them in the oven at 400F for 15-20 minutes.",
+    "If you want to make rice from scratch for your burritos, start with a single cup of uncooked white rice. Add the rice to a saucepan along with a glug of oil. Let the rice cook over medium heat until it's turning opaque and light brown in color, stirring occasionally. Add 1.5 cups water (or stock) along with 1/2 teaspoon salt. Bring to a boil, then reduce heat to a simmer, cover, and let cook until all the liquid is absorbed. Turn off heat and let sit covered for a few minutes.",
+    "I cooked a single chicken breast for this batch using this simple chicken recipe. Basically you are just seasoning a chopped chicken breast with chile powder and cooking it off with some onion. It's a great all purpose technique for tacos, burritos, tostadas, etc. -- but feel free to cook the chicken as you see fit.",
+    "Add the roasted tomatillos to a blender along with the remaining Salsa Verde ingredients: 1/2 small onion, 1 rinsed and de-stemmed serrano (or jalapeno), 1 peeled garlic clove, and 10-12 sprigs rinsed cilantro. I usually twist off and discard the bottom, thicker portion of the cilantro stems but use the upper stems that hold the leaves together. And keep in mind that you can always start with 1/2 or 1/4 of the serrano if you want a milder batch. After blending and taste testing, simply add additional slivers of serrano if you want to increase the heat. Combine well.",
+    "For the Easy Guacamole, finely chop 2-3 tablespoons of onion. Use the back of a fork to smoosh the onion until it turns translucent. Add onion to a bowl along with the avocado flesh, 1/4 teaspoon of salt, and the juice of a half lime. Mush and mix well. Taste for salt level, adding more if necessary.",
+    "For this batch I chopped up some thin slices of Jack cheese.",
+    "To build the burritos I usually start by warming up the tortilla in a skillet over medium heat, this makes them easier to roll. Each burrito gets cooked white rice, cheese, cooked chicken pieces, guacamole, and plenty of Salsa Verde! Roll tight. Cook your rolled burritos in a dry skillet over medium heat for 1-2 minutes per side -- this will crisp them up and melt the cheese.",
+    "Serve immediately and enjoy!"
+  ],
+  "yields": "3 servings",
+  "description": "Homemade Salsa Verde is a gamechanger! Especially in burritos :)",
+  "total_time": 40,
+  "cook_time": 20,
+  "prep_time": 20,
+  "ratings": 4.88,
+  "ratings_count": 8,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "674 kcal",
+    "fatContent": "24 g",
+    "saturatedFatContent": "8 g",
+    "unsaturatedFatContent": "14 g",
+    "carbohydrateContent": "78 g",
+    "sugarContent": "5 g",
+    "proteinContent": "36 g",
+    "sodiumContent": "776 mg",
+    "fiberContent": "9 g",
+    "cholesterolContent": "78 mg"
+  },
+  "image": "https://www.mexicanplease.com/wp-content/uploads/2026/02/burrito-after-crisping-it-up-and-cut-in-half-2.jpg"
+}

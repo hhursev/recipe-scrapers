@@ -51,6 +51,21 @@ MULTI_ENTITY_SCHEMA = """
   }
 ]
 """
+PROPERTY_VALUE_INGREDIENTS_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "PropertyValue Recipe",
+  "recipeIngredient": [
+    "3 or 4 ripe bananas, smashed",
+    { "@type": "PropertyValue", "value": 1, "name": "egg" },
+    { "@type": "PropertyValue", "value": "3/4", "name": "sugar", "unitCode": "G21" },
+    { "@type": "PropertyValue", "value": "1/2", "name": "flour", "unitText": "cup" }
+  ],
+  "recipeInstructions": "Mix and bake."
+}
+"""
+
 BEST_IMAGE_SCHEMA = """
 {
   "@context": "https://schema.org",
@@ -91,6 +106,17 @@ class TestSchemaOrg(unittest.TestCase):
         self.assertIn("1 slice of bread", parser.ingredients())
         self.assertIn("5g margarine", parser.ingredients())
         self.assertEqual("spread the margarine on the bread", parser.instructions())
+
+    def test_property_value_ingredients(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=PROPERTY_VALUE_INGREDIENTS_SCHEMA
+        )
+        parser = SchemaOrg(page_data)
+        ingredients = parser.ingredients()
+        self.assertIn("3 or 4 ripe bananas, smashed", ingredients)
+        self.assertIn("1 egg", ingredients)
+        self.assertIn("3/4 G21 sugar", ingredients)
+        self.assertIn("1/2 cup flour", ingredients)
 
     def test_best_image_selection(self):
         page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=BEST_IMAGE_SCHEMA)

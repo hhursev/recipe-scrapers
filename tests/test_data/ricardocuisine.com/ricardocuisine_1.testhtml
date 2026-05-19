@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+                                
+        
+                    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-messaging.js"></script>
+<script src="https://wpn.ofsys.com/T/OFC4/WPS/9534/427/cuurL2YZbyigQUZ52p3CQ4o113UP9vj0/DI.WebPush-min.js"></script>
+        
+                        <title>Slow-Cooked Pulled Pork | RICARDO</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="This weekday recipe for pulled pork is easy to make. Just put everything in the slow cooker and get a most comforting supper." />
+    <meta name="author" content="Ricardocuisine" />
+    <meta name="keywords" content="weeknight dinner ideas, weeknight recipes, unique dinner ideas, easy weeknight dinner recipes, quick dinner ideas for family, comfort food recipes, cheap dinner recipes, cheap and easy dinner recipes, pulled pork recipe slow cooker, pulled pork recipes, pork shoulder recipe, slow cooker pork shoulder recipes, slow cooker recipes, pulled pork burger" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="google-site-verification" content="DLpX224OFXnmE_2xaudbyEa3PoE2NzYJjVXQCsGzOxo" />
+
+
+    <meta property="og:site_name" content="Ricardo" />
+    <meta property="og:url" content="https://www.ricardocuisine.com/en/recipes/3111-slow-cooked-pulled-pork" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Slow-Cooked Pulled Pork | RICARDO" />
+    <meta property="og:description" content="This weekday recipe for pulled pork is easy to make. Just put everything in the slow cooker and get a most comforting supper." />
+    <meta property="og:image" content="https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1,0/-/preview/" />
+    <meta property="fb:admins" content="1648309544" />
+
+
+    <meta name="twitter:image:src" content="https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1,0/-/preview/" />
+    <meta name="twitter:creator" content="@Ricardocuisine" />
+    <meta name="twitter:site" content="@Ricardocuisine" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="This weekday recipe for pulled pork is easy to make. Just put everything in the slow cooker and get a most comforting supper." />
+    <meta name="twitter:title" content="Slow-Cooked Pulled Pork ❘ RICARDO | RICARDO" />
+
+    <link rel="dns-prefetch" href="https://www.ricardocuisine.com">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://ucarecdn.com/8fa8aa5c-008e-4b56-9ddf-409f9acfd085/">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://ucarecdn.com/55846db9-5aba-4a6d-a1c5-bd868c9c21b0/">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://ucarecdn.com/75f487ce-84f8-45e2-8382-2a91040df3a2/">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://ucarecdn.com/e5cac828-d45e-420d-9bb7-0d278ee612c2/">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ucarecdn.com/b6ae66ec-9425-4a20-b0f9-4cd00880a4ac/">
+    <link rel="canonical" href="https://www.ricardocuisine.com/en/recipes/3111-slow-cooked-pulled-pork" />
+                        <link rel="alternate" href="https://www.ricardocuisine.com/en/recipes/3111-slow-cooked-pulled-pork" hreflang="x-default" />
+                    <link rel="alternate" href="https://www.ricardocuisine.com/en/recipes/3111-slow-cooked-pulled-pork" hreflang="en" />
+                    <link rel="alternate" href="https://www.ricardocuisine.com/recettes/3111-epaule-de-porc-barbecue-a-la-mijoteuse" hreflang="fr" />
+                    
+                                    <script type='application/ld+json'>{
+    "name": "Slow-Cooked Pulled Pork",
+    "author": {
+        "@type": "Person",
+        "name": "Ricardocuisine"
+    },
+    "image": [
+        "https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1,0/-/preview/-/crop/1:1/",
+        "https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1,0/-/preview/-/crop/4:3/",
+        "https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1,0/-/preview/-/crop/16:9/"
+    ],
+    "datePublished": "2009-03-11T00:00:00-04:00",
+    "prepTime": "PT20M",
+    "cookTime": "PT8H",
+    "recipeIngredient": [
+        "1 can (398 ml/14 oz) plum tomatoes, drained",
+        "1/2 cup (125 ml) ketchup",
+        "1 1/2 tablespoons (22.5 \tml) Worcestershire sauce",
+        "1/4 cup (60 ml) cider vinegar",
+        "1 tablespoon (15 ml) molasses",
+        "1 teaspoon (5 ml) dry mustard",
+        "1 tablespoon (15 ml) soy sauce",
+        "1 onion, coarsely chopped",
+        "2 cloves garlic",
+        "Hot pepper sauce, to taste",
+        "1 pork shoulder roast, about 4 lb (1.8 kg) (with or without bone, untied)",
+        "Salt and pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "Slow-Cooked Pulled Pork",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "In a blender, pur\u00e9e all ingredients except the pork. Season with salt and pepper."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Season the pork with salt and pepper. Place it in the slow cooker with the sauce. Cover and cook on low heat for about 8 hours. Alternatively, cook on high for 6 hours."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Place the meat on a plate and tent with aluminum foil. Let stand 15 minutes, then shred using a fork."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Meanwhile, in a saucepan, bring the sauce to a boil and reduce until syrupy, about half the original volume. Add the meat and coat well with the sauce."
+                }
+            ]
+        }
+    ],
+    "recipeYield": "8 serving(s)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 137,
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "590 calories"
+    },
+    "description": "Plum tomatoes, ketchup, molasses and soy sauce come together to create a succulent sauce for simmering pork shoulder. Once the meat is in the slow cooker, just wait and enjoy the lovely smell wafting through the house. Once cooked, the pork is shredded and ready to garnish a mouth-watering burger.",
+    "recipeCategory": "Main Dishes",
+    "recipeSubCategories": [
+        "Pork",
+        "Budget Recipes",
+        "Slow Cooker Recipes",
+        "Super Bowl"
+    ],
+    "keywords": "weeknight dinner ideas, weeknight recipes, unique dinner ideas, easy weeknight dinner recipes, quick dinner ideas for family, comfort food recipes, cheap dinner recipes, cheap and easy dinner recipes, pulled pork recipe slow cooker, pulled pork recipes, pork shoulder recipe, slow cooker pork shoulder recipes, slow cooker recipes, pulled pork burger",
+    "totalTime": "PT8H20M",
+    "review": [
+        {
+            "@type": "Review",
+            "datePublished": "2025-10-27",
+            "description": "D\u00e9licieux mais beaucoup de sauce pour mettre dans un pain il devient mouill\u00e9, j\u2019ai fait au four 4.172 kg: 2 premi\u00e8re heure a 350 et 4 hre a 300 et j\u2019ai doubl\u00e9 la sauce. J\u2019ai congel\u00e9 les restant. \u00c0 refaire",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2025-07-01",
+            "description": "Apr\u00e8s avoir lu les commentaires, j'ai d\u00e9cid\u00e9 d'ajouter un peu de sauce BBQ (maison) donc un petit peu moins de m\u00e9lasse. J'ai mis 3 ou 4 gouttes de Tabasco, je ne l'ai pas go\u00fbt\u00e9. La prochaine fois j'en mettrai un peu plus.\nC'\u00e9tait d\u00e9licieux!",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2024-01-22",
+            "description": "Fait la m\u00eame pr\u00e9paration mais mis au four \u00e0 350\u2022 pendant 4 heures et laisser reposer environ 15-20 minutes et ensuite j\u2019ai effiloch\u00e9e. R\u00e9duit la sauce de moiti\u00e9 et mis le porc \u00e0 la sauce et WoW!!! Entre deux bonnes tranches de pain baguette grill\u00e9e!!! Je m\u2019en liche encore les doigts!!",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2023-12-19",
+            "description": "J\u2019ai ajout\u00e9 1c. \u00e0 s. comble d\u2019\u00e9pice BBQ. D\u00e9licieux.",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2021-11-08",
+            "description": "Je dois dire wow! Il a bien des recettes que j'ai essay\u00e9 et boff j'ai pas aim\u00e9 mais celle-ci es wow!! J'ai mis de la moutarde de Dijon au lieu de la moutarde s\u00e8che. Je la recommande vraiment!! Elle fait fureur avec mes hommes! D\u00e9finitivement a refaire!!!",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2021-08-29",
+            "description": "Jamais mang\u00e9 un porc \u00e9ffiloch\u00e9 aussi bon. En burger, sandwich c'est un d\u00e9lice. Je retiens l'id\u00e9e de France G. pour faire un p\u00e2t\u00e9 chinois revisit\u00e9 avec les restes....... s'il y en a!",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2021-06-07",
+            "description": "Excellente recette, mes enfants ont ador\u00e9 le porc en sandwich dans un bon pain ciabbata.",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2021-02-28",
+            "description": "4,5 \u00e9toiles. Cuit \u00e0 la mijoteuse \u00e0 medium pendant 4hres. J'aurais d\u00fb lire les premiers commentaires et \u00f4ter le gras sur la pi\u00e8ce de viande et/ou d\u00e9graisser la sauce avant de la faire r\u00e9duire. Le gras camoufle le go\u00fbt de la sauce. Somme toute, nous avons appr\u00e9ci\u00e9 notre souper.",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2020-08-18",
+            "description": "Excellent!  Une viande tendre \u00e0 souhait.  D\u00e9licieux avec pain burger et fromage!",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2019-11-18",
+            "description": "\u00c7a prends 8 autres heures pour r\u00e9duire la sauce...un peu d'ail et de sirop d'\u00e9rable pour rehausser le tout.",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            }
+        }
+    ],
+    "video": [],
+    "tags": [
+        "meal-type_dinner",
+        "meal-type_main-dish",
+        "theme_cooking-for-a-crowd",
+        "occasion_super-bowl",
+        "diet_dairy-free-diet",
+        "diet_egg-free-diet",
+        "diet_lactose-free-diet",
+        "diet_nut-free-diet",
+        "season_winter",
+        "technique_slow-cook",
+        "ingredient_meat",
+        "food-habit_carnivorous",
+        "diet_groundnut-free-diet",
+        "ingredient_regime_not-vegetarian",
+        "ingredient_regime_not-vegan",
+        "ingredient_regime_gluten"
+    ],
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "url": "https://www.ricardocuisine.com/",
+            "name": "Ricardo",
+            "description": "Become a pro in the kitchen with Ricardo Cuisine. Learn all the skills, techniques and recipes you need to prepare amazing meals and desserts."
+        }
+    ]
+}</script>
+                    
+        
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'functionality_storage': 'denied',
+    'personalization_storage': 'denied',
+    'security_storage': 'denied'
+  });
+
+  // Custom page view event, used for Clarity
+  dataLayer.push({
+    event: 'pageview_custom',
+    page: {
+      path: window.location.pathname,
+      url: window.location.href,
+      language: "en",
+      title: "Slow-Cooked Pulled Pork | RICARDO",
+    },
+    user: {
+      loggedIn: "false",
+      userId: null,
+      userStatus: "guest"
+    }
+  });
+</script>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NLHDPH');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+  var d = new Date();
+  d.setTime(d.getTime() + (30*24*60*60*1000));
+  var expires = "expires="+d.toUTCString();
+  document.cookie = "ricardolang=en; "+expires+"; path=/";
+
+  // Begin comScore Tag
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "18420128",
+    options: {
+      enableFirstPartyCookie: true
+    }
+  });
+
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = "https://sb.scorecardresearch.com/cs/18420128/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+  // End comScore Tag
+</script>
+
+<noscript>
+    <img src=https://sb.scorecardresearch.com/p?c1=2&amp;c2=18420128&amp;cv=3.6.0&amp;cj=1>
+</noscript>
+
+        <meta name="p:domain_verify" content="bfdf5372ca248009176bb723e834b617">
+
+                
+        <script src="/build/ui-client/index.es.ee2fa82a.js" type="module"></script>
+        <link href="/build/ui-legacy/index.424e7ceb.css" rel="stylesheet">
+        <link href="/build/ui-legacy/print.174ce6c1.css" rel="stylesheet" media="print">
+        <link href="/build/ui-library/index.f884a268.css" rel="stylesheet">
+        
+        <script>
+                    window.webUserId = null;
+        </script>
+
+                
+        <style>
+            /* Fix on images rendering blurriness on chrome for MacOS */
+
+            /* Chrome version 29 and above */
+            @media screen and (-webkit-min-device-pixel-ratio:0)
+            and (min-resolution:.001dpcm) {
+                img.image-crisp{ image-rendering: -webkit-optimize-contrast; }
+            }
+
+            /* Chrome version 22-28 */
+            @media screen and(-webkit-min-device-pixel-ratio:0) {
+                img.image-cris { -chrome-:only (;
+                    image-rendering: -webkit-optimize-contrast;
+                );}
+            }
+        </style>
+
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+        <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            appId            : '884142751142015',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v11.0'
+            });
+        };
+        </script>
+
+          <script src="/js/translations.ee2fa834.js"></script>
+  <script src="/js/routes.ee2fa834.js"></script>
+  <script src="/js/ads.ee2fa834.js"></script>
+
+<script>
+        window.ricardo_assets_base = "https://www.ricardocuisine.com/build/"
+  </script>
+
+  <script src="https://rdc.m32.media/madops.min.js"></script>
+
+<script src="//www.ricardocuisine.com/en/js/ads"></script>
+
+<script type="text/javascript">
+  window.ricardo_ads.dfpLabel = 'recipe';
+</script>
+
+<script>
+  var ricardo_advertising_data = {
+      permanenceKey: "",
+      target: "bbq_quebec;btq_65016435_MIJOTEUSE;btq_9099846_mijoteuse;cirio;desjardins_caisse_mijoteuse;iga_poivrons;ingredient_oignon;ingredient_porc;nespresso_themes_automne;plats_principaux;sauces-mijotes;spiritueux-iberville_amermelade-spritz;spiritueux-iberville_pomodoro;theme_mijoteuse;valeurs_sures_liste-depicerie;vins_fruite_genereux;"
+  };
+  var ricardo_target_tags = ricardo_advertising_data.target;
+</script>
+
+
+<script src="https://s3.us-west-2.amazonaws.com/application-mia-player-prod.rubiconproject.com/pub.js" data-publisher-id="66170"></script>
+
+
+                    <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="default">
+            <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+
+            <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/serviceWorker.js').then(registration => {
+    const isPWA = window.matchMedia('(display-mode: standalone)').matches ||
+                  window.matchMedia('(display-mode: fullscreen)').matches ||
+                  window.navigator.standalone === true;
+
+    // Send PWA mode to Service Worker
+    if (navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.postMessage({
+        type: 'SET_PWA_MODE',
+        isPWA: isPWA
+      });
+    }
+
+    /**
+      * registration.installing: the installing worker, or undefined
+      * registration.waiting: the waiting worker, or undefined
+      * registration.active: the active worker, or undefined
+      */
+    registration.addEventListener('updatefound', () => {
+      const newWorker = registration.installing;
+      /**
+        * newWorker.state:
+        * "installing": the install event has fired, but not yet complete
+        * "installed"  - install complete
+        * "activating" - the activate event has fired, but not yet complete
+        * "activated"  - fully active
+        * "redundant"  - discarded. Either failed install, or it's been replaced by a newer version
+        */
+
+      newWorker.addEventListener('statechange', () => {
+        if (registration.waiting) {
+          // if there's an existing controller (previous Service Worker), post a message to set the new one as active
+          if (navigator.serviceWorker.controller) {
+            registration.waiting.postMessage('SKIP_WAITING');
+          }
+          // else there is no previous Service Worker so its the first install, nothing to do
+        }
+      });
+    });
+
+    let refreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!refreshing) {
+        // This fires when the service worker controlling this page changes, eg a new worker has skipped waiting and become the new active worker.
+        window.location.reload();
+        window.localStorage.setItem('ricardo.app.sw_update', JSON.stringify(new Date().getTime()));
+        refreshing = true;
+      }
+    });
+  });
+
+  window.addEventListener('load', () => {
+    const t = new Date().getTime();
+    if (t >= JSON.parse(window.localStorage.getItem('ricardo.app.sw_update') || '0')) {
+      window.localStorage.removeItem('ricardo.app.sw_update');
+      document.dispatchEvent(new CustomEvent('appReady'));
+    }
+  });
+}
+</script>            </head>
+    <body class="  ">
+                    <script>
+  if (window.matchMedia("(display-mode: standalone)").matches || navigator.standalone) {
+    document.body.classList.add('l-body', 'l-body--app');
+  }
+</script>        
+                <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLHDPH"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager -->
+        <div data-m32-ad data-options='{"out-of-page":true,"dfpId":"58464579","dfpAdUnitPath":"Ricardo-en/Recipes"}'></div>
+        <div class="wrapper" id="top">
+                                                
+        
+  
+  <div 
+    class="c-advertisement__parent c-advertisement__catfish-parent"
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__catfish &quot;,&quot;responsiveSizes&quot;:{&quot;mobile&quot;:&quot;banner&quot;},&quot;position&quot;:1}'
+  ></div>
+
+                            
+                            <div class="wrapHeader">
+            
+
+<div class="topbar">
+                
+    <div class="activsite">Recipes <i class="far fa-chevron-down">&nbsp;</i></div>
+
+    <nav class="topbar topbar__nav">
+        <ul class="menu">
+                    <li class="active"><a href="/en">Recipes</a></li>
+                    <li ><a href="https://boutique.ricardocuisine.com/en/">Boutique</a></li>
+                    <li ><a href="https://www.cafericardo.com/index-en.html">Restaurant</a></li>
+                    <li ><a href="/en/subscriptions">Subscriptions</a></li>
+                    <li ><a href="/en/foodproducts">Food products</a></li>
+                    <li ><a href="https://corporicardo.com/en">Corporate</a></li>
+                    <li ><a href="/en/careers">Careers</a></li>
+                </ul>
+    </nav>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.activsite').addEventListener('click', function(e) {
+                this.closest('.topbar').classList.toggle('topbar-visible');
+            });
+        });
+    </script>
+    <nav class="topbar topbar__utils">
+        <div class="topbar topbar__social">
+            <a href="https://www.facebook.com/ricardocuisine/" class="social__btn social__btn-fb"><i class="i-Facebook i-icon c-icon"></i></a>
+            <a href="https://www.instagram.com/ricardocuisine/" class="social__btn social__btn-ig"><i class="i-Instagram i-icon c-icon"></i></a>
+            <a href="https://www.pinterest.ca/ricardocuisine/" class="social__btn social__btn-pin"><i class="i-Pinterest i-icon c-icon"></i></a>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="/recettes/3111-epaule-de-porc-barbecue-a-la-mijoteuse">FR</a>
+            </li>
+        </ul>
+        <div class="menu__account">
+            
+<div id='user-navigation' class="userNav">
+    <a href="#userConnect" class="btn-mon-espace loggedin fancybox-user-connected" data-id="userConnect" data-action="popover" data-placement="bottom-link">
+        <i class="i-icon i-User c-icon c-user-icon ico"></i><span id="user-first-name"></span><!-- &nbsp;<span id="user-last-name"></span>--><i class="ico i-icon i-Chevron-Down"></i>
+    </a>
+    <div id="userConnect" class="popover bottom-link userConnect">
+        <div class="arrow"></div>
+        <div id="userConnectContent" class="popover-inner userConnectContent c-react-app">
+            <div class="popover-content t-title t-title--xsmall t-typo--regular">
+                <ul>
+                    <li><a href="//www.ricardocuisine.com/en/my-space/my-profile" rel="nofollow" class="edit-profile">
+                        <span class="i-icon i-User c-icon"></span>My profile
+                    </a></li>
+                    <li><a href="//www.ricardocuisine.com/en/my-space/my-recipes" rel="nofollow">
+                        <span class="i-icon i-Filled-Heart c-icon"></span>My recipes
+                    </a></li>
+                                        <li><a href="//www.ricardocuisine.com/en/my-space/my-menu-planner" rel="nofollow">
+                        <span class="i-icon i-Calendar c-icon"></span>My menu planner
+                    </a></li>
+                                        <li><a href="//www.ricardocuisine.com/en/my-space/my-grocery-list" rel="nofollow">
+                        <span class="i-icon i-List-Check c-icon"></span>My grocery list
+                    </a></li>
+                    <li><a href="//www.ricardocuisine.com/en/logout" rel="nofollow">
+                        <span class="i-icon i-Logout c-icon"></span>Logout
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button class="btn-mon-espace notloggedin react-bus-publisher" data-bus-event="Authentification.OpenLogin"><i class="i-icon i-User c-icon c-user-ico ico"></i><span>My RICARDO</span></button>
+</div>
+        </div>
+    </nav>
+</div>
+    
+            <header id="header" class="main-header" role="banner">
+    <div class="top-header">
+        <div class="innerWrap">
+            <a href="//www.ricardocuisine.com/en/" class="brand__logo">
+                <img src="/build/ui-legacy/assets/img/logo-ricardo-black-2x.png" alt="Ricardocuisine.com/en" width="140" height="23">
+            </a>
+            <div class="main-nav">
+                <a id="nav-princ-btn" class="btn-nav-princ"><span>Open main navigation</span></a>
+                <nav id="nav-princ" class="nav-princ">
+                    <ul class="menu">
+                                                                        <li class="first expanded">
+                                                            <a href="/en/recipes">Recipes<i class="i-icon c-icon i-Chevron-Down nav-princ__arrow" aria-hidden="true"></i></a>
+                                                                                                                                                            <ul class="menu lvl2">
+                                                                                                                                    <li class="first expanded selected">
+                                                                                            <a href="/en/recipes/main-dishes">Main Dishes<i class="i-icon c-icon i-Chevron-Down nav-princ__arrow" aria-hidden="true"></i></a>
+                                                <ul class="menu lvl3">
+                                                                                                                                                                                                                                        <li class="first leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/barley-and-quinoa">Barley and quinoa</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/beef">Beef</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/breakfast-and-brunch">Breakfast and brunch</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/chicken">Chicken</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/duck">Duck</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/eggs">Eggs</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/fish">Fish</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/fondue">Fondue</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/game">Game</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/goose-guinea-fowl-and-other-poultry">Goose, guinea fowl and other poultry</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/lamb">Lamb</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/legumes">Legumes</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/pasta">Pasta</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/pork">Pork</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/quiches-and-savoury-pies">Quiches and savoury pies</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/rice">Rice</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/risotto">Risotto</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/sandwiches">Sandwiches</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/seafood">Seafood</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/tofu-soy-and-co">Tofu, soy and co.</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/turkey">Turkey</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/veal">Veal</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="last leaf">
+                                                                                                                        <a href="/en/recipes/main-dishes/vegetarian">Vegetarian</a>
+                                                            </li>
+                                                                                                                                                            </ul>
+                                            </li>
+                                                                                                                                    <li class="expanded">
+                                                                                            <a href="/en/recipes/appetizers">Appetizers<i class="i-icon c-icon i-Chevron-Down nav-princ__arrow" aria-hidden="true"></i></a>
+                                                <ul class="menu lvl3">
+                                                                                                                                                                                                                                        <li class="first leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/appetizer">Appetizers</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/dips-and-salty-spreads">Dips and salty spreads</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/dressings-and-mayonnaise">Dressings and mayonnaise</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/drinks-and-cocktails">Drinks and cocktails</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/grilling-marinades">Grilling marinades</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/hors-d-oeuvres">Hors d&#039;oeuvres</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/jar-mixes-and-ketchups">Jar mixes and ketchups </a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/non-alcoholic-drinks-mocktails">Non-alcoholic drinks and mocktails</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/salads">Salads</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/soups_and_broth">Soups and broths</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/sauces-butters-and-pestos">Sauces, butter and pesto</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/savoury-breads">Savoury breads</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="last leaf">
+                                                                                                                        <a href="/en/recipes/appetizers/vegetables-and-gratinees">Vegetables and gratinees</a>
+                                                            </li>
+                                                                                                                                                            </ul>
+                                            </li>
+                                                                                                                                    <li class="expanded">
+                                                                                            <a href="/en/recipes/desserts">Desserts<i class="i-icon c-icon i-Chevron-Down nav-princ__arrow" aria-hidden="true"></i></a>
+                                                <ul class="menu lvl3">
+                                                                                                                                                                                                                                        <li class="first leaf">
+                                                                                                                        <a href="/en/recipes/desserts/bars-and-squares">Bars and squares</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/brownies">Brownies</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/cakes">Cakes</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/candies-chocolates-sweets-and-snacks">Candies, chocolates, sweets and snacks</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/cookies">Cookies</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/cream-desserts-mousses-and-meringues">Cream desserts, mousse and meringues</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/crepes-and-pancakes">Crepes and pancakes</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/crisps-and-crumbles">Crisps and crumbles</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/cupcakes">Cupcakes</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/frozen-desserts">Frozen desserts</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/fruit">Fruit</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/jam-and-sweet-spreads">Jam and sweet spreads</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/muffins-and-dessert-breads">Muffins and dessert breads</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/Pastries">Pastries</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/pies">Pies</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/desserts/pudding-and-tapioca">Pudding and tapioca</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="last leaf">
+                                                                                                                        <a href="/en/recipes/desserts/yogurt-and-cheese">Yogurt and cheese</a>
+                                                            </li>
+                                                                                                                                                            </ul>
+                                            </li>
+                                                                                                                                    <li class="last expanded">
+                                                                                            <a href="/en/recipes/ingredients">Ingredients<i class="i-icon c-icon i-Chevron-Down nav-princ__arrow" aria-hidden="true"></i></a>
+                                                <ul class="menu lvl3">
+                                                                                                                                                                                                                                        <li class="first leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/beef">Beef</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/cheese">Cheese</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/chicken">Chicken</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/chocolate">Chocolate</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/cranberries">Cranberries</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/cream">Cream</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/duck">Duck</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/eggs">Eggs</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/fish">Fish</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/fruit">Fruit</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/game-meats">Game meats</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/lamb">Lamb</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/legumes">Legumes</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/lobster">Lobster</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/pasta">Pasta</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/pork">Pork</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/salmon">Salmon</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/shrimp">Shrimp</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/tofu">Tofu</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/turkey">Turkey</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/veal">Veal</a>
+                                                            </li>
+                                                                                                                                                                                    <li class="last leaf">
+                                                                                                                        <a href="/en/recipes/ingredients/vegetables">Vegetables</a>
+                                                            </li>
+                                                                                                                                                            </ul>
+                                            </li>
+                                                                            </ul>
+                                                                                                </li>
+                                                                                                        <li class="expanded">
+                                <a href="/en/recipe-categories">Discover<i class="i-icon c-icon i-Chevron-Down nav-princ__arrow" aria-hidden="true"></i></a>
+                                                                                                                                                            <ul class="menu lvl3">
+                                                                                                                        <li class="first leaf">
+                                                                                <a href="/en/recipe-categories/30-minute-recipes">30-Minute Recipes</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipes/main-dishes/breakfast-and-brunch">Breakfast and brunch</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/budget-friendly">Budget Recipes</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/comfort-food">Comfort Food</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/eat-local">Eat local</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/healthy">Healthy</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/homemade-recipes">Homemade Recipes</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/https://www.ricardocuisine.com/en/recipe-categories/isabelle-recipes">Isabelle&#039;s Recipes</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/recipes-from-our-most-recent-magazine">Recipes from our most recent magazine</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/the-best">The Best</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/vegan">Vegan</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/vegetarian">Vegetarian</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/weekday-recipes">Weekday Recipes</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/world-cuisine">World Cuisine</a>
+                                        </li>
+                                                                                                                        <li class="leaf">
+                                                                                <a href="/en/recipe-categories/zero-waste">Zero Waste</a>
+                                        </li>
+                                                                                                                        <li class="last leaf">
+                                                                                <a href="/en/recipe-categories">View All Categories</a>
+                                        </li>
+                                                                        </ul>
+                                                                                                </li>
+                                                                                                        <li class="collapsed">
+                                    <a href="/en/articles">Read</a>
+                                                                                                                </li>
+                                                                        <li class="last leaf">
+                                                            <a href="/en/video">Watch</a>
+                                                                                                                </li>
+                                        </ul>
+                </nav>
+            </div>
+            <div class="main-nav__tools">
+                                <div data-react-app="searchInput" data-react-app-props="{&quot;expandsHorizontally&quot;:true}" class="search-input"></div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div data-react-app="searchInput"></div>
+</div>
+            
+            <div data-react-app="installationBanner"></div>
+                                                <div data-react-app="appTopBar" class="c-top-bar-wrapper c-top-bar-wrapper--in"></div>
+                                                                        
+        
+  
+  <div 
+    class="c-advertisement__parent c-advertisement__sticky"
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner c-advertisement__banner-top&quot;,&quot;responsiveSizes&quot;:{&quot;desktop&quot;:&quot;bannerXL&quot;,&quot;tablet&quot;:&quot;bannerXL&quot;},&quot;position&quot;:1}'
+  ></div>
+
+                                                                    
+            
+            <div id="content-wrapper">
+                                    <div class="l-wrapper l-wrapper__content">
+                                                <div id="main" role="main" class="wrapMain">
+                            <div class="c-react-app c-recipe l-container l-container--medium" itemscope itemtype="https://schema.org/WebPage">
+    <div data-react-app="recipe" data-react-app-props="{&quot;recipeId&quot;:3111,&quot;recipeTitle&quot;:&quot;Slow-Cooked Pulled Pork&quot;,&quot;isTada&quot;:false,&quot;isAdvertisement&quot;:false,&quot;publication&quot;:null}"></div>
+    <div class="c-widget-anchor" data-react-app="widgetActions" data-react-app-props="{&quot;objectType&quot;:&quot;recipe&quot;,&quot;objectId&quot;:3111,&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;,&quot;source&quot;:&quot;recipe&quot;,&quot;isTada&quot;:false}"></div>
+  <div class="c-recipe__header l-grid">
+    <div class="c-recipe__item c-recipe__picture">
+              
+<div class="c-recipe-picture" data-react-app="recipePictureActions" data-react-app-props="{&quot;recipeId&quot;:3111,&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;,&quot;isTada&quot;:false}">
+        <img
+          srcset="https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1%2C0/-/preview/-/scale_crop/496x670/-/quality/smart/-/format/preserve/ 1x, https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1%2C0/-/preview/-/scale_crop/992x1340/-/quality/smart_retina/-/format/preserve/ 2x"
+              src="https://ucarecdn.com/2b9d3927-d80d-42d2-a81f-ea53e2e1277a/-/crop/1919x2592/1%2C0/-/preview/-/scale_crop/496x670/-/quality/smart/-/format/preserve/"
+              alt="Slow-Cooked Pulled Pork"
+              itemprop="primaryImageOfPage"
+      >
+  </div>
+          </div>
+    <div class="c-recipe__item c-recipe__badge  c-recipe__item--hidden">
+                </div>
+    <div class="c-recipe__item c-recipe__sponsor  c-recipe__item--hidden">
+        </div>
+    <div class="c-recipe__item c-recipe__heading">
+      <h1 class="c-recipe__heading-title">
+  <span class="t-title t-title--xlarge t-typo--serif">Slow-Cooked Pulled Pork</span>
+</h1>
+<div class="c-recipe__rating">
+  <a href="#comments" class="c-rating scrollToTarget">
+          <div class="c-rating__star  c-rating__star--selected">
+        <span class="i-icon i-star c-icon"></span>
+      </div>
+          <div class="c-rating__star  c-rating__star--selected">
+        <span class="i-icon i-star c-icon"></span>
+      </div>
+          <div class="c-rating__star  c-rating__star--selected">
+        <span class="i-icon i-star c-icon"></span>
+      </div>
+          <div class="c-rating__star  c-rating__star--selected">
+        <span class="i-icon i-star c-icon"></span>
+      </div>
+          <div class="c-rating__star  c-rating__star--selected">
+        <span class="i-icon i-star c-icon"></span>
+      </div>
+      </a>
+  <div class="c-recipe__rating-count">(137)</div>
+  <a href="#comments-form" class="c-recipe__rating-trigger scrollToTarget">
+    Rate this recipe
+  </a>
+</div>
+    </div>
+    <div class="c-recipe__partnership-heading c-recipe__item c-recipe__item--hidden">
+      <div class="c-alert c-alert--solid c-alert--info c-alert--with-icon">
+  <div class="c-alert__icon">
+    <span class="i-icon i-Info-Filled-Circle c-icon" />
+  </div>
+  <div class="c-alert__content-wrapper t-body--small">
+    <div class="c-alert__content">
+          This sponsored content is a format made by or for an advertiser.
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="c-recipe__item c-recipe__times">
+      
+<ul class="c-recipe-times">
+      <li class="c-recipe-times__item">
+      <span class="c-recipe-times__label t-card--time">Preparation</span>
+      <span class="c-recipe-times__value t-typo--bold t-typo--low">
+        <meta content="PT20M">
+        20 min 
+      </span>
+    </li>
+      <li class="c-recipe-times__item">
+      <span class="c-recipe-times__label t-card--time">Cooking</span>
+      <span class="c-recipe-times__value t-typo--bold t-typo--low">
+        <meta content="PT8H">
+        8 h 
+      </span>
+    </li>
+        <li class="c-recipe-times__item">
+      <span class="c-recipe-times__label t-card--time">Servings</span>
+      <span class="c-recipe-times__value t-typo--bold t-typo--low">8</span>
+    </li>
+           
+    <li class="c-recipe-times__item c-recipe-per-portion" data-react-app="pricePerPortion" data-react-app-props="{&quot;content&quot;:3.5}"></li>
+    </ul>    </div>
+    <div class="c-recipe__item c-recipe__description">
+          <p>Plum tomatoes, ketchup, molasses and soy sauce come together to create a succulent sauce for simmering pork shoulder. Once the meat is in the slow cooker, just wait and enjoy the lovely smell wafting through the house. Once cooked, the pork is shredded and ready to garnish a mouth-watering burger.</p>
+        </div>
+    <div class="c-recipe__item c-recipe__publication c-recipe__item--hidden">
+        </div>
+    <div class="c-recipe__item c-recipe__allergens">
+          <ul class="c-allergens">
+    <li class="c-allergens__item">
+    <button class="c-button t-link t-typo--bold t-typo--uppercase c-button--icon c-button--medium c-button--with-tooltip react-bus-publisher" data-bus-event="Tooltip.Open" data-tooltip-content="Nut-free" type="button">
+      <span class="c-button__icon-wrapper i-icon diet_nut-free-diet c-icon"></span>
+    </button>
+    <span class="c-allergens__item-label t-body--small">Nut-free</span>
+  </li>
+    <li class="c-allergens__item">
+    <button class="c-button t-link t-typo--bold t-typo--uppercase c-button--icon c-button--medium c-button--with-tooltip react-bus-publisher" data-bus-event="Tooltip.Open" data-tooltip-content="Lactose-free" type="button">
+      <span class="c-button__icon-wrapper i-icon diet_lactose-free-diet c-icon"></span>
+    </button>
+    <span class="c-allergens__item-label t-body--small">Lactose-free</span>
+  </li>
+    <li class="c-allergens__item">
+    <button class="c-button t-link t-typo--bold t-typo--uppercase c-button--icon c-button--medium c-button--with-tooltip react-bus-publisher" data-bus-event="Tooltip.Open" data-tooltip-content="Dairy-free" type="button">
+      <span class="c-button__icon-wrapper i-icon diet_dairy-free-diet c-icon"></span>
+    </button>
+    <span class="c-allergens__item-label t-body--small">Dairy-free</span>
+  </li>
+    <li class="c-allergens__item">
+    <button class="c-button t-link t-typo--bold t-typo--uppercase c-button--icon c-button--medium c-button--with-tooltip react-bus-publisher" data-bus-event="Tooltip.Open" data-tooltip-content="Egg-free" type="button">
+      <span class="c-button__icon-wrapper i-icon diet_egg-free-diet c-icon"></span>
+    </button>
+    <span class="c-allergens__item-label t-body--small">Egg-free</span>
+  </li>
+  </ul>
+        </div>
+    <div class="c-recipe__item c-recipe__nutritional">
+          
+<div data-react-app="nutritionalFacts" data-react-app-props="{&quot;data&quot;:[{&quot;id&quot;:73656,&quot;order&quot;:1,&quot;portion&quot;:&quot;For 1 serving&quot;,&quot;headerText&quot;:&quot;With a 1.8 kg (4 lb) boneless pork shoulder roast&quot;,&quot;footerText&quot;:&quot;&quot;,&quot;rows&quot;:[{&quot;elementId&quot;:1,&quot;elementTitle&quot;:&quot;Calories&quot;,&quot;value&quot;:&quot;590&quot;,&quot;isParent&quot;:true,&quot;order&quot;:1,&quot;unit&quot;:null},{&quot;elementId&quot;:2,&quot;elementTitle&quot;:&quot;Total Fat&quot;,&quot;value&quot;:&quot;43&quot;,&quot;isParent&quot;:true,&quot;order&quot;:2,&quot;unit&quot;:&quot;g&quot;},{&quot;elementId&quot;:3,&quot;elementTitle&quot;:&quot;Saturated Fat&quot;,&quot;value&quot;:&quot;16&quot;,&quot;isParent&quot;:false,&quot;order&quot;:3,&quot;unit&quot;:&quot;g&quot;},{&quot;elementId&quot;:4,&quot;elementTitle&quot;:&quot;Sodium (salt)&quot;,&quot;value&quot;:&quot;517&quot;,&quot;isParent&quot;:true,&quot;order&quot;:5,&quot;unit&quot;:&quot;mg&quot;},{&quot;elementId&quot;:5,&quot;elementTitle&quot;:&quot;Carbohydrates&quot;,&quot;value&quot;:&quot;10&quot;,&quot;isParent&quot;:true,&quot;order&quot;:6,&quot;unit&quot;:&quot;g&quot;},{&quot;elementId&quot;:6,&quot;elementTitle&quot;:&quot;Fibre&quot;,&quot;value&quot;:&quot;1&quot;,&quot;isParent&quot;:false,&quot;order&quot;:7,&quot;unit&quot;:&quot;g&quot;},{&quot;elementId&quot;:7,&quot;elementTitle&quot;:&quot;Protein&quot;,&quot;value&quot;:&quot;40&quot;,&quot;isParent&quot;:true,&quot;order&quot;:9,&quot;unit&quot;:&quot;g&quot;}]}]}"></div>
+<span>See</span>
+<button class="c-nutritional-facts__trigger react-bus-publisher c-link-button c-link-button--inline t-link" data-bus-event="Recipe.OpenNutritionalFactsModal">
+   <span class="c-link-button__label t-body"><strong>Nutrition Facts</strong></span>
+</button>
+        </div>
+    <div class="c-recipe__categories c-recipe__item">
+      
+
+<div class="c-recipe-categories" data-react-app="recipeCategories" data-react-app-props="{&quot;categories&quot;:[{&quot;parentType&quot;:{&quot;isRecipeType&quot;:true,&quot;id&quot;:3,&quot;title&quot;:&quot;Main Dishes&quot;,&quot;uriPart&quot;:&quot;recipes\/main-dishes&quot;,&quot;url&quot;:null,&quot;code&quot;:&quot;cat-main-dishes&quot;,&quot;isFeatured&quot;:false},&quot;picture&quot;:null,&quot;isActive&quot;:null,&quot;isInMenu&quot;:null,&quot;isNew&quot;:null,&quot;countRecipes&quot;:0,&quot;uri&quot;:&quot;recipes\/main-dishes\/pork&quot;,&quot;id&quot;:2165,&quot;title&quot;:&quot;Pork&quot;,&quot;uriPart&quot;:&quot;pork&quot;,&quot;url&quot;:null,&quot;code&quot;:null,&quot;isInList&quot;:null,&quot;isFeatured&quot;:false},{&quot;parentType&quot;:{&quot;isRecipeType&quot;:false,&quot;id&quot;:4,&quot;title&quot;:&quot;Recipe categories&quot;,&quot;uriPart&quot;:&quot;recipe-categories&quot;,&quot;url&quot;:null,&quot;code&quot;:&quot;cat-themes&quot;,&quot;isFeatured&quot;:false},&quot;picture&quot;:null,&quot;isActive&quot;:null,&quot;isInMenu&quot;:null,&quot;isNew&quot;:null,&quot;countRecipes&quot;:0,&quot;uri&quot;:&quot;recipe-categories\/budget-friendly&quot;,&quot;id&quot;:2443,&quot;title&quot;:&quot;Budget Recipes&quot;,&quot;uriPart&quot;:&quot;budget-friendly&quot;,&quot;url&quot;:null,&quot;code&quot;:null,&quot;isInList&quot;:null,&quot;isFeatured&quot;:false},{&quot;parentType&quot;:{&quot;isRecipeType&quot;:false,&quot;id&quot;:4,&quot;title&quot;:&quot;Recipe categories&quot;,&quot;uriPart&quot;:&quot;recipe-categories&quot;,&quot;url&quot;:null,&quot;code&quot;:&quot;cat-themes&quot;,&quot;isFeatured&quot;:false},&quot;picture&quot;:null,&quot;isActive&quot;:null,&quot;isInMenu&quot;:null,&quot;isNew&quot;:null,&quot;countRecipes&quot;:0,&quot;uri&quot;:&quot;recipe-categories\/slow-cooker-recipes&quot;,&quot;id&quot;:2255,&quot;title&quot;:&quot;Slow Cooker Recipes&quot;,&quot;uriPart&quot;:&quot;slow-cooker-recipes&quot;,&quot;url&quot;:null,&quot;code&quot;:null,&quot;isInList&quot;:null,&quot;isFeatured&quot;:false},{&quot;parentType&quot;:{&quot;isRecipeType&quot;:false,&quot;id&quot;:4,&quot;title&quot;:&quot;Recipe categories&quot;,&quot;uriPart&quot;:&quot;recipe-categories&quot;,&quot;url&quot;:null,&quot;code&quot;:&quot;cat-themes&quot;,&quot;isFeatured&quot;:false},&quot;picture&quot;:null,&quot;isActive&quot;:null,&quot;isInMenu&quot;:null,&quot;isNew&quot;:null,&quot;countRecipes&quot;:0,&quot;uri&quot;:&quot;recipe-categories\/super-bowl&quot;,&quot;id&quot;:2299,&quot;title&quot;:&quot;Super Bowl&quot;,&quot;uriPart&quot;:&quot;super-bowl&quot;,&quot;url&quot;:null,&quot;code&quot;:null,&quot;isInList&quot;:null,&quot;isFeatured&quot;:false},{&quot;parentType&quot;:{&quot;isRecipeType&quot;:false,&quot;id&quot;:5,&quot;title&quot;:&quot;Ingredients&quot;,&quot;uriPart&quot;:&quot;recipes\/ingredients&quot;,&quot;url&quot;:null,&quot;code&quot;:&quot;cat-ingredient&quot;,&quot;isFeatured&quot;:false},&quot;picture&quot;:null,&quot;isActive&quot;:null,&quot;isInMenu&quot;:null,&quot;isNew&quot;:null,&quot;countRecipes&quot;:0,&quot;uri&quot;:&quot;recipes\/ingredients\/pork&quot;,&quot;id&quot;:2219,&quot;title&quot;:&quot;Pork&quot;,&quot;uriPart&quot;:&quot;pork&quot;,&quot;url&quot;:null,&quot;code&quot;:null,&quot;isInList&quot;:null,&quot;isFeatured&quot;:false}]}">
+  <h2 className="c-recipe-categories__title">Categories</h2>
+</div>
+    </div>
+  </div>
+
+  <div class="c-recipe__body l-grid">
+    <aside class="c-recipe__aside">
+      
+        
+  
+  <div 
+    class="c-advertisement__parent c-ads__box"
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner&quot;,&quot;responsiveSizes&quot;:{&quot;desktop&quot;:&quot;bigBox&quot;,&quot;tablet&quot;:&quot;bigBox&quot;},&quot;position&quot;:1}'
+  ></div>
+
+                  <div class="c-recipe__suggestions">
+        <div data-react-app="recipeSuggestions" data-react-app-props="{&quot;suggestionsTitle&quot;:&quot;&quot;,&quot;suggestions&quot;:[{&quot;id&quot;:161366,&quot;title&quot;:&quot;Pasta with Merguez and Creamy Sun-Dried Tomato Sauce&quot;,&quot;recipeTimes&quot;:[{&quot;categoryName&quot;:&quot;Preparation&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:15,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;15 MIN &quot;,&quot;code&quot;:&quot;preparation&quot;,&quot;metaDataProperty&quot;:&quot;prepTime&quot;,&quot;metaDataValue&quot;:&quot;PT15M&quot;,&quot;seconds&quot;:900},{&quot;categoryName&quot;:&quot;Cooking&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:20,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;20 MIN &quot;,&quot;code&quot;:&quot;cooking&quot;,&quot;metaDataProperty&quot;:&quot;cookTime&quot;,&quot;metaDataValue&quot;:&quot;PT20M&quot;,&quot;seconds&quot;:1200}],&quot;recipeTimeTotal&quot;:&quot;35 min &quot;,&quot;preparationTimeTotal&quot;:&quot;15 min &quot;,&quot;picture&quot;:&quot;https:\/\/ucarecdn.com\/e608215e-3444-4f6a-b6d5-fddd83d21da5\/-\/crop\/4725x6389\/0,1629\/-\/preview\/&quot;,&quot;uriPart&quot;:&quot;pasta-with-merguez-and-creamy-sun-dried-tomato-sauce&quot;,&quot;additionnalInfo&quot;:{&quot;outputDescription&quot;:&quot;&quot;,&quot;isFreezable&quot;:false,&quot;servingText&quot;:&quot;&quot;,&quot;tips&quot;:null},&quot;rating&quot;:{},&quot;translationId&quot;:11133,&quot;exclusivityEndDate&quot;:&quot;2027-03-20T00:00:00-04:00&quot;,&quot;isExclusive&quot;:true,&quot;isTada&quot;:false,&quot;pricePerPortion&quot;:223,&quot;priceRange&quot;:1},{&quot;id&quot;:161363,&quot;title&quot;:&quot;Roasted Pork Tenderloin and Brussels Sprouts&quot;,&quot;recipeTimes&quot;:[{&quot;categoryName&quot;:&quot;Preparation&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:25,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;25 MIN &quot;,&quot;code&quot;:&quot;preparation&quot;,&quot;metaDataProperty&quot;:&quot;prepTime&quot;,&quot;metaDataValue&quot;:&quot;PT25M&quot;,&quot;seconds&quot;:1500},{&quot;categoryName&quot;:&quot;Cooking&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:15,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;15 MIN &quot;,&quot;code&quot;:&quot;cooking&quot;,&quot;metaDataProperty&quot;:&quot;cookTime&quot;,&quot;metaDataValue&quot;:&quot;PT15M&quot;,&quot;seconds&quot;:900}],&quot;recipeTimeTotal&quot;:&quot;40 min &quot;,&quot;preparationTimeTotal&quot;:&quot;25 min &quot;,&quot;picture&quot;:&quot;https:\/\/ucarecdn.com\/9e8d44dd-31ee-4101-80b9-ffef4f45efe0\/-\/crop\/5504x7435\/0,411\/-\/preview\/&quot;,&quot;uriPart&quot;:&quot;roasted-pork-tenderloin-and-brussels-sprouts&quot;,&quot;additionnalInfo&quot;:{&quot;outputDescription&quot;:&quot;&quot;,&quot;isFreezable&quot;:false,&quot;servingText&quot;:&quot;&quot;,&quot;tips&quot;:null},&quot;rating&quot;:{},&quot;translationId&quot;:11127,&quot;exclusivityEndDate&quot;:&quot;2026-03-26T00:00:00-04:00&quot;,&quot;isExclusive&quot;:false,&quot;isTada&quot;:true,&quot;pricePerPortion&quot;:467,&quot;priceRange&quot;:2},{&quot;id&quot;:161346,&quot;title&quot;:&quot;High-Fibre Asian-Style Vegetable Meatballs&quot;,&quot;recipeTimes&quot;:[{&quot;categoryName&quot;:&quot;Preparation&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:40,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;40 MIN &quot;,&quot;code&quot;:&quot;preparation&quot;,&quot;metaDataProperty&quot;:&quot;prepTime&quot;,&quot;metaDataValue&quot;:&quot;PT40M&quot;,&quot;seconds&quot;:2400},{&quot;categoryName&quot;:&quot;Cooking&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:40,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;40 MIN &quot;,&quot;code&quot;:&quot;cooking&quot;,&quot;metaDataProperty&quot;:&quot;cookTime&quot;,&quot;metaDataValue&quot;:&quot;PT40M&quot;,&quot;seconds&quot;:2400}],&quot;recipeTimeTotal&quot;:&quot;1 h 20 min &quot;,&quot;preparationTimeTotal&quot;:&quot;40 min &quot;,&quot;picture&quot;:&quot;https:\/\/ucarecdn.com\/ce5669a2-8520-4e96-9b83-ae27272066d7\/-\/crop\/5345x7227\/0,0\/-\/preview\/&quot;,&quot;uriPart&quot;:&quot;high-fibre-asian-style-vegetable-meatballs&quot;,&quot;additionnalInfo&quot;:{&quot;outputDescription&quot;:&quot;&quot;,&quot;isFreezable&quot;:false,&quot;servingText&quot;:&quot;&quot;,&quot;tips&quot;:null},&quot;rating&quot;:{},&quot;translationId&quot;:11151,&quot;exclusivityEndDate&quot;:&quot;2027-03-20T00:00:00-04:00&quot;,&quot;isExclusive&quot;:true,&quot;isTada&quot;:true,&quot;pricePerPortion&quot;:415,&quot;priceRange&quot;:2},{&quot;id&quot;:161254,&quot;title&quot;:&quot;Air Fryer Cooked Bacon&quot;,&quot;recipeTimes&quot;:[{&quot;categoryName&quot;:&quot;Preparation&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:5,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;5 MIN &quot;,&quot;code&quot;:&quot;preparation&quot;,&quot;metaDataProperty&quot;:&quot;prepTime&quot;,&quot;metaDataValue&quot;:&quot;PT5M&quot;,&quot;seconds&quot;:300},{&quot;categoryName&quot;:&quot;Cooking&quot;,&quot;time&quot;:{&quot;d&quot;:&quot;0&quot;,&quot;h&quot;:&quot;0&quot;,&quot;m&quot;:15,&quot;s&quot;:&quot;00&quot;},&quot;timeString&quot;:&quot;15 MIN &quot;,&quot;code&quot;:&quot;cooking&quot;,&quot;metaDataProperty&quot;:&quot;cookTime&quot;,&quot;metaDataValue&quot;:&quot;PT15M&quot;,&quot;seconds&quot;:900}],&quot;recipeTimeTotal&quot;:&quot;20 min &quot;,&quot;preparationTimeTotal&quot;:&quot;5 min &quot;,&quot;picture&quot;:&quot;https:\/\/ucarecdn.com\/976248f3-1101-4179-9936-5466934a5081\/-\/crop\/5504x7441\/0,0\/-\/preview\/&quot;,&quot;uriPart&quot;:&quot;air-fryer-cooked-bacon&quot;,&quot;additionnalInfo&quot;:{&quot;outputDescription&quot;:&quot;&quot;,&quot;isFreezable&quot;:false,&quot;servingText&quot;:&quot;&quot;,&quot;tips&quot;:null},&quot;rating&quot;:{},&quot;translationId&quot;:11186,&quot;exclusivityEndDate&quot;:null,&quot;isExclusive&quot;:false,&quot;isTada&quot;:false,&quot;pricePerPortion&quot;:null,&quot;priceRange&quot;:null}]}">
+</div>
+      </div>
+            
+        
+  
+  <div 
+    class="c-advertisement__parent c-ads__box"
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner&quot;,&quot;responsiveSizes&quot;:{&quot;desktop&quot;:&quot;bigBox&quot;,&quot;tablet&quot;:&quot;bigBox&quot;,&quot;mobile&quot;:&quot;bigBox&quot;},&quot;position&quot;:2}'
+  ></div>
+
+    </aside>
+
+          <div class="c-recipe__cooking-details c-recipe__item">
+        
+              
+  
+  <div 
+    class="c-advertisement__parent "
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner&quot;,&quot;responsiveSizes&quot;:{&quot;mobile&quot;:&quot;bigBox&quot;},&quot;position&quot;:1}'
+  ></div>
+
+        
+
+<div class="c-recipe-instructions-wrapper">
+  <div class="c-recipe-instructions__toggle-wrapper">
+    <div class="c-recipe-instructions__toggle" data-react-app="recipeToggle" data-react-app-props="{&quot;values&quot;:[{&quot;name&quot;:&quot;ingredients&quot;,&quot;label&quot;:&quot;recipe.ingredients&quot;},{&quot;name&quot;:&quot;preparation&quot;,&quot;label&quot;:&quot;recipe.preparation&quot;}],&quot;activeSectionClassName&quot;:&quot;c-recipe-instructions--active&quot;,&quot;stickyClassName&quot;:&quot;c-recipe-instructions__toggle--sticky&quot;}"></div>
+  </div>
+  <div class="c-recipe-instructions__sections">
+    <section class="c-recipe-instructions c-recipe-instructions--ingredients" data-toggle-name="ingredients">
+      <h2 class="c-recipe-instructions__title">Ingredients</h2>
+        <ul>
+                
+                        <li>
+                            <ul>
+                                                      <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1217210" class="c-checkbox" id="checkbox-ingredient-1217210">
+                        <input
+                          name="ingredient-1217210"
+                          type="checkbox"
+                          id="ingredient-1217210"
+                          value="1217210"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 can (398 ml/14 oz) plum tomatoes, drained
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1192565" class="c-checkbox" id="checkbox-ingredient-1192565">
+                        <input
+                          name="ingredient-1192565"
+                          type="checkbox"
+                          id="ingredient-1192565"
+                          value="1192565"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1/2 cup (125 ml) ketchup
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1192566" class="c-checkbox" id="checkbox-ingredient-1192566">
+                        <input
+                          name="ingredient-1192566"
+                          type="checkbox"
+                          id="ingredient-1192566"
+                          value="1192566"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 1/2 tablespoons (22.5 	ml) Worcestershire sauce
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1192567" class="c-checkbox" id="checkbox-ingredient-1192567">
+                        <input
+                          name="ingredient-1192567"
+                          type="checkbox"
+                          id="ingredient-1192567"
+                          value="1192567"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1/4 cup (60 ml) cider vinegar
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1192568" class="c-checkbox" id="checkbox-ingredient-1192568">
+                        <input
+                          name="ingredient-1192568"
+                          type="checkbox"
+                          id="ingredient-1192568"
+                          value="1192568"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 tablespoon (15 ml) molasses
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1192569" class="c-checkbox" id="checkbox-ingredient-1192569">
+                        <input
+                          name="ingredient-1192569"
+                          type="checkbox"
+                          id="ingredient-1192569"
+                          value="1192569"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 teaspoon (5 ml) dry mustard
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1192570" class="c-checkbox" id="checkbox-ingredient-1192570">
+                        <input
+                          name="ingredient-1192570"
+                          type="checkbox"
+                          id="ingredient-1192570"
+                          value="1192570"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 tablespoon (15 ml) soy sauce
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1217211" class="c-checkbox" id="checkbox-ingredient-1217211">
+                        <input
+                          name="ingredient-1217211"
+                          type="checkbox"
+                          id="ingredient-1217211"
+                          value="1217211"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 onion, coarsely chopped
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1217212" class="c-checkbox" id="checkbox-ingredient-1217212">
+                        <input
+                          name="ingredient-1217212"
+                          type="checkbox"
+                          id="ingredient-1217212"
+                          value="1217212"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          2 cloves garlic
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1217213" class="c-checkbox" id="checkbox-ingredient-1217213">
+                        <input
+                          name="ingredient-1217213"
+                          type="checkbox"
+                          id="ingredient-1217213"
+                          value="1217213"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          Hot pepper sauce, to taste
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1217214" class="c-checkbox" id="checkbox-ingredient-1217214">
+                        <input
+                          name="ingredient-1217214"
+                          type="checkbox"
+                          id="ingredient-1217214"
+                          value="1217214"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          1 pork shoulder roast, about 4 lb (1.8 kg) (with or without bone, untied)
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                        <li class="c-recipe-instructions__item">
+                      <label for="ingredient-1217215" class="c-checkbox" id="checkbox-ingredient-1217215">
+                        <input
+                          name="ingredient-1217215"
+                          type="checkbox"
+                          id="ingredient-1217215"
+                          value="1217215"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckIngredient"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>
+                                                          Salt and pepper
+                                                                                  </div>
+                        </div>
+                      </label>
+                                          </li>
+                                                                </ul>
+            </li>
+                        </ul>
+    </section>
+
+    
+        
+  
+  <div 
+    class="c-advertisement__parent c-ads__content c-ads__content--native"
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner c-advertisement__no-label&quot;,&quot;responsiveSizes&quot;:{&quot;desktop&quot;:&quot;native&quot;},&quot;position&quot;:1}'
+  ></div>
+
+
+    <div class="c-recipe-options-wrapper" data-react-app="recipeOptions" data-react-app-props="{&quot;id&quot;:3111,&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;,&quot;isTada&quot;:false,&quot;showIGA&quot;:true}"></div>
+    <section class="c-recipe-instructions c-recipe-instructions--preparation" data-toggle-name="preparation">
+      <div data-react-app="recipeCookingMode" class="c-recipe-cooking-mode-button" data-react-app-props="{&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;,&quot;recipeId&quot;:3111,&quot;ingredientGroups&quot;:[{&quot;id&quot;:154067,&quot;groupOrder&quot;:1,&quot;ingredients&quot;:[{&quot;id&quot;:1217210,&quot;title&quot;:&quot;plum tomatoes&quot;,&quot;description&quot;:&quot;1 can (398 ml\/14 oz) plum tomatoes, drained&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1192565,&quot;title&quot;:&quot;ketchup&quot;,&quot;description&quot;:&quot;1\/2 cup (125 ml) ketchup&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:true},{&quot;id&quot;:1192566,&quot;title&quot;:&quot;Worcestershire sauce&quot;,&quot;description&quot;:&quot;1 1\/2 tablespoons (22.5 \tml) Worcestershire sauce&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1192567,&quot;title&quot;:&quot;cider vinegar&quot;,&quot;description&quot;:&quot;1\/4 cup (60 ml) cider vinegar&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1192568,&quot;title&quot;:&quot;molasses&quot;,&quot;description&quot;:&quot;1 tablespoon (15 ml) molasses&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1192569,&quot;title&quot;:&quot;dry mustard&quot;,&quot;description&quot;:&quot;1 teaspoon (5 ml) dry mustard&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1192570,&quot;title&quot;:&quot;soy sauce&quot;,&quot;description&quot;:&quot;1 tablespoon (15 ml) soy sauce&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1217211,&quot;title&quot;:&quot;onion&quot;,&quot;description&quot;:&quot;1 onion, coarsely chopped&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1217212,&quot;title&quot;:&quot;garlic cloves&quot;,&quot;description&quot;:&quot;2 cloves garlic&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:true},{&quot;id&quot;:1217213,&quot;title&quot;:&quot;Tabasco sauce&quot;,&quot;description&quot;:&quot;Hot pepper sauce, to taste&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1217214,&quot;title&quot;:&quot;pork shoulder roast, with or without the bone&quot;,&quot;description&quot;:&quot;1 pork shoulder roast, about 4 lb (1.8 kg) (with or without bone, untied)&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false},{&quot;id&quot;:1217215,&quot;title&quot;:&quot;salt and pepper&quot;,&quot;description&quot;:&quot;Salt and pepper&quot;,&quot;uri&quot;:&quot;&quot;,&quot;substitutes&quot;:[],&quot;isInFlyer&quot;:false}],&quot;description&quot;:&quot;&quot;}],&quot;preparationGroups&quot;:[{&quot;id&quot;:153972,&quot;groupOrder&quot;:1,&quot;preparations&quot;:[{&quot;id&quot;:592685,&quot;description&quot;:&quot;In a blender, pur\u00e9e all ingredients except the pork. Season with salt and pepper.&quot;,&quot;preparationOrder&quot;:1},{&quot;id&quot;:592686,&quot;description&quot;:&quot;Season the pork with salt and pepper. Place it in the slow cooker with the sauce. Cover and cook on low heat for about 8 hours. Alternatively, cook on high for 6 hours.&quot;,&quot;preparationOrder&quot;:2},{&quot;id&quot;:592687,&quot;description&quot;:&quot;Place the meat on a plate and tent with aluminum foil. Let stand 15 minutes, then shred using a fork.&quot;,&quot;preparationOrder&quot;:3},{&quot;id&quot;:592688,&quot;description&quot;:&quot;Meanwhile, in a saucepan, bring the sauce to a boil and reduce until syrupy, about half the original volume. Add the meat and coat well with the sauce.&quot;,&quot;preparationOrder&quot;:4}],&quot;description&quot;:&quot;&quot;}]}"></div>       <h2 class="c-recipe-instructions__title">Preparation</h2>
+      <ul>
+                                        <li>
+                            <ul>
+                                                        <li class="c-recipe-instructions__item">
+                      <label for="preparation-592685" class="c-checkbox" id="checkbox-preparation-592685">
+                        <input
+                          name="preparation-592685"
+                          type="checkbox"
+                          id="preparation-592685"
+                          value="592685"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckPreparationStep"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>In a blender, purée all ingredients except the pork. Season with salt and pepper.<div>
+                        </div>
+                      </label>
+                    </li>
+                                                                                              <li class="c-recipe-instructions__item">
+                      <label for="preparation-592686" class="c-checkbox" id="checkbox-preparation-592686">
+                        <input
+                          name="preparation-592686"
+                          type="checkbox"
+                          id="preparation-592686"
+                          value="592686"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckPreparationStep"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>Season the pork with salt and pepper. Place it in the slow cooker with the sauce. Cover and cook on low heat for about 8 hours. Alternatively, cook on high for 6 hours.<div>
+                        </div>
+                      </label>
+                    </li>
+                                                                                              <li class="c-recipe-instructions__item">
+                      <label for="preparation-592687" class="c-checkbox" id="checkbox-preparation-592687">
+                        <input
+                          name="preparation-592687"
+                          type="checkbox"
+                          id="preparation-592687"
+                          value="592687"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckPreparationStep"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>Place the meat on a plate and tent with aluminum foil. Let stand 15 minutes, then shred using a fork.<div>
+                        </div>
+                      </label>
+                    </li>
+                                                                                              <li class="c-recipe-instructions__item">
+                      <label for="preparation-592688" class="c-checkbox" id="checkbox-preparation-592688">
+                        <input
+                          name="preparation-592688"
+                          type="checkbox"
+                          id="preparation-592688"
+                          value="592688"
+                          class="react-bus-publisher"
+                          data-bus-event="Recipe.CheckPreparationStep"
+                        />
+                        <div class="c-checkbox__content t-body">
+                          <span class="i-icon i-check c-icon"></span>
+                          <div>Meanwhile, in a saucepan, bring the sauce to a boil and reduce until syrupy, about half the original volume. Add the meat and coat well with the sauce.<div>
+                        </div>
+                      </label>
+                    </li>
+                                                                                    </ul>
+            </li>
+                        </ul>
+    </section>
+  </div>
+</div>
+        
+<section class="c-recipe-notes">
+    <div class="c-recipe-note c-recipe-note--personal" data-recipe-id="3111">
+    <h3 class="c-recipe-note__title">Personal Note</h3>
+    <div class="c-recipe-note__body">
+            <div data-react-app="recipeNote" data-react-app-props="{&quot;objectId&quot;:3111,&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;}"></div>
+    </div>
+  </div>
+  <div id="recipe-personal-note" class="c-recipe-note--print"></div>
+</section>
+        
+        
+  
+  <div 
+    class="c-advertisement__parent c-ads__content c-ads__content--native"
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner c-advertisement__no-label&quot;,&quot;responsiveSizes&quot;:{&quot;mobile&quot;:&quot;native&quot;,&quot;tablet&quot;:&quot;native&quot;},&quot;position&quot;:1}'
+  ></div>
+
+      </div>
+        <div class="c-recipe__partnership c-recipe__item c-recipe__item--hidden">
+      <div class="c-alert c-alert--solid c-alert--info c-alert--with-icon">
+  <div class="c-alert__icon">
+    <span class="i-icon i-Info-Filled-Circle c-icon" />
+  </div>
+  <div class="c-alert__content-wrapper t-body--small">
+    <div class="c-alert__content">
+          This sponsored content was created for&nbsp;<a href= target="_blank" class="react-bus-publisher" data-bus-event="Analytics.TrackEvent" data-analytics="{&quot;event&quot;:&quot;open_partner_link&quot;,&quot;payload&quot;:{&quot;id&quot;:3111,&quot;from&quot;:&quot;bottom&quot;}}"></a>.<br />
+      It is separate from our RICARDO editorial content.
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="c-recipe__video c-recipe__item c-recipe__item--hidden">
+          </div>
+    <div class="c-recipe__shop c-recipe__item">
+      
+<section class="c-recipe-shop">
+  <h2 class="c-recipe-shop__header">To help you with this recipe</h2>
+  <div class="c-recipe-shop__picture">
+    <img alt="RICARDO Programmable Digital Slow Cooker" src="https://cdn.shoplightspeed.com/shops/611510/files/67851055/063458---digital-slow-cooker-1.jpg" />
+  </div>
+  <div class="c-recipe-shop__content">
+    <h3 class="c-recipe-shop__content-item t-typo--bold">RICARDO Programmable Digital Slow Cooker</h3>
+    <div class="c-recipe-shop__content-item t-title--small t-typo--bold">69.99 $</div>
+    <p class="c-recipe-shop__content-item c-recipe-shop__description">Prepare meals for the whole family with ease using this RICARDO Programmable Digital Slow Cooker. Featuring 3 temperature settings, an adjustable timer, and an automatic keep-warm mode, it ensures delicious dishes every time. </p>
+    <a class="c-button t-link t-typo--bold t-typo--uppercase c-button--primary c-button--small c-recipe-shop__button" href="https://boutique.ricardocuisine.com/en/ricardo-programmable-digital-slow-cooker.html?utm_source=ricardocuisine&amp;utm_medium=produit_native_ad&amp;utm_campaign=recettes-ricardocuisine">
+      Shop now
+    </a>
+  </div>
+</section>
+    </div>
+    <div class="c-recipe__comments c-recipe__item">
+      <div data-react-app="comments" data-react-app-props="{&quot;objectType&quot;:&quot;recipe&quot;,&quot;objectId&quot;:3111,&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;}"></div>    </div>
+  </div>
+  <div data-react-app="sharing" data-react-app-props="{&quot;facebookId&quot;:&quot;884142751142015&quot;,&quot;title&quot;:&quot;Slow-Cooked Pulled Pork&quot;,&quot;media&quot;:&quot;https:\/\/ucarecdn.com\/2b9d3927-d80d-42d2-a81f-ea53e2e1277a\/-\/crop\/1919x2592\/1,0\/-\/preview\/&quot;}"></div></div>
+                        </div>
+                    </div>
+                            </div>
+
+            <div data-react-app="searchResults"></div>
+                            
+              
+  
+  <div 
+    class="c-advertisement__parent "
+    data-react-app='advertisement'
+    data-react-app-props='{&quot;className&quot;:&quot;c-advertisement__banner c-advertisement__banner-bottom&quot;,&quot;responsiveSizes&quot;:{&quot;desktop&quot;:&quot;banner&quot;,&quot;tablet&quot;:&quot;banner&quot;},&quot;position&quot;:2}'
+  ></div>
+
+                                                            <div data-react-app="appBottomNavigation" class="c-bottom-navigation-wrapper"></div>
+                            
+                                                            <div data-react-app="promoDrawer" data-react-app-props="{&quot;promoDrawer&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Infolettre - G\u00e9n\u00e9rique&quot;,&quot;translationId&quot;:2,&quot;titleOpened&quot;:&quot;Subscribe to our newsletter, so you&#039;ll never miss out on the best&quot;,&quot;titleClosed&quot;:&quot;Subscribe to our newsletter&quot;,&quot;titleMobile&quot;:&quot;Subscribe to our newsletter&quot;,&quot;toggleClosedLabel&quot;:&quot;Subscribe&quot;,&quot;description&quot;:&quot;Subscribing to our newsletter is the (best) way to stay up to date with the latest recipes, news and videos.&quot;,&quot;isActive&quot;:true,&quot;isColored&quot;:false,&quot;picture&quot;:&quot;https:\/\/ucarecdn.com\/7cdffa4d-6b74-4231-afed-759039eeb57f\/-\/preview\/&quot;,&quot;language&quot;:&quot;en&quot;,&quot;ctaLabel&quot;:&quot;Subscribe&quot;,&quot;ctaUrl&quot;:&quot;https:\/\/www.ricardocuisine.com\/en\/newsletter-email?utm_medium=infolettre_en&amp;utm_source=tiroir_en&amp;utm_campaign=tiroir_conversion&quot;}}" class="c-promotion-banner-wrapper"></div>
+                            <footer class="c-main-footer">
+	
+<div class="c-footer">
+  <div class="footer-wrapper">
+    <div class="primary-navigation">
+      <div class="column">
+        <div class="heading js-toggle-navigation">
+          <span>About</span> <i aria-hidden="true" class="fas fa-chevron-down">&nbsp;</i>
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li><a href="/en/about-ricardo">News</a></li>
+            <li><a href="/en/about-ricardo/ricardos-bio/227-ricardo-s-bio">Ricardo&#039;s bio</a></li>
+            <li><a href="/en/about-ricardo/news/1808-isabelle-deschamps-plante-biography">Isabelle&#039;s bio</a></li>
+            <li><a href="/en/about-ricardo/news/1813-ricardo-a-continuing-success-story">RICARDO: A Continuing Success Story</a></li>
+            <li><a href="mailto:annonceurs@ricardocuisine.com">Advertise: Web &amp; Magazine</a></li>
+            <li><a href="mailto:studior@ricardocuisine.com">Studio R</a></li>
+            <li><a href="/en/contests">Contests</a></li>
+            <li><a href="/en/converter/temperature-chart">Conversions</a></li>
+            <li><a href="/en/downloads">Downloads</a></li>
+            <li><a href="https://ici.radio-canada.ca/tele/ricardo/site">Follow Ricardo&#039;s TV show on Radio-Canada.ca (available in French only)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="heading js-toggle-navigation">
+          <span>My RICARDO Space</span> <i aria-hidden="true" class="fas fa-chevron-down">&nbsp;</i>
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li><a href="/en/my-space/my-profile" class='react-bus-publisher' data-bus-event="Authentification.OpenLogin" rel="nofollow" title="My profile">My profile</a></li>
+            <li><a href="/en/my-space/my-recipes" class='react-bus-publisher' data-bus-event="Authentification.OpenLogin" rel="nofollow" title="My recipes">My recipes</a></li>
+            <li><a href="/en/my-space/my-menu-planner" class='react-bus-publisher' data-bus-event="Authentification.OpenLogin" rel="nofollow" title="My menu planner">My menu planner</a></li>
+            <li><a href="/en/my-space/my-grocery-list" class='react-bus-publisher' data-bus-event="Authentification.OpenLogin" rel="nofollow" title="My grocery list">My grocery list</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="heading js-toggle-navigation">
+          <span>Customer service</span> <i aria-hidden="true" class="fas fa-chevron-down">&nbsp;</i>
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li><a href="/en/faq" title="FAQ Recipes">FAQ Recipes</a></li>
+            <li><a href="/en/help" title="Aide">FAQ</a></li>
+            <li><a href="/en/contact-us" title="Contact us">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="heading heading-email">
+          <span>Newsletter</span>
+        </div>
+        <form class="form form-email" method="post" action="/en/newsletter-email">
+          <fieldset>
+            <input autocomplete="off" name="pre_email" placeholder="Your email address" type="text" value="" />
+            <button type="submit" class="email-button i-icon i-plane c-icon react-bus-publisher" data-bus-event="Analytics.FromEvent" data-from="{&quot;from&quot;:&quot;footer&quot;}"></button>
+          </fieldset>
+        </form>
+
+        <div class="heading heading-phone">
+          <span>SMS offers</span>
+        </div>
+    
+        <form class="form form-phone" method="post" action="/en/newsletter-email">
+          <fieldset data-react-app="footerPhoneField"></fieldset>
+          <button type="submit" class="phone-button i-icon i-Arrow-Right c-icon react-bus-publisher" data-bus-event="Analytics.FromEvent" data-from="{&quot;from&quot;:&quot;footer&quot;}"></button>
+        </form>
+      </div>
+    </div>
+    <!-- end primary-navigation -->
+
+    <div class="secondary-navigation">
+      <div class="column">
+        <div class="heading w-branding-image">
+          <img alt="Ricardo" src="/embedded/global/img/logo-ricardo-footer-2x.png" width="120" height="20" />
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li><a href="/en" title="Recipes">Recipes</a></li>
+            <li><a href="https://boutique.ricardocuisine.com/en/" title="store">Boutique</a></li>
+            <li><a href="https://www.cafericardo.com/index-en.html" title="Café RICARDO">Restaurant</a></li>
+            <li><a href="/en/subscriptions" title="Subscriptions">Subscriptions</a></li>
+            <li><a href="/en/foodproducts" title="Food products">Food products</a></li>
+            <li><a href="https://www.cafericardo.com/corpo-en.html" title="Offres corporatives">Corporate offers</a></li>
+            <li><a href="/en/careers" title="Career at RICARDO">Careers</a></li>
+            <li><a href="https://magazinericardokiosk.milibris.com" title="Digital Magazine" target="_blank">Digital Magazine</a></li>
+          </ul>
+        </div>
+
+        <div class="socials">
+          <a class="social-icon" href="https://www.facebook.com/ricardocuisine/" target="_blank"><span class="c-icon--left i-icon i-Facebook c-icon"></span></a>&nbsp;
+          <a class="social-icon" href="https://twitter.com/ricardocuisine" target="_blank"><span class="c-icon--left i-icon i-X c-icon"></span></a>&nbsp;
+          <a class="social-icon" href="https://www.instagram.com/ricardocuisine/" target="_blank" title="Instagram"><span class="c-icon--left i-icon i-Instagram c-icon"></span></a>&nbsp;
+          <a class="social-icon" href="https://www.pinterest.ca/ricardocuisine/" target="_blank"><span class="c-icon--left i-icon i-rs-pinterest-full c-icon"></span></a>&nbsp;
+          <a class="social-icon" href="https://youtube.com/lacuisinedericardo/" target="_blank"><span class="c-icon--left i-icon i-rs-youtube c-icon"></span></a>
+          <a class="social-icon" href="https://www.tiktok.com/@ricardocuisine" target="_blank"><span class="c-icon--left i-icon i-TikTok c-icon"></span></a>
+        </div>
+
+        <div class="c-app-store">
+          <a class="c-app-store__link c-app-store__link--google" href="https://play.google.com/store/apps/details?id=com.ricardocuisine.www.twa&amp;pli=1" target="_blank"><img src="https://ucarecdn.com/d0179f02-94f9-4ff8-9f8f-ff3a63967343/" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-footer-bottom">
+  <div class="bottom-wrapper">
+    <ul>
+      <li>© 2026 Ricardo Media Inc. All rights reserved</li>
+      <li class="break">&nbsp;</li>
+      <li class="bottom-navigation-links"><a href="https://privacy.ricardocuisine.com/en/policy">Privacy Policy</a></li>
+      <li class="bottom-navigation-links"><a href="/en/terms-and-conditions">Terms and conditions</a></li>
+    </ul>
+  </div>
+</div>
+
+</footer>
+
+                            <script id="react-bridge-bootstrap">
+                                                                                                                    
+            document.addEventListener('bridgeReady', function() {
+                window.renderReactBridge({
+                    user: null,
+                    captchaKey: "6LewwQYgAAAAADSSVh_PtjeCFGn_S0Napjn1NTBq",
+                    config: {
+                        plannerActivated: true,
+                        foodJourneyActivated: true,
+                        widgetRecipeOnboardingActivated: false,
+                        personalRecipeActivated: true,
+                        emailValidationActivated: false,
+                        tracking: {"gtm_id":"GTM-NLHDPH","gtm_activated":true},
+                        uploadcarePublicKey: "78993256f1c3e76809e0",
+                        pwa: true,
+                        locales: ["fr","en"],
+                        igaAppUrl: "https://iga.app.link/ricardo",
+                        igaAppUrlEn: "https://iga.app.link/ricardo-en",
+                        didomi: {"apiKey":"2b6c5468-5123-4fe9-90db-77c579aa574c"},
+                        didomiNoticeKey: "7mnWwdRj",
+                    },
+                    routeProps: [],
+                    altUri: {"locale":"fr","uri":"\/recettes\/3111-epaule-de-porc-barbecue-a-la-mijoteuse"},
+                }, 'en');
+            });
+        </script>
+                   <script src="/build/runtime.b5cad724.js"></script><script src="/build/558.ff8ab421.js"></script><script src="/build/ricardo-website.81e6639c.js"></script>
+                        <script src="/build/jquery-1.10.2.min.f27221fd.js"></script>
+            <script src="/build/jquery-ui-1.11.4.min.d7e928a6.js" defer></script>
+            <script src="/build/revealizr.fc59c18d.js" defer></script>
+            <script src="/build/plugins.58db9e82.js" defer></script>
+            <script src="/build/plugins-tink.03d5a713.js" defer></script>
+            <script src="/build/ricardo-theme.5820bb62.js" defer></script>
+            <script src="/build/ricardo-slider.f749b521.js" defer></script>
+            <script src="/build/main.7105a2e4.js" defer></script>
+            <script src="/build/ricardo-diffuseurs.f14ffd76.js" defer></script>
+            <script src="/build/script.fb7c165a.js" defer></script>
+
+                    
+    <script src="https://cdn.jwplayer.com/libraries/W1WZ2Vhe.js"></script>
+                
+        <script id="DI-Journey-fAEAADJmWG45ce8jAABhRmVCdEuHBwAA" type="text/javascript" src="https://t.ofsys.com/js/Journey/1/fAEAADJmWG45ce8jAABhRmVCdEuHBwAA/DI.Journey-min.js"></script>
+    </body>
+</html>
