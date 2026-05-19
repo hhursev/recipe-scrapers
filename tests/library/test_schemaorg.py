@@ -66,6 +66,35 @@ PROPERTY_VALUE_INGREDIENTS_SCHEMA = """
 }
 """
 
+HOWTO_SECTION_DICT_ITEM_LIST_ELEMENT_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Section Dict Recipe",
+  "recipeIngredient": [],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "First step."},
+    {
+      "@type": "HowToSection",
+      "itemListElement": {"@type": "HowToStep", "text": "Wrapped step."}
+    }
+  ]
+}
+"""
+
+HOWTO_SECTION_EMPTY_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Empty Section Recipe",
+  "recipeIngredient": [],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "First step."},
+    {"@type": "HowToSection"}
+  ]
+}
+"""
+
 BEST_IMAGE_SCHEMA = """
 {
   "@context": "https://schema.org",
@@ -117,6 +146,18 @@ class TestSchemaOrg(unittest.TestCase):
         self.assertIn("1 egg", ingredients)
         self.assertIn("3/4 G21 sugar", ingredients)
         self.assertIn("1/2 cup flour", ingredients)
+
+    def test_howto_section_with_dict_item_list_element(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=HOWTO_SECTION_DICT_ITEM_LIST_ELEMENT_SCHEMA
+        )
+        parser = SchemaOrg(page_data)
+        self.assertEqual("First step.\nWrapped step.", parser.instructions())
+
+    def test_howto_section_with_missing_item_list_element(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=HOWTO_SECTION_EMPTY_SCHEMA)
+        parser = SchemaOrg(page_data)
+        self.assertEqual("First step.", parser.instructions())
 
     def test_best_image_selection(self):
         page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=BEST_IMAGE_SCHEMA)
