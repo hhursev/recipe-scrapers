@@ -21,7 +21,9 @@ class OpenGraph:
         return title.get("content")
 
     def description(self):
-        description = self.soup.find("meta", {"property": "og:description", "content": True})
+        description = self.soup.find(
+            "meta", {"property": "og:description", "content": True}
+        )
         if not description:
             raise OpenGraphException("Description not found in OpenGraph metadata.")
 
@@ -33,4 +35,3 @@ class OpenGraph:
             raise OpenGraphException("Image not found in OpenGraph metadata.")
 
         return image.get("content")
-

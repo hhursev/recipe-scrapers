@@ -1306,7 +1306,7 @@ def scrape_html(
     supported_only: bool | None = None,
     wild_mode: bool | None = None,
     best_image: bool | None = None,
-    simple_opengraph: bool | None = None
+    simple_opengraph: bool | None = None,
 ) -> AbstractScraper:
     """
     Accepts optional HTML and a required URL as input, and returns a scraper object.
@@ -1402,10 +1402,14 @@ def scrape_html(
     schema_scraper = SchemaScraperFactory.generate(
         html=html, url=org_url, best_image=best_image, simple_opengraph=simple_opengraph
     )
-    if schema_scraper.schema.data or \
-            (simple_opengraph and (schema_scraper.title() or
-                                   schema_scraper.description() or
-                                   schema_scraper.image())):
+    if schema_scraper.schema.data or (
+        simple_opengraph
+        and (
+            schema_scraper.title()
+            or schema_scraper.description()
+            or schema_scraper.image()
+        )
+    ):
         return schema_scraper
 
     raise NoSchemaFoundInWildMode(org_url)

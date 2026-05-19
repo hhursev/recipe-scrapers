@@ -1,11 +1,13 @@
 import logging
 
 from ._abstract import AbstractScraper
+from ._exceptions import OpenGraphException
 from ._utils import get_host_name
 from typing import Optional
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
+
 
 class SchemaScraperFactory:
     class SchemaScraper(AbstractScraper):
@@ -58,19 +60,19 @@ class SchemaScraperFactory:
         def title(self):
             try:
                 return self.opengraph.title()
-            except:
+            except OpenGraphException:
                 return ""
 
         def description(self):
             try:
                 return self.opengraph.description()
-            except:
+            except OpenGraphException:
                 return ""
 
         def image(self):
             try:
                 return self.opengraph.image()
-            except:
+            except OpenGraphException:
                 return ""
 
         def category(self):
@@ -104,9 +106,13 @@ class SchemaScraperFactory:
             return ""
 
     @classmethod
-    def generate(cls, html, url,
-                 best_image: Optional[bool] = None,
-                 simple_opengraph: Optional[bool] = None):
+    def generate(
+        cls,
+        html,
+        url,
+        best_image: Optional[bool] = None,
+        simple_opengraph: Optional[bool] = None,
+    ):
         schema_scraper = cls.SchemaScraper(html=html, url=url, best_image=best_image)
         if schema_scraper.schema.data or not simple_opengraph:
             return schema_scraper
@@ -115,4 +121,3 @@ class SchemaScraperFactory:
             "The website seems not to have schema.org metadata. Attempting to return simple info from OpenGraph."
         )
         return cls.OpenGraphScraper(html=html, url=url)
-
