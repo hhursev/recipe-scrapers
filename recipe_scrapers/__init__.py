@@ -1317,9 +1317,9 @@ def scrape_html(
     If the 'supported_only' flag is enabled (the default), then only websites
     that are known to be supported by the library (as determined by their
     domain name) will return scrapers.  When disabled, the library will attempt
-    to retrieve generic schema.org recipe metadata from the HTML, or, if the
-    'simple_opengraph' flag is active, will try as a fallback to retrieve the
-    OpenGraph basic data.
+    to retrieve [schema.org recipe](https://schema.org/Recipe) metadata from the HTML. If the
+    'simple_opengraph' flag is active, the library will instead try as a fallback to retrieve
+    basic [OpenGraph](https://ogp.me/) data (title, description, image).
 
     Args:
         html (str | None): HTML of the recipe webpage.
@@ -1332,8 +1332,8 @@ def scrape_html(
         best_image (bool | None): whether to prefer the highest-quality image when multiple
             are available. Defaults to the configured setting when not provided.
         simple_opengraph (bool | None): if true, when the site does not have schema.org
-            metadata, it will try to scrape at least title, description and image from the
-            OpenGraph metadata, if exists.
+            metadata, it will try to scrape at least title, description, and image from the
+            OpenGraph metadata, if they exist.
 
     Raises:
         ElementNotFoundInHtml: Retrieval of data failed because an HTML element was not found.
