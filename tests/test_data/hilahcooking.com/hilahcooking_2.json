@@ -22,6 +22,33 @@
     "Strawberry puree, from above",
     "pinch salt"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 pound fresh strawberries (or frozen, thawed)",
+        "1 cup sour cream or Greek yogurt",
+        "2 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/4 teaspoon salt",
+        "1/2 cup butter (1/4 pound), at room temperature",
+        "1 cup sugar",
+        "2 egg whites",
+        "1 teaspoon vanilla extract",
+        "1/2 teaspoon lemon zest",
+        "Optional: 2-3 drops red food coloring"
+      ],
+      "purpose": "Cupcakes"
+    },
+    {
+      "ingredients": [
+        "1/2 cup (1/4 pound) butter, at room temperature",
+        "3 cups powdered sugar, sifted",
+        "Strawberry puree, from above",
+        "pinch salt"
+      ],
+      "purpose": "Strawberry Frosting"
+    }
+  ],
   "instructions_list": [
     "Hull fresh strawberries. Thaw frozen strawberries.",
     "Puree berries in a food processor or blender. Add up to 2 tablespoons water if you need to get your blender moving. Strain puree into a small pot to remove seeds. Simmer puree over medium heat, uncovered, 15-20 minutes until reduced by a third and thickened. Stir occasionally, scraping the bottom and sides, to keep from sticking. You should have a little over 1/2 cup once cooked. Remove 3 tablespoons puree and set aside for icing.",
