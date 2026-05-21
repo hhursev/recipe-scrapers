@@ -27,6 +27,48 @@
     "100g of caster sugar",
     "1 tsp vanilla bean paste"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 sticks of rhubarb, finely sliced into ribbons",
+        "200ml of apple cider vinegar",
+        "150ml of water",
+        "150g of caster sugar",
+        "1 strip of orange peel"
+      ],
+      "purpose": "Pickled rhubarb"
+    },
+    {
+      "ingredients": [
+        "175g of caster sugar",
+        "175g of unsalted butter",
+        "3 Freshlay Farms Golden Yolker® eggs",
+        "225g of self-raising flour",
+        "50g of ground almonds",
+        "1 tsp baking powder",
+        "50ml of whole milk",
+        "200g of rhubarb, finely chopped"
+      ],
+      "purpose": "Cake"
+    },
+    {
+      "ingredients": [
+        "10g of unsalted butter",
+        "40g of rhubarb, finely sliced",
+        "130g of icing sugar",
+        "2 tbsp of double cream"
+      ],
+      "purpose": "Icing"
+    },
+    {
+      "ingredients": [
+        "200ml of double cream",
+        "100g of caster sugar",
+        "1 tsp vanilla bean paste"
+      ],
+      "purpose": "Cream"
+    }
+  ],
   "instructions_list": [
     "Pickle the rhubarb a day before. Pack the ribbons into a container. Put the rest of the ingredients in a small saucepan with a pinch of salt and bring to a simmer. Leave to cool to room temperature",
     "Pour the pickle liquor over the ribbons, then leave to pickle overnight in the fridge",
@@ -39,6 +81,7 @@
     "Drizzle the rhubarb glaze all over the cake and leave for a little longer to set. Serve slices of the cake with a generous dollop of whipped cream and some pickled rhubarb ribbons to finish"
   ],
   "category": "Cake",
+  "yields": null,
   "description": "A simple sponge gets elevated with little nuggets of baked rhubarb and rich ground almonds to provide a very tasty base for lashings of bright pink rhubarb icing.",
   "total_time": 90,
   "image": "https://media-cdn2.greatbritishchefs.com/media/xq3ayb00/gbc_rhubarb_edit-39.whqc_1426x713q80.jpg",
