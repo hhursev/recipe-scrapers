@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients, IngredientGroup
+from ._utils import get_yields
 
 
 class GreatBritishChefs(AbstractScraper):
@@ -19,3 +20,10 @@ class GreatBritishChefs(AbstractScraper):
             return [IngredientGroup(ingredients=self.ingredients())]
 
         return groups
+
+    def yields(self):
+        serves = self.soup.select_one(".gbcicon-serves")
+        if not serves:
+            return None
+
+        return get_yields(serves.parent.get_text())
