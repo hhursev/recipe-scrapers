@@ -38,3 +38,4 @@ class RussianFood(AbstractScraper):
         if og_image:
             return og_image.get("content")
         return None
+        
