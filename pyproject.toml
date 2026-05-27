@@ -62,7 +62,9 @@ docs = [
 # Common commands:
 #   python -m unittest                        # Run tests sequentially
 #   python -m unittest_parallel --level test  # Run tests in parallel (speeed)
-#   coverage run -m unittest                  # Run tests with coverage
+#   coverage run --parallel-mode -m unittest_parallel --level test  # Run tests with coverage in parallel
+#   coverage combine                          # Combine parallel coverage output files
+#   coverage run -m unittest                  # Run tests with coverage sequentially (fallback)
 #   coverage report                           # View coverage report in terminal
 #   coverage html                             # Generate HTML coverage report
 tests = [
