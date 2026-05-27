@@ -1,8 +1,8 @@
 {
-  "host": "keytomylime.com",
+  "author": "Alexa Blay",
   "canonical_url": "https://keytomylime.com/how-to-bake-eggs/",
   "site_name": "Key To My Lime",
-  "author": "Alexa Blay",
+  "host": "keytomylime.com",
   "language": "en-US",
   "title": "How to Bake Eggs",
   "ingredients": [
@@ -18,8 +18,8 @@
     "Season with salt and pepper to taste.",
     "Bake for 14-17 minutes, or until the whites don’t jiggle and the yolks reach your desired level of doneness (the ones in the photo were baked for 14 minutes)."
   ],
-  "total_time": 19,
   "yields": "12 servings",
-  "image": "https://keytomylime.com/wp-content/uploads/2019/09/Baked-Eggs-in-Muffin-Tin-2.jpg",
-  "description": "Baking eggs in a muffin tin is the easiest way to streamline your breakfast meal prep! Once you know how to bake eggs, you'll be amazed at how easy it is!"
+  "description": "Baking eggs in a muffin tin is the easiest way to streamline your breakfast meal prep! Once you know how to bake eggs, you'll be amazed at how easy it is!",
+  "total_time": 19,
+  "image": "https://keytomylime.com/wp-content/uploads/2019/09/Baked-Eggs-in-Muffin-Tin-2.jpg"
 }
