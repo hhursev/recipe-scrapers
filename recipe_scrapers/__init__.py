@@ -201,6 +201,7 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
+from .emilybites import EmilyBites
 from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
 from .empirecipes import Empirecipes
@@ -824,6 +825,7 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
+    EmilyBites.host(): EmilyBites,
     ElaVegan.host(): ElaVegan,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Empirecipes.host(): Empirecipes,
