@@ -9,12 +9,27 @@ class GialloZafferano(AbstractScraper):
     def ingredients(self):
         ingredients = []
 
+        units = {
+            "g",
+            "kg",
+            "mg",
+            "ml",
+            "l",
+            "cl",
+        }
+
         for ingredient in self.soup.select("dd.gz-ingredient"):
             name = ingredient.find("a").get_text(" ", strip=True)
-            amount = ingredient.find("span").get_text(" ", strip=True)
 
-            text = f"{amount} {name}".strip()
-            ingredients.append(" ".join(text.split()))
+            amount = ingredient.find("span").get_text(" ", strip=True)
+            amount = " ".join(amount.split())
+
+            parts = amount.split()
+
+            if len(parts) == 2 and parts[1] in units:
+                amount = f"{parts[0]}{parts[1]}"
+
+            ingredients.append(f"{amount} {name}".strip())
 
         return ingredients
 
