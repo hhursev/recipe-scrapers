@@ -289,7 +289,12 @@ class SchemaOrg:
             name = schema_item.get("name") or schema_item.get("Name")
             if name is not None:
                 instructions_gist.append(name)
-            for item in schema_item.get("itemListElement"):
+            elements = schema_item.get("itemListElement") or []
+            # Some sites (e.g. NYTimes) wrap a single HowToStep in a HowToSection
+            # using a dict instead of a list, so normalize before iterating.
+            if isinstance(elements, dict):
+                elements = [elements]
+            for item in elements:
                 instructions_gist += self._extract_howto_instructions_text(item)
         return instructions_gist
 

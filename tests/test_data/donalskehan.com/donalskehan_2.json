@@ -16,7 +16,6 @@
     "Juice of 1 lime",
     "2 tbsp light soy sauce",
     "½ tsp ground white pepper",
-    "For the nam jim:",
     "75g white rice",
     "40g palm sugar",
     "70ml fish sauce",
@@ -24,13 +23,52 @@
     "4 small Thai chillies, finely sliced",
     "1 shallot, peeled and finely diced",
     "2 tbsp fresh coriander, chopped",
-    "To serve:",
     "300g flat rice noodles",
     "2 carrots, peeled and julienned",
     "1 cucumber, thinly sliced on a mandoline",
     "6 radishes, thinly sliced",
     "Handful of mint leaves",
     "100g salted peanuts, roughly pounded in a pestle and mortar"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "6 chicken legs",
+        "4 garlic cloves, peeled",
+        "2 small red chillies, roughly chopped",
+        "Handful of coriander stalks – save leaves for garnish",
+        "1 stalk of lemongrass",
+        "40g palm sugar",
+        "75ml fish sauce",
+        "Juice of 1 lime",
+        "2 tbsp light soy sauce",
+        "½ tsp ground white pepper"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "75g white rice",
+        "40g palm sugar",
+        "70ml fish sauce",
+        "Juice of 2 limes",
+        "4 small Thai chillies, finely sliced",
+        "1 shallot, peeled and finely diced",
+        "2 tbsp fresh coriander, chopped"
+      ],
+      "purpose": "For the nam jim:"
+    },
+    {
+      "ingredients": [
+        "300g flat rice noodles",
+        "2 carrots, peeled and julienned",
+        "1 cucumber, thinly sliced on a mandoline",
+        "6 radishes, thinly sliced",
+        "Handful of mint leaves",
+        "100g salted peanuts, roughly pounded in a pestle and mortar"
+      ],
+      "purpose": "To serve:"
+    }
   ],
   "instructions_list": [
     "1. Begin by making a few slices in each chicken leg - through the skin but not quite down to the bone - then set the legs aside in a large container.",

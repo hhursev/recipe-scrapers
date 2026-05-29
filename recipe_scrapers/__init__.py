@@ -51,6 +51,7 @@ from .africanbites import AfricanBites
 from .afullliving import AFullLiving
 from .ahealthysliceoflife import AHealthySliceOfLife
 from .akispetretzikis import AkisPetretzikis
+from .albertcz import AlbertCz
 from .albertheijn import AlbertHeijn
 from .aldi import Aldi
 from .aldinord import AldiNord
@@ -177,6 +178,7 @@ from .delish import Delish
 from .delscookingtwist import DelsCookingTwist
 from .dinneratthezoo import DinnerAtTheZoo
 from .dinnerthendessert import DinnerThenDessert
+from .directoalpaladar import DirectoAlPaladar
 from .dishnz import Dishnz
 from .dobruchutaktualitysk import DobruChutAktualitySK
 from .domesticateme import DomesticateMe
@@ -273,6 +275,7 @@ from .hellofresh import HelloFresh
 from .hersheyland import HersheyLand
 from .hilahcooking import HilahCooking
 from .hofer import Hofer
+from .hogarmania import Hogarmania
 from .homeandplate import HomeAndPlate
 from .homechef import HomeChef
 from .hostthetoast import Hostthetoast
@@ -314,11 +317,13 @@ from .justataste import JustATaste
 from .justbento import JustBento
 from .justinesnacks import JustineSnacks
 from .justonecookbook import JustOneCookbook
+from .kalcirecept import KalciRecept
 from .kalejunkie import KaleJunkie
 from .kellyscleankitchen import KellysCleanKitchen
 from .kennethtemple import KennethTemple
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
+from .keytomylime import KeyToMyLime
 from .kfoods import KFoods
 from .kiddokitchen import KiddoKitchen
 from .kikkoman import Kikkoman
@@ -362,6 +367,7 @@ from .lovefood import LoveFood
 from .lovingitvegan import Lovingitvegan
 from .maangchi import Maangchi
 from .madamecuisine import MadameCuisine
+from .madamelefigaro import MadameLeFigaro
 from .madensverden import MadensVerden
 from .madsvin import Madsvin
 from .magimix import Magimix
@@ -377,6 +383,7 @@ from .meljoulwan import Meljoulwan
 from .mellisaknorris import MellisaKNorris
 from .melloschourico import MellosChourico
 from .melskitchencafe import MelsKitchenCafe
+from .mexicanplease import MexicanPlease
 from .migusto import Migusto
 from .miljuschka import Miljuschka
 from .mindmegette import Mindmegette
@@ -386,6 +393,7 @@ from .misya import Misya
 from .mob import Mob
 from .mobkitchen import MobKitchen
 from .modernhoney import ModernHoney
+from .mollybaz import MollyBaz
 from .momontimeout import MomOnTimeout
 from .momswithcrockpots import MomsWithCrockPots
 from .moscatomom import MoscatoMom
@@ -445,6 +453,7 @@ from .pilipinasrecipes import PilipinasRecipes
 from .pinchofyum import PinchOfYum
 from .pingodoce import PingoDoce
 from .pinkowlkitchen import PinkOwlKitchen
+from .plantyou import PlantYou
 from .platingpixels import PlatingPixels
 from .platingsandpairings import PlatingsAndPairings
 from .plowingthroughlife import PlowingThroughLife
@@ -610,6 +619,7 @@ from .varechapravdask import VarechaPravdaSK
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
+from .velocidadcuchara import VelocidadCuchara
 from .veroniquecloutier import VeroniqueCloutier
 from .waitrose import Waitrose
 from .watchwhatueat import WatchWhatUEat
@@ -653,6 +663,7 @@ SCRAPERS = {
     AFullLiving.host(): AFullLiving,
     AHealthySliceOfLife.host(): AHealthySliceOfLife,
     AkisPetretzikis.host(): AkisPetretzikis,
+    AlbertCz.host(): AlbertCz,
     AlbertHeijn.host(): AlbertHeijn,
     AlbertHeijn.host(domain="ah.be"): AlbertHeijn,
     Aldi.host(): Aldi,
@@ -790,6 +801,7 @@ SCRAPERS = {
     DelsCookingTwist.host(): DelsCookingTwist,
     DinnerAtTheZoo.host(): DinnerAtTheZoo,
     DinnerThenDessert.host(): DinnerThenDessert,
+    DirectoAlPaladar.host(): DirectoAlPaladar,
     Dishnz.host(): Dishnz,
     DobruChutAktualitySK.host(): DobruChutAktualitySK,
     DomesticateMe.host(): DomesticateMe,
@@ -906,6 +918,7 @@ SCRAPERS = {
     HilahCooking.host(): HilahCooking,
     Hofer.host(): Hofer,
     Hofer.host(domain="hofer.si"): Hofer,
+    Hogarmania.host(): Hogarmania,
     HomeAndPlate.host(): HomeAndPlate,
     HomeChef.host(): HomeChef,
     Hostthetoast.host(): Hostthetoast,
@@ -947,11 +960,13 @@ SCRAPERS = {
     JustBento.host(): JustBento,
     JustineSnacks.host(): JustineSnacks,
     JustOneCookbook.host(): JustOneCookbook,
+    KalciRecept.host(): KalciRecept,
     KaleJunkie.host(): KaleJunkie,
     KellysCleanKitchen.host(): KellysCleanKitchen,
     KennethTemple.host(): KennethTemple,
     KennyMcGovern.host(): KennyMcGovern,
     KeukenLiefdeNL.host(): KeukenLiefdeNL,
+    KeyToMyLime.host(): KeyToMyLime,
     KFoods.host(): KFoods,
     KiddoKitchen.host(): KiddoKitchen,
     Kikkoman.host(): Kikkoman,
@@ -996,6 +1011,7 @@ SCRAPERS = {
     Lovingitvegan.host(): Lovingitvegan,
     Maangchi.host(): Maangchi,
     MadameCuisine.host(): MadameCuisine,
+    MadameLeFigaro.host(): MadameLeFigaro,
     MadensVerden.host(): MadensVerden,
     Madsvin.host(): Madsvin,
     Magimix.host(): Magimix,
@@ -1011,6 +1027,7 @@ SCRAPERS = {
     MellisaKNorris.host(): MellisaKNorris,
     MellosChourico.host(): MellosChourico,
     MelsKitchenCafe.host(): MelsKitchenCafe,
+    MexicanPlease.host(): MexicanPlease,
     Migusto.host(): Migusto,
     Miljuschka.host(): Miljuschka,
     Mindmegette.host(): Mindmegette,
@@ -1020,6 +1037,7 @@ SCRAPERS = {
     Mob.host(): Mob,
     MobKitchen.host(): MobKitchen,
     ModernHoney.host(): ModernHoney,
+    MollyBaz.host(): MollyBaz,
     MomOnTimeout.host(): MomOnTimeout,
     MomsWithCrockPots.host(): MomsWithCrockPots,
     MoscatoMom.host(): MoscatoMom,
@@ -1079,6 +1097,7 @@ SCRAPERS = {
     PinchOfYum.host(): PinchOfYum,
     PingoDoce.host(): PingoDoce,
     PinkOwlKitchen.host(): PinkOwlKitchen,
+    PlantYou.host(): PlantYou,
     PlatingPixels.host(): PlatingPixels,
     PlatingsAndPairings.host(): PlatingsAndPairings,
     PlowingThroughLife.host(): PlowingThroughLife,
@@ -1244,6 +1263,7 @@ SCRAPERS = {
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
+    VelocidadCuchara.host(): VelocidadCuchara,
     VeroniqueCloutier.host(): VeroniqueCloutier,
     Waitrose.host(): Waitrose,
     WatchWhatUEat.host(): WatchWhatUEat,
