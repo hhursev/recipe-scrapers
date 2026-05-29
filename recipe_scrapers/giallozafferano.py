@@ -6,6 +6,18 @@ class GialloZafferano(AbstractScraper):
     def host(cls):
         return "ricette.giallozafferano.it"
 
+    def ingredients(self):
+        ingredients = []
+
+        for ingredient in self.soup.select("dd.gz-ingredient"):
+            name = ingredient.find("a").get_text(" ", strip=True)
+            amount = ingredient.find("span").get_text(" ", strip=True)
+
+            text = f"{amount} {name}".strip()
+            ingredients.append(" ".join(text.split()))
+
+        return ingredients
+
     def nutrients(self):
         nutrients = self.schema.data.get("nutrition", {})
         nutrient_keys = [
