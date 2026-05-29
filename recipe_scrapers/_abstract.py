@@ -1,4 +1,5 @@
 import inspect
+import re
 from collections import OrderedDict
 from typing import Optional
 from urllib.parse import urljoin
@@ -205,3 +206,18 @@ class AbstractScraper:
             except Exception:
                 pass
         return json_dict
+
+    def _reverse_ingredient(self, value):
+        # Regex here is designed to match some string (ingredient name) followed by either:
+        # a) A singular number where no unit make sense
+        # b) A number followed by a unit of measurement of some kind
+        # c) HTML fractions (&frac...) with no units
+        # d) HTML fractions (&frac...) with units after
+        split_string = [
+            ingredient_line
+            for ingredient_line in re.split(
+                r"(\d+(?:,\d+)?(?:\s+\S+)?|&frac\d+;(?:\s+\S+)?)", value.strip()
+            )
+            if ingredient_line
+        ]
+        return " ".join(split_string[1:] + split_string[:1]).strip()

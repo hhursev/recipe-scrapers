@@ -6,6 +6,14 @@ class GialloZafferano(AbstractScraper):
     def host(cls):
         return "ricette.giallozafferano.it"
 
+    def ingredients(self):
+        ingredients = (
+            self.schema.data.get("recipeIngredient")
+            or self.schema.data.get("ingredients")
+            or []
+        )
+        return [self._reverse_ingredient(ingredient) for ingredient in ingredients]
+
     def nutrients(self):
         nutrients = self.schema.data.get("nutrition", {})
         nutrient_keys = [
