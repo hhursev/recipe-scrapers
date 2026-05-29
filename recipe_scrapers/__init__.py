@@ -613,6 +613,7 @@ from .unsophisticook import Unsophisticook
 from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
+from .valentinascorner import ValentinasCorner
 from .vanillaandbean import VanillaAndBean
 from .varechapravdask import VarechaPravdaSK
 from .vegetarbloggen import Vegetarbloggen
@@ -1256,6 +1257,7 @@ SCRAPERS = {
     USAPears.host(): USAPears,
     USDAMyPlate.host(): USDAMyPlate,
     Valdemarsro.host(): Valdemarsro,
+    ValentinasCorner.host(): ValentinasCorner,
     VanillaAndBean.host(): VanillaAndBean,
     VarechaPravdaSK.host(): VarechaPravdaSK,
     Vegetarbloggen.host(): Vegetarbloggen,
