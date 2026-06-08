@@ -8,11 +8,7 @@ class VeganSociety(AbstractScraper):
         return "vegansociety.com"
 
     def _find_content_heading(self, expected_title):
-        for heading in self.soup.find_all("h2"):
-            if expected_title in heading.text:
-                return heading
-
-        for heading in self.soup.find_all("h3"):
+        for heading in self.soup.find_all(["h2", "h3"]):
             if expected_title in heading.text:
                 return heading
 
