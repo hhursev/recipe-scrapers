@@ -411,6 +411,7 @@ from .natashaskitchen import NatashasKitchen
 from .naturallyella import NaturallyElla
 from .ndr import Ndr
 from .netacooks import NetaCooks
+from .newdadskitchen import NewDadsKitchen
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
@@ -1056,6 +1057,7 @@ SCRAPERS = {
     NaturallyElla.host(): NaturallyElla,
     Ndr.host(): Ndr,
     NetaCooks.host(): NetaCooks,
+    NewDadsKitchen.host(): NewDadsKitchen,
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NibbleDish.host(): NibbleDish,
     NIHHealthyEating.host(): NIHHealthyEating,
