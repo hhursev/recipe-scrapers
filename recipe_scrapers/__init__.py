@@ -648,6 +648,7 @@ from .zaubertopf import ZauberTopf
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 from .zestfulkitchen import ZestfulKitchen
+from .zuckerjagdwurst import ZuckerJagdwurst
 
 SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
@@ -1296,6 +1297,7 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     ZestfulKitchen.host(): ZestfulKitchen,
+    ZuckerJagdwurst.host(): ZuckerJagdwurst,
 }
 
 
