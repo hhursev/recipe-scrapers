@@ -134,6 +134,7 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .chewoutloud import ChewOutLoud
+from .chocolatewithgrace import ChocolateWithGrace
 from .choosehomemade import ChooseHomemade
 from .cleaneatingkitchen import CleanEatingKitchen
 from .closetcooking import ClosetCooking
@@ -317,11 +318,13 @@ from .justataste import JustATaste
 from .justbento import JustBento
 from .justinesnacks import JustineSnacks
 from .justonecookbook import JustOneCookbook
+from .kalcirecept import KalciRecept
 from .kalejunkie import KaleJunkie
 from .kellyscleankitchen import KellysCleanKitchen
 from .kennethtemple import KennethTemple
 from .kennymcgovern import KennyMcGovern
 from .keukenliefdenl import KeukenLiefdeNL
+from .keytomylime import KeyToMyLime
 from .kfoods import KFoods
 from .kiddokitchen import KiddoKitchen
 from .kikkoman import Kikkoman
@@ -399,6 +402,7 @@ from .moulinex import Moulinex
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .myjewishlearning import MyJewishLearning
+from .mykidslickthebowl import MyKidsLickTheBowl
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
@@ -492,6 +496,7 @@ from .rezeptwelt import Rezeptwelt
 from .ricardocuisine import RicardoCuisine
 from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
+from .rickbayless import RickBayless
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
 from .saboresajinomoto import SaboresAjinomoto
@@ -611,6 +616,7 @@ from .unsophisticook import Unsophisticook
 from .usapears import USAPears
 from .usdamyplate import USDAMyPlate
 from .valdemarsro import Valdemarsro
+from .valentinascorner import ValentinasCorner
 from .vanillaandbean import VanillaAndBean
 from .varechapravdask import VarechaPravdaSK
 from .vegetarbloggen import Vegetarbloggen
@@ -755,6 +761,7 @@ SCRAPERS = {
     Chefnini.host(): Chefnini,
     ChefSavvy.host(): ChefSavvy,
     ChewOutLoud.host(): ChewOutLoud,
+    ChocolateWithGrace.host(): ChocolateWithGrace,
     ChooseHomemade.host(): ChooseHomemade,
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
@@ -958,11 +965,13 @@ SCRAPERS = {
     JustBento.host(): JustBento,
     JustineSnacks.host(): JustineSnacks,
     JustOneCookbook.host(): JustOneCookbook,
+    KalciRecept.host(): KalciRecept,
     KaleJunkie.host(): KaleJunkie,
     KellysCleanKitchen.host(): KellysCleanKitchen,
     KennethTemple.host(): KennethTemple,
     KennyMcGovern.host(): KennyMcGovern,
     KeukenLiefdeNL.host(): KeukenLiefdeNL,
+    KeyToMyLime.host(): KeyToMyLime,
     KFoods.host(): KFoods,
     KiddoKitchen.host(): KiddoKitchen,
     Kikkoman.host(): Kikkoman,
@@ -1041,6 +1050,7 @@ SCRAPERS = {
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyJewishLearning.host(): MyJewishLearning,
+    MyKidsLickTheBowl.host(): MyKidsLickTheBowl,
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyKoreanKitchen.host(): MyKoreanKitchen,
@@ -1134,6 +1144,7 @@ SCRAPERS = {
     RicardoCuisine.host(): RicardoCuisine,
     Ricetta.host(): Ricetta,
     RicettePerBimby.host(): RicettePerBimby,
+    RickBayless.host(): RickBayless,
     RosannaPansino.host(): RosannaPansino,
     RutgerBakt.host(): RutgerBakt,
     SaboresAjinomoto.host(): SaboresAjinomoto,
@@ -1253,6 +1264,7 @@ SCRAPERS = {
     USAPears.host(): USAPears,
     USDAMyPlate.host(): USDAMyPlate,
     Valdemarsro.host(): Valdemarsro,
+    ValentinasCorner.host(): ValentinasCorner,
     VanillaAndBean.host(): VanillaAndBean,
     VarechaPravdaSK.host(): VarechaPravdaSK,
     Vegetarbloggen.host(): Vegetarbloggen,

@@ -1,0 +1,74 @@
+{
+  "author": "Mary Younkin",
+  "canonical_url": "https://chocolatewithgrace.com/no-bake-blueberry-cheesecake/",
+  "site_name": "Chocolate with Grace",
+  "host": "chocolatewithgrace.com",
+  "language": "en-US",
+  "title": "No Bake Blueberry Cheesecake",
+  "ingredients": [
+    "½ cup butter (melted)",
+    "¼ cup granulated sugar",
+    "2 cups graham cracker crumbs (finely crushed)",
+    "1½ cup powdered sugar",
+    "11 ounces cream cheese (softened)",
+    "3 tablespoons milk",
+    "1 teaspoon vanilla",
+    "16 ounces whipped topping",
+    "2 cups blueberry pie filling (this is one recipe's worth)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "½ cup butter (melted)",
+        "¼ cup granulated sugar",
+        "2 cups graham cracker crumbs (finely crushed)"
+      ],
+      "purpose": "For the Crust"
+    },
+    {
+      "ingredients": [
+        "1½ cup powdered sugar",
+        "11 ounces cream cheese (softened)",
+        "3 tablespoons milk",
+        "1 teaspoon vanilla",
+        "16 ounces whipped topping"
+      ],
+      "purpose": "For the cheesecake"
+    },
+    {
+      "ingredients": [
+        "2 cups blueberry pie filling (this is one recipe's worth)"
+      ],
+      "purpose": "For the blueberry topping"
+    }
+  ],
+  "instructions_list": [
+    "Stir together the melted butter, graham cracker crumbs, and sugar. Press into the bottom of a 9 x 13 baking dish.",
+    "In a large bowl, beat together the powdered sugar, cream cheese, milk and vanilla until smooth. Carefully spread on top of the crust, being careful not to break it. Top with the whipped topping or homemade whipped cream.",
+    "Carefully spread on the blueberry pie filling. Chill for at least 6 hours before serving. Store in the refrigerator. Best eaten within a few days."
+  ],
+  "category": "Dessert",
+  "yields": "15 servings",
+  "description": "No Bake Blueberry Cheesecake with a graham cracker crust is an easy summer dessert recipe.",
+  "total_time": 380,
+  "prep_time": 20,
+  "cuisine": "American",
+  "ratings": 4.6,
+  "ratings_count": 15,
+  "nutrients": {
+    "servingSize": "1 piece",
+    "calories": "259 kcal",
+    "fatContent": "16 g",
+    "saturatedFatContent": "9 g",
+    "unsaturatedFatContent": "6 g",
+    "carbohydrateContent": "28 g",
+    "sugarContent": "18 g",
+    "proteinContent": "2 g",
+    "sodiumContent": "185 mg",
+    "cholesterolContent": "38 mg"
+  },
+  "image": "https://chocolatewithgrace.com/wp-content/uploads/2018/07/CWG-No-Bake-Blueberry-Cheesecake-4.jpg",
+  "keywords": [
+    "no bake blueberry cheesecake"
+  ]
+}

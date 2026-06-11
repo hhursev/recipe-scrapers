@@ -1,6 +1,7 @@
 from ._abstract import AbstractScraper
 from ._exceptions import StaticValueException
 from ._utils import get_minutes, get_yields
+from ._grouping_utils import group_ingredients
 
 
 class DonalSkehan(AbstractScraper):
@@ -41,10 +42,27 @@ class DonalSkehan(AbstractScraper):
         ingredients_section = self.soup.find(
             "div", class_="tab-pane fade show active", id="metric"
         )
-        return [
-            ingredient.get_text().strip()
-            for ingredient in ingredients_section.find_all("p")
-        ]
+
+        ingredients = []
+        for p in ingredients_section.find_all("p"):
+            strong = p.find("strong")
+
+            if strong and strong.get_text(strip=True).endswith(":"):
+                continue
+
+            text = p.get_text(" ", strip=True)
+            if text:
+                ingredients.append(text)
+
+        return ingredients
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            "div.tab-pane#metric p strong",
+            "div.tab-pane#metric p:not(:has(strong))",
+        )
 
     def instructions(self):
         instructions_section = self.soup.find(
