@@ -378,6 +378,7 @@ from .marthastewart import MarthaStewart
 from .matprat import Matprat
 from .mccormick import McCormick
 from .mealprepmanual import MealPrepManual
+from .meatchurch import MeatChurch
 from .meganvskitchen import MeganVsKitchen
 from .meljoulwan import Meljoulwan
 from .mellisaknorris import MellisaKNorris
@@ -1026,6 +1027,7 @@ SCRAPERS = {
     Matprat.host(): Matprat,
     McCormick.host(): McCormick,
     MealPrepManual.host(): MealPrepManual,
+    MeatChurch.host(): MeatChurch,
     MeganVsKitchen.host(): MeganVsKitchen,
     Meljoulwan.host(): Meljoulwan,
     MellisaKNorris.host(): MellisaKNorris,
