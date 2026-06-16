@@ -214,7 +214,6 @@ from .everydaydelicious import EverydayDelicious
 from .everydaypie import EverydayPie
 from .evolvingtable import EvolvingTable
 from .familyfoodonthetable import FamilyfoodOnTheTable
-from .familyspice import familyspice
 from .fantabulosity import Fantabulosity
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
@@ -354,7 +353,7 @@ from .leckerschmecker import LeckerSchmecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
-from .letscampsmore import letscampsmore
+from .letscampsmore import LetsCampSmore
 from .leukerecepten import Leukerecepten
 from .lidiasitaly import LidiasItaly
 from .lifestyleofafoodie import LifestyleOfAFoodie
