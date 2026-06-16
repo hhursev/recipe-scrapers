@@ -1,7 +1,7 @@
 from ._abstract import AbstractScraper
 
 
-class familyspice(AbstractScraper):
+class FamilySpice(AbstractScraper):
     @classmethod
     def host(cls):
         return "familyspice.com"
