@@ -102,6 +102,7 @@ from .beyondfrosting import BeyondFrosting
 from .biancazapatka import BiancaZapatka
 from .biggerbolderbaking import BiggerBolderBaking
 from .bigoven import BigOven
+from .billa import Billa
 from .billyparisi import BillyParisi
 from .bitsofcarey import BitsOfCarey
 from .blessthismessplease import BlessThisMessPlease
@@ -739,6 +740,7 @@ SCRAPERS = {
     BiancaZapatka.host(): BiancaZapatka,
     BiggerBolderBaking.host(): BiggerBolderBaking,
     BigOven.host(): BigOven,
+    Billa.host(): Billa,
     BillyParisi.host(): BillyParisi,
     BitsOfCarey.host(): BitsOfCarey,
     BlessThisMessPlease.host(): BlessThisMessPlease,
