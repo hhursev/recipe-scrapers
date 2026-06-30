@@ -134,6 +134,7 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .chewoutloud import ChewOutLoud
+from .chocolatewithgrace import ChocolateWithGrace
 from .choosehomemade import ChooseHomemade
 from .cleaneatingkitchen import CleanEatingKitchen
 from .closetcooking import ClosetCooking
@@ -401,6 +402,7 @@ from .moulinex import Moulinex
 from .mundodereceitasbimby import MundoDeReceitasBimby
 from .mybakingaddiction import MyBakingAddiction
 from .myjewishlearning import MyJewishLearning
+from .mykidslickthebowl import MyKidsLickTheBowl
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
@@ -411,6 +413,7 @@ from .natashaskitchen import NatashasKitchen
 from .naturallyella import NaturallyElla
 from .ndr import Ndr
 from .netacooks import NetaCooks
+from .newdadskitchen import NewDadsKitchen
 from .nhshealthierfamilies import NHSHealthierFamilies
 from .nibbledish import NibbleDish
 from .nihhealthyeating import NIHHealthyEating
@@ -759,6 +762,7 @@ SCRAPERS = {
     Chefnini.host(): Chefnini,
     ChefSavvy.host(): ChefSavvy,
     ChewOutLoud.host(): ChewOutLoud,
+    ChocolateWithGrace.host(): ChocolateWithGrace,
     ChooseHomemade.host(): ChooseHomemade,
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
@@ -1047,6 +1051,7 @@ SCRAPERS = {
     MundoDeReceitasBimby.host(): MundoDeReceitasBimby,
     MyBakingAddiction.host(): MyBakingAddiction,
     MyJewishLearning.host(): MyJewishLearning,
+    MyKidsLickTheBowl.host(): MyKidsLickTheBowl,
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyKoreanKitchen.host(): MyKoreanKitchen,
@@ -1057,6 +1062,7 @@ SCRAPERS = {
     NaturallyElla.host(): NaturallyElla,
     Ndr.host(): Ndr,
     NetaCooks.host(): NetaCooks,
+    NewDadsKitchen.host(): NewDadsKitchen,
     NHSHealthierFamilies.host(): NHSHealthierFamilies,
     NibbleDish.host(): NibbleDish,
     NIHHealthyEating.host(): NIHHealthyEating,
