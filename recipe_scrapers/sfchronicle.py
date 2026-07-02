@@ -68,7 +68,9 @@ class SFChronicle(AbstractScraper):
     def _first_instruction_match(self, body):
         match = _INSTRUCTION_START.search(body)
         if not match:
-            raise ElementNotFoundInHtml("Could not find recipe instructions in articleBody.")
+            raise ElementNotFoundInHtml(
+                "Could not find recipe instructions in articleBody."
+            )
         return match
 
     def _ingredient_blob(self, body):
@@ -126,7 +128,9 @@ class SFChronicle(AbstractScraper):
         blob = self._ingredient_blob(self._article_body())
         blob = _SECTION_HEADER.sub(" ", blob)
         blob = re.sub(r"\s+", " ", blob).strip()
-        ingredients = [part.strip() for part in _INGREDIENT_SPLIT.split(blob) if part.strip()]
+        ingredients = [
+            part.strip() for part in _INGREDIENT_SPLIT.split(blob) if part.strip()
+        ]
         normalized = []
         for ingredient in ingredients:
             if "Sliced chives" in ingredient and "Tostadas, for serving" in ingredient:
@@ -136,7 +140,8 @@ class SFChronicle(AbstractScraper):
             else:
                 normalized.append(ingredient)
         return [
-            normalize_string(ingredient) for ingredient in _merge_parenthetical_ingredients(normalized)
+            normalize_string(ingredient)
+            for ingredient in _merge_parenthetical_ingredients(normalized)
         ]
 
     def instructions(self):
@@ -146,14 +151,18 @@ class SFChronicle(AbstractScraper):
         body = self._article_body()
         matches = list(_INSTRUCTION_START.finditer(body))
         if not matches:
-            raise ElementNotFoundInHtml("Could not find recipe instructions in articleBody.")
+            raise ElementNotFoundInHtml(
+                "Could not find recipe instructions in articleBody."
+            )
 
         steps = []
         for index, match in enumerate(matches):
             end = matches[index + 1].start() if index + 1 < len(matches) else len(body)
             text = body[match.end() : end].strip()
             if re.match(r"^Instructions:\s*", match.group(0), re.IGNORECASE):
-                text = re.sub(r"^Instructions:\s*", "", text, count=1, flags=re.IGNORECASE)
+                text = re.sub(
+                    r"^Instructions:\s*", "", text, count=1, flags=re.IGNORECASE
+                )
             else:
                 text = re.sub(
                     r"^(?:Make|Cook|Prepare) the [^:]+:\s*",
@@ -200,7 +209,9 @@ def _merge_parenthetical_ingredients(ingredients):
     index = 0
     while index < len(ingredients):
         ingredient = ingredients[index]
-        while ingredient.count("(") > ingredient.count(")") and index + 1 < len(ingredients):
+        while ingredient.count("(") > ingredient.count(")") and index + 1 < len(
+            ingredients
+        ):
             index += 1
             ingredient = f"{ingredient} {ingredients[index]}"
         merged.append(ingredient)
