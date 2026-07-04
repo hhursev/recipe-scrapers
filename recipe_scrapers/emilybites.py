@@ -1,8 +1,7 @@
 from ._abstract import AbstractScraper
-from ._wprm import WPRMMixin
 
 
-class EmilyBites(WPRMMixin, AbstractScraper):
+class EmilyBites(AbstractScraper):
     @classmethod
     def host(cls):
         return "emilybites.com"
