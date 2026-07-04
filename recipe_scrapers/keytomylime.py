@@ -2,15 +2,15 @@ from ._abstract import AbstractScraper
 from ._grouping_utils import group_ingredients
 
 
-class InsanelyGoodRecipes(AbstractScraper):
+class KeyToMyLime(AbstractScraper):
     @classmethod
     def host(cls):
-        return "insanelygoodrecipes.com"
+        return "keytomylime.com"
 
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            ".ingredient-item-group-title",
-            ".ingredient-item:not(.ingredient-item-group)",
+            ".mv-create-ingredients h3",
+            ".mv-create-ingredients ul li",
         )

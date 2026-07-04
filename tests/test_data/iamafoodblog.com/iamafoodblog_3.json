@@ -1,0 +1,101 @@
+{
+  "author": "Mike",
+  "canonical_url": "https://iamafoodblog.com/chicken-pho/",
+  "site_name": "i am a food blog",
+  "host": "iamafoodblog.com",
+  "language": "en-US",
+  "title": "Authentic Chicken Pho",
+  "ingredients": [
+    "1 onion (halved)",
+    "3\" ginger (sliced)",
+    "5 lbs chicken (4 drumsticks, 4 thighs, 1 whole breast, bone-in, skin on)",
+    "2 lbs fresh pho noodles (or dried)",
+    "1 stick cinnamon",
+    "2-3 whole star anise",
+    "1/2 tsp coriander",
+    "1/2 tsp white pepper",
+    "1/2 tsp cloves",
+    "1/2 tsp cardamom (about 8 pods)",
+    "1/4 cup sugar",
+    "2 tbsp coarse sea salt",
+    "1 tbsp fish sauce (optional but replace with equivalent salt if omitting)",
+    "1 tbsp msg (optional)",
+    "1 lime",
+    "1 bunch Thai basil",
+    "1 bunch cilantro",
+    "2-3 Thai chilies (sliced)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 onion (halved)",
+        "3\" ginger (sliced)",
+        "5 lbs chicken (4 drumsticks, 4 thighs, 1 whole breast, bone-in, skin on)",
+        "2 lbs fresh pho noodles (or dried)"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "1 stick cinnamon",
+        "2-3 whole star anise",
+        "1/2 tsp coriander",
+        "1/2 tsp white pepper",
+        "1/2 tsp cloves",
+        "1/2 tsp cardamom (about 8 pods)"
+      ],
+      "purpose": "Spice Pack"
+    },
+    {
+      "ingredients": [
+        "1/4 cup sugar",
+        "2 tbsp coarse sea salt",
+        "1 tbsp fish sauce (optional but replace with equivalent salt if omitting)",
+        "1 tbsp msg (optional)"
+      ],
+      "purpose": "Seasoning"
+    },
+    {
+      "ingredients": [
+        "1 lime",
+        "1 bunch Thai basil",
+        "1 bunch cilantro",
+        "2-3 Thai chilies (sliced)"
+      ],
+      "purpose": "Garnishes (all optional)"
+    }
+  ],
+  "instructions_list": [
+    "Carefully char your aromatics with a blowtorch or over a gas hob. Set aside. In a small pan, char your spices and add to a tea bag if you have on. If you don’t have a blowtorch or flame source, you can toast your aromatics in a cast iron pan as well.",
+    "Add the chicken, onion, ginger, and spices, and cover with water. Bring up to a boil on high heat. Once boiling, reduce to a low boil and set a timer for 25 minutes.",
+    "At the end of the 25 minutes, transfer your chicken to a large bowl and let cool. Continue cooking the soup, adding water if needed. Once the chicken is cool enough to handle, roughly remove the meat from the bones, transfer to a container and refrigerate.",
+    "Add the bones back to soup and continue to simmer for another 30 minutes to 2 hours. More time will make a better soup.",
+    "Let the soup cool to a safe temperature (add 1qt water to help it cool), then strain (remember to put a container under your sieve). Ensure the soup has about 3 quarts of liquid, adding water if necessary.",
+    "Give the pot a quick rinse, then return the soup to the pot. Heat up the soup again, then season to your liking with sugar, fish sauce, salt, and msg as desired (my recommendations are up top).",
+    "To serve: quickly blanch your pho noodles according to the directions on the package, then transfer to large noodle soup bowls. Warm the chicken in the soup, then evenly divide the chicken between the bowls. Just before you're ready to eat, top with soup, thai basil, chilies, and cilantro, if using. Serve with ginger fish sauce to dip. (see below)"
+  ],
+  "category": "Main Course",
+  "yields": "6 servings",
+  "description": "It takes 3 hours and a whole chicken and it's 100% worth it.",
+  "total_time": 180,
+  "cook_time": 145,
+  "prep_time": 35,
+  "cuisine": "Vietnamese",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "515 kcal",
+    "fatContent": "2.9 g",
+    "saturatedFatContent": "0.7 g",
+    "carbohydrateContent": "100.4 g",
+    "sugarContent": "8.4 g",
+    "proteinContent": "19.3 g",
+    "sodiumContent": "789 mg",
+    "fiberContent": "4 g",
+    "cholesterolContent": "40 mg"
+  },
+  "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2026/04/chicken-pho-6294w.jpg",
+  "keywords": [
+    "chicken",
+    "pho"
+  ]
+}
