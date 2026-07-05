@@ -16,6 +16,27 @@
     "200ml/7¼oz double cream, whipped",
     "cocoa powder, to dust"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "100g/3½oz butter",
+        "250g/8¾oz digestive biscuits, crushed",
+        "600g/1lb 5oz cream cheese",
+        "25ml/1fl oz Baileys or other Irish cream liqueur",
+        "100ml/3½oz icing sugar",
+        "300ml/10½oz double cream, whipped",
+        "100g/3½oz grated chocolate"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "200ml/7¼oz double cream, whipped",
+        "cocoa powder, to dust"
+      ],
+      "purpose": "To garnish"
+    }
+  ],
   "instructions_list": [
     "Melt the butter in a pan and add the crushed digestive biscuits. Mix well until the biscuits have absorbed all the butter.",
     "Remove from the heat and press into the bottom of a lined 18cm/7in springform tin. Place in the refrigerator and allow to set for one hour.",
