@@ -1,0 +1,101 @@
+{
+  "author": "Gail Ng",
+  "canonical_url": "https://teakandthyme.com/lemon-raspberry-cake/",
+  "site_name": "Teak & Thyme",
+  "host": "teakandthyme.com",
+  "language": "en-US",
+  "title": "Lemon Raspberry Cake",
+  "ingredients": [
+    "200 g cake flour",
+    "1 1/2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "115 g unsalted butter (melted)",
+    "100 g flavourless oil",
+    "150 g granulated sugar",
+    "2 large eggs (room temperature)",
+    "2 teaspoons vanilla extract",
+    "200 g milk (dairy or non-dairy)",
+    "200 g raspberries",
+    "230 g unsalted butter (room temperature)",
+    "115 g powdered sugar",
+    "1 tablespoon lemon juice (about half a lemon)",
+    "2 teaspoons lemon zest",
+    "edible flowers"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "200 g cake flour",
+        "1 1/2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "115 g unsalted butter (melted)",
+        "100 g flavourless oil",
+        "150 g granulated sugar",
+        "2 large eggs (room temperature)",
+        "2 teaspoons vanilla extract",
+        "200 g milk (dairy or non-dairy)",
+        "200 g raspberries"
+      ],
+      "purpose": "Raspberry Cake"
+    },
+    {
+      "ingredients": [
+        "230 g unsalted butter (room temperature)",
+        "115 g powdered sugar",
+        "1 tablespoon lemon juice (about half a lemon)",
+        "2 teaspoons lemon zest",
+        "edible flowers"
+      ],
+      "purpose": "Lemon Buttercream"
+    }
+  ],
+  "instructions_list": [
+    "Raspberry Cake",
+    "Preheat oven to 350°F and line the bottom of one 9” cake pan with a round of parchment paper.",
+    "In a medium bowl, sift together cake flour, baking powder, and salt. Set aside.",
+    "In a large mixing bowl, whisk together melted butter, oil, and sugar. Add in the eggs and vanilla extract and whisk until combined.",
+    "Add in half of the flour mixture and whisk until almost combined. Add in all of the milk and whisk together. Add the rest of the flour mixture and whisk until just combined and smooth.",
+    "In a small bowl, toss raspberries with 2 tablespoons of flour to coat. This helps prevent the raspberries from sinking to the bottom of the batter and absorbs extra moisture. Fold them into the batter until just incorporated.",
+    "Pour the batter into your lined cake pan. Give the pan a tap on the counter or a spin to release some air bubbles and to help the cake bake flatter.",
+    "Bake cake for 40-45 minutes or until a toothpick inserted in the middle comes out clean. Let the cake cool in the pan for 20-30 minutes before running an offset spatula around the edges of the cake. Flip the pan over to release the cake and let it cool completely (upside down) on parchment paper and/or a wire rack.",
+    "Lemon Buttercream",
+    "In the mixing bowl of a stand mixer fitted with a paddle attachment, beat softened butter on medium speed for 10 minutes until it becomes very creamy and pale in colour.",
+    "Add in the powdered sugar and beat for 5 minutes. Scrape down the bowl and add in the lemon juice and lemon zest. Beat for another 10 minutes on low-medium speed until it becomes very creamy and smooth.",
+    "Finish by folding the buttercream with a spatula to release the air bubbles or heat a small amount of buttercream until it becomes melty and mix it back into the buttercream to make it extra silky.",
+    "Transfer the buttercream to a piping bag fitted with a large open star piping tip.",
+    "Assemble the cake",
+    "Use a sharp, serrated knife to slice the cake into two even layers. Put one layer down on a cake stand or plate.",
+    "Pipe dollops of buttercream across the surface of the cake.",
+    "Place the second cake layer on top and press down gently to secure.",
+    "Pipe another layer of buttercream on top of the cake. Arrange edible flowers and extra raspberries on top of the buttercream."
+  ],
+  "category": "Dessert",
+  "yields": "1 layer",
+  "description": "A sweet and simple lemon raspberry cake with lemon buttercream and fresh flowers on top",
+  "total_time": 120,
+  "cook_time": 45,
+  "prep_time": 75,
+  "cuisine": "American",
+  "image": "https://teakandthyme.com/wp-content/uploads/2022/08/lemon-raspberry-cake-DSC_3745-1x1-1200.jpg",
+  "keywords": [
+    "lemon raspberry cake",
+    "raspberry cake recipe",
+    "raspberry lemon cake"
+  ],
+  "ratings": 5.0,
+  "ratings_count": 12,
+  "nutrients": {
+    "calories": "5486 kcal",
+    "carbohydrateContent": "448 g",
+    "proteinContent": "47 g",
+    "fatContent": "400 g",
+    "saturatedFatContent": "196 g",
+    "transFatContent": "11 g",
+    "cholesterolContent": "1093 mg",
+    "sodiumContent": "2049 mg",
+    "fiberContent": "18 g",
+    "sugarContent": "283 g",
+    "unsaturatedFatContent": "176 g",
+    "servingSize": "1 serving"
+  }
+}
