@@ -23,23 +23,23 @@
   "total_time": 380,
   "prep_time": 20,
   "cuisine": "Japanese",
+  "ratings": 5.0,
+  "ratings_count": 48,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "3515 kcal",
+    "fatContent": "252 g",
+    "saturatedFatContent": "160 g",
+    "unsaturatedFatContent": "75 g",
+    "carbohydrateContent": "230 g",
+    "sugarContent": "230 g",
+    "proteinContent": "78 g",
+    "sodiumContent": "657 mg",
+    "cholesterolContent": "814 mg"
+  },
   "image": "https://teakandthyme.com/wp-content/uploads/2022/08/matcha-ice-cream-DSC_5061-1x1-1200.jpg",
   "keywords": [
     "matcha",
     "matcha ice cream"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 48,
-  "nutrients": {
-    "calories": "3515 kcal",
-    "carbohydrateContent": "230 g",
-    "proteinContent": "78 g",
-    "fatContent": "252 g",
-    "saturatedFatContent": "160 g",
-    "cholesterolContent": "814 mg",
-    "sodiumContent": "657 mg",
-    "sugarContent": "230 g",
-    "unsaturatedFatContent": "75 g",
-    "servingSize": "1 serving"
-  }
+  ]
 }

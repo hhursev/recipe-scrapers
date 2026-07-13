@@ -76,26 +76,26 @@
   "cook_time": 45,
   "prep_time": 75,
   "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 12,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "5486 kcal",
+    "fatContent": "400 g",
+    "saturatedFatContent": "196 g",
+    "unsaturatedFatContent": "176 g",
+    "transFatContent": "11 g",
+    "carbohydrateContent": "448 g",
+    "sugarContent": "283 g",
+    "proteinContent": "47 g",
+    "sodiumContent": "2049 mg",
+    "fiberContent": "18 g",
+    "cholesterolContent": "1093 mg"
+  },
   "image": "https://teakandthyme.com/wp-content/uploads/2022/08/lemon-raspberry-cake-DSC_3745-1x1-1200.jpg",
   "keywords": [
     "lemon raspberry cake",
     "raspberry cake recipe",
     "raspberry lemon cake"
-  ],
-  "ratings": 5.0,
-  "ratings_count": 12,
-  "nutrients": {
-    "calories": "5486 kcal",
-    "carbohydrateContent": "448 g",
-    "proteinContent": "47 g",
-    "fatContent": "400 g",
-    "saturatedFatContent": "196 g",
-    "transFatContent": "11 g",
-    "cholesterolContent": "1093 mg",
-    "sodiumContent": "2049 mg",
-    "fiberContent": "18 g",
-    "sugarContent": "283 g",
-    "unsaturatedFatContent": "176 g",
-    "servingSize": "1 serving"
-  }
+  ]
 }
