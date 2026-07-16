@@ -5,14 +5,14 @@ from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml, FieldNotProvidedByWebsiteException
 from ._utils import get_yields, normalize_string
 
+# Section headers like "Make the …:", "Grill the …:", "Combine the …:", etc.
+# Avoid matching across sentence periods (e.g. "Serve at room temperature. Note:").
 _INSTRUCTION_START = re.compile(
-    r"\b(?:Make|Cook|Prepare) the [^:]{1,80}:|\bInstructions:\s*",
-)
-_YIELD = re.compile(r"\b(?:Serves|Makes)\s+(\d+(?:\s+to\s+\d+)?)", re.IGNORECASE)
-_SECTION_HEADER = re.compile(
-    r"\s+(?:Spicy Egg Salad|Tostadas and Toppings)\s+",
+    r"\b(?:Make|Cook|Prepare|Grill|Finish|Combine|Assemble|Bake|Fry|Toss)"
+    r"(?:\s+the)?\s+[^.:]{1,60}:|\bInstructions:\s*",
     re.IGNORECASE,
 )
+_YIELD = re.compile(r"\b(?:Serves|Makes)\s+(\d+(?:\s+to\s+\d+)?)", re.IGNORECASE)
 _FIRST_INGREDIENT = re.compile(
     r"(?<!\w)"
     r"(?:"
@@ -24,15 +24,27 @@ _FIRST_INGREDIENT = re.compile(
     r"cans?|pieces?|sprigs?|heads?|bags?|medium|large|small|whole|dry|raw|guajillo|chiles?)",
     re.IGNORECASE,
 )
-_INGREDIENT_SPLIT = re.compile(
-    r"(?<=\s)(?<!about )(?=(?:\d+[/\d]*|\d+|[\u00bc\u00bd\u00be\u2153\u2154]|\d+[\u00bc\u00bd\u00be\u2153\u2154])\s)"
-    r"|(?<=\s)(?<!about )(?=\d+\s)"
-    r"|(?<=[a-z,])\s+(?=\d+\-\w+\b)"
-    r"|(?<=[a-z])\s+(?=1[\u00bc\u00bd\u00be\u2153\u2154]\s)"
-    r"|(?<=\s)(?=(?:Kosher salt|Sliced chives|Tostadas,|Salt and pepper|Pitted dates)\b)",
+# Amount-less lines that are still ingredients (not section headers).
+_AMOUNTLESS_INGREDIENT = re.compile(
+    r"^(?:Kosher salt|Salt and pepper|Salt|Pepper|"
+    r"Sliced chives,? for serving|Tostadas,? for serving|Pitted dates,? for serving|"
+    r"Basil leaves|Yellow peach slices)\b",
     re.IGNORECASE,
 )
+_AMOUNTLESS_SPLIT_NAMES = (
+    "Kosher salt",
+    "Salt and pepper",
+    "Sliced chives",
+    "Tostadas,",
+    "Tostadas ",
+    "Pitted dates",
+    "Basil leaves",
+    "Yellow peach slices",
+)
 _SENTENCE_STEP = re.compile(r"(?<=\.)\s+(?=[A-Z])")
+# Do not start a new ingredient at a quantity that continues a range/alternative
+# ("1 large or 2 medium", "into ¼-inch slices").
+_QUANTITY_CONTINUATION = re.compile(r"\b(?:or|to|and|into)$", re.IGNORECASE)
 
 
 class SFChronicle(AbstractScraper):
@@ -79,9 +91,6 @@ class SFChronicle(AbstractScraper):
         yield_matches = list(_YIELD.finditer(preamble))
         if yield_matches:
             preamble = preamble[yield_matches[-1].end() :]
-        section = re.search(r"Spicy Egg Salad\s*", preamble, re.IGNORECASE)
-        if section:
-            preamble = preamble[section.end() :]
         first_ingredient = _FIRST_INGREDIENT.search(preamble)
         if first_ingredient:
             return preamble[first_ingredient.start() :]
@@ -125,24 +134,11 @@ class SFChronicle(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def ingredients(self):
-        blob = self._ingredient_blob(self._article_body())
-        blob = _SECTION_HEADER.sub(" ", blob)
-        blob = re.sub(r"\s+", " ", blob).strip()
+        blob = re.sub(r"\s+", " ", self._ingredient_blob(self._article_body())).strip()
         ingredients = [
-            part.strip() for part in _INGREDIENT_SPLIT.split(blob) if part.strip()
+            normalize_string(token) for token in _split_ingredient_blob(blob) if token
         ]
-        normalized = []
-        for ingredient in ingredients:
-            if "Sliced chives" in ingredient and "Tostadas, for serving" in ingredient:
-                ingredient = ingredient.replace("Tostadas, for serving", "").strip()
-                normalized.append(ingredient)
-                normalized.append("Tostadas, for serving")
-            else:
-                normalized.append(ingredient)
-        return [
-            normalize_string(ingredient)
-            for ingredient in _merge_parenthetical_ingredients(normalized)
-        ]
+        return _merge_parenthetical_ingredients(ingredients)
 
     def instructions(self):
         return "\n".join(self.instructions_list())
@@ -165,26 +161,22 @@ class SFChronicle(AbstractScraper):
                 )
             else:
                 text = re.sub(
-                    r"^(?:Make|Cook|Prepare) the [^:]+:\s*",
+                    r"^(?:Make|Cook|Prepare|Grill|Finish|Combine|Assemble|Bake|Fry|Toss)"
+                    r"(?:\s+the)?\s+[^.:]+:\s*",
                     "",
                     text,
                     count=1,
                     flags=re.IGNORECASE,
                 )
-            if len(matches) > 1:
-                steps.append(normalize_string(text))
-            elif re.match(r"^Instructions:\s*", match.group(0), re.IGNORECASE):
-                steps.extend(
-                    normalize_string(step)
-                    for step in _split_instruction_text(text)
-                    if step.strip()
-                )
-            elif re.search(r"\bPeel the eggs\b", text):
+            if re.search(r"\bPeel the eggs\b", text):
+                # Huevos: one Make-block with several sentences, then Finish.
                 steps.extend(
                     normalize_string(step)
                     for step in _huevos_instruction_steps(text)
                     if step.strip()
                 )
+            elif len(matches) > 1:
+                steps.append(normalize_string(text))
             else:
                 for step in _split_instruction_text(text):
                     if step.strip():
@@ -202,6 +194,78 @@ class SFChronicle(AbstractScraper):
         if isinstance(publisher, dict) and publisher.get("name"):
             return publisher["name"]
         return "San Francisco Chronicle"
+
+
+def _is_section_header(token: str) -> bool:
+    text = token.strip()
+    if not text or len(text) > 60:
+        return False
+    if re.match(r"^[\d¼½¾⅓⅔]", text):
+        return False
+    if _AMOUNTLESS_INGREDIENT.match(text):
+        return False
+    if "." in text or text.endswith(","):
+        return False
+    if not re.match(r"^[A-Za-z]", text):
+        return False
+    if len(text.split()) > 6:
+        return False
+    return True
+
+
+def _split_ingredient_blob(blob: str):
+    marks = set()
+    for match in re.finditer(
+        r"(?<=\s)(?=(?:\d+[\d/½¼¾⅓⅔]*|[¼½¾⅓⅔]|1[¼½¾⅓⅔])(?:\s|-))"
+        r"|(?<=[a-z,])\s+(?=\d+\-\w+\b)",
+        blob,
+        re.IGNORECASE,
+    ):
+        prev = blob[: match.start()].rstrip()
+        if _QUANTITY_CONTINUATION.search(prev):
+            continue
+        marks.add(match.start())
+
+    for name in _AMOUNTLESS_SPLIT_NAMES:
+        for match in re.finditer(rf"(?<=\s)(?={re.escape(name)})", blob, re.IGNORECASE):
+            marks.add(match.start())
+
+    parts = []
+    start = 0
+    for pos in sorted(marks):
+        if pos <= start:
+            continue
+        parts.append(blob[start:pos].strip())
+        start = pos
+    parts.append(blob[start:].strip())
+
+    ingredients = []
+    for token in parts:
+        if not token:
+            continue
+        leading_header = re.match(
+            r"^(.+?)\s+((?:\d+[\d/½¼¾⅓⅔]*|[¼½¾⅓⅔]).*)$",
+            token,
+        )
+        if leading_header and _is_section_header(leading_header.group(1)):
+            token = leading_header.group(2)
+        if (
+            _is_section_header(token)
+            and not _AMOUNTLESS_INGREDIENT.match(token)
+            and not re.match(r"^[\d¼½¾⅓⅔]", token)
+        ):
+            continue
+        trailing = re.search(
+            r"^(.*(?:oil|Parmesan|chopped|packed|vinegar|salt|pepper|powder|"
+            r"instructions?|grilled|cubes?|slices?|serving))\s+"
+            r"([A-Z][A-Za-z-]*(?:\s+[A-Za-z-]*){0,4})$",
+            token,
+        )
+        if trailing and _is_section_header(trailing.group(2)):
+            token = trailing.group(1).strip()
+        if token:
+            ingredients.append(token)
+    return ingredients
 
 
 def _merge_parenthetical_ingredients(ingredients):
@@ -225,7 +289,7 @@ def _split_instruction_text(text):
 
 
 def _huevos_instruction_steps(text):
-    """Huevos articleBody runs steps together without Make-the subsections."""
+    """Huevos Make-block runs several steps together before Finish."""
     splits = [
         r"(?<=\.)\s+(?=Peel the eggs\b)",
         r"(?<=\.)\s+(?=Heat oil in\b)",
