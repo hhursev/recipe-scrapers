@@ -622,6 +622,7 @@ from .valdemarsro import Valdemarsro
 from .valentinascorner import ValentinasCorner
 from .vanillaandbean import VanillaAndBean
 from .varechapravdask import VarechaPravdaSK
+from .veganricha import VeganRicha
 from .vegansociety import VeganSociety
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
@@ -1273,6 +1274,7 @@ SCRAPERS = {
     ValentinasCorner.host(): ValentinasCorner,
     VanillaAndBean.host(): VanillaAndBean,
     VarechaPravdaSK.host(): VarechaPravdaSK,
+    VeganRicha.host(): VeganRicha,
     VeganSociety.host(): VeganSociety,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
