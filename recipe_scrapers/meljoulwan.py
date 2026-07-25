@@ -14,7 +14,7 @@ class Meljoulwan(AbstractScraper):
     def author(self):
         return (
             self.soup.find("div", {"class": "post-author"})
-            .findChild("span")
+            .find("span")
             .get_text()
             .strip()
         )
@@ -25,8 +25,8 @@ class Meljoulwan(AbstractScraper):
     def category(self):
         ul_list = (
             self.soup.find("div", {"class": "post-info"})
-            .findChild("div", {"class", "post-category"})
-            .findChildren("a")
+            .find("div", {"class", "post-category"})
+            .find_all("a")
         )
 
         categories = []
@@ -69,11 +69,11 @@ class Meljoulwan(AbstractScraper):
         return get_yields(yield_value)
 
     def ingredients(self):
-        ul_list = self.soup.find("div", {"class": "tabbed-list"}).findChildren("ul")
+        ul_list = self.soup.find("div", {"class": "tabbed-list"}).find_all("ul")
 
         ingredients = []
         for ul in ul_list:
-            li_list = ul.findChildren("li")
+            li_list = ul.find_all("li")
             for li in li_list:
                 ingredients.append(li.get_text().strip())
 
@@ -88,14 +88,14 @@ class Meljoulwan(AbstractScraper):
         )
 
     def instructions(self):
-        ul_list = self.soup.find("div", {"class": "numbered-list"}).findChildren(
+        ul_list = self.soup.find("div", {"class": "numbered-list"}).find_all(
             "div", {"class", "num-list-group"}
         )
 
         instructions = []
         for li in ul_list:
             instructions.append(
-                li.findChild("div", {"class": "num-list-copy"}).get_text().strip()
+                li.find("div", {"class": "num-list-copy"}).get_text().strip()
             )
         return "\n".join(instructions)
 

@@ -76,6 +76,18 @@ You are encouraged to use our *scrape_html* method:
 
     from recipe_scrapers import scrape_html
 
+Higher-quality image detection is enabled by default when multiple options are available
+on a page. If you prefer to keep the first image returned by the site, disable the
+behaviour on a per-call basis or via the global setting:
+
+.. code:: python
+
+    scraper = scrape_html(html, url, best_image=False)
+    image_url = scraper.image()
+
+    from recipe_scrapers.settings import settings
+
+    settings.BEST_IMAGE_SELECTION = False
 
 Supported Sites
 ---------------

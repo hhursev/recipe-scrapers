@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 from ._utils import get_yields
+from ._grouping_utils import group_ingredients
 
 
 class FoodRepublic(AbstractScraper):
@@ -15,3 +16,11 @@ class FoodRepublic(AbstractScraper):
             else "0"
         )
         return get_yields(servings_amount)
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".recipe-ingredients .ingredient-section",
+            ".recipe-ingredients li:not(.ingredient-section)",
+        )

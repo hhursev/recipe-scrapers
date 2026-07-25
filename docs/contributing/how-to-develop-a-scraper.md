@@ -27,7 +27,7 @@ Fork the [recipe-scrapers repository](https://github.com/hhursev/recipe-scrapers
 follow these steps:
 
 !!! tip "Quick Setup"
-    ```sh
+```sh
     # Clone your fork
     git clone https://github.com/YOUR-USERNAME/recipe-scrapers.git
     cd recipe-scrapers
@@ -37,7 +37,7 @@ follow these steps:
     source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
     python -m pip install --upgrade pip
     pip install -e ".[all]"
-    ```
+```
 
 Create a new branch:
 
@@ -46,13 +46,13 @@ git checkout -b site/website-name
 ```
 
 !!! tip "Run Tests"
-    ```sh
+```sh
     python -m unittest
 
     # Optional: Parallel testing
     pip install unittest-parallel
     unittest-parallel --level test
-    ```
+```
 
 ## Generate Scraper Files
 
@@ -94,19 +94,19 @@ This creates:
 ## Implementation
 
 === "With Recipe Schema"
-    ```python
+```python
     from recipe_scrapers import scrape_html
 
     scraper = scrape_html(html, url)
     print(scraper.title())
     print(scraper.ingredients())
-    ```
+```
 
 === "Without Recipe Schema"
-    ```python
+```python
     def title(self):
         return self.soup.find('h1').get_text()
-    ```
+```
 
 !!! info "Resources"
     - [Scraper Functions Guide](in-depth-guide-scraper-functions.md)

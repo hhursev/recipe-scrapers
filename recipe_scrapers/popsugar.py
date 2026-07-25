@@ -14,12 +14,12 @@ class PopSugar(AbstractScraper):
 
     def total_time(self):
         anchor = self._context.find(string="Total Time")
-        time = anchor.parent.findNext("dd").get_text()
+        time = anchor.parent.find_next("dd").get_text()
         return get_minutes(time)
 
     def yields(self):
         anchor = self._context.find(string="Yield")
-        serves = anchor.parent.findNext("dd").get_text()
+        serves = anchor.parent.find_next("dd").get_text()
         return get_yields(serves)
 
     def image(self):
@@ -30,7 +30,7 @@ class PopSugar(AbstractScraper):
 
     def ingredients(self):
         container = self._context.find("h3", string="Ingredients").parent
-        entries = container.findAll("li")
+        entries = container.find_all("li")
 
         ingredients = []
         skip_next = False
@@ -52,7 +52,7 @@ class PopSugar(AbstractScraper):
 
     def instructions(self):
         container = self._context.find("h3", string="Directions").parent
-        return "\n".join([entry.get_text() for entry in container.findAll("li")])
+        return "\n".join([entry.get_text() for entry in container.find_all("li")])
 
     @functools.cached_property
     def _context(self):

@@ -12,9 +12,9 @@ git checkout -b docs/your-feature-name
 
 !!! example "Local Development"
     1. From the project root directory, start the MkDocs development server:
-       ```sh
+```sh
        mkdocs serve
-       ```
+```
     2. Open your browser and navigate to `http://127.0.0.1:8000`
 
 The preview will automatically update as you make changes to the documentation files.
@@ -29,15 +29,15 @@ The preview will automatically update as you make changes to the documentation f
 ## Submitting Your Changes
 
 1. Commit your changes with a descriptive message:
-   ```sh
+```sh
    git add docs/
    git commit -m "docs: describe your changes here"
-   ```
+```
 
 2. Push your changes to your fork:
-   ```sh
+```sh
    git push origin docs/your-feature-name
-   ```
+```
 
 3. Create a Pull Request (PR) from your fork to the main
 [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) repository.

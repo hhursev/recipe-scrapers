@@ -38,14 +38,14 @@ class WikiCookbook(AbstractScraper):
         ingredients_section = self.soup.find("h2", {"id": "Ingredients"})
         if not ingredients_section:
             raise ElementNotFoundInHtml(element="//h2[@id='Ingredients']")
-        ingredients = ingredients_section.find_next(name="ul").findAll("li")
+        ingredients = ingredients_section.find_next(name="ul").find_all("li")
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 
     def instructions(self):
         instructions_section = self.soup.find("h2", {"id": "Procedure"})
         if not instructions_section:
             raise ElementNotFoundInHtml(element="//h2[@id='Procedure']")
-        instructions = instructions_section.find_next(name="ol").findAll("li")
+        instructions = instructions_section.find_next(name="ol").find_all("li")
         return "\n".join(
             [normalize_string(instruction.get_text()) for instruction in instructions]
         )

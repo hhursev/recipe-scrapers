@@ -22,9 +22,9 @@ bot protection measures implemented by websites.
 
 
 !!! tip "Install"
-    ``` console
+``` console
     pip install recipe-scrapers
-    ```
+```
 
 ```python exec="on"
 import sys
@@ -61,11 +61,11 @@ scraper.to_json()
 
     For more advanced implementations, we recommend using:
 
-    ```python
+```python
     from recipe_scrapers import scrape_html
-    ```
+```
 
-    Check out our [Examples](./getting-started/examples.md) section.
+Check out our [Examples](./getting-started/examples.md) section.
 
 
 ## Overview

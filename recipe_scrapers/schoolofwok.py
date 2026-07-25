@@ -52,7 +52,7 @@ class SchoolOfWok(AbstractScraper):
     def ingredients(self):
         section = self.soup.find("section", {"id": "recipe-ingredients"})
         div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-        divs = section.findChildren("div", {"class": div_class})
+        divs = section.find_all("div", {"class": div_class})
 
         if not divs:
             return []
@@ -76,7 +76,7 @@ class SchoolOfWok(AbstractScraper):
     def ingredient_groups(self):
         section = self.soup.find("section", {"id": "recipe-ingredients"})
         div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-        divs = section.findChildren("div", {"class": div_class})
+        divs = section.find_all("div", {"class": div_class})
 
         if not divs:
             return []
@@ -114,7 +114,7 @@ class SchoolOfWok(AbstractScraper):
     def instructions(self):
         section = self.soup.find("section", {"id": "recipe-ingredients"})
         div_class = "flex flex-col gap-y-4 font-medium md:basis-1/2 xl:basis-2/5"
-        divs = section.findChildren("div", {"class": div_class})
+        divs = section.find_all("div", {"class": div_class})
 
         if len(divs) < 2:
             return ""

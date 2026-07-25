@@ -1,12 +1,12 @@
 {
   "author": "Annie Petito",
   "canonical_url": "https://www.americastestkitchen.com/recipes/10245-skillet-roasted-brussels-sprouts-with-maple-syrup-and-smoked-almonds",
-  "site_name": "Annie Petito",
+  "site_name": "America's Test Kitchen",
   "host": "americastestkitchen.com",
   "language": "en",
   "title": "Skillet-Roasted Brussels Sprouts with Maple Syrup and Smoked Almonds",
   "ingredients": [
-    "1 pound brussels sprouts, trimmed and halved",
+    "1 pound small (1 to 1 1/2 inches in diameter) brussels sprouts, trimmed and halved",
     "5 tablespoons extra-virgin olive oil",
     "1 tablespoon maple syrup",
     "1 tablespoon sherry vinegar",
@@ -14,37 +14,32 @@
     "1/4 cup smoked almonds, chopped fine"
   ],
   "instructions_list": [
-    "Note: Look for Brussels sprouts that are similar in size, with small, tight heads that are no more than 1 1/2 inches in diameter, as they’re likely to be sweeter and more tender than larger sprouts.",
     "Arrange Brussels sprouts in single layer, cut sides down, in 12-inch nonstick skillet. Drizzle oil evenly over sprouts. Cover skillet, place over medium-high heat, and cook until sprouts are bright green and cut sides have started to brown, about 5 minutes.",
     "Uncover and continue to cook until cut sides of sprouts are deeply and evenly browned and paring knife slides in with little to no resistance, 2 to 3 minutes longer, adjusting heat and moving sprouts as necessary to prevent them from overbrowning. While sprouts cook, combine syrup, vinegar, and ¼ teaspoon salt in small bowl.",
     "Off heat, add syrup-vinegar mixture to skillet and stir to evenly coat sprouts. Season with salt to taste. Transfer sprouts to large plate, sprinkle with almonds, and serve."
   ],
-  "category": "Side Dishes, Vegetarian, Quick",
+  "category": "Side Dishes",
   "yields": "4 servings",
-  "description": "Have 10 minutes? You can make the best Brussels sprouts that you’ve ever tasted. To create stovetop Brussels sprouts that were deeply browned on the cut sides while still bright green on the uncut sides and crisp-tender within, we started the sprouts in a cold skillet with plenty of oil and cooked them covered. This gently heated the sprouts and created a steamy environment that cooked them through without adding any extra moisture. We then removed the lid and continued to cook the sprouts cut sides down so they had time to develop a substantial, caramelized crust. Using enough oil to completely coat the skillet ensured that all the sprouts made full contact with the fat to brown evenly from edge to edge.",
+  "description": "Skillet Roasted Brussels Sprouts with Maple Syrup and Smoked Almonds: A savory and slightly sweet dish, enriched with the crunch of almonds.",
   "total_time": 20,
-  "ratings": 4.3,
-  "ratings_count": 167,
+  "ratings": 4.22,
+  "ratings_count": 77,
   "nutrients": {
     "calories": "263",
-    "fatContent": "22 grams",
-    "saturatedFatContent": "3 grams",
-    "unsaturatedFatContent": "15 grams",
-    "transFatContent": "0 grams",
-    "carbohydrateContent": "10 grams",
-    "sugarContent": "6 grams",
-    "proteinContent": "6 grams",
-    "sodiumContent": "344 miligrams",
-    "cholesterolContent": "0 miligrams"
+    "carbohydrateContent": "15 g",
+    "proteinContent": "6 g",
+    "sodiumContent": "6 g",
+    "fiberContent": "5 g",
+    "cholesterolContent": "15 g"
   },
   "dietary_restrictions": [
-    "high fiber diet"
+    "Vegetarian Diet"
   ],
-  "image": "https://res.cloudinary.com/hksqkdlah/image/upload/c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,h_368,q_auto:low/37765_sfs-skillet-roasted-brussels-sprouts-maple-syrup-smoked-almonds-14",
+  "image": "https://res.cloudinary.com/hksqkdlah/image/upload/c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low/37765_sfs-skillet-roasted-brussels-sprouts-maple-syrup-smoked-almonds-14",
   "keywords": [
-    "Side Dishes",
     "Vegetables",
-    "Vegetarian",
-    "Quick"
+    "Easter",
+    "Quick",
+    "Vegetarian"
   ]
 }

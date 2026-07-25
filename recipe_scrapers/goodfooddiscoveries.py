@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._grouping_utils import group_ingredients
 
 
 class GoodFoodDiscoveries(AbstractScraper):
@@ -15,3 +16,11 @@ class GoodFoodDiscoveries(AbstractScraper):
 
     def description(self):
         return self.soup.find("p", {"class": "recipe-card-summary"}).get_text()
+
+    def ingredient_groups(self):
+        return group_ingredients(
+            self.ingredients(),
+            self.soup,
+            ".ingredient-item-group-title",
+            ".ingredient-item:not(.ingredient-item-group)",
+        )

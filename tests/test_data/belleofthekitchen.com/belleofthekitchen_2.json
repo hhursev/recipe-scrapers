@@ -1,0 +1,95 @@
+{
+  "author": "Ashlyn Edwards",
+  "canonical_url": "https://belleofthekitchen.com/apple-pie-bars-recipe/",
+  "site_name": "Belle of the Kitchen",
+  "host": "belleofthekitchen.com",
+  "language": "en-US",
+  "title": "Homemade Apple Pie Bars Recipe",
+  "ingredients": [
+    "1 cup unsalted butter (2 sticks)",
+    "1/2 cup granulated white sugar",
+    "2 teaspoons vanilla extract",
+    "1/2 teaspoon salt",
+    "2 cups all purpose flour",
+    "3-4 large apples (peeled, cored, and thinly sliced)",
+    "2 Tablespoons all purpose flour",
+    "1/2 cup granulated white sugar",
+    "2 teaspoons cinnamon",
+    "1/4 teaspoon nutmeg",
+    "1/2 cup old fashioned oats",
+    "1/3 cup brown sugar",
+    "1/4 teaspoon cinnamon",
+    "1/4 cup all purpose flour",
+    "1/4 cup unsalted butter (1/2 stick, cold and sliced)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup unsalted butter (2 sticks)",
+        "1/2 cup granulated white sugar",
+        "2 teaspoons vanilla extract",
+        "1/2 teaspoon salt",
+        "2 cups all purpose flour"
+      ],
+      "purpose": "For the crust"
+    },
+    {
+      "ingredients": [
+        "3-4 large apples (peeled, cored, and thinly sliced)",
+        "2 Tablespoons all purpose flour",
+        "1/2 cup granulated white sugar",
+        "2 teaspoons cinnamon",
+        "1/4 teaspoon nutmeg"
+      ],
+      "purpose": "For the apple filling"
+    },
+    {
+      "ingredients": [
+        "1/2 cup old fashioned oats",
+        "1/3 cup brown sugar",
+        "1/4 teaspoon cinnamon",
+        "1/4 cup all purpose flour",
+        "1/4 cup unsalted butter (1/2 stick, cold and sliced)"
+      ],
+      "purpose": "For the streusel topping"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350 degrees. Line a 9x13 inch baking dish with parchment paper and set aside. Stir together the melted butter, granulated sugar, vanilla, and salt until combined. Add flour and stir until a thick dough forms.",
+    "Press the dough evenly into the prepared pan. Bake for 15 minutes, then remove from oven (it will look slightly underbaked).",
+    "In a large bowl, toss the apple slices with flour, sugar, cinnamon, and nutmeg until evenly coated. Spread apple mixture in an even layer over the top of the crust.",
+    "In a medium bowl, combine oats, brown sugar, cinnamon, and flour. Use a pastry cutter or fork to cut the butter into the the streusel ingredients until the mixture is crumbly.",
+    "Sprinkle the streusel evenly over the top of the apples. Place bars in pre-heated oven and bake for 30–40 minutes, or until the top is golden brown and the apples are tender.",
+    "Remove from oven and cool completely in the pan on a wire rack. Once the bars are cool, lift out using parchment paper and cut into squares or bars with a sharp knife."
+  ],
+  "category": "Dessert",
+  "yields": "16 servings",
+  "description": "These homemade Apple Pie Bars are made with a buttery shortbread crust and are filled with warm, cinnamon-sugar apples. They are topped off with a brown sugar streusel and taste amazing with a scoop of vanilla ice cream and a drizzle of caramel. If you're looking for an easier alternative to traditional apple pie, this is the fall dessert recipe you need!",
+  "total_time": 55,
+  "cook_time": 15,
+  "prep_time": 20,
+  "cuisine": "American",
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "292 kcal",
+    "fatContent": "15 g",
+    "saturatedFatContent": "9 g",
+    "unsaturatedFatContent": "5 g",
+    "transFatContent": "1 g",
+    "carbohydrateContent": "38 g",
+    "sugarContent": "21 g",
+    "proteinContent": "3 g",
+    "sodiumContent": "77 mg",
+    "fiberContent": "2 g",
+    "cholesterolContent": "38 mg"
+  },
+  "image": "https://belleofthekitchen.com/wp-content/uploads/2025/10/apple-pie-bars-recipe-1-4.jpg",
+  "keywords": [
+    "apple pie",
+    "apple pie bars",
+    "apple pie bars recipe",
+    "easy desserts",
+    "fall desserts",
+    "thanksgiving desserts"
+  ]
+}

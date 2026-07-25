@@ -1,0 +1,97 @@
+{
+  "author": "Karolina Klesta",
+  "canonical_url": "https://polishfoodies.com/polish-pierogi-ruskie-recipe/",
+  "site_name": "Polish Foodies",
+  "host": "polishfoodies.com",
+  "language": "en-US",
+  "title": "My Grandma's Pierogi Ruskie Recipe",
+  "ingredients": [
+    "5 cups (600g) of all-purpose flour",
+    "1 egg",
+    "1 cup of warm water",
+    "2 pinches of salt",
+    "4-5 tablespoons of oil",
+    "21oz (600g) of farmer's cheese",
+    "21oz (600g) of potatoes",
+    "1 block of butter (125g)",
+    "1 small onion",
+    "3 pinches of salt",
+    "1 pinch of ground black pepper"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "5 cups (600g) of all-purpose flour",
+        "1 egg",
+        "1 cup of warm water",
+        "2 pinches of salt",
+        "4-5 tablespoons of oil"
+      ],
+      "purpose": "Dough for pierogi ruskie"
+    },
+    {
+      "ingredients": [
+        "21oz (600g) of farmer's cheese",
+        "21oz (600g) of potatoes",
+        "1 block of butter (125g)",
+        "1 small onion",
+        "3 pinches of salt",
+        "1 pinch of ground black pepper"
+      ],
+      "purpose": "Filling for pierogi ruskie"
+    }
+  ],
+  "instructions_list": [
+    "Put flour, egg, oil, and salt into the bowl. Whisk it together with hand or dough hook attachment.",
+    "Start adding the water slowly, letting it incorporate before adding more.",
+    "Whisk until all the ingredients are incorporated and there are no lumps.",
+    "Peel the potatoes and put them into the pot.",
+    "Add the cold water, two pinches of salt and boil until they are soft (about 30 minutes)",
+    "Peel and chop an onion. Gently fry it with the entire block of butter (the onion should remain white, don't caramelize it)",
+    "When potaoes are soft, pour out the water and add the fried onion with butter to the pot.",
+    "Add the farmer's cheese, salt, pepper, and mix all together with the potato masher.",
+    "Divide the dough into the 2 or 3 pieces.",
+    "Thinly roll each piece out onto a floured surface to just under 1/16 - 1/8” thickness.",
+    "Use round cookie cutter to cut the circles from the dough.",
+    "Put the filling (1/2-3 teaspoons) in the centre of each circle. The more filling the better, however, you need to be sure it stays inside pierogi.When the filling will get between the dough when sealing, pierogi may fall apart during the cooking.",
+    "Pull the edges of each circle together to form pierogi. Make sure the seal is continuous and intact. You can't leave any free space, as pierogi will fall apart during the cooking. Pinch tightly.",
+    "Collect the remaining dough scraps and put them to the other 2 dough pieces. Repeat the process until the entire filling and dough are used.",
+    "Pour the water into the big pot. Add 2 pinches of salt. Boil.",
+    "Gently throw pierogi, one by one into the boiling water.",
+    "When they start floating, wait for a minute and take them out with the slotted spoon.",
+    "Pour the melted butter on top."
+  ],
+  "category": "Dinner",
+  "yields": "6 servings",
+  "description": "My grandma's recipe for pierogi ruskie (vegetarian)",
+  "total_time": 150,
+  "prep_time": 150,
+  "cuisine": "Polish",
+  "ratings": 4.6,
+  "ratings_count": 59,
+  "nutrients": {
+    "servingSize": "1",
+    "calories": "356 calories",
+    "fatContent": "12 grams fat",
+    "saturatedFatContent": "2 grams saturated fat",
+    "unsaturatedFatContent": "9 grams unsaturated fat",
+    "transFatContent": "0 grams trans fat",
+    "carbohydrateContent": "53 grams carbohydrates",
+    "sugarContent": "2 grams sugar",
+    "proteinContent": "9 grams protein",
+    "sodiumContent": "163 milligrams sodium",
+    "fiberContent": "3 grams fiber",
+    "cholesterolContent": "29 milligrams cholesterol"
+  },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
+  "image": "https://polishfoodies.com/wp-content/uploads/2023/09/pierogi-ruskeiimg-2223.jpg",
+  "keywords": [
+    "pierogi ruskie",
+    "polish pierogi",
+    "pierogi",
+    "polish food",
+    "dumplings"
+  ]
+}

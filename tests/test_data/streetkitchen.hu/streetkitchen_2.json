@@ -1,0 +1,76 @@
+{
+  "author": "Eisler Zsolti",
+  "canonical_url": "https://streetkitchen.hu/receptek/toltott-patisszon",
+  "site_name": "Street Kitchen",
+  "host": "streetkitchen.hu",
+  "language": "hu",
+  "title": "Töltött patisszon recept darált húsos raguval | Street Kitchen",
+  "ingredients": [
+    "1 db patisszon (1 kg/db)",
+    "1 ek só",
+    "1 ek sertészsír",
+    "1 fej vöröshagyma (120 g/fej)",
+    "3 gerezd fokhagyma",
+    "1 ek sűrített paradicsom",
+    "500 g darált sertéshús",
+    "2 ek daráltpaprika-krém",
+    "só, bors",
+    "1 mk őrölt kömény",
+    "1 tk őrölt fűszerpaprika",
+    "200 ml víz",
+    "150 g edami sajt",
+    "175 g tejföl",
+    "1 gerezd fokhagyma",
+    "só",
+    "4 szál snidling"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 db patisszon (1 kg/db)",
+        "1 ek só"
+      ],
+      "purpose": "A patisszonhoz"
+    },
+    {
+      "ingredients": [
+        "1 ek sertészsír",
+        "1 fej vöröshagyma (120 g/fej)",
+        "3 gerezd fokhagyma",
+        "1 ek sűrített paradicsom",
+        "500 g darált sertéshús",
+        "2 ek daráltpaprika-krém",
+        "só, bors",
+        "1 mk őrölt kömény",
+        "1 tk őrölt fűszerpaprika",
+        "200 ml víz",
+        "150 g edami sajt"
+      ],
+      "purpose": "A raguhoz"
+    },
+    {
+      "ingredients": [
+        "175 g tejföl",
+        "1 gerezd fokhagyma",
+        "só",
+        "4 szál snidling"
+      ],
+      "purpose": "A tálaláshoz"
+    }
+  ],
+  "instructions_list": [
+    "A töltött patisszon első lépéseként a patisszon belsejét egy kis késsel kifaragjuk. A kieső részt a héjától megszabadítva apró darabokra vágjuk, nekem 200 g jött ki belőle. A patisszont bő, sós, forrásban lévő vízbe tesszük és 20 percig főzzük, majd kivesszük a vízből és félretesszük.",
+    "Zsírt melegítünk egy serpenyőben. Hozzáadjuk a finomra vágott vöröshagymát és fokhagymát, és közepes hőfokon 5 percig dinszteljük. Beletesszük a sűrített paradicsomot, közepesen erős hőfokon fél perc alatt lepirítjuk, majd rárakjuk a darált húst. 3 perc pirítás után ízesítjük a daráltpaprika-krémmel, sózzuk, borsozzuk, hozzáadjuk a fűszerköményt és az őrölt fűszerpaprikát, elkeverjük, majd felöntjük a vízzel és belerakjuk a korábban kifaragott és felaprított patisszondarabokat. Közepes hőfokon 15 percig főzzük.",
+    "Az előfőzött patisszon belsejét megsózzuk – óvatosan, mert sós vízben főztük –, belepakoljuk a ragut, a tetejét megszórjuk a reszelt sajttal és betesszük légkeverésen a 180 fokra előmelegített sütőbe kb. 15 percre. Az idő leteltével feltesszük 200 fokra a hőfokot és grillfokozaton 5 perc alatt rápirítunk.",
+    "Tálaláshoz a tejfölben elkeverjük a zúzott fokhagymát, sózzuk és a sült patisszonnal tálaljuk, amit még megszórunk a frissen aprított snidlinggel."
+  ],
+  "category": "Street Kitchen, Receptek, Nyári receptek, Sertéshúsos ételek, Olcsó ételek és receptek, Friss, Olcsó ebédek, Darált sertéshús receptek",
+  "yields": "4 servings",
+  "description": "Ha már unod a rántott verziót, akkor most íme, itt van a töltött patisszon! Ráadásul ennél a receptnél a pucolással sem kell bíbelődnöd.",
+  "total_time": 80,
+  "cook_time": 60,
+  "image": "https://azureskproductionfs.blob.core.windows.net/azureskproduction/toltott-patisszon-3-scaled-2GDje-.webp",
+  "keywords": [
+    "Töltött patisszon"
+  ]
+}

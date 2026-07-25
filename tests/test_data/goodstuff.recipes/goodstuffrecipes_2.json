@@ -1,0 +1,62 @@
+{
+  "author": "mlplouff",
+  "canonical_url": "https://goodstuff.recipes/rhubarb-crumble/",
+  "site_name": "Get the Good Stuff!",
+  "host": "goodstuff.recipes",
+  "language": "en-US",
+  "title": "Rhubarb Crumble",
+  "ingredients": [
+    "1 lb rhubarb (cut into 1-inch pieces)",
+    "½ cup granulated sugar",
+    "2 Tbsp all-purpose flour",
+    "½ tsp vanilla extract",
+    "½ tsp ground cardamom",
+    "½ cup all-purpose flour",
+    "¼ tsp salt",
+    "¼ cup unsalted butter (half stick, or 2 ounces) (cut into cubes)",
+    "½ cup brown sugar",
+    "½ cup chopped pecans (optional)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 lb rhubarb (cut into 1-inch pieces)",
+        "½ cup granulated sugar",
+        "2 Tbsp all-purpose flour",
+        "½ tsp vanilla extract",
+        "½ tsp ground cardamom"
+      ],
+      "purpose": "Filling"
+    },
+    {
+      "ingredients": [
+        "½ cup all-purpose flour",
+        "¼ tsp salt",
+        "¼ cup unsalted butter (half stick, or 2 ounces) (cut into cubes)",
+        "½ cup brown sugar",
+        "½ cup chopped pecans (optional)"
+      ],
+      "purpose": "Crumble Topping"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 375˚F.",
+    "In a medium sized bowl, mix together all the filling ingredients (rhubarb, sugar, flour, vanilla, cardamom). Turn the mixture out into a 2-quart baking dish.",
+    "Make the topping: put flour and salt in a bowl, add the butter cubes, and work the butter in with your fingers until the mixture is soft and crumbly. Add the brown sugar and nuts, if you're using them, and mix lightly with your hands.",
+    "Alternatively, pulse the flour, salt, and butter in a food processor until the pieces of butter are the size of peas, then mix in the brown sugar and nuts.",
+    "Scatter the topping over the rhubarb mixture, covering it in an even layer.",
+    "Bake at 375˚ for 40 minutes or so, until the filling is bubbly and the topping is lightly browned.",
+    "Let cool for at least 30 minutes before serving"
+  ],
+  "category": "Dessert",
+  "yields": "4 servings",
+  "description": "Rhubarb with cardamom and a crumbly brown sugar topping",
+  "total_time": 70,
+  "cook_time": 40,
+  "prep_time": 10,
+  "cuisine": "American",
+  "image": "https://goodstuff.recipes/wp-content/uploads/2022/05/Rhubarb-Crumble.jpeg",
+  "keywords": [
+    "rhubarb"
+  ]
+}

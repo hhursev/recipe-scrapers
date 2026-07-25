@@ -1,9 +1,9 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 from ._grouping_utils import group_ingredients
-from ._utils import get_equipment
 
 
-class ADozenSundays(AbstractScraper):
+class ADozenSundays(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "adozensundays.com"
@@ -18,11 +18,3 @@ class ADozenSundays(AbstractScraper):
         if len(groups) == 1:
             groups[0].purpose = None
         return groups
-
-    def equipment(self):
-        equipment_items = [
-            text
-            for equip in self.soup.find_all("div", class_="wprm-recipe-equipment-name")
-            if (text := equip.get_text())
-        ]
-        return get_equipment(equipment_items)

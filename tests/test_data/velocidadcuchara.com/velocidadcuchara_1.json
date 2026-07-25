@@ -1,0 +1,76 @@
+{
+  "author": "Rosa Ardá",
+  "canonical_url": "https://www.velocidadcuchara.com/salsa-bolonesa/",
+  "site_name": "Velocidad Cuchara",
+  "host": "velocidadcuchara.com",
+  "language": "es",
+  "title": "Salsa boloñesa",
+  "ingredients": [
+    "150 gr de zanahoria",
+    "130 gr de cebolla",
+    "180 gr de champiñones",
+    "1 diente de ajo",
+    "500 gr de tomate natural triturado",
+    "50 gr de aceite de oliva virgen extra",
+    "500 gr de carne picada -mitad ternera, mitad cerdo-.",
+    "Sal al gusto",
+    "Una pizca de pimienta negra",
+    "Orégano seco al gusto",
+    "1000 gr de agua",
+    "1 cucharadita de sal",
+    "500 gr de espaguetis",
+    "Queso parmesano rallado"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "150 gr de zanahoria",
+        "130 gr de cebolla",
+        "180 gr de champiñones",
+        "1 diente de ajo",
+        "500 gr de tomate natural triturado",
+        "50 gr de aceite de oliva virgen extra"
+      ],
+      "purpose": "Para el sofrito"
+    },
+    {
+      "ingredients": [
+        "500 gr de carne picada -mitad ternera, mitad cerdo-.",
+        "Sal al gusto",
+        "Una pizca de pimienta negra",
+        "Orégano seco al gusto"
+      ],
+      "purpose": "Para el resto"
+    },
+    {
+      "ingredients": [
+        "1000 gr de agua",
+        "1 cucharadita de sal",
+        "500 gr de espaguetis"
+      ],
+      "purpose": "Para cocer la pasta"
+    },
+    {
+      "ingredients": [
+        "Queso parmesano rallado"
+      ],
+      "purpose": "Para servir"
+    }
+  ],
+  "instructions_list": [
+    "Pon todos los ingredientes del sofrito en trozos dentro del vaso - excepto el aceite - y tritura 15 segundos en velocidad 5.",
+    "Baja los restos que hayan quedado en las paredes del vaso. Añade el aceite y programa 8 minutos, temperatura Varoma, velocidad 1.",
+    "Incorpora al vaso, la carne picada -rómpela un poquito con el tenedor que suele venir muy apelmazada-, sal y especias y cocina 15 minutos, Varoma, giro a la izquierda y velocidad cuchara. Comprueba punto de sal, retira y reserva.",
+    "Sin lavar el vaso, añade el agua y caliéntala unos 10-12 minutos, Varoma, velocidad 1 o hasta que hierva. Añade la pasta y programa el tiempo que recomiende el paquete, Varoma, giro a la izquierda y velocidad cuchara. Escurre y sirve acompañada con la salsa. A mi me gusta mezclar ambas cosas en una fuente para que los espaguetis se pongan del color de la boloñesa."
+  ],
+  "category": "Salsas",
+  "yields": "6 servings",
+  "description": "Con Thermomix ® se hace de forma muy sencilla y queda genial. Es otra forma de preparar una receta tan italiana como la salsa boloñesa de forma más cómoda, ahorrando tiempo.",
+  "total_time": 38,
+  "cook_time": 15,
+  "prep_time": 23,
+  "cuisine": "Italiana",
+  "ratings": 4.5,
+  "ratings_count": 10,
+  "image": "https://www.velocidadcuchara.com/wp-content/uploads/2009/09/Salsa-bolonesa-VC-768x514.jpg"
+}

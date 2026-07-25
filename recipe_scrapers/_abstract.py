@@ -1,5 +1,6 @@
 import inspect
 from collections import OrderedDict
+from typing import Optional
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -24,12 +25,15 @@ class AbstractScraper:
     _opengraph_cls = OpenGraph
     _schema_cls = SchemaOrg
 
-    def __init__(self, html: str, url: str):
+    def __init__(self, html: str, url: str, best_image: Optional[bool] = None):
         self.page_data = html
         self.url = url
         self.soup = BeautifulSoup(self.page_data, "html.parser")
         self.opengraph = self._opengraph_cls(self.soup)
         self.schema = self._schema_cls(self.page_data)
+        self.best_image_selection = (
+            settings.BEST_IMAGE_SELECTION if best_image is None else bool(best_image)
+        )
 
         # attach the plugins as instructed in settings.PLUGINS
         if not hasattr(self.__class__, "plugins_initialized"):

@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<link
+	rel="preload"
+	as="font"
+	type="font/woff2"
+	href="https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/brandon-grotesque-400.woff2"
+	crossorigin
+/>
+<link
+	rel="preload"
+	as="font"
+	type="font/woff2"
+	href="https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/brandon-grotesque-700.woff2"
+	crossorigin
+/>
+<style>
+    /* brandon-grotesque-400 */
+    @font-face {
+        font-display: swap;
+        font-family: 'brandon-grotesque';
+        font-style: normal;
+        font-weight: 400;
+        src: url('https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/brandon-grotesque-400.woff2') format('woff2');
+    }
+    @font-face {
+        font-display: swap;
+        font-family: 'brandon-grotesque';
+        font-style: italic;
+        font-weight: 400;
+        src: url('https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/brandon-grotesque-400-italic.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-display: swap;
+        font-family: 'brandon-grotesque';
+        font-style: normal;
+        font-weight: 700;
+        src: url('https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/brandon-grotesque-700.woff2') format('woff2');
+    }
+    @font-face {
+        font-display: swap;
+        font-family: 'brandon-grotesque';
+        font-style: italic;
+        font-weight: 700;
+        src: url('https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/brandon-grotesque-700-italic.woff2') format('woff2');
+    }
+    /* inter-900 - latin */
+    @font-face {
+        font-display: swap;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        src: url('https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/fonts/inter-v13-latin_latin-ext-900.woff2') format('woff2');
+    }
+</style>
+<meta name="theme-color" content="#000000">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta property="og:site_name" content="Choose Homemade">
+<meta property="og:url" content="https://choosehomemade.org/recipes/fresca-street-tacos/">
+<meta property="og:image" content="https://choosehomemade.org/wp-content/uploads/2019/07/Fresca-Street-Tacos.webp">
+<meta property="og:image:alt" content="">
+<meta property="og:title" content="Fresca Street Tacos | Choose Homemade">
+<meta property="og:description" content="This easy taco recipe is an excellent dinner idea that can be prepared in 30 minutes or less.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://choosehomemade.org/wp-content/uploads/2019/07/Fresca-Street-Tacos.webp">
+<meta name="twitter:title" content="Fresca Street Tacos | Choose Homemade">
+<meta name="twitter:description" content="This easy taco recipe is an excellent dinner idea that can be prepared in 30 minutes or less.">
+<meta name="description" content="This easy taco recipe is an excellent dinner idea that can be prepared in 30 minutes or less.">
+<meta name="keywords" content="Choose Homemade,Recipes,Healthy Recipes,Healthy Eating,Healthy Cooking,Healthy Food,Healthy Meals,ONIE Project">
+<meta property="article:published_time" content="2019-07-30T19:07:44-05:00">
+<meta property="article:modified_time" content="2024-08-11T20:17:52-05:00">
+
+<title>Fresca Street Tacos &#8211; Choose Homemade</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" href="https://choosehomemade.org/recipes/fresca-street-tacos/" hreflang="en" />
+<link rel="alternate" href="https://choosehomemade.org/es/recetas/tacos-callejeros/" hreflang="es" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><script type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 11.0.2');</script>
+<link rel="alternate" type="application/rss+xml" title="Choose Homemade &raquo; Feed" href="https://choosehomemade.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Choose Homemade &raquo; Comments Feed" href="https://choosehomemade.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Choose Homemade &raquo; Fresca Street Tacos Comments Feed" href="https://choosehomemade.org/recipes/fresca-street-tacos/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/choosehomemade.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://choosehomemade.org/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='onie-recipes-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipes/style-index.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='onie-my-plate-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/my-plate/style-index.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='onie-nutrition-facts-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/nutrition-facts/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-home-hero-style-inline-css'>
+.wp-block-onie-home-hero{align-items:center;display:flex;justify-content:center;position:relative}@media screen and (max-width:960px){.wp-block-onie-home-hero.has-mobile-height{height:var(--mobile-height)!important}}.hero__background-gradient,.hero__content,.hero__foreground-gradient,.hero__image,.hero__video{height:100%;left:0;position:absolute;top:0;width:100%}.hero__background-gradient{z-index:1}.hero__image,.hero__video{z-index:2}.hero__content,.hero__foreground-gradient{z-index:3}.hero__image-blurry,.hero__image-full,.hero__video_el{height:100%!important;left:0;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;width:100%!important}.hero__image-blurry{z-index:1}.hero__image-full{z-index:2}.hero__content{align-items:center;display:flex;justify-content:center;position:relative;text-decoration:none}.hero__content-inner{display:flex;flex-direction:column;max-width:48rem;padding:0 1rem;width:100%}.hero__content-title{font-size:4.5rem!important;font-weight:700;margin:0;text-align:center;width:100%}.hero__content-subtitle{font-size:1.24rem;font-weight:400;line-height:1.4;text-align:center}.hero__content-search-form{align-items:center;background-color:#fff;border-radius:.25rem;box-shadow:0 10px 46px 0 rgba(1,7,39,.1);display:flex;justify-content:stretch;margin-top:4rem;max-width:50rem;outline-offset:6px;transition:outline-offset .2s ease-in-out;width:100%}.hero__content-search-form:focus-within{outline:1px solid #2e81c3;outline-offset:2px}.hero__content-search-icon{align-items:center;background-color:#fff;border-bottom-left-radius:.25rem;border-top-left-radius:.25rem;display:flex;flex-grow:0;flex-shrink:0;justify-content:center;padding:.75rem}.hero__content-search-input{background-color:#fff;border:none!important;border-radius:0 .25rem .25rem 0;box-shadow:none!important;flex-grow:1;font-size:1.5rem;padding:.75rem!important}.hero__content-search-input:focus{outline:none!important}
+
+</style>
+<style id='onie-nav-cards-group-style-inline-css'>
+.wp-block-onie-nav-cards-group{background-color:transparent;padding:0;position:relative;z-index:11}.wp-block-onie-nav-cards-group.columns-2 .wp-block-onie-nav-card{width:50%}.wp-block-onie-nav-cards-group.columns-3 .wp-block-onie-nav-card{width:33.3333333333%}@media screen and (max-width:540px){.wp-block-onie-nav-cards-group.columns-3 .wp-block-onie-nav-card{width:50%}}.wp-block-onie-nav-cards-group.columns-4 .wp-block-onie-nav-card{width:25%}@media screen and (max-width:800px){.wp-block-onie-nav-cards-group.columns-4 .wp-block-onie-nav-card{width:33.3333333333%}}@media screen and (max-width:540px){.wp-block-onie-nav-cards-group.columns-4 .wp-block-onie-nav-card{width:50%}}.wp-block-onie-nav-cards-group.columns-5 .wp-block-onie-nav-card{width:20%}@media screen and (max-width:976px){.wp-block-onie-nav-cards-group.columns-5 .wp-block-onie-nav-card{width:25%}}@media screen and (max-width:800px){.wp-block-onie-nav-cards-group.columns-5 .wp-block-onie-nav-card{width:33.3333333333%}}@media screen and (max-width:540px){.wp-block-onie-nav-cards-group.columns-5 .wp-block-onie-nav-card{width:50%}}.wp-block-onie-nav-cards-group.columns-6 .wp-block-onie-nav-card{width:16.6666666667%}@media screen and (max-width:976px){.wp-block-onie-nav-cards-group.columns-6 .wp-block-onie-nav-card{width:25%}}@media screen and (max-width:800px){.wp-block-onie-nav-cards-group.columns-6 .wp-block-onie-nav-card{width:33.3333333333%}}@media screen and (max-width:540px){.wp-block-onie-nav-cards-group.columns-6 .wp-block-onie-nav-card{width:50%}}.wp-block-onie-nav-cards-group.overlap-previous .nav-cards__list{margin-top:-4rem}.nav-cards__list{align-items:stretch;display:flex;flex-wrap:wrap;justify-content:center;list-style:none;margin:0;padding:0}
+
+</style>
+<style id='onie-nav-card-style-inline-css'>
+.wp-block-onie-nav-card{display:flex;margin:0!important;padding:1rem;position:relative}.wp-block-onie-nav-card:focus-within .nav-card__inner,.wp-block-onie-nav-card:hover .nav-card__inner{box-shadow:0 19px 22px rgba(0,0,0,.16),0 19px 22px rgba(0,0,0,.23);transform:translateY(-1rem)}.wp-block-onie-nav-card:focus-within .nav-card__link,.wp-block-onie-nav-card:hover .nav-card__link{color:#2974b0}.wp-block-onie-nav-card:focus-within .nav-card__inner{outline:1px solid #2e81c3;outline-offset:2px}.nav-card__inner{align-items:center;background-color:#fff;border-radius:.25rem;box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);cursor:pointer;display:flex;flex-direction:column;justify-content:center;min-height:100%;outline-offset:6px;padding:1rem;transition:transform .3s cubic-bezier(.25,.8,.25,1),box-shadow .3s cubic-bezier(.25,.8,.25,1),outline-offset .2s ease-in-out;width:100%}.nav-card__image{display:block;height:48px;-o-object-fit:contain;object-fit:contain;width:48px}.nav-card__title{align-items:center;display:flex;flex-direction:column;flex-grow:1;justify-content:flex-end;margin:0;padding:0}.nav-card__content,.nav-card__title{text-align:center}.nav-card__link{color:#1e1e1e;font-size:1rem;font-weight:700;text-decoration:none;transition:color .3s cubic-bezier(.25,.8,.25,1),outline-offset .2s ease-in-out}.nav-card__link:focus{outline:none!important}.nav-card__link:after{content:"";height:100%;left:0;position:absolute;top:0;width:100%}
+
+</style>
+<link rel='stylesheet' id='onie-featured-recipes-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/featured-recipes/style-index.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='onie-related-recipes-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/related-recipes/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-cta-style-inline-css'>
+.wp-block-onie-cta{position:relative}.wp-block-onie-cta,.wp-block-onie-cta *{box-sizing:border-box}.cta__image-blurry,.cta__image-full,.cta__overlay,.cta__video,.cta_image{height:100%!important;left:0;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;width:100%}.cta__image-blurry,.cta__video,.cta_image{z-index:1}.cta__image-full,.cta__overlay{z-index:2}.cta__inner{align-items:center;display:flex;flex-wrap:nowrap;justify-content:center;margin:0 auto;max-width:72rem;padding:0 1rem;position:relative;z-index:3}@media screen and (max-width:768px){.cta__inner{flex-direction:column}}.cta__column{flex-grow:0;flex-shrink:0;padding:1rem}@media screen and (max-width:768px){.cta__column{width:100%!important}.cta__column:first-child{margin-bottom:2rem}.cta__column.hide-on-mobile{display:none}}.cta__card{border-radius:1rem;padding:2rem}.cta__card-title{font-size:1.75rem!important;font-weight:700;line-height:1.2!important;margin:0;padding:0 0 2rem}.cta__card-content{font-size:1rem;font-weight:400;line-height:1.6;padding:0 0 2rem}.cta_card_action{display:flex;padding:1rem 0 0}.cta__card-button,.cta_card_action{align-items:center;justify-content:center}.cta__card-button{background-color:var(--button-background);border-radius:.25rem;color:#2f2b23;display:inline-flex;font-size:1rem;font-weight:700;line-height:1.2;outline-offset:6px;padding:.75rem 1.5rem;text-decoration:none;transition:background-color .3s ease,outline-offset .2s ease-in-out}.cta__card-button:focus,.cta__card-button:hover{background-color:var(--button-hover-color);color:#2f2b23}.cta__card-button:focus{outline:1px solid #2e81c3;outline-offset:2px}
+
+</style>
+<link rel='stylesheet' id='onie-recent-news-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recent-news/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-page-hero-style-inline-css'>
+.wp-block-onie-page-hero{padding:16rem 1rem 13rem;position:relative}.page-hero__content,.page-hero__effect,.page-hero__gradient,.page-hero__image,.page-hero__video{height:100%;left:0;position:absolute;top:0;width:100%}.page-hero__image,.page-hero__image-blurry,.page-hero__video{z-index:1}.page-hero__gradient,.page-hero__image-full{z-index:2}.page-hero__image-blurry,.page-hero__image-full,.page-hero__video_el{height:100%!important;left:0;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;width:100%!important}.page-hero__effect{overflow:hidden;z-index:3}.page-hero__effect>svg{bottom:0;height:auto;left:50%;position:absolute;transform:translateX(-50%);width:100%}.page-hero__content{align-items:center;display:flex;justify-content:center;position:relative;z-index:4}.page-hero__content-inner{align-items:flex-start;display:flex;flex-direction:column;max-width:48rem;padding:0 1rem;width:100%}.page-hero__content-title{font-size:4.5rem!important;font-weight:700;line-height:1.2;margin:0 0 4rem;padding:0;position:relative}.page-hero__content-subtitle{font-size:1.4rem;font-weight:400;line-height:1.4;position:relative}.page-hero__content-subtitle:before{background-color:#fdc966;content:"";display:block;height:10px;left:0;position:absolute;top:-1.5rem;width:128px;z-index:-1}
+
+</style>
+<link rel='stylesheet' id='onie-recipe-layout-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-layout/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-recipe-layout-content-style-inline-css'>
+.wp-block-onie-recipe-layout-content{flex-grow:1}.wp-block-onie-recipe-layout-content .recipe-layout-content__inner{padding:0 1rem 0 0}@media screen and (max-width:1024px){.wp-block-onie-recipe-layout-content .recipe-layout-content__inner{padding-right:0}}@media print{.wp-block-onie-recipe-layout-content .recipe-layout-content__inner>.wp-block-spacer{display:none}}
+
+</style>
+<style id='onie-recipe-layout-aside-style-inline-css'>
+.wp-block-onie-recipe-layout-aside{flex-grow:0;flex-shrink:0;width:18rem}@media screen and (max-width:1024px){.wp-block-onie-recipe-layout-aside{width:100%}}@media print{.wp-block-onie-recipe-layout-aside{width:100%}}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner{display:flex;flex-direction:column;padding:0 0 0 1rem}@media screen and (max-width:1024px){.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner{flex-direction:row;padding-bottom:5rem;padding-left:0}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner .wp-block-spacer{display:none}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner>*{margin-right:2rem;width:100%}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner>:last-child{margin-right:0}}@media screen and (max-width:580px){.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner{align-items:center;flex-direction:column}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner .wp-block-spacer{display:block}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner>*{margin-right:0;width:100%}}@media print{.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner{flex-direction:row;justify-content:center;padding-bottom:5rem;padding-left:0}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner .wp-block-spacer{display:none}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner>*{margin-right:2rem;width:100%}.wp-block-onie-recipe-layout-aside .recipe-layout-aside__inner>:last-child{margin-right:0}}
+
+</style>
+<style id='onie-video-style-inline-css'>
+.wp-block-onie-video{position:relative}.wp-block-onie-video,.wp-block-onie-video *{box-sizing:border-box}@media print{.wp-block-onie-video{display:none}}.onie-video{background-color:#589acf;border-radius:.5rem;cursor:pointer;display:block;padding-top:36.4%;position:relative}.onie-video:hover .onie-video__play{opacity:1}.onie-video[href=""]{cursor:not-allowed;pointer-events:none}.onie-video__image,.onie-video__play{align-items:center;border-radius:.5rem;display:flex;height:100%;justify-content:center;left:0;position:absolute;top:0;width:100%}.onie-video__image-blurry,.onie-video__image-full{border-radius:.5rem;display:block;height:100%!important;left:0;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;width:100%}.onie-video__image,.onie-video__image-blurry{z-index:1}.onie-video__image-full,.onie-video__play{z-index:2}.onie-video__play{color:#fff;opacity:.7;transition:opacity .3s cubic-bezier(.25,.8,.25,1)}
+
+</style>
+<style id='onie-recipe-card-style-inline-css'>
+.recipe-card__inner{align-items:stretch;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;width:100%}@media screen and (max-width:640px){.recipe-card__inner{flex-direction:column}}
+
+</style>
+<link rel='stylesheet' id='onie-recipe-ingredients-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-ingredients/style-index.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='onie-recipe-steps-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-steps/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-recipe-ingredient-style-inline-css'>
+.wp-block-onie-recipe-ingredient{list-style:none;margin:0;padding:0}.wp-block-onie-recipe-ingredient a.recipe-ingredient__label{color:#25679c}.wp-block-onie-recipe-ingredient input[type=checkbox]:checked+.recipe-ingredient__el>.recipe-ingredient__label{color:#777;text-decoration:line-through}.wp-block-onie-recipe-ingredient input[type=checkbox]:checked+.recipe-ingredient__el>.recipe-ingredient__check{background-color:#2e81c3}.wp-block-onie-recipe-ingredient input[type=checkbox]:checked+.recipe-ingredient__el>.recipe-ingredient__check svg{opacity:1}.wp-block-onie-recipe-ingredient input[type=checkbox]:focus+.recipe-ingredient__el{outline:1px solid #2e81c3;outline-offset:2px}.recipe-ingredient__section-title{font-size:1.1rem;font-weight:700;padding:.5rem 0}.recipe-ingredient__el{align-items:flex-start;border-radius:.25rem;cursor:pointer;display:flex;outline-offset:6px;transition:outline-offset .2s ease-in-out}.recipe-ingredient__inner{padding:0 0 .5rem;position:relative}.recipe-ingredient__inner i{opacity:.7}.recipe-ingredient__inner>input[type=checkbox]{height:1px;left:.25rem;opacity:.1;position:absolute;top:.25rem;width:1px;z-index:0}.recipe-ingredient__inner>input[type=checkbox]:focus{outline:0}.recipe-ingredient__inner:focus-within .recipe-ingredient__check{outline:#2e81c3}.recipe-ingredient__check{align-items:center;background-color:#c0d9ed;border-radius:.25rem;box-shadow:inset 1px 2px 1px rgba(0,0,0,.01);cursor:pointer;display:inline-flex;flex-grow:0;flex-shrink:0;height:1.25rem;justify-content:center;margin-right:.5rem;margin-top:.25rem;position:relative;transition:background-color .3s cubic-bezier(.25,.8,.25,1);width:1.25rem;z-index:1}.recipe-ingredient__check>svg{color:#fff;opacity:0;transition:opacity .3s cubic-bezier(.25,.8,.25,1)}
+
+</style>
+<style id='onie-recipe-step-style-inline-css'>
+.wp-block-onie-recipe-step{box-sizing:border-box;line-height:1.45;margin:0;padding:1rem .25rem;position:relative}.wp-block-onie-recipe-step .recipe-step__inner{border-radius:.5rem;padding:1rem}.wp-block-onie-recipe-step:not(:last-child){border-bottom:1px solid #e1effa}.wp-block-onie-recipe-step:after{clear:both;content:"";display:block;width:100%}.wp-block-onie-recipe-step *{box-sizing:border-box}.wp-block-onie-recipe-step:not(.is-note){counter-increment:item}.wp-block-onie-recipe-step:not(.is-note) .recipe-step__inner:before{content:counter(item);float:left;font-size:2.5rem;font-weight:700;line-height:1;margin:.375rem 1rem 0 .5rem}.wp-block-onie-recipe-step.is-note{font-style:italic}.wp-block-onie-recipe-step[data-step] .recipe-step__inner{cursor:pointer;transition:background-color .3s cubic-bezier(.25,.8,.25,1),transform .3s cubic-bezier(.25,.8,.25,1),color .3s cubic-bezier(.25,.8,.25,1)}.wp-block-onie-recipe-step[data-step] .recipe-step__inner:hover{background-color:#f5f5f5}.wp-block-onie-recipe-step[data-complete=true] .recipe-step__inner{color:#ccc;transform:scale(.9)}.wp-block-onie-recipe-step[data-current=true] .recipe-step__inner{transform:scale(1.1)}
+
+</style>
+<style id='onie-recipe-social-sharing-style-inline-css'>
+.recipe-social,.recipe-social__icons{align-items:center;display:flex;justify-content:space-between}@media screen and (max-width:440px){.recipe-social{flex-direction:column}}@media print{.recipe-social{display:none}}.recipe-social__icons{margin-right:auto}@media screen and (max-width:440px){.recipe-social__icons{justify-content:center;margin-right:unset;width:100%}}.recipe-social__link{align-items:center;background-color:#2974b0;border-radius:50%;color:#fff;cursor:pointer;display:inline-flex;height:2.5rem;justify-content:center;margin-right:.5rem;transition:background-color .3s cubic-bezier(.25,.8,.25,1);width:2.5rem}.recipe-social__link:focus,.recipe-social__link:hover{background-color:#174162;color:#fff}.recipe-social__button{align-items:center;background-color:#2974b0;border:none;border-radius:.5rem;color:#fff;cursor:pointer;display:inline-flex;height:2.5rem;justify-content:center;padding:.25rem 1rem;transition:background-color .3s cubic-bezier(.25,.8,.25,1)}.recipe-social__button>svg{margin-right:.5rem}.recipe-social__button:focus,.recipe-social__button:hover{background-color:#174162;color:#fff}@media screen and (max-width:440px){.recipe-social__button{margin:2rem auto 0}}
+
+</style>
+<link rel='stylesheet' id='onie-recipe-carousel-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-carousel/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-featured-recipes-widget-style-inline-css'>
+.featured-recipes-widget{list-style:none;margin:0;padding:0}.featured-recipe-widget__item{-moz-column-gap:.5rem;column-gap:.5rem;display:grid;grid-template-columns:64px minmax(0,1fr);margin:0;padding:.5rem 0;position:relative;row-gap:0}.featured-recipe-widget__img{border-radius:.25rem;display:block;grid-column-end:2;grid-column-start:1;grid-row-end:3;grid-row-start:1;height:64px;-o-object-fit:cover;object-fit:cover;overflow:hidden;width:64px}.featured-recipe-widget__link{border-radius:.25rem;color:#2974b0;grid-column-end:3;grid-column-start:2;grid-row-end:3;grid-row-start:2;line-height:1.1;text-decoration:none}.featured-recipe-widget__link:focus,.featured-recipe-widget__link:hover{color:#205a89;text-decoration:none}.featured-recipe-widget__link:after{content:"";height:100%;left:0;position:absolute;top:0;width:100%}.featured-recipe-widget__time{color:#4d4d4d;font-size:.825rem;grid-column-end:3;grid-column-start:2;grid-row-end:2;grid-row-start:1}
+
+</style>
+<link rel='stylesheet' id='onie-info-card-style-css' href='https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/info-card/style-index.css?ver=1.0.0' media='all' />
+<style id='onie-info-card-grid-style-inline-css'>
+.wp-block-onie-info-card-grid{position:relative}.wp-block-onie-info-card-grid .info-card-grid__background-image{display:block;height:100%;left:0;max-width:unset;-o-object-fit:cover;object-fit:cover;position:absolute;top:0;width:100%}.wp-block-onie-info-card-grid .wp-block-onie-info-card{grid-column:span var(--grid-column-span,1)}.wp-block-onie-info-card-grid .wp-block-onie-info-card .info-card__wrapper{height:100%}.wp-block-onie-info-card-grid .wp-block-onie-info-card .info-card__inner{min-height:100%}.wp-block-onie-info-card-grid .info-card-grid__inner{-moz-column-gap:var(--column-gap,0);column-gap:var(--column-gap,0);display:grid;row-gap:var(--row-gap,0)}.wp-block-onie-info-card-grid.is-layout-constrained .info-card-grid__inner{margin:0 auto;max-width:64rem;padding:0 1rem;width:100%}.wp-block-onie-info-card-grid.columns-2 .info-card-grid__inner{grid-template-columns:repeat(2,minmax(0,1fr))}@media screen and (max-width:960px){.wp-block-onie-info-card-grid.columns-2 .info-card-grid__inner{grid-template-columns:minmax(0,1fr)}}.wp-block-onie-info-card-grid.columns-3 .info-card-grid__inner{grid-template-columns:repeat(3,minmax(0,1fr))}@media screen and (max-width:960px){.wp-block-onie-info-card-grid.columns-3 .info-card-grid__inner{grid-template-columns:minmax(0,1fr)}}.wp-block-onie-info-card-grid.columns-4 .info-card-grid__inner{grid-template-columns:repeat(4,minmax(0,1fr))}@media screen and (max-width:960px){.wp-block-onie-info-card-grid.columns-4 .info-card-grid__inner{grid-template-columns:minmax(0,1fr)}}.wp-block-onie-info-card-grid.columns-5 .info-card-grid__inner{grid-template-columns:repeat(5,minmax(0,1fr))}@media screen and (max-width:960px){.wp-block-onie-info-card-grid.columns-5 .info-card-grid__inner{grid-template-columns:minmax(0,1fr)}}.wp-block-onie-info-card-grid.columns-6 .info-card-grid__inner{grid-template-columns:repeat(6,minmax(0,1fr))}@media screen and (max-width:960px){.wp-block-onie-info-card-grid.columns-6 .info-card-grid__inner{grid-template-columns:minmax(0,1fr)}}
+
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #2e81c3;--wp--preset--color--yellow: #fdbb40;--wp--preset--color--orange: #e97e3c;--wp--preset--color--red: #d7444c;--wp--preset--color--gray-900: #1a1a1a;--wp--preset--color--red-50: #fbeced;--wp--preset--color--blue-50: #eaf2f9;--wp--preset--color--yellow-50: #fff8ec;--wp--preset--color--orange-50: #fff8ec;--wp--preset--color--yellow-100: #fee4b3;--wp--preset--color--orange-100: #f6cbb1;--wp--preset--color--red-100: #efb4b7;--wp--preset--color--blue-500: #2974b0;--wp--preset--color--yellow-500: #ca9633;--wp--preset--color--orange-500: #ba6530;--wp--preset--color--red-600: #973035;--wp--preset--color--gray-600: #4d4d4d;--wp--preset--color--blue-700: #174162;--wp--preset--color--red-700: #6c2226;--wp--preset--color--gray-700: #333;--wp--preset--color--blue-900: #050d13;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-color{color: var(--wp--preset--color--blue) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-orange-color{color: var(--wp--preset--color--orange) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-gray-900-color{color: var(--wp--preset--color--gray-900) !important;}.has-red-50-color{color: var(--wp--preset--color--red-50) !important;}.has-blue-50-color{color: var(--wp--preset--color--blue-50) !important;}.has-yellow-50-color{color: var(--wp--preset--color--yellow-50) !important;}.has-orange-50-color{color: var(--wp--preset--color--orange-50) !important;}.has-yellow-100-color{color: var(--wp--preset--color--yellow-100) !important;}.has-orange-100-color{color: var(--wp--preset--color--orange-100) !important;}.has-red-100-color{color: var(--wp--preset--color--red-100) !important;}.has-blue-500-color{color: var(--wp--preset--color--blue-500) !important;}.has-yellow-500-color{color: var(--wp--preset--color--yellow-500) !important;}.has-orange-500-color{color: var(--wp--preset--color--orange-500) !important;}.has-red-600-color{color: var(--wp--preset--color--red-600) !important;}.has-gray-600-color{color: var(--wp--preset--color--gray-600) !important;}.has-blue-700-color{color: var(--wp--preset--color--blue-700) !important;}.has-red-700-color{color: var(--wp--preset--color--red-700) !important;}.has-gray-700-color{color: var(--wp--preset--color--gray-700) !important;}.has-blue-900-color{color: var(--wp--preset--color--blue-900) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-background-color{background-color: var(--wp--preset--color--blue) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-orange-background-color{background-color: var(--wp--preset--color--orange) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-gray-900-background-color{background-color: var(--wp--preset--color--gray-900) !important;}.has-red-50-background-color{background-color: var(--wp--preset--color--red-50) !important;}.has-blue-50-background-color{background-color: var(--wp--preset--color--blue-50) !important;}.has-yellow-50-background-color{background-color: var(--wp--preset--color--yellow-50) !important;}.has-orange-50-background-color{background-color: var(--wp--preset--color--orange-50) !important;}.has-yellow-100-background-color{background-color: var(--wp--preset--color--yellow-100) !important;}.has-orange-100-background-color{background-color: var(--wp--preset--color--orange-100) !important;}.has-red-100-background-color{background-color: var(--wp--preset--color--red-100) !important;}.has-blue-500-background-color{background-color: var(--wp--preset--color--blue-500) !important;}.has-yellow-500-background-color{background-color: var(--wp--preset--color--yellow-500) !important;}.has-orange-500-background-color{background-color: var(--wp--preset--color--orange-500) !important;}.has-red-600-background-color{background-color: var(--wp--preset--color--red-600) !important;}.has-gray-600-background-color{background-color: var(--wp--preset--color--gray-600) !important;}.has-blue-700-background-color{background-color: var(--wp--preset--color--blue-700) !important;}.has-red-700-background-color{background-color: var(--wp--preset--color--red-700) !important;}.has-gray-700-background-color{background-color: var(--wp--preset--color--gray-700) !important;}.has-blue-900-background-color{background-color: var(--wp--preset--color--blue-900) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-blue-border-color{border-color: var(--wp--preset--color--blue) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-orange-border-color{border-color: var(--wp--preset--color--orange) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-gray-900-border-color{border-color: var(--wp--preset--color--gray-900) !important;}.has-red-50-border-color{border-color: var(--wp--preset--color--red-50) !important;}.has-blue-50-border-color{border-color: var(--wp--preset--color--blue-50) !important;}.has-yellow-50-border-color{border-color: var(--wp--preset--color--yellow-50) !important;}.has-orange-50-border-color{border-color: var(--wp--preset--color--orange-50) !important;}.has-yellow-100-border-color{border-color: var(--wp--preset--color--yellow-100) !important;}.has-orange-100-border-color{border-color: var(--wp--preset--color--orange-100) !important;}.has-red-100-border-color{border-color: var(--wp--preset--color--red-100) !important;}.has-blue-500-border-color{border-color: var(--wp--preset--color--blue-500) !important;}.has-yellow-500-border-color{border-color: var(--wp--preset--color--yellow-500) !important;}.has-orange-500-border-color{border-color: var(--wp--preset--color--orange-500) !important;}.has-red-600-border-color{border-color: var(--wp--preset--color--red-600) !important;}.has-gray-600-border-color{border-color: var(--wp--preset--color--gray-600) !important;}.has-blue-700-border-color{border-color: var(--wp--preset--color--blue-700) !important;}.has-red-700-border-color{border-color: var(--wp--preset--color--red-700) !important;}.has-gray-700-border-color{border-color: var(--wp--preset--color--gray-700) !important;}.has-blue-900-border-color{border-color: var(--wp--preset--color--blue-900) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='onie-css' href='https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/style.css?ver=1.0.0' media='all' />
+<script src="https://choosehomemade.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://choosehomemade.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.8.3" id="jquery-bind-first-js"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1" id="js-tld-js"></script>
+<script id="pys-js-extra">
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","ajaxFire":false,"name":"PageView","pixelIds":["1191941327482928"],"eventID":"8896dd38-7457-4196-8b2f-439501d9e56d","params":{"page_title":"Fresca Street Tacos","post_type":"recipes","post_id":3854,"plugin":"PixelYourSite","user_role":"guest","event_url":"choosehomemade.org\/recipes\/fresca-street-tacos\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["1191941327482928"],"advancedMatching":[],"advancedMatchingEnabled":true,"removeMetadata":false,"wooVariableAsSimple":false,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":null,"enabled_medical":false,"do_not_track_medical_param":["event_url","post_title","page_title","landing_page","content_name","categories","category_name","tags"],"meta_ldu":false},"debug":"","siteUrl":"https:\/\/choosehomemade.org","ajaxUrl":"https:\/\/choosehomemade.org\/wp-admin\/admin-ajax.php","ajax_event":"4eecd21136","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"undefined","TrafficUtms":[],"TrafficUtmsId":[]},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1764026350"};
+</script>
+<script src="https://choosehomemade.org/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.0.2" id="pys-js"></script>
+<link rel="https://api.w.org/" href="https://choosehomemade.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://choosehomemade.org/wp-json/wp/v2/recipes/3854" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://choosehomemade.org/xmlrpc.php?rsd" />
+
+<link rel="canonical" href="https://choosehomemade.org/recipes/fresca-street-tacos/" />
+<link rel='shortlink' href='https://choosehomemade.org/?p=3854' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://choosehomemade.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchoosehomemade.org%2Frecipes%2Ffresca-street-tacos%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://choosehomemade.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchoosehomemade.org%2Frecipes%2Ffresca-street-tacos%2F&#038;format=xml" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pagePostType":"recipes","pagePostType2":"single-recipes","pagePostAuthor":"Onie Project"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVM3TQG5');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H65KB41NBT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-H65KB41NBT');
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1191941327482928');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1191941327482928&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body class="wp-singular recipes-template-default single single-recipes postid-3854 wp-embed-responsive wp-theme-wp-onie-choose-homemade-2023">
+
+<!-- GTM Container placement set to automatic -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVM3TQG5" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div id="page" class="site">
+    <div class="site-header__wrap">
+        <header class="site-header">
+            <div class="site-header__banner">
+                <div class="site-header__title">
+					<div class="site-header__branding"><a class="site-header__home-link" href="https://choosehomemade.org/">    <svg
+            class="hlogo hlogo-en"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 290.3 98.1"
+            role="img"
+            aria-label="Choose Homemade"
+    >
+        <rect width="147.4" height="4.2" x="2.1" y="93.9" fill="#fdbb40" rx=".5" ry=".5"/>
+        <path
+                fill="#2e81c3"
+                d="M23.4 0C30 0 34.7 2 39.1 6c.6.6.6 1.3 0 1.9l-5 5.2c-.4.5-1.1.5-1.6 0a13.3 13.3 0 0 0-8.7-3.3C16.4 9.8 11 15.9 11 23.2s5.5 13.1 12.8 13.1c3 0 6.4-1 8.7-3 .5-.5 1.3-.5 1.7 0l5 5.4c.5.4.5 1.3 0 1.7A23.3 23.3 0 0 1 0 23.4C0 10.4 10.5 0 23.4 0Zm28.7 1.9c0-.7.6-1.3 1.2-1.3h7.8c.7 0 1.2.6 1.2 1.3v16.3h18.5V2c0-.7.6-1.3 1.3-1.3h7.7c.7 0 1.2.6 1.2 1.3v43c0 .6-.5 1.2-1.2 1.2h-7.7c-.7 0-1.3-.6-1.3-1.3v-17H62.3v17c0 .7-.5 1.3-1.2 1.3h-7.8c-.6 0-1.2-.6-1.2-1.3v-43ZM127.3 0a23.3 23.3 0 1 1 0 46.7c-13 0-23.3-10.3-23.3-23.3S114.3 0 127.3 0Zm0 36.3c7.2 0 13-5.8 13-12.9s-5.9-13-13-13a13 13 0 0 0 .1 26ZM183.6 0a23.3 23.3 0 1 1 0 46.7 23.4 23.4 0 0 1 .1-46.7Zm0 36.3a13 13 0 1 0 0-25.9 13 13 0 0 0 0 26Zm33.8 3.6 3-5.4c.6-.8 1.8-.7 2.2-.4.3.2 5 3.6 9.3 3.6 2.6 0 4.4-1.6 4.4-3.9 0-2.7-2.2-4.8-6.6-6.5C224 25 217 20.6 217 12.8 217 6.5 222 0 232 0a24 24 0 0 1 13.9 4.9c.7.4.6 1.6.3 2l-3.3 5c-.4.8-1.6 1.3-2.2.9-.6-.3-5.3-4-9.3-4-2.3 0-4 1.6-4 3.4 0 2.4 1.9 4.2 7 6.3 5 2 13.1 6 13.1 14.8 0 6.7-5.8 13.4-15.3 13.4-8.4 0-13.1-3.5-14.6-5-.6-.6-.8-.9-.3-1.8Zm43.3-38c0-.7.5-1.3 1.2-1.3h26.9c.7 0 1.2.6 1.2 1.3v7c0 .7-.5 1.3-1.2 1.3h-18v8h14.8c.6 0 1.2.6 1.2 1.3v7c0 .7-.6 1.3-1.2 1.3h-14.8v8.7h18c.7 0 1.2.6 1.2 1.3v7c0 .7-.5 1.3-1.2 1.3h-26.9c-.7 0-1.2-.6-1.2-1.3v-43Z"
+        />
+        <path
+                fill="#fdbb40"
+                d="M2.3 52.9c0-.5.5-1 1-1h6c.5 0 .9.5.9 1v12.6h14.3V52.9c0-.5.4-1 1-1h5.9c.5 0 1 .5 1 1V86c0 .5-.5 1-1 1h-6a1 1 0 0 1-1-1V72.8H10.3V86c0 .5-.4 1-1 1h-6a1 1 0 0 1-.9-1V52.9Zm82-.7c0-.4.5-.8.9-.8h.8c.2 0 .7.2.8.5l11.6 21.6h.1L110.1 52c.2-.3.6-.5.9-.5h.8c.4 0 .8.4.9.8l5.6 33.6c.1.7-.3 1.1-.9 1.1h-5.9a1 1 0 0 1-1-.8l-2.2-15.4h-.1L99.8 87c-.2.3-.6.6-.9.6H98a1 1 0 0 1-.8-.6l-8.5-16.2L86.3 86c0 .5-.4.9-1 .9h-5.8c-.6 0-1-.5-1-1.1l5.7-33.7Zm40.7.7c0-.5.3-1 .9-1h20.7c.6 0 1 .5 1 1v5.4c0 .5-.5 1-1 1h-13.9v6.2h11.5c.5 0 .9.4.9 1v5.4c0 .5-.5 1-1 1h-11.4v6.7h13.9c.6 0 1 .4 1 1V86c0 .5-.4 1-1 1h-20.7a1 1 0 0 1-1-1V52.9Zm33.6.1c0-.5.5-.8.9-.8h.8c.2 0 .6.2.8.5l11.3 21 11.4-21c.1-.3.5-.5.8-.5h.8c.4 0 .8.3.8.8l5.5 32.6c.1.7-.3 1.1-.9 1.1h-5.7c-.5 0-1-.4-1-.8L182 71h-.1l-8.2 15.8c-.2.3-.6.5-.8.5h-1a1 1 0 0 1-.7-.5L162.9 71l-2.2 15c0 .4-.4.8-1 .8H154c-.5 0-1-.4-.9-1l5.5-32.7Zm38.1 32.4 15.2-32.7c.2-.3.5-.5.8-.5h.5c.4 0 .7.2.9.5l15.2 32.7c.3.7-.1 1.3-.8 1.3H223c-1 0-1.3-.3-1.7-1.2l-1.8-3.9h-13.2l-1.8 4c-.2.5-.7 1.1-1.7 1.1h-5.4c-.7 0-1-.6-.8-1.3Zm20-10.4-3.7-8-3.7 8h7.4Zm17.1-21.4c0-.5.4-1 .9-1h11.8a17 17 0 0 1 0 34.1h-11.8a1 1 0 0 1-1-1v-32Zm12.2 26c5.5 0 9.5-4.4 9.5-10s-4-9.8-9.5-9.8h-4.6v19.7h4.6Zm22.3-26c0-.5.4-1 1-1h20c.6 0 1 .5 1 1V59c0 .5-.4 1-1 1H276v6h11c.5 0 1 .4 1 .9V72c0 .5-.5.9-1 .9h-11v6.6h13.4c.5 0 1 .4 1 .9v5.3c0 .5-.5.9-1 .9h-20.1a1 1 0 0 1-1-1v-32ZM56.5 51.4c-10 0-18 8-18 18s8 18 18 18 18-7.9 18-18-8-18-18-18ZM65 73.6v1.8c0 .1 0 0 0 0h-.2l-.2-.1h-.2v-.1H64l-.2-.1-.1-.2-.3-.2-.2-.1s-.1-.1-.1 0H63v.1l-.2.1h-.6v-.2H62l-.2.1h-.1l-.1.1h-.2v.1h-.1c-.1 0 0 0 0 0h-.1c-.1 0 0 0 0 0h-.6l-.1.1v.2h-.3v.2H60v-.2h-.2l-.2-.1-.1-.1h-.1v-.1l-.1-.2c0 .2 0 .2-.2.2h-.4v-.1l-.2-.2h-.1v.2h-.1v.1h-.1v.1c-.1 0-.2.1-.1.2v.2H58v-.6h-.4l-.1.2c-.1 0 0 0 0 0h-.1v-.1l-.1-.1H57l-.1-.1h-.1l-.3-.1-.1.2h-.1l-.2.1H56v-.4l-.1-.1h-.3V74h-.7l-.2.1h-.3V74H54c0 .1-.1.1-.2 0h-.4l-.1-.2h-.5l-.1-.1v-.5h-.4V73h-.1v.1h-.5c0-.1-.1-.1-.1 0h-.2l-.1-.2-.1-.2-.1-.2h-.2l-.1-.2v-5.8h-1.6l-.8-.1H46l-.4-.1h-2.1l-.1-.1v-1.5H47l.5.1h2.8l.6.1h13.4v1l.1.8.1 1 .2.8c0 .5.2 1 .3 1.4v3.7Z"
+        />
+    </svg>
+</a></div>                    <a class="site-header__skip-link"
+                       href="#content">Skip to content</a>
+                </div>
+
+                <nav id="site-navigation" class="header__navigation">
+					<ul id="primary-menu" class="site-header__primary-menu"><li id="menu-item-13702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13702"><a href="https://choosehomemade.org/recipes/">Recipes</a></li>
+<li id="menu-item-25140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25140"><a href="https://choosehomemade.org/healthy-is-doable/">Healthy is Doable</a></li>
+<li id="menu-item-14648" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-14648"><a href="https://choosehomemade.org/blog/">Blog</a></li>
+<li id="menu-item-14660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14660"><a href="https://choosehomemade.org/about/">About</a></li>
+</ul>                </nav>
+				                    <div class="site-header__translations">
+													                                <div class="site-header__translation site-header__translation--active">
+									en                                    <span class="sr-only">English, current.</span>
+                                </div>
+																				                                <a href="https://choosehomemade.org/es/recetas/tacos-callejeros/"
+                                   class="site-header__translation">
+									es                                    <span class="sr-only">Español</span>
+                                </a>
+													                    </div>
+				
+                <button
+                        class="menu-toggle"
+                        aria-controls="site-navigation"
+                        aria-expanded="false"
+                        aria-label=""
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="site-header__menu-icon-show">
+                        <line x1="4" x2="20" y1="12" y2="12"/>
+                        <line x1="4" x2="20" y1="6" y2="6"/>
+                        <line x1="4" x2="20" y1="18" y2="18"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="site-header__menu-icon-hide">
+                        <path d="M18 6 6 18"/>
+                        <path d="m6 6 12 12"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+    </div>    <main id="content"
+          class="site-main recipe-main"
+          data-rating="4"
+          data-rating-count="3">
+		<article id="post-3854" class="post-3854 recipes type-recipes status-publish has-post-thumbnail hentry">
+	<div class="entry-content">
+		
+<div class="wp-block-onie-recipe-layout alignfull"><div class="recipe-layout__header"><div class="recipe-layout__image"><img fetchpriority="high" decoding="async" class="recipe-layout__image-blurry" src="https://choosehomemade.org/wp-content/uploads/2019/07/Fresca-Street-Tacos-16x11.webp" alt="" aria-hidden="true" width="1600" height="768" style="object-position:50% 50%"/><img class="recipe-layout__image-full" src="https://choosehomemade.org/wp-content/uploads/2019/07/Fresca-Street-Tacos-1152x768.webp" alt="fresca street tacos" width="1600" height="768" style="object-position:50% 50%" loading="lazy" decoding="async"/></div><div class="recipe-layout__gradient" style="background-image:linear-gradient(200deg,rgba(19,55,84,0) 11%,rgba(19,55,84,0.63) 70%,rgba(7,21,33,0.92) 84%)" aria-hidden="true"></div><div class="recipe-layout__content"><div class="recipe-layout__content-inner"><h1 class="recipe-layout__content-title" style="color:#fff">Fresca Street Tacos</h1><div class="recipe-layout__badges"><img class="recipe-layout__badge" src="/wp-content/plugins/wp-onie-choose-homemade-blocks/img/30-minutes-or-less.svg" alt="30 Minutes or Less" width="72" height="72" loading="lazy" decoding="async"/><img class="recipe-layout__badge" src="/wp-content/plugins/wp-onie-choose-homemade-blocks/img/quick-prep.svg" alt="Quick Prep" width="72" height="72" loading="lazy" decoding="async"/><img class="recipe-layout__badge" src="/wp-content/plugins/wp-onie-choose-homemade-blocks/img/zesty.svg" alt="Zesty" width="72" height="72" loading="lazy" decoding="async"/></div><div class="recipe-layout__summary"><div class="recipe-layout__summary-inner"><div class="recipe-layout__summary-item"><div class="recipe-layout__summary-item-title"><svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="15" y1="14" y2="11"></line><circle cx="12" cy="14" r="8"></circle></svg>Time</div><div class="recipe-layout__summary-item-value">30 minutes</div></div><div class="recipe-layout__summary-item"><div class="recipe-layout__summary-item-title"><svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 19a6 6 0 0 0-12 0"></path><circle cx="8" cy="9" r="4"></circle><path d="M22 19a6 6 0 0 0-6-6 4 4 0 1 0 0-8"></path></svg>Servings</div><div class="recipe-layout__summary-item-value">6</div></div><div class="recipe-layout__summary-item"><div class="recipe-layout__summary-item-title"><svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>Meal</div><div class="recipe-layout__summary-item-value">Entrée</div></div><div class="recipe-layout__summary-item"><div class="recipe-layout__summary-item-title"><svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" x2="18" y1="17" y2="17"></line></svg>Method</div><div class="recipe-layout__summary-item-value">Stovetop</div></div><div class="recipe-layout__summary-item"><div class="recipe-layout__summary-item-title">Rating</div><div class="recipe-layout__summary-item-value"><div class="recipe-layout__summary-rating" role="img" aria-label="4 stars"><svg width="16" height="16" stroke="currentColor" opacity="1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg width="16" height="16" stroke="currentColor" opacity="1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg width="16" height="16" stroke="currentColor" opacity="1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg width="16" height="16" stroke="currentColor" opacity="1" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg><svg width="16" height="16" stroke="currentColor" opacity="0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></div></div></div></div></div></div></div></div><div class="recipe-layout__layout"><div class="recipe-layout__layout-inner">
+<div class="wp-block-onie-recipe-layout-content"><div class="recipe-layout-content__inner">
+<div class="wp-block-onie-recipe-carousel"><section class="image-carousel splide" aria-label="Recipe Images"><div class="image-carousel__track splide__track"><ul class="image-carousel__list splide__list"></ul></div></section></div>
+
+
+
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-onie-recipe-social-sharing"><div class="recipe-social"><div class="recipe-social__icons"><a href="#" class="recipe-social__link facebook" data-network="facebook" rel="external noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" stroke="none" aria-label="Share on Facebook (opens in new window)"><path d="M19 6h5V0h-5a7 7 0 0 0-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.5.5-1 1-1z"></path></svg></a><a href="#" class="recipe-social__link instagram" data-network="instagram" rel="external noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" stroke="none" aria-label="Share on Instagram (opens in new window)"><path d="M16 2.9h6.5c1.5.1 2.4.4 3 .6a5 5 0 0 1 1.8 1.2c.5.6.9 1.1 1.2 1.9.2.5.4 1.4.5 3a112.7 112.7 0 0 1-.5 15.8 5 5 0 0 1-1.2 1.9c-.6.5-1.1.9-1.9 1.2-.5.2-1.4.4-3 .5a112.7 112.7 0 0 1-15.8-.5 5 5 0 0 1-1.9-1.2 5 5 0 0 1-1.2-1.9c-.2-.5-.4-1.4-.5-3a112.7 112.7 0 0 1 .5-15.8 5 5 0 0 1 1.2-1.9c.6-.5 1.1-.9 1.9-1.2C7 3.3 8 3 9.6 3l6.4-.1zM16 0H9.4C7.7.3 6.5.5 5.5.9s-2 1-2.8 1.9A7 7 0 0 0 .8 5.6C.4 6.6.2 7.8.1 9.5a117.6 117.6 0 0 0 .7 17c.5 1.1 1 2 1.9 3 .9.8 1.8 1.4 2.8 1.8 1 .4 2.2.6 3.9.7a117.2 117.2 0 0 0 17-.7c1.1-.4 2-1 2.9-1.9s1.4-1.8 1.8-2.8c.4-1 .7-2.2.8-3.9a117.2 117.2 0 0 0-.8-17A7.8 7.8 0 0 0 26.4.8c-1-.5-2.1-.7-3.8-.8H16z"></path><path d="M16 7.8a8.2 8.2 0 1 0 0 16.4 8.2 8.2 0 0 0 0-16.4zm0 13.5a5.3 5.3 0 1 1 0-10.6 5.3 5.3 0 0 1 0 10.6zM26.5 7.5a2 2 0 1 1-3.9 0 2 2 0 0 1 3.9 0z"></path></svg></a><a href="#" class="recipe-social__link twitter" data-network="twitter" rel="external noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" stroke="none" aria-label="Share on Twitter (opens in new window)"><path d="M32 7a13 13 0 0 1-3.8 1.1 6.6 6.6 0 0 0 3-3.6c-1.4.7-2.8 1.3-4.3 1.6a6.6 6.6 0 0 0-11.1 6A18.6 18.6 0 0 1 2.2 5a6.6 6.6 0 0 0 2 8.9c-1 0-2-.4-3-.9v.1c0 3.2 2.4 5.9 5.4 6.5a6.6 6.6 0 0 1-3 0 6.6 6.6 0 0 0 6.1 4.6A13.2 13.2 0 0 1 0 27.1a18.6 18.6 0 0 0 28.7-16.6C30 9.5 31.1 8.4 32 7z"></path></svg></a><a href="#" class="recipe-social__link pinterest" data-network="pinterest" rel="external noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" stroke="none" aria-label="Share on Pinterest (opens in new window)"><path d="M16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm0 29.9a14 14 0 0 1-4.1-.7c.6-.9 1.4-2.4 1.7-3.6l.9-3.3c.4.9 1.8 1.6 3.2 1.6 4.1 0 7.2-3.8 7.2-8.6 0-4.6-3.8-8-8.6-8-6 0-9.1 4-9.1 8.4 0 2 1 4.5 2.8 5.3.2.2.4.1.4-.1l.4-1.6v-.4c-.7-.7-1.1-2-1.1-3.2 0-3 2.3-6 6.2-6 3.5 0 5.8 2.3 5.8 5.6 0 3.8-1.9 6.4-4.3 6.4-1.4 0-2.4-1.1-2-2.5.3-1.7 1-3.4 1-4.6 0-1.1-.5-2-1.7-2-1.4 0-2.5 1.5-2.5 3.4 0 1.2.4 2 .4 2L11 25c-.3 1.1-.2 2.8 0 3.9a13.8 13.8 0 1 1 5 1z"></path></svg></a><a href="#" class="recipe-social__link email" data-network="email" rel="external noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="16" height="16" fill="currentColor" stroke="none" aria-label="Send Email"><path d="M28 11v12.5c0 1.4-1.1 2.5-2.5 2.5h-23A2.5 2.5 0 0 1 0 23.5V11.1l1.6 1.4 7.7 5.3c1.4 1 3 2.2 4.7 2.2 1.7 0 3.3-1.2 4.7-2.2l7.7-5.3L28 11zm0-4.5c0 1.8-1.3 3.3-2.7 4.3l-7.3 5c-1 .8-2.7 2.2-4 2.2-1.3 0-3-1.4-4-2.1l-7.3-5.1C1.6 10 0 8.3 0 6.8S.8 4 2.5 4h23C26.9 4 28 5.1 28 6.5z"></path></svg></a></div><button type="button" class="recipe-social__button print"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect width="12" height="8" x="6" y="14"></rect></svg> Print Recipe</button></div></div>
+
+
+
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p></p>
+
+
+
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-onie-recipe-card"><div class="recipe-card__inner">
+<div class="wp-block-onie-recipe-ingredients"><div class="recipe-ingredients__inner"><h2 class="recipe-ingredients__title">Ingredients</h2><div class="recipe-steps__scale"><fieldset class="recipe-steps__scale-inner" aria-labelledby="recipe-ingredients--legend"><div class="recipe-steps__scale-legend" id="recipe-ingredients--legend">Makes <span class="recipe-ingredients__servings" data-amount="6">6</span> servings</div><div class="recipe-steps__scale-button-group"><label class="recipe-steps__scale-item"><input type="radio" name="scale" value="0.5" class="recipe-steps__scale-input"/><span class="recipe-steps__scale-text">1/2x</span></label><label class="recipe-steps__scale-item"><input type="radio" name="scale" value="1" checked class="recipe-steps__scale-input"/><span class="recipe-steps__scale-text">1x</span></label><label class="recipe-steps__scale-item"><input type="radio" name="scale" value="2" class="recipe-steps__scale-input"/><span class="recipe-steps__scale-text">2x</span></label></div></fieldset></div><ul class="recipe-ingredients__inner-list">
+<li id="lpwzngtd" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtd" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtd" data-amount="2"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">2</span> Tbsp canola oil</div></label></div></li>
+
+
+
+<li id="lpwzngtg" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtg" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtg" data-amount="1"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">1</span> (12 oz) package frozen shredded hash brown potatoes</div></label></div></li>
+
+
+
+<li id="lpwzngtj" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtj" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtj" data-amount="1 1/2"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">1 1/2</span> cups chunky salsa</div></label></div></li>
+
+
+
+<li id="lpwzngtm" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtm" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtm" data-amount="2"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">2</span> cups shredded fiesta blend cheese</div></label></div></li>
+
+
+
+<li id="lpwzngtr" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtr" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtr" data-amount="1"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">1</span> (15 oz) can black eyed peas, drained and rinsed</div></label></div></li>
+
+
+
+<li id="lpwzngtt" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtt" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtt" data-amount="1"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">1</span> large green bell pepper, diced</div></label></div></li>
+
+
+
+<li id="lpwzngtw" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtw" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtw" data-amount="1"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">1</span> small red onion, diced</div></label></div></li>
+
+
+
+<li id="lpwzngtz" class="wp-block-onie-recipe-ingredient"><div class="recipe-ingredient__inner"><input id="ingredient-lpwzngtz" type="checkbox"/><label class="recipe-ingredient__el" for="ingredient-lpwzngtz" data-amount="6"><div class="recipe-ingredient__check"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><div class="recipe-ingredient__label"><span class="recipe-ingredient__amount">6</span> (6-inch) corn tortillas</div></label></div></li>
+</ul></div></div>
+
+
+
+<div class="wp-block-onie-recipe-steps"><h2 class="recipe-steps__title">Directions</h2><div class="recipe-steps__wake-lock"><div class="recipe-steps__wake-inner"><button type="button" class="recipe-steps__wake-button" aria-pressed="false"><span class="recipe-steps__wake-button-toggle" aria-hidden="true"></span>Keep your device awake while cooking?</button><div class="recipe-steps__wake-not-supported">Your device does not support cooking mode.</div></div></div><ol class="recipe-steps__inner">
+<li class="wp-block-onie-recipe-step"><div class="recipe-step__inner">In a large skillet, heat oil over medium-high. Add hash brown potatoes in an even layer and cook 5-7 minutes or until golden brown. Flip over and repeat.</div></li>
+
+
+
+<li class="wp-block-onie-recipe-step"><div class="recipe-step__inner">Add salsa, cheese, black eyed peas, bell pepper and onions. Mix well. Cook 3-5 minutes or until all ingredients are hot.</div></li>
+
+
+
+<li class="wp-block-onie-recipe-step"><div class="recipe-step__inner">Meanwhile, heat a separate skillet. Dip a tortilla in cold water and toast in skillet 1 minute per side or until slightly browned. Repeat for each tortilla.</div></li>
+
+
+
+<li class="wp-block-onie-recipe-step"><div class="recipe-step__inner">Spread mixture evenly over tortillas and serve!</div></li>
+</ol><div class="recipe-steps__progress"><div class="recipe-steps__progress-inner incomplete"><div class="recipe-steps__progress-text">Need to start again?</div><button type="button" class="recipe-steps__progress-reset">Reset</button></div><div class="recipe-steps__progress-inner complete"><div class="recipe-steps__progress-text">Recipe Complete!</div><button type="button" class="recipe-steps__progress-reset">Reset</button></div></div></div>
+</div></div>
+
+
+
+<div style="height:1rem" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">Tips</h3>
+
+
+
+<p>Make sure to drain and rinse canned products to reduce sodium content in meals.</p>
+
+
+
+<div style="height:5rem" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<aside class="wp-block-onie-recipe-layout-aside"><div class="recipe-layout-aside__inner">
+<div class="wp-block-onie-my-plate"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 311" class="my-plate "><defs><symbol id="my-plate__backing"><path d="M20.449,309.115c-10.669,0-19.461-8.753-19.461-19.473V20.359C.988,9.737,9.78,.984,20.449,.984H329.55c10.768,0,19.461,8.753,19.461,19.375V289.641c0,10.72-8.792,19.375-19.461,19.375H20.449v.098Z"></path></symbol><symbol id="my-plate__fork"><path d="M42.379,93.433c.099-6.688-3.26-40.914-3.26-40.914,.099-.393-.198-.787-.593-.885-.395-.098-.79,.197-.889,.59v.295l-.395,34.619c0,.492-.395,.984-.889,.984h-.593c-.494,0-.889-.492-.889-.984l-.494-34.718c-.099-.492-.494-.787-.988-.787-.395,0-.692,.393-.79,.787h0l-.395,34.718c0,.492-.395,.885-.889,.984h-.593c-.494-.098-.889-.492-.889-.984l-.494-34.718c0-.492-.395-.885-.889-.885s-.889,.393-.889,.885h0l-.395,34.718c0,.492-.395,.984-.889,.984h-.593c-.494,0-.889-.492-.889-.984l-.494-34.718c0-.393-.296-.787-.79-.885-.395,0-.79,.393-.79,.885h0c.099,0-3.26,34.128-3.161,41.012s6.421,12.982,6.421,12.982c2.667,2.262,1.778,9.442,1.778,14.654s-3.458,73.566-3.458,74.746c.296,6.786,3.161,9.048,6.619,9.343h.099c3.458-.295,6.224-2.557,6.52-9.343,.099-1.18-3.458-69.435-3.458-74.746s-.79-12.392,1.778-14.654c.099,0,6.421-6.196,6.52-12.982Z"></path></symbol><symbol id="my-plate__logo"><path d="M91.772,264.562v25.079h-8.397v-12.49l-5.828,8.95h-.099l-5.828-8.95v12.49h-8.298v-25.079h8.792l5.433,8.852,5.433-8.852h8.792Z M116.568,270.07l-6.816,18.195c-1.877,5.114-3.951,7.18-8.496,7.18-2.865,0-5.433-.787-7.607-2.065l2.371-5.606c1.482,.787,2.865,1.279,3.556,1.279,.494,0,.889-.098,1.383-.295l-7.705-18.785h8.496l3.458,10.327,3.062-10.228h8.298Z M129.41,264.562h-11.36v25.079h8.397v-6.786h2.766c6.816,0,11.459-3.147,11.459-9.245v-.098c0-5.999-4.544-8.95-11.262-8.95Zm2.964,9.54c0,1.77-1.383,2.754-3.556,2.754h-2.272v-5.606h2.272c2.173,0,3.556,.885,3.556,2.754v.098Z M150.55,263.48v26.161h-8.199v-26.161h8.199Z M170.505,272.233c-1.679-1.77-4.248-2.557-8.298-2.557-3.458,0-6.026,.59-8.298,1.475l1.482,5.409c1.679-.688,3.458-1.082,5.433-1.082,2.568,0,3.655,1.082,3.655,2.852v.295c-.889-.295-2.964-.688-4.643-.688-4.544,0-7.508,2.164-7.508,6.196,0,3.836,2.667,5.999,6.421,5.901,2.47,0,4.248-.984,5.631-2.459v1.967h8.199v-11.114c0-2.852-.593-4.721-2.075-6.196Zm-5.927,10.228c0,1.869-1.087,3.049-2.568,3.049-1.087,0-1.877-.688-1.877-1.869v-.098c0-1.18,.988-2.164,2.568-2.164,.692,0,1.383,.098,1.877,.295v.787Z M184.434,276.364v4.918c0,1.475,.692,1.967,1.976,1.967,.79,0,1.581-.197,2.47-.59v6.294c-1.284,.688-3.26,1.082-5.236,1.082-4.841,.098-7.409-2.164-7.409-6.885v-6.786h-2.272v-6.294h2.272v-4.918h8.199v4.918h4.544v6.294h-4.544Z M210.019,280.495c0-5.999-3.26-10.819-10.274-10.819-5.828,0-10.076,4.426-10.076,10.327,0,6.098,4.347,10.13,10.866,10.228,4.248,0,7.014-1.672,8.99-4.229l-4.445-3.442c-1.284,1.279-2.47,1.967-3.951,1.967-1.778,0-3.161-.885-3.754-2.655h12.645v-1.377Zm-12.842-2.262c.198-1.77,1.185-2.951,2.568-2.951,1.482,0,2.568,1.082,2.766,2.951h-5.334Z M217.823,284.724v4.918h-4.84v-4.918h4.84Z M236.889,270.758v2.852c-1.383-1.77-3.458-3.246-6.619-3.246-4.445,0-8.693,3.246-8.693,8.852v.098c0,5.508,4.248,8.852,8.693,8.852,3.161,0,5.137-1.377,6.717-3.442v1.475c0,3.836-2.173,5.803-6.026,5.803-2.667,0-4.742-.688-6.816-1.967l-1.581,3.246c2.47,1.475,5.433,2.262,8.496,2.262,3.458,0,6.026-.787,7.804-2.557,1.581-1.574,2.371-4.032,2.371-7.18v-15.048h-4.347Zm-5.433,13.769c-3.062,0-5.433-2.164-5.433-5.213v-.098c0-3.147,2.371-5.213,5.433-5.213s5.631,2.164,5.631,5.311c0,3.049-2.568,5.213-5.631,5.213Z M255.955,270.365c-5.828,0-10.175,4.426-10.175,9.933,0,5.409,4.248,9.835,10.076,9.835s10.175-4.426,10.175-9.835v-.098c0-5.409-4.248-9.835-10.076-9.835Zm0,15.933c-3.458,0-5.828-2.754-5.828-6.098v-.098c0-3.246,2.272-5.999,5.73-5.999s5.828,2.754,5.828,6.196c0,3.344-2.272,5.999-5.73,5.999Z M287.072,270.758l-7.804,19.08h-3.951l-7.705-19.08h4.643l5.137,13.966,5.137-13.966h4.544Z"></path></symbol><symbol id="my-plate__close"><rect x="329" y="11" width="12" height="12" fill="transparent"></rect><path d="m340 12 -10 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#fff" fill="none"></path><path d="m330 12 10 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#fff" fill="none"></path></symbol><clipPath id="my-plate__el-clip"><path d="M20.449,309.115c-10.669,0-19.461-8.753-19.461-19.473V20.359C.988,9.737,9.78,.984,20.449,.984H329.55c10.768,0,19.461,8.753,19.461,19.375V289.641c0,10.72-8.792,19.375-19.461,19.375H20.449v.098Z"></path></clipPath></defs><g clip-path="url(#my-plate__el-clip)"><use href="#my-plate__backing" fill="#fff"></use><use href="#my-plate__logo" fill="#231f20"></use><use href="#my-plate__fork" fill="#929497"></use><ellipse cx="165.072" cy="128.839" rx="114.592" ry="114.086" class="my-plate__plate"></ellipse><path d="M254.078,66.19c0,23.997,19.56,43.569,43.762,43.569s43.762-19.473,43.762-43.569-19.658-43.569-43.861-43.569h0c-24.104,0-43.663,19.473-43.663,43.569Z" class="my-plate__plate"></path><g class="my-plate__button fruits" role="group" aria-label="Fruits"><path d="M160.33,32.947c-1.284,.098-2.568,.098-3.754,.295-42.478,3.737-77.448,34.816-85.944,76.418-.296,1.279-.494,2.557-.691,3.737-.198,1.18-.395,2.459-.494,3.737h94.736V32.849c-1.284,0-2.568,.098-3.853,.098Z" fill="#fff" stroke="#da1d23"></path><g fill="#da1d23"><text x="104" y="86" class="my-plate__section-label">Fruits</text></g></g><a class="my-plate__button grains" role="button" aria-controls="my-plate__grains-overlay" aria-label="Grains" tabindex="0"><path d="M261.586,128.839v-1.475c-.692-48.192-37.242-88.319-85.252-93.924-1.284-.098-2.47-.295-3.754-.393-1.284-.098-2.568-.197-3.754-.197v102.088h92.661c.099-1.279,.099-2.557,.198-3.737-.099-.787-.099-1.574-.099-2.36Z" fill="#ea7320"></path><g fill="#fff"><text x="188" y="97" class="my-plate__section-label">Grains</text></g></a><a class="my-plate__button vegetables" role="button" aria-controls="my-plate__vegetables-overlay" aria-label="Vegetables" tabindex="0"><path d="M156.576,224.435c1.284,.098,2.47,.197,3.754,.295s2.47,.098,3.754,.098V121.856H68.953c-.099,1.279-.198,2.557-.198,3.737,0,1.082-.099,2.164-.099,3.246v.492c.296,49.569,38.329,90.679,87.92,95.105Z" fill="#73b843"></path><g fill="#fff"><text x="82" y="163" class="my-plate__section-label">Vegetables</text></g></a><a class="my-plate__button protein" role="button" aria-controls="my-plate__protein-overlay" aria-label="Protein" tabindex="0"><path d="M259.906,147.034c.198-1.279,.494-2.459,.692-3.737s.395-2.459,.494-3.737h-92.365v85.27c1.284,0,2.568-.098,3.754-.197s2.568-.197,3.754-.393c41.885-4.819,75.67-36.095,83.672-77.205Z" fill="#574189"></path><g fill="#fff"><text x="184" y="178" class="my-plate__section-label">Protein</text></g></a><a class="my-plate__button dairy" role="button" aria-controls="my-plate__dairy-overlay" aria-label="Dairy" tabindex="0"><path d="M333.403,66.19c0-19.572-15.905-35.406-35.563-35.406s-35.662,15.834-35.662,35.406,15.905,35.406,35.662,35.406h0c19.658,0,35.563-15.834,35.563-35.406h0Z" fill="#3d86c6"></path><g fill="#fff"><text x="280" y="72" class="my-plate__section-label">Dairy</text></g></a><g id="my-plate__grains-overlay" class="my-plate__overlay" aria-hidden="true"><path d="M261.586,128.839v-1.475c-.692-48.192-37.242-88.319-85.252-93.924-1.284-.098-2.47-.295-3.754-.393-1.284-.098-2.568-.197-3.754-.197v102.088h92.661c.099-1.279,.099-2.557,.198-3.737-.099-.787-.099-1.574-.099-2.36Z" class="my-plate__overlay-background" fill="#ea7320"></path><g class="my-plate__overlay-content"><use href="#my-plate__fork" fill="#fff" opacity="0.1"></use><use href="#my-plate__logo" fill="#fff" opacity="0.2"></use><a role="button" tabindex="-1" aria-controls="my-plate__grains-overlay" aria-label="Close"><use href="#my-plate__close"></use></a><foreignObject x="70" y="30" width="240" height="220" fill="#f00"><div class="my-plate__content" xmlns="http://www.w3.org/1999/xhtml"><h3 class="my-plate__title">Grains</h3><ul class="my-plate__list"><li>Potatoes</li></ul></div></foreignObject></g></g><g id="my-plate__vegetables-overlay" class="my-plate__overlay" aria-hidden="true"><path d="M156.576,224.435c1.284,.098,2.47,.197,3.754,.295s2.47,.098,3.754,.098V121.856H68.953c-.099,1.279-.198,2.557-.198,3.737,0,1.082-.099,2.164-.099,3.246v.492c.296,49.569,38.329,90.679,87.92,95.105Z" class="my-plate__overlay-background" fill="#73b843"></path><g class="my-plate__overlay-content"><use href="#my-plate__fork" fill="#fff" opacity="0.1"></use><use href="#my-plate__logo" fill="#fff" opacity="0.2"></use><a role="button" tabindex="-1" aria-controls="my-plate__vegetables-overlay" aria-label="Close"><use href="#my-plate__close"></use></a><foreignObject x="70" y="30" width="240" height="220" fill="#f00"><div class="my-plate__content" xmlns="http://www.w3.org/1999/xhtml"><h3 class="my-plate__title">Vegetables</h3><ul class="my-plate__list"><li>Salsa</li><li>Bell Pepper</li><li>Onions</li></ul></div></foreignObject></g></g><g id="my-plate__protein-overlay" class="my-plate__overlay" aria-hidden="true"><path d="M259.906,147.034c.198-1.279,.494-2.459,.692-3.737s.395-2.459,.494-3.737h-92.365v85.27c1.284,0,2.568-.098,3.754-.197s2.568-.197,3.754-.393c41.885-4.819,75.67-36.095,83.672-77.205Z" class="my-plate__overlay-background" fill="#574189"></path><g class="my-plate__overlay-content"><use href="#my-plate__fork" fill="#fff" opacity="0.1"></use><use href="#my-plate__logo" fill="#fff" opacity="0.2"></use><a role="button" tabindex="-1" aria-controls="my-plate__protein-overlay" aria-label="Close"><use href="#my-plate__close"></use></a><foreignObject x="70" y="30" width="240" height="220" fill="#f00"><div class="my-plate__content" xmlns="http://www.w3.org/1999/xhtml"><h3 class="my-plate__title">Protein</h3><ul class="my-plate__list"><li>Black Eyed Peas</li></ul></div></foreignObject></g></g><g id="my-plate__dairy-overlay" class="my-plate__overlay" aria-hidden="true"><path d="M333.403,66.19c0-19.572-15.905-35.406-35.563-35.406s-35.662,15.834-35.662,35.406,15.905,35.406,35.662,35.406h0c19.658,0,35.563-15.834,35.563-35.406h0Z" class="my-plate__overlay-background" fill="#3d86c6"></path><g class="my-plate__overlay-content"><use href="#my-plate__fork" fill="#fff" opacity="0.1"></use><use href="#my-plate__logo" fill="#fff" opacity="0.2"></use><a role="button" tabindex="-1" aria-controls="my-plate__dairy-overlay" aria-label="Close"><use href="#my-plate__close"></use></a><foreignObject x="70" y="30" width="240" height="220" fill="#f00"><div class="my-plate__content" xmlns="http://www.w3.org/1999/xhtml"><h3 class="my-plate__title">Dairy</h3><ul class="my-plate__list"><li>Cheese</li></ul></div></foreignObject></g></g></g><use href="#my-plate__backing" fill="transparent" stroke="#231f20" style="pointer-events:none"></use></svg><div class="my-plate__cta"><span class="my-plate__cta-icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="my-plate__cta-icon"><polyline points="14 9 9 4 4 9"></polyline><path d="M20 20h-7a4 4 0 0 1-4-4V4"></path></svg></span><span class="my-plate__cta-text">Click to learn more!</span></div></div>
+
+
+
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-onie-nutrition-facts" data-lang="en"><div class="nutrition-facts"><h2 class="nutrition-facts__title">Nutrition Facts</h2><div class="nutrition-facts__servings"><div class="nutrition-facts__row no-bottom-border border-top pink"><span class="nutrition-facts__servings-per-recipe">6 servings per recipe</span></div><div class="nutrition-facts__row border-bottom-10 pink"><div class="nutrition-facts__nutrient"><strong>Serving size</strong></div><div class="nutrition-facts__percent"><strong>(266g)</strong></div></div></div><div class="nutrition-facts__calories"><div class="nutrition-facts__row border-bottom-4 orange"><div><div class="nutrition-facts__calories-suplabel"><strong>Amount per serving</strong></div><div class="nutrition-facts__calories-label">Calories</div></div><div class="nutrition-facts__percent"><div class="nutrition-facts__calories-value">310</div></div></div></div><div role="table"><div role="rowgroup"><div class="nutrition-facts__row blue" role="row"><div class="nutrition-facts__nutrient" role="columnheader" aria-sort="none"><span class="sr-only">Nutrient</span></div><div class="nutrition-facts__value" role="columnheader" aria-sort="none"><span class="sr-only">Amount</span></div><div class="nutrition-facts__percent" role="columnheader" aria-sort="none">% Daily Value*</div></div></div><div role="rowgroup"><div class="nutrition-facts__row blue" role="row"><div class="nutrition-facts__nutrient" role="cell"><strong>Total Fat</strong></div><div class="nutrition-facts__value" role="cell">14g</div><div class="nutrition-facts__percent" role="cell">18%</div></div><div class="nutrition-facts__row blue" role="row"><div class="nutrition-facts__nutrient inset" role="cell">Saturated Fat</div><div class="nutrition-facts__value" role="cell">5g</div><div class="nutrition-facts__percent" role="cell">25%</div></div><div class="nutrition-facts__row border-bottom-2 blue" role="row"><div class="nutrition-facts__nutrient inset" role="cell"><em>Trans</em> <span>Fat</span></div><div class="nutrition-facts__value" role="cell">0g</div><div class="nutrition-facts__percent" role="cell"></div></div><div class="nutrition-facts__row blue" role="row"><div class="nutrition-facts__nutrient" role="cell"><strong>Cholesterol</strong></div><div class="nutrition-facts__value" role="cell">25mg</div><div class="nutrition-facts__percent" role="cell">8%</div></div><div class="nutrition-facts__row blue" role="row"><div class="nutrition-facts__nutrient nutrition-facts__sodium-value"><div class="nutrition-facts__nutrient" role="cell"><strong>Sodium</strong></div><div class="nutrition-facts__value" role="cell">560mg</div></div><div class="nutrition-facts__percent" role="cell">27%</div></div><div class="nutrition-facts__row purple" role="row"><div class="nutrition-facts__nutrient" role="cell"><strong>Total Carbohydrate</strong></div><div class="nutrition-facts__value" role="cell">36g</div><div class="nutrition-facts__percent" role="cell">13%</div></div><div class="nutrition-facts__row purple" role="row"><div class="nutrition-facts__nutrient inset" role="cell">Dietary Fiber</div><div class="nutrition-facts__value" role="cell">7g</div><div class="nutrition-facts__percent" role="cell">25%</div></div><div class="nutrition-facts__row purple" role="row"><div class="nutrition-facts__nutrient inset" role="cell">Total Sugars</div><div class="nutrition-facts__value" role="cell">4g</div><div class="nutrition-facts__percent" role="cell"></div></div><div class="nutrition-facts__row purple" role="row"><div class="nutrition-facts__nutrient inset" role="cell" aria-colspan="2">Includes 0g Added Sugars</div><div class="nutrition-facts__percent" role="cell">0%</div></div><div class="nutrition-facts__row border-bottom-10 purple" role="row"><div class="nutrition-facts__nutrient" role="cell"><strong>Protein</strong></div><div class="nutrition-facts__value" role="cell">13g</div><div class="nutrition-facts__percent" role="cell"></div></div><div class="nutrition-facts__row choral" role="row"><div class="nutrition-facts__nutrient" role="cell">Vitamin D</div><div class="nutrition-facts__value" role="cell">0mcg</div><div class="nutrition-facts__percent" role="cell">0%</div></div><div class="nutrition-facts__row choral" role="row"><div class="nutrition-facts__nutrient" role="cell">Calcium</div><div class="nutrition-facts__value" role="cell">224mg</div><div class="nutrition-facts__percent" role="cell">15%</div></div><div class="nutrition-facts__row choral" role="row"><div class="nutrition-facts__nutrient" role="cell">Iron</div><div class="nutrition-facts__value" role="cell">1mg</div><div class="nutrition-facts__percent" role="cell">6%</div></div><div class="nutrition-facts__row border-bottom-2 choral" role="row"><div class="nutrition-facts__nutrient" role="cell">Potassium</div><div class="nutrition-facts__value" role="cell">451mg</div><div class="nutrition-facts__percent" role="cell">10%</div></div></div><div class="nutrition-facts__row nutrition-facts__daily-value no-bottom-border green">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</div></div></div></div>
+</div></aside>
+</div></div></div>
+
+
+<div class="wp-block-onie-related-recipes  alignfull" style="background-image: linear-gradient(145deg,#eaf2f9 0%,#abcde7 80%);">
+			<div class="related-recipes__effect" aria-hidden="true">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 1297 676"
+				width="1297"
+				height="676"
+			>
+				<circle cx="1323" cy="691" r="100" fill="#fff" opacity=".5"/>
+				<circle cx="1106.4" cy="659.9" r="47.6" fill="#fff" opacity=".7"/>
+				<circle cx="889" cy="691.8" r="40.8" fill="#fff" opacity=".7"/>
+				<circle cx="173.9" cy="624.6" r="101.7" fill="#fff" opacity=".15"/>
+				<circle cx="311.7" cy="668.6" r="56.3" fill="#fff" opacity=".8"/>
+				<circle cx="389.9" cy="659.9" r="31.9" fill="#fff" opacity=".4"/>
+				<circle cx="62" cy="659.9" r="31.9" fill="#fff" opacity=".8"/>
+				<circle cx="1.5" cy="650.4" r="54.3" fill="#fff" opacity=".4"/>
+				<circle cx="49.1" cy="485.4" r="31.9" fill="#fff" opacity=".4"/>
+				<circle cx="119.2" cy="507.7" r="9.7" fill="#fff" opacity=".6"/>
+				<circle cx="1113" cy="263.5" r="101.7" fill="#fff" opacity=".1"/>
+				<circle cx="937.3" cy="339.9" r="48.3" fill="#fff" opacity=".2"/>
+				<circle cx="1243" cy="517" r="20" fill="#fff" opacity=".5"/>
+				<circle cx="1009.8" cy="654.6" r="77.9" fill="#fff" opacity=".7"/>
+				<circle cx="248" cy="560.5" r="20" fill="#fff" opacity=".5"/>
+				<circle cx="1067.7" cy="388.2" r="20" fill="#2e81c3" opacity=".5"/>
+				<circle cx="93.9" cy="560.2" r="12.5" fill="#2e81c3" opacity=".5"/>
+				<circle cx="914.7" cy="610.4" r="14.2" fill="#2e81c3" opacity=".5"/>
+				<circle cx="661" cy="603.5" r="12.5" fill="#2e81c3" opacity=".5"/>
+				<circle cx="1247.1" cy="179.4" r="24.1" fill="#fdbb40" opacity=".5"/>
+				<circle cx="582.4" cy="634.1" r="18" fill="#fdbb40" opacity=".5"/>
+				<circle cx="109.2" cy="423.4" r="8.8" fill="#fdbb40" opacity=".5"/>
+			</svg>
+		</div>
+		<h2 class="related-recipes__section-title"
+		style="color: #222;">Related Recipes</h2>
+	<ul class="related-recipes">
+		
+<li class="related-recipe">
+	<div class="related-recipes__inner">
+		<div class="related-recipes__image">
+			<div class="related-recipes__image-wrap">
+				<div class="related-recipes__time">
+					<svg
+						width="14"
+						height="14"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="related-recipes__time-icon"
+						aria-label="Time"
+					>
+						<line x1="10" x2="14" y1="2" y2="2"/>
+						<line x1="12" x2="15" y1="14" y2="11"/>
+						<circle cx="12" cy="14" r="8"/>
+					</svg>
+					<span>0:20</span>
+					<span class="related-recipe__card-time-pipe">|</span>
+					<svg
+						width="14"
+						height="14"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="related-recipes__time-icon"
+						aria-label="Servings"
+					>
+						<path d="M14 19a6 6 0 0 0-12 0"/>
+						<circle cx="8" cy="9" r="4"/>
+						<path d="M22 19a6 6 0 0 0-6-6 4 4 0 1 0 0-8"/>
+					</svg>
+					<span>3</span>
+				</div>
+				<img
+					src="https://choosehomemade.org/wp-content/uploads/2022/04/Lemon-Poppyseed-Pancakes-800x533.webp"
+					alt=""
+					loading="lazy"
+					decoding="async"
+					width="600"
+					height="450"
+				/>
+							</div>
+		</div>
+		<div class="related-recipes__body">
+			<div
+				class="related-recipes__rating"
+				role="img"
+				aria-label=""
+			>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+							</div>
+			<h3 class="related-recipes__title">
+				<a class="related-recipes__link" href="https://choosehomemade.org/recipes/lemon-poppyseed-pancakes/">
+					<span class="related-recipes__link-text">Lemon Poppyseed Pancakes</span>
+				</a>
+			</h3>
+			<div class="related-recipes__excerpt">
+				Try these pancakes if you are looking for new flavors!			</div>
+		</div>
+		<div class="related-recipes__actions">
+			<div class="related-recipes__button-ish" aria-hidden="true">
+				View Recipe</div>
+		</div>
+	</div>
+</li>
+
+<li class="related-recipe">
+	<div class="related-recipes__inner">
+		<div class="related-recipes__image">
+			<div class="related-recipes__image-wrap">
+				<div class="related-recipes__time">
+					<svg
+						width="14"
+						height="14"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="related-recipes__time-icon"
+						aria-label="Time"
+					>
+						<line x1="10" x2="14" y1="2" y2="2"/>
+						<line x1="12" x2="15" y1="14" y2="11"/>
+						<circle cx="12" cy="14" r="8"/>
+					</svg>
+					<span>1:00</span>
+					<span class="related-recipe__card-time-pipe">|</span>
+					<svg
+						width="14"
+						height="14"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="related-recipes__time-icon"
+						aria-label="Servings"
+					>
+						<path d="M14 19a6 6 0 0 0-12 0"/>
+						<circle cx="8" cy="9" r="4"/>
+						<path d="M22 19a6 6 0 0 0-6-6 4 4 0 1 0 0-8"/>
+					</svg>
+					<span>10</span>
+				</div>
+				<img
+					src="https://choosehomemade.org/wp-content/uploads/2025/09/IMG_0491-CMYK-800x533.webp"
+					alt=""
+					loading="lazy"
+					decoding="async"
+					width="600"
+					height="450"
+				/>
+							</div>
+		</div>
+		<div class="related-recipes__body">
+			<div
+				class="related-recipes__rating"
+				role="img"
+				aria-label=""
+			>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+							</div>
+			<h3 class="related-recipes__title">
+				<a class="related-recipes__link" href="https://choosehomemade.org/recipes/chicken-spinach-alfredo-casserole/">
+					<span class="related-recipes__link-text">Chicken &amp; Spinach Alfredo Casserole</span>
+				</a>
+			</h3>
+			<div class="related-recipes__excerpt">
+							</div>
+		</div>
+		<div class="related-recipes__actions">
+			<div class="related-recipes__button-ish" aria-hidden="true">
+				View Recipe</div>
+		</div>
+	</div>
+</li>
+
+<li class="related-recipe certified-recipe">
+	<div class="related-recipes__inner">
+		<div class="related-recipes__image">
+			<div class="related-recipes__image-wrap">
+				<div class="related-recipes__time">
+					<svg
+						width="14"
+						height="14"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="related-recipes__time-icon"
+						aria-label="Time"
+					>
+						<line x1="10" x2="14" y1="2" y2="2"/>
+						<line x1="12" x2="15" y1="14" y2="11"/>
+						<circle cx="12" cy="14" r="8"/>
+					</svg>
+					<span>0:30</span>
+					<span class="related-recipe__card-time-pipe">|</span>
+					<svg
+						width="14"
+						height="14"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="related-recipes__time-icon"
+						aria-label="Servings"
+					>
+						<path d="M14 19a6 6 0 0 0-12 0"/>
+						<circle cx="8" cy="9" r="4"/>
+						<path d="M22 19a6 6 0 0 0-6-6 4 4 0 1 0 0-8"/>
+					</svg>
+					<span>6</span>
+				</div>
+				<img
+					src="https://choosehomemade.org/wp-content/uploads/2019/07/Cabbage-Roll-Casserole-EDITED-800x576.webp"
+					alt=""
+					loading="lazy"
+					decoding="async"
+					width="600"
+					height="450"
+				/>
+									<div class="related-recipes__certified">
+						<svg class="related-recipes__certified-effect" xmlns="http://www.w3.org/2000/svg"
+							 viewBox="0 0 330 48">
+							<circle cx="275.4" cy="17.9" r="9.6" fill="#abcde7"/>
+							<circle cx="37.9" cy="17.3" r="8.3" fill="#589acf"/>
+							<circle cx="83.4" cy="25.2" r="14.6" fill="#589acf"/>
+							<circle cx="259.2" cy="25.6" r="14.6" fill="#589acf"/>
+							<circle cx="165" cy="10.2" r="7.3" fill="#589acf"/>
+							<circle cx="203.6" cy="28.5" r="19.5" fill="#589acf"/>
+							<circle cx="111.9" cy="7" r="3.6" fill="#589acf"/>
+							<circle cx="312.5" cy="16.4" r="5.2" fill="#589acf"/>
+							<circle cx="21" cy="10.2" r="5.2" fill="#abcde7"/>
+							<circle cx="46.2" cy="25.6" r="4.9" fill="#abcde7"/>
+							<circle cx="119.8" cy="20.7" r="7.1" fill="#abcde7"/>
+							<circle cx="325.7" cy="27.6" r="2.9" fill="#abcde7"/>
+							<circle cx="302.1" cy="5" r="2.9" fill="#abcde7"/>
+							<circle cx="143.6" cy="13.4" r="4.6" fill="#589acf"/>
+							<circle cx="129.8" cy="10.7" r="2.9" fill="#abcde7"/>
+							<circle cx="55.4" cy="14.5" r="2.7" fill="#fff8ec"/>
+							<circle cx="226.7" cy="7" r="5.5" fill="#fff8ec"/>
+							<circle cx="233.4" cy="19.5" r="2.9" fill="#abcde7"/>
+							<circle cx="181.7" cy="5.9" r="2.3" fill="#fff8ec"/>
+							<circle cx="5.4" cy="20.6" r="2.9" fill="#abcde7"/>
+							<circle cx="14.1" cy="40.9" r="5" fill="#589acf"/>
+						</svg>
+						<span
+							class="related-recipes__certified-text">Lower-Sodium Recipe!</span>
+					</div>
+							</div>
+		</div>
+		<div class="related-recipes__body">
+			<div
+				class="related-recipes__rating"
+				role="img"
+				aria-label=""
+			>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+									<svg
+						width="16"
+						height="16"
+						stroke="currentColor"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<polygon
+							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+					</svg>
+							</div>
+			<h3 class="related-recipes__title">
+				<a class="related-recipes__link" href="https://choosehomemade.org/recipes/cabbage-roll-casserole/">
+					<span class="related-recipes__link-text">Cabbage Roll Casserole</span>
+				</a>
+			</h3>
+			<div class="related-recipes__excerpt">
+				This hearty cabbage casserole recipe is an easy one-pot entree that can be prepared in 30 minutes or less.			</div>
+		</div>
+		<div class="related-recipes__actions">
+			<div class="related-recipes__button-ish" aria-hidden="true">
+				View Recipe</div>
+		</div>
+	</div>
+</li>
+	</ul>
+</div>
+	</div>
+</article>
+    <section id="recipe-ratings" class="recipe-ratings-section" data-post-id="3854">
+        <h2 class="recipe-rating__title">Rate this Recipe</h2>
+        <form class="recipe-ratings__form" hidden>
+            <fieldset class="recipe-ratings__fieldset">
+                <legend class="sr-only">Your Rating</legend>
+                <div class="recipe-ratings__legend before-success"
+                     aria-hidden="true">Your Rating</div>
+                <div class="recipe-ratings__legend success">Your Rating</div>
+                <div class="recipe-ratings__stars">
+					                        <label class="recipe-ratings__stars-label">
+                            <input
+                                    class="recipe-ratings__stars-input"
+                                    type="radio"
+                                    name="rating"
+                                    value="1"
+                            >
+                            <svg
+                                    viewBox="0 0 24 24"
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="recipe-ratings__stars-star"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    role="img"
+                                    aria-label="1 out of 5 stars"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </label>
+					                        <label class="recipe-ratings__stars-label">
+                            <input
+                                    class="recipe-ratings__stars-input"
+                                    type="radio"
+                                    name="rating"
+                                    value="2"
+                            >
+                            <svg
+                                    viewBox="0 0 24 24"
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="recipe-ratings__stars-star"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    role="img"
+                                    aria-label="2 out of 5 stars"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </label>
+					                        <label class="recipe-ratings__stars-label">
+                            <input
+                                    class="recipe-ratings__stars-input"
+                                    type="radio"
+                                    name="rating"
+                                    value="3"
+                            >
+                            <svg
+                                    viewBox="0 0 24 24"
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="recipe-ratings__stars-star"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    role="img"
+                                    aria-label="3 out of 5 stars"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </label>
+					                        <label class="recipe-ratings__stars-label">
+                            <input
+                                    class="recipe-ratings__stars-input"
+                                    type="radio"
+                                    name="rating"
+                                    value="4"
+                            >
+                            <svg
+                                    viewBox="0 0 24 24"
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="recipe-ratings__stars-star"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    role="img"
+                                    aria-label="4 out of 5 stars"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </label>
+					                        <label class="recipe-ratings__stars-label">
+                            <input
+                                    class="recipe-ratings__stars-input"
+                                    type="radio"
+                                    name="rating"
+                                    value="5"
+                            >
+                            <svg
+                                    viewBox="0 0 24 24"
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="recipe-ratings__stars-star"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    role="img"
+                                    aria-label="5 out of 5 stars"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </label>
+					                </div>
+            </fieldset>
+            <button type="submit" class="recipe-ratings__submit">
+                <span class="recipe-ratings__submit-text">Submit</span>
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="16"
+                        height="16"
+                        class="recipe-ratings__spinner"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                >
+                    <path fill="none" d="M21 12a9 9 0 1 1-6.219-8.56"/>
+                </svg>
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="16"
+                        height="16"
+                        class="recipe-ratings__success"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                >
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+            </button>
+        </form>
+        <div class="recipe-ratings__form">
+            <div class="recipe-ratings__fieldset">
+                <div class="recipe-ratings__legend">Community Rating</div>
+                <div class="recipe-ratings__stars community-rating">
+					                        <div class="recipe-ratings__stars-label">
+                            <svg
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+					                        <div class="recipe-ratings__stars-label">
+                            <svg
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+					                        <div class="recipe-ratings__stars-label">
+                            <svg
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+					                        <div class="recipe-ratings__stars-label">
+                            <svg
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+					                        <div class="recipe-ratings__stars-label">
+                            <svg
+                                    width="32"
+                                    height="32"
+                                    stroke="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                            >
+                                <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+					                </div>
+            </div>
+        </div>
+    </section>
+<section id="comments" class="comments-area">
+			<div id="respond" class="comment-respond no-comments">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Review <small><a rel="nofollow" id="cancel-comment-reply-link" href="/recipes/fresca-street-tacos/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://choosehomemade.org/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" autocomplete="email" required /></p>
+<p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit Review" /> <input type='hidden' name='comment_post_ID' value='3854' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="eec267508e" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="175"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	</section>
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div class="container">
+                <nav class="site-footer__menu-nav">
+                    <h2 class="sr-only">Site Navigation</h2>
+                    <ul id="menu-footer" class="site-footer__menu"><li id="menu-item-13721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13721"><a href="https://choosehomemade.org/recipes/">Recipes</a></li>
+<li id="menu-item-14650" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-14650"><a href="https://choosehomemade.org/blog/">Blog</a></li>
+<li id="menu-item-14657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14657"><a href="https://choosehomemade.org/about/">About</a></li>
+</ul>                </nav>
+                <div class="site-footer__logo-wrap">
+                        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="128" height="146"
+            viewBox="0 0 173.1 198"
+            role="img"
+            aria-label="Choose Homemade"
+    >
+        <path fill="#fdbb40"
+              d="M23.8 23.1V6c0-.5-.4-.9-.9-.9h-1.6c-.5 0-.9.4-.9.9v16.8c0 .5-.4.9-.9.9h-1.2a.9.9 0 0 1-.9-.9V6c0-.5-.4-.9-.9-.9h-1.6c-.5 0-.9.4-.9.9v16.8c0 .5-.4.9-.9.9H12a.9.9 0 0 1-.9-.9V6c0-.5-.4-.9-.9-.9H8.6c-.4.1-.8.5-.8.9v27.5l3.7-2.4 12.3-8ZM30 6c0-.5-.4-.9-.9-.9h-1.6c-.5 0-.9.4-.9.9v15.2L30 19V6Z"
+              opacity=".8"/>
+        <path fill="#fdbb40"
+              d="M172.6 56.1 87.6.3c-.7-.4-1.5-.4-2.2 0l-3.9 2.6L30 36.7V19l-3.4 2.2v1.6c0 .5-.4.9-.9.9h-1.2a.9.9 0 0 1-.8-.6l-12.3 8.1-3.7 2.4V40l.2.5 5.2 6.4.2.5v.2L6 52.5.5 56.1c-.9.6-.5 1.9.5 1.9h171c1.1 0 1.5-1.3.6-1.9Z"/>
+        <path fill="#fdbb40"
+              d="M13.3 193.9h146.5c.2 0 .4.2.4.4v3.3c0 .2-.2.4-.4.4H13.3a.4.4 0 0 1-.4-.4v-3.3c-.1-.1.1-.4.4-.4Z"/>
+        <path fill="#2e81c3"
+              d="M24 70.8c3.3 0 5.8 1 8.1 3.1.3.3.3.7 0 .9l-2.6 2.7c-.2.2-.6.2-.8 0a6.8 6.8 0 0 0-4.5-1.7c-3.8 0-6.5 3.1-6.5 6.9s2.8 6.8 6.6 6.8c1.6 0 3.3-.6 4.5-1.6.2-.2.7-.2.9 0l2.6 2.8c.2.2.2.7 0 .9a11.4 11.4 0 0 1-8.1 3.2c-6.7 0-12.1-5.3-12.1-12s5.2-12 11.9-12Zm14.8 1c0-.3.3-.6.6-.6h4c.4 0 .6.3.6.6v8.4h9.5v-8.4c0-.3.3-.6.6-.6h4c.3 0 .6.3.6.6v22.1c0 .3-.3.6-.6.6h-4c-.4 0-.6-.3-.6-.6v-8.8H44v8.8c0 .3-.3.6-.6.6h-4a.6.6 0 0 1-.6-.6V71.8Zm38.6-1c6.7 0 12 5.4 12 12.1s-5.3 12-12 12-12-5.3-12-12 5.4-12.1 12-12.1Zm0 18.7c3.7 0 6.7-3 6.7-6.6s-3-6.7-6.7-6.7-6.6 3-6.6 6.7 3 6.6 6.6 6.6Zm29-18.7c6.7 0 12 5.4 12 12.1s-5.3 12-12 12-12-5.3-12-12 5.4-12.1 12-12.1Zm0 18.7c3.7 0 6.7-3 6.7-6.6s-3-6.7-6.7-6.7-6.6 3-6.6 6.7 3 6.6 6.6 6.6Zm17.4 1.8 1.6-2.8c.3-.4.9-.4 1.1-.2.1.1 2.5 1.8 4.7 1.8 1.3 0 2.3-.8 2.3-2 0-1.4-1.2-2.5-3.4-3.4-2.9-1.1-6.5-3.4-6.5-7.4 0-3.3 2.6-6.6 7.7-6.6 3.5 0 6.1 1.8 7.1 2.5.4.2.3.8.2 1.1l-1.7 2.6c-.2.4-.8.7-1.1.4-.3-.2-2.7-2-4.8-2-1.2 0-2.1.8-2.1 1.7 0 1.2 1 2.2 3.6 3.2s6.7 3.1 6.7 7.6c0 3.4-3 6.9-7.9 6.9-4.3 0-6.7-1.8-7.5-2.6-.2-.2-.3-.3 0-.8Zm22.3-19.5c0-.3.3-.6.6-.6h13.8c.4 0 .6.3.6.6v3.6c0 .3-.3.6-.6.6h-9.2v4.1h7.6c.3 0 .6.3.6.6v3.6c0 .4-.3.6-.6.6h-7.6v4.5h9.2c.4 0 .6.3.6.6v3.6c0 .3-.3.6-.6.6h-13.8c-.4 0-.6-.3-.6-.6V71.8Z"/>
+        <path fill="#fdbb40"
+              d="M15.1 103.9c0-.5.4-.9 1-.9h6c.5 0 1 .4 1 .9v12.6h14.3v-12.6c0-.5.4-.9 1-.9h6c.5 0 1 .4 1 .9V137c0 .5-.5.9-1 .9h-6c-.5 0-1-.4-1-.9v-13.2H23V137c0 .5-.4.9-1 .9h-6a.9.9 0 0 1-.9-.9v-33.1Zm81.9-.6c.1-.4.5-.8.9-.8h.8c.2 0 .7.2.8.5l11.6 21.6h.1l11.6-21.6c.2-.3.6-.5.8-.5h.8c.4 0 .8.3.9.8l5.7 33.6a1 1 0 0 1-.9 1.1h-5.9c-.4 0-.9-.4-.9-.8l-2.2-15.5h-.1l-8.4 16.2c-.2.3-.6.6-.8.6h-.9c-.3 0-.7-.2-.8-.6l-8.5-16.2h-.1l-2.2 15.5c-.1.4-.4.8-.9.8h-5.9c-.6 0-1.1-.4-.9-1.1l5.4-33.6Zm40.7.6c0-.5.4-.9.9-.9h20.7c.6 0 .9.4.9.9v5.4c0 .5-.4.9-.9.9h-13.9v6.2h11.4c.5 0 .9.4.9.9v5.4c0 .6-.4.9-.9.9h-11.4v6.8h13.9c.6 0 .9.4.9.9v5.4c0 .5-.4.9-.9.9h-20.7c-.6 0-.9-.4-.9-.9v-32.8Zm-118.9 43c0-.5.5-.8.9-.8h.8c.3 0 .7.2.9.5l12.1 22.6h.1l12.1-22.6c.2-.3.6-.5.9-.5h.8c.4 0 .9.4.9.8l5.9 35.1c.1.7-.4 1.1-1 1.1H47a1 1 0 0 1-1-.8l-2.3-16.1h-.1L35 183c-.2.3-.6.6-.9.6h-.9c-.3 0-.7-.3-.9-.6l-8.8-16.9h-.1l-2.3 16.1c0 .4-.5.8-1 .8h-6.2c-.6 0-1.1-.5-1-1.1l5.9-35Zm40.9 34.9L76 146.7c.2-.3.5-.6.9-.6h.5c.4 0 .7.3.9.6l16.3 35.1c.3.7-.1 1.4-.9 1.4H88c-.9 0-1.4-.3-1.8-1.3l-1.9-4.1H70.1l-1.9 4.2c-.3.6-.8 1.2-1.9 1.2h-5.8c-.7-.1-1.1-.8-.8-1.4Zm21.5-11.2-4-8.6h-.1l-3.9 8.6h8Zm18.3-23c0-.5.4-1 .9-1h12.7a18.3 18.3 0 1 1 0 36.5h-12.7c-.5 0-.9-.5-.9-1v-34.5Zm13.2 27.8c5.9 0 10.2-4.6 10.2-10.6s-4.3-10.6-10.2-10.6h-5v21.1l5 .1Zm24-27.8c0-.5.4-1 1-1h21.6c.6 0 1 .5 1 1v5.7c0 .5-.4 1-1 1h-14.5v6.5h11.9c.5 0 1 .5 1 1v5.7c0 .6-.5 1-1 1h-11.9v7.1h14.5c.6 0 1 .5 1 1v5.7c0 .5-.4 1-1 1h-21.6a1 1 0 0 1-1-1v-34.7Zm-67.4-45.1c-10 0-18 8.1-18 18.1s8 18 18 18 18-7.9 18-18-8-18.1-18-18.1Zm8.4 22.1v1.9l-.1.1-.2-.1-.2-.1h-.1l-.1-.1h-.2q-.1.1-.1 0v-.1l-.1-.2-.2-.1-.1-.1-.1-.1-.1-.1h-.2l-.1.1-.1.1-.1.1h-.1l-.1.1h-.1l-.1-.1h-.3v-.1l-.1-.1h-.1l-.1.1-.1.1H74l-.1-.1c0 .1-.1.1-.1 0h-.5l-.1.1-.1.2-.1.1h-.1l-.1.1v.2h-.1l-.1-.1-.1-.1h-.2l-.1-.1-.1-.1H72v-.2l-.1-.1h-.1l-.1.1h-.2l-.1-.1h-.1l-.1.1h-.1v-.1l-.1-.2-.1.1v.1l-.1.1v.2l-.1.1-.1.1v.2h-.1c-.1-.1-.1-.2 0-.2v-.4l-.1.1h-.1l-.2.1-.1.1-.1.1-.1-.1v-.2l-.2-.1h-.2l-.3-.1-.1.1-.1.1-.1.1-.2.1-.1.1-.1-.1v-.4l-.1-.1s-.1-.1-.1 0-.1 0-.1 0l-.1-.1.1-.1h-.4l-.1-.1h-.3l-.2.1H67l-.2-.1-.1-.2c0-.1 0-.1-.1 0l-.2.1H66l-.2-.1-.1-.2-.2-.1-.3.1h-.1l-.1-.1.1-.3v-.2h-.6v.1c0 .1-.1.1-.1 0h-.1l-.2-.1H64l-.1.1-.1-.1-.1-.1-.1-.2-.1-.2-.2-.1c-.1 0-.2 0-.1-.2v-5.7l-.1-.1h-6.9l-.1-.1v-1.5l.1-.1h20.7l.1.1v.9l.1.9.1.9.2.9.2 1.3v2.4l.1 1.1Z"/>
+    </svg>
+                </div>
+                <div class="site-footer__social">
+                    <h3 class="sr-only">Social Icon Navigation</h3>
+                    <ul id="menu-social" class="site-footer__menu-social"><li id="menu-item-13729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13729"><a target="_blank" rel="noopener" href="https://www.facebook.com/ChooseHomemadeOK/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" role="img" aria-label="Facebook"><path d="M19 6h5V0h-5a7 7 0 0 0-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.5.5-1 1-1z"/></svg></a></li>
+<li id="menu-item-13730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13730"><a target="_blank" rel="noopener" href="https://www.instagram.com/choosehomemadeok/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" role="img" aria-label="Instagram"><path d="M16 2.9h6.5c1.5.1 2.4.4 3 .6a5 5 0 0 1 1.8 1.2c.5.6.9 1.1 1.2 1.9.2.5.4 1.4.5 3a112.7 112.7 0 0 1-.5 15.8 5 5 0 0 1-1.2 1.9c-.6.5-1.1.9-1.9 1.2-.5.2-1.4.4-3 .5a112.7 112.7 0 0 1-15.8-.5 5 5 0 0 1-1.9-1.2 5 5 0 0 1-1.2-1.9c-.2-.5-.4-1.4-.5-3a112.7 112.7 0 0 1 .5-15.8 5 5 0 0 1 1.2-1.9c.6-.5 1.1-.9 1.9-1.2C7 3.3 8 3 9.6 3l6.4-.1zM16 0H9.4C7.7.3 6.5.5 5.5.9s-2 1-2.8 1.9A7 7 0 0 0 .8 5.6C.4 6.6.2 7.8.1 9.5a117.6 117.6 0 0 0 .7 17c.5 1.1 1 2 1.9 3 .9.8 1.8 1.4 2.8 1.8 1 .4 2.2.6 3.9.7a117.2 117.2 0 0 0 17-.7c1.1-.4 2-1 2.9-1.9s1.4-1.8 1.8-2.8c.4-1 .7-2.2.8-3.9a117.2 117.2 0 0 0-.8-17A7.8 7.8 0 0 0 26.4.8c-1-.5-2.1-.7-3.8-.8H16z"/><path d="M16 7.8a8.2 8.2 0 1 0 0 16.4 8.2 8.2 0 0 0 0-16.4zm0 13.5a5.3 5.3 0 1 1 0-10.6 5.3 5.3 0 0 1 0 10.6zM26.5 7.5a2 2 0 1 1-3.9 0 2 2 0 0 1 3.9 0z"/></svg></a></li>
+<li id="menu-item-13731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13731"><a href="https://youtube.com/channel/UCLOxchHDHo2Dyza-hsLiAFQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" role="img" aria-label="YouTube"><path d="M31.7 9.6s-.3-2.2-1.3-3.2c-1.2-1.3-2.6-1.3-3.2-1.3-4.5-.4-11.2-.4-11.2-.4s-6.7 0-11.2.4c-.6 0-2 0-3.2 1.3C.6 7.4.3 9.6.3 9.6S0 12.2 0 14.8v2.4c0 2.6.3 5.2.3 5.2s.3 2.2 1.3 3.2c1.2 1.2 2.8 1.2 3.5 1.3 2.6.3 11 .4 11 .4s6.6 0 11.1-.4c.6 0 2 0 3.2-1.3 1-1 1.3-3.2 1.3-3.2s.3-2.6.3-5.2v-2.4c0-2.6-.3-5.2-.3-5.2zm-19 10.5v-9l8.6 4.6-8.6 4.4z"/></svg></a></li>
+</ul>                </div>
+                <div class="site-footer__legal">
+                    <div class="site-footer__copyright">
+                       &copy; 2025 The ONIE Project: Choose Homemade. All rights reserved.                    </div>
+	            <ul id="menu-legal" class="site-footer__menu-legal"><li id="menu-item-14676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14676"><a href="https://choosehomemade.org/contact/">Contact</a></li>
+<li id="menu-item-14662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14662"><a href="https://choosehomemade.org/politica-de-privacidad/">Privacy Policy</a></li>
+<li id="menu-item-14663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14663"><a href="https://choosehomemade.org/non-descrimination-statement/">Non-Descrimination Statement</a></li>
+</ul>                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<div id="video-modal" class="video-modal" role="dialog" aria-modal="true" aria-label="" tabindex="-1" hidden="">
+    <button type="button" class="video-modal__close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"/>
+            <path d="m6 6 12 12"/>
+        </svg>
+    </button>
+    <div class="video-modal__content">
+        <div class="video-modal__content-inner">
+            <iframe src=""
+                    width="1280"
+                    height="720"
+                    frameborder="0"
+                    allow="autoplay"
+                    allowfullscreen=""
+                    class="video-modal__iframe"></iframe>
+        </div>
+    </div>
+</div><div id="image-modal" class="image-modal" role="dialog" aria-modal="true" aria-label="" tabindex="-1" hidden="">
+    <button type="button" class="image-modal__close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"/>
+            <path d="m6 6 12 12"/>
+        </svg>
+    </button>
+    <div class="image-modal__content">
+        <div class="image-modal__content-inner">
+            <img src="" alt="" class="image-modal__image">
+        </div>
+    </div>
+</div><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/wp-onie-choose-homemade-2023\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=1191941327482928&ev=PageView&noscript=1&cd%5Bpage_title%5D=Fresca+Street+Tacos&cd%5Bpost_type%5D=recipes&cd%5Bpost_id%5D=3854&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=choosehomemade.org%2Frecipes%2Ffresca-street-tacos%2F" alt=""></noscript>
+<script id="pll_cookie_script-js-after">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+</script>
+<script id="onie-js-before">
+window.lang ='en';window.post_id='3854'
+</script>
+<script src="https://choosehomemade.org/wp-content/themes/wp-onie-choose-homemade-2023/theme.js?ver=1.0.0" id="onie-js"></script>
+<script src="https://choosehomemade.org/wp-includes/js/comment-reply.min.js?ver=6.8.3" id="comment-reply-js" async data-wp-strategy="async"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-carousel/view.js?ver=bed031ab68ecf8ad94b6" id="onie-recipe-carousel-view-script-js" defer data-wp-strategy="defer"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-social-sharing/view.js?ver=867cd36c4d5da9b24328" id="onie-recipe-social-sharing-view-script-js" defer data-wp-strategy="defer"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-ingredients/view.js?ver=970fc5b87e603474de94" id="onie-recipe-ingredients-view-script-js" defer data-wp-strategy="defer"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-steps/view.js?ver=e99c01c9825281aec2bd" id="onie-recipe-steps-view-script-js" defer data-wp-strategy="defer"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/my-plate/view.js?ver=9a7235efb33c5fc5b4fb" id="onie-my-plate-view-script-js" defer data-wp-strategy="defer"></script>
+<script src="https://choosehomemade.org/wp-content/plugins/wp-onie-choose-homemade-blocks/build/recipe-layout/view.js?ver=6cb1a5ba1c761fd423d6" id="onie-recipe-layout-view-script-js" defer data-wp-strategy="defer"></script>
+<script defer src="https://choosehomemade.org/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1753707287" id="akismet-frontend-js"></script>
+</body>
+</html>

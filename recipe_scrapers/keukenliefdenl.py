@@ -48,7 +48,7 @@ class KeukenLiefdeNL(AbstractScraper):
         raise ElementNotFoundInHtml("Could not find ingredients.")
 
     def process_ingredients(self, container):
-        ingredients = container.findChildren("li")
+        ingredients = container.find_all("li")
 
         return [normalize_string(i.get_text()) for i in ingredients]
 

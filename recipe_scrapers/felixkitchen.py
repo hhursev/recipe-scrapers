@@ -70,7 +70,7 @@ class FelixKitchen(AbstractScraper):
     def description(self):
         content_div = self.soup.find("div", {"class": "entry-content"})
         lines = []
-        for child in content_div.findChildren(recursive=False):
+        for child in content_div.find_all(recursive=False):
             if child.name != "p":
                 break
 

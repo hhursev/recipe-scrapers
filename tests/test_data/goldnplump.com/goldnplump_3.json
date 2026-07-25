@@ -1,0 +1,62 @@
+{
+  "author": "Gold'n Plump",
+  "canonical_url": "https://www.goldnplump.com/recipes/grape-chicken-wild-rice-salad",
+  "host": "goldnplump.com",
+  "language": "en",
+  "title": "Grape & Chicken Wild Rice Salad",
+  "ingredients": [
+    "1/2 cup mayonnaise",
+    "1/4 cup milk",
+    "1 teaspoon lemon juice",
+    "1/4 teaspoon tarragon",
+    "2 to 3 (1 pound) Gold'n Plump® Boneless Skinless Chicken Breasts",
+    "4 cups cooked wild rice",
+    "1/2 cup thinly sliced green onion",
+    "1 can (8 ounces) water chestnuts, drained",
+    "1-1/2 cup halved seedless green grapes",
+    "2/3 cup cashews"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1/2 cup mayonnaise",
+        "1/4 cup milk",
+        "1 teaspoon lemon juice",
+        "1/4 teaspoon tarragon"
+      ],
+      "purpose": "Dressing (Whisk Together; Chill)"
+    },
+    {
+      "ingredients": [
+        "2 to 3 (1 pound) Gold'n Plump® Boneless Skinless Chicken Breasts",
+        "4 cups cooked wild rice",
+        "1/2 cup thinly sliced green onion",
+        "1 can (8 ounces) water chestnuts, drained",
+        "1-1/2 cup halved seedless green grapes",
+        "2/3 cup cashews"
+      ],
+      "purpose": "Salad"
+    }
+  ],
+  "instructions_list": [
+    "Cook chicken according to package directions. Cool and cut in to 1/2-inch cubes",
+    "In large bowl, toss salad ingredients, except grapes and cashews. Add dressing; toss. Just before serving, fold in grapes and cashews."
+  ],
+  "category": "Salads, Soups, & Chili",
+  "yields": "8 servings",
+  "total_time": null,
+  "cuisine": "American",
+  "cooking_method": "Stovetop",
+  "nutrients": {
+    "calories": "370",
+    "fatContent": "17",
+    "saturatedFatContent": "3",
+    "carbohydrateContent": "32",
+    "sugarContent": "8",
+    "proteinContent": "23",
+    "sodiumContent": "210",
+    "fiberContent": "3",
+    "cholesterolContent": "50"
+  },
+  "image": "https://www.goldnplump.com/sites/default/files/GNP_GrapeChickenWildRiceSalad_2013.jpg"
+}

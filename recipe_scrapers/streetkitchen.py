@@ -1,6 +1,15 @@
+import re
+
 from ._abstract import AbstractScraper
-from ._grouping_utils import IngredientGroup, group_ingredients
-from ._utils import get_minutes, get_yields, normalize_string
+from ._exceptions import ElementNotFoundInHtml, SchemaOrgException
+from ._grouping_utils import IngredientGroup
+from ._utils import get_minutes
+
+
+_STREETKITCHEN_TIME_UL_LI = re.compile(
+    r"^(Elkészítési|Sütési|Hűtési|Pácolási|Pihentetési)\s+idő\s*:",
+    re.IGNORECASE,
+)
 
 
 class StreetKitchen(AbstractScraper):
@@ -8,81 +17,123 @@ class StreetKitchen(AbstractScraper):
     def host(cls):
         return "streetkitchen.hu"
 
-    def title(self):
-        return self.soup.find("h1", {"class": "entry-title"}).text
+    def ingredients(self):
+        ingredients_list = []
+        for item in self.soup.select(
+            "div.w-full.rounded-b-md div.my-2.flex.items-center.gap-2.text-lg"
+        ):
+            divs = [
+                child
+                for child in item.children
+                if getattr(child, "name", None) == "div"
+            ]
+            parts = [
+                div.get_text(" ", strip=True)
+                for div in divs
+                if div.get_text(strip=True)
+            ]
+            if parts:
+                text = " ".join(parts)
+                text = text.replace("( ", "(").replace(" )", ")")
+                ingredients_list.append(text)
+        return ingredients_list
+
+    def ingredient_groups(self):
+        groups = []
+        for group_block in self.soup.select("div.w-full.rounded-b-md > div > div"):
+            heading_tag = group_block.select_one("h5.text-lg.font-bold")
+            purpose = heading_tag.get_text(strip=True) if heading_tag else None
+
+            if purpose == "":
+                purpose = None
+
+            ingredients = []
+            for item in group_block.select("div.my-2.flex.items-center.gap-2.text-lg"):
+                divs = [
+                    child
+                    for child in item.children
+                    if getattr(child, "name", None) == "div"
+                ]
+                parts = [
+                    div.get_text(" ", strip=True)
+                    for div in divs
+                    if div.get_text(strip=True)
+                ]
+                if parts:
+                    text = " ".join(parts)
+                    text = text.replace("( ", "(").replace(" )", ")")
+                    ingredients.append(text)
+
+            if ingredients:
+                groups.append(IngredientGroup(ingredients=ingredients, purpose=purpose))
+
+        if not groups:
+            return [IngredientGroup(ingredients=self.ingredients())]
+        return groups
 
     def total_time(self):
-        items = self.soup.select(".the-content-div li")
-        total_time = 0
-        for item in items:
-            total_time += get_minutes(item.text) or 0
-        return total_time or None
+        if self.schema.data.keys() & {"totalTime", "prepTime", "cookTime"}:
+            try:
+                t = self.schema.total_time()
+            except SchemaOrgException:
+                t = None
+            else:
+                if t is not None:
+                    return t
+        return self._total_time_from_page()
 
-    def image(self):
-        return (
-            self.soup.find("div", {"class": "article-featured-image-bg"})
-            .find("noscript")
-            .find("img")["src"]
-        )
-
-    def ingredients(self):
-        ingredients_raw = self.soup.find("div", class_="ingredients-main").findAll("dd")
-        ingredients = []
-        for ingredient in ingredients_raw:
-            ingredients.append(normalize_string(ingredient.text))
-        return ingredients
+    def _total_time_from_page(self):
+        for p in self.soup.find_all("p"):
+            text = p.get_text(" ", strip=True)
+            m = re.match(
+                r"Elkészítési\s+idő\s*:\s*(.+)$",
+                text,
+                flags=re.IGNORECASE,
+            )
+            if not m:
+                continue
+            minutes = get_minutes(m.group(1).strip())
+            if minutes is not None:
+                return minutes
+        raise ElementNotFoundInHtml("total_time")
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "the-content-div"}).findAll("p")
+        container = self.soup.select_one(
+            "article.recipe-article"
+        ) or self.soup.select_one("div.recipe-article")
+        if not container:
+            return ""
 
-        instructions_arr = []
-        for instruction in instructions:
-            text = instruction.text
-            # From the point we encounter "If you liked..." it's just ads.
-            if text.startswith("Ha tetszett a"):
+        instructions = []
+        for child in container.children:
+            name = getattr(child, "name", None)
+            if name in ["p", "span"]:
+                text = child.get_text(" ", strip=True)
+                if text:
+                    instructions.append(text)
+            elif name == "ol":
+                for li in child.find_all("li", recursive=False):
+                    text = li.get_text(" ", strip=True)
+                    if text:
+                        instructions.append(text)
+            elif name == "ul":
+                if not instructions and self._is_times_metadata_ul(child):
+                    continue
                 break
-            instructions_arr.append(normalize_string(text))
+            elif name in ["h2", "h3", "figure"]:
+                continue
+            elif name is not None:
+                break
 
-        return "\n".join(instructions_arr)
+        return "\n".join(instructions)
 
-    def yields(self):
-        return get_yields(self.soup.find("span", {"class": "quantity-number"}).text)
-
-    def category(self):
-        return self.soup.find("div", {"class": "entry-category"}).find("a").text
-
-    def description(self):
-        return normalize_string(self.soup.find("div", {"class": "entry-lead"}).text)
-
-    def author(self):
-        return normalize_string(
-            self.soup.find("a", {"rel": "author"}).find("img")["alt"]
-        )
-
-    def ingredient_groups(self) -> list[IngredientGroup]:
-        return group_ingredients(
-            self.ingredients(),
-            self.soup,
-            ".ingredients-main div.ingredient-group h3",
-            ".ingredients-main div.ingredient-group dd",
-        )
-
-    def prep_time(self):
-        items = self.soup.find("div", {"class": "the-content-div"}).find_all("li")
-
-        for item in items:
-            text = normalize_string(item.get_text())
-            if "Elkészítési idő" in text:
-                return get_minutes(text)
-
-    def cook_time(self):
-        items = self.soup.find("div", {"class": "the-content-div"}).find_all("li")
-
-        for item in items:
-            text = normalize_string(item.get_text())
-            if "Sütési idő" in text:
-                return get_minutes(text)
-
-    def keywords(self):
-        items = self.soup.find("ul", {"class": "tags-list"}).find_all("li")
-        return [item.text for item in items]
+    @staticmethod
+    def _is_times_metadata_ul(ul) -> bool:
+        items = ul.find_all("li", recursive=False)
+        if not items:
+            return False
+        for li in items:
+            t = li.get_text(" ", strip=True)
+            if not t or not _STREETKITCHEN_TIME_UL_LI.match(t):
+                return False
+        return True

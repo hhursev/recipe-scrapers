@@ -19,7 +19,7 @@ class Yummly(AbstractScraper):
         return site_name.lstrip()
 
     def ingredients(self):
-        ingredients = self.soup.findAll("li", {"class": "IngredientLine"})
+        ingredients = self.soup.find_all("li", {"class": "IngredientLine"})
 
         return (
             [
@@ -40,7 +40,7 @@ class Yummly(AbstractScraper):
         )
 
     def instructions(self):
-        instructions = self.soup.findAll("li", attrs={"class": "prep-step"})
+        instructions = self.soup.find_all("li", attrs={"class": "prep-step"})
         return (
             "\n".join(normalize_string(instr.get_text()) for instr in instructions)
             if instructions

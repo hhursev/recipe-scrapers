@@ -13,7 +13,7 @@ class DobruChutAktualitySK(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def instructions(self):
-        p_list = self.soup.find("div", {"class": "procedure-list"}).findChildren("p")
+        p_list = self.soup.find("div", {"class": "procedure-list"}).find_all("p")
 
         instructions = []
         for p in p_list:

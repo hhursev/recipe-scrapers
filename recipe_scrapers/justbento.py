@@ -27,7 +27,9 @@ class JustBento(AbstractScraper):
 
     def ingredients(self):
         ingredients = (
-            self.soup.find("div", {"class": "field-name-body"}).find("ul").findAll("li")
+            self.soup.find("div", {"class": "field-name-body"})
+            .find("ul")
+            .find_all("li")
         )
         return [normalize_string(ingredient.get_text()) for ingredient in ingredients]
 

@@ -17,7 +17,7 @@ class KingArthur(AbstractScraper):
         """
         schema_instructions = self.schema.instructions()
         soup = BeautifulSoup(schema_instructions, "html.parser")
-        instruction_elms = soup.findAll("p")
+        instruction_elms = soup.find_all("p")
         if instruction_elms:
             return "\n".join(
                 [normalize_string(elm.get_text()) for elm in instruction_elms]

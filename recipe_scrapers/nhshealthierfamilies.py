@@ -23,7 +23,7 @@ class NHSHealthierFamilies(AbstractScraper):
     @functools.cached_property
     def _get_recipe_content(self):
         container = self.soup.find("div", {"class": "bh-recipe__description"})
-        descriptions = container.findAll("p")
+        descriptions = container.find_all("p")
         return "".join([description.get_text() for description in descriptions])
 
     def prep_time(self):
@@ -56,7 +56,7 @@ class NHSHealthierFamilies(AbstractScraper):
         instructions = (
             self.soup.find("div", {"class": "bh-recipe-instructions"})
             .find("ol")
-            .findAll("li")
+            .find_all("li")
         )
         instructions = [
             instruction.find("p").get_text() for instruction in instructions
