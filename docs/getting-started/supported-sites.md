@@ -7,6 +7,11 @@
     - 🐛 Found a bug? [Open an issue](https://github.com/hhursev/recipe-scrapers/issues)
     - 🚀 Ready to contribute? [Submit a pull request](../contributing/setup.md)!
 
+!!! note "Need an older list?"
+    This site keeps documentation for each release. To view the supported sites for a specific
+    version, change the URL to include it, for example
+    `/15.8.0/getting-started/supported-sites/`.
+
 ```python exec="on"
 import sys
 sys.path.insert(0, '.')
