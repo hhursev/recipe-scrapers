@@ -63,6 +63,8 @@
   "cook_time": 30,
   "prep_time": 120,
   "cuisine": "British",
+  "ratings": 4.63,
+  "ratings_count": 59,
   "nutrients": {
     "calories": "542kcal",
     "fatContent": "47.5g",
@@ -72,6 +74,9 @@
     "proteinContent": "1.6g",
     "fiberContent": "0.1g"
   },
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/lemonpossetwithlemon_85812_16x9.jpg",
   "keywords": [
     "easy pudding",
