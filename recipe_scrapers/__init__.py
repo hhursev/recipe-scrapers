@@ -571,6 +571,7 @@ from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .tastyoven import TastyOven
 from .tatyanaseverydayfood import TatyanasEverydayFood
+from .teakandthyme import TeakAndThyme
 from .thealmondeater import TheAlmondEater
 from .thebigmansworld import TheBigMansWorld
 from .theclevercarrot import TheCleverCarrot
@@ -604,6 +605,7 @@ from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
 from .thewoodenskillet import TheWoodenSkillet
 from .thinlicious import Thinlicious
+from .thirtyseconds import ThirtySeconds
 from .thishealthytable import ThisHealthyTable
 from .threesixfivedaysofbakingandmore import ThreeSixFiveDaysOfBakingAndMore
 from .tidymom import TidyMom
@@ -622,6 +624,7 @@ from .valdemarsro import Valdemarsro
 from .valentinascorner import ValentinasCorner
 from .vanillaandbean import VanillaAndBean
 from .varechapravdask import VarechaPravdaSK
+from .veganricha import VeganRicha
 from .vegansociety import VeganSociety
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
@@ -1222,6 +1225,7 @@ SCRAPERS = {
     TastyKitchen.host(): TastyKitchen,
     TastyOven.host(): TastyOven,
     TatyanasEverydayFood.host(): TatyanasEverydayFood,
+    TeakAndThyme.host(): TeakAndThyme,
     TheAlmondEater.host(): TheAlmondEater,
     TheBigMansWorld.host(): TheBigMansWorld,
     TheCleverCarrot.host(): TheCleverCarrot,
@@ -1255,6 +1259,7 @@ SCRAPERS = {
     Thewoksoflife.host(): Thewoksoflife,
     TheWoodenSkillet.host(): TheWoodenSkillet,
     Thinlicious.host(): Thinlicious,
+    ThirtySeconds.host(): ThirtySeconds,
     ThisHealthyTable.host(): ThisHealthyTable,
     ThreeSixFiveDaysOfBakingAndMore.host(): ThreeSixFiveDaysOfBakingAndMore,
     TidyMom.host(): TidyMom,
@@ -1273,6 +1278,7 @@ SCRAPERS = {
     ValentinasCorner.host(): ValentinasCorner,
     VanillaAndBean.host(): VanillaAndBean,
     VarechaPravdaSK.host(): VarechaPravdaSK,
+    VeganRicha.host(): VeganRicha,
     VeganSociety.host(): VeganSociety,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
