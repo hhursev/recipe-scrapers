@@ -96,6 +96,11 @@ RECIPE_YIELD_TYPES = (
     # ... add more types as needed, in (singular, plural) format ...
 )
 
+RECIPE_YIELD_ABBREVIATIONS = (
+    ("kg", "kilogram", "kilograms"),
+    ("g", "gram", "grams"),
+)
+
 # Pre-compile regex patterns for yield type matching with word boundaries
 _YIELD_TYPE_PATTERNS = [
     (
@@ -105,6 +110,16 @@ _YIELD_TYPE_PATTERNS = [
         plural,
     )
     for singular, plural in RECIPE_YIELD_TYPES
+]
+
+
+_YIELD_ABBREVIATION_PATTERNS = [
+    (
+        re.compile(rf"^\D*\d+(?:\.\d*)?\s*{re.escape(abbreviation)}\b", re.IGNORECASE),
+        singular,
+        plural,
+    )
+    for abbreviation, singular, plural in RECIPE_YIELD_ABBREVIATIONS
 ]
 
 
@@ -299,6 +314,10 @@ def get_yields(element):
 
     if best_match:
         return best_match
+
+    for abbreviation_pattern, singular, plural in _YIELD_ABBREVIATION_PATTERNS:
+        if abbreviation_pattern.search(serve_text_lower):
+            return format_count_label(matched, singular, plural)
 
     plural = "s" if matched != 1 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:
