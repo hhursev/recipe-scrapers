@@ -1476,7 +1476,7 @@ def scrape_html(
             raise ImportError(msg) from requests_import_error
 
         try:
-            html = requests.get(url=org_url, headers=HEADERS).text
+            html = requests.get(url=org_url, headers=HEADERS, timeout=30).text
         except Exception as e:
             raise Exception(f"Failed to retrieve HTML content from {org_url}.") from e
 
@@ -1510,5 +1510,5 @@ def scrape_html(
 
 
 def scrape_me(url: str) -> AbstractScraper:
-    html = urlopen(Request(url, headers=HEADERS)).read().decode("utf-8")
+    html = urlopen(Request(url, headers=HEADERS), timeout=30).read().decode("utf-8")
     return scrape_html(html, org_url=url)
