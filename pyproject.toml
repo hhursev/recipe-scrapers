@@ -73,7 +73,7 @@ tests = [
 ]
 linters = [
     "pre-commit == 4.0.1",    # latest from PyPI
-    "black == 24.10.0",       # match what's in .pre-commit-config.yaml
+    "black == 26.3.1",       # match what's in .pre-commit-config.yaml
     "flake8 == 7.1.1",        # match what's in .pre-commit-config.yaml
     "pep8-naming == 0.14.1",  # match what's in .pre-commit-config.yaml
     "mypy == 1.14.0",         # match what's in .pre-commit-config.yaml
