@@ -106,6 +106,7 @@ from .billyparisi import BillyParisi
 from .bitsofcarey import BitsOfCarey
 from .blessthismessplease import BlessThisMessPlease
 from .blogghetti import Blogghetti
+from .blogosferathermomix import BlogosferaThermomix
 from .blueapron import BlueApron
 from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
@@ -202,6 +203,7 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
+from .emilybites import EmilyBites
 from .elavegan import ElaVegan
 from .emmikochteinfach import EmmiKochtEinfach
 from .empirecipes import Empirecipes
@@ -214,6 +216,7 @@ from .everydaydelicious import EverydayDelicious
 from .everydaypie import EverydayPie
 from .evolvingtable import EvolvingTable
 from .familyfoodonthetable import FamilyfoodOnTheTable
+from .familyspice import FamilySpice
 from .fantabulosity import Fantabulosity
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
@@ -309,6 +312,7 @@ from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
 from .jow import Jow
 from .joyfoodsunshine import Joyfoodsunshine
+from .joyfullymad import JoyfullyMad
 from .joythebaker import JoyTheBaker
 from .juliasalbum import JuliasAlbum
 from .juliegoodwin import JulieGoodwin
@@ -353,6 +357,7 @@ from .leckerschmecker import LeckerSchmecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
+from .letscampsmore import LetsCampSmore
 from .leukerecepten import Leukerecepten
 from .lidiasitaly import LidiasItaly
 from .lifestyleofafoodie import LifestyleOfAFoodie
@@ -378,6 +383,7 @@ from .marthastewart import MarthaStewart
 from .matprat import Matprat
 from .mccormick import McCormick
 from .mealprepmanual import MealPrepManual
+from .meatchurch import MeatChurch
 from .meganvskitchen import MeganVsKitchen
 from .meljoulwan import Meljoulwan
 from .mellisaknorris import MellisaKNorris
@@ -569,6 +575,7 @@ from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .tastyoven import TastyOven
 from .tatyanaseverydayfood import TatyanasEverydayFood
+from .teakandthyme import TeakAndThyme
 from .thealmondeater import TheAlmondEater
 from .thebigmansworld import TheBigMansWorld
 from .theclevercarrot import TheCleverCarrot
@@ -602,6 +609,7 @@ from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
 from .thewoodenskillet import TheWoodenSkillet
 from .thinlicious import Thinlicious
+from .thirtyseconds import ThirtySeconds
 from .thishealthytable import ThisHealthyTable
 from .threesixfivedaysofbakingandmore import ThreeSixFiveDaysOfBakingAndMore
 from .tidymom import TidyMom
@@ -620,6 +628,8 @@ from .valdemarsro import Valdemarsro
 from .valentinascorner import ValentinasCorner
 from .vanillaandbean import VanillaAndBean
 from .varechapravdask import VarechaPravdaSK
+from .veganricha import VeganRicha
+from .vegansociety import VeganSociety
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
 from .vegrecipesofindia import VegRecipesOfIndia
@@ -733,6 +743,82 @@ SCRAPERS = {
     BitsOfCarey.host(): BitsOfCarey,
     BlessThisMessPlease.host(): BlessThisMessPlease,
     Blogghetti.host(): Blogghetti,
+    BlogosferaThermomix.host(): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-albacete.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-alcala.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-algeciras.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-alicante.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-almeria.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-alzira.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-badajoz.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(
+        domain="thermomix-barcelona-centro.es"
+    ): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-barcelona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-bilbao.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-burgos.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-caceres.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-cadiz.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-cartagena.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-castellon.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-ceuta.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-ciudadreal.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-cordoba.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-coruna.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-doshermanas.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-elche.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-esplugues.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-fuenlabrada.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-fuerteventura.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-gijon.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-girona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-granada.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-huelva.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-jaen.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-jerez.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-lanzarote.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-laspalmas.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-leon.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-lleida.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-madrid-centro.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(
+        domain="thermomix-madrid-mendezalvaro.es"
+    ): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-majadahonda.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-malaga-centro.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-malaga.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-mallorca.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-manresa.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-marbella.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-mataro.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-mostoles.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-murcia.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-orense.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-pamplona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-plasencia.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-pontevedra.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-sabadell.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-salamanca.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-sansebastian.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-santander.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(
+        domain="thermomix-sevilla-aljarafe.es"
+    ): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-sevilla.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-ssreyes.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-talavera.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-tarragona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-tenerife.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-tenerifesur.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-toledo.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-valencia.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-valladolid.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-vic.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-vigo.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-vitoria.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-zamora.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-zaragoza.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomixasturias.es"): BlogosferaThermomix,
     BlueApron.host(): BlueApron,
     BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
@@ -830,6 +916,7 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
+    EmilyBites.host(): EmilyBites,
     ElaVegan.host(): ElaVegan,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Empirecipes.host(): Empirecipes,
@@ -842,6 +929,7 @@ SCRAPERS = {
     EverydayPie.host(): EverydayPie,
     EvolvingTable.host(): EvolvingTable,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
+    FamilySpice.host(): FamilySpice,
     Fantabulosity.host(): Fantabulosity,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FarmhouseOnBoone.host(): FarmhouseOnBoone,
@@ -956,6 +1044,7 @@ SCRAPERS = {
     JoshuaWeissman.host(): JoshuaWeissman,
     Jow.host(): Jow,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JoyfullyMad.host(): JoyfullyMad,
     JoyTheBaker.host(): JoyTheBaker,
     JuliasAlbum.host(): JuliasAlbum,
     JulieGoodwin.host(): JulieGoodwin,
@@ -1001,6 +1090,7 @@ SCRAPERS = {
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LeitesCulinaria.host(): LeitesCulinaria,
     LekkerEnSimpel.host(): LekkerEnSimpel,
+    LetsCampSmore.host(): LetsCampSmore,
     Leukerecepten.host(): Leukerecepten,
     LidiasItaly.host(): LidiasItaly,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
@@ -1026,6 +1116,7 @@ SCRAPERS = {
     Matprat.host(): Matprat,
     McCormick.host(): McCormick,
     MealPrepManual.host(): MealPrepManual,
+    MeatChurch.host(): MeatChurch,
     MeganVsKitchen.host(): MeganVsKitchen,
     Meljoulwan.host(): Meljoulwan,
     MellisaKNorris.host(): MellisaKNorris,
@@ -1217,6 +1308,7 @@ SCRAPERS = {
     TastyKitchen.host(): TastyKitchen,
     TastyOven.host(): TastyOven,
     TatyanasEverydayFood.host(): TatyanasEverydayFood,
+    TeakAndThyme.host(): TeakAndThyme,
     TheAlmondEater.host(): TheAlmondEater,
     TheBigMansWorld.host(): TheBigMansWorld,
     TheCleverCarrot.host(): TheCleverCarrot,
@@ -1250,6 +1342,7 @@ SCRAPERS = {
     Thewoksoflife.host(): Thewoksoflife,
     TheWoodenSkillet.host(): TheWoodenSkillet,
     Thinlicious.host(): Thinlicious,
+    ThirtySeconds.host(): ThirtySeconds,
     ThisHealthyTable.host(): ThisHealthyTable,
     ThreeSixFiveDaysOfBakingAndMore.host(): ThreeSixFiveDaysOfBakingAndMore,
     TidyMom.host(): TidyMom,
@@ -1268,6 +1361,8 @@ SCRAPERS = {
     ValentinasCorner.host(): ValentinasCorner,
     VanillaAndBean.host(): VanillaAndBean,
     VarechaPravdaSK.host(): VarechaPravdaSK,
+    VeganRicha.host(): VeganRicha,
+    VeganSociety.host(): VeganSociety,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,
     VegRecipesOfIndia.host(): VegRecipesOfIndia,
