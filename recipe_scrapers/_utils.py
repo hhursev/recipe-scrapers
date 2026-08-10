@@ -123,6 +123,13 @@ def format_diet_name(diet_input):
         "VeganDiet": "Vegan Diet",
         "VegetarianDiet": "Vegetarian Diet",
     }
+
+    if isinstance(diet_input, dict):
+        diet_input = diet_input.get("name")
+
+    if not isinstance(diet_input, str):
+        return None
+
     if "schema.org/" in diet_input:
         diet_input = diet_input.split("schema.org/")[-1]
 
