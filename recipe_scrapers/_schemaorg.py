@@ -2,6 +2,8 @@
 # find a package that parses https://schema.org/Recipe properly (or create one ourselves).
 from __future__ import annotations
 
+import json
+import re
 from itertools import chain
 
 import extruct
@@ -24,6 +26,50 @@ SYNTAXES = ["json-ld", "microdata"]
 
 class SchemaOrg:
     @staticmethod
+    def _normalize_nextjs_jsonld(html: str) -> str:
+        """Lift JSON-LD from Next.js App Router __next_s.push() injections.
+
+        Next.js App Router SSR pages inject JSON-LD via:
+
+            (self.__next_s=self.__next_s||[]).push([0,
+                {"type":"application/ld+json","children":"{...}"}
+            ])
+
+        instead of a static <script type="application/ld+json"> tag, so extruct
+        misses it entirely. This method detects the pattern and injects a proper
+        script tag before the HTML reaches extruct.
+
+        Returns *html* unchanged when the pattern is absent (fast path).
+        """
+        if "__next_s" not in html or "application/ld+json" not in html:
+            return html
+
+        injected: list[str] = []
+        for script_body in re.findall(r"<script[^>]*>(.*?)</script>", html, re.DOTALL):
+            if "__next_s" not in script_body or "application/ld+json" not in script_body:
+                continue
+            m = re.search(r"push\(\[0,(\{.*\})\]\)", script_body, re.DOTALL)
+            if not m:
+                continue
+            try:
+                obj = json.loads(m.group(1))
+                if obj.get("type") == "application/ld+json" and "children" in obj:
+                    injected.append(obj["children"])
+            except (json.JSONDecodeError, KeyError):
+                continue
+
+        if not injected:
+            return html
+
+        extra = "".join(
+            f'<script type="application/ld+json">{content}</script>'
+            for content in injected
+        )
+        if "</head>" in html:
+            return html.replace("</head>", extra + "</head>", 1)
+        return extra + html
+
+    @staticmethod
     def _contains_schematype(item, schematype):
         itemtype = item.get("@type", "")
         itemtypes = itemtype if isinstance(itemtype, list) else [itemtype]
@@ -40,6 +86,7 @@ class SchemaOrg:
                     return node
 
     def __init__(self, page_data):
+        page_data = self._normalize_nextjs_jsonld(page_data)
         self.format = None
         self.data = {}
         self.people = {}
