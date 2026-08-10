@@ -18,9 +18,7 @@ class _HTMLStripper(HTMLParser):
         super().__init__()
         self._parts: list[str] = []
 
-    def handle_starttag(
-        self, tag: str, attrs: list[tuple[str, str | None]]
-    ) -> None:
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag in self._BLOCK_TAGS:
             self._parts.append("\n")
 
@@ -88,9 +86,7 @@ class Gousto(AbstractScraper):
                 import urllib.request
 
                 with urllib.request.urlopen(api_url) as response:
-                    raw: dict[str, Any] = json.loads(
-                        response.read().decode("utf-8")
-                    )
+                    raw: dict[str, Any] = json.loads(response.read().decode("utf-8"))
                 if raw.get("status") == "ok":
                     self._api_data = raw["data"]["entry"]
             except Exception:
@@ -119,9 +115,7 @@ class Gousto(AbstractScraper):
     def image(self) -> str:
         if self._api_data:
             entry = self._entry()
-            img = _pick_largest_image(
-                entry.get("media", {}).get("images", [])
-            )
+            img = _pick_largest_image(entry.get("media", {}).get("images", []))
             if img:
                 return img
             return entry.get("seo", {}).get("open_graph_image", "")
@@ -167,9 +161,7 @@ class Gousto(AbstractScraper):
 
     def ingredients(self) -> list[str]:
         if self._api_data:
-            return [
-                ing["label"] for ing in self._entry().get("ingredients", [])
-            ]
+            return [ing["label"] for ing in self._entry().get("ingredients", [])]
         return self.schema.ingredients()
 
     def instructions(self) -> str:
@@ -188,8 +180,8 @@ class Gousto(AbstractScraper):
 
     def nutrients(self) -> dict[str, str]:
         if self._api_data:
-            nutrition = self._entry().get("nutritional_information", {}).get(
-                "per_portion", {}
+            nutrition = (
+                self._entry().get("nutritional_information", {}).get("per_portion", {})
             )
             result: dict[str, str] = {}
             if nutrition.get("energy_kcal"):
