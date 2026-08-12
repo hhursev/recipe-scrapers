@@ -203,8 +203,8 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
-from .emilybites import EmilyBites
 from .elavegan import ElaVegan
+from .emilybites import EmilyBites
 from .emmikochteinfach import EmmiKochtEinfach
 from .empirecipes import Empirecipes
 from .epicurious import Epicurious
@@ -498,6 +498,7 @@ from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
+from .relish import Relish
 from .rewe import Rewe
 from .rezeptwelt import Rezeptwelt
 from .ricardocuisine import RicardoCuisine
@@ -916,8 +917,8 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
-    EmilyBites.host(): EmilyBites,
     ElaVegan.host(): ElaVegan,
+    EmilyBites.host(): EmilyBites,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Empirecipes.host(): Empirecipes,
     Epicurious.host(): Epicurious,
@@ -1231,6 +1232,7 @@ SCRAPERS = {
     RecipeTinEats.host(): RecipeTinEats,
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
+    Relish.host(): Relish,
     Rewe.host(): Rewe,
     Rezeptwelt.host(): Rezeptwelt,
     RicardoCuisine.host(): RicardoCuisine,
