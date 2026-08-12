@@ -310,6 +310,7 @@ from .jennycancook import JennyCanCook
 from .jimcooksfoodgood import JimCooksFoodGood
 from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
+from .journaldesfemmes import JournalDesFemmes
 from .jow import Jow
 from .joyfoodsunshine import Joyfoodsunshine
 from .joyfullymad import JoyfullyMad
@@ -1042,6 +1043,7 @@ SCRAPERS = {
     JimCooksFoodGood.host(): JimCooksFoodGood,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
+    JournalDesFemmes.host(): JournalDesFemmes,
     Jow.host(): Jow,
     Joyfoodsunshine.host(): Joyfoodsunshine,
     JoyfullyMad.host(): JoyfullyMad,
