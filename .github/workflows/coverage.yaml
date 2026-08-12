@@ -22,7 +22,13 @@ jobs:
       - name: Run tests with coverage
         env:
           PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
-        run: coverage run -m unittest
+        run: |
+          if python -c "import unittest_parallel" >/dev/null 2>&1; then
+            coverage run --parallel-mode -m unittest_parallel --level test
+            coverage combine
+          else
+            coverage run -m unittest
+          fi
       - name: Report coverage to coveralls.io
         uses: coverallsapp/github-action@v2
         with:
