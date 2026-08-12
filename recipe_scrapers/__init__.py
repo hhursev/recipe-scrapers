@@ -203,8 +203,8 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
-from .emilybites import EmilyBites
 from .elavegan import ElaVegan
+from .emilybites import EmilyBites
 from .emmikochteinfach import EmmiKochtEinfach
 from .empirecipes import Empirecipes
 from .epicurious import Epicurious
@@ -318,6 +318,7 @@ from .juliasalbum import JuliasAlbum
 from .juliegoodwin import JulieGoodwin
 from .jumbo import Jumbo
 from .justalittlebitofbacon import JustALittleBitOfBacon
+from .justapinch import JustAPinch
 from .justataste import JustATaste
 from .justbento import JustBento
 from .justinesnacks import JustineSnacks
@@ -916,8 +917,8 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
-    EmilyBites.host(): EmilyBites,
     ElaVegan.host(): ElaVegan,
+    EmilyBites.host(): EmilyBites,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Empirecipes.host(): Empirecipes,
     Epicurious.host(): Epicurious,
@@ -1050,6 +1051,7 @@ SCRAPERS = {
     JulieGoodwin.host(): JulieGoodwin,
     Jumbo.host(): Jumbo,
     JustALittleBitOfBacon.host(): JustALittleBitOfBacon,
+    JustAPinch.host(): JustAPinch,
     JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     JustineSnacks.host(): JustineSnacks,
