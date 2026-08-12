@@ -1,0 +1,38 @@
+{
+  "author": "Ozarks Mountain Brewery",
+  "canonical_url": "http://brewersfriend.com",
+  "host": "brewersfriend.com",
+  "language": "en",
+  "title": "Sierra Nevada Pale Ale Clone",
+  "ingredients": [
+    "11.5 lb Pale 2-Row",
+    "14.54 oz Caramel / Crystal 60L",
+    "0.5 oz Magnum Hops",
+    "0.5 oz Perle Hops",
+    "1 oz Cascade Hops",
+    "2 oz Cascade Hops",
+    "2 oz Cascade Hops"
+  ],
+  "instructions_list": [
+    "Mash (Rest) — Temperature at 153°F for 60 minutes.",
+    "Mash (Mash-out Rest) — Temperature at 168°F for 10 minutes.",
+    "Mash (Sparge) — Sparge at 170°F for 10 minutes.",
+    "Boil",
+    "Bring wort to a boil and boil for 70 minutes. Add hops: Magnum (Boil 60 min); Perle (Boil 30 min); Cascade (Boil 10 min); Cascade (Boil 0 min). Dry hop with Cascade after primary fermentation.",
+    "Ferment with Fermentis Safale - American Ale Yeast US-05."
+  ],
+  "category": "American Pale Ale",
+  "yields": "6.5 gallons",
+  "total_time": 150,
+  "cook_time": 70,
+  "prep_time": 80,
+  "cuisine": "Homebrewing",
+  "ratings": 4.7,
+  "ratings_count": 33,
+  "nutrients": {
+    "servingSize": "12 oz",
+    "calories": "181 calories",
+    "carbohydrateContent": "18.2 g"
+  },
+  "image": "https://www.brewersfriend.com/avatars/2021_07/5889_xxd78x630v_lg.jpg"
+}
