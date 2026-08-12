@@ -247,6 +247,7 @@ from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
 from .fortyaprons import FortyAprons
 from .franzoesischkochen import FranzoesischKochen
+from .freshiprima import FreshiPrima
 from .g750g import G750g
 from .garlicandzest import GarlicAndZest
 from .garnishandglaze import GarnishAndGlaze
@@ -966,6 +967,7 @@ SCRAPERS = {
     ForkToSpoon.host(): ForkToSpoon,
     FortyAprons.host(): FortyAprons,
     FranzoesischKochen.host(): FranzoesischKochen,
+    FreshiPrima.host(): FreshiPrima,
     G750g.host(): G750g,
     GarlicAndZest.host(): GarlicAndZest,
     GarnishAndGlaze.host(): GarnishAndGlaze,
