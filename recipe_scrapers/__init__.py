@@ -115,6 +115,7 @@ from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
+from .brewersfriend import BrewersFriend
 from .briceletbaklava import BricelEtBaklava
 from .brokenovenbaking import BrokenOvenBaking
 from .budgetbytes import BudgetBytes
@@ -203,14 +204,15 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
-from .emilybites import EmilyBites
 from .elavegan import ElaVegan
+from .emilybites import EmilyBites
 from .emmikochteinfach import EmmiKochtEinfach
 from .empirecipes import Empirecipes
 from .epicurious import Epicurious
 from .erinliveswhole import ErinLivesWhole
 from .erinscozykitchen import ErinsCozyKitchen
 from .errenskitchen import ErrensKitchen
+from .essenundtrinken import EssenUndTrinken
 from .ethanchlebowski import EthanChlebowski
 from .everydaydelicious import EverydayDelicious
 from .everydaypie import EverydayPie
@@ -245,6 +247,7 @@ from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
 from .fortyaprons import FortyAprons
 from .franzoesischkochen import FranzoesischKochen
+from .freshiprima import FreshiPrima
 from .g750g import G750g
 from .garlicandzest import GarlicAndZest
 from .garnishandglaze import GarnishAndGlaze
@@ -310,6 +313,7 @@ from .jennycancook import JennyCanCook
 from .jimcooksfoodgood import JimCooksFoodGood
 from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
+from .journaldesfemmes import JournalDesFemmes
 from .jow import Jow
 from .joyfoodsunshine import Joyfoodsunshine
 from .joyfullymad import JoyfullyMad
@@ -318,6 +322,7 @@ from .juliasalbum import JuliasAlbum
 from .juliegoodwin import JulieGoodwin
 from .jumbo import Jumbo
 from .justalittlebitofbacon import JustALittleBitOfBacon
+from .justapinch import JustAPinch
 from .justataste import JustATaste
 from .justbento import JustBento
 from .justinesnacks import JustineSnacks
@@ -498,6 +503,7 @@ from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
+from .relish import Relish
 from .rewe import Rewe
 from .rezeptwelt import Rezeptwelt
 from .ricardocuisine import RicardoCuisine
@@ -827,6 +833,7 @@ SCRAPERS = {
     BongEats.host(): BongEats,
     BowlOfDelicious.host(): BowlOfDelicious,
     Breadtopia.host(): Breadtopia,
+    BrewersFriend.host(): BrewersFriend,
     BricelEtBaklava.host(): BricelEtBaklava,
     BrokenOvenBaking.host(): BrokenOvenBaking,
     BudgetBytes.host(): BudgetBytes,
@@ -916,14 +923,15 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
-    EmilyBites.host(): EmilyBites,
     ElaVegan.host(): ElaVegan,
+    EmilyBites.host(): EmilyBites,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Empirecipes.host(): Empirecipes,
     Epicurious.host(): Epicurious,
     ErinLivesWhole.host(): ErinLivesWhole,
     ErinsCozyKitchen.host(): ErinsCozyKitchen,
     ErrensKitchen.host(): ErrensKitchen,
+    EssenUndTrinken.host(): EssenUndTrinken,
     EthanChlebowski.host(): EthanChlebowski,
     EverydayDelicious.host(): EverydayDelicious,
     EverydayPie.host(): EverydayPie,
@@ -959,6 +967,7 @@ SCRAPERS = {
     ForkToSpoon.host(): ForkToSpoon,
     FortyAprons.host(): FortyAprons,
     FranzoesischKochen.host(): FranzoesischKochen,
+    FreshiPrima.host(): FreshiPrima,
     G750g.host(): G750g,
     GarlicAndZest.host(): GarlicAndZest,
     GarnishAndGlaze.host(): GarnishAndGlaze,
@@ -1042,6 +1051,7 @@ SCRAPERS = {
     JimCooksFoodGood.host(): JimCooksFoodGood,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
+    JournalDesFemmes.host(): JournalDesFemmes,
     Jow.host(): Jow,
     Joyfoodsunshine.host(): Joyfoodsunshine,
     JoyfullyMad.host(): JoyfullyMad,
@@ -1050,6 +1060,7 @@ SCRAPERS = {
     JulieGoodwin.host(): JulieGoodwin,
     Jumbo.host(): Jumbo,
     JustALittleBitOfBacon.host(): JustALittleBitOfBacon,
+    JustAPinch.host(): JustAPinch,
     JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     JustineSnacks.host(): JustineSnacks,
@@ -1231,6 +1242,7 @@ SCRAPERS = {
     RecipeTinEats.host(): RecipeTinEats,
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
+    Relish.host(): Relish,
     Rewe.host(): Rewe,
     Rezeptwelt.host(): Rezeptwelt,
     RicardoCuisine.host(): RicardoCuisine,
