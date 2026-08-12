@@ -20,6 +20,31 @@
     "1 lžička bramborový škrob",
     "250 ml smetana na vaření, nebo plnotučné mléko"
   ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "500 g (2 kostky) tvaroh, polo- nebo plnotučný",
+        "140 g dětská krupička",
+        "140 g hladká mouka",
+        "140 g máslo, změklé",
+        "2 ks vejce",
+        "1 sáček vanilkový cukr",
+        "z 1 citronu citronová kůra, nastrouhaná",
+        "1 špetka sůl"
+      ],
+      "purpose": "Těsto"
+    },
+    {
+      "ingredients": [
+        "500 g borůvky",
+        "1 lžíce máslo",
+        "50 g cukr krupice",
+        "1 lžička bramborový škrob",
+        "250 ml smetana na vaření, nebo plnotučné mléko"
+      ],
+      "purpose": "Rozvar"
+    }
+  ],
   "instructions_list": [
     "Na knedlíčky ze všech surovin vypracujte těsto (některé čtenářky radí ho nejprve promíchat metlou a pak prohníst rukama). Nechte ho odležet hodinu až dvě v ledničce, můžete až do druhého dne.",
     "Dejte vařit vodu do hrnce, malinko ji osolte. Z těsta tvarujte malé nočky nebo kuličky a vhazujte je do vody. Vařte asi 20 minut.",
