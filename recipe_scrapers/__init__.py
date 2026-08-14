@@ -178,6 +178,7 @@ from .davidlebovitz import DavidLebovitz
 from .deliciouslyella import DeliciouslyElla
 from .deliciouslysprinkled import DeliciouslySprinkled
 from .delish import Delish
+from .delishkitchen import DelishKitchen
 from .delscookingtwist import DelsCookingTwist
 from .dinneratthezoo import DinnerAtTheZoo
 from .dinnerthendessert import DinnerThenDessert
@@ -896,6 +897,7 @@ SCRAPERS = {
     DeliciouslyElla.host(): DeliciouslyElla,
     DeliciouslySprinkled.host(): DeliciouslySprinkled,
     Delish.host(): Delish,
+    DelishKitchen.host(): DelishKitchen,
     DelsCookingTwist.host(): DelsCookingTwist,
     DinnerAtTheZoo.host(): DinnerAtTheZoo,
     DinnerThenDessert.host(): DinnerThenDessert,
