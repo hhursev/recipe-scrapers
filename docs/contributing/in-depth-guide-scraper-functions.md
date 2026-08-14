@@ -375,11 +375,11 @@ Returns a `list` of keywords associated with a recipe.
 ['easy', 'quick', 'dinner']
 ```
 
-### `dietary_restrictions"() -> List[str] | None`
+### `dietary_restrictions() -> List[str] | None`
 
 Returns the dietary restrictions specified by the recipe.
 
 ```py
 >>> scraper.dietary_restrictions()
-['Vegan Diet', 'Vegetarian Diet']
+['Vegan Diet', 'Vegetarian Diet', 'Mediterranean']
 ```

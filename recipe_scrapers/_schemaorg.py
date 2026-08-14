@@ -404,7 +404,9 @@ class SchemaOrg:
         if not isinstance(dietary_restrictions, list):
             dietary_restrictions = [dietary_restrictions]
 
-        formatted_diets = [format_diet_name(diet) for diet in dietary_restrictions]
+        formatted_diets = [
+            diet for diet in (format_diet_name(d) for d in dietary_restrictions) if diet
+        ]
         formatted_diets = ", ".join(formatted_diets)
         final_diets = csv_to_tags(formatted_diets)
 
