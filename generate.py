@@ -117,7 +117,7 @@ def _register_scraper(class_name):
         lines = lines[:start] + all_imports + lines[end + 1 :]
 
     new_entry = f"    {class_name}.host(): {class_name},"
-    out, block, in_block = [], [], False
+    out, block_lines, in_block = [], [], False
     for line in lines:
         if line.strip().startswith("SCRAPERS") and line.strip().endswith("{"):
             in_block = True
@@ -125,17 +125,43 @@ def _register_scraper(class_name):
             continue
         if in_block:
             if line.strip() == "}":
-                block.append(new_entry)
-                sorted_block = sorted(set(block), key=lambda e: e.lower())
-                out.extend(sorted_block)
+                entries = _group_dict_entries(block_lines)
+                if new_entry not in entries:
+                    entries.append(new_entry)
+                sorted_entries = sorted(set(entries), key=_scrapers_sort_key)
+                for entry in sorted_entries:
+                    out.extend(entry.splitlines())
                 out.append(line)
                 in_block = False
             else:
-                block.append(line)
+                block_lines.append(line)
             continue
         out.append(line)
 
     init_path.write_text("\n".join(out) + "\n")
+
+
+def _group_dict_entries(lines):
+    """Group SCRAPERS dict lines into complete entries (handles multi-line keys)."""
+    entries = []
+    current = []
+    depth = 0
+    for line in lines:
+        if not line.strip():
+            continue
+        current.append(line)
+        depth += line.count("(") - line.count(")")
+        if depth == 0 and line.rstrip().endswith(","):
+            entries.append("\n".join(current))
+            current = []
+    if current:
+        entries.append("\n".join(current))
+    return entries
+
+
+def _scrapers_sort_key(entry):
+    """Sort key that ignores wrapping so multi-line host() entries stay alphabetical."""
+    return re.sub(r"\s+", "", entry).lower()
 
 
 class _TemplateReplacer:

@@ -2,6 +2,7 @@ import unittest
 
 from recipe_scrapers._utils import (
     _extract_fractional,
+    format_diet_name,
     get_abstract_methods,
     get_minutes,
     get_nutrition_keys,
@@ -182,3 +183,36 @@ class TestUtils(unittest.TestCase):
         for input_text, expected in test_cases:
             with self.subTest(input_text=input_text):
                 self.assertEqual(expected, get_yields(input_text))
+
+    def test_format_diet_name_from_restricted_diet_url(self):
+        self.assertEqual("Vegan Diet", format_diet_name("https://schema.org/VeganDiet"))
+        self.assertEqual(
+            "Low Fat Diet", format_diet_name("http://schema.org/LowFatDiet")
+        )
+
+    def test_format_diet_name_from_restricted_diet_label(self):
+        self.assertEqual("Vegetarian Diet", format_diet_name("VegetarianDiet"))
+        self.assertEqual("Gluten Free Diet", format_diet_name("GlutenFreeDiet"))
+
+    def test_format_diet_name_from_diet_object(self):
+        mediterranean = {
+            "@type": "Diet",
+            "name": "Mediterranean",
+        }
+        vegan = {
+            "@type": "Diet",
+            "name": "Vegan",
+        }
+
+        self.assertEqual("Mediterranean", format_diet_name(mediterranean))
+        self.assertEqual("Vegan", format_diet_name(vegan))
+
+    def test_format_diet_name_from_diet_object_with_restricted_diet_name(self):
+        diet = {"@type": "Diet", "name": "https://schema.org/VeganDiet"}
+        self.assertEqual("Vegan Diet", format_diet_name(diet))
+
+    def test_format_diet_name_returns_none_when_unusable(self):
+        self.assertIsNone(format_diet_name({"@type": "Diet"}))
+        self.assertIsNone(format_diet_name(None))
+        self.assertIsNone(format_diet_name(42))
+        self.assertIsNone(format_diet_name("https://schema.org/"))

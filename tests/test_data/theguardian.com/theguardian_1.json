@@ -45,5 +45,9 @@
   "total_time": 50,
   "cook_time": 40,
   "prep_time": 10,
+  "dietary_restrictions": [
+    "Vegetarian Diet",
+    "Vegan Diet"
+  ],
   "image": "https://i.guim.co.uk/img/media/a32245aec6fcf66e5155a25014280e56331cf528/0_0_3670_2202/master/3670.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9055d867a568a65f156eb88e5dbf289d"
 }
