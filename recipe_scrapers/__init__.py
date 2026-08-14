@@ -82,6 +82,7 @@ from .atelierdeschefs import AtelierDesChefs
 from .aubreyskitchen import AubreysKitchen
 from .averiecooks import AverieCooks
 from .bakeeatrepeat import BakeEatRepeat
+from .bakeitwithlove import BakeItWithLove
 from .bakels import Bakels
 from .bakerbynature import BakerByNature
 from .bakewithzoha import BakeWithZoha
@@ -725,6 +726,7 @@ SCRAPERS = {
     AubreysKitchen.host(): AubreysKitchen,
     AverieCooks.host(): AverieCooks,
     BakeEatRepeat.host(): BakeEatRepeat,
+    BakeItWithLove.host(): BakeItWithLove,
     Bakels.host(): Bakels,
     Bakels.host(domain="co.uk"): Bakels,
     BakerByNature.host(): BakerByNature,
