@@ -573,6 +573,7 @@ from .tasteandtellblog import TasteAndTellBlog
 from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tastefullygrace import TastefullyGrace
+from .tasteline import Tasteline
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
 from .tastesoflizzyt import TastesOfLizzyT
@@ -1312,6 +1313,7 @@ SCRAPERS = {
     TasteAtlas.host(): TasteAtlas,
     TasteAU.host(): TasteAU,
     TastefullyGrace.host(): TastefullyGrace,
+    Tasteline.host(): Tasteline,
     TasteOfHome.host(): TasteOfHome,
     TastesBetterFromScratch.host(): TastesBetterFromScratch,
     TastesOfLizzyT.host(): TastesOfLizzyT,
