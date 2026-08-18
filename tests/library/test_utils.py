@@ -216,3 +216,46 @@ class TestUtils(unittest.TestCase):
         self.assertIsNone(format_diet_name(None))
         self.assertIsNone(format_diet_name(42))
         self.assertIsNone(format_diet_name("https://schema.org/"))
+
+    def test_get_yields_metric_weight_abbreviations(self):
+        test_cases = [
+            ("750g", "750 grams"),
+            ("750 g di crema pasticcera", "750 grams"),
+            ("1 kg dough", "1 kilogram"),
+            ("2kg dough", "2 kilograms"),
+        ]
+        for input_text, expected in test_cases:
+            with self.subTest(input_text=input_text):
+                self.assertEqual(expected, get_yields(input_text))
+
+    def test_get_yields_unit_abbreviations(self):
+        test_cases = [
+            ("1 kilogram", "1 kilogram"),
+            ("2 kilograms", "2 kilograms"),
+            ("16 oz", "16 ounces"),
+            ("16oz dough", "16 ounces"),
+            ("2 lb", "2 pounds"),
+            ("1 lb dough", "1 pound"),
+            ("2lbs", "2 pounds"),
+            ("500ml", "500 milliliters"),
+            ("250 ml sauce", "250 milliliters"),
+            ("1 milliliter", "1 milliliter"),
+        ]
+        for input_text, expected in test_cases:
+            with self.subTest(input_text=input_text):
+                self.assertEqual(expected, get_yields(input_text))
+
+    def test_get_yields_prefers_unit_in_list(self):
+        test_cases = [
+            (["4", "750 grams"], "750 grams"),
+            (["4", "750g"], "750 grams"),
+            (["750", "750g"], "750 grams"),
+            (["4", "1 kg"], "1 kilogram"),
+            (["1 kilogram", "4"], "1 kilogram"),
+            (["4", "16 oz"], "16 ounces"),
+            (["4", "2 lb"], "2 pounds"),
+            (["4", "500ml"], "500 milliliters"),
+        ]
+        for input_value, expected in test_cases:
+            with self.subTest(input_value=input_value):
+                self.assertEqual(expected, get_yields(input_value))
