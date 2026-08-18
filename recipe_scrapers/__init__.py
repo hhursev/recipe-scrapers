@@ -620,6 +620,7 @@ from .thewoodenskillet import TheWoodenSkillet
 from .thinlicious import Thinlicious
 from .thirtyseconds import ThirtySeconds
 from .thishealthytable import ThisHealthyTable
+from .thomaskocht import ThomasKocht
 from .threesixfivedaysofbakingandmore import ThreeSixFiveDaysOfBakingAndMore
 from .tidymom import TidyMom
 from .timesofindia import TimesOfIndia
@@ -1362,6 +1363,7 @@ SCRAPERS = {
     Thinlicious.host(): Thinlicious,
     ThirtySeconds.host(): ThirtySeconds,
     ThisHealthyTable.host(): ThisHealthyTable,
+    ThomasKocht.host(): ThomasKocht,
     ThreeSixFiveDaysOfBakingAndMore.host(): ThreeSixFiveDaysOfBakingAndMore,
     TidyMom.host(): TidyMom,
     TimesOfIndia.host(): TimesOfIndia,
