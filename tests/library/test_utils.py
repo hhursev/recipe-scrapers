@@ -216,3 +216,14 @@ class TestUtils(unittest.TestCase):
         self.assertIsNone(format_diet_name(None))
         self.assertIsNone(format_diet_name(42))
         self.assertIsNone(format_diet_name("https://schema.org/"))
+
+    def test_get_yields_metric_weight_abbreviations(self):
+        test_cases = [
+            ("750g", "750 grams"),
+            ("750 g di crema pasticcera", "750 grams"),
+            ("1 kg dough", "1 kilogram"),
+            ("2kg dough", "2 kilograms"),
+        ]
+        for input_text, expected in test_cases:
+            with self.subTest(input_text=input_text):
+                self.assertEqual(expected, get_yields(input_text))
