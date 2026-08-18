@@ -57,7 +57,7 @@ class HTMLTagStripperPlugin(PluginInterface):
     We do not want them.
     """
 
-    decorate_hosts = ("*",)
+    run_on_hosts = ("*",)
     run_on_methods = ("title", "instructions", "ingredients")
 
     @classmethod
