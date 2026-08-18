@@ -54,11 +54,13 @@ RECIPE_YIELD_TYPES = (
     ("dozen", "dozen"),
     ("gallon", "gallons"),
     ("gram", "grams"),
+    ("kilogram", "kilograms"),
     ("hamburger bun", "hamburger buns"),
     ("item", "items"),
     ("layer", "layers"),
     ("liter", "liters"),
     ("loaf", "loaves"),
+    ("milliliter", "milliliters"),
     ("muffin", "muffins"),
     ("ounce", "ounces"),
     ("pancake", "pancakes"),
@@ -98,6 +100,10 @@ RECIPE_YIELD_TYPES = (
 
 RECIPE_YIELD_ABBREVIATIONS = (
     ("kg", "kilogram", "kilograms"),
+    ("lbs", "pound", "pounds"),
+    ("lb", "pound", "pounds"),
+    ("oz", "ounce", "ounces"),
+    ("ml", "milliliter", "milliliters"),
     ("g", "gram", "grams"),
 )
 
@@ -273,13 +279,16 @@ def get_yields(element):
         best_element = element[0]
         for item in element:
             item_str = str(item).lower()
-            for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS:
-                if singular_pattern.search(item_str) or plural_pattern.search(item_str):
-                    best_element = item
-                    break
-            else:
-                continue
-            break
+            has_unit = any(
+                singular_pattern.search(item_str) or plural_pattern.search(item_str)
+                for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS
+            ) or any(
+                abbreviation_pattern.search(item_str)
+                for abbreviation_pattern, _, _ in _YIELD_ABBREVIATION_PATTERNS
+            )
+            if has_unit:
+                best_element = item
+                break
         element = best_element
 
     if isinstance(element, str):
