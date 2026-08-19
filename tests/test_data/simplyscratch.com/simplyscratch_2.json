@@ -62,6 +62,9 @@
   "cuisine": "Latin American,Mexican-American",
   "ratings": 5.0,
   "ratings_count": 3,
+  "equipment": [
+    "KitchenAid Cordless 5-cup Food Chopper"
+  ],
   "nutrients": {
     "servingSize": "0.25 cup",
     "calories": "163 kcal",
