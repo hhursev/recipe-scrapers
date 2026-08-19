@@ -462,6 +462,7 @@ from .pastificiosorrentino import PastificioSorrentino
 from .pauladeen import PaulaDeen
 from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
+from .petitchef import PetitChef
 from .pickuplimes import PickUpLimes
 from .picnic import Picnic
 from .piesandplots import PiesAndPlots
@@ -1205,6 +1206,7 @@ SCRAPERS = {
     PaulaDeen.host(): PaulaDeen,
     PeelWithZeal.host(): PeelWithZeal,
     PersnicketyPlates.host(): PersnicketyPlates,
+    PetitChef.host(): PetitChef,
     PickUpLimes.host(): PickUpLimes,
     Picnic.host(): Picnic,
     PiesAndPlots.host(): PiesAndPlots,
