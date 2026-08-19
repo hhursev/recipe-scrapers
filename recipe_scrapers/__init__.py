@@ -268,6 +268,7 @@ from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
 from .gousto import Gousto
 from .goodstuffrecipes import GoodStuffRecipes
+from .gourmandize import Gourmandize
 from .gourmettraveller import GourmetTraveller
 from .grandbabycakes import GrandbabyCakes
 from .grandfrais import GrandFrais
@@ -991,8 +992,9 @@ SCRAPERS = {
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GoodHousekeeping.host(): GoodHousekeeping,
     GoodStuffRecipes.host(): GoodStuffRecipes,
-    Gousto.host(): Gousto,
+    Gourmandize.host(): Gourmandize,
     GourmetTraveller.host(): GourmetTraveller,
+    Gousto.host(): Gousto,
     GrandbabyCakes.host(): GrandbabyCakes,
     GrandFrais.host(): GrandFrais,
     GreatBritishChefs.host(): GreatBritishChefs,
