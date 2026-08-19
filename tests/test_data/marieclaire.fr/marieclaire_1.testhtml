@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="fr">
+<head>
+
+<!--@@@consentManagement@@@-->
+<script>
+    (function(){function i(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}else{setTimeout(function(){i(e)},5)}}}function e(n,o,r,f,s){function e(e,t,n,i){if(typeof n!=="function"){return}if(!window[o]){window[o]=[]}var a=false;if(s){a=s(e,i,n)}if(!a){window[o].push({command:e,version:t,callback:n,parameter:i})}}e.stub=true;e.stubVersion=2;function t(i){if(!window[n]||window[n].stub!==true){return}if(!i.data){return}var a=typeof i.data==="string";var e;try{e=a?JSON.parse(i.data):i.data}catch(t){return}if(e[r]){var o=e[r];window[n](o.command,o.version,function(e,t){var n={};n[f]={returnValue:e,success:t,callId:o.callId};if(i.source){i.source.postMessage(a?JSON.stringify(n):n,"*")}},o.parameter)}}if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");i("__tcfapiLocator")})();</script><script type="text/javascript">(function(){(function(e,i){var o=document.createElement("link");o.rel="preconnect";o.as="script";var n=document.createElement("link");n.rel="dns-prefetch";n.as="script";var r=document.createElement("script");r.id="spcloader";r.type="text/javascript";r["async"]=true;r.charset="utf-8";window.didomiConfig=window.didomiConfig||{};window.didomiConfig.sdkPath=window.didomiConfig.sdkPath||i||"https://sdk.privacy-center.org/";const t=window.didomiConfig.sdkPath;var d=t+e+"/loader.js?target="+document.location.hostname;if(window.didomiConfig&&window.didomiConfig.user){var a=window.didomiConfig.user;var c=a.country;var s=a.region;if(c){d=d+"&country="+c;if(s){d=d+"&region="+s}}}o.href=t;n.href=t;r.src=d;var f=document.getElementsByTagName("script")[0];f.parentNode.insertBefore(o,f);f.parentNode.insertBefore(n,f);f.parentNode.insertBefore(r,f)})("a5e06fe3-f415-475b-9377-da8964411bc3")})();
+    function runOnUserConsent(n,{once:t=!0,timeout:e=1e4,pollInterval:i=100}={}){if("function"!=typeof n)throw new TypeError("runOnUserConsent: callback doit être une fonction");let o=!1;!function r(c){"function"!=typeof window.__tcfapi?c>=e?console.warn("runOnUserConsent: __tcfapi indisponible après "+e+"ms"):setTimeout(function(){r(c+i)},i):window.__tcfapi("addEventListener",2,function(e,i){if(!i||!e)return;const r=!0===e.gdprApplies,c="useractioncomplete"===e.eventStatus||"tcloaded"===e.eventStatus&&!!e.tcString;if(!r||c){if(t&&o)return;o=!0,t&&void 0!==e.listenerId&&window.__tcfapi("removeEventListener",2,function(){},e.listenerId),n(e)}})}(0)}
+    document.addEventListener("DOMContentLoaded",function(){document.querySelector(".js-openConsentManagementModal")?.addEventListener("click",function(n){n.preventDefault(),window.Didomi&&Didomi.preferences&&Didomi.preferences.show()})});
+    window.didomiOnReady=window.didomiOnReady||[],window.didomiOnReady.push(function(){"undefined"!=typeof CookieWallManager&&CookieWallManager.init()});
+</script>
+<!--@@@consentManagement@@@-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Recette de salade libanaise de concombre au yaourt - Marie Claire</title>
+<script>
+var pageEnvironment = {"route":"article","context":{"currentSectionId":2615670,"currentSectionLevel":4,"cookielessBrowsingEnabled":false,"isConnected":false,"isSubscriber":false,"hasActiveSubscription":false,"entryId":2615634,"thematicId":2615659,"sectionId":2615670,"articleId":1517853,"articleTypeId":9,"articleType":"Fiche recette","articleAuthor":"Cuisine et Vins de France","pageTypeId":1,"accessRestriction":"none","articleTags":["level-4-collection-cuisine-salades-legeres","level-4-collection-cuisine-concombre-nos-idees-recettes","level-4-collection-cuisine-sauce-au-yaourt","level-1-cuisine-cuisine-et-vins-de-france","level-2-cuisine-aperitifs-entrees","level-4-cuisine-salades"],"levels":[{"id":20001,"title":"Marie Claire","reference":"accueil","levelType":0},{"id":2615634,"title":"Cuisine et Vins de France","reference":"cuisine\/cuisine-et-vins-de-france","levelType":1},{"id":2615659,"title":"Entr\u00e9es","reference":"cuisine\/aperitifs-entrees","levelType":2},{"id":2615670,"title":"Salades","reference":"cuisine\/salades","levelType":4},{"id":1517853,"title":"Voici la salade libanaise que vous allez pr\u00e9parer tout l'\u00e9t\u00e9 tellement elle est fra\u00eeche","reference":"cuisine\/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche","levelType":5}]},"article":{"mainTrafficSourceId":1,"mainTrafficSource":"froid-seo-contenu-perenne","originId":3,"datePublication":"2026-08-14T17:51:00+02:00","dateModification":null,"dateCorrection":"2026-07-30T18:01:20+02:00","isDiscover":false,"title":"Voici la salade libanaise que vous allez pr\u00e9parer tout l'\u00e9t\u00e9 tellement elle est fra\u00eeche","authorId":2148472,"authorsList":["Cuisine et Vins de France"],"type":"RECETTE","sponsored":false}};
+!function(){var e=[],t=Object.defineProperty;t(e,"TYPES",{value:{CSS:"css",SCRIPT:"script"}});var r={},n=function(e,t){return t=Object.assign({href:e,rel:"stylesheet",type:"text/css",media:"screen"},t||{}),i("link",t)},o=function(e,t){return t=Object.assign({src:e},t||{}),i("script",t)},i=function(e,t){var r=document,n=r.createElement(e);if("object"==typeof t)for(var o in t)"kr-public-key"===o?n.setAttribute(o,t[o]):n[o]=t[o];var i=r.getElementsByTagName("script")[0];return i.parentNode.insertBefore(n,i),n};Promise="function"==typeof Promise?Promise:function(){this.then=function(e){return e(),new Promise},this["catch"]=function(e){return e(),new Promise}};var s=function(t,i,s,a){if(!r[t]||a){var c;if(s=(s+"").toLowerCase(),s==e.TYPES.CSS?c=n:s==e.TYPES.SCRIPT?c=o:(match=t.match(/^[^?#]+\.([^.?#]+)(?:[?#].+)?$/))&&("css"==match[1]?c=n:"js"==match[1]&&(c=o)),!c)throw"Unknow resource type: "+t;var u=c(t,i);r[t]=new Promise(function(e,t){u.addEventListener("load",function(){e()}),u.addEventListener("error",function(){t()})})}return r[t]},a=function(){for(var e,t=[],r=0;r<arguments.length;++r)r?t.push(arguments[r]):e=arguments[r];var n=typeof e;"string"!=n&&("object"!=n||e instanceof Array)||(e=[e]);var o=[];e instanceof Array&&e.forEach(function(e){"string"==typeof e&&(e={url:e}),"object"==typeof e&&"string"==typeof e.url&&o.push(s(e.url,e.attributes,e.type,e.forceReload))});var i=Promise.all(o);return t.length&&(i=i.then(function(){return a.apply(null,t)})),i};t(e,"loadResources",{value:a}),window.mc2m=e}()
+</script>
+<script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async="true" crossorigin="anonymous"></script>
+
+<script>
+	var pubId = '01FMQBZSPM2B1NQDVCKVWJ2RSR';
+	!function(h,u,b,v,i,s,o,r){function n(r){var c=console.error;function o(n){try{n(r)}catch(n){c(n)}}c(r);var n=u[h].cmd;u[h]=function(n,r,c){o(c)},u[h].cmd=n;for(var i=0;i<u[h].cmd.length;++i)o(u[h].cmd[i]);u[h].cmd={push:o}}u[h]=u[h]||function(){var n=arguments;u[h].cmd.push(function(){u[h].apply(null,n)})},u[h].cmd=u[h].cmd||[];var r=setTimeout(n.bind(null,new Error("Hubvisor loading timeout !")),s||3e3);function c(){r&&(clearTimeout(r),r=0)}var o=b.createElement(v);o.async=!0,o.src="https://cdn.hubvisor.io/wrapper/"+i+"/hubvisor.js",b.head.appendChild(o),o.addEventListener("error",function(){c(),n(new Error("Hubvisor loading failed !"))}),u[h].cmd.push(function(){c()});}('Hubvisor',window,document,'script',pubId)
+</script>
+<link rel="preconnect" href="https://cache.marieclaire.fr"/>
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/source_serif4_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/cardinalphoto_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/cardinalfruit_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/barlow_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/page.css?3oeixcl19awws8gk4sw8w4ock" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/page.css?3oeixcl19awws8gk4sw8w4ock" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/article.css?994h87irqccgsckgww0ogkwok" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/article.css?994h87irqccgsckgww0ogkwok" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/commentform.css?7kphrbff0q4og84o04c44swk4" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/commentform.css?7kphrbff0q4og84o04c44swk4" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/reviewsynthesis.css?ddo1n3223ogg0csoww4coowow" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/reviewsynthesis.css?ddo1n3223ogg0csoww4coowow" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="manifest" href="https://www.marieclaire.fr/manifest.json" crossorigin="use-credentials" />
+<meta property="fb:app_id" content="265524450229194" />
+<meta property="og:site_name" content="Marie Claire" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="og:title" content="Voici la salade libanaise que vous allez préparer tout l&#039;été tellement elle est fraîche" />
+<meta property="twitter:title" content="Voici la salade libanaise que vous allez préparer tout l&#039;été tellement elle est fraîche" />
+<meta property="og:url" content="https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp" />
+<meta property="og:image" content="https://cache.marieclaire.fr/data/photo/w1200_h630_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="twitter:image" content="https://cache.marieclaire.fr/data/photo/w1200_h630_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg" />
+<meta property="og:description" content="Fraîche, légère et prête en quelques minutes, cette salade libanaise associe le croquant du concombre à un yaourt parfumé à la menthe et à l&#039;ail. Un grand classique des mezzés, parfait pour accompagner des grillades, des brochettes ou simplement du pain pita." />
+<meta property="twitter:description" content="Fraîche, légère et prête en quelques minutes, cette salade libanaise associe le croquant du concombre à un yaourt parfumé à la menthe et à l&#039;ail. Un grand classique des mezzés, parfait pour accompagner des grillades, des brochettes ou simplement du pain pita." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-08-14T17:51:00+02:00" />
+<meta property="fb:pages" content="366773216734491" />
+<meta name="description" content="Fraîche, légère et prête en quelques minutes, cette salade libanaise associe le croquant du concombre à un yaourt parfumé à la menthe et à l'ail. Un grand classique des mezzés, parfait pour accompagner des grillades, des brochettes ou simplement du pain pita." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#000000" />
+<meta name="p:domain_verify" content="9fef998ab9132cca31be9a9757bd6351" />
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="fo-verify" content="fe474528-418d-4738-9194-07f2efd5838f">
+<link rel="canonical" href="https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp"/>
+<link rel="shortcut icon" href="https://www.marieclaire.fr/favicon.ico"/>
+<meta property="mrf:sections" content="Cuisine et Vins de France" />
+<meta property="mrf:tags" content="sub-section:Entrées" />
+<meta property="mrf:tags" content="sub-sub-section:Salades" />
+<meta property="mrf:tags" content="articleId:1517853;documentTypeLabel:RECETTE;documentTypeId:9;pageTypeId:1;trafficSourceId:1;isIntendedForDiscover:0" />
+<link rel="apple-touch-icon" href="https://cache.marieclaire.fr/image/pwa/icon-192x192.png">
+<script>
+if ('serviceWorker' in navigator) {
+	window.addEventListener('load', function() {
+		navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+			// Registration was successful
+			console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+			// registration failed :(
+			console.log('ServiceWorker registration failed: ', err);
+		});
+	});
+}
+// Setup a listener to track Add to Homescreen events.
+window.addEventListener('appinstalled', (evt) => {
+	triggerAnalyticsEvent(
+		"Clic",
+		"Installation via mini-info bar",
+		"pwa"
+	);
+});
+</script>
+<script>
+	runOnUserConsent(function() {
+		const script = document.createElement('script');script.src = 'https://launchpad-wrapper.privacymanager.io/086456cb-890f-47bb-bbcb-a10b22ec2623/launchpad-liveramp.js';script.defer = true;document.head.appendChild(script);
+	});
+</script>
+
+<!--@@@googleTagManager@@@-->
+<script>
+    var ps = document.getElementsByTagName('script')[0];tms = document.createElement('script');tms.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PSKS9L');";ps.parentNode.insertBefore(tms, ps);
+</script>
+
+<!--@@@googleTagManager@@@-->
+</head>
+
+<body itemscope itemtype="https://schema.org/WebPage" data-entry-id="2615634" data-thematic-id="2615659" data-section-id="2615670" class="is-cvf">
+
+
+<!--@@@layout@@@-->
+
+<!--@@@zone@@@-->
+
+<!--@@@dataManagementPlateform@@@-->
+
+<!--@@@dataManagementPlateform@@@-->
+
+
+<!--@@@advertising@@@-->
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--dhtml External-container is-empty" rel="dhtml"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_DHTML' sizes='[[800,600],[512,384],[320,480],[300,250],[1,1]]'  id='div-gpt-ad-dhtml'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--corner External-container is-empty" rel="corner"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Corner' sizes='[[1,1]]'  id='div-gpt-ad-corner'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--footer-1 External-container is-empty" rel="footer-1"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Footer' sizes='[[1,1]]'  id='div-gpt-ad-footer-1'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+
+<!--@@@zone@@@-->
+<header id="header" data-area-name="header">
+	
+<!--@@@zone@@@-->
+
+<!--@@@SiteHeader@@@-->
+<div class="SiteHeader">
+	<ul class="SiteHeader-links">
+		<li class="SiteHeader-linksItem SiteHeader-linksItem--social">
+			<div class="SiteHeader-link-socialContainer">
+<!--@@@socialNetwork@@@-->
+<div class="SocialLinks SocialLinks--header">
+<div class="SocialLinks-linkContainer"><a href="https://x.com/Cuisine_VinsdeF" data-type="twitter" class="SocialLinks-link SocialLinks-link--twitter" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.facebook.com/CuisineEtVinsDeFrance" data-type="facebook" class="SocialLinks-link SocialLinks-link--facebook" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://fr.pinterest.com/cuisineetvinsdefrance/" data-type="pinterest" class="SocialLinks-link SocialLinks-link--pinterest" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.instagram.com/cuisineetvinsdefrance/" data-type="instagram" class="SocialLinks-link SocialLinks-link--instagram" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.marieclaire.fr/cuisine/newsletter" data-type="newsletter" class="SocialLinks-link SocialLinks-link--newsletter"  title=""></a></div></div>
+
+<!--@@@socialNetwork@@@-->
+</div>
+		</li>
+	</ul>
+	<div class="SiteHeader-authentication" >
+		<div class="SiteHeader-authenticationLinkContainer">
+			<button class="SiteHeader-authenticationLink js-showSignUpModal">Inscription</button>
+		</div>
+		<div class="SiteHeader-authenticationLinkContainer">
+			<button class="SiteHeader-authenticationLink js-showLogInModal">Connexion</button>
+		</div>
+	</div>
+	<div class="SiteHeader-container">
+		<div class="SiteHeader-contentContainer">
+			<div class="SiteHeader-content">
+				<button class="SiteHeader-menuButton js-toggleRetractableMenu"></button>
+									<a href="https://www.marieclaire.fr/cuisine/" id="logo" class="SiteHeader-logo">Recettes faciles et accords mets vins cuisine de France</a>
+								<div class="SiteHeader-magazineSubscription">
+<!--@@@magazine@@@-->
+<div class="MagazineSubscription MagazineSubscription--header js-MagazineSubscription--header">
+	<div data-encodedhref="aHR0cHM6Ly93d3cuYWJvbm5lbWVudC1jdWlzaW5lLXZpbnMuZnIv" target="_blank" class="MagazineSubscription-link">Je m'abonne</div>
+		<div data-encodedhref="aHR0cHM6Ly93d3cuYWJvbm5lbWVudC1jdWlzaW5lLXZpbnMuZnIv" target="_blank" data-burger-url="https://www.abonnement-cuisine-vins.fr/" class="MagazineSubscription-popup MagazineSubscription-popup--subscriptionLink">
+		<div class="MagazineSubscription-popup--content">
+			<div class="MagazineSubscription-popup--imageContainer" data-burger-src="https://cache.marieclaire.fr/data/photo/w245_c17/magazine/cvf/cover.jpg?5ad7dda7c13e7983a911e842e024ecb2">
+				<img loading="lazy" class="MagazineSubscription-popup--image js-MagazineSubscription-popup--image" src="https://cache.marieclaire.fr/data/photo/w274_c17/magazine/cvf/cover.jpg?5ad7dda7c13e7983a911e842e024ecb2"/>
+							</div>
+			<div class="MagazineSubscription-popup--links">
+											<div class="MagazineSubscription-popup--link version-papier"><p>version</p><p>papier</p></div>
+													<div class="MagazineSubscription-popup--link version-numerique"><p>version</p><p>numérique</p></div>
+									</div>
+			<div class="MagazineSubscription-popup--button">Je m'abonne</div>
+			<div class="MagazineSubscription-popup--subtitle"></div>
+		</div>
+	</div>
+	</div>
+
+<!--@@@magazine@@@-->
+</div>
+				<button class="SiteHeader-searchButton js-showSearchOverlay"></button>
+			</div>
+		</div>
+	</div>
+<div class="SiteHeader-search js-siteOverlay">
+	<div class="SiteHeader-searchContent">
+		
+<!--@@@title@@@-->
+<div class="Title Title--overlay SiteHeader-searchTitle"><span class="Title-content">Recherche sur Marie Claire</span></div>
+<!--@@@title@@@-->
+		<button class="SiteHeader-searchCloseButton js-hideSearchOverlay"></button>
+		<div class="SiteHeader-searchFormContainer">
+			<form method="get" action="https://www.marieclaire.fr/recherche" class="SiteHeader-searchForm">
+				<input type="text" name="q" class="SiteHeader-searchField SiteHeader-searchQueryField js-searchQueryField" placeholder="Tapez ici votre recherche" />
+				<input type="submit" value="OK" class="SiteHeader-searchField SiteHeader-searchSubmitButton" />
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": "Marie Claire",
+	"url": "https://www.marieclaire.fr/cuisine/",
+	"logo" : {
+		"@type": "ImageObject",
+		"url": "https://cache.marieclaire.fr/image/picto/standard/logo_organization.png",
+		"width": 500,
+		"height": 500
+	},
+	"sameAs": ["https://x.com/Cuisine_VinsdeF", "https://www.facebook.com/CuisineEtVinsDeFrance", "https://fr.pinterest.com/cuisineetvinsdefrance/", "https://www.instagram.com/cuisineetvinsdefrance/"]
+}
+</script>
+<!--@@@SiteHeader@@@-->
+
+
+<!--@@@authentication@@@-->
+<div class="Modal js-authenticationModal">
+	<div class="AuthenticationModal Modal-container">
+		<div class="Modal-header">
+			<div class="Modal-title">Connectez-vous</div>
+			<button class="Modal-close js-closeModal"></button>
+		</div>
+		<div class="Modal-body">
+			<div class="AuthenticationModal-description js-authenticationModalDescription"></div>
+			<div class="AuthenticationModal-formsContainer" >
+				<form data-mrf-conversion="userLogIn" method="post" action="https://www.marieclaire.fr/direct/membre/identification" class="AuthenticationModal-logInContainer js-logInForm" novalidate="novalidate">
+					<input type="hidden" name="redirectURL" value="referer" />
+					<div class="AuthenticationModal-signInText">
+						<div class="AuthenticationModal-signInTitle">Vous avez d&eacute;j&agrave; un compte</div>
+
+					</div>
+					<div class="AuthenticationModal-logInError js-logInError"></div>
+					<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInIdentifier">
+						<input type="email" autocomplete="username" name="memberLogin" placeholder="Adresse e-mail" class="AuthenticationModal-field AuthenticationModal-logInIdentifier js-logInEmailAddress" />
+					</div><!--
+					--><div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInPassword">
+						<input type="password" autocomplete="current-password" name="memberPassword" placeholder="Mot de passe" class="AuthenticationModal-field AuthenticationModal-logInPassword" />
+						<div class="AuthenticationModal-lostPasswordContainer">
+							<button type="button" class="AuthenticationModal-lostPassword js-sendLostPassword">Mot de passe oubli&eacute;</button>
+						</div>
+					</div>
+					<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInKeepLoggedIn">
+						<input type="checkbox" name="setCookie" id="AuthenticationModal-setCookie"><!--
+						--><label for="AuthenticationModal-setCookie">Se souvenir de moi</label>
+					</div>
+					<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInSubmit">
+						<input type="submit" value="OK" />
+					</div>
+				</form>
+
+				<div class="AuthenticationModal-signUpContainer">
+
+					<div class="AuthenticationModal-signUpText">
+													<div class="AuthenticationModal-signUpTitle">Vous n'avez pas encore de compte</div>
+														<div class="AuthenticationModal-signUpLead">Je cr&eacute;&eacute; un compte pour recevoir mes newsletters et g&eacute;rer mes donn&eacute;es personnelles.</div>
+												</div>
+
+											<form method="get" action="https://www.marieclaire.fr/inscription" class="AuthenticationModal-signUpForm AuthenticationModal-signUpForm--defaultSignUp is-visible js-signUpForm" novalidate="novalidate">
+
+							<input type="hidden" name="redirectURL" value="referer" />
+
+							<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpEmailAddress">
+								<input type="email" placeholder="Adresse e-mail" name="emailAddress" class="AuthenticationModal-field AuthenticationModal-signUpEmailAddress js-signUpEmailAddress" />
+							</div>
+							<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpSubmit">
+								<input type="submit" value="CRÉER MON COMPTE" />
+							</div>
+
+						</form>
+						
+					<div data-action="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvZGlyZWN0L21lbWJyZS9pbnNjcmlwdGlvbnJhcGlkZQ==" class="AuthenticationModal-signUpForm AuthenticationModal-signUpForm--quickSignUp  js-signUpForm">
+						<input type="hidden" name="redirectURL" value="referer" class="js-AuthenticationRedirectURL" />
+						<input type="text" value="" name="applyRegistration" class="applyRegistration" />
+						<input type="text" value="" name="myname" class="applyRegistration" />
+
+						<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpEmailAddress">
+							<div>
+								<input type="email" placeholder="Adresse e-mail" name="emailAddress" class="AuthenticationModal-field AuthenticationModal-signUpEmailAddress js-signUpEmailAddress" />
+							</div>
+							<div>
+								<input type="text" placeholder="Pseudonyme" name="nickname" class="AuthenticationModal-field AuthenticationModal-signUpNickName js-signUpNickName" />
+							</div>
+														<div class="AuthenticationModal-optionContainer">
+								<label for="agreement6a857f203d51c">
+									<input type="checkbox" class="js-signUpAgreement" id="agreement6a857f203d51c" /> J'accepte la <a href="https://www.marieclaire.fr/,mentions-legales,20214,1711.asp" target="_blank">charte</a>
+								</label>
+							</div>
+							<div class="AuthenticationModal-optionContainer">
+								<label for="optin6a857f203d51d">
+									<input type="checkbox" value="1" name="optin" id="optin6a857f203d51d" /> Je souhaite recevoir des offres du site et ses partenaires
+								</label>
+							</div>
+
+						</div><!--
+						--><div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpSubmit">
+							<input type="submit" value="OK" class="AuthenticationModal-signUpSubmit" />
+						</div>
+				</div>
+
+
+
+				</div>
+			</div>
+
+			
+		</div>
+
+		
+
+	</div>
+</div>
+<script>
+mc2m.push(function(){
+	loadAuthentication([
+		"\/data\/display\/authentication.js?7yv0uec2yoow84kkcgooo0kg4",
+		"\/data\/display\/modal.css?ngk718hq8ys4ssswcg8kw0wg"	]);
+});
+</script>
+
+<!--@@@authentication@@@-->
+
+<nav class="Menu">
+	<div class="Menu-wrapper is-static clearfix">
+		<ul class="Menu-list">
+<li class="Menu-item is-hidden" data-weight="0" data-reorder-priority="1"><a href="https://www.marieclaire.fr/" class="Menu-link">Retour Marieclaire.fr</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615668" data-weight="160"><a href="https://www.marieclaire.fr/cuisine/recettes/" class="Menu-link">Rechercher une recette</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615669 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/aperitifs,2615669.htm" class="Menu-link">Ap&eacute;ritifs</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615659 is-active Menu-item--parentItem" data-weight="150"><a href="https://www.marieclaire.fr/cuisine/aperitifs-entrees,2615659.asp1" class="Menu-link">Entr&eacute;es</a>				<ul class="Menu-sectionList">
+					<li class="Menu-sectionItem Menu-sectionItem--2615670">
+						<a href="https://www.marieclaire.fr/cuisine/salades,2615670.htm" class="Menu-sectionLink">Salades</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615671">
+						<a href="https://www.marieclaire.fr/cuisine/crudites,2615671.htm" class="Menu-sectionLink">Crudit&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615672">
+						<a href="https://www.marieclaire.fr/cuisine/feuilletes,2615672.htm" class="Menu-sectionLink">Feuillet&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615673">
+						<a href="https://www.marieclaire.fr/cuisine/quiches-tartes,2615673.htm" class="Menu-sectionLink">Quiches &amp; tartes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615674">
+						<a href="https://www.marieclaire.fr/cuisine/beignets-sales,2615674.htm" class="Menu-sectionLink">Beignets sal&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615675">
+						<a href="https://www.marieclaire.fr/cuisine/cakes-sales,2615675.htm" class="Menu-sectionLink">Cakes sal&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615676">
+						<a href="https://www.marieclaire.fr/cuisine/viandes-poissons-crus,2615676.htm" class="Menu-sectionLink">Viandes &amp; poissons crus</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615677">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-a-la-viande,2615677.htm" class="Menu-sectionLink">Entr&eacute;es aux escargots</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615678">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-poissons,2615678.htm" class="Menu-sectionLink">Entr&eacute;es aux poissons</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615679">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-au-foie-gras,2615679.htm" class="Menu-sectionLink">Entr&eacute;es au foie gras</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615680">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-fruits-de-mer,2615680.htm" class="Menu-sectionLink">Entr&eacute;es aux fruits de mer</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615681">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-chaudes,2615681.htm" class="Menu-sectionLink">Entr&eacute;es chaudes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615682">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-legumes,2615682.htm" class="Menu-sectionLink">Entr&eacute;es aux l&eacute;gumes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615683">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-au-fromage,2615683.htm" class="Menu-sectionLink">Entr&eacute;es au fromage</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615684">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-oeufs,2615684.htm" class="Menu-sectionLink">Entr&eacute;es aux &oelig;ufs</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615685">
+						<a href="https://www.marieclaire.fr/cuisine/soupes-bouillons,2615685.htm" class="Menu-sectionLink">Soupes &amp; bouillons</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615686">
+						<a href="https://www.marieclaire.fr/cuisine/veloutes-cremes,2615686.htm" class="Menu-sectionLink">Velout&eacute;s &amp; cr&egrave;mes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615687">
+						<a href="https://www.marieclaire.fr/cuisine/charcuteries,2615687.htm" class="Menu-sectionLink">Charcuteries</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615688">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-en-gelee,2615688.htm" class="Menu-sectionLink">Entr&eacute;es en gel&eacute;e</a>
+					</li>
+				</ul>
+</li><li class="Menu-item Menu-item--section Menu-item--section-2615660" data-weight="140"><a href="https://www.marieclaire.fr/cuisine/plats,2615660.asp1" class="Menu-link">Plats</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615661" data-weight="130"><a href="https://www.marieclaire.fr/cuisine/desserts,2615661.asp1" class="Menu-link">Desserts</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615799 is-hidden" data-weight="125"><a href="https://www.marieclaire.fr/cuisine/cuisine-de-saison,2615799.asp1" class="Menu-link">Cuisine de saison</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615802 is-hidden" data-weight="124"><a href="https://www.marieclaire.fr/cuisine/cuisine-regionale,2615802.asp1" class="Menu-link">Cuisine r&eacute;gionale</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615801 is-hidden" data-weight="123"><a href="https://www.marieclaire.fr/cuisine/cuisine-du-monde,2615801.asp1" class="Menu-link">Cuisine du monde</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615667" data-weight="120"><a href="https://www.marieclaire.fr/cuisine/vins-boissons,2615667.asp1" class="Menu-link">Vins</a></li><li class="Menu-item Menu-item--section Menu-item--section-2616263" data-weight="119"><a href="https://www.marieclaire.fr/cuisine/boissons,2616263.asp1" class="Menu-link">Boissons</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615662 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/accompagnements-sauces,2615662.asp1" class="Menu-link">Accompagnements &amp; sauces</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615666 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/tendances-cuisine,2615666.asp1" class="Menu-link">Tendances cuisine</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615664 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/recettes-par-occasions,2615664.asp1" class="Menu-link">Recettes par occasions</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615879 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/recettes-de-chefs,2615879.htm" class="Menu-link">Recettes de chefs</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615663 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/ingredients,2615663.asp1" class="Menu-link">Ingr&eacute;dients</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615665 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/recettes-de-noel,2615665.asp1" class="Menu-link">Recettes de No&euml;l</a></li><li class="Menu-item Menu-item--section Menu-item--section-2616125 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/guide-d-achat-cuisine,2616125.asp1" class="Menu-link">Guide d'achat cuisine</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615836 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/questions-cuisine,2615836.asp1" class="Menu-link">Questions cuisine</a></li><li class="Menu-item js-NewsletterMenuItem is-hidden" data-weight="0"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9uZXdzbGV0dGVy" class="Menu-link">Newsletter</div></li><li class="Menu-item Menu-item--section Menu-item--section-2615881 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/boutique,2615817.htm" class="Menu-link">Boutique</a></li><li class="Menu-item Menu-item--highlighted isFixed" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9uZXdzbGV0dGVy" class="Menu-link">Newsletter</div></li><li class="Menu-item Menu-item--highlighted isFixed" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9ndWlkZS1kLWFjaGF0LWN1aXNpbmUsMjYxNjEyNS5hc3Ax" class="Menu-link">Guide d'achat</div></li><li class="Menu-item Menu-item--highlighted" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY29kZXMtcHJvbW8vYWxpbWVudGF0aW9u" class="Menu-link">Codes promo alimentation</div></li><li class="Menu-item Menu-item--highlighted" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9jdWlzaW5lci1hdS1haXItZnJ5ZXIsMjYxNjM0MS5odG0=" class="Menu-link">Cuisiner au Air Fryer</div></li>		</ul>
+	</div>
+</nav>
+	<div class="TrendingNav"><div class="TrendingNav-wrapper"><span class="TrendingNav-title">En ce moment</span><span class="TrendingNav-links"></span></div>
+<script>
+mc2m.push(function() { jQuery(document).trigger("menuAvailable"); });
+</script>
+
+
+<!--@@@zone@@@-->
+</header>
+<div id="body" data-area-name="page">
+	<div class="BodyContent">
+		
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--top-2 External-container is-empty isSticky" rel="top-2"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Top-2' sizes='[[1000,250],[970,250],[750,150],[728,90],[320,50],[320,100],[1,1],["fluid"],[1620,1500],[1800,1000]]'  id='div-gpt-ad-top-2'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+
+<!--@@@zone@@@-->
+
+<!--@@@filariane@@@-->
+<nav class="Breadcrumb clearfix">
+	<ul class="Breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="Breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Marie Claire</span></a><meta itemprop="position" content="1" /></li>
+		<li class="Breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/cuisine/" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Cuisine et Vins de France</span></a><meta itemprop="position" content="2" /></li>
+		<li class="Breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/cuisine/aperitifs-entrees,2615659.asp1" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Entr&eacute;es</span></a><meta itemprop="position" content="3" /></li>
+		<li class="Breadcrumb-item is-active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/cuisine/salades,2615670.htm" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Salades</span></a><meta itemprop="position" content="4" /></li>
+	</ul>
+</nav>
+
+<!--@@@filariane@@@-->
+
+
+<!--@@@articleContainer@@@-->
+<article data-area-name="content">
+	<div data-area-name="header">
+
+<!--@@@zone@@@-->
+
+
+<!--@@@articleHeader@@@-->
+<div class="ArticleHeader">
+
+<!--@@@title@@@-->
+<h1 class="Title Title--article ArticleHeader-title"><span class="Title-content">Voici la salade libanaise que vous allez pr&eacute;parer tout l'&eacute;t&eacute; tellement elle est fra&icirc;che</span></h1>
+<!--@@@title@@@-->
+	<div class="ArticleHeader-metaContainer">
+		<div class="ArticleHeader-metaElement ArticleHeader-authorContainer">
+			Par <span class="ArticleHeader-author"><span class="ArticleHeader-authorLink">Cuisine et Vins de France</span></span>
+		</div>
+		<div class="ArticleHeader-metaElement ArticleHeader-date ArticleHeader-date--publication">
+			Publi&eacute; le <time datetime="2026-08-14T17:51:00+02:00">14/08/2026 &agrave; 17:51</time>
+		</div>
+	</div>
+	<div class="ArticleHeader-imageContainer">
+		<figure><div class="ArticleHeader-imageAndCopyright ">
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w1000_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.webp 1000w, https://cache.marieclaire.fr/data/photo/w768_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.webp 768w, https://cache.marieclaire.fr/data/photo/w680_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.webp 680w, https://cache.marieclaire.fr/data/photo/w1415_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.webp 1415w" type="image/webp" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw"/><img width="1000" height="1498"  src="https://cache.marieclaire.fr/data/photo/w1000_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg" srcset="https://cache.marieclaire.fr/data/photo/w1000_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg 1000w, https://cache.marieclaire.fr/data/photo/w768_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg 768w, https://cache.marieclaire.fr/data/photo/w680_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg 680w, https://cache.marieclaire.fr/data/photo/w1415_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg 1415w" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw" alt="Voici la salade libanaise que vous allez pr&eacute;parer tout l'&eacute;t&eacute; tellement elle est fra&icirc;che" class="ArticleHeader-image Ratio-1-498" fetchpriority="high" /></picture>
+<!--@@@imageTag@@@-->
+			<!--<button class="ArticleHeader-bookmark js-bookmarkArticle" title="Ajouter aux favoris">Ajouter aux favoris</button>-->
+			<button class="ArticleHeader-copyrightContainer"><span class="ArticleHeader-copyright">Getty / Zoryana Ivchenko</span></button>
+
+<!--@@@socialNetwork@@@-->
+<div class="SocialNetwork SocialNetwork--light" data-title="Voici la salade libanaise que vous allez pr&eacute;parer tout l'&eacute;t&eacute; tellement elle est fra&icirc;che">
+	<button class="SocialNetwork-service SocialNetwork-service--pinterest js-SocialNetworkLink" data-type="pinterest" data-image-url="https://cache.marieclaire.fr/data/photo/w1415_ci/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.webp"></button>
+</div>
+<!--@@@socialNetwork@@@-->
+</div>
+		</figure>
+
+	</div>
+
+<!--@@@articleheaderactions@@@-->
+<div class="ArticleHeader-Actions">
+		<div class="ArticleHeader-ActionsCopyLink">
+		<button class="CopySave ArticleHeader-ActionsSaveButton">Enregistrer</button>
+				<button class="CopySave ArticleHeader-ActionsShareButton">Partager</button>
+		<div class="Networks">
+			<div class="NetworkTitle">Partager l'article</div>
+			<div class="NetworkLink ArticleHeader-ActionsCopyLinkButton">Copier le lien</div>
+			<div class="NetworkLink Facebook" data-type="Facebook">Facebook</div>
+			<div class="NetworkLink X" data-type="X">X</div>
+			<div class="NetworkLink Pinterest" data-type="Pinterest">Pinterest</div>
+		</div>
+		<a href="https://google.com/preferences/source?q=https://www.marieclaire.fr" rel="nofollow" target="_blank" class="CopySave ArticleHeader-ActionsFavoriteButton">Suivre</a>
+	</div>
+</div>
+<!--@@@articleheaderactions@@@-->
+	<div class="ArticleHeader-lead">Fra&icirc;che, l&eacute;g&egrave;re et pr&ecirc;te en quelques minutes, cette salade libanaise associe le croquant du concombre &agrave; un yaourt parfum&eacute; &agrave; la menthe et &agrave; l'ail. Un grand classique des mezz&eacute;s, parfait pour accompagner des grillades, des brochettes ou simplement du pain pita.</div>
+</div>
+
+
+<!--@@@articleHeader@@@-->
+
+
+<!--@@@zone@@@-->
+	</div>
+	<div class="ArticleContent">
+		<div class="ArticleContent-aside ArticleContent-advertising ArticleContent-advertising--primary thinColumn">
+
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--right-1 External-container is-empty" rel="right-1"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Right-1' sizes='[[300,250],[300,600],[371,660],[1,1]]'  id='div-gpt-ad-right-1'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+		<div class="ArticleContent-aside ArticleContent-advertising ArticleContent-advertising--secondary thinColumn">
+
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--square-2 External-container is-empty" rel="square-2"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Square-2' sizes='[[300,250],[300,600],[1,1]]'  id='div-gpt-ad-square-2'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+		<div class="ArticleContent-main mediumColumn" data-area-name="body">
+
+<!--@@@zone@@@-->
+
+
+<!--@@@articleContentContainer@@@-->
+<div class="Article">
+
+<!--@@@reviewsynthesis@@@-->
+<div class="ReviewSynthesis">
+	<div class="ReviewSynthesis-counts js-anchorLink" data-target=".ReviewSynthesis-scores">
+		<div class="ReviewSynthesis-commentCount">
+			0 avis		</div>
+		<div class="ReviewSynthesis-averageScore">
+			Aucune note		</div>
+	</div>
+	</div>
+<!--@@@reviewsynthesis@@@-->
+	<div class="Article-commentButtonContainer">
+		<button class="Button js-CommentButton" data-target="https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp#depotAvis">Je donne mon avis</button>
+	</div>
+
+
+<div class="Article-text Article-recipeText">
+	<div class="Article-recipeTitle fakeH">Infos pratiques</div>
+	<ul class="Article-recipeItems">
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Nombre de personnes</label><span class="Article-recipeItemValue">4</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Temps de pr&eacute;paration</label><span class="Article-recipeItemValue">15 minutes</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Degr&eacute; de difficult&eacute;</label><span class="Article-recipeItemValue">Tr&egrave;s facile</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Co&ucirc;t</label><span class="Article-recipeItemValue">Bon march&eacute;</span></li>
+	</ul>
+	</div>
+	<div class="Article-text Article-recipeText">
+		<h2 class="Article-recipeTitle ">Les ingr&eacute;dients de la recette</h2>
+<ul>
+<li>2 concombres</li>
+<li data-section-id="t1mxot" data-start="689" data-end="711">400 g de yaourt grec</li>
+<li data-section-id="5naana" data-start="712" data-end="728">1 gousse d'ail</li>
+<li data-section-id="1sgfj6k" data-start="729" data-end="769">2 c. &agrave; soupe de menthe fra&icirc;che cisel&eacute;e</li>
+<li data-section-id="17ni5w9" data-start="770" data-end="814">1 c. &agrave; soupe de menthe s&eacute;ch&eacute;e (facultatif)</li>
+<li data-section-id="uegyxb" data-start="815" data-end="845">2 c. &agrave; soupe d'huile d'olive</li>
+<li data-section-id="1tb4pcf" data-start="846" data-end="867">Le jus d'1/2 citron</li>
+<li data-section-id="1o4ryq" data-start="868" data-end="873">Sel</li>
+<li data-section-id="32pqpr" data-start="874" data-end="882">Poivre</li>
+</ul>
+<p>&nbsp;</p>
+<!--@@@feature@@@-->
+
+<!--@@@videoGroup@@@-->
+<div class="VideoGroup VideoGroup--intext">
+	<div class="VideoGroup-intextTitle"><span>Vid&eacute;o - Plats familiaux</span></div>
+
+<!--@@@MediaPlayer@@@-->
+<div id="m6a84c51e7bf3b467918321" class="MediaPlayer" data-event-monitoring-category="Bloc" data-event-monitoring-action="Dailymotion"><script type="text/javascript">
+	mc2m.push(function() {
+		runOnUserConsent(function() {
+			jQuery("#m6a84c51e7bf3b467918321").mediaPlayer({"type":"Dailymotion","id":"x5jru90","title":"\u00c0 quelle temp\u00e9rature servir le vin\u00a0?","autoPlayOnScroll":true,"mute":false,"muteAutoPlay":false,"advertisingParameters":{"use":"site-highlight"},"parameters":{"specific":{"Dailymotion":{"params":{"syndicationKey":198571,"enableInfo":false},"playerConfigurationId":"x9m4s","stickyPlayerConfigurationId":"xgp8u"},"Digiteka":{"desktop":{"mdtk":"01467012","zone":null},"mobile":{"mdtk":"01761862","zone":null}},"VideoJS":{"advertisingVastUrl":"https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?iu=\/21720049534\/cuisine_et_vins_de_france_video_atf&description_url=https%3A%2F%2Fwww.marieclaire.fr%2Fcuisine%2F&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&unviewed_position_start=1"}}},"width":"100%","height":"100%","volume":0.01});
+		});
+	});
+</script>
+</div>
+
+<!--@@@MediaPlayer@@@-->
+</div>
+
+<!--@@@videoGroup@@@-->
+
+<!--@@@feature@@@-->
+	</div>
+	<div class="Article-text Article-recipeText">
+		<h2 class="Article-recipeTitle ">La pr&eacute;paration de la recette</h2>
+<ol>
+<li>Lavez les concombres. &Eacute;pluchez-les partiellement si vous le souhaitez, puis coupez-les en petits d&eacute;s.</li>
+<li data-section-id="1q1kzxp" data-start="1000" data-end="1140">Salez l&eacute;g&egrave;rement les d&eacute;s de concombre et laissez-les d&eacute;gorger 10 minutes dans une passoire. &Eacute;pongez-les ensuite avec du papier absorbant.</li>
+<li data-section-id="xi761v" data-start="1141" data-end="1290">Dans un saladier, m&eacute;langez le yaourt grec avec l'ail finement r&acirc;p&eacute;, le jus de citron, la menthe fra&icirc;che et, si vous en utilisez, la menthe s&eacute;ch&eacute;e.</li>
+<li data-section-id="ilm4tm" data-start="1291" data-end="1328">Salez et poivrez selon votre go&ucirc;t.</li>
+<li data-section-id="1n4ho70" data-start="1329" data-end="1385">Incorporez les d&eacute;s de concombre au m&eacute;lange de yaourt.</li>
+<li data-section-id="twf7rl" data-start="1386" data-end="1444">M&eacute;langez d&eacute;licatement afin de bien enrober les l&eacute;gumes.</li>
+<li data-section-id="quwibl" data-start="1445" data-end="1518">R&eacute;servez au r&eacute;frig&eacute;rateur pendant au moins 30 minutes avant de servir.</li>
+<li data-section-id="79u7e2" data-start="1519" data-end="1632">Arrosez d'un filet d'huile d'olive et ajoutez quelques feuilles de menthe fra&icirc;che au moment de la d&eacute;gustation.</li>
+</ol>
+<p>&nbsp;</p>
+<!--@@@advertising@@@-->
+<div class="External External--intext-1 External-container is-empty intext" rel="intext-1"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Intext-1' sizes='[[300,250],[400,300],[1,1],["fluid"]]'  id='div-gpt-ad-intext-1'></div>
+</div>
+
+<!--@@@advertising@@@-->
+	</div>
+	<div class="Article-text Article-recipeText">
+		<div class="Article-recipeTitle fakeH">Conseils</div>
+<p>Pour une version encore plus authentique, ajoutez une pinc&eacute;e de sumac juste avant de servir. Cette <a href="https://www.marieclaire.fr/meilleures-epices-sante-bienfaits,1439903.asp" title="Quatre &eacute;pices &agrave; consommer r&eacute;guli&egrave;rement pour booster votre sant&eacute;" class="internal">&eacute;pice</a> l&eacute;g&egrave;rement acidul&eacute;e apporte une note fra&icirc;che qui se marie parfaitement avec le yaourt et le concombre.</p>
+<p>
+<!--@@@galleryEmbed@@@-->
+<div class="GalleryEmbed" id="embedgallery6a853d908a9f3795570328"data-display="light" data-event-monitoring-category="Bloc" data-event-monitoring-action="Diaporama Embed">
+</div>
+<script>
+mc2m.push(function(){
+	runOnIncomingElements(
+		"#embedgallery6a853d908a9f3795570328",
+		function()
+		{
+			mc2m.loadResources([
+				"\/data\/display\/galleryembed.css?4oac7l70vz0ggs0k8wss8kckk",
+				"\/data\/display\/galleryembed.js?6a0l0pz2h8g0g4skwsooosgcw"			]).then(function()
+			{
+				loadEmbedGallery(1474748, "#embedgallery6a853d908a9f3795570328");
+			});
+		}
+	);
+});
+</script>
+
+<!--@@@galleryEmbed@@@-->
+</p>	</div>
+
+<!--@@@advertising@@@-->
+<div class="External External--intext-2 External-container is-empty intext" rel="intext-2"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Intext-2' sizes='[[300,250],[400,300],[1,1],["fluid"]]'  id='div-gpt-ad-intext-2'></div>
+</div>
+
+<!--@@@advertising@@@-->
+	<a class="Article-print" href="https://www.marieclaire.fr/print/article/1517853" target="_blank" rel="nofollow" data-event-monitoring-action="Impression recette">
+		<span class="Article-printLabel">
+			Imprimer la recette
+		</span>
+	</a>
+</div>
+
+<script type="application/ld+json">
+	{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Voici la salade libanaise que vous allez préparer tout l'été tellement elle est fraîche",
+    "identifier": 1517853,
+    "headline": "Voici la salade libanaise que vous allez préparer tout l'été tellement elle est fraîche",
+    "description": "Fraîche, légère et prête en quelques minutes, cette salade libanaise associe le croquant du concombre à un yaourt parfumé à la menthe et à l'ail. Un grand classique des mezzés, parfait pour accompagner des grillades, des brochettes ou simplement du pain pita.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp"
+    },
+    "articleSection": "Salades",
+    "datePublished": "2026-08-14T17:51:00+02:00",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://cache.marieclaire.fr/data/photo/w1200_h630_c17/7f/recette-de-salade-libanaise-de-concombre-au-yaourt.jpg",
+        "width": 1200,
+        "height": 630
+    },
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cuisine et Vins de France"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Marie Claire",
+        "url": "https://www.marieclaire.fr",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://cache.marieclaire.fr/image/picto/standard/logo_organization.png",
+            "width": 500,
+            "height": 500
+        }
+    },
+    "isAccessibleForFree": true,
+    "recipeCategory": "Entrée",
+    "prepTime": "PT15M",
+    "totalTime": "PT15M",
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Lavez les concombres. Épluchez-les partiellement si vous le souhaitez, puis coupez-les en petits dés."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Salez légèrement les dés de concombre et laissez-les dégorger 10 minutes dans une passoire. Épongez-les ensuite avec du papier absorbant."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dans un saladier, mélangez le yaourt grec avec l'ail finement râpé, le jus de citron, la menthe fraîche et, si vous en utilisez, la menthe séchée."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Salez et poivrez selon votre goût."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Incorporez les dés de concombre au mélange de yaourt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mélangez délicatement afin de bien enrober les légumes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Réservez au réfrigérateur pendant au moins 30 minutes avant de servir."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrosez d'un filet d'huile d'olive et ajoutez quelques feuilles de menthe fraîche au moment de la dégustation."
+        }
+    ],
+    "recipeYield": "4",
+    "recipeIngredient": "\r\n2 concombres\r\n400 g de yaourt grec\r\n1 gousse d'ail\r\n2 c. à soupe de menthe fraîche ciselée\r\n1 c. à soupe de menthe séchée (facultatif)\r\n2 c. à soupe d'huile d'olive\r\nLe jus d'1/2 citron\r\nSel\r\nPoivre\r\n\r\n "
+}
+</script>
+<!--@@@articleContentContainer@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+		<div class="ArticleContent-main ArticleContent-share mediumColumn" data-area-name="footer">
+
+<!--@@@zone@@@-->
+
+
+<!--@@@commentForm@@@-->
+		<button class="CommentButton Button js-showLogInModal" data-target="https://www.marieclaire.fr/cuisine/beignets-de-courgettes,1496971.asp#depotAvis">Je donne mon avis</button>
+		
+<!--@@@commentForm@@@-->
+
+
+<!--@@@socialNetwork@@@-->
+<div class="SocialNetwork SocialNetwork--condensed" data-title="Voici la salade libanaise que vous allez pr&eacute;parer tout l'&eacute;t&eacute; tellement elle est fra&icirc;che" data-area-name="social">
+
+		<div class="SocialNetwork-serviceContainer">
+	<button class="SocialNetwork-service SocialNetwork-service--facebook js-SocialNetworkLink" data-type="facebook"></button>
+	<button class="SocialNetwork-service SocialNetwork-service--twitter js-SocialNetworkLink" data-type="twitter" data-account=Cuisine_VinsdeF></button>
+	<button class="SocialNetwork-service SocialNetwork-service--pinterest js-SocialNetworkLink" data-type="pinterest"></button>
+	<button class="SocialNetwork-service SocialNetwork-service--newsletter js-SocialNetworkLink" data-type="newsletter" data-url="https://www.marieclaire.fr/cuisine/newsletter"></button>
+		</div>
+</div>
+
+<!--@@@socialNetwork@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+	</div>
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--in-image External-container is-empty" rel="in-image"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_In-Image' sizes='[[1,1]]'  id='div-gpt-ad-in-image'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+</article>
+<!--@@@articleContainer@@@-->
+
+
+<!--@@@newsletter@@@-->
+<div class="NewsletterBox NewsletterBox--section">
+		<div class="NewsletterBox-text">
+		<p class="NewsletterBox-title">Newsletter</p>
+		<p class="NewsletterBox-subTitle">Tous les jours, des idées de recettes pour les repas du quotidien comme les grandes occasions !</p>
+	</div>
+	<div class="NewsletterBox-formContainer">
+		<form action="https://www.marieclaire.fr/cuisine/newsletter" class="NewsletterBox-form js-NewsletterSectionSubscriptionForm" id="Newsletter-form" novalidate="novalidate">
+						<input type="email" value="" name="emailAddress" placeholder="Votre adresse e-mail" class="NewsletterBox-emailAddressField js-emailAddress" />
+			<input type="submit" value="Valider" class="NewsletterBox-submitButton NewsletterSectionButtonGGN" />
+			<input type="submit" value="S'abonner" class="NewsletterBox-submitButton isConnected NewsletterSectionButtonGGN" />
+					</form>
+	</div>
+	</div>
+<!--@@@newsletter@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--contextual-1 External-container is-empty" rel="contextual-1"><script>
+	runOnUserConsent(function() {
+		if (pageEnvironment.context.isSubscriber === false) {
+			/*var firstIdCookie = jQuery.cookie("firstid");
+			if(firstIdCookie) {
+				var outbrainBlock = document.querySelector('.OUTBRAIN');
+				outbrainBlock.setAttribute('data-ob-ppid','{"name":"firstId","value":"'+firstIdCookie+'"}');
+			}*/
+			var pageScripts = document.getElementsByTagName('script')[0];
+			obScript = document.createElement('script');
+			obScript.type = 'text/javascript';
+			obScript.src = 'https://widgets.outbrain.com/outbrain.js?i=fabbb127';
+			obScript.async = true;
+			pageScripts.parentNode.insertBefore(obScript, pageScripts);
+		}
+	});
+</script>
+<aside>
+	<div class="OUTBRAIN" data-src="https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp" data-widget-id="AR_4"></div>
+</aside>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@feature@@@-->
+
+<!--@@@title@@@-->
+<div class="Title Title--contextual"><span class="Title-content">En partenariat</span></div>
+<!--@@@title@@@-->
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles List--inline ContentAutoPromo">
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/augustinus-bader-solaire.webp 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/augustinus-bader-solaire.webp 680w" type="image/webp" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw"/><img width="320" height="160"  src="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/augustinus-bader-solaire.jpg" srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/augustinus-bader-solaire.jpg 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/augustinus-bader-solaire.jpg 680w" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw" alt="augustinus bader solaire" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://go.linkby.com/HYFCFTXH" target="_blank" class="ArticleLink-link">Les 5 essentiels Augustinus Bader &agrave; glisser dans sa valise cet &eacute;t&eacute;</a></div>
+							<div class="ArticleLink-partner" style="color:reset">à découvrir sur Augustinusbader.com</div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/gymshark-seamless.webp 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/gymshark-seamless.webp 680w" type="image/webp" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw"/><img width="320" height="160"  src="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/gymshark-seamless.jpg" srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/gymshark-seamless.jpg 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/gymshark-seamless.jpg 680w" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw" alt="gymshark seamless" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://go.linkby.com/FAIWCMEJ" target="_blank" class="ArticleLink-link">Gymshark r&eacute;invente Lift Seamless, le legging galbant devenu culte</a></div>
+							<div class="ArticleLink-partner" style="color:reset">À découvrir sur Gymshark</div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/najell-mirage.webp 320w, https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/najell-mirage.webp 500w" type="image/webp" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw"/><img width="320" height="160"  src="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/najell-mirage.jpg" srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/najell-mirage.jpg 320w, https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/najell-mirage.jpg 500w" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw" alt="najell mirage" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://go.linkby.com/CPWZHQYC" target="_blank" class="ArticleLink-link">Id&eacute;al pour l'&eacute;t&eacute;&nbsp;: la douceur d'une &eacute;charpe de portage, le maintien d'un porte-b&eacute;b&eacute;. </a></div>
+							<div class="ArticleLink-partner" style="color:reset">À découvrir sur Najell</div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+<!--@@@feature@@@-->
+
+
+<!--@@@list@@@-->
+<div class="List List--parentCollections">
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--mainParentCollection js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_c17/cuisine/160/dipsepinards.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_c17/cuisine/160/dipsepinards.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_c17/cuisine/160/dipsepinards.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_c17/cuisine/160/dipsepinards.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_c17/cuisine/160/dipsepinards.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_c17/cuisine/160/dipsepinards.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_c17/cuisine/160/dipsepinards.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_c17/cuisine/160/dipsepinards.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_c17/cuisine/160/dipsepinards.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Dips epinards rapides" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/sauce-au-yaourt,1222078.asp" class="ArticleLink-link">Sauce au yaourt</a></div>
+					</div>
+		<div class="ArticleLink-text">40 articles</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+<div class="ParentCollectionLinks retracted js-ParentCollectionLinks"><div class="ParentCollectionLinks-list"><a href="https://www.marieclaire.fr/cuisine/panier-du-jardinier-aux-3-sauces,1201906.asp" class="ParentCollectionLinks-link">Dip de fromage blanc aux fines herbes</a><a href="https://www.marieclaire.fr/cuisine/fromage-blanc-au-curry-et-a-la-ciboulette,1210221.asp" class="ParentCollectionLinks-link">Fromage blanc au curry et &agrave; la ciboulette</a><a href="https://www.marieclaire.fr/cuisine/couronne-de-fromage-blanc,1220211.asp" class="ParentCollectionLinks-link">Couronne de fromage blanc</a><a href="https://www.marieclaire.fr/cuisine/faisselle-aux-herbes,1201245.asp" class="ParentCollectionLinks-link">Sauce &agrave; la faisselle et aux herbes</a><a href="https://www.marieclaire.fr/cuisine/fromage-frais-aux-herbes,1199619.asp" class="ParentCollectionLinks-link">Fromage frais aux herbes</a><a href="https://www.marieclaire.fr/cuisine/aubergines-grillees-a-la-turque-yaourt-a-l-ail,1517143.asp" class="ParentCollectionLinks-link">La recette turque qui transforme les aubergines en un plat irr&eacute;sistible</a><a href="https://www.marieclaire.fr/cuisine/recette-du-tarator-aux-noix,1515741.asp" class="ParentCollectionLinks-link">Connaissez-vous le tarator, cette cr&egrave;me de yaourt turque aux noix qui change du tzatziki&nbsp;?</a><a href="https://www.marieclaire.fr/cuisine/recette-de-salade-de-pommes-de-terre-a-la-grecque,1515134.asp" class="ParentCollectionLinks-link">Oubliez les salades de pommes de terre lourdes, cette recette au yaourt grec en est la preuve&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-sandwich-a-la-salade-de-thon-et-de-saumon-au-celeri-et-au-yogourt,1514809.asp" class="ParentCollectionLinks-link">Oubliez le jambon beurre, ce sandwich aussi frais que bon va devenir un incontournable de l&rsquo;&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/la-sauce-au-yaourt-legere-de-joel-robuchon,1514609.asp" class="ParentCollectionLinks-link">La sauce au yaourt l&eacute;g&egrave;re et ultra fra&icirc;che de Jo&euml;l Robuchon pr&ecirc;te en 5 minutes</a><a href="https://www.marieclaire.fr/cuisine/recette-du-cacik-turc,1514557.asp" class="ParentCollectionLinks-link is-hidden">Connaissez-vous le cacik, cette recette turque ultra rafra&icirc;chissante qui se pr&eacute;pare en 10 minutes&nbsp;?</a><a href="https://www.marieclaire.fr/cuisine/recette-du-tzatziki-concombres-et-courgettes,1514170.asp" class="ParentCollectionLinks-link is-hidden">Ajoutez un ingr&eacute;dient &agrave; ce simple tzatziki pour le rendre encore plus gourmand&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tartinade-au-concombre-au-wasabi-et-au-gin,1513827.asp" class="ParentCollectionLinks-link is-hidden">Osez le gin et le wasabi dans cette tartinade&nbsp;: votre tzatziki n'aura jamais &eacute;t&eacute; aussi savoureux&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/cette-tartinade-grecque-ultra-cremeuse-et-legerement-pimentee-va-detroner-le-houmous-a-l-apero,1513103.asp" class="ParentCollectionLinks-link is-hidden">Cette tartinade grecque ultra cr&eacute;meuse et l&eacute;g&egrave;rement piment&eacute;e va d&eacute;tr&ocirc;ner le houmous &agrave; l&rsquo;ap&eacute;ro</a><a href="https://www.marieclaire.fr/cuisine/recette-de-smashed-potatoes-yaourt-et-pesto,1512581.asp" class="ParentCollectionLinks-link is-hidden">Ces smashed potatoes crousti-fondantes &agrave; la sauce yaourt pesto vont devenir votre nouvelle obsession&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/sauce-au-yaourt-parfaite-avec-des-chips-tortilla,1508541.asp" class="ParentCollectionLinks-link is-hidden">Testez cette sauce au yaourt toute simple&nbsp;: elle est parfaite avec des chips tortilla&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/sauce-au-yaourt-ail-et-aneth-toute-simple,1505065.asp" class="ParentCollectionLinks-link is-hidden">Voici la sauce parfaite et ultra rapide pour accompagner le saumon !</a><a href="https://www.marieclaire.fr/cuisine/un-dip-vert-tendre-qui-cache-une-pointe-de-peps-testez-cette-creme-de-petits-pois-au-wasabi-doux,1493710.asp" class="ParentCollectionLinks-link is-hidden">Un dip vert tendre qui cache une pointe de peps&nbsp;: testez cette cr&egrave;me de petits pois au wasabi doux</a><a href="https://www.marieclaire.fr/cuisine/teste-et-valide-ce-dip-de-chou-fleur-roti-au-curry-est-devenu-mon-indispensable-des-aperos-maison,1493705.asp" class="ParentCollectionLinks-link is-hidden">Test&eacute; et valid&eacute;&nbsp;: ce dip de chou-fleur r&ocirc;ti au curry est devenu mon indispensable des ap&eacute;ros maison</a><a href="https://www.marieclaire.fr/cuisine/les-meilleures-sauces-pour-accompagner-des-asperges,1492623.asp" class="ParentCollectionLinks-link is-hidden">15 sauces pour accompagner les asperges &agrave; la perfection</a><a href="https://www.marieclaire.fr/cuisine/sauce-ranch-maison,1488888.asp" class="ParentCollectionLinks-link is-hidden">Sauce ranch maison</a><a href="https://www.marieclaire.fr/cuisine/sauce-cesar-allegee,1488887.asp" class="ParentCollectionLinks-link is-hidden">Sauce C&eacute;sar all&eacute;g&eacute;e</a><a href="https://www.marieclaire.fr/cuisine/le-tzatziki-de-juan-arbelaez,1477837.asp" class="ParentCollectionLinks-link is-hidden">Le tzatziki de Juan Arbelaez</a><a href="https://www.marieclaire.fr/cuisine/les-radis-a-l-aneth-et-au-yaourt-de-jessie-inchauspe,1476550.asp" class="ParentCollectionLinks-link is-hidden">Les radis &agrave; l&rsquo;aneth et au yaourt de Jessie Inchausp&eacute;</a><a href="https://www.marieclaire.fr/cuisine/sauce-au-yaourt-facile-et-rapide,1476482.asp" class="ParentCollectionLinks-link is-hidden">Sauce au yaourt facile et rapide</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-grec-traditionnel-la-meilleure-recette,1476201.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki grec traditionnel&nbsp;: la meilleure recette</a><a href="https://www.marieclaire.fr/cuisine/sauce-au-yaourt-aneth-et-citron,1453590.asp" class="ParentCollectionLinks-link is-hidden">Sauce au yaourt, aneth et citron</a><a href="https://www.marieclaire.fr/cuisine/peut-on-congeler-des-produits-laitiers,1221012.asp" class="ParentCollectionLinks-link is-hidden">Peut-on congeler des produits laitiers&nbsp;?</a><a href="https://www.marieclaire.fr/cuisine/existe-t-il-un-ingredient-substituable-au-yaourt,1221117.asp" class="ParentCollectionLinks-link is-hidden">Par quoi remplacer le yaourt&nbsp;dans une recette&nbsp;?</a><a href="https://www.marieclaire.fr/cuisine/rouleaux-de-printemps-aux-legumes-crus-sauce-au-yaourt-et-sesame,1302179.asp" class="ParentCollectionLinks-link is-hidden">Rouleaux de printemps aux l&eacute;gumes crus, sauce au yaourt et s&eacute;same</a><a href="https://www.marieclaire.fr/cuisine/recette-de-dips-d-epinards-au-yaourt-rapide,1212215.asp" class="ParentCollectionLinks-link is-hidden">Dips d'&eacute;pinards au yaourt</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-aux-crevettes,1211215.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki aux crevettes et &agrave; la feta</a><a href="https://www.marieclaire.fr/cuisine/cervelle-de-canut,1204677.asp" class="ParentCollectionLinks-link is-hidden">Cervelle de canut (fromage blanc aux herbes)</a><a href="https://www.marieclaire.fr/cuisine/tzatziki,1194448.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki et chips de pitas</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-au-yaourt-de-brebis,1197153.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki au yaourt de brebis</a><a href="https://www.marieclaire.fr/cuisine/tzatziki,24102,1190912.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki all&eacute;g&eacute;</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-comme-en-grece,1206669.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki comme en Gr&egrave;ce</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-libanais,1206393.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki libanais</a><a href="https://www.marieclaire.fr/cuisine/sauces-au-yaourt-pour-salades,1207943.asp" class="ParentCollectionLinks-link is-hidden">Sauce turque au yaourt, aneth et ail</a></div><div class="ParentCollectionLinks-toggle js-ParentCollectionLinks-toggle">
+						<button class="ParentCollectionLinks-toggleButton js-ParentCollectionLinks-toggleButton" data-text="R&eacute;duire" data-reduced-text="Voir plus d'articles">Voir plus d'articles</button>
+					</div></div></div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/75/recettes-de-salades-le-ge-res.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/75/recettes-de-salades-le-ge-res.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/75/recettes-de-salades-le-ge-res.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/75/recettes-de-salades-le-ge-res.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/75/recettes-de-salades-le-ge-res.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/75/recettes-de-salades-le-ge-res.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/75/recettes-de-salades-le-ge-res.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/75/recettes-de-salades-le-ge-res.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/75/recettes-de-salades-le-ge-res.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes de salades l&eacute;g&egrave;res" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/salades-legeres,1222092.asp" class="ArticleLink-link">Toutes nos recettes de salades l&eacute;g&egrave;res</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/61/recettes-concombre.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/61/recettes-concombre.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/61/recettes-concombre.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/61/recettes-concombre.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/61/recettes-concombre.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/61/recettes-concombre.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/61/recettes-concombre.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/61/recettes-concombre.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/61/recettes-concombre.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Toutes nos recettes aux concombres" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/concombre-nos-idees-recettes,1258483.asp" class="ArticleLink-link">Des id&eacute;es rafra&icirc;chissantes pour cuisiner le concombre</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles List--inline">
+
+<!--@@@title@@@-->
+<div class="Title Title--contextual List-title"><span class="Title-content">
+<!--@@@zone@@@-->
+
+							Dernières News
+							
+
+<!--@@@zone@@@-->
+</span></div>
+<!--@@@title@@@-->
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de gnocchis gratin&eacute;s &agrave; la tomate et &agrave; la burrata" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/ces-gnocchis-gratines-a-la-burrata-vont-reconcilier-tout-le-monde-avec-les-repas-du-soir,1517750.asp" class="ArticleLink-link">Gnocchis gratinés à la burrata : secret des soirées réussies</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7g/agneau-en-papillote.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7g/agneau-en-papillote.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7g/agneau-en-papillote.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7g/agneau-en-papillote.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7g/agneau-en-papillote.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7g/agneau-en-papillote.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7g/agneau-en-papillote.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7g/agneau-en-papillote.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7g/agneau-en-papillote.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette agneau papillote" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/vous-passez-le-dimanche-midi-en-famille-preparez-cet-agneau-en-papillote,1518728.asp" class="ArticleLink-link">Un plat d'agneau en papillote pour dimanche en famille</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de p&acirc;tes cr&eacute;meuses &agrave; la burrata et aux tomates r&ocirc;ties" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/il-suffit-de-cet-ingredient-mystere-pour-transformer-un-simple-plat-de-pates-en-un-max-de-gourmandise,1517749.asp" class="ArticleLink-link">L'ingrédient secret qui métamorphose vos pâtes</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-cre-pe-souffle-e-au-four-a-la-burrata-jambon-cru-et-roquette.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de cr&ecirc;pe souffl&eacute;e au four &agrave; la burrata, jambon cru et roquette" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/cette-crepe-soufflee-sortie-du-four-cache-un-coeur-ultra-fondant-qui-va-vous-faire-fondre,1517743.asp" class="ArticleLink-link">Une crêpe soufflée révèle un cœur fondant irrésistible</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/lassi-a-la-rose-maison-comme-au-restaurant.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Lassi &agrave; la rose maison comme au restaurant" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/lassi-a-la-rose-maison-comme-au-restaurant,1517353.asp" class="ArticleLink-link">Lassi à la rose maison : un délice à recréer</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6v/tartine-burrata-mirabelles.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6v/tartine-burrata-mirabelles.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6v/tartine-burrata-mirabelles.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6v/tartine-burrata-mirabelles.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6v/tartine-burrata-mirabelles.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6v/tartine-burrata-mirabelles.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6v/tartine-burrata-mirabelles.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6v/tartine-burrata-mirabelles.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6v/tartine-burrata-mirabelles.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de tartines mirabelles burrata" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recette-tartines-burrata-et-mirabelles,1479056.asp" class="ArticleLink-link">La recette des tartines burrata aux mirabelles qui surprend</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+
+<!--@@@advertising@@@-->
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles">
+
+<!--@@@title@@@-->
+<div class="Title Title--contextual List-title"><span class="Title-content"><span class="Title-plus">Plus</span> de <a href="https://www.marieclaire.fr/cuisine/salades,2615670.htm">Salades</a></span></div>
+<!--@@@title@@@-->
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--typed ArticleLink--gallery js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recettes-salades-burrata-1.webp 1000w, https://cache.marieclaire.fr/data/photo/w2000_h1000_ci/7f/recettes-salades-burrata-1.webp 2000w, https://cache.marieclaire.fr/data/photo/w1536_h768_ci/7f/recettes-salades-burrata-1.webp 1536w, https://cache.marieclaire.fr/data/photo/w768_h384_ci/7f/recettes-salades-burrata-1.webp 768w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recettes-salades-burrata-1.webp 680w" type="image/webp" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw"/><img width="1000" height="500"  src="https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recettes-salades-burrata-1.jpg" srcset="https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recettes-salades-burrata-1.jpg 1000w, https://cache.marieclaire.fr/data/photo/w2000_h1000_ci/7f/recettes-salades-burrata-1.jpg 2000w, https://cache.marieclaire.fr/data/photo/w1536_h768_ci/7f/recettes-salades-burrata-1.jpg 1536w, https://cache.marieclaire.fr/data/photo/w768_h384_ci/7f/recettes-salades-burrata-1.jpg 768w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recettes-salades-burrata-1.jpg 680w" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw" alt="Recettes salades burrata" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recettes-de-salades-a-la-burrata,1517649.asp" class="ArticleLink-link">Recettes de salades à la burrata : 10 idées savoureuses</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles List--inline">
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-au-boeuf-courgettes-grillees-et-feta.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Salade au b&oelig;uf, courgettes grill&eacute;es et feta" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/salade-au-boeuf-courgettes-grillees-et-feta,1517378.asp" class="ArticleLink-link">Salade bœuf grillé, feta, courgettes : recette estivale simple</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-nicoise-au-tofu-grille-vegan.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-nicoise-au-tofu-grille-vegan.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-nicoise-au-tofu-grille-vegan.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-nicoise-au-tofu-grille-vegan.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-nicoise-au-tofu-grille-vegan.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-nicoise-au-tofu-grille-vegan.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-nicoise-au-tofu-grille-vegan.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-nicoise-au-tofu-grille-vegan.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-nicoise-au-tofu-grille-vegan.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Salade ni&ccedil;oise au tofu grill&eacute; (vegan)" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/salade-nicoise-au-tofu-grille-vegan,1517249.asp" class="ArticleLink-link">Salade niçoise végétarienne au tofu grillé</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-nicoise-au-thon-snacke-au-sesame.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Salade ni&ccedil;oise au thon snack&eacute; au s&eacute;same" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/salade-nicoise-au-thon-snacke-au-sesame,1517224.asp" class="ArticleLink-link">Salade niçoise revisitée : thon snacké irrésistible</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-pommes-de-terre.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-pommes-de-terre.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-pommes-de-terre.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-pommes-de-terre.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-pommes-de-terre.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-pommes-de-terre.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-pommes-de-terre.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-pommes-de-terre.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-pommes-de-terre.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Salade de pommes de terre toute simple pour un barbecue" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/salade-de-pommes-de-terre-toute-simple-pour-un-barbecue,1517204.asp" class="ArticleLink-link">Recette de salade de pommes de terre facile pour barbecue</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-peches-myrtilles-agneau.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-peches-myrtilles-agneau.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-peches-myrtilles-agneau.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-peches-myrtilles-agneau.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-peches-myrtilles-agneau.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-peches-myrtilles-agneau.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-peches-myrtilles-agneau.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-peches-myrtilles-agneau.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-peches-myrtilles-agneau.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette salade p&ecirc;ches myrtilles agneau" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/si-vous-aimez-les-accords-sucres-sales-vous-allez-adorer-cette-salade-de-peches-myrtilles-et-agneau,1517196.asp" class="ArticleLink-link">Salade pêches, myrtilles et agneau : un mariage sucré-salé</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-basque-revisitee.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-basque-revisitee.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-basque-revisitee.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-basque-revisitee.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-basque-revisitee.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/salade-basque-revisitee.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/salade-basque-revisitee.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/salade-basque-revisitee.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/salade-basque-revisitee.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette salade basque ch&egrave;vre frais" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/cette-salade-basque-revisitee-au-chevre-frais-va-faire-l-unanimite-cet-ete,1517183.asp" class="ArticleLink-link">Salade basque revisitée au chèvre frais pour l'été</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--rectangle-3 External-container is-empty" rel="rectangle-3"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Rectangle-3' sizes='[[1000,250],[970,250],[750,150],[728,90],[300,250],[320,100],[320,50],[1,1],["fluid"]]'  id='div-gpt-ad-rectangle-3'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+
+<!--@@@populars@@@-->
+<div class="Populars">
+
+<!--@@@title@@@-->
+<div class="Title Title--topContent Populars-title"><span class="Title-content">Les plus populaires</span></div>
+<!--@@@title@@@-->
+<a href="https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp" class="Populars-link" title="Salade libanaise fra&icirc;che id&eacute;ale pour l'&eacute;t&eacute;">Salade libanaise fra&icirc;che id&eacute;ale pour l'&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/recette-de-concombres-farcis-au-thon,1517764.asp" class="Populars-link" title="Recette concombre farci sans cuisson en 15 minutes">Recette concombre farci sans cuisson en 15 minutes</a><a href="https://www.marieclaire.fr/cuisine/recette-de-gaspacho-melon-cantaloup-et-prosciutto,1517952.asp" class="Populars-link" title="Gaspacho melon prosciutto : recette fra&icirc;che et chic de l'&eacute;t&eacute;">Gaspacho melon prosciutto : recette fra&icirc;che et chic de l'&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/flan-de-courgettes-facile-et-rapide,1477321.asp" class="Populars-link" title="Flan de courgettes (facile et rapide)">Flan de courgettes (facile et rapide)</a><a href="https://www.marieclaire.fr/cuisine/le-vrai-taboule-libanais-ne-ressemble-pas-a-celui-que-l-on-achete-au-supermarche,1517876.asp" class="Populars-link" title="Taboul&eacute; libanais vrai vs supermarch&eacute; : d&eacute;couvrez les diff&eacute;rences">Taboul&eacute; libanais vrai vs supermarch&eacute; : d&eacute;couvrez les diff&eacute;rences</a><a href="https://www.marieclaire.fr/cuisine/connaissez-vous-le-makdous-ces-petites-aubergines-farcies-qui-font-le-bonheur-des-tables-libanaises,1517870.asp" class="Populars-link" title="Makdous : aubergines farcies libanaises au go&ucirc;t unique">Makdous : aubergines farcies libanaises au go&ucirc;t unique</a></div>
+
+<!--@@@populars@@@-->
+
+
+<!--@@@advertising@@@-->
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+
+<!--@@@zone@@@-->
+	</div>
+</div>
+<footer id="footer" data-area-name="footer">
+	
+<!--@@@zone@@@-->
+
+<!--@@@miscellaneous@@@-->
+
+<div class="FooterLogo">
+
+</div>
+
+<!--@@@miscellaneous@@@-->
+
+
+<!--@@@socialNetwork@@@-->
+<div class="SocialLinks SocialLinks--footer">
+<div class="SocialLinks-linkContainer"><a href="https://x.com/Cuisine_VinsdeF" data-type="twitter" class="SocialLinks-link SocialLinks-link--twitter" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.facebook.com/CuisineEtVinsDeFrance" data-type="facebook" class="SocialLinks-link SocialLinks-link--facebook" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://fr.pinterest.com/cuisineetvinsdefrance/" data-type="pinterest" class="SocialLinks-link SocialLinks-link--pinterest" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.instagram.com/cuisineetvinsdefrance/" data-type="instagram" class="SocialLinks-link SocialLinks-link--instagram" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.marieclaire.fr/cuisine/newsletter" data-type="newsletter" class="SocialLinks-link SocialLinks-link--newsletter"  title=""></a></div></div>
+
+<!--@@@socialNetwork@@@-->
+
+
+<!--@@@magazine@@@-->
+<div class="MagazineSubscription MagazineSubscription-popin js-magazineSubscriptionPopin">
+	<button class="MagazineSubscription-popin--Close js-hideMagazineSubscriptionPopin"></button>
+	<div class="MagazineSubscription-popin--link" data-encodedhref="aHR0cHM6Ly93d3cuYWJvbm5lbWVudC1jdWlzaW5lLXZpbnMuZnIv" target="_blank">
+				<img loading="lazy" class="MagazineSubscription-popin--image js-MagazineSubscription-popin--image" src="https://cache.marieclaire.fr/data/photo/w175_c17/magazine/cvf/cover.jpg?5ad7dda7c13e7983a911e842e024ecb2"/>
+				<p class="MagazineSubscription-popin--text">Je m'abonne</p>
+	</div>
+</div>
+
+<!--@@@magazine@@@-->
+
+
+<!--@@@newsletter@@@-->
+<div class="NewsletterBox NewsletterBox--footer">
+	<div class="NewsletterBox-title">Inscrivez-vous &agrave; la newsletter</div>
+	<div class="NewsletterBox-formContainer">
+		<form method="get" action="https://www.marieclaire.fr/cuisine/newsletter" class="NewsletterBox-form js-NewsletterFooterForm" novalidate="novalidate">
+			<input type="email" name="emailAddress" placeholder="Votre adresse e-mail" class="NewsletterBox-emailAddressField js-emailAddress" />
+			<input type="submit" value="Valider" class="NewsletterBox-submitButton" />
+		</form>
+	</div>
+</div>
+<!--@@@newsletter@@@-->
+
+
+<!--@@@miscellaneous@@@-->
+<div class="FooterLinks">
+	<ul class="FooterLinks-list">
+<li class="FooterLinks-item"><a href="https://www.marieclaire.fr/qui-sommes-nous,1518870.asp" class="FooterLinks-link" >Qui sommes-nous ?</a></li><li class="FooterLinks-item"><a href="https://www.marieclaire.fr/plan/2615634" class="FooterLinks-link" >Plan du site</a></li><li class="FooterLinks-item"><a href="https://www.marieclaire.fr/,mentions-legales,20214,1711.asp" class="FooterLinks-link" >Mentions l&eacute;gales</a></li><li class="FooterLinks-item js-openConsentManagementModal"><a href="https://www.marieclaire.fr/,politique-d-utilisation-des-cookies,708326.asp" class="FooterLinks-link" >Cookies</a></li><li class="FooterLinks-item"><a href="https://www.marieclaire.fr/codes-promo/" class="FooterLinks-link" >Codes Promo</a></li>	</ul>
+</div>
+
+<!--@@@miscellaneous@@@-->
+
+
+
+<!--@@@zone@@@-->
+
+<!--@@@adrenalead@@@-->
+
+<!--@@@adrenalead@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+<!--@@@qiotaPaywall@@@-->
+
+<!--@@@qiotaPaywall@@@-->
+
+
+<!--@@@zone@@@-->
+</footer>
+
+<!--@@@layout@@@-->
+<script src="https://cache.marieclaire.fr/data/display/tools.js?9sk8on3ykzcww4gkcsk8wwg4o"></script>
+<script src="https://cache.marieclaire.fr/data/display/page.js?cam2n3iomfk80s008kwsooc8k"></script>
+<script src="https://cache.marieclaire.fr/data/display/gam.js?5ktfd77azb8kcwscowso48sow"></script>
+<script src="https://cache.marieclaire.fr/data/display/article.js?f29vgyty8v4gckkkkg4cog8kg"></script>
+<script src="https://cache.marieclaire.fr/data/display/commentform.js?19i8h1p3ibz4gc8s4w4scko0w"></script>
+<script>
+!function(e){Object.defineProperty(e,"push",{value:function(e){"function"==typeof e&&e()}});for(var t;t=e.shift();)try{e.push(t)}catch(o){console.error(o)}}(window.mc2m)
+</script>
+<div style="height:0; overflow:hidden">
+</div>
+<!-- magic-web-02 -->
+	<script type="text/javascript">
+		window._nli=window._nli||[],function(){var n,e,i=window._nli||(window._nli=[]);i.loaded||((n=document.createElement("script")).defer=!0,n.src="https://l.marieclaire.fr/sdk.js",(e=document.getElementsByTagName("script")[0]).parentNode.insertBefore(n,e),i.loaded=!0)}();
+	</script>
+</body>
+
+</html>
