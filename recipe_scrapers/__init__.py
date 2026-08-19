@@ -385,6 +385,7 @@ from .madensverden import MadensVerden
 from .madsvin import Madsvin
 from .magimix import Magimix
 from .makeitdairyfree import MakeItDairyFree
+from .marieclaire import MarieClaire
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -1127,6 +1128,7 @@ SCRAPERS = {
     Madsvin.host(): Madsvin,
     Magimix.host(): Magimix,
     MakeItDairyFree.host(): MakeItDairyFree,
+    MarieClaire.host(): MarieClaire,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
