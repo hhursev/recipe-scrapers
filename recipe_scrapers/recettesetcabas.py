@@ -64,11 +64,11 @@ class RecettesEtCabas(AbstractScraper):
         return groups
 
     def instructions(self):
-        # Recipes can leave the schema instructions empty. Older pages identify
-        # every instruction paragraph by its styling, while newer pages only
-        # distinguish their steps from the introduction by numbering them. The
-        # sections after the first one hold the Thermomix version of the recipe and
-        # the site's own commentary on it.
+        # Recipes can leave the schema instructions empty. Some pages give every
+        # instruction paragraph the same styling, including unnumbered preparation
+        # notes. Others only distinguish their steps from the introduction by
+        # numbering them. The sections after the first one hold the Thermomix version
+        # of the recipe and the site's own commentary on it.
         steps = self.schema.instructions().split("\n")
         if not any(steps):
             recipe_section = self.soup.select_one(
@@ -77,11 +77,27 @@ class RecettesEtCabas(AbstractScraper):
             paragraphs = (
                 recipe_section.find_all("p", recursive=False) if recipe_section else []
             )
-            styled_paragraphs = [
+            numbered_paragraphs = [
                 paragraph
                 for paragraph in paragraphs
-                if "para-style-body" in paragraph.get("class", [])
+                if STEP_NUMBER.match(normalize_string(paragraph.get_text()))
             ]
+            instruction_classes = (
+                numbered_paragraphs[0].get("class", []) if numbered_paragraphs else []
+            )
+            styled_paragraphs = (
+                [
+                    paragraph
+                    for paragraph in paragraphs
+                    if paragraph.get("class", []) == instruction_classes
+                ]
+                if instruction_classes
+                else [
+                    paragraph
+                    for paragraph in paragraphs
+                    if "para-style-body" in paragraph.get("class", [])
+                ]
+            )
             if styled_paragraphs:
                 steps = [
                     step
@@ -90,9 +106,8 @@ class RecettesEtCabas(AbstractScraper):
                 ]
             else:
                 steps = [
-                    step
-                    for paragraph in paragraphs
-                    if STEP_NUMBER.match(step := normalize_string(paragraph.get_text()))
+                    normalize_string(paragraph.get_text())
+                    for paragraph in numbered_paragraphs
                 ]
 
         steps = [STEP_NUMBER.sub("", step) for step in steps if step]
