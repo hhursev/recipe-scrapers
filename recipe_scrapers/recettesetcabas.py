@@ -8,6 +8,22 @@ from ._utils import normalize_string
 STEP_NUMBER = re.compile(r"^\d+\s*[.)]\s*")
 
 
+def _split_instruction_paragraph(paragraph):
+    fragments = [
+        fragment
+        for raw_fragment in paragraph.get_text("\n").splitlines()
+        if (fragment := normalize_string(raw_fragment))
+    ]
+    steps = []
+    for fragment in fragments:
+        if STEP_NUMBER.match(fragment) or not steps:
+            steps.append(fragment)
+        else:
+            steps[-1] = normalize_string(f"{steps[-1]} {fragment}")
+
+    return steps
+
+
 class RecettesEtCabas(AbstractScraper):
     @classmethod
     def host(cls):
@@ -64,24 +80,31 @@ class RecettesEtCabas(AbstractScraper):
         return groups
 
     def instructions(self):
-        # Recipes can leave the schema instructions empty. Some pages give every
-        # instruction paragraph the same styling, including unnumbered preparation
-        # notes. Others only distinguish their steps from the introduction by
-        # numbering them. The sections after the first one hold the Thermomix version
-        # of the recipe and the site's own commentary on it.
+        # Recipes can leave the schema instructions empty or collapse multiple visible
+        # steps into one item. Some pages give every instruction paragraph the same
+        # styling, including unnumbered preparation notes. Others only distinguish
+        # their steps from the introduction by numbering them. The sections after the
+        # first one hold the Thermomix version and the site's own commentary.
         steps = self.schema.instructions().split("\n")
-        if not any(steps):
-            recipe_section = self.soup.select_one(
-                ".bloc-recette > section:first-of-type"
+        recipe_section = self.soup.select_one(".bloc-recette > section:first-of-type")
+        paragraphs = (
+            recipe_section.find_all("p", recursive=False) if recipe_section else []
+        )
+        numbered_paragraphs = [
+            paragraph
+            for paragraph in paragraphs
+            if any(
+                STEP_NUMBER.match(step)
+                for step in _split_instruction_paragraph(paragraph)
             )
-            paragraphs = (
-                recipe_section.find_all("p", recursive=False) if recipe_section else []
-            )
-            numbered_paragraphs = [
-                paragraph
-                for paragraph in paragraphs
-                if STEP_NUMBER.match(normalize_string(paragraph.get_text()))
-            ]
+        ]
+        numbered_step_count = sum(
+            bool(STEP_NUMBER.match(step))
+            for paragraph in numbered_paragraphs
+            for step in _split_instruction_paragraph(paragraph)
+        )
+
+        if not any(steps) or (len(steps) == 1 and numbered_step_count > 1):
             instruction_classes = (
                 numbered_paragraphs[0].get("class", []) if numbered_paragraphs else []
             )
@@ -102,12 +125,13 @@ class RecettesEtCabas(AbstractScraper):
                 steps = [
                     step
                     for paragraph in styled_paragraphs
-                    if (step := normalize_string(paragraph.get_text()))
+                    for step in _split_instruction_paragraph(paragraph)
                 ]
             else:
                 steps = [
-                    normalize_string(paragraph.get_text())
+                    step
                     for paragraph in numbered_paragraphs
+                    for step in _split_instruction_paragraph(paragraph)
                 ]
 
         steps = [STEP_NUMBER.sub("", step) for step in steps if step]
