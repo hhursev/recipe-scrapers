@@ -1,5 +1,6 @@
 from ._abstract import AbstractScraper
 import re
+from ._grouping_utils import IngredientGroup
 
 
 class RussianFood(AbstractScraper):
@@ -7,20 +8,26 @@ class RussianFood(AbstractScraper):
     def host(cls):
         return "russianfood.com"
 
+    def author(self):
+        author = self.soup.select_one(".sub_info .user_date a")
+        return author.get_text(" ", strip=True) if author else "RussianFood"
+
     def title(self):
         return self.soup.find("h1").get_text().strip()
 
     def ingredients(self):
-        ingr_table = self.soup.find("table", {"class": "ingr"})
+        ingr_table = self.soup.find("table", class_="ingr")
         if not ingr_table:
             return []
-        rows = ingr_table.find_all("tr", {"class": re.compile(r"ingr_tr_\d+")})
-        result = []
-        for row in rows:
+
+        ingredients = []
+        for row in ingr_table.find_all("tr", class_=re.compile(r"ingr_tr_\d+")):
             text = row.get_text(" ", strip=True)
-            if text and text != "*":
-                result.append(text)
-        return result
+
+            if text and text != "*" and not text.endswith(":"):
+                ingredients.append(text)
+
+        return ingredients
 
     def instructions(self):
         steps = self.soup.find_all("div", {"class": "step_n"})
@@ -38,4 +45,41 @@ class RussianFood(AbstractScraper):
         if og_image:
             return og_image.get("content")
         return None
-        
+
+    def ingredient_groups(self):
+        groups = []
+        purpose = None
+        ingredients = []
+
+        ingr_table = self.soup.find("table", class_="ingr")
+        if not ingr_table:
+            return []
+
+        for row in ingr_table.find_all("tr", class_=re.compile(r"ingr_tr_\d+")):
+            text = row.get_text(" ", strip=True)
+
+            if not text or text == "*":
+                continue
+
+            if text.endswith(":"):
+                if ingredients:
+                    groups.append(
+                        IngredientGroup(
+                            ingredients=ingredients,
+                            purpose=purpose,
+                        )
+                    )
+                purpose = text.rstrip(":")
+                ingredients = []
+            else:
+                ingredients.append(text)
+
+        if ingredients:
+            groups.append(
+                IngredientGroup(
+                    ingredients=ingredients,
+                    purpose=purpose,
+                )
+            )
+
+        return groups
