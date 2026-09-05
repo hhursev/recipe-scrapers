@@ -82,6 +82,7 @@ from .atelierdeschefs import AtelierDesChefs
 from .aubreyskitchen import AubreysKitchen
 from .averiecooks import AverieCooks
 from .bakeeatrepeat import BakeEatRepeat
+from .bakeitwithlove import BakeItWithLove
 from .bakels import Bakels
 from .bakerbynature import BakerByNature
 from .bakewithzoha import BakeWithZoha
@@ -106,6 +107,7 @@ from .billyparisi import BillyParisi
 from .bitsofcarey import BitsOfCarey
 from .blessthismessplease import BlessThisMessPlease
 from .blogghetti import Blogghetti
+from .blogosferathermomix import BlogosferaThermomix
 from .blueapron import BlueApron
 from .bluejeanchef import BlueJeanChef
 from .bodybuilding import Bodybuilding
@@ -114,6 +116,7 @@ from .bonappetit import BonAppetit
 from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
+from .brewersfriend import BrewersFriend
 from .briceletbaklava import BricelEtBaklava
 from .brokenovenbaking import BrokenOvenBaking
 from .budgetbytes import BudgetBytes
@@ -176,6 +179,7 @@ from .davidlebovitz import DavidLebovitz
 from .deliciouslyella import DeliciouslyElla
 from .deliciouslysprinkled import DeliciouslySprinkled
 from .delish import Delish
+from .delishkitchen import DelishKitchen
 from .delscookingtwist import DelsCookingTwist
 from .dinneratthezoo import DinnerAtTheZoo
 from .dinnerthendessert import DinnerThenDessert
@@ -202,19 +206,21 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
-from .emilybites import EmilyBites
 from .elavegan import ElaVegan
+from .emilybites import EmilyBites
 from .emmikochteinfach import EmmiKochtEinfach
 from .empirecipes import Empirecipes
 from .epicurious import Epicurious
 from .erinliveswhole import ErinLivesWhole
 from .erinscozykitchen import ErinsCozyKitchen
 from .errenskitchen import ErrensKitchen
+from .essenundtrinken import EssenUndTrinken
 from .ethanchlebowski import EthanChlebowski
 from .everydaydelicious import EverydayDelicious
 from .everydaypie import EverydayPie
 from .evolvingtable import EvolvingTable
 from .familyfoodonthetable import FamilyfoodOnTheTable
+from .familyspice import FamilySpice
 from .fantabulosity import Fantabulosity
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
@@ -243,6 +249,7 @@ from .forksoverknives import ForksOverKnives
 from .forktospoon import ForkToSpoon
 from .fortyaprons import FortyAprons
 from .franzoesischkochen import FranzoesischKochen
+from .freshiprima import FreshiPrima
 from .g750g import G750g
 from .garlicandzest import GarlicAndZest
 from .garnishandglaze import GarnishAndGlaze
@@ -260,6 +267,7 @@ from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
 from .goodstuffrecipes import GoodStuffRecipes
+from .gourmandize import Gourmandize
 from .gourmettraveller import GourmetTraveller
 from .grandbabycakes import GrandbabyCakes
 from .grandfrais import GrandFrais
@@ -308,13 +316,16 @@ from .jennycancook import JennyCanCook
 from .jimcooksfoodgood import JimCooksFoodGood
 from .jocooks import JoCooks
 from .joshuaweissman import JoshuaWeissman
+from .journaldesfemmes import JournalDesFemmes
 from .jow import Jow
 from .joyfoodsunshine import Joyfoodsunshine
+from .joyfullymad import JoyfullyMad
 from .joythebaker import JoyTheBaker
 from .juliasalbum import JuliasAlbum
 from .juliegoodwin import JulieGoodwin
 from .jumbo import Jumbo
 from .justalittlebitofbacon import JustALittleBitOfBacon
+from .justapinch import JustAPinch
 from .justataste import JustATaste
 from .justbento import JustBento
 from .justinesnacks import JustineSnacks
@@ -354,6 +365,7 @@ from .leckerschmecker import LeckerSchmecker
 from .lecremedelacrumb import LeCremeDeLaCrumb
 from .leitesculinaria import LeitesCulinaria
 from .lekkerensimpel import LekkerEnSimpel
+from .letscampsmore import LetsCampSmore
 from .leukerecepten import Leukerecepten
 from .lidiasitaly import LidiasItaly
 from .lifestyleofafoodie import LifestyleOfAFoodie
@@ -374,6 +386,7 @@ from .madensverden import MadensVerden
 from .madsvin import Madsvin
 from .magimix import Magimix
 from .makeitdairyfree import MakeItDairyFree
+from .marieclaire import MarieClaire
 from .marmiton import Marmiton
 from .marthastewart import MarthaStewart
 from .matprat import Matprat
@@ -450,6 +463,7 @@ from .pastificiosorrentino import PastificioSorrentino
 from .pauladeen import PaulaDeen
 from .peelwithzeal import PeelWithZeal
 from .persnicketyplates import PersnicketyPlates
+from .petitchef import PetitChef
 from .pickuplimes import PickUpLimes
 from .picnic import Picnic
 from .piesandplots import PiesAndPlots
@@ -494,6 +508,7 @@ from .reciperunner import RecipeRunner
 from .recipetineats import RecipeTinEats
 from .redhousespice import RedHouseSpice
 from .reishunger import Reishunger
+from .relish import Relish
 from .rewe import Rewe
 from .rezeptwelt import Rezeptwelt
 from .ricardocuisine import RicardoCuisine
@@ -502,6 +517,7 @@ from .ricetteperbimby import RicettePerBimby
 from .rickbayless import RickBayless
 from .rosannapansino import RosannaPansino
 from .rutgerbakt import RutgerBakt
+from .russianfood import RussianFood
 from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
@@ -525,6 +541,7 @@ from .simpleveganista import SimpleVeganista
 from .simplycookit import SimplyCookit
 from .simplyquinoa import SimplyQuinoa
 from .simplyrecipes import SimplyRecipes
+from .simplyscratch import SimplyScratch
 from .simplywhisked import SimplyWhisked
 from .sipandfeast import SipAndFeast
 from .sizzlefish import SizzleFish
@@ -563,6 +580,7 @@ from .tasteandtellblog import TasteAndTellBlog
 from .tasteatlas import TasteAtlas
 from .tasteau import TasteAU
 from .tastefullygrace import TastefullyGrace
+from .tasteline import Tasteline
 from .tasteofhome import TasteOfHome
 from .tastesbetterfromscratch import TastesBetterFromScratch
 from .tastesoflizzyt import TastesOfLizzyT
@@ -571,6 +589,7 @@ from .tasty import Tasty
 from .tastykitchen import TastyKitchen
 from .tastyoven import TastyOven
 from .tatyanaseverydayfood import TatyanasEverydayFood
+from .teakandthyme import TeakAndThyme
 from .thealmondeater import TheAlmondEater
 from .thebigmansworld import TheBigMansWorld
 from .theclevercarrot import TheCleverCarrot
@@ -604,6 +623,7 @@ from .thevintagemixer import TheVintageMixer
 from .thewoksoflife import Thewoksoflife
 from .thewoodenskillet import TheWoodenSkillet
 from .thinlicious import Thinlicious
+from .thirtyseconds import ThirtySeconds
 from .thishealthytable import ThisHealthyTable
 from .threesixfivedaysofbakingandmore import ThreeSixFiveDaysOfBakingAndMore
 from .tidymom import TidyMom
@@ -612,6 +632,7 @@ from .tineno import TineNo
 from .tofoo import Tofoo
 from .toriavey import ToriAvey
 from .tudogostoso import TudoGostoso
+from .tudoreceitas import TudoReceitas
 from .twentyfourkitchen import TwentyFourKitchen
 from .twopeasandtheirpod import TwoPeasAndTheirPod
 from .uitpaulineskeukennl import UitPaulinesKeukenNL
@@ -622,6 +643,7 @@ from .valdemarsro import Valdemarsro
 from .valentinascorner import ValentinasCorner
 from .vanillaandbean import VanillaAndBean
 from .varechapravdask import VarechaPravdaSK
+from .veganricha import VeganRicha
 from .vegansociety import VeganSociety
 from .vegetarbloggen import Vegetarbloggen
 from .vegolosi import Vegolosi
@@ -710,6 +732,7 @@ SCRAPERS = {
     AubreysKitchen.host(): AubreysKitchen,
     AverieCooks.host(): AverieCooks,
     BakeEatRepeat.host(): BakeEatRepeat,
+    BakeItWithLove.host(): BakeItWithLove,
     Bakels.host(): Bakels,
     Bakels.host(domain="co.uk"): Bakels,
     BakerByNature.host(): BakerByNature,
@@ -736,6 +759,82 @@ SCRAPERS = {
     BitsOfCarey.host(): BitsOfCarey,
     BlessThisMessPlease.host(): BlessThisMessPlease,
     Blogghetti.host(): Blogghetti,
+    BlogosferaThermomix.host(): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-albacete.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-alcala.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-algeciras.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-alicante.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-almeria.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-alzira.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-badajoz.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(
+        domain="thermomix-barcelona-centro.es"
+    ): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-barcelona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-bilbao.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-burgos.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-caceres.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-cadiz.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-cartagena.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-castellon.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-ceuta.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-ciudadreal.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-cordoba.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-coruna.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-doshermanas.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-elche.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-esplugues.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-fuenlabrada.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-fuerteventura.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-gijon.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-girona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-granada.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-huelva.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-jaen.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-jerez.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-lanzarote.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-laspalmas.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-leon.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-lleida.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-madrid-centro.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(
+        domain="thermomix-madrid-mendezalvaro.es"
+    ): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-majadahonda.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-malaga-centro.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-malaga.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-mallorca.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-manresa.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-marbella.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-mataro.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-mostoles.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-murcia.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-orense.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-pamplona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-plasencia.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-pontevedra.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-sabadell.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-salamanca.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-sansebastian.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-santander.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(
+        domain="thermomix-sevilla-aljarafe.es"
+    ): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-sevilla.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-ssreyes.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-talavera.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-tarragona.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-tenerife.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-tenerifesur.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-toledo.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-valencia.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-valladolid.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-vic.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-vigo.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-vitoria.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-zamora.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomix-zaragoza.es"): BlogosferaThermomix,
+    BlogosferaThermomix.host(domain="thermomixasturias.es"): BlogosferaThermomix,
     BlueApron.host(): BlueApron,
     BlueJeanChef.host(): BlueJeanChef,
     Bodybuilding.host(): Bodybuilding,
@@ -744,6 +843,7 @@ SCRAPERS = {
     BongEats.host(): BongEats,
     BowlOfDelicious.host(): BowlOfDelicious,
     Breadtopia.host(): Breadtopia,
+    BrewersFriend.host(): BrewersFriend,
     BricelEtBaklava.host(): BricelEtBaklava,
     BrokenOvenBaking.host(): BrokenOvenBaking,
     BudgetBytes.host(): BudgetBytes,
@@ -806,6 +906,7 @@ SCRAPERS = {
     DeliciouslyElla.host(): DeliciouslyElla,
     DeliciouslySprinkled.host(): DeliciouslySprinkled,
     Delish.host(): Delish,
+    DelishKitchen.host(): DelishKitchen,
     DelsCookingTwist.host(): DelsCookingTwist,
     DinnerAtTheZoo.host(): DinnerAtTheZoo,
     DinnerThenDessert.host(): DinnerThenDessert,
@@ -833,19 +934,21 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
-    EmilyBites.host(): EmilyBites,
     ElaVegan.host(): ElaVegan,
+    EmilyBites.host(): EmilyBites,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
     Empirecipes.host(): Empirecipes,
     Epicurious.host(): Epicurious,
     ErinLivesWhole.host(): ErinLivesWhole,
     ErinsCozyKitchen.host(): ErinsCozyKitchen,
     ErrensKitchen.host(): ErrensKitchen,
+    EssenUndTrinken.host(): EssenUndTrinken,
     EthanChlebowski.host(): EthanChlebowski,
     EverydayDelicious.host(): EverydayDelicious,
     EverydayPie.host(): EverydayPie,
     EvolvingTable.host(): EvolvingTable,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
+    FamilySpice.host(): FamilySpice,
     Fantabulosity.host(): Fantabulosity,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FarmhouseOnBoone.host(): FarmhouseOnBoone,
@@ -875,6 +978,7 @@ SCRAPERS = {
     ForkToSpoon.host(): ForkToSpoon,
     FortyAprons.host(): FortyAprons,
     FranzoesischKochen.host(): FranzoesischKochen,
+    FreshiPrima.host(): FreshiPrima,
     G750g.host(): G750g,
     GarlicAndZest.host(): GarlicAndZest,
     GarnishAndGlaze.host(): GarnishAndGlaze,
@@ -892,6 +996,7 @@ SCRAPERS = {
     GoodFoodDiscoveries.host(): GoodFoodDiscoveries,
     GoodHousekeeping.host(): GoodHousekeeping,
     GoodStuffRecipes.host(): GoodStuffRecipes,
+    Gourmandize.host(): Gourmandize,
     GourmetTraveller.host(): GourmetTraveller,
     GrandbabyCakes.host(): GrandbabyCakes,
     GrandFrais.host(): GrandFrais,
@@ -958,13 +1063,16 @@ SCRAPERS = {
     JimCooksFoodGood.host(): JimCooksFoodGood,
     JoCooks.host(): JoCooks,
     JoshuaWeissman.host(): JoshuaWeissman,
+    JournalDesFemmes.host(): JournalDesFemmes,
     Jow.host(): Jow,
     Joyfoodsunshine.host(): Joyfoodsunshine,
+    JoyfullyMad.host(): JoyfullyMad,
     JoyTheBaker.host(): JoyTheBaker,
     JuliasAlbum.host(): JuliasAlbum,
     JulieGoodwin.host(): JulieGoodwin,
     Jumbo.host(): Jumbo,
     JustALittleBitOfBacon.host(): JustALittleBitOfBacon,
+    JustAPinch.host(): JustAPinch,
     JustATaste.host(): JustATaste,
     JustBento.host(): JustBento,
     JustineSnacks.host(): JustineSnacks,
@@ -1005,6 +1113,7 @@ SCRAPERS = {
     LeCremeDeLaCrumb.host(): LeCremeDeLaCrumb,
     LeitesCulinaria.host(): LeitesCulinaria,
     LekkerEnSimpel.host(): LekkerEnSimpel,
+    LetsCampSmore.host(): LetsCampSmore,
     Leukerecepten.host(): Leukerecepten,
     LidiasItaly.host(): LidiasItaly,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
@@ -1025,6 +1134,7 @@ SCRAPERS = {
     Madsvin.host(): Madsvin,
     Magimix.host(): Magimix,
     MakeItDairyFree.host(): MakeItDairyFree,
+    MarieClaire.host(): MarieClaire,
     Marmiton.host(): Marmiton,
     MarthaStewart.host(): MarthaStewart,
     Matprat.host(): Matprat,
@@ -1101,6 +1211,7 @@ SCRAPERS = {
     PaulaDeen.host(): PaulaDeen,
     PeelWithZeal.host(): PeelWithZeal,
     PersnicketyPlates.host(): PersnicketyPlates,
+    PetitChef.host(): PetitChef,
     PickUpLimes.host(): PickUpLimes,
     Picnic.host(): Picnic,
     PiesAndPlots.host(): PiesAndPlots,
@@ -1145,6 +1256,7 @@ SCRAPERS = {
     RecipeTinEats.host(): RecipeTinEats,
     RedHouseSpice.host(): RedHouseSpice,
     Reishunger.host(): Reishunger,
+    Relish.host(): Relish,
     Rewe.host(): Rewe,
     Rezeptwelt.host(): Rezeptwelt,
     RicardoCuisine.host(): RicardoCuisine,
@@ -1153,6 +1265,7 @@ SCRAPERS = {
     RickBayless.host(): RickBayless,
     RosannaPansino.host(): RosannaPansino,
     RutgerBakt.host(): RutgerBakt,
+    RussianFood.host(): RussianFood,
     SaboresAjinomoto.host(): SaboresAjinomoto,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
@@ -1176,6 +1289,7 @@ SCRAPERS = {
     SimplyCookit.host(): SimplyCookit,
     SimplyQuinoa.host(): SimplyQuinoa,
     SimplyRecipes.host(): SimplyRecipes,
+    SimplyScratch.host(): SimplyScratch,
     SimplyWhisked.host(): SimplyWhisked,
     SipAndFeast.host(): SipAndFeast,
     SizzleFish.host(): SizzleFish,
@@ -1214,6 +1328,7 @@ SCRAPERS = {
     TasteAtlas.host(): TasteAtlas,
     TasteAU.host(): TasteAU,
     TastefullyGrace.host(): TastefullyGrace,
+    Tasteline.host(): Tasteline,
     TasteOfHome.host(): TasteOfHome,
     TastesBetterFromScratch.host(): TastesBetterFromScratch,
     TastesOfLizzyT.host(): TastesOfLizzyT,
@@ -1222,6 +1337,7 @@ SCRAPERS = {
     TastyKitchen.host(): TastyKitchen,
     TastyOven.host(): TastyOven,
     TatyanasEverydayFood.host(): TatyanasEverydayFood,
+    TeakAndThyme.host(): TeakAndThyme,
     TheAlmondEater.host(): TheAlmondEater,
     TheBigMansWorld.host(): TheBigMansWorld,
     TheCleverCarrot.host(): TheCleverCarrot,
@@ -1255,6 +1371,7 @@ SCRAPERS = {
     Thewoksoflife.host(): Thewoksoflife,
     TheWoodenSkillet.host(): TheWoodenSkillet,
     Thinlicious.host(): Thinlicious,
+    ThirtySeconds.host(): ThirtySeconds,
     ThisHealthyTable.host(): ThisHealthyTable,
     ThreeSixFiveDaysOfBakingAndMore.host(): ThreeSixFiveDaysOfBakingAndMore,
     TidyMom.host(): TidyMom,
@@ -1263,6 +1380,7 @@ SCRAPERS = {
     Tofoo.host(): Tofoo,
     ToriAvey.host(): ToriAvey,
     TudoGostoso.host(): TudoGostoso,
+    TudoReceitas.host(): TudoReceitas,
     TwentyFourKitchen.host(): TwentyFourKitchen,
     TwoPeasAndTheirPod.host(): TwoPeasAndTheirPod,
     UitPaulinesKeukenNL.host(): UitPaulinesKeukenNL,
@@ -1273,6 +1391,7 @@ SCRAPERS = {
     ValentinasCorner.host(): ValentinasCorner,
     VanillaAndBean.host(): VanillaAndBean,
     VarechaPravdaSK.host(): VarechaPravdaSK,
+    VeganRicha.host(): VeganRicha,
     VeganSociety.host(): VeganSociety,
     Vegetarbloggen.host(): Vegetarbloggen,
     Vegolosi.host(): Vegolosi,

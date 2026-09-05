@@ -1,0 +1,62 @@
+{
+  "author": "Cuisine et Vins de France",
+  "canonical_url": "https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp",
+  "site_name": "Marie Claire",
+  "host": "marieclaire.fr",
+  "language": "fr",
+  "title": "Pissaladière sans gluten : la recette provençale qui ne fait aucun compromis sur la gourmandise",
+  "ingredients": [
+    "250 g de farine sans gluten (mix spécial pain)",
+    "7 g de levure boulangère sèche",
+    "1 c. à c. de sucre",
+    "1 c. à c. de sel",
+    "2 c. à s. d'huile d'olive",
+    "180 ml d'eau tiède",
+    "800 g d'oignons jaunes",
+    "3 c. à s. d'huile d'olive",
+    "2 gousses d'ail",
+    "1 branche de thym",
+    "1 feuille de laurier",
+    "8 à 10 filets d'anchois",
+    "Une vingtaine d'olives noires",
+    "Poivre du moulin"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "250 g de farine sans gluten (mix spécial pain)",
+        "7 g de levure boulangère sèche",
+        "1 c. à c. de sucre",
+        "1 c. à c. de sel",
+        "2 c. à s. d'huile d'olive",
+        "180 ml d'eau tiède"
+      ],
+      "purpose": "Pour la pâte :"
+    },
+    {
+      "ingredients": [
+        "800 g d'oignons jaunes",
+        "3 c. à s. d'huile d'olive",
+        "2 gousses d'ail",
+        "1 branche de thym",
+        "1 feuille de laurier",
+        "8 à 10 filets d'anchois",
+        "Une vingtaine d'olives noires",
+        "Poivre du moulin"
+      ],
+      "purpose": "Pour la garniture :"
+    }
+  ],
+  "instructions_list": [
+    "Commencez par préparer la pâte en mélangeant la farine sans gluten, la levure, le sucre et le sel. Incorporez l'huile d'olive, puis versez progressivement l'eau tiède jusqu'à obtenir une pâte homogène et souple. Pétrissez quelques minutes, couvrez d'un torchon propre et laissez lever pendant environ une heure.",
+    "Pendant ce temps, épluchez et émincez finement les oignons. Faites-les revenir doucement dans l'huile d'olive avec l'ail haché, le thym et le laurier. Laissez cuire à feu doux pendant 30 à 40 minutes en remuant régulièrement, jusqu'à ce qu'ils deviennent fondants et légèrement confits. Retirez le thym et le laurier, puis poivrez.",
+    "Préchauffez le four à 200 °C. Étalez la pâte sur une plaque recouverte de papier cuisson. Répartissez les oignons sur toute la surface, disposez les filets d'anchois en croisillons puis ajoutez les olives noires.",
+    "Enfournez 30 à 35 minutes, jusqu'à ce que la pâte soit bien dorée. Dégustez la pissaladière tiède ou froide !"
+  ],
+  "category": "Entrée",
+  "yields": "6 servings",
+  "description": "Envie de retrouver toutes les saveurs du Sud sans gluten ? Avec sa pâte moelleuse, ses oignons longuement confits, ses anchois et ses olives noires, cette pissaladière revisite le grand classique niçois tout en restant fidèle à la recette traditionnelle. Un incontournable à partager tout l'été.",
+  "total_time": 85,
+  "prep_time": 25,
+  "image": "https://cache.marieclaire.fr/data/photo/w1200_h630_c17/7f/recette-de-pissaladiere-sans-gluten.jpg"
+}
