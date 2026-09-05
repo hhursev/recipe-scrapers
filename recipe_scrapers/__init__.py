@@ -170,6 +170,7 @@ from .cuisineaz import CuisineAZ
 from .cuisinezpourbebe import CuisinezPourBebe
 from .culinaryhill import CulinaryHill
 from .culy import Culy
+from .curatedkitchenware import CuratedKitchenware
 from .cybercook import Cybercook
 from .dagelijksekost import DagelijkseKost
 from .damndelicious import DamnDelicious
@@ -897,6 +898,7 @@ SCRAPERS = {
     CuisinezPourBebe.host(): CuisinezPourBebe,
     CulinaryHill.host(): CulinaryHill,
     Culy.host(): Culy,
+    CuratedKitchenware.host(): CuratedKitchenware,
     Cybercook.host(): Cybercook,
     DagelijkseKost.host(): DagelijkseKost,
     DamnDelicious.host(): DamnDelicious,
