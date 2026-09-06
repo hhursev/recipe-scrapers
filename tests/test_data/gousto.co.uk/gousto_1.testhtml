@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Halloumi Burger With Wedges And Smoky Tomato Relish</title>
+</head>
+<body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Halloumi Burger With Wedges And Smoky Tomato Relish",
+  "author": {
+    "@type": "Organization",
+    "name": "Gousto"
+  },
+  "description": "Packed with flavour, halloumi makes a brilliantly satisfying filling for a yummy vegetarian burger. Once you've fried slices of the halloumi till beautifully golden, you'll sandwich them into garlicky ciabatta along with a sweet, smoky tomato relish and a dressed salad. Hallelujah halloumi!",
+  "image": "https://production-media.gousto.co.uk/cms/mood-image/865---Halloumi-Burger-With-Wedges-And-Smoky-Tomato-Relish2400-1692087524970-x1500.jpg",
+  "recipeCategory": "Vegetarian",
+  "recipeCuisine": "Mediterranean",
+  "recipeIngredient": [
+    "Dried oregano (1tsp)",
+    "Ground smoked paprika (1tsp)",
+    "Ground smoked paprika (2tsp) x0",
+    "Ciabatta x2",
+    "Garlic clove",
+    "Tomato x2",
+    "Red wine vinegar (30ml) x0",
+    "Halloumi (200g)",
+    "Rocket (50g)",
+    "Red wine vinegar (15ml)",
+    "White potato x3"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Preheat the oven to 220°C/ 200°C (fan)/ gas 7 and boil a full kettle\nCut your potatoes (skins on) into wedges and add them to a baking tray (or two!) with a drizzle of vegetable oil\nSeason with a pinch of salt and pepper and sprinkle over your dried oregano, then put the tray[s] in the oven for 20-25 min or until the wedges are golden and crispy"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Meanwhile, slice your halloumi in half, lengthways (like you're slicing a burger bun!)\nAdd 500ml [750ml] [1L] boiled water to a wide-based deep pan and bring to the boil over a high heat\nOnce boiling, reduce the heat to medium, add the halloumi half[ves] and cook for 5-6 min or until softened"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Meanwhile, chop your tomato[es] finely\nPeel your garlic and chop in half, discard the skin\nChop (or grate) half the garlic finely (you'll use the rest later!)\nHeat a pot with a generous drizzle of olive oil over a medium heat"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Once hot, add the chopped tomatoes, chopped garlic, your ground smoked paprika and half your red wine vinegar (save the rest for later!) and cook for 2-3 min or until the tomato is starting to break down\nAdd 1 tbsp [1 1/2 tbsp] [2 tbsp] sugar and 2 tbsp [3 tbsp] [4 tbsp] water and increase the heat to medium-high\nCook for 5-8 min or until thickened to a chutney-like consistency – this is your smoky tomato relish"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Once softened, drain and pat the halloumi half[ves] dry with kitchen paper (save the pan!)\nUsing a rolling pin, flatten the halloumi half[ves] into a similar size as the ciabatta – this is your halloumi steak[s]"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Slice your ciabatta[s] in half, add to a separate baking tray (or two!) and drizzle with olive oil\nPut the tray[s] in the oven for 4 min or until slightly crispy, then remove from the oven and leave to cool\nCombine the remaining red wine vinegar with 2 tbsp [3 tbsp] [4 tbsp] olive oil and a pinch of salt and pepper– this is your dressing\nOnce cooled, rub the remaining garlic into the crispy ciabatta"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Once the potato wedges are nearly cooked, return the wide-based pan to a medium-high heat\nOnce hot, add the halloumi steak[s] to the pan and cook for 1-2 min on each side or until golden\nMeanwhile, wash your salad, then pat it dry with kitchen paper and toss it in the dressing"
+    },
+    {
+      "@type": "HowToStep",
+      "text": "To assemble, fill the garlicky ciabatta with the halloumi steak and top with the smoky tomato relish and a handful of dressed salad – this is your halloumi burger\nServe the remaining dressed salad, any remaining smoky tomato relish and the wedges to the side\nEnjoy!"
+    }
+  ],
+  "totalTime": "PT30M",
+  "recipeYield": "2 servings",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "636",
+    "fatContent": "24.7g",
+    "saturatedFatContent": "16.0g",
+    "carbohydrateContent": "73.2g",
+    "sugarContent": "5.5g",
+    "fiberContent": "7.2g",
+    "proteinContent": "31.9g",
+    "sodiumContent": "2.8g"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "bestRating": 5,
+    "worstRating": 1,
+    "ratingCount": 22355
+  }
+}
+</script>
+</body>
+</html>
