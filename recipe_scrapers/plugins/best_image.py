@@ -3,7 +3,8 @@ import logging
 import re
 from collections import OrderedDict
 from collections.abc import Iterator
-from typing import Optional, Union
+from typing import ClassVar, Optional, Union
+from urllib.parse import urljoin, urlsplit
 
 from recipe_scrapers.settings import settings
 
@@ -24,6 +25,25 @@ class BestImagePlugin(PluginInterface):
     )
     _QUERY_WIDTH_PATTERN = re.compile(r"[?&](?:w|width)=(\d{3,5})", re.IGNORECASE)
     _QUERY_HEIGHT_PATTERN = re.compile(r"[?&](?:h|height)=(\d{3,5})", re.IGNORECASE)
+    _JUNK_URL_PATTERN = re.compile(
+        r"(?:^|[/.-])(?:favicon|apple-touch-icon|icon(?:[.-][\w-]+)?|logo)(?:[/.?-]|$)",
+        re.IGNORECASE,
+    )
+    _IMAGE_META_PROPS = frozenset(
+        {
+            "og:image",
+            "og:image:url",
+            "og:image:secure_url",
+            "twitter:image",
+            "twitter:image:src",
+        }
+    )
+    _SOURCE_PRIORITY: ClassVar[dict[str, int]] = {
+        "primary": 3,
+        "schema": 2,
+        "opengraph": 1,
+        "twitter": 1,
+    }
 
     @classmethod
     def run(cls, decorated):
@@ -53,10 +73,11 @@ class BestImagePlugin(PluginInterface):
     @classmethod
     def _collect_candidates(cls, scraper, image) -> list[dict]:
         candidates: "OrderedDict[str, dict]" = OrderedDict()
+        base_url = cls._resolve_base_url(getattr(scraper, "url", ""))
 
         def register(entry, source: str) -> None:
             for normalized in cls._normalize_entries(entry):
-                cls._merge_candidate(candidates, normalized, source)
+                cls._merge_candidate(candidates, normalized, source, base_url)
 
         register(image, "primary")
 
@@ -64,7 +85,7 @@ class BestImagePlugin(PluginInterface):
         if isinstance(schema_images, dict):
             register(schema_images.get("image"), "schema")
 
-        cls._collect_opengraph_candidates(scraper, candidates)
+        cls._collect_meta_image_candidates(scraper, candidates, base_url)
 
         return list(candidates.values())
 
@@ -109,8 +130,11 @@ class BestImagePlugin(PluginInterface):
             return
 
     @classmethod
-    def _collect_opengraph_candidates(
-        cls, scraper, candidates: "OrderedDict[str, dict]"
+    def _collect_meta_image_candidates(
+        cls,
+        scraper,
+        candidates: "OrderedDict[str, dict]",
+        base_url: str,
     ) -> None:
         soup = getattr(scraper, "soup", None)
         if soup is None:
@@ -124,9 +148,10 @@ class BestImagePlugin(PluginInterface):
             if not content:
                 continue
 
-            if prop in {"og:image", "og:image:url", "og:image:secure_url"}:
+            if prop in cls._IMAGE_META_PROPS:
                 url = content.strip()
                 current_url = url
+                source = "twitter" if prop.startswith("twitter:") else "opengraph"
                 if url not in images:
                     images[url] = {
                         "url": url,
@@ -134,21 +159,25 @@ class BestImagePlugin(PluginInterface):
                         "height": None,
                     }
                 current = images[url]
-                cls._merge_candidate(candidates, current, "opengraph")
+                cls._merge_candidate(candidates, current, source, base_url)
             elif (
                 prop == "og:image:width"
                 and current_url is not None
                 and current_url in images
             ):
                 images[current_url]["width"] = cls._parse_dimension(content)
-                cls._merge_candidate(candidates, images[current_url], "opengraph")
+                cls._merge_candidate(
+                    candidates, images[current_url], "opengraph", base_url
+                )
             elif (
                 prop == "og:image:height"
                 and current_url is not None
                 and current_url in images
             ):
                 images[current_url]["height"] = cls._parse_dimension(content)
-                cls._merge_candidate(candidates, images[current_url], "opengraph")
+                cls._merge_candidate(
+                    candidates, images[current_url], "opengraph", base_url
+                )
 
     @classmethod
     def _merge_candidate(
@@ -156,14 +185,12 @@ class BestImagePlugin(PluginInterface):
         candidates: "OrderedDict[str, dict]",
         candidate: Union[dict, None],
         source: str,
+        base_url: str = "",
     ) -> None:
         if not candidate:
             return
 
-        url = candidate.get("url")
-        if not url:
-            return
-        url = url.strip()
+        url = cls._normalize_url(candidate.get("url"), base_url)
         if not url:
             return
 
@@ -186,6 +213,50 @@ class BestImagePlugin(PluginInterface):
         if height is not None:
             existing["height"] = cls._max_dimension(existing.get("height"), height)
         existing.setdefault("sources", set()).add(source)
+
+    @staticmethod
+    def _resolve_base_url(url: str) -> str:
+        url = (url or "").strip()
+        if not url:
+            return ""
+        if url.startswith("//"):
+            return "https:" + url
+        if not url.startswith(("http://", "https://")):
+            url = "http://" + url.lstrip("/")
+        return url
+
+    @classmethod
+    def _normalize_url(cls, url, base_url: str = "") -> Optional[str]:
+        if url is None:
+            return None
+
+        url = str(url).strip()
+        if not url or url.startswith("data:"):
+            return None
+
+        if url.startswith("//"):
+            url = "https:" + url
+        elif not url.startswith(("http://", "https://")):
+            resolved_base = cls._resolve_base_url(base_url)
+            if resolved_base:
+                url = urljoin(resolved_base, url)
+
+        parts = urlsplit(url)
+        if parts.scheme not in {"http", "https"} or not parts.netloc:
+            return None
+
+        return url
+
+    @classmethod
+    def _is_junk_url(cls, url: str) -> bool:
+        path = urlsplit(url).path
+        return bool(cls._JUNK_URL_PATTERN.search(path))
+
+    @classmethod
+    def _source_priority(cls, sources: set[str]) -> int:
+        if not sources:
+            return 0
+        return max(cls._SOURCE_PRIORITY.get(source, 0) for source in sources)
 
     @staticmethod
     def _max_dimension(current, new):
@@ -223,7 +294,7 @@ class BestImagePlugin(PluginInterface):
     @classmethod
     def _select_best_candidate(cls, candidates: list[dict]) -> Optional[str]:
         best_candidate: Optional[dict] = None
-        best_score = (-1, 0, 0)
+        best_score: tuple[int, ...] = (-1, -1, -1, 0)
 
         for candidate in candidates:
             score = cls._score_candidate(candidate)
@@ -236,7 +307,11 @@ class BestImagePlugin(PluginInterface):
         return None
 
     @classmethod
-    def _score_candidate(cls, candidate: dict) -> tuple[int, int, int]:
+    def _score_candidate(cls, candidate: dict) -> tuple[int, int, int, int]:
+        url = candidate.get("url", "")
+        if cls._is_junk_url(url):
+            return (-1, 0, 0, candidate.get("order", 0))
+
         width, height = cls._ensure_dimensions(candidate)
         area = 0
         if width and height:
@@ -246,9 +321,10 @@ class BestImagePlugin(PluginInterface):
             if side:
                 area = side * side
 
-        secure = 1 if candidate.get("url", "").startswith("https://") else 0
+        source_priority = cls._source_priority(candidate.get("sources", set()))
+        secure = 1 if url.startswith("https://") else 0
         order = -candidate.get("order", 0)
-        return (area, secure, order)
+        return (area, source_priority, secure, order)
 
     @classmethod
     def _ensure_dimensions(cls, candidate: dict) -> tuple[Optional[int], Optional[int]]:
