@@ -274,17 +274,19 @@ class SchemaOrg:
         if type(schema_item) is str:
             instructions_gist.append(schema_item)
         elif schema_item.get("@type") == "HowToStep":
-            if schema_item.get("name", False):
+            text = schema_item.get("text")
+            name = schema_item.get("name")
+            if name:
                 # some sites have duplicated name and text properties (1:1)
                 # others have name same as text but truncated to X chars.
                 # ignore name in these cases and add the name value only if it's different from the text
-                if not schema_item.get("text").startswith(
-                    schema_item.get("name").rstrip(".")
-                ):
-                    instructions_gist.append(schema_item.get("name"))
+                if text is not None and not text.startswith(name.rstrip(".")):
+                    instructions_gist.append(name)
             if schema_item.get("itemListElement"):
                 schema_item = schema_item.get("itemListElement")
-            instructions_gist.append(schema_item.get("text"))
+            instructions_gist.append(
+                schema_item.get("text") or schema_item.get("name") or ""
+            )
         elif schema_item.get("@type") == "HowToSection":
             name = schema_item.get("name") or schema_item.get("Name")
             if name is not None:
@@ -316,7 +318,7 @@ class SchemaOrg:
                 )  # flatten, only if all items are list
 
         if isinstance(instructions, dict):
-            instructions = instructions.get("itemListElement")
+            instructions = instructions.get("itemListElement") or [instructions]
 
         if isinstance(instructions, list):
             instructions_gist = []
