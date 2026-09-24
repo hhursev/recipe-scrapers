@@ -516,8 +516,8 @@ from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
 from .rickbayless import RickBayless
 from .rosannapansino import RosannaPansino
-from .rutgerbakt import RutgerBakt
 from .russianfood import RussianFood
+from .rutgerbakt import RutgerBakt
 from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
@@ -674,6 +674,7 @@ from .zaubertopf import ZauberTopf
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 from .zestfulkitchen import ZestfulKitchen
+from .zuckerjagdwurst import ZuckerJagdwurst
 
 SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
@@ -1264,8 +1265,8 @@ SCRAPERS = {
     RicettePerBimby.host(): RicettePerBimby,
     RickBayless.host(): RickBayless,
     RosannaPansino.host(): RosannaPansino,
-    RutgerBakt.host(): RutgerBakt,
     RussianFood.host(): RussianFood,
+    RutgerBakt.host(): RutgerBakt,
     SaboresAjinomoto.host(): SaboresAjinomoto,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
@@ -1423,6 +1424,7 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     ZestfulKitchen.host(): ZestfulKitchen,
+    ZuckerJagdwurst.host(): ZuckerJagdwurst,
 }
 
 
