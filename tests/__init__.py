@@ -87,7 +87,6 @@ def test_func_factory(
                 if "ingredient_groups" in expect
                 else [IngredientGroup(expect["ingredients"], purpose=None)]
             )
-
         supported_only = host in SCRAPERS
         actual = scrape_html(
             html=testhtml.read_text(encoding="utf-8"),
