@@ -6,6 +6,7 @@ from typing import Callable
 from recipe_scrapers import SCRAPERS, scrape_html
 from recipe_scrapers._exceptions import StaticValueException
 from recipe_scrapers._grouping_utils import IngredientGroup
+from recipe_scrapers._notes_utils import RecipeNote
 
 MANDATORY_TESTS = [
     "author",
@@ -28,6 +29,7 @@ OPTIONAL_TESTS = [
     "description",
     "cook_time",
     "cuisine",
+    "notes",
     "nutrients",
     "prep_time",
     "cooking_method",
@@ -86,6 +88,8 @@ def test_func_factory(
                 if "ingredient_groups" in expect
                 else [IngredientGroup(expect["ingredients"], purpose=None)]
             )
+            if "notes" in expect:
+                expect["notes"] = [RecipeNote(**note) for note in expect["notes"]]
         supported_only = host in SCRAPERS
         actual = scrape_html(
             html=testhtml.read_text(encoding="utf-8"),
