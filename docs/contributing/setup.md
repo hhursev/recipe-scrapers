@@ -137,7 +137,7 @@ If you have troubles check out [Submitting A  Pull Request Section](#submitting-
 When you submit your PR:
 
 1. Our CI suite will run against your code to ensure everything works as expected. You can run the
-2. tests locally before submitting:
+tests locally before submitting:
 ```sh
 python -m unittest
 # or
