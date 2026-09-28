@@ -10,7 +10,7 @@ from recipe_scrapers.settings import settings
 
 from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import group_ingredients, IngredientGroup
-from ._notes_utils import extract_notes, RecipeNote
+from ._notes_utils import extract_notes
 from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
@@ -109,7 +109,7 @@ class AbstractScraper:
         """List of ingredient groups with purpose and ingredients."""
         return group_ingredients(self.ingredients(), self.soup)
 
-    def notes(self) -> list[RecipeNote]:
+    def notes(self) -> list[str]:
         """List of notes or tips associated with the recipe."""
         return extract_notes(self.soup)
 
@@ -203,7 +203,7 @@ class AbstractScraper:
         ]
         for method in public_method_names:
             try:
-                if method in ("ingredient_groups", "notes"):
+                if method == "ingredient_groups":
                     json_dict[method] = [i.__dict__ for i in getattr(self, method)()]
                 else:
                     json_dict[method] = getattr(self, method)()
