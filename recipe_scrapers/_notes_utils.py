@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup, Tag
 
 from ._utils import normalize_string
 
+NOTE_ELEMENTS = ("span", "p", "ul", "ol", "li")
+
 
 def extract_notes(soup: BeautifulSoup) -> list[str]:
     """Extract recipe notes from common WordPress recipe plugin HTML formats.
@@ -25,20 +27,40 @@ def extract_notes(soup: BeautifulSoup) -> list[str]:
     return []
 
 
+def _collect(element: Tag, notes: list[str]) -> None:
+    """Append the note text of ``element`` to ``notes``.
+
+    Lists contribute one note per *leaf* list item.  Block editors nest lists
+    inside a wrapper ``<li>``, and the wrapper's text already contains the text
+    of the items below it, so only leaves are collected to avoid duplicates.
+    """
+    if element.name in ("ul", "ol"):
+        for item in element.find_all("li"):
+            if item.find(["li", "p"]):
+                continue
+            _collect_text(item, notes)
+    else:
+        _collect_text(element, notes)
+
+
+def _collect_text(element: Tag, notes: list[str]) -> None:
+    text = normalize_string(element.get_text())
+    if text:
+        notes.append(text)
+
+
 def _extract_wprm_notes(container: Tag) -> list[str]:
     """Extract notes from a WP Recipe Maker notes container.
 
-    WPRM renders each note as a ``<span>`` that is a *direct* child of the
-    container.  Using direct children (rather than ``find_all("span")``)
-    avoids picking up spans from the nutrition label widget, which WPRM
-    sometimes renders adjacent to the notes in the same recipe block.
+    WPRM renders notes as ``<span>`` elements or as a list, in both cases as
+    *direct* children of the container.  Restricting to direct children (rather
+    than searching the whole subtree) avoids picking up the nutrition label
+    widget, which WPRM sometimes renders as a ``<div>`` in the same container.
     """
-    notes = []
+    notes: list[str] = []
     for child in container.children:
-        if getattr(child, "name", None) == "span":
-            text = normalize_string(child.get_text())
-            if text:
-                notes.append(text)
+        if isinstance(child, Tag) and child.name in NOTE_ELEMENTS:
+            _collect(child, notes)
     return notes
 
 
@@ -47,9 +69,9 @@ def _extract_tasty_notes(container: Tag) -> list[str]:
 
     Tasty Recipes renders notes as ``<p>`` paragraphs or ``<li>`` list items.
     """
-    notes = []
+    notes: list[str] = []
     for element in container.find_all(["p", "li"]):
-        text = normalize_string(element.get_text())
-        if text:
-            notes.append(text)
+        if element.find(["p", "li"]):
+            continue
+        _collect_text(element, notes)
     return notes
