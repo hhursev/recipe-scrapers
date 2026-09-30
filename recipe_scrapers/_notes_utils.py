@@ -30,11 +30,14 @@ def extract_notes(soup: BeautifulSoup) -> list[str]:
 def _collect(element: Tag, notes: list[str]) -> None:
     """Append the note text of ``element`` to ``notes``.
 
-    Lists contribute one note per *leaf* list item.  Block editors nest lists
-    inside a wrapper ``<li>``, and the wrapper's text already contains the text
-    of the items below it, so only leaves are collected to avoid duplicates.
-    A wrapper ``<li>``'s own leading text (e.g. a label introducing the nested
-    list) isn't part of any leaf, so it's collected separately.
+    - A non-list element (``<span>``, ``<p>``, ...): its whole text becomes
+      one note.
+    - A ``<ul>``/``<ol>``: each *leaf* ``<li>`` becomes one note.
+    - A wrapper ``<li>`` (one that nests another ``<li>`` or ``<p>``, as block
+      editors do for a sub-list): its own leading text (e.g. a label
+      introducing the sub-list) becomes a separate note; the nested items are
+      collected as their own leaves rather than duplicating them via the
+      wrapper's full ``get_text()``.
     """
     if element.name in ("ul", "ol"):
         for item in element.find_all("li"):
@@ -59,14 +62,19 @@ def _collect_text(element: Tag, notes: list[str]) -> None:
 def _extract_wprm_notes(container: Tag) -> list[str]:
     """Extract notes from a WP Recipe Maker notes container.
 
-    WPRM renders notes as ``<span>`` elements or as a list.  Block editors
-    (e.g. Gutenberg) sometimes wrap these in plain ``<div>`` blocks, or (for
-    notes with no other block-level markup, only inline formatting like
-    ``<em>``/``<strong>``/``<a>``) render a note as a bare ``<div>`` of text,
-    so such wrapper divs are unwrapped rather than treated as opaque. The
-    nutrition label widget and section headers, which WPRM sometimes renders
-    as a ``<div>`` in the same container, are skipped so their contents
-    aren't picked up as notes.
+    WPRM's markup varies by site, so each child of the container is handled
+    according to what it is:
+
+    - ``<span>``, ``<p>``, ``<ul>``, ``<ol>`` or ``<li>``: collected directly
+      as a note (see ``_collect``).
+    - A plain ``<div>`` (block editors like Gutenberg often wrap notes in
+      one): unwrapped, and its own children are handled by these same rules.
+    - A ``<div>`` with no block-level note structure inside it (just text, or
+      only inline formatting like ``<em>``/``<strong>``/``<a>``): treated as
+      a single leaf note, collecting all of its text.
+    - A ``<div>`` identified as the nutrition label widget or a section
+      header (by class name), which WPRM sometimes renders inside the same
+      container: skipped entirely so its contents aren't picked up as notes.
     """
     notes: list[str] = []
     _collect_wprm_notes(container, notes)
