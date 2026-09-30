@@ -33,10 +33,17 @@ def _collect(element: Tag, notes: list[str]) -> None:
     Lists contribute one note per *leaf* list item.  Block editors nest lists
     inside a wrapper ``<li>``, and the wrapper's text already contains the text
     of the items below it, so only leaves are collected to avoid duplicates.
+    A wrapper ``<li>``'s own leading text (e.g. a label introducing the nested
+    list) isn't part of any leaf, so it's collected separately.
     """
     if element.name in ("ul", "ol"):
         for item in element.find_all("li"):
             if item.find(["li", "p"]):
+                own_text = normalize_string(
+                    "".join(item.find_all(string=True, recursive=False))
+                )
+                if own_text:
+                    notes.append(own_text)
                 continue
             _collect_text(item, notes)
     else:
@@ -52,16 +59,35 @@ def _collect_text(element: Tag, notes: list[str]) -> None:
 def _extract_wprm_notes(container: Tag) -> list[str]:
     """Extract notes from a WP Recipe Maker notes container.
 
-    WPRM renders notes as ``<span>`` elements or as a list, in both cases as
-    *direct* children of the container.  Restricting to direct children (rather
-    than searching the whole subtree) avoids picking up the nutrition label
-    widget, which WPRM sometimes renders as a ``<div>`` in the same container.
+    WPRM renders notes as ``<span>`` elements or as a list.  Block editors
+    (e.g. Gutenberg) sometimes wrap these in plain ``<div>`` blocks, or (for
+    notes with no other markup) render a note as a bare ``<div>`` of text, so
+    such wrapper divs are unwrapped rather than treated as opaque. The
+    nutrition label widget and section headers, which WPRM sometimes renders
+    as a ``<div>`` in the same container, are skipped so their contents
+    aren't picked up as notes.
     """
     notes: list[str] = []
-    for child in container.children:
-        if isinstance(child, Tag) and child.name in NOTE_ELEMENTS:
-            _collect(child, notes)
+    _collect_wprm_notes(container, notes)
     return notes
+
+
+def _collect_wprm_notes(container: Tag, notes: list[str]) -> None:
+    for child in container.children:
+        if not isinstance(child, Tag):
+            continue
+        if child.name in NOTE_ELEMENTS:
+            _collect(child, notes)
+        elif child.name == "div" and not _is_non_note_widget(child):
+            if child.find(True) is None:
+                _collect_text(child, notes)
+            else:
+                _collect_wprm_notes(child, notes)
+
+
+def _is_non_note_widget(element: Tag) -> bool:
+    classes = element.get("class", [])
+    return any("nutrition" in cls or "header" in cls for cls in classes)
 
 
 def _extract_tasty_notes(container: Tag) -> list[str]:
