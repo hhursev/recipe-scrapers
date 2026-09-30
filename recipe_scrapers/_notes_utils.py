@@ -61,8 +61,9 @@ def _extract_wprm_notes(container: Tag) -> list[str]:
 
     WPRM renders notes as ``<span>`` elements or as a list.  Block editors
     (e.g. Gutenberg) sometimes wrap these in plain ``<div>`` blocks, or (for
-    notes with no other markup) render a note as a bare ``<div>`` of text, so
-    such wrapper divs are unwrapped rather than treated as opaque. The
+    notes with no other block-level markup, only inline formatting like
+    ``<em>``/``<strong>``/``<a>``) render a note as a bare ``<div>`` of text,
+    so such wrapper divs are unwrapped rather than treated as opaque. The
     nutrition label widget and section headers, which WPRM sometimes renders
     as a ``<div>`` in the same container, are skipped so their contents
     aren't picked up as notes.
@@ -79,10 +80,10 @@ def _collect_wprm_notes(container: Tag, notes: list[str]) -> None:
         if child.name in NOTE_ELEMENTS:
             _collect(child, notes)
         elif child.name == "div" and not _is_non_note_widget(child):
-            if child.find(True) is None:
-                _collect_text(child, notes)
-            else:
+            if child.find(NOTE_ELEMENTS + ("div",)):
                 _collect_wprm_notes(child, notes)
+            else:
+                _collect_text(child, notes)
 
 
 def _is_non_note_widget(element: Tag) -> bool:
