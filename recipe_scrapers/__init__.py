@@ -501,6 +501,7 @@ from .recept import Recept
 from .receptiindex import ReceptiIndex
 from .receptyprevas import ReceptyPreVas
 from .recetteplus import RecettePlus
+from .recettesetcabas import RecettesEtCabas
 from .recipeforperfection import RecipeForPerfection
 from .recipegirl import RecipeGirl
 from .recipeland import RecipeLand
@@ -1249,6 +1250,7 @@ SCRAPERS = {
     ReceptiIndex.host(): ReceptiIndex,
     ReceptyPreVas.host(): ReceptyPreVas,
     RecettePlus.host(): RecettePlus,
+    RecettesEtCabas.host(): RecettesEtCabas,
     RecipeForPerfection.host(): RecipeForPerfection,
     RecipeGirl.host(): RecipeGirl,
     RecipeLand.host(): RecipeLand,
