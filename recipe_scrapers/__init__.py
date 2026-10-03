@@ -266,6 +266,7 @@ from .goldnplump import GoldnPlump
 from .gonnawantseconds import GonnaWantSeconds
 from .goodfooddiscoveries import GoodFoodDiscoveries
 from .goodhousekeeping import GoodHousekeeping
+from .gousto import Gousto
 from .goodstuffrecipes import GoodStuffRecipes
 from .gourmandize import Gourmandize
 from .gourmettraveller import GourmetTraveller
@@ -998,6 +999,7 @@ SCRAPERS = {
     GoodStuffRecipes.host(): GoodStuffRecipes,
     Gourmandize.host(): Gourmandize,
     GourmetTraveller.host(): GourmetTraveller,
+    Gousto.host(): Gousto,
     GrandbabyCakes.host(): GrandbabyCakes,
     GrandFrais.host(): GrandFrais,
     GreatBritishChefs.host(): GreatBritishChefs,
