@@ -184,6 +184,29 @@ class TestUtils(unittest.TestCase):
             with self.subTest(input_text=input_text):
                 self.assertEqual(expected, get_yields(input_text))
 
+    def test_get_yields_fractional_numbers(self):
+        # Mixed numbers, unicode fractions, and decimal fractions in yield strings.
+        # Regression test for #1916: get_yields dropped the fractional part of
+        # mixed numbers like "2 1/2 cups" and unicode-fraction strings like "1½ dozen".
+        test_cases = [
+            ("2 1/2 cups", "2.5 cups"),
+            ("1 1/2 cups", "1.5 cups"),
+            ("1 3/4 cups", "1.75 cups"),
+            ("1 1/4 cups", "1.25 cups"),
+            ("1 2/3 cups", "1.6666666666666665 cups"),
+            ("1 1/2 dozen", "1.5 dozen"),
+            ("2 1/2 dozen", "2.5 dozen"),
+            ("1½ dozen", "1.5 dozen"),
+            ("2½ dozen", "2.5 dozen"),
+            ("1⅓ dozen", "1.3333333333333333 dozen"),
+            ("½ dozen", "0.5 dozen"),
+            ("1.5 cups", "1.5 cups"),
+            ("1 1/2 servings", "1.5 servings"),
+        ]
+        for input_text, expected in test_cases:
+            with self.subTest(input_text=input_text):
+                self.assertEqual(expected, get_yields(input_text))
+
     def test_format_diet_name_from_restricted_diet_url(self):
         self.assertEqual("Vegan Diet", format_diet_name("https://schema.org/VeganDiet"))
         self.assertEqual(
