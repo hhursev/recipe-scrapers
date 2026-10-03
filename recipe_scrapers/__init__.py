@@ -516,6 +516,7 @@ from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
 from .rickbayless import RickBayless
 from .rosannapansino import RosannaPansino
+from .rufflesandrainboots import RufflesAndRainboots
 from .rutgerbakt import RutgerBakt
 from .russianfood import RussianFood
 from .saboresajinomoto import SaboresAjinomoto
@@ -1264,6 +1265,7 @@ SCRAPERS = {
     RicettePerBimby.host(): RicettePerBimby,
     RickBayless.host(): RickBayless,
     RosannaPansino.host(): RosannaPansino,
+    RufflesAndRainboots.host(): RufflesAndRainboots,
     RutgerBakt.host(): RutgerBakt,
     RussianFood.host(): RussianFood,
     SaboresAjinomoto.host(): SaboresAjinomoto,
