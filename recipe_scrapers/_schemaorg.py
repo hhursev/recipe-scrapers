@@ -331,6 +331,55 @@ class SchemaOrg:
 
         return instructions
 
+    def instruction_groups(self) -> list[dict]:
+        """Return ordered instruction sections without flattening step boundaries."""
+        instructions = self.data.get("recipeInstructions") or self.data.get(
+            "RecipeInstructions"
+        )
+        if not instructions:
+            return []
+        if isinstance(instructions, dict) and instructions.get("@type") not in (
+            "HowToSection",
+            "HowToStep",
+        ):
+            instructions = instructions.get("itemListElement") or instructions
+
+        def steps_from(value):
+            if isinstance(value, str):
+                # normalize_string collapses newlines, so clean each line separately.
+                lines = [normalize_string(line) for line in value.splitlines()]
+                step = "\n".join(line for line in lines if line)
+                return [step] if step else []
+            if isinstance(value, list):
+                return [step for item in value for step in steps_from(item)]
+            if isinstance(value, dict):
+                if value.get("@type") == "HowToSection":
+                    return steps_from(value.get("itemListElement"))
+                if value.get("@type") == "HowToStep":
+                    return steps_from(value.get("text") or value.get("name"))
+                if value.get("itemListElement"):
+                    return steps_from(value["itemListElement"])
+            return []
+
+        groups = []
+        items = instructions if isinstance(instructions, list) else [instructions]
+        for item in items:
+            if isinstance(item, dict) and item.get("@type") == "HowToSection":
+                steps = steps_from(item.get("itemListElement"))
+                if steps:
+                    groups.append(
+                        {"name": item.get("name") or item.get("Name"), "steps": steps}
+                    )
+            else:
+                steps = steps_from(item)
+                if not steps:
+                    continue
+                if groups and groups[-1]["name"] is None:
+                    groups[-1]["steps"].extend(steps)
+                else:
+                    groups.append({"name": None, "steps": steps})
+        return groups
+
     def ratings(self):
         ratings = self.data.get("aggregateRating") or self._find_entity(
             self.data, "AggregateRating"
