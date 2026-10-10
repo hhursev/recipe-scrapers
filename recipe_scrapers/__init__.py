@@ -597,6 +597,7 @@ from .thecookierookie import TheCookieRookie
 from .thecookingguy import TheCookingGuy
 from .thecountrycook import TheCountryCook
 from .thefirstmess import TheFirstMess
+from .theflavorbender import TheFlavorBender
 from .thefoodcharlatan import TheFoodCharlatan
 from .thefoodietakesflight import TheFoodieTakesFlight
 from .theglutenfreeaustrian import TheGlutenFreeAustrian
@@ -1345,6 +1346,7 @@ SCRAPERS = {
     TheCookingGuy.host(): TheCookingGuy,
     TheCountryCook.host(): TheCountryCook,
     TheFirstMess.host(): TheFirstMess,
+    TheFlavorBender.host(): TheFlavorBender,
     TheFoodCharlatan.host(): TheFoodCharlatan,
     TheFoodieTakesFlight.host(): TheFoodieTakesFlight,
     TheGlutenFreeAustrian.host(): TheGlutenFreeAustrian,
