@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- Synthetic fixture modeled on the beigli page's JSON-LD, illustrated
+     instructions, conflicting OpenGraph images and four WP Recipe Maker
+     ingredient groups. Recipe text, author and image URLs are invented, not copied.
+     Source: https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/ -->
+<html lang="en-US">
+<head>
+  <title>Synthetic walnut and poppy seed rolls</title>
+  <link rel="canonical" href="https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/">
+  <meta property="og:site_name" content="Culinary Hungary">
+  <meta property="og:image" content="https://images.example/synthetic-rolls-1200x900.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="900">
+  <meta property="og:image" content="https://images.example/synthetic-cooking-class.jpg">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1200">
+  <script type="application/ld+json" class="yoast-schema-graph">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Synthetic roll cake article"
+      },
+      {
+        "@type": "WebSite",
+        "name": "Culinary Hungary"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://budapestcookingclass.com/#/schema/person/test-baker",
+        "name": "Test Baker"
+      },
+      {
+        "@type": "Recipe",
+        "name": "Synthetic walnut and poppy seed rolls",
+        "author": {
+          "@id": "https://budapestcookingclass.com/#/schema/person/test-baker"
+        },
+        "image": [
+          "https://images.example/synthetic-rolls-1200x900.jpg",
+          "https://images.example/synthetic-rolls-500x500.jpg"
+        ],
+        "recipeYield": ["6", "6 people"],
+        "totalTime": "PT150M",
+        "recipeIngredient": [
+          "2 cups flour",
+          "1 cup whole milk",
+          "1 cup ground walnuts",
+          "2 tablespoons sugar",
+          "1 cup milk (whole)",
+          "1 cup ground poppy seeds",
+          "1 cup milk (whole)",
+          "1 egg yolk"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Combine the flour and milk to make the test dough.",
+            "name": "Combine the flour and milk to make the test dough.",
+            "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-2-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Spread the fillings on separate portions and roll them up.",
+            "name": "Spread the fillings on separate portions and roll them up.",
+            "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-2-step-0-1",
+            "image": "https://images.example/synthetic-roll-step.jpg"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Brush with egg yolk and bake until golden.",
+            "name": "Brush with egg yolk and bake until golden.",
+            "url": "https://budapestcookingclass.com/hungarian-beigli-christmas-poppy-seed-and-walnut-roll-cakes/#wprm-recipe-2-step-0-2"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wprm-recipe wprm-recipe-snippet"></div>
+  <div class="wprm-recipe-container" id="wprm-recipe-container-2">
+    <div class="wprm-recipe">
+      <div class="wprm-recipe-ingredient-group">
+        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the dough</h4>
+        <ul class="wprm-recipe-ingredients">
+          <li class="wprm-recipe-ingredient">2 cups flour</li>
+          <li class="wprm-recipe-ingredient">1 cup whole milk</li>
+        </ul>
+      </div>
+      <div class="wprm-recipe-ingredient-group">
+        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the walnut filling</h4>
+        <ul class="wprm-recipe-ingredients">
+          <li class="wprm-recipe-ingredient">1 cup ground walnuts</li>
+          <li class="wprm-recipe-ingredient">2 tablespoons sugar</li>
+          <li class="wprm-recipe-ingredient">1 cup milk <span class="wprm-recipe-ingredient-notes">whole</span></li>
+        </ul>
+      </div>
+      <div class="wprm-recipe-ingredient-group">
+        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the poppy seed filling</h4>
+        <ul class="wprm-recipe-ingredients">
+          <li class="wprm-recipe-ingredient">1 cup ground poppy seeds</li>
+          <li class="wprm-recipe-ingredient">1 cup milk <span class="wprm-recipe-ingredient-notes">whole</span></li>
+        </ul>
+      </div>
+      <div class="wprm-recipe-ingredient-group">
+        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Other</h4>
+        <ul class="wprm-recipe-ingredients">
+          <li class="wprm-recipe-ingredient">1 egg yolk</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

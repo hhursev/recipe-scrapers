@@ -1,0 +1,45 @@
+{
+  "author": "Test Cook",
+  "canonical_url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/",
+  "site_name": "Culinary Hungary",
+  "host": "budapestcookingclass.com",
+  "language": "en-US",
+  "title": "Synthetic soup with dumplings",
+  "ingredients": [
+    "2 cups water",
+    "1 egg",
+    "1 pinch salt",
+    "1 small potato",
+    "2 tablespoons flour"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "2 cups water",
+        "1 egg",
+        "1 pinch salt"
+      ],
+      "purpose": "For the soup"
+    },
+    {
+      "ingredients": [
+        "1 small potato",
+        "2 tablespoons flour"
+      ],
+      "purpose": "For the potato dumplings"
+    }
+  ],
+  "instructions": "Warm the water in a saucepan.\nWhisk in the egg and add a pinch of salt.\nMix the cooked potato with flour, shape dumplings and simmer.",
+  "instructions_list": [
+    "Warm the water in a saucepan.",
+    "Whisk in the egg and add a pinch of salt.",
+    "Mix the cooked potato with flour, shape dumplings and simmer."
+  ],
+  "yields": "4 servings",
+  "total_time": 45,
+  "equipment": [
+    "Saucepan",
+    "Mixing bowl"
+  ],
+  "image": "https://images.example/synthetic-soup-1200x900.jpg"
+}

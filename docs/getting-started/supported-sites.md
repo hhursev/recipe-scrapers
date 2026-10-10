@@ -19,3 +19,9 @@ print(f"We currently support over **{len(sites)} popular recipe websites** out o
 print(f"## Supported Sites List\n")
 print("\n".join(f"- [{host}](https://{host}/)" for host in sites))
 ```
+
+!!! note "Recipe images on budapestcookingclass.com"
+    This site's page-wide image metadata can include unrelated cooking-class photos.
+    Its scraper defaults to the recipe's Schema.org image, even when higher-quality
+    image selection is enabled globally. Pass `best_image=True` to `scrape_html` to
+    opt into page-wide image selection for this site.

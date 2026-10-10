@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- Synthetic fixture modeled on the soup page's JSON-LD and WP Recipe Maker
+     structure. Recipe text, author and image URLs are invented, not copied.
+     Source: https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/ -->
+<html lang="en-US">
+<head>
+  <title>Synthetic soup with dumplings</title>
+  <link rel="canonical" href="https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/">
+  <meta property="og:site_name" content="Culinary Hungary">
+  <meta property="og:image" content="https://images.example/synthetic-soup-1200x900.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="900">
+  <meta property="og:image" content="https://images.example/synthetic-soup-alternate.jpg">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1200">
+  <script type="application/ld+json" class="yoast-schema-graph">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Synthetic soup article"
+      },
+      {
+        "@type": "WebSite",
+        "name": "Culinary Hungary"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://budapestcookingclass.com/#/schema/person/test-cook",
+        "name": "Test Cook"
+      },
+      {
+        "@type": "Recipe",
+        "name": "Synthetic soup with dumplings",
+        "author": {
+          "@id": "https://budapestcookingclass.com/#/schema/person/test-cook"
+        },
+        "image": [
+          "https://images.example/synthetic-soup-1200x900.jpg",
+          "https://images.example/synthetic-soup-500x500.jpg"
+        ],
+        "recipeYield": ["4", "4 people"],
+        "totalTime": "PT45M",
+        "recipeIngredient": [
+          "2 cups water",
+          "1  egg",
+          "1 pinch salt",
+          "1 small potato",
+          "2 tablespoons flour"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Warm the water in a saucepan.",
+            "name": "Warm the water in a saucepan.",
+            "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-1-step-0-0"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Whisk in the egg and add a pinch of salt.",
+            "name": "Whisk in the egg and add a pinch of salt.",
+            "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-1-step-0-1"
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Mix the cooked potato with flour, shape dumplings and simmer.",
+            "name": "Mix the cooked potato with flour, shape dumplings and simmer.",
+            "url": "https://budapestcookingclass.com/hungarian-egg-drop-soup-with-potato-dumplings/#wprm-recipe-1-step-0-2"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wprm-recipe wprm-recipe-snippet"></div>
+  <div class="wprm-recipe-container" id="wprm-recipe-container-1">
+    <div class="wprm-recipe">
+      <div class="wprm-recipe-equipment-container">
+        <div class="wprm-recipe-equipment-name">Saucepan</div>
+        <div class="wprm-recipe-equipment-name">Mixing bowl</div>
+      </div>
+      <div class="wprm-recipe-ingredient-group">
+        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the soup</h4>
+        <ul class="wprm-recipe-ingredients">
+          <li class="wprm-recipe-ingredient">2 cups water</li>
+          <li class="wprm-recipe-ingredient">1 egg</li>
+          <li class="wprm-recipe-ingredient">1 pinch salt</li>
+        </ul>
+      </div>
+      <div class="wprm-recipe-ingredient-group">
+        <h4 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">For the potato dumplings</h4>
+        <ul class="wprm-recipe-ingredients">
+          <li class="wprm-recipe-ingredient">1 small potato</li>
+          <li class="wprm-recipe-ingredient">2 tablespoons flour</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
