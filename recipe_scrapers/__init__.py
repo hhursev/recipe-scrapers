@@ -119,6 +119,7 @@ from .breadtopia import Breadtopia
 from .brewersfriend import BrewersFriend
 from .briceletbaklava import BricelEtBaklava
 from .brokenovenbaking import BrokenOvenBaking
+from .budapestcookingclass import BudapestCookingClass
 from .budgetbytes import BudgetBytes
 from .cafedelites import CafeDelites
 from .caioflorentina import CaioFlorentina
@@ -516,8 +517,8 @@ from .ricetta import Ricetta
 from .ricetteperbimby import RicettePerBimby
 from .rickbayless import RickBayless
 from .rosannapansino import RosannaPansino
-from .rutgerbakt import RutgerBakt
 from .russianfood import RussianFood
+from .rutgerbakt import RutgerBakt
 from .saboresajinomoto import SaboresAjinomoto
 from .sallysbakingaddiction import SallysBakingAddiction
 from .sallysblog import SallysBlog
@@ -846,6 +847,7 @@ SCRAPERS = {
     BrewersFriend.host(): BrewersFriend,
     BricelEtBaklava.host(): BricelEtBaklava,
     BrokenOvenBaking.host(): BrokenOvenBaking,
+    BudapestCookingClass.host(): BudapestCookingClass,
     BudgetBytes.host(): BudgetBytes,
     CafeDelites.host(): CafeDelites,
     CaioFlorentina.host(): CaioFlorentina,
@@ -1264,8 +1266,8 @@ SCRAPERS = {
     RicettePerBimby.host(): RicettePerBimby,
     RickBayless.host(): RickBayless,
     RosannaPansino.host(): RosannaPansino,
-    RutgerBakt.host(): RutgerBakt,
     RussianFood.host(): RussianFood,
+    RutgerBakt.host(): RutgerBakt,
     SaboresAjinomoto.host(): SaboresAjinomoto,
     SallysBakingAddiction.host(): SallysBakingAddiction,
     SallysBlog.host(): SallysBlog,
