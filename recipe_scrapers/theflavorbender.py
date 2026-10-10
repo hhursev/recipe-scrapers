@@ -1,10 +1,9 @@
 from ._abstract import AbstractScraper
 from ._grouping_utils import IngredientGroup
 from ._utils import normalize_string
-from ._wprm import WPRMMixin
 
 
-class TheFlavorBender(WPRMMixin, AbstractScraper):
+class TheFlavorBender(AbstractScraper):
     @classmethod
     def host(cls):
         return "theflavorbender.com"
