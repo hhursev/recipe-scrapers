@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Self-authored synthetic fixture, not a copy of a recipe.
+Structure observed on 2026-10-10:
+https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/
+WPRM h5 ingredient groups, mixed HowToStep/HowToSection instructions,
+and absent cooking times. All recipe text is synthetic; image URLs use a
+reserved example domain and no images are included.
+-->
+<html lang="en-US">
+<head>
+  <link rel="canonical" href="https://www.theflavorbender.com/synthetic-bean-plate/">
+  <meta property="og:site_name" content="The Flavor Bender">
+  <meta property="og:image" content="https://images.example/bean-plate-social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="795">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.theflavorbender.com/synthetic-bean-plate/#recipe",
+    "name": "Synthetic bean plate",
+    "author": {"@type": "Person", "name": "Fixture Author"},
+    "description": "A second self-authored parser example.",
+    "image": [
+      "https://images.example/bean-plate.jpg",
+      "https://images.example/bean-plate-500x500.jpg",
+      "https://images.example/bean-plate-500x375.jpg",
+      "https://images.example/bean-plate-480x270.jpg"
+    ],
+    "recipeCategory": ["Side dish"],
+    "recipeYield": ["3", "3 servings"],
+    "recipeIngredient": [
+      "1/2 cup cooked beans",
+      "1 carrot (diced)",
+      "1 tsp oil",
+      "1 tsp chopped herbs"
+    ],
+    "recipeInstructions": [
+      {"@type": "HowToStep", "text": "Rinse the beans."},
+      {"@type": "HowToStep", "text": "Drain thoroughly."},
+      {
+        "@type": "HowToSection",
+        "name": "Finish",
+        "itemListElement": [
+          {"@type": "HowToStep", "text": "Mix the beans and carrot with the oil."},
+          {"@type": "HowToStep", "text": "Add herbs and divide between plates."}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wprm-recipe-container" id="wprm-recipe-container-2">
+    <h2 class="wprm-recipe-name">Synthetic bean plate</h2>
+    <div class="wprm-recipe-image">
+      <img width="200" height="460" data-src="https://images.example/bean-plate.jpg" alt="Synthetic bean plate">
+    </div>
+    <div class="wprm-recipe-ingredient-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Vegetables</h5>
+      <ul class="wprm-recipe-ingredients">
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">&frac12;</span> <span class="wprm-recipe-ingredient-unit">cup</span> <span class="wprm-recipe-ingredient-name">cooked beans</span></li>
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-name">carrot</span> <span class="wprm-recipe-ingredient-notes">diced</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-ingredient-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Finishing</h5>
+      <ul class="wprm-recipe-ingredients">
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tsp</span> <span class="wprm-recipe-ingredient-name">oil</span></li>
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tsp</span> <span class="wprm-recipe-ingredient-name">chopped herbs</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-instruction-group">
+      <ul>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Rinse the beans.</span></li>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Drain thoroughly.</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-instruction-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Finish</h5>
+      <ul>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Mix the beans and carrot with the oil.</span></li>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Add herbs and divide between plates.</span></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

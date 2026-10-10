@@ -1,0 +1,58 @@
+{
+  "author": "Fixture Author",
+  "canonical_url": "https://www.theflavorbender.com/synthetic-grain-bowl/",
+  "site_name": "The Flavor Bender",
+  "host": "theflavorbender.com",
+  "language": "en-US",
+  "title": "Synthetic grain bowl",
+  "ingredients": [
+    "1 cup barley",
+    "1 tbsp tamari",
+    "1 tsp oil",
+    "2 tbsp tamari",
+    "1 tsp oil",
+    "1 tbsp chopped herbs",
+    "1 tsp oil"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 cup barley",
+        "1 tbsp tamari",
+        "1 tsp oil"
+      ],
+      "purpose": "Grains"
+    },
+    {
+      "ingredients": [
+        "2 tbsp tamari",
+        "1 tsp oil"
+      ],
+      "purpose": "Dressing"
+    },
+    {
+      "ingredients": [
+        "1 tbsp chopped herbs",
+        "1 tsp oil"
+      ],
+      "purpose": "To finish"
+    }
+  ],
+  "instructions_list": [
+    "Cook grains",
+    "Rinse the barley.",
+    "Cook the barley until tender.",
+    "Finish bowls",
+    "Stir the dressing together.",
+    "Divide between bowls and add the herbs."
+  ],
+  "category": "Lunch",
+  "yields": "2 servings",
+  "description": "A self-authored example for parser tests.",
+  "total_time": 30,
+  "cook_time": 20,
+  "prep_time": 10,
+  "cuisine": "Test kitchen",
+  "equipment": [],
+  "image": "https://images.example/grain-bowl-social.jpg"
+}

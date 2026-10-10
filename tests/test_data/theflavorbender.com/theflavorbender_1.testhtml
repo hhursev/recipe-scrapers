@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+Self-authored synthetic fixture, not a copy of a recipe.
+Structure observed on 2026-10-10:
+https://www.theflavorbender.com/easy-homemade-chicken-ramen/
+https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/
+WPRM h5 groups, HTML-only ingredient notes, sectioned JSON-LD instructions,
+and a larger OpenGraph photo of the same dish. All recipe text is synthetic;
+image URLs use a reserved example domain and no images are included.
+-->
+<html lang="en-US">
+<head>
+  <link rel="canonical" href="https://www.theflavorbender.com/synthetic-grain-bowl/">
+  <meta property="og:site_name" content="The Flavor Bender">
+  <meta property="og:image" content="https://images.example/grain-bowl-social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.theflavorbender.com/synthetic-grain-bowl/#recipe",
+    "name": "Synthetic grain bowl",
+    "author": {"@type": "Person", "name": "Fixture Author"},
+    "description": "A self-authored example for parser tests.",
+    "image": [
+      "https://images.example/grain-bowl.jpg",
+      "https://images.example/grain-bowl-500x500.jpg",
+      "https://images.example/grain-bowl-500x375.jpg",
+      "https://images.example/grain-bowl-480x270.jpg"
+    ],
+    "recipeCategory": ["Lunch"],
+    "recipeCuisine": ["Test kitchen"],
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeYield": ["2", "2 servings"],
+    "recipeIngredient": [
+      "1 cup barley",
+      "1 tbsp tamari",
+      "1 tsp oil",
+      "2 tbsp tamari",
+      "1 tsp oil",
+      "1 tbsp chopped herbs",
+      "1 tsp oil"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToSection",
+        "name": "Cook grains",
+        "itemListElement": [
+          {"@type": "HowToStep", "text": "Rinse the barley."},
+          {"@type": "HowToStep", "text": "Cook the barley until tender."}
+        ]
+      },
+      {
+        "@type": "HowToSection",
+        "name": "Finish bowls",
+        "itemListElement": [
+          {"@type": "HowToStep", "text": "Stir the dressing together."},
+          {"@type": "HowToStep", "text": "Divide between bowls and add the herbs."}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wprm-recipe-container" id="wprm-recipe-container-1">
+    <h2 class="wprm-recipe-name">Synthetic grain bowl</h2>
+    <div class="wprm-recipe-image">
+      <img width="200" height="200" data-src="https://images.example/grain-bowl.jpg" alt="Synthetic grain bowl">
+    </div>
+    <div class="wprm-recipe-ingredient-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Grains</h5>
+      <ul class="wprm-recipe-ingredients">
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">cup</span> <span class="wprm-recipe-ingredient-name">barley</span></li>
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tbsp</span> <span class="wprm-recipe-ingredient-name">tamari</span></li>
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tsp</span> <span class="wprm-recipe-ingredient-name">oil</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-ingredient-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">Dressing</h5>
+      <ul class="wprm-recipe-ingredients">
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">2</span> <span class="wprm-recipe-ingredient-unit">tbsp</span> <span class="wprm-recipe-ingredient-name">tamari</span> <span class="wprm-recipe-ingredient-notes">For a smaller bowl, use 1 tbsp tamari.</span></li>
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tsp</span> <span class="wprm-recipe-ingredient-name">oil</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-ingredient-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name">To finish</h5>
+      <ul class="wprm-recipe-ingredients">
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tbsp</span> <span class="wprm-recipe-ingredient-name">chopped herbs</span></li>
+        <li class="wprm-recipe-ingredient"><span class="wprm-checkbox-container">&#9634; </span><span class="wprm-recipe-ingredient-amount">1</span> <span class="wprm-recipe-ingredient-unit">tsp</span> <span class="wprm-recipe-ingredient-name">oil</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-instruction-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Cook grains</h5>
+      <ul>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Rinse the barley.</span></li>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Cook the barley until tender.</span></li>
+      </ul>
+    </div>
+    <div class="wprm-recipe-instruction-group">
+      <h5 class="wprm-recipe-group-name wprm-recipe-instruction-group-name">Finish bowls</h5>
+      <ul>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Stir the dressing together.</span></li>
+        <li class="wprm-recipe-instruction"><span class="wprm-recipe-instruction-text">Divide between bowls and add the herbs.</span></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

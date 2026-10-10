@@ -1,0 +1,42 @@
+{
+  "author": "Fixture Author",
+  "canonical_url": "https://www.theflavorbender.com/synthetic-bean-plate/",
+  "site_name": "The Flavor Bender",
+  "host": "theflavorbender.com",
+  "language": "en-US",
+  "title": "Synthetic bean plate",
+  "ingredients": [
+    "1/2 cup cooked beans",
+    "1 carrot (diced)",
+    "1 tsp oil",
+    "1 tsp chopped herbs"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1/2 cup cooked beans",
+        "1 carrot (diced)"
+      ],
+      "purpose": "Vegetables"
+    },
+    {
+      "ingredients": [
+        "1 tsp oil",
+        "1 tsp chopped herbs"
+      ],
+      "purpose": "Finishing"
+    }
+  ],
+  "instructions_list": [
+    "Rinse the beans.",
+    "Drain thoroughly.",
+    "Finish",
+    "Mix the beans and carrot with the oil.",
+    "Add herbs and divide between plates."
+  ],
+  "category": "Side dish",
+  "yields": "3 servings",
+  "description": "A second self-authored parser example.",
+  "equipment": [],
+  "image": "https://images.example/bean-plate-social.jpg"
+}
