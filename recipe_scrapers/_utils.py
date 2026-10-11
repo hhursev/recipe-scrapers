@@ -32,7 +32,9 @@ TIME_REGEX = re.compile(
     r"(?:\D*(?P<seconds>\d+)\s*(?:seconds|secs|sec|s))?",
     re.IGNORECASE,
 )
-SERVE_REGEX_NUMBER = re.compile(r"(\D*(?P<items>\d+(\.\d*)?)?\D*)")
+SERVE_REGEX_NUMBER = re.compile(
+    r"(?P<items>(?:\d+(?:\.\d+)?\s+\d+\s*/\s*\d+)|(?:\d+(?:\.\d+)?[\u00bd\u2153\u2154\u00bc\u00be\u2155\u2156\u2157\u2158\u2159\u215a\u215b\u215c\u215d\u215e])|(?:[\u00bd\u2153\u2154\u00bc\u00be\u2155\u2156\u2157\u2158\u2159\u215a\u215b\u215c\u215d\u215e])|(?:\d+(?:\.\d+)?))"
+)
 
 SERVE_REGEX_ITEMS = re.compile(
     r"\bmakes\b |\bporzioni\b",
@@ -307,7 +309,7 @@ def get_yields(element):
 
     matched_raw = SERVE_REGEX_NUMBER.search(serve_text).groupdict().get("items") or "0"
     try:
-        matched = float(matched_raw)
+        matched = _extract_fractional(matched_raw)
     except ValueError:
         matched = 0.0
 
