@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._utils import normalize_string
 import json
 
 
@@ -71,6 +72,16 @@ class DagelijkseKost(AbstractScraper):
     @classmethod
     def host(cls):
         return "dagelijksekost.vrt.be"
+
+    def title(self):
+        # On some pages the schema.org name is an SEO teaser sentence
+        # ("Jeroen Meus maakt ..."); og:title carries the clean dish name.
+        og_title = self.soup.find("meta", {"property": "og:title", "content": True})
+        if og_title:
+            title = normalize_string(og_title["content"])
+            if title:
+                return title
+        return self.schema.title()
 
     def canonical_url(self):
         if "@id" in self.schema.data:
