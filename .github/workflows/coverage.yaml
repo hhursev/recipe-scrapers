@@ -2,9 +2,9 @@ name: coverage
 
 on:
   push:
-    branches: [ main, v14 ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, v14 ]
+    branches: [ main ]
     types: [ opened, synchronize, reopened ]
 
 jobs:
@@ -16,17 +16,19 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-          cache: pip
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.1.0
+        with:
+          enable-cache: true
       - name: Install test packages
-        run: pip install ".[tests]"
+        run: uv sync --locked --extra tests
       - name: Run tests with coverage
         env:
           PYTHONWARNINGS: "always:::recipe_scrapers,ignore:::recipe_scrapers.plugins.static_values"
         run: |
-          python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml --coverage-xml coverage.xml
+          uv run --locked --extra tests python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml --coverage-xml coverage.xml
       - name: Report coverage to coveralls.io
         uses: coverallsapp/github-action@v2
         with:
-          github-token: ${{ secrets.COVERALLS_TOKEN }}
           file: coverage.xml
           format: cobertura

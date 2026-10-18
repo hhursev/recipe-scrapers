@@ -26,6 +26,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
@@ -46,10 +47,10 @@ online = [
 ]
 # Documentation dependencies
 # Install these to build and serve the documentation:
-#   pip install -e ".[docs]"
+#   uv sync --extra docs
 #
 # Common commands:
-#   mkdocs serve  # Start local docs server at http://127.0.0.1:8000
+#   uv run --extra docs mkdocs serve  # Start local docs server at http://127.0.0.1:8000
 #                 # The server auto-reloads when you change files in docs/
 docs = [
     "mkdocs >= 1.6.1",               # Core documentation generator
@@ -60,14 +61,14 @@ docs = [
 ]
 # Testing dependencies
 # Install these to run tests and check coverage:
-#   pip install -e ".[test]"
+#   uv sync --extra tests
 # Common commands:
-#   python -m unittest                        # Run tests sequentially
-#   python -m unittest_parallel --level test  # Run tests in parallel (speeed)
-#   python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml  # Run tests with coverage in parallel
-#   coverage run -m unittest                  # Run tests with coverage sequentially (fallback)
-#   coverage report                           # View coverage report in terminal
-#   coverage html                             # Generate HTML coverage report
+#   uv run --extra tests python -m unittest                        # Run tests sequentially
+#   uv run --extra tests python -m unittest_parallel --level test  # Run tests in parallel (speeed)
+#   uv run --extra tests python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml  # Run tests with coverage in parallel
+#   uv run --extra tests coverage run -m unittest                  # Run tests with coverage sequentially (fallback)
+#   uv run --extra tests coverage report                           # View coverage report in terminal
+#   uv run --extra tests coverage html                             # Generate HTML coverage report
 tests = [
     "coverage >= 7.6.9",           # Code coverage measurement tool
     "unittest-parallel >= 1.7.0",  # Run unittest tests in parallel

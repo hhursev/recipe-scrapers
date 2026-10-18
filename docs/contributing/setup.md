@@ -5,8 +5,8 @@ Thank you for your interest in contributing to this project!
 Follow these steps to set up your environment for development.
 
 !!! note "Prerequisites"
-    This guide assumes you have basic familiarity with Python development, including using `pip`,
-    `virtual environments`, and `git`. These core concepts are beyond the scope of this documentation.
+    This guide assumes you have basic familiarity with Python development, including using `uv`,
+    virtual environments, and `git`. These core concepts are beyond the scope of this documentation.
 
 
 !!! warning "Python Version Requirement"
@@ -47,27 +47,24 @@ git remote add upstream https://github.com/hhursev/recipe-scrapers.git
 ```
 
 
-## Create a Virtual Environment
+## Install uv
 
-It's recommended to use a virtual environment to manage dependencies. You can create one using `venv`
+Development uses [uv](https://docs.astral.sh/uv/) to manage Python environments and dependencies.
+Install it using the [official installation instructions](https://docs.astral.sh/uv/getting-started/installation/).
 
 ```sh
-python -m venv .venv
-source .venv/bin/activate  # On Windows: `.venv\Scripts\activate`
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 !!! tip "Virtual Environment"
-    Remember to activate your virtual environment each time you work on the project:
-```sh
-    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
+    `uv sync` creates and manages the project virtual environment in `.venv`; no manual activation is required.
 
 ## Install Dependencies
 
-Install the required dependencies using `pip`
+Install the required development dependencies using `uv`
 
 ```sh
-pip install -e ".[all]"
+uv sync --all-extras
 ```
 
 Our pyproject.toml file lists the installed dependencies and their purposes.
@@ -139,13 +136,13 @@ When you submit your PR:
 1. Our CI suite will run against your code to ensure everything works as expected. You can run the
 tests locally before submitting:
 ```sh
-python -m unittest
+uv run --extra tests python -m unittest
 # or
-unittest-parallel --level test
+uv run --extra tests python -m unittest_parallel --level test
 # coverage (parallelized)
-python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml
+uv run --extra tests python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml
 # coverage (sequential fallback)
-coverage run -m unittest && coverage report
+uv run --extra tests coverage run -m unittest && uv run --extra tests coverage report
 ```
 
 2. Community members and core contributors will review your code. They may:
