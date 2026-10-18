@@ -1521,6 +1521,7 @@ def scrape_html(
         )
         raise ValueError(msg)
 
+    assert html is not None
     host_name = get_host_name(org_url)
     if host_name in SCRAPERS:
         return SCRAPERS[host_name](html=html, url=org_url, best_image=best_image)

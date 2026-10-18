@@ -8,7 +8,7 @@ import re
 import requests
 
 from recipe_scrapers._abstract import HEADERS
-from recipe_scrapers._utils import get_host_name
+from recipe_scrapers._utils import get_abstract_methods, get_host_name
 
 TEMPLATE_CLASS = "Template"
 TEMPLATE_HOST = "example.com"
@@ -67,23 +67,21 @@ def _generate_tests_and_data(class_name, host, html):
     dest = TEST_DATA_DIR / host
     dest.mkdir(parents=True, exist_ok=True)
 
-    data = {
-        k: ""
-        for k in (
-            "host",
-            "canonical_url",
-            "site_name",
-            "author",
-            "language",
-            "title",
-            "ingredients",
-            "instructions_list",
-            "total_time",
-            "yields",
-            "image",
-            "description",
-        )
+    generated_fields = {
+        "host",
+        "canonical_url",
+        "site_name",
+        "author",
+        "language",
+        "title",
+        "ingredients",
+        "instructions_list",
+        "total_time",
+        "yields",
+        "image",
+        "description",
     }
+    data = {key: "" for key in get_abstract_methods() if key in generated_fields}
     data["host"] = host
 
     (dest / f"{class_name.lower()}.json").write_text(json.dumps(data, indent=2) + "\n")

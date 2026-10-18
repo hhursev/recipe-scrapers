@@ -1,7 +1,7 @@
 exclude: '.test(html|json)'
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
@@ -27,7 +27,6 @@ repos:
       entry: uv run --locked --extra linters black
       language: system
       types: [python]
-      args: ["--target-version", "py39"]
     - id: mypy
       name: mypy
       entry: uv run --locked --extra linters mypy

@@ -10,8 +10,8 @@ Follow these steps to set up your environment for development.
 
 
 !!! warning "Python Version Requirement"
-    We strongly recommend using Python 3.11 or above for all development work related to `recipe-scrapers`.
-    This version includes built-in `tomllib` support, which is essential for the project's configuration handling.
+    We recommend using Python 3.14 for development work related to `recipe-scrapers`.
+    The project supports Python 3.11 and above.
 
 
 We welcome various types of code contributions to `recipe-scrapers`, including:
