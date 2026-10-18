@@ -12,6 +12,7 @@ from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import group_ingredients, IngredientGroup
 from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
+from ._utils import normalize_string
 
 # Some sites close their content for 'bots', so user-agent must be supplied
 HEADERS = {
@@ -119,6 +120,38 @@ class AbstractScraper:
             for instruction in self.instructions().split("\n")
             if instruction
         ]
+
+    def instruction_groups(self) -> list[dict]:
+        """Ordered instruction sections, with untitled sections for loose steps."""
+        groups = self.schema.instruction_groups()
+        if not groups or (
+            len(groups) == 1
+            and groups[0]["name"] is None
+            and len(groups[0]["steps"]) == 1
+        ):
+            instruction_list = self.soup.find(
+                ["ol", "ul"], attrs={"itemprop": "recipeInstructions"}
+            )
+            if instruction_list:
+                steps = []
+                for item in instruction_list.find_all("li", recursive=False):
+                    item = BeautifulSoup(str(item), "html.parser")
+                    for line_break in item.find_all("br"):
+                        line_break.replace_with("\n")
+                    for paragraph in item.find_all("p"):
+                        paragraph.insert_after("\n")
+                    lines = [
+                        normalize_string(line) for line in item.get_text().splitlines()
+                    ]
+                    step = "\n".join(line for line in lines if line)
+                    if step:
+                        steps.append(step)
+                if steps:
+                    return [{"name": None, "steps": steps}]
+        if groups:
+            return groups
+        steps = self.instructions_list()
+        return [{"name": None, "steps": steps}] if steps else []
 
     def category(self):
         """Category of the recipe."""
