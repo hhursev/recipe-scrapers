@@ -143,8 +143,7 @@ python -m unittest
 # or
 unittest-parallel --level test
 # coverage (parallelized)
-coverage run --parallel-mode -m unittest_parallel --level test
-coverage combine && coverage report
+python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml
 # coverage (sequential fallback)
 coverage run -m unittest && coverage report
 ```
