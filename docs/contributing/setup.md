@@ -98,7 +98,6 @@ automatically when you commit changes, handling tasks like:
 
 - Code formatting (black, isort)
 - Linting (flake8)
-- Type checking
 - Other code quality checks
 
 

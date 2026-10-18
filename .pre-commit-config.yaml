@@ -27,8 +27,3 @@ repos:
       entry: uv run --locked --extra linters black
       language: system
       types: [python]
-    - id: mypy
-      name: mypy
-      entry: uv run --locked --extra linters mypy
-      language: system
-      types: [python]

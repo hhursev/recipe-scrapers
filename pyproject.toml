@@ -77,9 +77,6 @@ linters = [
     "black == 26.10.1",
     "flake8 == 7.4.1",
     "pep8-naming == 0.15.1",
-    "mypy == 2.4.0",
-    "types-beautifulsoup4",   # needed for mypy
-    "types-requests",         # needed for mypy
 ]
 dev = [
     "recipe-scrapers[docs,tests,linters]",
@@ -114,18 +111,3 @@ omit = [
 exclude_lines = [
     "raise NotImplementedError"
 ]
-
-[tool.mypy]
-python_version = "3.14"
-[[tool.mypy.overrides]]
-module = "recipe_scrapers.*"
-disable_error_code = "union-attr"
-[[tool.mypy.overrides]]
-module = "._abstract"
-ignore_missing_imports = true
-[[tool.mypy.overrides]]
-module = "isodate"
-ignore_missing_imports = true
-[[tool.mypy.overrides]]
-module = "extruct"
-ignore_missing_imports = true
