@@ -534,6 +534,7 @@ from .schoolofwok import SchoolOfWok
 from .scrambledandscrumptious import ScrambledAndScrumptious
 from .scrummylane import ScrummyLane
 from .seriouseats import SeriousEats
+from .sfchronicle import SFChronicle
 from .sharkninja import SharkNinja
 from .shelikesfood import SheLikesFood
 from .simplegreensmoothies import SimpleGreenSmoothies
@@ -1284,6 +1285,7 @@ SCRAPERS = {
     ScrambledAndScrumptious.host(): ScrambledAndScrumptious,
     ScrummyLane.host(): ScrummyLane,
     SeriousEats.host(): SeriousEats,
+    SFChronicle.host(): SFChronicle,
     SharkNinja.host(): SharkNinja,
     SheLikesFood.host(): SheLikesFood,
     SimpleGreenSmoothies.host(): SimpleGreenSmoothies,
