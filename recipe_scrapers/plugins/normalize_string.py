@@ -15,7 +15,7 @@ class NormalizeStringPlugin(PluginInterface):
     Explicitly run the output from the methods listed through normalize_string
     """
 
-    decorate_hosts = ("*",)
+    run_on_hosts = ("*",)
     run_on_methods = ("title",)
 
     @classmethod
