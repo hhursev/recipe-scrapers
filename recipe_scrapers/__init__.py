@@ -370,6 +370,7 @@ from .letscampsmore import LetsCampSmore
 from .leukerecepten import Leukerecepten
 from .lidiasitaly import LidiasItaly
 from .lifestyleofafoodie import LifestyleOfAFoodie
+from .linasmatkasse import LinasMatkasse
 from .littleferrarokitchen import LittleFerraroKitchen
 from .littlespicejar import LittleSpiceJar
 from .littlespoonfarm import LittleSpoonFarm
@@ -1120,6 +1121,7 @@ SCRAPERS = {
     Leukerecepten.host(): Leukerecepten,
     LidiasItaly.host(): LidiasItaly,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
+    LinasMatkasse.host(): LinasMatkasse,
     LittleFerraroKitchen.host(): LittleFerraroKitchen,
     LittleSpiceJar.host(): LittleSpiceJar,
     LittleSpoonFarm.host(): LittleSpoonFarm,
