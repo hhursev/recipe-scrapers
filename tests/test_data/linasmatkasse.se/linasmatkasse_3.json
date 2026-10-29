@@ -1,0 +1,92 @@
+{
+  "author": "Linas Matkasse",
+  "canonical_url": "https://www.linasmatkasse.se/recept/59294/carbonara-med-kalkonbacon-och-tomatsallad",
+  "site_name": "Linas Matkasse",
+  "host": "linasmatkasse.se",
+  "language": "sv",
+  "title": "Carbonara",
+  "ingredients": [
+    "½ st bananschalottenlök",
+    "200 g kalkonbacon",
+    "0 tsk olivolja",
+    "2 klyfta vitlök",
+    "1 krm salt",
+    "0 krm svartpeppar",
+    "1 st äggula",
+    "½ dl vispgrädde",
+    "25 g riven parmesan",
+    "½ dl pastavatten",
+    "3 st tomat",
+    "½ st bananschalottenlök",
+    "⅓ påse vitvinsvinäger 15ml",
+    "1 krm salt",
+    "0 krm svartpeppar",
+    "200 g linguine",
+    "25 g riven parmesan"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "½ st bananschalottenlök",
+        "200 g kalkonbacon",
+        "0 tsk olivolja",
+        "2 klyfta vitlök",
+        "1 krm salt",
+        "0 krm svartpeppar"
+      ],
+      "purpose": "Carbonara"
+    },
+    {
+      "ingredients": [
+        "1 st äggula",
+        "½ dl vispgrädde",
+        "25 g riven parmesan",
+        "½ dl pastavatten"
+      ],
+      "purpose": "Äggblandning"
+    },
+    {
+      "ingredients": [
+        "3 st tomat",
+        "½ st bananschalottenlök",
+        "⅓ påse vitvinsvinäger 15ml",
+        "1 krm salt",
+        "0 krm svartpeppar"
+      ],
+      "purpose": "Tomatsallad"
+    },
+    {
+      "ingredients": [
+        "200 g linguine",
+        "25 g riven parmesan"
+      ],
+      "purpose": "Till servering"
+    }
+  ],
+  "instructions_list": [
+    "Koka linguine enligt anvisning på förpackningen. Spara ½ dl av pastavattnet till steg 3.",
+    "Carbonara: Finhacka bananschalottenlök och strimla kalkonbacon. Hetta upp lite olivolja i en stekpanna. Stek bacon ca 2 min, tills det är krispigt. Tillsätt lök och pressad vitlök. Sänk värmen och stek tills löken är mjuk.",
+    "Äggblandning: Separera äggulan från vitan. Lägg äggulan i en skål och blanda med vispgrädde, riven parmesan och det sparade pastavattnet.",
+    "Tomatsallad: Skiva tomat och bananschalottenlök. Lägg i en skål. Blanda med vitvinsvinäger, salt och lite nymald svartpeppar. Det går givetvis bra att servera tomat och lök i separata skålar.",
+    "Carbonara: Vänd ner äggblandningen och baconfräset i den nykokta pastan. Smaka av med salt och rikligt med nymald svartpeppar.",
+    "Servera carbonara med tomatsallad. Toppa pastan med riven parmesan!"
+  ],
+  "category": "Dinner",
+  "yields": "2 servings",
+  "description": "Carbonaran som hela familjen gillar. Krämig pasta med krispig kalkonbacon. En vardagsfavorit som aldrig tröttnar.",
+  "total_time": 20,
+  "cook_time": 10,
+  "prep_time": 10,
+  "ratings": 4.25,
+  "ratings_count": 1862,
+  "nutrients": {
+    "calories": "733 kcal"
+  },
+  "image": "https://pimimages.azureedge.net/images/largeResized/9f4a5bbf-a8dc-4010-a824-4cda4e42b81f.jpg",
+  "keywords": [
+    "Fågel",
+    "Barnvänligt",
+    "Klassiker",
+    "Klart på 20 min"
+  ]
+}
