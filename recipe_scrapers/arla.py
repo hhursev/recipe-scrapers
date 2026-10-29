@@ -22,6 +22,18 @@ class Arla(AbstractScraper):
 
         return ingredients
 
+    def instructions(self):
+        placeholder_titles = {
+            "Första instruktionen",
+            "Nästa instruktion",
+            "Sista instruktionen",
+        }
+        return "\n".join(
+            instruction
+            for instruction in self.schema.instructions().splitlines()
+            if instruction not in placeholder_titles
+        )
+
     def ingredient_groups(self):
 
         groups = []

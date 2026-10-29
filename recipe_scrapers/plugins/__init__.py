@@ -7,7 +7,6 @@ from .schemaorg_fill import SchemaOrgFillPlugin
 from .static_values import StaticValueExceptionHandlingPlugin
 from .best_image import BestImagePlugin
 
-
 __all__ = [
     "BestImagePlugin",
     "ExceptionHandlingPlugin",
