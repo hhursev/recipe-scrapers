@@ -1,5 +1,5 @@
 {
-  "author": "MatPrat",
+  "author": "Matprat",
   "canonical_url": "https://www.matprat.no/oppskrifter/gjester/butter-chicken---indisk-smorkylling/",
   "site_name": "MatPrat",
   "host": "matprat.no",
@@ -7,7 +7,7 @@
   "title": "Butter chicken - indisk smørkylling",
   "ingredients": [
     "1 stk. kylling (ca. 1300 g)",
-    "4 båter hvitløk",
+    "4 båt hvitløk",
     "0,5 ss revet frisk ingefær",
     "2 ss sitronsaft",
     "1 dl gresk yoghurt",
@@ -17,22 +17,22 @@
     "100 g cashewnøtter",
     "8 stk. tomat",
     "2 ss nøytral olje",
-    "4 båter finhakket hvitløk",
+    "4 båt finhakket hvitløk",
     "0,5 ss revet frisk ingefær",
     "0,5 ss chilipulver (helst indisk)",
     "2 stk. hel kardemomme",
     "2 ts hel bukkehornkløver",
-    "2 ss flytende honning",
+    "2 ss honning",
     "1 stk. grønn chili",
     "2 ss smør",
-    "1 dl fløte",
+    "1 dl kremfløte eller matfløte",
     "0,5 potte frisk koriander"
   ],
   "ingredient_groups": [
     {
       "ingredients": [
         "1 stk. kylling (ca. 1300 g)",
-        "4 båter hvitløk",
+        "4 båt hvitløk",
         "0,5 ss revet frisk ingefær",
         "2 ss sitronsaft"
       ],
@@ -45,25 +45,25 @@
         "1 ss garam masala",
         "1 ss rapsolje eller sennepsolje"
       ],
-      "purpose": "Marinade"
+      "purpose": "Marinade:"
     },
     {
       "ingredients": [
         "100 g cashewnøtter",
         "8 stk. tomat",
         "2 ss nøytral olje",
-        "4 båter finhakket hvitløk",
+        "4 båt finhakket hvitløk",
         "0,5 ss revet frisk ingefær",
         "0,5 ss chilipulver (helst indisk)",
         "2 stk. hel kardemomme",
         "2 ts hel bukkehornkløver",
-        "2 ss flytende honning",
+        "2 ss honning",
         "1 stk. grønn chili",
         "2 ss smør",
-        "1 dl fløte",
+        "1 dl kremfløte eller matfløte",
         "0,5 potte frisk koriander"
       ],
-      "purpose": "Smør- og tomatcurry"
+      "purpose": "Smør- og tomatcurry:"
     }
   ],
   "instructions_list": [
@@ -72,21 +72,22 @@
     "Stek kyllingen midt i stekeovnen ved 200 °C, eller grill den til den er gyllenbrun og gjennomstekt, ca. 50 min. - 1 time.",
     "Avkjøl og plukk kjøttet av beina i store biter.",
     "Lag smør- og tomatcurry: Bløtlegg cashewnøtter i litt lunkent vann i minst 30 minutter. Hell av vannet og mos nøttene i hurtigmikser eller med stavmikser. Sett til side.",
-    "Del tomater i biter. Varm en sauteringspanne med olje og fres tomater, hvitløk, ingefær, chilipulver, Kardemomme og bukkehornkløver på middels varme til tomatene er helt myke.",
+    "Del tomater i biter. Varm en sauteringspanne med olje og fres tomater, hvitløk, ingefær, chilipulver, kardemomme og bukkehornkløver på middels varme til tomatene er helt myke.",
     "Tilsett cashewpuré og bruk stavmikser eller hurtigmikser til å finmose sausen. Sil gjerne sausen gjennom en grov sikt for å få ut rester av skall, hvis du vil ha den ekstra fin.",
     "Ha sausen tilbake i kjelen og la den småkoke i i noen minutter. Smak til med honning, finhakket grønn chili, salt og pepper. Visp inn fløte og romtemperert smør i den varme sausen.",
     "Legg kyllingbitene i sausen og la alt bli gjennomvarmt. Pynt med koriander."
   ],
   "category": "Kyllingfilet,Gryter",
   "yields": "6 servings",
-  "description": "Butter chicken – eller murgh makhani som retten heter på indisk – er en av de mest kjente indiske curryrettene. Hovedingrediens er er kylling marinert i yoghurt og krydder. Vi bruker kyllingfilet eller lårfilet, som er mørt og saftig. Basmatiris eller ferske nanbrød serveres til.",
-  "total_time": 160,
+  "description": "Butter chicken – eller murgh makhani som retten heter på indisk – er en av de mest kjente indiske curryrettene. Hovedingrediens er er kylling marinert i yoghurt og krydder. Vi bruker kyllingfilet eller lårfilet, som er mørt og saftig. Basmatiris eller ferske nanbrød serveres til. Avansert vanskelighetsgrad",
+  "total_time": 80,
   "cook_time": 80,
   "prep_time": 80,
   "cuisine": "Internasjonal",
-  "ratings": 4.82,
-  "ratings_count": 240,
-  "image": "https://images.matprat.no/xftestavbe-normal/710",
+  "cooking_method": "Blande",
+  "ratings": 4.77,
+  "ratings_count": 377,
+  "image": "https://images.matprat.no/5jm2e5m2ne__w=1200_h=1200_autocrop=true_cropMode=zoom/image.webp",
   "keywords": [
     "Butter chicken",
     "smørkylling",

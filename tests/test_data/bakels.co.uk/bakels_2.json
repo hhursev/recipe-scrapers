@@ -1,0 +1,55 @@
+{
+  "author": "British Bakels",
+  "canonical_url": "https://www.britishbakels.co.uk/recipes/pumpkin-spice-smores/",
+  "site_name": "British Bakels",
+  "host": "bakels.com.au",
+  "language": "en",
+  "title": "Pumpkin Spice S’Mores",
+  "ingredients": [
+    "Vanilla Cookie Mix Complete",
+    "Butter/margarine",
+    "Water",
+    "Pumpkin Spice (Powder)",
+    "Ready-to-Use Mallow",
+    "Pumpkin Spice (Powder)",
+    "Dark chocolate"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "Vanilla Cookie Mix Complete",
+        "Butter/margarine",
+        "Water",
+        "Pumpkin Spice (Powder)"
+      ],
+      "purpose": "Group Cookies"
+    },
+    {
+      "ingredients": [
+        "Ready-to-Use Mallow",
+        "Pumpkin Spice (Powder)",
+        "Dark chocolate"
+      ],
+      "purpose": "Group Assembly"
+    }
+  ],
+  "instructions_list": [
+    "Biscuits",
+    "Scale cookie mix and margarine into a mixer and beat until fat is dispersed evenly.",
+    "Add water and mix on slow until a dough forms.",
+    "(Optional: blend in pumpkin spice powder at this stage for spiced biscuits.)",
+    "Shape into 60 g pucks, place evenly spaced on trays.",
+    "Freeze for at least 15 minutes",
+    "Allow to cool on tray until set.",
+    "Assembly",
+    "Fold pumpkin spice powder into Ready-to-Use Mallow until evenly dispersed.",
+    "Pipe or spread a layer of spiced mallow onto the flat side of one biscuit.",
+    "Drizzle or spread a little melted dark chocolate over the mallow.",
+    "Sandwich with a second biscuit.",
+    "Optionally finish with an extra drizzle of dark chocolate across the top for decoration.",
+    "Yield: 20 cookies= 10 s’mores"
+  ],
+  "category": "Bakery",
+  "description": "Pumpkin Spice S'Mores - British Bakels",
+  "image": "https://www.britishbakels.co.uk/wp-content/uploads/sites/2/2025/10/19.jpg"
+}

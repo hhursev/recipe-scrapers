@@ -1,0 +1,2491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script>
+ var country = 'ES';
+ var isSpainOrLatamUser = true;
+ var WSLUser = null;
+ var WSLUserIsXtraSubscribed = false;
+ (function() {
+  try {
+   var cookieName = "weblogssl_user";
+   var cookies = document.cookie.split(";");
+   for (var i = 0; i < cookies.length; i++) {
+    var fragments = /^\s*([^=]+)=(.+?)\s*$/.exec(cookies[i]);
+    if (fragments[1] === cookieName) {
+     var cookie = decodeURIComponent(decodeURIComponent(fragments[2]));
+     WSLUser = JSON.parse(cookie).user;
+     WSLUserIsXtraSubscribed = 'object' === typeof WSLUser && 1 === WSLUser.xtraSubscribed;
+     break;
+    }
+   }
+  } catch (e) {}
+ })();
+</script>
+   <meta charset="UTF-8">
+<title>Rocas de chocolate, turrón y nueces con escamas de sal, receta de cocina fácil</title>
+<script>
+ window.WSL2 = window.WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.title = "Rocas de chocolate, turrón y nueces con escamas de sal, receta de cocina fácil";
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de rocas de chocolate, turrón y nueces con escamas de sal. Tiempo de elaboración,...">
+ <script>WSL2.config.metaDescription = "Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de rocas de chocolate, turrón y nueces con escamas de sal. Tiempo de elaboración,..."</script>
+  <meta name="news_keywords" content="Chocolate, Nueces, receta, turrón jijona, Recetas de Navidad, Postres fáciles y rápidos, Recetas en menos de 30 minutos, Postres">
+   <meta name="robots" content="max-image-preview:large">
+<meta property="fb:admins" content="100000716994885">
+<meta property="fb:pages" content="41182117378">
+<meta property="fb:app_id" content="357721611901">
+<meta name="application-name" content="Directo al Paladar">
+<meta name="msapplication-tooltip" content="Recetas de cocina y gastronomía. Directo al Paladar">
+<meta name="msapplication-starturl" content="https://www.directoalpaladar.com">
+<meta name="mobile-web-app-capable" content="yes">
+                 <meta property="og:image" content="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/840_560.jpg">
+      <meta property="og:title" content="Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña">
+  <meta property="og:description" content="Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de rocas de chocolate, turrón y nueces con escamas de sal. Tiempo de elaboración,...">
+  <meta property="og:url" content="https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2022-10-27T13:08:54Z">
+    <meta name="DC.Creator" content="Carmen Tía Alia">
+  <meta name="DC.Date" content="2020-12-10">
+  <meta name="DC.date.issued" content="2022-10-27T13:08:54Z">
+  <meta name="DC.Source" content="Directo al Paladar">
+  <meta property="article:modified_time" content="2022-10-27T13:08:54Z">
+  <meta property="article:published_time" content="2022-10-27T13:08:54Z">
+  <meta property="article:section" content="postres">
+         <meta property="article:tag" content="Chocolate">
+            <meta property="article:tag" content="Nueces">
+            <meta property="article:tag" content="receta">
+            <meta property="article:tag" content="turrón jijona">
+            <meta property="article:tag" content="Recetas de Navidad">
+            <meta property="article:tag" content="Postres fáciles y rápidos">
+            <meta property="article:tag" content="Recetas en menos de 30 minutos">
+             <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/1366_521.jpg"><meta name="twitter:site" content="@directopaladar"><meta name="twitter:title" content="Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña"><meta name="twitter:description" content="Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de rocas de chocolate, turrón y nueces con escamas de sal. Tiempo de elaboración,..."><meta name="twitter:creator" content="@tiaalia">         <script>
+ window.dataLayer = [{"site":"DAP","siteSection":"postpage","vertical":"Foodies","amp":"no","postId":94982,"postUrl":"https:\/\/www.directoalpaladar.com\/postres\/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena","publishedDate":"2020-12-10","modifiedDate":"2022-10-27T13:08","categories":["postres"],"tags":["chocolate","nueces","receta","turron-jijona","recetas-de-navidad","postres-faciles-y-rapidos","recetas-en-menos-de-30-minutos"],"videoContent":false,"partner":false,"blockLength":5,"author":"carmen t\u00eda alia","postType":"normal","linksToEcommerce":"none","ecomPostExpiration":"everlasting","mainCategory":"postres","postExpiration":null,"wordCount":344}];
+ window.dataLayer[0].visitor_country = country;
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3X96ZX03D"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ window.WSL2 = window.WSL2 || {};
+ window.WSL2.pageViewParams = {"site":"DAP","site_section":"postpage","vertical":"Foodies","amp":"no","visitor_country":"ES","content_id":94982,"post_url":"https:\/\/www.directoalpaladar.com\/postres\/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena","content_publication_date":"2020-12-10","modified_date":"2022-10-27T13:08","page_category":"postres","content_tags":"chocolate,nueces,receta,turron-jijona,recetas-de-navidad,postres-faciles-y-rapidos,recetas-en-menos-de-30-minutos","has_video_content":false,"global_branded":false,"block_length":5,"content_author_id":"carmen t\u00eda alia","post_type":"normal","links_to_ecommerce":"none","ecompost_expiration":"everlasting","mainCategory":"postres","post_expiration":null,"word_count":344};
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-L3X96ZX03D', { send_page_view: false });
+ </script>
+  <script>
+
+ var gdprAppliesGlobally = true;
+
+ (function() {
+  function n() {
+   if (!window.frames.__cmpLocator) {
+    if (document.body && document.body.firstChild) {
+     var e = document.body;
+     var t = document.createElement("iframe");
+     t.style.display = "none";
+     t.name = "__cmpLocator";
+     t.title = "cmpLocator";
+     e.insertBefore(t, e.firstChild)
+    } else {
+     setTimeout(n, 5)
+    }
+   }
+  }
+
+  function e(e, t, n) {
+   if (typeof n !== "function") {
+    return
+   }
+   if (!window.__cmpBuffer) {
+    window.__cmpBuffer = []
+   }
+   if (e === "ping") {
+    n({
+     gdprAppliesGlobally: window.gdprAppliesGlobally,
+     cmpLoaded: false
+    }, true)
+   } else {
+    window.__cmpBuffer.push({
+     command: e,
+     parameter: t,
+     callback: n
+    })
+   }
+  }
+  e.stub = true;
+
+  function t(r) {
+   if (!window.__cmp || window.__cmp.stub !== true) {
+    return
+   }
+   if (!r.data) {
+    return
+   }
+   var a = typeof r.data === "string";
+   var e;
+   try {
+    e = a ? JSON.parse(r.data) : r.data
+   } catch (t) {
+    return
+   }
+   if (e.__cmpCall) {
+    var o = e.__cmpCall;
+    window.__cmp(o.command, o.parameter, function(e, t) {
+     var n = {
+      __cmpReturn: {
+       returnValue: e,
+       success: t,
+       callId: o.callId
+      }
+     };
+     r.source.postMessage(a ? JSON.stringify(n) : n, "*")
+    })
+   }
+  }
+  if (typeof window.__cmp !== "function") {
+   window.__cmp = e;
+   if (window.addEventListener) {
+    window.addEventListener("message", t, false)
+   } else {
+    window.attachEvent("onmessage", t)
+   }
+  }
+  n()
+ })();
+
+
+ (function(e) {
+  var t = document.createElement("script");
+  t.id = "spcloader";
+  t.async = true;
+  t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname;
+  t.charset = "utf-8";
+  var n = document.getElementsByTagName("script")[0];
+  n.parentNode.insertBefore(t, n)
+ })("7bd10a97-724f-47b3-8e9f-867f0dea61c8");
+
+ function scrollListener(e) {
+  var o = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0,
+   n = Math.max(document.body.scrollHeight || 0, document.documentElement.scrollHeight || 0, document.body.offsetHeight || 0, document.documentElement.offsetHeight || 0, document.body.clientHeight || 0, document.documentElement.clientHeight || 0);
+  30 <= (window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0) / (n - o) * 100 && (Didomi.setUserAgreeToAll(), window.removeEventListener("scroll", scrollListener))
+ }
+
+ window.didomiOnReady = window.didomiOnReady || [], window.didomiOnReady.push(function(e) {
+  e.notice.isVisible() && window.addEventListener("scroll", scrollListener)
+ });
+
+</script>
+<script type="didomi/javascript">
+ if (!window.frames['__tcfapiLocator']) {
+  if (document.head) {
+   var head = document.head,
+   iframe = document.createElement('iframe');
+   iframe.style.cssText = 'display:none';
+   iframe.name = '__tcfapiLocator';
+   head.appendChild(iframe);
+  }
+ }
+</script><script>
+ window.WSL2 = window.WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.enableDidomiOverlay = 1;
+</script>
+
+                   
+
+  
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+ {"@context":"https:\/\/schema.org","@type":"Article","mainEntityOfPage":"https:\/\/www.directoalpaladar.com\/postres\/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena","name":"Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña","headline":"Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña","articlebody":"Siempre viene bien tener recetas fáciles y rápidas con las que quedar bien con los invitados, pero en Navidad se agradecen mucho más. Sobre todo si sobre nosotros recae el peso de organizar alguna de las comidas y cenas de celebración, que conllevan una carga de trabajo considerable. Por eso nos gusta tanto esta receta de rocas de chocolate, turrón y nueces con escamas de sal. Con ella tenemos la sobremesa solucionada en un abrir y cerrar de ojos. Solo necesitamos cuatro ingredientes y menos de 15 minutos. Un chollo de receta que, sobra decir, está tremendamente deliciosa y nos recuerda a las finas Moscovitas de Rialto. Vamos al lío. Un vistazo a… Tarta de chocolate fácil y rápida en 15 minutos En Directo al Paladar 71 recetas de postres fáciles y rápidos Ingredientes Para 25 unidades Chocolate negro 180 g Turrón de Jijona 125 g Nueces 150 g Escamas de sal Cómo hacer rocas de chocolate, turrón y nueces con escamas de sal Dificultad: Fácil Tiempo total 12 m Elaboración 10 m Cocción 2 m Partimos la tableta de chocolate en onzas y las introducimos en un recipiente hondo apto para microondas. Fundimos el chocolate en el micro a golpes de calor de 30 segundos, removiendo entre golpe y golpe para evitar que se queme. Con un par de minutos debería ser suficiente. Añadimos el turrón de Jijona desmenuzado y también las nueces, peladas y picadas groseramente. Removemos bien para integrar los tres ingredientes. Dejamos reposar unos minutos para que el chocolate endurezca un poco antes de repartir pequeñas cucharadas sobre una bandeja forrada con papel vegetal. Dejamos enfriar completamente antes de pasar a una caja o tupper y guardar en la nevera hasta el momento de consumir. Cuando los vayamos a tomar, las sacamos de la nevera y los dejamos atemperar para que no estén demasiado frías o duras. 5 4 3 2 1 ¡Gracias! 75 votos Con qué acompañar las rocas de chocolate, turrón y nueces con escamas de sal Lo hemos dicho en la introducción, pero hacemos hincapié de nuevo en que el mejor momento para saborear estas rocas de chocolate, turrón, nueces y escamas de sal es el de la sobremesa. Acompañadas de un café, una infusión o una copa de licor, son un bocado perfecto. Sobre todo para los amantes del chocolate. En Directo al paladar | 22 postres fáciles y rápidos para endulzar la Navidad En Directo al paladar | Las 215 mejores recetas de Navidad y 16 menús especiales para acertar seguro","datePublished":"2022-10-27T13:08:54Z","dateModified":"2022-10-27T13:08:54Z","description":"Te explicamos paso a paso, de manera sencilla, cómo hacer la receta de rocas de chocolate, turrón y nueces con escamas de sal. Tiempo de elaboración,...","publisher":{"@type":"Organization","name":"Directo al Paladar","url":"https:\/\/www.directoalpaladar.com","sameAs":["https:\/\/x.com\/directopaladar","https:\/\/www.facebook.com\/pages\/Directo-al-paladar\/41182117378","https:\/\/www.youtube.com\/c\/directoalpaladar","https:\/\/instagram.com\/directopaladar","https:\/\/es.pinterest.com\/directopaladar","https:\/\/www.tiktok.com\/@directopaladar","https:\/\/www.wikidata.org\/entity\/Q138793990"],"logo":{"@type":"ImageObject","url":"https:\/\/i.blogs.es\/340df6\/logo-horizontal.png","width":600,"height":60},"Parentorganization":"Webedia"},"image":{"@type":"ImageObject","url":"https:\/\/i.blogs.es\/d21a2e\/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal\/1200_900.jpg","width":1200,"height":900},"author":[{"@type":"Person","name":"Carmen Tía Alia","url":"https:\/\/www.directoalpaladar.com\/autor\/carmen","sameAs":["https:\/\/twitter.com\/tiaalia"]}],"url":"https:\/\/www.directoalpaladar.com\/postres\/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena","thumbnailUrl":"https:\/\/i.blogs.es\/d21a2e\/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal\/1200_900.jpg","articleSection":"Postres","creator":"Carmen Tía Alia","keywords":"Chocolate, Nueces, receta, turrón jijona, Recetas de Navidad, Postres fáciles y rápidos, Recetas en menos de 30 minutos, Postres"}
+</script>
+            <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Recipe","name":"Rocas de chocolate, turr\u00f3n y nueces con escamas de sal, receta f\u00e1cil y r\u00e1pida para una sobremesa navide\u00f1a","image":"https:\/\/i.blogs.es\/d21a2e\/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal\/650_1200.jpg","author":{"@type":"Person","name":"Carmen T\u00eda Alia"},"datePublished":"2020-12-10T17:00:48+00:00","description":"Te explicamos paso a paso, de manera sencilla, c\u00f3mo hacer la receta de rocas de chocolate, turr\u00f3n y nueces con escamas de sal. Tiempo de elaboraci\u00f3n,...","totalTime":"P0DT0H12M","recipeYield":25,"nutrition":[],"recipeIngredient":["180g Chocolate negro","125g Turr\u00f3n de Jijona","150g Nueces","Escamas de sal"],"recipeInstructions":"Partimos la tableta de chocolate en onzas y las introducimos en un recipiente hondo apto para microondas. Fundimos el chocolate en el micro a **golpes de calor de 30 segundos**, removiendo entre golpe y golpe para evitar que se queme. Con un par de minutos deber\u00eda ser suficiente.\n\n\n\n\nA\u00f1adimos el turr\u00f3n de Jijona desmenuzado y tambi\u00e9n las nueces, peladas y picadas groseramente. Removemos bien para integrar los tres ingredientes. Dejamos reposar unos minutos para que el chocolate **endurezca un poco** antes de repartir peque\u00f1as cucharadas sobre una bandeja forrada con papel vegetal.\n\nDejamos enfriar completamente antes de pasar a una caja o tupper y **guardar en la nevera** hasta el momento de consumir. Cuando los vayamos a tomar, las sacamos de la nevera y los dejamos atemperar para que no est\u00e9n demasiado fr\u00edas o duras.\n\n","video":[],"cookTime":"P0DT0H2M","prepTime":"P0DT0H10M","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.00000","reviewCount":75},"recipeCategory":"Postres","recipeCuisine":"espa\u00f1ola","keywords":"Chocolate, Nueces, receta, turr\u00f3n jijona, Recetas de Navidad, Postres f\u00e1ciles y r\u00e1pidos, Recetas en menos de 30 minutos, Postres"}</script>
+      <link rel="preconnect" href="https://i.blogs.es">
+<link rel="shortcut icon" href="https://img.weblogssl.com/css/directoalpaladar/p/common/favicon.ico" type="image/ico">
+<link rel="apple-touch-icon" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-57-precomposed.png">
+ <link rel="preconnect" href="https://static.criteo.net/" crossorigin>
+ <link rel="dns-prefetch" href="https://static.criteo.net/">
+ <link rel="preconnect" href="https://ib.adnxs.com/" crossorigin>
+ <link rel="dns-prefetch" href="https://ib.adnxs.com/">
+ <link rel="preconnect" href="https://bidder.criteo.com/" crossorigin>
+ <link rel="dns-prefetch" href="https://bidder.criteo.com/">
+     <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/1366_2000.jpg" media="(max-width: 500px)">
+  <link rel="preload" as="style" href="https://img.weblogssl.com/css/directoalpaladar/p/thewatmag-d/main.css?v=1776866056">
+   <link rel="alternate" type="application/rss+xml" title="Directoalpaladar - todas las noticias" href="/index.xml">
+   <link rel="image_src" href="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/75_75.jpg">
+      <link rel="canonical" href="https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">
+   
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&amp;display=swap" as="style" type="text/css" crossorigin="anonymous">
+  <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" as="style" type="text/css" crossorigin="anonymous">
+ <script async src="https://launcher.spot.im/spot/sp_elHFZQu4" data-social-reviews="true"></script>
+   <link rel="amphtml" href="https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena/amp" >
+  <link rel="stylesheet" type="text/css" href="https://img.weblogssl.com/css/directoalpaladar/p/thewatmag-d/main.css?v=1776866056">
+ 
+   <style>
+   .masthead-nano-logo a {
+   color: #490017; /* Color del logo , RRSS y VIPlinks */
+  }
+
+  .masthead-nano-nav-container .masthead-nav-topics-anchor,
+  .masthead-nano-nav-container .masthead-nav-social-anchor {
+   color: #490017; /* Color del logo , RRSS y VIPlinks */
+  }
+
+  .masthead-nano-container {
+   background: #FFEBD5; /* Color del fondo de la cabecera */
+  }
+
+  .masthead-nano-nav-container {
+   background: #FFEBD5; /* Color del fondo de la cabecera */
+  }
+  .masthead-nano-nav-container:after {
+   background: linear-gradient(to right, #FFEBD500, #FFEBD5); /* Color del fondo de la cabecera */
+  }
+  .masthead-nano-nav {
+    border-top-color: #bfa78e;
+  }
+  .xtra-cta-hd-nav, .xtra-cta-hd-nav .xtra-bt,
+  .xtra-cta-hd-lead, .xtra-cta-hd-lead  .xtra-bt {
+   background: #FFEBD5;
+  }
+   .masthead-nano-container .masthead-nano-logo a {
+  background-image: url("https\3A \2F \2F i\2E blogs\2E es\2F 340df6/headboard-edge.svg");  /* nanomedios logo image */
+ }
+  
+ .masthead-nano-container .masthead-nano-logo {
+    width: 236px; /* Tamaño mínimo del logo Anchura  */
+    height: 56px; /* Tamaño mínimo del logo Altura  */
+}
+@media only screen and (min-width: 768px) {
+     .masthead-nano-container .masthead-nano-logo {
+        width: 320px; /* Tamaño máximo del logo Anchura  */
+        height: 76px; /* Tamaño máximo del logo Altura  */
+    }
+}
+  
+</style>  
+    </head>
+<body class="js-desktop m-cms prod js-body m-category-nanomedia ">
+               <script type="didomi/javascript">
+ function sendcomscore() {
+ 
+  var s = document.createElement("script"),
+  el = document.getElementsByTagName("script")[0];
+  s.setAttribute("data-vendor", "iab:77");
+  s.text = 'var cs_ucfr = ""; \
+  if (Didomi.getUserStatusForVendor(77)) { \
+   var cs_ucfr = "1"; \
+  } else if (Didomi.getUserStatusForVendor(77) == false) { \
+   var cs_ucfr = "0"; \
+  } \
+  \
+  var _comscore = _comscore || []; \
+  var configs = { \
+   c1: "2", \
+   c2: "6035191", \
+   cs_ucfr: cs_ucfr \
+  }; \
+  var keyword = keyword || ""; \
+  if (keyword) { \
+   configs.options = { \
+    url_append: "comscorekw=" + keyword \
+   }; \
+  } \
+  _comscore.push(configs); \
+  var s = document.createElement("script"), \
+  el = document.getElementsByTagName("script")[0]; \
+  \
+  s.src = "https://sb.scorecardresearch.com/cs/6035191/beacon.js"; \
+  \
+  window.didomiEventListeners = []; \
+  \
+  el.parentNode.insertBefore(s, el);';
+  el.parentNode.insertBefore(s, el);
+ }
+ 
+ if(Didomi.getUserStatusForVendor(77) == undefined){
+ 
+  window.didomiEventListeners = window.didomiEventListeners || [];
+  window.didomiEventListeners.push({
+   event: 'consent.changed',
+   listener: function(context) {
+ 
+   sendcomscore()
+   }
+  });
+ } else {
+  sendcomscore()
+ }
+</script>
+ 
+<script>
+ dataLayer.push({
+  contentGroup1: "post",
+  contentGroup2: "carmen tía alia",
+  contentGroup3: "postres",
+  contentGroup4: "normal",
+  contentGroup5: "201210",
+ });
+</script>
+ <script>let viewsOnHost = +sessionStorage.getItem("upv") || 0;
+viewsOnHost += 1;
+sessionStorage.setItem("upv", viewsOnHost);
+
+let sessionsOnHost = +localStorage.getItem("sessionsOnHost") || 0;
+if (viewsOnHost === 1) {
+  sessionsOnHost += 1;
+}
+localStorage.setItem("sessionsOnHost", sessionsOnHost);
+</script>
+  <div id="publicidad"></div>
+  <script>
+    function hash(string) {
+      const utf8 = new TextEncoder().encode(string);
+      return crypto.subtle.digest('SHA-256', utf8).then((hashBuffer) => {
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map((bytes) => bytes.toString(16).padStart(2, '0')).join('');
+      });
+    }
+
+    const populateHashedEmail = () => {
+      const loggedin = WSL2.User.isUserLoggedIn();
+      if (loggedin) {
+        const userEmail = WSL2.User.getUserEmail();
+        hash(userEmail).then((hashedEmail) => {
+          jad.config.publisher.hashedId = { sha256email: hashedEmail };
+        });
+      }
+    }
+
+    WSL2.config.enablePerformanceImprovements = "0";
+    window.hasAdblocker = getComputedStyle(document.querySelector('#publicidad')).display === 'none';
+                                                                      WSL2.config.dynamicIU = "/1018282/DirectoAlPaladar/postpage";
+        window.jad = window.jad || {};
+    jad.cmd = jad.cmd || [];
+    let swrap = document.createElement("script");
+    if ('1' === WSL2.config.enablePerformanceImprovements) {
+      swrap.defer = true;
+    }
+    else {
+      swrap.async = true;
+    }
+
+    const jadTargetingData = {"site":"DAP","siteSection":"postpage","vertical":"Foodies","amp":"no","visitor_country":"ES","postId":94982,"postUrl":"https:\/\/www.directoalpaladar.com\/postres\/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena","publishedDate":"2020-12-10","modifiedDate":"2022-10-27T13:08","categories":["postres"],"tags":["chocolate","nueces","receta","turron-jijona","recetas-de-navidad","postres-faciles-y-rapidos","recetas-en-menos-de-30-minutos"],"videoContent":false,"partner":false,"blockLength":5,"author":"carmen t\u00eda alia","postType":"normal","linksToEcommerce":"none","ecomPostExpiration":"everlasting","mainCategory":"postres","postExpiration":null,"wordCount":344};
+          {
+      const postCreationDate = 1607619648
+      const currentDate = new Date();
+      const currentTimestamp = currentDate.getTime();
+      const postTimeStamp = new Date(postCreationDate*1000).getTime();
+      const sixDaysMilliseconds = 6 * 60 * 24 * 60 * 1000;
+      jadTargetingData["recency"] = currentTimestamp - postTimeStamp > sixDaysMilliseconds ? 'old' : 'new';
+      const currentHour = (currentDate.getUTCHours() + 2) % 24;
+      jadTargetingData["hour"] = String(currentHour).length == 1 ? '0' + currentHour : currentHour;
+      }
+        jadTargetingData["upv"] = sessionStorage.getItem("upv") || 1;
+
+    swrap.src = "https://cdn.lib.getjad.io/library/1018282/DirectoAlPaladar";
+    swrap.setAttribute("importance", "high");
+    let g = document.getElementsByTagName("head")[0];
+    const europeanCountriesCode = [
+      'AD', 'AL', 'AT', 'AX', 'BA', 'BE', 'BG', 'BY', 'CH', 'CY', 'CZ', 'DE', 'DK',
+      'EE', 'ES', 'FI', 'FO', 'FR', 'GB', 'GG', 'GI', 'GR', 'HR', 'HU', 'IE', 'IM',
+      'IS', 'IT', 'JE', 'LI', 'LT', 'LU', 'LV', 'MC', 'MD', 'ME', 'MK', 'MT', 'NL',
+      'NO', 'PL', 'PT', 'RO', 'RS', 'RU', 'SE', 'SI', 'SJ', 'SK', 'SM', 'UA', 'VA'
+    ];
+    window.WSL2 = window.WSL2 || {};
+    window.WSL2.isEuropeanVisitor = europeanCountriesCode.includes(window.country);
+    const enableCmpChanges = "1";
+    let cmpObject = {
+      includeCmp: window.WSL2.isEuropeanVisitor ? false : true,
+      name: window.WSL2.isEuropeanVisitor ? 'didomi' : 'none'
+    }
+    if (window.WSL2.isEuropeanVisitor && "1" == enableCmpChanges) {
+      cmpObject = {
+        ...cmpObject,
+        "siteId": "7bd10a97-724f-47b3-8e9f-867f0dea61c8",
+        "noticeId": "PBQC7tHr",
+        "paywall": {
+          "version": 1,
+          "clientId": "AeAcL5krxDiL6T0cdEbtuhszhm0bBH9S0aQeZwvgDyr0roxQA6EJoZBra8LsS0RstogsYj54y_SWXQim",
+          "planId": "P-9AX34065NU288404EMWKYOFI",
+          "tosUrl": "https://weblogs.webedia.es/condiciones-uso.html",
+          "touUrl": "https://weblogs.webedia.es/condiciones-uso.html",
+          "privacyUrl": "https://weblogs.webedia.es/cookies.html" ,
+          "language":  "es"
+        }
+      }
+    }
+    g.parentNode.insertBefore(swrap, g);
+    jad.cmd.push(function() {
+      jad.public.setConfig({
+        page: "/1018282/DirectoAlPaladar/postpage", 
+                  pagePositions: [
+                         'top',
+             'cen1',
+             'cen2',
+             'footer',
+             'oop',
+             'cintillo',
+             '1',
+             'inread1',
+             'large-sticky',
+   
+          ],
+          elementsMapping:                                                                                              
+                                                                         
+ {"top":"div-gpt-top","cen1":"div-gpt-cen","cen2":"div-gpt-cen2","footer":"div-gpt-bot2","oop":"div-gpt-int","cintillo":"div-gpt-int2","1":"div-gpt-lat","inread1":"div-gpt-out","large-sticky":"div-gpt-bot3"}
+,
+          targetingOnPosition: {
+                      "top": {
+     'fold': ['atf']
+    },
+               "cen1": {
+     'fold': ['btf']
+    },
+               "cen2": {
+     'fold': ['btf']
+    },
+               "footer": {
+     'fold': ['btf']
+    },
+               "oop": {
+     'fold': ['mtf']
+    },
+               "cintillo": {
+     'fold': ['mtf']
+    },
+               "1": {
+     'fold': ['atf']
+    },
+               "inread1": {
+     'fold': ['mtf']
+    },
+               "2": {
+     'fold': ['mtf']
+    },
+               "3": {
+     'fold': ['mtf']
+    },
+               "4": {
+     'fold': ['mtf']
+    },
+               "5": {
+     'fold': ['mtf']
+    },
+               "6": {
+     'fold': ['mtf']
+    },
+               "7": {
+     'fold': ['mtf']
+    },
+               "8": {
+     'fold': ['mtf']
+    },
+               "large-sticky": {
+     'fold': ['atf']
+    },
+      
+          },
+                targeting: jadTargetingData,
+        interstitialOnFirstPageEnabled: false,
+        cmp: cmpObject,
+        wemass: {
+          targeting: {
+            page: {
+              type: jadTargetingData.siteSection ?? "",
+              content: {
+                categories: jadTargetingData.categories ?? [""],
+              },
+              article: {
+                id: jadTargetingData.postId ?? "",
+                title: WSL2.config.title ?? "",
+                description: WSL2.config.metaDescription ?? "",
+                topics: jadTargetingData.tags ?? [""],
+                authors: jadTargetingData.author ? jadTargetingData.author.split(',') : [""],
+                modifiedAt: jadTargetingData.modifiedDate ? new Date(jadTargetingData.modifiedDate).toISOString() : "",
+                publishedAt: jadTargetingData.publishedDate ? new Date(jadTargetingData.modifiedDate).toISOString() : "",
+                premium: false,
+                wordCount: jadTargetingData.wordCount ?? null,
+                paragraphCount: jadTargetingData.blockLength ?? "",
+                section: jadTargetingData.mainCategory ?? "",
+                subsection: "",
+              },
+              user: {
+                type: "",
+                age: null,
+                gender: "",
+              },
+            },
+          },
+        },
+      });
+
+      jad.public.loadPositions();
+      jad.public.displayPositions();
+    });
+    if (!window.hasAdblocker) {
+      window.addEventListener('load', () => {
+        populateHashedEmail();
+        WSL2.Events.on('loginSuccess', populateHashedEmail);
+        WSL2.Events.on('onLogOut', () => {
+          jad.config.publisher.hashedId = {};
+        });
+      });
+    }
+  </script>
+ <div class="customize-me">
+  <div class="head-content-favs">
+       <div class="head-container head-container-with-ad head-container-with-corner m-favicons-compact m-head-masthead">
+ <div class="head head-with-ad is-init">
+     <div class="head-favicons-container">
+ <nav class="head-favicons">
+  <div class="head-favicons-index head-webedia-logo">
+   <a id="favicons-toggle" href="https://www.webedia.es/" data-target="#head-favicons"><abbr title="Webedia">Webedia</abbr></a>
+  </div>
+ </nav>
+</div>    <div class="masthead-site-lead m-is-compact">
+ <div class="masthead-container">
+  <div class="masthead-logo">
+   <div class="masthead-logo-brand">
+    <a href="/" class="masthead-brand">Directo al Paladar</a>
+   </div>
+     </div>
+       <nav class="masthead-actions">
+    <ul class="masthead-actions-list">
+     <li class="masthead-actions-list-item"><a href="#sections" class="masthead-actions-menu m-v1 js-toggle" data-searchbox="#search-field-1">Menú</a></li>
+     <li class="masthead-actions-list-item"><a href="#headlines" class="masthead-actions-nuevo m-v1 js-toggle">Nuevo</a></li>
+    </ul>
+   </nav>
+      </div>
+</div>
+  <div class="masthead-nano-container js-nano-container  m-nanomaker-custom m-nanomaker-logo">
+ <div class="masthead-nano-lead">
+  <div class="masthead-nano-logo">
+       <a href="/categoria/postres">Postres</a>
+     </div >
+     </div>
+</div>
+     <div class="masthead-nano-nav-container js-nano-container m-nanomaker-custom m-nanomaker-logo">
+ <nav class="masthead-nano-nav">
+  <ul class="masthead-nav-topics">
+       <li class="masthead-nav-topics-item"><a class="masthead-nav-topics-anchor" href="https://www.directoalpaladar.com/tag/tartas">Tartas</a></li>
+       <li class="masthead-nav-topics-item"><a class="masthead-nav-topics-anchor" href="https://www.directoalpaladar.com/tag/bizcochos">Bizcochos</a></li>
+       <li class="masthead-nav-topics-item"><a class="masthead-nav-topics-anchor" href="https://www.directoalpaladar.com/tag/galletas">Galletas</a></li>
+     </ul>
+   <ul class="masthead-nav-social">
+                         <li class="masthead-nav-social-item"><a href="https://twitter.com/directopaladar" class="masthead-nav-social-anchor masthead-social-x" rel="nofollow">Twitter</a></li>
+
+ 
+                 <li class="masthead-nav-social-item"><a href="https://www.facebook.com/directopaladar" class="masthead-nav-social-anchor masthead-social-facebook" rel="nofollow">Facebook</a></li>
+
+ 
+                           <li class="masthead-nav-social-item"><a href="https://www.youtube.com/directoalpaladar" class="masthead-nav-social-anchor masthead-social-youtube" rel="nofollow">Youtube</a></li>
+
+ 
+      </ul>
+        </nav>
+</div>
+   </div>
+</div>
+
+     <div class="ad ad-top">
+  <div class="ad-box" id="div-gpt-top">
+  </div>
+   </div>
+    
+      <div class="page-container ">
+           <div class="section-deeplinking-container m-deeplinking-news m-deeplinking-post o-deeplinking-section">
+  <div class="section-deeplinking o-deeplinking-section_wrapper">
+   <div class="section-deeplinking-wrap">
+    <span class="section-deeplinking-header">HOY SE HABLA DE</span>
+    <ul id="js-deeplinking-news-nav-links" class="section-deeplinking-list">
+           <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/consumidores/hace-20-anos-lidl-prometia-que-podias-llenar-carro-compra-30-euros-hoy-no-te-llega-casi-para-bolsa" class="section-deeplinking-anchor">Lidl</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/seleccion/liquidacion-carrefour-para-esta-tele-recien-llegada-qled-40-pulgadas-tizen-200-euros" class="section-deeplinking-anchor">Carrefour</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.trendencias.com/viajes/cadaques-portbou-este-pueblo-costa-brava-camino-bonito-espana-para-caminar-al-mediterraneo" class="section-deeplinking-anchor">Pueblo</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.trendencias.com/gourmet/mejor-plan-150-pesos-ciudad-mexico-fiesta-cerveza-2026-llega-a-jardin-juarez-vaso-incluido" class="section-deeplinking-anchor">Cerveza</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/recetas-de-pasta/pasta-primavera-receta-facil-perfecta-para-aprovechar-verduras-temporada" class="section-deeplinking-anchor">Verduras</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/magnet/artemis-ii-busca-como-regresar-a-luna-hay-quien-se-ha-hecho-millonario-vendiendo-parcelas-lunares" class="section-deeplinking-anchor">Millonario</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/ecologia-y-naturaleza/barcelona-no-bajaron-19degc-noche-abril-eso-importante-que-todas-olas-calor" class="section-deeplinking-anchor">Barcelona</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/recetas-de-aperitivos/mis-empanadillas-todoterreno-tienen-tres-ingredientes-van-al-horno-aperitivo-facil-que-existe" class="section-deeplinking-anchor">Horno</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/otros-dispositivos/esterilizar-movil-lavavajillas-comer-chuletones-que-duran-10-dias-frigo-haier-redefine-electrodomesticos" class="section-deeplinking-anchor">Lavavajillas</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/movilidad/ryanair-se-ha-dejado-a-sus-pasajeros-tierra-dos-veces-semana-culpable-tiene-nombre-apellidos-ees" class="section-deeplinking-anchor">Ryanair</a></li>
+         </ul>
+    <div id="js-deeplinking-news-nav-btn" class="section-deeplinking-btn" style="display:none"></div>
+   </div>
+  </div>
+ </div>
+
+        <div class="content-container">
+     <main>
+      <article class="article article-normal">
+       <header class="post-normal-header">
+                 <div class="post-title-container">
+  <h1 class="post-title">
+     Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña   </h1>
+</div>
+                                  <div class="post-asset-main">
+          <div class="article-asset-big article-asset-image js-post-images-container">
+                <div class="asset-content">
+  <picture>
+   <source media="(min-width: 1025px)" srcset="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/1366_2000.jpg">
+   <source media="(min-width: 651px)" srcset="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/1024_2000.jpg">
+   <source media="(min-width: 451px)" srcset="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/650_1200.jpg">
+   <img alt="Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña" src="https://i.blogs.es/d21a2e/rocas-de-chocolate-turron-y-nueces-con-escamas-de-sal/450_1000.jpg" decoding="sync" loading="eager" fetchpriority="high" width="1700" height="1141">
+  </picture>
+ </div>
+           </div>
+         </div>
+                <div class="post-comments-shortcut">
+                      <a href="#comments" class="post-comments js-smooth-scroll" id="commentCount"></a>
+           
+           <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" class="btn-facebook js-btn-facebook" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">Facebook</a>
+<a href="https://twitter.com/intent/tweet?url=https://www.directoalpaladar.com/p/94982%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a&via=directopaladar" class="btn-x js-btn-twitter" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">Twitter</a>
+<a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a&url=https%3A%2F%2Fwww.directoalpaladar.com%2Fpostres%2Frocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb" class="btn-flipboard js-flipboard-share-button js-flipboard-share-event" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">Flipboard</a>
+<a href="mailto:?subject=Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a&body=https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE" class="btn-email js-btn-email" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">E-mail</a>
+ <span class="js-whatsapp"></span>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+     const userAgent = navigator.userAgent.toLowerCase();
+     if (userAgent.indexOf('ipod') < 0) {
+       if (userAgent.indexOf('android') >= 0 || userAgent.indexOf('iphone') >= 0) {
+         const length = document.getElementsByClassName('js-whatsapp').length;
+         for (let i = 0; i < length; i++) {
+           document.getElementsByClassName('js-whatsapp')[i].innerHTML = `<a class='btn-whatsapp js-btn-whatsapp' data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena" href="whatsapp://send?text=Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña  https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneramobile">Whatsapp</a>`;
+         }
+       }
+     }
+   }, { once:true });
+ </script>
+        </div>
+       </header>
+       <div class="article-content-wrapper">
+        <div class="article-content-inner">
+                    <div class="article-metadata-container">
+ <div class="article-meta-row">
+ <div class="article-time">
+   <time
+   class="article-date"
+   datetime="2022-10-27T13:08:54Z"
+   data-format="D MMMM YYYY"
+   data-post-modified-time="2022-10-27T13:08:54Z"
+   data-post-modified-format="D MMMM YYYY, HH:mm"
+   data-post-reindexed-original-time=""
+  >
+   2022-10-27T13:08:54Z
+  </time>
+  <span id="is-editor"></span>
+</div>
+   </div>
+</div>
+<div class="p-a-cr m-pa-single  js-authors-container">
+ <div class="p-a-wrap js-wrap">
+     <div class="p-a-avtr">
+       <img src="https://www.gravatar.com/avatar/9c3abdc4ea0d1dae92c94aab1351094b?s=80&amp;d=mm&amp;r=g" alt="carmen" class="author-avatar">
+    </div>
+    <div class="p-a-info">
+           <div class="au-card-relative js-relative">
+      <div class="p-a-chip js-author  p-ab-is-hidden
+" data-id="author-125-creator" role="button" tabindex="0">
+  <p><span>Carmen Tía Alia</span></p>
+  <span class="p-a-ui"></span> </div>
+                </div>
+          <span class="p-a-job">Editor Senior</span>     </div>
+ </div>
+ </div>
+ <div class="p-a-card-popover">
+         <div class="p-a-card js-author-info  p-ab-is-hidden
+" id="author-125-creator" >
+ <div class="p-a-cwrap">
+  <div class="p-a-avtr">
+         <img src="https://www.gravatar.com/avatar/9c3abdc4ea0d1dae92c94aab1351094b?s=80&amp;d=mm&amp;r=g" alt="carmen" class="a-c-img">
+       </div>
+  <div class="p-a-pi">
+         <span class="ic-close js-close" role="button" tabindex="0"></span>
+        <p class="p-a-cn">Carmen Tía Alia</p>
+   <small class="p-a-cj">Editor Senior</small>
+  </div>
+ </div>
+ <div class="p-a-c">
+       <div class="p-a-sp">
+        <a href="https://twitter.com/tiaalia" class="icon-x">twitter</a>       </div>
+    <a class="p-a-pl" href="/autor/carmen" >2509 publicaciones de Carmen Tía Alia</a>
+ </div>
+</div>
+          </div>
+                      <div class="aggregate-rating-top js-aggregate-rating">
+  <div class="aggregate-rating">
+   <div class="aggregate-rating-list">
+    <form class="m-rating-4">
+     <fieldset>
+      <span class="agr-input-container">
+               <input type="radio" id="top-rating-5" name="rating" value="5">
+        <label for="top-rating-5" title="Vaya recetón">5</label>
+               <input type="radio" id="top-rating-4" name="rating" value="4">
+        <label for="top-rating-4" title="Buena receta">4</label>
+               <input type="radio" id="top-rating-3" name="rating" value="3">
+        <label for="top-rating-3" title="Es correcta">3</label>
+               <input type="radio" id="top-rating-2" name="rating" value="2">
+        <label for="top-rating-2" title="Necesita mejorar">2</label>
+               <input type="radio" id="top-rating-1" name="rating" value="1">
+        <label for="top-rating-1" title="No entiendo nada">1</label>
+             </span>
+     </fieldset>
+    </form>
+    <span class="msg-gracias" style="display: none">¡Gracias!</span>
+    <span class="msg-error" style="display: none"></span>
+   </div>
+   <span class="aggregate-vote-count js-votes">75 votos</span>
+  </div>
+ </div>
+         <div class="article-content">
+           <div class="blob js-post-images-container">
+<p>Siempre viene bien tener <strong>recetas fáciles y rápidas</strong> con las que quedar bien con los invitados, pero en Navidad se agradecen mucho más. Sobre todo si sobre nosotros recae el peso de organizar alguna de las comidas y cenas de celebración, que conllevan una carga de trabajo considerable.</p>
+<!-- BREAK 1 --> <div class="ad ad-lat">
+  <div class="ad-box" id="div-gpt-lat">
+  </div>
+   </div>
+
+<p>Por eso nos gusta tanto esta receta de <strong>rocas de chocolate, turrón y nueces con escamas de sal</strong>. Con ella tenemos la sobremesa solucionada en un abrir y cerrar de ojos. Solo necesitamos cuatro ingredientes y menos de 15 minutos. Un chollo de receta que, sobra decir, está tremendamente deliciosa y nos recuerda a las finas <a class="text-outboundlink" href="https://www.directoalpaladar.com/postres/moscovitas-pastas-asturianas-famosas-que-ahora-puedes-disfrutar-caseras" data-vars-post-title="Moscovitas, las pastas asturianas más famosas que ahora puedes disfrutar caseras" data-vars-post-url="https://www.directoalpaladar.com/postres/moscovitas-pastas-asturianas-famosas-que-ahora-puedes-disfrutar-caseras">Moscovitas de Rialto</a>. Vamos al lío.</p>
+<!-- BREAK 2 --><div class="video-boost-container article-asset-normal">
+ <header class="video-boost-header">
+  <span class="video-boost-heading">Un vistazo a…</span>
+  <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" title="Ver más vídeos de Directo al Paladar" class="video-boost-more-link">
+   <span class="video-boost-more-plus"></span>
+   <span class="video-boost-more-play"></span>
+  </a>
+ </header>
+ <div class="article-asset-video">
+  <div class="asset-content">
+   <div class="base-asset-video">
+         <div class="js-dailymotion">                <script type="application/json">
+                    {"videoId": "x80nt6q","autoplay": true,"title": "Tarta de chocolate fácil y rápida en 15 minutos","tag": ""}
+                </script></div>
+       </div>
+  </div>
+ </div>
+ <span class="video-boost-title">Tarta de chocolate fácil y rápida en 15 minutos</span>
+</div>
+<!--more-->
+<div class="article-asset article-asset-normal article-asset-center">
+ <div class="desvio-container">
+  <div class="desvio">
+   <div class="desvio-figure js-desvio-figure">
+    <a href="https://www.directoalpaladar.com/postres/71-recetas-postres-faciles-rapidos" class="pivot-outboundlink" data-vars-post-title="71 recetas de postres fáciles y rápidos">
+     <img alt="71&#x20;recetas&#x20;de&#x20;postres&#x20;f&#x00E1;ciles&#x20;y&#x20;r&#x00E1;pidos" width="375" height="142" src="https://i.blogs.es/948245/mousse_yogur/375_142.jpg">
+    </a>
+   </div>
+   <div class="desvio-summary">
+    <div class="desvio-taxonomy js-desvio-taxonomy">
+     <a href="https://www.directoalpaladar.com/postres/71-recetas-postres-faciles-rapidos" class="desvio-taxonomy-anchor pivot-outboundlink" data-vars-post-title="71 recetas de postres fáciles y rápidos">En Directo al Paladar</a>
+    </div>
+    <a href="https://www.directoalpaladar.com/postres/71-recetas-postres-faciles-rapidos" class="desvio-title js-desvio-title pivot-outboundlink" data-vars-post-title="71 recetas de postres fáciles y rápidos">71 recetas de postres fáciles y rápidos</a>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!-- recipe start -->
+ <div class="article-asset-recipe article-asset-normal article-asset-center">
+  <div class="asset-recipe">
+   <div class="asset-recipe-meta">
+    <h2 class="asset-recipe-section-title"> Ingredientes </h2>
+    <div class="asset-recipe-yield">
+     Para 25 unidades</div>
+    <ul class="asset-recipe-list">
+                  <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Chocolate negro </span></span>
+        <span class="asset-recipe-ingr-amount">180 <abbr
+          title="gramos">g</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Turrón de Jijona </span></span>
+        <span class="asset-recipe-ingr-amount">125 <abbr
+          title="gramos">g</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Nueces </span></span>
+        <span class="asset-recipe-ingr-amount">150 <abbr
+          title="gramos">g</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr m-no-amount">
+        <span class="asset-recipe-ingr-name"><span>Escamas de sal </span></span>
+       </li>
+               </ul>
+    <h2 class="asset-recipe-section-title">Cómo hacer rocas de chocolate, turrón y nueces con escamas de sal</h2>
+    <div class="asset-recipe-difficulty">Dificultad: Fácil</div>
+    <ul class="asset-recipe-list">
+     <li class="asset-recipe-list-item m-is-totaltime">
+      <span class="asset-recipe-time-name"><span>Tiempo total</span></span>
+      <span class="asset-recipe-time-value">12 <abbr title="minutos">m</abbr></span>
+     </li>
+           <li class="asset-recipe-list-item m-is-preptime">
+       <span class="asset-recipe-time-name"><span>Elaboración</span></span>
+       <span class="asset-recipe-time-value">10 <abbr title="minutos">m</abbr></span>
+      </li>
+                <li class="asset-recipe-list-item m-is-cooktime">
+       <span class="asset-recipe-time-name"><span>Cocción</span></span>
+       <span class="asset-recipe-time-value">2 <abbr title="minutos">m</abbr></span>
+      </li>
+              </ul>
+   </div>
+   <div class="asset-recipe-steps"><p>Partimos la tableta de chocolate en onzas y las introducimos en un recipiente hondo apto para microondas. Fundimos el chocolate en el micro a <strong>golpes de calor de 30 segundos</strong>, removiendo entre golpe y golpe para evitar que se queme. Con un par de minutos debería ser suficiente.</p>
+<div class="article-asset-image article-asset-normal article-asset-center">
+ <div class="asset-content">
+                   <img class="centro_sinmarco" height=1200 width=1200 loading="lazy" decoding="async" sizes="100vw" fetchpriority="high" srcset="https://i.blogs.es/5ece08/paso-a-paso-rocas-de-chocolate-turron-y-nueces/450_1000.jpg 450w, https://i.blogs.es/5ece08/paso-a-paso-rocas-de-chocolate-turron-y-nueces/650_1200.jpg 681w,https://i.blogs.es/5ece08/paso-a-paso-rocas-de-chocolate-turron-y-nueces/1024_2000.jpg 1024w, https://i.blogs.es/5ece08/paso-a-paso-rocas-de-chocolate-turron-y-nueces/1366_2000.jpg 1366w" src="https://i.blogs.es/5ece08/paso-a-paso-rocas-de-chocolate-turron-y-nueces/450_1000.jpg" alt="Paso A Paso Rocas De Chocolate Turron Y Nueces">
+   <noscript><img alt="Paso A Paso Rocas De Chocolate Turron Y Nueces" class="centro_sinmarco" src="https://i.blogs.es/5ece08/paso-a-paso-rocas-de-chocolate-turron-y-nueces/450_1000.jpg"></noscript>
+   
+      </div>
+</div>
+<p>Añadimos el turrón de Jijona desmenuzado y también las nueces, peladas y picadas groseramente. Removemos bien para integrar los tres ingredientes. Dejamos reposar unos minutos para que el chocolate <strong>endurezca un poco</strong> antes de repartir pequeñas cucharadas sobre una bandeja forrada con papel vegetal.</p>
+
+<p>Dejamos enfriar completamente antes de pasar a una caja o tupper y <strong>guardar en la nevera</strong> hasta el momento de consumir. Cuando los vayamos a tomar, las sacamos de la nevera y los dejamos atemperar para que no estén demasiado frías o duras.</p>
+</div>
+  </div>
+ </div>
+<!-- recipe end -->    <div class="aggregate-rating-bottom js-aggregate-rating">
+  <div class="aggregate-rating m-aggregate-rating-bottom">
+   <div class="aggregate-rating-list">
+    <form class="m-rating-4">
+     <fieldset>
+      <span class="agr-input-container">
+               <input type="radio" id="bottom-rating-5" name="rating" value="5">
+        <label for="bottom-rating-5" title="Vaya recetón">5</label>
+               <input type="radio" id="bottom-rating-4" name="rating" value="4">
+        <label for="bottom-rating-4" title="Buena receta">4</label>
+               <input type="radio" id="bottom-rating-3" name="rating" value="3">
+        <label for="bottom-rating-3" title="Es correcta">3</label>
+               <input type="radio" id="bottom-rating-2" name="rating" value="2">
+        <label for="bottom-rating-2" title="Necesita mejorar">2</label>
+               <input type="radio" id="bottom-rating-1" name="rating" value="1">
+        <label for="bottom-rating-1" title="No entiendo nada">1</label>
+             </span>
+     </fieldset>
+    </form>
+    <span class="msg-gracias" style="display: none">¡Gracias!</span>
+    <span class="msg-error" style="display: none"></span>
+   </div>
+   <span class="aggregate-vote-count js-votes">75 votos</span>
+  </div>
+ </div>
+<script type="application/ld+json"></script>
+<div class="pivot-flipboard js-pivot-site-flipboard">
+ <div class="pivot-flipboard-header">
+  <a href="http://flip.it/FcDvBY" class="pivot-flipboard-logo">
+   <svg xmlns="http://www.w3.org/2000/svg" width="100" height="48" viewBox="0 0 100 48">
+  <path fill="#51001A" d="M75.1862872 15.1417048C75.7885631 15.2004575 76.1558045 15.5235975 76.2586321 16.1111247L80.0338737 37.908384C80.0485634 37.9524485 80.0485634 38.0112013 80.0485634 38.0552658 80.0191841 38.3784058 79.8429082 38.5105994 79.5050461 38.481223L75.5535286 38.1433949C75.024701 38.0993304 74.6721492 37.8349431 74.5252527 37.3502332L72.9828388 32.4590692 68.7081488 31.4162084 67.4889074 33.7663172C67.2832522 34.1628981 66.989459 34.3391562 66.607528 34.3097799L63.0526312 34.0013281C62.7294588 33.9719517 62.5825622 33.7956936 62.6119415 33.4872418 62.6119415 33.4284891 62.6266312 33.3550482 62.6560105 33.2962954L71.1172524 15.8320493C71.3229076 15.3914039 71.690149 15.1710812 72.2189766 15.1710812L74.980632 15.1417048 75.1862872 15.1417048 75.1862872 15.1417048ZM71.64608 23.9105483C71.4404249 23.8958602 71.308218 23.9839892 71.2347697 24.1749356L69.898011 27.7000988C69.853942 27.8029161 69.8392523 27.8910452 69.8245627 27.9791742 69.809873 28.2288733 69.9420799 28.3757551 70.2211834 28.449196L72.160218 28.9485941C72.1895973 28.9632823 72.204287 28.9632823 72.2336663 28.9632823 72.5568387 28.9926587 72.7184249 28.8457769 72.7478043 28.5373251 72.7624939 28.5079487 72.7624939 28.449196 72.7478043 28.3904433L72.160218 24.3658819C72.116149 24.0868065 71.9545628 23.9399247 71.64608 23.9105483ZM61.5102173 9.38393818 62.7735277 10.6030571C63.7136657 11.4990361 64.1984244 12.5565851 64.2278037 13.775704L64.4775278 22.3095367C64.5069072 23.5727202 64.0955968 24.6596455 63.2289071 25.5703127L61.906838 26.9510016C61.0254586 27.876357 59.9678034 28.3463787 58.7191826 28.3757551L51.8444235 28.5667014C51.1099407 28.5813896 50.7280097 28.2288733 50.6986304 27.4797761L50.2138717 10.0302181C50.199182 9.39862636 50.5076648 9.04611003 51.1686994 8.97266913L58.234424 8.26763648C58.3519412 8.2529483 58.4694585 8.2529483 58.5869757 8.23826012 59.7180792 8.20888376 60.6875965 8.59077645 61.5102173 9.38393818ZM55.8546997 13.6728868C55.5315272 13.687575 55.3846307 13.8491449 55.3993203 14.1869731L55.3993203 14.2163494 55.3993203 14.2163494 55.8693893 23.881172C55.884079 24.2190001 56.0309755 24.3952583 56.3247687 24.3805701 56.3688376 24.3805701 56.4275963 24.3805701 56.4863549 24.3658819L58.0140791 24.042742C58.5282171 23.9252365 58.7779412 23.5727202 58.7632516 22.985193L58.5429067 15.2592102C58.5282171 14.6863712 58.234424 14.3191667 57.6615274 14.1575967L56.0309755 13.687575C55.9869066 13.6728868 55.928148 13.6728868 55.8546997 13.6728868ZM88.1572536 27.714787C87.7753225 27.6707225 87.5696673 27.8469806 87.540288 28.2141851L86.9527018 33.6928763C86.8792535 34.3391562 86.5267017 34.6329198 85.8803569 34.5594789L82.7955291 34.236339C82.1491842 34.1628981 81.8553911 33.8103818 81.9288394 33.1641018L83.9413223 14.3632312C84.0294602 13.526005 84.4848395 13.1588005 85.3221499 13.2469296L94.2387712 14.2016613C95.6783575 14.3485431 96.9122886 14.8920057 97.9699439 15.8320493L98.3224956 16.140501C99.3801509 17.0805446 99.8355302 18.2702872 99.6886337 19.6803525L99.3067026 23.3083329C99.159806 24.7183982 98.5281508 25.8787645 97.4411163 26.7894316L97.0444955 27.1272598C95.9427713 28.037927 94.7088402 28.4345078 93.2986332 28.287626L93.2692539 28.287626 88.1572536 27.714787ZM93.8274608 21.3254286C93.9155988 20.5616433 93.607116 20.0769333 92.9020125 19.8566106L89.5968399 18.828438C89.5233916 18.7990616 89.464633 18.7843735 89.4058743 18.7843735 89.1708398 18.7549971 89.0533226 18.8871907 89.0092536 19.1809543 89.0092536 19.1956425 89.0092536 19.1956425 89.0092536 19.2103307L88.6567019 23.146763C88.6273226 23.5139675 88.7301502 23.7049138 88.9798743 23.7342902 89.0386329 23.7342902 89.1267709 23.7342902 89.2149088 23.719602L92.5200814 23.1761393C93.2692539 23.0586339 93.6805643 22.6179885 93.7540126 21.8982677L93.8274608 21.3254286ZM23.3285917 0C36.2126172 0 46.6571835 10.4272617 46.6571835 23.2899408 46.6571835 36.15262 36.2126172 46.5798817 23.3285917 46.5798817 10.4445663 46.5798817 0 36.15262 0 23.2899408 0 10.4272617 10.4445663 0 23.3285917 0ZM30.5598661 11.4097185C30.0650172 11.5057797 29.4290447 12.5240285 29.083017 12.9701794L29.0134632 13.056482 27.1430521 15.276672 27.1430521 15.276672C26.6570398 15.8500986 26.1710275 16.4382284 25.6850152 17.011655 25.4493728 17.2910167 25.1842752 17.5703783 24.9633605 17.8644432 24.7424458 18.1732114 24.9191776 18.570199 25.2726411 18.6731218 25.4199175 18.7172315 25.6702875 18.6731218 25.7881087 18.7613412 25.8617469 18.8201542 25.8912022 18.9230769 25.9059299 19.0259996 25.9206575 19.3053613 25.6702875 19.584723 25.4788281 19.7758652 25.316824 19.9670074 25.4051899 20.246369 25.6555599 20.2757755 26.3477592 20.3492917 27.0399586 20.422808 27.7174303 20.5698404 28.0561662 20.6433566 28.3801744 20.7168729 28.7041827 20.8344988 29.0429185 20.9374216 29.3669267 21.0697508 29.7056626 21.143267 30.353679 21.2902994 31.0016955 21.4079254 31.6349843 21.5990676 32.0915413 21.7313968 32.5333707 21.9078358 33.0046554 22.0254617 33.1224765 22.0548682 33.2402977 22.0695715 33.3581189 22.0989779 33.4464848 22.1136812 33.520123 22.1871974 33.5937612 22.2607136 33.6526718 22.3195266 33.7410377 22.4518558 33.770493 22.4812623 33.7606746 22.461658 33.7639474 22.4551232 33.7672202 22.4573015L33.770493 22.4665591 33.770493 22.5988883 33.770493 22.5988883C33.7557653 22.642998 33.7410377 22.6871078 33.7410377 22.7312175 33.7115824 22.8341402 33.6821271 22.9370629 33.6379442 23.0252824 33.5643059 23.2164246 33.4906677 23.4075668 33.4023018 23.5840057L33.3728465 23.6281155 33.3728465 23.6281155C33.3728465 23.6428187 33.3728465 23.6428187 33.3581189 23.6428187L33.3581189 23.657522 33.3581189 23.657522C33.3433912 23.6869285 33.3286636 23.7163349 33.3139359 23.7457414 33.269753 23.8339609 33.2255701 23.9221804 33.1813871 23.9956966 33.019383 24.3044648 32.8426513 24.6132329 32.6806472 24.9220011L31.8264437 26.4805451 31.8264437 26.4805451C31.5318907 27.0098619 31.2373378 27.553882 30.9575125 28.0831989 30.6629596 28.6272189 30.397862 29.2006455 30.0443985 29.7005559 29.897122 29.891698 29.7351179 30.0828402 29.5142032 30.185763 29.2638332 30.3033889 28.9692803 30.2592792 28.7041827 30.2004662 28.0708939 30.0387305 27.4523327 29.7887753 26.8632269 29.5241169 26.2888487 29.2594585 25.7291981 28.9359871 25.1990028 28.5831092 25.066454 28.4948897 24.9339052 28.4066703 24.8013564 28.3037475 24.6688076 28.2008248 24.5362587 28.0979021 24.3742546 28.0243859 24.0502464 27.8773534 23.7262382 28.0684956 23.6378723 28.4066703 23.5495064 28.7448449 23.5053235 29.112426 23.4464129 29.4653039L23.2402259 30.5533441 23.2402259 30.5533441C23.2107706 30.7150798 23.1813153 30.8915187 23.15186 31.0532544 23.1224047 31.2443966 23.0634941 31.4208356 23.0929494 31.6119778 23.1371323 31.9354492 23.40223 32.1265914 23.6820553 32.2442173 24.8749946 32.7882374 26.1710275 33.0234893 27.3934221 33.4939932 28.0119833 33.7292451 28.5569062 34.0968263 29.1754673 34.3173749 29.4700203 34.4350009 29.7793008 34.5232204 30.0885814 34.6261431 30.2358579 34.6849561 30.3684067 34.7437691 30.5156831 34.802582 30.6629596 34.8760983 30.8102361 34.979021 30.9722402 35.0525372 31.310976 35.2142729 31.6497119 35.1260534 31.811716 34.7731755 31.9442648 34.4938139 32.0473584 34.2144522 32.1651795 33.9350906 32.4008219 33.4057737 32.6070089 32.8764569 32.813196 32.34714 33.3139359 31.0532544 34.0061353 29.8475883 34.6394241 28.6272189 35.9796399 26.0688542 37.2609452 23.4663798 38.5127951 20.8639053 39.1460839 19.5700197 39.764645 18.2614309 40.3832062 16.952842 40.4568444 16.7911063 40.5304826 16.6293706 40.6188485 16.4676349 40.6924867 16.3058992 40.766125 16.1441635 40.7513973 15.9530213 40.6630315 15.6442532 40.3390232 15.511924 40.0444703 15.3795948 39.4553645 15.1149363 38.8662586 14.8796844 38.2624251 14.6591357 37.0547581 14.2180384 35.8176358 13.8210507 34.6246965 13.3211404 34.0503183 13.0858885 33.4906677 12.8212301 32.9457448 12.5124619 32.6659195 12.3507262 32.3860942 12.1889905 32.1209966 12.0125516 31.355159 11.4685315 30.7807808 11.3656088 30.5598661 11.4097185ZM9.46987658 14.3062578C9.41096599 14.3062578 9.3520554 14.3062578 9.30787247 14.3356643 9.27841717 14.3503676 9.160596 14.4091806 9.13114071 14.6591357 9.08695777 14.9532006 9.07223012 15.276672 9.05750248 15.5854402 9.05750248 15.7030662 9.04277483 15.8206921 9.04277483 15.9236148 9.02804719 16.2764927 9.02804719 16.6440739 9.04277483 17.070468 9.05750248 17.2910167 9.04277483 17.4968621 9.04277483 17.7027075 9.04277483 17.9232562 9.02804719 18.1585082 9.04277483 18.3790568 9.04277483 18.4231666 9.04277483 18.4672763 9.05750248 18.511386 9.08695777 18.9524834 9.08695777 19.2759548 8.92495366 19.4376905 8.85131543 19.5112067 8.76294955 19.5406132 8.65985603 19.5406132 8.63040074 19.5406132 8.61567309 19.5406132 8.5862178 19.52591L8.45366898 19.4965035 8.40948604 19.3788775C8.39475839 19.3200646 8.38003075 19.2465483 8.38003075 19.2024386 8.3653031 19.1436256 8.3653031 19.0995159 8.3653031 19.0554061 8.30639252 18.3055406 8.27693722 17.5262686 8.26220958 16.7764031 8.26220958 16.232383 8.26220958 15.6883629 8.27693722 15.1443428L8.27693722 15.1149363C8.29166487 14.8943877 8.29166487 14.7032455 8.18857135 14.556213 8.12966076 14.4679935 8.02656724 14.4238838 7.92347371 14.4091806L7.82038019 14.4091806 7.82038019 14.4091806C7.64364843 14.4385871 7.33436786 14.6003228 7.34909551 15.276672 7.34909551 15.4237045 7.36382315 15.570737 7.36382315 15.7177694 7.3785508 16.114757 7.39327845 16.5117447 7.39327845 16.9087323 7.41431794 17.6333922 7.42032922 18.3955605 7.42204673 19.227387L7.42273374 20.2610723 7.42273374 20.2610723C7.42273374 21.0942562 7.41618812 21.9274401 7.40746062 22.7475544L7.39327845 23.9662901C7.31964021 25.2454725 7.34909551 26.5393581 7.3785508 27.5097723 7.39327845 28.0096826 7.40800609 28.509593 7.43746138 29.0095033L7.45218903 29.3917877 7.48164432 30.2739824 7.48164432 30.4357181 7.48164432 30.4357181C7.48164432 30.6562668 7.48164432 30.8768155 7.58473785 31.0091447 7.65837608 31.0973642 7.7614696 31.1561772 7.95292901 31.1561772L8.14438841 31.1561772 8.14438841 31.1561772 9.08695777 31.1267707C9.29314482 31.1267707 9.48460422 31.1267707 9.69079127 31.1120674L10.368263 31.1120674 10.368263 31.1120674C10.5008118 31.1120674 10.7953647 31.0973642 10.9279136 31.0973642 11.1635559 31.0826609 11.3108324 30.9797382 11.3550153 30.8032993 11.3991982 30.6121571 11.3991982 30.4063116 11.4139259 30.2004662 11.4139259 30.1122467 11.4139259 30.0240273 11.4286535 29.9358078L11.4581088 29.5094137 11.5022918 28.7448449C11.5170194 28.6125157 11.5170194 28.4948897 11.5464747 28.4066703 11.5906576 28.1714183 11.6790235 27.8185404 11.9441212 27.5832885 12.1355806 27.4068496 12.3564953 27.3186301 12.533227 27.2598171 12.6510482 27.2157074 12.7688693 27.1863009 12.8866905 27.1568944 13.1665158 27.0833782 13.4168858 27.0098619 13.6525281 26.8628295 13.991264 26.6422808 14.197451 26.3041062 14.3152722 25.7600861 14.3594551 25.5542406 14.4036381 25.3483952 14.4330934 25.1425498 14.447821 25.0690335 14.4625487 24.9808141 14.4772763 24.9072978 14.492004 24.8484848 14.5067316 24.8043751 14.5067316 24.7455621L14.5509146 24.5691232 14.5509146 24.5691232 14.5509146 24.5544199 14.5509146 24.5544199C14.5950975 24.4809037 14.6098251 24.4073875 14.6098251 24.3338713L14.6079842 24.260355 14.6079842 24.260355 14.5950975 24.1868388C14.5803698 24.1427291 14.5656422 24.0986193 14.5509146 24.0545096 14.5509146 24.0398063 14.5361869 24.0251031 14.5214593 24.0251031L14.5361869 24.0251031C14.5057229 23.9794828 14.4634436 23.9417262 14.415459 23.9138667 14.961452 24.0268105 15.5811608 24.2244506 16.2740492 24.4220907 17.4817162 24.7749686 18.4390132 25.0249238 20.3977901 25.3483952L20.3977901 25.3483952 20.7659813 25.4072082C20.9132578 25.4366147 21.0458066 25.4513179 21.1489001 25.4807244 21.443453 25.5248341 21.6790954 25.5248341 21.9294654 25.4954276L21.9294654 25.4954276 22.0031036 25.4219114 22.0325589 25.3483952C22.0472865 25.3189887 22.0325589 25.3042855 22.0472865 25.274879 22.6805753 22.9664694 22.4891159 21.143267 21.3992701 20.0405236 19.6319525 18.2467276 16.6864233 18.0261789 15.1105651 19.467097 14.9367712 19.6213245 14.7779622 19.7657507 14.6335572 19.9044337L14.6687357 20.0111171C14.5803698 19.6876457 14.3741828 19.2465483 13.9176258 18.9818899 13.6967111 18.8495607 13.4463411 18.7760445 13.1812434 18.7613412 13.033967 18.746638 12.8866905 18.7613412 12.7541417 18.7907477 12.3564953 18.8642639 12.0472147 19.0848126 11.8263 19.4523938 11.8115723 19.467097 11.7968447 19.4965035 11.7673894 19.52591L11.7232065 19.584723C11.6053853 19.7317554 11.3697429 19.6582392 11.3550153 19.467097L11.3550153 19.2906581 11.3550153 19.2906581C11.3550153 18.9965932 11.3697429 18.7025282 11.3991982 18.2908374L11.4433812 17.790927 11.4433812 17.790927C11.4728365 17.3498297 11.5170194 16.8793258 11.5170194 16.4382284 11.5170194 16.114757 11.5170194 15.7912856 11.4875641 15.4972207L11.4875641 15.453111C11.4581088 15.2031558 11.4433812 14.9384974 11.32556 14.7473552 11.2371941 14.6003228 11.0899177 14.4974 10.9279136 14.4826968L10.8395477 14.4826968 10.8395477 14.4826968C10.7511818 14.4974 10.6775436 14.5415098 10.6775436 14.5709163 10.6554521 14.6260534 10.6499292 14.7060023 10.6485485 14.7921542L10.6480883 15.0414201 10.6480883 15.0414201C10.618633 15.453111 10.6039053 15.8206921 10.57445 16.17357 10.5302671 16.8793258 10.4713565 17.5409718 10.4713565 18.3055406L10.4713565 18.4525731 10.4713565 18.4525731C10.4713565 18.5327726 10.520043 19.1476356 10.3629186 19.3802805L10.3093524 19.4376905C10.2357142 19.4818003 10.162076 19.5112067 10.0884377 19.4965035 9.7644295 19.467097 9.77915715 19.0848126 9.79388479 18.8201542L9.79388479 18.6731218 9.79388479 18.6731218C9.77915715 18.511386 9.7644295 18.3496503 9.74970185 18.1732114 9.72024656 17.9526627 9.69079127 17.7174108 9.69079127 17.4821589 9.69079127 17.0263583 9.74970185 16.5705576 9.79388479 16.1294603 9.83806773 15.7618791 9.88225067 15.394298 9.89697832 15.0267169 9.91170596 14.4679935 9.67606362 14.3650708 9.60242539 14.3356643 9.55824245 14.3209611 9.51405951 14.3062578 9.46987658 14.3062578ZM13.2254264 19.7905684C13.3874305 19.8052717 13.5494346 19.8787879 13.6672558 19.9964138 13.8881705 20.2169625 13.8881705 20.4669177 13.8881705 20.6727631L13.8881705 20.7168729 13.8898819 20.7694026C13.7069912 21.0570188 13.5856525 21.3590696 13.5199793 21.7166936 13.5199793 21.7166936 13.4316134 21.8343195 13.4463411 21.8343195L13.4463411 21.8343195 13.4316134 21.8490228C13.2990646 22.2166039 13.2254264 22.7753272 13.2254264 23.4957863 13.2254264 23.6428187 13.284337 23.7310382 13.4463411 23.7751479 13.534707 23.8045544 13.6083452 23.8192577 13.6672558 23.8192577 13.8281895 23.8226049 13.9975191 23.8404302 14.1752447 23.8694377L14.197451 23.8633674C14.1031941 23.87513 14.0466399 23.9433531 14.0051669 24.0078121L13.9765363 24.0545096 13.9765363 24.0545096C13.9028981 24.1868388 13.9176258 24.5397167 13.8881705 24.6426394 13.8646062 24.7367402 13.8127649 24.8873014 13.7628087 24.9889302L13.7261664 25.0543303 13.7114387 25.0690335 13.7114387 25.0543303C13.6230728 25.157253 13.5052517 25.2601757 13.3727028 25.3189887 13.2548817 25.3778017 13.1223329 25.3925049 12.989784 25.3925049 12.8277799 25.3778017 12.7099588 25.3189887 12.6215929 25.2013627 12.5111355 25.0543303 12.5029535 24.8664555 12.5032944 24.6973001L12.5037717 24.4662005 12.5037717 24.4662005C12.4890441 24.1574323 12.4595888 23.8633674 12.4301335 23.5545992 12.4154058 23.4663798 12.4154058 23.3634571 12.4006782 23.2752376 12.3564953 22.819437 12.3417676 22.4077461 12.3564953 22.0254617 12.3564953 21.7608033 12.3712229 21.4814416 12.4006782 21.20208 12.4154058 21.1138605 12.4154058 21.0403443 12.4154058 20.9374216 12.4301335 20.7609826 12.4301335 20.5845437 12.4595888 20.4081047 12.5184994 20.0846333 12.7246864 19.8640846 13.0045117 19.8052717 13.0781499 19.7905684 13.1517882 19.7758652 13.2254264 19.7905684ZM32.3713666 15.7912856C32.7248301 15.9677246 33.0046554 16.1294603 33.1961148 16.291196L33.1666595 16.3353057 33.1666595 16.3647122C33.1666595 16.4088219 33.1519318 16.4235252 33.1372042 16.4529317 33.0046554 16.9087323 32.8573789 17.2175004 32.6953748 17.3939394 32.6511919 17.4380491 32.5922813 17.5262686 32.5480983 17.6291913L32.4891878 17.7615205 32.4302772 17.8791465 32.4155495 17.9232562 32.4008219 17.9526627 32.3566389 18.0114757C32.2535454 18.1732114 32.2240901 18.4084633 32.0915413 18.6143088 32.0915413 18.629012 32.0915413 18.629012 32.0768137 18.6437153L32.062086 18.6584185C31.6938949 18.511386 31.3698866 18.3496503 31.0900614 18.1291017 31.0458784 18.0702887 31.0458784 18.0408822 31.0458784 18.0114757 31.0606061 17.9967725 31.0606061 17.9820692 31.0606061 17.967366L31.0753337 17.9379595 31.1489719 17.7615205 31.2373378 17.5997848C31.2962484 17.4674556 31.355159 17.3498297 31.3846143 17.2469069 31.4877078 16.9675453 31.7086225 16.6587771 31.9442648 16.2617895 31.9737201 16.2176798 31.9884478 16.1588668 32.0326307 16.0853505L32.1357242 15.9089116 32.1651795 15.8500986C32.1946348 15.8059889 32.2240901 15.7177694 32.3713666 15.7912856ZM30.0591261 15.2031558C30.4125896 15.3795948 30.6924149 15.5413305 30.8838743 15.7030662L30.8691467 15.7471759 30.8691467 15.7765824 30.854419 15.8125237 30.854419 15.8125237 30.8249637 15.8648019 30.8249637 15.8648019C30.6924149 16.3206025 30.5451384 16.6293706 30.3831343 16.8058096 30.3389514 16.8499193 30.2800408 16.9381388 30.2358579 17.0410615L30.1769473 17.1733907 30.1180367 17.2910167 30.1033091 17.3351264 30.0885814 17.3645329 30.0443985 17.4233459C29.9413049 17.5850816 29.9118496 17.8203335 29.7793008 18.0261789 29.7793008 18.0408822 29.7793008 18.0408822 29.7645732 18.0555854L29.7498455 18.0702887C29.3816544 17.9232562 29.0576462 17.7615205 28.7778209 17.5409718 28.7336379 17.4821589 28.7336379 17.4527524 28.7336379 17.4233459 28.7483656 17.4086426 28.7483656 17.3939394 28.7483656 17.3792361L28.7630932 17.3498297 28.8367315 17.1733907 28.9250973 17.011655C28.9840079 16.8793258 29.0429185 16.7616998 29.0723738 16.6587771 29.1754673 16.3794155 29.396382 16.0706473 29.6320244 15.6736597 29.6614797 15.6295499 29.6762073 15.570737 29.7203902 15.4972207L29.8234838 15.3207818 29.8529391 15.2619688C29.8823944 15.2178591 29.9118496 15.1296396 30.0591261 15.2031558Z" transform="translate(.142 .71)"/>
+</svg>  </a>
+  <span class="pivot-flipboard-emoji"></span>
+  <a href="http://flip.it/FcDvBY" class="pivot-flipboard-icon"></a>
+ </div>
+ <div class="pivot-flipboard-content">
+  <p>
+   <a href="http://flip.it/FcDvBY" class="pivot-flipboard-content-anchor">
+    Síguenos en Flipboard para descubrir nuevas recetas, actualidad sobre nutrición y gastronomía y nuestras revistas llenas de ideas y recetas para todos.
+   </a>
+  </p>
+  <a href="http://flip.it/FcDvBY" class="btn pivot-flipboard-button">
+   Seguir a Directo al Paladar en Flipboard
+  </a>
+ </div>
+</div>
+<h2>Con qué acompañar las rocas de chocolate, turrón y nueces con escamas de sal</h2>
+
+<p>Lo hemos dicho en la introducción, pero hacemos hincapié de nuevo en que el mejor momento para saborear estas <strong>rocas de chocolate, turrón, nueces y escamas de sal</strong> es el de la sobremesa. Acompañadas de un café, una infusión o una copa de licor, son un bocado perfecto. Sobre todo para los amantes del chocolate.</p>
+<!-- BREAK 3 -->  <div class="ad ad-out">
+  <div class="ad-box" id="div-gpt-out">
+  </div>
+   </div>
+
+<p>En Directo al paladar | <a class="text-outboundlink" href="https://www.directoalpaladar.com/postres/17-postres-faciles-y-rapidos-para-endulzar-la-navidad" data-vars-post-title="27 postres fáciles y rápidos para endulzar la Navidad" data-vars-post-url="https://www.directoalpaladar.com/postres/17-postres-faciles-y-rapidos-para-endulzar-la-navidad">22 postres fáciles y rápidos para endulzar la Navidad</a><br />
+En Directo al paladar | <a class="text-outboundlink" href="https://www.directoalpaladar.com/recetas-especiales/215-mejores-recetas-navidad-16-menus-especiales-para-acertar-seguro" data-vars-post-title="Las 215 mejores recetas de Navidad y 16 menús especiales para sorprender" data-vars-post-url="https://www.directoalpaladar.com/recetas-especiales/215-mejores-recetas-navidad-16-menus-especiales-para-acertar-seguro">Las 215 mejores recetas de Navidad y 16 menús especiales para acertar seguro</a></p>
+<!-- BREAK 4 --><script>
+ (function() {
+  window._JS_MODULES = window._JS_MODULES || {};
+  var headElement = document.getElementsByTagName('head')[0];
+  if (_JS_MODULES.instagram) {
+   var instagramScript = document.createElement('script');
+   instagramScript.src = 'https://platform.instagram.com/en_US/embeds.js';
+   instagramScript.async = true;
+   instagramScript.defer = true;
+   headElement.appendChild(instagramScript);
+  }
+ })();
+</script>
+ 
+ </div>
+         </div>
+        </div>
+       </div>
+      </article>
+      <div class="section-post-closure">
+ <div class="section-content">
+  <div class="social-share-group">
+     <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" class="btn-facebook js-btn-facebook" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">Facebook</a>
+<a href="https://twitter.com/intent/tweet?url=https://www.directoalpaladar.com/p/94982%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a&via=directopaladar" class="btn-x js-btn-twitter" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">Twitter</a>
+<a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a&url=https%3A%2F%2Fwww.directoalpaladar.com%2Fpostres%2Frocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb" class="btn-flipboard js-flipboard-share-button js-flipboard-share-event" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">Flipboard</a>
+<a href="mailto:?subject=Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a&body=https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE" class="btn-email js-btn-email" data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena">E-mail</a>
+ <span class="js-whatsapp"></span>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+     const userAgent = navigator.userAgent.toLowerCase();
+     if (userAgent.indexOf('ipod') < 0) {
+       if (userAgent.indexOf('android') >= 0 || userAgent.indexOf('iphone') >= 0) {
+         const length = document.getElementsByClassName('js-whatsapp').length;
+         for (let i = 0; i < length; i++) {
+           document.getElementsByClassName('js-whatsapp')[i].innerHTML = `<a class='btn-whatsapp js-btn-whatsapp' data-postname="rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena" href="whatsapp://send?text=Rocas de chocolate, turrón y nueces con escamas de sal, receta fácil y rápida para una sobremesa navideña  https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneramobile">Whatsapp</a>`;
+         }
+       }
+     }
+   }, { once:true });
+ </script>
+  </div>
+     <div class="post-tags-container">
+ <span class="post-link-title">Temas</span>
+   <ul class="post-link-list" id="js-post-link-list-container">
+       <li class="post-category-name">
+           <a href="/categoria/postres">Postres</a>
+         </li>
+               <li class="post-link-item"><a href="/tag/chocolate">Chocolate</a></li>
+                <li class="post-link-item"><a href="/tag/nueces">Nueces</a></li>
+                <li class="post-link-item"><a href="/tag/receta">receta</a></li>
+                <li class="post-link-item"><a href="/tag/turron-jijona">turrón jijona</a></li>
+                <li class="post-link-item"><a href="/tag/recetas-de-navidad">Recetas de Navidad</a></li>
+                <li class="post-link-item"><a href="/tag/postres-faciles-y-rapidos">Postres fáciles y rápidos</a></li>
+                <li class="post-link-item"><a href="/tag/recetas-en-menos-de-30-minutos">Recetas en menos de 30 minutos</a></li>
+         </ul>
+  <span class="btn-expand" id="js-btn-post-tags"></span>
+</div>
+   </div>
+</div>
+  <div class ="limit-container">
+      <div class="ad ad-ow">
+  <div data-openweb-ad data-row="1" data-column="1"></div> 
+ </div>
+    <div class="OUTBRAIN" data-src="https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena" data-widget-id="AR_1"></div> 
+ </div>
+ <script type="didomi/javascript" async="async" src="//widgets.outbrain.com/outbrain.js" data-vendor="iab:164"></script>
+                         <script>
+ window.WSLModules || (window.WSLModules = {});
+ WSLModules.Comments || (WSLModules.Comments = { moduleConf: "c1" });
+</script>
+<a id="to-comments"></a>
+<div id="comments">
+ <div class="comment-section">
+     <div id="main-container" class="comment-section">
+  <div id="common-container">
+   <div class="comment-wrapper initial-comments" style="display:none">
+    <div class="comments-list">
+     <p>Los mejores comentarios:</p>
+     <ul id="initial-comments"></ul>
+    </div>
+   </div>
+      <div id="comment-wrapper" class="comment-wrapper comment-wrapper-aside">
+         <div data-spotim-module="default" data-post-url="https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena" data-spot-id="sp_elHFZQu4" data-post-id="94982"></div>
+       </div>
+  </div>
+ </div>
+<script>
+  window.AML || (window.AML = {});
+  AML.Comments || (AML.Comments = {});
+  AML.Comments.config || (AML.Comments.config = {});
+  AML.Comments.config.data = {"comments":[{"id":122369,"post_id":94982,"date":1607763334,"content_filtered":"<p>Para acompa\u00f1ar al caf\u00e9 no lo veo nada mal. Me la apunto tambi\u00e9n esta. <\/p>","content":"Para acompa\u00f1ar al caf\u00e9 no lo veo nada mal. Me la apunto tambi\u00e9n esta. ","karma":8,"parent":0,"comment_edited_date":"","vote_count":0,"comment_level":3,"comment_deleted_date":"","tree_level":0,"comment_approved":"1","comment_author":"","user_id":82526,"author":"Gustavo Woltmann","webpage":"","user_name":"gustavo.woltmann","karma_level":25,"iseditor":0,"global_id":1355536,"facebook_uid":null,"user_status":"active","xtra_subscribed":0,"subscription_status":"","subscribed_plan_id":"","index":1,"avatar_type":"wsl","avatar_link":"\/\/img.weblogssl.com\/avatar\/mini\/1355536_1.png"}],"meta":{"more_records":"false","start":0,"total":1,"order":"valued","totalCount":1,"commentStatus":"closed"}};
+  AML.Comments.config.postId = 94982;
+  AML.Comments.config.enableSocialShare = "0";
+  AML.Comments.config.status = "open";
+  AML.Comments.config.campaignDate = "23_Apr_2026";
+</script>
+
+ </div>
+</div>
+             <div class="ad ad-cen2">
+  <div class="ad-box" id="div-gpt-cen2">
+  </div>
+   </div>
+       <div class="ad ad-bot">
+  <div class="ad-box" id="div-gpt-bot2">
+  </div>
+   </div>
+              <div class="ad ad-center">
+  <div class="ad-box" id="div-gpt-bot3">
+  </div>
+     <button class="btn-bot-close"></button>
+   </div>
+                    <div class="section-deeplinking-container m-evergreen-links">
+  <div class="section-deeplinking">
+   <div class="section-deeplinking-wrap">
+    <span class="section-deeplinking-header">Temas de interés</span>
+    <ul class="section-deeplinking-list" id="js-evergreen-nav-links">
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-ensaladas/las-recetas-de-nuestras-madres-ensaladilla-rusa-ligera" class="section-deeplinking-anchor">
+        Ensaladilla rusa
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional" class="section-deeplinking-anchor">
+        Gazpacho
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-salmorejo-cordobes-tradicional" class="section-deeplinking-anchor">
+        Salmorejo
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-ensaladas/ensalada-campera-receta-facil-imprescindible-para-verano" class="section-deeplinking-anchor">
+        Ensalada campera
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-aperitivos/croquetas-jamon-receta-toda-vida-que-no-sabe-modas-siempre-triunfa" class="section-deeplinking-anchor">
+        Croquetas de jamón
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/postres/bizcocho-yogur-clasico-basico-para-iniciarse-reposteria" class="section-deeplinking-anchor">
+        Bizcocho de yogur
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/curso-de-cocina/salsa-bechamel-receta-definitiva-siempre-te-quede-perfecta" class="section-deeplinking-anchor">
+        Salsa bechamel
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetario/101-recetas-sanas-para-para-tener-menu-saludable-lunes-a-domingo" class="section-deeplinking-anchor">
+        Recetas saludables
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetario/seis-mejores-recetas-para-freidora-aire-directo-al-paladar-aceite-bien-crujientes" class="section-deeplinking-anchor">
+        Recetas airfryer
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetario/54-cenas-saludables-que-tener-siempre-mente-para-mejorar-nuestra-dieta" class="section-deeplinking-anchor">
+        Cenas saludables
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/postres/como-hacer-bizcocho-facil-solo-tres-ingredientes-que-seguro-tenemos-casa" class="section-deeplinking-anchor">
+        Bizcocho casero
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-pollo-al-horno-karlos-arguinano-al-estilo-asador-navarro" class="section-deeplinking-anchor">
+        Pollo al horno
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/como-elaborar-hummus-receta" class="section-deeplinking-anchor">
+        Hummus casero
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/empezando-en-la-cocina-receta-de-tortilla-de-patatas-con-cebolla" class="section-deeplinking-anchor">
+        Tortilla de patatas
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-pescados-y-mariscos/empedrat-receta-ensalada-bacalao-judias-para-disfrutar-verano" class="section-deeplinking-anchor">
+        Empedrat
+       </a>
+      </li>
+         </ul>
+    <div class="section-deeplinking-btn" id="js-evergreen-nav-btn"></div>
+   </div>
+  </div>
+ </div>
+
+     </main>
+     <script>
+  window.WSLModules = window.WSLModules || {};
+  WSLModules.Footer = { moduleConf: 'c1' };
+</script>
+ <script>
+  function removeBaseAssetClass(divId) {
+    const videoElement = document.getElementById(divId);
+    const videoParent = videoElement.parentElement.parentElement;
+    videoParent.classList.remove('base-asset-video');
+  }
+
+  function initDailymotionPlayer(divId, videoId, videoFooter, inhouse, adResponseString) {
+    dailymotion.getPlayer(divId).then((player) => {
+      const baseParams = '%26videofooter%3D' + videoFooter + '%26inhouse%3D' + inhouse + '&vpos';
+      let finalParams;
+
+      if (adResponseString) {
+        let parts = adResponseString.split("/")[1];
+        if (typeof parts === 'string') {
+          parts = parts.split('&vpos');
+        } else {
+          parts = [];
+        }
+        finalParams = parts.join(baseParams);
+      } else {
+        finalParams = baseParams;
+      }
+
+      finalParams = decodeURIComponent(finalParams);
+
+      const config = { plcmt: "2" };
+      if ('1' === WSL2.config.enableDynamicIU) {
+        config.dynamiciu = WSL2.config.dynamicIU;
+        config.keyvalues = finalParams;
+      } else {
+        config.customParams = finalParams;
+      }
+      player.setCustomConfig(config);
+      player.loadContent({ video: videoId });
+    })
+    .then(() => {
+      removeBaseAssetClass(divId);
+    });
+  }
+
+  function runDailyMotion () {
+    const AUTOPLAY_LIMIT = WSL2.config.dailymotionAutoplayLimit;
+    let isPostsubtypeUseLimit = true;
+    let autoplayLimit = Infinity;
+    if (AUTOPLAY_LIMIT) {
+      isPostsubtypeUseLimit = 0 > ['landing'].indexOf(WSL2.config.postSubType);
+      autoplayLimit = isPostsubtypeUseLimit ? AUTOPLAY_LIMIT : autoplayLimit;
+    }
+
+    const isPostPage = Boolean(WSL2.config.postId);
+    const isDesktop = document.body.classList.contains('js-desktop');
+
+    const getTargetingKeyValues = (videoContainer) => {
+      let scriptTagInVideo = '';
+      Array.from(videoContainer.children).forEach((child) => {
+        if ('SCRIPT' === child.tagName) {
+          scriptTagInVideo = child;
+        }
+      });
+
+      const autoplayVideos = [];
+      const data = JSON.parse(scriptTagInVideo.text);
+      let inhouse = 'webedia-prod' === data.tag;
+      const videoData = data;
+      const isAutoplayable = isPostPage && autoplayVideos.length <= autoplayLimit ? Boolean(data.autoplay) : false;
+      let autoplayValue = isAutoplayable ? 'on' : 'off';
+      let isAutoplayTargetingTrue = data.autoplay;
+      let videoFooter = false;
+      if ('videoFooter' === data.type) {
+        autoplayValue = 'on';
+        isAutoplayTargetingTrue = true;
+        videoFooter = true;
+      }
+      
+      if (autoplayValue) {
+        autoplayVideos.push(videoContainer);
+      }
+      videoData.autoplayValue = autoplayValue;
+
+      let positionName = '';
+      if (isAutoplayTargetingTrue) {
+        positionName = isDesktop ? 'preroll_sticky_autoplay' : 'preroll_notsticky_autoplay';
+      } else {
+        positionName = isDesktop ? 'preroll_sticky_starttoplay' : 'preroll_notsticky_starttoplay';
+      }
+
+      return { positionName, videoData, inhouse, videoFooter };
+    };
+
+    const initDailymotionV3 = () => {
+      document.querySelectorAll('div.js-dailymotion').forEach((videoContainer, index) => {
+        const { positionName, videoData, inhouse, videoFooter } = getTargetingKeyValues(videoContainer); 
+        let updatedPlayerId = playerId;
+        if ('off' === videoData.autoplayValue) {
+          updatedPlayerId = WSL2.config.dailymotionPlayerIds.autoplayOff;
+        }
+        const divId = `${updatedPlayerId}-${index}`;
+        const element = document.createElement('div');
+        element.setAttribute('id', divId);
+        videoContainer.appendChild(element);
+
+        dailymotion.createPlayer(divId, {
+          referrerPolicy: 'no-referrer-when-downgrade',
+          player: updatedPlayerId,
+          params: {
+            mute: true,
+          },
+        }).then((player) => {
+          WSL2.handlePlayer(player, videoData, updatedPlayerId);
+
+          if (window.hasAdblocker || false) {
+            player.loadContent({ video: videoData.videoId });
+            removeBaseAssetClass(divId);
+          } else {
+            jad.cmd.push(() => {
+              const positionKey = `${positionName}/${divId}`;
+
+              jad.public.setTargetingOnPosition(positionKey, { related: ['yes'] });
+
+              jad.public.getDailymotionAdsParamsForScript(
+                [`${positionName}/${divId}`],
+                (res) => {
+                  initDailymotionPlayer(divId, videoData.videoId, videoFooter, inhouse, res[positionKey]);
+                }
+              );
+            });
+          }
+        });
+      });
+    };
+
+    const playerId =  WSL2.config.dailymotionPlayerIds[WSL2.config.device];
+    const newScript = document.createElement('script');
+
+    newScript.src = `https://geo.dailymotion.com/libs/player/${playerId}.js`;
+    if (window.dailymotion === undefined) {
+      window.dailymotion = { onScriptLoaded: initDailymotionV3 };
+    } else {
+      initDailymotionV3();
+    }
+
+    document.body.appendChild(newScript);
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    runDailyMotion();
+  });
+</script>
+ <footer class="foot js-foot">
+ <div class="wrapper foot-wrapper foot-wrapper-show">
+  <div id="newsletter" class="newsletter-box">
+  </div>
+  <div class="menu-follow foot-menu-follow">
+   <span class="item-meta foot-item-meta">Síguenos</span>
+   <ul>
+ <li>
+  <a class="icon-whatsapp link-whatsapp" href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" rel="nofollow">WhatsApp</a>
+ </li>
+ <li>
+  <a href="https://twitter.com/directopaladar" class="icon-x link-x" rel="nofollow">Twitter</a>
+ </li>
+ <li>
+  <a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="icon-facebook link-facebook" rel="nofollow">Facebook</a>
+ </li>
+   <li>
+   <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="icon-youtube link-youtube" rel="nofollow">Youtube</a>
+  </li>
+     <li>
+   <a class="icon-instagram link-instagram" href="https://instagram.com/directopaladar" rel="nofollow">Instagram</a>
+  </li>
+     <li>
+   <a class="icon-pinterest link-pinterest" href="https://es.pinterest.com/directopaladar" rel="nofollow">Pinterest</a>
+  </li>
+     <li>
+   <a href="https://flipboard.com/@directopaladar" class="icon-flipboard link-flipboard" rel="nofollow">Flipboard</a>
+  </li>
+      <li>
+   <a class="icon-tiktok link-tiktok" href="https://www.tiktok.com/@directopaladar" rel="nofollow">Tiktok</a>
+  </li>
+  <li>
+  <a class="icon-email link-email" href="/recetas-especiales/cada-viernes-tu-correo" rel="nofollow">E-mail</a>
+ </li>
+</ul>
+  </div>
+    <nav class="menu-categories foot-menu-categories">
+   <p class="nav-heading">En Directo al Paladar hablamos de...</p>
+   <ul>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-con-thermomix">Recetas con Thermomix</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/postres">Postres</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-vegetarianas">Vegui</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/viajes">Viajes</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-de-aperitivos">Recetas de Aperitivos</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/cultura-gastronomica">Cultura gastronómica</a>
+  </li>
+    <li>
+   <a class="list-item foot-list-item" href="/tag/pollo">Pollo</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/recetas-saludables">Recetas Saludables</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/restaurantes">Restaurantes</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/horno">Horno</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/huevos">Huevos</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/postres-faciles-y-rapidos">Postres fáciles y rápidos</a>
+  </li>
+ </ul>
+  </nav>
+  <p class="view-even-more"><a href="/archivos" class="btn">Ver más temas</a></p>
+      <div class="search-box foot-search">
+  <div id="google-cse-3" class="google-search"></div>
+ </div>
+   <div id="search-container-3" class="js-search-results foot-search-results"></div>
+   </div>
+</footer>
+ <script>
+  (function() {
+   var form = document.createElement('form');
+   form.method = 'POST';
+   form.classList.add('js-subscription', 'newsletter-form', 'foot-newsletter-form');
+   form.setAttribute('data-url', "https://www.directoalpaladar.com/modules/subscription/form");
+   form.innerHTML = '<p class="nav-heading">RECIBE &quot;Al fondo hay sitio&quot;, NUESTRA NEWSLETTER SEMANAL </p>\
+    <p><input class="js-email newsletter-input" type="email" placeholder="Tu correo electrónico" required>\
+    <button class="btn-primary newsletter-button js-subscribe-btn" type="submit">Suscribir</button></p>\
+    <small class="newsletter-legal-disclaimer js-disclaimer">Suscribiéndote aceptas nuestra <a href="https://weblogs.webedia.es/aviso-legal.html">política de privacidad</a></small>\
+    <div class="alert-success js-subscribe-success" style="display: none;"></div>\
+    <div class="alert-error js-subscribe-error" style="display: none;">Error: el correo electrónico no tiene el formato correcto</div>';
+   var newsletterContainer = document.getElementById('newsletter');
+   newsletterContainer.insertBefore(form, newsletterContainer.firstChild);
+  })();
+ </script>
+<div class="foot-external js-foot-external ">
+ <div class="wrapper foot-wrapper">
+  <header class="foot-head">
+   <a class="backlink foot-backlink" href="#">Subir</a>
+   <p class="webedia-brand foot-webedia-brand">
+ <a href="https://www.webedia.es/" class="webedia-logo foot-webedia-logo"><span>Webedia</span></a>
+</p>
+  </header>
+    <div class="menu-external foot-menu-external">
+   <div class="spain-blogs">
+          <div class="links-category">
+             <p class="channel-title"> Tecnología </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Móvil
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Applesfera
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Smart Home
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Mundo Xiaomi
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Videojuegos </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Vida Extra
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Entretenimiento </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Espinof
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Gastronomía </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Directo al Paladar
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Motor </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión Moto
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Estilo de vida </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Trendencias
+         </a></li>
+            <li><a class="list-item foot-list-item"  rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Decoesfera
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Compradiccion
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Economía </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           El Blog Salmón
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Pymes y Autónomos
+         </a></li>
+      </ul>
+
+   
+  </div>
+ 
+   </div>
+       <div class="latam-blogs">
+     <p class="channel-title">
+      Ediciones Internacionales
+     </p>
+           <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.xataka.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka México
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xataka.com.br?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Brasil
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.3djuegos.lat#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos LATAM
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="https://www.sensacine.com.mx#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine México
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="https://www.sensacine.com.co#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine Colombia
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.directoalpaladar.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Directo al Paladar México
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.motorpasion.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión México
+         </a></li>
+      </ul>
+
+   
+  </div>
+ 
+    </div>
+             <div class="foot-cookie-link">
+     <a href="javascript:Didomi.preferences.show()" class="list-item">Preferencias de Privacidad</a>
+           <a href="https://weblogs.webedia.es/aviso-legal.html" class="list-item">Política de privacidad</a>
+         </div>
+     </div>
+ </div>
+</div>
+ <aside id="head-favicons" class="head-favicons-container m-is-later js-head-favicons m-favicons-compact">
+ <div class="head-favicons">
+  <div class="head-favicons-index head-webedia-logo">
+   <a class="js-group-toggle" href="#" data-target="#head-network"><abbr title="Webedia">Webedia</abbr></a>
+  </div>
+  <ul class="head-favicons-list">
+                                 <li>
+      <a class="favicon tec-xataka
+       " rel="nofollow" href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-sensacine
+       "  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Sensacine</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tech-3djuegos
+       "  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>3DJuegos</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-directoalpaladar
+              favicon-current
+       "  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Directo al Paladar</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon mot-motorpasion
+       "  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Motorpasión</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-trendencias
+       "  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Trendencias</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-espinof
+       "  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Espinof</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-compradiccion
+       "  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Compradiccion</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakamovil
+       "  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Móvil</span>
+      </a>
+     </li>
+                                     <li>
+      <a class="favicon est-decoesfera
+       " rel="nofollow" href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Decoesfera</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon mot-motorpasionmoto
+       "  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Motorpasión Moto</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-applesfera
+       "  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Applesfera</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-vidaextra
+       "  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Vida Extra</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakahome
+       "  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Smart Home</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-mundoxiaomi
+       "  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Mundo Xiaomi</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon eco-elblogsalmon
+       "  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>El Blog Salmón</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon eco-pymesyautonomos
+       "  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Pymes y Autónomos</span>
+      </a>
+     </li>
+         </ul>
+ </div>
+</aside>
+<aside class="favicons-expanded-container js-favicons-expand" id="head-network">
+ <div class="favicons-expanded">
+           <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Tecnología</div></li>
+         <li>
+     <a class="favicon tec-xataka"  rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakamovil"  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Móvil
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-applesfera"  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Applesfera
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakahome"  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Smart Home
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-mundoxiaomi"  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Mundo Xiaomi
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Videojuegos</div></li>
+         <li>
+     <a class="favicon tech-3djuegos"  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>3DJuegos
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-vidaextra"  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Vida Extra
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Entretenimiento</div></li>
+         <li>
+     <a class="favicon oci-sensacine"  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Sensacine
+     </a>
+    </li>
+            <li>
+     <a class="favicon oci-espinof"  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Espinof
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Gastronomía</div></li>
+         <li>
+     <a class="favicon est-directoalpaladar"  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Directo al Paladar
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Motor</div></li>
+         <li>
+     <a class="favicon mot-motorpasion"  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Motorpasión
+     </a>
+    </li>
+            <li>
+     <a class="favicon mot-motorpasionmoto"  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Motorpasión Moto
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Estilo de vida</div></li>
+         <li>
+     <a class="favicon est-trendencias"  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Trendencias
+     </a>
+    </li>
+            <li>
+     <a class="favicon est-decoesfera"  rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Decoesfera
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-compradiccion"  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Compradiccion
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Economía</div></li>
+         <li>
+     <a class="favicon eco-elblogsalmon"  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>El Blog Salmón
+     </a>
+    </li>
+            <li>
+     <a class="favicon eco-pymesyautonomos"  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Pymes y Autónomos
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+ 
+ </div>
+</aside>
+
+ <div id="fb-root"></div>
+   <section id="sections" class="head-menu-container head-menu-sections">
+ <a href="#sections" class="head-menu-toggler js-toggle"></a>
+ <div class="head-menu">
+  <a href="#sections" class="close close-corner js-toggle js-menu-close">Inicio</a>
+  <div id="opt-in"></div>
+  <div id="sections-login-wrapper" class="sections-login">
+   <div id="js-login" class="user-card"></div>
+  </div>
+       <div class="hd-menu-srch-cr">
+    <div id="google-cse" class="google-search"></div>
+   </div>
+   <script async src="https://cse.google.com/cse.js?cx=d2deccec2c2de4b7f"></script>
+<script>
+   function onSearchButtonLoaded () {
+      const searchButtons = document.querySelectorAll('.gsc-search-button-v2');
+      searchButtons.forEach(function (searchButton) {
+         if (searchButton) {
+            searchButton.innerHTML = 'Buscar';
+         }
+      });
+   }
+
+   function onGoogleCSELoad () {
+      google.search.cse.element.render({
+        div: "google-cse",
+        tag: 'search'
+      });
+
+      google.search.cse.element.render({
+        div: "google-cse-2",
+        tag: 'search'
+      });
+
+      google.search.cse.element.render({
+        div: "google-cse-3",
+        tag: 'search'
+      });
+      onSearchButtonLoaded();
+   }
+
+   window.__gcse = {
+      parsetags: 'explicit',
+      initializationCallback: onGoogleCSELoad
+   };
+</script>        <nav class="head-menu-categories">
+    <ul>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-con-thermomix">Recetas con Thermomix</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/postres">Postres</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-vegetarianas">Vegui</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/viajes">Viajes</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-de-aperitivos">Recetas de Aperitivos</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/cultura-gastronomica">Cultura gastronómica</a>
+      </li>
+                <li>
+       <a class="head-list-item js-track-header-event" href="/tag/pollo">Pollo</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/recetas-saludables">Recetas Saludables</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/restaurantes">Restaurantes</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/horno">Horno</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/huevos">Huevos</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/postres-faciles-y-rapidos">Postres fáciles y rápidos</a>
+      </li>
+         </ul>
+    <p class="head-more-item">
+     <a href="/archivos" class="btn js-track-header-event">Ver más temas</a>
+    </p>
+  </nav>
+  <aside class="head-menu-follow">
+   <span class="head-item-meta">Síguenos</span>
+    <ul>
+ <li>
+  <a class="icon-whatsapp link-whatsapp" href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" rel="nofollow">WhatsApp</a>
+ </li>
+ <li>
+  <a href="https://twitter.com/directopaladar" class="icon-x link-x" rel="nofollow">Twitter</a>
+ </li>
+ <li>
+  <a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="icon-facebook link-facebook" rel="nofollow">Facebook</a>
+ </li>
+   <li>
+   <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="icon-youtube link-youtube" rel="nofollow">Youtube</a>
+  </li>
+     <li>
+   <a class="icon-instagram link-instagram" href="https://instagram.com/directopaladar" rel="nofollow">Instagram</a>
+  </li>
+     <li>
+   <a class="icon-pinterest link-pinterest" href="https://es.pinterest.com/directopaladar" rel="nofollow">Pinterest</a>
+  </li>
+     <li>
+   <a href="https://flipboard.com/@directopaladar" class="icon-flipboard link-flipboard" rel="nofollow">Flipboard</a>
+  </li>
+      <li>
+   <a class="icon-tiktok link-tiktok" href="https://www.tiktok.com/@directopaladar" rel="nofollow">Tiktok</a>
+  </li>
+  <li id="sections-newsletter">
+  <a href="#head-menu-newsletter" class="icon-email link-email js-toggle-subscribe">E-mail</a>
+ </li>
+</ul>
+  </aside>
+  <section id="head-menu-newsletter" class="head-menu-newsletter">
+   <a href="#head-menu-newsletter" class="close close-corner js-close-corner"></a>
+   <form class="newsletter-form head-newsletter-form js-subscription" method="post" data-url="https://www.directoalpaladar.com/modules/subscription/form" data-id="#head-menu-newsletter">
+    <h3 class="newsletter-heading">RECIBE &quot;Al fondo hay sitio&quot;, NUESTRA NEWSLETTER SEMANAL </h3>
+    <p><input class="newsletter-input js-email" type="email" placeholder='Tu correo electrónico' required>
+    <button class="btn-primary newsletter-button js-subscribe-btn" type="submit">Suscribir</button></p>
+    <small class="newsletter-legal-disclaimer js-disclaimer">Suscribiéndote aceptas nuestra <a href="https://weblogs.webedia.es/aviso-legal.html">política de privacidad</a></small>
+    <div class="alert-success js-subscribe-success" style="display: none;"></div>
+    <div class="alert-error js-subscribe-error" style="display: none;">Error: el correo electrónico no tiene el formato correcto</div>
+   </form>
+  </section>
+  <nav class="head-menu-extras">
+   <ul class="head-list">
+         <li><a class="head-list-item section-tv js-track-header-event" href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1">Directo al Paladar
+      + Recetas LG
+    </a></li>
+        <li><a class="head-list-item section-staff js-track-header-event" href="/quienes-somos">Equipo editorial</a></li>
+    <li><a class="head-list-item section-contact js-track-header-event" href="/contacto">Contacta con nosotros</a></li>
+    <li id="sections-login">
+     <span id="login"></span>
+    </li>
+   </ul>
+  </nav>
+         <aside class="head-menu-external">
+     <p class="nav-heading">Más sitios que te gustarán</p>
+     <ul>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Espinof</a>
+       </li>
+                                          <li>
+        <a class="head-list-item js-track-header-event" rel="nofollow" href="https://www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka</a>
+       </li>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Poprosa</a>
+       </li>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vitónica</a>
+       </li>
+           </ul>
+    </aside>
+      <div class="head-menu-channels">
+    <h3>Explora en nuestros medios</h3>
+    <ul>
+           <li>
+       <a href="#head-channel-tecnologia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Tecnología
+        <span class="head-item-meta m-desc">Móviles, tablets, aplicaciones, videojuegos, fotografía, domótica...</span>
+       </a>
+       <ul id="head-channel-tecnologia" class="head-channel-list">
+                                                                <li>
+           <a class="head-list-item tec-xataka js-track-header-event" rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakamovil js-track-header-event"   href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Móvil</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-applesfera js-track-header-event"   href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Applesfera</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakahome js-track-header-event"   href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Smart Home</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-mundoxiaomi js-track-header-event"   href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Mundo Xiaomi</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-videojuegos" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Videojuegos
+        <span class="head-item-meta m-desc">Consolas, juegos, PC, PS4, Switch, Nintendo 3DS y Xbox...</span>
+       </a>
+       <ul id="head-channel-videojuegos" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item tech-3djuegos js-track-header-event"   href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-vidaextra js-track-header-event"   href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vida Extra</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-entretenimiento" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Entretenimiento
+        <span class="head-item-meta m-desc">Series, cine, estrenos en cartelera, premios, rodajes, nuevas películas, televisión...</span>
+       </a>
+       <ul id="head-channel-entretenimiento" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-espinof js-track-header-event"   href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Espinof</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-gastronomia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Gastronomía
+        <span class="head-item-meta m-desc">Recetas, recetas de cocina fácil, pinchos, tapas, postres...</span>
+       </a>
+       <ul id="head-channel-gastronomia" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item est-directoalpaladar js-track-header-event"   href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Directo al Paladar</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-motor" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Motor
+        <span class="head-item-meta m-desc">Coches, motos, vehículos eléctricos, híbridos, camper, pruebas, competición, seguridad vial...</span>
+       </a>
+       <ul id="head-channel-motor" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item mot-motorpasion js-track-header-event"   href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item mot-motorpasionmoto js-track-header-event"   href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión Moto</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-Estilodevida" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Estilo de vida
+        <span class="head-item-meta m-desc">Moda, belleza, estilo, salud, fitness, familia, gastronomía, decoración, famosos...</span>
+       </a>
+       <ul id="head-channel-Estilodevida" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item est-trendencias js-track-header-event"   href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Trendencias</a>
+          </li>
+                                                                         <li>
+           <a class="head-list-item est-decoesfera js-track-header-event" rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Decoesfera</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-compradiccion js-track-header-event"   href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Compradiccion</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-economia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Economía
+        <span class="head-item-meta m-desc">Finanzas personales, mercados, empresas, macroeconomía, inversión, ahorro, impuestos, emprendimiento, autónomo...</span>
+       </a>
+       <ul id="head-channel-economia" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item eco-elblogsalmon js-track-header-event"   href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">El Blog Salmón</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item eco-pymesyautonomos js-track-header-event"   href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Pymes y Autónomos</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-EdicionesInternacionales" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Ediciones Internacionales
+        <span class="head-item-meta m-desc">México, Brasil...</span>
+       </a>
+       <ul id="head-channel-EdicionesInternacionales" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item est-directoalpaladar js-track-header-event"   href="//www.directoalpaladar.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Directo al Paladar México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com.mx#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-3djuegoslat js-track-header-event"   href="//www.3djuegos.lat#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos LATAM</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.br?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Brasil</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com.co#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine Colombia</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item mot-motorpasion js-track-header-event"   href="//www.motorpasion.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión México</a>
+          </li>
+                        </ul>
+      </li>
+         </ul>
+   </div>
+    <nav class="head-menu-links">
+   <ul class="head-list">
+    <li><a class="head-list-item js-track-header-event" href="https://www.weblogssl.com/contenidos">Condiciones de uso</a></li>
+    <li><a class="head-list-item js-track-header-event" href="https://www.weblogssl.com/cookies">Condiciones de uso de cookies</a></li>
+    <li><a class="head-list-item js-track-header-event" href="mailto:publicidad@webedia-group.com">Publicidad</a></li>
+   </ul>
+  </nav>
+ </div>
+</section>
+<div id="headlines" class="head-menu-container head-menu-new m-menu-right">
+ <a href="#headlines" class="head-menu-toggler js-toggle"></a>
+ <div class="head-menu">
+  <a href="#headlines" class="close close-corner js-toggle">Inicio</a>
+     <p class="nav-heading">Reciente</p>
+    <ul id="recent-posts">
+    <li>
+              <a href="/recetas-de-carnes-y-aves/como-hacer-carnitas-mexicanas-receta-perfecta-para-hacer-tacos-panceta" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Cómo hacer carnitas mexicanas, la receta perfecta para hacer tacos con panceta</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/viajes/donde-comer-almeria-bien-barato-que-bares-restaurantes-comida-tipica-probar" class="head-new-item">
+  Gastroguía de Almería: las mejores tapas y restaurantes recomendados de la ciudad andaluza
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T18:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-aperitivos/mis-empanadillas-todoterreno-tienen-tres-ingredientes-van-al-horno-aperitivo-facil-que-existe" class="head-new-item">
+  Mis empanadillas todoterreno tienen tres ingredientes, van al horno y son el aperitivo más fácil que existe 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T17:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-pasta/pasta-primavera-receta-facil-perfecta-para-aprovechar-verduras-temporada" class="head-new-item">
+  Pasta primavera: receta fácil y perfecta para aprovechar las verduras de temporada 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T16:00:41Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/consumidores/hace-20-anos-lidl-prometia-que-podias-llenar-carro-compra-30-euros-hoy-no-te-llega-casi-para-bolsa" class="head-new-item">
+  Hace 20 años Lidl prometía que podías llenar un carro de la compra con 30 euros: hoy no te llega casi ni para una bolsa 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T15:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/curso-de-cocina/como-hacer-labneh-delicioso-queso-yogur-imprescindible-oriente-medio-mil-usos-cocina" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Cómo hacer labneh, el delicioso queso de yogur imprescindible en Oriente Medio con mil usos en la cocina</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/seleccion/blanco-autor-riojano-mucha-trayectoria-para-comprobar-que-rioja-no-solo-se-hace-tinto" class="head-new-item">
+  Un blanco de autor riojano con mucha trayectoria para comprobar que en Rioja no solo se hace tinto
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T11:30:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/huerto/como-multiplicar-geranio-primavera-a-partir-esquejes-llenar-tu-balcon-gastar" class="head-new-item">
+  Cómo multiplicar un geranio en primavera a partir de esquejes y llenar tu balcón sin gastar más 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T11:00:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-verduras/esparragos-blancos-a-plancha-receta-facilisima-salsa-que-triunfar-siempre" class="head-new-item">
+  Espárragos blancos a la plancha: una receta facilísima y la salsa con la que triunfar siempre 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T10:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/seleccion/jysk-deja-barato-este-farolillo-estilo-clasico-que-iluminara-forma-intima-balcones-jardines-terrazas" class="head-new-item">
+  El farolillo en oferta de Jysk que ilumina sin molestar, suma en decoración y pone un toque de luz íntimo a balcones o terrazas
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T09:46:38Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-vegetarianas/revuelto-verduras-receta-atractiva-para-aprovechar-sobras" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Revuelto de verduras, una receta atractiva para aprovechar sobras</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/viajes/comida-turistas-mala-que-monos-gibraltar-comen-tierra-para-malestar-digestivo-que-les-provoca" class="head-new-item">
+  La comida de los turistas es tan mala, que los monos de Gibraltar comen tierra para aliviar el malestar digestivo que les provoca
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T09:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/salud/nuestra-lucha-alzheimer-hemos-estado-mirando-sitio-equivocado-clave-podria-estar-intestino" class="head-new-item">
+  En nuestra lucha contra el Alzheimer hemos estado mirando en el sitio equivocado: la clave podría estar en el intestino
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T08:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/seleccion/lidl-vende-sombrilla-ideal-para-protegernos-sol-terraza-jardin-que-anade-toque-lujo" class="head-new-item">
+  Lidl vende una sombrilla ideal para protegernos del sol en la terraza o el jardín que añade un toque de lujo
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T07:30:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/cultura-gastronomica/recomendacion-tres-estrellas-michelin-jesus-sanchez-chef-cantabro-al-comprar-anchoas-salazon-mejor-lata-opaca" class="head-new-item">
+  La recomendación del tres estrellas Michelin Jesús Sánchez, chef cántabro, al comprar anchoas en salazón: “Mejor una lata opaca” 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T07:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/viajes/este-increible-complejo-termal-cuenta-18-piscinas-14-saunas-parque-acuatico-agua-caliente-volcan-1" class="head-new-item">
+  Este increíble complejo termal cuenta con 18 piscinas, 14 saunas y un parque acuático de agua caliente con un volcán 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T06:30:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="https://www.applesfera.com/apple-1/tipo-obsesionado-prducto-quien-john-ternus-que-podemos-esperar-su-inminente-andadura-como-ceo-apple?utm_source=directoalpaladar&utm_medium=network&utm_campaign=headlines_reciente" class="head-new-item m-crosspost">
+  "Un tipo obsesionado con el producto". Quién es en John Ternus y qué podemos esperar de su inminente andadura como CEO de Apple
+  <span class="head-item-meta">
+   de Applesfera <time class="js-header-post" datetime="2026-04-22T06:54:05Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/salud/cadmio-lista-alimentos-que-recomiendan-evitar-para-proteger-tu-salud" class="head-new-item">
+  Cadmio: la lista de alimentos que las autoridades sanitarias recomiendan evitar para proteger tu salud
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T06:00:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-de-aperitivos/jallullo-murciano-receta-tradicional-humilde-como-sabrosa" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Jallullo murciano, receta tradicional, tan humilde como sabrosa</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/viajes/casi-como-hermanos-este-par-chefs-canarios-se-han-propuesto-algo-unico-tenerife-cocinar-solo-producto-atlantico" class="head-new-item">
+  Estos chefs canarios se han propuesto algo único en Tenerife: cocinar solo con producto del Atlántico, ni rastro de carne
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-21T18:00:38Z"></time>
+  </span>
+ </a>
+   </li>
+  </ul>
+  <p class="head-more-item"><a href="#" class="btn" id="view-more" data-blog="directoalpaladar">Ver más artículos</a></p>
+     <div class="head-menu-video">
+    <p class="nav-heading"> Directo al Paladar
+     + Recetas LG
+    </p>
+    <ul id="recent-videos">
+          <li>
+  <a href="https://www.directoalpaladar.com/videos-recetas/donald-a-tasquita-cocinamos-cuatro-variedades-ensaladilla-rusa-famosas-espana" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="Los&#x20;trucos&#x20;para&#x20;la&#x20;Ensaladilla&#x20;Rusa&#x20;perfecta&#x20;&#x28;y&#x20;4&#x20;recetas&#x20;infalibles&#x29;" src="https://img.youtube.com/vi/5Cm9Kc5zBfw/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Los trucos para la Ensaladilla Rusa perfecta (y 4 recetas infalibles)</span>
+  </a>
+ </li>
+     <li>
+  <a href="https://www.directoalpaladar.com/videos-recetas/como-usar-curry-japones-pastillas-sencillo-cocinar-asia" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="C&#x00F3;mo&#x20;hacer&#x20;Curry&#x20;Japon&#x00E9;s&#x20;con&#x20;carne&#x20;picada&#x20;&#x28;Listo&#x20;en&#x20;20&#x20;minutos&#x29;" src="https://img.youtube.com/vi/DJcyzPa7J08/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Cómo hacer Curry Japonés con carne picada (Listo en 20 minutos)</span>
+  </a>
+ </li>
+     <li>
+  <a href="https://www.directoalpaladar.com/videos-recetas/dominas-esta-tecnica-cualquier-receta-risotto-te-quedara-deliciosa-mucho-facil-que-hacer-paella" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="C&#x00F3;mo&#x20;hacer&#x20;el&#x20;Risotto&#x20;perfecto&#x20;&#x28;El&#x20;secreto&#x20;de&#x20;la&#x20;cremosidad&#x20;absoluta&#x29;" src="https://img.youtube.com/vi/5xNBPdt63vE/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Cómo hacer el Risotto perfecto (El secreto de la cremosidad absoluta)</span>
+  </a>
+ </li>
+    </ul>
+    <p class="head-more-item"><a href="#" class="btn" id="view-more-videos" data-blog="directoalpaladar">Ver más vídeos</a></p>
+   </div>
+   </div>
+</div>
+<nav id="search" class="head-menu-container head-menu-searchapp">
+</nav>
+<script>
+ document.getElementById("search").innerHTML = '\
+ <a href="#search" class="head-menu-toggler js-toggle"></a>\
+ <div class="head-menu">\
+  <a href="#search" class="close close-corner js-toggle">Inicio</a>\
+  <h2>Buscar</h2>\
+  <div class="hd-menu-srch-cr hd-srch-02">\
+   <div class="head-menu-search">\
+    <div id="google-cse-2" class="google-search"></div>\
+   </div>\
+  </div>\
+ </div>';
+</script>
+<nav class="nav nav-list nav-register" id="nav-twitter-register"></nav>
+<div id="react-login"></div>
+<nav class="nav nav-list nav-login" id="nav-login"></nav>
+<nav class="nav nav-list nav-register" id="nav-register"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover"></nav>
+<nav class="nav nav-list nav-login" id="nav-pick"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover-twitter"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover-facebook"></nav>
+<div id="js-edit-user-profile-form"></div>
+<div id="js-user-comments"></div>
+<div id="js-modal-user-deactivate"></div>
+
+  
+     <div id="cookies-overlay" class="cookies-overlay"></div>
+    </div>
+   </div>
+  </div>
+ </div>
+   <div id="div-gpt-int" style="width:1px; height:1px;">
+ </div>
+   <div id="div-gpt-int2" style="width:1px; height:1px;">
+ </div>
+   <script>
+ (function() {
+  var lazyElements    = document.getElementsByClassName('sf-lazy')
+  ,   srcsetSupported = false
+  ,   threshold;
+
+  if (!/Edge\/\d+/.test(navigator.userAgent)) {
+   srcsetSupported = 'srcset' in document.createElement('img');
+  }
+
+  function updateAttributes(element) {
+   var sfSrcset = element.getAttribute('data-sf-srcset') || element.getAttribute('sf-srcset');
+   var sfSrc = element.getAttribute('data-sf-src') || element.getAttribute('sf-src');
+   var sizes = element.getAttribute('data-sizes');
+   if (sfSrcset) {
+    element.setAttribute('srcset', sfSrcset);
+   }
+   if (sfSrc) {
+    element.setAttribute('src', sfSrc);
+   }
+   if (sizes) {
+    element.setAttribute('sizes', sizes);
+   }
+   element.classList.remove('sf-lazy');
+  }
+
+  threshold = (window.innerHeight || document.documentElement.clientHeight) + 100;
+  function lazyLoad() {
+   var coords, element, i, isVisible;
+   if (0 == lazyElements.length) {
+    document.removeEventListener('scroll', lazyLoad);
+    return false;
+   }
+
+   for (i = 0; i < lazyElements.length; i++) {
+    element = lazyElements[i];
+    coords = element.getBoundingClientRect();
+    isVisible = (coords.top >= 0 && coords.left >= 0 && coords.top) <= threshold;
+    if (isVisible) {
+     updateAttributes(element);
+    }
+   }
+  }
+
+  if (srcsetSupported) {
+   document.addEventListener('scroll', lazyLoad);
+   lazyLoad();
+  }
+ })();
+</script>
+  <script>
+ var WSL2 = WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.fbapikey = "357721611901";
+ WSL2.config.fbApiVersion = "v8.0";
+ WSL2.config.siteName = "Directo al Paladar";
+ WSL2.config.newsletterSiteName = "Al fondo hay sitio";
+ WSL2.config.gtmContainerId = "GTM-W4HG6RZ";
+ WSL2.config.gtmContainerIdGlobal = "GTM-TWST58M";
+ WSL2.config.imagePath = "https://img.weblogssl.com/css/directoalpaladar/p/common";
+ WSL2.config.desktopSiteUrl = "https://www.directoalpaladar.com";
+ WSL2.config.cookieDomain = "";
+ WSL2.config.enableEditorialRecommendations = "1";
+ WSL2.config.s3ImagePath = "https://i.blogs.es";
+ WSL2.config.socialTwitter = "directopaladar";
+ WSL2.config.enableUniformSocialShareGallery = "0";
+ WSL2.config.twitterSocial = "directopaladar";
+ WSL2.config.enableGiphyInComments = 0;
+ WSL2.config.enablePinterestSharing = 0;
+ WSL2.config.adminUrl = "https://admin.directoalpaladar.com";
+ WSL2.config.blogDomain = "directoalpaladar.com";
+ WSL2.config.blogMeta = {
+  siteName: "directoalpaladar",
+  mnemonic: "DAP",
+  blogDomain: "directoalpaladar.com"
+ };
+ WSL2.config.showMxSiteFloatingBox = 0;
+ WSL2.config.insuradsLink = "";
+ WSL2.config.uniformDateTimeFormat = "Y-m-d\TH:i:s\Z";
+ WSL2.config.dailymotionAutoplayLimit = 0;
+ WSL2.config.enableWebpImage = "0";
+ WSL2.config.productSiteUrl = "https://www.xataka.com";
+ WSL2.config.homepageVersion = "v5";
+ WSL2.config.dailymotionPlayerIds = {
+  'desktop': "x8grx",
+  'mobile': "x8grw",
+  'autoplayOff': "xbl39"
+ };
+ WSL2.config.enableOneLinkMessage = 1;
+ WSL2.config.disableDatetimeMention = "1";
+ WSL2.config.grecaptchaSiteKey = "6LeiX64UAAAAADw_CPFU4cciCrgrVCwbF_R6yFGu";
+ WSL2.config.timeZone = "Europe/Madrid";
+ WSL2.config.locale = "es";
+ WSL2.config.sendInternalPromotionAnalytics = "1";
+ WSL2.config.enableVideoPrebid = 1;
+ WSL2.config.enableGoogleLogin = 1;
+ WSL2.config.enableSocialLogin = 1;
+ WSL2.config.enableTaboolaIntegration = "0";
+ WSL2.config.taboolaPublisherId = "webediaes-network";
+ WSL2.config.enablePerformanceImprovements = "0";
+ WSL2.config.enableGoogleCustomSearchEngine = "1";
+ WSL2.config.enableInpEventLog = 0;
+ WSL2.config.enableGTMdidomi = "";
+ WSL2.config.enableOpenweb = 1;
+ WSL2.config.openwebSpotId = "sp_elHFZQu4";
+ WSL2.config.enablePageViewParams = "1";
+ WSL2.config.enableInternalClicks = "1";
+ WSL2.config.enableLimitedTimeDeal = "1"
+ WSL2.config.enableDynamicIU = "1";
+ WSL2.config.enableCtcImpressions = "1";
+ WSL2.config.enableBrandEventsTracking = "1";
+ WSL2.config.enableXatakaXtra = "";
+ WSL2.config.enableXtraDeactivationMessage = "";
+</script>
+<script>
+ function injectScript(src) {
+  var script = document.createElement('script');
+  script.src = src;
+  script.async = true;
+  if ('ES' === window.country) {
+    script.type = 'didomi/javascript';
+  }
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(script, firstScriptTag);
+ }
+</script>
+<script>
+ WSL2.config.postSubType = "special";
+ WSL2.config.redirectDesktopRoot = 'false';
+ WSL2.config.postId = 94982;
+ WSL2.config.postTitle = "Rocas\u0020de\u0020chocolate,\u0020turr\u00F3n\u0020y\u0020nueces\u0020con\u0020escamas\u0020de\u0020sal,\u0020receta\u0020f\u00E1cil\u0020y\u0020r\u00E1pida\u0020para\u0020una\u0020sobremesa\u0020navide\u00F1a";
+ WSL2.config.tweetText = "Comentario%20a%20Rocas%20de%20chocolate%2C%20turr%C3%B3n%20y%20nueces%20con%20escamas%20de%20sal%2C%20receta%20f%C3%A1cil%20y%20r%C3%A1pida%20para%20una%20sobremesa%20navide%C3%B1a";
+ WSL2.config.twitterName = "";
+ WSL2.config.postUrl = "https://www.directoalpaladar.com/postres/rocas-chocolate-turron-nueces-escamas-sal-receta-facil-rapida-para-sobremesa-navidena";
+ WSL2.config.recommendationEngineVersion = 1;
+ WSL2.config.device = "desktop";
+ WSL2.config.enableNanomediaHeader = 1;
+</script>
+ <script src="https://img.weblogssl.com/LPbackend/prod/v3/js/runtime.aa992c25.js" defer></script><script src="https://img.weblogssl.com/LPbackend/prod/v3/js/241.7175a57a.js" defer></script><script src="https://img.weblogssl.com/LPbackend/prod/v3/js/postpage.eb614db3.js" defer></script>
+ <script>
+ window._nli=window._nli||[],
+ function(){
+  var n,e,i=window._nli||(window._nli=[]);i.loaded||
+  ((n=document.createElement("script")).defer=!0,n.src="https://l.directoalpaladar.com/sdk.js",
+  (e=document.getElementsByTagName("script")[0])
+  .parentNode.insertBefore(n,e),i.loaded=!0)
+ }();
+</script>
+ </body>
+</html>

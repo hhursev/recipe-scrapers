@@ -14,8 +14,8 @@ recipe-scrapers
 .. image:: https://github.com/hhursev/recipe-scrapers/actions/workflows/unittests.yaml/badge.svg?branch=main
     :target: unittests
     :alt: GitHub Actions Unittests
-.. image:: https://coveralls.io/repos/hhursev/recipe-scraper/badge.svg?branch=main&service=github
-    :target: https://coveralls.io/github/hhursev/recipe-scraper?branch=main
+.. image:: https://coveralls.io/repos/github/hhursev/recipe-scrapers/badge.svg?branch=main
+    :target: https://coveralls.io/github/hhursev/recipe-scrapers?branch=main
     :alt: Coveralls
 .. image:: https://img.shields.io/github/license/hhursev/recipe-scrapers?
     :target: https://github.com/hhursev/recipe-scrapers/blob/main/LICENSE

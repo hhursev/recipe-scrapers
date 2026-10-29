@@ -1,0 +1,2426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script>
+ var country = 'ES';
+ var isSpainOrLatamUser = true;
+ var WSLUser = null;
+ var WSLUserIsXtraSubscribed = false;
+ (function() {
+  try {
+   var cookieName = "weblogssl_user";
+   var cookies = document.cookie.split(";");
+   for (var i = 0; i < cookies.length; i++) {
+    var fragments = /^\s*([^=]+)=(.+?)\s*$/.exec(cookies[i]);
+    if (fragments[1] === cookieName) {
+     var cookie = decodeURIComponent(decodeURIComponent(fragments[2]));
+     WSLUser = JSON.parse(cookie).user;
+     WSLUserIsXtraSubscribed = 'object' === typeof WSLUser && 1 === WSLUser.xtraSubscribed;
+     break;
+    }
+   }
+  } catch (e) {}
+ })();
+</script>
+   <meta charset="UTF-8">
+<title>Pan integral de espelta y centeno. Receta fácil, sencilla y deliciosa</title>
+<script>
+ window.WSL2 = window.WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.title = "Pan integral de espelta y centeno. Receta fácil, sencilla y deliciosa";
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de Pan integral de espelta y centeno. Ingredientes, tiempo de elaboración">
+ <script>WSL2.config.metaDescription = "Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de Pan integral de espelta y centeno. Ingredientes, tiempo de elaboración"</script>
+  <meta name="news_keywords" content="Pan, Horno, pan casero, espelta, Harina de centeno, Recetas de Panes">
+   <meta name="robots" content="max-image-preview:large">
+<meta property="fb:admins" content="100000716994885">
+<meta property="fb:pages" content="41182117378">
+<meta property="fb:app_id" content="357721611901">
+<meta name="application-name" content="Directo al Paladar">
+<meta name="msapplication-tooltip" content="Recetas de cocina y gastronomía. Directo al Paladar">
+<meta name="msapplication-starturl" content="https://www.directoalpaladar.com">
+<meta name="mobile-web-app-capable" content="yes">
+                 <meta property="og:image" content="https://i.blogs.es/525d27/pan-de-centeno/840_560.jpeg">
+      <meta property="og:title" content="Pan integral de espelta y centeno. Receta con y sin Thermomix">
+  <meta property="og:description" content="Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de Pan integral de espelta y centeno. Ingredientes, tiempo de elaboración">
+  <meta property="og:url" content="https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2023-05-29T14:44:10Z">
+    <meta name="DC.Creator" content="Maria Jose">
+  <meta name="DC.Date" content="2017-05-02">
+  <meta name="DC.date.issued" content="2023-05-29T14:44:10Z">
+  <meta name="DC.Source" content="Directo al Paladar">
+  <meta property="article:modified_time" content="2023-05-29T14:44:10Z">
+  <meta property="article:published_time" content="2023-05-29T14:44:10Z">
+  <meta property="article:section" content="recetas-de-panes">
+         <meta property="article:tag" content="Pan">
+            <meta property="article:tag" content="Horno">
+            <meta property="article:tag" content="pan casero">
+            <meta property="article:tag" content="espelta">
+            <meta property="article:tag" content="Harina de centeno">
+             <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://i.blogs.es/525d27/pan-de-centeno/1366_521.jpeg"><meta name="twitter:site" content="@directopaladar"><meta name="twitter:title" content="Pan integral de espelta y centeno. Receta con y sin Thermomix"><meta name="twitter:description" content="Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de Pan integral de espelta y centeno. Ingredientes, tiempo de elaboración"><meta name="twitter:creator" content="@MJ_ditifet">         <script>
+ window.dataLayer = [{"site":"DAP","siteSection":"postpage","vertical":"Foodies","amp":"no","postId":88712,"postUrl":"https:\/\/www.directoalpaladar.com\/recetas-de-panes\/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix","publishedDate":"2017-05-02","modifiedDate":"2023-05-29T14:44","categories":["recetas-de-panes"],"tags":["pan","horno","pan-casero","espelta","harina-de-centeno"],"videoContent":true,"partner":false,"blockLength":4,"author":"maria jose","postType":"normal","linksToEcommerce":"none","ecomPostExpiration":"everlasting","mainCategory":"recetas-de-panes","postExpiration":null,"wordCount":409}];
+ window.dataLayer[0].visitor_country = country;
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3X96ZX03D"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ window.WSL2 = window.WSL2 || {};
+ window.WSL2.pageViewParams = {"site":"DAP","site_section":"postpage","vertical":"Foodies","amp":"no","visitor_country":"ES","content_id":88712,"post_url":"https:\/\/www.directoalpaladar.com\/recetas-de-panes\/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix","content_publication_date":"2017-05-02","modified_date":"2023-05-29T14:44","page_category":"recetas-de-panes","content_tags":"pan,horno,pan-casero,espelta,harina-de-centeno","has_video_content":true,"global_branded":false,"block_length":4,"content_author_id":"maria jose","post_type":"normal","links_to_ecommerce":"none","ecompost_expiration":"everlasting","mainCategory":"recetas-de-panes","post_expiration":null,"word_count":409};
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-L3X96ZX03D', { send_page_view: false });
+ </script>
+  <script>
+
+ var gdprAppliesGlobally = true;
+
+ (function() {
+  function n() {
+   if (!window.frames.__cmpLocator) {
+    if (document.body && document.body.firstChild) {
+     var e = document.body;
+     var t = document.createElement("iframe");
+     t.style.display = "none";
+     t.name = "__cmpLocator";
+     t.title = "cmpLocator";
+     e.insertBefore(t, e.firstChild)
+    } else {
+     setTimeout(n, 5)
+    }
+   }
+  }
+
+  function e(e, t, n) {
+   if (typeof n !== "function") {
+    return
+   }
+   if (!window.__cmpBuffer) {
+    window.__cmpBuffer = []
+   }
+   if (e === "ping") {
+    n({
+     gdprAppliesGlobally: window.gdprAppliesGlobally,
+     cmpLoaded: false
+    }, true)
+   } else {
+    window.__cmpBuffer.push({
+     command: e,
+     parameter: t,
+     callback: n
+    })
+   }
+  }
+  e.stub = true;
+
+  function t(r) {
+   if (!window.__cmp || window.__cmp.stub !== true) {
+    return
+   }
+   if (!r.data) {
+    return
+   }
+   var a = typeof r.data === "string";
+   var e;
+   try {
+    e = a ? JSON.parse(r.data) : r.data
+   } catch (t) {
+    return
+   }
+   if (e.__cmpCall) {
+    var o = e.__cmpCall;
+    window.__cmp(o.command, o.parameter, function(e, t) {
+     var n = {
+      __cmpReturn: {
+       returnValue: e,
+       success: t,
+       callId: o.callId
+      }
+     };
+     r.source.postMessage(a ? JSON.stringify(n) : n, "*")
+    })
+   }
+  }
+  if (typeof window.__cmp !== "function") {
+   window.__cmp = e;
+   if (window.addEventListener) {
+    window.addEventListener("message", t, false)
+   } else {
+    window.attachEvent("onmessage", t)
+   }
+  }
+  n()
+ })();
+
+
+ (function(e) {
+  var t = document.createElement("script");
+  t.id = "spcloader";
+  t.async = true;
+  t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname;
+  t.charset = "utf-8";
+  var n = document.getElementsByTagName("script")[0];
+  n.parentNode.insertBefore(t, n)
+ })("7bd10a97-724f-47b3-8e9f-867f0dea61c8");
+
+ function scrollListener(e) {
+  var o = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 0,
+   n = Math.max(document.body.scrollHeight || 0, document.documentElement.scrollHeight || 0, document.body.offsetHeight || 0, document.documentElement.offsetHeight || 0, document.body.clientHeight || 0, document.documentElement.clientHeight || 0);
+  30 <= (window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop || 0) / (n - o) * 100 && (Didomi.setUserAgreeToAll(), window.removeEventListener("scroll", scrollListener))
+ }
+
+ window.didomiOnReady = window.didomiOnReady || [], window.didomiOnReady.push(function(e) {
+  e.notice.isVisible() && window.addEventListener("scroll", scrollListener)
+ });
+
+</script>
+<script type="didomi/javascript">
+ if (!window.frames['__tcfapiLocator']) {
+  if (document.head) {
+   var head = document.head,
+   iframe = document.createElement('iframe');
+   iframe.style.cssText = 'display:none';
+   iframe.name = '__tcfapiLocator';
+   head.appendChild(iframe);
+  }
+ }
+</script><script>
+ window.WSL2 = window.WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.enableDidomiOverlay = 1;
+</script>
+
+                   
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+ {"@context":"https:\/\/schema.org","@type":"Article","mainEntityOfPage":"https:\/\/www.directoalpaladar.com\/recetas-de-panes\/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix","name":"Pan integral de espelta y centeno. Receta con y sin Thermomix","headline":"Pan integral de espelta y centeno. Receta con y sin Thermomix","articlebody":"Me gusta muchísimo preparar pan casero, y no porque me apasione amasar sino porque creo que no hay nada como lo hecho en casa, así que siempre estoy buscando nuevas recetas para probar. La última ha sido este pan integral de espelta y centeno que os explico para hacer con y sin Thermomix. Con una miga densa y una corteza de lo más crujiente, este es el pan que me gusta para desayunar. Lo que hago es cortarlo en rebanadas y congelarlo, así tengo siempre pan fresco listo para consumir. Después, basta con ponerlo en la tostadora, y así no se pierde ni una miga porque no se pone duro. Ingredientes Para 8 personas Agua 300 ml Harina de espelta integral 500 g Harina de centeno integral 100 g Levadura prensada fresca 20 g Sal 1 cucharadita Cómo hacer pan integral de espelta y centeno Dificultad: Fácil Tiempo total 50 m Elaboración 20 m Cocción 30 m Reposo 1 h 30 m Para hacer esta receta con Thermomix, ponemos agua en el vaso y la cantamos 2 min\/37ºC\/vel 1. Añadimos las harinas integrales, la levadura y la sal y mezclamos 20 seg\/vel 6. Retiramos el cubilete y amasamos 3 min\/vel espiga. Si hacemos esta receta sin Thermomix, calentamos el agua y deshacemos en ella la levadura. Ponemos las harinas en un bol grande con la sal, hacemos un hueco en el centro y volcamos ahí el agua con la levadura. Amasamos hasta que obtenemos una masa lisa que se despega de las paredes. En ambas preparaciones, formamos una bola con la masa. La dejamos reposar en un bol grande tapado con papel film transparente y en un lugar cálido, hasta que doble su volumen (aproximadamente 1 hora). Amasamos ligeramente la masa y le damos forma de hogaza. La colocamos en la bandeja del horno forrada con papel de hornear. Le hacemos unos cortes con un cuchillo afilado y espolvoreamos con un poco de harina integral de centeno. Dejamos reposar hasta que vuelva a doblar de tamaño, unos 30 minutos. Ponemos una bandeja con agua en la base del horno, para crear humedad, y precalentamos el horno a 220º. Horneamos durante diez minutos. Después, bajamos la temperatura a 200º y horneamos 20 o 25 minutos más. Dejamos enfriar sobre una rejilla antes de cortar a rebanadas y servir. 5 4 3 2 1 ¡Gracias! 35 votos Con qué acompañar el pan integral de espelta y centeno Esta pan integral de espelta y centeno está delicioso untado con mantequilla y mermelada, pero también con queso o cualquier embutido, como jamón ibérico o jamón de York. Si os animáis a amasarlo ya me contaréis, si tenéis Thermomix no perdáis la oportunidad de probarlo, más fácil imposible. En DAP | Pan de maíz En DAP | Pan integral","datePublished":"2023-05-29T14:44:10Z","dateModified":"2023-05-29T14:44:10Z","description":"Te explicamos paso a paso, de manera sencilla, la elaboración de la receta de Pan integral de espelta y centeno. Ingredientes, tiempo de elaboración","publisher":{"@type":"Organization","name":"Directo al Paladar","url":"https:\/\/www.directoalpaladar.com","sameAs":["https:\/\/x.com\/directopaladar","https:\/\/www.facebook.com\/pages\/Directo-al-paladar\/41182117378","https:\/\/www.youtube.com\/c\/directoalpaladar","https:\/\/instagram.com\/directopaladar","https:\/\/es.pinterest.com\/directopaladar","https:\/\/www.tiktok.com\/@directopaladar","https:\/\/www.wikidata.org\/entity\/Q138793990"],"logo":{"@type":"ImageObject","url":"https:\/\/img.weblogssl.com\/css\/directoalpaladar\/p\/amp-2022\/images\/logo.png?v=1776866056","width":600,"height":60},"Parentorganization":"Webedia"},"image":{"@type":"ImageObject","url":"https:\/\/i.blogs.es\/525d27\/pan-de-centeno\/832_435.jpeg","width":832,"height":435},"author":[{"@type":"Person","name":"Maria Jose","url":"https:\/\/www.directoalpaladar.com\/autor\/maria-jose","sameAs":["https:\/\/twitter.com\/MJ_ditifet"]}],"url":"https:\/\/www.directoalpaladar.com\/recetas-de-panes\/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix","thumbnailUrl":"https:\/\/i.blogs.es\/525d27\/pan-de-centeno\/832_435.jpeg","articleSection":"Recetas de Panes","creator":"Maria Jose","keywords":"Pan, Horno, pan casero, espelta, Harina de centeno, Recetas de Panes"}
+</script>
+            <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Recipe","name":"Pan integral de espelta y centeno. Receta con y sin Thermomix","image":"https:\/\/i.blogs.es\/525d27\/pan-de-centeno\/650_1200.jpeg","author":{"@type":"Person","name":"Maria Jose"},"datePublished":"2017-05-02T08:01:45+00:00","description":"Te explicamos paso a paso, de manera sencilla, la elaboraci\u00f3n de la receta de Pan integral de espelta y centeno. Ingredientes, tiempo de elaboraci\u00f3n","totalTime":"P0DT0H50M","recipeYield":8,"nutrition":[],"recipeIngredient":["300ml Agua","500g Harina de espelta integral","100g Harina de centeno integral","20g Levadura prensada","Sal"],"recipeInstructions":"**Para hacer esta receta con Thermomix,** ponemos agua en el vaso y la cantamos 2 min\/37\u00baC\/vel 1. A\u00f1adimos las harinas integrales, la levadura y la sal y mezclamos 20 seg\/vel 6. Retiramos el cubilete y amasamos 3 min\/vel espiga.\n\n**Si hacemos esta receta sin Thermomix,** calentamos el agua y deshacemos en ella la levadura. Ponemos las harinas en un bol grande con la sal, hacemos un hueco en el centro y volcamos ah\u00ed el agua con la levadura. Amasamos hasta que obtenemos una masa lisa que se despega de las paredes.\n\n**En ambas preparaciones**, formamos una bola con la masa. La dejamos reposar en un bol grande tapado con papel film transparente y en un lugar c\u00e1lido, hasta que doble su volumen (aproximadamente 1 hora).\n\nAmasamos ligeramente la masa y **le damos forma de hogaza.** La colocamos en la bandeja del horno forrada con papel de hornear. Le hacemos unos cortes con un cuchillo afilado y espolvoreamos con un poco de harina integral de centeno. Dejamos reposar hasta que vuelva a doblar de tama\u00f1o, unos 30 minutos.\n\nPonemos una bandeja con agua en la base del horno, para crear humedad, y precalentamos el horno a 220\u00ba. **Horneamos durante diez minutos.** Despu\u00e9s, bajamos la temperatura a 200\u00ba y horneamos 20 o 25 minutos m\u00e1s. Dejamos enfriar sobre una rejilla antes de cortar a rebanadas y servir. \n\n","video":[],"cookTime":"P0DT0H30M","prepTime":"P0DT0H20M","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.65714","reviewCount":35},"recipeCategory":"Recetas de Panes","recipeCuisine":"espa\u00f1ola","keywords":"Pan, Horno, pan casero, espelta, Harina de centeno, Recetas de Panes"}</script>
+      <link rel="preconnect" href="https://i.blogs.es">
+<link rel="shortcut icon" href="https://img.weblogssl.com/css/directoalpaladar/p/common/favicon.ico" type="image/ico">
+<link rel="apple-touch-icon" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-57-precomposed.png">
+ <link rel="preconnect" href="https://static.criteo.net/" crossorigin>
+ <link rel="dns-prefetch" href="https://static.criteo.net/">
+ <link rel="preconnect" href="https://ib.adnxs.com/" crossorigin>
+ <link rel="dns-prefetch" href="https://ib.adnxs.com/">
+ <link rel="preconnect" href="https://bidder.criteo.com/" crossorigin>
+ <link rel="dns-prefetch" href="https://bidder.criteo.com/">
+     <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/525d27/pan-de-centeno/450_1000.jpeg" media="(max-width: 450px)">
+  <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/525d27/pan-de-centeno/650_1200.jpeg" media="(min-width: 451px) and (max-width: 650px)">
+  <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/525d27/pan-de-centeno/1366_2000.jpeg" media="(min-width: 651px)">
+  <link rel="preload" as="style" href="https://img.weblogssl.com/css/directoalpaladar/p/thewatmag-d/main.css?v=1776866056">
+   <link rel="alternate" type="application/rss+xml" title="Directoalpaladar - todas las noticias" href="/index.xml">
+   <link rel="image_src" href="https://i.blogs.es/525d27/pan-de-centeno/75_75.jpeg">
+      <link rel="canonical" href="https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">
+   
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&amp;display=swap" as="style" type="text/css" crossorigin="anonymous">
+  <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" as="style" type="text/css" crossorigin="anonymous">
+ <script async src="https://launcher.spot.im/spot/sp_elHFZQu4" data-social-reviews="true"></script>
+   <link rel="amphtml" href="https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix/amp" >
+  <link rel="stylesheet" type="text/css" href="https://img.weblogssl.com/css/directoalpaladar/p/thewatmag-d/main.css?v=1776866056">
+ 
+  
+    </head>
+<body class="js-desktop m-cms prod js-body  ">
+               <script type="didomi/javascript">
+ function sendcomscore() {
+ 
+  var s = document.createElement("script"),
+  el = document.getElementsByTagName("script")[0];
+  s.setAttribute("data-vendor", "iab:77");
+  s.text = 'var cs_ucfr = ""; \
+  if (Didomi.getUserStatusForVendor(77)) { \
+   var cs_ucfr = "1"; \
+  } else if (Didomi.getUserStatusForVendor(77) == false) { \
+   var cs_ucfr = "0"; \
+  } \
+  \
+  var _comscore = _comscore || []; \
+  var configs = { \
+   c1: "2", \
+   c2: "6035191", \
+   cs_ucfr: cs_ucfr \
+  }; \
+  var keyword = keyword || ""; \
+  if (keyword) { \
+   configs.options = { \
+    url_append: "comscorekw=" + keyword \
+   }; \
+  } \
+  _comscore.push(configs); \
+  var s = document.createElement("script"), \
+  el = document.getElementsByTagName("script")[0]; \
+  \
+  s.src = "https://sb.scorecardresearch.com/cs/6035191/beacon.js"; \
+  \
+  window.didomiEventListeners = []; \
+  \
+  el.parentNode.insertBefore(s, el);';
+  el.parentNode.insertBefore(s, el);
+ }
+ 
+ if(Didomi.getUserStatusForVendor(77) == undefined){
+ 
+  window.didomiEventListeners = window.didomiEventListeners || [];
+  window.didomiEventListeners.push({
+   event: 'consent.changed',
+   listener: function(context) {
+ 
+   sendcomscore()
+   }
+  });
+ } else {
+  sendcomscore()
+ }
+</script>
+ 
+<script>
+ dataLayer.push({
+  contentGroup1: "post",
+  contentGroup2: "maria jose",
+  contentGroup3: "recetas-de-panes",
+  contentGroup4: "normal",
+  contentGroup5: "170502",
+ });
+</script>
+ <script>let viewsOnHost = +sessionStorage.getItem("upv") || 0;
+viewsOnHost += 1;
+sessionStorage.setItem("upv", viewsOnHost);
+
+let sessionsOnHost = +localStorage.getItem("sessionsOnHost") || 0;
+if (viewsOnHost === 1) {
+  sessionsOnHost += 1;
+}
+localStorage.setItem("sessionsOnHost", sessionsOnHost);
+</script>
+  <div id="publicidad"></div>
+  <script>
+    function hash(string) {
+      const utf8 = new TextEncoder().encode(string);
+      return crypto.subtle.digest('SHA-256', utf8).then((hashBuffer) => {
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map((bytes) => bytes.toString(16).padStart(2, '0')).join('');
+      });
+    }
+
+    const populateHashedEmail = () => {
+      const loggedin = WSL2.User.isUserLoggedIn();
+      if (loggedin) {
+        const userEmail = WSL2.User.getUserEmail();
+        hash(userEmail).then((hashedEmail) => {
+          jad.config.publisher.hashedId = { sha256email: hashedEmail };
+        });
+      }
+    }
+
+    WSL2.config.enablePerformanceImprovements = "0";
+    window.hasAdblocker = getComputedStyle(document.querySelector('#publicidad')).display === 'none';
+                                                                      WSL2.config.dynamicIU = "/1018282/DirectoAlPaladar/postpage";
+        window.jad = window.jad || {};
+    jad.cmd = jad.cmd || [];
+    let swrap = document.createElement("script");
+    if ('1' === WSL2.config.enablePerformanceImprovements) {
+      swrap.defer = true;
+    }
+    else {
+      swrap.async = true;
+    }
+
+    const jadTargetingData = {"site":"DAP","siteSection":"postpage","vertical":"Foodies","amp":"no","visitor_country":"ES","postId":88712,"postUrl":"https:\/\/www.directoalpaladar.com\/recetas-de-panes\/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix","publishedDate":"2017-05-02","modifiedDate":"2023-05-29T14:44","categories":["recetas-de-panes"],"tags":["pan","horno","pan-casero","espelta","harina-de-centeno"],"videoContent":true,"partner":false,"blockLength":4,"author":"maria jose","postType":"normal","linksToEcommerce":"none","ecomPostExpiration":"everlasting","mainCategory":"recetas-de-panes","postExpiration":null,"wordCount":409};
+          {
+      const postCreationDate = 1493712105
+      const currentDate = new Date();
+      const currentTimestamp = currentDate.getTime();
+      const postTimeStamp = new Date(postCreationDate*1000).getTime();
+      const sixDaysMilliseconds = 6 * 60 * 24 * 60 * 1000;
+      jadTargetingData["recency"] = currentTimestamp - postTimeStamp > sixDaysMilliseconds ? 'old' : 'new';
+      const currentHour = (currentDate.getUTCHours() + 2) % 24;
+      jadTargetingData["hour"] = String(currentHour).length == 1 ? '0' + currentHour : currentHour;
+      }
+        jadTargetingData["upv"] = sessionStorage.getItem("upv") || 1;
+
+    swrap.src = "https://cdn.lib.getjad.io/library/1018282/DirectoAlPaladar";
+    swrap.setAttribute("importance", "high");
+    let g = document.getElementsByTagName("head")[0];
+    const europeanCountriesCode = [
+      'AD', 'AL', 'AT', 'AX', 'BA', 'BE', 'BG', 'BY', 'CH', 'CY', 'CZ', 'DE', 'DK',
+      'EE', 'ES', 'FI', 'FO', 'FR', 'GB', 'GG', 'GI', 'GR', 'HR', 'HU', 'IE', 'IM',
+      'IS', 'IT', 'JE', 'LI', 'LT', 'LU', 'LV', 'MC', 'MD', 'ME', 'MK', 'MT', 'NL',
+      'NO', 'PL', 'PT', 'RO', 'RS', 'RU', 'SE', 'SI', 'SJ', 'SK', 'SM', 'UA', 'VA'
+    ];
+    window.WSL2 = window.WSL2 || {};
+    window.WSL2.isEuropeanVisitor = europeanCountriesCode.includes(window.country);
+    const enableCmpChanges = "1";
+    let cmpObject = {
+      includeCmp: window.WSL2.isEuropeanVisitor ? false : true,
+      name: window.WSL2.isEuropeanVisitor ? 'didomi' : 'none'
+    }
+    if (window.WSL2.isEuropeanVisitor && "1" == enableCmpChanges) {
+      cmpObject = {
+        ...cmpObject,
+        "siteId": "7bd10a97-724f-47b3-8e9f-867f0dea61c8",
+        "noticeId": "PBQC7tHr",
+        "paywall": {
+          "version": 1,
+          "clientId": "AeAcL5krxDiL6T0cdEbtuhszhm0bBH9S0aQeZwvgDyr0roxQA6EJoZBra8LsS0RstogsYj54y_SWXQim",
+          "planId": "P-9AX34065NU288404EMWKYOFI",
+          "tosUrl": "https://weblogs.webedia.es/condiciones-uso.html",
+          "touUrl": "https://weblogs.webedia.es/condiciones-uso.html",
+          "privacyUrl": "https://weblogs.webedia.es/cookies.html" ,
+          "language":  "es"
+        }
+      }
+    }
+    g.parentNode.insertBefore(swrap, g);
+    jad.cmd.push(function() {
+      jad.public.setConfig({
+        page: "/1018282/DirectoAlPaladar/postpage", 
+                  pagePositions: [
+                         'top',
+             'cen1',
+             'cen2',
+             'footer',
+             'oop',
+             'cintillo',
+             '1',
+             'inread1',
+             'large-sticky',
+   
+          ],
+          elementsMapping:                                                                                              
+                                                                         
+ {"top":"div-gpt-top","cen1":"div-gpt-cen","cen2":"div-gpt-cen2","footer":"div-gpt-bot2","oop":"div-gpt-int","cintillo":"div-gpt-int2","1":"div-gpt-lat","inread1":"div-gpt-out","large-sticky":"div-gpt-bot3"}
+,
+          targetingOnPosition: {
+                      "top": {
+     'fold': ['atf']
+    },
+               "cen1": {
+     'fold': ['btf']
+    },
+               "cen2": {
+     'fold': ['btf']
+    },
+               "footer": {
+     'fold': ['btf']
+    },
+               "oop": {
+     'fold': ['mtf']
+    },
+               "cintillo": {
+     'fold': ['mtf']
+    },
+               "1": {
+     'fold': ['atf']
+    },
+               "inread1": {
+     'fold': ['mtf']
+    },
+               "2": {
+     'fold': ['mtf']
+    },
+               "3": {
+     'fold': ['mtf']
+    },
+               "4": {
+     'fold': ['mtf']
+    },
+               "5": {
+     'fold': ['mtf']
+    },
+               "6": {
+     'fold': ['mtf']
+    },
+               "7": {
+     'fold': ['mtf']
+    },
+               "8": {
+     'fold': ['mtf']
+    },
+               "large-sticky": {
+     'fold': ['atf']
+    },
+      
+          },
+                targeting: jadTargetingData,
+        interstitialOnFirstPageEnabled: false,
+        cmp: cmpObject,
+        wemass: {
+          targeting: {
+            page: {
+              type: jadTargetingData.siteSection ?? "",
+              content: {
+                categories: jadTargetingData.categories ?? [""],
+              },
+              article: {
+                id: jadTargetingData.postId ?? "",
+                title: WSL2.config.title ?? "",
+                description: WSL2.config.metaDescription ?? "",
+                topics: jadTargetingData.tags ?? [""],
+                authors: jadTargetingData.author ? jadTargetingData.author.split(',') : [""],
+                modifiedAt: jadTargetingData.modifiedDate ? new Date(jadTargetingData.modifiedDate).toISOString() : "",
+                publishedAt: jadTargetingData.publishedDate ? new Date(jadTargetingData.modifiedDate).toISOString() : "",
+                premium: false,
+                wordCount: jadTargetingData.wordCount ?? null,
+                paragraphCount: jadTargetingData.blockLength ?? "",
+                section: jadTargetingData.mainCategory ?? "",
+                subsection: "",
+              },
+              user: {
+                type: "",
+                age: null,
+                gender: "",
+              },
+            },
+          },
+        },
+      });
+
+      jad.public.loadPositions();
+      jad.public.displayPositions();
+    });
+    if (!window.hasAdblocker) {
+      window.addEventListener('load', () => {
+        populateHashedEmail();
+        WSL2.Events.on('loginSuccess', populateHashedEmail);
+        WSL2.Events.on('onLogOut', () => {
+          jad.config.publisher.hashedId = {};
+        });
+      });
+    }
+  </script>
+ <div class="customize-me">
+  <div class="head-content-favs">
+       <section class="head-container head-container-with-ad head-container-with-primary">
+ <div class="head head-with-ad is-init">
+  <div class="head-favicons-container">
+ <nav class="head-favicons">
+  <div class="head-favicons-index head-webedia-logo">
+   <a id="favicons-toggle" href="https://www.webedia.es/" data-target="#head-favicons"><abbr title="Webedia">Webedia</abbr></a>
+  </div>
+ </nav>
+</div>  <div class="head-brand">
+   <div class="brand">
+    <a href="/" class="brand-logo head-brand-logo"><span>Directo al Paladar</span></a>
+   </div>
+   <ul class="head-nav">
+    <li><a href="#sections" class="head-link head-link-sections m-v1 js-toggle" data-searchbox="#search-field-1">Menú</a></li>
+    <li><a href="#headlines" class="head-link head-link-new m-v1 js-toggle">Nuevo</a></li>
+    <li><a href="#search" class="head-link head-link-search m-v1 js-toggle" data-searchbox="#search-field-2">Buscar</a></li>
+   </ul>
+      
+<nav class="head-nav-social">
+ <ul class="head-nav-social-list">
+            <li><a href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" class="head-link head-link-whatsapp" rel="nofollow">WhatsApp</a></li>
+ 
+ 
+            <li><a href="https://www.tiktok.com/@directopaladar" class="head-link head-link-tiktok" rel="nofollow">Tiktok</a></li>
+ 
+ 
+            <li><a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="head-link head-link-youtube" rel="nofollow">Youtube</a></li>
+ 
+ 
+            <li><a href="https://instagram.com/directopaladar" class="head-link head-link-instagram" rel="nofollow">Instagram</a></li>
+ 
+ 
+          <li><a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="head-link head-link-facebook" rel="nofollow">Facebook</a></li>
+
+ 
+            <li><a href="/recetas-especiales/cada-viernes-tu-correo" class="head-link head-link-email" rel="nofollow">E-mail</a></li>
+ 
+ 
+   </ul>
+</nav>
+  </div>
+  <div class="head-topics-container">
+        <div class="head-primary-container">
+  <nav class="head-primary">
+   <ul>
+               <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/postres">POSTRES</a>
+      </li>
+                    <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/viajes">VIAJES</a>
+      </li>
+                    <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/seleccion">SELECCIÓN</a>
+      </li>
+                    <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/recetas-vegetarianas">VEGUI</a>
+      </li>
+                                       </ul>
+  </nav>
+   </div>
+     </div>
+ </div>
+</section>
+
+     <div class="ad ad-top">
+  <div class="ad-box" id="div-gpt-top">
+  </div>
+   </div>
+    
+      <div class="page-container ">
+           <div class="section-deeplinking-container m-deeplinking-news m-deeplinking-post o-deeplinking-section">
+  <div class="section-deeplinking o-deeplinking-section_wrapper">
+   <div class="section-deeplinking-wrap">
+    <span class="section-deeplinking-header">HOY SE HABLA DE</span>
+    <ul id="js-deeplinking-news-nav-links" class="section-deeplinking-list">
+           <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/consumidores/hace-20-anos-lidl-prometia-que-podias-llenar-carro-compra-30-euros-hoy-no-te-llega-casi-para-bolsa" class="section-deeplinking-anchor">Lidl</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/seleccion/liquidacion-carrefour-para-esta-tele-recien-llegada-qled-40-pulgadas-tizen-200-euros" class="section-deeplinking-anchor">Carrefour</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.trendencias.com/viajes/cadaques-portbou-este-pueblo-costa-brava-camino-bonito-espana-para-caminar-al-mediterraneo" class="section-deeplinking-anchor">Pueblo</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.trendencias.com/gourmet/mejor-plan-150-pesos-ciudad-mexico-fiesta-cerveza-2026-llega-a-jardin-juarez-vaso-incluido" class="section-deeplinking-anchor">Cerveza</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/recetas-de-pasta/pasta-primavera-receta-facil-perfecta-para-aprovechar-verduras-temporada" class="section-deeplinking-anchor">Verduras</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/magnet/artemis-ii-busca-como-regresar-a-luna-hay-quien-se-ha-hecho-millonario-vendiendo-parcelas-lunares" class="section-deeplinking-anchor">Millonario</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/ecologia-y-naturaleza/barcelona-no-bajaron-19degc-noche-abril-eso-importante-que-todas-olas-calor" class="section-deeplinking-anchor">Barcelona</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/recetas-de-aperitivos/mis-empanadillas-todoterreno-tienen-tres-ingredientes-van-al-horno-aperitivo-facil-que-existe" class="section-deeplinking-anchor">Horno</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/otros-dispositivos/esterilizar-movil-lavavajillas-comer-chuletones-que-duran-10-dias-frigo-haier-redefine-electrodomesticos" class="section-deeplinking-anchor">Lavavajillas</a></li>
+           <li class="section-deeplinking-item"><a href="https://www.xataka.com/movilidad/ryanair-se-ha-dejado-a-sus-pasajeros-tierra-dos-veces-semana-culpable-tiene-nombre-apellidos-ees" class="section-deeplinking-anchor">Ryanair</a></li>
+         </ul>
+    <div id="js-deeplinking-news-nav-btn" class="section-deeplinking-btn" style="display:none"></div>
+   </div>
+  </div>
+ </div>
+
+        <div class="content-container">
+     <main>
+      <article class="article article-normal">
+       <header class="post-normal-header">
+                 <div class="post-title-container">
+  <h1 class="post-title">
+     Pan integral de espelta y centeno. Receta con y sin Thermomix   </h1>
+</div>
+                                  <div class="post-asset-main">
+          <div class="article-asset-big article-asset-image js-post-images-container">
+               <div class="asset-content m-fallback" style="width: 1024px;">
+  <picture>
+   <source media="(min-width: 1025px)" srcset="https://i.blogs.es/525d27/pan-de-centeno/1366_2000.jpeg">
+   <source media="(min-width: 651px)" srcset="https://i.blogs.es/525d27/pan-de-centeno/1024_2000.jpeg">
+   <source media="(min-width: 451px)" srcset="https://i.blogs.es/525d27/pan-de-centeno/650_1200.jpeg">
+   <img alt="Pan integral de espelta y centeno. Receta con y sin Thermomix" src="https://i.blogs.es/525d27/pan-de-centeno/450_1000.jpeg" decoding="sync" loading="eager" fetchpriority="high" width="1024" height="821">
+  </picture>
+ </div>
+           </div>
+         </div>
+                <div class="post-comments-shortcut">
+                      <a href="#comments" class="post-comments js-smooth-scroll" id="commentCount"></a>
+           
+           <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" class="btn-facebook js-btn-facebook" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">Facebook</a>
+<a href="https://twitter.com/intent/tweet?url=https://www.directoalpaladar.com/p/88712%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix&via=directopaladar" class="btn-x js-btn-twitter" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">Twitter</a>
+<a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix&url=https%3A%2F%2Fwww.directoalpaladar.com%2Frecetas-de-panes%2Fpan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb" class="btn-flipboard js-flipboard-share-button js-flipboard-share-event" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">Flipboard</a>
+<a href="mailto:?subject=Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix&body=https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE" class="btn-email js-btn-email" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">E-mail</a>
+ <span class="js-whatsapp"></span>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+     const userAgent = navigator.userAgent.toLowerCase();
+     if (userAgent.indexOf('ipod') < 0) {
+       if (userAgent.indexOf('android') >= 0 || userAgent.indexOf('iphone') >= 0) {
+         const length = document.getElementsByClassName('js-whatsapp').length;
+         for (let i = 0; i < length; i++) {
+           document.getElementsByClassName('js-whatsapp')[i].innerHTML = `<a class='btn-whatsapp js-btn-whatsapp' data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix" href="whatsapp://send?text=Pan integral de espelta y centeno. Receta con y sin Thermomix  https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneramobile">Whatsapp</a>`;
+         }
+       }
+     }
+   }, { once:true });
+ </script>
+        </div>
+       </header>
+       <div class="article-content-wrapper">
+        <div class="article-content-inner">
+                    <div class="article-metadata-container">
+ <div class="article-meta-row">
+ <div class="article-time">
+   <time
+   class="article-date"
+   datetime="2023-05-29T14:44:10Z"
+   data-format="D MMMM YYYY"
+   data-post-modified-time="2023-05-29T14:44:10Z"
+   data-post-modified-format="D MMMM YYYY, HH:mm"
+   data-post-reindexed-original-time=""
+  >
+   2023-05-29T14:44:10Z
+  </time>
+  <span id="is-editor"></span>
+</div>
+   </div>
+</div>
+<div class="p-a-cr m-pa-single  js-authors-container">
+ <div class="p-a-wrap js-wrap">
+     <div class="p-a-avtr">
+       <img src="https://i.blogs.es/c687ca/blob/150_150.jpeg" alt="maria-jose" class="author-avatar">
+    </div>
+    <div class="p-a-info">
+           <div class="au-card-relative js-relative">
+      <div class="p-a-chip js-author  p-ab-is-hidden
+" data-id="author-49-creator" role="button" tabindex="0">
+  <p><span>Maria Jose</span></p>
+  <span class="p-a-ui"></span> </div>
+                </div>
+          <span class="p-a-job">Colaborador</span>     </div>
+ </div>
+ </div>
+ <div class="p-a-card-popover">
+         <div class="p-a-card js-author-info  p-ab-is-hidden
+" id="author-49-creator" >
+ <div class="p-a-cwrap">
+  <div class="p-a-avtr">
+         <img src="https://i.blogs.es/c687ca/blob/150_150.jpeg" alt="maria-jose" class="a-c-img">
+       </div>
+  <div class="p-a-pi">
+         <span class="ic-close js-close" role="button" tabindex="0"></span>
+        <p class="p-a-cn">Maria Jose</p>
+   <small class="p-a-cj">Colaborador</small>
+  </div>
+ </div>
+ <div class="p-a-c">
+       <div class="p-a-sp">
+        <a href="https://twitter.com/MJ_ditifet" class="icon-x">twitter</a>       </div>
+    <a class="p-a-pl" href="/autor/maria-jose" >1658 publicaciones de Maria Jose</a>
+ </div>
+</div>
+          </div>
+                      <div class="aggregate-rating-top js-aggregate-rating">
+  <div class="aggregate-rating">
+   <div class="aggregate-rating-list">
+    <form class="m-rating-4">
+     <fieldset>
+      <span class="agr-input-container">
+               <input type="radio" id="top-rating-5" name="rating" value="5">
+        <label for="top-rating-5" title="Vaya recetón">5</label>
+               <input type="radio" id="top-rating-4" name="rating" value="4">
+        <label for="top-rating-4" title="Buena receta">4</label>
+               <input type="radio" id="top-rating-3" name="rating" value="3">
+        <label for="top-rating-3" title="Es correcta">3</label>
+               <input type="radio" id="top-rating-2" name="rating" value="2">
+        <label for="top-rating-2" title="Necesita mejorar">2</label>
+               <input type="radio" id="top-rating-1" name="rating" value="1">
+        <label for="top-rating-1" title="No entiendo nada">1</label>
+             </span>
+     </fieldset>
+    </form>
+    <span class="msg-gracias" style="display: none">¡Gracias!</span>
+    <span class="msg-error" style="display: none"></span>
+   </div>
+   <span class="aggregate-vote-count js-votes">35 votos</span>
+  </div>
+ </div>
+         <div class="article-content">
+           <div class="blob js-post-images-container">
+<p>Me gusta muchísimo preparar <a class="text-outboundlink" href="https://www.directoalpaladar.com/recetas-de-panes/pan-casero-harina-comun-receta-facil-rapida-levado-que-siempre-sale-bien" data-vars-post-title="Pan casero con harina común, la receta más fácil y rápida (sin levado) que siempre sale bien" data-vars-post-url="https://www.directoalpaladar.com/recetas-de-panes/pan-casero-harina-comun-receta-facil-rapida-levado-que-siempre-sale-bien">pan casero</a>, y no porque me apasione amasar sino porque creo que no hay nada como lo hecho en casa, así que siempre estoy buscando nuevas recetas para probar. La última ha sido este <strong>pan integral de espelta y centeno</strong> que os explico para hacer con y sin Thermomix. </p>
+<!-- BREAK 1 --> <div class="ad ad-lat">
+  <div class="ad-box" id="div-gpt-lat">
+  </div>
+   </div>
+
+<p>Con una miga densa y una corteza de lo más crujiente, este es el pan que me gusta para desayunar. Lo que hago es <strong>cortarlo en rebanadas y congelarlo</strong>, así tengo siempre pan fresco listo para consumir. Después, basta con ponerlo en la tostadora, y así no se pierde ni una miga porque no se pone duro.</p>
+<!-- BREAK 2 --><!--more-->
+<div class="article-asset-video article-asset-normal">
+ <div class="asset-content">
+  <div class="base-asset-video">
+   <div class="js-dailymotion">
+    <script type="application/json">
+                          {"videoId":"x8136lu","autoplay":true,"title":"Cómo hacer PAN CASERO rápido, fácil y sencillo", "tag":"pan"}
+                  </script>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!-- recipe start -->
+ <div class="article-asset-recipe article-asset-normal article-asset-center">
+  <div class="asset-recipe">
+   <div class="asset-recipe-meta">
+    <h2 class="asset-recipe-section-title"> Ingredientes </h2>
+    <div class="asset-recipe-yield">
+     Para 8 personas</div>
+    <ul class="asset-recipe-list">
+                  <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Agua </span></span>
+        <span class="asset-recipe-ingr-amount">300 <abbr
+          title="mililitros">ml</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Harina de espelta integral </span></span>
+        <span class="asset-recipe-ingr-amount">500 <abbr
+          title="gramos">g</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Harina de centeno integral </span></span>
+        <span class="asset-recipe-ingr-amount">100 <abbr
+          title="gramos">g</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr">
+        <span class="asset-recipe-ingr-name"><span>Levadura prensada fresca</span></span>
+        <span class="asset-recipe-ingr-amount">20 <abbr
+          title="gramos">g</abbr></span>
+       </li>
+                        <li class="asset-recipe-list-item m-is-ingr m-no-amount">
+        <span class="asset-recipe-ingr-name"><span>Sal 1 cucharadita</span></span>
+       </li>
+               </ul>
+    <h2 class="asset-recipe-section-title">Cómo hacer pan integral de espelta y centeno</h2>
+    <div class="asset-recipe-difficulty">Dificultad: Fácil</div>
+    <ul class="asset-recipe-list">
+     <li class="asset-recipe-list-item m-is-totaltime">
+      <span class="asset-recipe-time-name"><span>Tiempo total</span></span>
+      <span class="asset-recipe-time-value">50 <abbr title="minutos">m</abbr></span>
+     </li>
+           <li class="asset-recipe-list-item m-is-preptime">
+       <span class="asset-recipe-time-name"><span>Elaboración</span></span>
+       <span class="asset-recipe-time-value">20 <abbr title="minutos">m</abbr></span>
+      </li>
+                <li class="asset-recipe-list-item m-is-cooktime">
+       <span class="asset-recipe-time-name"><span>Cocción</span></span>
+       <span class="asset-recipe-time-value">30 <abbr title="minutos">m</abbr></span>
+      </li>
+                <li class="asset-recipe-list-item m-is-preptime">
+       <span class="asset-recipe-time-name"><span>Reposo</span></span>
+       <span class="asset-recipe-time-value">1 <abbr title="hora">h </abbr>30 <abbr title="minutos">m</abbr></span>
+      </li>
+         </ul>
+   </div>
+   <div class="asset-recipe-steps"><p><strong>Para hacer esta receta con Thermomix,</strong> ponemos agua en el vaso y la cantamos 2 min/37ºC/vel 1. Añadimos las harinas integrales, la levadura y la sal y mezclamos 20 seg/vel 6. Retiramos el cubilete y amasamos 3 min/vel espiga.</p>
+
+<p><strong>Si hacemos esta receta sin Thermomix,</strong> calentamos el agua y deshacemos en ella la levadura. Ponemos las harinas en un bol grande con la sal, hacemos un hueco en el centro y volcamos ahí el agua con la levadura. Amasamos hasta que obtenemos una masa lisa que se despega de las paredes.</p>
+
+<p><strong>En ambas preparaciones</strong>, formamos una bola con la masa. La dejamos reposar en un bol grande tapado con papel film transparente y en un lugar cálido, hasta que doble su volumen (aproximadamente 1 hora).</p>
+
+<p>Amasamos ligeramente la masa y <strong>le damos forma de hogaza.</strong> La colocamos en la bandeja del horno forrada con papel de hornear. Le hacemos unos cortes con un cuchillo afilado y espolvoreamos con un poco de harina integral de centeno. Dejamos reposar hasta que vuelva a doblar de tamaño, unos 30 minutos.</p>
+
+<p>Ponemos una bandeja con agua en la base del horno, para crear humedad, y precalentamos el horno a 220º. <strong>Horneamos durante diez minutos.</strong> Después, bajamos la temperatura a 200º y horneamos 20 o 25 minutos más. Dejamos enfriar sobre una rejilla antes de cortar a rebanadas y servir. </p>
+<div class="article-asset-image article-asset-normal article-asset-center">
+ <div class="asset-content">
+                   <img class="centro_sinmarco" height=683 width=1024 loading="lazy" decoding="async" sizes="100vw" fetchpriority="high" srcset="https://i.blogs.es/0ad6ee/paso-a-paso/450_1000.jpg 450w, https://i.blogs.es/0ad6ee/paso-a-paso/650_1200.jpg 681w,https://i.blogs.es/0ad6ee/paso-a-paso/1024_2000.jpg 1024w, https://i.blogs.es/0ad6ee/paso-a-paso/1366_2000.jpg 1366w" src="https://i.blogs.es/0ad6ee/paso-a-paso/450_1000.jpg" alt="Paso A Paso">
+   <noscript><img alt="Paso A Paso" class="centro_sinmarco" src="https://i.blogs.es/0ad6ee/paso-a-paso/450_1000.jpg"></noscript>
+   
+      </div>
+</div>
+</div>
+  </div>
+ </div>
+<!-- recipe end -->    <div class="aggregate-rating-bottom js-aggregate-rating">
+  <div class="aggregate-rating m-aggregate-rating-bottom">
+   <div class="aggregate-rating-list">
+    <form class="m-rating-4">
+     <fieldset>
+      <span class="agr-input-container">
+               <input type="radio" id="bottom-rating-5" name="rating" value="5">
+        <label for="bottom-rating-5" title="Vaya recetón">5</label>
+               <input type="radio" id="bottom-rating-4" name="rating" value="4">
+        <label for="bottom-rating-4" title="Buena receta">4</label>
+               <input type="radio" id="bottom-rating-3" name="rating" value="3">
+        <label for="bottom-rating-3" title="Es correcta">3</label>
+               <input type="radio" id="bottom-rating-2" name="rating" value="2">
+        <label for="bottom-rating-2" title="Necesita mejorar">2</label>
+               <input type="radio" id="bottom-rating-1" name="rating" value="1">
+        <label for="bottom-rating-1" title="No entiendo nada">1</label>
+             </span>
+     </fieldset>
+    </form>
+    <span class="msg-gracias" style="display: none">¡Gracias!</span>
+    <span class="msg-error" style="display: none"></span>
+   </div>
+   <span class="aggregate-vote-count js-votes">35 votos</span>
+  </div>
+ </div>
+<script type="application/ld+json"></script><h2>Con qué acompañar el pan integral de espelta y centeno</h2>
+
+<p>Esta <strong>pan integral de espelta y centeno</strong> está delicioso untado con mantequilla y mermelada, pero también con queso o cualquier embutido, como jamón ibérico o jamón de York. Si os animáis a amasarlo ya me contaréis, si tenéis Thermomix no perdáis la oportunidad de probarlo, más fácil imposible.</p>
+<!-- BREAK 3 -->  <div class="ad ad-out">
+  <div class="ad-box" id="div-gpt-out">
+  </div>
+   </div>
+
+<p>En DAP | <a class="text-outboundlink" href="https://www.directoalpaladar.com/recetas-de-panes/pan-de-maiz-y-finas-hierbas-receta-para-el-dia-mundial-del-pan" data-vars-post-title="Pan de maíz y finas hierbas: receta muy fácil para iniciarse en la panadería casera" data-vars-post-url="https://www.directoalpaladar.com/recetas-de-panes/pan-de-maiz-y-finas-hierbas-receta-para-el-dia-mundial-del-pan">Pan de maíz</a><br />
+En DAP | <a class="text-outboundlink" href="https://www.directoalpaladar.com/recetas-de-panes/receta-sencilla-pan-integral-facil-que-vas-a-encontrar" data-vars-post-title="Receta sencilla de pan integral, la más fácil que vas a encontrar" data-vars-post-url="https://www.directoalpaladar.com/recetas-de-panes/receta-sencilla-pan-integral-facil-que-vas-a-encontrar">Pan integral</a></p>
+<script>
+ (function() {
+  window._JS_MODULES = window._JS_MODULES || {};
+  var headElement = document.getElementsByTagName('head')[0];
+  if (_JS_MODULES.instagram) {
+   var instagramScript = document.createElement('script');
+   instagramScript.src = 'https://platform.instagram.com/en_US/embeds.js';
+   instagramScript.async = true;
+   instagramScript.defer = true;
+   headElement.appendChild(instagramScript);
+  }
+ })();
+</script>
+ 
+ </div>
+         </div>
+        </div>
+       </div>
+      </article>
+      <div class="section-post-closure">
+ <div class="section-content">
+  <div class="social-share-group">
+     <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" class="btn-facebook js-btn-facebook" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">Facebook</a>
+<a href="https://twitter.com/intent/tweet?url=https://www.directoalpaladar.com/p/88712%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix&via=directopaladar" class="btn-x js-btn-twitter" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">Twitter</a>
+<a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix&url=https%3A%2F%2Fwww.directoalpaladar.com%2Frecetas-de-panes%2Fpan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb" class="btn-flipboard js-flipboard-share-button js-flipboard-share-event" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">Flipboard</a>
+<a href="mailto:?subject=Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix&body=https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE" class="btn-email js-btn-email" data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix">E-mail</a>
+ <span class="js-whatsapp"></span>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+     const userAgent = navigator.userAgent.toLowerCase();
+     if (userAgent.indexOf('ipod') < 0) {
+       if (userAgent.indexOf('android') >= 0 || userAgent.indexOf('iphone') >= 0) {
+         const length = document.getElementsByClassName('js-whatsapp').length;
+         for (let i = 0; i < length; i++) {
+           document.getElementsByClassName('js-whatsapp')[i].innerHTML = `<a class='btn-whatsapp js-btn-whatsapp' data-postname="pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix" href="whatsapp://send?text=Pan integral de espelta y centeno. Receta con y sin Thermomix  https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneramobile">Whatsapp</a>`;
+         }
+       }
+     }
+   }, { once:true });
+ </script>
+  </div>
+     <div class="post-tags-container">
+ <span class="post-link-title">Temas</span>
+   <ul class="post-link-list" id="js-post-link-list-container">
+       <li class="post-category-name">
+           <a href="/categoria/recetas-de-panes">Recetas de Panes</a>
+         </li>
+               <li class="post-link-item"><a href="/tag/pan">Pan</a></li>
+                <li class="post-link-item"><a href="/tag/horno">Horno</a></li>
+                <li class="post-link-item"><a href="/tag/pan-casero">pan casero</a></li>
+                <li class="post-link-item"><a href="/tag/espelta">espelta</a></li>
+                <li class="post-link-item"><a href="/tag/harina-de-centeno">Harina de centeno</a></li>
+         </ul>
+  <span class="btn-expand" id="js-btn-post-tags"></span>
+</div>
+   </div>
+</div>
+  <div class ="limit-container">
+      <div class="ad ad-ow">
+  <div data-openweb-ad data-row="1" data-column="1"></div> 
+ </div>
+    <div class="OUTBRAIN" data-src="https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix" data-widget-id="AR_1"></div> 
+ </div>
+ <script type="didomi/javascript" async="async" src="//widgets.outbrain.com/outbrain.js" data-vendor="iab:164"></script>
+                         <script>
+ window.WSLModules || (window.WSLModules = {});
+ WSLModules.Comments || (WSLModules.Comments = { moduleConf: "c1" });
+</script>
+<a id="to-comments"></a>
+<div id="comments">
+ <div class="comment-section">
+     <div id="main-container" class="comment-section">
+  <div id="common-container">
+   <div class="comment-wrapper initial-comments" style="display:none">
+    <div class="comments-list">
+     <p>Los mejores comentarios:</p>
+     <ul id="initial-comments"></ul>
+    </div>
+   </div>
+      <div id="comment-wrapper" class="comment-wrapper comment-wrapper-aside">
+         <div data-spotim-module="default" data-post-url="https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix" data-spot-id="sp_elHFZQu4" data-post-id="88712"></div>
+       </div>
+  </div>
+ </div>
+<script>
+  window.AML || (window.AML = {});
+  AML.Comments || (AML.Comments = {});
+  AML.Comments.config || (AML.Comments.config = {});
+  AML.Comments.config.data = {"comments":[{"id":118773,"post_id":88712,"date":1530010924,"content_filtered":"<p>Hola M\u00aa Jose, muchas gracias por tus recetas, claras e interesantes.<br \/>\nTengo dudas con el horno, la bandeja con agua la introduces desde el primer momento (en fr\u00edo) y la dejas hasta el final?? y el horno lo pones con calor s\u00f3lo por abajo??<br \/>\nGracias<\/p>","content":"Hola M\u00aa Jose, muchas gracias por tus recetas, claras e interesantes.\nTengo dudas con el horno, la bandeja con agua la introduces desde el primer momento (en fr\u00edo) y la dejas hasta el final?? y el horno lo pones con calor s\u00f3lo por abajo??\nGracias","karma":8,"parent":0,"comment_edited_date":"","vote_count":0,"comment_level":3,"comment_deleted_date":"","tree_level":0,"comment_approved":"1","comment_author":"","user_id":42250,"author":"","webpage":"","user_name":"txakoli","karma_level":22,"iseditor":0,"global_id":687882,"facebook_uid":null,"user_status":"active","xtra_subscribed":0,"subscription_status":"","subscribed_plan_id":"","index":1,"avatar_type":"gravatar","avatar_link":"\/\/www.gravatar.com\/avatar\/4931d873afd926d8f6e7d3efe5055793"}],"meta":{"more_records":"false","start":0,"total":1,"order":"valued","totalCount":1,"commentStatus":"closed"}};
+  AML.Comments.config.postId = 88712;
+  AML.Comments.config.enableSocialShare = "0";
+  AML.Comments.config.status = "open";
+  AML.Comments.config.campaignDate = "23_Apr_2026";
+</script>
+
+ </div>
+</div>
+             <div class="ad ad-cen2">
+  <div class="ad-box" id="div-gpt-cen2">
+  </div>
+   </div>
+       <div class="ad ad-bot">
+  <div class="ad-box" id="div-gpt-bot2">
+  </div>
+   </div>
+              <div class="ad ad-center">
+  <div class="ad-box" id="div-gpt-bot3">
+  </div>
+     <button class="btn-bot-close"></button>
+   </div>
+                    <div class="section-deeplinking-container m-evergreen-links">
+  <div class="section-deeplinking">
+   <div class="section-deeplinking-wrap">
+    <span class="section-deeplinking-header">Temas de interés</span>
+    <ul class="section-deeplinking-list" id="js-evergreen-nav-links">
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-ensaladas/las-recetas-de-nuestras-madres-ensaladilla-rusa-ligera" class="section-deeplinking-anchor">
+        Ensaladilla rusa
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional" class="section-deeplinking-anchor">
+        Gazpacho
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-salmorejo-cordobes-tradicional" class="section-deeplinking-anchor">
+        Salmorejo
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-ensaladas/ensalada-campera-receta-facil-imprescindible-para-verano" class="section-deeplinking-anchor">
+        Ensalada campera
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-aperitivos/croquetas-jamon-receta-toda-vida-que-no-sabe-modas-siempre-triunfa" class="section-deeplinking-anchor">
+        Croquetas de jamón
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/postres/bizcocho-yogur-clasico-basico-para-iniciarse-reposteria" class="section-deeplinking-anchor">
+        Bizcocho de yogur
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/curso-de-cocina/salsa-bechamel-receta-definitiva-siempre-te-quede-perfecta" class="section-deeplinking-anchor">
+        Salsa bechamel
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetario/101-recetas-sanas-para-para-tener-menu-saludable-lunes-a-domingo" class="section-deeplinking-anchor">
+        Recetas saludables
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetario/seis-mejores-recetas-para-freidora-aire-directo-al-paladar-aceite-bien-crujientes" class="section-deeplinking-anchor">
+        Recetas airfryer
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetario/54-cenas-saludables-que-tener-siempre-mente-para-mejorar-nuestra-dieta" class="section-deeplinking-anchor">
+        Cenas saludables
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/postres/como-hacer-bizcocho-facil-solo-tres-ingredientes-que-seguro-tenemos-casa" class="section-deeplinking-anchor">
+        Bizcocho casero
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-pollo-al-horno-karlos-arguinano-al-estilo-asador-navarro" class="section-deeplinking-anchor">
+        Pollo al horno
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/como-elaborar-hummus-receta" class="section-deeplinking-anchor">
+        Hummus casero
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/empezando-en-la-cocina-receta-de-tortilla-de-patatas-con-cebolla" class="section-deeplinking-anchor">
+        Tortilla de patatas
+       </a>
+      </li>
+           <li class="section-deeplinking-item">
+       <a href="https://www.directoalpaladar.com/recetas-de-pescados-y-mariscos/empedrat-receta-ensalada-bacalao-judias-para-disfrutar-verano" class="section-deeplinking-anchor">
+        Empedrat
+       </a>
+      </li>
+         </ul>
+    <div class="section-deeplinking-btn" id="js-evergreen-nav-btn"></div>
+   </div>
+  </div>
+ </div>
+
+     </main>
+     <script>
+  window.WSLModules = window.WSLModules || {};
+  WSLModules.Footer = { moduleConf: 'c1' };
+</script>
+ <script>
+  function removeBaseAssetClass(divId) {
+    const videoElement = document.getElementById(divId);
+    const videoParent = videoElement.parentElement.parentElement;
+    videoParent.classList.remove('base-asset-video');
+  }
+
+  function initDailymotionPlayer(divId, videoId, videoFooter, inhouse, adResponseString) {
+    dailymotion.getPlayer(divId).then((player) => {
+      const baseParams = '%26videofooter%3D' + videoFooter + '%26inhouse%3D' + inhouse + '&vpos';
+      let finalParams;
+
+      if (adResponseString) {
+        let parts = adResponseString.split("/")[1];
+        if (typeof parts === 'string') {
+          parts = parts.split('&vpos');
+        } else {
+          parts = [];
+        }
+        finalParams = parts.join(baseParams);
+      } else {
+        finalParams = baseParams;
+      }
+
+      finalParams = decodeURIComponent(finalParams);
+
+      const config = { plcmt: "2" };
+      if ('1' === WSL2.config.enableDynamicIU) {
+        config.dynamiciu = WSL2.config.dynamicIU;
+        config.keyvalues = finalParams;
+      } else {
+        config.customParams = finalParams;
+      }
+      player.setCustomConfig(config);
+      player.loadContent({ video: videoId });
+    })
+    .then(() => {
+      removeBaseAssetClass(divId);
+    });
+  }
+
+  function runDailyMotion () {
+    const AUTOPLAY_LIMIT = WSL2.config.dailymotionAutoplayLimit;
+    let isPostsubtypeUseLimit = true;
+    let autoplayLimit = Infinity;
+    if (AUTOPLAY_LIMIT) {
+      isPostsubtypeUseLimit = 0 > ['landing'].indexOf(WSL2.config.postSubType);
+      autoplayLimit = isPostsubtypeUseLimit ? AUTOPLAY_LIMIT : autoplayLimit;
+    }
+
+    const isPostPage = Boolean(WSL2.config.postId);
+    const isDesktop = document.body.classList.contains('js-desktop');
+
+    const getTargetingKeyValues = (videoContainer) => {
+      let scriptTagInVideo = '';
+      Array.from(videoContainer.children).forEach((child) => {
+        if ('SCRIPT' === child.tagName) {
+          scriptTagInVideo = child;
+        }
+      });
+
+      const autoplayVideos = [];
+      const data = JSON.parse(scriptTagInVideo.text);
+      let inhouse = 'webedia-prod' === data.tag;
+      const videoData = data;
+      const isAutoplayable = isPostPage && autoplayVideos.length <= autoplayLimit ? Boolean(data.autoplay) : false;
+      let autoplayValue = isAutoplayable ? 'on' : 'off';
+      let isAutoplayTargetingTrue = data.autoplay;
+      let videoFooter = false;
+      if ('videoFooter' === data.type) {
+        autoplayValue = 'on';
+        isAutoplayTargetingTrue = true;
+        videoFooter = true;
+      }
+      
+      if (autoplayValue) {
+        autoplayVideos.push(videoContainer);
+      }
+      videoData.autoplayValue = autoplayValue;
+
+      let positionName = '';
+      if (isAutoplayTargetingTrue) {
+        positionName = isDesktop ? 'preroll_sticky_autoplay' : 'preroll_notsticky_autoplay';
+      } else {
+        positionName = isDesktop ? 'preroll_sticky_starttoplay' : 'preroll_notsticky_starttoplay';
+      }
+
+      return { positionName, videoData, inhouse, videoFooter };
+    };
+
+    const initDailymotionV3 = () => {
+      document.querySelectorAll('div.js-dailymotion').forEach((videoContainer, index) => {
+        const { positionName, videoData, inhouse, videoFooter } = getTargetingKeyValues(videoContainer); 
+        let updatedPlayerId = playerId;
+        if ('off' === videoData.autoplayValue) {
+          updatedPlayerId = WSL2.config.dailymotionPlayerIds.autoplayOff;
+        }
+        const divId = `${updatedPlayerId}-${index}`;
+        const element = document.createElement('div');
+        element.setAttribute('id', divId);
+        videoContainer.appendChild(element);
+
+        dailymotion.createPlayer(divId, {
+          referrerPolicy: 'no-referrer-when-downgrade',
+          player: updatedPlayerId,
+          params: {
+            mute: true,
+          },
+        }).then((player) => {
+          WSL2.handlePlayer(player, videoData, updatedPlayerId);
+
+          if (window.hasAdblocker || false) {
+            player.loadContent({ video: videoData.videoId });
+            removeBaseAssetClass(divId);
+          } else {
+            jad.cmd.push(() => {
+              const positionKey = `${positionName}/${divId}`;
+
+              jad.public.setTargetingOnPosition(positionKey, { related: ['yes'] });
+
+              jad.public.getDailymotionAdsParamsForScript(
+                [`${positionName}/${divId}`],
+                (res) => {
+                  initDailymotionPlayer(divId, videoData.videoId, videoFooter, inhouse, res[positionKey]);
+                }
+              );
+            });
+          }
+        });
+      });
+    };
+
+    const playerId =  WSL2.config.dailymotionPlayerIds[WSL2.config.device];
+    const newScript = document.createElement('script');
+
+    newScript.src = `https://geo.dailymotion.com/libs/player/${playerId}.js`;
+    if (window.dailymotion === undefined) {
+      window.dailymotion = { onScriptLoaded: initDailymotionV3 };
+    } else {
+      initDailymotionV3();
+    }
+
+    document.body.appendChild(newScript);
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    runDailyMotion();
+  });
+</script>
+ <footer class="foot js-foot">
+ <div class="wrapper foot-wrapper foot-wrapper-show">
+  <div id="newsletter" class="newsletter-box">
+  </div>
+  <div class="menu-follow foot-menu-follow">
+   <span class="item-meta foot-item-meta">Síguenos</span>
+   <ul>
+ <li>
+  <a class="icon-whatsapp link-whatsapp" href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" rel="nofollow">WhatsApp</a>
+ </li>
+ <li>
+  <a href="https://twitter.com/directopaladar" class="icon-x link-x" rel="nofollow">Twitter</a>
+ </li>
+ <li>
+  <a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="icon-facebook link-facebook" rel="nofollow">Facebook</a>
+ </li>
+   <li>
+   <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="icon-youtube link-youtube" rel="nofollow">Youtube</a>
+  </li>
+     <li>
+   <a class="icon-instagram link-instagram" href="https://instagram.com/directopaladar" rel="nofollow">Instagram</a>
+  </li>
+     <li>
+   <a class="icon-pinterest link-pinterest" href="https://es.pinterest.com/directopaladar" rel="nofollow">Pinterest</a>
+  </li>
+     <li>
+   <a href="https://flipboard.com/@directopaladar" class="icon-flipboard link-flipboard" rel="nofollow">Flipboard</a>
+  </li>
+      <li>
+   <a class="icon-tiktok link-tiktok" href="https://www.tiktok.com/@directopaladar" rel="nofollow">Tiktok</a>
+  </li>
+  <li>
+  <a class="icon-email link-email" href="/recetas-especiales/cada-viernes-tu-correo" rel="nofollow">E-mail</a>
+ </li>
+</ul>
+  </div>
+    <nav class="menu-categories foot-menu-categories">
+   <p class="nav-heading">En Directo al Paladar hablamos de...</p>
+   <ul>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-con-thermomix">Recetas con Thermomix</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/postres">Postres</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-vegetarianas">Vegui</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/viajes">Viajes</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-de-aperitivos">Recetas de Aperitivos</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/cultura-gastronomica">Cultura gastronómica</a>
+  </li>
+    <li>
+   <a class="list-item foot-list-item" href="/tag/pollo">Pollo</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/recetas-saludables">Recetas Saludables</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/restaurantes">Restaurantes</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/horno">Horno</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/huevos">Huevos</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/postres-faciles-y-rapidos">Postres fáciles y rápidos</a>
+  </li>
+ </ul>
+  </nav>
+  <p class="view-even-more"><a href="/archivos" class="btn">Ver más temas</a></p>
+      <div class="search-box foot-search">
+  <div id="google-cse-3" class="google-search"></div>
+ </div>
+   <div id="search-container-3" class="js-search-results foot-search-results"></div>
+   </div>
+</footer>
+ <script>
+  (function() {
+   var form = document.createElement('form');
+   form.method = 'POST';
+   form.classList.add('js-subscription', 'newsletter-form', 'foot-newsletter-form');
+   form.setAttribute('data-url', "https://www.directoalpaladar.com/modules/subscription/form");
+   form.innerHTML = '<p class="nav-heading">RECIBE &quot;Al fondo hay sitio&quot;, NUESTRA NEWSLETTER SEMANAL </p>\
+    <p><input class="js-email newsletter-input" type="email" placeholder="Tu correo electrónico" required>\
+    <button class="btn-primary newsletter-button js-subscribe-btn" type="submit">Suscribir</button></p>\
+    <small class="newsletter-legal-disclaimer js-disclaimer">Suscribiéndote aceptas nuestra <a href="https://weblogs.webedia.es/aviso-legal.html">política de privacidad</a></small>\
+    <div class="alert-success js-subscribe-success" style="display: none;"></div>\
+    <div class="alert-error js-subscribe-error" style="display: none;">Error: el correo electrónico no tiene el formato correcto</div>';
+   var newsletterContainer = document.getElementById('newsletter');
+   newsletterContainer.insertBefore(form, newsletterContainer.firstChild);
+  })();
+ </script>
+<div class="foot-external js-foot-external ">
+ <div class="wrapper foot-wrapper">
+  <header class="foot-head">
+   <a class="backlink foot-backlink" href="#">Subir</a>
+   <p class="webedia-brand foot-webedia-brand">
+ <a href="https://www.webedia.es/" class="webedia-logo foot-webedia-logo"><span>Webedia</span></a>
+</p>
+  </header>
+    <div class="menu-external foot-menu-external">
+   <div class="spain-blogs">
+          <div class="links-category">
+             <p class="channel-title"> Tecnología </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Móvil
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Applesfera
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Smart Home
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Mundo Xiaomi
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Videojuegos </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Vida Extra
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Entretenimiento </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Espinof
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Gastronomía </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Directo al Paladar
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Motor </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión Moto
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Estilo de vida </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Trendencias
+         </a></li>
+            <li><a class="list-item foot-list-item"  rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Decoesfera
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Compradiccion
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Economía </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           El Blog Salmón
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Pymes y Autónomos
+         </a></li>
+      </ul>
+
+   
+  </div>
+ 
+   </div>
+       <div class="latam-blogs">
+     <p class="channel-title">
+      Ediciones Internacionales
+     </p>
+           <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.xataka.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka México
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xataka.com.br?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Brasil
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.3djuegos.lat#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos LATAM
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="https://www.sensacine.com.mx#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine México
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="https://www.sensacine.com.co#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine Colombia
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.directoalpaladar.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Directo al Paladar México
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.motorpasion.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión México
+         </a></li>
+      </ul>
+
+   
+  </div>
+ 
+    </div>
+             <div class="foot-cookie-link">
+     <a href="javascript:Didomi.preferences.show()" class="list-item">Preferencias de Privacidad</a>
+           <a href="https://weblogs.webedia.es/aviso-legal.html" class="list-item">Política de privacidad</a>
+         </div>
+     </div>
+ </div>
+</div>
+ <aside id="head-favicons" class="head-favicons-container m-is-later js-head-favicons m-favicons-compact">
+ <div class="head-favicons">
+  <div class="head-favicons-index head-webedia-logo">
+   <a class="js-group-toggle" href="#" data-target="#head-network"><abbr title="Webedia">Webedia</abbr></a>
+  </div>
+  <ul class="head-favicons-list">
+                                 <li>
+      <a class="favicon tec-xataka
+       " rel="nofollow" href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-sensacine
+       "  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Sensacine</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tech-3djuegos
+       "  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>3DJuegos</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-directoalpaladar
+              favicon-current
+       "  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Directo al Paladar</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon mot-motorpasion
+       "  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Motorpasión</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-trendencias
+       "  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Trendencias</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-espinof
+       "  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Espinof</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-compradiccion
+       "  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Compradiccion</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakamovil
+       "  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Móvil</span>
+      </a>
+     </li>
+                                     <li>
+      <a class="favicon est-decoesfera
+       " rel="nofollow" href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Decoesfera</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon mot-motorpasionmoto
+       "  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Motorpasión Moto</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-applesfera
+       "  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Applesfera</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-vidaextra
+       "  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Vida Extra</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakahome
+       "  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Smart Home</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-mundoxiaomi
+       "  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Mundo Xiaomi</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon eco-elblogsalmon
+       "  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>El Blog Salmón</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon eco-pymesyautonomos
+       "  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Pymes y Autónomos</span>
+      </a>
+     </li>
+         </ul>
+ </div>
+</aside>
+<aside class="favicons-expanded-container js-favicons-expand" id="head-network">
+ <div class="favicons-expanded">
+           <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Tecnología</div></li>
+         <li>
+     <a class="favicon tec-xataka"  rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakamovil"  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Móvil
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-applesfera"  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Applesfera
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakahome"  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Smart Home
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-mundoxiaomi"  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Mundo Xiaomi
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Videojuegos</div></li>
+         <li>
+     <a class="favicon tech-3djuegos"  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>3DJuegos
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-vidaextra"  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Vida Extra
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Entretenimiento</div></li>
+         <li>
+     <a class="favicon oci-sensacine"  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Sensacine
+     </a>
+    </li>
+            <li>
+     <a class="favicon oci-espinof"  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Espinof
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Gastronomía</div></li>
+         <li>
+     <a class="favicon est-directoalpaladar"  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Directo al Paladar
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Motor</div></li>
+         <li>
+     <a class="favicon mot-motorpasion"  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Motorpasión
+     </a>
+    </li>
+            <li>
+     <a class="favicon mot-motorpasionmoto"  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Motorpasión Moto
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Estilo de vida</div></li>
+         <li>
+     <a class="favicon est-trendencias"  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Trendencias
+     </a>
+    </li>
+            <li>
+     <a class="favicon est-decoesfera"  rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Decoesfera
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-compradiccion"  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Compradiccion
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><div class="fei-heading">Economía</div></li>
+         <li>
+     <a class="favicon eco-elblogsalmon"  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>El Blog Salmón
+     </a>
+    </li>
+            <li>
+     <a class="favicon eco-pymesyautonomos"  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Pymes y Autónomos
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+ 
+ </div>
+</aside>
+
+ <div id="fb-root"></div>
+   <section id="sections" class="head-menu-container head-menu-sections">
+ <a href="#sections" class="head-menu-toggler js-toggle"></a>
+ <div class="head-menu">
+  <a href="#sections" class="close close-corner js-toggle js-menu-close">Inicio</a>
+  <div id="opt-in"></div>
+  <div id="sections-login-wrapper" class="sections-login">
+   <div id="js-login" class="user-card"></div>
+  </div>
+       <div class="hd-menu-srch-cr">
+    <div id="google-cse" class="google-search"></div>
+   </div>
+   <script async src="https://cse.google.com/cse.js?cx=d2deccec2c2de4b7f"></script>
+<script>
+   function onSearchButtonLoaded () {
+      const searchButtons = document.querySelectorAll('.gsc-search-button-v2');
+      searchButtons.forEach(function (searchButton) {
+         if (searchButton) {
+            searchButton.innerHTML = 'Buscar';
+         }
+      });
+   }
+
+   function onGoogleCSELoad () {
+      google.search.cse.element.render({
+        div: "google-cse",
+        tag: 'search'
+      });
+
+      google.search.cse.element.render({
+        div: "google-cse-2",
+        tag: 'search'
+      });
+
+      google.search.cse.element.render({
+        div: "google-cse-3",
+        tag: 'search'
+      });
+      onSearchButtonLoaded();
+   }
+
+   window.__gcse = {
+      parsetags: 'explicit',
+      initializationCallback: onGoogleCSELoad
+   };
+</script>        <nav class="head-menu-categories">
+    <ul>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-con-thermomix">Recetas con Thermomix</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/postres">Postres</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-vegetarianas">Vegui</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/viajes">Viajes</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-de-aperitivos">Recetas de Aperitivos</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/cultura-gastronomica">Cultura gastronómica</a>
+      </li>
+                <li>
+       <a class="head-list-item js-track-header-event" href="/tag/pollo">Pollo</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/recetas-saludables">Recetas Saludables</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/restaurantes">Restaurantes</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/horno">Horno</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/huevos">Huevos</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/postres-faciles-y-rapidos">Postres fáciles y rápidos</a>
+      </li>
+         </ul>
+    <p class="head-more-item">
+     <a href="/archivos" class="btn js-track-header-event">Ver más temas</a>
+    </p>
+  </nav>
+  <aside class="head-menu-follow">
+   <span class="head-item-meta">Síguenos</span>
+    <ul>
+ <li>
+  <a class="icon-whatsapp link-whatsapp" href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" rel="nofollow">WhatsApp</a>
+ </li>
+ <li>
+  <a href="https://twitter.com/directopaladar" class="icon-x link-x" rel="nofollow">Twitter</a>
+ </li>
+ <li>
+  <a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="icon-facebook link-facebook" rel="nofollow">Facebook</a>
+ </li>
+   <li>
+   <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="icon-youtube link-youtube" rel="nofollow">Youtube</a>
+  </li>
+     <li>
+   <a class="icon-instagram link-instagram" href="https://instagram.com/directopaladar" rel="nofollow">Instagram</a>
+  </li>
+     <li>
+   <a class="icon-pinterest link-pinterest" href="https://es.pinterest.com/directopaladar" rel="nofollow">Pinterest</a>
+  </li>
+     <li>
+   <a href="https://flipboard.com/@directopaladar" class="icon-flipboard link-flipboard" rel="nofollow">Flipboard</a>
+  </li>
+      <li>
+   <a class="icon-tiktok link-tiktok" href="https://www.tiktok.com/@directopaladar" rel="nofollow">Tiktok</a>
+  </li>
+  <li id="sections-newsletter">
+  <a href="#head-menu-newsletter" class="icon-email link-email js-toggle-subscribe">E-mail</a>
+ </li>
+</ul>
+  </aside>
+  <section id="head-menu-newsletter" class="head-menu-newsletter">
+   <a href="#head-menu-newsletter" class="close close-corner js-close-corner"></a>
+   <form class="newsletter-form head-newsletter-form js-subscription" method="post" data-url="https://www.directoalpaladar.com/modules/subscription/form" data-id="#head-menu-newsletter">
+    <h3 class="newsletter-heading">RECIBE &quot;Al fondo hay sitio&quot;, NUESTRA NEWSLETTER SEMANAL </h3>
+    <p><input class="newsletter-input js-email" type="email" placeholder='Tu correo electrónico' required>
+    <button class="btn-primary newsletter-button js-subscribe-btn" type="submit">Suscribir</button></p>
+    <small class="newsletter-legal-disclaimer js-disclaimer">Suscribiéndote aceptas nuestra <a href="https://weblogs.webedia.es/aviso-legal.html">política de privacidad</a></small>
+    <div class="alert-success js-subscribe-success" style="display: none;"></div>
+    <div class="alert-error js-subscribe-error" style="display: none;">Error: el correo electrónico no tiene el formato correcto</div>
+   </form>
+  </section>
+  <nav class="head-menu-extras">
+   <ul class="head-list">
+         <li><a class="head-list-item section-tv js-track-header-event" href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1">Directo al Paladar
+      + Recetas LG
+    </a></li>
+        <li><a class="head-list-item section-staff js-track-header-event" href="/quienes-somos">Equipo editorial</a></li>
+    <li><a class="head-list-item section-contact js-track-header-event" href="/contacto">Contacta con nosotros</a></li>
+    <li id="sections-login">
+     <span id="login"></span>
+    </li>
+   </ul>
+  </nav>
+         <aside class="head-menu-external">
+     <p class="nav-heading">Más sitios que te gustarán</p>
+     <ul>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Espinof</a>
+       </li>
+                                          <li>
+        <a class="head-list-item js-track-header-event" rel="nofollow" href="https://www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka</a>
+       </li>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Poprosa</a>
+       </li>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vitónica</a>
+       </li>
+           </ul>
+    </aside>
+      <div class="head-menu-channels">
+    <h3>Explora en nuestros medios</h3>
+    <ul>
+           <li>
+       <a href="#head-channel-tecnologia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Tecnología
+        <span class="head-item-meta m-desc">Móviles, tablets, aplicaciones, videojuegos, fotografía, domótica...</span>
+       </a>
+       <ul id="head-channel-tecnologia" class="head-channel-list">
+                                                                <li>
+           <a class="head-list-item tec-xataka js-track-header-event" rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakamovil js-track-header-event"   href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Móvil</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-applesfera js-track-header-event"   href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Applesfera</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakahome js-track-header-event"   href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Smart Home</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-mundoxiaomi js-track-header-event"   href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Mundo Xiaomi</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-videojuegos" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Videojuegos
+        <span class="head-item-meta m-desc">Consolas, juegos, PC, PS4, Switch, Nintendo 3DS y Xbox...</span>
+       </a>
+       <ul id="head-channel-videojuegos" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item tech-3djuegos js-track-header-event"   href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-vidaextra js-track-header-event"   href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vida Extra</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-entretenimiento" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Entretenimiento
+        <span class="head-item-meta m-desc">Series, cine, estrenos en cartelera, premios, rodajes, nuevas películas, televisión...</span>
+       </a>
+       <ul id="head-channel-entretenimiento" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-espinof js-track-header-event"   href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Espinof</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-gastronomia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Gastronomía
+        <span class="head-item-meta m-desc">Recetas, recetas de cocina fácil, pinchos, tapas, postres...</span>
+       </a>
+       <ul id="head-channel-gastronomia" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item est-directoalpaladar js-track-header-event"   href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Directo al Paladar</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-motor" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Motor
+        <span class="head-item-meta m-desc">Coches, motos, vehículos eléctricos, híbridos, camper, pruebas, competición, seguridad vial...</span>
+       </a>
+       <ul id="head-channel-motor" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item mot-motorpasion js-track-header-event"   href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item mot-motorpasionmoto js-track-header-event"   href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión Moto</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-Estilodevida" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Estilo de vida
+        <span class="head-item-meta m-desc">Moda, belleza, estilo, salud, fitness, familia, gastronomía, decoración, famosos...</span>
+       </a>
+       <ul id="head-channel-Estilodevida" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item est-trendencias js-track-header-event"   href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Trendencias</a>
+          </li>
+                                                                         <li>
+           <a class="head-list-item est-decoesfera js-track-header-event" rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Decoesfera</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-compradiccion js-track-header-event"   href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Compradiccion</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-economia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Economía
+        <span class="head-item-meta m-desc">Finanzas personales, mercados, empresas, macroeconomía, inversión, ahorro, impuestos, emprendimiento, autónomo...</span>
+       </a>
+       <ul id="head-channel-economia" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item eco-elblogsalmon js-track-header-event"   href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">El Blog Salmón</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item eco-pymesyautonomos js-track-header-event"   href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Pymes y Autónomos</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-EdicionesInternacionales" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Ediciones Internacionales
+        <span class="head-item-meta m-desc">México, Brasil...</span>
+       </a>
+       <ul id="head-channel-EdicionesInternacionales" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item est-directoalpaladar js-track-header-event"   href="//www.directoalpaladar.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Directo al Paladar México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com.mx#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-3djuegoslat js-track-header-event"   href="//www.3djuegos.lat#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos LATAM</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.br?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Brasil</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com.co#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine Colombia</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item mot-motorpasion js-track-header-event"   href="//www.motorpasion.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión México</a>
+          </li>
+                        </ul>
+      </li>
+         </ul>
+   </div>
+    <nav class="head-menu-links">
+   <ul class="head-list">
+    <li><a class="head-list-item js-track-header-event" href="https://www.weblogssl.com/contenidos">Condiciones de uso</a></li>
+    <li><a class="head-list-item js-track-header-event" href="https://www.weblogssl.com/cookies">Condiciones de uso de cookies</a></li>
+    <li><a class="head-list-item js-track-header-event" href="mailto:publicidad@webedia-group.com">Publicidad</a></li>
+   </ul>
+  </nav>
+ </div>
+</section>
+<div id="headlines" class="head-menu-container head-menu-new m-menu-right">
+ <a href="#headlines" class="head-menu-toggler js-toggle"></a>
+ <div class="head-menu">
+  <a href="#headlines" class="close close-corner js-toggle">Inicio</a>
+     <p class="nav-heading">Reciente</p>
+    <ul id="recent-posts">
+    <li>
+              <a href="/recetas-de-carnes-y-aves/como-hacer-carnitas-mexicanas-receta-perfecta-para-hacer-tacos-panceta" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Cómo hacer carnitas mexicanas, la receta perfecta para hacer tacos con panceta</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/viajes/donde-comer-almeria-bien-barato-que-bares-restaurantes-comida-tipica-probar" class="head-new-item">
+  Gastroguía de Almería: las mejores tapas y restaurantes recomendados de la ciudad andaluza
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T18:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-aperitivos/mis-empanadillas-todoterreno-tienen-tres-ingredientes-van-al-horno-aperitivo-facil-que-existe" class="head-new-item">
+  Mis empanadillas todoterreno tienen tres ingredientes, van al horno y son el aperitivo más fácil que existe 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T17:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-pasta/pasta-primavera-receta-facil-perfecta-para-aprovechar-verduras-temporada" class="head-new-item">
+  Pasta primavera: receta fácil y perfecta para aprovechar las verduras de temporada 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T16:00:41Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/consumidores/hace-20-anos-lidl-prometia-que-podias-llenar-carro-compra-30-euros-hoy-no-te-llega-casi-para-bolsa" class="head-new-item">
+  Hace 20 años Lidl prometía que podías llenar un carro de la compra con 30 euros: hoy no te llega casi ni para una bolsa 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T15:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/curso-de-cocina/como-hacer-labneh-delicioso-queso-yogur-imprescindible-oriente-medio-mil-usos-cocina" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Cómo hacer labneh, el delicioso queso de yogur imprescindible en Oriente Medio con mil usos en la cocina</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/seleccion/blanco-autor-riojano-mucha-trayectoria-para-comprobar-que-rioja-no-solo-se-hace-tinto" class="head-new-item">
+  Un blanco de autor riojano con mucha trayectoria para comprobar que en Rioja no solo se hace tinto
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T11:30:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/huerto/como-multiplicar-geranio-primavera-a-partir-esquejes-llenar-tu-balcon-gastar" class="head-new-item">
+  Cómo multiplicar un geranio en primavera a partir de esquejes y llenar tu balcón sin gastar más 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T11:00:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-verduras/esparragos-blancos-a-plancha-receta-facilisima-salsa-que-triunfar-siempre" class="head-new-item">
+  Espárragos blancos a la plancha: una receta facilísima y la salsa con la que triunfar siempre 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T10:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/seleccion/jysk-deja-barato-este-farolillo-estilo-clasico-que-iluminara-forma-intima-balcones-jardines-terrazas" class="head-new-item">
+  El farolillo en oferta de Jysk que ilumina sin molestar, suma en decoración y pone un toque de luz íntimo a balcones o terrazas
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T09:46:38Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-vegetarianas/revuelto-verduras-receta-atractiva-para-aprovechar-sobras" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Revuelto de verduras, una receta atractiva para aprovechar sobras</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/viajes/comida-turistas-mala-que-monos-gibraltar-comen-tierra-para-malestar-digestivo-que-les-provoca" class="head-new-item">
+  La comida de los turistas es tan mala, que los monos de Gibraltar comen tierra para aliviar el malestar digestivo que les provoca
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T09:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/salud/nuestra-lucha-alzheimer-hemos-estado-mirando-sitio-equivocado-clave-podria-estar-intestino" class="head-new-item">
+  En nuestra lucha contra el Alzheimer hemos estado mirando en el sitio equivocado: la clave podría estar en el intestino
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T08:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/seleccion/lidl-vende-sombrilla-ideal-para-protegernos-sol-terraza-jardin-que-anade-toque-lujo" class="head-new-item">
+  Lidl vende una sombrilla ideal para protegernos del sol en la terraza o el jardín que añade un toque de lujo
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T07:30:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/cultura-gastronomica/recomendacion-tres-estrellas-michelin-jesus-sanchez-chef-cantabro-al-comprar-anchoas-salazon-mejor-lata-opaca" class="head-new-item">
+  La recomendación del tres estrellas Michelin Jesús Sánchez, chef cántabro, al comprar anchoas en salazón: “Mejor una lata opaca” 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T07:00:40Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/viajes/este-increible-complejo-termal-cuenta-18-piscinas-14-saunas-parque-acuatico-agua-caliente-volcan-1" class="head-new-item">
+  Este increíble complejo termal cuenta con 18 piscinas, 14 saunas y un parque acuático de agua caliente con un volcán 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T06:30:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="https://www.applesfera.com/apple-1/tipo-obsesionado-prducto-quien-john-ternus-que-podemos-esperar-su-inminente-andadura-como-ceo-apple?utm_source=directoalpaladar&utm_medium=network&utm_campaign=headlines_reciente" class="head-new-item m-crosspost">
+  "Un tipo obsesionado con el producto". Quién es en John Ternus y qué podemos esperar de su inminente andadura como CEO de Apple
+  <span class="head-item-meta">
+   de Applesfera <time class="js-header-post" datetime="2026-04-22T06:54:05Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/salud/cadmio-lista-alimentos-que-recomiendan-evitar-para-proteger-tu-salud" class="head-new-item">
+  Cadmio: la lista de alimentos que las autoridades sanitarias recomiendan evitar para proteger tu salud
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-22T06:00:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-de-aperitivos/jallullo-murciano-receta-tradicional-humilde-como-sabrosa" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Jallullo murciano, receta tradicional, tan humilde como sabrosa</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/viajes/casi-como-hermanos-este-par-chefs-canarios-se-han-propuesto-algo-unico-tenerife-cocinar-solo-producto-atlantico" class="head-new-item">
+  Estos chefs canarios se han propuesto algo único en Tenerife: cocinar solo con producto del Atlántico, ni rastro de carne
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2026-04-21T18:00:38Z"></time>
+  </span>
+ </a>
+   </li>
+  </ul>
+  <p class="head-more-item"><a href="#" class="btn" id="view-more" data-blog="directoalpaladar">Ver más artículos</a></p>
+     <div class="head-menu-video">
+    <p class="nav-heading"> Directo al Paladar
+     + Recetas LG
+    </p>
+    <ul id="recent-videos">
+          <li>
+  <a href="https://www.directoalpaladar.com/videos-recetas/donald-a-tasquita-cocinamos-cuatro-variedades-ensaladilla-rusa-famosas-espana" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="Los&#x20;trucos&#x20;para&#x20;la&#x20;Ensaladilla&#x20;Rusa&#x20;perfecta&#x20;&#x28;y&#x20;4&#x20;recetas&#x20;infalibles&#x29;" src="https://img.youtube.com/vi/5Cm9Kc5zBfw/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Los trucos para la Ensaladilla Rusa perfecta (y 4 recetas infalibles)</span>
+  </a>
+ </li>
+     <li>
+  <a href="https://www.directoalpaladar.com/videos-recetas/como-usar-curry-japones-pastillas-sencillo-cocinar-asia" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="C&#x00F3;mo&#x20;hacer&#x20;Curry&#x20;Japon&#x00E9;s&#x20;con&#x20;carne&#x20;picada&#x20;&#x28;Listo&#x20;en&#x20;20&#x20;minutos&#x29;" src="https://img.youtube.com/vi/DJcyzPa7J08/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Cómo hacer Curry Japonés con carne picada (Listo en 20 minutos)</span>
+  </a>
+ </li>
+     <li>
+  <a href="https://www.directoalpaladar.com/videos-recetas/dominas-esta-tecnica-cualquier-receta-risotto-te-quedara-deliciosa-mucho-facil-que-hacer-paella" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="C&#x00F3;mo&#x20;hacer&#x20;el&#x20;Risotto&#x20;perfecto&#x20;&#x28;El&#x20;secreto&#x20;de&#x20;la&#x20;cremosidad&#x20;absoluta&#x29;" src="https://img.youtube.com/vi/5xNBPdt63vE/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Cómo hacer el Risotto perfecto (El secreto de la cremosidad absoluta)</span>
+  </a>
+ </li>
+    </ul>
+    <p class="head-more-item"><a href="#" class="btn" id="view-more-videos" data-blog="directoalpaladar">Ver más vídeos</a></p>
+   </div>
+   </div>
+</div>
+<nav id="search" class="head-menu-container head-menu-searchapp">
+</nav>
+<script>
+ document.getElementById("search").innerHTML = '\
+ <a href="#search" class="head-menu-toggler js-toggle"></a>\
+ <div class="head-menu">\
+  <a href="#search" class="close close-corner js-toggle">Inicio</a>\
+  <h2>Buscar</h2>\
+  <div class="hd-menu-srch-cr hd-srch-02">\
+   <div class="head-menu-search">\
+    <div id="google-cse-2" class="google-search"></div>\
+   </div>\
+  </div>\
+ </div>';
+</script>
+<nav class="nav nav-list nav-register" id="nav-twitter-register"></nav>
+<div id="react-login"></div>
+<nav class="nav nav-list nav-login" id="nav-login"></nav>
+<nav class="nav nav-list nav-register" id="nav-register"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover"></nav>
+<nav class="nav nav-list nav-login" id="nav-pick"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover-twitter"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover-facebook"></nav>
+<div id="js-edit-user-profile-form"></div>
+<div id="js-user-comments"></div>
+<div id="js-modal-user-deactivate"></div>
+
+  
+     <div id="cookies-overlay" class="cookies-overlay"></div>
+    </div>
+   </div>
+  </div>
+ </div>
+   <div id="div-gpt-int" style="width:1px; height:1px;">
+ </div>
+   <div id="div-gpt-int2" style="width:1px; height:1px;">
+ </div>
+   <script>
+ (function() {
+  var lazyElements    = document.getElementsByClassName('sf-lazy')
+  ,   srcsetSupported = false
+  ,   threshold;
+
+  if (!/Edge\/\d+/.test(navigator.userAgent)) {
+   srcsetSupported = 'srcset' in document.createElement('img');
+  }
+
+  function updateAttributes(element) {
+   var sfSrcset = element.getAttribute('data-sf-srcset') || element.getAttribute('sf-srcset');
+   var sfSrc = element.getAttribute('data-sf-src') || element.getAttribute('sf-src');
+   var sizes = element.getAttribute('data-sizes');
+   if (sfSrcset) {
+    element.setAttribute('srcset', sfSrcset);
+   }
+   if (sfSrc) {
+    element.setAttribute('src', sfSrc);
+   }
+   if (sizes) {
+    element.setAttribute('sizes', sizes);
+   }
+   element.classList.remove('sf-lazy');
+  }
+
+  threshold = (window.innerHeight || document.documentElement.clientHeight) + 100;
+  function lazyLoad() {
+   var coords, element, i, isVisible;
+   if (0 == lazyElements.length) {
+    document.removeEventListener('scroll', lazyLoad);
+    return false;
+   }
+
+   for (i = 0; i < lazyElements.length; i++) {
+    element = lazyElements[i];
+    coords = element.getBoundingClientRect();
+    isVisible = (coords.top >= 0 && coords.left >= 0 && coords.top) <= threshold;
+    if (isVisible) {
+     updateAttributes(element);
+    }
+   }
+  }
+
+  if (srcsetSupported) {
+   document.addEventListener('scroll', lazyLoad);
+   lazyLoad();
+  }
+ })();
+</script>
+ <script>
+ var WSL2 = WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.fbapikey = "357721611901";
+ WSL2.config.fbApiVersion = "v8.0";
+ WSL2.config.siteName = "Directo al Paladar";
+ WSL2.config.newsletterSiteName = "Al fondo hay sitio";
+ WSL2.config.gtmContainerId = "GTM-W4HG6RZ";
+ WSL2.config.gtmContainerIdGlobal = "GTM-TWST58M";
+ WSL2.config.imagePath = "https://img.weblogssl.com/css/directoalpaladar/p/common";
+ WSL2.config.desktopSiteUrl = "https://www.directoalpaladar.com";
+ WSL2.config.cookieDomain = "";
+ WSL2.config.enableEditorialRecommendations = "1";
+ WSL2.config.s3ImagePath = "https://i.blogs.es";
+ WSL2.config.socialTwitter = "directopaladar";
+ WSL2.config.enableUniformSocialShareGallery = "0";
+ WSL2.config.twitterSocial = "directopaladar";
+ WSL2.config.enableGiphyInComments = 0;
+ WSL2.config.enablePinterestSharing = 0;
+ WSL2.config.adminUrl = "https://admin.directoalpaladar.com";
+ WSL2.config.blogDomain = "directoalpaladar.com";
+ WSL2.config.blogMeta = {
+  siteName: "directoalpaladar",
+  mnemonic: "DAP",
+  blogDomain: "directoalpaladar.com"
+ };
+ WSL2.config.showMxSiteFloatingBox = 0;
+ WSL2.config.insuradsLink = "";
+ WSL2.config.uniformDateTimeFormat = "Y-m-d\TH:i:s\Z";
+ WSL2.config.dailymotionAutoplayLimit = 0;
+ WSL2.config.enableWebpImage = "0";
+ WSL2.config.productSiteUrl = "https://www.xataka.com";
+ WSL2.config.homepageVersion = "v5";
+ WSL2.config.dailymotionPlayerIds = {
+  'desktop': "x8grx",
+  'mobile': "x8grw",
+  'autoplayOff': "xbl39"
+ };
+ WSL2.config.enableOneLinkMessage = 1;
+ WSL2.config.disableDatetimeMention = "1";
+ WSL2.config.grecaptchaSiteKey = "6LeiX64UAAAAADw_CPFU4cciCrgrVCwbF_R6yFGu";
+ WSL2.config.timeZone = "Europe/Madrid";
+ WSL2.config.locale = "es";
+ WSL2.config.sendInternalPromotionAnalytics = "1";
+ WSL2.config.enableVideoPrebid = 1;
+ WSL2.config.enableGoogleLogin = 1;
+ WSL2.config.enableSocialLogin = 1;
+ WSL2.config.enableTaboolaIntegration = "0";
+ WSL2.config.taboolaPublisherId = "webediaes-network";
+ WSL2.config.enablePerformanceImprovements = "0";
+ WSL2.config.enableGoogleCustomSearchEngine = "1";
+ WSL2.config.enableInpEventLog = 0;
+ WSL2.config.enableGTMdidomi = "";
+ WSL2.config.enableOpenweb = 1;
+ WSL2.config.openwebSpotId = "sp_elHFZQu4";
+ WSL2.config.enablePageViewParams = "1";
+ WSL2.config.enableInternalClicks = "1";
+ WSL2.config.enableLimitedTimeDeal = "1"
+ WSL2.config.enableDynamicIU = "1";
+ WSL2.config.enableCtcImpressions = "1";
+ WSL2.config.enableBrandEventsTracking = "1";
+ WSL2.config.enableXatakaXtra = "";
+ WSL2.config.enableXtraDeactivationMessage = "";
+</script>
+<script>
+ function injectScript(src) {
+  var script = document.createElement('script');
+  script.src = src;
+  script.async = true;
+  if ('ES' === window.country) {
+    script.type = 'didomi/javascript';
+  }
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(script, firstScriptTag);
+ }
+</script>
+<script>
+ WSL2.config.postSubType = "normal";
+ WSL2.config.redirectDesktopRoot = 'false';
+ WSL2.config.postId = 88712;
+ WSL2.config.postTitle = "Pan\u0020integral\u0020de\u0020espelta\u0020y\u0020centeno.\u0020Receta\u0020con\u0020y\u0020sin\u0020Thermomix";
+ WSL2.config.tweetText = "Comentario%20a%20Pan%20integral%20de%20espelta%20y%20centeno.%20Receta%20con%20y%20sin%20Thermomix";
+ WSL2.config.twitterName = "";
+ WSL2.config.postUrl = "https://www.directoalpaladar.com/recetas-de-panes/pan-integral-de-espelta-y-centeno-receta-con-y-sin-thermomix";
+ WSL2.config.recommendationEngineVersion = 1;
+ WSL2.config.device = "desktop";
+ WSL2.config.enableNanomediaHeader = 0;
+</script>
+ <script src="https://img.weblogssl.com/LPbackend/prod/v3/js/runtime.aa992c25.js" defer></script><script src="https://img.weblogssl.com/LPbackend/prod/v3/js/241.7175a57a.js" defer></script><script src="https://img.weblogssl.com/LPbackend/prod/v3/js/postpage.eb614db3.js" defer></script>
+ <script>
+ window._nli=window._nli||[],
+ function(){
+  var n,e,i=window._nli||(window._nli=[]);i.loaded||
+  ((n=document.createElement("script")).defer=!0,n.src="https://l.directoalpaladar.com/sdk.js",
+  (e=document.getElementsByTagName("script")[0])
+  .parentNode.insertBefore(n,e),i.loaded=!0)
+ }();
+</script>
+ </body>
+</html>

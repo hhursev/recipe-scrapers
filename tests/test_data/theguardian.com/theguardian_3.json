@@ -24,5 +24,9 @@
   "description": "Broccoli ripassati is an Italian staple in which our favourite green vegetable is first blanched, then fried in olive oil. Its soft creaminess makes it such a good companion for pasta, a dish that appeals to almost everyone – even those who claim to dislike broccoli. Pasta and broccoli can be topped with a spoonful of ricotta, some anchovy breadcrumbs, or a handful of olives and capers",
   "total_time": null,
   "cuisine": "Italian",
+  "dietary_restrictions": [
+    "Vegetarian Diet",
+    "Vegan Diet"
+  ],
   "image": "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2015/11/3/1446550510986/89c2a4bf-0ffe-4d32-864a-997b0c7e4cd0-1976x2040.jpeg"
 }

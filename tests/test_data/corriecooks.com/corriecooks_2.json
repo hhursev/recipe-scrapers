@@ -1,0 +1,86 @@
+{
+  "author": "Betty",
+  "canonical_url": "https://www.corriecooks.com/italian-christmas-cookies/",
+  "site_name": "Corrie Cooks",
+  "host": "corriecooks.com",
+  "language": "en-US",
+  "title": "Italian Christmas Cookies",
+  "ingredients": [
+    "3 cups all-purpose flour",
+    "1 tablespoon baking powder",
+    "½ teaspoon salt",
+    "1 cup sugar",
+    "½ cup unsalted butter softened",
+    "3 eggs",
+    "1 teaspoon almond extract",
+    "1 teaspoon vanilla extract",
+    "1½ cups powdered sugar",
+    "2 –3 tablespoons milk",
+    "½ teaspoon almond or vanilla extract",
+    "Colored sprinkles"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "3 cups all-purpose flour",
+        "1 tablespoon baking powder",
+        "½ teaspoon salt",
+        "1 cup sugar",
+        "½ cup unsalted butter softened",
+        "3 eggs",
+        "1 teaspoon almond extract",
+        "1 teaspoon vanilla extract"
+      ],
+      "purpose": "For the cookies:"
+    },
+    {
+      "ingredients": [
+        "1½ cups powdered sugar",
+        "2 –3 tablespoons milk",
+        "½ teaspoon almond or vanilla extract",
+        "Colored sprinkles"
+      ],
+      "purpose": "For the glaze:"
+    }
+  ],
+  "instructions_list": [
+    "Preheat oven to 350°F (175°C). Line baking sheets with parchment paper.",
+    "In a bowl, mix flour, baking powder, and salt.",
+    "In another bowl, beat butter and sugar until creamy.",
+    "Add eggs and extracts. Mix well.",
+    "Slowly add dry ingredients to wet ingredients.",
+    "Shape dough into small balls and place on baking sheet.",
+    "Bake for 10–12 minutes until lightly golden.",
+    "Let cool completely.",
+    "Mix powdered sugar, milk, and extract to make glaze.",
+    "Dip tops of cookies in glaze and add sprinkles.",
+    "Let glaze set before serving."
+  ],
+  "category": "Dessert",
+  "yields": "36 cookies",
+  "description": "Soft Italian Christmas cookies with sweet glaze and sprinkles. A classic holiday treat perfect for cookie trays, gifts, and festive celebrations.",
+  "total_time": 27,
+  "cook_time": 12,
+  "prep_time": 15,
+  "cuisine": "Italian",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "nutrients": {
+    "servingSize": "1 serving",
+    "calories": "3867 kcal",
+    "fatContent": "109 g",
+    "saturatedFatContent": "63 g",
+    "unsaturatedFatContent": "37 g",
+    "transFatContent": "4 g",
+    "carbohydrateContent": "670 g",
+    "sugarContent": "378 g",
+    "proteinContent": "56 g",
+    "sodiumContent": "2648 mg",
+    "fiberContent": "10 g",
+    "cholesterolContent": "735 mg"
+  },
+  "image": "https://www.corriecooks.com/wp-content/uploads/2026/02/Italian-Christmas-Cookies.jpg",
+  "keywords": [
+    "Italian Christmas Cookies Ricotta Cheese"
+  ]
+}

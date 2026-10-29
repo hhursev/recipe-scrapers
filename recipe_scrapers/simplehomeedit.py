@@ -1,4 +1,5 @@
 from ._abstract import AbstractScraper
+from ._exceptions import ElementNotFoundInHtml
 
 
 class SimpleHomeEdit(AbstractScraper):
@@ -8,11 +9,14 @@ class SimpleHomeEdit(AbstractScraper):
 
     def instructions(self):
         instructions = []
-        instruction_lists = self.soup.select("div.tasty-recipes-instructions ol")
-        for ol in instruction_lists:
-            steps = ol.select("li")
-            for step in steps:
-                text = step.get_text(strip=True)
-                if text:
-                    instructions.append(text)
+        for li in self.soup.select(
+            "div.wprm-recipe-instructions-container li.wprm-recipe-instruction"
+        ):
+            text = li.get_text(" ", strip=True)
+            if text:
+                instructions.append(text)
+
+        if not instructions:
+            raise ElementNotFoundInHtml("Could not find instructions.")
+
         return "\n".join(instructions)

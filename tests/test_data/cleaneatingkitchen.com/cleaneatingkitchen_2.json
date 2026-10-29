@@ -6,16 +6,34 @@
   "language": "en-US",
   "title": "Vegan Panna Cotta with Strawberry Sauce",
   "ingredients": [
-    "For the panna cotta:",
-    "1 13.5-ounce can full-fat coconut milk",
-    "¼ cup sugar",
+    "1 13.5 – ounce can full-fat coconut milk",
+    "1/4 cup sugar",
     "2 teaspoons agar agar powder",
     "1 teaspoon vanilla extract",
-    "For the strawberry sauce:",
     "1 cup frozen strawberries",
-    "¼ cup water",
+    "1/4 cup water",
     "1 tablespoon sugar",
     "1 teaspoon lemon juice"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 13.5 – ounce can full-fat coconut milk",
+        "1/4 cup sugar",
+        "2 teaspoons agar agar powder",
+        "1 teaspoon vanilla extract"
+      ],
+      "purpose": "For the panna cotta:"
+    },
+    {
+      "ingredients": [
+        "1 cup frozen strawberries",
+        "1/4 cup water",
+        "1 tablespoon sugar",
+        "1 teaspoon lemon juice"
+      ],
+      "purpose": "For the strawberry sauce:"
+    }
   ],
   "instructions_list": [
     "In a medium saucepan over medium heat, combine the coconut milk, ¼ cup of sugar, agar agar powder, and vanilla extract. Whisk the ingredients to ensure that the powder and sugar get completely dissolved.",

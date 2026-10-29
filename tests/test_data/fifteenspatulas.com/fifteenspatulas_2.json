@@ -1,0 +1,77 @@
+{
+  "author": "Taylor",
+  "canonical_url": "https://www.fifteenspatulas.com/blueberry-galatte/",
+  "site_name": "Fifteen Spatulas",
+  "host": "fifteenspatulas.com",
+  "language": "en-US",
+  "title": "Blueberry Galette",
+  "ingredients": [
+    "1 1/4 Cup All-Purpose Flour",
+    "8 TBSP Cold Butter",
+    "2 TBSP Granulated Sugar",
+    "1/4 tsp Salt",
+    "2 1/2 TBSP Ice Cold Water (+/- 1 TBSP)",
+    "4 Cups Blueberries",
+    "1/3 Cup Granulated Sugar",
+    "2 TBSP Lemon Juice",
+    "2 TBSP Cornstarch",
+    "2 tsp Lemon Zest",
+    "1 Egg",
+    "2 TBSP Water",
+    "Pinch Coarse Sugar (Sprinkled on top)"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 1/4 Cup All-Purpose Flour",
+        "8 TBSP Cold Butter",
+        "2 TBSP Granulated Sugar",
+        "1/4 tsp Salt",
+        "2 1/2 TBSP Ice Cold Water (+/- 1 TBSP)"
+      ],
+      "purpose": "Dough"
+    },
+    {
+      "ingredients": [
+        "4 Cups Blueberries",
+        "1/3 Cup Granulated Sugar",
+        "2 TBSP Lemon Juice",
+        "2 TBSP Cornstarch",
+        "2 tsp Lemon Zest"
+      ],
+      "purpose": "Blueberry Filling"
+    },
+    {
+      "ingredients": [
+        "1 Egg",
+        "2 TBSP Water",
+        "Pinch Coarse Sugar (Sprinkled on top)"
+      ],
+      "purpose": "Egg Wash"
+    }
+  ],
+  "instructions_list": [
+    "In a food processor, add the flour, sugar, and salt. Pulse a few times to combine.",
+    "Add the butter and pulse until the butter is the size of small peas. Add 2 ½ tablespoons of water and pulse to combine. Open the lid, grab a small handful, and squeeze. If it holds together, don’t add more water. If it’s still super crumbly even after squeezing in your hand, add an additional ½-1 tablespoon of water and pulse a few more times. (It will still look crumbly)",
+    "Tip the bowl to place the mixture onto a clean counter and quickly knead a few times to get it to come together. Shape it into about an 8–9-inch disk. Wrap in plastic wrap and refrigerate for 30 minutes.",
+    "While the dough chills (about the last 5 minutes of refrigeration time), make the filling by tossing the blueberries, sugar, lemon juice, and zest together. Sprinkle the cornstarch over the top and toss again. Set aside.",
+    "Make the egg wash by whisking the egg and water together. Set aside.",
+    "Preheat your oven to 425°F.",
+    "On a sheet of parchment paper, sprinkle a little flour and roll out the dough into about a 12-inch circle. Use a 9-inch cake pan or plate (optional) to make a very soft indent in the dough. This will create a border so you know where to keep your blueberries and a good place to bring up the edges.",
+    "Add the blueberries to the middle of the dough and fold up the edges, lifting as you go every 3-4 inches, creating pleats.",
+    "Brush the egg wash all over the outside edge of the crust and sprinkle with coarse sugar, if desired.",
+    "Lift the parchment paper with the assembled galette up onto a baking sheet and bake for about 26-31 minutes, or until the crust is golden brown and the filling is bubbly. Let the galette cool for about 10 minutes before slicing and serving."
+  ],
+  "category": "Dessert",
+  "yields": "8 slices",
+  "total_time": 70,
+  "cook_time": 26,
+  "prep_time": 15,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "image": "https://www.fifteenspatulas.com/wp-content/uploads/2025/06/Blueberry-Galette.jpg",
+  "keywords": [
+    "Blueberry galette"
+  ]
+}

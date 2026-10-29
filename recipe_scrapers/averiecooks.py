@@ -1,7 +1,8 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class AverieCooks(AbstractScraper):
+class AverieCooks(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "averiecooks.com"
