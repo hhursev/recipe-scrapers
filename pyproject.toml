@@ -21,11 +21,11 @@ license = {text = "MIT License"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
@@ -33,7 +33,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
 ]
 dynamic = ["version", "readme"]
-requires-python = ">= 3.10"
+requires-python = ">= 3.11"
 dependencies = [
     "beautifulsoup4 >= 4.12.3",
     "extruct >= 0.17.0",
@@ -46,10 +46,10 @@ online = [
 ]
 # Documentation dependencies
 # Install these to build and serve the documentation:
-#   pip install -e ".[docs]"
+#   uv sync --extra docs
 #
 # Common commands:
-#   mkdocs serve  # Start local docs server at http://127.0.0.1:8000
+#   uv run --extra docs mkdocs serve  # Start local docs server at http://127.0.0.1:8000
 #                 # The server auto-reloads when you change files in docs/
 docs = [
     "mkdocs >= 1.6.1",               # Core documentation generator
@@ -60,27 +60,23 @@ docs = [
 ]
 # Testing dependencies
 # Install these to run tests and check coverage:
-#   pip install -e ".[test]"
+#   uv sync --extra tests
 # Common commands:
-#   python -m unittest                        # Run tests sequentially
-#   python -m unittest_parallel --level test  # Run tests in parallel (speeed)
-#   coverage run --parallel-mode -m unittest_parallel --level test  # Run tests with coverage in parallel
-#   coverage combine                          # Combine parallel coverage output files
-#   coverage run -m unittest                  # Run tests with coverage sequentially (fallback)
-#   coverage report                           # View coverage report in terminal
-#   coverage html                             # Generate HTML coverage report
+#   uv run --extra tests python -m unittest                        # Run tests sequentially
+#   uv run --extra tests python -m unittest_parallel --level test  # Run tests in parallel (speeed)
+#   uv run --extra tests python -m unittest_parallel --level test --coverage-branch --coverage-rcfile pyproject.toml  # Run tests with coverage in parallel
+#   uv run --extra tests coverage run -m unittest                  # Run tests with coverage sequentially (fallback)
+#   uv run --extra tests coverage report                           # View coverage report in terminal
+#   uv run --extra tests coverage html                             # Generate HTML coverage report
 tests = [
-    "coverage >= 7.6.9",           # Code coverage measurement tool
-    "unittest-parallel >= 1.7.0",  # Run unittest tests in parallel
+    "coverage >= 7.16.2",          # Code coverage measurement tool
+    "unittest-parallel >= 1.8.6",  # Run unittest tests in parallel
 ]
 linters = [
-    "pre-commit == 4.0.1",    # latest from PyPI
-    "black == 24.10.0",       # match what's in .pre-commit-config.yaml
-    "flake8 == 7.1.1",        # match what's in .pre-commit-config.yaml
-    "pep8-naming == 0.14.1",  # match what's in .pre-commit-config.yaml
-    "mypy == 1.14.0",         # match what's in .pre-commit-config.yaml
-    "types-beautifulsoup4",   # needed for mypy
-    "types-requests",         # needed for mypy
+    "pre-commit == 4.7.0",
+    "black == 26.10.1",
+    "flake8 == 7.4.1",
+    "pep8-naming == 0.15.1",
 ]
 dev = [
     "recipe-scrapers[docs,tests,linters]",
@@ -115,17 +111,3 @@ omit = [
 exclude_lines = [
     "raise NotImplementedError"
 ]
-
-[tool.mypy]
-[[tool.mypy.overrides]]
-module = "recipe_scrapers.*"
-disable_error_code = "union-attr"
-[[tool.mypy.overrides]]
-module = "._abstract"
-ignore_missing_imports = true
-[[tool.mypy.overrides]]
-module = "isodate"
-ignore_missing_imports = true
-[[tool.mypy.overrides]]
-module = "extruct"
-ignore_missing_imports = true
