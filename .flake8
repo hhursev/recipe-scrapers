@@ -28,15 +28,13 @@ max-complexity = 21
 # F: pyflakes
 # N: naming checks (from pep8-naming)
 # W: pycodestyle warnings
-# T4: mypy type checks
 select =
     B,
     C,
     E,
     F,
     N,
-    W,
-    T4
+    W
 
 exclude =
     ./.tox/
