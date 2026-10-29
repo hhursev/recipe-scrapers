@@ -1,0 +1,42 @@
+{
+  "author": "stikks",
+  "canonical_url": "brewersfriend.com",
+  "host": "brewersfriend.com",
+  "language": "en",
+  "title": "Vanilla Cream Ale",
+  "ingredients": [
+    "5.25 lb Pale 2-Row",
+    "2 lb White Wheat",
+    "2 lb Pale 6-Row",
+    "0.5 lb Flaked Corn",
+    "0.5 lb Caramel / Crystal 20L",
+    "0.5 lb Carapils (Dextrine Malt)",
+    "0.25 lb Flaked Barley",
+    "0.75 lb Honey",
+    "0.5 oz Cascade Hops",
+    "0.5 oz Cascade Hops",
+    "0.5 oz saaz Hops"
+  ],
+  "instructions_list": [
+    "Mash (rest at 150) — Infusion at 168°F for 75 minutes.",
+    "Mash (stir and rest at 165 - mashout) — Infusion at 212°F for 15 minutes.",
+    "Mash (to volume-7.5 gal.) — Fly Sparge at 170°F for 45 minutes.",
+    "Boil",
+    "Bring wort to a boil and boil for 75 minutes. Add hops: Cascade (Boil 60 min); Cascade (Boil 20 min); saaz (Boil 5 min).",
+    "Ferment with Wyeast Kölsch 2565 at 64°F."
+  ],
+  "category": "Cream Ale",
+  "yields": "5.75 gallons",
+  "total_time": 210,
+  "cook_time": 75,
+  "prep_time": 135,
+  "cuisine": "Homebrewing",
+  "ratings": 4.8,
+  "ratings_count": 21,
+  "nutrients": {
+    "servingSize": "12 oz",
+    "calories": "181 calories",
+    "carbohydrateContent": "18.2 g"
+  },
+  "image": "https://www.brewersfriend.com/avatars/2012_12/116_xxftxz5sq5_lg.jpg"
+}

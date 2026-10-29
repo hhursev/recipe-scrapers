@@ -140,6 +140,27 @@ BEST_IMAGE_SCHEMA = """
 }
 """
 
+DIETARY_RESTRICTIONS_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Avocado panzanella",
+  "recipeIngredient": [],
+  "recipeInstructions": [],
+  "suitableForDiet": [
+    "https://schema.org/VegetarianDiet",
+    {
+      "@type": "Diet",
+      "name": "Vegan"
+    },
+    {
+      "@type": "Diet",
+      "name": "Mediterranean"
+    }
+  ]
+}
+"""
+
 
 class TestSchemaOrg(unittest.TestCase):
 
@@ -237,3 +258,12 @@ class TestSchemaOrg(unittest.TestCase):
             )
         finally:
             settings.BEST_IMAGE_SELECTION = original
+
+    def test_dietary_restrictions_with_diet_objects(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=DIETARY_RESTRICTIONS_SCHEMA)
+        parser = SchemaOrg(page_data)
+
+        self.assertEqual(
+            ["Vegetarian Diet", "Vegan", "Mediterranean"],
+            parser.dietary_restrictions(),
+        )

@@ -15,16 +15,16 @@ class WDR(AbstractScraper):
         return self.soup.find("meta", property="og:title")["content"]
 
     def ingredients(self):
-        header = self.soup.find("h2", string=re.compile(r"^Zutaten.*"))
-
-        # find <li> siblings until the next <h2> tag:
         ingredients = []
-        for sibling in header.find_next_siblings(name=True):
-            if sibling.name == "h2":
-                break
-            items = sibling.find_all("li")
-            if len(items) > 0:
-                ingredients.extend([normalize_string(li.get_text()) for li in items])
+        for header in self.soup.find_all("h2", string=re.compile(r"^Zutaten")):
+            for sibling in header.find_next_siblings(name=True):
+                if sibling.name == "h2":
+                    break
+                items = sibling.find_all("li")
+                if len(items) > 0:
+                    ingredients.extend(
+                        [normalize_string(li.get_text()) for li in items]
+                    )
         return ingredients
 
     def image(self):
