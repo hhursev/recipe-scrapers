@@ -116,6 +116,11 @@ class SamsungFood(AbstractScraper):
                     cleaned[key] = value.strip('"')
             return cleaned
 
+        # Schema nutrition uses named fields, e.g. {"fatContent": "12.5 g"}.
+        # Hydration instead supplies nutrition.components entries such as:
+        # {"code": {"name": "FAT"}, "value": 12.5,
+        #  "unit": {"displayName": "g"}}
+        # ENERC_KCAL becomes a unitless "calories" value, as in schema cleanup.
         nutrient_keys = {
             "ENERC_KCAL": "calories",
             "FAT": "fatContent",
@@ -181,6 +186,28 @@ class SamsungFood(AbstractScraper):
         return value
 
     def _parse_hydrate(self):
+        """Read the embedded recipe when Recipe schema cannot supply a field.
+
+        Schema-backed pages expose JSON-LD in an application/ld+json script:
+            {"@type": "Recipe", "name": "Granola",
+             "recipeIngredient": ["1 cup oats"], "prepTime": "PT10M"}
+
+        Native recipes may omit that schema but include a JavaScript assignment:
+            var hydrate = {
+                "whisk.x.recipe.v1.RecipeAPI/GetRecipe_<request bytes>": {
+                    "recipe": {
+                        "id": "107...", "name": "Granola",
+                        "ingredients": [{"text": "1 cup oats"}],
+                        "instructions": {"steps": [{"text": "1. Mix."}]},
+                        "durations": {"prepTime": 10}, "servings": 1
+                    }
+                }
+            };
+
+        The RPC key suffix varies by request, not just recipe ID. Other entries
+        contain user data and recommendations, so only GetRecipe results qualify.
+        Decode the JSON value without executing JavaScript or its trailing suffix.
+        """
         for script in self.soup.find_all("script"):
             match = re.match(r"\s*var\s+hydrate\s*=\s*", script.string or "")
             if not match:
