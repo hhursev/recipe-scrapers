@@ -1,5 +1,7 @@
 import unittest
+from pathlib import Path
 
+from recipe_scrapers import scrape_html
 from recipe_scrapers._factory import SchemaScraperFactory
 from recipe_scrapers._schemaorg import SchemaOrg
 from recipe_scrapers.settings import settings
@@ -204,6 +206,10 @@ class TestSchemaOrg(unittest.TestCase):
         page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=HOWTO_SECTION_EMPTY_SCHEMA)
         parser = SchemaOrg(page_data)
         self.assertEqual("First step.", parser.instructions())
+        self.assertEqual(
+            [{"name": None, "steps": ["First step."]}],
+            parser.instruction_groups(),
+        )
 
     def test_howto_section_with_mixed_item_list_element_shapes(self):
         page_data = JSONLD_PAGE_TEMPLATE.format(
@@ -218,6 +224,131 @@ class TestSchemaOrg(unittest.TestCase):
             "Wrapped section\n"
             "Dict step.",
             parser.instructions(),
+        )
+
+    def test_instruction_groups_preserve_sections_and_step_boundaries(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=HOWTO_SECTION_MIXED_ITEM_LIST_ELEMENT_SCHEMA
+        )
+        scraper = SchemaScraperFactory.generate(
+            page_data, "http://recipe.test/template"
+        )
+
+        expected = [
+            {"name": None, "steps": ["Prep."]},
+            {"name": "Standard section", "steps": ["List step one.", "List step two."]},
+            {"name": "Wrapped section", "steps": ["Dict step."]},
+        ]
+        self.assertEqual(expected, scraper.instruction_groups())
+        self.assertEqual(expected, scraper.to_json()["instruction_groups"])
+
+    def test_instruction_groups_keep_newlines_within_one_step(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld="""{"@context":"https://schema.org","@type":"Recipe",
+            "recipeInstructions":[{"@type":"HowToStep","text":"Mix.\\nRest."},
+            {"@type":"HowToSection","name":"Cook","itemListElement":[
+              {"@type":"HowToStep","text":"Heat."}]},
+            {"@type":"HowToStep","text":"Bake."}]}"""
+        )
+        scraper = SchemaScraperFactory.generate(
+            page_data, "http://recipe.test/template"
+        )
+        self.assertEqual(
+            [
+                {"name": None, "steps": ["Mix.\nRest."]},
+                {"name": "Cook", "steps": ["Heat."]},
+                {"name": None, "steps": ["Bake."]},
+            ],
+            scraper.instruction_groups(),
+        )
+
+    def test_instruction_groups_accept_wrapper_and_uppercase_section_name(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld="""{"@context":"https://schema.org","@type":"Recipe",
+            "recipeInstructions":{"itemListElement":[
+              {"@type":"HowToStep","text":"Prep."},
+              {"@type":"HowToSection","Name":"Cook","itemListElement":[
+                {"@type":"HowToStep","text":"Heat."},
+                {"@type":"HowToStep","text":"Serve."}]}]}}"""
+        )
+        scraper = SchemaScraperFactory.generate(
+            page_data, "http://recipe.test/template"
+        )
+        self.assertEqual(
+            [
+                {"name": None, "steps": ["Prep."]},
+                {"name": "Cook", "steps": ["Heat.", "Serve."]},
+            ],
+            scraper.instruction_groups(),
+        )
+
+    def test_instruction_groups_keep_plain_string_as_one_step(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=PROPERTY_VALUE_INGREDIENTS_SCHEMA
+        )
+        scraper = SchemaScraperFactory.generate(
+            page_data, "http://recipe.test/template"
+        )
+        self.assertEqual(
+            [{"name": None, "steps": ["Mix and bake."]}],
+            scraper.instruction_groups(),
+        )
+
+    def test_instruction_groups_preserve_microdata_list_items(self):
+        html = """<html><div itemscope itemtype="http://schema.org/Recipe">
+          <h1 itemprop="name">Test Recipe</h1>
+          <ol itemprop="recipeInstructions">
+            <li>Mix.<br>Rest.</li><li><p>Bake.</p><p>Cool.</p></li>
+          </ol>
+        </div></html>"""
+        scraper = scrape_html(html, "https://example.com/recipe", supported_only=False)
+        self.assertEqual(
+            [{"name": None, "steps": ["Mix.\nRest.", "Bake.\nCool."]}],
+            scraper.instruction_groups(),
+        )
+
+    def test_instruction_groups_preserve_one_microdata_step(self):
+        html = """<html><div itemscope itemtype="http://schema.org/Recipe">
+          <h1 itemprop="name">Test Recipe</h1>
+          <ol itemprop="recipeInstructions"><li>Mix.<br>Rest.</li></ol>
+        </div></html>"""
+        scraper = scrape_html(html, "https://example.com/recipe", supported_only=False)
+        self.assertEqual(
+            [{"name": None, "steps": ["Mix.\nRest."]}],
+            scraper.instruction_groups(),
+        )
+
+    def test_instruction_groups_on_real_site_fixtures(self):
+        cases = [
+            (
+                "baking-sense.com/bakingsense_1.testhtml",
+                [(None, 1), ("Make the batter", 6), ("Make the Glaze", 3)],
+            ),
+            (
+                "howtocook.recipes/howtocook_2.testhtml",
+                [(None, 3), ("Chocolate Buttercream Frosting", 2)],
+            ),
+            ("lazycatkitchen.com/lazycatkitchen_1.testhtml", [(None, 8)]),
+            ("thehappyfoodie.co.uk/thehappyfoodie_1.testhtml", [(None, 1)]),
+        ]
+        for fixture, expected_groups in cases:
+            with self.subTest(fixture=fixture):
+                html = (Path("tests/test_data") / fixture).read_text(encoding="utf-8")
+                host = fixture.split("/")[0]
+                scraper = scrape_html(html, f"https://{host}/")
+                groups = scraper.instruction_groups()
+                self.assertEqual(
+                    expected_groups,
+                    [(g["name"], len(g["steps"])) for g in groups],
+                )
+                self.assertTrue(all(g["steps"] for g in groups))
+
+    def test_instruction_groups_fall_back_to_custom_instructions(self):
+        html = "<html><section class='directions'><div class='directions__content'><p>Mix.</p><p>Bake.</p></div></section></html>"
+        scraper = scrape_html(html, "https://pauladeen.com/recipe")
+        self.assertEqual(
+            [{"name": None, "steps": ["Mix.", "Bake."]}],
+            scraper.instruction_groups(),
         )
 
     def test_best_image_selection(self):

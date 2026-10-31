@@ -271,6 +271,21 @@ Returns the output of all functions implemented by this scraper as a `dict`.
 
 ## Optional functions
 
+### `instruction_groups() -> list[dict]`
+
+Returns ordered instruction sections with a `name` (or `None`) and a list of `steps`.
+Loose steps are placed in an untitled section. When structured Recipe instructions are
+unavailable, it uses the existing instruction list as one untitled section.
+Step boundaries and line breaks within each step are preserved when supplied by the
+structured data, including `<li>` steps in Recipe microdata. `instructions()` and
+`instructions_list()` retain their existing output.
+
+```py
+scraper.instruction_groups()
+# [{"name": None, "steps": ["Prepare the pan."]},
+#  {"name": "Bake", "steps": ["Pour in batter.", "Bake until set."]}]
+```
+
 ### `category() -> str`
 
 Semi-structured field that can contain a mix of cuisine type (for example, country names),
