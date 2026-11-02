@@ -383,3 +383,13 @@ Returns the dietary restrictions specified by the recipe.
 >>> scraper.dietary_restrictions()
 ['Vegan Diet', 'Vegetarian Diet', 'Mediterranean']
 ```
+
+### `notes() -> List[str]`
+
+Returns a `list` of notes or tips associated with the recipe, such as storage instructions or
+substitution suggestions. Returns an empty list when no notes are found.
+
+```py
+>>> scraper.notes()
+['This recipe can be made ahead and frozen for up to 3 months.', 'Substitute honey for maple syrup if desired.']
+```

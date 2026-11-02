@@ -103,6 +103,7 @@ from .beyondfrosting import BeyondFrosting
 from .biancazapatka import BiancaZapatka
 from .biggerbolderbaking import BiggerBolderBaking
 from .bigoven import BigOven
+from .billa import Billa
 from .billyparisi import BillyParisi
 from .bitsofcarey import BitsOfCarey
 from .blessthismessplease import BlessThisMessPlease
@@ -207,6 +208,7 @@ from .eatwhattonight import EatWhatTonight
 from .edeka import EDEKA
 from .editionslarousse import EditionsLarousse
 from .eggsca import EggsCa
+from .einfachkochen import EinfachKochen
 from .elavegan import ElaVegan
 from .emilybites import EmilyBites
 from .emmikochteinfach import EmmiKochtEinfach
@@ -370,6 +372,7 @@ from .letscampsmore import LetsCampSmore
 from .leukerecepten import Leukerecepten
 from .lidiasitaly import LidiasItaly
 from .lifestyleofafoodie import LifestyleOfAFoodie
+from .linasmatkasse import LinasMatkasse
 from .littleferrarokitchen import LittleFerraroKitchen
 from .littlespicejar import LittleSpiceJar
 from .littlespoonfarm import LittleSpoonFarm
@@ -758,6 +761,7 @@ SCRAPERS = {
     BiancaZapatka.host(): BiancaZapatka,
     BiggerBolderBaking.host(): BiggerBolderBaking,
     BigOven.host(): BigOven,
+    Billa.host(): Billa,
     BillyParisi.host(): BillyParisi,
     BitsOfCarey.host(): BitsOfCarey,
     BlessThisMessPlease.host(): BlessThisMessPlease,
@@ -938,6 +942,7 @@ SCRAPERS = {
     EDEKA.host(): EDEKA,
     EditionsLarousse.host(): EditionsLarousse,
     EggsCa.host(): EggsCa,
+    EinfachKochen.host(): EinfachKochen,
     ElaVegan.host(): ElaVegan,
     EmilyBites.host(): EmilyBites,
     EmmiKochtEinfach.host(): EmmiKochtEinfach,
@@ -1121,6 +1126,7 @@ SCRAPERS = {
     Leukerecepten.host(): Leukerecepten,
     LidiasItaly.host(): LidiasItaly,
     LifestyleOfAFoodie.host(): LifestyleOfAFoodie,
+    LinasMatkasse.host(): LinasMatkasse,
     LittleFerraroKitchen.host(): LittleFerraroKitchen,
     LittleSpiceJar.host(): LittleSpiceJar,
     LittleSpoonFarm.host(): LittleSpoonFarm,
@@ -1449,6 +1455,7 @@ def scrape_html(
     supported_only: bool | None = None,
     wild_mode: bool | None = None,
     best_image: bool | None = None,
+    simple_opengraph: bool | None = None,
 ) -> AbstractScraper:
     """
     Accepts optional HTML and a required URL as input, and returns a scraper object.
@@ -1459,7 +1466,9 @@ def scrape_html(
     If the 'supported_only' flag is enabled (the default), then only websites
     that are known to be supported by the library (as determined by their
     domain name) will return scrapers.  When disabled, the library will attempt
-    to retrieve generic schema.org recipe metadata from the HTML.
+    to retrieve [schema.org recipe](https://schema.org/Recipe) metadata from the HTML. If the
+    'simple_opengraph' flag is active, the library will instead try as a fallback to retrieve
+    basic [OpenGraph](https://ogp.me/) data (title, description, image).
 
     Args:
         html (str | None): HTML of the recipe webpage.
@@ -1471,6 +1480,9 @@ def scrape_html(
         wild_mode (bool | None): deprecated: whether to attempt scraping unsupported domains.
         best_image (bool | None): whether to prefer the highest-quality image when multiple
             are available. Defaults to the configured setting when not provided.
+        simple_opengraph (bool | None): if true, when the site does not have schema.org
+            metadata, it will try to scrape at least title, description, and image from the
+            OpenGraph metadata, if they exist.
 
     Raises:
         ElementNotFoundInHtml: Retrieval of data failed because an HTML element was not found.
@@ -1512,7 +1524,7 @@ def scrape_html(
             raise ImportError(msg) from requests_import_error
 
         try:
-            html = requests.get(url=org_url, headers=HEADERS).text
+            html = requests.get(url=org_url, headers=HEADERS, timeout=30).text
         except Exception as e:
             raise Exception(f"Failed to retrieve HTML content from {org_url}.") from e
 
@@ -1538,14 +1550,21 @@ def scrape_html(
         raise WebsiteNotImplementedError(msg)
 
     schema_scraper = SchemaScraperFactory.generate(
-        html=html, url=org_url, best_image=best_image
+        html=html, url=org_url, best_image=best_image, simple_opengraph=simple_opengraph
     )
-    if schema_scraper.schema.data:
+    if schema_scraper.schema.data or (
+        simple_opengraph
+        and (
+            schema_scraper.title()
+            or schema_scraper.description()
+            or schema_scraper.image()
+        )
+    ):
         return schema_scraper
 
     raise NoSchemaFoundInWildMode(org_url)
 
 
 def scrape_me(url: str) -> AbstractScraper:
-    html = urlopen(Request(url, headers=HEADERS)).read().decode("utf-8")
+    html = urlopen(Request(url, headers=HEADERS), timeout=30).read().decode("utf-8")
     return scrape_html(html, org_url=url)
