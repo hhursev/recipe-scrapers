@@ -150,6 +150,68 @@ def best_match(test_string: str, target_strings: list[str]) -> str:
     return target_strings[best_match_index]
 
 
+def _optimal_one_to_one_assignment(cost: list[list[float]]) -> list[int]:
+    """Solve the square assignment problem: given an n x n cost matrix,
+    find the one-to-one assignment of rows to columns that minimizes the
+    total assigned cost. Returns a list `assignment` where `assignment[i]`
+    is the column index assigned to row i.
+
+    O(n^3) Hungarian algorithm (Kuhn-Munkres), using the standard
+    potential / shortest-augmenting-path formulation — see e.g.
+    https://cp-algorithms.com/graph/hungarian-algorithm.html. Ingredient
+    lists are always small (at most a few dozen items), so the cubic
+    runtime is not a practical concern and doesn't warrant a numpy/scipy
+    dependency for a single use site.
+    """
+    n = len(cost)
+    inf = float("inf")
+    u = [0.0] * (n + 1)
+    v = [0.0] * (n + 1)
+    p = [0] * (
+        n + 1
+    )  # p[j] = row currently assigned to column j (1-indexed; 0 = unassigned)
+    way = [0] * (n + 1)
+
+    for i in range(1, n + 1):
+        p[0] = i
+        j0 = 0
+        minv = [inf] * (n + 1)
+        used = [False] * (n + 1)
+        while True:
+            used[j0] = True
+            i0 = p[j0]
+            delta = inf
+            j1 = -1
+            for j in range(1, n + 1):
+                if not used[j]:
+                    cur = cost[i0 - 1][j - 1] - u[i0] - v[j]
+                    if cur < minv[j]:
+                        minv[j] = cur
+                        way[j] = j0
+                    if minv[j] < delta:
+                        delta = minv[j]
+                        j1 = j
+            for j in range(n + 1):
+                if used[j]:
+                    u[p[j]] += delta
+                    v[j] -= delta
+                else:
+                    minv[j] -= delta
+            j0 = j1
+            if p[j0] == 0:
+                break
+        while j0:
+            j1 = way[j0]
+            p[j0] = p[j1]
+            j0 = j1
+
+    assignment = [0] * n
+    for j in range(1, n + 1):
+        if p[j] != 0:
+            assignment[p[j] - 1] = j - 1
+    return assignment
+
+
 def group_ingredients(
     ingredients_list: list[str],
     soup: BeautifulSoup,
@@ -166,6 +228,20 @@ def group_ingredients(
 
     If no selectors are provided, it attempts to auto-detect grouping selectors
     from known defaults.
+
+    Each HTML ingredient element is matched to an entry in `ingredients_list`
+    using a globally-optimal one-to-one assignment (see
+    `_optimal_one_to_one_assignment`) rather than matching each element
+    independently to its single best-scoring candidate. A purely greedy
+    per-element match can silently misassign: a verbose HTML-rendered
+    ingredient line can score a higher bigram-similarity against an
+    unrelated-but-equally-verbose ingredient than against its own (much
+    shorter) flat-list counterpart, causing one ingredient to be matched
+    twice and a different one to be dropped entirely — while the element
+    and ingredient *counts* still correctly agree, so nothing else catches
+    it. The optimal assignment correctly prefers a slightly
+    lower-scoring-but-correct pairing when the alternative would require
+    stealing a near-perfect match that belongs to a different element.
 
     Parameters
     ----------
@@ -211,18 +287,34 @@ def group_ingredients(
             f"Found {len(found_ingredients)} grouped ingredients but was expecting to find {len(ingredients_list)}."
         )
 
-    groupings: dict[str | None, list[str]] = defaultdict(list)
-    current_heading: str | None = None
     elements = soup.select(f"{group_heading}, {group_element}")
+
+    # First pass: walk the DOM in order, recording which heading each
+    # ingredient element falls under, without yet deciding which flat
+    # ingredients_list entry it corresponds to.
+    element_headings: list[str | None] = []
+    element_texts: list[str] = []
+    current_heading: str | None = None
     for element in elements:
         if element in element.parent.select(group_heading):
             current_heading = normalize_string(element.get_text()) or None
-            if current_heading not in groupings:
-                groupings[current_heading] = []
         else:
-            ingredient_text = normalize_string(element.get_text())
-            matched_ingredient = best_match(ingredient_text, ingredients_list)
-            groupings[current_heading].append(matched_ingredient)
+            element_headings.append(current_heading)
+            element_texts.append(normalize_string(element.get_text()))
+
+    normalized_targets = [normalize_fractions(t) for t in ingredients_list]
+    cost = [
+        [
+            1 - score_sentence_similarity(normalize_fractions(text), target)
+            for target in normalized_targets
+        ]
+        for text in element_texts
+    ]
+    assignment = _optimal_one_to_one_assignment(cost)
+
+    groupings: dict[str | None, list[str]] = defaultdict(list)
+    for heading, idx in zip(element_headings, assignment):
+        groupings[heading].append(ingredients_list[idx])
 
     return [
         IngredientGroup(purpose=heading, ingredients=items)
