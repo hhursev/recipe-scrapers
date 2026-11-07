@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta content="One of the biggest questions I get is “What can I have instead of cereal?” Yes, if you’re following my approach, conventional breakfast cereal is off the table. My recipe for grain-free granola gives you the satisfaction of a crunchy, lightly sweet “cereal” without the refined grains." property="og:description"/><meta content="Grain-free Granola Recipe" property="og:title"/><meta content="website" property="og:type"/><meta content="https://app.samsungfood.com/recipes/10701a0b3571f7f7b13a1962c878b380cdd" property="og:url"/><meta content="en_US" property="og:locale"/><meta content="Samsung Food" property="og:site_name"/><link href="https://app.samsungfood.com/recipes/10701a0b3571f7f7b13a1962c878b380cdd" rel="canonical"/></head><body><script>var hydrate = {
+  "whisk.x.recipe.v1.RecipeAPI/GetRecipe_10,35,49,48,55,48,49,97,48,98,51,53,55,49,102,55,102,55,98,49,51,97,49,57,54,50,99,56,55,56,98,51,56,48,99,100,100,18,191,3,10,17,99,111,109,109,117,110,105,116,121,95,115,104,97,114,105,110,103,10,22,110,111,114,109,97,108,105,122,101,100,95,105,110,103,114,101,100,105,101,110,116,115,10,12,105,110,115,116,114,117,99,116,105,111,110,115,10,9,110,117,116,114,105,116,105,111,110,10,24,99,111,110,116,101,110,116,95,112,111,108,105,99,121,95,118,105,111,108,97,116,105,111,110,10,10,115,97,118,101,95,99,111,117,110,116,10,32,114,101,118,105,101,119,115,46,119,105,108,108,95,98,101,95,114,101,115,101,116,95,97,102,116,101,114,95,101,100,105,116,10,17,114,101,118,105,101,119,115,46,109,121,95,114,101,118,105,101,119,10,14,114,101,118,105,101,119,115,46,114,97,116,105,110,103,10,12,114,101,118,105,101,119,115,46,116,97,103,115,10,22,114,101,118,105,101,119,115,46,102,105,108,108,101,100,95,114,101,118,105,101,119,115,10,29,105,110,115,116,114,117,99,116,105,111,110,115,46,97,110,97,108,121,115,105,115,46,105,110,116,101,110,116,115,10,20,114,101,99,105,112,101,95,97,117,116,104,111,114,46,97,117,116,104,111,114,10,26,112,117,98,108,105,99,105,116,121,46,115,97,109,112,108,101,95,99,111,109,109,117,110,105,116,121,10,32,112,117,98,108,105,99,105,116,121,46,112,117,98,108,105,99,95,99,111,109,109,117,110,105,116,121,95,99,111,117,110,116,10,33,112,117,98,108,105,99,105,116,121,46,112,114,105,118,97,116,101,95,99,111,109,109,117,110,105,116,121,95,99,111,117,110,116,10,6,112,97,114,101,110,116,10,6,108,97,98,101,108,115,10,35,112,101,114,109,105,115,115,105,111,110,115,46,99,97,110,95,98,101,95,111,112,101,110,101,100,95,105,110,95,105,102,114,97,109,101,10,15,112,101,114,115,111,110,97,108,105,122,97,116,105,111,110,10,12,114,101,118,105,101,119,73,109,97,103,101,115": {
+    "recipe": {
+      "id": "10701a0b3571f7f7b13a1962c878b380cdd",
+      "name": "Grain-free Granola",
+      "description": "One of the biggest questions I get is “What can I have instead of cereal?” Yes, if you’re following my approach, conventional breakfast cereal is off the table. My recipe for grain-free granola gives you the satisfaction of a crunchy, lightly sweet “cereal” without the refined grains.",
+      "ingredients": [
+        {
+          "text": "¼ cup coconut oil or butter, melted"
+        },
+        {
+          "text": "3 cups unsweetened coconut flakes"
+        },
+        {
+          "text": "1 cup sliced almonds"
+        },
+        {
+          "text": "1 cup nuts; chopped, walnuts, pecans, hazelnuts, macadamia nuts"
+        },
+        {
+          "text": "2 tablespoons chia seeds, whole"
+        },
+        {
+          "text": "2 tablespoons pure maple syrup"
+        },
+        {
+          "text": "2 teaspoons ground cinnamon"
+        },
+        {
+          "text": "¼ teaspoon ground nutmeg"
+        },
+        {
+          "text": "½ teaspoon sea salt"
+        }
+      ],
+      "instructions": {
+        "steps": [
+          {
+            "text": "1. Melt coconut oil or butter in a small saucepan."
+          },
+          {
+            "text": "2. Mix with remaining ingredients."
+          },
+          {
+            "text": "3. Spread onto a large baking sheet and bake for 25 minutes at 275 degrees until golden brown and fragrant. Be sure not to over-bake. Granola will crisp as it cools."
+          },
+          {
+            "text": "4. Store at room temperature in an airtight container for up to 1 month."
+          }
+        ]
+      },
+      "source": {
+        "name": "",
+        "displayName": "",
+        "sourceRecipeUrl": ""
+      },
+      "servings": 1,
+      "durations": {
+        "cookTime": 25,
+        "prepTime": 10
+      },
+      "nutrition": {
+        "components": [
+          {
+            "code": {
+              "name": "FAT",
+              "displayName": "Total Fat"
+            },
+            "value": 408.611,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "NIA",
+              "displayName": "Niacin B3"
+            },
+            "value": 9.718,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "ACAROTENE",
+              "displayName": "Alpha Carotene"
+            },
+            "value": 0.052,
+            "unit": {
+              "name": "Mkg",
+              "displayName": "mcg"
+            }
+          },
+          {
+            "code": {
+              "name": "FATRN",
+              "displayName": "Trans Fat"
+            },
+            "value": 0.063,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "TOCPHA",
+              "displayName": "Vitamin E"
+            },
+            "value": 52.453,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "FAPU",
+              "displayName": "Polyunsaturated Fat"
+            },
+            "value": 32.488,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "ENERC_KCAL",
+              "displayName": "Energy"
+            },
+            "value": 4574.939,
+            "unit": {
+              "name": "Kcal",
+              "displayName": "kcal"
+            }
+          },
+          {
+            "code": {
+              "name": "CHOCDF",
+              "displayName": "Carbohydrate Total"
+            },
+            "value": 179.746,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "FASAT",
+              "displayName": "Saturated Fat"
+            },
+            "value": 271.502,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "P",
+              "displayName": "Phosphorus"
+            },
+            "value": 1220.633,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "FIBTG",
+              "displayName": "Fiber"
+            },
+            "value": 83.023,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "MG",
+              "displayName": "Magnesium"
+            },
+            "value": 657.451,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "VITK1",
+              "displayName": "Vitamin K"
+            },
+            "value": 1.892,
+            "unit": {
+              "name": "Mkg",
+              "displayName": "mcg"
+            }
+          },
+          {
+            "code": {
+              "name": "SUGAR",
+              "displayName": "Sugars"
+            },
+            "value": 57.319,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "PROCNT",
+              "displayName": "Protein"
+            },
+            "value": 72.814,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "THIA",
+              "displayName": "Thiamin B1"
+            },
+            "value": 0.59,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "FOLATE",
+              "displayName": "Folate"
+            },
+            "value": 97.272,
+            "unit": {
+              "name": "MkgDfe",
+              "displayName": "mcg DFE"
+            }
+          },
+          {
+            "code": {
+              "name": "VITC",
+              "displayName": "Vitamin C"
+            },
+            "value": 0.598,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "NA",
+              "displayName": "Sodium"
+            },
+            "value": 925.365,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "TRP",
+              "displayName": "Tryptophan"
+            },
+            "value": 533.241,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "Zn",
+              "displayName": "Zinc"
+            },
+            "value": 8.202,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "Fe",
+              "displayName": "Iron"
+            },
+            "value": 9.784,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "VITB6A",
+              "displayName": "Vitamin B6"
+            },
+            "value": 0.286,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "VITA_RAE",
+              "displayName": "Vitamin A"
+            },
+            "value": 0.808,
+            "unit": {
+              "name": "Mkg",
+              "displayName": "mcg"
+            }
+          },
+          {
+            "code": {
+              "name": "RIBF",
+              "displayName": "Riboflavin B2"
+            },
+            "value": 2.569,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "FAMS",
+              "displayName": "Monounsaturated Fat"
+            },
+            "value": 71.559,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "BCAROTENE",
+              "displayName": "Beta Carotene"
+            },
+            "value": 10.624,
+            "unit": {
+              "name": "Mkg",
+              "displayName": "mcg"
+            }
+          },
+          {
+            "code": {
+              "name": "CA",
+              "displayName": "Calcium"
+            },
+            "value": 827.751,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          },
+          {
+            "code": {
+              "name": "NET_CARBS",
+              "displayName": "Net Carbohydrates"
+            },
+            "value": 96.791,
+            "unit": {
+              "name": "G",
+              "displayName": "g"
+            }
+          },
+          {
+            "code": {
+              "name": "FOL",
+              "displayName": "Folic Acid B9"
+            },
+            "value": 97.272,
+            "unit": {
+              "name": "Mkg",
+              "displayName": "mcg"
+            }
+          },
+          {
+            "code": {
+              "name": "K",
+              "displayName": "Potassium"
+            },
+            "value": 4318.994,
+            "unit": {
+              "name": "Mg",
+              "displayName": "mg"
+            }
+          }
+        ]
+      },
+      "language": "en",
+      "reviews": {
+        "rating": {
+          "likeCount": 0,
+          "dislikeCount": 0,
+          "score": 0
+        }
+      },
+      "labels": {
+        "mealType": [
+          {
+            "name": "snacks",
+            "displayName": "Snacks"
+          },
+          {
+            "name": "breakfast",
+            "displayName": "Breakfast"
+          },
+          {
+            "name": "brunch",
+            "displayName": "Brunch"
+          }
+        ],
+        "cuisine": [
+          {
+            "name": "american",
+            "displayName": "American"
+          }
+        ],
+        "technique": [
+          {
+            "name": "baking",
+            "displayName": "Baking"
+          }
+        ],
+        "category": [],
+        "holiday": [],
+        "seasonality": [],
+        "device": []
+      },
+      "recipeAuthor": {
+        "author": {
+          "value": {
+            "firstName": "Ian",
+            "lastName": ""
+          }
+        }
+      },
+      "images": []
+    }
+  }
+};</script></body></html>
