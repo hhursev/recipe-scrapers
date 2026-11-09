@@ -222,6 +222,7 @@ from .ethanchlebowski import EthanChlebowski
 from .everydaydelicious import EverydayDelicious
 from .everydaypie import EverydayPie
 from .evolvingtable import EvolvingTable
+from .experimenteausmeinerkueche import ExperimenteAusMeinerKueche
 from .familyfoodonthetable import FamilyfoodOnTheTable
 from .familyspice import FamilySpice
 from .fantabulosity import Fantabulosity
@@ -955,6 +956,7 @@ SCRAPERS = {
     EverydayDelicious.host(): EverydayDelicious,
     EverydayPie.host(): EverydayPie,
     EvolvingTable.host(): EvolvingTable,
+    ExperimenteAusMeinerKueche.host(): ExperimenteAusMeinerKueche,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FamilySpice.host(): FamilySpice,
     Fantabulosity.host(): Fantabulosity,
