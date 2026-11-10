@@ -1,0 +1,63 @@
+{
+  "author": "Megan Byrd",
+  "canonical_url": "https://coffeecopycat.com/banana-pudding-cold-brew/",
+  "site_name": "coffeecopycat.com",
+  "host": "coffeecopycat.com",
+  "language": "en-US",
+  "title": "Banana Pudding Cold Brew (w/Banana Pudding Cold Foam)",
+  "ingredients": [
+    "3 tbsp whole milk",
+    "2 tbsp heavy cream",
+    "2 tsp Instant banana pudding mix",
+    "1 ½ cups cold brew coffee",
+    "1 tbsp banana bread syrup",
+    "ice"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "3 tbsp whole milk",
+        "2 tbsp heavy cream",
+        "2 tsp Instant banana pudding mix"
+      ],
+      "purpose": "Banana Pudding Cold Foam:"
+    },
+    {
+      "ingredients": [
+        "1 ½ cups cold brew coffee",
+        "1 tbsp banana bread syrup",
+        "ice"
+      ],
+      "purpose": "Banana Pudding Cold Brew:"
+    }
+  ],
+  "instructions_list": [
+    "Make your banana pudding cold foam. Add the whole milk, heavy cream, and banana pudding mix in a small glass and froth for about 10 seconds. Set aside.",
+    "Add ice to a tall glass, then add the cold brew and the banana bread syrup and stir to combine.",
+    "Top with the banana pudding cold foam, then drink up!"
+  ],
+  "category": "Drinks",
+  "yields": "1 serving",
+  "description": "This Banana Pudding Cold Brew tastes just like banana pudding in coffee form, with a thick, creamy banana pudding cold foam on top. Ready in just 2 minutes!",
+  "total_time": 2,
+  "prep_time": 2,
+  "cuisine": "American",
+  "ratings": 5.0,
+  "ratings_count": 1,
+  "equipment": [
+    "1 milk frother"
+  ],
+  "nutrients": {
+    "servingSize": "1 drink",
+    "calories": "215 kcal",
+    "fatContent": "12 g",
+    "carbohydrateContent": "25 g",
+    "sugarContent": "20 g",
+    "proteinContent": "2 g",
+    "sodiumContent": "185 mg"
+  },
+  "image": "https://coffeecopycat.com/wp-content/uploads/2026/10/Banana-Pudding-Cold-Brew-1-1200x1800-1.jpg",
+  "keywords": [
+    "Banana Pudding Cold Brew"
+  ]
+}
