@@ -144,6 +144,7 @@ from .choosehomemade import ChooseHomemade
 from .cleaneatingkitchen import CleanEatingKitchen
 from .closetcooking import ClosetCooking
 from .cloudykitchen import CloudyKitchen
+from .coffeecopycat import CoffeeCopycat
 from .coleycooks import ColeyCooks
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
@@ -877,6 +878,7 @@ SCRAPERS = {
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
     CloudyKitchen.host(): CloudyKitchen,
+    CoffeeCopycat.host(): CoffeeCopycat,
     ColeyCooks.host(): ColeyCooks,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
