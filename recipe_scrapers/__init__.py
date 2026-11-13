@@ -227,6 +227,7 @@ from .evolvingtable import EvolvingTable
 from .experimenteausmeinerkueche import ExperimenteAusMeinerKueche
 from .familyfoodonthetable import FamilyfoodOnTheTable
 from .familyspice import FamilySpice
+from .fancifuleats import FancifulEats
 from .fantabulosity import Fantabulosity
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
@@ -964,6 +965,7 @@ SCRAPERS = {
     ExperimenteAusMeinerKueche.host(): ExperimenteAusMeinerKueche,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FamilySpice.host(): FamilySpice,
+    FancifulEats.host(): FancifulEats,
     Fantabulosity.host(): Fantabulosity,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FarmhouseOnBoone.host(): FarmhouseOnBoone,
