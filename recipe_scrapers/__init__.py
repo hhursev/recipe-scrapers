@@ -82,6 +82,7 @@ from .asweetpeachef import ASweetPeaChef
 from .atelierdeschefs import AtelierDesChefs
 from .aubreyskitchen import AubreysKitchen
 from .averiecooks import AverieCooks
+from .bakedbree import BakedBree
 from .bakeeatrepeat import BakeEatRepeat
 from .bakeitwithlove import BakeItWithLove
 from .bakels import Bakels
@@ -741,6 +742,7 @@ SCRAPERS = {
     AtelierDesChefs.host(): AtelierDesChefs,
     AubreysKitchen.host(): AubreysKitchen,
     AverieCooks.host(): AverieCooks,
+    BakedBree.host(): BakedBree,
     BakeEatRepeat.host(): BakeEatRepeat,
     BakeItWithLove.host(): BakeItWithLove,
     Bakels.host(): Bakels,
