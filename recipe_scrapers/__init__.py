@@ -428,6 +428,7 @@ from .mykidslickthebowl import MyKidsLickTheBowl
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
+from .mymessykitchenn import MyMessyKitchenn
 from .myrecipes import MyRecipes
 from .myriadrecipes import MyriadRecipes
 from .myvegetarianroots import MyVegetarianRoots
@@ -1184,6 +1185,7 @@ SCRAPERS = {
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyKoreanKitchen.host(): MyKoreanKitchen,
+    MyMessyKitchenn.host(): MyMessyKitchenn,
     MyRecipes.host(): MyRecipes,
     MyriadRecipes.host(): MyriadRecipes,
     MyVegetarianRoots.host(): MyVegetarianRoots,
