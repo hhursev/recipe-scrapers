@@ -8,5 +8,5 @@ class PrimalEdgeHealth(AbstractScraper):
 
     def ingredients(self):
         return [
-            ingredient.replace("\u00C2", "") for ingredient in self.schema.ingredients()
+            ingredient.replace("\u00c2", "") for ingredient in self.schema.ingredients()
         ]

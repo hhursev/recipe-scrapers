@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--
+Generated with generate.py TheFlavorBender on 2026-10-10 from:
+https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/
+Reduced to original recipe JSON-LD, attribution/image metadata, and
+ingredient-group markup for testing. Article prose, visitor reviews,
+forms, executable scripts, styles, tracking and image files are omitted.
+-->
+<html lang="en-US">
+<head>
+<link href="https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/" rel="canonical"/>
+<meta content="The Flavor Bender" property="og:site_name"/>
+<meta content="https://www.theflavorbender.com/wp-content/uploads/2015/08/Spicy-Pork-Ramen-Noodles-7885.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="795" property="og:image:height"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.theflavorbender.com/#website",
+      "name": "The Flavor Bender",
+      "url": "https://www.theflavorbender.com/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.theflavorbender.com/#/schema/person/ab6f60ebb738d3347a2b3dfb5ad2b43c",
+      "name": "Dini Kodippili",
+      "url": "https://www.theflavorbender.com/author/dini/"
+    },
+    {
+      "@type": "Recipe",
+      "name": "Spicy Pork Ramen (Pork Loco Moco Mazemen)",
+      "author": {
+        "@id": "https://www.theflavorbender.com/#/schema/person/ab6f60ebb738d3347a2b3dfb5ad2b43c"
+      },
+      "description": "If you enjoy pork ramen, you will LOVE this mazemen ramen dish! Spicy pork ramen noodles topped with a Furikake seasoned soft boiled egg will gourmet up your Ramen noodles effortlessly!",
+      "datePublished": "2015-08-27T08:20:17+00:00",
+      "image": [
+        "https://www.theflavorbender.com/wp-content/uploads/2015/08/Spicy-Pork-Ramen-Noodles-1.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2015/08/Spicy-Pork-Ramen-Noodles-1-500x500.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2015/08/Spicy-Pork-Ramen-Noodles-1-500x375.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2015/08/Spicy-Pork-Ramen-Noodles-1-480x270.jpg"
+      ],
+      "recipeYield": [
+        "4",
+        "4 servings"
+      ],
+      "recipeIngredient": [
+        "1 lb pork meat only (no bones, mince is fine, I used meat from country style ribs, but you can use chops as well)",
+        "¼ -½ tsp cayenne pepper (if you like it spicy, you can add more - I added about 1 tsp)",
+        "2 tbsp shoyu",
+        "2 tsp grated ginger",
+        "2 tsp minced garlic (about 2 cloves)",
+        "55 g / 2 ounces of finely diced white onion",
+        "2 tsp sesame oil",
+        "1 tsp white sugar",
+        "2 1/2 cups of good quality pork stock (I used homemade)",
+        "2  spring onions - whole (optional)",
+        "1 inch cube of ginger",
+        "3  garlic cloves (optional)",
+        "3 tbsp unflavoured oil",
+        "4 tbsp flour",
+        "3 tbsp shoyu",
+        "3 tbsp mirin",
+        "½ - 1 tbsp chilli flakes (optional)",
+        "4  large eggs",
+        "1  egg white (lightly whisked (optional))",
+        "3 tbsp corn flour (optional)",
+        "1 tbsp regular Furikake seasoning (optional)",
+        "4  packets plain Ramen noodles cooked according to packet instructions",
+        "6 tbsp fried shallots",
+        "Furikake",
+        "Chopped spring onions"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Finely chop the pork. Mix the chopped (or minced) pork with the rest of the ingredients of the marinade. Cover and let it marinate for at least 2 hours in the fridge.",
+          "name": "Finely chop the pork. Mix the chopped (or minced) pork with the rest of the ingredients of the marinade. Cover and let it marinate for at least 2 hours in the fridge.",
+          "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-0-0"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bring 1 pot of water to a boil on high heat.",
+          "name": "Bring 1 pot of water to a boil on high heat.",
+          "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-0-1"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Reduce the heat to a simmer and gently lower the eggs into the water (water level should be up to about an inch above the eggs). Increase the heat to medium and cover the pot and set the timer for 5 ½ minutes. Prepare an ice bath.",
+          "name": "Reduce the heat to a simmer and gently lower the eggs into the water (water level should be up to about an inch above the eggs). Increase the heat to medium and cover the pot and set the timer for 5 ½ minutes. Prepare an ice bath.",
+          "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-0-2"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "When the timer goes off, drain the eggs and dunk them in the ice bath, until they cool. Gently peel the eggs under cool running water. The running water will help loosen the egg shell from the egg. Set aside until you have the Ramen broth ready.",
+          "name": "When the timer goes off, drain the eggs and dunk them in the ice bath, until they cool. Gently peel the eggs under cool running water. The running water will help loosen the egg shell from the egg. Set aside until you have the Ramen broth ready.",
+          "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-0-3"
+        },
+        {
+          "@type": "HowToSection",
+          "name": "For the Gravy/Sauce",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Optional step - to make the broth more flavourful (especially if you're using store bought). Combine the pork stock with the spring onions, ginger and garlic and simmer for about 30-40 minutes uncovered. Drain and reserve 2 cups of the stock.",
+              "name": "Optional step - to make the broth more flavourful (especially if you're using store bought). Combine the pork stock with the spring onions, ginger and garlic and simmer for about 30-40 minutes uncovered. Drain and reserve 2 cups of the stock.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-1-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "In a saucepan, heat the oil. Add the flour and whisk until you have a smooth slurry. Keep cooking till the flour starts to turn light brown in colour.",
+              "name": "In a saucepan, heat the oil. Add the flour and whisk until you have a smooth slurry. Keep cooking till the flour starts to turn light brown in colour.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-1-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add 2 cups of the stock, along with the shoyu, mirin and chilli flakes to the flour mix. Whisk or mix continuously until it starts to thicken. Set aside.",
+              "name": "Add 2 cups of the stock, along with the shoyu, mirin and chilli flakes to the flour mix. Whisk or mix continuously until it starts to thicken. Set aside.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-1-2"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Spicy Pork -",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "In a nonstick pan, heat a little oil and add the marinated pork meat. Stir fry for a few minutes until the pork pieces brown, and just start to become crispy. This can take 5-10 minutes depending on whether you will be using minced pork or finely chopped pork. Drain any excess oil and set aside, and wipe the nonstick pan to fry the egg.",
+              "name": "In a nonstick pan, heat a little oil and add the marinated pork meat. Stir fry for a few minutes until the pork pieces brown, and just start to become crispy. This can take 5-10 minutes depending on whether you will be using minced pork or finely chopped pork. Drain any excess oil and set aside, and wipe the nonstick pan to fry the egg.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-2-0"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Optional step - if you'd like to season the egg with furikake.",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Heat a small amount of oil in the nonstick pan . Combine the cornflour and furikake in a small dish. Lightly cover the soft boiled egg in the egg white and carefully roll it in the cornflour/ furikake mix. Fry the eggs in the pan, a little on each side until they just start to brown. Set aside.",
+              "name": "Heat a small amount of oil in the nonstick pan . Combine the cornflour and furikake in a small dish. Lightly cover the soft boiled egg in the egg white and carefully roll it in the cornflour/ furikake mix. Fry the eggs in the pan, a little on each side until they just start to brown. Set aside.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-3-0"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "To Serve",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Place cooked ramen noodles in four bowls. and pour gravy/sauce equally over the ramen noodles.",
+              "name": "Place cooked ramen noodles in four bowls. and pour gravy/sauce equally over the ramen noodles.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-4-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Top it with the pork, furikake egg, an extra sprinkling of furikake, fried shallots, and chopped spring onions.",
+              "name": "Top it with the pork, furikake egg, an extra sprinkling of furikake, fried shallots, and chopped spring onions.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-4-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Serve immediately.",
+              "name": "Serve immediately.",
+              "url": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#wprm-recipe-24595-step-4-2"
+            }
+          ]
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "7",
+        "reviewCount": "2"
+      },
+      "recipeCategory": [
+        "Dinner",
+        "Main Course"
+      ],
+      "recipeCuisine": [
+        "East Asian"
+      ],
+      "keywords": "Egg recipes, Furikake seasoning, Loco moco, Mazemen, Noodles, Pork ramen, Pork Recipes, Ramen, Ramen noodles, Soft boiled egg, Spicy Recipes",
+      "@id": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#recipe",
+      "isPartOf": {
+        "@id": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/#article"
+      },
+      "mainEntityOfPage": "https://www.theflavorbender.com/pork-loco-moco-mazemen-spicy-pork-ramen/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wprm-recipe-ingredients-container wprm-recipe-ingredients-no-images wprm-recipe-24595-ingredients-container wprm-block-text-light wprm-ingredient-style-regular wprm-recipe-images-before" id="recipe-24595-ingredients">
+ <h4 class="wprm-recipe-header wprm-recipe-ingredients-header wprm-block-text-bold wprm-align-left wprm-header-decoration-spacer wprm-header-has-actions">
+  Ingredients:
+  <div class="wprm-decoration-spacer">
+  </div>
+  <div class="wprm-recipe-adjustable-servings-container wprm-recipe-adjustable-servings-24595-container wprm-toggle-container wprm-toggle-buttons-container wprm-block-text-normal">
+  </div>
+ </h4>
+ <div class="wprm-spacer">
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   For the Pork
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     lb
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     pork meat only
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     no bones, mince is fine, I used meat from country style ribs, but you can use chops as well
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ¼ -½
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     cayenne pepper
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     if you like it spicy, you can add more – I added about 1 tsp
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     shoyu
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     grated ginger
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     minced garlic
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     about 2 cloves
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     55
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     g
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     / 2 ounces of finely diced white onion
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     sesame oil
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     white sugar
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Pork Broth
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2 1/2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cups
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     of good quality pork stock
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     I used homemade
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     spring onions – whole
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     optional
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     inch
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     cube of ginger
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     3
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     garlic cloves
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     optional
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     3
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     unflavoured oil
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     flour
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     3
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     shoyu
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     3
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     mirin
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ½ – 1
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     chilli flakes
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     optional
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   For the Furikake sesaoned soft boiled egg
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     large eggs
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     egg white
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     lightly whisked (optional)
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     3
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     corn flour
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     optional
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     regular Furikake seasoning
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     optional
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   To serve
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     packets plain Ramen noodles cooked according to packet instructions
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     6
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tbsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     fried shallots
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Furikake
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Chopped spring onions
+    </span>
+   </li>
+  </ul>
+ </div>
+</div>
+</body>
+</html>

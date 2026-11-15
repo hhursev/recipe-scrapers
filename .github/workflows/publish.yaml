@@ -14,18 +14,20 @@ jobs:
     permissions:
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.x"
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10.1.0
+        with:
+          enable-cache: false
       - name: Build the package
-        run: |
-          python -m pip install --upgrade build
-          python -m build .
+        run: uv build
       - name: Publish a Python distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           verbose: true
       - name: Show build version used
-        run: pip list | grep build
+        run: ls -lh dist

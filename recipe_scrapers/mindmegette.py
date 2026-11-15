@@ -1,5 +1,10 @@
+import re
+
 from ._abstract import AbstractScraper
-from ._utils import get_minutes, get_yields, normalize_string
+from ._grouping_utils import IngredientGroup, group_ingredients
+
+GROUP_HEADING = ".ingredients-wrapper .ingredients-group"
+GROUP_ELEMENT = ".ingredients-wrapper .ingredients-meta"
 
 
 class Mindmegette(AbstractScraper):
@@ -8,54 +13,31 @@ class Mindmegette(AbstractScraper):
         return "mindmegette.hu"
 
     def title(self):
-        return self.soup.find("h1", {"class": "title"}).get_text()
+        # the site name is sometimes repeated
+        return re.sub(r"(\s*\|\s*Mindmegette\.hu)+$", "", self.schema.title())
 
-    def total_time(self):
-        item_sibling = self.soup.find("span", {"class": "spriteTime"})
-        time = item_sibling.find_next(name=True).get_text()
+    def ingredient_groups(self):
+        ingredients = self.ingredients()
+        if not self.soup.select(GROUP_HEADING):
+            return [IngredientGroup(ingredients=ingredients)]
 
-        return get_minutes(time)
-
-    def image(self):
-        image_relative_url = self.soup.find("img", {"itemprop": "image", "src": True})[
-            "src"
-        ]
-
-        if image_relative_url is not None:
-            image_relative_url = f"https://{self.host()}{image_relative_url}"
-
-        return image_relative_url
-
-    def ingredients(self):
-        ingredients = []
-        shopping_cart = self.soup.find("ul", {"class": "shopingCart"}).find_all("li")
-
-        for ingredient in shopping_cart:
-            amount_unit = (
-                ingredient.find("span", {"class": "ingredient-measure"})
-                .get("title")
-                .strip()
-            )
-            ingredient_name = (
-                ingredient.find("span", {"class": "ingredient-name"}).get_text().strip()
-            )
-            ingredients.append((amount_unit + " " + ingredient_name).strip())
-
-        return ingredients
+        # page text is lowercase but the schema's isn't, so match lowercased
+        # and map back by position
+        lowered = [i.lower() for i in ingredients]
+        groups = group_ingredients(lowered, self.soup, GROUP_HEADING, GROUP_ELEMENT)
+        unused = list(range(len(ingredients)))
+        for group in groups:
+            for n, item in enumerate(group.ingredients):
+                i = next((i for i in unused if lowered[i] == item), lowered.index(item))
+                if i in unused:
+                    unused.remove(i)
+                group.ingredients[n] = ingredients[i]
+        return groups
 
     def instructions(self):
-        instructions = self.soup.find("div", {"class": "instructions"}).find_all("li")
-
-        instructions_arr = []
-        for instruction in instructions:
-            for tag in instruction.find_all("h2"):
-                tag.replace_with("")
-            instructions_arr.append(normalize_string(instruction.get_text()))
-
-        return "\n".join(instructions_arr)
-
-    def yields(self):
-        item_sibling = self.soup.find("span", {"class": "spritePortion"})
-        portion = item_sibling.find_next(name=True).get_text()
-
-        return get_yields(portion)
+        # step names are just "1. lépés" (step 1), "2. lépés" etc.
+        return "\n".join(
+            line
+            for line in self.schema.instructions().split("\n")
+            if not re.fullmatch(r"\d+\.\s*lépés", line, re.IGNORECASE)
+        )

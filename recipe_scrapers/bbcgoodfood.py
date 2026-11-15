@@ -11,6 +11,6 @@ class BBCGoodFood(AbstractScraper):
         return group_ingredients(
             self.ingredients(),
             self.soup,
-            ".recipe__ingredients h3",
-            ".recipe__ingredients li",
+            "h3.ingredients-list__heading",
+            "li.ingredients-list__item",
         )

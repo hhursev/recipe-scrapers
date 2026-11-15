@@ -1,0 +1,1421 @@
+<!doctype html>
+<html lang="fr">
+<head>
+
+<!--@@@consentManagement@@@-->
+<script>
+    (function(){function i(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}else{setTimeout(function(){i(e)},5)}}}function e(n,o,r,f,s){function e(e,t,n,i){if(typeof n!=="function"){return}if(!window[o]){window[o]=[]}var a=false;if(s){a=s(e,i,n)}if(!a){window[o].push({command:e,version:t,callback:n,parameter:i})}}e.stub=true;e.stubVersion=2;function t(i){if(!window[n]||window[n].stub!==true){return}if(!i.data){return}var a=typeof i.data==="string";var e;try{e=a?JSON.parse(i.data):i.data}catch(t){return}if(e[r]){var o=e[r];window[n](o.command,o.version,function(e,t){var n={};n[f]={returnValue:e,success:t,callId:o.callId};if(i.source){i.source.postMessage(a?JSON.stringify(n):n,"*")}},o.parameter)}}if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");i("__tcfapiLocator")})();</script><script type="text/javascript">(function(){(function(e,i){var o=document.createElement("link");o.rel="preconnect";o.as="script";var n=document.createElement("link");n.rel="dns-prefetch";n.as="script";var r=document.createElement("script");r.id="spcloader";r.type="text/javascript";r["async"]=true;r.charset="utf-8";window.didomiConfig=window.didomiConfig||{};window.didomiConfig.sdkPath=window.didomiConfig.sdkPath||i||"https://sdk.privacy-center.org/";const t=window.didomiConfig.sdkPath;var d=t+e+"/loader.js?target="+document.location.hostname;if(window.didomiConfig&&window.didomiConfig.user){var a=window.didomiConfig.user;var c=a.country;var s=a.region;if(c){d=d+"&country="+c;if(s){d=d+"&region="+s}}}o.href=t;n.href=t;r.src=d;var f=document.getElementsByTagName("script")[0];f.parentNode.insertBefore(o,f);f.parentNode.insertBefore(n,f);f.parentNode.insertBefore(r,f)})("a5e06fe3-f415-475b-9377-da8964411bc3")})();
+    function runOnUserConsent(n,{once:t=!0,timeout:e=1e4,pollInterval:i=100}={}){if("function"!=typeof n)throw new TypeError("runOnUserConsent: callback doit être une fonction");let o=!1;!function r(c){"function"!=typeof window.__tcfapi?c>=e?console.warn("runOnUserConsent: __tcfapi indisponible après "+e+"ms"):setTimeout(function(){r(c+i)},i):window.__tcfapi("addEventListener",2,function(e,i){if(!i||!e)return;const r=!0===e.gdprApplies,c="useractioncomplete"===e.eventStatus||"tcloaded"===e.eventStatus&&!!e.tcString;if(!r||c){if(t&&o)return;o=!0,t&&void 0!==e.listenerId&&window.__tcfapi("removeEventListener",2,function(){},e.listenerId),n(e)}})}(0)}
+    document.addEventListener("DOMContentLoaded",function(){document.querySelector(".js-openConsentManagementModal")?.addEventListener("click",function(n){n.preventDefault(),window.Didomi&&Didomi.preferences&&Didomi.preferences.show()})});
+    window.didomiOnReady=window.didomiOnReady||[],window.didomiOnReady.push(function(){"undefined"!=typeof CookieWallManager&&CookieWallManager.init()});
+</script>
+<!--@@@consentManagement@@@-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Recette de la pissaladiere sans gluten  - Marie Claire</title>
+<script>
+var pageEnvironment = {"route":"article","context":{"currentSectionId":2615673,"currentSectionLevel":4,"cookielessBrowsingEnabled":false,"isConnected":false,"isSubscriber":false,"hasActiveSubscription":false,"entryId":2615634,"thematicId":2615659,"sectionId":2615673,"articleId":1518130,"articleTypeId":9,"articleType":"Fiche recette","articleAuthor":"Cuisine et Vins de France","pageTypeId":1,"accessRestriction":"none","articleTags":["level-4-collection-cuisine-cuisine-mediterraneenne","level-4-collection-cuisine-les-recettes-sans-gluten-ideales-en-entrees","level-4-collection-cuisine-recettes-sans-gluten-d-aperitifs","level-4-collection-cuisine-anchois","level-4-collection-cuisine-mezze","level-4-collection-cuisine-recettes-sans-gluten-rapides-et-faciles-pour-un-diner-improvise","level-4-collection-cuisine-tartelettes-salees","level-1-cuisine-cuisine-et-vins-de-france","level-2-cuisine-aperitifs-entrees","level-4-cuisine-quiches-tartes"],"levels":[{"id":20001,"title":"Marie Claire","reference":"accueil","levelType":0},{"id":2615634,"title":"Cuisine et Vins de France","reference":"cuisine\/cuisine-et-vins-de-france","levelType":1},{"id":2615659,"title":"Entr\u00e9es","reference":"cuisine\/aperitifs-entrees","levelType":2},{"id":2615673,"title":"Quiches & tartes","reference":"cuisine\/quiches-tartes","levelType":4},{"id":1518130,"title":"Pissaladi\u00e8re sans gluten\u00a0: la recette proven\u00e7ale qui ne fait aucun compromis sur la gourmandise","reference":"cuisine\/recette-de-la-pissaladiere-sans-gluten","levelType":5}]},"article":{"mainTrafficSourceId":1,"mainTrafficSource":"froid-seo-contenu-perenne","originId":3,"datePublication":"2026-08-19T13:15:00+02:00","dateModification":null,"dateCorrection":"2026-07-29T19:02:04+02:00","isDiscover":false,"title":"Pissaladi\u00e8re sans gluten\u00a0: la recette proven\u00e7ale qui ne fait aucun compromis sur la gourmandise","authorId":2148472,"authorsList":["Cuisine et Vins de France"],"type":"RECETTE","sponsored":false}};
+!function(){var e=[],t=Object.defineProperty;t(e,"TYPES",{value:{CSS:"css",SCRIPT:"script"}});var r={},n=function(e,t){return t=Object.assign({href:e,rel:"stylesheet",type:"text/css",media:"screen"},t||{}),i("link",t)},o=function(e,t){return t=Object.assign({src:e},t||{}),i("script",t)},i=function(e,t){var r=document,n=r.createElement(e);if("object"==typeof t)for(var o in t)"kr-public-key"===o?n.setAttribute(o,t[o]):n[o]=t[o];var i=r.getElementsByTagName("script")[0];return i.parentNode.insertBefore(n,i),n};Promise="function"==typeof Promise?Promise:function(){this.then=function(e){return e(),new Promise},this["catch"]=function(e){return e(),new Promise}};var s=function(t,i,s,a){if(!r[t]||a){var c;if(s=(s+"").toLowerCase(),s==e.TYPES.CSS?c=n:s==e.TYPES.SCRIPT?c=o:(match=t.match(/^[^?#]+\.([^.?#]+)(?:[?#].+)?$/))&&("css"==match[1]?c=n:"js"==match[1]&&(c=o)),!c)throw"Unknow resource type: "+t;var u=c(t,i);r[t]=new Promise(function(e,t){u.addEventListener("load",function(){e()}),u.addEventListener("error",function(){t()})})}return r[t]},a=function(){for(var e,t=[],r=0;r<arguments.length;++r)r?t.push(arguments[r]):e=arguments[r];var n=typeof e;"string"!=n&&("object"!=n||e instanceof Array)||(e=[e]);var o=[];e instanceof Array&&e.forEach(function(e){"string"==typeof e&&(e={url:e}),"object"==typeof e&&"string"==typeof e.url&&o.push(s(e.url,e.attributes,e.type,e.forceReload))});var i=Promise.all(o);return t.length&&(i=i.then(function(){return a.apply(null,t)})),i};t(e,"loadResources",{value:a}),window.mc2m=e}()
+</script>
+<script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async="true" crossorigin="anonymous"></script>
+
+<script>
+	var pubId = '01FMQBZSPM2B1NQDVCKVWJ2RSR';
+	!function(h,u,b,v,i,s,o,r){function n(r){var c=console.error;function o(n){try{n(r)}catch(n){c(n)}}c(r);var n=u[h].cmd;u[h]=function(n,r,c){o(c)},u[h].cmd=n;for(var i=0;i<u[h].cmd.length;++i)o(u[h].cmd[i]);u[h].cmd={push:o}}u[h]=u[h]||function(){var n=arguments;u[h].cmd.push(function(){u[h].apply(null,n)})},u[h].cmd=u[h].cmd||[];var r=setTimeout(n.bind(null,new Error("Hubvisor loading timeout !")),s||3e3);function c(){r&&(clearTimeout(r),r=0)}var o=b.createElement(v);o.async=!0,o.src="https://cdn.hubvisor.io/wrapper/"+i+"/hubvisor.js",b.head.appendChild(o),o.addEventListener("error",function(){c(),n(new Error("Hubvisor loading failed !"))}),u[h].cmd.push(function(){c()});}('Hubvisor',window,document,'script',pubId)
+</script>
+<link rel="preconnect" href="https://cache.marieclaire.fr"/>
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/source_serif4_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/cardinalphoto_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/cardinalfruit_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/media/font/barlow_regular.woff2" crossorigin as="font" type="font/woff2" />
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/page.css?3oeixcl19awws8gk4sw8w4ock" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/page.css?3oeixcl19awws8gk4sw8w4ock" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/article.css?994h87irqccgsckgww0ogkwok" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/article.css?994h87irqccgsckgww0ogkwok" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/commentform.css?7kphrbff0q4og84o04c44swk4" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/commentform.css?7kphrbff0q4og84o04c44swk4" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="preload" href="https://cache.marieclaire.fr/data/display/reviewsynthesis.css?ddo1n3223ogg0csoww4coowow" as="style"/>
+<link href="https://cache.marieclaire.fr/data/display/reviewsynthesis.css?ddo1n3223ogg0csoww4coowow" media="screen" rel="stylesheet" type="text/css"/>
+<link rel="manifest" href="https://www.marieclaire.fr/manifest.json" crossorigin="use-credentials" />
+<meta property="fb:app_id" content="265524450229194" />
+<meta property="og:site_name" content="Marie Claire" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="og:title" content="Pissaladière sans gluten : la recette provençale qui ne fait aucun compromis sur la gourmandise" />
+<meta property="twitter:title" content="Pissaladière sans gluten : la recette provençale qui ne fait aucun compromis sur la gourmandise" />
+<meta property="og:url" content="https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp" />
+<meta property="og:image" content="https://cache.marieclaire.fr/data/photo/w1200_h630_ci/7f/recette-de-pissaladiere-sans-gluten.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="twitter:image" content="https://cache.marieclaire.fr/data/photo/w1200_h630_ci/7f/recette-de-pissaladiere-sans-gluten.jpg" />
+<meta property="og:description" content="Envie de retrouver toutes les saveurs du Sud sans gluten ? Avec sa pâte moelleuse, ses oignons longuement confits, ses anchois et ses olives noires, cette pissaladière revisite le grand classique niçois tout en restant fidèle à la recette traditionnelle. Un incontournable à partager tout l&#039;été." />
+<meta property="twitter:description" content="Envie de retrouver toutes les saveurs du Sud sans gluten ? Avec sa pâte moelleuse, ses oignons longuement confits, ses anchois et ses olives noires, cette pissaladière revisite le grand classique niçois tout en restant fidèle à la recette traditionnelle. Un incontournable à partager tout l&#039;été." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-08-19T13:15:00+02:00" />
+<meta property="fb:pages" content="366773216734491" />
+<meta name="description" content="Envie de retrouver toutes les saveurs du Sud sans gluten ? Avec sa pâte moelleuse, ses oignons longuement confits, ses anchois et ses olives noires, cette pissaladière revisite le grand classique niçois tout en restant fidèle à la recette traditionnelle. Un incontournable à partager tout l'été." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#000000" />
+<meta name="p:domain_verify" content="9fef998ab9132cca31be9a9757bd6351" />
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="fo-verify" content="fe474528-418d-4738-9194-07f2efd5838f">
+<link rel="canonical" href="https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp"/>
+<link rel="shortcut icon" href="https://www.marieclaire.fr/favicon.ico"/>
+<meta property="mrf:sections" content="Cuisine et Vins de France" />
+<meta property="mrf:tags" content="sub-section:Entrées" />
+<meta property="mrf:tags" content="sub-sub-section:Quiches & tartes" />
+<meta property="mrf:tags" content="articleId:1518130;documentTypeLabel:RECETTE;documentTypeId:9;pageTypeId:1;trafficSourceId:1;isIntendedForDiscover:0" />
+<link rel="apple-touch-icon" href="https://cache.marieclaire.fr/image/pwa/icon-192x192.png">
+<script>
+if ('serviceWorker' in navigator) {
+	window.addEventListener('load', function() {
+		navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+			// Registration was successful
+			console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+			// registration failed :(
+			console.log('ServiceWorker registration failed: ', err);
+		});
+	});
+}
+// Setup a listener to track Add to Homescreen events.
+window.addEventListener('appinstalled', (evt) => {
+	triggerAnalyticsEvent(
+		"Clic",
+		"Installation via mini-info bar",
+		"pwa"
+	);
+});
+</script>
+<script>
+	runOnUserConsent(function() {
+		const script = document.createElement('script');script.src = 'https://launchpad-wrapper.privacymanager.io/086456cb-890f-47bb-bbcb-a10b22ec2623/launchpad-liveramp.js';script.defer = true;document.head.appendChild(script);
+	});
+</script>
+
+<!--@@@googleTagManager@@@-->
+<script>
+    var ps = document.getElementsByTagName('script')[0];tms = document.createElement('script');tms.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PSKS9L');";ps.parentNode.insertBefore(tms, ps);
+</script>
+
+<!--@@@googleTagManager@@@-->
+</head>
+
+<body itemscope itemtype="https://schema.org/WebPage" data-entry-id="2615634" data-thematic-id="2615659" data-section-id="2615673" class="is-cvf">
+
+
+<!--@@@layout@@@-->
+
+<!--@@@zone@@@-->
+
+<!--@@@dataManagementPlateform@@@-->
+
+<!--@@@dataManagementPlateform@@@-->
+
+
+<!--@@@advertising@@@-->
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--dhtml External-container is-empty" rel="dhtml"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_DHTML' sizes='[[800,600],[512,384],[320,480],[300,250],[1,1]]'  id='div-gpt-ad-dhtml'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--corner External-container is-empty" rel="corner"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Corner' sizes='[[1,1]]'  id='div-gpt-ad-corner'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--footer-1 External-container is-empty" rel="footer-1"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Footer' sizes='[[1,1]]'  id='div-gpt-ad-footer-1'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+
+<!--@@@zone@@@-->
+<header id="header" data-area-name="header">
+	
+<!--@@@zone@@@-->
+
+<!--@@@SiteHeader@@@-->
+<div class="SiteHeader">
+	<ul class="SiteHeader-links">
+		<li class="SiteHeader-linksItem SiteHeader-linksItem--social">
+			<div class="SiteHeader-link-socialContainer">
+<!--@@@socialNetwork@@@-->
+<div class="SocialLinks SocialLinks--header">
+<div class="SocialLinks-linkContainer"><a href="https://x.com/Cuisine_VinsdeF" data-type="twitter" class="SocialLinks-link SocialLinks-link--twitter" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.facebook.com/CuisineEtVinsDeFrance" data-type="facebook" class="SocialLinks-link SocialLinks-link--facebook" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://fr.pinterest.com/cuisineetvinsdefrance/" data-type="pinterest" class="SocialLinks-link SocialLinks-link--pinterest" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.instagram.com/cuisineetvinsdefrance/" data-type="instagram" class="SocialLinks-link SocialLinks-link--instagram" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.marieclaire.fr/cuisine/newsletter" data-type="newsletter" class="SocialLinks-link SocialLinks-link--newsletter"  title=""></a></div></div>
+
+<!--@@@socialNetwork@@@-->
+</div>
+		</li>
+	</ul>
+	<div class="SiteHeader-authentication" >
+		<div class="SiteHeader-authenticationLinkContainer">
+			<button class="SiteHeader-authenticationLink js-showSignUpModal">Inscription</button>
+		</div>
+		<div class="SiteHeader-authenticationLinkContainer">
+			<button class="SiteHeader-authenticationLink js-showLogInModal">Connexion</button>
+		</div>
+	</div>
+	<div class="SiteHeader-container">
+		<div class="SiteHeader-contentContainer">
+			<div class="SiteHeader-content">
+				<button class="SiteHeader-menuButton js-toggleRetractableMenu"></button>
+									<a href="https://www.marieclaire.fr/cuisine/" id="logo" class="SiteHeader-logo">Recettes faciles et accords mets vins cuisine de France</a>
+								<div class="SiteHeader-magazineSubscription">
+<!--@@@magazine@@@-->
+<div class="MagazineSubscription MagazineSubscription--header js-MagazineSubscription--header">
+	<div data-encodedhref="aHR0cHM6Ly93d3cuYWJvbm5lbWVudC1jdWlzaW5lLXZpbnMuZnIv" target="_blank" class="MagazineSubscription-link">Je m'abonne</div>
+		<div data-encodedhref="aHR0cHM6Ly93d3cuYWJvbm5lbWVudC1jdWlzaW5lLXZpbnMuZnIv" target="_blank" data-burger-url="https://www.abonnement-cuisine-vins.fr/" class="MagazineSubscription-popup MagazineSubscription-popup--subscriptionLink">
+		<div class="MagazineSubscription-popup--content">
+			<div class="MagazineSubscription-popup--imageContainer" data-burger-src="https://cache.marieclaire.fr/data/photo/w245_c17/magazine/cvf/cover.jpg?5ad7dda7c13e7983a911e842e024ecb2">
+				<img loading="lazy" class="MagazineSubscription-popup--image js-MagazineSubscription-popup--image" src="https://cache.marieclaire.fr/data/photo/w274_c17/magazine/cvf/cover.jpg?5ad7dda7c13e7983a911e842e024ecb2"/>
+							</div>
+			<div class="MagazineSubscription-popup--links">
+											<div class="MagazineSubscription-popup--link version-papier"><p>version</p><p>papier</p></div>
+													<div class="MagazineSubscription-popup--link version-numerique"><p>version</p><p>numérique</p></div>
+									</div>
+			<div class="MagazineSubscription-popup--button">Je m'abonne</div>
+			<div class="MagazineSubscription-popup--subtitle"></div>
+		</div>
+	</div>
+	</div>
+
+<!--@@@magazine@@@-->
+</div>
+				<button class="SiteHeader-searchButton js-showSearchOverlay"></button>
+			</div>
+		</div>
+	</div>
+<div class="SiteHeader-search js-siteOverlay">
+	<div class="SiteHeader-searchContent">
+		
+<!--@@@title@@@-->
+<div class="Title Title--overlay SiteHeader-searchTitle"><span class="Title-content">Recherche sur Marie Claire</span></div>
+<!--@@@title@@@-->
+		<button class="SiteHeader-searchCloseButton js-hideSearchOverlay"></button>
+		<div class="SiteHeader-searchFormContainer">
+			<form method="get" action="https://www.marieclaire.fr/recherche" class="SiteHeader-searchForm">
+				<input type="text" name="q" class="SiteHeader-searchField SiteHeader-searchQueryField js-searchQueryField" placeholder="Tapez ici votre recherche" />
+				<input type="submit" value="OK" class="SiteHeader-searchField SiteHeader-searchSubmitButton" />
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": "Marie Claire",
+	"url": "https://www.marieclaire.fr/cuisine/",
+	"logo" : {
+		"@type": "ImageObject",
+		"url": "https://cache.marieclaire.fr/image/picto/standard/logo_organization.png",
+		"width": 500,
+		"height": 500
+	},
+	"sameAs": ["https://x.com/Cuisine_VinsdeF", "https://www.facebook.com/CuisineEtVinsDeFrance", "https://fr.pinterest.com/cuisineetvinsdefrance/", "https://www.instagram.com/cuisineetvinsdefrance/"]
+}
+</script>
+<!--@@@SiteHeader@@@-->
+
+
+<!--@@@authentication@@@-->
+<div class="Modal js-authenticationModal">
+	<div class="AuthenticationModal Modal-container">
+		<div class="Modal-header">
+			<div class="Modal-title">Connectez-vous</div>
+			<button class="Modal-close js-closeModal"></button>
+		</div>
+		<div class="Modal-body">
+			<div class="AuthenticationModal-description js-authenticationModalDescription"></div>
+			<div class="AuthenticationModal-formsContainer" >
+				<form data-mrf-conversion="userLogIn" method="post" action="https://www.marieclaire.fr/direct/membre/identification" class="AuthenticationModal-logInContainer js-logInForm" novalidate="novalidate">
+					<input type="hidden" name="redirectURL" value="referer" />
+					<div class="AuthenticationModal-signInText">
+						<div class="AuthenticationModal-signInTitle">Vous avez d&eacute;j&agrave; un compte</div>
+
+					</div>
+					<div class="AuthenticationModal-logInError js-logInError"></div>
+					<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInIdentifier">
+						<input type="email" autocomplete="username" name="memberLogin" placeholder="Adresse e-mail" class="AuthenticationModal-field AuthenticationModal-logInIdentifier js-logInEmailAddress" />
+					</div><!--
+					--><div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInPassword">
+						<input type="password" autocomplete="current-password" name="memberPassword" placeholder="Mot de passe" class="AuthenticationModal-field AuthenticationModal-logInPassword" />
+						<div class="AuthenticationModal-lostPasswordContainer">
+							<button type="button" class="AuthenticationModal-lostPassword js-sendLostPassword">Mot de passe oubli&eacute;</button>
+						</div>
+					</div>
+					<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInKeepLoggedIn">
+						<input type="checkbox" name="setCookie" id="AuthenticationModal-setCookie"><!--
+						--><label for="AuthenticationModal-setCookie">Se souvenir de moi</label>
+					</div>
+					<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--logInSubmit">
+						<input type="submit" value="OK" />
+					</div>
+				</form>
+
+				<div class="AuthenticationModal-signUpContainer">
+
+					<div class="AuthenticationModal-signUpText">
+													<div class="AuthenticationModal-signUpTitle">Vous n'avez pas encore de compte</div>
+														<div class="AuthenticationModal-signUpLead">Je cr&eacute;&eacute; un compte pour recevoir mes newsletters et g&eacute;rer mes donn&eacute;es personnelles.</div>
+												</div>
+
+											<form method="get" action="https://www.marieclaire.fr/inscription" class="AuthenticationModal-signUpForm AuthenticationModal-signUpForm--defaultSignUp is-visible js-signUpForm" novalidate="novalidate">
+
+							<input type="hidden" name="redirectURL" value="referer" />
+
+							<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpEmailAddress">
+								<input type="email" placeholder="Adresse e-mail" name="emailAddress" class="AuthenticationModal-field AuthenticationModal-signUpEmailAddress js-signUpEmailAddress" />
+							</div>
+							<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpSubmit">
+								<input type="submit" value="CRÉER MON COMPTE" />
+							</div>
+
+						</form>
+						
+					<div data-action="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvZGlyZWN0L21lbWJyZS9pbnNjcmlwdGlvbnJhcGlkZQ==" class="AuthenticationModal-signUpForm AuthenticationModal-signUpForm--quickSignUp  js-signUpForm">
+						<input type="hidden" name="redirectURL" value="referer" class="js-AuthenticationRedirectURL" />
+						<input type="text" value="" name="applyRegistration" class="applyRegistration" />
+						<input type="text" value="" name="myname" class="applyRegistration" />
+
+						<div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpEmailAddress">
+							<div>
+								<input type="email" placeholder="Adresse e-mail" name="emailAddress" class="AuthenticationModal-field AuthenticationModal-signUpEmailAddress js-signUpEmailAddress" />
+							</div>
+							<div>
+								<input type="text" placeholder="Pseudonyme" name="nickname" class="AuthenticationModal-field AuthenticationModal-signUpNickName js-signUpNickName" />
+							</div>
+														<div class="AuthenticationModal-optionContainer">
+								<label for="agreement6a85916c4c516">
+									<input type="checkbox" class="js-signUpAgreement" id="agreement6a85916c4c516" /> J'accepte la <a href="https://www.marieclaire.fr/,mentions-legales,20214,1711.asp" target="_blank">charte</a>
+								</label>
+							</div>
+							<div class="AuthenticationModal-optionContainer">
+								<label for="optin6a85916c4c517">
+									<input type="checkbox" value="1" name="optin" id="optin6a85916c4c517" /> Je souhaite recevoir des offres du site et ses partenaires
+								</label>
+							</div>
+
+						</div><!--
+						--><div class="AuthenticationModal-fieldContainer AuthenticationModal-fieldContainer--signUpSubmit">
+							<input type="submit" value="OK" class="AuthenticationModal-signUpSubmit" />
+						</div>
+				</div>
+
+
+
+				</div>
+			</div>
+
+			
+		</div>
+
+		
+
+	</div>
+</div>
+<script>
+mc2m.push(function(){
+	loadAuthentication([
+		"\/data\/display\/authentication.js?7yv0uec2yoow84kkcgooo0kg4",
+		"\/data\/display\/modal.css?ngk718hq8ys4ssswcg8kw0wg"	]);
+});
+</script>
+
+<!--@@@authentication@@@-->
+
+<nav class="Menu">
+	<div class="Menu-wrapper is-static clearfix">
+		<ul class="Menu-list">
+<li class="Menu-item is-hidden" data-weight="0" data-reorder-priority="1"><a href="https://www.marieclaire.fr/" class="Menu-link">Retour Marieclaire.fr</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615668" data-weight="160"><a href="https://www.marieclaire.fr/cuisine/recettes/" class="Menu-link">Rechercher une recette</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615669 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/aperitifs,2615669.htm" class="Menu-link">Ap&eacute;ritifs</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615659 is-active Menu-item--parentItem" data-weight="150"><a href="https://www.marieclaire.fr/cuisine/aperitifs-entrees,2615659.asp1" class="Menu-link">Entr&eacute;es</a>				<ul class="Menu-sectionList">
+					<li class="Menu-sectionItem Menu-sectionItem--2615670">
+						<a href="https://www.marieclaire.fr/cuisine/salades,2615670.htm" class="Menu-sectionLink">Salades</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615671">
+						<a href="https://www.marieclaire.fr/cuisine/crudites,2615671.htm" class="Menu-sectionLink">Crudit&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615672">
+						<a href="https://www.marieclaire.fr/cuisine/feuilletes,2615672.htm" class="Menu-sectionLink">Feuillet&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615673">
+						<a href="https://www.marieclaire.fr/cuisine/quiches-tartes,2615673.htm" class="Menu-sectionLink">Quiches &amp; tartes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615674">
+						<a href="https://www.marieclaire.fr/cuisine/beignets-sales,2615674.htm" class="Menu-sectionLink">Beignets sal&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615675">
+						<a href="https://www.marieclaire.fr/cuisine/cakes-sales,2615675.htm" class="Menu-sectionLink">Cakes sal&eacute;s</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615676">
+						<a href="https://www.marieclaire.fr/cuisine/viandes-poissons-crus,2615676.htm" class="Menu-sectionLink">Viandes &amp; poissons crus</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615677">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-a-la-viande,2615677.htm" class="Menu-sectionLink">Entr&eacute;es aux escargots</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615678">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-poissons,2615678.htm" class="Menu-sectionLink">Entr&eacute;es aux poissons</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615679">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-au-foie-gras,2615679.htm" class="Menu-sectionLink">Entr&eacute;es au foie gras</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615680">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-fruits-de-mer,2615680.htm" class="Menu-sectionLink">Entr&eacute;es aux fruits de mer</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615681">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-chaudes,2615681.htm" class="Menu-sectionLink">Entr&eacute;es chaudes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615682">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-legumes,2615682.htm" class="Menu-sectionLink">Entr&eacute;es aux l&eacute;gumes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615683">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-au-fromage,2615683.htm" class="Menu-sectionLink">Entr&eacute;es au fromage</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615684">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-aux-oeufs,2615684.htm" class="Menu-sectionLink">Entr&eacute;es aux &oelig;ufs</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615685">
+						<a href="https://www.marieclaire.fr/cuisine/soupes-bouillons,2615685.htm" class="Menu-sectionLink">Soupes &amp; bouillons</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615686">
+						<a href="https://www.marieclaire.fr/cuisine/veloutes-cremes,2615686.htm" class="Menu-sectionLink">Velout&eacute;s &amp; cr&egrave;mes</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615687">
+						<a href="https://www.marieclaire.fr/cuisine/charcuteries,2615687.htm" class="Menu-sectionLink">Charcuteries</a>
+					</li>
+					<li class="Menu-sectionItem Menu-sectionItem--2615688">
+						<a href="https://www.marieclaire.fr/cuisine/entrees-en-gelee,2615688.htm" class="Menu-sectionLink">Entr&eacute;es en gel&eacute;e</a>
+					</li>
+				</ul>
+</li><li class="Menu-item Menu-item--section Menu-item--section-2615660" data-weight="140"><a href="https://www.marieclaire.fr/cuisine/plats,2615660.asp1" class="Menu-link">Plats</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615661" data-weight="130"><a href="https://www.marieclaire.fr/cuisine/desserts,2615661.asp1" class="Menu-link">Desserts</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615799 is-hidden" data-weight="125"><a href="https://www.marieclaire.fr/cuisine/cuisine-de-saison,2615799.asp1" class="Menu-link">Cuisine de saison</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615802 is-hidden" data-weight="124"><a href="https://www.marieclaire.fr/cuisine/cuisine-regionale,2615802.asp1" class="Menu-link">Cuisine r&eacute;gionale</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615801 is-hidden" data-weight="123"><a href="https://www.marieclaire.fr/cuisine/cuisine-du-monde,2615801.asp1" class="Menu-link">Cuisine du monde</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615667" data-weight="120"><a href="https://www.marieclaire.fr/cuisine/vins-boissons,2615667.asp1" class="Menu-link">Vins</a></li><li class="Menu-item Menu-item--section Menu-item--section-2616263" data-weight="119"><a href="https://www.marieclaire.fr/cuisine/boissons,2616263.asp1" class="Menu-link">Boissons</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615662 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/accompagnements-sauces,2615662.asp1" class="Menu-link">Accompagnements &amp; sauces</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615666 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/tendances-cuisine,2615666.asp1" class="Menu-link">Tendances cuisine</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615664 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/recettes-par-occasions,2615664.asp1" class="Menu-link">Recettes par occasions</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615879 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/recettes-de-chefs,2615879.htm" class="Menu-link">Recettes de chefs</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615663 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/ingredients,2615663.asp1" class="Menu-link">Ingr&eacute;dients</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615665 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/recettes-de-noel,2615665.asp1" class="Menu-link">Recettes de No&euml;l</a></li><li class="Menu-item Menu-item--section Menu-item--section-2616125 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/guide-d-achat-cuisine,2616125.asp1" class="Menu-link">Guide d'achat cuisine</a></li><li class="Menu-item Menu-item--section Menu-item--section-2615836 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/questions-cuisine,2615836.asp1" class="Menu-link">Questions cuisine</a></li><li class="Menu-item js-NewsletterMenuItem is-hidden" data-weight="0"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9uZXdzbGV0dGVy" class="Menu-link">Newsletter</div></li><li class="Menu-item Menu-item--section Menu-item--section-2615881 is-hidden" data-weight="0"><a href="https://www.marieclaire.fr/cuisine/boutique,2615817.htm" class="Menu-link">Boutique</a></li><li class="Menu-item Menu-item--highlighted isFixed" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9uZXdzbGV0dGVy" class="Menu-link">Newsletter</div></li><li class="Menu-item Menu-item--highlighted isFixed" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9ndWlkZS1kLWFjaGF0LWN1aXNpbmUsMjYxNjEyNS5hc3Ax" class="Menu-link">Guide d'achat</div></li><li class="Menu-item Menu-item--highlighted" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY29kZXMtcHJvbW8vYWxpbWVudGF0aW9u" class="Menu-link">Codes promo alimentation</div></li><li class="Menu-item Menu-item--highlighted" data-weight="100" data-reorder-priority="2"><div data-encodedhref="aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUuZnIvY3Vpc2luZS9jdWlzaW5lci1hdS1haXItZnJ5ZXIsMjYxNjM0MS5odG0=" class="Menu-link">Cuisiner au Air Fryer</div></li>		</ul>
+	</div>
+</nav>
+	<div class="TrendingNav"><div class="TrendingNav-wrapper"><span class="TrendingNav-title">En ce moment</span><span class="TrendingNav-links"></span></div>
+<script>
+mc2m.push(function() { jQuery(document).trigger("menuAvailable"); });
+</script>
+
+
+<!--@@@zone@@@-->
+</header>
+<div id="body" data-area-name="page">
+	<div class="BodyContent">
+		
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--top-2 External-container is-empty isSticky" rel="top-2"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Top-2' sizes='[[1000,250],[970,250],[750,150],[728,90],[320,50],[320,100],[1,1],["fluid"],[1620,1500],[1800,1000]]'  id='div-gpt-ad-top-2'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+
+<!--@@@zone@@@-->
+
+<!--@@@filariane@@@-->
+<nav class="Breadcrumb clearfix">
+	<ul class="Breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="Breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Marie Claire</span></a><meta itemprop="position" content="1" /></li>
+		<li class="Breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/cuisine/" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Cuisine et Vins de France</span></a><meta itemprop="position" content="2" /></li>
+		<li class="Breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/cuisine/aperitifs-entrees,2615659.asp1" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Entr&eacute;es</span></a><meta itemprop="position" content="3" /></li>
+		<li class="Breadcrumb-item is-active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://www.marieclaire.fr/cuisine/quiches-tartes,2615673.htm" class="Breadcrumb-link" itemprop="item"><span itemprop="name">Quiches &amp; tartes</span></a><meta itemprop="position" content="4" /></li>
+	</ul>
+</nav>
+
+<!--@@@filariane@@@-->
+
+
+<!--@@@articleContainer@@@-->
+<article data-area-name="content">
+	<div data-area-name="header">
+
+<!--@@@zone@@@-->
+
+
+<!--@@@articleHeader@@@-->
+<div class="ArticleHeader">
+
+<!--@@@title@@@-->
+<h1 class="Title Title--article ArticleHeader-title"><span class="Title-content">Pissaladi&egrave;re sans gluten&nbsp;: la recette proven&ccedil;ale qui ne fait aucun compromis sur la gourmandise</span></h1>
+<!--@@@title@@@-->
+	<div class="ArticleHeader-metaContainer">
+		<div class="ArticleHeader-metaElement ArticleHeader-authorContainer">
+			Par <span class="ArticleHeader-author"><span class="ArticleHeader-authorLink">Cuisine et Vins de France</span></span>
+		</div>
+		<div class="ArticleHeader-metaElement ArticleHeader-date ArticleHeader-date--publication">
+			Publi&eacute; le <time datetime="2026-08-19T13:15:00+02:00">19/08/2026 &agrave; 13:15</time>
+		</div>
+	</div>
+	<div class="ArticleHeader-imageContainer">
+		<figure><div class="ArticleHeader-imageAndCopyright ">
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w1000_ci/7f/recette-de-pissaladiere-sans-gluten.webp 1000w, https://cache.marieclaire.fr/data/photo/w768_ci/7f/recette-de-pissaladiere-sans-gluten.webp 768w, https://cache.marieclaire.fr/data/photo/w680_ci/7f/recette-de-pissaladiere-sans-gluten.webp 680w, https://cache.marieclaire.fr/data/photo/w1500_ci/7f/recette-de-pissaladiere-sans-gluten.webp 1500w" type="image/webp" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw"/><img width="1000" height="1333"  src="https://cache.marieclaire.fr/data/photo/w1000_ci/7f/recette-de-pissaladiere-sans-gluten.jpg" srcset="https://cache.marieclaire.fr/data/photo/w1000_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 1000w, https://cache.marieclaire.fr/data/photo/w768_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 768w, https://cache.marieclaire.fr/data/photo/w680_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 680w, https://cache.marieclaire.fr/data/photo/w1500_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 1500w" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw" alt="Pissaladi&egrave;re sans gluten&nbsp;: la recette proven&ccedil;ale qui ne fait aucun compromis sur la gourmandise" class="ArticleHeader-image Ratio-1-333" fetchpriority="high" /></picture>
+<!--@@@imageTag@@@-->
+			<!--<button class="ArticleHeader-bookmark js-bookmarkArticle" title="Ajouter aux favoris">Ajouter aux favoris</button>-->
+			<button class="ArticleHeader-copyrightContainer"><span class="ArticleHeader-copyright">Getty images / &copy;Tasty food and photography</span></button>
+
+<!--@@@socialNetwork@@@-->
+<div class="SocialNetwork SocialNetwork--light" data-title="Pissaladi&egrave;re sans gluten&nbsp;: la recette proven&ccedil;ale qui ne fait aucun compromis sur la gourmandise">
+	<button class="SocialNetwork-service SocialNetwork-service--pinterest js-SocialNetworkLink" data-type="pinterest" data-image-url="https://cache.marieclaire.fr/data/photo/w1500_ci/7f/recette-de-pissaladiere-sans-gluten.webp"></button>
+</div>
+<!--@@@socialNetwork@@@-->
+</div>
+		</figure>
+
+	</div>
+
+<!--@@@articleheaderactions@@@-->
+<div class="ArticleHeader-Actions">
+		<div class="ArticleHeader-ActionsCopyLink">
+		<button class="CopySave ArticleHeader-ActionsSaveButton">Enregistrer</button>
+				<button class="CopySave ArticleHeader-ActionsShareButton">Partager</button>
+		<div class="Networks">
+			<div class="NetworkTitle">Partager l'article</div>
+			<div class="NetworkLink ArticleHeader-ActionsCopyLinkButton">Copier le lien</div>
+			<div class="NetworkLink Facebook" data-type="Facebook">Facebook</div>
+			<div class="NetworkLink X" data-type="X">X</div>
+			<div class="NetworkLink Pinterest" data-type="Pinterest">Pinterest</div>
+		</div>
+		<a href="https://google.com/preferences/source?q=https://www.marieclaire.fr" rel="nofollow" target="_blank" class="CopySave ArticleHeader-ActionsFavoriteButton">Suivre</a>
+	</div>
+</div>
+<!--@@@articleheaderactions@@@-->
+	<div class="ArticleHeader-lead">Envie de retrouver toutes les saveurs du Sud sans gluten&nbsp;? Avec sa p&acirc;te moelleuse, ses oignons longuement confits, ses anchois et ses olives noires, cette pissaladi&egrave;re revisite le grand classique ni&ccedil;ois tout en restant fid&egrave;le &agrave; la recette traditionnelle. Un incontournable &agrave; partager tout l'&eacute;t&eacute;.</div>
+</div>
+
+
+<!--@@@articleHeader@@@-->
+
+
+<!--@@@zone@@@-->
+	</div>
+	<div class="ArticleContent">
+		<div class="ArticleContent-aside ArticleContent-advertising ArticleContent-advertising--primary thinColumn">
+
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--right-1 External-container is-empty" rel="right-1"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Right-1' sizes='[[300,250],[300,600],[371,660],[1,1]]'  id='div-gpt-ad-right-1'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+		<div class="ArticleContent-aside ArticleContent-advertising ArticleContent-advertising--secondary thinColumn">
+
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--square-2 External-container is-empty" rel="square-2"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Square-2' sizes='[[300,250],[300,600],[1,1]]'  id='div-gpt-ad-square-2'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+		<div class="ArticleContent-main mediumColumn" data-area-name="body">
+
+<!--@@@zone@@@-->
+
+
+<!--@@@articleContentContainer@@@-->
+<div class="Article">
+
+<!--@@@reviewsynthesis@@@-->
+<div class="ReviewSynthesis">
+	<div class="ReviewSynthesis-counts js-anchorLink" data-target=".ReviewSynthesis-scores">
+		<div class="ReviewSynthesis-commentCount">
+			0 avis		</div>
+		<div class="ReviewSynthesis-averageScore">
+			Aucune note		</div>
+	</div>
+	</div>
+<!--@@@reviewsynthesis@@@-->
+	<div class="Article-commentButtonContainer">
+		<button class="Button js-CommentButton" data-target="https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp#depotAvis">Je donne mon avis</button>
+	</div>
+
+
+<div class="Article-text Article-recipeText">
+	<div class="Article-recipeTitle fakeH">Infos pratiques</div>
+	<ul class="Article-recipeItems">
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Nombre de personnes</label><span class="Article-recipeItemValue">6</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Temps de pr&eacute;paration</label><span class="Article-recipeItemValue">25 minutes</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Temps de cuisson</label><span class="Article-recipeItemValue">30 &agrave; 35 minutes</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Temps de repos/attente</label><span class="Article-recipeItemValue">1 heure</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Degr&eacute; de difficult&eacute;</label><span class="Article-recipeItemValue">Facile</span></li>
+		<li class="Article-recipeItem"><label class="Article-recipeItemLabel">Co&ucirc;t</label><span class="Article-recipeItemValue">Bon march&eacute;</span></li>
+	</ul>
+	</div>
+	<div class="Article-text Article-recipeText">
+		<h2 class="Article-recipeTitle ">Les ingr&eacute;dients de la recette</h2>
+<p><strong>Pour la p&acirc;te :</strong></p>
+<ul>
+<li>250 g de farine sans gluten (mix sp&eacute;cial pain)</li>
+<li>7 g de levure boulang&egrave;re s&egrave;che</li>
+<li>1 c. &agrave; c. de sucre</li>
+<li>1 c. &agrave; c. de sel</li>
+<li>2 c. &agrave; s. d'huile d'olive</li>
+<li>180 ml d'eau ti&egrave;de</li>
+</ul>
+<p><strong>Pour la garniture :</strong></p>
+<ul>
+<li>800 g d'oignons jaunes</li>
+<li>3 c. &agrave; s. d'huile d'olive</li>
+<li>2 gousses d'ail</li>
+<li>1 branche de thym</li>
+<li>1 feuille de laurier</li>
+<li>8 &agrave; 10 filets d'anchois</li>
+<li>Une vingtaine d'olives noires</li>
+<li>Poivre du moulin</li>
+</ul>
+<!--@@@feature@@@-->
+
+<!--@@@videoGroup@@@-->
+<div class="VideoGroup VideoGroup--intext">
+	<div class="VideoGroup-intextTitle"><span>Vid&eacute;o - Plats familiaux</span></div>
+
+<!--@@@MediaPlayer@@@-->
+<div id="m6a85916c933da777203733" class="MediaPlayer" data-event-monitoring-category="Bloc" data-event-monitoring-action="Dailymotion"><script type="text/javascript">
+	mc2m.push(function() {
+		runOnUserConsent(function() {
+			jQuery("#m6a85916c933da777203733").mediaPlayer({"type":"Dailymotion","id":"x5jru90","title":"\u00c0 quelle temp\u00e9rature servir le vin\u00a0?","autoPlayOnScroll":true,"mute":false,"muteAutoPlay":false,"advertisingParameters":{"use":"site-highlight"},"parameters":{"specific":{"Dailymotion":{"params":{"syndicationKey":198571,"enableInfo":false},"playerConfigurationId":"x9m4s","stickyPlayerConfigurationId":"xgp8u"},"Digiteka":{"desktop":{"mdtk":"01467012","zone":null},"mobile":{"mdtk":"01761862","zone":null}},"VideoJS":{"advertisingVastUrl":"https:\/\/pubads.g.doubleclick.net\/gampad\/live\/ads?iu=\/21720049534\/cuisine_et_vins_de_france_video_atf&description_url=https%3A%2F%2Fwww.marieclaire.fr%2Fcuisine%2F&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&unviewed_position_start=1"}}},"width":"100%","height":"100%","volume":0.01});
+		});
+	});
+</script>
+</div>
+
+<!--@@@MediaPlayer@@@-->
+</div>
+
+<!--@@@videoGroup@@@-->
+
+<!--@@@feature@@@-->
+	</div>
+	<div class="Article-text Article-recipeText">
+		<h2 class="Article-recipeTitle ">La pr&eacute;paration de la recette</h2>
+<ol>
+<li>Commencez par pr&eacute;parer la p&acirc;te en m&eacute;langeant la farine sans gluten, la levure, le sucre et le sel. Incorporez l'huile d'olive, puis versez progressivement l'eau ti&egrave;de jusqu'&agrave; obtenir une p&acirc;te homog&egrave;ne et souple. P&eacute;trissez quelques minutes, couvrez d'un torchon propre et laissez lever pendant environ une heure.</li>
+<li>Pendant ce temps, &eacute;pluchez et &eacute;mincez finement les oignons. Faites-les revenir doucement dans l'huile d'olive avec l'ail hach&eacute;, le thym et le laurier. Laissez cuire &agrave; feu doux pendant 30 &agrave; 40 minutes en remuant r&eacute;guli&egrave;rement, jusqu'&agrave; ce qu'ils deviennent fondants et l&eacute;g&egrave;rement confits. Retirez le thym et le laurier, puis poivrez.</li>
+<li>Pr&eacute;chauffez le four &agrave; 200 &deg;C. &Eacute;talez la p&acirc;te sur une plaque recouverte de papier cuisson. R&eacute;partissez les oignons sur toute la surface, disposez les filets d'anchois en croisillons puis ajoutez les olives noires.</li>
+<li>Enfournez 30 &agrave; 35 minutes, jusqu'&agrave; ce que la p&acirc;te soit bien dor&eacute;e. D&eacute;gustez la pissaladi&egrave;re ti&egrave;de ou froide !&nbsp;</li>
+</ol>
+<!--@@@advertising@@@-->
+<div class="External External--intext-1 External-container is-empty intext" rel="intext-1"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Intext-1' sizes='[[300,250],[400,300],[1,1],["fluid"]]'  id='div-gpt-ad-intext-1'></div>
+</div>
+
+<!--@@@advertising@@@-->
+	</div>
+	<div class="Article-text Article-recipeText">
+		<div class="Article-recipeTitle fakeH">Conseils</div>
+<p>Pour une p&acirc;te encore plus croustillante, ajoutez une cuill&egrave;re &agrave; soupe de <a href="https://www.marieclaire.fr/cuisine/recettes-de-polenta,1222006.asp" title="Comment cuisiner la polenta&nbsp;?" class="internal">polenta</a> fine ou remplacez une partie de la farine par de la farine de riz !&nbsp;</p>
+
+<!--@@@contextuallinks@@@-->
+	<div class="ContextualLinks ">
+					<div class="ContextualLinks-title"><span>Lire aussi</span></div>
+			<a class="ContextualLinks-link"  href="https://www.marieclaire.fr/cuisine/comment-bien-cuisiner-les-anchois,1221464.asp">Comment bien cuisiner les anchois&nbsp;?</a>	</div>
+	
+<!--@@@contextuallinks@@@-->
+	</div>
+
+<!--@@@advertising@@@-->
+<div class="External External--intext-2 External-container is-empty intext" rel="intext-2"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Intext-2' sizes='[[300,250],[400,300],[1,1],["fluid"]]'  id='div-gpt-ad-intext-2'></div>
+</div>
+
+<!--@@@advertising@@@-->
+	<a class="Article-print" href="https://www.marieclaire.fr/print/article/1518130" target="_blank" rel="nofollow" data-event-monitoring-action="Impression recette">
+		<span class="Article-printLabel">
+			Imprimer la recette
+		</span>
+	</a>
+</div>
+
+<script type="application/ld+json">
+	{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pissaladière sans gluten : la recette provençale qui ne fait aucun compromis sur la gourmandise",
+    "identifier": 1518130,
+    "headline": "Pissaladière sans gluten : la recette provençale qui ne fait aucun compromis sur la gourmandise",
+    "description": "Envie de retrouver toutes les saveurs du Sud sans gluten ? Avec sa pâte moelleuse, ses oignons longuement confits, ses anchois et ses olives noires, cette pissaladière revisite le grand classique niçois tout en restant fidèle à la recette traditionnelle. Un incontournable à partager tout l'été.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp"
+    },
+    "articleSection": "Quiches & tartes",
+    "datePublished": "2026-08-19T13:15:00+02:00",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://cache.marieclaire.fr/data/photo/w1200_h630_c17/7f/recette-de-pissaladiere-sans-gluten.jpg",
+        "width": 1200,
+        "height": 630
+    },
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cuisine et Vins de France"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Marie Claire",
+        "url": "https://www.marieclaire.fr",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://cache.marieclaire.fr/image/picto/standard/logo_organization.png",
+            "width": 500,
+            "height": 500
+        }
+    },
+    "isAccessibleForFree": true,
+    "recipeCategory": "Entrée",
+    "prepTime": "PT25M",
+    "totalTime": "PT1H25M",
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Commencez par préparer la pâte en mélangeant la farine sans gluten, la levure, le sucre et le sel. Incorporez l'huile d'olive, puis versez progressivement l'eau tiède jusqu'à obtenir une pâte homogène et souple. Pétrissez quelques minutes, couvrez d'un torchon propre et laissez lever pendant environ une heure."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pendant ce temps, épluchez et émincez finement les oignons. Faites-les revenir doucement dans l'huile d'olive avec l'ail haché, le thym et le laurier. Laissez cuire à feu doux pendant 30 à 40 minutes en remuant régulièrement, jusqu'à ce qu'ils deviennent fondants et légèrement confits. Retirez le thym et le laurier, puis poivrez."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Préchauffez le four à 200 °C. Étalez la pâte sur une plaque recouverte de papier cuisson. Répartissez les oignons sur toute la surface, disposez les filets d'anchois en croisillons puis ajoutez les olives noires."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Enfournez 30 à 35 minutes, jusqu'à ce que la pâte soit bien dorée. Dégustez la pissaladière tiède ou froide ! "
+        }
+    ],
+    "recipeYield": "6",
+    "recipeIngredient": "Pour la pâte :\r\n\r\n250 g de farine sans gluten (mix spécial pain)\r\n7 g de levure boulangère sèche\r\n1 c. à c. de sucre\r\n1 c. à c. de sel\r\n2 c. à s. d'huile d'olive\r\n180 ml d'eau tiède\r\n\r\nPour la garniture :\r\n\r\n800 g d'oignons jaunes\r\n3 c. à s. d'huile d'olive\r\n2 gousses d'ail\r\n1 branche de thym\r\n1 feuille de laurier\r\n8 à 10 filets d'anchois\r\nUne vingtaine d'olives noires\r\nPoivre du moulin\r\n"
+}
+</script>
+<!--@@@articleContentContainer@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+		<div class="ArticleContent-main ArticleContent-share mediumColumn" data-area-name="footer">
+
+<!--@@@zone@@@-->
+
+
+<!--@@@commentForm@@@-->
+		<button class="CommentButton Button js-showLogInModal" data-target="https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp#depotAvis">Je donne mon avis</button>
+		
+<!--@@@commentForm@@@-->
+
+
+<!--@@@socialNetwork@@@-->
+<div class="SocialNetwork SocialNetwork--condensed" data-title="Pissaladi&egrave;re sans gluten&nbsp;: la recette proven&ccedil;ale qui ne fait aucun compromis sur la gourmandise" data-area-name="social">
+
+		<div class="SocialNetwork-serviceContainer">
+	<button class="SocialNetwork-service SocialNetwork-service--facebook js-SocialNetworkLink" data-type="facebook"></button>
+	<button class="SocialNetwork-service SocialNetwork-service--twitter js-SocialNetworkLink" data-type="twitter" data-account=Cuisine_VinsdeF></button>
+	<button class="SocialNetwork-service SocialNetwork-service--pinterest js-SocialNetworkLink" data-type="pinterest"></button>
+	<button class="SocialNetwork-service SocialNetwork-service--newsletter js-SocialNetworkLink" data-type="newsletter" data-url="https://www.marieclaire.fr/cuisine/newsletter"></button>
+		</div>
+</div>
+
+<!--@@@socialNetwork@@@-->
+
+
+<!--@@@zone@@@-->
+		</div>
+	</div>
+
+<!--@@@zone@@@-->
+
+<!--@@@advertising@@@-->
+<div class="External External--in-image External-container is-empty" rel="in-image"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_In-Image' sizes='[[1,1]]'  id='div-gpt-ad-in-image'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+</article>
+<!--@@@articleContainer@@@-->
+
+
+<!--@@@newsletter@@@-->
+<div class="NewsletterBox NewsletterBox--section">
+		<div class="NewsletterBox-text">
+		<p class="NewsletterBox-title">Newsletter</p>
+		<p class="NewsletterBox-subTitle">Tous les jours, des idées de recettes pour les repas du quotidien comme les grandes occasions !</p>
+	</div>
+	<div class="NewsletterBox-formContainer">
+		<form action="https://www.marieclaire.fr/cuisine/newsletter" class="NewsletterBox-form js-NewsletterSectionSubscriptionForm" id="Newsletter-form" novalidate="novalidate">
+						<input type="email" value="" name="emailAddress" placeholder="Votre adresse e-mail" class="NewsletterBox-emailAddressField js-emailAddress" />
+			<input type="submit" value="Valider" class="NewsletterBox-submitButton NewsletterSectionButtonGGN" />
+			<input type="submit" value="S'abonner" class="NewsletterBox-submitButton isConnected NewsletterSectionButtonGGN" />
+					</form>
+	</div>
+	</div>
+<!--@@@newsletter@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--contextual-1 External-container is-empty" rel="contextual-1"><script>
+	runOnUserConsent(function() {
+		if (pageEnvironment.context.isSubscriber === false) {
+			/*var firstIdCookie = jQuery.cookie("firstid");
+			if(firstIdCookie) {
+				var outbrainBlock = document.querySelector('.OUTBRAIN');
+				outbrainBlock.setAttribute('data-ob-ppid','{"name":"firstId","value":"'+firstIdCookie+'"}');
+			}*/
+			var pageScripts = document.getElementsByTagName('script')[0];
+			obScript = document.createElement('script');
+			obScript.type = 'text/javascript';
+			obScript.src = 'https://widgets.outbrain.com/outbrain.js?i=fabbb127';
+			obScript.async = true;
+			pageScripts.parentNode.insertBefore(obScript, pageScripts);
+		}
+	});
+</script>
+<aside>
+	<div class="OUTBRAIN" data-src="https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp" data-widget-id="AR_4"></div>
+</aside>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@feature@@@-->
+
+<!--@@@title@@@-->
+<div class="Title Title--contextual"><span class="Title-content">En partenariat</span></div>
+<!--@@@title@@@-->
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles List--inline ContentAutoPromo">
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/augustinus-bader-solaire.webp 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/augustinus-bader-solaire.webp 680w" type="image/webp" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw"/><img width="320" height="160"  src="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/augustinus-bader-solaire.jpg" srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/augustinus-bader-solaire.jpg 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/augustinus-bader-solaire.jpg 680w" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw" alt="augustinus bader solaire" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://go.linkby.com/HYFCFTXH" target="_blank" class="ArticleLink-link">Les 5 essentiels Augustinus Bader &agrave; glisser dans sa valise cet &eacute;t&eacute;</a></div>
+							<div class="ArticleLink-partner" style="color:reset">à découvrir sur Augustinusbader.com</div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/gymshark-seamless.webp 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/gymshark-seamless.webp 680w" type="image/webp" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw"/><img width="320" height="160"  src="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/gymshark-seamless.jpg" srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/gymshark-seamless.jpg 320w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/gymshark-seamless.jpg 680w" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw" alt="gymshark seamless" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://go.linkby.com/FAIWCMEJ" target="_blank" class="ArticleLink-link">Gymshark r&eacute;invente Lift Seamless, le legging galbant devenu culte</a></div>
+							<div class="ArticleLink-partner" style="color:reset">À découvrir sur Gymshark</div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/najell-mirage.webp 320w, https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/najell-mirage.webp 500w" type="image/webp" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw"/><img width="320" height="160"  src="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/najell-mirage.jpg" srcset="https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/najell-mirage.jpg 320w, https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/najell-mirage.jpg 500w" sizes="(min-width: 1020px) 300px, (max-width: 1019px) and (min-width: 640px) 30vw, (max-width: 639px) 100vw" alt="najell mirage" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://go.linkby.com/CPWZHQYC" target="_blank" class="ArticleLink-link">Id&eacute;al pour l'&eacute;t&eacute;&nbsp;: la douceur d'une &eacute;charpe de portage, le maintien d'un porte-b&eacute;b&eacute;. </a></div>
+							<div class="ArticleLink-partner" style="color:reset">À découvrir sur Najell</div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+<!--@@@feature@@@-->
+
+
+<!--@@@list@@@-->
+<div class="List List--parentCollections">
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--mainParentCollection js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/68/recette-aperitif-sans-gluten.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/68/recette-aperitif-sans-gluten.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/68/recette-aperitif-sans-gluten.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/68/recette-aperitif-sans-gluten.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/68/recette-aperitif-sans-gluten.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/68/recette-aperitif-sans-gluten.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/68/recette-aperitif-sans-gluten.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/68/recette-aperitif-sans-gluten.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/68/recette-aperitif-sans-gluten.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes ap&eacute;ritif sans gluten" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recettes-sans-gluten-d-aperitifs,1190016.asp" class="ArticleLink-link">Un ap&eacute;ritif sans gluten, c'est possible&nbsp;!</a></div>
+					</div>
+		<div class="ArticleLink-text">197 articles</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+<div class="ParentCollectionLinks retracted js-ParentCollectionLinks"><div class="ParentCollectionLinks-list"><a href="https://www.marieclaire.fr/cuisine/la-tartinade-de-petits-pois-et-citrons-confits-de-catherine-kluger,1455213.asp" class="ParentCollectionLinks-link">La tartinade de petits pois et citrons confits de Catherine Kluger</a><a href="https://www.marieclaire.fr/cuisine/dip-d-aubergines-zaalouk-et-dip-de-poivrons,1455155.asp" class="ParentCollectionLinks-link">Dip d'aubergines (zaalouk) et dip de poivrons</a><a href="https://www.marieclaire.fr/cuisine/pickles-de-courgette,1454973.asp" class="ParentCollectionLinks-link">Pickles de courgette</a><a href="https://www.marieclaire.fr/cuisine/verrines-de-melon-au-jambon-cru-et-ricotta,1453546.asp" class="ParentCollectionLinks-link">Verrines de melon au jambon cru et ricotta</a><a href="https://www.marieclaire.fr/cuisine/brochettes-aperitives-tomate-mozzarella-courgette-pesto-de-roquette,1453420.asp" class="ParentCollectionLinks-link">Brochettes ap&eacute;ritives tomate, mozzarella, courgette, pesto de roquette</a><a href="https://www.marieclaire.fr/cuisine/avec-un-simple-yaourt-realisez-ce-fromage-libanais-ultra-cremeux-a-deguster-tout-l-ete,1517838.asp" class="ParentCollectionLinks-link">Avec un simple yaourt, r&eacute;alisez ce fromage libanais ultra cr&eacute;meux &agrave; d&eacute;guster tout l'&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/tartinade-aux-poivrons-rotis,1517089.asp" class="ParentCollectionLinks-link">La recette ultra facile qui sublime les poivrons r&ocirc;tis</a><a href="https://www.marieclaire.fr/cuisine/recette-de-batonnets-de-courgettes-panes-vegan-et-sans-gluten,1516998.asp" class="ParentCollectionLinks-link">Ces b&acirc;tonnets de courgettes pan&eacute;s vegan et sans gluten sont incroyablement croustillants&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/pour-des-frites-de-carottes-bien-croustillantes-au-airfryer-ajoutez-cet-ingredient-avant-la-cuisson,1516721.asp" class="ParentCollectionLinks-link">Pour des frites de carottes bien croustillantes au Airfryer, ajoutez cet ingr&eacute;dient avant la cuisson</a><a href="https://www.marieclaire.fr/cuisine/scarpaccia-aux-pommes-de-terre-la-recette-sans-gluten-qui-ravira-les-gourmands,1516567.asp" class="ParentCollectionLinks-link">Scarpaccia aux pommes de terre&nbsp;: la recette sans gluten qui ravira les gourmands</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tartinade-de-petits-pois-et-son-coeur-de-burrata,1516531.asp" class="ParentCollectionLinks-link is-hidden">Avec cette bo&icirc;te de petits pois, vous obtenez une tartinade ultra cr&eacute;meuse qui fait sensation &agrave; l'ap&eacute;ritif</a><a href="https://www.marieclaire.fr/cuisine/tartinade-ricotta-courgettes-basilic-et-citron,1516416.asp" class="ParentCollectionLinks-link is-hidden">Cette tartinade de courgettes &agrave; la ricotta va devenir l'incontournable de tous les ap&eacute;ros d'&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/recette-de-chips-de-feuilles-de-riz,1516107.asp" class="ParentCollectionLinks-link is-hidden">Ces chips de feuilles de riz sont le snack croustillant dont tout le monde raffole</a><a href="https://www.marieclaire.fr/cuisine/recettes-faciles-a-faire-pour-regarder-le-foot,1515862.asp" class="ParentCollectionLinks-link is-hidden">Ap&eacute;ro foot&nbsp;: 15 recettes faciles &agrave; faire pour d&eacute;guster devant un match</a><a href="https://www.marieclaire.fr/cuisine/fines-croustillantes-et-sans-gluten-ces-chips-de-parmesan-maison-se-preparent-en-de-5-minutes,1514735.asp" class="ParentCollectionLinks-link is-hidden">Fines, croustillantes et sans gluten, ces chips de parmesan maison se pr&eacute;parent en - de 5 minutes&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-keftas-de-boeuf-aux-epices,1514734.asp" class="ParentCollectionLinks-link is-hidden">Voici la recette express des keftas maison &agrave; servir avec une sauce au yaourt citronn&eacute;e</a><a href="https://www.marieclaire.fr/cuisine/recette-de-mini-pizzas-facon-socca,1514733.asp" class="ParentCollectionLinks-link is-hidden">On a remplac&eacute; la p&acirc;te &agrave; pizza par des pois chiches&hellip; et le r&eacute;sultat est incroyablement croustillant &agrave; l&rsquo;ap&eacute;ro</a><a href="https://www.marieclaire.fr/cuisine/recette-de-toasts-de-courgette-cream-cheese-au-tofu-et-olive-noir,1514226.asp" class="ParentCollectionLinks-link is-hidden">Ces faux toasts de courgette vont d&eacute;tr&ocirc;ner vos tartines de l&rsquo;&eacute;t&eacute; (et personne ne devinera qu&rsquo;il y a du tofu dedans)</a><a href="https://www.marieclaire.fr/cuisine/recette-de-toats-de-courgette-crue-concombre-et-chevre,1514193.asp" class="ParentCollectionLinks-link is-hidden">Ces toasts de courgette crue au ch&egrave;vre vont voler la vedette &agrave; tous vos ap&eacute;ros cet &eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/recette-de-rouleaux-de-courgettes-a-la-creme-au-fromage-et-au-basilic,1514177.asp" class="ParentCollectionLinks-link is-hidden">Ces rouleaux de courgettes crues &agrave; la ricotta vont faire exploser vos ap&eacute;ros d&rsquo;&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/recette-du-tzatziki-concombres-et-courgettes,1514170.asp" class="ParentCollectionLinks-link is-hidden">Ajoutez un ingr&eacute;dient &agrave; ce simple tzatziki pour le rendre encore plus gourmand&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tartinade-epinard-artichaut,1513855.asp" class="ParentCollectionLinks-link is-hidden">Oubliez tout&nbsp;: cette tartinade &eacute;pinard et artichaut aux noix de cajou va vous rendre accro d&egrave;s la premi&egrave;re bouch&eacute;e&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tartinade-asperge-et-petits-pois,1513777.asp" class="ParentCollectionLinks-link is-hidden">V&eacute;g&eacute;tale de A &agrave; Z cette tartinade est aussi verte que d&eacute;licieuse&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-pesto-de-basilic-aux-noix,1513550.asp" class="ParentCollectionLinks-link is-hidden">Sortez du grand classique du pesto&nbsp;: ajoutez de l'amertume et de la sucrosit&eacute; avec cet ingr&eacute;dient qui va vous surprendre&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recettes-de-toasts-a-base-de-legumes-et-sans-pain,1512244.asp" class="ParentCollectionLinks-link is-hidden">12 recettes de toasts &agrave; base de l&eacute;gumes (et sans pain&nbsp;!)</a><a href="https://www.marieclaire.fr/cuisine/toasts-de-courgettes-comme-des-pizzas,1513172.asp" class="ParentCollectionLinks-link is-hidden">L&rsquo;ap&eacute;ritif sain et ultra gourmand &agrave; tester&nbsp;: toasts de courgettes fa&ccedil;on pizza</a><a href="https://www.marieclaire.fr/cuisine/toasts-de-patates-douces-au-bleu-cranberries-et-noix,1513170.asp" class="ParentCollectionLinks-link is-hidden">L&rsquo;ap&eacute;ritif chic pr&ecirc;t en 30 minutes&nbsp;: patates douces, bleu et cranberries</a><a href="https://www.marieclaire.fr/cuisine/cette-tartinade-grecque-ultra-cremeuse-et-legerement-pimentee-va-detroner-le-houmous-a-l-apero,1513103.asp" class="ParentCollectionLinks-link is-hidden">Cette tartinade grecque ultra cr&eacute;meuse et l&eacute;g&egrave;rement piment&eacute;e va d&eacute;tr&ocirc;ner le houmous &agrave; l&rsquo;ap&eacute;ro</a><a href="https://www.marieclaire.fr/cuisine/recette-de-fava-de-santorin-puree-de-pois-casses-jaunes-a-l-huile-d-olive,1513089.asp" class="ParentCollectionLinks-link is-hidden">Peu connue en France, cette pur&eacute;e ultra cr&eacute;meuse de Santorin arros&eacute;e d&rsquo;huile d&rsquo;olive est un vrai coup de c&oelig;ur</a><a href="https://www.marieclaire.fr/cuisine/recette-de-gateaux-de-legumes-et-tofu,1512991.asp" class="ParentCollectionLinks-link is-hidden">Si vous n'&ecirc;tes pas un bec sucr&eacute;, cuisinez vos biscuits en version sal&eacute;e&nbsp;: et emmenez-les partout&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-mini-pizza-aubergines-mozza-et-tomates,1512822.asp" class="ParentCollectionLinks-link is-hidden">Ces mini pizzas d&rsquo;aubergine vont vous faire oublier la p&acirc;te (et vous allez adorer &ccedil;a)</a><a href="https://www.marieclaire.fr/cuisine/toasts-de-concombre-au-thon,1512442.asp" class="ParentCollectionLinks-link is-hidden">Ces toasts de concombre au thon ultra frais (et l&eacute;gers&nbsp;!) vont faire sensation &agrave; l&rsquo;ap&eacute;ro</a><a href="https://www.marieclaire.fr/cuisine/toasts-de-potiron-au-fromage-frais,1512439.asp" class="ParentCollectionLinks-link is-hidden">Ces toasts (sans pain&nbsp;!) de potiron au fromage frais vont r&eacute;volutionner vos ap&eacute;ros</a><a href="https://www.marieclaire.fr/cuisine/radis-farcis-aux-fromage-oeufs-durs-et-aneth,1512330.asp" class="ParentCollectionLinks-link is-hidden">Ces radis farcis ultra frais vont faire sensation &agrave; l&rsquo;ap&eacute;ritif&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/toasts-d-aubergine-rotie-creme-aux-noix,1512250.asp" class="ParentCollectionLinks-link is-hidden">Ces toasts (sans pain&nbsp;!) d&rsquo;aubergine r&ocirc;tie &agrave; la cr&egrave;me de noix vont r&eacute;volutionner vos ap&eacute;ros</a><a href="https://www.marieclaire.fr/cuisine/toasts-de-concombre-a-la-mousse-de-saumon,1512248.asp" class="ParentCollectionLinks-link is-hidden">Toasts de concombre &agrave; la mousse de saumon&nbsp;: l&rsquo;ap&eacute;ritif chic, frais, l&eacute;ger et sans pain&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-falafel-au-pois-chiche-et-brocolis,1511238.asp" class="ParentCollectionLinks-link is-hidden">Un seul ingr&eacute;dient peut transformer une simple recette de falafels&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-la-tartinade-raifort-et-pommes,1511107.asp" class="ParentCollectionLinks-link is-hidden">Une tartinade sans gluten, sans gras et v&eacute;g&eacute;, c'est par ici&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-boulettes-vegetales-sans-gluten-et-sans-lactose,1511025.asp" class="ParentCollectionLinks-link is-hidden">Une fois d&eacute;couverte, vous ne pourrez plus vous en passer&nbsp;: voici la recette des boulettes v&eacute;g&eacute;tales, sans gluten et sans lactose</a><a href="https://www.marieclaire.fr/cuisine/pop-corn-parfume-aux-epices,1510663.asp" class="ParentCollectionLinks-link is-hidden">Pop corn parfum&eacute; aux &eacute;pices&nbsp;: LA bonne id&eacute;e pas ch&egrave;re pour votre prochain ap&eacute;ro&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/leger-et-gourmand-ce-labneh-au-pamplemousse-est-parfait-pour-les-beaux-jours,1510386.asp" class="ParentCollectionLinks-link is-hidden">L&eacute;ger et gourmand&nbsp;: ce labneh au pamplemousse est parfait pour les beaux jours</a><a href="https://www.marieclaire.fr/cuisine/recette-de-la-tartinade-aux-coeurs-d-artichauts-et-haricots-blancs-au-sirop-d-erable,1509366.asp" class="ParentCollectionLinks-link is-hidden">Attention, cette tartinade va d&eacute;tronner le houmous&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/les-rillettes-de-champignons-qu-il-vous-faut-pour-un-aperitif-vegetal-et-gourmand,1508987.asp" class="ParentCollectionLinks-link is-hidden">L'alternative v&eacute;g&eacute;tale parfaite aux rillettes de viande pour l'ap&eacute;ritif</a><a href="https://www.marieclaire.fr/cuisine/sauce-au-yaourt-parfaite-avec-des-chips-tortilla,1508541.asp" class="ParentCollectionLinks-link is-hidden">Testez cette sauce au yaourt toute simple&nbsp;: elle est parfaite avec des chips tortilla&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/tartinade-aux-oeufs-poulet-et-radis,1508376.asp" class="ParentCollectionLinks-link is-hidden">Ap&eacute;ritif de P&acirc;ques : cette tartinade aux oeufs sera parfaite !</a><a href="https://www.marieclaire.fr/cuisine/la-tapenade-de-joel-robuchon,1508118.asp" class="ParentCollectionLinks-link is-hidden">La tapenade de Jo&euml;l Robuchon&nbsp;: la recette simplissime du c&eacute;l&egrave;bre chef&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/rillettes-de-porc-maison-faciles-a-faire,1507429.asp" class="ParentCollectionLinks-link is-hidden">Avez-vous d&eacute;j&agrave; fait des rillettes maison ? Voici notre recette simplissime pour les r&eacute;ussir &agrave; tous les coups !</a><a href="https://www.marieclaire.fr/cuisine/tartinade-anti-gaspi-aux-fanes-de-carottes,1506720.asp" class="ParentCollectionLinks-link is-hidden">Ne jetez plus les fanes de carottes ! D&eacute;couvrez notre recette de tartinade simplissime &agrave; faire avec...</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tempuras-de-fenouil-a-la-farine-de-pois-chiche,1506682.asp" class="ParentCollectionLinks-link is-hidden">La meilleure fa&ccedil;on de faire manger du fenouil &agrave; ceux qui ne l&rsquo;aiment pas&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-houmous-aux-haricots-blancs-citron,1506035.asp" class="ParentCollectionLinks-link is-hidden">Cette recette de houmous express va d&eacute;tr&ocirc;ner celle au pois chiche&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/mini-flans-sales-au-sarrasin-epinards-et-carottes-au-moule-a-muffins,1504988.asp" class="ParentCollectionLinks-link is-hidden">Ces mini-flans de sarrasin r&eacute;inventent le sans-gluten</a><a href="https://www.marieclaire.fr/cuisine/roules-au-jambon-cru-pomme-comte-et-miel-tres-faciles,1504010.asp" class="ParentCollectionLinks-link is-hidden">Ces roul&eacute;s jambon/pomme/comt&eacute;/miel seront parfaits pour l'ap&eacute;ritif de No&euml;l ! D&eacute;couvrez notre recette...</a><a href="https://www.marieclaire.fr/cuisine/recette-de-crackers-sans-gluten-aux-graines,1503894.asp" class="ParentCollectionLinks-link is-hidden">&Agrave; la recherche d'une recette express d'ap&eacute;ritif sans gluten&nbsp;? Essayez ces crackers aux graines&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-sables-aperitifs-au-fromage-sans-gluten,1503878.asp" class="ParentCollectionLinks-link is-hidden">Si vous suivez le r&eacute;gime sans gluten, ces sabl&eacute;s ap&eacute;ritifs sont fait pour vous&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-la-terrine-aux-champignons,1503877.asp" class="ParentCollectionLinks-link is-hidden">Un ap&eacute;ritif v&eacute;g&eacute;tal et sans gluten&nbsp;? Optez pour la terrine aux champignons&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recettes-aperitif-de-noel-sans-gluten,1503594.asp" class="ParentCollectionLinks-link is-hidden">Comment r&eacute;galer vos invit&eacute;s avec un ap&eacute;ritif festif sans gluten</a><a href="https://www.marieclaire.fr/cuisine/recette-de-graines-de-courges-roties,1502797.asp" class="ParentCollectionLinks-link is-hidden">Ne jetez plus vos graines de citrouille&nbsp;! Cette version croustillante au paprika fum&eacute; va vous rendre accro</a><a href="https://www.marieclaire.fr/cuisine/recette-de-corn-dog-maison-sans-gluten,1500055.asp" class="ParentCollectionLinks-link is-hidden">Le corn dog se d&eacute;cline en version sans gluten</a><a href="https://www.marieclaire.fr/cuisine/recette-des-onion-rings-sans-gluten-et-sans-lait,1499902.asp" class="ParentCollectionLinks-link is-hidden">Les onion rings se cuisinent aussi sans gluten</a><a href="https://www.marieclaire.fr/cuisine/recette-des-oignons-rings-fromage-sans-gluten,1499896.asp" class="ParentCollectionLinks-link is-hidden">Vous n&rsquo;en croirez pas vos papilles&nbsp;: des oignons rings fromag&eacute;s&hellip; et 100 % sans gluten&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/frites-de-polenta-inratables,1499646.asp" class="ParentCollectionLinks-link is-hidden">Ces frites de polenta inratables sont toujours un succ&egrave;s pour l'ap&eacute;ro ! (et plus saines que des chips)</a><a href="https://www.marieclaire.fr/cuisine/tartinade-saumon-et-fromage-simplissime,1499644.asp" class="ParentCollectionLinks-link is-hidden">Cette tartinade saumon fum&eacute; et fromage toute simple est id&eacute;ale pour utiliser des restes de saumon (ou des chutes !)</a><a href="https://www.marieclaire.fr/cuisine/recette-de-dakgangjeong-sans-gluten,1499350.asp" class="ParentCollectionLinks-link is-hidden">Des dakgangjeong... sans gluten, avec tout le caract&egrave;re d&rsquo;un vrai poulet frit cor&eacute;en&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/la-recette-de-la-tapenade-aux-artichauts-de-cyril-lignac,1497917.asp" class="ParentCollectionLinks-link is-hidden">La recette de la tapenade aux artichauts de Cyril Lignac</a><a href="https://www.marieclaire.fr/cuisine/le-guacamole-version-enfant-pret-en-5-minutes-a-tartiner-ou-tremper-sans-moderation,1497910.asp" class="ParentCollectionLinks-link is-hidden">Le guacamole version enfant&nbsp;: pr&ecirc;t en 5 minutes, &agrave; tartiner ou tremper sans mod&eacute;ration&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-wrap-au-jambon-et-fromage-frais,1497889.asp" class="ParentCollectionLinks-link is-hidden">Ces petits wraps au jambon font un malheur &agrave; l'ap&eacute;ro (et ils se pr&eacute;parent en 5 minutes&nbsp;!)</a><a href="https://www.marieclaire.fr/cuisine/recette-de-rouleaux-de-printemps-vegetariens-arc-en-ciel,1497874.asp" class="ParentCollectionLinks-link is-hidden">Ces rouleaux de printemps v&eacute;g&eacute;tariens color&eacute;s sont aussi beaux que bons&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-aux-algues,1497579.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki aux algues</a><a href="https://www.marieclaire.fr/cuisine/voici-l-ingredient-qui-va-rendre-votre-gaspacho-ultra-gourmand,1497120.asp" class="ParentCollectionLinks-link is-hidden">Voici l'ingr&eacute;dient qui va rendre votre gaspacho ultra gourmand&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/pain-de-mais-aux-jalapenos-et-cheddar,1496604.asp" class="ParentCollectionLinks-link is-hidden">Pain de ma&iuml;s aux jalape&ntilde;os et cheddar</a><a href="https://www.marieclaire.fr/cuisine/guacamole-epice-tres-facile-et-rapide,1496480.asp" class="ParentCollectionLinks-link is-hidden">Guacamole &eacute;pic&eacute; tr&egrave;s facile et rapide &agrave; faire</a><a href="https://www.marieclaire.fr/cuisine/recette-de-la-foccacia-sans-gluten,1496455.asp" class="ParentCollectionLinks-link is-hidden">Une focaccia sans gluten, c'est tout &agrave; fait possible, la preuve avec cette recette&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-rouleau-de-courgettes-farci-au-fromage-frais-ail-et-tomates,1496424.asp" class="ParentCollectionLinks-link is-hidden">Ce roul&eacute; de courgettes au fromage frais est la recette l&eacute;g&egrave;re et bluffante de l&rsquo;&eacute;t&eacute;&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-concombre-farci-aux-oeufs-durs-et-herbes-fraiches,1496423.asp" class="ParentCollectionLinks-link is-hidden">Ce concombre farci l&eacute;ger et ultra prot&eacute;in&eacute; est ma recette pr&eacute;f&eacute;r&eacute;e de l&rsquo;&eacute;t&eacute;&nbsp;: pr&ecirc;t en 5 min et seulement 208 calories&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/un-apero-sans-gluten-rapide-et-ultra-savoureux-essayez-ces-boulettes-courgettes-feta,1496383.asp" class="ParentCollectionLinks-link is-hidden">Un ap&eacute;ro sans gluten, rapide et ultra savoureux&nbsp;? Essayez ces boulettes courgettes-feta</a><a href="https://www.marieclaire.fr/cuisine/recette-de-granite-de-tomates-au-basilic,1496381.asp" class="ParentCollectionLinks-link is-hidden">Ce granit&eacute; de tomates au basilic va devenir votre nouvelle obsession estivale&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-cubes-de-feta-marines-maison,1496380.asp" class="ParentCollectionLinks-link is-hidden">C&rsquo;est l&rsquo;astuce ap&eacute;ro que tout le monde vous demandera&nbsp;: votre feta marin&eacute;e maison pr&ecirc;te en 5 minutes</a><a href="https://www.marieclaire.fr/cuisine/c-est-ma-recette-express-preferee-des-tomates-cerises-farcies-au-chevre-frais-pretes-en-10-minutes,1496374.asp" class="ParentCollectionLinks-link is-hidden">C&rsquo;est ma recette express pr&eacute;f&eacute;r&eacute;e&nbsp;: des tomates cerises farcies au ch&egrave;vre frais pr&ecirc;tes en 10 minutes</a><a href="https://www.marieclaire.fr/cuisine/recette-brochettes-pasteque-feta-et-concombre,1496373.asp" class="ParentCollectionLinks-link is-hidden">3 ingr&eacute;dients, 0 cuisson, 100 % fra&icirc;cheur&nbsp;: ces mini-brochettes sont la star de vos ap&eacute;ros d&rsquo;&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/recette-de-concombres-farcis-au-thon,1496372.asp" class="ParentCollectionLinks-link is-hidden">Ces roul&eacute;s de concombre au thon sont pr&ecirc;ts en 5 minutes chrono</a><a href="https://www.marieclaire.fr/cuisine/recette-de-galettes-de-mais-faciles-et-rapides,1496371.asp" class="ParentCollectionLinks-link is-hidden">Je n'avais jamais test&eacute; des galettes sans gluten aussi bonnes&nbsp;: croustillantes dehors, fondantes dedans&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/houmous-au-basilic-et-citron-tout-simple,1495549.asp" class="ParentCollectionLinks-link is-hidden">Houmous au basilic et citron tout simple</a><a href="https://www.marieclaire.fr/cuisine/houmous-simplissime-aux-olives,1495503.asp" class="ParentCollectionLinks-link is-hidden">Houmous simplissime aux olives</a><a href="https://www.marieclaire.fr/cuisine/les-moules-gratinees-de-philippe-etchebest,1495271.asp" class="ParentCollectionLinks-link is-hidden">Les moules gratin&eacute;es de Philippe Etchebest</a><a href="https://www.marieclaire.fr/cuisine/les-rillettes-de-sardines-de-philippe-etchebest,1495262.asp" class="ParentCollectionLinks-link is-hidden">Les rillettes de sardines de Philippe Etchebest</a><a href="https://www.marieclaire.fr/cuisine/brochettes-de-tofu-pane,1495177.asp" class="ParentCollectionLinks-link is-hidden">Vous cherchez une alternative veggie pour vos pique-niques&nbsp;? Ces brochettes de tofu pan&eacute; vont vous bluffer</a><a href="https://www.marieclaire.fr/cuisine/recette-de-croquettes-de-quinoa,1495174.asp" class="ParentCollectionLinks-link is-hidden">&Agrave; l&rsquo;ap&eacute;ro ou en plat, ces croquettes de quinoa croustillantes vont mettre tout le monde d&rsquo;accord</a><a href="https://www.marieclaire.fr/cuisine/recette-de-brochettes-de-tofu-croustillantes-au-airfryer,1495087.asp" class="ParentCollectionLinks-link is-hidden">Marin&eacute;, grill&eacute;, croustillant&nbsp;: ce tofu au Airfryer va convertir m&ecirc;me les plus sceptiques</a><a href="https://www.marieclaire.fr/cuisine/recette-de-fleurs-de-courgettes-panees-au-airfryer,1495084.asp" class="ParentCollectionLinks-link is-hidden">Dor&eacute;es, l&eacute;g&egrave;res et pr&ecirc;tes en un rien de temps&nbsp;: les fleurs de courgettes au Airfryer qu&rsquo;on adore</a><a href="https://www.marieclaire.fr/cuisine/croquantes-dehors-fondantes-dedans-ces-aubergines-panees-sont-plus-addictives-que-des-chips,1495083.asp" class="ParentCollectionLinks-link is-hidden">Croquantes dehors, fondantes dedans&nbsp;: ces aubergines pan&eacute;es sont plus addictives que des chips</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tomates-cerises-confites-express-au-airfryer,1495079.asp" class="ParentCollectionLinks-link is-hidden">10 minutes au Airfryer et ces tomates cerises deviennent addictives</a><a href="https://www.marieclaire.fr/cuisine/recette-de-chips-de-courgettes-croustillantes-au-airfryer,1495078.asp" class="ParentCollectionLinks-link is-hidden">Les chips les plus l&eacute;g&egrave;res de votre &eacute;t&eacute;&nbsp;? Ces rondelles de courgette dor&eacute;es sans une goutte d&rsquo;huile</a><a href="https://www.marieclaire.fr/cuisine/ces-nuggets-veggie-sont-meilleurs-que-les-originaux,1495018.asp" class="ParentCollectionLinks-link is-hidden">Ces nuggets veggie sont meilleurs que les originaux&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-boulettes-de-mac-and-cheese-sans-gluten,1495017.asp" class="ParentCollectionLinks-link is-hidden">Mac and cheese en version boulettes&nbsp;? Oui, et sans gluten&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-de-cake-sans-gluten-aux-tomates-sechees-et-feta,1494969.asp" class="ParentCollectionLinks-link is-hidden">Ce cake sal&eacute; sans gluten tomates-feta a toujours un succ&egrave;s fou &agrave; l&rsquo;ap&eacute;ro&hellip; et il est pr&ecirc;t en 10 minutes&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/le-houmous-rapide-de-yotam-ottolenghi,1494928.asp" class="ParentCollectionLinks-link is-hidden">Le houmous rapide de Yotam Ottolenghi</a><a href="https://www.marieclaire.fr/cuisine/transformez-une-simple-boite-de-pois-chiches-en-apero-croustillant-et-ultra-gourmand,1494076.asp" class="ParentCollectionLinks-link is-hidden">Transformez une simple bo&icirc;te de pois chiches en ap&eacute;ro croustillant et ultra gourmand&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/ce-dip-leger-a-base-de-courgette-est-pret-en-10-minutes-un-incontournable-de-l-apero,1493713.asp" class="ParentCollectionLinks-link is-hidden">Ce dip l&eacute;ger &agrave; base de courgette est pr&ecirc;t en 10 minutes&nbsp;: un incontournable de l'ap&eacute;ro</a><a href="https://www.marieclaire.fr/cuisine/adieu-le-houmous-classique-cette-version-au-poivron-roti-est-bien-meilleure-et-tout-aussi-simple-a-faire,1493712.asp" class="ParentCollectionLinks-link is-hidden">Adieu le houmous classique&nbsp;! Cette version au poivron r&ocirc;ti est bien meilleure (et tout aussi simple &agrave; faire)</a><a href="https://www.marieclaire.fr/cuisine/une-couleur-de-folie-un-gout-tout-doux-ce-tzatziki-de-betterave-fait-l-unanimite-a-chaque-apero,1493711.asp" class="ParentCollectionLinks-link is-hidden">Une couleur de folie, un go&ucirc;t tout doux&nbsp;: ce tzatziki de betterave fait l&rsquo;unanimit&eacute; &agrave; chaque ap&eacute;ro</a><a href="https://www.marieclaire.fr/cuisine/un-dip-vert-tendre-qui-cache-une-pointe-de-peps-testez-cette-creme-de-petits-pois-au-wasabi-doux,1493710.asp" class="ParentCollectionLinks-link is-hidden">Un dip vert tendre qui cache une pointe de peps&nbsp;: testez cette cr&egrave;me de petits pois au wasabi doux</a><a href="https://www.marieclaire.fr/cuisine/ultra-legere-cette-mousse-d-asperges-est-parfaite-en-verrine-pour-un-apero-frais-et-de-saison,1493709.asp" class="ParentCollectionLinks-link is-hidden">Ultra l&eacute;g&egrave;re, cette mousse d&rsquo;asperges est parfaite en verrine pour un ap&eacute;ro frais et de saison</a><a href="https://www.marieclaire.fr/cuisine/teste-et-valide-ce-dip-de-chou-fleur-roti-au-curry-est-devenu-mon-indispensable-des-aperos-maison,1493705.asp" class="ParentCollectionLinks-link is-hidden">Test&eacute; et valid&eacute;&nbsp;: ce dip de chou-fleur r&ocirc;ti au curry est devenu mon indispensable des ap&eacute;ros maison</a><a href="https://www.marieclaire.fr/cuisine/le-tzatziki-comme-vous-ne-l-avez-jamais-goute-grille-citronne-addictif,1493703.asp" class="ParentCollectionLinks-link is-hidden">Le tzatziki comme vous ne l&rsquo;avez jamais go&ucirc;t&eacute;&nbsp;: grill&eacute;, citronn&eacute;, addictif</a><a href="https://www.marieclaire.fr/cuisine/un-houmous-rose-a-base-de-radis-oui-et-c-est-une-bombe-de-fraicheur-pour-vos-aperos-de-printemps,1493702.asp" class="ParentCollectionLinks-link is-hidden">Un houmous rose &agrave; base de radis&nbsp;? Oui, et c&rsquo;est une bombe de fra&icirc;cheur pour vos ap&eacute;ros de printemps</a><a href="https://www.marieclaire.fr/cuisine/je-ne-pensais-pas-qu-un-simple-dip-de-carottes-pouvait-etre-aussi-bon-cette-recette-a-bluffe-tous-mes-invites,1493701.asp" class="ParentCollectionLinks-link is-hidden">Je ne pensais pas qu&rsquo;un simple dip de carottes pouvait &ecirc;tre aussi bon&nbsp;: cette recette a bluff&eacute; tous mes invit&eacute;s&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/une-recette-express-pour-l-aperitif-avec-seulement-3-ingredients-du-placard,1493430.asp" class="ParentCollectionLinks-link is-hidden">Une recette express pour l'ap&eacute;ritif avec seulement 3 ingr&eacute;dients du placard</a><a href="https://www.marieclaire.fr/cuisine/tomates-cerises-confites-maison-une-idee-apero-bluffante-avec-3-ingredients,1493428.asp" class="ParentCollectionLinks-link is-hidden">Tomates cerises confites maison&nbsp;: une id&eacute;e ap&eacute;ro bluffante avec 3 ingr&eacute;dients</a><a href="https://www.marieclaire.fr/cuisine/des-bouchees-croustillantes-aux-pois-casses-facon-falafel-une-idee-veggie-a-petit-prix,1493426.asp" class="ParentCollectionLinks-link is-hidden">Des bouch&eacute;es croustillantes aux pois cass&eacute;s fa&ccedil;on falafel&nbsp;: une id&eacute;e veggie &agrave; petit prix</a><a href="https://www.marieclaire.fr/cuisine/une-tartinade-ultra-parfumee-prete-en-2-minutes-grace-a-un-simple-bocal-d-aubergines,1493425.asp" class="ParentCollectionLinks-link is-hidden">Une tartinade ultra parfum&eacute;e pr&ecirc;te en 2 minutes gr&acirc;ce &agrave; un simple bocal d&rsquo;aubergines</a><a href="https://www.marieclaire.fr/cuisine/le-dip-pret-en-3-minutes-chrono-avec-ce-qu-il-y-a-dans-vos-placards,1493419.asp" class="ParentCollectionLinks-link is-hidden">Le dip pr&ecirc;t en 3 minutes chrono avec ce qu&rsquo;il y a dans vos placards</a><a href="https://www.marieclaire.fr/cuisine/avec-une-boite-de-thon-et-un-peu-de-fromage-frais-preparez-cette-tartinade-bluffante-en-5-minutes-chrono,1493418.asp" class="ParentCollectionLinks-link is-hidden">Avec une bo&icirc;te de thon et un peu de fromage frais, pr&eacute;parez cette tartinade bluffante en 5 minutes chrono&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recettes-de-polenta-pour-le-printemps,1492732.asp" class="ParentCollectionLinks-link is-hidden">La polenta en 20 recettes printani&egrave;res&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/bouchees-aperitives-au-fromage-et-aux-herbes,1492366.asp" class="ParentCollectionLinks-link is-hidden">Simplissimes, ces bouch&eacute;es au fromage seront parfaites pour votre prochain ap&eacute;ritif&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/recette-houmous-de-petits-pois-et-menthe-au-thermomix,1492295.asp" class="ParentCollectionLinks-link is-hidden">Exit le houmous classique, cette version aux petits pois est le nouveau must de l&rsquo;ap&eacute;ro&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/aioli-printanier-express,1490577.asp" class="ParentCollectionLinks-link is-hidden">A&iuml;oli printanier express</a><a href="https://www.marieclaire.fr/cuisine/chips-maison-au-airfryer,1489200.asp" class="ParentCollectionLinks-link is-hidden">Chips maison au Airfryer</a><a href="https://www.marieclaire.fr/cuisine/brochettes-de-poulet-au-airfryer,1489197.asp" class="ParentCollectionLinks-link is-hidden">Brochettes de poulet au Airfryer</a><a href="https://www.marieclaire.fr/cuisine/tartinade-aux-poivrons-facile-et-rapide,1488930.asp" class="ParentCollectionLinks-link is-hidden">Tartinade aux poivrons facile et rapide</a><a href="https://www.marieclaire.fr/cuisine/la-tartinade-aux-petits-pois-et-raifort-de-yotam-ottolenghi,1488927.asp" class="ParentCollectionLinks-link is-hidden">La tartinade aux petits pois et raifort de Yotam Ottolenghi</a><a href="https://www.marieclaire.fr/cuisine/sauce-ranch-maison,1488888.asp" class="ParentCollectionLinks-link is-hidden">Sauce ranch maison</a><a href="https://www.marieclaire.fr/cuisine/recettes-sans-gluten-a-base-de-fecule-de-mais,1487425.asp" class="ParentCollectionLinks-link is-hidden">F&eacute;cule de ma&iuml;s&nbsp;: 15 recettes sans gluten pour finir le fond du paquet</a><a href="https://www.marieclaire.fr/cuisine/tarte-flambee-sans-gluten,1487317.asp" class="ParentCollectionLinks-link is-hidden">Tarte flamb&eacute;e sans gluten</a><a href="https://www.marieclaire.fr/cuisine/nachos-au-chili-con-carne-comme-au-mexique,1487244.asp" class="ParentCollectionLinks-link is-hidden">Nachos au chili con carne comme au Mexique</a><a href="https://www.marieclaire.fr/cuisine/halloumi-frit-croustillant-au-sesame,1485953.asp" class="ParentCollectionLinks-link is-hidden">Halloumi frit croustillant au s&eacute;same</a><a href="https://www.marieclaire.fr/cuisine/batonnets-de-celeri-sauce-cocktail,1485685.asp" class="ParentCollectionLinks-link is-hidden">B&acirc;tonnets de c&eacute;leri sauce cocktail</a><a href="https://www.marieclaire.fr/cuisine/bouchees-pain-depices-banane-mimolette,1484247.asp" class="ParentCollectionLinks-link is-hidden">Bouch&eacute;es de pain d'&eacute;pices &agrave; la banane et &agrave; la mimolette</a><a href="https://www.marieclaire.fr/cuisine/cake-sans-gluten-aux-epinards-basilic-et-saumon-fume,1483537.asp" class="ParentCollectionLinks-link is-hidden">Cake sans gluten aux &eacute;pinards, basilic et saumon fum&eacute;</a><a href="https://www.marieclaire.fr/cuisine/quesadillas-au-fromage-coriandre-et-piment-vert,1483095.asp" class="ParentCollectionLinks-link is-hidden">Quesadillas au fromage, coriandre et piment vert</a><a href="https://www.marieclaire.fr/cuisine/boulettes-agneau-feta-yotam-ottolenghi,1482121.asp" class="ParentCollectionLinks-link is-hidden">Les boulettes d'agneau &agrave; la feta de Yotam Ottolenghi</a><a href="https://www.marieclaire.fr/cuisine/recette-houmous-epice-courge,1482026.asp" class="ParentCollectionLinks-link is-hidden">Houmous &eacute;pic&eacute; &agrave; la courge</a><a href="https://www.marieclaire.fr/cuisine/boulettes-de-tofu-et-sauce-mayonnaise,1479571.asp" class="ParentCollectionLinks-link is-hidden">Boulettes de tofu et sauce mayonnaise</a><a href="https://www.marieclaire.fr/cuisine/houmous-de-lentilles-vertes,1481368.asp" class="ParentCollectionLinks-link is-hidden">Houmous de lentilles vertes</a><a href="https://www.marieclaire.fr/cuisine/brochettes-concombre-radis-et-emmental,1481268.asp" class="ParentCollectionLinks-link is-hidden">Brochettes concombre, radis et emmental</a><a href="https://www.marieclaire.fr/cuisine/brochettes-aperitives-de-poulet-et-figues,1481267.asp" class="ParentCollectionLinks-link is-hidden">Brochettes ap&eacute;ritives de poulet et figues</a><a href="https://www.marieclaire.fr/cuisine/brochettes-aperitives-aux-crevettes-et-olives,1481266.asp" class="ParentCollectionLinks-link is-hidden">Brochettes ap&eacute;ritives aux crevettes et olives</a><a href="https://www.marieclaire.fr/cuisine/brochettes-aperitives-au-salami-mozzarella-et-tomates-cerises,1481264.asp" class="ParentCollectionLinks-link is-hidden">Brochettes ap&eacute;ritives au salami, mozzarella et tomates cerises</a><a href="https://www.marieclaire.fr/cuisine/mini-brochettes-de-sardine-et-olive-verte,1481245.asp" class="ParentCollectionLinks-link is-hidden">Mini brochettes de sardine et olive verte</a><a href="https://www.marieclaire.fr/cuisine/mini-brochettes-de-tomates-au-mozzarella-et-basilic,1481243.asp" class="ParentCollectionLinks-link is-hidden">Mini brochettes de tomates au mozzarella et basilic</a><a href="https://www.marieclaire.fr/cuisine/mini-brochettes-aperitives-vegetariennes-sans-cuisson,1481242.asp" class="ParentCollectionLinks-link is-hidden">Mini brochettes ap&eacute;ritives v&eacute;g&eacute;tariennes (sans cuisson)</a><a href="https://www.marieclaire.fr/cuisine/brochettes-aperitives-a-la-mediterraneenne-facile-et-rapide,1481241.asp" class="ParentCollectionLinks-link is-hidden">Brochettes ap&eacute;ritives &agrave; la m&eacute;diterran&eacute;enne (facile et rapide)</a><a href="https://www.marieclaire.fr/cuisine/brochettes-de-tofu-au-miel-et-courgettes,1481233.asp" class="ParentCollectionLinks-link is-hidden">Brochettes de tofu au miel et courgettes</a><a href="https://www.marieclaire.fr/cuisine/mini-brochettes-de-crevettes-et-tomates-confites,1481228.asp" class="ParentCollectionLinks-link is-hidden">Mini brochettes de crevettes et tomates confites</a><a href="https://www.marieclaire.fr/cuisine/brochettes-de-poulet-a-la-sauce-aigre-douce,1481226.asp" class="ParentCollectionLinks-link is-hidden">Brochettes de poulet &agrave; la sauce aigre douce</a><a href="https://www.marieclaire.fr/cuisine/guacamole-de-betterave,1480356.asp" class="ParentCollectionLinks-link is-hidden">Guacamole de betterave</a><a href="https://www.marieclaire.fr/cuisine/pop-corn-de-pois-chiches,1480263.asp" class="ParentCollectionLinks-link is-hidden">Pop corn de pois chiches</a><a href="https://www.marieclaire.fr/cuisine/brochettes-de-crevettes-et-chorizo,1480157.asp" class="ParentCollectionLinks-link is-hidden">Brochettes de crevettes et chorizo</a><a href="https://www.marieclaire.fr/cuisine/boulettes-de-pois-chiches-express,1480123.asp" class="ParentCollectionLinks-link is-hidden">Boulettes de pois chiches express</a><a href="https://www.marieclaire.fr/cuisine/croquettes-de-saumon-pois-chiches,1479589.asp" class="ParentCollectionLinks-link is-hidden">Croquettes de saumon aux pois chiches</a><a href="https://www.marieclaire.fr/cuisine/recette-homous-cyril-lignac,1479563.asp" class="ParentCollectionLinks-link is-hidden">Le houmous de Cyril Lignac</a><a href="https://www.marieclaire.fr/cuisine/dip-de-patate-douce-ail-et-curry,1479496.asp" class="ParentCollectionLinks-link is-hidden">Dip de patate douce, ail et curry</a><a href="https://www.marieclaire.fr/cuisine/falafels-aux-petits-pois-et-yaourt-a-la-menthe,1478920.asp" class="ParentCollectionLinks-link is-hidden">Falafels aux petits pois et yaourt &agrave; la menthe</a><a href="https://www.marieclaire.fr/cuisine/recette-caviar-aubergine-citron-paprika,1479311.asp" class="ParentCollectionLinks-link is-hidden">Caviar d'aubergine au citron et paprika</a><a href="https://www.marieclaire.fr/cuisine/caviar-d-aubergines-a-la-tapenade-et-blinis-de-sarrasin-au-lin,1479137.asp" class="ParentCollectionLinks-link is-hidden">Caviar d&rsquo;aubergines &agrave; la tapenade et blinis de sarrasin au lin</a><a href="https://www.marieclaire.fr/cuisine/tzatziki-de-petits-pois-feta-et-menthe,1478933.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki de petits pois, feta et menthe</a><a href="https://www.marieclaire.fr/cuisine/recettes-houmous-originaux,1378168.asp" class="ParentCollectionLinks-link is-hidden">10 recettes de houmous qui sortent de l'ordinaire&nbsp;!</a><a href="https://www.marieclaire.fr/cuisine/mini-brochettes-de-saucisses-au-romarin-et-sesame,1478556.asp" class="ParentCollectionLinks-link is-hidden">Mini brochettes de saucisses au romarin et s&eacute;same</a><a href="https://www.marieclaire.fr/cuisine/recette-houmous-bowl-aux-courgettes-et-radis,1478183.asp" class="ParentCollectionLinks-link is-hidden">Ce houmous bowl aux courgettes et aux radis incarne toute la fra&icirc;cheur estivale</a><a href="https://www.marieclaire.fr/cuisine/taboule-de-chou-fleur-express,1478147.asp" class="ParentCollectionLinks-link is-hidden">Taboul&eacute; de chou-fleur express</a><a href="https://www.marieclaire.fr/cuisine/tartinade-de-petits-pois-et-de-feta-a-la-menthe,1477756.asp" class="ParentCollectionLinks-link is-hidden">Tartinade de petits pois et de feta &agrave; la menthe</a><a href="https://www.marieclaire.fr/cuisine/canapes-de-concombre-cream-cheese-et-wasabi,1477344.asp" class="ParentCollectionLinks-link is-hidden">Canap&eacute;s de concombre, cream cheese et wasabi</a><a href="https://www.marieclaire.fr/cuisine/verrines-vegetariennes-au-quinoa-et-skyr,1477343.asp" class="ParentCollectionLinks-link is-hidden">Verrines v&eacute;g&eacute;tariennes au quinoa et skyr</a><a href="https://www.marieclaire.fr/cuisine/brochettes-de-legumes-au-romarin,1477337.asp" class="ParentCollectionLinks-link is-hidden">Brochettes de l&eacute;gumes au romarin</a><a href="https://www.marieclaire.fr/cuisine/bouchees-de-concombre-farcis-a-la-mediterraneenne,1477335.asp" class="ParentCollectionLinks-link is-hidden">Bouch&eacute;es de concombre farcis &agrave; la m&eacute;diterran&eacute;enne</a><a href="https://www.marieclaire.fr/cuisine/les-muffins-express-de-jessie-inchauspe,1476544.asp" class="ParentCollectionLinks-link is-hidden">Les muffins express de Jessie Inchausp&eacute;</a><a href="https://www.marieclaire.fr/cuisine/les-pickles-de-chou-fleur-au-zaatar-de-jessie-inchauspe,1476540.asp" class="ParentCollectionLinks-link is-hidden">Les pickles de chou-fleur au zaatar de Jessie Inchausp&eacute;</a><a href="https://www.marieclaire.fr/cuisine/les-rouleaux-de-courgette-de-jessie-inchauspe,1476538.asp" class="ParentCollectionLinks-link is-hidden">Les rouleaux de courgette de Jessie Inchausp&eacute;</a><a href="https://www.marieclaire.fr/cuisine/anchoiade-facile-et-rapide,1476361.asp" class="ParentCollectionLinks-link is-hidden">Ancho&iuml;ade facile et rapide</a><a href="https://www.marieclaire.fr/cuisine/dolmadakia-feuilles-de-vignes-farcies-comme-en-crete,1476261.asp" class="ParentCollectionLinks-link is-hidden">Dolmadakia (feuilles de vignes farcies comme en Cr&egrave;te)</a><a href="https://www.marieclaire.fr/cuisine/le-guacamole-de-petits-pois-de-laurent-mariotte,1476181.asp" class="ParentCollectionLinks-link is-hidden">Le guacamole de petits pois de Laurent Mariotte</a><a href="https://www.marieclaire.fr/cuisine/ailes-de-poulet-a-la-portugaise,1474003.asp" class="ParentCollectionLinks-link is-hidden">Ailes de poulet &agrave; la portugaise</a><a href="https://www.marieclaire.fr/cuisine/falafels-de-pois-chiche-au-airfryer,1474002.asp" class="ParentCollectionLinks-link is-hidden">Falafels de pois chiches au Airfryer</a><a href="https://www.marieclaire.fr/cuisine/recette-de-brochettes-de-poulet-marines-au-piri-piri,1474001.asp" class="ParentCollectionLinks-link is-hidden">Brochettes de poulet marin&eacute;es au piri-piri</a><a href="https://www.marieclaire.fr/cuisine/palourdes-bulhao-pato-palourdes-a-la-portugaise,1473991.asp" class="ParentCollectionLinks-link is-hidden">Palourdes Bulh&atilde;o Pato (palourdes &agrave; la portugaise)</a><a href="https://www.marieclaire.fr/cuisine/houmous-aux-pois-chiches-facile-et-rapide,1473819.asp" class="ParentCollectionLinks-link is-hidden">Houmous aux pois chiches facile et rapide</a><a href="https://www.marieclaire.fr/cuisine/dolmas-feuilles-de-vignes-farcies-au-riz,1473720.asp" class="ParentCollectionLinks-link is-hidden">Dolmas (feuilles de vignes farcies au riz)</a><a href="https://www.marieclaire.fr/cuisine/recette-de-tzatziki-maison-au-thermomix,1473717.asp" class="ParentCollectionLinks-link is-hidden">Tzatziki maison au Thermomix</a><a href="https://www.marieclaire.fr/cuisine/le-houmous-au-zaatar-de-mohamed-cheikh,1473525.asp" class="ParentCollectionLinks-link is-hidden">Le houmous au zaatar de Mohamed Cheikh</a><a href="https://www.marieclaire.fr/cuisine/pain-sans-gluten-a-la-courge,1472029.asp" class="ParentCollectionLinks-link is-hidden">Pain d&rsquo;automne &agrave; la courge (sans gluten)</a><a href="https://www.marieclaire.fr/cuisine/fougasse-sans-gluten,1472027.asp" class="ParentCollectionLinks-link is-hidden">Fougasse sans gluten</a><a href="https://www.marieclaire.fr/cuisine/oreilles-de-crisse,1471171.asp" class="ParentCollectionLinks-link is-hidden">Oreilles de crisse</a><a href="https://www.marieclaire.fr/cuisine/petits-pois-croustillants-au-airfryer,1471055.asp" class="ParentCollectionLinks-link is-hidden">Petits pois croustillants au Airfryer</a><a href="https://www.marieclaire.fr/cuisine/petits-flans-de-carottes-et-de-courgettes,1470227.asp" class="ParentCollectionLinks-link is-hidden">Petits flans de carottes et de courgettes</a><a href="https://www.marieclaire.fr/cuisine/pain-sans-gluten-au-sarrasin-et-aux-graines,1470121.asp" class="ParentCollectionLinks-link is-hidden">Pain sans gluten au sarrasin et aux graines</a><a href="https://www.marieclaire.fr/cuisine/blinis-de-sarrasin-au-saumon-fume,1464793.asp" class="ParentCollectionLinks-link is-hidden">Blinis de sarrasin au saumon fum&eacute;</a><a href="https://www.marieclaire.fr/cuisine/makis-aux-epinards-saumon-et-boursin,1464305.asp" class="ParentCollectionLinks-link is-hidden">Makis aux &eacute;pinards, saumon et Boursin</a><a href="https://www.marieclaire.fr/cuisine/falafels-keto-au-brocoli,1463128.asp" class="ParentCollectionLinks-link is-hidden">Falafels keto au brocoli</a><a href="https://www.marieclaire.fr/cuisine/cottage-cheese-recette-cetogene,1463127.asp" class="ParentCollectionLinks-link is-hidden">Cottage cheese (recette c&eacute;tog&egrave;ne)</a><a href="https://www.marieclaire.fr/cuisine/houmous-aux-choux-de-bruxelles-rotis,1462763.asp" class="ParentCollectionLinks-link is-hidden">Houmous aux choux de Bruxelles r&ocirc;tis</a><a href="https://www.marieclaire.fr/cuisine/chips-d-epluchures-de-pommes-de-terre,1462225.asp" class="ParentCollectionLinks-link is-hidden">Chips d&rsquo;&eacute;pluchures de pommes de terre</a><a href="https://www.marieclaire.fr/cuisine/crab-cakes-sans-gluten-et-puree-de-brocoli-aux-herbes,1460234.asp" class="ParentCollectionLinks-link is-hidden">Crab cakes sans gluten et pur&eacute;e de brocoli aux herbes</a><a href="https://www.marieclaire.fr/cuisine/chips-de-courgettes-aux-herbes,1456094.asp" class="ParentCollectionLinks-link is-hidden">Chips de courgettes aux herbes</a><a href="https://www.marieclaire.fr/cuisine/le-hommos-au-piment-du-liza,1456684.asp" class="ParentCollectionLinks-link is-hidden">Le hommos au piment du Liza</a><a href="https://www.marieclaire.fr/cuisine/caviar-d-aubergine-a-la-grenade,1456434.asp" class="ParentCollectionLinks-link is-hidden">Caviar d&rsquo;aubergine &agrave; la grenade</a><a href="https://www.marieclaire.fr/cuisine/pois-chiches-grilles-au-piment,1456430.asp" class="ParentCollectionLinks-link is-hidden">Pois chiches grill&eacute;s au piment</a><a href="https://www.marieclaire.fr/cuisine/houmous-vert-aux-edamames-et-avocat,1455376.asp" class="ParentCollectionLinks-link is-hidden">Houmous vert aux edamames et avocat</a></div><div class="ParentCollectionLinks-toggle js-ParentCollectionLinks-toggle">
+						<button class="ParentCollectionLinks-toggleButton js-ParentCollectionLinks-toggleButton" data-text="R&eacute;duire" data-reduced-text="Voir plus d'articles">Voir plus d'articles</button>
+					</div></div></div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6b/recettes-entrees-sans-gluten.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6b/recettes-entrees-sans-gluten.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6b/recettes-entrees-sans-gluten.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6b/recettes-entrees-sans-gluten.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6b/recettes-entrees-sans-gluten.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6b/recettes-entrees-sans-gluten.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6b/recettes-entrees-sans-gluten.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6b/recettes-entrees-sans-gluten.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6b/recettes-entrees-sans-gluten.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes entr&eacute;es sans gluten" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/les-recettes-sans-gluten-ideales-en-entrees,1190017.asp" class="ArticleLink-link">Toutes nos recettes d'entr&eacute;es sans gluten</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/5y/recettes-sans-gluten-faciles-rapides.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/5y/recettes-sans-gluten-faciles-rapides.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/5y/recettes-sans-gluten-faciles-rapides.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/5y/recettes-sans-gluten-faciles-rapides.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/5y/recettes-sans-gluten-faciles-rapides.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/5y/recettes-sans-gluten-faciles-rapides.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/5y/recettes-sans-gluten-faciles-rapides.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/5y/recettes-sans-gluten-faciles-rapides.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/5y/recettes-sans-gluten-faciles-rapides.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes sans gluten faciles rapides" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recettes-sans-gluten-rapides-et-faciles-pour-un-diner-improvise,1190182.asp" class="ArticleLink-link">Des recettes sans gluten faciles et rapides &agrave; faire</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_c17/cuisine/i13l/cvf147_101-1.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_c17/cuisine/i13l/cvf147_101-1.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_c17/cuisine/i13l/cvf147_101-1.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_c17/cuisine/i13l/cvf147_101-1.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_c17/cuisine/i13l/cvf147_101-1.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_c17/cuisine/i13l/cvf147_101-1.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_c17/cuisine/i13l/cvf147_101-1.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_c17/cuisine/i13l/cvf147_101-1.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_c17/cuisine/i13l/cvf147_101-1.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Tartes fines aux c&egrave;pes" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/tartelettes-salees,1222080.asp" class="ArticleLink-link">Tartelettes sal&eacute;es</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/60/recettes-anchois.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/60/recettes-anchois.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/60/recettes-anchois.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/60/recettes-anchois.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/60/recettes-anchois.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/60/recettes-anchois.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/60/recettes-anchois.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/60/recettes-anchois.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/60/recettes-anchois.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Toutes nos recettes avec des anchois" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/anchois,1222431.asp" class="ArticleLink-link">Toutes nos recettes avec des anchois</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6k/recettes-cuisine-mediterraneenne.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6k/recettes-cuisine-mediterraneenne.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6k/recettes-cuisine-mediterraneenne.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6k/recettes-cuisine-mediterraneenne.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6k/recettes-cuisine-mediterraneenne.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6k/recettes-cuisine-mediterraneenne.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6k/recettes-cuisine-mediterraneenne.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6k/recettes-cuisine-mediterraneenne.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6k/recettes-cuisine-mediterraneenne.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes de cuisine m&eacute;diterran&eacute;enne" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/cuisine-mediterraneenne,1222505.asp" class="ArticleLink-link">Cuisine m&eacute;diterran&eacute;enne&nbsp;: un air de vacances dans l'assiette&nbsp;!</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--parentCollection ArticleLink--light js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/5y/recettes-mezze-mediterraneen.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/5y/recettes-mezze-mediterraneen.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/5y/recettes-mezze-mediterraneen.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/5y/recettes-mezze-mediterraneen.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/5y/recettes-mezze-mediterraneen.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/5y/recettes-mezze-mediterraneen.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/5y/recettes-mezze-mediterraneen.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/5y/recettes-mezze-mediterraneen.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/5y/recettes-mezze-mediterraneen.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes mezze" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/mezze,1223064.asp" class="ArticleLink-link">Des mezz&eacute;s m&eacute;dit&eacute;rann&eacute;ens pour un repas ensoleill&eacute;</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles List--inline">
+
+<!--@@@title@@@-->
+<div class="Title Title--contextual List-title"><span class="Title-content">
+<!--@@@zone@@@-->
+
+							Dernières News
+							
+
+<!--@@@zone@@@-->
+</span></div>
+<!--@@@title@@@-->
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pissaladiere-sans-gluten.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-pissaladiere-sans-gluten.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-pissaladiere-sans-gluten.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-pissaladiere-sans-gluten.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pissaladiere-sans-gluten.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-pissaladiere-sans-gluten.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de la pissaladiere sans gluten " class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recette-de-la-pissaladiere-sans-gluten,1518130.asp" class="ArticleLink-link">Pissaladière sans gluten : un régal provençal assuré</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/boulettes-epinards-et-fromage.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/boulettes-epinards-et-fromage.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/boulettes-epinards-et-fromage.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/boulettes-epinards-et-fromage.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/boulettes-epinards-et-fromage.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/boulettes-epinards-et-fromage.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/boulettes-epinards-et-fromage.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/boulettes-epinards-et-fromage.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/boulettes-epinards-et-fromage.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Boulettes &eacute;pinards et fromage" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/boulettes-epinards-et-fromage,1517361.asp" class="ArticleLink-link">Le mystère des épinards transformés avec du fromage révélés</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6w/recette-smoothie-mirabelles.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6w/recette-smoothie-mirabelles.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6w/recette-smoothie-mirabelles.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6w/recette-smoothie-mirabelles.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6w/recette-smoothie-mirabelles.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/6w/recette-smoothie-mirabelles.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/6w/recette-smoothie-mirabelles.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/6w/recette-smoothie-mirabelles.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/6w/recette-smoothie-mirabelles.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette smoothie mirabelles noisettes" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recette-de-smoothie-aux-mirabelles-et-aux-noisettes,1479398.asp" class="ArticleLink-link">Un smoothie aux mirabelles pour un réveil tout en douceur</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-gnocchis-gratine-s-a-la-tomate-et-a-la-burrata.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de gnocchis gratin&eacute;s &agrave; la tomate et &agrave; la burrata" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/ces-gnocchis-gratines-a-la-burrata-vont-reconcilier-tout-le-monde-avec-les-repas-du-soir,1517750.asp" class="ArticleLink-link">Gnocchis gratinés à la burrata : secret des soirées réussies</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7g/agneau-en-papillote.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7g/agneau-en-papillote.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7g/agneau-en-papillote.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7g/agneau-en-papillote.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7g/agneau-en-papillote.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7g/agneau-en-papillote.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7g/agneau-en-papillote.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7g/agneau-en-papillote.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7g/agneau-en-papillote.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette agneau papillote" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/vous-passez-le-dimanche-midi-en-famille-preparez-cet-agneau-en-papillote,1518728.asp" class="ArticleLink-link">Un plat d'agneau en papillote pour dimanche en famille</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recette-de-pa-tes-cre-meuses-a-la-burrata-et-aux-tomates-ro-ties.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette de p&acirc;tes cr&eacute;meuses &agrave; la burrata et aux tomates r&ocirc;ties" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/il-suffit-de-cet-ingredient-mystere-pour-transformer-un-simple-plat-de-pates-en-un-max-de-gourmandise,1517749.asp" class="ArticleLink-link">L'ingrédient secret qui métamorphose vos pâtes</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+
+<!--@@@advertising@@@-->
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles">
+
+<!--@@@title@@@-->
+<div class="Title Title--contextual List-title"><span class="Title-content"><span class="Title-plus">Plus</span> de <a href="https://www.marieclaire.fr/cuisine/quiches-tartes,2615673.htm">Quiches &amp; tartes</a></span></div>
+<!--@@@title@@@-->
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--stacked js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-fine-courgettes-olives.webp 1000w, https://cache.marieclaire.fr/data/photo/w1536_h768_ci/7f/tarte-fine-courgettes-olives.webp 1536w, https://cache.marieclaire.fr/data/photo/w768_h384_ci/7f/tarte-fine-courgettes-olives.webp 768w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-fine-courgettes-olives.webp 680w, https://cache.marieclaire.fr/data/photo/w1633_h817_ci/7f/tarte-fine-courgettes-olives.webp 1633w" type="image/webp" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw"/><img width="1000" height="500"  src="https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-fine-courgettes-olives.jpg" srcset="https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-fine-courgettes-olives.jpg 1000w, https://cache.marieclaire.fr/data/photo/w1536_h768_ci/7f/tarte-fine-courgettes-olives.jpg 1536w, https://cache.marieclaire.fr/data/photo/w768_h384_ci/7f/tarte-fine-courgettes-olives.jpg 768w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-fine-courgettes-olives.jpg 680w, https://cache.marieclaire.fr/data/photo/w1633_h817_ci/7f/tarte-fine-courgettes-olives.jpg 1633w" sizes="(min-width: 1020px) 1000px, (max-width: 1019px) and (min-width: 640px) 100vw, (max-width: 639px) 100vw" alt="Recette tarte courgettes olives ricotta" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/cette-tarte-aux-courgettes-et-aux-olives-va-vous-transporter-dans-le-sud,1517832.asp" class="ArticleLink-link">Recette facile de tarte aux courgettes et olives provençales</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+
+<!--@@@articleList@@@-->
+
+<!--@@@list@@@-->
+<div class="List List--articles List--inline">
+	<div class="List-items">
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--typed ArticleLink--gallery ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recettes-quiches-ete.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recettes-quiches-ete.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recettes-quiches-ete.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recettes-quiches-ete.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recettes-quiches-ete.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/recettes-quiches-ete.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/recettes-quiches-ete.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/recettes-quiches-ete.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/recettes-quiches-ete.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recettes quiches estivales" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/recettes-de-quiches-estivales,1517630.asp" class="ArticleLink-link">Recettes de quiches gourmandes parfaites pour l'été</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/la-tarte-epinards-chevre-d-alain-ducasse.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="La tarte &eacute;pinards ch&egrave;vre d'Alain Ducasse" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/la-tarte-epinards-chevre-d-alain-ducasse,1517363.asp" class="ArticleLink-link">Recette tarte épinards chèvre d'Alain Ducasse facile</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tartelettes-facon-salade-nicoise.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tartelettes-facon-salade-nicoise.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tartelettes-facon-salade-nicoise.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tartelettes-facon-salade-nicoise.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tartelettes-facon-salade-nicoise.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tartelettes-facon-salade-nicoise.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tartelettes-facon-salade-nicoise.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tartelettes-facon-salade-nicoise.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tartelettes-facon-salade-nicoise.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Tartelettes fa&ccedil;on salade ni&ccedil;oise" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/tartelettes-facon-salade-nicoise,1517261.asp" class="ArticleLink-link">Tartelette gourmande à la salade niçoise</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tomates-provencale.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-tomates-provencale.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-tomates-provencale.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tarte-tomates-provencale.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tomates-provencale.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tomates-provencale.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-tomates-provencale.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-tomates-provencale.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tarte-tomates-provencale.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette tarte tomates proven&ccedil;ale" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/un-air-de-provence-dans-l-assiette-voici-la-tarte-a-la-tomate-que-vous-allez-faire-tout-l-ete,1517192.asp" class="ArticleLink-link">Recette tarte à la tomate style provençal</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tomates-poivrons.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-tomates-poivrons.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-tomates-poivrons.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tarte-tomates-poivrons.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tomates-poivrons.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tomates-poivrons.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-tomates-poivrons.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-tomates-poivrons.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tarte-tomates-poivrons.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette tarte tomates poivrons marin&eacute;s" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/tomates-et-poivrons-marines-composent-cette-tarte-estivale-croustillante,1517084.asp" class="ArticleLink-link">Recette tarte estivale tomates et poivrons marinés</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+		<div class="List-item">
+<!--@@@articleLink@@@-->
+<div class="ArticleLink ArticleLink--standard ArticleLink--small js-linkContainer ">
+	<div class="ArticleLink-imageContainer">
+		
+<!--@@@imageTag@@@-->
+<picture><source srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tatin-tomate-tomme.webp 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-tatin-tomate-tomme.webp 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-tatin-tomate-tomme.webp 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tarte-tatin-tomate-tomme.webp 320w" type="image/webp" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw"/><img width="500" height="250"  src="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tatin-tomate-tomme.jpg" srcset="https://cache.marieclaire.fr/data/photo/w500_h250_ci/7f/tarte-tatin-tomate-tomme.jpg 500w, https://cache.marieclaire.fr/data/photo/w1000_h500_ci/7f/tarte-tatin-tomate-tomme.jpg 1000w, https://cache.marieclaire.fr/data/photo/w680_h340_ci/7f/tarte-tatin-tomate-tomme.jpg 680w, https://cache.marieclaire.fr/data/photo/w320_h160_ci/7f/tarte-tatin-tomate-tomme.jpg 320w" sizes="(min-width: 1020px) 500px, (max-width: 1019px) and (min-width: 640px) 320px, (max-width: 639px) 100vw" alt="Recette tarte tatin tomate tomme" class="ArticleLink-image  Ratio-0-5" loading="lazy" /></picture>
+<!--@@@imageTag@@@-->
+	</div>
+	<div class="ArticleLink-content">
+		<div class="ArticleLink-contentHeader">
+			<div class="ArticleLink-title"><a href="https://www.marieclaire.fr/cuisine/tomates-cerises-et-fromage-fondant-voici-la-tarte-tatin-de-l-ete,1516966.asp" class="ArticleLink-link">Tarte tatin d'été : tomates cerises et fromage fondant</a></div>
+					</div>
+	</div>
+</div>
+<!--@@@articleLink@@@-->
+</div>
+	</div>
+</div>
+
+<!--@@@list@@@-->
+
+<!--@@@articleList@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+<!--@@@advertising@@@-->
+<div class="External External--rectangle-3 External-container is-empty" rel="rectangle-3"><div class='googleAd' path='/21720049534/Cuisineetvinsdefrance_Display/Cuisineetvinsdefrance_Display_Rectangle-3' sizes='[[1000,250],[970,250],[750,150],[728,90],[300,250],[320,100],[320,50],[1,1],["fluid"]]'  id='div-gpt-ad-rectangle-3'></div>
+</div>
+
+<!--@@@advertising@@@-->
+
+
+
+<!--@@@populars@@@-->
+<div class="Populars">
+
+<!--@@@title@@@-->
+<div class="Title Title--topContent Populars-title"><span class="Title-content">Les plus populaires</span></div>
+<!--@@@title@@@-->
+<a href="https://www.marieclaire.fr/cuisine/voici-la-salade-libanaise-que-vous-allez-preparer-tout-l-ete-tellement-elle-est-fraiche,1517853.asp" class="Populars-link" title="Salade libanaise fra&icirc;che id&eacute;ale pour l'&eacute;t&eacute;">Salade libanaise fra&icirc;che id&eacute;ale pour l'&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/recette-de-concombres-farcis-au-thon,1517764.asp" class="Populars-link" title="Recette concombre farci sans cuisson en 15 minutes">Recette concombre farci sans cuisson en 15 minutes</a><a href="https://www.marieclaire.fr/cuisine/recette-de-gaspacho-melon-cantaloup-et-prosciutto,1517952.asp" class="Populars-link" title="Gaspacho melon prosciutto : recette fra&icirc;che et chic de l'&eacute;t&eacute;">Gaspacho melon prosciutto : recette fra&icirc;che et chic de l'&eacute;t&eacute;</a><a href="https://www.marieclaire.fr/cuisine/flan-de-courgettes-facile-et-rapide,1477321.asp" class="Populars-link" title="Flan de courgettes (facile et rapide)">Flan de courgettes (facile et rapide)</a><a href="https://www.marieclaire.fr/cuisine/le-vrai-taboule-libanais-ne-ressemble-pas-a-celui-que-l-on-achete-au-supermarche,1517876.asp" class="Populars-link" title="Taboul&eacute; libanais vrai vs supermarch&eacute; : d&eacute;couvrez les diff&eacute;rences">Taboul&eacute; libanais vrai vs supermarch&eacute; : d&eacute;couvrez les diff&eacute;rences</a><a href="https://www.marieclaire.fr/cuisine/connaissez-vous-le-makdous-ces-petites-aubergines-farcies-qui-font-le-bonheur-des-tables-libanaises,1517870.asp" class="Populars-link" title="Makdous : aubergines farcies libanaises au go&ucirc;t unique">Makdous : aubergines farcies libanaises au go&ucirc;t unique</a></div>
+
+<!--@@@populars@@@-->
+
+
+<!--@@@advertising@@@-->
+
+<!--@@@advertising@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+
+<!--@@@zone@@@-->
+	</div>
+</div>
+<footer id="footer" data-area-name="footer">
+	
+<!--@@@zone@@@-->
+
+<!--@@@miscellaneous@@@-->
+
+<div class="FooterLogo">
+
+</div>
+
+<!--@@@miscellaneous@@@-->
+
+
+<!--@@@socialNetwork@@@-->
+<div class="SocialLinks SocialLinks--footer">
+<div class="SocialLinks-linkContainer"><a href="https://x.com/Cuisine_VinsdeF" data-type="twitter" class="SocialLinks-link SocialLinks-link--twitter" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.facebook.com/CuisineEtVinsDeFrance" data-type="facebook" class="SocialLinks-link SocialLinks-link--facebook" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://fr.pinterest.com/cuisineetvinsdefrance/" data-type="pinterest" class="SocialLinks-link SocialLinks-link--pinterest" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.instagram.com/cuisineetvinsdefrance/" data-type="instagram" class="SocialLinks-link SocialLinks-link--instagram" target="_blank" rel="nofollow" title=""></a></div><div class="SocialLinks-linkContainer"><a href="https://www.marieclaire.fr/cuisine/newsletter" data-type="newsletter" class="SocialLinks-link SocialLinks-link--newsletter"  title=""></a></div></div>
+
+<!--@@@socialNetwork@@@-->
+
+
+<!--@@@magazine@@@-->
+<div class="MagazineSubscription MagazineSubscription-popin js-magazineSubscriptionPopin">
+	<button class="MagazineSubscription-popin--Close js-hideMagazineSubscriptionPopin"></button>
+	<div class="MagazineSubscription-popin--link" data-encodedhref="aHR0cHM6Ly93d3cuYWJvbm5lbWVudC1jdWlzaW5lLXZpbnMuZnIv" target="_blank">
+				<img loading="lazy" class="MagazineSubscription-popin--image js-MagazineSubscription-popin--image" src="https://cache.marieclaire.fr/data/photo/w175_c17/magazine/cvf/cover.jpg?5ad7dda7c13e7983a911e842e024ecb2"/>
+				<p class="MagazineSubscription-popin--text">Je m'abonne</p>
+	</div>
+</div>
+
+<!--@@@magazine@@@-->
+
+
+<!--@@@newsletter@@@-->
+<div class="NewsletterBox NewsletterBox--footer">
+	<div class="NewsletterBox-title">Inscrivez-vous &agrave; la newsletter</div>
+	<div class="NewsletterBox-formContainer">
+		<form method="get" action="https://www.marieclaire.fr/cuisine/newsletter" class="NewsletterBox-form js-NewsletterFooterForm" novalidate="novalidate">
+			<input type="email" name="emailAddress" placeholder="Votre adresse e-mail" class="NewsletterBox-emailAddressField js-emailAddress" />
+			<input type="submit" value="Valider" class="NewsletterBox-submitButton" />
+		</form>
+	</div>
+</div>
+<!--@@@newsletter@@@-->
+
+
+<!--@@@miscellaneous@@@-->
+<div class="FooterLinks">
+	<ul class="FooterLinks-list">
+<li class="FooterLinks-item"><a href="https://www.marieclaire.fr/qui-sommes-nous,1518870.asp" class="FooterLinks-link" >Qui sommes-nous ?</a></li><li class="FooterLinks-item"><a href="https://www.marieclaire.fr/plan/2615634" class="FooterLinks-link" >Plan du site</a></li><li class="FooterLinks-item"><a href="https://www.marieclaire.fr/,mentions-legales,20214,1711.asp" class="FooterLinks-link" >Mentions l&eacute;gales</a></li><li class="FooterLinks-item js-openConsentManagementModal"><a href="https://www.marieclaire.fr/,politique-d-utilisation-des-cookies,708326.asp" class="FooterLinks-link" >Cookies</a></li><li class="FooterLinks-item"><a href="https://www.marieclaire.fr/codes-promo/" class="FooterLinks-link" >Codes Promo</a></li>	</ul>
+</div>
+
+<!--@@@miscellaneous@@@-->
+
+
+
+<!--@@@zone@@@-->
+
+<!--@@@adrenalead@@@-->
+
+<!--@@@adrenalead@@@-->
+
+
+<!--@@@zone@@@-->
+
+
+<!--@@@qiotaPaywall@@@-->
+
+<!--@@@qiotaPaywall@@@-->
+
+
+<!--@@@zone@@@-->
+</footer>
+
+<!--@@@layout@@@-->
+<script src="https://cache.marieclaire.fr/data/display/tools.js?9sk8on3ykzcww4gkcsk8wwg4o"></script>
+<script src="https://cache.marieclaire.fr/data/display/page.js?cam2n3iomfk80s008kwsooc8k"></script>
+<script src="https://cache.marieclaire.fr/data/display/gam.js?5ktfd77azb8kcwscowso48sow"></script>
+<script src="https://cache.marieclaire.fr/data/display/article.js?f29vgyty8v4gckkkkg4cog8kg"></script>
+<script src="https://cache.marieclaire.fr/data/display/commentform.js?19i8h1p3ibz4gc8s4w4scko0w"></script>
+<script>
+!function(e){Object.defineProperty(e,"push",{value:function(e){"function"==typeof e&&e()}});for(var t;t=e.shift();)try{e.push(t)}catch(o){console.error(o)}}(window.mc2m)
+</script>
+<div style="height:0; overflow:hidden">
+</div>
+<!-- magic-web-02 -->
+	<script type="text/javascript">
+		window._nli=window._nli||[],function(){var n,e,i=window._nli||(window._nli=[]);i.loaded||((n=document.createElement("script")).defer=!0,n.src="https://l.marieclaire.fr/sdk.js",(e=document.getElementsByTagName("script")[0]).parentNode.insertBefore(n,e),i.loaded=!0)}();
+	</script>
+</body>
+
+</html>

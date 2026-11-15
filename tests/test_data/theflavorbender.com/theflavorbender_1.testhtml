@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<!--
+Generated with generate.py TheFlavorBender on 2026-10-10 from:
+https://www.theflavorbender.com/easy-homemade-chicken-ramen/
+Reduced to original recipe JSON-LD, attribution/image metadata, and
+ingredient-group markup for testing. Article prose, visitor reviews,
+forms, executable scripts, styles, tracking and image files are omitted.
+-->
+<html lang="en-US">
+<head>
+<link href="https://www.theflavorbender.com/easy-homemade-chicken-ramen/" rel="canonical"/>
+<meta content="The Flavor Bender" property="og:site_name"/>
+<meta content="https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-FB.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.theflavorbender.com/#website",
+      "name": "The Flavor Bender",
+      "url": "https://www.theflavorbender.com/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.theflavorbender.com/#/schema/person/ab6f60ebb738d3347a2b3dfb5ad2b43c",
+      "name": "Dini Kodippili",
+      "url": "https://www.theflavorbender.com/author/dini/"
+    },
+    {
+      "@type": "Recipe",
+      "name": "Easy Homemade Chicken Ramen",
+      "author": {
+        "@id": "https://www.theflavorbender.com/#/schema/person/ab6f60ebb738d3347a2b3dfb5ad2b43c"
+      },
+      "description": "An incredibly flavorful homemade chicken ramen with authentic flavors, but easy enough to make for dinner! Topped with caramelized soy chicken and a ramen egg. This classic shoyu chicken ramen can be made in about 45 minutes, and 30 minutes for the easier version.You also have the option of marinating the chicken and ramen eggs overnight to increase flavor. INTERMEDIATE - This is an overall easy recipe, but it does have several components. It&#039;s recommended to make each component separately the first time you make this, but afterwards, it&#039;ll be easier to multitask and make the components simultaneously. An easier version of the recipe is also included. Makes 4 servings of chicken ramen.US based cup, teaspoon, tablespoon measurements. Common Measurement Conversions. Weight measurements are recommended for accurate results.",
+      "datePublished": "2019-01-08T21:04:21+00:00",
+      "image": [
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-Featured.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-Featured-500x500.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-Featured-500x375.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Chicken-Ramen-Featured-480x270.jpg"
+      ],
+      "recipeYield": [
+        "4",
+        "4 servings"
+      ],
+      "prepTime": "PT5M",
+      "cookTime": "PT40M",
+      "totalTime": "PT45M",
+      "recipeIngredient": [
+        "30 mL mirin (2 tbsp)",
+        "15 mL dark soy sauce (or mushroom dark soy sauce)",
+        "15 mL light soy sauce (1 tbsp)",
+        "¼ tsp cayenne pepper",
+        "2 cloves garlic  (chopped finely)",
+        "4 pieces chicken thighs (boneless, skin off or on)",
+        "2 tsp brown sugar",
+        "30 mL dark soy sauce (or mushroom dark soy sauce)",
+        "4 - 5 cups good quality chicken stock (1000 - 1180 mL. No sodium or low sodium)",
+        "4  spring onions / scallions (trimmed and cut into 3 inch pieces, or just in half)",
+        "5 cloves garlic (whole cloves are fine)",
+        "2 inch piece of ginger (sliced)",
+        "4  fresh red chili",
+        "60 mL light soy sauce (¼ cup)",
+        "60 mL mirin (¼ cup)",
+        "8 ounces fresh shiitake mushrooms (stems trimmed and sliced, or cut in half)",
+        "6 pieces dried shiitake mushrooms (optional. See recipe notes below.)",
+        "4 portions dried ramen noodles",
+        "4  large eggs",
+        "1  large bunch of yu choy OR spinach (or any Asian greens)",
+        "Soy sauce (to taste)",
+        "Sesame oil (a drizzle)",
+        "2 - 3 cloves garlic (finely sliced, to taste)",
+        "4  spring onions / scallions (finely sliced)",
+        "Sliced radishes or bean sprouts",
+        "Ramen eggs (marinated or plain)",
+        "Chili garlic oil"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToSection",
+          "name": "Caramelized soy chicken",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Place all the ingredients for the chicken marinade in a bowl. Mix well to coat the chicken. If time permits, allow the chicken to marinate for at least 1 hour.",
+              "name": "Place all the ingredients for the chicken marinade in a bowl. Mix well to coat the chicken. If time permits, allow the chicken to marinate for at least 1 hour.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-0-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Preheat the oven to 425°F / 218°C, and place an oven rack in the top third of your oven. Line a baking sheet with parchment paper.",
+              "name": "Preheat the oven to 425°F / 218°C, and place an oven rack in the top third of your oven. Line a baking sheet with parchment paper.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-0-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Place the chicken pieces on the baking sheet, skin side down (or smooth side down), evenly spaced apart. Then place the baking sheet in the preheated oven (upper third).",
+              "name": "Place the chicken pieces on the baking sheet, skin side down (or smooth side down), evenly spaced apart. Then place the baking sheet in the preheated oven (upper third).",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-0-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Let the chicken roast for 15 minutes. While the chicken is cooking, mix the brown sugar and dark soy sauce for the glaze, and start making the ramen. (Please note that the cook time for the chicken will vary depending on the size and thickness of the chicken thigh pieces you are using. )",
+              "name": "Let the chicken roast for 15 minutes. While the chicken is cooking, mix the brown sugar and dark soy sauce for the glaze, and start making the ramen. (Please note that the cook time for the chicken will vary depending on the size and thickness of the chicken thigh pieces you are using. )",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-0-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "After 15 minutes, flip the chicken pieces over and spoon the glaze over them. Let the chicken cook for a further 10 - 15 minutes. Then remove from the oven and let them cool down.",
+              "name": "After 15 minutes, flip the chicken pieces over and spoon the glaze over them. Let the chicken cook for a further 10 - 15 minutes. Then remove from the oven and let them cool down.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-0-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Slice the chicken and set aside.",
+              "name": "Slice the chicken and set aside.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-0-5"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Ramen",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "While the caramelized soy chicken is cooking in the oven, make the ramen base.",
+              "name": "While the caramelized soy chicken is cooking in the oven, make the ramen base.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Place two saucepans on the stove.&nbsp;",
+              "name": "Place two saucepans on the stove.&nbsp;",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "As an optional step, you can chop the garlic and ginger. Or you can add them whole or sliced, and strain the ramen stock to remove the large pieces of garlic and ginger later. ",
+              "name": "As an optional step, you can chop the garlic and ginger. Or you can add them whole or sliced, and strain the ramen stock to remove the large pieces of garlic and ginger later. ",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "In one saucepan (Pot 1), place the stock, ginger, garlic, spring onions, chili (if using), soy sauce, and mirin. Stir and cover the pot. Let it come to a boil at medium high - high heat. Then lower the heat to medium and let it simmer for 20 - 25 minutes. Taste the base and add more salt if needed. ",
+              "name": "In one saucepan (Pot 1), place the stock, ginger, garlic, spring onions, chili (if using), soy sauce, and mirin. Stir and cover the pot. Let it come to a boil at medium high - high heat. Then lower the heat to medium and let it simmer for 20 - 25 minutes. Taste the base and add more salt if needed. ",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "To add more flavor to the stock base, you can also add dried shiitake mushrooms to the broth. The dried mushroom will reconstitute as the stock heats up and add a lot of umami flavor to the broth.",
+              "name": "To add more flavor to the stock base, you can also add dried shiitake mushrooms to the broth. The dried mushroom will reconstitute as the stock heats up and add a lot of umami flavor to the broth.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "While Pot 1 is simmering, add water to the second pot (Pot 2), and bring it to a boil. Add the dried noodles to the boiling water and cook according to package directions. I prefer to cook the noodles for ONE MINUTE LESS than what&#39;s recommended on the package, since the noodles will continue to cook for a bit longer when served with hot broth. The straight ramen noodles I use here take 3  minutes to cook. Drain the noodles and divide into 4 bowls and set aside. ",
+              "name": "While Pot 1 is simmering, add water to the second pot (Pot 2), and bring it to a boil. Add the dried noodles to the boiling water and cook according to package directions. I prefer to cook the noodles for ONE MINUTE LESS than what&#39;s recommended on the package, since the noodles will continue to cook for a bit longer when served with hot broth. The straight ramen noodles I use here take 3  minutes to cook. Drain the noodles and divide into 4 bowls and set aside. ",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-5"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "When the ramen base in Pot 1 has cooked for about 20 - 25 minutes, strain to remove the garlic, ginger, chili, and spring onions (or only the spring onions and chili). If you added dried mushrooms, remove these. Slice these mushrooms and set aside.",
+              "name": "When the ramen base in Pot 1 has cooked for about 20 - 25 minutes, strain to remove the garlic, ginger, chili, and spring onions (or only the spring onions and chili). If you added dried mushrooms, remove these. Slice these mushrooms and set aside.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-6"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add the strained stock back into the pot and add the mushrooms (fresh and reconstituted dried mushrooms) , and let it cook for a further 5 minutes until the fresh mushrooms have softened. The ramen base is now ready. ",
+              "name": "Add the strained stock back into the pot and add the mushrooms (fresh and reconstituted dried mushrooms) , and let it cook for a further 5 minutes until the fresh mushrooms have softened. The ramen base is now ready. ",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-1-7"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Ramen egg or unseasoned soft boiled egg",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Make ramen eggs the day before, according to this recipe. OR make regular soft boiled eggs to top your ramen bowl. (Ramen eggs need at least 2 hours to marinate.)",
+              "name": "Make ramen eggs the day before, according to this recipe. OR make regular soft boiled eggs to top your ramen bowl. (Ramen eggs need at least 2 hours to marinate.)",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-2-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "To make regular soft boiled eggs - bring a pot of water to a boil. Lower 4 large eggs carefully into the water and cook the eggs for 6 - 6 ½ minutes.",
+              "name": "To make regular soft boiled eggs - bring a pot of water to a boil. Lower 4 large eggs carefully into the water and cook the eggs for 6 - 6 ½ minutes.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-2-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Immediately place the eggs in cool running water or an ice bath for a few minutes. Peel and set aside until ready to serve. This can be done BEFORE you cook the ramen as well.",
+              "name": "Immediately place the eggs in cool running water or an ice bath for a few minutes. Peel and set aside until ready to serve. This can be done BEFORE you cook the ramen as well.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-2-2"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Steamed greens",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Wash the greens and cut them in half, or into sections if necessary, to separate thick stems from the leaves.",
+              "name": "Wash the greens and cut them in half, or into sections if necessary, to separate thick stems from the leaves.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-3-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Place the greens in a bowl and drizzle a little soy sauce and sesame oil (and garlic) on top. Toss to combine.",
+              "name": "Place the greens in a bowl and drizzle a little soy sauce and sesame oil (and garlic) on top. Toss to combine.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-3-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Cover and microwave in 1 minute increments until the greens have softened, but not too wilted.",
+              "name": "Cover and microwave in 1 minute increments until the greens have softened, but not too wilted.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-3-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Alternatively, you can heat a non-stick pan with a little oil, and pan fry the greens with soy sauce and garlic for about 2 - 4 minutes. You can also blanche the greens in the ramen broth for about 1 minute. Remove the greens and then drizzle soy sauce, sesame oil, garlic, and toss to mix.",
+              "name": "Alternatively, you can heat a non-stick pan with a little oil, and pan fry the greens with soy sauce and garlic for about 2 - 4 minutes. You can also blanche the greens in the ramen broth for about 1 minute. Remove the greens and then drizzle soy sauce, sesame oil, garlic, and toss to mix.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-3-3"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "To serve",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Evenly divide the hot stock between the four bowls with ramen noodles.",
+              "name": "Evenly divide the hot stock between the four bowls with ramen noodles.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-4-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Top with the steamed greens, sliced soy chicken, ramen eggs, spring onions, radishes, and other toppings you like.",
+              "name": "Top with the steamed greens, sliced soy chicken, ramen eggs, spring onions, radishes, and other toppings you like.",
+              "url": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#wprm-recipe-25934-step-4-1"
+            }
+          ]
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.95",
+        "ratingCount": "151",
+        "reviewCount": "13"
+      },
+      "recipeCategory": [
+        "Dinner",
+        "Lunch"
+      ],
+      "recipeCuisine": [
+        "Asian",
+        "Japanese"
+      ],
+      "keywords": "Asian recipes, Authentic ramen, Caramelized chicken, Chicken Recipes, Comfort food, East Asian recipes, Homemade ramen, Japanese ramen, Noodle soup, Noodles, Ramen, Ramen broth, Ramen eggs, Shoyu ramen",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "658 kcal",
+        "carbohydrateContent": "88 g",
+        "proteinContent": "31 g",
+        "fatContent": "21 g",
+        "saturatedFatContent": "9 g",
+        "cholesterolContent": "172 mg",
+        "sodiumContent": "4123 mg",
+        "fiberContent": "4 g",
+        "sugarContent": "13 g",
+        "transFatContent": "0.02 g",
+        "unsaturatedFatContent": "12 g",
+        "servingSize": "1 serving"
+      },
+      "@id": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#recipe",
+      "isPartOf": {
+        "@id": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/#article"
+      },
+      "mainEntityOfPage": "https://www.theflavorbender.com/easy-homemade-chicken-ramen/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wprm-recipe-ingredients-container wprm-recipe-ingredients-no-images wprm-recipe-25934-ingredients-container wprm-block-text-light wprm-ingredient-style-regular wprm-recipe-images-before" id="recipe-25934-ingredients">
+ <h4 class="wprm-recipe-header wprm-recipe-ingredients-header wprm-block-text-bold wprm-align-left wprm-header-decoration-spacer wprm-header-has-actions">
+  Ingredients:
+  <div class="wprm-decoration-spacer">
+  </div>
+  <div class="wprm-recipe-adjustable-servings-container wprm-recipe-adjustable-servings-25934-container wprm-toggle-container wprm-toggle-buttons-container wprm-block-text-normal">
+  </div>
+ </h4>
+ <div class="wprm-spacer">
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Caramelized soy chicken and marinade
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     30
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     mL
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     mirin
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      2
+     </span>
+     tbsp
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     15
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     mL
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     dark soy sauce (or mushroom dark soy sauce)
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      1
+     </span>
+     tbsp,
+     <u>
+      If you don't have this, you can substitute with light soy sauce but adjust for salt.
+     </u>
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     15
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     mL
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     light soy sauce
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      1
+     </span>
+     tbsp
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ¼
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     cayenne pepper
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cloves
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     garlic
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     chopped finely
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     pieces
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     chicken thighs
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     boneless, skin off or on
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Glaze for the chicken
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     brown sugar
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     30
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     mL
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     dark soy sauce (or mushroom dark soy sauce)
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      2
+     </span>
+     tbsp. or
+     <span class="wprm-dynamic-quantity">
+      1
+     </span>
+     tbsp light soy sauce +
+     <span class="wprm-dynamic-quantity">
+      1
+     </span>
+     tbsp water
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Shoyu ramen
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4 – 5
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cups
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     good quality chicken stock
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      1000
+     </span>
+     –
+     <span class="wprm-dynamic-quantity">
+      1180
+     </span>
+     mL. No sodium or low sodium
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     spring onions / scallions
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     trimmed and cut into 3 inch pieces, or just in half
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     5
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cloves
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     garlic
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     whole cloves are fine
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     inch
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     piece of ginger
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     sliced
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     fresh red chili
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     or
+     <span class="wprm-dynamic-quantity">
+      1
+     </span>
+     tbsp dried chili flakes (crushed red pepper).
+     <u>
+      Omit this if you don't prefer spicy food.
+     </u>
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     60
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     mL
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     light soy sauce
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      ¼
+     </span>
+     cup
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     60
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     mL
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     mirin
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     <span class="wprm-dynamic-quantity">
+      ¼
+     </span>
+     cup
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     8
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     ounces
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     fresh shiitake mushrooms
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     stems trimmed and sliced, or cut in half
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     6
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     pieces
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     dried shiitake mushrooms
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     optional. See recipe notes below.
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     portions
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     dried ramen noodles
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     or about
+     <span class="wprm-dynamic-quantity">
+      340
+     </span>
+     g dry ramen (or
+     <span class="wprm-dynamic-quantity">
+      4
+     </span>
+     portions of fresh ramen noodles)
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Regular soft boiled eggs (if you don’t want to make ramen eggs)
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     large eggs
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Steamed greens
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     large bunch of yu choy OR spinach
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     or any Asian greens
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Soy sauce
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     to taste
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Sesame oil
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     a drizzle
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2 – 3
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cloves
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     garlic
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     finely sliced, to taste
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Ramen toppings (optional, and can be substituted with whatever you prefer)
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     spring onions / scallions
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     finely sliced
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Sliced radishes or bean sprouts
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Ramen eggs
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     marinated or plain
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     Chili garlic oil
+    </span>
+   </li>
+  </ul>
+ </div>
+</div>
+</body>
+</html>

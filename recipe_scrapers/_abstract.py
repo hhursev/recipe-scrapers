@@ -10,6 +10,7 @@ from recipe_scrapers.settings import settings
 
 from ._exceptions import ElementNotFoundInHtml
 from ._grouping_utils import group_ingredients, IngredientGroup
+from ._notes_utils import extract_notes
 from ._opengraph import OpenGraph
 from ._schemaorg import SchemaOrg
 
@@ -107,6 +108,10 @@ class AbstractScraper:
     def ingredient_groups(self) -> list[IngredientGroup]:
         """List of ingredient groups with purpose and ingredients."""
         return group_ingredients(self.ingredients(), self.soup)
+
+    def notes(self) -> list[str]:
+        """List of notes or tips associated with the recipe."""
+        return extract_notes(self.soup)
 
     def instructions(self) -> str:
         """Instructions to prepare the recipe."""

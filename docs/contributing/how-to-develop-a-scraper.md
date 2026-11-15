@@ -32,11 +32,9 @@ follow these steps:
     git clone https://github.com/YOUR-USERNAME/recipe-scrapers.git
     cd recipe-scrapers
 
-    # Set up Python environment
-    python -m venv .venv
-    source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-    python -m pip install --upgrade pip
-    pip install -e ".[all]"
+    # Install uv first: https://docs.astral.sh/uv/getting-started/installation/
+    # Then create the Python environment and install all development dependencies
+    uv sync --all-extras
 ```
 
 Create a new branch:
@@ -47,11 +45,10 @@ git checkout -b site/website-name
 
 !!! tip "Run Tests"
 ```sh
-    python -m unittest
+    uv run --extra tests python -m unittest
 
     # Optional: Parallel testing
-    pip install unittest-parallel
-    unittest-parallel --level test
+    uv run --extra tests python -m unittest_parallel --level test
 ```
 
 ## Generate Scraper Files

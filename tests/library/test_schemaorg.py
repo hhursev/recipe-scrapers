@@ -120,6 +120,54 @@ HOWTO_SECTION_MIXED_ITEM_LIST_ELEMENT_SCHEMA = """
 }
 """
 
+HOWTO_STEP_LIST_ITEM_LIST_ELEMENT_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Step With Tips Recipe",
+  "recipeIngredient": [],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "Slice the leek."},
+    {
+      "@type": "HowToStep",
+      "text": "Serve.",
+      "itemListElement": [
+        {"@type": "HowToTip", "text": "Keep the green parts for a soup."}
+      ]
+    }
+  ]
+}
+"""
+
+HOWTO_STEP_DICT_ITEM_LIST_ELEMENT_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Step With Dict Recipe",
+  "recipeIngredient": [],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "First step."},
+    {
+      "@type": "HowToStep",
+      "itemListElement": {"@type": "HowToStep", "text": "Nested step."}
+    }
+  ]
+}
+"""
+
+HOWTO_STEP_EMPTY_ITEM_LIST_ELEMENT_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Step With Empty List Recipe",
+  "recipeIngredient": [],
+  "recipeInstructions": [
+    {"@type": "HowToStep", "text": "First step.", "itemListElement": []},
+    {"@type": "HowToStep", "text": "Second step."}
+  ]
+}
+"""
+
 BEST_IMAGE_SCHEMA = """
 {
   "@context": "https://schema.org",
@@ -137,6 +185,27 @@ BEST_IMAGE_SCHEMA = """
   ],
   "recipeIngredient": [],
   "recipeInstructions": []
+}
+"""
+
+DIETARY_RESTRICTIONS_SCHEMA = """
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Avocado panzanella",
+  "recipeIngredient": [],
+  "recipeInstructions": [],
+  "suitableForDiet": [
+    "https://schema.org/VegetarianDiet",
+    {
+      "@type": "Diet",
+      "name": "Vegan"
+    },
+    {
+      "@type": "Diet",
+      "name": "Mediterranean"
+    }
+  ]
 }
 """
 
@@ -199,6 +268,27 @@ class TestSchemaOrg(unittest.TestCase):
             parser.instructions(),
         )
 
+    def test_howto_step_with_list_item_list_element(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=HOWTO_STEP_LIST_ITEM_LIST_ELEMENT_SCHEMA
+        )
+        parser = SchemaOrg(page_data)
+        self.assertEqual("Slice the leek.\nServe.", parser.instructions())
+
+    def test_howto_step_with_dict_item_list_element(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=HOWTO_STEP_DICT_ITEM_LIST_ELEMENT_SCHEMA
+        )
+        parser = SchemaOrg(page_data)
+        self.assertEqual("First step.\nNested step.", parser.instructions())
+
+    def test_howto_step_with_empty_item_list_element(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(
+            jsonld=HOWTO_STEP_EMPTY_ITEM_LIST_ELEMENT_SCHEMA
+        )
+        parser = SchemaOrg(page_data)
+        self.assertEqual("First step.\nSecond step.", parser.instructions())
+
     def test_best_image_selection(self):
         page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=BEST_IMAGE_SCHEMA)
 
@@ -237,3 +327,12 @@ class TestSchemaOrg(unittest.TestCase):
             )
         finally:
             settings.BEST_IMAGE_SELECTION = original
+
+    def test_dietary_restrictions_with_diet_objects(self):
+        page_data = JSONLD_PAGE_TEMPLATE.format(jsonld=DIETARY_RESTRICTIONS_SCHEMA)
+        parser = SchemaOrg(page_data)
+
+        self.assertEqual(
+            ["Vegetarian Diet", "Vegan", "Mediterranean"],
+            parser.dietary_restrictions(),
+        )

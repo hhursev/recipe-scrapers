@@ -28,6 +28,7 @@ OPTIONAL_TESTS = [
     "description",
     "cook_time",
     "cuisine",
+    "notes",
     "nutrients",
     "prep_time",
     "cooking_method",

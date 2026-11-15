@@ -282,9 +282,14 @@ class SchemaOrg:
                     schema_item.get("name").rstrip(".")
                 ):
                     instructions_gist.append(schema_item.get("name"))
-            if schema_item.get("itemListElement"):
-                schema_item = schema_item.get("itemListElement")
-            instructions_gist.append(schema_item.get("text"))
+            elements = schema_item.get("itemListElement")
+            # A single nested item (dict) stands in for the step. A list (e.g. of
+            # HowToTip) only holds extras, so the step's own text is kept instead.
+            if isinstance(elements, dict):
+                schema_item = elements
+            text = schema_item.get("text")
+            if text:
+                instructions_gist.append(text)
         elif schema_item.get("@type") == "HowToSection":
             name = schema_item.get("name") or schema_item.get("Name")
             if name is not None:
@@ -402,7 +407,9 @@ class SchemaOrg:
         if not isinstance(dietary_restrictions, list):
             dietary_restrictions = [dietary_restrictions]
 
-        formatted_diets = [format_diet_name(diet) for diet in dietary_restrictions]
+        formatted_diets = [
+            diet for diet in (format_diet_name(d) for d in dietary_restrictions) if diet
+        ]
         formatted_diets = ", ".join(formatted_diets)
         final_diets = csv_to_tags(formatted_diets)
 

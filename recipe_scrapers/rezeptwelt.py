@@ -15,11 +15,10 @@ class Rezeptwelt(AbstractScraper):
         return normalize_string(self.soup.find("span", {"id": "viewRecipeAuthor"}).text)
 
     def instructions(self):
-        container = self.soup.find("div", id="preparationSteps").find(
-            "span", itemprop="text"
-        )
+        container = self.soup.find("div", id="preparationSteps")
         instructions = [
-            normalize_string(paragraph.text) for paragraph in container.find_all("p")
+            normalize_string(paragraph.get_text())
+            for paragraph in container.find_all("p")
         ]
         return "\n".join(filter(None, instructions))
 

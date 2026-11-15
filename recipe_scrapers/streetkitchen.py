@@ -5,7 +5,6 @@ from ._exceptions import ElementNotFoundInHtml, SchemaOrgException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_minutes
 
-
 _STREETKITCHEN_TIME_UL_LI = re.compile(
     r"^(Elkészítési|Sütési|Hűtési|Pácolási|Pihentetési)\s+idő\s*:",
     re.IGNORECASE,

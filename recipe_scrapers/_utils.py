@@ -54,11 +54,13 @@ RECIPE_YIELD_TYPES = (
     ("dozen", "dozen"),
     ("gallon", "gallons"),
     ("gram", "grams"),
+    ("kilogram", "kilograms"),
     ("hamburger bun", "hamburger buns"),
     ("item", "items"),
     ("layer", "layers"),
     ("liter", "liters"),
     ("loaf", "loaves"),
+    ("milliliter", "milliliters"),
     ("muffin", "muffins"),
     ("ounce", "ounces"),
     ("pancake", "pancakes"),
@@ -96,6 +98,15 @@ RECIPE_YIELD_TYPES = (
     # ... add more types as needed, in (singular, plural) format ...
 )
 
+RECIPE_YIELD_ABBREVIATIONS = (
+    ("kg", "kilogram", "kilograms"),
+    ("lbs", "pound", "pounds"),
+    ("lb", "pound", "pounds"),
+    ("oz", "ounce", "ounces"),
+    ("ml", "milliliter", "milliliters"),
+    ("g", "gram", "grams"),
+)
+
 # Pre-compile regex patterns for yield type matching with word boundaries
 _YIELD_TYPE_PATTERNS = [
     (
@@ -105,6 +116,16 @@ _YIELD_TYPE_PATTERNS = [
         plural,
     )
     for singular, plural in RECIPE_YIELD_TYPES
+]
+
+
+_YIELD_ABBREVIATION_PATTERNS = [
+    (
+        re.compile(rf"^\D*\d+(?:\.\d*)?\s*{re.escape(abbreviation)}\b", re.IGNORECASE),
+        singular,
+        plural,
+    )
+    for abbreviation, singular, plural in RECIPE_YIELD_ABBREVIATIONS
 ]
 
 
@@ -123,6 +144,13 @@ def format_diet_name(diet_input):
         "VeganDiet": "Vegan Diet",
         "VegetarianDiet": "Vegetarian Diet",
     }
+
+    if isinstance(diet_input, dict):
+        diet_input = diet_input.get("name")
+
+    if not isinstance(diet_input, str):
+        return None
+
     if "schema.org/" in diet_input:
         diet_input = diet_input.split("schema.org/")[-1]
 
@@ -251,13 +279,16 @@ def get_yields(element):
         best_element = element[0]
         for item in element:
             item_str = str(item).lower()
-            for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS:
-                if singular_pattern.search(item_str) or plural_pattern.search(item_str):
-                    best_element = item
-                    break
-            else:
-                continue
-            break
+            has_unit = any(
+                singular_pattern.search(item_str) or plural_pattern.search(item_str)
+                for singular_pattern, plural_pattern, _, _ in _YIELD_TYPE_PATTERNS
+            ) or any(
+                abbreviation_pattern.search(item_str)
+                for abbreviation_pattern, _, _ in _YIELD_ABBREVIATION_PATTERNS
+            )
+            if has_unit:
+                best_element = item
+                break
         element = best_element
 
     if isinstance(element, str):
@@ -288,6 +319,10 @@ def get_yields(element):
         singular_match = singular_pattern.search(serve_text_lower)
         plural_match = plural_pattern.search(serve_text_lower)
         if singular_match or plural_match:
+            if singular == "dozen":
+                # "4 dozen cookies" is 4 dozen, not 4 cookies
+                best_match = format_count_label(matched, singular, plural)
+                break
             match_length = (
                 max(len(singular), len(plural))
                 if (singular_match and plural_match)
@@ -299,6 +334,10 @@ def get_yields(element):
 
     if best_match:
         return best_match
+
+    for abbreviation_pattern, singular, plural in _YIELD_ABBREVIATION_PATTERNS:
+        if abbreviation_pattern.search(serve_text_lower):
+            return format_count_label(matched, singular, plural)
 
     plural = "s" if matched != 1 else ""
     if SERVE_REGEX_ITEMS.search(serve_text) is not None:

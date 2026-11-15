@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!--
+Generated with generate.py TheFlavorBender on 2026-10-10 from:
+https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/
+Reduced to original recipe JSON-LD, attribution/image metadata, and
+ingredient-group markup for testing. Article prose, visitor reviews,
+forms, executable scripts, styles, tracking and image files are omitted.
+-->
+<html lang="en-US">
+<head>
+<link href="https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/" rel="canonical"/>
+<meta content="The Flavor Bender" property="og:site_name"/>
+<meta content="https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Ramen-Eggs-FB.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.theflavorbender.com/#website",
+      "name": "The Flavor Bender",
+      "url": "https://www.theflavorbender.com/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.theflavorbender.com/#/schema/person/ab6f60ebb738d3347a2b3dfb5ad2b43c",
+      "name": "Dini Kodippili",
+      "url": "https://www.theflavorbender.com/author/dini/"
+    },
+    {
+      "@type": "Recipe",
+      "name": "Ramen Eggs",
+      "author": {
+        "@id": "https://www.theflavorbender.com/#/schema/person/ab6f60ebb738d3347a2b3dfb5ad2b43c"
+      },
+      "description": "Sweet, salty, rich, and with plenty of umami flavor - these jammy Ramen Eggs (Ajitsuke Tamago) are simple, versatile and perfect in your ramen bowl, or any other way you eat them! Minimum marinating time of 2 hours, or up to 12 hours (optimal). EASY - This recipe is great for beginners. Easy to make and packed with flavor!US based cup, teaspoon, tablespoon measurements. Common Measurement Conversions",
+      "datePublished": "2019-01-09T21:11:05+00:00",
+      "image": [
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Ramen-Eggs-Featured-image2.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Ramen-Eggs-Featured-image2-500x500.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Ramen-Eggs-Featured-image2-500x375.jpg",
+        "https://www.theflavorbender.com/wp-content/uploads/2019/01/Easy-Ramen-Eggs-Featured-image2-480x270.jpg"
+      ],
+      "recipeYield": [
+        "4",
+        "4 eggs"
+      ],
+      "prepTime": "PT5M",
+      "cookTime": "PT15M",
+      "totalTime": "PT140M",
+      "recipeIngredient": [
+        "4  - 5  large eggs (2 oz / 57 g in weight (plus more in case any of the eggs crack!))",
+        "¾ cup mirin (or Aji mirin)",
+        "¼ cup regular soy sauce",
+        "¼ cup dark soy sauce",
+        "½ cup water",
+        "½ tsp cayenne pepper",
+        "2 cloves of garlic, or 1 inch piece of ginger (sliced )",
+        "1  star anise"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToSection",
+          "name": "Ramen eggs",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Fill a large pot with water. Make sure the pot is large enough for the eggs to sit at the bottom in one layer, and for the water level to be about 1 inch above the eggs.",
+              "name": "Fill a large pot with water. Make sure the pot is large enough for the eggs to sit at the bottom in one layer, and for the water level to be about 1 inch above the eggs.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add some salt or a little vinegar to the water (this is to prevent the egg whites from leaking out if there are any small cracks while the eggs are cooking).",
+              "name": "Add some salt or a little vinegar to the water (this is to prevent the egg whites from leaking out if there are any small cracks while the eggs are cooking).",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Bring the water to a boil over high heat with the lid on. Then lower the heat to medium or medium high, so that the water is still bubbling but not at a rolling boil (the eggs are more likely to crack at a rolling boil).",
+              "name": "Bring the water to a boil over high heat with the lid on. Then lower the heat to medium or medium high, so that the water is still bubbling but not at a rolling boil (the eggs are more likely to crack at a rolling boil).",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Gently lower each egg into the water. (If any eggs crack while being lowered into the water, I would use them to make omelet or scrambled eggs instead!).",
+              "name": "Gently lower each egg into the water. (If any eggs crack while being lowered into the water, I would use them to make omelet or scrambled eggs instead!).",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "As soon as you&#39;ve lowered all the eggs into the water, place the lid back on, and immediately set the timer as follows to cook the eggs to your preference.5 ½ minutes for set, but soft egg whites, and runny egg yolks - these eggs are very delicate.6 minutes for a set white, but runny egg yolk. 6 ½ minutes for a set white, a jammy/runny egg yolk (as seen in the pictures in this post). This is my favorite. 7 minutes for a set white, and a half set egg yolk.",
+              "name": "As soon as you&#39;ve lowered all the eggs into the water, place the lid back on, and immediately set the timer as follows to cook the eggs to your preference.5 ½ minutes for set, but soft egg whites, and runny egg yolks - these eggs are very delicate.6 minutes for a set white, but runny egg yolk. 6 ½ minutes for a set white, a jammy/runny egg yolk (as seen in the pictures in this post). This is my favorite. 7 minutes for a set white, and a half set egg yolk.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "While the eggs are cooking, set up an ice bath for the eggs, or a bowl full of cold tap water in the sink (where the water can be kept running).",
+              "name": "While the eggs are cooking, set up an ice bath for the eggs, or a bowl full of cold tap water in the sink (where the water can be kept running).",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-5"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "When the time is up, remove the eggs and immediately place them in a bowl with cold running water for at least 2 - 3 minutes, OR place them in the ice bath for a few minutes.",
+              "name": "When the time is up, remove the eggs and immediately place them in a bowl with cold running water for at least 2 - 3 minutes, OR place them in the ice bath for a few minutes.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-6"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Carefully peel the eggs by gently tapping them on a hard surface to create little cracks all over the surface. (The eggs cooked for 5 ½ minutes will be trickier to peel than those cooked for 7 minutes.)",
+              "name": "Carefully peel the eggs by gently tapping them on a hard surface to create little cracks all over the surface. (The eggs cooked for 5 ½ minutes will be trickier to peel than those cooked for 7 minutes.)",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-7"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Once peeled, place the eggs in the (cooled) marinade. For those eggs cooked for 5 ½ minutes, put the marinade into a bowl where the eggs can be placed along the bottom in one layer.",
+              "name": "Once peeled, place the eggs in the (cooled) marinade. For those eggs cooked for 5 ½ minutes, put the marinade into a bowl where the eggs can be placed along the bottom in one layer.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-8"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Let the eggs marinate for at least for 2 hours, or 8 - 12 hours for best results, or even up to 24 hours.",
+              "name": "Let the eggs marinate for at least for 2 hours, or 8 - 12 hours for best results, or even up to 24 hours.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-9"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Remove the eggs from the marinade and place them in a separate air-tight container. These can be stored in the fridge for up to 5 days.",
+              "name": "Remove the eggs from the marinade and place them in a separate air-tight container. These can be stored in the fridge for up to 5 days.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-10"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Keep the rest of the marinade in an air-tight container in the fridge. This can be re-used for up to 3 weeks.",
+              "name": "Keep the rest of the marinade in an air-tight container in the fridge. This can be re-used for up to 3 weeks.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-0-11"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Marinade",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Place the marinade ingredients (except water) in a tall container with an air-tight lid. Whisk to combine (if you added sugar, make sure the sugar is completely dissolved). The basic marinade is now ready.",
+              "name": "Place the marinade ingredients (except water) in a tall container with an air-tight lid. Whisk to combine (if you added sugar, make sure the sugar is completely dissolved). The basic marinade is now ready.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-1-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "If you want to infuse the marinade with more flavor, place it in a small saucepan, along with ¼ cup of water. Add chili, or garlic, or ginger, or star anise (or all), and bring the marinade to a simmer. As soon as the sauce starts to simmer, remove it from the heat and let it cool to room temperature.",
+              "name": "If you want to infuse the marinade with more flavor, place it in a small saucepan, along with ¼ cup of water. Add chili, or garlic, or ginger, or star anise (or all), and bring the marinade to a simmer. As soon as the sauce starts to simmer, remove it from the heat and let it cool to room temperature.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-1-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Put the infused marinade in a tall air-tight container, along with the cooked eggs to marinate, as described above.",
+              "name": "Put the infused marinade in a tall air-tight container, along with the cooked eggs to marinate, as described above.",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-1-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add up to ½ cup of water to the marinade if you will be marinating the eggs for longer than 6 hours (in the fridge).",
+              "name": "Add up to ½ cup of water to the marinade if you will be marinating the eggs for longer than 6 hours (in the fridge).",
+              "url": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#wprm-recipe-25982-step-1-3"
+            }
+          ]
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.98",
+        "ratingCount": "67",
+        "reviewCount": "13"
+      },
+      "recipeCategory": [
+        "Breakfast",
+        "Brunch",
+        "Lunch",
+        "Side Dish",
+        "Snack"
+      ],
+      "recipeCuisine": [
+        "Asian",
+        "Japanese"
+      ],
+      "keywords": "Condiments, Eggs, Ramen",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 egg",
+        "calories": "88 kcal",
+        "carbohydrateContent": "3 g",
+        "proteinContent": "7 g",
+        "fatContent": "5 g",
+        "saturatedFatContent": "2 g",
+        "cholesterolContent": "187 mg",
+        "sodiumContent": "510 mg",
+        "sugarContent": "2 g"
+      },
+      "@id": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#recipe",
+      "isPartOf": {
+        "@id": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/#article"
+      },
+      "mainEntityOfPage": "https://www.theflavorbender.com/ramen-eggs-ajitsuke-tamago/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wprm-recipe-ingredients-container wprm-recipe-ingredients-no-images wprm-recipe-25982-ingredients-container wprm-block-text-light wprm-ingredient-style-regular wprm-recipe-images-before" id="recipe-25982-ingredients">
+ <h4 class="wprm-recipe-header wprm-recipe-ingredients-header wprm-block-text-bold wprm-align-left wprm-header-decoration-spacer wprm-header-has-actions">
+  Ingredients:
+  <div class="wprm-decoration-spacer">
+  </div>
+  <div class="wprm-recipe-adjustable-servings-container wprm-recipe-adjustable-servings-25982-container wprm-toggle-container wprm-toggle-buttons-container wprm-block-text-normal">
+  </div>
+ </h4>
+ <div class="wprm-spacer">
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   For the eggs
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     4  – 5
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     large eggs
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     2 oz / 57 g in weight (plus more in case any of the eggs crack!)
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   For the marinade
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ¾
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cup
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     mirin
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     or Aji mirin
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ¼
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cup
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     regular soy sauce
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ¼
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cup
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     dark soy sauce
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     if you can’t find this, substitute with an equal amount of regular soy sauce +
+     <span class="wprm-dynamic-quantity">
+      1
+     </span>
+     tbsp brown sugar
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ½
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cup
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     water
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     up to
+     <span class="wprm-dynamic-quantity">
+      ½
+     </span>
+     cup (optional). Add the water if you want the eggs to marinate for longer than 6 hours in the fridge
+    </span>
+   </li>
+  </ul>
+ </div>
+ <div class="wprm-recipe-ingredient-group">
+  <h5 class="wprm-recipe-group-name wprm-recipe-ingredient-group-name wprm-block-text-bold">
+   Optional spices
+  </h5>
+  <div class="wprm-spacer">
+  </div>
+  <ul class="wprm-recipe-ingredients">
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     ½
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     tsp
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     cayenne pepper
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     2
+    </span>
+    <span class="wprm-recipe-ingredient-unit">
+     cloves
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     of garlic, or 1 inch piece of ginger
+    </span>
+    <span class="wprm-recipe-ingredient-notes wprm-recipe-ingredient-notes-faded">
+     sliced
+    </span>
+   </li>
+   <li class="wprm-recipe-ingredient">
+    <span class="wprm-checkbox-container">
+     <label class="wprm-checkbox-label">
+      <span class="sr-only screen-reader-text wprm-screen-reader-text">
+       ▢
+      </span>
+     </label>
+    </span>
+    <span class="wprm-recipe-ingredient-amount">
+     1
+    </span>
+    <span class="wprm-recipe-ingredient-name">
+     star anise
+    </span>
+   </li>
+  </ul>
+ </div>
+</div>
+</body>
+</html>

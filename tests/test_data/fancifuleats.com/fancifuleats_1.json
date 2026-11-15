@@ -1,0 +1,55 @@
+{
+  "author": "Celeste",
+  "canonical_url": "https://fancifuleats.com/cafe-de-olla/",
+  "site_name": "Fanciful Eats",
+  "host": "fancifuleats.com",
+  "language": "en-US",
+  "title": "Café de Olla",
+  "ingredients": [
+    "3 oz piloncillo",
+    "1 Mexican cinnamon stick",
+    "2 whole cloves",
+    "1 star anise",
+    "1 3-inch (7.6 cm) piece orange peel",
+    "4 cups water",
+    "4 tbsp ground coffee (we use Café Bustelo)"
+  ],
+  "notes": [
+    "Pour any leftover coffee into an airtight bottle and keep in the fridge for up to 3-4 days. Reheat in the microwave or on the stove.",
+    "You can also enjoy it over ice! Just let it cool all the way to room temperature first or keep it in the fridge until chilled.",
+    "Makes around 4 cups (1 litre) of coffee."
+  ],
+  "instructions_list": [
+    "To a small saucepan, add the piloncillo, cinnamon stick, cloves, star anise, orange peel, and water. Place it over medium heat and stir occasionally until the sugar has dissolved.",
+    "Increase to medium-high heat and bring to a boil.",
+    "Once boiling, turn off the heat and quickly stir in the ground coffee. Cover and let it steep for 6 minutes.",
+    "Strain the coffee through a fine mesh sieve or cheesecloth and enjoy!"
+  ],
+  "category": "Drinks",
+  "yields": "4 servings",
+  "description": "Café de Olla is a Mexican spiced coffee drink made with piloncillo, spices, and ground coffee. It's simple to make on the stove and it's great for spicing up your morning coffee routine.",
+  "total_time": 30,
+  "cook_time": 25,
+  "prep_time": 5,
+  "cuisine": "Mexican",
+  "equipment": [
+    "Small Saucepan",
+    "Fine Mesh Sieve"
+  ],
+  "nutrients": {
+    "servingSize": "1 cup (250 ml)",
+    "calories": "79 kcal",
+    "fatContent": "0.1 g",
+    "carbohydrateContent": "19 g",
+    "sugarContent": "18 g",
+    "proteinContent": "0.1 g",
+    "sodiumContent": "12 mg",
+    "fiberContent": "1 g"
+  },
+  "image": "https://fancifuleats.com/wp-content/uploads/2026/03/cover-cafe-de-olla.jpg",
+  "keywords": [
+    "café de olla",
+    "mexican coffee",
+    "spiced mexican coffee"
+  ]
+}

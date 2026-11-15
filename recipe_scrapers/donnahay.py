@@ -1,5 +1,3 @@
-# mypy: allow-untyped-defs
-
 import re
 import warnings
 

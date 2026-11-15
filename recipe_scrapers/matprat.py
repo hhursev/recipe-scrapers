@@ -15,32 +15,25 @@ class Matprat(AbstractScraper):
     def ingredients(self):
         ingredient_list = []
 
-        for ul in self.soup.select("div.recipe-ingredients ul.ingredientsList"):
-            for li in ul.select("li[itemprop=ingredients]"):
-                amount = li.find("span", class_="amount")
-                unit = li.find("span", class_="unit")
-                name = next(
-                    (s for s in li.find_all("span") if s not in [amount, unit]), None
-                )
-
-                parts = []
-                for tag in [amount, unit, name]:
-                    if tag:
-                        text = normalize_string(tag.get_text(separator=" ", strip=True))
-                        if text:
-                            parts.append(text)
-
-                if parts:
-                    ingredient_list.append(" ".join(parts))
+        for li in self.soup.select(
+            "li[class*='IngredientsGroup_ingredients-group__item']"
+        ):
+            parts = [
+                normalize_string(span.get_text(" ", strip=True))
+                for span in li.find_all("span")
+            ]
+            ingredient = " ".join(part for part in parts if part)
+            if ingredient:
+                ingredient_list.append(ingredient)
 
         return ingredient_list
 
     def ingredient_groups(self):
         return group_ingredients(
             self.ingredients(),
-            self.soup.find("div", "ingredients-list"),
-            "h3.ingredient-section-title",
-            "ul.ingredientsList > li > span:not(.amount):not(.unit)",
+            self.soup,
+            "h3[class*='IngredientsGroup_ingredients-group__title']",
+            "li[class*='IngredientsGroup_ingredients-group__item']",
         )
 
     def nutrients(self):

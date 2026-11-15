@@ -41,5 +41,8 @@
   "cook_time": 40,
   "prep_time": 10,
   "cuisine": "Chinese",
+  "dietary_restrictions": [
+    "Vegetarian Diet"
+  ],
   "image": "https://i.guim.co.uk/img/media/44b2223c94c81bf84df181d38163e4e5bfe2494a/0_1609_3627_2176/master/3627.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=baffb2be0b4630fc57f4ce3268330e5d"
 }
