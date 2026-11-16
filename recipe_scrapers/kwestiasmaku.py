@@ -12,9 +12,11 @@ class KwestiaSmaku(AbstractScraper):
         raise FieldNotProvidedByWebsiteException(return_value=None)
 
     def yields(self):
-        return get_yields(
-            self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})
-        )
+        yields = self.soup.find("div", {"class": "field-name-field-ilosc-porcji"})
+        if not yields:
+            return None
+
+        return get_yields(yields)
 
     def image(self):
         return (

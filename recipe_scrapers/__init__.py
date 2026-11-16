@@ -72,6 +72,7 @@ from .amberskitchencooks import AmbersKitchencooks
 from .ambitiouskitchen import AmbitiousKitchen
 from .ameessavorydish import AmeesSavoryDish
 from .americastestkitchen import AmericasTestKitchen
+from .amysnuritionkitchen import AmysNuritionKitchen
 from .andycooks import AndyCooks
 from .anitalianinmykitchen import AnItalianInMyKitchen
 from .archanaskitchen import ArchanasKitchen
@@ -81,6 +82,7 @@ from .asweetpeachef import ASweetPeaChef
 from .atelierdeschefs import AtelierDesChefs
 from .aubreyskitchen import AubreysKitchen
 from .averiecooks import AverieCooks
+from .bakedbree import BakedBree
 from .bakeeatrepeat import BakeEatRepeat
 from .bakeitwithlove import BakeItWithLove
 from .bakels import Bakels
@@ -144,6 +146,7 @@ from .choosehomemade import ChooseHomemade
 from .cleaneatingkitchen import CleanEatingKitchen
 from .closetcooking import ClosetCooking
 from .cloudykitchen import CloudyKitchen
+from .coffeecopycat import CoffeeCopycat
 from .coleycooks import ColeyCooks
 from .colleenchristensennutrition import ColleenChristensenNutrition
 from .comidinhasdochef import ComidinhasDoChef
@@ -172,6 +175,7 @@ from .cuisineaz import CuisineAZ
 from .cuisinezpourbebe import CuisinezPourBebe
 from .culinaryhill import CulinaryHill
 from .culy import Culy
+from .curatedkitchenware import CuratedKitchenware
 from .cybercook import Cybercook
 from .dagelijksekost import DagelijkseKost
 from .damndelicious import DamnDelicious
@@ -217,13 +221,16 @@ from .epicurious import Epicurious
 from .erinliveswhole import ErinLivesWhole
 from .erinscozykitchen import ErinsCozyKitchen
 from .errenskitchen import ErrensKitchen
+from .espressomykitchen import EspressoMyKitchen
 from .essenundtrinken import EssenUndTrinken
 from .ethanchlebowski import EthanChlebowski
 from .everydaydelicious import EverydayDelicious
 from .everydaypie import EverydayPie
 from .evolvingtable import EvolvingTable
+from .experimenteausmeinerkueche import ExperimenteAusMeinerKueche
 from .familyfoodonthetable import FamilyfoodOnTheTable
 from .familyspice import FamilySpice
+from .fancifuleats import FancifulEats
 from .fantabulosity import Fantabulosity
 from .farmhousedelivery import FarmhouseDelivery
 from .farmhouseonboone import FarmhouseOnBoone
@@ -425,6 +432,7 @@ from .mykidslickthebowl import MyKidsLickTheBowl
 from .mykitchen101 import MyKitchen101
 from .mykitchen101en import MyKitchen101en
 from .mykoreankitchen import MyKoreanKitchen
+from .mymessykitchenn import MyMessyKitchenn
 from .myrecipes import MyRecipes
 from .myriadrecipes import MyriadRecipes
 from .myvegetarianroots import MyVegetarianRoots
@@ -637,6 +645,7 @@ from .timesofindia import TimesOfIndia
 from .tineno import TineNo
 from .tofoo import Tofoo
 from .toriavey import ToriAvey
+from .trilivyhealth import TrilivyHealth
 from .tudogostoso import TudoGostoso
 from .tudoreceitas import TudoReceitas
 from .twentyfourkitchen import TwentyFourKitchen
@@ -680,6 +689,7 @@ from .zaubertopf import ZauberTopf
 from .zeitwochenmarkt import ZeitWochenmarkt
 from .zenbelly import ZenBelly
 from .zestfulkitchen import ZestfulKitchen
+from .zuckerjagdwurst import ZuckerJagdwurst
 
 SCRAPERS = {
     ABeautifulMess.host(): ABeautifulMess,
@@ -728,6 +738,7 @@ SCRAPERS = {
     AmbitiousKitchen.host(): AmbitiousKitchen,
     AmeesSavoryDish.host(): AmeesSavoryDish,
     AmericasTestKitchen.host(): AmericasTestKitchen,
+    AmysNuritionKitchen.host(): AmysNuritionKitchen,
     AndyCooks.host(): AndyCooks,
     AnItalianInMyKitchen.host(): AnItalianInMyKitchen,
     ArchanasKitchen.host(): ArchanasKitchen,
@@ -737,6 +748,7 @@ SCRAPERS = {
     AtelierDesChefs.host(): AtelierDesChefs,
     AubreysKitchen.host(): AubreysKitchen,
     AverieCooks.host(): AverieCooks,
+    BakedBree.host(): BakedBree,
     BakeEatRepeat.host(): BakeEatRepeat,
     BakeItWithLove.host(): BakeItWithLove,
     Bakels.host(): Bakels,
@@ -877,6 +889,7 @@ SCRAPERS = {
     CleanEatingKitchen.host(): CleanEatingKitchen,
     ClosetCooking.host(): ClosetCooking,
     CloudyKitchen.host(): CloudyKitchen,
+    CoffeeCopycat.host(): CoffeeCopycat,
     ColeyCooks.host(): ColeyCooks,
     ColleenChristensenNutrition.host(): ColleenChristensenNutrition,
     ComidinhasDoChef.host(): ComidinhasDoChef,
@@ -905,6 +918,7 @@ SCRAPERS = {
     CuisinezPourBebe.host(): CuisinezPourBebe,
     CulinaryHill.host(): CulinaryHill,
     Culy.host(): Culy,
+    CuratedKitchenware.host(): CuratedKitchenware,
     Cybercook.host(): Cybercook,
     DagelijkseKost.host(): DagelijkseKost,
     DamnDelicious.host(): DamnDelicious,
@@ -951,13 +965,16 @@ SCRAPERS = {
     ErinLivesWhole.host(): ErinLivesWhole,
     ErinsCozyKitchen.host(): ErinsCozyKitchen,
     ErrensKitchen.host(): ErrensKitchen,
+    EspressoMyKitchen.host(): EspressoMyKitchen,
     EssenUndTrinken.host(): EssenUndTrinken,
     EthanChlebowski.host(): EthanChlebowski,
     EverydayDelicious.host(): EverydayDelicious,
     EverydayPie.host(): EverydayPie,
     EvolvingTable.host(): EvolvingTable,
+    ExperimenteAusMeinerKueche.host(): ExperimenteAusMeinerKueche,
     FamilyfoodOnTheTable.host(): FamilyfoodOnTheTable,
     FamilySpice.host(): FamilySpice,
+    FancifulEats.host(): FancifulEats,
     Fantabulosity.host(): Fantabulosity,
     FarmhouseDelivery.host(): FarmhouseDelivery,
     FarmhouseOnBoone.host(): FarmhouseOnBoone,
@@ -1179,6 +1196,7 @@ SCRAPERS = {
     MyKitchen101.host(): MyKitchen101,
     MyKitchen101en.host(): MyKitchen101en,
     MyKoreanKitchen.host(): MyKoreanKitchen,
+    MyMessyKitchenn.host(): MyMessyKitchenn,
     MyRecipes.host(): MyRecipes,
     MyriadRecipes.host(): MyriadRecipes,
     MyVegetarianRoots.host(): MyVegetarianRoots,
@@ -1391,6 +1409,7 @@ SCRAPERS = {
     TineNo.host(): TineNo,
     Tofoo.host(): Tofoo,
     ToriAvey.host(): ToriAvey,
+    TrilivyHealth.host(): TrilivyHealth,
     TudoGostoso.host(): TudoGostoso,
     TudoReceitas.host(): TudoReceitas,
     TwentyFourKitchen.host(): TwentyFourKitchen,
@@ -1435,6 +1454,7 @@ SCRAPERS = {
     ZeitWochenmarkt.host(): ZeitWochenmarkt,
     ZenBelly.host(): ZenBelly,
     ZestfulKitchen.host(): ZestfulKitchen,
+    ZuckerJagdwurst.host(): ZuckerJagdwurst,
 }
 
 

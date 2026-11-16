@@ -172,6 +172,9 @@ class TestUtils(unittest.TestCase):
     def test_get_yields(self):
         self.assertEqual("5 servings", get_yields("5"))
 
+    def test_get_yields_dozen_with_item_unit(self):
+        self.assertEqual("4 dozen", get_yields("4 dozen cookies"))
+
     def test_get_yields_empty_string(self):
         with self.assertRaises(ValueError):
             get_yields("")

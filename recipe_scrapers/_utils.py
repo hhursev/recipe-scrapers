@@ -319,6 +319,10 @@ def get_yields(element):
         singular_match = singular_pattern.search(serve_text_lower)
         plural_match = plural_pattern.search(serve_text_lower)
         if singular_match or plural_match:
+            if singular == "dozen":
+                # "4 dozen cookies" is 4 dozen, not 4 cookies
+                best_match = format_count_label(matched, singular, plural)
+                break
             match_length = (
                 max(len(singular), len(plural))
                 if (singular_match and plural_match)

@@ -1,0 +1,69 @@
+{
+  "author": "Trilivy Blog",
+  "canonical_url": "https://blog.trilivyhealth.com/post/fish-taco-bowl",
+  "site_name": "Trilivy Blog",
+  "host": "blog.trilivyhealth.com",
+  "language": "en",
+  "title": "Fish Taco Bowl",
+  "ingredients": [
+    "1 lb. firm white fish such as cod, haddock, grouper, mahi mahi or tilapia",
+    "2 tsp vegetable oil",
+    "½ tsp chili powder",
+    "Cooking Spray",
+    "⅓ cup non-fat Greek yogurt",
+    "1 tbsp hot sauce",
+    "2 tbsp water",
+    "1½ cups cauliflower rice",
+    "2 tbsp salsa",
+    "½ cup shredded red and green cabbage",
+    "2 tsp lime juice",
+    "½ cup chopped tomato",
+    "½ cup sliced radishes",
+    "3 oz. cubed avocado, about ½ of an avocado",
+    "1 tbsp reduced fat feta cheese, crumbled"
+  ],
+  "ingredient_groups": [
+    {
+      "ingredients": [
+        "1 lb. firm white fish such as cod, haddock, grouper, mahi mahi or tilapia",
+        "2 tsp vegetable oil",
+        "½ tsp chili powder",
+        "Cooking Spray"
+      ],
+      "purpose": null
+    },
+    {
+      "ingredients": [
+        "⅓ cup non-fat Greek yogurt",
+        "1 tbsp hot sauce",
+        "2 tbsp water"
+      ],
+      "purpose": "Spicy Yogurt Sauce"
+    },
+    {
+      "ingredients": [
+        "1½ cups cauliflower rice",
+        "2 tbsp salsa",
+        "½ cup shredded red and green cabbage",
+        "2 tsp lime juice",
+        "½ cup chopped tomato",
+        "½ cup sliced radishes",
+        "3 oz. cubed avocado, about ½ of an avocado",
+        "1 tbsp reduced fat feta cheese, crumbled"
+      ],
+      "purpose": "For the Bowl"
+    }
+  ],
+  "instructions_list": [
+    "Brush fish with vegetable oil and sprinkle with chili powder.",
+    "Preheat grill or grill pan over medium-high heat. Spray grill grates with cooking spray and grill fish for about 3 to 4 minutes on each side. Transfer fish to a plate or cutting board and allow to rest for 5 minutes, then break into pieces. Set aside and keep warm.",
+    "In a small bowl, combine the Greek yogurt, the hot sauce and enough water to make a loose drizzle, about 2 tablespoons.",
+    "Steam or microwave cauliflower rice for 5 minutes until tender. Let cool, then toss with salsa. Set aside.",
+    "Toss the cabbage with the lime juice.",
+    "To assemble each bowl, start with ¾ cup of cauliflower rice. Top with an equal amount of grilled fish, cabbage slaw, chopped tomato, sliced radishes and avocado slices. Drizzle with spicy yogurt sauce and sprinkle with feta cheese."
+  ],
+  "yields": "2 servings",
+  "total_time": 30,
+  "prep_time": 15,
+  "image": "https://static.wixstatic.com/media/03ad1c_0f31fd38dfb0435ab21ada6492927019~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/03ad1c_0f31fd38dfb0435ab21ada6492927019~mv2.jpg"
+}
