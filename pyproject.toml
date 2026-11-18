@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools >= 77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -17,7 +17,8 @@ maintainers = [
 ]
 urls = {Homepage = "https://github.com/hhursev/recipe-scrapers/"}
 keywords = ["python", "recipes", "scraper", "harvest", "recipe-scraper", "recipe-scrapers"]
-license = {text = "MIT License"}
+license = "MIT"
+license-files = ["LICENSE"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
@@ -26,23 +27,22 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.15",
-    "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
     "Topic :: Internet :: WWW/HTTP",
     "Topic :: Software Development :: Libraries",
 ]
 dynamic = ["version", "readme"]
-requires-python = ">= 3.11"
+requires-python = ">= 3.11.5"
 dependencies = [
-    "beautifulsoup4 >= 4.12.3",
-    "extruct >= 0.17.0",
-    "isodate >= 0.6.1",
+    "beautifulsoup4 >= 4.13.1",
+    "extruct >= 0.18.0",
+    "isodate >= 0.7.2",
 ]
 
 [project.optional-dependencies]
 online = [
-    "requests>=2.31.0",
+    "requests>=2.32.4",
 ]
 # Documentation dependencies
 # Install these to build and serve the documentation:
