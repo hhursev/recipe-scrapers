@@ -22,7 +22,7 @@ class OurCookingJourney(AbstractScraper):
 
     def yields(self):
         servings = self.soup.select_one(".blog-content").find(
-            string=re.compile(r"Serves\s+\d", re.IGNORECASE)
+            string=re.compile(r"(Serves|Makes)\s+\d", re.IGNORECASE)
         )
         return get_yields(servings)
 
