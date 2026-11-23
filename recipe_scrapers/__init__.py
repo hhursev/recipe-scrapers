@@ -422,6 +422,7 @@ from .modernhoney import ModernHoney
 from .mollybaz import MollyBaz
 from .momontimeout import MomOnTimeout
 from .momswithcrockpots import MomsWithCrockPots
+from .monsieurcuisine import MonsieurCuisine
 from .moscatomom import MoscatoMom
 from .motherthyme import MotherThyme
 from .moulinex import Moulinex
@@ -1185,6 +1186,7 @@ SCRAPERS = {
     MollyBaz.host(): MollyBaz,
     MomOnTimeout.host(): MomOnTimeout,
     MomsWithCrockPots.host(): MomsWithCrockPots,
+    MonsieurCuisine.host(): MonsieurCuisine,
     MoscatoMom.host(): MoscatoMom,
     MotherThyme.host(): MotherThyme,
     Moulinex.host(): Moulinex,
