@@ -466,6 +466,7 @@ from .onesweetappetite import OneSweetAppetite
 from .organicallyaddison import OrganicallyAddison
 from .ottolenghibooks import OttolenghiBooks
 from .ourbestbites import OurBestBites
+from .ourcookingjourney import OurCookingJourney
 from .owenhan import OwenHan
 from .paleorunningmomma import PaleoRunningMomma
 from .panelinha import Panelinha
@@ -1229,6 +1230,7 @@ SCRAPERS = {
     OrganicallyAddison.host(): OrganicallyAddison,
     OttolenghiBooks.host(): OttolenghiBooks,
     OurBestBites.host(): OurBestBites,
+    OurCookingJourney.host(): OurCookingJourney,
     OwenHan.host(): OwenHan,
     PaleoRunningMomma.host(): PaleoRunningMomma,
     Panelinha.host(): Panelinha,
