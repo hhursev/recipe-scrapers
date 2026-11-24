@@ -15,6 +15,9 @@ class KitchenAidAustralia(AbstractScraper):
         time_pattern = re.compile("time", re.IGNORECASE)
 
         summary = self._get_summary
+        if summary is None:
+            return None
+
         time_items = summary.find_all("strong", string=time_pattern)
 
         if not time_items:
@@ -33,12 +36,17 @@ class KitchenAidAustralia(AbstractScraper):
         recipe = self._get_recipe
         ingredients = recipe.find("div", {"class": "leftPanel"})
 
-        elements = self._parse_list(ingredients)
-        return elements
+        if ingredients is None:
+            ingredients = self._get_panel("Ingredients")
+
+        return self._parse_list(ingredients)
 
     def ingredient_groups(self) -> list[IngredientGroup]:
         recipe = self._get_recipe
         ingredients = recipe.find("div", {"class": "leftPanel"})
+
+        if ingredients is None:
+            return [IngredientGroup(self.ingredients(), None)]
 
         groups = []
 
@@ -49,6 +57,9 @@ class KitchenAidAustralia(AbstractScraper):
             ingredient_group = IngredientGroup(elements, heading.text)
             groups.append(ingredient_group)
 
+        if not groups:
+            return [IngredientGroup(self.ingredients(), None)]
+
         return groups
 
     def instructions(self):
@@ -58,6 +69,9 @@ class KitchenAidAustralia(AbstractScraper):
         recipe = self._get_recipe
         method = recipe.find("div", {"class": "rightPanel"})
 
+        if method is None:
+            method = self._get_panel("Method")
+
         return self._parse_list(method)
 
     @functools.cached_property
@@ -65,7 +79,7 @@ class KitchenAidAustralia(AbstractScraper):
         """
         Get the recipe container element.
         """
-        return self.soup.find("article")
+        return self.soup.find("article") or self.soup
 
     @functools.cached_property
     def _get_summary(self):
@@ -80,6 +94,9 @@ class KitchenAidAustralia(AbstractScraper):
         """
         summary = self._get_summary
 
+        if summary is None:
+            return None
+
         item = summary.find("strong", string=field)
         return self._parse_summary_item(item)
 
@@ -87,14 +104,32 @@ class KitchenAidAustralia(AbstractScraper):
         """
         Get the value associated with a summary field.
         """
-        return item.find_next_sibling(name="p").text
+        if item is None:
+            return None
+
+        value = item.find_next_sibling(name="p")
+        return value.get_text(strip=True) if value else None
+
+    def _get_panel(self, heading):
+        """
+        Find a recipe panel by its heading.
+        """
+        pattern = re.compile(
+            rf"^\s*{re.escape(heading)}\s*:?\s*$",
+            re.IGNORECASE,
+        )
+
+        for panel in self.soup.select("div.panel-text-two-columns"):
+            if panel.find(["h2", "h3", "h4"], string=pattern):
+                return panel
+
+        return None
 
     def _parse_list(self, container) -> list[str]:
-        """
-        Get the text from each of the li elements contained by the given container.
-        """
-        li_list = container.find_all("li")
+        if container is None:
+            return []
 
-        elements = [li.text for li in li_list]
-
-        return elements
+        return [
+            re.sub(r"\s+", " ", li.get_text()).strip()
+            for li in container.find_all("li")
+        ]
