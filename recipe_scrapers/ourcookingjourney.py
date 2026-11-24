@@ -1,7 +1,7 @@
 import re
 
 from ._abstract import AbstractScraper
-from ._exceptions import FieldNotProvidedByWebsiteException
+from ._exceptions import FieldNotProvidedByWebsiteException, StaticValueException
 from ._grouping_utils import IngredientGroup
 from ._utils import get_yields, normalize_string
 
@@ -12,7 +12,7 @@ class OurCookingJourney(AbstractScraper):
         return "ourcookingjourney.com"
 
     def author(self):
-        raise FieldNotProvidedByWebsiteException(return_value=None)
+        raise StaticValueException(return_value="Francesco Mattana")
 
     def title(self):
         return self.soup.select_one(".blog-title").get_text()
