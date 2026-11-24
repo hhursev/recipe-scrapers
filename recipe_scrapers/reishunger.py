@@ -7,13 +7,21 @@ class Reishunger(AbstractScraper):
     def host(cls):
         return "reishunger.de"
 
+    def _find_heading(self, text):
+        heading = self.soup.find("h2", {"id": text.lower()})
+        if heading:
+            return heading
+        for heading in self.soup.find_all("h2"):
+            if heading.get_text(strip=True) == text:
+                return heading
+
     def _filter_ingredients(self):
         """
         Sort through the 'ingredients' heading from the page; this can contain
         a mixture of food ingredients and also kitchen equipment items.
         """
         # Find the "ingredients" heading (Zutaten in German)
-        heading = self.soup.find("h2", {"id": "zutaten"})
+        heading = self._find_heading("Zutaten")
 
         ingredients, equipment = [], []
         in_equipment = False
@@ -47,7 +55,7 @@ class Reishunger(AbstractScraper):
 
     def instructions(self):
         # Find the "instructions" heading (Zubereitung in German)
-        heading = self.soup.find("h2", {"id": "zubereitung"})
+        heading = self._find_heading("Zubereitung")
 
         chose_method = False
         results = []
