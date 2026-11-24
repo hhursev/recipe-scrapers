@@ -8,9 +8,9 @@ class Reishunger(AbstractScraper):
         return "reishunger.de"
 
     def _find_heading(self, text):
-        return self.soup.find(
-            "h2", {"id": text.lower()}
-        ) or self.soup.find("h2", string=lambda s: s and s.strip() == text)
+        return self.soup.find("h2", {"id": text.lower()}) or self.soup.find(
+            "h2", string=lambda s: s and s.strip() == text
+        )
 
     def _filter_ingredients(self):
         """
