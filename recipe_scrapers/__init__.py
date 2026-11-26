@@ -120,6 +120,7 @@ from .bongeats import BongEats
 from .bowlofdelicious import BowlOfDelicious
 from .breadtopia import Breadtopia
 from .brewersfriend import BrewersFriend
+from .brianlagerstrom import BrianLagerstrom
 from .briceletbaklava import BricelEtBaklava
 from .brokenovenbaking import BrokenOvenBaking
 from .budapestcookingclass import BudapestCookingClass
@@ -863,6 +864,7 @@ SCRAPERS = {
     BowlOfDelicious.host(): BowlOfDelicious,
     Breadtopia.host(): Breadtopia,
     BrewersFriend.host(): BrewersFriend,
+    BrianLagerstrom.host(): BrianLagerstrom,
     BricelEtBaklava.host(): BricelEtBaklava,
     BrokenOvenBaking.host(): BrokenOvenBaking,
     BudapestCookingClass.host(): BudapestCookingClass,
