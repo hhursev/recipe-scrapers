@@ -87,6 +87,10 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 76,
+  "equipment": [
+    "large cast iron skillet (at least 10.25-inches in diameter, preferably 12-inches in diameter)",
+    "instant read thermometer"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "640 kcal",

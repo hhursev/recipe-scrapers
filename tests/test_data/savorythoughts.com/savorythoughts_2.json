@@ -73,6 +73,11 @@
   "cuisine": "American,Italian",
   "ratings": 5.0,
   "ratings_count": 12,
+  "equipment": [
+    "Mixing Bowl",
+    "Hand Mixer",
+    "8×8 Baking Pan"
+  ],
   "nutrients": {
     "servingSize": "8 servings",
     "calories": "764 kcal",

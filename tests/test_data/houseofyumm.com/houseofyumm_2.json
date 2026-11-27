@@ -103,6 +103,11 @@
   "cuisine": "Mexican,Tex Mex",
   "ratings": 4.82,
   "ratings_count": 204,
+  "equipment": [
+    "large dutch oven",
+    "dried guajillos",
+    "cast iron skillet"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "857 kcal",

@@ -95,6 +95,9 @@
   "cook_time": 20,
   "prep_time": 40,
   "cuisine": "American",
+  "equipment": [
+    "KitchenAid stand mixer"
+  ],
   "nutrients": {
     "servingSize": "1 of 12 rolls",
     "calories": "457 kcal",

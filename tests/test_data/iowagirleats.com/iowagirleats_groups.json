@@ -72,6 +72,9 @@
   "cuisine": "Mexican",
   "ratings": 4.84,
   "ratings_count": 18,
+  "equipment": [
+    "Dutch oven"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "417 kcal",
