@@ -1,7 +1,8 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class SugarMapleFarmhouse(AbstractScraper):
+class SugarMapleFarmhouse(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "sugarmaplefarmhouse.com"

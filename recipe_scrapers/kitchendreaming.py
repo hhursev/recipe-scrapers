@@ -1,8 +1,9 @@
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 from ._grouping_utils import group_ingredients
 
 
-class KitchenDreaming(AbstractScraper):
+class KitchenDreaming(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "kitchendreaming.com"

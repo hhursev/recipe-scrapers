@@ -38,6 +38,9 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "crockpot"
+  ],
   "nutrients": {
     "servingSize": "2 meatballs",
     "calories": "34 kcal",

@@ -59,6 +59,9 @@
   "cuisine": "African",
   "ratings": 5.0,
   "ratings_count": 7,
+  "equipment": [
+    "1 Stock pot"
+  ],
   "nutrients": {
     "servingSize": "6 Servings",
     "calories": "327 kcal",

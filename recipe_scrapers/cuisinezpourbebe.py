@@ -1,8 +1,9 @@
 from ._utils import normalize_string
 from ._abstract import AbstractScraper
+from ._wprm import WPRMMixin
 
 
-class CuisinezPourBebe(AbstractScraper):
+class CuisinezPourBebe(WPRMMixin, AbstractScraper):
     @classmethod
     def host(cls):
         return "cuisinez-pour-bebe.fr"

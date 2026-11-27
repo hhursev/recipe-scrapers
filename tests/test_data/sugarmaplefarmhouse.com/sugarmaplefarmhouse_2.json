@@ -72,6 +72,9 @@
   "cook_time": 30,
   "prep_time": 10,
   "cuisine": "American,Mediterranean",
+  "equipment": [
+    "large Baking sheet"
+  ],
   "image": "https://www.sugarmaplefarmhouse.com/app/uploads/2025-12-29_0016-scaled.jpg",
   "keywords": [
     "citrus salmon",

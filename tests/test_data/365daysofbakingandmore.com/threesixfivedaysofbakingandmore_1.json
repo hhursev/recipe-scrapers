@@ -33,6 +33,9 @@
   "cook_time": 1,
   "prep_time": 10,
   "cuisine": "Italian",
+  "equipment": [
+    "Pizzelle Iron"
+  ],
   "nutrients": {
     "servingSize": "1 cookie",
     "calories": "82 kcal",
