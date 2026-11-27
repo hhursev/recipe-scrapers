@@ -35,6 +35,11 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 1,
+  "equipment": [
+    "Smoker",
+    "Spray Bottle",
+    "Meat thermometer"
+  ],
   "nutrients": {
     "servingSize": "1 serving",
     "calories": "643 kcal",

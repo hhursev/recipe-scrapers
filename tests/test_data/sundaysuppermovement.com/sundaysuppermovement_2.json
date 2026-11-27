@@ -58,6 +58,10 @@
   "cuisine": "American",
   "ratings": 5.0,
   "ratings_count": 3,
+  "equipment": [
+    "Air fryer",
+    "Bowl for mixing seasoning"
+  ],
   "nutrients": {
     "servingSize": "0.75 pound",
     "calories": "373 kcal",
