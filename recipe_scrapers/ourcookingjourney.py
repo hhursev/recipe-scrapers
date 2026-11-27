@@ -59,10 +59,44 @@ class OurCookingJourney(AbstractScraper):
         return groups
 
     def instructions(self):
-        return "\n".join(
-            normalize_string(instruction.get_text())
-            for instruction_list in self._get_lists("method")
-            for instruction in instruction_list.select("li")
+        instruction_lists = list(self._get_lists("method"))
+        if instruction_lists:
+            return "\n".join(
+                normalize_string(instruction.get_text())
+                for instruction_list in instruction_lists
+                for instruction in instruction_list.select("li")
+            )
+        return "\n".join(self._get_method_lines())
+
+    def _get_method_lines(self):
+        lines = []
+        for paragraph in self.soup.select(".blog-content .paragraph"):
+            for heading in paragraph.find_all("strong"):
+                label = normalize_string(heading.get_text()).rstrip(":").lower()
+                if label != "method":
+                    continue
+                parts = []
+                for sibling in heading.next_siblings:
+                    if sibling.name == "strong" and self._is_section_heading(sibling):
+                        break
+                    if sibling.name == "br":
+                        line = normalize_string("".join(parts))
+                        if line:
+                            lines.append(line)
+                        parts = []
+                    else:
+                        parts.append(sibling.get_text())
+                line = normalize_string("".join(parts))
+                if line:
+                    lines.append(line)
+                if lines:
+                    return lines
+        return lines
+
+    def _is_section_heading(self, element):
+        label = normalize_string(element.get_text()).rstrip(":").lower()
+        return label in ("ingredients", "method") or bool(
+            re.match(r"^\*?\s*top\s+tip$", label)
         )
 
     def _get_lists(self, section):
