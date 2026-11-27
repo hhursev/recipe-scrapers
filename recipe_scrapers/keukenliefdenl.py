@@ -1,5 +1,3 @@
-import re
-
 from ._abstract import AbstractScraper
 from ._exceptions import ElementNotFoundInHtml
 from ._utils import get_minutes, get_yields, normalize_string
@@ -23,18 +21,16 @@ class KeukenLiefdeNL(AbstractScraper):
 
     def total_time(self):
         time = self.soup.find("div", {"class": "article-meta-item sp tijd"})
-        if time:
-            text = time.get_text()
-            if "+" in text:
-                stages = [
-                    re.match(r"\s*(\d+)\s*min(?:uten)?\b", stage, re.I)
-                    for stage in text.split("+")
-                ]
-                if all(stages):
-                    return sum(int(stage[1]) for stage in stages)
-            return get_minutes(text)
+        if not time:
+            return None
 
-        return None
+        text = time.get_text()
+        if "+" in text:
+            stages = [get_minutes(stage) for stage in text.split("+")]
+            if all(stages):
+                return sum(stages)
+
+        return get_minutes(text)
 
     def yields(self):
         yields = self.soup.find("div", {"class": "article-meta-item sp aantal"})
