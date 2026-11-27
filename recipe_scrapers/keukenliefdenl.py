@@ -21,10 +21,16 @@ class KeukenLiefdeNL(AbstractScraper):
 
     def total_time(self):
         time = self.soup.find("div", {"class": "article-meta-item sp tijd"})
-        if time:
-            return get_minutes(time.get_text())
+        if not time:
+            return None
 
-        return None
+        text = time.get_text()
+        if "+" in text:
+            stages = [get_minutes(stage) for stage in text.split("+")]
+            if all(stages):
+                return sum(stages)
+
+        return get_minutes(text)
 
     def yields(self):
         yields = self.soup.find("div", {"class": "article-meta-item sp aantal"})

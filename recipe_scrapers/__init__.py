@@ -141,6 +141,7 @@ from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
 from .chewoutloud import ChewOutLoud
+from .chineserecipes import ChineseRecipes
 from .chocolatewithgrace import ChocolateWithGrace
 from .choosehomemade import ChooseHomemade
 from .cleaneatingkitchen import CleanEatingKitchen
@@ -884,6 +885,7 @@ SCRAPERS = {
     Chefnini.host(): Chefnini,
     ChefSavvy.host(): ChefSavvy,
     ChewOutLoud.host(): ChewOutLoud,
+    ChineseRecipes.host(): ChineseRecipes,
     ChocolateWithGrace.host(): ChocolateWithGrace,
     ChooseHomemade.host(): ChooseHomemade,
     CleanEatingKitchen.host(): CleanEatingKitchen,
