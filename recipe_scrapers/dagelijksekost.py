@@ -11,7 +11,5 @@ class DagelijkseKost(AbstractScraper):
         container = self.soup.select_one('[data-testid="instructions-web"]')
         return "\n".join(
             normalize_string(step.get_text())
-            for step in container.select(
-                '[data-testid="recipe-instruction"] p'
-            )
+            for step in container.select('[data-testid="recipe-instruction"] p')
         )
